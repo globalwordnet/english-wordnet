@@ -1,8 +1,6 @@
-# Princeton English WordNet
+# English WordNet
 
-**This is a demo version of the repository**
-
-The Princeton English WordNet as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/)
+The English WordNet as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/)
 format.
 
 ## Usage
@@ -17,7 +15,7 @@ Further conversions are available through the converter [here](http://server1.nl
 
 ## Changes
 
-** We are currently only accepting the following changes **
+**We are currently only accepting the following changes:**
 
 * Minor corrections to definitions, examples (e.g., spelling)
 * Corrections of lemmas
