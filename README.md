@@ -1,7 +1,9 @@
 # English WordNet
 
 The English WordNet as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/)
-format.
+format. This Wordnet is an attempt to make it easier to provide feedback in the 
+form of patches to the [Princeton Wordnet](https://wordnet.princeton.edu/). 
+It is undergoing a first trial in Summer 2018.
 
 ## Usage
 
