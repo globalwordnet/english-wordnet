@@ -5,6 +5,17 @@ format. This Wordnet is an attempt to make it easier to provide feedback in the
 form of patches to the [Princeton Wordnet](https://wordnet.princeton.edu/). 
 It is undergoing a first trial in Summer 2018.
 
+## Download
+
+The latest version can be accessed here
+
+* [As WN-LMF XML](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.xml)
+* [As RDF](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.ttl)
+* [As WordNet database files](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.zip)
+
+Please note these files are automatically compiled from the HEAD of MASTER and 
+may not be available immediately after a commit.
+
 ## Usage
 
 To compile these into a single file please use the following script
@@ -13,7 +24,7 @@ To compile these into a single file please use the following script
 
 This will create a file at `wn31.xml` that contains the complete wordnet.
 
-Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org:8080/gwn-converter).
+Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter).
 
 ## Changes
 
