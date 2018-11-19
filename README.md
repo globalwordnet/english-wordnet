@@ -10,7 +10,7 @@ It is undergoing a first trial in Summer 2018.
 The latest version can be accessed here
 
 * [As WN-LMF XML](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.xml)
-* [As RDF](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.ttl)
+* [As RDF (TTL)](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.ttl) (the RDF TTL file conains only the instances - the Ontolex schema is also available [as RDF XML](https://www.w3.org/ns/lemon/ontolex))
 * [As WordNet database files](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.2.zip)
 
 Please note these files are automatically compiled from the HEAD of MASTER and 
