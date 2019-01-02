@@ -1,5 +1,7 @@
 from enum import Enum
 from xml.sax import ContentHandler, parse
+import re
+import sys
 
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
@@ -13,6 +15,7 @@ class Lexicon:
         self.url = url
         self.entries = []
         self.synsets = []
+        self.comments = {}
 
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (self.id, 
@@ -23,6 +26,31 @@ class Lexicon:
 
     def add_synset(self, synset):
         self.synsets.append(synset)
+
+    def to_xml(self, xml_file, part=True):
+        xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
+        if part:
+            xml_file.write("""<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">\n""")
+        else:
+            xml_file.write("""<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">\n""")
+        xml_file.write("""<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Lexicon id="%s" 
+           label="%s" 
+           language="%s"
+           email="%s"
+           license="%s"
+           version="%s"
+           url="%s">
+""" % (self.id, self.label, self.language, self.email,
+               self.license, self.version, self.url))
+
+        for entry in self.entries:
+            entry.to_xml(xml_file, self.comments)
+        for synset in self.synsets:
+            synset.to_xml(xml_file, self.comments)
+        xml_file.write("""  </Lexicon>
+</LexicalResource>\n""")
+        
         
 class LexicalEntry:
     """The lexical entry consists of a single word"""
@@ -45,6 +73,19 @@ class LexicalEntry:
     def add_syntactic_behaviour(self, synbeh):
         self.syntactic_behaviours.append(synbeh)
 
+    def to_xml(self, xml_file, comments):
+        xml_file.write("""    <LexicalEntry id="%s">
+      <Lemma writtenForm="%s" partOfSpeech="%s"/>
+""" % (self.id, escape_xml_lit(self.lemma.written_form), self.lemma.part_of_speech.value))
+        for form in self.forms:
+            form.to_xml(xml_file)
+        for sense in self.senses:
+            sense.to_xml(xml_file, comments)
+        for synbeh in self.syntactic_behaviours:
+            synbeh.to_xml(xml_file)
+        xml_file.write("""    </LexicalEntry>
+""")
+
 
 class Lemma:
     """The lemma gives the written form and part of speech of an entry"""
@@ -57,16 +98,39 @@ class Form:
     def __init__(self, written_form):
         self.written_form = written_form
 
+    def to_xml(self, xml_file):
+        xml_file.write("""      <Form writtenForm="%s"/>
+""" % self.written_form)
+
+
 class Sense:
     """The sense links an entry to a synset"""
-    def __init__(self, id, synset, sense_key):
+    def __init__(self, id, synset, sense_key, n=-1):
         self.id = id
         self.synset = synset
+        self.n = n
         self.sense_key = sense_key
         self.sense_relations = []
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
+
+    def to_xml(self, xml_file, comments):
+        if self.n >= 0:
+            n_str = " n=\"%d\"" % self.n
+        else:
+            n_str = ""
+        if len(self.sense_relations) > 0:
+            xml_file.write("""      <Sense id="%s"%s synset="%s" dc:identifier="%s">
+""" % (self.id, n_str, self.synset, escape_xml_lit(self.sense_key)))
+            for rel in self.sense_relations:
+                rel.to_xml(xml_file, comments)
+            xml_file.write("""        </Sense>
+""")
+        else:
+            xml_file.write("""      <Sense id="%s"%s synset="%s" dc:identifier="%s"/>
+""" % (self.id, n_str, self.synset, escape_xml_lit(self.sense_key)))
+
 
 class Synset:
     """The synset is a collection of synonyms"""
@@ -94,28 +158,87 @@ class Synset:
     def add_example(self, example):
         self.examples.append(example)
 
+    def to_xml(self, xml_file, comments):
+        if self.id in comments:
+            xml_file.write("""    <!-- %s -->
+""" % comments[self.id])
+        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s">
+""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name))
+        for defn in self.definitions:
+            defn.to_xml(xml_file)
+        if self.ili_definition:
+            self.ili_definition.to_xml(xml_file, True)
+        for rel in self.synset_relations:
+            rel.to_xml(xml_file, comments)
+        for ex in self.examples:
+            ex.to_xml(xml_file)
+        xml_file.write("""    </Synset>
+""")
+
+
 class Definition:
     def __init__(self, text):
         self.text = text
 
+    def to_xml(self, xml_file, is_ili=False):
+        if is_ili:
+            xml_file.write("""      <ILIDefinition>%s</ILIDefinition>
+""" % escape_xml_lit(self.text))
+        else:
+            xml_file.write("""      <Definition>%s</Definition>
+""" % escape_xml_lit(self.text))
+
+    def __eq__(self, other):
+        return self.text == other.text
+
+
 class Example:
     def __init__(self, text):
         self.text = text
+
+    def to_xml(self, xml_file):
+        xml_file.write("""      <Example>%s</Example>
+""" % escape_xml_lit(self.text))
+
 
 class SynsetRelation:
     def __init__(self, target, rel_type):
         self.target = target
         self.rel_type = rel_type
 
+    def to_xml(self, xml_file, comments):
+        xml_file.write("""      <SynsetRelation relType="%s" target="%s"/>""" % 
+                (self.rel_type.value, self.target))
+        if self.target in comments:
+            xml_file.write(""" <!-- %s -->
+""" % comments[self.target])
+        else:
+            xml_file.write("\n")
+
 class SenseRelation:
     def __init__(self, target, rel_type):
         self.target = target
         self.rel_type = rel_type
 
+    def to_xml(self, xml_file, comments):
+        xml_file.write("""        <SenseRelation relType="%s" target="%s"/>""" % 
+                (self.rel_type.value, self.target))
+        if self.target in comments:
+            xml_file.write(""" <!-- %s -->
+""" % comments[self.target])
+        else:
+            xml_file.write("\n")
+
+
 class SyntacticBehaviour:
     def __init__(self, subcategorization_frame, senses):
         self.subcategorization_frame = subcategorization_frame
         self.senses = senses
+
+    def to_xml(self, xml_file):
+        xml_file.write("""      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
+""" % (escape_xml_lit(self.subcategorization_frame), " ".join(self.senses)))
+
 
 class PartOfSpeech(Enum):
     NOUN = 'n'
@@ -223,9 +346,9 @@ class WordNetContentHandler(ContentHandler):
         self.lexicon = None
         self.entry = None
         self.sense = None
-        self.defn_flag = False
-        self.ili_defn_flag = False
-        self.example_flag = False
+        self.defn = None
+        self.ili_defn = None
+        self.example = None
         self.synset = None
 
     def startElement(self, name, attrs):
@@ -239,18 +362,22 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Form":
             self.entry.add_form(Form(attrs["writtenForm"]))
         elif name == "Sense":
+            if "n" in attrs:
+                n = int(attrs["n"])
+            else:
+                n = -1
             self.sense = Sense(attrs["id"], attrs["synset"], 
-                    attrs["dc:identifier"])
+                    attrs["dc:identifier"], n)
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),
                 attrs["dc:subject"])
         elif name == "Definition":
-            self.defn_flag = True
+            self.defn = ""
         elif name == "ILIDefinition":
-            self.ili_defn_flag = True
+            self.ili_defn = ""
         elif name == "Example":
-            self.example_flag = True
+            self.example = ""
         elif name == "SynsetRelation":
             self.synset.add_synset_relation(
                     SynsetRelation(attrs["target"],
@@ -280,31 +407,67 @@ class WordNetContentHandler(ContentHandler):
             self.lexicon.add_synset(self.synset)
             self.synset = None
         elif name == "Definition":
-            self.defn_flag = False
+            self.synset.add_definition(Definition(self.defn))
+            self.defn = None
         elif name == "ILIDefinition":
-            self.ili_defn_flag = False
+            self.synset.add_definition(Definition(self.ili_defn), True)
+            self.ili_defn = None
         elif name == "Example":
-            self.example_flag = False
+            self.synset.add_example(Example(self.example))
+            self.example = None
 
 
     def characters(self, content):
-        if self.defn_flag:
-            self.synset.add_definition(Definition(content))
-        elif self.ili_defn_flag:
-            self.synset.add_definition(Definition(content), True)
-        elif self.example_flag:
-            self.synset.add_example(Example(content))
+        if self.defn != None:
+            self.defn += content
+        elif self.ili_defn != None:
+            self.ili_defn += content
+        elif self.example != None:
+            self.example += content
         elif content.strip() == '':
             pass
         else:
+            print(content)
             raise ValueError("Text content not expected")
+
+def escape_xml_lit(lit):
+    return lit.replace("&", "&amp;").replace("'", "&apos;").
+        replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+
+def extract_comments(wordnet_file,lexicon):
+    with open(wordnet_file) as source:
+        sen_rel_comment = re.compile(".*<SenseRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
+        syn_rel_comment = re.compile(".*<SynsetRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
+        comment = re.compile(".*<!-- (.*) -->.*")
+        synset = re.compile(".*<Synset id=\"(\\S*)\".*")
+        c = None
+        for line in source.readlines():
+            m = sen_rel_comment.match(line)
+            if m:
+                lexicon.comments[m.group(1)] = m.group(2)
+            else:
+                m = syn_rel_comment.match(line)
+                if m:
+                    lexicon.comments[m.group(1)] = m.group(2)
+                else:
+                    m = comment.match(line)
+                    if m:
+                        c = m.group(1)
+                    else:
+                        m = synset.match(line)
+                        if m and c:
+                            lexicon.comments[m.group(1)] = c
+                            c = None
 
 
 def parse_wordnet(wordnet_file):
-    source = open(wordnet_file)
-    handler = WordNetContentHandler()
-    parse(source, handler)
-    print(handler.lexicon)
+    with open(wordnet_file) as source:
+        handler = WordNetContentHandler()
+        parse(source, handler)
+    extract_comments(wordnet_file, handler.lexicon)
+    return handler.lexicon
 
 if __name__ == "__main__":
-    parse_wordnet("wn31.xml")
+    wordnet = parse_wordnet(sys.argv[1])
+    xml_file = open("wn31-test.xml","w")
+    wordnet.to_xml(xml_file, True)
