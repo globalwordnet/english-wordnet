@@ -100,7 +100,7 @@ class Form:
 
     def to_xml(self, xml_file):
         xml_file.write("""      <Form writtenForm="%s"/>
-""" % self.written_form)
+""" % escape_xml_lit(self.written_form))
 
 
 class Sense:
@@ -431,8 +431,8 @@ class WordNetContentHandler(ContentHandler):
             raise ValueError("Text content not expected")
 
 def escape_xml_lit(lit):
-    return lit.replace("&", "&amp;").replace("'", "&apos;").
-        replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+    return (lit.replace("&", "&amp;").replace("'", "&apos;").
+        replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;"))
 
 def extract_comments(wordnet_file,lexicon):
     with open(wordnet_file) as source:
