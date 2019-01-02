@@ -138,16 +138,20 @@ class Sense:
             n_str = " n=\"%d\"" % self.n
         else:
             n_str = ""
+        if self.sense_key:
+            sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
+        else:
+            sk_str = ""
         if len(self.sense_relations) > 0:
-            xml_file.write("""      <Sense id="%s"%s synset="%s" dc:identifier="%s">
-""" % (self.id, n_str, self.synset, escape_xml_lit(self.sense_key)))
+            xml_file.write("""      <Sense id="%s"%s synset="%s"%s>
+""" % (self.id, n_str, self.synset, sk_str))
             for rel in self.sense_relations:
                 rel.to_xml(xml_file, comments)
             xml_file.write("""        </Sense>
 """)
         else:
-            xml_file.write("""      <Sense id="%s"%s synset="%s" dc:identifier="%s"/>
-""" % (self.id, n_str, self.synset, escape_xml_lit(self.sense_key)))
+            xml_file.write("""      <Sense id="%s"%s synset="%s"%s/>
+""" % (self.id, n_str, self.synset, sk_str))
 
 
 class Synset:
