@@ -389,7 +389,7 @@ class WordNetContentHandler(ContentHandler):
             else:
                 n = -1
             self.sense = Sense(attrs["id"], attrs["synset"], 
-                    attrs["dc:identifier"], n)
+                    attrs.get("dc:identifier") or "", n)
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),
