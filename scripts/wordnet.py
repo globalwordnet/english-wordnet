@@ -16,16 +16,34 @@ class Lexicon:
         self.entries = []
         self.synsets = []
         self.comments = {}
+        self.id2synset = {}
+        self.id2entry = {}
+        self.members = {}
 
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (self.id, 
                 len(self.entries), len(self.synsets))
 
     def add_entry(self, entry):
+        self.id2entry[entry.id] = entry
+        for sense in entry.senses:
+            if sense.synset not in self.members:
+                self.members[sense.synset] = []
+            self.members[sense.synset].append(entry.lemma.written_form)
         self.entries.append(entry)
 
     def add_synset(self, synset):
+        self.id2synset[synset.id] = synset
         self.synsets.append(synset)
+
+    def entry_by_id(self, id):
+        return self.id2entry.get(id)
+
+    def synset_by_id(self, id):
+        return self.id2synset.get(id)
+
+    def members_by_id(self, synset_id):
+        return self.members.get(synset_id)
 
     def to_xml(self, xml_file, part=True):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
