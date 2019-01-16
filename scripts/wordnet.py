@@ -18,6 +18,7 @@ class Lexicon:
         self.comments = {}
         self.id2synset = {}
         self.id2entry = {}
+        self.member2entry = {}
         self.members = {}
 
     def __str__(self):
@@ -30,6 +31,9 @@ class Lexicon:
             if sense.synset not in self.members:
                 self.members[sense.synset] = []
             self.members[sense.synset].append(entry.lemma.written_form)
+        if entry.lemma.written_form not in self.members:
+            self.member2entry[entry.lemma.written_form] = []
+        self.member2entry[entry.lemma.written_form].append(entry.id)
         self.entries.append(entry)
 
     def add_synset(self, synset):
@@ -41,6 +45,9 @@ class Lexicon:
 
     def synset_by_id(self, id):
         return self.id2synset.get(id)
+
+    def entry_by_lemma(self, lemma):
+        return self.member2entry.get(lemma)
 
     def members_by_id(self, synset_id):
         return self.members.get(synset_id)
