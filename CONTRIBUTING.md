@@ -1,7 +1,33 @@
 # Contributing
 
-We love pull requests from everyone. By participating in this project, you
-agree to abide by the [code of conduct](#code-of-conduct).
+By participating in this project, you agree to abide by the [code of conduct](#code-of-conduct).
+
+## Issues
+
+One of the easiest ways to contribute is to log an issue. If the issue refers to a single synset, please include
+
+* The synset ID (this should be a code like ewn-00001740-n)
+* The lemmas of the synset
+* The definition of the synset
+
+If the issue refers to multiple synsets please make it clear which files these belong to.
+
+Please provide on the following tags for the issue:
+
+* `definition`: The text definition should be updated
+* `add relation`: The relation between two synsets (senses) is not correct
+* `change relation`: A relation is wrong either in type (e.g., `hypernym` vs. `instance_hypernym`) or target
+* `example`: An example should be updated
+* `new synset`: A new concept should be introduced
+* `remove relation`: A relation should be removed
+* `delete synset`: A synset should be deleted. (This is used only rarely for truly nonsense or compositional concepts)
+* `synset duplicate`: Two synsets refer to the same concept and should be merged. 
+* `synset member`: A new member should be added to or removed from the synset
+* `synset split`: A synset represents two distinct concepts and should be split
+
+## Pull Requests
+
+We love pull requests from everyone. 
 
 Fork, then clone the repo:
 
