@@ -12,7 +12,7 @@ One of the easiest ways to contribute is to log an issue. If the issue refers to
 
 If the issue refers to multiple synsets please make it clear which files these belong to.
 
-Please provide on the following tags for the issue:
+Further, if the solution to the issue is clear, please provide on the following tags for the issue:
 
 * `definition`: The text definition should be updated
 * `add relation`: The relation between two synsets (senses) is not correct
