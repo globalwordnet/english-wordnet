@@ -52,8 +52,7 @@ some changes or improvements or alternatives.
 Some things that will increase the chance that your pull request is accepted:
 
 * Make small incremental changes.
-* Do not use automatic tools to rewrite the XML.
-* Respect the existing formatting of the XML.
+* Avoid the use of automatic tools or formatters to keep commits small and trackable.
 * Write a [good commit message][commit].
 
 [commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
