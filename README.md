@@ -21,7 +21,7 @@ English WordNet is released through the [English WordNet website](https://en-wor
 The latest version can be accessed here
 
 * [As WN-LMF XML](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.xml)
-* [As RDF (TTL)](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.ttl) (the RDF TTL file conains only the instances - the Ontolex schema is also available [as RDF XML](https://www.w3.org/ns/lemon/ontolex))
+* [As RDF (TTL)](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.ttl) (the RDF TTL file contains only the instances - the Ontolex schema is also available [as RDF XML](https://www.w3.org/ns/lemon/ontolex))
 * [As WordNet database files](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.zip)
 
 Please note these files are automatically compiled from the HEAD of MASTER and 
@@ -45,7 +45,7 @@ and make a pull request.
 English WordNet is a high-quality resource that acts as a gold-standard for natural language processing,
 as such we cannot accept any automatically generated results that have not been manually validated.
 
-Please be aware that we use the Also please read the guidelines for [format](FORMAT.md)
+Please be aware that we use the [Global WordNet Association LMF](https://globalwordnet.github.io/schemas/) and please read the guidelines for using the [format](FORMAT.md)
 
 ## License
 
