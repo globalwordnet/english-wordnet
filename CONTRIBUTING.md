@@ -12,7 +12,7 @@ One of the easiest ways to contribute is to log an issue. If the issue refers to
 
 If the issue refers to multiple synsets please make it clear which files these belong to.
 
-Please provide on the following tags for the issue:
+Further, if the solution to the issue is clear, please provide on the following tags for the issue:
 
 * `definition`: The text definition should be updated
 * `add relation`: The relation between two synsets (senses) is not correct
@@ -52,8 +52,7 @@ some changes or improvements or alternatives.
 Some things that will increase the chance that your pull request is accepted:
 
 * Make small incremental changes.
-* Do not use automatic tools to rewrite the XML.
-* Respect the existing formatting of the XML.
+* Avoid the use of automatic tools or formatters to keep commits small and trackable.
 * Write a [good commit message][commit].
 
 [commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
