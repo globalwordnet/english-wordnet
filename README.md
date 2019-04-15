@@ -49,6 +49,6 @@ Please be aware that we use the [Global WordNet Association LMF](https://globalw
 
 ## License
 
-WordNet is released under the [WordNet License](https://wordnet.princeton.edu/license-and-commercial-use)
+WordNet is released under the [WordNet License](LICENSE.md)
 
 
