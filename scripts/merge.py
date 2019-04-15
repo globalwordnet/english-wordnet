@@ -48,7 +48,7 @@ def indent(elem, level=0):
     return elem  
 
 def main():
-    with open("wn31.xml", "w") as out:
+    with open("wn.xml", "w") as out:
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -61,8 +61,8 @@ def main():
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
 
-        for wn31_part in glob("src/wn31-*.xml"):
-            tree = ET.parse(wn31_part).getroot()
+        for wn_part in glob("src/wn-*.xml"):
+            tree = ET.parse(wn_part).getroot()
             for element in tree[0]:
                 if(element.tag == "LexicalEntry"):
                     id = element.attrib["id"]
@@ -76,8 +76,8 @@ def main():
                     .replace(" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"",""))
         out.write("\n    ")
 
-        for wn31_part in glob("src/wn31-*.xml"):
-            tree = ET.parse(wn31_part).getroot()
+        for wn_part in glob("src/wn-*.xml"):
+            tree = ET.parse(wn_part).getroot()
             for element in tree[0]:
                 if(element.tag == "Synset"):
                     out.write(ET.tostring(element).decode()
