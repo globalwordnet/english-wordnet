@@ -37,7 +37,7 @@ To compile these into a single file please use the following script
 
 This will create a file at `wn31.xml` that contains the complete wordnet.
 
-Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter).
+Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
 
 ## Changes
 
