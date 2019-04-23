@@ -6,13 +6,15 @@ applications and provides deep lexical information about the English language as
 
 English WordNet is a fork of the [Princeton Wordnet](https://wordnet.princeton.edu/) developed under
 an open source methodology. The quality and veracity of the resource may differ from the Princeton 
-WordNet and we welcome contributions. The English WordNet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
+WordNet and we welcome contributions. Contributions to this wordnet may eventually be incorporated into
+future releases of Princeton WordNet. Correspondance to previous versions and wordnets in other language is provided
+through the [Collaborative Interlingual Index (CILI)](http://compling.hss.ntu.edu.sg/iliomw/ili). The English WordNet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
 
 ## Releases
 
 English WordNet is released through the [English WordNet website](https://en-word.net/). The version released are
 
-* **2019 Edition** (Released 15th April 2019). [(LMF)](https://en-word.net/english-wordnet-2019.xml.gz)
+* **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/english-wordnet-2019.xml.gz)
 [(RDF)](https://en-word.net/english-wordnet-2019.ttl.gz)
 [(WNDB)](https://en-word.net/english-wordnet-2019.zip)
 
@@ -35,7 +37,7 @@ To compile these into a single file please use the following script
 
 This will create a file at `wn31.xml` that contains the complete wordnet.
 
-Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter).
+Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
 
 ## Changes
 
