@@ -8,7 +8,7 @@ In addition, the following criteria should be followed in creating the resource
 There must be a lexical entry for each synset member in the same file as the 
 synset. Its ID must be as follows 
 
-    pwn-lemma-p
+    ewn-lemma-p
 
 Where
 
@@ -22,7 +22,7 @@ Where
 
 Senses must have identifiers that correspond to lexical entry and are of the form
 
-    pwn-lemma-p-XXXXXXXX-YY
+    ewn-lemma-p-XXXXXXXX-YY
 
 * `lemma` and `p` are as for lexical entries
 * `XXXXXXXX` is the offset code from Princeton WordNet's 3.1 release (see below for novel synsets)
@@ -41,7 +41,7 @@ Synset relations are followed by a comment giving all members of the synset.
 
 Synsets have an identifier as follows
 
-    pwn-XXXXXXXX-p
+    ewn-XXXXXXXX-p
 
 * `XXXXXXXX` is the offset code from Princeton WordNet's 3.1 release. For novel
     synsets the code should start with a `2` and the number should be chosen
