@@ -26,6 +26,8 @@ class Lexicon:
                 len(self.entries), len(self.synsets))
 
     def add_entry(self, entry):
+        if entry.id in self.id2entry:
+            sys.stderr.write("Duplicate ID: " + entry.id + "\n")
         self.id2entry[entry.id] = entry
         for sense in entry.senses:
             if sense.synset not in self.members:
