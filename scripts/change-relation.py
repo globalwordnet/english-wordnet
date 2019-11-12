@@ -6,6 +6,7 @@ import pickle
 
 def delete_rel(source, target):
     """Delete all relationships between two synsets"""
+    print("Delete %s =*=> %s" % (source.id, target.id))
     wn_source = wordnet.parse_wordnet("src/wn-%s.xml" % source.lex_name)
     ss = wn_source.synset_by_id(source.id)
     ss.synset_relations = [r for r in ss.synset_relations if r.target != target.id]
@@ -14,6 +15,7 @@ def delete_rel(source, target):
 
 def insert_rel(source, rel_type, target):
     """Insert a single relation between two synsets"""
+    print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
     wn_source = wordnet.parse_wordnet("src/wn-%s.xml" % source.lex_name)
     ss = wn_source.synset_by_id(source.id)
     ss.synset_relations.append(wordnet.SynsetRelation(target.id, rel_type))
@@ -43,7 +45,7 @@ def update_target(wn, source, old_target, new_target):
     """Change the target of a link"""
     rel_type = find_type(source, old_target)
     delete_rel(source, old_target)
-    insert_rel(source, rel_type, old_target)
+    insert_rel(source, rel_type, new_target)
     if rel_type in wordnet.inverse_synset_rels:
         inv_rel_type = wordnet.inverse_synset_rels[rel_type]
         delete_rel(old_target, source)
