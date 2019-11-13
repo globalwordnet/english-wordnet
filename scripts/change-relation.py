@@ -70,12 +70,10 @@ def add_relation(wn, source, target, new_rel):
         inv_rel_type = wordnet.inverse_synset_rels[new_rel]
         insert_rel(target, inv_rel_type, source)
 
-def delete_relation(wn, source, target, new_rel):
+def delete_relation(wn, source, target):
     """Change the type of a link"""
     delete_rel(source, target)
-    if new_rel in wordnet.inverse_synset_rels:
-        inv_rel_type = wordnet.inverse_synset_rels[new_rel]
-        delete_rel(target, source)
+    delete_rel(target, source)
 
 
 def main():
@@ -162,9 +160,14 @@ def main():
                 sys.exit(-1)
             add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
         elif args.delete:
-            delete_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
+            delete_relation(wn, source_synset, target_synset)
         else:
             update_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
+    elif args.delete:
+        if args.add:
+            print("Cannot both add and delete a relation")
+            sys.exit(-1)
+        delete_relation(wn, source_synset, target_synset)
     else:
         print("No change specified")
 

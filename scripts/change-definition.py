@@ -18,7 +18,7 @@ def update_def(wn, synset, defn, add):
         wn_synset.to_xml(out, True)
 
 def main():
-    parser = argparse.ArgumentParser(description="Change a relationship within the wordnet")
+    parser = argparse.ArgumentParser(description="Change a definition within the wordnet")
     parser.add_argument('id', metavar='ID', type=str, 
             help="The ID of the synset (sense) for the relationship")
     parser.add_argument('--add', action='store_true',
