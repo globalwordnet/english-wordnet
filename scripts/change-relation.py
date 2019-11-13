@@ -18,6 +18,9 @@ def insert_rel(source, rel_type, target):
     print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
     wn_source = wordnet.parse_wordnet("src/wn-%s.xml" % source.lex_name)
     ss = wn_source.synset_by_id(source.id)
+    if [r for r in ss.synset_relations if r.target == target.id and r.rel_type == rel_type]:
+        print("Already exists")
+        return
     ss.synset_relations.append(wordnet.SynsetRelation(target.id, rel_type))
     with open("src/wn-%s.xml" % source.lex_name, "w") as out:
         wn_source.to_xml(out, True)
@@ -54,11 +57,25 @@ def update_target(wn, source, old_target, new_target):
 def update_relation(wn, source, target, new_rel):
     """Change the type of a link"""
     delete_rel(source, target)
-    insert_rel(soucce, new_rel, target)
+    insert_rel(source, new_rel, target)
     if new_rel in wordnet.inverse_synset_rels:
         inv_rel_type = wordnet.inverse_synset_rels[new_rel]
         delete_rel(target, source)
         insert_rel(target, inv_rel_type, source)
+
+def add_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    insert_rel(source, new_rel, target)
+    if new_rel in wordnet.inverse_synset_rels:
+        inv_rel_type = wordnet.inverse_synset_rels[new_rel]
+        insert_rel(target, inv_rel_type, source)
+
+def delete_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    delete_rel(source, target)
+    if new_rel in wordnet.inverse_synset_rels:
+        inv_rel_type = wordnet.inverse_synset_rels[new_rel]
+        delete_rel(target, source)
 
 
 def main():
@@ -73,6 +90,10 @@ def main():
             help="The ID of the new target synset")
     parser.add_argument('--new-relation', type=str,
             help="The type of the new relationship")
+    parser.add_argument('--add', action='store_true',
+            help="Add this relation as a new relation")
+    parser.add_argument('--delete', action='store_true',
+            help="Remove this relation (do not replace or change)")
 
     args = parser.parse_args()
 
@@ -100,6 +121,9 @@ def main():
         if args.new_target or args.new_relation:
             print("Please perform a single change at a time")
             sys.exit(-1)
+        if args.add or args.delete:
+            print("Specifying new source when adding or deleting does not make sense")
+            sys.exit(-1)
         new_source = wn.synset_by_id(args.new_source)
 
         if not new_source:
@@ -111,6 +135,9 @@ def main():
     elif args.new_target:
         if args.new_source or args.new_relation:
             print("Please perform a single change at a time")
+            sys.exit(-1)
+        if args.add or args.delete:
+            print("Specifying new source when adding or deleting does not make sense")
             sys.exit(-1)
         new_target = wn.synset_by_id(args.new_target)
 
@@ -125,11 +152,19 @@ def main():
             print("Please perform a single change at a time")
             sys.exit(-1)
 
-        if args.new_relation not in wordnet.SynsetRelType:
+        if args.new_relation not in wordnet.SynsetRelType._value2member_map_:
             print("Not a valid relation type %s" % args.new_relation)
+            sys.exit(-1)
 
-        update_relation(wn, source_synset, target_synset, SynsetRelType(args.new_relation))
-
+        if args.add:
+            if args.delete:
+                print("Cannot both add and delete a relation")
+                sys.exit(-1)
+            add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
+        elif args.delete:
+            delete_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
+        else:
+            update_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
     else:
         print("No change specified")
 

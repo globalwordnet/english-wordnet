@@ -359,6 +359,8 @@ class SynsetRelType(Enum):
 inverse_synset_rels = {
         SynsetRelType.HYPERNYM: SynsetRelType.HYPONYM,
         SynsetRelType.HYPONYM: SynsetRelType.HYPERNYM,
+        SynsetRelType.INSTANCE_HYPERNYM: SynsetRelType.INSTANCE_HYPONYM,
+        SynsetRelType.INSTANCE_HYPONYM: SynsetRelType.INSTANCE_HYPERNYM,
         SynsetRelType.MERONYM: SynsetRelType.HOLONYM,
         SynsetRelType.HOLONYM: SynsetRelType.MERONYM,
         SynsetRelType.MERO_LOCATION: SynsetRelType.HOLO_LOCATION,
@@ -418,9 +420,13 @@ inverse_synset_rels = {
         SynsetRelType.CO_PATIENT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_PATIENT,
         SynsetRelType.CO_INSTRUMENT_PATIENT: SynsetRelType.CO_PATIENT_INSTRUMENT,
         SynsetRelType.CO_RESULT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_RESULT,
-        SynsetRelType.CO_INSTRUMENT_RESULT: SynsetRelType.CO_RESULT_INSTRUMENT
-        
-
+        SynsetRelType.CO_INSTRUMENT_RESULT: SynsetRelType.CO_RESULT_INSTRUMENT,
+        SynsetRelType.ANTONYM: SynsetRelType.ANTONYM,
+        SynsetRelType.EQ_SYNONYM: SynsetRelType.EQ_SYNONYM,
+        SynsetRelType.SIMILAR: SynsetRelType.SIMILAR,
+        SynsetRelType.ALSO: SynsetRelType.ALSO,
+        SynsetRelType.ATTRIBUTE: SynsetRelType.ATTRIBUTE,
+        SynsetRelType.CO_ROLE: SynsetRelType.CO_ROLE
         }
 
 class SenseRelType(Enum):
