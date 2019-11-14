@@ -444,6 +444,19 @@ class SenseRelType(Enum):
     SIMILAR = 'similar'
     OTHER = 'other'
     
+inverse_sense_rels = {
+        SenseRelType.DOMAIN_REGION: SenseRelType.HAS_DOMAIN_REGION,
+        SenseRelType.HAS_DOMAIN_REGION: SenseRelType.DOMAIN_REGION,
+        SenseRelType.DOMAIN_TOPIC: SenseRelType.HAS_DOMAIN_TOPIC,
+        SenseRelType.HAS_DOMAIN_TOPIC: SenseRelType.DOMAIN_TOPIC,
+        SenseRelType.EXEMPLIFIES: SenseRelType.IS_EXEMPLIFIED_BY,
+        SenseRelType.IS_EXEMPLIFIED_BY: SenseRelType.EXEMPLIFIES,
+        SenseRelType.ANTONYM: SenseRelType.ANTONYM,
+        SenseRelType.SIMILAR: SenseRelType.SIMILAR,
+        SenseRelType.ALSO: SenseRelType.ALSO,
+        SenseRelType.DERIVATION: SenseRelType.DERIVATION,
+        }
+
 class WordNetContentHandler(ContentHandler):
     def __init__(self):
         ContentHandler.__init__(self)
