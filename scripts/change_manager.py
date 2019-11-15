@@ -25,6 +25,29 @@ def delete_rel(source, target):
     with open("src/wn-%s.xml" % source.lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
+def decompose_sense_id(sense_id):
+    m = sense_id_re.match(sense_id)
+    if m:
+        lemma = m.group(1)
+        pos = m.group(2)
+        ssid = m.group(3)
+        return ("ewn-%s-%s" % (ssid, pos), "ewn-%s-%s" % (lemma, pos))
+    else:
+        raise Exception("Not a sense ID")
+
+def delete_sense_rel(wn, source, target):
+    """Delete all relationships between two senses"""
+    print("Delete %s =*=> %s" % (source, target))
+    (source_synset, source_entry) = decompose_sense_id(source)
+    lex_name = wn.synset_by_id(source_synset).lex_name
+    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    entry = wn_source.entry_by_id(source_entry)
+    sense = [sense for sense in entry.senses if sense.id == source][0]
+    sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
+    with open("src/wn-%s.xml" % lex_name, "w") as out:
+        wn_source.to_xml(out, True)
+
+
 def insert_rel(source, rel_type, target):
     """Insert a single relation between two synsets"""
     print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
@@ -133,15 +156,13 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
-def delete_entry(wn, synset, lemma):
+def delete_entry(wn, synset, entry_id, delsyn=True):
     """Delete a lemma from a synset"""
-    print("Deleting %s from synset %s" % (lemma, synset.id))
+    print("Deleting %s from synset %s" % (entry_id, synset.id))
     n_entries = len(wn.members_by_id(synset.id))
-    print(wn.entry_by_lemma(lemma))
-    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    entry_global = wn.entry_by_id(entry_id)
     
-    if len(entry_global) == 1:
-        entry_global = wn.entry_by_id(entry_global[0])
+    if entry_global:
         idx = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synset == synset.id][0]
         n_senses = len(entry_global.senses)
     else:
@@ -157,13 +178,18 @@ def delete_entry(wn, synset, lemma):
             sense_n += 1
 
     if n_entries == 1:
-        print("TODO: delete synset " + synset.id)
+        if delsyn:
+            delete_synset(wn, synset, delent=False)
     else:
         for sense_id in sense_ids_for_synset(wn, synset):
             this_idx = int(sense_id[-2:])
             if this_idx >= idx:
                 change_sense_idx(wn, sense_id, this_idx - 1)
 
+    for sense in entry_global.senses:
+        if sense.synset == synset.id:
+            for rel in sense.sense_relations:
+                delete_sense_rel(sense.target, sense.id)
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
@@ -172,6 +198,26 @@ def delete_entry(wn, synset, lemma):
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
         entry = wn_synset.entry_by_id(entry_global.id)
         entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
+    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+        wn_synset.to_xml(out, True)
+
+def delete_synset(wn, synset, delent=True):
+    """Delete a synset"""
+    print("Deleting synset %s" % synset.id)
+    
+    if delent:
+        entries = wn.members_by_id(synset.id)
+
+        for entry in entries:
+            delete_entry(wn, synset, 
+                    "ewn-%s-%s" % (escape_lemma(entry), synset.part_of_speech.value))
+
+    for rel in synset.synset_relations:
+        delete_rel(wn.synset_by_id(rel.target), synset)
+
+    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset.synsets = [ss for ss in wn_synset.synsets
+            if synset.id != ss.id]
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 

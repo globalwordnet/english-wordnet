@@ -5,19 +5,13 @@ import re
 import change_manager
 
 def main():
-    parser = argparse.ArgumentParser(description="Add or remove an entry from a synset")
+    parser = argparse.ArgumentParser(description="Add or remove a synset")
     parser.add_argument('synset', metavar='SYNSET_ID', type=str, 
             help="The ID of the synset to change")
-    parser.add_argument('lemma', metavar='LEMMA', type=str,
-            help="The lemma to change")
     parser.add_argument('--add', action='store_true',
             help="Add this relation as a new relation")
     parser.add_argument('--delete', action='store_true',
             help="Remove this relation (do not replace or change)")
-    parser.add_argument('-n', metavar='N', type=int, default=-1,
-            help="The position of this synset within the list of senses for the entry")
-    parser.add_argument('-i', metavar='IDX', type=int, default=-1,
-            help="The position of this lemma in the synset")
 
     args = parser.parse_args()
 
@@ -30,10 +24,9 @@ def main():
         sys.exit(-1)
 
     if args.add:
-        change_manager.add_entry(wn, synset, args.lemma, args.i, args.n)
+        change_manager.add_synset(wn, synset, args.defintion)
     elif args.delete:
-        change_manager.delete_entry(wn, synset, 
-                "ewn-%s-%s" % (change_manager.escape_lemma(args.lemma), synset.part_of_speech.value))
+        change_manager.delete_synset(wn, synset)
     else:
         print("No action chosen")
         sys.exit(-1)
