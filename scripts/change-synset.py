@@ -13,7 +13,7 @@ def main():
             help="Add this relation as a new relation")
     parser.add_argument('--delete', action='store_true',
             help="Remove this relation (do not replace or change)")
-    parser.add_argument('--reason', type='string',
+    parser.add_argument('--reason', type=str,
             help="The reason for a deletion or merge")
 
     args = parser.parse_args()
