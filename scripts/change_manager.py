@@ -100,6 +100,9 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
             for sense in entry_globale.senses:
                 if sense.n >= n:
                     change_sense_n(wn, entry_global, sense.id, sense.n + 1)
+        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+        entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if entry.lemma.part_of_speech == synset.part_of_speech]
+        entry = entries[0]
 
         entry.senses.append(Sense(
             id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
@@ -109,6 +112,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
             sense_key=None))
     else:
         n = 0
+        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
         entry = LexicalEntry(
             "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
@@ -117,8 +121,8 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                         synset_key(synset.id), idx),
                     synset=synset.id, n=n, sense_key=None))
         wn_synset.add_entry(entry)
-        with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
-            wn_synset.to_xml(out, True)
+    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+        wn_synset.to_xml(out, True)
 
 def change_sense_n(wn, entry, sense_id, new_n):
     """Change the position of a sense within an entry (changes only this sense)"""
@@ -139,13 +143,13 @@ def change_sense_n(wn, entry, sense_id, new_n):
 def change_sense_idx(wn, sense_id, new_idx):
     """Change the position of a lemma within a synset"""
     print("Changing idx of sense %s to %s" % (sense_id, new_idx))
-    new_sense_id = "%s-%02d" % (sense_id[:-2], new_idx)
+    new_sense_id = "%s-%02d" % (sense_id[:-3], new_idx)
     # This is implemented as a find and replace, as this is likely less error-prone
     # than doing it properly
     for f in glob("src/wn-*.xml"):
-        with fileinput.FileInput(f, inplace=True, backup='.bak') as file:
+        with fileinput.FileInput(f, inplace=True) as file:
             for line in file:
-                print(line.replace(sense_id, new_sense_id).strip())
+                print(line.replace(sense_id, new_sense_id), end='')
 
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
