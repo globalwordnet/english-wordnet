@@ -17,10 +17,6 @@ def referring_synsets(wn, synset):
     """Get all other synsets that refer to this synset"""
     return [ss for ss in wn.synsets if [r for r in ss.synset_relations if r.target == synset.id]]
 
-def referring_senses(wn, synset):
-    """Get all senses that refer to senses of this synset"""
-    return [s for e in wn.entries for s in e.senses  if [r for r in s.sense_relations if t.target.startswith(synset.id)]]
-
 def delete_synset(wn, synset):
     for r in referring_synsets(wn, synset):
         delete_rel(synset, r)
