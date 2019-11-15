@@ -14,6 +14,10 @@ def main():
             help="Add this relation as a new relation")
     parser.add_argument('--delete', action='store_true',
             help="Remove this relation (do not replace or change)")
+    parser.add_argument('-n', metavar='N', type=int, default=-1,
+            help="The position of this synset within the list of senses for the entry")
+    parser.add_argument('-i', metavar='IDX', type=int, default=-1,
+            help="The position of this lemma in the synset")
 
     args = parser.parse_args()
 
@@ -26,9 +30,9 @@ def main():
         sys.exit(-1)
 
     if args.add:
-        change_manager.add_entry(synset, args.lemma)
+        change_manager.add_entry(wn, synset, args.lemma, args.i, args.n)
     elif args.remove:
-        change_manager.remove_entry(synset, args.lemma)
+        change_manager.remove_entry(wn, synset, args.lemma)
     else:
         print("No action chosen")
         sys.exit(-1)
