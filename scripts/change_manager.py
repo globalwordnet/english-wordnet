@@ -70,9 +70,16 @@ def synset_key(synset_id):
 def add_entry(wn, synset, lemma, idx=0, n=-1):
     """Add a new lemma to a synset"""
     print("Adding %s to synset %s" % (lemma, synset.id))
-    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
-    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if entry.lemma.part_of_speech == synset.part_of_speech]
     n_entries = len(wn.members_by_id(synset.id))
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+
+    if len(entry_global) == 1:
+        entry_global = wn.entry_by_id(entry_global[0])
+        n_senses = len(entry_global.senses)
+    else:
+        entry_global = None
+        n_senses = 0
+
     if idx <= 0:
         idx = n_entries + 1
     elif idx > n_entries + 1:
@@ -84,25 +91,27 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
             this_idx = int(sense_id[-2:])
             if this_idx >= idx:
                 change_sense_idx(wn, sense_id, this_idx + 1)
+
+    if n < 0:
+        n = n_senses
+    elif n > n_senses:
+        raise Exception("n value exceeds number of senses for lemma")
+    elif n == n_senses:
+        pass
+    else:
+        sense_n = 0
+        for sense in entry_global.senses:
+            if sense_n >= n:
+                change_sense_n(wn, entry_global, sense.id, sense_n + 1)
+            sense_n += 1
+
+    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+
     if entries:
         if len(entries) != 1:
             raise Exception("More than one entry for part of speech")
-        entry = entries[0]
-        entry_global = [entry for entry in wn.entry_by_lemma(lemma) if entry.lemma.part_of_speech == synset.part_of_speech][0]
-        n_senses = len(entry_global.senses)
-        if n < 0:
-            n = n_senses
-        elif n > n_senses:
-            raise Exception("n value exceeds number of senses for lemma")
-        elif n == n_senses:
-            pass
-        else:
-            for sense in entry_globale.senses:
-                if sense.n >= n:
-                    change_sense_n(wn, entry_global, sense.id, sense.n + 1)
-        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
-        entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if entry.lemma.part_of_speech == synset.part_of_speech]
-        entry = entries[0]
+        entry = wn_synset.entry_by_id(entries[0])
 
         entry.senses.append(Sense(
             id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
@@ -126,18 +135,20 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
 
 def change_sense_n(wn, entry, sense_id, new_n):
     """Change the position of a sense within an entry (changes only this sense)"""
-    print("Changing n of sense %s of %s to %s" % (sense_id, entry.written_form.lemma, new_n))
+    print("Changing n of sense %s of %s to %s" % (sense_id, entry.lemma.written_form, new_n))
+
     senses = [sense for sense in entry.senses if sense.id == sense_id]
     if len(senses) != 1:
         raise Exception("Could not find sense")
     sense = senses[0]
     synset = wn.synset_by_id(sense.synset)
-    lexname = synset.lexname
+    lexname = synset.lex_name
+
     wn_synset = parse_wordnet("src/wn-%s.xml" % lexname)
     entry = wn_synset.entry_by_id(entry.id)
     sense = [sense for sense in entry.senses if sense.id == sense_id][0]
     sense.n = new_n
-    with open("src/wn-%s.xml" % lex_name, "w") as out:
+    with open("src/wn-%s.xml" % lexname, "w") as out:
         wn_synset.to_xml(out, True)
 
 def change_sense_idx(wn, sense_id, new_idx):
