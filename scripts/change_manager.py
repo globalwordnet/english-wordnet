@@ -133,6 +133,46 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
+def delete_entry(wn, synset, lemma):
+    """Delete a lemma from a synset"""
+    print("Deleting %s from synset %s" % (lemma, synset.id))
+    n_entries = len(wn.members_by_id(synset.id))
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    
+    if len(entry_global) == 1:
+        entry_global = wn.entry_by_id(entry_global[0])
+        idx = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synsets == synset.id][0]
+        n_senses = len(entry_global.senses)
+    else:
+        print("No entry for this lemma")
+        return
+
+    if n_entries == 1:
+        print("TODO: delete synset " + synset.id)
+    else:
+        for sense_id in sense_ids_for_synset(wn, synset):
+            this_idx = int(sense_id[-2:])
+            if this_idx >= idx:
+                change_sense_idx(wn, sense_id, this_idx - 1)
+
+
+    if n_senses == 1: # then delete the whole entry
+        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+        wn_synset.entries = [entry for entry in wn_synset.entries if entry.id == entry_global.id]
+    else:
+        n = [ind for sense, ind in enumerate(entry_global.senses) if sense.synet == synset.id][0]
+        sense_n = 0
+        for sense in entry_global.senses:
+            if sense_n >= n:
+                change_sense_n(wn, entry_global, sense.id, sense_n - 1)
+            sense_n += 1
+        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+        entry = wn_synset.entry_by_id(entries[0])
+        entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
+    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+        wn_synset.to_xml(out, True)
+
+
 def change_sense_n(wn, entry, sense_id, new_n):
     """Change the position of a sense within an entry (changes only this sense)"""
     print("Changing n of sense %s of %s to %s" % (sense_id, entry.lemma.written_form, new_n))
