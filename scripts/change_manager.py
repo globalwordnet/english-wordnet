@@ -81,9 +81,9 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
         pass
     else:
         for sense_id in sense_ids_for_synset(wn, synset):
-            this_idx = int(sense_id[:-2])
-            if this_idx > idx:
-                change_sense_idx(wn, entry, sense_id, this_idx + 1)
+            this_idx = int(sense_id[-2:])
+            if this_idx >= idx:
+                change_sense_idx(wn, sense_id, this_idx + 1)
     if entries:
         if len(entries) != 1:
             raise Exception("More than one entry for part of speech")
@@ -122,6 +122,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
 
 def change_sense_n(wn, entry, sense_id, new_n):
     """Change the position of a sense within an entry (changes only this sense)"""
+    print("Changing n of sense %s of %s to %s" % (sense_id, entry.written_form.lemma, new_n))
     senses = [sense for sense in entry.senses if sense.id == sense_id]
     if len(senses) != 1:
         raise Exception("Could not find sense")
@@ -135,8 +136,9 @@ def change_sense_n(wn, entry, sense_id, new_n):
     with open("src/wn-%s.xml" % lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
-def change_sense_idx(wn, entry, sense_id, new_idx):
+def change_sense_idx(wn, sense_id, new_idx):
     """Change the position of a lemma within a synset"""
+    print("Changing idx of sense %s to %s" % (sense_id, new_idx))
     new_sense_id = "%s-%02d" % (sense_id[:-2], new_idx)
     # This is implemented as a find and replace, as this is likely less error-prone
     # than doing it properly
@@ -148,5 +150,5 @@ def change_sense_idx(wn, entry, sense_id, new_idx):
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
             for entry in wn.entry_by_lemma(lemma)
-            for sense in entry.senses
+            for sense in wn.entry_by_id(entry).senses
             if sense.synset == synset.id]
