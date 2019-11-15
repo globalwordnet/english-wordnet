@@ -31,8 +31,8 @@ def main():
 
     if args.add:
         change_manager.add_entry(wn, synset, args.lemma, args.i, args.n)
-    elif args.remove:
-        change_manager.remove_entry(wn, synset, args.lemma)
+    elif args.delete:
+        change_manager.delete_entry(wn, synset, args.lemma)
     else:
         print("No action chosen")
         sys.exit(-1)

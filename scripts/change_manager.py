@@ -141,7 +141,7 @@ def delete_entry(wn, synset, lemma):
     
     if len(entry_global) == 1:
         entry_global = wn.entry_by_id(entry_global[0])
-        idx = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synsets == synset.id][0]
+        idx = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synset == synset.id][0]
         n_senses = len(entry_global.senses)
     else:
         print("No entry for this lemma")
@@ -158,7 +158,7 @@ def delete_entry(wn, synset, lemma):
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
-        wn_synset.entries = [entry for entry in wn_synset.entries if entry.id == entry_global.id]
+        wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
     else:
         n = [ind for sense, ind in enumerate(entry_global.senses) if sense.synet == synset.id][0]
         sense_n = 0
