@@ -33,7 +33,7 @@ class Lexicon:
             if sense.synset not in self.members:
                 self.members[sense.synset] = []
             self.members[sense.synset].append(entry.lemma.written_form)
-        if entry.lemma.written_form not in self.members:
+        if entry.lemma.written_form not in self.member2entry:
             self.member2entry[entry.lemma.written_form] = []
         self.member2entry[entry.lemma.written_form].append(entry.id)
         self.entries.append(entry)
