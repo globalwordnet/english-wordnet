@@ -10,6 +10,14 @@ def merge_entry(e1, e2):
         if c.tag == "Sense":
             e1.insert(i, c)
             i += 1
+        if c.tag == "SyntacticBehaviour":
+            src = [c2 for c2 in e1 if c2.tag == "SyntacticBehaviour" and c2.attrib["subcategorizationFrame"] == c.attrib["subcategorizationFrame"]]
+            if not src:
+                e1.insert(i, c)
+                i += 1
+            else:
+                for s in src:
+                    s.attrib["senses"] += " " + c.attrib["senses"]
     return e1
 
 def order_entry(e):
