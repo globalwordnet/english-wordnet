@@ -488,7 +488,7 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),
-                attrs["dc:subject"])
+                attrs.get("dc:subject",""))
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
