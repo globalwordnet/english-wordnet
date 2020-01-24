@@ -9,7 +9,7 @@ There are five basic criteria that need to be applied:
 1. Significance
 2. Non-compositionality
 3. Distinction
-4. Good definition
+4. Well-defined
 5. Linked
 
 All criteria can be ignored in special cases. If you think you have a special
@@ -88,6 +88,7 @@ A good definition:
 Bad definition:
 
 > a piece of furniture
+
 > used for eating
 
 ## Linked
