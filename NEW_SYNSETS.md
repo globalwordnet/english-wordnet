@@ -92,12 +92,26 @@ Bad definition:
 
 > used for eating
 
+In addition an example should be provided with a link to a website where the 
+example is used as follows:
+
+```xml
+  <Synset id="ewn-...">
+    ...
+    <Example dc:source="https://en.wikipedia.org/wiki/Example.com">
+    The example domains have one subdomain name defined in the Domain Name System
+    </Example>
+    ...
+  </Synset>
+```
+
 ## Linked
 
 The synset should be possible to link into the graph
 
 * **Nouns**: A hypernym must be identified
-* **Verbs**: A hypernym or an antonym must be identifier
+* **Verbs**: A hypernym or an antonym must be identifier. Verbs should also have
+    at least one subcategorization frame.
 * **Adjectives**: They should be marked as similar to a non-satellite adjective 
     (in which case they are satellites) **or** antonyms of a non-satellite 
     adjective **or** hypernyms of an adjective
