@@ -116,3 +116,5 @@ The synset should be possible to link into the graph
     (in which case they are satellites) **or** antonyms of a non-satellite 
     adjective **or** hypernyms of an adjective
 * **Adverbs**: No clear guidelines but at least one links should be proposed.
+
+The more links that can be provided the better a synset is.
