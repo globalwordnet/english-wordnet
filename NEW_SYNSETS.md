@@ -56,9 +56,10 @@ For single words, the word should not be derived in a systematic manner, these
 include:
 
 * Converting a verb to a noun or adjective by adding '-ing' or '-ed'
-* Converting an adjective to an adverb by adding '-ing'
-* Productive prefixes such as 'non-'
-* Systematic polysemy: e.g., using a part to refer to a whole
+* Converting an adjective to an adverb by adding '-ly'
+* Productive prefixes such as 'non-', 'un-'
+* Systematic polysemy: e.g., using a part to refer to a whole 
+** Example: "congress" meaning the "members of congress"
 
 ## Distinction
 
