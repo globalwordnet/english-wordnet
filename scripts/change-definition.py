@@ -19,7 +19,7 @@ def update_def(wn, synset, defn, add):
 
 def main():
     parser = argparse.ArgumentParser(description="Change a definition within the wordnet")
-    parser.add_argument('id', metavar='ID', type=str, 
+    parser.add_argument('id', metavar='ID', type=str, nargs="?",
             help="The ID of the synset (sense) for the relationship")
     parser.add_argument('--add', action='store_true',
             help="Add the new definition and retain the previous definition (otherwise this definition replaces previous definitions)")
