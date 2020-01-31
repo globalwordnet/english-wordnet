@@ -35,8 +35,13 @@ def main():
         pickle.dump(wn, open("wn.pickle", "wb"))
     else:
         wn = pickle.load(open("wn.pickle", "rb"))
+    
+    if not args.id:
+        id = "ewn-" + input("Enter synset ID : ewn-")
+    else:
+        id = args.id
 
-    synset = wn.synset_by_id(args.id)
+    synset = wn.synset_by_id(id)
 
     if not synset:
         print("Could not find the synset %s" % args.id)
