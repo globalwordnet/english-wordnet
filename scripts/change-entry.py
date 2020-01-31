@@ -21,9 +21,15 @@ def main():
 
     args = parser.parse_args()
 
-    if not args.add and not args.delete:
-        print("No action chosen")
-        sys.exit(-1)
+    if args.add:
+        action = "A"
+    elif args.delete:
+        action = "D"
+    else:
+        action = input("[A]dd/[D]elete? ")
+        if action != "A" and action != "D":
+            print("Bad action")
+            sys.exit(-1)
 
     wn = change_manager.load_wordnet()
 
@@ -37,9 +43,9 @@ def main():
     print("Entries: " + ", ".join(wn.members_by_id(synset_id)))
 
     if not args.lemma:
-        if args.add:
+        if action == "A":
             lemma = input("New entry: ")
-        elif args.delete:
+        elif action == "D":
             lemma = input("Entry to remove: ")
     else:
         lemma = args.lemma
@@ -48,9 +54,9 @@ def main():
         print("Could not find synset")
         sys.exit(-1)
 
-    if args.add:
+    if action == "A":
         change_manager.add_entry(wn, synset, lemma, args.i, args.n)
-    elif args.delete:
+    elif action == "D":
         change_manager.delete_entry(wn, synset, 
                 "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
 
