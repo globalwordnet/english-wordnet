@@ -43,10 +43,12 @@ def main():
         sys.exit(-1)
 
     if not args.defn:
-        print("Please specify a definition")
-        sys.exit(-1)
+        print("Definition     : " + synset.definitions[0].text)
+        defn = input("New Definition : ")
+    else:
+        defn = args.defn
 
-    update_def(wn, synset, args.defn, args.add)
+    update_def(wn, synset, defn, args.add)
 
 if __name__ == "__main__":
     main()
