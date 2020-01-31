@@ -3,8 +3,13 @@ import wordnet
 import argparse
 import os
 import pickle
+from autocorrect import Speller
 
 def update_def(wn, synset, defn, add):
+    spell = Speller(lang='en')
+    if any([spell(w) != w for w in defn.split()]):
+        if input("There may be spelling errors in this definition. Proceed [y/N] : ") != "y":
+            sys.exit(-1)
     print("Previous definitions:")
     for d in synset.definitions:
         print("> " + d.text)
