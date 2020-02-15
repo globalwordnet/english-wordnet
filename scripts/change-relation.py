@@ -5,6 +5,12 @@ import os
 import pickle
 import re
 
+def with_ewn(x):
+    if x:
+        return "ewn-" + x
+    else:
+        return None
+
 def delete_rel(source, target):
     """Delete all relationships between two synsets"""
     print("Delete %s =*=> %s" % (source.id, target.id))
@@ -180,9 +186,9 @@ def sense_exists(wn, sense_id):
 
 def main():
     parser = argparse.ArgumentParser(description="Change a relationship within the wordnet")
-    parser.add_argument('source_id', metavar='SOURCE_ID', type=str, 
+    parser.add_argument('source_id', metavar='SOURCE_ID', type=str,  nargs="?",
             help="The ID of the source synset (sense) for the relationship")
-    parser.add_argument('target_id', metavar='TARGET_ID', type=str,
+    parser.add_argument('target_id', metavar='TARGET_ID', type=str, nargs="?",
             help="The ID of the target synset (sense) for the relationship")
     parser.add_argument('--new-source', type=str,
             help="The ID of the new source synset")
@@ -205,10 +211,14 @@ def main():
     else:
         wn = pickle.load(open("wn.pickle", "rb"))
     
-    if sense_id_re.match(args.source_id):
-        (source_id, source_entry_id) = decompose_sense_id(args.source_id)
+    if not args.source_id:
+        source_id = "ewn-"+ input("Enter source synset ID: ewn-")
     else:
         source_id = args.source_id
+
+    if sense_id_re.match(source_id):
+        (source_id, source_entry_id) = decompose_sense_id(args.source_id)
+    else:
         source_entry_id = None
 
     source_synset = wn.synset_by_id(source_id)
@@ -217,10 +227,14 @@ def main():
         print("Could not find the source synset %s" % source_id)
         sys.exit(-1)
 
-    if sense_id_re.match(args.target_id):
-        (target_id, target_entry_id) = decompose_sense_id(args.target_id)
+    if not args.target_id:
+        target_id = "ewn-" + input("Enter target synset ID: ewn-")
     else:
         target_id = args.target_id
+
+    if sense_id_re.match(target_id):
+        (target_id, target_entry_id) = decompose_sense_id(target_id)
+    else:
         target_entry_id = None
 
     target_synset = wn.synset_by_id(target_id)
@@ -228,6 +242,18 @@ def main():
     if not target_synset:
         print("Could not find the target synset %s" % target_id)
         sys.exit(-1)
+
+    if not args.new_source:
+        args.new_source = with_ewn(input("Enter new source (or blank for no change): ewn-"))
+    if not args.new_target:
+        args.new_source = with_ewn(input("Enter new target (or blank for no change): ewn-"))
+    if not args.new_relation:
+        args.new_source = with_ewn(input("Enter new relation (or blank for no change): ewn-"))
+    if not args.add:
+        args.add = input("Add relation [Y]/n: ").lower() != "n"
+    if not args.delete:
+        args.delete = input("Remove relation y/[N]").lower() == "y"
+    
 
     if args.new_source:
         if args.new_target or args.new_relation:
