@@ -246,13 +246,13 @@ def main():
     if not args.new_source:
         args.new_source = with_ewn(input("Enter new source (or blank for no change): ewn-"))
     if not args.new_target:
-        args.new_source = with_ewn(input("Enter new target (or blank for no change): ewn-"))
+        args.new_target = with_ewn(input("Enter new target (or blank for no change): ewn-"))
     if not args.new_relation:
-        args.new_source = with_ewn(input("Enter new relation (or blank for no change): ewn-"))
+        args.new_relation = with_ewn(input("Enter new relation (or blank for no change): ewn-"))
     if not args.add:
         args.add = input("Add relation [Y]/n: ").lower() != "n"
     if not args.delete:
-        args.delete = input("Remove relation y/[N]").lower() == "y"
+        args.delete = input("Remove relation y/[N]: ").lower() == "y"
     
 
     if args.new_source:
