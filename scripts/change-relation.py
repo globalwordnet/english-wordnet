@@ -243,17 +243,24 @@ def main():
         print("Could not find the target synset %s" % target_id)
         sys.exit(-1)
 
-    if not args.new_source:
-        args.new_source = with_ewn(input("Enter new source (or blank for no change): ewn-"))
-    if not args.new_target:
-        args.new_target = with_ewn(input("Enter new target (or blank for no change): ewn-"))
-    if not args.new_relation:
-        args.new_relation = with_ewn(input("Enter new relation (or blank for no change): ewn-"))
-    if not args.add:
-        args.add = input("Add relation [Y]/n: ").lower() != "n"
-    if not args.delete:
-        args.delete = input("Remove relation y/[N]: ").lower() == "y"
-    
+    if not args.new_source and not args.new_target and not args.new_relation and not args.delete:
+        mode = input("[A]dd new relation/[D]elete existing relation/[C]hange relation: ").lower()
+        if mode == "a":
+            args.add = True
+            if not args.new_relation:
+                args.new_relation = input("Enter new relation: ")
+        elif mode == "c":
+            if not args.new_source:
+                args.new_source = with_ewn(input("Enter new source (or blank for no change): ewn-"))
+            if not args.new_source and not args.new_target:
+                args.new_target = with_ewn(input("Enter new target (or blank for no change): ewn-"))
+            if not args.new_source and not args.new_target and not args.new_relation:
+                args.new_relation = input("Enter new relation (or blank for no change): ewn-")
+        elif mode == "d":
+            args.delete = True
+        else:
+            print("Bad mode")
+            sys.exit(-1)
 
     if args.new_source:
         if args.new_target or args.new_relation:
