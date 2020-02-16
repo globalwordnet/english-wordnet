@@ -82,6 +82,16 @@ def delete_relation(wn, source, target):
     delete_rel(source, target)
     delete_rel(target, source)
 
+def reverse_rel(wn, source, target):
+    """Reverse the direction of relations"""
+    rel_type = find_type(source, target)
+    delete_rel(source, target)
+    if rel_type in wordnet.inverse_synset_rels:
+        delete_rel(target, source)
+    insert_rel(target, rel_type, source)
+    if rel_type in wordnet.inverse_synset_rels:
+        inv_rel_type = wordnet.inverse_synset_rels[rel_type]
+        insert_rel(source, inv_rel_type, target)
 
 def delete_sense_rel(wn, source, target):
     """Delete all relationships between two senses"""
@@ -113,15 +123,15 @@ def find_sense_type(wn, source, target):
     (source_synset, source_entry) = decompose_sense_id(source)
     entry = wn.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
-    x = [r for r in source.sense_relations if r.target == target.id]
-    if len(x) != 1:
+    x = set([r for r in sense.sense_relations if r.target == target])
+    if len(x) == 0:
         raise Exception("Synsets not linked or linked by more than one property")
-    return x[0].rel_type
+    return next(iter(x)).rel_type
     
 
 def update_source_sense(wn, old_source, target, new_source):
     """Change the source of a link"""
-    rel_type = find_sense_type(old_source, target)
+    rel_type = find_sense_type(wn, old_source, target)
     delete_sense_rel(wn, old_source, target)
     insert_sense_rel(wn, new_source, rel_type, target)
     if rel_type in wordnet.inverse_sense_rels:
@@ -131,7 +141,7 @@ def update_source_sense(wn, old_source, target, new_source):
 
 def update_target_sense(wn, source, old_target, new_target):
     """Change the target of a link"""
-    rel_type = find_sense_type(source, old_target)
+    rel_type = find_sense_type(wn, source, old_target)
     delete_sense_rel(wn, source, old_target)
     insert_sense_rel(wn, source, rel_type, new_target)
     if rel_type in wordnet.inverse_sense_rels:
@@ -159,6 +169,18 @@ def delete_sense_relation(wn, source, target):
     """Change the type of a link"""
     delete_sense_rel(wn, source, target)
     delete_sense_rel(wn, target, source)
+
+def reverse_sense_rel(wn, source, target):
+    """Reverse the direction of a sense relation"""
+    rel_type = find_sense_type(wn, source, target)
+    delete_sense_rel(wn, source, target)
+    if rel_type in wordnet.inverse_sense_rels:
+        delete_sense_rel(wn, target, source)
+    insert_sense_rel(wn, target, rel_type, source)
+    if rel_type in wordnet.inverse_sense_rels:
+        inv_rel_type = wordnet.inverse_sense_rels[rel_type]
+        insert_sense_rel(wn, source, inv_rel_type, target)
+
 
 
 sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
@@ -200,6 +222,8 @@ def main():
             help="Add this relation as a new relation")
     parser.add_argument('--delete', action='store_true',
             help="Remove this relation (do not replace or change)")
+    parser.add_argument('--reverse', action='store_true',
+            help="Reverse this relation (swap source and target)")
 
     args = parser.parse_args()
 
@@ -212,11 +236,9 @@ def main():
         wn = pickle.load(open("wn.pickle", "rb"))
     
     if not args.source_id:
-        source_id = "ewn-"+ input("Enter source synset ID: ewn-")
-    else:
-        source_id = args.source_id
+        args.source_id = "ewn-"+ input("Enter source synset ID: ewn-")
 
-    if sense_id_re.match(source_id):
+    if sense_id_re.match(args.source_id):
         (source_id, source_entry_id) = decompose_sense_id(args.source_id)
     else:
         source_entry_id = None
@@ -228,12 +250,10 @@ def main():
         sys.exit(-1)
 
     if not args.target_id:
-        target_id = "ewn-" + input("Enter target synset ID: ewn-")
-    else:
-        target_id = args.target_id
+        args.target_id = "ewn-" + input("Enter target synset ID: ewn-")
 
-    if sense_id_re.match(target_id):
-        (target_id, target_entry_id) = decompose_sense_id(target_id)
+    if sense_id_re.match(args.target_id):
+        (target_id, target_entry_id) = decompose_sense_id(args.target_id)
     else:
         target_entry_id = None
 
@@ -244,20 +264,26 @@ def main():
         sys.exit(-1)
 
     if not args.new_source and not args.new_target and not args.new_relation and not args.delete:
-        mode = input("[A]dd new relation/[D]elete existing relation/[C]hange relation: ").lower()
+        mode = input("[A]dd new relation/[D]elete existing relation/[R]everse relation/[C]hange relation: ").lower()
         if mode == "a":
             args.add = True
             if not args.new_relation:
                 args.new_relation = input("Enter new relation: ")
         elif mode == "c":
-            if not args.new_source:
+            mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
+            if mode == "s":
                 args.new_source = with_ewn(input("Enter new source (or blank for no change): ewn-"))
-            if not args.new_source and not args.new_target:
+            elif mode == "t":
                 args.new_target = with_ewn(input("Enter new target (or blank for no change): ewn-"))
-            if not args.new_source and not args.new_target and not args.new_relation:
+            elif mode == "r":
                 args.new_relation = input("Enter new relation (or blank for no change): ewn-")
+            else:
+                print("Bad choice")
+                sys.exit(-1)
         elif mode == "d":
             args.delete = True
+        elif mode == "r":
+            args.reverse = True
         else:
             print("Bad mode")
             sys.exit(-1)
@@ -382,6 +408,18 @@ def main():
             delete_sense_relation(wn, args.source_id, args.target_id)
         else:
             delete_relation(wn, source_synset, target_synset)
+    elif args.reverse:
+        if source_entry_id or target_entry_id:
+            if not sense_exists(wn, args.source_id):
+                print("Source sense %d does not exist" % args.source_id)
+                sys.exit(-1)
+            if not sense_exists(wn, args.target_id):
+                print("Target sense %d does not exist" % args.target_id)
+                sys.exit(-1)
+            reverse_sense_rel(wn, args.source_id, args.target_id)
+        else:
+            reverse_rel(wn, source_synset, target_synset)
+
     else:
         print("No change specified")
 
