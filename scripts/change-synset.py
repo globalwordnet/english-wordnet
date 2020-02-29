@@ -55,7 +55,7 @@ def main():
             args.pos = input("Part of speech (n)oun/(v)erb/(a)djective/adve(r)b/(s)atellite: ").lower()
 
     if args.add:
-        new_id = change_manager.add_synset(wn, args.defintion, args.lexfile, args.pos)
+        new_id = change_manager.add_synset(wn, args.definition, args.lexfile, args.pos)
         print("New synset created with ID %s. Please use change-entry and change-relation scripts to add entries and relations" % new_id) 
     elif args.delete:
         if not args.reason:
