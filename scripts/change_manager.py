@@ -261,7 +261,7 @@ def sense_ids_for_synset(wn, synset):
 def new_id(wn, pos, definition):
     s = hashlib.sha256()
     s.update(definition.encode())
-    nid = "ewn-8%07d-%" % ((int(s.hexdigest(),16) % 10000000), pos)
+    nid = "ewn-8%07d-%s" % ((int(s.hexdigest(),16) % 10000000), pos)
     if wn.synset_by_id(nid):
         print("Could not find ID for new synset. Either a duplicate definition or a hash collision for " + nid)
         sys.exit(-1)
