@@ -4,6 +4,7 @@ import pickle
 import os
 from glob import glob
 import fileinput
+import hashlib
 
 def load_wordnet():
     """Load the wordnet from wn.xml"""
@@ -256,3 +257,23 @@ def sense_ids_for_synset(wn, synset):
             for entry in wn.entry_by_lemma(lemma)
             for sense in wn.entry_by_id(entry).senses
             if sense.synset == synset.id]
+
+def new_id(wn, pos, definition):
+    s = hashlib.sha256()
+    s.update(definition.encode())
+    nid = "ewn-8%07d-%s" % ((int(s.hexdigest(),16) % 10000000), pos)
+    if wn.synset_by_id(nid):
+        print("Could not find ID for new synset. Either a duplicate definition or a hash collision for " + nid)
+        sys.exit(-1)
+    return nid
+
+
+def add_synset(wn, definition, lexfile, pos):
+    ss = Synset(new_id(wn, pos, definition), "in",
+            PartOfSpeech(pos), lexfile)
+    ss.definitions = [definition]
+    wn2 = wordnet.parse_wordnet("src/wn-%s.xml" % lexfile)
+    wn2.add_synset(ss)
+    with open("src/wn-%s.xml" % lexfile, "w") as out:
+        wn2.to_xml(out, True)
+
