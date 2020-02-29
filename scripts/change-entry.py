@@ -26,7 +26,7 @@ def main():
     elif args.delete:
         action = "D"
     else:
-        action = input("[A]dd/[D]elete? ")
+        action = input("[A]dd/[D]elete? ").upper()
         if action != "A" and action != "D":
             print("Bad action")
             sys.exit(-1)
@@ -40,7 +40,11 @@ def main():
 
     synset = wn.synset_by_id(synset_id)
 
-    print("Entries: " + ", ".join(wn.members_by_id(synset_id)))
+    entries = wn.members_by_id(synset_id)
+    if entries:
+        print("Entries: " + ", ".join(entries))
+    else:
+        print("No entries")
 
     if not args.lemma:
         if action == "A":

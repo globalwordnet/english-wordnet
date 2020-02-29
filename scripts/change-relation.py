@@ -241,6 +241,7 @@ def main():
     if sense_id_re.match(args.source_id):
         (source_id, source_entry_id) = decompose_sense_id(args.source_id)
     else:
+        source_id = args.source_id
         source_entry_id = None
 
     source_synset = wn.synset_by_id(source_id)
@@ -255,6 +256,7 @@ def main():
     if sense_id_re.match(args.target_id):
         (target_id, target_entry_id) = decompose_sense_id(args.target_id)
     else:
+        target_id = args.target_id
         target_entry_id = None
 
     target_synset = wn.synset_by_id(target_id)
