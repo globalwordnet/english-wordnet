@@ -210,13 +210,19 @@ class Synset:
 class Definition:
     def __init__(self, text):
         self.text = text
+        self.source = None
 
     def to_xml(self, xml_file, is_ili=False):
         if is_ili:
             xml_file.write("""      <ILIDefinition>%s</ILIDefinition>
 """ % escape_xml_lit(self.text))
         else:
-            xml_file.write("""      <Definition>%s</Definition>
+            if self.source:
+                xml_file.write("""      <Definition dc:source="%s">%s</Definition>
+""" % (self.source, escape_xml_lit(self.text)))
+
+            else:
+                xml_file.write("""      <Definition>%s</Definition>
 """ % escape_xml_lit(self.text))
 
     def __eq__(self, other):
@@ -226,10 +232,15 @@ class Definition:
 class Example:
     def __init__(self, text):
         self.text = text
+        self.source = None
 
     def to_xml(self, xml_file):
-        xml_file.write("""      <Example>%s</Example>
-""" % escape_xml_lit(self.text))
+        if self.source:
+            xml_file.write("""      <Example dc:source="%s">%s</Example>
+    """ % (self.source, escape_xml_lit(self.text)))
+        else:
+            xml_file.write("""      <Example>%s</Example>
+    """ % escape_xml_lit(self.text))
 
 
 class SynsetRelation:
