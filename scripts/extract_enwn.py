@@ -2,7 +2,7 @@ import csv
 from wordnet import *
 
 def escape_lemma(l):
-    return l.replace(" ", "_").replace("'","-ap-").replace("/","-sl-").replace("(","-lp-").replace(")","-rp-").replace(",","-cm-")
+    return l.replace(" ", "_").replace("'","-ap-").replace("/","-sl-").replace("(","-lp-").replace(")","-rp-").replace(",","-cm-").replace("[","-slb-").replace("]","-srb-")
 
 def map_target(tid):
     if tid.startswith("wn31-"):
@@ -18,7 +18,46 @@ def map_rel(r):
         return SynsetRelType.ALSO
     if r == "has_domain_usage":
         return SynsetRelType.IS_EXEMPLIFIED_BY
-    return SynsetRelType(r)
+    if r == "hypernym":
+        return SynsetRelType.HYPONYM
+    if r == "hyponym":
+        return SynsetRelType.HYPERNYM
+    if r == "mero_substance":
+        return SynsetRelType.HOLO_SUBSTANCE
+    if r == "holo_substance":
+        return SynsetRelType.MERO_SUBSTANCE
+    if r == "mero_location":
+        return SynsetRelType.HOLO_LOCATION
+    if r == "holo_location":
+        return SynsetRelType.MERO_LOCATION
+    if r == "mero_member":
+        return SynsetRelType.HOLO_MEMBER
+    if r == "holo_member":
+        return SynsetRelType.MERO_MEMBER
+    if r == "mero_part":
+        return SynsetRelType.HOLO_PART
+    if r == "holo_part":
+        return SynsetRelType.MERO_PART
+    if r == "mero_portion":
+        return SynsetRelType.HOLO_PORTION
+    if r == "holo_portion":
+        return SynsetRelType.MERO_PORTION
+    if r == "domain_topic":
+        return SynsetRelType.HAS_DOMAIN_TOPIC
+    if r == "has_domain_topic":
+        return SynsetRelType.DOMAIN_TOPIC
+    if r == "instance_hyponym":
+        return SynsetRelType.INSTANCE_HYPERNYM
+    if r == "instance_hypernym":
+        return SynsetRelType.INSTANCE_HYPONYM
+    if r == "has_domain_region":
+        return SynsetRelType.DOMAIN_REGION
+    if r == "domain_region":
+        return SynsetRelType.HAS_DOMAIN_REGION
+
+    else:
+        print(r)
+        sys.exit(-1)
 
 def map_defn(d):
     example = []
@@ -65,6 +104,8 @@ with open("enwordnet-validate.csv") as csvfile:
     sense_no = {}
 
     for row in reader:
+        if len(row) < 8:
+            print(row[0])
         if row[5] == "TRUE":
             plwn_id = row[0]
             defn = row[1]
@@ -76,7 +117,7 @@ with open("enwordnet-validate.csv") as csvfile:
             ssno = "92%06d" % (int(plwn_id[3:]))
 
             for n, lemma in enumerate(lemmas):
-                if re.match("^[A-Za-z0-9 \-'.\(\)/,]+$", lemma):
+                if re.match("^[A-Za-z0-9 \-'.\(\)/,\[\]]+$", lemma):
                     entry_id = "ewn-%s-%s" % (escape_lemma(lemma), pos) 
                     if not new_wn.entry_by_id(entry_id):
                         e = LexicalEntry(entry_id)
@@ -124,7 +165,8 @@ with open("enwordnet-validate.csv") as csvfile:
                             target,
                             map_rel(rel.split("=")[0])))
                     else:
-                        print(rel.split("=")[0] + " => " + target)
+                        if rel.split("=")[0] != "hypernym":
+                            print("pl-" + str(int(target[6:-2])))
 
     with open("src/wn-contrib.wroclaw.xml", "w") as outp:
         new_wn.to_xml(outp, True)
