@@ -20,7 +20,10 @@ jobs:
 
     - name: Merge the source files
       run: python scripts/merge.py
-    
+      
+    - name: Install xmllint
+      run: sudo apt-get install libxml2-utils
+      
     - name: Verify XML
       run: xmllint --no-out --valid wn.xml
       
