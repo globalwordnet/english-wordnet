@@ -95,7 +95,11 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
     """Add a new lemma to a synset"""
     print("Adding %s to synset %s" % (lemma, synset.id))
     n_entries = len(empty_if_none(wn.members_by_id(synset.id)))
-    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) 
+            if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
+               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
+               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
+                
 
     if len(entry_global) == 1:
         entry_global = wn.entry_by_id(entry_global[0])
