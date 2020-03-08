@@ -83,6 +83,8 @@ def escape_lemma(lemma):
             return '-ap-'
         elif c == '/':
             return '-sl-'
+        elif c == '-':
+            return '-'
         else:
             return '-%04x-' % ord(c)
 
