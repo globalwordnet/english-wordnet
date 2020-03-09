@@ -6,9 +6,9 @@ import change_manager
 
 def main():
     parser = argparse.ArgumentParser(description="Add or remove an entry from a synset")
-    parser.add_argument('synset', metavar='SYNSET_ID', type=str, 
+    parser.add_argument('synset', metavar='SYNSET_ID', type=str, nargs="?",
             help="The ID of the synset to change")
-    parser.add_argument('lemma', metavar='LEMMA', type=str,
+    parser.add_argument('lemma', metavar='LEMMA', type=str, nargs="?",
             help="The lemma to change")
     parser.add_argument('--add', action='store_true',
             help="Add this relation as a new relation")
@@ -21,22 +21,48 @@ def main():
 
     args = parser.parse_args()
 
+    if args.add:
+        action = "A"
+    elif args.delete:
+        action = "D"
+    else:
+        action = input("[A]dd/[D]elete? ").upper()
+        if action != "A" and action != "D":
+            print("Bad action")
+            sys.exit(-1)
+
     wn = change_manager.load_wordnet()
 
-    synset = wn.synset_by_id(args.synset)
+    if not args.synset:
+        synset_id = "ewn-" + input("Enter synset ID : ewn-")
+    else:
+        synset_id = args.synset
+
+    synset = wn.synset_by_id(synset_id)
+
+    entries = wn.members_by_id(synset_id)
+    if entries:
+        print("Entries: " + ", ".join(entries))
+    else:
+        print("No entries")
+
+    if not args.lemma:
+        if action == "A":
+            lemma = input("New entry: ")
+        elif action == "D":
+            lemma = input("Entry to remove: ")
+    else:
+        lemma = args.lemma
 
     if not synset:
         print("Could not find synset")
         sys.exit(-1)
 
-    if args.add:
-        change_manager.add_entry(wn, synset, args.lemma, args.i, args.n)
-    elif args.delete:
+    if action == "A":
+        change_manager.add_entry(wn, synset, lemma, args.i, args.n)
+    elif action == "D":
         change_manager.delete_entry(wn, synset, 
-                "ewn-%s-%s" % (change_manager.escape_lemma(args.lemma), synset.part_of_speech.value))
-    else:
-        print("No action chosen")
-        sys.exit(-1)
+                "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
 
 if __name__ == "__main__":
     main()
