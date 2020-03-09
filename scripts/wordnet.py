@@ -424,7 +424,7 @@ inverse_synset_rels = {
         SynsetRelType.ANTONYM: SynsetRelType.ANTONYM,
         SynsetRelType.EQ_SYNONYM: SynsetRelType.EQ_SYNONYM,
         SynsetRelType.SIMILAR: SynsetRelType.SIMILAR,
-        SynsetRelType.ALSO: SynsetRelType.ALSO,
+#        SynsetRelType.ALSO: SynsetRelType.ALSO,
         SynsetRelType.ATTRIBUTE: SynsetRelType.ATTRIBUTE,
         SynsetRelType.CO_ROLE: SynsetRelType.CO_ROLE
         }
