@@ -10,7 +10,7 @@ def check_symmetry(wn, fix):
                 synset2 = wn.synset_by_id(rel.target)
                 if not any(r for r in synset2.synset_relations if r.target == synset.id and r.rel_type == inverse_synset_rels[rel.rel_type]):
                     if fix:
-                        errors.append("python scripts/change-relations.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
+                        errors.append("python scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
                     else:
                         errors.append("No symmetric relation for %s =%s=> %s" % (synset.id, rel.rel_type, synset2.id))
     return errors
