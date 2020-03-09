@@ -83,6 +83,8 @@ def escape_lemma(lemma):
             return '-ap-'
         elif c == '/':
             return '-sl-'
+        elif c == '-':
+            return '-'
         else:
             return '-%04x-' % ord(c)
 
@@ -94,8 +96,12 @@ def synset_key(synset_id):
 def add_entry(wn, synset, lemma, idx=0, n=-1):
     """Add a new lemma to a synset"""
     print("Adding %s to synset %s" % (lemma, synset.id))
-    n_entries = len(wn.members_by_id(synset.id))
-    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    n_entries = len(empty_if_none(wn.members_by_id(synset.id)))
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) 
+            if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
+               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
+               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
+                
 
     if len(entry_global) == 1:
         entry_global = wn.entry_by_id(entry_global[0])
@@ -190,7 +196,7 @@ def delete_entry(wn, synset, entry_id, delsyn=True):
     for sense in entry_global.senses:
         if sense.synset == synset.id:
             for rel in sense.sense_relations:
-                delete_sense_rel(sense.target, sense.id)
+                delete_sense_rel(rel.target, sense.id)
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
@@ -263,17 +269,20 @@ def new_id(wn, pos, definition):
     s.update(definition.encode())
     nid = "ewn-8%07d-%s" % ((int(s.hexdigest(),16) % 10000000), pos)
     if wn.synset_by_id(nid):
-        print("Could not find ID for new synset. Either a duplicate definition or a hash collision for " + nid)
+        print("Could not find ID for new synset. Either a duplicate definition or a hash collision for " + nid + ". Note it is possible to force a synset ID by giving it as an argument")
         sys.exit(-1)
     return nid
 
 
-def add_synset(wn, definition, lexfile, pos):
-    ss = Synset(new_id(wn, pos, definition), "in",
+def add_synset(wn, definition, lexfile, pos, ssid=None):
+    if not ssid:
+        ssid = new_id(wn, pos, definition)
+    ss = Synset(ssid, "in",
             PartOfSpeech(pos), lexfile)
-    ss.definitions = [definition]
-    wn2 = wordnet.parse_wordnet("src/wn-%s.xml" % lexfile)
+    ss.definitions = [Definition(definition)]
+    wn2 = parse_wordnet("src/wn-%s.xml" % lexfile)
     wn2.add_synset(ss)
     with open("src/wn-%s.xml" % lexfile, "w") as out:
         wn2.to_xml(out, True)
+    return ssid
 

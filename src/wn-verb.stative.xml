@@ -8391,6 +8391,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02749602-v"/> <!-- flow -->
       <SynsetRelation relType="hyponym" target="ewn-02760571-v"/> <!-- distribute -->
       <SynsetRelation relType="hyponym" target="ewn-02761648-v"/> <!-- inhabit, dwell -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02620422-v"/> <!-- live -->
       <Example>&quot;Is there a God?&quot;</Example>
     </Synset>
     <!-- preexist -->
@@ -8602,6 +8603,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02615474-v"/> <!-- kick in, set in -->
       <SynsetRelation relType="hyponym" target="ewn-02615649-v"/> <!-- dawn -->
       <SynsetRelation relType="hyponym" target="ewn-02749218-v"/> <!-- originate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00349400-v"/> <!-- commence, start, lead off, begin -->
       <Example>&quot;The DMZ begins right over the hill&quot;</Example>
       <Example>&quot;The second movement begins after the Allegro&quot;</Example>
       <Example>&quot;Prices for these homes start at $250,000&quot;</Example>
@@ -8657,6 +8659,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02616880-v"/> <!-- come out, turn out -->
       <SynsetRelation relType="hyponym" target="ewn-02689663-v"/> <!-- discontinue -->
       <SynsetRelation relType="hyponym" target="ewn-02752492-v"/> <!-- break -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00353480-v"/>
       <Example>&quot;the bronchioles terminate in a capillary bed&quot;</Example>
       <Example>&quot;Your rights stop where you infringe upon the rights of other&quot;</Example>
       <Example>&quot;My property ends by the bushes&quot;</Example>
@@ -8797,6 +8800,8 @@
     <Synset id="ewn-02620216-v" ili="i34743" partOfSpeech="v" dc:subject="verb.stative">
       <Definition>have life, be alive</Definition>
       <SynsetRelation relType="similar" target="ewn-02624202-v"/> <!-- survive, endure, live on, hold up, live, last, go, hold out -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02624202-v"/> <!-- survive, endure, live on, hold up, live, last, go, hold out -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02625819-v"/> <!-- survive, outlive, outlast -->
       <Example>&quot;Our great leader is no more&quot;</Example>
       <Example>&quot;My grandfather lived until the end of war&quot;</Example>
     </Synset>
@@ -9369,6 +9374,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02736688-v"/> <!-- say, read -->
       <SynsetRelation relType="hyponym" target="ewn-02745909-v"/> <!-- wear -->
       <SynsetRelation relType="hyponym" target="ewn-02752610-v"/> <!-- carry -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02639021-v"/> <!-- include -->
       <Example>&quot;This restaurant features the most famous chefs in France&quot;</Example>
     </Synset>
     <!-- carry -->
@@ -9638,6 +9644,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01140630-v"/> <!-- lie in wait, ambuscade, bushwhack, waylay, scupper, lurk, ambush -->
       <SynsetRelation relType="hyponym" target="ewn-02644290-v"/> <!-- cool one's heels, kick one's heels -->
       <SynsetRelation relType="hyponym" target="ewn-02644528-v"/> <!-- stick around, stick about, stand by -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02040600-v"/>
       <Example>&quot;I had to wait on line for an hour to get the tickets&quot;</Example>
     </Synset>
     <!-- cool one's heels, kick one's heels -->
@@ -9756,7 +9763,6 @@
       <SynsetRelation relType="hypernym" target="ewn-02647547-v"/> <!-- hold off, hold back, wait -->
       <SynsetRelation relType="hyponym" target="ewn-02647119-v"/> <!-- hesitate, pause -->
       <SynsetRelation relType="hyponym" target="ewn-02648322-v"/> <!-- dillydally, drag one's heels, stall, dilly-dally, drag one's feet, procrastinate, shillyshally -->
-      <SynsetRelation relType="hyponym" target="ewn-02648694-v"/> <!-- procrastinate -->
       <SynsetRelation relType="hyponym" target="ewn-02648898-v"/> <!-- hold over, table, prorogue, put off, shelve, postpone, set back, remit, defer, put over -->
       <Example>&quot;Don&apos;t delay your application to graduate school or else it won&apos;t be considered&quot;</Example>
     </Synset>
@@ -9764,14 +9770,11 @@
     <Synset id="ewn-02648322-v" ili="i34880" partOfSpeech="v" dc:subject="verb.stative">
       <Definition>postpone doing what one should be doing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02648041-v"/> <!-- delay -->
-      <SynsetRelation relType="hyponym" target="ewn-02648694-v"/> <!-- procrastinate -->
       <Example>&quot;He did not want to write the letter and procrastinated for days&quot;</Example>
     </Synset>
     <!-- procrastinate -->
     <Synset id="ewn-02648694-v" ili="i34881" partOfSpeech="v" dc:subject="verb.stative">
       <Definition>postpone or delay needlessly</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02648322-v"/> <!-- dillydally, drag one's heels, stall, dilly-dally, drag one's feet, procrastinate, shillyshally -->
-      <SynsetRelation relType="hypernym" target="ewn-02648041-v"/> <!-- delay -->
       <Example>&quot;He procrastinated the matter until it was almost too late&quot;</Example>
     </Synset>
     <!-- hold over, table, prorogue, put off, shelve, postpone, set back, remit, defer, put over -->
@@ -10368,6 +10371,8 @@
       <SynsetRelation relType="hypernym" target="ewn-02741628-v"/> <!-- fit -->
       <SynsetRelation relType="hyponym" target="ewn-02666092-v"/> <!-- tessellate -->
       <SynsetRelation relType="hyponym" target="ewn-02666225-v"/> <!-- joint -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00301318-v"/> <!-- fit -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02666368-v"/> <!-- dovetail -->
       <Example>&quot;This piece won&apos;t fit into the puzzle&quot;</Example>
     </Synset>
     <!-- tessellate -->
@@ -10916,6 +10921,7 @@
       <Definition>be pertinent or relevant or applicable</Definition>
       <SynsetRelation relType="similar" target="ewn-02713289-v"/> <!-- apply, lend oneself -->
       <SynsetRelation relType="hypernym" target="ewn-02681865-v"/> <!-- come to, relate, pertain, touch, refer, touch on, bear on, have to do with, concern -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01161188-v"/>
       <Example>&quot;The same laws apply to you!&quot;</Example>
       <Example>&quot;This theory holds for all irrational numbers&quot;</Example>
       <Example>&quot;The same rules go for everyone&quot;</Example>
@@ -11058,6 +11064,7 @@
       <Definition>give up</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02686624-v"/> <!-- quit, cease, stop, give up, discontinue, lay off -->
       <SynsetRelation relType="similar" target="ewn-02687449-v"/> <!-- break -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02687449-v"/> <!-- break -->
       <Example>&quot;break cigarette smoking&quot;</Example>
     </Synset>
     <!-- break -->
@@ -12178,6 +12185,7 @@
     <Synset id="ewn-02719059-v" ili="i35228" partOfSpeech="v" dc:subject="verb.stative">
       <Definition>be oriented</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02696550-v"/> <!-- lie -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02718789-v"/> <!-- orient -->
       <Example>&quot;The weather vane points North&quot;</Example>
       <Example>&quot;the dancers toes pointed outward&quot;</Example>
     </Synset>
@@ -12440,6 +12448,7 @@
       <Definition>be next</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02661230-v"/> <!-- be -->
       <SynsetRelation relType="similar" target="ewn-02726229-v"/> <!-- follow, come after -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02726572-v"/> <!-- follow -->
       <Example>&quot;Mary plays best, with John and Sue following&quot;</Example>
     </Synset>
     <!-- follow -->
@@ -13629,6 +13638,7 @@
     <Synset id="ewn-02759301-v" ili="i35445" partOfSpeech="v" dc:subject="verb.stative">
       <Definition>have internal elements or parts logically connected so that aesthetic consistency results</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02759517-v"/> <!-- cohere -->
       <Example>&quot;the principles by which societies cohere&quot;</Example>
     </Synset>
     <!-- cohere -->

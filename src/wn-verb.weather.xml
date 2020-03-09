@@ -980,6 +980,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02763609-v"/> <!-- shower down, shower -->
       <SynsetRelation relType="hyponym" target="ewn-02763786-v"/> <!-- spit, spatter, pitter-patter, patter, sprinkle -->
       <SynsetRelation relType="hyponym" target="ewn-02763991-v"/> <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02776128-v"/> <!-- storm -->
       <Example>&quot;If it rains much more, we can expect some flooding&quot;</Example>
     </Synset>
     <!-- precipitate, come down, fall -->
@@ -1055,6 +1056,7 @@
     <!-- freeze -->
     <Synset id="ewn-02764784-v" ili="i35475" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>be very cold, below the freezing point</Definition>
+      <SynsetRelation relType="is_entailed_by" target="ewn-02764539-v"/> <!-- ice over, ice up, frost over -->
       <Example>&quot;It is freezing in Kalamazoo&quot;</Example>
     </Synset>
     <!-- snow -->
@@ -1091,6 +1093,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02767330-v"/> <!-- conflagrate, enkindle, inflame, kindle -->
       <SynsetRelation relType="hyponym" target="ewn-02770080-v"/> <!-- light up -->
       <SynsetRelation relType="hyponym" target="ewn-02770203-v"/> <!-- flare up -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02766097-v"/> <!-- set aflame, set afire, set on fire, set ablaze -->
       <Example>&quot;Great heat can ignite almost any dry matter&quot;</Example>
       <Example>&quot;Light a cigarette&quot;</Example>
     </Synset>
@@ -1237,6 +1240,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02770572-v"/> <!-- blaze -->
       <SynsetRelation relType="hyponym" target="ewn-02770723-v"/> <!-- scintillate, twinkle, winkle -->
       <SynsetRelation relType="hyponym" target="ewn-02774832-v"/> <!-- burn, glow -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02769241-v"/> <!-- shine -->
       <Example>&quot;The sun shone bright that day&quot;</Example>
       <Example>&quot;The fire beamed on their faces&quot;</Example>
     </Synset>
@@ -1442,6 +1446,7 @@
     <Synset id="ewn-02775858-v" ili="i35530" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>blow hard</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02775199-v"/> <!-- blow -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02776493-v"/> <!-- thunder, boom -->
       <Example>&quot;It was storming all night&quot;</Example>
     </Synset>
     <!-- squall -->
