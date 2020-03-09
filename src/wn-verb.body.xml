@@ -7437,6 +7437,7 @@
     <Synset id="ewn-00002724-v" ili="i21781" partOfSpeech="v" dc:subject="verb.body">
       <Definition>breathe with great difficulty, as when experiencing a strong emotion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001740-v"/> <!-- take a breath, suspire, respire, breathe -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00077703-v"/> <!-- choke, strangle -->
       <Example>&quot;She choked with emotion when she spoke about her deceased husband&quot;</Example>
     </Synset>
     <!-- hyperventilate -->
@@ -7489,6 +7490,9 @@
       <SynsetRelation relType="hypernym" target="ewn-00001740-v"/> <!-- take a breath, suspire, respire, breathe -->
       <SynsetRelation relType="hyponym" target="ewn-00006523-v"/> <!-- snort -->
       <SynsetRelation relType="hyponym" target="ewn-00007012-v"/> <!-- blow -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01200739-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-00001740-v"/> <!-- take a breath, suspire, respire, breathe -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00004819-v"/> <!-- sneeze -->
       <Example>&quot;Exhale when you lift the weight&quot;</Example>
     </Synset>
     <!-- hold -->
@@ -7520,6 +7524,8 @@
       <SynsetRelation relType="hyponym" target="ewn-00109067-v"/> <!-- snuff -->
       <SynsetRelation relType="hyponym" target="ewn-01201647-v"/> <!-- puff, drag, draw -->
       <SynsetRelation relType="hyponym" target="ewn-01202883-v"/> <!-- huff, snort -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01200739-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-00001740-v"/> <!-- take a breath, suspire, respire, breathe -->
       <Example>&quot;Inhale deeply&quot;</Example>
       <Example>&quot;inhale the fresh mountain air&quot;</Example>
       <Example>&quot;The patient has trouble inspiring&quot;</Example>
@@ -7577,6 +7583,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00005526-v"/> <!-- pant, puff, heave, gasp -->
       <SynsetRelation relType="hyponym" target="ewn-00006802-v"/> <!-- puff, chuff, huff -->
       <SynsetRelation relType="hyponym" target="ewn-00007193-v"/> <!-- insufflate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01737710-v"/>
       <Example>&quot;blow on the soup to cool it down&quot;</Example>
     </Synset>
     <!-- insufflate -->
@@ -7865,6 +7872,11 @@
       <SynsetRelation relType="hyponym" target="ewn-00015799-v"/> <!-- sleep late, sleep in -->
       <SynsetRelation relType="hyponym" target="ewn-00015939-v"/> <!-- hole up, hibernate -->
       <SynsetRelation relType="hyponym" target="ewn-00016176-v"/> <!-- estivate, aestivate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02122725-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-00015706-v"/> <!-- oversleep -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00017024-v"/> <!-- snore, saw logs, saw wood -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00018519-v"/> <!-- awake, come alive, awaken, waken, arouse, wake, wake up -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00019266-v"/> <!-- cause to sleep -->
     </Synset>
     <!-- bundle, practice bundling -->
     <Synset id="ewn-00015156-v" ili="i21841" partOfSpeech="v" dc:subject="verb.body">
@@ -8043,6 +8055,7 @@
     <Synset id="ewn-00020252-v" ili="i21867" partOfSpeech="v" dc:subject="verb.body">
       <Definition>not go to bed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020126-v"/> <!-- wake -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00020442-v"/> <!-- keep up -->
       <Example>&quot;Don&apos;t stay up so late--you have to go to work tomorrow&quot;</Example>
       <Example>&quot;We sat up all night to watch the election&quot;</Example>
     </Synset>
@@ -8156,6 +8169,7 @@
       <SynsetRelation relType="similar" target="ewn-00024272-v"/> <!-- reanimate, repair, quicken, revive, animate, revivify, vivify, recreate, renovate -->
       <SynsetRelation relType="similar" target="ewn-00097837-v"/> <!-- revive, resuscitate -->
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00097837-v"/> <!-- revive, resuscitate -->
       <Example>&quot;The patient came to quickly&quot;</Example>
       <Example>&quot;She revived after the doctor gave her an injection&quot;</Example>
     </Synset>
@@ -8218,6 +8232,7 @@
     <Synset id="ewn-00026146-v" ili="i21893" partOfSpeech="v" dc:subject="verb.body">
       <Definition>become tense, nervous, or uneasy</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00025196-v"/> <!-- strain, tense, tense up -->
       <Example>&quot;He tensed up when he saw his opponent enter the room&quot;</Example>
     </Synset>
     <!-- relax, slow down, loosen up, unbend, unwind, decompress -->
@@ -8226,6 +8241,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00026727-v"/> <!-- veg out, vegetate -->
       <SynsetRelation relType="hyponym" target="ewn-00026934-v"/> <!-- sit back, take it easy -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00025647-v"/> <!-- make relaxed, relax, loosen up, unstrain, unwind, unlax -->
       <Example>&quot;He relaxed in the hot tub&quot;</Example>
       <Example>&quot;Let&apos;s all relax after a hard day&apos;s work&quot;</Example>
     </Synset>
@@ -8426,6 +8442,7 @@
     <Synset id="ewn-00032290-v" ili="i21926" partOfSpeech="v" dc:subject="verb.body">
       <Definition>be overcome with laughter</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00031813-v"/> <!-- express mirth, express joy, laugh -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00861601-v"/>
     </Synset>
     <!-- cachinnate -->
     <Synset id="ewn-00032407-v" ili="i21927" partOfSpeech="v" dc:subject="verb.body">
@@ -8578,6 +8595,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00037131-v"/> <!-- rinse, gargle -->
       <SynsetRelation relType="hyponym" target="ewn-00041748-v"/> <!-- shampoo -->
       <SynsetRelation relType="hyponym" target="ewn-00462189-v"/> <!-- hush -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00036925-v"/> <!-- soap, lather -->
     </Synset>
     <!-- sponge down -->
     <Synset id="ewn-00036678-v" ili="i21948" partOfSpeech="v" dc:subject="verb.body">
@@ -8949,6 +8967,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00051354-v"/> <!-- cross-dress -->
       <SynsetRelation relType="hyponym" target="ewn-00051659-v"/> <!-- dandify -->
       <SynsetRelation relType="hyponym" target="ewn-00169266-v"/> <!-- change -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00052091-v"/> <!-- wear, have on -->
       <Example>&quot;we had to dress quickly&quot;</Example>
       <Example>&quot;dress the patient&quot;</Example>
       <Example>&quot;Can the child dress by herself?&quot;</Example>
@@ -9218,6 +9237,7 @@
     <Synset id="ewn-00053606-v" ili="i22042" partOfSpeech="v" dc:subject="verb.body">
       <Definition>undergo cross-fertilization; become fertile</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00053373-v"/> <!-- cross-fertilize, cross-fertilise -->
     </Synset>
     <!-- pollenate, pollinate, cross-pollinate -->
     <Synset id="ewn-00053776-v" ili="i22043" partOfSpeech="v" dc:subject="verb.body">
@@ -9230,6 +9250,9 @@
       <SynsetRelation relType="entails" target="ewn-01431486-v"/> <!-- pair, couple, copulate, mate -->
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00067621-v"/> <!-- superfetate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00056644-v"/> <!-- give birth, deliver, have, bear, birth -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00058790-v"/> <!-- carry, gestate, have a bun in the oven, bear, expect -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00059670-v"/> <!-- abort -->
       <Example>&quot;She cannot conceive&quot;</Example>
       <Example>&quot;My daughter was conceived on Christmas Day&quot;</Example>
     </Synset>
@@ -9268,6 +9291,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00054856-v"/> <!-- procreate, reproduce, multiply -->
       <SynsetRelation relType="domain_topic" target="ewn-06047178-n"/> <!-- biology, biological science -->
       <SynsetRelation relType="hyponym" target="ewn-00055451-v"/> <!-- vegetate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00055613-v"/> <!-- propagate -->
     </Synset>
     <!-- vegetate -->
     <Synset id="ewn-00055451-v" ili="i22050" partOfSpeech="v" dc:subject="verb.body">
@@ -9338,6 +9362,8 @@
       <SynsetRelation relType="hyponym" target="ewn-00058651-v"/> <!-- have young, calve -->
       <SynsetRelation relType="similar" target="ewn-00058790-v"/> <!-- carry, gestate, have a bun in the oven, bear, expect -->
       <SynsetRelation relType="hyponym" target="ewn-00058790-v"/> <!-- carry, gestate, have a bun in the oven, bear, expect -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00057124-v"/> <!-- lie in -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00057220-v"/> <!-- labor, labour -->
       <Example>&quot;My wife had twins yesterday!&quot;</Example>
     </Synset>
     <!-- lie in -->
@@ -9422,6 +9448,7 @@
       <SynsetRelation relType="entails" target="ewn-00054002-v"/> <!-- conceive -->
       <SynsetRelation relType="hypernym" target="ewn-00056644-v"/> <!-- give birth, deliver, have, bear, birth -->
       <SynsetRelation relType="similar" target="ewn-00059147-v"/> <!-- expect -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00059330-v"/> <!-- carry to term -->
       <Example>&quot;She is bearing his child&quot;</Example>
       <Example>&quot;They are expecting another child in January&quot;</Example>
       <Example>&quot;I am carrying his child&quot;</Example>
@@ -9533,6 +9560,7 @@
     <Synset id="ewn-00062168-v" ili="i22089" partOfSpeech="v" dc:subject="verb.body">
       <Definition>produce and discharge eggs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00104622-v"/> <!-- exhaust, discharge, release, eject, expel -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00061974-v"/> <!-- menstruate, flow -->
       <Example>&quot;women ovulate about once every month&quot;</Example>
     </Synset>
     <!-- sterilize, sterilise -->
@@ -9808,6 +9836,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01312138-v"/> <!-- scrape, skin -->
       <SynsetRelation relType="hyponym" target="ewn-01495382-v"/> <!-- bruise, contuse -->
       <SynsetRelation relType="hyponym" target="ewn-01611412-v"/> <!-- graze -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01234662-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-01244054-v"/>
     </Synset>
     <!-- trample -->
     <Synset id="ewn-00070210-v" ili="i22126" partOfSpeech="v" dc:subject="verb.body">
@@ -9908,6 +9938,7 @@
       <Definition>excrete or discharge from the body</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00072742-v"/> <!-- excrete, eliminate, egest, pass -->
       <SynsetRelation relType="hyponym" target="ewn-00073337-v"/> <!-- suction -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00073566-v"/> <!-- purge -->
     </Synset>
     <!-- suction -->
     <Synset id="ewn-00073337-v" ili="i22141" partOfSpeech="v" dc:subject="verb.body">
@@ -9998,6 +10029,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00092045-v"/> <!-- degenerate, drop, deteriorate, devolve -->
       <SynsetRelation relType="hyponym" target="ewn-00099271-v"/> <!-- conk out, poop out, peter out, run down, run out -->
       <SynsetRelation relType="hyponym" target="ewn-01770804-v"/> <!-- retire, withdraw -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00074774-v"/> <!-- jade, outwear, wear down, tire out, fatigue, wear out, wear, fag, wear upon, weary, fag out, tire -->
       <Example>&quot;I&apos;m so tired of your mother and her complaints about my food&quot;</Example>
     </Synset>
     <!-- spue, spew, cast, barf, sick, upchuck, vomit, throw up, honk, regorge, be sick, cat, regurgitate, disgorge, retch, purge, chuck, puke, vomit up -->
@@ -10096,6 +10128,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00108713-v"/> <!-- pack -->
       <SynsetRelation relType="hyponym" target="ewn-00374419-v"/> <!-- cauterise, cauterize, burn -->
       <SynsetRelation relType="hyponym" target="ewn-00644859-v"/> <!-- analyse, psychoanalyze, analyze, psychoanalyse -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00081478-v"/> <!-- bring around, heal, cure -->
       <Example>&quot;The doctor treated my broken leg&quot;</Example>
       <Example>&quot;The nurses cared for the bomb victims&quot;</Example>
       <Example>&quot;The patient must be treated right away or she will die&quot;</Example>
@@ -10505,6 +10538,7 @@
       <Definition>destroy or injure severely</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00090640-v"/> <!-- maim -->
       <SynsetRelation relType="hyponym" target="ewn-01284214-v"/> <!-- force out, gouge -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01234662-v"/>
       <Example>&quot;mutilated bodies&quot;</Example>
     </Synset>
     <!-- maim -->
@@ -10572,6 +10606,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00023466-v"/> <!-- perk, percolate, perk up, gain vigor, pick up -->
       <SynsetRelation relType="hyponym" target="ewn-00092772-v"/> <!-- snap back -->
       <SynsetRelation relType="similar" target="ewn-00092915-v"/> <!-- recuperate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02626004-v"/>
       <Example>&quot;The patient is recuperating&quot;</Example>
     </Synset>
     <!-- snap back -->
@@ -10838,6 +10873,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00099989-v"/> <!-- tumble -->
       <SynsetRelation relType="hyponym" target="ewn-00101031-v"/> <!-- strengthen, tone, tone up -->
       <SynsetRelation relType="hyponym" target="ewn-01152836-v"/> <!-- weightlift, weight-lift, press -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00100305-v"/> <!-- exercise, work, work out -->
       <Example>&quot;She works out in the gym every day&quot;</Example>
     </Synset>
     <!-- train -->
@@ -10865,7 +10901,6 @@
       <SynsetRelation relType="causes" target="ewn-00099475-v"/> <!-- exercise, work out -->
       <SynsetRelation relType="hypernym" target="ewn-02413117-v"/> <!-- put to work, work -->
       <SynsetRelation relType="similar" target="ewn-00099475-v"/> <!-- exercise, work out -->
-      <SynsetRelation relType="hyponym" target="ewn-00100659-v"/> <!-- warm up -->
       <Example>&quot;Some parents exercise their infants&quot;</Example>
       <Example>&quot;My personal trainer works me hard&quot;</Example>
       <Example>&quot;work one&apos;s muscles&quot;</Example>
@@ -10874,8 +10909,6 @@
     <!-- warm up -->
     <Synset id="ewn-00100659-v" ili="i22277" partOfSpeech="v" dc:subject="verb.body">
       <Definition>cause to do preliminary exercises so as to stretch the muscles</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00100305-v"/> <!-- exercise, work, work out -->
-      <SynsetRelation relType="hypernym" target="ewn-02413117-v"/> <!-- put to work, work -->
       <SynsetRelation relType="hyponym" target="ewn-00100891-v"/> <!-- limber -->
       <Example>&quot;The coach warmed up the players before the game&quot;</Example>
     </Synset>
