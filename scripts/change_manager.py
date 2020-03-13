@@ -164,6 +164,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
         wn_synset.add_entry(entry)
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
+    return entry
 
 def delete_entry(wn, synset, entry_id):
     """Delete a lemma from a synset"""
@@ -300,14 +301,36 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
     """Create a new synset merging all the facts from other synsets"""
     pos = synsets[0].part_of_speech.value
     if not ssid:
-        ssid = new_id(wn, pos, definition)
+        ssid = new_id(wn, pos, synsets[0].definitions[0].text)
     ss = Synset(ssid, "in",
             PartOfSpeech(pos), lexfile)
-    ss.definitions = [s.definition for s in synsets]
-    ss.examples = [s.example for s in synsets]
-    # Add all relations
-    # Check for duplicate members
-    # Add all senses
+    ss.definitions = [d for s in synsets for d in s.definitions]
+    ss.examples = [x for s in synsets for x in s.examples]
+    members = {}
+    wn_ss = parse_wordnet("src/wn-%s.xml" % lexfile)
+    wn_ss.add_synset(ss)
+    with open("src/wn-%s.xml" % lexfile, "w") as outp:
+        wn_ss.to_xml(outp, True)
+
+    for s in synsets:
+        # Add all relations
+        for r in s.synset_relations:
+            if not any(r == r2 for r2 in ss.synset_relations):
+                add_relation(wn_ss, ss, wn.synset_by_id(r.target), r.rel_type)
+        # Add members
+        for m in wn.members_by_id(s.id):
+            if m not in members:
+                members[m] = add_entry(wn_ss, ss, m)
+            e = [e for e in [wn.entry_by_id(e2) for e2 in wn.entry_by_lemma(m)]
+                    if e.lemma.part_of_speech.value == pos][0]
+            for f in e.forms:
+                if not any(f2 == f for f in members[m].forms):
+                    members[m].add_form(f)
+            # syn behaviours - probably fix manually for the moment
+    with open("src/wn-%s.xml" % lexfile, "w") as outp:
+        wn_ss.to_xml(outp, True)
+    return ss
+
 
 def find_type(source, target):
     """Get the first relation type between the synsets"""

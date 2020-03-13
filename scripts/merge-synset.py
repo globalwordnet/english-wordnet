@@ -22,9 +22,9 @@ def main():
         args.synsets = []
         print("Enter synsets (empty line to finish)")
         while True:
-            id1 = "ewn-" + input("Enter synset ID: ewn-")
+            id1 = input("Enter synset ID: ewn-")
             if id1:
-                args.synsets.append(id1)
+                args.synsets.append("ewn-" + id1)
             else:
                 break
 
@@ -51,7 +51,7 @@ def main():
     if not args.reason:
         args.reason = input("Reason for deletion (#IssueNo): ")
 
-    new_id = change_manager.merge_synset(wn, synsets, args.reason, args.lexfile)
+    new_id = change_manager.merge_synset(wn, synsets, args.reason, args.lex_file)
 
     for synset in synsets:
         change_manager.delete_synset(wn, synset, 
