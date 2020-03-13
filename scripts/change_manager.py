@@ -308,4 +308,161 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
     # Add all relations
     # Check for duplicate members
     # Add all senses
-        
+
+def find_type(source, target):
+    """Get the first relation type between the synsets"""
+    x = [r for r in source.synset_relations if r.target == target.id]
+    if len(x) != 1:
+        raise Exception("Synsets not linked or linked by more than one property")
+    return x[0].rel_type
+
+def update_source(wn, old_source, target, new_source):
+    """Change the source of a link"""
+    rel_type = find_type(old_source, target)
+    delete_rel(old_source, target)
+    insert_rel(new_source, rel_type, target)
+    if rel_type in wordnet.inverse_synset_rels:
+        inv_rel_type = wordnet.inverse_synset_rels[rel_type]
+        delete_rel(target, old_source)
+        insert_rel(target, inv_rel_type, new_source)
+
+def update_target(wn, source, old_target, new_target):
+    """Change the target of a link"""
+    rel_type = find_type(source, old_target)
+    delete_rel(source, old_target)
+    insert_rel(source, rel_type, new_target)
+    if rel_type in wordnet.inverse_synset_rels:
+        inv_rel_type = wordnet.inverse_synset_rels[rel_type]
+        delete_rel(old_target, source)
+        insert_rel(new_target, inv_rel_type, source)
+
+def update_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    delete_rel(source, target)
+    insert_rel(source, new_rel, target)
+    if new_rel in inverse_synset_rels:
+        inv_rel_type = inverse_synset_rels[new_rel]
+        delete_rel(target, source)
+        insert_rel(target, inv_rel_type, source)
+
+def add_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    insert_rel(source, new_rel, target)
+    if new_rel in inverse_synset_rels:
+        inv_rel_type = inverse_synset_rels[new_rel]
+        insert_rel(target, inv_rel_type, source)
+
+def delete_relation(wn, source, target):
+    """Change the type of a link"""
+    delete_rel(source, target)
+    delete_rel(target, source)
+
+def reverse_rel(wn, source, target):
+    """Reverse the direction of relations"""
+    rel_type = find_type(source, target)
+    delete_rel(source, target)
+    if rel_type in inverse_synset_rels:
+        delete_rel(target, source)
+    insert_rel(target, rel_type, source)
+    if rel_type in inverse_synset_rels:
+        inv_rel_type = inverse_synset_rels[rel_type]
+        insert_rel(source, inv_rel_type, target)
+
+def delete_sense_rel(wn, source, target):
+    """Delete all relationships between two senses"""
+    print("Delete %s =*=> %s" % (source, target))
+    (source_synset, source_entry) = decompose_sense_id(source)
+    lex_name = wn.synset_by_id(source_synset).lex_name
+    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    entry = wn_source.entry_by_id(source_entry)
+    sense = [sense for sense in entry.senses if sense.id == source][0]
+    sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
+    with open("src/wn-%s.xml" % lex_name, "w") as out:
+        wn_source.to_xml(out, True)
+
+def insert_sense_rel(wn, source, rel_type, target):
+    """Insert a single relation between two senses"""
+    print("Insert %s =%s=> %s" % (source, rel_type, target))
+    (source_synset, source_entry) = decompose_sense_id(source)
+    lex_name = wn.synset_by_id(source_synset).lex_name
+    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    entry = wn_source.entry_by_id(source_entry)
+    sense = [sense for sense in entry.senses if sense.id == source][0]
+    sense.sense_relations.append(SenseRelation(target, rel_type))
+    with open("src/wn-%s.xml" % lex_name, "w") as out:
+        wn_source.to_xml(out, True)
+
+    
+def find_sense_type(wn, source, target):
+    """Get the first relation type between the senses"""
+    (source_synset, source_entry) = decompose_sense_id(source)
+    entry = wn.entry_by_id(source_entry)
+    sense = [sense for sense in entry.senses if sense.id == source][0]
+    x = set([r for r in sense.sense_relations if r.target == target])
+    if len(x) == 0:
+        raise Exception("Synsets not linked or linked by more than one property")
+    return next(iter(x)).rel_type
+    
+
+def update_source_sense(wn, old_source, target, new_source):
+    """Change the source of a link"""
+    rel_type = find_sense_type(wn, old_source, target)
+    delete_sense_rel(wn, old_source, target)
+    insert_sense_rel(wn, new_source, rel_type, target)
+    if rel_type in inverse_sense_rels:
+        inv_rel_type = inverse_sense_rels[rel_type]
+        delete_sense_rel(wn, target, old_source)
+        insert_sense_rel(wn, target, inv_rel_type, new_source)
+
+def update_target_sense(wn, source, old_target, new_target):
+    """Change the target of a link"""
+    rel_type = find_sense_type(wn, source, old_target)
+    delete_sense_rel(wn, source, old_target)
+    insert_sense_rel(wn, source, rel_type, new_target)
+    if rel_type in inverse_sense_rels:
+        inv_rel_type = inverse_sense_rels[rel_type]
+        delete_sense_rel(wn, old_target, source)
+        insert_sense_rel(wn, new_target, inv_rel_type, source)
+
+def update_sense_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    delete_sense_rel(wn, source, target)
+    insert_sense_rel(wn, source, new_rel, target)
+    if new_rel in inverse_sense_rels:
+        inv_rel_type = inverse_sense_rels[new_rel]
+        delete_sense_rel(wn, target, source)
+        insert_sense_rel(wn, target, inv_rel_type, source)
+
+def add_sense_relation(wn, source, target, new_rel):
+    """Change the type of a link"""
+    insert_sense_rel(wn, source, new_rel, target)
+    if new_rel in inverse_sense_rels:
+        inv_rel_type = inverse_sense_rels[new_rel]
+        insert_sense_rel(wn, target, inv_rel_type, source)
+
+def delete_sense_relation(wn, source, target):
+    """Change the type of a link"""
+    delete_sense_rel(wn, source, target)
+    delete_sense_rel(wn, target, source)
+
+def reverse_sense_rel(wn, source, target):
+    """Reverse the direction of a sense relation"""
+    rel_type = find_sense_type(wn, source, target)
+    delete_sense_rel(wn, source, target)
+    if rel_type in inverse_sense_rels:
+        delete_sense_rel(wn, target, source)
+    insert_sense_rel(wn, target, rel_type, source)
+    if rel_type in inverse_sense_rels:
+        inv_rel_type = inverse_sense_rels[rel_type]
+        insert_sense_rel(wn, source, inv_rel_type, target)
+
+def sense_exists(wn, sense_id):
+    if sense_id_re.match(sense_id):
+        (_, entry_id) = decompose_sense_id(sense_id)
+        entry = wn.entry_by_id(entry_id)
+        if entry:
+            senses = [sense for sense in entry.senses if sense.id == sense_id]
+            return len(senses) == 1
+    return False
+
+
