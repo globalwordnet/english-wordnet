@@ -165,7 +165,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
-def delete_entry(wn, synset, entry_id, delsyn=True):
+def delete_entry(wn, synset, entry_id):
     """Delete a lemma from a synset"""
     print("Deleting %s from synset %s" % (entry_id, synset.id))
     n_entries = len(wn.members_by_id(synset.id))
@@ -186,14 +186,10 @@ def delete_entry(wn, synset, entry_id, delsyn=True):
                 change_sense_n(wn, entry_global, sense.id, sense_n - 1)
             sense_n += 1
 
-    if n_entries == 1:
-        if delsyn:
-            delete_synset(wn, synset, delent=False)
-    else:
-        for sense_id in sense_ids_for_synset(wn, synset):
-            this_idx = int(sense_id[-2:])
-            if this_idx >= idx:
-                change_sense_idx(wn, sense_id, this_idx - 1)
+    for sense_id in sense_ids_for_synset(wn, synset):
+        this_idx = int(sense_id[-2:])
+        if this_idx >= idx:
+            change_sense_idx(wn, sense_id, this_idx - 1)
 
     for sense in entry_global.senses:
         if sense.synset == synset.id:
@@ -210,7 +206,7 @@ def delete_entry(wn, synset, entry_id, delsyn=True):
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
-def delete_synset(wn, synset, delent=True):
+def delete_synset(wn, synset, supersede, reason, delent=True):
     """Delete a synset"""
     print("Deleting synset %s" % synset.id)
     
@@ -229,6 +225,12 @@ def delete_synset(wn, synset, delent=True):
             if synset.id != ss.id]
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
+    with open("src/deprecations.csv", "a") as out:
+        out.write("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n" %
+                (synset.id, synset.ili,
+                    supersede.id if supersede else "",
+                    supersede.ili if supersede else "",
+                    reason.replace("\n","").replace("\"","\"\"")))
 
 
 def change_sense_n(wn, entry, sense_id, new_n):
