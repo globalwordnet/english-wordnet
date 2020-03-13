@@ -225,11 +225,16 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
             if synset.id != ss.id]
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
+    if supersede:
+        if not isinstance(supersede, list):
+            supersede = [supersede]
+    else:
+        supersede = []
     with open("src/deprecations.csv", "a") as out:
         out.write("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n" %
                 (synset.id, synset.ili,
-                    supersede.id if supersede else "",
-                    supersede.ili if supersede else "",
+                    ",".join(s.id for s in supersede),
+                    ",".join(s.ili for s in supersede),
                     reason.replace("\n","").replace("\"","\"\"")))
 
 
@@ -286,6 +291,7 @@ def add_synset(wn, definition, lexfile, pos, ssid=None):
     ss.definitions = [Definition(definition)]
     wn2 = parse_wordnet("src/wn-%s.xml" % lexfile)
     wn2.add_synset(ss)
+    wn.add_synset(ss) # So downstream split/merge script work!
     with open("src/wn-%s.xml" % lexfile, "w") as out:
         wn2.to_xml(out, True)
     return ssid
