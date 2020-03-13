@@ -296,3 +296,16 @@ def add_synset(wn, definition, lexfile, pos, ssid=None):
         wn2.to_xml(out, True)
     return ssid
 
+def merge_synset(wn, synsets, reason, lexfile, ssid=None):
+    """Create a new synset merging all the facts from other synsets"""
+    pos = synsets[0].part_of_speech.value
+    if not ssid:
+        ssid = new_id(wn, pos, definition)
+    ss = Synset(ssid, "in",
+            PartOfSpeech(pos), lexfile)
+    ss.definitions = [s.definition for s in synsets]
+    ss.examples = [s.example for s in synsets]
+    # Add all relations
+    # Check for duplicate members
+    # Add all senses
+        
