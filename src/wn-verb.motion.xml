@@ -445,10 +445,6 @@
       <Lemma writtenForm="stride" partOfSpeech="v"/>
       <Form writtenForm="stridden"/>
       <Form writtenForm="strode"/>
-      <Sense id="ewn-stride-v-01916702-01" n="1" synset="ewn-01916702-v" dc:identifier="stride%2:38:03::">
-        <SenseRelation relType="derivation" target="ewn-stride-n-13779389-04"/> <!-- step, pace, footstep, stride -->
-        <SenseRelation relType="derivation" target="ewn-stride-n-00286733-02"/> <!-- pace, stride, tread -->
-        </Sense>
       <Sense id="ewn-stride-v-01923704-01" n="0" synset="ewn-01923704-v" dc:identifier="stride%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-stride-n-13779389-04"/> <!-- step, pace, footstep, stride -->
         <SenseRelation relType="derivation" target="ewn-stride-n-00286733-02"/> <!-- pace, stride, tread -->
@@ -456,7 +452,7 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-stride-v-01923704-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-stride-v-01923704-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-stride-v-01916702-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-stride-v-01916702-00"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-transport-v">
       <Lemma writtenForm="transport" partOfSpeech="v"/>
@@ -18323,7 +18319,6 @@
       <Definition>travel across or pass over</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02054081-v"/> <!-- pass -->
       <SynsetRelation relType="hyponym" target="ewn-01885950-v"/> <!-- tramp -->
-      <SynsetRelation relType="hyponym" target="ewn-01916702-v"/> <!-- stride -->
       <SynsetRelation relType="hyponym" target="ewn-01916886-v"/> <!-- walk -->
       <SynsetRelation relType="hyponym" target="ewn-01917230-v"/> <!-- crisscross -->
       <SynsetRelation relType="hyponym" target="ewn-01917842-v"/> <!-- ford -->
@@ -18333,12 +18328,6 @@
       <SynsetRelation relType="hyponym" target="ewn-02071468-v"/> <!-- course -->
       <SynsetRelation relType="hyponym" target="ewn-02099338-v"/> <!-- hop -->
       <Example>&quot;The caravan covered almost 100 miles each day&quot;</Example>
-    </Synset>
-    <!-- stride -->
-    <Synset id="ewn-01916702-v" ili="i31276" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>cover or traverse by taking long steps</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01916152-v"/> <!-- cover, cut through, get over, cut across, track, cross, pass over, traverse, get across -->
-      <Example>&quot;She strode several miles towards the woods&quot;</Example>
     </Synset>
     <!-- walk -->
     <Synset id="ewn-01916886-v" ili="i31277" partOfSpeech="v" dc:subject="verb.motion">
