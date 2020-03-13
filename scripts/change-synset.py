@@ -46,6 +46,9 @@ def main():
             print("Could not find synset")
             sys.exit(-1)
 
+        if not args.reason:
+            args.reason = input("Reason for deletion: ")
+
     if args.add:
         if not args.definition:
             args.definition = input("Definition: ")

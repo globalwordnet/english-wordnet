@@ -6,6 +6,8 @@ from glob import glob
 import fileinput
 import hashlib
 
+sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
+
 def load_wordnet():
     """Load the wordnet from wn.xml"""
     # Slightly speeds up the loading of WordNet
@@ -196,7 +198,7 @@ def delete_entry(wn, synset, entry_id, delsyn=True):
     for sense in entry_global.senses:
         if sense.synset == synset.id:
             for rel in sense.sense_relations:
-                delete_sense_rel(rel.target, sense.id)
+                delete_sense_rel(wn, rel.target, sense.id)
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
