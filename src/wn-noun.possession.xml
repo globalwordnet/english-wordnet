@@ -3183,7 +3183,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-charge_plate-n">
       <Lemma writtenForm="charge plate" partOfSpeech="n"/>
-      <Sense id="ewn-charge_plate-n-13397185-03" n="0" synset="ewn-13397185-n" dc:identifier="charge_plate%1:21:00::"/>
+      <Sense id="ewn-charge_plate-n-13397185-02" n="0" synset="ewn-13397185-n" dc:identifier="charge_plate%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-expiation-n">
       <Lemma writtenForm="expiation" partOfSpeech="n"/>
@@ -3310,7 +3310,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-charge_card-n">
       <Lemma writtenForm="charge card" partOfSpeech="n"/>
-      <Sense id="ewn-charge_card-n-13397185-02" n="0" synset="ewn-13397185-n" dc:identifier="charge_card%1:21:00::"/>
+      <Sense id="ewn-charge_card-n-13397185-01" n="0" synset="ewn-13397185-n" dc:identifier="charge_card%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-cost_ledger-n">
       <Lemma writtenForm="cost ledger" partOfSpeech="n"/>
@@ -4720,7 +4720,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-credit_card-n">
       <Lemma writtenForm="credit card" partOfSpeech="n"/>
-      <Sense id="ewn-credit_card-n-13397185-01" n="0" synset="ewn-13397185-n" dc:identifier="credit_card%1:21:00::"/>
+      <Sense id="ewn-credit_card-n-80721451-01" n="0" synset="ewn-80721451-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-liability_insurance-n">
       <Lemma writtenForm="liability insurance" partOfSpeech="n"/>
@@ -6048,7 +6048,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-plastic-n">
       <Lemma writtenForm="plastic" partOfSpeech="n"/>
-      <Sense id="ewn-plastic-n-13397185-04" n="1" synset="ewn-13397185-n" dc:identifier="plastic%1:21:00::"/>
+      <Sense id="ewn-plastic-n-13397185-03" n="1" synset="ewn-13397185-n" dc:identifier="plastic%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-bank_discount-n">
       <Lemma writtenForm="bank discount" partOfSpeech="n"/>
@@ -11783,7 +11783,6 @@
       <SynsetRelation relType="hypernym" target="ewn-13395599-n"/> <!-- consumer credit -->
       <SynsetRelation relType="hyponym" target="ewn-13396777-n"/> <!-- credit account, charge account, open account -->
       <SynsetRelation relType="hyponym" target="ewn-13397185-n"/> <!-- credit card, plastic, charge card, charge plate -->
-      <SynsetRelation relType="hyponym" target="ewn-13397937-n"/> <!-- debit card -->
       <SynsetRelation relType="hyponym" target="ewn-13398176-n"/> <!-- smart card -->
       <SynsetRelation relType="hyponym" target="ewn-13402169-n"/> <!-- overdraft credit, check overdraft credit -->
     </Synset>
@@ -11805,18 +11804,20 @@
     </Synset>
     <!-- credit card, plastic, charge card, charge plate -->
     <Synset id="ewn-13397185-n" ili="i107009" partOfSpeech="n" dc:subject="noun.possession">
-      <Definition>a card (usually plastic) that assures a seller that the person using it has a satisfactory credit rating and that the issuer will see to it that the seller receives payment for the merchandise delivered</Definition>
+      <Definition>a card (usually plastic) that assures a seller that the person using it has sufficient means of payment and that the issuer will see to it that the seller receives payment for the merchandise delivered</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13396496-n"/> <!-- revolving credit, charge account credit, open-end credit -->
       <SynsetRelation relType="hypernym" target="ewn-06898439-n"/> <!-- positive identification -->
       <SynsetRelation relType="mero_part" target="ewn-03713305-n"/> <!-- magnetic stripe -->
       <SynsetRelation relType="hyponym" target="ewn-13397599-n"/> <!-- bank card -->
       <SynsetRelation relType="hyponym" target="ewn-13397685-n"/> <!-- phone card, calling card -->
       <SynsetRelation relType="hyponym" target="ewn-13397816-n"/> <!-- cashcard, cash card -->
+      <SynsetRelation relType="hyponym" target="ewn-80721451-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-13397937-n"/> <!-- debit card -->
       <Example>&quot;do you take plastic?&quot;</Example>
     </Synset>
     <!-- bank card -->
     <Synset id="ewn-13397599-n" ili="i107010" partOfSpeech="n" dc:subject="noun.possession">
-      <Definition>a credit card issued by a bank</Definition>
+      <Definition>a payment card issued by a bank</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13397185-n"/> <!-- credit card, plastic, charge card, charge plate -->
     </Synset>
     <!-- phone card, calling card -->
@@ -11826,15 +11827,14 @@
     </Synset>
     <!-- cashcard, cash card -->
     <Synset id="ewn-13397816-n" ili="i107012" partOfSpeech="n" dc:subject="noun.possession">
-      <Definition>a credit card that entitles the holder to receive cash</Definition>
+      <Definition>a payment card that entitles the holder to receive cash</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13397185-n"/> <!-- credit card, plastic, charge card, charge plate -->
     </Synset>
     <!-- debit card -->
     <Synset id="ewn-13397937-n" ili="i107013" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a card (usually plastic) that enables the holder to withdraw money or to have the cost of purchases charged directly to the holder&apos;s bank account</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13396496-n"/> <!-- revolving credit, charge account credit, open-end credit -->
-      <SynsetRelation relType="hypernym" target="ewn-06898439-n"/> <!-- positive identification -->
       <SynsetRelation relType="mero_part" target="ewn-03713305-n"/> <!-- magnetic stripe -->
+      <SynsetRelation relType="hypernym" target="ewn-13397185-n"/> <!-- credit card, plastic, charge card, charge plate -->
     </Synset>
     <!-- smart card -->
     <Synset id="ewn-13398176-n" ili="i107014" partOfSpeech="n" dc:subject="noun.possession">
@@ -13513,6 +13513,10 @@
       <Definition>the last line in an audit; the line that shows profit or loss</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07025650-n"/> <!-- line -->
       <SynsetRelation relType="holo_part" target="ewn-13432330-n"/> <!-- audited account, audit -->
+    </Synset>
+    <Synset id="ewn-80721451-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
+      <Definition>a payment card that allows the consumer to build a continuing balacne of debt, subject to interest being charged</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13397185-n"/> <!-- credit card, plastic, charge card, charge plate -->
     </Synset>
     <Synset id="ewn-89535166-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a tax based on the value of the goods collected by the end retailer</Definition>
