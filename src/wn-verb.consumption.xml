@@ -3113,7 +3113,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01164607-v"/> <!-- cannibalise, cannibalize -->
       <SynsetRelation relType="hyponym" target="ewn-01167359-v"/> <!-- use, habituate -->
       <SynsetRelation relType="hyponym" target="ewn-01168667-v"/> <!-- eat -->
-      <SynsetRelation relType="hyponym" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="hyponym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <SynsetRelation relType="hyponym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <SynsetRelation relType="hyponym" target="ewn-01174998-v"/> <!-- partake, touch -->
@@ -3122,6 +3121,9 @@
       <SynsetRelation relType="hyponym" target="ewn-01197832-v"/> <!-- sample, taste, try out, try -->
       <SynsetRelation relType="hyponym" target="ewn-01200618-v"/> <!-- take up, sop up, suck in, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01208079-v"/> <!-- sup -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01179415-v"/> <!-- board -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01199976-v"/> <!-- digest -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01206641-v"/> <!-- assuage, allay, quench, slake -->
       <Example>&quot;Have another bowl of chicken soup!&quot;</Example>
       <Example>&quot;I don&apos;t take sugar in my coffee&quot;</Example>
     </Synset>
@@ -3136,6 +3138,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02272374-v"/> <!-- spend -->
       <SynsetRelation relType="similar" target="ewn-02272834-v"/> <!-- occupy, take, use up -->
       <SynsetRelation relType="hyponym" target="ewn-02285714-v"/> <!-- play out, sap, exhaust, run down, tire -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01160888-v"/> <!-- use, expend -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01198337-v"/> <!-- frivol away, fool, fool away, shoot, fritter away, dissipate, fritter -->
       <Example>&quot;this car consumes a lot of gas&quot;</Example>
       <Example>&quot;We exhausted our savings&quot;</Example>
       <Example>&quot;They run through 20 bottles of wine a week&quot;</Example>
@@ -3172,6 +3176,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01160800-v"/> <!-- spare -->
       <SynsetRelation relType="hyponym" target="ewn-02272834-v"/> <!-- occupy, take, use up -->
       <SynsetRelation relType="hyponym" target="ewn-02273196-v"/> <!-- squander, waste, blow -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
       <Example>&quot;The legislature expended its time on school questions&quot;</Example>
     </Synset>
     <!-- utilise, use, employ, utilize, apply -->
@@ -3397,6 +3402,7 @@
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01200739-v"/> <!-- smoke -->
       <SynsetRelation relType="hyponym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01167606-v"/> <!-- addict, hook -->
       <Example>&quot;She uses drugs rarely&quot;</Example>
     </Synset>
     <!-- addict, hook -->
@@ -3442,8 +3448,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01169974-v"/> <!-- eat out, dine out -->
       <SynsetRelation relType="hyponym" target="ewn-01170315-v"/> <!-- dine -->
       <SynsetRelation relType="hyponym" target="ewn-01170593-v"/> <!-- picnic -->
-      <SynsetRelation relType="similar" target="ewn-01170802-v"/> <!-- eat -->
-      <SynsetRelation relType="hyponym" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="hyponym" target="ewn-01174842-v"/> <!-- break bread -->
       <SynsetRelation relType="hyponym" target="ewn-01175354-v"/> <!-- dig in, pitch in -->
       <SynsetRelation relType="hyponym" target="ewn-01175702-v"/> <!-- snack, nosh -->
@@ -3453,6 +3457,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01188273-v"/> <!-- breakfast -->
       <SynsetRelation relType="hyponym" target="ewn-01188514-v"/> <!-- banquet, feast, junket -->
       <SynsetRelation relType="hyponym" target="ewn-01195632-v"/> <!-- ingurgitate, overindulge, gorge, binge, gormandise, scarf out, pig out, overgorge, stuff, engorge, glut, satiate, gormandize, gourmandize, overeat, englut -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01175505-v"/> <!-- tuck away, put away, tuck in -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01197310-v"/> <!-- wine and dine -->
       <Example>&quot;We did not eat until 10 P.M. because there were so many phone calls&quot;</Example>
       <Example>&quot;I didn&apos;t eat yet, so I gladly accept your invitation&quot;</Example>
     </Synset>
@@ -3505,12 +3511,9 @@
     <!-- eat -->
     <Synset id="ewn-01170802-v" ili="i27459" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take in solid food</Definition>
-      <SynsetRelation relType="similar" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="similar" target="ewn-01182162-v"/> <!-- feed, eat -->
-      <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="entails" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
       <SynsetRelation relType="entails" target="ewn-01204494-v"/> <!-- swallow, get down -->
-      <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01169624-v"/> <!-- wash down -->
       <SynsetRelation relType="hyponym" target="ewn-01171347-v"/> <!-- gluttonise, gluttonize, fress -->
       <SynsetRelation relType="hyponym" target="ewn-01171485-v"/> <!-- wolf down, wolf -->
@@ -3525,6 +3528,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01199186-v"/> <!-- devour, pig, raven, guttle -->
       <SynsetRelation relType="hyponym" target="ewn-01199335-v"/> <!-- polish off, eat up, finish -->
       <SynsetRelation relType="hyponym" target="ewn-01206513-v"/> <!-- fill up, fill -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>&quot;She was eating a banana&quot;</Example>
       <Example>&quot;What did you eat for dinner last night?&quot;</Example>
     </Synset>
@@ -3579,6 +3583,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01178234-v"/> <!-- drain the cup, drink up -->
       <SynsetRelation relType="hyponym" target="ewn-01204688-v"/> <!-- quaff, swig, gulp -->
       <SynsetRelation relType="hyponym" target="ewn-01204994-v"/> <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01171869-v"/> <!-- drench -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01189918-v"/> <!-- suckle -->
       <Example>&quot;The patient must drink several liters each day&quot;</Example>
       <Example>&quot;The children like to drink soda&quot;</Example>
     </Synset>
@@ -3619,6 +3625,9 @@
       <SynsetRelation relType="hyponym" target="ewn-01192810-v"/> <!-- inebriate, hit it up, souse, soak -->
       <SynsetRelation relType="hyponym" target="ewn-01193373-v"/> <!-- wine -->
       <SynsetRelation relType="hyponym" target="ewn-01207773-v"/> <!-- carry, hold -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00148938-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-01177764-v"/> <!-- salute, pledge, toast, drink, wassail -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01197310-v"/> <!-- wine and dine -->
       <Example>&quot;We were up drinking all night&quot;</Example>
     </Synset>
     <!-- tank -->
@@ -3897,6 +3906,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01206811-v"/> <!-- nourish, aliment, nutrify -->
       <SynsetRelation relType="hyponym" target="ewn-01207059-v"/> <!-- range -->
       <SynsetRelation relType="hyponym" target="ewn-01579309-v"/> <!-- pasture, graze, crop -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01179194-v"/> <!-- board -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01197471-v"/> <!-- plump, fatten, fat, fatten up, flesh out, fatten out, plump out, fill out -->
       <Example>&quot;Feed the starving children in India&quot;</Example>
       <Example>&quot;don&apos;t give the child this tough meat&quot;</Example>
     </Synset>
@@ -4172,6 +4183,7 @@
       <Definition>give suck to</Definition>
       <SynsetRelation relType="similar" target="ewn-01171984-v"/> <!-- suck -->
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01189491-v"/> <!-- ablactate, wean -->
       <Example>&quot;The wetnurse suckled the infant&quot;</Example>
       <Example>&quot;You cannot nurse your baby in public in some places&quot;</Example>
     </Synset>
@@ -4227,6 +4239,7 @@
     <Synset id="ewn-01190677-v" ili="i27558" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be hungry; go without food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00064841-v"/> <!-- suffer, hurt -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01190273-v"/> <!-- famish, starve -->
       <Example>&quot;Let&apos;s eat--I&apos;m starving!&quot;</Example>
     </Synset>
     <!-- be full -->
@@ -4494,6 +4507,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01192137-v"/> <!-- fast -->
       <SynsetRelation relType="hyponym" target="ewn-01192356-v"/> <!-- keep off, avoid -->
       <SynsetRelation relType="hyponym" target="ewn-01198897-v"/> <!-- teetotal -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01805829-v"/>
       <Example>&quot;I abstain from alcohol&quot;</Example>
     </Synset>
     <!-- teetotal -->
@@ -4542,6 +4556,7 @@
       <SynsetRelation relType="similar" target="ewn-00482486-v"/> <!-- digest -->
       <SynsetRelation relType="hyponym" target="ewn-01200264-v"/> <!-- stomach -->
       <SynsetRelation relType="hyponym" target="ewn-01200508-v"/> <!-- predigest -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01200388-v"/> <!-- metabolise, metabolize -->
       <Example>&quot;I cannot digest milk products&quot;</Example>
     </Synset>
     <!-- stomach -->
@@ -4575,6 +4590,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01201090-v"/> <!-- chain-smoke -->
       <SynsetRelation relType="hyponym" target="ewn-01201254-v"/> <!-- puff, whiff -->
       <SynsetRelation relType="hyponym" target="ewn-01201417-v"/> <!-- inhale -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01201647-v"/> <!-- puff, drag, draw -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01202519-v"/> <!-- fire up, light, light up -->
       <Example>&quot;We never smoked marijuana&quot;</Example>
       <Example>&quot;Do you smoke?&quot;</Example>
     </Synset>
@@ -4665,6 +4682,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01202706-v"/> <!-- base, free-base -->
       <SynsetRelation relType="hyponym" target="ewn-01203299-v"/> <!-- drop -->
       <SynsetRelation relType="hyponym" target="ewn-01203444-v"/> <!-- dope -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01202883-v"/> <!-- huff, snort -->
     </Synset>
     <!-- drop -->
     <Synset id="ewn-01203299-v" ili="i27626" partOfSpeech="v" dc:subject="verb.consumption">
@@ -4680,6 +4698,7 @@
     <!-- trip out, trip, get off, turn on -->
     <Synset id="ewn-01203572-v" ili="i27628" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>get high, stoned, or drugged</Definition>
+      <SynsetRelation relType="is_caused_by" target="ewn-01203078-v"/> <!-- drug, do drugs -->
       <Example>&quot;He trips every weekend&quot;</Example>
     </Synset>
     <!-- masticate, manducate, jaw, chew -->
@@ -4692,6 +4711,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01204212-v"/> <!-- chaw -->
       <SynsetRelation relType="hyponym" target="ewn-01204331-v"/> <!-- munch, crunch -->
       <SynsetRelation relType="hyponym" target="ewn-01448216-v"/> <!-- gnaw -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01170802-v"/> <!-- eat -->
       <Example>&quot;He jawed his bubble gum&quot;</Example>
       <Example>&quot;Chew your food and don&apos;t swallow it!&quot;</Example>
       <Example>&quot;The cows were masticating the grass&quot;</Example>
@@ -4712,6 +4732,8 @@
     <Synset id="ewn-01204494-v" ili="i27632" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>pass through the esophagus as part of eating or drinking</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01205271-v"/> <!-- bolt -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01170802-v"/> <!-- eat -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01204688-v"/> <!-- quaff, swig, gulp -->
       <Example>&quot;Swallow the raw fish--it won&apos;t kill you!&quot;</Example>
     </Synset>
     <!-- quaff, swig, gulp -->

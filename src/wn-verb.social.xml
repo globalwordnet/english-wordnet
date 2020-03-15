@@ -14290,6 +14290,10 @@
       <SynsetRelation relType="hyponym" target="ewn-02729439-v"/> <!-- do well, had best -->
       <SynsetRelation relType="hyponym" target="ewn-02753584-v"/> <!-- continue -->
       <SynsetRelation relType="hyponym" target="ewn-02753797-v"/> <!-- persist in, continue -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00852919-v"/>
+      <SynsetRelation relType="is_caused_by" target="ewn-02444366-v"/> <!-- direct -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02510211-v"/> <!-- squeeze, pressure, hale, force, coerce -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02512195-v"/> <!-- obligate, compel, oblige -->
       <Example>&quot;think before you act&quot;</Example>
       <Example>&quot;We must move quickly&quot;</Example>
       <Example>&quot;The governor should act on the new energy bill&quot;</Example>
@@ -14661,6 +14665,8 @@
       <SynsetRelation relType="hypernym" target="ewn-02387509-v"/> <!-- quit, resign, step down, leave office -->
       <SynsetRelation relType="hyponym" target="ewn-00538001-v"/> <!-- superannuate -->
       <SynsetRelation relType="hyponym" target="ewn-02385902-v"/> <!-- bow out, withdraw -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02385393-v"/> <!-- retire -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02385713-v"/> <!-- pension off -->
       <Example>&quot;He retired at age 68&quot;</Example>
     </Synset>
     <!-- retire, withdraw -->
@@ -15561,7 +15567,6 @@
       <SynsetRelation relType="causes" target="ewn-02415985-v"/> <!-- do work, work -->
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-00100305-v"/> <!-- exercise, work, work out -->
-      <SynsetRelation relType="hyponym" target="ewn-00100659-v"/> <!-- warm up -->
       <SynsetRelation relType="hyponym" target="ewn-01722811-v"/> <!-- computerize, cybernate, computerise -->
       <SynsetRelation relType="hyponym" target="ewn-02413852-v"/> <!-- rack -->
       <SynsetRelation relType="hyponym" target="ewn-02414278-v"/> <!-- overwork, exploit -->
@@ -15671,6 +15676,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02466306-v"/> <!-- subcontract -->
       <SynsetRelation relType="hyponym" target="ewn-02469904-v"/> <!-- turn a trick -->
       <SynsetRelation relType="hyponym" target="ewn-02582195-v"/> <!-- freelance -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02413117-v"/> <!-- put to work, work -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02574587-v"/> <!-- exercise, practise, practice, do -->
       <Example>&quot;Is your husband working again?&quot;</Example>
       <Example>&quot;My wife never worked&quot;</Example>
       <Example>&quot;Do you want to work after the age of 60?&quot;</Example>
@@ -16241,6 +16248,9 @@
       <SynsetRelation relType="hyponym" target="ewn-02434322-v"/> <!-- turn out -->
       <SynsetRelation relType="hyponym" target="ewn-02434529-v"/> <!-- caucus -->
       <SynsetRelation relType="hyponym" target="ewn-02598267-v"/> <!-- club -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02433334-v"/> <!-- retire, adjourn, withdraw -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02434657-v"/> <!-- call -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02604140-v"/> <!-- gather, assemble, get together -->
       <Example>&quot;We assembled in the church basement&quot;</Example>
       <Example>&quot;Let&apos;s gather in the dining room&quot;</Example>
     </Synset>
@@ -16386,6 +16396,7 @@
     <Synset id="ewn-02439085-v" ili="i33898" partOfSpeech="v" dc:subject="verb.social">
       <Definition>form or join a union</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02439823-v"/> <!-- join, fall in, get together -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02440714-v"/> <!-- unionise, unionize -->
       <Example>&quot;The auto workers decided to unionize&quot;</Example>
     </Synset>
     <!-- confederate -->
@@ -17325,6 +17336,7 @@
       <Definition>express a choice or opinion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01063503-v"/> <!-- express, state -->
       <SynsetRelation relType="hyponym" target="ewn-02467624-v"/> <!-- vote -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02478854-v"/> <!-- negative, blackball, veto -->
       <Example>&quot;I vote that we all go home&quot;</Example>
       <Example>&quot;She voted for going to the Chinese restaurant&quot;</Example>
     </Synset>
@@ -17844,6 +17856,7 @@
     <Synset id="ewn-02483178-v" ili="i34109" partOfSpeech="v" dc:subject="verb.social">
       <Definition>postpone indefinitely or annul something that was scheduled</Definition>
       <SynsetRelation relType="entails" target="ewn-00796643-v"/> <!-- schedule -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02648898-v"/>
       <Example>&quot;Call off the engagement&quot;</Example>
       <Example>&quot;cancel the dinner party&quot;</Example>
       <Example>&quot;we had to scrub our vacation plans&quot;</Example>
@@ -18021,6 +18034,7 @@
       <SynsetRelation relType="similar" target="ewn-02489797-v"/> <!-- execute -->
       <SynsetRelation relType="hyponym" target="ewn-02490911-v"/> <!-- burn -->
       <SynsetRelation relType="hyponym" target="ewn-02491069-v"/> <!-- hang, string up -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02314601-v"/>
       <Example>&quot;In some states, criminals are executed&quot;</Example>
     </Synset>
     <!-- quarter, draw and quarter, draw -->
@@ -18180,6 +18194,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02493953-v"/> <!-- see -->
       <SynsetRelation relType="hyponym" target="ewn-02494137-v"/> <!-- see -->
       <SynsetRelation relType="hyponym" target="ewn-02494290-v"/> <!-- drop by, drop in, come by -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02493817-v"/> <!-- send in -->
       <Example>&quot;The mayor likes to call on some of the prominent citizens&quot;</Example>
     </Synset>
     <!-- call -->
@@ -18233,6 +18248,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02495653-v"/> <!-- wive -->
       <SynsetRelation relType="hyponym" target="ewn-02495739-v"/> <!-- intermarry -->
       <SynsetRelation relType="hyponym" target="ewn-02495896-v"/> <!-- remarry -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02496283-v"/> <!-- split up, divorce -->
     </Synset>
     <!-- inmarry -->
     <Synset id="ewn-02494832-v" ili="i34167" partOfSpeech="v" dc:subject="verb.social">
@@ -18569,6 +18585,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02506268-v"/> <!-- victimize, victimise -->
       <SynsetRelation relType="hyponym" target="ewn-02506424-v"/> <!-- scourge -->
       <SynsetRelation relType="hyponym" target="ewn-02559125-v"/> <!-- correct, discipline, sort out -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02507686-v"/> <!-- suspend, debar -->
       <Example>&quot;The students were penalized for showing up late for class&quot;</Example>
       <Example>&quot;we had to punish the dog for soiling the floor again&quot;</Example>
     </Synset>
@@ -19266,6 +19283,7 @@
     <Synset id="ewn-02526950-v" ili="i34318" partOfSpeech="v" dc:subject="verb.social">
       <Definition>accuse formally of a crime</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00845147-v"/> <!-- charge, accuse -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02503641-v"/> <!-- arraign -->
     </Synset>
     <!-- resist, dissent, protest -->
     <Synset id="ewn-02527076-v" ili="i34319" partOfSpeech="v" dc:subject="verb.social">
@@ -19275,6 +19293,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02527482-v"/> <!-- demonstrate, march -->
       <SynsetRelation relType="hyponym" target="ewn-02589224-v"/> <!-- rise, arise, rise up, rebel -->
       <SynsetRelation relType="hyponym" target="ewn-02589464-v"/> <!-- renegade, rebel -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02590182-v"/> <!-- desert, defect -->
       <Example>&quot;dissent to the laws of the country&quot;</Example>
     </Synset>
     <!-- demonstrate, march -->
@@ -19383,6 +19402,7 @@
       <Definition>go successfully through a test or a selection process</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02529837-v"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
       <SynsetRelation relType="hyponym" target="ewn-02528247-v"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02529619-v"/> <!-- pass -->
       <Example>&quot;She passed the new Jersey Bar Exam and can practice law now&quot;</Example>
     </Synset>
     <!-- run -->
@@ -19543,6 +19563,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02538124-v"/> <!-- give it a whirl, give it a try -->
       <SynsetRelation relType="hyponym" target="ewn-02550045-v"/> <!-- risk, take chances, gamble, run a risk, take a chance, hazard, adventure, chance -->
       <SynsetRelation relType="hyponym" target="ewn-02551275-v"/> <!-- risk, put on the line, lay on the line -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02529837-v"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
       <Example>&quot;He tried to shake off his fears&quot;</Example>
       <Example>&quot;The infant had essayed a few wobbly steps&quot;</Example>
       <Example>&quot;The police attempted to stop the thief&quot;</Example>
@@ -19866,6 +19887,7 @@
       <Definition>become an adult</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00251067-v"/> <!-- maturate, mature, grow -->
       <SynsetRelation relType="hyponym" target="ewn-02546142-v"/> <!-- come of age -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02545454-v"/> <!-- bring up, nurture, rear, raise, parent -->
     </Synset>
     <!-- come of age -->
     <Synset id="ewn-02546142-v" ili="i34403" partOfSpeech="v" dc:subject="verb.social">
@@ -20851,6 +20873,7 @@
       <Definition>enter someone&apos;s (virtual or real) property in an unauthorized manner, usually with the intent to steal or commit a violent act</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02577166-v"/> <!-- intrude, trespass -->
       <SynsetRelation relType="hyponym" target="ewn-02576982-v"/> <!-- crack -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02577426-v"/> <!-- burglarise, heist, burgle, burglarize -->
       <Example>&quot;Someone broke in while I was on vacation&quot;</Example>
       <Example>&quot;They broke into my car and stole my radio!&quot;</Example>
       <Example>&quot;who broke into my account last night?&quot;</Example>
@@ -21007,6 +21030,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02583671-v"/> <!-- play a joke on, pull someone's leg, hoax -->
       <SynsetRelation relType="hyponym" target="ewn-02584093-v"/> <!-- entrap, frame, ensnare, set up -->
       <SynsetRelation relType="hyponym" target="ewn-02599157-v"/> <!-- humbug -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02579332-v"/> <!-- chisel, rip off, cheat -->
     </Synset>
     <!-- shill -->
     <Synset id="ewn-02581611-v" ili="i34564" partOfSpeech="v" dc:subject="verb.social">
@@ -21590,6 +21614,7 @@
     <Synset id="ewn-02600446-v" ili="i34656" partOfSpeech="v" dc:subject="verb.social">
       <Definition>act, usually en masse, hurriedly or on an impulse</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02372362-v"/> <!-- move, act -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02600625-v"/> <!-- stampede -->
       <Example>&quot;Companies will now stampede to release their latest software&quot;</Example>
     </Synset>
     <!-- stampede -->
