@@ -990,7 +990,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-VAT-n">
       <Lemma writtenForm="VAT" partOfSpeech="n"/>
-      <Sense id="ewn-VAT-n-13337744-01" n="0" synset="ewn-13337744-n" dc:identifier="vat%1:21:00::"/>
+      <Sense id="ewn-VAT-n-89535166-02" n="0" synset="ewn-89535166-n" dc:identifier="vat%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-living_wage-n">
       <Lemma writtenForm="living wage" partOfSpeech="n"/>
@@ -4274,7 +4274,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-value-added_tax-n">
       <Lemma writtenForm="value-added tax" partOfSpeech="n"/>
-      <Sense id="ewn-value-added_tax-n-13337744-02" n="0" synset="ewn-13337744-n" dc:identifier="value-added_tax%1:21:00::"/>
+      <Sense id="ewn-value-added_tax-n-89535166-01" n="0" synset="ewn-89535166-n" dc:identifier="value-added_tax%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-book-n">
       <Lemma writtenForm="book" partOfSpeech="n"/>
@@ -6783,6 +6783,14 @@
       <Sense id="ewn-dollar-n-13413140-01" n="2" synset="ewn-13413140-n" dc:identifier="dollar%1:21:01::"/>
       <Sense id="ewn-dollar-n-13417070-01" n="1" synset="ewn-13417070-n" dc:identifier="dollar%1:21:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-goods_and_service_tax-n">
+      <Lemma writtenForm="goods and service tax" partOfSpeech="n"/>
+      <Sense id="ewn-goods_and_service_tax-n-89535166-03" n="0" synset="ewn-89535166-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-GST-n">
+      <Lemma writtenForm="GST" partOfSpeech="n"/>
+      <Sense id="ewn-GST-n-89535166-04" n="0" synset="ewn-89535166-n"/>
+    </LexicalEntry>
     <!-- ownership -->
     <Synset id="ewn-13261412-n" ili="i106221" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the relation of an owner to the thing possessed; possession with the right to transfer possession to others</Definition>
@@ -7742,7 +7750,6 @@
       <SynsetRelation relType="hyponym" target="ewn-13287371-n"/> <!-- fellowship -->
       <SynsetRelation relType="hyponym" target="ewn-13287538-n"/> <!-- foreign aid -->
       <SynsetRelation relType="hyponym" target="ewn-13287915-n"/> <!-- grant -->
-      <SynsetRelation relType="hyponym" target="ewn-13288557-n"/> <!-- grant-in-aid -->
       <SynsetRelation relType="hyponym" target="ewn-13288839-n"/> <!-- traineeship -->
       <Example>&quot;economic assistance to depressed areas&quot;</Example>
     </Synset>
@@ -7775,7 +7782,6 @@
       <Definition>any monetary aid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13286803-n"/> <!-- financial assistance, economic assistance, financial aid, economic aid, assistance, aid -->
       <SynsetRelation relType="hyponym" target="ewn-13288037-n"/> <!-- subsidy -->
-      <SynsetRelation relType="hyponym" target="ewn-13288557-n"/> <!-- grant-in-aid -->
     </Synset>
     <!-- subsidy -->
     <Synset id="ewn-13288037-n" ili="i106373" partOfSpeech="n" dc:subject="noun.possession">
@@ -7798,8 +7804,6 @@
     <!-- grant-in-aid -->
     <Synset id="ewn-13288557-n" ili="i106376" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a grant to a person or school for some educational project</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13287915-n"/> <!-- grant -->
-      <SynsetRelation relType="hypernym" target="ewn-13286803-n"/> <!-- financial assistance, economic assistance, financial aid, economic aid, assistance, aid -->
       <SynsetRelation relType="hyponym" target="ewn-13288710-n"/> <!-- postdoc, post doc, postdoctoral -->
     </Synset>
     <!-- postdoc, post doc, postdoctoral -->
@@ -9683,6 +9687,7 @@
     <Synset id="ewn-13337744-n" ili="i106672" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a tax levied on the difference between a commodity&apos;s price before taxes and its cost of production</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13337354-n"/> <!-- excise, excise tax -->
+      <SynsetRelation relType="hyponym" target="ewn-89535166-n"/>
     </Synset>
     <!-- gasoline tax -->
     <Synset id="ewn-13337927-n" ili="i106673" partOfSpeech="n" dc:subject="noun.possession">
@@ -13508,6 +13513,10 @@
       <Definition>the last line in an audit; the line that shows profit or loss</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07025650-n"/> <!-- line -->
       <SynsetRelation relType="holo_part" target="ewn-13432330-n"/> <!-- audited account, audit -->
+    </Synset>
+    <Synset id="ewn-89535166-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
+      <Definition>a tax based on the value of the goods collected by the end retailer</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13337744-n"/> <!-- value-added tax, ad valorem tax, VAT -->
     </Synset>
   </Lexicon>
 </LexicalResource>

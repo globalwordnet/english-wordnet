@@ -5563,6 +5563,7 @@
       <Definition>perceive by a physical sensation, e.g., coming from the skin or muscles</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02110960-v"/> <!-- perceive, comprehend -->
       <SynsetRelation relType="similar" target="ewn-02736346-v"/> <!-- feel -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02120261-v"/> <!-- sensitise, sensitize -->
       <Example>&quot;He felt the wind&quot;</Example>
       <Example>&quot;She felt an object brushing her arm&quot;</Example>
       <Example>&quot;He felt his flesh crawl&quot;</Example>
@@ -5589,6 +5590,12 @@
       <SynsetRelation relType="hyponym" target="ewn-02195992-v"/> <!-- taste -->
       <SynsetRelation relType="hyponym" target="ewn-02202295-v"/> <!-- find -->
       <SynsetRelation relType="hyponym" target="ewn-02203487-v"/> <!-- see through -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02110264-v"/> <!-- register, record -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02112480-v"/> <!-- experience, have, get, receive -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02122959-v"/> <!-- note, notice, mark -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02123398-v"/> <!-- observe, take note, note -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02132531-v"/> <!-- discover -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02197640-v"/> <!-- spot, recognize, make out, distinguish, discern, recognise, tell apart, pick out -->
       <Example>&quot;I could perceive the ship coming over the horizon&quot;</Example>
     </Synset>
     <!-- apperceive -->
@@ -5723,6 +5730,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02115276-v"/> <!-- enjoy -->
       <SynsetRelation relType="hyponym" target="ewn-02133338-v"/> <!-- witness, find, see -->
       <SynsetRelation relType="hyponym" target="ewn-02201874-v"/> <!-- come -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02115410-v"/> <!-- subject -->
       <Example>&quot;We had many trials to go through&quot;</Example>
       <Example>&quot;he saw action in Viet Nam&quot;</Example>
     </Synset>
@@ -6132,6 +6140,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02126987-v"/> <!-- act up -->
       <SynsetRelation relType="hyponym" target="ewn-02127130-v"/> <!-- throb -->
       <SynsetRelation relType="hyponym" target="ewn-02127640-v"/> <!-- shoot -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00064414-v"/>
     </Synset>
     <!-- act up -->
     <Synset id="ewn-02126987-v" ili="i32369" partOfSpeech="v" dc:subject="verb.perception">
@@ -6180,6 +6189,9 @@
       <Definition>emit an odor</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02128368-v"/> <!-- cause to be perceived -->
       <SynsetRelation relType="hyponym" target="ewn-02128797-v"/> <!-- smell -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02129097-v"/> <!-- reach one's nostrils -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02130106-v"/> <!-- scent, odourise, odorize -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00400459-v"/>
       <Example>&quot;The soup smells good&quot;</Example>
     </Synset>
     <!-- cause to be perceived -->
@@ -6225,6 +6237,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02129688-v"/> <!-- scent, nose, wind -->
       <SynsetRelation relType="hyponym" target="ewn-02130617-v"/> <!-- snuffle, snuff -->
       <SynsetRelation relType="hyponym" target="ewn-02130734-v"/> <!-- get a noseful, get a whiff -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02129925-v"/> <!-- smell out, sniff out, scent out, nose out -->
     </Synset>
     <!-- sniff, whiff -->
     <Synset id="ewn-02129497-v" ili="i32383" partOfSpeech="v" dc:subject="verb.perception">
@@ -6294,6 +6307,7 @@
     <Synset id="ewn-02131823-v" ili="i32394" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>perceive via the tactile sense</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02110960-v"/> <!-- perceive, comprehend -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02132078-v"/> <!-- feel -->
       <Example>&quot;Helen Keller felt the physical world by touching people and objects around her&quot;</Example>
     </Synset>
     <!-- feel -->
@@ -6363,6 +6377,10 @@
       <SynsetRelation relType="hyponym" target="ewn-02134174-v"/> <!-- see -->
       <SynsetRelation relType="hyponym" target="ewn-02134344-v"/> <!-- catch sight, get a look, catch a glimpse -->
       <SynsetRelation relType="hyponym" target="ewn-02134625-v"/> <!-- behold, lay eyes on -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02133118-v"/> <!-- look on, watch -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02134989-v"/> <!-- look -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02137044-v"/> <!-- see double -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02141597-v"/> <!-- show -->
       <Example>&quot;You have to be a good observer to see all the details&quot;</Example>
       <Example>&quot;Can you see the bird in that tree?&quot;</Example>
       <Example>&quot;He is blind--he cannot see&quot;</Example>
@@ -6421,6 +6439,9 @@
       <SynsetRelation relType="hyponym" target="ewn-02172319-v"/> <!-- give the eye, give the once over -->
       <SynsetRelation relType="hyponym" target="ewn-02172514-v"/> <!-- squint -->
       <SynsetRelation relType="hyponym" target="ewn-02173409-v"/> <!-- peer -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02135744-v"/> <!-- see, examine -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02154758-v"/> <!-- survey -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02154940-v"/> <!-- watch -->
       <Example>&quot;She looked over the expanse of land&quot;</Example>
       <Example>&quot;Look at your child!&quot;</Example>
       <Example>&quot;Look--a deer in the backyard!&quot;</Example>
@@ -7245,6 +7266,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02158461-v"/> <!-- cruise -->
       <SynsetRelation relType="hyponym" target="ewn-02158610-v"/> <!-- prospect -->
       <SynsetRelation relType="hyponym" target="ewn-02173563-v"/> <!-- horn in, intrude, poke, pry, nose -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02297226-v"/>
       <Example>&quot;We looked all day and finally found the child in the forest&quot;</Example>
       <Example>&quot;Look elsewhere for the perfect gift!&quot;</Example>
     </Synset>
@@ -7666,6 +7688,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00642312-v"/> <!-- factor out, factor, factor in -->
       <SynsetRelation relType="hyponym" target="ewn-00655291-v"/> <!-- equate, compare, liken -->
       <SynsetRelation relType="similar" target="ewn-00814706-v"/> <!-- consider, moot, deliberate, debate, turn over -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02171205-v"/> <!-- bethink -->
       <Example>&quot;consider the possibility of moving&quot;</Example>
     </Synset>
     <!-- bethink -->
@@ -7773,6 +7796,7 @@
       <SynsetRelation relType="hypernym" target="ewn-02110960-v"/> <!-- perceive, comprehend -->
       <SynsetRelation relType="hyponym" target="ewn-02193614-v"/> <!-- overhear, catch, take in -->
       <SynsetRelation relType="hyponym" target="ewn-02193844-v"/> <!-- catch, get -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02174335-v"/> <!-- listen -->
     </Synset>
     <!-- listen -->
     <Synset id="ewn-02174335-v" ili="i32604" partOfSpeech="v" dc:subject="verb.perception">
@@ -7784,6 +7808,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02174871-v"/> <!-- hang, pay heed, advert, attend, give ear -->
       <SynsetRelation relType="hyponym" target="ewn-02194034-v"/> <!-- harken, hearken, hark -->
       <SynsetRelation relType="hyponym" target="ewn-02194160-v"/> <!-- listen in, eavesdrop -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02193614-v"/> <!-- overhear, catch, take in -->
       <Example>&quot;Listen to the sound of this cello&quot;</Example>
     </Synset>
     <!-- hear out -->
@@ -7886,6 +7911,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02178107-v"/> <!-- backfire -->
       <SynsetRelation relType="hyponym" target="ewn-02180305-v"/> <!-- ring out -->
       <SynsetRelation relType="hyponym" target="ewn-02186925-v"/> <!-- blare, blast -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02194523-v"/> <!-- deafen -->
     </Synset>
     <!-- scream -->
     <Synset id="ewn-02177780-v" ili="i32619" partOfSpeech="v" dc:subject="verb.perception">
@@ -8046,6 +8072,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02192888-v"/> <!-- drone -->
       <SynsetRelation relType="hyponym" target="ewn-02193033-v"/> <!-- whizz, birr, whir, whiz, whirr, purr -->
       <SynsetRelation relType="hyponym" target="ewn-02202528-v"/> <!-- roll -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02183962-v"/> <!-- sound -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02185984-v"/> <!-- knell, ring -->
       <Example>&quot;She went `Mmmmm&apos;&quot;</Example>
       <Example>&quot;The gun went `bang&apos;&quot;</Example>
     </Synset>
@@ -8376,6 +8404,7 @@
     <Synset id="ewn-02190952-v" ili="i32687" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>make or emit a high sound</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02180712-v"/> <!-- sound, go -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02191136-v"/> <!-- clink -->
       <Example>&quot;tinkling bells&quot;</Example>
     </Synset>
     <!-- clink -->
@@ -8546,6 +8575,7 @@
       <Definition>perceive by the sense of taste</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02110960-v"/> <!-- perceive, comprehend -->
       <SynsetRelation relType="hyponym" target="ewn-02198420-v"/> <!-- savour, savor -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02197438-v"/> <!-- taste -->
       <Example>&quot;Can you taste the garlic?&quot;</Example>
     </Synset>
     <!-- season, flavor, flavour -->
@@ -8634,6 +8664,7 @@
     <Synset id="ewn-02198732-v" ili="i32725" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>have flavor; taste of something</Definition>
       <SynsetRelation relType="hyponym" target="ewn-02198941-v"/> <!-- taste, smack -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02196212-v"/> <!-- season, flavor, flavour -->
     </Synset>
     <!-- taste, smack -->
     <Synset id="ewn-02198941-v" ili="i32726" partOfSpeech="v" dc:subject="verb.perception">
