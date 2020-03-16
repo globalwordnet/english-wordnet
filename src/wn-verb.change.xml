@@ -6650,7 +6650,7 @@
       <Lemma writtenForm="tune" partOfSpeech="v"/>
       <Sense id="ewn-tune-v-00296127-01" n="1" synset="ewn-00296127-v" dc:identifier="tune%2:30:00::">
         <SenseRelation relType="derivation" target="ewn-tune-n-04994418-01"/> <!-- tune -->
-        <SenseRelation relType="derivation" target="ewn-tuner-n-10752774-01"/> <!-- piano tuner, tuner -->
+        <SenseRelation relType="derivation" target="ewn-tuner-n-83192005-01"/> <!-- piano tuner, tuner -->
         <SenseRelation relType="derivation" target="ewn-tuning-n-01001530-01"/> <!-- tuning -->
         <SenseRelation relType="antonym" target="ewn-untune-v-00296344-01"/> <!-- untune -->
         </Sense>
@@ -24708,6 +24708,11 @@
       <Lemma writtenForm="grow together" partOfSpeech="v"/>
       <Sense id="ewn-grow_together-v-00397231-02" n="0" synset="ewn-00397231-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-commit-v">
+      <Lemma writtenForm="commit" partOfSpeech="v"/>
+      <Sense id="ewn-commit-v-85001475-01" n="0" synset="ewn-85001475-v"/>
+      <Sense id="ewn-commit-v-80672114-01" n="6" synset="ewn-80672114-v"/>
+    </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo a change; become different in essence; losing one&apos;s or its original nature</Definition>
@@ -25781,6 +25786,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02632176-v"/> <!-- flocculate -->
       <SynsetRelation relType="hyponym" target="ewn-02633015-v"/> <!-- turn -->
       <SynsetRelation relType="hyponym" target="ewn-02759517-v"/> <!-- cohere -->
+      <SynsetRelation relType="hyponym" target="ewn-85001475-v"/>
       <Example>&quot;The advent of the automobile may have altered the growth pattern of the city&quot;</Example>
       <Example>&quot;The discussion has changed my thinking about the issue&quot;</Example>
     </Synset>
@@ -42270,6 +42276,17 @@
       <ILIDefinition>become ignited</ILIDefinition>
       <SynsetRelation relType="causes" target="ewn-00589392-v"/> <!-- light, ignite, fire -->
       <Example>&quot;The furnace wouldn&apos;t fire&quot;</Example>
+    </Synset>
+    <Synset id="ewn-85001475-v" ili="in" partOfSpeech="v" dc:subject="verb.change">
+      <Definition>make a set of changes permanent</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
+      <Example>&quot;We committed the changes to the Git repository&quot;</Example>
+    </Synset>
+    <Synset id="ewn-80672114-v" ili="in" partOfSpeech="v" dc:subject="verb.change">
+      <Definition>transfer to another place so something can be kept or preserved</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02236972-v"/>
+      <Example>&quot;He committed the poem to memory&quot;</Example>
+      <Example>&quot;she committed her thoughts to paper&quot;</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
