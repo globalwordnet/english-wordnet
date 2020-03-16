@@ -100,13 +100,13 @@ def main():
             sys.exit(-1)
 
         if source_entry_id or target_entry_id:
-            if not sense_exists(wn, args.source_id):
+            if not change_manager.sense_exists(wn, args.source_id):
                 print("Source sense %d does not exist" % args.source_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.target_id):
+            if not change_manager.sense_exists(wn, args.target_id):
                 print("Target sense %d does not exist" % args.target_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.new_source):
+            if not change_manager.sense_exists(wn, args.new_source):
                 print("New source sense %d does not exist" % args.new_source)
                 sys.exit(-1)
             change_manager.update_source_sense(wn, args.source_id, args.target_id, args.new_source)
@@ -128,13 +128,13 @@ def main():
             print("Specifying new source when adding or deleting does not make sense")
             sys.exit(-1)
         if source_entry_id or target_entry_id:
-            if not sense_exists(wn, args.source_id):
+            if not change_manager.sense_exists(wn, args.source_id):
                 print("Source sense %d does not exist" % args.source_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.target_id):
+            if not change_manager.sense_exists(wn, args.target_id):
                 print("Target sense %d does not exist" % args.target_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.new_target):
+            if not change_manager.sense_exists(wn, args.new_target):
                 print("New target sense %d does not exist" % args.new_target)
                 sys.exit(-1)
             change_manager.update_target_sense(wn, args.source_id, args.target_id, args.new_target)
@@ -166,10 +166,10 @@ def main():
                 print("Cannot both add and delete a relation")
                 sys.exit(-1)
             if source_entry_id or target_entry_id:
-                if not sense_exists(wn, args.source_id):
+                if not change_manager.sense_exists(wn, args.source_id):
                     print("Source sense %d does not exist" % args.source_id)
                     sys.exit(-1)
-                if not sense_exists(wn, args.target_id):
+                if not change_manager.sense_exists(wn, args.target_id):
                     print("Target sense %d does not exist" % args.target_id)
                     sys.exit(-1)
                 change_manager.add_sense_relation(wn, args.source_id, args.target_id, wordnet.SenseRelType(args.new_relation))
@@ -177,10 +177,10 @@ def main():
                 change_manager.add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(args.new_relation))
         elif args.delete:
             if source_entry_id or target_entry_id:
-                if not sense_exists(wn, args.source_id):
+                if not change_manager.sense_exists(wn, args.source_id):
                     print("Source sense %d does not exist" % args.source_id)
                     sys.exit(-1)
-                if not sense_exists(wn, args.target_id):
+                if not change_manager.sense_exists(wn, args.target_id):
                     print("Target sense %d does not exist" % args.target_id)
                     sys.exit(-1)
                 change_manager.delete_sense_relation(wn, args.source_id, args.target_id)
@@ -188,10 +188,10 @@ def main():
                 change_manager.delete_relation(wn, source_synset, target_synset)
         else:
             if source_entry_id or target_entry_id:
-                if not sense_exists(wn, args.source_id):
+                if not change_manager.sense_exists(wn, args.source_id):
                     print("Source sense %d does not exist" % args.source_id)
                     sys.exit(-1)
-                if not sense_exists(wn, args.target_id):
+                if not change_manager.sense_exists(wn, args.target_id):
                     print("Target sense %d does not exist" % args.target_id)
                     sys.exit(-1)
                 change_manager.update_sense_relation(wn, args.source_id, args.target_id, wordnet.SenseRelType(args.new_relation))
@@ -202,10 +202,10 @@ def main():
             print("Cannot both add and delete a relation")
             sys.exit(-1)
         if source_entry_id or target_entry_id:
-            if not sense_exists(wn, args.source_id):
+            if not change_manager.sense_exists(wn, args.source_id):
                 print("Source sense %d does not exist" % args.source_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.target_id):
+            if not change_manager.sense_exists(wn, args.target_id):
                 print("Target sense %d does not exist" % args.target_id)
                 sys.exit(-1)
             change_manager.delete_sense_relation(wn, args.source_id, args.target_id)
@@ -213,10 +213,10 @@ def main():
             change_manager.delete_relation(wn, source_synset, target_synset)
     elif args.reverse:
         if source_entry_id or target_entry_id:
-            if not sense_exists(wn, args.source_id):
+            if not change_manager.sense_exists(wn, args.source_id):
                 print("Source sense %d does not exist" % args.source_id)
                 sys.exit(-1)
-            if not sense_exists(wn, args.target_id):
+            if not change_manager.sense_exists(wn, args.target_id):
                 print("Target sense %d does not exist" % args.target_id)
                 sys.exit(-1)
             change_manager.reverse_sense_rel(wn, args.source_id, args.target_id)
