@@ -40,7 +40,7 @@ def main():
         args.source_id = "ewn-"+ input("Enter source synset ID: ewn-")
 
     if change_manager.sense_id_re.match(args.source_id):
-        (source_id, source_entry_id) = decompose_sense_id(args.source_id)
+        (source_id, source_entry_id) = change_manager.decompose_sense_id(args.source_id)
     else:
         source_id = args.source_id
         source_entry_id = None
@@ -55,7 +55,7 @@ def main():
         args.target_id = "ewn-" + input("Enter target synset ID: ewn-")
 
     if change_manager.sense_id_re.match(args.target_id):
-        (target_id, target_entry_id) = decompose_sense_id(args.target_id)
+        (target_id, target_entry_id) = change_manager.decompose_sense_id(args.target_id)
     else:
         target_id = args.target_id
         target_entry_id = None
