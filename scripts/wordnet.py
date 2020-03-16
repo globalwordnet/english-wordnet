@@ -507,7 +507,7 @@ class WordNetContentHandler(ContentHandler):
             self.entry.add_syntactic_behaviour(
                     SyntacticBehaviour(
                         attrs["subcategorizationFrame"],
-                        attrs["senses"].split(" ")))
+                        attrs.get("senses","").split(" ")))
         elif name == "LexicalResource":
             pass
         else:
