@@ -118,9 +118,9 @@ def change_entry(wn, synset, target_synset, lemma):
     entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
 
     for entry in entries:
-        for sense in entry.senses:
+        for sense in wn_synset.entry_by_id(entry).senses:
             if sense.synset == synset.id:
-                print("Moving %s" % (sense.id))
+                print("Moving %s to %s" % (sense.id, target_synset.id))
                 sense.synset = target_synset.id
                 sense.id = "ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), 
                         target_synset.part_of_speech.value,
@@ -128,9 +128,6 @@ def change_entry(wn, synset, target_synset, lemma):
 
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
-    return entry
-    
-
 
 def add_entry(wn, synset, lemma, idx=0, n=-1):
     """Add a new lemma to a synset"""
