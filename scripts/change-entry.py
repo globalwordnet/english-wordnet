@@ -57,6 +57,8 @@ def main():
             lemma = input("New entry: ")
         elif action == "D":
             lemma = input("Entry to remove: ")
+        elif action == "M":
+            lemma = input("Entry to move: ")
     else:
         lemma = args.lemma
 
