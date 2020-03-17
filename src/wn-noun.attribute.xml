@@ -20762,7 +20762,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-inaccessibility-n">
       <Lemma writtenForm="inaccessibility" partOfSpeech="n"/>
-      <Sense id="ewn-inaccessibility-n-04730186-01" n="0" synset="ewn-04730186-n" dc:identifier="inaccessibility%1:07:00::">
+      <Sense id="ewn-inaccessibility-n-82631993-01" n="0" synset="ewn-82631993-n" dc:identifier="inaccessibility%1:07:00::">
         <SenseRelation relType="derivation" target="ewn-inaccessible-s-00187681-01"/> <!-- inaccessible, unobtainable, untouchable, unprocurable -->
         <SenseRelation relType="antonym" target="ewn-accessibility-n-04726275-02"/> <!-- availableness, availability, handiness, accessibility -->
         </Sense>
@@ -26558,7 +26558,7 @@
         </Sense>
       <Sense id="ewn-accessibility-n-04726275-02" n="0" synset="ewn-04726275-n" dc:identifier="accessibility%1:07:00::">
         <SenseRelation relType="derivation" target="ewn-accessible-s-00184975-01"/> <!-- accessible -->
-        <SenseRelation relType="antonym" target="ewn-inaccessibility-n-04730186-01"/> <!-- inaccessibility, unavailability -->
+        <SenseRelation relType="antonym" target="ewn-inaccessibility-n-82631993-01"/> <!-- inaccessibility, unavailability -->
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-graduality-n">
@@ -33226,6 +33226,7 @@
       <SynsetRelation relType="attribute" target="ewn-00187221-a"/> <!-- unavailable -->
       <SynsetRelation relType="hyponym" target="ewn-04726652-n"/> <!-- command -->
       <SynsetRelation relType="hyponym" target="ewn-06690891-n"/> <!-- print -->
+      <SynsetRelation relType="antonym" target="ewn-82631993-n"/>
     </Synset>
     <!-- command -->
     <Synset id="ewn-04726652-n" ili="i61848" partOfSpeech="n" dc:subject="noun.attribute">
@@ -33335,6 +33336,7 @@
       <SynsetRelation relType="hypernym" target="ewn-04728334-n"/> <!-- unsuitability, unsuitableness, ineptness -->
       <SynsetRelation relType="hyponym" target="ewn-04730186-n"/> <!-- inaccessibility, unavailability -->
       <SynsetRelation relType="hyponym" target="ewn-04730383-n"/> <!-- untimeliness, inopportuneness -->
+      <SynsetRelation relType="hyponym" target="ewn-82631993-n"/>
     </Synset>
     <!-- inaccessibility, unavailability -->
     <Synset id="ewn-04730186-n" ili="i61866" partOfSpeech="n" dc:subject="noun.attribute">
@@ -50019,6 +50021,11 @@
     <Synset id="ewn-85244493-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute">
       <Definition>the quality of being deceitful</Definition>
       <SynsetRelation relType="hypernym" target="ewn-04883569-n"/> <!-- disingenuousness -->
+    </Synset>
+    <Synset id="ewn-82631993-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute">
+      <Definition>the quality of not being accessible</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-04729991-n"/> <!-- inconvenience -->
+      <SynsetRelation relType="antonym" target="ewn-04726275-n"/> <!-- availableness, availability, handiness, accessibility -->
     </Synset>
   </Lexicon>
 </LexicalResource>
