@@ -245,7 +245,7 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
     print("Deleting synset %s" % synset.id)
     
     if delent:
-        entries = wn.members_by_id(synset.id)
+        entries = empty_if_none(wn.members_by_id(synset.id))
 
         for entry in entries:
             delete_entry(wn, synset, 
