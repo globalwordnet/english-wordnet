@@ -3682,11 +3682,10 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-much-r">
       <Lemma writtenForm="much" partOfSpeech="r"/>
-      <Sense id="ewn-much-r-00023283-01" n="3" synset="ewn-00023283-r" dc:identifier="much%4:02:01::"/>
+      <Sense id="ewn-much-r-00023283-01" n="2" synset="ewn-00023283-r" dc:identifier="much%4:02:01::"/>
       <Sense id="ewn-much-r-00033190-01" n="1" synset="ewn-00033190-r" dc:identifier="much%4:02:03::"/>
       <Sense id="ewn-much-r-00059624-01" n="0" synset="ewn-00059624-r" dc:identifier="much%4:02:00::"/>
-      <Sense id="ewn-much-r-00059709-05" n="2" synset="ewn-00059709-r" dc:identifier="much%4:02:04::"/>
-      <Sense id="ewn-much-r-00059951-01" n="4" synset="ewn-00059951-r" dc:identifier="much%4:02:06::"/>
+      <Sense id="ewn-much-r-00059951-01" n="3" synset="ewn-00059951-r" dc:identifier="much%4:02:06::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-unquestioningly-r">
       <Lemma writtenForm="unquestioningly" partOfSpeech="r"/>
@@ -22822,10 +22821,6 @@
         <SenseRelation relType="pertainym" target="ewn-discreet-a-00776469-01"/> <!-- discreet -->
         </Sense>
     </LexicalEntry>
-    <LexicalEntry id="ewn-very_much-r">
-      <Lemma writtenForm="very much" partOfSpeech="r"/>
-      <Sense id="ewn-very_much-r-00059709-06" n="0" synset="ewn-00059709-r" dc:identifier="very_much%4:02:01::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-uninterestingly-r">
       <Lemma writtenForm="uninterestingly" partOfSpeech="r"/>
       <Sense id="ewn-uninterestingly-r-00216240-01" n="0" synset="ewn-00216240-r" dc:identifier="uninterestingly%4:02:00::">
@@ -28428,11 +28423,13 @@
     <!-- much -->
     <Synset id="ewn-00059624-r" ili="i18493" partOfSpeech="r" dc:subject="adv.all">
       <Definition>to a great degree or extent</Definition>
+      <SynsetRelation relType="exemplifies" target="ewn-06332047-n"/> <!-- intensifier, intensive -->
       <Example>&quot;she&apos;s much better now&quot;</Example>
     </Synset>
     <!-- very much, a lot, lots, much, a great deal, a good deal -->
     <Synset id="ewn-00059709-r" ili="i18494" partOfSpeech="r" dc:subject="adv.all">
       <Definition>to a very great degree or extent</Definition>
+      <SynsetRelation relType="exemplifies" target="ewn-06332047-n"/> <!-- intensifier, intensive -->
       <Example>&quot;I feel a lot better&quot;</Example>
       <Example>&quot;we enjoyed ourselves very much&quot;</Example>
       <Example>&quot;she was very much interested&quot;</Example>
