@@ -1809,33 +1809,30 @@
       <Lemma writtenForm="know" partOfSpeech="v"/>
       <Form writtenForm="knew"/>
       <Form writtenForm="known"/>
-      <Sense id="ewn-know-v-00594278-04" n="5" synset="ewn-00594278-v" dc:identifier="know%2:31:06::"/>
-      <Sense id="ewn-know-v-00595732-01" n="3" synset="ewn-00595732-v" dc:identifier="know%2:31:00::"/>
+      <Sense id="ewn-know-v-00594278-04" n="4" synset="ewn-00594278-v" dc:identifier="know%2:31:06::"/>
+      <Sense id="ewn-know-v-00595732-01" n="2" synset="ewn-00595732-v" dc:identifier="know%2:31:00::"/>
       <Sense id="ewn-know-v-00596016-01" n="0" synset="ewn-00596016-v" dc:identifier="know%2:31:01::">
         <SenseRelation relType="derivation" target="ewn-knowable-a-01377508-01"/> <!-- cognizable, cognoscible, cognisable, knowable -->
         <SenseRelation relType="derivation" target="ewn-knower-n-10259779-01"/> <!-- knower, apprehender -->
         <SenseRelation relType="derivation" target="ewn-knowing-n-05812801-01"/> <!-- knowing -->
         <SenseRelation relType="antonym" target="ewn-ignore-v-00596900-01"/> <!-- ignore -->
         </Sense>
-      <Sense id="ewn-know-v-00597025-01" n="2" synset="ewn-00597025-v" dc:identifier="know%2:31:02::">
-        <SenseRelation relType="derivation" target="ewn-knowable-a-01377508-01"/> <!-- cognizable, cognoscible, cognisable, knowable -->
-        </Sense>
       <Sense id="ewn-know-v-00597330-01" n="1" synset="ewn-00597330-v" dc:identifier="know%2:31:03::"/>
-      <Sense id="ewn-know-v-00597527-01" n="6" synset="ewn-00597527-v" dc:identifier="know%2:31:15::">
+      <Sense id="ewn-know-v-00597527-01" n="5" synset="ewn-00597527-v" dc:identifier="know%2:31:15::">
         <SenseRelation relType="derivation" target="ewn-knowable-a-01377508-01"/> <!-- cognizable, cognoscible, cognisable, knowable -->
         </Sense>
-      <Sense id="ewn-know-v-00598039-01" n="4" synset="ewn-00598039-v" dc:identifier="know%2:31:04::">
+      <Sense id="ewn-know-v-00598039-01" n="3" synset="ewn-00598039-v" dc:identifier="know%2:31:04::">
         <SenseRelation relType="derivation" target="ewn-knowable-a-01377508-01"/> <!-- cognizable, cognoscible, cognisable, knowable -->
         </Sense>
-      <Sense id="ewn-know-v-00609926-01" n="10" synset="ewn-00609926-v" dc:identifier="know%2:31:14::"/>
-      <Sense id="ewn-know-v-00610056-01" n="9" synset="ewn-00610056-v" dc:identifier="know%2:31:12::">
+      <Sense id="ewn-know-v-00609926-01" n="9" synset="ewn-00609926-v" dc:identifier="know%2:31:14::"/>
+      <Sense id="ewn-know-v-00610056-01" n="8" synset="ewn-00610056-v" dc:identifier="know%2:31:12::">
         <SenseRelation relType="derivation" target="ewn-knowable-a-01377508-01"/> <!-- cognizable, cognoscible, cognisable, knowable -->
         </Sense>
-      <Sense id="ewn-know-v-00610224-01" n="8" synset="ewn-00610224-v" dc:identifier="know%2:31:11::"/>
+      <Sense id="ewn-know-v-00610224-01" n="7" synset="ewn-00610224-v" dc:identifier="know%2:31:11::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-know-v-00594278-04 ewn-know-v-00595732-01 ewn-know-v-00609926-01 ewn-know-v-00610224-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-know-v-00596016-01 ewn-know-v-00597025-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-know-v-00596016-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-know-v-00596016-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-know-v-00594278-04 ewn-know-v-00595732-01 ewn-know-v-00596016-01 ewn-know-v-00597025-01 ewn-know-v-00597527-01 ewn-know-v-00598039-01 ewn-know-v-00609926-01 ewn-know-v-00610056-01 ewn-know-v-00610224-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-know-v-00594278-04 ewn-know-v-00595732-01 ewn-know-v-00596016-01 ewn-know-v-00597527-01 ewn-know-v-00598039-01 ewn-know-v-00609926-01 ewn-know-v-00610056-01 ewn-know-v-00610224-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s to INFINITIVE" senses="ewn-know-v-00597330-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-test-v">
@@ -9254,7 +9251,6 @@
     <!-- cognize, cognise, know -->
     <Synset id="ewn-00596016-v" ili="i24736" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about</Definition>
-      <SynsetRelation relType="similar" target="ewn-00597025-v"/> <!-- know -->
       <SynsetRelation relType="hyponym" target="ewn-00596529-v"/> <!-- keep track -->
       <SynsetRelation relType="hyponym" target="ewn-00730579-v"/> <!-- agnize, realise, recognize, realize, agnise, recognise -->
       <Example>&quot;I know that the President lied to the people&quot;</Example>
@@ -9276,14 +9272,6 @@
     <!-- ignore -->
     <Synset id="ewn-00596900-v" ili="i24739" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>be ignorant of or in the dark about</Definition>
-    </Synset>
-    <!-- know -->
-    <Synset id="ewn-00597025-v" ili="i24740" partOfSpeech="v" dc:subject="verb.cognition">
-      <Definition>be aware of the truth of something; have a belief or faith in something; regard as true beyond any doubt</Definition>
-      <SynsetRelation relType="similar" target="ewn-00596016-v"/> <!-- cognize, cognise, know -->
-      <SynsetRelation relType="hyponym" target="ewn-00722732-v"/> <!-- foreknow, previse, anticipate, foresee -->
-      <Example>&quot;I know that I left the key on the table&quot;</Example>
-      <Example>&quot;Galileo knew that the earth moves around the sun&quot;</Example>
     </Synset>
     <!-- know -->
     <Synset id="ewn-00597330-v" ili="i24741" partOfSpeech="v" dc:subject="verb.cognition">
@@ -13374,7 +13362,6 @@
     <!-- foreknow, previse, anticipate, foresee -->
     <Synset id="ewn-00722732-v" ili="i25304" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>realize beforehand</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00597025-v"/> <!-- know -->
     </Synset>
     <!-- tell -->
     <Synset id="ewn-00722885-v" ili="i25305" partOfSpeech="v" dc:subject="verb.cognition">
