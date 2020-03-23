@@ -12421,8 +12421,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-dogmatism-n">
       <Lemma writtenForm="dogmatism" partOfSpeech="n"/>
-      <Sense id="ewn-dogmatism-n-06215945-02" n="0" synset="ewn-06215945-n" dc:identifier="dogmatism%1:09:00::">
+      <Sense id="ewn-dogmatism-n-85033452-01" n="0" synset="ewn-85033452-n" dc:identifier="dogmatism%1:09:00::">
         <SenseRelation relType="derivation" target="ewn-dogmatist-n-10043381-01"/> <!-- doctrinaire, dogmatist -->
+        <SenseRelation relType="derivation" target="ewn-dogmatic-s-00288936-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-inorganic_chemistry-n">
@@ -40506,7 +40507,7 @@
     </Synset>
     <!-- seismology -->
     <Synset id="ewn-06130103-n" ili="i68777" partOfSpeech="n" dc:subject="noun.cognition">
-      <Definition>the branch of geology that studies earthquakes</Definition>
+      <Definition>the branch of geology that studies earthquakes and the propagation of elastic waves through the Earth or through other planet-like bodies</Definition>
       <SynsetRelation relType="hypernym" target="ewn-06127169-n"/> <!-- geophysical science, geophysics -->
     </Synset>
     <!-- volcanology, vulcanology -->
@@ -43265,6 +43266,7 @@
       <SynsetRelation relType="hyponym" target="ewn-06210476-n"/> <!-- dislike, disapproval, disfavor, disfavour -->
       <SynsetRelation relType="hyponym" target="ewn-06210871-n"/> <!-- partiality, partisanship -->
       <SynsetRelation relType="hyponym" target="ewn-06212421-n"/> <!-- impartiality, nonpartisanship -->
+      <SynsetRelation relType="hyponym" target="ewn-85033452-n"/>
       <Example>&quot;he had an inclination to give up too easily&quot;</Example>
       <Example>&quot;a tendency to be too strict&quot;</Example>
     </Synset>
@@ -45031,6 +45033,10 @@
       <Definition>a heretical Zoroastrian doctrine holding that Zurvan was the ultimate source of the universe and that both Ahura Mazda and Ahriman were Zurvan&apos;s offspring</Definition>
       <SynsetRelation relType="hypernym" target="ewn-06196036-n"/> <!-- theological doctrine -->
       <SynsetRelation relType="hypernym" target="ewn-05989297-n"/> <!-- heresy, unorthodoxy -->
+    </Synset>
+    <Synset id="ewn-85033452-n" ili="in" partOfSpeech="n" dc:subject="noun.cognition">
+      <Definition>tendency to assert principles as undeniably true</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-06206319-n"/> <!-- inclination, disposition, tendency -->
     </Synset>
   </Lexicon>
 </LexicalResource>

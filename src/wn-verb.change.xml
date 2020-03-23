@@ -6650,7 +6650,7 @@
       <Lemma writtenForm="tune" partOfSpeech="v"/>
       <Sense id="ewn-tune-v-00296127-01" n="1" synset="ewn-00296127-v" dc:identifier="tune%2:30:00::">
         <SenseRelation relType="derivation" target="ewn-tune-n-04994418-01"/> <!-- tune -->
-        <SenseRelation relType="derivation" target="ewn-tuner-n-10752774-01"/> <!-- piano tuner, tuner -->
+        <SenseRelation relType="derivation" target="ewn-tuner-n-83192005-01"/> <!-- piano tuner, tuner -->
         <SenseRelation relType="derivation" target="ewn-tuning-n-01001530-01"/> <!-- tuning -->
         <SenseRelation relType="antonym" target="ewn-untune-v-00296344-01"/> <!-- untune -->
         </Sense>
@@ -24708,6 +24708,11 @@
       <Lemma writtenForm="grow together" partOfSpeech="v"/>
       <Sense id="ewn-grow_together-v-00397231-02" n="0" synset="ewn-00397231-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-commit-v">
+      <Lemma writtenForm="commit" partOfSpeech="v"/>
+      <Sense id="ewn-commit-v-85001475-01" n="0" synset="ewn-85001475-v"/>
+      <Sense id="ewn-commit-v-80672114-01" n="6" synset="ewn-80672114-v"/>
+    </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo a change; become different in essence; losing one&apos;s or its original nature</Definition>
@@ -24750,7 +24755,6 @@
       <SynsetRelation relType="hyponym" target="ewn-00229452-v"/> <!-- distill, distil -->
       <SynsetRelation relType="hyponym" target="ewn-00238763-v"/> <!-- deoxidise, deoxidize, reduce -->
       <SynsetRelation relType="hyponym" target="ewn-00239258-v"/> <!-- crack -->
-      <SynsetRelation relType="hyponym" target="ewn-00239753-v"/> <!-- oxidate, oxidize, oxidise -->
       <SynsetRelation relType="hyponym" target="ewn-00240207-v"/> <!-- oxidate, oxidize, oxidise -->
       <SynsetRelation relType="hyponym" target="ewn-00251425-v"/> <!-- grow -->
       <SynsetRelation relType="hyponym" target="ewn-00255372-v"/> <!-- melt, mellow out, mellow -->
@@ -24904,6 +24908,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02730942-v"/> <!-- stagnate -->
       <SynsetRelation relType="hyponym" target="ewn-02754634-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="ewn-02764539-v"/> <!-- ice over, ice up, frost over -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00126072-v"/> <!-- modify, alter, change -->
       <Example>&quot;She changed completely as she grew older&quot;</Example>
       <Example>&quot;The weather changed last night&quot;</Example>
     </Synset>
@@ -25673,7 +25678,6 @@
       <SynsetRelation relType="hyponym" target="ewn-00563259-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="ewn-00563797-v"/> <!-- deflate -->
       <SynsetRelation relType="hyponym" target="ewn-00563959-v"/> <!-- inflate -->
-      <SynsetRelation relType="hyponym" target="ewn-00564177-v"/> <!-- reflate -->
       <SynsetRelation relType="hyponym" target="ewn-00564901-v"/> <!-- digitise, digitalise, digitize, digitalize -->
       <SynsetRelation relType="hyponym" target="ewn-00566158-v"/> <!-- gelatinize, gelatinise -->
       <SynsetRelation relType="hyponym" target="ewn-00566935-v"/> <!-- recombine -->
@@ -25782,6 +25786,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02632176-v"/> <!-- flocculate -->
       <SynsetRelation relType="hyponym" target="ewn-02633015-v"/> <!-- turn -->
       <SynsetRelation relType="hyponym" target="ewn-02759517-v"/> <!-- cohere -->
+      <SynsetRelation relType="hyponym" target="ewn-85001475-v"/>
       <Example>&quot;The advent of the automobile may have altered the growth pattern of the city&quot;</Example>
       <Example>&quot;The discussion has changed my thinking about the issue&quot;</Example>
     </Synset>
@@ -26057,6 +26062,7 @@
     <Synset id="ewn-00141344-v" ili="i22423" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become granular</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00140787-v"/> <!-- deform, change shape, change form -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00143989-v"/> <!-- grain, granulate -->
     </Synset>
     <!-- tie -->
     <Synset id="ewn-00141452-v" ili="i22424" partOfSpeech="v" dc:subject="verb.change">
@@ -26510,6 +26516,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00434886-v"/> <!-- wane -->
       <SynsetRelation relType="hyponym" target="ewn-00440913-v"/> <!-- retard, slow, decelerate, slow down, slow up -->
       <SynsetRelation relType="hyponym" target="ewn-00547953-v"/> <!-- decrescendo -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00429200-v"/> <!-- scale down -->
       <Example>&quot;The amount of homework decreased towards the end of the semester&quot;</Example>
       <Example>&quot;The cabin pressure fell dramatically&quot;</Example>
       <Example>&quot;her weight fell to under a hundred pounds&quot;</Example>
@@ -26702,6 +26709,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00434478-v"/> <!-- full, wax -->
       <SynsetRelation relType="hyponym" target="ewn-00547809-v"/> <!-- crescendo -->
       <SynsetRelation relType="hyponym" target="ewn-00556161-v"/> <!-- swell -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00429371-v"/> <!-- scale up -->
       <Example>&quot;The amount of work increased&quot;</Example>
     </Synset>
     <!-- spike -->
@@ -26774,7 +26782,7 @@
     </Synset>
     <!-- cumulate, accumulate, pile up, amass, gather, conglomerate -->
     <Synset id="ewn-00158612-v" ili="i22503" partOfSpeech="v" dc:subject="verb.change">
-      <Definition>collect or gather</Definition>
+      <Definition>increase in amount by collecting or gathering</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00156409-v"/> <!-- increase -->
       <SynsetRelation relType="hyponym" target="ewn-00159044-v"/> <!-- backlog -->
       <SynsetRelation relType="hyponym" target="ewn-00159176-v"/> <!-- accrete -->
@@ -27390,6 +27398,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02075765-v"/> <!-- leach -->
       <SynsetRelation relType="hyponym" target="ewn-02102078-v"/> <!-- draw -->
       <SynsetRelation relType="hyponym" target="ewn-02316367-v"/> <!-- take out, draw off, draw, withdraw -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01246915-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-01313763-v"/>
       <Example>&quot;remove a threat&quot;</Example>
       <Example>&quot;remove a wrapper&quot;</Example>
       <Example>&quot;Remove the dirty dishes from the table&quot;</Example>
@@ -28445,6 +28455,7 @@
       <Definition>be broken in</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="similar" target="ewn-00202933-v"/> <!-- break in, break -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00202933-v"/> <!-- break in, break -->
       <Example>&quot;If the new teacher won&apos;t break, we&apos;ll add some stress&quot;</Example>
     </Synset>
     <!-- temper, chasten -->
@@ -28543,6 +28554,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00271360-v"/> <!-- heal, mend -->
       <SynsetRelation relType="hyponym" target="ewn-00507753-v"/> <!-- fructify -->
       <SynsetRelation relType="hyponym" target="ewn-00585297-v"/> <!-- upgrade -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00206293-v"/> <!-- amend, better, meliorate, ameliorate, improve -->
       <Example>&quot;The weather improved toward evening&quot;</Example>
     </Synset>
     <!-- turn around, pick up -->
@@ -28750,6 +28762,7 @@
     <Synset id="ewn-00211534-v" ili="i22775" partOfSpeech="v" dc:subject="verb.change">
       <Definition>lose water or moisture</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00218901-v"/> <!-- dry out, dry -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00212278-v"/> <!-- freeze-dry -->
       <Example>&quot;In the desert, you get dehydrated very quickly&quot;</Example>
     </Synset>
     <!-- desiccate, dehydrate -->
@@ -28935,6 +28948,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00217227-v"/> <!-- bate -->
       <SynsetRelation relType="hyponym" target="ewn-00217417-v"/> <!-- ret -->
       <SynsetRelation relType="hyponym" target="ewn-00456323-v"/> <!-- sluice, flush -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00399390-v"/> <!-- macerate -->
       <Example>&quot;souse water on his hot face&quot;</Example>
     </Synset>
     <!-- brine -->
@@ -29054,6 +29068,8 @@
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="hyponym" target="ewn-00220023-v"/> <!-- scorch -->
       <SynsetRelation relType="hyponym" target="ewn-02777714-v"/> <!-- dry out, run dry -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00218901-v"/> <!-- dry out, dry -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00357443-v"/> <!-- crust -->
       <Example>&quot;The laundry dries in the sun&quot;</Example>
     </Synset>
     <!-- scorch -->
@@ -29098,6 +29114,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00186002-v"/> <!-- back -->
       <SynsetRelation relType="hyponym" target="ewn-00222390-v"/> <!-- sandbag -->
       <SynsetRelation relType="hyponym" target="ewn-00304090-v"/> <!-- toughen -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00221295-v"/> <!-- fortify, strengthen, beef up -->
       <Example>&quot;His body strengthened&quot;</Example>
     </Synset>
     <!-- attenuate -->
@@ -29232,6 +29249,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00422361-v"/> <!-- slacken -->
       <SynsetRelation relType="hyponym" target="ewn-00441535-v"/> <!-- slow, slow down, slack, slow up, slacken -->
       <SynsetRelation relType="hyponym" target="ewn-00470725-v"/> <!-- wilt -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00225327-v"/> <!-- weaken -->
       <Example>&quot;The prisoner&apos;s resistance weakened after seven days&quot;</Example>
     </Synset>
     <!-- disappear, melt, evaporate -->
@@ -29338,6 +29356,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00366300-v"/> <!-- condense -->
       <SynsetRelation relType="hyponym" target="ewn-00393016-v"/> <!-- sharpen -->
       <SynsetRelation relType="hyponym" target="ewn-00439133-v"/> <!-- quicken, speed up, speed, accelerate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00227591-v"/> <!-- compound, heighten, intensify, deepen -->
       <Example>&quot;The debate intensified&quot;</Example>
       <Example>&quot;His dislike for raw fish only deepened in Japan&quot;</Example>
     </Synset>
@@ -29502,6 +29521,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00358789-v"/> <!-- root -->
       <SynsetRelation relType="hyponym" target="ewn-01987148-v"/> <!-- rise, prove -->
       <SynsetRelation relType="hyponym" target="ewn-02081395-v"/> <!-- expand, spread out -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00254647-v"/> <!-- make grow, develop -->
       <Example>&quot;The problem grew too large for me&quot;</Example>
       <Example>&quot;Her business grew fast&quot;</Example>
     </Synset>
@@ -29530,6 +29550,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00232796-v"/> <!-- vegetate -->
       <SynsetRelation relType="hyponym" target="ewn-00247011-v"/> <!-- twin -->
       <SynsetRelation relType="hyponym" target="ewn-00357986-v"/> <!-- germinate, spud, shoot, burgeon forth, sprout, bourgeon, pullulate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00246343-v"/> <!-- grow -->
       <Example>&quot;Corn doesn&apos;t grow here&quot;</Example>
       <Example>&quot;In these forests, mushrooms grow under the trees&quot;</Example>
       <Example>&quot;her hair doesn&apos;t grow much anymore&quot;</Example>
@@ -29772,6 +29793,7 @@
       <Definition>break into simpler molecules by means of heat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="domain_topic" target="ewn-06094057-n"/> <!-- chemical science, chemistry -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00239428-v"/> <!-- crack -->
       <Example>&quot;The petroleum cracked&quot;</Example>
     </Synset>
     <!-- crack -->
@@ -29791,12 +29813,12 @@
     <Synset id="ewn-00239753-v" ili="i22913" partOfSpeech="v" dc:subject="verb.change">
       <Definition>add oxygen to or combine with oxygen</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
-      <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="domain_topic" target="ewn-06094057-n"/> <!-- chemical science, chemistry -->
       <SynsetRelation relType="hyponym" target="ewn-00239606-v"/> <!-- catabolise, catabolize -->
       <SynsetRelation relType="similar" target="ewn-00240207-v"/> <!-- oxidate, oxidize, oxidise -->
       <SynsetRelation relType="similar" target="ewn-00240500-v"/> <!-- rust -->
       <SynsetRelation relType="hyponym" target="ewn-00240640-v"/> <!-- breathe -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00505982-v"/> <!-- nitrify -->
     </Synset>
     <!-- oxidate, oxidize, oxidise -->
     <Synset id="ewn-00240207-v" ili="i22914" partOfSpeech="v" dc:subject="verb.change">
@@ -29842,6 +29864,7 @@
       <Definition>become smaller or draw together</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00151509-v"/> <!-- lessen, decrease, diminish, fall -->
       <SynsetRelation relType="hyponym" target="ewn-02040822-v"/> <!-- flex -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00241924-v"/> <!-- shrink, reduce -->
       <Example>&quot;The fabric shrank&quot;</Example>
       <Example>&quot;The balloon shrank&quot;</Example>
     </Synset>
@@ -29850,6 +29873,7 @@
       <Definition>become longer by being stretched and pulled</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00231172-v"/> <!-- grow -->
       <SynsetRelation relType="hyponym" target="ewn-01452389-v"/> <!-- yield, give -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00319617-v"/> <!-- stretch, elongate -->
       <Example>&quot;The fabric stretches&quot;</Example>
     </Synset>
     <!-- shrink, reduce -->
@@ -30111,6 +30135,8 @@
       <SynsetRelation relType="hyponym" target="ewn-00249273-v"/> <!-- turn -->
       <SynsetRelation relType="hyponym" target="ewn-00250442-v"/> <!-- fossilise, fossilize -->
       <SynsetRelation relType="hyponym" target="ewn-02703452-v"/> <!-- dote -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00250565-v"/> <!-- age -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00251067-v"/> <!-- maturate, mature, grow -->
       <Example>&quot;She aged gracefully&quot;</Example>
       <Example>&quot;we age every day--what a depressing thought!&quot;</Example>
       <Example>&quot;Young men senesce&quot;</Example>
@@ -30170,6 +30196,7 @@
     <Synset id="ewn-00250738-v" ili="i22967" partOfSpeech="v" dc:subject="verb.change">
       <Definition>grow ripe</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00251067-v"/> <!-- maturate, mature, grow -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00250855-v"/> <!-- mature, ripen -->
       <Example>&quot;The plums ripen in July&quot;</Example>
     </Synset>
     <!-- mature, ripen -->
@@ -30265,6 +30292,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00295480-v"/> <!-- spike, spike out -->
       <SynsetRelation relType="similar" target="ewn-00343635-v"/> <!-- develop -->
       <SynsetRelation relType="hyponym" target="ewn-00358652-v"/> <!-- bud -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00254647-v"/> <!-- make grow, develop -->
       <Example>&quot;A flower developed on the branch&quot;</Example>
       <Example>&quot;The country developed into a mighty superpower&quot;</Example>
       <Example>&quot;The embryo develops into a fetus&quot;</Example>
@@ -30329,6 +30357,7 @@
     <Synset id="ewn-00255184-v" ili="i22986" partOfSpeech="v" dc:subject="verb.change">
       <Definition>make or grow (more) mellow</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00255753-v"/> <!-- soften -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00255558-v"/> <!-- mellow -->
       <Example>&quot;These apples need to mellow a bit more&quot;</Example>
       <Example>&quot;The sun mellowed the fruit&quot;</Example>
     </Synset>
@@ -30353,6 +30382,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="hyponym" target="ewn-00255184-v"/> <!-- mellow -->
       <SynsetRelation relType="hyponym" target="ewn-00399647-v"/> <!-- macerate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00256275-v"/> <!-- soften -->
       <Example>&quot;The bread will soften if you pour some liquid on it&quot;</Example>
     </Synset>
     <!-- encrust, incrust -->
@@ -30425,6 +30455,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00264568-v"/> <!-- blow up, puff, puff up, puff out -->
       <SynsetRelation relType="hyponym" target="ewn-00362450-v"/> <!-- bloat -->
       <SynsetRelation relType="hyponym" target="ewn-00380445-v"/> <!-- vesicate, blister -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00258536-v"/> <!-- swell -->
       <Example>&quot;The bellies of the starving children are swelling&quot;</Example>
     </Synset>
     <!-- distend -->
@@ -30473,6 +30504,7 @@
     <Synset id="ewn-00258833-v" ili="i23007" partOfSpeech="v" dc:subject="verb.change">
       <Definition>take in water at the bilge</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00258995-v"/> <!-- leak -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00259414-v"/> <!-- bilge -->
       <Example>&quot;the tanker bilged&quot;</Example>
     </Synset>
     <!-- leak -->
@@ -30589,6 +30621,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00534607-v"/> <!-- revamp, vamp -->
       <SynsetRelation relType="hyponym" target="ewn-00534751-v"/> <!-- reheel, heel -->
       <SynsetRelation relType="hyponym" target="ewn-01333358-v"/> <!-- darn -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00262962-v"/> <!-- modernize, modernise, overhaul -->
       <Example>&quot;She repaired her TV set&quot;</Example>
       <Example>&quot;Repair my shoes please&quot;</Example>
     </Synset>
@@ -30668,6 +30701,7 @@
       <Definition>swell or protrude outwards</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00140787-v"/> <!-- deform, change shape, change form -->
       <SynsetRelation relType="hyponym" target="ewn-00264450-v"/> <!-- bulk -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00257255-v"/> <!-- bulge, bulk -->
       <Example>&quot;His stomach bulged after the huge meal&quot;</Example>
     </Synset>
     <!-- dish -->
@@ -30775,6 +30809,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00139943-v"/> <!-- change integrity -->
       <SynsetRelation relType="domain_topic" target="ewn-06094057-n"/> <!-- chemical science, chemistry -->
       <SynsetRelation relType="hyponym" target="ewn-00267277-v"/> <!-- copolymerize, copolymerise -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00267472-v"/> <!-- polymerise, polymerize -->
     </Synset>
     <!-- copolymerize, copolymerise -->
     <Synset id="ewn-00267277-v" ili="i23049" partOfSpeech="v" dc:subject="verb.change">
@@ -31028,6 +31063,7 @@
       <SynsetRelation relType="similar" target="ewn-00275082-v"/> <!-- rust, eat, corrode -->
       <SynsetRelation relType="hypernym" target="ewn-00209244-v"/> <!-- dilapidate, crumble, decay -->
       <SynsetRelation relType="hyponym" target="ewn-00275432-v"/> <!-- fret, eat away -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01754229-v"/>
       <Example>&quot;The metal corroded&quot;</Example>
       <Example>&quot;The pipes rusted&quot;</Example>
     </Synset>
@@ -31279,6 +31315,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00290894-v"/> <!-- tone -->
       <SynsetRelation relType="hyponym" target="ewn-00522558-v"/> <!-- green -->
       <SynsetRelation relType="hyponym" target="ewn-00522721-v"/> <!-- blue -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00282836-v"/> <!-- discolor -->
       <Example>&quot;The shirts discolored&quot;</Example>
     </Synset>
     <!-- blackwash -->
@@ -32098,6 +32135,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00156409-v"/> <!-- increase -->
       <SynsetRelation relType="hyponym" target="ewn-00305033-v"/> <!-- flare out, flare -->
       <SynsetRelation relType="hyponym" target="ewn-00306318-v"/> <!-- distend, dilate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00304442-v"/> <!-- widen -->
       <Example>&quot;The road widened&quot;</Example>
     </Synset>
     <!-- widen -->
@@ -32197,6 +32235,7 @@
     <!-- blow up, detonate, explode -->
     <Synset id="ewn-00307079-v" ili="i23256" partOfSpeech="v" dc:subject="verb.change">
       <Definition>burst and release energy as through a violent chemical or physical reaction</Definition>
+      <SynsetRelation relType="is_caused_by" target="ewn-00307505-v"/> <!-- blow up, detonate, set off, explode -->
       <Example>&quot;the bomb detonated at noon&quot;</Example>
       <Example>&quot;The Molotov cocktail exploded&quot;</Example>
     </Synset>
@@ -32360,6 +32399,7 @@
       <Definition>become vague or indistinct</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00223926-v"/> <!-- weaken -->
       <SynsetRelation relType="hyponym" target="ewn-00312120-v"/> <!-- efface, obliterate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00313791-v"/> <!-- blear, blur -->
       <Example>&quot;The distinction between the two theories blurred&quot;</Example>
     </Synset>
     <!-- efface, obliterate -->
@@ -32416,6 +32456,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00313357-v"/> <!-- dusk -->
       <SynsetRelation relType="hyponym" target="ewn-00313430-v"/> <!-- black out, blacken out -->
       <SynsetRelation relType="hyponym" target="ewn-02776978-v"/> <!-- overcloud, cloud over, cloud up -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00312341-v"/> <!-- darken -->
       <Example>&quot;The sky darkened&quot;</Example>
     </Synset>
     <!-- dusk -->
@@ -32505,6 +32546,7 @@
     <Synset id="ewn-00315583-v" ili="i23303" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become focussed or come into focus</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00150107-v"/> <!-- conform, adjust, adapt -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00315073-v"/> <!-- focalize, focalise, focus, sharpen -->
       <Example>&quot;The light focused&quot;</Example>
     </Synset>
     <!-- depreciate, devalue, devaluate, undervalue -->
@@ -32559,12 +32601,14 @@
     <Synset id="ewn-00317295-v" ili="i23311" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become short or shorter</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00151509-v"/> <!-- lessen, decrease, diminish, fall -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00317569-v"/> <!-- shorten -->
       <Example>&quot;In winter, the days shorten&quot;</Example>
     </Synset>
     <!-- lengthen -->
     <Synset id="ewn-00317432-v" ili="i23312" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become long or longer</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00231172-v"/> <!-- grow -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00318501-v"/> <!-- lengthen -->
       <Example>&quot;In Spring, the days lengthen&quot;</Example>
     </Synset>
     <!-- shorten -->
@@ -32596,6 +32640,7 @@
     <Synset id="ewn-00318269-v" ili="i23316" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become broader</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00156409-v"/> <!-- increase -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00318370-v"/> <!-- broaden -->
       <Example>&quot;The road broadened&quot;</Example>
     </Synset>
     <!-- broaden -->
@@ -32720,6 +32765,7 @@
       <Definition>bake in a kiln so as to harden</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00320687-v"/> <!-- bake -->
       <SynsetRelation relType="domain_topic" target="ewn-00244785-n"/> <!-- cookery, preparation, cooking -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01685618-v"/>
       <Example>&quot;fire pottery&quot;</Example>
     </Synset>
     <!-- stuff, farce -->
@@ -32758,6 +32804,7 @@
     <Synset id="ewn-00322287-v" ili="i23339" partOfSpeech="v" dc:subject="verb.change">
       <Definition>add padding to</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00453467-v"/> <!-- fill up, fill, make full -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01671199-v"/>
       <Example>&quot;pad the seat of the chair&quot;</Example>
     </Synset>
     <!-- baste -->
@@ -32832,6 +32879,9 @@
       <SynsetRelation relType="hyponym" target="ewn-00327955-v"/> <!-- steam -->
       <SynsetRelation relType="hyponym" target="ewn-00329489-v"/> <!-- pressure-cook -->
       <SynsetRelation relType="hyponym" target="ewn-00545484-v"/> <!-- poach -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00322453-v"/> <!-- baste -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01669533-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-01361558-v"/>
       <Example>&quot;These potatoes have to cook for 20 minutes&quot;</Example>
     </Synset>
     <!-- cook -->
@@ -33494,6 +33544,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02618011-v"/> <!-- strike, shine, fall -->
       <SynsetRelation relType="hyponym" target="ewn-02640214-v"/> <!-- turn out -->
       <SynsetRelation relType="hyponym" target="ewn-02745129-v"/> <!-- contemporise, synchronise, contemporize, synchronize -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01646466-v"/>
+      <SynsetRelation relType="is_caused_by" target="ewn-01647199-v"/>
       <Example>&quot;What is happening?&quot;</Example>
       <Example>&quot;The meeting took place without an incident&quot;</Example>
       <Example>&quot;Nothing occurred that seemed important&quot;</Example>
@@ -34171,6 +34223,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01190070-v"/> <!-- famish, starve -->
       <SynsetRelation relType="hyponym" target="ewn-02626293-v"/> <!-- fall -->
       <SynsetRelation relType="hyponym" target="ewn-02626546-v"/> <!-- yield, succumb -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00360745-v"/> <!-- leave behind, leave -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01326622-v"/> <!-- kill -->
       <Example>&quot;She died from cancer&quot;</Example>
       <Example>&quot;The children perished in the fire&quot;</Example>
       <Example>&quot;The patient went peacefully&quot;</Example>
@@ -34275,6 +34329,7 @@
     <Synset id="ewn-00362450-v" ili="i23544" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become bloated or swollen or puff up</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00257393-v"/> <!-- swell up, intumesce, tumesce, tumefy, swell -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00362605-v"/> <!-- bloat -->
       <Example>&quot;The dead man&apos;s stomach was bloated&quot;</Example>
     </Synset>
     <!-- bloat -->
@@ -34388,6 +34443,8 @@
       <SynsetRelation relType="similar" target="ewn-00366099-v"/> <!-- condense -->
       <SynsetRelation relType="similar" target="ewn-00367200-v"/> <!-- condense -->
       <SynsetRelation relType="hypernym" target="ewn-00444939-v"/> <!-- flux, liquefy, liquify -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00365282-v"/> <!-- pasteurise, pasteurize -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02762779-v"/>
       <Example>&quot;water condenses&quot;</Example>
       <Example>&quot;The acid distills at a specific temperature&quot;</Example>
     </Synset>
@@ -34432,6 +34489,7 @@
       <Definition>cause a gas or vapor to change into a liquid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00139943-v"/> <!-- change integrity -->
       <SynsetRelation relType="similar" target="ewn-00367200-v"/> <!-- condense -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00366463-v"/> <!-- sublime, sublimate -->
       <Example>&quot;The cold air condensed the steam&quot;</Example>
     </Synset>
     <!-- condense -->
@@ -34453,6 +34511,7 @@
       <Definition>lose or cause to lose liquid by vaporization leaving a more concentrated residue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00139943-v"/> <!-- change integrity -->
       <SynsetRelation relType="hyponym" target="ewn-00368216-v"/> <!-- transpire -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00366463-v"/> <!-- sublime, sublimate -->
       <Example>&quot;evaporate milk&quot;</Example>
     </Synset>
     <!-- pervaporate -->
@@ -34544,6 +34603,7 @@
     <Synset id="ewn-00370517-v" ili="i23583" partOfSpeech="v" dc:subject="verb.change">
       <Definition>loose heat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00371065-v"/> <!-- cool, cool down, chill -->
       <Example>&quot;The air cooled considerably after the thunderstorm&quot;</Example>
     </Synset>
     <!-- cool, cool down, cool off -->
@@ -34556,6 +34616,7 @@
     <Synset id="ewn-00370916-v" ili="i23585" partOfSpeech="v" dc:subject="verb.change">
       <Definition>get excessively and undesirably hot</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00373318-v"/> <!-- heat up, heat, hot up -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00373154-v"/> <!-- overheat -->
       <Example>&quot;The car engines overheated&quot;</Example>
     </Synset>
     <!-- cool, cool down, chill -->
@@ -34600,6 +34661,9 @@
       <SynsetRelation relType="hyponym" target="ewn-00378386-v"/> <!-- scorch, sear -->
       <SynsetRelation relType="hyponym" target="ewn-00545216-v"/> <!-- broil, bake -->
       <SynsetRelation relType="hyponym" target="ewn-00545360-v"/> <!-- reheat -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00362294-v"/> <!-- demist, defog -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01685808-v"/>
+      <SynsetRelation relType="is_entailed_by" target="ewn-01393487-v"/>
       <Example>&quot;the sun heats the oceans&quot;</Example>
       <Example>&quot;heat the water on the stove&quot;</Example>
     </Synset>
@@ -34651,6 +34715,9 @@
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00370916-v"/> <!-- overheat -->
       <SynsetRelation relType="hyponym" target="ewn-02744116-v"/> <!-- fry -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00370281-v"/> <!-- carbonize, carbonise -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00371917-v"/> <!-- heat up, heat -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00398098-v"/> <!-- fuse -->
       <Example>&quot;The room heated up quickly&quot;</Example>
     </Synset>
     <!-- warm -->
@@ -34699,6 +34766,7 @@
       <SynsetRelation relType="entails" target="ewn-00446124-v"/> <!-- solidify -->
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00375046-v"/> <!-- glaciate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00376536-v"/> <!-- freeze -->
       <Example>&quot;The water in the bowl froze&quot;</Example>
     </Synset>
     <!-- glaciate -->
@@ -34729,6 +34797,7 @@
       <Definition>come to the boiling point and change from a liquid to vapor</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00375939-v"/> <!-- boil over, overboil -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00375339-v"/> <!-- boil -->
       <Example>&quot;Water boils at 100 degrees Celsius&quot;</Example>
     </Synset>
     <!-- boil over, overboil -->
@@ -34802,6 +34871,8 @@
       <SynsetRelation relType="hyponym" target="ewn-02765401-v"/> <!-- flame -->
       <SynsetRelation relType="hyponym" target="ewn-02768764-v"/> <!-- blaze up, burn up, flame up, flare -->
       <SynsetRelation relType="hyponym" target="ewn-02770396-v"/> <!-- blaze -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02765572-v"/>
+      <SynsetRelation relType="is_caused_by" target="ewn-02768426-v"/>
       <Example>&quot;Maple wood burns well&quot;</Example>
     </Synset>
     <!-- burn up, burn down, go up -->
@@ -34823,6 +34894,7 @@
       <Definition>make very hot and dry</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00371917-v"/> <!-- heat up, heat -->
       <SynsetRelation relType="hyponym" target="ewn-00378577-v"/> <!-- sizzle -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00374419-v"/> <!-- cauterise, cauterize, burn -->
       <Example>&quot;The heat scorched the countryside&quot;</Example>
     </Synset>
     <!-- sizzle -->
@@ -34863,6 +34935,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00379825-v"/> <!-- cremate -->
       <SynsetRelation relType="hyponym" target="ewn-00379951-v"/> <!-- torch -->
       <SynsetRelation relType="hyponym" target="ewn-00583604-v"/> <!-- scorch -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02490911-v"/>
       <Example>&quot;They burned the house and his diaries&quot;</Example>
     </Synset>
     <!-- backfire -->
@@ -35052,6 +35125,8 @@
       <Definition>change religious beliefs, or adopt a religious belief</Definition>
       <SynsetRelation relType="similar" target="ewn-00386056-v"/> <!-- convert -->
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00386056-v"/> <!-- convert -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00386356-v"/> <!-- Islamize, Islamise -->
       <Example>&quot;She converted to Buddhism&quot;</Example>
     </Synset>
     <!-- reform, regenerate, rectify, reclaim -->
@@ -35191,6 +35266,7 @@
     <Synset id="ewn-00389909-v" ili="i23676" partOfSpeech="v" dc:subject="verb.change">
       <Definition>grow weak and thin or waste away physically</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00390077-v"/> <!-- emaciate, waste, macerate -->
       <Example>&quot;She emaciated during the chemotherapy&quot;</Example>
     </Synset>
     <!-- emaciate, waste, macerate -->
@@ -35304,6 +35380,7 @@
     <Synset id="ewn-00393016-v" ili="i23694" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become sharp or sharper</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00226992-v"/> <!-- intensify, deepen -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00393128-v"/> <!-- sharpen -->
       <Example>&quot;The debate sharpened&quot;</Example>
     </Synset>
     <!-- sharpen -->
@@ -35400,6 +35477,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00397609-v"/> <!-- admix -->
       <SynsetRelation relType="hyponym" target="ewn-00397786-v"/> <!-- alloy -->
       <SynsetRelation relType="hyponym" target="ewn-00554693-v"/> <!-- syncretise, syncretize -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01598751-v"/>
       <Example>&quot;The colors blend well&quot;</Example>
     </Synset>
     <!-- gauge -->
@@ -35710,6 +35788,7 @@
       <SynsetRelation relType="hypernym" target="ewn-01466592-v"/> <!-- arrange, set up -->
       <SynsetRelation relType="hyponym" target="ewn-00405129-v"/> <!-- structure -->
       <SynsetRelation relType="hyponym" target="ewn-00406004-v"/> <!-- interlock, mesh -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01635645-v"/>
       <Example>&quot;Can you help me organize my files?&quot;</Example>
     </Synset>
     <!-- interlock, mesh -->
@@ -35959,6 +36038,7 @@
       <Definition>come into a new country and change residency</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01860612-v"/> <!-- transmigrate, migrate -->
       <SynsetRelation relType="entails" target="ewn-02009962-v"/> <!-- arrive, get, come -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00413217-v"/> <!-- naturalise, naturalize -->
       <Example>&quot;Many people immigrated at the beginning of the 20th century&quot;</Example>
     </Synset>
     <!-- immigrate -->
@@ -36071,6 +36151,7 @@
     <Synset id="ewn-00417805-v" ili="i23808" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become even or more even</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00417630-v"/> <!-- even, even out -->
       <Example>&quot;even out the surface&quot;</Example>
     </Synset>
     <!-- equate, equalize, match, equal, equalise -->
@@ -36130,6 +36211,7 @@
       <Definition>become stiff or stiffer</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="hyponym" target="ewn-00419333-v"/> <!-- rigidify -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00418521-v"/> <!-- stiffen -->
       <Example>&quot;He stiffened when he saw his boss enter the room&quot;</Example>
     </Synset>
     <!-- constrain, tighten up, tighten, stiffen -->
@@ -36149,6 +36231,7 @@
     <Synset id="ewn-00420090-v" ili="i23819" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become loose or looser or less tight</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00223926-v"/> <!-- weaken -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00420328-v"/> <!-- loosen, loose -->
       <Example>&quot;The noose loosened&quot;</Example>
       <Example>&quot;the rope relaxed&quot;</Example>
     </Synset>
@@ -36162,6 +36245,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00537615-v"/> <!-- slack -->
       <SynsetRelation relType="hyponym" target="ewn-01355231-v"/> <!-- unscrew -->
       <SynsetRelation relType="hyponym" target="ewn-01355383-v"/> <!-- unscrew -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01596175-v"/>
       <Example>&quot;loosen the tension on a rope&quot;</Example>
     </Synset>
     <!-- relax, unbend -->
@@ -36244,6 +36328,7 @@
     <Synset id="ewn-00422361-v" ili="i23832" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become looser or slack</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00223926-v"/> <!-- weaken -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00422078-v"/> <!-- remit, slacken -->
       <Example>&quot;the rope slackened&quot;</Example>
     </Synset>
     <!-- absent, remove -->
@@ -36290,6 +36375,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01995361-v"/> <!-- break -->
       <SynsetRelation relType="hyponym" target="ewn-02144017-v"/> <!-- show up, show -->
       <SynsetRelation relType="hyponym" target="ewn-02161949-v"/> <!-- pop, pop up, crop up -->
+      <SynsetRelation relType="is_caused_by" target="ewn-02142548-v"/>
+      <SynsetRelation relType="is_caused_by" target="ewn-02161530-v"/>
       <Example>&quot;He suddenly appeared at the wedding&quot;</Example>
       <Example>&quot;A new star appeared on the horizon&quot;</Example>
     </Synset>
@@ -36603,12 +36690,14 @@
     <Synset id="ewn-00431952-v" ili="i23880" partOfSpeech="v" dc:subject="verb.change">
       <Definition>lose thickness; become thin or thinner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00431578-v"/> <!-- thin -->
     </Synset>
     <!-- inspissate, thicken -->
     <Synset id="ewn-00432070-v" ili="i23881" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become thick or thicker</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="similar" target="ewn-00432280-v"/> <!-- inspissate, thicken -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00432280-v"/> <!-- inspissate, thicken -->
       <Example>&quot;The sauce thickened&quot;</Example>
       <Example>&quot;The egg yolk will inspissate&quot;</Example>
     </Synset>
@@ -37024,6 +37113,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00256638-v"/> <!-- callus -->
       <SynsetRelation relType="hyponym" target="ewn-00500069-v"/> <!-- calcify -->
       <SynsetRelation relType="hyponym" target="ewn-00529015-v"/> <!-- cure -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00444339-v"/> <!-- harden, indurate -->
       <Example>&quot;The wax hardened&quot;</Example>
     </Synset>
     <!-- harden, indurate -->
@@ -37042,6 +37132,7 @@
       <Definition>assume crystalline form; become crystallized</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00446124-v"/> <!-- solidify -->
       <SynsetRelation relType="hyponym" target="ewn-00506798-v"/> <!-- devitrify -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00446895-v"/> <!-- crystalise, crystallize, crystalize, crystallise -->
     </Synset>
     <!-- flux, liquefy, liquify -->
     <Synset id="ewn-00444939-v" ili="i23942" partOfSpeech="v" dc:subject="verb.change">
@@ -37088,6 +37179,8 @@
       <SynsetRelation relType="hyponym" target="ewn-00443624-v"/> <!-- congeal, jell, set -->
       <SynsetRelation relType="hyponym" target="ewn-00444625-v"/> <!-- crystalise, effloresce, crystallize, crystalize -->
       <SynsetRelation relType="hyponym" target="ewn-00446666-v"/> <!-- freeze down, freeze, freeze out -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00374806-v"/> <!-- freeze -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00446422-v"/> <!-- solidify -->
       <Example>&quot;The metal solidified when it cooled&quot;</Example>
     </Synset>
     <!-- solidify -->
@@ -37119,6 +37212,7 @@
     <Synset id="ewn-00447284-v" ili="i23950" partOfSpeech="v" dc:subject="verb.change">
       <Definition>pass into a solution</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00398482-v"/> <!-- disintegrate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00448264-v"/> <!-- resolve, break up, dissolve -->
       <Example>&quot;The sugar quickly dissolved in the coffee&quot;</Example>
     </Synset>
     <!-- solvate -->
@@ -37126,6 +37220,7 @@
       <Definition>undergo solvation or convert into a solvate</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="domain_topic" target="ewn-06094057-n"/> <!-- chemical science, chemistry -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00447650-v"/> <!-- solvate -->
     </Synset>
     <!-- solvate -->
     <Synset id="ewn-00447650-v" ili="i23952" partOfSpeech="v" dc:subject="verb.change">
@@ -37201,6 +37296,7 @@
       <Definition>become empty or void of its content</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00449966-v"/> <!-- flow off, flow away -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00450647-v"/> <!-- empty -->
       <Example>&quot;The room emptied&quot;</Example>
     </Synset>
     <!-- clear out, clean out -->
@@ -37334,6 +37430,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00453053-v"/> <!-- water -->
       <SynsetRelation relType="hyponym" target="ewn-00453175-v"/> <!-- flood -->
       <SynsetRelation relType="hyponym" target="ewn-00453349-v"/> <!-- rack up -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00453467-v"/> <!-- fill up, fill, make full -->
       <Example>&quot;The pool slowly filled with water&quot;</Example>
       <Example>&quot;The theater filled up slowly&quot;</Example>
     </Synset>
@@ -37573,6 +37670,8 @@
       <Definition>go sour or spoil</Definition>
       <SynsetRelation relType="similar" target="ewn-00459709-v"/> <!-- ferment, work -->
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00459709-v"/> <!-- ferment, work -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01667815-v"/>
       <Example>&quot;The milk has soured&quot;</Example>
       <Example>&quot;The wine worked&quot;</Example>
       <Example>&quot;The cream has turned--we have to throw it out&quot;</Example>
@@ -37603,8 +37702,9 @@
     </Synset>
     <!-- rush, festinate, hasten, hurry, look sharp -->
     <Synset id="ewn-00460453-v" ili="i24017" partOfSpeech="v" dc:subject="verb.change">
-      <Definition>act or move at high speed</Definition>
+      <Definition>act at high speed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02372362-v"/> <!-- move, act -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00460251-v"/> <!-- rush, hurry -->
       <Example>&quot;We have to rush!&quot;</Example>
       <Example>&quot;hurry--it&apos;s late!&quot;</Example>
     </Synset>
@@ -37666,6 +37766,7 @@
     <Synset id="ewn-00462309-v" ili="i24026" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become quiet or still; fall silent</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00462448-v"/> <!-- hush, still, shut up, silence, hush up, quieten -->
       <Example>&quot;hush my baby!&quot;</Example>
     </Synset>
     <!-- hush, still, shut up, silence, hush up, quieten -->
@@ -37921,6 +38022,7 @@
     <Synset id="ewn-00469943-v" ili="i24061" partOfSpeech="v" dc:subject="verb.change">
       <Definition>change shape as via computer animation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01353381-v"/> <!-- distort, deform, wring, contort -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00470100-v"/> <!-- morph -->
       <Example>&quot;In the video, Michael Jackson morphed into a panther&quot;</Example>
     </Synset>
     <!-- morph -->
@@ -38016,6 +38118,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00474253-v"/> <!-- rationalise, cut, prune, rationalize -->
       <SynsetRelation relType="hyponym" target="ewn-00479148-v"/> <!-- extinguish, snuff out -->
       <SynsetRelation relType="hyponym" target="ewn-00617464-v"/> <!-- take out, leave out, exclude, omit, leave off, except -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00699185-v"/>
       <Example>&quot;Let&apos;s eliminate the course on Akkadian hieroglyphics&quot;</Example>
       <Example>&quot;Socialism extinguished these archaic customs&quot;</Example>
       <Example>&quot;eliminate my debts&quot;</Example>
@@ -38581,6 +38684,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00492846-v"/> <!-- titrate -->
       <SynsetRelation relType="hyponym" target="ewn-00732632-v"/> <!-- plumb -->
       <SynsetRelation relType="hyponym" target="ewn-02710477-v"/> <!-- weigh, librate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00648391-v"/>
       <Example>&quot;Can you quantify your results?&quot;</Example>
     </Synset>
     <!-- gauge -->
@@ -38948,6 +39052,7 @@
     <Synset id="ewn-00501719-v" ili="i24214" partOfSpeech="v" dc:subject="verb.change">
       <Definition>form into or become an emulsion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00145958-v"/> <!-- change state, turn -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00501915-v"/> <!-- emulsify -->
       <Example>&quot;The solution emulsified&quot;</Example>
     </Synset>
     <!-- emulsify -->
@@ -38960,6 +39065,7 @@
     <Synset id="ewn-00502129-v" ili="i24216" partOfSpeech="v" dc:subject="verb.change">
       <Definition>break down into components</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00139943-v"/> <!-- change integrity -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00502240-v"/> <!-- demulsify -->
     </Synset>
     <!-- demulsify -->
     <Synset id="ewn-00502240-v" ili="i24217" partOfSpeech="v" dc:subject="verb.change">
@@ -39349,6 +39455,7 @@
       <Definition>treat skins and hides with tannic acid so as to convert them into leather</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00114965-v"/> <!-- convert -->
       <SynsetRelation relType="hyponym" target="ewn-00512844-v"/> <!-- bark -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00498636-v"/> <!-- stuff -->
     </Synset>
     <!-- dress -->
     <Synset id="ewn-00512717-v" ili="i24275" partOfSpeech="v" dc:subject="verb.change">
@@ -39623,6 +39730,7 @@
       <Definition>form, produce, or emit bubbles</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00105087-v"/> <!-- emit, pass off, breathe -->
       <SynsetRelation relType="hyponym" target="ewn-00520443-v"/> <!-- form bubbles, sparkle, fizz, froth, effervesce, foam -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00520309-v"/> <!-- bubble -->
       <Example>&quot;The soup was bubbling&quot;</Example>
     </Synset>
     <!-- bubble -->
@@ -40340,6 +40448,7 @@
     <Synset id="ewn-00539403-v" ili="i24426" partOfSpeech="v" dc:subject="verb.change">
       <Definition>lose sparkle or bouquet</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00539534-v"/> <!-- pall -->
       <Example>&quot;wine and beer can pall&quot;</Example>
     </Synset>
     <!-- pall -->
@@ -40402,6 +40511,7 @@
     <Synset id="ewn-00541181-v" ili="i24435" partOfSpeech="v" dc:subject="verb.change">
       <Definition>become available</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00340548-v"/> <!-- come up, arise -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00541016-v"/> <!-- open, open up -->
       <Example>&quot;an opportunity opened up&quot;</Example>
     </Synset>
     <!-- broaden, extend, widen -->
@@ -40811,6 +40921,7 @@
     <Synset id="ewn-00551623-v" ili="i24494" partOfSpeech="v" dc:subject="verb.change">
       <Definition>make or undergo a transition (from one state or system to another)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00551194-v"/> <!-- shift, switch, change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00551900-v"/> <!-- transition -->
       <Example>&quot;The airline transitioned to more fuel-efficient jets&quot;</Example>
       <Example>&quot;The adagio transitioned into an allegro&quot;</Example>
     </Synset>
@@ -41257,14 +41368,11 @@
     <Synset id="ewn-00563959-v" ili="i24562" partOfSpeech="v" dc:subject="verb.change">
       <Definition>cause prices to rise by increasing the available currency or credit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
-      <SynsetRelation relType="hyponym" target="ewn-00564177-v"/> <!-- reflate -->
       <Example>&quot;The war inflated the economy&quot;</Example>
     </Synset>
     <!-- reflate -->
     <Synset id="ewn-00564177-v" ili="i24563" partOfSpeech="v" dc:subject="verb.change">
       <Definition>economics: raise demand, expand the money supply, or raise prices, after a period of deflation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00563959-v"/> <!-- inflate -->
-      <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
       <SynsetRelation relType="similar" target="ewn-00564437-v"/> <!-- reflate -->
       <Example>&quot;These measures reflated the economy&quot;</Example>
     </Synset>
@@ -41291,6 +41399,7 @@
     <Synset id="ewn-00565228-v" ili="i24567" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo hydrolysis; decompose by reacting with water</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00109468-v"/> <!-- change -->
+      <SynsetRelation relType="is_caused_by" target="ewn-00565377-v"/> <!-- hydrolize, hydrolise -->
     </Synset>
     <!-- hydrolize, hydrolise -->
     <Synset id="ewn-00565377-v" ili="i24568" partOfSpeech="v" dc:subject="verb.change">
@@ -42158,6 +42267,7 @@
     <Synset id="ewn-00589392-v" ili="in" partOfSpeech="v" dc:subject="verb.change">
       <Definition>start or maintain a fire in</Definition>
       <ILIDefinition>start or maintain a fire in</ILIDefinition>
+      <SynsetRelation relType="is_caused_by" target="ewn-00589500-v"/> <!-- fire, flame up -->
       <Example>&quot;fire the furnace&quot;</Example>
     </Synset>
     <!-- fire, flame up -->
@@ -42166,6 +42276,17 @@
       <ILIDefinition>become ignited</ILIDefinition>
       <SynsetRelation relType="causes" target="ewn-00589392-v"/> <!-- light, ignite, fire -->
       <Example>&quot;The furnace wouldn&apos;t fire&quot;</Example>
+    </Synset>
+    <Synset id="ewn-85001475-v" ili="in" partOfSpeech="v" dc:subject="verb.change">
+      <Definition>make a set of changes permanent</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
+      <Example>&quot;We committed the changes to the Git repository&quot;</Example>
+    </Synset>
+    <Synset id="ewn-80672114-v" ili="in" partOfSpeech="v" dc:subject="verb.change">
+      <Definition>transfer to another place so something can be kept or preserved</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02236972-v"/>
+      <Example>&quot;He committed the poem to memory&quot;</Example>
+      <Example>&quot;she committed her thoughts to paper&quot;</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -5211,6 +5211,7 @@
       <Definition>stimulate sexually</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01765558-v"/> <!-- shake up, stimulate, stir, shake, excite -->
       <SynsetRelation relType="hyponym" target="ewn-01811737-v"/> <!-- tempt -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01807605-v"/> <!-- tease -->
       <Example>&quot;This movie usually arouses the male audience&quot;</Example>
     </Synset>
     <!-- agitate, turn on, rouse, commove, charge up, charge, excite -->
@@ -5349,6 +5350,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01784548-v"/> <!-- fear -->
       <SynsetRelation relType="hyponym" target="ewn-01797944-v"/> <!-- fret, fuss, niggle -->
       <SynsetRelation relType="hyponym" target="ewn-01835085-v"/> <!-- obsess -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01769760-v"/> <!-- worry, vex -->
       <Example>&quot;I worry about my job&quot;</Example>
     </Synset>
     <!-- fret -->
@@ -5356,6 +5358,7 @@
       <Definition>be agitated or irritated</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01771015-v"/> <!-- worry -->
       <SynsetRelation relType="hyponym" target="ewn-01824127-v"/> <!-- dither -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01792983-v"/> <!-- fret -->
       <Example>&quot;don&apos;t fret over these small details&quot;</Example>
     </Synset>
     <!-- boil, seethe -->
@@ -5542,6 +5545,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01833567-v"/> <!-- fly high -->
       <SynsetRelation relType="hyponym" target="ewn-01833689-v"/> <!-- shine, beam, glow, radiate -->
       <SynsetRelation relType="hyponym" target="ewn-01833984-v"/> <!-- glow -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01771801-v"/> <!-- move, strike, impress, affect -->
       <Example>&quot;She felt resentful&quot;</Example>
       <Example>&quot;He felt regret&quot;</Example>
     </Synset>
@@ -5592,6 +5596,10 @@
       <Definition>feel bitter or indignant about</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01780648-v"/> <!-- dislike -->
       <SynsetRelation relType="hyponym" target="ewn-01777926-v"/> <!-- stew, grudge -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-02724891-v"/> <!-- pout, brood, sulk -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01777456-v"/> <!-- embitter, envenom, acerbate -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01777655-v"/> <!-- grudge -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01793089-v"/> <!-- pique, offend -->
       <Example>&quot;She resents being paid less than her co-workers&quot;</Example>
     </Synset>
     <!-- embitter, envenom, acerbate -->
@@ -5698,11 +5706,13 @@
       <SynsetRelation relType="entails" target="ewn-00676259-v"/> <!-- disapprove -->
       <SynsetRelation relType="hyponym" target="ewn-01777267-v"/> <!-- resent -->
       <SynsetRelation relType="hyponym" target="ewn-01778057-v"/> <!-- detest, hate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01821097-v"/> <!-- displease -->
       <Example>&quot;I really dislike this salesman&quot;</Example>
     </Synset>
     <!-- like -->
     <Synset id="ewn-01780873-v" ili="i30620" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>be fond of</Definition>
+      <SynsetRelation relType="is_caused_by" target="ewn-01819595-v"/> <!-- delight, please -->
       <Example>&quot;I like my nephews&quot;</Example>
     </Synset>
     <!-- cotton -->
@@ -5719,6 +5729,9 @@
       <SynsetRelation relType="hyponym" target="ewn-01830440-v"/> <!-- prefer -->
       <SynsetRelation relType="hyponym" target="ewn-01832565-v"/> <!-- care for -->
       <SynsetRelation relType="hyponym" target="ewn-01832678-v"/> <!-- enjoy, love -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01780389-v"/> <!-- fancy, go for, take to -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01819595-v"/> <!-- delight, please -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01824240-v"/> <!-- enjoy, savour, savor, relish, bask -->
       <Example>&quot;I like jogging&quot;</Example>
       <Example>&quot;She likes to read Russian novels&quot;</Example>
     </Synset>
@@ -5806,6 +5819,8 @@
     <Synset id="ewn-01784021-v" ili="i30635" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>be afraid or scared of; be frightened of</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01786037-v"/> <!-- panic -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01783082-v"/> <!-- fright, affright, scare, frighten -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01786251-v"/> <!-- quail at, apprehend -->
       <Example>&quot;I fear the winters in Moscow&quot;</Example>
       <Example>&quot;We should not fear the Communists!&quot;</Example>
     </Synset>
@@ -5871,6 +5886,7 @@
       <Definition>be overcome by a sudden fear</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01784021-v"/> <!-- fear, dread -->
       <SynsetRelation relType="hyponym" target="ewn-01787967-v"/> <!-- freak, gross out, freak out -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01785802-v"/> <!-- panic -->
       <Example>&quot;The students panicked when told that final exams were less than a week away&quot;</Example>
     </Synset>
     <!-- quail at, apprehend -->
@@ -6040,6 +6056,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01790111-v"/> <!-- bridle -->
       <SynsetRelation relType="hyponym" target="ewn-01791138-v"/> <!-- steam -->
       <SynsetRelation relType="hyponym" target="ewn-01791288-v"/> <!-- raise the roof -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01789790-v"/> <!-- anger -->
       <Example>&quot;He angers easily&quot;</Example>
     </Synset>
     <!-- steam -->
@@ -6204,6 +6221,7 @@
     <Synset id="ewn-01796002-v" ili="i30691" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>be flustered; behave in a confused manner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02523827-v"/> <!-- comport, behave, carry, acquit, bear, deport, conduct -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01794412-v"/> <!-- fluster -->
     </Synset>
     <!-- embarrass, abash -->
     <Synset id="ewn-01796126-v" ili="i30692" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6281,6 +6299,7 @@
     <Synset id="ewn-01798374-v" ili="i30702" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>suffer agony or anguish</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01798679-v"/> <!-- suffer -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01798534-v"/> <!-- agonize, agonise -->
     </Synset>
     <!-- agonize, agonise -->
     <Synset id="ewn-01798534-v" ili="i30703" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6297,6 +6316,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01798980-v"/> <!-- anguish -->
       <SynsetRelation relType="hyponym" target="ewn-01799093-v"/> <!-- lose -->
       <SynsetRelation relType="hyponym" target="ewn-01801358-v"/> <!-- grieve, sorrow -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01796596-v"/> <!-- pain, hurt, anguish -->
       <Example>&quot;Every time her husband gets drunk, she suffers&quot;</Example>
     </Synset>
     <!-- anguish -->
@@ -6320,6 +6340,7 @@
     <Synset id="ewn-01799439-v" ili="i30708" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>get very angry and fly into a rage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01800044-v"/> <!-- rage -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01790238-v"/> <!-- combust -->
       <Example>&quot;The professor combusted when the student didn&apos;t know the answer to a very elementary question&quot;</Example>
       <Example>&quot;Spam makes me go ballistic&quot;</Example>
     </Synset>
@@ -6334,6 +6355,7 @@
       <Definition>feel intense anger</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01799439-v"/> <!-- blow up, go ballistic, hit the roof, flip one's wig, combust, fly off the handle, flip one's lid, lose one's temper, throw a fit, have a fit, have kittens, blow one's stack, hit the ceiling, blow a fuse -->
       <SynsetRelation relType="hyponym" target="ewn-01800226-v"/> <!-- froth at the mouth, foam at the mouth -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01799899-v"/> <!-- enrage -->
       <Example>&quot;Rage against the dying of the light!&quot;</Example>
     </Synset>
     <!-- froth at the mouth, foam at the mouth -->
@@ -6351,6 +6373,7 @@
     <Synset id="ewn-01800593-v" ili="i30713" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>feel remorse for; feel sorry for; be contrite about</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01775456-v"/> <!-- experience, feel -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01809490-v"/> <!-- miss -->
     </Synset>
     <!-- atone, repent -->
     <Synset id="ewn-01800811-v" ili="i30714" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6378,6 +6401,8 @@
       <SynsetRelation relType="hypernym" target="ewn-01798679-v"/> <!-- suffer -->
       <SynsetRelation relType="hyponym" target="ewn-01801062-v"/> <!-- mourn -->
       <SynsetRelation relType="hyponym" target="ewn-01825946-v"/> <!-- feel for, pity, condole with, sympathize with, compassionate -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01801593-v"/> <!-- aggrieve, grieve -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01806201-v"/> <!-- keen, lament -->
     </Synset>
     <!-- aggrieve, grieve -->
     <Synset id="ewn-01801593-v" ili="i30719" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6439,6 +6464,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01803246-v"/> <!-- fail, betray -->
       <SynsetRelation relType="hyponym" target="ewn-01803495-v"/> <!-- fall short, come short -->
       <SynsetRelation relType="hyponym" target="ewn-01821722-v"/> <!-- disenchant, disillusion -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01807605-v"/> <!-- tease -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01820612-v"/> <!-- dissatisfy -->
       <Example>&quot;Her boyfriend let her down when he did not propose marriage&quot;</Example>
     </Synset>
     <!-- fail, betray -->
@@ -6713,6 +6740,7 @@
       <Definition>be attractive to</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01810472-v"/> <!-- capture, becharm, beguile, charm, catch, enchant, entrance, bewitch, trance, enamor, captivate, fascinate, enamour -->
       <SynsetRelation relType="hyponym" target="ewn-01811018-v"/> <!-- beckon -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-00795447-v"/>
       <Example>&quot;The idea of a vacation appeals to me&quot;</Example>
       <Example>&quot;The beautiful garden attracted many people&quot;</Example>
     </Synset>
@@ -6817,6 +6845,7 @@
     <Synset id="ewn-01815408-v" ili="i30784" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>be optimistic; be full of hope; have hopes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01829179-v"/> <!-- want, desire -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01822202-v"/> <!-- encourage -->
       <Example>&quot;I am still hoping that all will turn out well&quot;</Example>
     </Synset>
     <!-- elate, lift up, uplift, intoxicate, pick up -->
@@ -6858,6 +6887,7 @@
     <Synset id="ewn-01816917-v" ili="i30790" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>become glad or happy</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01817851-v"/> <!-- joy, rejoice -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01817466-v"/> <!-- joy, gladden -->
     </Synset>
     <!-- sadden -->
     <Synset id="ewn-01817020-v" ili="i30791" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6877,6 +6907,7 @@
     <Synset id="ewn-01817360-v" ili="i30793" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>come to feel sad</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01775456-v"/> <!-- experience, feel -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01817020-v"/> <!-- sadden -->
     </Synset>
     <!-- joy, gladden -->
     <Synset id="ewn-01817466-v" ili="i30794" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6897,6 +6928,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00860817-v"/> <!-- cheer up, cheer, chirk up -->
       <SynsetRelation relType="hyponym" target="ewn-01816917-v"/> <!-- gladden -->
       <SynsetRelation relType="hyponym" target="ewn-01817635-v"/> <!-- jump for joy, exult, walk on air, be on cloud nine -->
+      <SynsetRelation relType="is_caused_by" target="ewn-01815703-v"/> <!-- elate, lift up, uplift, intoxicate, pick up -->
     </Synset>
     <!-- buoy up, lighten, lighten up -->
     <Synset id="ewn-01818041-v" ili="i30797" partOfSpeech="v" dc:subject="verb.emotion">
@@ -6947,6 +6979,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01811137-v"/> <!-- endear -->
       <SynsetRelation relType="similar" target="ewn-01820021-v"/> <!-- please -->
       <SynsetRelation relType="hyponym" target="ewn-01821281-v"/> <!-- enthral, delight, enthrall, enchant, transport, ravish, enrapture -->
+      <SynsetRelation relType="is_entailed_by" target="ewn-01820186-v"/> <!-- titillate -->
       <Example>&quot;These colors please the senses&quot;</Example>
       <Example>&quot;a pleasing sensation&quot;</Example>
     </Synset>
