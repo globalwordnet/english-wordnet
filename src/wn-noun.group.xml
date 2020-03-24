@@ -17722,6 +17722,14 @@
       <Lemma writtenForm="Nancahuazu Guerrilla" partOfSpeech="n"/>
       <Sense id="ewn-Nancahuazu_Guerrilla-n-08051986-00" n="0" synset="ewn-08051986-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-people_of_color-n">
+      <Lemma writtenForm="people of color" partOfSpeech="n"/>
+      <Sense id="ewn-people_of_color-n-84016264-01" n="0" synset="ewn-84016264-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-people_of_colour-n">
+      <Lemma writtenForm="people of colour" partOfSpeech="n"/>
+      <Sense id="ewn-people_of_colour-n-84016264-01" n="0" synset="ewn-84016264-n"/>
+    </LexicalEntry>
     <!-- arrangement -->
     <Synset id="ewn-07955013-n" ili="i79043" partOfSpeech="n" dc:subject="noun.group">
       <Definition>an orderly grouping (of things or persons) considered as a unit; the result of arranging</Definition>
@@ -18903,6 +18911,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09738826-n"/> <!-- Kurd -->
       <SynsetRelation relType="hyponym" target="ewn-09757470-n"/> <!-- Igbo -->
       <SynsetRelation relType="hyponym" target="ewn-10384032-n"/> <!-- Nubian -->
+      <SynsetRelation relType="hyponym" target="ewn-86417463-n"/>
     </Synset>
     <!-- ethnic minority -->
     <Synset id="ewn-07984350-n" ili="i79188" partOfSpeech="n" dc:subject="noun.group">
@@ -18919,6 +18928,11 @@
       <Definition>people who are believed to belong to the same genetic stock</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00031563-n"/> <!-- group, grouping -->
       <SynsetRelation relType="hyponym" target="ewn-07984842-n"/> <!-- Herrenvolk, master race -->
+      <SynsetRelation relType="hyponym" target="ewn-80000191-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-86191087-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-84016264-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-85394298-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-87736171-n"/>
       <Example>&quot;some biologists doubt that there are important genetic differences between races of human beings&quot;</Example>
     </Synset>
     <!-- Herrenvolk, master race -->
@@ -37681,6 +37695,11 @@
     <Synset id="ewn-08506402-n" ili="i81666" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a community of Negroid people in eastern South Africa</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08240723-n"/> <!-- community -->
+    </Synset>
+    <Synset id="ewn-84016264-n" ili="in" partOfSpeech="n" dc:subject="noun.group">
+      <Definition>a race with skin pigmentation different from the white race (especially Blacks)</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07984596-n"/> <!-- race -->
+      <SynsetRelation relType="mero_member" target="ewn-09659294-n"/>
     </Synset>
   </Lexicon>
 </LexicalResource>
