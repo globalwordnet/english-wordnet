@@ -11,9 +11,13 @@ def main():
     parser.add_argument('lemma', metavar='LEMMA', type=str, nargs="?",
             help="The lemma to change")
     parser.add_argument('--add', action='store_true',
-            help="Add this relation as a new relation")
+            help="Add this entry to a synset")
     parser.add_argument('--delete', action='store_true',
-            help="Remove this relation (do not replace or change)")
+            help="Remove this entry from a synset")
+    parser.add_argument('--move', action='store_true',
+            help="Change this entry to another synset")
+    parser.add_argument('--target', type=str,
+            help="The target for a change")
     parser.add_argument('-n', metavar='N', type=int, default=-1,
             help="The position of this synset within the list of senses for the entry")
     parser.add_argument('-i', metavar='IDX', type=int, default=-1,
@@ -25,9 +29,11 @@ def main():
         action = "A"
     elif args.delete:
         action = "D"
+    elif args.move:
+        action = "M"
     else:
-        action = input("[A]dd/[D]elete? ").upper()
-        if action != "A" and action != "D":
+        action = input("[A]dd/[D]elete/[M]ove? ").upper()
+        if action != "A" and action != "D" and action != "M":
             print("Bad action")
             sys.exit(-1)
 
@@ -51,6 +57,8 @@ def main():
             lemma = input("New entry: ")
         elif action == "D":
             lemma = input("Entry to remove: ")
+        elif action == "M":
+            lemma = input("Entry to move: ")
     else:
         lemma = args.lemma
 
@@ -58,11 +66,30 @@ def main():
         print("Could not find synset")
         sys.exit(-1)
 
+    if action == "M" and not args.target:
+        args.target = "ewn-" + input("Target synset: ewn-")
+
+
+
     if action == "A":
         change_manager.add_entry(wn, synset, lemma, args.i, args.n)
     elif action == "D":
         change_manager.delete_entry(wn, synset, 
                 "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
+    elif action == "M":
+        target_synset = wn.synset_by_id(args.target)
+
+        if not target_synset:
+            print("Could not find synset")
+            sys.exit(-1)
+        
+        if synset.lex_name == target_synset.lex_name:
+            change_manager.change_entry(wn, synset, target_synset, lemma)
+        else:
+            print("Moving across lexicographer files so implementing change as delete then add")
+            change_manager.delete_entry(wn, synset, 
+                    "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
+            change_manager.add_entry(wn, target_synset, lemma, args.i, args.n)
 
 if __name__ == "__main__":
     main()
