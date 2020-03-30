@@ -177,14 +177,17 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
     if entries:
         if len(entries) != 1:
             raise Exception("More than one entry for part of speech")
+        wn_entry = wn.entry_by_id(entries[0])
         entry = wn_synset.entry_by_id(entries[0])
-
-        entry.senses.append(Sense(
+        sense = Sense(
             id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
                 synset_key(synset.id), idx),
             synset=synset.id,
             n=n,
-            sense_key=None))
+            sense_key=None)
+
+        wn_entry.senses.append(sense)
+        entry.senses.append(sense)
     else:
         n = 0
         entry = LexicalEntry(
@@ -194,6 +197,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                     id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
                         synset_key(synset.id), idx),
                     synset=synset.id, n=n, sense_key=None))
+        wn.add_entry(entry)
         wn_synset.add_entry(entry)
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
@@ -233,10 +237,12 @@ def delete_entry(wn, synset, entry_id):
     if n_senses == 1: # then delete the whole entry
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
         wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
+        wn.entries = [entry for entry in wn.entries if entry.id != entry_global.id]
     else:
         wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
         entry = wn_synset.entry_by_id(entry_global.id)
         entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
+        entry_global.senses = [sense for sense in entry_global.senses if sense.synset != synset.id]
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
@@ -245,7 +251,7 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
     print("Deleting synset %s" % synset.id)
     
     if delent:
-        entries = wn.members_by_id(synset.id)
+        entries = empty_if_none(wn.members_by_id(synset.id))
 
         for entry in entries:
             delete_entry(wn, synset, 
@@ -275,6 +281,8 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
 def change_sense_n(wn, entry, sense_id, new_n):
     """Change the position of a sense within an entry (changes only this sense)"""
     print("Changing n of sense %s of %s to %s" % (sense_id, entry.lemma.written_form, new_n))
+    if new_n <= 0:
+        return
 
     senses = [sense for sense in entry.senses if sense.id == sense_id]
     if len(senses) != 1:
@@ -342,6 +350,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
     members = {}
     wn_ss = parse_wordnet("src/wn-%s.xml" % lexfile)
     wn_ss.add_synset(ss)
+    wn.add_synset(ss)
     with open("src/wn-%s.xml" % lexfile, "w") as outp:
         wn_ss.to_xml(outp, True)
 
@@ -354,6 +363,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
         for m in wn.members_by_id(s.id):
             if m not in members:
                 members[m] = add_entry(wn_ss, ss, m)
+                add_entry(wn, ss, m)
             e = [e for e in [wn.entry_by_id(e2) for e2 in wn.entry_by_lemma(m)]
                     if e.lemma.part_of_speech.value == pos][0]
             for f in e.forms:
