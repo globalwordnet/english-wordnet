@@ -5936,6 +5936,7 @@
       <Lemma writtenForm="bulk" partOfSpeech="v"/>
       <Sense id="ewn-bulk-v-00257255-02" n="1" synset="ewn-00257255-v" dc:identifier="bulk%2:30:00::"/>
       <Sense id="ewn-bulk-v-00264450-01" n="0" synset="ewn-00264450-v" dc:identifier="bulk%2:30:01::"/>
+      <Sense id="ewn-bulk-v-91000441-01" n="2" synset="ewn-91000441-v"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-bulk-v-00264450-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-bulk-v-00257255-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-bulk-v-00264450-01"/>
@@ -24698,6 +24699,34 @@
       <Lemma writtenForm="deionize" partOfSpeech="v"/>
       <Sense id="ewn-deionize-v-00521840-01" n="0" synset="ewn-00521840-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-fuck_shit_up-v">
+      <Lemma writtenForm="fuck shit up" partOfSpeech="v"/>
+      <Sense id="ewn-fuck_shit_up-v-91000461-01" n="0" synset="ewn-91000461-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-get_your_shit_together-v">
+      <Lemma writtenForm="get your shit together" partOfSpeech="v"/>
+      <Sense id="ewn-get_your_shit_together-v-90007311-01" n="0" synset="ewn-90007311-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-overclock-v">
+      <Lemma writtenForm="overclock" partOfSpeech="v"/>
+      <Sense id="ewn-overclock-v-91001651-01" n="0" synset="ewn-91001651-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-photobomb-v">
+      <Lemma writtenForm="photobomb" partOfSpeech="v"/>
+      <Sense id="ewn-photobomb-v-90007761-01" n="0" synset="ewn-90007761-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-switch_up-v">
+      <Lemma writtenForm="switch up" partOfSpeech="v"/>
+      <Sense id="ewn-switch_up-v-90020001-01" n="0" synset="ewn-90020001-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-unfriend-v">
+      <Lemma writtenForm="unfriend" partOfSpeech="v"/>
+      <Sense id="ewn-unfriend-v-90016131-01" n="0" synset="ewn-90016131-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-untag-n">
+      <Lemma writtenForm="untag" partOfSpeech="n"/>
+      <Sense id="ewn-untag-n-90004911-01" n="0" synset="ewn-90004911-n"/>
+    </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo a change; become different in essence; losing one&apos;s or its original nature</Definition>
@@ -27385,6 +27414,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02316367-v"/> <!-- take out, draw off, draw, withdraw -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01246915-v"/>
       <SynsetRelation relType="is_entailed_by" target="ewn-01313763-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-90016131-v"/>
       <Example>&quot;remove a threat&quot;</Example>
       <Example>&quot;remove a wrapper&quot;</Example>
       <Example>&quot;Remove the dirty dishes from the table&quot;</Example>
@@ -28343,6 +28373,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00138328-v"/> <!-- change by reversal, reverse, turn -->
       <SynsetRelation relType="hyponym" target="ewn-00200276-v"/> <!-- repair, amend, remedy, remediate, rectify -->
       <SynsetRelation relType="hyponym" target="ewn-00200606-v"/> <!-- debug -->
+      <SynsetRelation relType="hyponym" target="ewn-90013991-n"/>
       <Example>&quot;Correct the mistakes&quot;</Example>
       <Example>&quot;rectify the calculation&quot;</Example>
     </Synset>
@@ -29453,6 +29484,7 @@
       <Definition>increase the level of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00227591-v"/> <!-- compound, heighten, intensify, deepen -->
       <SynsetRelation relType="hyponym" target="ewn-00230227-v"/> <!-- potentiate -->
+      <SynsetRelation relType="hyponym" target="ewn-91001651-v"/>
       <Example>&quot;This will enhance your enjoyment&quot;</Example>
       <Example>&quot;heighten the tension&quot;</Example>
     </Synset>
@@ -29507,6 +29539,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01987148-v"/> <!-- rise, prove -->
       <SynsetRelation relType="hyponym" target="ewn-02081395-v"/> <!-- expand, spread out -->
       <SynsetRelation relType="is_caused_by" target="ewn-00254647-v"/> <!-- make grow, develop -->
+      <SynsetRelation relType="hyponym" target="ewn-91000441-v"/>
       <Example>&quot;The problem grew too large for me&quot;</Example>
       <Example>&quot;Her business grew fast&quot;</Example>
     </Synset>
@@ -31133,6 +31166,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00277400-v"/> <!-- derange, throw out of kilter, perturb -->
       <SynsetRelation relType="hyponym" target="ewn-00278887-v"/> <!-- disarrange -->
       <SynsetRelation relType="hyponym" target="ewn-01475437-v"/> <!-- throw together, scramble, jumble -->
+      <SynsetRelation relType="hyponym" target="ewn-91000461-v"/>
     </Synset>
     <!-- derange, throw out of kilter, perturb -->
     <Synset id="ewn-00277400-v" ili="i23101" partOfSpeech="v" dc:subject="verb.change">
@@ -34961,6 +34995,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
       <SynsetRelation relType="hyponym" target="ewn-00561705-v"/> <!-- back -->
       <SynsetRelation relType="hyponym" target="ewn-00561841-v"/> <!-- veer -->
+      <SynsetRelation relType="hyponym" target="ewn-90020001-v"/>
       <Example>&quot;First Joe led; then we switched&quot;</Example>
     </Synset>
     <!-- transpose, commute, permute -->
@@ -35765,6 +35800,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00405129-v"/> <!-- structure -->
       <SynsetRelation relType="hyponym" target="ewn-00406004-v"/> <!-- interlock, mesh -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01635645-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-90007311-v"/>
       <Example>&quot;Can you help me organize my files?&quot;</Example>
     </Synset>
     <!-- interlock, mesh -->
@@ -39736,6 +39772,7 @@
     <Synset id="ewn-00521099-v" ili="i24316" partOfSpeech="v" dc:subject="verb.change">
       <Definition>destroy the peace or tranquility of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02372362-v"/> <!-- move, act -->
+      <SynsetRelation relType="hyponym" target="ewn-90007761-v"/>
       <Example>&quot;Don&apos;t interrupt me when I&apos;m reading&quot;</Example>
     </Synset>
     <!-- cut in -->
@@ -41599,6 +41636,7 @@
     <Synset id="ewn-00572138-v" ili="i24603" partOfSpeech="v" dc:subject="verb.change">
       <Definition>get rid of something abstract</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00572350-v"/> <!-- wash away -->
+      <SynsetRelation relType="hyponym" target="ewn-90004911-n"/>
       <Example>&quot;The death of her mother removed the last obstacle to their marriage&quot;</Example>
       <Example>&quot;God takes away your sins&quot;</Example>
     </Synset>
@@ -42257,6 +42295,38 @@
       <SynsetRelation relType="hypernym" target="ewn-02236972-v"/>
       <Example>&quot;He committed the poem to memory&quot;</Example>
       <Example>&quot;she committed her thoughts to paper&quot;</Example>
+    </Synset>
+    <Synset id="ewn-91000441-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to gain size and weight by means of exercise and diet</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00231172-v"/> <!-- grow -->
+    </Synset>
+    <Synset id="ewn-91000461-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to violently create disorder and destroy</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00277172-v"/> <!-- disarray, disorder -->
+    </Synset>
+    <Synset id="ewn-90007311-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to organize one&apos;s personal things</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00405549-v"/> <!-- organize, organise, coordinate -->
+    </Synset>
+    <Synset id="ewn-91001651-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>To run a processor (CPU), or any electronic logic device, at a speed higher than is recommended by the manufacturer.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00230031-v"/> <!-- heighten, enhance, raise -->
+    </Synset>
+    <Synset id="ewn-90007761-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to jump into someone&apos;s photo</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00521099-v"/> <!-- interrupt, disturb -->
+    </Synset>
+    <Synset id="ewn-90020001-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to change something temporarily</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00380830-v"/> <!-- change over, shift, switch -->
+    </Synset>
+    <Synset id="ewn-90016131-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>To remove someone from your list of friends on a social network</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00173351-v"/> <!-- take, take away, withdraw, remove -->
+    </Synset>
+    <Synset id="ewn-90004911-n" ili="in" partOfSpeech="n" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to remove a metadata tag from an internet post</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00572138-v"/> <!-- take away, remove -->
     </Synset>
   </Lexicon>
 </LexicalResource>

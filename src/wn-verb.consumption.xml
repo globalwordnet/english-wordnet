@@ -3107,6 +3107,30 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-help-v-01183592-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-help-v-01196102-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-geek_out-v">
+      <Lemma writtenForm="geek out" partOfSpeech="v"/>
+      <Sense id="ewn-geek_out-v-90019872-01" n="0" synset="ewn-90019872-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-cumswallow-v">
+      <Lemma writtenForm="cumswallow" partOfSpeech="v"/>
+      <Sense id="ewn-cumswallow-v-90002431-01" n="0" synset="ewn-90002431-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-dab-v">
+      <Lemma writtenForm="dab" partOfSpeech="v"/>
+      <Sense id="ewn-dab-v-90003681-01" n="2" synset="ewn-90003681-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tweak-v">
+      <Lemma writtenForm="tweak" partOfSpeech="v"/>
+      <Sense id="ewn-tweak-v-90004861-01" n="3" synset="ewn-90004861-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-upcycle-v">
+      <Lemma writtenForm="upcycle" partOfSpeech="v"/>
+      <Sense id="ewn-upcycle-v-90014081-01" n="0" synset="ewn-90014081-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-vape-v">
+      <Lemma writtenForm="vape" partOfSpeech="v"/>
+      <Sense id="ewn-vape-v-90000271-01" n="0" synset="ewn-90000271-v"/>
+    </LexicalEntry>
     <!-- ingest, take, have, consume, take in -->
     <Synset id="ewn-01159300-v" ili="i27410" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>serve oneself to, or consume regularly</Definition>
@@ -3303,6 +3327,7 @@
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-01164945-v"/> <!-- rehash -->
       <SynsetRelation relType="hyponym" target="ewn-02231615-v"/> <!-- recover, reclaim -->
+      <SynsetRelation relType="hyponym" target="ewn-90014081-v"/>
       <Example>&quot;We must recycle the cardboard boxes&quot;</Example>
     </Synset>
     <!-- rehash -->
@@ -4306,6 +4331,7 @@
     <Synset id="ewn-01192810-v" ili="i27569" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>become drunk or drink excessively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
+      <SynsetRelation relType="similar" target="ewn-90004861-v"/>
     </Synset>
     <!-- inebriate, intoxicate, soak -->
     <Synset id="ewn-01193027-v" ili="i27570" partOfSpeech="v" dc:subject="verb.consumption">
@@ -4330,6 +4356,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01193765-v"/> <!-- have a ball, have a good time -->
       <SynsetRelation relType="hyponym" target="ewn-01193936-v"/> <!-- wallow -->
       <SynsetRelation relType="hyponym" target="ewn-01194045-v"/> <!-- live it up -->
+      <SynsetRelation relType="hyponym" target="ewn-90019872-v"/>
       <Example>&quot;he delights in his granddaughter&quot;</Example>
     </Synset>
     <!-- have a ball, have a good time -->
@@ -4592,6 +4619,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01201417-v"/> <!-- inhale -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01201647-v"/> <!-- puff, drag, draw -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01202519-v"/> <!-- fire up, light, light up -->
+      <SynsetRelation relType="hyponym" target="ewn-90003681-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-90000271-v"/>
       <Example>&quot;We never smoked marijuana&quot;</Example>
       <Example>&quot;Do you smoke?&quot;</Example>
     </Synset>
@@ -4734,6 +4763,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01205271-v"/> <!-- bolt -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01204688-v"/> <!-- quaff, swig, gulp -->
+      <SynsetRelation relType="hyponym" target="ewn-90002431-v"/>
       <Example>&quot;Swallow the raw fish--it won&apos;t kill you!&quot;</Example>
     </Synset>
     <!-- quaff, swig, gulp -->
@@ -4860,6 +4890,32 @@
     <Synset id="ewn-01208079-v" ili="i27652" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take solid or liquid food into the mouth a little at a time either by drinking or by eating with a spoon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
+    </Synset>
+    <Synset id="ewn-90019872-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>to be especially excited about something relatively unpopular</Definition>
+      <SynsetRelation relType="similar" target="ewn-01765558-v"/>
+      <SynsetRelation relType="hypernym" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
+    </Synset>
+    <Synset id="ewn-90002431-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>to swallow ejaculate</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01204494-v"/> <!-- swallow, get down -->
+    </Synset>
+    <Synset id="ewn-90003681-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>to smoke marijuana using butane hash oil</Definition>
+      <SynsetRelation relType="domain_topic" target="ewn-02953127-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
+    </Synset>
+    <Synset id="ewn-90004861-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>to be under the influence of methamphetamine</Definition>
+      <SynsetRelation relType="similar" target="ewn-01192810-v"/> <!-- inebriate, hit it up, souse, soak -->
+    </Synset>
+    <Synset id="ewn-90014081-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>To transform an old product into a newer and more expensive form with a different use</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01164741-v"/> <!-- recycle, reuse, reprocess -->
+    </Synset>
+    <Synset id="ewn-90000271-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+      <Definition>to use an electronic cigarette</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
     </Synset>
   </Lexicon>
 </LexicalResource>

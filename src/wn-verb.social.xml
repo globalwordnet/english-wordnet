@@ -281,6 +281,7 @@
         <SenseRelation relType="derivation" target="ewn-slayer-n-10250784-02"/> <!-- slayer, killer -->
         <SenseRelation relType="derivation" target="ewn-slaying-n-00221389-02"/> <!-- execution, murder, slaying -->
         </Sense>
+      <Sense id="ewn-slay-v-90008852-01" n="1" synset="ewn-90008852-v"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-slay-v-02488014-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-right-v">
@@ -14206,6 +14207,22 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-administrate-v-02436818-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-administrate-v-02436818-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-cuff-v">
+      <Lemma writtenForm="cuff" partOfSpeech="v"/>
+      <Sense id="ewn-cuff-v-90009621-01" n="2" synset="ewn-90009621-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-friendzone-v">
+      <Lemma writtenForm="friendzone" partOfSpeech="v"/>
+      <Sense id="ewn-friendzone-v-90012511-01" n="0" synset="ewn-90012511-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-instalike-v">
+      <Lemma writtenForm="instalike" partOfSpeech="v"/>
+      <Sense id="ewn-instalike-v-90009141-01" n="0" synset="ewn-90009141-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-upvote-v">
+      <Lemma writtenForm="upvote" partOfSpeech="v"/>
+      <Sense id="ewn-upvote-v-91000861-01" n="0" synset="ewn-91000861-v"/>
+    </LexicalEntry>
     <!-- resign, give up, vacate, renounce -->
     <Synset id="ewn-02372031-v" ili="i33602" partOfSpeech="v" dc:subject="verb.social">
       <Definition>leave (a job, post, or position) voluntarily</Definition>
@@ -17346,6 +17363,8 @@
       <SynsetRelation relType="similar" target="ewn-02466737-v"/> <!-- vote -->
       <SynsetRelation relType="hypernym" target="ewn-01063503-v"/> <!-- express, state -->
       <SynsetRelation relType="hyponym" target="ewn-02468281-v"/> <!-- bullet vote -->
+      <SynsetRelation relType="hyponym" target="ewn-90009141-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91000861-v"/>
       <Example>&quot;vote the Democratic ticket&quot;</Example>
     </Synset>
     <!-- bullet vote -->
@@ -17592,6 +17611,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02494483-v"/> <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
       <SynsetRelation relType="hyponym" target="ewn-02496079-v"/> <!-- pair, couple, pair off, partner off -->
       <SynsetRelation relType="hyponym" target="ewn-02598406-v"/> <!-- club -->
+      <SynsetRelation relType="hyponym" target="ewn-90009621-v"/>
     </Synset>
     <!-- associate, consociate -->
     <Synset id="ewn-02475598-v" ili="i34070" partOfSpeech="v" dc:subject="verb.social">
@@ -18249,6 +18269,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02495739-v"/> <!-- intermarry -->
       <SynsetRelation relType="hyponym" target="ewn-02495896-v"/> <!-- remarry -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02496283-v"/> <!-- split up, divorce -->
+      <SynsetRelation relType="similar" target="ewn-90009621-v"/>
     </Synset>
     <!-- inmarry -->
     <Synset id="ewn-02494832-v" ili="i34167" partOfSpeech="v" dc:subject="verb.social">
@@ -19061,6 +19082,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02521921-v"/> <!-- skimp over, gloss over, smooth over, skate over, slur over -->
       <SynsetRelation relType="hyponym" target="ewn-02522260-v"/> <!-- ill-treat, mistreat, abuse, step, ill-use, maltreat -->
       <SynsetRelation relType="hyponym" target="ewn-02576182-v"/> <!-- pamper, mollycoddle, coddle, cosset, featherbed, spoil, indulge, baby, cocker -->
+      <SynsetRelation relType="hyponym" target="ewn-90012511-v"/>
       <Example>&quot;Do right by her&quot;</Example>
       <Example>&quot;Treat him with caution, please&quot;</Example>
       <Example>&quot;Handle the press reporters gently&quot;</Example>
@@ -19381,6 +19403,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02531651-v"/> <!-- pan out -->
       <SynsetRelation relType="hyponym" target="ewn-02531751-v"/> <!-- accomplish, achieve, reach, attain -->
       <SynsetRelation relType="hyponym" target="ewn-02591952-v"/> <!-- make it, go far, arrive, get in -->
+      <SynsetRelation relType="hyponym" target="ewn-90008852-v"/>
       <Example>&quot;The enterprise succeeded&quot;</Example>
       <Example>&quot;We succeeded in getting tickets to the show&quot;</Example>
       <Example>&quot;she struggled to overcome her handicap and won&quot;</Example>
@@ -21939,6 +21962,27 @@
       <SynsetRelation relType="hypernym" target="ewn-02444366-v"/> <!-- direct -->
       <Example>&quot;administer an exam&quot;</Example>
       <Example>&quot;administer an oath&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90008852-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to succeed greatly</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02529837-v"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
+    </Synset>
+    <Synset id="ewn-90009621-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to get involved in a relationship with another person</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02475258-v"/> <!-- unify, unite -->
+      <SynsetRelation relType="similar" target="ewn-02494483-v"/> <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
+    </Synset>
+    <Synset id="ewn-90012511-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To treat as a friend although the other party has romantic feelings</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02519853-v"/> <!-- handle, do by, treat -->
+    </Synset>
+    <Synset id="ewn-90009141-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to instantly vote for something on social media</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
+    </Synset>
+    <Synset id="ewn-91000861-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To vote positively on a social media website</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
     </Synset>
   </Lexicon>
 </LexicalResource>

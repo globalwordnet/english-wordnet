@@ -10247,6 +10247,14 @@
       <Lemma writtenForm="Peru-Chile Trench" partOfSpeech="n"/>
       <Sense id="ewn-Peru-Chile_Trench-n-09232039-00" n="0" synset="ewn-09232039-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-exoplanet-n">
+      <Lemma writtenForm="exoplanet" partOfSpeech="n"/>
+      <Sense id="ewn-exoplanet-n-90019371-01" n="0" synset="ewn-90019371-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-fuckhole-n">
+      <Lemma writtenForm="fuckhole" partOfSpeech="n"/>
+      <Sense id="ewn-fuckhole-n-90011181-01" n="0" synset="ewn-90011181-n"/>
+    </LexicalEntry>
     <!-- Aare, Aare River, Aar -->
     <Synset id="ewn-09208961-n" ili="i84918" partOfSpeech="n" dc:subject="noun.object">
       <Definition>a river in north central Switzerland that runs northeast into the Rhine</Definition>
@@ -14881,6 +14889,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09412760-n"/> <!-- perforation -->
       <SynsetRelation relType="hyponym" target="ewn-09428561-n"/> <!-- rathole -->
       <SynsetRelation relType="hyponym" target="ewn-15127461-n"/> <!-- knothole -->
+      <SynsetRelation relType="hyponym" target="ewn-90011181-n"/>
     </Synset>
     <!-- hole, hollow -->
     <Synset id="ewn-09327656-n" ili="i85531" partOfSpeech="n" dc:subject="noun.object">
@@ -18337,6 +18346,7 @@
     <Synset id="ewn-09417539-n" ili="i85987" partOfSpeech="n" dc:subject="noun.object">
       <Definition>any celestial body (other than comets or satellites) that revolves around a star</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09262646-n"/> <!-- celestial body, heavenly body -->
+      <SynsetRelation relType="hyponym" target="ewn-90019371-n"/>
     </Synset>
     <!-- planetary nebula -->
     <Synset id="ewn-09417690-n" ili="i85988" partOfSpeech="n" dc:subject="noun.object">
@@ -21821,6 +21831,14 @@
       <Definition>a former inlet of the North Sea in the northern coast of the Netherlands; sealed off from the sea in 1932 by a dam that created the IJsselmeer</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-09336622-n"/> <!-- inlet, recess -->
       <SynsetRelation relType="holo_part" target="ewn-09396947-n"/> <!-- North Sea -->
+    </Synset>
+    <Synset id="ewn-90019371-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="Colloquial WordNet">
+      <Definition>A planet which exists outside Earth&apos;s solar system</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09417539-n"/> <!-- planet -->
+    </Synset>
+    <Synset id="ewn-90011181-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="Colloquial WordNet">
+      <Definition>A hole that can be used for sexual intercourse</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09327371-n"/> <!-- hole -->
     </Synset>
   </Lexicon>
 </LexicalResource>

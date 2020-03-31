@@ -9041,6 +9041,14 @@
       <Lemma writtenForm="recreate" partOfSpeech="v"/>
       <Sense id="ewn-recreate-v-00738804-02" n="0" synset="ewn-00738804-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-overthink-v">
+      <Lemma writtenForm="overthink" partOfSpeech="v"/>
+      <Sense id="ewn-overthink-v-90002041-01" n="0" synset="ewn-90002041-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-unsee-v">
+      <Lemma writtenForm="unsee" partOfSpeech="v"/>
+      <Sense id="ewn-unsee-v-90006541-01" n="0" synset="ewn-90006541-v"/>
+    </LexicalEntry>
     <!-- dig, compass, grok, grasp, get the picture, apprehend, savvy, comprehend -->
     <Synset id="ewn-00589616-v" ili="i24708" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>get the meaning of something</Definition>
@@ -9768,6 +9776,7 @@
       <Definition>dismiss from the mind; stop remembering</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00600024-v"/> <!-- unlearn -->
       <SynsetRelation relType="hyponym" target="ewn-00614373-v"/> <!-- suppress, repress -->
+      <SynsetRelation relType="hyponym" target="ewn-90006541-v"/>
       <Example>&quot;I tried to bury these unpleasant memories&quot;</Example>
     </Synset>
     <!-- recognize, recognise -->
@@ -14005,6 +14014,7 @@
       <Definition>decide by pondering, reasoning, or reflecting</Definition>
       <SynsetRelation relType="similar" target="ewn-00741087-v"/> <!-- think -->
       <SynsetRelation relType="hypernym" target="ewn-00630153-v"/> <!-- think, cerebrate, cogitate -->
+      <SynsetRelation relType="hyponym" target="ewn-90002041-v"/>
       <Example>&quot;Can you think what to do next?&quot;</Example>
     </Synset>
     <!-- calibrate -->
@@ -14039,6 +14049,14 @@
       <Definition>accept as legally binding and valid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00688348-v"/> <!-- accept -->
       <Example>&quot;acknowledge the deed&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90002041-v" ili="in" partOfSpeech="v" dc:subject="verb.cognition" dc:source="Colloquial WordNet">
+      <Definition>to spend to much time considering something and thus reach the wrong conclusion</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00741345-v"/> <!-- think -->
+    </Synset>
+    <Synset id="ewn-90006541-v" ili="in" partOfSpeech="v" dc:subject="verb.cognition" dc:source="Colloquial WordNet">
+      <Definition>to forget an image</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00611721-v"/> <!-- bury, forget -->
     </Synset>
   </Lexicon>
 </LexicalResource>

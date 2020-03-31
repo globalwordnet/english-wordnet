@@ -26396,6 +26396,26 @@
       <Lemma writtenForm="in addition" partOfSpeech="r"/>
       <Sense id="ewn-in_addition-r-00029763-04" n="0" synset="ewn-00029763-r"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-derp-r">
+      <Lemma writtenForm="derp" partOfSpeech="r"/>
+      <Sense id="ewn-derp-r-90003183-01" n="0" synset="ewn-90003183-r"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-glowy-a">
+      <Lemma writtenForm="glowy" partOfSpeech="a"/>
+      <Sense id="ewn-glowy-a-90019731-01" n="0" synset="ewn-90019731-a"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-long_ass-a">
+      <Lemma writtenForm="long ass" partOfSpeech="a"/>
+      <Sense id="ewn-long_ass-a-90013262-01" n="0" synset="ewn-90013262-a"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-so_yeah-r">
+      <Lemma writtenForm="so yeah" partOfSpeech="r"/>
+      <Sense id="ewn-so_yeah-r-91000331-01" n="0" synset="ewn-91000331-r"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tonally-r">
+      <Lemma writtenForm="tonally" partOfSpeech="r"/>
+      <Sense id="ewn-tonally-r-91001531-01" n="0" synset="ewn-91001531-r"/>
+    </LexicalEntry>
     <!-- a capella, a cappella -->
     <Synset id="ewn-00001740-r" ili="i18157" partOfSpeech="r" dc:subject="adv.all">
       <Definition>without musical accompaniment</Definition>
@@ -29053,6 +29073,7 @@
     <!-- brightly, bright, brilliantly -->
     <Synset id="ewn-00077434-r" ili="i18602" partOfSpeech="r" dc:subject="adv.all">
       <Definition>with brightness</Definition>
+      <SynsetRelation relType="similar" target="ewn-90019731-a"/>
       <Example>&quot;the stars shone brilliantly&quot;</Example>
       <Example>&quot;the windows glowed jewel bright&quot;</Example>
     </Synset>
@@ -32557,6 +32578,7 @@
     <!-- long -->
     <Synset id="ewn-00167240-r" ili="i19264" partOfSpeech="r" dc:subject="adv.all">
       <Definition>for an extended time or at a distant time</Definition>
+      <SynsetRelation relType="hyponym" target="ewn-90013262-a"/>
       <Example>&quot;a promotion long overdue&quot;</Example>
       <Example>&quot;something long hoped for&quot;</Example>
       <Example>&quot;his name has long been forgotten&quot;</Example>
@@ -33544,6 +33566,7 @@
     <!-- id est, ie, i.e. -->
     <Synset id="ewn-00193186-r" ili="i19457" partOfSpeech="r" dc:subject="adv.all">
       <Definition>a figure of speech used as a way to provide further information, or to be more specific or exact about something</Definition>
+      <SynsetRelation relType="similar" target="ewn-91000331-r"/>
     </Synset>
     <!-- continuously -->
     <Synset id="ewn-00193263-r" ili="i19458" partOfSpeech="r" dc:subject="adv.all">
@@ -43302,6 +43325,7 @@
     <!-- stylistically -->
     <Synset id="ewn-00471848-r" ili="i21401" partOfSpeech="r" dc:subject="adv.all">
       <Definition>in a rhetorically stylistic manner</Definition>
+      <SynsetRelation relType="similar" target="ewn-91001531-r"/>
       <Example>&quot;stylistically complex&quot;</Example>
     </Synset>
     <!-- suavely -->
@@ -45189,6 +45213,25 @@
       <Example>&quot;suddenly she felt a sharp pain in her side&quot;</Example>
       <Example>&quot;he decided to go to Chicago on the spur of the moment&quot;</Example>
       <Example>&quot;he made up his mind suddenly&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90003183-r" ili="in" partOfSpeech="r" dc:subject="adv.all" dc:source="Colloquial WordNet">
+      <Definition>reacting to a stupid but cute action</Definition>
+    </Synset>
+    <Synset id="ewn-90019731-a" ili="in" partOfSpeech="a" dc:subject="adv.all" dc:source="Colloquial WordNet">
+      <Definition>appearing to be glowing</Definition>
+      <SynsetRelation relType="similar" target="ewn-00077434-r"/> <!-- brightly, bright, brilliantly -->
+    </Synset>
+    <Synset id="ewn-90013262-a" ili="in" partOfSpeech="a" dc:subject="adv.all" dc:source="Colloquial WordNet">
+      <Definition>Very long in the temporal sense</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00167240-r"/> <!-- long -->
+    </Synset>
+    <Synset id="ewn-91000331-r" ili="in" partOfSpeech="r" dc:subject="adv.all" dc:source="Colloquial WordNet">
+      <Definition>In other words, as a result</Definition>
+      <SynsetRelation relType="similar" target="ewn-00193186-r"/> <!-- id est, ie, i.e. -->
+    </Synset>
+    <Synset id="ewn-91001531-r" ili="in" partOfSpeech="r" dc:subject="adv.all" dc:source="Colloquial WordNet">
+      <Definition>regarding the tone</Definition>
+      <SynsetRelation relType="similar" target="ewn-00471848-r"/> <!-- stylistically -->
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -4873,6 +4873,10 @@
       <Lemma writtenForm="side with" partOfSpeech="v"/>
       <Sense id="ewn-side_with-v-01151176-03" n="0" synset="ewn-01151176-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-overhead_press-n">
+      <Lemma writtenForm="overhead press" partOfSpeech="n"/>
+      <Sense id="ewn-overhead_press-n-91001321-01" n="0" synset="ewn-91001321-n"/>
+    </LexicalEntry>
     <!-- contend, vie, compete -->
     <Synset id="ewn-01074673-v" ili="i26951" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>compete for something; engage in a contest; measure oneself against others</Definition>
@@ -7825,6 +7829,7 @@
     <Synset id="ewn-01152836-v" ili="i27376" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>lift weights</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00099475-v"/> <!-- exercise, work out -->
+      <SynsetRelation relType="hyponym" target="ewn-91001321-n"/>
       <Example>&quot;This guy can press 300 pounds&quot;</Example>
     </Synset>
     <!-- direct, target, aim, point, place -->
@@ -8062,6 +8067,10 @@
       <Definition>lose a game in which one is serving</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01102003-v"/> <!-- lose -->
       <SynsetRelation relType="domain_topic" target="ewn-00483309-n"/> <!-- lawn tennis, tennis -->
+    </Synset>
+    <Synset id="ewn-91001321-n" ili="in" partOfSpeech="n" dc:subject="verb.competition" dc:source="Colloquial WordNet">
+      <Definition>a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weight-lift, press -->
     </Synset>
   </Lexicon>
 </LexicalResource>

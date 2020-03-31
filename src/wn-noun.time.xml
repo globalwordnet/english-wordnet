@@ -7514,6 +7514,26 @@
       <Lemma writtenForm="Regency era" partOfSpeech="n"/>
       <Sense id="ewn-Regency_era-n-15320846-00" n="0" synset="ewn-15320846-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-funday-n">
+      <Lemma writtenForm="funday" partOfSpeech="n"/>
+      <Sense id="ewn-funday-n-90008181-01" n="0" synset="ewn-90008181-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-monthsary-n">
+      <Lemma writtenForm="monthsary" partOfSpeech="n"/>
+      <Sense id="ewn-monthsary-n-90007861-01" n="0" synset="ewn-90007861-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-mornight-n">
+      <Lemma writtenForm="mornight" partOfSpeech="n"/>
+      <Sense id="ewn-mornight-n-90009411-01" n="0" synset="ewn-90009411-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-pre-valentines_day-a">
+      <Lemma writtenForm="pre-valentines day" partOfSpeech="a"/>
+      <Sense id="ewn-pre-valentines_day-a-90001211-01" n="0" synset="ewn-90001211-a"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-snow_day-n">
+      <Lemma writtenForm="snow day" partOfSpeech="n"/>
+      <Sense id="ewn-snow_day-n-90002921-01" n="0" synset="ewn-90002921-n"/>
+    </LexicalEntry>
     <!-- time period, period, period of time -->
     <Synset id="ewn-15137796-n" ili="i116632" partOfSpeech="n" dc:subject="noun.time">
       <Definition>an amount of time</Definition>
@@ -7657,6 +7677,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15324468-n"/> <!-- study hall -->
       <SynsetRelation relType="hyponym" target="ewn-15324828-n"/> <!-- usance -->
       <SynsetRelation relType="hyponym" target="ewn-15325026-n"/> <!-- window -->
+      <SynsetRelation relType="hyponym" target="ewn-90009411-n"/>
       <Example>&quot;a time period of 30 years&quot;</Example>
       <Example>&quot;hastened the period of time of his recovery&quot;</Example>
       <Example>&quot;Picasso&apos;s blue period&quot;</Example>
@@ -9202,6 +9223,7 @@
       <SynsetRelation relType="mero_part" target="ewn-15190537-n"/> <!-- noon, noontide, twelve noon, high noon, midday, noonday -->
       <SynsetRelation relType="mero_part" target="ewn-15192074-n"/> <!-- night, nighttime, dark -->
       <SynsetRelation relType="mero_part" target="ewn-15252642-n"/> <!-- hour, hr, 60 minutes -->
+      <SynsetRelation relType="hyponym" target="ewn-90002921-n"/>
       <Example>&quot;two days later they left&quot;</Example>
       <Example>&quot;they put on two performances every day&quot;</Example>
       <Example>&quot;there are 30,000 passengers per day&quot;</Example>
@@ -9315,6 +9337,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15247636-n"/> <!-- washing day, washday -->
       <SynsetRelation relType="hyponym" target="ewn-15247747-n"/> <!-- wedding day -->
       <SynsetRelation relType="hyponym" target="ewn-15274610-n"/> <!-- day of remembrance, anniversary -->
+      <SynsetRelation relType="hyponym" target="ewn-90001211-a"/>
       <Example>&quot;Mother&apos;s Day&quot;</Example>
     </Synset>
     <!-- Admission Day -->
@@ -9542,6 +9565,7 @@
       <Definition>first day of the week; observed as a day of rest and worship by most Christians</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15161999-n"/> <!-- day of rest, rest day -->
       <SynsetRelation relType="holo_part" target="ewn-15195551-n"/> <!-- weekend -->
+      <SynsetRelation relType="hyponym" target="ewn-90008181-n"/>
     </Synset>
     <!-- Mon, Monday -->
     <Synset id="ewn-15189026-n" ili="i116900" partOfSpeech="n" dc:subject="noun.time">
@@ -12981,6 +13005,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15276832-n"/> <!-- quincentennial, quincentenary -->
       <SynsetRelation relType="hyponym" target="ewn-15276957-n"/> <!-- millennium, millenary -->
       <SynsetRelation relType="hyponym" target="ewn-15277111-n"/> <!-- bimillennium, bimillenary -->
+      <SynsetRelation relType="hyponym" target="ewn-90007861-n"/>
     </Synset>
     <!-- birthday -->
     <Synset id="ewn-15274989-n" ili="i117384" partOfSpeech="n" dc:subject="noun.time">
@@ -14841,6 +14866,26 @@
       <SynsetRelation relType="holo_part" target="ewn-15237535-n"/> <!-- Sep, Sept, September -->
       <SynsetRelation relType="instance_hypernym" target="ewn-01249244-n"/> <!-- terrorist attack -->
       <SynsetRelation relType="domain_topic" target="ewn-00761047-n"/> <!-- terrorism, act of terrorism, terrorist act -->
+    </Synset>
+    <Synset id="ewn-90008181-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="Colloquial WordNet">
+      <Definition>Sunday as a day for relaxing and having fun</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15188844-n"/> <!-- Lord's Day, Sunday, Dominicus, Sun -->
+    </Synset>
+    <Synset id="ewn-90007861-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="Colloquial WordNet">
+      <Definition>the one month anniversary of something</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15274610-n"/> <!-- day of remembrance, anniversary -->
+    </Synset>
+    <Synset id="ewn-90009411-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="Colloquial WordNet">
+      <Definition>both morning and night, used when greeting someone</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15137796-n"/> <!-- time period, period, period of time -->
+    </Synset>
+    <Synset id="ewn-90001211-a" ili="in" partOfSpeech="a" dc:subject="noun.time" dc:source="Colloquial WordNet">
+      <Definition>The day before Valentine&apos;s Day, e.g., February 1</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15182185-n"/> <!-- day -->
+    </Synset>
+    <Synset id="ewn-90002921-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="Colloquial WordNet">
+      <Definition>a day on which school or other events are cancelled due to snow</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15180180-n"/> <!-- solar day, 24-hour interval, day, twenty-four hour period, twenty-four hours, mean solar day -->
     </Synset>
   </Lexicon>
 </LexicalResource>

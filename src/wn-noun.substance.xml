@@ -20146,6 +20146,10 @@
         <SenseRelation relType="exemplifies" target="ewn-archaism-n-07087487-01"/>
         </Sense>
     </LexicalEntry>
+    <LexicalEntry id="ewn-vape_juice-n">
+      <Lemma writtenForm="vape juice" partOfSpeech="n"/>
+      <Sense id="ewn-vape_juice-n-90000261-01" n="0" synset="ewn-90000261-n"/>
+    </LexicalEntry>
     <!-- substance -->
     <Synset id="ewn-14604577-n" ili="i113649" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material of a particular kind or constitution</Definition>
@@ -24889,6 +24893,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14736853-n"/> <!-- alkaloid -->
       <SynsetRelation relType="hypernym" target="ewn-04529716-n"/> <!-- vasoconstrictor, pressor, vasoconstrictive -->
       <SynsetRelation relType="holo_substance" target="ewn-04449965-n"/> <!-- baccy, tobacco -->
+      <SynsetRelation relType="holo_substance" target="ewn-90000261-n"/>
     </Synset>
     <!-- strychnine -->
     <Synset id="ewn-14739169-n" ili="i114323" partOfSpeech="n" dc:subject="noun.substance">
@@ -33327,6 +33332,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14965368-n"/> <!-- liquor -->
       <SynsetRelation relType="hyponym" target="ewn-15063746-n"/> <!-- sheep dip -->
       <SynsetRelation relType="hyponym" target="ewn-15068146-n"/> <!-- snake oil -->
+      <SynsetRelation relType="hyponym" target="ewn-90000261-n"/>
     </Synset>
     <!-- liquid nitrogen -->
     <Synset id="ewn-14964888-n" ili="i115635" partOfSpeech="n" dc:subject="noun.substance">
@@ -39641,6 +39647,11 @@
     <Synset id="ewn-15137617-n" ili="i116631" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>crystalline oxidation product of the metabolism of nucleoproteins; precursor of uric acid; found in many organs and in urine</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14751849-n"/> <!-- organic compound -->
+    </Synset>
+    <Synset id="ewn-90000261-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="Colloquial WordNet">
+      <Definition>liquid for use in electronic cigarettes</Definition>
+      <SynsetRelation relType="mero_substance" target="ewn-14738978-n"/> <!-- nicotine -->
+      <SynsetRelation relType="hypernym" target="ewn-14964524-n"/> <!-- liquid -->
     </Synset>
   </Lexicon>
 </LexicalResource>

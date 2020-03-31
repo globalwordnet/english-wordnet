@@ -29829,6 +29829,14 @@
       <Lemma writtenForm="ocher" partOfSpeech="n"/>
       <Sense id="ewn-ocher-n-04974018-01" n="0" synset="ewn-04974018-n" dc:identifier="ocher%1:07:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-x64-n">
+      <Lemma writtenForm="x64" partOfSpeech="n"/>
+      <Sense id="ewn-x64-n-90007891-01" n="0" synset="ewn-90007891-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-x86-n">
+      <Lemma writtenForm="x86" partOfSpeech="n"/>
+      <Sense id="ewn-x86-n-90007211-01" n="0" synset="ewn-90007211-n"/>
+    </LexicalEntry>
     <!-- human nature -->
     <Synset id="ewn-04623223-n" ili="i61342" partOfSpeech="n" dc:subject="noun.attribute">
       <Definition>the shared psychological attributes of humankind that are assumed to be shared by all human beings</Definition>
@@ -40256,6 +40264,8 @@
       <SynsetRelation relType="domain_topic" target="ewn-06138021-n"/> <!-- computer science, computing -->
       <SynsetRelation relType="hyponym" target="ewn-04939738-n"/> <!-- complex instruction set computing, complex instruction set computer, CISC -->
       <SynsetRelation relType="hyponym" target="ewn-04940052-n"/> <!-- RISC, reduced instruction set computing, reduced instruction set computer -->
+      <SynsetRelation relType="hyponym" target="ewn-90007891-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-90007211-n"/>
       <Example>&quot;the architecture of a computer&apos;s system software&quot;</Example>
     </Synset>
     <!-- complex instruction set computing, complex instruction set computer, CISC -->
@@ -50019,6 +50029,16 @@
       <Definition>the quality of not being accessible</Definition>
       <SynsetRelation relType="hypernym" target="ewn-04729991-n"/> <!-- inconvenience -->
       <SynsetRelation relType="antonym" target="ewn-04726275-n"/> <!-- availableness, availability, handiness, accessibility -->
+    </Synset>
+    <Synset id="ewn-90007891-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="Colloquial WordNet">
+      <Definition>the 64-bit version of the x86 architecture</Definition>
+      <SynsetRelation relType="similar" target="ewn-90007211-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-04939455-n"/> <!-- computer architecture, architecture -->
+    </Synset>
+    <Synset id="ewn-90007211-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="Colloquial WordNet">
+      <Definition>a computer architecture based on the Intel 8086 chip</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-04939455-n"/> <!-- computer architecture, architecture -->
+      <SynsetRelation relType="similar" target="ewn-90007891-n"/>
     </Synset>
   </Lexicon>
 </LexicalResource>

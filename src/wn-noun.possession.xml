@@ -6791,6 +6791,14 @@
       <Lemma writtenForm="GST" partOfSpeech="n"/>
       <Sense id="ewn-GST-n-89535166-04" n="0" synset="ewn-89535166-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-altcoin-n">
+      <Lemma writtenForm="altcoin" partOfSpeech="n"/>
+      <Sense id="ewn-altcoin-n-90004341-01" n="0" synset="ewn-90004341-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-cryptocurrency-n">
+      <Lemma writtenForm="cryptocurrency" partOfSpeech="n"/>
+      <Sense id="ewn-cryptocurrency-n-90002991-01" n="0" synset="ewn-90002991-n"/>
+    </LexicalEntry>
     <!-- ownership -->
     <Synset id="ewn-13261412-n" ili="i106221" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the relation of an owner to the thing possessed; possession with the right to transfer possession to others</Definition>
@@ -12148,6 +12156,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13408055-n"/> <!-- hard currency -->
       <SynsetRelation relType="hyponym" target="ewn-13408382-n"/> <!-- paper money, folding money, paper currency -->
       <SynsetRelation relType="hyponym" target="ewn-13409050-n"/> <!-- mintage, specie, metal money, coinage -->
+      <SynsetRelation relType="hyponym" target="ewn-90002991-n"/>
     </Synset>
     <!-- Eurocurrency -->
     <Synset id="ewn-13407309-n" ili="i107065" partOfSpeech="n" dc:subject="noun.possession">
@@ -13521,6 +13530,15 @@
     <Synset id="ewn-89535166-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a tax based on the value of the goods collected by the end retailer</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13337744-n"/> <!-- value-added tax, ad valorem tax, VAT -->
+    </Synset>
+    <Synset id="ewn-90004341-n" ili="in" partOfSpeech="n" dc:subject="noun.possession" dc:source="Colloquial WordNet">
+      <Definition>an alternative cryptocurrency</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-90002991-n"/>
+    </Synset>
+    <Synset id="ewn-90002991-n" ili="in" partOfSpeech="n" dc:subject="noun.possession" dc:source="Colloquial WordNet">
+      <Definition>a currency based on the usage of cryptography to secure transactions</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13407086-n"/> <!-- currency -->
+      <SynsetRelation relType="hyponym" target="ewn-90004341-n"/>
     </Synset>
   </Lexicon>
 </LexicalResource>

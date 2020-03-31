@@ -3209,6 +3209,14 @@
       <Lemma writtenForm="international sea and swell scale" partOfSpeech="n"/>
       <Sense id="ewn-international_sea_and_swell_scale-n-80870371-01" n="0" synset="ewn-80870371-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Twitter-n">
+      <Lemma writtenForm="Twitter" partOfSpeech="n"/>
+      <Sense id="ewn-Twitter-n-90000051-01" n="0" synset="ewn-90000051-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-bromance-n">
+      <Lemma writtenForm="bromance" partOfSpeech="n"/>
+      <Sense id="ewn-bromance-n-90002221-01" n="0" synset="ewn-90002221-n"/>
+    </LexicalEntry>
     <!-- dealings, relations -->
     <Synset id="ewn-13802661-n" ili="i109327" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
@@ -3225,6 +3233,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="ewn-13803560-n"/> <!-- partnership -->
       <SynsetRelation relType="hyponym" target="ewn-13803882-n"/> <!-- personal relation, personal relationship -->
+      <SynsetRelation relType="hyponym" target="ewn-90002221-n"/>
       <Example>&quot;the relationship between mothers and their children&quot;</Example>
     </Synset>
     <!-- function -->
@@ -3622,6 +3631,7 @@
     <Synset id="ewn-13815054-n" ili="i109389" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a connection allowing access between persons or places</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13813601-n"/> <!-- connectedness, connection, connexion -->
+      <SynsetRelation relType="hyponym" target="ewn-90000051-n"/>
       <Example>&quot;how many lines of communication can there be among four people?&quot;</Example>
       <Example>&quot;a secret passageway provided communication between the two rooms&quot;</Example>
     </Synset>
@@ -5992,6 +6002,14 @@
     <Synset id="ewn-80870371-n" ili="in" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>scale used for measuring the height of waves</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
+    </Synset>
+    <Synset id="ewn-90000051-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="Colloquial WordNet">
+      <Definition>A social media messaging service limited to 140 characters</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13815054-n"/> <!-- communication -->
+    </Synset>
+    <Synset id="ewn-90002221-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="Colloquial WordNet">
+      <Definition>non-sexual but intense relationship between two men</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13802931-n"/> <!-- relationship, human relationship -->
     </Synset>
   </Lexicon>
 </LexicalResource>
