@@ -51,6 +51,6 @@ Please be aware that we use the [Global WordNet Association LMF](https://globalw
 
 ## License
 
-WordNet is released under the [WordNet License](LICENSE.md)
+WordNet is released under [CC-BY 4.0](LICENSE.md)
 
 
