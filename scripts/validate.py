@@ -53,8 +53,18 @@ def check_no_loops(wn):
 
 valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
 
+valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-[nvars]-[0-9]{8}-[0-9]{2}$")
+
+valid_synset_id = re.compile("^ewn-[0-9]{8}-[nvars]$")
+
 def is_valid_id(xml_id):
     return bool(valid_id.match(xml_id))
+
+def is_valid_synset_id(xml_id):
+    return bool(valid_synset_id.match(xml_id))
+
+def is_valid_sense_id(xml_id):
+    return bool(valid_sense_id.match(xml_id))
 
 def main():
     wn = parse_wordnet("wn.xml")
@@ -74,14 +84,14 @@ def main():
             print("ERROR: Invalid ID " + entry.id)
             errors += 1
         for sense in entry.senses:
-            if not is_valid_id(sense.id):
+            if not is_valid_sense_id(sense.id):
                 if fix:
                     sys.stderr.write("Cannot be fixed")
                     sys.exit(-1)
                 print("ERROR: Invalid ID " + sense.id)
                 errors += 1
     for synset in wn.synsets:
-        if not is_valid_id(synset.id):
+        if not is_valid_synset_id(synset.id):
             if fix:
                 sys.stderr.write("Cannot be fixed")
                 sys.exit(-1)
