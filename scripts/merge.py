@@ -55,7 +55,7 @@ def indent(elem, level=0):
         elem.tail = i
     return elem  
 
-def main():
+def wn_merge():
     with open("wn.xml", "w") as out:
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">
@@ -94,6 +94,9 @@ def main():
   </Lexicon>
 </LexicalResource>""")
 
+
+def main():
+    wn_merge()
 
 if __name__ == "__main__":
     main()

@@ -12421,8 +12421,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-dogmatism-n">
       <Lemma writtenForm="dogmatism" partOfSpeech="n"/>
-      <Sense id="ewn-dogmatism-n-06215945-02" n="0" synset="ewn-06215945-n" dc:identifier="dogmatism%1:09:00::">
+      <Sense id="ewn-dogmatism-n-85033452-01" n="0" synset="ewn-85033452-n" dc:identifier="dogmatism%1:09:00::">
         <SenseRelation relType="derivation" target="ewn-dogmatist-n-10043381-01"/> <!-- doctrinaire, dogmatist -->
+        <SenseRelation relType="derivation" target="ewn-dogmatic-s-00288936-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-inorganic_chemistry-n">
@@ -22789,6 +22790,10 @@
       <Lemma writtenForm="Project Gemini" partOfSpeech="n"/>
       <Sense id="ewn-Project_Gemini-n-05908438-00" n="0" synset="ewn-05908438-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Dharma-n">
+      <Lemma writtenForm="Dharma" partOfSpeech="n"/>
+      <Sense id="ewn-Dharma-n-89312075-01" n="0" synset="ewn-89312075-n"/>
+    </LexicalEntry>
     <!-- psyche, head, brain, mind, nous -->
     <Synset id="ewn-05619057-n" ili="i66397" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>that which is responsible for one&apos;s thoughts, feelings, and conscious brain functions; the seat of the faculty of reason</Definition>
@@ -31838,6 +31843,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05880984-n"/> <!-- insurrectionism -->
       <SynsetRelation relType="hyponym" target="ewn-06113680-n"/> <!-- conservation -->
       <SynsetRelation relType="hyponym" target="ewn-06253100-n"/> <!-- Tao -->
+      <SynsetRelation relType="hyponym" target="ewn-89312075-n"/>
       <Example>&quot;the principles of democracy&quot;</Example>
     </Synset>
     <!-- ABCs, first principles, ABC's, alphabet, rudiments, ABC -->
@@ -43265,6 +43271,7 @@
       <SynsetRelation relType="hyponym" target="ewn-06210476-n"/> <!-- dislike, disapproval, disfavor, disfavour -->
       <SynsetRelation relType="hyponym" target="ewn-06210871-n"/> <!-- partiality, partisanship -->
       <SynsetRelation relType="hyponym" target="ewn-06212421-n"/> <!-- impartiality, nonpartisanship -->
+      <SynsetRelation relType="hyponym" target="ewn-85033452-n"/>
       <Example>&quot;he had an inclination to give up too easily&quot;</Example>
       <Example>&quot;a tendency to be too strict&quot;</Example>
     </Synset>
@@ -44784,6 +44791,7 @@
       <SynsetRelation relType="hypernym" target="ewn-05881099-n"/> <!-- principle -->
       <SynsetRelation relType="holo_part" target="ewn-05986207-n"/> <!-- Daoism, Taoism -->
       <SynsetRelation relType="domain_topic" target="ewn-05986207-n"/> <!-- Daoism, Taoism -->
+      <SynsetRelation relType="similar" target="ewn-89312075-n"/>
     </Synset>
     <!-- Taoism, Hsuan Chiao -->
     <Synset id="ewn-06253226-n" ili="i69318" partOfSpeech="n" dc:subject="noun.cognition">
@@ -45031,6 +45039,15 @@
       <Definition>a heretical Zoroastrian doctrine holding that Zurvan was the ultimate source of the universe and that both Ahura Mazda and Ahriman were Zurvan&apos;s offspring</Definition>
       <SynsetRelation relType="hypernym" target="ewn-06196036-n"/> <!-- theological doctrine -->
       <SynsetRelation relType="hypernym" target="ewn-05989297-n"/> <!-- heresy, unorthodoxy -->
+    </Synset>
+    <Synset id="ewn-85033452-n" ili="in" partOfSpeech="n" dc:subject="noun.cognition">
+      <Definition>tendency to assert principles as undeniably true</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-06206319-n"/> <!-- inclination, disposition, tendency -->
+    </Synset>
+    <Synset id="ewn-89312075-n" ili="in" partOfSpeech="n" dc:subject="noun.cognition">
+      <Definition>basic principles of the cosmos in Hinduism, Buddhism, Sikhism, Jainism and other religions</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05881099-n"/> <!-- principle -->
+      <SynsetRelation relType="similar" target="ewn-06253100-n"/> <!-- Tao -->
     </Synset>
   </Lexicon>
 </LexicalResource>
