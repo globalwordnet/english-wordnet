@@ -5893,10 +5893,6 @@
       <Lemma writtenForm="sodium benzoate" partOfSpeech="n"/>
       <Sense id="ewn-sodium_benzoate-n-14799332-02" n="0" synset="ewn-14799332-n" dc:identifier="sodium_benzoate%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-muriatic_acid-n">
-      <Lemma writtenForm="muriatic acid" partOfSpeech="n"/>
-      <Sense id="ewn-muriatic_acid-n-14981196-01" n="0" synset="ewn-14981196-n" dc:identifier="muriatic_acid%1:27:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-elastase-n">
       <Lemma writtenForm="elastase" partOfSpeech="n"/>
       <Sense id="ewn-elastase-n-14873710-01" n="0" synset="ewn-14873710-n" dc:identifier="elastase%1:27:00::"/>
@@ -13588,9 +13584,9 @@
       <Lemma writtenForm="arginine" partOfSpeech="n"/>
       <Sense id="ewn-arginine-n-14791975-01" n="0" synset="ewn-14791975-n" dc:identifier="arginine%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-Ceylonite-n">
-      <Lemma writtenForm="Ceylonite" partOfSpeech="n"/>
-      <Sense id="ewn-Ceylonite-n-15076070-01" n="0" synset="ewn-15076070-n" dc:identifier="ceylonite%1:27:00::"/>
+    <LexicalEntry id="ewn-ceylonite-n">
+      <Lemma writtenForm="ceylonite" partOfSpeech="n"/>
+      <Sense id="ewn-ceylonite-n-15076070-01" n="0" synset="ewn-15076070-n" dc:identifier="ceylonite%1:27:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-norethindrone-n">
       <Lemma writtenForm="norethindrone" partOfSpeech="n"/>
@@ -20144,6 +20140,12 @@
       <Lemma writtenForm="stannic chloride" partOfSpeech="n"/>
       <Sense id="ewn-stannic_chloride-n-15043015-01" n="0" synset="ewn-15043015-n" dc:identifier="stannic_chloride%1:27:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-muriatic_acid-n">
+      <Lemma writtenForm="muriatic acid" partOfSpeech="n"/>
+      <Sense id="ewn-muriatic_acid-n-14936538-03" n="0" synset="ewn-14936538-n">
+        <SenseRelation relType="exemplifies" target="ewn-archaism-n-07087487-01"/>
+        </Sense>
+    </LexicalEntry>
     <!-- substance -->
     <Synset id="ewn-14604577-n" ili="i113649" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material of a particular kind or constitution</Definition>
@@ -26393,6 +26395,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14782206-n"/> <!-- horn -->
       <SynsetRelation relType="hyponym" target="ewn-14782715-n"/> <!-- shell -->
       <SynsetRelation relType="hyponym" target="ewn-14811690-n"/> <!-- animal fat -->
+      <SynsetRelation relType="hyponym" target="ewn-89570581-n"/>
     </Synset>
     <!-- animal pigment -->
     <Synset id="ewn-14780218-n" ili="i114531" partOfSpeech="n" dc:subject="noun.substance">
@@ -32336,7 +32339,6 @@
     <Synset id="ewn-14936538-n" ili="i115455" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an aqueous solution of hydrogen chloride; a strongly corrosive acid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14631699-n"/> <!-- acid -->
-      <SynsetRelation relType="hyponym" target="ewn-14981196-n"/> <!-- muriatic acid -->
     </Synset>
     <!-- HFC, hydrofluorocarbon -->
     <Synset id="ewn-14936707-n" ili="i115456" partOfSpeech="n" dc:subject="noun.substance">
@@ -34023,11 +34025,6 @@
     <Synset id="ewn-14981060-n" ili="i115735" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>sludge (rich in organic matter) that accumulates at the bottom of lakes or oceans</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14980800-n"/> <!-- muck, ooze, gunk, gook, slime, sludge, goop, goo, guck -->
-    </Synset>
-    <!-- muriatic acid -->
-    <Synset id="ewn-14981196-n" ili="i115736" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a former name for hydrochloric acid</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14936538-n"/> <!-- hydrochloric acid, chlorohydric acid -->
     </Synset>
     <!-- music paper, score paper -->
     <Synset id="ewn-14981291-n" ili="i115737" partOfSpeech="n" dc:subject="noun.substance">

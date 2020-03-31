@@ -22790,6 +22790,10 @@
       <Lemma writtenForm="Project Gemini" partOfSpeech="n"/>
       <Sense id="ewn-Project_Gemini-n-05908438-00" n="0" synset="ewn-05908438-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Dharma-n">
+      <Lemma writtenForm="Dharma" partOfSpeech="n"/>
+      <Sense id="ewn-Dharma-n-89312075-01" n="0" synset="ewn-89312075-n"/>
+    </LexicalEntry>
     <!-- psyche, head, brain, mind, nous -->
     <Synset id="ewn-05619057-n" ili="i66397" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>that which is responsible for one&apos;s thoughts, feelings, and conscious brain functions; the seat of the faculty of reason</Definition>
@@ -31895,6 +31899,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05880984-n"/> <!-- insurrectionism -->
       <SynsetRelation relType="hyponym" target="ewn-06113680-n"/> <!-- conservation -->
       <SynsetRelation relType="hyponym" target="ewn-06253100-n"/> <!-- Tao -->
+      <SynsetRelation relType="hyponym" target="ewn-89312075-n"/>
       <Example>&quot;the principles of democracy&quot;</Example>
     </Synset>
     <!-- ABCs, first principles, ABC's, alphabet, rudiments, ABC -->
@@ -44958,6 +44963,7 @@
       <SynsetRelation relType="hypernym" target="ewn-05881099-n"/> <!-- principle -->
       <SynsetRelation relType="holo_part" target="ewn-05986207-n"/> <!-- Daoism, Taoism -->
       <SynsetRelation relType="domain_topic" target="ewn-05986207-n"/> <!-- Daoism, Taoism -->
+      <SynsetRelation relType="similar" target="ewn-89312075-n"/>
     </Synset>
     <!-- Taoism, Hsuan Chiao -->
     <Synset id="ewn-06253226-n" ili="i69318" partOfSpeech="n" dc:subject="noun.cognition">
@@ -45209,6 +45215,11 @@
     <Synset id="ewn-85033452-n" ili="in" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>tendency to assert principles as undeniably true</Definition>
       <SynsetRelation relType="hypernym" target="ewn-06206319-n"/> <!-- inclination, disposition, tendency -->
+    </Synset>
+    <Synset id="ewn-89312075-n" ili="in" partOfSpeech="n" dc:subject="noun.cognition">
+      <Definition>basic principles of the cosmos in Hinduism, Buddhism, Sikhism, Jainism and other religions</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05881099-n"/> <!-- principle -->
+      <SynsetRelation relType="similar" target="ewn-06253100-n"/> <!-- Tao -->
     </Synset>
   </Lexicon>
 </LexicalResource>
