@@ -4546,6 +4546,22 @@
       <Lemma writtenForm="exchange energy" partOfSpeech="n"/>
       <Sense id="ewn-exchange_energy-n-92466652-00" n="2" synset="ewn-92466652-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-rated_voltage-n">
+      <Lemma writtenForm="rated voltage" partOfSpeech="n"/>
+      <Sense id="ewn-rated_voltage-n-92466863-00" n="2" synset="ewn-92466863-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tobacco_smoke-n">
+      <Lemma writtenForm="tobacco smoke" partOfSpeech="n"/>
+      <Sense id="ewn-tobacco_smoke-n-92419810-00" n="2" synset="ewn-92419810-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-dissociation_energy-n">
+      <Lemma writtenForm="dissociation energy" partOfSpeech="n"/>
+      <Sense id="ewn-dissociation_energy-n-92466354-00" n="2" synset="ewn-92466354-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-electric_energy-n">
+      <Lemma writtenForm="electric energy" partOfSpeech="n"/>
+      <Sense id="ewn-electric_energy-n-92466444-00" n="2" synset="ewn-92466444-n"/>
+    </LexicalEntry>
     <!-- natural phenomenon -->
     <Synset id="ewn-11428673-n" ili="i97550" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>all phenomena that are not artificial</Definition>
@@ -8706,6 +8722,23 @@
       <Definition>the energy involved in the exchange interaction.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
       <Example dc:source="https://en.wikipedia.org">Exchange energy splittings are very elusive to calculate for molecular systems at large internuclear distances.</Example>
+    </Synset>
+    <Synset id="ewn-92466863-n" ili="in" partOfSpeech="n" dc:subject="noun.phenomenon" dc:source="plWordNet 4.0">
+      <Definition>the maximum voltage that the circuit-breaker can interrupt safely and without being damaged by excessive arcing.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11514227-n"/> <!-- potential difference, potential, potential drop, electric potential, voltage -->
+    </Synset>
+    <Synset id="ewn-92419810-n" ili="in" partOfSpeech="n" dc:subject="noun.phenomenon" dc:source="plWordNet 4.0">
+      <Definition>smoke that is a result of combusting the products made from dried  tobacco leaves, such as cigarettes.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11528510-n"/> <!-- smoke, fume -->
+      <Example dc:source="https://en.wikipedia.org">You should quit smoking, don&apos;t you know that tobacco smoke contains harmful substances?</Example>
+    </Synset>
+    <Synset id="ewn-92466354-n" ili="in" partOfSpeech="n" dc:subject="noun.phenomenon" dc:source="plWordNet 4.0">
+      <Definition>the energy needed to break every chemical bond in a molecule and completely separate all its atoms.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
+    </Synset>
+    <Synset id="ewn-92466444-n" ili="in" partOfSpeech="n" dc:subject="noun.phenomenon" dc:source="plWordNet 4.0">
+      <Definition>(physics) the potential energy of an electric charge in an electric field, or of an electric current in a magnetic field.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
     </Synset>
   </Lexicon>
 </LexicalResource>

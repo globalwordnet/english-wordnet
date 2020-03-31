@@ -3221,6 +3221,38 @@
       <Lemma writtenForm="illative conjunction" partOfSpeech="n"/>
       <Sense id="ewn-illative_conjunction-n-92464491-00" n="2" synset="ewn-92464491-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-surjective_function-n">
+      <Lemma writtenForm="surjective function" partOfSpeech="n"/>
+      <Sense id="ewn-surjective_function-n-92438977-00" n="2" synset="ewn-92438977-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-onto_function-n">
+      <Lemma writtenForm="onto function" partOfSpeech="n"/>
+      <Sense id="ewn-onto_function-n-92438977-01" n="2" synset="ewn-92438977-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-surjection-n">
+      <Lemma writtenForm="surjection" partOfSpeech="n"/>
+      <Sense id="ewn-surjection-n-92438977-02" n="2" synset="ewn-92438977-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-heat_capacity_ratio-n">
+      <Lemma writtenForm="heat capacity ratio" partOfSpeech="n"/>
+      <Sense id="ewn-heat_capacity_ratio-n-92439903-00" n="2" synset="ewn-92439903-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-adiabatic_index-n">
+      <Lemma writtenForm="adiabatic index" partOfSpeech="n"/>
+      <Sense id="ewn-adiabatic_index-n-92439903-01" n="2" synset="ewn-92439903-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-present_perfect_continuous-n">
+      <Lemma writtenForm="present perfect continuous" partOfSpeech="n"/>
+      <Sense id="ewn-present_perfect_continuous-n-92462168-00" n="2" synset="ewn-92462168-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-present_perfect_progressive-n">
+      <Lemma writtenForm="present perfect progressive" partOfSpeech="n"/>
+      <Sense id="ewn-present_perfect_progressive-n-92462168-01" n="2" synset="ewn-92462168-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-oppositionality-n">
+      <Lemma writtenForm="oppositionality" partOfSpeech="n"/>
+      <Sense id="ewn-oppositionality-n-92419122-00" n="2" synset="ewn-92419122-n"/>
+    </LexicalEntry>
     <!-- dealings, relations -->
     <Synset id="ewn-13802661-n" ili="i109327" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
@@ -6033,6 +6065,26 @@
       <Definition>a conjunction that expresses something inferred from another statement or fact.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13821604-n"/> <!-- conjunction -->
       <Example>One could argue grammatically in favour of &quot;accordingly&quot; being an illative conjunction.</Example>
+    </Synset>
+    <Synset id="ewn-92438977-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>a mathematical function that is an onto mapping.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
+      <Example>In fact, if we define a ρ-kernel as the kernel of any surjection of the two graphs of interest, then there are ρ-kernels whose maximum excess does not vanish.</Example>
+    </Synset>
+    <Synset id="ewn-92439903-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>the ratio of the heat capacity at constant pressure (C_P) to heat capacity at constant volume (C_V).</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13841419-n"/> <!-- ratio -->
+      <Example>The experimental value for the heat capacity ratio of argon is the same as the theoretical heat capacity ratio.</Example>
+    </Synset>
+    <Synset id="ewn-92462168-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>A verb construction (made up of has been or have been plus the present participle) that emphasizes the ongoing nature of an action that began in the past and continues in the present.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13828352-n"/> <!-- perfective, perfect, perfective tense, perfect tense -->
+      <Example>The present perfect progressive tense usually conveys the meaning of recently or lately.</Example>
+    </Synset>
+    <Synset id="ewn-92419122-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>The quality of opposing or of being in conflict.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13879873-n"/> <!-- contradiction -->
+      <Example>At present the axis of political oppositionality is centered on the nuke issue, which however is defined by the power relations inherent in entire politics and society.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

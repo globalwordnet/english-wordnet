@@ -2802,6 +2802,30 @@
       <Lemma writtenForm="tangent curve" partOfSpeech="n"/>
       <Sense id="ewn-tangent_curve-n-92449693-00" n="2" synset="ewn-92449693-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-regular_pentagon-n">
+      <Lemma writtenForm="regular pentagon" partOfSpeech="n"/>
+      <Sense id="ewn-regular_pentagon-n-92471253-00" n="2" synset="ewn-92471253-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-accordion_fold-n">
+      <Lemma writtenForm="accordion fold" partOfSpeech="n"/>
+      <Sense id="ewn-accordion_fold-n-92423476-00" n="2" synset="ewn-92423476-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-zig-zag_fold-n">
+      <Lemma writtenForm="zig-zag fold" partOfSpeech="n"/>
+      <Sense id="ewn-zig-zag_fold-n-92423476-01" n="2" synset="ewn-92423476-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-z-fold-n">
+      <Lemma writtenForm="z-fold" partOfSpeech="n"/>
+      <Sense id="ewn-z-fold-n-92423476-02" n="2" synset="ewn-92423476-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-concertina_fold-n">
+      <Lemma writtenForm="concertina fold" partOfSpeech="n"/>
+      <Sense id="ewn-concertina_fold-n-92423476-03" n="2" synset="ewn-92423476-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-conchoid_of_Nicomedes-n">
+      <Lemma writtenForm="conchoid of Nicomedes" partOfSpeech="n"/>
+      <Sense id="ewn-conchoid_of_Nicomedes-n-92440988-00" n="2" synset="ewn-92440988-n"/>
+    </LexicalEntry>
     <!-- solid -->
     <Synset id="ewn-13882990-n" ili="i109764" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a three-dimensional shape</Definition>
@@ -5125,6 +5149,22 @@
       <Definition>a plane curve that is the graph of the equation y = tan x, where x is an angle.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
       <Example>The shape of the tangent curve is the same for each full rotation of the angle and so the function is called &apos;periodic&apos;.</Example>
+    </Synset>
+    <Synset id="ewn-92471253-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a pentagon in which the angles are all equal, and the sides all equal.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13904858-n"/> <!-- pentagon -->
+      <SynsetRelation relType="hypernym" target="ewn-13889754-n"/> <!-- regular polygon -->
+      <Example>A regular pentagon has five lines of reflectional symmetry, and rotational symmetry of order 5 (through 72°, 144°, 216° and 288°).</Example>
+    </Synset>
+    <Synset id="ewn-92423476-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a continuous parallel folding in an accordion-like fashion, that is with folds alternatively made to the front and back in zig-zag folds.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13930429-n"/> <!-- fold, flexure, plication, crimp, bend, crease -->
+      <Example dc:source="https://en.wikipedia.org">Seen from above, concertina folds resemble a Z or M or series of zigs and zags.</Example>
+    </Synset>
+    <Synset id="ewn-92440988-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>the conchoid of a straight line with respect to a point not on the line.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-92440987-n"/>
+      <Example>the conchoid of a straight line with respect to a point not on the line.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

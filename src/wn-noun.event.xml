@@ -8998,6 +8998,14 @@
       <Sense id="ewn-adiaphoron-n-92438761-00" n="3" synset="ewn-92438761-n"/>
       <Sense id="ewn-adiaphoron-n-92438760-00" n="4" synset="ewn-92438760-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-decelerated_motion-n">
+      <Lemma writtenForm="decelerated motion" partOfSpeech="n"/>
+      <Sense id="ewn-decelerated_motion-n-92443554-00" n="2" synset="ewn-92443554-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-uniformly_decelerated_motion-n">
+      <Lemma writtenForm="uniformly decelerated motion" partOfSpeech="n"/>
+      <Sense id="ewn-uniformly_decelerated_motion-n-92443555-00" n="2" synset="ewn-92443555-n"/>
+    </LexicalEntry>
     <!-- might-have-been -->
     <Synset id="ewn-07298069-n" ili="i74968" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an event that could have occurred but never did</Definition>
@@ -16143,6 +16151,17 @@
       <Definition>a religious ceremonial or ritual observance that is held to be an affair of the individual conscience because it is neither forbidden nor enjoined by the scriptures.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07465442-n"/> <!-- ceremonial, ceremonial occasion, ceremony, observance -->
       <Example> For all of the wild-eyed (and completely sectarian) assertions floating around the LCMS that ordination is a mere adiaphoron, that &quot;laying on of hands&quot; does not mean ritual ordination but rather a democratic election, that ordination confers nothing - I have yet to ever read about anyone actually graduating seminary and taking a call to a congregation and choosing to forgo the rite of ordination.</Example>
+    </Synset>
+    <Synset id="ewn-92443554-n" ili="in" partOfSpeech="n" dc:subject="noun.event" dc:source="plWordNet 4.0">
+      <Definition>(mechanics) Motion with a continually decreasing velocity.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07324399-n"/> <!-- motion, movement -->
+      <SynsetRelation relType="hyponym" target="ewn-92443555-n"/>
+      <Example>From this it becomes clear that the doubly decelerated motion may be constructed either by subtracting a simply accelerated motion from a simply decelerated one, or by subtracting a doubly accelerated motion from a uniform one.</Example>
+    </Synset>
+    <Synset id="ewn-92443555-n" ili="in" partOfSpeech="n" dc:subject="noun.event" dc:source="plWordNet 4.0">
+      <Definition>(mechanics) Motion with a constant, continually decreasing velocity.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-92443554-n"/>
+      <Example>Read from bottom to top, it represents the overall distances traversed by a uniformly decelerated motion after an increasing number of equal time intervals.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

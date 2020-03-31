@@ -10251,6 +10251,38 @@
       <Lemma writtenForm="pangen" partOfSpeech="n"/>
       <Sense id="ewn-pangen-n-92467890-00" n="2" synset="ewn-92467890-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-mu_neutrino-n">
+      <Lemma writtenForm="mu neutrino" partOfSpeech="n"/>
+      <Sense id="ewn-mu_neutrino-n-92467921-00" n="2" synset="ewn-92467921-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-muon_neutrino-n">
+      <Lemma writtenForm="muon neutrino" partOfSpeech="n"/>
+      <Sense id="ewn-muon_neutrino-n-92467921-01" n="2" synset="ewn-92467921-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-guide_plate-n">
+      <Lemma writtenForm="guide plate" partOfSpeech="n"/>
+      <Sense id="ewn-guide_plate-n-92435392-00" n="2" synset="ewn-92435392-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-auto-blocking_belay_device-n">
+      <Lemma writtenForm="auto-blocking belay device" partOfSpeech="n"/>
+      <Sense id="ewn-auto-blocking_belay_device-n-92435392-01" n="2" synset="ewn-92435392-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tubular_device-n">
+      <Lemma writtenForm="tubular device" partOfSpeech="n"/>
+      <Sense id="ewn-tubular_device-n-92435395-00" n="2" synset="ewn-92435395-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-grey_body-n">
+      <Lemma writtenForm="grey body" partOfSpeech="n"/>
+      <Sense id="ewn-grey_body-n-92462504-00" n="2" synset="ewn-92462504-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-gray_body-n">
+      <Lemma writtenForm="gray body" partOfSpeech="n"/>
+      <Sense id="ewn-gray_body-n-92462504-01" n="2" synset="ewn-92462504-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-clanker-n">
+      <Lemma writtenForm="clanker" partOfSpeech="n"/>
+      <Sense id="ewn-clanker-n-92464675-00" n="2" synset="ewn-92464675-n"/>
+    </LexicalEntry>
     <!-- Aare, Aare River, Aar -->
     <Synset id="ewn-09208961-n" ili="i84918" partOfSpeech="n" dc:subject="noun.object">
       <Definition>a river in north central Switzerland that runs northeast into the Rhine</Definition>
@@ -21838,6 +21870,29 @@
     <Synset id="ewn-92467890-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
       <Definition>a hypothetical heredity-controlling particle of protoplasm.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09294991-n"/> <!-- elementary particle, fundamental particle -->
+    </Synset>
+    <Synset id="ewn-92467921-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>the neutrino associated with the muon.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09392309-n"/> <!-- neutrino -->
+      <Example dc:source="https://en.wikipedia.org">In 1962, Leon M. Lederman, Melvin Schwartz and Jack Steinberger showed that more than one type of neutrino exists by first detecting interactions of the muon neutrino (already hypothesised with the name neutretto), which earned them the 1988 Nobel Prize in Physics.</Example>
+    </Synset>
+    <Synset id="ewn-92435392-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>a metal plate with an elongated slot for the bight to go through and then a carabiner is attached so that when pull from the climber occurs the carabiner will be pulled to lock off the device.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09241401-n"/> <!-- belay -->
+    </Synset>
+    <Synset id="ewn-92435395-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>a tubular or rectangular belay device, used for arresting the fall of a climber, and for rappelling.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09241401-n"/> <!-- belay -->
+      <Example>A tubular device creates more surface area to dissipate heat and has the ability to create sharper angles than the Sticht plate.</Example>
+    </Synset>
+    <Synset id="ewn-92462504-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
+      <Definition>a body that emits radiation in constant proportion to the corresponding black-body radiation.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
+      <Example dc:source="https://en.wikipedia.org"> A source with lower emissivity independent of frequency often is referred to as a gray body.</Example>
+    </Synset>
+    <Synset id="ewn-92464675-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
+      <Definition>something that makes a clanking noise.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
     </Synset>
   </Lexicon>
 </LexicalResource>
