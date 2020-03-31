@@ -350,6 +350,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
     members = {}
     wn_ss = parse_wordnet("src/wn-%s.xml" % lexfile)
     wn_ss.add_synset(ss)
+    wn.add_synset(ss)
     with open("src/wn-%s.xml" % lexfile, "w") as outp:
         wn_ss.to_xml(outp, True)
 
@@ -362,6 +363,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
         for m in wn.members_by_id(s.id):
             if m not in members:
                 members[m] = add_entry(wn_ss, ss, m)
+                add_entry(wn, ss, m)
             e = [e for e in [wn.entry_by_id(e2) for e2 in wn.entry_by_lemma(m)]
                     if e.lemma.part_of_speech.value == pos][0]
             for f in e.forms:
