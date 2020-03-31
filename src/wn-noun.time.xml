@@ -7554,6 +7554,38 @@
       <Lemma writtenForm="solar time" partOfSpeech="n"/>
       <Sense id="ewn-solar_time-n-92406053-00" n="2" synset="ewn-92406053-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Maha-Yuga-n">
+      <Lemma writtenForm="Maha-Yuga" partOfSpeech="n"/>
+      <Sense id="ewn-Maha-Yuga-n-92440709-00" n="2" synset="ewn-92440709-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-Mahayuga-n">
+      <Lemma writtenForm="Mahayuga" partOfSpeech="n"/>
+      <Sense id="ewn-Mahayuga-n-92440709-01" n="2" synset="ewn-92440709-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-kilometers_per_second-n">
+      <Lemma writtenForm="kilometers per second" partOfSpeech="n"/>
+      <Sense id="ewn-kilometers_per_second-n-92416943-00" n="2" synset="ewn-92416943-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-km-sl-s-n">
+      <Lemma writtenForm="km/s" partOfSpeech="n"/>
+      <Sense id="ewn-km-sl-s-n-92416943-01" n="2" synset="ewn-92416943-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-kilometres_per_second-n">
+      <Lemma writtenForm="kilometres per second" partOfSpeech="n"/>
+      <Sense id="ewn-kilometres_per_second-n-92416943-02" n="2" synset="ewn-92416943-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-winter_break-n">
+      <Lemma writtenForm="winter break" partOfSpeech="n"/>
+      <Sense id="ewn-winter_break-n-92441551-00" n="2" synset="ewn-92441551-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-autumn_years-n">
+      <Lemma writtenForm="autumn years" partOfSpeech="n"/>
+      <Sense id="ewn-autumn_years-n-92426913-00" n="2" synset="ewn-92426913-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-chronostratigraphic_unit-n">
+      <Lemma writtenForm="chronostratigraphic unit" partOfSpeech="n"/>
+      <Sense id="ewn-chronostratigraphic_unit-n-92422856-00" n="2" synset="ewn-92422856-n"/>
+    </LexicalEntry>
     <!-- time period, period, period of time -->
     <Synset id="ewn-15137796-n" ili="i116632" partOfSpeech="n" dc:subject="noun.time">
       <Definition>an amount of time</Definition>
@@ -14934,6 +14966,34 @@
       <Definition>a reckoning of the passage of time based on the Sun&apos;s position in the sky.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028468-n"/> <!-- time -->
       <Example>In September the Sun takes less time (as measured by an accurate clock) to make an apparent revolution than it does in December; 24 &quot;hours&quot; of solar time can be 21 seconds less or 29 seconds more than 24 hours of clock time.</Example>
+    </Synset>
+    <Synset id="ewn-92440709-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="plWordNet 4.0">
+      <Definition>A Mahayuga is a Hindu unit of time.</Definition>
+      <SynsetRelation relType="mero_part" target="ewn-92440469-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-15313066-n"/> <!-- round, cycle, rhythm -->
+      <SynsetRelation relType="hypernym" target="ewn-15179734-n"/> <!-- time unit, unit of time -->
+      <Example>One full cycle of four Yugas is one Mahā-Yuga (4.32 million solar years).</Example>
+    </Synset>
+    <Synset id="ewn-92416943-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="plWordNet 4.0">
+      <Definition>the ratio of the distance traveled (in kilometers) to the time spent traveling (in seconds).</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15311467-n"/> <!-- rate -->
+      <Example>Light travels in vacuum at the speed of almost 300,000 kilometers per second.</Example>
+    </Synset>
+    <Synset id="ewn-92441551-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="plWordNet 4.0">
+      <Definition>A school holiday in winter, the date and duration of which depends on the country.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15162842-n"/> <!-- holiday, vacation -->
+      <SynsetRelation relType="holo_part" target="ewn-15228361-n"/> <!-- academic year, school year -->
+      <Example dc:source="https://en.wikipedia.org">The Chinese New Year is also a school holiday called winter holiday or winter break, which usually last 1 month.</Example>
+    </Synset>
+    <Synset id="ewn-92426913-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="plWordNet 4.0">
+      <Definition>(literary) the later years of one&apos;s life, especially after one has finished their career.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15178747-n"/> <!-- geezerhood, old age, eld, age, years -->
+      <Example>He spent his autumn years surrounded by family and friends.</Example>
+    </Synset>
+    <Synset id="ewn-92422856-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
+      <Definition>a segment of rock formed during a particular interval of geologic time.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00033914-n"/> <!-- amount, quantity, measure -->
+      <Example dc:source="https://en.wikipedia.org">Chronostratigraphic units are geological material, so it is correct to say that fossils of the species Tyrannosaurus rex have been found in the Upper Cretaceous Series.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -15724,6 +15724,34 @@
       <Lemma writtenForm="vitellarium" partOfSpeech="n"/>
       <Sense id="ewn-vitellarium-n-92436650-00" n="2" synset="ewn-92436650-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-spinous_process-n">
+      <Lemma writtenForm="spinous process" partOfSpeech="n"/>
+      <Sense id="ewn-spinous_process-n-92435682-00" n="2" synset="ewn-92435682-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-second_molar-n">
+      <Lemma writtenForm="second molar" partOfSpeech="n"/>
+      <Sense id="ewn-second_molar-n-92435690-00" n="2" synset="ewn-92435690-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-retractor_muscle-n">
+      <Lemma writtenForm="retractor muscle" partOfSpeech="n"/>
+      <Sense id="ewn-retractor_muscle-n-92437389-00" n="2" synset="ewn-92437389-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-otolith_organ-n">
+      <Lemma writtenForm="otolith organ" partOfSpeech="n"/>
+      <Sense id="ewn-otolith_organ-n-92437110-00" n="2" synset="ewn-92437110-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-neurofibril-n">
+      <Lemma writtenForm="neurofibril" partOfSpeech="n"/>
+      <Sense id="ewn-neurofibril-n-92436642-00" n="2" synset="ewn-92436642-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-maxillary_palpus-n">
+      <Lemma writtenForm="maxillary palpus" partOfSpeech="n"/>
+      <Sense id="ewn-maxillary_palpus-n-92437139-00" n="2" synset="ewn-92437139-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-labial_palpus-n">
+      <Lemma writtenForm="labial palpus" partOfSpeech="n"/>
+      <Sense id="ewn-labial_palpus-n-92437141-00" n="2" synset="ewn-92437141-n"/>
+    </LexicalEntry>
     <!-- organic structure, body -->
     <Synset id="ewn-05223633-n" ili="i64381" partOfSpeech="n" dc:subject="noun.body">
       <Definition>the entire physical structure of an organism (an animal, plant, or human being)</Definition>
@@ -30164,6 +30192,42 @@
       <Definition>A modified part of the ovary that in many flatworms and rotifers produces yolk-filled cells serving to nourish the true eggs.</Definition>
       <SynsetRelation relType="holo_part" target="ewn-01927557-n"/>
       <SynsetRelation relType="hypernym" target="ewn-05335315-n"/> <!-- secretor, secreter, gland, secretory organ -->
+    </Synset>
+    <Synset id="ewn-92435682-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>a process projecting from the vertebra that attaches muscles and ligaments.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05477841-n"/> <!-- outgrowth, appendage, process -->
+      <SynsetRelation relType="holo_part" target="ewn-05291832-n"/> <!-- vertebra -->
+      <Example dc:source="https://en.wikipedia.org">Spinous processes are exaggerated in some animals, such as the extinct Dimetrodon and Spinosaurus, where they form a sailback or finback.</Example>
+    </Synset>
+    <Synset id="ewn-92435690-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>The seventh permanent tooth located in the upper and lower jaw on either side.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05315272-n"/> <!-- molar, grinder -->
+      <Example>The dentist told me there&apos;s a cavity in my second molar.</Example>
+    </Synset>
+    <Synset id="ewn-92437389-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>Any of various muscles that retract an organ or a body part.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05296796-n"/> <!-- muscle, musculus -->
+      <Example dc:source="https://en.wikipedia.org">The retractor muscle contracts to retract the penis into the sheath and relaxes to allow the penis to extend from the sheath.</Example>
+    </Synset>
+    <Synset id="ewn-92437110-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>Either utricle or saccule in the inner ear of vertebrates.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05305022-n"/> <!-- organ -->
+    </Synset>
+    <Synset id="ewn-92436642-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>Any of the long, thin, microscopic fibrils that run through the body of a neuron and extend into the axon and dendrites, giving the neuron support and shape.</Definition>
+      <SynsetRelation relType="holo_part" target="ewn-05473219-n"/> <!-- neuron, nerve cell -->
+      <SynsetRelation relType="hypernym" target="ewn-05471756-n"/> <!-- nerve fibre, nerve fiber -->
+      <Example dc:source="https://en.wikipedia.org">The term neurofibril refers to a bundle of neurofilaments.</Example>
+    </Synset>
+    <Synset id="ewn-92437139-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>A maxillary palpus is a small several-segmented process on the outer aspect of each maxilla of an insect that is believed to have a sensory function.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05477841-n"/> <!-- outgrowth, appendage, process -->
+      <SynsetRelation relType="hypernym" target="ewn-01771449-n"/> <!-- mouthpart -->
+    </Synset>
+    <Synset id="ewn-92437141-n" ili="in" partOfSpeech="n" dc:subject="noun.body" dc:source="plWordNet 4.0">
+      <Definition>A labial palpus is either of the jointed appendages on the front of the mentum of an insect.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05477841-n"/> <!-- outgrowth, appendage, process -->
+      <SynsetRelation relType="hypernym" target="ewn-01771449-n"/> <!-- mouthpart -->
     </Synset>
   </Lexicon>
 </LexicalResource>

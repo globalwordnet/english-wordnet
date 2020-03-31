@@ -3253,6 +3253,34 @@
       <Lemma writtenForm="oppositionality" partOfSpeech="n"/>
       <Sense id="ewn-oppositionality-n-92419122-00" n="2" synset="ewn-92419122-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-reserve_ratio-n">
+      <Lemma writtenForm="reserve ratio" partOfSpeech="n"/>
+      <Sense id="ewn-reserve_ratio-n-92411756-00" n="2" synset="ewn-92411756-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-cash_reserve_ratio-n">
+      <Lemma writtenForm="cash reserve ratio" partOfSpeech="n"/>
+      <Sense id="ewn-cash_reserve_ratio-n-92411756-01" n="2" synset="ewn-92411756-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-required_reserve_ratio-n">
+      <Lemma writtenForm="required reserve ratio" partOfSpeech="n"/>
+      <Sense id="ewn-required_reserve_ratio-n-92411756-02" n="2" synset="ewn-92411756-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-homothecy-n">
+      <Lemma writtenForm="homothecy" partOfSpeech="n"/>
+      <Sense id="ewn-homothecy-n-92440136-00" n="2" synset="ewn-92440136-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-homothety-n">
+      <Lemma writtenForm="homothety" partOfSpeech="n"/>
+      <Sense id="ewn-homothety-n-92440136-01" n="2" synset="ewn-92440136-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-antilogism-n">
+      <Lemma writtenForm="antilogism" partOfSpeech="n"/>
+      <Sense id="ewn-antilogism-n-92443234-00" n="2" synset="ewn-92443234-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-middle_voice-n">
+      <Lemma writtenForm="middle voice" partOfSpeech="n"/>
+      <Sense id="ewn-middle_voice-n-92470589-00" n="2" synset="ewn-92470589-n"/>
+    </LexicalEntry>
     <!-- dealings, relations -->
     <Synset id="ewn-13802661-n" ili="i109327" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
@@ -6085,6 +6113,26 @@
       <Definition>The quality of opposing or of being in conflict.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13879873-n"/> <!-- contradiction -->
       <Example>At present the axis of political oppositionality is centered on the nuke issue, which however is defined by the power relations inherent in entire politics and society.</Example>
+    </Synset>
+    <Synset id="ewn-92411756-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>a percentage of the bank&apos;s total deposits, kept to ensure that the bank is able to pay an unusually high number of withdrawals on demand accounts should that event occur.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13841419-n"/> <!-- ratio -->
+      <Example dc:source="https://en.wikipedia.org">The required reserve ratio is sometimes used as a tool in monetary policy, influencing the country&apos;s borrowing and interest rates by changing the amount of funds available for banks to make loans with.</Example>
+    </Synset>
+    <Synset id="ewn-92440136-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>(mathematics) an isotropic scaling transformation of an affine space with a single fixed point.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
+      <Example>Successive applications of homotheties with coefficients k1 and k2 is either a homothety with coefficient k1k2, if the latter differs from 1, or a parallel translation, otherwise.</Example>
+    </Synset>
+    <Synset id="ewn-92443234-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>an inconsistent triad of propositions in logic of which two are premises of a valid syllogism while the third is the contradictory of its conclusion.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13805250-n"/> <!-- logical relation -->
+      <Example>Diagram the premises and the negation of the conclusion; the argument is valid iff the resulting diagram is an antilogism (ie, it&apos;s inconsistent).</Example>
+    </Synset>
+    <Synset id="ewn-92470589-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>(grammar) The form in which the subject of a verb performs some action upon itself.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13825132-n"/> <!-- voice -->
+      <Example>The middle voice is said to be in the middle between the active and the passive voices because the subject often cannot be categorized as either agent or patient but may have elements of both.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -10283,6 +10283,18 @@
       <Lemma writtenForm="clanker" partOfSpeech="n"/>
       <Sense id="ewn-clanker-n-92464675-00" n="2" synset="ewn-92464675-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-supraglacial_moraine-n">
+      <Lemma writtenForm="supraglacial moraine" partOfSpeech="n"/>
+      <Sense id="ewn-supraglacial_moraine-n-92430034-00" n="2" synset="ewn-92430034-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-ablation_moraine-n">
+      <Lemma writtenForm="ablation moraine" partOfSpeech="n"/>
+      <Sense id="ewn-ablation_moraine-n-92433188-00" n="2" synset="ewn-92433188-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-Sticht_plate-n">
+      <Lemma writtenForm="Sticht plate" partOfSpeech="n"/>
+      <Sense id="ewn-Sticht_plate-n-92435386-00" n="2" synset="ewn-92435386-n"/>
+    </LexicalEntry>
     <!-- Aare, Aare River, Aar -->
     <Synset id="ewn-09208961-n" ili="i84918" partOfSpeech="n" dc:subject="noun.object">
       <Definition>a river in north central Switzerland that runs northeast into the Rhine</Definition>
@@ -21893,6 +21905,20 @@
     <Synset id="ewn-92464675-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
       <Definition>something that makes a clanking noise.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
+    </Synset>
+    <Synset id="ewn-92430034-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>a moraine created by debris accumulated on top of glacial ice.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09381804-n"/> <!-- moraine -->
+      <Example>The debris can accumulate due to ice flow toward the surface in the ablation zone, melting of surface ice or from debris that falls onto the glacier from valley sidewalls, forming superglacial moraines.</Example>
+    </Synset>
+    <Synset id="ewn-92433188-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>a layer of rock particles overlying ice in the ablation of a glacier.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09381804-n"/> <!-- moraine -->
+    </Synset>
+    <Synset id="ewn-92435386-n" ili="in" partOfSpeech="n" dc:subject="noun.object" dc:source="plWordNet 4.0">
+      <Definition>the first mechanical rope brake consisting of a small metal plate with a slot that allows a bight of rope to pass through to a locking carabiner and back out.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-09241401-n"/> <!-- belay -->
+      <Example dc:source="https://en.wikipedia.org">Sticht plates have become less popular since more modern designs provide smoother control over the rope and are less prone to jamming, especially when doubling as a descender.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -9006,6 +9006,14 @@
       <Lemma writtenForm="uniformly decelerated motion" partOfSpeech="n"/>
       <Sense id="ewn-uniformly_decelerated_motion-n-92443555-00" n="2" synset="ewn-92443555-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-malacophily-n">
+      <Lemma writtenForm="malacophily" partOfSpeech="n"/>
+      <Sense id="ewn-malacophily-n-92422801-00" n="2" synset="ewn-92422801-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-motion_with_variable_acceleration-n">
+      <Lemma writtenForm="motion with variable acceleration" partOfSpeech="n"/>
+      <Sense id="ewn-motion_with_variable_acceleration-n-92443558-00" n="2" synset="ewn-92443558-n"/>
+    </LexicalEntry>
     <!-- might-have-been -->
     <Synset id="ewn-07298069-n" ili="i74968" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an event that could have occurred but never did</Definition>
@@ -16162,6 +16170,16 @@
       <Definition>(mechanics) Motion with a constant, continually decreasing velocity.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-92443554-n"/>
       <Example>Read from bottom to top, it represents the overall distances traversed by a uniformly decelerated motion after an increasing number of equal time intervals.</Example>
+    </Synset>
+    <Synset id="ewn-92422801-n" ili="in" partOfSpeech="n" dc:subject="noun.event" dc:source="plWordNet 4.0">
+      <Definition>(botany) pollination of plants by snails.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07451972-n"/> <!-- pollination, pollenation -->
+      <Example>Malacophily is among the rarest instances of pollination.</Example>
+    </Synset>
+    <Synset id="ewn-92443558-n" ili="in" partOfSpeech="n" dc:subject="noun.event" dc:source="plWordNet 4.0">
+      <Definition>(mechanics) any motion whose acceleration is not constant, due to the fact that the force causing it is not constant.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07324399-n"/> <!-- motion, movement -->
+      <Example>Time-varying net force must be present to cause motion with variable acceleration along that one coordinate.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
