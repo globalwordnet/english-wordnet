@@ -20194,6 +20194,10 @@
       <Lemma writtenForm="tweet" partOfSpeech="v"/>
       <Sense id="ewn-tweet-v-90000001-01" n="2" synset="ewn-90000001-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-tweet-v">
+      <Lemma writtenForm="tweet" partOfSpeech="v"/>
+      <Sense id="ewn-tweet-v-92759899-00" n="4" synset="ewn-92759899-v"/>
+    </LexicalEntry>
     <!-- communicate, intercommunicate -->
     <Synset id="ewn-00742582-v" ili="i25403" partOfSpeech="v" dc:subject="verb.communication">
       <Definition>transmit thoughts or feelings</Definition>
@@ -28429,6 +28433,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01066821-v"/> <!-- make out, cut, issue, write out -->
       <SynsetRelation relType="hyponym" target="ewn-01070156-v"/> <!-- write up -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01008855-v"/> <!-- correspond -->
+      <SynsetRelation relType="hyponym" target="ewn-92759899-v"/>
       <Example>&quot;He wrote about his great love for his wife&quot;</Example>
     </Synset>
     <!-- write in -->
@@ -31142,6 +31147,10 @@
     <Synset id="ewn-90000001-v" ili="in" partOfSpeech="v" dc:subject="verb.communication" dc:source="Colloquial WordNet">
       <Definition>To post a message on Twitter</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01073654-v"/> <!-- message -->
+    </Synset>
+    <Synset id="ewn-92759899-v" ili="in" partOfSpeech="v" dc:subject="verb.communication" dc:source="plWordNet 4.0">
+      <Definition>post tweets, i.e. short text messages on the popular social media website Twitter</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00995046-v"/> <!-- write -->
     </Synset>
   </Lexicon>
 </LexicalResource>

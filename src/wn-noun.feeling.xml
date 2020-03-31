@@ -4412,6 +4412,18 @@
         <SenseRelation relType="derivation" target="ewn-nauseate-v-01812341-03"/> <!-- sicken, revolt, churn up, nauseate, disgust -->
         </Sense>
     </LexicalEntry>
+    <LexicalEntry id="ewn-overzealousness-n">
+      <Lemma writtenForm="overzealousness" partOfSpeech="n"/>
+      <Sense id="ewn-overzealousness-n-92426918-00" n="2" synset="ewn-92426918-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-overzeal-n">
+      <Lemma writtenForm="overzeal" partOfSpeech="n"/>
+      <Sense id="ewn-overzeal-n-92426918-01" n="2" synset="ewn-92426918-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-ancestor_worship-n">
+      <Lemma writtenForm="ancestor worship" partOfSpeech="n"/>
+      <Sense id="ewn-ancestor_worship-n-92439213-00" n="3" synset="ewn-92439213-n"/>
+    </LexicalEntry>
     <!-- affect -->
     <Synset id="ewn-07495066-n" ili="i76042" partOfSpeech="n" dc:subject="noun.feeling">
       <Definition>the conscious subjective aspect of feeling or emotion</Definition>
@@ -4492,6 +4504,7 @@
     <Synset id="ewn-07496925-n" ili="i76053" partOfSpeech="n" dc:subject="noun.feeling">
       <Definition>excessive fervor to do something or accomplish some end</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07496515-n"/> <!-- ardor, ardour, fervency, fervor, fervidness, fervour, fire -->
+      <SynsetRelation relType="hyponym" target="ewn-92426918-n"/>
       <Example>&quot;he had an absolute zeal for litigation&quot;</Example>
     </Synset>
     <!-- sentiment -->
@@ -5215,6 +5228,7 @@
     <Synset id="ewn-07516659-n" ili="i76166" partOfSpeech="n" dc:subject="noun.feeling">
       <Definition>a feeling of profound love and admiration</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07558676-n"/> <!-- love -->
+      <SynsetRelation relType="hyponym" target="ewn-92439213-n"/>
     </Synset>
     <!-- dislike -->
     <Synset id="ewn-07516784-n" ili="i76167" partOfSpeech="n" dc:subject="noun.feeling">
@@ -7169,6 +7183,16 @@
     <Synset id="ewn-07571340-n" ili="i76469" partOfSpeech="n" dc:subject="noun.feeling">
       <Definition>enthusiasm for new technology</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07570579-n"/> <!-- enthusiasm -->
+    </Synset>
+    <Synset id="ewn-92426918-n" ili="in" partOfSpeech="n" dc:subject="noun.feeling" dc:source="plWordNet 4.0">
+      <Definition>The quality of being excessively zealous.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07496925-n"/> <!-- zeal -->
+      <Example>We are aware of the public concern for any sort of overzealousness by the law-enforcement people that can cause some embarrassment.</Example>
+    </Synset>
+    <Synset id="ewn-92439213-n" ili="in" partOfSpeech="n" dc:subject="noun.feeling" dc:source="plWordNet 4.0">
+      <Definition>the custom of venerating deceased ancestors who are considered still a part of the family and whose spirits are believed to have the power to intervene in the affairs of the living.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07516659-n"/> <!-- adoration, worship -->
+      <Example>Most of the historically known practices of ancestor worship in Japan are adaptations of Chinese customs.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
