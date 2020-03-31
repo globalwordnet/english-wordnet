@@ -165,7 +165,7 @@ class Sense:
 
 class Synset:
     """The synset is a collection of synonyms"""
-    def __init__(self, id, ili, part_of_speech, lex_name):
+    def __init__(self, id, ili, part_of_speech, lex_name, source=None):
         self.id = id
         self.ili = ili
         self.part_of_speech = part_of_speech
@@ -174,6 +174,7 @@ class Synset:
         self.ili_definition = None
         self.synset_relations = []
         self.examples = []
+        self.source = source
 
     def add_definition(self, definition, is_ili=False):
         if is_ili:
@@ -193,8 +194,11 @@ class Synset:
         if self.id in comments:
             xml_file.write("""    <!-- %s -->
 """ % comments[self.id])
-        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s">
-""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name))
+        source_tag = ""
+        if self.source:
+            source_tag = " dc:source=\"%s\"" % (self.source)
+        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
+""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name, source_tag))
         for defn in self.definitions:
             defn.to_xml(xml_file)
         if self.ili_definition:
@@ -495,7 +499,8 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),
-                attrs.get("dc:subject",""))
+                attrs.get("dc:subject",""),
+                attrs.get("dc:source",""))
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
