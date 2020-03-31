@@ -1976,6 +1976,7 @@
       <Lemma writtenForm="fix" partOfSpeech="v"/>
       <Sense id="ewn-fix-v-01651085-01" n="5" synset="ewn-01651085-v" dc:identifier="fix%2:36:01::"/>
       <Sense id="ewn-fix-v-01668067-02" n="3" synset="ewn-01668067-v" dc:identifier="fix%2:36:00::"/>
+      <Sense id="ewn-fix-v-90000281-01" n="12" synset="ewn-90000281-v"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-fix-v-01651085-01 ewn-fix-v-01668067-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-fix-v-01651085-01"/>
     </LexicalEntry>
@@ -7423,6 +7424,22 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-start_up-v-01654152-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-start_up-v-01654152-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-bump-v">
+      <Lemma writtenForm="bump" partOfSpeech="v"/>
+      <Sense id="ewn-bump-v-90019491-01" n="6" synset="ewn-90019491-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-photoshop-v">
+      <Lemma writtenForm="photoshop" partOfSpeech="v"/>
+      <Sense id="ewn-photoshop-v-91000421-01" n="0" synset="ewn-91000421-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-slap-v">
+      <Lemma writtenForm="slap" partOfSpeech="v"/>
+      <Sense id="ewn-slap-v-90014711-01" n="1" synset="ewn-90014711-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-twerk-v">
+      <Lemma writtenForm="twerk" partOfSpeech="v"/>
+      <Sense id="ewn-twerk-v-90000471-01" n="0" synset="ewn-90000471-v"/>
+    </LexicalEntry>
     <!-- make, create -->
     <Synset id="ewn-01620211-v" ili="i29849" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make or cause to be or to become</Definition>
@@ -12663,6 +12680,27 @@
       <Definition>play music in a public place and solicit money for it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01728928-v"/> <!-- play -->
       <Example>&quot;three young men were busking in the plaza&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90019491-v" ili="in" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+      <Definition>to play music at loud volume</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01730049-v"/> <!-- play -->
+    </Synset>
+    <Synset id="ewn-90000281-v" ili="in" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+      <Definition>to be about to do something</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01654986-v"/> <!-- organize, organise, machinate, prepare, devise, get up -->
+      <SynsetRelation relType="domain_region" target="ewn-06960420-n"/>
+    </Synset>
+    <Synset id="ewn-91000421-v" ili="in" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+      <Definition>To digitally alter a photo</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01671027-v"/> <!-- alter -->
+    </Synset>
+    <Synset id="ewn-90014711-v" ili="in" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+      <Definition>To play music loudly</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01730049-v"/> <!-- play -->
+    </Synset>
+    <Synset id="ewn-90000471-v" ili="in" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+      <Definition>to dance with thrusting hip movements and a low squatting stance</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01712535-v"/> <!-- trip the light fantastic, trip the light fantastic toe, dance -->
     </Synset>
   </Lexicon>
 </LexicalResource>

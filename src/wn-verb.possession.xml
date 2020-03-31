@@ -7801,6 +7801,8 @@
       <Sense id="ewn-follow-v-02351891-02" n="8" synset="ewn-02351891-v" dc:identifier="follow%2:40:00::">
         <SenseRelation relType="derivation" target="ewn-following-n-08240184-01"/> <!-- following, followers -->
         </Sense>
+      <Sense id="ewn-follow-v-90000201-01" n="24" synset="ewn-90000201-v"/>
+      <Sense id="ewn-follow-v-90000231-01" n="25" synset="ewn-90000231-v"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-follow-v-02351891-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-excise-v">
@@ -8902,6 +8904,14 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-pay_up-v-02257739-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-pay_up-v-02257739-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-follback-v">
+      <Lemma writtenForm="follback" partOfSpeech="v"/>
+      <Sense id="ewn-follback-v-90000191-01" n="0" synset="ewn-90000191-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-trap-v">
+      <Lemma writtenForm="trap" partOfSpeech="v"/>
+      <Sense id="ewn-trap-v-90005881-01" n="4" synset="ewn-90005881-v"/>
     </LexicalEntry>
     <!-- give -->
     <Synset id="ewn-02204104-v" ili="i32755" partOfSpeech="v" dc:subject="verb.possession">
@@ -14936,6 +14946,24 @@
       <Definition>provide with headquarters</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02332196-v"/> <!-- supply, render, furnish, provide -->
       <Example>&quot;the company is headquartered in New Jersey&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90000191-v" ili="in" partOfSpeech="v" dc:subject="verb.possession" dc:source="Colloquial WordNet">
+      <Definition>to return someone&apos;s following of you on a social media platform</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-90000231-v"/>
+    </Synset>
+    <Synset id="ewn-90000201-v" ili="in" partOfSpeech="v" dc:subject="verb.possession" dc:source="Colloquial WordNet">
+      <Definition>to subscribe to someone&apos;s updates on social media</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02214527-v"/> <!-- subscribe to, subscribe, take -->
+      <SynsetRelation relType="domain_topic" target="ewn-90000431-n"/>
+    </Synset>
+    <Synset id="ewn-90000231-v" ili="in" partOfSpeech="v" dc:subject="verb.possession" dc:source="Colloquial WordNet">
+      <Definition>to be subscribed to updates from another user on social media</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02214527-v"/> <!-- subscribe to, subscribe, take -->
+      <SynsetRelation relType="hyponym" target="ewn-90000191-v"/>
+    </Synset>
+    <Synset id="ewn-90005881-v" ili="in" partOfSpeech="v" dc:subject="verb.possession" dc:source="Colloquial WordNet">
+      <Definition>to sell marijuana on a street corner</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02250775-v"/> <!-- deal -->
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -5550,6 +5550,30 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-ping-v-02183153-01 ewn-ping-v-02183310-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-binge-v">
+      <Lemma writtenForm="binge" partOfSpeech="v"/>
+      <Sense id="ewn-binge-v-91000671-01" n="1" synset="ewn-91000671-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lurk-v">
+      <Lemma writtenForm="lurk" partOfSpeech="v"/>
+      <Sense id="ewn-lurk-v-90007111-01" n="3" synset="ewn-90007111-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-mug-v">
+      <Lemma writtenForm="mug" partOfSpeech="v"/>
+      <Sense id="ewn-mug-v-90015901-01" n="1" synset="ewn-90015901-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-rewatch-v">
+      <Lemma writtenForm="rewatch" partOfSpeech="v"/>
+      <Sense id="ewn-rewatch-v-91000041-01" n="0" synset="ewn-91000041-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-rewatch-n">
+      <Lemma writtenForm="rewatch" partOfSpeech="n"/>
+      <Sense id="ewn-rewatch-n-91000061-01" n="0" synset="ewn-91000061-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-stunt-v">
+      <Lemma writtenForm="stunt" partOfSpeech="v"/>
+      <Sense id="ewn-stunt-v-90006181-01" n="2" synset="ewn-90006181-v"/>
+    </LexicalEntry>
     <!-- register, record -->
     <Synset id="ewn-02110264-v" ili="i32294" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>be aware of</Definition>
@@ -8855,6 +8879,32 @@
       <Definition>glow or cause to glow with warm color or light</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02165374-v"/> <!-- glow -->
       <Example>&quot;the sky flushed with rosy splendor&quot;</Example>
+    </Synset>
+    <Synset id="ewn-91000671-v" ili="in" partOfSpeech="v" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>to watch a large amount of media in a single seating</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02155378-v"/> <!-- catch, watch, take in, see, view -->
+    </Synset>
+    <Synset id="ewn-90007111-v" ili="in" partOfSpeech="v" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>to monitor a web forum or similar without making your presence pubilc</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02167732-v"/> <!-- supervise, monitor -->
+    </Synset>
+    <Synset id="ewn-90015901-v" ili="in" partOfSpeech="v" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>To stare awkwardly</Definition>
+      <SynsetRelation relType="domain_region" target="ewn-06960420-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-02137210-v"/> <!-- gaze, stare -->
+    </Synset>
+    <Synset id="ewn-91000041-v" ili="in" partOfSpeech="v" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>to watch a show or television one more time</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02155378-v"/> <!-- catch, watch, take in, see, view -->
+    </Synset>
+    <Synset id="ewn-91000061-n" ili="in" partOfSpeech="n" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>to watch a show or television one more time</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02155378-v"/> <!-- catch, watch, take in, see, view -->
+    </Synset>
+    <Synset id="ewn-90006181-v" ili="in" partOfSpeech="v" dc:subject="verb.perception" dc:source="Colloquial WordNet">
+      <Definition>to look good</Definition>
+      <SynsetRelation relType="domain_region" target="ewn-06960420-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-02137900-v"/> <!-- look, seem, appear -->
     </Synset>
   </Lexicon>
 </LexicalResource>

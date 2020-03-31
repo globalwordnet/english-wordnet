@@ -1948,6 +1948,7 @@
     <LexicalEntry id="ewn-whelm-v">
       <Lemma writtenForm="whelm" partOfSpeech="v"/>
       <Sense id="ewn-whelm-v-01813288-04" n="0" synset="ewn-01813288-v" dc:identifier="whelm%2:37:00::"/>
+      <Sense id="ewn-whelm-v-91001421-01" n="1" synset="ewn-91001421-v"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-whelm-v-01813288-04"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-manipulate-v">
@@ -5105,6 +5106,26 @@
       <Lemma writtenForm="bear" partOfSpeech="v"/>
       <Sense id="ewn-bear-v-01777051-06" n="0" synset="ewn-01777051-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-bump-v">
+      <Lemma writtenForm="bump" partOfSpeech="v"/>
+      <Sense id="ewn-bump-v-90019492-01" n="5" synset="ewn-90019492-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-fangirl-v">
+      <Lemma writtenForm="fangirl" partOfSpeech="v"/>
+      <Sense id="ewn-fangirl-v-90003391-01" n="0" synset="ewn-90003391-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-likers-n">
+      <Lemma writtenForm="likers" partOfSpeech="n"/>
+      <Sense id="ewn-likers-n-90005851-01" n="0" synset="ewn-90005851-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-scare_the_bejesus-v">
+      <Lemma writtenForm="scare the bejesus" partOfSpeech="v"/>
+      <Sense id="ewn-scare_the_bejesus-v-91001671-01" n="0" synset="ewn-91001671-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-vibe-v">
+      <Lemma writtenForm="vibe" partOfSpeech="v"/>
+      <Sense id="ewn-vibe-v-90005431-01" n="0" synset="ewn-90005431-v"/>
+    </LexicalEntry>
     <!-- evoke, fire, enkindle, elicit, arouse, kindle, provoke, raise -->
     <Synset id="ewn-01763170-v" ili="i30543" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>call forth (emotions, feelings, and responses)</Definition>
@@ -7509,6 +7530,31 @@
       <Definition>be uncertain about; think about without fully understanding or being able to decide</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00632042-v"/> <!-- ponder, mull over, think over, chew over, muse, mull, meditate, reflect, ruminate, contemplate, speculate, excogitate -->
       <Example>&quot;We puzzled over her sudden departure&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90019492-v" ili="in" partOfSpeech="v" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>to enjoy some music greatly</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01832678-v"/> <!-- enjoy, love -->
+    </Synset>
+    <Synset id="ewn-90003391-v" ili="in" partOfSpeech="v" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>to be a extreme female fan of something</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01780873-v"/> <!-- like -->
+    </Synset>
+    <Synset id="ewn-90005851-n" ili="in" partOfSpeech="n" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>people who make a positive response (like) to an internet post</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01781131-v"/> <!-- like -->
+      <SynsetRelation relType="hypernym" target="ewn-00007846-n"/>
+    </Synset>
+    <Synset id="ewn-91001671-v" ili="in" partOfSpeech="v" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>Cause extreme surprise</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01783082-v"/> <!-- fright, affright, scare, frighten -->
+    </Synset>
+    <Synset id="ewn-90005431-v" ili="in" partOfSpeech="v" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>to feel emotionally</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01775456-v"/> <!-- experience, feel -->
+    </Synset>
+    <Synset id="ewn-91001421-v" ili="in" partOfSpeech="v" dc:subject="verb.emotion" dc:source="Colloquial WordNet">
+      <Definition>to neither fail to meet nor exceed expectation</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01763170-v"/> <!-- evoke, fire, enkindle, elicit, arouse, kindle, provoke, raise -->
     </Synset>
   </Lexicon>
 </LexicalResource>

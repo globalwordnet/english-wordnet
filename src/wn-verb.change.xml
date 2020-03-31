@@ -5936,6 +5936,7 @@
       <Lemma writtenForm="bulk" partOfSpeech="v"/>
       <Sense id="ewn-bulk-v-00257255-02" n="1" synset="ewn-00257255-v" dc:identifier="bulk%2:30:00::"/>
       <Sense id="ewn-bulk-v-00264450-01" n="0" synset="ewn-00264450-v" dc:identifier="bulk%2:30:01::"/>
+      <Sense id="ewn-bulk-v-91000441-01" n="2" synset="ewn-91000441-v"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-bulk-v-00264450-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-bulk-v-00257255-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-bulk-v-00264450-01"/>
@@ -24698,6 +24699,34 @@
       <Lemma writtenForm="deionize" partOfSpeech="v"/>
       <Sense id="ewn-deionize-v-00521840-01" n="0" synset="ewn-00521840-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-fuck_shit_up-v">
+      <Lemma writtenForm="fuck shit up" partOfSpeech="v"/>
+      <Sense id="ewn-fuck_shit_up-v-91000461-01" n="0" synset="ewn-91000461-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-get_your_shit_together-v">
+      <Lemma writtenForm="get your shit together" partOfSpeech="v"/>
+      <Sense id="ewn-get_your_shit_together-v-90007311-01" n="0" synset="ewn-90007311-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-overclock-v">
+      <Lemma writtenForm="overclock" partOfSpeech="v"/>
+      <Sense id="ewn-overclock-v-91001651-01" n="0" synset="ewn-91001651-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-photobomb-v">
+      <Lemma writtenForm="photobomb" partOfSpeech="v"/>
+      <Sense id="ewn-photobomb-v-90007761-01" n="0" synset="ewn-90007761-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-switch_up-v">
+      <Lemma writtenForm="switch up" partOfSpeech="v"/>
+      <Sense id="ewn-switch_up-v-90020001-01" n="0" synset="ewn-90020001-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-unfriend-v">
+      <Lemma writtenForm="unfriend" partOfSpeech="v"/>
+      <Sense id="ewn-unfriend-v-90016131-01" n="0" synset="ewn-90016131-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-untag-n">
+      <Lemma writtenForm="untag" partOfSpeech="n"/>
+      <Sense id="ewn-untag-n-90004911-01" n="0" synset="ewn-90004911-n"/>
+    </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo a change; become different in essence; losing one&apos;s or its original nature</Definition>
@@ -42266,6 +42295,38 @@
       <SynsetRelation relType="hypernym" target="ewn-02236972-v"/>
       <Example>&quot;He committed the poem to memory&quot;</Example>
       <Example>&quot;she committed her thoughts to paper&quot;</Example>
+    </Synset>
+    <Synset id="ewn-91000441-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to gain size and weight by means of exercise and diet</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00231172-v"/> <!-- grow -->
+    </Synset>
+    <Synset id="ewn-91000461-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to violently create disorder and destroy</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00277172-v"/> <!-- disarray, disorder -->
+    </Synset>
+    <Synset id="ewn-90007311-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to organize one&apos;s personal things</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00405549-v"/> <!-- organize, organise, coordinate -->
+    </Synset>
+    <Synset id="ewn-91001651-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>To run a processor (CPU), or any electronic logic device, at a speed higher than is recommended by the manufacturer.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00230031-v"/> <!-- heighten, enhance, raise -->
+    </Synset>
+    <Synset id="ewn-90007761-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to jump into someone&apos;s photo</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00521099-v"/> <!-- interrupt, disturb -->
+    </Synset>
+    <Synset id="ewn-90020001-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to change something temporarily</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00380830-v"/> <!-- change over, shift, switch -->
+    </Synset>
+    <Synset id="ewn-90016131-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>To remove someone from your list of friends on a social network</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00173351-v"/> <!-- take, take away, withdraw, remove -->
+    </Synset>
+    <Synset id="ewn-90004911-n" ili="in" partOfSpeech="n" dc:subject="verb.change" dc:source="Colloquial WordNet">
+      <Definition>to remove a metadata tag from an internet post</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00572138-v"/> <!-- take away, remove -->
     </Synset>
   </Lexicon>
 </LexicalResource>

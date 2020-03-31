@@ -281,6 +281,7 @@
         <SenseRelation relType="derivation" target="ewn-slayer-n-10250784-02"/> <!-- slayer, killer -->
         <SenseRelation relType="derivation" target="ewn-slaying-n-00221389-02"/> <!-- execution, murder, slaying -->
         </Sense>
+      <Sense id="ewn-slay-v-90008852-01" n="1" synset="ewn-90008852-v"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-slay-v-02488014-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-right-v">
@@ -14206,6 +14207,22 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-administrate-v-02436818-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-administrate-v-02436818-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-cuff-v">
+      <Lemma writtenForm="cuff" partOfSpeech="v"/>
+      <Sense id="ewn-cuff-v-90009621-01" n="2" synset="ewn-90009621-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-friendzone-v">
+      <Lemma writtenForm="friendzone" partOfSpeech="v"/>
+      <Sense id="ewn-friendzone-v-90012511-01" n="0" synset="ewn-90012511-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-instalike-v">
+      <Lemma writtenForm="instalike" partOfSpeech="v"/>
+      <Sense id="ewn-instalike-v-90009141-01" n="0" synset="ewn-90009141-v"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-upvote-v">
+      <Lemma writtenForm="upvote" partOfSpeech="v"/>
+      <Sense id="ewn-upvote-v-91000861-01" n="0" synset="ewn-91000861-v"/>
+    </LexicalEntry>
     <!-- resign, give up, vacate, renounce -->
     <Synset id="ewn-02372031-v" ili="i33602" partOfSpeech="v" dc:subject="verb.social">
       <Definition>leave (a job, post, or position) voluntarily</Definition>
@@ -21945,6 +21962,27 @@
       <SynsetRelation relType="hypernym" target="ewn-02444366-v"/> <!-- direct -->
       <Example>&quot;administer an exam&quot;</Example>
       <Example>&quot;administer an oath&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90008852-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to succeed greatly</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02529837-v"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
+    </Synset>
+    <Synset id="ewn-90009621-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to get involved in a relationship with another person</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02475258-v"/> <!-- unify, unite -->
+      <SynsetRelation relType="similar" target="ewn-02494483-v"/> <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
+    </Synset>
+    <Synset id="ewn-90012511-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To treat as a friend although the other party has romantic feelings</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02519853-v"/> <!-- handle, do by, treat -->
+    </Synset>
+    <Synset id="ewn-90009141-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to instantly vote for something on social media</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
+    </Synset>
+    <Synset id="ewn-91000861-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To vote positively on a social media website</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -15157,6 +15157,42 @@
       <Lemma writtenForm="takeout food" partOfSpeech="n"/>
       <Sense id="ewn-takeout_food-n-07610082-02" n="0" synset="ewn-07610082-n" dc:identifier="takeout_food%1:13:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Sriracha-n">
+      <Lemma writtenForm="Sriracha" partOfSpeech="n"/>
+      <Sense id="ewn-Sriracha-n-91000021-01" n="0" synset="ewn-91000021-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-grilled_cheese-n">
+      <Lemma writtenForm="grilled cheese" partOfSpeech="n"/>
+      <Sense id="ewn-grilled_cheese-n-91000321-01" n="0" synset="ewn-91000321-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-horchata-n">
+      <Lemma writtenForm="horchata" partOfSpeech="n"/>
+      <Sense id="ewn-horchata-n-90016061-01" n="0" synset="ewn-90016061-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-isaw-n">
+      <Lemma writtenForm="isaw" partOfSpeech="n"/>
+      <Sense id="ewn-isaw-n-90014051-01" n="0" synset="ewn-90014051-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-macaron-n">
+      <Lemma writtenForm="macaron" partOfSpeech="n"/>
+      <Sense id="ewn-macaron-n-90015551-01" n="0" synset="ewn-90015551-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-paczki-n">
+      <Lemma writtenForm="paczki" partOfSpeech="n"/>
+      <Sense id="ewn-paczki-n-90004661-01" n="0" synset="ewn-90004661-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-poutine-n">
+      <Lemma writtenForm="poutine" partOfSpeech="n"/>
+      <Sense id="ewn-poutine-n-91000881-01" n="0" synset="ewn-91000881-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-superfood-n">
+      <Lemma writtenForm="superfood" partOfSpeech="n"/>
+      <Sense id="ewn-superfood-n-90017071-01" n="0" synset="ewn-90017071-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-takoyaki-v">
+      <Lemma writtenForm="takoyaki" partOfSpeech="v"/>
+      <Sense id="ewn-takoyaki-v-90011371-01" n="0" synset="ewn-90011371-v"/>
+    </LexicalEntry>
     <!-- food, solid food -->
     <Synset id="ewn-07571428-n" ili="i76470" partOfSpeech="n" dc:subject="noun.food">
       <Definition>any solid substance (as opposed to liquid) that is used as a source of nourishment</Definition>
@@ -22691,6 +22727,7 @@
     <!-- green gram, golden gram, moong, monggo, green soy, munggo, green bean, mung bean, mash bean, mung -->
     <Synset id="ewn-07741018-n" ili="in" partOfSpeech="n" dc:subject="noun.food">
       <Definition>food from the seed of the mung bean plant</Definition>
+      <Definition>seed of the mung bean plant used for food</Definition>
       <ILIDefinition>seed of the mung bean plant used for food</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07740688-n"/> <!-- edible bean, bean -->
       <SynsetRelation relType="holo_part" target="ewn-12598760-n"/> <!-- mung bean plant, Vigna radiata, Phaseolus aureus, mung bean, mung -->
@@ -31808,6 +31845,44 @@
       <SynsetRelation relType="hypernym" target="ewn-07625449-n"/> <!-- dessert, sweet, afters -->
       <Example>&quot;a lobster mold&quot;</Example>
       <Example>&quot;a gelatin dessert made in a mold&quot;</Example>
+    </Synset>
+    <Synset id="ewn-91000021-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>A sauce made from pureed garlic and chilis named after the town of Si Racha in Thailand</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07846569-n"/> <!-- hot sauce -->
+    </Synset>
+    <Synset id="ewn-91000321-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>A grilled sandwich whose principal filling is cheese</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07711710-n"/> <!-- sandwich -->
+    </Synset>
+    <Synset id="ewn-90016061-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07897775-n"/> <!-- beverage, potable, drink, drinkable -->
+    </Synset>
+    <Synset id="ewn-90014051-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>a street food from the Philippines, made from barbecued pig or chicken intestines</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
+    </Synset>
+    <Synset id="ewn-90015551-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond powder or ground almond, and food colouring.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07612538-n"/> <!-- confectionery -->
+    </Synset>
+    <Synset id="ewn-90004661-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>A traditional Polish doughnut.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07654678-n"/> <!-- doughnut, sinker, donut -->
+      <SynsetRelation relType="domain_region" target="ewn-09004957-n"/>
+    </Synset>
+    <Synset id="ewn-91000881-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>a Canadian dish made with french fries and cheese curds topped with a light brown gravy</Definition>
+      <SynsetRelation relType="domain_region" target="ewn-08837973-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-07572999-n"/> <!-- dish -->
+    </Synset>
+    <Synset id="ewn-90017071-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>a food with health benefits</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
+    </Synset>
+    <Synset id="ewn-90011371-v" ili="in" partOfSpeech="v" dc:subject="noun.food" dc:source="Colloquial WordNet">
+      <Definition>a ball-shaped Japanese snack made of a wheat flour-based batter and cooked in a special moulded pan</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
     </Synset>
   </Lexicon>
 </LexicalResource>
