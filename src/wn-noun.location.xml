@@ -3460,7 +3460,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-Kingdom_of_The_Netherlands-n">
       <Lemma writtenForm="Kingdom of The Netherlands" partOfSpeech="n"/>
-      <Sense id="ewn-Kingdom_of_The_Netherlands-n-08968866-03" n="0" synset="ewn-08968866-n" dc:identifier="kingdom_of_the_netherlands%1:15:00::"/>
+      <Sense id="ewn-Kingdom_of_The_Netherlands-n-89497668-01" n="0" synset="ewn-89497668-n" dc:identifier="kingdom_of_the_netherlands%1:15:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-Sahara-n">
       <Lemma writtenForm="Sahara" partOfSpeech="n"/>
@@ -26039,6 +26039,7 @@
       <SynsetRelation relType="hypernym" target="ewn-08562388-n"/> <!-- state, land, country -->
       <SynsetRelation relType="instance_hyponym" target="ewn-08810147-n"/> <!-- Israel -->
       <SynsetRelation relType="instance_hyponym" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
+      <SynsetRelation relType="hyponym" target="ewn-89497668-n"/>
     </Synset>
     <!-- lair, den -->
     <Synset id="ewn-08608955-n" ili="i82127" partOfSpeech="n" dc:subject="noun.location">
@@ -32421,6 +32422,7 @@
       <Definition>a popular island resort in the Netherlands Antilles</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-09339360-n"/> <!-- island -->
       <SynsetRelation relType="holo_part" target="ewn-08766332-n"/> <!-- Netherlands Antilles -->
+      <SynsetRelation relType="holo_member" target="ewn-89497668-n"/>
     </Synset>
     <!-- Bonaire -->
     <Synset id="ewn-08766750-n" ili="i82864" partOfSpeech="n" dc:subject="noun.location">
@@ -32433,6 +32435,7 @@
       <Definition>a popular island resort in the Netherlands Antilles</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-09339360-n"/> <!-- island -->
       <SynsetRelation relType="holo_part" target="ewn-08766332-n"/> <!-- Netherlands Antilles -->
+      <SynsetRelation relType="holo_member" target="ewn-89497668-n"/>
     </Synset>
     <!-- Saba -->
     <Synset id="ewn-08767000-n" ili="i82866" partOfSpeech="n" dc:subject="noun.location">
@@ -32461,6 +32464,7 @@
       <Definition>an island in the western Leeward Islands; administered jointly by France and the Netherlands</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-09339360-n"/> <!-- island -->
       <SynsetRelation relType="holo_part" target="ewn-08767280-n"/> <!-- Leeward Islands -->
+      <SynsetRelation relType="holo_member" target="ewn-89497668-n"/>
     </Synset>
     <!-- Windward Islands, Windward Isles -->
     <Synset id="ewn-08767697-n" ili="i82870" partOfSpeech="n" dc:subject="noun.location">
@@ -40271,6 +40275,7 @@
       <SynsetRelation relType="mero_part" target="ewn-09376334-n"/> <!-- Meuse River, Meuse -->
       <SynsetRelation relType="mero_part" target="ewn-09431418-n"/> <!-- Rhein, Rhine River, Rhine -->
       <SynsetRelation relType="mero_member" target="ewn-09732504-n"/> <!-- Dutchman, Hollander, Netherlander -->
+      <SynsetRelation relType="holo_member" target="ewn-89497668-n"/>
     </Synset>
     <!-- Dutch capital, Amsterdam, capital of The Netherlands -->
     <Synset id="ewn-08969510-n" ili="i83738" partOfSpeech="n" dc:subject="noun.location">
@@ -49402,6 +49407,14 @@
     <Synset id="ewn-09201493-n" ili="i84875" partOfSpeech="n" dc:subject="noun.location">
       <Definition>areas where Muslims are in the minority and are persecuted</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08591861-n"/> <!-- geographical region, geographic region, geographic area, geographical area -->
+    </Synset>
+    <Synset id="ewn-89497668-n" ili="in" partOfSpeech="n" dc:subject="noun.location">
+      <Definition>kingdom and soverign state consisting of the Netherlands, Aruba, Curacao and Sint Maarten</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-08608825-n"/> <!-- kingdom -->
+      <SynsetRelation relType="mero_member" target="ewn-08968866-n"/> <!-- The Netherlands, Nederland, Kingdom of The Netherlands, Netherlands, Holland -->
+      <SynsetRelation relType="mero_member" target="ewn-08766627-n"/> <!-- Aruba -->
+      <SynsetRelation relType="mero_member" target="ewn-08766875-n"/> <!-- Curacao -->
+      <SynsetRelation relType="mero_member" target="ewn-08767483-n"/> <!-- St. Martin, Saint Maarten, Saint Martin, St. Maarten -->
     </Synset>
   </Lexicon>
 </LexicalResource>
