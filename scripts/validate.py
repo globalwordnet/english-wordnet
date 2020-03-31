@@ -51,6 +51,12 @@ def check_no_loops(wn):
 
     return errors
 
+def check_not_empty(wn, ss):
+    if not wn.members_by_id(ss.id):
+        return False
+    else:
+        return True
+
 valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
 
 valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-[nvars]-[0-9]{8}-[0-9]{2}$")
@@ -96,6 +102,9 @@ def main():
                 sys.stderr.write("Cannot be fixed")
                 sys.exit(-1)
             print("ERROR: Invalid ID " + synset.id)
+            errors += 1
+        if not check_not_empty(wn, synset):
+            print("ERROR: Empty synset " + synset.id)
             errors += 1
 
     for error in check_symmetry(wn, fix):
