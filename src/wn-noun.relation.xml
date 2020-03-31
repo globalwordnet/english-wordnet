@@ -3209,6 +3209,18 @@
       <Lemma writtenForm="international sea and swell scale" partOfSpeech="n"/>
       <Sense id="ewn-international_sea_and_swell_scale-n-80870371-01" n="0" synset="ewn-80870371-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-clarke_value-n">
+      <Lemma writtenForm="clarke value" partOfSpeech="n"/>
+      <Sense id="ewn-clarke_value-n-92418879-00" n="2" synset="ewn-92418879-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-compression_ratio-n">
+      <Lemma writtenForm="compression ratio" partOfSpeech="n"/>
+      <Sense id="ewn-compression_ratio-n-92441253-00" n="2" synset="ewn-92441253-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-illative_conjunction-n">
+      <Lemma writtenForm="illative conjunction" partOfSpeech="n"/>
+      <Sense id="ewn-illative_conjunction-n-92464491-00" n="2" synset="ewn-92464491-n"/>
+    </LexicalEntry>
     <!-- dealings, relations -->
     <Synset id="ewn-13802661-n" ili="i109327" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
@@ -6006,6 +6018,21 @@
     <Synset id="ewn-80870371-n" ili="in" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>scale used for measuring the height of waves</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
+    </Synset>
+    <Synset id="ewn-92418879-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>the average concentrations of various elements in the Earth&apos;s crust.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13838733-n"/> <!-- content -->
+      <SynsetRelation relType="domain_topic" target="ewn-06099892-n"/>
+    </Synset>
+    <Synset id="ewn-92441253-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>for a gas compressor, the discharge pressure divided by the suction pressure.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13841419-n"/> <!-- ratio -->
+      <Example>High flow, low compression ratio applications are best served by axial flow compressors.</Example>
+    </Synset>
+    <Synset id="ewn-92464491-n" ili="in" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+      <Definition>a conjunction that expresses something inferred from another statement or fact.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13821604-n"/> <!-- conjunction -->
+      <Example>One could argue grammatically in favour of &quot;accordingly&quot; being an illative conjunction.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

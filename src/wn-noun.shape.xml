@@ -2766,6 +2766,42 @@
       <Lemma writtenForm="dissymmetry" partOfSpeech="n"/>
       <Sense id="ewn-dissymmetry-n-13921202-02" n="0" synset="ewn-13921202-n"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-catacaustic-n">
+      <Lemma writtenForm="catacaustic" partOfSpeech="n"/>
+      <Sense id="ewn-catacaustic-n-92449083-00" n="2" synset="ewn-92449083-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-caustic-n">
+      <Lemma writtenForm="caustic" partOfSpeech="n"/>
+      <Sense id="ewn-caustic-n-92440865-00" n="3" synset="ewn-92440865-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-dihedral_angle-n">
+      <Lemma writtenForm="dihedral angle" partOfSpeech="n"/>
+      <Sense id="ewn-dihedral_angle-n-92439239-00" n="2" synset="ewn-92439239-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-torsion_angle-n">
+      <Lemma writtenForm="torsion angle" partOfSpeech="n"/>
+      <Sense id="ewn-torsion_angle-n-92439239-01" n="2" synset="ewn-92439239-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-demand_curve-n">
+      <Lemma writtenForm="demand curve" partOfSpeech="n"/>
+      <Sense id="ewn-demand_curve-n-92438964-00" n="2" synset="ewn-92438964-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-right_prism-n">
+      <Lemma writtenForm="right prism" partOfSpeech="n"/>
+      <Sense id="ewn-right_prism-n-92447290-00" n="2" synset="ewn-92447290-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-polygonal_chain-n">
+      <Lemma writtenForm="polygonal chain" partOfSpeech="n"/>
+      <Sense id="ewn-polygonal_chain-n-92439377-00" n="2" synset="ewn-92439377-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-regular_pyramid-n">
+      <Lemma writtenForm="regular pyramid" partOfSpeech="n"/>
+      <Sense id="ewn-regular_pyramid-n-92448346-00" n="2" synset="ewn-92448346-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tangent_curve-n">
+      <Lemma writtenForm="tangent curve" partOfSpeech="n"/>
+      <Sense id="ewn-tangent_curve-n-92449693-00" n="2" synset="ewn-92449693-n"/>
+    </LexicalEntry>
     <!-- solid -->
     <Synset id="ewn-13882990-n" ili="i109764" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a three-dimensional shape</Definition>
@@ -5049,6 +5085,46 @@
     <Synset id="ewn-13942952-n" ili="i110104" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a projection or ridge that suggests a keel</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13942718-n"/> <!-- projection -->
+    </Synset>
+    <Synset id="ewn-92449083-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a caustic curve formed by light reflecting from a curved surface.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-92440865-n"/>
+    </Synset>
+    <Synset id="ewn-92440865-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>the envelope of light rays reflected or refracted by a curved surface or object</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13892427-n"/> <!-- envelope -->
+      <SynsetRelation relType="hyponym" target="ewn-92449083-n"/>
+    </Synset>
+    <Synset id="ewn-92439239-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>the angle between two planes.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13910202-n"/> <!-- angle -->
+      <Example>Plane A which contains an isosceles right triangle forms a dihedral angle of 60 degrees with another plane B.</Example>
+    </Synset>
+    <Synset id="ewn-92438964-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>In economics, the graph depicting the relationship between the price of a certain commodity and the amount of it that consumers are willing and able to purchase at that given price.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
+      <Example>However, the demand curve of each oligopolist will be more elastic than the demand curve for the industry as a whole.</Example>
+    </Synset>
+    <Synset id="ewn-92447290-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a prism that has exactly two bases and whose other sides are all rectangles that are perpendicular to these bases.</Definition>
+      <SynsetRelation relType="hyponym" target="ewn-92447289-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-13907168-n"/> <!-- prism -->
+      <Example>The lateral area of a right prism is the sum of the areas of all the lateral faces.</Example>
+    </Synset>
+    <Synset id="ewn-92439377-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>in geometry, a connected series of line segments.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
+      <Example>The upper convex hull is a polygonal chain that connects the leftmost point in P to the rightmost one.</Example>
+    </Synset>
+    <Synset id="ewn-92448346-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a pyramid whose base is a regular polygon and whose vertex is on the perpendicular to the base through its center.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13937870-n"/> <!-- pyramid -->
+      <Example>The altitude of a lateral face of a regular pyramid is the slant height.</Example>
+    </Synset>
+    <Synset id="ewn-92449693-n" ili="in" partOfSpeech="n" dc:subject="noun.shape" dc:source="plWordNet 4.0">
+      <Definition>a plane curve that is the graph of the equation y = tan x, where x is an angle.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
+      <Example>The shape of the tangent curve is the same for each full rotation of the angle and so the function is called &apos;periodic&apos;.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

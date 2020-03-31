@@ -4542,6 +4542,10 @@
       <Lemma writtenForm="delta wave" partOfSpeech="n"/>
       <Sense id="ewn-delta_wave-n-11465283-02" n="0" synset="ewn-11465283-n" dc:identifier="delta_wave%1:19:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-exchange_energy-n">
+      <Lemma writtenForm="exchange energy" partOfSpeech="n"/>
+      <Sense id="ewn-exchange_energy-n-92466652-00" n="2" synset="ewn-92466652-n"/>
+    </LexicalEntry>
     <!-- natural phenomenon -->
     <Synset id="ewn-11428673-n" ili="i97550" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>all phenomena that are not artificial</Definition>
@@ -8697,6 +8701,11 @@
     <Synset id="ewn-11549892-n" ili="i98190" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the angle subtended by the mean equatorial radius of the Earth at a distance of one astronomical unit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11549390-n"/> <!-- geocentric parallax, diurnal parallax -->
+    </Synset>
+    <Synset id="ewn-92466652-n" ili="in" partOfSpeech="n" dc:subject="noun.phenomenon" dc:source="plWordNet 4.0">
+      <Definition>the energy involved in the exchange interaction.</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
+      <Example dc:source="https://en.wikipedia.org">Exchange energy splittings are very elusive to calculate for molecular systems at large internuclear distances.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
