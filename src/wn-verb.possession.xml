@@ -1793,7 +1793,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-offer-v">
       <Lemma writtenForm="offer" partOfSpeech="v"/>
-      <Sense id="ewn-offer-v-02301687-01" n="0" synset="ewn-02301687-v" dc:identifier="offer%2:40:02::">
+      <Sense id="ewn-offer-v-02332196-05" n="0" synset="ewn-02332196-v" dc:identifier="offer%2:40:02::">
         <SenseRelation relType="derivation" target="ewn-offer-n-07199736-01"/> <!-- offering, offer -->
         </Sense>
       <Sense id="ewn-offer-v-02302103-01" n="1" synset="ewn-02302103-v" dc:identifier="offer%2:40:00::">
@@ -1813,12 +1813,12 @@
         <SenseRelation relType="derivation" target="ewn-offer-n-07179197-01"/> <!-- offering, offer -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02302703-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-offer-v-02303593-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01 ewn-offer-v-02302370-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02 ewn-offer-v-02303593-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01 ewn-offer-v-02302370-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02 ewn-offer-v-02303593-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02302909-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-offer-v-02301687-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-offer-v-02332196-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-offer-v-02303593-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-change_hands-v">
@@ -12318,14 +12318,6 @@
       <Definition>offer or present for acceptance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02205200-v"/> <!-- present, gift, give -->
     </Synset>
-    <!-- offer -->
-    <Synset id="ewn-02301687-v" ili="i33214" partOfSpeech="v" dc:subject="verb.possession">
-      <Definition>make available or accessible, provide or furnish</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02332196-v"/> <!-- supply, render, furnish, provide -->
-      <SynsetRelation relType="hyponym" target="ewn-00783699-v"/> <!-- accost, solicit, hook -->
-      <Example>&quot;The conference center offers a health spa&quot;</Example>
-      <Example>&quot;The hotel offers private meeting rooms&quot;</Example>
-    </Synset>
     <!-- signalise, signalize -->
     <Synset id="ewn-02301945-v" ili="i33215" partOfSpeech="v" dc:subject="verb.possession">
       <Definition>provide with traffic signals</Definition>
@@ -13427,7 +13419,6 @@
       <SynsetRelation relType="hyponym" target="ewn-02231162-v"/> <!-- terrasse, terrace -->
       <SynsetRelation relType="hyponym" target="ewn-02231341-v"/> <!-- dado -->
       <SynsetRelation relType="hyponym" target="ewn-02231488-v"/> <!-- innervate -->
-      <SynsetRelation relType="hyponym" target="ewn-02301687-v"/> <!-- offer -->
       <SynsetRelation relType="hyponym" target="ewn-02301945-v"/> <!-- signalise, signalize -->
       <SynsetRelation relType="hyponym" target="ewn-02302909-v"/> <!-- extend, offer -->
       <SynsetRelation relType="hyponym" target="ewn-02328055-v"/> <!-- stock -->
@@ -13516,7 +13507,10 @@
       <SynsetRelation relType="hyponym" target="ewn-02371883-v"/> <!-- headquarter -->
       <SynsetRelation relType="hyponym" target="ewn-02662486-v"/> <!-- shelter -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02347128-v"/> <!-- supplement -->
+      <SynsetRelation relType="hyponym" target="ewn-00783699-v"/>
       <Example>&quot;We provided the room with an electrical heater&quot;</Example>
+      <Example>&quot;The conference center offers a health spa&quot;</Example>
+      <Example>&quot;The hotel offers private meeting rooms&quot;</Example>
     </Synset>
     <!-- tube -->
     <Synset id="ewn-02334288-v" ili="i33373" partOfSpeech="v" dc:subject="verb.possession">
