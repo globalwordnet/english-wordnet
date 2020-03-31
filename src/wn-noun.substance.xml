@@ -5893,10 +5893,6 @@
       <Lemma writtenForm="sodium benzoate" partOfSpeech="n"/>
       <Sense id="ewn-sodium_benzoate-n-14799332-02" n="0" synset="ewn-14799332-n" dc:identifier="sodium_benzoate%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-muriatic_acid-n">
-      <Lemma writtenForm="muriatic acid" partOfSpeech="n"/>
-      <Sense id="ewn-muriatic_acid-n-14981196-01" n="0" synset="ewn-14981196-n" dc:identifier="muriatic_acid%1:27:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-elastase-n">
       <Lemma writtenForm="elastase" partOfSpeech="n"/>
       <Sense id="ewn-elastase-n-14873710-01" n="0" synset="ewn-14873710-n" dc:identifier="elastase%1:27:00::"/>
@@ -13588,9 +13584,9 @@
       <Lemma writtenForm="arginine" partOfSpeech="n"/>
       <Sense id="ewn-arginine-n-14791975-01" n="0" synset="ewn-14791975-n" dc:identifier="arginine%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-Ceylonite-n">
-      <Lemma writtenForm="Ceylonite" partOfSpeech="n"/>
-      <Sense id="ewn-Ceylonite-n-15076070-01" n="0" synset="ewn-15076070-n" dc:identifier="ceylonite%1:27:00::"/>
+    <LexicalEntry id="ewn-ceylonite-n">
+      <Lemma writtenForm="ceylonite" partOfSpeech="n"/>
+      <Sense id="ewn-ceylonite-n-15076070-01" n="0" synset="ewn-15076070-n" dc:identifier="ceylonite%1:27:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-norethindrone-n">
       <Lemma writtenForm="norethindrone" partOfSpeech="n"/>
@@ -20144,6 +20140,12 @@
       <Lemma writtenForm="stannic chloride" partOfSpeech="n"/>
       <Sense id="ewn-stannic_chloride-n-15043015-01" n="0" synset="ewn-15043015-n" dc:identifier="stannic_chloride%1:27:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-muriatic_acid-n">
+      <Lemma writtenForm="muriatic acid" partOfSpeech="n"/>
+      <Sense id="ewn-muriatic_acid-n-14936538-03" n="0" synset="ewn-14936538-n">
+        <SenseRelation relType="exemplifies" target="ewn-archaism-n-07087487-01"/>
+        </Sense>
+    </LexicalEntry>
     <!-- substance -->
     <Synset id="ewn-14604577-n" ili="i113649" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material of a particular kind or constitution</Definition>
@@ -22067,7 +22069,7 @@
     </Synset>
     <!-- bohrium, atomic number 107, element 107, Bh -->
     <Synset id="ewn-14655935-n" ili="i113907" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a transuranic element</Definition>
+      <Definition>a transuranic element with atomic number 107</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- B, boron, atomic number 5 -->
@@ -22206,12 +22208,12 @@
     </Synset>
     <!-- Ds, atomic number 110, darmstadtium, element 110 -->
     <Synset id="ewn-14660570-n" ili="i113926" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 110</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- atomic number 105, dubnium, element 105, hahnium, Db -->
     <Synset id="ewn-14660701-n" ili="i113927" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a transuranic element</Definition>
+      <Definition>a transuranic element with atomic number 105</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- Dy, atomic number 66, dysprosium -->
@@ -22314,7 +22316,7 @@
     </Synset>
     <!-- Hs, atomic number 108, element 108, hassium -->
     <Synset id="ewn-14663973-n" ili="i113943" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 108</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- helium, atomic number 2, He -->
@@ -22467,7 +22469,7 @@
     </Synset>
     <!-- element 109, meitnerium, Mt, atomic number 109 -->
     <Synset id="ewn-14669141-n" ili="i113964" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 109</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- atomic number 101, Mv, mendelevium, Md -->
@@ -22657,7 +22659,7 @@
     </Synset>
     <!-- Rg, roentgenium, element 111, atomic number 111 -->
     <Synset id="ewn-14677003-n" ili="i113996" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 111</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- rubidium, atomic number 37, Rb -->
@@ -22693,7 +22695,7 @@
     </Synset>
     <!-- element 106, seaborgium, Sg, atomic number 106 -->
     <Synset id="ewn-14678237-n" ili="i114002" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a transuranic element</Definition>
+      <Definition>a transuranic element with atomic number 106</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- selenium, Se, atomic number 34 -->
@@ -22837,27 +22839,27 @@
     </Synset>
     <!-- element 112, Uub, ununbium, atomic number 112 -->
     <Synset id="ewn-14683973-n" ili="i114022" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 112</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- atomic number 116, Uuh, element 116, ununhexium -->
     <Synset id="ewn-14684101-n" ili="i114023" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 116</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- ununpentium, Uup, atomic number 115, element 115 -->
     <Synset id="ewn-14684231-n" ili="i114024" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 115</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- atomic number 114, ununquadium, element 114, Uuq -->
     <Synset id="ewn-14684362-n" ili="i114025" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 114</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- ununtrium, Uut, atomic number 113, element 113 -->
     <Synset id="ewn-14684493-n" ili="i114026" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a radioactive transuranic element</Definition>
+      <Definition>a radioactive transuranic element, with atomic number 113</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
     </Synset>
     <!-- uranium, atomic number 92, U -->
@@ -26355,6 +26357,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14782206-n"/> <!-- horn -->
       <SynsetRelation relType="hyponym" target="ewn-14782715-n"/> <!-- shell -->
       <SynsetRelation relType="hyponym" target="ewn-14811690-n"/> <!-- animal fat -->
+      <SynsetRelation relType="hyponym" target="ewn-89570581-n"/>
     </Synset>
     <!-- animal pigment -->
     <Synset id="ewn-14780218-n" ili="i114531" partOfSpeech="n" dc:subject="noun.substance">
@@ -26706,7 +26709,7 @@
     </Synset>
     <!-- bearskin -->
     <Synset id="ewn-14788697-n" ili="i114586" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>the pelt of a bear (sometimes used as a rug)</Definition>
+      <Definition>the pelt of a bear</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14788240-n"/> <!-- fur, pelt -->
     </Synset>
     <!-- beaver, beaver fur -->
@@ -27235,7 +27238,7 @@
     </Synset>
     <!-- Tums -->
     <Synset id="ewn-14802098-n" ili="i114681" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>an antacid</Definition>
+      <Definition>an antacid with active ingredient bismuth subsalicylate</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14802178-n"/> <!-- alkalizer, alkaliser, antacid, gastric antacid, antiacid -->
       <SynsetRelation relType="exemplifies" target="ewn-06864792-n"/> <!-- trademark -->
     </Synset>
@@ -28612,7 +28615,7 @@
     </Synset>
     <!-- clunch -->
     <Synset id="ewn-14838701-n" ili="i114898" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>hardened clay</Definition>
+      <Definition>stiff clay</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14868863-n"/> <!-- soil, dirt -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
     </Synset>
@@ -29170,22 +29173,22 @@
     </Synset>
     <!-- A, deoxyadenosine monophosphate -->
     <Synset id="ewn-14853735-n" ili="i114981" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>one of the four nucleotides used in building DNA; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
+      <Definition>one of the four nucleotides used in building DNA, also known as deoxyadenylate, or dAMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <!-- deoxycytidine monophosphate, C -->
     <Synset id="ewn-14853935-n" ili="i114982" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>one of the four nucleotides used in building DNA; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
+      <Definition>one of the four nucleotides used in building DNA, also known as  also known as deoxycytidylate, or dCMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <!-- G, deoxyguanosine monophosphate -->
     <Synset id="ewn-14854134-n" ili="i114983" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>one of the four nucleotides used in building DNA; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
+      <Definition>one of the four nucleotides used in building DNA, also known as deoxyguanylate, or dGMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <!-- deoxythymidine monophosphate, T -->
     <Synset id="ewn-14854334-n" ili="i114984" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>one of the four nucleotides used in building DNA; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
+      <Definition>one of the four nucleotides used in building DNA, also known as 5&apos;-thymidylate, thymidylate, or TMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <!-- deoxyribonucleic acid, DNA, desoxyribonucleic acid -->
@@ -29617,13 +29620,13 @@
     </Synset>
     <!-- air -->
     <Synset id="ewn-14866873-n" ili="i115053" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>once thought to be one of four elements composing the universe (Empedocles)</Definition>
+      <Definition>once thought to be one of four elements composing the universe (Empedocles), associated with the humour blood</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14864925-n"/> <!-- element -->
       <SynsetRelation relType="exemplifies" target="ewn-07087487-n"/> <!-- archaism, archaicism -->
     </Synset>
     <!-- fire -->
     <Synset id="ewn-14867017-n" ili="i115054" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>once thought to be one of four elements composing the universe (Empedocles)</Definition>
+      <Definition>once thought to be one of four elements composing the universe (Empedocles), associated with the humour bile</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14864925-n"/> <!-- element -->
       <SynsetRelation relType="exemplifies" target="ewn-07087487-n"/> <!-- archaism, archaicism -->
     </Synset>
@@ -29684,7 +29687,7 @@
     </Synset>
     <!-- earth -->
     <Synset id="ewn-14868584-n" ili="i115064" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>once thought to be one of four elements composing the universe (Empedocles)</Definition>
+      <Definition>once thought to be one of four elements composing the universe (Empedocles), associated with the humour black bile</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14864925-n"/> <!-- element -->
       <SynsetRelation relType="exemplifies" target="ewn-07087487-n"/> <!-- archaism, archaicism -->
     </Synset>
@@ -29797,7 +29800,7 @@
     </Synset>
     <!-- water -->
     <Synset id="ewn-14871527-n" ili="i115075" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>once thought to be one of four elements composing the universe (Empedocles)</Definition>
+      <Definition>once thought to be one of four elements composing the universe (Empedocles), associated with the humour phlegm</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14864925-n"/> <!-- element -->
       <SynsetRelation relType="exemplifies" target="ewn-07087487-n"/> <!-- archaism, archaicism -->
     </Synset>
@@ -32248,7 +32251,6 @@
     <Synset id="ewn-14936538-n" ili="i115455" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an aqueous solution of hydrogen chloride; a strongly corrosive acid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14631699-n"/> <!-- acid -->
-      <SynsetRelation relType="hyponym" target="ewn-14981196-n"/> <!-- muriatic acid -->
     </Synset>
     <!-- HFC, hydrofluorocarbon -->
     <Synset id="ewn-14936707-n" ili="i115456" partOfSpeech="n" dc:subject="noun.substance">
@@ -33168,7 +33170,7 @@
     </Synset>
     <!-- calcium bicarbonate -->
     <Synset id="ewn-14960928-n" ili="i115613" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a bicarbonate that is a major cause of hard water</Definition>
+      <Definition>a bicarbonate that is a major cause of hard water, with chemical formula Ca(HCO3)2</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14799888-n"/> <!-- bicarbonate, hydrogen carbonate -->
     </Synset>
     <!-- calcium carbonate -->
@@ -33477,7 +33479,7 @@
     </Synset>
     <!-- magnesium bicarbonate -->
     <Synset id="ewn-14969275-n" ili="i115659" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a bicarbonate that is a major cause of hard water</Definition>
+      <Definition>a bicarbonate that is a major cause of hard water, with chemical formula Mg(HCO3)2</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14799888-n"/> <!-- bicarbonate, hydrogen carbonate -->
     </Synset>
     <!-- magnesium carbonate -->
@@ -33918,11 +33920,6 @@
     <Synset id="ewn-14981060-n" ili="i115735" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>sludge (rich in organic matter) that accumulates at the bottom of lakes or oceans</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14980800-n"/> <!-- muck, ooze, gunk, gook, slime, sludge, goop, goo, guck -->
-    </Synset>
-    <!-- muriatic acid -->
-    <Synset id="ewn-14981196-n" ili="i115736" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a former name for hydrochloric acid</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14936538-n"/> <!-- hydrochloric acid, chlorohydric acid -->
     </Synset>
     <!-- music paper, score paper -->
     <Synset id="ewn-14981291-n" ili="i115737" partOfSpeech="n" dc:subject="noun.substance">
@@ -35061,13 +35058,13 @@
     </Synset>
     <!-- tetrabromo-phenolsulfonephthalein, bromphenol blue, bromophenol blue -->
     <Synset id="ewn-15011278-n" ili="i115901" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a dye used as an acid-base indicator</Definition>
+      <Definition>a dye used as an acid-base indicator, with useful range between pH 3.0 and 4.6</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15009942-n"/> <!-- dyestuff, dye -->
       <SynsetRelation relType="hypernym" target="ewn-14633376-n"/> <!-- acid-base indicator -->
     </Synset>
     <!-- bromthymol blue, bromothymol blue -->
     <Synset id="ewn-15011449-n" ili="i115902" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a dye used as an acid-base indicator</Definition>
+      <Definition>a dye used as an acid-base indicator, with useful range between pH 6.0 and 7.6</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15009942-n"/> <!-- dyestuff, dye -->
       <SynsetRelation relType="hypernym" target="ewn-14633376-n"/> <!-- acid-base indicator -->
     </Synset>
@@ -38865,12 +38862,12 @@
     </Synset>
     <!-- phytonadione, vitamin K1, phylloquinone -->
     <Synset id="ewn-15117509-n" ili="i116516" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a form of vitamin K</Definition>
+      <Definition>a form of vitamin K, based on 2-methyl-1,4-naphthoquinone, with a 3-phytyl substituent</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15117318-n"/> <!-- vitamin K, naphthoquinone, antihemorrhagic factor -->
     </Synset>
     <!-- vitamin K3, menadione -->
     <Synset id="ewn-15117616-n" ili="i116517" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>a form of vitamin K</Definition>
+      <Definition>a synthetic chemical compound that is a form of vitamin K, it is an analog of 1,4-naphthoquinone with a methyl group in the 2-position</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15117318-n"/> <!-- vitamin K, naphthoquinone, antihemorrhagic factor -->
     </Synset>
     <!-- vitamin P, bioflavinoid, citrin -->

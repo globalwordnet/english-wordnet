@@ -3100,8 +3100,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-recreate-v">
       <Lemma writtenForm="recreate" partOfSpeech="v"/>
-      <Sense id="ewn-recreate-v-01741498-01" n="3" synset="ewn-01741498-v" dc:identifier="recreate%2:36:05::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-01741498-01"/>
+      <Sense id="ewn-recreate-v-01622373-02" n="3" synset="ewn-01622373-v" dc:identifier="recreate%2:36:05::"/>
+      <Sense id="ewn-recreate-v-01697776-03" n="4" synset="ewn-01697776-v"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-01622373-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-quilt-v">
       <Lemma writtenForm="quilt" partOfSpeech="v"/>
@@ -4533,7 +4534,7 @@
       <Lemma writtenForm="occasion" partOfSpeech="v"/>
       <Sense id="ewn-occasion-v-01650070-01" n="0" synset="ewn-01650070-v" dc:identifier="occasion%2:36:00::">
         <SenseRelation relType="derivation" target="ewn-occasion-n-14508648-01"/> <!-- occasion -->
-        <SenseRelation relType="derivation" target="ewn-occasion-n-09202161-01"/> <!-- occasion -->
+        <SenseRelation relType="derivation" target="ewn-occasion-n-09201896-03"/> <!-- occasion -->
         <SenseRelation relType="derivation" target="ewn-occasion-n-15270640-01"/> <!-- occasion -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-occasion-v-01650070-01"/>
@@ -7466,7 +7467,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01714176-v"/> <!-- direct -->
       <SynsetRelation relType="hyponym" target="ewn-01715824-v"/> <!-- film -->
       <SynsetRelation relType="hyponym" target="ewn-01716063-v"/> <!-- film-make -->
-      <SynsetRelation relType="hyponym" target="ewn-01741498-v"/> <!-- recreate -->
       <SynsetRelation relType="hyponym" target="ewn-01750893-v"/> <!-- offset -->
       <SynsetRelation relType="hyponym" target="ewn-01753964-v"/> <!-- scrape -->
       <SynsetRelation relType="hyponym" target="ewn-01756303-v"/> <!-- bring forth, produce -->
@@ -7525,7 +7525,7 @@
     </Synset>
     <!-- re-create -->
     <Synset id="ewn-01622373-v" ili="i29856" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>create anew</Definition>
+      <Definition>produce or make another of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="ewn-00168201-v"/> <!-- regenerate -->
       <SynsetRelation relType="hyponym" target="ewn-01634614-v"/> <!-- renew, regenerate -->
@@ -7539,7 +7539,9 @@
       <SynsetRelation relType="hyponym" target="ewn-01726692-v"/> <!-- reenact -->
       <SynsetRelation relType="hyponym" target="ewn-01726857-v"/> <!-- model, simulate -->
       <SynsetRelation relType="hyponym" target="ewn-01728336-v"/> <!-- spiel, play -->
+      <SynsetRelation relType="hyponym" target="ewn-01741659-v"/> <!-- reinvent -->
       <Example>&quot;Re-create the boom of the West on a small scale&quot;</Example>
+      <Example>&quot;she recreated the feeling of the 1920&apos;s with her stage setting&quot;</Example>
     </Synset>
     <!-- refashion, redo, make over, remake -->
     <Synset id="ewn-01622744-v" ili="i29857" partOfSpeech="v" dc:subject="verb.creation">
@@ -7806,7 +7808,7 @@
     </Synset>
     <!-- bring forth, generate -->
     <Synset id="ewn-01630392-v" ili="i29894" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>bring into existence</Definition>
+      <Definition>produce, create</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="ewn-01630816-v"/> <!-- come up -->
       <SynsetRelation relType="hyponym" target="ewn-01630984-v"/> <!-- develop -->
@@ -8255,7 +8257,7 @@
     </Synset>
     <!-- run -->
     <Synset id="ewn-01645087-v" ili="i29946" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>carry out</Definition>
+      <Definition>conduct to completion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01644397-v"/> <!-- execute, carry out, fulfill, accomplish, carry through, fulfil, action -->
       <Example>&quot;run an errand&quot;</Example>
     </Synset>
@@ -9935,7 +9937,7 @@
     </Synset>
     <!-- repaint -->
     <Synset id="ewn-01689692-v" ili="i30175" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>paint again</Definition>
+      <Definition>paint a particular subject again</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01688558-v"/> <!-- paint -->
       <SynsetRelation relType="domain_topic" target="ewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
       <Example>&quot;He repainted the same scenery many times during his life&quot;</Example>
@@ -10120,7 +10122,7 @@
     </Synset>
     <!-- write -->
     <Synset id="ewn-01694952-v" ili="i30198" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>mark or trace on a surface</Definition>
+      <Definition>mark or trace words or symbols on a surface</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01585566-v"/> <!-- trace, line, delineate, draw, describe -->
       <SynsetRelation relType="hyponym" target="ewn-01000339-v"/> <!-- dot -->
       <SynsetRelation relType="hyponym" target="ewn-01695401-v"/> <!-- stenograph -->
@@ -10343,7 +10345,7 @@
     </Synset>
     <!-- model, mock up -->
     <Synset id="ewn-01701301-v" ili="i30232" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>construct a model of</Definition>
+      <Definition>construct a model in the likeness of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01690027-v"/> <!-- represent, interpret -->
       <Example>&quot;model an airplane&quot;</Example>
     </Synset>
@@ -11310,7 +11312,7 @@
     </Synset>
     <!-- model, simulate -->
     <Synset id="ewn-01726857-v" ili="i30354" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>create a representation or model of</Definition>
+      <Definition>create a representation or simulation of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01622373-v"/> <!-- re-create -->
       <Example>&quot;The pilots are trained in conditions simulating high-altitude flights&quot;</Example>
     </Synset>
@@ -11859,17 +11861,10 @@
       <SynsetRelation relType="hypernym" target="ewn-01756692-v"/> <!-- produce, give rise, bring about -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
     </Synset>
-    <!-- recreate -->
-    <Synset id="ewn-01741498-v" ili="i30425" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>create anew</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01620211-v"/> <!-- make, create -->
-      <SynsetRelation relType="hyponym" target="ewn-01741659-v"/> <!-- reinvent -->
-      <Example>&quot;she recreated the feeling of the 1920&apos;s with her stage setting&quot;</Example>
-    </Synset>
     <!-- reinvent -->
     <Synset id="ewn-01741659-v" ili="i30426" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create anew and make over</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01741498-v"/> <!-- recreate -->
+      <SynsetRelation relType="hypernym" target="ewn-01622373-v"/> <!-- re-create -->
       <Example>&quot;He reinvented African music for American listeners&quot;</Example>
     </Synset>
     <!-- reinvent -->
@@ -12519,7 +12514,7 @@
     </Synset>
     <!-- make -->
     <Synset id="ewn-01759660-v" ili="i30520" partOfSpeech="v" dc:subject="verb.creation">
-      <Definition>perform or carry out</Definition>
+      <Definition>perform, produce, or carry out</Definition>
       <SynsetRelation relType="similar" target="ewn-02566500-v"/> <!-- make, do -->
       <SynsetRelation relType="hypernym" target="ewn-01716563-v"/> <!-- perform, execute, do -->
       <SynsetRelation relType="hyponym" target="ewn-02493705-v"/> <!-- pay -->

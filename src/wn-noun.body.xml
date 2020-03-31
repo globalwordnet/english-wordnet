@@ -5165,7 +5165,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-whorl-n">
       <Lemma writtenForm="whorl" partOfSpeech="n"/>
-      <Sense id="ewn-whorl-n-05265220-04" n="1" synset="ewn-05265220-n" dc:identifier="whorl%1:08:00::"/>
+      <Sense id="ewn-whorl-n-89143529-01" n="1" synset="ewn-89143529-n" dc:identifier="whorl%1:08:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-sympathetic_nervous_system-n">
       <Lemma writtenForm="sympathetic nervous system" partOfSpeech="n"/>
@@ -10320,7 +10320,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-ringlet-n">
       <Lemma writtenForm="ringlet" partOfSpeech="n"/>
-      <Sense id="ewn-ringlet-n-05265220-03" n="1" synset="ewn-05265220-n" dc:identifier="ringlet%1:08:00::"/>
+      <Sense id="ewn-ringlet-n-89143529-01" n="1" synset="ewn-89143529-n" dc:identifier="ringlet%1:08:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-mitt-n">
       <Lemma writtenForm="mitt" partOfSpeech="n"/>
@@ -10547,7 +10547,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-curl-n">
       <Lemma writtenForm="curl" partOfSpeech="n"/>
-      <Sense id="ewn-curl-n-05265220-02" n="2" synset="ewn-05265220-n" dc:identifier="curl%1:08:00::">
+      <Sense id="ewn-curl-n-89143529-01" n="2" synset="ewn-89143529-n" dc:identifier="curl%1:08:00::">
         <SenseRelation relType="derivation" target="ewn-curly-a-01033637-01"/> <!-- curly -->
         <SenseRelation relType="derivation" target="ewn-curl-v-01226180-01"/> <!-- wave, curl -->
         </Sense>
@@ -15696,6 +15696,10 @@
       <Lemma writtenForm="vena facialis" partOfSpeech="n"/>
       <Sense id="ewn-vena_facialis-n-05374684-02" n="0" synset="ewn-05374684-n" dc:identifier="vena_facialis%1:08:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-insides-n">
+      <Lemma writtenForm="insides" partOfSpeech="n"/>
+      <Sense id="ewn-insides-n-05306487-04" n="0" synset="ewn-05306487-n"/>
+    </LexicalEntry>
     <!-- organic structure, body -->
     <Synset id="ewn-05223633-n" ili="i64381" partOfSpeech="n" dc:subject="noun.body">
       <Definition>the entire physical structure of an organism (an animal, plant, or human being)</Definition>
@@ -17361,6 +17365,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05265534-n"/> <!-- forelock -->
       <SynsetRelation relType="hyponym" target="ewn-05265782-n"/> <!-- crimp -->
       <SynsetRelation relType="hyponym" target="ewn-05266226-n"/> <!-- dreadlock -->
+      <SynsetRelation relType="hyponym" target="ewn-89143529-n"/>
     </Synset>
     <!-- sausage curl -->
     <Synset id="ewn-05265450-n" ili="i64583" partOfSpeech="n" dc:subject="noun.body">
@@ -26553,7 +26558,7 @@
     </Synset>
     <!-- male internal reproductive organ -->
     <Synset id="ewn-05522808-n" ili="i65909" partOfSpeech="n" dc:subject="noun.body">
-      <Definition>the reproductive organs of a man</Definition>
+      <Definition>the reproductive glands of a man, comprising the ampullary, vesicular, prostate, bulbourethral, and urethral glands</Definition>
       <SynsetRelation relType="hypernym" target="ewn-05520953-n"/> <!-- reproductive organ, sex organ -->
       <SynsetRelation relType="holo_part" target="ewn-05226998-n"/> <!-- male body -->
     </Synset>
@@ -26929,7 +26934,7 @@
     </Synset>
     <!-- cobblers -->
     <Synset id="ewn-05532751-n" ili="i65958" partOfSpeech="n" dc:subject="noun.body">
-      <Definition>a man&apos;s testicles (from Cockney rhyming slang: cobbler&apos;s awl rhymes with ball)</Definition>
+      <Definition>a man&apos;s testicles</Definition>
       <SynsetRelation relType="hypernym" target="ewn-05532266-n"/> <!-- nut, egg, bollock, testis, orchis, testicle, ballock, ball -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
     </Synset>
@@ -30094,6 +30099,10 @@
     <Synset id="ewn-05618976-n" ili="i66396" partOfSpeech="n" dc:subject="noun.body">
       <Definition>small beltlike zone</Definition>
       <SynsetRelation relType="hypernym" target="ewn-05618817-n"/> <!-- zone, zona -->
+    </Synset>
+    <Synset id="ewn-89143529-n" ili="in" partOfSpeech="n" dc:subject="noun.body">
+      <Definition>lock of hair in the shape of a spiral or curl</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-05265220-n"/> <!-- whorl, lock, curl, ringlet -->
     </Synset>
   </Lexicon>
 </LexicalResource>
