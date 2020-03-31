@@ -224,11 +224,17 @@ class Definition:
 
 
 class Example:
-    def __init__(self, text):
+    def __init__(self, text, source=None):
         self.text = text
+        self.source = source
 
     def to_xml(self, xml_file):
-        xml_file.write("""      <Example>%s</Example>
+        if self.source:
+            xml_file.write("""      <Example dc:source=\"%s\">%s</Example>
+""" % (self.source, escape_xml_lit(self.text)))
+
+        else:
+            xml_file.write("""      <Example>%s</Example>
 """ % escape_xml_lit(self.text))
 
 
@@ -466,6 +472,7 @@ class WordNetContentHandler(ContentHandler):
         self.defn = None
         self.ili_defn = None
         self.example = None
+        self.example_source = None
         self.synset = None
 
     def startElement(self, name, attrs):
@@ -495,6 +502,7 @@ class WordNetContentHandler(ContentHandler):
             self.ili_defn = ""
         elif name == "Example":
             self.example = ""
+            self.example_source = attrs.get("dc:source")
         elif name == "SynsetRelation":
             self.synset.add_synset_relation(
                     SynsetRelation(attrs["target"],
@@ -530,7 +538,7 @@ class WordNetContentHandler(ContentHandler):
             self.synset.add_definition(Definition(self.ili_defn), True)
             self.ili_defn = None
         elif name == "Example":
-            self.synset.add_example(Example(self.example))
+            self.synset.add_example(Example(self.example, self.example_source))
             self.example = None
 
 
