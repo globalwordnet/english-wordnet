@@ -6746,8 +6746,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-deep-fat-fry-v">
       <Lemma writtenForm="deep-fat-fry" partOfSpeech="v"/>
-      <Sense id="ewn-deep-fat-fry-v-00326578-01" n="0" synset="ewn-00326578-v" dc:identifier="deep-fat-fry%2:30:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-deep-fat-fry-v-00326578-01"/>
+      <Sense id="ewn-deep-fat-fry-v-00327111-03" n="0" synset="ewn-00327111-v" dc:identifier="deep-fat-fry%2:30:00::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-deep-fat-fry-v-00327111-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-decarburise-v">
       <Lemma writtenForm="decarburise" partOfSpeech="v"/>
@@ -7824,7 +7824,7 @@
       <Lemma writtenForm="ionate" partOfSpeech="v"/>
       <Sense id="ewn-ionate-v-00522265-01" n="0" synset="ewn-00522265-v" dc:identifier="ionate%2:30:00::">
         <SenseRelation relType="derivation" target="ewn-ion-n-09338065-01"/> <!-- ion -->
-        <SenseRelation relType="antonym" target="ewn-de-ionate-v-00521840-01"/> <!-- ewn-de-00521840-v  -->
+        <SenseRelation relType="antonym" target="ewn-deionize-v-00521840-01"/> <!-- ewn-de-00521840-v  -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-ionate-v-00522265-01"/>
     </LexicalEntry>
@@ -16396,13 +16396,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-turn_the_tables-v-00138980-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-turn_the_tables-v-00138980-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-de-ionate-v">
-      <Lemma writtenForm="de-ionate" partOfSpeech="v"/>
-      <Sense id="ewn-de-ionate-v-00521840-01" n="0" synset="ewn-00521840-v" dc:identifier="de-ionate%2:30:00::">
-        <SenseRelation relType="antonym" target="ewn-ionate-v-00522265-01"/> <!-- ionate -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-de-ionate-v-00521840-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-popularize-v">
       <Lemma writtenForm="popularize" partOfSpeech="v"/>
       <Sense id="ewn-popularize-v-00579585-01" n="1" synset="ewn-00579585-v" dc:identifier="popularize%2:30:00::">
@@ -24701,6 +24694,10 @@
       <Sense id="ewn-commit-v-85001475-01" n="0" synset="ewn-85001475-v"/>
       <Sense id="ewn-commit-v-80672114-01" n="6" synset="ewn-80672114-v"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-deionize-v">
+      <Lemma writtenForm="deionize" partOfSpeech="v"/>
+      <Sense id="ewn-deionize-v-00521840-01" n="0" synset="ewn-00521840-v"/>
+    </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
       <Definition>undergo a change; become different in essence; losing one&apos;s or its original nature</Definition>
@@ -32958,7 +32955,6 @@
       <SynsetRelation relType="hypernym" target="ewn-00323648-v"/> <!-- cook -->
       <SynsetRelation relType="domain_topic" target="ewn-00244785-n"/> <!-- cookery, preparation, cooking -->
       <SynsetRelation relType="hyponym" target="ewn-00326448-v"/> <!-- frizzle -->
-      <SynsetRelation relType="hyponym" target="ewn-00326578-v"/> <!-- deep-fat-fry -->
       <SynsetRelation relType="hyponym" target="ewn-00326711-v"/> <!-- griddle -->
       <SynsetRelation relType="hyponym" target="ewn-00326850-v"/> <!-- pan-fry -->
       <SynsetRelation relType="hyponym" target="ewn-00327111-v"/> <!-- french-fry, deep-fry -->
@@ -32971,13 +32967,6 @@
       <Definition>fry something until it curls and becomes crisp</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00326129-v"/> <!-- fry -->
       <SynsetRelation relType="domain_topic" target="ewn-00244785-n"/> <!-- cookery, preparation, cooking -->
-    </Synset>
-    <!-- deep-fat-fry -->
-    <Synset id="ewn-00326578-v" ili="i23361" partOfSpeech="v" dc:subject="verb.change">
-      <Definition>fry in deep fat</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00326129-v"/> <!-- fry -->
-      <SynsetRelation relType="domain_topic" target="ewn-00244785-n"/> <!-- cookery, preparation, cooking -->
-      <Example>&quot;deep-fry the potato chips&quot;</Example>
     </Synset>
     <!-- griddle -->
     <Synset id="ewn-00326711-v" ili="i23362" partOfSpeech="v" dc:subject="verb.change">
