@@ -4,6 +4,7 @@ import argparse
 import re
 import change_manager
 import csv
+from merge import wn_merge
 
 def main():
     parser = argparse.ArgumentParser(description="Merge a synset - delete one or more synset and merge all properties. This may create weird or contradictory results so should be used with care")
@@ -52,6 +53,9 @@ def main():
         args.reason = input("Reason for deletion (#IssueNo): ")
 
     new_id = change_manager.merge_synset(wn, synsets, args.reason, args.lex_file)
+    
+    wn_merge()
+    wn = change_manager.load_wordnet()
 
     for synset in synsets:
         change_manager.delete_synset(wn, synset, 
