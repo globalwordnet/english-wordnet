@@ -3197,6 +3197,18 @@
       <Lemma writtenForm="cosecant" partOfSpeech="n"/>
       <Sense id="ewn-cosecant-n-13811214-01" n="0" synset="ewn-13811214-n" dc:identifier="cosecant%1:24:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Douglas_sea_scale-n">
+      <Lemma writtenForm="Douglas sea scale" partOfSpeech="n"/>
+      <Sense id="ewn-Douglas_sea_scale-n-80870371-01" n="0" synset="ewn-80870371-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-Douglas_scale-n">
+      <Lemma writtenForm="Douglas scale" partOfSpeech="n"/>
+      <Sense id="ewn-Douglas_scale-n-80870371-01" n="0" synset="ewn-80870371-n"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-international_sea_and_swell_scale-n">
+      <Lemma writtenForm="international sea and swell scale" partOfSpeech="n"/>
+      <Sense id="ewn-international_sea_and_swell_scale-n-80870371-01" n="0" synset="ewn-80870371-n"/>
+    </LexicalEntry>
     <!-- dealings, relations -->
     <Synset id="ewn-13802661-n" ili="i109327" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
@@ -5641,6 +5653,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13874280-n"/> <!-- moment magnitude scale -->
       <SynsetRelation relType="hyponym" target="ewn-13874592-n"/> <!-- temperature scale -->
       <SynsetRelation relType="hyponym" target="ewn-13875743-n"/> <!-- wage scale, wage schedule -->
+      <SynsetRelation relType="hyponym" target="ewn-80870371-n"/>
       <Example>&quot;judging on a scale of 1 to 10&quot;</Example>
     </Synset>
     <!-- Beaufort scale, wind scale -->
@@ -5975,6 +5988,10 @@
       <Definition>the relation between opposing principles or forces or factors</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13876846-n"/> <!-- oppositeness, opposition -->
       <Example>&quot;the inherent antagonism of capitalism and socialism&quot;</Example>
+    </Synset>
+    <Synset id="ewn-80870371-n" ili="in" partOfSpeech="n" dc:subject="noun.relation">
+      <Definition>scale used for measuring the height of waves</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
     </Synset>
   </Lexicon>
 </LexicalResource>
