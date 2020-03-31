@@ -1793,7 +1793,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-offer-v">
       <Lemma writtenForm="offer" partOfSpeech="v"/>
-      <Sense id="ewn-offer-v-02301687-01" n="0" synset="ewn-02301687-v" dc:identifier="offer%2:40:02::">
+      <Sense id="ewn-offer-v-02332196-05" n="0" synset="ewn-02332196-v" dc:identifier="offer%2:40:02::">
         <SenseRelation relType="derivation" target="ewn-offer-n-07199736-01"/> <!-- offering, offer -->
         </Sense>
       <Sense id="ewn-offer-v-02302103-01" n="1" synset="ewn-02302103-v" dc:identifier="offer%2:40:00::">
@@ -1813,12 +1813,12 @@
         <SenseRelation relType="derivation" target="ewn-offer-n-07179197-01"/> <!-- offering, offer -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02302703-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-offer-v-02303593-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-offer-v-02301687-01 ewn-offer-v-02302103-01 ewn-offer-v-02302370-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02 ewn-offer-v-02303593-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-offer-v-02332196-05 ewn-offer-v-02302103-01 ewn-offer-v-02302370-01 ewn-offer-v-02302703-01 ewn-offer-v-02302909-02 ewn-offer-v-02303593-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-offer-v-02302909-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-offer-v-02301687-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-offer-v-02332196-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-offer-v-02303593-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-change_hands-v">
@@ -6056,11 +6056,6 @@
       <Sense id="ewn-keep_open-v-02288561-01" n="0" synset="ewn-02288561-v" dc:identifier="keep_open%2:40:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-keep_open-v-02288561-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-deionize-v">
-      <Lemma writtenForm="deionize" partOfSpeech="v"/>
-      <Sense id="ewn-deionize-v-02369766-01" n="0" synset="ewn-02369766-v" dc:identifier="deionize%2:40:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-deionize-v-02369766-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-distribute-v">
       <Lemma writtenForm="distribute" partOfSpeech="v"/>
       <Sense id="ewn-distribute-v-02206426-01" n="3" synset="ewn-02206426-v" dc:identifier="distribute%2:40:01::">
@@ -9815,7 +9810,6 @@
       <SynsetRelation relType="hyponym" target="ewn-02369490-v"/> <!-- defat -->
       <SynsetRelation relType="hyponym" target="ewn-02369572-v"/> <!-- defibrinate -->
       <SynsetRelation relType="hyponym" target="ewn-02369667-v"/> <!-- degrease -->
-      <SynsetRelation relType="hyponym" target="ewn-02369766-v"/> <!-- deionize -->
       <SynsetRelation relType="hyponym" target="ewn-02369848-v"/> <!-- delist -->
       <SynsetRelation relType="hyponym" target="ewn-02369964-v"/> <!-- delocalize -->
       <SynsetRelation relType="hyponym" target="ewn-02370072-v"/> <!-- deoxygenate -->
@@ -10120,6 +10114,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02238680-v"/> <!-- upload -->
       <SynsetRelation relType="hyponym" target="ewn-02353564-v"/> <!-- send, institutionalise, commit, institutionalize, charge -->
       <SynsetRelation relType="hyponym" target="ewn-02367129-v"/> <!-- translocate -->
+      <SynsetRelation relType="hyponym" target="ewn-80672114-v"/>
       <Example>&quot;transfer the data&quot;</Example>
       <Example>&quot;transmit the news&quot;</Example>
       <Example>&quot;transfer the patient to another hospital&quot;</Example>
@@ -10276,11 +10271,11 @@
     </Synset>
     <!-- decline, turn down, reject, pass up, refuse -->
     <Synset id="ewn-02242120-v" ili="i32927" partOfSpeech="v" dc:subject="verb.possession">
-      <Definition>refuse to accept</Definition>
+      <Definition>not accept as true</Definition>
       <SynsetRelation relType="similar" target="ewn-00798638-v"/> <!-- spurn, disdain, turn down, pooh-pooh, freeze off, reject, scorn -->
       <SynsetRelation relType="hyponym" target="ewn-02242725-v"/> <!-- dishonour, dishonor -->
       <SynsetRelation relType="hyponym" target="ewn-02259575-v"/> <!-- bounce -->
-      <Example>&quot;He refused my offer of hospitality&quot;</Example>
+      <Example>&quot;He refused to accept what she said&quot;</Example>
     </Synset>
     <!-- honor, honour -->
     <Synset id="ewn-02242413-v" ili="i32928" partOfSpeech="v" dc:subject="verb.possession">
@@ -10659,10 +10654,10 @@
     </Synset>
     <!-- de-access -->
     <Synset id="ewn-02252557-v" ili="i32976" partOfSpeech="v" dc:subject="verb.possession">
-      <Definition>dispose of by selling</Definition>
+      <Definition>dispose of an item in a collection by selling it off</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02227100-v"/> <!-- dispose, toss, cast out, cast away, fling, throw out, put away, toss away, cast aside, chuck out, throw away, discard, toss out -->
-      <Example>&quot;the museum sold off its collection of French impressionists to raise money&quot;</Example>
-      <Example>&quot;the publishing house sold off one of its popular magazines&quot;</Example>
+      <Example>&quot;the museum de-accessed its collection of French impressionists to raise money&quot;</Example>
+      <Example>&quot;the publishing house de-accessed one of its popular magazines&quot;</Example>
     </Synset>
     <!-- recover, retrieve, regain, find -->
     <Synset id="ewn-02252785-v" ili="i32977" partOfSpeech="v" dc:subject="verb.possession">
@@ -12323,14 +12318,6 @@
       <Definition>offer or present for acceptance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02205200-v"/> <!-- present, gift, give -->
     </Synset>
-    <!-- offer -->
-    <Synset id="ewn-02301687-v" ili="i33214" partOfSpeech="v" dc:subject="verb.possession">
-      <Definition>make available or accessible, provide or furnish</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02332196-v"/> <!-- supply, render, furnish, provide -->
-      <SynsetRelation relType="hyponym" target="ewn-00783699-v"/> <!-- accost, solicit, hook -->
-      <Example>&quot;The conference center offers a health spa&quot;</Example>
-      <Example>&quot;The hotel offers private meeting rooms&quot;</Example>
-    </Synset>
     <!-- signalise, signalize -->
     <Synset id="ewn-02301945-v" ili="i33215" partOfSpeech="v" dc:subject="verb.possession">
       <Definition>provide with traffic signals</Definition>
@@ -13432,7 +13419,6 @@
       <SynsetRelation relType="hyponym" target="ewn-02231162-v"/> <!-- terrasse, terrace -->
       <SynsetRelation relType="hyponym" target="ewn-02231341-v"/> <!-- dado -->
       <SynsetRelation relType="hyponym" target="ewn-02231488-v"/> <!-- innervate -->
-      <SynsetRelation relType="hyponym" target="ewn-02301687-v"/> <!-- offer -->
       <SynsetRelation relType="hyponym" target="ewn-02301945-v"/> <!-- signalise, signalize -->
       <SynsetRelation relType="hyponym" target="ewn-02302909-v"/> <!-- extend, offer -->
       <SynsetRelation relType="hyponym" target="ewn-02328055-v"/> <!-- stock -->
@@ -13521,7 +13507,10 @@
       <SynsetRelation relType="hyponym" target="ewn-02371883-v"/> <!-- headquarter -->
       <SynsetRelation relType="hyponym" target="ewn-02662486-v"/> <!-- shelter -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02347128-v"/> <!-- supplement -->
+      <SynsetRelation relType="hyponym" target="ewn-00783699-v"/>
       <Example>&quot;We provided the room with an electrical heater&quot;</Example>
+      <Example>&quot;The conference center offers a health spa&quot;</Example>
+      <Example>&quot;The hotel offers private meeting rooms&quot;</Example>
     </Synset>
     <!-- tube -->
     <Synset id="ewn-02334288-v" ili="i33373" partOfSpeech="v" dc:subject="verb.possession">
@@ -14847,11 +14836,6 @@
     <!-- degrease -->
     <Synset id="ewn-02369667-v" ili="i33582" partOfSpeech="v" dc:subject="verb.possession">
       <Definition>remove grease or oil from (a pan)</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02228837-v"/> <!-- get rid of, remove -->
-    </Synset>
-    <!-- deionize -->
-    <Synset id="ewn-02369766-v" ili="i33583" partOfSpeech="v" dc:subject="verb.possession">
-      <Definition>remove ions from</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02228837-v"/> <!-- get rid of, remove -->
     </Synset>
     <!-- delist -->

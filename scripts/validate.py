@@ -10,7 +10,7 @@ def check_symmetry(wn, fix):
                 synset2 = wn.synset_by_id(rel.target)
                 if not any(r for r in synset2.synset_relations if r.target == synset.id and r.rel_type == inverse_synset_rels[rel.rel_type]):
                     if fix:
-                        errors.append("python scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
+                        errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
                     else:
                         errors.append("No symmetric relation for %s =%s=> %s" % (synset.id, rel.rel_type, synset2.id))
     return errors
@@ -24,7 +24,7 @@ def check_transitive(wn, fix):
                 for rel2 in synset2.synset_relations:
                     if any(r for r in synset.synset_relations if r.target == rel2.target and r.rel_type == SynsetRelType.HYPERNYM):
                         if fix:
-                            errors.append("python scripts/change-relation.py --delete %s %s" % (synset.id, rel2.target))
+                            errors.append("python3 scripts/change-relation.py --delete %s %s" % (synset.id, rel2.target))
                         else:
                             errors.append("Transitive error for %s => %s => %s" %(synset.id, synset2.id, rel2.target))
     return errors
@@ -53,8 +53,18 @@ def check_no_loops(wn):
 
 valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
 
+valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-[nvars]-[0-9]{8}-[0-9]{2}$")
+
+valid_synset_id = re.compile("^ewn-[0-9]{8}-[nvars]$")
+
 def is_valid_id(xml_id):
     return bool(valid_id.match(xml_id))
+
+def is_valid_synset_id(xml_id):
+    return bool(valid_synset_id.match(xml_id))
+
+def is_valid_sense_id(xml_id):
+    return bool(valid_sense_id.match(xml_id))
 
 def main():
     wn = parse_wordnet("wn.xml")
@@ -74,14 +84,14 @@ def main():
             print("ERROR: Invalid ID " + entry.id)
             errors += 1
         for sense in entry.senses:
-            if not is_valid_id(sense.id):
+            if not is_valid_sense_id(sense.id):
                 if fix:
                     sys.stderr.write("Cannot be fixed")
                     sys.exit(-1)
                 print("ERROR: Invalid ID " + sense.id)
                 errors += 1
     for synset in wn.synsets:
-        if not is_valid_id(synset.id):
+        if not is_valid_synset_id(synset.id):
             if fix:
                 sys.stderr.write("Cannot be fixed")
                 sys.exit(-1)

@@ -14,13 +14,15 @@ def main():
     parser.add_argument('--delete', action='store_true',
             help="Remove this synset")
     parser.add_argument('--reason', type=str,
-            help="The reason for a deletion or merge")
+            help="The reason for a deletion or merge (required for deletion)")
     parser.add_argument('--definition', type=str,
             help="The definition of the new synset")
     parser.add_argument('--lexfile', type=str,
             help="The lexicographer file to write the synset to")
     parser.add_argument('--pos', type=str,
             help="The part of speech (n|v|a|r|s)")
+    parser.add_argument('--supersededby', type=str,
+            help="The ID of the superseding synset (required for deletion)")
 
 
     args = parser.parse_args()
@@ -46,6 +48,18 @@ def main():
             print("Could not find synset")
             sys.exit(-1)
 
+        if not args.reason:
+            args.reason = input("Reason for deletion with (#IssueNo): ")
+
+        if not args.supersededby:
+            args.supersededby = "ewn-" + input("Enter superseding synset ID: ewn-")
+
+        supersede_synset = wn.synset_by_id(args.supersededby)
+
+        if not supersede_synset:
+            print("Could not find synset")
+            sys.exit(-1)
+
     if args.add:
         if not args.definition:
             args.definition = input("Definition: ")
@@ -61,11 +75,7 @@ def main():
         if not args.reason:
             print("Please give a reason for deletion")
             sys.exit(-1)
-        change_manager.delete_synset(wn, synset)
-
-        with open("src/deprecations.csv",'a') as f:
-            writer = csv.writer(f)
-            writer.writerow([synset.id, synset.ili, '', '', args.reason])
+        change_manager.delete_synset(wn, synset, supersede_synset, args.reason)
     else:
         print("No action chosen")
         sys.exit(-1)
