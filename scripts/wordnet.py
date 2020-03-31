@@ -165,7 +165,7 @@ class Sense:
 
 class Synset:
     """The synset is a collection of synonyms"""
-    def __init__(self, id, ili, part_of_speech, lex_name):
+    def __init__(self, id, ili, part_of_speech, lex_name, source=None):
         self.id = id
         self.ili = ili
         self.part_of_speech = part_of_speech
@@ -174,6 +174,7 @@ class Synset:
         self.ili_definition = None
         self.synset_relations = []
         self.examples = []
+        self.source = source
 
     def add_definition(self, definition, is_ili=False):
         if is_ili:
@@ -193,8 +194,11 @@ class Synset:
         if self.id in comments:
             xml_file.write("""    <!-- %s -->
 """ % comments[self.id])
-        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s">
-""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name))
+        source_tag = ""
+        if self.source:
+            source_tag = " dc:source=\"%s\"" % (self.source)
+        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
+""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name, source_tag))
         for defn in self.definitions:
             defn.to_xml(xml_file)
         if self.ili_definition:
@@ -224,11 +228,17 @@ class Definition:
 
 
 class Example:
-    def __init__(self, text):
+    def __init__(self, text, source=None):
         self.text = text
+        self.source = source
 
     def to_xml(self, xml_file):
-        xml_file.write("""      <Example>%s</Example>
+        if self.source:
+            xml_file.write("""      <Example dc:source=\"%s\">%s</Example>
+""" % (self.source, escape_xml_lit(self.text)))
+
+        else:
+            xml_file.write("""      <Example>%s</Example>
 """ % escape_xml_lit(self.text))
 
 
@@ -466,6 +476,7 @@ class WordNetContentHandler(ContentHandler):
         self.defn = None
         self.ili_defn = None
         self.example = None
+        self.example_source = None
         self.synset = None
 
     def startElement(self, name, attrs):
@@ -488,13 +499,15 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),
-                attrs.get("dc:subject",""))
+                attrs.get("dc:subject",""),
+                attrs.get("dc:source",""))
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
             self.ili_defn = ""
         elif name == "Example":
             self.example = ""
+            self.example_source = attrs.get("dc:source")
         elif name == "SynsetRelation":
             self.synset.add_synset_relation(
                     SynsetRelation(attrs["target"],
@@ -530,7 +543,7 @@ class WordNetContentHandler(ContentHandler):
             self.synset.add_definition(Definition(self.ili_defn), True)
             self.ili_defn = None
         elif name == "Example":
-            self.synset.add_example(Example(self.example))
+            self.synset.add_example(Example(self.example, self.example_source))
             self.example = None
 
 
