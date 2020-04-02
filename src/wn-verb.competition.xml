@@ -4872,7 +4872,18 @@
     <LexicalEntry id="ewn-side_with-v">
       <Lemma writtenForm="side with" partOfSpeech="v"/>
       <Sense id="ewn-side_with-v-01151176-03" n="0" synset="ewn-01151176-v" dc:identifier="side_with%2:33:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ---s somebody" senses="ewn-side_with-v-01151176-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-side_with-v-01151176-03"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-bench-v">
+      <Lemma writtenForm="bench" partOfSpeech="v"/>
+      <Sense id="ewn-bench-v-91000211-01" n="2" synset="ewn-91000211-v" dc:identifier="bench%2:04:01::"/>
+      <Sense id="ewn-bench-v-91000201-01" n="3" synset="ewn-91000201-v" dc:identifier="bench%2:04:02::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-bench-v-91000211-01 ewn-bench-v-91000201-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-squat-v">
+      <Lemma writtenForm="squat" partOfSpeech="v"/>
+      <Sense id="ewn-squat-v-91001101-01" n="3" synset="ewn-91001101-v" dc:identifier="squat%2:04:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-squat-v-91001101-01"/>
     </LexicalEntry>
     <!-- contend, vie, compete -->
     <Synset id="ewn-01074673-v" ili="i26951" partOfSpeech="v" dc:subject="verb.competition">
@@ -8063,6 +8074,20 @@
       <Definition>lose a game in which one is serving</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01102003-v"/> <!-- lose -->
       <SynsetRelation relType="domain_topic" target="ewn-00483309-n"/> <!-- lawn tennis, tennis -->
+    </Synset>
+    <Synset id="ewn-91000211-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+      <Definition>To lift a weight using a bench press</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
+      <SynsetRelation relType="also" target="ewn-00627814-n"/> <!-- bench press -->
+    </Synset>
+    <Synset id="ewn-91000201-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+      <Definition>To exercise using a bench press</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
+      <SynsetRelation relType="also" target="ewn-00627814-n"/> <!-- bench press -->
+    </Synset>
+    <Synset id="ewn-91001101-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+      <Definition>to perform the squat weightlifting exercise</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-00627428-n"/> <!-- weightlift, weightlifting -->
     </Synset>
   </Lexicon>
 </LexicalResource>

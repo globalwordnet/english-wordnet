@@ -1,6 +1,8 @@
 from wordnet import *
 import re
 import sys
+import glob
+import sense_keys
 
 def check_symmetry(wn, fix):
     errors = []
@@ -57,6 +59,37 @@ def check_not_empty(wn, ss):
     else:
         return True
 
+def check_lex_files(wn):
+    pos_map = {
+            "nou": PartOfSpeech.NOUN,
+            "ver": PartOfSpeech.VERB,
+            "adj": PartOfSpeech.ADJECTIVE,
+            "adv": PartOfSpeech.ADVERB
+            }
+    errors = 0
+    for f in glob.glob("src/wn-*.xml"):
+        lexfile = f[7:-4]
+        lex_pos = pos_map[lexfile[:3]]
+        swn = parse_wordnet(f)
+        for synset in swn.synsets:
+            if synset.lex_name != lexfile:
+                print("%s declared in %s but listed as %s" % (synset.id, lexfile, synset.lex_name))
+                errors += 1
+            if not equal_pos(lex_pos, synset.part_of_speech):
+                print("%s declared in %s but has wrong POS %s" % (synset.id, lexfile, synset.part_of_speech))
+                errors += 1
+        for entry in swn.entries:
+            for sense in entry.senses:
+                if not sense.sense_key:
+                    print("%s does not have a sense key" % (sense.id))
+                    errors += 1
+                if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
+                    print("%s has declared key %s but should be %s" % (sense.id, 
+                        sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
+                    errors += 1
+            
+    return errors
+
 valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
 
 valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-[nvars]-[0-9]{8}-[0-9]{2}$")
@@ -82,6 +115,8 @@ def main():
 
     errors = 0
 
+    errors += check_lex_files(wn)
+
     for entry in wn.entries:
         if not is_valid_id(entry.id):
             if fix:
@@ -106,6 +141,12 @@ def main():
         if not check_not_empty(wn, synset):
             print("ERROR: Empty synset " + synset.id)
             errors += 1
+
+        for sr in synset.synset_relations:
+            if (sr.rel_type == SynsetRelType.HYPERNYM and 
+                    not equal_pos(synset.part_of_speech, wn.synset_by_id(sr.target).part_of_speech)):
+                print("ERROR: Cross-part-of-speech hypernym %s => %s" % (synset.id, sr.target))
+                errors += 1
 
     for error in check_symmetry(wn, fix):
         if fix:

@@ -1182,7 +1182,7 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-extinguish-v-00472642-01 ewn-extinguish-v-00479148-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-extinguish-v-00471632-03 ewn-extinguish-v-00472642-01 ewn-extinguish-v-00479148-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-extinguish-v-00472642-01 ewn-extinguish-v-00479148-02 ewn-extinguish-v-01213186-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-extinguish-v-00472642-01 ewn-extinguish-v-00479148-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-extinguish-v-00471632-03 ewn-extinguish-v-00472642-01 ewn-extinguish-v-00479148-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-rev-v">
@@ -19774,10 +19774,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-polymerise-v-00267472-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-polymerise-v-00267472-02"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-press_out-v">
-      <Lemma writtenForm="press out" partOfSpeech="v"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-press_out-v-01213186-06"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-proportion-v">
       <Lemma writtenForm="proportion" partOfSpeech="v"/>
       <Sense id="ewn-proportion-v-00151099-01" n="1" synset="ewn-00151099-v" dc:identifier="proportion%2:30:00::">
@@ -24733,10 +24729,10 @@
       <Sense id="ewn-unfriend-v-90016131-01" n="0" synset="ewn-90016131-v" dc:identifier="unfriend%2:30:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-unfriend-v-90016131-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-untag-n">
-      <Lemma writtenForm="untag" partOfSpeech="n"/>
-      <Sense id="ewn-untag-n-90004911-01" n="0" synset="ewn-90004911-n" dc:identifier="untag%1:30:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-untag-n-90004911-01"/>
+    <LexicalEntry id="ewn-untag-v">
+      <Lemma writtenForm="untag" partOfSpeech="v"/>
+      <Sense id="ewn-untag-v-90004911-01" n="0" synset="ewn-90004911-v" dc:identifier="untag%1:30:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-untag-v-90004911-01"/>
     </LexicalEntry>
     <!-- change -->
     <Synset id="ewn-00109468-v" ili="i22325" partOfSpeech="v" dc:subject="verb.change">
@@ -41647,7 +41643,7 @@
     <Synset id="ewn-00572138-v" ili="i24603" partOfSpeech="v" dc:subject="verb.change">
       <Definition>get rid of something abstract</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00572350-v"/> <!-- wash away -->
-      <SynsetRelation relType="hyponym" target="ewn-90004911-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-90004911-v"/>
       <Example>&quot;The death of her mother removed the last obstacle to their marriage&quot;</Example>
       <Example>&quot;God takes away your sins&quot;</Example>
     </Synset>
@@ -42335,7 +42331,7 @@
       <Definition>To remove someone from your list of friends on a social network</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00173351-v"/> <!-- take, take away, withdraw, remove -->
     </Synset>
-    <Synset id="ewn-90004911-n" ili="in" partOfSpeech="n" dc:subject="verb.change" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90004911-v" ili="in" partOfSpeech="v" dc:subject="verb.change" dc:source="Colloquial WordNet">
       <Definition>to remove a metadata tag from an internet post</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00572138-v"/> <!-- take away, remove -->
     </Synset>
