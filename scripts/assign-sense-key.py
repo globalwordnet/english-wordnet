@@ -62,7 +62,7 @@ ss_types = {
         }
 
 sense_id_lex_id = re.compile(".*%\d:\d\d:(\d\d):.*")
-id_lemma = re.compile("ewn-(.*)-a-\d{8}-\d{2}")
+id_lemma = re.compile("ewn-(.*)-[as]-\d{8}-\d{2}")
 
 def gen_lex_id(swn, e, s):
     max_id = 0
@@ -99,6 +99,8 @@ def get_head_word(wn, s):
         s2s = sorted(s2s, key = lambda s2: s2.id[-2:])
         s2 = s2s[0]
 
+        if not re.match(id_lemma, s2.id):
+            print(s2.id)
         entry_id = re.match(id_lemma, s2.id).group(1)
         if s2.sense_key:
             return entry_id, re.match(sense_id_lex_id, s2.sense_key).group(1)
