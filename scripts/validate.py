@@ -145,11 +145,26 @@ def main():
             print("ERROR: Empty synset " + synset.id)
             errors += 1
 
+        similars = 0
         for sr in synset.synset_relations:
             if (sr.rel_type == SynsetRelType.HYPERNYM and 
                     not equal_pos(synset.part_of_speech, wn.synset_by_id(sr.target).part_of_speech)):
                 print("ERROR: Cross-part-of-speech hypernym %s => %s" % (synset.id, sr.target))
                 errors += 1
+            if sr.rel_type == SynsetRelType.SIMILAR:
+                if (not equal_pos(synset.part_of_speech, PartOfSpeech.VERB) and
+                    not equal_pos(synset.part_of_speech, PartOfSpeech.ADJECTIVE)):
+                    print("ERROR: similar not between verb/adjective %s => %s" % (synset.id, sr.target))
+                    errors += 1
+                similars += 1
+                if similars > 1 and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
+                    print("ERROR: satellite of more than one synset %s" % (synset.id))
+                    errors += 1
+
+        if synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and similars == 0:
+            print("ERROR: satellite must have at least one similar link %s" % (synset.id))
+            errors += 1
+
 
     for error in check_symmetry(wn, fix):
         if fix:
