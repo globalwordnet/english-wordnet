@@ -4872,10 +4872,18 @@
     <LexicalEntry id="ewn-side_with-v">
       <Lemma writtenForm="side with" partOfSpeech="v"/>
       <Sense id="ewn-side_with-v-01151176-03" n="0" synset="ewn-01151176-v" dc:identifier="side_with%2:33:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-side_with-v-01151176-03"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-overhead_press-n">
-      <Lemma writtenForm="overhead press" partOfSpeech="n"/>
-      <Sense id="ewn-overhead_press-n-91001321-01" n="0" synset="ewn-91001321-n" dc:identifier="overhead_press%1:33:01::"/>
+    <LexicalEntry id="ewn-bench-v">
+      <Lemma writtenForm="bench" partOfSpeech="v"/>
+      <Sense id="ewn-bench-v-91000211-01" n="2" synset="ewn-91000211-v" dc:identifier="bench%2:04:01::"/>
+      <Sense id="ewn-bench-v-91000201-01" n="3" synset="ewn-91000201-v" dc:identifier="bench%2:04:02::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-bench-v-91000211-01 ewn-bench-v-91000201-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-squat-v">
+      <Lemma writtenForm="squat" partOfSpeech="v"/>
+      <Sense id="ewn-squat-v-91001101-01" n="3" synset="ewn-91001101-v" dc:identifier="squat%2:04:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-squat-v-91001101-01"/>
     </LexicalEntry>
     <!-- contend, vie, compete -->
     <Synset id="ewn-01074673-v" ili="i26951" partOfSpeech="v" dc:subject="verb.competition">
@@ -7825,11 +7833,13 @@
       <SynsetRelation relType="hypernym" target="ewn-01120867-v"/> <!-- aggress, attack -->
       <SynsetRelation relType="domain_topic" target="ewn-00469555-n"/> <!-- football, football game -->
     </Synset>
-    <!-- weightlift, weight-lift, press -->
+    <!-- weightlift, weightlifting -->
     <Synset id="ewn-01152836-v" ili="i27376" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>lift weights</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00099475-v"/> <!-- exercise, work out -->
-      <SynsetRelation relType="hyponym" target="ewn-91001321-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-91000201-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91000211-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91001101-v"/>
       <Example>&quot;This guy can press 300 pounds&quot;</Example>
     </Synset>
     <!-- direct, target, aim, point, place -->
@@ -8068,9 +8078,17 @@
       <SynsetRelation relType="hypernym" target="ewn-01102003-v"/> <!-- lose -->
       <SynsetRelation relType="domain_topic" target="ewn-00483309-n"/> <!-- lawn tennis, tennis -->
     </Synset>
-    <Synset id="ewn-91001321-n" ili="in" partOfSpeech="n" dc:subject="verb.competition" dc:source="Colloquial WordNet">
-      <Definition>a weight training exercise, typically performed while standing, in which a weight is pressed straight upwards from the shoulders until the arms are locked out overhead</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weight-lift, press -->
+    <Synset id="ewn-91000211-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
+      <Definition>To lift a weight using a bench press</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
+    </Synset>
+    <Synset id="ewn-91000201-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
+      <Definition>To exercise using a bench press</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
+    </Synset>
+    <Synset id="ewn-91001101-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
+      <Definition>to perform the squat weightlifting exercise</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
     </Synset>
   </Lexicon>
 </LexicalResource>

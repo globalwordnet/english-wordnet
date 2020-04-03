@@ -293,6 +293,11 @@ class PartOfSpeech(Enum):
     OTHER = 'x'
     UNKNOWN = 'u'
 
+def equal_pos(pos1, pos2):
+    return (pos1 == pos2 
+            or pos1 == PartOfSpeech.ADJECTIVE and pos2 == PartOfSpeech.ADJECTIVE_SATELLITE
+            or pos2 == PartOfSpeech.ADJECTIVE and pos1 == PartOfSpeech.ADJECTIVE_SATELLITE)
+
 class SynsetRelType(Enum):
     AGENT = 'agent'
     ALSO = 'also'

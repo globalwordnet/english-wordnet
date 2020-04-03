@@ -7716,6 +7716,7 @@
         <SenseRelation relType="derivation" target="ewn-lack-n-14472871-01"/> <!-- lack, deficiency, want -->
         </Sense>
       <Sense id="ewn-lack-v-90012531-01" n="1" synset="ewn-90012531-v" dc:identifier="lack%2:42:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-lack-v-90012531-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-lack-v-02638434-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-lack-v-02638434-02"/>
     </LexicalEntry>
@@ -8381,20 +8382,23 @@
     <LexicalEntry id="ewn-geek-v">
       <Lemma writtenForm="geek" partOfSpeech="v"/>
       <Sense id="ewn-geek-v-90019871-01" n="0" synset="ewn-90019871-v" dc:identifier="geek%2:42:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-geek-v-90019871-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-ball-v">
       <Lemma writtenForm="ball" partOfSpeech="v"/>
       <Sense id="ewn-ball-v-90016751-01" n="1" synset="ewn-90016751-v" dc:identifier="ball%2:42:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-peer-to-peer-a">
-      <Lemma writtenForm="peer-to-peer" partOfSpeech="a"/>
-      <Sense id="ewn-peer-to-peer-a-90009191-01" n="1" synset="ewn-90009191-a" dc:identifier="peer-to-peer%3:42:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-ball-v-90016751-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-unfollow-v">
       <Lemma writtenForm="unfollow" partOfSpeech="v"/>
       <Sense id="ewn-unfollow-v-90000251-01" n="0" synset="ewn-90000251-v" dc:identifier="unfollow%2:42:01::">
         <SenseRelation relType="antonym" target="ewn-follow-v-90000231-01"/>
         </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-unfollow-v-90000251-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-trend-v">
+      <Lemma writtenForm="trend" partOfSpeech="v"/>
+      <Sense id="ewn-trend-v-90001891-01" n="1" synset="ewn-90001891-v" dc:identifier="trend%2:00:01::"/>
     </LexicalEntry>
     <!-- be, exist -->
     <Synset id="ewn-02609706-v" ili="i34708" partOfSpeech="v" dc:subject="verb.stative">
@@ -8579,6 +8583,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02761938-v"/> <!-- swim -->
       <SynsetRelation relType="hyponym" target="ewn-02762234-v"/> <!-- belong -->
       <SynsetRelation relType="hyponym" target="ewn-90019871-v"/>
+      <SynsetRelation relType="similar" target="ewn-90001891-v"/>
       <Example>&quot;John is rich&quot;</Example>
       <Example>&quot;This is not a good answer&quot;</Example>
     </Synset>
@@ -10793,7 +10798,6 @@
       <Definition>be equal to in quality or ability</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01074673-v"/> <!-- contend, vie, compete -->
       <SynsetRelation relType="similar" target="ewn-00417926-v"/> <!-- equate, equalize, match, equal, equalise -->
-      <SynsetRelation relType="similar" target="ewn-90009191-a"/>
       <Example>&quot;Nothing can rival cotton for durability&quot;</Example>
       <Example>&quot;Your performance doesn&apos;t even touch that of your colleagues&quot;</Example>
       <Example>&quot;Her persistence and ambition only matches that of her parents&quot;</Example>
@@ -13795,13 +13799,13 @@
       <Definition>to live very well</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02620422-v"/> <!-- live -->
     </Synset>
-    <Synset id="ewn-90009191-a" ili="in" partOfSpeech="a" dc:subject="verb.stative" dc:source="Colloquial WordNet">
-      <Definition>Of a social network of equal partners able to conduct business without using a middle man</Definition>
-      <SynsetRelation relType="similar" target="ewn-02677976-v"/> <!-- touch, match, rival, equal -->
-    </Synset>
     <Synset id="ewn-90000251-v" ili="in" partOfSpeech="v" dc:subject="verb.stative" dc:source="Colloquial WordNet">
       <Definition>to stop following a user on social media</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02686624-v"/> <!-- quit, cease, stop, give up, discontinue, lay off -->
+    </Synset>
+    <Synset id="ewn-90001891-v" ili="in" partOfSpeech="v" dc:subject="verb.stative" dc:source="Colloquial WordNet">
+      <Definition>to be temporarily popular</Definition>
+      <SynsetRelation relType="similar" target="ewn-02610777-v"/> <!-- be -->
     </Synset>
   </Lexicon>
 </LexicalResource>

@@ -307,7 +307,7 @@ def change_sense_idx(wn, sense_id, new_idx):
     for f in glob("src/wn-*.xml"):
         with fileinput.FileInput(f, inplace=True) as file:
             for line in file:
-                print(line.replace(sense_id, new_sense_id), end='')
+                print(line.replace(sense_id, new_sense_id).rstrip())
 
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
