@@ -78,15 +78,15 @@ def check_lex_files(wn):
             if not equal_pos(lex_pos, synset.part_of_speech):
                 print("%s declared in %s but has wrong POS %s" % (synset.id, lexfile, synset.part_of_speech))
                 errors += 1
-        for entry in swn.entries:
-            for sense in entry.senses:
-                if not sense.sense_key:
-                    print("%s does not have a sense key" % (sense.id))
-                    errors += 1
-                if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
-                    print("%s has declared key %s but should be %s" % (sense.id, 
-                        sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
-                    errors += 1
+        #for entry in swn.entries:
+        #    for sense in entry.senses:
+        #        if not sense.sense_key:
+        #            print("%s does not have a sense key" % (sense.id))
+        #            errors += 1
+        #        if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
+        #            print("%s has declared key %s but should be %s" % (sense.id, 
+        #                sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
+        #            errors += 1
             
     return errors
 

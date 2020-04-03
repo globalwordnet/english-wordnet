@@ -7833,10 +7833,13 @@
       <SynsetRelation relType="hypernym" target="ewn-01120867-v"/> <!-- aggress, attack -->
       <SynsetRelation relType="domain_topic" target="ewn-00469555-n"/> <!-- football, football game -->
     </Synset>
-    <!-- weightlift, weight-lift, press -->
+    <!-- weightlift, weightlifting -->
     <Synset id="ewn-01152836-v" ili="i27376" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>lift weights</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00099475-v"/> <!-- exercise, work out -->
+      <SynsetRelation relType="hyponym" target="ewn-91000201-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91000211-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91001101-v"/>
       <Example>&quot;This guy can press 300 pounds&quot;</Example>
     </Synset>
     <!-- direct, target, aim, point, place -->
@@ -8075,19 +8078,17 @@
       <SynsetRelation relType="hypernym" target="ewn-01102003-v"/> <!-- lose -->
       <SynsetRelation relType="domain_topic" target="ewn-00483309-n"/> <!-- lawn tennis, tennis -->
     </Synset>
-    <Synset id="ewn-91000211-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+    <Synset id="ewn-91000211-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
       <Definition>To lift a weight using a bench press</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
-      <SynsetRelation relType="also" target="ewn-00627814-n"/> <!-- bench press -->
     </Synset>
-    <Synset id="ewn-91000201-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+    <Synset id="ewn-91000201-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
       <Definition>To exercise using a bench press</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
-      <SynsetRelation relType="also" target="ewn-00627814-n"/> <!-- bench press -->
     </Synset>
-    <Synset id="ewn-91001101-v" ili="in" partOfSpeech="v" dc:subject="noun.act" dc:source="Colloquial WordNet">
+    <Synset id="ewn-91001101-v" ili="in" partOfSpeech="v" dc:subject="verb.competition" dc:source="Colloquial WordNet">
       <Definition>to perform the squat weightlifting exercise</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00627428-n"/> <!-- weightlift, weightlifting -->
+      <SynsetRelation relType="hypernym" target="ewn-01152836-v"/> <!-- weightlift, weightlifting -->
     </Synset>
   </Lexicon>
 </LexicalResource>

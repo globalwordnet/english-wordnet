@@ -8394,7 +8394,11 @@
       <Sense id="ewn-unfollow-v-90000251-01" n="0" synset="ewn-90000251-v" dc:identifier="unfollow%2:42:01::">
         <SenseRelation relType="antonym" target="ewn-follow-v-90000231-01"/>
         </Sense>
-        <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-unfollow-v-90000251-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-unfollow-v-90000251-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-trend-v">
+      <Lemma writtenForm="trend" partOfSpeech="v"/>
+      <Sense id="ewn-trend-v-90001891-01" n="1" synset="ewn-90001891-v" dc:identifier="trend%2:00:01::"/>
     </LexicalEntry>
     <!-- be, exist -->
     <Synset id="ewn-02609706-v" ili="i34708" partOfSpeech="v" dc:subject="verb.stative">
@@ -8579,6 +8583,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02761938-v"/> <!-- swim -->
       <SynsetRelation relType="hyponym" target="ewn-02762234-v"/> <!-- belong -->
       <SynsetRelation relType="hyponym" target="ewn-90019871-v"/>
+      <SynsetRelation relType="similar" target="ewn-90001891-v"/>
       <Example>&quot;John is rich&quot;</Example>
       <Example>&quot;This is not a good answer&quot;</Example>
     </Synset>
@@ -13797,6 +13802,10 @@
     <Synset id="ewn-90000251-v" ili="in" partOfSpeech="v" dc:subject="verb.stative" dc:source="Colloquial WordNet">
       <Definition>to stop following a user on social media</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02686624-v"/> <!-- quit, cease, stop, give up, discontinue, lay off -->
+    </Synset>
+    <Synset id="ewn-90001891-v" ili="in" partOfSpeech="v" dc:subject="verb.stative" dc:source="Colloquial WordNet">
+      <Definition>to be temporarily popular</Definition>
+      <SynsetRelation relType="similar" target="ewn-02610777-v"/> <!-- be -->
     </Synset>
   </Lexicon>
 </LexicalResource>
