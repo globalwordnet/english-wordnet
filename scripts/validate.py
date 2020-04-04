@@ -82,14 +82,14 @@ def check_lex_files(wn):
             if len(entry.senses) == 0:
                 print("%s is empty in %s" % (entry.id, lexfile))
                 errors += 1 
-        #    for sense in entry.senses:
-        #        if not sense.sense_key:
-        #            print("%s does not have a sense key" % (sense.id))
-        #            errors += 1
-        #        if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
-        #            print("%s has declared key %s but should be %s" % (sense.id, 
-        #                sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
-        #            errors += 1
+            for sense in entry.senses:
+                if not sense.sense_key:
+                    print("%s does not have a sense key" % (sense.id))
+                    errors += 1
+                if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
+                    print("%s has declared key %s but should be %s" % (sense.id, 
+                        sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
+                    errors += 1
             
     return errors
 

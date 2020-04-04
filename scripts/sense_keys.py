@@ -62,7 +62,7 @@ ss_types = {
         }
 
 sense_id_lex_id = re.compile(".*%\d:\d\d:(\d\d):.*")
-id_lemma = re.compile("ewn-(.*)-[as]-\d{8}-\d{2}")
+id_lemma = re.compile("ewn-(.*?)(-(a|ip|p))?-[as]-\d{8}-\d{2}")
 
 def gen_lex_id(swn, e, s):
     max_id = 0
