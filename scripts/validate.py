@@ -93,7 +93,7 @@ def check_lex_files(wn, fix):
                 calc_sense_key = sense_keys.get_sense_key(wn, swn, entry, sense, f)
                 if sense.sense_key != calc_sense_key:
                     if fix:
-                        print("sed 's/%s/%s/' src/*" % (sense.sense_key, calc_sense_key))
+                        print("sed -i 's/%s/%s/' src/*" % (sense.sense_key, calc_sense_key))
                     else:
                         print("%s has declared key %s but should be %s" % (sense.id, 
                             sense.sense_key, calc_sense_key))
