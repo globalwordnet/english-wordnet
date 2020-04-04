@@ -10,11 +10,15 @@ def check_symmetry(wn, fix):
         for rel in synset.synset_relations:
             if rel.rel_type in inverse_synset_rels:
                 synset2 = wn.synset_by_id(rel.target)
-                if not any(r for r in synset2.synset_relations if r.target == synset.id and r.rel_type == inverse_synset_rels[rel.rel_type]):
-                    if fix:
-                        errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
-                    else:
-                        errors.append("No symmetric relation for %s =%s=> %s" % (synset.id, rel.rel_type, synset2.id))
+                if not synset2:
+                    # This error only happens if the XML validation is not being carried out!
+                    print("Referencing bad synset ID %s from %s" % (rel.target, synset.id))
+                else:
+                    if not any(r for r in synset2.synset_relations if r.target == synset.id and r.rel_type == inverse_synset_rels[rel.rel_type]):
+                        if fix:
+                            errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
+                        else:
+                            errors.append("No symmetric relation for %s =%s=> %s" % (synset.id, rel.rel_type, synset2.id))
     return errors
 
 def check_transitive(wn, fix):
@@ -59,7 +63,7 @@ def check_not_empty(wn, ss):
     else:
         return True
 
-def check_lex_files(wn):
+def check_lex_files(wn, fix):
     pos_map = {
             "nou": PartOfSpeech.NOUN,
             "ver": PartOfSpeech.VERB,
@@ -86,9 +90,13 @@ def check_lex_files(wn):
                 if not sense.sense_key:
                     print("%s does not have a sense key" % (sense.id))
                     errors += 1
-                if sense.sense_key != sense_keys.get_sense_key(wn, swn, entry, sense, f):
-                    print("%s has declared key %s but should be %s" % (sense.id, 
-                        sense.sense_key, sense_keys.get_sense_key(wn, swn, entry, sense, f)))
+                calc_sense_key = sense_keys.get_sense_key(wn, swn, entry, sense, f)
+                if sense.sense_key != calc_sense_key:
+                    if fix:
+                        print("sed -i 's/%s/%s/' src/*" % (sense.sense_key, calc_sense_key))
+                    else:
+                        print("%s has declared key %s but should be %s" % (sense.id, 
+                            sense.sense_key, calc_sense_key))
                     errors += 1
             
     return errors
@@ -118,7 +126,7 @@ def main():
 
     errors = 0
 
-    errors += check_lex_files(wn)
+    errors += check_lex_files(wn, fix)
 
     for entry in wn.entries:
         if entry.id[-1:] != entry.lemma.part_of_speech.value:
