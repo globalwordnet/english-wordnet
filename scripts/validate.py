@@ -121,6 +121,9 @@ def main():
     errors += check_lex_files(wn)
 
     for entry in wn.entries:
+        if entry.id[-1:] != entry.lemma.part_of_speech.value:
+            print("ERROR: Entry ID not same as part of speech %s as %s" % (entry.id, entry.lemma.part_of_speech.value))
+            errors += 1
         if not is_valid_id(entry.id):
             if fix:
                 sys.stderr.write("Cannot be fixed")
@@ -134,7 +137,14 @@ def main():
                     sys.exit(-1)
                 print("ERROR: Invalid ID " + sense.id)
                 errors += 1
+            synset = wn.synset_by_id(sense.synset)
+            if entry.lemma.part_of_speech != synset.part_of_speech:
+                print("ERROR: Part of speech of entry not the same as synset %s in %s" % (entry.id, synset.id))
+                errors += 1
     for synset in wn.synsets:
+        if synset.id[-1:] != synset.part_of_speech.value:
+            print("ERROR: Synset ID not same as part of speech %s as %s" % (synset.id, synset.part_of_speech.value))
+            errors += 1
         if not is_valid_synset_id(synset.id):
             if fix:
                 sys.stderr.write("Cannot be fixed")
