@@ -22,6 +22,14 @@ def update_def(wn, synset, defn, add):
     with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
+def update_ili_def(wn, synset, defn):
+    wn_synset = wordnet.parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    ss = wn_synset.synset_by_id(synset.id)
+    ss.ili_definition = wordnet.Definition(defn)
+    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+        wn_synset.to_xml(out, True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Change a definition within the wordnet")
     parser.add_argument('id', metavar='ID', type=str, nargs="?",
@@ -30,6 +38,8 @@ def main():
             help="Add the new definition and retain the previous definition (otherwise this definition replaces previous definitions)")
     parser.add_argument('--defn', type=str,
             help="The new definition")
+    parser.add_argument('--ili', action='store_true',
+            help="Set the ILI definition")
 
     args = parser.parse_args()
 
@@ -52,13 +62,19 @@ def main():
         print("Could not find the synset %s" % args.id)
         sys.exit(-1)
 
-    if not args.defn:
-        print("Definition     : " + synset.definitions[0].text)
-        defn = input("New Definition : ")
-    else:
-        defn = args.defn
+    if args.ili:
+        if not args.defn:
+            args.defn = synset.definitions[0].text
 
-    update_def(wn, synset, defn, args.add)
+        update_ili_def(wn, synset, args.defn)
+    else:
+        if not args.defn:
+            print("Definition     : " + synset.definitions[0].text)
+            defn = input("New Definition : ")
+        else:
+            defn = args.defn
+
+        update_def(wn, synset, defn, args.add)
 
 if __name__ == "__main__":
     main()

@@ -63,6 +63,17 @@ def check_not_empty(wn, ss):
     else:
         return True
 
+def check_ili(ss, fix):
+    errors = 0
+    if (not ss.ili or ss.ili == "in") and not ss.ili_definition:
+        if fix:
+            print("python3 scripts/change-definition.py --ili %s" % ss.id)
+        else:
+            print("%s does not have an ILI definition" % ss.id)
+        errors += 1
+    return errors
+
+
 def check_lex_files(wn, fix):
     pos_map = {
             "nou": PartOfSpeech.NOUN,
@@ -162,6 +173,8 @@ def main():
         if not check_not_empty(wn, synset):
             print("ERROR: Empty synset " + synset.id)
             errors += 1
+
+        errors += check_ili(synset, fix)
 
         similars = 0
         for sr in synset.synset_relations:
