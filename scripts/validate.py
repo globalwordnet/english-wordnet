@@ -167,9 +167,9 @@ def main():
                         and not equal_pos(ss_source.part_of_speech, PartOfSpeech.ADVERB))):
                         print("ERROR: Pertainyms should be between adjectives %s => %s" % (sense.id, sr.target))
                         errors += 1
-                #if sr.target == sense.id:
-                #    print("ERROR: Reflexive sense relation %s" % (sense.id))
-                #    errors += 1 
+                if sr.target == sense.id:
+                    print("ERROR: Reflexive sense relation %s" % (sense.id))
+                    errors += 1 
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
             print("ERROR: Synset ID not same as part of speech %s as %s" % (synset.id, synset.part_of_speech.value))
@@ -204,9 +204,9 @@ def main():
             if sr.rel_type == SynsetRelType.ANTONYM:
                 print("ERROR: antonymy should be at the sense level %s => %s" % (synset.id, sr.target))
                 errors += 1
-            #if sense.id == sr.target:
-            #    print("ERROR: reflexive synset relation for %s" % (synset.id))
-            #    errors += 1
+            if sense.id == sr.target:
+                print("ERROR: reflexive synset relation for %s" % (synset.id))
+                errors += 1
 
         if synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and similars == 0:
             print("ERROR: satellite must have at least one similar link %s" % (synset.id))
