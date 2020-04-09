@@ -20,6 +20,7 @@ class Lexicon:
         self.id2entry = {}
         self.member2entry = {}
         self.members = {}
+        self.sense2synset = {}
 
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (self.id, 
@@ -33,6 +34,7 @@ class Lexicon:
             if sense.synset not in self.members:
                 self.members[sense.synset] = []
             self.members[sense.synset].append(entry.lemma.written_form)
+            self.sense2synset[sense.id] = sense.synset
         if entry.lemma.written_form not in self.member2entry:
             self.member2entry[entry.lemma.written_form] = []
         self.member2entry[entry.lemma.written_form].append(entry.id)
@@ -53,6 +55,9 @@ class Lexicon:
 
     def members_by_id(self, synset_id):
         return self.members.get(synset_id)
+
+    def sense_to_synset(self, sense_id):
+        return self.sense2synset[sense_id]
 
     def to_xml(self, xml_file, part=True):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
