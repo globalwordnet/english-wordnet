@@ -212,6 +212,14 @@ def main():
             print("ERROR: satellite must have at least one similar link %s" % (synset.id))
             errors += 1
 
+        if len(synset.definitions) == 0:
+            print("ERROR: synset without definition %s" % (synset.id))
+            errors += 1
+        for defn in synset.definitions:
+            if len(defn.text) == 0:
+                print("ERROR: empty definition for %s" % (synset.id))
+                errors += 1
+
 
     for error in check_symmetry(wn, fix):
         if fix:
