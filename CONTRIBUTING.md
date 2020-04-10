@@ -18,7 +18,7 @@ Further, if the solution to the issue is clear, please provide on the following 
 * `add relation`: The relation between two synsets (senses) is not correct
 * `change relation`: A relation is wrong either in type (e.g., `hypernym` vs. `instance_hypernym`) or target
 * `example`: An example should be updated
-* `new synset`: A new concept should be introduced
+* `new synset`: A new concept should be introduced. Please first check the [guidelines for adding new sense](NEW_SYNSETS.md) before adding a new synset.
 * `remove relation`: A relation should be removed
 * `delete synset`: A synset should be deleted. (This is used only rarely for truly nonsense or compositional concepts)
 * `synset duplicate`: Two synsets refer to the same concept and should be merged. 
