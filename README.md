@@ -53,4 +53,12 @@ Please be aware that we use the [Global WordNet Association LMF](https://globalw
 
 WordNet is released under [CC-BY 4.0](LICENSE.md)
 
+## Contributors
 
+* John P. McCrae
+* Alexandre Rademaker
+* Ewa Rudnicka
+* Bernard Bou
+* Daiki Nomura
+* David Cillessen
+* Francis Bond
