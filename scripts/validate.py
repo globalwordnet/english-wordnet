@@ -36,26 +36,24 @@ def check_transitive(wn, fix):
     return errors
 
 def check_no_loops(wn):
-    errors = []
-    chains = []
+    hypernyms = {}
     for synset in wn.synsets:
-        c2 = []
-        i = 0
-        while i < len(chains):
-            if chains[i][-1] == synset.id:
-                c2.append(chains.pop(i))
-            else:
-                i += 1
+        hypernyms[synset.id] = set()
         for rel in synset.synset_relations:
             if rel.rel_type == SynsetRelType.HYPERNYM:
-                for c in c2:
-                    c3 = c.copy()
-                    if any(y for y in c3 if y == rel.target):
-                        errors.append("Loop in chain %s => %s " % (c3, rel.target))
-                    c3.append(rel.target)
-                    chains.append(c3)
-
-    return errors
+                hypernyms[synset.id].add(rel.target)
+    changed = True
+    while changed:
+        changed = False
+        for synset in wn.synsets:
+            n_size = len(hypernyms[synset.id])
+            for c in hypernyms[synset.id]:
+                hypernyms[synset.id] = hypernyms[synset.id].union(hypernyms.get(c, []))
+            if len(hypernyms[synset.id]) != n_size:
+                changed = True
+            if synset.id in hypernyms[synset.id]:
+                return ["Loop for %s" % (synset.id)]
+    return []
 
 def check_not_empty(wn, ss):
     if not wn.members_by_id(ss.id):
