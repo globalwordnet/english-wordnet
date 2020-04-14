@@ -18,6 +18,7 @@ class Lexicon:
         self.comments = {}
         self.id2synset = {}
         self.id2entry = {}
+        self.id2sense = {}
         self.member2entry = {}
         self.members = {}
         self.sense2synset = {}
@@ -35,6 +36,7 @@ class Lexicon:
                 self.members[sense.synset] = []
             self.members[sense.synset].append(entry.lemma.written_form)
             self.sense2synset[sense.id] = sense.synset
+            self.id2sense[sense.id] = sense
         if entry.lemma.written_form not in self.member2entry:
             self.member2entry[entry.lemma.written_form] = []
         self.member2entry[entry.lemma.written_form].append(entry.id)
@@ -49,6 +51,9 @@ class Lexicon:
 
     def synset_by_id(self, id):
         return self.id2synset.get(id)
+
+    def sense_by_id(self, id):
+        return self.id2sense.get(id)
 
     def entry_by_lemma(self, lemma):
         return self.member2entry.get(lemma)
@@ -137,21 +142,24 @@ class Form:
 
 class Sense:
     """The sense links an entry to a synset"""
-    def __init__(self, id, synset, sense_key, n=-1):
+    def __init__(self, id, synset, sense_key, n=-1, adjposition=None):
         self.id = id
         self.synset = synset
         self.n = n
         self.sense_key = sense_key
         self.sense_relations = []
+        self.adjposition = adjposition
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
 
     def to_xml(self, xml_file, comments):
-        if self.n >= 0:
-            n_str = " n=\"%d\"" % self.n
+        if self.adjposition:
+            n_str = " adjposition=\"%s\"" % self.adjposition
         else:
             n_str = ""
+        if self.n >= 0:
+            n_str = "%s n=\"%d\"" % (n_str, self.n)
         if self.sense_key:
             sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
         else:
@@ -505,7 +513,7 @@ class WordNetContentHandler(ContentHandler):
             else:
                 n = -1
             self.sense = Sense(attrs["id"], attrs["synset"], 
-                    attrs.get("dc:identifier") or "", n)
+                    attrs.get("dc:identifier") or "", n, attrs.get("adjposition"))
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"], 
                 PartOfSpeech(attrs["partOfSpeech"]),

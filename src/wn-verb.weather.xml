@@ -10,13 +10,16 @@
            url="https://github.com/globalwordnet/english-wordnet">
     <LexicalEntry id="ewn-blaze_up-v">
       <Lemma writtenForm="blaze up" partOfSpeech="v"/>
-      <Sense id="ewn-blaze_up-v-02768764-03" n="0" synset="ewn-02768764-v" dc:identifier="blaze_up%2:43:00::"/>
+      <Sense id="ewn-blaze_up-v-02768764-03" n="0" synset="ewn-02768764-v" dc:identifier="blaze_up%2:43:00::">
+        <SenseRelation relType="also" target="ewn-blaze-v-02770396-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-blaze_up-v-02768764-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-blaze-v">
       <Lemma writtenForm="blaze" partOfSpeech="v"/>
       <Sense id="ewn-blaze-v-02770396-01" n="2" synset="ewn-02770396-v" dc:identifier="blaze%2:43:00::">
         <SenseRelation relType="derivation" target="ewn-blaze-n-13460261-01"/> <!-- blazing, blaze -->
+        <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/> <!-- blaze up, burn up, flame up, flare -->
         <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/> <!-- blaze up, burn up, flame up, flare -->
         </Sense>
       <Sense id="ewn-blaze-v-02770572-01" n="0" synset="ewn-02770572-v" dc:identifier="blaze%2:43:01::">
@@ -127,7 +130,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-flame_up-v">
       <Lemma writtenForm="flame up" partOfSpeech="v"/>
-      <Sense id="ewn-flame_up-v-02768764-02" n="0" synset="ewn-02768764-v" dc:identifier="flame_up%2:43:00::"/>
+      <Sense id="ewn-flame_up-v-02768764-02" n="0" synset="ewn-02768764-v" dc:identifier="flame_up%2:43:00::">
+        <SenseRelation relType="also" target="ewn-flame-v-02768939-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-flame_up-v-02768764-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-drench-v">
@@ -385,6 +390,8 @@
         <SenseRelation relType="derivation" target="ewn-clouding-n-13470739-01"/> <!-- clouding up, clouding -->
         <SenseRelation relType="also" target="ewn-cloud_over-v-02776978-02"/> <!-- overcloud, cloud over, cloud up -->
         <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/> <!-- overcloud, cloud over, cloud up -->
+        <SenseRelation relType="also" target="ewn-cloud_over-v-02776978-02"/> <!-- overcloud, cloud over, cloud up -->
+        <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/> <!-- overcloud, cloud over, cloud up -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-cloud-v-02776675-02"/>
     </LexicalEntry>
@@ -458,7 +465,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-cloud_over-v">
       <Lemma writtenForm="cloud over" partOfSpeech="v"/>
-      <Sense id="ewn-cloud_over-v-02776978-02" n="0" synset="ewn-02776978-v" dc:identifier="cloud_over%2:43:00::"/>
+      <Sense id="ewn-cloud_over-v-02776978-02" n="0" synset="ewn-02776978-v" dc:identifier="cloud_over%2:43:00::">
+        <SenseRelation relType="also" target="ewn-cloud-v-02776675-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-cloud_over-v-02776978-02"/>
       <SyntacticBehaviour subcategorizationFrame="It is ----ing" senses="ewn-cloud_over-v-02776978-02"/>
     </LexicalEntry>
@@ -568,7 +577,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-cloud_up-v">
       <Lemma writtenForm="cloud up" partOfSpeech="v"/>
-      <Sense id="ewn-cloud_up-v-02776978-03" n="0" synset="ewn-02776978-v" dc:identifier="cloud_up%2:43:00::"/>
+      <Sense id="ewn-cloud_up-v-02776978-03" n="0" synset="ewn-02776978-v" dc:identifier="cloud_up%2:43:00::">
+        <SenseRelation relType="also" target="ewn-cloud-v-02776675-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-cloud_up-v-02776978-03"/>
       <SyntacticBehaviour subcategorizationFrame="It is ----ing" senses="ewn-cloud_up-v-02776978-03"/>
     </LexicalEntry>
@@ -686,7 +697,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-put_out-v">
       <Lemma writtenForm="put out" partOfSpeech="v"/>
-      <Sense id="ewn-put_out-v-02766453-02" n="4" synset="ewn-02766453-v" dc:identifier="put_out%2:43:00::"/>
+      <Sense id="ewn-put_out-v-02766453-02" n="4" synset="ewn-02766453-v" dc:identifier="put_out%2:43:00::">
+        <SenseRelation relType="also" target="ewn-put-v-01496398-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-put_out-v-02766453-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-shadow-v">
@@ -820,6 +833,7 @@
         <SenseRelation relType="derivation" target="ewn-flaming-n-13502051-03"/> <!-- flame, flaming, fire -->
         </Sense>
       <Sense id="ewn-flame-v-02768939-02" n="0" synset="ewn-02768939-v" dc:identifier="flame%2:43:01::">
+        <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/> <!-- blaze up, burn up, flame up, flare -->
         <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/> <!-- blaze up, burn up, flame up, flare -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-flame-v-02765401-01 ewn-flame-v-02768939-02"/>

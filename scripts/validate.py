@@ -19,6 +19,17 @@ def check_symmetry(wn, fix):
                             errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_synset_rels[rel.rel_type].value, synset2.id, synset.id))
                         else:
                             errors.append("No symmetric relation for %s =%s=> %s" % (synset.id, rel.rel_type, synset2.id))
+    for entry in wn.entries:
+        for sense in entry.senses:
+            for rel in sense.sense_relations:
+                if rel.rel_type in inverse_sense_rels:
+                    sense2 = wn.sense_by_id(rel.target)
+                    if not any(r for r in sense2.sense_relations if r.target == sense.id and r.rel_type == inverse_sense_rels[rel.rel_type]):
+                        if fix:
+                            errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (inverse_sense_rels[rel.rel_type].value, sense2.id, sense.id))
+                        else:
+                            errors.append("No symmetric relation for %s =%s=> %s" % (sense.id, rel.rel_type, sense2.id))
+
     return errors
 
 def check_transitive(wn, fix):
