@@ -63,9 +63,9 @@ def wn_merge():
   <Lexicon id="ewn" 
            label="English WordNet"
            language="en"
-           email="john@mccr.ae"
-           license="https://wordnet.princeton.edu/license-and-commercial-use"
-           version="2019" 
+           email="english-wordnet@googlegroups.com"
+           license="https://creativecommons.org/licenses/by/4.0/"
+           version="2020" 
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
 
