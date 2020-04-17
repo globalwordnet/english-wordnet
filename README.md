@@ -14,12 +14,12 @@ through the [Collaborative Interlingual Index (CILI)](http://compling.hss.ntu.ed
 
 English WordNet is released through the [English WordNet website](https://en-word.net/). The version released are
 
-* **2020 Edition** (Released 17th April 2020). [(LMF)](https://en-word.net/english-wordnet-2020.xml.gz)
-[(RDF)](https://en-word.net/english-wordnet-2020.ttl.gz)
-[(WNDB)](https://en-word.net/english-wordnet-2020.zip)
-* **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/english-wordnet-2019.xml.gz)
-[(RDF)](https://en-word.net/english-wordnet-2019.ttl.gz)
-[(WNDB)](https://en-word.net/english-wordnet-2019.zip)
+* **2020 Edition** (Released 17th April 2020). [(LMF)](https://en-word.net/static/english-wordnet-2020.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2020.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2020.zip)
+* **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/static/english-wordnet-2019.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2019.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2019.zip)
 
 ## Usage
 
