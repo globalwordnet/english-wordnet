@@ -2,6 +2,7 @@ import yaml
 from glob import glob
 from wordnet import *
 from change_manager import escape_lemma, synset_key
+from yaml import CLoader
 
 entry_orders = {}
 
@@ -43,7 +44,7 @@ def synset_from_yaml(props, id, lex_name):
             ss.add_example(Example(example))
         else:
             ss.add_example(Example(example["text"], example["source"]))
-    for rel, targets in y.items():
+    for rel, targets in props.items():
         if rel in SynsetRelType._value2member_map_:
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
@@ -57,12 +58,13 @@ def fix_sense_id(sense, lemma, key2id):
 
 def fix_sense_rels(wn, sense, key2id):
     for rel in sense.sense_relations:
-       rel.target = key2id[rel.target[:-3]]
-       if (rel.rel_type in inverse_sense_rels 
-           and inverse_sense_rels[rel.rel_type] != rel.rel_type):
-           wn.sense_by_id(rel.target[:-3]).add_sense_relation(
-                   SenseRelation(sense.id,
-                       inverse_sense_rels[rel.rel_type]))
+        if rel.target.startswith("ewn-"):
+           rel.target = key2id[rel.target[:-3]]
+           if (rel.rel_type in inverse_sense_rels 
+               and inverse_sense_rels[rel.rel_type] != rel.rel_type):
+               wn.sense_by_id(rel.target[:-3]).add_sense_relation(
+                       SenseRelation(sense.id,
+                           inverse_sense_rels[rel.rel_type]))
 
 def fix_synset_rels(wn, synset):
     for rel in synset.synset_relations:
@@ -72,7 +74,7 @@ def fix_synset_rels(wn, synset):
                     SenseRelation(synset.id,
                         inverse_synset_rels[rel.rel_type]))
 
-if __name__ == "__main__":
+def main():
     wn = Lexicon("ewn", "Engish WordNet", "en", 
             "english-wordnet@googlegroups.com",
             "https://creativecommons.org/licenses/by/4.0",
@@ -80,7 +82,7 @@ if __name__ == "__main__":
             "https://github.com/globalwordnet/english-wordnet")
     for f in glob("src/yaml/entries-*.yaml"):
         with open(f) as inp:
-            y = yaml.load(inp, Loader=yaml.Loader)
+            y = yaml.load(inp, Loader=CLoader)
 
             for lemma, pos_map in y.items():
                 for pos, props in pos_map.items():
@@ -98,7 +100,7 @@ if __name__ == "__main__":
         lex_name = f[9:-4]
         if "entries" not in f:
             with open(f) as inp:
-                y = yaml.load(inp, Loader=yaml.Loader)
+                y = yaml.load(inp, Loader=CLoader)
 
                 for id, props in y.items():
                     wn.add_synset(synset_from_yaml(props, id, lex_name))
@@ -118,3 +120,7 @@ if __name__ == "__main__":
 
     with open("wn-from-yaml.xml","w") as outp:
         wn.to_xml(outp, True)
+
+if __name__ == "__main__":
+    main()
+
