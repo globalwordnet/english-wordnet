@@ -91,7 +91,7 @@ def main():
                     entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
                     if "form" in props:
                         for form in props["form"]:
-                            entry.add_form(form)
+                            entry.add_form(Form(form))
                     for n, sense in enumerate(props["senses"]):
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
                     wn.add_entry(entry)
