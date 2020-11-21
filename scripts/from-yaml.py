@@ -161,6 +161,12 @@ def main():
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
             wn.entries = sorted(wn.entries, key=lambda e: entry_order[e.id])
+            for entry in wn.entries:
+                if wn_lex.entry_by_id(entry.id):
+                    sense_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sense.id for sense in wn_lex.entry_by_id(entry.id).senses)])
+                    entry.senses = sorted(entry.senses, key=lambda s: sense_order[s.id])
+                else:
+                    print("not found:" + entry.id)
         with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
             wn.to_xml(outp, True)
 
