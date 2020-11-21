@@ -14,20 +14,12 @@ through the [Collaborative Interlingual Index (CILI)](http://compling.hss.ntu.ed
 
 English WordNet is released through the [English WordNet website](https://en-word.net/). The version released are
 
-* **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/english-wordnet-2019.xml.gz)
-[(RDF)](https://en-word.net/english-wordnet-2019.ttl.gz)
-[(WNDB)](https://en-word.net/english-wordnet-2019.zip)
-
-## Download
-
-The latest version can be accessed here
-
-* [As WN-LMF XML](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.xml)
-* [As RDF (TTL)](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.ttl) (the RDF TTL file contains only the instances - the Ontolex schema is also available [as RDF XML](https://www.w3.org/ns/lemon/ontolex))
-* [As WordNet database files](http://server1.nlp.insight-centre.org/enwordnet-update/english-wordnet-3.3.zip)
-
-Please note these files are automatically compiled from the HEAD of MASTER and 
-may not be available immediately after a commit.
+* **2020 Edition** (Released 17th April 2020). [(LMF)](https://en-word.net/static/english-wordnet-2020.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2020.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2020.zip)
+* **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/static/english-wordnet-2019.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2019.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2019.zip)
 
 ## Usage
 
@@ -51,6 +43,14 @@ Please be aware that we use the [Global WordNet Association LMF](https://globalw
 
 ## License
 
-WordNet is released under the [WordNet License](LICENSE.md)
+WordNet is released under [CC-BY 4.0](LICENSE.md)
 
+## Contributors
 
+* John P. McCrae
+* Alexandre Rademaker
+* Ewa Rudnicka
+* Bernard Bou
+* Daiki Nomura
+* David Cillessen
+* Francis Bond

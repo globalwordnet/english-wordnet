@@ -42,6 +42,7 @@
       <Sense id="ewn-steal-v-01892288-01" n="1" synset="ewn-01892288-v" dc:identifier="steal%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-stealing-n-01053006-02"/> <!-- stealth, stealing -->
         <SenseRelation relType="also" target="ewn-steal_away-v-02080274-02"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
+        <SenseRelation relType="also" target="ewn-steal_away-v-02080274-02"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-steal-v-01892288-01"/>
     </LexicalEntry>
@@ -67,7 +68,9 @@
     <LexicalEntry id="ewn-turn_back-v">
       <Lemma writtenForm="turn back" partOfSpeech="v"/>
       <Sense id="ewn-turn_back-v-02006752-03" n="2" synset="ewn-02006752-v" dc:identifier="turn_back%2:38:02::"/>
-      <Sense id="ewn-turn_back-v-02008542-02" n="0" synset="ewn-02008542-v" dc:identifier="turn_back%2:38:00::"/>
+      <Sense id="ewn-turn_back-v-02008542-02" n="0" synset="ewn-02008542-v" dc:identifier="turn_back%2:38:00::">
+        <SenseRelation relType="also" target="ewn-turn-v-01911251-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-turn_back-v-02006752-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-turn_back-v-02008542-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-turn_back-v-02006752-03"/>
@@ -219,6 +222,7 @@
       <Form writtenForm="swept"/>
       <Sense id="ewn-sweep-v-01873556-01" n="1" synset="ewn-01873556-v" dc:identifier="sweep%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-sweep-n-00345975-01"/> <!-- sweep -->
+        <SenseRelation relType="also" target="ewn-sweep_through-v-02528247-04"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
         <SenseRelation relType="also" target="ewn-sweep_through-v-02528247-04"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
         </Sense>
       <Sense id="ewn-sweep-v-01874036-02" n="0" synset="ewn-01874036-v" dc:identifier="sweep%2:38:01::">
@@ -495,6 +499,7 @@
       <Sense id="ewn-tide-v-01878417-01" n="1" synset="ewn-01878417-v" dc:identifier="tide%2:38:03::">
         <SenseRelation relType="derivation" target="ewn-tide-n-07417119-01"/> <!-- tide -->
         <SenseRelation relType="also" target="ewn-tide_over-v-02629427-01"/> <!-- keep going, bridge over, tide over -->
+        <SenseRelation relType="also" target="ewn-tide_over-v-02629427-01"/> <!-- keep going, bridge over, tide over -->
         </Sense>
       <Sense id="ewn-tide-v-01907749-01" n="0" synset="ewn-01907749-v" dc:identifier="tide%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-tide-n-07459095-01"/> <!-- tide -->
@@ -570,6 +575,7 @@
       <Lemma writtenForm="breeze" partOfSpeech="v"/>
       <Sense id="ewn-breeze-v-01898513-01" n="1" synset="ewn-01898513-v" dc:identifier="breeze%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-breeze-n-00576402-02"/> <!-- cinch, duck soup, picnic, child's play, piece of cake, walkover, pushover, breeze, snap -->
+        <SenseRelation relType="also" target="ewn-breeze_through-v-02528247-01"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
         <SenseRelation relType="also" target="ewn-breeze_through-v-02528247-01"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-breeze-v-01898513-01"/>
@@ -828,6 +834,7 @@
         <SenseRelation relType="derivation" target="ewn-fall-n-07384870-01"/> <!-- fall -->
         <SenseRelation relType="antonym" target="ewn-rise-v-01972576-01"/> <!-- rise, come up, arise, lift, go up, move up, uprise -->
         <SenseRelation relType="also" target="ewn-fall_in-v-01993067-02"/> <!-- give way, give, collapse, cave in, founder, fall in, break -->
+        <SenseRelation relType="also" target="ewn-fall_in-v-01993067-02"/> <!-- give way, give, collapse, cave in, founder, fall in, break -->
         </Sense>
       <Sense id="ewn-fall-v-01976312-01" n="0" synset="ewn-01976312-v" dc:identifier="fall%2:38:03::">
         <SenseRelation relType="derivation" target="ewn-faller-n-10096558-01"/> <!-- faller -->
@@ -852,7 +859,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-steal_away-v">
       <Lemma writtenForm="steal away" partOfSpeech="v"/>
-      <Sense id="ewn-steal_away-v-02080274-02" n="0" synset="ewn-02080274-v" dc:identifier="steal_away%2:38:00::"/>
+      <Sense id="ewn-steal_away-v-02080274-02" n="0" synset="ewn-02080274-v" dc:identifier="steal_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-steal-v-01892288-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-steal_away-v-02080274-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-march_out-v">
@@ -925,6 +934,7 @@
         <SenseRelation relType="derivation" target="ewn-step-n-07398423-03"/> <!-- step, footstep, footfall -->
         <SenseRelation relType="derivation" target="ewn-step-n-00286401-01"/> <!-- step -->
         <SenseRelation relType="derivation" target="ewn-step-n-13779389-03"/> <!-- step, pace, footstep, stride -->
+        <SenseRelation relType="also" target="ewn-step_out-v-02020253-01"/> <!-- step out -->
         <SenseRelation relType="also" target="ewn-step_out-v-02020253-01"/> <!-- step out -->
         </Sense>
       <Sense id="ewn-step-v-02095677-01" n="1" synset="ewn-02095677-v" dc:identifier="step%2:38:01::">
@@ -1032,6 +1042,12 @@
         <SenseRelation relType="also" target="ewn-come_through-v-02626004-04"/> <!-- survive, make it, come through, pull round, pull through -->
         <SenseRelation relType="also" target="ewn-come_up-v-01974362-02"/> <!-- rise, come up, ascend, uprise -->
         <SenseRelation relType="also" target="ewn-come_up-v-01994295-02"/> <!-- rise, come up, rise up, surface -->
+        <SenseRelation relType="also" target="ewn-come_with-v-02722040-03"/> <!-- accompany, attach to, come with, go with -->
+        <SenseRelation relType="also" target="ewn-come_through-v-02529837-03"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
+        <SenseRelation relType="also" target="ewn-come_in-v-02673478-01"/> <!-- come in -->
+        <SenseRelation relType="also" target="ewn-come_through-v-02626004-04"/> <!-- survive, make it, come through, pull round, pull through -->
+        <SenseRelation relType="also" target="ewn-come_up-v-01974362-02"/> <!-- rise, come up, ascend, uprise -->
+        <SenseRelation relType="also" target="ewn-come_up-v-01994295-02"/> <!-- rise, come up, rise up, surface -->
         </Sense>
       <Sense id="ewn-come-v-02009962-03" n="1" synset="ewn-02009962-v" dc:identifier="come%2:38:04::">
         <SenseRelation relType="derivation" target="ewn-comer-n-09829571-03"/> <!-- arriver, arrival, comer -->
@@ -1083,6 +1099,7 @@
         <SenseRelation relType="derivation" target="ewn-chaser-n-07899835-01"/> <!-- chaser -->
         <SenseRelation relType="derivation" target="ewn-chase-n-00320765-02"/> <!-- following, pursuit, chase, pursual -->
         <SenseRelation relType="also" target="ewn-chase_away-v-02006752-01"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
+        <SenseRelation relType="also" target="ewn-chase_away-v-02006752-01"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-chase-v-02005890-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-chase-v-02005890-01"/>
@@ -1111,12 +1128,16 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-intrude_on-v">
       <Lemma writtenForm="intrude on" partOfSpeech="v"/>
-      <Sense id="ewn-intrude_on-v-02023568-01" n="0" synset="ewn-02023568-v" dc:identifier="intrude_on%2:38:00::"/>
+      <Sense id="ewn-intrude_on-v-02023568-01" n="0" synset="ewn-02023568-v" dc:identifier="intrude_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-intrude-v-02022376-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-intrude_on-v-02023568-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-climb_down-v">
       <Lemma writtenForm="climb down" partOfSpeech="v"/>
-      <Sense id="ewn-climb_down-v-01982590-02" n="0" synset="ewn-01982590-v" dc:identifier="climb_down%2:38:00::"/>
+      <Sense id="ewn-climb_down-v-01982590-02" n="0" synset="ewn-01982590-v" dc:identifier="climb_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-climb-v-01925957-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-climb_down-v-01982590-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-climb_down-v-01982590-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-climb_down-v-01982590-02"/>
@@ -1228,6 +1249,7 @@
       <Lemma writtenForm="walk about" partOfSpeech="v"/>
       <Sense id="ewn-walk_about-v-01914958-02" n="0" synset="ewn-01914958-v" dc:identifier="walk_about%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-walkabout-n-00294501-01"/> <!-- walkabout -->
+        <SenseRelation relType="also" target="ewn-walk-v-01908923-01"/> <!-- walk -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-walk_about-v-01914958-02"/>
     </LexicalEntry>
@@ -1249,6 +1271,7 @@
     <LexicalEntry id="ewn-edge-v">
       <Lemma writtenForm="edge" partOfSpeech="v"/>
       <Sense id="ewn-edge-v-02076429-01" n="0" synset="ewn-02076429-v" dc:identifier="edge%2:38:00::">
+        <SenseRelation relType="also" target="ewn-edge_in-v-02021789-01"/> <!-- edge in, edge up -->
         <SenseRelation relType="also" target="ewn-edge_in-v-02021789-01"/> <!-- edge in, edge up -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-edge-v-02076429-01"/>
@@ -1273,7 +1296,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-send_off-v">
       <Lemma writtenForm="send off" partOfSpeech="v"/>
-      <Sense id="ewn-send_off-v-01958986-03" n="0" synset="ewn-01958986-v" dc:identifier="send_off%2:38:00::"/>
+      <Sense id="ewn-send_off-v-01958986-03" n="0" synset="ewn-01958986-v" dc:identifier="send_off%2:38:00::">
+        <SenseRelation relType="also" target="ewn-send-v-01954657-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-send_off-v-01958986-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-send_off-v-01958986-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-send_off-v-01958986-03"/>
@@ -1302,6 +1327,7 @@
       <Lemma writtenForm="file in" partOfSpeech="v"/>
       <Sense id="ewn-file_in-v-01924213-01" n="0" synset="ewn-01924213-v" dc:identifier="file_in%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-file_out-v-01924587-01"/> <!-- file out -->
+        <SenseRelation relType="also" target="ewn-file-v-01924041-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-file_in-v-01924213-01"/>
     </LexicalEntry>
@@ -1464,7 +1490,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-ease_up-v">
       <Lemma writtenForm="ease up" partOfSpeech="v"/>
-      <Sense id="ewn-ease_up-v-01852407-04" n="0" synset="ewn-01852407-v" dc:identifier="ease_up%2:38:00::"/>
+      <Sense id="ewn-ease_up-v-01852407-04" n="0" synset="ewn-01852407-v" dc:identifier="ease_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-ease-v-01838155-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-ease_up-v-01852407-04"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-ease_up-v-01852407-04"/>
     </LexicalEntry>
@@ -1682,6 +1710,7 @@
       <Sense id="ewn-revolve-v-02048992-01" n="0" synset="ewn-02048992-v" dc:identifier="revolve%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-revolution-n-07455579-02"/> <!-- gyration, revolution, rotation -->
         <SenseRelation relType="also" target="ewn-revolve_around-v-02682306-03"/> <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
+        <SenseRelation relType="also" target="ewn-revolve_around-v-02682306-03"/> <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-revolve-v-02047875-03"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-revolve-v-02047875-03 ewn-revolve-v-02048992-01"/>
@@ -1832,7 +1861,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-thrust_ahead-v">
       <Lemma writtenForm="thrust ahead" partOfSpeech="v"/>
-      <Sense id="ewn-thrust_ahead-v-02000606-02" n="0" synset="ewn-02000606-v" dc:identifier="thrust_ahead%2:38:00::"/>
+      <Sense id="ewn-thrust_ahead-v-02000606-02" n="0" synset="ewn-02000606-v" dc:identifier="thrust_ahead%2:38:00::">
+        <SenseRelation relType="also" target="ewn-thrust-v-01903255-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-thrust_ahead-v-02000606-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-flap-v">
@@ -2079,6 +2110,8 @@
         <SenseRelation relType="antonym" target="ewn-ride-v-01959843-01"/> <!-- ride -->
         <SenseRelation relType="also" target="ewn-walk_around-v-01914958-03"/> <!-- walk about, walk around, perambulate -->
         <SenseRelation relType="also" target="ewn-walk_about-v-01914958-02"/> <!-- walk about, walk around, perambulate -->
+        <SenseRelation relType="also" target="ewn-walk_around-v-01914958-03"/> <!-- walk about, walk around, perambulate -->
+        <SenseRelation relType="also" target="ewn-walk_about-v-01914958-02"/> <!-- walk about, walk around, perambulate -->
         </Sense>
       <Sense id="ewn-walk-v-01910816-01" n="8" synset="ewn-01910816-v" dc:identifier="walk%2:38:05::">
         <SenseRelation relType="derivation" target="ewn-walk-n-05010255-01"/> <!-- manner of walking, walk -->
@@ -2211,7 +2244,9 @@
     <LexicalEntry id="ewn-rise_up-v">
       <Lemma writtenForm="rise up" partOfSpeech="v"/>
       <Sense id="ewn-rise_up-v-01985637-02" n="2" synset="ewn-01985637-v" dc:identifier="rise_up%2:38:01::"/>
-      <Sense id="ewn-rise_up-v-01994295-03" n="0" synset="ewn-01994295-v" dc:identifier="rise_up%2:38:00::"/>
+      <Sense id="ewn-rise_up-v-01994295-03" n="0" synset="ewn-01994295-v" dc:identifier="rise_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-rise-v-01972576-01"/> <!-- rise, come up, arise, lift, go up, move up, uprise -->
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-rise_up-v-01985637-02 ewn-rise_up-v-01994295-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rise_up-v-01985637-02 ewn-rise_up-v-01994295-03"/>
     </LexicalEntry>
@@ -2222,6 +2257,7 @@
         <SenseRelation relType="derivation" target="ewn-barge-n-02795575-01"/> <!-- flatboat, hoy, lighter, barge -->
         </Sense>
       <Sense id="ewn-barge-v-02000606-01" n="0" synset="ewn-02000606-v" dc:identifier="barge%2:38:00::">
+        <SenseRelation relType="also" target="ewn-barge_in-v-00782236-06"/> <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
         <SenseRelation relType="also" target="ewn-barge_in-v-00782236-06"/> <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-barge-v-02000606-01"/>
@@ -2354,6 +2390,8 @@
       <Form writtenForm="snuck"/>
       <Sense id="ewn-sneak-v-01915881-01" n="0" synset="ewn-01915881-v" dc:identifier="sneak%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-sneak-n-10506264-02"/> <!-- stalker, prowler, sneak -->
+        <SenseRelation relType="also" target="ewn-sneak_away-v-02080274-03"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
+        <SenseRelation relType="also" target="ewn-sneak_out-v-02080274-05"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         <SenseRelation relType="also" target="ewn-sneak_away-v-02080274-03"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         <SenseRelation relType="also" target="ewn-sneak_out-v-02080274-05"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         </Sense>
@@ -2764,8 +2802,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slip_away-v">
       <Lemma writtenForm="slip away" partOfSpeech="v"/>
-      <Sense id="ewn-slip_away-v-02076777-06" n="1" synset="ewn-02076777-v" dc:identifier="slip_away%2:38:00::"/>
-      <Sense id="ewn-slip_away-v-02080274-01" n="0" synset="ewn-02080274-v" dc:identifier="slip_away%2:38:01::"/>
+      <Sense id="ewn-slip_away-v-02076777-06" n="1" synset="ewn-02076777-v" dc:identifier="slip_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-slip-v-01892288-02"/>
+        </Sense>
+      <Sense id="ewn-slip_away-v-02080274-01" n="0" synset="ewn-02080274-v" dc:identifier="slip_away%2:38:01::">
+        <SenseRelation relType="also" target="ewn-slip-v-02080527-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-slip_away-v-02076777-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-slip_away-v-02080274-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-slip_away-v-02076777-06"/>
@@ -2858,7 +2900,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bring_forward-v">
       <Lemma writtenForm="bring forward" partOfSpeech="v"/>
-      <Sense id="ewn-bring_forward-v-01997958-02" n="0" synset="ewn-01997958-v" dc:identifier="bring_forward%2:38:00::"/>
+      <Sense id="ewn-bring_forward-v-01997958-02" n="0" synset="ewn-01997958-v" dc:identifier="bring_forward%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bring-v-02081903-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-bring_forward-v-01997958-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bring_forward-v-01997958-02"/>
     </LexicalEntry>
@@ -3322,6 +3366,7 @@
       <Sense id="ewn-pour-v-02073176-01" n="3" synset="ewn-02073176-v" dc:identifier="pour%2:38:02::"/>
       <Sense id="ewn-pour-v-02073479-01" n="0" synset="ewn-02073479-v" dc:identifier="pour%2:38:03::">
         <SenseRelation relType="also" target="ewn-pour_down-v-01204994-05"/> <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
+        <SenseRelation relType="also" target="ewn-pour_down-v-01204994-05"/> <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
         </Sense>
       <Sense id="ewn-pour-v-02074224-02" n="2" synset="ewn-02074224-v" dc:identifier="pour%2:38:04::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-pour-v-02073176-01"/>
@@ -3352,7 +3397,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-flag_down-v">
       <Lemma writtenForm="flag down" partOfSpeech="v"/>
-      <Sense id="ewn-flag_down-v-01864606-01" n="0" synset="ewn-01864606-v" dc:identifier="flag_down%2:38:00::"/>
+      <Sense id="ewn-flag_down-v-01864606-01" n="0" synset="ewn-01864606-v" dc:identifier="flag_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-flag-v-01042422-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-flag_down-v-01864606-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-flag_down-v-01864606-01"/>
     </LexicalEntry>
@@ -3694,7 +3741,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-run_over-v">
       <Lemma writtenForm="run over" partOfSpeech="v"/>
-      <Sense id="ewn-run_over-v-02076087-04" n="1" synset="ewn-02076087-v" dc:identifier="run_over%2:38:00::"/>
+      <Sense id="ewn-run_over-v-02076087-04" n="1" synset="ewn-02076087-v" dc:identifier="run_over%2:38:00::">
+        <SenseRelation relType="also" target="ewn-run-v-02070867-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-run_over-v-02076087-04"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-transmit-v">
@@ -3752,6 +3801,9 @@
         <SenseRelation relType="derivation" target="ewn-turn-n-00350856-01"/> <!-- turning, turn -->
         <SenseRelation relType="derivation" target="ewn-turning-n-07366212-01"/> <!-- turning, turn -->
         <SenseRelation relType="derivation" target="ewn-turning-n-00350856-02"/> <!-- turning, turn -->
+        <SenseRelation relType="also" target="ewn-turn_back-v-02008542-02"/> <!-- backtrack, turn back, double back -->
+        <SenseRelation relType="also" target="ewn-turn_away-v-02038145-03"/> <!-- turn away, deflect, bend -->
+        <SenseRelation relType="also" target="ewn-turn_to-v-00899077-02"/> <!-- turn to, address -->
         <SenseRelation relType="also" target="ewn-turn_back-v-02008542-02"/> <!-- backtrack, turn back, double back -->
         <SenseRelation relType="also" target="ewn-turn_away-v-02038145-03"/> <!-- turn away, deflect, bend -->
         <SenseRelation relType="also" target="ewn-turn_to-v-00899077-02"/> <!-- turn to, address -->
@@ -3874,7 +3926,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-go_off-v">
       <Lemma writtenForm="go off" partOfSpeech="v"/>
-      <Sense id="ewn-go_off-v-02077642-06" n="0" synset="ewn-02077642-v" dc:identifier="go_off%2:38:00::"/>
+      <Sense id="ewn-go_off-v-02077642-06" n="0" synset="ewn-02077642-v" dc:identifier="go_off%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-go_off-v-02077642-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-go_off-v-02077642-06"/>
     </LexicalEntry>
@@ -3930,7 +3984,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-set_ahead-v">
       <Lemma writtenForm="set ahead" partOfSpeech="v"/>
-      <Sense id="ewn-set_ahead-v-01998320-02" n="0" synset="ewn-01998320-v" dc:identifier="set_ahead%2:38:00::"/>
+      <Sense id="ewn-set_ahead-v-01998320-02" n="0" synset="ewn-01998320-v" dc:identifier="set_ahead%2:38:00::">
+        <SenseRelation relType="also" target="ewn-set-v-00299337-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-set_ahead-v-01998320-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-boat-v">
@@ -4182,6 +4238,7 @@
       <Lemma writtenForm="move in" partOfSpeech="v"/>
       <Sense id="ewn-move_in-v-01859968-01" n="2" synset="ewn-01859968-v" dc:identifier="move_in%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-move_out-v-01860197-01"/> <!-- move out -->
+        <SenseRelation relType="also" target="ewn-move_into-v-02020375-07"/>
         </Sense>
       <Sense id="ewn-move_in-v-01860082-01" n="0" synset="ewn-01860082-v" dc:identifier="move_in%2:38:02::"/>
       <Sense id="ewn-move_in-v-02019236-03" n="1" synset="ewn-02019236-v" dc:identifier="move_in%2:38:01::"/>
@@ -4234,8 +4291,12 @@
       <Lemma writtenForm="come up" partOfSpeech="v"/>
       <Sense id="ewn-come_up-v-01853188-02" n="2" synset="ewn-01853188-v" dc:identifier="come_up%2:38:02::"/>
       <Sense id="ewn-come_up-v-01972576-06" n="5" synset="ewn-01972576-v" dc:identifier="come_up%2:38:03::"/>
-      <Sense id="ewn-come_up-v-01974362-02" n="9" synset="ewn-01974362-v" dc:identifier="come_up%2:38:00::"/>
-      <Sense id="ewn-come_up-v-01994295-02" n="3" synset="ewn-01994295-v" dc:identifier="come_up%2:38:01::"/>
+      <Sense id="ewn-come_up-v-01974362-02" n="9" synset="ewn-01974362-v" dc:identifier="come_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-come-v-01853188-01"/> <!-- come up, come -->
+        </Sense>
+      <Sense id="ewn-come_up-v-01994295-02" n="3" synset="ewn-01994295-v" dc:identifier="come_up%2:38:01::">
+        <SenseRelation relType="also" target="ewn-come-v-01853188-01"/> <!-- come up, come -->
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-come_up-v-01853188-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-come_up-v-01853188-02 ewn-come_up-v-01972576-06 ewn-come_up-v-01994295-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-come_up-v-01853188-02"/>
@@ -4412,6 +4473,7 @@
         <SenseRelation relType="derivation" target="ewn-glide-n-00329328-02"/> <!-- glide, coast, slide -->
         <SenseRelation relType="derivation" target="ewn-glider-n-03444738-01"/> <!-- glider, sailplane -->
         <SenseRelation relType="also" target="ewn-glide_by-v-02076777-05"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
+        <SenseRelation relType="also" target="ewn-glide_by-v-02076777-05"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
         </Sense>
       <Sense id="ewn-glide-v-01891894-01" n="2" synset="ewn-01891894-v" dc:identifier="glide%2:38:02::">
         <SenseRelation relType="derivation" target="ewn-glide-n-00329328-02"/> <!-- glide, coast, slide -->
@@ -4574,6 +4636,7 @@
         <SenseRelation relType="derivation" target="ewn-hopper-n-10204946-01"/> <!-- hopper -->
         <SenseRelation relType="derivation" target="ewn-hopper-n-03540464-01"/> <!-- hopper -->
         <SenseRelation relType="derivation" target="ewn-hopper-n-00129909-04"/> <!-- hopper, grounder, ground ball, groundball -->
+        <SenseRelation relType="also" target="ewn-hop_on-v-01927367-01"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
         <SenseRelation relType="also" target="ewn-hop_on-v-01927367-01"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
         </Sense>
       <Sense id="ewn-hop-v-02099066-01" n="5" synset="ewn-02099066-v" dc:identifier="hop%2:38:01::">
@@ -4770,6 +4833,7 @@
       <Lemma writtenForm="thrust" partOfSpeech="v"/>
       <Sense id="ewn-thrust-v-01903255-01" n="0" synset="ewn-01903255-v" dc:identifier="thrust%2:38:00::">
         <SenseRelation relType="also" target="ewn-thrust_ahead-v-02000606-02"/> <!-- barge, thrust ahead, push forward -->
+        <SenseRelation relType="also" target="ewn-thrust_ahead-v-02000606-02"/> <!-- barge, thrust ahead, push forward -->
         </Sense>
       <Sense id="ewn-thrust-v-02066140-04" n="2" synset="ewn-02066140-v" dc:identifier="thrust%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-thrust-n-00104654-02"/> <!-- thrust, drive, driving force -->
@@ -4949,6 +5013,7 @@
         <SenseRelation relType="derivation" target="ewn-march-n-00291423-01"/> <!-- marching, march -->
         <SenseRelation relType="derivation" target="ewn-marcher-n-10312993-01"/> <!-- marcher, parader -->
         <SenseRelation relType="also" target="ewn-march_on-v-01996535-05"/> <!-- pass on, march on, go on, advance, move on, progress -->
+        <SenseRelation relType="also" target="ewn-march_on-v-01996535-05"/> <!-- pass on, march on, go on, advance, move on, progress -->
         </Sense>
       <Sense id="ewn-march-v-01928665-03" n="4" synset="ewn-01928665-v" dc:identifier="march%2:38:03::"/>
       <Sense id="ewn-march-v-02000767-01" n="0" synset="ewn-02000767-v" dc:identifier="march%2:38:01::">
@@ -5049,6 +5114,7 @@
       <Lemma writtenForm="move out" partOfSpeech="v"/>
       <Sense id="ewn-move_out-v-01860197-01" n="1" synset="ewn-01860197-v" dc:identifier="move_out%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-move_in-v-01859968-01"/> <!-- move in -->
+        <SenseRelation relType="also" target="ewn-move-v-01839438-03"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-move_out-v-01860197-01"/>
     </LexicalEntry>
@@ -5059,14 +5125,18 @@
       <Sense id="ewn-slip-v-01874268-02" n="2" synset="ewn-01874268-v" dc:identifier="slip%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-slip-n-00329857-02"/> <!-- slip, sideslip, skid -->
         <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/> <!-- stumble, slip up, trip up -->
+        <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/> <!-- stumble, slip up, trip up -->
         </Sense>
       <Sense id="ewn-slip-v-01892288-02" n="0" synset="ewn-01892288-v" dc:identifier="slip%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-slip-n-00329857-02"/> <!-- slip, sideslip, skid -->
         <SenseRelation relType="derivation" target="ewn-slip-n-00060196-01"/> <!-- slip, elusion, eluding -->
         <SenseRelation relType="also" target="ewn-slip_away-v-02076777-06"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
+        <SenseRelation relType="also" target="ewn-slip_away-v-02076777-06"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
         </Sense>
       <Sense id="ewn-slip-v-02080527-01" n="4" synset="ewn-02080527-v" dc:identifier="slip%2:38:05::">
         <SenseRelation relType="derivation" target="ewn-slip-n-00171531-01"/> <!-- slip, sideslip -->
+        <SenseRelation relType="also" target="ewn-slip_by-v-02076777-04"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
+        <SenseRelation relType="also" target="ewn-slip_away-v-02080274-01"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         <SenseRelation relType="also" target="ewn-slip_by-v-02076777-04"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
         <SenseRelation relType="also" target="ewn-slip_away-v-02080274-01"/> <!-- slip away, steal away, sneak away, sneak off, sneak out -->
         </Sense>
@@ -5136,7 +5206,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-put_down-v">
       <Lemma writtenForm="put down" partOfSpeech="v"/>
-      <Sense id="ewn-put_down-v-01985050-02" n="2" synset="ewn-01985050-v" dc:identifier="put_down%2:38:00::"/>
+      <Sense id="ewn-put_down-v-01985050-02" n="2" synset="ewn-01985050-v" dc:identifier="put_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-put-v-01496967-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-put_down-v-01985050-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-put_down-v-01985050-02"/>
     </LexicalEntry>
@@ -5258,6 +5330,8 @@
         <SenseRelation relType="derivation" target="ewn-running-n-00294760-02"/> <!-- running, run -->
         <SenseRelation relType="also" target="ewn-run_around-v-01887709-11"/> <!-- lark about, romp, cavort, lark, sport, run around, skylark, disport, rollick, frisk, gambol, frolic -->
         <SenseRelation relType="also" target="ewn-run_away-v-02079296-06"/> <!-- take to the woods, turn tail, lam, fly the coop, run, run away, escape, head for the hills, break away, scat, bunk, scarper, hightail it -->
+        <SenseRelation relType="also" target="ewn-run_around-v-01887709-11"/> <!-- lark about, romp, cavort, lark, sport, run around, skylark, disport, rollick, frisk, gambol, frolic -->
+        <SenseRelation relType="also" target="ewn-run_away-v-02079296-06"/> <!-- take to the woods, turn tail, lam, fly the coop, run, run away, escape, head for the hills, break away, scat, bunk, scarper, hightail it -->
         </Sense>
       <Sense id="ewn-run-v-01930937-01" n="33" synset="ewn-01930937-v" dc:identifier="run%2:38:13::">
         <SenseRelation relType="derivation" target="ewn-run-n-00294760-01"/> <!-- running, run -->
@@ -5272,6 +5346,7 @@
       <Sense id="ewn-run-v-02070867-01" n="5" synset="ewn-02070867-v" dc:identifier="run%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-run-n-09438816-03"/> <!-- runnel, streamlet, rivulet, rill, run -->
         <SenseRelation relType="derivation" target="ewn-run-n-07422377-03"/> <!-- discharge, outpouring, run -->
+        <SenseRelation relType="also" target="ewn-run_over-v-02076087-04"/> <!-- run over, overrun, well over, brim over, overflow -->
         <SenseRelation relType="also" target="ewn-run_over-v-02076087-04"/> <!-- run over, overrun, well over, brim over, overflow -->
         </Sense>
       <Sense id="ewn-run-v-02079296-02" n="1" synset="ewn-02079296-v" dc:identifier="run%2:38:04::"/>
@@ -5440,6 +5515,7 @@
     <LexicalEntry id="ewn-flash-v">
       <Lemma writtenForm="flash" partOfSpeech="v"/>
       <Sense id="ewn-flash-v-02065423-05" n="4" synset="ewn-02065423-v" dc:identifier="flash%2:38:00::">
+        <SenseRelation relType="also" target="ewn-flash_back-v-02008715-02"/> <!-- cut back, flash back -->
         <SenseRelation relType="also" target="ewn-flash_back-v-02008715-02"/> <!-- cut back, flash back -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-flash-v-02065423-05"/>
@@ -5622,6 +5698,7 @@
       <Form writtenForm="tagging"/>
       <Sense id="ewn-tag-v-02005890-05" n="3" synset="ewn-02005890-v" dc:identifier="tag%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-tag-n-00488885-01"/> <!-- tag -->
+        <SenseRelation relType="also" target="ewn-tag_along-v-02030876-01"/> <!-- tag along -->
         <SenseRelation relType="also" target="ewn-tag_along-v-02030876-01"/> <!-- tag along -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-tag-v-02005890-05"/>
@@ -5891,6 +5968,7 @@
       <Sense id="ewn-draw-v-01858118-01" n="6" synset="ewn-01858118-v" dc:identifier="draw%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-drawing-n-00392901-01"/> <!-- drawing, drawing off -->
         <SenseRelation relType="also" target="ewn-draw_out-v-01634074-05"/> <!-- evoke, draw out, extract, elicit, educe -->
+        <SenseRelation relType="also" target="ewn-draw_out-v-01634074-05"/> <!-- evoke, draw out, extract, elicit, educe -->
         </Sense>
       <Sense id="ewn-draw-v-01999243-01" n="4" synset="ewn-01999243-v" dc:identifier="draw%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-drawer-n-03238608-01"/> <!-- drawer -->
@@ -5963,8 +6041,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-drive_out-v">
       <Lemma writtenForm="drive out" partOfSpeech="v"/>
-      <Sense id="ewn-drive_out-v-02006752-02" n="0" synset="ewn-02006752-v" dc:identifier="drive_out%2:38:01::"/>
-      <Sense id="ewn-drive_out-v-02060390-02" n="1" synset="ewn-02060390-v" dc:identifier="drive_out%2:38:00::"/>
+      <Sense id="ewn-drive_out-v-02006752-02" n="0" synset="ewn-02006752-v" dc:identifier="drive_out%2:38:01::">
+        <SenseRelation relType="also" target="ewn-drive-v-02060895-01"/>
+        </Sense>
+      <Sense id="ewn-drive_out-v-02060390-02" n="1" synset="ewn-02060390-v" dc:identifier="drive_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-drive-v-02060895-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-drive_out-v-02006752-02 ewn-drive_out-v-02060390-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-drive_out-v-02006752-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-drive_out-v-02006752-02 ewn-drive_out-v-02060390-02"/>
@@ -6035,6 +6117,7 @@
         <SenseRelation relType="derivation" target="ewn-entering-n-07384725-02"/> <!-- entrance, entering -->
         <SenseRelation relType="derivation" target="ewn-entering-n-00049744-02"/> <!-- incoming, entrance, ingress, entry, entering -->
         <SenseRelation relType="antonym" target="ewn-exit-v-02019450-01"/> <!-- exit, leave, get out, go out -->
+        <SenseRelation relType="also" target="ewn-enter_upon-v-02217428-01"/> <!-- come upon, luck into, enter upon -->
         <SenseRelation relType="also" target="ewn-enter_upon-v-02217428-01"/> <!-- come upon, luck into, enter upon -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-enter-v-02020375-01"/>
@@ -6231,7 +6314,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-back_up-v">
       <Lemma writtenForm="back up" partOfSpeech="v"/>
-      <Sense id="ewn-back_up-v-02001712-01" n="1" synset="ewn-02001712-v" dc:identifier="back_up%2:38:00::"/>
+      <Sense id="ewn-back_up-v-02001712-01" n="1" synset="ewn-02001712-v" dc:identifier="back_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-back-v-02001151-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-back_up-v-02001712-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-back_up-v-02001712-01"/>
     </LexicalEntry>
@@ -6302,6 +6387,12 @@
       <Lemma writtenForm="bring" partOfSpeech="v"/>
       <Form writtenForm="brought"/>
       <Sense id="ewn-bring-v-02081903-01" n="0" synset="ewn-02081903-v" dc:identifier="bring%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bring_forward-v-01997958-02"/> <!-- bring forward, advance -->
+        <SenseRelation relType="also" target="ewn-bring_down-v-01985050-03"/> <!-- bring down, put down, land -->
+        <SenseRelation relType="also" target="ewn-bring_down-v-01977139-05"/> <!-- bring down, get down, let down, take down, lower -->
+        <SenseRelation relType="also" target="ewn-bring_up-v-01978076-05"/> <!-- bring up, elevate, lift, get up, raise -->
+        <SenseRelation relType="also" target="ewn-bring_on-v-02161530-02"/> <!-- produce, bring on, bring out -->
+        <SenseRelation relType="also" target="ewn-bring_out-v-02161530-03"/> <!-- produce, bring on, bring out -->
         <SenseRelation relType="also" target="ewn-bring_forward-v-01997958-02"/> <!-- bring forward, advance -->
         <SenseRelation relType="also" target="ewn-bring_down-v-01985050-03"/> <!-- bring down, put down, land -->
         <SenseRelation relType="also" target="ewn-bring_down-v-01977139-05"/> <!-- bring down, get down, let down, take down, lower -->
@@ -6382,7 +6473,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-edge_in-v">
       <Lemma writtenForm="edge in" partOfSpeech="v"/>
-      <Sense id="ewn-edge_in-v-02021789-01" n="0" synset="ewn-02021789-v" dc:identifier="edge_in%2:38:00::"/>
+      <Sense id="ewn-edge_in-v-02021789-01" n="0" synset="ewn-02021789-v" dc:identifier="edge_in%2:38:00::">
+        <SenseRelation relType="also" target="ewn-edge-v-02076429-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-edge_in-v-02021789-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-edge_in-v-02021789-01"/>
     </LexicalEntry>
@@ -6484,6 +6577,7 @@
       <Sense id="ewn-linger-v-02015412-02" n="2" synset="ewn-02015412-v" dc:identifier="linger%2:38:01::"/>
       <Sense id="ewn-linger-v-02062514-01" n="3" synset="ewn-02062514-v" dc:identifier="linger%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-rush-v-02062918-01"/> <!-- rush along, bucket along, rush, belt along, step on it, hasten, cannonball along, speed, pelt along, race, hotfoot, hie -->
+        <SenseRelation relType="also" target="ewn-linger_over-v-02646310-02"/> <!-- dwell on, linger over -->
         <SenseRelation relType="also" target="ewn-linger_over-v-02646310-02"/> <!-- dwell on, linger over -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-linger-v-02062514-01"/>
@@ -6827,7 +6921,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-move_back-v">
       <Lemma writtenForm="move back" partOfSpeech="v"/>
-      <Sense id="ewn-move_back-v-01998474-08" n="0" synset="ewn-01998474-v" dc:identifier="move_back%2:38:00::"/>
+      <Sense id="ewn-move_back-v-01998474-08" n="0" synset="ewn-01998474-v" dc:identifier="move_back%2:38:00::">
+        <SenseRelation relType="also" target="ewn-move-v-01839438-03"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-move_back-v-01998474-08"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-move_back-v-01998474-08"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-move_back-v-01998474-08"/>
@@ -6910,7 +7006,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-fall_in-v">
       <Lemma writtenForm="fall in" partOfSpeech="v"/>
-      <Sense id="ewn-fall_in-v-01993067-02" n="0" synset="ewn-01993067-v" dc:identifier="fall_in%2:38:00::"/>
+      <Sense id="ewn-fall_in-v-01993067-02" n="0" synset="ewn-01993067-v" dc:identifier="fall_in%2:38:00::">
+        <SenseRelation relType="also" target="ewn-fall-v-01974840-02"/> <!-- go down, descend, come down, fall -->
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-fall_in-v-01993067-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-fall_in-v-01993067-02"/>
     </LexicalEntry>
@@ -6936,6 +7034,7 @@
       <Lemma writtenForm="back down" partOfSpeech="v"/>
       <Sense id="ewn-back_down-v-02001712-03" n="0" synset="ewn-02001712-v" dc:identifier="back_down%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-backdown-n-07220962-02"/> <!-- backdown, withdrawal, climb-down -->
+        <SenseRelation relType="also" target="ewn-back-v-02001151-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-back_down-v-02001712-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-back_down-v-02001712-03"/>
@@ -7209,7 +7308,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-roll_over-v">
       <Lemma writtenForm="roll over" partOfSpeech="v"/>
-      <Sense id="ewn-roll_over-v-01871802-01" n="0" synset="ewn-01871802-v" dc:identifier="roll_over%2:38:00::"/>
+      <Sense id="ewn-roll_over-v-01871802-01" n="0" synset="ewn-01871802-v" dc:identifier="roll_over%2:38:00::">
+        <SenseRelation relType="also" target="ewn-roll-v-01870178-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-roll_over-v-01871802-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-roll_over-v-01871802-01"/>
     </LexicalEntry>
@@ -7265,7 +7366,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-climb_on-v">
       <Lemma writtenForm="climb on" partOfSpeech="v"/>
-      <Sense id="ewn-climb_on-v-01927367-06" n="0" synset="ewn-01927367-v" dc:identifier="climb_on%2:38:00::"/>
+      <Sense id="ewn-climb_on-v-01927367-06" n="0" synset="ewn-01927367-v" dc:identifier="climb_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-climb-v-01925957-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-climb_on-v-01927367-06"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-propagate-v">
@@ -7289,6 +7392,7 @@
         <SenseRelation relType="derivation" target="ewn-intrusive-a-01354915-01"/> <!-- intrusive -->
         <SenseRelation relType="derivation" target="ewn-intrusion-n-00734781-04"/> <!-- intrusion, trespass, usurpation, violation, encroachment -->
         <SenseRelation relType="derivation" target="ewn-intruder-n-10233322-01"/> <!-- intruder, trespasser, interloper -->
+        <SenseRelation relType="also" target="ewn-intrude_on-v-02023568-01"/> <!-- intrude on, encroach upon, invade, obtrude upon -->
         <SenseRelation relType="also" target="ewn-intrude_on-v-02023568-01"/> <!-- intrude on, encroach upon, invade, obtrude upon -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-intrude-v-02022376-01"/>
@@ -7408,7 +7512,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-cut_to-v">
       <Lemma writtenForm="cut to" partOfSpeech="v"/>
-      <Sense id="ewn-cut_to-v-01864471-01" n="0" synset="ewn-01864471-v" dc:identifier="cut_to%2:38:00::"/>
+      <Sense id="ewn-cut_to-v-01864471-01" n="0" synset="ewn-01864471-v" dc:identifier="cut_to%2:38:00::">
+        <SenseRelation relType="also" target="ewn-cut-v-01864093-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-cut_to-v-01864471-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-cut_to-v-01864471-01"/>
     </LexicalEntry>
@@ -7457,6 +7563,7 @@
       <Sense id="ewn-bow-v-02044118-01" n="2" synset="ewn-02044118-v" dc:identifier="bow%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-bow-n-07289130-01"/> <!-- bowing, obeisance, bow -->
         <SenseRelation relType="also" target="ewn-bow_down-v-02067538-02"/> <!-- prostrate, bow down -->
+        <SenseRelation relType="also" target="ewn-bow_down-v-02067538-02"/> <!-- prostrate, bow down -->
         </Sense>
       <Sense id="ewn-bow-v-02066560-04" n="3" synset="ewn-02066560-v" dc:identifier="bow%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-bow-n-07289130-01"/> <!-- bowing, obeisance, bow -->
@@ -7483,6 +7590,7 @@
       <Sense id="ewn-stoop-v-02066560-02" n="0" synset="ewn-02066560-v" dc:identifier="stoop%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-stoop-n-00337480-01"/> <!-- stoop -->
         <SenseRelation relType="derivation" target="ewn-stooper-n-10679201-01"/> <!-- stooper -->
+        <SenseRelation relType="also" target="ewn-stoop_to-v-00911087-01"/> <!-- stoop to -->
         <SenseRelation relType="also" target="ewn-stoop_to-v-00911087-01"/> <!-- stoop to -->
         </Sense>
       <Sense id="ewn-stoop-v-02068540-01" n="2" synset="ewn-02068540-v" dc:identifier="stoop%2:38:04::"/>
@@ -7514,6 +7622,7 @@
         <SenseRelation relType="derivation" target="ewn-lift-n-07362999-01"/> <!-- lift, rise -->
         <SenseRelation relType="derivation" target="ewn-lift-n-07385271-02"/> <!-- lift, elevation, raising -->
         <SenseRelation relType="derivation" target="ewn-lifter-n-10793062-02"/> <!-- lifter, weightlifter -->
+        <SenseRelation relType="also" target="ewn-lift_up-v-01980103-02"/> <!-- lift up, pick up, gather up -->
         <SenseRelation relType="also" target="ewn-lift_up-v-01980103-02"/> <!-- lift up, pick up, gather up -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-lift-v-01978076-02"/>
@@ -7556,6 +7665,8 @@
       <Sense id="ewn-tip-v-02042202-03" n="4" synset="ewn-02042202-v" dc:identifier="tip%2:38:01::">
         <SenseRelation relType="also" target="ewn-tip_over-v-01913971-02"/> <!-- tump over, bowl over, overturn, upset, tip over, turn over, knock over -->
         <SenseRelation relType="also" target="ewn-tip_over-v-01913390-03"/> <!-- tump over, overturn, tip over, turn over -->
+        <SenseRelation relType="also" target="ewn-tip_over-v-01913971-02"/> <!-- tump over, bowl over, overturn, upset, tip over, turn over, knock over -->
+        <SenseRelation relType="also" target="ewn-tip_over-v-01913390-03"/> <!-- tump over, overturn, tip over, turn over -->
         </Sense>
       <Sense id="ewn-tip-v-02043389-01" n="0" synset="ewn-02043389-v" dc:identifier="tip%2:38:02::">
         <SenseRelation relType="derivation" target="ewn-tipper-n-03260869-06"/> <!-- tip truck, tipper, tipper lorry, tipper truck, dump truck, dumper -->
@@ -7584,8 +7695,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-tip_over-v">
       <Lemma writtenForm="tip over" partOfSpeech="v"/>
-      <Sense id="ewn-tip_over-v-01913390-03" n="1" synset="ewn-01913390-v" dc:identifier="tip_over%2:38:00::"/>
-      <Sense id="ewn-tip_over-v-01913971-02" n="0" synset="ewn-01913971-v" dc:identifier="tip_over%2:38:01::"/>
+      <Sense id="ewn-tip_over-v-01913390-03" n="1" synset="ewn-01913390-v" dc:identifier="tip_over%2:38:00::">
+        <SenseRelation relType="also" target="ewn-tip-v-02042202-03"/>
+        </Sense>
+      <Sense id="ewn-tip_over-v-01913971-02" n="0" synset="ewn-01913971-v" dc:identifier="tip_over%2:38:01::">
+        <SenseRelation relType="also" target="ewn-tip-v-02042202-03"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-tip_over-v-01913390-03"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-tip_over-v-01913971-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tip_over-v-01913971-02"/>
@@ -7772,6 +7887,7 @@
         <SenseRelation relType="derivation" target="ewn-leap-n-00121022-01"/> <!-- saltation, leaping, bounce, spring, bound, leap -->
         <SenseRelation relType="derivation" target="ewn-leaper-n-09888577-02"/> <!-- leaper, bounder -->
         <SenseRelation relType="also" target="ewn-leap_out-v-02680375-01"/> <!-- jump, stick out, stand out, jump out, leap out -->
+        <SenseRelation relType="also" target="ewn-leap_out-v-02680375-01"/> <!-- jump, stick out, stand out, jump out, leap out -->
         </Sense>
       <Sense id="ewn-leap-v-01969163-02" n="3" synset="ewn-01969163-v" dc:identifier="leap%2:38:10::">
         <SenseRelation relType="derivation" target="ewn-leap-n-05093947-01"/> <!-- leap -->
@@ -7794,7 +7910,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-jump_on-v">
       <Lemma writtenForm="jump on" partOfSpeech="v"/>
-      <Sense id="ewn-jump_on-v-01927367-05" n="0" synset="ewn-01927367-v" dc:identifier="jump_on%2:38:00::"/>
+      <Sense id="ewn-jump_on-v-01927367-05" n="0" synset="ewn-01927367-v" dc:identifier="jump_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-jump-v-01967949-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-jump_on-v-01927367-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-bob_around-v">
@@ -7858,6 +7976,10 @@
         <SenseRelation relType="derivation" target="ewn-drive-n-00308457-01"/> <!-- ride, drive -->
         <SenseRelation relType="derivation" target="ewn-drive-n-03247416-01"/> <!-- parkway, drive -->
         <SenseRelation relType="derivation" target="ewn-driver-n-10054631-01"/> <!-- driver -->
+        <SenseRelation relType="also" target="ewn-drive_out-v-02060390-02"/> <!-- rout out, rouse, drive out, force out -->
+        <SenseRelation relType="also" target="ewn-drive_out-v-02006752-02"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
+        <SenseRelation relType="also" target="ewn-drive_off-v-02006752-06"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
+        <SenseRelation relType="also" target="ewn-drive_away-v-02006752-04"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
         <SenseRelation relType="also" target="ewn-drive_out-v-02060390-02"/> <!-- rout out, rouse, drive out, force out -->
         <SenseRelation relType="also" target="ewn-drive_out-v-02006752-02"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
         <SenseRelation relType="also" target="ewn-drive_off-v-02006752-06"/> <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
@@ -8148,6 +8270,8 @@
         <SenseRelation relType="derivation" target="ewn-force-n-11479041-01"/> <!-- force -->
         <SenseRelation relType="also" target="ewn-force_out-v-02017692-01"/> <!-- crowd out, force out -->
         <SenseRelation relType="also" target="ewn-force_out-v-02060390-03"/> <!-- rout out, rouse, drive out, force out -->
+        <SenseRelation relType="also" target="ewn-force_out-v-02017692-01"/> <!-- crowd out, force out -->
+        <SenseRelation relType="also" target="ewn-force_out-v-02060390-03"/> <!-- rout out, rouse, drive out, force out -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-force-v-01875972-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-force-v-01875972-02"/>
@@ -8254,7 +8378,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-flood_in-v">
       <Lemma writtenForm="flood in" partOfSpeech="v"/>
-      <Sense id="ewn-flood_in-v-02011694-01" n="0" synset="ewn-02011694-v" dc:identifier="flood_in%2:38:00::"/>
+      <Sense id="ewn-flood_in-v-02011694-01" n="0" synset="ewn-02011694-v" dc:identifier="flood_in%2:38:00::">
+        <SenseRelation relType="also" target="ewn-flood-v-01527311-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-flood_in-v-02011694-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-flood_in-v-02011694-01"/>
     </LexicalEntry>
@@ -8284,6 +8410,7 @@
       <Lemma writtenForm="tag along" partOfSpeech="v"/>
       <Sense id="ewn-tag_along-v-02030876-01" n="0" synset="ewn-02030876-v" dc:identifier="tag_along%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-tagalong-n-10708167-01"/> <!-- hanger-on, tagalong -->
+        <SenseRelation relType="also" target="ewn-tag-v-02005890-05"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-tag_along-v-02030876-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-tag_along-v-02030876-01"/>
@@ -8323,6 +8450,7 @@
       <Lemma writtenForm="ease" partOfSpeech="v"/>
       <Sense id="ewn-ease-v-01838155-01" n="0" synset="ewn-01838155-v" dc:identifier="ease%2:38:00::">
         <SenseRelation relType="also" target="ewn-ease_up-v-01852407-04"/> <!-- ease up, give way, move over, yield, give -->
+        <SenseRelation relType="also" target="ewn-ease_up-v-01852407-04"/> <!-- ease up, give way, move over, yield, give -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-ease-v-01838155-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-ease-v-01838155-01"/>
@@ -8361,6 +8489,7 @@
       <Sense id="ewn-skip-v-01970868-02" n="2" synset="ewn-01970868-v" dc:identifier="skip%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-skip-n-00290750-01"/> <!-- skip -->
         <SenseRelation relType="also" target="ewn-skip_over-v-00618188-04"/> <!-- jump, skip, pass over, skip over -->
+        <SenseRelation relType="also" target="ewn-skip_over-v-00618188-04"/> <!-- jump, skip, pass over, skip over -->
         </Sense>
       <Sense id="ewn-skip-v-02014550-02" n="3" synset="ewn-02014550-v" dc:identifier="skip%2:38:02::">
         <SenseRelation relType="exemplifies" target="ewn-colloquialism-n-07089193-01"/> <!-- colloquialism -->
@@ -8381,6 +8510,9 @@
         <SenseRelation relType="derivation" target="ewn-passing-n-00341018-01"/> <!-- overtaking, passing -->
         </Sense>
       <Sense id="ewn-pass-v-02054081-01" n="0" synset="ewn-02054081-v" dc:identifier="pass%2:38:00::">
+        <SenseRelation relType="also" target="ewn-pass_over-v-00618188-02"/> <!-- jump, skip, pass over, skip over -->
+        <SenseRelation relType="also" target="ewn-pass_over-v-01919358-05"/> <!-- move through, pass through, transit, pass over, pass across -->
+        <SenseRelation relType="also" target="ewn-pass_over-v-01916152-05"/> <!-- cover, cut through, get over, cut across, track, cross, pass over, traverse, get across -->
         <SenseRelation relType="also" target="ewn-pass_over-v-00618188-02"/> <!-- jump, skip, pass over, skip over -->
         <SenseRelation relType="also" target="ewn-pass_over-v-01919358-05"/> <!-- move through, pass through, transit, pass over, pass across -->
         <SenseRelation relType="also" target="ewn-pass_over-v-01916152-05"/> <!-- cover, cut through, get over, cut across, track, cross, pass over, traverse, get across -->
@@ -8408,7 +8540,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sneak_away-v">
       <Lemma writtenForm="sneak away" partOfSpeech="v"/>
-      <Sense id="ewn-sneak_away-v-02080274-03" n="0" synset="ewn-02080274-v" dc:identifier="sneak_away%2:38:00::"/>
+      <Sense id="ewn-sneak_away-v-02080274-03" n="0" synset="ewn-02080274-v" dc:identifier="sneak_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-sneak-v-01915881-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-sneak_away-v-02080274-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-weather-v">
@@ -8426,6 +8560,7 @@
         <SenseRelation relType="derivation" target="ewn-rise-n-00325210-01"/> <!-- ascent, ascension, ascending, rise -->
         <SenseRelation relType="derivation" target="ewn-rising-n-07460080-02"/> <!-- ascent, ascension, rising, rise -->
         <SenseRelation relType="antonym" target="ewn-fall-v-01974840-02"/> <!-- go down, descend, come down, fall -->
+        <SenseRelation relType="also" target="ewn-rise_up-v-01994295-03"/> <!-- rise, come up, rise up, surface -->
         <SenseRelation relType="also" target="ewn-rise_up-v-01994295-03"/> <!-- rise, come up, rise up, surface -->
         </Sense>
       <Sense id="ewn-rise-v-01973786-03" n="6" synset="ewn-01973786-v" dc:identifier="rise%2:38:06::"/>
@@ -8468,6 +8603,7 @@
       <Lemma writtenForm="flash back" partOfSpeech="v"/>
       <Sense id="ewn-flash_back-v-02008715-02" n="0" synset="ewn-02008715-v" dc:identifier="flash_back%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-flashback-n-06413169-01"/> <!-- flashback -->
+        <SenseRelation relType="also" target="ewn-flash-v-02065423-05"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-flash_back-v-02008715-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-flash_back-v-02008715-02"/>
@@ -8757,6 +8893,7 @@
       <Form writtenForm="shot"/>
       <Sense id="ewn-shoot-v-02059191-02" n="6" synset="ewn-02059191-v" dc:identifier="shoot%2:38:01::">
         <SenseRelation relType="also" target="ewn-shoot_up-v-00433525-01"/> <!-- shoot up -->
+        <SenseRelation relType="also" target="ewn-shoot_up-v-00433525-01"/> <!-- shoot up -->
         </Sense>
       <Sense id="ewn-shoot-v-02065423-06" n="5" synset="ewn-02065423-v" dc:identifier="shoot%2:38:00::"/>
       <Sense id="ewn-shoot-v-02100325-01" n="4" synset="ewn-02100325-v" dc:identifier="shoot%2:38:03::"/>
@@ -8823,7 +8960,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-move_on-v">
       <Lemma writtenForm="move on" partOfSpeech="v"/>
-      <Sense id="ewn-move_on-v-01996535-04" n="0" synset="ewn-01996535-v" dc:identifier="move_on%2:38:00::"/>
+      <Sense id="ewn-move_on-v-01996535-04" n="0" synset="ewn-01996535-v" dc:identifier="move_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-move-v-01839438-03"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-move_on-v-01996535-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-move_on-v-01996535-04"/>
     </LexicalEntry>
@@ -8858,6 +8997,7 @@
       <Lemma writtenForm="run away" partOfSpeech="v"/>
       <Sense id="ewn-run_away-v-02079296-06" n="0" synset="ewn-02079296-v" dc:identifier="run_away%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-runaway-n-10134739-02"/> <!-- fugitive, fleer, runaway -->
+        <SenseRelation relType="also" target="ewn-run-v-01930264-01"/>
         </Sense>
       <Sense id="ewn-run_away-v-02104754-01" n="1" synset="ewn-02104754-v" dc:identifier="run_away%2:38:04::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-run_away-v-02104754-01"/>
@@ -8949,6 +9089,7 @@
         <SenseRelation relType="derivation" target="ewn-sinking-n-07378483-01"/> <!-- sinking -->
         <SenseRelation relType="antonym" target="ewn-float-v-01908286-01"/> <!-- float, swim -->
         <SenseRelation relType="also" target="ewn-sink_in-v-01460583-02"/> <!-- filter, percolate, sink in, permeate -->
+        <SenseRelation relType="also" target="ewn-sink_in-v-01460583-02"/> <!-- filter, percolate, sink in, permeate -->
         </Sense>
       <Sense id="ewn-sink-v-02043524-02" n="5" synset="ewn-02043524-v" dc:identifier="sink%2:38:04::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-sink-v-01976145-01 ewn-sink-v-02043524-02"/>
@@ -9014,7 +9155,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-run_around-v">
       <Lemma writtenForm="run around" partOfSpeech="v"/>
-      <Sense id="ewn-run_around-v-01887709-11" n="0" synset="ewn-01887709-v" dc:identifier="run_around%2:38:00::"/>
+      <Sense id="ewn-run_around-v-01887709-11" n="0" synset="ewn-01887709-v" dc:identifier="run_around%2:38:00::">
+        <SenseRelation relType="also" target="ewn-run-v-01930264-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-run_around-v-01887709-11"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-fly_the_coop-v">
@@ -9122,7 +9265,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slide_by-v">
       <Lemma writtenForm="slide by" partOfSpeech="v"/>
-      <Sense id="ewn-slide_by-v-02076777-08" n="0" synset="ewn-02076777-v" dc:identifier="slide_by%2:38:00::"/>
+      <Sense id="ewn-slide_by-v-02076777-08" n="0" synset="ewn-02076777-v" dc:identifier="slide_by%2:38:00::">
+        <SenseRelation relType="also" target="ewn-slide-v-01890481-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-slide_by-v-02076777-08"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-slide_by-v-02076777-08"/>
     </LexicalEntry>
@@ -9199,6 +9344,8 @@
         <SenseRelation relType="derivation" target="ewn-slider-n-10295637-02"/> <!-- luger, slider -->
         <SenseRelation relType="also" target="ewn-slide_down-v-01992900-02"/> <!-- slump, slide down, sink -->
         <SenseRelation relType="also" target="ewn-slide_by-v-02076777-08"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
+        <SenseRelation relType="also" target="ewn-slide_down-v-01992900-02"/> <!-- slump, slide down, sink -->
+        <SenseRelation relType="also" target="ewn-slide_by-v-02076777-08"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
         </Sense>
       <Sense id="ewn-slide-v-02095257-01" n="2" synset="ewn-02095257-v" dc:identifier="slide%2:38:02::">
         <SenseRelation relType="derivation" target="ewn-slide-n-00329328-01"/> <!-- glide, coast, slide -->
@@ -9265,8 +9412,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bring_down-v">
       <Lemma writtenForm="bring down" partOfSpeech="v"/>
-      <Sense id="ewn-bring_down-v-01977139-05" n="0" synset="ewn-01977139-v" dc:identifier="bring_down%2:38:01::"/>
-      <Sense id="ewn-bring_down-v-01985050-03" n="3" synset="ewn-01985050-v" dc:identifier="bring_down%2:38:00::"/>
+      <Sense id="ewn-bring_down-v-01977139-05" n="0" synset="ewn-01977139-v" dc:identifier="bring_down%2:38:01::">
+        <SenseRelation relType="also" target="ewn-bring-v-02081903-01"/>
+        </Sense>
+      <Sense id="ewn-bring_down-v-01985050-03" n="3" synset="ewn-01985050-v" dc:identifier="bring_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bring-v-02081903-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bring_down-v-01977139-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-bring_down-v-01977139-05 ewn-bring_down-v-01985050-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-bring_down-v-01977139-05"/>
@@ -9335,8 +9486,12 @@
     <LexicalEntry id="ewn-pass_over-v">
       <Lemma writtenForm="pass over" partOfSpeech="v"/>
       <Sense id="ewn-pass_over-v-01844034-01" n="3" synset="ewn-01844034-v" dc:identifier="pass_over%2:38:03::"/>
-      <Sense id="ewn-pass_over-v-01916152-05" n="2" synset="ewn-01916152-v" dc:identifier="pass_over%2:38:01::"/>
-      <Sense id="ewn-pass_over-v-01919358-05" n="1" synset="ewn-01919358-v" dc:identifier="pass_over%2:38:02::"/>
+      <Sense id="ewn-pass_over-v-01916152-05" n="2" synset="ewn-01916152-v" dc:identifier="pass_over%2:38:01::">
+        <SenseRelation relType="also" target="ewn-pass-v-02054081-01"/>
+        </Sense>
+      <Sense id="ewn-pass_over-v-01919358-05" n="1" synset="ewn-01919358-v" dc:identifier="pass_over%2:38:02::">
+        <SenseRelation relType="also" target="ewn-pass-v-02054081-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-pass_over-v-01844034-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-pass_over-v-01916152-05 ewn-pass_over-v-01919358-05"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-pass_over-v-01916152-05 ewn-pass_over-v-01919358-05"/>
@@ -9461,7 +9616,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-glide_by-v">
       <Lemma writtenForm="glide by" partOfSpeech="v"/>
-      <Sense id="ewn-glide_by-v-02076777-05" n="0" synset="ewn-02076777-v" dc:identifier="glide_by%2:38:00::"/>
+      <Sense id="ewn-glide_by-v-02076777-05" n="0" synset="ewn-02076777-v" dc:identifier="glide_by%2:38:00::">
+        <SenseRelation relType="also" target="ewn-glide-v-01891569-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-glide_by-v-02076777-05"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-glide_by-v-02076777-05"/>
     </LexicalEntry>
@@ -9534,6 +9691,8 @@
         <SenseRelation relType="derivation" target="ewn-leaner-n-00106444-01"/> <!-- leaner -->
         <SenseRelation relType="also" target="ewn-lean_against-v-01592928-03"/> <!-- lean on, lean against, rest on -->
         <SenseRelation relType="also" target="ewn-lean_on-v-01592928-01"/> <!-- lean on, lean against, rest on -->
+        <SenseRelation relType="also" target="ewn-lean_against-v-01592928-03"/> <!-- lean on, lean against, rest on -->
+        <SenseRelation relType="also" target="ewn-lean_on-v-01592928-01"/> <!-- lean on, lean against, rest on -->
         </Sense>
       <Sense id="ewn-lean-v-02042858-02" n="4" synset="ewn-02042858-v" dc:identifier="lean%2:38:07::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-lean-v-02042202-01"/>
@@ -9594,7 +9753,9 @@
     <LexicalEntry id="ewn-bring_up-v">
       <Lemma writtenForm="bring up" partOfSpeech="v"/>
       <Sense id="ewn-bring_up-v-01863840-01" n="4" synset="ewn-01863840-v" dc:identifier="bring_up%2:38:02::"/>
-      <Sense id="ewn-bring_up-v-01978076-05" n="3" synset="ewn-01978076-v" dc:identifier="bring_up%2:38:00::"/>
+      <Sense id="ewn-bring_up-v-01978076-05" n="3" synset="ewn-01978076-v" dc:identifier="bring_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bring-v-02081903-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bring_up-v-01863840-01 ewn-bring_up-v-01978076-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-bring_up-v-01863840-01 ewn-bring_up-v-01978076-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-bring_up-v-01978076-05"/>
@@ -9668,7 +9829,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-drive_off-v">
       <Lemma writtenForm="drive off" partOfSpeech="v"/>
-      <Sense id="ewn-drive_off-v-02006752-06" n="0" synset="ewn-02006752-v" dc:identifier="drive_off%2:38:06::"/>
+      <Sense id="ewn-drive_off-v-02006752-06" n="0" synset="ewn-02006752-v" dc:identifier="drive_off%2:38:06::">
+        <SenseRelation relType="also" target="ewn-drive-v-02060895-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-drive_off-v-02006752-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-drive_off-v-02006752-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-drive_off-v-02006752-06"/>
@@ -9676,7 +9839,7 @@
     <LexicalEntry id="ewn-push_up-v">
       <Lemma writtenForm="push up" partOfSpeech="v"/>
       <Sense id="ewn-push_up-v-01877523-01" n="0" synset="ewn-01877523-v" dc:identifier="push_up%2:38:00::"/>
-      <Sense id="ewn-push_up-v-01877777-02" n="1" synset="ewn-01877777-v"/>
+      <Sense id="ewn-push_up-v-01877777-02" n="1" synset="ewn-01877777-v" dc:identifier="push_up%2:38:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-push_up-v-01877523-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-push_up-v-01877523-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-push_up-v-01877523-01"/>
@@ -9792,7 +9955,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slip_by-v">
       <Lemma writtenForm="slip by" partOfSpeech="v"/>
-      <Sense id="ewn-slip_by-v-02076777-04" n="0" synset="ewn-02076777-v" dc:identifier="slip_by%2:38:00::"/>
+      <Sense id="ewn-slip_by-v-02076777-04" n="0" synset="ewn-02076777-v" dc:identifier="slip_by%2:38:00::">
+        <SenseRelation relType="also" target="ewn-slip-v-02080527-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-slip_by-v-02076777-04"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-slip_by-v-02076777-04"/>
     </LexicalEntry>
@@ -9812,8 +9977,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-force_out-v">
       <Lemma writtenForm="force out" partOfSpeech="v"/>
-      <Sense id="ewn-force_out-v-02017692-01" n="3" synset="ewn-02017692-v" dc:identifier="force_out%2:38:00::"/>
-      <Sense id="ewn-force_out-v-02060390-03" n="2" synset="ewn-02060390-v" dc:identifier="force_out%2:38:01::"/>
+      <Sense id="ewn-force_out-v-02017692-01" n="3" synset="ewn-02017692-v" dc:identifier="force_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-force-v-01875972-02"/>
+        </Sense>
+      <Sense id="ewn-force_out-v-02060390-03" n="2" synset="ewn-02060390-v" dc:identifier="force_out%2:38:01::">
+        <SenseRelation relType="also" target="ewn-force-v-01875972-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-force_out-v-02017692-01 ewn-force_out-v-02060390-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-force_out-v-02017692-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-force_out-v-02017692-01 ewn-force_out-v-02060390-03"/>
@@ -9856,10 +10025,16 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-spread_out-v">
       <Lemma writtenForm="spread out" partOfSpeech="v"/>
-      <Sense id="ewn-spread_out-v-02032840-04" n="5" synset="ewn-02032840-v" dc:identifier="spread_out%2:38:02::"/>
+      <Sense id="ewn-spread_out-v-02032840-04" n="5" synset="ewn-02032840-v" dc:identifier="spread_out%2:38:02::">
+        <SenseRelation relType="also" target="ewn-spread-v-01381221-01"/>
+        </Sense>
       <Sense id="ewn-spread_out-v-02049364-03" n="4" synset="ewn-02049364-v" dc:identifier="spread_out%2:38:03::"/>
-      <Sense id="ewn-spread_out-v-02064069-03" n="0" synset="ewn-02064069-v" dc:identifier="spread_out%2:38:00::"/>
-      <Sense id="ewn-spread_out-v-02081395-02" n="3" synset="ewn-02081395-v" dc:identifier="spread_out%2:38:01::"/>
+      <Sense id="ewn-spread_out-v-02064069-03" n="0" synset="ewn-02064069-v" dc:identifier="spread_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-spread-v-01381221-01"/>
+        </Sense>
+      <Sense id="ewn-spread_out-v-02081395-02" n="3" synset="ewn-02081395-v" dc:identifier="spread_out%2:38:01::">
+        <SenseRelation relType="also" target="ewn-spread-v-01381221-01"/>
+        </Sense>
       <Sense id="ewn-spread_out-v-02086937-03" n="2" synset="ewn-02086937-v" dc:identifier="spread_out%2:38:04::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-spread_out-v-02081395-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-spread_out-v-02032840-04"/>
@@ -9879,6 +10054,7 @@
         <SenseRelation relType="derivation" target="ewn-flow-n-15302716-01"/> <!-- flow, flow rate, rate of flow -->
         <SenseRelation relType="derivation" target="ewn-flow-n-07420493-01"/> <!-- flowing, flow -->
         <SenseRelation relType="derivation" target="ewn-flowing-n-07420493-02"/> <!-- flowing, flow -->
+        <SenseRelation relType="also" target="ewn-flow_from-v-02640648-02"/> <!-- be due, flow from -->
         <SenseRelation relType="also" target="ewn-flow_from-v-02640648-02"/> <!-- be due, flow from -->
         </Sense>
       <Sense id="ewn-flow-v-02071617-01" n="2" synset="ewn-02071617-v" dc:identifier="flow%2:38:02::">
@@ -10094,6 +10270,7 @@
       <Lemma writtenForm="pick up" partOfSpeech="v"/>
       <Sense id="ewn-pick_up-v-01960966-01" n="2" synset="ewn-01960966-v" dc:identifier="pick_up%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-pickup-n-00320002-01"/> <!-- pickup -->
+        <SenseRelation relType="also" target="ewn-pick-v-01384737-01"/>
         </Sense>
       <Sense id="ewn-pick_up-v-01980103-01" n="0" synset="ewn-01980103-v" dc:identifier="pick_up%2:38:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-pick_up-v-01960966-01 ewn-pick_up-v-01980103-01"/>
@@ -10318,6 +10495,7 @@
         <SenseRelation relType="derivation" target="ewn-movement-n-00332776-02"/> <!-- motion, movement, motility, move -->
         <SenseRelation relType="antonym" target="ewn-stand_still-v-01838427-01"/> <!-- stand still -->
         <SenseRelation relType="also" target="ewn-move_over-v-01852407-01"/> <!-- ease up, give way, move over, yield, give -->
+        <SenseRelation relType="also" target="ewn-move_over-v-01852407-01"/> <!-- ease up, give way, move over, yield, give -->
         </Sense>
       <Sense id="ewn-move-v-01839438-03" n="0" synset="ewn-01839438-v" dc:identifier="move%2:38:03::">
         <SenseRelation relType="derivation" target="ewn-motion-n-00280679-01"/> <!-- motion, movement, move -->
@@ -10325,6 +10503,9 @@
         <SenseRelation relType="derivation" target="ewn-movement-n-00280679-02"/> <!-- motion, movement, move -->
         <SenseRelation relType="derivation" target="ewn-movement-n-07324399-01"/> <!-- motion, movement -->
         <SenseRelation relType="derivation" target="ewn-mover-n-10355644-01"/> <!-- mover -->
+        <SenseRelation relType="also" target="ewn-move_on-v-01996535-04"/> <!-- pass on, march on, go on, advance, move on, progress -->
+        <SenseRelation relType="also" target="ewn-move_out-v-01860197-01"/> <!-- move out -->
+        <SenseRelation relType="also" target="ewn-move_back-v-01998474-08"/> <!-- pull back, retreat, move back, recede, draw back, retire, pull away, withdraw -->
         <SenseRelation relType="also" target="ewn-move_on-v-01996535-04"/> <!-- pass on, march on, go on, advance, move on, progress -->
         <SenseRelation relType="also" target="ewn-move_out-v-01860197-01"/> <!-- move out -->
         <SenseRelation relType="also" target="ewn-move_back-v-01998474-08"/> <!-- pull back, retreat, move back, recede, draw back, retire, pull away, withdraw -->
@@ -10384,6 +10565,7 @@
       <Lemma writtenForm="center" partOfSpeech="v"/>
       <Sense id="ewn-center-v-01856668-01" n="2" synset="ewn-01856668-v" dc:identifier="center%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-center-n-08538999-01"/> <!-- centre, midpoint, center -->
+        <SenseRelation relType="also" target="ewn-center_on-v-02682306-02"/> <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
         <SenseRelation relType="also" target="ewn-center_on-v-02682306-02"/> <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-center-v-01856668-01"/>
@@ -10478,7 +10660,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-lift_up-v">
       <Lemma writtenForm="lift up" partOfSpeech="v"/>
-      <Sense id="ewn-lift_up-v-01980103-02" n="0" synset="ewn-01980103-v" dc:identifier="lift_up%2:38:00::"/>
+      <Sense id="ewn-lift_up-v-01980103-02" n="0" synset="ewn-01980103-v" dc:identifier="lift_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-lift-v-01978076-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-lift_up-v-01980103-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-lift_up-v-01980103-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-lift_up-v-01980103-02"/>
@@ -10525,7 +10709,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-go_on-v">
       <Lemma writtenForm="go on" partOfSpeech="v"/>
-      <Sense id="ewn-go_on-v-01996535-06" n="2" synset="ewn-01996535-v" dc:identifier="go_on%2:38:00::"/>
+      <Sense id="ewn-go_on-v-01996535-06" n="2" synset="ewn-01996535-v" dc:identifier="go_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-go_on-v-01996535-06"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-go_on-v-01996535-06"/>
     </LexicalEntry>
@@ -10630,7 +10816,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bow_down-v">
       <Lemma writtenForm="bow down" partOfSpeech="v"/>
-      <Sense id="ewn-bow_down-v-02067538-02" n="0" synset="ewn-02067538-v" dc:identifier="bow_down%2:38:00::"/>
+      <Sense id="ewn-bow_down-v-02067538-02" n="0" synset="ewn-02067538-v" dc:identifier="bow_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bow-v-02044118-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bow_down-v-02067538-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-carry_forward-v">
@@ -10657,14 +10845,18 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-send_on-v">
       <Lemma writtenForm="send on" partOfSpeech="v"/>
-      <Sense id="ewn-send_on-v-01959367-02" n="0" synset="ewn-01959367-v" dc:identifier="send_on%2:38:00::"/>
+      <Sense id="ewn-send_on-v-01959367-02" n="0" synset="ewn-01959367-v" dc:identifier="send_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-send-v-01954657-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-send_on-v-01959367-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-send_on-v-01959367-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-send_on-v-01959367-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-push_on-v">
       <Lemma writtenForm="push on" partOfSpeech="v"/>
-      <Sense id="ewn-push_on-v-01997581-02" n="0" synset="ewn-01997581-v" dc:identifier="push_on%2:38:00::"/>
+      <Sense id="ewn-push_on-v-01997581-02" n="0" synset="ewn-01997581-v" dc:identifier="push_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-push-v-02412046-04"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-push_on-v-01997581-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-push_on-v-01997581-02"/>
     </LexicalEntry>
@@ -10706,7 +10898,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-stand_up-v">
       <Lemma writtenForm="stand up" partOfSpeech="v"/>
-      <Sense id="ewn-stand_up-v-01987278-05" n="0" synset="ewn-01987278-v" dc:identifier="stand_up%2:38:00::"/>
+      <Sense id="ewn-stand_up-v-01987278-05" n="0" synset="ewn-01987278-v" dc:identifier="stand_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-stand-v-01548893-01"/>
+        </Sense>
       <Sense id="ewn-stand_up-v-01987611-03" n="6" synset="ewn-01987611-v" dc:identifier="stand_up%2:38:06::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-stand_up-v-01987278-05"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-stand_up-v-01987611-03"/>
@@ -10837,7 +11031,9 @@
     <LexicalEntry id="ewn-go_under-v">
       <Lemma writtenForm="go under" partOfSpeech="v"/>
       <Sense id="ewn-go_under-v-01974660-03" n="1" synset="ewn-01974660-v" dc:identifier="go_under%2:38:08::"/>
-      <Sense id="ewn-go_under-v-01993887-04" n="0" synset="ewn-01993887-v" dc:identifier="go_under%2:38:00::"/>
+      <Sense id="ewn-go_under-v-01993887-04" n="0" synset="ewn-01993887-v" dc:identifier="go_under%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-go_under-v-01974660-03 ewn-go_under-v-01993887-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-go_under-v-01993887-04"/>
     </LexicalEntry>
@@ -10876,7 +11072,9 @@
     <LexicalEntry id="ewn-turn_away-v">
       <Lemma writtenForm="turn away" partOfSpeech="v"/>
       <Sense id="ewn-turn_away-v-01912802-01" n="0" synset="ewn-01912802-v" dc:identifier="turn_away%2:38:02::"/>
-      <Sense id="ewn-turn_away-v-02038145-03" n="1" synset="ewn-02038145-v" dc:identifier="turn_away%2:38:00::"/>
+      <Sense id="ewn-turn_away-v-02038145-03" n="1" synset="ewn-02038145-v" dc:identifier="turn_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-turn-v-01911251-01"/>
+        </Sense>
       <Sense id="ewn-turn_away-v-02038356-02" n="3" synset="ewn-02038356-v" dc:identifier="turn_away%2:38:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-turn_away-v-01912802-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-turn_away-v-01912802-01"/>
@@ -10923,7 +11121,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-knock_over-v">
       <Lemma writtenForm="knock over" partOfSpeech="v"/>
-      <Sense id="ewn-knock_over-v-01913971-05" n="0" synset="ewn-01913971-v" dc:identifier="knock_over%2:38:00::"/>
+      <Sense id="ewn-knock_over-v-01913971-05" n="0" synset="ewn-01913971-v" dc:identifier="knock_over%2:38:00::">
+        <SenseRelation relType="also" target="ewn-knock-v-01241204-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-knock_over-v-01913971-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-knock_over-v-01913971-05"/>
     </LexicalEntry>
@@ -11012,7 +11212,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-march_on-v">
       <Lemma writtenForm="march on" partOfSpeech="v"/>
-      <Sense id="ewn-march_on-v-01996535-05" n="0" synset="ewn-01996535-v" dc:identifier="march_on%2:38:00::"/>
+      <Sense id="ewn-march_on-v-01996535-05" n="0" synset="ewn-01996535-v" dc:identifier="march_on%2:38:00::">
+        <SenseRelation relType="also" target="ewn-march-v-01923384-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-march_on-v-01996535-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-march_on-v-01996535-05"/>
     </LexicalEntry>
@@ -11435,7 +11637,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-catch_up-v">
       <Lemma writtenForm="catch up" partOfSpeech="v"/>
-      <Sense id="ewn-catch_up-v-02002825-01" n="0" synset="ewn-02002825-v" dc:identifier="catch_up%2:38:00::"/>
+      <Sense id="ewn-catch_up-v-02002825-01" n="0" synset="ewn-02002825-v" dc:identifier="catch_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-catch-v-01441809-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-catch_up-v-02002825-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-catch_up-v-02002825-01"/>
     </LexicalEntry>
@@ -11454,8 +11658,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-go_by-v">
       <Lemma writtenForm="go by" partOfSpeech="v"/>
-      <Sense id="ewn-go_by-v-02055618-05" n="1" synset="ewn-02055618-v" dc:identifier="go_by%2:38:01::"/>
-      <Sense id="ewn-go_by-v-02076777-07" n="0" synset="ewn-02076777-v" dc:identifier="go_by%2:38:00::"/>
+      <Sense id="ewn-go_by-v-02055618-05" n="1" synset="ewn-02055618-v" dc:identifier="go_by%2:38:01::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
+      <Sense id="ewn-go_by-v-02076777-07" n="0" synset="ewn-02076777-v" dc:identifier="go_by%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-go_by-v-02055618-05"/>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-go_by-v-02076777-07"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-go_by-v-02055618-05"/>
@@ -11570,7 +11778,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-drive_away-v">
       <Lemma writtenForm="drive away" partOfSpeech="v"/>
-      <Sense id="ewn-drive_away-v-02006752-04" n="0" synset="ewn-02006752-v" dc:identifier="drive_away%2:38:00::"/>
+      <Sense id="ewn-drive_away-v-02006752-04" n="0" synset="ewn-02006752-v" dc:identifier="drive_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-drive-v-02060895-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-drive_away-v-02006752-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-drive_away-v-02006752-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-drive_away-v-02006752-04"/>
@@ -11741,6 +11951,10 @@
         <SenseRelation relType="also" target="ewn-back_off-v-02001712-02"/> <!-- back off, back down, back up -->
         <SenseRelation relType="also" target="ewn-back_down-v-02001712-03"/> <!-- back off, back down, back up -->
         <SenseRelation relType="also" target="ewn-back_out-v-02001408-01"/> <!-- back out -->
+        <SenseRelation relType="also" target="ewn-back_up-v-02001712-01"/> <!-- back off, back down, back up -->
+        <SenseRelation relType="also" target="ewn-back_off-v-02001712-02"/> <!-- back off, back down, back up -->
+        <SenseRelation relType="also" target="ewn-back_down-v-02001712-03"/> <!-- back off, back down, back up -->
+        <SenseRelation relType="also" target="ewn-back_out-v-02001408-01"/> <!-- back out -->
         </Sense>
       <Sense id="ewn-back-v-02001544-01" n="3" synset="ewn-02001544-v" dc:identifier="back%2:38:01::">
         <SenseRelation relType="antonym" target="ewn-advance-v-01997958-01"/> <!-- bring forward, advance -->
@@ -11805,6 +12019,7 @@
         <SenseRelation relType="derivation" target="ewn-speed-n-15307914-01"/> <!-- velocity, speed -->
         <SenseRelation relType="derivation" target="ewn-speed-n-05065291-01"/> <!-- speed, fastness, swiftness -->
         <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/> <!-- quicken, speed up, speed, accelerate -->
+        <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/> <!-- quicken, speed up, speed, accelerate -->
         </Sense>
       <Sense id="ewn-speed-v-02059899-01" n="3" synset="ewn-02059899-v" dc:identifier="speed%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-speed-n-00330986-01"/> <!-- hurrying, speed, speeding -->
@@ -11817,6 +12032,7 @@
         <SenseRelation relType="derivation" target="ewn-speed-n-15307914-01"/> <!-- velocity, speed -->
         <SenseRelation relType="derivation" target="ewn-speed-n-05065291-01"/> <!-- speed, fastness, swiftness -->
         <SenseRelation relType="derivation" target="ewn-speeding-n-00330986-02"/> <!-- hurrying, speed, speeding -->
+        <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/> <!-- quicken, speed up, speed, accelerate -->
         <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/> <!-- quicken, speed up, speed, accelerate -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-speed-v-02059573-02 ewn-speed-v-02059899-01"/>
@@ -11938,7 +12154,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-chase_away-v">
       <Lemma writtenForm="chase away" partOfSpeech="v"/>
-      <Sense id="ewn-chase_away-v-02006752-01" n="0" synset="ewn-02006752-v" dc:identifier="chase_away%2:38:00::"/>
+      <Sense id="ewn-chase_away-v-02006752-01" n="0" synset="ewn-02006752-v" dc:identifier="chase_away%2:38:00::">
+        <SenseRelation relType="also" target="ewn-chase-v-02005890-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-chase_away-v-02006752-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-chase_away-v-02006752-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-chase_away-v-02006752-01"/>
@@ -11969,6 +12187,7 @@
       <Lemma writtenForm="hop on" partOfSpeech="v"/>
       <Sense id="ewn-hop_on-v-01927367-01" n="0" synset="ewn-01927367-v" dc:identifier="hop_on%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-hop_out-v-01927685-01"/> <!-- get off, hop out -->
+        <SenseRelation relType="also" target="ewn-hop-v-01970868-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-hop_on-v-01927367-01"/>
     </LexicalEntry>
@@ -12036,6 +12255,8 @@
       <Lemma writtenForm="file" partOfSpeech="v"/>
       <Sense id="ewn-file-v-01924041-01" n="2" synset="ewn-01924041-v" dc:identifier="file%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-file-n-08445713-01"/> <!-- Indian file, single file, file -->
+        <SenseRelation relType="also" target="ewn-file_in-v-01924213-01"/> <!-- file in -->
+        <SenseRelation relType="also" target="ewn-file_out-v-01924587-01"/> <!-- file out -->
         <SenseRelation relType="also" target="ewn-file_in-v-01924213-01"/> <!-- file in -->
         <SenseRelation relType="also" target="ewn-file_out-v-01924587-01"/> <!-- file out -->
         </Sense>
@@ -12137,7 +12358,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-back_out-v">
       <Lemma writtenForm="back out" partOfSpeech="v"/>
-      <Sense id="ewn-back_out-v-02001408-01" n="0" synset="ewn-02001408-v" dc:identifier="back_out%2:38:00::"/>
+      <Sense id="ewn-back_out-v-02001408-01" n="0" synset="ewn-02001408-v" dc:identifier="back_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-back-v-02001151-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-back_out-v-02001408-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-back_out-v-02001408-01"/>
     </LexicalEntry>
@@ -12294,6 +12517,7 @@
       <Sense id="ewn-part-v-02018017-02" n="2" synset="ewn-02018017-v" dc:identifier="part%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-parting-n-00053917-04"/> <!-- parting, leave, leave-taking, farewell -->
         <SenseRelation relType="also" target="ewn-part_with-v-02350643-03"/> <!-- give up, part with, dispense with, spare -->
+        <SenseRelation relType="also" target="ewn-part_with-v-02350643-03"/> <!-- give up, part with, dispense with, spare -->
         </Sense>
       <Sense id="ewn-part-v-02034003-02" n="0" synset="ewn-02034003-v" dc:identifier="part%2:38:02::">
         <SenseRelation relType="derivation" target="ewn-parting-n-00053917-04"/> <!-- parting, leave, leave-taking, farewell -->
@@ -12308,9 +12532,13 @@
       <Sense id="ewn-send-v-01954657-02" n="3" synset="ewn-01954657-v" dc:identifier="send%2:38:00::">
         <SenseRelation relType="also" target="ewn-send_on-v-01959367-02"/> <!-- send on, forward -->
         <SenseRelation relType="also" target="ewn-send_off-v-01958986-03"/> <!-- despatch, send off, dispatch -->
+        <SenseRelation relType="also" target="ewn-send_on-v-01959367-02"/> <!-- send on, forward -->
+        <SenseRelation relType="also" target="ewn-send_off-v-01958986-03"/> <!-- despatch, send off, dispatch -->
         </Sense>
       <Sense id="ewn-send-v-01955339-01" n="0" synset="ewn-01955339-v" dc:identifier="send%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-sending-n-00121986-01"/> <!-- sending -->
+        <SenseRelation relType="also" target="ewn-send_away-v-02407967-07"/> <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
+        <SenseRelation relType="also" target="ewn-send_away-v-02471362-03"/> <!-- send away, drop, dismiss, send packing -->
         <SenseRelation relType="also" target="ewn-send_away-v-02407967-07"/> <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
         <SenseRelation relType="also" target="ewn-send_away-v-02471362-03"/> <!-- send away, drop, dismiss, send packing -->
         </Sense>
@@ -12329,7 +12557,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-move_over-v">
       <Lemma writtenForm="move over" partOfSpeech="v"/>
-      <Sense id="ewn-move_over-v-01852407-01" n="0" synset="ewn-01852407-v" dc:identifier="move_over%2:38:00::"/>
+      <Sense id="ewn-move_over-v-01852407-01" n="0" synset="ewn-01852407-v" dc:identifier="move_over%2:38:00::">
+        <SenseRelation relType="also" target="ewn-move-v-01835473-01"/> <!-- move -->
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-move_over-v-01852407-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-move_over-v-01852407-01"/>
     </LexicalEntry>
@@ -12513,7 +12743,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-walk_around-v">
       <Lemma writtenForm="walk around" partOfSpeech="v"/>
-      <Sense id="ewn-walk_around-v-01914958-03" n="0" synset="ewn-01914958-v" dc:identifier="walk_around%2:38:00::"/>
+      <Sense id="ewn-walk_around-v-01914958-03" n="0" synset="ewn-01914958-v" dc:identifier="walk_around%2:38:00::">
+        <SenseRelation relType="also" target="ewn-walk-v-01908923-01"/> <!-- walk -->
+        </Sense>
       <Sense id="ewn-walk_around-v-01915225-02" n="1" synset="ewn-01915225-v" dc:identifier="walk_around%2:38:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-walk_around-v-01914958-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-walk_around-v-01915225-02"/>
@@ -12777,6 +13009,7 @@
         </Sense>
       <Sense id="ewn-sail-v-01873556-02" n="1" synset="ewn-01873556-v" dc:identifier="sail%2:38:01::">
         <SenseRelation relType="also" target="ewn-sail_through-v-02528247-05"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
+        <SenseRelation relType="also" target="ewn-sail_through-v-02528247-05"/> <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
         </Sense>
       <Sense id="ewn-sail-v-01949375-01" n="2" synset="ewn-01949375-v" dc:identifier="sail%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-sail-n-00313758-02"/> <!-- sail, cruise -->
@@ -13028,13 +13261,16 @@
       <Lemma writtenForm="sit down" partOfSpeech="v"/>
       <Sense id="ewn-sit_down-v-01988916-01" n="0" synset="ewn-01988916-v" dc:identifier="sit_down%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-arise-v-01987278-01"/> <!-- stand up, rise, arise, get up, uprise -->
+        <SenseRelation relType="also" target="ewn-sit-v-01545905-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-sit_down-v-01988916-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-sit_down-v-01988916-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-roll_down-v">
       <Lemma writtenForm="roll down" partOfSpeech="v"/>
-      <Sense id="ewn-roll_down-v-01970713-02" n="0" synset="ewn-01970713-v" dc:identifier="roll_down%2:38:00::"/>
+      <Sense id="ewn-roll_down-v-01970713-02" n="0" synset="ewn-01970713-v" dc:identifier="roll_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-roll-v-01870178-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-roll_down-v-01970713-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-keel-v">
@@ -13060,6 +13296,7 @@
       <Lemma writtenForm="touch down" partOfSpeech="v"/>
       <Sense id="ewn-touch_down-v-01983716-01" n="0" synset="ewn-01983716-v" dc:identifier="touch_down%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-touchdown-n-00305831-01"/> <!-- touchdown -->
+        <SenseRelation relType="also" target="ewn-touch-v-01208838-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-touch_down-v-01983716-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-touch_down-v-01983716-01"/>
@@ -13092,6 +13329,7 @@
       <Sense id="ewn-cut-v-01863981-01" n="17" synset="ewn-01863981-v" dc:identifier="cut%2:38:00::"/>
       <Sense id="ewn-cut-v-01864093-01" n="16" synset="ewn-01864093-v" dc:identifier="cut%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-cutting-n-00947021-02"/> <!-- film editing, cutting -->
+        <SenseRelation relType="also" target="ewn-cut_to-v-01864471-01"/> <!-- cut to -->
         <SenseRelation relType="also" target="ewn-cut_to-v-01864471-01"/> <!-- cut to -->
         </Sense>
       <Sense id="ewn-cut-v-01919723-01" n="15" synset="ewn-01919723-v" dc:identifier="cut%2:38:12::"/>
@@ -13211,7 +13449,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-back_off-v">
       <Lemma writtenForm="back off" partOfSpeech="v"/>
-      <Sense id="ewn-back_off-v-02001712-02" n="0" synset="ewn-02001712-v" dc:identifier="back_off%2:38:00::"/>
+      <Sense id="ewn-back_off-v-02001712-02" n="0" synset="ewn-02001712-v" dc:identifier="back_off%2:38:00::">
+        <SenseRelation relType="also" target="ewn-back-v-02001151-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-back_off-v-02001712-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-back_off-v-02001712-02"/>
     </LexicalEntry>
@@ -13305,7 +13545,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bundle_off-v">
       <Lemma writtenForm="bundle off" partOfSpeech="v"/>
-      <Sense id="ewn-bundle_off-v-01958868-01" n="0" synset="ewn-01958868-v" dc:identifier="bundle_off%2:38:00::"/>
+      <Sense id="ewn-bundle_off-v-01958868-01" n="0" synset="ewn-01958868-v" dc:identifier="bundle_off%2:38:00::">
+        <SenseRelation relType="also" target="ewn-bundle-v-01486416-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-bundle_off-v-01958868-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bundle_off-v-01958868-01"/>
     </LexicalEntry>
@@ -13380,6 +13622,7 @@
       <Lemma writtenForm="file out" partOfSpeech="v"/>
       <Sense id="ewn-file_out-v-01924587-01" n="0" synset="ewn-01924587-v" dc:identifier="file_out%2:38:00::">
         <SenseRelation relType="antonym" target="ewn-file_in-v-01924213-01"/> <!-- file in -->
+        <SenseRelation relType="also" target="ewn-file-v-01924041-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-file_out-v-01924587-01"/>
     </LexicalEntry>
@@ -13562,7 +13805,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sneak_out-v">
       <Lemma writtenForm="sneak out" partOfSpeech="v"/>
-      <Sense id="ewn-sneak_out-v-02080274-05" n="0" synset="ewn-02080274-v" dc:identifier="sneak_out%2:38:00::"/>
+      <Sense id="ewn-sneak_out-v-02080274-05" n="0" synset="ewn-02080274-v" dc:identifier="sneak_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-sneak-v-01915881-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-sneak_out-v-02080274-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-incurvate-v">
@@ -13575,7 +13820,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-set_down-v">
       <Lemma writtenForm="set down" partOfSpeech="v"/>
-      <Sense id="ewn-set_down-v-01983255-03" n="4" synset="ewn-01983255-v" dc:identifier="set_down%2:38:00::"/>
+      <Sense id="ewn-set_down-v-01983255-03" n="4" synset="ewn-01983255-v" dc:identifier="set_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-set-v-01496967-02"/>
+        </Sense>
       <Sense id="ewn-set_down-v-01983915-02" n="1" synset="ewn-01983915-v" dc:identifier="set_down%2:38:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-set_down-v-01983255-03 ewn-set_down-v-01983915-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-set_down-v-01983255-03 ewn-set_down-v-01983915-02"/>
@@ -13727,6 +13974,8 @@
         <SenseRelation relType="derivation" target="ewn-climbing-n-07385010-02"/> <!-- climb, mounting, climbing -->
         <SenseRelation relType="also" target="ewn-climb_on-v-01927367-06"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
         <SenseRelation relType="also" target="ewn-climb_down-v-01982590-02"/> <!-- alight, climb down -->
+        <SenseRelation relType="also" target="ewn-climb_on-v-01927367-06"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
+        <SenseRelation relType="also" target="ewn-climb_down-v-01982590-02"/> <!-- alight, climb down -->
         </Sense>
       <Sense id="ewn-climb-v-01927862-01" n="1" synset="ewn-01927862-v" dc:identifier="climb%2:38:01::"/>
       <Sense id="ewn-climb-v-02041834-01" n="3" synset="ewn-02041834-v" dc:identifier="climb%2:38:06::">
@@ -13773,7 +14022,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-step_out-v">
       <Lemma writtenForm="step out" partOfSpeech="v"/>
-      <Sense id="ewn-step_out-v-02020253-01" n="0" synset="ewn-02020253-v" dc:identifier="step_out%2:38:00::"/>
+      <Sense id="ewn-step_out-v-02020253-01" n="0" synset="ewn-02020253-v" dc:identifier="step_out%2:38:00::">
+        <SenseRelation relType="also" target="ewn-step-v-01932791-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-step_out-v-02020253-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-palpitate-v">
@@ -14161,7 +14412,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-gather_up-v">
       <Lemma writtenForm="gather up" partOfSpeech="v"/>
-      <Sense id="ewn-gather_up-v-01980103-03" n="0" synset="ewn-01980103-v" dc:identifier="gather_up%2:38:00::"/>
+      <Sense id="ewn-gather_up-v-01980103-03" n="0" synset="ewn-01980103-v" dc:identifier="gather_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-gather-v-01383303-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-gather_up-v-01980103-03"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-gather_up-v-01980103-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-gather_up-v-01980103-03"/>
@@ -14220,6 +14473,8 @@
         <SenseRelation relType="derivation" target="ewn-roll-n-07456219-03"/> <!-- axial motion, roll, axial rotation -->
         <SenseRelation relType="derivation" target="ewn-roller-n-04108795-01"/> <!-- roller -->
         <SenseRelation relType="derivation" target="ewn-roller-n-04108591-01"/> <!-- roller -->
+        <SenseRelation relType="also" target="ewn-roll_down-v-01970713-02"/> <!-- roll down, avalanche -->
+        <SenseRelation relType="also" target="ewn-roll_over-v-01871802-01"/> <!-- roll over -->
         <SenseRelation relType="also" target="ewn-roll_down-v-01970713-02"/> <!-- roll down, avalanche -->
         <SenseRelation relType="also" target="ewn-roll_over-v-01871802-01"/> <!-- roll over -->
         </Sense>
@@ -14590,9 +14845,15 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-go_down-v">
       <Lemma writtenForm="go down" partOfSpeech="v"/>
-      <Sense id="ewn-go_down-v-01974660-02" n="6" synset="ewn-01974660-v" dc:identifier="go_down%2:38:01::"/>
-      <Sense id="ewn-go_down-v-01974840-03" n="0" synset="ewn-01974840-v" dc:identifier="go_down%2:38:02::"/>
-      <Sense id="ewn-go_down-v-01993887-03" n="1" synset="ewn-01993887-v" dc:identifier="go_down%2:38:00::"/>
+      <Sense id="ewn-go_down-v-01974660-02" n="6" synset="ewn-01974660-v" dc:identifier="go_down%2:38:01::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
+      <Sense id="ewn-go_down-v-01974840-03" n="0" synset="ewn-01974840-v" dc:identifier="go_down%2:38:02::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
+      <Sense id="ewn-go_down-v-01993887-03" n="1" synset="ewn-01993887-v" dc:identifier="go_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-go_down-v-01974840-03 ewn-go_down-v-01993887-03"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-go_down-v-01974660-02 ewn-go_down-v-01974840-03 ewn-go_down-v-01993887-03"/>
     </LexicalEntry>
@@ -14824,6 +15085,7 @@
       <Lemma writtenForm="move into" partOfSpeech="v"/>
       <Sense id="ewn-move_into-v-02020375-07" n="0" synset="ewn-02020375-v" dc:identifier="move_into%2:38:00::">
         <SenseRelation relType="also" target="ewn-move_in-v-01859968-01"/> <!-- move in -->
+        <SenseRelation relType="also" target="ewn-move_in-v-01859968-01"/> <!-- move in -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-move_into-v-02020375-07"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-move_into-v-02020375-07"/>
@@ -14986,6 +15248,19 @@
         <SenseRelation relType="also" target="ewn-go_under-v-01993887-04"/> <!-- go down, go under, settle, sink -->
         <SenseRelation relType="also" target="ewn-go_on-v-00783045-02"/> <!-- proceed, go on, carry on, continue -->
         <SenseRelation relType="also" target="ewn-go_around-v-00971905-01"/> <!-- go around, circulate, spread -->
+        <SenseRelation relType="also" target="ewn-go_on-v-01996535-06"/> <!-- pass on, march on, go on, advance, move on, progress -->
+        <SenseRelation relType="also" target="ewn-go_up-v-01925957-04"/> <!-- climb up, climb, mount, go up -->
+        <SenseRelation relType="also" target="ewn-go_by-v-02076777-07"/> <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
+        <SenseRelation relType="also" target="ewn-go_off-v-02077642-06"/> <!-- bolt, absquatulate, abscond, run off, go off, make off, decamp -->
+        <SenseRelation relType="also" target="ewn-go_out-v-02673617-01"/> <!-- go out -->
+        <SenseRelation relType="also" target="ewn-go_by-v-02055618-05"/> <!-- pass by, go by, go past, surpass, pass, travel by -->
+        <SenseRelation relType="also" target="ewn-go_up-v-01972576-05"/> <!-- rise, come up, arise, lift, go up, move up, uprise -->
+        <SenseRelation relType="also" target="ewn-go_down-v-01993887-03"/> <!-- go down, go under, settle, sink -->
+        <SenseRelation relType="also" target="ewn-go_down-v-01974660-02"/> <!-- go down, go under, set -->
+        <SenseRelation relType="also" target="ewn-go_down-v-01974840-03"/> <!-- go down, descend, come down, fall -->
+        <SenseRelation relType="also" target="ewn-go_under-v-01993887-04"/> <!-- go down, go under, settle, sink -->
+        <SenseRelation relType="also" target="ewn-go_on-v-00783045-02"/> <!-- proceed, go on, carry on, continue -->
+        <SenseRelation relType="also" target="ewn-go_around-v-00971905-01"/> <!-- go around, circulate, spread -->
         </Sense>
       <Sense id="ewn-go-v-01852660-01" n="2" synset="ewn-01852660-v" dc:identifier="go%2:38:01::">
         <SenseRelation relType="derivation" target="ewn-goer-n-10024201-03"/> <!-- leaver, goer, departer -->
@@ -15050,9 +15325,13 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-go_up-v">
       <Lemma writtenForm="go up" partOfSpeech="v"/>
-      <Sense id="ewn-go_up-v-01925957-04" n="4" synset="ewn-01925957-v" dc:identifier="go_up%2:38:01::"/>
+      <Sense id="ewn-go_up-v-01925957-04" n="4" synset="ewn-01925957-v" dc:identifier="go_up%2:38:01::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <Sense id="ewn-go_up-v-01947808-01" n="3" synset="ewn-01947808-v" dc:identifier="go_up%2:38:02::"/>
-      <Sense id="ewn-go_up-v-01972576-05" n="0" synset="ewn-01972576-v" dc:identifier="go_up%2:38:00::"/>
+      <Sense id="ewn-go_up-v-01972576-05" n="0" synset="ewn-01972576-v" dc:identifier="go_up%2:38:00::">
+        <SenseRelation relType="also" target="ewn-go-v-01839438-02"/>
+        </Sense>
       <Sense id="ewn-go_up-v-01973223-02" n="6" synset="ewn-01973223-v" dc:identifier="go_up%2:38:10::"/>
       <Sense id="ewn-go_up-v-02057865-04" n="2" synset="ewn-02057865-v" dc:identifier="go_up%2:38:03::"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-go_up-v-01947808-01 ewn-go_up-v-01972576-05 ewn-go_up-v-02057865-04"/>
@@ -15087,7 +15366,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slide_down-v">
       <Lemma writtenForm="slide down" partOfSpeech="v"/>
-      <Sense id="ewn-slide_down-v-01992900-02" n="0" synset="ewn-01992900-v" dc:identifier="slide_down%2:38:00::"/>
+      <Sense id="ewn-slide_down-v-01992900-02" n="0" synset="ewn-01992900-v" dc:identifier="slide_down%2:38:00::">
+        <SenseRelation relType="also" target="ewn-slide-v-01890481-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-slide_down-v-01992900-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-slide_down-v-01992900-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-slide_down-v-01992900-02"/>
@@ -15141,6 +15422,7 @@
       <Sense id="ewn-jump-v-01967949-01" n="0" synset="ewn-01967949-v" dc:identifier="jump%2:38:00::">
         <SenseRelation relType="derivation" target="ewn-jump-n-00120388-01"/> <!-- jump, jumping -->
         <SenseRelation relType="derivation" target="ewn-jumping-n-00120388-02"/> <!-- jump, jumping -->
+        <SenseRelation relType="also" target="ewn-jump_on-v-01927367-05"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
         <SenseRelation relType="also" target="ewn-jump_on-v-01927367-05"/> <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
         </Sense>
       <Sense id="ewn-jump-v-01969163-01" n="10" synset="ewn-01969163-v" dc:identifier="jump%2:38:01::"/>
@@ -15268,11 +15550,21 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slip_out-v">
       <Lemma writtenForm="slip out" partOfSpeech="v"/>
-      <Sense id="ewn-slip_out-v-02080274-06" n="0" synset="ewn-02080274-v"/>
+      <Sense id="ewn-slip_out-v-02080274-06" n="0" synset="ewn-02080274-v" dc:identifier="slip_out%2:38:01::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-move_ahead-v">
       <Lemma writtenForm="move ahead" partOfSpeech="v"/>
-      <Sense id="ewn-move_ahead-v-01999581-04" n="0" synset="ewn-01999581-v"/>
+      <Sense id="ewn-move_ahead-v-01999581-04" n="0" synset="ewn-01999581-v" dc:identifier="move_ahead%2:38:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-dab-v">
+      <Lemma writtenForm="dab" partOfSpeech="v"/>
+      <Sense id="ewn-dab-v-90003682-01" n="3" synset="ewn-90003682-v" dc:identifier="dab%2:38:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-dab-v-90003682-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-jigg-v">
+      <Lemma writtenForm="jigg" partOfSpeech="v"/>
+      <Sense id="ewn-jigg-v-90018281-01" n="0" synset="ewn-90018281-v" dc:identifier="jigg%2:38:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-jigg-v-90018281-01"/>
     </LexicalEntry>
     <!-- move -->
     <Synset id="ewn-01835473-v" ili="i30886" partOfSpeech="v" dc:subject="verb.motion">
@@ -16382,7 +16674,7 @@
     </Synset>
     <!-- stop -->
     <Synset id="ewn-01863207-v" ili="i30998" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>cause to stop</Definition>
+      <Definition>cause to end</Definition>
       <SynsetRelation relType="causes" target="ewn-01864781-v"/> <!-- stop, halt -->
       <SynsetRelation relType="hyponym" target="ewn-00355288-v"/> <!-- check -->
       <SynsetRelation relType="hyponym" target="ewn-01862348-v"/> <!-- rein, rein in -->
@@ -16399,7 +16691,7 @@
     </Synset>
     <!-- halt, hold, arrest -->
     <Synset id="ewn-01863572-v" ili="i30999" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>cause to stop</Definition>
+      <Definition>cause to come to an abrupt stop</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01863207-v"/> <!-- stop -->
       <Example>&quot;Halt the engines&quot;</Example>
       <Example>&quot;Arrest the progress&quot;</Example>
@@ -16622,7 +16914,7 @@
     </Synset>
     <!-- bob -->
     <Synset id="ewn-01869369-v" ili="i31029" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>move up and down repeatedly</Definition>
+      <Definition>move up and down repeatedly in a quick, short movement</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01835473-v"/> <!-- move -->
       <SynsetRelation relType="hyponym" target="ewn-01869561-v"/> <!-- dabble -->
       <SynsetRelation relType="hyponym" target="ewn-01869852-v"/> <!-- bob about, bob around -->
@@ -16926,7 +17218,7 @@
     </Synset>
     <!-- boost up -->
     <Synset id="ewn-01877777-v" ili="i31074" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>push upward</Definition>
+      <Definition>push from beneath</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01877523-v"/> <!-- push up -->
       <Example>&quot;She pushed up her children when the policeman came by&quot;</Example>
     </Synset>
@@ -17182,7 +17474,7 @@
     </Synset>
     <!-- flap -->
     <Synset id="ewn-01884881-v" ili="i31111" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>move noisily</Definition>
+      <Definition>to flutter noisily when moved by the wind</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01884106-v"/> <!-- thump, beat, pound -->
       <Example>&quot;flags flapped in the strong wind&quot;</Example>
     </Synset>
@@ -17643,6 +17935,8 @@
       <SynsetRelation relType="hyponym" target="ewn-01898907-v"/> <!-- glissade -->
       <SynsetRelation relType="hyponym" target="ewn-01899020-v"/> <!-- chasse, sashay -->
       <SynsetRelation relType="hyponym" target="ewn-01899161-v"/> <!-- capriole -->
+      <SynsetRelation relType="hyponym" target="ewn-90003682-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-90018281-v"/>
       <Example>&quot;The young girl danced into the room&quot;</Example>
     </Synset>
     <!-- glissade -->
@@ -17900,7 +18194,7 @@
     </Synset>
     <!-- stumble, falter, bumble -->
     <Synset id="ewn-01905126-v" ili="i31225" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>walk unsteadily</Definition>
+      <Definition>walk unsteadily, tripping repeatedly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01908923-v"/> <!-- walk -->
       <Example>&quot;The drunk man stumbled about&quot;</Example>
     </Synset>
@@ -18515,7 +18809,7 @@
     </Synset>
     <!-- skulk -->
     <Synset id="ewn-01922514-v" ili="i31307" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>move stealthily</Definition>
+      <Definition>move furtively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01908923-v"/> <!-- walk -->
       <Example>&quot;The lonely man skulks down the main street all day&quot;</Example>
     </Synset>
@@ -18526,7 +18820,7 @@
     </Synset>
     <!-- toddle, paddle, coggle, totter, waddle, dodder -->
     <Synset id="ewn-01922796-v" ili="i31309" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>walk unsteadily</Definition>
+      <Definition>walk unsteadily, with short steps</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01908923-v"/> <!-- walk -->
       <Example>&quot;small children toddle&quot;</Example>
     </Synset>
@@ -18691,7 +18985,7 @@
     </Synset>
     <!-- climb -->
     <Synset id="ewn-01927862-v" ili="i31334" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>move with difficulty, by grasping</Definition>
+      <Definition>move with effort, by grasping</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01835473-v"/> <!-- move -->
       <SynsetRelation relType="hyponym" target="ewn-01925765-v"/> <!-- sputter, shinny, scramble, struggle, skin, clamber, shin -->
     </Synset>
@@ -18719,7 +19013,7 @@
     </Synset>
     <!-- troop, promenade, parade -->
     <Synset id="ewn-01928458-v" ili="i31339" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>march in a procession</Definition>
+      <Definition>march in a procession in a public place</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02000767-v"/> <!-- process, march -->
       <Example>&quot;the veterans paraded down the street&quot;</Example>
     </Synset>
@@ -18972,7 +19266,7 @@
     </Synset>
     <!-- coach -->
     <Synset id="ewn-01935233-v" ili="i31375" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>drive a coach</Definition>
+      <Definition>drive or operate a coach or carriage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01934845-v"/> <!-- drive -->
       <SynsetRelation relType="domain_topic" target="ewn-00299323-n"/> <!-- driving -->
     </Synset>
@@ -20053,7 +20347,7 @@
     </Synset>
     <!-- canter -->
     <Synset id="ewn-01963341-v" ili="i31525" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>ride at a cantering pace</Definition>
+      <Definition>cause to ride at a cantering pace</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01961388-v"/> <!-- ride, sit -->
       <SynsetRelation relType="domain_topic" target="ewn-00300043-n"/> <!-- horseback riding, riding -->
       <SynsetRelation relType="domain_topic" target="ewn-00451320-n"/> <!-- equitation, horseback riding, riding -->
@@ -20311,7 +20605,7 @@
     </Synset>
     <!-- leapfrog -->
     <Synset id="ewn-01969918-v" ili="i31560" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>jump across</Definition>
+      <Definition>to vault</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01967949-v"/> <!-- jump, spring, leap, bound -->
       <Example>&quot;He leapfrogged his classmates&quot;</Example>
     </Synset>
@@ -20520,7 +20814,7 @@
     </Synset>
     <!-- decline, slump, correct -->
     <Synset id="ewn-01975617-v" ili="i31586" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>go down in value</Definition>
+      <Definition>fall in value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01974840-v"/> <!-- go down, descend, come down, fall -->
       <Example>&quot;the stock market corrected&quot;</Example>
       <Example>&quot;prices slumped&quot;</Example>
@@ -20540,7 +20834,7 @@
     </Synset>
     <!-- lapse, sink, pass -->
     <Synset id="ewn-01976145-v" ili="i31589" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>pass into a specified state or condition</Definition>
+      <Definition>pass into a specified state or condition; sink into</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00124250-v"/> <!-- move -->
       <Example>&quot;He sank into nirvana&quot;</Example>
     </Synset>
@@ -20965,7 +21259,7 @@
     </Synset>
     <!-- cock up, prick, prick up -->
     <Synset id="ewn-01987020-v" ili="i31650" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>raise</Definition>
+      <Definition>to stick up</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01986880-v"/> <!-- rear, erect -->
       <Example>&quot;The dog pricked up his ears&quot;</Example>
     </Synset>
@@ -21829,7 +22123,7 @@
     </Synset>
     <!-- roll up -->
     <Synset id="ewn-02010467-v" ili="i31767" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>arrive in a vehicle: &quot;He rolled up in a black Mercedes&quot;</Definition>
+      <Definition>arrive in a vehicle:</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02009962-v"/> <!-- arrive, get, come -->
     </Synset>
     <!-- get -->
@@ -22120,7 +22414,7 @@
     </Synset>
     <!-- part, depart, take off, start, set out, start out, set forth, set off -->
     <Synset id="ewn-02018017-v" ili="i31809" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>leave</Definition>
+      <Definition>depart for someplace</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02013448-v"/> <!-- go away, go forth, leave -->
       <SynsetRelation relType="hyponym" target="ewn-02018405-v"/> <!-- take off, lift off -->
       <SynsetRelation relType="hyponym" target="ewn-02018585-v"/> <!-- roar off -->
@@ -22136,7 +22430,7 @@
     </Synset>
     <!-- roar off -->
     <Synset id="ewn-02018585-v" ili="i31811" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>leave</Definition>
+      <Definition>leave at high speed making a loud sound</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02018017-v"/> <!-- part, depart, take off, start, set out, start out, set forth, set off -->
       <Example>&quot;The car roared off into the fog&quot;</Example>
     </Synset>
@@ -22561,7 +22855,7 @@
     </Synset>
     <!-- escort, see -->
     <Synset id="ewn-02029932-v" ili="i31870" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>accompany or escort</Definition>
+      <Definition>conduct someone someplace</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02029396-v"/> <!-- accompany -->
       <Example>&quot;I&apos;ll see you to the door&quot;</Example>
     </Synset>
@@ -22687,7 +22981,7 @@
     </Synset>
     <!-- break up -->
     <Synset id="ewn-02033508-v" ili="i31889" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>come apart</Definition>
+      <Definition>disband</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02034003-v"/> <!-- part, split, separate -->
       <SynsetRelation relType="hyponym" target="ewn-02033789-v"/> <!-- disband, dissolve -->
       <Example>&quot;the group broke up&quot;</Example>
@@ -24109,7 +24403,7 @@
     </Synset>
     <!-- pour out, effuse -->
     <Synset id="ewn-02073716-v" ili="i32095" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>pour out</Definition>
+      <Definition>pour out liberally</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02073479-v"/> <!-- pour -->
       <Example>&quot;effused brine&quot;</Example>
     </Synset>
@@ -24130,7 +24424,7 @@
     </Synset>
     <!-- pour out, decant, pour -->
     <Synset id="ewn-02074224-v" ili="i32098" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>pour out</Definition>
+      <Definition>pour out gradually, so as to separate out sediment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02073479-v"/> <!-- pour -->
       <Example>&quot;the sommelier decanted the wines&quot;</Example>
     </Synset>
@@ -24217,7 +24511,7 @@
     </Synset>
     <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
     <Synset id="ewn-02076777-v" ili="i32112" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>pass by</Definition>
+      <Definition>for time to move forward</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01996535-v"/> <!-- pass on, march on, go on, advance, move on, progress -->
       <SynsetRelation relType="hyponym" target="ewn-02076993-v"/> <!-- fell, fly, vanish -->
       <Example>&quot;three years elapsed&quot;</Example>
@@ -24437,7 +24731,7 @@
     </Synset>
     <!-- interpose -->
     <Synset id="ewn-02083298-v" ili="i32139" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>introduce</Definition>
+      <Definition>to put forth by way of intervention</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01621712-v"/> <!-- introduce -->
       <Example>&quot;God interposed death&quot;</Example>
     </Synset>
@@ -24500,7 +24794,7 @@
     </Synset>
     <!-- bring in -->
     <Synset id="ewn-02085030-v" ili="i32148" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>transmit</Definition>
+      <Definition>convey</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02084180-v"/> <!-- channel, transmit, carry, convey, impart, conduct -->
       <Example>&quot;The microphone brought in the sounds from the room next to mine&quot;</Example>
     </Synset>
@@ -25138,14 +25432,14 @@
     </Synset>
     <!-- draw -->
     <Synset id="ewn-02102078-v" ili="i32247" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>cause to flow</Definition>
+      <Definition>to obtain a liquid from somewhere</Definition>
       <SynsetRelation relType="similar" target="ewn-00096783-v"/> <!-- draw -->
       <SynsetRelation relType="hypernym" target="ewn-00173351-v"/> <!-- take, take away, withdraw, remove -->
       <Example>&quot;The nurse drew blood&quot;</Example>
     </Synset>
     <!-- come out, fall out -->
     <Synset id="ewn-02102203-v" ili="i32248" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>come off</Definition>
+      <Definition>drop out</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00530070-v"/> <!-- come out, go forth, come forth, issue, egress, emerge -->
       <Example>&quot;His hair and teeth fell out&quot;</Example>
     </Synset>
@@ -25299,7 +25593,7 @@
     </Synset>
     <!-- drag -->
     <Synset id="ewn-02106067-v" ili="i32272" partOfSpeech="v" dc:subject="verb.motion">
-      <Definition>use a computer mouse to move icons on the screen and select commands from a menu</Definition>
+      <Definition>use an input device to move objects on the screen, or to select items (such as commands from a menu); drag the slider to increase or decrease rate; drag the handles on the image to resize it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01854282-v"/> <!-- move, displace -->
       <Example>&quot;drag this icon to the lower right hand corner of the screen&quot;</Example>
     </Synset>
@@ -25443,6 +25737,17 @@
       <ILIDefinition>be in danger of dying from submersion in a liquid and asphyxiation</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-01995486-v"/> <!-- submerse, submerge -->
       <Example>&quot;the divers saved the drowning child&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90003682-v" ili="in" partOfSpeech="v" dc:subject="verb.motion" dc:source="Colloquial WordNet">
+      <Definition>to perform a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</Definition>
+      <ILIDefinition>to perform a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-01898642-v"/> <!-- dance -->
+    </Synset>
+    <Synset id="ewn-90018281-v" ili="in" partOfSpeech="v" dc:subject="verb.motion" dc:source="Colloquial WordNet">
+      <Definition>dancing in a style associated with the South Louisiana club scene</Definition>
+      <ILIDefinition>dancing in a style associated with the South Louisiana club scene</ILIDefinition>
+      <SynsetRelation relType="domain_region" target="ewn-09113391-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-01898642-v"/> <!-- dance -->
     </Synset>
   </Lexicon>
 </LexicalResource>

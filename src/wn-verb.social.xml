@@ -281,6 +281,8 @@
         <SenseRelation relType="derivation" target="ewn-slayer-n-10250784-02"/> <!-- slayer, killer -->
         <SenseRelation relType="derivation" target="ewn-slaying-n-00221389-02"/> <!-- execution, murder, slaying -->
         </Sense>
+      <Sense id="ewn-slay-v-90008852-01" n="1" synset="ewn-90008852-v" dc:identifier="slay%2:41:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-slay-v-90008852-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-slay-v-02488014-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-right-v">
@@ -377,7 +379,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-kick_out-v">
       <Lemma writtenForm="kick out" partOfSpeech="v"/>
-      <Sense id="ewn-kick_out-v-02406951-05" n="1" synset="ewn-02406951-v" dc:identifier="kick_out%2:41:00::"/>
+      <Sense id="ewn-kick_out-v-02406951-05" n="1" synset="ewn-02406951-v" dc:identifier="kick_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-kick-v-01373226-01"/>
+        </Sense>
       <Sense id="ewn-kick_out-v-02507387-03" n="0" synset="ewn-02507387-v" dc:identifier="kick_out%2:41:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-kick_out-v-02406951-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-kick_out-v-02406951-05 ewn-kick_out-v-02507387-03"/>
@@ -389,7 +393,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-ask_over-v">
       <Lemma writtenForm="ask over" partOfSpeech="v"/>
-      <Sense id="ewn-ask_over-v-02389828-02" n="0" synset="ewn-02389828-v" dc:identifier="ask_over%2:41:00::"/>
+      <Sense id="ewn-ask_over-v-02389828-02" n="0" synset="ewn-02389828-v" dc:identifier="ask_over%2:41:00::">
+        <SenseRelation relType="also" target="ewn-ask-v-00754499-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-ask_over-v-02389828-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-play_along-v">
@@ -458,6 +464,7 @@
     <LexicalEntry id="ewn-bump-v">
       <Lemma writtenForm="bump" partOfSpeech="v"/>
       <Sense id="ewn-bump-v-02404473-02" n="3" synset="ewn-02404473-v" dc:identifier="bump%2:41:00::">
+        <SenseRelation relType="also" target="ewn-bump_off-v-02488014-05"/> <!-- polish off, slay, bump off, murder, hit, dispatch, off, remove -->
         <SenseRelation relType="also" target="ewn-bump_off-v-02488014-05"/> <!-- polish off, slay, bump off, murder, hit, dispatch, off, remove -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bump-v-02404473-02"/>
@@ -802,7 +809,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-dispense_with-v">
       <Lemma writtenForm="dispense with" partOfSpeech="v"/>
-      <Sense id="ewn-dispense_with-v-02539728-06" n="1" synset="ewn-02539728-v" dc:identifier="dispense_with%2:41:00::"/>
+      <Sense id="ewn-dispense_with-v-02539728-06" n="1" synset="ewn-02539728-v" dc:identifier="dispense_with%2:41:00::">
+        <SenseRelation relType="also" target="ewn-dispense-v-02539973-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-dispense_with-v-02539728-06"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-step_down-v">
@@ -823,6 +832,7 @@
         <SenseRelation relType="derivation" target="ewn-opening-n-07467309-01"/> <!-- opening -->
         <SenseRelation relType="derivation" target="ewn-opening-n-00240097-04"/> <!-- first step, opening, opening move, initiative -->
         <SenseRelation relType="antonym" target="ewn-close-v-02430760-01"/> <!-- close -->
+        <SenseRelation relType="also" target="ewn-open_up-v-01648963-02"/> <!-- open up, pioneer -->
         <SenseRelation relType="also" target="ewn-open_up-v-01648963-02"/> <!-- open up, pioneer -->
         </Sense>
       <Sense id="ewn-open-v-02431018-01" n="1" synset="ewn-02431018-v" dc:identifier="open%2:41:00::">
@@ -1532,12 +1542,16 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-grow_up-v">
       <Lemma writtenForm="grow up" partOfSpeech="v"/>
-      <Sense id="ewn-grow_up-v-02546044-01" n="0" synset="ewn-02546044-v" dc:identifier="grow_up%2:41:00::"/>
+      <Sense id="ewn-grow_up-v-02546044-01" n="0" synset="ewn-02546044-v" dc:identifier="grow_up%2:41:00::">
+        <SenseRelation relType="also" target="ewn-grow-v-00231172-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-grow_up-v-02546044-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-act_up-v">
       <Lemma writtenForm="act up" partOfSpeech="v"/>
-      <Sense id="ewn-act_up-v-02523321-01" n="0" synset="ewn-02523321-v" dc:identifier="act_up%2:41:00::"/>
+      <Sense id="ewn-act_up-v-02523321-01" n="0" synset="ewn-02523321-v" dc:identifier="act_up%2:41:00::">
+        <SenseRelation relType="also" target="ewn-act-v-02372362-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-act_up-v-02523321-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-mismarry-v">
@@ -1691,7 +1705,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-grind_down-v">
       <Lemma writtenForm="grind down" partOfSpeech="v"/>
-      <Sense id="ewn-grind_down-v-02593331-03" n="0" synset="ewn-02593331-v" dc:identifier="grind_down%2:41:00::"/>
+      <Sense id="ewn-grind_down-v-02593331-03" n="0" synset="ewn-02593331-v" dc:identifier="grind_down%2:41:00::">
+        <SenseRelation relType="also" target="ewn-grind-v-01597899-04"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-grind_down-v-02593331-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-coddle-v">
@@ -1823,7 +1839,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-keep_out-v">
       <Lemma writtenForm="keep out" partOfSpeech="v"/>
-      <Sense id="ewn-keep_out-v-02454205-02" n="0" synset="ewn-02454205-v" dc:identifier="keep_out%2:41:00::"/>
+      <Sense id="ewn-keep_out-v-02454205-02" n="0" synset="ewn-02454205-v" dc:identifier="keep_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-keep-v-02687605-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-keep_out-v-02454205-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-keep_out-v-02454205-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-keep_out-v-02454205-02"/>
@@ -2188,6 +2206,8 @@
         <SenseRelation relType="derivation" target="ewn-vote-n-00184354-01"/> <!-- balloting, ballot, vote, voting -->
         <SenseRelation relType="derivation" target="ewn-voter-n-10780008-01"/> <!-- elector, voter -->
         <SenseRelation relType="derivation" target="ewn-voting-n-00184354-03"/> <!-- balloting, ballot, vote, voting -->
+        <SenseRelation relType="also" target="ewn-vote_in-v-02405779-01"/> <!-- vote in -->
+        <SenseRelation relType="also" target="ewn-vote_out-v-02479111-05"/> <!-- shoot down, vote out, vote down, kill, defeat -->
         <SenseRelation relType="also" target="ewn-vote_in-v-02405779-01"/> <!-- vote in -->
         <SenseRelation relType="also" target="ewn-vote_out-v-02479111-05"/> <!-- shoot down, vote out, vote down, kill, defeat -->
         </Sense>
@@ -3268,7 +3288,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-ask_round-v">
       <Lemma writtenForm="ask round" partOfSpeech="v"/>
-      <Sense id="ewn-ask_round-v-02389828-03" n="0" synset="ewn-02389828-v" dc:identifier="ask_round%2:41:00::"/>
+      <Sense id="ewn-ask_round-v-02389828-03" n="0" synset="ewn-02389828-v" dc:identifier="ask_round%2:41:00::">
+        <SenseRelation relType="also" target="ewn-ask-v-00754499-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-ask_round-v-02389828-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-make_out-v">
@@ -3789,6 +3811,7 @@
       <Sense id="ewn-legalise-v-02487025-02" n="0" synset="ewn-02487025-v" dc:identifier="legalise%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-legalisation-n-01197870-02"/> <!-- legalization, legitimation, legalisation -->
         <SenseRelation relType="antonym" target="ewn-outlaw-v-02486512-01"/> <!-- criminalise, outlaw, illegalize, criminalize, illegalise -->
+        <SenseRelation relType="antonym" target="ewn-outlaw-v-02486512-01"/> <!-- criminalise, outlaw, illegalize, criminalize, illegalise -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-legalise-v-02487025-02"/>
     </LexicalEntry>
@@ -4035,6 +4058,7 @@
       <Lemma writtenForm="try out" partOfSpeech="v"/>
       <Sense id="ewn-try_out-v-02537291-04" n="0" synset="ewn-02537291-v" dc:identifier="try_out%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-tryout-n-05807220-04"/> <!-- trial run, test, trial, tryout -->
+        <SenseRelation relType="also" target="ewn-try-v-02535833-01"/>
         </Sense>
       <Sense id="ewn-try_out-v-02538552-02" n="1" synset="ewn-02538552-v" dc:identifier="try_out%2:41:05::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-try_out-v-02538552-02"/>
@@ -4235,7 +4259,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sweep_through-v">
       <Lemma writtenForm="sweep through" partOfSpeech="v"/>
-      <Sense id="ewn-sweep_through-v-02528247-04" n="0" synset="ewn-02528247-v" dc:identifier="sweep_through%2:41:00::"/>
+      <Sense id="ewn-sweep_through-v-02528247-04" n="0" synset="ewn-02528247-v" dc:identifier="sweep_through%2:41:00::">
+        <SenseRelation relType="also" target="ewn-sweep-v-01873556-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-sweep_through-v-02528247-04"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-mutiny-v">
@@ -5049,7 +5075,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-gloss_over-v">
       <Lemma writtenForm="gloss over" partOfSpeech="v"/>
-      <Sense id="ewn-gloss_over-v-02521921-01" n="0" synset="ewn-02521921-v" dc:identifier="gloss_over%2:41:00::"/>
+      <Sense id="ewn-gloss_over-v-02521921-01" n="0" synset="ewn-02521921-v" dc:identifier="gloss_over%2:41:00::">
+        <SenseRelation relType="also" target="ewn-gloss-v-01686477-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something Adjective/Noun" senses="ewn-gloss_over-v-02521921-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-gloss_over-v-02521921-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-gloss_over-v-02521921-01"/>
@@ -5336,7 +5364,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-put_away-v">
       <Lemma writtenForm="put away" partOfSpeech="v"/>
-      <Sense id="ewn-put_away-v-02500005-09" n="2" synset="ewn-02500005-v" dc:identifier="put_away%2:41:00::"/>
+      <Sense id="ewn-put_away-v-02500005-09" n="2" synset="ewn-02500005-v" dc:identifier="put_away%2:41:00::">
+        <SenseRelation relType="also" target="ewn-put-v-01496967-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-put_away-v-02500005-09"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-hobble-v">
@@ -5573,7 +5603,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-skimp_over-v">
       <Lemma writtenForm="skimp over" partOfSpeech="v"/>
-      <Sense id="ewn-skimp_over-v-02521921-05" n="0" synset="ewn-02521921-v" dc:identifier="skimp_over%2:41:00::"/>
+      <Sense id="ewn-skimp_over-v-02521921-05" n="0" synset="ewn-02521921-v" dc:identifier="skimp_over%2:41:00::">
+        <SenseRelation relType="also" target="ewn-skimp-v-02522103-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something Adjective/Noun" senses="ewn-skimp_over-v-02521921-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-skimp_over-v-02521921-05"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-skimp_over-v-02521921-05"/>
@@ -5661,7 +5693,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-invite_out-v">
       <Lemma writtenForm="invite out" partOfSpeech="v"/>
-      <Sense id="ewn-invite_out-v-02492311-03" n="0" synset="ewn-02492311-v" dc:identifier="invite_out%2:41:00::"/>
+      <Sense id="ewn-invite_out-v-02492311-03" n="0" synset="ewn-02492311-v" dc:identifier="invite_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-invite-v-02390082-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-invite_out-v-02492311-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-back_up-v">
@@ -5769,7 +5803,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-boot_out-v">
       <Lemma writtenForm="boot out" partOfSpeech="v"/>
-      <Sense id="ewn-boot_out-v-02406951-04" n="0" synset="ewn-02406951-v" dc:identifier="boot_out%2:41:00::"/>
+      <Sense id="ewn-boot_out-v-02406951-04" n="0" synset="ewn-02406951-v" dc:identifier="boot_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-boot-v-01375221-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-boot_out-v-02406951-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-boot_out-v-02406951-04"/>
     </LexicalEntry>
@@ -6338,6 +6374,7 @@
       <Lemma writtenForm="cook" partOfSpeech="v"/>
       <Sense id="ewn-cook-v-02583006-05" n="3" synset="ewn-02583006-v" dc:identifier="cook%2:41:00::">
         <SenseRelation relType="also" target="ewn-cook_up-v-01637966-03"/> <!-- make up, fabricate, invent, cook up, manufacture -->
+        <SenseRelation relType="also" target="ewn-cook_up-v-01637966-03"/> <!-- make up, fabricate, invent, cook up, manufacture -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-cook-v-02583006-05"/>
     </LexicalEntry>
@@ -6434,6 +6471,7 @@
       <Sense id="ewn-try-v-02535833-01" n="0" synset="ewn-02535833-v" dc:identifier="try%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-try-n-00787849-05"/> <!-- effort, try, endeavor, attempt, endeavour -->
         <SenseRelation relType="derivation" target="ewn-trier-n-10748650-01"/> <!-- attempter, essayer, trier -->
+        <SenseRelation relType="also" target="ewn-try_out-v-02537291-04"/> <!-- essay, test, try out, try, prove, examine -->
         <SenseRelation relType="also" target="ewn-try_out-v-02537291-04"/> <!-- essay, test, try out, try, prove, examine -->
         </Sense>
       <Sense id="ewn-try-v-02537291-03" n="1" synset="ewn-02537291-v" dc:identifier="try%2:41:01::">
@@ -6715,7 +6753,9 @@
     <LexicalEntry id="ewn-take_on-v">
       <Lemma writtenForm="take on" partOfSpeech="v"/>
       <Sense id="ewn-take_on-v-02386868-03" n="1" synset="ewn-02386868-v" dc:identifier="take_on%2:41:01::"/>
-      <Sense id="ewn-take_on-v-02575545-03" n="2" synset="ewn-02575545-v" dc:identifier="take_on%2:41:00::"/>
+      <Sense id="ewn-take_on-v-02575545-03" n="2" synset="ewn-02575545-v" dc:identifier="take_on%2:41:00::">
+        <SenseRelation relType="also" target="ewn-take-v-01216829-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-take_on-v-02386868-03 ewn-take_on-v-02575545-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-complete-v">
@@ -6799,7 +6839,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bump_off-v">
       <Lemma writtenForm="bump off" partOfSpeech="v"/>
-      <Sense id="ewn-bump_off-v-02488014-05" n="0" synset="ewn-02488014-v" dc:identifier="bump_off%2:41:00::"/>
+      <Sense id="ewn-bump_off-v-02488014-05" n="0" synset="ewn-02488014-v" dc:identifier="bump_off%2:41:00::">
+        <SenseRelation relType="also" target="ewn-bump-v-02404473-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bump_off-v-02488014-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-whore-v">
@@ -6846,6 +6888,7 @@
       <Sense id="ewn-compensate-v-02525657-02" n="3" synset="ewn-02525657-v" dc:identifier="compensate%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-compensation-n-13303573-01"/> <!-- compensation -->
         <SenseRelation relType="derivation" target="ewn-compensation-n-00260486-02"/> <!-- recompense, compensation -->
+        <SenseRelation relType="also" target="ewn-compensate-v-02678329-01"/> <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
         <SenseRelation relType="also" target="ewn-compensate-v-02678329-01"/> <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-compensate-v-02525657-02"/>
@@ -6907,7 +6950,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-vote_out-v">
       <Lemma writtenForm="vote out" partOfSpeech="v"/>
-      <Sense id="ewn-vote_out-v-02479111-05" n="0" synset="ewn-02479111-v" dc:identifier="vote_out%2:41:00::"/>
+      <Sense id="ewn-vote_out-v-02479111-05" n="0" synset="ewn-02479111-v" dc:identifier="vote_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-vote-v-02466737-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-vote_out-v-02479111-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-index-v">
@@ -7127,6 +7172,7 @@
         <SenseRelation relType="derivation" target="ewn-invitee-n-10170460-02"/> <!-- invitee, guest -->
         <SenseRelation relType="derivation" target="ewn-invitation-n-07200808-01"/> <!-- invitation -->
         <SenseRelation relType="also" target="ewn-invite_out-v-02492311-03"/> <!-- take out, ask out, invite out, ask -->
+        <SenseRelation relType="also" target="ewn-invite_out-v-02492311-03"/> <!-- take out, ask out, invite out, ask -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-invite-v-02389828-01 ewn-invite-v-02390082-01"/>
     </LexicalEntry>
@@ -7150,7 +7196,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-breeze_through-v">
       <Lemma writtenForm="breeze through" partOfSpeech="v"/>
-      <Sense id="ewn-breeze_through-v-02528247-01" n="0" synset="ewn-02528247-v" dc:identifier="breeze_through%2:41:00::"/>
+      <Sense id="ewn-breeze_through-v-02528247-01" n="0" synset="ewn-02528247-v" dc:identifier="breeze_through%2:41:00::">
+        <SenseRelation relType="also" target="ewn-breeze-v-01898513-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-breeze_through-v-02528247-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-impinge-v">
@@ -7247,7 +7295,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sail_through-v">
       <Lemma writtenForm="sail through" partOfSpeech="v"/>
-      <Sense id="ewn-sail_through-v-02528247-05" n="0" synset="ewn-02528247-v" dc:identifier="sail_through%2:41:00::"/>
+      <Sense id="ewn-sail_through-v-02528247-05" n="0" synset="ewn-02528247-v" dc:identifier="sail_through%2:41:00::">
+        <SenseRelation relType="also" target="ewn-sail-v-01873556-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-sail_through-v-02528247-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-sign_on-v">
@@ -7457,7 +7507,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bring_off-v">
       <Lemma writtenForm="bring off" partOfSpeech="v"/>
-      <Sense id="ewn-bring_off-v-02528530-03" n="0" synset="ewn-02528530-v" dc:identifier="bring_off%2:41:00::"/>
+      <Sense id="ewn-bring_off-v-02528530-03" n="0" synset="ewn-02528530-v" dc:identifier="bring_off%2:41:00::">
+        <SenseRelation relType="also" target="ewn-bring-v-01632781-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-bring_off-v-02528530-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-splash_around-v">
@@ -7470,8 +7522,12 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-send_away-v">
       <Lemma writtenForm="send away" partOfSpeech="v"/>
-      <Sense id="ewn-send_away-v-02407967-07" n="1" synset="ewn-02407967-v" dc:identifier="send_away%2:41:00::"/>
-      <Sense id="ewn-send_away-v-02471362-03" n="0" synset="ewn-02471362-v" dc:identifier="send_away%2:41:01::"/>
+      <Sense id="ewn-send_away-v-02407967-07" n="1" synset="ewn-02407967-v" dc:identifier="send_away%2:41:00::">
+        <SenseRelation relType="also" target="ewn-send-v-01955339-01"/>
+        </Sense>
+      <Sense id="ewn-send_away-v-02471362-03" n="0" synset="ewn-02471362-v" dc:identifier="send_away%2:41:01::">
+        <SenseRelation relType="also" target="ewn-send-v-01955339-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody to INFINITIVE" senses="ewn-send_away-v-02407967-07"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-send_away-v-02407967-07 ewn-send_away-v-02471362-03"/>
     </LexicalEntry>
@@ -7579,6 +7635,7 @@
       <Sense id="ewn-dispense-v-02539973-01" n="1" synset="ewn-02539973-v" dc:identifier="dispense%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-dispensation-n-01144335-01"/> <!-- dispensation -->
         <SenseRelation relType="also" target="ewn-dispense_with-v-02539728-06"/> <!-- forgo, forego, foreswear, dispense with, relinquish, waive -->
+        <SenseRelation relType="also" target="ewn-dispense_with-v-02539728-06"/> <!-- forgo, forego, foreswear, dispense with, relinquish, waive -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-dispense-v-02539973-01"/>
     </LexicalEntry>
@@ -7627,7 +7684,10 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-take_in-v">
       <Lemma writtenForm="take in" partOfSpeech="v"/>
-      <Sense id="ewn-take_in-v-02498233-01" n="3" synset="ewn-02498233-v" dc:identifier="take_in%2:41:00::"/>
+      <Sense id="ewn-take_in-v-02498233-01" n="3" synset="ewn-02498233-v" dc:identifier="take_in%2:41:00::">
+        <SenseRelation relType="also" target="ewn-take-v-01216829-01"/>
+        <SenseRelation relType="also" target="ewn-take-v-02210054-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-take_in-v-02498233-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-regulate-v">
@@ -7895,7 +7955,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-come_through-v">
       <Lemma writtenForm="come through" partOfSpeech="v"/>
-      <Sense id="ewn-come_through-v-02529837-03" n="3" synset="ewn-02529837-v" dc:identifier="come_through%2:41:00::"/>
+      <Sense id="ewn-come_through-v-02529837-03" n="3" synset="ewn-02529837-v" dc:identifier="come_through%2:41:00::">
+        <SenseRelation relType="also" target="ewn-come-v-01853188-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-come_through-v-02529837-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-come_through-v-02529837-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-come_through-v-02529837-03"/>
@@ -8623,7 +8685,9 @@
     <LexicalEntry id="ewn-bring_up-v">
       <Lemma writtenForm="bring up" partOfSpeech="v"/>
       <Sense id="ewn-bring_up-v-02403303-01" n="2" synset="ewn-02403303-v" dc:identifier="bring_up%2:41:01::"/>
-      <Sense id="ewn-bring_up-v-02545454-03" n="1" synset="ewn-02545454-v" dc:identifier="bring_up%2:41:00::"/>
+      <Sense id="ewn-bring_up-v-02545454-03" n="1" synset="ewn-02545454-v" dc:identifier="bring_up%2:41:00::">
+        <SenseRelation relType="also" target="ewn-bring-v-00135665-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-bring_up-v-02403303-01 ewn-bring_up-v-02545454-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-represent-v">
@@ -8950,7 +9014,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-carve_up-v">
       <Lemma writtenForm="carve up" partOfSpeech="v"/>
-      <Sense id="ewn-carve_up-v-02473085-06" n="0" synset="ewn-02473085-v" dc:identifier="carve_up%2:41:00::"/>
+      <Sense id="ewn-carve_up-v-02473085-06" n="0" synset="ewn-02473085-v" dc:identifier="carve_up%2:41:00::">
+        <SenseRelation relType="also" target="ewn-carve-v-01258531-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-carve_up-v-02473085-06"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-carve_up-v-02473085-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-carve_up-v-02473085-06"/>
@@ -9059,6 +9125,7 @@
       <Lemma writtenForm="cross" partOfSpeech="v"/>
       <Sense id="ewn-cross-v-02563998-06" n="2" synset="ewn-02563998-v" dc:identifier="cross%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-cross-n-14501251-01"/> <!-- cross, crown of thorns -->
+        <SenseRelation relType="also" target="ewn-double_cross-v-02543478-01"/> <!-- double cross -->
         <SenseRelation relType="also" target="ewn-double_cross-v-02543478-01"/> <!-- double cross -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-cross-v-02563998-06"/>
@@ -9686,7 +9753,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-pass_on-v">
       <Lemma writtenForm="pass on" partOfSpeech="v"/>
-      <Sense id="ewn-pass_on-v-02595169-02" n="4" synset="ewn-02595169-v" dc:identifier="pass_on%2:41:00::"/>
+      <Sense id="ewn-pass_on-v-02595169-02" n="4" synset="ewn-02595169-v" dc:identifier="pass_on%2:41:00::">
+        <SenseRelation relType="also" target="ewn-pass-v-02235554-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something to somebody" senses="ewn-pass_on-v-02595169-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-beaver_away-v">
@@ -9713,7 +9782,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-vote_in-v">
       <Lemma writtenForm="vote in" partOfSpeech="v"/>
-      <Sense id="ewn-vote_in-v-02405779-01" n="0" synset="ewn-02405779-v" dc:identifier="vote_in%2:41:00::"/>
+      <Sense id="ewn-vote_in-v-02405779-01" n="0" synset="ewn-02405779-v" dc:identifier="vote_in%2:41:00::">
+        <SenseRelation relType="also" target="ewn-vote-v-02466737-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-vote_in-v-02405779-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-vote_in-v-02405779-01"/>
     </LexicalEntry>
@@ -9846,7 +9917,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-act_upon-v">
       <Lemma writtenForm="act upon" partOfSpeech="v"/>
-      <Sense id="ewn-act_upon-v-02542223-02" n="0" synset="ewn-02542223-v" dc:identifier="act_upon%2:41:00::"/>
+      <Sense id="ewn-act_upon-v-02542223-02" n="0" synset="ewn-02542223-v" dc:identifier="act_upon%2:41:00::">
+        <SenseRelation relType="also" target="ewn-act-v-02372362-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-act_upon-v-02542223-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-act_upon-v-02542223-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-act_upon-v-02542223-02"/>
@@ -9961,6 +10034,7 @@
         <SenseRelation relType="derivation" target="ewn-outlawry-n-04818378-02"/> <!-- lawlessness, outlawry -->
         <SenseRelation relType="derivation" target="ewn-outlaw-n-09997190-04"/> <!-- malefactor, criminal, felon, outlaw, crook -->
         <SenseRelation relType="antonym" target="ewn-legalize-v-02487025-01"/> <!-- legitimatize, decriminalise, legalise, legitimise, legitimatise, decriminalize, legitimize, legitimate, legalize -->
+        <SenseRelation relType="antonym" target="ewn-legalise-v-02487025-02"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-outlaw-v-02486512-01"/>
     </LexicalEntry>
@@ -9976,7 +10050,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-ask_out-v">
       <Lemma writtenForm="ask out" partOfSpeech="v"/>
-      <Sense id="ewn-ask_out-v-02492311-01" n="0" synset="ewn-02492311-v" dc:identifier="ask_out%2:41:00::"/>
+      <Sense id="ewn-ask_out-v-02492311-01" n="0" synset="ewn-02492311-v" dc:identifier="ask_out%2:41:00::">
+        <SenseRelation relType="also" target="ewn-ask-v-00754499-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-ask_out-v-02492311-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-cage_in-v">
@@ -10004,10 +10080,13 @@
       <Sense id="ewn-trespass-v-02573337-01" n="2" synset="ewn-02573337-v" dc:identifier="trespass%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-trespass-n-00735780-01"/> <!-- trespass -->
         </Sense>
-      <Sense id="ewn-trespass-v-02575977-01" n="1" synset="ewn-02575977-v" dc:identifier="trespass%2:41:12::"/>
+      <Sense id="ewn-trespass-v-02575977-01" n="1" synset="ewn-02575977-v" dc:identifier="trespass%2:41:12::">
+        <SenseRelation relType="also" target="ewn-trespass-v-02577166-01"/>
+        </Sense>
       <Sense id="ewn-trespass-v-02577166-01" n="0" synset="ewn-02577166-v" dc:identifier="trespass%2:41:01::">
         <SenseRelation relType="derivation" target="ewn-trespass-n-00734781-01"/> <!-- intrusion, trespass, usurpation, violation, encroachment -->
         <SenseRelation relType="derivation" target="ewn-trespasser-n-10233322-03"/> <!-- intruder, trespasser, interloper -->
+        <SenseRelation relType="also" target="ewn-trespass-v-02575977-01"/> <!-- take advantage, trespass -->
         <SenseRelation relType="also" target="ewn-trespass-v-02575977-01"/> <!-- take advantage, trespass -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-trespass-v-02571602-03 ewn-trespass-v-02573337-01 ewn-trespass-v-02577166-01"/>
@@ -10276,6 +10355,7 @@
       <Sense id="ewn-skimp-v-02515522-02" n="1" synset="ewn-02515522-v" dc:identifier="skimp%2:41:01::"/>
       <Sense id="ewn-skimp-v-02522103-01" n="0" synset="ewn-02522103-v" dc:identifier="skimp%2:41:00::">
         <SenseRelation relType="also" target="ewn-skimp_over-v-02521921-05"/> <!-- skimp over, gloss over, smooth over, skate over, slur over -->
+        <SenseRelation relType="also" target="ewn-skimp_over-v-02521921-05"/> <!-- skimp over, gloss over, smooth over, skate over, slur over -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-skimp-v-02522103-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-skimp-v-02515522-02"/>
@@ -10487,6 +10567,7 @@
       <Lemma writtenForm="push" partOfSpeech="v"/>
       <Sense id="ewn-push-v-02412046-04" n="3" synset="ewn-02412046-v" dc:identifier="push%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-push-n-04843914-02"/> <!-- energy, push, get-up-and-go -->
+        <SenseRelation relType="also" target="ewn-push_on-v-01997581-02"/> <!-- plough on, press on, push on -->
         <SenseRelation relType="also" target="ewn-push_on-v-01997581-02"/> <!-- plough on, press on, push on -->
         </Sense>
       <Sense id="ewn-push-v-02595732-05" n="6" synset="ewn-02595732-v" dc:identifier="push%2:41:10::">
@@ -10975,6 +11056,7 @@
         <SenseRelation relType="derivation" target="ewn-double-crosser-n-10047315-01"/> <!-- ewn-double-10047315-n  -->
         <SenseRelation relType="derivation" target="ewn-double-crossing-n-00751289-02"/> <!-- ewn-double-00751289-n  -->
         <SenseRelation relType="derivation" target="ewn-double_cross-n-00751289-01"/> <!-- double-crossing, double cross -->
+        <SenseRelation relType="also" target="ewn-cross-v-02563998-06"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-double_cross-v-02543478-01"/>
     </LexicalEntry>
@@ -11024,7 +11106,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-act_on-v">
       <Lemma writtenForm="act on" partOfSpeech="v"/>
-      <Sense id="ewn-act_on-v-02381520-03" n="0" synset="ewn-02381520-v" dc:identifier="act_on%2:41:00::"/>
+      <Sense id="ewn-act_on-v-02381520-03" n="0" synset="ewn-02381520-v" dc:identifier="act_on%2:41:00::">
+        <SenseRelation relType="also" target="ewn-act-v-02372362-01"/>
+        </Sense>
       <Sense id="ewn-act_on-v-02381722-01" n="1" synset="ewn-02381722-v" dc:identifier="act_on%2:41:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-act_on-v-02381520-03 ewn-act_on-v-02381722-01"/>
     </LexicalEntry>
@@ -11164,9 +11248,12 @@
     <LexicalEntry id="ewn-set_up-v">
       <Lemma writtenForm="set up" partOfSpeech="v"/>
       <Sense id="ewn-set_up-v-02431950-02" n="0" synset="ewn-02431950-v" dc:identifier="set_up%2:41:02::"/>
-      <Sense id="ewn-set_up-v-02579184-02" n="10" synset="ewn-02579184-v" dc:identifier="set_up%2:41:01::"/>
+      <Sense id="ewn-set_up-v-02579184-02" n="10" synset="ewn-02579184-v" dc:identifier="set_up%2:41:01::">
+        <SenseRelation relType="also" target="ewn-set-v-01496967-02"/>
+        </Sense>
       <Sense id="ewn-set_up-v-02584093-04" n="6" synset="ewn-02584093-v" dc:identifier="set_up%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-setup-n-00752741-02"/> <!-- setup, frame-up -->
+        <SenseRelation relType="also" target="ewn-set-v-01496967-02"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-set_up-v-02584093-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-set_up-v-02431950-02 ewn-set_up-v-02579184-02"/>
@@ -11229,7 +11316,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-speak_for-v">
       <Lemma writtenForm="speak for" partOfSpeech="v"/>
-      <Sense id="ewn-speak_for-v-02547838-01" n="0" synset="ewn-02547838-v" dc:identifier="speak_for%2:41:00::"/>
+      <Sense id="ewn-speak_for-v-02547838-01" n="0" synset="ewn-02547838-v" dc:identifier="speak_for%2:41:00::">
+        <SenseRelation relType="also" target="ewn-speak-v-00964479-02"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-speak_for-v-02547838-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-speak_for-v-02547838-01"/>
     </LexicalEntry>
@@ -11373,6 +11462,9 @@
         <SenseRelation relType="derivation" target="ewn-action-n-00038116-01"/> <!-- action -->
         <SenseRelation relType="derivation" target="ewn-act-n-00030657-01"/> <!-- deed, human action, act, human activity -->
         <SenseRelation relType="antonym" target="ewn-refrain-v-02731589-01"/> <!-- refrain, forbear -->
+        <SenseRelation relType="also" target="ewn-act_on-v-02381520-03"/> <!-- pursue, follow up on, act on -->
+        <SenseRelation relType="also" target="ewn-act_up-v-02523321-01"/> <!-- carry on, act up -->
+        <SenseRelation relType="also" target="ewn-act_upon-v-02542223-02"/> <!-- act upon, influence, work -->
         <SenseRelation relType="also" target="ewn-act_on-v-02381520-03"/> <!-- pursue, follow up on, act on -->
         <SenseRelation relType="also" target="ewn-act_up-v-02523321-01"/> <!-- carry on, act up -->
         <SenseRelation relType="also" target="ewn-act_upon-v-02542223-02"/> <!-- act upon, influence, work -->
@@ -11529,6 +11621,7 @@
         </Sense>
       <Sense id="ewn-care-v-02555993-01" n="1" synset="ewn-02555993-v" dc:identifier="care%2:41:13::">
         <SenseRelation relType="derivation" target="ewn-care-n-00656128-01"/> <!-- attention, care, tending, aid -->
+        <SenseRelation relType="also" target="ewn-care-v-01826886-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-care-v-02441196-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-care-v-02441196-03"/>
@@ -11685,7 +11778,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-stir_up-v">
       <Lemma writtenForm="stir up" partOfSpeech="v"/>
-      <Sense id="ewn-stir_up-v-02591135-03" n="0" synset="ewn-02591135-v" dc:identifier="stir_up%2:41:00::"/>
+      <Sense id="ewn-stir_up-v-02591135-03" n="0" synset="ewn-02591135-v" dc:identifier="stir_up%2:41:00::">
+        <SenseRelation relType="also" target="ewn-stir-v-01765558-05"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-stir_up-v-02591135-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-stir_up-v-02591135-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-stir_up-v-02591135-03"/>
@@ -11931,7 +12026,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-keep_in-v">
       <Lemma writtenForm="keep in" partOfSpeech="v"/>
-      <Sense id="ewn-keep_in-v-02502037-01" n="0" synset="ewn-02502037-v" dc:identifier="keep_in%2:41:00::"/>
+      <Sense id="ewn-keep_in-v-02502037-01" n="0" synset="ewn-02502037-v" dc:identifier="keep_in%2:41:00::">
+        <SenseRelation relType="also" target="ewn-keep-v-02687605-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-keep_in-v-02502037-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-keep_in-v-02502037-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-keep_in-v-02502037-01"/>
@@ -12263,7 +12360,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-slur_over-v">
       <Lemma writtenForm="slur over" partOfSpeech="v"/>
-      <Sense id="ewn-slur_over-v-02521921-04" n="0" synset="ewn-02521921-v" dc:identifier="slur_over%2:41:00::"/>
+      <Sense id="ewn-slur_over-v-02521921-04" n="0" synset="ewn-02521921-v" dc:identifier="slur_over%2:41:00::">
+        <SenseRelation relType="also" target="ewn-slur-v-00311895-03"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something Adjective/Noun" senses="ewn-slur_over-v-02521921-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-slur_over-v-02521921-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-slur_over-v-02521921-04"/>
@@ -12586,7 +12685,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-smooth_over-v">
       <Lemma writtenForm="smooth over" partOfSpeech="v"/>
-      <Sense id="ewn-smooth_over-v-02521921-03" n="0" synset="ewn-02521921-v" dc:identifier="smooth_over%2:41:00::"/>
+      <Sense id="ewn-smooth_over-v-02521921-03" n="0" synset="ewn-02521921-v" dc:identifier="smooth_over%2:41:00::">
+        <SenseRelation relType="also" target="ewn-smooth-v-01255535-01"/>
+        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something Adjective/Noun" senses="ewn-smooth_over-v-02521921-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-smooth_over-v-02521921-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-smooth_over-v-02521921-03"/>
@@ -12596,6 +12697,7 @@
       <Sense id="ewn-licence-v-02449527-02" n="0" synset="ewn-02449527-v" dc:identifier="licence%2:41:00::">
         <SenseRelation relType="derivation" target="ewn-licensee-n-10278190-01"/> <!-- licensee -->
         <SenseRelation relType="derivation" target="ewn-licence-n-14018291-02"/> <!-- license, licence -->
+        <SenseRelation relType="derivation" target="ewn-licensee-n-10278190-01"/> <!-- licensee -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody to INFINITIVE" senses="ewn-licence-v-02449527-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-licence-v-02449527-02"/>
@@ -12991,6 +13093,7 @@
         <SenseRelation relType="derivation" target="ewn-offender-n-09657157-02"/> <!-- offender, wrongdoer -->
         <SenseRelation relType="derivation" target="ewn-offence-n-00767587-02"/> <!-- offense, offence -->
         <SenseRelation relType="derivation" target="ewn-offense-n-00767587-01"/> <!-- offense, offence -->
+        <SenseRelation relType="derivation" target="ewn-offence-n-00767587-02"/> <!-- offense, offence -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-offend-v-02572443-02"/>
     </LexicalEntry>
@@ -14206,6 +14309,26 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-administrate-v-02436818-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-administrate-v-02436818-02"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-cuff-v">
+      <Lemma writtenForm="cuff" partOfSpeech="v"/>
+      <Sense id="ewn-cuff-v-90009621-01" n="2" synset="ewn-90009621-v" dc:identifier="cuff%2:41:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-cuff-v-90009621-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-friendzone-v">
+      <Lemma writtenForm="friendzone" partOfSpeech="v"/>
+      <Sense id="ewn-friendzone-v-90012511-01" n="0" synset="ewn-90012511-v" dc:identifier="friendzone%2:41:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-friendzone-v-90012511-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-instalike-v">
+      <Lemma writtenForm="instalike" partOfSpeech="v"/>
+      <Sense id="ewn-instalike-v-90009141-01" n="0" synset="ewn-90009141-v" dc:identifier="instalike%2:41:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-instalike-v-90009141-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-upvote-v">
+      <Lemma writtenForm="upvote" partOfSpeech="v"/>
+      <Sense id="ewn-upvote-v-91000861-01" n="0" synset="ewn-91000861-v" dc:identifier="upvote%2:41:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-upvote-v-91000861-01"/>
+    </LexicalEntry>
     <!-- resign, give up, vacate, renounce -->
     <Synset id="ewn-02372031-v" ili="i33602" partOfSpeech="v" dc:subject="verb.social">
       <Definition>leave (a job, post, or position) voluntarily</Definition>
@@ -15411,7 +15534,7 @@
     </Synset>
     <!-- clean out -->
     <Synset id="ewn-02408550-v" ili="i33761" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>force out</Definition>
+      <Definition>to eject from somewhere</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02407967-v"/> <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
       <Example>&quot;The new boss cleaned out the lazy workers&quot;</Example>
     </Synset>
@@ -15437,7 +15560,7 @@
     </Synset>
     <!-- squeeze out -->
     <Synset id="ewn-02409218-v" ili="i33765" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>force out</Definition>
+      <Definition>to press or force out</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02407967-v"/> <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
       <Example>&quot;Some employees were squeezed out by the recent budget cuts&quot;</Example>
     </Synset>
@@ -15755,7 +15878,7 @@
     </Synset>
     <!-- work -->
     <Synset id="ewn-02418610-v" ili="i33807" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>exert oneself by doing mental or physical work for a purpose or out of necessity</Definition>
+      <Definition>exert oneself by doing mental or physical work for a purpose or out of necessity; work</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01164263-v"/> <!-- go through, work through, run through -->
       <SynsetRelation relType="hyponym" target="ewn-01475976-v"/> <!-- monkey, potter, putter, mess around, muck about, tinker, muck around, monkey around -->
       <SynsetRelation relType="hyponym" target="ewn-02413973-v"/> <!-- carpenter -->
@@ -16054,7 +16177,7 @@
     </Synset>
     <!-- quench -->
     <Synset id="ewn-02427763-v" ili="i33849" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>electronics: suppress (sparking) when the current is cut off in an inductive circuit, or suppress (an oscillation or discharge) in a component or device</Definition>
+      <Definition>suppress (sparking) when the current is cut off in an inductive circuit, or suppress (an oscillation or discharge) in a component or device</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00463047-v"/> <!-- suppress, stamp down, subdue, conquer -->
     </Synset>
     <!-- permit, allow, let -->
@@ -16572,7 +16695,7 @@
     </Synset>
     <!-- direct -->
     <Synset id="ewn-02444366-v" ili="i33923" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>be in charge of</Definition>
+      <Definition>govern or manage</Definition>
       <SynsetRelation relType="causes" target="ewn-02372362-v"/> <!-- move, act -->
       <SynsetRelation relType="hypernym" target="ewn-02441196-v"/> <!-- handle, deal, manage, care -->
       <SynsetRelation relType="hyponym" target="ewn-01737358-v"/> <!-- make, give, hold, have, throw -->
@@ -16622,7 +16745,7 @@
     </Synset>
     <!-- move in on -->
     <Synset id="ewn-02445779-v" ili="i33930" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>seize control of</Definition>
+      <Definition>intervene, so as to seize control of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02445635-v"/> <!-- take control, take charge, take hold -->
     </Synset>
     <!-- command, control -->
@@ -17065,7 +17188,7 @@
     </Synset>
     <!-- avert, obviate, head off, forfend, stave off, deflect, ward off, fend off, debar, forefend, avoid -->
     <Synset id="ewn-02458770-v" ili="i33990" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>prevent the occurrence of; prevent from happening</Definition>
+      <Definition>prevent the occurrence of; prevent from happening; to protect from or to keep away anything undesirable; to ward off</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02458316-v"/> <!-- foreclose, forbid, forestall, preclude, prevent -->
       <Example>&quot;Let&apos;s avoid a confrontation&quot;</Example>
       <Example>&quot;head off a confrontation&quot;</Example>
@@ -17235,7 +17358,7 @@
     </Synset>
     <!-- domiciliate, house, put up -->
     <Synset id="ewn-02464596-v" ili="i34015" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>provide housing for</Definition>
+      <Definition>provide someone with accomodation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02662486-v"/> <!-- shelter -->
       <SynsetRelation relType="hyponym" target="ewn-02464955-v"/> <!-- rehouse -->
       <SynsetRelation relType="hyponym" target="ewn-02465056-v"/> <!-- home -->
@@ -17346,6 +17469,8 @@
       <SynsetRelation relType="similar" target="ewn-02466737-v"/> <!-- vote -->
       <SynsetRelation relType="hypernym" target="ewn-01063503-v"/> <!-- express, state -->
       <SynsetRelation relType="hyponym" target="ewn-02468281-v"/> <!-- bullet vote -->
+      <SynsetRelation relType="hyponym" target="ewn-90009141-v"/>
+      <SynsetRelation relType="hyponym" target="ewn-91000861-v"/>
       <Example>&quot;vote the Democratic ticket&quot;</Example>
     </Synset>
     <!-- bullet vote -->
@@ -17392,7 +17517,7 @@
     </Synset>
     <!-- scrimshank -->
     <Synset id="ewn-02469413-v" ili="i34039" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>British military language: avoid work</Definition>
+      <Definition>avoid work</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02469127-v"/> <!-- shrink from, fiddle, shirk, goldbrick -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
     </Synset>
@@ -17592,6 +17717,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02494483-v"/> <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
       <SynsetRelation relType="hyponym" target="ewn-02496079-v"/> <!-- pair, couple, pair off, partner off -->
       <SynsetRelation relType="hyponym" target="ewn-02598406-v"/> <!-- club -->
+      <SynsetRelation relType="hyponym" target="ewn-90009621-v"/>
     </Synset>
     <!-- associate, consociate -->
     <Synset id="ewn-02475598-v" ili="i34070" partOfSpeech="v" dc:subject="verb.social">
@@ -17934,7 +18060,7 @@
     </Synset>
     <!-- distribute -->
     <Synset id="ewn-02485579-v" ili="i34119" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>make available</Definition>
+      <Definition>release</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02225243-v"/> <!-- transfer -->
       <SynsetRelation relType="hyponym" target="ewn-02484912-v"/> <!-- supply, issue -->
       <SynsetRelation relType="hyponym" target="ewn-02485442-v"/> <!-- reticulate -->
@@ -18239,7 +18365,7 @@
     </Synset>
     <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
     <Synset id="ewn-02494483-v" ili="i34166" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>take in marriage</Definition>
+      <Definition>take in marriage; married</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02475258-v"/> <!-- unify, unite -->
       <SynsetRelation relType="hyponym" target="ewn-02494832-v"/> <!-- inmarry -->
       <SynsetRelation relType="hyponym" target="ewn-02495012-v"/> <!-- mismarry -->
@@ -18249,6 +18375,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02495739-v"/> <!-- intermarry -->
       <SynsetRelation relType="hyponym" target="ewn-02495896-v"/> <!-- remarry -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02496283-v"/> <!-- split up, divorce -->
+      <SynsetRelation relType="similar" target="ewn-90009621-v"/>
     </Synset>
     <!-- inmarry -->
     <Synset id="ewn-02494832-v" ili="i34167" partOfSpeech="v" dc:subject="verb.social">
@@ -19061,6 +19188,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02521921-v"/> <!-- skimp over, gloss over, smooth over, skate over, slur over -->
       <SynsetRelation relType="hyponym" target="ewn-02522260-v"/> <!-- ill-treat, mistreat, abuse, step, ill-use, maltreat -->
       <SynsetRelation relType="hyponym" target="ewn-02576182-v"/> <!-- pamper, mollycoddle, coddle, cosset, featherbed, spoil, indulge, baby, cocker -->
+      <SynsetRelation relType="hyponym" target="ewn-90012511-v"/>
       <Example>&quot;Do right by her&quot;</Example>
       <Example>&quot;Treat him with caution, please&quot;</Example>
       <Example>&quot;Handle the press reporters gently&quot;</Example>
@@ -19091,7 +19219,7 @@
     </Synset>
     <!-- strong-arm -->
     <Synset id="ewn-02521109-v" ili="i34288" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>handle roughly</Definition>
+      <Definition>use force against</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02519853-v"/> <!-- handle, do by, treat -->
       <Example>&quot;He was strong-armed by the policemen&quot;</Example>
     </Synset>
@@ -19381,6 +19509,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02531651-v"/> <!-- pan out -->
       <SynsetRelation relType="hyponym" target="ewn-02531751-v"/> <!-- accomplish, achieve, reach, attain -->
       <SynsetRelation relType="hyponym" target="ewn-02591952-v"/> <!-- make it, go far, arrive, get in -->
+      <SynsetRelation relType="hyponym" target="ewn-90008852-v"/>
       <Example>&quot;The enterprise succeeded&quot;</Example>
       <Example>&quot;We succeeded in getting tickets to the show&quot;</Example>
       <Example>&quot;she struggled to overcome her handicap and won&quot;</Example>
@@ -19901,7 +20030,7 @@
     </Synset>
     <!-- wait on, attend to, serve, attend, assist -->
     <Synset id="ewn-02546367-v" ili="i34405" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>work for or be a servant to</Definition>
+      <Definition>work for, or be a servant to</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02553283-v"/> <!-- aid, assist, help -->
       <SynsetRelation relType="hyponym" target="ewn-02546835-v"/> <!-- valet -->
       <SynsetRelation relType="hyponym" target="ewn-02598932-v"/> <!-- fag -->
@@ -21873,7 +22002,7 @@
     </Synset>
     <!-- stet -->
     <Synset id="ewn-02607677-v" ili="i34697" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>printing: cancel, as of a correction or deletion</Definition>
+      <Definition>cancel, as of a correction or deletion</Definition>
       <SynsetRelation relType="similar" target="ewn-01072990-v"/> <!-- stet -->
       <SynsetRelation relType="hypernym" target="ewn-02483482-v"/> <!-- nullify, annul, invalidate, void, quash, avoid -->
     </Synset>
@@ -21939,6 +22068,32 @@
       <SynsetRelation relType="hypernym" target="ewn-02444366-v"/> <!-- direct -->
       <Example>&quot;administer an exam&quot;</Example>
       <Example>&quot;administer an oath&quot;</Example>
+    </Synset>
+    <Synset id="ewn-90008852-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to succeed greatly</Definition>
+      <ILIDefinition>to succeed greatly</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02529837-v"/> <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
+    </Synset>
+    <Synset id="ewn-90009621-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to get involved in a relationship with another person</Definition>
+      <ILIDefinition>to get involved in a relationship with another person</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02475258-v"/> <!-- unify, unite -->
+      <SynsetRelation relType="similar" target="ewn-02494483-v"/> <!-- wed, conjoin, marry, get hitched with, espouse, get married, hook up with -->
+    </Synset>
+    <Synset id="ewn-90012511-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To treat as a friend although the other party has romantic feelings</Definition>
+      <ILIDefinition>To treat as a friend although the other party has romantic feelings</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02519853-v"/> <!-- handle, do by, treat -->
+    </Synset>
+    <Synset id="ewn-90009141-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>to instantly vote for something on social media</Definition>
+      <ILIDefinition>to instantly vote for something on social media</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
+    </Synset>
+    <Synset id="ewn-91000861-v" ili="in" partOfSpeech="v" dc:subject="verb.social" dc:source="Colloquial WordNet">
+      <Definition>To vote positively on a social media website</Definition>
+      <ILIDefinition>To vote positively on a social media website</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02468003-v"/> <!-- vote -->
     </Synset>
   </Lexicon>
 </LexicalResource>
