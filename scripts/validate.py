@@ -148,6 +148,8 @@ def main():
 
     errors += check_lex_files(wn, fix)
 
+    sense_keys = {}
+
     for entry in wn.entries:
         if entry.id[-1:] != entry.lemma.part_of_speech.value:
             print("ERROR: Entry ID not same as part of speech %s as %s" % (entry.id, entry.lemma.part_of_speech.value))
@@ -179,6 +181,11 @@ def main():
                 #if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1 
+            if sense.sense_key in sense_keys and sense_keys[sense.sense_key] != sense.synset:
+                print("ERROR: Duplicate sense key %s" % sense.sense_key)
+                errors += 1
+            else:
+                sense_keys[sense.sense_key] = sense.synset
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
             print("ERROR: Synset ID not same as part of speech %s as %s" % (synset.id, synset.part_of_speech.value))
