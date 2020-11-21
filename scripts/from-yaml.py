@@ -54,18 +54,23 @@ def synset_from_yaml(props, id, lex_name):
                     "ewn-" + target, SynsetRelType(rel)))
     return ss
 
-def fix_sense_id(sense, lemma, key2id):
+def fix_sense_id(sense, lemma, key2id, key2oldid):
+    key2oldid[sense.sense_key] = sense.id
     idx = entry_orders[sense.synset[4:]].index(lemma)
     sense.id = "%s-%02d" % (sense.id, idx)
     key2id[sense.sense_key] = sense.id
 
-def fix_sense_rels(wn, sense, key2id):
+def fix_sense_rels(wn, sense, key2id, key2oldid):
     for rel in sense.sense_relations:
-        if rel.target.startswith("ewn-"):
-           rel.target = key2id[rel.target[:-3]]
+        if not rel.target.startswith("ewn-"):
+           print(sense.id)
+           print(rel.target)
+           print(key2id[rel.target])
+           target_id = key2oldid[rel.target]
+           rel.target = key2id[rel.target]
            if (rel.rel_type in inverse_sense_rels 
                and inverse_sense_rels[rel.rel_type] != rel.rel_type):
-               wn.sense_by_id(rel.target[:-3]).add_sense_relation(
+               wn.sense_by_id(target_id).add_sense_relation(
                        SenseRelation(sense.id,
                            inverse_sense_rels[rel.rel_type]))
 
@@ -110,13 +115,14 @@ def main():
                     entry_orders[id] = props["entries"]
 
     key2id = {}
+    key2oldid = {}
     for entry in wn.entries:
         for sense in entry.senses:
-            fix_sense_id(sense, entry.lemma.written_form, key2id)
+            fix_sense_id(sense, entry.lemma.written_form, key2id, key2oldid)
 
     for entry in wn.entries:
         for sense in entry.senses:
-            fix_sense_rels(wn, sense, key2id)
+            fix_sense_rels(wn, sense, key2id, key2oldid)
 
     for synset in wn.synsets:
         fix_synset_rels(wn, synset)
@@ -134,6 +140,7 @@ def main():
         by_lex_name[synset.lex_name].add_synset(synset)
         
     for entry in wn.entries:
+        sense_no = dict([(e.id,i) for i,e in enumerate(entry.senses)])
         for lex_name in by_lex_name.keys():
             senses = [sense for sense in entry.senses if wn.synset_by_id(sense.synset).lex_name == lex_name]
             if senses:
@@ -142,6 +149,7 @@ def main():
                 for f in entry.forms:
                     e.add_form(f)
                 for s in senses:
+                    s.n = sense_no[s.id]
                     e.add_sense(s)
                 for sb in e.syntactic_behaviours:
                     e.add_syntactic_behaviour(sb)
@@ -152,7 +160,6 @@ def main():
             wn_lex = parse_wordnet("src/wn-%s.xml" % lex_name)
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
-            print(entry_order["ewn-rugged-s"])
             wn.entries = sorted(wn.entries, key=lambda e: entry_order[e.id])
         with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
             wn.to_xml(outp, True)
