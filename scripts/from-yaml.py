@@ -3,6 +3,7 @@ from glob import glob
 from wordnet import *
 from change_manager import escape_lemma, synset_key
 from yaml import CLoader
+import codecs
 
 entry_orders = {}
 
@@ -97,7 +98,7 @@ def main():
                     wn.add_entry(entry)
 
     for f in glob("src/yaml/*.yaml"): 
-        lex_name = f[9:-4]
+        lex_name = f[9:-5]
         if "entries" not in f:
             with open(f) as inp:
                 y = yaml.load(inp, Loader=CLoader)
@@ -118,8 +119,35 @@ def main():
     for synset in wn.synsets:
         fix_synset_rels(wn, synset)
 
-    with open("wn-from-yaml.xml","w") as outp:
+    with codecs.open("wn-from-yaml.xml","w","utf-8") as outp:
         wn.to_xml(outp, True)
+
+    by_lex_name = {}
+    for synset in wn.synsets:
+        if synset.lex_name not in by_lex_name:
+            by_lex_name[synset.lex_name] = Lexicon(
+                    "ewn", "English WordNet", "en",
+                    "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
+                    "2019","https://github.com/globalwordnet/english-wordnet")
+        by_lex_name[synset.lex_name].add_synset(synset)
+        
+    for entry in wn.entries:
+        for lex_name in by_lex_name.keys():
+            senses = [sense for sense in entry.senses if wn.synset_by_id(sense.synset).lex_name == lex_name]
+            if senses:
+                e = LexicalEntry(entry.id)
+                e.set_lemma(entry.lemma)
+                for f in entry.forms:
+                    e.add_form(f)
+                for s in senses:
+                    e.add_sense(s)
+                for sb in e.syntactic_behaviours:
+                    e.add_syntactic_behaviour(sb)
+                by_lex_name[lex_name].add_entry(e)
+
+    for lex_name, wn in by_lex_name.items():
+        with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
+            wn.to_xml(outp, True)
 
 if __name__ == "__main__":
     main()
