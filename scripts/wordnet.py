@@ -583,7 +583,7 @@ def escape_xml_lit(lit):
         replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;"))
 
 def extract_comments(wordnet_file,lexicon):
-    with open(wordnet_file) as source:
+    with open(wordnet_file,"rt",encoding="utf-8") as source:
         sen_rel_comment = re.compile(".*<SenseRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
         syn_rel_comment = re.compile(".*<SynsetRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
         comment = re.compile(".*<!-- (.*) -->.*")
@@ -609,7 +609,7 @@ def extract_comments(wordnet_file,lexicon):
 
 
 def parse_wordnet(wordnet_file):
-    with open(wordnet_file) as source:
+    with open(wordnet_file,"rt",encoding="utf-8") as source:
         handler = WordNetContentHandler()
         parse(source, handler)
     extract_comments(wordnet_file, handler.lexicon)

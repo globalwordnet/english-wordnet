@@ -4,6 +4,8 @@ from wordnet import *
 from change_manager import escape_lemma, synset_key
 from yaml import CLoader
 import codecs
+import os
+from collections import defaultdict
 
 entry_orders = {}
 
@@ -146,6 +148,12 @@ def main():
                 by_lex_name[lex_name].add_entry(e)
 
     for lex_name, wn in by_lex_name.items():
+        if os.path.exists("src/wn-%s.xml" % lex_name):
+            wn_lex = parse_wordnet("src/wn-%s.xml" % lex_name)
+            wn.comments = wn_lex.comments
+            entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
+            print(entry_order["ewn-rugged-s"])
+            wn.entries = sorted(wn.entries, key=lambda e: entry_order[e.id])
         with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
             wn.to_xml(outp, True)
 
