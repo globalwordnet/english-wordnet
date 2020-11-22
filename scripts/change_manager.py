@@ -73,7 +73,7 @@ def empty_if_none(x):
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
     def elc(c):
-        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (c >= '0' and c <= '9'):
+        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (c >= '0' and c <= '9') or c == '.':
             return c
         elif c == ' ':
             return '_'

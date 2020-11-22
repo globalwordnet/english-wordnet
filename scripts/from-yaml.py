@@ -57,15 +57,12 @@ def synset_from_yaml(props, id, lex_name):
 def fix_sense_id(sense, lemma, key2id, key2oldid):
     key2oldid[sense.sense_key] = sense.id
     idx = entry_orders[sense.synset[4:]].index(lemma)
-    sense.id = "%s-%02d" % (sense.id, idx)
+    sense.id = "%s-%02d" % (sense.id, idx+1)
     key2id[sense.sense_key] = sense.id
 
 def fix_sense_rels(wn, sense, key2id, key2oldid):
     for rel in sense.sense_relations:
         if not rel.target.startswith("ewn-"):
-           print(sense.id)
-           print(rel.target)
-           print(key2id[rel.target])
            target_id = key2oldid[rel.target]
            rel.target = key2id[rel.target]
            if (rel.rel_type in inverse_sense_rels 
@@ -79,7 +76,7 @@ def fix_synset_rels(wn, synset):
         if (rel.rel_type in inverse_synset_rels
                 and inverse_synset_rels[rel.rel_type] != rel.rel_type):
             wn.synset_by_id(rel.target).add_synset_relation(
-                    SenseRelation(synset.id,
+                    SynsetRelation(synset.id,
                         inverse_synset_rels[rel.rel_type]))
 
 def main():
@@ -158,13 +155,23 @@ def main():
     for lex_name, wn in by_lex_name.items():
         if os.path.exists("src/wn-%s.xml" % lex_name):
             wn_lex = parse_wordnet("src/wn-%s.xml" % lex_name)
+            senseids = { sense.id[:-2]: sense.id for entry in wn_lex.entries for sense in entry.senses }
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
             wn.entries = sorted(wn.entries, key=lambda e: entry_order[e.id])
             for entry in wn.entries:
                 if wn_lex.entry_by_id(entry.id):
+                    # Fix the last ID, because it is not actually so predicatable in the XML
+                    for sense in entry.senses:
+                        sense.id = senseids.get(sense.id[:-2], sense.id)
                     sense_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sense.id for sense in wn_lex.entry_by_id(entry.id).senses)])
                     entry.senses = sorted(entry.senses, key=lambda s: sense_order[s.id])
+                    # This is a bit of a hack as some of the n values are not continguous 
+                    for sense in entry.senses:
+                        if wn_lex.sense_by_id(sense.id):
+                            sense.n = wn_lex.sense_by_id(sense.id).n 
+                        else:
+                            print("sense not found:" + sense.id)
                 else:
                     print("not found:" + entry.id)
         with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
