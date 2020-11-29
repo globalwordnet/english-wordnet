@@ -17,9 +17,15 @@ def map_sense_key(sk):
     else:
         return "%s%%%s" % (e[0], e[1])
 
+def make_pos(y, pos):
+    if "adjposition" in y: 
+        return y["adjposition"] + "-" + pos 
+    else: 
+        return pos
+
 def sense_from_yaml(y, lemma, pos, n):
     s = Sense("ewn-%s-%s-%s" % (
-        escape_lemma(lemma), pos, y["synset"][:-2]),
+        escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2]),
         "ewn-" + y["synset"], map_sense_key(y["key"]), n,
         y.get("adjposition"))
     for rel, targets in y.items():
@@ -75,9 +81,12 @@ def fix_synset_rels(wn, synset):
     for rel in synset.synset_relations:
         if (rel.rel_type in inverse_synset_rels
                 and inverse_synset_rels[rel.rel_type] != rel.rel_type):
-            wn.synset_by_id(rel.target).add_synset_relation(
-                    SynsetRelation(synset.id,
-                        inverse_synset_rels[rel.rel_type]))
+            target_synset = wn.synset_by_id(rel.target)
+            if not [sr for sr in target_synset.synset_relations
+                    if sr.target == synset.id and sr.rel_type == inverse_synset_rels[rel.rel_type]]:
+                target_synset.add_synset_relation(
+                        SynsetRelation(synset.id,
+                            inverse_synset_rels[rel.rel_type]))
 
 def main():
     wn = Lexicon("ewn", "Engish WordNet", "en", 
@@ -170,10 +179,24 @@ def main():
                     for sense in entry.senses:
                         if wn_lex.sense_by_id(sense.id):
                             sense.n = wn_lex.sense_by_id(sense.id).n 
+                            sense_rel_order = defaultdict(lambda: 10000, [((sr.target,sr.rel_type), i)
+                                for i, sr in enumerate(wn_lex.sense_by_id(sense.id).sense_relations)])
+                            if sense.id == "ewn-eukaryote-n-01418267-01":
+                                print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
+                            sense.sense_relations = sorted(sense.sense_relations, 
+                                key=lambda sr: sense_rel_order[(sr.target, sr.rel_type)])
+                            if sense.id == "ewn-eukaryote-n-01418267-01":
+                                print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
                         else:
                             print("sense not found:" + sense.id)
                 else:
                     print("not found:" + entry.id)
+            for synset in wn.synsets:
+                if wn_lex.synset_by_id(synset.id):
+                    synset_rel_order = defaultdict(lambda: 10000, [((sr.target, sr.rel_type), i)
+                        for i, sr in enumerate(wn_lex.synset_by_id(synset.id).synset_relations)])
+                    synset.synset_relations = sorted(synset.synset_relations,
+                        key=lambda sr: synset_rel_order[(sr.target, sr.rel_type)])
         with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
             wn.to_xml(outp, True)
 
