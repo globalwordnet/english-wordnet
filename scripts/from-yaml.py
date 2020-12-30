@@ -181,17 +181,15 @@ def main():
                             sense.n = wn_lex.sense_by_id(sense.id).n 
                             sense_rel_order = defaultdict(lambda: 10000, [(sr.target, i)
                                 for i, sr in enumerate(wn_lex.sense_by_id(sense.id).sense_relations)])
-                            if sense.id == "ewn-catheterization-n-00322388-01":
-                                print(sense_rel_order)
-                                print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
                             sense.sense_relations = sorted(sense.sense_relations, 
                                 key=lambda sr: sense_rel_order[sr.target])
-                            if sense.id == "ewn-catheterization-n-00322388-01":
-                                print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
                         else:
                             print("sense not found:" + sense.id)
                 else:
                     print("not found:" + entry.id)
+            synset_order = defaultdict(lambda: 1000000, [(e,i) for i,e in enumerate(
+                synset.id for synset in wn_lex.synsets)])
+            wn.synsets = sorted(wn.synsets, key=lambda s: synset_order[s.id])
             for synset in wn.synsets:
                 if wn_lex.synset_by_id(synset.id):
                     synset_rel_order = defaultdict(lambda: 10000, [((sr.target, sr.rel_type), i)
