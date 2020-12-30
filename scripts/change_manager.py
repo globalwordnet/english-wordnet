@@ -87,6 +87,10 @@ def escape_lemma(lemma):
             return '-sl-'
         elif c == '-':
             return '-'
+        elif c == ',':
+            return '-cm-'
+        elif c == '!':
+            return '-ex-'
         else:
             return '-%04x-' % ord(c)
 
