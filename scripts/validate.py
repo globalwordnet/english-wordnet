@@ -3,6 +3,7 @@ import re
 import sys
 import glob
 import sense_keys
+from collections import Counter
 
 def check_symmetry(wn, fix):
     errors = []
@@ -178,6 +179,11 @@ def main():
                         and not equal_pos(ss_source.part_of_speech, PartOfSpeech.ADVERB))):
                         print("ERROR: Pertainyms should be between adjectives %s => %s" % (sense.id, sr.target))
                         errors += 1
+            sr_counter = Counter((sr.target, sr.rel_type) for sr in sense.sense_relations)
+            for item, count in sr_counter.items():
+                if count > 1:
+                    print("ERROR: Duplicate relation %s =%s=> %s" % (sense.id, item[1], item[0]))
+                    errors += 1
                 #if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1 
@@ -234,6 +240,12 @@ def main():
         for defn in synset.definitions:
             if len(defn.text) == 0:
                 print("ERROR: empty definition for %s" % (synset.id))
+                errors += 1
+
+        sr_counter = Counter((sr.target, sr.rel_type) for sr in synset.synset_relations)
+        for item, count in sr_counter.items():
+            if count > 1:
+                print("ERROR: Duplicate relation %s =%s=> %s" % (synset.id, item[1], item[0]))
                 errors += 1
 
 
