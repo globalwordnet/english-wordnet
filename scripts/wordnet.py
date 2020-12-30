@@ -287,12 +287,17 @@ class SenseRelation:
 
 class SyntacticBehaviour:
     def __init__(self, subcategorization_frame, senses):
+        if not isinstance(subcategorization_frame, str):
+            raise "Syntactic Behaviour is not string" + str(subcategorization_frame)
         self.subcategorization_frame = subcategorization_frame
         self.senses = senses
 
     def to_xml(self, xml_file):
         xml_file.write("""      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
 """ % (escape_xml_lit(self.subcategorization_frame), " ".join(self.senses)))
+
+    def __repr__(self):
+        return "SyntacticBehaviour(%s, %s)" % (self.subcategorization_frame, " ".join(self.senses))
 
 
 class PartOfSpeech(Enum):

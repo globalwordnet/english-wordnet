@@ -10,12 +10,7 @@ from collections import defaultdict
 entry_orders = {}
 
 def map_sense_key(sk):
-    e = sk.split("%")
-    e[1] = e[1].replace("_", ":")
-    if len(e[1].split(":")) == 3:
-        return "%s%%%s::" % (e[0], e[1])
-    else:
-        return "%s%%%s" % (e[0], e[1])
+    return sk
 
 def make_pos(y, pos):
     if "adjposition" in y: 
@@ -23,9 +18,12 @@ def make_pos(y, pos):
     else: 
         return pos
 
+def make_sense_id(y, lemma, pos):
+    return "ewn-%s-%s-%s" % (
+        escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2])
+
 def sense_from_yaml(y, lemma, pos, n):
-    s = Sense("ewn-%s-%s-%s" % (
-        escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2]),
+    s = Sense(make_sense_id(y,lemma,pos),
         "ewn-" + y["synset"], map_sense_key(y["key"]), n,
         y.get("adjposition"))
     for rel, targets in y.items():
@@ -59,6 +57,13 @@ def synset_from_yaml(props, id, lex_name):
                 ss.add_synset_relation(SynsetRelation(
                     "ewn-" + target, SynsetRelType(rel)))
     return ss
+
+def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
+    keys = set([subcat for sense in props["senses"] for subcat in sense.get("subcat",[])])
+    return [
+            SyntacticBehaviour(frames[k],
+                [make_sense_id(sense,lemma,pos) for sense in props["senses"] if k in sense.get("subcat", [])])
+                for k in keys]
 
 def fix_sense_id(sense, lemma, key2id, key2oldid):
     key2oldid[sense.sense_key] = sense.id
@@ -94,6 +99,8 @@ def main():
             "https://creativecommons.org/licenses/by/4.0",
             "2020",
             "https://github.com/globalwordnet/english-wordnet")
+    with open("src/yaml/frames.yaml") as inp:
+        frames = yaml.load(inp, Loader=CLoader)
     for f in glob("src/yaml/entries-*.yaml"):
         with open(f) as inp:
             y = yaml.load(inp, Loader=CLoader)
@@ -108,11 +115,12 @@ def main():
                             entry.add_form(Form(form))
                     for n, sense in enumerate(props["senses"]):
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
+                    entry.syntactic_behaviours = syntactic_behaviour_from_yaml(frames, props, lemma, pos)
                     wn.add_entry(entry)
 
     for f in glob("src/yaml/*.yaml"): 
         lex_name = f[9:-5]
-        if "entries" not in f:
+        if "entries" not in f and "frames" not in f:
             with open(f) as inp:
                 y = yaml.load(inp, Loader=CLoader)
 
@@ -157,8 +165,18 @@ def main():
                 for s in senses:
                     s.n = sense_no[s.id]
                     e.add_sense(s)
-                for sb in e.syntactic_behaviours:
-                    e.add_syntactic_behaviour(sb)
+                def find_sense_for_sb(sb_sense):
+                    for sense2 in senses:
+                        if sense2.id[:-3] == sb_sense:
+                            return sense2.id
+                    return None
+                e.syntactic_behaviours = [SyntacticBehaviour(
+                    sb.subcategorization_frame,
+                    [find_sense_for_sb(sense) for sense in sb.senses])
+                    for sb in entry.syntactic_behaviours]
+                e.syntactic_behaviours = [SyntacticBehaviour(
+                    sb.subcategorization_frame, [s for s in sb.senses if s])
+                    for sb in e.syntactic_behaviours if any(sb.senses)]
                 by_lex_name[lex_name].add_entry(e)
 
     for lex_name, wn in by_lex_name.items():
@@ -185,6 +203,16 @@ def main():
                                 key=lambda sr: sense_rel_order[sr.target])
                         else:
                             print("sense not found:" + sense.id)
+                    sb_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sb.subcategorization_frame for sb in wn_lex.entry_by_id(entry.id).syntactic_behaviours)])
+                    entry.syntactic_behaviours = sorted(entry.syntactic_behaviours,
+                            key=lambda sb: sb_order[sb.subcategorization_frame])
+                    for sb in entry.syntactic_behaviours:
+                        sb2s = [sb2 for sb2 in wn_lex.entry_by_id(entry.id).syntactic_behaviours
+                                    if sb2.subcategorization_frame == sb.subcategorization_frame]
+                        if sb2s:
+                            sbe_order = defaultdict(lambda: 10000, [(e,i) 
+                                for i,e in enumerate(sb2s[0].senses)])
+                            sb.senses = sorted(sb.senses, key=lambda s: sbe_order[s])
                 else:
                     print("not found:" + entry.id)
             synset_order = defaultdict(lambda: 1000000, [(e,i) for i,e in enumerate(

@@ -1,6 +1,7 @@
 import yaml
 from change_manager import load_wordnet
 from wordnet import SynsetRelType, SenseRelType
+from collections import defaultdict
 
 def char_range(c1, c2):
     """Generates the characters from `c1` to `c2`, inclusive."""
@@ -8,18 +9,13 @@ def char_range(c1, c2):
         yield chr(c)
 
 def map_sense_key(sk):
-    """Convert sense keys to a YAML friendly form"""
-    sk = sk.replace(':', '_')
-    if sk.endswith("__"):
-        return sk[:-2]
-    else:
-        return sk
+    return sk
 
 ignored_symmetric_sense_rels = set([
     SenseRelType.HAS_DOMAIN_REGION, SenseRelType.HAS_DOMAIN_TOPIC,
     SenseRelType.IS_EXEMPLIFIED_BY])
 
-def sense_to_yaml(wn, s):
+def sense_to_yaml(wn, s, sb_map):
     """Converts a single sense to the YAML form"""
     y = {}
     y["synset"] = s.synset[4:]
@@ -32,6 +28,8 @@ def sense_to_yaml(wn, s):
                 y[sr.rel_type.value] = [map_sense_key(wn.sense_by_id(sr.target).sense_key)]
             else:
                 y[sr.rel_type.value].append(map_sense_key(wn.sense_by_id(sr.target).sense_key))
+    if sb_map[s.id]:
+        y["subcat"] = sb_map[s.id]
     return y
 
 def definition_to_yaml(wn, d):
@@ -44,6 +42,50 @@ def example_to_yaml(wn, x):
         return {"text": x.text, "source": x.source}
     else:
         return x.text
+
+frames = {
+        "nonreferential": "It is ----ing",
+        "nonreferential-sent": "It ----s that CLAUSE",
+        "ditransitive": "Somebody ----s somebody something",
+        "via": "Somebody ----s",
+        "via-adj": "Somebody ----s Adjective",
+        "via-at": "Somebody ----s at something",
+        "via-for": "Somebody ----s for something",
+        "via-ger": "Somebody ----s VERB-ing",
+        "via-inf": "Somebody ----s INFINITIVE",
+        "via-on-anim": "Somebody ----s on somebody",
+        "via-on-inanim" :"Somebody ----s on something",
+        "via-out-of": "Somebody ----s out of somebody",
+        "via-pp": "Somebody ----s PP",
+        "via-that": "Somebody ----s that CLAUSE",
+        "via-to": "Somebody ----s to somebody",
+        "via-to-inf": "Somebody ----s to INFINITIVE",
+        "via-whether-inf": "Somebody ----s whether INFINITIVE",
+        "vibody": "Somebody's (body part) ----s",
+        "vii": "Something ----s",
+        "vii-adj": "Something ----s Adjective/Noun",
+        "vii-inf": "Something ----s INFINITIVE",
+        "vii-pp": "Something is ----ing PP",
+        "vii-to": "Something ----s to somebody",
+        "vtaa": "Somebody ----s somebody",
+        "vtaa-inf": "Somebody ----s somebody INFINITIVE",
+        "vtaa-into-ger": "Somebody ----s somebody into V-ing something",
+        "vtaa-of": "Somebody ----s somebody of something",
+        "vtaa-pp": "Somebody ----s somebody PP",
+        "vtaa-to-inf": "Somebody ----s somebody to INFINITIVE",
+        "vtaa-with": "Somebody ----s somebody with something",
+        "vtai": "Somebody ----s something",
+        "vtai-from": "Somebody ----s something from somebody",
+        "vtai-on": "Somebody ----s something on somebody",
+        "vtai-pp": "Somebody ----s something PP",
+        "vtai-to": "Somebody ----s something to somebody",
+        "vtai-with": "Somebody ----s something with something",
+        "vtia": "Something ----s somebody",
+        "vtii": "Something ----s something",
+        "vtii-adj": "Something ----s something Adjective/Noun",
+        }
+
+frames_inv = {v: k for k,v in frames.items()}
 
 ignored_symmetric_synset_rels = set([
     SynsetRelType.HYPONYM, SynsetRelType.INSTANCE_HYPONYM, 
@@ -89,8 +131,15 @@ if __name__ == "__main__":
         e = {}
         if entry.forms:
             e['form'] = [f.written_form for f in entry.forms]
-        e['senses'] = [sense_to_yaml(wn, s) for s in entry.senses]
-        # TODO: Syntactic behaviour
+        
+        sb_map = defaultdict(lambda: [])
+        for sb in entry.syntactic_behaviours:
+            sb_name = frames_inv[sb.subcategorization_frame]
+            for sense in sb.senses:
+                sb_map[sense].append(sb_name)
+
+        e['senses'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
+
         first = entry.lemma.written_form[0].lower()
         if first not in char_range('a', 'z'):
             first = '0'
@@ -131,4 +180,7 @@ if __name__ == "__main__":
     for key, synsets in synset_yaml.items():
         with open("src/yaml/%s.yaml" % key, "w") as outp:
             outp.write(yaml.dump(synsets,default_flow_style=False))
+
+    with open("src/yaml/frames.yaml", "w") as outp:
+        outp.write(yaml.dump(frames, default_flow_style=False))
 
