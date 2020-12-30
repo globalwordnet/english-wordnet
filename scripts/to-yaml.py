@@ -102,9 +102,9 @@ if __name__ == "__main__":
 
     for c in char_range('a', 'z'):
         with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
-            outp.write(yaml.dump(entry_yaml[c]))
+            outp.write(yaml.dump(entry_yaml[c],default_flow_style=False))
     with open("src/yaml/entries-0.yaml", "w") as outp:
-        outp.write(yaml.dump(entry_yaml['0']))
+        outp.write(yaml.dump(entry_yaml['0'],default_flow_style=False))
 
     synset_yaml = {}
     for synset in wn.synsets:
@@ -130,5 +130,5 @@ if __name__ == "__main__":
 
     for key, synsets in synset_yaml.items():
         with open("src/yaml/%s.yaml" % key, "w") as outp:
-            outp.write(yaml.dump(synsets))
+            outp.write(yaml.dump(synsets,default_flow_style=False))
 
