@@ -124,7 +124,7 @@ def check_lex_files(wn, fix):
 
 valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
 
-valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-[nvars]-[0-9]{8}-[0-9]{2}$")
+valid_sense_id = re.compile("^ewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
 
 valid_synset_id = re.compile("^ewn-[0-9]{8}-[nvars]$")
 
@@ -134,8 +134,17 @@ def is_valid_id(xml_id):
 def is_valid_synset_id(xml_id):
     return bool(valid_synset_id.match(xml_id))
 
-def is_valid_sense_id(xml_id):
-    return bool(valid_sense_id.match(xml_id))
+def is_valid_sense_id(xml_id, synset):
+    m = valid_sense_id.match(xml_id)
+    if not m:
+        return False
+    else:
+        pos = m.group(1)
+        key = m.group(2)
+        if synset != ("ewn-%s-%s" % (key, pos)):
+            print("%s does not match target of %s" % (xml_id, synset))
+            return False
+        return True
 
 def main():
     wn = parse_wordnet("wn.xml")
@@ -162,7 +171,7 @@ def main():
             print("ERROR: Invalid ID " + entry.id)
             errors += 1
         for sense in entry.senses:
-            if not is_valid_sense_id(sense.id):
+            if not is_valid_sense_id(sense.id, sense.synset):
                 if fix:
                     sys.stderr.write("Cannot be fixed")
                     sys.exit(-1)
