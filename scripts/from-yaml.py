@@ -65,10 +65,13 @@ def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
                 [make_sense_id(sense,lemma,pos) for sense in props["senses"] if k in sense.get("subcat", [])])
                 for k in keys]
 
-def fix_sense_id(sense, lemma, key2id, key2oldid):
+def fix_sense_id(sense, lemma, key2id, key2oldid,synset_ids_starting_from_zero):
     key2oldid[sense.sense_key] = sense.id
     idx = entry_orders[sense.synset[4:]].index(lemma)
-    sense.id = "%s-%02d" % (sense.id, idx+1)
+    if sense.synset in synset_ids_starting_from_zero:
+        sense.id = "%s-%02d" % (sense.id, idx)
+    else:
+        sense.id = "%s-%02d" % (sense.id, idx+1)
     key2id[sense.sense_key] = sense.id
 
 def fix_sense_rels(wn, sense, key2id, key2oldid):
@@ -128,11 +131,22 @@ def main():
                     wn.add_synset(synset_from_yaml(props, id, lex_name))
                     entry_orders[id] = props["entries"]
 
+    # This is a big hack because of some inconsistencies in the XML that should
+    # be gone soon
+    synset_ids_starting_from_zero = set()
+    for f in glob("src/*.xml"):
+        wn_lex = parse_wordnet(f)
+        for entry in wn_lex.entries:
+            for sense in entry.senses:
+                if sense.id.endswith("00"):
+                    synset_ids_starting_from_zero.add(sense.synset)
+
+
     key2id = {}
     key2oldid = {}
     for entry in wn.entries:
         for sense in entry.senses:
-            fix_sense_id(sense, entry.lemma.written_form, key2id, key2oldid)
+            fix_sense_id(sense, entry.lemma.written_form, key2id, key2oldid, synset_ids_starting_from_zero)
 
     for entry in wn.entries:
         for sense in entry.senses:
@@ -197,10 +211,10 @@ def main():
                     for sense in entry.senses:
                         if wn_lex.sense_by_id(sense.id):
                             sense.n = wn_lex.sense_by_id(sense.id).n 
-                            sense_rel_order = defaultdict(lambda: 10000, [(sr.target, i)
+                            sense_rel_order = defaultdict(lambda: 10000, [((sr.target,sr.rel_type), i)
                                 for i, sr in enumerate(wn_lex.sense_by_id(sense.id).sense_relations)])
                             sense.sense_relations = sorted(sense.sense_relations, 
-                                key=lambda sr: sense_rel_order[sr.target])
+                                key=lambda sr: sense_rel_order[(sr.target,sr.rel_type)])
                         else:
                             print("sense not found:" + sense.id)
                     sb_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sb.subcategorization_frame for sb in wn_lex.entry_by_id(entry.id).syntactic_behaviours)])
