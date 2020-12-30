@@ -196,7 +196,7 @@ def main():
                 #if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1 
-            if sense.sense_key in sense_keys and sense_keys[sense.sense_key] != sense.synset:
+            if sense.sense_key in sense_keys:
                 print("ERROR: Duplicate sense key %s" % sense.sense_key)
                 errors += 1
             else:
