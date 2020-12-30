@@ -201,6 +201,12 @@ def main():
                 errors += 1
             else:
                 sense_keys[sense.sense_key] = sense.synset
+            sb_counter = Counter(sb.subcategorization_frame for sb in entry.syntactic_behaviours)
+            for item, count in sb_counter.items():
+                if count > 1:
+                    print("ERROR: Duplicate syntactic behaviour in entry %s" % (entry.id))
+                    errors += 1
+
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
             print("ERROR: Synset ID not same as part of speech %s as %s" % (synset.id, synset.part_of_speech.value))
