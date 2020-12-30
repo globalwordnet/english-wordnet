@@ -179,13 +179,14 @@ def main():
                     for sense in entry.senses:
                         if wn_lex.sense_by_id(sense.id):
                             sense.n = wn_lex.sense_by_id(sense.id).n 
-                            sense_rel_order = defaultdict(lambda: 10000, [((sr.target,sr.rel_type), i)
+                            sense_rel_order = defaultdict(lambda: 10000, [(sr.target, i)
                                 for i, sr in enumerate(wn_lex.sense_by_id(sense.id).sense_relations)])
-                            if sense.id == "ewn-eukaryote-n-01418267-01":
+                            if sense.id == "ewn-catheterization-n-00322388-01":
+                                print(sense_rel_order)
                                 print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
                             sense.sense_relations = sorted(sense.sense_relations, 
-                                key=lambda sr: sense_rel_order[(sr.target, sr.rel_type)])
-                            if sense.id == "ewn-eukaryote-n-01418267-01":
+                                key=lambda sr: sense_rel_order[sr.target])
+                            if sense.id == "ewn-catheterization-n-00322388-01":
                                 print([(sr.target, sr.rel_type) for sr in sense.sense_relations])
                         else:
                             print("sense not found:" + sense.id)
