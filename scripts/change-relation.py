@@ -225,6 +225,7 @@ def main():
 
     else:
         print("No change specified")
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()

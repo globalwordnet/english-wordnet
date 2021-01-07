@@ -75,6 +75,7 @@ def main():
             defn = args.defn
 
         update_def(wn, synset, defn, args.add)
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()

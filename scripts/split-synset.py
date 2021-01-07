@@ -51,6 +51,7 @@ def main():
     change_manager.delete_synset(wn, synset, 
             [wn.synset_for_id(new_id) for new_id in new_ids],
             args.reason)
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()
