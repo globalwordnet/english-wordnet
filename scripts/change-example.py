@@ -5,22 +5,22 @@ import os
 import pickle
 
 def add_ex(wn, synset, example):
-    wn_synset = wordnet.parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = wordnet.parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     ss = wn_synset.synset_by_id(synset.id)
     ss.examples = ss.examples + [wordnet.Example(example)]
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
 
 def delete_ex(wn, synset, example):
-    wn_synset = wordnet.parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = wordnet.parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     ss = wn_synset.synset_by_id(synset.id)
     n_exs = len(ss.examples)
     ss.examples = [ex for ex in ss.examples if ex.text != example]
     if len(ss.examples) == n_exs:
         print("No change")
     else:
-        with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+        with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
             wn_synset.to_xml(out, True)
 
 def main():

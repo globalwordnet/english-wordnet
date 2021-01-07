@@ -22,10 +22,10 @@ def load_wordnet():
 def delete_rel(source, target):
     """Delete all relationships between two synsets"""
     print("Delete %s =*=> %s" % (source.id, target.id))
-    wn_source = parse_wordnet("src/wn-%s.xml" % source.lex_name)
+    wn_source = parse_wordnet("src/xml/wn-%s.xml" % source.lex_name)
     ss = wn_source.synset_by_id(source.id)
     ss.synset_relations = [r for r in ss.synset_relations if r.target != target.id]
-    with open("src/wn-%s.xml" % source.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % source.lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
 def decompose_sense_id(sense_id):
@@ -43,24 +43,24 @@ def delete_sense_rel(wn, source, target):
     print("Delete %s =*=> %s" % (source, target))
     (source_synset, source_entry) = decompose_sense_id(source)
     lex_name = wn.synset_by_id(source_synset).lex_name
-    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    wn_source = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
-    with open("src/wn-%s.xml" % lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
 
 def insert_rel(source, rel_type, target):
     """Insert a single relation between two synsets"""
     print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
-    wn_source = parse_wordnet("src/wn-%s.xml" % source.lex_name)
+    wn_source = parse_wordnet("src/xml/wn-%s.xml" % source.lex_name)
     ss = wn_source.synset_by_id(source.id)
     if [r for r in ss.synset_relations if r.target == target.id and r.rel_type == rel_type]:
         print("Already exists")
         return
     ss.synset_relations.append(SynsetRelation(target.id, rel_type))
-    with open("src/wn-%s.xml" % source.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % source.lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
 def empty_if_none(x):
@@ -114,7 +114,7 @@ def change_entry(wn, synset, target_synset, lemma):
     idx = n_entries + 1
     n = n_senses
      
-    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
 
     for entry in entries:
@@ -126,7 +126,7 @@ def change_entry(wn, synset, target_synset, lemma):
                         target_synset.part_of_speech.value,
                         synset_key(target_synset.id), idx)
 
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
 def add_entry(wn, synset, lemma, idx=0, n=-1):
@@ -171,7 +171,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                 change_sense_n(wn, entry_global, sense.id, sense_n + 1)
             sense_n += 1
 
-    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
 
     if entries:
@@ -199,7 +199,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                     synset=synset.id, n=n, sense_key=None))
         wn.add_entry(entry)
         wn_synset.add_entry(entry)
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
     return entry
 
@@ -235,15 +235,15 @@ def delete_entry(wn, synset, entry_id):
                 delete_sense_rel(wn, rel.target, sense.id)
 
     if n_senses == 1: # then delete the whole entry
-        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+        wn_synset = parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
         wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
         wn.entries = [entry for entry in wn.entries if entry.id != entry_global.id]
     else:
-        wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+        wn_synset = parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
         entry = wn_synset.entry_by_id(entry_global.id)
         entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
         entry_global.senses = [sense for sense in entry_global.senses if sense.synset != synset.id]
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
 def delete_synset(wn, synset, supersede, reason, delent=True):
@@ -260,10 +260,10 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
     for rel in synset.synset_relations:
         delete_rel(wn.synset_by_id(rel.target), synset)
 
-    wn_synset = parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     wn_synset.synsets = [ss for ss in wn_synset.synsets
             if synset.id != ss.id]
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
     if supersede:
         if not isinstance(supersede, list):
@@ -291,11 +291,11 @@ def change_sense_n(wn, entry, sense_id, new_n):
     synset = wn.synset_by_id(sense.synset)
     lexname = synset.lex_name
 
-    wn_synset = parse_wordnet("src/wn-%s.xml" % lexname)
+    wn_synset = parse_wordnet("src/xml/wn-%s.xml" % lexname)
     entry = wn_synset.entry_by_id(entry.id)
     sense = [sense for sense in entry.senses if sense.id == sense_id][0]
     sense.n = new_n
-    with open("src/wn-%s.xml" % lexname, "w") as out:
+    with open("src/xml/wn-%s.xml" % lexname, "w") as out:
         wn_synset.to_xml(out, True)
 
 def change_sense_idx(wn, sense_id, new_idx):
@@ -304,7 +304,7 @@ def change_sense_idx(wn, sense_id, new_idx):
     new_sense_id = "%s-%02d" % (sense_id[:-3], new_idx)
     # This is implemented as a find and replace, as this is likely less error-prone
     # than doing it properly
-    for f in glob("src/wn-*.xml"):
+    for f in glob("src/xml/wn-*.xml"):
         with fileinput.FileInput(f, inplace=True) as file:
             for line in file:
                 print(line.replace(sense_id, new_sense_id).rstrip())
@@ -331,10 +331,10 @@ def add_synset(wn, definition, lexfile, pos, ssid=None):
     ss = Synset(ssid, "in",
             PartOfSpeech(pos), lexfile)
     ss.definitions = [Definition(definition)]
-    wn2 = parse_wordnet("src/wn-%s.xml" % lexfile)
+    wn2 = parse_wordnet("src/xml/wn-%s.xml" % lexfile)
     wn2.add_synset(ss)
     wn.add_synset(ss) # So downstream split/merge script work!
-    with open("src/wn-%s.xml" % lexfile, "w") as out:
+    with open("src/xml/wn-%s.xml" % lexfile, "w") as out:
         wn2.to_xml(out, True)
     return ssid
 
@@ -348,10 +348,10 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
     ss.definitions = [d for s in synsets for d in s.definitions]
     ss.examples = [x for s in synsets for x in s.examples]
     members = {}
-    wn_ss = parse_wordnet("src/wn-%s.xml" % lexfile)
+    wn_ss = parse_wordnet("src/xml/wn-%s.xml" % lexfile)
     wn_ss.add_synset(ss)
     wn.add_synset(ss)
-    with open("src/wn-%s.xml" % lexfile, "w") as outp:
+    with open("src/xml/wn-%s.xml" % lexfile, "w") as outp:
         wn_ss.to_xml(outp, True)
 
     for s in synsets:
@@ -370,7 +370,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
                 if not any(f2 == f for f in members[m].forms):
                     members[m].add_form(f)
             # syn behaviours - probably fix manually for the moment
-    with open("src/wn-%s.xml" % lexfile, "w") as outp:
+    with open("src/xml/wn-%s.xml" % lexfile, "w") as outp:
         wn_ss.to_xml(outp, True)
     return ss
 
@@ -439,11 +439,11 @@ def delete_sense_rel(wn, source, target):
     print("Delete %s =*=> %s" % (source, target))
     (source_synset, source_entry) = decompose_sense_id(source)
     lex_name = wn.synset_by_id(source_synset).lex_name
-    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    wn_source = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
-    with open("src/wn-%s.xml" % lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
 def insert_sense_rel(wn, source, rel_type, target):
@@ -451,11 +451,11 @@ def insert_sense_rel(wn, source, rel_type, target):
     print("Insert %s =%s=> %s" % (source, rel_type, target))
     (source_synset, source_entry) = decompose_sense_id(source)
     lex_name = wn.synset_by_id(source_synset).lex_name
-    wn_source = parse_wordnet("src/wn-%s.xml" % lex_name)
+    wn_source = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations.append(SenseRelation(target, rel_type))
-    with open("src/wn-%s.xml" % lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % lex_name, "w") as out:
         wn_source.to_xml(out, True)
 
     

@@ -69,7 +69,7 @@ def wn_merge():
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
 
-        for wn_part in glob("src/wn-*.xml"):
+        for wn_part in glob("src/xml/wn-*.xml"):
             tree = ET.parse(wn_part).getroot()
             for element in tree[0]:
                 if(element.tag == "LexicalEntry"):
@@ -84,7 +84,7 @@ def wn_merge():
                     .replace(" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"",""))
         out.write("\n    ")
 
-        for wn_part in glob("src/wn-*.xml"):
+        for wn_part in glob("src/xml/wn-*.xml"):
             tree = ET.parse(wn_part).getroot()
             for element in tree[0]:
                 if(element.tag == "Synset"):
