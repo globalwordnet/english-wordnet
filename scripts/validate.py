@@ -93,7 +93,7 @@ def check_lex_files(wn, fix):
             }
     errors = 0
     for f in glob.glob("src/xml/wn-*.xml"):
-        lexfile = f[7:-4]
+        lexfile = f[11:-4]
         lex_pos = pos_map[lexfile[:3]]
         swn = parse_wordnet(f)
         for synset in swn.synsets:
