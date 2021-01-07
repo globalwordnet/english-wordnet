@@ -24,7 +24,7 @@ def make_sense_id(y, lemma, pos):
 
 def sense_from_yaml(y, lemma, pos, n):
     s = Sense(make_sense_id(y,lemma,pos),
-        "ewn-" + y["synset"], map_sense_key(y["key"]), n,
+        "ewn-" + y["synset"], map_sense_key(y["id"]), n,
         y.get("adjposition"))
     for rel, targets in y.items():
         if rel in SenseRelType._value2member_map_:
@@ -35,18 +35,18 @@ def sense_from_yaml(y, lemma, pos, n):
     return s
 
 def synset_from_yaml(props, id, lex_name):
-    if "pos" not in props:
+    if "partOfSpeech" not in props:
         print(props)
     ss = Synset("ewn-" + id,
             props.get("ili", "in"),
-            PartOfSpeech(props["pos"]),
+            PartOfSpeech(props["partOfSpeech"]),
             lex_name,
             props.get("source"))
-    for defn in props["definitions"]:
+    for defn in props["definition"]:
         ss.add_definition(Definition(defn))
     if "ili" not in props:
-        ss.add_definition(Definition(props["definitions"][0]), True)
-    for example in props.get("examples", []):
+        ss.add_definition(Definition(props["definition"][0]), True)
+    for example in props.get("example", []):
         if isinstance(example, str):
             ss.add_example(Example(example))
         else:
@@ -59,10 +59,10 @@ def synset_from_yaml(props, id, lex_name):
     return ss
 
 def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
-    keys = set([subcat for sense in props["senses"] for subcat in sense.get("subcat",[])])
+    keys = set([subcat for sense in props["sense"] for subcat in sense.get("subcat",[])])
     return [
             SyntacticBehaviour(frames[k],
-                [make_sense_id(sense,lemma,pos) for sense in props["senses"] if k in sense.get("subcat", [])])
+                [make_sense_id(sense,lemma,pos) for sense in props["sense"] if k in sense.get("subcat", [])])
                 for k in keys]
 
 def fix_sense_id(sense, lemma, key2id, key2oldid,synset_ids_starting_from_zero):
@@ -116,7 +116,7 @@ def main():
                     if "form" in props:
                         for form in props["form"]:
                             entry.add_form(Form(form))
-                    for n, sense in enumerate(props["senses"]):
+                    for n, sense in enumerate(props["sense"]):
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
                     entry.syntactic_behaviours = syntactic_behaviour_from_yaml(frames, props, lemma, pos)
                     wn.add_entry(entry)
@@ -129,12 +129,12 @@ def main():
 
                 for id, props in y.items():
                     wn.add_synset(synset_from_yaml(props, id, lex_name))
-                    entry_orders[id] = props["entries"]
+                    entry_orders[id] = props["members"]
 
     # This is a big hack because of some inconsistencies in the XML that should
     # be gone soon
     synset_ids_starting_from_zero = set()
-    for f in glob("src/*.xml"):
+    for f in glob("src/xml/*.xml"):
         wn_lex = parse_wordnet(f)
         for entry in wn_lex.entries:
             for sense in entry.senses:
@@ -194,8 +194,8 @@ def main():
                 by_lex_name[lex_name].add_entry(e)
 
     for lex_name, wn in by_lex_name.items():
-        if os.path.exists("src/wn-%s.xml" % lex_name):
-            wn_lex = parse_wordnet("src/wn-%s.xml" % lex_name)
+        if os.path.exists("src/xml/wn-%s.xml" % lex_name):
+            wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
             senseids = { sense.id[:-2]: sense.id for entry in wn_lex.entries for sense in entry.senses }
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])

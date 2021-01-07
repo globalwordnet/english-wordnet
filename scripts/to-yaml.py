@@ -19,7 +19,7 @@ def sense_to_yaml(wn, s, sb_map):
     """Converts a single sense to the YAML form"""
     y = {}
     y["synset"] = s.synset[4:]
-    y["key"] = map_sense_key(s.sense_key)
+    y["id"] = map_sense_key(s.sense_key)
     if s.adjposition:
         y["adjposition"] = s.adjposition
     for sr in s.sense_relations:
@@ -138,7 +138,7 @@ if __name__ == "__main__":
             for sense in sb.senses:
                 sb_map[sense].append(sb_name)
 
-        e['senses'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
+        e['sense'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
 
         first = entry.lemma.written_form[0].lower()
         if first not in char_range('a', 'z'):
@@ -160,10 +160,10 @@ if __name__ == "__main__":
         s = {}
         if synset.ili and synset.ili != "in":
             s["ili"] = synset.ili
-        s["pos"] = synset.part_of_speech.value
-        s["definitions"] = [definition_to_yaml(wn, d) for d in synset.definitions]
+        s["partOfSpeech"] = synset.part_of_speech.value
+        s["definition"] = [definition_to_yaml(wn, d) for d in synset.definitions]
         if synset.examples:
-            s["examples"] = [example_to_yaml(wn, x) for x in synset.examples]
+            s["example"] = [example_to_yaml(wn, x) for x in synset.examples]
         if synset.source:
             s["source"] = synset.source
         for r in synset.synset_relations:
@@ -175,7 +175,7 @@ if __name__ == "__main__":
         if synset.lex_name not in synset_yaml:
             synset_yaml[synset.lex_name] = {}
         synset_yaml[synset.lex_name][synset.id[4:]] = s
-        s["entries"] = entries_ordered(wn, synset.id)
+        s["members"] = entries_ordered(wn, synset.id)
 
     for key, synsets in synset_yaml.items():
         with open("src/yaml/%s.yaml" % key, "w") as outp:

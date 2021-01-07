@@ -1,25 +1,22 @@
 02110264-v:
-  definitions:
+  definition:
   - be aware of
   entails:
   - 02110960-v
-  entries:
-  - record
-  - register
-  examples:
+  example:
   - '"Did you register any change when I pressed the button?"'
   ili: i32294
-  pos: v
+  members:
+  - record
+  - register
+  partOfSpeech: v
   similar:
   - 02144213-v
   - 00730186-v
 02110460-v:
-  definitions:
+  definition:
   - perceive by a physical sensation, e.g., coming from the skin or muscles
-  entries:
-  - feel
-  - sense
-  examples:
+  example:
   - '"He felt the wind"'
   - '"She felt an object brushing her arm"'
   - '"He felt his flesh crawl"'
@@ -27,85 +24,83 @@
   hypernym:
   - 02110960-v
   ili: i32295
-  pos: v
+  members:
+  - feel
+  - sense
+  partOfSpeech: v
   similar:
   - 02736346-v
 02110960-v:
-  definitions:
+  definition:
   - to become aware of through the senses
-  entries:
-  - perceive
-  - comprehend
-  examples:
+  example:
   - '"I could perceive the ship coming over the horizon"'
   ili: i32296
-  pos: v
+  members:
+  - perceive
+  - comprehend
+  partOfSpeech: v
 02111551-v:
-  definitions:
+  definition:
   - perceive in terms of a past experience
   domain_topic:
   - 06145709-n
-  entries:
-  - apperceive
   hypernym:
   - 02110960-v
   ili: i32297
-  pos: v
+  members:
+  - apperceive
+  partOfSpeech: v
 02111702-v:
-  definitions:
+  definition:
   - register (perceptual input)
-  entries:
-  - pick up
-  - receive
-  examples:
+  example:
   - '"pick up a signal"'
   hypernym:
   - 02110960-v
   ili: i32298
-  pos: v
+  members:
+  - pick up
+  - receive
+  partOfSpeech: v
 02111896-v:
-  definitions:
+  definition:
   - receive a communication from someone
-  entries:
-  - hear
-  examples:
+  example:
   - '"We heard nothing from our son for five years"'
   hypernym:
   - 02111702-v
   ili: i32299
-  pos: v
+  members:
+  - hear
+  partOfSpeech: v
 02112042-v:
-  definitions:
+  definition:
   - perceive intuitively or through some inexplicable perceptive powers
-  entries:
-  - divine
   hypernym:
   - 02110960-v
   ili: i32300
-  pos: v
+  members:
+  - divine
+  partOfSpeech: v
 02112271-v:
-  definitions:
+  definition:
   - divine by reading someone's palms
-  entries:
-  - chiromance
-  examples:
+  example:
   - '"The Gypsies chiromanced"'
   - '"She refused to chiromance my fate"'
   hypernym:
   - 02112042-v
   ili: i32301
-  pos: v
+  members:
+  - chiromance
+  partOfSpeech: v
 02112480-v:
-  definitions:
+  definition:
   - go through (mental or physical states or experiences)
   entails:
   - 02110960-v
-  entries:
-  - experience
-  - receive
-  - have
-  - get
-  examples:
+  example:
   - '"get an idea"'
   - '"experience vertigo"'
   - '"get nauseous"'
@@ -114,584 +109,586 @@
   hypernym:
   - 02112831-v
   ili: i32302
-  pos: v
+  members:
+  - experience
+  - receive
+  - have
+  - get
+  partOfSpeech: v
 02112831-v:
-  definitions:
+  definition:
   - go through
-  entries:
-  - undergo
-  examples:
+  example:
   - '"The chemical undergoes a sudden change"'
   - '"The fluid undergoes shear"'
   - '"undergo a strange sensation"'
   hypernym:
   - 00109468-v
   ili: i32303
-  pos: v
+  members:
+  - undergo
+  partOfSpeech: v
 02113108-v:
-  definitions:
+  definition:
   - receive as a retribution or punishment
-  entries:
-  - get
-  - receive
-  examples:
+  example:
   - '"He got 5 years in prison"'
   ili: i32304
-  pos: v
+  members:
+  - get
+  - receive
+  partOfSpeech: v
   similar:
   - 02114099-v
 02113245-v:
-  definitions:
+  definition:
   - cause to experience suddenly
-  entries:
-  - hit
-  - strike
-  - come to
-  examples:
+  example:
   - '"Panic struck me"'
   - '"An interesting idea hit her"'
   - '"A thought came to me"'
   - '"The thought struck terror in our minds"'
   - '"They were struck with fear"'
   ili: i32305
-  pos: v
+  members:
+  - hit
+  - strike
+  - come to
+  partOfSpeech: v
   similar:
   - 01771801-v
 02113499-v:
-  definitions:
+  definition:
   - experience or feel or submit to
-  entries:
-  - take
-  examples:
+  example:
   - '"Take a test"'
   - '"Take the plunge"'
   hypernym:
   - 02112480-v
   ili: i32306
-  pos: v
+  members:
+  - take
+  partOfSpeech: v
   similar:
   - 00671680-v
 02113644-v:
-  definitions:
+  definition:
   - undergo or be subjected to
-  entries:
-  - suffer
-  - endure
-  examples:
+  example:
   - '"He suffered the penalty"'
   - '"Many saints suffered martyrdom"'
   hypernym:
   - 02114674-v
   ili: i32307
-  pos: v
+  members:
+  - suffer
+  - endure
+  partOfSpeech: v
 02113858-v:
-  definitions:
+  definition:
   - have a tolerance for a poison or strong drug or pathogen or environmental condition
   domain_topic:
   - 06052606-n
-  entries:
-  - tolerate
-  examples:
+  example:
   - '"The patient does not tolerate the anti-inflammatory drugs we gave him"'
   hypernym:
   - 02113644-v
   ili: i32308
-  pos: v
+  members:
+  - tolerate
+  partOfSpeech: v
 02114099-v:
-  definitions:
+  definition:
   - suffer from the receipt of
-  entries:
-  - catch
-  - get
-  examples:
+  example:
   - '"She will catch hell for this behavior!"'
   hypernym:
   - 02125976-v
   ili: i32309
-  pos: v
+  members:
+  - catch
+  - get
+  partOfSpeech: v
   similar:
   - 00544096-v
   - 02113108-v
 02114272-v:
-  definitions:
+  definition:
   - suffer or face the pain of death
-  entries:
-  - die
-  examples:
+  example:
   - '"Martyrs may die every day for their faith"'
   hypernym:
   - 02113644-v
   ili: i32310
-  pos: v
+  members:
+  - die
+  partOfSpeech: v
   similar:
   - 00359085-v
 02114536-v:
-  definitions:
+  definition:
   - undergo or suffer
-  entries:
-  - suffer
-  - meet
-  examples:
+  example:
   - '"meet a violent death"'
   - '"suffer a terrible fate"'
   hypernym:
   - 02114674-v
   ili: i32311
-  pos: v
+  members:
+  - suffer
+  - meet
+  partOfSpeech: v
 02114674-v:
-  definitions:
+  definition:
   - undergo or live through a difficult experience
-  entries:
-  - experience
-  - see
-  - go through
-  examples:
+  example:
   - '"We had many trials to go through"'
   - '"he saw action in Viet Nam"'
   hypernym:
   - 02112831-v
   ili: i32312
-  pos: v
+  members:
+  - experience
+  - see
+  - go through
+  partOfSpeech: v
 02115034-v:
-  definitions:
+  definition:
   - undergo passive experience of
-  entries:
-  - feel
-  examples:
+  example:
   - '"We felt the effects of inflation"'
   - '"her fingers felt their way through the string quartet"'
   - '"she felt his contempt of her"'
   hypernym:
   - 02114674-v
   ili: i32313
-  pos: v
+  members:
+  - feel
+  partOfSpeech: v
 02115276-v:
-  definitions:
+  definition:
   - have for one's benefit
-  entries:
-  - enjoy
-  examples:
+  example:
   - '"The industry enjoyed a boom"'
   hypernym:
   - 02114674-v
   ili: i32314
-  pos: v
+  members:
+  - enjoy
+  partOfSpeech: v
 02115410-v:
   causes:
   - 02114674-v
-  definitions:
+  definition:
   - cause to experience or suffer or make liable or vulnerable to
-  entries:
-  - subject
-  examples:
+  example:
   - '"He subjected me to his awful poetry"'
   - '"The sergeant subjected the new recruits to many drills"'
   - '"People in Chernobyl were subjected to radiation"'
   hypernym:
   - 00137133-v
   ili: i32315
-  pos: v
+  members:
+  - subject
+  partOfSpeech: v
 02115854-v:
-  definitions:
+  definition:
   - expose to the effects of vitriol or injure with vitriol
-  entries:
-  - vitriol
   hypernym:
   - 02115410-v
   ili: i32316
-  pos: v
+  members:
+  - vitriol
+  partOfSpeech: v
 02115982-v:
-  definitions:
+  definition:
   - cause (someone) to undergo something
-  entries:
-  - put
-  examples:
+  example:
   - '"He put her to the torture"'
   hypernym:
   - 02115410-v
   ili: i32317
-  pos: v
+  members:
+  - put
+  partOfSpeech: v
 02116108-v:
-  definitions:
+  definition:
   - cause to experience shipwreck
   domain_topic:
   - 00314473-n
-  entries:
-  - shipwreck
-  examples:
+  example:
   - '"They were shipwrecked in one of the mysteries at sea"'
   hypernym:
   - 02115410-v
   ili: i32318
-  pos: v
+  members:
+  - shipwreck
+  partOfSpeech: v
 02116321-v:
-  definitions:
+  definition:
   - subject to refraction
   domain_topic:
   - 06110385-n
-  entries:
-  - refract
-  examples:
+  example:
   - '"refract a light beam"'
   hypernym:
   - 02115410-v
   ili: i32319
-  pos: v
+  members:
+  - refract
+  partOfSpeech: v
 02116512-v:
-  definitions:
+  definition:
   - expose or make accessible to some action or influence
-  entries:
-  - expose
-  examples:
+  example:
   - '"Expose your students to art"'
   - '"expose the blanket to sunshine"'
   hypernym:
   - 02115410-v
   ili: i32320
-  pos: v
+  members:
+  - expose
+  partOfSpeech: v
 02116828-v:
-  definitions:
+  definition:
   - expose to the circulation of fresh air so as to retard spoilage
-  entries:
-  - ventilate
-  examples:
+  example:
   - '"Wheat should be well ventilated"'
   hypernym:
   - 02116512-v
   ili: i32321
-  pos: v
+  members:
+  - ventilate
+  partOfSpeech: v
 02117029-v:
-  definitions:
+  definition:
   - expose to the rays of the sun or affect by exposure to the sun
-  entries:
-  - sun
-  - insolate
-  - solarize
-  - solarise
-  examples:
+  example:
   - '"insolated paper may turn yellow and crumble"'
   - '"These herbs suffer when sunned"'
   hypernym:
   - 02116512-v
   ili: i32322
-  pos: v
+  members:
+  - sun
+  - insolate
+  - solarize
+  - solarise
+  partOfSpeech: v
 02117374-v:
-  definitions:
+  definition:
   - expose to fresh air
-  entries:
-  - air out
-  - air
-  - aerate
-  examples:
+  example:
   - '"aerate your old sneakers"'
   hypernym:
   - 02116512-v
   ili: i32323
-  pos: v
+  members:
+  - air out
+  - air
+  - aerate
+  partOfSpeech: v
 02117537-v:
-  definitions:
+  definition:
   - expose excessively
   domain_topic:
   - 00905257-n
-  entries:
-  - overexpose
-  examples:
+  example:
   - '"As a child, I was overexposed to French movies"'
   hypernym:
   - 02116512-v
   ili: i32324
-  pos: v
+  members:
+  - overexpose
+  partOfSpeech: v
 02117736-v:
-  definitions:
+  definition:
   - expose insufficiently
   domain_topic:
   - 00905257-n
-  entries:
-  - underexpose
-  examples:
+  example:
   - '"The child was underexposed to language"'
   hypernym:
   - 02116512-v
   ili: i32325
-  pos: v
+  members:
+  - underexpose
+  partOfSpeech: v
 02117913-v:
-  definitions:
+  definition:
   - expose to light, of photographic film
   domain_topic:
   - 00905257-n
-  entries:
-  - expose
   hypernym:
   - 02115410-v
   ili: i32326
-  pos: v
+  members:
+  - expose
+  partOfSpeech: v
 02118105-v:
-  definitions:
+  definition:
   - expose to too much light
   domain_topic:
   - 00905257-n
-  entries:
-  - overexpose
-  examples:
+  example:
   - '"the photographic film was overexposed and there is no image"'
   hypernym:
   - 02117913-v
   ili: i32327
-  pos: v
+  members:
+  - overexpose
+  partOfSpeech: v
 02118333-v:
-  definitions:
+  definition:
   - overexpose to sunlight
   domain_topic:
   - 00905257-n
-  entries:
-  - solarize
-  - solarise
-  examples:
+  example:
   - '"be careful not to solarize the photographic film"'
   hypernym:
   - 02118105-v
   ili: i32328
-  pos: v
+  members:
+  - solarize
+  - solarise
+  partOfSpeech: v
   similar:
   - 02118539-v
   - 02118916-v
 02118539-v:
-  definitions:
+  definition:
   - become overexposed
   domain_topic:
   - 00905257-n
-  entries:
-  - solarize
-  - solarise
-  examples:
+  example:
   - '"The film solarized"'
   hypernym:
   - 00109468-v
   ili: i32329
-  pos: v
+  members:
+  - solarize
+  - solarise
+  partOfSpeech: v
   similar:
   - 02118333-v
   - 02118916-v
 02118711-v:
-  definitions:
+  definition:
   - expose to too little light
   domain_topic:
   - 00905257-n
-  entries:
-  - underexpose
-  examples:
+  example:
   - '"The film is underexposed, so the image is very dark"'
   hypernym:
   - 02117913-v
   ili: i32330
-  pos: v
+  members:
+  - underexpose
+  partOfSpeech: v
 02118916-v:
-  definitions:
+  definition:
   - reverse some of the tones of (a negative or print) and introduce pronounced outlines
     of highlights, by exposing it briefly to light, then washing and redeveloping
     it
   domain_topic:
   - 00905257-n
-  entries:
-  - solarize
-  - solarise
   hypernym:
   - 02143239-v
   ili: i32331
-  pos: v
+  members:
+  - solarize
+  - solarise
+  partOfSpeech: v
   similar:
   - 02118333-v
   - 02118539-v
 02119213-v:
-  definitions:
+  definition:
   - make (an organism or substance) sensitive to the influence of radiant energy and
     especially light
-  entries:
-  - photosensitize
-  - photosensitise
   hypernym:
   - 02120261-v
   ili: i32332
-  pos: v
+  members:
+  - photosensitize
+  - photosensitise
+  partOfSpeech: v
 02119407-v:
-  definitions:
+  definition:
   - cause not to be sensitive
-  entries:
-  - desensitize
-  - desensitise
-  examples:
+  example:
   - '"The war desensitized many soldiers"'
   - '"The photographic plate was desensitized"'
   hypernym:
   - 00126072-v
   ili: i32333
-  pos: v
+  members:
+  - desensitize
+  - desensitise
+  partOfSpeech: v
 02119756-v:
-  definitions:
+  definition:
   - make numb or insensitive
-  entries:
-  - numb
-  - benumb
-  - blunt
-  - dull
-  examples:
+  example:
   - '"The shock numbed her senses"'
   hypernym:
   - 02119407-v
   ili: i32334
-  pos: v
+  members:
+  - numb
+  - benumb
+  - blunt
+  - dull
+  partOfSpeech: v
 02119913-v:
-  definitions:
+  definition:
   - overcome as with astonishment or disbelief
-  entries:
-  - stun
-  - bedaze
-  - daze
-  examples:
+  example:
   - '"The news stunned her"'
   hypernym:
   - 02119407-v
   ili: i32335
-  pos: v
+  members:
+  - stun
+  - bedaze
+  - daze
+  partOfSpeech: v
 02120101-v:
-  definitions:
+  definition:
   - make dull or stupid or muddle with drunkenness or infatuation
-  entries:
-  - besot
-  - stupefy
   hypernym:
   - 02119407-v
   ili: i32336
-  pos: v
+  members:
+  - besot
+  - stupefy
+  partOfSpeech: v
 02120261-v:
   causes:
   - 02110460-v
-  definitions:
+  definition:
   - cause to sense; make sensitive
-  entries:
-  - sensitize
-  - sensitise
-  examples:
+  example:
   - '"She sensitized me with respect to gender differences in this traditional male-dominated
     society"'
   - '"My tongue became sensitized to good wine"'
   ili: i32337
-  pos: v
+  members:
+  - sensitize
+  - sensitise
+  partOfSpeech: v
 02120601-v:
-  definitions:
+  definition:
   - stir feelings in
-  entries:
-  - stimulate
-  - excite
-  - stir
-  examples:
+  example:
   - '"stimulate my appetite"'
   - '"excite the audience"'
   - '"stir emotions"'
   hypernym:
   - 02120261-v
   ili: i32338
-  pos: v
+  members:
+  - stimulate
+  - excite
+  - stir
+  partOfSpeech: v
 02121051-v:
-  definitions:
+  definition:
   - cause (someone's) hair to stand on end and to have goosebumps
-  entries:
-  - horripilate
-  examples:
+  example:
   - '"Hitchcock movies horripilate me"'
   hypernym:
   - 02120601-v
   ili: i32339
-  pos: v
+  members:
+  - horripilate
+  partOfSpeech: v
   similar:
   - 02121260-v
 02121260-v:
-  definitions:
+  definition:
   - have one's hair stand on end and get goosebumps
-  entries:
-  - horripilate
-  examples:
+  example:
   - '"I horripilate when I see violence on television"'
   hypernym:
   - 02112480-v
   ili: i32340
-  pos: v
+  members:
+  - horripilate
+  partOfSpeech: v
   similar:
   - 02121051-v
 02121463-v:
-  definitions:
+  definition:
   - provoke or excite
-  entries:
-  - work
-  examples:
+  example:
   - '"The rock musician worked the crowd of young girls into a frenzy"'
   hypernym:
   - 02120601-v
   ili: i32341
-  pos: v
+  members:
+  - work
+  partOfSpeech: v
   similar:
   - 01821541-v
   - 01165070-v
 02121653-v:
-  definitions:
+  definition:
   - provide sexual gratification through oral stimulation
-  entries:
+  hypernym:
+  - 02120601-v
+  ili: i32342
+  members:
   - fellate
   - suck
   - blow
   - go down on
-  hypernym:
-  - 02120601-v
-  ili: i32342
-  pos: v
+  partOfSpeech: v
 02121816-v:
-  definitions:
+  definition:
   - cause to be thrilled by some perceptual input
-  entries:
-  - thrill
-  examples:
+  example:
   - '"The men were thrilled by a loud whistle blow"'
   hypernym:
   - 02120601-v
   ili: i32343
-  pos: v
+  members:
+  - thrill
+  partOfSpeech: v
 02122017-v:
-  definitions:
+  definition:
   - make keen or more acute
-  entries:
-  - whet
-  - quicken
-  examples:
+  example:
   - '"whet my appetite"'
   hypernym:
   - 02120601-v
   ili: i32344
-  pos: v
+  members:
+  - whet
+  - quicken
+  partOfSpeech: v
 02122132-v:
-  definitions:
+  definition:
   - perceive what is not there; have illusions
-  entries:
-  - hallucinate
   hypernym:
   - 02110960-v
   ili: i32345
-  pos: v
+  members:
+  - hallucinate
+  partOfSpeech: v
 02122323-v:
-  definitions:
+  definition:
   - perceive incorrectly
-  entries:
-  - misperceive
   hypernym:
   - 02110960-v
   ili: i32346
-  pos: v
+  members:
+  - misperceive
+  partOfSpeech: v
 02122438-v:
-  definitions:
+  definition:
   - perceive with the senses quickly, suddenly, or momentarily
-  entries:
-  - catch
-  - pick up
-  examples:
+  example:
   - '"I caught the aroma of coffee"'
   - '"He caught the allusion in her glance"'
   - '"ears open to catch every sound"'
@@ -700,614 +697,613 @@
   hypernym:
   - 02110960-v
   ili: i32347
-  pos: v
+  members:
+  - catch
+  - pick up
+  partOfSpeech: v
 02122725-v:
-  definitions:
+  definition:
   - experience while sleeping
   entails:
   - 00014735-v
-  entries:
-  - dream
-  examples:
+  example:
   - '"She claims to never dream"'
   - '"He dreamt a strange scene"'
   hypernym:
   - 02110960-v
   ili: i32348
-  pos: v
+  members:
+  - dream
+  partOfSpeech: v
 02122959-v:
-  definitions:
+  definition:
   - notice or perceive
   entails:
   - 02110960-v
-  entries:
-  - notice
-  - mark
-  - note
-  examples:
+  example:
   - '"She noted that someone was following her"'
   - '"mark my words"'
   ili: i32349
-  pos: v
+  members:
+  - notice
+  - mark
+  - note
+  partOfSpeech: v
 02123258-v:
-  definitions:
+  definition:
   - observe with special attention
-  entries:
-  - take notice
-  examples:
+  example:
   - '"Take notice of the great architecture"'
   hypernym:
   - 02122959-v
   ili: i32350
-  pos: v
+  members:
+  - take notice
+  partOfSpeech: v
 02123398-v:
-  definitions:
+  definition:
   - observe with care or pay close attention to
   entails:
   - 02110960-v
-  entries:
+  example:
+  - '"Take note of this chemical reaction"'
+  ili: i32351
+  members:
   - note
   - take note
   - observe
-  examples:
-  - '"Take note of this chemical reaction"'
-  ili: i32351
-  pos: v
+  partOfSpeech: v
 02123706-v:
-  definitions:
+  definition:
   - fail to notice
-  entries:
-  - ignore
   ili: i32352
-  pos: v
+  members:
+  - ignore
+  partOfSpeech: v
 02123818-v:
-  definitions:
+  definition:
   - fail to acknowledge
-  entries:
-  - pass up
-  examples:
+  example:
   - '"he passed me up in the street"'
   hypernym:
   - 02123706-v
   ili: i32353
-  pos: v
+  members:
+  - pass up
+  partOfSpeech: v
 02123935-v:
-  definitions:
+  definition:
   - catch a glimpse of or see briefly
-  entries:
-  - glimpse
-  examples:
+  example:
   - '"We glimpsed the Queen as she got into her limousine"'
   hypernym:
   - 02133754-v
   ili: i32354
-  pos: v
+  members:
+  - glimpse
+  partOfSpeech: v
 02124124-v:
-  definitions:
+  definition:
   - become or make sore by or as if by rubbing
-  entries:
-  - chafe
-  - gall
-  - fret
   hypernym:
   - 00063062-v
   ili: i32355
-  pos: v
+  members:
+  - chafe
+  - gall
+  - fret
+  partOfSpeech: v
 02124339-v:
-  definitions:
+  definition:
   - scrape or rub as if to relieve itching
-  entries:
-  - rub
-  - scratch
-  - itch
-  examples:
+  example:
   - '"Don''t scratch your insect bites!"'
   hypernym:
   - 00063062-v
   ili: i32356
-  pos: v
+  members:
+  - rub
+  - scratch
+  - itch
+  partOfSpeech: v
 02124605-v:
-  definitions:
+  definition:
   - touch (a body part) lightly so as to excite the surface nerves and cause uneasiness,
     laughter, or spasmodic movements
-  entries:
-  - tickle
-  - titillate
-  - vellicate
   hypernym:
   - 02125653-v
   ili: i32357
-  pos: v
+  members:
+  - tickle
+  - titillate
+  - vellicate
+  partOfSpeech: v
 02124916-v:
-  definitions:
+  definition:
   - cause a sharp or stinging pain or discomfort
-  entries:
-  - bite
-  - sting
-  - burn
-  examples:
+  example:
   - '"The sun burned his face"'
   hypernym:
   - 02126629-v
   ili: i32358
-  pos: v
+  members:
+  - bite
+  - sting
+  - burn
+  partOfSpeech: v
   similar:
   - 02125513-v
 02125180-v:
-  definitions:
+  definition:
   - sting with or as with nettles and cause a stinging pain or sensation
-  entries:
-  - nettle
-  - urticate
   hypernym:
   - 02124916-v
   ili: i32359
-  pos: v
+  members:
+  - nettle
+  - urticate
+  partOfSpeech: v
   similar:
   - 02125377-v
 02125377-v:
-  definitions:
+  definition:
   - whip with or as with nettles
-  entries:
-  - urticate
   hypernym:
   - 01400686-v
   ili: i32360
-  pos: v
+  members:
+  - urticate
+  partOfSpeech: v
   similar:
   - 02125180-v
 02125513-v:
-  definitions:
+  definition:
   - feel hot or painful
-  entries:
-  - burn
-  examples:
+  example:
   - '"My eyes are burning"'
   hypernym:
   - 02126629-v
   ili: i32361
-  pos: v
+  members:
+  - burn
+  partOfSpeech: v
   similar:
   - 02124916-v
 02125653-v:
-  definitions:
+  definition:
   - have or perceive an itch
-  entries:
-  - itch
-  examples:
+  example:
   - '"I''m itching--the air is so dry!"'
   hypernym:
   - 02126629-v
   ili: i32362
-  pos: v
-02125888-v:
-  definitions:
-  - cause to perceive an itch
-  entries:
+  members:
   - itch
-  examples:
+  partOfSpeech: v
+02125888-v:
+  definition:
+  - cause to perceive an itch
+  example:
   - '"his skin itched"'
   ili: i32363
-  pos: v
+  members:
+  - itch
+  partOfSpeech: v
 02125976-v:
-  definitions:
+  definition:
   - feel physical pain
-  entries:
-  - hurt
-  - ache
-  - suffer
-  examples:
+  example:
   - '"Were you hurting after the accident?"'
   hypernym:
   - 02110960-v
   ili: i32364
-  pos: v
+  members:
+  - hurt
+  - ache
+  - suffer
+  partOfSpeech: v
 02126310-v:
-  definitions:
+  definition:
   - feel a sudden sharp, local pain
-  entries:
-  - twinge
   hypernym:
   - 02125976-v
   ili: i32365
-  pos: v
+  members:
+  - twinge
+  partOfSpeech: v
 02126423-v:
-  definitions:
+  definition:
   - feel the need to eat
-  entries:
-  - hunger
   hypernym:
   - 02126629-v
   ili: i32366
-  pos: v
+  members:
+  - hunger
+  partOfSpeech: v
 02126525-v:
-  definitions:
+  definition:
   - feel the need to drink
-  entries:
-  - thirst
   hypernym:
   - 02126629-v
   ili: i32367
-  pos: v
+  members:
+  - thirst
+  partOfSpeech: v
 02126629-v:
-  definitions:
+  definition:
   - be the source of pain
-  entries:
-  - ache
-  - smart
-  - hurt
   hypernym:
   - 02128368-v
   ili: i32368
-  pos: v
+  members:
+  - ache
+  - smart
+  - hurt
+  partOfSpeech: v
 02126987-v:
-  definitions:
+  definition:
   - make itself felt as a recurring pain
-  entries:
-  - act up
-  examples:
+  example:
   - '"My arthritis is acting up again"'
   hypernym:
   - 02126629-v
   ili: i32369
-  pos: v
+  members:
+  - act up
+  partOfSpeech: v
 02127130-v:
-  definitions:
+  definition:
   - pulsate or pound with abnormal force
-  entries:
-  - throb
-  examples:
+  example:
   - '"my head is throbbing"'
   - '"Her heart was throbbing"'
   hypernym:
   - 02126629-v
   ili: i32370
-  pos: v
+  members:
+  - throb
+  partOfSpeech: v
 02127360-v:
-  definitions:
+  definition:
   - twitch or throb with pain
-  entries:
-  - twang
   hypernym:
   - 02127130-v
   ili: i32371
-  pos: v
+  members:
+  - twang
+  partOfSpeech: v
 02127448-v:
-  definitions:
+  definition:
   - cause a stinging or tingling sensation
-  entries:
-  - tingle
-  - prickle
   hypernym:
   - 02125653-v
   ili: i32372
-  pos: v
+  members:
+  - tingle
+  - prickle
+  partOfSpeech: v
 02127640-v:
-  definitions:
+  definition:
   - cause a sharp and sudden pain in
-  entries:
-  - shoot
-  examples:
+  example:
   - '"The pain shot up her leg"'
   hypernym:
   - 02126629-v
   ili: i32373
-  pos: v
+  members:
+  - shoot
+  partOfSpeech: v
 02127763-v:
-  definitions:
+  definition:
   - cause a prickling sensation
-  entries:
-  - prickle
-  - prick
   hypernym:
   - 02127889-v
   ili: i32374
-  pos: v
-02127889-v:
-  definitions:
-  - cause a stinging pain
-  entries:
+  members:
+  - prickle
   - prick
-  - sting
-  - twinge
-  examples:
+  partOfSpeech: v
+02127889-v:
+  definition:
+  - cause a stinging pain
+  example:
   - '"The needle pricked his skin"'
   hypernym:
   - 02125976-v
   ili: i32375
-  pos: v
+  members:
+  - prick
+  - sting
+  - twinge
+  partOfSpeech: v
 02128137-v:
-  definitions:
+  definition:
   - emit an odor
-  entries:
-  - smell
-  examples:
+  example:
   - '"The soup smells good"'
   hypernym:
   - 02128368-v
   ili: i32376
-  pos: v
+  members:
+  - smell
+  partOfSpeech: v
 02128368-v:
-  definitions:
+  definition:
   - have perceptible qualities
-  entries:
-  - cause to be perceived
   ili: i32377
-  pos: v
+  members:
+  - cause to be perceived
+  partOfSpeech: v
 02128571-v:
-  definitions:
+  definition:
   - smell badly and offensively
-  entries:
-  - reek
-  - stink
-  examples:
+  example:
   - '"The building reeks of smoke"'
   hypernym:
   - 02128797-v
   ili: i32378
-  pos: v
+  members:
+  - reek
+  - stink
+  partOfSpeech: v
 02128797-v:
-  definitions:
+  definition:
   - smell bad
-  entries:
-  - smell
-  examples:
+  example:
   - '"He rarely washes, and he smells"'
   hypernym:
   - 02128137-v
   ili: i32379
-  pos: v
+  members:
+  - smell
+  partOfSpeech: v
 02128966-v:
-  definitions:
+  definition:
   - become noticeable
-  entries:
-  - salute
-  examples:
+  example:
   - '"a terrible stench saluted our nostrils"'
   hypernym:
   - 02128797-v
   ili: i32380
-  pos: v
+  members:
+  - salute
+  partOfSpeech: v
 02129097-v:
-  definitions:
+  definition:
   - be smelled; have a strong odor
   entails:
   - 02128137-v
-  entries:
-  - reach one's nostrils
   ili: i32381
-  pos: v
+  members:
+  - reach one's nostrils
+  partOfSpeech: v
 02129213-v:
-  definitions:
+  definition:
   - inhale the odor of; perceive by the olfactory sense
-  entries:
-  - smell
   hypernym:
   - 02110960-v
   ili: i32382
-  pos: v
+  members:
+  - smell
+  partOfSpeech: v
 02129497-v:
-  definitions:
+  definition:
   - perceive by inhaling through the nose
-  entries:
-  - sniff
-  - whiff
-  examples:
+  example:
   - '"sniff the perfume"'
   hypernym:
   - 02129213-v
   ili: i32383
-  pos: v
+  members:
+  - sniff
+  - whiff
+  partOfSpeech: v
 02129688-v:
-  definitions:
+  definition:
   - catch the scent of; get wind of
-  entries:
-  - scent
-  - nose
-  - wind
-  examples:
+  example:
   - '"The dog nosed out the drugs"'
   hypernym:
   - 02129213-v
   ili: i32384
-  pos: v
+  members:
+  - scent
+  - nose
+  - wind
+  partOfSpeech: v
 02129925-v:
-  definitions:
+  definition:
   - recognize or detect by or as if by smelling
   entails:
   - 02129213-v
-  entries:
+  example:
+  - '"He can smell out trouble"'
+  ili: i32385
+  members:
   - sniff out
   - scent out
   - smell out
   - nose out
-  examples:
-  - '"He can smell out trouble"'
-  ili: i32385
-  pos: v
+  partOfSpeech: v
 02130106-v:
   causes:
   - 02128137-v
-  definitions:
+  definition:
   - cause to smell or be smelly
-  entries:
-  - odorize
-  - odourise
-  - scent
   hypernym:
   - 02128368-v
   ili: i32386
-  pos: v
+  members:
+  - odorize
+  - odourise
+  - scent
+  partOfSpeech: v
 02130487-v:
-  definitions:
+  definition:
   - cause to smell bad; fill with a bad smell
-  entries:
-  - stink up
-  - smell up
-  - stink out
   hypernym:
   - 02130106-v
   ili: i32387
-  pos: v
+  members:
+  - stink up
+  - smell up
+  - stink out
+  partOfSpeech: v
 02130617-v:
-  definitions:
+  definition:
   - sniff or smell inquiringly
-  entries:
-  - snuff
-  - snuffle
   hypernym:
   - 02129213-v
   ili: i32388
-  pos: v
+  members:
+  - snuff
+  - snuffle
+  partOfSpeech: v
 02130734-v:
-  definitions:
+  definition:
   - smell strongly and intensely
-  entries:
-  - get a noseful
-  - get a whiff
   hypernym:
   - 02129213-v
   ili: i32389
-  pos: v
+  members:
+  - get a noseful
+  - get a whiff
+  partOfSpeech: v
 02130847-v:
-  definitions:
+  definition:
   - fill or impregnate with an odor
-  entries:
-  - perfume
-  - aromatize
-  - aromatise
-  examples:
+  example:
   - '"orange blossoms perfumed the air in the garden"'
   hypernym:
   - 02130106-v
   ili: i32390
-  pos: v
+  members:
+  - perfume
+  - aromatize
+  - aromatise
+  partOfSpeech: v
 02131151-v:
-  definitions:
+  definition:
   - perfume especially with a censer
-  entries:
-  - cense
-  - incense
-  - thurify
   hypernym:
   - 02130106-v
   ili: i32391
-  pos: v
+  members:
+  - cense
+  - incense
+  - thurify
+  partOfSpeech: v
 02131328-v:
-  definitions:
+  definition:
   - eliminate the odor from
-  entries:
-  - deodorize
-  - deodorise
-  - deodourise
-  examples:
+  example:
   - '"This stick will deodorize your armpits"'
   hypernym:
   - 00126072-v
   ili: i32392
-  pos: v
+  members:
+  - deodorize
+  - deodorise
+  - deodourise
+  partOfSpeech: v
 02131565-v:
-  definitions:
+  definition:
   - treat with fumes, expose to fumes, especially with the aim of disinfecting or
     eradicating pests
-  entries:
-  - fumigate
-  - fume
   hypernym:
   - 00516235-v
   ili: i32393
-  pos: v
+  members:
+  - fumigate
+  - fume
+  partOfSpeech: v
 02131823-v:
-  definitions:
+  definition:
   - perceive via the tactile sense
-  entries:
-  - touch
-  examples:
+  example:
   - '"Helen Keller felt the physical world by touching people and objects around her"'
   hypernym:
   - 02110960-v
   ili: i32394
-  pos: v
+  members:
+  - touch
+  partOfSpeech: v
 02132078-v:
-  definitions:
+  definition:
   - grope or feel in search of something
   entails:
   - 02131823-v
-  entries:
-  - feel
-  examples:
+  example:
   - '"He felt for his wallet"'
   hypernym:
   - 01318273-v
   ili: i32395
-  pos: v
+  members:
+  - feel
+  partOfSpeech: v
   similar:
   - 01212242-v
   - 01212916-v
   - 01212716-v
 02132318-v:
-  definitions:
+  definition:
   - fail to perceive or to catch with the senses or the mind
-  entries:
-  - miss
-  - lose
-  examples:
+  example:
   - '"I missed that remark"'
   - '"She missed his point"'
   - '"We lost part of what he said"'
   ili: i32396
-  pos: v
+  members:
+  - miss
+  - lose
+  partOfSpeech: v
 02132531-v:
-  definitions:
+  definition:
   - see for the first time; make a discovery
   entails:
   - 02110960-v
-  entries:
-  - discover
-  examples:
+  example:
   - '"Who discovered the North Pole?"'
   ili: i32397
-  pos: v
+  members:
+  - discover
+  partOfSpeech: v
 02132751-v:
-  definitions:
+  definition:
   - be a witness to
-  entries:
-  - witness
-  examples:
+  example:
   - '"She witnessed the accident and had to testify in court"'
   hypernym:
   - 02154940-v
   ili: i32398
-  pos: v
+  members:
+  - witness
+  partOfSpeech: v
 02132979-v:
-  definitions:
+  definition:
   - be present at an event and see it with one's own eyes
-  entries:
-  - eyewitness
   hypernym:
   - 02132751-v
   ili: i32399
-  pos: v
+  members:
+  - eyewitness
+  partOfSpeech: v
 02133118-v:
-  definitions:
+  definition:
   - observe with attention
   entails:
   - 02133754-v
-  entries:
-  - watch
-  - look on
-  examples:
+  example:
   - '"They watched as the murderer was executed"'
   ili: i32400
-  pos: v
+  members:
+  - watch
+  - look on
+  partOfSpeech: v
 02133338-v:
-  definitions:
+  definition:
   - perceive or be contemporaneous with
-  entries:
-  - witness
-  - find
-  - see
-  examples:
+  example:
   - '"We found Republicans winning the offices"'
   - '"You''ll see a lot of cheating in this school"'
   - '"The 1960''s saw the rebellion of the younger generation against established
@@ -1316,234 +1312,234 @@
   hypernym:
   - 02114674-v
   ili: i32401
-  pos: v
+  members:
+  - witness
+  - find
+  - see
+  partOfSpeech: v
   similar:
   - 02202295-v
   - 00600349-v
 02133754-v:
-  definitions:
+  definition:
   - perceive by sight or have the power to perceive by sight
-  entries:
-  - see
-  examples:
+  example:
   - '"You have to be a good observer to see all the details"'
   - '"Can you see the bird in that tree?"'
   - '"He is blind--he cannot see"'
   hypernym:
   - 02110960-v
   ili: i32402
-  pos: v
+  members:
+  - see
+  partOfSpeech: v
   similar:
   - 02155378-v
   - 02160655-v
 02134174-v:
-  definitions:
+  definition:
   - see and understand, have a good eye
-  entries:
-  - see
-  examples:
+  example:
   - '"The artist must first learn to see"'
   hypernym:
   - 02133754-v
   ili: i32403
-  pos: v
+  members:
+  - see
+  partOfSpeech: v
   similar:
   - 00592510-v
 02134344-v:
-  definitions:
+  definition:
   - see something for a brief time
-  entries:
-  - catch sight
-  - get a look
-  - catch a glimpse
   hypernym:
   - 02133754-v
   ili: i32404
-  pos: v
+  members:
+  - catch sight
+  - get a look
+  - catch a glimpse
+  partOfSpeech: v
 02134482-v:
-  definitions:
+  definition:
   - be no longer able to see
-  entries:
-  - lose sight of
-  examples:
+  example:
   - '"We lost sight of the tower as pulled out of the harbor"'
   ili: i32405
-  pos: v
+  members:
+  - lose sight of
+  partOfSpeech: v
 02134625-v:
-  definitions:
+  definition:
   - see with attention
-  entries:
-  - behold
-  - lay eyes on
-  examples:
+  example:
   - '"behold Christ!"'
   hypernym:
   - 02133754-v
   ili: i32406
-  pos: v
+  members:
+  - behold
+  - lay eyes on
+  partOfSpeech: v
 02134765-v:
-  definitions:
+  definition:
   - look at carefully; study mentally
-  entries:
-  - view
-  - consider
-  - look at
-  examples:
+  example:
   - '"view a problem"'
   hypernym:
   - 00646245-v
   ili: i32407
-  pos: v
+  members:
+  - view
+  - consider
+  - look at
+  partOfSpeech: v
 02134989-v:
-  definitions:
+  definition:
   - perceive with attention; direct one's gaze towards; look
   entails:
   - 02133754-v
-  entries:
-  - look
-  examples:
+  example:
   - '"She looked over the expanse of land"'
   - '"Look at your child!"'
   - '"Look--a deer in the backyard!"'
   ili: i32408
-  pos: v
+  members:
+  - look
+  partOfSpeech: v
 02135744-v:
-  definitions:
+  definition:
   - observe, check out, and look over carefully or inspect
   entails:
   - 02134989-v
-  entries:
-  - examine
-  - see
-  examples:
+  example:
   - '"The customs agent examined the baggage"'
   - '"I must see your passport before you can enter the country"'
   ili: i32409
-  pos: v
+  members:
+  - examine
+  - see
+  partOfSpeech: v
 02136242-v:
-  definitions:
+  definition:
   - look at with attention
-  entries:
-  - take a look
-  - have a look
-  - get a load
-  examples:
+  example:
   - '"Have a look at this!"'
   - '"Get a load of this pretty woman!"'
   hypernym:
   - 02134989-v
   ili: i32410
-  pos: v
+  members:
+  - take a look
+  - have a look
+  - get a load
+  partOfSpeech: v
 02136428-v:
-  definitions:
+  definition:
   - observe or determine by looking
-  entries:
-  - watch
-  examples:
+  example:
   - '"Watch how the dog chases the cats away"'
   ili: i32411
-  pos: v
+  members:
+  - watch
+  partOfSpeech: v
 02136564-v:
-  definitions:
+  definition:
   - look towards one's back
-  entries:
-  - look back
-  - look backward
-  examples:
+  example:
   - '"don''t look back while you walk"'
   hypernym:
   - 02134989-v
   ili: i32412
-  pos: v
+  members:
+  - look back
+  - look backward
+  partOfSpeech: v
 02136728-v:
-  definitions:
+  definition:
   - avert one's gaze
-  entries:
-  - look away
-  examples:
+  example:
   - '"She looked away when the nurse pricked her arm with the needle"'
   hypernym:
   - 02134989-v
   ili: i32413
-  pos: v
+  members:
+  - look away
+  partOfSpeech: v
 02136885-v:
-  definitions:
+  definition:
   - look about oneself
-  entries:
-  - look around
-  examples:
+  example:
   - '"look around to see whether you can find the missing document"'
   hypernym:
   - 02134989-v
   ili: i32414
-  pos: v
+  members:
+  - look around
+  partOfSpeech: v
 02137044-v:
-  definitions:
+  definition:
   - see things as if they were there twice
   entails:
   - 02133754-v
-  entries:
-  - see double
-  examples:
+  example:
   - '"After taking the drug, John saw double"'
   hypernym:
   - 02122323-v
   ili: i32415
-  pos: v
+  members:
+  - see double
+  partOfSpeech: v
 02137210-v:
-  definitions:
+  definition:
   - look at with fixed eyes
-  entries:
-  - gaze
-  - stare
-  examples:
+  example:
   - '"The students stared at the teacher with amazement"'
   hypernym:
   - 02134989-v
   ili: i32416
-  pos: v
+  members:
+  - gaze
+  - stare
+  partOfSpeech: v
 02137454-v:
-  definitions:
+  definition:
   - overcome or cause to waver or submit by (or as if by) staring
-  entries:
-  - stare down
-  - outstare
-  - outface
-  examples:
+  example:
   - '"He simply stared down his opponent"'
   hypernym:
   - 02137210-v
   ili: i32417
-  pos: v
+  members:
+  - stare down
+  - outstare
+  - outface
+  partOfSpeech: v
 02137650-v:
-  definitions:
+  definition:
   - look at attentively
-  entries:
-  - regard
-  - consider
   hypernym:
   - 02134989-v
   ili: i32418
-  pos: v
+  members:
+  - regard
+  - consider
+  partOfSpeech: v
 02137762-v:
-  definitions:
+  definition:
   - observe the stars
   domain_topic:
   - 06104629-n
-  entries:
-  - stargaze
   hypernym:
   - 02137210-v
   ili: i32419
-  pos: v
+  members:
+  - stargaze
+  partOfSpeech: v
 02137900-v:
-  definitions:
+  definition:
   - give a certain impression or have a certain outward aspect
-  entries:
-  - look
-  - appear
-  - seem
-  examples:
+  example:
   - '"She seems to be sleeping"'
   - '"This appears to be a very difficult problem"'
   - '"This project looks fishy"'
@@ -1551,1042 +1547,1040 @@
   hypernym:
   - 02610777-v
   ili: i32420
-  pos: v
+  members:
+  - look
+  - appear
+  - seem
+  partOfSpeech: v
 02138515-v:
-  definitions:
+  definition:
   - appear to begin an activity
-  entries:
-  - make
-  examples:
+  example:
   - '"He made to speak but said nothing in the end"'
   - '"She made as if to say hello to us"'
   hypernym:
   - 02137900-v
   ili: i32421
-  pos: v
+  members:
+  - make
+  partOfSpeech: v
 02138697-v:
-  definitions:
+  definition:
   - give the appearance or impression of
-  entries:
-  - cut
-  examples:
+  example:
   - '"cut a nice figure"'
   hypernym:
   - 02137900-v
   ili: i32422
-  pos: v
+  members:
+  - cut
+  partOfSpeech: v
 02138815-v:
-  definitions:
+  definition:
   - produce a certain impression
-  entries:
-  - feel
-  examples:
+  example:
   - '"It feels nice to be home again"'
   hypernym:
   - 02137900-v
   ili: i32423
-  pos: v
+  members:
+  - feel
+  partOfSpeech: v
 02138957-v:
-  definitions:
+  definition:
   - be accepted as something or somebody in a false character or identity
-  entries:
-  - pass off
-  examples:
+  example:
   - '"She passed off as a Russian agent"'
   hypernym:
   - 02137900-v
   ili: i32424
-  pos: v
+  members:
+  - pass off
+  partOfSpeech: v
 02139137-v:
-  definitions:
+  definition:
   - seem to be true, probable, or apparent
-  entries:
-  - appear
-  - seem
-  examples:
+  example:
   - '"It seems that he is very gifted"'
   - '"It appears that the weather in California is very bad"'
   hypernym:
   - 02610777-v
   ili: i32425
-  pos: v
+  members:
+  - appear
+  - seem
+  partOfSpeech: v
 02139392-v:
-  definitions:
+  definition:
   - appear in a certain way
-  entries:
-  - sound
-  examples:
+  example:
   - '"This sounds interesting"'
   hypernym:
   - 02137900-v
   ili: i32426
-  pos: v
-02139513-v:
-  definitions:
-  - give off a certain sound or sounds
-  entries:
+  members:
   - sound
-  examples:
+  partOfSpeech: v
+02139513-v:
+  definition:
+  - give off a certain sound or sounds
+  example:
   - '"This record sounds scratchy"'
   ili: i32427
-  pos: v
+  members:
+  - sound
+  partOfSpeech: v
 02139793-v:
-  definitions:
+  definition:
   - be dissonant or harsh
-  entries:
-  - dissonate
-  examples:
+  example:
   - '"The violins in this piece dissonated disturbingly"'
   hypernym:
   - 02139513-v
   ili: i32428
-  pos: v
+  members:
+  - dissonate
+  partOfSpeech: v
 02139952-v:
-  definitions:
+  definition:
   - sound sharply or shrilly
-  entries:
-  - pierce
-  examples:
+  example:
   - '"The scream pierced the night"'
   hypernym:
   - 02139513-v
   ili: i32429
-  pos: v
+  members:
+  - pierce
+  partOfSpeech: v
 02140072-v:
-  definitions:
+  definition:
   - make a characteristic or natural sound
-  entries:
-  - speak
-  examples:
+  example:
   - '"The drums spoke"'
   hypernym:
   - 02139513-v
   ili: i32430
-  pos: v
+  members:
+  - speak
+  partOfSpeech: v
 02140192-v:
-  definitions:
+  definition:
   - play or sound a wind instrument
-  entries:
-  - blow
-  examples:
+  example:
   - '"She blew the horn"'
   hypernym:
   - 02183962-v
   ili: i32431
-  pos: v
+  members:
+  - blow
+  partOfSpeech: v
   similar:
   - 02140342-v
   - 02182784-v
 02140342-v:
-  definitions:
+  definition:
   - make a sound as if blown
-  entries:
-  - blow
-  examples:
+  example:
   - '"The whistle blew"'
   hypernym:
   - 02180712-v
   ili: i32432
-  pos: v
+  members:
+  - blow
+  partOfSpeech: v
   similar:
   - 02140192-v
 02140484-v:
-  definitions:
+  definition:
   - make a light, metallic sound; go `ting'
-  entries:
-  - ting
   hypernym:
   - 02180712-v
   ili: i32433
-  pos: v
+  members:
+  - ting
+  partOfSpeech: v
 02140603-v:
-  definitions:
+  definition:
   - be perceived in a certain way; make a certain impression
-  entries:
-  - come across
   hypernym:
   - 02137900-v
   ili: i32434
-  pos: v
+  members:
+  - come across
+  partOfSpeech: v
 02140736-v:
-  definitions:
+  definition:
   - to throw or bend back (from a surface)
   domain_topic:
   - 06104381-n
-  entries:
-  - reflect
-  - reverberate
-  examples:
+  example:
   - '"Sound is reflected well in this auditorium"'
   ili: i32435
-  pos: v
+  members:
+  - reflect
+  - reverberate
+  partOfSpeech: v
   similar:
   - 02140998-v
 02140998-v:
-  definitions:
+  definition:
   - be reflected as heat, sound, or light or shock waves
-  entries:
-  - reverberate
-  examples:
+  example:
   - '"the waves reverberate as far away as the end of the building"'
   hypernym:
   - 02140736-v
   ili: i32436
-  pos: v
+  members:
+  - reverberate
+  partOfSpeech: v
   similar:
   - 02140736-v
 02141219-v:
-  definitions:
+  definition:
   - show an image of
   domain_topic:
   - 06110385-n
-  entries:
-  - reflect
-  examples:
+  example:
   - '"her sunglasses reflected his image"'
   hypernym:
   - 02141597-v
   ili: i32437
-  pos: v
-02141357-v:
-  definitions:
-  - manifest or bring back
-  entries:
+  members:
   - reflect
-  examples:
+  partOfSpeech: v
+02141357-v:
+  definition:
+  - manifest or bring back
+  example:
   - '"This action reflects his true beliefs"'
   hypernym:
   - 00925764-v
   ili: i32438
-  pos: v
+  members:
+  - reflect
+  partOfSpeech: v
 02141485-v:
-  definitions:
+  definition:
   - return or recoil
-  entries:
-  - redound
-  examples:
+  example:
   - '"Fame redounds to the heroes"'
   hypernym:
   - 02362071-v
   ili: i32439
-  pos: v
+  members:
+  - redound
+  partOfSpeech: v
 02141597-v:
   causes:
   - 02133754-v
-  definitions:
+  definition:
   - make visible or noticeable
-  entries:
-  - show
-  examples:
+  example:
   - '"She showed her talent for cooking"'
   - '"Show me your etchings, please"'
   ili: i32440
-  pos: v
+  members:
+  - show
+  partOfSpeech: v
 02142057-v:
-  definitions:
+  definition:
   - cause to come into view
-  entries:
-  - peep
-  examples:
+  example:
   - '"he peeped his head through the window"'
   hypernym:
   - 02141597-v
   ili: i32441
-  pos: v
+  members:
+  - peep
+  partOfSpeech: v
 02142175-v:
-  definitions:
+  definition:
   - reveal to view as by removing a cover
-  entries:
-  - disclose
-  - expose
-  - uncover
-  examples:
+  example:
   - '"The curtain rose to disclose a stunning set"'
   hypernym:
   - 02147756-v
   ili: i32442
-  pos: v
+  members:
+  - disclose
+  - expose
+  - uncover
+  partOfSpeech: v
 02142380-v:
-  definitions:
+  definition:
   - turn so as to expose the face
-  entries:
-  - face
-  examples:
+  example:
   - '"face a playing card"'
   hypernym:
   - 02142175-v
   ili: i32443
-  pos: v
+  members:
+  - face
+  partOfSpeech: v
   similar:
   - 01912358-v
 02142548-v:
   causes:
   - 00423043-v
-  definitions:
+  definition:
   - project on a screen
-  entries:
-  - project
-  examples:
+  example:
   - '"The images are projected onto the screen"'
   hypernym:
   - 02141597-v
   ili: i32444
-  pos: v
+  members:
+  - project
+  partOfSpeech: v
 02142756-v:
-  definitions:
+  definition:
   - project on a background, such as a screen, like a silhouette
-  entries:
-  - silhouette
   hypernym:
   - 02142548-v
   ili: i32445
-  pos: v
+  members:
+  - silhouette
+  partOfSpeech: v
 02142926-v:
-  definitions:
+  definition:
   - bring out fully or to advantage
-  entries:
-  - do justice
-  examples:
+  example:
   - '"This photograph does not do her justice"'
   hypernym:
   - 02141597-v
   ili: i32446
-  pos: v
+  members:
+  - do justice
+  partOfSpeech: v
 02143084-v:
-  definitions:
+  definition:
   - expose or show briefly
-  entries:
-  - flash
-  examples:
+  example:
   - '"he flashed a $100 bill"'
   hypernym:
   - 02141597-v
   ili: i32447
-  pos: v
+  members:
+  - flash
+  partOfSpeech: v
 02143239-v:
-  definitions:
+  definition:
   - make visible by means of chemical solutions
   domain_topic:
   - 13557997-n
   - 00905257-n
-  entries:
-  - develop
-  examples:
+  example:
   - '"Please develop this roll of film for me"'
   hypernym:
   - 00126072-v
   ili: i32448
-  pos: v
+  members:
+  - develop
+  partOfSpeech: v
 02143536-v:
-  definitions:
+  definition:
   - process (a film or photographic plate) less than the required time or in an ineffective
     solution or at an insufficiently high temperature
   domain_topic:
   - 13557997-n
   - 00905257-n
-  entries:
-  - underdevelop
-  examples:
+  example:
   - '"These photos are underdeveloped"'
   hypernym:
   - 02143239-v
   ili: i32449
-  pos: v
+  members:
+  - underdevelop
+  partOfSpeech: v
 02143834-v:
-  definitions:
+  definition:
   - develop for a second time, in order to improve the contrast, colour, etc., of
     a negative or print
   domain_topic:
   - 13557997-n
-  entries:
-  - redevelop
   hypernym:
   - 02143239-v
   ili: i32450
-  pos: v
+  members:
+  - redevelop
+  partOfSpeech: v
 02144017-v:
-  definitions:
+  definition:
   - be or become visible or noticeable
-  entries:
-  - show
-  - show up
-  examples:
+  example:
   - '"His good upbringing really shows"'
   - '"The dirty side will show"'
   hypernym:
   - 00423043-v
   ili: i32451
-  pos: v
+  members:
+  - show
+  - show up
+  partOfSpeech: v
 02144213-v:
-  definitions:
+  definition:
   - show in one's face
-  entries:
-  - register
-  examples:
+  example:
   - '"Her surprise did not register"'
   hypernym:
   - 02144017-v
   ili: i32452
-  pos: v
+  members:
+  - register
+  partOfSpeech: v
   similar:
   - 02110264-v
 02144356-v:
-  definitions:
+  definition:
   - project onto a screen for viewing
-  entries:
-  - screen
-  examples:
+  example:
   - '"screen a film"'
   hypernym:
   - 02141597-v
   ili: i32453
-  pos: v
+  members:
+  - screen
+  partOfSpeech: v
 02144506-v:
-  definitions:
+  definition:
   - to show, make visible or apparent
-  entries:
-  - expose
-  - exhibit
-  - display
-  examples:
+  example:
   - '"The Metropolitan Museum is exhibiting Goya''s works this month"'
   - '"Why don''t you show your nice legs and wear shorter skirts?"'
   - '"National leaders will have to display the highest skills of statesmanship"'
   hypernym:
   - 02141597-v
   ili: i32454
-  pos: v
+  members:
+  - expose
+  - exhibit
+  - display
+  partOfSpeech: v
 02145103-v:
-  definitions:
+  definition:
   - display the contents of a file or start an application as on a computer
-  entries:
-  - open
   hypernym:
   - 02144506-v
   ili: i32455
-  pos: v
+  members:
+  - open
+  partOfSpeech: v
 02145254-v:
-  definitions:
+  definition:
   - cause a window or an application to disappear on a computer desktop
-  entries:
-  - close
   hypernym:
   - 02741293-v
   ili: i32456
-  pos: v
+  members:
+  - close
+  partOfSpeech: v
 02145438-v:
-  definitions:
+  definition:
   - display in the air or cause to float
-  entries:
-  - fly
-  examples:
+  example:
   - '"fly a kite"'
   - '"All nations fly their flags in front of the U.N."'
   hypernym:
   - 02141597-v
   ili: i32457
-  pos: v
+  members:
+  - fly
+  partOfSpeech: v
   similar:
   - 01852000-v
 02145619-v:
-  definitions:
+  definition:
   - bring out for display
-  entries:
-  - produce
-  - bring forth
-  examples:
+  example:
   - '"The proud father produced many pictures of his baby"'
   - '"The accused brought forth a letter in court that he claims exonerates him"'
   hypernym:
   - 02144506-v
   ili: i32458
-  pos: v
+  members:
+  - produce
+  - bring forth
+  partOfSpeech: v
 02145887-v:
-  definitions:
+  definition:
   - produce suddenly or automatically
-  entries:
-  - turn on
-  examples:
+  example:
   - '"Turn on the charm"'
   - '"turn on the waterworks"'
   hypernym:
   - 02145619-v
   ili: i32459
-  pos: v
+  members:
+  - turn on
+  partOfSpeech: v
 02146032-v:
-  definitions:
+  definition:
   - hold up something as an example; hold up one's achievements for admiration
-  entries:
-  - hold up
   hypernym:
   - 02144506-v
   ili: i32460
-  pos: v
+  members:
+  - hold up
+  partOfSpeech: v
 02146195-v:
-  definitions:
+  definition:
   - exhibit on a bench
-  entries:
-  - bench
-  examples:
+  example:
   - '"bench the poodles at the dog show"'
   hypernym:
   - 02144506-v
   ili: i32461
-  pos: v
+  members:
+  - bench
+  partOfSpeech: v
 02146313-v:
-  definitions:
+  definition:
   - expose one's buttocks to
-  entries:
-  - moon
-  examples:
+  example:
   - '"moon the audience"'
   hypernym:
   - 02144506-v
   ili: i32462
-  pos: v
+  members:
+  - moon
+  partOfSpeech: v
 02146446-v:
-  definitions:
+  definition:
   - display proudly; act ostentatiously or pretentiously
-  entries:
+  example:
+  - '"he showed off his new sports car"'
+  hypernym:
+  - 02144506-v
+  ili: i32463
+  members:
   - flaunt
   - flash
   - show off
   - ostentate
   - swank
-  examples:
-  - '"he showed off his new sports car"'
-  hypernym:
-  - 02144506-v
-  ili: i32463
-  pos: v
+  partOfSpeech: v
 02146753-v:
-  definitions:
+  definition:
   - exhibit the strength of
-  entries:
-  - flex
-  examples:
+  example:
   - '"The victorious army flexes its invincibility"'
   hypernym:
   - 02146446-v
   ili: i32464
-  pos: v
+  members:
+  - flex
+  partOfSpeech: v
 02146886-v:
-  definitions:
+  definition:
   - be showy or ostentatious
-  entries:
-  - splurge
   hypernym:
   - 02146446-v
   ili: i32465
-  pos: v
+  members:
+  - splurge
+  partOfSpeech: v
 02146993-v:
-  definitions:
+  definition:
   - exhibit aggressively
-  entries:
-  - brandish
-  examples:
+  example:
   - '"brandish a sword"'
   hypernym:
   - 02144506-v
   ili: i32466
-  pos: v
+  members:
+  - brandish
+  partOfSpeech: v
 02147099-v:
-  definitions:
+  definition:
   - display (clothes) as a mannequin
-  entries:
-  - model
-  examples:
+  example:
   - '"model the latest fashion"'
   hypernym:
   - 02144506-v
   ili: i32467
-  pos: v
+  members:
+  - model
+  partOfSpeech: v
 02147248-v:
-  definitions:
+  definition:
   - assume a posture as for artistic purposes
   domain_topic:
   - 00935235-n
-  entries:
-  - model
-  - pose
-  - sit
-  - posture
-  examples:
+  example:
   - '"We don''t know the woman who posed for Leonardo so often"'
   hypernym:
   - 02144506-v
   ili: i32468
-  pos: v
+  members:
+  - model
+  - pose
+  - sit
+  - posture
+  partOfSpeech: v
 02147597-v:
-  definitions:
+  definition:
   - be rampant
   domain_topic:
   - 05809602-n
-  entries:
-  - ramp
-  examples:
+  example:
   - '"the lion is rampant in this heraldic depiction"'
   hypernym:
   - 02147248-v
   ili: i32469
-  pos: v
+  members:
+  - ramp
+  partOfSpeech: v
 02147756-v:
-  definitions:
+  definition:
   - make manifest
-  entries:
-  - bring out
-  - unveil
-  - reveal
-  examples:
+  example:
   - '"Summer brings out bright clothes"'
   - '"He brings out the best in her"'
   hypernym:
   - 02141597-v
   ili: i32470
-  pos: v
+  members:
+  - bring out
+  - unveil
+  - reveal
+  partOfSpeech: v
 02148002-v:
-  definitions:
+  definition:
   - recover through digging
-  entries:
-  - excavate
-  - unearth
-  examples:
+  example:
   - '"Schliemann excavated Troy"'
   - '"excavate gold"'
   hypernym:
   - 02147756-v
   ili: i32471
-  pos: v
+  members:
+  - excavate
+  - unearth
+  partOfSpeech: v
 02148219-v:
-  definitions:
+  definition:
   - remove, harvest, or recover by digging
-  entries:
-  - dig
-  - dig up
-  - dig out
-  examples:
+  example:
   - '"dig salt"'
   - '"dig coal"'
   hypernym:
   - 02148002-v
   ili: i32472
-  pos: v
+  members:
+  - dig
+  - dig up
+  - dig out
+  partOfSpeech: v
 02148369-v:
-  definitions:
+  definition:
   - bring out and show for inspection and admiration
-  entries:
-  - trot out
-  examples:
+  example:
   - '"His novel trots out a rich heiress"'
   - '"always able to trot out some new excuse"'
   hypernym:
   - 02147756-v
   ili: i32473
-  pos: v
+  members:
+  - trot out
+  partOfSpeech: v
 02148564-v:
-  definitions:
+  definition:
   - open to the view
-  entries:
-  - unfold
-  examples:
+  example:
   - '"A walk through town will unfold many interesting buildings"'
   hypernym:
   - 02147756-v
   ili: i32474
-  pos: v
+  members:
+  - unfold
+  partOfSpeech: v
 02148706-v:
-  definitions:
+  definition:
   - disclose directly or through prophets
   domain_topic:
   - 06193615-n
-  entries:
-  - reveal
-  examples:
+  example:
   - '"God rarely reveals his plans for mankind"'
   hypernym:
   - 00935783-v
   ili: i32475
-  pos: v
+  members:
+  - reveal
+  partOfSpeech: v
 02148923-v:
-  definitions:
+  definition:
   - manifest the effects of (a gene or genetic trait)
-  entries:
-  - express
-  examples:
+  example:
   - '"Many of the laboratory animals express the trait"'
   hypernym:
   - 01648288-v
   ili: i32476
-  pos: v
+  members:
+  - express
+  partOfSpeech: v
 02149107-v:
-  definitions:
+  definition:
   - reveal clearly as having a certain character
-  entries:
-  - stamp
-  examples:
+  example:
   - '"His playing stamps him as a Romantic"'
   hypernym:
   - 00958719-v
   ili: i32477
-  pos: v
+  members:
+  - stamp
+  partOfSpeech: v
 02149298-v:
-  definitions:
+  definition:
   - prevent from being seen or discovered
-  entries:
-  - hide
-  - conceal
-  examples:
+  example:
   - '"hide the money"'
   ili: i32478
-  pos: v
+  members:
+  - hide
+  - conceal
+  partOfSpeech: v
 02149701-v:
-  definitions:
+  definition:
   - place out of sight; keep secret
-  entries:
-  - secrete
-  examples:
+  example:
   - '"The money was secreted from his children"'
   hypernym:
   - 02149298-v
   ili: i32479
-  pos: v
+  members:
+  - secrete
+  partOfSpeech: v
 02149859-v:
-  definitions:
+  definition:
   - hide from view
-  entries:
-  - occult
-  examples:
+  example:
   - '"The lids were occulting her eyes"'
   hypernym:
   - 02151220-v
   ili: i32480
-  pos: v
+  members:
+  - occult
+  partOfSpeech: v
 02149973-v:
-  definitions:
+  definition:
   - shut out from view or get in the way so as to hide from sight
-  entries:
-  - obstruct
-  - block
-  examples:
+  example:
   - '"The thick curtain blocked the action on the stage"'
   - '"The trees obstruct my view of the mountains"'
   hypernym:
   - 02149298-v
   ili: i32481
-  pos: v
+  members:
+  - obstruct
+  - block
+  partOfSpeech: v
   similar:
   - 01480632-v
 02150244-v:
-  definitions:
+  definition:
   - be or go into hiding; keep out of sight, as for protection and safety
-  entries:
-  - hide
-  - hide out
-  examples:
+  example:
   - '"Probably his horse would be close to where he was hiding"'
   - '"She is hiding out in a cabin in Montana"'
   ili: i32482
-  pos: v
+  members:
+  - hide
+  - hide out
+  partOfSpeech: v
 02150605-v:
-  definitions:
+  definition:
   - hide aboard a ship or a plane to get free transportation
-  entries:
-  - stow away
-  examples:
+  example:
   - '"The illegal immigrants stowed away on board the freighter"'
   hypernym:
   - 02150244-v
   ili: i32483
-  pos: v
+  members:
+  - stow away
+  partOfSpeech: v
 02150807-v:
-  definitions:
+  definition:
   - take shelter
-  entries:
-  - hunker down
-  examples:
+  example:
   - '"During the sandstorm, they hunkered down in a small hut"'
   hypernym:
   - 02150244-v
   ili: i32484
-  pos: v
+  members:
+  - hunker down
+  partOfSpeech: v
 02150955-v:
-  definitions:
+  definition:
   - remain secluded or in hiding
-  entries:
-  - hole up
-  examples:
+  example:
   - '"He is writing his book and is holing up in his study"'
   hypernym:
   - 02150244-v
   ili: i32485
-  pos: v
+  members:
+  - hole up
+  partOfSpeech: v
 02151104-v:
-  definitions:
+  definition:
   - keep a low profile, try to be inconspicuous
-  entries:
-  - lie low
   hypernym:
   - 02150244-v
   ili: i32486
-  pos: v
+  members:
+  - lie low
+  partOfSpeech: v
 02151220-v:
-  definitions:
+  definition:
   - hold back; keep from being perceived by others
-  entries:
+  example:
+  - '"She conceals her anger well"'
+  ili: i32487
+  members:
   - conceal
   - hold back
   - hold in
-  examples:
-  - '"She conceals her anger well"'
-  ili: i32487
-  pos: v
+  partOfSpeech: v
 02151420-v:
-  definitions:
+  definition:
   - hide in the earth like a hunted animal
-  entries:
-  - earth
   hypernym:
   - 02150244-v
   ili: i32488
-  pos: v
+  members:
+  - earth
+  partOfSpeech: v
 02151539-v:
-  definitions:
+  definition:
   - spread over a surface to conceal or protect
-  entries:
-  - cover
-  examples:
+  example:
   - '"This paint covers well"'
   hypernym:
   - 02149298-v
   ili: i32489
-  pos: v
+  members:
+  - cover
+  partOfSpeech: v
 02151743-v:
-  definitions:
+  definition:
   - hide in one's bosom
-  entries:
-  - bosom
-  examples:
+  example:
   - '"She bosomed his letters"'
   hypernym:
   - 02149298-v
   ili: i32490
-  pos: v
+  members:
+  - bosom
+  partOfSpeech: v
 02151896-v:
-  definitions:
+  definition:
   - cover from sight
-  entries:
-  - bury
-  examples:
+  example:
   - '"Afghani women buried under their burkas"'
   hypernym:
   - 02149298-v
   ili: i32491
-  pos: v
+  members:
+  - bury
+  partOfSpeech: v
 02152033-v:
-  definitions:
+  definition:
   - hide under a false appearance
-  entries:
-  - dissemble
-  - cloak
-  - mask
-  examples:
+  example:
   - '"He masked his disappointment"'
   hypernym:
   - 02163017-v
   ili: i32492
-  pos: v
+  members:
+  - dissemble
+  - cloak
+  - mask
+  partOfSpeech: v
 02152254-v:
-  definitions:
+  definition:
   - hide (feelings) from other people
-  entries:
-  - dissimulate
   hypernym:
   - 02163017-v
   ili: i32493
-  pos: v
+  members:
+  - dissimulate
+  partOfSpeech: v
 02152392-v:
-  definitions:
+  definition:
   - take part in a masquerade
-  entries:
-  - masquerade
   hypernym:
   - 02163017-v
   ili: i32494
-  pos: v
+  members:
+  - masquerade
+  partOfSpeech: v
 02152539-v:
-  definitions:
+  definition:
   - cover up a misdemeanor, fault, or error
-  entries:
-  - whitewash
-  - gloss over
-  - sleek over
-  - hush up
-  examples:
+  example:
   - '"Let''s not whitewash the crimes of Stalin"'
   - '"She tried to gloss over her mistakes"'
   hypernym:
   - 02152799-v
   ili: i32495
-  pos: v
+  members:
+  - whitewash
+  - gloss over
+  - sleek over
+  - hush up
+  partOfSpeech: v
 02152799-v:
-  definitions:
+  definition:
   - hide from view or knowledge
-  entries:
-  - cover
-  - cover up
-  examples:
+  example:
   - '"The President covered the fact that he bugged the offices in the White House"'
   hypernym:
   - 02149298-v
   ili: i32496
-  pos: v
+  members:
+  - cover
+  - cover up
+  partOfSpeech: v
 02153034-v:
-  definitions:
+  definition:
   - hold back a thought or feeling about
-  entries:
-  - harbor
-  - harbour
-  - shield
-  examples:
+  example:
   - '"She is harboring a grudge against him"'
   hypernym:
   - 02149298-v
   ili: i32497
-  pos: v
+  members:
+  - harbor
+  - harbour
+  - shield
+  partOfSpeech: v
 02153218-v:
-  definitions:
+  definition:
   - give an exhibition of to an interested audience
-  entries:
-  - show
-  - demo
-  - exhibit
-  - present
-  - demonstrate
-  examples:
+  example:
   - '"She shows her dogs frequently"'
   - '"We will demo the new software in Washington"'
   hypernym:
   - 02141597-v
   ili: i32498
-  pos: v
+  members:
+  - show
+  - demo
+  - exhibit
+  - present
+  - demonstrate
+  partOfSpeech: v
 02153732-v:
-  definitions:
+  definition:
   - demonstrate the guilt of (someone)
-  entries:
-  - condemn
-  examples:
+  example:
   - '"Her strange behavior condemned her"'
   hypernym:
   - 00822637-v
   ili: i32499
-  pos: v
+  members:
+  - condemn
+  partOfSpeech: v
 02153931-v:
-  definitions:
+  definition:
   - condemn by attainder
-  entries:
-  - attaint
-  examples:
+  example:
   - '"the man was attainted"'
   hypernym:
   - 02153732-v
   ili: i32500
-  pos: v
+  members:
+  - attaint
+  partOfSpeech: v
 02154041-v:
-  definitions:
+  definition:
   - become concealed or hidden from view or have its light extinguished
-  entries:
-  - occult
-  examples:
+  example:
   - '"The beam of light occults every so often"'
   hypernym:
   - 00109468-v
   ili: i32501
-  pos: v
+  members:
+  - occult
+  partOfSpeech: v
 02154216-v:
-  definitions:
+  definition:
   - examine by taking x-rays
-  entries:
-  - x-ray
   hypernym:
   - 02135744-v
   ili: i32502
-  pos: v
+  members:
+  - x-ray
+  partOfSpeech: v
 02154329-v:
-  definitions:
+  definition:
   - examine eggs for freshness by holding them against a light
-  entries:
-  - candle
   hypernym:
   - 02135744-v
   ili: i32503
-  pos: v
+  members:
+  - candle
+  partOfSpeech: v
 02154469-v:
-  definitions:
+  definition:
   - perform an autopsy on a dead body; do a post-mortem
   domain_topic:
   - 06052606-n
-  entries:
-  - autopsy
   hypernym:
   - 02135744-v
   ili: i32504
-  pos: v
+  members:
+  - autopsy
+  partOfSpeech: v
 02154622-v:
-  definitions:
+  definition:
   - examine by auscultation
   domain_topic:
   - 06052606-n
-  entries:
-  - auscultate
   hypernym:
   - 02135744-v
   ili: i32505
-  pos: v
+  members:
+  - auscultate
+  partOfSpeech: v
 02154758-v:
-  definitions:
+  definition:
   - look over carefully or inspect
   entails:
   - 02134989-v
-  entries:
-  - survey
-  examples:
+  example:
   - '"He surveyed his new classmates"'
   hypernym:
   - 02135744-v
   ili: i32506
-  pos: v
+  members:
+  - survey
+  partOfSpeech: v
 02154940-v:
-  definitions:
+  definition:
   - look attentively
   entails:
   - 02134989-v
-  entries:
-  - watch
-  examples:
+  example:
   - '"watch a basketball game"'
   ili: i32507
-  pos: v
+  members:
+  - watch
+  partOfSpeech: v
 02155170-v:
-  definitions:
+  definition:
   - strain to watch; stare curiously
-  entries:
-  - rubberneck
-  examples:
+  example:
   - '"The cars slowed down and the drivers rubbernecked after the accident"'
   hypernym:
   - 02154940-v
   ili: i32508
-  pos: v
+  members:
+  - rubberneck
+  partOfSpeech: v
 02155378-v:
-  definitions:
+  definition:
   - see or watch
-  entries:
-  - watch
-  - view
-  - see
-  - catch
-  - take in
-  examples:
+  example:
   - '"view a show on television"'
   - '"This program will be seen all over the world"'
   - '"view an exhibition"'
@@ -2595,366 +2589,378 @@
   hypernym:
   - 02154940-v
   ili: i32509
-  pos: v
+  members:
+  - watch
+  - view
+  - see
+  - catch
+  - take in
+  partOfSpeech: v
   similar:
   - 02133754-v
 02155824-v:
-  definitions:
+  definition:
   - view the outline of by means of an X-ray
   domain_topic:
   - 06052606-n
-  entries:
-  - visualize
-  - visualise
-  examples:
+  example:
   - '"The radiologist can visualize the cancerous liver"'
   hypernym:
   - 02155378-v
   ili: i32510
-  pos: v
+  members:
+  - visualize
+  - visualise
+  partOfSpeech: v
 02156033-v:
-  definitions:
+  definition:
   - render visible, as by means of MRI
-  entries:
-  - image
   hypernym:
   - 02155824-v
   ili: i32511
-  pos: v
+  members:
+  - image
+  partOfSpeech: v
 02156130-v:
-  definitions:
+  definition:
   - be a spectator in a sports event
-  entries:
-  - spectate
   hypernym:
   - 02155378-v
   ili: i32512
-  pos: v
+  members:
+  - spectate
+  partOfSpeech: v
 02156246-v:
-  definitions:
+  definition:
   - watch (a movie or play) before it is released to the general public
-  entries:
-  - preview
   hypernym:
   - 02155378-v
   ili: i32513
-  pos: v
+  members:
+  - preview
+  partOfSpeech: v
 02156396-v:
-  definitions:
+  definition:
   - be vigilant, be on the lookout or be careful
-  entries:
+  example:
+  - '"Watch out for pickpockets!"'
+  ili: i32514
+  members:
   - watch
   - look out
   - watch out
-  examples:
-  - '"Watch out for pickpockets!"'
-  ili: i32514
-  pos: v
+  partOfSpeech: v
 02156708-v:
-  definitions:
+  definition:
   - examine hastily
-  entries:
+  example:
+  - '"She scanned the newspaper headlines while waiting for the taxi"'
+  hypernym:
+  - 02135744-v
+  ili: i32515
+  members:
   - scan
   - skim
   - rake
   - glance over
   - run down
-  examples:
-  - '"She scanned the newspaper headlines while waiting for the taxi"'
-  hypernym:
-  - 02135744-v
-  ili: i32515
-  pos: v
+  partOfSpeech: v
 02156934-v:
-  definitions:
+  definition:
   - examine minutely or intensely
-  entries:
-  - scan
-  examples:
+  example:
   - '"the surgeon scanned the X-ray"'
   hypernym:
   - 02135744-v
   ili: i32516
-  pos: v
+  members:
+  - scan
+  partOfSpeech: v
 02157120-v:
-  definitions:
+  definition:
   - scan (game in the forest) with binoculars
-  entries:
-  - glass
   hypernym:
   - 02156934-v
   ili: i32517
-  pos: v
+  members:
+  - glass
+  partOfSpeech: v
 02157242-v:
-  definitions:
+  definition:
   - examine or consider with attention and in detail
-  entries:
-  - peruse
-  examples:
+  example:
   - '"Please peruse this report at your leisure"'
   hypernym:
   - 02135744-v
   ili: i32518
-  pos: v
+  members:
+  - peruse
+  partOfSpeech: v
 02157453-v:
-  definitions:
+  definition:
   - look through a book or other written material
-  entries:
+  example:
+  - '"He thumbed through the report"'
+  - '"She leafed through the volume"'
+  hypernym:
+  - 02157242-v
+  ili: i32519
+  members:
   - flick
   - flip
   - thumb
   - riffle
   - leaf
   - riff
-  examples:
-  - '"He thumbed through the report"'
-  - '"She leafed through the volume"'
-  hypernym:
-  - 02157242-v
-  ili: i32519
-  pos: v
+  partOfSpeech: v
 02157683-v:
-  definitions:
+  definition:
   - examine closely; focus one's attention on
-  entries:
-  - zoom in
-  examples:
+  example:
   - '"He zoomed in on the book"'
   hypernym:
   - 00724156-v
   ili: i32520
-  pos: v
+  members:
+  - zoom in
+  partOfSpeech: v
 02157817-v:
-  definitions:
+  definition:
   - to look at critically or searchingly, or in minute detail
-  entries:
-  - size up
-  - take stock
-  - scrutinize
-  - scrutinise
-  examples:
+  example:
   - '"he scrutinized his likeness in the mirror"'
   hypernym:
   - 02135744-v
   ili: i32521
-  pos: v
+  members:
+  - size up
+  - take stock
+  - scrutinize
+  - scrutinise
+  partOfSpeech: v
 02158139-v:
-  definitions:
+  definition:
   - search or seek
-  entries:
-  - search
-  - look
-  examples:
+  example:
   - '"We looked all day and finally found the child in the forest"'
   - '"Look elsewhere for the perfect gift!"'
   hypernym:
   - 02135744-v
   ili: i32522
-  pos: v
+  members:
+  - search
+  - look
+  partOfSpeech: v
 02158461-v:
-  definitions:
+  definition:
   - look for a sexual partner in a public place
-  entries:
-  - cruise
-  examples:
+  example:
   - '"The men were cruising the park"'
   hypernym:
   - 02158139-v
   ili: i32523
-  pos: v
+  members:
+  - cruise
+  partOfSpeech: v
 02158610-v:
-  definitions:
+  definition:
   - search for something desirable
-  entries:
-  - prospect
-  examples:
+  example:
   - '"prospect a job"'
   hypernym:
   - 02158139-v
   ili: i32524
-  pos: v
+  members:
+  - prospect
+  partOfSpeech: v
 02158742-v:
-  definitions:
+  definition:
   - catch sight of
-  entries:
+  hypernym:
+  - 02168177-v
+  ili: i32525
+  members:
   - descry
   - spot
   - espy
   - spy
-  hypernym:
-  - 02168177-v
-  ili: i32525
-  pos: v
+  partOfSpeech: v
 02158938-v:
-  definitions:
+  definition:
   - discover or determine the existence, presence, or fact of
-  entries:
-  - detect
-  - observe
-  - find
-  - discover
-  - notice
-  examples:
+  example:
   - '"She detected high levels of lead in her drinking water"'
   - '"We found traces of lead in the paint"'
   hypernym:
   - 02168177-v
   ili: i32526
-  pos: v
+  members:
+  - detect
+  - observe
+  - find
+  - discover
+  - notice
+  partOfSpeech: v
   similar:
   - 01641524-v
 02159678-v:
-  definitions:
+  definition:
   - detect some circumstance or entity automatically
-  entries:
-  - sense
-  examples:
+  example:
   - '"This robot can sense the presence of people in the room"'
   - '"particle detectors sense ionization"'
   hypernym:
   - 02158938-v
   ili: i32527
-  pos: v
+  members:
+  - sense
+  partOfSpeech: v
 02159923-v:
-  definitions:
+  definition:
   - find an instance of (a word or particular usage of a word)
-  entries:
-  - instantiate
-  examples:
+  example:
   - '"The linguists could not instantiate this sense of the noun that he claimed existed
     in a certain dialect"'
   hypernym:
   - 02158938-v
   ili: i32528
-  pos: v
+  members:
+  - instantiate
+  partOfSpeech: v
   similar:
   - 02160229-v
 02160229-v:
-  definitions:
+  definition:
   - represent by an instance
-  entries:
-  - instantiate
-  examples:
+  example:
   - '"This word instantiates the usage that the linguists claimed to be typical for
     a certain dialect"'
   hypernym:
   - 02547618-v
   ili: i32529
-  pos: v
+  members:
+  - instantiate
+  partOfSpeech: v
   similar:
   - 02159923-v
 02160493-v:
-  definitions:
+  definition:
   - discover traces of
-  entries:
-  - trace
-  examples:
+  example:
   - '"She traced the circumstances of her birth"'
   hypernym:
   - 02158938-v
   ili: i32530
-  pos: v
+  members:
+  - trace
+  partOfSpeech: v
 02160655-v:
-  definitions:
+  definition:
   - observe as if with an eye
-  entries:
-  - see
-  examples:
+  example:
   - '"The camera saw the burglary and recorded it"'
   hypernym:
   - 02158938-v
   ili: i32531
-  pos: v
+  members:
+  - see
+  partOfSpeech: v
   similar:
   - 02133754-v
 02160814-v:
-  definitions:
+  definition:
   - discover again
-  entries:
-  - rediscover
-  examples:
+  example:
   - '"I rediscovered the books that I enjoyed as a child"'
   hypernym:
   - 02132531-v
   ili: i32532
-  pos: v
+  members:
+  - rediscover
+  partOfSpeech: v
 02160976-v:
-  definitions:
+  definition:
   - become invisible or unnoticeable
-  entries:
-  - vanish
-  - disappear
-  - go away
-  examples:
+  example:
   - '"The effect vanished when day broke"'
   hypernym:
   - 02615799-v
   ili: i32533
-  pos: v
+  members:
+  - vanish
+  - disappear
+  - go away
+  partOfSpeech: v
 02161274-v:
-  definitions:
+  definition:
   - go away or disappear
-  entries:
-  - clear
-  examples:
+  example:
   - '"The fog cleared in the afternoon"'
   hypernym:
   - 02160976-v
   ili: i32534
-  pos: v
+  members:
+  - clear
+  partOfSpeech: v
 02161393-v:
-  definitions:
+  definition:
   - disappear suddenly, as if under the surface of a body of water
-  entries:
-  - bob under
   hypernym:
   - 02160976-v
   ili: i32535
-  pos: v
+  members:
+  - bob under
+  partOfSpeech: v
 02161530-v:
   causes:
   - 00423043-v
-  definitions:
+  definition:
   - bring onto the market or release
-  entries:
-  - produce
-  - bring on
-  - bring out
-  examples:
+  example:
   - '"produce a movie"'
   - '"bring out a book"'
   - '"produce a new play"'
   ili: i32536
-  pos: v
+  members:
+  - produce
+  - bring on
+  - bring out
+  partOfSpeech: v
 02161791-v:
-  definitions:
+  definition:
   - produce or introduce on the stage
-  entries:
-  - offer
-  examples:
+  example:
   - '"The Shakespeare Company is offering `King Lear'' this month"'
   hypernym:
   - 02161530-v
   ili: i32537
-  pos: v
+  members:
+  - offer
+  partOfSpeech: v
 02161949-v:
-  definitions:
+  definition:
   - appear suddenly or unexpectedly; happen unexpectedly
-  entries:
-  - crop up
-  - pop up
-  - pop
-  examples:
+  example:
   - '"The farm popped into view as we turned the corner"'
   - '"He suddenly popped up out of nowhere"'
   hypernym:
   - 00423043-v
   ili: i32538
-  pos: v
+  members:
+  - crop up
+  - pop up
+  - pop
+  partOfSpeech: v
 02162161-v:
-  definitions:
+  definition:
   - make less visible or unclear
-  entries:
+  example:
+  - '"The stars are obscured by the clouds"'
+  - '"the big elm tree obscures our view of the valley"'
+  hypernym:
+  - 02149298-v
+  ili: i32539
+  members:
   - obscure
   - befog
   - becloud
@@ -2963,2113 +2969,2112 @@
   - fog
   - cloud
   - mist
-  examples:
-  - '"The stars are obscured by the clouds"'
-  - '"the big elm tree obscures our view of the valley"'
-  hypernym:
-  - 02149298-v
-  ili: i32539
-  pos: v
+  partOfSpeech: v
 02162464-v:
-  definitions:
+  definition:
   - become glassy; lose clear vision
-  entries:
+  example:
+  - '"Her eyes glazed over from lack of sleep"'
+  ili: i32540
+  members:
   - film over
   - glaze over
   - blur
-  examples:
-  - '"Her eyes glazed over from lack of sleep"'
-  ili: i32540
-  pos: v
+  partOfSpeech: v
 02162626-v:
-  definitions:
+  definition:
   - cast a shadow upon
-  entries:
-  - overshadow
-  examples:
+  example:
   - '"The tall tree overshadowed the house"'
   hypernym:
   - 02162161-v
   ili: i32541
-  pos: v
+  members:
+  - overshadow
+  partOfSpeech: v
 02162770-v:
-  definitions:
+  definition:
   - cause an eclipse of (a celestial body) by intervention
-  entries:
-  - eclipse
-  - occult
-  examples:
+  example:
   - '"The Sun eclipses the moon today"'
   - '"Planets and stars often are occulted by other celestial bodies"'
   hypernym:
   - 02162626-v
   ili: i32542
-  pos: v
+  members:
+  - eclipse
+  - occult
+  partOfSpeech: v
 02163017-v:
-  definitions:
+  definition:
   - make unrecognizable
-  entries:
-  - disguise
-  - mask
-  examples:
+  example:
   - '"The herb masks the garlic taste"'
   - '"We disguised our faces before robbing the bank"'
   hypernym:
   - 02149298-v
   ili: i32543
-  pos: v
+  members:
+  - disguise
+  - mask
+  partOfSpeech: v
 02163326-v:
-  definitions:
+  definition:
   - disguise by camouflaging; exploit the natural surroundings to disguise something
-  entries:
-  - camouflage
-  examples:
+  example:
   - '"The troops camouflaged themselves before they went into enemy territory"'
   hypernym:
   - 02163017-v
   ili: i32544
-  pos: v
+  members:
+  - camouflage
+  partOfSpeech: v
 02163627-v:
-  definitions:
+  definition:
   - determine one's position with reference to another point
-  entries:
-  - orient
-  - orientate
-  examples:
+  example:
   - '"We had to orient ourselves in the forest"'
   hypernym:
   - 00699355-v
   ili: i32545
-  pos: v
+  members:
+  - orient
+  - orientate
+  partOfSpeech: v
 02163857-v:
-  definitions:
+  definition:
   - use as a guide
-  entries:
-  - guide
-  - guide on
-  examples:
+  example:
   - '"They had the lights to guide on"'
   hypernym:
   - 02163627-v
   ili: i32546
-  pos: v
+  members:
+  - guide
+  - guide on
+  partOfSpeech: v
 02164024-v:
-  definitions:
+  definition:
   - orient once again, after a disorientation
-  entries:
-  - reorientate
-  - reorient
   hypernym:
   - 02163627-v
   ili: i32547
-  pos: v
+  members:
+  - reorientate
+  - reorient
+  partOfSpeech: v
 02164171-v:
-  definitions:
+  definition:
   - cause to be lost or disoriented
-  entries:
-  - disorient
-  - disorientate
   hypernym:
   - 00623406-v
   ili: i32548
-  pos: v
+  members:
+  - disorient
+  - disorientate
+  partOfSpeech: v
 02164320-v:
-  definitions:
+  definition:
   - gleam or glow intermittently
-  entries:
+  example:
+  - '"The lights were flashing"'
+  hypernym:
+  - 02164982-v
+  ili: i32549
+  members:
   - flash
   - blink
   - wink
   - twinkle
   - winkle
-  examples:
-  - '"The lights were flashing"'
-  hypernym:
-  - 02164982-v
-  ili: i32549
-  pos: v
+  partOfSpeech: v
 02164607-v:
-  definitions:
+  definition:
   - flash intermittently
-  entries:
-  - flicker
-  - flick
-  examples:
+  example:
   - '"The lights flicked on and off"'
   hypernym:
   - 02164320-v
   ili: i32550
-  pos: v
+  members:
+  - flicker
+  - flick
+  partOfSpeech: v
 02164751-v:
-  definitions:
+  definition:
   - shine hard
-  entries:
-  - beat down
-  examples:
+  example:
   - '"The sun beat down on the hikers"'
   hypernym:
   - 02769698-v
   ili: i32551
-  pos: v
+  members:
+  - beat down
+  partOfSpeech: v
 02164863-v:
-  definitions:
+  definition:
   - shine like a beacon
-  entries:
-  - beacon
   hypernym:
   - 02769698-v
   ili: i32552
-  pos: v
+  members:
+  - beacon
+  partOfSpeech: v
 02164982-v:
-  definitions:
+  definition:
   - cause to be seen by emitting light as if in rays
-  entries:
-  - radiate
-  examples:
+  example:
   - '"The sun is radiating"'
   hypernym:
   - 02128368-v
   ili: i32553
-  pos: v
+  members:
+  - radiate
+  partOfSpeech: v
 02165209-v:
-  definitions:
+  definition:
   - shine brightly, like a star or a light
-  entries:
-  - gleam
-  - glimmer
   hypernym:
   - 02164982-v
   ili: i32554
-  pos: v
+  members:
+  - gleam
+  - glimmer
+  partOfSpeech: v
 02165374-v:
-  definitions:
+  definition:
   - emit a steady even light without flames
-  entries:
-  - glow
-  examples:
+  example:
   - '"The fireflies were glowing and flying about in the garden"'
   hypernym:
   - 02164982-v
   ili: i32555
-  pos: v
+  members:
+  - glow
+  partOfSpeech: v
 02165590-v:
-  definitions:
+  definition:
   - exhibit or undergo fluorescence
-  entries:
-  - fluoresce
   hypernym:
   - 02165374-v
   ili: i32556
-  pos: v
+  members:
+  - fluoresce
+  partOfSpeech: v
 02165760-v:
-  definitions:
+  definition:
   - fluoresce momentarily when struck by a charged particle or high-energy photon
-  entries:
-  - scintillate
-  examples:
+  example:
   - '"the phosphor scintillated"'
   hypernym:
   - 02165590-v
   ili: i32557
-  pos: v
+  members:
+  - scintillate
+  partOfSpeech: v
 02165960-v:
-  definitions:
+  definition:
   - have a complexion with a strong bright color, such as red or pink
-  entries:
-  - glow
-  - beam
-  - radiate
-  - shine
-  examples:
+  example:
   - '"Her face glowed when she came out of the sauna"'
   hypernym:
   - 02137900-v
   ili: i32558
-  pos: v
+  members:
+  - glow
+  - beam
+  - radiate
+  - shine
+  partOfSpeech: v
 02166188-v:
-  definitions:
+  definition:
   - to make less distinct or clear
-  entries:
-  - blur
-  examples:
+  example:
   - '"The haze blurs the hills"'
   hypernym:
   - 00126072-v
   ili: i32559
-  pos: v
+  members:
+  - blur
+  partOfSpeech: v
 02166352-v:
-  definitions:
+  definition:
   - cause to converge on or toward a central point
-  entries:
-  - focus
-  examples:
+  example:
   - '"Focus the light on this image"'
   hypernym:
   - 02195232-v
   ili: i32560
-  pos: v
+  members:
+  - focus
+  partOfSpeech: v
 02166592-v:
-  definitions:
+  definition:
   - focus once again
-  entries:
-  - refocus
-  examples:
+  example:
   - '"The physicist refocused the light beam"'
   hypernym:
   - 02166352-v
   ili: i32561
-  pos: v
+  members:
+  - refocus
+  partOfSpeech: v
 02166741-v:
-  definitions:
+  definition:
   - switch (a car's headlights) from a higher to a lower beam
-  entries:
-  - dim
-  - dip
   hypernym:
   - 02195552-v
   ili: i32562
-  pos: v
+  members:
+  - dim
+  - dip
+  partOfSpeech: v
 02166865-v:
-  definitions:
+  definition:
   - to cause someone to lose clear vision, especially from intense light
-  entries:
-  - dazzle
-  - bedazzle
-  - daze
-  examples:
+  example:
   - '"She was dazzled by the bright headlights"'
   hypernym:
   - 02172999-v
   ili: i32563
-  pos: v
+  members:
+  - dazzle
+  - bedazzle
+  - daze
+  partOfSpeech: v
 02167103-v:
-  definitions:
+  definition:
   - shine intensely
-  entries:
-  - glare
-  examples:
+  example:
   - '"The sun glared down on us"'
   hypernym:
   - 02769698-v
   ili: i32564
-  pos: v
+  members:
+  - glare
+  partOfSpeech: v
 02167246-v:
-  definitions:
+  definition:
   - glare or strike with great intensity
-  entries:
-  - beat
-  examples:
+  example:
   - '"The sun was beating down on us"'
   hypernym:
   - 02167103-v
   ili: i32565
-  pos: v
+  members:
+  - beat
+  partOfSpeech: v
 02167378-v:
-  definitions:
+  definition:
   - be shiny, as if wet
-  entries:
+  example:
+  - '"His eyes were glistening"'
+  hypernym:
+  - 02137900-v
+  ili: i32566
+  members:
   - glitter
   - glisten
   - glint
   - gleam
   - shine
-  examples:
-  - '"His eyes were glistening"'
-  hypernym:
-  - 02137900-v
-  ili: i32566
-  pos: v
+  partOfSpeech: v
 02167614-v:
-  definitions:
+  definition:
   - glitter as if covered with spangles
-  entries:
-  - spangle
   hypernym:
   - 02167378-v
   ili: i32567
-  pos: v
+  members:
+  - spangle
+  partOfSpeech: v
 02167732-v:
-  definitions:
+  definition:
   - keep tabs on; keep an eye on; keep under surveillance
-  entries:
-  - monitor
-  - supervise
-  examples:
+  example:
   - '"we are monitoring the air quality"'
   - '"the police monitor the suspect''s moves"'
   hypernym:
   - 02173796-v
   ili: i32568
-  pos: v
-02168057-v:
-  definitions:
-  - check, track, or observe by means of a receiver
-  entries:
+  members:
   - monitor
+  - supervise
+  partOfSpeech: v
+02168057-v:
+  definition:
+  - check, track, or observe by means of a receiver
   hypernym:
   - 02173796-v
   ili: i32569
-  pos: v
+  members:
+  - monitor
+  partOfSpeech: v
 02168177-v:
-  definitions:
+  definition:
   - catch sight of; to perceive with the eyes
-  entries:
-  - spy
-  - sight
-  examples:
+  example:
   - '"he caught sight of the king''s men coming over the ridge"'
   hypernym:
   - 02110960-v
   ili: i32570
-  pos: v
+  members:
+  - spy
+  - sight
+  partOfSpeech: v
 02168498-v:
-  definitions:
+  definition:
   - look at with amorous intentions
-  entries:
-  - ogle
   hypernym:
   - 02134989-v
   ili: i32571
-  pos: v
+  members:
+  - ogle
+  partOfSpeech: v
 02168617-v:
-  definitions:
+  definition:
   - look seductively at someone
-  entries:
-  - give the glad eye
   hypernym:
   - 02134989-v
   ili: i32572
-  pos: v
+  members:
+  - give the glad eye
+  partOfSpeech: v
 02168719-v:
-  definitions:
+  definition:
   - look suggestively or obliquely; look or gaze with a sly, immodest, or malign expression
-  entries:
-  - leer
-  examples:
+  example:
   - '"The men leered at the young women on the beach"'
   hypernym:
   - 02134989-v
   ili: i32573
-  pos: v
+  members:
+  - leer
+  partOfSpeech: v
 02168962-v:
-  definitions:
+  definition:
   - look with amazement; look stupidly
-  entries:
+  hypernym:
+  - 02134989-v
+  ili: i32574
+  members:
   - goggle
   - gape
   - gawp
   - gawk
-  hypernym:
-  - 02134989-v
-  ili: i32574
-  pos: v
+  partOfSpeech: v
 02169125-v:
-  definitions:
+  definition:
   - look at with admiration
-  entries:
-  - admire
   hypernym:
   - 02134989-v
   ili: i32575
-  pos: v
+  members:
+  - admire
+  partOfSpeech: v
 02169256-v:
-  definitions:
+  definition:
   - look at thoughtfully; observe deep in thought
-  entries:
-  - contemplate
-  examples:
+  example:
   - '"contemplate one''s navel"'
   hypernym:
   - 02134765-v
   ili: i32576
-  pos: v
+  members:
+  - contemplate
+  partOfSpeech: v
 02169433-v:
-  definitions:
+  definition:
   - look or stare at longingly
-  entries:
-  - groak
-  examples:
+  example:
   - '"The dog was groaking his master who was eating a sausage"'
   hypernym:
   - 02134765-v
   ili: i32577
-  pos: v
+  members:
+  - groak
+  partOfSpeech: v
 02169590-v:
-  definitions:
+  definition:
   - look furtively
-  entries:
-  - peep
-  examples:
+  example:
   - '"He peeped at the woman through the window"'
   hypernym:
   - 02134989-v
   ili: i32578
-  pos: v
+  members:
+  - peep
+  partOfSpeech: v
 02169748-v:
-  definitions:
+  definition:
   - throw a glance at; take a brief look at
-  entries:
-  - glance
-  - peek
-  - glint
-  examples:
+  example:
   - '"She only glanced at the paper"'
   - '"I only peeked--I didn''t see anything interesting"'
   hypernym:
   - 02134989-v
   ili: i32579
-  pos: v
+  members:
+  - glance
+  - peek
+  - glint
+  partOfSpeech: v
 02169987-v:
-  definitions:
+  definition:
   - look over carefully
-  entries:
-  - inspect
-  examples:
+  example:
   - '"Please inspect your father''s will carefully"'
   hypernym:
   - 02135744-v
   ili: i32580
-  pos: v
+  members:
+  - inspect
+  partOfSpeech: v
 02170198-v:
-  definitions:
+  definition:
   - make an official inspection on foot of (the bounds of a property)
-  entries:
-  - perambulate
-  examples:
+  example:
   - '"Selectmen are required by law to perambulate the bounds every five years"'
   hypernym:
   - 02169987-v
   ili: i32581
-  pos: v
+  members:
+  - perambulate
+  partOfSpeech: v
 02170426-v:
-  definitions:
+  definition:
   - look over, usually with the intention to rob
-  entries:
-  - case
-  examples:
+  example:
   - '"The men cased the housed"'
   hypernym:
   - 02169987-v
   ili: i32582
-  pos: v
+  members:
+  - case
+  partOfSpeech: v
 02170561-v:
-  definitions:
+  definition:
   - examine carefully
-  entries:
-  - vet
-  examples:
+  example:
   - '"Someone should vet this report before it goes out"'
   hypernym:
   - 02169987-v
   ili: i32583
-  pos: v
+  members:
+  - vet
+  partOfSpeech: v
 02170692-v:
-  definitions:
+  definition:
   - watch over
-  entries:
-  - overlook
-  examples:
+  example:
   - '"I am overlooking her work"'
   hypernym:
   - 02154758-v
   ili: i32584
-  pos: v
-02170805-v:
-  definitions:
-  - look past, fail to notice
-  entries:
+  members:
   - overlook
+  partOfSpeech: v
+02170805-v:
+  definition:
+  - look past, fail to notice
   hypernym:
   - 02132318-v
   ili: i32585
-  pos: v
+  members:
+  - overlook
+  partOfSpeech: v
 02170904-v:
-  definitions:
+  definition:
   - give careful consideration to
-  entries:
-  - study
-  - consider
-  examples:
+  example:
   - '"consider the possibility of moving"'
   hypernym:
   - 00632042-v
   ili: i32586
-  pos: v
+  members:
+  - study
+  - consider
+  partOfSpeech: v
   similar:
   - 00814706-v
 02171205-v:
   causes:
   - 02170904-v
-  definitions:
+  definition:
   - cause oneself to consider something
-  entries:
-  - bethink
   ili: i32587
-  pos: v
+  members:
+  - bethink
+  partOfSpeech: v
 02171305-v:
-  definitions:
+  definition:
   - gaze at or think about something with great self-satisfaction, gratification,
     or joy
-  entries:
-  - gloat
   hypernym:
   - 02134989-v
   ili: i32588
-  pos: v
+  members:
+  - gloat
+  partOfSpeech: v
 02171496-v:
-  definitions:
+  definition:
   - look at
-  entries:
-  - eye
-  - eyeball
   hypernym:
   - 02134989-v
   ili: i32589
-  pos: v
+  members:
+  - eye
+  - eyeball
+  partOfSpeech: v
 02171654-v:
-  definitions:
+  definition:
   - pay attention; be watchful
-  entries:
-  - keep one's eyes peeled
-  - keep one's eyes skinned
-  - keep one's eyes open
-  examples:
+  example:
   - '"Keep your eyes peeled for any policemen"'
   exemplifies:
   - 07089193-n
   hypernym:
   - 02156396-v
   ili: i32590
-  pos: v
+  members:
+  - keep one's eyes peeled
+  - keep one's eyes skinned
+  - keep one's eyes open
+  partOfSpeech: v
 02171879-v:
-  definitions:
+  definition:
   - keep under careful scrutiny
-  entries:
-  - look after
-  examples:
+  example:
   - '"The lawyer has to take the initiative and look after all the proceedings of
     the court"'
   hypernym:
   - 02156396-v
   ili: i32591
-  pos: v
+  members:
+  - look after
+  partOfSpeech: v
 02172015-v:
-  definitions:
+  definition:
   - explore, often with the goal of finding something or somebody
-  entries:
-  - scout
-  - reconnoiter
-  - reconnoitre
   hypernym:
   - 02173796-v
   ili: i32592
-  pos: v
+  members:
+  - scout
+  - reconnoiter
+  - reconnoitre
+  partOfSpeech: v
 02172319-v:
-  definitions:
+  definition:
   - look at with a critical eye
-  entries:
-  - give the eye
-  - give the once over
-  examples:
+  example:
   - '"When the movie star entered, all the women gave him the once over"'
   hypernym:
   - 02134989-v
   ili: i32593
-  pos: v
+  members:
+  - give the eye
+  - give the once over
+  partOfSpeech: v
 02172514-v:
-  definitions:
+  definition:
   - be cross-eyed; have a squint or strabismus
-  entries:
-  - squint
   hypernym:
   - 02134989-v
   ili: i32594
-  pos: v
+  members:
+  - squint
+  partOfSpeech: v
 02172638-v:
-  definitions:
+  definition:
   - make blind by putting the eyes out
-  entries:
-  - blind
-  examples:
+  example:
   - '"The criminals were punished and blinded"'
   hypernym:
   - 00126072-v
   ili: i32595
-  pos: v
+  members:
+  - blind
+  partOfSpeech: v
 02172822-v:
-  definitions:
+  definition:
   - blind by holding a red-hot metal plate before someone's eyes
-  entries:
-  - abacinate
-  examples:
+  example:
   - '"The prisoners were abacinated by their captors"'
   hypernym:
   - 02172638-v
   ili: i32596
-  pos: v
+  members:
+  - abacinate
+  partOfSpeech: v
 02172999-v:
-  definitions:
+  definition:
   - render unable to see
-  entries:
-  - blind
   ili: i32597
-  pos: v
+  members:
+  - blind
+  partOfSpeech: v
 02173154-v:
-  definitions:
+  definition:
   - sew up the eyelids of hawks and falcons
   domain_topic:
   - 05643293-n
-  entries:
-  - seel
   hypernym:
   - 02172999-v
   ili: i32598
-  pos: v
+  members:
+  - seel
+  partOfSpeech: v
 02173274-v:
-  definitions:
+  definition:
   - affect with snow blindness
-  entries:
-  - snow-blind
-  examples:
+  example:
   - '"the glare of the sun snow-blinded her"'
   hypernym:
   - 02172999-v
   ili: i32599
-  pos: v
+  members:
+  - snow-blind
+  partOfSpeech: v
 02173409-v:
-  definitions:
+  definition:
   - look searchingly
-  entries:
-  - peer
-  examples:
+  example:
   - '"We peered into the back of the shop to see whether a salesman was around"'
   hypernym:
   - 02134989-v
   ili: i32600
-  pos: v
+  members:
+  - peer
+  partOfSpeech: v
 02173563-v:
-  definitions:
+  definition:
   - search or inquire in a meddlesome way
-  entries:
+  example:
+  - '"This guy is always nosing around the office"'
+  hypernym:
+  - 02158139-v
+  ili: i32601
+  members:
   - intrude
   - horn in
   - pry
   - nose
   - poke
-  examples:
-  - '"This guy is always nosing around the office"'
-  hypernym:
-  - 02158139-v
-  ili: i32601
-  pos: v
+  partOfSpeech: v
 02173796-v:
-  definitions:
+  definition:
   - watch attentively
-  entries:
-  - observe
-  examples:
+  example:
   - '"Please observe the reaction of these two chemicals"'
   hypernym:
   - 02154940-v
   ili: i32602
-  pos: v
+  members:
+  - observe
+  partOfSpeech: v
 02174146-v:
-  definitions:
+  definition:
   - perceive (sound) via the auditory sense
-  entries:
-  - hear
   hypernym:
   - 02110960-v
   ili: i32603
-  pos: v
+  members:
+  - hear
+  partOfSpeech: v
 02174335-v:
-  definitions:
+  definition:
   - hear with intention
   entails:
   - 02174146-v
-  entries:
-  - listen
-  examples:
+  example:
   - '"Listen to the sound of this cello"'
   hypernym:
   - 02110960-v
   ili: i32604
-  pos: v
+  members:
+  - listen
+  partOfSpeech: v
 02174625-v:
-  definitions:
+  definition:
   - listen to every detail and give a full hearing to
-  entries:
-  - hear out
   hypernym:
   - 02174335-v
   ili: i32605
-  pos: v
+  members:
+  - hear out
+  partOfSpeech: v
 02174748-v:
-  definitions:
+  definition:
   - listen quietly, without contributing to the conversation
-  entries:
-  - listen in
   hypernym:
   - 02174335-v
   ili: i32606
-  pos: v
+  members:
+  - listen in
+  partOfSpeech: v
 02174871-v:
-  definitions:
+  definition:
   - give heed (to)
-  entries:
-  - attend
-  - hang
-  - advert
-  - pay heed
-  - give ear
-  examples:
+  example:
   - '"The children in the audience attended the recital quietly"'
   - '"She hung on his every word"'
   - '"They attended to everything he said"'
   hypernym:
   - 02174335-v
   ili: i32607
-  pos: v
+  members:
+  - attend
+  - hang
+  - advert
+  - pay heed
+  - give ear
+  partOfSpeech: v
 02175305-v:
-  definitions:
+  definition:
   - pay attention to exclusively and obsessively
-  entries:
-  - fixate
-  examples:
+  example:
   - '"The media are fixating on Princess Diana''s death"'
   hypernym:
   - 02174871-v
   ili: i32608
-  pos: v
+  members:
+  - fixate
+  partOfSpeech: v
 02175483-v:
-  definitions:
+  definition:
   - listen and pay attention
-  entries:
-  - listen
-  - hear
-  - take heed
-  examples:
+  example:
   - '"Listen to your father"'
   - '"We must hear the expert before we make a decision"'
   hypernym:
   - 00724156-v
   ili: i32609
-  pos: v
+  members:
+  - listen
+  - hear
+  - take heed
+  partOfSpeech: v
 02175766-v:
-  definitions:
+  definition:
   - bend or turn (one's ear) towards a speaker in order to listen well
-  entries:
-  - incline
-  examples:
+  example:
   - '"He inclined his ear to the wise old man"'
   hypernym:
   - 02175483-v
   ili: i32610
-  pos: v
+  members:
+  - incline
+  partOfSpeech: v
 02175958-v:
-  definitions:
+  definition:
   - regulate (a radio or television set) in order to receive a certain station or
     program
-  entries:
-  - tune in
   hypernym:
   - 00296747-v
   ili: i32611
-  pos: v
+  members:
+  - tune in
+  partOfSpeech: v
 02176108-v:
-  definitions:
+  definition:
   - make a high-pitched, screeching noise
-  entries:
+  example:
+  - '"The door creaked when I opened it slowly"'
+  - '"My car engine makes a whining noise"'
+  hypernym:
+  - 02177332-v
+  ili: i32612
+  members:
   - whine
   - squeak
   - screech
   - creak
   - screak
   - skreak
-  examples:
-  - '"The door creaked when I opened it slowly"'
-  - '"My car engine makes a whining noise"'
-  hypernym:
-  - 02177332-v
-  ili: i32612
-  pos: v
+  partOfSpeech: v
 02176452-v:
-  definitions:
+  definition:
   - make loud and annoying noises
-  entries:
-  - racket
   hypernym:
   - 02177332-v
   ili: i32613
-  pos: v
+  members:
+  - racket
+  partOfSpeech: v
 02176571-v:
-  definitions:
+  definition:
   - make a rattling sound
-  entries:
-  - clatter
-  - clack
-  - brattle
-  examples:
+  example:
   - '"clattering dishes"'
   hypernym:
   - 02177332-v
   ili: i32614
-  pos: v
+  members:
+  - clatter
+  - clack
+  - brattle
+  partOfSpeech: v
 02176740-v:
-  definitions:
+  definition:
   - make a shrill creaking noise by rubbing together special bodily structures
-  entries:
-  - stridulate
-  - clitter
-  examples:
+  example:
   - '"male insects such as crickets or grasshoppers stridulate"'
   hypernym:
   - 02177332-v
   ili: i32615
-  pos: v
+  members:
+  - stridulate
+  - clitter
+  partOfSpeech: v
 02176978-v:
-  definitions:
+  definition:
   - make imperceptible
-  entries:
-  - drown out
-  examples:
+  example:
   - '"The noise from the ice machine drowned out the music"'
   hypernym:
   - 02177332-v
   ili: i32616
-  pos: v
+  members:
+  - drown out
+  partOfSpeech: v
 02177127-v:
-  definitions:
+  definition:
   - make a sound typical of metallic objects
-  entries:
-  - jingle
-  - jingle-jangle
-  - jangle
-  examples:
+  example:
   - '"The keys were jingling in his pocket"'
   hypernym:
   - 02177332-v
   ili: i32617
-  pos: v
+  members:
+  - jingle
+  - jingle-jangle
+  - jangle
+  partOfSpeech: v
 02177332-v:
-  definitions:
+  definition:
   - emit a noise
-  entries:
-  - make noise
-  - resound
-  - noise
   hypernym:
   - 02180712-v
   ili: i32618
-  pos: v
+  members:
+  - make noise
+  - resound
+  - noise
+  partOfSpeech: v
 02177780-v:
-  definitions:
+  definition:
   - make a loud, piercing sound
-  entries:
-  - scream
-  examples:
+  example:
   - '"Fighter planes are screaming through the skies"'
   hypernym:
   - 02177332-v
   ili: i32619
-  pos: v
+  members:
+  - scream
+  partOfSpeech: v
 02177957-v:
-  definitions:
+  definition:
   - give off the sound of a bullet flattening on impact
-  entries:
-  - splat
   hypernym:
   - 02180712-v
   ili: i32620
-  pos: v
+  members:
+  - splat
+  partOfSpeech: v
 02178107-v:
-  definitions:
+  definition:
   - emit a loud noise as a result of undergoing a backfire
-  entries:
-  - backfire
-  examples:
+  example:
   - '"My old car backfires all the time"'
   hypernym:
   - 02177332-v
   ili: i32621
-  pos: v
+  members:
+  - backfire
+  partOfSpeech: v
 02178282-v:
-  definitions:
+  definition:
   - sound with a twang
-  entries:
-  - twang
-  examples:
+  example:
   - '"the bowstring was twanging"'
   hypernym:
   - 02180712-v
   ili: i32622
-  pos: v
-02178411-v:
-  definitions:
-  - cause to sound with a twang
-  entries:
+  members:
   - twang
-  examples:
+  partOfSpeech: v
+02178411-v:
+  definition:
+  - cause to sound with a twang
+  example:
   - '"He twanged the guitar string"'
   hypernym:
   - 02183962-v
   ili: i32623
-  pos: v
+  members:
+  - twang
+  partOfSpeech: v
 02178559-v:
-  definitions:
+  definition:
   - make a loud noise
-  entries:
-  - clang
-  - clangor
-  examples:
+  example:
   - '"clanging metal"'
   hypernym:
   - 02180712-v
   ili: i32624
-  pos: v
+  members:
+  - clang
+  - clangor
+  partOfSpeech: v
 02178755-v:
-  definitions:
+  definition:
   - make a clank
-  entries:
-  - clank
-  examples:
+  example:
   - '"the train clanked through the village"'
   hypernym:
   - 02180712-v
   ili: i32625
-  pos: v
+  members:
+  - clank
+  partOfSpeech: v
 02178905-v:
-  definitions:
+  definition:
   - make a loud resonant noise
-  entries:
-  - clangor
-  - clangour
-  examples:
+  example:
   - '"the alarm clangored throughout the building"'
   hypernym:
   - 02180712-v
   ili: i32626
-  pos: v
+  members:
+  - clangor
+  - clangour
+  partOfSpeech: v
 02179106-v:
-  definitions:
+  definition:
   - make a deep hollow sound
-  entries:
-  - boom
-  - boom out
-  examples:
+  example:
   - '"Her voice booms out the words of the song"'
   hypernym:
   - 02180712-v
   ili: i32627
-  pos: v
+  members:
+  - boom
+  - boom out
+  partOfSpeech: v
 02179274-v:
-  definitions:
+  definition:
   - make a rhythmic sound
-  entries:
-  - drum
-  - beat
-  - thrum
-  examples:
+  example:
   - '"Rain drummed against the windshield"'
   - '"He drummed his fingers on the table"'
   hypernym:
   - 02180712-v
   ili: i32628
-  pos: v
+  members:
+  - drum
+  - beat
+  - thrum
+  partOfSpeech: v
   similar:
   - 01884666-v
 02179501-v:
-  definitions:
+  definition:
   - make short successive sounds
-  entries:
-  - rattle
   hypernym:
   - 02180712-v
   ili: i32629
-  pos: v
+  members:
+  - rattle
+  partOfSpeech: v
 02179727-v:
-  definitions:
+  definition:
   - make a hoarse, rattling sound
-  entries:
-  - ruckle
   hypernym:
   - 02179501-v
   ili: i32630
-  pos: v
+  members:
+  - ruckle
+  partOfSpeech: v
 02179828-v:
-  definitions:
+  definition:
   - make a crackling sound
-  entries:
-  - crepitate
-  - crackle
-  examples:
+  example:
   - '"My Rice Krispies crackled in the bowl"'
   hypernym:
   - 02179501-v
   ili: i32631
-  pos: v
+  members:
+  - crepitate
+  - crackle
+  partOfSpeech: v
 02180022-v:
-  definitions:
+  definition:
   - make a sound like a clock or a timer
-  entries:
-  - tick
-  - ticktock
-  - ticktack
-  - beat
-  examples:
+  example:
   - '"the clocks were ticking"'
   - '"the grandfather clock beat midnight"'
   hypernym:
   - 02180712-v
   ili: i32632
-  pos: v
+  members:
+  - tick
+  - ticktock
+  - ticktack
+  - beat
+  partOfSpeech: v
 02180305-v:
-  definitions:
+  definition:
   - sound loudly
-  entries:
-  - ring out
-  examples:
+  example:
   - '"a shot rang out"'
   hypernym:
   - 02177332-v
   ili: i32633
-  pos: v
+  members:
+  - ring out
+  partOfSpeech: v
 02180402-v:
-  definitions:
+  definition:
   - sound with resonance
-  entries:
-  - resonate
-  - vibrate
-  examples:
+  example:
   - '"The sound resonates well in this theater"'
   hypernym:
   - 02180712-v
   ili: i32634
-  pos: v
+  members:
+  - resonate
+  - vibrate
+  partOfSpeech: v
 02180712-v:
-  definitions:
+  definition:
   - make a certain noise or sound
-  entries:
-  - sound
-  - go
-  examples:
+  example:
   - '"She went `Mmmmm''"'
   - '"The gun went `bang''"'
   hypernym:
   - 02128368-v
   ili: i32635
-  pos: v
+  members:
+  - sound
+  - go
+  partOfSpeech: v
 02181956-v:
-  definitions:
+  definition:
   - make a sudden loud sound
-  entries:
-  - crash
-  examples:
+  example:
   - '"the waves crashed on the shore and kept us awake all night"'
   hypernym:
   - 02180712-v
   ili: i32636
-  pos: v
+  members:
+  - crash
+  partOfSpeech: v
 02182105-v:
-  definitions:
+  definition:
   - make a weak, chirping sound
-  entries:
-  - tweet
-  - twirp
-  examples:
+  example:
   - '"the small bird was tweeting in the tree"'
   hypernym:
   - 02180712-v
   ili: i32637
-  pos: v
+  members:
+  - tweet
+  - twirp
+  partOfSpeech: v
 02182290-v:
-  definitions:
+  definition:
   - make a shrill, wailing sound
-  entries:
-  - skirl
-  examples:
+  example:
   - '"skirling bagpipes"'
   hypernym:
   - 02180712-v
   ili: i32638
-  pos: v
+  members:
+  - skirl
+  partOfSpeech: v
 02182420-v:
-  definitions:
+  definition:
   - make sounds similar to gurgling water
-  entries:
-  - gurgle
-  examples:
+  example:
   - '"The baby gurgled with satisfaction when the mother tickled it"'
   hypernym:
   - 02180712-v
   ili: i32639
-  pos: v
+  members:
+  - gurgle
+  partOfSpeech: v
   similar:
   - 02192368-v
 02182630-v:
-  definitions:
+  definition:
   - make a gurgling sound as of liquid issuing from a bottle
-  entries:
-  - glug
-  examples:
+  example:
   - '"the wine bottles glugged"'
   hypernym:
   - 02180712-v
   ili: i32640
-  pos: v
+  members:
+  - glug
+  partOfSpeech: v
 02182784-v:
-  definitions:
+  definition:
   - sound by having air expelled through a tube
-  entries:
-  - blow
-  examples:
+  example:
   - '"The trumpets blew"'
   hypernym:
   - 02180712-v
   ili: i32641
-  pos: v
+  members:
+  - blow
+  partOfSpeech: v
   similar:
   - 02140192-v
 02182928-v:
-  definitions:
+  definition:
   - make a sibilant sound
-  entries:
-  - whish
   hypernym:
   - 02180712-v
   ili: i32642
-  pos: v
+  members:
+  - whish
+  partOfSpeech: v
 02183020-v:
-  definitions:
+  definition:
   - make a sound like a liquid that is being poured from a bottle
-  entries:
-  - guggle
   hypernym:
   - 02180712-v
   ili: i32643
-  pos: v
+  members:
+  - guggle
+  partOfSpeech: v
 02183153-v:
-  definitions:
+  definition:
   - make a short high-pitched sound
-  entries:
-  - ping
-  examples:
+  example:
   - '"the bullet pinged when they struck the car"'
   hypernym:
   - 02180712-v
   ili: i32644
-  pos: v
-02183310-v:
-  definitions:
-  - sound like a car engine that is firing too early
-  entries:
-  - pink
+  members:
   - ping
-  - knock
-  examples:
+  partOfSpeech: v
+02183310-v:
+  definition:
+  - sound like a car engine that is firing too early
+  example:
   - '"the car pinged when I put in low-octane gasoline"'
   - '"The car pinked when the ignition was too far retarded"'
   hypernym:
   - 02180712-v
   ili: i32645
-  pos: v
+  members:
+  - pink
+  - ping
+  - knock
+  partOfSpeech: v
 02183598-v:
-  definitions:
+  definition:
   - produce a sound as if from a trumpet
-  entries:
-  - trump
   hypernym:
   - 02180712-v
   ili: i32646
-  pos: v
+  members:
+  - trump
+  partOfSpeech: v
 02183723-v:
-  definitions:
+  definition:
   - make a sucking sound
-  entries:
-  - squelch
   hypernym:
   - 02180712-v
   ili: i32647
-  pos: v
+  members:
+  - squelch
+  partOfSpeech: v
 02183816-v:
-  definitions:
+  definition:
   - make a dull, explosive sound
-  entries:
-  - chug
-  examples:
+  example:
   - '"the engine chugged down the street"'
   hypernym:
   - 02180712-v
   ili: i32648
-  pos: v
+  members:
+  - chug
+  partOfSpeech: v
 02183962-v:
   causes:
   - 02180712-v
-  definitions:
+  definition:
   - cause to sound
-  entries:
-  - sound
-  examples:
+  example:
   - '"sound the bell"'
   - '"sound a certain note"'
   ili: i32649
-  pos: v
+  members:
+  - sound
+  partOfSpeech: v
 02184359-v:
-  definitions:
+  definition:
   - lead up to and soften by sounding the dissonant note in it as a consonant note
     in the preceding chord
   domain_topic:
   - 07034009-n
-  entries:
-  - prepare
-  examples:
+  example:
   - '"prepare the discord in bar 139"'
   hypernym:
   - 02183962-v
   ili: i32650
-  pos: v
+  members:
+  - prepare
+  partOfSpeech: v
 02184596-v:
-  definitions:
+  definition:
   - sound a gong
-  entries:
-  - gong
   hypernym:
   - 02183962-v
   ili: i32651
-  pos: v
+  members:
+  - gong
+  partOfSpeech: v
 02184706-v:
-  definitions:
+  definition:
   - cause to make a ting
-  entries:
-  - ting
   hypernym:
   - 02183962-v
   ili: i32652
-  pos: v
+  members:
+  - ting
+  partOfSpeech: v
 02184806-v:
-  definitions:
+  definition:
   - sound the strings of (a stringed instrument)
-  entries:
-  - strum
-  - thrum
-  examples:
+  example:
   - '"strum a guitar"'
   hypernym:
   - 02183962-v
   ili: i32653
-  pos: v
+  members:
+  - strum
+  - thrum
+  partOfSpeech: v
 02184975-v:
-  definitions:
+  definition:
   - announce by means of a sound
-  entries:
-  - sound
-  examples:
+  example:
   - '"sound the alarm"'
   hypernym:
   - 00976399-v
   ili: i32654
-  pos: v
+  members:
+  - sound
+  partOfSpeech: v
 02185193-v:
-  definitions:
+  definition:
   - cause to be heard
-  entries:
-  - project
-  examples:
+  example:
   - '"His voice projects well"'
   hypernym:
   - 02128368-v
   ili: i32655
-  pos: v
+  members:
+  - project
+  partOfSpeech: v
 02185344-v:
-  definitions:
+  definition:
   - sound loudly and sonorously
-  entries:
-  - ring
-  - peal
-  examples:
+  example:
   - '"the bells rang"'
   hypernym:
   - 02180712-v
   ili: i32656
-  pos: v
+  members:
+  - ring
+  - peal
+  partOfSpeech: v
 02185620-v:
-  definitions:
+  definition:
   - go `ding dong', like a bell
-  entries:
-  - ding
-  - dong
-  - dingdong
   hypernym:
   - 02185344-v
   ili: i32657
-  pos: v
+  members:
+  - ding
+  - dong
+  - dingdong
+  partOfSpeech: v
 02185727-v:
-  definitions:
+  definition:
   - ring or sound like a small bell
-  entries:
-  - tintinnabulate
   hypernym:
   - 02185344-v
   ili: i32658
-  pos: v
+  members:
+  - tintinnabulate
+  partOfSpeech: v
 02185848-v:
-  definitions:
+  definition:
   - ring recurrently
-  entries:
-  - peal
-  examples:
+  example:
   - '"bells were pealing"'
   hypernym:
   - 02185344-v
   ili: i32659
-  pos: v
+  members:
+  - peal
+  partOfSpeech: v
 02185984-v:
   causes:
   - 02180712-v
-  definitions:
+  definition:
   - make (bells) ring, often for the purposes of musical edification
-  entries:
-  - ring
-  - knell
-  examples:
+  example:
   - '"Ring the bells"'
   - '"My uncle rings every Sunday at the local church"'
   hypernym:
   - 02183962-v
   ili: i32660
-  pos: v
-02186311-v:
-  definitions:
-  - ring as in announcing death
-  entries:
+  members:
+  - ring
   - knell
+  partOfSpeech: v
+02186311-v:
+  definition:
+  - ring as in announcing death
   hypernym:
   - 02185344-v
   ili: i32661
-  pos: v
+  members:
+  - knell
+  partOfSpeech: v
 02186419-v:
-  definitions:
+  definition:
   - ring slowly
-  entries:
-  - toll
-  examples:
+  example:
   - '"For whom the bell tolls"'
   hypernym:
   - 02185984-v
   ili: i32662
-  pos: v
+  members:
+  - toll
+  partOfSpeech: v
 02186555-v:
-  definitions:
+  definition:
   - make a buzzing sound
-  entries:
-  - buzz
-  - bombinate
-  - bombilate
-  examples:
+  example:
   - '"bees were buzzing around the hive"'
   hypernym:
   - 02180712-v
   ili: i32663
-  pos: v
+  members:
+  - buzz
+  - bombinate
+  - bombilate
+  partOfSpeech: v
 02186788-v:
-  definitions:
+  definition:
   - emit a sound
-  entries:
-  - chime
-  examples:
+  example:
   - '"bells and gongs chimed"'
   hypernym:
   - 02180712-v
   ili: i32664
-  pos: v
+  members:
+  - chime
+  partOfSpeech: v
 02186925-v:
-  definitions:
+  definition:
   - make a strident sound
-  entries:
-  - blast
-  - blare
-  examples:
+  example:
   - '"She tended to blast when speaking into a microphone"'
   hypernym:
   - 02177332-v
   ili: i32665
-  pos: v
+  members:
+  - blast
+  - blare
+  partOfSpeech: v
 02187108-v:
-  definitions:
+  definition:
   - make a dry crackling sound
-  entries:
-  - rustle
-  examples:
+  example:
   - '"rustling silk"'
   - '"the dry leaves were rustling in the breeze"'
   hypernym:
   - 02180712-v
   ili: i32666
-  pos: v
+  members:
+  - rustle
+  partOfSpeech: v
 02187297-v:
-  definitions:
+  definition:
   - make a sharp sound
-  entries:
-  - snap
-  - crack
-  examples:
+  example:
   - '"his fingers snapped"'
   hypernym:
   - 02180712-v
   ili: i32667
-  pos: v
-02187470-v:
-  definitions:
-  - make a very sharp explosive sound
-  entries:
+  members:
+  - snap
   - crack
-  examples:
+  partOfSpeech: v
+02187470-v:
+  definition:
+  - make a very sharp explosive sound
+  example:
   - '"His gun cracked"'
   hypernym:
   - 02180712-v
   ili: i32668
-  pos: v
+  members:
+  - crack
+  partOfSpeech: v
 02187621-v:
-  definitions:
+  definition:
   - make a strident noise
-  entries:
+  example:
+  - '"The horns of the taxis blared"'
+  hypernym:
+  - 02180712-v
+  ili: i32669
+  members:
   - honk
   - blare
   - beep
   - claxon
   - toot
-  examples:
-  - '"The horns of the taxis blared"'
-  hypernym:
-  - 02180712-v
-  ili: i32669
-  pos: v
+  partOfSpeech: v
 02187888-v:
-  definitions:
+  definition:
   - play (a musical instrument) casually
-  entries:
-  - tootle
-  examples:
+  example:
   - '"the saxophone player was tootling a sad melody"'
   hypernym:
   - 02187621-v
   ili: i32670
-  pos: v
+  members:
+  - tootle
+  partOfSpeech: v
 02188072-v:
-  definitions:
+  definition:
   - make whistling sounds
-  entries:
-  - whistle
-  examples:
+  example:
   - '"He lay there, snoring and whistling"'
   hypernym:
   - 02180712-v
   ili: i32671
-  pos: v
+  members:
+  - whistle
+  partOfSpeech: v
 02188233-v:
-  definitions:
+  definition:
   - ring or echo with sound
-  entries:
-  - resound
-  - echo
-  - ring
-  - reverberate
-  examples:
+  example:
   - '"the hall resounded with laughter"'
   hypernym:
   - 02180712-v
   ili: i32672
-  pos: v
+  members:
+  - resound
+  - echo
+  - ring
+  - reverberate
+  partOfSpeech: v
 02188609-v:
-  definitions:
+  definition:
   - sound in sympathy
-  entries:
-  - consonate
   hypernym:
   - 02188233-v
   ili: i32673
-  pos: v
+  members:
+  - consonate
+  partOfSpeech: v
 02188711-v:
-  definitions:
+  definition:
   - repeat or return an echo again or repeatedly; send (an echo) back
-  entries:
-  - reecho
   hypernym:
   - 02188233-v
   ili: i32674
-  pos: v
-02188840-v:
-  definitions:
-  - echo repeatedly, echo again and again
-  entries:
+  members:
   - reecho
+  partOfSpeech: v
+02188840-v:
+  definition:
+  - echo repeatedly, echo again and again
   hypernym:
   - 02188233-v
   ili: i32675
-  pos: v
+  members:
+  - reecho
+  partOfSpeech: v
 02188949-v:
-  definitions:
+  definition:
   - ring loudly and deeply
-  entries:
-  - bong
-  examples:
+  example:
   - '"the big bell bonged"'
   hypernym:
   - 02188233-v
   ili: i32676
-  pos: v
+  members:
+  - bong
+  partOfSpeech: v
 02189056-v:
-  definitions:
+  definition:
   - make a dull sound
-  entries:
-  - thud
-  - thump
-  examples:
+  example:
   - '"the knocker thudded against the front door"'
   hypernym:
   - 02180712-v
   ili: i32677
-  pos: v
-02189243-v:
-  definitions:
-  - make a noise typical of an engine lacking lubricants
-  entries:
-  - crump
+  members:
   - thud
-  - scrunch
+  - thump
+  partOfSpeech: v
+02189243-v:
+  definition:
+  - make a noise typical of an engine lacking lubricants
   hypernym:
   - 01060096-v
   ili: i32678
-  pos: v
+  members:
+  - crump
+  - thud
+  - scrunch
+  partOfSpeech: v
 02189411-v:
-  definitions:
+  definition:
   - make or move along with a sound as of a horse's hooves striking the ground
-  entries:
+  hypernym:
+  - 02180712-v
+  ili: i32679
+  members:
   - clop
   - clump
   - clunk
   - plunk
-  hypernym:
-  - 02180712-v
-  ili: i32679
-  pos: v
+  partOfSpeech: v
 02189633-v:
-  definitions:
+  definition:
   - make light, rapid and repeated sounds
-  entries:
-  - patter
-  - pitter-patter
-  examples:
+  example:
   - '"gently pattering rain"'
   hypernym:
   - 02180712-v
   ili: i32680
-  pos: v
+  members:
+  - patter
+  - pitter-patter
+  partOfSpeech: v
 02189819-v:
-  definitions:
+  definition:
   - make light, repeated taps on a surface
-  entries:
-  - tap
-  - rap
-  - knock
-  - pink
-  examples:
+  example:
   - '"he was tapping his fingers on the table impatiently"'
   hypernym:
   - 02180712-v
   ili: i32681
-  pos: v
+  members:
+  - tap
+  - rap
+  - knock
+  - pink
+  partOfSpeech: v
 02190110-v:
-  definitions:
+  definition:
   - make a clicking or ticking sound
-  entries:
-  - click
-  - tick
-  examples:
+  example:
   - '"The clock ticked away"'
   hypernym:
   - 02180712-v
   ili: i32682
-  pos: v
-02190307-v:
-  definitions:
-  - click repeatedly or uncontrollably
-  entries:
-  - chatter
+  members:
   - click
-  examples:
+  - tick
+  partOfSpeech: v
+02190307-v:
+  definition:
+  - click repeatedly or uncontrollably
+  example:
   - '"Chattering teeth"'
   hypernym:
   - 02180712-v
   ili: i32683
-  pos: v
+  members:
+  - chatter
+  - click
+  partOfSpeech: v
 02190434-v:
-  definitions:
+  definition:
   - make a sharp explosive noise
-  entries:
-  - pop
-  examples:
+  example:
   - '"The cork of the champagne bottle popped"'
   hypernym:
   - 02180712-v
   ili: i32684
-  pos: v
+  members:
+  - pop
+  partOfSpeech: v
   similar:
   - 02190638-v
 02190638-v:
-  definitions:
+  definition:
   - cause to make a sharp explosive sound
-  entries:
-  - pop
-  examples:
+  example:
   - '"He popped the champagne bottle"'
   hypernym:
   - 02183962-v
   ili: i32685
-  pos: v
+  members:
+  - pop
+  partOfSpeech: v
   similar:
   - 02190434-v
 02190806-v:
-  definitions:
+  definition:
   - make an explosive sound
-  entries:
-  - sputter
-  examples:
+  example:
   - '"sputtering engines"'
   hypernym:
   - 02190434-v
   ili: i32686
-  pos: v
+  members:
+  - sputter
+  partOfSpeech: v
 02190952-v:
-  definitions:
+  definition:
   - make or emit a high sound
-  entries:
-  - tinkle
-  - tink
-  - clink
-  - chink
-  examples:
+  example:
   - '"tinkling bells"'
   hypernym:
   - 02180712-v
   ili: i32687
-  pos: v
+  members:
+  - tinkle
+  - tink
+  - clink
+  - chink
+  partOfSpeech: v
 02191136-v:
   causes:
   - 02190952-v
-  definitions:
+  definition:
   - make a high sound typical of glass
-  entries:
-  - clink
-  examples:
+  example:
   - '"champagne glasses clinked to make a toast"'
   hypernym:
   - 02183962-v
   ili: i32688
-  pos: v
+  members:
+  - clink
+  partOfSpeech: v
 02191314-v:
-  definitions:
+  definition:
   - make a splashing sound
-  entries:
-  - splash
-  - splosh
-  - slosh
-  - slush
-  examples:
+  example:
   - '"water was splashing on the floor"'
   hypernym:
   - 02180712-v
   ili: i32689
-  pos: v
+  members:
+  - splash
+  - splosh
+  - slosh
+  - slush
+  partOfSpeech: v
 02191487-v:
-  definitions:
+  definition:
   - sound with a monotonous hum
-  entries:
-  - hum
-  - thrum
   hypernym:
   - 02180712-v
   ili: i32690
-  pos: v
+  members:
+  - hum
+  - thrum
+  partOfSpeech: v
 02191617-v:
-  definitions:
+  definition:
   - emit a single short high-pitched signal
-  entries:
-  - bleep
-  examples:
+  example:
   - '"The computer bleeped away"'
   hypernym:
   - 02180712-v
   ili: i32691
-  pos: v
+  members:
+  - bleep
+  partOfSpeech: v
 02191766-v:
-  definitions:
+  definition:
   - make a low noise
-  entries:
-  - rumble
-  - grumble
-  examples:
+  example:
   - '"rumbling thunder"'
   hypernym:
   - 02180712-v
   ili: i32692
-  pos: v
+  members:
+  - rumble
+  - grumble
+  partOfSpeech: v
 02191956-v:
-  definitions:
+  definition:
   - make a resonant sound, like artillery
-  entries:
-  - boom
-  - din
-  examples:
+  example:
   - '"His deep voice boomed through the hall"'
   hypernym:
   - 02180712-v
   ili: i32693
-  pos: v
+  members:
+  - boom
+  - din
+  partOfSpeech: v
 02192139-v:
-  definitions:
+  definition:
   - to produce a sharp often metallic explosive or percussive sound
-  entries:
-  - bang
-  examples:
+  example:
   - '"One of them banged the sash of the window nearest my bed"'
   hypernym:
   - 02180712-v
   ili: i32694
-  pos: v
+  members:
+  - bang
+  partOfSpeech: v
 02192368-v:
-  definitions:
+  definition:
   - flow in an irregular current with a bubbling noise
-  entries:
+  example:
+  - '"babbling brooks"'
+  hypernym:
+  - 02180712-v
+  ili: i32695
+  members:
   - ripple
   - babble
   - guggle
   - burble
   - bubble
   - gurgle
-  examples:
-  - '"babbling brooks"'
-  hypernym:
-  - 02180712-v
-  ili: i32695
-  pos: v
+  partOfSpeech: v
   similar:
   - 02182420-v
 02192644-v:
-  definitions:
+  definition:
   - move with or cause to move with a whistling or hissing sound
-  entries:
-  - lap
-  - swish
-  - swosh
-  - swoosh
-  examples:
+  example:
   - '"The bubbles swoshed around in the glass"'
   - '"The curtain swooshed open"'
   hypernym:
   - 02180712-v
   ili: i32696
-  pos: v
+  members:
+  - lap
+  - swish
+  - swosh
+  - swoosh
+  partOfSpeech: v
 02192888-v:
-  definitions:
+  definition:
   - make a monotonous low dull sound
-  entries:
-  - drone
-  examples:
+  example:
   - '"The harmonium was droning on"'
   hypernym:
   - 02180712-v
   ili: i32697
-  pos: v
+  members:
+  - drone
+  partOfSpeech: v
 02193033-v:
-  definitions:
+  definition:
   - make a soft swishing sound
-  entries:
+  example:
+  - '"the motor whirred"'
+  - '"the car engine purred"'
+  hypernym:
+  - 02180712-v
+  ili: i32698
+  members:
   - whizz
   - whiz
   - whirr
   - whir
   - birr
   - purr
-  examples:
-  - '"the motor whirred"'
-  - '"the car engine purred"'
-  hypernym:
-  - 02180712-v
-  ili: i32698
-  pos: v
+  partOfSpeech: v
 02193294-v:
-  definitions:
+  definition:
   - tap a telephone or telegraph wire to get information
-  entries:
-  - wiretap
-  - tap
-  - intercept
-  - bug
-  examples:
+  example:
   - '"The FBI was tapping the phone line of the suspected spy"'
   - '"Is this hotel room bugged?"'
   hypernym:
   - 02194160-v
   ili: i32699
-  pos: v
+  members:
+  - wiretap
+  - tap
+  - intercept
+  - bug
+  partOfSpeech: v
 02193614-v:
-  definitions:
+  definition:
   - hear, usually without the knowledge of the speakers
   entails:
   - 02174335-v
-  entries:
-  - catch
-  - take in
-  - overhear
-  examples:
+  example:
   - '"We overheard the conversation at the next table"'
   hypernym:
   - 02174146-v
   ili: i32700
-  pos: v
+  members:
+  - catch
+  - take in
+  - overhear
+  partOfSpeech: v
   similar:
   - 02193844-v
 02193844-v:
-  definitions:
+  definition:
   - perceive by hearing
-  entries:
-  - catch
-  - get
-  examples:
+  example:
   - '"I didn''t catch your name"'
   - '"She didn''t get his name when they met the first time"'
   hypernym:
   - 02174146-v
   ili: i32701
-  pos: v
+  members:
+  - catch
+  - get
+  partOfSpeech: v
   similar:
   - 02193614-v
 02194034-v:
-  definitions:
+  definition:
   - listen; used mostly in the imperative
-  entries:
-  - hark
-  - harken
-  - hearken
   hypernym:
   - 02174335-v
   ili: i32702
-  pos: v
+  members:
+  - hark
+  - harken
+  - hearken
+  partOfSpeech: v
 02194160-v:
-  definitions:
+  definition:
   - listen without the speaker's knowledge
-  entries:
-  - listen in
-  - eavesdrop
-  examples:
+  example:
   - '"the jealous man was eavesdropping on his wife''s conversations"'
   hypernym:
   - 02174335-v
   ili: i32703
-  pos: v
+  members:
+  - listen in
+  - eavesdrop
+  partOfSpeech: v
 02194386-v:
-  definitions:
+  definition:
   - make or render deaf
-  entries:
-  - deafen
-  - deaf
-  examples:
+  example:
   - '"a deafening noise"'
   hypernym:
   - 02119407-v
   ili: i32704
-  pos: v
+  members:
+  - deafen
+  - deaf
+  partOfSpeech: v
 02194523-v:
-  definitions:
+  definition:
   - be unbearably loud
   entails:
   - 02177332-v
-  entries:
-  - deafen
-  examples:
+  example:
   - '"a deafening noise"'
   ili: i32705
-  pos: v
+  members:
+  - deafen
+  partOfSpeech: v
 02194634-v:
-  definitions:
+  definition:
   - become quiet or quieter
-  entries:
+  example:
+  - '"The audience fell silent when the speaker entered"'
+  hypernym:
+  - 02195552-v
+  ili: i32706
+  members:
   - quieten
   - hush
   - quiet
   - quiesce
   - quiet down
   - pipe down
-  examples:
-  - '"The audience fell silent when the speaker entered"'
-  hypernym:
-  - 02195552-v
-  ili: i32706
-  pos: v
+  partOfSpeech: v
   similar:
   - 00462448-v
 02194923-v:
-  definitions:
+  definition:
   - become louder
-  entries:
-  - louden
-  examples:
+  example:
   - '"The room loudened considerably"'
   hypernym:
   - 02195552-v
   ili: i32707
-  pos: v
+  members:
+  - louden
+  partOfSpeech: v
   similar:
   - 00462911-v
 02195078-v:
-  definitions:
+  definition:
   - make (images or sounds) soft or softer
-  entries:
-  - soften
   hypernym:
   - 02195552-v
   ili: i32708
-  pos: v
+  members:
+  - soften
+  partOfSpeech: v
 02195232-v:
-  definitions:
+  definition:
   - make (images or sounds) sharp or sharper
-  entries:
-  - sharpen
   hypernym:
   - 02195552-v
   ili: i32709
-  pos: v
+  members:
+  - sharpen
+  partOfSpeech: v
 02195389-v:
-  definitions:
+  definition:
   - prevent from speaking out
-  entries:
-  - gag
-  - muzzle
-  examples:
+  example:
   - '"The press was gagged"'
   hypernym:
   - 00462448-v
   ili: i32710
-  pos: v
+  members:
+  - gag
+  - muzzle
+  partOfSpeech: v
 02195552-v:
-  definitions:
+  definition:
   - increase or decrease in intensity
-  entries:
-  - change intensity
   hypernym:
   - 00126072-v
   ili: i32711
-  pos: v
+  members:
+  - change intensity
+  partOfSpeech: v
 02195757-v:
-  definitions:
+  definition:
   - deaden (a sound or noise), especially by wrapping
-  entries:
+  hypernym:
+  - 02195078-v
+  ili: i32712
+  members:
   - muffle
   - mute
   - dull
   - damp
   - dampen
   - tone down
-  hypernym:
-  - 02195078-v
-  ili: i32712
-  pos: v
+  partOfSpeech: v
 02195992-v:
-  definitions:
+  definition:
   - perceive by the sense of taste
-  entries:
-  - taste
-  examples:
+  example:
   - '"Can you taste the garlic?"'
   hypernym:
   - 02110960-v
   ili: i32713
-  pos: v
+  members:
+  - taste
+  partOfSpeech: v
 02196212-v:
   causes:
   - 02198732-v
-  definitions:
+  definition:
   - lend flavor to
   domain_topic:
   - 00244785-n
-  entries:
+  example:
+  - '"Season the chicken breast after roasting it"'
+  ili: i32714
+  members:
   - season
   - flavor
   - flavour
-  examples:
-  - '"Season the chicken breast after roasting it"'
-  ili: i32714
-  pos: v
+  partOfSpeech: v
 02196671-v:
-  definitions:
+  definition:
   - season with a mixture of spices; typical of Indian cooking
   domain_topic:
   - 00244785-n
-  entries:
-  - curry
   hypernym:
   - 02196212-v
   ili: i32715
-  pos: v
+  members:
+  - curry
+  partOfSpeech: v
 02196829-v:
-  definitions:
+  definition:
   - impregnate with resin to give a special flavor to
   domain_topic:
   - 01129030-n
-  entries:
-  - resinate
-  examples:
+  example:
   - '"Greek wines are often resinated"'
   hypernym:
   - 02196212-v
   ili: i32716
-  pos: v
+  members:
+  - resinate
+  partOfSpeech: v
 02197016-v:
-  definitions:
+  definition:
   - add herbs or spices to
   domain_topic:
   - 00244785-n
-  entries:
-  - zest
-  - spice
-  - spice up
   hypernym:
   - 02196212-v
   ili: i32717
-  pos: v
+  members:
+  - zest
+  - spice
+  - spice up
+  partOfSpeech: v
 02197264-v:
-  definitions:
+  definition:
   - add ginger to in order to add flavor
   domain_topic:
   - 00244785-n
-  entries:
-  - ginger
-  examples:
+  example:
   - '"ginger the soup"'
   hypernym:
   - 02197016-v
   ili: i32718
-  pos: v
+  members:
+  - ginger
+  partOfSpeech: v
 02197438-v:
-  definitions:
+  definition:
   - distinguish flavors
   entails:
   - 02195992-v
-  entries:
-  - taste
-  examples:
+  example:
   - '"We tasted wines last night"'
   hypernym:
   - 00620141-v
   ili: i32719
-  pos: v
+  members:
+  - taste
+  partOfSpeech: v
 02197640-v:
-  definitions:
+  definition:
   - detect with the senses
   entails:
   - 02110960-v
-  entries:
+  example:
+  - '"The fleeing convicts were picked out of the darkness by the watchful prison
+    guards"'
+  - '"I can''t make out the faces in this photograph"'
+  ili: i32720
+  members:
   - spot
   - recognize
   - recognise
@@ -5078,449 +5083,444 @@
   - pick out
   - make out
   - tell apart
-  examples:
-  - '"The fleeing convicts were picked out of the darkness by the watchful prison
-    guards"'
-  - '"I can''t make out the faces in this photograph"'
-  ili: i32720
-  pos: v
+  partOfSpeech: v
 02198058-v:
-  definitions:
+  definition:
   - make clearly visible
   domain_topic:
   - 06110385-n
-  entries:
-  - resolve
-  examples:
+  example:
   - '"can this image be resolved?"'
   hypernym:
   - 02197640-v
   ili: i32721
-  pos: v
+  members:
+  - resolve
+  partOfSpeech: v
 02198211-v:
-  definitions:
+  definition:
   - distinguish
-  entries:
-  - discriminate
-  examples:
+  example:
   - '"I could not discriminate the different tastes in this complicated dish"'
   hypernym:
   - 02197640-v
   ili: i32722
-  pos: v
+  members:
+  - discriminate
+  partOfSpeech: v
 02198420-v:
-  definitions:
+  definition:
   - taste appreciatively
-  entries:
-  - savor
-  - savour
-  examples:
+  example:
   - '"savor the soup"'
   hypernym:
   - 02195992-v
   ili: i32723
-  pos: v
+  members:
+  - savor
+  - savour
+  partOfSpeech: v
 02198584-v:
-  definitions:
+  definition:
   - give taste to
   domain_topic:
   - 00244785-n
-  entries:
-  - savor
-  - savour
   hypernym:
   - 02196212-v
   ili: i32724
-  pos: v
+  members:
+  - savor
+  - savour
+  partOfSpeech: v
 02198732-v:
-  definitions:
+  definition:
   - have flavor; taste of something
-  entries:
+  ili: i32725
+  members:
   - taste
   - savor
   - savour
-  ili: i32725
-  pos: v
+  partOfSpeech: v
 02198941-v:
-  definitions:
+  definition:
   - have a distinctive or characteristic taste
-  entries:
-  - smack
-  - taste
-  examples:
+  example:
   - '"This tastes of nutmeg"'
   hypernym:
   - 02198732-v
   ili: i32726
-  pos: v
-02199169-v:
-  definitions:
-  - have an element suggestive (of something)
-  entries:
+  members:
   - smack
-  - reek
-  - smell
-  examples:
+  - taste
+  partOfSpeech: v
+02199169-v:
+  definition:
+  - have an element suggestive (of something)
+  example:
   - '"his speeches smacked of racism"'
   - '"this passage smells of plagiarism"'
   hypernym:
   - 00932330-v
   ili: i32727
-  pos: v
+  members:
+  - smack
+  - reek
+  - smell
+  partOfSpeech: v
 02199359-v:
-  definitions:
+  definition:
   - fill with distaste
-  entries:
-  - disgust
-  - gross out
-  - revolt
-  - repel
-  examples:
+  example:
   - '"This spoilt food disgusts me"'
   hypernym:
   - 02120601-v
   ili: i32728
-  pos: v
+  members:
+  - disgust
+  - gross out
+  - revolt
+  - repel
+  partOfSpeech: v
 02199637-v:
-  definitions:
+  definition:
   - upset and make nauseated
-  entries:
-  - sicken
-  - nauseate
-  - turn one's stomach
-  examples:
+  example:
   - '"The smell of the food turned the pregnant woman''s stomach"'
   - '"The mold on the food sickened the diners"'
   hypernym:
   - 02199359-v
   ili: i32729
-  pos: v
+  members:
+  - sicken
+  - nauseate
+  - turn one's stomach
+  partOfSpeech: v
 02199916-v:
-  definitions:
+  definition:
   - make sweeter in taste
-  entries:
+  hypernym:
+  - 02201394-v
+  ili: i32730
+  members:
   - sweeten
   - dulcify
   - edulcorate
   - dulcorate
-  hypernym:
-  - 02201394-v
-  ili: i32730
-  pos: v
+  partOfSpeech: v
 02200197-v:
-  definitions:
+  definition:
   - make bitter
-  entries:
-  - bitter
   hypernym:
   - 02201394-v
   ili: i32731
-  pos: v
+  members:
+  - bitter
+  partOfSpeech: v
 02200298-v:
-  definitions:
+  definition:
   - sweeten with honey
-  entries:
-  - honey
   hypernym:
   - 02199916-v
   ili: i32732
-  pos: v
+  members:
+  - honey
+  partOfSpeech: v
 02200397-v:
-  definitions:
+  definition:
   - sweeten with sugar
-  entries:
-  - sugar
-  - saccharify
-  examples:
+  example:
   - '"sugar your tea"'
   hypernym:
   - 02199916-v
   ili: i32733
-  pos: v
+  members:
+  - sugar
+  - saccharify
+  partOfSpeech: v
 02200527-v:
-  definitions:
+  definition:
   - add pepper to
   domain_topic:
   - 00244785-n
-  entries:
-  - pepper
-  examples:
+  example:
   - '"pepper the soup"'
   hypernym:
   - 02197016-v
   ili: i32734
-  pos: v
+  members:
+  - pepper
+  partOfSpeech: v
 02200660-v:
-  definitions:
+  definition:
   - add salt to
   domain_topic:
   - 00244785-n
-  entries:
-  - salt
   hypernym:
   - 02196212-v
   ili: i32735
-  pos: v
+  members:
+  - salt
+  partOfSpeech: v
 02200824-v:
-  definitions:
+  definition:
   - coat with something sweet, such as a hard sugar glaze
-  entries:
-  - sugarcoat
-  - glaze
-  - candy
   hypernym:
   - 02199916-v
   ili: i32736
-  pos: v
+  members:
+  - sugarcoat
+  - glaze
+  - candy
+  partOfSpeech: v
 02200986-v:
-  definitions:
+  definition:
   - heat with sugar and spices to make a hot drink
-  entries:
-  - mull
-  examples:
+  example:
   - '"mulled cider"'
   hypernym:
   - 02199916-v
   ili: i32737
-  pos: v
+  members:
+  - mull
+  partOfSpeech: v
 02201136-v:
-  definitions:
+  definition:
   - make sour or more sour
-  entries:
+  hypernym:
+  - 02201394-v
+  ili: i32738
+  members:
   - sour
   - acidify
   - acidulate
   - acetify
-  hypernym:
-  - 02201394-v
-  ili: i32738
-  pos: v
+  partOfSpeech: v
 02201394-v:
-  definitions:
+  definition:
   - alter the flavor of
-  entries:
-  - change taste
   hypernym:
   - 00126072-v
   ili: i32739
-  pos: v
+  members:
+  - change taste
+  partOfSpeech: v
 02201537-v:
-  definitions:
+  definition:
   - allow to go out of sight or mind
-  entries:
-  - lose
-  examples:
+  example:
   - '"The detective lost the man he was shadowing after he had to stop at a red light"'
   - '"lose the crowds by climbing a mountain"'
   - '"the lost tribe"'
   ili: i32740
-  pos: v
+  members:
+  - lose
+  partOfSpeech: v
 02201764-v:
-  definitions:
+  definition:
   - enjoy in a sexual way
-  entries:
-  - get off
-  examples:
+  example:
   - '"He gets off on shoes"'
   hypernym:
   - 01832678-v
   ili: i32741
-  pos: v
+  members:
+  - get off
+  partOfSpeech: v
 02201874-v:
-  definitions:
+  definition:
   - experience orgasm
-  entries:
-  - come
-  examples:
+  example:
   - '"she could not come because she was too upset"'
   hypernym:
   - 02114674-v
   ili: i32742
-  pos: v
+  members:
+  - come
+  partOfSpeech: v
 02202019-v:
-  definitions:
+  definition:
   - be perceived by
-  entries:
-  - greet
-  examples:
+  example:
   - '"Loud music greeted him when he entered the apartment"'
   ili: i32743
-  pos: v
+  members:
+  - greet
+  partOfSpeech: v
 02202143-v:
-  definitions:
+  definition:
   - observe or plot the moving path of something
-  entries:
-  - track
-  examples:
+  example:
   - '"track a missile"'
   hypernym:
   - 02173796-v
   ili: i32744
-  pos: v
+  members:
+  - track
+  partOfSpeech: v
 02202295-v:
-  definitions:
+  definition:
   - perceive oneself to be in a certain condition or place
-  entries:
-  - find
-  examples:
+  example:
   - '"I found myself in a difficult situation"'
   - '"When he woke up, he found himself in a hospital room"'
   hypernym:
   - 02110960-v
   ili: i32745
-  pos: v
+  members:
+  - find
+  partOfSpeech: v
   similar:
   - 02133338-v
 02202528-v:
-  definitions:
+  definition:
   - emit, produce, or utter with a deep prolonged reverberating sound
-  entries:
-  - roll
-  examples:
+  example:
   - '"The thunder rolled"'
   - '"rolling drums"'
   hypernym:
   - 02180712-v
   ili: i32746
-  pos: v
+  members:
+  - roll
+  partOfSpeech: v
 02202748-v:
-  definitions:
+  definition:
   - appear to one's own mind or opinion
-  entries:
-  - seem
-  examples:
+  example:
   - '"I seem to be misunderstood by everyone"'
   - '"I can''t seem to learn these Chinese characters"'
   hypernym:
   - 02139137-v
   ili: i32747
-  pos: v
+  members:
+  - seem
+  partOfSpeech: v
 02202937-v:
-  definitions:
+  definition:
   - interrupt the normal function of by means of anesthesia
-  entries:
-  - block
-  examples:
+  example:
   - '"block a nerve"'
   - '"block a muscle"'
   hypernym:
   - 00021058-v
   ili: i32748
-  pos: v
+  members:
+  - block
+  partOfSpeech: v
 02203116-v:
-  definitions:
+  definition:
   - keep under surveillance
-  entries:
-  - surveil
-  - follow
-  - survey
-  examples:
+  example:
   - '"The police had been following him for weeks but they could not prove his involvement
     in the bombing"'
   ili: i32749
-  pos: v
+  members:
+  - surveil
+  - follow
+  - survey
+  partOfSpeech: v
   similar:
   - 02004900-v
 02203333-v:
-  definitions:
+  definition:
   - be the source of great pain for
-  entries:
-  - kill
-  examples:
+  example:
   - '"These new shoes are killing me!"'
   hypernym:
   - 02125976-v
   ili: i32750
-  pos: v
+  members:
+  - kill
+  partOfSpeech: v
 02203487-v:
-  definitions:
+  definition:
   - perceive the true nature of
-  entries:
-  - see through
-  examples:
+  example:
   - '"We could see through her apparent calm"'
   hypernym:
   - 02110960-v
   ili: i32751
-  pos: v
+  members:
+  - see through
+  partOfSpeech: v
 02203633-v:
-  definitions:
+  definition:
   - cause to stand out or be clearly defined or visible
-  entries:
-  - etch
-  examples:
+  example:
   - '"a face etched with pain"'
   - '"the leafless branches etched against the sky"'
   hypernym:
   - 02141597-v
   ili: i32752
-  pos: v
+  members:
+  - etch
+  partOfSpeech: v
 02203821-v:
-  definitions:
+  definition:
   - take aim by looking through the sights of a gun (or other device)
-  entries:
-  - sight
   hypernym:
   - 01153576-v
   ili: i32753
-  pos: v
+  members:
+  - sight
+  partOfSpeech: v
 02203949-v:
-  definitions:
+  definition:
   - glow or cause to glow with warm color or light
-  entries:
-  - flush
-  examples:
+  example:
   - '"the sky flushed with rosy splendor"'
   hypernym:
   - 02165374-v
   ili: i32754
-  pos: v
+  members:
+  - flush
+  partOfSpeech: v
 90006181-v:
-  definitions:
+  definition:
   - to look good
   domain_region:
   - 06960420-n
-  entries:
-  - stunt
   hypernym:
   - 02137900-v
-  pos: v
+  members:
+  - stunt
+  partOfSpeech: v
   source: Colloquial WordNet
 90007111-v:
-  definitions:
+  definition:
   - to monitor a web forum or similar without making your presence pubilc
-  entries:
-  - lurk
   hypernym:
   - 02167732-v
-  pos: v
+  members:
+  - lurk
+  partOfSpeech: v
   source: Colloquial WordNet
 90015901-v:
-  definitions:
+  definition:
   - To stare awkwardly
   domain_region:
   - 06960420-n
-  entries:
-  - mug
   hypernym:
   - 02137210-v
-  pos: v
+  members:
+  - mug
+  partOfSpeech: v
   source: Colloquial WordNet
 91000041-v:
-  definitions:
+  definition:
   - to watch a show or television one more time
-  entries:
-  - rewatch
   hypernym:
   - 02155378-v
-  pos: v
+  members:
+  - rewatch
+  partOfSpeech: v
   source: Colloquial WordNet
 91000671-v:
-  definitions:
+  definition:
   - to watch a large amount of media in a single seating
-  entries:
-  - binge
   hypernym:
   - 02155378-v
-  pos: v
+  members:
+  - binge
+  partOfSpeech: v
   source: Colloquial WordNet

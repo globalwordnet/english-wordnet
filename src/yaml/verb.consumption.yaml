@@ -1,21 +1,28 @@
 01159300-v:
-  definitions:
+  definition:
   - serve oneself to, or consume regularly
-  entries:
+  example:
+  - '"Have another bowl of chicken soup!"'
+  - '"I don''t take sugar in my coffee"'
+  ili: i27410
+  members:
   - consume
   - ingest
   - take in
   - take
   - have
-  examples:
-  - '"Have another bowl of chicken soup!"'
-  - '"I don''t take sugar in my coffee"'
-  ili: i27410
-  pos: v
+  partOfSpeech: v
 01159815-v:
-  definitions:
+  definition:
   - use up (resources or materials)
-  entries:
+  example:
+  - '"this car consumes a lot of gas"'
+  - '"We exhausted our savings"'
+  - '"They run through 20 bottles of wine a week"'
+  hypernym:
+  - 02271905-v
+  ili: i27412
+  members:
   - consume
   - eat up
   - use up
@@ -24,75 +31,62 @@
   - exhaust
   - run through
   - wipe out
-  examples:
-  - '"this car consumes a lot of gas"'
-  - '"We exhausted our savings"'
-  - '"They run through 20 bottles of wine a week"'
-  hypernym:
-  - 02271905-v
-  ili: i27412
-  pos: v
+  partOfSpeech: v
   similar:
   - 02272834-v
 01160320-v:
-  definitions:
+  definition:
   - deplete of resources
-  entries:
-  - drain
-  examples:
+  example:
   - '"The exercise class drains me of energy"'
   hypernym:
   - 01159815-v
   ili: i27413
-  pos: v
+  members:
+  - drain
+  partOfSpeech: v
 01160479-v:
-  definitions:
+  definition:
   - spend extravagantly
-  entries:
-  - consume
-  - squander
-  - waste
-  - ware
-  examples:
+  example:
   - '"waste not, want not"'
   hypernym:
   - 02271905-v
   ili: i27414
-  pos: v
+  members:
+  - consume
+  - squander
+  - waste
+  - ware
+  partOfSpeech: v
 01160800-v:
-  definitions:
+  definition:
   - use frugally or carefully
-  entries:
-  - spare
   hypernym:
   - 01160888-v
   ili: i27415
-  pos: v
+  members:
+  - spare
+  partOfSpeech: v
 01160888-v:
-  definitions:
+  definition:
   - use up, consume fully
   entails:
   - 01159815-v
-  entries:
-  - use
-  - expend
-  examples:
+  example:
   - '"The legislature expended its time on school questions"'
   ili: i27416
-  pos: v
+  members:
+  - use
+  - expend
+  partOfSpeech: v
 01161188-v:
   causes:
   - 02682599-v
-  definitions:
+  definition:
   - put into service; make work or employ for a particular purpose or for its inherent
     or natural purpose
-  entries:
-  - use
-  - utilize
-  - utilise
-  - apply
-  - employ
-  examples:
+  example:
   - '"use your head!"'
   - '"we only use Spanish at home"'
   - '"I can''t use this tool"'
@@ -103,1387 +97,1400 @@
   - '"use the plastic bags to store the food"'
   - '"He doesn''t know how to use a computer"'
   ili: i27417
-  pos: v
+  members:
+  - use
+  - utilize
+  - utilise
+  - apply
+  - employ
+  partOfSpeech: v
   similar:
   - 02567247-v
 01162509-v:
-  definitions:
+  definition:
   - use all resources available
-  entries:
-  - pull out all the stops
-  examples:
+  example:
   - '"The organizers pulled out all the stops for the centennial meeting"'
   hypernym:
   - 01161188-v
   ili: i27418
-  pos: v
+  members:
+  - pull out all the stops
+  partOfSpeech: v
 01162686-v:
-  definitions:
+  definition:
   - attribute or give
-  entries:
-  - put
-  - assign
-  examples:
+  example:
   - '"She put too much emphasis on her the last statement"'
   - '"He put all his efforts into this job"'
   - '"The teacher put an interesting twist to the interpretation of the story"'
   hypernym:
   - 01161188-v
   ili: i27419
-  pos: v
+  members:
+  - put
+  - assign
+  partOfSpeech: v
 01162961-v:
-  definitions:
+  definition:
   - put or confide something in a person or thing
-  entries:
-  - repose
-  examples:
+  example:
   - '"These philosophers reposed the law in the people"'
   hypernym:
   - 01162686-v
   ili: i27420
-  pos: v
+  members:
+  - repose
+  partOfSpeech: v
 01163122-v:
-  definitions:
+  definition:
   - use diligently
-  entries:
-  - ply
-  examples:
+  example:
   - '"ply your wits!"'
   hypernym:
   - 01161188-v
   ili: i27421
-  pos: v
+  members:
+  - ply
+  partOfSpeech: v
 01163215-v:
-  definitions:
+  definition:
   - address or apply oneself to something, direct one's efforts towards something,
     such as a question
-  entries:
-  - address
   hypernym:
   - 01161188-v
   ili: i27422
-  pos: v
+  members:
+  - address
+  partOfSpeech: v
 01163403-v:
-  definitions:
+  definition:
   - use inefficiently or inappropriately
-  entries:
-  - waste
-  examples:
+  example:
   - '"waste heat"'
   - '"waste a joke on an unappreciative audience"'
   hypernym:
   - 01161188-v
   ili: i27423
-  pos: v
+  members:
+  - waste
+  partOfSpeech: v
 01163606-v:
-  definitions:
+  definition:
   - apply to a wrong thing or person; apply badly or incorrectly
-  entries:
-  - misapply
-  - misuse
-  examples:
+  example:
   - '"The words are misapplied in this context"'
   - '"You are misapplying the name of this religious group"'
   hypernym:
   - 01161188-v
   ili: i27424
-  pos: v
+  members:
+  - misapply
+  - misuse
+  partOfSpeech: v
 01163877-v:
-  definitions:
+  definition:
   - take advantage of
-  entries:
-  - avail
-  examples:
+  example:
   - '"He availed himself of the available resources"'
   hypernym:
   - 01161188-v
   ili: i27425
-  pos: v
+  members:
+  - avail
+  partOfSpeech: v
 01164011-v:
-  definitions:
+  definition:
   - make use of too often or too extensively
-  entries:
-  - overuse
-  - overdrive
   hypernym:
   - 01161188-v
   ili: i27426
-  pos: v
+  members:
+  - overuse
+  - overdrive
+  partOfSpeech: v
 01164146-v:
-  definitions:
+  definition:
   - use a name, such as God, without proper respect
-  entries:
-  - take in vain
   hypernym:
   - 00203575-v
   ili: i27427
-  pos: v
+  members:
+  - take in vain
+  partOfSpeech: v
 01164263-v:
-  definitions:
+  definition:
   - apply thoroughly; think through
-  entries:
-  - work through
-  - run through
-  - go through
-  examples:
+  example:
   - '"We worked through an example"'
   hypernym:
   - 02418610-v
   ili: i27428
-  pos: v
+  members:
+  - work through
+  - run through
+  - go through
+  partOfSpeech: v
 01164459-v:
-  definitions:
+  definition:
   - use parts of something to repair something else
   entails:
   - 01661660-v
-  entries:
-  - cannibalize
-  - cannibalise
   hypernym:
   - 01161188-v
   ili: i27429
-  pos: v
-01164607-v:
-  definitions:
-  - eat human flesh
-  entries:
+  members:
   - cannibalize
   - cannibalise
+  partOfSpeech: v
+01164607-v:
+  definition:
+  - eat human flesh
   hypernym:
   - 01159300-v
   ili: i27430
-  pos: v
+  members:
+  - cannibalize
+  - cannibalise
+  partOfSpeech: v
 01164741-v:
-  definitions:
+  definition:
   - use again after processing
-  entries:
-  - recycle
-  - reprocess
-  - reuse
-  examples:
+  example:
   - '"We must recycle the cardboard boxes"'
   hypernym:
   - 01161188-v
   ili: i27431
-  pos: v
+  members:
+  - recycle
+  - reprocess
+  - reuse
+  partOfSpeech: v
 01164945-v:
-  definitions:
+  definition:
   - present or use over, with no or few changes
-  entries:
-  - rehash
   hypernym:
   - 01164741-v
   ili: i27432
-  pos: v
+  members:
+  - rehash
+  partOfSpeech: v
 01165070-v:
-  definitions:
+  definition:
   - use or manipulate to one's advantage
-  entries:
-  - exploit
-  - work
-  examples:
+  example:
   - '"He exploited the new taxation system"'
   - '"She knows how to work the system"'
   - '"he works his parents for sympathy"'
   hypernym:
   - 01161188-v
   ili: i27433
-  pos: v
+  members:
+  - exploit
+  - work
+  partOfSpeech: v
   similar:
   - 02121463-v
 01165513-v:
-  definitions:
+  definition:
   - turn to one's advantage
-  entries:
-  - make hay
-  examples:
+  example:
   - '"The environmentalist lobby made hay of the nuclear plant accident"'
   hypernym:
   - 01165070-v
   ili: i27434
-  pos: v
+  members:
+  - make hay
+  partOfSpeech: v
 01165671-v:
-  definitions:
+  definition:
   - use to one's advantage
-  entries:
-  - play
-  examples:
+  example:
   - '"She plays on her clients'' emotions"'
   hypernym:
   - 01165070-v
   ili: i27435
-  pos: v
+  members:
+  - play
+  partOfSpeech: v
 01165811-v:
-  definitions:
+  definition:
   - exploit the power of
-  entries:
-  - harness
-  examples:
+  example:
   - '"harness natural forces and resources"'
   hypernym:
   - 01166589-v
   ili: i27436
-  pos: v
+  members:
+  - harness
+  partOfSpeech: v
 01165936-v:
-  definitions:
+  definition:
   - get from the earth by excavation
   domain_topic:
   - 00924141-n
   entails:
   - 01312361-v
-  entries:
-  - mine
-  examples:
+  example:
   - '"mine ores and metals"'
   hypernym:
   - 01166589-v
   ili: i27437
-  pos: v
+  members:
+  - mine
+  partOfSpeech: v
 01166163-v:
-  definitions:
+  definition:
   - extract (something such as stones) from or as if from a quarry
   domain_topic:
   - 00924782-n
   entails:
   - 01312361-v
-  entries:
-  - quarry
-  examples:
+  example:
   - '"quarry marble"'
   hypernym:
   - 01166589-v
   ili: i27438
-  pos: v
+  members:
+  - quarry
+  partOfSpeech: v
 01166397-v:
-  definitions:
+  definition:
   - extract (ore) from a strip-mine
   domain_topic:
   - 00924141-n
-  entries:
-  - strip mine
-  - surface mine
-  - surface-mine
   hypernym:
   - 01165936-v
   ili: i27439
-  pos: v
+  members:
+  - strip mine
+  - surface mine
+  - surface-mine
+  partOfSpeech: v
 01166589-v:
-  definitions:
+  definition:
   - draw from; make good use of
-  entries:
-  - exploit
-  - tap
-  examples:
+  example:
   - '"we must exploit the resources we are given wisely"'
   hypernym:
   - 01161188-v
   ili: i27440
-  pos: v
+  members:
+  - exploit
+  - tap
+  partOfSpeech: v
 01166884-v:
-  definitions:
+  definition:
   - exploit excessively
-  entries:
-  - overexploit
-  examples:
+  example:
   - '"We should not overexploit our natural resources"'
   hypernym:
   - 01166589-v
   ili: i27441
-  pos: v
+  members:
+  - overexploit
+  partOfSpeech: v
 01167041-v:
-  definitions:
+  definition:
   - exploit for maximal profit, usually by sacrificing quality
-  entries:
-  - commercialize
-  examples:
+  example:
   - '"The hotel owners are commercializing the beaches"'
   hypernym:
   - 01166589-v
   ili: i27442
-  pos: v
+  members:
+  - commercialize
+  partOfSpeech: v
 01167222-v:
-  definitions:
+  definition:
   - exploit as much as possible
-  entries:
-  - milk
-  examples:
+  example:
   - '"I am milking this for all it''s worth"'
   hypernym:
   - 01166589-v
   ili: i27443
-  pos: v
+  members:
+  - milk
+  partOfSpeech: v
 01167359-v:
-  definitions:
+  definition:
   - take or consume (regularly or habitually)
-  entries:
-  - use
-  - habituate
-  examples:
+  example:
   - '"She uses drugs rarely"'
   hypernym:
   - 01159300-v
   ili: i27444
-  pos: v
+  members:
+  - use
+  - habituate
+  partOfSpeech: v
 01167606-v:
-  definitions:
+  definition:
   - to cause (someone or oneself) to become dependent (on something, especially a
     narcotic drug)
   entails:
   - 01167359-v
-  entries:
-  - addict
-  - hook
   hypernym:
   - 00274244-v
   ili: i27445
-  pos: v
+  members:
+  - addict
+  - hook
+  partOfSpeech: v
 01167895-v:
-  definitions:
+  definition:
   - use to the utmost; exert vigorously or to full capacity
-  entries:
-  - strain
-  - extend
-  examples:
+  example:
   - '"He really extended himself when he climbed Kilimanjaro"'
   - '"Don''t strain your mind too much"'
   hypernym:
   - 01161188-v
   ili: i27446
-  pos: v
+  members:
+  - strain
+  - extend
+  partOfSpeech: v
 01168214-v:
-  definitions:
+  definition:
   - strain excessively
-  entries:
-  - overstrain
-  - overextend
-  examples:
+  example:
   - '"He overextended himself when he accepted the additional assignment"'
   hypernym:
   - 01167895-v
   ili: i27447
-  pos: v
+  members:
+  - overstrain
+  - overextend
+  partOfSpeech: v
 01168409-v:
-  definitions:
+  definition:
   - put to use
-  entries:
-  - exert
-  - exercise
-  examples:
+  example:
   - '"exert one''s power or influence"'
   hypernym:
   - 01161188-v
   ili: i27448
-  pos: v
+  members:
+  - exert
+  - exercise
+  partOfSpeech: v
 01168553-v:
-  definitions:
+  definition:
   - use to the limit
-  entries:
-  - tax
-  - task
-  examples:
+  example:
   - '"you are taxing my patience"'
   hypernym:
   - 01167895-v
   ili: i27449
-  pos: v
+  members:
+  - tax
+  - task
+  partOfSpeech: v
 01168667-v:
-  definitions:
+  definition:
   - eat a meal; take a meal
-  entries:
-  - eat
-  examples:
+  example:
   - '"We did not eat until 10 P.M. because there were so many phone calls"'
   - '"I didn''t eat yet, so I gladly accept your invitation"'
   hypernym:
   - 01159300-v
   ili: i27450
-  pos: v
+  members:
+  - eat
+  partOfSpeech: v
 01169274-v:
-  definitions:
+  definition:
   - buy and consume food from a restaurant or establishment that sells prepared food
-  entries:
-  - take out
-  - take away
-  examples:
+  example:
   - '"We''ll take out pizza, since I am too tired to cook"'
   hypernym:
   - 01168667-v
   ili: i27451
-  pos: v
+  members:
+  - take out
+  - take away
+  partOfSpeech: v
 01169522-v:
-  definitions:
+  definition:
   - take in nourishment
-  entries:
-  - victual
   hypernym:
   - 01168667-v
   ili: i27452
-  pos: v
+  members:
+  - victual
+  partOfSpeech: v
 01169624-v:
-  definitions:
+  definition:
   - eat food accompanied by lots of liquid; also use metaphorically
-  entries:
-  - wash down
-  examples:
+  example:
   - '"She washed down her dinner with a bottle of red wine"'
   - '"He washes down his worries with a nightly glass of whisky"'
   hypernym:
   - 01170802-v
   ili: i27453
-  pos: v
+  members:
+  - wash down
+  partOfSpeech: v
 01169871-v:
-  definitions:
+  definition:
   - eat at home
-  entries:
-  - eat in
-  - dine in
   hypernym:
   - 01168667-v
   ili: i27454
-  pos: v
+  members:
+  - eat in
+  - dine in
+  partOfSpeech: v
 01169974-v:
-  definitions:
+  definition:
   - eat at a restaurant or at somebody else's home
-  entries:
-  - eat out
-  - dine out
   hypernym:
   - 01168667-v
   ili: i27455
-  pos: v
+  members:
+  - eat out
+  - dine out
+  partOfSpeech: v
 01170114-v:
-  definitions:
+  definition:
   - give dinner to; host for dinner
-  entries:
-  - dine
-  examples:
+  example:
   - '"I''m wining and dining my friends"'
   hypernym:
   - 01180862-v
   ili: i27456
-  pos: v
-01170315-v:
-  definitions:
-  - have supper; eat dinner
-  entries:
+  members:
   - dine
-  examples:
+  partOfSpeech: v
+01170315-v:
+  definition:
+  - have supper; eat dinner
+  example:
   - '"We often dine with friends in this restaurant"'
   hypernym:
   - 01168667-v
   ili: i27457
-  pos: v
+  members:
+  - dine
+  partOfSpeech: v
 01170593-v:
-  definitions:
+  definition:
   - eat alfresco, in the open air
-  entries:
-  - picnic
-  examples:
+  example:
   - '"We picnicked near the lake on this gorgeous Sunday"'
   hypernym:
   - 01168667-v
   ili: i27458
-  pos: v
+  members:
+  - picnic
+  partOfSpeech: v
 01170802-v:
-  definitions:
+  definition:
   - take in solid food
   entails:
   - 01203727-v
   - 01204494-v
-  entries:
-  - eat
-  examples:
+  example:
   - '"She was eating a banana"'
   - '"What did you eat for dinner last night?"'
   ili: i27459
-  pos: v
+  members:
+  - eat
+  partOfSpeech: v
   similar:
   - 01182162-v
 01171347-v:
-  definitions:
+  definition:
   - eat a lot and without restraint
-  entries:
-  - gluttonize
-  - gluttonise
-  - fress
   hypernym:
   - 01170802-v
   ili: i27460
-  pos: v
+  members:
+  - gluttonize
+  - gluttonise
+  - fress
+  partOfSpeech: v
 01171485-v:
-  definitions:
+  definition:
   - eat hastily
-  entries:
-  - wolf
-  - wolf down
-  examples:
+  example:
   - '"The teenager wolfed down the pizza"'
   hypernym:
   - 01170802-v
   ili: i27461
-  pos: v
+  members:
+  - wolf
+  - wolf down
+  partOfSpeech: v
 01171608-v:
-  definitions:
+  definition:
   - eat noisily
-  entries:
-  - slurp
-  examples:
+  example:
   - '"He slurped his soup"'
   hypernym:
   - 01170802-v
   ili: i27462
-  pos: v
+  members:
+  - slurp
+  partOfSpeech: v
 01171713-v:
-  definitions:
+  definition:
   - drink large quantities of (liquid, especially alcoholic drink)
-  entries:
-  - swill
-  - swill down
   hypernym:
   - 01172332-v
   ili: i27463
-  pos: v
+  members:
+  - swill
+  - swill down
+  partOfSpeech: v
 01171869-v:
   causes:
   - 01172332-v
-  definitions:
+  definition:
   - force to drink
   domain_topic:
   - 00015568-n
-  entries:
-  - drench
   hypernym:
   - 01185006-v
   ili: i27464
-  pos: v
+  members:
+  - drench
+  partOfSpeech: v
 01171984-v:
-  definitions:
+  definition:
   - draw into the mouth by creating a practical vacuum in the mouth
-  entries:
-  - suck
-  examples:
+  example:
   - '"suck the poison from the place where the snake bit"'
   - '"suck on a straw"'
   - '"the baby sucked on the mother''s breast"'
   hypernym:
   - 01172332-v
   ili: i27465
-  pos: v
+  members:
+  - suck
+  partOfSpeech: v
   similar:
   - 01188961-v
 01172332-v:
-  definitions:
+  definition:
   - take in liquids
-  entries:
-  - drink
-  - imbibe
-  examples:
+  example:
   - '"The patient must drink several liters each day"'
   - '"The children like to drink soda"'
   hypernym:
   - 01159300-v
   ili: i27466
-  pos: v
+  members:
+  - drink
+  - imbibe
+  partOfSpeech: v
 01172846-v:
-  definitions:
+  definition:
   - drink from a flask with a gurgling sound
-  entries:
-  - guggle
-  - gurgle
   hypernym:
   - 01172332-v
   ili: i27467
-  pos: v
+  members:
+  - guggle
+  - gurgle
+  partOfSpeech: v
 01172967-v:
-  definitions:
+  definition:
   - drink in sips
-  entries:
-  - sip
-  examples:
+  example:
   - '"She was sipping her tea"'
   hypernym:
   - 01172332-v
   ili: i27468
-  pos: v
+  members:
+  - sip
+  partOfSpeech: v
 01173104-v:
-  definitions:
+  definition:
   - drink greedily or as if with great thirst
-  entries:
-  - guzzle
-  examples:
+  example:
   - '"The boys guzzled the cheap vodka"'
   hypernym:
   - 01172332-v
   ili: i27469
-  pos: v
+  members:
+  - guzzle
+  partOfSpeech: v
 01173263-v:
-  definitions:
+  definition:
   - take up with the tongue
-  entries:
-  - lap
-  - lap up
-  - lick
-  examples:
+  example:
   - '"The cat lapped up the milk"'
   - '"the cub licked the milk from its mother''s breast"'
   hypernym:
   - 01172332-v
   ili: i27470
-  pos: v
+  members:
+  - lap
+  - lap up
+  - lick
+  partOfSpeech: v
 01173463-v:
-  definitions:
+  definition:
   - consume alcohol
-  entries:
-  - hit the bottle
-  - drink
-  - booze
-  - fuddle
-  examples:
+  example:
   - '"We were up drinking all night"'
   hypernym:
   - 01159300-v
   ili: i27471
-  pos: v
+  members:
+  - hit the bottle
+  - drink
+  - booze
+  - fuddle
+  partOfSpeech: v
   similar:
   - 01174572-v
 01173860-v:
-  definitions:
+  definition:
   - consume excessive amounts of alcohol
-  entries:
-  - tank
   hypernym:
   - 01173463-v
   ili: i27472
-  pos: v
+  members:
+  - tank
+  partOfSpeech: v
 01173958-v:
-  definitions:
+  definition:
   - drink port
-  entries:
-  - port
-  examples:
+  example:
   - '"We were porting all in the club after dinner"'
   hypernym:
   - 01173463-v
   ili: i27473
-  pos: v
+  members:
+  - port
+  partOfSpeech: v
 01174096-v:
-  definitions:
+  definition:
   - drink claret
-  entries:
-  - claret
-  examples:
+  example:
   - '"They were clareting until well past midnight"'
   hypernym:
   - 01173463-v
   ili: i27474
-  pos: v
+  members:
+  - claret
+  partOfSpeech: v
 01174238-v:
-  definitions:
+  definition:
   - go from one pub to the next and get progressively more drunk
-  entries:
-  - pub-crawl
-  - bar hop
-  examples:
+  example:
   - '"he pub-crawled around Birmingham"'
   hypernym:
   - 01173463-v
   ili: i27475
-  pos: v
+  members:
+  - pub-crawl
+  - bar hop
+  partOfSpeech: v
 01174411-v:
-  definitions:
+  definition:
   - drink moderately but regularly
-  entries:
-  - tipple
-  - bib
-  examples:
+  example:
   - '"We tippled the cognac"'
   hypernym:
   - 01173463-v
   ili: i27476
-  pos: v
+  members:
+  - tipple
+  - bib
+  partOfSpeech: v
 01174572-v:
-  definitions:
+  definition:
   - drink excessive amounts of alcohol; be an alcoholic
-  entries:
-  - drink
-  - tope
-  examples:
+  example:
   - '"The husband drinks and beats his wife"'
   hypernym:
   - 01160479-v
   ili: i27477
-  pos: v
+  members:
+  - drink
+  - tope
+  partOfSpeech: v
   similar:
   - 01173463-v
 01174842-v:
-  definitions:
+  definition:
   - have a meal, usually with company
-  entries:
-  - break bread
-  examples:
+  example:
   - '"The early Christian disciples broke bread together"'
   hypernym:
   - 01168667-v
   ili: i27478
-  pos: v
+  members:
+  - break bread
+  partOfSpeech: v
 01174998-v:
-  definitions:
+  definition:
   - consume
-  entries:
-  - partake
-  - touch
-  examples:
+  example:
   - '"She didn''t touch her food all night"'
   hypernym:
   - 01159300-v
   ili: i27479
-  pos: v
+  members:
+  - partake
+  - touch
+  partOfSpeech: v
 01175135-v:
-  definitions:
+  definition:
   - partake of the Holy Eucharist sacrament
   domain_topic:
   - 06236188-n
-  entries:
-  - receive
   hypernym:
   - 01174998-v
   ili: i27480
-  pos: v
+  members:
+  - receive
+  partOfSpeech: v
 01175266-v:
-  definitions:
+  definition:
   - eat well
-  entries:
-  - fare
   hypernym:
   - 01170802-v
   ili: i27481
-  pos: v
+  members:
+  - fare
+  partOfSpeech: v
 01175354-v:
-  definitions:
+  definition:
   - eat heartily
-  entries:
-  - pitch in
-  - dig in
-  examples:
+  example:
   - '"The food was placed on the table and the children pitched in"'
   hypernym:
   - 01168667-v
   ili: i27482
-  pos: v
+  members:
+  - pitch in
+  - dig in
+  partOfSpeech: v
 01175505-v:
-  definitions:
+  definition:
   - eat up; usually refers to a considerable quantity of food
   entails:
   - 01168667-v
-  entries:
-  - tuck in
-  - tuck away
-  - put away
-  examples:
+  example:
   - '"My son tucked in a whole pizza"'
   hypernym:
   - 01199335-v
   ili: i27483
-  pos: v
+  members:
+  - tuck in
+  - tuck away
+  - put away
+  partOfSpeech: v
 01175702-v:
-  definitions:
+  definition:
   - eat a snack; eat lightly
-  entries:
-  - nosh
-  - snack
-  examples:
+  example:
   - '"She never loses weight because she snacks between meals"'
   hypernym:
   - 01168667-v
   ili: i27484
-  pos: v
+  members:
+  - nosh
+  - snack
+  partOfSpeech: v
 01175953-v:
-  definitions:
+  definition:
   - eat like a bird
-  entries:
-  - pick at
-  - peck at
-  - peck
-  examples:
+  example:
   - '"The anorexic girl just picks at her food"'
   hypernym:
   - 01170802-v
   ili: i27485
-  pos: v
-01176110-v:
-  definitions:
-  - eat by pecking at, like a bird
-  entries:
+  members:
+  - pick at
+  - peck at
   - peck
-  - pick up
+  partOfSpeech: v
+01176110-v:
+  definition:
+  - eat by pecking at, like a bird
   hypernym:
   - 01170802-v
   ili: i27486
-  pos: v
+  members:
+  - peck
+  - pick up
+  partOfSpeech: v
 01176230-v:
-  definitions:
+  definition:
   - eat hastily without proper chewing
-  entries:
-  - gobble
-  - bolt
-  examples:
+  example:
   - '"Don''t bolt your food!"'
   hypernym:
   - 01170802-v
   ili: i27487
-  pos: v
+  members:
+  - gobble
+  - bolt
+  partOfSpeech: v
 01176396-v:
-  definitions:
+  definition:
   - eat a large amount of food quickly
-  entries:
-  - garbage down
-  - gobble up
-  - shovel in
-  - bolt down
-  examples:
+  example:
   - '"The children gobbled down most of the birthday cake"'
   hypernym:
   - 01170802-v
   ili: i27488
-  pos: v
+  members:
+  - garbage down
+  - gobble up
+  - shovel in
+  - bolt down
+  partOfSpeech: v
 01176591-v:
-  definitions:
+  definition:
   - eat intermittently; take small bites of
-  entries:
-  - nibble
-  - pick
-  - piece
-  examples:
+  example:
   - '"He pieced at the sandwich all morning"'
   - '"She never eats a full meal--she just nibbles"'
   hypernym:
   - 01170802-v
   ili: i27489
-  pos: v
+  members:
+  - nibble
+  - pick
+  - piece
+  partOfSpeech: v
 01176852-v:
-  definitions:
+  definition:
   - chew the cuds
   domain_topic:
   - 02401652-n
-  entries:
-  - ruminate
-  examples:
+  example:
   - '"cows ruminate"'
   hypernym:
   - 01170802-v
   ili: i27490
-  pos: v
+  members:
+  - ruminate
+  partOfSpeech: v
 01177039-v:
-  definitions:
+  definition:
   - eat lightly, try different dishes
-  entries:
-  - browse
-  - graze
-  examples:
+  example:
   - '"There was so much food at the party that we quickly got sated just by browsing"'
   hypernym:
   - 01175702-v
   ili: i27491
-  pos: v
+  members:
+  - browse
+  - graze
+  partOfSpeech: v
 01177270-v:
-  definitions:
+  definition:
   - chew noisily or vigorously
-  entries:
-  - chomp
-  - champ
-  examples:
+  example:
   - '"The boy chomped his sandwich"'
   hypernym:
   - 01203727-v
   ili: i27492
-  pos: v
-01177429-v:
-  definitions:
-  - chafe at the bit, like horses
-  entries:
+  members:
+  - chomp
   - champ
+  partOfSpeech: v
+01177429-v:
+  definition:
+  - chafe at the bit, like horses
   hypernym:
   - 01203727-v
   ili: i27493
-  pos: v
+  members:
+  - champ
+  partOfSpeech: v
 01177521-v:
-  definitions:
+  definition:
   - grind with the gums; chew without teeth and with great difficulty
-  entries:
-  - mumble
-  - gum
-  examples:
+  example:
   - '"the old man had no teeth left and mumbled his food"'
   hypernym:
   - 01203727-v
   ili: i27494
-  pos: v
+  members:
+  - mumble
+  - gum
+  partOfSpeech: v
 01177764-v:
-  definitions:
+  definition:
   - propose a toast to
   entails:
   - 01173463-v
-  entries:
-  - toast
-  - drink
-  - pledge
-  - salute
-  - wassail
-  examples:
+  example:
   - '"Let us toast the birthday girl!"'
   - '"Let''s drink to the New Year"'
   hypernym:
   - 02551772-v
   ili: i27495
-  pos: v
+  members:
+  - toast
+  - drink
+  - pledge
+  - salute
+  - wassail
+  partOfSpeech: v
 01178107-v:
-  definitions:
+  definition:
   - propose
-  entries:
-  - give
-  examples:
+  example:
   - '"He gave the first of many toasts at the birthday party"'
   hypernym:
   - 01177764-v
   ili: i27496
-  pos: v
+  members:
+  - give
+  partOfSpeech: v
 01178234-v:
-  definitions:
+  definition:
   - drink to the last drop
-  entries:
-  - drain the cup
-  - drink up
-  examples:
+  example:
   - '"drink up--there''s more wine coming"'
   hypernym:
   - 01172332-v
   ili: i27497
-  pos: v
+  members:
+  - drain the cup
+  - drink up
+  partOfSpeech: v
 01178376-v:
-  definitions:
+  definition:
   - eat in a mess hall
   domain_topic:
   - 08215965-n
-  entries:
-  - mess
   hypernym:
   - 01168667-v
   ili: i27498
-  pos: v
+  members:
+  - mess
+  partOfSpeech: v
 01178529-v:
-  definitions:
+  definition:
   - provide with choice or abundant food or drink
-  entries:
-  - regale
-  - treat
-  examples:
+  example:
   - '"Don''t worry about the expensive wine--I''m treating"'
   - '"She treated her houseguests with good food every night"'
   hypernym:
   - 01185006-v
   ili: i27499
-  pos: v
+  members:
+  - regale
+  - treat
+  partOfSpeech: v
   similar:
   - 02266449-v
 01178864-v:
-  definitions:
+  definition:
   - treat to wine
-  entries:
-  - wine
-  examples:
+  example:
   - '"Our relatives in Italy wined and dined us for a week"'
   hypernym:
   - 01178529-v
   ili: i27500
-  pos: v
+  members:
+  - wine
+  partOfSpeech: v
 01179031-v:
-  definitions:
+  definition:
   - subject to the influence of alcohol
-  entries:
-  - alcoholize
-  examples:
+  example:
   - '"After we finished dinner, we were thoroughly alcoholized"'
   hypernym:
   - 01178529-v
   ili: i27501
-  pos: v
+  members:
+  - alcoholize
+  partOfSpeech: v
 01179194-v:
-  definitions:
+  definition:
   - provide food and lodging (for)
   entails:
   - 01180862-v
-  entries:
-  - board
-  examples:
+  example:
   - '"The old lady is boarding three men"'
   hypernym:
   - 01185006-v
   ili: i27502
-  pos: v
+  members:
+  - board
+  partOfSpeech: v
   similar:
   - 01179415-v
 01179415-v:
-  definitions:
+  definition:
   - lodge and take meals (at)
   entails:
   - 01159300-v
-  entries:
-  - board
   hypernym:
   - 02620422-v
   ili: i27503
-  pos: v
+  members:
+  - board
+  partOfSpeech: v
   similar:
   - 01179194-v
 01179611-v:
-  definitions:
+  definition:
   - live in the house where one works
-  entries:
-  - live in
-  - sleep in
-  examples:
+  example:
   - '"our babysitter lives in, as it is too far to commute for her"'
   hypernym:
   - 01179194-v
   ili: i27504
-  pos: v
+  members:
+  - live in
+  - sleep in
+  partOfSpeech: v
 01179802-v:
-  definitions:
+  definition:
   - work in a house where one does not live
-  entries:
-  - live out
-  - sleep out
-  examples:
+  example:
   - '"our cook lives out; he can easily commute from his home"'
   hypernym:
   - 02065774-v
   ili: i27505
-  pos: v
+  members:
+  - live out
+  - sleep out
+  partOfSpeech: v
 01179996-v:
-  definitions:
+  definition:
   - wander and feed
-  entries:
-  - forage
-  examples:
+  example:
   - '"The animals forage in the woods"'
   hypernym:
   - 01182162-v
   ili: i27506
-  pos: v
+  members:
+  - forage
+  partOfSpeech: v
 01180154-v:
-  definitions:
+  definition:
   - feed greedily
-  entries:
-  - raven
-  examples:
+  example:
   - '"The lions ravened the bodies"'
   hypernym:
   - 01182162-v
   ili: i27507
-  pos: v
+  members:
+  - raven
+  partOfSpeech: v
 01180270-v:
-  definitions:
+  definition:
   - feed on carrion or refuse
-  entries:
-  - scavenge
-  examples:
+  example:
   - '"hyenas scavenge"'
   hypernym:
   - 01180862-v
   ili: i27508
-  pos: v
+  members:
+  - scavenge
+  partOfSpeech: v
 01180398-v:
-  definitions:
+  definition:
   - give fodder (to domesticated animals)
-  entries:
-  - fodder
   hypernym:
   - 01180862-v
   ili: i27509
-  pos: v
+  members:
+  - fodder
+  partOfSpeech: v
 01180517-v:
-  definitions:
+  definition:
   - feed pigs
-  entries:
-  - slop
-  - swill
   hypernym:
   - 01180862-v
   ili: i27510
-  pos: v
+  members:
+  - slop
+  - swill
+  partOfSpeech: v
 01180632-v:
-  definitions:
+  definition:
   - feed through the beak by regurgitating previously swallowed food
-  entries:
-  - regurgitate
-  examples:
+  example:
   - '"many birds feed their young by regurgitating what they have swallowed and carried
     to the nest"'
   hypernym:
   - 01180862-v
   ili: i27511
-  pos: v
+  members:
+  - regurgitate
+  partOfSpeech: v
 01180862-v:
   causes:
   - 01170802-v
-  definitions:
+  definition:
   - give food to
-  entries:
-  - feed
-  - give
-  examples:
+  example:
   - '"Feed the starving children in India"'
   - '"don''t give the child this tough meat"'
   hypernym:
   - 01185006-v
   ili: i27512
-  pos: v
+  members:
+  - feed
+  - give
+  partOfSpeech: v
 01181452-v:
-  definitions:
+  definition:
   - feed (cattle) with corn
-  entries:
-  - corn
   hypernym:
   - 01180862-v
   ili: i27513
-  pos: v
+  members:
+  - corn
+  partOfSpeech: v
 01181573-v:
-  definitions:
+  definition:
   - provide with insufficient quality or quantity of nourishment
-  entries:
-  - undernourish
-  - malnourish
-  examples:
+  example:
   - '"The stunted growth of these children shows that they are undernourished"'
   hypernym:
   - 01180862-v
   ili: i27514
-  pos: v
+  members:
+  - undernourish
+  - malnourish
+  partOfSpeech: v
 01181827-v:
-  definitions:
+  definition:
   - feed excessively
-  entries:
-  - overfeed
   hypernym:
   - 01180862-v
   ili: i27515
-  pos: v
+  members:
+  - overfeed
+  partOfSpeech: v
 01181935-v:
-  definitions:
+  definition:
   - feed with a spoon
-  entries:
-  - spoonfeed
   hypernym:
   - 01180862-v
   ili: i27516
-  pos: v
+  members:
+  - spoonfeed
+  partOfSpeech: v
 01182037-v:
-  definitions:
+  definition:
   - feed someone who will not or cannot eat
-  entries:
-  - force-feed
   hypernym:
   - 01180862-v
   ili: i27517
-  pos: v
+  members:
+  - force-feed
+  partOfSpeech: v
 01182162-v:
-  definitions:
+  definition:
   - take in food; used of animals only
-  entries:
-  - feed
-  - eat
-  examples:
+  example:
   - '"This dog doesn''t eat certain kinds of meat"'
   - '"What do whales eat?"'
   hypernym:
   - 01159300-v
   ili: i27518
-  pos: v
+  members:
+  - feed
+  - eat
+  partOfSpeech: v
   similar:
   - 01170802-v
 01182503-v:
-  definitions:
+  definition:
   - serve as food for; be the food for
-  entries:
-  - feed
-  examples:
+  example:
   - '"This dish feeds six"'
   hypernym:
   - 01185006-v
   ili: i27519
-  pos: v
+  members:
+  - feed
+  partOfSpeech: v
 01182648-v:
-  definitions:
+  definition:
   - provide (usually but not necessarily food)
-  entries:
-  - serve
-  - serve up
-  - dish out
-  - dish up
-  - dish
-  examples:
+  example:
   - '"We serve meals for the homeless"'
   - '"She dished out the soup at 8 P.M."'
   - '"The entertainers served up a lively show"'
   hypernym:
   - 01185006-v
   ili: i27520
-  pos: v
+  members:
+  - serve
+  - serve up
+  - dish out
+  - dish up
+  - dish
+  partOfSpeech: v
   similar:
   - 01183592-v
 01182998-v:
-  definitions:
+  definition:
   - cook and serve on a plank
-  entries:
-  - plank
-  examples:
+  example:
   - '"Planked vegetable"'
   - '"Planked shad"'
   hypernym:
   - 01182648-v
   ili: i27521
-  pos: v
+  members:
+  - plank
+  partOfSpeech: v
 01183141-v:
-  definitions:
+  definition:
   - supply food ready to eat; for parties and banquets
-  entries:
-  - cater
   hypernym:
   - 01185006-v
   ili: i27522
-  pos: v
+  members:
+  - cater
+  partOfSpeech: v
 01183272-v:
-  definitions:
+  definition:
   - arrange for sexual partners for others
-  entries:
-  - pander
-  - pimp
-  - procure
   hypernym:
   - 01185006-v
   ili: i27523
-  pos: v
+  members:
+  - pander
+  - pimp
+  - procure
+  partOfSpeech: v
 01183463-v:
-  definitions:
+  definition:
   - feed into; supply
-  entries:
-  - feed
-  examples:
+  example:
   - '"Her success feeds her vanity"'
   hypernym:
   - 02332196-v
   ili: i27524
-  pos: v
+  members:
+  - feed
+  partOfSpeech: v
 01183592-v:
-  definitions:
+  definition:
   - help to some food; help with food or drink
-  entries:
-  - serve
-  - help
-  examples:
+  example:
   - '"I served him three times, and after that he helped himself"'
   hypernym:
   - 01185006-v
   ili: i27525
-  pos: v
+  members:
+  - serve
+  - help
+  partOfSpeech: v
   similar:
   - 01182648-v
 01183856-v:
-  definitions:
+  definition:
   - supply the force or power for the functioning of
-  entries:
-  - power
-  examples:
+  example:
   - '"The gasoline powers the engines"'
   hypernym:
   - 01185006-v
   ili: i27526
-  pos: v
+  members:
+  - power
+  partOfSpeech: v
 01184038-v:
-  definitions:
+  definition:
   - cause to function by supplying the force or power for or by controlling
-  entries:
-  - drive
-  examples:
+  example:
   - '"The amplifier drives the tube"'
   - '"steam drives the engines"'
   - '"this device drives the disks for the computer"'
   hypernym:
   - 01183856-v
   ili: i27527
-  pos: v
+  members:
+  - drive
+  partOfSpeech: v
 01184318-v:
-  definitions:
+  definition:
   - provide as food
-  entries:
-  - feed
-  examples:
+  example:
   - '"Feed the guests the nuts"'
   hypernym:
   - 01185006-v
   ili: i27528
-  pos: v
-01184449-v:
-  definitions:
-  - gratify
-  entries:
+  members:
   - feed
-  - feast
-  examples:
+  partOfSpeech: v
+01184449-v:
+  definition:
+  - gratify
+  example:
   - '"feed one''s eyes on a gorgeous view"'
   hypernym:
   - 01178529-v
   ili: i27529
-  pos: v
+  members:
+  - feed
+  - feast
+  partOfSpeech: v
 01184590-v:
-  definitions:
+  definition:
   - yield (to); give satisfaction to
-  entries:
-  - gratify
-  - pander
-  - indulge
   hypernym:
   - 01185006-v
   ili: i27530
-  pos: v
+  members:
+  - gratify
+  - pander
+  - indulge
+  partOfSpeech: v
 01184856-v:
-  definitions:
+  definition:
   - engage without restraint in an activity and indulge, as when shopping
-  entries:
-  - spree
   hypernym:
   - 01184590-v
   ili: i27531
-  pos: v
+  members:
+  - spree
+  partOfSpeech: v
 01185006-v:
-  definitions:
+  definition:
   - give what is desired or needed, especially support, food or sustenance
-  entries:
-  - provide
-  - supply
-  - ply
-  - cater
-  examples:
+  example:
   - '"The hostess provided lunch for all the guests"'
   hypernym:
   - 02204104-v
   ili: i27532
-  pos: v
+  members:
+  - provide
+  - supply
+  - ply
+  - cater
+  partOfSpeech: v
 01185721-v:
-  definitions:
+  definition:
   - provide with a base, support, lining, or backing
-  entries:
-  - underlay
-  examples:
+  example:
   - '"underlay the boards with joists"'
   hypernym:
   - 01185006-v
   ili: i27533
-  pos: v
+  members:
+  - underlay
+  partOfSpeech: v
 01185870-v:
-  definitions:
+  definition:
   - fill, satisfy or meet a want or need or condition or restriction
-  entries:
+  example:
+  - '"does this paper meet the requirements for the degree?"'
+  - '"This job doesn''t match my dreams"'
+  - '"meet a need"'
+  hypernym:
+  - 01185006-v
+  ili: i35005
+  members:
   - fit
   - conform to
   - meet
@@ -1491,185 +1498,184 @@
   - fill
   - fulfill
   - fulfil
-  examples:
-  - '"does this paper meet the requirements for the degree?"'
-  - '"This job doesn''t match my dreams"'
-  - '"meet a need"'
-  hypernym:
-  - 01185006-v
-  ili: i35005
-  pos: v
+  partOfSpeech: v
 01186429-v:
-  definitions:
+  definition:
   - be satisfactory for; meet the requirements of or serve the purpose of
-  entries:
-  - answer
-  examples:
+  example:
   - '"This may answer her needs"'
   hypernym:
   - 01185870-v
   ili: i27535
-  pos: v
+  members:
+  - answer
+  partOfSpeech: v
 01186591-v:
-  definitions:
+  definition:
   - provide with a horse or horses
-  entries:
-  - horse
   hypernym:
   - 01185006-v
   ili: i27536
-  pos: v
+  members:
+  - horse
+  partOfSpeech: v
 01186728-v:
-  definitions:
+  definition:
   - provide with fresh horses
-  entries:
-  - remount
-  examples:
+  example:
   - '"remount a regiment"'
   hypernym:
   - 01186591-v
   ili: i27537
-  pos: v
+  members:
+  - remount
+  partOfSpeech: v
 01186866-v:
-  definitions:
+  definition:
   - provide abundantly with
-  entries:
-  - shower
-  examples:
+  example:
   - '"He showered her with presents"'
   hypernym:
   - 01185006-v
   ili: i27538
-  pos: v
+  members:
+  - shower
+  partOfSpeech: v
 01186986-v:
-  definitions:
+  definition:
   - provide with something desired or needed
-  entries:
-  - accommodate
-  examples:
+  example:
   - '"Can you accommodate me with a rental car?"'
   hypernym:
   - 01185006-v
   ili: i27539
-  pos: v
+  members:
+  - accommodate
+  partOfSpeech: v
 01187158-v:
-  definitions:
+  definition:
   - supply with necessities and support
-  entries:
-  - sustain
-  - keep
-  - maintain
-  examples:
+  example:
   - '"She alone sustained her family"'
   - '"The money will sustain our good cause"'
   - '"There''s little to earn and many to keep"'
   hypernym:
   - 02208144-v
   ili: i27540
-  pos: v
+  members:
+  - sustain
+  - keep
+  - maintain
+  partOfSpeech: v
 01187544-v:
-  definitions:
+  definition:
   - support by being a patron of
-  entries:
-  - patronage
   hypernym:
   - 01187158-v
   ili: i27541
-  pos: v
+  members:
+  - patronage
+  partOfSpeech: v
 01187681-v:
-  definitions:
+  definition:
   - maintain by seeding without human intervention
-  entries:
-  - reseed
-  examples:
+  example:
   - '"Some plants reseed themselves indefinitely"'
   hypernym:
   - 01187158-v
   ili: i27542
-  pos: v
+  members:
+  - reseed
+  partOfSpeech: v
 01187837-v:
-  definitions:
+  definition:
   - take the midday meal
-  entries:
-  - lunch
-  examples:
+  example:
   - '"At what time are you lunching?"'
   hypernym:
   - 01168667-v
   ili: i27543
-  pos: v
-01188008-v:
-  definitions:
-  - provide a midday meal for
-  entries:
+  members:
   - lunch
-  examples:
+  partOfSpeech: v
+01188008-v:
+  definition:
+  - provide a midday meal for
+  example:
   - '"She lunched us well"'
   hypernym:
   - 01180862-v
   ili: i27544
-  pos: v
+  members:
+  - lunch
+  partOfSpeech: v
 01188137-v:
-  definitions:
+  definition:
   - eat a meal in the late morning
-  entries:
-  - brunch
-  examples:
+  example:
   - '"We brunch in Sundays"'
   hypernym:
   - 01168667-v
   ili: i27545
-  pos: v
+  members:
+  - brunch
+  partOfSpeech: v
 01188273-v:
-  definitions:
+  definition:
   - eat an early morning meal
-  entries:
-  - breakfast
-  examples:
+  example:
   - '"We breakfast at seven"'
   hypernym:
   - 01168667-v
   ili: i27546
-  pos: v
-01188408-v:
-  definitions:
-  - provide breakfast for
-  entries:
+  members:
   - breakfast
+  partOfSpeech: v
+01188408-v:
+  definition:
+  - provide breakfast for
   hypernym:
   - 01180862-v
   ili: i27547
-  pos: v
+  members:
+  - breakfast
+  partOfSpeech: v
 01188514-v:
-  definitions:
+  definition:
   - partake in a feast or banquet
-  entries:
-  - feast
-  - banquet
-  - junket
   hypernym:
   - 01168667-v
   ili: i27548
-  pos: v
-  similar:
-  - 01188741-v
-01188741-v:
-  definitions:
-  - provide a feast or banquet for
-  entries:
+  members:
   - feast
   - banquet
   - junket
+  partOfSpeech: v
+  similar:
+  - 01188741-v
+01188741-v:
+  definition:
+  - provide a feast or banquet for
   hypernym:
   - 01196951-v
   ili: i27549
-  pos: v
+  members:
+  - feast
+  - banquet
+  - junket
+  partOfSpeech: v
   similar:
   - 01188514-v
 01188961-v:
-  definitions:
+  definition:
   - give suck to
-  entries:
+  example:
+  - '"The wetnurse suckled the infant"'
+  - '"You cannot nurse your baby in public in some places"'
+  hypernym:
+  - 01180862-v
+  ili: i27550
+  members:
   - breastfeed
   - suckle
   - suck
@@ -1677,427 +1683,427 @@
   - wet-nurse
   - lactate
   - give suck
-  examples:
-  - '"The wetnurse suckled the infant"'
-  - '"You cannot nurse your baby in public in some places"'
-  hypernym:
-  - 01180862-v
-  ili: i27550
-  pos: v
+  partOfSpeech: v
   similar:
   - 01171984-v
 01189377-v:
-  definitions:
+  definition:
   - take care of an infant without breastfeeding it
-  entries:
-  - dry-nurse
   hypernym:
   - 02555993-v
   ili: i27551
-  pos: v
+  members:
+  - dry-nurse
+  partOfSpeech: v
 01189491-v:
-  definitions:
+  definition:
   - gradually deprive (infants and young mammals) of mother's milk
   entails:
   - 01188961-v
-  entries:
-  - wean
-  - ablactate
-  examples:
+  example:
   - '"she weaned her baby when he was 3 months old and started him on powdered milk"'
   - '"The kitten was weaned and fed by its owner with a bottle"'
   hypernym:
   - 02318230-v
   ili: i27552
-  pos: v
+  members:
+  - wean
+  - ablactate
+  partOfSpeech: v
 01189804-v:
-  definitions:
+  definition:
   - feed (infants) with a bottle
-  entries:
-  - bottlefeed
   hypernym:
   - 01180862-v
   ili: i27553
-  pos: v
+  members:
+  - bottlefeed
+  partOfSpeech: v
 01189918-v:
-  definitions:
+  definition:
   - suck milk from the mother's breasts
   entails:
   - 01172332-v
-  entries:
-  - suckle
-  examples:
+  example:
   - '"the infant was suckling happily"'
   hypernym:
   - 01182162-v
   ili: i27554
-  pos: v
+  members:
+  - suckle
+  partOfSpeech: v
 01190070-v:
-  definitions:
+  definition:
   - die of food deprivation
-  entries:
-  - starve
-  - famish
-  examples:
+  example:
   - '"The political prisoners starved to death"'
   - '"Many famished in the countryside during the drought"'
   hypernym:
   - 00359085-v
   ili: i27555
-  pos: v
+  members:
+  - starve
+  - famish
+  partOfSpeech: v
 01190273-v:
   causes:
   - 01190677-v
-  definitions:
+  definition:
   - deprive of food
-  entries:
-  - starve
-  - famish
-  examples:
+  example:
   - '"They starved the prisoners"'
   hypernym:
   - 02318230-v
   ili: i27556
-  pos: v
+  members:
+  - starve
+  - famish
+  partOfSpeech: v
   similar:
   - 01190481-v
 01190481-v:
-  definitions:
+  definition:
   - deprive of a necessity and cause suffering
-  entries:
-  - starve
-  examples:
+  example:
   - '"he is starving her of love"'
   - '"The engine was starved of fuel"'
   hypernym:
   - 02318230-v
   ili: i27557
-  pos: v
+  members:
+  - starve
+  partOfSpeech: v
   similar:
   - 01190273-v
 01190677-v:
-  definitions:
+  definition:
   - be hungry; go without food
-  entries:
-  - starve
-  - hunger
-  - famish
-  examples:
+  example:
   - '"Let''s eat--I''m starving!"'
   hypernym:
   - 00064841-v
   ili: i27558
-  pos: v
+  members:
+  - starve
+  - hunger
+  - famish
+  partOfSpeech: v
 01190875-v:
-  definitions:
+  definition:
   - be sated, have enough to eat
-  entries:
-  - be full
-  examples:
+  example:
   - '"I''m full--don''t give me any more beans, please"'
   ili: i27559
-  pos: v
+  members:
+  - be full
+  partOfSpeech: v
 01191018-v:
-  definitions:
+  definition:
   - have a craving, appetite, or great desire for
-  entries:
+  hypernym:
+  - 01829179-v
+  ili: i27560
+  members:
   - crave
   - hunger
   - thirst
   - starve
   - lust
-  hypernym:
-  - 01829179-v
-  ili: i27560
-  pos: v
+  partOfSpeech: v
 01191258-v:
-  definitions:
+  definition:
   - have need of
-  entries:
-  - want
-  - need
-  - require
-  examples:
+  example:
   - '"This piano wants the attention of a competent tuner"'
   hypernym:
   - 02610777-v
   ili: i27561
-  pos: v
+  members:
+  - want
+  - need
+  - require
+  partOfSpeech: v
 01191520-v:
-  definitions:
+  definition:
   - demand immediate action
-  entries:
-  - cry
-  examples:
+  example:
   - '"This situation is crying for attention"'
   hypernym:
   - 01191258-v
   ili: i27562
-  pos: v
+  members:
+  - cry
+  partOfSpeech: v
 01191646-v:
-  definitions:
+  definition:
   - have or feel a need for
-  entries:
-  - need
-  examples:
+  example:
   - '"always needing friends and money"'
   ili: i27563
-  pos: v
+  members:
+  - need
+  partOfSpeech: v
 01191757-v:
-  definitions:
+  definition:
   - eat sparingly, for health reasons or to lose weight
-  entries:
-  - diet
   hypernym:
   - 01191960-v
   ili: i27564
-  pos: v
+  members:
+  - diet
+  partOfSpeech: v
 01191960-v:
-  definitions:
+  definition:
   - abstain from eating
-  entries:
-  - fast
-  examples:
+  example:
   - '"Before the medical exam, you must fast"'
   hypernym:
   - 01198570-v
   ili: i27565
-  pos: v
-01192137-v:
-  definitions:
-  - abstain from certain foods, as for religious or medical reasons
-  entries:
+  members:
   - fast
-  examples:
+  partOfSpeech: v
+01192137-v:
+  definition:
+  - abstain from certain foods, as for religious or medical reasons
+  example:
   - '"Catholics sometimes fast during Lent"'
   hypernym:
   - 01198570-v
   ili: i27566
-  pos: v
+  members:
+  - fast
+  partOfSpeech: v
 01192356-v:
-  definitions:
+  definition:
   - refrain from certain foods or beverages
-  entries:
-  - keep off
-  - avoid
-  examples:
+  example:
   - '"I keep off drugs"'
   - '"During Ramadan, Muslims avoid tobacco during the day"'
   hypernym:
   - 01198570-v
   ili: i27567
-  pos: v
+  members:
+  - keep off
+  - avoid
+  partOfSpeech: v
 01192545-v:
-  definitions:
+  definition:
   - follow a regimen or a diet, as for health reasons
-  entries:
-  - diet
-  examples:
+  example:
   - '"He has high blood pressure and must stick to a low-salt diet"'
   hypernym:
   - 01192137-v
   ili: i27568
-  pos: v
+  members:
+  - diet
+  partOfSpeech: v
 01192810-v:
-  definitions:
+  definition:
   - become drunk or drink excessively
-  entries:
+  hypernym:
+  - 01173463-v
+  ili: i27569
+  members:
   - souse
   - soak
   - inebriate
   - hit it up
-  hypernym:
-  - 01173463-v
-  ili: i27569
-  pos: v
+  partOfSpeech: v
   similar:
   - 90004861-v
 01193027-v:
-  definitions:
+  definition:
   - make drunk (with alcoholic drinks)
-  entries:
-  - intoxicate
-  - soak
-  - inebriate
   hypernym:
   - 00019441-v
   ili: i27570
-  pos: v
+  members:
+  - intoxicate
+  - soak
+  - inebriate
+  partOfSpeech: v
 01193274-v:
-  definitions:
+  definition:
   - make stupid with alcohol
-  entries:
-  - befuddle
-  - fuddle
   hypernym:
   - 01193027-v
   ili: i27571
-  pos: v
+  members:
+  - befuddle
+  - fuddle
+  partOfSpeech: v
 01193373-v:
-  definitions:
+  definition:
   - drink wine
-  entries:
-  - wine
   hypernym:
   - 01173463-v
   ili: i27572
-  pos: v
+  members:
+  - wine
+  partOfSpeech: v
 01193481-v:
-  definitions:
+  definition:
   - take delight in
   entails:
   - 01160888-v
-  entries:
+  example:
+  - '"he delights in his granddaughter"'
+  ili: i27573
+  members:
   - delight
   - enjoy
   - revel
-  examples:
-  - '"he delights in his granddaughter"'
-  ili: i27573
-  pos: v
+  partOfSpeech: v
 01193765-v:
-  definitions:
+  definition:
   - enjoy oneself greatly
-  entries:
-  - have a ball
-  - have a good time
-  examples:
+  example:
   - '"We had a ball at the party and didn''t come home until 2 AM"'
   hypernym:
   - 01193481-v
   ili: i27574
-  pos: v
+  members:
+  - have a ball
+  - have a good time
+  partOfSpeech: v
 01193936-v:
-  definitions:
+  definition:
   - delight greatly in
-  entries:
-  - wallow
-  examples:
+  example:
   - '"wallow in your success!"'
   hypernym:
   - 01193481-v
   ili: i27575
-  pos: v
+  members:
+  - wallow
+  partOfSpeech: v
 01194045-v:
-  definitions:
+  definition:
   - enjoy oneself
-  entries:
-  - live it up
-  examples:
+  example:
   - '"it''s your birthday, so let''s live it up!"'
   hypernym:
   - 01193481-v
   ili: i27576
-  pos: v
+  members:
+  - live it up
+  partOfSpeech: v
 01194178-v:
-  definitions:
+  definition:
   - enjoy to excess
-  entries:
-  - indulge
-  - luxuriate
-  examples:
+  example:
   - '"She indulges in ice cream"'
   hypernym:
   - 01159815-v
   ili: i27577
-  pos: v
+  members:
+  - indulge
+  - luxuriate
+  partOfSpeech: v
 01194371-v:
-  definitions:
+  definition:
   - indulge (one's appetite) to satiety
-  entries:
-  - surfeit
   hypernym:
   - 01194178-v
   ili: i27578
-  pos: v
+  members:
+  - surfeit
+  partOfSpeech: v
 01194507-v:
-  definitions:
+  definition:
   - devote oneself entirely to something; indulge in to an immoderate degree, usually
     with pleasure
-  entries:
-  - wallow
-  examples:
+  example:
   - '"Wallow in luxury"'
   - '"wallow in your sorrows"'
   hypernym:
   - 02516942-v
   ili: i27579
-  pos: v
+  members:
+  - wallow
+  partOfSpeech: v
 01194712-v:
-  definitions:
+  definition:
   - live promiscuously and self-indulgently
-  entries:
-  - sow one's oats
-  - sow one's wild oats
   hypernym:
   - 01184590-v
   ili: i27580
-  pos: v
+  members:
+  - sow one's oats
+  - sow one's wild oats
+  partOfSpeech: v
 01194845-v:
-  definitions:
+  definition:
   - dip into a liquid while eating
-  entries:
-  - dunk
-  - dip
-  examples:
+  example:
   - '"She dunked the piece of bread in the sauce"'
   hypernym:
   - 01580466-v
   ili: i27581
-  pos: v
+  members:
+  - dunk
+  - dip
+  partOfSpeech: v
 01195043-v:
-  definitions:
+  definition:
   - have benefit from
-  entries:
-  - enjoy
-  examples:
+  example:
   - '"enjoy privileges"'
   hypernym:
   - 01161188-v
   ili: i27582
-  pos: v
+  members:
+  - enjoy
+  partOfSpeech: v
 01195161-v:
-  definitions:
+  definition:
   - be able to spare or give up
-  entries:
-  - afford
-  examples:
+  example:
   - '"I can''t afford to spend two hours with this person"'
   hypernym:
   - 02271905-v
   ili: i27583
-  pos: v
+  members:
+  - afford
+  partOfSpeech: v
 01195306-v:
-  definitions:
+  definition:
   - to be spent or finished
-  entries:
-  - run low
-  - run short
-  - go
-  examples:
+  example:
   - '"The money had gone after a few days"'
   - '"Gas is running low at the gas stations in the Midwest"'
   hypernym:
   - 02615799-v
   ili: i27584
-  pos: v
+  members:
+  - run low
+  - run short
+  - go
+  partOfSpeech: v
   similar:
   - 01195525-v
 01195525-v:
-  definitions:
+  definition:
   - be spent
-  entries:
-  - go
-  examples:
+  example:
   - '"All my money went for food and rent"'
   ili: i27585
-  pos: v
+  members:
+  - go
+  partOfSpeech: v
   similar:
   - 01195306-v
 01195632-v:
-  definitions:
+  definition:
   - overeat or eat immodestly; make a pig of oneself
-  entries:
+  example:
+  - '"She stuffed herself at the dinner"'
+  - '"The kids binged on ice cream"'
+  hypernym:
+  - 01168667-v
+  ili: i27586
+  members:
   - gorge
   - ingurgitate
   - overindulge
@@ -2114,115 +2120,114 @@
   - pig out
   - satiate
   - scarf out
-  examples:
-  - '"She stuffed herself at the dinner"'
-  - '"The kids binged on ice cream"'
-  hypernym:
-  - 01168667-v
-  ili: i27586
-  pos: v
+  partOfSpeech: v
 01196102-v:
-  definitions:
+  definition:
   - take or use
-  entries:
-  - avail
-  - help
-  examples:
+  example:
   - '"She helped herself to some of the office supplies"'
   hypernym:
   - 01165070-v
   ili: i27587
-  pos: v
+  members:
+  - avail
+  - help
+  partOfSpeech: v
 01196254-v:
-  definitions:
+  definition:
   - fill to satisfaction
-  entries:
-  - satiate
-  - sate
-  - replete
-  - fill
-  examples:
+  example:
   - '"I am sated"'
   hypernym:
   - 01159300-v
   ili: i27588
-  pos: v
+  members:
+  - satiate
+  - sate
+  - replete
+  - fill
+  partOfSpeech: v
 01196465-v:
-  definitions:
+  definition:
   - cause surfeit through excess though initially pleasing
-  entries:
-  - cloy
-  - pall
-  examples:
+  example:
   - '"Too much spicy food cloyed his appetite"'
   hypernym:
   - 01196254-v
   ili: i27589
-  pos: v
+  members:
+  - cloy
+  - pall
+  partOfSpeech: v
 01196647-v:
-  definitions:
+  definition:
   - overcome or allay
-  entries:
-  - quell
-  - stay
-  - appease
-  examples:
+  example:
   - '"quell my hunger"'
   hypernym:
   - 01185870-v
   ili: i27590
-  pos: v
+  members:
+  - quell
+  - stay
+  - appease
+  partOfSpeech: v
 01196771-v:
-  definitions:
+  definition:
   - satisfy in a limited way
-  entries:
-  - content
-  examples:
+  example:
   - '"He contented himself with one glass of beer per day"'
   hypernym:
   - 01185870-v
   ili: i27591
-  pos: v
+  members:
+  - content
+  partOfSpeech: v
 01196951-v:
-  definitions:
+  definition:
   - be the host of or for
-  entries:
-  - host
-  examples:
+  example:
   - '"We hosted 4 couples last night"'
   hypernym:
   - 02497847-v
   ili: i27592
-  pos: v
+  members:
+  - host
+  partOfSpeech: v
 01197194-v:
-  definitions:
+  definition:
   - provide with food and drink, usually lavishly
-  entries:
-  - wine and dine
   hypernym:
   - 01196951-v
   ili: i27593
-  pos: v
+  members:
+  - wine and dine
+  partOfSpeech: v
 01197310-v:
-  definitions:
+  definition:
   - eat sumptuously
   entails:
   - 01168667-v
   - 01173463-v
-  entries:
-  - wine and dine
-  examples:
+  example:
   - '"we wined and dined in Paris"'
   hypernym:
   - 01188514-v
   ili: i27594
-  pos: v
+  members:
+  - wine and dine
+  partOfSpeech: v
 01197471-v:
-  definitions:
+  definition:
   - make fat or plump
   entails:
   - 01180862-v
-  entries:
+  example:
+  - '"We will plump out that poor starving child"'
+  hypernym:
+  - 00126072-v
+  ili: i27595
+  members:
   - fatten
   - fat
   - flesh out
@@ -2231,53 +2236,53 @@
   - plump out
   - fatten out
   - fatten up
-  examples:
-  - '"We will plump out that poor starving child"'
-  hypernym:
-  - 00126072-v
-  ili: i27595
-  pos: v
+  partOfSpeech: v
 01197734-v:
-  definitions:
+  definition:
   - feed intravenously
-  entries:
-  - inject
   hypernym:
   - 01180862-v
   ili: i27596
-  pos: v
+  members:
+  - inject
+  partOfSpeech: v
 01197832-v:
-  definitions:
+  definition:
   - take a sample of
-  entries:
-  - sample
-  - try
-  - try out
-  - taste
-  examples:
+  example:
   - '"Try these new crackers"'
   - '"Sample the regional dishes"'
   hypernym:
   - 01159300-v
   ili: i27597
-  pos: v
+  members:
+  - sample
+  - try
+  - try out
+  - taste
+  partOfSpeech: v
 01198208-v:
-  definitions:
+  definition:
   - taste with relish
-  entries:
-  - degust
-  examples:
+  example:
   - '"degust this wonderful soup"'
   hypernym:
   - 01197832-v
   ili: i27598
-  pos: v
+  members:
+  - degust
+  partOfSpeech: v
 01198337-v:
-  definitions:
+  definition:
   - spend frivolously and unwisely
   entails:
   - 01159815-v
-  entries:
+  example:
+  - '"Fritter away one''s inheritance"'
+  hypernym:
+  - 01160479-v
+  ili: i27599
+  members:
   - fritter
   - frivol away
   - dissipate
@@ -2285,424 +2290,426 @@
   - fritter away
   - fool
   - fool away
-  examples:
-  - '"Fritter away one''s inheritance"'
-  hypernym:
-  - 01160479-v
-  ili: i27599
-  pos: v
+  partOfSpeech: v
 01198570-v:
-  definitions:
+  definition:
   - choose not to consume
-  entries:
+  example:
+  - '"I abstain from alcohol"'
+  ili: i27600
+  members:
   - abstain
   - refrain
   - desist
-  examples:
-  - '"I abstain from alcohol"'
-  ili: i27600
-  pos: v
+  partOfSpeech: v
 01198897-v:
-  definitions:
+  definition:
   - practice teetotalism and abstain from the consumption of alcoholic beverages
-  entries:
-  - teetotal
   hypernym:
   - 01198570-v
   ili: i27601
-  pos: v
+  members:
+  - teetotal
+  partOfSpeech: v
 01199057-v:
-  definitions:
+  definition:
   - stop consuming
-  entries:
-  - kick
-  - give up
-  examples:
+  example:
   - '"kick a habit"'
   - '"give up alcohol"'
   hypernym:
   - 02539728-v
   ili: i27602
-  pos: v
+  members:
+  - kick
+  - give up
+  partOfSpeech: v
 01199186-v:
-  definitions:
+  definition:
   - eat greedily
-  entries:
-  - devour
-  - guttle
-  - raven
-  - pig
-  examples:
+  example:
   - '"he devoured three sandwiches"'
   hypernym:
   - 01170802-v
   ili: i27603
-  pos: v
+  members:
+  - devour
+  - guttle
+  - raven
+  - pig
+  partOfSpeech: v
 01199335-v:
-  definitions:
+  definition:
   - finish eating all the food on one's plate or on the table
-  entries:
-  - eat up
-  - finish
-  - polish off
-  examples:
+  example:
   - '"She polished off the remaining potatoes"'
   hypernym:
   - 01170802-v
   ili: i27604
-  pos: v
+  members:
+  - eat up
+  - finish
+  - polish off
+  partOfSpeech: v
 01199565-v:
-  definitions:
+  definition:
   - eat up completely, as with great appetite
-  entries:
-  - devour
-  - demolish
-  - down
-  - consume
-  - go through
-  examples:
+  example:
   - '"Some people can down a pound of meat in the course of one meal"'
   - '"The teenagers demolished four pizzas among them"'
   hypernym:
   - 01199335-v
   ili: i27605
-  pos: v
+  members:
+  - devour
+  - demolish
+  - down
+  - consume
+  - go through
+  partOfSpeech: v
 01199846-v:
-  definitions:
+  definition:
   - press (the lips) together and open (the lips) noisily, as in eating
-  entries:
-  - smack
   hypernym:
   - 00985856-v
   ili: i27606
-  pos: v
+  members:
+  - smack
+  partOfSpeech: v
 01199976-v:
-  definitions:
+  definition:
   - convert food into absorbable substances
   entails:
   - 01159300-v
-  entries:
-  - digest
-  examples:
+  example:
   - '"I cannot digest milk products"'
   hypernym:
   - 00516235-v
   ili: i27607
-  pos: v
+  members:
+  - digest
+  partOfSpeech: v
   similar:
   - 00482486-v
 01200264-v:
-  definitions:
+  definition:
   - bear to eat
-  entries:
-  - stomach
-  examples:
+  example:
   - '"He cannot stomach raw fish"'
   hypernym:
   - 01199976-v
   ili: i27608
-  pos: v
+  members:
+  - stomach
+  partOfSpeech: v
 01200388-v:
-  definitions:
+  definition:
   - produce by metabolism
   entails:
   - 01199976-v
-  entries:
+  ili: i27609
+  members:
   - metabolize
   - metabolise
-  ili: i27609
-  pos: v
+  partOfSpeech: v
 01200508-v:
-  definitions:
+  definition:
   - digest (food) beforehand
   domain_topic:
   - 02401652-n
-  entries:
-  - predigest
   hypernym:
   - 01199976-v
   ili: i27610
-  pos: v
+  members:
+  - predigest
+  partOfSpeech: v
 01200618-v:
-  definitions:
+  definition:
   - take up as if with a sponge
-  entries:
+  hypernym:
+  - 01159300-v
+  ili: i27611
+  members:
   - take in
   - sop up
   - suck in
   - take up
-  hypernym:
-  - 01159300-v
-  ili: i27611
-  pos: v
+  partOfSpeech: v
 01200739-v:
-  definitions:
+  definition:
   - inhale and exhale smoke from cigarettes, cigars, pipes
   entails:
   - 00005041-v
   - 00004227-v
-  entries:
-  - smoke
-  examples:
+  example:
   - '"We never smoked marijuana"'
   - '"Do you smoke?"'
   hypernym:
   - 01167359-v
   ili: i27612
-  pos: v
+  members:
+  - smoke
+  partOfSpeech: v
 01201090-v:
-  definitions:
+  definition:
   - smoke one cigarette after another; light one cigarette from the preceding one
-  entries:
-  - chain-smoke
   hypernym:
   - 01200739-v
   ili: i27613
-  pos: v
+  members:
+  - chain-smoke
+  partOfSpeech: v
 01201254-v:
-  definitions:
+  definition:
   - smoke and exhale strongly
-  entries:
-  - puff
-  - whiff
-  examples:
+  example:
   - '"puff a cigar"'
   - '"whiff a pipe"'
   hypernym:
   - 01200739-v
   ili: i27614
-  pos: v
+  members:
+  - puff
+  - whiff
+  partOfSpeech: v
 01201417-v:
-  definitions:
+  definition:
   - draw deep into the lungs in by breathing
-  entries:
-  - inhale
-  examples:
+  example:
   - '"Clinton smoked marijuana but never inhaled"'
   hypernym:
   - 01200739-v
   ili: i27615
-  pos: v
+  members:
+  - inhale
+  partOfSpeech: v
 01201647-v:
-  definitions:
+  definition:
   - suck in or take (air)
   entails:
   - 01200739-v
-  entries:
-  - puff
-  - drag
-  - draw
-  examples:
+  example:
   - '"draw a deep breath"'
   - '"draw on a cigarette"'
   hypernym:
   - 00005041-v
   ili: i27616
-  pos: v
+  members:
+  - puff
+  - drag
+  - draw
+  partOfSpeech: v
 01201851-v:
-  definitions:
+  definition:
   - take by injection
-  entries:
-  - inject
-  examples:
+  example:
   - '"inject heroin"'
   hypernym:
   - 01203078-v
   ili: i27617
-  pos: v
+  members:
+  - inject
+  partOfSpeech: v
 01202003-v:
-  definitions:
+  definition:
   - inject into the vein
-  entries:
-  - mainline
-  examples:
+  example:
   - '"She is mainlining heroin"'
   hypernym:
   - 01201851-v
   ili: i27618
-  pos: v
+  members:
+  - mainline
+  partOfSpeech: v
 01202125-v:
-  definitions:
+  definition:
   - take drugs, especially orally
-  entries:
-  - pop
-  examples:
+  example:
   - '"The man charged with murder popped a valium to calm his nerves"'
   hypernym:
   - 01201851-v
   ili: i27619
-  pos: v
+  members:
+  - pop
+  partOfSpeech: v
 01202299-v:
-  definitions:
+  definition:
   - inject (drugs) into the skin
-  entries:
-  - skin pop
   hypernym:
   - 01202125-v
   ili: i27620
-  pos: v
+  members:
+  - skin pop
+  partOfSpeech: v
 01202393-v:
-  definitions:
+  definition:
   - inhale through the nose
-  entries:
-  - take a hit
-  - snort
   hypernym:
   - 01203078-v
   ili: i27621
-  pos: v
+  members:
+  - take a hit
+  - snort
+  partOfSpeech: v
 01202519-v:
-  definitions:
+  definition:
   - begin to smoke
   entails:
   - 01200739-v
-  entries:
-  - light up
-  - fire up
-  - light
-  examples:
+  example:
   - '"After the meal, some of the diners lit up"'
   hypernym:
   - 02765572-v
   ili: i27622
-  pos: v
+  members:
+  - light up
+  - fire up
+  - light
+  partOfSpeech: v
 01202706-v:
-  definitions:
+  definition:
   - use (purified cocaine) by burning it and inhaling the fumes
-  entries:
-  - free-base
-  - base
   hypernym:
   - 01203078-v
   ili: i27623
-  pos: v
+  members:
+  - free-base
+  - base
+  partOfSpeech: v
 01202883-v:
-  definitions:
+  definition:
   - inhale recreational drugs
   entails:
   - 01203078-v
-  entries:
-  - huff
-  - snort
-  examples:
+  example:
   - '"The addict was snorting cocaine almost every day"'
   - '"the kids were huffing glue"'
   hypernym:
   - 00005041-v
   ili: i27624
-  pos: v
+  members:
+  - huff
+  - snort
+  partOfSpeech: v
 01203078-v:
   causes:
   - 01203572-v
-  definitions:
+  definition:
   - use recreational drugs
-  entries:
-  - drug
-  - do drugs
   hypernym:
   - 01167359-v
   ili: i27625
-  pos: v
+  members:
+  - drug
+  - do drugs
+  partOfSpeech: v
 01203299-v:
-  definitions:
+  definition:
   - take (a drug, especially LSD), by mouth
-  entries:
-  - drop
-  examples:
+  example:
   - '"She dropped acid when she was a teenager"'
   hypernym:
   - 01203078-v
   ili: i27626
-  pos: v
+  members:
+  - drop
+  partOfSpeech: v
 01203444-v:
-  definitions:
+  definition:
   - take drugs to improve one's athletic performance
-  entries:
-  - dope
   hypernym:
   - 01203078-v
   ili: i27627
-  pos: v
+  members:
+  - dope
+  partOfSpeech: v
 01203572-v:
-  definitions:
+  definition:
   - get high, stoned, or drugged
-  entries:
+  example:
+  - '"He trips every weekend"'
+  ili: i27628
+  members:
   - trip
   - trip out
   - turn on
   - get off
-  examples:
-  - '"He trips every weekend"'
-  ili: i27628
-  pos: v
+  partOfSpeech: v
 01203727-v:
-  definitions:
+  definition:
   - chew (food); to bite and grind with the teeth
-  entries:
-  - chew
-  - masticate
-  - manducate
-  - jaw
-  examples:
+  example:
   - '"He jawed his bubble gum"'
   - '"Chew your food and don''t swallow it!"'
   - '"The cows were masticating the grass"'
   hypernym:
   - 01397118-v
   ili: i27629
-  pos: v
+  members:
+  - chew
+  - masticate
+  - manducate
+  - jaw
+  partOfSpeech: v
 01204212-v:
-  definitions:
+  definition:
   - chew without swallowing
-  entries:
-  - chaw
-  examples:
+  example:
   - '"chaw tobacco"'
   hypernym:
   - 01203727-v
   ili: i27630
-  pos: v
+  members:
+  - chaw
+  partOfSpeech: v
 01204331-v:
-  definitions:
+  definition:
   - crush with the teeth, making a grinding sound
-  entries:
-  - crunch
-  - munch
-  examples:
+  example:
   - '"The children crunched the celery sticks"'
   hypernym:
   - 01203727-v
   ili: i27631
-  pos: v
+  members:
+  - crunch
+  - munch
+  partOfSpeech: v
 01204494-v:
-  definitions:
+  definition:
   - pass through the esophagus as part of eating or drinking
-  entries:
-  - swallow
-  - get down
-  examples:
+  example:
   - '"Swallow the raw fish--it won''t kill you!"'
   ili: i27632
-  pos: v
+  members:
+  - swallow
+  - get down
+  partOfSpeech: v
 01204688-v:
-  definitions:
+  definition:
   - to swallow hurriedly or greedily or in one draught
   entails:
   - 01204494-v
-  entries:
-  - gulp
-  - quaff
-  - swig
-  examples:
+  example:
   - '"The men gulped down their beers"'
   hypernym:
   - 01172332-v
   ili: i27633
-  pos: v
+  members:
+  - gulp
+  - quaff
+  - swig
+  partOfSpeech: v
 01204994-v:
-  definitions:
+  definition:
   - drink down entirely
-  entries:
+  example:
+  - '"He downed three martinis before dinner"'
+  - '"She killed a bottle of brandy that night"'
+  - '"They popped a few beers after work"'
+  hypernym:
+  - 01172332-v
+  ili: i27634
+  members:
   - toss off
   - pop
   - bolt down
@@ -2711,284 +2718,277 @@
   - down
   - drink down
   - kill
-  examples:
-  - '"He downed three martinis before dinner"'
-  - '"She killed a bottle of brandy that night"'
-  - '"They popped a few beers after work"'
-  hypernym:
-  - 01172332-v
-  ili: i27634
-  pos: v
+  partOfSpeech: v
 01205271-v:
-  definitions:
+  definition:
   - swallow hastily
-  entries:
-  - bolt
   hypernym:
   - 01204494-v
   ili: i27635
-  pos: v
+  members:
+  - bolt
+  partOfSpeech: v
 01205348-v:
-  definitions:
+  definition:
   - provide with nourishment
-  entries:
-  - nourish
-  - nurture
-  - sustain
-  examples:
+  example:
   - '"We sustained ourselves on bread and water"'
   - '"This kind of food is not nourishing for young children"'
   hypernym:
   - 01185006-v
   ili: i27636
-  pos: v
+  members:
+  - nourish
+  - nurture
+  - sustain
+  partOfSpeech: v
 01205694-v:
-  definitions:
+  definition:
   - be able to feed
   domain_topic:
   - 01890115-n
-  entries:
-  - carry
-  examples:
+  example:
   - '"This land will carry ten cows to the acre"'
   hypernym:
   - 01205348-v
   ili: i27637
-  pos: v
+  members:
+  - carry
+  partOfSpeech: v
   similar:
   - 01744201-v
 01205854-v:
-  definitions:
+  definition:
   - be sustained by
-  entries:
-  - feed on
-  - feed upon
-  examples:
+  example:
   - '"He fed on the great ideas of her mentor"'
   hypernym:
   - 01185870-v
   ili: i27638
-  pos: v
+  members:
+  - feed on
+  - feed upon
+  partOfSpeech: v
 01205989-v:
-  definitions:
+  definition:
   - find (something or someone) for
-  entries:
-  - fix up
-  examples:
+  example:
   - '"I''ll fix you up with a nice girl"'
   hypernym:
   - 01185006-v
   ili: i27639
-  pos: v
+  members:
+  - fix up
+  partOfSpeech: v
 01206120-v:
-  definitions:
+  definition:
   - prey on or hunt for
-  entries:
-  - raven
-  - prey
-  - predate
-  examples:
+  example:
   - '"These mammals predate certain eggs"'
   hypernym:
   - 01179996-v
   ili: i27640
-  pos: v
-01206335-v:
-  definitions:
-  - profit from in an exploitatory manner
-  entries:
+  members:
+  - raven
   - prey
-  - feed
-  examples:
+  - predate
+  partOfSpeech: v
+01206335-v:
+  definition:
+  - profit from in an exploitatory manner
+  example:
   - '"He feeds on her insecurity"'
   hypernym:
   - 01165070-v
   ili: i27641
-  pos: v
+  members:
+  - prey
+  - feed
+  partOfSpeech: v
 01206513-v:
-  definitions:
+  definition:
   - eat until one is sated
-  entries:
-  - fill up
-  - fill
-  examples:
+  example:
   - '"He filled up on turkey"'
   hypernym:
   - 01170802-v
   ili: i27642
-  pos: v
+  members:
+  - fill up
+  - fill
+  partOfSpeech: v
 01206641-v:
-  definitions:
+  definition:
   - satisfy (thirst)
   entails:
   - 01159300-v
-  entries:
-  - quench
-  - slake
-  - allay
-  - assuage
-  examples:
+  example:
   - '"The cold water quenched his thirst"'
   hypernym:
   - 01185870-v
   ili: i27643
-  pos: v
+  members:
+  - quench
+  - slake
+  - allay
+  - assuage
+  partOfSpeech: v
 01206811-v:
-  definitions:
+  definition:
   - give nourishment to
-  entries:
-  - nutrify
-  - aliment
-  - nourish
   hypernym:
   - 01180862-v
   ili: i27644
-  pos: v
+  members:
+  - nutrify
+  - aliment
+  - nourish
+  partOfSpeech: v
 01207059-v:
-  definitions:
+  definition:
   - let eat
-  entries:
-  - range
-  examples:
+  example:
   - '"range the animals in the prairie"'
   hypernym:
   - 01180862-v
   ili: i27645
-  pos: v
+  members:
+  - range
+  partOfSpeech: v
   similar:
   - 01578996-v
 01207201-v:
-  definitions:
+  definition:
   - feed with grass
-  entries:
-  - grass
   hypernym:
   - 01579309-v
   ili: i27646
-  pos: v
+  members:
+  - grass
+  partOfSpeech: v
 01207297-v:
-  definitions:
+  definition:
   - provide with gutters
-  entries:
-  - gutter
-  examples:
+  example:
   - '"gutter the buildings"'
   hypernym:
   - 01185006-v
   ili: i27647
-  pos: v
+  members:
+  - gutter
+  partOfSpeech: v
 01207423-v:
-  definitions:
+  definition:
   - become extravagant; indulge (oneself) luxuriously
-  entries:
-  - luxuriate
-  - wanton
   hypernym:
   - 01160479-v
   ili: i27648
-  pos: v
+  members:
+  - luxuriate
+  - wanton
+  partOfSpeech: v
 01207620-v:
-  definitions:
+  definition:
   - use up (energy)
-  entries:
-  - burn off
-  - burn
-  - burn up
-  examples:
+  example:
   - '"burn off calories through vigorous exercise"'
   hypernym:
   - 01159815-v
   ili: i27649
-  pos: v
+  members:
+  - burn off
+  - burn
+  - burn up
+  partOfSpeech: v
 01207773-v:
-  definitions:
+  definition:
   - drink alcohol without showing ill effects
-  entries:
-  - carry
-  - hold
-  examples:
+  example:
   - '"He can hold his liquor"'
   - '"he had drunk more than he could carry"'
   hypernym:
   - 01173463-v
   ili: i27650
-  pos: v
+  members:
+  - carry
+  - hold
+  partOfSpeech: v
 01207951-v:
-  definitions:
+  definition:
   - be ingested
-  entries:
-  - go down
-  examples:
+  example:
   - '"This wine sure goes down well"'
   - '"The food wouldn''t go down"'
   ili: i27651
-  pos: v
+  members:
+  - go down
+  partOfSpeech: v
 01208079-v:
-  definitions:
+  definition:
   - take solid or liquid food into the mouth a little at a time either by drinking
     or by eating with a spoon
-  entries:
-  - sup
   hypernym:
   - 01159300-v
   ili: i27652
-  pos: v
+  members:
+  - sup
+  partOfSpeech: v
 90000271-v:
-  definitions:
+  definition:
   - to use an electronic cigarette
-  entries:
-  - vape
   hypernym:
   - 01200739-v
-  pos: v
+  members:
+  - vape
+  partOfSpeech: v
   source: Colloquial WordNet
 90002431-v:
-  definitions:
+  definition:
   - to swallow ejaculate
-  entries:
-  - cumswallow
   hypernym:
   - 01204494-v
-  pos: v
+  members:
+  - cumswallow
+  partOfSpeech: v
   source: Colloquial WordNet
 90003681-v:
-  definitions:
+  definition:
   - to smoke marijuana using butane hash oil
   domain_topic:
   - 02953127-n
-  entries:
-  - dab
   hypernym:
   - 01200739-v
-  pos: v
+  members:
+  - dab
+  partOfSpeech: v
   source: Colloquial WordNet
 90004861-v:
-  definitions:
+  definition:
   - to be under the influence of methamphetamine
-  entries:
+  members:
   - tweak
-  pos: v
+  partOfSpeech: v
   similar:
   - 01192810-v
   source: Colloquial WordNet
 90014081-v:
-  definitions:
+  definition:
   - To transform an old product into a newer and more expensive form with a different
     use
-  entries:
-  - upcycle
   hypernym:
   - 01164741-v
-  pos: v
+  members:
+  - upcycle
+  partOfSpeech: v
   source: Colloquial WordNet
 90019872-v:
-  definitions:
+  definition:
   - to be especially excited about something relatively unpopular
-  entries:
-  - geek out
   hypernym:
   - 01193481-v
-  pos: v
+  members:
+  - geek out
+  partOfSpeech: v
   similar:
   - 01765558-v
   source: Colloquial WordNet
