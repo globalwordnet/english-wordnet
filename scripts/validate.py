@@ -92,7 +92,7 @@ def check_lex_files(wn, fix):
             "adv": PartOfSpeech.ADVERB
             }
     errors = 0
-    for f in glob.glob("src/wn-*.xml"):
+    for f in glob.glob("src/xml/wn-*.xml"):
         lexfile = f[7:-4]
         lex_pos = pos_map[lexfile[:3]]
         swn = parse_wordnet(f)
@@ -114,7 +114,7 @@ def check_lex_files(wn, fix):
                 calc_sense_key = sense_keys.get_sense_key(wn, swn, entry, sense, f)
                 if sense.sense_key != calc_sense_key:
                     if fix:
-                        print("sed -i 's/%s/%s/' src/*" % (sense.sense_key, calc_sense_key))
+                        print("sed -i 's/%s/%s/' src/xml/*" % (sense.sense_key, calc_sense_key))
                     else:
                         print("%s has declared key %s but should be %s" % (sense.id, 
                             sense.sense_key, calc_sense_key))
