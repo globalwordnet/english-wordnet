@@ -65,7 +65,7 @@ def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
                 [make_sense_id(sense,lemma,pos) for sense in props["sense"] if k in sense.get("subcat", [])])
                 for k in keys]
 
-def fix_sense_id(sense, lemma, key2id, key2oldid,synset_ids_starting_from_zero):
+def fix_sense_id(wn, sense, lemma, key2id, key2oldid,synset_ids_starting_from_zero):
     key2oldid[sense.sense_key] = sense.id
     idx = entry_orders[sense.synset[4:]].index(lemma)
     if sense.synset in synset_ids_starting_from_zero:
@@ -73,6 +73,8 @@ def fix_sense_id(sense, lemma, key2id, key2oldid,synset_ids_starting_from_zero):
     else:
         sense.id = "%s-%02d" % (sense.id, idx+1)
     key2id[sense.sense_key] = sense.id
+    wn.id2sense[sense.id] = sense
+    wn.sense2synset[sense.id] = sense.synset
 
 def fix_sense_rels(wn, sense, key2id, key2oldid):
     for rel in sense.sense_relations:
@@ -146,7 +148,7 @@ def load():
     key2oldid = {}
     for entry in wn.entries:
         for sense in entry.senses:
-            fix_sense_id(sense, entry.lemma.written_form, key2id, key2oldid, synset_ids_starting_from_zero)
+            fix_sense_id(wn, sense, entry.lemma.written_form, key2id, key2oldid, synset_ids_starting_from_zero)
 
     for entry in wn.entries:
         for sense in entry.senses:
@@ -163,38 +165,23 @@ def load():
                     "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                     "2019","https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
-        
-    for entry in wn.entries:
-        sense_no = dict([(e.id,i) for i,e in enumerate(entry.senses)])
-        for lex_name in by_lex_name.keys():
-            senses = [sense for sense in entry.senses if wn.synset_by_id(sense.synset).lex_name == lex_name]
-            if senses:
-                e = LexicalEntry(entry.id)
-                e.set_lemma(entry.lemma)
-                for f in entry.forms:
-                    e.add_form(f)
-                for s in senses:
-                    s.n = sense_no[s.id]
-                    e.add_sense(s)
-                def find_sense_for_sb(sb_sense):
-                    for sense2 in senses:
-                        if sense2.id[:-3] == sb_sense:
-                            return sense2.id
-                    return None
-                e.syntactic_behaviours = [SyntacticBehaviour(
-                    sb.subcategorization_frame,
-                    [find_sense_for_sb(sense) for sense in sb.senses])
-                    for sb in entry.syntactic_behaviours]
-                e.syntactic_behaviours = [SyntacticBehaviour(
-                    sb.subcategorization_frame, [s for s in sb.senses if s])
-                    for sb in e.syntactic_behaviours if any(sb.senses)]
-                by_lex_name[lex_name].add_entry(e)
 
-    for lex_name, wn in by_lex_name.items():
+    for entry in wn.entries:
+        def find_sense_for_sb(sb_sense):
+            for sense2 in entry.senses:
+                if sense2.id[:-3] == sb_sense:
+                    return sense2.id
+            return None
+        entry.syntactic_behaviours = [SyntacticBehaviour(
+             sb.subcategorization_frame,
+             [find_sense_for_sb(sense) for sense in sb.senses])
+             for sb in entry.syntactic_behaviours]
+        
+    for lex_name, wn2 in by_lex_name.items():
         if os.path.exists("src/xml/wn-%s.xml" % lex_name):
             wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
             senseids = { sense.id[:-2]: sense.id for entry in wn_lex.entries for sense in entry.senses }
-            for entry in wn.entries:
+            for entry in wn2.entries:
                 if wn_lex.entry_by_id(entry.id):
                     # Fix the last ID, because it is not actually so predicatable in the XML
                     for sense in entry.senses:
@@ -230,7 +217,7 @@ def sense_to_yaml(wn, s, sb_map):
             else:
                 y[sr.rel_type.value].append(map_sense_key(wn.sense_by_id(sr.target).sense_key))
     if sb_map[s.id]:
-        y["subcat"] = sb_map[s.id]
+        y["subcat"] = sorted(sb_map[s.id])
     return y
 
 def definition_to_yaml(wn, d):
