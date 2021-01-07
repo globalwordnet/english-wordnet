@@ -1,5 +1,6 @@
 import change_manager
 from autocorrect import Speller
+import wordnet
 
 #####################################
 ## English WordNet Editor (EWE)
@@ -75,7 +76,7 @@ def change_entry(wn):
 
     synset = enter_synset(wn)
 
-    entries = wn.members_by_id(synset_id)
+    entries = wn.members_by_id(synset.id)
     if entries:
         print("Entries: " + ", ".join(entries))
     else:

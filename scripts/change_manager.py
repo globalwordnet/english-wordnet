@@ -286,7 +286,11 @@ def delete_entry(wn, synset, entry_id):
     entry_global = wn.entry_by_id(entry_id)
     
     if entry_global:
-        idx = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synset == synset.id][0]
+        idxs = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synset == synset.id]
+        if not idxs:
+            print("Entry not in synset")
+            return
+        idx = idxs[0]
         n_senses = len(entry_global.senses)
     else:
         print("No entry for this lemma")
@@ -373,16 +377,16 @@ def change_sense_idx(wn, sense_id, new_idx):
     print("Changing idx of sense %s to %s" % (sense_id, new_idx))
     new_sense_id = "%s-%02d" % (sense_id[:-3], new_idx)
     for entry in wn.entries:
-        for sense in wn.senses:
+        for sense in entry.senses:
             if sense.id == sense_id:
                 sense.id = new_sense_id
             for sr in sense.sense_relations:
                 if sr.target == sense_id:
                     sr.target = new_sense_id
         for sb in entry.syntactic_behaviours:
-            entry.syntactic_behaviours.senses = [
+            sb.senses = [
                     new_sense_id if s == sense_id else s
-                    for s in entry.syntactic_behaviours.senses]
+                    for s in sb.senses]
 
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
