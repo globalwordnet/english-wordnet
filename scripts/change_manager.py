@@ -203,9 +203,10 @@ def change_entry(wn, synset, target_synset, lemma):
             if sense.synset == synset.id:
                 print("Moving %s to %s" % (sense.id, target_synset.id))
                 sense.synset = target_synset.id
-                sense.id = "ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), 
+                wn.change_sense_id(sense, 
+                        "ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), 
                         target_synset.part_of_speech.value,
-                        synset_key(target_synset.id), idx)
+                        synset_key(target_synset.id), idx))
 
 def add_entry(wn, synset, lemma, idx=0, n=-1):
     """Add a new lemma to a synset"""
@@ -379,7 +380,7 @@ def change_sense_idx(wn, sense_id, new_idx):
     for entry in wn.entries:
         for sense in entry.senses:
             if sense.id == sense_id:
-                sense.id = new_sense_id
+                wn.change_sense_id(sense, new_sense_id)
             for sr in sense.sense_relations:
                 if sr.target == sense_id:
                     sr.target = new_sense_id

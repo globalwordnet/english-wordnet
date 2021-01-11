@@ -65,6 +65,13 @@ class Lexicon:
     def sense_to_synset(self, sense_id):
         return self.sense2synset[sense_id]
 
+    def change_sense_id(self, sense, new_id):
+        del self.sense2synset[sense.id]
+        del self.id2sense[sense.id]
+        sense.id = new_id
+        self.sense2synset[new_id] = sense.synset
+        self.id2sense[new_id] = sense
+
     def to_xml(self, xml_file, part=True):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
