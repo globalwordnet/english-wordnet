@@ -157,21 +157,29 @@ def change_example(wn):
     synset = enter_synset(wn)
 
     mode = None
-    while mode != "a" or mode != "d":
+    while mode != "a" and mode != "d":
         mode = input("[A]dd/[D]elete example: ").lower()
 
-    while True:
-        example = input("Example: ")
-
-        if not example.startswith("\""):
-            print("Examples must start and end with a quotation")
-
-        if check_text(defn, "example"):
-            break
-
     if mode == "a":
+        while True:
+            example = input("Example: ")
+
+            if not example.startswith("\""):
+                print("Examples must start and end with a quotation")
+                continue
+
+            if check_text(example, "example"):
+                break
+
         change_manager.add_ex(wn, synset, example)
     else:
+        if synset.examples:
+            for i, ex in enumerate(synset.examples):
+                print("%d. %s" % (i+1, ex.text))
+            number = "0"
+            while not number.isdigit() or int(number) < 1 or int(number) > len(synset.examples):
+                number = input("Example Number> ")
+            example = synset.examples[int(number) -1].text
         change_manager.delete_ex(wn, synset, example)
     return True
 
