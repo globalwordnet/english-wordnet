@@ -109,7 +109,7 @@ def change_entry(wn):
 def change_synset(wn):
 
     mode = None
-    while mode != "a" or mode != "d":
+    while mode != "a" and mode != "d":
         mode = input("(A)dd synset/(d)elete synset: ").lower()
 
     if mode == "d":
@@ -176,18 +176,31 @@ def change_example(wn):
     return True
 
 def change_relation(wn, source_id=None):
+    mode = None
+    new_source = None
+    new_target = None
+    new_relation = None
+    delete = False
+    reverse = False
+    add = False
+    delete = False
     if not source_id:
         source_id, source_entry_id = enter_sense_synset(wn, "source ")
+    else:
+        source_entry_id = None
+        mode = "a"
+        new_relation = input("Enter new relation: ")
 
     target_id, target_entry_id = enter_sense_synset(wn, "target ")
 
-    mode = None
-    while mode != "a" or mode != "d" or mode != "r" or mode != "c":
+    source_synset = wn.synset_by_id(source_id)
+    target_synset = wn.synset_by_id(target_id)
+
+    while mode != "a" and mode != "d" and mode != "r" and mode != "c":
         mode = input("[A]dd new relation/[D]elete existing relation/[R]everse relation/[C]hange relation: ").lower()
         if mode == "a":
             add = True
-            if not new_relation:
-                new_relation = input("Enter new relation: ")
+            new_relation = input("Enter new relation: ")
         elif mode == "c":
             mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
             if mode == "s":

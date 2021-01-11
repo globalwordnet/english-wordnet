@@ -267,6 +267,9 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
 
         wn_entry.senses.append(sense)
         entry.senses.append(sense)
+        if sense.synset not in wn.members:
+            wn.members[sense.synset] = []
+        wn.members[sense.synset].append(wn_entry.lemma.written_form)
     else:
         n = 0
         entry = LexicalEntry(
@@ -277,7 +280,6 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                         synset_key(synset.id), idx),
                     synset=synset.id, n=n, sense_key=None))
         wn.add_entry(entry)
-        wn_synset.add_entry(entry)
     return entry
 
 def delete_entry(wn, synset, entry_id):
