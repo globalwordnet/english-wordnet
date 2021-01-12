@@ -60,7 +60,7 @@ class Lexicon:
         return self.member2entry.get(lemma)
 
     def members_by_id(self, synset_id):
-        return self.members.get(synset_id)
+        return self.members.get(synset_id, [])
 
     def sense_to_synset(self, sense_id):
         return self.sense2synset[sense_id]

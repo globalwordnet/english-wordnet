@@ -353,10 +353,10 @@ def split_synset(wn):
 
     new_ids = []
     for definition in definition:
-        new_ids.append(change_manager.add_synset(wn, definition, synset.lexfile, synset.pos))
+        new_ids.append(change_manager.add_synset(wn, definition, synset.lex_name, synset.part_of_speech))
 
     change_manager.delete_synset(wn, synset, 
-            [wn.synset_for_id(new_id) for new_id in new_ids],
+            [wn.synset_by_id(new_id) for new_id in new_ids],
             reason)
     return True
 
