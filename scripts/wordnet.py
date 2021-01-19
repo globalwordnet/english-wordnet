@@ -2,6 +2,7 @@ from enum import Enum
 from xml.sax import ContentHandler, parse
 import re
 import sys
+import codecs
 
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
@@ -286,12 +287,17 @@ class SenseRelation:
 
 class SyntacticBehaviour:
     def __init__(self, subcategorization_frame, senses):
+        if not isinstance(subcategorization_frame, str):
+            raise "Syntactic Behaviour is not string" + str(subcategorization_frame)
         self.subcategorization_frame = subcategorization_frame
         self.senses = senses
 
     def to_xml(self, xml_file):
         xml_file.write("""      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
 """ % (escape_xml_lit(self.subcategorization_frame), " ".join(self.senses)))
+
+    def __repr__(self):
+        return "SyntacticBehaviour(%s, %s)" % (self.subcategorization_frame, " ".join(self.senses))
 
 
 class PartOfSpeech(Enum):
@@ -583,7 +589,7 @@ def escape_xml_lit(lit):
         replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;"))
 
 def extract_comments(wordnet_file,lexicon):
-    with open(wordnet_file) as source:
+    with codecs.open(wordnet_file,"r",encoding="utf-8") as source:
         sen_rel_comment = re.compile(".*<SenseRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
         syn_rel_comment = re.compile(".*<SynsetRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
         comment = re.compile(".*<!-- (.*) -->.*")
@@ -609,7 +615,7 @@ def extract_comments(wordnet_file,lexicon):
 
 
 def parse_wordnet(wordnet_file):
-    with open(wordnet_file) as source:
+    with codecs.open(wordnet_file,"r",encoding="utf-8") as source:
         handler = WordNetContentHandler()
         parse(source, handler)
     extract_comments(wordnet_file, handler.lexicon)

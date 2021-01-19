@@ -17,5 +17,5 @@ def assign_keys(wn, wn_file):
 
 if __name__ == "__main__":
     wn = change_manager.load_wordnet()
-    for f in glob ("src/wn-*.xml"):
+    for f in glob ("src/xml/wn-*.xml"):
         assign_keys(wn, f)

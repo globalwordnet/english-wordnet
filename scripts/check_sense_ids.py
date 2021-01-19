@@ -20,4 +20,4 @@ for synset in wn.synsets:
     if goal != actual:
         for (sense, g) in zip(senses,goal):
             if sense.id[-2:] != g:
-                print("sed -i 's/%s/%s/' src/*.xml" % (sense.id, sense.id[:-2] + g))
+                print("sed -i 's/%s/%s/' src/xml/*.xml" % (sense.id, sense.id[:-2] + g))

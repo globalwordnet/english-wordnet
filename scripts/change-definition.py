@@ -13,20 +13,20 @@ def update_def(wn, synset, defn, add):
     print("Previous definitions:")
     for d in synset.definitions:
         print("> " + d.text)
-    wn_synset = wordnet.parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = wordnet.parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     ss = wn_synset.synset_by_id(synset.id)
     if add:
         ss.definitions = ss.definitions + [wordnet.Definition(defn)]
     else:
         ss.definitions = [wordnet.Definition(defn)]
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
 def update_ili_def(wn, synset, defn):
-    wn_synset = wordnet.parse_wordnet("src/wn-%s.xml" % synset.lex_name)
+    wn_synset = wordnet.parse_wordnet("src/xml/wn-%s.xml" % synset.lex_name)
     ss = wn_synset.synset_by_id(synset.id)
     ss.ili_definition = wordnet.Definition(defn)
-    with open("src/wn-%s.xml" % synset.lex_name, "w") as out:
+    with open("src/xml/wn-%s.xml" % synset.lex_name, "w") as out:
         wn_synset.to_xml(out, True)
 
 

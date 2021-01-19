@@ -28,4 +28,4 @@ jobs:
       run: xmllint --noout --valid wn.xml
       
     - name: Verify Structure
-      run: python scripts/validate.py
+      run: python3 scripts/validate.py

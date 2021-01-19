@@ -23,7 +23,7 @@ def load_indexes(index):
 
 def main():
     r = re.compile(".*<Sense id=\"ewn-(.*)-([nvars])-(\d{8})-(\d{2})\"(.*)>")
-    for wn31_part in glob("src/wn31-*.xml"):
+    for wn31_part in glob("src/xml/wn31-*.xml"):
         with open("%s.new" % wn31_part, "w") as out:
             for line in open(wn31_part).readlines():
                 m = r.match(line)
