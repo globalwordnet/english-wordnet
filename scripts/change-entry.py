@@ -75,7 +75,7 @@ def main():
         change_manager.add_entry(wn, synset, lemma, args.i, args.n)
     elif action == "D":
         change_manager.delete_entry(wn, synset, 
-                "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
+                "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
     elif action == "M":
         target_synset = wn.synset_by_id(args.target)
 
@@ -88,8 +88,9 @@ def main():
         else:
             print("Moving across lexicographer files so implementing change as delete then add")
             change_manager.delete_entry(wn, synset, 
-                    "ewn-%s-%s" % (change_manager.escape_lemma(lemma), synset.part_of_speech.value))
+                    "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
             change_manager.add_entry(wn, target_synset, lemma, args.i, args.n)
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()

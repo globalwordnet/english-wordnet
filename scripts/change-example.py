@@ -60,6 +60,7 @@ def main():
         delete_ex(wn, synset, args.example)
     else:
         add_ex(wn, synset, args.example)
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()

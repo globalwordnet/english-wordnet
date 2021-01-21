@@ -60,10 +60,17 @@ class Lexicon:
         return self.member2entry.get(lemma)
 
     def members_by_id(self, synset_id):
-        return self.members.get(synset_id)
+        return self.members.get(synset_id, [])
 
     def sense_to_synset(self, sense_id):
         return self.sense2synset[sense_id]
+
+    def change_sense_id(self, sense, new_id):
+        del self.sense2synset[sense.id]
+        del self.id2sense[sense.id]
+        sense.id = new_id
+        self.sense2synset[new_id] = sense.synset
+        self.id2sense[new_id] = sense
 
     def to_xml(self, xml_file, part=True):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
@@ -613,6 +620,32 @@ def extract_comments(wordnet_file,lexicon):
                             lexicon.comments[m.group(1)] = c
                             c = None
 
+
+def escape_lemma(lemma):
+    """Format the lemma so it is valid XML id"""
+    def elc(c):
+        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (c >= '0' and c <= '9') or c == '.':
+            return c
+        elif c == ' ':
+            return '_'
+        elif c == '(':
+            return '-lb-'
+        elif c == ')':
+            return '-rb-'
+        elif c == '\'':
+            return '-ap-'
+        elif c == '/':
+            return '-sl-'
+        elif c == '-':
+            return '-'
+        elif c == ',':
+            return '-cm-'
+        elif c == '!':
+            return '-ex-'
+        else:
+            return '-%04x-' % ord(c)
+
+    return "".join(elc(c) for c in lemma)
 
 def parse_wordnet(wordnet_file):
     with codecs.open(wordnet_file,"r",encoding="utf-8") as source:

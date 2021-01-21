@@ -79,6 +79,7 @@ def main():
     else:
         print("No action chosen")
         sys.exit(-1)
+    change_manager.save_all_xml(wn)
 
 if __name__ == "__main__":
     main()
