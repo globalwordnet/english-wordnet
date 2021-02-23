@@ -192,17 +192,11 @@ def change_relation(wn, source_id=None):
     reverse = False
     add = False
     delete = False
-    if not source_id:
-        source_id, source_entry_id = enter_sense_synset(wn, "source ")
-    else:
+    if source_id:
         source_entry_id = None
         mode = "a"
         new_relation = input("Enter new relation: ")
 
-    target_id, target_entry_id = enter_sense_synset(wn, "target ")
-
-    source_synset = wn.synset_by_id(source_id)
-    target_synset = wn.synset_by_id(target_id)
 
     while mode != "a" and mode != "d" and mode != "r" and mode != "c":
         mode = input("[A]dd new relation/[D]elete existing relation/[R]everse relation/[C]hange relation: ").lower()
@@ -212,9 +206,9 @@ def change_relation(wn, source_id=None):
         elif mode == "c":
             mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
             if mode == "s":
-                new_source = enter_sense_synset(wn, "new source ")
+                new_source, new_source_entry_id = enter_sense_synset(wn, "new source ")
             elif mode == "t":
-                new_target = enter_sense_synset(wn, "new target ")
+                new_target, new_target_entry_id = enter_sense_synset(wn, "new target ")
             elif mode == "r":
                 new_relation = input("Enter new relation: ")
             else:
@@ -224,6 +218,39 @@ def change_relation(wn, source_id=None):
             delete = True
         elif mode == "r":
             reverse = True
+
+    if not source_id:
+        if new_relation and new_relation not in wordnet.SenseRelType._value2member_map_:
+            source_id = enter_synset(wn, "source ").id
+            source_entry_id = None
+        elif new_source and new_source_entry_id:
+            source_id, source_entry_id = enter_sense_synset(wn, "old source ")
+        elif new_source:
+            source_id = enter_synset(wn, "old source ").id
+            source_entry_id = None
+        else:
+            source_id, source_entry_id = enter_sense_synset(wn, "source ")
+
+
+    if new_relation and new_relation not in wordnet.SenseRelType._value2member_map_:
+        target_id = enter_synset(wn, "target ").id
+        target_entry_id = None
+    elif new_target and new_target_entry_id:
+        target_id, target_entry_id = enter_sense_synset(wn, "old target ")
+    elif new_target:
+        target_id = enter_synset(wn, "old target ").id
+        target_entry_id = None
+    else:
+        target_id, target_entry_id = enter_sense_synset(wn, "target ")
+
+    source_synset = wn.synset_by_id(source_id)
+    if not source_synset:
+        print("Could not find source synset " + source_id)
+        return False
+    target_synset = wn.synset_by_id(target_id)
+    if not target_synset:
+        print("Could not find target synset " + target_id)
+        return False
 
     if new_source:
         if source_entry_id or target_entry_id:
