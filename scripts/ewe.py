@@ -1,4 +1,5 @@
 import change_manager
+from change_manager import ChangeList
 from autocorrect import Speller
 import wordnet
 
@@ -68,7 +69,7 @@ def check_text(defn, text):
         return input("There may be spelling errors in this %s. Proceed [y/N] : " % text) == "y"
     return True
 
-def change_entry(wn):
+def change_entry(wn, change_list):
     action = input("[A]dd/[D]elete/[M]ove? ").upper()
     while action != "A" and action != "D" and action != "M":
         print("Bad action")
@@ -90,23 +91,23 @@ def change_entry(wn):
         lemma = input("Entry to move: ")
 
     if action == "A":
-        change_manager.add_entry(wn, synset, lemma)
+        change_manager.add_entry(wn, synset, lemma, change_list=change_list)
     elif action == "D":
         change_manager.delete_entry(wn, synset, 
-                "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
+                "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value), change_list=change_list)
     elif action == "M":
         target_synset = enter_synset(wn, "target ")
 
         if synset.lex_name == target_synset.lex_name:
-            change_manager.change_entry(wn, synset, target_synset, lemma)
+            change_manager.change_entry(wn, synset, target_synset, lemma, change_list=change_list)
         else:
             print("Moving across lexicographer files so implementing change as delete then add")
             change_manager.delete_entry(wn, synset, 
-                    "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
-            change_manager.add_entry(wn, target_synset, lemma)
+                    "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value), change_list=change_list)
+            change_manager.add_entry(wn, target_synset, lemma, change_list=change_list)
     return True
 
-def change_synset(wn):
+def change_synset(wn, change_list):
 
     mode = None
     while mode != "a" and mode != "d":
@@ -123,21 +124,21 @@ def change_synset(wn):
         pos = input("Part of speech (n)oun/(v)erb/(a)djective/adve(r)b/(s)atellite: ").lower()
 
     if mode == "a":
-        new_id = change_manager.add_synset(wn, definition, lexfile, pos)
+        new_id = change_manager.add_synset(wn, definition, lexfile, pos, change_list=change_list)
         while True:
             lemma = input("Add Lemma (blank to stop): ")
             if lemma:
-                change_manager.add_entry(wn, wn.synset_by_id(new_id), lemma)
+                change_manager.add_entry(wn, wn.synset_by_id(new_id), lemma, change_list=change_list)
             else:
                 break
         print("New synset created with ID %s. Add at least one relation:" % new_id) 
-        change_relation(wn, new_id)
+        change_relation(wn, change_list, new_id)
 
     elif mode == "d":
-        change_manager.delete_synset(wn, synset, supersede_synset, reason)
+        change_manager.delete_synset(wn, synset, supersede_synset, reason, change_list=change_list)
     return True
 
-def change_definition(wn):
+def change_definition(wn, change_list):
     synset = enter_synset(wn)
 
     ili = input("Set ILI Definition (y/N)? ")
@@ -150,10 +151,10 @@ def change_definition(wn):
             defn = input("New Definition : ")
             if check_text(defn, "definition"):
                 break
-        change_manager.update_def(wn, synset, defn, False)
+        change_manager.update_def(wn, synset, defn, False, change_list=change_list)
     return True
 
-def change_example(wn):
+def change_example(wn, change_list):
     synset = enter_synset(wn)
 
     mode = None
@@ -171,7 +172,7 @@ def change_example(wn):
             if check_text(example, "example"):
                 break
 
-        change_manager.add_ex(wn, synset, example)
+        change_manager.add_ex(wn, synset, example, change_list=change_list)
     else:
         if synset.examples:
             for i, ex in enumerate(synset.examples):
@@ -180,10 +181,10 @@ def change_example(wn):
             while not number.isdigit() or int(number) < 1 or int(number) > len(synset.examples):
                 number = input("Example Number> ")
             example = synset.examples[int(number) -1].text
-        change_manager.delete_ex(wn, synset, example)
+        change_manager.delete_ex(wn, synset, example, change_list=change_list)
     return True
 
-def change_relation(wn, source_id=None):
+def change_relation(wn, change_list, source_id=None):
     mode = None
     new_source = None
     new_target = None
@@ -236,7 +237,7 @@ def change_relation(wn, source_id=None):
             if not change_manager.sense_exists(wn, new_source):
                 print("New source sense %d does not exist" % new_source)
                 return False
-            change_manager.update_source_sense(wn, source_id, target_id, new_source)
+            change_manager.update_source_sense(wn, source_id, target_id, new_source, change_list=change_list)
         else:
             new_source = wn.synset_by_id(new_source)
 
@@ -244,7 +245,7 @@ def change_relation(wn, source_id=None):
                 print("Could not find the new source synset %s" % new_source)
                 return False
 
-            change_manager.update_source(wn, source_synset, target_synset, new_source)
+            change_manager.update_source(wn, source_synset, target_synset, new_source, change_list=change_list)
 
     elif new_target:
         if source_entry_id or target_entry_id:
@@ -257,7 +258,7 @@ def change_relation(wn, source_id=None):
             if not change_manager.sense_exists(wn, new_target):
                 print("New target sense %d does not exist" % new_target)
                 return False
-            change_manager.update_target_sense(wn, source_id, target_id, new_target)
+            change_manager.update_target_sense(wn, source_id, target_id, new_target, change_list=change_list)
         else:
             new_target = wn.synset_by_id(new_target)
 
@@ -265,7 +266,7 @@ def change_relation(wn, source_id=None):
                 print("Could not find the new target synset %s" % new_target)
                 return False
 
-            change_manager.update_target(wn, source_synset, target_synset, new_target)
+            change_manager.update_target(wn, source_synset, target_synset, new_target, change_list=change_list)
 
     elif new_relation:
         if source_entry_id:
@@ -285,9 +286,9 @@ def change_relation(wn, source_id=None):
                 if not change_manager.sense_exists(wn, target_id):
                     print("Target sense %d does not exist" % target_id)
                     return False
-                change_manager.add_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation))
+                change_manager.add_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation), change_list=change_list)
             else:
-                change_manager.add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation))
+                change_manager.add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation), change_list=change_list)
         elif delete:
             if source_entry_id or target_entry_id:
                 if not change_manager.sense_exists(wn, source_id):
@@ -296,9 +297,9 @@ def change_relation(wn, source_id=None):
                 if not change_manager.sense_exists(wn, target_id):
                     print("Target sense %d does not exist" % target_id)
                     return False
-                change_manager.delete_sense_relation(wn, source_id, target_id)
+                change_manager.delete_sense_relation(wn, source_id, target_id, change_list=change_list)
             else:
-                change_manager.delete_relation(wn, source_synset, target_synset)
+                change_manager.delete_relation(wn, source_synset, target_synset, change_list=change_list)
         else:
             if source_entry_id or target_entry_id:
                 if not change_manager.sense_exists(wn, source_id):
@@ -307,9 +308,9 @@ def change_relation(wn, source_id=None):
                 if not change_manager.sense_exists(wn, target_id):
                     print("Target sense %d does not exist" % target_id)
                     return False
-                change_manager.update_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation))
+                change_manager.update_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation), change_list=change_list)
             else:
-                change_manager.update_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation))
+                change_manager.update_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation), change_list=change_list)
     elif delete:
         if source_entry_id or target_entry_id:
             if not change_manager.sense_exists(wn, source_id):
@@ -318,9 +319,9 @@ def change_relation(wn, source_id=None):
             if not change_manager.sense_exists(wn, target_id):
                 print("Target sense %d does not exist" % target_id)
                 return False
-            change_manager.delete_sense_relation(wn, source_id, target_id)
+            change_manager.delete_sense_relation(wn, source_id, target_id, change_list=change_list)
         else:
-            change_manager.delete_relation(wn, source_synset, target_synset)
+            change_manager.delete_relation(wn, source_synset, target_synset, change_list=change_list)
     elif reverse:
         if source_entry_id or target_entry_id:
             if not change_manager.sense_exists(wn, source_id):
@@ -329,15 +330,15 @@ def change_relation(wn, source_id=None):
             if not change_manager.sense_exists(wn, target_id):
                 print("Target sense %d does not exist" % target_id)
                 return False
-            change_manager.reverse_sense_rel(wn, source_id, target_id)
+            change_manager.reverse_sense_rel(wn, source_id, target_id, change_list=change_list)
         else:
-            change_manager.reverse_rel(wn, source_synset, target_synset)
+            change_manager.reverse_rel(wn, source_synset, target_synset, change_list=change_list)
 
     else:
         print("No change specified")
     return True
 
-def split_synset(wn):
+def split_synset(wn, change_list):
     synset = enter_synset(wn)
 
     definition = []
@@ -353,11 +354,11 @@ def split_synset(wn):
 
     new_ids = []
     for definition in definition:
-        new_ids.append(change_manager.add_synset(wn, definition, synset.lex_name, synset.part_of_speech))
+        new_ids.append(change_manager.add_synset(wn, definition, synset.lex_name, synset.part_of_speech), change_list=change_list)
 
     change_manager.delete_synset(wn, synset, 
             [wn.synset_by_id(new_id) for new_id in new_ids],
-            reason)
+            reason, change_list=change_list)
     return True
 
 ewe_changed = False
@@ -374,27 +375,30 @@ def main_menu(wn):
     if ewe_changed:
         print("7. Save changes")
     print("X. Exit EWE")
+    change_list = ChangeList()
     
     mode = input("Option> ").lower()
     if mode == "1":
-        ewe_changed = change_entry(wn) or ewe_changed
+        ewe_changed = change_entry(wn, change_list) or ewe_changed
     elif mode == "2":
-        ewe_changed = change_synset(wn) or ewe_changed
+        ewe_changed = change_synset(wn, change_list) or ewe_changed
     elif mode == "3":
-        ewe_changed = change_definition(wn) or ewe_changed
+        ewe_changed = change_definition(wn, change_list) or ewe_changed
     elif mode == "4":
-        ewe_changed = change_example(wn) or ewe_changed
+        ewe_changed = change_example(wn, change_list) or ewe_changed
     elif mode == "5":
-        ewe_changed = change_relation(wn) or ewe_changed
+        ewe_changed = change_relation(wn, change_list) or ewe_changed
     elif mode == "6":
-        ewe_changed = split_synset(wn) or ewe_changed
+        ewe_changed = split_synset(wn, change_list) or ewe_changed
     elif mode == "7":
-        change_manager.save(wn)
+        change_manager.save(wn, change_list)
         ewe_changed = False
+        change_list = ChangeList()
     elif mode == "x":
         if ewe_changed:
             if input("Save changes (Y/n)? ").lower() != "n":
-                change_manager.save(wn)
+                change_manager.save(wn, change_list)
+                change_list = ChangeList()
         return False
     else:
         print("Please enter a valid option")

@@ -310,7 +310,7 @@ def entries_ordered(wn, synset_id):
     return e
 
 
-def save(wn):
+def save(wn, change_list=None):
     entry_yaml = {c: {} for c in char_range('a','z')}
     entry_yaml['0'] = {}
     for entry in wn.entries:
@@ -336,10 +336,12 @@ def save(wn):
         entry_yaml[first][entry.lemma.written_form][entry.lemma.part_of_speech.value] = e
 
     for c in char_range('a', 'z'):
-        with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
-            outp.write(yaml.dump(entry_yaml[c],default_flow_style=False))
-    with open("src/yaml/entries-0.yaml", "w") as outp:
-        outp.write(yaml.dump(entry_yaml['0'],default_flow_style=False))
+        if not change_list or c in change_list.entry_files:
+            with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
+                outp.write(yaml.dump(entry_yaml[c],default_flow_style=False))
+    if not change_list or '0' in change_list.entry_files:
+        with open("src/yaml/entries-0.yaml", "w") as outp:
+            outp.write(yaml.dump(entry_yaml['0'],default_flow_style=False))
 
     synset_yaml = {}
     for synset in wn.synsets:
@@ -364,8 +366,9 @@ def save(wn):
         s["members"] = entries_ordered(wn, synset.id)
 
     for key, synsets in synset_yaml.items():
-        with open("src/yaml/%s.yaml" % key, "w") as outp:
-            outp.write(yaml.dump(synsets,default_flow_style=False))
+        if not change_list or key in change_list.lexfiles:
+            with open("src/yaml/%s.yaml" % key, "w") as outp:
+                outp.write(yaml.dump(synsets,default_flow_style=False))
 
     with open("src/yaml/frames.yaml", "w") as outp:
         outp.write(yaml.dump(frames, default_flow_style=False))
