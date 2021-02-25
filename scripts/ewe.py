@@ -4,7 +4,8 @@ from autocorrect import Speller
 import wordnet
 
 #####################################
-## English WordNet Editor (EWE)
+# English WordNet Editor (EWE)
+
 
 def enter_synset(wordnet, spec_string=""):
     '''Handle the use input of a single synset'''
@@ -15,20 +16,26 @@ def enter_synset(wordnet, spec_string=""):
             lemma = input("Search by lemma: ")
             entries = wordnet.entry_by_lemma(lemma)
             if entries:
-                synsets = [wordnet.synset_by_id(sense.synset) 
-                        for entry in entries
-                        for sense in wordnet.entry_by_id(entry).senses]
+                synsets = [wordnet.synset_by_id(sense.synset)
+                           for entry in entries
+                           for sense in wordnet.entry_by_id(entry).senses]
                 print("0. Search again")
                 for i, ss in enumerate(synsets):
                     ex_text = ""
                     if ss.examples:
-                        ex_text = "(" + "; ".join(ex.text for ex in ss.examples) + ")"
-                    print("%d. %s - %s %s" % (i+1, ss.id, 
-                        "; ".join(defn.text for defn in ss.definitions),
-                        ex_text))
+                        ex_text = "(" + \
+                            "; ".join(ex.text for ex in ss.examples) + ")"
+                    print(
+                        "%d. %s - %s %s" %
+                        (i +
+                         1,
+                         ss.id,
+                         "; ".join(
+                             defn.text for defn in ss.definitions),
+                            ex_text))
                 synset_no = input("Enter synset no: ")
                 if synset_no >= '1' and synset_no <= str(len(synsets)):
-                    return synsets[int(synset_no)-1]
+                    return synsets[int(synset_no) - 1]
             else:
                 print("Not found")
 
@@ -39,6 +46,7 @@ def enter_synset(wordnet, spec_string=""):
         if not synset:
             print("Synset not found")
     return synset
+
 
 def enter_sense_synset(wordnet, spec_string=""):
     '''Handle the user input of a single synset or sense'''
@@ -52,13 +60,15 @@ def enter_sense_synset(wordnet, spec_string=""):
     sense_no = input("Enter sense number: ")
     sense_id = None
     if sense_no >= '1' and sense_no <= str(len(mems)):
-        lemma = mems[int(sense_no)-1]
+        lemma = mems[int(sense_no) - 1]
         sense_id = [sense.id for entry_id in wordnet.entry_by_lemma(lemma)
                     for sense in wordnet.entry_by_id(entry_id).senses
                     if sense.synset == synset.id][0]
     return synset.id, sense_id
 
+
 spell = Speller(lang='en')
+
 
 def check_text(defn, text):
     '''Check that a definition is good'''
@@ -66,8 +76,11 @@ def check_text(defn, text):
         print("Definition is empty")
         return False
     if any([spell(w) != w for w in defn.split()]):
-        return input("There may be spelling errors in this %s. Proceed [y/N] : " % text) == "y"
+        return input(
+            "There may be spelling errors in this %s. Proceed [y/N] : " %
+            text) == "y"
     return True
+
 
 def change_entry(wn, change_list):
     action = input("[A]dd/[D]elete/[M]ove? ").upper()
@@ -93,19 +106,33 @@ def change_entry(wn, change_list):
     if action == "A":
         change_manager.add_entry(wn, synset, lemma, change_list=change_list)
     elif action == "D":
-        change_manager.delete_entry(wn, synset, 
-                "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value), change_list=change_list)
+        change_manager.delete_entry(
+            wn,
+            synset,
+            "ewn-%s-%s" %
+            (wordnet.escape_lemma(lemma),
+             synset.part_of_speech.value),
+            change_list=change_list)
     elif action == "M":
         target_synset = enter_synset(wn, "target ")
 
         if synset.lex_name == target_synset.lex_name:
-            change_manager.change_entry(wn, synset, target_synset, lemma, change_list=change_list)
+            change_manager.change_entry(
+                wn, synset, target_synset, lemma, change_list=change_list)
         else:
-            print("Moving across lexicographer files so implementing change as delete then add")
-            change_manager.delete_entry(wn, synset, 
-                    "ewn-%s-%s" % (wordnet.escape_lemma(lemma), synset.part_of_speech.value), change_list=change_list)
-            change_manager.add_entry(wn, target_synset, lemma, change_list=change_list)
+            print(
+                "Moving across lexicographer files so implementing change as delete then add")
+            change_manager.delete_entry(
+                wn,
+                synset,
+                "ewn-%s-%s" %
+                (wordnet.escape_lemma(lemma),
+                 synset.part_of_speech.value),
+                change_list=change_list)
+            change_manager.add_entry(
+                wn, target_synset, lemma, change_list=change_list)
     return True
+
 
 def change_synset(wn, change_list):
 
@@ -121,22 +148,33 @@ def change_synset(wn, change_list):
     if mode == "a":
         definition = input("Definition: ")
         lexfile = input("Lexicographer file: ")
-        pos = input("Part of speech (n)oun/(v)erb/(a)djective/adve(r)b/(s)atellite: ").lower()
+        pos = input(
+            "Part of speech (n)oun/(v)erb/(a)djective/adve(r)b/(s)atellite: ").lower()
 
     if mode == "a":
-        new_id = change_manager.add_synset(wn, definition, lexfile, pos, change_list=change_list)
+        new_id = change_manager.add_synset(
+            wn, definition, lexfile, pos, change_list=change_list)
         while True:
             lemma = input("Add Lemma (blank to stop): ")
             if lemma:
-                change_manager.add_entry(wn, wn.synset_by_id(new_id), lemma, change_list=change_list)
+                change_manager.add_entry(wn, wn.synset_by_id(
+                    new_id), lemma, change_list=change_list)
             else:
                 break
-        print("New synset created with ID %s. Add at least one relation:" % new_id) 
+        print(
+            "New synset created with ID %s. Add at least one relation:" %
+            new_id)
         change_relation(wn, change_list, new_id)
 
     elif mode == "d":
-        change_manager.delete_synset(wn, synset, supersede_synset, reason, change_list=change_list)
+        change_manager.delete_synset(
+            wn,
+            synset,
+            supersede_synset,
+            reason,
+            change_list=change_list)
     return True
+
 
 def change_definition(wn, change_list):
     synset = enter_synset(wn)
@@ -151,8 +189,10 @@ def change_definition(wn, change_list):
             defn = input("New Definition : ")
             if check_text(defn, "definition"):
                 break
-        change_manager.update_def(wn, synset, defn, False, change_list=change_list)
+        change_manager.update_def(
+            wn, synset, defn, False, change_list=change_list)
     return True
+
 
 def change_example(wn, change_list):
     synset = enter_synset(wn)
@@ -176,11 +216,12 @@ def change_example(wn, change_list):
     else:
         if synset.examples:
             for i, ex in enumerate(synset.examples):
-                print("%d. %s" % (i+1, ex.text))
+                print("%d. %s" % (i + 1, ex.text))
             number = "0"
-            while not number.isdigit() or int(number) < 1 or int(number) > len(synset.examples):
+            while not number.isdigit() or int(number) < 1 or int(
+                    number) > len(synset.examples):
                 number = input("Example Number> ")
-            example = synset.examples[int(number) -1].text
+            example = synset.examples[int(number) - 1].text
         change_manager.delete_ex(wn, synset, example, change_list=change_list)
     return True
 
@@ -209,10 +250,10 @@ def change_relation(wn, change_list, source_id=None):
             mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
             if mode == "s":
                 new_source, new_source_sense_id = enter_sense_synset(
-                        wn, "new source ")
+                    wn, "new source ")
             elif mode == "t":
                 new_target, new_target_sense_id = enter_sense_synset(
-                        wn, "new target ")
+                    wn, "new target ")
             elif mode == "r":
                 new_relation = input("Enter new relation: ")
             else:
@@ -434,6 +475,7 @@ def split_synset(wn, change_list):
 ewe_changed = False
 change_list = ChangeList()
 
+
 def main_menu(wn):
     global ewe_changed
     global change_list
@@ -447,7 +489,7 @@ def main_menu(wn):
     if ewe_changed:
         print("7. Save changes")
     print("X. Exit EWE")
-    
+
     mode = input("Option> ").lower()
     if mode == "1":
         ewe_changed = change_entry(wn, change_list) or ewe_changed
@@ -475,10 +517,11 @@ def main_menu(wn):
         print("Please enter a valid option")
     return True
 
+
 def main():
     print("")
     print("         ,ww                             ")
-    print("   wWWWWWWW_)  Welcome to EWE            ") 
+    print("   wWWWWWWW_)  Welcome to EWE            ")
     print("   `WWWWWW'    - English WordNet Editor  ")
     print("    II  II                               ")
     print("")
