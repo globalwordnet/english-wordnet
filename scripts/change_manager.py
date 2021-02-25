@@ -26,7 +26,7 @@ class ChangeList:
         self.entry_files.add(entry_key)
 
     def change_synset(self, synset):
-        self.lexfile.add(synset.lex_name)
+        self.lexfiles.add(synset.lex_name)
 
 
 def load_wordnet():
@@ -348,6 +348,7 @@ def delete_entry(wn, synset, entry_id, change_list=None):
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = wn
+        entry = wn_synset.entry_by_id(entry_global.id)
         wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
         wn.entries = [entry for entry in wn.entries if entry.id != entry_global.id]
     else:
@@ -356,7 +357,7 @@ def delete_entry(wn, synset, entry_id, change_list=None):
         entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
         entry_global.senses = [sense for sense in entry_global.senses if sense.synset != synset.id]
     if change_list:
-        change_list.change_entry(entry)
+        change_list.change_entry(wn, entry)
 
 def delete_synset(wn, synset, supersede, reason, delent=True, change_list=None):
     """Delete a synset"""
