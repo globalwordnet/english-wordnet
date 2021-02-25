@@ -105,7 +105,7 @@ def save_all_xml(wn, change_list=None):
                 by_lex_name[lex_name].add_entry(e)
  
     for lex_name, wn in by_lex_name.items():
-        if os.path.exists("src/xml/wn-%s.xml" % lex_name):
+        if os.path.exists("src/xml/wn-%s.xml" % lex_name) and (not change_list or lex_name in change_list.lexfiles):
             wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])

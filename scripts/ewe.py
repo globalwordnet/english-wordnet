@@ -50,13 +50,13 @@ def enter_sense_synset(wordnet, spec_string=""):
     for i, m in enumerate(mems):
         print("%d. %s" % (i + 1, m))
     sense_no = input("Enter sense number: ")
-    synset_entry_id = None
+    sense_id = None
     if sense_no >= '1' and sense_no <= str(len(mems)):
         lemma = mems[int(sense_no)-1]
-        synset_entry_id = [entry_id for entry_id in wordnet.entry_by_lemma(lemma)
-                if any(sense for sense in wordnet.entry_by_id(entry_id).senses
-                        if sense.synset == synset.id)][0]
-    return synset.id, synset_entry_id
+        sense_id = [sense.id for entry_id in wordnet.entry_by_lemma(lemma)
+                    for sense in wordnet.entry_by_id(entry_id).senses
+                    if sense.synset == synset.id][0]
+    return synset.id, sense_id
 
 spell = Speller(lang='en')
 
@@ -184,6 +184,7 @@ def change_example(wn, change_list):
         change_manager.delete_ex(wn, synset, example, change_list=change_list)
     return True
 
+
 def change_relation(wn, change_list, source_id=None):
     mode = None
     new_source = None
@@ -198,18 +199,20 @@ def change_relation(wn, change_list, source_id=None):
         mode = "a"
         new_relation = input("Enter new relation: ")
 
-
     while mode != "a" and mode != "d" and mode != "r" and mode != "c":
-        mode = input("[A]dd new relation/[D]elete existing relation/[R]everse relation/[C]hange relation: ").lower()
+        mode = input("[A]dd new relation/[D]elete existing relation/" +
+                     "[R]everse relation/[C]hange relation: ").lower()
         if mode == "a":
             add = True
             new_relation = input("Enter new relation: ")
         elif mode == "c":
             mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
             if mode == "s":
-                new_source, new_source_entry_id = enter_sense_synset(wn, "new source ")
+                new_source, new_source_sense_id = enter_sense_synset(
+                        wn, "new source ")
             elif mode == "t":
-                new_target, new_target_entry_id = enter_sense_synset(wn, "new target ")
+                new_target, new_target_sense_id = enter_sense_synset(
+                        wn, "new target ")
             elif mode == "r":
                 new_relation = input("Enter new relation: ")
             else:
@@ -221,28 +224,29 @@ def change_relation(wn, change_list, source_id=None):
             reverse = True
 
     if not source_id:
-        if new_relation and new_relation not in wordnet.SenseRelType._value2member_map_:
+        if (new_relation and
+                new_relation not in wordnet.SenseRelType._value2member_map_):
             source_id = enter_synset(wn, "source ").id
-            source_entry_id = None
-        elif new_source and new_source_entry_id:
-            source_id, source_entry_id = enter_sense_synset(wn, "old source ")
+            source_sense_id = None
+        elif new_source and new_source_sense_id:
+            source_id, source_sense_id = enter_sense_synset(wn, "old source ")
         elif new_source:
             source_id = enter_synset(wn, "old source ").id
-            source_entry_id = None
+            source_sense_id = None
         else:
-            source_id, source_entry_id = enter_sense_synset(wn, "source ")
+            source_id, source_sense_id = enter_sense_synset(wn, "source ")
 
-
-    if new_relation and new_relation not in wordnet.SenseRelType._value2member_map_:
+    if (new_relation and
+            new_relation not in wordnet.SenseRelType._value2member_map_):
         target_id = enter_synset(wn, "target ").id
         target_entry_id = None
-    elif new_target and new_target_entry_id:
-        target_id, target_entry_id = enter_sense_synset(wn, "old target ")
+    elif new_target and new_target_sense_id:
+        target_id, target_sense_id = enter_sense_synset(wn, "old target ")
     elif new_target:
         target_id = enter_synset(wn, "old target ").id
         target_entry_id = None
     else:
-        target_id, target_entry_id = enter_sense_synset(wn, "target ")
+        target_id, target_sense_id = enter_sense_synset(wn, "target ")
 
     source_synset = wn.synset_by_id(source_id)
     if not source_synset:
@@ -254,17 +258,21 @@ def change_relation(wn, change_list, source_id=None):
         return False
 
     if new_source:
-        if source_entry_id or target_entry_id:
-            if not change_manager.sense_exists(wn, source_id):
-                print("Source sense %d does not exist" % source_id)
+        if source_sense_id or target_sense_id:
+            if not change_manager.sense_exists(wn, source_sense_id):
+                print("Source sense %d does not exist" % source_sense_id)
                 return False
-            if not change_manager.sense_exists(wn, target_id):
-                print("Target sense %d does not exist" % target_id)
+            if not change_manager.sense_exists(wn, target_sense_id):
+                print("Target sense %d does not exist" % target_sense_id)
                 return False
-            if not change_manager.sense_exists(wn, new_source):
-                print("New source sense %d does not exist" % new_source)
+            if not change_manager.sense_exists(wn, new_source_sense_id):
+                print("New source sense %d does not exist" %
+                      new_source_sense_id)
                 return False
-            change_manager.update_source_sense(wn, source_id, target_id, new_source, change_list=change_list)
+            change_manager.update_source_sense(wn, source_sense_id,
+                                               target_sense_id,
+                                               new_source_sense_id,
+                                               change_list=change_list)
         else:
             new_source = wn.synset_by_id(new_source)
 
@@ -272,20 +280,25 @@ def change_relation(wn, change_list, source_id=None):
                 print("Could not find the new source synset %s" % new_source)
                 return False
 
-            change_manager.update_source(wn, source_synset, target_synset, new_source, change_list=change_list)
+            change_manager.update_source(wn, source_synset, target_synset,
+                                         new_source, change_list=change_list)
 
     elif new_target:
-        if source_entry_id or target_entry_id:
-            if not change_manager.sense_exists(wn, source_id):
-                print("Source sense %d does not exist" % source_id)
+        if source_sense_id or target_sense_id:
+            if not change_manager.sense_exists(wn, source_sense_id):
+                print("Source sense %d does not exist" % source_sense_id)
                 return False
-            if not change_manager.sense_exists(wn, target_id):
-                print("Target sense %d does not exist" % target_id)
+            if not change_manager.sense_exists(wn, target_sense_id):
+                print("Target sense %d does not exist" % target_sense_id)
                 return False
-            if not change_manager.sense_exists(wn, new_target):
-                print("New target sense %d does not exist" % new_target)
+            if not change_manager.sense_exists(wn, new_target_sense_id):
+                print("New target sense %d does not exist" %
+                      new_target_sense_id)
                 return False
-            change_manager.update_target_sense(wn, source_id, target_id, new_target, change_list=change_list)
+            change_manager.update_target_sense(wn, source_sense_id,
+                                               target_sense_id,
+                                               new_target_sense_id,
+                                               change_list=change_list)
         else:
             new_target = wn.synset_by_id(new_target)
 
@@ -293,10 +306,11 @@ def change_relation(wn, change_list, source_id=None):
                 print("Could not find the new target synset %s" % new_target)
                 return False
 
-            change_manager.update_target(wn, source_synset, target_synset, new_target, change_list=change_list)
+            change_manager.update_target(wn, source_synset, target_synset,
+                                         new_target, change_list=change_list)
 
     elif new_relation:
-        if source_entry_id:
+        if source_sense_id:
             if new_relation not in wordnet.SenseRelType._value2member_map_:
                 print("Not a valid relation type %s" % new_relation)
                 return False
@@ -306,64 +320,88 @@ def change_relation(wn, change_list, source_id=None):
                 return False
 
         if add:
-            if source_entry_id or target_entry_id:
-                if not change_manager.sense_exists(wn, source_id):
-                    print("Source sense %d does not exist" % source_id)
+            if source_sense_id or target_sense_id:
+                if not change_manager.sense_exists(wn, source_sense_id):
+                    print("Source sense %s does not exist" % source_sense_id)
                     return False
-                if not change_manager.sense_exists(wn, target_id):
-                    print("Target sense %d does not exist" % target_id)
+                if not change_manager.sense_exists(wn, target_sense_id):
+                    print("Target sense %s does not exist" % target_sense_id)
                     return False
-                change_manager.add_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation), change_list=change_list)
+                change_manager.add_sense_relation(wn, source_sense_id,
+                                                  target_sense_id,
+                                                  wordnet.SenseRelType(
+                                                      new_relation),
+                                                  change_list=change_list)
             else:
-                change_manager.add_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation), change_list=change_list)
+                change_manager.add_relation(wn, source_synset, target_synset,
+                                            wordnet.SynsetRelType(
+                                                new_relation),
+                                            change_list=change_list)
         elif delete:
             if source_entry_id or target_entry_id:
                 if not change_manager.sense_exists(wn, source_id):
-                    print("Source sense %d does not exist" % source_id)
+                    print("Source sense %s does not exist" % source_id)
                     return False
                 if not change_manager.sense_exists(wn, target_id):
-                    print("Target sense %d does not exist" % target_id)
+                    print("Target sense %s does not exist" % target_id)
                     return False
-                change_manager.delete_sense_relation(wn, source_id, target_id, change_list=change_list)
+                change_manager.delete_sense_relation(wn, source_id, target_id,
+                                                     change_list=change_list)
             else:
-                change_manager.delete_relation(wn, source_synset, target_synset, change_list=change_list)
+                change_manager.delete_relation(wn, source_synset,
+                                               target_synset,
+                                               change_list=change_list)
         else:
-            if source_entry_id or target_entry_id:
-                if not change_manager.sense_exists(wn, source_id):
-                    print("Source sense %d does not exist" % source_id)
+            if source_sense_id or target_sense_id:
+                if not change_manager.sense_exists(wn, source_sense_id):
+                    print("Source sense %s does not exist" % source_sense_id)
                     return False
-                if not change_manager.sense_exists(wn, target_id):
-                    print("Target sense %d does not exist" % target_id)
+                if not change_manager.sense_exists(wn, target_sense_id):
+                    print("Target sense %s does not exist" % target_sense_id)
                     return False
-                change_manager.update_sense_relation(wn, source_id, target_id, wordnet.SenseRelType(new_relation), change_list=change_list)
+                change_manager.update_sense_relation(wn, source_sense_id,
+                                                     target_sense_id,
+                                                     wordnet.SenseRelType(
+                                                         new_relation),
+                                                     change_list=change_list)
             else:
-                change_manager.update_relation(wn, source_synset, target_synset, wordnet.SynsetRelType(new_relation), change_list=change_list)
+                change_manager.update_relation(wn, source_synset,
+                                               target_synset,
+                                               wordnet.SynsetRelType(
+                                                   new_relation),
+                                               change_list=change_list)
     elif delete:
-        if source_entry_id or target_entry_id:
-            if not change_manager.sense_exists(wn, source_id):
-                print("Source sense %d does not exist" % source_id)
+        if source_sense_id or target_sense_id:
+            if not change_manager.sense_exists(wn, source_sense_id):
+                print("Source sense %s does not exist" % source_sense_id)
                 return False
-            if not change_manager.sense_exists(wn, target_id):
-                print("Target sense %d does not exist" % target_id)
+            if not change_manager.sense_exists(wn, target_sense_id):
+                print("Target sense %s does not exist" % target_sense_id)
                 return False
-            change_manager.delete_sense_relation(wn, source_id, target_id, change_list=change_list)
+            change_manager.delete_sense_relation(wn, source_sense_id,
+                                                 target_sense_id,
+                                                 change_list=change_list)
         else:
-            change_manager.delete_relation(wn, source_synset, target_synset, change_list=change_list)
+            change_manager.delete_relation(wn, source_synset, target_synset,
+                                           change_list=change_list)
     elif reverse:
         if source_entry_id or target_entry_id:
             if not change_manager.sense_exists(wn, source_id):
-                print("Source sense %d does not exist" % source_id)
+                print("Source sense %s does not exist" % source_id)
                 return False
             if not change_manager.sense_exists(wn, target_id):
-                print("Target sense %d does not exist" % target_id)
+                print("Target sense %s does not exist" % target_id)
                 return False
-            change_manager.reverse_sense_rel(wn, source_id, target_id, change_list=change_list)
+            change_manager.reverse_sense_rel(wn, source_id, target_id,
+                                             change_list=change_list)
         else:
-            change_manager.reverse_rel(wn, source_synset, target_synset, change_list=change_list)
+            change_manager.reverse_rel(wn, source_synset, target_synset,
+                                       change_list=change_list)
 
     else:
         print("No change specified")
     return True
+
 
 def split_synset(wn, change_list):
     synset = enter_synset(wn)
@@ -381,12 +419,17 @@ def split_synset(wn, change_list):
 
     new_ids = []
     for definition in definition:
-        new_ids.append(change_manager.add_synset(wn, definition, synset.lex_name, synset.part_of_speech), change_list=change_list)
+        new_ids.append(change_manager.add_synset(wn, definition,
+                                                 synset.lex_name,
+                                                 synset.part_of_speech,
+                                                 change_list=change_list))
 
-    change_manager.delete_synset(wn, synset, 
-            [wn.synset_by_id(new_id) for new_id in new_ids],
-            reason, change_list=change_list)
+    change_manager.delete_synset(wn, synset,
+                                 [wn.synset_by_id(new_id)
+                                  for new_id in new_ids],
+                                 reason, change_list=change_list)
     return True
+
 
 ewe_changed = False
 change_list = ChangeList()
