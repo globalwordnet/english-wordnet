@@ -11,6 +11,24 @@ from collections import defaultdict
 
 sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
 
+class ChangeList:
+    def __init__(self):
+        self.lexfiles = set()
+        self.entry_files = set()
+
+    def change_entry(self, wn, entry):
+        for sense in entry.senses:
+            synset = wn.synset_by_id(sense.synset)
+            self.lexfiles.add(synset.lex_name)
+        entry_key = entry.lemma.written_form[0].lower()
+        if entry_key < 'a' or entry_key > 'z':
+            entry_key = '0'
+        self.entry_files.add(entry_key)
+
+    def change_synset(self, synset):
+        self.lexfiles.add(synset.lex_name)
+
+
 def load_wordnet():
     """Load the wordnet from disk"""
     mode = None
@@ -42,15 +60,15 @@ def load_wordnet():
         wn = pickle.load(open("wn.pickle", "rb"))
     return wn
 
-def save(wn):
+def save(wn, change_list=None):
     """Save the wordnet to disk (all formats)"""
-    wordnet_yaml.save(wn)
-    save_all_xml(wn)
+    wordnet_yaml.save(wn, change_list)
+    save_all_xml(wn, change_list)
     with codecs.open("wn.xml","w","utf-8") as outp:
         wn.to_xml(outp, True)
     pickle.dump(wn, open("wn.pickle", "wb"))
 
-def save_all_xml(wn):
+def save_all_xml(wn, change_list=None):
     by_lex_name = {}
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
@@ -87,7 +105,7 @@ def save_all_xml(wn):
                 by_lex_name[lex_name].add_entry(e)
  
     for lex_name, wn in by_lex_name.items():
-        if os.path.exists("src/xml/wn-%s.xml" % lex_name):
+        if os.path.exists("src/xml/wn-%s.xml" % lex_name) and (not change_list or lex_name in change_list.lexfiles):
             wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
             wn.comments = wn_lex.comments
             entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
@@ -127,15 +145,18 @@ def save_all_xml(wn):
                         for i, sr in enumerate(wn_lex.synset_by_id(synset.id).synset_relations)])
                     synset.synset_relations = sorted(synset.synset_relations,
                         key=lambda sr: synset_rel_order[(sr.target, sr.rel_type)])
-        with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
-            wn.to_xml(outp, True)
+        if not change_list or lex_name in change_list.lexfiles:
+            with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
+                wn.to_xml(outp, True)
 
 
-def delete_rel(source, target):
+def delete_rel(source, target, change_list=None):
     """Delete all relationships between two synsets"""
     print("Delete %s =*=> %s" % (source.id, target.id))
     ss = source
     source.synset_relations = [r for r in ss.synset_relations if r.target != target.id]
+    if change_list:
+        change_list.change_synset(source)
 
 def decompose_sense_id(sense_id):
     m = sense_id_re.match(sense_id)
@@ -147,17 +168,19 @@ def decompose_sense_id(sense_id):
     else:
         raise Exception("Not a sense ID")
 
-def delete_sense_rel(wn, source, target):
+def delete_sense_rel(wn, source, target, change_list=None):
     """Delete all relationships between two senses"""
     print("Delete %s =*=> %s" % (source, target))
     (source_synset, source_entry) = decompose_sense_id(source)
     lex_name = wn.synset_by_id(source_synset).lex_name
     entry = wn.entry_by_id(source_entry)
+    if change_list:
+        change_list.change_entry(wn, entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
 
 
-def insert_rel(source, rel_type, target):
+def insert_rel(source, rel_type, target, change_list=None):
     """Insert a single relation between two synsets"""
     print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
     ss = source
@@ -165,6 +188,8 @@ def insert_rel(source, rel_type, target):
         print("Already exists")
         return
     ss.synset_relations.append(SynsetRelation(target.id, rel_type))
+    if change_list:
+        change_list.change_synset(target)
 
 def empty_if_none(x):
     """Returns an empty list if passed None otherwise the argument"""
@@ -176,7 +201,7 @@ def empty_if_none(x):
 def synset_key(synset_id):
     return synset_id[4:-2]
 
-def change_entry(wn, synset, target_synset, lemma):
+def change_entry(wn, synset, target_synset, lemma, change_list=None):
     """Change an entry, only works if both synsets are in the same file"""
     print("Adding %s to synset %s" % (lemma, synset.id))
     n_entries = len(empty_if_none(wn.members_by_id(target_synset.id)))
@@ -206,9 +231,11 @@ def change_entry(wn, synset, target_synset, lemma):
                 wn.change_sense_id(sense, 
                         "ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), 
                         target_synset.part_of_speech.value,
-                        synset_key(target_synset.id), idx))
+                        synset_key(target_synset.id), idx), change_list)
+    if change_list:
+        change_list.change_entry(wn, entry)
 
-def add_entry(wn, synset, lemma, idx=0, n=-1):
+def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
     """Add a new lemma to a synset"""
     print("Adding %s to synset %s" % (lemma, synset.id))
     n_entries = len(empty_if_none(wn.members_by_id(synset.id)))
@@ -280,9 +307,11 @@ def add_entry(wn, synset, lemma, idx=0, n=-1):
                         synset_key(synset.id), idx),
                     synset=synset.id, n=n, sense_key=None))
         wn.add_entry(entry)
+    if change_list:
+        change_list.change_entry(wn, entry)
     return entry
 
-def delete_entry(wn, synset, entry_id):
+def delete_entry(wn, synset, entry_id, change_list=None):
     """Delete a lemma from a synset"""
     print("Deleting %s from synset %s" % (entry_id, synset.id))
     n_entries = len(wn.members_by_id(synset.id))
@@ -319,6 +348,7 @@ def delete_entry(wn, synset, entry_id):
 
     if n_senses == 1: # then delete the whole entry
         wn_synset = wn
+        entry = wn_synset.entry_by_id(entry_global.id)
         wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
         wn.entries = [entry for entry in wn.entries if entry.id != entry_global.id]
     else:
@@ -326,8 +356,10 @@ def delete_entry(wn, synset, entry_id):
         entry = wn_synset.entry_by_id(entry_global.id)
         entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
         entry_global.senses = [sense for sense in entry_global.senses if sense.synset != synset.id]
+    if change_list:
+        change_list.change_entry(wn, entry)
 
-def delete_synset(wn, synset, supersede, reason, delent=True):
+def delete_synset(wn, synset, supersede, reason, delent=True, change_list=None):
     """Delete a synset"""
     print("Deleting synset %s" % synset.id)
     
@@ -336,10 +368,10 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
 
         for entry in entries:
             delete_entry(wn, synset, 
-                    "ewn-%s-%s" % (escape_lemma(entry), synset.part_of_speech.value))
+                    "ewn-%s-%s" % (escape_lemma(entry), synset.part_of_speech.value), change_list)
 
     for rel in synset.synset_relations:
-        delete_rel(wn.synset_by_id(rel.target), synset)
+        delete_rel(wn.synset_by_id(rel.target), synset, change_list)
 
     wn_synset = wn
     wn_synset.synsets = [ss for ss in wn_synset.synsets
@@ -355,9 +387,11 @@ def delete_synset(wn, synset, supersede, reason, delent=True):
                     ",".join(s.id for s in supersede),
                     ",".join(s.ili for s in supersede),
                     reason.replace("\n","").replace("\"","\"\"")))
+    if change_list:
+        change_list.change_synset(synset)
 
 
-def change_sense_n(wn, entry, sense_id, new_n):
+def change_sense_n(wn, entry, sense_id, new_n, change_list=None):
     """Change the position of a sense within an entry (changes only this sense)"""
     print("Changing n of sense %s of %s to %s" % (sense_id, entry.lemma.written_form, new_n))
     if new_n <= 0:
@@ -374,8 +408,10 @@ def change_sense_n(wn, entry, sense_id, new_n):
     entry = wn_synset.entry_by_id(entry.id)
     sense = [sense for sense in entry.senses if sense.id == sense_id][0]
     sense.n = new_n
+    if change_list:
+        change_list.change_entry(wn, entry)
 
-def change_sense_idx(wn, sense_id, new_idx):
+def change_sense_idx(wn, sense_id, new_idx, change_list=None):
     """Change the position of a lemma within a synset"""
     print("Changing idx of sense %s to %s" % (sense_id, new_idx))
     new_sense_id = "%s-%02d" % (sense_id[:-3], new_idx)
@@ -390,6 +426,8 @@ def change_sense_idx(wn, sense_id, new_idx):
             sb.senses = [
                     new_sense_id if s == sense_id else s
                     for s in sb.senses]
+        if change_list:
+            change_list.change_entry(wn, entry)
 
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
@@ -407,16 +445,18 @@ def new_id(wn, pos, definition):
     return nid
 
 
-def add_synset(wn, definition, lexfile, pos, ssid=None):
+def add_synset(wn, definition, lexfile, pos, ssid=None, change_list=None):
     if not ssid:
         ssid = new_id(wn, pos, definition)
     ss = Synset(ssid, "in",
             PartOfSpeech(pos), lexfile)
     ss.definitions = [Definition(definition)]
     wn.add_synset(ss)
+    if change_list:
+        change_list.change_synset(ss)
     return ssid
 
-def merge_synset(wn, synsets, reason, lexfile, ssid=None):
+def merge_synset(wn, synsets, reason, lexfile, ssid=None, change_list=None):
     """Create a new synset merging all the facts from other synsets"""
     pos = synsets[0].part_of_speech.value
     if not ssid:
@@ -432,18 +472,20 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None):
         # Add all relations
         for r in s.synset_relations:
             if not any(r == r2 for r2 in ss.synset_relations):
-                add_relation(wn, ss, wn.synset_by_id(r.target), r.rel_type)
+                add_relation(wn, ss, wn.synset_by_id(r.target), r.rel_type, change_list)
         # Add members
         for m in wn.members_by_id(s.id):
             if m not in members:
-                members[m] = add_entry(wn, ss, m)
-                add_entry(wn, ss, m)
+                members[m] = add_entry(wn, ss, m, change_list)
+                add_entry(wn, ss, m, change_list)
             e = [e for e in [wn.entry_by_id(e2) for e2 in wn.entry_by_lemma(m)]
                     if e.lemma.part_of_speech.value == pos][0]
             for f in e.forms:
                 if not any(f2 == f for f in members[m].forms):
                     members[m].add_form(f)
             # syn behaviours - probably fix manually for the moment
+    if change_list:
+        change_list.change_synset(ss)
     return ss
 
 
@@ -454,59 +496,59 @@ def find_type(source, target):
         raise Exception("Synsets not linked or linked by more than one property")
     return x[0].rel_type
 
-def update_source(wn, old_source, target, new_source):
+def update_source(wn, old_source, target, new_source, change_list=None):
     """Change the source of a link"""
     rel_type = find_type(old_source, target)
-    delete_rel(old_source, target)
-    insert_rel(new_source, rel_type, target)
+    delete_rel(old_source, target, change_list)
+    insert_rel(new_source, rel_type, target, change_list)
     if rel_type in wordnet.inverse_synset_rels:
         inv_rel_type = wordnet.inverse_synset_rels[rel_type]
-        delete_rel(target, old_source)
-        insert_rel(target, inv_rel_type, new_source)
+        delete_rel(target, old_source, change_list)
+        insert_rel(target, inv_rel_type, new_source, change_list)
 
-def update_target(wn, source, old_target, new_target):
+def update_target(wn, source, old_target, new_target, change_list=None):
     """Change the target of a link"""
     rel_type = find_type(source, old_target)
-    delete_rel(source, old_target)
-    insert_rel(source, rel_type, new_target)
+    delete_rel(source, old_target, change_list)
+    insert_rel(source, rel_type, new_target, change_list)
     if rel_type in wordnet.inverse_synset_rels:
         inv_rel_type = wordnet.inverse_synset_rels[rel_type]
-        delete_rel(old_target, source)
-        insert_rel(new_target, inv_rel_type, source)
+        delete_rel(old_target, source, change_list)
+        insert_rel(new_target, inv_rel_type, source, change_list)
 
-def update_relation(wn, source, target, new_rel):
+def update_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
-    delete_rel(source, target)
-    insert_rel(source, new_rel, target)
+    delete_rel(source, target, change_list)
+    insert_rel(source, new_rel, target, change_list)
     if new_rel in inverse_synset_rels:
         inv_rel_type = inverse_synset_rels[new_rel]
-        delete_rel(target, source)
-        insert_rel(target, inv_rel_type, source)
+        delete_rel(target, source, change_list)
+        insert_rel(target, inv_rel_type, source, change_list)
 
-def add_relation(wn, source, target, new_rel):
+def add_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
-    insert_rel(source, new_rel, target)
+    insert_rel(source, new_rel, target, change_list)
     if new_rel in inverse_synset_rels:
         inv_rel_type = inverse_synset_rels[new_rel]
-        insert_rel(target, inv_rel_type, source)
+        insert_rel(target, inv_rel_type, source, change_list)
 
-def delete_relation(wn, source, target):
+def delete_relation(wn, source, target, change_list=None):
     """Change the type of a link"""
-    delete_rel(source, target)
-    delete_rel(target, source)
+    delete_rel(source, target, change_list)
+    delete_rel(target, source, change_list)
 
-def reverse_rel(wn, source, target):
+def reverse_rel(wn, source, target, change_list=None):
     """Reverse the direction of relations"""
     rel_type = find_type(source, target)
-    delete_rel(source, target)
+    delete_rel(source, target, change_list)
     if rel_type in inverse_synset_rels:
-        delete_rel(target, source)
-    insert_rel(target, rel_type, source)
+        delete_rel(target, source, change_list)
+    insert_rel(target, rel_type, source, change_list)
     if rel_type in inverse_synset_rels:
         inv_rel_type = inverse_synset_rels[rel_type]
-        insert_rel(source, inv_rel_type, target)
+        insert_rel(source, inv_rel_type, target, change_list)
 
-def delete_sense_rel(wn, source, target):
+def delete_sense_rel(wn, source, target, change_list=None):
     """Delete all relationships between two senses"""
     print("Delete %s =*=> %s" % (source, target))
     (source_synset, source_entry) = decompose_sense_id(source)
@@ -515,8 +557,10 @@ def delete_sense_rel(wn, source, target):
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
+    if change_list:
+        change_list.change_entry(wn, entry)
 
-def insert_sense_rel(wn, source, rel_type, target):
+def insert_sense_rel(wn, source, rel_type, target, change_list=None):
     """Insert a single relation between two senses"""
     print("Insert %s =%s=> %s" % (source, rel_type, target))
     (source_synset, source_entry) = decompose_sense_id(source)
@@ -525,6 +569,8 @@ def insert_sense_rel(wn, source, rel_type, target):
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
     sense.sense_relations.append(SenseRelation(target, rel_type))
+    if change_list:
+        change_list.change_entry(wn, entry)
 
     
 def find_sense_type(wn, source, target):
@@ -538,57 +584,57 @@ def find_sense_type(wn, source, target):
     return next(iter(x)).rel_type
     
 
-def update_source_sense(wn, old_source, target, new_source):
+def update_source_sense(wn, old_source, target, new_source, change_list=None):
     """Change the source of a link"""
     rel_type = find_sense_type(wn, old_source, target)
-    delete_sense_rel(wn, old_source, target)
-    insert_sense_rel(wn, new_source, rel_type, target)
+    delete_sense_rel(wn, old_source, target, change_list)
+    insert_sense_rel(wn, new_source, rel_type, target, change_list)
     if rel_type in inverse_sense_rels:
         inv_rel_type = inverse_sense_rels[rel_type]
-        delete_sense_rel(wn, target, old_source)
-        insert_sense_rel(wn, target, inv_rel_type, new_source)
+        delete_sense_rel(wn, target, old_source, change_list)
+        insert_sense_rel(wn, target, inv_rel_type, new_source, change_list)
 
-def update_target_sense(wn, source, old_target, new_target):
+def update_target_sense(wn, source, old_target, new_target, change_list=None):
     """Change the target of a link"""
     rel_type = find_sense_type(wn, source, old_target)
-    delete_sense_rel(wn, source, old_target)
-    insert_sense_rel(wn, source, rel_type, new_target)
+    delete_sense_rel(wn, source, old_target, change_list)
+    insert_sense_rel(wn, source, rel_type, new_target, change_list)
     if rel_type in inverse_sense_rels:
         inv_rel_type = inverse_sense_rels[rel_type]
-        delete_sense_rel(wn, old_target, source)
-        insert_sense_rel(wn, new_target, inv_rel_type, source)
+        delete_sense_rel(wn, old_target, source, change_list)
+        insert_sense_rel(wn, new_target, inv_rel_type, source, change_list)
 
-def update_sense_relation(wn, source, target, new_rel):
+def update_sense_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
-    delete_sense_rel(wn, source, target)
-    insert_sense_rel(wn, source, new_rel, target)
+    delete_sense_rel(wn, source, target, change_list)
+    insert_sense_rel(wn, source, new_rel, target, change_list)
     if new_rel in inverse_sense_rels:
         inv_rel_type = inverse_sense_rels[new_rel]
-        delete_sense_rel(wn, target, source)
-        insert_sense_rel(wn, target, inv_rel_type, source)
+        delete_sense_rel(wn, target, source, change_list)
+        insert_sense_rel(wn, target, inv_rel_type, source, change_list)
 
-def add_sense_relation(wn, source, target, new_rel):
+def add_sense_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
-    insert_sense_rel(wn, source, new_rel, target)
+    insert_sense_rel(wn, source, new_rel, target, change_list)
     if new_rel in inverse_sense_rels:
         inv_rel_type = inverse_sense_rels[new_rel]
-        insert_sense_rel(wn, target, inv_rel_type, source)
+        insert_sense_rel(wn, target, inv_rel_type, source, change_list)
 
-def delete_sense_relation(wn, source, target):
+def delete_sense_relation(wn, source, target, change_list=None):
     """Change the type of a link"""
-    delete_sense_rel(wn, source, target)
-    delete_sense_rel(wn, target, source)
+    delete_sense_rel(wn, source, target, change_list)
+    delete_sense_rel(wn, target, source, change_list)
 
-def reverse_sense_rel(wn, source, target):
+def reverse_sense_rel(wn, source, target, change_list=None):
     """Reverse the direction of a sense relation"""
     rel_type = find_sense_type(wn, source, target)
-    delete_sense_rel(wn, source, target)
+    delete_sense_rel(wn, source, target, change_list)
     if rel_type in inverse_sense_rels:
-        delete_sense_rel(wn, target, source)
-    insert_sense_rel(wn, target, rel_type, source)
+        delete_sense_rel(wn, target, source, change_list)
+    insert_sense_rel(wn, target, rel_type, source, change_list)
     if rel_type in inverse_sense_rels:
         inv_rel_type = inverse_sense_rels[rel_type]
-        insert_sense_rel(wn, source, inv_rel_type, target)
+        insert_sense_rel(wn, source, inv_rel_type, target, change_list)
 
 def sense_exists(wn, sense_id):
     if sense_id_re.match(sense_id):
@@ -599,29 +645,37 @@ def sense_exists(wn, sense_id):
             return len(senses) == 1
     return False
 
-def update_def(wn, synset, defn, add):
+def update_def(wn, synset, defn, add, change_list=None):
     wn_synset = wn
     ss = wn_synset.synset_by_id(synset.id)
     if add:
         ss.definitions = ss.definitions + [Definition(defn)]
     else:
         ss.definitions = [Definition(defn)]
+    if change_list:
+        change_list.change_synset(synset)
 
-def update_ili_def(wn, synset, defn):
+def update_ili_def(wn, synset, defn, change_list=None):
     wn_synset = wn
     ss = wn_synset.synset_by_id(synset.id)
     ss.ili_definition = Definition(defn)
+    if change_list:
+        change_list.change_synset(synset)
 
-def add_ex(wn, synset, example):
+def add_ex(wn, synset, example, change_list=None):
     wn_synset = wn
     ss = wn_synset.synset_by_id(synset.id)
     ss.examples = ss.examples + [Example(example)]
+    if change_list:
+        change_list.change_synset(synset)
 
 
-def delete_ex(wn, synset, example):
+def delete_ex(wn, synset, example, change_list=None):
     wn_synset = wn
     ss = wn_synset.synset_by_id(synset.id)
     n_exs = len(ss.examples)
     ss.examples = [ex for ex in ss.examples if ex.text != example]
     if len(ss.examples) == n_exs:
         print("No change")
+    if change_list:
+        change_list.change_synset(synset)
