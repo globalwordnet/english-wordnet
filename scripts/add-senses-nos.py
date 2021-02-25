@@ -1,8 +1,9 @@
-### This is the script used to add sense numberings to the senses
+# This is the script used to add sense numberings to the senses
 from glob import glob
 import re
 
-indexes= {}
+indexes = {}
+
 
 def load_indexes(index):
     for line in open(index).readlines():
@@ -22,13 +23,14 @@ def load_indexes(index):
 # terracotta-n
 
 def main():
-    r = re.compile(".*<Sense id=\"ewn-(.*)-([nvars])-(\d{8})-(\d{2})\"(.*)>")
+    r = re.compile(".*<Sense id=\"ewn-(.*)-([nvars])-(\\d{8})-(\\d{2})\"(.*)>")
     for wn31_part in glob("src/xml/wn31-*.xml"):
         with open("%s.new" % wn31_part, "w") as out:
             for line in open(wn31_part).readlines():
                 m = r.match(line)
                 if m:
-                    lemma = m.group(1).replace("-ap-","'").replace("-sl-","/").replace("-lb-","(").replace("-rb-",")")
+                    lemma = m.group(1).replace(
+                        "-ap-", "'").replace("-sl-", "/").replace("-lb-", "(").replace("-rb-", ")")
                     if lemma.endswith("(a)") or lemma.endswith("(p)"):
                         lemma = lemma[:-3]
                     if lemma.endswith("(ip)"):
@@ -37,13 +39,19 @@ def main():
                     synset = m.group(3)
                     lemma_pos = "%s-%s" % (lemma.lower(), pos)
                     if lemma_pos in indexes:
-                        out.write("      <Sense id=\"ewn-%s-%s-%s-%s\" n=\"%d\"%s>\n" %
-                                (m.group(1), m.group(2), m.group(3), m.group(4),
-                                    indexes[lemma_pos].index(synset), m.group(5)))
+                        out.write(
+                            "      <Sense id=\"ewn-%s-%s-%s-%s\" n=\"%d\"%s>\n" %
+                            (m.group(1),
+                             m.group(2),
+                                m.group(3),
+                                m.group(4),
+                                indexes[lemma_pos].index(synset),
+                                m.group(5)))
                     else:
                         out.write(line)
                 else:
                     out.write(line)
+
 
 if __name__ == "__main__":
     load_indexes("index.noun")

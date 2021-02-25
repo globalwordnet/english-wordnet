@@ -11,6 +11,7 @@ from collections import defaultdict
 
 sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
 
+
 class ChangeList:
     def __init__(self):
         self.lexfiles = set()
@@ -60,28 +61,32 @@ def load_wordnet():
         wn = pickle.load(open("wn.pickle", "rb"))
     return wn
 
+
 def save(wn, change_list=None):
     """Save the wordnet to disk (all formats)"""
     wordnet_yaml.save(wn, change_list)
     save_all_xml(wn, change_list)
-    with codecs.open("wn.xml","w","utf-8") as outp:
+    with codecs.open("wn.xml", "w", "utf-8") as outp:
         wn.to_xml(outp, True)
     pickle.dump(wn, open("wn.pickle", "wb"))
+
 
 def save_all_xml(wn, change_list=None):
     by_lex_name = {}
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                    "ewn", "English WordNet", "en",
-                    "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
-                    "2019","https://github.com/globalwordnet/english-wordnet")
+                "ewn", "English WordNet", "en",
+                "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
+                "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
 
     for entry in wn.entries:
-        sense_no = dict([(e.id,i) for i,e in enumerate(entry.senses)])
+        sense_no = dict([(e.id, i) for i, e in enumerate(entry.senses)])
         for lex_name in by_lex_name.keys():
-            senses = [sense for sense in entry.senses if wn.synset_by_id(sense.synset).lex_name == lex_name]
+            senses = [
+                sense for sense in entry.senses if wn.synset_by_id(
+                    sense.synset).lex_name == lex_name]
             if senses:
                 e = LexicalEntry(entry.id)
                 e.set_lemma(entry.lemma)
@@ -90,6 +95,7 @@ def save_all_xml(wn, change_list=None):
                 for s in senses:
                     s.n = sense_no[s.id]
                     e.add_sense(s)
+
                 def find_sense_for_sb(sb_sense):
                     for sense2 in senses:
                         if sense2.id == sb_sense:
@@ -103,50 +109,77 @@ def save_all_xml(wn, change_list=None):
                     sb.subcategorization_frame, [s for s in sb.senses if s])
                     for sb in e.syntactic_behaviours if any(sb.senses)]
                 by_lex_name[lex_name].add_entry(e)
- 
+
     for lex_name, wn in by_lex_name.items():
-        if os.path.exists("src/xml/wn-%s.xml" % lex_name) and (not change_list or lex_name in change_list.lexfiles):
+        if os.path.exists(
+                "src/xml/wn-%s.xml" %
+                lex_name) and (
+                not change_list or lex_name in change_list.lexfiles):
             wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
             wn.comments = wn_lex.comments
-            entry_order = defaultdict(lambda: 10000000,[(e,i) for i,e in enumerate(entry.id for entry in wn_lex.entries)])
+            entry_order = defaultdict(
+                lambda: 10000000, [
+                    (e, i) for i, e in enumerate(
+                        entry.id for entry in wn_lex.entries)])
             wn.entries = sorted(wn.entries, key=lambda e: entry_order[e.id])
             for entry in wn.entries:
                 if wn_lex.entry_by_id(entry.id):
-                    sense_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sense.id for sense in wn_lex.entry_by_id(entry.id).senses)])
-                    entry.senses = sorted(entry.senses, key=lambda s: sense_order[s.id])
-                    # This is a bit of a hack as some of the n values are not continguous 
+                    sense_order = defaultdict(
+                        lambda: 10000, [
+                            (e, i) for i, e in enumerate(
+                                sense.id for sense in wn_lex.entry_by_id(
+                                    entry.id).senses)])
+                    entry.senses = sorted(
+                        entry.senses, key=lambda s: sense_order[s.id])
+                    # This is a bit of a hack as some of the n values are not
+                    # continguous
                     for sense in entry.senses:
                         if wn_lex.sense_by_id(sense.id):
-                            sense.n = wn_lex.sense_by_id(sense.id).n 
-                            sense_rel_order = defaultdict(lambda: 10000, [((sr.target,sr.rel_type), i)
-                                for i, sr in enumerate(wn_lex.sense_by_id(sense.id).sense_relations)])
-                            sense.sense_relations = sorted(sense.sense_relations, 
-                                key=lambda sr: sense_rel_order[(sr.target,sr.rel_type)])
+                            sense.n = wn_lex.sense_by_id(sense.id).n
+                            sense_rel_order = defaultdict(
+                                lambda: 10000, [
+                                    ((sr.target, sr.rel_type), i) for i, sr in enumerate(
+                                        wn_lex.sense_by_id(
+                                            sense.id).sense_relations)])
+                            sense.sense_relations = sorted(
+                                sense.sense_relations, key=lambda sr: sense_rel_order[(sr.target, sr.rel_type)])
                         else:
                             print("sense not found:" + sense.id)
-                    sb_order = defaultdict(lambda: 10000, [(e,i) for i,e in enumerate(sb.subcategorization_frame for sb in wn_lex.entry_by_id(entry.id).syntactic_behaviours)])
-                    entry.syntactic_behaviours = sorted(entry.syntactic_behaviours,
-                            key=lambda sb: sb_order[sb.subcategorization_frame])
+                    sb_order = defaultdict(
+                        lambda: 10000, [
+                            (e, i) for i, e in enumerate(
+                                sb.subcategorization_frame for sb in wn_lex.entry_by_id(
+                                    entry.id).syntactic_behaviours)])
+                    entry.syntactic_behaviours = sorted(
+                        entry.syntactic_behaviours, key=lambda sb: sb_order[sb.subcategorization_frame])
                     for sb in entry.syntactic_behaviours:
                         sb2s = [sb2 for sb2 in wn_lex.entry_by_id(entry.id).syntactic_behaviours
-                                    if sb2.subcategorization_frame == sb.subcategorization_frame]
+                                if sb2.subcategorization_frame == sb.subcategorization_frame]
                         if sb2s:
-                            sbe_order = defaultdict(lambda: 10000, [(e,i) 
-                                for i,e in enumerate(sb2s[0].senses)])
-                            sb.senses = sorted(sb.senses, key=lambda s: sbe_order[s])
+                            sbe_order = defaultdict(
+                                lambda: 10000, [
+                                    (e, i) for i, e in enumerate(
+                                        sb2s[0].senses)])
+                            sb.senses = sorted(
+                                sb.senses, key=lambda s: sbe_order[s])
                 else:
                     print("not found:" + entry.id)
-            synset_order = defaultdict(lambda: 1000000, [(e,i) for i,e in enumerate(
-                synset.id for synset in wn_lex.synsets)])
+            synset_order = defaultdict(
+                lambda: 1000000, [
+                    (e, i) for i, e in enumerate(
+                        synset.id for synset in wn_lex.synsets)])
             wn.synsets = sorted(wn.synsets, key=lambda s: synset_order[s.id])
             for synset in wn.synsets:
                 if wn_lex.synset_by_id(synset.id):
-                    synset_rel_order = defaultdict(lambda: 10000, [((sr.target, sr.rel_type), i)
-                        for i, sr in enumerate(wn_lex.synset_by_id(synset.id).synset_relations)])
-                    synset.synset_relations = sorted(synset.synset_relations,
-                        key=lambda sr: synset_rel_order[(sr.target, sr.rel_type)])
+                    synset_rel_order = defaultdict(
+                        lambda: 10000, [
+                            ((sr.target, sr.rel_type), i) for i, sr in enumerate(
+                                wn_lex.synset_by_id(
+                                    synset.id).synset_relations)])
+                    synset.synset_relations = sorted(
+                        synset.synset_relations, key=lambda sr: synset_rel_order[(sr.target, sr.rel_type)])
         if not change_list or lex_name in change_list.lexfiles:
-            with codecs.open("src/xml/wn-%s.xml" % lex_name,"w","utf-8") as outp:
+            with codecs.open("src/xml/wn-%s.xml" % lex_name, "w", "utf-8") as outp:
                 wn.to_xml(outp, True)
 
 
@@ -154,9 +187,11 @@ def delete_rel(source, target, change_list=None):
     """Delete all relationships between two synsets"""
     print("Delete %s =*=> %s" % (source.id, target.id))
     ss = source
-    source.synset_relations = [r for r in ss.synset_relations if r.target != target.id]
+    source.synset_relations = [
+        r for r in ss.synset_relations if r.target != target.id]
     if change_list:
         change_list.change_synset(source)
+
 
 def decompose_sense_id(sense_id):
     m = sense_id_re.match(sense_id)
@@ -168,6 +203,7 @@ def decompose_sense_id(sense_id):
     else:
         raise Exception("Not a sense ID")
 
+
 def delete_sense_rel(wn, source, target, change_list=None):
     """Delete all relationships between two senses"""
     print("Delete %s =*=> %s" % (source, target))
@@ -177,19 +213,22 @@ def delete_sense_rel(wn, source, target, change_list=None):
     if change_list:
         change_list.change_entry(wn, entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
-    sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
+    sense.sense_relations = [
+        r for r in sense.sense_relations if r.target != target]
 
 
 def insert_rel(source, rel_type, target, change_list=None):
     """Insert a single relation between two synsets"""
     print("Insert %s =%s=> %s" % (source.id, rel_type, target.id))
     ss = source
-    if [r for r in ss.synset_relations if r.target == target.id and r.rel_type == rel_type]:
+    if [r for r in ss.synset_relations if r.target ==
+            target.id and r.rel_type == rel_type]:
         print("Already exists")
         return
     ss.synset_relations.append(SynsetRelation(target.id, rel_type))
     if change_list:
         change_list.change_synset(target)
+
 
 def empty_if_none(x):
     """Returns an empty list if passed None otherwise the argument"""
@@ -198,17 +237,19 @@ def empty_if_none(x):
     else:
         return []
 
+
 def synset_key(synset_id):
     return synset_id[4:-2]
+
 
 def change_entry(wn, synset, target_synset, lemma, change_list=None):
     """Change an entry, only works if both synsets are in the same file"""
     print("Adding %s to synset %s" % (lemma, synset.id))
     n_entries = len(empty_if_none(wn.members_by_id(target_synset.id)))
-    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) 
-            if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
-               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
-               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma))
+                    if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
+                    wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
+                    wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
 
     if len(entry_global) == 1:
         entry_global = wn.entry_by_id(entry_global[0])
@@ -219,31 +260,37 @@ def change_entry(wn, synset, target_synset, lemma, change_list=None):
 
     idx = n_entries + 1
     n = n_senses
-     
+
     wn_synset = wn
-    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(
+        lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
 
     for entry in entries:
         for sense in wn_synset.entry_by_id(entry).senses:
             if sense.synset == synset.id:
                 print("Moving %s to %s" % (sense.id, target_synset.id))
                 sense.synset = target_synset.id
-                wn.change_sense_id(sense, 
-                        "ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), 
-                        target_synset.part_of_speech.value,
-                        synset_key(target_synset.id), idx), change_list)
+                wn.change_sense_id(
+                    sense,
+                    "ewn-%s-%s-%s-%02d" %
+                    (escape_lemma(lemma),
+                     target_synset.part_of_speech.value,
+                     synset_key(
+                        target_synset.id),
+                        idx),
+                    change_list)
     if change_list:
         change_list.change_entry(wn, entry)
+
 
 def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
     """Add a new lemma to a synset"""
     print("Adding %s to synset %s" % (lemma, synset.id))
     n_entries = len(empty_if_none(wn.members_by_id(synset.id)))
-    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma)) 
-            if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
-               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
-               wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
-                
+    entry_global = [entry for entry in empty_if_none(wn.entry_by_lemma(lemma))
+                    if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech or
+                    wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE or
+                    wn.entry_by_id(entry).lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and synset.part_of_speech == PartOfSpeech.ADJECTIVE]
 
     if len(entry_global) == 1:
         entry_global = wn.entry_by_id(entry_global[0])
@@ -278,7 +325,8 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
             sense_n += 1
 
     wn_synset = wn
-    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
+    entries = [entry for entry in empty_if_none(wn_synset.entry_by_lemma(
+        lemma)) if wn.entry_by_id(entry).lemma.part_of_speech == synset.part_of_speech]
 
     if entries:
         if len(entries) != 1:
@@ -286,8 +334,12 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         wn_entry = wn.entry_by_id(entries[0])
         entry = wn_synset.entry_by_id(entries[0])
         sense = Sense(
-            id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
-                synset_key(synset.id), idx),
+            id="ewn-%s-%s-%s-%02d" %
+            (escape_lemma(lemma),
+             synset.part_of_speech.value,
+             synset_key(
+                synset.id),
+                idx),
             synset=synset.id,
             n=n,
             sense_key=None)
@@ -302,23 +354,32 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         entry = LexicalEntry(
             "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
-        entry.add_sense( Sense(
-                    id="ewn-%s-%s-%s-%02d" % (escape_lemma(lemma), synset.part_of_speech.value,
-                        synset_key(synset.id), idx),
-                    synset=synset.id, n=n, sense_key=None))
+        entry.add_sense(
+            Sense(
+                id="ewn-%s-%s-%s-%02d" %
+                (escape_lemma(lemma),
+                 synset.part_of_speech.value,
+                 synset_key(
+                    synset.id),
+                    idx),
+                synset=synset.id,
+                n=n,
+                sense_key=None))
         wn.add_entry(entry)
     if change_list:
         change_list.change_entry(wn, entry)
     return entry
+
 
 def delete_entry(wn, synset, entry_id, change_list=None):
     """Delete a lemma from a synset"""
     print("Deleting %s from synset %s" % (entry_id, synset.id))
     n_entries = len(wn.members_by_id(synset.id))
     entry_global = wn.entry_by_id(entry_id)
-    
+
     if entry_global:
-        idxs = [int(sense.id[-2:]) for sense in entry_global.senses if sense.synset == synset.id]
+        idxs = [int(sense.id[-2:])
+                for sense in entry_global.senses if sense.synset == synset.id]
         if not idxs:
             print("Entry not in synset")
             return
@@ -329,7 +390,8 @@ def delete_entry(wn, synset, entry_id, change_list=None):
         return
 
     if n_senses != 1:
-        n = [ind for ind, sense in enumerate(entry_global.senses) if sense.synset == synset.id][0]
+        n = [ind for ind, sense in enumerate(
+            entry_global.senses) if sense.synset == synset.id][0]
         sense_n = 0
         for sense in entry_global.senses:
             if sense_n >= n:
@@ -346,36 +408,48 @@ def delete_entry(wn, synset, entry_id, change_list=None):
             for rel in sense.sense_relations:
                 delete_sense_rel(wn, rel.target, sense.id)
 
-    if n_senses == 1: # then delete the whole entry
+    if n_senses == 1:  # then delete the whole entry
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        wn_synset.entries = [entry for entry in wn_synset.entries if entry.id != entry_global.id]
-        wn.entries = [entry for entry in wn.entries if entry.id != entry_global.id]
+        wn_synset.entries = [
+            entry for entry in wn_synset.entries if entry.id != entry_global.id]
+        wn.entries = [
+            entry for entry in wn.entries if entry.id != entry_global.id]
     else:
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        entry.senses = [sense for sense in entry.senses if sense.synset != synset.id]
-        entry_global.senses = [sense for sense in entry_global.senses if sense.synset != synset.id]
+        entry.senses = [
+            sense for sense in entry.senses if sense.synset != synset.id]
+        entry_global.senses = [
+            sense for sense in entry_global.senses if sense.synset != synset.id]
     if change_list:
         change_list.change_entry(wn, entry)
 
-def delete_synset(wn, synset, supersede, reason, delent=True, change_list=None):
+
+def delete_synset(
+        wn,
+        synset,
+        supersede,
+        reason,
+        delent=True,
+        change_list=None):
     """Delete a synset"""
     print("Deleting synset %s" % synset.id)
-    
+
     if delent:
         entries = empty_if_none(wn.members_by_id(synset.id))
 
         for entry in entries:
-            delete_entry(wn, synset, 
-                    "ewn-%s-%s" % (escape_lemma(entry), synset.part_of_speech.value), change_list)
+            delete_entry(
+                wn, synset, "ewn-%s-%s" %
+                (escape_lemma(entry), synset.part_of_speech.value), change_list)
 
     for rel in synset.synset_relations:
         delete_rel(wn.synset_by_id(rel.target), synset, change_list)
 
     wn_synset = wn
     wn_synset.synsets = [ss for ss in wn_synset.synsets
-            if synset.id != ss.id]
+                         if synset.id != ss.id]
     if supersede:
         if not isinstance(supersede, list):
             supersede = [supersede]
@@ -383,17 +457,18 @@ def delete_synset(wn, synset, supersede, reason, delent=True, change_list=None):
         supersede = []
     with open("src/deprecations.csv", "a") as out:
         out.write("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n" %
-                (synset.id, synset.ili,
-                    ",".join(s.id for s in supersede),
-                    ",".join(s.ili for s in supersede),
-                    reason.replace("\n","").replace("\"","\"\"")))
+                  (synset.id, synset.ili,
+                   ",".join(s.id for s in supersede),
+                   ",".join(s.ili for s in supersede),
+                   reason.replace("\n", "").replace("\"", "\"\"")))
     if change_list:
         change_list.change_synset(synset)
 
 
 def change_sense_n(wn, entry, sense_id, new_n, change_list=None):
     """Change the position of a sense within an entry (changes only this sense)"""
-    print("Changing n of sense %s of %s to %s" % (sense_id, entry.lemma.written_form, new_n))
+    print("Changing n of sense %s of %s to %s" %
+          (sense_id, entry.lemma.written_form, new_n))
     if new_n <= 0:
         return
 
@@ -411,6 +486,7 @@ def change_sense_n(wn, entry, sense_id, new_n, change_list=None):
     if change_list:
         change_list.change_entry(wn, entry)
 
+
 def change_sense_idx(wn, sense_id, new_idx, change_list=None):
     """Change the position of a lemma within a synset"""
     print("Changing idx of sense %s to %s" % (sense_id, new_idx))
@@ -424,10 +500,11 @@ def change_sense_idx(wn, sense_id, new_idx, change_list=None):
                     sr.target = new_sense_id
         for sb in entry.syntactic_behaviours:
             sb.senses = [
-                    new_sense_id if s == sense_id else s
-                    for s in sb.senses]
+                new_sense_id if s == sense_id else s
+                for s in sb.senses]
         if change_list:
             change_list.change_entry(wn, entry)
+
 
 def sense_ids_for_synset(wn, synset):
     return [sense.id for lemma in wn.members_by_id(synset.id)
@@ -435,12 +512,16 @@ def sense_ids_for_synset(wn, synset):
             for sense in wn.entry_by_id(entry).senses
             if sense.synset == synset.id]
 
+
 def new_id(wn, pos, definition):
     s = hashlib.sha256()
     s.update(definition.encode())
-    nid = "ewn-8%07d-%s" % ((int(s.hexdigest(),16) % 10000000), pos)
+    nid = "ewn-8%07d-%s" % ((int(s.hexdigest(), 16) % 10000000), pos)
     if wn.synset_by_id(nid):
-        print("Could not find ID for new synset. Either a duplicate definition or a hash collision for " + nid + ". Note it is possible to force a synset ID by giving it as an argument")
+        print(
+            "Could not find ID for new synset. Either a duplicate definition or a hash collision for " +
+            nid +
+            ". Note it is possible to force a synset ID by giving it as an argument")
         sys.exit(-1)
     return nid
 
@@ -449,12 +530,13 @@ def add_synset(wn, definition, lexfile, pos, ssid=None, change_list=None):
     if not ssid:
         ssid = new_id(wn, pos, definition)
     ss = Synset(ssid, "in",
-            PartOfSpeech(pos), lexfile)
+                PartOfSpeech(pos), lexfile)
     ss.definitions = [Definition(definition)]
     wn.add_synset(ss)
     if change_list:
         change_list.change_synset(ss)
     return ssid
+
 
 def merge_synset(wn, synsets, reason, lexfile, ssid=None, change_list=None):
     """Create a new synset merging all the facts from other synsets"""
@@ -462,7 +544,7 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None, change_list=None):
     if not ssid:
         ssid = new_id(wn, pos, synsets[0].definitions[0].text)
     ss = Synset(ssid, "in",
-            PartOfSpeech(pos), lexfile)
+                PartOfSpeech(pos), lexfile)
     ss.definitions = [d for s in synsets for d in s.definitions]
     ss.examples = [x for s in synsets for x in s.examples]
     members = {}
@@ -472,14 +554,16 @@ def merge_synset(wn, synsets, reason, lexfile, ssid=None, change_list=None):
         # Add all relations
         for r in s.synset_relations:
             if not any(r == r2 for r2 in ss.synset_relations):
-                add_relation(wn, ss, wn.synset_by_id(r.target), r.rel_type, change_list)
+                add_relation(
+                    wn, ss, wn.synset_by_id(
+                        r.target), r.rel_type, change_list)
         # Add members
         for m in wn.members_by_id(s.id):
             if m not in members:
                 members[m] = add_entry(wn, ss, m, change_list)
                 add_entry(wn, ss, m, change_list)
             e = [e for e in [wn.entry_by_id(e2) for e2 in wn.entry_by_lemma(m)]
-                    if e.lemma.part_of_speech.value == pos][0]
+                 if e.lemma.part_of_speech.value == pos][0]
             for f in e.forms:
                 if not any(f2 == f for f in members[m].forms):
                     members[m].add_form(f)
@@ -493,8 +577,10 @@ def find_type(source, target):
     """Get the first relation type between the synsets"""
     x = [r for r in source.synset_relations if r.target == target.id]
     if len(x) != 1:
-        raise Exception("Synsets not linked or linked by more than one property")
+        raise Exception(
+            "Synsets not linked or linked by more than one property")
     return x[0].rel_type
+
 
 def update_source(wn, old_source, target, new_source, change_list=None):
     """Change the source of a link"""
@@ -506,6 +592,7 @@ def update_source(wn, old_source, target, new_source, change_list=None):
         delete_rel(target, old_source, change_list)
         insert_rel(target, inv_rel_type, new_source, change_list)
 
+
 def update_target(wn, source, old_target, new_target, change_list=None):
     """Change the target of a link"""
     rel_type = find_type(source, old_target)
@@ -516,6 +603,7 @@ def update_target(wn, source, old_target, new_target, change_list=None):
         delete_rel(old_target, source, change_list)
         insert_rel(new_target, inv_rel_type, source, change_list)
 
+
 def update_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
     delete_rel(source, target, change_list)
@@ -525,6 +613,7 @@ def update_relation(wn, source, target, new_rel, change_list=None):
         delete_rel(target, source, change_list)
         insert_rel(target, inv_rel_type, source, change_list)
 
+
 def add_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
     insert_rel(source, new_rel, target, change_list)
@@ -532,10 +621,12 @@ def add_relation(wn, source, target, new_rel, change_list=None):
         inv_rel_type = inverse_synset_rels[new_rel]
         insert_rel(target, inv_rel_type, source, change_list)
 
+
 def delete_relation(wn, source, target, change_list=None):
     """Change the type of a link"""
     delete_rel(source, target, change_list)
     delete_rel(target, source, change_list)
+
 
 def reverse_rel(wn, source, target, change_list=None):
     """Reverse the direction of relations"""
@@ -548,6 +639,7 @@ def reverse_rel(wn, source, target, change_list=None):
         inv_rel_type = inverse_synset_rels[rel_type]
         insert_rel(source, inv_rel_type, target, change_list)
 
+
 def delete_sense_rel(wn, source, target, change_list=None):
     """Delete all relationships between two senses"""
     print("Delete %s =*=> %s" % (source, target))
@@ -556,9 +648,11 @@ def delete_sense_rel(wn, source, target, change_list=None):
     wn_source = wn
     entry = wn_source.entry_by_id(source_entry)
     sense = [sense for sense in entry.senses if sense.id == source][0]
-    sense.sense_relations = [r for r in sense.sense_relations if r.target != target]
+    sense.sense_relations = [
+        r for r in sense.sense_relations if r.target != target]
     if change_list:
         change_list.change_entry(wn, entry)
+
 
 def insert_sense_rel(wn, source, rel_type, target, change_list=None):
     """Insert a single relation between two senses"""
@@ -572,7 +666,7 @@ def insert_sense_rel(wn, source, rel_type, target, change_list=None):
     if change_list:
         change_list.change_entry(wn, entry)
 
-    
+
 def find_sense_type(wn, source, target):
     """Get the first relation type between the senses"""
     (source_synset, source_entry) = decompose_sense_id(source)
@@ -580,9 +674,10 @@ def find_sense_type(wn, source, target):
     sense = [sense for sense in entry.senses if sense.id == source][0]
     x = set([r for r in sense.sense_relations if r.target == target])
     if len(x) == 0:
-        raise Exception("Synsets not linked or linked by more than one property")
+        raise Exception(
+            "Synsets not linked or linked by more than one property")
     return next(iter(x)).rel_type
-    
+
 
 def update_source_sense(wn, old_source, target, new_source, change_list=None):
     """Change the source of a link"""
@@ -594,6 +689,7 @@ def update_source_sense(wn, old_source, target, new_source, change_list=None):
         delete_sense_rel(wn, target, old_source, change_list)
         insert_sense_rel(wn, target, inv_rel_type, new_source, change_list)
 
+
 def update_target_sense(wn, source, old_target, new_target, change_list=None):
     """Change the target of a link"""
     rel_type = find_sense_type(wn, source, old_target)
@@ -604,6 +700,7 @@ def update_target_sense(wn, source, old_target, new_target, change_list=None):
         delete_sense_rel(wn, old_target, source, change_list)
         insert_sense_rel(wn, new_target, inv_rel_type, source, change_list)
 
+
 def update_sense_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
     delete_sense_rel(wn, source, target, change_list)
@@ -613,6 +710,7 @@ def update_sense_relation(wn, source, target, new_rel, change_list=None):
         delete_sense_rel(wn, target, source, change_list)
         insert_sense_rel(wn, target, inv_rel_type, source, change_list)
 
+
 def add_sense_relation(wn, source, target, new_rel, change_list=None):
     """Change the type of a link"""
     insert_sense_rel(wn, source, new_rel, target, change_list)
@@ -620,10 +718,12 @@ def add_sense_relation(wn, source, target, new_rel, change_list=None):
         inv_rel_type = inverse_sense_rels[new_rel]
         insert_sense_rel(wn, target, inv_rel_type, source, change_list)
 
+
 def delete_sense_relation(wn, source, target, change_list=None):
     """Change the type of a link"""
     delete_sense_rel(wn, source, target, change_list)
     delete_sense_rel(wn, target, source, change_list)
+
 
 def reverse_sense_rel(wn, source, target, change_list=None):
     """Reverse the direction of a sense relation"""
@@ -636,6 +736,7 @@ def reverse_sense_rel(wn, source, target, change_list=None):
         inv_rel_type = inverse_sense_rels[rel_type]
         insert_sense_rel(wn, source, inv_rel_type, target, change_list)
 
+
 def sense_exists(wn, sense_id):
     if sense_id_re.match(sense_id):
         (_, entry_id) = decompose_sense_id(sense_id)
@@ -644,6 +745,7 @@ def sense_exists(wn, sense_id):
             senses = [sense for sense in entry.senses if sense.id == sense_id]
             return len(senses) == 1
     return False
+
 
 def update_def(wn, synset, defn, add, change_list=None):
     wn_synset = wn
@@ -655,12 +757,14 @@ def update_def(wn, synset, defn, add, change_list=None):
     if change_list:
         change_list.change_synset(synset)
 
+
 def update_ili_def(wn, synset, defn, change_list=None):
     wn_synset = wn
     ss = wn_synset.synset_by_id(synset.id)
     ss.ili_definition = Definition(defn)
     if change_list:
         change_list.change_synset(synset)
+
 
 def add_ex(wn, synset, example, change_list=None):
     wn_synset = wn

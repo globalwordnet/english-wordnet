@@ -5,15 +5,22 @@ import re
 import change_manager
 import csv
 
-def main():
-    parser = argparse.ArgumentParser(description="Split a synset - delete the synset and add two (or more) new synsets")
-    parser.add_argument('synset', metavar='SYNSET_ID', type=str, nargs="?",
-            help="The ID of the synset to change")
-    parser.add_argument('--definition', type=str, action='append',
-            help="The definition of the new synsets (repeat for each synset)")
-    parser.add_argument('--reason', type=str, nargs="?",
-            help="The reason for this change including issue number")
 
+def main():
+    parser = argparse.ArgumentParser(
+        description="Split a synset - delete the synset and add two (or more) new synsets")
+    parser.add_argument('synset', metavar='SYNSET_ID', type=str, nargs="?",
+                        help="The ID of the synset to change")
+    parser.add_argument(
+        '--definition',
+        type=str,
+        action='append',
+        help="The definition of the new synsets (repeat for each synset)")
+    parser.add_argument(
+        '--reason',
+        type=str,
+        nargs="?",
+        help="The reason for this change including issue number")
 
     args = parser.parse_args()
 
@@ -46,13 +53,18 @@ def main():
 
     new_ids = []
     for definition in args.definition:
-        new_ids.append(change_manager.add_synset(wn, definition, synset.lexfile, synset.pos))
+        new_ids.append(
+            change_manager.add_synset(
+                wn,
+                definition,
+                synset.lexfile,
+                synset.pos))
 
-    change_manager.delete_synset(wn, synset, 
-            [wn.synset_for_id(new_id) for new_id in new_ids],
-            args.reason)
+    change_manager.delete_synset(
+        wn, synset, [
+            wn.synset_for_id(new_id) for new_id in new_ids], args.reason)
     change_manager.save_all_xml(wn)
+
 
 if __name__ == "__main__":
     main()
- 

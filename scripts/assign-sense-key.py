@@ -5,6 +5,7 @@ import re
 from sys import exit
 import sense_keys
 
+
 def assign_keys(wn, wn_file):
     swn = parse_wordnet(wn_file)
     for e in swn.entries:
@@ -17,5 +18,5 @@ def assign_keys(wn, wn_file):
 
 if __name__ == "__main__":
     wn = change_manager.load_wordnet()
-    for f in glob ("src/xml/wn-*.xml"):
+    for f in glob("src/xml/wn-*.xml"):
         assign_keys(wn, f)
