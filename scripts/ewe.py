@@ -389,9 +389,11 @@ def split_synset(wn, change_list):
     return True
 
 ewe_changed = False
+change_list = ChangeList()
 
 def main_menu(wn):
     global ewe_changed
+    global change_list
     print("Please choose an option:")
     print("1. Add/delete/move entry")
     print("2. Add/delete a synset")
@@ -402,7 +404,6 @@ def main_menu(wn):
     if ewe_changed:
         print("7. Save changes")
     print("X. Exit EWE")
-    change_list = ChangeList()
     
     mode = input("Option> ").lower()
     if mode == "1":

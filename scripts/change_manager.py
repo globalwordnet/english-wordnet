@@ -60,10 +60,10 @@ def load_wordnet():
         wn = pickle.load(open("wn.pickle", "rb"))
     return wn
 
-def save(wn):
+def save(wn, change_list=None):
     """Save the wordnet to disk (all formats)"""
-    wordnet_yaml.save(wn)
-    save_all_xml(wn)
+    wordnet_yaml.save(wn, change_list)
+    save_all_xml(wn, change_list)
     with codecs.open("wn.xml","w","utf-8") as outp:
         wn.to_xml(outp, True)
     pickle.dump(wn, open("wn.pickle", "wb"))
