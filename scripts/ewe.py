@@ -280,12 +280,12 @@ def change_relation(wn, change_list, source_id=None):
     if (new_relation and
             new_relation not in wordnet.SenseRelType._value2member_map_):
         target_id = enter_synset(wn, "target ").id
-        target_entry_id = None
+        target_sense_id = None
     elif new_target and new_target_sense_id:
         target_id, target_sense_id = enter_sense_synset(wn, "old target ")
     elif new_target:
         target_id = enter_synset(wn, "old target ").id
-        target_entry_id = None
+        target_sense_id = None
     else:
         target_id, target_sense_id = enter_sense_synset(wn, "target ")
 
