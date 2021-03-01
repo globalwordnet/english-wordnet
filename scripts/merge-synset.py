@@ -6,14 +6,19 @@ import change_manager
 import csv
 from merge import wn_merge
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Merge a synset - delete one or more synset and merge all properties. This may create weird or contradictory results so should be used with care")
+    parser = argparse.ArgumentParser(
+        description="Merge a synset - delete one or more synset and merge all properties. This may create weird or contradictory results so should be used with care")
     parser.add_argument('synsets', metavar='SYNSET_ID', type=str, nargs="*",
-            help="The ID of the synset to change")
-    parser.add_argument('--reason', type=str, nargs="?",
-            help="The reason for this change including issue number")
+                        help="The ID of the synset to change")
+    parser.add_argument(
+        '--reason',
+        type=str,
+        nargs="?",
+        help="The reason for this change including issue number")
     parser.add_argument('--lex_file', type=str,
-            help="The lex file to write the new synset to")
+                        help="The lex file to write the new synset to")
 
     args = parser.parse_args()
 
@@ -35,7 +40,7 @@ def main():
 
     synsets = [wn.synset_by_id(ss) for ss in args.synsets]
 
-    if any(s == None for s in synsets):
+    if any(s is None for s in synsets):
         print("Cannot find synset")
         exit(-1)
 
@@ -43,8 +48,10 @@ def main():
         print("Merging across parts of speech is not correct!")
         exit(-1)
 
-    if not args.lex_file and any(s.lex_name != synsets[0].lex_name for s in synsets):
-        print("Merging across lex files: " + ", ".join(s.lex_name for s in synsets))
+    if not args.lex_file and any(
+            s.lex_name != synsets[0].lex_name for s in synsets):
+        print("Merging across lex files: " +
+              ", ".join(s.lex_name for s in synsets))
         args.lex_file = input("Lex file : ")
     elif not args.lex_file:
         args.lex_file = synsets[0].lex_name
@@ -52,16 +59,17 @@ def main():
     if not args.reason:
         args.reason = input("Reason for deletion (#IssueNo): ")
 
-    new_id = change_manager.merge_synset(wn, synsets, args.reason, args.lex_file)
-    
+    new_id = change_manager.merge_synset(
+        wn, synsets, args.reason, args.lex_file)
+
     wn_merge()
     wn = change_manager.load_wordnet()
 
     for synset in synsets:
-        change_manager.delete_synset(wn, synset, 
-                [new_id],
-                args.reason)
+        change_manager.delete_synset(wn, synset,
+                                     [new_id],
+                                     args.reason)
+
 
 if __name__ == "__main__":
     main()
- 
