@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -6516,6 +6516,7 @@
       <SynsetRelation relType="is_entailed_by" target="ewn-02135744-v"/> <!-- see, examine -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02154758-v"/> <!-- survey -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02154940-v"/> <!-- watch -->
+      <SynsetRelation relType="hypernym" target="ewn-00033592-v"/>
       <Example>&quot;She looked over the expanse of land&quot;</Example>
       <Example>&quot;Look at your child!&quot;</Example>
       <Example>&quot;Look--a deer in the backyard!&quot;</Example>
