@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -1068,10 +1068,6 @@
     <LexicalEntry id="ewn-frost_snow-n">
       <Lemma writtenForm="frost snow" partOfSpeech="n"/>
       <Sense id="ewn-frost_snow-n-11529795-06" n="0" synset="ewn-11529795-n" dc:identifier="frost_snow%1:19:00::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-hot_weather-n">
-      <Lemma writtenForm="hot weather" partOfSpeech="n"/>
-      <Sense id="ewn-hot_weather-n-11487100-01" n="0" synset="ewn-11487100-n" dc:identifier="hot_weather%1:19:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-chromatic_aberration-n">
       <Lemma writtenForm="chromatic aberration" partOfSpeech="n"/>
@@ -6619,22 +6615,13 @@
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
       <Example>&quot;a successful graft or transplant requires a high degree of histocompatibility&quot;</Example>
     </Synset>
-    <!-- hot weather -->
-    <Synset id="ewn-11487100-n" ili="i97847" partOfSpeech="n" dc:subject="noun.phenomenon">
-      <Definition>a period of unusually high temperatures</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
-      <SynsetRelation relType="hyponym" target="ewn-11487233-n"/> <!-- scorcher -->
-      <SynsetRelation relType="hyponym" target="ewn-11487308-n"/> <!-- sultriness -->
-    </Synset>
     <!-- scorcher -->
     <Synset id="ewn-11487233-n" ili="i97848" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an extremely hot day</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-11487100-n"/> <!-- hot weather -->
     </Synset>
     <!-- sultriness -->
     <Synset id="ewn-11487308-n" ili="i97849" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>oppressively hot and humid weather</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-11487100-n"/> <!-- hot weather -->
     </Synset>
     <!-- hurricane -->
     <Synset id="ewn-11487417-n" ili="i97850" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8588,7 +8575,6 @@
       <SynsetRelation relType="domain_topic" target="ewn-06128170-n"/> <!-- meteorology -->
       <SynsetRelation relType="hyponym" target="ewn-11460108-n"/> <!-- cold weather -->
       <SynsetRelation relType="hyponym" target="ewn-11476879-n"/> <!-- fair weather, temperateness, sunshine -->
-      <SynsetRelation relType="hyponym" target="ewn-11487100-n"/> <!-- hot weather -->
       <SynsetRelation relType="hyponym" target="ewn-11502540-n"/> <!-- thawing, thaw, warming -->
       <SynsetRelation relType="hyponym" target="ewn-11515038-n"/> <!-- precipitation, downfall -->
       <SynsetRelation relType="hyponym" target="ewn-11544884-n"/> <!-- wave -->
