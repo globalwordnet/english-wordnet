@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -1580,7 +1580,6 @@
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00023451-n"/> <!-- noesis, cognition, knowledge -->
       <SynsetRelation relType="hyponym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
-      <SynsetRelation relType="hyponym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- noesis, cognition, knowledge -->
     <Synset id="ewn-00023451-n" ili="i35575" partOfSpeech="n" dc:subject="noun.Tops">
@@ -1875,7 +1874,6 @@
     <!-- event -->
     <Synset id="ewn-00029677-n" ili="i35586" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that happens at a given place and time</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-00030657-n"/> <!-- deed, human action, act, human activity -->
       <SynsetRelation relType="hyponym" target="ewn-07298069-n"/> <!-- might-have-been -->
       <SynsetRelation relType="hyponym" target="ewn-07298178-n"/> <!-- nonevent -->
@@ -1887,6 +1885,7 @@
       <SynsetRelation relType="instance_hyponym" target="ewn-07493671-n"/> <!-- Fall -->
       <SynsetRelation relType="hyponym" target="ewn-07494768-n"/> <!-- zap -->
       <SynsetRelation relType="hyponym" target="ewn-90008911-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-07298313-n"/> <!-- occurrent, happening, occurrence, natural event -->
     </Synset>
     <!-- physical process, process -->
     <Synset id="ewn-00029976-n" ili="i35587" partOfSpeech="n" dc:subject="noun.Tops">
