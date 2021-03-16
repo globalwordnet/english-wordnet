@@ -186,7 +186,7 @@ def change_definition(wn, change_list):
     else:
         print("Definition     : " + synset.definitions[0].text)
         while True:
-            defn = input("New Definition : ")
+            defn = input("New Definition : ").strip()
             if check_text(defn, "definition"):
                 break
         change_manager.update_def(
