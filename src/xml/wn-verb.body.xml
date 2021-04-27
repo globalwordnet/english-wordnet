@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -7704,6 +7704,7 @@
     <Synset id="ewn-00008792-v" ili="i21811" partOfSpeech="v" dc:subject="verb.body">
       <Definition>partly close one&apos;s eyes, as when hit by direct blinding light</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00033592-v"/> <!-- look -->
+      <SynsetRelation relType="hypernym" target="ewn-02169748-v"/>
       <Example>&quot;The driver squinted as the sun hit his windshield&quot;</Example>
     </Synset>
     <!-- wince -->
@@ -8546,9 +8547,10 @@
     </Synset>
     <!-- look -->
     <Synset id="ewn-00033592-v" ili="i21933" partOfSpeech="v" dc:subject="verb.body">
-      <Definition>have a certain outward or facial expression</Definition>
+      <Definition>to physically appear a certain way to another individual or group</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
       <SynsetRelation relType="hyponym" target="ewn-00008792-v"/> <!-- squint -->
+      <SynsetRelation relType="hyponym" target="ewn-02134989-v"/> <!-- look -->
       <Example>&quot;How does she look?&quot;</Example>
       <Example>&quot;The child looks unhappy&quot;</Example>
       <Example>&quot;She looked pale after the surgery&quot;</Example>
