@@ -11,6 +11,6 @@ if __name__ == "__main__":
     for e in wn.entries:
         for s in e.senses:
             if not s.sense_key:
-                s.sense_key = sense_keys.get_sense_key(wn, wn, e, s, 
+                s.sense_key = sense_keys.get_sense_key(wn, e, s, 
                         wn.synset_by_id(s.synset).lex_name)
     change_manager.save(wn)
