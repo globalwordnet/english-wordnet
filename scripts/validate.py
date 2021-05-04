@@ -136,7 +136,7 @@ def check_lex_files(wn, fix):
                     print("%s does not have a sense key" % (sense.id))
                     errors += 1
                 calc_sense_key = sense_keys.get_sense_key(
-                    wn, swn, entry, sense, f)
+                    wn, entry, sense, f)
                 if sense.sense_key != calc_sense_key:
                     if fix:
                         print(

@@ -1,5 +1,4 @@
 from wordnet import *
-import change_manager
 from glob import glob
 import re
 from sys import exit
@@ -65,7 +64,7 @@ sense_id_lex_id = re.compile(".*%\\d:\\d\\d:(\\d\\d):.*")
 id_lemma = re.compile("ewn-(.*?)(-(a|ip|p))?-[as]-\\d{8}-\\d{2}")
 
 
-def gen_lex_id(swn, e, s):
+def gen_lex_id(e, s):
     max_id = 0
     unseen = 1
     seen = False
@@ -126,17 +125,19 @@ def get_head_word(wn, s):
     exit(-1)
 
 
-def get_sense_key(wn, swn, e, s, wn_file):
+def get_sense_key(wn, e, s, wn_file):
     """Calculate the sense key for a sense of an entry"""
     lemma = e.lemma.written_form.replace(
         " ", "_").replace(
         "&apos", "'").lower()
     ss_type = ss_types[e.lemma.part_of_speech]
+    if not wn_file.startswith("src/xml/wn-"):
+        wn_file = f"src/xml/wn-{wn_file}.xml"
     lex_filenum = lex_filenums[wn_file]
     if s.sense_key:
         lex_id = extract_lex_id(s.sense_key)
     else:
-        lex_id = gen_lex_id(swn, e, s)
+        lex_id = gen_lex_id(e, s)
     if e.lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
         head_word, head_id = get_head_word(wn, s)
     else:

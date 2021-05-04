@@ -8,6 +8,7 @@ import hashlib
 from merge import wn_merge
 import wordnet_yaml
 from collections import defaultdict
+from sense_keys import get_sense_key
 
 sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
 
@@ -346,6 +347,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
 
         wn_entry.senses.append(sense)
         entry.senses.append(sense)
+        sense.sense_key = get_sense_key(wn, entry, sense, synset.lex_name)
         if sense.synset not in wn.members:
             wn.members[sense.synset] = []
         wn.members[sense.synset].append(wn_entry.lemma.written_form)
@@ -354,8 +356,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         entry = LexicalEntry(
             "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
-        entry.add_sense(
-            Sense(
+        sense = Sense(
                 id="ewn-%s-%s-%s-%02d" %
                 (escape_lemma(lemma),
                  synset.part_of_speech.value,
@@ -364,7 +365,9 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
                     idx),
                 synset=synset.id,
                 n=n,
-                sense_key=None))
+                sense_key=None)
+        entry.add_sense(sense)
+        sense.sense_key = get_sense_key(wn, entry, sense, synset.lex_name)
         wn.add_entry(entry)
     if change_list:
         change_list.change_entry(wn, entry)

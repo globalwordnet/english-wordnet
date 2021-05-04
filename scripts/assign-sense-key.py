@@ -11,7 +11,7 @@ def assign_keys(wn, wn_file):
     for e in swn.entries:
         for s in e.senses:
             if not s.sense_key:
-                s.sense_key = sense_keys.get_sense_key(wn, swn, e, s, wn_file)
+                s.sense_key = sense_keys.get_sense_key(wn, e, s, wn_file)
     with open(wn_file, "w") as outp:
         swn.to_xml(outp, True)
 
