@@ -332,6 +332,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
     if entries:
         if len(entries) != 1:
             raise Exception("More than one entry for part of speech")
+        print("Found an entry!")
         wn_entry = wn.entry_by_id(entries[0])
         entry = wn_synset.entry_by_id(entries[0])
         sense = Sense(
@@ -353,6 +354,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         wn.members[sense.synset].append(wn_entry.lemma.written_form)
     else:
         n = 0
+        print("Creating new entry")
         entry = LexicalEntry(
             "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
@@ -414,19 +416,18 @@ def delete_entry(wn, synset, entry_id, change_list=None):
     if n_senses == 1:  # then delete the whole entry
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        wn_synset.entries = [
-            entry for entry in wn_synset.entries if entry.id != entry_global.id]
-        wn.entries = [
-            entry for entry in wn.entries if entry.id != entry_global.id]
+        if change_list:
+            change_list.change_entry(wn, entry)
+        wn_synset.del_entry(entry)
+        wn.del_entry(entry)
     else:
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        entry.senses = [
-            sense for sense in entry.senses if sense.synset != synset.id]
-        entry_global.senses = [
-            sense for sense in entry_global.senses if sense.synset != synset.id]
-    if change_list:
-        change_list.change_entry(wn, entry)
+        if change_list:
+            change_list.change_entry(wn, entry)
+        sense = [s for s in entry.senses if sense.synset == synset.id][0]
+        wn_synset.del_sense(entry, sense)
+        wn.del_sense(entry, sense)
 
 
 def delete_synset(
