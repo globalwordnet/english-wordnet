@@ -393,6 +393,12 @@ def delete_entry(wn, synset, entry_id, change_list=None):
     else:
         print("No entry for this lemma")
         return
+    
+    if n_senses == 0:
+        entry = wn_synset.entry_by_id(entry_global.id)
+        if entry:
+            wn.del_entry(entry)
+        return
 
     if n_senses != 1:
         n = [ind for ind, sense in enumerate(
@@ -405,7 +411,7 @@ def delete_entry(wn, synset, entry_id, change_list=None):
 
     for sense_id in sense_ids_for_synset(wn, synset):
         this_idx = int(sense_id[-2:])
-        if this_idx >= idx:
+        if this_idx > idx:
             change_sense_idx(wn, sense_id, this_idx - 1)
 
     for sense in entry_global.senses:
@@ -425,9 +431,13 @@ def delete_entry(wn, synset, entry_id, change_list=None):
         entry = wn_synset.entry_by_id(entry_global.id)
         if change_list:
             change_list.change_entry(wn, entry)
-        sense = [s for s in entry.senses if sense.synset == synset.id][0]
-        wn_synset.del_sense(entry, sense)
-        wn.del_sense(entry, sense)
+        sense = [s for s in entry.senses if s.synset == synset.id]
+        if sense:
+            sense = sense[0]
+            wn_synset.del_sense(entry, sense)
+            wn.del_sense(entry, sense)
+        else:
+            print("this may be a bug")
 
 
 def delete_synset(
@@ -651,11 +661,12 @@ def delete_sense_rel(wn, source, target, change_list=None):
     lex_name = wn.synset_by_id(source_synset).lex_name
     wn_source = wn
     entry = wn_source.entry_by_id(source_entry)
-    sense = [sense for sense in entry.senses if sense.id == source][0]
-    sense.sense_relations = [
-        r for r in sense.sense_relations if r.target != target]
-    if change_list:
-        change_list.change_entry(wn, entry)
+    if entry:
+        sense = [sense for sense in entry.senses if sense.id == source][0]
+        sense.sense_relations = [
+            r for r in sense.sense_relations if r.target != target]
+        if change_list:
+            change_list.change_entry(wn, entry)
 
 
 def insert_sense_rel(wn, source, rel_type, target, change_list=None):

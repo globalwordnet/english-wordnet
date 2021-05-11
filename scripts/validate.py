@@ -213,7 +213,12 @@ def main():
                 print("ERROR: Invalid ID " + sense.id)
                 errors += 1
             synset = wn.synset_by_id(sense.synset)
-            if entry.lemma.part_of_speech != synset.part_of_speech:
+            if not synset:
+                print(
+                    "ERROR: Entry %s refers to nonexistent synset %s" %
+                    (entry.id, sense.synset))
+                errors += 1
+            if synset and entry.lemma.part_of_speech != synset.part_of_speech:
                 print(
                     "ERROR: Part of speech of entry not the same as synset %s in %s" %
                     (entry.id, synset.id))
