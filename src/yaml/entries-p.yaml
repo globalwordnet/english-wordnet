@@ -40179,8 +40179,17 @@ physical condition:
 physical contact:
   n:
     sense:
-    - id: 'physical_contact%1:04:00::'
+    - antonym:
+      - 'physical_distancing%1:04:01::'
+      id: 'physical_contact%1:04:00::'
       synset: 00125700-n
+physical distancing:
+  n:
+    sense:
+    - antonym:
+      - 'physical_contact%1:04:00::'
+      id: 'physical_distancing%1:04:01::'
+      synset: 82653849-n
 physical education:
   n:
     sense:
