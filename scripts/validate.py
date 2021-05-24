@@ -311,6 +311,13 @@ def main():
                 (synset.id))
             errors += 1
 
+        if (synset.part_of_speech == PartOfSpeech.NOUN and not
+            [sr for sr in synset.synset_relations 
+                if sr.rel_type == SynsetRelType.HYPERNYM or
+                   sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
+            synset.id != "ewn-00001740-n"):
+            print("WARN: noun synset %s has no hypernym" % synset.id)
+
         if len(synset.definitions) == 0:
             print("ERROR: synset without definition %s" % (synset.id))
             errors += 1
