@@ -398,9 +398,9 @@
     <LexicalEntry id="ewn-rack_up-v">
       <Lemma writtenForm="rack up" partOfSpeech="v"/>
       <Sense id="ewn-rack_up-v-01105408-05" n="2" synset="ewn-01105408-v" dc:identifier="rack_up%2:33:00::"/>
-      <Sense id="ewn-rack_up-v-01114241-04" n="0" synset="ewn-01114241-v" dc:identifier="rack_up%2:33:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rack_up-v-01114241-04"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rack_up-v-01105408-05 ewn-rack_up-v-01114241-04"/>
+      <Sense id="ewn-rack_up-v-01114241-03" n="0" synset="ewn-01114241-v" dc:identifier="rack_up%2:33:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rack_up-v-01114241-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rack_up-v-01105408-05 ewn-rack_up-v-01114241-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-rack_up-v-01105408-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-pop-v">
@@ -2186,9 +2186,6 @@
     <LexicalEntry id="ewn-hit-v">
       <Lemma writtenForm="hit" partOfSpeech="v"/>
       <Form writtenForm="hitting"/>
-      <Sense id="ewn-hit-v-01114241-02" n="7" synset="ewn-01114241-v" dc:identifier="hit%2:33:02::">
-        <SenseRelation relType="derivation" target="ewn-hit-n-00044640-01"/> <!-- hit -->
-        </Sense>
       <Sense id="ewn-hit-v-01126313-02" n="9" synset="ewn-01126313-v" dc:identifier="hit%2:33:00::"/>
       <Sense id="ewn-hit-v-01139564-02" n="5" synset="ewn-01139564-v" dc:identifier="hit%2:33:01::">
         <SenseRelation relType="derivation" target="ewn-hitting-n-00126449-02"/> <!-- hitting, striking, hit -->
@@ -2197,8 +2194,8 @@
         <SenseRelation relType="derivation" target="ewn-hitting-n-00126449-02"/> <!-- hitting, striking, hit -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-hit-v-01126313-02 ewn-hit-v-01139564-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-hit-v-01114241-02 ewn-hit-v-01126313-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-hit-v-01114241-02 ewn-hit-v-01126313-02 ewn-hit-v-01139564-02 ewn-hit-v-01154862-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-hit-v-01126313-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-hit-v-01126313-02 ewn-hit-v-01139564-02 ewn-hit-v-01154862-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-hit-v-01126313-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-hit-v-01126313-02 ewn-hit-v-01154862-01"/>
     </LexicalEntry>
@@ -3982,11 +3979,11 @@
     <LexicalEntry id="ewn-tally-v">
       <Lemma writtenForm="tally" partOfSpeech="v"/>
       <Form writtenForm="tallied"/>
-      <Sense id="ewn-tally-v-01114241-03" n="1" synset="ewn-01114241-v" dc:identifier="tally%2:33:00::">
+      <Sense id="ewn-tally-v-01114241-02" n="1" synset="ewn-01114241-v" dc:identifier="tally%2:33:00::">
         <SenseRelation relType="derivation" target="ewn-tally-n-00190414-02"/> <!-- tally, run -->
         </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-tally-v-01114241-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tally-v-01114241-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-tally-v-01114241-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tally-v-01114241-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-station-v">
       <Lemma writtenForm="station" partOfSpeech="v"/>
@@ -6410,9 +6407,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01117829-v"/> <!-- equalize, get even, equalise -->
       <SynsetRelation relType="hyponym" target="ewn-02360592-v"/> <!-- make, have, get -->
       <SynsetRelation relType="is_caused_by" target="ewn-01116045-v"/> <!-- drive in -->
-      <Example>&quot;The home team scored many times&quot;</Example>
-      <Example>&quot;He hit a home run&quot;</Example>
-      <Example>&quot;He hit .300 in the past season&quot;</Example>
+      <Example>&quot;The home team is racking up points&quot;</Example>
     </Synset>
     <!-- score -->
     <Synset id="ewn-01114789-v" ili="i27157" partOfSpeech="v" dc:subject="verb.competition">
