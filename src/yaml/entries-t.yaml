@@ -53457,9 +53457,7 @@ turn:
     sense:
     - id: 'turn%1:25:00::'
       synset: 13891966-n
-    - derivation:
-      - 'turn%2:38:00::'
-      id: 'turn%1:04:01::'
+    - id: 'turn%1:04:01::'
       synset: 00350856-n
     - id: 'turn%1:04:06::'
       synset: 00458406-n
@@ -53473,12 +53471,9 @@ turn:
       - 'turn%2:30:00::'
       - 'turn%2:38:03::'
       - 'turn%2:38:02::'
-      - 'turn%2:38:00::'
       id: 'turn%1:11:00::'
       synset: 07366212-n
-    - derivation:
-      - 'turn%2:38:00::'
-      id: 'turn%1:04:02::'
+    - id: 'turn%1:04:02::'
       synset: 00347358-n
     - derivation:
       - 'turn%2:38:02::'
@@ -53496,22 +53491,6 @@ turn:
       synset: 00293443-n
   v:
     sense:
-    - also:
-      - 'turn_back%2:38:00::'
-      - 'turn_away%2:38:00::'
-      - 'turn_to%2:32:01::'
-      derivation:
-      - 'turn%1:04:02::'
-      - 'turn%1:11:00::'
-      - 'turn%1:04:01::'
-      - 'turning%1:11:00::'
-      - 'turning%1:04:00::'
-      id: 'turn%2:38:00::'
-      subcat:
-      - via
-      - vii
-      - vii-pp
-      synset: 01911251-v
     - also:
       - 'turn_around%2:30:00::'
       - 'turn_off%2:37:00::'
@@ -53627,10 +53606,6 @@ turn:
       - vtaa
       - vtai
       synset: 02094702-v
-    - id: 'turn%2:38:14::'
-      subcat:
-      - via-pp
-      synset: 01955796-v
     - id: 'turn%2:35:11::'
       subcat:
       - vii
@@ -53752,9 +53727,7 @@ turn away:
       - vii
       - vii-pp
       synset: 01912802-v
-    - also:
-      - 'turn%2:38:00::'
-      id: 'turn_away%2:38:00::'
+    - id: 'turn_away%2:38:00::'
       subcat:
       - vtai
       - vtii
@@ -53771,9 +53744,7 @@ turn away:
 turn back:
   v:
     sense:
-    - also:
-      - 'turn%2:38:00::'
-      id: 'turn_back%2:38:00::'
+    - id: 'turn_back%2:38:00::'
       subcat:
       - via
       - vii
@@ -54146,17 +54117,15 @@ turn thumbs down:
 turn to:
   v:
     sense:
-    - also:
-      - 'turn%2:38:00::'
-      id: 'turn_to%2:32:01::'
+    - id: 'turn_to%2:32:01::'
       subcat:
       - vtaa
       synset: 00899077-v
-    - id: 'turn_to%2:30:00::'
-      subcat:
-      - vtaa
-      - vtai
-      synset: 00550851-v
+'turn to ':
+  v:
+    sense:
+    - id: 'turn_to_%2:38:01::'
+      synset: 01911251-v
 turn turtle:
   v:
     sense:
@@ -54333,9 +54302,7 @@ turnery:
 turning:
   n:
     sense:
-    - derivation:
-      - 'turn%2:38:00::'
-      id: 'turning%1:04:00::'
+    - id: 'turning%1:04:00::'
       synset: 00350856-n
     - derivation:
       - 'turn%2:30:04::'
@@ -54343,9 +54310,7 @@ turning:
       synset: 00196264-n
     - id: 'turning%1:17:00::'
       synset: 09487228-n
-    - derivation:
-      - 'turn%2:38:00::'
-      id: 'turning%1:11:00::'
+    - id: 'turning%1:11:00::'
       synset: 07366212-n
     - id: 'turning%1:06:00::'
       synset: 04507799-n
