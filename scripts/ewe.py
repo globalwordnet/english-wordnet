@@ -484,7 +484,7 @@ def split_synset(wn, change_list):
     for definition in definition:
         new_ids.append(change_manager.add_synset(wn, definition,
                                                  synset.lex_name,
-                                                 synset.part_of_speech,
+                                                 synset.part_of_speech.value,
                                                  change_list=change_list))
 
     change_manager.delete_synset(wn, synset,
