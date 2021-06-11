@@ -1755,13 +1755,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-tackle-v-01152630-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-deploy-v">
-      <Lemma writtenForm="deploy" partOfSpeech="v"/>
-      <Sense id="ewn-deploy-v-01151793-01" n="0" synset="ewn-01151793-v" dc:identifier="deploy%2:33:00::">
-        <SenseRelation relType="derivation" target="ewn-deployment-n-01145922-01"/> <!-- deployment -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-deploy-v-01151793-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-re-arm-v">
       <Lemma writtenForm="re-arm" partOfSpeech="v"/>
       <Sense id="ewn-re-arm-v-01089970-02" n="0" synset="ewn-01089970-v" dc:identifier="re-arm%2:33:00::"/>
@@ -7816,18 +7809,11 @@
       <Definition>protect or fight for as a champion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02459338-v"/> <!-- back, support, plunk for, indorse, endorse, plump for -->
     </Synset>
-    <!-- deploy -->
-    <Synset id="ewn-01151793-v" ili="i27371" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>place troops or weapons in battle formation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01991174-v"/> <!-- position -->
-      <SynsetRelation relType="hyponym" target="ewn-01151936-v"/> <!-- play -->
-    </Synset>
     <!-- play -->
     <Synset id="ewn-01151936-v" ili="i27372" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>put (a card or piece) into play during a game, or act strategically as if in a card game</Definition>
       <SynsetRelation relType="similar" target="ewn-01082266-v"/> <!-- play -->
       <SynsetRelation relType="similar" target="ewn-01082457-v"/> <!-- play -->
-      <SynsetRelation relType="hypernym" target="ewn-01151793-v"/> <!-- deploy -->
       <SynsetRelation relType="hyponym" target="ewn-01152334-v"/> <!-- pitch -->
       <SynsetRelation relType="hyponym" target="ewn-01152476-v"/> <!-- cover -->
       <SynsetRelation relType="hyponym" target="ewn-02305510-v"/> <!-- declare -->
