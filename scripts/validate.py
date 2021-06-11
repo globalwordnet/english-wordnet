@@ -84,7 +84,7 @@ def check_no_loops(wn):
             if len(hypernyms[synset.id]) != n_size:
                 changed = True
             if synset.id in hypernyms[synset.id]:
-                return ["Loop for %s" % (synset.id)]
+                return ["Loop for %s (other hypernyms: %s)" % ((synset.id), ", ".join(hypernyms[synset.id]))]
     return []
 
 
