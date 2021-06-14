@@ -33,6 +33,10 @@ def check_symmetry(wn, fix):
             for rel in sense.sense_relations:
                 if rel.rel_type in inverse_sense_rels:
                     sense2 = wn.sense_by_id(rel.target)
+                    if not sense2:
+                        errors.append(
+                                "Reference to no existant sense %s)" % (rel.target))
+                        continue
                     if not any(r for r in sense2.sense_relations if r.target ==
                                sense.id and r.rel_type == inverse_sense_rels[rel.rel_type]):
                         if fix:
