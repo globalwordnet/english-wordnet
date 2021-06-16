@@ -1616,12 +1616,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-enthral-v-01821281-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-enthral-v-01821281-06"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-assure-v">
-      <Lemma writtenForm="assure" partOfSpeech="v"/>
-      <Sense id="ewn-assure-v-01770259-02" n="4" synset="ewn-01770259-v" dc:identifier="assure%2:37:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-assure-v-01770259-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-assure-v-01770259-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-put_down-v">
       <Lemma writtenForm="put down" partOfSpeech="v"/>
       <Sense id="ewn-put_down-v-01804404-05" n="3" synset="ewn-01804404-v" dc:identifier="put_down%2:37:00::">
@@ -2179,7 +2173,6 @@
       <Sense id="ewn-worry-v-01769760-01" n="2" synset="ewn-01769760-v" dc:identifier="worry%2:37:01::">
         <SenseRelation relType="derivation" target="ewn-worry-n-05840588-02"/> <!-- headache, concern, worry, vexation -->
         <SenseRelation relType="derivation" target="ewn-worrying-n-00426281-02"/> <!-- torment, bedevilment, worrying, badgering -->
-        <SenseRelation relType="antonym" target="ewn-reassure-v-01770259-01"/> <!-- reassure, assure -->
         </Sense>
       <Sense id="ewn-worry-v-01770600-01" n="1" synset="ewn-01770600-v" dc:identifier="worry%2:37:12::">
         <SenseRelation relType="derivation" target="ewn-worry-n-07539481-01"/> <!-- trouble, worry -->
@@ -4463,15 +4456,6 @@
       <Sense id="ewn-wallow-v-01827320-01" n="3" synset="ewn-01827320-v" dc:identifier="wallow%2:37:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-wallow-v-01827320-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-reassure-v">
-      <Lemma writtenForm="reassure" partOfSpeech="v"/>
-      <Sense id="ewn-reassure-v-01770259-01" n="0" synset="ewn-01770259-v" dc:identifier="reassure%2:37:00::">
-        <SenseRelation relType="derivation" target="ewn-reassurance-n-01218209-01"/> <!-- reassurance -->
-        <SenseRelation relType="antonym" target="ewn-worry-v-01769760-01"/> <!-- worry, vex -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-reassure-v-01770259-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-reassure-v-01770259-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-preoccupy-v">
       <Lemma writtenForm="preoccupy" partOfSpeech="v"/>
       <Form writtenForm="preoccupied"/>
@@ -5324,7 +5308,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01767495-v"/> <!-- lull -->
       <SynsetRelation relType="hyponym" target="ewn-01769030-v"/> <!-- compose -->
       <SynsetRelation relType="hyponym" target="ewn-01769244-v"/> <!-- assuage, gentle, conciliate, lenify, pacify, appease, gruntle, placate, mollify -->
-      <SynsetRelation relType="hyponym" target="ewn-01770259-v"/> <!-- reassure, assure -->
       <Example>&quot;quiet the dragons of worry and fear&quot;</Example>
     </Synset>
     <!-- compose -->
@@ -5355,12 +5338,6 @@
       <Definition>worry or cause anxiety in a persistent way</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01769760-v"/> <!-- worry, vex -->
       <Example>&quot;What&apos;s eating you?&quot;</Example>
-    </Synset>
-    <!-- reassure, assure -->
-    <Synset id="ewn-01770259-v" ili="i30569" partOfSpeech="v" dc:subject="verb.emotion">
-      <Definition>cause to feel sure; give reassurance to</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01768652-v"/> <!-- quiet, calm, lull, tranquillize, still, calm down, tranquilize, quieten, tranquillise -->
-      <Example>&quot;The airline tried to reassure the customers that the planes were safe&quot;</Example>
     </Synset>
     <!-- nag -->
     <Synset id="ewn-01770490-v" ili="i30570" partOfSpeech="v" dc:subject="verb.emotion">
