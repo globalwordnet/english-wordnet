@@ -2,6 +2,7 @@ import change_manager
 from change_manager import ChangeList
 from autocorrect import Speller
 import wordnet
+import re
 
 #####################################
 # English WordNet Editor (EWE)
@@ -160,6 +161,9 @@ def change_synset(wn, change_list):
     if mode == "d":
         synset = enter_synset(wn)
         reason = input("Reason for deletion with (#IssueNo): ")
+        while not re.match("\w+.*\(#\d+\)$", reason):
+            print("Bad reason please state at least one word with the issue number in parentheses, e.g., duplicate (#123)")
+            reason = input("Reason for deletion with (#IssueNo): ")
         supersede_synset = enter_synset(wn, "superseding ")
 
     if mode == "a":
