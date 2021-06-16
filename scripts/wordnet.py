@@ -151,7 +151,8 @@ class LexicalEntry:
         self.forms.append(form)
 
     def add_sense(self, sense):
-        self.senses.append(sense)
+        if not any(s.id == sense.id for s in self.senses):
+            self.senses.append(sense)
 
     def add_syntactic_behaviour(self, synbeh):
         self.syntactic_behaviours.append(synbeh)
