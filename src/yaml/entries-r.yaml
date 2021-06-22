@@ -7744,11 +7744,6 @@ racist:
 rack:
   n:
     sense:
-    - derivation:
-      - 'rack%2:36:00::'
-      - 'rack%2:41:01::'
-      id: 'rack%1:06:01::'
-      synset: 04045203-n
     - id: 'rack%1:13:00::'
       synset: 07683818-n
     - id: 'rack%1:11:00::'
@@ -7778,9 +7773,7 @@ rack:
       subcat:
       - vtai
       synset: 01802689-v
-    - derivation:
-      - 'rack%1:06:01::'
-      id: 'rack%2:41:01::'
+    - id: 'rack%2:41:01::'
       subcat:
       - vtai
       synset: 02413852-v
@@ -7808,9 +7801,7 @@ rack:
       - vtaa
       - vtia
       synset: 01806671-v
-    - derivation:
-      - 'rack%1:06:01::'
-      id: 'rack%2:36:00::'
+    - id: 'rack%2:36:00::'
       subcat:
       - vtai
       synset: 01673314-v
@@ -16809,24 +16800,16 @@ reassurance:
   n:
     sense:
     - derivation:
-      - 'reassure%2:37:00::'
       - 'reassure%2:32:00::'
       id: 'reassurance%1:04:00::'
       synset: 01218209-n
 reassure:
   v:
     sense:
-    - antonym:
-      - 'worry%2:37:01::'
-      derivation:
-      - 'reassurance%1:04:00::'
-      id: 'reassure%2:37:00::'
-      subcat:
-      - vtaa
-      - vtia
-      synset: 01770259-v
     - derivation:
       - 'reassurance%1:04:00::'
+      antonym:
+      - 'worry%2:37:01::'
       id: 'reassure%2:32:00::'
       subcat:
       - via-that

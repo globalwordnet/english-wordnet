@@ -244,11 +244,17 @@ def sense_to_yaml(wn, s, sb_map):
             if sr.rel_type.value not in y:
                 if not wn.sense_by_id(sr.target):
                     print(sr.target)
-                y[sr.rel_type.value] = [map_sense_key(
-                    wn.sense_by_id(sr.target).sense_key)]
+                if wn.sense_by_id(sr.target):
+                    y[sr.rel_type.value] = [map_sense_key(
+                        wn.sense_by_id(sr.target).sense_key)]
+                else:
+                    print(f"Dead link from {s.sense_key} to {sr.target}")
             else:
-                y[sr.rel_type.value].append(map_sense_key(
-                    wn.sense_by_id(sr.target).sense_key))
+                if wn.sense_by_id(sr.target):
+                    y[sr.rel_type.value].append(map_sense_key(
+                        wn.sense_by_id(sr.target).sense_key))
+                else:
+                    print(f"Dead link from {s.sense_key} to {sr.target}")
     if sb_map[s.id]:
         y["subcat"] = sorted(sb_map[s.id])
     return y

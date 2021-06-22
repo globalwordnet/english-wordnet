@@ -418,6 +418,7 @@ def delete_entry(wn, synset, entry_id, change_list=None):
         if sense.synset == synset.id:
             for rel in sense.sense_relations:
                 delete_sense_rel(wn, rel.target, sense.id)
+                delete_sense_rel(wn, sense.id, rel.target)
 
     if n_senses == 1:  # then delete the whole entry
         wn_synset = wn

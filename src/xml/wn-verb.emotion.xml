@@ -1616,12 +1616,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-enthral-v-01821281-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-enthral-v-01821281-06"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-assure-v">
-      <Lemma writtenForm="assure" partOfSpeech="v"/>
-      <Sense id="ewn-assure-v-01770259-02" n="4" synset="ewn-01770259-v" dc:identifier="assure%2:37:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-assure-v-01770259-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-assure-v-01770259-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-put_down-v">
       <Lemma writtenForm="put down" partOfSpeech="v"/>
       <Sense id="ewn-put_down-v-01804404-05" n="3" synset="ewn-01804404-v" dc:identifier="put_down%2:37:00::">
@@ -2179,7 +2173,7 @@
       <Sense id="ewn-worry-v-01769760-01" n="2" synset="ewn-01769760-v" dc:identifier="worry%2:37:01::">
         <SenseRelation relType="derivation" target="ewn-worry-n-05840588-02"/> <!-- headache, concern, worry, vexation -->
         <SenseRelation relType="derivation" target="ewn-worrying-n-00426281-02"/> <!-- torment, bedevilment, worrying, badgering -->
-        <SenseRelation relType="antonym" target="ewn-reassure-v-01770259-01"/> <!-- reassure, assure -->
+        <SenseRelation relType="antonym" target="ewn-reassure-v-01021817-01"/>
         </Sense>
       <Sense id="ewn-worry-v-01770600-01" n="1" synset="ewn-01770600-v" dc:identifier="worry%2:37:12::">
         <SenseRelation relType="derivation" target="ewn-worry-n-07539481-01"/> <!-- trouble, worry -->
@@ -4098,11 +4092,6 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-wish-v">
       <Lemma writtenForm="wish" partOfSpeech="v"/>
-      <Sense id="ewn-wish-v-01828281-01" n="0" synset="ewn-01828281-v" dc:identifier="wish%2:37:00::">
-        <SenseRelation relType="derivation" target="ewn-wish-n-07501369-01"/> <!-- wish, wishing, want -->
-        <SenseRelation relType="derivation" target="ewn-wish-n-07200530-01"/> <!-- wish, indirect request -->
-        <SenseRelation relType="derivation" target="ewn-wishing-n-07501369-02"/> <!-- wish, wishing, want -->
-        </Sense>
       <Sense id="ewn-wish-v-01828474-01" n="3" synset="ewn-01828474-v" dc:identifier="wish%2:37:01::">
         <SenseRelation relType="derivation" target="ewn-wish-n-07501369-01"/> <!-- wish, wishing, want -->
         <SenseRelation relType="derivation" target="ewn-wish-n-07200530-01"/> <!-- wish, indirect request -->
@@ -4112,8 +4101,7 @@
         <SenseRelation relType="derivation" target="ewn-wish-n-07501369-01"/> <!-- wish, wishing, want -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody something" senses="ewn-wish-v-01828474-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-wish-v-01828281-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s to INFINITIVE" senses="ewn-wish-v-01828281-01 ewn-wish-v-01828678-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s to INFINITIVE" senses="ewn-wish-v-01828678-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-begrudge-v">
       <Lemma writtenForm="begrudge" partOfSpeech="v"/>
@@ -4468,15 +4456,6 @@
       <Lemma writtenForm="wallow" partOfSpeech="v"/>
       <Sense id="ewn-wallow-v-01827320-01" n="3" synset="ewn-01827320-v" dc:identifier="wallow%2:37:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-wallow-v-01827320-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-reassure-v">
-      <Lemma writtenForm="reassure" partOfSpeech="v"/>
-      <Sense id="ewn-reassure-v-01770259-01" n="0" synset="ewn-01770259-v" dc:identifier="reassure%2:37:00::">
-        <SenseRelation relType="derivation" target="ewn-reassurance-n-01218209-01"/> <!-- reassurance -->
-        <SenseRelation relType="antonym" target="ewn-worry-v-01769760-01"/> <!-- worry, vex -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-reassure-v-01770259-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-reassure-v-01770259-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-preoccupy-v">
       <Lemma writtenForm="preoccupy" partOfSpeech="v"/>
@@ -5330,7 +5309,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01767495-v"/> <!-- lull -->
       <SynsetRelation relType="hyponym" target="ewn-01769030-v"/> <!-- compose -->
       <SynsetRelation relType="hyponym" target="ewn-01769244-v"/> <!-- assuage, gentle, conciliate, lenify, pacify, appease, gruntle, placate, mollify -->
-      <SynsetRelation relType="hyponym" target="ewn-01770259-v"/> <!-- reassure, assure -->
       <Example>&quot;quiet the dragons of worry and fear&quot;</Example>
     </Synset>
     <!-- compose -->
@@ -5361,12 +5339,6 @@
       <Definition>worry or cause anxiety in a persistent way</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01769760-v"/> <!-- worry, vex -->
       <Example>&quot;What&apos;s eating you?&quot;</Example>
-    </Synset>
-    <!-- reassure, assure -->
-    <Synset id="ewn-01770259-v" ili="i30569" partOfSpeech="v" dc:subject="verb.emotion">
-      <Definition>cause to feel sure; give reassurance to</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01768652-v"/> <!-- quiet, calm, lull, tranquillize, still, calm down, tranquilize, quieten, tranquillise -->
-      <Example>&quot;The airline tried to reassure the customers that the planes were safe&quot;</Example>
     </Synset>
     <!-- nag -->
     <Synset id="ewn-01770490-v" ili="i30570" partOfSpeech="v" dc:subject="verb.emotion">
@@ -7300,13 +7272,6 @@
       <Definition>detach the affections of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01827478-v"/> <!-- estrange, disaffect, alienate -->
     </Synset>
-    <!-- wish -->
-    <Synset id="ewn-01828281-v" ili="i30847" partOfSpeech="v" dc:subject="verb.emotion">
-      <Definition>hope for; have a wish</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01829179-v"/> <!-- want, desire -->
-      <SynsetRelation relType="hyponym" target="ewn-01830665-v"/> <!-- hope, trust, desire -->
-      <Example>&quot;I wish I could go home now&quot;</Example>
-    </Synset>
     <!-- wish well, wish -->
     <Synset id="ewn-01828474-v" ili="i30848" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>feel or express a desire or hope concerning the future or fortune of</Definition>
@@ -7314,11 +7279,12 @@
     </Synset>
     <!-- care, wish, like -->
     <Synset id="ewn-01828678-v" ili="i30849" partOfSpeech="v" dc:subject="verb.emotion">
-      <Definition>prefer or wish to do something</Definition>
+      <Definition>to hope, to desire or to prefer to have something, or to do something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01829179-v"/> <!-- want, desire -->
       <SynsetRelation relType="hyponym" target="ewn-01828900-v"/> <!-- please -->
       <Example>&quot;Do you care to try this dish?&quot;</Example>
       <Example>&quot;Would you like to come along to the movies?&quot;</Example>
+      <Example>&quot;I wish I could go home now&quot;</Example>
     </Synset>
     <!-- please -->
     <Synset id="ewn-01828900-v" ili="i30850" partOfSpeech="v" dc:subject="verb.emotion">
@@ -7337,7 +7303,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01780389-v"/> <!-- fancy, go for, take to -->
       <SynsetRelation relType="hyponym" target="ewn-01809490-v"/> <!-- miss -->
       <SynsetRelation relType="hyponym" target="ewn-01815408-v"/> <!-- hope -->
-      <SynsetRelation relType="hyponym" target="ewn-01828281-v"/> <!-- wish -->
       <SynsetRelation relType="hyponym" target="ewn-01828474-v"/> <!-- wish well, wish -->
       <SynsetRelation relType="hyponym" target="ewn-01828678-v"/> <!-- care, wish, like -->
       <SynsetRelation relType="hyponym" target="ewn-01829703-v"/> <!-- itch, spoil -->
@@ -7391,7 +7356,6 @@
     <!-- hope, trust, desire -->
     <Synset id="ewn-01830665-v" ili="i30859" partOfSpeech="v" dc:subject="verb.emotion">
       <Definition>expect and wish</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01828281-v"/> <!-- wish -->
       <Example>&quot;I trust you will behave better from now on&quot;</Example>
       <Example>&quot;I hope she understands that she cannot expect a raise&quot;</Example>
     </Synset>
