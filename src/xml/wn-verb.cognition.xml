@@ -1079,11 +1079,7 @@
       <Lemma writtenForm="find" partOfSpeech="v"/>
       <Form writtenForm="found"/>
       <Sense id="ewn-find-v-00717144-01" n="4" synset="ewn-00717144-v" dc:identifier="find%2:31:10::"/>
-      <Sense id="ewn-find-v-00723361-02" n="8" synset="ewn-00723361-v" dc:identifier="find%2:31:09::">
-        <SenseRelation relType="derivation" target="ewn-find-n-00043933-02"/> <!-- uncovering, find, discovery -->
-        <SenseRelation relType="also" target="ewn-find_out-v-00600349-06"/> <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-find-v-00717144-01 ewn-find-v-00723361-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-find-v-00717144-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-rake_up-v">
       <Lemma writtenForm="rake up" partOfSpeech="v"/>
@@ -4381,9 +4377,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-find_out-v">
       <Lemma writtenForm="find out" partOfSpeech="v"/>
-      <Sense id="ewn-find_out-v-00600349-06" n="1" synset="ewn-00600349-v" dc:identifier="find_out%2:31:00::">
-        <SenseRelation relType="also" target="ewn-find-v-00723361-02"/>
-        </Sense>
+      <Sense id="ewn-find_out-v-00600349-06" n="1" synset="ewn-00600349-v" dc:identifier="find_out%2:31:00::"/>
       <Sense id="ewn-find_out-v-00733559-01" n="3" synset="ewn-00733559-v" dc:identifier="find_out%2:31:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-find_out-v-00600349-06"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-find_out-v-00733559-01"/>
@@ -7814,13 +7808,8 @@
         <SenseRelation relType="derivation" target="ewn-discovery-n-00043933-01"/> <!-- uncovering, find, discovery -->
         </Sense>
       <Sense id="ewn-discover-v-00654017-02" n="7" synset="ewn-00654017-v" dc:identifier="discover%2:31:03::"/>
-      <Sense id="ewn-discover-v-00723361-01" n="3" synset="ewn-00723361-v" dc:identifier="discover%2:31:00::">
-        <SenseRelation relType="derivation" target="ewn-discovery-n-07229092-01"/> <!-- discovery -->
-        <SenseRelation relType="derivation" target="ewn-discovery-n-05816226-01"/> <!-- find, discovery, breakthrough -->
-        <SenseRelation relType="derivation" target="ewn-discovery-n-00043933-01"/> <!-- uncovering, find, discovery -->
-        </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-discover-v-00654017-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-discover-v-00723361-01 ewn-discover-v-00600349-08"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-discover-v-00600349-08"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-discover-v-00600349-08 ewn-discover-v-00654017-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-discover-v-00654017-02"/>
     </LexicalEntry>
@@ -9458,7 +9447,6 @@
       <SynsetRelation relType="hyponym" target="ewn-00601008-v"/> <!-- wise up -->
       <SynsetRelation relType="hyponym" target="ewn-00601230-v"/> <!-- catch, trip up -->
       <SynsetRelation relType="hyponym" target="ewn-00723226-v"/> <!-- ascertain -->
-      <SynsetRelation relType="hyponym" target="ewn-00723361-v"/> <!-- discover, find -->
       <SynsetRelation relType="similar" target="ewn-02133338-v"/> <!-- witness, find, see -->
       <Example>&quot;I learned that she has two grown-up children&quot;</Example>
       <Example>&quot;I see that you have been promoted&quot;</Example>
@@ -13455,20 +13443,9 @@
       <SynsetRelation relType="hypernym" target="ewn-00600349-v"/> <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
       <SynsetRelation relType="hyponym" target="ewn-00723813-v"/> <!-- price -->
     </Synset>
-    <!-- discover, find -->
-    <Synset id="ewn-00723361-v" ili="i25308" partOfSpeech="v" dc:subject="verb.cognition">
-      <Definition>make a discovery</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00600349-v"/> <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
-      <SynsetRelation relType="hyponym" target="ewn-00723679-v"/> <!-- rake up -->
-      <SynsetRelation relType="hyponym" target="ewn-00723989-v"/> <!-- ferret, ferret out -->
-      <SynsetRelation relType="similar" target="ewn-01641524-v"/> <!-- discover, find -->
-      <Example>&quot;She found that he had lied to her&quot;</Example>
-      <Example>&quot;The story is false, so far as I can discover&quot;</Example>
-    </Synset>
     <!-- rake up -->
     <Synset id="ewn-00723679-v" ili="i25309" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>bring to light</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00723361-v"/> <!-- discover, find -->
       <Example>&quot;He raked up the misdeeds of his predecessor&quot;</Example>
     </Synset>
     <!-- price -->
@@ -13480,7 +13457,6 @@
     <!-- ferret, ferret out -->
     <Synset id="ewn-00723989-v" ili="i25311" partOfSpeech="v" dc:subject="verb.cognition">
       <Definition>search and discover through persistent investigation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00723361-v"/> <!-- discover, find -->
       <Example>&quot;She ferreted out the truth&quot;</Example>
     </Synset>
     <!-- concentrate, centre, center, pore, focus, rivet -->
