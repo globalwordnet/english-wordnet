@@ -33,6 +33,10 @@ def check_symmetry(wn, fix):
             for rel in sense.sense_relations:
                 if rel.rel_type in inverse_sense_rels:
                     sense2 = wn.sense_by_id(rel.target)
+                    if not sense2:
+                        errors.append(
+                                "Reference to no existant sense %s)" % (rel.target))
+                        continue
                     if not any(r for r in sense2.sense_relations if r.target ==
                                sense.id and r.rel_type == inverse_sense_rels[rel.rel_type]):
                         if fix:
@@ -136,7 +140,7 @@ def check_lex_files(wn, fix):
                     print("%s does not have a sense key" % (sense.id))
                     errors += 1
                 calc_sense_key = sense_keys.get_sense_key(
-                    wn, swn, entry, sense, f)
+                    wn, entry, sense, f)
                 if sense.sense_key != calc_sense_key:
                     if fix:
                         print(
@@ -213,7 +217,12 @@ def main():
                 print("ERROR: Invalid ID " + sense.id)
                 errors += 1
             synset = wn.synset_by_id(sense.synset)
-            if entry.lemma.part_of_speech != synset.part_of_speech:
+            if not synset:
+                print(
+                    "ERROR: Entry %s refers to nonexistent synset %s" %
+                    (entry.id, sense.synset))
+                errors += 1
+            if synset and entry.lemma.part_of_speech != synset.part_of_speech:
                 print(
                     "ERROR: Part of speech of entry not the same as synset %s in %s" %
                     (entry.id, synset.id))
@@ -305,6 +314,13 @@ def main():
                 "ERROR: satellite must have at least one similar link %s" %
                 (synset.id))
             errors += 1
+
+        if (synset.part_of_speech == PartOfSpeech.NOUN and not
+            [sr for sr in synset.synset_relations 
+                if sr.rel_type == SynsetRelType.HYPERNYM or
+                   sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
+            synset.id != "ewn-00001740-n"):
+            print("WARN: noun synset %s has no hypernym" % synset.id)
 
         if len(synset.definitions) == 0:
             print("ERROR: synset without definition %s" % (synset.id))

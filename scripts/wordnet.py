@@ -45,6 +45,32 @@ class Lexicon:
         self.member2entry[entry.lemma.written_form].append(entry.id)
         self.entries.append(entry)
 
+    def del_entry(self, entry):
+        """Delete an entry and clear all senses"""
+        if entry.id not in self.id2entry:
+            return
+        del self.id2entry[entry.id]
+        for sense in entry.senses:
+            self.del_sense(entry, sense)
+        self.member2entry[entry.lemma.written_form] = [m for m in 
+                self.member2entry[entry.lemma.written_form]
+                    if m != entry.id]
+        if self.member2entry[entry.lemma.written_form] == []:
+            del self.member2entry[entry.lemma.written_form]
+        self.entries = [e for e in self.entries if e.id != entry.id]
+
+    def del_sense(self, entry, sense):
+        """Remove a single sense from an entry"""
+        if sense.id not in self.sense2synset:
+            return
+        self.members[sense.synset] = [m for m in self.members[sense.synset]
+                if m != entry.lemma.written_form]
+        if self.members[sense.synset] == []:
+            del self.members[sense.synset]
+        del self.sense2synset[sense.id]
+        del self.id2sense[sense.id]
+        entry.senses = [s for s in entry.senses if s.id != sense.id]
+
     def add_synset(self, synset):
         self.id2synset[synset.id] = synset
         self.synsets.append(synset)
@@ -125,7 +151,8 @@ class LexicalEntry:
         self.forms.append(form)
 
     def add_sense(self, sense):
-        self.senses.append(sense)
+        if not any(s.id == sense.id for s in self.senses):
+            self.senses.append(sense)
 
     def add_syntactic_behaviour(self, synbeh):
         self.syntactic_behaviours.append(synbeh)

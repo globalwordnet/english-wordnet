@@ -8,6 +8,7 @@ import hashlib
 from merge import wn_merge
 import wordnet_yaml
 from collections import defaultdict
+from sense_keys import get_sense_key
 
 sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
 
@@ -331,6 +332,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
     if entries:
         if len(entries) != 1:
             raise Exception("More than one entry for part of speech")
+        print("Found an entry!")
         wn_entry = wn.entry_by_id(entries[0])
         entry = wn_synset.entry_by_id(entries[0])
         sense = Sense(
@@ -346,16 +348,17 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
 
         wn_entry.senses.append(sense)
         entry.senses.append(sense)
+        sense.sense_key = get_sense_key(wn, entry, sense, synset.lex_name)
         if sense.synset not in wn.members:
             wn.members[sense.synset] = []
         wn.members[sense.synset].append(wn_entry.lemma.written_form)
     else:
         n = 0
+        print("Creating new entry")
         entry = LexicalEntry(
             "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
-        entry.add_sense(
-            Sense(
+        sense = Sense(
                 id="ewn-%s-%s-%s-%02d" %
                 (escape_lemma(lemma),
                  synset.part_of_speech.value,
@@ -364,7 +367,9 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
                     idx),
                 synset=synset.id,
                 n=n,
-                sense_key=None))
+                sense_key=None)
+        entry.add_sense(sense)
+        sense.sense_key = get_sense_key(wn, entry, sense, synset.lex_name)
         wn.add_entry(entry)
     if change_list:
         change_list.change_entry(wn, entry)
@@ -388,6 +393,12 @@ def delete_entry(wn, synset, entry_id, change_list=None):
     else:
         print("No entry for this lemma")
         return
+    
+    if n_senses == 0:
+        entry = wn_synset.entry_by_id(entry_global.id)
+        if entry:
+            wn.del_entry(entry)
+        return
 
     if n_senses != 1:
         n = [ind for ind, sense in enumerate(
@@ -400,30 +411,34 @@ def delete_entry(wn, synset, entry_id, change_list=None):
 
     for sense_id in sense_ids_for_synset(wn, synset):
         this_idx = int(sense_id[-2:])
-        if this_idx >= idx:
+        if this_idx > idx:
             change_sense_idx(wn, sense_id, this_idx - 1)
 
     for sense in entry_global.senses:
         if sense.synset == synset.id:
             for rel in sense.sense_relations:
                 delete_sense_rel(wn, rel.target, sense.id)
+                delete_sense_rel(wn, sense.id, rel.target)
 
     if n_senses == 1:  # then delete the whole entry
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        wn_synset.entries = [
-            entry for entry in wn_synset.entries if entry.id != entry_global.id]
-        wn.entries = [
-            entry for entry in wn.entries if entry.id != entry_global.id]
+        if change_list:
+            change_list.change_entry(wn, entry)
+        wn_synset.del_entry(entry)
+        wn.del_entry(entry)
     else:
         wn_synset = wn
         entry = wn_synset.entry_by_id(entry_global.id)
-        entry.senses = [
-            sense for sense in entry.senses if sense.synset != synset.id]
-        entry_global.senses = [
-            sense for sense in entry_global.senses if sense.synset != synset.id]
-    if change_list:
-        change_list.change_entry(wn, entry)
+        if change_list:
+            change_list.change_entry(wn, entry)
+        sense = [s for s in entry.senses if s.synset == synset.id]
+        if sense:
+            sense = sense[0]
+            wn_synset.del_sense(entry, sense)
+            wn.del_sense(entry, sense)
+        else:
+            print("this may be a bug")
 
 
 def delete_synset(
@@ -647,11 +662,12 @@ def delete_sense_rel(wn, source, target, change_list=None):
     lex_name = wn.synset_by_id(source_synset).lex_name
     wn_source = wn
     entry = wn_source.entry_by_id(source_entry)
-    sense = [sense for sense in entry.senses if sense.id == source][0]
-    sense.sense_relations = [
-        r for r in sense.sense_relations if r.target != target]
-    if change_list:
-        change_list.change_entry(wn, entry)
+    if entry:
+        sense = [sense for sense in entry.senses if sense.id == source][0]
+        sense.sense_relations = [
+            r for r in sense.sense_relations if r.target != target]
+        if change_list:
+            change_list.change_entry(wn, entry)
 
 
 def insert_sense_rel(wn, source, rel_type, target, change_list=None):

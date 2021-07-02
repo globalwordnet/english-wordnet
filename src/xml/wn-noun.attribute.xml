@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -3459,7 +3459,6 @@
       <Lemma writtenForm="utmost" partOfSpeech="n"/>
       <Sense id="ewn-utmost-n-05132193-01" n="0" synset="ewn-05132193-n" dc:identifier="utmost%1:07:00::">
         <SenseRelation relType="derivation" target="ewn-utmost-a-s-01515272-02"/> <!-- ewn-utmost-a01515272-s  -->
-        <SenseRelation relType="derivation" target="ewn-utmost-s-01214767-02"/> <!-- utmost, last -->
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-brawniness-n">
@@ -3905,7 +3904,6 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-birthright-n">
       <Lemma writtenForm="birthright" partOfSpeech="n"/>
-      <Sense id="ewn-birthright-n-04928485-01" n="2" synset="ewn-04928485-n" dc:identifier="birthright%1:07:01::"/>
       <Sense id="ewn-birthright-n-04928753-01" n="0" synset="ewn-04928753-n" dc:identifier="birthright%1:07:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-intelligibility-n">
@@ -27181,7 +27179,6 @@
       <Lemma writtenForm="likeliness" partOfSpeech="n"/>
       <Sense id="ewn-likeliness-n-04763890-02" n="0" synset="ewn-04763890-n" dc:identifier="likeliness%1:07:00::">
         <SenseRelation relType="derivation" target="ewn-likely-s-01890275-01"/> <!-- potential, likely -->
-        <SenseRelation relType="derivation" target="ewn-likely-a-01416084-02"/> <!-- likely, probable -->
         <SenseRelation relType="derivation" target="ewn-likely-a-01414308-01"/> <!-- likely -->
         <SenseRelation relType="antonym" target="ewn-unlikeliness-n-04766031-02"/> <!-- unlikeliness, unlikelihood -->
         </Sense>
@@ -40999,7 +40996,7 @@
     </Synset>
     <!-- property -->
     <Synset id="ewn-04923519-n" ili="i62823" partOfSpeech="n" dc:subject="noun.attribute">
-      <Definition>a basic or essential attribute shared by all members of a class</Definition>
+      <Definition>a basic or essential property shared by all members of a class</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-04924469-n"/> <!-- actinism -->
       <SynsetRelation relType="hyponym" target="ewn-04924616-n"/> <!-- symmetry, isotropy -->
@@ -41206,17 +41203,11 @@
     <Synset id="ewn-04928188-n" ili="i62843" partOfSpeech="n" dc:subject="noun.attribute">
       <Definition>any attribute or immaterial possession that is inherited from ancestors</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
-      <SynsetRelation relType="hyponym" target="ewn-04928485-n"/> <!-- birthright -->
       <SynsetRelation relType="hyponym" target="ewn-04928594-n"/> <!-- background -->
       <SynsetRelation relType="hyponym" target="ewn-04928753-n"/> <!-- birthright -->
       <SynsetRelation relType="hyponym" target="ewn-04928931-n"/> <!-- upbringing -->
       <Example>&quot;my only inheritance was my mother&apos;s blessing&quot;</Example>
       <Example>&quot;the world&apos;s heritage of knowledge&quot;</Example>
-    </Synset>
-    <!-- birthright -->
-    <Synset id="ewn-04928485-n" ili="i62844" partOfSpeech="n" dc:subject="noun.attribute">
-      <Definition>personal characteristics that are inherited at birth</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-04928188-n"/> <!-- heritage, inheritance -->
     </Synset>
     <!-- background -->
     <Synset id="ewn-04928594-n" ili="i62845" partOfSpeech="n" dc:subject="noun.attribute">
@@ -51798,7 +51789,6 @@
       <Definition>The quality or state of being Portuguese.</Definition>
       <ILIDefinition>The quality or state of being Portuguese.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92421853-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>state or condition of being Estonian</Definition>
@@ -51861,8 +51851,8 @@
       <Example>The dropping is going better than I&apos;d anticipated due to the threadiness of the yarn.</Example>
     </Synset>
     <Synset id="ewn-92424366-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition> the quality or state of being Turkish.</Definition>
-      <ILIDefinition> the quality or state of being Turkish.</ILIDefinition>
+      <Definition>the quality or state of being Turkish.</Definition>
+      <ILIDefinition>the quality or state of being Turkish.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
     </Synset>
     <Synset id="ewn-92422153-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
@@ -51992,8 +51982,8 @@
       <Example>The negative opinions that the tenor received in the roles that turned him into a legend might come as a surprise, in view of all the claims of his matchlessness.</Example>
     </Synset>
     <Synset id="ewn-92420975-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition>The quality or characteristic of being German  </Definition>
-      <ILIDefinition>The quality or characteristic of being German  </ILIDefinition>
+      <Definition>The quality or characteristic of being German</Definition>
+      <ILIDefinition>The quality or characteristic of being German</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
     </Synset>
     <Synset id="ewn-92423085-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
@@ -52054,7 +52044,6 @@
       <Definition>a state or condition of being a veteran</Definition>
       <ILIDefinition>a state or condition of being a veteran</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92419116-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>The property of being extremely bad, miserable, difficult or terrifying; resembling a nightmare.</Definition>
@@ -52079,8 +52068,8 @@
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
     </Synset>
     <Synset id="ewn-92423540-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition>     The state of being fashionable; stylishness; elegance.</Definition>
-      <ILIDefinition>     The state of being fashionable; stylishness; elegance.</ILIDefinition>
+      <Definition>The state of being fashionable; stylishness; elegance.</Definition>
+      <ILIDefinition>The state of being fashionable; stylishness; elegance.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-05057530-n"/> <!-- currency, up-to-dateness, currentness -->
       <Example>I was particularly impressed by the general appearance of beauty and refinement of our country-women in Madras, and by the fashionableness of their attire.</Example>
     </Synset>
@@ -52122,8 +52111,8 @@
       <Example>The following column explores the timelessness of nursing theory by highlighting Florence Nightingale&apos;s and Rosemarie Parse&apos;s theoretical underpinnings related to understanding the person&apos;s perspective on health and quality of life.</Example>
     </Synset>
     <Synset id="ewn-92417573-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition>The pigmentation of the  eye&apos;s iris.</Definition>
-      <ILIDefinition>The pigmentation of the  eye&apos;s iris.</ILIDefinition>
+      <Definition>The pigmentation of the eye&apos;s iris.</Definition>
+      <ILIDefinition>The pigmentation of the eye&apos;s iris.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04963771-n"/> <!-- colouring, color, colour, coloring -->
       <Example>The genetics of eye color, like hair color, are still being worked out, and it&apos;s clear that several genes can modify the eventual outcome.</Example>
     </Synset>
@@ -52532,7 +52521,6 @@
       <Definition>The state or quality of being Latvian.</Definition>
       <ILIDefinition>The state or quality of being Latvian.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92423031-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>The property of lacking substance or strength.</Definition>
@@ -52556,7 +52544,6 @@
       <Definition>The state or quality of being Icelandic.</Definition>
       <ILIDefinition>The state or quality of being Icelandic.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92423443-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>The property of being very extreme, unreasonable, or fanatical in opinion; excessively zealous; comparable to one with rabies.</Definition>
@@ -52587,7 +52574,7 @@
       <Definition>The state of being able to be dismissed from office.</Definition>
       <ILIDefinition>The state of being able to be dismissed from office.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-05205695-n"/> <!-- legal power, jurisdiction -->
-      <Example>The &quot;democratic  revolution&quot; emphasized the delegation of authority and the removability of officials, precisely because, as we shall see, neither delegation nor removability were much recognized in actual institutions.</Example>
+      <Example>The &quot;democratic revolution&quot; emphasized the delegation of authority and the removability of officials, precisely because, as we shall see, neither delegation nor removability were much recognized in actual institutions.</Example>
     </Synset>
     <Synset id="ewn-92422498-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>The condition of being incapable of being alienated, surrendered, or transferred to another.</Definition>
@@ -52740,11 +52727,11 @@
       <Definition>The quality or characteristic of being Russian.</Definition>
       <ILIDefinition>The quality or characteristic of being Russian.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example> </Example>
+      <Example>&quot;They were proud of their Russianness&quot;</Example>
     </Synset>
     <Synset id="ewn-92419903-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition>The state or condition of being Greek. </Definition>
-      <ILIDefinition>The state or condition of being Greek. </ILIDefinition>
+      <Definition>The state or condition of being Greek.</Definition>
+      <ILIDefinition>The state or condition of being Greek.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
     </Synset>
     <Synset id="ewn-92423626-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
@@ -52998,8 +52985,8 @@
       <Example>The erosiveness of rainfall is proportional to the energy of the falling drops and is influenced by the total amount of rain, the size of the drops, and their velocity of fall.</Example>
     </Synset>
     <Synset id="ewn-92418480-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
-      <Definition>The quality of a person of puzzling, secretive or  contradictory character.</Definition>
-      <ILIDefinition>The quality of a person of puzzling, secretive or  contradictory character.</ILIDefinition>
+      <Definition>The quality of a person of puzzling, secretive or contradictory character.</Definition>
+      <ILIDefinition>The quality of a person of puzzling, secretive or contradictory character.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04829454-n"/> <!-- incomprehensibility -->
       <SynsetRelation relType="hypernym" target="ewn-04659534-n"/> <!-- secrecy, silence, secretiveness -->
       <Example>She conveys Jesus&apos;s magnetism and charm, as well as how his enigmaticness must have stymied those closest to him.</Example>
@@ -53176,7 +53163,7 @@
       <Definition>a state or condition of being Swedish</Definition>
       <ILIDefinition>a state or condition of being Swedish</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04923519-n"/> <!-- property -->
-      <Example> What is Swedishness? Well, it&apos;s a very broad concept, with social codes that take years to master.</Example>
+      <Example>What is Swedishness? Well, it&apos;s a very broad concept, with social codes that take years to master.</Example>
     </Synset>
     <Synset id="ewn-92428809-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>Capability of being perceived as different or distinct.</Definition>
@@ -53224,7 +53211,7 @@
       <Definition>The property of being of, or pertaining to, a specific region or district.</Definition>
       <ILIDefinition>The property of being of, or pertaining to, a specific region or district.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-04769888-n"/> <!-- specialness, particularity -->
-      <Example>The party&apos;s regionality prevented it from winning a national election. </Example>
+      <Example>The party&apos;s regionality prevented it from winning a national election.</Example>
     </Synset>
     <Synset id="ewn-92427398-n" ili="in" partOfSpeech="n" dc:subject="noun.attribute" dc:source="plWordNet 4.0">
       <Definition>A moderate reddish purple that is bluer, stronger, and slightly lighter than heliotrope see heliotrope and bluer and duller than eupatorium purple.</Definition>

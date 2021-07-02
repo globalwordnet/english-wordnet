@@ -7877,9 +7877,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-rack-v">
       <Lemma writtenForm="rack" partOfSpeech="v"/>
-      <Sense id="ewn-rack-v-02413852-01" n="2" synset="ewn-02413852-v" dc:identifier="rack%2:41:01::">
-        <SenseRelation relType="derivation" target="ewn-rack-n-04045203-01"/> <!-- rack -->
-        </Sense>
+      <Sense id="ewn-rack-v-02413852-01" n="2" synset="ewn-02413852-v" dc:identifier="rack%2:41:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rack-v-02413852-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-home-v">
@@ -11207,7 +11205,6 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-get_together-v">
       <Lemma writtenForm="get together" partOfSpeech="v"/>
-      <Sense id="ewn-get_together-v-02421408-04" n="2" synset="ewn-02421408-v" dc:identifier="get_together%2:41:00::"/>
       <Sense id="ewn-get_together-v-02439823-03" n="3" synset="ewn-02439823-v" dc:identifier="get_together%2:41:02::"/>
       <Sense id="ewn-get_together-v-02492581-02" n="1" synset="ewn-02492581-v" dc:identifier="get_together%2:41:01::">
         <SenseRelation relType="derivation" target="ewn-get_together-n-08327319-02"/> <!-- meeting, get together -->
@@ -11215,8 +11212,8 @@
       <Sense id="ewn-get_together-v-02604140-03" n="0" synset="ewn-02604140-v" dc:identifier="get_together%2:41:03::">
         <SenseRelation relType="derivation" target="ewn-get_together-n-08327319-02"/> <!-- meeting, get together -->
         </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-get_together-v-02421408-04 ewn-get_together-v-02492581-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-get_together-v-02421408-04 ewn-get_together-v-02439823-03 ewn-get_together-v-02492581-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-get_together-v-02492581-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-get_together-v-02439823-03 ewn-get_together-v-02492581-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-get_together-v-02604140-03"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-set_up-v">
@@ -12314,7 +12311,7 @@
         <SenseRelation relType="derivation" target="ewn-place-n-05619605-01"/> <!-- place -->
         </Sense>
       <Sense id="ewn-place-v-02543626-01" n="8" synset="ewn-02543626-v" dc:identifier="place%2:41:00::">
-        <SenseRelation relType="derivation" target="ewn-place-n-00587299-07"/> <!-- position, situation, berth, place, spot, post, office, billet -->
+        <SenseRelation relType="derivation" target="ewn-place-n-00587299-05"/> <!-- position, situation, berth, place, spot, post, office, billet -->
         <SenseRelation relType="derivation" target="ewn-place-n-08577045-02"/> <!-- place, home -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-place-v-02397904-01 ewn-place-v-02543626-01"/>
@@ -15941,7 +15938,7 @@
     </Synset>
     <!-- collaborate, join forces, cooperate, get together -->
     <Synset id="ewn-02421408-v" ili="i33818" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>work together on a common enterprise of project</Definition>
+      <Definition>work together on a common enterprise or project</Definition>
       <SynsetRelation relType="similar" target="ewn-02421881-v"/> <!-- collaborate -->
       <SynsetRelation relType="hypernym" target="ewn-02418610-v"/> <!-- work -->
       <SynsetRelation relType="hyponym" target="ewn-02421881-v"/> <!-- collaborate -->
@@ -18644,7 +18641,7 @@
     </Synset>
     <!-- fine, ticket -->
     <Synset id="ewn-02504365-v" ili="i34212" partOfSpeech="v" dc:subject="verb.social">
-      <Definition>issue a ticket or a fine to as a penalty</Definition>
+      <Definition>record a fine as a penalty in a police record</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02503785-v"/> <!-- book -->
       <SynsetRelation relType="hyponym" target="ewn-02504636-v"/> <!-- amerce -->
       <Example>&quot;I was fined for parking on the wrong side of the street&quot;</Example>
@@ -22017,7 +22014,7 @@
       <Definition>bring together for a common purpose or action or ideology or in a shared situation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
       <SynsetRelation relType="hyponym" target="ewn-01609993-v"/> <!-- bond, draw together -->
-      <Example>&quot;the Democratic Patry platform united several splinter groups&quot;</Example>
+      <Example>&quot;the Democratic Party platform united several splinter groups&quot;</Example>
     </Synset>
     <!-- fix -->
     <Synset id="ewn-02609306-v" ili="i34705" partOfSpeech="v" dc:subject="verb.social">

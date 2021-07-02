@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -22000,6 +22000,18 @@
       <Lemma writtenForm="isogloss" partOfSpeech="n"/>
       <Sense id="ewn-isogloss-n-92408453-01" n="2" synset="ewn-92408453-n" dc:identifier="isogloss%1:15:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Afro-Eurasia-n">
+      <Lemma writtenForm="Afro-Eurasia" partOfSpeech="n"/>
+      <Sense id="ewn-Afro-Eurasia-n-08579991-02" n="0" synset="ewn-08579991-n" dc:identifier="afro-eurasia%1:15:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-Eurafrasia-n">
+      <Lemma writtenForm="Eurafrasia" partOfSpeech="n"/>
+      <Sense id="ewn-Eurafrasia-n-08579991-03" n="0" synset="ewn-08579991-n" dc:identifier="eurafrasia%1:15:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-Afroeurasia-n">
+      <Lemma writtenForm="Afroeurasia" partOfSpeech="n"/>
+      <Sense id="ewn-Afroeurasia-n-08579991-04" n="0" synset="ewn-08579991-n" dc:identifier="afroeurasia%1:15:01::"/>
+    </LexicalEntry>
     <!-- here -->
     <Synset id="ewn-08506507-n" ili="i81667" partOfSpeech="n" dc:subject="noun.location">
       <Definition>the present location; this place; location, proximal pronoun; demonstrative pronoun, location; quantifier: demonstrative determiner, singular, proximal</Definition>
@@ -25002,7 +25014,7 @@
     </Synset>
     <!-- Old World -->
     <Synset id="ewn-08579991-n" ili="i81983" partOfSpeech="n" dc:subject="noun.location">
-      <Definition>the regions of the world that were known to Europeans before the discovery of the Americas</Definition>
+      <Definition>regions of the world such as Africa, Europe and Asia that were known to Europeans before the discovery of the Americas which they called the New World</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08648560-n"/> <!-- region -->
       <SynsetRelation relType="holo_part" target="ewn-08579780-n"/> <!-- orient, eastern hemisphere -->
     </Synset>
@@ -32294,7 +32306,7 @@
     </Synset>
     <!-- Coahuila -->
     <Synset id="ewn-08760836-n" ili="i82828" partOfSpeech="n" dc:subject="noun.location">
-      <Definition>the third-largest state in  Mexico; mostly high plateau</Definition>
+      <Definition>the third-largest state in Mexico; mostly high plateau</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08671935-n"/> <!-- state, province -->
       <SynsetRelation relType="holo_part" target="ewn-08758708-n"/> <!-- Mexico, United Mexican States -->
     </Synset>
@@ -37774,7 +37786,7 @@
     </Synset>
     <!-- West Sussex -->
     <Synset id="ewn-08903870-n" ili="i83433" partOfSpeech="n" dc:subject="noun.location">
-      <Definition>a county in southern England on the English Channel,  bordering East Sussex to the east, Hampshire to the west and Surrey to the north and to the south by the English Channel</Definition>
+      <Definition>a county in southern England on the English Channel, bordering East Sussex to the east, Hampshire to the west and Surrey to the north and to the south by the English Channel</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08563758-n"/> <!-- county -->
       <SynsetRelation relType="holo_part" target="ewn-08891234-n"/> <!-- England -->
     </Synset>
@@ -38049,7 +38061,6 @@
       <SynsetRelation relType="has_domain_region" target="ewn-01071719-s"/> <!-- caller -->
       <SynsetRelation relType="has_domain_region" target="ewn-01079712-s"/> <!-- couthie, couthy -->
       <SynsetRelation relType="has_domain_region" target="ewn-02045533-s"/> <!-- buirdly, beefy, husky, burly, strapping -->
-      <SynsetRelation relType="has_domain_region" target="ewn-00387850-r"/> <!-- langsyne -->
       <SynsetRelation relType="has_domain_region" target="ewn-00462672-n"/> <!-- curling -->
       <SynsetRelation relType="has_domain_region" target="ewn-01272646-n"/> <!-- Bannockburn -->
       <SynsetRelation relType="has_domain_region" target="ewn-01275574-n"/> <!-- Brunanburh, battle of Brunanburh -->
@@ -47392,13 +47403,13 @@
     </Synset>
     <!-- Syracuse -->
     <Synset id="ewn-09148194-n" ili="i84587" partOfSpeech="n" dc:subject="noun.location">
-      <Definition>a city in central New York,  the county seat of Onondaga County</Definition>
+      <Definition>a city in central New York, the county seat of Onondaga County</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08542298-n"/> <!-- urban center, metropolis, city -->
       <SynsetRelation relType="holo_part" target="ewn-09140011-n"/> <!-- New York State, N.Y., Empire State, NY, New York -->
     </Synset>
     <!-- Utica -->
     <Synset id="ewn-09148295-n" ili="i84588" partOfSpeech="n" dc:subject="noun.location">
-      <Definition>a city in central New York,  the county seat of Oneida County</Definition>
+      <Definition>a city in central New York, the county seat of Oneida County</Definition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08542298-n"/> <!-- urban center, metropolis, city -->
       <SynsetRelation relType="holo_part" target="ewn-09140011-n"/> <!-- New York State, N.Y., Empire State, NY, New York -->
     </Synset>
@@ -49593,8 +49604,8 @@
       <SynsetRelation relType="holo_part" target="ewn-08984077-n"/> <!-- Peninsular Malaysia, Malaya, West Malaysia -->
     </Synset>
     <Synset id="ewn-92333131-n" ili="in" partOfSpeech="n" dc:subject="noun.location" dc:source="plWordNet 4.0">
-      <Definition>the third largest state in Malaysia, sultanate and one of the 13 states that constitute the Federation of Malaysia  </Definition>
-      <ILIDefinition>the third largest state in Malaysia, sultanate and one of the 13 states that constitute the Federation of Malaysia  </ILIDefinition>
+      <Definition>the third largest state in Malaysia, sultanate and one of the 13 states that constitute the Federation of Malaysia</Definition>
+      <ILIDefinition>the third largest state in Malaysia, sultanate and one of the 13 states that constitute the Federation of Malaysia</ILIDefinition>
       <SynsetRelation relType="instance_hypernym" target="ewn-08984793-n"/> <!-- Malaysian state -->
       <SynsetRelation relType="holo_part" target="ewn-08984077-n"/> <!-- Peninsular Malaysia, Malaya, West Malaysia -->
     </Synset>
@@ -49656,7 +49667,7 @@
       <ILIDefinition>The bottom end of a heel, usually made of plastic or metal.</ILIDefinition>
       <SynsetRelation relType="holo_part" target="ewn-03516570-n"/> <!-- heel -->
       <SynsetRelation relType="hypernym" target="ewn-08680894-n"/> <!-- tip -->
-      <Example dc:source="https://en.wikipedia.org">The bottom of most heels usually has a plastic or metal heel tip that wears away with use and can be easily replaced. </Example>
+      <Example dc:source="https://en.wikipedia.org">The bottom of most heels usually has a plastic or metal heel tip that wears away with use and can be easily replaced.</Example>
     </Synset>
     <Synset id="ewn-92408541-n" ili="in" partOfSpeech="n" dc:subject="noun.location" dc:source="plWordNet 4.0">
       <Definition>a line on a map connecting points at which earthquake shocks are of equal intensity.</Definition>

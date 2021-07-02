@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -953,11 +953,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-depart-v-02667330-04"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-depart-v-02667330-04"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-seem-v">
-      <Lemma writtenForm="seem" partOfSpeech="v"/>
-      <Sense id="ewn-seem-v-02751757-01" n="2" synset="ewn-02751757-v" dc:identifier="seem%2:42:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-seem-v-02751757-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-aberrate-v">
       <Lemma writtenForm="aberrate" partOfSpeech="v"/>
@@ -8652,7 +8647,6 @@
       <SynsetRelation relType="hyponym" target="ewn-02749089-v"/> <!-- hail, come -->
       <SynsetRelation relType="hyponym" target="ewn-02750852-v"/> <!-- act -->
       <SynsetRelation relType="hyponym" target="ewn-02751588-v"/> <!-- test -->
-      <SynsetRelation relType="hyponym" target="ewn-02751757-v"/> <!-- seem -->
       <SynsetRelation relType="hyponym" target="ewn-02751892-v"/> <!-- answer -->
       <SynsetRelation relType="hyponym" target="ewn-02752015-v"/> <!-- beat -->
       <SynsetRelation relType="hyponym" target="ewn-02752150-v"/> <!-- hold -->
@@ -13482,12 +13476,6 @@
       <Definition>show a certain characteristic when tested</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
       <Example>&quot;He tested positive for HIV&quot;</Example>
-    </Synset>
-    <!-- seem -->
-    <Synset id="ewn-02751757-v" ili="i35403" partOfSpeech="v" dc:subject="verb.stative">
-      <Definition>appear to exist</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
-      <Example>&quot;There seems no reason to go ahead with the project now&quot;</Example>
     </Synset>
     <!-- answer -->
     <Synset id="ewn-02751892-v" ili="i35404" partOfSpeech="v" dc:subject="verb.stative">

@@ -2,6 +2,7 @@ import change_manager
 from change_manager import ChangeList
 from autocorrect import Speller
 import wordnet
+import re
 
 #####################################
 # English WordNet Editor (EWE)
@@ -65,6 +66,23 @@ def enter_sense_synset(wordnet, spec_string=""):
                     for sense in wordnet.entry_by_id(entry_id).senses
                     if sense.synset == synset.id][0]
     return synset.id, sense_id
+
+
+def enter_sense(wordnet, synset_id, spec_string=""):
+    '''Handle the user input of a single synset or sense'''
+    print("0. Synset (No sense)")
+    mems = wordnet.members_by_id(synset_id)
+    for i, m in enumerate(mems):
+        print("%d. %s" % (i + 1, m))
+    sense_no = input("Enter sense number: ")
+    sense_id = None
+    if sense_no >= '1' and sense_no <= str(len(mems)):
+        lemma = mems[int(sense_no) - 1]
+        sense_id = [sense.id for entry_id in wordnet.entry_by_lemma(lemma)
+                    for sense in wordnet.entry_by_id(entry_id).senses
+                    if sense.synset == synset_id][0]
+    return sense_id
+
 
 
 spell = Speller(lang='en')
@@ -143,6 +161,9 @@ def change_synset(wn, change_list):
     if mode == "d":
         synset = enter_synset(wn)
         reason = input("Reason for deletion with (#IssueNo): ")
+        while not re.match("\w+.*\(#\d+\)$", reason):
+            print("Bad reason please state at least one word with the issue number in parentheses, e.g., duplicate (#123)")
+            reason = input("Reason for deletion with (#IssueNo): ")
         supersede_synset = enter_synset(wn, "superseding ")
 
     if mode == "a":
@@ -238,6 +259,7 @@ def change_relation(wn, change_list, source_id=None):
     if source_id:
         source_entry_id = None
         mode = "a"
+        add = True
         new_relation = input("Enter new relation: ")
 
     while mode != "a" and mode != "d" and mode != "r" and mode != "c":
@@ -276,6 +298,8 @@ def change_relation(wn, change_list, source_id=None):
             source_sense_id = None
         else:
             source_id, source_sense_id = enter_sense_synset(wn, "source ")
+    else:
+        source_sense_id = None
 
     if (new_relation and
             new_relation not in wordnet.SenseRelType._value2member_map_):
@@ -361,6 +385,8 @@ def change_relation(wn, change_list, source_id=None):
                 return False
 
         if add:
+            if target_sense_id and not source_sense_id:
+                source_sense_id = enter_sense(wn, source_id)
             if source_sense_id or target_sense_id:
                 if not change_manager.sense_exists(wn, source_sense_id):
                     print("Source sense %s does not exist" % source_sense_id)
@@ -462,7 +488,7 @@ def split_synset(wn, change_list):
     for definition in definition:
         new_ids.append(change_manager.add_synset(wn, definition,
                                                  synset.lex_name,
-                                                 synset.part_of_speech,
+                                                 synset.part_of_speech.value,
                                                  change_list=change_list))
 
     change_manager.delete_synset(wn, synset,
