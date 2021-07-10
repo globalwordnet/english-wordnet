@@ -1718,16 +1718,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-assault-v-01122487-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-assault-v-01122487-02"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-convert-v">
-      <Lemma writtenForm="convert" partOfSpeech="v"/>
-      <Sense id="ewn-convert-v-01086999-01" n="7" synset="ewn-01086999-v" dc:identifier="convert%2:33:00::"/>
-      <Sense id="ewn-convert-v-01087135-01" n="6" synset="ewn-01087135-v" dc:identifier="convert%2:33:01::"/>
-      <Sense id="ewn-convert-v-01087277-01" n="5" synset="ewn-01087277-v" dc:identifier="convert%2:33:02::">
-        <SenseRelation relType="derivation" target="ewn-conversion-n-00189955-01"/> <!-- conversion -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-convert-v-01087277-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-convert-v-01086999-01 ewn-convert-v-01087135-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-fistfight-v">
       <Lemma writtenForm="fistfight" partOfSpeech="v"/>
       <Sense id="ewn-fistfight-v-01084546-01" n="0" synset="ewn-01084546-v" dc:identifier="fistfight%2:33:00::">
@@ -4900,6 +4890,10 @@
       <Sense id="ewn-squat-v-91001101-01" n="3" synset="ewn-91001101-v" dc:identifier="squat%2:33:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-squat-v-91001101-01"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-convert-v">
+      <Lemma writtenForm="convert" partOfSpeech="v"/>
+      <Sense id="ewn-convert-v-01114241-04" n="9" synset="ewn-01114241-v" dc:identifier="convert%2:33:10::"/>
+    </LexicalEntry>
     <!-- contend, vie, compete -->
     <Synset id="ewn-01074673-v" ili="i26951" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>compete for something; engage in a contest; measure oneself against others</Definition>
@@ -5394,28 +5388,6 @@
       <SynsetRelation relType="domain_topic" target="ewn-00524569-n"/> <!-- sport, athletics -->
       <Example>&quot;shoot a basket&quot;</Example>
       <Example>&quot;shoot a goal&quot;</Example>
-    </Synset>
-    <!-- convert -->
-    <Synset id="ewn-01086999-v" ili="i27015" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>score (a spare)</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
-      <SynsetRelation relType="domain_topic" target="ewn-00462843-n"/> <!-- bowling -->
-      <SynsetRelation relType="similar" target="ewn-01087135-v"/> <!-- convert -->
-      <SynsetRelation relType="similar" target="ewn-01087277-v"/> <!-- convert -->
-    </Synset>
-    <!-- convert -->
-    <Synset id="ewn-01087135-v" ili="i27016" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>complete successfully</Definition>
-      <SynsetRelation relType="similar" target="ewn-01086999-v"/> <!-- convert -->
-      <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
-      <Example>&quot;score a penalty shot or free throw&quot;</Example>
-    </Synset>
-    <!-- convert -->
-    <Synset id="ewn-01087277-v" ili="i27017" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>score an extra point or points after touchdown by kicking the ball through the uprights or advancing the ball into the end zone</Definition>
-      <SynsetRelation relType="similar" target="ewn-01086999-v"/> <!-- convert -->
-      <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
-      <Example>&quot;Smith converted and his team won&quot;</Example>
     </Synset>
     <!-- ace -->
     <Synset id="ewn-01087541-v" ili="i27018" partOfSpeech="v" dc:subject="verb.competition">
@@ -6388,9 +6360,6 @@
       <SynsetRelation relType="hypernym" target="ewn-01113439-v"/> <!-- get ahead, make headway, gain ground, advance, pull ahead, win, gain -->
       <SynsetRelation relType="hyponym" target="ewn-01086742-v"/> <!-- par -->
       <SynsetRelation relType="hyponym" target="ewn-01086877-v"/> <!-- shoot -->
-      <SynsetRelation relType="hyponym" target="ewn-01086999-v"/> <!-- convert -->
-      <SynsetRelation relType="hyponym" target="ewn-01087135-v"/> <!-- convert -->
-      <SynsetRelation relType="hyponym" target="ewn-01087277-v"/> <!-- convert -->
       <SynsetRelation relType="hyponym" target="ewn-01103629-v"/> <!-- homer -->
       <SynsetRelation relType="hyponym" target="ewn-01115404-v"/> <!-- kick -->
       <SynsetRelation relType="hyponym" target="ewn-01115559-v"/> <!-- eagle -->
