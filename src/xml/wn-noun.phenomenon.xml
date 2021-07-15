@@ -6618,10 +6618,12 @@
     <!-- scorcher -->
     <Synset id="ewn-11487233-n" ili="i97848" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an extremely hot day</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
     </Synset>
     <!-- sultriness -->
     <Synset id="ewn-11487308-n" ili="i97849" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>oppressively hot and humid weather</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
     </Synset>
     <!-- hurricane -->
     <Synset id="ewn-11487417-n" ili="i97850" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8583,6 +8585,8 @@
       <SynsetRelation relType="hyponym" target="ewn-14543880-n"/> <!-- atmospheric state, atmosphere -->
       <SynsetRelation relType="hyponym" target="ewn-14545715-n"/> <!-- good weather -->
       <SynsetRelation relType="hyponym" target="ewn-14546692-n"/> <!-- inclemency, inclementness, bad weather -->
+      <SynsetRelation relType="hyponym" target="ewn-11487233-n"/> <!-- scorcher -->
+      <SynsetRelation relType="hyponym" target="ewn-11487308-n"/> <!-- sultriness -->
       <Example>&quot;they were hoping for good weather&quot;</Example>
       <Example>&quot;every day we have weather conditions and yesterday was no exception&quot;</Example>
       <Example>&quot;the conditions were too rainy for playing in the snow&quot;</Example>
