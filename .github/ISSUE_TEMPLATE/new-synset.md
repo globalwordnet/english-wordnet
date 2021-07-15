@@ -1,5 +1,5 @@
 ---
-name: New Synset
+name: New synset
 about: Suggest a novel word that does not correspond to an existing concept in WordNet
 title: ''
 labels: new synset
