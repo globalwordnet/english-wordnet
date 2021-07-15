@@ -321,7 +321,8 @@ def main():
                 if sr.rel_type == SynsetRelType.HYPERNYM or
                    sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
             synset.id != "ewn-00001740-n"):
-            print("WARN: noun synset %s has no hypernym" % synset.id)
+            print("ERROR: noun synset %s has no hypernym" % synset.id)
+            errors += 1
 
         if len(synset.definitions) == 0:
             print("ERROR: synset without definition %s" % (synset.id))
