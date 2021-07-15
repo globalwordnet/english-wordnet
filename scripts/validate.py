@@ -57,8 +57,9 @@ def check_transitive(wn, fix):
             if rel.rel_type == SynsetRelType.HYPERNYM:
                 synset2 = wn.synset_by_id(rel.target)
                 for rel2 in synset2.synset_relations:
-                    if any(r for r in synset.synset_relations if r.target ==
-                           rel2.target and r.rel_type == SynsetRelType.HYPERNYM):
+                    if (any(r for r in synset.synset_relations if r.target ==
+                           rel2.target and r.rel_type == SynsetRelType.HYPERNYM) and
+                           rel2.rel_type == SynsetRelType.HYPERNYM):
                         if fix:
                             errors.append(
                                 "python scripts/change-relation.py --delete %s %s" %
