@@ -17,4 +17,4 @@ Give a definition of the concept. If proposing a concept with multiple part-of-s
 Please suggest at least one relation according to https://github.com/globalwordnet/english-wordnet/blob/master/NEW_SYNSETS.md#Linked
 
 **Significance**
-Explain why this synset is important referring to the guidelines here: https://github.com/globalwordnet/english-wordnet/blob/master/NEW_SYNSETS.md#Linked
+Explain why this synset is important referring to the guidelines here: https://github.com/globalwordnet/english-wordnet/blob/master/NEW_SYNSETS.md
