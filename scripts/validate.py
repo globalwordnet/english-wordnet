@@ -310,6 +310,14 @@ def main():
             #    print("ERROR: reflexive synset relation for %s" % (synset.id))
             #    errors += 1
 
+        # Duplicate relation check
+        sr2 = sorted(synset.synset_relations, key=lambda sr: (sr.target, sr.rel_type.value))
+        for i in range(len(sr2)-1):
+            if sr2[i].target == sr2[i+1].target and sr2[i].rel_type == sr2[i+1].rel_type:
+                print("ERROR: Duplicate synset relation %s =%s=> %s" %
+                        (synset.id, sr2[i].rel_type.value, sr2.target))
+                errors += 1
+
         if synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and similars == 0:
             print(
                 "ERROR: satellite must have at least one similar link %s" %
