@@ -546,7 +546,8 @@ def add_synset(wn, definition, lexfile, pos, ssid=None, change_list=None):
         ssid = new_id(wn, pos, definition)
     ss = Synset(ssid, "in",
                 PartOfSpeech(pos), lexfile)
-    ss.definitions = [Definition(definition)]
+    ss.definitions = [Definition(definition)] 
+    ss.ili_definition = Definition(definition)
     wn.add_synset(ss)
     if change_list:
         change_list.change_synset(ss)
