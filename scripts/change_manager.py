@@ -417,8 +417,8 @@ def delete_entry(wn, synset, entry_id, change_list=None):
     for sense in entry_global.senses:
         if sense.synset == synset.id:
             for rel in sense.sense_relations:
-                delete_sense_rel(wn, rel.target, sense.id)
-                delete_sense_rel(wn, sense.id, rel.target)
+                delete_sense_rel(wn, rel.target, sense.id, change_list)
+                delete_sense_rel(wn, sense.id, rel.target, change_list)
 
     if n_senses == 1:  # then delete the whole entry
         wn_synset = wn
@@ -665,10 +665,15 @@ def delete_sense_rel(wn, source, target, change_list=None):
     entry = wn_source.entry_by_id(source_entry)
     if entry:
         sense = [sense for sense in entry.senses if sense.id == source][0]
-        sense.sense_relations = [
-            r for r in sense.sense_relations if r.target != target]
-        if change_list:
-            change_list.change_entry(wn, entry)
+        if not any(r for r in sense.sense_relations if r.target == target):
+            print("No sense relations deleted")
+        else:
+            sense.sense_relations = [
+                r for r in sense.sense_relations if r.target != target]
+            if change_list:
+                change_list.change_entry(wn, entry)
+    else:
+        print("No entry for " + source_entry)
 
 
 def insert_sense_rel(wn, source, rel_type, target, change_list=None):
