@@ -14562,10 +14562,6 @@
       <Lemma writtenForm="Fanconi&apos;s anaemia" partOfSpeech="n"/>
       <Sense id="ewn-Fanconi-ap-s_anaemia-n-14188348-02" n="0" synset="ewn-14188348-n" dc:identifier="fanconi&apos;s_anaemia%1:26:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-anchorage-n">
-      <Lemma writtenForm="anchorage" partOfSpeech="n"/>
-      <Sense id="ewn-anchorage-n-13946615-01" n="0" synset="ewn-13946615-n" dc:identifier="anchorage%1:26:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-tonus-n">
       <Lemma writtenForm="tonus" partOfSpeech="n"/>
       <Sense id="ewn-tonus-n-14568274-02" n="0" synset="ewn-14568274-n" dc:identifier="tonus%1:26:00::"/>
@@ -27313,7 +27309,6 @@
       <Definition>a state at a particular time</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024900-n"/> <!-- state -->
       <SynsetRelation relType="hyponym" target="ewn-04742951-n"/> <!-- diversity -->
-      <SynsetRelation relType="hyponym" target="ewn-13946615-n"/> <!-- anchorage -->
       <SynsetRelation relType="hyponym" target="ewn-13946812-n"/> <!-- health -->
       <SynsetRelation relType="hyponym" target="ewn-13946962-n"/> <!-- mode -->
       <SynsetRelation relType="hyponym" target="ewn-13947369-n"/> <!-- niche, ecological niche -->
@@ -27448,13 +27443,6 @@
       <SynsetRelation relType="hypernym" target="ewn-14085287-n"/> <!-- sickness, malady, illness, unwellness -->
       <Example>&quot;a heart condition&quot;</Example>
       <Example>&quot;a skin condition&quot;</Example>
-    </Synset>
-    <!-- anchorage -->
-    <Synset id="ewn-13946615-n" ili="i110113" partOfSpeech="n" dc:subject="noun.state">
-      <Definition>the condition of being secured to a base</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
-      <Example>&quot;the plant needs a firm anchorage&quot;</Example>
-      <Example>&quot;the mother provides emotional anchorage for the entire family&quot;</Example>
     </Synset>
     <!-- health -->
     <Synset id="ewn-13946812-n" ili="i110114" partOfSpeech="n" dc:subject="noun.state">
@@ -50350,6 +50338,14 @@
       <Definition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</Definition>
       <ILIDefinition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-85935644-n"/> <!-- respiratory illness, respiratory disorder, respiratory disease -->
+    </Synset>
+    <Synset id="ewn-80258799-n" ili="in" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the condition of being secured to a base</Definition>
+      <ILIDefinition>the condition of being secured to a base</ILIDefinition>
+    </Synset>
+    <Synset id="ewn-81261025-n" ili="in" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the provision of a sense of security or steadfastness</Definition>
+      <ILIDefinition>the provision of a sense of security or steadfastness</ILIDefinition>
     </Synset>
   </Lexicon>
 </LexicalResource>
