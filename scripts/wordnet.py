@@ -306,7 +306,7 @@ class Example:
     def to_xml(self, xml_file):
         if self.source:
             xml_file.write("""      <Example dc:source=\"%s\">%s</Example>
-""" % (self.source, escape_xml_lit(self.text)))
+""" % (escape_xml_lit(self.source), escape_xml_lit(self.text)))
 
         else:
             xml_file.write("""      <Example>%s</Example>
