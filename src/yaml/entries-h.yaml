@@ -23319,11 +23319,15 @@ hero:
     form:
     - heroes
     sense:
-    - derivation:
+    - also:
+      - 'heroine%1:18:00::'
+      derivation:
       - heroical%5:00:00:bold:00
       id: 'hero%1:18:00::'
       synset: 10344679-n
-    - id: 'hero%1:09:00::'
+    - also:
+      - 'heroine%1:18:01::'
+      id: 'hero%1:09:00::'
       synset: 05938456-n
     - derivation:
       - heroical%5:00:00:bold:00
@@ -23458,9 +23462,13 @@ heroin addiction:
 heroine:
   n:
     sense:
-    - id: 'heroine%1:18:01::'
+    - also:
+      - 'hero%1:09:00::'
+      id: 'heroine%1:18:01::'
       synset: 10192976-n
-    - id: 'heroine%1:18:00::'
+    - also:
+      - 'hero%1:18:00::'
+      id: 'heroine%1:18:00::'
       synset: 10193081-n
 heroism:
   n:
