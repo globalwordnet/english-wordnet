@@ -11696,6 +11696,7 @@
       <SynsetRelation relType="hyponym" target="ewn-07371570-n"/> <!-- attrition -->
       <SynsetRelation relType="hyponym" target="ewn-07437400-n"/> <!-- dwindling away, dwindling -->
       <SynsetRelation relType="hyponym" target="ewn-07437601-n"/> <!-- waning -->
+      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
       <Example>&quot;there was a decrease in his temperature as the fever subsided&quot;</Example>
       <Example>&quot;there was a sharp drop-off in sales&quot;</Example>
     </Synset>
@@ -13774,7 +13775,6 @@
       <Definition>increase in density</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07371276-n"/> <!-- increase -->
       <SynsetRelation relType="hyponym" target="ewn-07433833-n"/> <!-- compression, densification, concretion, compaction -->
-      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
     </Synset>
     <!-- explosion -->
     <Synset id="ewn-07428668-n" ili="i75674" partOfSpeech="n" dc:subject="noun.event">
@@ -13948,11 +13948,13 @@
     <Synset id="ewn-07433833-n" ili="i75699" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an increase in the density of something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07428499-n"/> <!-- concentration -->
+      <SynsetRelation relType="antonym" target="ewn-07434008-n"/> <!-- rarefaction -->
     </Synset>
     <!-- rarefaction -->
     <Synset id="ewn-07434008-n" ili="i75700" partOfSpeech="n" dc:subject="noun.event">
       <Definition>a decrease in the density of something</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07428499-n"/> <!-- concentration -->
+      <SynsetRelation relType="hypernym" target="ewn-07370487-n"/> <!-- drop-off, decrease, lessening -->
+      <SynsetRelation relType="antonym" target="ewn-07433833-n"/> <!-- compression, densification, concretion, compaction -->
       <Example>&quot;a sound wave causes periodic rarefactions in its medium&quot;</Example>
     </Synset>
     <!-- preservation, conservation -->
