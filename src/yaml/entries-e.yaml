@@ -9289,7 +9289,9 @@ easily:
       synset: 00148912-r
     - id: 'easily%4:02:06::'
       synset: 00054973-r
-    - id: 'easily%4:02:05::'
+    - derivation:
+      - 'easy%3:00:01::'
+      id: 'easily%4:02:05::'
       synset: 00012993-r
 easiness:
   n:
@@ -9621,6 +9623,7 @@ easy:
       - 'difficult%3:00:00::'
       derivation:
       - 'easiness%1:07:00::'
+      - 'easily%4:02:05::'
       id: 'easy%3:00:01::'
       synset: 00752852-a
     - antonym:
