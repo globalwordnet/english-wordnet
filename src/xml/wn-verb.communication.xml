@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -2467,6 +2467,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-extol-v">
       <Lemma writtenForm="extol" partOfSpeech="v"/>
+      <Form writtenForm="extolled"/>
+      <Form writtenForm="extolling"/>
       <Sense id="ewn-extol-v-00862284-02" n="0" synset="ewn-00862284-v" dc:identifier="extol%2:32:00::">
         <SenseRelation relType="derivation" target="ewn-extoller-n-10268408-03"/> <!-- lauder, extoller, laudator -->
         <SenseRelation relType="derivation" target="ewn-extolment-n-06705943-04"/> <!-- congratulations, kudos, extolment, praise -->
@@ -16511,6 +16513,7 @@
       <Lemma writtenForm="sing" partOfSpeech="v"/>
       <Form writtenForm="sang"/>
       <Form writtenForm="sung"/>
+      <Form writtenForm="singing"/>
       <Sense id="ewn-sing-v-00939238-08" n="4" synset="ewn-00939238-v" dc:identifier="sing%2:32:01::">
         <SenseRelation relType="derivation" target="ewn-singing-n-06818155-02"/> <!-- tattle, singing, telling -->
         </Sense>
@@ -17653,6 +17656,7 @@
       <Lemma writtenForm="reassure" partOfSpeech="v"/>
       <Sense id="ewn-reassure-v-01021817-01" n="1" synset="ewn-01021817-v" dc:identifier="reassure%2:32:00::">
         <SenseRelation relType="derivation" target="ewn-reassurance-n-01218209-01"/> <!-- reassurance -->
+        <SenseRelation relType="antonym" target="ewn-worry-v-01769760-01"/>
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s that CLAUSE" senses="ewn-reassure-v-01021817-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody of something" senses="ewn-reassure-v-01021817-01"/>
@@ -28479,6 +28483,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00994550-v"/> <!-- shake -->
       <SynsetRelation relType="hyponym" target="ewn-01043287-v"/> <!-- wave, beckon -->
       <SynsetRelation relType="is_entailed_by" target="ewn-00901719-v"/> <!-- present, salute -->
+      <SynsetRelation relType="hyponym" target="ewn-01548431-v"/>
       <Example>&quot;He gestured his desire to leave&quot;</Example>
     </Synset>
     <!-- shake -->
@@ -29417,7 +29422,7 @@
     </Synset>
     <!-- reassure -->
     <Synset id="ewn-01021817-v" ili="i26676" partOfSpeech="v" dc:subject="verb.communication">
-      <Definition>give or restore confidence in; cause to feel sure or certain</Definition>
+      <Definition>give reassurance to; give or restore confidence in; cause to feel sure or certain</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00778313-v"/> <!-- assure -->
       <Example>&quot;I reassured him that we were safe&quot;</Example>
     </Synset>

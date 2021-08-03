@@ -31,6 +31,11 @@ E-Mycin:
       - 'trade_name%1:10:00::'
       id: 'e-mycin%1:06:00::'
       synset: 03300286-n
+E-bike:
+  n:
+    sense:
+    - id: 'e-bike%1:06:01::'
+      synset: 84345709-n
 E-bomb:
   n:
     sense:
@@ -7058,6 +7063,11 @@ Euproctis phaeorrhoea:
     sense:
     - id: 'euproctis_phaeorrhoea%1:05:00::'
       synset: 02289077-n
+Eurafrasia:
+  n:
+    sense:
+    - id: 'eurafrasia%1:15:01::'
+      synset: 08579991-n
 Eurafrican:
   a:
     sense:
@@ -8627,6 +8637,9 @@ early:
     - id: 'early%4:02:02::'
       synset: 00101142-r
   s:
+    form:
+    - earlier
+    - earliest
     sense:
     - adjposition: a
       id: early%5:00:00:past:00
@@ -9281,7 +9294,9 @@ easily:
       synset: 00148912-r
     - id: 'easily%4:02:06::'
       synset: 00054973-r
-    - id: 'easily%4:02:05::'
+    - derivation:
+      - 'easy%3:00:01::'
+      id: 'easily%4:02:05::'
       synset: 00012993-r
 easiness:
   n:
@@ -9613,6 +9628,7 @@ easy:
       - 'difficult%3:00:00::'
       derivation:
       - 'easiness%1:07:00::'
+      - 'easily%4:02:05::'
       id: 'easy%3:00:01::'
       synset: 00752852-a
     - antonym:
@@ -11374,6 +11390,7 @@ edema:
   n:
     form:
     - edemata
+    - oedemata
     sense:
     - derivation:
       - edematous%5:00:00:unhealthy:00
@@ -15438,6 +15455,16 @@ electronic balance:
     sense:
     - id: 'electronic_balance%1:06:00::'
       synset: 03282370-n
+electronic bicycle:
+  n:
+    sense:
+    - id: 'electronic_bicycle%1:06:01::'
+      synset: 84345709-n
+electronic bike:
+  n:
+    sense:
+    - id: 'electronic_bike%1:06:01::'
+      synset: 84345709-n
 electronic bulletin board:
   n:
     sense:
@@ -17065,6 +17092,8 @@ elysian:
       synset: 01125269-s
 elytron:
   n:
+    form:
+    - elytra
     sense:
     - id: 'elytron%1:05:00::'
       synset: 02155211-n
@@ -21389,7 +21418,7 @@ endoplasm:
 endopsammon:
   n:
     sense:
-    - id: 'endopsammon%1:03:01::'
+    - id: 'endopsammon%1:05:01::'
       synset: 92419748-n
 endorphin:
   n:
@@ -23453,6 +23482,9 @@ enrobe:
       synset: 00044795-v
 enrol:
   v:
+    form:
+    - enrolled
+    - enrolling
     sense:
     - derivation:
       - 'enrolment%1:04:00::'
@@ -23464,6 +23496,9 @@ enrol:
       synset: 02476750-v
 enroll:
   v:
+    form:
+    - enrolled
+    - enrolling
     sense:
     - derivation:
       - 'enrollment%1:04:00::'
@@ -24110,6 +24145,9 @@ enthalpy:
       synset: 05019456-n
 enthral:
   v:
+    form:
+    - enthralled
+    - enthralling
     sense:
     - id: 'enthral%2:37:00::'
       subcat:
@@ -24118,6 +24156,9 @@ enthral:
       synset: 01821281-v
 enthrall:
   v:
+    form:
+    - enthralled
+    - enthralling
     sense:
     - derivation:
       - 'enthrallment%1:12:00::'
@@ -24470,6 +24511,8 @@ entozoan:
       id: 'entozoan%3:00:00::'
       synset: 00892783-a
   n:
+    form:
+    - entozoa
     sense:
     - derivation:
       - 'entozoan%3:01:00::'
@@ -24485,6 +24528,8 @@ entozoic:
       synset: 00892783-a
 entozoon:
   n:
+    form:
+    - entozoa
     sense:
     - derivation:
       - 'entozoan%3:01:00::'
@@ -26146,7 +26191,7 @@ epinephrine:
 epipelon:
   n:
     sense:
-    - id: 'epipelon%1:03:01::'
+    - id: 'epipelon%1:05:01::'
       synset: 92424584-n
 epiphany:
   n:
@@ -26244,7 +26289,7 @@ epiplexis:
 epipsammon:
   n:
     sense:
-    - id: 'epipsammon%1:03:01::'
+    - id: 'epipsammon%1:05:01::'
       synset: 92419747-n
 episcia:
   n:
@@ -26441,6 +26486,8 @@ epitaxy:
       synset: 13496523-n
 epithalamium:
   n:
+    form:
+    - epithalamia
     sense:
     - id: 'epithalamium%1:10:00::'
       synset: 06395462-n
@@ -26546,7 +26593,7 @@ epitrochoidal engine:
 epixylon:
   n:
     sense:
-    - id: 'epixylon%1:03:01::'
+    - id: 'epixylon%1:05:01::'
       synset: 92419766-n
 epizoan:
   a:
@@ -26558,6 +26605,8 @@ epizoan:
       - 'epizoon%1:05:00::'
       synset: 03075644-a
   n:
+    form:
+    - epizoa
     sense:
     - id: 'epizoan%1:05:00::'
       synset: 01387971-n
@@ -26570,6 +26619,8 @@ epizoic:
       synset: 00892965-a
 epizoon:
   n:
+    form:
+    - epizoa
     sense:
     - derivation:
       - 'epizoan%3:01:00::'
@@ -29007,6 +29058,7 @@ esophagus:
   n:
     form:
     - esophagi
+    - oesophagi
     sense:
     - derivation:
       - 'esophageal%3:01:00::'
@@ -39735,6 +39787,9 @@ extirpator:
       synset: 92465696-n
 extol:
   v:
+    form:
+    - extolled
+    - extolling
     sense:
     - derivation:
       - 'extoller%1:18:00::'

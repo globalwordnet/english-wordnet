@@ -4610,11 +4610,11 @@ Schinus molle:
     sense:
     - id: 'schinus_molle%1:20:00::'
       synset: 12785875-n
-Schinus terebinthifolius:
+Schinus terebinthifolia:
   n:
     sense:
-    - id: 'schinus_terebinthifolius%1:20:00::'
-      synset: 12786162-n
+    - id: 'schinus_terebinthifolia%1:20:01::'
+      synset: 12785738-n
 Schistosoma:
   n:
     sense:
@@ -19520,6 +19520,8 @@ sago palm:
       synset: 11621628-n
 saguaro:
   n:
+    form:
+    - saguaros
     sense:
     - id: 'saguaro%1:20:00::'
       synset: 11864840-n
@@ -19530,6 +19532,8 @@ sahib:
       synset: 09707171-n
 sahuaro:
   n:
+    form:
+    - saguaros
     sense:
     - id: 'sahuaro%1:20:00::'
       synset: 11864840-n
@@ -36696,14 +36700,6 @@ seem:
       subcat:
       - nonreferential-sent
       synset: 02139137-v
-    - id: 'seem%2:42:00::'
-      subcat:
-      - vtii
-      synset: 02751757-v
-    - id: 'seem%2:39:02::'
-      subcat:
-      - via-to-inf
-      synset: 02202748-v
 seeming:
   s:
     sense:
@@ -51773,6 +51769,8 @@ shoetree:
       synset: 00319912-v
 shofar:
   n:
+    form:
+    - shofroth
     sense:
     - id: 'shofar%1:06:00::'
       synset: 04208107-n
@@ -52270,6 +52268,7 @@ shophar:
   n:
     form:
     - shophroth
+    - shofroth
     sense:
     - id: 'shophar%1:06:00::'
       synset: 04208107-n
@@ -53745,10 +53744,6 @@ show:
     - id: 'show%1:10:03::'
       synset: 06892571-n
     - derivation:
-      - 'show%2:39:02::'
-      id: 'show%1:10:00::'
-      synset: 06631572-n
-    - derivation:
       - showy%5:00:00:ostentatious:00
       id: 'show%1:04:01::'
       synset: 00756620-n
@@ -53758,7 +53753,6 @@ show:
     sense:
     - derivation:
       - 'show%1:04:00::'
-      - 'show%1:10:00::'
       - 'showing%1:10:01::'
       - 'showing%1:04:00::'
       id: 'show%2:39:02::'
@@ -55322,6 +55316,11 @@ shy:
       id: 'shy%1:04:00::'
       synset: 00107708-n
   s:
+    form:
+    - shier
+    - shiest
+    - shyer
+    - shyest
     sense:
     - adjposition: p
       id: shy%5:00:00:insufficient:00
@@ -57464,6 +57463,8 @@ signing:
       synset: 06888747-n
 signior:
   n:
+    form:
+    - signori
     sense:
     - id: 'signior%1:18:00::'
       synset: 10617153-n
@@ -57481,6 +57482,8 @@ signora:
       synset: 10617297-n
 signore:
   n:
+    form:
+    - signori
     sense:
     - id: 'signore%1:18:00::'
       synset: 10617421-n
@@ -59658,6 +59661,7 @@ sing:
     form:
     - sang
     - sung
+    - singing
     sense:
     - derivation:
       - 'song%1:10:00::'
@@ -59733,6 +59737,8 @@ singe:
       id: 'singe%1:26:00::'
       synset: 14313444-n
   v:
+    form:
+    - singing
     sense:
     - derivation:
       - 'singe%1:26:00::'
@@ -75785,12 +75791,12 @@ softback book:
 softball:
   n:
     sense:
-    - id: 'softball%1:06:00::'
-      synset: 04264001-n
     - antonym:
       - 'hardball%1:04:00::'
       id: 'softball%1:04:00::'
       synset: 00476798-n
+    - id: 'softball%1:06:01::'
+      synset: 86432478-n
 softball game:
   n:
     sense:
@@ -76215,6 +76221,8 @@ sokha:
       synset: 92444429-n
 sol:
   n:
+    form:
+    - soles
     sense:
     - id: 'sol%1:27:00::'
       synset: 14614975-n
@@ -76663,6 +76671,8 @@ soldiery:
       synset: 08414212-n
 sole:
   n:
+    form:
+    - soles
     sense:
     - derivation:
       - 'sole%2:30:00::'
@@ -77943,9 +77953,6 @@ some:
       synset: 00007414-r
   s:
     sense:
-    - adjposition: a
-      id: some%5:00:00:much:00
-      synset: 01558420-s
     - adjposition: a
       id: some%5:00:00:many:00
       synset: 01556991-s
@@ -89901,8 +89908,6 @@ spot:
       synset: 06408111-n
     - id: 'spot%1:06:00::'
       synset: 04293266-n
-    - id: 'spot%1:04:01::'
-      synset: 00587299-n
     - id: 'spot%1:26:00::'
       synset: 14105668-n
     - id: 'spot%1:23:00::'
@@ -91657,7 +91662,9 @@ spry:
 spud:
   n:
     sense:
-    - id: 'spud%1:13:00::'
+    - exemplifies:
+      - 'slang%1:10:00::'
+      id: 'spud%1:13:00::'
       synset: 07726361-n
     - id: 'spud%1:06:00::'
       synset: 04297102-n
@@ -110702,10 +110709,8 @@ student:
       - 'study%2:31:03::'
       id: 'student%1:18:00::'
       synset: 10685137-n
-    - derivation:
-      - 'studentship%1:04:00::'
-      id: 'student%1:18:01::'
-      synset: 10577282-n
+    - id: 'student%1:18:01::'
+      synset: 10271476-n
 student center:
   n:
     sense:
@@ -110745,7 +110750,6 @@ studentship:
   n:
     sense:
     - derivation:
-      - 'student%1:18:01::'
       - 'student%1:18:00::'
       id: 'studentship%1:04:00::'
       synset: 00605809-n

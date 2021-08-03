@@ -19809,6 +19809,10 @@ caddie:
       id: 'caddie%1:18:00::'
       synset: 09905855-n
   v:
+    form:
+    - caddied
+    - caddies
+    - caddying
     sense:
     - derivation:
       - 'caddie%1:18:00::'
@@ -19844,6 +19848,10 @@ caddy:
       id: 'caddy%1:06:00::'
       synset: 02938771-n
   v:
+    form:
+    - caddied
+    - caddies
+    - caddying
     sense:
     - derivation:
       - 'caddy%1:06:00::'
@@ -20638,6 +20646,8 @@ calcaneal:
       synset: 02684617-a
 calcaneus:
   n:
+    form:
+    - calcanei
     sense:
     - id: 'calcaneus%1:08:00::'
       synset: 05282307-n
@@ -41994,8 +42004,6 @@ changed:
     sense:
     - id: changed%5:00:00:altered:00
       synset: 00353817-s
-    - id: changed%5:00:00:metamorphic:00
-      synset: 01535138-s
 changeful:
   a:
     sense:
@@ -70488,6 +70496,8 @@ comic:
       - 'comedy%1:10:00::'
       synset: 02984937-a
   n:
+    form:
+    - comics
     sense:
     - derivation:
       - comic%5:00:00:humorous:00
@@ -73877,7 +73887,9 @@ compact-disk burner:
 compaction:
   n:
     sense:
-    - derivation:
+    - antonym:
+      - 'rarefaction%1:11:00::'
+      derivation:
       - 'compact%2:35:09::'
       id: 'compaction%1:11:00::'
       synset: 07433833-n
@@ -96149,8 +96161,6 @@ court:
       synset: 08346249-n
     - id: 'court%1:06:03::'
       synset: 03796288-n
-    - id: 'court%1:06:05::'
-      synset: 03654773-n
     - derivation:
       - courtly%5:00:00:dignified:00
       id: 'court%1:06:04::'
@@ -107481,6 +107491,12 @@ cumulonimbus cloud:
     - id: 'cumulonimbus_cloud%1:17:00::'
       synset: 09284678-n
 cumulous:
+  a:
+    sense:
+    - id: 'cumulous%3:00:01::'
+      pertainym:
+      - 'cumulus%1:17:00::'
+      synset: 83909192-a
   s:
     sense:
     - derivation:
@@ -107488,6 +107504,12 @@ cumulous:
       id: cumulous%5:00:00:concentrated:00
       synset: 00541427-s
 cumulus:
+  a:
+    sense:
+    - id: 'cumulus%3:00:01::'
+      pertainym:
+      - 'cumulus%1:17:00::'
+      synset: 83909192-a
   n:
     form:
     - cumuli

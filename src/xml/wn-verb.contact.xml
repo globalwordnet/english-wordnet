@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -494,9 +494,6 @@
       <Sense id="ewn-ground-v-01368058-02" n="9" synset="ewn-01368058-v" dc:identifier="ground%2:35:03::">
         <SenseRelation relType="derivation" target="ewn-ground-n-03365691-02"/> <!-- primer, flat coat, ground, undercoat, primer coat, priming, priming coat -->
         </Sense>
-      <Sense id="ewn-ground-v-01409010-01" n="8" synset="ewn-01409010-v" dc:identifier="ground%2:35:10::">
-        <SenseRelation relType="derivation" target="ewn-ground-n-09357302-04"/> <!-- earth, land, dry land, terra firma, ground, solid ground -->
-        </Sense>
       <Sense id="ewn-ground-v-01409166-01" n="7" synset="ewn-01409166-v" dc:identifier="ground%2:35:11::">
         <SenseRelation relType="derivation" target="ewn-grounder-n-00129909-01"/> <!-- hopper, grounder, ground ball, groundball -->
         </Sense>
@@ -511,7 +508,7 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-ground-v-01505401-01"/>
       <SyntacticBehaviour subcategorizationFrame="It is ----ing" senses="ewn-ground-v-01409166-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-ground-v-01295137-01 ewn-ground-v-01307604-02 ewn-ground-v-01368058-02 ewn-ground-v-01409010-01 ewn-ground-v-01409338-01 ewn-ground-v-01505293-01 ewn-ground-v-01505401-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-ground-v-01295137-01 ewn-ground-v-01307604-02 ewn-ground-v-01368058-02 ewn-ground-v-01409338-01 ewn-ground-v-01505293-01 ewn-ground-v-01505401-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-ground-v-01307604-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-lighten-v">
@@ -5212,6 +5209,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-instal-v">
       <Lemma writtenForm="instal" partOfSpeech="v"/>
+      <Form writtenForm="installed"/>
+      <Form writtenForm="installing"/>
       <Sense id="ewn-instal-v-01572394-02" n="0" synset="ewn-01572394-v" dc:identifier="instal%2:35:00::">
         <SenseRelation relType="derivation" target="ewn-instalment-n-00241805-04"/> <!-- installation, instalment, installing, installment -->
         <SenseRelation relType="derivation" target="ewn-installing-n-00241805-02"/> <!-- installation, instalment, installing, installment -->
@@ -5510,11 +5509,6 @@
       <Lemma writtenForm="clapperclaw" partOfSpeech="v"/>
       <Sense id="ewn-clapperclaw-v-01309226-01" n="0" synset="ewn-01309226-v" dc:identifier="clapperclaw%2:35:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-clapperclaw-v-01309226-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-grass_over-v">
-      <Lemma writtenForm="grass over" partOfSpeech="v"/>
-      <Sense id="ewn-grass_over-v-01211645-02" n="0" synset="ewn-01211645-v" dc:identifier="grass_over%2:35:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-grass_over-v-01211645-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-reshuffle-v">
       <Lemma writtenForm="reshuffle" partOfSpeech="v"/>
@@ -6694,6 +6688,7 @@
       <Lemma writtenForm="roll out" partOfSpeech="v"/>
       <Sense id="ewn-roll_out-v-01393934-01" n="0" synset="ewn-01393934-v" dc:identifier="roll_out%2:35:01::"/>
       <Sense id="ewn-roll_out-v-01489811-01" n="1" synset="ewn-01489811-v" dc:identifier="roll_out%2:35:02::"/>
+      <Sense id="ewn-roll_out-v-01382265-02" n="3" synset="ewn-01382265-v" dc:identifier="roll_out%2:35:03::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-roll_out-v-01393934-01 ewn-roll_out-v-01489811-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-vaporize-v">
@@ -7436,14 +7431,10 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-grass-v">
       <Lemma writtenForm="grass" partOfSpeech="v"/>
-      <Sense id="ewn-grass-v-01211645-01" n="3" synset="ewn-01211645-v" dc:identifier="grass%2:35:02::">
-        <SenseRelation relType="derivation" target="ewn-grass-n-12122650-01"/> <!-- grass -->
-        </Sense>
       <Sense id="ewn-grass-v-01583197-01" n="2" synset="ewn-01583197-v" dc:identifier="grass%2:35:01::"/>
       <Sense id="ewn-grass-v-01605953-01" n="1" synset="ewn-01605953-v" dc:identifier="grass%2:35:00::">
         <SenseRelation relType="derivation" target="ewn-grass-n-12122650-01"/> <!-- grass -->
         </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-grass-v-01211645-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-grass-v-01583197-01 ewn-grass-v-01605953-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-blur-v">
@@ -8506,6 +8497,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-install-v">
       <Lemma writtenForm="install" partOfSpeech="v"/>
+      <Form writtenForm="installed"/>
+      <Form writtenForm="installing"/>
       <Sense id="ewn-install-v-01572394-01" n="0" synset="ewn-01572394-v" dc:identifier="install%2:35:00::">
         <SenseRelation relType="derivation" target="ewn-installment-n-00241805-03"/> <!-- installation, instalment, installing, installment -->
         <SenseRelation relType="derivation" target="ewn-installation-n-00241805-01"/> <!-- installation, instalment, installing, installment -->
@@ -23172,6 +23165,10 @@
       <Sense id="ewn-pussyfuck-v-90001951-01" n="0" synset="ewn-90001951-v" dc:identifier="pussyfuck%2:35:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-pussyfuck-v-90001951-01"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-grass_over-v">
+      <Lemma writtenForm="grass over" partOfSpeech="v"/>
+      <Sense id="ewn-grass_over-v-01605953-02" n="0" synset="ewn-01605953-v" dc:identifier="grass_over%2:35:01::"/>
+    </LexicalEntry>
     <!-- meet, touch, adjoin, contact -->
     <Synset id="ewn-01208316-v" ili="i27653" partOfSpeech="v" dc:subject="verb.contact">
       <Definition>be in direct physical contact with; make contact</Definition>
@@ -23271,7 +23268,6 @@
       <SynsetRelation relType="hyponym" target="ewn-00362148-v"/> <!-- mist, mist over -->
       <SynsetRelation relType="hyponym" target="ewn-01211328-v"/> <!-- glaciate -->
       <SynsetRelation relType="hyponym" target="ewn-01211516-v"/> <!-- strew -->
-      <SynsetRelation relType="hyponym" target="ewn-01211645-v"/> <!-- grass, grass over -->
       <SynsetRelation relType="hyponym" target="ewn-01264885-v"/> <!-- cake, coat -->
       <SynsetRelation relType="hyponym" target="ewn-01341976-v"/> <!-- submerge, drown, overwhelm -->
       <SynsetRelation relType="hyponym" target="ewn-01608325-v"/> <!-- mantle -->
@@ -23306,11 +23302,6 @@
       <Definition>cover; be dispersed over</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01210571-v"/> <!-- cover, spread over -->
       <Example>&quot;Dead bodies strewed the ground&quot;</Example>
-    </Synset>
-    <!-- grass, grass over -->
-    <Synset id="ewn-01211645-v" ili="i27667" partOfSpeech="v" dc:subject="verb.contact">
-      <Definition>cover with grass</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01210571-v"/> <!-- cover, spread over -->
     </Synset>
     <!-- strike, hit -->
     <Synset id="ewn-01211755-v" ili="i27668" partOfSpeech="v" dc:subject="verb.contact">
@@ -29877,6 +29868,8 @@
       <SynsetRelation relType="hypernym" target="ewn-01381221-v"/> <!-- distribute, spread -->
       <SynsetRelation relType="hyponym" target="ewn-01382469-v"/> <!-- redeploy -->
       <Example>&quot;The U.S. deploys its weapons in the Middle East&quot;</Example>
+      <Example>&quot;The general deploys troops in a battle formation&quot;</Example>
+      <Example>&quot;The government rolled out the vaccine&quot;</Example>
     </Synset>
     <!-- redeploy -->
     <Synset id="ewn-01382469-v" ili="i28607" partOfSpeech="v" dc:subject="verb.contact">
@@ -30888,7 +30881,6 @@
       <SynsetRelation relType="hyponym" target="ewn-01407567-v"/> <!-- pop -->
       <SynsetRelation relType="hyponym" target="ewn-01408670-v"/> <!-- follow through -->
       <SynsetRelation relType="hyponym" target="ewn-01408849-v"/> <!-- shell -->
-      <SynsetRelation relType="hyponym" target="ewn-01409010-v"/> <!-- ground -->
       <SynsetRelation relType="hyponym" target="ewn-01409166-v"/> <!-- ground -->
       <SynsetRelation relType="hyponym" target="ewn-01409551-v"/> <!-- top -->
       <SynsetRelation relType="hyponym" target="ewn-01409713-v"/> <!-- pull -->
@@ -30927,25 +30919,16 @@
       <Example>&quot;He shelled the pitcher for eight runs in the first inning&quot;</Example>
     </Synset>
     <!-- ground -->
-    <Synset id="ewn-01409010-v" ili="i28755" partOfSpeech="v" dc:subject="verb.contact">
-      <Definition>hit onto the ground</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01407698-v"/> <!-- hit -->
-      <SynsetRelation relType="domain_topic" target="ewn-00472688-n"/> <!-- baseball, baseball game, ball -->
-      <SynsetRelation relType="similar" target="ewn-01409166-v"/> <!-- ground -->
-      <SynsetRelation relType="similar" target="ewn-01409338-v"/> <!-- ground -->
-    </Synset>
-    <!-- ground -->
     <Synset id="ewn-01409166-v" ili="i28756" partOfSpeech="v" dc:subject="verb.contact">
-      <Definition>hit a groundball</Definition>
-      <SynsetRelation relType="similar" target="ewn-01409010-v"/> <!-- ground -->
+      <Definition>(baseball) a hit that travels along the playing field.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01407698-v"/> <!-- hit -->
       <SynsetRelation relType="domain_topic" target="ewn-00472688-n"/> <!-- baseball, baseball game, ball -->
       <Example>&quot;he grounded to the second baseman&quot;</Example>
+      <Example>&quot;he hit a groundball&quot;</Example>
     </Synset>
     <!-- ground -->
     <Synset id="ewn-01409338-v" ili="i28757" partOfSpeech="v" dc:subject="verb.contact">
       <Definition>throw to the ground in order to stop play and avoid being tackled behind the line of scrimmage</Definition>
-      <SynsetRelation relType="similar" target="ewn-01409010-v"/> <!-- ground -->
       <SynsetRelation relType="hypernym" target="ewn-01511000-v"/> <!-- throw -->
       <SynsetRelation relType="domain_topic" target="ewn-00469555-n"/> <!-- football, football game -->
     </Synset>
@@ -35975,6 +35958,7 @@
     <Synset id="ewn-01548431-v" ili="i29460" partOfSpeech="v" dc:subject="verb.contact">
       <Definition>rest one&apos;s weight on one&apos;s knees</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01548665-v"/> <!-- rest -->
+      <SynsetRelation relType="hypernym" target="ewn-00994073-v"/>
       <Example>&quot;In church you have to kneel during parts of the service&quot;</Example>
     </Synset>
     <!-- rest -->

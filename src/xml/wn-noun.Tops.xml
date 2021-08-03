@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -451,34 +451,6 @@
         <SenseRelation relType="derivation" target="ewn-locate-v-00414801-02"/> <!-- settle, locate -->
         </Sense>
     </LexicalEntry>
-    <LexicalEntry id="ewn-endopsammon-n">
-      <Lemma writtenForm="endopsammon" partOfSpeech="n"/>
-      <Sense id="ewn-endopsammon-n-92419748-00" n="2" synset="ewn-92419748-n" dc:identifier="endopsammon%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-epipelon-n">
-      <Lemma writtenForm="epipelon" partOfSpeech="n"/>
-      <Sense id="ewn-epipelon-n-92424584-00" n="2" synset="ewn-92424584-n" dc:identifier="epipelon%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-epixylon-n">
-      <Lemma writtenForm="epixylon" partOfSpeech="n"/>
-      <Sense id="ewn-epixylon-n-92419766-00" n="2" synset="ewn-92419766-n" dc:identifier="epixylon%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-marine_benthos-n">
-      <Lemma writtenForm="marine benthos" partOfSpeech="n"/>
-      <Sense id="ewn-marine_benthos-n-92419744-00" n="2" synset="ewn-92419744-n" dc:identifier="marine_benthos%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-microbenthos-n">
-      <Lemma writtenForm="microbenthos" partOfSpeech="n"/>
-      <Sense id="ewn-microbenthos-n-92429061-00" n="2" synset="ewn-92429061-n" dc:identifier="microbenthos%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-epipsammon-n">
-      <Lemma writtenForm="epipsammon" partOfSpeech="n"/>
-      <Sense id="ewn-epipsammon-n-92419747-00" n="2" synset="ewn-92419747-n" dc:identifier="epipsammon%1:03:01::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-merobenthos-n">
-      <Lemma writtenForm="merobenthos" partOfSpeech="n"/>
-      <Sense id="ewn-merobenthos-n-92420298-00" n="2" synset="ewn-92420298-n" dc:identifier="merobenthos%1:03:01::"/>
-    </LexicalEntry>
     <!-- entity -->
     <Synset id="ewn-00001740-n" ili="i35545" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>that which is perceived or known or inferred to have its own distinct existence (living or nonliving)</Definition>
@@ -509,6 +481,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00033914-n"/> <!-- amount, quantity, measure -->
       <SynsetRelation relType="hyponym" target="ewn-05818169-n"/> <!-- otherworld -->
       <SynsetRelation relType="hyponym" target="ewn-08016141-n"/> <!-- set -->
+      <SynsetRelation relType="hyponym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- thing -->
     <Synset id="ewn-00002452-n" ili="i35548" partOfSpeech="n" dc:subject="noun.Tops">
@@ -665,10 +638,12 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-13535517-n"/> <!-- metabolism, metabolic process -->
       <SynsetRelation relType="has_domain_topic" target="ewn-13538756-n"/> <!-- morphogenesis -->
       <SynsetRelation relType="hyponym" target="ewn-92419757-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-01316379-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
     </Synset>
     <!-- benthos -->
     <Synset id="ewn-00005787-n" ili="i35554" partOfSpeech="n" dc:subject="noun.Tops">
-      <Definition>organisms (plants and animals) that live at or near the bottom of a sea</Definition>
+      <Definition>organisms (plants and animals) that live at or near the bottom of a sea, lake, river or stream</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="hyponym" target="ewn-92419748-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92424584-n"/>
@@ -740,12 +715,12 @@
       <SynsetRelation relType="hyponym" target="ewn-11709219-n"/> <!-- mother cell -->
       <SynsetRelation relType="hyponym" target="ewn-13113144-n"/> <!-- arthrospore -->
       <SynsetRelation relType="hyponym" target="ewn-13113307-n"/> <!-- arthrospore -->
+      <SynsetRelation relType="hyponym" target="ewn-01316379-n"/>
     </Synset>
     <!-- causal agent, cause, causal agency -->
     <Synset id="ewn-00007347-n" ili="i35561" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any entity that produces an effect or is responsible for events or results</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
-      <SynsetRelation relType="hyponym" target="ewn-00007846-n"/> <!-- soul, someone, individual, somebody, mortal, person -->
       <SynsetRelation relType="hyponym" target="ewn-09213796-n"/> <!-- agent -->
       <SynsetRelation relType="hyponym" target="ewn-09526814-n"/> <!-- nature -->
       <SynsetRelation relType="hyponym" target="ewn-09527009-n"/> <!-- supernatural, occult -->
@@ -761,12 +736,12 @@
       <SynsetRelation relType="hyponym" target="ewn-14564166-n"/> <!-- cause of death, killer -->
       <SynsetRelation relType="hyponym" target="ewn-14564646-n"/> <!-- danger -->
       <SynsetRelation relType="hyponym" target="ewn-14802595-n"/> <!-- agent -->
+      <SynsetRelation relType="hyponym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- soul, someone, individual, somebody, mortal, person -->
     <Synset id="ewn-00007846-n" ili="i35562" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
-      <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
       <SynsetRelation relType="holo_member" target="ewn-07958392-n"/> <!-- people -->
       <SynsetRelation relType="mero_part" target="ewn-04624919-n"/> <!-- personality -->
       <SynsetRelation relType="mero_part" target="ewn-05224424-n"/> <!-- shape, anatomy, material body, frame, flesh, human body, bod, physique, chassis, form, figure, physical body, build, soma -->
@@ -1371,6 +1346,7 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-00303245-v"/> <!-- cultivate, tame, domesticate, naturalise, naturalize -->
       <SynsetRelation relType="has_domain_topic" target="ewn-00397231-v"/> <!-- accrete -->
       <SynsetRelation relType="has_domain_topic" target="ewn-01611026-v"/> <!-- girdle, deaden -->
+      <SynsetRelation relType="hyponym" target="ewn-11550459-n"/>
     </Synset>
     <!-- native -->
     <Synset id="ewn-00019226-n" ili="i35565" partOfSpeech="n" dc:subject="noun.Tops">
@@ -1492,7 +1468,6 @@
       <Definition>any substance that can be metabolized by an animal to give energy and build tissue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-01467485-n"/> <!-- yolk, vitellus -->
-      <SynsetRelation relType="mero_part" target="ewn-07571428-n"/> <!-- food, solid food -->
       <SynsetRelation relType="hyponym" target="ewn-07571971-n"/> <!-- comfort food -->
       <SynsetRelation relType="hyponym" target="ewn-07572202-n"/> <!-- victual, eatable, victuals, pabulum, edible, comestible -->
       <SynsetRelation relType="hyponym" target="ewn-07576217-n"/> <!-- fare -->
@@ -1507,6 +1482,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14606896-n"/> <!-- micronutrient -->
       <SynsetRelation relType="hyponym" target="ewn-14607580-n"/> <!-- chyme -->
       <SynsetRelation relType="hyponym" target="ewn-14923479-n"/> <!-- medium, culture medium -->
+      <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
     </Synset>
     <!-- nutrient -->
     <Synset id="ewn-00021914-n" ili="i35571" partOfSpeech="n" dc:subject="noun.Tops">
@@ -1580,7 +1556,6 @@
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00023451-n"/> <!-- noesis, cognition, knowledge -->
       <SynsetRelation relType="hyponym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
-      <SynsetRelation relType="hyponym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- noesis, cognition, knowledge -->
     <Synset id="ewn-00023451-n" ili="i35575" partOfSpeech="n" dc:subject="noun.Tops">
@@ -1802,6 +1777,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08813732-n"/> <!-- sodom -->
       <SynsetRelation relType="hyponym" target="ewn-09409735-n"/> <!-- mountain pass, notch, pass -->
       <SynsetRelation relType="hyponym" target="ewn-13933399-n"/> <!-- space -->
+      <SynsetRelation relType="hyponym" target="ewn-08517454-n"/>
     </Synset>
     <!-- shape, form -->
     <Synset id="ewn-00028005-n" ili="i35581" partOfSpeech="n" dc:subject="noun.Tops">
@@ -1856,6 +1832,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00029413-n"/> <!-- phase space -->
       <SynsetRelation relType="hyponym" target="ewn-08018127-n"/> <!-- mathematical space, topological space -->
       <SynsetRelation relType="mero_part" target="ewn-08519192-n"/> <!-- aerospace -->
+      <SynsetRelation relType="hyponym" target="ewn-08517454-n"/>
       <Example>&quot;they tested his ability to locate objects in space&quot;</Example>
       <Example>&quot;the boundless regions of the infinite&quot;</Example>
     </Synset>
@@ -1875,11 +1852,9 @@
     <!-- event -->
     <Synset id="ewn-00029677-n" ili="i35586" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that happens at a given place and time</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-00030657-n"/> <!-- deed, human action, act, human activity -->
       <SynsetRelation relType="hyponym" target="ewn-07298069-n"/> <!-- might-have-been -->
       <SynsetRelation relType="hyponym" target="ewn-07298178-n"/> <!-- nonevent -->
-      <SynsetRelation relType="hyponym" target="ewn-07298313-n"/> <!-- occurrent, happening, occurrence, natural event -->
       <SynsetRelation relType="hyponym" target="ewn-07303344-n"/> <!-- social event -->
       <SynsetRelation relType="hyponym" target="ewn-07303524-n"/> <!-- miracle -->
       <SynsetRelation relType="hyponym" target="ewn-07327429-n"/> <!-- migration -->
@@ -1887,6 +1862,8 @@
       <SynsetRelation relType="instance_hyponym" target="ewn-07493671-n"/> <!-- Fall -->
       <SynsetRelation relType="hyponym" target="ewn-07494768-n"/> <!-- zap -->
       <SynsetRelation relType="hyponym" target="ewn-90008911-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
+      <SynsetRelation relType="hyponym" target="ewn-07298313-n"/>
     </Synset>
     <!-- physical process, process -->
     <Synset id="ewn-00029976-n" ili="i35587" partOfSpeech="n" dc:subject="noun.Tops">
@@ -2117,43 +2094,6 @@
       <SynsetRelation relType="hyponym" target="ewn-11438252-n"/> <!-- hazard, chance, fortune, luck -->
       <SynsetRelation relType="hyponym" target="ewn-11438574-n"/> <!-- fortune, luck -->
       <SynsetRelation relType="hyponym" target="ewn-11549746-n"/> <!-- pulsation -->
-    </Synset>
-    <Synset id="ewn-92419748-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>The microscopic fauna of sand and mud.</Definition>
-      <ILIDefinition>The microscopic fauna of sand and mud.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-    </Synset>
-    <Synset id="ewn-92424584-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>cyanobacteria and eukaryotic algae that live on or in association with fine-grained substrata.</Definition>
-      <ILIDefinition>cyanobacteria and eukaryotic algae that live on or in association with fine-grained substrata.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-    </Synset>
-    <Synset id="ewn-92419766-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>organisms that are attached to submerged wood surfaces in aquatic ecosystems.</Definition>
-      <ILIDefinition>organisms that are attached to submerged wood surfaces in aquatic ecosystems.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-      <Example>Some studies, however, suggest that wood and wood biofilms (epixylon) may be an important but overlooked resource.</Example>
-    </Synset>
-    <Synset id="ewn-92419744-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>organisms (plants and animals) that live specifically at or near the bottom of a sea.</Definition>
-      <ILIDefinition>organisms (plants and animals) that live specifically at or near the bottom of a sea.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-    </Synset>
-    <Synset id="ewn-92429061-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>microscopic benthic organisms that are less than 0.1 mm in size.</Definition>
-      <ILIDefinition>microscopic benthic organisms that are less than 0.1 mm in size.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-    </Synset>
-    <Synset id="ewn-92419747-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.  </Definition>
-      <ILIDefinition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.  </ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-    </Synset>
-    <Synset id="ewn-92420298-n" ili="in" partOfSpeech="n" dc:subject="noun.Tops" dc:source="plWordNet 4.0">
-      <Definition>benthos consisting of organisms in pre-adult stages that later become adult in the plankton.</Definition>
-      <ILIDefinition>benthos consisting of organisms in pre-adult stages that later become adult in the plankton.</ILIDefinition>
-      <SynsetRelation relType="hypernym" target="ewn-00005787-n"/> <!-- benthos -->
-      <Example>More recent studies highlighted the role of merobenthos as cysts of planktonic organisms that spend part of their life quiescent in the sediments.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

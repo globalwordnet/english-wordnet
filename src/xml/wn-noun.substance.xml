@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -11822,6 +11822,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sol-n">
       <Lemma writtenForm="sol" partOfSpeech="n"/>
+      <Form writtenForm="soles"/>
       <Sense id="ewn-sol-n-14614975-01" n="0" synset="ewn-14614975-n" dc:identifier="sol%1:27:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-permanganate_of_potash-n">
@@ -15051,6 +15052,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-base-n">
       <Lemma writtenForm="base" partOfSpeech="n"/>
+      <Form writtenForm="bases"/>
       <Sense id="ewn-base-n-14642431-01" n="9" synset="ewn-14642431-n" dc:identifier="base%1:27:00::">
         <SenseRelation relType="derivation" target="ewn-base-v-01202706-02"/> <!-- base, free-base -->
         <SenseRelation relType="derivation" target="ewn-basify-v-00265980-04"/> <!-- alkalize, alkalify, alkalise, basify -->
@@ -17137,6 +17139,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-monad-n">
       <Lemma writtenForm="monad" partOfSpeech="n"/>
+      <Form writtenForm="monades"/>
       <Sense id="ewn-monad-n-14645258-01" n="0" synset="ewn-14645258-n" dc:identifier="monad%1:27:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-steel_gray-n">
@@ -22255,6 +22258,7 @@
     <!-- hexanedioic acid, adipic acid -->
     <Synset id="ewn-14636495-n" ili="i113812" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a carboxylic acid used in the manufacture of nylon</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14763539-n"/> <!-- carboxylic acid -->
     </Synset>
     <!-- HMG-CoA reductase, 5-hydroxy-3-methylglutaryl-coenzyme A reductase -->
     <Synset id="ewn-14636622-n" ili="i113813" partOfSpeech="n" dc:subject="noun.substance">
@@ -22397,10 +22401,12 @@
     <!-- suberic acid, octanedioic acid -->
     <Synset id="ewn-14640359-n" ili="i113838" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a dicarboxylic acid found in cork</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14763539-n"/> <!-- carboxylic acid -->
     </Synset>
     <!-- succinic acid -->
     <Synset id="ewn-14640470-n" ili="i113839" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a dicarboxylic acid (C4H6O4) active in metabolic processes</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14763539-n"/> <!-- carboxylic acid -->
     </Synset>
     <!-- sulfonate -->
     <Synset id="ewn-14640588-n" ili="i113840" partOfSpeech="n" dc:subject="noun.substance">
@@ -22710,6 +22716,12 @@
       <Definition>any of the chemically inert gaseous elements of the helium group in the periodic table</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
       <SynsetRelation relType="hypernym" target="ewn-14901736-n"/> <!-- gas -->
+      <SynsetRelation relType="hyponym" target="ewn-14653098-n"/> <!-- Ar, argon, atomic number 18 -->
+      <SynsetRelation relType="hyponym" target="ewn-14664099-n"/> <!-- helium, atomic number 2, He -->
+      <SynsetRelation relType="hyponym" target="ewn-14667094-n"/> <!-- atomic number 36, krypton, Kr -->
+      <SynsetRelation relType="hyponym" target="ewn-14670330-n"/> <!-- atomic number 10, Ne, neon -->
+      <SynsetRelation relType="hyponym" target="ewn-14676283-n"/> <!-- radon, atomic number 86, Rn -->
+      <SynsetRelation relType="hyponym" target="ewn-14685453-n"/> <!-- Xe, atomic number 54, xenon -->
     </Synset>
     <!-- helium group -->
     <Synset id="ewn-14648837-n" ili="i113878" partOfSpeech="n" dc:subject="noun.substance">
@@ -22818,6 +22830,8 @@
       <SynsetRelation relType="hyponym" target="ewn-14736650-n"/> <!-- alkaline earth, alkaline-earth metal -->
       <SynsetRelation relType="hyponym" target="ewn-92464175-n"/>
       <SynsetRelation relType="hyponym" target="ewn-14666595-n"/> <!-- iron, atomic number 26, Fe -->
+      <SynsetRelation relType="hyponym" target="ewn-14672085-n"/> <!-- atomic number 76, osmium, Os -->
+      <SynsetRelation relType="hyponym" target="ewn-14677421-n"/> <!-- ruthenium, atomic number 44, Ru -->
     </Synset>
     <!-- noble metal -->
     <Synset id="ewn-14651259-n" ili="i113884" partOfSpeech="n" dc:subject="noun.substance">
@@ -22886,6 +22900,7 @@
     <Synset id="ewn-14653098-n" ili="i113894" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a colorless and odorless inert gas; one of the six inert gases; comprises approximately 1% of the earth&apos;s atmosphere</Definition>
       <SynsetRelation relType="holo_substance" target="ewn-14865437-n"/> <!-- air -->
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- atomic number 33, arsenic, As -->
     <Synset id="ewn-14653327-n" ili="i113895" partOfSpeech="n" dc:subject="noun.substance">
@@ -23220,6 +23235,7 @@
     <!-- helium, atomic number 2, He -->
     <Synset id="ewn-14664099-n" ili="i113944" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a very light colorless element that is one of the six inert gasses; the most difficult gas to liquefy; occurs in economically extractable amounts in certain natural gases (as those found in Texas and Kansas)</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- holmium, atomic number 67, Ho -->
     <Synset id="ewn-14664400-n" ili="i113945" partOfSpeech="n" dc:subject="noun.substance">
@@ -23309,6 +23325,7 @@
     <Synset id="ewn-14667094-n" ili="i113956" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a colorless element that is one of the six inert gasses; occurs in trace amounts in air</Definition>
       <SynsetRelation relType="holo_substance" target="ewn-14865437-n"/> <!-- air -->
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- La, lanthanum, atomic number 57 -->
     <Synset id="ewn-14667296-n" ili="i113957" partOfSpeech="n" dc:subject="noun.substance">
@@ -23401,6 +23418,7 @@
     <Synset id="ewn-14670330-n" ili="i113969" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a colorless odorless gaseous element that gives a red glow in a vacuum tube; one of the six inert gasses; occurs in the air in small amounts</Definition>
       <SynsetRelation relType="holo_substance" target="ewn-14865437-n"/> <!-- air -->
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- atomic number 93, Np, neptunium -->
     <Synset id="ewn-14670581-n" ili="i113970" partOfSpeech="n" dc:subject="noun.substance">
@@ -23450,6 +23468,7 @@
     <!-- atomic number 76, osmium, Os -->
     <Synset id="ewn-14672085-n" ili="i113977" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a hard brittle blue-grey or blue-black metallic element that is one of the platinum metals; the heaviest metal known</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14649636-n"/> <!-- metal, metallic element -->
     </Synset>
     <!-- oxygen, atomic number 8, O -->
     <Synset id="ewn-14672278-n" ili="i113978" partOfSpeech="n" dc:subject="noun.substance">
@@ -23546,6 +23565,7 @@
     <!-- radon, atomic number 86, Rn -->
     <Synset id="ewn-14676283-n" ili="i113993" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a radioactive gaseous element formed by the disintegration of radium; the heaviest of the inert gasses; occurs naturally (especially in areas over granite) and is considered a hazard to health</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- atomic number 75, rhenium, Re -->
     <Synset id="ewn-14676569-n" ili="i113994" partOfSpeech="n" dc:subject="noun.substance">
@@ -23573,6 +23593,7 @@
     <!-- ruthenium, atomic number 44, Ru -->
     <Synset id="ewn-14677421-n" ili="i113998" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a rare polyvalent metallic element of the platinum group; it is found associated with platinum</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14649636-n"/> <!-- metal, metallic element -->
     </Synset>
     <!-- unnilquadium, Rf, atomic number 104, element 104, rutherfordium, Unq -->
     <Synset id="ewn-14677595-n" ili="i113999" partOfSpeech="n" dc:subject="noun.substance">
@@ -23793,6 +23814,7 @@
     <Synset id="ewn-14685453-n" ili="i114031" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a colorless odorless inert gaseous element occurring in the earth&apos;s atmosphere in trace amounts</Definition>
       <SynsetRelation relType="holo_substance" target="ewn-14865437-n"/> <!-- air -->
+      <SynsetRelation relType="hypernym" target="ewn-14648547-n"/> <!-- noble gas, inert gas, argonon -->
     </Synset>
     <!-- ytterbium, atomic number 70, Yb -->
     <Synset id="ewn-14685661-n" ili="i114032" partOfSpeech="n" dc:subject="noun.substance">
@@ -24403,6 +24425,8 @@
     <!-- gesso -->
     <Synset id="ewn-14700917-n" ili="i114103" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>gypsum or plaster of Paris spread on a surface to make it suitable for painting or gilding (or a surface so prepared)</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14701939-n"/> <!-- gypsum -->
+      <SynsetRelation relType="hypernym" target="ewn-15017180-n"/> <!-- plaster of Paris, plaster -->
     </Synset>
     <!-- gibbsite -->
     <Synset id="ewn-14701104-n" ili="i114104" partOfSpeech="n" dc:subject="noun.substance">
@@ -24441,6 +24465,7 @@
       <SynsetRelation relType="mero_substance" target="ewn-14656826-n"/> <!-- calcium, Ca, atomic number 20 -->
       <SynsetRelation relType="hyponym" target="ewn-14689530-n"/> <!-- alabaster -->
       <SynsetRelation relType="hyponym" target="ewn-14928093-n"/> <!-- terra alba -->
+      <SynsetRelation relType="hyponym" target="ewn-14700917-n"/> <!-- gesso -->
     </Synset>
     <!-- hausmannite -->
     <Synset id="ewn-14702229-n" ili="i114110" partOfSpeech="n" dc:subject="noun.substance">
@@ -24542,6 +24567,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14686753-n"/> <!-- mineral -->
       <SynsetRelation relType="mero_substance" target="ewn-14659900-n"/> <!-- copper, atomic number 29, Cu -->
       <SynsetRelation relType="hyponym" target="ewn-14692016-n"/> <!-- azurite -->
+      <SynsetRelation relType="hypernym" target="ewn-14822620-n"/> <!-- carbonate -->
     </Synset>
     <!-- mineral tar, maltha -->
     <Synset id="ewn-14704997-n" ili="i114127" partOfSpeech="n" dc:subject="noun.substance">
@@ -26752,14 +26778,21 @@
       <SynsetRelation relType="hyponym" target="ewn-14953200-n"/> <!-- lactic acid -->
       <SynsetRelation relType="hyponym" target="ewn-15023089-n"/> <!-- propenoic acid, acrylic acid -->
       <SynsetRelation relType="hyponym" target="ewn-92463583-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-14636495-n"/> <!-- hexanedioic acid, adipic acid -->
+      <SynsetRelation relType="hyponym" target="ewn-14640359-n"/> <!-- suberic acid, octanedioic acid -->
+      <SynsetRelation relType="hyponym" target="ewn-14640470-n"/> <!-- succinic acid -->
+      <SynsetRelation relType="hyponym" target="ewn-14763913-n"/> <!-- saccharic acid -->
+      <SynsetRelation relType="hyponym" target="ewn-14764040-n"/> <!-- sebacic acid, decanedioic acid -->
     </Synset>
     <!-- saccharic acid -->
     <Synset id="ewn-14763913-n" ili="i114453" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a white dicarboxylic acid formed from oxidation of sugar or starch</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14763539-n"/> <!-- carboxylic acid -->
     </Synset>
     <!-- sebacic acid, decanedioic acid -->
     <Synset id="ewn-14764040-n" ili="i114454" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a dicarboxylic acid used to make resins</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14763539-n"/> <!-- carboxylic acid -->
     </Synset>
     <!-- sorbic acid -->
     <Synset id="ewn-14764157-n" ili="i114455" partOfSpeech="n" dc:subject="noun.substance">
@@ -26919,6 +26952,7 @@
     <!-- sal ammoniac, ammonium chloride -->
     <Synset id="ewn-14768768-n" ili="i114479" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a white salt used in dry cells</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-15035270-n"/> <!-- salt -->
     </Synset>
     <!-- amyl alcohol -->
     <Synset id="ewn-14768877-n" ili="i114480" partOfSpeech="n" dc:subject="noun.substance">
@@ -28933,6 +28967,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14966022-n"/> <!-- Lithonate, lithium carbonate, Lithane, Eskalith -->
       <SynsetRelation relType="hyponym" target="ewn-14969392-n"/> <!-- magnesium carbonate -->
       <SynsetRelation relType="hyponym" target="ewn-92463247-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-14704822-n"/> <!-- malachite -->
     </Synset>
     <!-- fulminate -->
     <Synset id="ewn-14822879-n" ili="i114801" partOfSpeech="n" dc:subject="noun.substance">
@@ -29238,6 +29273,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14994082-n"/> <!-- onyx -->
       <SynsetRelation relType="hyponym" target="ewn-15016732-n"/> <!-- plasma -->
       <SynsetRelation relType="hyponym" target="ewn-15044301-n"/> <!-- sardius, sardine, sard -->
+      <SynsetRelation relType="hyponym" target="ewn-14836403-n"/> <!-- chrysoprase -->
     </Synset>
     <!-- chalk -->
     <Synset id="ewn-14830768-n" ili="i114848" partOfSpeech="n" dc:subject="noun.substance">
@@ -29464,10 +29500,12 @@
       <Definition>a brown or yellow-green olivine found in igneous and metamorphic rocks and used as a gemstone</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14708272-n"/> <!-- olivine -->
       <SynsetRelation relType="hypernym" target="ewn-15102617-n"/> <!-- transparent gem -->
+      <SynsetRelation relType="hyponym" target="ewn-15004520-n"/> <!-- peridot -->
     </Synset>
     <!-- chrysoprase -->
     <Synset id="ewn-14836403-n" ili="i114884" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a green variety of chalcedony valued as a gemstone</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14830503-n"/> <!-- calcedony, chalcedony -->
     </Synset>
     <!-- chylomicron -->
     <Synset id="ewn-14836529-n" ili="i114885" partOfSpeech="n" dc:subject="noun.substance">
@@ -30126,7 +30164,7 @@
     </Synset>
     <!-- deoxycytidine monophosphate, C -->
     <Synset id="ewn-14853935-n" ili="i114982" partOfSpeech="n" dc:subject="noun.substance">
-      <Definition>one of the four nucleotides used in building DNA, also known as  also known as deoxycytidylate, or dCMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
+      <Definition>one of the four nucleotides used in building DNA, also known as also known as deoxycytidylate, or dCMP; all four nucleotides have a common phosphate group and a sugar (ribose)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <!-- G, deoxyguanosine monophosphate -->
@@ -31755,6 +31793,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15020587-n"/> <!-- polish -->
       <SynsetRelation relType="hyponym" target="ewn-15067966-n"/> <!-- smelling salts -->
       <SynsetRelation relType="hyponym" target="ewn-92466276-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-15043456-n"/> <!-- starch -->
       <Example>&quot;the physician prescribed a commercial preparation of the medicine&quot;</Example>
     </Synset>
     <!-- thus, gum olibanum, frankincense, olibanum -->
@@ -35808,6 +35847,7 @@
     <!-- peridot -->
     <Synset id="ewn-15004520-n" ili="i115864" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a pale green variety of chrysolite; used as a gemstone</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14836217-n"/> <!-- chrysolite -->
     </Synset>
     <!-- peroxide -->
     <Synset id="ewn-15004646-n" ili="i115865" partOfSpeech="n" dc:subject="noun.substance">
@@ -36305,6 +36345,7 @@
       <Definition>any of several gypsum cements; a white powder (a form of calcium sulphate) that forms a paste when mixed with water and hardens into a solid; used in making molds and sculptures and casts for broken limbs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14961659-n"/> <!-- calcium sulfate, calcium sulphate -->
       <SynsetRelation relType="mero_substance" target="ewn-14701939-n"/> <!-- gypsum -->
+      <SynsetRelation relType="hyponym" target="ewn-14700917-n"/> <!-- gesso -->
     </Synset>
     <!-- puddle -->
     <Synset id="ewn-15017512-n" ili="i115933" partOfSpeech="n" dc:subject="noun.substance">
@@ -37010,6 +37051,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92465910-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92465922-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92463440-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-14768768-n"/> <!-- sal ammoniac, ammonium chloride -->
     </Synset>
     <!-- double salt -->
     <Synset id="ewn-15036554-n" ili="i116038" partOfSpeech="n" dc:subject="noun.substance">
@@ -37273,6 +37315,7 @@
     <!-- starch -->
     <Synset id="ewn-15043456-n" ili="i116080" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a commercial preparation of starch that is used to stiffen textile fabrics in laundering</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-14897792-n"/> <!-- preparation, formulation -->
     </Synset>
     <!-- sand -->
     <Synset id="ewn-15043597-n" ili="i116081" partOfSpeech="n" dc:subject="noun.substance">
@@ -40770,8 +40813,8 @@
       <Example>Polycarboxylate cement has the potential to bond to calcium contained in tooth structure as well as to any base metals contained in casting.</Example>
     </Synset>
     <Synset id="ewn-92420837-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>a toxic  salt of selenous acid and zinc, with the chemical formula ZnSeO3..</Definition>
-      <ILIDefinition>a toxic  salt of selenous acid and zinc, with the chemical formula ZnSeO3..</ILIDefinition>
+      <Definition>a toxic salt of selenous acid and zinc, with the chemical formula ZnSeO3..</Definition>
+      <ILIDefinition>a toxic salt of selenous acid and zinc, with the chemical formula ZnSeO3..</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-92463440-n"/>
       <SynsetRelation relType="mero_substance" target="ewn-14686156-n"/> <!-- atomic number 30, zinc, Zn -->
       <SynsetRelation relType="hypernym" target="ewn-14943662-n"/> <!-- inorganic compound -->
@@ -40809,8 +40852,8 @@
       <Example>Examples of electroceramic materials include: ferroelectrics - high dielectric capacitors, non-volatile memories; ferrites - data and information storage; solid electrolytes - energy storage and conversion; piezoelectrics - sonar; semiconducting oxides - environmental monitoring.</Example>
     </Synset>
     <Synset id="ewn-92420686-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>Salicylic alcohol, also called saligenin, is a  crystalline phenolic alcohol with the chemical formula  C7H8O2, that is obtained usually by hydrolysis of salicin.</Definition>
-      <ILIDefinition>Salicylic alcohol, also called saligenin, is a  crystalline phenolic alcohol with the chemical formula  C7H8O2, that is obtained usually by hydrolysis of salicin.</ILIDefinition>
+      <Definition>Salicylic alcohol, also called saligenin, is a crystalline phenolic alcohol with the chemical formula C7H8O2, that is obtained usually by hydrolysis of salicin.</Definition>
+      <ILIDefinition>Salicylic alcohol, also called saligenin, is a crystalline phenolic alcohol with the chemical formula C7H8O2, that is obtained usually by hydrolysis of salicin.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14732881-n"/> <!-- alcohol -->
       <SynsetRelation relType="holo_substance" target="ewn-92406008-n"/>
       <Example>Salicylic alcohol acts as a local anesthetic and relieves pain and fever.</Example>
@@ -40829,8 +40872,8 @@
       <Example dc:source="https://en.wikipedia.org">The most powerful flavor component of the essential oil of anise, anethole, is found in both anise and an unrelated spice called star anise (Illicium verum) widely used in South Asian, Southeast Asian, and East Asian dishes.</Example>
     </Synset>
     <Synset id="ewn-92463426-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>any salt containing the NH 4 + ion, formed by the neutralization of ammonium hydroxide by an acid. </Definition>
-      <ILIDefinition>any salt containing the NH 4 + ion, formed by the neutralization of ammonium hydroxide by an acid. </ILIDefinition>
+      <Definition>any salt containing the NH 4 + ion, formed by the neutralization of ammonium hydroxide by an acid.</Definition>
+      <ILIDefinition>any salt containing the NH 4 + ion, formed by the neutralization of ammonium hydroxide by an acid.</ILIDefinition>
       <SynsetRelation relType="hyponym" target="ewn-14768596-n"/> <!-- ammonium carbonate -->
       <SynsetRelation relType="hypernym" target="ewn-15035270-n"/> <!-- salt -->
       <SynsetRelation relType="hyponym" target="ewn-15038579-n"/> <!-- ammonium nitrate -->
@@ -40853,7 +40896,7 @@
       <Definition>an isometric hydocarbon isolated from cardamon and marjoram oils, as well as other natural sources.</Definition>
       <ILIDefinition>an isometric hydocarbon isolated from cardamon and marjoram oils, as well as other natural sources.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-92423653-n"/>
-      <Example dc:source="https://en.wikipedia.org">α-Terpinene is a perfume and flavoring chemical used in the cosmetics and food industries. </Example>
+      <Example dc:source="https://en.wikipedia.org">α-Terpinene is a perfume and flavoring chemical used in the cosmetics and food industries.</Example>
     </Synset>
     <Synset id="ewn-92434887-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>a natural fuel that is uncontaminated with harmful substances, used in bee smokers.</Definition>
@@ -40894,8 +40937,8 @@
       <Example dc:source="https://en.wikipedia.org">When excess calcium hydroxide is added to limewater, a suspension of calcium hydroxide particles results, giving it a milky aspect, in which case it has the common name of milk of lime.</Example>
     </Synset>
     <Synset id="ewn-92466616-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> A substance that tends to produce acne, such as by clogging pores on the skin.</Definition>
-      <ILIDefinition> A substance that tends to produce acne, such as by clogging pores on the skin.</ILIDefinition>
+      <Definition>A substance that tends to produce acne, such as by clogging pores on the skin.</Definition>
+      <ILIDefinition>A substance that tends to produce acne, such as by clogging pores on the skin.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-00019793-n"/> <!-- substance -->
       <Example>Regardless of its benefits, coconut oil is a fairly strong comedogenic substance, so be careful when incorporating it into your acne treatment.</Example>
     </Synset>
@@ -40940,8 +40983,8 @@
       <Example>Overburned lime will not hold up to to freeze-thaw weather cycles.</Example>
     </Synset>
     <Synset id="ewn-92464232-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>a chemical element required in relatively large quantities for the normal physiologic processes of the body. </Definition>
-      <ILIDefinition>a chemical element required in relatively large quantities for the normal physiologic processes of the body. </ILIDefinition>
+      <Definition>a chemical element required in relatively large quantities for the normal physiologic processes of the body.</Definition>
+      <ILIDefinition>a chemical element required in relatively large quantities for the normal physiologic processes of the body.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
       <Example dc:source="https://en.wikipedia.org">Minerals in order of abundance in the human body include the seven major minerals calcium, phosphorus, potassium, sulfur, sodium, chlorine, and magnesium.</Example>
     </Synset>
@@ -41015,8 +41058,8 @@
       <SynsetRelation relType="hypernym" target="ewn-14736853-n"/> <!-- alkaloid -->
     </Synset>
     <Synset id="ewn-92428867-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>Cellular glass, also called foam glass or expanded glass is a light,  opaque, cellular glass made by adding powdered carbon to crushed glass and firing the mixture.</Definition>
-      <ILIDefinition>Cellular glass, also called foam glass or expanded glass is a light,  opaque, cellular glass made by adding powdered carbon to crushed glass and firing the mixture.</ILIDefinition>
+      <Definition>Cellular glass, also called foam glass or expanded glass is a light, opaque, cellular glass made by adding powdered carbon to crushed glass and firing the mixture.</Definition>
+      <ILIDefinition>Cellular glass, also called foam glass or expanded glass is a light, opaque, cellular glass made by adding powdered carbon to crushed glass and firing the mixture.</ILIDefinition>
       <SynsetRelation relType="holo_substance" target="ewn-14944995-n"/> <!-- insulation, insulant -->
       <SynsetRelation relType="hypernym" target="ewn-14905454-n"/> <!-- glass -->
       <Example>Cellular glass is used for insulation.</Example>
@@ -41050,8 +41093,8 @@
       <SynsetRelation relType="hypernym" target="ewn-03044572-n"/> <!-- cleanser, cleaner, cleansing agent -->
     </Synset>
     <Synset id="ewn-92423647-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> an ester of stearic acid.</Definition>
-      <ILIDefinition> an ester of stearic acid.</ILIDefinition>
+      <Definition>an ester of stearic acid.</Definition>
+      <ILIDefinition>an ester of stearic acid.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14874653-n"/> <!-- ester -->
       <SynsetRelation relType="hyponym" target="ewn-15081670-n"/> <!-- stearin -->
     </Synset>
@@ -41059,7 +41102,7 @@
       <Definition>an isometric hydrocarbon classified as a terpene.</Definition>
       <ILIDefinition>an isometric hydrocarbon classified as a terpene.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-92423653-n"/>
-      <Example dc:source="https://en.wikipedia.org"> β-Terpinene has no known natural source, but has been prepared synthetically from sabinene.</Example>
+      <Example dc:source="https://en.wikipedia.org">β-Terpinene has no known natural source, but has been prepared synthetically from sabinene.</Example>
     </Synset>
     <Synset id="ewn-92424812-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>The term &apos;zooecdysone&apos; refers to the molting hormones of insects.</Definition>
@@ -41078,8 +41121,8 @@
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
     </Synset>
     <Synset id="ewn-92405981-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> a salt of aluminium and nitric acid, existing normally as a crystalline hydrate, most commonly as aluminium nitrate nonahydrate, Al(NO3)3·9H2O.</Definition>
-      <ILIDefinition> a salt of aluminium and nitric acid, existing normally as a crystalline hydrate, most commonly as aluminium nitrate nonahydrate, Al(NO3)3·9H2O.</ILIDefinition>
+      <Definition>a salt of aluminium and nitric acid, existing normally as a crystalline hydrate, most commonly as aluminium nitrate nonahydrate, Al(NO3)3·9H2O.</Definition>
+      <ILIDefinition>a salt of aluminium and nitric acid, existing normally as a crystalline hydrate, most commonly as aluminium nitrate nonahydrate, Al(NO3)3·9H2O.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-15040068-n"/> <!-- nitrate -->
     </Synset>
     <Synset id="ewn-92433503-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
@@ -41116,11 +41159,11 @@
       <Example>Don&apos;t swallow camphorated phenol - ingestion of two teaspoonfuls can result in adverse neurological effects.</Example>
     </Synset>
     <Synset id="ewn-92427456-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>A denture adhesive is a product used to secure  dentures in the oral cavity.</Definition>
-      <ILIDefinition>A denture adhesive is a product used to secure  dentures in the oral cavity.</ILIDefinition>
+      <Definition>A denture adhesive is a product used to secure dentures in the oral cavity.</Definition>
+      <ILIDefinition>A denture adhesive is a product used to secure dentures in the oral cavity.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14726577-n"/> <!-- adhesive, adhesive agent, adhesive material -->
       <SynsetRelation relType="hypernym" target="ewn-03180270-n"/>
-      <Example>Denture adhesive comes in form of  paste, powder or adhesive pads.</Example>
+      <Example>Denture adhesive comes in form of paste, powder or adhesive pads.</Example>
     </Synset>
     <Synset id="ewn-92433078-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>any salt of chloroplatinic acid.</Definition>
@@ -41129,14 +41172,14 @@
       <SynsetRelation relType="hypernym" target="ewn-15035270-n"/> <!-- salt -->
     </Synset>
     <Synset id="ewn-92428665-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> any of the group of common autoantibodies present in blood.</Definition>
-      <ILIDefinition> any of the group of common autoantibodies present in blood.</ILIDefinition>
+      <Definition>any of the group of common autoantibodies present in blood.</Definition>
+      <ILIDefinition>any of the group of common autoantibodies present in blood.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-15051756-n"/> <!-- antibody -->
       <Example>The presence an antiphospholipid antibody in blood, such as the lupus anticoagulant, may lead to blood clotting.</Example>
     </Synset>
     <Synset id="ewn-92426965-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> a crystalline steroidal glycoside present in squill (Drimia maritima).</Definition>
-      <ILIDefinition> a crystalline steroidal glycoside present in squill (Drimia maritima).</ILIDefinition>
+      <Definition>a crystalline steroidal glycoside present in squill (Drimia maritima).</Definition>
+      <ILIDefinition>a crystalline steroidal glycoside present in squill (Drimia maritima).</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14911456-n"/> <!-- glycoside -->
       <SynsetRelation relType="hypernym" target="ewn-03745652-n"/>
       <SynsetRelation relType="holo_substance" target="ewn-12483087-n"/>
@@ -41152,8 +41195,8 @@
       <Example dc:source="https://en.wikipedia.org">GB was the only G agent that was fielded by the US as a munition, specifically in rockets, aerial bombs, and artillery shells.</Example>
     </Synset>
     <Synset id="ewn-92466539-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>any type of lightening agent that can be used to brighten the appearance of hair, skin, wood and other surfaces. </Definition>
-      <ILIDefinition>any type of lightening agent that can be used to brighten the appearance of hair, skin, wood and other surfaces. </ILIDefinition>
+      <Definition>any type of lightening agent that can be used to brighten the appearance of hair, skin, wood and other surfaces.</Definition>
+      <ILIDefinition>any type of lightening agent that can be used to brighten the appearance of hair, skin, wood and other surfaces.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-00019793-n"/> <!-- substance -->
       <Example>Baking soda mixed with lemon juice makes a cheap and natural skin lightener.</Example>
     </Synset>
@@ -41257,14 +41300,14 @@
       <SynsetRelation relType="hypernym" target="ewn-14988729-n"/> <!-- nucleotide, base -->
     </Synset>
     <Synset id="ewn-92406801-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> a globular protein found in milk.</Definition>
-      <ILIDefinition> a globular protein found in milk.</ILIDefinition>
+      <Definition>a globular protein found in milk.</Definition>
+      <ILIDefinition>a globular protein found in milk.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14752903-n"/> <!-- protein -->
       <Example>Bovine lactoglobulin consists of a chain of 162 amino acids.</Example>
     </Synset>
     <Synset id="ewn-92464616-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>A substance that acts as a base or an acid, depending on the pH of the solution into which it is introduced. </Definition>
-      <ILIDefinition>A substance that acts as a base or an acid, depending on the pH of the solution into which it is introduced. </ILIDefinition>
+      <Definition>A substance that acts as a base or an acid, depending on the pH of the solution into which it is introduced.</Definition>
+      <ILIDefinition>A substance that acts as a base or an acid, depending on the pH of the solution into which it is introduced.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14842408-n"/> <!-- chemical compound, compound -->
       <SynsetRelation relType="hypernym" target="ewn-14872099-n"/> <!-- electrolyte -->
     </Synset>
@@ -41322,7 +41365,7 @@
       <Definition>a compound containing an alkyl or aryl radical bonded to a metal.</Definition>
       <ILIDefinition>a compound containing an alkyl or aryl radical bonded to a metal.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14751849-n"/> <!-- organic compound -->
-      <Example dc:source="https://en.wikipedia.org"> Tetracarbonyl nickel, and ferrocene are examples of organometallic compounds containing transition metals.</Example>
+      <Example dc:source="https://en.wikipedia.org">Tetracarbonyl nickel, and ferrocene are examples of organometallic compounds containing transition metals.</Example>
     </Synset>
     <Synset id="ewn-92429110-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>Guaranine is the name used to describe caffeine derived from the guarana plant.</Definition>
@@ -41336,8 +41379,8 @@
       <SynsetRelation relType="hypernym" target="ewn-14723913-n"/> <!-- gem, gemstone, stone -->
     </Synset>
     <Synset id="ewn-92422163-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> an inorganic compound with the chemical formula BaSeO3; it is a salt of barium and selenous acid.</Definition>
-      <ILIDefinition> an inorganic compound with the chemical formula BaSeO3; it is a salt of barium and selenous acid.</ILIDefinition>
+      <Definition>an inorganic compound with the chemical formula BaSeO3; it is a salt of barium and selenous acid.</Definition>
+      <ILIDefinition>an inorganic compound with the chemical formula BaSeO3; it is a salt of barium and selenous acid.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14943662-n"/> <!-- inorganic compound -->
       <SynsetRelation relType="hypernym" target="ewn-92463440-n"/>
       <SynsetRelation relType="mero_substance" target="ewn-92407420-n"/>
@@ -41363,7 +41406,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14683034-n"/> <!-- atomic number 50, Sn, tin -->
       <SynsetRelation relType="hyponym" target="ewn-92363352-n"/>
       <SynsetRelation relType="hyponym" target="ewn-14667645-n"/> <!-- lead, Pb, atomic number 82 -->
-      <Example dc:source="https://en.wikipedia.org">Carbon, the lightest carbon group element, sublimates at 3825 °C. </Example>
+      <Example dc:source="https://en.wikipedia.org">Carbon, the lightest carbon group element, sublimates at 3825 °C.</Example>
     </Synset>
     <Synset id="ewn-92462507-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>the concept of either matter that is infinitely small, or an object which can be thought of as infinitely small.</Definition>
@@ -41383,8 +41426,8 @@
       <Example dc:source="https://en.wikipedia.org">Copper can be extracted using hydroxyoximes as extractants.</Example>
     </Synset>
     <Synset id="ewn-92463047-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>Any aldose having three carbon atoms; in reality, just glyceraldehyde. </Definition>
-      <ILIDefinition>Any aldose having three carbon atoms; in reality, just glyceraldehyde. </ILIDefinition>
+      <Definition>Any aldose having three carbon atoms; in reality, just glyceraldehyde.</Definition>
+      <ILIDefinition>Any aldose having three carbon atoms; in reality, just glyceraldehyde.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14713978-n"/> <!-- triose -->
       <SynsetRelation relType="hypernym" target="ewn-14734823-n"/> <!-- aldose -->
       <SynsetRelation relType="hyponym" target="ewn-14908971-n"/> <!-- glyceraldehyde, glyceric aldehyde -->
@@ -41438,8 +41481,8 @@
       <SynsetRelation relType="hypernym" target="ewn-14939335-n"/> <!-- water ice, ice -->
     </Synset>
     <Synset id="ewn-92466334-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>any of a group of neurologically active compounds, such as glutamate and aspartame, that have detrimental excitatory effects on the central nervous system when taken in high concentrations.  </Definition>
-      <ILIDefinition>any of a group of neurologically active compounds, such as glutamate and aspartame, that have detrimental excitatory effects on the central nervous system when taken in high concentrations.  </ILIDefinition>
+      <Definition>any of a group of neurologically active compounds, such as glutamate and aspartame, that have detrimental excitatory effects on the central nervous system when taken in high concentrations.</Definition>
+      <ILIDefinition>any of a group of neurologically active compounds, such as glutamate and aspartame, that have detrimental excitatory effects on the central nervous system when taken in high concentrations.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-15058641-n"/> <!-- toxin -->
     </Synset>
     <Synset id="ewn-92433901-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
@@ -41460,8 +41503,8 @@
       <Example dc:source="https://en.wikipedia.org">Lactides may be prepared by heating lactic acid in the presence of an acid catalyst.</Example>
     </Synset>
     <Synset id="ewn-92466276-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>a formulation added to  laundry in order to stiffen the fabric.</Definition>
-      <ILIDefinition>a formulation added to  laundry in order to stiffen the fabric.</ILIDefinition>
+      <Definition>a formulation added to laundry in order to stiffen the fabric.</Definition>
+      <ILIDefinition>a formulation added to laundry in order to stiffen the fabric.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14897792-n"/> <!-- preparation, formulation -->
     </Synset>
     <Synset id="ewn-92461646-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
@@ -41546,8 +41589,8 @@
       <Example dc:source="https://en.wikipedia.org">Anethole is an aromatic, unsaturated ether related to lignols.</Example>
     </Synset>
     <Synset id="ewn-92463055-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>a monosaccharide with seven carbon atoms. </Definition>
-      <ILIDefinition>a monosaccharide with seven carbon atoms. </ILIDefinition>
+      <Definition>a monosaccharide with seven carbon atoms.</Definition>
+      <ILIDefinition>a monosaccharide with seven carbon atoms.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14978423-n"/> <!-- monosaccharide, monosaccharose, simple sugar -->
       <SynsetRelation relType="hyponym" target="ewn-92463056-n"/>
     </Synset>
@@ -41560,8 +41603,8 @@
       <Example dc:source="https://en.wikipedia.org">A configurational stereoisomer is a stereoisomer of a reference molecule that has the opposite configuration at a stereocenter (e.g., R- vs S- or E- vs Z-).</Example>
     </Synset>
     <Synset id="ewn-92463440-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> a compound that contains a SeO32− anion.</Definition>
-      <ILIDefinition> a compound that contains a SeO32− anion.</ILIDefinition>
+      <Definition>a compound that contains a SeO32− anion.</Definition>
+      <ILIDefinition>a compound that contains a SeO32− anion.</ILIDefinition>
       <SynsetRelation relType="hyponym" target="ewn-92420837-n"/>
       <SynsetRelation relType="mero_substance" target="ewn-14678354-n"/> <!-- selenium, Se, atomic number 34 -->
       <SynsetRelation relType="hyponym" target="ewn-92422163-n"/>
@@ -41591,22 +41634,22 @@
       <SynsetRelation relType="holo_part" target="ewn-05418681-n"/>
       <SynsetRelation relType="holo_part" target="ewn-92421062-n"/>
       <SynsetRelation relType="holo_part" target="ewn-92406062-n"/>
-      <Example dc:source="https://en.wikipedia.org"> Indole is widely distributed in the natural environment and can be produced by a variety of bacteria. </Example>
+      <Example dc:source="https://en.wikipedia.org">Indole is widely distributed in the natural environment and can be produced by a variety of bacteria.</Example>
     </Synset>
     <Synset id="ewn-92426111-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>An ion-exchange resin or ion-exchange polymer is an insoluble matrix (or support structure) normally in the form of small (0.5-1 mm diameter) beads, usually white or yellowish, fabricated from an organic polymer substrate. </Definition>
-      <ILIDefinition>An ion-exchange resin or ion-exchange polymer is an insoluble matrix (or support structure) normally in the form of small (0.5-1 mm diameter) beads, usually white or yellowish, fabricated from an organic polymer substrate. </ILIDefinition>
+      <Definition>An ion-exchange resin or ion-exchange polymer is an insoluble matrix (or support structure) normally in the form of small (0.5-1 mm diameter) beads, usually white or yellowish, fabricated from an organic polymer substrate.</Definition>
+      <ILIDefinition>An ion-exchange resin or ion-exchange polymer is an insoluble matrix (or support structure) normally in the form of small (0.5-1 mm diameter) beads, usually white or yellowish, fabricated from an organic polymer substrate.</ILIDefinition>
       <SynsetRelation relType="hyponym" target="ewn-92426113-n"/>
       <SynsetRelation relType="hypernym" target="ewn-15071467-n"/> <!-- solid -->
       <SynsetRelation relType="hyponym" target="ewn-92426114-n"/>
       <Example dc:source="https://en.wikipedia.org">Sodium polystyrene sulfonate is a strongly acidic ion-exchange resin and is used to treat hyperkalemia.</Example>
     </Synset>
     <Synset id="ewn-92463249-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> a mineral ore of zinc.</Definition>
-      <ILIDefinition> a mineral ore of zinc.</ILIDefinition>
+      <Definition>a mineral ore of zinc.</Definition>
+      <ILIDefinition>a mineral ore of zinc.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14686753-n"/> <!-- mineral -->
       <SynsetRelation relType="mero_substance" target="ewn-92463247-n"/>
-      <Example dc:source="https://en.wikipedia.org">Smithsonite is a variably colored trigonal mineral which only rarely is found in well formed crystals. </Example>
+      <Example dc:source="https://en.wikipedia.org">Smithsonite is a variably colored trigonal mineral which only rarely is found in well formed crystals.</Example>
     </Synset>
     <Synset id="ewn-92406518-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
       <Definition>a chemical compound with chemical formula BN, consisting of equal numbers of boron and nitrogen atoms.</Definition>
@@ -41630,8 +41673,8 @@
       <Example dc:source="https://en.wikipedia.org">Bio-fertilizers add nutrients through the natural processes of nitrogen fixation, solubilizing phosphorus, and stimulating plant growth through the synthesis of growth-promoting substances.</Example>
     </Synset>
     <Synset id="ewn-92424810-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition>#DD: The name &apos;ecdysteroid&apos; refers to the  insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.</Definition>
-      <ILIDefinition>#DD: The name &apos;ecdysteroid&apos; refers to the  insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.</ILIDefinition>
+      <Definition>#DD: The name &apos;ecdysteroid&apos; refers to the insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.</Definition>
+      <ILIDefinition>#DD: The name &apos;ecdysteroid&apos; refers to the insect moulting and sex hormones which include ecdysone and its homologues such as 20-hydroxyecdysone.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14769814-n"/> <!-- steroid hormone, steroid, sex hormone -->
       <SynsetRelation relType="hyponym" target="ewn-92424812-n"/>
       <Example dc:source="https://en.wikipedia.org">Ecdysteroids also occur in other invertebrates where they can play a different role.</Example>
@@ -41647,8 +41690,8 @@
       <Example>α-Terpinene is an example of a terpinene.</Example>
     </Synset>
     <Synset id="ewn-92463420-n" ili="in" partOfSpeech="n" dc:subject="noun.substance" dc:source="plWordNet 4.0">
-      <Definition> an orthorhombic gold telluride mineral which can contain a relatively small amount of silver in the structure.</Definition>
-      <ILIDefinition> an orthorhombic gold telluride mineral which can contain a relatively small amount of silver in the structure.</ILIDefinition>
+      <Definition>an orthorhombic gold telluride mineral which can contain a relatively small amount of silver in the structure.</Definition>
+      <ILIDefinition>an orthorhombic gold telluride mineral which can contain a relatively small amount of silver in the structure.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14686753-n"/> <!-- mineral -->
       <SynsetRelation relType="mero_substance" target="ewn-92463417-n"/>
       <Example dc:source="https://en.wikipedia.org">Both of the chemically similar gold-silver tellurides, calaverite and sylvanite, are in the monoclinic crystal system, whereas krennerite is orthorhombic.</Example>

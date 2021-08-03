@@ -13439,6 +13439,8 @@ welkin:
       synset: 08538450-n
 well:
   a:
+    form:
+    - better
     sense:
     - antonym:
       - 'ill%3:00:01::'
@@ -13500,6 +13502,8 @@ well:
       id: 'well%4:02:01::'
       synset: 00012591-r
   s:
+    form:
+    - better
     sense:
     - adjposition: p
       id: well%5:00:00:fortunate:00
@@ -22972,13 +22976,11 @@ wish:
     - derivation:
       - 'wish%2:37:02::'
       - 'wish%2:37:01::'
-      - 'wish%2:37:00::'
       - 'wish%2:32:02::'
       id: 'wish%1:12:00::'
       synset: 07501369-n
     - derivation:
       - 'wish%2:37:01::'
-      - 'wish%2:37:00::'
       - 'wish%2:32:02::'
       id: 'wish%1:10:00::'
       synset: 07200530-n
@@ -22990,15 +22992,6 @@ wish:
       synset: 05799610-n
   v:
     sense:
-    - derivation:
-      - 'wish%1:12:00::'
-      - 'wish%1:10:00::'
-      - 'wishing%1:12:00::'
-      id: 'wish%2:37:00::'
-      subcat:
-      - via-to-inf
-      - vtai
-      synset: 01828281-v
     - derivation:
       - 'wish%1:12:00::'
       id: 'wish%2:37:02::'
@@ -23100,9 +23093,7 @@ wishfulness:
 wishing:
   n:
     sense:
-    - derivation:
-      - 'wish%2:37:00::'
-      id: 'wishing%1:12:00::'
+    - id: 'wishing%1:12:00::'
       synset: 07501369-n
 wishing bone:
   n:
@@ -27235,7 +27226,7 @@ worry:
       - via-pp
       synset: 01770600-v
     - antonym:
-      - 'reassure%2:37:00::'
+      - 'reassure%2:32:00::'
       derivation:
       - 'worry%1:09:00::'
       - 'worrying%1:04:00::'

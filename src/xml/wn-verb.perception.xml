@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -647,9 +647,8 @@
       <Lemma writtenForm="seem" partOfSpeech="v"/>
       <Sense id="ewn-seem-v-02137900-03" n="0" synset="ewn-02137900-v" dc:identifier="seem%2:39:00::"/>
       <Sense id="ewn-seem-v-02139137-02" n="1" synset="ewn-02139137-v" dc:identifier="seem%2:39:01::"/>
-      <Sense id="ewn-seem-v-02202748-01" n="3" synset="ewn-02202748-v" dc:identifier="seem%2:39:02::"/>
       <SyntacticBehaviour subcategorizationFrame="It ----s that CLAUSE" senses="ewn-seem-v-02139137-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s to INFINITIVE" senses="ewn-seem-v-02137900-03 ewn-seem-v-02202748-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s to INFINITIVE" senses="ewn-seem-v-02137900-03"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s Adjective/Noun" senses="ewn-seem-v-02137900-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s Adjective" senses="ewn-seem-v-02137900-03"/>
     </LexicalEntry>
@@ -2013,7 +2012,6 @@
       <Sense id="ewn-show-v-02144017-01" n="7" synset="ewn-02144017-v" dc:identifier="show%2:39:01::"/>
       <Sense id="ewn-show-v-02153218-01" n="0" synset="ewn-02153218-v" dc:identifier="show%2:39:02::">
         <SenseRelation relType="derivation" target="ewn-show-n-00521313-01"/> <!-- show -->
-        <SenseRelation relType="derivation" target="ewn-show-n-06631572-01"/> <!-- show -->
         <SenseRelation relType="derivation" target="ewn-showing-n-06901395-02"/> <!-- screening, showing, viewing -->
         <SenseRelation relType="derivation" target="ewn-showing-n-00522265-03"/> <!-- showing, display, exhibit -->
         </Sense>
@@ -5624,6 +5622,14 @@
       <Sense id="ewn-stunt-v-90006181-01" n="2" synset="ewn-90006181-v" dc:identifier="stunt%2:39:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-stunt-v-90006181-01"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-burst_out-v">
+      <Lemma writtenForm="burst out" partOfSpeech="v"/>
+      <Sense id="ewn-burst_out-v-02161949-05" n="3" synset="ewn-02161949-v" dc:identifier="burst_out%2:39:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-pop_out-v">
+      <Lemma writtenForm="pop out" partOfSpeech="v"/>
+      <Sense id="ewn-pop_out-v-02161949-04" n="4" synset="ewn-02161949-v" dc:identifier="pop_out%2:39:02::"/>
+    </LexicalEntry>
     <!-- register, record -->
     <Synset id="ewn-02110264-v" ili="i32294" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>be aware of</Definition>
@@ -6516,6 +6522,7 @@
       <SynsetRelation relType="is_entailed_by" target="ewn-02135744-v"/> <!-- see, examine -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02154758-v"/> <!-- survey -->
       <SynsetRelation relType="is_entailed_by" target="ewn-02154940-v"/> <!-- watch -->
+      <SynsetRelation relType="hypernym" target="ewn-00033592-v"/>
       <Example>&quot;She looked over the expanse of land&quot;</Example>
       <Example>&quot;Look at your child!&quot;</Example>
       <Example>&quot;Look--a deer in the backyard!&quot;</Example>
@@ -6605,7 +6612,7 @@
     </Synset>
     <!-- look, seem, appear -->
     <Synset id="ewn-02137900-v" ili="i32420" partOfSpeech="v" dc:subject="verb.perception">
-      <Definition>give a certain impression or have a certain outward aspect</Definition>
+      <Definition>give a certain impression of being something or having a certain aspect</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
       <SynsetRelation relType="hyponym" target="ewn-02138515-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="ewn-02138697-v"/> <!-- cut -->
@@ -6652,9 +6659,8 @@
     </Synset>
     <!-- seem, appear -->
     <Synset id="ewn-02139137-v" ili="i32425" partOfSpeech="v" dc:subject="verb.perception">
-      <Definition>seem to be true, probable, or apparent</Definition>
+      <Definition>(of a proposition) seem to be true, probable, or apparent</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
-      <SynsetRelation relType="hyponym" target="ewn-02202748-v"/> <!-- seem -->
       <Example>&quot;It seems that he is very gifted&quot;</Example>
       <Example>&quot;It appears that the weather in California is very bad&quot;</Example>
     </Synset>
@@ -7367,7 +7373,7 @@
     </Synset>
     <!-- observe, notice, discover, detect, find -->
     <Synset id="ewn-02158938-v" ili="i32526" partOfSpeech="v" dc:subject="verb.perception">
-      <Definition>discover or determine the existence, presence, or fact of</Definition>
+      <Definition>discover or determine the existence, presence, or fact of by perception with the eyes</Definition>
       <SynsetRelation relType="similar" target="ewn-01641524-v"/> <!-- discover, find -->
       <SynsetRelation relType="hypernym" target="ewn-02168177-v"/> <!-- sight, spy -->
       <SynsetRelation relType="hyponym" target="ewn-00733559-v"/> <!-- catch out, find out -->
@@ -7718,6 +7724,7 @@
     <Synset id="ewn-02169748-v" ili="i32579" partOfSpeech="v" dc:subject="verb.perception">
       <Definition>throw a glance at; take a brief look at</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02134989-v"/> <!-- look -->
+      <SynsetRelation relType="hyponym" target="ewn-00008792-v"/>
       <Example>&quot;She only glanced at the paper&quot;</Example>
       <Example>&quot;I only peeked--I didn&apos;t see anything interesting&quot;</Example>
     </Synset>
@@ -8878,13 +8885,6 @@
       <SynsetRelation relType="hypernym" target="ewn-02180712-v"/> <!-- sound, go -->
       <Example>&quot;The thunder rolled&quot;</Example>
       <Example>&quot;rolling drums&quot;</Example>
-    </Synset>
-    <!-- seem -->
-    <Synset id="ewn-02202748-v" ili="i32747" partOfSpeech="v" dc:subject="verb.perception">
-      <Definition>appear to one&apos;s own mind or opinion</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-02139137-v"/> <!-- seem, appear -->
-      <Example>&quot;I seem to be misunderstood by everyone&quot;</Example>
-      <Example>&quot;I can&apos;t seem to learn these Chinese characters&quot;</Example>
     </Synset>
     <!-- block -->
     <Synset id="ewn-02202937-v" ili="i32748" partOfSpeech="v" dc:subject="verb.perception">

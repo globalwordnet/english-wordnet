@@ -22602,12 +22602,6 @@ deploy:
     sense:
     - derivation:
       - 'deployment%1:04:00::'
-      id: 'deploy%2:33:00::'
-      subcat:
-      - vtai
-      synset: 01151793-v
-    - derivation:
-      - 'deployment%1:04:00::'
       id: 'deploy%2:35:00::'
       subcat:
       - vtaa
@@ -22618,7 +22612,6 @@ deployment:
     sense:
     - derivation:
       - 'deploy%2:35:00::'
-      - 'deploy%2:33:00::'
       id: 'deployment%1:04:00::'
       synset: 01145922-n
 deplumate:
@@ -37153,14 +37146,6 @@ discover:
       synset: 01641524-v
     - derivation:
       - 'discovery%1:10:00::'
-      - 'discovery%1:09:00::'
-      - 'discovery%1:04:00::'
-      id: 'discover%2:31:00::'
-      subcat:
-      - via-that
-      synset: 00723361-v
-    - derivation:
-      - 'discovery%1:10:00::'
       - 'discovery%1:04:00::'
       id: 'discover%2:40:00::'
       subcat:
@@ -37225,7 +37210,6 @@ discovery:
       - 'discover%2:39:00::'
       - 'discover%2:36:00::'
       - 'discover%2:31:01::'
-      - 'discover%2:31:00::'
       id: 'discovery%1:04:00::'
       synset: 00043933-n
     - derivation:
@@ -37235,7 +37219,6 @@ discovery:
       - 'discover%2:36:00::'
       - 'discover%2:32:04::'
       - 'discover%2:31:01::'
-      - 'discover%2:31:00::'
       id: 'discovery%1:10:00::'
       synset: 07229092-n
     - derivation:
@@ -37243,7 +37226,6 @@ discovery:
       - 'discover%2:39:00::'
       - 'discover%2:36:00::'
       - 'discover%2:31:01::'
-      - 'discover%2:31:00::'
       id: 'discovery%1:09:00::'
       synset: 05816226-n
     - id: 'discovery%1:10:01::'
@@ -42370,6 +42352,9 @@ distich:
       synset: 13765745-n
 distil:
   v:
+    form:
+    - distilled
+    - distilling
     sense:
     - id: 'distil%2:30:04::'
       subcat:
@@ -42389,6 +42374,9 @@ distil:
       synset: 00068238-v
 distill:
   v:
+    form:
+    - distilled
+    - distilling
     sense:
     - derivation:
       - 'distillate%1:27:00::'
@@ -44819,11 +44807,15 @@ djinn:
       synset: 09567562-n
 djinni:
   n:
+    form:
+    - djinn
     sense:
     - id: 'djinni%1:18:00::'
       synset: 09567562-n
 djinny:
   n:
+    form:
+    - djinn
     sense:
     - id: 'djinny%1:18:00::'
       synset: 09567562-n

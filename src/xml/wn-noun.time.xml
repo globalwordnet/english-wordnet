@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -2607,6 +2607,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-leave-n">
       <Lemma writtenForm="leave" partOfSpeech="n"/>
+      <Form writtenForm="leaves"/>
       <Sense id="ewn-leave-n-15164090-01" n="0" synset="ewn-15164090-n" dc:identifier="leave%1:28:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-14_July-n">
@@ -6181,6 +6182,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bicentennial-n">
       <Lemma writtenForm="bicentennial" partOfSpeech="n"/>
+      <Form writtenForm="bicennaries"/>
       <Sense id="ewn-bicentennial-n-15276411-01" n="0" synset="ewn-15276411-n" dc:identifier="bicentennial%1:28:00::">
         <SenseRelation relType="derivation" target="ewn-bicentennial-a-03010698-01"/> <!-- bicentenary, bicentennial -->
         </Sense>
@@ -7140,6 +7142,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-bicentenary-n">
       <Lemma writtenForm="bicentenary" partOfSpeech="n"/>
+      <Form writtenForm="bicennaries"/>
       <Sense id="ewn-bicentenary-n-15276411-02" n="0" synset="ewn-15276411-n" dc:identifier="bicentenary%1:28:00::">
         <SenseRelation relType="derivation" target="ewn-bicentenary-a-03010698-02"/> <!-- bicentenary, bicentennial -->
         </Sense>
@@ -7625,6 +7628,10 @@
     <LexicalEntry id="ewn-yuga-n">
       <Lemma writtenForm="yuga" partOfSpeech="n"/>
       <Sense id="ewn-yuga-n-92440469-00" n="2" synset="ewn-92440469-n" dc:identifier="yuga%1:28:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lang_syne-n">
+      <Lemma writtenForm="lang syne" partOfSpeech="n"/>
+      <Sense id="ewn-lang_syne-n-15277446-05" n="0" synset="ewn-15277446-n" dc:identifier="lang_syne%1:28:01::"/>
     </LexicalEntry>
     <!-- time period, period, period of time -->
     <Synset id="ewn-15137796-n" ili="i116632" partOfSpeech="n" dc:subject="noun.time">
@@ -15020,7 +15027,7 @@
       <Definition>the vector difference between the velocities of two bodies : the velocity of a body with respect to another regarded as being at rest.</Definition>
       <ILIDefinition>the vector difference between the velocities of two bodies : the velocity of a body with respect to another regarded as being at rest.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-15307914-n"/> <!-- velocity, speed -->
-      <Example> The motion may have a different appearance as viewed from a different reference frame, but this can be explained by including the relative velocity of the reference frame in the description of the motion. </Example>
+      <Example>The motion may have a different appearance as viewed from a different reference frame, but this can be explained by including the relative velocity of the reference frame in the description of the motion.</Example>
     </Synset>
     <Synset id="ewn-92440807-n" ili="in" partOfSpeech="n" dc:subject="noun.time" dc:source="plWordNet 4.0">
       <Definition>A paternity leave is a parental leave that a father can take after the birth of his child.</Definition>
@@ -15097,7 +15104,7 @@
       <ILIDefinition>the name of an epoch or era within a four age cycle in Hindu philosophy.</ILIDefinition>
       <SynsetRelation relType="holo_part" target="ewn-92440709-n"/>
       <SynsetRelation relType="hypernym" target="ewn-15179734-n"/> <!-- time unit, unit of time -->
-      <Example dc:source="https://en.wikipedia.org"> Like Summer, Spring, Winter and Autumn, each yuga involves stages or gradual changes which the earth and the consciousness of mankind goes through as a whole.</Example>
+      <Example dc:source="https://en.wikipedia.org">Like Summer, Spring, Winter and Autumn, each yuga involves stages or gradual changes which the earth and the consciousness of mankind goes through as a whole.</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>

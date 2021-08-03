@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -8886,7 +8886,7 @@
     <LexicalEntry id="ewn-rurally-r">
       <Lemma writtenForm="rurally" partOfSpeech="r"/>
       <Sense id="ewn-rurally-r-00144584-01" n="0" synset="ewn-00144584-r" dc:identifier="rurally%4:02:00::">
-        <SenseRelation relType="pertainym" target="ewn-rural-a-02801550-01"/> <!-- rural -->
+        <SenseRelation relType="pertainym" target="ewn-rural-a-02057872-01"/> <!-- rural -->
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-scholastically-r">
@@ -11964,7 +11964,6 @@
       <Sense id="ewn-never-r-00021214-01" n="0" synset="ewn-00021214-r" dc:identifier="never%4:02:00::">
         <SenseRelation relType="antonym" target="ewn-ever-r-00019801-02"/> <!-- ever, e'er, always -->
         </Sense>
-      <Sense id="ewn-never-r-00021452-01" n="1" synset="ewn-00021452-r" dc:identifier="never%4:02:01::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-underground-r">
       <Lemma writtenForm="underground" partOfSpeech="r"/>
@@ -15796,10 +15795,6 @@
         <SenseRelation relType="pertainym" target="ewn-venal-s-00623826-05"/> <!-- purchasable, bribable, venal, dishonest, corruptible -->
         </Sense>
     </LexicalEntry>
-    <LexicalEntry id="ewn-langsyne-r">
-      <Lemma writtenForm="langsyne" partOfSpeech="r"/>
-      <Sense id="ewn-langsyne-r-00387850-01" n="0" synset="ewn-00387850-r" dc:identifier="langsyne%4:02:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-reputedly-r">
       <Lemma writtenForm="reputedly" partOfSpeech="r"/>
       <Sense id="ewn-reputedly-r-00443214-01" n="0" synset="ewn-00443214-r" dc:identifier="reputedly%4:02:00::"/>
@@ -17074,7 +17069,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-easily-r">
       <Lemma writtenForm="easily" partOfSpeech="r"/>
-      <Sense id="ewn-easily-r-00012993-02" n="2" synset="ewn-00012993-r" dc:identifier="easily%4:02:05::"/>
+      <Sense id="ewn-easily-r-00012993-02" n="2" synset="ewn-00012993-r" dc:identifier="easily%4:02:05::">
+        <SenseRelation relType="derivation" target="ewn-easy-a-00752852-01"/> <!-- easy -->
+        </Sense>
       <Sense id="ewn-easily-r-00054973-01" n="1" synset="ewn-00054973-r" dc:identifier="easily%4:02:06::"/>
       <Sense id="ewn-easily-r-00148912-01" n="0" synset="ewn-00148912-r" dc:identifier="easily%4:02:01::">
         <SenseRelation relType="pertainym" target="ewn-easy-a-00752852-01"/> <!-- easy -->
@@ -26408,6 +26405,10 @@
       <Lemma writtenForm="tonally" partOfSpeech="r"/>
       <Sense id="ewn-tonally-r-91001531-01" n="0" synset="ewn-91001531-r" dc:identifier="tonally%4:02:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-langsyne-r">
+      <Lemma writtenForm="langsyne" partOfSpeech="r"/>
+      <Sense id="ewn-langsyne-r-00022855-04" n="0" synset="ewn-00022855-r" dc:identifier="langsyne%4:02:01::"/>
+    </LexicalEntry>
     <!-- a capella, a cappella -->
     <Synset id="ewn-00001740-r" ili="i18157" partOfSpeech="r" dc:subject="adv.all">
       <Definition>without musical accompaniment</Definition>
@@ -27098,20 +27099,13 @@
     </Synset>
     <!-- never, ne'er -->
     <Synset id="ewn-00021214-r" ili="i18262" partOfSpeech="r" dc:subject="adv.all">
-      <Definition>not ever; at no time in the past or future</Definition>
+      <Definition>not at all; certainly not; not in any circumstances; not ever; at no time in the past or future</Definition>
       <Example>&quot;I have never been to China&quot;</Example>
       <Example>&quot;I shall never forget this day&quot;</Example>
       <Example>&quot;had never seen a circus&quot;</Example>
       <Example>&quot;never on Sunday&quot;</Example>
       <Example>&quot;I will never marry you!&quot;</Example>
-    </Synset>
-    <!-- never -->
-    <Synset id="ewn-00021452-r" ili="i18263" partOfSpeech="r" dc:subject="adv.all">
-      <Definition>not at all; certainly not; not in any circumstances</Definition>
       <Example>&quot;never fear&quot;</Example>
-      <Example>&quot;bringing up children is never easy&quot;</Example>
-      <Example>&quot;that will never do&quot;</Example>
-      <Example>&quot;what is morally wrong can never be politically right&quot;</Example>
     </Synset>
     <!-- once in a while, now and then, at times, now and again, occasionally, on occasion, from time to time -->
     <Synset id="ewn-00021667-r" ili="i18264" partOfSpeech="r" dc:subject="adv.all">
@@ -40271,11 +40265,6 @@
     <Synset id="ewn-00387726-r" ili="i20786" partOfSpeech="r" dc:subject="adv.all">
       <Definition>toward land</Definition>
       <Example>&quot;landward, miles of rough grass marshes melt into low uplands&quot;</Example>
-    </Synset>
-    <!-- langsyne -->
-    <Synset id="ewn-00387850-r" ili="i20787" partOfSpeech="r" dc:subject="adv.all">
-      <Definition>at a distant time in the past</Definition>
-      <SynsetRelation relType="domain_region" target="ewn-08910324-n"/> <!-- Scotland -->
     </Synset>
     <!-- languidly -->
     <Synset id="ewn-00387954-r" ili="i20788" partOfSpeech="r" dc:subject="adv.all">

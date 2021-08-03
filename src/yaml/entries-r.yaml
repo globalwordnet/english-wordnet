@@ -7073,6 +7073,8 @@ r:
       synset: 05109363-n
 rabato:
   n:
+    form:
+    - rabatos
     sense:
     - id: 'rabato%1:06:00::'
       synset: 04043124-n
@@ -7558,6 +7560,8 @@ rachet up:
       synset: 02076601-v
 rachis:
   n:
+    form:
+    - rhachises
     sense:
     - id: 'rachis%1:20:00::'
       synset: 13149735-n
@@ -7744,11 +7748,6 @@ racist:
 rack:
   n:
     sense:
-    - derivation:
-      - 'rack%2:36:00::'
-      - 'rack%2:41:01::'
-      id: 'rack%1:06:01::'
-      synset: 04045203-n
     - id: 'rack%1:13:00::'
       synset: 07683818-n
     - id: 'rack%1:11:00::'
@@ -7778,9 +7777,7 @@ rack:
       subcat:
       - vtai
       synset: 01802689-v
-    - derivation:
-      - 'rack%1:06:01::'
-      id: 'rack%2:41:01::'
+    - id: 'rack%2:41:01::'
       subcat:
       - vtai
       synset: 02413852-v
@@ -7808,9 +7805,7 @@ rack:
       - vtaa
       - vtia
       synset: 01806671-v
-    - derivation:
-      - 'rack%1:06:01::'
-      id: 'rack%2:36:00::'
+    - id: 'rack%2:36:00::'
       subcat:
       - vtai
       synset: 01673314-v
@@ -12446,7 +12441,9 @@ raree-show:
 rarefaction:
   n:
     sense:
-    - derivation:
+    - antonym:
+      - 'compaction%1:11:00::'
+      derivation:
       - 'rarefy%2:30:03::'
       - 'rarefy%2:30:00::'
       id: 'rarefaction%1:11:00::'
@@ -15489,6 +15486,9 @@ ready:
       id: 'ready%1:26:00::'
       synset: 14055005-n
   s:
+    form:
+    - readier
+    - readiest
     sense:
     - adjposition: a
       id: ready%5:00:01:available:00
@@ -16809,7 +16809,6 @@ reassurance:
   n:
     sense:
     - derivation:
-      - 'reassure%2:37:00::'
       - 'reassure%2:32:00::'
       id: 'reassurance%1:04:00::'
       synset: 01218209-n
@@ -16819,13 +16818,6 @@ reassure:
     - antonym:
       - 'worry%2:37:01::'
       derivation:
-      - 'reassurance%1:04:00::'
-      id: 'reassure%2:37:00::'
-      subcat:
-      - vtaa
-      - vtia
-      synset: 01770259-v
-    - derivation:
       - 'reassurance%1:04:00::'
       id: 'reassure%2:32:00::'
       subcat:
@@ -16921,6 +16913,8 @@ rebate:
       synset: 01297737-v
 rebato:
   n:
+    form:
+    - rabatos
     sense:
     - id: 'rebato%1:06:00::'
       synset: 04043124-n
@@ -18294,8 +18288,6 @@ recital:
       - 'recite%2:36:00::'
       id: 'recital%1:10:02::'
       synset: 07249541-n
-    - id: 'recital%1:10:00::'
-      synset: 07249395-n
     - derivation:
       - 'recite%2:32:01::'
       id: 'recital%1:10:04::'
@@ -46580,6 +46572,10 @@ roll off:
       - vtai
       synset: 00947680-v
 roll out:
+  n:
+    sense:
+    - id: 'roll_out%1:04:01::'
+      synset: 80754254-n
   v:
     sense:
     - id: 'roll_out%2:35:01::'
@@ -46590,6 +46586,12 @@ roll out:
       subcat:
       - vtai
       synset: 01489811-v
+    - id: 'roll_out%2:35:03::'
+      synset: 01382265-v
+    - id: 'roll_out%2:40:04::'
+      synset: 85549043-v
+    - id: 'roll_out%2:40:04::'
+      synset: 85549043-v
 roll over:
   v:
     sense:
@@ -53364,12 +53366,6 @@ rural:
       - 'rurality%1:07:00::'
       id: 'rural%3:00:00::'
       synset: 02057872-a
-    - derivation:
-      - 'rurality%1:07:00::'
-      id: 'rural%3:01:01::'
-      pertainym:
-      - 'country%1:15:01::'
-      synset: 02801550-a
 rural area:
   n:
     sense:
@@ -53402,7 +53398,6 @@ rurality:
   n:
     sense:
     - derivation:
-      - 'rural%3:01:01::'
       - 'rural%3:00:00::'
       id: 'rurality%1:07:00::'
       synset: 04927414-n
@@ -53411,7 +53406,7 @@ rurally:
     sense:
     - id: 'rurally%4:02:00::'
       pertainym:
-      - 'rural%3:01:01::'
+      - 'rural%3:00:00::'
       synset: 00144584-r
 ruse:
   n:

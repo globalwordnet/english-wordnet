@@ -11481,6 +11481,8 @@ halt:
       synset: 00355106-v
 halter:
   n:
+    form:
+    - halteres
     sense:
     - id: 'halter%1:06:01::'
       synset: 03485802-n
@@ -11507,6 +11509,8 @@ halter:
       synset: 00237139-v
 haltere:
   n:
+    form:
+    - halteres
     sense:
     - id: 'haltere%1:05:00::'
       synset: 02154864-n
@@ -23177,6 +23181,8 @@ heritor:
       synset: 10188177-n
 herm:
   n:
+    form:
+    - hermae
     sense:
     - id: 'herm%1:06:00::'
       synset: 03520891-n
@@ -26401,6 +26407,8 @@ hind:
     - id: 'hind%1:05:00::'
       synset: 02434087-n
   s:
+    form:
+    - hinder
     sense:
     - adjposition: a
       id: hind%5:00:00:posterior:00
@@ -27316,7 +27324,6 @@ hit:
     sense:
     - derivation:
       - 'hit%2:35:03::'
-      - 'hit%2:33:02::'
       id: 'hit%1:04:03::'
       synset: 00044640-n
     - derivation:
@@ -27394,13 +27401,6 @@ hit:
       subcat:
       - via-pp
       synset: 02211244-v
-    - derivation:
-      - 'hit%1:04:03::'
-      id: 'hit%2:33:02::'
-      subcat:
-      - via
-      - vtai
-      synset: 01114241-v
     - id: 'hit%2:39:00::'
       subcat:
       - vtia
@@ -27451,6 +27451,11 @@ hit home:
       subcat:
       - vii
       synset: 01773141-v
+hit it off:
+  v:
+    sense:
+    - id: 'hit_it_off%2:41:01::'
+      synset: 02463998-v
 hit it up:
   v:
     sense:
@@ -35057,11 +35062,6 @@ hot water plant:
     sense:
     - id: 'hot_water_plant%1:20:00::'
       synset: 12850982-n
-hot weather:
-  n:
-    sense:
-    - id: 'hot_weather%1:19:00::'
-      synset: 11487100-n
 hot-air balloon:
   n:
     sense:
@@ -38026,6 +38026,9 @@ hungry:
       id: 'hungry%3:00:00::'
       synset: 01272183-a
   s:
+    form:
+    - hungrier
+    - hungriest
     sense:
     - adjposition: p
       derivation:
@@ -39094,12 +39097,19 @@ hybrid:
       - 'hybridize%2:35:00::'
       id: 'hybrid%1:05:00::'
       synset: 01329963-n
+    - id: 'hybrid%1:06:01::'
+      synset: 82558699-n
   s:
     sense:
     - derivation:
       - 'hybrid%1:05:00::'
       id: hybrid%5:00:00:crossbred:00
       synset: 01910664-s
+hybrid car:
+  n:
+    sense:
+    - id: 'hybrid_car%1:06:01::'
+      synset: 82558699-n
 hybrid petunia:
   n:
     sense:

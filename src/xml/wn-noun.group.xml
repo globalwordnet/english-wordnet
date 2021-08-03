@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -287,6 +287,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-mass-n">
       <Lemma writtenForm="mass" partOfSpeech="n"/>
+      <Form writtenForm="masses"/>
       <Sense id="ewn-mass-n-07978738-01" n="2" synset="ewn-07978738-n" dc:identifier="mass%1:14:02::">
         <SenseRelation relType="derivation" target="ewn-mass-v-02028014-01"/> <!-- mass -->
         </Sense>
@@ -2633,6 +2634,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-phalanx-n">
       <Lemma writtenForm="phalanx" partOfSpeech="n"/>
+      <Form writtenForm="phalanges"/>
       <Sense id="ewn-phalanx-n-08289381-01" n="2" synset="ewn-08289381-n" dc:identifier="phalanx%1:14:00::"/>
       <Sense id="ewn-phalanx-n-08289485-01" n="1" synset="ewn-08289485-n" dc:identifier="phalanx%1:14:01::"/>
     </LexicalEntry>
@@ -9676,10 +9678,6 @@
       <Lemma writtenForm="independent agency" partOfSpeech="n"/>
       <Sense id="ewn-independent_agency-n-08355774-01" n="0" synset="ewn-08355774-n" dc:identifier="independent_agency%1:14:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-tea-n">
-      <Lemma writtenForm="tea" partOfSpeech="n"/>
-      <Sense id="ewn-tea-n-08271662-01" n="3" synset="ewn-08271662-n" dc:identifier="tea%1:14:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-Armenian_Church-n">
       <Lemma writtenForm="Armenian Church" partOfSpeech="n"/>
       <Sense id="ewn-Armenian_Church-n-08099960-01" n="0" synset="ewn-08099960-n" dc:identifier="armenian_church%1:14:00::"/>
@@ -13910,6 +13908,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-axis-n">
       <Lemma writtenForm="axis" partOfSpeech="n"/>
+      <Form writtenForm="axes"/>
       <Sense id="ewn-axis-n-08187993-02" n="3" synset="ewn-08187993-n" dc:identifier="axis%1:14:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-medical_school-n">
@@ -23976,7 +23975,7 @@
     </Synset>
     <!-- descent, line, origin, ancestry, blood, stock, pedigree, parentage, lineage, blood line, bloodline, stemma, line of descent -->
     <Synset id="ewn-08118903-n" ili="i79781" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>the descendants of one individual</Definition>
+      <Definition>the hereditary derivation of an individual</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08119368-n"/> <!-- genealogy, family tree -->
       <SynsetRelation relType="hyponym" target="ewn-07987168-n"/> <!-- phratry, sept, kinfolk, family, family line, folk, kinsfolk -->
       <SynsetRelation relType="hyponym" target="ewn-08119248-n"/> <!-- side -->
@@ -28931,6 +28930,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08250347-n"/> <!-- industrial union, vertical union -->
       <SynsetRelation relType="hyponym" target="ewn-08251414-n"/> <!-- craft union -->
       <SynsetRelation relType="hyponym" target="ewn-08251713-n"/> <!-- company union -->
+      <SynsetRelation relType="hyponym" target="ewn-08490184-n"/> <!-- I.W.W., IWW, Industrial Workers of the World -->
       <Example>&quot;you have to join the union in order to get a job&quot;</Example>
     </Synset>
     <!-- industrial union, vertical union -->
@@ -29738,7 +29738,7 @@
     </Synset>
     <!-- gaudy -->
     <Synset id="ewn-08270976-n" ili="i80507" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>(Britain) a celebratory reunion feast or entertainment held a college</Definition>
+      <Definition>(Britain) a celebratory reunion feast or entertainment held at a college</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08270561-n"/> <!-- banquet, feast -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
     </Synset>
@@ -29754,7 +29754,6 @@
       <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-08271461-n"/> <!-- at home -->
       <SynsetRelation relType="hyponym" target="ewn-08271548-n"/> <!-- levee -->
-      <SynsetRelation relType="hyponym" target="ewn-08271662-n"/> <!-- tea -->
       <SynsetRelation relType="hyponym" target="ewn-08271797-n"/> <!-- wedding reception -->
       <SynsetRelation relType="mero_part" target="ewn-08450087-n"/> <!-- reception line -->
     </Synset>
@@ -29767,12 +29766,6 @@
     <Synset id="ewn-08271548-n" ili="i80511" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a formal reception of visitors or guests (as at a royal court)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08271252-n"/> <!-- reception -->
-    </Synset>
-    <!-- tea -->
-    <Synset id="ewn-08271662-n" ili="i80512" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>a reception or party at which tea is served</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08271252-n"/> <!-- reception -->
-      <Example>&quot;we met at the Dean&apos;s tea for newcomers&quot;</Example>
     </Synset>
     <!-- wedding reception -->
     <Synset id="ewn-08271797-n" ili="i80513" partOfSpeech="n" dc:subject="noun.group">
@@ -35109,6 +35102,7 @@
     <Synset id="ewn-08425224-n" ili="i81291" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a competitive exhibition of farm products</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08424576-n"/> <!-- exposition, expo, exhibition -->
+      <SynsetRelation relType="hyponym" target="ewn-00523201-n"/>
       <Example>&quot;she won a blue ribbon for her baking at the county fair&quot;</Example>
     </Synset>
     <!-- bookfair, book fair -->
@@ -35121,6 +35115,7 @@
       <Definition>gathering of producers to promote business</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08425375-n"/> <!-- bookfair, book fair -->
+      <SynsetRelation relType="hyponym" target="ewn-00523201-n"/>
       <Example>&quot;world fair&quot;</Example>
       <Example>&quot;trade fair&quot;</Example>
       <Example>&quot;book fair&quot;</Example>
@@ -37632,10 +37627,13 @@
       <SynsetRelation relType="hypernym" target="ewn-08490634-n"/> <!-- reform movement -->
       <SynsetRelation relType="mero_part" target="ewn-08249977-n"/> <!-- union, labor union, trades union, brotherhood, trade union -->
       <SynsetRelation relType="hyponym" target="ewn-08490493-n"/> <!-- unionism, trade unionism -->
+      <SynsetRelation relType="hyponym" target="ewn-08490184-n"/> <!-- I.W.W., IWW, Industrial Workers of the World -->
     </Synset>
     <!-- I.W.W., IWW, Industrial Workers of the World -->
     <Synset id="ewn-08490184-n" ili="i81576" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a former international labor union and radical labor movement in the United States; founded in Chicago in 1905 and dedicated to the overthrow of capitalism; its membership declined after World War I</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-08249977-n"/> <!-- union, labor union, trades union, brotherhood, trade union -->
+      <SynsetRelation relType="hypernym" target="ewn-08489901-n"/> <!-- labor, trade union movement, labor movement -->
     </Synset>
     <!-- unionism, trade unionism -->
     <Synset id="ewn-08490493-n" ili="i81577" partOfSpeech="n" dc:subject="noun.group">
@@ -38386,7 +38384,6 @@
       <Definition>Court banner is formed by troops of the King.</Definition>
       <ILIDefinition>Court banner is formed by troops of the King.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-08231193-n"/> <!-- company -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92427406-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
       <Definition>The quality or characteristic of being Czech.</Definition>
@@ -38468,7 +38465,6 @@
       <Definition>a very large, loose grouping of stars that are of similar spectral type and relatively recent origin.</Definition>
       <ILIDefinition>a very large, loose grouping of stars that are of similar spectral type and relatively recent origin.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-00031563-n"/> <!-- group, grouping -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92406052-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
       <Definition>a boundless succession of elements arranged in a given order.</Definition>
@@ -38492,11 +38488,10 @@
       <Definition>District banner is formed by knights of a district.</Definition>
       <ILIDefinition>District banner is formed by knights of a district.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-08231193-n"/> <!-- company -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92421873-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
-      <Definition>the class of workers who are salaried and get regular, non-hourly pay checks. </Definition>
-      <ILIDefinition>the class of workers who are salaried and get regular, non-hourly pay checks. </ILIDefinition>
+      <Definition>the class of workers who are salaried and get regular, non-hourly pay checks.</Definition>
+      <ILIDefinition>the class of workers who are salaried and get regular, non-hourly pay checks.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-08197557-n"/> <!-- labor, labour, proletariat, working class -->
     </Synset>
     <Synset id="ewn-92420579-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
@@ -38652,7 +38647,6 @@
       <Definition>The inorganic particulate matter suspended in bodies of water such as lakes and seas.</Definition>
       <ILIDefinition>The inorganic particulate matter suspended in bodies of water such as lakes and seas.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07968050-n"/> <!-- assemblage, collection, accumulation, aggregation -->
-      <Example></Example>
     </Synset>
     <Synset id="ewn-92421962-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
       <Definition>a Catholic religious order for women.</Definition>
@@ -38661,8 +38655,8 @@
       <Example>The Institute of the Ursuline Sisters of the Immaculate Virgin Mary was founded in Gandino (Bergamo, Italy) on 3rd December 1818.</Example>
     </Synset>
     <Synset id="ewn-92420780-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
-      <Definition> members of the patrician class.</Definition>
-      <ILIDefinition> members of the patrician class.</ILIDefinition>
+      <Definition>members of the patrician class.</Definition>
+      <ILIDefinition>members of the patrician class.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07990472-n"/> <!-- socio-economic class, class, social class, stratum -->
       <Example>.</Example>
     </Synset>
@@ -38691,8 +38685,8 @@
       <SynsetRelation relType="hypernym" target="ewn-08327879-n"/> <!-- council -->
     </Synset>
     <Synset id="ewn-92424408-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
-      <Definition>a group of four players, including a piano player, a violin player, a viola player and a cello player. </Definition>
-      <ILIDefinition>a group of four players, including a piano player, a violin player, a viola player and a cello player. </ILIDefinition>
+      <Definition>a group of four players, including a piano player, a violin player, a viola player and a cello player.</Definition>
+      <ILIDefinition>a group of four players, including a piano player, a violin player, a viola player and a cello player.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-08264172-n"/> <!-- quartet, quartette -->
     </Synset>
     <Synset id="ewn-92419318-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
@@ -38724,8 +38718,8 @@
       <SynsetRelation relType="hypernym" target="ewn-08384807-n"/> <!-- form of government, political system -->
     </Synset>
     <Synset id="ewn-92417440-n" ili="in" partOfSpeech="n" dc:subject="noun.group" dc:source="plWordNet 4.0">
-      <Definition>a term encompassing a number of religious institutes of the Catholic Church, such as the Order of St. Ursula or the Ursulines of the Roman Union. </Definition>
-      <ILIDefinition>a term encompassing a number of religious institutes of the Catholic Church, such as the Order of St. Ursula or the Ursulines of the Roman Union. </ILIDefinition>
+      <Definition>a term encompassing a number of religious institutes of the Catholic Church, such as the Order of St. Ursula or the Ursulines of the Roman Union.</Definition>
+      <ILIDefinition>a term encompassing a number of religious institutes of the Catholic Church, such as the Order of St. Ursula or the Ursulines of the Roman Union.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-08164801-n"/> <!-- order, monastic order -->
       <SynsetRelation relType="hyponym" target="ewn-92421962-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92417723-n"/>

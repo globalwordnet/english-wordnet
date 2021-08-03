@@ -4,8 +4,10 @@ import re
 import sys
 import codecs
 
+
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
+
     def __init__(self, id, label, language, email, license, version, url):
         self.id = id
         self.label = label
@@ -25,8 +27,8 @@ class Lexicon:
         self.sense2synset = {}
 
     def __str__(self):
-        return "Lexicon with ID %s and %d entries and %d synsets" % (self.id, 
-                len(self.entries), len(self.synsets))
+        return "Lexicon with ID %s and %d entries and %d synsets" % (
+            self.id, len(self.entries), len(self.synsets))
 
     def add_entry(self, entry):
         if entry.id in self.id2entry:
@@ -42,6 +44,32 @@ class Lexicon:
             self.member2entry[entry.lemma.written_form] = []
         self.member2entry[entry.lemma.written_form].append(entry.id)
         self.entries.append(entry)
+
+    def del_entry(self, entry):
+        """Delete an entry and clear all senses"""
+        if entry.id not in self.id2entry:
+            return
+        del self.id2entry[entry.id]
+        for sense in entry.senses:
+            self.del_sense(entry, sense)
+        self.member2entry[entry.lemma.written_form] = [m for m in 
+                self.member2entry[entry.lemma.written_form]
+                    if m != entry.id]
+        if self.member2entry[entry.lemma.written_form] == []:
+            del self.member2entry[entry.lemma.written_form]
+        self.entries = [e for e in self.entries if e.id != entry.id]
+
+    def del_sense(self, entry, sense):
+        """Remove a single sense from an entry"""
+        if sense.id not in self.sense2synset:
+            return
+        self.members[sense.synset] = [m for m in self.members[sense.synset]
+                if m != entry.lemma.written_form]
+        if self.members[sense.synset] == []:
+            del self.members[sense.synset]
+        del self.sense2synset[sense.id]
+        del self.id2sense[sense.id]
+        entry.senses = [s for s in entry.senses if s.id != sense.id]
 
     def add_synset(self, synset):
         self.id2synset[synset.id] = synset
@@ -75,19 +103,28 @@ class Lexicon:
     def to_xml(self, xml_file, part=True):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
-            xml_file.write("""<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">\n""")
+            xml_file.write(
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">\n""")
         else:
-            xml_file.write("""<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">\n""")
-        xml_file.write("""<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="%s" 
-           label="%s" 
+            xml_file.write(
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">\n""")
+        xml_file.write(
+            """<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Lexicon id="%s"
+           label="%s"
            language="%s"
            email="%s"
            license="%s"
            version="%s"
            url="%s">
-""" % (self.id, self.label, self.language, self.email,
-               self.license, self.version, self.url))
+""" %
+            (self.id,
+             self.label,
+             self.language,
+             self.email,
+             self.license,
+             self.version,
+             self.url))
 
         for entry in self.entries:
             entry.to_xml(xml_file, self.comments)
@@ -95,10 +132,11 @@ class Lexicon:
             synset.to_xml(xml_file, self.comments)
         xml_file.write("""  </Lexicon>
 </LexicalResource>\n""")
-        
-        
+
+
 class LexicalEntry:
     """The lexical entry consists of a single word"""
+
     def __init__(self, id):
         self.id = id
         self.lemma = None
@@ -113,7 +151,8 @@ class LexicalEntry:
         self.forms.append(form)
 
     def add_sense(self, sense):
-        self.senses.append(sense)
+        if not any(s.id == sense.id for s in self.senses):
+            self.senses.append(sense)
 
     def add_syntactic_behaviour(self, synbeh):
         self.syntactic_behaviours.append(synbeh)
@@ -134,12 +173,15 @@ class LexicalEntry:
 
 class Lemma:
     """The lemma gives the written form and part of speech of an entry"""
+
     def __init__(self, written_form, part_of_speech):
         self.written_form = written_form
         self.part_of_speech = part_of_speech
 
+
 class Form:
     """The form gives an inflected form of the entry"""
+
     def __init__(self, written_form):
         self.written_form = written_form
 
@@ -150,6 +192,7 @@ class Form:
 
 class Sense:
     """The sense links an entry to a synset"""
+
     def __init__(self, id, synset, sense_key, n=-1, adjposition=None):
         self.id = id
         self.synset = synset
@@ -186,6 +229,7 @@ class Sense:
 
 class Synset:
     """The synset is a collection of synonyms"""
+
     def __init__(self, id, ili, part_of_speech, lex_name, source=None):
         self.id = id
         self.ili = ili
@@ -199,7 +243,7 @@ class Synset:
 
     def add_definition(self, definition, is_ili=False):
         if is_ili:
-            if not definition in self.definitions:
+            if definition not in self.definitions:
                 self.definitions.append(definition)
             self.ili_definition = definition
         else:
@@ -218,8 +262,14 @@ class Synset:
         source_tag = ""
         if self.source:
             source_tag = " dc:source=\"%s\"" % (self.source)
-        xml_file.write("""    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
-""" % (self.id, self.ili, self.part_of_speech.value, self.lex_name, source_tag))
+        xml_file.write(
+            """    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
+""" %
+            (self.id,
+             self.ili,
+             self.part_of_speech.value,
+             self.lex_name,
+             source_tag))
         for defn in self.definitions:
             defn.to_xml(xml_file)
         if self.ili_definition:
@@ -269,13 +319,14 @@ class SynsetRelation:
         self.rel_type = rel_type
 
     def to_xml(self, xml_file, comments):
-        xml_file.write("""      <SynsetRelation relType="%s" target="%s"/>""" % 
-                (self.rel_type.value, self.target))
+        xml_file.write("""      <SynsetRelation relType="%s" target="%s"/>""" %
+                       (self.rel_type.value, self.target))
         if self.target in comments:
             xml_file.write(""" <!-- %s -->
 """ % comments[self.target])
         else:
             xml_file.write("\n")
+
 
 class SenseRelation:
     def __init__(self, target, rel_type):
@@ -283,8 +334,9 @@ class SenseRelation:
         self.rel_type = rel_type
 
     def to_xml(self, xml_file, comments):
-        xml_file.write("""        <SenseRelation relType="%s" target="%s"/>""" % 
-                (self.rel_type.value, self.target))
+        xml_file.write(
+            """        <SenseRelation relType="%s" target="%s"/>""" %
+            (self.rel_type.value, self.target))
         if self.target in comments:
             xml_file.write(""" <!-- %s -->
 """ % comments[self.target])
@@ -295,16 +347,22 @@ class SenseRelation:
 class SyntacticBehaviour:
     def __init__(self, subcategorization_frame, senses):
         if not isinstance(subcategorization_frame, str):
-            raise "Syntactic Behaviour is not string" + str(subcategorization_frame)
+            raise "Syntactic Behaviour is not string" + \
+                str(subcategorization_frame)
         self.subcategorization_frame = subcategorization_frame
         self.senses = senses
 
     def to_xml(self, xml_file):
-        xml_file.write("""      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
-""" % (escape_xml_lit(self.subcategorization_frame), " ".join(self.senses)))
+        xml_file.write(
+            """      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
+""" %
+            (escape_xml_lit(
+                self.subcategorization_frame), " ".join(
+                self.senses)))
 
     def __repr__(self):
-        return "SyntacticBehaviour(%s, %s)" % (self.subcategorization_frame, " ".join(self.senses))
+        return "SyntacticBehaviour(%s, %s)" % (
+            self.subcategorization_frame, " ".join(self.senses))
 
 
 class PartOfSpeech(Enum):
@@ -319,10 +377,12 @@ class PartOfSpeech(Enum):
     OTHER = 'x'
     UNKNOWN = 'u'
 
+
 def equal_pos(pos1, pos2):
-    return (pos1 == pos2 
+    return (pos1 == pos2
             or pos1 == PartOfSpeech.ADJECTIVE and pos2 == PartOfSpeech.ADJECTIVE_SATELLITE
             or pos2 == PartOfSpeech.ADJECTIVE and pos1 == PartOfSpeech.ADJECTIVE_SATELLITE)
+
 
 class SynsetRelType(Enum):
     AGENT = 'agent'
@@ -397,78 +457,80 @@ class SynsetRelType(Enum):
     IS_SUBEVENT_OF = 'is_subevent_of'
     ANTONYM = 'antonym'
 
+
 inverse_synset_rels = {
-        SynsetRelType.HYPERNYM: SynsetRelType.HYPONYM,
-        SynsetRelType.HYPONYM: SynsetRelType.HYPERNYM,
-        SynsetRelType.INSTANCE_HYPERNYM: SynsetRelType.INSTANCE_HYPONYM,
-        SynsetRelType.INSTANCE_HYPONYM: SynsetRelType.INSTANCE_HYPERNYM,
-        SynsetRelType.MERONYM: SynsetRelType.HOLONYM,
-        SynsetRelType.HOLONYM: SynsetRelType.MERONYM,
-        SynsetRelType.MERO_LOCATION: SynsetRelType.HOLO_LOCATION,
-        SynsetRelType.HOLO_LOCATION: SynsetRelType.MERO_LOCATION,
-        SynsetRelType.MERO_MEMBER: SynsetRelType.HOLO_MEMBER,
-        SynsetRelType.HOLO_MEMBER: SynsetRelType.MERO_MEMBER,
-        SynsetRelType.MERO_PART: SynsetRelType.HOLO_PART,
-        SynsetRelType.HOLO_PART: SynsetRelType.MERO_PART,
-        SynsetRelType.MERO_PORTION: SynsetRelType.HOLO_PORTION,
-        SynsetRelType.HOLO_PORTION: SynsetRelType.MERO_PORTION,
-        SynsetRelType.MERO_SUBSTANCE: SynsetRelType.HOLO_SUBSTANCE,
-        SynsetRelType.HOLO_SUBSTANCE: SynsetRelType.MERO_SUBSTANCE,
-        SynsetRelType.BE_IN_STATE: SynsetRelType.STATE_OF,
-        SynsetRelType.STATE_OF: SynsetRelType.BE_IN_STATE,
-        SynsetRelType.CAUSES: SynsetRelType.IS_CAUSED_BY,
-        SynsetRelType.IS_CAUSED_BY: SynsetRelType.CAUSES,
-        SynsetRelType.SUBEVENT: SynsetRelType.IS_SUBEVENT_OF,
-        SynsetRelType.IS_SUBEVENT_OF: SynsetRelType.SUBEVENT,
-        SynsetRelType.MANNER_OF: SynsetRelType.IN_MANNER,
-        SynsetRelType.IN_MANNER: SynsetRelType.MANNER_OF,
-        SynsetRelType.RESTRICTS: SynsetRelType.RESTRICTED_BY,
-        SynsetRelType.RESTRICTED_BY: SynsetRelType.RESTRICTS,
-        SynsetRelType.CLASSIFIES: SynsetRelType.CLASSIFIED_BY,
-        SynsetRelType.CLASSIFIED_BY: SynsetRelType.CLASSIFIES,
-        SynsetRelType.ENTAILS: SynsetRelType.IS_ENTAILED_BY,
-        SynsetRelType.IS_ENTAILED_BY: SynsetRelType.ENTAILS,
-        SynsetRelType.DOMAIN_REGION: SynsetRelType.HAS_DOMAIN_REGION,
-        SynsetRelType.HAS_DOMAIN_REGION: SynsetRelType.DOMAIN_REGION,
-        SynsetRelType.DOMAIN_TOPIC: SynsetRelType.HAS_DOMAIN_TOPIC,
-        SynsetRelType.HAS_DOMAIN_TOPIC: SynsetRelType.DOMAIN_TOPIC,
-        SynsetRelType.EXEMPLIFIES: SynsetRelType.IS_EXEMPLIFIED_BY,
-        SynsetRelType.IS_EXEMPLIFIED_BY: SynsetRelType.EXEMPLIFIES,
-        SynsetRelType.ROLE: SynsetRelType.INVOLVED,
-        SynsetRelType.INVOLVED: SynsetRelType.ROLE,
-        SynsetRelType.AGENT: SynsetRelType.INVOLVED_AGENT,
-        SynsetRelType.INVOLVED_AGENT: SynsetRelType.AGENT,
-        SynsetRelType.PATIENT: SynsetRelType.INVOLVED_PATIENT,
-        SynsetRelType.INVOLVED_PATIENT: SynsetRelType.PATIENT,
-        SynsetRelType.RESULT: SynsetRelType.INVOLVED_RESULT,
-        SynsetRelType.INVOLVED_RESULT: SynsetRelType.RESULT,
-        SynsetRelType.INSTRUMENT: SynsetRelType.INVOLVED_INSTRUMENT,
-        SynsetRelType.INVOLVED_INSTRUMENT: SynsetRelType.INSTRUMENT,
-        SynsetRelType.LOCATION: SynsetRelType.INVOLVED_LOCATION,
-        SynsetRelType.INVOLVED_LOCATION: SynsetRelType.LOCATION,
-        SynsetRelType.DIRECTION: SynsetRelType.INVOLVED_DIRECTION,
-        SynsetRelType.INVOLVED_DIRECTION: SynsetRelType.DIRECTION,
-        SynsetRelType.TARGET_DIRECTION: SynsetRelType.INVOLVED_TARGET_DIRECTION,
-        SynsetRelType.INVOLVED_TARGET_DIRECTION: SynsetRelType.TARGET_DIRECTION,
-        SynsetRelType.SOURCE_DIRECTION: SynsetRelType.INVOLVED_SOURCE_DIRECTION,
-        SynsetRelType.INVOLVED_SOURCE_DIRECTION: SynsetRelType.SOURCE_DIRECTION,
-        SynsetRelType.CO_AGENT_PATIENT: SynsetRelType.CO_PATIENT_AGENT,
-        SynsetRelType.CO_PATIENT_AGENT: SynsetRelType.CO_AGENT_PATIENT,
-        SynsetRelType.CO_AGENT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_AGENT,
-        SynsetRelType.CO_INSTRUMENT_AGENT: SynsetRelType.CO_AGENT_INSTRUMENT,
-        SynsetRelType.CO_AGENT_RESULT: SynsetRelType.CO_RESULT_AGENT,
-        SynsetRelType.CO_RESULT_AGENT: SynsetRelType.CO_AGENT_RESULT,
-        SynsetRelType.CO_PATIENT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_PATIENT,
-        SynsetRelType.CO_INSTRUMENT_PATIENT: SynsetRelType.CO_PATIENT_INSTRUMENT,
-        SynsetRelType.CO_RESULT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_RESULT,
-        SynsetRelType.CO_INSTRUMENT_RESULT: SynsetRelType.CO_RESULT_INSTRUMENT,
-        SynsetRelType.ANTONYM: SynsetRelType.ANTONYM,
-        SynsetRelType.EQ_SYNONYM: SynsetRelType.EQ_SYNONYM,
-        SynsetRelType.SIMILAR: SynsetRelType.SIMILAR,
-#        SynsetRelType.ALSO: SynsetRelType.ALSO,
-        SynsetRelType.ATTRIBUTE: SynsetRelType.ATTRIBUTE,
-        SynsetRelType.CO_ROLE: SynsetRelType.CO_ROLE
-        }
+    SynsetRelType.HYPERNYM: SynsetRelType.HYPONYM,
+    SynsetRelType.HYPONYM: SynsetRelType.HYPERNYM,
+    SynsetRelType.INSTANCE_HYPERNYM: SynsetRelType.INSTANCE_HYPONYM,
+    SynsetRelType.INSTANCE_HYPONYM: SynsetRelType.INSTANCE_HYPERNYM,
+    SynsetRelType.MERONYM: SynsetRelType.HOLONYM,
+    SynsetRelType.HOLONYM: SynsetRelType.MERONYM,
+    SynsetRelType.MERO_LOCATION: SynsetRelType.HOLO_LOCATION,
+    SynsetRelType.HOLO_LOCATION: SynsetRelType.MERO_LOCATION,
+    SynsetRelType.MERO_MEMBER: SynsetRelType.HOLO_MEMBER,
+    SynsetRelType.HOLO_MEMBER: SynsetRelType.MERO_MEMBER,
+    SynsetRelType.MERO_PART: SynsetRelType.HOLO_PART,
+    SynsetRelType.HOLO_PART: SynsetRelType.MERO_PART,
+    SynsetRelType.MERO_PORTION: SynsetRelType.HOLO_PORTION,
+    SynsetRelType.HOLO_PORTION: SynsetRelType.MERO_PORTION,
+    SynsetRelType.MERO_SUBSTANCE: SynsetRelType.HOLO_SUBSTANCE,
+    SynsetRelType.HOLO_SUBSTANCE: SynsetRelType.MERO_SUBSTANCE,
+    SynsetRelType.BE_IN_STATE: SynsetRelType.STATE_OF,
+    SynsetRelType.STATE_OF: SynsetRelType.BE_IN_STATE,
+    SynsetRelType.CAUSES: SynsetRelType.IS_CAUSED_BY,
+    SynsetRelType.IS_CAUSED_BY: SynsetRelType.CAUSES,
+    SynsetRelType.SUBEVENT: SynsetRelType.IS_SUBEVENT_OF,
+    SynsetRelType.IS_SUBEVENT_OF: SynsetRelType.SUBEVENT,
+    SynsetRelType.MANNER_OF: SynsetRelType.IN_MANNER,
+    SynsetRelType.IN_MANNER: SynsetRelType.MANNER_OF,
+    SynsetRelType.RESTRICTS: SynsetRelType.RESTRICTED_BY,
+    SynsetRelType.RESTRICTED_BY: SynsetRelType.RESTRICTS,
+    SynsetRelType.CLASSIFIES: SynsetRelType.CLASSIFIED_BY,
+    SynsetRelType.CLASSIFIED_BY: SynsetRelType.CLASSIFIES,
+    SynsetRelType.ENTAILS: SynsetRelType.IS_ENTAILED_BY,
+    SynsetRelType.IS_ENTAILED_BY: SynsetRelType.ENTAILS,
+    SynsetRelType.DOMAIN_REGION: SynsetRelType.HAS_DOMAIN_REGION,
+    SynsetRelType.HAS_DOMAIN_REGION: SynsetRelType.DOMAIN_REGION,
+    SynsetRelType.DOMAIN_TOPIC: SynsetRelType.HAS_DOMAIN_TOPIC,
+    SynsetRelType.HAS_DOMAIN_TOPIC: SynsetRelType.DOMAIN_TOPIC,
+    SynsetRelType.EXEMPLIFIES: SynsetRelType.IS_EXEMPLIFIED_BY,
+    SynsetRelType.IS_EXEMPLIFIED_BY: SynsetRelType.EXEMPLIFIES,
+    SynsetRelType.ROLE: SynsetRelType.INVOLVED,
+    SynsetRelType.INVOLVED: SynsetRelType.ROLE,
+    SynsetRelType.AGENT: SynsetRelType.INVOLVED_AGENT,
+    SynsetRelType.INVOLVED_AGENT: SynsetRelType.AGENT,
+    SynsetRelType.PATIENT: SynsetRelType.INVOLVED_PATIENT,
+    SynsetRelType.INVOLVED_PATIENT: SynsetRelType.PATIENT,
+    SynsetRelType.RESULT: SynsetRelType.INVOLVED_RESULT,
+    SynsetRelType.INVOLVED_RESULT: SynsetRelType.RESULT,
+    SynsetRelType.INSTRUMENT: SynsetRelType.INVOLVED_INSTRUMENT,
+    SynsetRelType.INVOLVED_INSTRUMENT: SynsetRelType.INSTRUMENT,
+    SynsetRelType.LOCATION: SynsetRelType.INVOLVED_LOCATION,
+    SynsetRelType.INVOLVED_LOCATION: SynsetRelType.LOCATION,
+    SynsetRelType.DIRECTION: SynsetRelType.INVOLVED_DIRECTION,
+    SynsetRelType.INVOLVED_DIRECTION: SynsetRelType.DIRECTION,
+    SynsetRelType.TARGET_DIRECTION: SynsetRelType.INVOLVED_TARGET_DIRECTION,
+    SynsetRelType.INVOLVED_TARGET_DIRECTION: SynsetRelType.TARGET_DIRECTION,
+    SynsetRelType.SOURCE_DIRECTION: SynsetRelType.INVOLVED_SOURCE_DIRECTION,
+    SynsetRelType.INVOLVED_SOURCE_DIRECTION: SynsetRelType.SOURCE_DIRECTION,
+    SynsetRelType.CO_AGENT_PATIENT: SynsetRelType.CO_PATIENT_AGENT,
+    SynsetRelType.CO_PATIENT_AGENT: SynsetRelType.CO_AGENT_PATIENT,
+    SynsetRelType.CO_AGENT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_AGENT,
+    SynsetRelType.CO_INSTRUMENT_AGENT: SynsetRelType.CO_AGENT_INSTRUMENT,
+    SynsetRelType.CO_AGENT_RESULT: SynsetRelType.CO_RESULT_AGENT,
+    SynsetRelType.CO_RESULT_AGENT: SynsetRelType.CO_AGENT_RESULT,
+    SynsetRelType.CO_PATIENT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_PATIENT,
+    SynsetRelType.CO_INSTRUMENT_PATIENT: SynsetRelType.CO_PATIENT_INSTRUMENT,
+    SynsetRelType.CO_RESULT_INSTRUMENT: SynsetRelType.CO_INSTRUMENT_RESULT,
+    SynsetRelType.CO_INSTRUMENT_RESULT: SynsetRelType.CO_RESULT_INSTRUMENT,
+    SynsetRelType.ANTONYM: SynsetRelType.ANTONYM,
+    SynsetRelType.EQ_SYNONYM: SynsetRelType.EQ_SYNONYM,
+    SynsetRelType.SIMILAR: SynsetRelType.SIMILAR,
+    #        SynsetRelType.ALSO: SynsetRelType.ALSO,
+    SynsetRelType.ATTRIBUTE: SynsetRelType.ATTRIBUTE,
+    SynsetRelType.CO_ROLE: SynsetRelType.CO_ROLE
+}
+
 
 class SenseRelType(Enum):
     ANTONYM = 'antonym'
@@ -484,19 +546,21 @@ class SenseRelType(Enum):
     IS_EXEMPLIFIED_BY = 'is_exemplified_by'
     SIMILAR = 'similar'
     OTHER = 'other'
-    
+
+
 inverse_sense_rels = {
-        SenseRelType.DOMAIN_REGION: SenseRelType.HAS_DOMAIN_REGION,
-        SenseRelType.HAS_DOMAIN_REGION: SenseRelType.DOMAIN_REGION,
-        SenseRelType.DOMAIN_TOPIC: SenseRelType.HAS_DOMAIN_TOPIC,
-        SenseRelType.HAS_DOMAIN_TOPIC: SenseRelType.DOMAIN_TOPIC,
-        SenseRelType.EXEMPLIFIES: SenseRelType.IS_EXEMPLIFIED_BY,
-        SenseRelType.IS_EXEMPLIFIED_BY: SenseRelType.EXEMPLIFIES,
-        SenseRelType.ANTONYM: SenseRelType.ANTONYM,
-        SenseRelType.SIMILAR: SenseRelType.SIMILAR,
-        SenseRelType.ALSO: SenseRelType.ALSO,
-        SenseRelType.DERIVATION: SenseRelType.DERIVATION,
-        }
+    SenseRelType.DOMAIN_REGION: SenseRelType.HAS_DOMAIN_REGION,
+    SenseRelType.HAS_DOMAIN_REGION: SenseRelType.DOMAIN_REGION,
+    SenseRelType.DOMAIN_TOPIC: SenseRelType.HAS_DOMAIN_TOPIC,
+    SenseRelType.HAS_DOMAIN_TOPIC: SenseRelType.DOMAIN_TOPIC,
+    SenseRelType.EXEMPLIFIES: SenseRelType.IS_EXEMPLIFIED_BY,
+    SenseRelType.IS_EXEMPLIFIED_BY: SenseRelType.EXEMPLIFIES,
+    SenseRelType.ANTONYM: SenseRelType.ANTONYM,
+    SenseRelType.SIMILAR: SenseRelType.SIMILAR,
+    SenseRelType.ALSO: SenseRelType.ALSO,
+    SenseRelType.DERIVATION: SenseRelType.DERIVATION,
+}
+
 
 class WordNetContentHandler(ContentHandler):
     def __init__(self):
@@ -512,12 +576,22 @@ class WordNetContentHandler(ContentHandler):
 
     def startElement(self, name, attrs):
         if name == "Lexicon":
-            self.lexicon = Lexicon(attrs["id"], attrs["label"], attrs["language"],
-                    attrs["email"], attrs["license"], attrs["version"], attrs["url"])
+            self.lexicon = Lexicon(
+                attrs["id"],
+                attrs["label"],
+                attrs["language"],
+                attrs["email"],
+                attrs["license"],
+                attrs["version"],
+                attrs["url"])
         elif name == "LexicalEntry":
             self.entry = LexicalEntry(attrs["id"])
         elif name == "Lemma":
-            self.entry.set_lemma(Lemma(attrs["writtenForm"], PartOfSpeech(attrs["partOfSpeech"])))
+            self.entry.set_lemma(
+                Lemma(
+                    attrs["writtenForm"],
+                    PartOfSpeech(
+                        attrs["partOfSpeech"])))
         elif name == "Form":
             self.entry.add_form(Form(attrs["writtenForm"]))
         elif name == "Sense":
@@ -525,13 +599,13 @@ class WordNetContentHandler(ContentHandler):
                 n = int(attrs["n"])
             else:
                 n = -1
-            self.sense = Sense(attrs["id"], attrs["synset"], 
-                    attrs.get("dc:identifier") or "", n, attrs.get("adjposition"))
+            self.sense = Sense(attrs["id"], attrs["synset"], attrs.get(
+                "dc:identifier") or "", n, attrs.get("adjposition"))
         elif name == "Synset":
-            self.synset = Synset(attrs["id"], attrs["ili"], 
-                PartOfSpeech(attrs["partOfSpeech"]),
-                attrs.get("dc:subject",""),
-                attrs.get("dc:source",""))
+            self.synset = Synset(attrs["id"], attrs["ili"],
+                                 PartOfSpeech(attrs["partOfSpeech"]),
+                                 attrs.get("dc:subject", ""),
+                                 attrs.get("dc:source", ""))
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
@@ -541,17 +615,17 @@ class WordNetContentHandler(ContentHandler):
             self.example_source = attrs.get("dc:source")
         elif name == "SynsetRelation":
             self.synset.add_synset_relation(
-                    SynsetRelation(attrs["target"],
-                    SynsetRelType(attrs["relType"])))
+                SynsetRelation(attrs["target"],
+                               SynsetRelType(attrs["relType"])))
         elif name == "SenseRelation":
             self.sense.add_sense_relation(
-                    SenseRelation(attrs["target"],
-                    SenseRelType(attrs["relType"])))
+                SenseRelation(attrs["target"],
+                              SenseRelType(attrs["relType"])))
         elif name == "SyntacticBehaviour":
             self.entry.add_syntactic_behaviour(
-                    SyntacticBehaviour(
-                        attrs["subcategorizationFrame"],
-                        attrs["senses"].split(" ")))
+                SyntacticBehaviour(
+                    attrs["subcategorizationFrame"],
+                    attrs["senses"].split(" ")))
         elif name == "LexicalResource":
             pass
         else:
@@ -577,13 +651,12 @@ class WordNetContentHandler(ContentHandler):
             self.synset.add_example(Example(self.example, self.example_source))
             self.example = None
 
-
     def characters(self, content):
-        if self.defn != None:
+        if self.defn is not None:
             self.defn += content
-        elif self.ili_defn != None:
+        elif self.ili_defn is not None:
             self.ili_defn += content
-        elif self.example != None:
+        elif self.example is not None:
             self.example += content
         elif content.strip() == '':
             pass
@@ -591,14 +664,18 @@ class WordNetContentHandler(ContentHandler):
             print(content)
             raise ValueError("Text content not expected")
 
+
 def escape_xml_lit(lit):
     return (lit.replace("&", "&amp;").replace("'", "&apos;").
-        replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;"))
+            replace("\"", "&quot;").replace("<", "&lt;").replace(">", "&gt;"))
 
-def extract_comments(wordnet_file,lexicon):
-    with codecs.open(wordnet_file,"r",encoding="utf-8") as source:
-        sen_rel_comment = re.compile(".*<SenseRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
-        syn_rel_comment = re.compile(".*<SynsetRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
+
+def extract_comments(wordnet_file, lexicon):
+    with codecs.open(wordnet_file, "r", encoding="utf-8") as source:
+        sen_rel_comment = re.compile(
+            ".*<SenseRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
+        syn_rel_comment = re.compile(
+            ".*<SynsetRelation .* target=\"(.*)\".*/> <!-- (.*) -->")
         comment = re.compile(".*<!-- (.*) -->.*")
         synset = re.compile(".*<Synset id=\"(\\S*)\".*")
         c = None
@@ -624,7 +701,8 @@ def extract_comments(wordnet_file,lexicon):
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
     def elc(c):
-        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (c >= '0' and c <= '9') or c == '.':
+        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (
+                c >= '0' and c <= '9') or c == '.':
             return c
         elif c == ' ':
             return '_'
@@ -647,14 +725,16 @@ def escape_lemma(lemma):
 
     return "".join(elc(c) for c in lemma)
 
+
 def parse_wordnet(wordnet_file):
-    with codecs.open(wordnet_file,"r",encoding="utf-8") as source:
+    with codecs.open(wordnet_file, "r", encoding="utf-8") as source:
         handler = WordNetContentHandler()
         parse(source, handler)
     extract_comments(wordnet_file, handler.lexicon)
     return handler.lexicon
 
+
 if __name__ == "__main__":
     wordnet = parse_wordnet(sys.argv[1])
-    xml_file = open("wn31-test.xml","w")
+    xml_file = open("wn31-test.xml", "w")
     wordnet.to_xml(xml_file, True)

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -2901,6 +2901,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-auspice-n">
       <Lemma writtenForm="auspice" partOfSpeech="n"/>
+      <Form writtenForm="auspices"/>
       <Sense id="ewn-auspice-n-07301504-01" n="0" synset="ewn-07301504-n" dc:identifier="auspice%1:11:00::">
         <SenseRelation relType="derivation" target="ewn-auspicate-v-00873606-03"/> <!-- forecast, bode, foreshadow, prefigure, prognosticate, betoken, foretell, omen, portend, augur, auspicate, presage, predict -->
         <SenseRelation relType="derivation" target="ewn-auspicate-v-00348074-01"/> <!-- auspicate -->
@@ -8300,6 +8301,7 @@
       <Sense id="ewn-rarefaction-n-07434008-01" n="0" synset="ewn-07434008-n" dc:identifier="rarefaction%1:11:00::">
         <SenseRelation relType="derivation" target="ewn-rarefy-v-00571460-01"/> <!-- rarefy -->
         <SenseRelation relType="derivation" target="ewn-rarefy-v-00226805-01"/> <!-- attenuate, rarefy -->
+        <SenseRelation relType="antonym" target="ewn-compaction-n-07433833-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-withering-n">
@@ -8632,6 +8634,7 @@
       <Lemma writtenForm="compaction" partOfSpeech="n"/>
       <Sense id="ewn-compaction-n-07433833-01" n="0" synset="ewn-07433833-n" dc:identifier="compaction%1:11:00::">
         <SenseRelation relType="derivation" target="ewn-compact-v-01486664-01"/> <!-- compact, pack -->
+        <SenseRelation relType="antonym" target="ewn-rarefaction-n-07434008-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-ceremonial-n">
@@ -9038,7 +9041,6 @@
     <!-- occurrent, happening, occurrence, natural event -->
     <Synset id="ewn-07298313-n" ili="i74970" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an event that happens</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-00029677-n"/> <!-- event -->
       <SynsetRelation relType="hyponym" target="ewn-07299259-n"/> <!-- concomitant, attendant, accompaniment, co-occurrence -->
       <SynsetRelation relType="hyponym" target="ewn-07299741-n"/> <!-- avalanche -->
       <SynsetRelation relType="hyponym" target="ewn-07300108-n"/> <!-- experience -->
@@ -9083,6 +9085,7 @@
       <SynsetRelation relType="hyponym" target="ewn-07492727-n"/> <!-- gold rush, bonanza, windfall, boom, gravy, manna from heaven, bunce, godsend -->
       <SynsetRelation relType="hyponym" target="ewn-07493085-n"/> <!-- crash, collapse -->
       <SynsetRelation relType="hyponym" target="ewn-07494665-n"/> <!-- supervention -->
+      <SynsetRelation relType="hypernym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- concomitant, attendant, accompaniment, co-occurrence -->
     <Synset id="ewn-07299259-n" ili="i74971" partOfSpeech="n" dc:subject="noun.event">
@@ -9237,7 +9240,6 @@
     <Synset id="ewn-07303344-n" ili="i74993" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an event characteristic of persons forming groups</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00029677-n"/> <!-- event -->
-      <SynsetRelation relType="hyponym" target="ewn-06631572-n"/> <!-- show -->
       <SynsetRelation relType="hyponym" target="ewn-07461861-n"/> <!-- social function, social occasion, function, occasion, affair -->
       <SynsetRelation relType="hyponym" target="ewn-07470798-n"/> <!-- sellout -->
       <SynsetRelation relType="hyponym" target="ewn-07470961-n"/> <!-- contest, competition -->
@@ -10929,7 +10931,7 @@
     </Synset>
     <!-- demolition, destruction, wipeout -->
     <Synset id="ewn-07349090-n" ili="i75236" partOfSpeech="n" dc:subject="noun.event">
-      <Definition>an event (or the result of an event) that completely destroys something</Definition>
+      <Definition>an event that completely destroys something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07306035-n"/> <!-- ending, finish, conclusion -->
       <SynsetRelation relType="hyponym" target="ewn-07345428-n"/> <!-- disintegration, annihilation -->
       <SynsetRelation relType="hyponym" target="ewn-07345613-n"/> <!-- obliteration, eradication -->
@@ -11696,6 +11698,7 @@
       <SynsetRelation relType="hyponym" target="ewn-07371570-n"/> <!-- attrition -->
       <SynsetRelation relType="hyponym" target="ewn-07437400-n"/> <!-- dwindling away, dwindling -->
       <SynsetRelation relType="hyponym" target="ewn-07437601-n"/> <!-- waning -->
+      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
       <Example>&quot;there was a decrease in his temperature as the fever subsided&quot;</Example>
       <Example>&quot;there was a sharp drop-off in sales&quot;</Example>
     </Synset>
@@ -13774,7 +13777,6 @@
       <Definition>increase in density</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07371276-n"/> <!-- increase -->
       <SynsetRelation relType="hyponym" target="ewn-07433833-n"/> <!-- compression, densification, concretion, compaction -->
-      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
     </Synset>
     <!-- explosion -->
     <Synset id="ewn-07428668-n" ili="i75674" partOfSpeech="n" dc:subject="noun.event">
@@ -13952,7 +13954,7 @@
     <!-- rarefaction -->
     <Synset id="ewn-07434008-n" ili="i75700" partOfSpeech="n" dc:subject="noun.event">
       <Definition>a decrease in the density of something</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07428499-n"/> <!-- concentration -->
+      <SynsetRelation relType="hypernym" target="ewn-07370487-n"/> <!-- drop-off, decrease, lessening -->
       <Example>&quot;a sound wave causes periodic rarefactions in its medium&quot;</Example>
     </Synset>
     <!-- preservation, conservation -->
@@ -15023,7 +15025,7 @@
     </Synset>
     <!-- tea party -->
     <Synset id="ewn-07465063-n" ili="i75868" partOfSpeech="n" dc:subject="noun.event">
-      <Definition>a party at which tea is served</Definition>
+      <Definition>a party or reception at which tea is served</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07462241-n"/> <!-- party -->
     </Synset>
     <!-- whist drive -->
@@ -16188,7 +16190,7 @@
       <Definition>a religious ceremonial or ritual observance that is held to be an affair of the individual conscience because it is neither forbidden nor enjoined by the scriptures.</Definition>
       <ILIDefinition>a religious ceremonial or ritual observance that is held to be an affair of the individual conscience because it is neither forbidden nor enjoined by the scriptures.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07465442-n"/> <!-- ceremonial, ceremonial occasion, ceremony, observance -->
-      <Example> For all of the wild-eyed (and completely sectarian) assertions floating around the LCMS that ordination is a mere adiaphoron, that &quot;laying on of hands&quot; does not mean ritual ordination but rather a democratic election, that ordination confers nothing - I have yet to ever read about anyone actually graduating seminary and taking a call to a congregation and choosing to forgo the rite of ordination.</Example>
+      <Example>For all of the wild-eyed (and completely sectarian) assertions floating around the LCMS that ordination is a mere adiaphoron, that &quot;laying on of hands&quot; does not mean ritual ordination but rather a democratic election, that ordination confers nothing - I have yet to ever read about anyone actually graduating seminary and taking a call to a congregation and choosing to forgo the rite of ordination.</Example>
     </Synset>
     <Synset id="ewn-92443554-n" ili="in" partOfSpeech="n" dc:subject="noun.event" dc:source="plWordNet 4.0">
       <Definition>(mechanics) Motion with a continually decreasing velocity.</Definition>

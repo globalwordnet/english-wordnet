@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -4704,6 +4704,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-distil-v">
       <Lemma writtenForm="distil" partOfSpeech="v"/>
+      <Form writtenForm="distilled"/>
+      <Form writtenForm="distilling"/>
       <Sense id="ewn-distil-v-00068238-02" n="3" synset="ewn-00068238-v" dc:identifier="distil%2:29:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-distil-v-00068238-02"/>
     </LexicalEntry>
@@ -6692,6 +6694,8 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-distill-v">
       <Lemma writtenForm="distill" partOfSpeech="v"/>
+      <Form writtenForm="distilled"/>
+      <Form writtenForm="distilling"/>
       <Sense id="ewn-distill-v-00068238-01" n="4" synset="ewn-00068238-v" dc:identifier="distill%2:29:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-distill-v-00068238-01"/>
     </LexicalEntry>
@@ -7704,6 +7708,7 @@
     <Synset id="ewn-00008792-v" ili="i21811" partOfSpeech="v" dc:subject="verb.body">
       <Definition>partly close one&apos;s eyes, as when hit by direct blinding light</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00033592-v"/> <!-- look -->
+      <SynsetRelation relType="hypernym" target="ewn-02169748-v"/>
       <Example>&quot;The driver squinted as the sun hit his windshield&quot;</Example>
     </Synset>
     <!-- wince -->
@@ -8546,9 +8551,10 @@
     </Synset>
     <!-- look -->
     <Synset id="ewn-00033592-v" ili="i21933" partOfSpeech="v" dc:subject="verb.body">
-      <Definition>have a certain outward or facial expression</Definition>
+      <Definition>to physically appear a certain way to another individual or group</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
       <SynsetRelation relType="hyponym" target="ewn-00008792-v"/> <!-- squint -->
+      <SynsetRelation relType="hyponym" target="ewn-02134989-v"/> <!-- look -->
       <Example>&quot;How does she look?&quot;</Example>
       <Example>&quot;The child looks unhappy&quot;</Example>
       <Example>&quot;She looked pale after the surgery&quot;</Example>

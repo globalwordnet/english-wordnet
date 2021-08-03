@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -3957,7 +3957,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-murphy-n">
       <Lemma writtenForm="murphy" partOfSpeech="n"/>
-      <Sense id="ewn-murphy-n-07726361-04" n="0" synset="ewn-07726361-n" dc:identifier="murphy%1:13:00::"/>
+      <Sense id="ewn-murphy-n-07726361-04" n="0" synset="ewn-07726361-n" dc:identifier="murphy%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-bloody_shame-n">
       <Lemma writtenForm="bloody shame" partOfSpeech="n"/>
@@ -5187,7 +5189,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-spud-n">
       <Lemma writtenForm="spud" partOfSpeech="n"/>
-      <Sense id="ewn-spud-n-07726361-05" n="0" synset="ewn-07726361-n" dc:identifier="spud%1:13:00::"/>
+      <Sense id="ewn-spud-n-07726361-05" n="0" synset="ewn-07726361-n" dc:identifier="spud%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-gnocchi-n">
       <Lemma writtenForm="gnocchi" partOfSpeech="n"/>
@@ -6222,7 +6226,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-tater-n">
       <Lemma writtenForm="tater" partOfSpeech="n"/>
-      <Sense id="ewn-tater-n-07726361-06" n="0" synset="ewn-07726361-n" dc:identifier="tater%1:13:00::"/>
+      <Sense id="ewn-tater-n-07726361-06" n="0" synset="ewn-07726361-n" dc:identifier="tater%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-whiskey-n">
       <Lemma writtenForm="whiskey" partOfSpeech="n"/>
@@ -14582,6 +14588,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-sole-n">
       <Lemma writtenForm="sole" partOfSpeech="n"/>
+      <Form writtenForm="soles"/>
       <Sense id="ewn-sole-n-07807250-01" n="1" synset="ewn-07807250-n" dc:identifier="sole%1:13:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-club_soda-n">
@@ -15574,7 +15581,6 @@
     <Synset id="ewn-07571428-n" ili="i76470" partOfSpeech="n" dc:subject="noun.food">
       <Definition>any solid substance (as opposed to liquid) that is used as a source of nourishment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15071467-n"/> <!-- solid -->
-      <SynsetRelation relType="holo_part" target="ewn-00021445-n"/> <!-- food, nutrient -->
       <SynsetRelation relType="hyponym" target="ewn-07579074-n"/> <!-- leftovers -->
       <SynsetRelation relType="hyponym" target="ewn-07588277-n"/> <!-- fresh foods, fresh food -->
       <SynsetRelation relType="hyponym" target="ewn-07609120-n"/> <!-- convenience food -->
@@ -15598,6 +15604,7 @@
       <SynsetRelation relType="hyponym" target="ewn-90014051-n"/>
       <SynsetRelation relType="hyponym" target="ewn-90017071-n"/>
       <SynsetRelation relType="hyponym" target="ewn-90011371-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-00021445-n"/> <!-- food, nutrient -->
       <Example>&quot;food and drink&quot;</Example>
     </Synset>
     <!-- comfort food -->
@@ -16398,7 +16405,7 @@
     </Synset>
     <!-- brunch -->
     <Synset id="ewn-07590488-n" ili="i76566" partOfSpeech="n" dc:subject="noun.food">
-      <Definition>combination breakfast and lunch; usually served in late morning</Definition>
+      <Definition>combination of breakfast and lunch; usually served in late morning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07589261-n"/> <!-- meal, repast -->
       <SynsetRelation relType="exemplifies" target="ewn-06299307-n"/> <!-- blend, portmanteau word, portmanteau -->
     </Synset>
@@ -32327,8 +32334,8 @@
       <SynsetRelation relType="hypernym" target="ewn-07711710-n"/> <!-- sandwich -->
     </Synset>
     <Synset id="ewn-90016061-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
-      <Definition>Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</Definition>
-      <ILIDefinition>Spanish traditional beverage,  made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</ILIDefinition>
+      <Definition>Spanish traditional beverage, made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</Definition>
+      <ILIDefinition>Spanish traditional beverage, made of ground almonds, sesame seeds, rice, barley, tigernuts (chufas), or melon seeds</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07897775-n"/> <!-- beverage, potable, drink, drinkable -->
     </Synset>
     <Synset id="ewn-90014051-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="Colloquial WordNet">
@@ -32370,8 +32377,8 @@
       <SynsetRelation relType="hypernym" target="ewn-07673512-n"/> <!-- steak -->
     </Synset>
     <Synset id="ewn-92406907-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
-      <Definition> a beverage brewed from lightly oxidized tea leaves.</Definition>
-      <ILIDefinition> a beverage brewed from lightly oxidized tea leaves.</ILIDefinition>
+      <Definition>a beverage brewed from lightly oxidized tea leaves.</Definition>
+      <ILIDefinition>a beverage brewed from lightly oxidized tea leaves.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07949514-n"/> <!-- tea -->
     </Synset>
     <Synset id="ewn-92412619-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
@@ -32391,8 +32398,8 @@
       <SynsetRelation relType="hypernym" target="ewn-07845388-n"/> <!-- sauce -->
     </Synset>
     <Synset id="ewn-92414341-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
-      <Definition>a sweet cherry-flavored liqueur. </Definition>
-      <ILIDefinition>a sweet cherry-flavored liqueur. </ILIDefinition>
+      <Definition>a sweet cherry-flavored liqueur.</Definition>
+      <ILIDefinition>a sweet cherry-flavored liqueur.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
     </Synset>
     <Synset id="ewn-92429235-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
@@ -32445,7 +32452,7 @@
       <Definition>a liqueur infused with raspberries, rasberry juice, or raspberry flavoring.</Definition>
       <ILIDefinition>a liqueur infused with raspberries, rasberry juice, or raspberry flavoring.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
-      <Example>Homemade raspberry liqueur is a good remedy for common cold. </Example>
+      <Example>Homemade raspberry liqueur is a good remedy for common cold.</Example>
     </Synset>
     <Synset id="ewn-92411404-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
       <Definition>a Polish mead, made using three units of water for each unit of honey.</Definition>
@@ -32490,7 +32497,7 @@
       <Definition>vodka distilled from rye grains.</Definition>
       <ILIDefinition>vodka distilled from rye grains.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07922351-n"/> <!-- vodka -->
-      <Example>Among grain vodkas, rye and wheat vodkas are generally considered superior. </Example>
+      <Example>Among grain vodkas, rye and wheat vodkas are generally considered superior.</Example>
     </Synset>
     <Synset id="ewn-92412626-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
       <Definition>a variant of sour rye soup made with wheat flour instead of soured rye flour.</Definition>
@@ -32511,7 +32518,7 @@
       <Definition>sugar in the form of large crystals, often used for decoration.</Definition>
       <ILIDefinition>sugar in the form of large crystals, often used for decoration.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07875260-n"/> <!-- sugar, refined sugar -->
-      <Example>Rock sugar may look fancy, but it takes much longer to dissolve. </Example>
+      <Example>Rock sugar may look fancy, but it takes much longer to dissolve.</Example>
     </Synset>
     <Synset id="ewn-92426607-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
       <Definition>ritual drink prepared from Haoma plant.</Definition>
@@ -32523,7 +32530,7 @@
       <Definition>an alcoholic beverage made from cranberries.</Definition>
       <ILIDefinition>an alcoholic beverage made from cranberries.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07917827-n"/> <!-- hard drink, John Barleycorn, spirits, liquor, hard liquor, strong drink, booze -->
-      <Example> Awhile back, King-Man&apos;s colleague Mary told me she often makes her own cranberry liqueur this time of year.</Example>
+      <Example>Awhile back, King-Man&apos;s colleague Mary told me she often makes her own cranberry liqueur this time of year.</Example>
     </Synset>
     <Synset id="ewn-92412660-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
       <Definition>any of a variety of strong alcoholic drinks made of walnuts.</Definition>
@@ -32578,7 +32585,7 @@
       <Definition>any of a variety of sweet alcoholic drinks made from apricots.</Definition>
       <ILIDefinition>any of a variety of sweet alcoholic drinks made from apricots.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
-      <Example>Apricot brandy is my favourite type of apricot liqueur. </Example>
+      <Example>Apricot brandy is my favourite type of apricot liqueur.</Example>
     </Synset>
     <Synset id="ewn-92413825-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
       <Definition>a dried rhizome or its powdered form of Kaempferia galanga, used in cooking in Indonesia.</Definition>
@@ -32647,8 +32654,8 @@
       <SynsetRelation relType="hypernym" target="ewn-07906725-n"/> <!-- mead -->
     </Synset>
     <Synset id="ewn-92413738-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
-      <Definition>any of a variety of strong alcoholic liqueurs made from peaches. </Definition>
-      <ILIDefinition>any of a variety of strong alcoholic liqueurs made from peaches. </ILIDefinition>
+      <Definition>any of a variety of strong alcoholic liqueurs made from peaches.</Definition>
+      <ILIDefinition>any of a variety of strong alcoholic liqueurs made from peaches.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
       <Example>This homemade peach liqueur is delicious and easy to make.</Example>
     </Synset>
@@ -32734,8 +32741,8 @@
       <Example dc:source="https://en.wikipedia.org">In the absence of tulsi leaves, curry leaves are used for rituals, such as pujas.</Example>
     </Synset>
     <Synset id="ewn-92411191-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
-      <Definition>liqueur infused with blueberries, blueberry juice, or blueberry flavoring. </Definition>
-      <ILIDefinition>liqueur infused with blueberries, blueberry juice, or blueberry flavoring. </ILIDefinition>
+      <Definition>liqueur infused with blueberries, blueberry juice, or blueberry flavoring.</Definition>
+      <ILIDefinition>liqueur infused with blueberries, blueberry juice, or blueberry flavoring.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
       <Example>Blueberry liqueur is a flavorful, versatile alcoholic drink that goes great simply on the rocks.</Example>
     </Synset>
@@ -32831,8 +32838,8 @@
       <SynsetRelation relType="hypernym" target="ewn-14610438-n"/>
     </Synset>
     <Synset id="ewn-92413807-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">
-      <Definition>any of a variety of strong alcoholic drinks made of gooseberies.  </Definition>
-      <ILIDefinition>any of a variety of strong alcoholic drinks made of gooseberies.  </ILIDefinition>
+      <Definition>any of a variety of strong alcoholic drinks made of gooseberies.</Definition>
+      <ILIDefinition>any of a variety of strong alcoholic drinks made of gooseberies.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07924183-n"/> <!-- cordial, liqueur -->
     </Synset>
     <Synset id="ewn-92413639-n" ili="in" partOfSpeech="n" dc:subject="noun.food" dc:source="plWordNet 4.0">

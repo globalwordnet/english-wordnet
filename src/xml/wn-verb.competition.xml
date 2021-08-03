@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <Lexicon id="ewn" 
-           label="English WordNet" 
+  <Lexicon id="ewn"
+           label="English WordNet"
            language="en"
            email="john@mccr.ae"
            license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -398,9 +398,9 @@
     <LexicalEntry id="ewn-rack_up-v">
       <Lemma writtenForm="rack up" partOfSpeech="v"/>
       <Sense id="ewn-rack_up-v-01105408-05" n="2" synset="ewn-01105408-v" dc:identifier="rack_up%2:33:00::"/>
-      <Sense id="ewn-rack_up-v-01114241-04" n="0" synset="ewn-01114241-v" dc:identifier="rack_up%2:33:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rack_up-v-01114241-04"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rack_up-v-01105408-05 ewn-rack_up-v-01114241-04"/>
+      <Sense id="ewn-rack_up-v-01114241-03" n="0" synset="ewn-01114241-v" dc:identifier="rack_up%2:33:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rack_up-v-01114241-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rack_up-v-01105408-05 ewn-rack_up-v-01114241-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-rack_up-v-01105408-05"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-pop-v">
@@ -494,6 +494,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-caddy-v">
       <Lemma writtenForm="caddy" partOfSpeech="v"/>
+      <Form writtenForm="caddied"/>
+      <Form writtenForm="caddies"/>
+      <Form writtenForm="caddying"/>
       <Sense id="ewn-caddy-v-01099271-02" n="0" synset="ewn-01099271-v" dc:identifier="caddy%2:33:00::">
         <SenseRelation relType="derivation" target="ewn-caddy-n-02938771-01"/> <!-- tea caddy, caddy -->
         </Sense>
@@ -1755,13 +1758,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-tackle-v-01152630-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-deploy-v">
-      <Lemma writtenForm="deploy" partOfSpeech="v"/>
-      <Sense id="ewn-deploy-v-01151793-01" n="0" synset="ewn-01151793-v" dc:identifier="deploy%2:33:00::">
-        <SenseRelation relType="derivation" target="ewn-deployment-n-01145922-01"/> <!-- deployment -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-deploy-v-01151793-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-re-arm-v">
       <Lemma writtenForm="re-arm" partOfSpeech="v"/>
       <Sense id="ewn-re-arm-v-01089970-02" n="0" synset="ewn-01089970-v" dc:identifier="re-arm%2:33:00::"/>
@@ -2186,9 +2182,6 @@
     <LexicalEntry id="ewn-hit-v">
       <Lemma writtenForm="hit" partOfSpeech="v"/>
       <Form writtenForm="hitting"/>
-      <Sense id="ewn-hit-v-01114241-02" n="7" synset="ewn-01114241-v" dc:identifier="hit%2:33:02::">
-        <SenseRelation relType="derivation" target="ewn-hit-n-00044640-01"/> <!-- hit -->
-        </Sense>
       <Sense id="ewn-hit-v-01126313-02" n="9" synset="ewn-01126313-v" dc:identifier="hit%2:33:00::"/>
       <Sense id="ewn-hit-v-01139564-02" n="5" synset="ewn-01139564-v" dc:identifier="hit%2:33:01::">
         <SenseRelation relType="derivation" target="ewn-hitting-n-00126449-02"/> <!-- hitting, striking, hit -->
@@ -2197,8 +2190,8 @@
         <SenseRelation relType="derivation" target="ewn-hitting-n-00126449-02"/> <!-- hitting, striking, hit -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-hit-v-01126313-02 ewn-hit-v-01139564-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-hit-v-01114241-02 ewn-hit-v-01126313-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-hit-v-01114241-02 ewn-hit-v-01126313-02 ewn-hit-v-01139564-02 ewn-hit-v-01154862-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-hit-v-01126313-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-hit-v-01126313-02 ewn-hit-v-01139564-02 ewn-hit-v-01154862-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-hit-v-01126313-02"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-hit-v-01126313-02 ewn-hit-v-01154862-01"/>
     </LexicalEntry>
@@ -3982,11 +3975,11 @@
     <LexicalEntry id="ewn-tally-v">
       <Lemma writtenForm="tally" partOfSpeech="v"/>
       <Form writtenForm="tallied"/>
-      <Sense id="ewn-tally-v-01114241-03" n="1" synset="ewn-01114241-v" dc:identifier="tally%2:33:00::">
+      <Sense id="ewn-tally-v-01114241-02" n="1" synset="ewn-01114241-v" dc:identifier="tally%2:33:00::">
         <SenseRelation relType="derivation" target="ewn-tally-n-00190414-02"/> <!-- tally, run -->
         </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-tally-v-01114241-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tally-v-01114241-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-tally-v-01114241-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tally-v-01114241-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-station-v">
       <Lemma writtenForm="station" partOfSpeech="v"/>
@@ -4096,6 +4089,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-caddie-v">
       <Lemma writtenForm="caddie" partOfSpeech="v"/>
+      <Form writtenForm="caddied"/>
+      <Form writtenForm="caddies"/>
+      <Form writtenForm="caddying"/>
       <Sense id="ewn-caddie-v-01099271-01" n="0" synset="ewn-01099271-v" dc:identifier="caddie%2:33:00::">
         <SenseRelation relType="derivation" target="ewn-caddie-n-09905855-01"/> <!-- golf caddie, caddie -->
         </Sense>
@@ -4295,7 +4291,7 @@
         <SenseRelation relType="derivation" target="ewn-place-n-06495143-01"/> <!-- position, place -->
         </Sense>
       <Sense id="ewn-place-v-01091334-04" n="13" synset="ewn-01091334-v" dc:identifier="place%2:33:00::">
-        <SenseRelation relType="derivation" target="ewn-place-n-00587299-07"/> <!-- position, situation, berth, place, spot, post, office, billet -->
+        <SenseRelation relType="derivation" target="ewn-place-n-00587299-05"/> <!-- position, situation, berth, place, spot, post, office, billet -->
         </Sense>
       <Sense id="ewn-place-v-01153025-03" n="6" synset="ewn-01153025-v" dc:identifier="place%2:33:03::">
         <SenseRelation relType="derivation" target="ewn-place-n-08682181-02"/> <!-- place, spot, topographic point -->
@@ -6410,9 +6406,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01117829-v"/> <!-- equalize, get even, equalise -->
       <SynsetRelation relType="hyponym" target="ewn-02360592-v"/> <!-- make, have, get -->
       <SynsetRelation relType="is_caused_by" target="ewn-01116045-v"/> <!-- drive in -->
-      <Example>&quot;The home team scored many times&quot;</Example>
-      <Example>&quot;He hit a home run&quot;</Example>
-      <Example>&quot;He hit .300 in the past season&quot;</Example>
+      <Example>&quot;The home team is racking up points&quot;</Example>
     </Synset>
     <!-- score -->
     <Synset id="ewn-01114789-v" ili="i27157" partOfSpeech="v" dc:subject="verb.competition">
@@ -7821,18 +7815,11 @@
       <Definition>protect or fight for as a champion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02459338-v"/> <!-- back, support, plunk for, indorse, endorse, plump for -->
     </Synset>
-    <!-- deploy -->
-    <Synset id="ewn-01151793-v" ili="i27371" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>place troops or weapons in battle formation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01991174-v"/> <!-- position -->
-      <SynsetRelation relType="hyponym" target="ewn-01151936-v"/> <!-- play -->
-    </Synset>
     <!-- play -->
     <Synset id="ewn-01151936-v" ili="i27372" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>put (a card or piece) into play during a game, or act strategically as if in a card game</Definition>
       <SynsetRelation relType="similar" target="ewn-01082266-v"/> <!-- play -->
       <SynsetRelation relType="similar" target="ewn-01082457-v"/> <!-- play -->
-      <SynsetRelation relType="hypernym" target="ewn-01151793-v"/> <!-- deploy -->
       <SynsetRelation relType="hyponym" target="ewn-01152334-v"/> <!-- pitch -->
       <SynsetRelation relType="hyponym" target="ewn-01152476-v"/> <!-- cover -->
       <SynsetRelation relType="hyponym" target="ewn-02305510-v"/> <!-- declare -->
