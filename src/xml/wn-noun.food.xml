@@ -3957,7 +3957,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-murphy-n">
       <Lemma writtenForm="murphy" partOfSpeech="n"/>
-      <Sense id="ewn-murphy-n-07726361-04" n="0" synset="ewn-07726361-n" dc:identifier="murphy%1:13:00::"/>
+      <Sense id="ewn-murphy-n-07726361-04" n="0" synset="ewn-07726361-n" dc:identifier="murphy%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-bloody_shame-n">
       <Lemma writtenForm="bloody shame" partOfSpeech="n"/>
@@ -5187,7 +5189,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-spud-n">
       <Lemma writtenForm="spud" partOfSpeech="n"/>
-      <Sense id="ewn-spud-n-07726361-05" n="0" synset="ewn-07726361-n" dc:identifier="spud%1:13:00::"/>
+      <Sense id="ewn-spud-n-07726361-05" n="0" synset="ewn-07726361-n" dc:identifier="spud%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-gnocchi-n">
       <Lemma writtenForm="gnocchi" partOfSpeech="n"/>
@@ -6222,7 +6226,9 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-tater-n">
       <Lemma writtenForm="tater" partOfSpeech="n"/>
-      <Sense id="ewn-tater-n-07726361-06" n="0" synset="ewn-07726361-n" dc:identifier="tater%1:13:00::"/>
+      <Sense id="ewn-tater-n-07726361-06" n="0" synset="ewn-07726361-n" dc:identifier="tater%1:13:00::">
+        <SenseRelation relType="exemplifies" target="ewn-slang-n-07171981-01"/>
+        </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-whiskey-n">
       <Lemma writtenForm="whiskey" partOfSpeech="n"/>
@@ -15575,7 +15581,6 @@
     <Synset id="ewn-07571428-n" ili="i76470" partOfSpeech="n" dc:subject="noun.food">
       <Definition>any solid substance (as opposed to liquid) that is used as a source of nourishment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15071467-n"/> <!-- solid -->
-      <SynsetRelation relType="holo_part" target="ewn-00021445-n"/> <!-- food, nutrient -->
       <SynsetRelation relType="hyponym" target="ewn-07579074-n"/> <!-- leftovers -->
       <SynsetRelation relType="hyponym" target="ewn-07588277-n"/> <!-- fresh foods, fresh food -->
       <SynsetRelation relType="hyponym" target="ewn-07609120-n"/> <!-- convenience food -->
@@ -15599,6 +15604,7 @@
       <SynsetRelation relType="hyponym" target="ewn-90014051-n"/>
       <SynsetRelation relType="hyponym" target="ewn-90017071-n"/>
       <SynsetRelation relType="hyponym" target="ewn-90011371-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-00021445-n"/> <!-- food, nutrient -->
       <Example>&quot;food and drink&quot;</Example>
     </Synset>
     <!-- comfort food -->

@@ -639,6 +639,7 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-13538756-n"/> <!-- morphogenesis -->
       <SynsetRelation relType="hyponym" target="ewn-92419757-n"/>
       <SynsetRelation relType="hyponym" target="ewn-01316379-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
     </Synset>
     <!-- benthos -->
     <Synset id="ewn-00005787-n" ili="i35554" partOfSpeech="n" dc:subject="noun.Tops">
@@ -720,7 +721,6 @@
     <Synset id="ewn-00007347-n" ili="i35561" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any entity that produces an effect or is responsible for events or results</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
-      <SynsetRelation relType="hyponym" target="ewn-00007846-n"/> <!-- soul, someone, individual, somebody, mortal, person -->
       <SynsetRelation relType="hyponym" target="ewn-09213796-n"/> <!-- agent -->
       <SynsetRelation relType="hyponym" target="ewn-09526814-n"/> <!-- nature -->
       <SynsetRelation relType="hyponym" target="ewn-09527009-n"/> <!-- supernatural, occult -->
@@ -736,12 +736,12 @@
       <SynsetRelation relType="hyponym" target="ewn-14564166-n"/> <!-- cause of death, killer -->
       <SynsetRelation relType="hyponym" target="ewn-14564646-n"/> <!-- danger -->
       <SynsetRelation relType="hyponym" target="ewn-14802595-n"/> <!-- agent -->
+      <SynsetRelation relType="hyponym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- soul, someone, individual, somebody, mortal, person -->
     <Synset id="ewn-00007846-n" ili="i35562" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
-      <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
       <SynsetRelation relType="holo_member" target="ewn-07958392-n"/> <!-- people -->
       <SynsetRelation relType="mero_part" target="ewn-04624919-n"/> <!-- personality -->
       <SynsetRelation relType="mero_part" target="ewn-05224424-n"/> <!-- shape, anatomy, material body, frame, flesh, human body, bod, physique, chassis, form, figure, physical body, build, soma -->
@@ -1468,7 +1468,6 @@
       <Definition>any substance that can be metabolized by an animal to give energy and build tissue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-01467485-n"/> <!-- yolk, vitellus -->
-      <SynsetRelation relType="mero_part" target="ewn-07571428-n"/> <!-- food, solid food -->
       <SynsetRelation relType="hyponym" target="ewn-07571971-n"/> <!-- comfort food -->
       <SynsetRelation relType="hyponym" target="ewn-07572202-n"/> <!-- victual, eatable, victuals, pabulum, edible, comestible -->
       <SynsetRelation relType="hyponym" target="ewn-07576217-n"/> <!-- fare -->
@@ -1483,6 +1482,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14606896-n"/> <!-- micronutrient -->
       <SynsetRelation relType="hyponym" target="ewn-14607580-n"/> <!-- chyme -->
       <SynsetRelation relType="hyponym" target="ewn-14923479-n"/> <!-- medium, culture medium -->
+      <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
     </Synset>
     <!-- nutrient -->
     <Synset id="ewn-00021914-n" ili="i35571" partOfSpeech="n" dc:subject="noun.Tops">

@@ -8301,6 +8301,7 @@
       <Sense id="ewn-rarefaction-n-07434008-01" n="0" synset="ewn-07434008-n" dc:identifier="rarefaction%1:11:00::">
         <SenseRelation relType="derivation" target="ewn-rarefy-v-00571460-01"/> <!-- rarefy -->
         <SenseRelation relType="derivation" target="ewn-rarefy-v-00226805-01"/> <!-- attenuate, rarefy -->
+        <SenseRelation relType="antonym" target="ewn-compaction-n-07433833-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-withering-n">
@@ -8633,6 +8634,7 @@
       <Lemma writtenForm="compaction" partOfSpeech="n"/>
       <Sense id="ewn-compaction-n-07433833-01" n="0" synset="ewn-07433833-n" dc:identifier="compaction%1:11:00::">
         <SenseRelation relType="derivation" target="ewn-compact-v-01486664-01"/> <!-- compact, pack -->
+        <SenseRelation relType="antonym" target="ewn-rarefaction-n-07434008-01"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-ceremonial-n">
@@ -11696,6 +11698,7 @@
       <SynsetRelation relType="hyponym" target="ewn-07371570-n"/> <!-- attrition -->
       <SynsetRelation relType="hyponym" target="ewn-07437400-n"/> <!-- dwindling away, dwindling -->
       <SynsetRelation relType="hyponym" target="ewn-07437601-n"/> <!-- waning -->
+      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
       <Example>&quot;there was a decrease in his temperature as the fever subsided&quot;</Example>
       <Example>&quot;there was a sharp drop-off in sales&quot;</Example>
     </Synset>
@@ -13774,7 +13777,6 @@
       <Definition>increase in density</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07371276-n"/> <!-- increase -->
       <SynsetRelation relType="hyponym" target="ewn-07433833-n"/> <!-- compression, densification, concretion, compaction -->
-      <SynsetRelation relType="hyponym" target="ewn-07434008-n"/> <!-- rarefaction -->
     </Synset>
     <!-- explosion -->
     <Synset id="ewn-07428668-n" ili="i75674" partOfSpeech="n" dc:subject="noun.event">
@@ -13952,7 +13954,7 @@
     <!-- rarefaction -->
     <Synset id="ewn-07434008-n" ili="i75700" partOfSpeech="n" dc:subject="noun.event">
       <Definition>a decrease in the density of something</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07428499-n"/> <!-- concentration -->
+      <SynsetRelation relType="hypernym" target="ewn-07370487-n"/> <!-- drop-off, decrease, lessening -->
       <Example>&quot;a sound wave causes periodic rarefactions in its medium&quot;</Example>
     </Synset>
     <!-- preservation, conservation -->
