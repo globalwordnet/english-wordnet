@@ -5510,11 +5510,6 @@
       <Sense id="ewn-clapperclaw-v-01309226-01" n="0" synset="ewn-01309226-v" dc:identifier="clapperclaw%2:35:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-clapperclaw-v-01309226-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-grass_over-v">
-      <Lemma writtenForm="grass over" partOfSpeech="v"/>
-      <Sense id="ewn-grass_over-v-01211645-02" n="0" synset="ewn-01211645-v" dc:identifier="grass_over%2:35:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-grass_over-v-01211645-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-reshuffle-v">
       <Lemma writtenForm="reshuffle" partOfSpeech="v"/>
       <Sense id="ewn-reshuffle-v-01421613-01" n="0" synset="ewn-01421613-v" dc:identifier="reshuffle%2:35:00::">
@@ -7436,14 +7431,10 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-grass-v">
       <Lemma writtenForm="grass" partOfSpeech="v"/>
-      <Sense id="ewn-grass-v-01211645-01" n="3" synset="ewn-01211645-v" dc:identifier="grass%2:35:02::">
-        <SenseRelation relType="derivation" target="ewn-grass-n-12122650-01"/> <!-- grass -->
-        </Sense>
       <Sense id="ewn-grass-v-01583197-01" n="2" synset="ewn-01583197-v" dc:identifier="grass%2:35:01::"/>
       <Sense id="ewn-grass-v-01605953-01" n="1" synset="ewn-01605953-v" dc:identifier="grass%2:35:00::">
         <SenseRelation relType="derivation" target="ewn-grass-n-12122650-01"/> <!-- grass -->
         </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-grass-v-01211645-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-grass-v-01583197-01 ewn-grass-v-01605953-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-blur-v">
@@ -23174,6 +23165,10 @@
       <Sense id="ewn-pussyfuck-v-90001951-01" n="0" synset="ewn-90001951-v" dc:identifier="pussyfuck%2:35:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-pussyfuck-v-90001951-01"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-grass_over-v">
+      <Lemma writtenForm="grass over" partOfSpeech="v"/>
+      <Sense id="ewn-grass_over-v-01605953-02" n="0" synset="ewn-01605953-v" dc:identifier="grass_over%2:35:01::"/>
+    </LexicalEntry>
     <!-- meet, touch, adjoin, contact -->
     <Synset id="ewn-01208316-v" ili="i27653" partOfSpeech="v" dc:subject="verb.contact">
       <Definition>be in direct physical contact with; make contact</Definition>
@@ -23273,7 +23268,6 @@
       <SynsetRelation relType="hyponym" target="ewn-00362148-v"/> <!-- mist, mist over -->
       <SynsetRelation relType="hyponym" target="ewn-01211328-v"/> <!-- glaciate -->
       <SynsetRelation relType="hyponym" target="ewn-01211516-v"/> <!-- strew -->
-      <SynsetRelation relType="hyponym" target="ewn-01211645-v"/> <!-- grass, grass over -->
       <SynsetRelation relType="hyponym" target="ewn-01264885-v"/> <!-- cake, coat -->
       <SynsetRelation relType="hyponym" target="ewn-01341976-v"/> <!-- submerge, drown, overwhelm -->
       <SynsetRelation relType="hyponym" target="ewn-01608325-v"/> <!-- mantle -->
@@ -23308,11 +23302,6 @@
       <Definition>cover; be dispersed over</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01210571-v"/> <!-- cover, spread over -->
       <Example>Dead bodies strewed the ground</Example>
-    </Synset>
-    <!-- grass, grass over -->
-    <Synset id="ewn-01211645-v" ili="i27667" partOfSpeech="v" dc:subject="verb.contact">
-      <Definition>cover with grass</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01210571-v"/> <!-- cover, spread over -->
     </Synset>
     <!-- strike, hit -->
     <Synset id="ewn-01211755-v" ili="i27668" partOfSpeech="v" dc:subject="verb.contact">

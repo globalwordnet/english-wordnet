@@ -8998,6 +8998,10 @@
       <Lemma writtenForm="fine" partOfSpeech="v"/>
       <Sense id="ewn-fine-v-02312392-02" n="2" synset="ewn-02312392-v" dc:identifier="fine%2:40:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-roll_out-v">
+      <Lemma writtenForm="roll out" partOfSpeech="v"/>
+      <Sense id="ewn-roll_out-v-85549043-01" n="4" synset="ewn-85549043-v" dc:identifier="roll_out%2:40:04::"/>
+    </LexicalEntry>
     <!-- give -->
     <Synset id="ewn-02204104-v" ili="i32755" partOfSpeech="v" dc:subject="verb.possession">
       <Definition>transfer possession of something concrete or abstract to somebody</Definition>
@@ -12340,6 +12344,7 @@
       <SynsetRelation relType="hyponym" target="ewn-02233683-v"/> <!-- reallot -->
       <SynsetRelation relType="hyponym" target="ewn-02251238-v"/> <!-- deal -->
       <SynsetRelation relType="hyponym" target="ewn-02314145-v"/> <!-- apply, give -->
+      <SynsetRelation relType="hyponym" target="ewn-85549043-v"/>
       <Example>administer critical remarks to everyone present</Example>
       <Example>dole out some money</Example>
       <Example>shell out pocket money for the children</Example>
@@ -15046,6 +15051,12 @@
       <Definition>to sell marijuana on a street corner</Definition>
       <ILIDefinition>to sell marijuana on a street corner</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-02250775-v"/> <!-- deal -->
+    </Synset>
+    <Synset id="ewn-85549043-v" ili="in" partOfSpeech="v" dc:subject="verb.possession">
+      <Definition>officially distribute a new product or service to the public</Definition>
+      <ILIDefinition>officially distribute a new product or service to the public</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-02299397-v"/> <!-- dispense, dole out, deal, deal out, mete out, parcel out, distribute, administer, allot, lot, dish out, shell out -->
+      <Example>&quot;Israel has been the fastest to roll out inoculations.&quot;</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
