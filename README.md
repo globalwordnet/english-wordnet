@@ -53,4 +53,6 @@ WordNet is released under [CC-BY 4.0](LICENSE.md)
 * Bernard Bou
 * Daiki Nomura
 * David Cillessen
+* Ciara O'Loughlin
+* Cathal McGovern
 * Francis Bond
