@@ -275,8 +275,7 @@ def main():
                 errors += 1
             else:
                 sense_keys[sense.sense_key] = sense.synset
-            sb_counter = Counter(
-                sb.subcategorization_frame for sb in entry.syntactic_behaviours)
+            sb_counter = Counter(sense.subcat)
             for item, count in sb_counter.items():
                 if count > 1:
                     print(

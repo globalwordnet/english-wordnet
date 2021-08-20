@@ -40,6 +40,8 @@ def sense_from_yaml(y, lemma, pos, n):
                     map_sense_key(target), SenseRelType(rel)))
     if "sent" in y:
         s.sent = y["sent"]
+    if "subcat" in y:
+        s.subcat = y["subcat"]
     return s
 
 
@@ -70,18 +72,6 @@ def synset_from_yaml(props, id, lex_name):
                 ss.add_synset_relation(SynsetRelation(
                     "ewn-" + target, SynsetRelType(rel)))
     return ss
-
-
-def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
-    keys = set([subcat for sense in props["sense"]
-                for subcat in sense.get("subcat", [])])
-    return [
-        SyntacticBehaviour(
-            frames[k], [
-                make_sense_id(
-                    sense, lemma, pos) for sense in props["sense"] if k in sense.get(
-                    "subcat", [])]) for k in keys]
-
 
 def fix_sense_id(
         wn,
@@ -135,6 +125,7 @@ def load():
                  "https://github.com/globalwordnet/english-wordnet")
     with open("src/yaml/frames.yaml") as inp:
         frames = yaml.load(inp, Loader=CLoader)
+        wn.frames = [SyntacticBehaviour(k,v) for k,v in frames.items()]
     for f in glob("src/yaml/entries-*.yaml"):
         with open(f) as inp:
             y = yaml.load(inp, Loader=CLoader)
@@ -149,8 +140,6 @@ def load():
                             entry.add_form(Form(form))
                     for n, sense in enumerate(props["sense"]):
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
-                    entry.syntactic_behaviours = syntactic_behaviour_from_yaml(
-                        frames, props, lemma, pos)
                     entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
 
@@ -202,16 +191,16 @@ def load():
                 "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
 
-    for entry in wn.entries:
-        def find_sense_for_sb(sb_sense):
-            for sense2 in entry.senses:
-                if sense2.id[:-3] == sb_sense:
-                    return sense2.id
-            return None
-        entry.syntactic_behaviours = [SyntacticBehaviour(
-            sb.subcategorization_frame,
-            [find_sense_for_sb(sense) for sense in sb.senses])
-            for sb in entry.syntactic_behaviours]
+    #for entry in wn.entries:
+    #    def find_sense_for_sb(sb_sense):
+    #        for sense2 in entry.senses:
+    #            if sense2.id[:-3] == sb_sense:
+    #                return sense2.id
+    #        return None
+    #    entry.syntactic_behaviours = [SyntacticBehaviour(
+    #        sb.subcategorization_frame,
+    #        [find_sense_for_sb(sense) for sense in sb.senses])
+    #        for sb in entry.syntactic_behaviours]
 
     for lex_name, wn2 in by_lex_name.items():
         if os.path.exists("src/xml/wn-%s.xml" % lex_name):

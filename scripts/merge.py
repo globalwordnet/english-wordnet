@@ -63,7 +63,7 @@ def indent(elem, level=0):
 def wn_merge():
     with open("wn.xml", "w") as out:
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">
+<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">
 <LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
   <Lexicon id="ewn"
            label="English WordNet"
@@ -100,6 +100,11 @@ def wn_merge():
                 if(element.tag == "Synset"):
                     out.write(ET.tostring(element).decode() .replace(
                         " xmlns:dc=\"http://purl.org/dc/elements/1.1/\"", ""))
+        tree = ET.parse("src/xml/wn-verb.body.xml").getroot()
+        for element in tree[0]:
+            if element.tag == "SyntacticBehaviour":
+                out.write(ET.tostring(element).decode() .replace(
+                    " xmlns:dc=\"http://purl.org/dc/elements/1.1/\"", ""))
         out.write("""
   </Lexicon>
 </LexicalResource>""")

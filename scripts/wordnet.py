@@ -18,6 +18,7 @@ class Lexicon:
         self.url = url
         self.entries = []
         self.synsets = []
+        self.frames = []
         self.comments = {}
         self.id2synset = {}
         self.id2entry = {}
@@ -130,6 +131,8 @@ class Lexicon:
             entry.to_xml(xml_file, self.comments)
         for synset in self.synsets:
             synset.to_xml(xml_file, self.comments)
+        for synbeh in self.frames:
+            synbeh.to_xml(xml_file)
         xml_file.write("""  </Lexicon>
 </LexicalResource>\n""")
 
@@ -142,7 +145,6 @@ class LexicalEntry:
         self.lemma = None
         self.forms = []
         self.senses = []
-        self.syntactic_behaviours = []
         self.pronunciation = []
 
     def set_lemma(self, lemma):
@@ -155,9 +157,6 @@ class LexicalEntry:
         if not any(s.id == sense.id for s in self.senses):
             self.senses.append(sense)
 
-    def add_syntactic_behaviour(self, synbeh):
-        self.syntactic_behaviours.append(synbeh)
-
     def to_xml(self, xml_file, comments):
         xml_file.write("""    <LexicalEntry id="%s">
       <Lemma writtenForm="%s" partOfSpeech="%s"/>
@@ -166,8 +165,6 @@ class LexicalEntry:
             form.to_xml(xml_file)
         for sense in self.senses:
             sense.to_xml(xml_file, comments)
-        for synbeh in self.syntactic_behaviours:
-            synbeh.to_xml(xml_file)
         for pron in self.pronunciation:
             pron.to_xml(xml_file)
         xml_file.write("""    </LexicalEntry>
@@ -218,6 +215,7 @@ class Sense:
         self.sense_relations = []
         self.adjposition = adjposition
         self.sent = []
+        self.subcat = []
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
@@ -233,9 +231,13 @@ class Sense:
             sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
         else:
             sk_str = ""
+        if self.subcat:
+            subcat_str = " subcat=\"%s\"" % " ".join(self.subcat)
+        else:
+            subcat_str = ""
         if len(self.sense_relations) > 0:
-            xml_file.write("""      <Sense id="%s"%s synset="%s"%s>
-""" % (self.id, n_str, self.synset, sk_str))
+            xml_file.write("""      <Sense id="%s"%s%s synset="%s"%s>
+""" % (self.id, n_str, subcat_str, self.synset, sk_str))
             for rel in self.sense_relations:
                 rel.to_xml(xml_file, comments)
             xml_file.write("""        </Sense>
@@ -364,24 +366,23 @@ class SenseRelation:
 
 
 class SyntacticBehaviour:
-    def __init__(self, subcategorization_frame, senses):
+    def __init__(self, id, subcategorization_frame):
         if not isinstance(subcategorization_frame, str):
             raise "Syntactic Behaviour is not string" + \
                 str(subcategorization_frame)
         self.subcategorization_frame = subcategorization_frame
-        self.senses = senses
+        self.id = id
 
     def to_xml(self, xml_file):
         xml_file.write(
-            """      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
+            """  <SyntacticBehaviour id="%s" subcategorizationFrame="%s"/>
 """ %
-            (escape_xml_lit(
-                self.subcategorization_frame), " ".join(
-                self.senses)))
+            (self.id, escape_xml_lit(
+                self.subcategorization_frame)))
 
     def __repr__(self):
         return "SyntacticBehaviour(%s, %s)" % (
-            self.subcategorization_frame, " ".join(self.senses))
+            self.id, self.subcategorization_frame)
 
 
 class PartOfSpeech(Enum):
@@ -643,10 +644,11 @@ class WordNetContentHandler(ContentHandler):
                 SenseRelation(attrs["target"],
                               SenseRelType(attrs["relType"])))
         elif name == "SyntacticBehaviour":
-            self.entry.add_syntactic_behaviour(
-                SyntacticBehaviour(
-                    attrs["subcategorizationFrame"],
-                    attrs["senses"].split(" ")))
+            pass
+            #self.entry.add_syntactic_behaviour(
+            #    SyntacticBehaviour(
+            #        attrs["subcategorizationFrame"],
+            #        attrs["senses"].split(" ")))
         elif name == "Pronunciation":
             self.pron = ""
             self.pron_var = attrs.get("variety")
