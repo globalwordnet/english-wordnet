@@ -143,6 +143,7 @@ class LexicalEntry:
         self.forms = []
         self.senses = []
         self.syntactic_behaviours = []
+        self.pronunciation = []
 
     def set_lemma(self, lemma):
         self.lemma = lemma
@@ -167,6 +168,8 @@ class LexicalEntry:
             sense.to_xml(xml_file, comments)
         for synbeh in self.syntactic_behaviours:
             synbeh.to_xml(xml_file)
+        for pron in self.pronunciation:
+            pron.to_xml(xml_file)
         xml_file.write("""    </LexicalEntry>
 """)
 
@@ -189,6 +192,20 @@ class Form:
         xml_file.write("""      <Form writtenForm="%s"/>
 """ % escape_xml_lit(self.written_form))
 
+class Pronunciation:
+    """The pronunciation of a lemma"""
+    def __init__(self, value, variety):
+        self.value = value
+        self.variety = variety
+
+    def to_xml(self, xml_file):
+        if self.variety:
+            xml_file.write("""      <Pronunciation variety="%s">%s</Pronunciation>
+""" % (self.variety, escape_xml_lit(self.value)))
+        else:
+            xml_file.write("""      <Pronunciation>%s</Pronunciation>
+""" % (escape_xml_lit(self.value)))
+
 
 class Sense:
     """The sense links an entry to a synset"""
@@ -200,6 +217,7 @@ class Sense:
         self.sense_key = sense_key
         self.sense_relations = []
         self.adjposition = adjposition
+        self.sent = []
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
@@ -233,6 +251,7 @@ class Synset:
     def __init__(self, id, ili, part_of_speech, lex_name, source=None):
         self.id = id
         self.ili = ili
+        self.wikidata = None
         self.part_of_speech = part_of_speech
         self.lex_name = lex_name
         self.definitions = []

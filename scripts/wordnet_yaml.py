@@ -17,6 +17,8 @@ def map_sense_key(sk):
 def make_pos(y, pos):
     if "adjposition" in y:
         return y["adjposition"] + "-" + pos
+    elif len(pos) > 1:
+        return pos[:1]
     else:
         return pos
 
@@ -36,8 +38,13 @@ def sense_from_yaml(y, lemma, pos, n):
                 # Remap senses
                 s.add_sense_relation(SenseRelation(
                     map_sense_key(target), SenseRelType(rel)))
+    if "sent" in y:
+        s.sent = y["sent"]
     return s
 
+
+def pronunciation_from_yaml(props):
+    return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
 
 def synset_from_yaml(props, id, lex_name):
     if "partOfSpeech" not in props:
@@ -47,6 +54,7 @@ def synset_from_yaml(props, id, lex_name):
                 PartOfSpeech(props["partOfSpeech"]),
                 lex_name,
                 props.get("source"))
+    ss.wikidata = props.get("wikidata")
     for defn in props["definition"]:
         ss.add_definition(Definition(defn))
     if "ili" not in props:
@@ -135,7 +143,7 @@ def load():
                 for pos, props in pos_map.items():
                     entry = LexicalEntry(
                         "ewn-%s-%s" % (escape_lemma(lemma), pos))
-                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
+                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos[:1])))
                     if "form" in props:
                         for form in props["form"]:
                             entry.add_form(Form(form))
@@ -143,7 +151,9 @@ def load():
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
                     entry.syntactic_behaviours = syntactic_behaviour_from_yaml(
                         frames, props, lemma, pos)
+                    entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
+    print(wn.entry_by_id("ewn-a-n").pronunciation)
 
     for f in glob("src/yaml/*.yaml"):
         lex_name = f[9:-5]

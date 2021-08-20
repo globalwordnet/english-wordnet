@@ -109,6 +109,7 @@ def save_all_xml(wn, change_list=None):
                 e.syntactic_behaviours = [SyntacticBehaviour(
                     sb.subcategorization_frame, [s for s in sb.senses if s])
                     for sb in e.syntactic_behaviours if any(sb.senses)]
+                e.pronunciation = entry.pronunciation
                 by_lex_name[lex_name].add_entry(e)
 
     for lex_name, wn in by_lex_name.items():
