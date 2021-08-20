@@ -2754,7 +2754,7 @@
       <Pronunciation>pɹəˈdeɪt</Pronunciation>
     </LexicalEntry>
     <!-- ingest, take, have, consume, take in -->
-    <Synset id="ewn-01159300-v" ili="i27410" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01159300-v" ili="i27410" members="ewn-consume-v ewn-ingest-v ewn-take_in-v ewn-take-v ewn-have-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>serve oneself to, or consume regularly</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01164607-v"/> <!-- cannibalise, cannibalize -->
       <SynsetRelation relType="hyponym" target="ewn-01167359-v"/> <!-- use, habituate -->
@@ -2774,7 +2774,7 @@
       <Example>I don&apos;t take sugar in my coffee</Example>
     </Synset>
     <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
-    <Synset id="ewn-01159815-v" ili="i27412" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01159815-v" ili="i27412" members="ewn-consume-v ewn-eat_up-v ewn-use_up-v ewn-eat-v ewn-deplete-v ewn-exhaust-v ewn-run_through-v ewn-wipe_out-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use up (resources or materials)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02271905-v"/> <!-- drop, spend, expend -->
       <SynsetRelation relType="hyponym" target="ewn-00562791-v"/> <!-- run out -->
@@ -2791,13 +2791,13 @@
       <Example>They run through 20 bottles of wine a week</Example>
     </Synset>
     <!-- drain -->
-    <Synset id="ewn-01160320-v" ili="i27413" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01160320-v" ili="i27413" members="ewn-drain-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>deplete of resources</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159815-v"/> <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
       <Example>The exercise class drains me of energy</Example>
     </Synset>
     <!-- ware, squander, waste, consume -->
-    <Synset id="ewn-01160479-v" ili="i27414" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01160479-v" ili="i27414" members="ewn-consume-v ewn-squander-v ewn-waste-v ewn-ware-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>spend extravagantly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02271905-v"/> <!-- drop, spend, expend -->
       <SynsetRelation relType="hyponym" target="ewn-01174572-v"/> <!-- tope, drink -->
@@ -2809,12 +2809,12 @@
       <Example>waste not, want not</Example>
     </Synset>
     <!-- spare -->
-    <Synset id="ewn-01160800-v" ili="i27415" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01160800-v" ili="i27415" members="ewn-spare-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use frugally or carefully</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01160888-v"/> <!-- use, expend -->
     </Synset>
     <!-- use, expend -->
-    <Synset id="ewn-01160888-v" ili="i27416" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01160888-v" ili="i27416" members="ewn-use-v ewn-expend-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use up, consume fully</Definition>
       <SynsetRelation relType="entails" target="ewn-01159815-v"/> <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
       <SynsetRelation relType="hyponym" target="ewn-00203575-v"/> <!-- misuse, abuse, pervert -->
@@ -2826,7 +2826,7 @@
       <Example>The legislature expended its time on school questions</Example>
     </Synset>
     <!-- utilise, use, employ, utilize, apply -->
-    <Synset id="ewn-01161188-v" ili="i27417" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01161188-v" ili="i27417" members="ewn-use-v ewn-utilize-v ewn-utilise-v ewn-apply-v ewn-employ-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>put into service; make work or employ for a particular purpose or for its inherent or natural purpose</Definition>
       <SynsetRelation relType="similar" target="ewn-02567247-v"/> <!-- use, apply, practice -->
       <SynsetRelation relType="causes" target="ewn-02682599-v"/> <!-- go for, apply, hold -->
@@ -2864,13 +2864,13 @@
       <Example>He doesn&apos;t know how to use a computer</Example>
     </Synset>
     <!-- pull out all the stops -->
-    <Synset id="ewn-01162509-v" ili="i27418" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01162509-v" ili="i27418" members="ewn-pull_out_all_the_stops-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use all resources available</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>The organizers pulled out all the stops for the centennial meeting</Example>
     </Synset>
     <!-- put, assign -->
-    <Synset id="ewn-01162686-v" ili="i27419" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01162686-v" ili="i27419" members="ewn-put-v ewn-assign-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>attribute or give</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-01162961-v"/> <!-- repose -->
@@ -2879,72 +2879,72 @@
       <Example>The teacher put an interesting twist to the interpretation of the story</Example>
     </Synset>
     <!-- repose -->
-    <Synset id="ewn-01162961-v" ili="i27420" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01162961-v" ili="i27420" members="ewn-repose-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>put or confide something in a person or thing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01162686-v"/> <!-- put, assign -->
       <Example>These philosophers reposed the law in the people</Example>
     </Synset>
     <!-- ply -->
-    <Synset id="ewn-01163122-v" ili="i27421" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01163122-v" ili="i27421" members="ewn-ply-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use diligently</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>ply your wits!</Example>
     </Synset>
     <!-- address -->
-    <Synset id="ewn-01163215-v" ili="i27422" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01163215-v" ili="i27422" members="ewn-address-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>address or apply oneself to something, direct one&apos;s efforts towards something, such as a question</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
     </Synset>
     <!-- waste -->
-    <Synset id="ewn-01163403-v" ili="i27423" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01163403-v" ili="i27423" members="ewn-waste-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use inefficiently or inappropriately</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>waste heat</Example>
       <Example>waste a joke on an unappreciative audience</Example>
     </Synset>
     <!-- misapply, misuse -->
-    <Synset id="ewn-01163606-v" ili="i27424" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01163606-v" ili="i27424" members="ewn-misapply-v ewn-misuse-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>apply to a wrong thing or person; apply badly or incorrectly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>The words are misapplied in this context</Example>
       <Example>You are misapplying the name of this religious group</Example>
     </Synset>
     <!-- avail -->
-    <Synset id="ewn-01163877-v" ili="i27425" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01163877-v" ili="i27425" members="ewn-avail-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take advantage of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>He availed himself of the available resources</Example>
     </Synset>
     <!-- overdrive, overuse -->
-    <Synset id="ewn-01164011-v" ili="i27426" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164011-v" ili="i27426" members="ewn-overuse-v ewn-overdrive-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>make use of too often or too extensively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
     </Synset>
     <!-- take in vain -->
-    <Synset id="ewn-01164146-v" ili="i27427" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164146-v" ili="i27427" members="ewn-take_in_vain-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use a name, such as God, without proper respect</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00203575-v"/> <!-- misuse, abuse, pervert -->
     </Synset>
     <!-- go through, work through, run through -->
-    <Synset id="ewn-01164263-v" ili="i27428" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164263-v" ili="i27428" members="ewn-work_through-v ewn-run_through-v ewn-go_through-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>apply thoroughly; think through</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02418610-v"/> <!-- work -->
       <SynsetRelation relType="hyponym" target="ewn-02379373-v"/> <!-- whip through -->
       <Example>We worked through an example</Example>
     </Synset>
     <!-- cannibalise, cannibalize -->
-    <Synset id="ewn-01164459-v" ili="i27429" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164459-v" ili="i27429" members="ewn-cannibalize-v ewn-cannibalise-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use parts of something to repair something else</Definition>
       <SynsetRelation relType="entails" target="ewn-01661660-v"/> <!-- disassemble, break apart, dismantle, take apart, break up -->
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
     </Synset>
     <!-- cannibalise, cannibalize -->
-    <Synset id="ewn-01164607-v" ili="i27430" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164607-v" ili="i27430" members="ewn-cannibalize-v ewn-cannibalise-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat human flesh</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
     </Synset>
     <!-- recycle, reuse, reprocess -->
-    <Synset id="ewn-01164741-v" ili="i27431" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164741-v" ili="i27431" members="ewn-recycle-v ewn-reprocess-v ewn-reuse-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use again after processing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-01164945-v"/> <!-- rehash -->
@@ -2953,12 +2953,12 @@
       <Example>We must recycle the cardboard boxes</Example>
     </Synset>
     <!-- rehash -->
-    <Synset id="ewn-01164945-v" ili="i27432" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01164945-v" ili="i27432" members="ewn-rehash-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>present or use over, with no or few changes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01164741-v"/> <!-- recycle, reuse, reprocess -->
     </Synset>
     <!-- exploit, work -->
-    <Synset id="ewn-01165070-v" ili="i27433" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01165070-v" ili="i27433" members="ewn-exploit-v ewn-work-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use or manipulate to one&apos;s advantage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-01165513-v"/> <!-- make hay -->
@@ -2972,25 +2972,25 @@
       <Example>he works his parents for sympathy</Example>
     </Synset>
     <!-- make hay -->
-    <Synset id="ewn-01165513-v" ili="i27434" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01165513-v" ili="i27434" members="ewn-make_hay-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>turn to one&apos;s advantage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01165070-v"/> <!-- exploit, work -->
       <Example>The environmentalist lobby made hay of the nuclear plant accident</Example>
     </Synset>
     <!-- play -->
-    <Synset id="ewn-01165671-v" ili="i27435" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01165671-v" ili="i27435" members="ewn-play-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use to one&apos;s advantage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01165070-v"/> <!-- exploit, work -->
       <Example>She plays on her clients&apos; emotions</Example>
     </Synset>
     <!-- harness -->
-    <Synset id="ewn-01165811-v" ili="i27436" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01165811-v" ili="i27436" members="ewn-harness-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>exploit the power of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
       <Example>harness natural forces and resources</Example>
     </Synset>
     <!-- mine -->
-    <Synset id="ewn-01165936-v" ili="i27437" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01165936-v" ili="i27437" members="ewn-mine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>get from the earth by excavation</Definition>
       <SynsetRelation relType="entails" target="ewn-01312361-v"/> <!-- delve, dig, cut into, turn over -->
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
@@ -2999,7 +2999,7 @@
       <Example>mine ores and metals</Example>
     </Synset>
     <!-- quarry -->
-    <Synset id="ewn-01166163-v" ili="i27438" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01166163-v" ili="i27438" members="ewn-quarry-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>extract (something such as stones) from or as if from a quarry</Definition>
       <SynsetRelation relType="entails" target="ewn-01312361-v"/> <!-- delve, dig, cut into, turn over -->
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
@@ -3007,13 +3007,13 @@
       <Example>quarry marble</Example>
     </Synset>
     <!-- surface-mine, surface mine, strip mine -->
-    <Synset id="ewn-01166397-v" ili="i27439" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01166397-v" ili="i27439" members="ewn-strip_mine-v ewn-surface_mine-v ewn-surface-mine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>extract (ore) from a strip-mine</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01165936-v"/> <!-- mine -->
       <SynsetRelation relType="domain_topic" target="ewn-00924141-n"/> <!-- mining, excavation -->
     </Synset>
     <!-- exploit, tap -->
-    <Synset id="ewn-01166589-v" ili="i27440" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01166589-v" ili="i27440" members="ewn-exploit-v ewn-tap-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>draw from; make good use of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-00429823-v"/> <!-- maximise, maximize -->
@@ -3026,25 +3026,25 @@
       <Example>we must exploit the resources we are given wisely</Example>
     </Synset>
     <!-- overexploit -->
-    <Synset id="ewn-01166884-v" ili="i27441" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01166884-v" ili="i27441" members="ewn-overexploit-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>exploit excessively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
       <Example>We should not overexploit our natural resources</Example>
     </Synset>
     <!-- commercialize -->
-    <Synset id="ewn-01167041-v" ili="i27442" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01167041-v" ili="i27442" members="ewn-commercialize-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>exploit for maximal profit, usually by sacrificing quality</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
       <Example>The hotel owners are commercializing the beaches</Example>
     </Synset>
     <!-- milk -->
-    <Synset id="ewn-01167222-v" ili="i27443" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01167222-v" ili="i27443" members="ewn-milk-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>exploit as much as possible</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01166589-v"/> <!-- exploit, tap -->
       <Example>I am milking this for all it&apos;s worth</Example>
     </Synset>
     <!-- use, habituate -->
-    <Synset id="ewn-01167359-v" ili="i27444" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01167359-v" ili="i27444" members="ewn-use-v ewn-habituate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take or consume (regularly or habitually)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01200739-v"/> <!-- smoke -->
@@ -3053,13 +3053,13 @@
       <Example>She uses drugs rarely</Example>
     </Synset>
     <!-- addict, hook -->
-    <Synset id="ewn-01167606-v" ili="i27445" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01167606-v" ili="i27445" members="ewn-addict-v ewn-hook-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>to cause (someone or oneself) to become dependent (on something, especially a narcotic drug)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00274244-v"/> <!-- accustom, habituate -->
       <SynsetRelation relType="entails" target="ewn-01167359-v"/> <!-- use, habituate -->
     </Synset>
     <!-- strain, extend -->
-    <Synset id="ewn-01167895-v" ili="i27446" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01167895-v" ili="i27446" members="ewn-strain-v ewn-extend-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use to the utmost; exert vigorously or to full capacity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <SynsetRelation relType="hyponym" target="ewn-01168214-v"/> <!-- overstrain, overextend -->
@@ -3068,25 +3068,25 @@
       <Example>Don&apos;t strain your mind too much</Example>
     </Synset>
     <!-- overstrain, overextend -->
-    <Synset id="ewn-01168214-v" ili="i27447" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01168214-v" ili="i27447" members="ewn-overstrain-v ewn-overextend-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>strain excessively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01167895-v"/> <!-- strain, extend -->
       <Example>He overextended himself when he accepted the additional assignment</Example>
     </Synset>
     <!-- exert, exercise -->
-    <Synset id="ewn-01168409-v" ili="i27448" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01168409-v" ili="i27448" members="ewn-exert-v ewn-exercise-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>put to use</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>exert one&apos;s power or influence</Example>
     </Synset>
     <!-- task, tax -->
-    <Synset id="ewn-01168553-v" ili="i27449" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01168553-v" ili="i27449" members="ewn-tax-v ewn-task-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use to the limit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01167895-v"/> <!-- strain, extend -->
       <Example>you are taxing my patience</Example>
     </Synset>
     <!-- eat -->
-    <Synset id="ewn-01168667-v" ili="i27450" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01168667-v" ili="i27450" members="ewn-eat-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat a meal; take a meal</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01169274-v"/> <!-- take out, take away -->
@@ -3110,53 +3110,53 @@
       <Example>I didn&apos;t eat yet, so I gladly accept your invitation</Example>
     </Synset>
     <!-- take out, take away -->
-    <Synset id="ewn-01169274-v" ili="i27451" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01169274-v" ili="i27451" members="ewn-take_out-v ewn-take_away-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>buy and consume food from a restaurant or establishment that sells prepared food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>We&apos;ll take out pizza, since I am too tired to cook</Example>
     </Synset>
     <!-- victual -->
-    <Synset id="ewn-01169522-v" ili="i27452" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01169522-v" ili="i27452" members="ewn-victual-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take in nourishment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
     </Synset>
     <!-- wash down -->
-    <Synset id="ewn-01169624-v" ili="i27453" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01169624-v" ili="i27453" members="ewn-wash_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat food accompanied by lots of liquid; also use metaphorically</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>She washed down her dinner with a bottle of red wine</Example>
       <Example>He washes down his worries with a nightly glass of whisky</Example>
     </Synset>
     <!-- eat in, dine in -->
-    <Synset id="ewn-01169871-v" ili="i27454" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01169871-v" ili="i27454" members="ewn-eat_in-v ewn-dine_in-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat at home</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
     </Synset>
     <!-- eat out, dine out -->
-    <Synset id="ewn-01169974-v" ili="i27455" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01169974-v" ili="i27455" members="ewn-eat_out-v ewn-dine_out-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat at a restaurant or at somebody else&apos;s home</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
     </Synset>
     <!-- dine -->
-    <Synset id="ewn-01170114-v" ili="i27456" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01170114-v" ili="i27456" members="ewn-dine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give dinner to; host for dinner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>I&apos;m wining and dining my friends</Example>
     </Synset>
     <!-- dine -->
-    <Synset id="ewn-01170315-v" ili="i27457" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01170315-v" ili="i27457" members="ewn-dine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have supper; eat dinner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>We often dine with friends in this restaurant</Example>
     </Synset>
     <!-- picnic -->
-    <Synset id="ewn-01170593-v" ili="i27458" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01170593-v" ili="i27458" members="ewn-picnic-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat alfresco, in the open air</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>We picnicked near the lake on this gorgeous Sunday</Example>
     </Synset>
     <!-- eat -->
-    <Synset id="ewn-01170802-v" ili="i27459" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01170802-v" ili="i27459" members="ewn-eat-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take in solid food</Definition>
       <SynsetRelation relType="similar" target="ewn-01182162-v"/> <!-- feed, eat -->
       <SynsetRelation relType="entails" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
@@ -3180,36 +3180,36 @@
       <Example>What did you eat for dinner last night?</Example>
     </Synset>
     <!-- gluttonise, gluttonize, fress -->
-    <Synset id="ewn-01171347-v" ili="i27460" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171347-v" ili="i27460" members="ewn-gluttonize-v ewn-gluttonise-v ewn-fress-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat a lot and without restraint</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
     </Synset>
     <!-- wolf down, wolf -->
-    <Synset id="ewn-01171485-v" ili="i27461" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171485-v" ili="i27461" members="ewn-wolf-v ewn-wolf_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat hastily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>The teenager wolfed down the pizza</Example>
     </Synset>
     <!-- slurp -->
-    <Synset id="ewn-01171608-v" ili="i27462" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171608-v" ili="i27462" members="ewn-slurp-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat noisily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>He slurped his soup</Example>
     </Synset>
     <!-- swill down, swill -->
-    <Synset id="ewn-01171713-v" ili="i27463" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171713-v" ili="i27463" members="ewn-swill-v ewn-swill_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink large quantities of (liquid, especially alcoholic drink)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
     </Synset>
     <!-- drench -->
-    <Synset id="ewn-01171869-v" ili="i27464" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171869-v" ili="i27464" members="ewn-drench-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>force to drink</Definition>
       <SynsetRelation relType="causes" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="domain_topic" target="ewn-00015568-n"/> <!-- animal, brute, fauna, creature, beast, animate being -->
     </Synset>
     <!-- suck -->
-    <Synset id="ewn-01171984-v" ili="i27465" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01171984-v" ili="i27465" members="ewn-suck-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>draw into the mouth by creating a practical vacuum in the mouth</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <SynsetRelation relType="similar" target="ewn-01188961-v"/> <!-- nurse, suckle, lactate, suck, wet-nurse, give suck, breastfeed -->
@@ -3218,7 +3218,7 @@
       <Example>the baby sucked on the mother&apos;s breast</Example>
     </Synset>
     <!-- imbibe, drink -->
-    <Synset id="ewn-01172332-v" ili="i27466" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01172332-v" ili="i27466" members="ewn-drink-v ewn-imbibe-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take in liquids</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01171713-v"/> <!-- swill down, swill -->
@@ -3236,31 +3236,31 @@
       <Example>The children like to drink soda</Example>
     </Synset>
     <!-- guggle, gurgle -->
-    <Synset id="ewn-01172846-v" ili="i27467" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01172846-v" ili="i27467" members="ewn-guggle-v ewn-gurgle-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink from a flask with a gurgling sound</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
     </Synset>
     <!-- sip -->
-    <Synset id="ewn-01172967-v" ili="i27468" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01172967-v" ili="i27468" members="ewn-sip-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink in sips</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>She was sipping her tea</Example>
     </Synset>
     <!-- guzzle -->
-    <Synset id="ewn-01173104-v" ili="i27469" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01173104-v" ili="i27469" members="ewn-guzzle-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink greedily or as if with great thirst</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>The boys guzzled the cheap vodka</Example>
     </Synset>
     <!-- lick, lap up, lap -->
-    <Synset id="ewn-01173263-v" ili="i27470" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01173263-v" ili="i27470" members="ewn-lap-v ewn-lap_up-v ewn-lick-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take up with the tongue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>The cat lapped up the milk</Example>
       <Example>the cub licked the milk from its mother&apos;s breast</Example>
     </Synset>
     <!-- booze, fuddle, hit the bottle, drink -->
-    <Synset id="ewn-01173463-v" ili="i27471" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01173463-v" ili="i27471" members="ewn-hit_the_bottle-v ewn-drink-v ewn-booze-v ewn-fuddle-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>consume alcohol</Definition>
       <SynsetRelation relType="similar" target="ewn-01174572-v"/> <!-- tope, drink -->
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
@@ -3278,147 +3278,147 @@
       <Example>We were up drinking all night</Example>
     </Synset>
     <!-- tank -->
-    <Synset id="ewn-01173860-v" ili="i27472" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01173860-v" ili="i27472" members="ewn-tank-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>consume excessive amounts of alcohol</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
     </Synset>
     <!-- port -->
-    <Synset id="ewn-01173958-v" ili="i27473" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01173958-v" ili="i27473" members="ewn-port-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink port</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>We were porting all in the club after dinner</Example>
     </Synset>
     <!-- claret -->
-    <Synset id="ewn-01174096-v" ili="i27474" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174096-v" ili="i27474" members="ewn-claret-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink claret</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>They were clareting until well past midnight</Example>
     </Synset>
     <!-- pub-crawl, bar hop -->
-    <Synset id="ewn-01174238-v" ili="i27475" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174238-v" ili="i27475" members="ewn-pub-crawl-v ewn-bar_hop-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>go from one pub to the next and get progressively more drunk</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>he pub-crawled around Birmingham</Example>
     </Synset>
     <!-- tipple, bib -->
-    <Synset id="ewn-01174411-v" ili="i27476" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174411-v" ili="i27476" members="ewn-tipple-v ewn-bib-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink moderately but regularly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>We tippled the cognac</Example>
     </Synset>
     <!-- tope, drink -->
-    <Synset id="ewn-01174572-v" ili="i27477" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174572-v" ili="i27477" members="ewn-drink-v ewn-tope-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink excessive amounts of alcohol; be an alcoholic</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01160479-v"/> <!-- ware, squander, waste, consume -->
       <SynsetRelation relType="similar" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>The husband drinks and beats his wife</Example>
     </Synset>
     <!-- break bread -->
-    <Synset id="ewn-01174842-v" ili="i27478" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174842-v" ili="i27478" members="ewn-break_bread-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have a meal, usually with company</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>The early Christian disciples broke bread together</Example>
     </Synset>
     <!-- partake, touch -->
-    <Synset id="ewn-01174998-v" ili="i27479" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01174998-v" ili="i27479" members="ewn-partake-v ewn-touch-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>consume</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01175135-v"/> <!-- receive -->
       <Example>She didn&apos;t touch her food all night</Example>
     </Synset>
     <!-- receive -->
-    <Synset id="ewn-01175135-v" ili="i27480" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175135-v" ili="i27480" members="ewn-receive-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>partake of the Holy Eucharist sacrament</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01174998-v"/> <!-- partake, touch -->
       <SynsetRelation relType="domain_topic" target="ewn-06236188-n"/> <!-- Christian religion, Christianity -->
     </Synset>
     <!-- fare -->
-    <Synset id="ewn-01175266-v" ili="i27481" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175266-v" ili="i27481" members="ewn-fare-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat well</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
     </Synset>
     <!-- dig in, pitch in -->
-    <Synset id="ewn-01175354-v" ili="i27482" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175354-v" ili="i27482" members="ewn-pitch_in-v ewn-dig_in-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat heartily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>The food was placed on the table and the children pitched in</Example>
     </Synset>
     <!-- tuck away, put away, tuck in -->
-    <Synset id="ewn-01175505-v" ili="i27483" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175505-v" ili="i27483" members="ewn-tuck_in-v ewn-tuck_away-v ewn-put_away-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat up; usually refers to a considerable quantity of food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01199335-v"/> <!-- polish off, eat up, finish -->
       <SynsetRelation relType="entails" target="ewn-01168667-v"/> <!-- eat -->
       <Example>My son tucked in a whole pizza</Example>
     </Synset>
     <!-- snack, nosh -->
-    <Synset id="ewn-01175702-v" ili="i27484" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175702-v" ili="i27484" members="ewn-nosh-v ewn-snack-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat a snack; eat lightly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="hyponym" target="ewn-01177039-v"/> <!-- graze, browse -->
       <Example>She never loses weight because she snacks between meals</Example>
     </Synset>
     <!-- peck, peck at, pick at -->
-    <Synset id="ewn-01175953-v" ili="i27485" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01175953-v" ili="i27485" members="ewn-pick_at-v ewn-peck_at-v ewn-peck-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat like a bird</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>The anorexic girl just picks at her food</Example>
     </Synset>
     <!-- peck, pick up -->
-    <Synset id="ewn-01176110-v" ili="i27486" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01176110-v" ili="i27486" members="ewn-peck-v ewn-pick_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat by pecking at, like a bird</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
     </Synset>
     <!-- bolt, gobble -->
-    <Synset id="ewn-01176230-v" ili="i27487" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01176230-v" ili="i27487" members="ewn-gobble-v ewn-bolt-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat hastily without proper chewing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>Don&apos;t bolt your food!</Example>
     </Synset>
     <!-- garbage down, shovel in, gobble up, bolt down -->
-    <Synset id="ewn-01176396-v" ili="i27488" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01176396-v" ili="i27488" members="ewn-garbage_down-v ewn-gobble_up-v ewn-shovel_in-v ewn-bolt_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat a large amount of food quickly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>The children gobbled down most of the birthday cake</Example>
     </Synset>
     <!-- piece, nibble, pick -->
-    <Synset id="ewn-01176591-v" ili="i27489" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01176591-v" ili="i27489" members="ewn-nibble-v ewn-pick-v ewn-piece-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat intermittently; take small bites of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>He pieced at the sandwich all morning</Example>
       <Example>She never eats a full meal--she just nibbles</Example>
     </Synset>
     <!-- ruminate -->
-    <Synset id="ewn-01176852-v" ili="i27490" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01176852-v" ili="i27490" members="ewn-ruminate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>chew the cuds</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="domain_topic" target="ewn-02401652-n"/> <!-- ruminant -->
       <Example>cows ruminate</Example>
     </Synset>
     <!-- graze, browse -->
-    <Synset id="ewn-01177039-v" ili="i27491" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01177039-v" ili="i27491" members="ewn-browse-v ewn-graze-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat lightly, try different dishes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01175702-v"/> <!-- snack, nosh -->
       <Example>There was so much food at the party that we quickly got sated just by browsing</Example>
     </Synset>
     <!-- chomp, champ -->
-    <Synset id="ewn-01177270-v" ili="i27492" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01177270-v" ili="i27492" members="ewn-chomp-v ewn-champ-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>chew noisily or vigorously</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
       <Example>The boy chomped his sandwich</Example>
     </Synset>
     <!-- champ -->
-    <Synset id="ewn-01177429-v" ili="i27493" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01177429-v" ili="i27493" members="ewn-champ-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>chafe at the bit, like horses</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
     </Synset>
     <!-- mumble, gum -->
-    <Synset id="ewn-01177521-v" ili="i27494" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01177521-v" ili="i27494" members="ewn-mumble-v ewn-gum-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>grind with the gums; chew without teeth and with great difficulty</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
       <Example>the old man had no teeth left and mumbled his food</Example>
     </Synset>
     <!-- salute, pledge, toast, drink, wassail -->
-    <Synset id="ewn-01177764-v" ili="i27495" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01177764-v" ili="i27495" members="ewn-toast-v ewn-drink-v ewn-pledge-v ewn-salute-v ewn-wassail-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>propose a toast to</Definition>
       <SynsetRelation relType="entails" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <SynsetRelation relType="hypernym" target="ewn-02551772-v"/> <!-- honor, reward, honour -->
@@ -3427,25 +3427,25 @@
       <Example>Let&apos;s drink to the New Year</Example>
     </Synset>
     <!-- give -->
-    <Synset id="ewn-01178107-v" ili="i27496" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01178107-v" ili="i27496" members="ewn-give-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>propose</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01177764-v"/> <!-- salute, pledge, toast, drink, wassail -->
       <Example>He gave the first of many toasts at the birthday party</Example>
     </Synset>
     <!-- drain the cup, drink up -->
-    <Synset id="ewn-01178234-v" ili="i27497" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01178234-v" ili="i27497" members="ewn-drain_the_cup-v ewn-drink_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink to the last drop</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>drink up--there&apos;s more wine coming</Example>
     </Synset>
     <!-- mess -->
-    <Synset id="ewn-01178376-v" ili="i27498" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01178376-v" ili="i27498" members="ewn-mess-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat in a mess hall</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="domain_topic" target="ewn-08215965-n"/> <!-- armed services, war machine, military machine, armed forces, military -->
     </Synset>
     <!-- regale, treat -->
-    <Synset id="ewn-01178529-v" ili="i27499" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01178529-v" ili="i27499" members="ewn-regale-v ewn-treat-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with choice or abundant food or drink</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01178864-v"/> <!-- wine -->
@@ -3456,19 +3456,19 @@
       <Example>She treated her houseguests with good food every night</Example>
     </Synset>
     <!-- wine -->
-    <Synset id="ewn-01178864-v" ili="i27500" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01178864-v" ili="i27500" members="ewn-wine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>treat to wine</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01178529-v"/> <!-- regale, treat -->
       <Example>Our relatives in Italy wined and dined us for a week</Example>
     </Synset>
     <!-- alcoholize -->
-    <Synset id="ewn-01179031-v" ili="i27501" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179031-v" ili="i27501" members="ewn-alcoholize-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>subject to the influence of alcohol</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01178529-v"/> <!-- regale, treat -->
       <Example>After we finished dinner, we were thoroughly alcoholized</Example>
     </Synset>
     <!-- board -->
-    <Synset id="ewn-01179194-v" ili="i27502" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179194-v" ili="i27502" members="ewn-board-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide food and lodging (for)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="entails" target="ewn-01180862-v"/> <!-- feed, give -->
@@ -3477,61 +3477,61 @@
       <Example>The old lady is boarding three men</Example>
     </Synset>
     <!-- board -->
-    <Synset id="ewn-01179415-v" ili="i27503" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179415-v" ili="i27503" members="ewn-board-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>lodge and take meals (at)</Definition>
       <SynsetRelation relType="similar" target="ewn-01179194-v"/> <!-- board -->
       <SynsetRelation relType="entails" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hypernym" target="ewn-02620422-v"/> <!-- live -->
     </Synset>
     <!-- live in, sleep in -->
-    <Synset id="ewn-01179611-v" ili="i27504" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179611-v" ili="i27504" members="ewn-live_in-v ewn-sleep_in-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>live in the house where one works</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01179194-v"/> <!-- board -->
       <Example>our babysitter lives in, as it is too far to commute for her</Example>
     </Synset>
     <!-- sleep out, live out -->
-    <Synset id="ewn-01179802-v" ili="i27505" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179802-v" ili="i27505" members="ewn-live_out-v ewn-sleep_out-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>work in a house where one does not live</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02065774-v"/> <!-- commute -->
       <Example>our cook lives out; he can easily commute from his home</Example>
     </Synset>
     <!-- forage -->
-    <Synset id="ewn-01179996-v" ili="i27506" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01179996-v" ili="i27506" members="ewn-forage-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>wander and feed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01182162-v"/> <!-- feed, eat -->
       <SynsetRelation relType="hyponym" target="ewn-01206120-v"/> <!-- predate, prey, raven -->
       <Example>The animals forage in the woods</Example>
     </Synset>
     <!-- raven -->
-    <Synset id="ewn-01180154-v" ili="i27507" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180154-v" ili="i27507" members="ewn-raven-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed greedily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01182162-v"/> <!-- feed, eat -->
       <Example>The lions ravened the bodies</Example>
     </Synset>
     <!-- scavenge -->
-    <Synset id="ewn-01180270-v" ili="i27508" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180270-v" ili="i27508" members="ewn-scavenge-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed on carrion or refuse</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>hyenas scavenge</Example>
     </Synset>
     <!-- fodder -->
-    <Synset id="ewn-01180398-v" ili="i27509" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180398-v" ili="i27509" members="ewn-fodder-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give fodder (to domesticated animals)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- slop, swill -->
-    <Synset id="ewn-01180517-v" ili="i27510" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180517-v" ili="i27510" members="ewn-slop-v ewn-swill-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed pigs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- regurgitate -->
-    <Synset id="ewn-01180632-v" ili="i27511" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180632-v" ili="i27511" members="ewn-regurgitate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed through the beak by regurgitating previously swallowed food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>many birds feed their young by regurgitating what they have swallowed and carried to the nest</Example>
     </Synset>
     <!-- feed, give -->
-    <Synset id="ewn-01180862-v" ili="i27512" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01180862-v" ili="i27512" members="ewn-feed-v ewn-give-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give food to</Definition>
       <SynsetRelation relType="causes" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
@@ -3559,33 +3559,33 @@
       <Example>don&apos;t give the child this tough meat</Example>
     </Synset>
     <!-- corn -->
-    <Synset id="ewn-01181452-v" ili="i27513" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01181452-v" ili="i27513" members="ewn-corn-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed (cattle) with corn</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- malnourish, undernourish -->
-    <Synset id="ewn-01181573-v" ili="i27514" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01181573-v" ili="i27514" members="ewn-undernourish-v ewn-malnourish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with insufficient quality or quantity of nourishment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>The stunted growth of these children shows that they are undernourished</Example>
     </Synset>
     <!-- overfeed -->
-    <Synset id="ewn-01181827-v" ili="i27515" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01181827-v" ili="i27515" members="ewn-overfeed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed excessively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- spoonfeed -->
-    <Synset id="ewn-01181935-v" ili="i27516" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01181935-v" ili="i27516" members="ewn-spoonfeed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed with a spoon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- force-feed -->
-    <Synset id="ewn-01182037-v" ili="i27517" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01182037-v" ili="i27517" members="ewn-force-feed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed someone who will not or cannot eat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- feed, eat -->
-    <Synset id="ewn-01182162-v" ili="i27518" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01182162-v" ili="i27518" members="ewn-feed-v ewn-eat-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take in food; used of animals only</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="similar" target="ewn-01170802-v"/> <!-- eat -->
@@ -3597,13 +3597,13 @@
       <Example>What do whales eat?</Example>
     </Synset>
     <!-- feed -->
-    <Synset id="ewn-01182503-v" ili="i27519" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01182503-v" ili="i27519" members="ewn-feed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>serve as food for; be the food for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>This dish feeds six</Example>
     </Synset>
     <!-- dish up, serve up, serve, dish, dish out -->
-    <Synset id="ewn-01182648-v" ili="i27520" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01182648-v" ili="i27520" members="ewn-serve-v ewn-serve_up-v ewn-dish_out-v ewn-dish_up-v ewn-dish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide (usually but not necessarily food)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01182998-v"/> <!-- plank -->
@@ -3613,44 +3613,44 @@
       <Example>The entertainers served up a lively show</Example>
     </Synset>
     <!-- plank -->
-    <Synset id="ewn-01182998-v" ili="i27521" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01182998-v" ili="i27521" members="ewn-plank-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>cook and serve on a plank</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01182648-v"/> <!-- dish up, serve up, serve, dish, dish out -->
       <Example>Planked vegetable</Example>
       <Example>Planked shad</Example>
     </Synset>
     <!-- cater -->
-    <Synset id="ewn-01183141-v" ili="i27522" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01183141-v" ili="i27522" members="ewn-cater-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>supply food ready to eat; for parties and banquets</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
     </Synset>
     <!-- pander, procure, pimp -->
-    <Synset id="ewn-01183272-v" ili="i27523" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01183272-v" ili="i27523" members="ewn-pander-v ewn-pimp-v ewn-procure-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>arrange for sexual partners for others</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
     </Synset>
     <!-- feed -->
-    <Synset id="ewn-01183463-v" ili="i27524" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01183463-v" ili="i27524" members="ewn-feed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed into; supply</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02332196-v"/> <!-- supply, render, furnish, provide -->
       <Example>Her success feeds her vanity</Example>
     </Synset>
     <!-- serve, help -->
-    <Synset id="ewn-01183592-v" ili="i27525" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01183592-v" ili="i27525" members="ewn-serve-v ewn-help-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>help to some food; help with food or drink</Definition>
       <SynsetRelation relType="similar" target="ewn-01182648-v"/> <!-- dish up, serve up, serve, dish, dish out -->
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>I served him three times, and after that he helped himself</Example>
     </Synset>
     <!-- power -->
-    <Synset id="ewn-01183856-v" ili="i27526" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01183856-v" ili="i27526" members="ewn-power-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>supply the force or power for the functioning of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01184038-v"/> <!-- drive -->
       <Example>The gasoline powers the engines</Example>
     </Synset>
     <!-- drive -->
-    <Synset id="ewn-01184038-v" ili="i27527" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01184038-v" ili="i27527" members="ewn-drive-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>cause to function by supplying the force or power for or by controlling</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01183856-v"/> <!-- power -->
       <Example>The amplifier drives the tube</Example>
@@ -3658,19 +3658,19 @@
       <Example>this device drives the disks for the computer</Example>
     </Synset>
     <!-- feed -->
-    <Synset id="ewn-01184318-v" ili="i27528" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01184318-v" ili="i27528" members="ewn-feed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide as food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>Feed the guests the nuts</Example>
     </Synset>
     <!-- feast, feed -->
-    <Synset id="ewn-01184449-v" ili="i27529" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01184449-v" ili="i27529" members="ewn-feed-v ewn-feast-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>gratify</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01178529-v"/> <!-- regale, treat -->
       <Example>feed one&apos;s eyes on a gorgeous view</Example>
     </Synset>
     <!-- pander, gratify, indulge -->
-    <Synset id="ewn-01184590-v" ili="i27530" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01184590-v" ili="i27530" members="ewn-gratify-v ewn-pander-v ewn-indulge-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>yield (to); give satisfaction to</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-00861268-v"/> <!-- humor, humour -->
@@ -3678,12 +3678,12 @@
       <SynsetRelation relType="hyponym" target="ewn-01194712-v"/> <!-- sow one's oats, sow one's wild oats -->
     </Synset>
     <!-- spree -->
-    <Synset id="ewn-01184856-v" ili="i27531" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01184856-v" ili="i27531" members="ewn-spree-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>engage without restraint in an activity and indulge, as when shopping</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01184590-v"/> <!-- pander, gratify, indulge -->
     </Synset>
     <!-- supply, cater, ply, provide -->
-    <Synset id="ewn-01185006-v" ili="i27532" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01185006-v" ili="i27532" members="ewn-provide-v ewn-supply-v ewn-ply-v ewn-cater-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give what is desired or needed, especially support, food or sustenance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02204104-v"/> <!-- give -->
       <SynsetRelation relType="hyponym" target="ewn-01091160-v"/> <!-- staff -->
@@ -3710,13 +3710,13 @@
       <Example>The hostess provided lunch for all the guests</Example>
     </Synset>
     <!-- underlay -->
-    <Synset id="ewn-01185721-v" ili="i27533" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01185721-v" ili="i27533" members="ewn-underlay-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with a base, support, lining, or backing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>underlay the boards with joists</Example>
     </Synset>
     <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
-    <Synset id="ewn-01185870-v" ili="i35005" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01185870-v" ili="i35005" members="ewn-fit-v ewn-conform_to-v ewn-meet-v ewn-satisfy-v ewn-fill-v ewn-fulfill-v ewn-fulfil-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>fill, satisfy or meet a want or need or condition or restriction</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01186429-v"/> <!-- answer -->
@@ -3732,37 +3732,37 @@
       <Example>meet a need</Example>
     </Synset>
     <!-- answer -->
-    <Synset id="ewn-01186429-v" ili="i27535" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01186429-v" ili="i27535" members="ewn-answer-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be satisfactory for; meet the requirements of or serve the purpose of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185870-v"/> <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
       <Example>This may answer her needs</Example>
     </Synset>
     <!-- horse -->
-    <Synset id="ewn-01186591-v" ili="i27536" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01186591-v" ili="i27536" members="ewn-horse-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with a horse or horses</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01186728-v"/> <!-- remount -->
     </Synset>
     <!-- remount -->
-    <Synset id="ewn-01186728-v" ili="i27537" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01186728-v" ili="i27537" members="ewn-remount-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with fresh horses</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01186591-v"/> <!-- horse -->
       <Example>remount a regiment</Example>
     </Synset>
     <!-- shower -->
-    <Synset id="ewn-01186866-v" ili="i27538" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01186866-v" ili="i27538" members="ewn-shower-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide abundantly with</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>He showered her with presents</Example>
     </Synset>
     <!-- accommodate -->
-    <Synset id="ewn-01186986-v" ili="i27539" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01186986-v" ili="i27539" members="ewn-accommodate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with something desired or needed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>Can you accommodate me with a rental car?</Example>
     </Synset>
     <!-- keep, maintain, sustain -->
-    <Synset id="ewn-01187158-v" ili="i27540" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01187158-v" ili="i27540" members="ewn-sustain-v ewn-keep-v ewn-maintain-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>supply with necessities and support</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02208144-v"/> <!-- have got, hold, have -->
       <SynsetRelation relType="hyponym" target="ewn-01187544-v"/> <!-- patronage -->
@@ -3773,60 +3773,60 @@
       <Example>There&apos;s little to earn and many to keep</Example>
     </Synset>
     <!-- patronage -->
-    <Synset id="ewn-01187544-v" ili="i27541" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01187544-v" ili="i27541" members="ewn-patronage-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>support by being a patron of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01187158-v"/> <!-- keep, maintain, sustain -->
     </Synset>
     <!-- reseed -->
-    <Synset id="ewn-01187681-v" ili="i27542" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01187681-v" ili="i27542" members="ewn-reseed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>maintain by seeding without human intervention</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01187158-v"/> <!-- keep, maintain, sustain -->
       <Example>Some plants reseed themselves indefinitely</Example>
     </Synset>
     <!-- lunch -->
-    <Synset id="ewn-01187837-v" ili="i27543" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01187837-v" ili="i27543" members="ewn-lunch-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take the midday meal</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>At what time are you lunching?</Example>
     </Synset>
     <!-- lunch -->
-    <Synset id="ewn-01188008-v" ili="i27544" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188008-v" ili="i27544" members="ewn-lunch-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide a midday meal for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <Example>She lunched us well</Example>
     </Synset>
     <!-- brunch -->
-    <Synset id="ewn-01188137-v" ili="i27545" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188137-v" ili="i27545" members="ewn-brunch-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat a meal in the late morning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>We brunch in Sundays</Example>
     </Synset>
     <!-- breakfast -->
-    <Synset id="ewn-01188273-v" ili="i27546" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188273-v" ili="i27546" members="ewn-breakfast-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat an early morning meal</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>We breakfast at seven</Example>
     </Synset>
     <!-- breakfast -->
-    <Synset id="ewn-01188408-v" ili="i27547" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188408-v" ili="i27547" members="ewn-breakfast-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide breakfast for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- banquet, feast, junket -->
-    <Synset id="ewn-01188514-v" ili="i27548" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188514-v" ili="i27548" members="ewn-feast-v ewn-banquet-v ewn-junket-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>partake in a feast or banquet</Definition>
       <SynsetRelation relType="similar" target="ewn-01188741-v"/> <!-- banquet, feast, junket -->
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="hyponym" target="ewn-01197310-v"/> <!-- wine and dine -->
     </Synset>
     <!-- banquet, feast, junket -->
-    <Synset id="ewn-01188741-v" ili="i27549" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188741-v" ili="i27549" members="ewn-feast-v ewn-banquet-v ewn-junket-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide a feast or banquet for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01196951-v"/> <!-- host -->
       <SynsetRelation relType="similar" target="ewn-01188514-v"/> <!-- banquet, feast, junket -->
     </Synset>
     <!-- nurse, suckle, lactate, suck, wet-nurse, give suck, breastfeed -->
-    <Synset id="ewn-01188961-v" ili="i27550" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01188961-v" ili="i27550" members="ewn-breastfeed-v ewn-suckle-v ewn-suck-v ewn-nurse-v ewn-wet-nurse-v ewn-lactate-v ewn-give_suck-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give suck to</Definition>
       <SynsetRelation relType="similar" target="ewn-01171984-v"/> <!-- suck -->
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
@@ -3835,12 +3835,12 @@
       <Example>You cannot nurse your baby in public in some places</Example>
     </Synset>
     <!-- dry-nurse -->
-    <Synset id="ewn-01189377-v" ili="i27551" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01189377-v" ili="i27551" members="ewn-dry-nurse-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take care of an infant without breastfeeding it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02555993-v"/> <!-- care, give care -->
     </Synset>
     <!-- ablactate, wean -->
-    <Synset id="ewn-01189491-v" ili="i27552" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01189491-v" ili="i27552" members="ewn-wean-v ewn-ablactate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>gradually deprive (infants and young mammals) of mother&apos;s milk</Definition>
       <SynsetRelation relType="entails" target="ewn-01188961-v"/> <!-- nurse, suckle, lactate, suck, wet-nurse, give suck, breastfeed -->
       <SynsetRelation relType="hypernym" target="ewn-02318230-v"/> <!-- deprive -->
@@ -3848,26 +3848,26 @@
       <Example>The kitten was weaned and fed by its owner with a bottle</Example>
     </Synset>
     <!-- bottlefeed -->
-    <Synset id="ewn-01189804-v" ili="i27553" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01189804-v" ili="i27553" members="ewn-bottlefeed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed (infants) with a bottle</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- suckle -->
-    <Synset id="ewn-01189918-v" ili="i27554" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01189918-v" ili="i27554" members="ewn-suckle-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>suck milk from the mother&apos;s breasts</Definition>
       <SynsetRelation relType="entails" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <SynsetRelation relType="hypernym" target="ewn-01182162-v"/> <!-- feed, eat -->
       <Example>the infant was suckling happily</Example>
     </Synset>
     <!-- famish, starve -->
-    <Synset id="ewn-01190070-v" ili="i27555" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01190070-v" ili="i27555" members="ewn-starve-v ewn-famish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>die of food deprivation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00359085-v"/> <!-- buy the farm, kick the bucket, drop dead, give-up the ghost, decease, cash in one's chips, croak, choke, perish, conk, expire, exit, pass, pop off, pass away, die, snuff it, go -->
       <Example>The political prisoners starved to death</Example>
       <Example>Many famished in the countryside during the drought</Example>
     </Synset>
     <!-- famish, starve -->
-    <Synset id="ewn-01190273-v" ili="i27556" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01190273-v" ili="i27556" members="ewn-starve-v ewn-famish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>deprive of food</Definition>
       <SynsetRelation relType="causes" target="ewn-01190677-v"/> <!-- hunger, famish, starve -->
       <SynsetRelation relType="hypernym" target="ewn-02318230-v"/> <!-- deprive -->
@@ -3875,7 +3875,7 @@
       <Example>They starved the prisoners</Example>
     </Synset>
     <!-- starve -->
-    <Synset id="ewn-01190481-v" ili="i27557" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01190481-v" ili="i27557" members="ewn-starve-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>deprive of a necessity and cause suffering</Definition>
       <SynsetRelation relType="similar" target="ewn-01190273-v"/> <!-- famish, starve -->
       <SynsetRelation relType="hypernym" target="ewn-02318230-v"/> <!-- deprive -->
@@ -3883,96 +3883,96 @@
       <Example>The engine was starved of fuel</Example>
     </Synset>
     <!-- hunger, famish, starve -->
-    <Synset id="ewn-01190677-v" ili="i27558" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01190677-v" ili="i27558" members="ewn-starve-v ewn-hunger-v ewn-famish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be hungry; go without food</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00064841-v"/> <!-- suffer, hurt -->
       <SynsetRelation relType="is_caused_by" target="ewn-01190273-v"/> <!-- famish, starve -->
       <Example>Let&apos;s eat--I&apos;m starving!</Example>
     </Synset>
     <!-- be full -->
-    <Synset id="ewn-01190875-v" ili="i27559" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01190875-v" ili="i27559" members="ewn-be_full-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be sated, have enough to eat</Definition>
       <Example>I&apos;m full--don&apos;t give me any more beans, please</Example>
     </Synset>
     <!-- lust, thirst, crave, hunger, starve -->
-    <Synset id="ewn-01191018-v" ili="i27560" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191018-v" ili="i27560" members="ewn-crave-v ewn-hunger-v ewn-thirst-v ewn-starve-v ewn-lust-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have a craving, appetite, or great desire for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01829179-v"/> <!-- want, desire -->
     </Synset>
     <!-- require, want, need -->
-    <Synset id="ewn-01191258-v" ili="i27561" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191258-v" ili="i27561" members="ewn-want-v ewn-need-v ewn-require-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have need of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02610777-v"/> <!-- be -->
       <SynsetRelation relType="hyponym" target="ewn-01191520-v"/> <!-- cry -->
       <Example>This piano wants the attention of a competent tuner</Example>
     </Synset>
     <!-- cry -->
-    <Synset id="ewn-01191520-v" ili="i27562" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191520-v" ili="i27562" members="ewn-cry-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>demand immediate action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01191258-v"/> <!-- require, want, need -->
       <Example>This situation is crying for attention</Example>
     </Synset>
     <!-- need -->
-    <Synset id="ewn-01191646-v" ili="i27563" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191646-v" ili="i27563" members="ewn-need-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have or feel a need for</Definition>
       <Example>always needing friends and money</Example>
     </Synset>
     <!-- diet -->
-    <Synset id="ewn-01191757-v" ili="i27564" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191757-v" ili="i27564" members="ewn-diet-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat sparingly, for health reasons or to lose weight</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01191960-v"/> <!-- fast -->
     </Synset>
     <!-- fast -->
-    <Synset id="ewn-01191960-v" ili="i27565" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01191960-v" ili="i27565" members="ewn-fast-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>abstain from eating</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01198570-v"/> <!-- desist, refrain, abstain -->
       <SynsetRelation relType="hyponym" target="ewn-01191757-v"/> <!-- diet -->
       <Example>Before the medical exam, you must fast</Example>
     </Synset>
     <!-- fast -->
-    <Synset id="ewn-01192137-v" ili="i27566" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01192137-v" ili="i27566" members="ewn-fast-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>abstain from certain foods, as for religious or medical reasons</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01198570-v"/> <!-- desist, refrain, abstain -->
       <SynsetRelation relType="hyponym" target="ewn-01192545-v"/> <!-- diet -->
       <Example>Catholics sometimes fast during Lent</Example>
     </Synset>
     <!-- keep off, avoid -->
-    <Synset id="ewn-01192356-v" ili="i27567" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01192356-v" ili="i27567" members="ewn-keep_off-v ewn-avoid-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>refrain from certain foods or beverages</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01198570-v"/> <!-- desist, refrain, abstain -->
       <Example>I keep off drugs</Example>
       <Example>During Ramadan, Muslims avoid tobacco during the day</Example>
     </Synset>
     <!-- diet -->
-    <Synset id="ewn-01192545-v" ili="i27568" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01192545-v" ili="i27568" members="ewn-diet-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>follow a regimen or a diet, as for health reasons</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01192137-v"/> <!-- fast -->
       <Example>He has high blood pressure and must stick to a low-salt diet</Example>
     </Synset>
     <!-- inebriate, hit it up, souse, soak -->
-    <Synset id="ewn-01192810-v" ili="i27569" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01192810-v" ili="i27569" members="ewn-souse-v ewn-soak-v ewn-inebriate-v ewn-hit_it_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>become drunk or drink excessively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <SynsetRelation relType="similar" target="ewn-90004861-v"/>
     </Synset>
     <!-- inebriate, intoxicate, soak -->
-    <Synset id="ewn-01193027-v" ili="i27570" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193027-v" ili="i27570" members="ewn-intoxicate-v ewn-soak-v ewn-inebriate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>make drunk (with alcoholic drinks)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00019441-v"/> <!-- affect -->
       <SynsetRelation relType="hyponym" target="ewn-01193274-v"/> <!-- befuddle, fuddle -->
     </Synset>
     <!-- befuddle, fuddle -->
-    <Synset id="ewn-01193274-v" ili="i27571" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193274-v" ili="i27571" members="ewn-befuddle-v ewn-fuddle-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>make stupid with alcohol</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01193027-v"/> <!-- inebriate, intoxicate, soak -->
     </Synset>
     <!-- wine -->
-    <Synset id="ewn-01193373-v" ili="i27572" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193373-v" ili="i27572" members="ewn-wine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink wine</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
     </Synset>
     <!-- delight, enjoy, revel -->
-    <Synset id="ewn-01193481-v" ili="i27573" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193481-v" ili="i27573" members="ewn-delight-v ewn-enjoy-v ewn-revel-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take delight in</Definition>
       <SynsetRelation relType="entails" target="ewn-01160888-v"/> <!-- use, expend -->
       <SynsetRelation relType="hyponym" target="ewn-01193765-v"/> <!-- have a ball, have a good time -->
@@ -3982,67 +3982,67 @@
       <Example>he delights in his granddaughter</Example>
     </Synset>
     <!-- have a ball, have a good time -->
-    <Synset id="ewn-01193765-v" ili="i27574" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193765-v" ili="i27574" members="ewn-have_a_ball-v ewn-have_a_good_time-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>enjoy oneself greatly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
       <Example>We had a ball at the party and didn&apos;t come home until 2 AM</Example>
     </Synset>
     <!-- wallow -->
-    <Synset id="ewn-01193936-v" ili="i27575" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01193936-v" ili="i27575" members="ewn-wallow-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>delight greatly in</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
       <Example>wallow in your success!</Example>
     </Synset>
     <!-- live it up -->
-    <Synset id="ewn-01194045-v" ili="i27576" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194045-v" ili="i27576" members="ewn-live_it_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>enjoy oneself</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
       <Example>it&apos;s your birthday, so let&apos;s live it up!</Example>
     </Synset>
     <!-- luxuriate, indulge -->
-    <Synset id="ewn-01194178-v" ili="i27577" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194178-v" ili="i27577" members="ewn-indulge-v ewn-luxuriate-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>enjoy to excess</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159815-v"/> <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
       <SynsetRelation relType="hyponym" target="ewn-01194371-v"/> <!-- surfeit -->
       <Example>She indulges in ice cream</Example>
     </Synset>
     <!-- surfeit -->
-    <Synset id="ewn-01194371-v" ili="i27578" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194371-v" ili="i27578" members="ewn-surfeit-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>indulge (one&apos;s appetite) to satiety</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01194178-v"/> <!-- luxuriate, indulge -->
     </Synset>
     <!-- wallow -->
-    <Synset id="ewn-01194507-v" ili="i27579" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194507-v" ili="i27579" members="ewn-wallow-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>devote oneself entirely to something; indulge in to an immoderate degree, usually with pleasure</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02516942-v"/> <!-- indulge -->
       <Example>Wallow in luxury</Example>
       <Example>wallow in your sorrows</Example>
     </Synset>
     <!-- sow one's oats, sow one's wild oats -->
-    <Synset id="ewn-01194712-v" ili="i27580" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194712-v" ili="i27580" members="ewn-sow_one-ap-s_oats-v ewn-sow_one-ap-s_wild_oats-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>live promiscuously and self-indulgently</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01184590-v"/> <!-- pander, gratify, indulge -->
     </Synset>
     <!-- dunk, dip -->
-    <Synset id="ewn-01194845-v" ili="i27581" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01194845-v" ili="i27581" members="ewn-dunk-v ewn-dip-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>dip into a liquid while eating</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01580466-v"/> <!-- plunge, immerse -->
       <Example>She dunked the piece of bread in the sauce</Example>
     </Synset>
     <!-- enjoy -->
-    <Synset id="ewn-01195043-v" ili="i27582" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01195043-v" ili="i27582" members="ewn-enjoy-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>have benefit from</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01161188-v"/> <!-- utilise, use, employ, utilize, apply -->
       <Example>enjoy privileges</Example>
     </Synset>
     <!-- afford -->
-    <Synset id="ewn-01195161-v" ili="i27583" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01195161-v" ili="i27583" members="ewn-afford-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be able to spare or give up</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02271905-v"/> <!-- drop, spend, expend -->
       <Example>I can&apos;t afford to spend two hours with this person</Example>
     </Synset>
     <!-- run low, run short, go -->
-    <Synset id="ewn-01195306-v" ili="i27584" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01195306-v" ili="i27584" members="ewn-run_low-v ewn-run_short-v ewn-go-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>to be spent or finished</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02615799-v"/> <!-- cease, stop, finish, terminate, end -->
       <SynsetRelation relType="similar" target="ewn-01195525-v"/> <!-- go -->
@@ -4050,51 +4050,51 @@
       <Example>Gas is running low at the gas stations in the Midwest</Example>
     </Synset>
     <!-- go -->
-    <Synset id="ewn-01195525-v" ili="i27585" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01195525-v" ili="i27585" members="ewn-go-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be spent</Definition>
       <SynsetRelation relType="similar" target="ewn-01195306-v"/> <!-- run low, run short, go -->
       <Example>All my money went for food and rent</Example>
     </Synset>
     <!-- ingurgitate, overindulge, gorge, binge, gormandise, scarf out, pig out, overgorge, stuff, engorge, glut, satiate, gormandize, gourmandize, overeat, englut -->
-    <Synset id="ewn-01195632-v" ili="i27586" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01195632-v" ili="i27586" members="ewn-gorge-v ewn-ingurgitate-v ewn-overindulge-v ewn-glut-v ewn-englut-v ewn-stuff-v ewn-engorge-v ewn-overgorge-v ewn-overeat-v ewn-gormandize-v ewn-gormandise-v ewn-gourmandize-v ewn-binge-v ewn-pig_out-v ewn-satiate-v ewn-scarf_out-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>overeat or eat immodestly; make a pig of oneself</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01168667-v"/> <!-- eat -->
       <Example>She stuffed herself at the dinner</Example>
       <Example>The kids binged on ice cream</Example>
     </Synset>
     <!-- avail, help -->
-    <Synset id="ewn-01196102-v" ili="i27587" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196102-v" ili="i27587" members="ewn-avail-v ewn-help-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take or use</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01165070-v"/> <!-- exploit, work -->
       <Example>She helped herself to some of the office supplies</Example>
     </Synset>
     <!-- fill, sate, satiate, replete -->
-    <Synset id="ewn-01196254-v" ili="i27588" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196254-v" ili="i27588" members="ewn-satiate-v ewn-sate-v ewn-replete-v ewn-fill-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>fill to satisfaction</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01196465-v"/> <!-- cloy, pall -->
       <Example>I am sated</Example>
     </Synset>
     <!-- cloy, pall -->
-    <Synset id="ewn-01196465-v" ili="i27589" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196465-v" ili="i27589" members="ewn-cloy-v ewn-pall-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>cause surfeit through excess though initially pleasing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01196254-v"/> <!-- fill, sate, satiate, replete -->
       <Example>Too much spicy food cloyed his appetite</Example>
     </Synset>
     <!-- quell, stay, appease -->
-    <Synset id="ewn-01196647-v" ili="i27590" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196647-v" ili="i27590" members="ewn-quell-v ewn-stay-v ewn-appease-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>overcome or allay</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185870-v"/> <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
       <Example>quell my hunger</Example>
     </Synset>
     <!-- content -->
-    <Synset id="ewn-01196771-v" ili="i27591" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196771-v" ili="i27591" members="ewn-content-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>satisfy in a limited way</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185870-v"/> <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
       <Example>He contented himself with one glass of beer per day</Example>
     </Synset>
     <!-- host -->
-    <Synset id="ewn-01196951-v" ili="i27592" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01196951-v" ili="i27592" members="ewn-host-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be the host of or for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02497847-v"/> <!-- entertain -->
       <SynsetRelation relType="hyponym" target="ewn-01188741-v"/> <!-- banquet, feast, junket -->
@@ -4104,12 +4104,12 @@
       <Example>We hosted 4 couples last night</Example>
     </Synset>
     <!-- wine and dine -->
-    <Synset id="ewn-01197194-v" ili="i27593" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01197194-v" ili="i27593" members="ewn-wine_and_dine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with food and drink, usually lavishly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01196951-v"/> <!-- host -->
     </Synset>
     <!-- wine and dine -->
-    <Synset id="ewn-01197310-v" ili="i27594" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01197310-v" ili="i27594" members="ewn-wine_and_dine-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat sumptuously</Definition>
       <SynsetRelation relType="entails" target="ewn-01168667-v"/> <!-- eat -->
       <SynsetRelation relType="entails" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
@@ -4117,19 +4117,19 @@
       <Example>we wined and dined in Paris</Example>
     </Synset>
     <!-- plump, fatten, fat, fatten up, flesh out, fatten out, plump out, fill out -->
-    <Synset id="ewn-01197471-v" ili="i27595" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01197471-v" ili="i27595" members="ewn-fatten-v ewn-fat-v ewn-flesh_out-v ewn-fill_out-v ewn-plump-v ewn-plump_out-v ewn-fatten_out-v ewn-fatten_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>make fat or plump</Definition>
       <SynsetRelation relType="entails" target="ewn-01180862-v"/> <!-- feed, give -->
       <SynsetRelation relType="hypernym" target="ewn-00126072-v"/> <!-- modify, alter, change -->
       <Example>We will plump out that poor starving child</Example>
     </Synset>
     <!-- inject -->
-    <Synset id="ewn-01197734-v" ili="i27596" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01197734-v" ili="i27596" members="ewn-inject-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed intravenously</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- sample, taste, try out, try -->
-    <Synset id="ewn-01197832-v" ili="i27597" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01197832-v" ili="i27597" members="ewn-sample-v ewn-try-v ewn-try_out-v ewn-taste-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take a sample of</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hyponym" target="ewn-01198208-v"/> <!-- degust -->
@@ -4137,20 +4137,20 @@
       <Example>Sample the regional dishes</Example>
     </Synset>
     <!-- degust -->
-    <Synset id="ewn-01198208-v" ili="i27598" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01198208-v" ili="i27598" members="ewn-degust-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>taste with relish</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01197832-v"/> <!-- sample, taste, try out, try -->
       <Example>degust this wonderful soup</Example>
     </Synset>
     <!-- frivol away, fool, fool away, shoot, fritter away, dissipate, fritter -->
-    <Synset id="ewn-01198337-v" ili="i27599" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01198337-v" ili="i27599" members="ewn-fritter-v ewn-frivol_away-v ewn-dissipate-v ewn-shoot-v ewn-fritter_away-v ewn-fool-v ewn-fool_away-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>spend frivolously and unwisely</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01160479-v"/> <!-- ware, squander, waste, consume -->
       <SynsetRelation relType="entails" target="ewn-01159815-v"/> <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
       <Example>Fritter away one&apos;s inheritance</Example>
     </Synset>
     <!-- desist, refrain, abstain -->
-    <Synset id="ewn-01198570-v" ili="i27600" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01198570-v" ili="i27600" members="ewn-abstain-v ewn-refrain-v ewn-desist-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>choose not to consume</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01191960-v"/> <!-- fast -->
       <SynsetRelation relType="hyponym" target="ewn-01192137-v"/> <!-- fast -->
@@ -4160,25 +4160,25 @@
       <Example>I abstain from alcohol</Example>
     </Synset>
     <!-- teetotal -->
-    <Synset id="ewn-01198897-v" ili="i27601" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01198897-v" ili="i27601" members="ewn-teetotal-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>practice teetotalism and abstain from the consumption of alcoholic beverages</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01198570-v"/> <!-- desist, refrain, abstain -->
     </Synset>
     <!-- give up, kick -->
-    <Synset id="ewn-01199057-v" ili="i27602" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199057-v" ili="i27602" members="ewn-kick-v ewn-give_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>stop consuming</Definition>
       <SynsetRelation relType="hypernym" target="ewn-02539728-v"/> <!-- forgo, forego, foreswear, dispense with, relinquish, waive -->
       <Example>kick a habit</Example>
       <Example>give up alcohol</Example>
     </Synset>
     <!-- devour, pig, raven, guttle -->
-    <Synset id="ewn-01199186-v" ili="i27603" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199186-v" ili="i27603" members="ewn-devour-v ewn-guttle-v ewn-raven-v ewn-pig-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat greedily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>he devoured three sandwiches</Example>
     </Synset>
     <!-- polish off, eat up, finish -->
-    <Synset id="ewn-01199335-v" ili="i27604" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199335-v" ili="i27604" members="ewn-eat_up-v ewn-finish-v ewn-polish_off-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>finish eating all the food on one&apos;s plate or on the table</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <SynsetRelation relType="hyponym" target="ewn-01175505-v"/> <!-- tuck away, put away, tuck in -->
@@ -4186,19 +4186,19 @@
       <Example>She polished off the remaining potatoes</Example>
     </Synset>
     <!-- go through, devour, demolish, consume, down -->
-    <Synset id="ewn-01199565-v" ili="i27605" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199565-v" ili="i27605" members="ewn-devour-v ewn-demolish-v ewn-down-v ewn-consume-v ewn-go_through-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat up completely, as with great appetite</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01199335-v"/> <!-- polish off, eat up, finish -->
       <Example>Some people can down a pound of meat in the course of one meal</Example>
       <Example>The teenagers demolished four pizzas among them</Example>
     </Synset>
     <!-- smack -->
-    <Synset id="ewn-01199846-v" ili="i27606" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199846-v" ili="i27606" members="ewn-smack-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>press (the lips) together and open (the lips) noisily, as in eating</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00985856-v"/> <!-- let out, utter, let loose, emit -->
     </Synset>
     <!-- digest -->
-    <Synset id="ewn-01199976-v" ili="i27607" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01199976-v" ili="i27607" members="ewn-digest-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>convert food into absorbable substances</Definition>
       <SynsetRelation relType="entails" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hypernym" target="ewn-00516235-v"/> <!-- process, treat -->
@@ -4209,29 +4209,29 @@
       <Example>I cannot digest milk products</Example>
     </Synset>
     <!-- stomach -->
-    <Synset id="ewn-01200264-v" ili="i27608" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01200264-v" ili="i27608" members="ewn-stomach-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>bear to eat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01199976-v"/> <!-- digest -->
       <Example>He cannot stomach raw fish</Example>
     </Synset>
     <!-- metabolise, metabolize -->
-    <Synset id="ewn-01200388-v" ili="i27609" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01200388-v" ili="i27609" members="ewn-metabolize-v ewn-metabolise-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>produce by metabolism</Definition>
       <SynsetRelation relType="entails" target="ewn-01199976-v"/> <!-- digest -->
     </Synset>
     <!-- predigest -->
-    <Synset id="ewn-01200508-v" ili="i27610" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01200508-v" ili="i27610" members="ewn-predigest-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>digest (food) beforehand</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01199976-v"/> <!-- digest -->
       <SynsetRelation relType="domain_topic" target="ewn-02401652-n"/> <!-- ruminant -->
     </Synset>
     <!-- take up, sop up, suck in, take in -->
-    <Synset id="ewn-01200618-v" ili="i27611" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01200618-v" ili="i27611" members="ewn-take_in-v ewn-sop_up-v ewn-suck_in-v ewn-take_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take up as if with a sponge</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
     </Synset>
     <!-- smoke -->
-    <Synset id="ewn-01200739-v" ili="i27612" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01200739-v" ili="i27612" members="ewn-smoke-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>inhale and exhale smoke from cigarettes, cigars, pipes</Definition>
       <SynsetRelation relType="entails" target="ewn-00005041-v"/> <!-- breathe in, inhale, inspire -->
       <SynsetRelation relType="entails" target="ewn-00004227-v"/> <!-- breathe out, expire, exhale -->
@@ -4247,25 +4247,25 @@
       <Example>Do you smoke?</Example>
     </Synset>
     <!-- chain-smoke -->
-    <Synset id="ewn-01201090-v" ili="i27613" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01201090-v" ili="i27613" members="ewn-chain-smoke-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>smoke one cigarette after another; light one cigarette from the preceding one</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
     </Synset>
     <!-- puff, whiff -->
-    <Synset id="ewn-01201254-v" ili="i27614" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01201254-v" ili="i27614" members="ewn-puff-v ewn-whiff-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>smoke and exhale strongly</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
       <Example>puff a cigar</Example>
       <Example>whiff a pipe</Example>
     </Synset>
     <!-- inhale -->
-    <Synset id="ewn-01201417-v" ili="i27615" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01201417-v" ili="i27615" members="ewn-inhale-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>draw deep into the lungs in by breathing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
       <Example>Clinton smoked marijuana but never inhaled</Example>
     </Synset>
     <!-- puff, drag, draw -->
-    <Synset id="ewn-01201647-v" ili="i27616" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01201647-v" ili="i27616" members="ewn-puff-v ewn-drag-v ewn-draw-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>suck in or take (air)</Definition>
       <SynsetRelation relType="entails" target="ewn-01200739-v"/> <!-- smoke -->
       <SynsetRelation relType="hypernym" target="ewn-00005041-v"/> <!-- breathe in, inhale, inspire -->
@@ -4273,7 +4273,7 @@
       <Example>draw on a cigarette</Example>
     </Synset>
     <!-- inject -->
-    <Synset id="ewn-01201851-v" ili="i27617" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01201851-v" ili="i27617" members="ewn-inject-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take by injection</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
       <SynsetRelation relType="hyponym" target="ewn-01202003-v"/> <!-- mainline -->
@@ -4281,42 +4281,42 @@
       <Example>inject heroin</Example>
     </Synset>
     <!-- mainline -->
-    <Synset id="ewn-01202003-v" ili="i27618" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202003-v" ili="i27618" members="ewn-mainline-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>inject into the vein</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01201851-v"/> <!-- inject -->
       <Example>She is mainlining heroin</Example>
     </Synset>
     <!-- pop -->
-    <Synset id="ewn-01202125-v" ili="i27619" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202125-v" ili="i27619" members="ewn-pop-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take drugs, especially orally</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01201851-v"/> <!-- inject -->
       <SynsetRelation relType="hyponym" target="ewn-01202299-v"/> <!-- skin pop -->
       <Example>The man charged with murder popped a valium to calm his nerves</Example>
     </Synset>
     <!-- skin pop -->
-    <Synset id="ewn-01202299-v" ili="i27620" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202299-v" ili="i27620" members="ewn-skin_pop-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>inject (drugs) into the skin</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01202125-v"/> <!-- pop -->
     </Synset>
     <!-- take a hit, snort -->
-    <Synset id="ewn-01202393-v" ili="i27621" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202393-v" ili="i27621" members="ewn-take_a_hit-v ewn-snort-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>inhale through the nose</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
     </Synset>
     <!-- fire up, light, light up -->
-    <Synset id="ewn-01202519-v" ili="i27622" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202519-v" ili="i27622" members="ewn-light_up-v ewn-fire_up-v ewn-light-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>begin to smoke</Definition>
       <SynsetRelation relType="entails" target="ewn-01200739-v"/> <!-- smoke -->
       <SynsetRelation relType="hypernym" target="ewn-02765572-v"/> <!-- light, ignite -->
       <Example>After the meal, some of the diners lit up</Example>
     </Synset>
     <!-- base, free-base -->
-    <Synset id="ewn-01202706-v" ili="i27623" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202706-v" ili="i27623" members="ewn-free-base-v ewn-base-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use (purified cocaine) by burning it and inhaling the fumes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
     </Synset>
     <!-- huff, snort -->
-    <Synset id="ewn-01202883-v" ili="i27624" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01202883-v" ili="i27624" members="ewn-huff-v ewn-snort-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>inhale recreational drugs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00005041-v"/> <!-- breathe in, inhale, inspire -->
       <SynsetRelation relType="entails" target="ewn-01203078-v"/> <!-- drug, do drugs -->
@@ -4324,7 +4324,7 @@
       <Example>the kids were huffing glue</Example>
     </Synset>
     <!-- drug, do drugs -->
-    <Synset id="ewn-01203078-v" ili="i27625" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01203078-v" ili="i27625" members="ewn-drug-v ewn-do_drugs-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use recreational drugs</Definition>
       <SynsetRelation relType="causes" target="ewn-01203572-v"/> <!-- trip out, trip, get off, turn on -->
       <SynsetRelation relType="hypernym" target="ewn-01167359-v"/> <!-- use, habituate -->
@@ -4336,24 +4336,24 @@
       <SynsetRelation relType="is_entailed_by" target="ewn-01202883-v"/> <!-- huff, snort -->
     </Synset>
     <!-- drop -->
-    <Synset id="ewn-01203299-v" ili="i27626" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01203299-v" ili="i27626" members="ewn-drop-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take (a drug, especially LSD), by mouth</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
       <Example>She dropped acid when she was a teenager</Example>
     </Synset>
     <!-- dope -->
-    <Synset id="ewn-01203444-v" ili="i27627" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01203444-v" ili="i27627" members="ewn-dope-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take drugs to improve one&apos;s athletic performance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203078-v"/> <!-- drug, do drugs -->
     </Synset>
     <!-- trip out, trip, get off, turn on -->
-    <Synset id="ewn-01203572-v" ili="i27628" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01203572-v" ili="i27628" members="ewn-trip-v ewn-trip_out-v ewn-turn_on-v ewn-get_off-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>get high, stoned, or drugged</Definition>
       <SynsetRelation relType="is_caused_by" target="ewn-01203078-v"/> <!-- drug, do drugs -->
       <Example>He trips every weekend</Example>
     </Synset>
     <!-- masticate, manducate, jaw, chew -->
-    <Synset id="ewn-01203727-v" ili="i27629" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01203727-v" ili="i27629" members="ewn-chew-v ewn-masticate-v ewn-manducate-v ewn-jaw-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>chew (food); to bite and grind with the teeth</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01397118-v"/> <!-- grind, grate -->
       <SynsetRelation relType="hyponym" target="ewn-01177270-v"/> <!-- chomp, champ -->
@@ -4368,19 +4368,19 @@
       <Example>The cows were masticating the grass</Example>
     </Synset>
     <!-- chaw -->
-    <Synset id="ewn-01204212-v" ili="i27630" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01204212-v" ili="i27630" members="ewn-chaw-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>chew without swallowing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
       <Example>chaw tobacco</Example>
     </Synset>
     <!-- munch, crunch -->
-    <Synset id="ewn-01204331-v" ili="i27631" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01204331-v" ili="i27631" members="ewn-crunch-v ewn-munch-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>crush with the teeth, making a grinding sound</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01203727-v"/> <!-- masticate, manducate, jaw, chew -->
       <Example>The children crunched the celery sticks</Example>
     </Synset>
     <!-- swallow, get down -->
-    <Synset id="ewn-01204494-v" ili="i27632" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01204494-v" ili="i27632" members="ewn-swallow-v ewn-get_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>pass through the esophagus as part of eating or drinking</Definition>
       <SynsetRelation relType="hyponym" target="ewn-01205271-v"/> <!-- bolt -->
       <SynsetRelation relType="is_entailed_by" target="ewn-01170802-v"/> <!-- eat -->
@@ -4389,14 +4389,14 @@
       <Example>Swallow the raw fish--it won&apos;t kill you!</Example>
     </Synset>
     <!-- quaff, swig, gulp -->
-    <Synset id="ewn-01204688-v" ili="i27633" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01204688-v" ili="i27633" members="ewn-gulp-v ewn-quaff-v ewn-swig-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>to swallow hurriedly or greedily or in one draught</Definition>
       <SynsetRelation relType="entails" target="ewn-01204494-v"/> <!-- swallow, get down -->
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>The men gulped down their beers</Example>
     </Synset>
     <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
-    <Synset id="ewn-01204994-v" ili="i27634" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01204994-v" ili="i27634" members="ewn-toss_off-v ewn-pop-v ewn-bolt_down-v ewn-belt_down-v ewn-pour_down-v ewn-down-v ewn-drink_down-v ewn-kill-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink down entirely</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01172332-v"/> <!-- imbibe, drink -->
       <Example>He downed three martinis before dinner</Example>
@@ -4404,12 +4404,12 @@
       <Example>They popped a few beers after work</Example>
     </Synset>
     <!-- bolt -->
-    <Synset id="ewn-01205271-v" ili="i27635" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01205271-v" ili="i27635" members="ewn-bolt-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>swallow hastily</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01204494-v"/> <!-- swallow, get down -->
     </Synset>
     <!-- nourish, nurture, sustain -->
-    <Synset id="ewn-01205348-v" ili="i27636" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01205348-v" ili="i27636" members="ewn-nourish-v ewn-nurture-v ewn-sustain-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with nourishment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <SynsetRelation relType="hyponym" target="ewn-01205694-v"/> <!-- carry -->
@@ -4417,7 +4417,7 @@
       <Example>This kind of food is not nourishing for young children</Example>
     </Synset>
     <!-- carry -->
-    <Synset id="ewn-01205694-v" ili="i27637" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01205694-v" ili="i27637" members="ewn-carry-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be able to feed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01205348-v"/> <!-- nourish, nurture, sustain -->
       <SynsetRelation relType="domain_topic" target="ewn-01890115-n"/> <!-- livestock, farm animal, stock -->
@@ -4425,122 +4425,122 @@
       <Example>This land will carry ten cows to the acre</Example>
     </Synset>
     <!-- feed on, feed upon -->
-    <Synset id="ewn-01205854-v" ili="i27638" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01205854-v" ili="i27638" members="ewn-feed_on-v ewn-feed_upon-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be sustained by</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185870-v"/> <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
       <Example>He fed on the great ideas of her mentor</Example>
     </Synset>
     <!-- fix up -->
-    <Synset id="ewn-01205989-v" ili="i27639" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01205989-v" ili="i27639" members="ewn-fix_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>find (something or someone) for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>I&apos;ll fix you up with a nice girl</Example>
     </Synset>
     <!-- predate, prey, raven -->
-    <Synset id="ewn-01206120-v" ili="i27640" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01206120-v" ili="i27640" members="ewn-raven-v ewn-prey-v ewn-predate-v-2" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>prey on or hunt for</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01179996-v"/> <!-- forage -->
       <Example>These mammals predate certain eggs</Example>
     </Synset>
     <!-- feed, prey -->
-    <Synset id="ewn-01206335-v" ili="i27641" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01206335-v" ili="i27641" members="ewn-prey-v ewn-feed-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>profit from in an exploitatory manner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01165070-v"/> <!-- exploit, work -->
       <Example>He feeds on her insecurity</Example>
     </Synset>
     <!-- fill up, fill -->
-    <Synset id="ewn-01206513-v" ili="i27642" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01206513-v" ili="i27642" members="ewn-fill_up-v ewn-fill-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>eat until one is sated</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01170802-v"/> <!-- eat -->
       <Example>He filled up on turkey</Example>
     </Synset>
     <!-- assuage, allay, quench, slake -->
-    <Synset id="ewn-01206641-v" ili="i27643" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01206641-v" ili="i27643" members="ewn-quench-v ewn-slake-v ewn-allay-v ewn-assuage-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>satisfy (thirst)</Definition>
       <SynsetRelation relType="entails" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
       <SynsetRelation relType="hypernym" target="ewn-01185870-v"/> <!-- meet, fill, conform to, fit, fulfill, fulfil, satisfy -->
       <Example>The cold water quenched his thirst</Example>
     </Synset>
     <!-- nourish, aliment, nutrify -->
-    <Synset id="ewn-01206811-v" ili="i27644" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01206811-v" ili="i27644" members="ewn-nutrify-v ewn-aliment-v ewn-nourish-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>give nourishment to</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
     </Synset>
     <!-- range -->
-    <Synset id="ewn-01207059-v" ili="i27645" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207059-v" ili="i27645" members="ewn-range-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>let eat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01180862-v"/> <!-- feed, give -->
       <SynsetRelation relType="similar" target="ewn-01578996-v"/> <!-- range, pasture, graze, browse, crop -->
       <Example>range the animals in the prairie</Example>
     </Synset>
     <!-- grass -->
-    <Synset id="ewn-01207201-v" ili="i27646" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207201-v" ili="i27646" members="ewn-grass-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>feed with grass</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01579309-v"/> <!-- pasture, graze, crop -->
     </Synset>
     <!-- gutter -->
-    <Synset id="ewn-01207297-v" ili="i27647" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207297-v" ili="i27647" members="ewn-gutter-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>provide with gutters</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01185006-v"/> <!-- supply, cater, ply, provide -->
       <Example>gutter the buildings</Example>
     </Synset>
     <!-- wanton, luxuriate -->
-    <Synset id="ewn-01207423-v" ili="i27648" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207423-v" ili="i27648" members="ewn-luxuriate-v ewn-wanton-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>become extravagant; indulge (oneself) luxuriously</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01160479-v"/> <!-- ware, squander, waste, consume -->
     </Synset>
     <!-- burn up, burn off, burn -->
-    <Synset id="ewn-01207620-v" ili="i27649" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207620-v" ili="i27649" members="ewn-burn_off-v ewn-burn-v ewn-burn_up-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>use up (energy)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159815-v"/> <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
       <Example>burn off calories through vigorous exercise</Example>
     </Synset>
     <!-- carry, hold -->
-    <Synset id="ewn-01207773-v" ili="i27650" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207773-v" ili="i27650" members="ewn-carry-v ewn-hold-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>drink alcohol without showing ill effects</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01173463-v"/> <!-- booze, fuddle, hit the bottle, drink -->
       <Example>He can hold his liquor</Example>
       <Example>he had drunk more than he could carry</Example>
     </Synset>
     <!-- go down -->
-    <Synset id="ewn-01207951-v" ili="i27651" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01207951-v" ili="i27651" members="ewn-go_down-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>be ingested</Definition>
       <Example>This wine sure goes down well</Example>
       <Example>The food wouldn&apos;t go down</Example>
     </Synset>
     <!-- sup -->
-    <Synset id="ewn-01208079-v" ili="i27652" partOfSpeech="v" dc:subject="verb.consumption">
+    <Synset id="ewn-01208079-v" ili="i27652" members="ewn-sup-v" partOfSpeech="v" dc:subject="verb.consumption">
       <Definition>take solid or liquid food into the mouth a little at a time either by drinking or by eating with a spoon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-01159300-v"/> <!-- ingest, take, have, consume, take in -->
     </Synset>
-    <Synset id="ewn-90019872-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90019872-v" ili="in" members="ewn-geek_out-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>to be especially excited about something relatively unpopular</Definition>
       <ILIDefinition>to be especially excited about something relatively unpopular</ILIDefinition>
       <SynsetRelation relType="similar" target="ewn-01765558-v"/>
       <SynsetRelation relType="hypernym" target="ewn-01193481-v"/> <!-- delight, enjoy, revel -->
     </Synset>
-    <Synset id="ewn-90002431-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90002431-v" ili="in" members="ewn-cumswallow-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>to swallow ejaculate</Definition>
       <ILIDefinition>to swallow ejaculate</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-01204494-v"/> <!-- swallow, get down -->
     </Synset>
-    <Synset id="ewn-90003681-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90003681-v" ili="in" members="ewn-dab-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>to smoke marijuana using butane hash oil</Definition>
       <ILIDefinition>to smoke marijuana using butane hash oil</ILIDefinition>
       <SynsetRelation relType="domain_topic" target="ewn-02953127-n"/>
       <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->
     </Synset>
-    <Synset id="ewn-90004861-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90004861-v" ili="in" members="ewn-tweak-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>to be under the influence of methamphetamine</Definition>
       <ILIDefinition>to be under the influence of methamphetamine</ILIDefinition>
       <SynsetRelation relType="similar" target="ewn-01192810-v"/> <!-- inebriate, hit it up, souse, soak -->
     </Synset>
-    <Synset id="ewn-90014081-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90014081-v" ili="in" members="ewn-upcycle-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>To transform an old product into a newer and more expensive form with a different use</Definition>
       <ILIDefinition>To transform an old product into a newer and more expensive form with a different use</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-01164741-v"/> <!-- recycle, reuse, reprocess -->
     </Synset>
-    <Synset id="ewn-90000271-v" ili="in" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
+    <Synset id="ewn-90000271-v" ili="in" members="ewn-vape-v" partOfSpeech="v" dc:subject="verb.consumption" dc:source="Colloquial WordNet">
       <Definition>to use an electronic cigarette</Definition>
       <ILIDefinition>to use an electronic cigarette</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-01200739-v"/> <!-- smoke -->

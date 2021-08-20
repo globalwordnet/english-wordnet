@@ -261,6 +261,7 @@ class Synset:
         self.synset_relations = []
         self.examples = []
         self.source = source
+        self.members = []
 
     def add_definition(self, definition, is_ili=False):
         if is_ili:
@@ -284,10 +285,11 @@ class Synset:
         if self.source:
             source_tag = " dc:source=\"%s\"" % (self.source)
         xml_file.write(
-            """    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
+            """    <Synset id="%s" ili="%s" members="%s" partOfSpeech="%s" dc:subject="%s"%s>
 """ %
             (self.id,
              self.ili,
+             " ".join(self.members),
              self.part_of_speech.value,
              self.lex_name,
              source_tag))

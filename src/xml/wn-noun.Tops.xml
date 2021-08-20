@@ -549,14 +549,14 @@
       <Pronunciation variety="GB">ləʊˈkeɪʃən</Pronunciation>
     </LexicalEntry>
     <!-- entity -->
-    <Synset id="ewn-00001740-n" ili="i35545" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00001740-n" ili="i35545" members="ewn-entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>that which is perceived or known or inferred to have its own distinct existence (living or nonliving)</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-04431553-n"/> <!-- thing -->
     </Synset>
     <!-- physical entity -->
-    <Synset id="ewn-00001930-n" ili="i35546" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00001930-n" ili="i35546" members="ewn-physical_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an entity that has physical existence</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001740-n"/> <!-- entity -->
       <SynsetRelation relType="hyponym" target="ewn-00002452-n"/> <!-- thing -->
@@ -567,7 +567,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14604577-n"/> <!-- substance -->
     </Synset>
     <!-- abstract entity, abstraction -->
-    <Synset id="ewn-00002137-n" ili="i35547" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002137-n" ili="i35547" members="ewn-abstraction-n ewn-abstract_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a general concept formed by extracting common features from specific examples</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001740-n"/> <!-- entity -->
       <SynsetRelation relType="hyponym" target="ewn-00023280-n"/> <!-- psychological feature -->
@@ -581,7 +581,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- thing -->
-    <Synset id="ewn-00002452-n" ili="i35548" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002452-n" ili="i35548" members="ewn-thing-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a separate and self-contained entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-04354303-n"/> <!-- content, depicted object, subject -->
@@ -594,7 +594,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09492089-n"/> <!-- variable -->
     </Synset>
     <!-- object, physical object -->
-    <Synset id="ewn-00002684-n" ili="i35549" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002684-n" ili="i35549" members="ewn-object-n ewn-physical_object-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a tangible and visible entity; an entity that can cast a shadow</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00003553-n"/> <!-- unit, whole -->
@@ -638,7 +638,7 @@
       <Example>it was full of rackets, balls and other objects</Example>
     </Synset>
     <!-- unit, whole -->
-    <Synset id="ewn-00003553-n" ili="i35550" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00003553-n" ili="i35550" members="ewn-whole-n ewn-unit-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an assemblage of parts that is regarded as a single entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
       <SynsetRelation relType="hyponym" target="ewn-00003993-n"/> <!-- congener -->
@@ -654,14 +654,14 @@
       <Example>the team is a unit</Example>
     </Synset>
     <!-- congener -->
-    <Synset id="ewn-00003993-n" ili="i35551" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00003993-n" ili="i35551" members="ewn-congener-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a whole (a thing or person) of the same kind or category as another</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <Example>lard was also used, though its congener, butter, was more frequently employed</Example>
       <Example>the American shopkeeper differs from his European congener</Example>
     </Synset>
     <!-- animate thing, living thing -->
-    <Synset id="ewn-00004258-n" ili="i35552" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00004258-n" ili="i35552" members="ewn-living_thing-n ewn-animate_thing-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living (or once living) entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="has_domain_topic" target="ewn-01651383-a"/> <!-- young, immature -->
@@ -672,7 +672,7 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-05063385-n"/> <!-- viability -->
     </Synset>
     <!-- organism, being -->
-    <Synset id="ewn-00004475-n" ili="i35553" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00004475-n" ili="i35553" members="ewn-organism-n ewn-being-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living thing that has (or can develop) the ability to act or function independently</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="has_domain_topic" target="ewn-00271722-s"/> <!-- bioluminescent -->
@@ -739,7 +739,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
     </Synset>
     <!-- benthos -->
-    <Synset id="ewn-00005787-n" ili="i35554" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00005787-n" ili="i35554" members="ewn-benthos-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>organisms (plants and animals) that live at or near the bottom of a sea, lake, river or stream</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="hyponym" target="ewn-92419748-n"/>
@@ -751,34 +751,34 @@
       <SynsetRelation relType="hyponym" target="ewn-92420298-n"/>
     </Synset>
     <!-- dwarf -->
-    <Synset id="ewn-00005930-n" ili="i35555" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00005930-n" ili="i35555" members="ewn-dwarf-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a plant or animal that is atypically small</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- heterotroph -->
-    <Synset id="ewn-00006024-n" ili="i35556" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006024-n" ili="i35556" members="ewn-heterotroph-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an organism that depends on complex organic substances for nutrition</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- parent -->
-    <Synset id="ewn-00006150-n" ili="i35557" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006150-n" ili="i35557" members="ewn-parent-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an organism (plant or animal) from which younger ones are obtained</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- life -->
-    <Synset id="ewn-00006269-n" ili="i35558" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006269-n" ili="i35558" members="ewn-life-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>living things collectively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="hyponym" target="ewn-08010218-n"/> <!-- wildlife -->
       <Example>the oceans are teeming with life</Example>
     </Synset>
     <!-- biont -->
-    <Synset id="ewn-00006400-n" ili="i35559" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006400-n" ili="i35559" members="ewn-biont-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a discrete unit of living matter</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
     </Synset>
     <!-- cell -->
-    <Synset id="ewn-00006484-n" ili="i35560" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006484-n" ili="i35560" members="ewn-cell-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(biology) the basic structural and functional unit of all organisms; they may exist as independent units of life (as in monads) or may form colonies or tissues as in higher plants and animals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="holo_part" target="ewn-00004475-n"/> <!-- organism, being -->
@@ -815,7 +815,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01316379-n"/>
     </Synset>
     <!-- causal agent, cause, causal agency -->
-    <Synset id="ewn-00007347-n" ili="i35561" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00007347-n" ili="i35561" members="ewn-causal_agent-n ewn-cause-n ewn-causal_agency-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any entity that produces an effect or is responsible for events or results</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-09213796-n"/> <!-- agent -->
@@ -836,7 +836,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- soul, someone, individual, somebody, mortal, person -->
-    <Synset id="ewn-00007846-n" ili="i35562" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00007846-n" ili="i35562" members="ewn-person-n ewn-individual-n ewn-someone-n ewn-somebody-n ewn-mortal-n ewn-soul-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-07958392-n"/> <!-- people -->
@@ -1261,7 +1261,7 @@
       <Example>there was too much for one person to do</Example>
     </Synset>
     <!-- animal, brute, fauna, creature, beast, animate being -->
-    <Synset id="ewn-00015568-n" ili="i35563" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00015568-n" ili="i35563" members="ewn-animal-n ewn-animate_being-n ewn-beast-n ewn-brute-n ewn-creature-n ewn-fauna-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living organism characterized by voluntary movement</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-01315584-n"/> <!-- kingdom Animalia, animal kingdom, Animalia -->
@@ -1354,7 +1354,7 @@
       <SynsetRelation relType="hyponym" target="ewn-85444389-n"/>
     </Synset>
     <!-- plant life, plant, flora -->
-    <Synset id="ewn-00017402-n" ili="i35564" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00017402-n" ili="i35564" members="ewn-plant-n ewn-flora-n ewn-plant_life-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(botany) a living organism lacking the power of locomotion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-11550054-n"/> <!-- plant kingdom, kingdom Plantae, Plantae -->
@@ -1446,12 +1446,12 @@
       <SynsetRelation relType="hyponym" target="ewn-11550459-n"/>
     </Synset>
     <!-- native -->
-    <Synset id="ewn-00019226-n" ili="i35565" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019226-n" ili="i35565" members="ewn-native-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>indigenous plants and animals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- natural object -->
-    <Synset id="ewn-00019308-n" ili="i35566" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019308-n" ili="i35566" members="ewn-natural_object-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an object occurring naturally; not made by man</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="hyponym" target="ewn-02315396-n"/> <!-- cocoon -->
@@ -1476,7 +1476,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13107668-n"/> <!-- plant part, plant structure -->
     </Synset>
     <!-- substance -->
-    <Synset id="ewn-00019793-n" ili="i35567" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019793-n" ili="i35567" members="ewn-substance-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the real physical matter of which a person or thing consists</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
       <SynsetRelation relType="hypernym" target="ewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
@@ -1501,7 +1501,7 @@
       <Example>DNA is the substance of our genes</Example>
     </Synset>
     <!-- substance -->
-    <Synset id="ewn-00020270-n" ili="i35568" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00020270-n" ili="i35568" members="ewn-substance-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a particular kind or species of matter with uniform properties</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
       <SynsetRelation relType="hyponym" target="ewn-00021445-n"/> <!-- food, nutrient -->
@@ -1538,7 +1538,7 @@
       <Example>shigella is one of the most toxic substances known to man</Example>
     </Synset>
     <!-- matter -->
-    <Synset id="ewn-00021007-n" ili="i35569" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021007-n" ili="i35569" members="ewn-matter-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>that which has mass and occupies space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00019793-n"/> <!-- substance -->
@@ -1561,7 +1561,7 @@
       <Example>physicists study both the nature of matter and the forces which govern it</Example>
     </Synset>
     <!-- food, nutrient -->
-    <Synset id="ewn-00021445-n" ili="i35570" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021445-n" ili="i35570" members="ewn-food-n ewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any substance that can be metabolized by an animal to give energy and build tissue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-01467485-n"/> <!-- yolk, vitellus -->
@@ -1582,13 +1582,13 @@
       <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
     </Synset>
     <!-- nutrient -->
-    <Synset id="ewn-00021914-n" ili="i35571" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021914-n" ili="i35571" members="ewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any substance (such as a chemical element or inorganic compound) that can be taken in by a green plant and used in organic synthesis</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-07951744-n"/> <!-- water -->
     </Synset>
     <!-- artifact, artefact -->
-    <Synset id="ewn-00022119-n" ili="i35572" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00022119-n" ili="i35572" members="ewn-artifact-n ewn-artefact-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a man-made object taken as a whole</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="hyponym" target="ewn-00023083-n"/> <!-- article -->
@@ -1638,7 +1638,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15002063-n"/> <!-- paving material, pavement, paving -->
     </Synset>
     <!-- article -->
-    <Synset id="ewn-00023083-n" ili="i35573" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023083-n" ili="i35573" members="ewn-article-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>one of a class of artifacts</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00022119-n"/> <!-- artifact, artefact -->
       <SynsetRelation relType="hyponym" target="ewn-02897286-n"/> <!-- breakable -->
@@ -1648,14 +1648,14 @@
       <Example>an article of clothing</Example>
     </Synset>
     <!-- psychological feature -->
-    <Synset id="ewn-00023280-n" ili="i35574" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023280-n" ili="i35574" members="ewn-psychological_feature-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a feature of the mental life of a living organism</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00023451-n"/> <!-- noesis, cognition, knowledge -->
       <SynsetRelation relType="hyponym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
     </Synset>
     <!-- noesis, cognition, knowledge -->
-    <Synset id="ewn-00023451-n" ili="i35575" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023451-n" ili="i35575" members="ewn-cognition-n ewn-knowledge-n ewn-noesis-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological result of perception and learning and reasoning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-05619057-n"/> <!-- psyche, head, brain, mind, nous -->
@@ -1679,7 +1679,7 @@
       <SynsetRelation relType="hyponym" target="ewn-06202938-n"/> <!-- attitude, mental attitude -->
     </Synset>
     <!-- need, motive, motivation -->
-    <Synset id="ewn-00023953-n" ili="i35576" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023953-n" ili="i35576" members="ewn-motivation-n ewn-motive-n ewn-need-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-09201624-n"/> <!-- life -->
@@ -1692,7 +1692,7 @@
       <Example>he acted with the best of motives</Example>
     </Synset>
     <!-- attribute -->
-    <Synset id="ewn-00024444-n" ili="i35577" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00024444-n" ili="i35577" members="ewn-attribute-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an abstraction belonging to or characteristic of an entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00024900-n"/> <!-- state -->
@@ -1716,7 +1716,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05141618-n"/> <!-- depth -->
     </Synset>
     <!-- state -->
-    <Synset id="ewn-00024900-n" ili="i35578" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00024900-n" ili="i35578" members="ewn-state-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the way something is with respect to its main attributes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-00026390-n"/> <!-- feeling -->
@@ -1796,7 +1796,7 @@
       <Example>in a weak financial state</Example>
     </Synset>
     <!-- feeling -->
-    <Synset id="ewn-00026390-n" ili="i35579" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00026390-n" ili="i35579" members="ewn-feeling-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the experiencing of affective and emotional states</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024900-n"/> <!-- state -->
       <SynsetRelation relType="hyponym" target="ewn-07495066-n"/> <!-- affect -->
@@ -1846,7 +1846,7 @@
       <Example>I disliked him and the feeling was mutual</Example>
     </Synset>
     <!-- location -->
-    <Synset id="ewn-00027365-n" ili="i35580" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00027365-n" ili="i35580" members="ewn-location-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a point or extent in space; a point or extent in space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
       <SynsetRelation relType="holo_part" target="ewn-00028950-n"/> <!-- infinite, space -->
@@ -1878,7 +1878,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08517454-n"/>
     </Synset>
     <!-- shape, form -->
-    <Synset id="ewn-00028005-n" ili="i35581" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028005-n" ili="i35581" members="ewn-shape-n ewn-form-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the spatial arrangement of something as distinct from its substance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-13882990-n"/> <!-- solid -->
@@ -1900,7 +1900,7 @@
       <Example>geometry is the mathematical science of shape</Example>
     </Synset>
     <!-- time -->
-    <Synset id="ewn-00028468-n" ili="i35582" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028468-n" ili="i35582" members="ewn-time-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the continuum of experience in which events pass from the future through the present to the past</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-15140868-n"/> <!-- geologic time, geological time -->
@@ -1922,7 +1922,7 @@
       <Example>time flies like an arrow</Example>
     </Synset>
     <!-- infinite, space -->
-    <Synset id="ewn-00028950-n" ili="i35583" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028950-n" ili="i35583" members="ewn-space-n ewn-infinite-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the unlimited expanse in which everything is located</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="mero_part" target="ewn-00027365-n"/> <!-- location -->
@@ -1935,12 +1935,12 @@
       <Example>the boundless regions of the infinite</Example>
     </Synset>
     <!-- absolute space -->
-    <Synset id="ewn-00029306-n" ili="i35584" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029306-n" ili="i35584" members="ewn-absolute_space-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>physical space independent of what occupies it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028950-n"/> <!-- infinite, space -->
     </Synset>
     <!-- phase space -->
-    <Synset id="ewn-00029413-n" ili="i35585" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029413-n" ili="i35585" members="ewn-phase_space-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(physics) an ideal space in which the coordinate dimensions represent the variables that are required to describe a system or substance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028950-n"/> <!-- infinite, space -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
@@ -1948,7 +1948,7 @@
       <Example>a multidimensional phase space</Example>
     </Synset>
     <!-- event -->
-    <Synset id="ewn-00029677-n" ili="i35586" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029677-n" ili="i35586" members="ewn-event-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that happens at a given place and time</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00030657-n"/> <!-- deed, human action, act, human activity -->
       <SynsetRelation relType="hyponym" target="ewn-07298069-n"/> <!-- might-have-been -->
@@ -1965,7 +1965,7 @@
       <SynsetRelation relType="hypernym" target="ewn-08324519-n"/>
     </Synset>
     <!-- physical process, process -->
-    <Synset id="ewn-00029976-n" ili="i35587" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029976-n" ili="i35587" members="ewn-process-n ewn-physical_process-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a sustained phenomenon or one marked by gradual changes through a series of states</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00034512-n"/> <!-- phenomenon -->
@@ -1998,7 +1998,7 @@
       <Example>the process of calcification begins later for boys than for girls</Example>
     </Synset>
     <!-- deed, human action, act, human activity -->
-    <Synset id="ewn-00030657-n" ili="i35588" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00030657-n" ili="i35588" members="ewn-act-n ewn-deed-n ewn-human_action-n ewn-human_activity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that people do or cause to happen</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00029677-n"/> <!-- event -->
       <SynsetRelation relType="hyponym" target="ewn-00038116-n"/> <!-- action -->
@@ -2044,7 +2044,7 @@
       <SynsetRelation relType="hyponym" target="ewn-90001771-n"/>
     </Synset>
     <!-- group, grouping -->
-    <Synset id="ewn-00031563-n" ili="i35589" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00031563-n" ili="i35589" members="ewn-group-n ewn-grouping-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any number of entities (members) considered as a unit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-02475618-n"/> <!-- world, mankind, human beings, human race, humanity, humans, humankind, man -->
@@ -2079,7 +2079,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92417734-n"/>
     </Synset>
     <!-- relation -->
-    <Synset id="ewn-00032220-n" ili="i35590" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00032220-n" ili="i35590" members="ewn-relation-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an abstraction belonging to or characteristic of two entities or parts together</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00032912-n"/> <!-- possession -->
@@ -2110,7 +2110,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13881240-n"/> <!-- change -->
     </Synset>
     <!-- possession -->
-    <Synset id="ewn-00032912-n" ili="i35591" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00032912-n" ili="i35591" members="ewn-possession-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>anything owned or possessed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="ewn-13265007-n"/> <!-- belongings, property, holding -->
@@ -2122,7 +2122,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13417227-n"/> <!-- liabilities -->
     </Synset>
     <!-- social relation -->
-    <Synset id="ewn-00033122-n" ili="i35592" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033122-n" ili="i35592" members="ewn-social_relation-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a relation between living organisms (especially between people)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="ewn-13802661-n"/> <!-- dealings, relations -->
@@ -2131,7 +2131,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13863157-n"/> <!-- alchemy, interpersonal chemistry, chemistry -->
     </Synset>
     <!-- communication -->
-    <Synset id="ewn-00033319-n" ili="i35593" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033319-n" ili="i35593" members="ewn-communication-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that is communicated by or to or between people or groups</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-01104341-n"/> <!-- publication -->
@@ -2155,7 +2155,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13424504-n"/> <!-- document -->
     </Synset>
     <!-- amount, quantity, measure -->
-    <Synset id="ewn-00033914-n" ili="i35594" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033914-n" ili="i35594" members="ewn-measure-n ewn-quantity-n ewn-amount-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>how much there is or how many there are of something that you can quantify</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="attribute" target="ewn-02303673-a"/> <!-- standard -->
@@ -2183,7 +2183,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92422856-n"/>
     </Synset>
     <!-- phenomenon -->
-    <Synset id="ewn-00034512-n" ili="i35595" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00034512-n" ili="i35595" members="ewn-phenomenon-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any state or process known through the senses rather than by intuition or reasoning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00029976-n"/> <!-- physical process, process -->
       <SynsetRelation relType="hyponym" target="ewn-11428673-n"/> <!-- natural phenomenon -->

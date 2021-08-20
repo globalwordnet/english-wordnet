@@ -48,7 +48,7 @@ def sense_from_yaml(y, lemma, pos, n):
 def pronunciation_from_yaml(props):
     return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
 
-def synset_from_yaml(props, id, lex_name):
+def synset_from_yaml(wn, props, id, lex_name):
     if "partOfSpeech" not in props:
         print(props)
     ss = Synset("ewn-" + id,
@@ -71,7 +71,16 @@ def synset_from_yaml(props, id, lex_name):
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
                     "ewn-" + target, SynsetRelType(rel)))
+    ss.members = [entry_for_synset(wn, ss, lemma) for lemma in props["members"]]
     return ss
+
+def entry_for_synset(wn, ss, lemma):
+    for e in wn.entry_by_lemma(lemma):
+        for s in wn.entry_by_id(e).senses:
+            if s.synset == ss.id:
+                return e
+    print("Could not find %s referring to %s" % (lemma, ss.id))
+    return ""
 
 def fix_sense_id(
         wn,
@@ -150,7 +159,7 @@ def load():
                 y = yaml.load(inp, Loader=CLoader)
 
                 for id, props in y.items():
-                    wn.add_synset(synset_from_yaml(props, id, lex_name))
+                    wn.add_synset(synset_from_yaml(wn, props, id, lex_name))
                     entry_orders[id] = props["members"]
 
     # This is a big hack because of some inconsistencies in the XML that should

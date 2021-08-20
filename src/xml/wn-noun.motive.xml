@@ -433,13 +433,13 @@
       <Sense id="ewn-logomania-n-09205298-02" n="0" synset="ewn-09205298-n" dc:identifier="logomania%1:16:00::"/>
     </LexicalEntry>
     <!-- life -->
-    <Synset id="ewn-09201624-n" ili="i84876" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09201624-n" ili="i84876" members="ewn-life-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a motive for living</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <Example>pottery was his life</Example>
     </Synset>
     <!-- rational motive -->
-    <Synset id="ewn-09201718-n" ili="i84877" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09201718-n" ili="i84877" members="ewn-rational_motive-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a motive that can be defended by reasoning or logical argument</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <SynsetRelation relType="hyponym" target="ewn-09201896-n"/> <!-- reason, ground -->
@@ -447,7 +447,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09203015-n"/> <!-- deterrence, disincentive -->
     </Synset>
     <!-- reason, ground -->
-    <Synset id="ewn-09201896-n" ili="i84878" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09201896-n" ili="i84878" members="ewn-reason-n ewn-ground-n ewn-occasion-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a rational motive for a belief or action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09201718-n"/> <!-- rational motive -->
       <SynsetRelation relType="hyponym" target="ewn-09202279-n"/> <!-- score, account -->
@@ -456,7 +456,7 @@
       <Example>the grounds for their declaration</Example>
     </Synset>
     <!-- score, account -->
-    <Synset id="ewn-09202279-n" ili="i84880" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09202279-n" ili="i84880" members="ewn-score-n ewn-account-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>grounds</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09201896-n"/> <!-- reason, ground -->
       <Example>don&apos;t do it on my account</Example>
@@ -464,29 +464,29 @@
       <Example>he tried to blame the victim but his success on that score was doubtful</Example>
     </Synset>
     <!-- why, wherefore -->
-    <Synset id="ewn-09202503-n" ili="i84881" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09202503-n" ili="i84881" members="ewn-why-n ewn-wherefore-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores&apos;</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09201896-n"/> <!-- reason, ground -->
     </Synset>
     <!-- incentive, inducement, motivator -->
-    <Synset id="ewn-09202673-n" ili="i84882" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09202673-n" ili="i84882" members="ewn-incentive-n ewn-inducement-n ewn-motivator-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a positive motivational influence</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09201718-n"/> <!-- rational motive -->
       <SynsetRelation relType="hyponym" target="ewn-09202859-n"/> <!-- moral force, dynamic -->
     </Synset>
     <!-- moral force, dynamic -->
-    <Synset id="ewn-09202859-n" ili="i84883" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09202859-n" ili="i84883" members="ewn-moral_force-n ewn-dynamic-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an efficient incentive</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09202673-n"/> <!-- incentive, inducement, motivator -->
       <Example>they hoped it would act as a spiritual dynamic on all churches</Example>
     </Synset>
     <!-- deterrence, disincentive -->
-    <Synset id="ewn-09203015-n" ili="i84884" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203015-n" ili="i84884" members="ewn-disincentive-n ewn-deterrence-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a negative motivational influence</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09201718-n"/> <!-- rational motive -->
     </Synset>
     <!-- irrational motive -->
-    <Synset id="ewn-09203156-n" ili="i84885" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203156-n" ili="i84885" members="ewn-irrational_motive-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a motivation that is inconsistent with reason or logic</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <SynsetRelation relType="hyponym" target="ewn-09204011-n"/> <!-- irrational impulse -->
@@ -494,7 +494,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09206152-n"/> <!-- compulsion, obsession -->
     </Synset>
     <!-- impulse, urge -->
-    <Synset id="ewn-09203328-n" ili="i84886" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203328-n" ili="i84886" members="ewn-urge-n ewn-impulse-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an instinctive motive</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <SynsetRelation relType="hyponym" target="ewn-09203513-n"/> <!-- abience -->
@@ -504,38 +504,38 @@
       <Example>profound religious impulses</Example>
     </Synset>
     <!-- abience -->
-    <Synset id="ewn-09203513-n" ili="i84887" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203513-n" ili="i84887" members="ewn-abience-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychology) an urge to withdraw or avoid a situation or an object</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203328-n"/> <!-- impulse, urge -->
       <SynsetRelation relType="domain_topic" target="ewn-06145709-n"/> <!-- psychological science, psychology -->
     </Synset>
     <!-- adience -->
-    <Synset id="ewn-09203688-n" ili="i84888" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203688-n" ili="i84888" members="ewn-adience-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychology) an urge to accept or approach a situation or an object</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203328-n"/> <!-- impulse, urge -->
       <SynsetRelation relType="domain_topic" target="ewn-06145709-n"/> <!-- psychological science, psychology -->
     </Synset>
     <!-- Thanatos, death instinct, death wish -->
-    <Synset id="ewn-09203864-n" ili="i84889" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09203864-n" ili="i84889" members="ewn-death_instinct-n ewn-death_wish-n ewn-Thanatos-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychoanalysis) an unconscious urge to die</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203328-n"/> <!-- impulse, urge -->
       <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/> <!-- depth psychology, analysis, psychoanalysis -->
     </Synset>
     <!-- irrational impulse -->
-    <Synset id="ewn-09204011-n" ili="i84890" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09204011-n" ili="i84890" members="ewn-irrational_impulse-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a strong spontaneous and irrational motivation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203156-n"/> <!-- irrational motive -->
       <SynsetRelation relType="hyponym" target="ewn-09204227-n"/> <!-- compulsion, irresistible impulse -->
       <Example>the mass media and advertisers channel our irrational impulses</Example>
     </Synset>
     <!-- compulsion, irresistible impulse -->
-    <Synset id="ewn-09204227-n" ili="i84891" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09204227-n" ili="i84891" members="ewn-compulsion-n ewn-irresistible_impulse-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an urge to do or say something that might be better left undone or unsaid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204011-n"/> <!-- irrational impulse -->
       <Example>he felt a compulsion to babble on about the accident</Example>
     </Synset>
     <!-- passion, mania, cacoethes -->
-    <Synset id="ewn-09204454-n" ili="i84892" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09204454-n" ili="i84892" members="ewn-mania-n ewn-passion-n ewn-cacoethes-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irrational but irresistible motive for a belief or action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203156-n"/> <!-- irrational motive -->
       <SynsetRelation relType="hyponym" target="ewn-09204786-n"/> <!-- agromania -->
@@ -550,74 +550,74 @@
       <SynsetRelation relType="hyponym" target="ewn-09205928-n"/> <!-- trichotillomania -->
     </Synset>
     <!-- agromania -->
-    <Synset id="ewn-09204786-n" ili="i84893" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09204786-n" ili="i84893" members="ewn-agromania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an intense desire to be alone or out in the open</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- alcoholism, dipsomania, potomania -->
-    <Synset id="ewn-09204890-n" ili="i84894" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09204890-n" ili="i84894" members="ewn-dipsomania-n ewn-alcoholism-n ewn-potomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an intense persistent desire to drink alcoholic beverages to excess</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- egomania -->
-    <Synset id="ewn-09205039-n" ili="i84895" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205039-n" ili="i84895" members="ewn-egomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an intense and irresistible love for yourself and concern for your own needs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- kleptomania -->
-    <Synset id="ewn-09205170-n" ili="i84896" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205170-n" ili="i84896" members="ewn-kleptomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irresistible impulse to steal in the absence of any economic motive</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- logorrhea, logomania -->
-    <Synset id="ewn-09205298-n" ili="i84897" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205298-n" ili="i84897" members="ewn-logorrhea-n ewn-logomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>pathologically excessive (and often incoherent) talking</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- monomania, possession -->
-    <Synset id="ewn-09205421-n" ili="i84898" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205421-n" ili="i84898" members="ewn-monomania-n ewn-possession-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a mania restricted to one thing or idea</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- necrophilism, necromania, necrophilia -->
-    <Synset id="ewn-09205547-n" ili="i84899" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205547-n" ili="i84899" members="ewn-necrophilia-n ewn-necrophilism-n ewn-necromania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irresistible sexual attraction to dead bodies</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- phaneromania -->
-    <Synset id="ewn-09205681-n" ili="i84900" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205681-n" ili="i84900" members="ewn-phaneromania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irresistible desire to pick at superficial body parts (as in obsessive nail-biting)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- pyromania -->
-    <Synset id="ewn-09205826-n" ili="i84901" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205826-n" ili="i84901" members="ewn-pyromania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an uncontrollable desire to set fire to things</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- trichotillomania -->
-    <Synset id="ewn-09205928-n" ili="i84902" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09205928-n" ili="i84902" members="ewn-trichotillomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irresistible urge to pull out your own hair</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09204454-n"/> <!-- passion, mania, cacoethes -->
     </Synset>
     <!-- itchy feet, wanderlust -->
-    <Synset id="ewn-09206037-n" ili="i84903" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09206037-n" ili="i84903" members="ewn-wanderlust-n ewn-itchy_feet-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>very strong or irresistible impulse to travel</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203328-n"/> <!-- impulse, urge -->
     </Synset>
     <!-- compulsion, obsession -->
-    <Synset id="ewn-09206152-n" ili="i84904" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09206152-n" ili="i84904" members="ewn-compulsion-n ewn-obsession-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an irrational motive for performing trivial or repetitive actions, even against your will</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09203156-n"/> <!-- irrational motive -->
       <SynsetRelation relType="hyponym" target="ewn-09206429-n"/> <!-- onomatomania -->
       <Example>her compulsion to wash her hands repeatedly</Example>
     </Synset>
     <!-- onomatomania -->
-    <Synset id="ewn-09206429-n" ili="i84905" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09206429-n" ili="i84905" members="ewn-onomatomania-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>obsession with a particular word which the person uses repeatedly or which intrudes into consciousness</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09206152-n"/> <!-- compulsion, obsession -->
     </Synset>
     <!-- morality, morals, ethics, ethical motive -->
-    <Synset id="ewn-09206590-n" ili="i84906" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09206590-n" ili="i84906" members="ewn-ethical_motive-n ewn-ethics-n ewn-morals-n ewn-morality-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>motivation based on ideas of right and wrong</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <SynsetRelation relType="hyponym" target="ewn-09206868-n"/> <!-- hedonism -->
@@ -625,12 +625,12 @@
       <SynsetRelation relType="hyponym" target="ewn-09207565-n"/> <!-- Christ Within, Light Within, Light, Inner Light -->
     </Synset>
     <!-- hedonism -->
-    <Synset id="ewn-09206868-n" ili="i84907" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09206868-n" ili="i84907" members="ewn-hedonism-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>the pursuit of pleasure as a matter of ethical principle</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09206590-n"/> <!-- morality, morals, ethics, ethical motive -->
     </Synset>
     <!-- scruples, moral sense, sense of right and wrong, conscience -->
-    <Synset id="ewn-09207033-n" ili="i84908" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207033-n" ili="i84908" members="ewn-conscience-n ewn-scruples-n ewn-moral_sense-n ewn-sense_of_right_and_wrong-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>motivation deriving logically from ethical or moral principles that govern a person&apos;s thoughts and actions</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09206590-n"/> <!-- morality, morals, ethics, ethical motive -->
       <SynsetRelation relType="hyponym" target="ewn-05621408-n"/> <!-- superego -->
@@ -638,42 +638,42 @@
       <SynsetRelation relType="hyponym" target="ewn-09207440-n"/> <!-- sense of shame, sense of duty -->
     </Synset>
     <!-- voice of conscience, small voice, wee small voice -->
-    <Synset id="ewn-09207302-n" ili="i84909" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207302-n" ili="i84909" members="ewn-wee_small_voice-n ewn-small_voice-n ewn-voice_of_conscience-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an inner voice that judges your behavior</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09207033-n"/> <!-- scruples, moral sense, sense of right and wrong, conscience -->
     </Synset>
     <!-- sense of shame, sense of duty -->
-    <Synset id="ewn-09207440-n" ili="i84910" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207440-n" ili="i84910" members="ewn-sense_of_shame-n ewn-sense_of_duty-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a motivating awareness of ethical responsibility</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09207033-n"/> <!-- scruples, moral sense, sense of right and wrong, conscience -->
     </Synset>
     <!-- Christ Within, Light Within, Light, Inner Light -->
-    <Synset id="ewn-09207565-n" ili="i84911" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207565-n" ili="i84911" members="ewn-Inner_Light-n ewn-Light-n ewn-Light_Within-n ewn-Christ_Within-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>a divine presence believed by Quakers to enlighten and guide the soul</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09206590-n"/> <!-- morality, morals, ethics, ethical motive -->
     </Synset>
     <!-- mental energy, psychic energy -->
-    <Synset id="ewn-09207731-n" ili="i84912" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207731-n" ili="i84912" members="ewn-psychic_energy-n ewn-mental_energy-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>an actuating force or factor</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
       <SynsetRelation relType="hyponym" target="ewn-09207872-n"/> <!-- incitement, incitation, provocation -->
       <SynsetRelation relType="hyponym" target="ewn-09208337-n"/> <!-- libidinal energy -->
     </Synset>
     <!-- incitement, incitation, provocation -->
-    <Synset id="ewn-09207872-n" ili="i84913" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09207872-n" ili="i84913" members="ewn-incitement-n ewn-incitation-n ewn-provocation-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>something that incites or provokes; a means of arousing or stirring to action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09207731-n"/> <!-- mental energy, psychic energy -->
       <SynsetRelation relType="hyponym" target="ewn-09208177-n"/> <!-- signal -->
     </Synset>
     <!-- signal -->
-    <Synset id="ewn-09208177-n" ili="i84914" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09208177-n" ili="i84914" members="ewn-signal-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>any incitement to action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09207872-n"/> <!-- incitement, incitation, provocation -->
       <Example>he awaited the signal to start</Example>
       <Example>the victory was a signal for wild celebration</Example>
     </Synset>
     <!-- libidinal energy -->
-    <Synset id="ewn-09208337-n" ili="i84915" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09208337-n" ili="i84915" members="ewn-libidinal_energy-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychoanalysis) psychic energy produced by the libido</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09207731-n"/> <!-- mental energy, psychic energy -->
       <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/> <!-- depth psychology, analysis, psychoanalysis -->
@@ -681,14 +681,14 @@
       <SynsetRelation relType="hyponym" target="ewn-09208762-n"/> <!-- acathexis -->
     </Synset>
     <!-- charge, cathexis -->
-    <Synset id="ewn-09208509-n" ili="i84916" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09208509-n" ili="i84916" members="ewn-cathexis-n ewn-charge-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychoanalysis) the libidinal energy invested in some idea or person or object</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09208337-n"/> <!-- libidinal energy -->
       <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/> <!-- depth psychology, analysis, psychoanalysis -->
       <Example>Freud thought of cathexis as a psychic analog of an electrical charge</Example>
     </Synset>
     <!-- acathexis -->
-    <Synset id="ewn-09208762-n" ili="i84917" partOfSpeech="n" dc:subject="noun.motive">
+    <Synset id="ewn-09208762-n" ili="i84917" members="ewn-acathexis-n" partOfSpeech="n" dc:subject="noun.motive">
       <Definition>(psychoanalysis) a lack of cathexis; a condition in which significant objects or memories arouse no emotion in an individual</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09208337-n"/> <!-- libidinal energy -->
       <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/> <!-- depth psychology, analysis, psychoanalysis -->
