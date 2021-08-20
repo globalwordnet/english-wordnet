@@ -153,7 +153,6 @@ def load():
                         frames, props, lemma, pos)
                     entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
-    print(wn.entry_by_id("ewn-a-n").pronunciation)
 
     for f in glob("src/yaml/*.yaml"):
         lex_name = f[9:-5]

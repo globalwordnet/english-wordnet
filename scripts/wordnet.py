@@ -592,6 +592,8 @@ class WordNetContentHandler(ContentHandler):
         self.example = None
         self.example_source = None
         self.synset = None
+        self.pron = None
+        self.pron_var = None
 
     def startElement(self, name, attrs):
         if name == "Lexicon":
@@ -645,6 +647,9 @@ class WordNetContentHandler(ContentHandler):
                 SyntacticBehaviour(
                     attrs["subcategorizationFrame"],
                     attrs["senses"].split(" ")))
+        elif name == "Pronunciation":
+            self.pron = ""
+            self.pron_var = attrs.get("variety")
         elif name == "LexicalResource":
             pass
         else:
@@ -669,6 +674,9 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Example":
             self.synset.add_example(Example(self.example, self.example_source))
             self.example = None
+        elif name == "Pronunciation":
+            self.entry.pronunciation.append(Pronunciation(self.pron, self.pron_var))
+            self.pron = None
 
     def characters(self, content):
         if self.defn is not None:
@@ -677,6 +685,8 @@ class WordNetContentHandler(ContentHandler):
             self.ili_defn += content
         elif self.example is not None:
             self.example += content
+        elif self.pron is not None:
+            self.pron += content
         elif content.strip() == '':
             pass
         else:

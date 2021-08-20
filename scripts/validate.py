@@ -221,7 +221,8 @@ def main():
     sense_keys = {}
 
     for entry in wn.entries:
-        if entry.id[-1:] != entry.lemma.part_of_speech.value:
+        if (entry.id[-1:] != entry.lemma.part_of_speech.value and not entry.id[-1].isnumeric()
+            or entry.id[-1].isnumeric() and entry.id[-3:-2] != entry.lemma.part_of_speech.value):
             print("ERROR: Entry ID not same as part of speech %s as %s" %
                   (entry.id, entry.lemma.part_of_speech.value))
             errors += 1
