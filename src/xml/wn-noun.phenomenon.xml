@@ -841,14 +841,6 @@
       <Lemma writtenForm="roentgen ray" partOfSpeech="n"/>
       <Sense id="ewn-roentgen_ray-n-11547628-04" n="0" synset="ewn-11547628-n" dc:identifier="roentgen_ray%1:19:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-wind-n">
-      <Lemma writtenForm="wind" partOfSpeech="n"/>
-      <Sense id="ewn-wind-n-11435606-01" n="1" synset="ewn-11435606-n" dc:identifier="wind%1:19:01::"/>
-      <Sense id="ewn-wind-n-11546388-01" n="0" synset="ewn-11546388-n" dc:identifier="wind%1:19:00::">
-        <SenseRelation relType="derivation" target="ewn-windy-s-00306024-03"/> <!-- windy, breezy, blowy -->
-        <SenseRelation relType="derivation" target="ewn-windy-s-00983576-01"/> <!-- windy -->
-        </Sense>
-    </LexicalEntry>
     <LexicalEntry id="ewn-upshot-n">
       <Lemma writtenForm="upshot" partOfSpeech="n"/>
       <Sense id="ewn-upshot-n-11430739-07" n="0" synset="ewn-11430739-n" dc:identifier="upshot%1:19:00::"/>
@@ -4272,13 +4264,6 @@
       <Lemma writtenForm="radio-opacity" partOfSpeech="n"/>
       <Sense id="ewn-radio-opacity-n-11510735-02" n="0" synset="ewn-11510735-n" dc:identifier="radio-opacity%1:19:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-shower-n">
-      <Lemma writtenForm="shower" partOfSpeech="n"/>
-      <Sense id="ewn-shower-n-11522915-01" n="2" synset="ewn-11522915-n" dc:identifier="shower%1:19:00::">
-        <SenseRelation relType="derivation" target="ewn-showery-s-02561103-01"/> <!-- showery, rainy -->
-        <SenseRelation relType="derivation" target="ewn-shower-v-02763609-01"/> <!-- shower down, shower -->
-        </Sense>
-    </LexicalEntry>
     <LexicalEntry id="ewn-brain_death-n">
       <Lemma writtenForm="brain death" partOfSpeech="n"/>
       <Sense id="ewn-brain_death-n-11507478-01" n="0" synset="ewn-11507478-n" dc:identifier="brain_death%1:19:00::"/>
@@ -4590,6 +4575,21 @@
       <Lemma writtenForm="mechanical stress" partOfSpeech="n"/>
       <Sense id="ewn-mechanical_stress-n-92467821-00" n="2" synset="ewn-92467821-n" dc:identifier="mechanical_stress%1:19:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-shower-n-1">
+      <Lemma writtenForm="shower" partOfSpeech="n"/>
+      <Sense id="ewn-shower-n-11522915-01" n="2" synset="ewn-11522915-n" dc:identifier="shower%1:19:00::">
+        <SenseRelation relType="derivation" target="ewn-showery-s-02561103-01"/> <!-- showery, rainy -->
+        <SenseRelation relType="derivation" target="ewn-shower-v-02763609-01"/> <!-- shower down, shower -->
+        </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-wind-n-1">
+      <Lemma writtenForm="wind" partOfSpeech="n"/>
+      <Sense id="ewn-wind-n-11546388-01" n="0" synset="ewn-11546388-n" dc:identifier="wind%1:19:00::">
+        <SenseRelation relType="derivation" target="ewn-windy-s-00306024-03"/> <!-- windy, breezy, blowy -->
+        <SenseRelation relType="derivation" target="ewn-windy-s-00983576-01"/> <!-- windy -->
+        </Sense>
+      <Sense id="ewn-wind-n-11435606-01" n="1" synset="ewn-11435606-n" dc:identifier="wind%1:19:01::"/>
+    </LexicalEntry>
     <!-- natural phenomenon -->
     <Synset id="ewn-11428673-n" ili="i97550" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>all phenomena that are not artificial</Definition>
@@ -4691,9 +4691,9 @@
       <SynsetRelation relType="hyponym" target="ewn-11437102-n"/> <!-- response -->
       <SynsetRelation relType="hyponym" target="ewn-11437501-n"/> <!-- fallout, side effect -->
       <SynsetRelation relType="hyponym" target="ewn-11534313-n"/> <!-- spillover -->
-      <Example>&quot;the magnetic effect was greater when the rod was lengthwise&quot;</Example>
-      <Example>&quot;his decision had depressing consequences for business&quot;</Example>
-      <Example>&quot;he acted very wise after the event&quot;</Example>
+      <Example>the magnetic effect was greater when the rod was lengthwise</Example>
+      <Example>his decision had depressing consequences for business</Example>
+      <Example>he acted very wise after the event</Example>
     </Synset>
     <!-- aftereffect -->
     <Synset id="ewn-11431615-n" ili="i97563" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4704,15 +4704,15 @@
     <Synset id="ewn-11431724-n" ili="i97564" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the consequences of an event (especially a catastrophic event)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;the aftermath of war&quot;</Example>
-      <Example>&quot;in the wake of the accident no one knew how many had been injured&quot;</Example>
+      <Example>the aftermath of war</Example>
+      <Example>in the wake of the accident no one knew how many had been injured</Example>
     </Synset>
     <!-- bandwagon effect -->
     <Synset id="ewn-11431953-n" ili="i97565" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the phenomenon of a popular trend attracting even greater popularity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;in periods of high merger activity there is a bandwagon effect with more and more firms seeking to engage in takeover activity&quot;</Example>
-      <Example>&quot;polls are accused of creating a bandwagon effect to benefit their candidate&quot;</Example>
+      <Example>in periods of high merger activity there is a bandwagon effect with more and more firms seeking to engage in takeover activity</Example>
+      <Example>polls are accused of creating a bandwagon effect to benefit their candidate</Example>
     </Synset>
     <!-- brisance -->
     <Synset id="ewn-11432293-n" ili="i97566" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4735,15 +4735,15 @@
       <Definition>the result of alteration or modification</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
       <SynsetRelation relType="hyponym" target="ewn-11512640-n"/> <!-- depolarisation, depolarization -->
-      <Example>&quot;there were marked changes in the lining of the lungs&quot;</Example>
-      <Example>&quot;there had been no change in the mountains&quot;</Example>
+      <Example>there were marked changes in the lining of the lungs</Example>
+      <Example>there had been no change in the mountains</Example>
     </Synset>
     <!-- coattails effect -->
     <Synset id="ewn-11433107-n" ili="i97570" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>(politics) the consequence of one popular candidate in an election drawing votes for other members of the same political party</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
       <SynsetRelation relType="domain_topic" target="ewn-06157599-n"/> <!-- politics, government, political science -->
-      <Example>&quot;he counted on the coattails effect to win him the election&quot;</Example>
+      <Example>he counted on the coattails effect to win him the election</Example>
     </Synset>
     <!-- Coriolis effect -->
     <Synset id="ewn-11433377-n" ili="i97571" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4755,7 +4755,7 @@
     <Synset id="ewn-11433775-n" ili="i97572" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an appreciable consequence (especially a lessening)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;it made a dent in my bank account&quot;</Example>
+      <Example>it made a dent in my bank account</Example>
     </Synset>
     <!-- dominance -->
     <Synset id="ewn-11433914-n" ili="i97573" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4773,15 +4773,15 @@
     <Synset id="ewn-11434371-n" ili="i97575" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the consequence of an effort or activity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;they gathered a harvest of examples&quot;</Example>
-      <Example>&quot;a harvest of love&quot;</Example>
+      <Example>they gathered a harvest of examples</Example>
+      <Example>a harvest of love</Example>
     </Synset>
     <!-- wallop, impact -->
     <Synset id="ewn-11434525-n" ili="i97576" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a forceful consequence; a strong effect</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;the book had an important impact on my thinking&quot;</Example>
-      <Example>&quot;the book packs a wallop&quot;</Example>
+      <Example>the book had an important impact on my thinking</Example>
+      <Example>the book packs a wallop</Example>
     </Synset>
     <!-- influence -->
     <Synset id="ewn-11434722-n" ili="i97577" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4790,7 +4790,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11434988-n"/> <!-- perturbation -->
       <SynsetRelation relType="hyponym" target="ewn-11435456-n"/> <!-- purchase -->
       <SynsetRelation relType="hyponym" target="ewn-11435606-n"/> <!-- wind -->
-      <Example>&quot;the influence of mechanical action&quot;</Example>
+      <Example>the influence of mechanical action</Example>
     </Synset>
     <!-- perturbation -->
     <Synset id="ewn-11434988-n" ili="i97578" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4810,13 +4810,13 @@
     <Synset id="ewn-11435456-n" ili="i97580" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a means of exerting influence or gaining advantage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11434722-n"/> <!-- influence -->
-      <Example>&quot;he could get no purchase on the situation&quot;</Example>
+      <Example>he could get no purchase on the situation</Example>
     </Synset>
     <!-- wind -->
     <Synset id="ewn-11435606-n" ili="i97581" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a tendency or force that influences events</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11434722-n"/> <!-- influence -->
-      <Example>&quot;the winds of change&quot;</Example>
+      <Example>the winds of change</Example>
     </Synset>
     <!-- knock-on effect -->
     <Synset id="ewn-11435722-n" ili="i97582" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4833,8 +4833,8 @@
     <Synset id="ewn-11435956-n" ili="i97584" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a consequence of someone&apos;s efforts or of a particular set of circumstances</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;skill is the product of hours of practice&quot;</Example>
-      <Example>&quot;his reaction was the product of hunger and fatigue&quot;</Example>
+      <Example>skill is the product of hours of practice</Example>
+      <Example>his reaction was the product of hunger and fatigue</Example>
     </Synset>
     <!-- placebo effect -->
     <Synset id="ewn-11436201-n" ili="i97585" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4851,34 +4851,34 @@
     <Synset id="ewn-11436836-n" ili="i97587" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a remote or indirect consequence of some action</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;his declaration had unforeseen repercussions&quot;</Example>
-      <Example>&quot;reverberations of the market crash were felt years later&quot;</Example>
+      <Example>his declaration had unforeseen repercussions</Example>
+      <Example>reverberations of the market crash were felt years later</Example>
     </Synset>
     <!-- response -->
     <Synset id="ewn-11437102-n" ili="i97588" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a result</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
       <SynsetRelation relType="hyponym" target="ewn-11437243-n"/> <!-- reaction -->
-      <Example>&quot;this situation developed in response to events in Africa&quot;</Example>
+      <Example>this situation developed in response to events in Africa</Example>
     </Synset>
     <!-- reaction -->
     <Synset id="ewn-11437243-n" ili="i97589" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a response that reveals a person&apos;s feelings or attitude</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11437102-n"/> <!-- response -->
-      <Example>&quot;he was pleased by the audience&apos;s reaction to his performance&quot;</Example>
-      <Example>&quot;John feared his mother&apos;s reaction when she saw the broken lamp&quot;</Example>
+      <Example>he was pleased by the audience&apos;s reaction to his performance</Example>
+      <Example>John feared his mother&apos;s reaction when she saw the broken lamp</Example>
     </Synset>
     <!-- fallout, side effect -->
     <Synset id="ewn-11437501-n" ili="i97590" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>any adverse and unwanted secondary effect</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11430739-n"/> <!-- issue, effect, outcome, result, upshot, event, consequence -->
-      <Example>&quot;a strategy to contain the fallout from the accounting scandal&quot;</Example>
+      <Example>a strategy to contain the fallout from the accounting scandal</Example>
     </Synset>
     <!-- engine -->
     <Synset id="ewn-11437675-n" ili="i97591" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>something used to achieve a purpose</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
-      <Example>&quot;an engine of change&quot;</Example>
+      <Example>an engine of change</Example>
     </Synset>
     <!-- geological phenomenon -->
     <Synset id="ewn-11437786-n" ili="i97592" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -4907,17 +4907,17 @@
       <SynsetRelation relType="hypernym" target="ewn-00034512-n"/> <!-- phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11447956-n"/> <!-- mischance, bad luck, mishap -->
       <SynsetRelation relType="hyponym" target="ewn-11540232-n"/> <!-- tossup, even chance, toss-up -->
-      <Example>&quot;bad luck caused his downfall&quot;</Example>
-      <Example>&quot;we ran into each other by pure chance&quot;</Example>
+      <Example>bad luck caused his downfall</Example>
+      <Example>we ran into each other by pure chance</Example>
     </Synset>
     <!-- fortune, luck -->
     <Synset id="ewn-11438574-n" ili="i97595" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an unknown and unpredictable phenomenon that leads to a favorable outcome</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00034512-n"/> <!-- phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11484145-n"/> <!-- good luck, fluke, good fortune -->
-      <Example>&quot;it was my good luck to be there&quot;</Example>
-      <Example>&quot;they say luck is a lady&quot;</Example>
-      <Example>&quot;it was as if fortune guided his hand&quot;</Example>
+      <Example>it was my good luck to be there</Example>
+      <Example>they say luck is a lady</Example>
+      <Example>it was as if fortune guided his hand</Example>
     </Synset>
     <!-- organic phenomenon -->
     <Synset id="ewn-11438864-n" ili="i97596" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5051,7 +5051,7 @@
     <Synset id="ewn-11441936-n" ili="i97605" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the energy that an atomic system must acquire before a process (such as an emission or reaction) can occur</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
-      <Example>&quot;catalysts are said to reduce the energy of activation during the transition phase of a reaction&quot;</Example>
+      <Example>catalysts are said to reduce the energy of activation during the transition phase of a reaction</Example>
     </Synset>
     <!-- aerodynamic force -->
     <Synset id="ewn-11442228-n" ili="i97606" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5082,7 +5082,7 @@
     <Synset id="ewn-11442936-n" ili="i97610" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the force attracting atoms to each other and binding them together in a molecule</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11479041-n"/> <!-- force -->
-      <Example>&quot;basic dyes have an affinity for wool and silk&quot;</Example>
+      <Example>basic dyes have an affinity for wool and silk</Example>
     </Synset>
     <!-- air pocket, air hole, pocket -->
     <Synset id="ewn-11443142-n" ili="i97611" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5120,7 +5120,7 @@
     <Synset id="ewn-11444066-n" ili="i97617" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an electric current that reverses direction sinusoidally</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11470903-n"/> <!-- power, electrical energy, electricity -->
-      <Example>&quot;In the US most household current is AC at 60 cycles per second&quot;</Example>
+      <Example>In the US most household current is AC at 60 cycles per second</Example>
     </Synset>
     <!-- heterogenesis, xenogenesis, alternation of generations -->
     <Synset id="ewn-11444308-n" ili="i97618" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5159,8 +5159,8 @@
     <Synset id="ewn-11445202-n" ili="i97624" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an optical illusion of motion produced by viewing a rapid succession of still pictures of a moving object</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11510863-n"/> <!-- optical illusion -->
-      <Example>&quot;the cinema relies on apparent motion&quot;</Example>
-      <Example>&quot;the succession of flashing lights gave an illusion of movement&quot;</Example>
+      <Example>the cinema relies on apparent motion</Example>
+      <Example>the succession of flashing lights gave an illusion of movement</Example>
     </Synset>
     <!-- acoustic phenomenon -->
     <Synset id="ewn-11445515-n" ili="i97625" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5263,7 +5263,7 @@
     <Synset id="ewn-11447956-n" ili="i97638" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an unpredictable outcome that is unfortunate</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438252-n"/> <!-- hazard, chance, fortune, luck -->
-      <Example>&quot;if I didn&apos;t have bad luck I wouldn&apos;t have any luck at all&quot;</Example>
+      <Example>if I didn&apos;t have bad luck I wouldn&apos;t have any luck at all</Example>
     </Synset>
     <!-- shaft, shaft of light, beam of light, beam, ray of light, light beam, ray, irradiation -->
     <Synset id="ewn-11448137-n" ili="i97639" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5339,7 +5339,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11450773-n"/> <!-- diastolic pressure -->
       <SynsetRelation relType="hyponym" target="ewn-11450977-n"/> <!-- arterial pressure -->
       <SynsetRelation relType="hyponym" target="ewn-11451172-n"/> <!-- venous pressure -->
-      <Example>&quot;adult blood pressure is considered normal at 120/80 where the first number is the systolic pressure and the second is the diastolic pressure&quot;</Example>
+      <Example>adult blood pressure is considered normal at 120/80 where the first number is the systolic pressure and the second is the diastolic pressure</Example>
     </Synset>
     <!-- systolic pressure -->
     <Synset id="ewn-11450597-n" ili="i97650" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5355,7 +5355,7 @@
     <Synset id="ewn-11450977-n" ili="i97652" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the pressure of the circulating blood on the arteries</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11450082-n"/> <!-- blood pressure -->
-      <Example>&quot;arterial pressure is the product of cardiac output and vascular resistance&quot;</Example>
+      <Example>arterial pressure is the product of cardiac output and vascular resistance</Example>
     </Synset>
     <!-- venous pressure -->
     <Synset id="ewn-11451172-n" ili="i97653" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5395,8 +5395,8 @@
       <SynsetRelation relType="hyponym" target="ewn-11452872-n"/> <!-- moderate breeze -->
       <SynsetRelation relType="hyponym" target="ewn-11453001-n"/> <!-- fresh breeze -->
       <SynsetRelation relType="hyponym" target="ewn-11453127-n"/> <!-- strong breeze -->
-      <Example>&quot;the breeze was cooled by the lake&quot;</Example>
-      <Example>&quot;as he waited he could feel the air on his neck&quot;</Example>
+      <Example>the breeze was cooled by the lake</Example>
+      <Example>as he waited he could feel the air on his neck</Example>
     </Synset>
     <!-- sea breeze -->
     <Synset id="ewn-11452269-n" ili="i97658" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5407,7 +5407,7 @@
     <Synset id="ewn-11452376-n" ili="i97659" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a slight movement of the air</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11451868-n"/> <!-- air, gentle wind, breeze, zephyr -->
-      <Example>&quot;there wasn&apos;t a breath of air in the room&quot;</Example>
+      <Example>there wasn&apos;t a breath of air in the room</Example>
     </Synset>
     <!-- light air -->
     <Synset id="ewn-11452501-n" ili="i97660" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5513,7 +5513,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11455472-n"/> <!-- electrostatic charge -->
       <SynsetRelation relType="hyponym" target="ewn-11455985-n"/> <!-- positive charge -->
       <SynsetRelation relType="hyponym" target="ewn-11456133-n"/> <!-- negative charge -->
-      <Example>&quot;the battery needed a fresh charge&quot;</Example>
+      <Example>the battery needed a fresh charge</Example>
     </Synset>
     <!-- electrostatic charge -->
     <Synset id="ewn-11455472-n" ili="i97679" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5770,7 +5770,7 @@
     <Synset id="ewn-11463153-n" ili="i97723" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a very strong wind</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11546388-n"/> <!-- air current, wind, current of air -->
-      <Example>&quot;rain and high winds covered the region&quot;</Example>
+      <Example>rain and high winds covered the region</Example>
     </Synset>
     <!-- headwind -->
     <Synset id="ewn-11463269-n" ili="i97724" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5793,7 +5793,7 @@
       <SynsetRelation relType="hypernym" target="ewn-11469339-n"/> <!-- electrical phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11490748-n"/> <!-- juice -->
       <SynsetRelation relType="hyponym" target="ewn-11539176-n"/> <!-- thermionic current -->
-      <Example>&quot;the current was measured in amperes&quot;</Example>
+      <Example>the current was measured in amperes</Example>
     </Synset>
     <!-- cyclone -->
     <Synset id="ewn-11463817-n" ili="i97728" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5820,7 +5820,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11506578-n"/> <!-- cell death, necrobiosis -->
       <SynsetRelation relType="hyponym" target="ewn-11507108-n"/> <!-- necrosis, mortification, gangrene, sphacelus -->
       <SynsetRelation relType="hyponym" target="ewn-11507478-n"/> <!-- cerebral death, brain death -->
-      <Example>&quot;the animal died a painful death&quot;</Example>
+      <Example>the animal died a painful death</Example>
     </Synset>
     <!-- decalescence -->
     <Synset id="ewn-11464467-n" ili="i97732" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5860,7 +5860,7 @@
     <Synset id="ewn-11465849-n" ili="i97738" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the peeling off in flakes or scales of bark or dead skin</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
-      <Example>&quot;exfoliation is increased by sunburn&quot;</Example>
+      <Example>exfoliation is increased by sunburn</Example>
     </Synset>
     <!-- champion lode, mother lode -->
     <Synset id="ewn-11466056-n" ili="i97739" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5884,7 +5884,7 @@
     <Synset id="ewn-11466555-n" ili="i97742" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>condensation of moisture on a cold surface</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11466338-n"/> <!-- condensation, condensate -->
-      <Example>&quot;the cold glasses were streaked with sweat&quot;</Example>
+      <Example>the cold glasses were streaked with sweat</Example>
     </Synset>
     <!-- diapedesis -->
     <Synset id="ewn-11466694-n" ili="i97743" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5933,8 +5933,8 @@
       <Definition>oppressively still air</Definition>
       <ILIDefinition>oppressively still air</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-11546388-n"/> <!-- air current, wind, current of air -->
-      <Example>&quot;the afternoon was hot, quiet, and heavy with languor&quot;</Example>
-      <Example>&quot;Summer shows all the languor of a hot, breezeless day as the dancer lazily brushes her hand over her brow&quot;</Example>
+      <Example>the afternoon was hot, quiet, and heavy with languor</Example>
+      <Example>Summer shows all the languor of a hot, breezeless day as the dancer lazily brushes her hand over her brow</Example>
     </Synset>
     <!-- dust devil -->
     <Synset id="ewn-11468350-n" ili="i97751" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -5945,7 +5945,7 @@
     <Synset id="ewn-11468490-n" ili="i97752" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a windstorm that lifts up clouds of dust or sand</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11547465-n"/> <!-- windstorm -->
-      <Example>&quot;it was the kind of duster not experienced in years&quot;</Example>
+      <Example>it was the kind of duster not experienced in years</Example>
     </Synset>
     <!-- easterly, east wind, easter -->
     <Synset id="ewn-11468680-n" ili="i97753" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6054,8 +6054,8 @@
       <SynsetRelation relType="hyponym" target="ewn-11467249-n"/> <!-- direct current, DC, direct electric current -->
       <SynsetRelation relType="hyponym" target="ewn-11467415-n"/> <!-- signal -->
       <SynsetRelation relType="hyponym" target="ewn-92466656-n"/>
-      <Example>&quot;they built a car that runs on electricity&quot;</Example>
-      <Example>&quot;The power went oout around midnight&quot;</Example>
+      <Example>they built a car that runs on electricity</Example>
+      <Example>The power went oout around midnight</Example>
     </Synset>
     <!-- electromagnetic wave, nonparticulate radiation, electromagnetic radiation -->
     <Synset id="ewn-11471253-n" ili="i97766" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6110,7 +6110,7 @@
     <Synset id="ewn-11472496-n" ili="i97770" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>any source of usable power</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11439518-n"/> <!-- physical phenomenon -->
-      <Example>&quot;the DOE is responsible for maintaining the energy policy&quot;</Example>
+      <Example>the DOE is responsible for maintaining the energy policy</Example>
     </Synset>
     <!-- energy, free energy -->
     <Synset id="ewn-11472635-n" ili="i97771" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6133,13 +6133,13 @@
       <SynsetRelation relType="hyponym" target="ewn-92466652-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92466354-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92466444-n"/>
-      <Example>&quot;energy can take a wide variety of forms&quot;</Example>
+      <Example>energy can take a wide variety of forms</Example>
     </Synset>
     <!-- energy state, energy level -->
     <Synset id="ewn-11473167-n" ili="i97772" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a definite stable energy that a physical system can have; used especially of the state of electrons in atoms or molecules</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
-      <Example>&quot;according to quantum theory only certain energy levels are possible&quot;</Example>
+      <Example>according to quantum theory only certain energy levels are possible</Example>
     </Synset>
     <!-- power -->
     <Synset id="ewn-11473433-n" ili="i97773" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6160,7 +6160,7 @@
       <Definition>(physics) a manifestation of energy; the transfer of energy from one physical system to another expressed as the product of a force and the distance through which it moves a body in the direction of that force</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11472635-n"/> <!-- energy, free energy -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
-      <Example>&quot;work equals force times distance&quot;</Example>
+      <Example>work equals force times distance</Example>
     </Synset>
     <!-- epiphenomenon -->
     <Synset id="ewn-11474152-n" ili="i97776" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6196,7 +6196,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11475370-n"/> <!-- debacle -->
       <SynsetRelation relType="hyponym" target="ewn-11475509-n"/> <!-- flashflood, flash flood -->
       <SynsetRelation relType="hyponym" target="ewn-11475803-n"/> <!-- Noah and the Flood, the Flood, Noachian deluge, Noah's flood -->
-      <Example>&quot;plains fertilized by annual inundations&quot;</Example>
+      <Example>plains fertilized by annual inundations</Example>
     </Synset>
     <!-- debacle -->
     <Synset id="ewn-11475370-n" ili="i97782" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6213,7 +6213,7 @@
     <Synset id="ewn-11475653-n" ili="i97784" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a wall of water rushing ahead of the flood</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11475509-n"/> <!-- flashflood, flash flood -->
-      <Example>&quot;we were lucky to be safe when the floodheads hit&quot;</Example>
+      <Example>we were lucky to be safe when the floodheads hit</Example>
     </Synset>
     <!-- Noah and the Flood, the Flood, Noachian deluge, Noah's flood -->
     <Synset id="ewn-11475803-n" ili="i97785" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6292,7 +6292,7 @@
       <Definition>the presence of groups of closely spaced spectrum lines observed in the atomic spectrum of certain elements</Definition>
       <SynsetRelation relType="hypernym" target="ewn-06813996-n"/> <!-- spectrum line -->
       <SynsetRelation relType="holo_part" target="ewn-11446402-n"/> <!-- atomic spectrum -->
-      <Example>&quot;the fine structure results from slightly different energy levels&quot;</Example>
+      <Example>the fine structure results from slightly different energy levels</Example>
     </Synset>
     <!-- firelight -->
     <Synset id="ewn-11478258-n" ili="i97798" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6349,7 +6349,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11540135-n"/> <!-- torque, torsion -->
       <SynsetRelation relType="hyponym" target="ewn-11544169-n"/> <!-- magnetomotive force -->
       <SynsetRelation relType="hyponym" target="ewn-11544272-n"/> <!-- life force, elan vital, vital force, vitality -->
-      <Example>&quot;force equals mass times acceleration&quot;</Example>
+      <Example>force equals mass times acceleration</Example>
     </Synset>
     <!-- chain lightning, forked lightning -->
     <Synset id="ewn-11479599-n" ili="i97804" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6538,15 +6538,15 @@
       <SynsetRelation relType="hypernym" target="ewn-11446644-n"/> <!-- attraction, attractive force -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
       <SynsetRelation relType="hyponym" target="ewn-11485183-n"/> <!-- solar gravity -->
-      <Example>&quot;the more remote the body the less the gravity&quot;</Example>
-      <Example>&quot;the gravitation between two bodies is proportional to the product of their masses and inversely proportional to the square of the distance between them&quot;</Example>
-      <Example>&quot;gravitation cannot be held responsible for people falling in love&quot;--Albert Einstein</Example>
+      <Example>the more remote the body the less the gravity</Example>
+      <Example>the gravitation between two bodies is proportional to the product of their masses and inversely proportional to the square of the distance between them</Example>
+      <Example dc:source="Albert Einstein">gravitation cannot be held responsible for people falling in love</Example>
     </Synset>
     <!-- solar gravity -->
     <Synset id="ewn-11485183-n" ili="i97835" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the gravity of the sun</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11484542-n"/> <!-- gravity, gravitational force, gravitation, gravitational attraction -->
-      <Example>&quot;solar gravity creates extreme pressures and temperatures&quot;</Example>
+      <Example>solar gravity creates extreme pressures and temperatures</Example>
     </Synset>
     <!-- gun smoke -->
     <Synset id="ewn-11485325-n" ili="i97836" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6560,7 +6560,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11485696-n"/> <!-- bluster -->
       <SynsetRelation relType="hyponym" target="ewn-11485824-n"/> <!-- sandblast -->
       <SynsetRelation relType="hyponym" target="ewn-11518288-n"/> <!-- puff of air, whiff, puff -->
-      <Example>&quot;the tree was bent almost double by the gust&quot;</Example>
+      <Example>the tree was bent almost double by the gust</Example>
     </Synset>
     <!-- bluster -->
     <Synset id="ewn-11485696-n" ili="i97838" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6613,15 +6613,17 @@
     <Synset id="ewn-11486857-n" ili="i97846" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>condition in which the cells of one tissue can survive in the presence of cells of another tissue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
-      <Example>&quot;a successful graft or transplant requires a high degree of histocompatibility&quot;</Example>
+      <Example>a successful graft or transplant requires a high degree of histocompatibility</Example>
     </Synset>
     <!-- scorcher -->
     <Synset id="ewn-11487233-n" ili="i97848" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an extremely hot day</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
     </Synset>
     <!-- sultriness -->
     <Synset id="ewn-11487308-n" ili="i97849" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>oppressively hot and humid weather</Definition>
+      <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
     </Synset>
     <!-- hurricane -->
     <Synset id="ewn-11487417-n" ili="i97850" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6658,7 +6660,7 @@
     <Synset id="ewn-11488396-n" ili="i97856" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the striking of a light beam on a surface</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11511038-n"/> <!-- optical phenomenon -->
-      <Example>&quot;he measured the angle of incidence of the reflected light&quot;</Example>
+      <Example>he measured the angle of incidence of the reflected light</Example>
     </Synset>
     <!-- inductance, induction -->
     <Synset id="ewn-11488572-n" ili="i97857" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6718,7 +6720,7 @@
     <Synset id="ewn-11490227-n" ili="i97866" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>reciprocal reflection between two reflecting surfaces</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11523478-n"/> <!-- reflexion, reflection -->
-      <Example>&quot;there was interreflection between the two surfaces of the lens&quot;</Example>
+      <Example>there was interreflection between the two surfaces of the lens</Example>
     </Synset>
     <!-- jet propulsion -->
     <Synset id="ewn-11490408-n" ili="i97867" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6735,7 +6737,7 @@
       <Definition>electric current</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11463628-n"/> <!-- current, electric current -->
       <SynsetRelation relType="exemplifies" target="ewn-07171981-n"/> <!-- vernacular, slang, jargon, argot, cant, patois, lingo -->
-      <Example>&quot;when the wiring was finished they turned on the juice&quot;</Example>
+      <Example>when the wiring was finished they turned on the juice</Example>
     </Synset>
     <!-- kinetic energy, K.E. -->
     <Synset id="ewn-11490892-n" ili="i97870" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6771,13 +6773,13 @@
     <Synset id="ewn-11491759-n" ili="i97875" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>heat liberated by a unit mass of gas at its boiling point as it condenses into a liquid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11491497-n"/> <!-- heat of transformation, latent heat -->
-      <Example>&quot;the heat of condensation is equal to the heat of vaporization&quot;</Example>
+      <Example>the heat of condensation is equal to the heat of vaporization</Example>
     </Synset>
     <!-- heat of fusion -->
     <Synset id="ewn-11491978-n" ili="i97876" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>heat absorbed by a unit mass of a solid at its melting point in order to convert the solid into a liquid at the same temperature</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11491497-n"/> <!-- heat of transformation, latent heat -->
-      <Example>&quot;the heat of fusion is equal to the heat of solidification&quot;</Example>
+      <Example>the heat of fusion is equal to the heat of solidification</Example>
     </Synset>
     <!-- heat of solidification -->
     <Synset id="ewn-11492228-n" ili="i97877" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6841,13 +6843,13 @@
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11493888-n"/> <!-- biology -->
       <SynsetRelation relType="hyponym" target="ewn-11494085-n"/> <!-- aerobiosis -->
-      <Example>&quot;there is no life on the moon&quot;</Example>
+      <Example>there is no life on the moon</Example>
     </Synset>
     <!-- biology -->
     <Synset id="ewn-11493888-n" ili="i97889" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>characteristic life processes and phenomena of living organisms</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11493691-n"/> <!-- life -->
-      <Example>&quot;the biology of viruses&quot;</Example>
+      <Example>the biology of viruses</Example>
     </Synset>
     <!-- aerobiosis -->
     <Synset id="ewn-11494085-n" ili="i97890" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6888,7 +6890,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11536167-n"/> <!-- streamer -->
       <SynsetRelation relType="hyponym" target="ewn-11536282-n"/> <!-- torchlight -->
       <SynsetRelation relType="hyponym" target="ewn-11536368-n"/> <!-- twilight -->
-      <Example>&quot;the light was filtered through a soft glass window&quot;</Example>
+      <Example>the light was filtered through a soft glass window</Example>
     </Synset>
     <!-- line -->
     <Synset id="ewn-11495037-n" ili="i97893" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -6922,7 +6924,7 @@
     <Synset id="ewn-11496082-n" ili="i97898" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the force experienced by a point charge moving along a wire that is in a magnetic field; the force is at right angles to both the current and the magnetic field</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11479041-n"/> <!-- force -->
-      <Example>&quot;the Lorentz force can be used to suspend a current-carrying object between two magnets&quot;</Example>
+      <Example>the Lorentz force can be used to suspend a current-carrying object between two magnets</Example>
     </Synset>
     <!-- sprites, red sprites -->
     <Synset id="ewn-11496392-n" ili="i97899" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7038,7 +7040,7 @@
     <Synset id="ewn-11499768-n" ili="i97917" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>magnetism produced by an electric current</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11499458-n"/> <!-- magnetic attraction, magnetic force, magnetism -->
-      <Example>&quot;electromagnetism was discovered when it was observed that a copper wire carrying an electric current can magnetize pieces of iron or steel near it&quot;</Example>
+      <Example>electromagnetism was discovered when it was observed that a copper wire carrying an electric current can magnetize pieces of iron or steel near it</Example>
     </Synset>
     <!-- antiferromagnetism -->
     <Synset id="ewn-11500040-n" ili="i97918" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7081,7 +7083,7 @@
       <Definition>mechanical vibrations transmitted by an elastic medium</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11501098-n"/> <!-- mechanical phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11501609-n"/> <!-- ultrasound -->
-      <Example>&quot;falling trees make a sound in the forest even when no one is there to hear them&quot;</Example>
+      <Example>falling trees make a sound in the forest even when no one is there to hear them</Example>
     </Synset>
     <!-- ultrasound -->
     <Synset id="ewn-11501609-n" ili="i97925" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7122,7 +7124,7 @@
     <Synset id="ewn-11502540-n" ili="i97931" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>warm weather following a freeze; snow and ice melt</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
-      <Example>&quot;they welcomed the spring thaw&quot;</Example>
+      <Example>they welcomed the spring thaw</Example>
     </Synset>
     <!-- microwave -->
     <Synset id="ewn-11502712-n" ili="i97932" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7176,7 +7178,7 @@
       <Definition>(physics) a current loop gives rise to a magnetic field characteristic of a magnetic dipole</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11503754-n"/> <!-- dipole moment -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
-      <Example>&quot;An orbiting electron in an atom will have a magnetic dipole moment&quot;</Example>
+      <Example>An orbiting electron in an atom will have a magnetic dipole moment</Example>
     </Synset>
     <!-- magnetic moment, moment of a magnet -->
     <Synset id="ewn-11504229-n" ili="i97941" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7223,8 +7225,8 @@
       <Definition>the light of the Moon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11494354-n"/> <!-- visible light, visible radiation, light -->
       <SynsetRelation relType="mero_part" target="ewn-11505261-n"/> <!-- moonbeam, moon ray, moon-ray -->
-      <Example>&quot;moonlight is the smuggler&apos;s enemy&quot;</Example>
-      <Example>&quot;the Moon was bright enough to read by&quot;</Example>
+      <Example>moonlight is the smuggler&apos;s enemy</Example>
+      <Example>the Moon was bright enough to read by</Example>
     </Synset>
     <!-- starlight -->
     <Synset id="ewn-11505586-n" ili="i97949" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7242,7 +7244,7 @@
       <SynsetRelation relType="hypernym" target="ewn-11494354-n"/> <!-- visible light, visible radiation, light -->
       <SynsetRelation relType="hyponym" target="ewn-11505664-n"/> <!-- sunburst -->
       <SynsetRelation relType="mero_part" target="ewn-11505982-n"/> <!-- sunbeam, sunray -->
-      <Example>&quot;the shingles were weathered by the sun and wind&quot;</Example>
+      <Example>the shingles were weathered by the sun and wind</Example>
     </Synset>
     <!-- sunbeam, sunray -->
     <Synset id="ewn-11505982-n" ili="i97952" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7320,7 +7322,7 @@
     <Synset id="ewn-11508132-n" ili="i97965" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a bright spot on the parhelic circle; caused by diffraction by ice crystals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-04689819-n"/> <!-- speckle, dapple, fleck, patch, spot, maculation -->
-      <Example>&quot;two or more parhelia are usually seen at once&quot;</Example>
+      <Example>two or more parhelia are usually seen at once</Example>
     </Synset>
     <!-- northerly, norther, boreas, north wind -->
     <Synset id="ewn-11508350-n" ili="i97966" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7523,7 +7525,7 @@
     <Synset id="ewn-11514476-n" ili="i97997" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the electrical response of the central nervous system produced by an external stimulus</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11514227-n"/> <!-- potential difference, potential, potential drop, electric potential, voltage -->
-      <Example>&quot;he measured evoked potentials with an electroencephalogram&quot;</Example>
+      <Example>he measured evoked potentials with an electroencephalogram</Example>
     </Synset>
     <!-- resting potential -->
     <Synset id="ewn-11514687-n" ili="i97998" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7570,13 +7572,13 @@
       <SynsetRelation relType="hyponym" target="ewn-11517778-n"/> <!-- instantaneous sound pressure, sound pressure -->
       <SynsetRelation relType="hyponym" target="ewn-11537927-n"/> <!-- suction -->
       <SynsetRelation relType="hyponym" target="ewn-11543464-n"/> <!-- vapour pressure, vapor pressure -->
-      <Example>&quot;the compressed gas exerts an increased pressure&quot;</Example>
+      <Example>the compressed gas exerts an increased pressure</Example>
     </Synset>
     <!-- head -->
     <Synset id="ewn-11516007-n" ili="i98003" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the pressure exerted by a fluid</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11515441-n"/> <!-- pressure level, force per unit area, pressure -->
-      <Example>&quot;a head of steam&quot;</Example>
+      <Example>a head of steam</Example>
     </Synset>
     <!-- barometric pressure -->
     <Synset id="ewn-11516108-n" ili="i98004" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7592,7 +7594,7 @@
     <Synset id="ewn-11516364-n" ili="i98006" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a transient air pressure greater than the surrounding atmospheric pressure</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11449572-n"/> <!-- atmospheric pressure, air pressure, pressure -->
-      <Example>&quot;the overpressure of the blast kills by lethal concussion&quot;</Example>
+      <Example>the overpressure of the blast kills by lethal concussion</Example>
     </Synset>
     <!-- sea-level pressure -->
     <Synset id="ewn-11516557-n" ili="i98007" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7608,7 +7610,7 @@
     <Synset id="ewn-11516903-n" ili="i98009" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>pressure exerted by the fluids inside the eyeball; regulated by resistance to the outward flow of aqueous humor</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11515441-n"/> <!-- pressure level, force per unit area, pressure -->
-      <Example>&quot;glaucoma can result from increased intraocular pressure&quot;</Example>
+      <Example>glaucoma can result from increased intraocular pressure</Example>
     </Synset>
     <!-- oil pressure -->
     <Synset id="ewn-11517146-n" ili="i98010" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7641,7 +7643,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11445052-n"/> <!-- antitrades -->
       <SynsetRelation relType="hyponym" target="ewn-11540382-n"/> <!-- trade wind, trade -->
       <SynsetRelation relType="hyponym" target="ewn-11540553-n"/> <!-- antitrade, antitrade wind -->
-      <Example>&quot;the prevailing wind is from the southwest&quot;</Example>
+      <Example>the prevailing wind is from the southwest</Example>
     </Synset>
     <!-- propulsion -->
     <Synset id="ewn-11518177-n" ili="i98015" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7659,22 +7661,22 @@
     <Synset id="ewn-11518440-n" ili="i98017" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the force used in pulling</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11479041-n"/> <!-- force -->
-      <Example>&quot;the pull of the moon&quot;</Example>
-      <Example>&quot;the pull of the current&quot;</Example>
+      <Example>the pull of the moon</Example>
+      <Example>the pull of the current</Example>
     </Synset>
     <!-- thrust, push -->
     <Synset id="ewn-11518603-n" ili="i98018" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the force used in pushing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11479041-n"/> <!-- force -->
-      <Example>&quot;the push of the water on the walls of the tank&quot;</Example>
-      <Example>&quot;the thrust of the jet engines&quot;</Example>
+      <Example>the push of the water on the walls of the tank</Example>
+      <Example>the thrust of the jet engines</Example>
     </Synset>
     <!-- reaction -->
     <Synset id="ewn-11518861-n" ili="i98019" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>(mechanics) the equal and opposite force that is produced when any force is applied to a body</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11479041-n"/> <!-- force -->
       <SynsetRelation relType="domain_topic" target="ewn-06109843-n"/> <!-- mechanics -->
-      <Example>&quot;every action has an equal and opposite reaction&quot;</Example>
+      <Example>every action has an equal and opposite reaction</Example>
     </Synset>
     <!-- rocket propulsion -->
     <Synset id="ewn-11519079-n" ili="i98020" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7819,14 +7821,14 @@
       <Definition>a brief period of precipitation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11521799-n"/> <!-- rainfall, rain -->
       <SynsetRelation relType="hyponym" target="ewn-11526585-n"/> <!-- sprinkling, sprinkle, scattering -->
-      <Example>&quot;the game was interrupted by a brief shower&quot;</Example>
+      <Example>the game was interrupted by a brief shower</Example>
     </Synset>
     <!-- recognition -->
     <Synset id="ewn-11523113-n" ili="i98042" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>(biology) the ability of one molecule to attach to another molecule that has a complementary shape</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
       <SynsetRelation relType="domain_topic" target="ewn-06047178-n"/> <!-- biology, biological science -->
-      <Example>&quot;molecular recognition drives all of biology, for instance, hormone and receptor or antibody-antigen interactions or the organization of molecules into larger biologically active entities&quot;</Example>
+      <Example>molecular recognition drives all of biology, for instance, hormone and receptor or antibody-antigen interactions or the organization of molecules into larger biologically active entities</Example>
     </Synset>
     <!-- reflexion, reflection -->
     <Synset id="ewn-11523478-n" ili="i98043" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7910,13 +7912,13 @@
       <Definition>(medicine) an immunological response that refuses to accept substances or organisms that are recognized as foreign</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
       <SynsetRelation relType="domain_topic" target="ewn-06052606-n"/> <!-- medicine, medical specialty -->
-      <Example>&quot;rejection of the transplanted liver&quot;</Example>
+      <Example>rejection of the transplanted liver</Example>
     </Synset>
     <!-- greening, rejuvenation -->
     <Synset id="ewn-11525964-n" ili="i98057" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the phenomenon of vitality and freshness being restored</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438864-n"/> <!-- organic phenomenon -->
-      <Example>&quot;the annual rejuvenation of the landscape&quot;</Example>
+      <Example>the annual rejuvenation of the landscape</Example>
     </Synset>
     <!-- resolving power, resolution -->
     <Synset id="ewn-11526187-n" ili="i98058" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -7950,7 +7952,7 @@
       <Definition>(physics) a deformation of an object in which parallel planes remain parallel but are shifted in a direction parallel to themselves</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07372660-n"/> <!-- deformation -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
-      <Example>&quot;the shear changed the rectangle into a parallelogram&quot;</Example>
+      <Example>the shear changed the rectangle into a parallelogram</Example>
     </Synset>
     <!-- meteor shower, meteor stream -->
     <Synset id="ewn-11527418-n" ili="i98064" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8014,8 +8016,8 @@
     <Synset id="ewn-11528996-n" ili="i98074" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>a light brief snowfall and gust of wind (or something resembling that)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11528800-n"/> <!-- snow, snowfall -->
-      <Example>&quot;he had to close the window against the flurries&quot;</Example>
-      <Example>&quot;there was a flurry of chicken feathers&quot;</Example>
+      <Example>he had to close the window against the flurries</Example>
+      <Example>there was a flurry of chicken feathers</Example>
     </Synset>
     <!-- whiteout -->
     <Synset id="ewn-11529226-n" ili="i98075" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8051,7 +8053,7 @@
     <Synset id="ewn-11530115-n" ili="i98080" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>energy from the sun that is converted into thermal or electrical energy</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11444514-n"/> <!-- alternative energy -->
-      <Example>&quot;the amount of energy falling on the earth is given by the solar constant, but very little use has been made of solar energy&quot;</Example>
+      <Example>the amount of energy falling on the earth is given by the solar constant, but very little use has been made of solar energy</Example>
     </Synset>
     <!-- insolation -->
     <Synset id="ewn-11530386-n" ili="i98081" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8129,7 +8131,7 @@
       <SynsetRelation relType="hypernym" target="ewn-11469339-n"/> <!-- electrical phenomenon -->
       <SynsetRelation relType="hypernym" target="ewn-11445515-n"/> <!-- acoustic phenomenon -->
       <SynsetRelation relType="hyponym" target="ewn-11532577-n"/> <!-- amplitude distortion, nonlinear distortion -->
-      <Example>&quot;heavy metal guitar players use vacuum tube amplifiers to produce extreme distortion&quot;</Example>
+      <Example>heavy metal guitar players use vacuum tube amplifiers to produce extreme distortion</Example>
     </Synset>
     <!-- amplitude distortion, nonlinear distortion -->
     <Synset id="ewn-11532577-n" ili="i98094" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8140,8 +8142,8 @@
     <Synset id="ewn-11532764-n" ili="i98095" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the acoustic phenomenon that gives sound a penetrating quality</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11445515-n"/> <!-- acoustic phenomenon -->
-      <Example>&quot;our ukuleles have been designed to have superior sound and projection&quot;</Example>
-      <Example>&quot;a prime ingredient of public speaking is projection of the voice&quot;</Example>
+      <Example>our ukuleles have been designed to have superior sound and projection</Example>
+      <Example>a prime ingredient of public speaking is projection of the voice</Example>
     </Synset>
     <!-- electrical conduction -->
     <Synset id="ewn-11533083-n" ili="i98096" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8233,14 +8235,14 @@
       <SynsetRelation relType="hyponym" target="ewn-11535484-n"/> <!-- tension -->
       <SynsetRelation relType="hyponym" target="ewn-11535959-n"/> <!-- breaking point -->
       <SynsetRelation relType="hyponym" target="ewn-92467821-n"/>
-      <Example>&quot;the intensity of stress is expressed in units of force divided by units of area&quot;</Example>
+      <Example>the intensity of stress is expressed in units of force divided by units of area</Example>
     </Synset>
     <!-- tension -->
     <Synset id="ewn-11535484-n" ili="i98111" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>(physics) a stress that produces an elongation of an elastic physical body</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11535238-n"/> <!-- stress -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
-      <Example>&quot;the direction of maximum tension moves asymptotically toward the direction of the shear&quot;</Example>
+      <Example>the direction of maximum tension moves asymptotically toward the direction of the shear</Example>
     </Synset>
     <!-- strain -->
     <Synset id="ewn-11535758-n" ili="i98112" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8264,7 +8266,7 @@
       <Definition>light that streams</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11494354-n"/> <!-- visible light, visible radiation, light -->
       <SynsetRelation relType="holo_part" target="ewn-11447355-n"/> <!-- aurora -->
-      <Example>&quot;streamers of flames&quot;</Example>
+      <Example>streamers of flames</Example>
     </Synset>
     <!-- torchlight -->
     <Synset id="ewn-11536282-n" ili="i98116" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8306,7 +8308,7 @@
     <Synset id="ewn-11537474-n" ili="i98122" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the most powerful tornado which can create enormously devastating damage</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11539883-n"/> <!-- tornado, twister -->
-      <Example>&quot;supertwisters are fortunately rare&quot;</Example>
+      <Example>supertwisters are fortunately rare</Example>
     </Synset>
     <!-- weak interaction, weak force -->
     <Synset id="ewn-11537643-n" ili="i98123" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8356,7 +8358,7 @@
       <Definition>(literary) a violent wind</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11547465-n"/> <!-- windstorm -->
       <SynsetRelation relType="domain_topic" target="ewn-06376048-n"/> <!-- literature -->
-      <Example>&quot;a tempest swept over the island&quot;</Example>
+      <Example>a tempest swept over the island</Example>
     </Synset>
     <!-- thermal -->
     <Synset id="ewn-11539078-n" ili="i98132" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8400,13 +8402,13 @@
     <Synset id="ewn-11540232-n" ili="i98139" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>an unpredictable phenomenon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11438252-n"/> <!-- hazard, chance, fortune, luck -->
-      <Example>&quot;it&apos;s a toss-up whether he will win or lose&quot;</Example>
+      <Example>it&apos;s a toss-up whether he will win or lose</Example>
     </Synset>
     <!-- trade wind, trade -->
     <Synset id="ewn-11540382-n" ili="i98140" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>steady winds blowing from east to west above and below the equator</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11517986-n"/> <!-- prevailing wind -->
-      <Example>&quot;they rode the trade winds going west&quot;</Example>
+      <Example>they rode the trade winds going west</Example>
     </Synset>
     <!-- antitrade, antitrade wind -->
     <Synset id="ewn-11540553-n" ili="i98141" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8455,7 +8457,7 @@
       <Definition>turbulent water with swells of considerable size</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11541700-n"/> <!-- turbulent flow -->
       <SynsetRelation relType="hyponym" target="ewn-11541967-n"/> <!-- head sea -->
-      <Example>&quot;heavy seas&quot;</Example>
+      <Example>heavy seas</Example>
     </Synset>
     <!-- head sea -->
     <Synset id="ewn-11541967-n" ili="i98150" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8566,7 +8568,7 @@
       <SynsetRelation relType="hyponym" target="ewn-11460020-n"/> <!-- cold wave -->
       <SynsetRelation relType="hyponym" target="ewn-11493012-n"/> <!-- heat wave -->
       <SynsetRelation relType="mero_part" target="ewn-11534064-n"/> <!-- wave front -->
-      <Example>&quot;a heat wave&quot;</Example>
+      <Example>a heat wave</Example>
     </Synset>
     <!-- conditions, weather condition, atmospheric condition, weather -->
     <Synset id="ewn-11545095-n" ili="i98170" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8583,15 +8585,17 @@
       <SynsetRelation relType="hyponym" target="ewn-14543880-n"/> <!-- atmospheric state, atmosphere -->
       <SynsetRelation relType="hyponym" target="ewn-14545715-n"/> <!-- good weather -->
       <SynsetRelation relType="hyponym" target="ewn-14546692-n"/> <!-- inclemency, inclementness, bad weather -->
-      <Example>&quot;they were hoping for good weather&quot;</Example>
-      <Example>&quot;every day we have weather conditions and yesterday was no exception&quot;</Example>
-      <Example>&quot;the conditions were too rainy for playing in the snow&quot;</Example>
+      <SynsetRelation relType="hyponym" target="ewn-11487233-n"/> <!-- scorcher -->
+      <SynsetRelation relType="hyponym" target="ewn-11487308-n"/> <!-- sultriness -->
+      <Example>they were hoping for good weather</Example>
+      <Example>every day we have weather conditions and yesterday was no exception</Example>
+      <Example>the conditions were too rainy for playing in the snow</Example>
     </Synset>
     <!-- elements -->
     <Synset id="ewn-11545736-n" ili="i98171" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>violent or severe weather (viewed as caused by the action of the four elements)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11545095-n"/> <!-- conditions, weather condition, atmospheric condition, weather -->
-      <Example>&quot;they felt the full fury of the elements&quot;</Example>
+      <Example>they felt the full fury of the elements</Example>
     </Synset>
     <!-- wester, west wind -->
     <Synset id="ewn-11545913-n" ili="i98172" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8646,9 +8650,9 @@
       <SynsetRelation relType="hyponym" target="ewn-11542881-n"/> <!-- draught, draft -->
       <SynsetRelation relType="hyponym" target="ewn-11545913-n"/> <!-- wester, west wind -->
       <SynsetRelation relType="mero_substance" target="ewn-14865437-n"/> <!-- air -->
-      <Example>&quot;trees bent under the fierce winds&quot;</Example>
-      <Example>&quot;when there is no wind, row&quot;</Example>
-      <Example>&quot;the radioactivity was being swept upwards by the air current and out into the atmosphere&quot;</Example>
+      <Example>trees bent under the fierce winds</Example>
+      <Example>when there is no wind, row</Example>
+      <Example>the radioactivity was being swept upwards by the air current and out into the atmosphere</Example>
     </Synset>
     <!-- wind generation, wind power -->
     <Synset id="ewn-11547345-n" ili="i98176" partOfSpeech="n" dc:subject="noun.phenomenon">
@@ -8684,7 +8688,7 @@
     <Synset id="ewn-11548218-n" ili="i98181" partOfSpeech="n" dc:subject="noun.phenomenon">
       <Definition>the irregular motion of waves (usually caused by wind blowing in a direction opposite to the tide)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11439518-n"/> <!-- physical phenomenon -->
-      <Example>&quot;the boat headed into the chop&quot;</Example>
+      <Example>the boat headed into the chop</Example>
     </Synset>
     <!-- floatation, flotation -->
     <Synset id="ewn-11548418-n" ili="i98182" partOfSpeech="n" dc:subject="noun.phenomenon">

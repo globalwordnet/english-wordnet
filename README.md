@@ -8,7 +8,7 @@ English WordNet is a fork of the [Princeton Wordnet](https://wordnet.princeton.e
 an open source methodology. The quality and veracity of the resource may differ from the Princeton 
 WordNet and we welcome contributions. Contributions to this wordnet may eventually be incorporated into
 future releases of Princeton WordNet. Correspondance to previous versions and wordnets in other language is provided
-through the [Collaborative Interlingual Index (CILI)](http://compling.hss.ntu.edu.sg/iliomw/ili). The English WordNet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
+through the [Collaborative Interlingual Index (CILI)](https://github.com/globalwordnet/cili). The English WordNet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
 
 ## Releases
 
@@ -53,4 +53,6 @@ WordNet is released under [CC-BY 4.0](LICENSE.md)
 * Bernard Bou
 * Daiki Nomura
 * David Cillessen
+* Ciara O'Loughlin
+* Cathal McGovern
 * Francis Bond

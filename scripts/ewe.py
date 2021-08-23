@@ -49,9 +49,12 @@ def enter_synset(wordnet, spec_string=""):
     return synset
 
 
-def enter_sense_synset(wordnet, spec_string=""):
+def enter_sense_synset(wordnet, spec_string="", synset_id=None):
     '''Handle the user input of a single synset or sense'''
-    synset = enter_synset(wordnet, spec_string)
+    if not synset_id:
+        synset = enter_synset(wordnet, spec_string)
+    else:
+        synset = wordnet.synset_by_id(synset_id)
     if not synset:
         print("Synset not found")
     print("0. Synset (No sense)")
@@ -226,8 +229,8 @@ def change_example(wn, change_list):
         while True:
             example = input("Example: ")
 
-            if not example.startswith("\""):
-                print("Examples must start and end with a quotation")
+            if example.startswith("\"") and example.endswith("\""):
+                print("Examples must NOT start and end with a quotation (since #143)")
                 continue
 
             if check_text(example, "example"):
@@ -312,6 +315,8 @@ def change_relation(wn, change_list, source_id=None):
         target_sense_id = None
     else:
         target_id, target_sense_id = enter_sense_synset(wn, "target ")
+        if not source_sense_id: # Occurs when creating a new entry
+            source_id, source_sense_id = enter_sense_synset(wn, "source ", source_id)
 
     source_synset = wn.synset_by_id(source_id)
     if not source_synset:

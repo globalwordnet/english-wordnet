@@ -57,8 +57,9 @@ def check_transitive(wn, fix):
             if rel.rel_type == SynsetRelType.HYPERNYM:
                 synset2 = wn.synset_by_id(rel.target)
                 for rel2 in synset2.synset_relations:
-                    if any(r for r in synset.synset_relations if r.target ==
-                           rel2.target and r.rel_type == SynsetRelType.HYPERNYM):
+                    if (any(r for r in synset.synset_relations if r.target ==
+                           rel2.target and r.rel_type == SynsetRelType.HYPERNYM) and
+                           rel2.rel_type == SynsetRelType.HYPERNYM):
                         if fix:
                             errors.append(
                                 "python scripts/change-relation.py --delete %s %s" %
@@ -68,7 +69,6 @@ def check_transitive(wn, fix):
                                 "Transitive error for %s => %s => %s" %
                                 (synset.id, synset2.id, rel2.target))
     return errors
-
 
 def check_no_loops(wn):
     hypernyms = {}
@@ -91,6 +91,28 @@ def check_no_loops(wn):
                 return ["Loop for %s" % (synset.id)]
     return []
 
+def check_no_domain_loops(wn):
+    domains = {}
+    for synset in wn.synsets:
+        domains[synset.id] = set()
+        for rel in synset.synset_relations:
+            if (rel.rel_type == SynsetRelType.DOMAIN_TOPIC or
+                rel.rel_type == SynsetRelType.DOMAIN_REGION or
+                rel.rel_type == SynsetRelType.EXEMPLIFIES):
+                domains[synset.id].add(rel.target)
+    changed = True
+    while changed:
+        changed = False
+        for synset in wn.synsets:
+            n_size = len(domains[synset.id])
+            for c in domains[synset.id]:
+                domains[synset.id] = domains[synset.id].union(
+                    domains.get(c, []))
+            if len(domains[synset.id]) != n_size:
+                changed = True
+            if synset.id in domains[synset.id]:
+                return ["Domain loop for %s" % (synset.id)]
+    return []
 
 def check_not_empty(wn, ss):
     if not wn.members_by_id(ss.id):
@@ -199,7 +221,8 @@ def main():
     sense_keys = {}
 
     for entry in wn.entries:
-        if entry.id[-1:] != entry.lemma.part_of_speech.value:
+        if (entry.id[-1:] != entry.lemma.part_of_speech.value and not entry.id[-1].isnumeric()
+            or entry.id[-1].isnumeric() and entry.id[-3:-2] != entry.lemma.part_of_speech.value):
             print("ERROR: Entry ID not same as part of speech %s as %s" %
                   (entry.id, entry.lemma.part_of_speech.value))
             errors += 1
@@ -309,6 +332,14 @@ def main():
             #    print("ERROR: reflexive synset relation for %s" % (synset.id))
             #    errors += 1
 
+        # Duplicate relation check
+        sr2 = sorted(synset.synset_relations, key=lambda sr: (sr.target, sr.rel_type.value))
+        for i in range(len(sr2)-1):
+            if sr2[i].target == sr2[i+1].target and sr2[i].rel_type == sr2[i+1].rel_type:
+                print("ERROR: Duplicate synset relation %s =%s=> %s" %
+                        (synset.id, sr2[i].rel_type.value, sr2.target))
+                errors += 1
+
         if synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and similars == 0:
             print(
                 "ERROR: satellite must have at least one similar link %s" %
@@ -320,7 +351,8 @@ def main():
                 if sr.rel_type == SynsetRelType.HYPERNYM or
                    sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
             synset.id != "ewn-00001740-n"):
-            print("WARN: noun synset %s has no hypernym" % synset.id)
+            print("ERROR: noun synset %s has no hypernym" % synset.id)
+            errors += 1
 
         if len(synset.definitions) == 0:
             print("ERROR: synset without definition %s" % (synset.id))
@@ -361,6 +393,15 @@ def main():
             print("ERROR: " + error)
             errors += 1
 
+    for error in check_no_domain_loops(wn):
+        if fix:
+            sys.stderr.write("Cannot be fixed")
+            sys.exit(-1)
+        else:
+            print("ERROR: " + error)
+            errors += 1
+
+ 
     if fix:
         pass
     elif errors > 0:

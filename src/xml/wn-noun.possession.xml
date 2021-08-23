@@ -1347,6 +1347,7 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-tax-n">
       <Lemma writtenForm="tax" partOfSpeech="n"/>
+      <Form writtenForm="taxes"/>
       <Sense id="ewn-tax-n-13330021-01" n="0" synset="ewn-13330021-n" dc:identifier="tax%1:21:00::">
         <SenseRelation relType="derivation" target="ewn-tax-v-02312527-01"/> <!-- tax -->
         </Sense>
@@ -2643,10 +2644,6 @@
       <Sense id="ewn-expense-n-13296518-01" n="0" synset="ewn-13296518-n" dc:identifier="expense%1:21:00::"/>
       <Sense id="ewn-expense-n-13298909-01" n="2" synset="ewn-13298909-n" dc:identifier="expense%1:21:01::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-lien-n">
-      <Lemma writtenForm="lien" partOfSpeech="n"/>
-      <Sense id="ewn-lien-n-13422186-01" n="0" synset="ewn-13422186-n" dc:identifier="lien%1:21:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-u-drive-n">
       <Lemma writtenForm="u-drive" partOfSpeech="n"/>
       <Sense id="ewn-u-drive-n-13269497-05" n="0" synset="ewn-13269497-n" dc:identifier="u-drive%1:21:00::"/>
@@ -3155,12 +3152,6 @@
       <Lemma writtenForm="chump change" partOfSpeech="n"/>
       <Sense id="ewn-chump_change-n-13409173-03" n="0" synset="ewn-13409173-n" dc:identifier="chump_change%1:21:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-real-n">
-      <Lemma writtenForm="real" partOfSpeech="n"/>
-      <Form writtenForm="reales"/>
-      <Form writtenForm="reis"/>
-      <Sense id="ewn-real-n-13410750-01" n="2" synset="ewn-13410750-n" dc:identifier="real%1:21:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-overcharge-n">
       <Lemma writtenForm="overcharge" partOfSpeech="n"/>
       <Sense id="ewn-overcharge-n-13328806-01" n="0" synset="ewn-13328806-n" dc:identifier="overcharge%1:21:00::">
@@ -3410,10 +3401,6 @@
     <LexicalEntry id="ewn-leger-n">
       <Lemma writtenForm="leger" partOfSpeech="n"/>
       <Sense id="ewn-leger-n-13425421-02" n="0" synset="ewn-13425421-n" dc:identifier="leger%1:21:00::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-denier-n">
-      <Lemma writtenForm="denier" partOfSpeech="n"/>
-      <Sense id="ewn-denier-n-13410532-01" n="1" synset="ewn-13410532-n" dc:identifier="denier%1:21:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-quayage-n">
       <Lemma writtenForm="quayage" partOfSpeech="n"/>
@@ -7053,6 +7040,20 @@
       <Lemma writtenForm="transaction cost" partOfSpeech="n"/>
       <Sense id="ewn-transaction_cost-n-92436994-00" n="2" synset="ewn-92436994-n" dc:identifier="transaction_cost%1:21:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-denier-n-1">
+      <Lemma writtenForm="denier" partOfSpeech="n"/>
+      <Sense id="ewn-denier-n-13410532-01" n="1" synset="ewn-13410532-n" dc:identifier="denier%1:21:00::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-real-n-2">
+      <Lemma writtenForm="real" partOfSpeech="n"/>
+      <Form writtenForm="reales"/>
+      <Form writtenForm="reis"/>
+      <Sense id="ewn-real-n-13410750-01" n="1" synset="ewn-13410750-n" dc:identifier="real%1:21:00::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lien-n-1">
+      <Lemma writtenForm="lien" partOfSpeech="n"/>
+      <Sense id="ewn-lien-n-13422186-01" n="0" synset="ewn-13422186-n" dc:identifier="lien%1:21:00::"/>
+    </LexicalEntry>
     <!-- ownership -->
     <Synset id="ewn-13261412-n" ili="i106221" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the relation of an owner to the thing possessed; possession with the right to transfer possession to others</Definition>
@@ -7069,7 +7070,7 @@
     <Synset id="ewn-13261737-n" ili="i106222" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>common ownership</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13261412-n"/> <!-- ownership -->
-      <Example>&quot;they shared a community of possessions&quot;</Example>
+      <Example>they shared a community of possessions</Example>
     </Synset>
     <!-- severalty -->
     <Synset id="ewn-13261869-n" ili="i106223" partOfSpeech="n" dc:subject="noun.possession">
@@ -7111,7 +7112,7 @@
     <Synset id="ewn-13262838-n" ili="i106228" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a benefit given by a company to an employee in the form of an option to buy stock in the company at a discount or at a fixed price</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13317922-n"/> <!-- benefit -->
-      <Example>&quot;stock options are not much use as an incentive if the price at which they can be exercised is out of reach&quot;</Example>
+      <Example>stock options are not much use as an incentive if the price at which they can be exercised is out of reach</Example>
     </Synset>
     <!-- stock option -->
     <Synset id="ewn-13263137-n" ili="i106229" partOfSpeech="n" dc:subject="noun.possession">
@@ -7209,8 +7210,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13285693-n"/> <!-- heirloom -->
       <SynsetRelation relType="hyponym" target="ewn-13355507-n"/> <!-- stockholding, stockholdings -->
       <SynsetRelation relType="hyponym" target="ewn-13381671-n"/> <!-- trust -->
-      <Example>&quot;that hat is my property&quot;</Example>
-      <Example>&quot;he is a man of property&quot;</Example>
+      <Example>that hat is my property</Example>
+      <Example>he is a man of property</Example>
     </Synset>
     <!-- tangible possession, material possession -->
     <Synset id="ewn-13265650-n" ili="i106243" partOfSpeech="n" dc:subject="noun.possession">
@@ -7221,7 +7222,7 @@
     <Synset id="ewn-13265778-n" ili="i106244" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>all the property that someone possesses</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13265007-n"/> <!-- belongings, property, holding -->
-      <Example>&quot;he left all his worldly possessions to his daughter&quot;</Example>
+      <Example>he left all his worldly possessions to his daughter</Example>
     </Synset>
     <!-- rateables, ratables -->
     <Synset id="ewn-13265975-n" ili="i106245" partOfSpeech="n" dc:subject="noun.possession">
@@ -7263,14 +7264,14 @@
     <Synset id="ewn-13266978-n" ili="i106251" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>property of a personal character that is portable but not used in business</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13266525-n"/> <!-- personalty, private property, personal estate, personal property -->
-      <Example>&quot;she left some of her personal effects in the house&quot;</Example>
-      <Example>&quot;I watched over their effects until they returned&quot;</Example>
+      <Example>she left some of her personal effects in the house</Example>
+      <Example>I watched over their effects until they returned</Example>
     </Synset>
     <!-- things -->
     <Synset id="ewn-13267231-n" ili="i106252" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>any movable possession (especially articles of clothing)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13265007-n"/> <!-- belongings, property, holding -->
-      <Example>&quot;she packed her things and left&quot;</Example>
+      <Example>she packed her things and left</Example>
     </Synset>
     <!-- real property, real estate, immovable, realty -->
     <Synset id="ewn-13267374-n" ili="i106253" partOfSpeech="n" dc:subject="noun.possession">
@@ -7298,7 +7299,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13273294-n"/> <!-- hacienda -->
       <SynsetRelation relType="hyponym" target="ewn-13273412-n"/> <!-- plantation -->
       <SynsetRelation relType="hyponym" target="ewn-13309965-n"/> <!-- entail -->
-      <Example>&quot;the family owned a large estate on Long Island&quot;</Example>
+      <Example>the family owned a large estate on Long Island</Example>
     </Synset>
     <!-- commonage -->
     <Synset id="ewn-13268048-n" ili="i106255" partOfSpeech="n" dc:subject="noun.possession">
@@ -7365,7 +7366,7 @@
     <Synset id="ewn-13269497-n" ili="i106266" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a rented car</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13269292-n"/> <!-- lease, rental, letting -->
-      <Example>&quot;she picked up a hire car at the airport and drove to her hotel&quot;</Example>
+      <Example>she picked up a hire car at the airport and drove to her hotel</Example>
     </Synset>
     <!-- trade-in -->
     <Synset id="ewn-13269691-n" ili="i106267" partOfSpeech="n" dc:subject="noun.possession">
@@ -7425,7 +7426,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13270498-n"/> <!-- farmstead -->
       <SynsetRelation relType="hyponym" target="ewn-13270598-n"/> <!-- homestead -->
       <SynsetRelation relType="hyponym" target="ewn-13270704-n"/> <!-- no man's land -->
-      <Example>&quot;he built the house on land leased from the city&quot;</Example>
+      <Example>he built the house on land leased from the city</Example>
     </Synset>
     <!-- mortmain, dead hand -->
     <Synset id="ewn-13271143-n" ili="i106278" partOfSpeech="n" dc:subject="noun.possession">
@@ -7444,15 +7445,15 @@
       <Definition>wealth reckoned in terms of money</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13271297-n"/> <!-- wealth -->
       <SynsetRelation relType="hyponym" target="ewn-13271579-n"/> <!-- big money, bundle, big bucks, megabucks, pile -->
-      <Example>&quot;all his money is in real estate&quot;</Example>
+      <Example>all his money is in real estate</Example>
     </Synset>
     <!-- big money, bundle, big bucks, megabucks, pile -->
     <Synset id="ewn-13271579-n" ili="i106281" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a large sum of money (especially as pay or profit)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13271441-n"/> <!-- money -->
       <SynsetRelation relType="exemplifies" target="ewn-07171981-n"/> <!-- vernacular, slang, jargon, argot, cant, patois, lingo -->
-      <Example>&quot;she made a bundle selling real estate&quot;</Example>
-      <Example>&quot;they sank megabucks into their new house&quot;</Example>
+      <Example>she made a bundle selling real estate</Example>
+      <Example>they sank megabucks into their new house</Example>
     </Synset>
     <!-- estate -->
     <Synset id="ewn-13271829-n" ili="i106282" partOfSpeech="n" dc:subject="noun.possession">
@@ -7467,7 +7468,7 @@
     <Synset id="ewn-13272053-n" ili="i106283" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>informal terms for personal possessions</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13266525-n"/> <!-- personalty, private property, personal estate, personal property -->
-      <Example>&quot;did you take all your clobber?&quot;</Example>
+      <Example>did you take all your clobber?</Example>
     </Synset>
     <!-- gross estate -->
     <Synset id="ewn-13272188-n" ili="i106284" partOfSpeech="n" dc:subject="noun.possession">
@@ -7556,14 +7557,14 @@
       <SynsetRelation relType="hyponym" target="ewn-13274322-n"/> <!-- addition, accession -->
       <SynsetRelation relType="hyponym" target="ewn-13274511-n"/> <!-- purchase -->
       <SynsetRelation relType="hyponym" target="ewn-13285910-n"/> <!-- gift -->
-      <Example>&quot;a recent acquisition by the museum&quot;</Example>
+      <Example>a recent acquisition by the museum</Example>
     </Synset>
     <!-- addition, accession -->
     <Synset id="ewn-13274322-n" ili="i106298" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>something added to what you already have</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13274154-n"/> <!-- acquisition -->
-      <Example>&quot;the librarian shelved the new accessions&quot;</Example>
-      <Example>&quot;he was a new addition to the staff&quot;</Example>
+      <Example>the librarian shelved the new accessions</Example>
+      <Example>he was a new addition to the staff</Example>
     </Synset>
     <!-- purchase -->
     <Synset id="ewn-13274511-n" ili="i106299" partOfSpeech="n" dc:subject="noun.possession">
@@ -7578,14 +7579,14 @@
       <SynsetRelation relType="hypernym" target="ewn-13274511-n"/> <!-- purchase -->
       <SynsetRelation relType="hyponym" target="ewn-13274910-n"/> <!-- song -->
       <SynsetRelation relType="hyponym" target="ewn-13275004-n"/> <!-- travel bargain -->
-      <Example>&quot;she got a bargain at the auction&quot;</Example>
-      <Example>&quot;the stock was a real buy at that price&quot;</Example>
+      <Example>she got a bargain at the auction</Example>
+      <Example>the stock was a real buy at that price</Example>
     </Synset>
     <!-- song -->
     <Synset id="ewn-13274910-n" ili="i106301" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a very small sum</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13274650-n"/> <!-- buy, bargain, steal -->
-      <Example>&quot;he bought it for a song&quot;</Example>
+      <Example>he bought it for a song</Example>
     </Synset>
     <!-- travel bargain -->
     <Synset id="ewn-13275004-n" ili="i106302" partOfSpeech="n" dc:subject="noun.possession">
@@ -7604,7 +7605,7 @@
     <Synset id="ewn-13275342-n" ili="i106304" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a grant (by a sovereign or a legislative body) of resources to maintain a dependent member of a ruling family</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13275136-n"/> <!-- assignment, grant -->
-      <Example>&quot;bishoprics were received as appanages for the younger sons of great families&quot;</Example>
+      <Example>bishoprics were received as appanages for the younger sons of great families</Example>
     </Synset>
     <!-- land grant -->
     <Synset id="ewn-13275596-n" ili="i106305" partOfSpeech="n" dc:subject="noun.possession">
@@ -7721,7 +7722,7 @@
     <Synset id="ewn-13278881-n" ili="i106322" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>payment to the holder of a patent or copyright or resource for the right to use their property</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13299398-n"/> <!-- payment -->
-      <Example>&quot;he received royalties on his book&quot;</Example>
+      <Example>he received royalties on his book</Example>
     </Synset>
     <!-- box office -->
     <Synset id="ewn-13279066-n" ili="i106323" partOfSpeech="n" dc:subject="noun.possession">
@@ -7801,19 +7802,19 @@
       <SynsetRelation relType="hypernym" target="ewn-13276044-n"/> <!-- income -->
       <SynsetRelation relType="hyponym" target="ewn-13317293-n"/> <!-- rent, economic rent -->
       <SynsetRelation relType="hyponym" target="ewn-13317483-n"/> <!-- payback -->
-      <Example>&quot;the average return was about 5%&quot;</Example>
+      <Example>the average return was about 5%</Example>
     </Synset>
     <!-- quick buck, fast buck -->
     <Synset id="ewn-13281409-n" ili="i106336" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>quick or easy earnings</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13279261-n"/> <!-- net, lucre, earnings, net profit, net income, profit, profits -->
-      <Example>&quot;they are traders out to make a fast buck&quot;</Example>
+      <Example>they are traders out to make a fast buck</Example>
     </Synset>
     <!-- filthy lucre -->
     <Synset id="ewn-13281544-n" ili="i106337" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>shameful profit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13279261-n"/> <!-- net, lucre, earnings, net profit, net income, profit, profits -->
-      <Example>&quot;he would sell his soul for filthy lucre&quot;</Example>
+      <Example>he would sell his soul for filthy lucre</Example>
     </Synset>
     <!-- gross profit, margin, gross profit margin -->
     <Synset id="ewn-13281661-n" ili="i106338" partOfSpeech="n" dc:subject="noun.possession">
@@ -7882,7 +7883,7 @@
       <Definition>(usually plural) valuables taken by violence (especially in war)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13283234-n"/> <!-- stolen property -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;to the victor belong the spoils of the enemy&quot;</Example>
+      <Example>to the victor belong the spoils of the enemy</Example>
     </Synset>
     <!-- dirty money, pillage, loot, booty, plunder, prize, swag -->
     <Synset id="ewn-13283562-n" ili="i106350" partOfSpeech="n" dc:subject="noun.possession">
@@ -7954,7 +7955,7 @@
     <Synset id="ewn-13285421-n" ili="i106360" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>something acquired without effort or payment or obligation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13285910-n"/> <!-- gift -->
-      <Example>&quot;there is no free lunch in politics or Hollywood&quot;</Example>
+      <Example>there is no free lunch in politics or Hollywood</Example>
     </Synset>
     <!-- heirloom -->
     <Synset id="ewn-13285587-n" ili="i106361" partOfSpeech="n" dc:subject="noun.possession">
@@ -8015,7 +8016,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13287538-n"/> <!-- foreign aid -->
       <SynsetRelation relType="hyponym" target="ewn-13287915-n"/> <!-- grant -->
       <SynsetRelation relType="hyponym" target="ewn-13288839-n"/> <!-- traineeship -->
-      <Example>&quot;economic assistance to depressed areas&quot;</Example>
+      <Example>economic assistance to depressed areas</Example>
     </Synset>
     <!-- scholarship -->
     <Synset id="ewn-13287193-n" ili="i106368" partOfSpeech="n" dc:subject="noun.possession">
@@ -8053,7 +8054,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13287915-n"/> <!-- grant -->
       <SynsetRelation relType="hyponym" target="ewn-13288286-n"/> <!-- subvention -->
       <SynsetRelation relType="hyponym" target="ewn-13288434-n"/> <!-- price support -->
-      <Example>&quot;a subsidy for research in artificial intelligence&quot;</Example>
+      <Example>a subsidy for research in artificial intelligence</Example>
     </Synset>
     <!-- subvention -->
     <Synset id="ewn-13288286-n" ili="i106374" partOfSpeech="n" dc:subject="noun.possession">
@@ -8080,7 +8081,7 @@
     <Synset id="ewn-13288839-n" ili="i106378" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>financial aid that enables you to get trained for a specified job</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13286803-n"/> <!-- financial assistance, economic assistance, financial aid, economic aid, assistance, aid -->
-      <Example>&quot;the bill provided traineeships in vocational rehabilitation&quot;</Example>
+      <Example>the bill provided traineeships in vocational rehabilitation</Example>
     </Synset>
     <!-- gratuity -->
     <Synset id="ewn-13289043-n" ili="i106379" partOfSpeech="n" dc:subject="noun.possession">
@@ -8098,7 +8099,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13289706-n"/> <!-- jackpot -->
       <SynsetRelation relType="hyponym" target="ewn-13289781-n"/> <!-- prize money -->
       <SynsetRelation relType="hyponym" target="ewn-13293306-n"/> <!-- premium -->
-      <Example>&quot;the prize was a free trip to Europe&quot;</Example>
+      <Example>the prize was a free trip to Europe</Example>
     </Synset>
     <!-- door prize -->
     <Synset id="ewn-13289507-n" ili="i106381" partOfSpeech="n" dc:subject="noun.possession">
@@ -8122,7 +8123,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13290077-n"/> <!-- birthday present, birthday gift -->
       <SynsetRelation relType="hyponym" target="ewn-13290209-n"/> <!-- Christmas gift, Christmas present -->
       <SynsetRelation relType="hyponym" target="ewn-13290482-n"/> <!-- wedding present, wedding gift -->
-      <Example>&quot;his tie was a present from his wife&quot;</Example>
+      <Example>his tie was a present from his wife</Example>
     </Synset>
     <!-- birthday present, birthday gift -->
     <Synset id="ewn-13290077-n" ili="i106385" partOfSpeech="n" dc:subject="noun.possession">
@@ -8160,7 +8161,7 @@
     <Synset id="ewn-13290913-n" ili="i106391" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an amount of money contributed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;he expected his contribution to be repaid with interest&quot;</Example>
+      <Example>he expected his contribution to be repaid with interest</Example>
     </Synset>
     <!-- contribution, donation -->
     <Synset id="ewn-13291061-n" ili="i106392" partOfSpeech="n" dc:subject="noun.possession">
@@ -8253,13 +8254,13 @@
       <Definition>a prize, bonus, or award given as an inducement to purchase products, enter competitions initiated by business interests, etc.</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13294177-n"/> <!-- incentive, bonus -->
       <SynsetRelation relType="hypernym" target="ewn-13289169-n"/> <!-- award, prize -->
-      <Example>&quot;they encouraged customers with a premium for loyal patronage&quot;</Example>
+      <Example>they encouraged customers with a premium for loyal patronage</Example>
     </Synset>
     <!-- freebie, freebee -->
     <Synset id="ewn-13293568-n" ili="i106408" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>something that is free (usually provided as part of a promotional scheme)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13285910-n"/> <!-- gift -->
-      <Example>&quot;the road map was a freebie&quot;</Example>
+      <Example>the road map was a freebie</Example>
     </Synset>
     <!-- giveaway -->
     <Synset id="ewn-13293735-n" ili="i106409" partOfSpeech="n" dc:subject="noun.possession">
@@ -8271,7 +8272,7 @@
     <Synset id="ewn-13293883-n" ili="i106410" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a gift (usually of inferior quality) that should be accepted uncritically</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13285910-n"/> <!-- gift -->
-      <Example>&quot;it wasn&apos;t much, but don&apos;t look a gift horse in the mouth&quot;</Example>
+      <Example>it wasn&apos;t much, but don&apos;t look a gift horse in the mouth</Example>
     </Synset>
     <!-- thank offering -->
     <Synset id="ewn-13294073-n" ili="i106411" partOfSpeech="n" dc:subject="noun.possession">
@@ -8325,7 +8326,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13295915-n"/> <!-- seasonal adjustment -->
       <SynsetRelation relType="hyponym" target="ewn-13296160-n"/> <!-- tare -->
       <SynsetRelation relType="hyponym" target="ewn-92440857-n"/>
-      <Example>&quot;an allowance for profit&quot;</Example>
+      <Example>an allowance for profit</Example>
     </Synset>
     <!-- cost-of-living allowance -->
     <Synset id="ewn-13295387-n" ili="i106419" partOfSpeech="n" dc:subject="noun.possession">
@@ -8352,7 +8353,7 @@
     <Synset id="ewn-13295915-n" ili="i106423" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a statistical adjustment made to accommodate predictable fluctuations as a function of the season of the year</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13295115-n"/> <!-- allowance, adjustment -->
-      <Example>&quot;seasonal adjustments for housing starts must be made in mid-winter&quot;</Example>
+      <Example>seasonal adjustments for housing starts must be made in mid-winter</Example>
     </Synset>
     <!-- tare -->
     <Synset id="ewn-13296160-n" ili="i106424" partOfSpeech="n" dc:subject="noun.possession">
@@ -8423,7 +8424,7 @@
     <Synset id="ewn-13297627-n" ili="i106430" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>expenses incurred in promoting or evaluating legislation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13296518-n"/> <!-- expense, disbursal, disbursement -->
-      <Example>&quot;many lobbying expenses are deductible by a taxpayer&quot;</Example>
+      <Example>many lobbying expenses are deductible by a taxpayer</Example>
     </Synset>
     <!-- medical expense -->
     <Synset id="ewn-13297801-n" ili="i106431" partOfSpeech="n" dc:subject="noun.possession">
@@ -8457,7 +8458,7 @@
     <Synset id="ewn-13298667-n" ili="i106436" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the cost of personal or family living</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13296518-n"/> <!-- expense, disbursal, disbursement -->
-      <Example>&quot;some personal expenses are tax deductible&quot;</Example>
+      <Example>some personal expenses are tax deductible</Example>
     </Synset>
     <!-- promotional expense -->
     <Synset id="ewn-13298812-n" ili="i106437" partOfSpeech="n" dc:subject="noun.possession">
@@ -8470,7 +8471,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13296311-n"/> <!-- outgo, spending, outlay, expenditure -->
       <SynsetRelation relType="hyponym" target="ewn-13327458-n"/> <!-- minor expense, incidental, incidental expense -->
       <SynsetRelation relType="hyponym" target="ewn-13327691-n"/> <!-- travel expense -->
-      <Example>&quot;he kept a careful record of his expenses at the meeting&quot;</Example>
+      <Example>he kept a careful record of his expenses at the meeting</Example>
     </Synset>
     <!-- transfer payment -->
     <Synset id="ewn-13299123-n" ili="i106439" partOfSpeech="n" dc:subject="noun.possession">
@@ -8542,9 +8543,9 @@
       <SynsetRelation relType="hyponym" target="ewn-13301919-n"/> <!-- strike pay -->
       <SynsetRelation relType="hyponym" target="ewn-13302015-n"/> <!-- take-home pay -->
       <SynsetRelation relType="hyponym" target="ewn-92439322-n"/>
-      <Example>&quot;wages were paid by cash&quot;</Example>
-      <Example>&quot;he wasted his pay on drink&quot;</Example>
-      <Example>&quot;they saved a quarter of all their earnings&quot;</Example>
+      <Example>wages were paid by cash</Example>
+      <Example>he wasted his pay on drink</Example>
+      <Example>they saved a quarter of all their earnings</Example>
     </Synset>
     <!-- combat pay -->
     <Synset id="ewn-13300832-n" ili="i106445" partOfSpeech="n" dc:subject="noun.possession">
@@ -8560,7 +8561,7 @@
     <Synset id="ewn-13301031-n" ili="i106447" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>food and lodging provided in addition to money</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13300285-n"/> <!-- remuneration, earnings, wage, pay, salary -->
-      <Example>&quot;they worked for $30 and found&quot;</Example>
+      <Example>they worked for $30 and found</Example>
     </Synset>
     <!-- half-pay -->
     <Synset id="ewn-13301162-n" ili="i106448" partOfSpeech="n" dc:subject="noun.possession">
@@ -8623,7 +8624,7 @@
       <Definition>amount of money received per unit time</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13346032-n"/> <!-- rate, charge per unit -->
       <SynsetRelation relType="hyponym" target="ewn-13302664-n"/> <!-- time and a half -->
-      <Example>&quot;women&apos;s pay rate is lower than men&apos;s&quot;</Example>
+      <Example>women&apos;s pay rate is lower than men&apos;s</Example>
     </Synset>
     <!-- time and a half -->
     <Synset id="ewn-13302664-n" ili="i106459" partOfSpeech="n" dc:subject="noun.possession">
@@ -8794,7 +8795,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13310043-n"/> <!-- profit sharing -->
       <SynsetRelation relType="hyponym" target="ewn-13310182-n"/> <!-- cut -->
       <SynsetRelation relType="hyponym" target="ewn-13310490-n"/> <!-- allotment, allocation -->
-      <Example>&quot;he wanted his share in cash&quot;</Example>
+      <Example>he wanted his share in cash</Example>
     </Synset>
     <!-- tranche -->
     <Synset id="ewn-13306642-n" ili="i106485" partOfSpeech="n" dc:subject="noun.possession">
@@ -8815,7 +8816,7 @@
     <Synset id="ewn-13306996-n" ili="i106488" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a portion of something divided into shares</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13306199-n"/> <!-- share, percentage, portion, part -->
-      <Example>&quot;they split the loot three ways&quot;</Example>
+      <Example>they split the loot three ways</Example>
     </Synset>
     <!-- ration -->
     <Synset id="ewn-13307122-n" ili="i106489" partOfSpeech="n" dc:subject="noun.possession">
@@ -8827,21 +8828,21 @@
       <Definition>an amount allowed or granted (as during a given period)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13306199-n"/> <!-- share, percentage, portion, part -->
       <SynsetRelation relType="hyponym" target="ewn-13315325-n"/> <!-- privy purse -->
-      <Example>&quot;travel allowance&quot;</Example>
-      <Example>&quot;my weekly allowance of two eggs&quot;</Example>
-      <Example>&quot;a child&apos;s allowance should not be too generous&quot;</Example>
+      <Example>travel allowance</Example>
+      <Example>my weekly allowance of two eggs</Example>
+      <Example>a child&apos;s allowance should not be too generous</Example>
     </Synset>
     <!-- slice, piece -->
     <Synset id="ewn-13307547-n" ili="i106491" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a share of something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13306199-n"/> <!-- share, percentage, portion, part -->
-      <Example>&quot;a slice of the company&apos;s revenue&quot;</Example>
+      <Example>a slice of the company&apos;s revenue</Example>
     </Synset>
     <!-- split -->
     <Synset id="ewn-13307663-n" ili="i106492" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a promised or claimed share of loot or money</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13306199-n"/> <!-- share, percentage, portion, part -->
-      <Example>&quot;he demanded his split before they disbanded&quot;</Example>
+      <Example>he demanded his split before they disbanded</Example>
     </Synset>
     <!-- interest, stake -->
     <Synset id="ewn-13307824-n" ili="i106493" partOfSpeech="n" dc:subject="noun.possession">
@@ -8859,8 +8860,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13354435-n"/> <!-- equity -->
       <SynsetRelation relType="hyponym" target="ewn-13362365-n"/> <!-- reversion -->
       <SynsetRelation relType="hyponym" target="ewn-13362771-n"/> <!-- right -->
-      <Example>&quot;they have interests all over the world&quot;</Example>
-      <Example>&quot;a stake in the company&apos;s future&quot;</Example>
+      <Example>they have interests all over the world</Example>
+      <Example>a stake in the company&apos;s future</Example>
     </Synset>
     <!-- grubstake -->
     <Synset id="ewn-13308262-n" ili="i106494" partOfSpeech="n" dc:subject="noun.possession">
@@ -8936,7 +8937,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13306199-n"/> <!-- share, percentage, portion, part -->
       <SynsetRelation relType="holo_part" target="ewn-13283562-n"/> <!-- dirty money, pillage, loot, booty, plunder, prize, swag -->
       <SynsetRelation relType="hyponym" target="ewn-13310329-n"/> <!-- rake-off, vigorish -->
-      <Example>&quot;everyone got a cut of the earnings&quot;</Example>
+      <Example>everyone got a cut of the earnings</Example>
     </Synset>
     <!-- rake-off, vigorish -->
     <Synset id="ewn-13310329-n" ili="i106507" partOfSpeech="n" dc:subject="noun.possession">
@@ -8974,13 +8975,13 @@
       <SynsetRelation relType="hyponym" target="ewn-13314400-n"/> <!-- allowance -->
       <SynsetRelation relType="hyponym" target="ewn-13314535-n"/> <!-- breakage -->
       <SynsetRelation relType="hyponym" target="ewn-13314648-n"/> <!-- costs -->
-      <Example>&quot;he received reimbursement for his travel expenses&quot;</Example>
+      <Example>he received reimbursement for his travel expenses</Example>
     </Synset>
     <!-- emolument -->
     <Synset id="ewn-13311308-n" ili="i106513" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>compensation received by virtue of holding an office or having employment (usually in the form of wages or fees)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13303573-n"/> <!-- compensation -->
-      <Example>&quot;a clause in the U.S. constitution prevents sitting legislators from receiving emoluments from their own votes&quot;</Example>
+      <Example>a clause in the U.S. constitution prevents sitting legislators from receiving emoluments from their own votes</Example>
     </Synset>
     <!-- blood money -->
     <Synset id="ewn-13311589-n" ili="i106514" partOfSpeech="n" dc:subject="noun.possession">
@@ -9002,7 +9003,7 @@
       <Definition>(law) redress awarded by a court</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13311699-n"/> <!-- redress, indemnification, indemnity, restitution, amends, damages -->
       <SynsetRelation relType="domain_topic" target="ewn-08458195-n"/> <!-- law, jurisprudence -->
-      <Example>&quot;was the relief supposed to be protection from future harm or compensation for past injury?&quot;</Example>
+      <Example>was the relief supposed to be protection from future harm or compensation for past injury?</Example>
     </Synset>
     <!-- counterbalance, offset -->
     <Synset id="ewn-13312212-n" ili="i106517" partOfSpeech="n" dc:subject="noun.possession">
@@ -9044,26 +9045,26 @@
       <Definition>(usually plural) compensation exacted from a defeated nation by the victors</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13303573-n"/> <!-- compensation -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;Germany was unable to pay the reparations demanded after World War I&quot;</Example>
+      <Example>Germany was unable to pay the reparations demanded after World War I</Example>
     </Synset>
     <!-- reparation -->
     <Synset id="ewn-13313636-n" ili="i106524" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>compensation (given or received) for an insult or injury</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13303573-n"/> <!-- compensation -->
-      <Example>&quot;an act for which there is no reparation&quot;</Example>
+      <Example>an act for which there is no reparation</Example>
     </Synset>
     <!-- expiation, atonement, satisfaction -->
     <Synset id="ewn-13313810-n" ili="i106525" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>compensation for a wrong</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13311699-n"/> <!-- redress, indemnification, indemnity, restitution, amends, damages -->
-      <Example>&quot;we were unable to get satisfaction from the local store&quot;</Example>
+      <Example>we were unable to get satisfaction from the local store</Example>
     </Synset>
     <!-- residual -->
     <Synset id="ewn-13314012-n" ili="i106526" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>(often plural) a payment that is made to a performer or writer or director of a television show or commercial that is paid for every repeat showing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13299398-n"/> <!-- payment -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;he could retire on his residuals&quot;</Example>
+      <Example>he could retire on his residuals</Example>
     </Synset>
     <!-- poverty level, poverty line -->
     <Synset id="ewn-13314269-n" ili="i106527" partOfSpeech="n" dc:subject="noun.possession">
@@ -9127,14 +9128,14 @@
       <SynsetRelation relType="hyponym" target="ewn-13316048-n"/> <!-- ordinary annuity -->
       <SynsetRelation relType="hyponym" target="ewn-13316206-n"/> <!-- reversionary annuity, survivorship annuity -->
       <SynsetRelation relType="hyponym" target="ewn-13316383-n"/> <!-- tontine -->
-      <Example>&quot;his retirement fund was set up to be paid as an annuity&quot;</Example>
+      <Example>his retirement fund was set up to be paid as an annuity</Example>
     </Synset>
     <!-- annuity in advance -->
     <Synset id="ewn-13315786-n" ili="i106538" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an annuity paid in a series of more or less equal payments at the beginning of equally spaced periods</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13315526-n"/> <!-- annuity, rente -->
       <SynsetRelation relType="hyponym" target="ewn-13316680-n"/> <!-- rent -->
-      <Example>&quot;rent payable in advance constitutes an annuity in advance for the landlord&quot;</Example>
+      <Example>rent payable in advance constitutes an annuity in advance for the landlord</Example>
     </Synset>
     <!-- ordinary annuity -->
     <Synset id="ewn-13316048-n" ili="i106539" partOfSpeech="n" dc:subject="noun.possession">
@@ -9196,7 +9197,7 @@
       <Definition>installment plan</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13317616-n"/> <!-- time plan, installment plan, installment buying -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
-      <Example>&quot;we bought a car on the never-never&quot;</Example>
+      <Example>we bought a car on the never-never</Example>
     </Synset>
     <!-- benefit -->
     <Synset id="ewn-13317922-n" ili="i106550" partOfSpeech="n" dc:subject="noun.possession">
@@ -9249,13 +9250,13 @@
       <SynsetRelation relType="hypernym" target="ewn-13317922-n"/> <!-- benefit -->
       <SynsetRelation relType="hyponym" target="ewn-13319310-n"/> <!-- appanage, apanage -->
       <SynsetRelation relType="hyponym" target="ewn-13319724-n"/> <!-- tip, bakshish, baksheesh, backsheesh, gratuity, pourboire, bakshis -->
-      <Example>&quot;a limousine is one of the fringe benefits of the job&quot;</Example>
+      <Example>a limousine is one of the fringe benefits of the job</Example>
     </Synset>
     <!-- appanage, apanage -->
     <Synset id="ewn-13319310-n" ili="i106558" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>any customary and rightful perquisite appropriate to your station in life</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13319034-n"/> <!-- perquisite, perk, fringe benefit -->
-      <Example>&quot;for thousands of years the chair was an appanage of state and dignity rather than an article of ordinary use&quot;</Example>
+      <Example>for thousands of years the chair was an appanage of state and dignity rather than an article of ordinary use</Example>
     </Synset>
     <!-- tax break, tax benefit -->
     <Synset id="ewn-13319560-n" ili="i106559" partOfSpeech="n" dc:subject="noun.possession">
@@ -9339,7 +9340,7 @@
     <Synset id="ewn-13321734-n" ili="i106573" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an inadequate payment</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13299398-n"/> <!-- payment -->
-      <Example>&quot;they work all day for a mere pittance&quot;</Example>
+      <Example>they work all day for a mere pittance</Example>
     </Synset>
     <!-- retribution, requital -->
     <Synset id="ewn-13321851-n" ili="i106574" partOfSpeech="n" dc:subject="noun.possession">
@@ -9350,7 +9351,7 @@
     <Synset id="ewn-13321945-n" ili="i106575" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a penalty for a fault or mistake that involves losing or giving up something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13321578-n"/> <!-- penalty -->
-      <Example>&quot;the contract specified forfeits if the work was not completed on time&quot;</Example>
+      <Example>the contract specified forfeits if the work was not completed on time</Example>
     </Synset>
     <!-- forfeiture, forfeit -->
     <Synset id="ewn-13322197-n" ili="i106576" partOfSpeech="n" dc:subject="noun.possession">
@@ -9382,13 +9383,13 @@
     <Synset id="ewn-13322857-n" ili="i106581" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>excess of cost over budget</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13296870-n"/> <!-- cost -->
-      <Example>&quot;the cost overrun necessitated an additional allocation of funds in the budget&quot;</Example>
+      <Example>the cost overrun necessitated an additional allocation of funds in the budget</Example>
     </Synset>
     <!-- cost of living -->
     <Synset id="ewn-13323023-n" ili="i106582" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>average cost of basic necessities of life (as food and shelter and clothing)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13296870-n"/> <!-- cost -->
-      <Example>&quot;a rise in the cost of living reflects the rate of inflation&quot;</Example>
+      <Example>a rise in the cost of living reflects the rate of inflation</Example>
     </Synset>
     <!-- borrowing cost -->
     <Synset id="ewn-13323223-n" ili="i106583" partOfSpeech="n" dc:subject="noun.possession">
@@ -9448,15 +9449,15 @@
       <SynsetRelation relType="hyponym" target="ewn-92414340-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92438286-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92414344-n"/>
-      <Example>&quot;the price of gasoline&quot;</Example>
-      <Example>&quot;he got his new car on excellent terms&quot;</Example>
-      <Example>&quot;how much is the damage?&quot;</Example>
+      <Example>the price of gasoline</Example>
+      <Example>he got his new car on excellent terms</Example>
+      <Example>how much is the damage?</Example>
     </Synset>
     <!-- price -->
     <Synset id="ewn-13324781-n" ili="i106592" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>cost of bribing someone</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13296870-n"/> <!-- cost -->
-      <Example>&quot;they say that every politician has a price&quot;</Example>
+      <Example>they say that every politician has a price</Example>
     </Synset>
     <!-- markup -->
     <Synset id="ewn-13324902-n" ili="i106593" partOfSpeech="n" dc:subject="noun.possession">
@@ -9504,13 +9505,13 @@
     <Synset id="ewn-13325949-n" ili="i106600" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an exorbitant price</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13324337-n"/> <!-- damage, terms, price -->
-      <Example>&quot;what they are asking for gas these days is highway robbery&quot;</Example>
+      <Example>what they are asking for gas these days is highway robbery</Example>
     </Synset>
     <!-- list price -->
     <Synset id="ewn-13326092-n" ili="i106601" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the selling price of something as stated in a catalogue or price list; often subject to discounts</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13325031-n"/> <!-- asking price, selling price -->
-      <Example>&quot;I got it at 30% off the list price&quot;</Example>
+      <Example>I got it at 30% off the list price</Example>
     </Synset>
     <!-- purchase price -->
     <Synset id="ewn-13326284-n" ili="i106602" partOfSpeech="n" dc:subject="noun.possession">
@@ -9532,7 +9533,7 @@
     <Synset id="ewn-13326695-n" ili="i106605" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>assessed price</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13324337-n"/> <!-- damage, terms, price -->
-      <Example>&quot;the valuation of this property is much too high&quot;</Example>
+      <Example>the valuation of this property is much too high</Example>
     </Synset>
     <!-- opportunity cost -->
     <Synset id="ewn-13326816-n" ili="i106606" partOfSpeech="n" dc:subject="noun.possession">
@@ -9561,7 +9562,7 @@
       <Definition>(frequently plural) an expense not budgeted or not specified</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13298909-n"/> <!-- expense -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;he requested reimbursement of $7 for incidental expenses&quot;</Example>
+      <Example>he requested reimbursement of $7 for incidental expenses</Example>
     </Synset>
     <!-- travel expense -->
     <Synset id="ewn-13327691-n" ili="i106611" partOfSpeech="n" dc:subject="noun.possession">
@@ -9594,7 +9595,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92467935-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92467937-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92467963-n"/>
-      <Example>&quot;the admission charge&quot;</Example>
+      <Example>the admission charge</Example>
     </Synset>
     <!-- carrying charge -->
     <Synset id="ewn-13328392-n" ili="i106613" partOfSpeech="n" dc:subject="noun.possession">
@@ -9762,7 +9763,7 @@
     <Synset id="ewn-13332007-n" ili="i106636" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a deduction allowed to a taxpayer because of his status (having certain dependents or being blind or being over 65 etc.)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13350069-n"/> <!-- tax deduction, deduction, tax write-off -->
-      <Example>&quot;additional exemptions are allowed for each dependent&quot;</Example>
+      <Example>additional exemptions are allowed for each dependent</Example>
     </Synset>
     <!-- entertainment deduction -->
     <Synset id="ewn-13332239-n" ili="i106637" partOfSpeech="n" dc:subject="noun.possession">
@@ -9799,7 +9800,7 @@
     <Synset id="ewn-13333212-n" ili="i106643" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a tax on capital gains</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13330021-n"/> <!-- revenue enhancement, tax, taxation -->
-      <Example>&quot;he avoided the capital gains tax by short selling&quot;</Example>
+      <Example>he avoided the capital gains tax by short selling</Example>
     </Synset>
     <!-- capital levy -->
     <Synset id="ewn-13333351-n" ili="i106644" partOfSpeech="n" dc:subject="noun.possession">
@@ -9951,7 +9952,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13338963-n"/> <!-- export duty -->
       <SynsetRelation relType="hyponym" target="ewn-13339046-n"/> <!-- countervailing duty -->
       <SynsetRelation relType="hyponym" target="ewn-92467907-n"/>
-      <Example>&quot;they signed a treaty to lower duties on trade between their countries&quot;</Example>
+      <Example>they signed a treaty to lower duties on trade between their countries</Example>
     </Synset>
     <!-- excise, excise tax -->
     <Synset id="ewn-13337354-n" ili="i106670" partOfSpeech="n" dc:subject="noun.possession">
@@ -10049,7 +10050,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13339169-n"/> <!-- fixed cost, fixed costs, fixed charge -->
       <SynsetRelation relType="hyponym" target="ewn-13339826-n"/> <!-- compound interest -->
       <SynsetRelation relType="hyponym" target="ewn-13339956-n"/> <!-- simple interest -->
-      <Example>&quot;how much interest do you pay on your mortgage?&quot;</Example>
+      <Example>how much interest do you pay on your mortgage?</Example>
     </Synset>
     <!-- compound interest -->
     <Synset id="ewn-13339826-n" ili="i106687" partOfSpeech="n" dc:subject="noun.possession">
@@ -10148,7 +10149,7 @@
     <Synset id="ewn-13341882-n" ili="i106699" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a fee for services rendered based on a percentage of an amount received or collected or agreed to be paid (as distinguished from a salary)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13341190-n"/> <!-- fee -->
-      <Example>&quot;he works on commission&quot;</Example>
+      <Example>he works on commission</Example>
     </Synset>
     <!-- contingency fee -->
     <Synset id="ewn-13342103-n" ili="i106700" partOfSpeech="n" dc:subject="noun.possession">
@@ -10174,7 +10175,7 @@
     <Synset id="ewn-13342744-n" ili="i106704" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a fee that is paid to someone who finds a source of financial backing or to someone who brings people together for business purposes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13341190-n"/> <!-- fee -->
-      <Example>&quot;the agency got a finder&apos;s fee when their candidate was hired as the new CEO&quot;</Example>
+      <Example>the agency got a finder&apos;s fee when their candidate was hired as the new CEO</Example>
     </Synset>
     <!-- legal fee -->
     <Synset id="ewn-13343014-n" ili="i106705" partOfSpeech="n" dc:subject="noun.possession">
@@ -10261,7 +10262,7 @@
       <Definition>a fee paid for instruction (especially for higher education)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13341190-n"/> <!-- fee -->
       <SynsetRelation relType="domain_topic" target="ewn-00884975-n"/> <!-- educational activity, pedagogy, education, instruction, didactics, teaching -->
-      <Example>&quot;tuition and room and board were more than $25,000&quot;</Example>
+      <Example>tuition and room and board were more than $25,000</Example>
     </Synset>
     <!-- wharfage, quayage -->
     <Synset id="ewn-13345210-n" ili="i106721" partOfSpeech="n" dc:subject="noun.possession">
@@ -10313,7 +10314,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13347893-n"/> <!-- footage -->
       <SynsetRelation relType="hyponym" target="ewn-13347997-n"/> <!-- linage, lineage -->
       <SynsetRelation relType="hyponym" target="ewn-13348158-n"/> <!-- room rate -->
-      <Example>&quot;a 10-minute phone call at that rate would cost $5&quot;</Example>
+      <Example>a 10-minute phone call at that rate would cost $5</Example>
     </Synset>
     <!-- water-rate -->
     <Synset id="ewn-13346404-n" ili="i106729" partOfSpeech="n" dc:subject="noun.possession">
@@ -10352,8 +10353,8 @@
     <Synset id="ewn-13347220-n" ili="i106735" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the charge for transporting something by common carrier</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13346032-n"/> <!-- rate, charge per unit -->
-      <Example>&quot;we pay the freight&quot;</Example>
-      <Example>&quot;the freight rate is usually cheaper&quot;</Example>
+      <Example>we pay the freight</Example>
+      <Example>the freight rate is usually cheaper</Example>
     </Synset>
     <!-- rate of depreciation, depreciation rate -->
     <Synset id="ewn-13347472-n" ili="i106736" partOfSpeech="n" dc:subject="noun.possession">
@@ -10394,14 +10395,14 @@
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
       <SynsetRelation relType="hyponym" target="ewn-13279912-n"/> <!-- paper loss -->
       <SynsetRelation relType="hyponym" target="ewn-13348525-n"/> <!-- squeeze -->
-      <Example>&quot;the company operated at a loss last year&quot;</Example>
-      <Example>&quot;the company operated in the red last year&quot;</Example>
+      <Example>the company operated at a loss last year</Example>
+      <Example>the company operated in the red last year</Example>
     </Synset>
     <!-- squeeze -->
     <Synset id="ewn-13348525-n" ili="i106743" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a situation in which increased costs cannot be passed on to the customer</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13348253-n"/> <!-- red ink, loss, red -->
-      <Example>&quot;increased expenses put a squeeze on profits&quot;</Example>
+      <Example>increased expenses put a squeeze on profits</Example>
     </Synset>
     <!-- loss -->
     <Synset id="ewn-13348698-n" ili="i106744" partOfSpeech="n" dc:subject="noun.possession">
@@ -10411,8 +10412,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13348918-n"/> <!-- financial loss -->
       <SynsetRelation relType="hyponym" target="ewn-13349095-n"/> <!-- sacrifice -->
       <SynsetRelation relType="hyponym" target="ewn-13349295-n"/> <!-- wastage -->
-      <Example>&quot;the car was a total loss&quot;</Example>
-      <Example>&quot;loss of livestock left the rancher bankrupt&quot;</Example>
+      <Example>the car was a total loss</Example>
+      <Example>loss of livestock left the rancher bankrupt</Example>
     </Synset>
     <!-- financial loss -->
     <Synset id="ewn-13348918-n" ili="i106745" partOfSpeech="n" dc:subject="noun.possession">
@@ -10427,7 +10428,7 @@
     <Synset id="ewn-13349095-n" ili="i106746" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a loss entailed by giving up or selling something at less than its value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13348698-n"/> <!-- loss -->
-      <Example>&quot;he had to sell his car at a considerable sacrifice&quot;</Example>
+      <Example>he had to sell his car at a considerable sacrifice</Example>
     </Synset>
     <!-- wastage -->
     <Synset id="ewn-13349295-n" ili="i106747" partOfSpeech="n" dc:subject="noun.possession">
@@ -10474,7 +10475,7 @@
     <Synset id="ewn-13350511-n" ili="i106753" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a person&apos;s financial situation (good or bad)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032912-n"/> <!-- possession -->
-      <Example>&quot;he found himself in straitened circumstances&quot;</Example>
+      <Example>he found himself in straitened circumstances</Example>
     </Synset>
     <!-- assets -->
     <Synset id="ewn-13350663-n" ili="i106754" partOfSpeech="n" dc:subject="noun.possession">
@@ -10518,7 +10519,7 @@
     <Synset id="ewn-13351447-n" ili="i106757" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the most desirable assets of a corporation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13350663-n"/> <!-- assets -->
-      <Example>&quot;their crown jewels figured prominently in the takeover attempt&quot;</Example>
+      <Example>their crown jewels figured prominently in the takeover attempt</Example>
     </Synset>
     <!-- deep pockets -->
     <Synset id="ewn-13351613-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
@@ -10526,7 +10527,7 @@
       <ILIDefinition>(plural) a source of substantial wealth</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-13350663-n"/> <!-- assets -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;a patron of the arts should have deep pockets&quot;</Example>
+      <Example>a patron of the arts should have deep pockets</Example>
     </Synset>
     <!-- reserve assets -->
     <Synset id="ewn-13351779-n" ili="i106759" partOfSpeech="n" dc:subject="noun.possession">
@@ -10559,14 +10560,14 @@
       <SynsetRelation relType="hyponym" target="ewn-13434332-n"/> <!-- purse -->
       <SynsetRelation relType="hyponym" target="ewn-13434467-n"/> <!-- purse -->
       <SynsetRelation relType="hyponym" target="ewn-92468288-n"/>
-      <Example>&quot;he borrowed a large sum&quot;</Example>
-      <Example>&quot;the amount he had in cash was insufficient&quot;</Example>
+      <Example>he borrowed a large sum</Example>
+      <Example>the amount he had in cash was insufficient</Example>
     </Synset>
     <!-- figure -->
     <Synset id="ewn-13352649-n" ili="i106762" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an amount of money expressed numerically</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;a figure of $17 was suggested&quot;</Example>
+      <Example>a figure of $17 was suggested</Example>
     </Synset>
     <!-- resource -->
     <Synset id="ewn-13352793-n" ili="i106763" partOfSpeech="n" dc:subject="noun.possession">
@@ -10668,19 +10669,19 @@
       <SynsetRelation relType="hyponym" target="ewn-13441124-n"/> <!-- reacquired stock, treasury shares, treasury stock -->
       <SynsetRelation relType="hyponym" target="ewn-13441394-n"/> <!-- voting stock -->
       <SynsetRelation relType="hyponym" target="ewn-13441532-n"/> <!-- watered stock -->
-      <Example>&quot;he owns a controlling share of the company&apos;s stock&quot;</Example>
+      <Example>he owns a controlling share of the company&apos;s stock</Example>
     </Synset>
     <!-- stockholding -->
     <Synset id="ewn-13355322-n" ili="i106777" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>ownership of stocks; the state or fact of holding stock</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13261412-n"/> <!-- ownership -->
-      <Example>&quot;prohibition of unrestricted intercorporate stockholding&quot;- W.Z.Ripley</Example>
+      <Example dc:source="W.Z.Ripley">prohibition of unrestricted intercorporate stockholding</Example>
     </Synset>
     <!-- stockholding, stockholdings -->
     <Synset id="ewn-13355507-n" ili="i106778" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a specific number of stocks or shares owned</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13265007-n"/> <!-- belongings, property, holding -->
-      <Example>&quot;sell stockholdings he has in corporations&quot;</Example>
+      <Example>sell stockholdings he has in corporations</Example>
     </Synset>
     <!-- capital stock -->
     <Synset id="ewn-13355665-n" ili="i106779" partOfSpeech="n" dc:subject="noun.possession">
@@ -10691,7 +10692,7 @@
     <Synset id="ewn-13355782-n" ili="i106780" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a common stock of a nationally known company whose value and dividends are reliable; typically have high price and low yield</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13356187-n"/> <!-- ordinary shares, common shares, common stock -->
-      <Example>&quot;blue chips are usually safe investments&quot;</Example>
+      <Example>blue chips are usually safe investments</Example>
     </Synset>
     <!-- classified stock -->
     <Synset id="ewn-13356023-n" ili="i106781" partOfSpeech="n" dc:subject="noun.possession">
@@ -10705,7 +10706,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13355782-n"/> <!-- blue-chip stock, blue chip -->
       <SynsetRelation relType="hyponym" target="ewn-13356023-n"/> <!-- classified stock -->
       <SynsetRelation relType="hyponym" target="ewn-13356536-n"/> <!-- stock of record -->
-      <Example>&quot;over 40 million Americans invest in common stocks&quot;</Example>
+      <Example>over 40 million Americans invest in common stocks</Example>
     </Synset>
     <!-- stock of record -->
     <Synset id="ewn-13356536-n" ili="i106783" partOfSpeech="n" dc:subject="noun.possession">
@@ -10788,7 +10789,7 @@
     <Synset id="ewn-13358785-n" ili="i106798" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a bond issued by a corporation; carries no claim to ownership and pays no dividends but payments to bondholders have priority over payments to stockholders</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13438583-n"/> <!-- bond certificate, bond -->
-      <Example>&quot;a corporate bond is a safer investment than common stock in the same company&quot;</Example>
+      <Example>a corporate bond is a safer investment than common stock in the same company</Example>
     </Synset>
     <!-- bearer bond, coupon bond -->
     <Synset id="ewn-13359081-n" ili="i106799" partOfSpeech="n" dc:subject="noun.possession">
@@ -10901,8 +10902,8 @@
       <Definition>(frequently plural) the interest possessed by law or custom in some intangible thing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13307824-n"/> <!-- interest, stake -->
       <SynsetRelation relType="exemplifies" target="ewn-06306016-n"/> <!-- plural, plural form -->
-      <Example>&quot;mineral rights&quot;</Example>
-      <Example>&quot;film rights&quot;</Example>
+      <Example>mineral rights</Example>
+      <Example>film rights</Example>
     </Synset>
     <!-- accession -->
     <Synset id="ewn-13362977-n" ili="i106819" partOfSpeech="n" dc:subject="noun.possession">
@@ -10917,7 +10918,7 @@
       <SynsetRelation relType="holo_part" target="ewn-13354848-n"/> <!-- stock -->
       <SynsetRelation relType="hyponym" target="ewn-92440902-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92439656-n"/>
-      <Example>&quot;he bought 100 shares of IBM at the market price&quot;</Example>
+      <Example>he bought 100 shares of IBM at the market price</Example>
     </Synset>
     <!-- authorized shares, authorized stock, capital stock -->
     <Synset id="ewn-13363413-n" ili="i106821" partOfSpeech="n" dc:subject="noun.possession">
@@ -10937,7 +10938,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13364138-n"/> <!-- smart money -->
       <SynsetRelation relType="hyponym" target="ewn-13364299-n"/> <!-- pyramid -->
       <SynsetRelation relType="hyponym" target="ewn-92437217-n"/>
-      <Example>&quot;he knew the stock was a speculation when he bought it&quot;</Example>
+      <Example>he knew the stock was a speculation when he bought it</Example>
     </Synset>
     <!-- gamble -->
     <Synset id="ewn-13364002-n" ili="i106824" partOfSpeech="n" dc:subject="noun.possession">
@@ -10984,8 +10985,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13365401-n"/> <!-- easy street -->
       <SynsetRelation relType="hyponym" target="ewn-13365477-n"/> <!-- hedge, hedging -->
       <SynsetRelation relType="hyponym" target="ewn-13365819-n"/> <!-- insurance -->
-      <Example>&quot;his pension gave him security in his old age&quot;</Example>
-      <Example>&quot;insurance provided protection against loss of wages due to illness&quot;</Example>
+      <Example>his pension gave him security in his old age</Example>
+      <Example>insurance provided protection against loss of wages due to illness</Example>
     </Synset>
     <!-- easy street -->
     <Synset id="ewn-13365401-n" ili="i106831" partOfSpeech="n" dc:subject="noun.possession">
@@ -11037,7 +11038,7 @@
     <Synset id="ewn-13366575-n" ili="i106837" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a system of automobile insurance where a party who is injured in an automobile accident recovers damages up to a specific amount against his own insurance company regardless of who was responsible for the accident</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13366418-n"/> <!-- car insurance, automobile insurance -->
-      <Example>&quot;the amount of litigation resulting from minor accidents is reduced by no fault insurance&quot;</Example>
+      <Example>the amount of litigation resulting from minor accidents is reduced by no fault insurance</Example>
     </Synset>
     <!-- business interruption insurance -->
     <Synset id="ewn-13366977-n" ili="i106838" partOfSpeech="n" dc:subject="noun.possession">
@@ -11088,7 +11089,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13368504-n"/> <!-- endowment insurance -->
       <SynsetRelation relType="hyponym" target="ewn-13368765-n"/> <!-- tontine insurance, tontine -->
       <SynsetRelation relType="hyponym" target="ewn-13368962-n"/> <!-- ordinary life insurance, whole life insurance, straight life insurance -->
-      <Example>&quot;in England they call life insurance life assurance&quot;</Example>
+      <Example>in England they call life insurance life assurance</Example>
     </Synset>
     <!-- endowment insurance -->
     <Synset id="ewn-13368504-n" ili="i106847" partOfSpeech="n" dc:subject="noun.possession">
@@ -11109,13 +11110,13 @@
     <Synset id="ewn-13369242-n" ili="i106850" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>insurance purchased by physicians and hospitals to cover the cost of being sued for malpractice</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13365819-n"/> <!-- insurance -->
-      <Example>&quot;obstetricians have to pay high rates for malpractice insurance&quot;</Example>
+      <Example>obstetricians have to pay high rates for malpractice insurance</Example>
     </Synset>
     <!-- reinsurance -->
     <Synset id="ewn-13369471-n" ili="i106851" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>sharing the risk by insurance companies; part or all of the insurer&apos;s risk is assumed by other companies in return for part of the premium paid by the insured</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13365819-n"/> <!-- insurance -->
-      <Example>&quot;reinsurance enables a client to get coverage that would be too great for any one company to assume&quot;</Example>
+      <Example>reinsurance enables a client to get coverage that would be too great for any one company to assume</Example>
     </Synset>
     <!-- self-insurance -->
     <Synset id="ewn-13369807-n" ili="i106852" partOfSpeech="n" dc:subject="noun.possession">
@@ -11126,7 +11127,7 @@
     <Synset id="ewn-13369979-n" ili="i106853" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>low-cost insurance that is valid only for a stated period of time and has no cash surrender value or loan value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13365819-n"/> <!-- insurance -->
-      <Example>&quot;term insurance is most often associated with life insurance policies&quot;</Example>
+      <Example>term insurance is most often associated with life insurance policies</Example>
     </Synset>
     <!-- HMO, health maintenance organization -->
     <Synset id="ewn-13370223-n" ili="i106854" partOfSpeech="n" dc:subject="noun.possession">
@@ -11141,13 +11142,13 @@
       <SynsetRelation relType="hyponym" target="ewn-13371197-n"/> <!-- earnest -->
       <SynsetRelation relType="hyponym" target="ewn-13371458-n"/> <!-- recognizance, recognisance -->
       <SynsetRelation relType="hyponym" target="ewn-13439392-n"/> <!-- stock warrant, warrant, stock-purchase warrant -->
-      <Example>&quot;bankers are reluctant to lend without good security&quot;</Example>
+      <Example>bankers are reluctant to lend without good security</Example>
     </Synset>
     <!-- deposit -->
     <Synset id="ewn-13370677-n" ili="i106856" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>money given as security for an article acquired for temporary use</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13370410-n"/> <!-- surety, security -->
-      <Example>&quot;his deposit was refunded when he returned the car&quot;</Example>
+      <Example>his deposit was refunded when he returned the car</Example>
     </Synset>
     <!-- deposit, down payment -->
     <Synset id="ewn-13370849-n" ili="i106857" partOfSpeech="n" dc:subject="noun.possession">
@@ -11160,7 +11161,7 @@
       <Definition>(law) the payment of a debt or fulfillment of an obligation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13299398-n"/> <!-- payment -->
       <SynsetRelation relType="domain_topic" target="ewn-08458195-n"/> <!-- law, jurisprudence -->
-      <Example>&quot;the full and final satisfaction of the claim&quot;</Example>
+      <Example>the full and final satisfaction of the claim</Example>
     </Synset>
     <!-- earnest -->
     <Synset id="ewn-13371197-n" ili="i106859" partOfSpeech="n" dc:subject="noun.possession">
@@ -11185,7 +11186,7 @@
       <Definition>a deposit of personal property as security for a debt</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13309007-n"/> <!-- security interest -->
       <SynsetRelation relType="hyponym" target="ewn-13371890-n"/> <!-- pawn -->
-      <Example>&quot;his saxophone was in pledge&quot;</Example>
+      <Example>his saxophone was in pledge</Example>
     </Synset>
     <!-- pawn -->
     <Synset id="ewn-13371890-n" ili="i106863" partOfSpeech="n" dc:subject="noun.possession">
@@ -11197,8 +11198,8 @@
       <Definition>(criminal law) money that must be forfeited by the bondsman if an accused person fails to appear in court for trial</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13371458-n"/> <!-- recognizance, recognisance -->
       <SynsetRelation relType="domain_topic" target="ewn-06551169-n"/> <!-- criminal law -->
-      <Example>&quot;the judge set bail at $10,000&quot;</Example>
-      <Example>&quot;a $10,000 bond was furnished by an alderman&quot;</Example>
+      <Example>the judge set bail at $10,000</Example>
+      <Example>a $10,000 bond was furnished by an alderman</Example>
     </Synset>
     <!-- margin, security deposit -->
     <Synset id="ewn-13372293-n" ili="i106865" partOfSpeech="n" dc:subject="noun.possession">
@@ -11211,7 +11212,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13952070-n"/> <!-- business relationship, account -->
       <SynsetRelation relType="hyponym" target="ewn-13372695-n"/> <!-- cash account -->
       <SynsetRelation relType="hyponym" target="ewn-13373001-n"/> <!-- margin account -->
-      <Example>&quot;you can&apos;t get a brokerage account unless you have $20,000&quot;</Example>
+      <Example>you can&apos;t get a brokerage account unless you have $20,000</Example>
     </Synset>
     <!-- cash account -->
     <Synset id="ewn-13372695-n" ili="i106867" partOfSpeech="n" dc:subject="noun.possession">
@@ -11285,7 +11286,7 @@
     <Synset id="ewn-13374461-n" ili="i106879" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>great wealth</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13374295-n"/> <!-- wealth, riches -->
-      <Example>&quot;Whilst that for which all virtue now is sold, and almost every vice--almighty gold&quot;--Ben Jonson</Example>
+      <Example dc:source="Ben Jonson">Whilst that for which all virtue now is sold, and almost every vice--almighty gold</Example>
     </Synset>
     <!-- capital -->
     <Synset id="ewn-13374622-n" ili="i106880" partOfSpeech="n" dc:subject="noun.possession">
@@ -11301,13 +11302,13 @@
       <SynsetRelation relType="hypernym" target="ewn-13374622-n"/> <!-- capital -->
       <SynsetRelation relType="hyponym" target="ewn-13375036-n"/> <!-- pocketbook -->
       <SynsetRelation relType="hyponym" target="ewn-13375169-n"/> <!-- wherewithal -->
-      <Example>&quot;he is a man of means&quot;</Example>
+      <Example>he is a man of means</Example>
     </Synset>
     <!-- pocketbook -->
     <Synset id="ewn-13375036-n" ili="i106882" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>your personal financial means</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13374873-n"/> <!-- substance, means -->
-      <Example>&quot;that car is too expensive for my pocketbook&quot;</Example>
+      <Example>that car is too expensive for my pocketbook</Example>
     </Synset>
     <!-- wherewithal -->
     <Synset id="ewn-13375169-n" ili="i106883" partOfSpeech="n" dc:subject="noun.possession">
@@ -11346,7 +11347,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13429949-n"/> <!-- suspense account -->
       <SynsetRelation relType="mero_part" target="ewn-13430153-n"/> <!-- balance -->
       <SynsetRelation relType="hyponym" target="ewn-13433116-n"/> <!-- expense account, travel and entertainment account -->
-      <Example>&quot;they send me an accounting every month&quot;</Example>
+      <Example>they send me an accounting every month</Example>
     </Synset>
     <!-- income statement, earnings report, operating statement, profit-and-loss statement -->
     <Synset id="ewn-13376316-n" ili="i106888" partOfSpeech="n" dc:subject="noun.possession">
@@ -11394,27 +11395,27 @@
     <Synset id="ewn-13377435-n" ili="i106894" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the funds held by a gambling house or the dealer in some gambling games</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13377127-n"/> <!-- finances, funds, monetary resource, pecuniary resource, cash in hand -->
-      <Example>&quot;he tried to break the bank at Monte Carlo&quot;</Example>
+      <Example>he tried to break the bank at Monte Carlo</Example>
     </Synset>
     <!-- purse strings -->
     <Synset id="ewn-13377602-n" ili="in" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>financial resources or support</Definition>
       <ILIDefinition>financial resources or support</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-13377127-n"/> <!-- finances, funds, monetary resource, pecuniary resource, cash in hand -->
-      <Example>&quot;who controls the purse strings in this family?&quot;</Example>
+      <Example>who controls the purse strings in this family?</Example>
     </Synset>
     <!-- bankroll, roll -->
     <Synset id="ewn-13377742-n" ili="i106895" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a roll of currency notes (often taken as the resources of a person or business etc.)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13377127-n"/> <!-- finances, funds, monetary resource, pecuniary resource, cash in hand -->
       <SynsetRelation relType="domain_topic" target="ewn-01096649-n"/> <!-- commercial enterprise, business, business enterprise -->
-      <Example>&quot;he shot his roll on a bob-tailed nag&quot;</Example>
+      <Example>he shot his roll on a bob-tailed nag</Example>
     </Synset>
     <!-- pocket -->
     <Synset id="ewn-13377947-n" ili="i106896" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a supply of money</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13377127-n"/> <!-- finances, funds, monetary resource, pecuniary resource, cash in hand -->
-      <Example>&quot;they dipped into the taxpayers&apos; pockets&quot;</Example>
+      <Example>they dipped into the taxpayers&apos; pockets</Example>
     </Synset>
     <!-- Medicaid funds -->
     <Synset id="ewn-13378060-n" ili="i106897" partOfSpeech="n" dc:subject="noun.possession">
@@ -11535,7 +11536,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13385143-n"/> <!-- checking account, current account, chequing account -->
       <SynsetRelation relType="hyponym" target="ewn-13385385-n"/> <!-- savings account -->
       <SynsetRelation relType="hyponym" target="ewn-92441065-n"/>
-      <Example>&quot;he moved his bank account to a new bank&quot;</Example>
+      <Example>he moved his bank account to a new bank</Example>
     </Synset>
     <!-- giro account -->
     <Synset id="ewn-13381114-n" ili="i106916" partOfSpeech="n" dc:subject="noun.possession">
@@ -11576,7 +11577,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13384390-n"/> <!-- testamentary trust -->
       <SynsetRelation relType="hyponym" target="ewn-13384538-n"/> <!-- trust account, trustee account, savings bank trust, Totten trust, savings account trust -->
       <SynsetRelation relType="hyponym" target="ewn-13384877-n"/> <!-- voting trust -->
-      <Example>&quot;he is the beneficiary of a generous trust set up by his father&quot;</Example>
+      <Example>he is the beneficiary of a generous trust set up by his father</Example>
     </Synset>
     <!-- active trust -->
     <Synset id="ewn-13382123-n" ili="i106921" partOfSpeech="n" dc:subject="noun.possession">
@@ -11687,7 +11688,7 @@
     <Synset id="ewn-13385775-n" ili="i106941" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a savings account showing no activity (other than posting interest) for some specified period</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13385385-n"/> <!-- savings account -->
-      <Example>&quot;the dormant account reverted to the state under escheat laws&quot;</Example>
+      <Example>the dormant account reverted to the state under escheat laws</Example>
     </Synset>
     <!-- passbook savings account -->
     <Synset id="ewn-13385994-n" ili="i106942" partOfSpeech="n" dc:subject="noun.possession">
@@ -11714,15 +11715,15 @@
       <SynsetRelation relType="hyponym" target="ewn-13387484-n"/> <!-- maintenance -->
       <SynsetRelation relType="hyponym" target="ewn-13387601-n"/> <!-- meal ticket -->
       <SynsetRelation relType="hyponym" target="ewn-13387710-n"/> <!-- subsistence -->
-      <Example>&quot;each child was expected to pay for their keep&quot;</Example>
-      <Example>&quot;he applied to the state for support&quot;</Example>
-      <Example>&quot;he could no longer earn his own livelihood&quot;</Example>
+      <Example>each child was expected to pay for their keep</Example>
+      <Example>he applied to the state for support</Example>
+      <Example>he could no longer earn his own livelihood</Example>
     </Synset>
     <!-- financial backing, backing, financial support, funding, support -->
     <Synset id="ewn-13386871-n" ili="i106946" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>financial resources provided to make some project possible</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352793-n"/> <!-- resource -->
-      <Example>&quot;the foundation provided support for the experiment&quot;</Example>
+      <Example>the foundation provided support for the experiment</Example>
     </Synset>
     <!-- ways and means -->
     <Synset id="ewn-13387151-n" ili="i106947" partOfSpeech="n" dc:subject="noun.possession">
@@ -11733,7 +11734,7 @@
     <Synset id="ewn-13387310-n" ili="i106948" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>things that make you comfortable and at ease</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13386459-n"/> <!-- bread and butter, living, sustenance, support, keep, livelihood -->
-      <Example>&quot;all the comforts of home&quot;</Example>
+      <Example>all the comforts of home</Example>
     </Synset>
     <!-- maintenance -->
     <Synset id="ewn-13387484-n" ili="i106949" partOfSpeech="n" dc:subject="noun.possession">
@@ -11750,7 +11751,7 @@
     <Synset id="ewn-13387710-n" ili="i106951" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>minimal (or marginal) resources for subsisting</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13386459-n"/> <!-- bread and butter, living, sustenance, support, keep, livelihood -->
-      <Example>&quot;social security provided only a bare subsistence&quot;</Example>
+      <Example>social security provided only a bare subsistence</Example>
     </Synset>
     <!-- accumulation -->
     <Synset id="ewn-13387866-n" ili="i106952" partOfSpeech="n" dc:subject="noun.possession">
@@ -11774,7 +11775,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13388621-n"/> <!-- provision -->
       <SynsetRelation relType="hyponym" target="ewn-13388766-n"/> <!-- issue, government issue, military issue -->
       <SynsetRelation relType="hyponym" target="ewn-13388960-n"/> <!-- seed stock -->
-      <Example>&quot;he brought back a large store of Cuban cigars&quot;</Example>
+      <Example>he brought back a large store of Cuban cigars</Example>
     </Synset>
     <!-- provision -->
     <Synset id="ewn-13388621-n" ili="i106955" partOfSpeech="n" dc:subject="noun.possession">
@@ -11820,7 +11821,7 @@
     <Synset id="ewn-13389690-n" ili="i106961" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a place for storing whole blood or blood plasma</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13389491-n"/> <!-- bank -->
-      <Example>&quot;the Red Cross created a blood bank for emergencies&quot;</Example>
+      <Example>the Red Cross created a blood bank for emergencies</Example>
     </Synset>
     <!-- eye bank -->
     <Synset id="ewn-13389848-n" ili="i106962" partOfSpeech="n" dc:subject="noun.possession">
@@ -11831,7 +11832,7 @@
     <Synset id="ewn-13390073-n" ili="i106963" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a place where food is contributed and made available to those in need</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13389491-n"/> <!-- bank -->
-      <Example>&quot;they set up a food bank for the flood victims&quot;</Example>
+      <Example>they set up a food bank for the flood victims</Example>
     </Synset>
     <!-- fuel level -->
     <Synset id="ewn-13390247-n" ili="i106964" partOfSpeech="n" dc:subject="noun.possession">
@@ -11869,7 +11870,7 @@
       <Definition>any communal combination of funds</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13391187-n"/> <!-- reserve fund, reserve account -->
       <SynsetRelation relType="mero_part" target="ewn-13364541-n"/> <!-- wager, stakes, bet, stake -->
-      <Example>&quot;everyone contributed to the pool&quot;</Example>
+      <Example>everyone contributed to the pool</Example>
     </Synset>
     <!-- reserve fund, reserve account -->
     <Synset id="ewn-13391187-n" ili="i106971" partOfSpeech="n" dc:subject="noun.possession">
@@ -11889,7 +11890,7 @@
     <Synset id="ewn-13391621-n" ili="i106973" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>any possession that is highly valued by its owner</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032912-n"/> <!-- possession -->
-      <Example>&quot;the children returned from the seashore with their shells and other treasures&quot;</Example>
+      <Example>the children returned from the seashore with their shells and other treasures</Example>
     </Synset>
     <!-- hoarded wealth, treasure -->
     <Synset id="ewn-13391842-n" ili="i106974" partOfSpeech="n" dc:subject="noun.possession">
@@ -11899,7 +11900,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13392203-n"/> <!-- valuable -->
       <SynsetRelation relType="hyponym" target="ewn-13392447-n"/> <!-- king's ransom -->
       <SynsetRelation relType="hyponym" target="ewn-13392528-n"/> <!-- trove, treasure trove -->
-      <Example>&quot;the pirates hid their treasure on a small island in the West Indies&quot;</Example>
+      <Example>the pirates hid their treasure on a small island in the West Indies</Example>
     </Synset>
     <!-- fortune -->
     <Synset id="ewn-13392111-n" ili="i106975" partOfSpeech="n" dc:subject="noun.possession">
@@ -11912,7 +11913,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13391842-n"/> <!-- hoarded wealth, treasure -->
       <SynsetRelation relType="hyponym" target="ewn-13392363-n"/> <!-- swag -->
       <SynsetRelation relType="hyponym" target="ewn-13392662-n"/> <!-- precious metal -->
-      <Example>&quot;all our valuables were stolen&quot;</Example>
+      <Example>all our valuables were stolen</Example>
     </Synset>
     <!-- swag -->
     <Synset id="ewn-13392363-n" ili="i106977" partOfSpeech="n" dc:subject="noun.possession">
@@ -11966,7 +11967,7 @@
       <Definition>diamonds</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13393131-n"/> <!-- diamond -->
       <SynsetRelation relType="exemplifies" target="ewn-07089193-n"/> <!-- colloquialism -->
-      <Example>&quot;look at the ice on that dame!&quot;</Example>
+      <Example>look at the ice on that dame!</Example>
     </Synset>
     <!-- ruby -->
     <Synset id="ewn-13393435-n" ili="i106986" partOfSpeech="n" dc:subject="noun.possession">
@@ -12115,7 +12116,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13397816-n"/> <!-- cashcard, cash card -->
       <SynsetRelation relType="hyponym" target="ewn-80721451-n"/>
       <SynsetRelation relType="hyponym" target="ewn-13397937-n"/> <!-- debit card -->
-      <Example>&quot;do you take plastic?&quot;</Example>
+      <Example>do you take plastic?</Example>
     </Synset>
     <!-- bank card -->
     <Synset id="ewn-13397599-n" ili="i107010" partOfSpeech="n" dc:subject="noun.possession">
@@ -12318,13 +12319,13 @@
       <SynsetRelation relType="hyponym" target="ewn-13404612-n"/> <!-- cashier's cheque, treasurer's check, cashier's check, treasurer's cheque -->
       <SynsetRelation relType="hyponym" target="ewn-13404869-n"/> <!-- blank check, blank cheque -->
       <SynsetRelation relType="hyponym" target="ewn-13405191-n"/> <!-- medicare payment, medicare check -->
-      <Example>&quot;he paid all his bills by check&quot;</Example>
+      <Example>he paid all his bills by check</Example>
     </Synset>
     <!-- bad check, bad cheque -->
     <Synset id="ewn-13403294-n" ili="i107043" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a check that is dishonored on presentation because of insufficient funds</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13402907-n"/> <!-- bank check, check, cheque -->
-      <Example>&quot;issuing a bad check is a form of larceny&quot;</Example>
+      <Example>issuing a bad check is a form of larceny</Example>
     </Synset>
     <!-- kite -->
     <Synset id="ewn-13403479-n" ili="i107044" partOfSpeech="n" dc:subject="noun.possession">
@@ -12366,7 +12367,7 @@
     <Synset id="ewn-13404612-n" ili="i107051" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a check issued by the officer of a bank on the banks own account (not that of a private person)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13402907-n"/> <!-- bank check, check, cheque -->
-      <Example>&quot;cashier&apos;s checks are as good as cash&quot;</Example>
+      <Example>cashier&apos;s checks are as good as cash</Example>
     </Synset>
     <!-- blank check, blank cheque -->
     <Synset id="ewn-13404869-n" ili="i107052" partOfSpeech="n" dc:subject="noun.possession">
@@ -12406,14 +12407,14 @@
       <SynsetRelation relType="hyponym" target="ewn-13406639-n"/> <!-- shinplaster -->
       <SynsetRelation relType="hyponym" target="ewn-13406756-n"/> <!-- subsidisation, subsidization -->
       <SynsetRelation relType="hyponym" target="ewn-13406951-n"/> <!-- token money -->
-      <Example>&quot;we tried to collect the money he owed us&quot;</Example>
+      <Example>we tried to collect the money he owed us</Example>
     </Synset>
     <!-- money -->
     <Synset id="ewn-13406050-n" ili="i107058" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the official currency issued by a government or national bank</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13407086-n"/> <!-- currency -->
       <SynsetRelation relType="hyponym" target="ewn-13406253-n"/> <!-- sterling -->
-      <Example>&quot;he changed his money into francs&quot;</Example>
+      <Example>he changed his money into francs</Example>
     </Synset>
     <!-- sterling -->
     <Synset id="ewn-13406253-n" ili="i107059" partOfSpeech="n" dc:subject="noun.possession">
@@ -12477,14 +12478,14 @@
       <SynsetRelation relType="hyponym" target="ewn-13409173-n"/> <!-- chickenfeed, chump change, small change -->
       <SynsetRelation relType="hyponym" target="ewn-13443718-n"/> <!-- pin money, spending money, pocket money -->
       <SynsetRelation relType="hyponym" target="ewn-13443857-n"/> <!-- ready cash, ready money, cold cash -->
-      <Example>&quot;there is a desperate shortage of hard cash&quot;</Example>
+      <Example>there is a desperate shortage of hard cash</Example>
     </Synset>
     <!-- hard currency -->
     <Synset id="ewn-13408055-n" ili="i107069" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a currency that is not likely to depreciate suddenly in value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13407086-n"/> <!-- currency -->
-      <Example>&quot;the countries agreed to conduct their bilateral trade in hard currency, replacing previous barter arrangements&quot;</Example>
-      <Example>&quot;Germany once had a solid economy, good fiscal and monetary policies, and a hard currency&quot;</Example>
+      <Example>the countries agreed to conduct their bilateral trade in hard currency, replacing previous barter arrangements</Example>
+      <Example>Germany once had a solid economy, good fiscal and monetary policies, and a hard currency</Example>
     </Synset>
     <!-- paper money, folding money, paper currency -->
     <Synset id="ewn-13408382-n" ili="i107070" partOfSpeech="n" dc:subject="noun.possession">
@@ -12498,13 +12499,13 @@
     <Synset id="ewn-13408652-n" ili="i107071" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>money received in return for its equivalent in a larger denomination or a different currency</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13407787-n"/> <!-- hard cash, hard currency, cash -->
-      <Example>&quot;he got change for a twenty and used it to pay the taxi driver&quot;</Example>
+      <Example>he got change for a twenty and used it to pay the taxi driver</Example>
     </Synset>
     <!-- change -->
     <Synset id="ewn-13408862-n" ili="i107072" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the balance of money received when the amount you tender is greater than the amount due</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13407787-n"/> <!-- hard cash, hard currency, cash -->
-      <Example>&quot;I paid with a twenty and pocketed the change&quot;</Example>
+      <Example>I paid with a twenty and pocketed the change</Example>
     </Synset>
     <!-- mintage, specie, metal money, coinage -->
     <Synset id="ewn-13409050-n" ili="i107073" partOfSpeech="n" dc:subject="noun.possession">
@@ -12521,7 +12522,7 @@
     <Synset id="ewn-13409284-n" ili="i107075" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>coins of small denomination regarded collectively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13409418-n"/> <!-- coin -->
-      <Example>&quot;he had a pocketful of change&quot;</Example>
+      <Example>he had a pocketful of change</Example>
     </Synset>
     <!-- coin -->
     <Synset id="ewn-13409418-n" ili="i107076" partOfSpeech="n" dc:subject="noun.possession">
@@ -12629,7 +12630,7 @@
     <Synset id="ewn-13411417-n" ili="i107088" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a United States or Canadian coin worth one fourth of a dollar</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13409418-n"/> <!-- coin -->
-      <Example>&quot;he fed four quarters into the slot machine&quot;</Example>
+      <Example>he fed four quarters into the slot machine</Example>
     </Synset>
     <!-- half dollar, fifty-cent piece -->
     <Synset id="ewn-13411578-n" ili="i107089" partOfSpeech="n" dc:subject="noun.possession">
@@ -12712,7 +12713,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13409418-n"/> <!-- coin -->
       <SynsetRelation relType="hyponym" target="ewn-13413329-n"/> <!-- Susan B Anthony dollar -->
       <SynsetRelation relType="hyponym" target="ewn-13413435-n"/> <!-- cartwheel, silver dollar -->
-      <Example>&quot;the dollar coin has never been popular in the United States&quot;</Example>
+      <Example>the dollar coin has never been popular in the United States</Example>
     </Synset>
     <!-- Susan B Anthony dollar -->
     <Synset id="ewn-13413329-n" ili="i107104" partOfSpeech="n" dc:subject="noun.possession">
@@ -12773,7 +12774,7 @@
     <Synset id="ewn-13414438-n" ili="i107115" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a former French coin of low denomination; often used of any small amount of money</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13409418-n"/> <!-- coin -->
-      <Example>&quot;he hasn&apos;t a sou to his name&quot;</Example>
+      <Example>he hasn&apos;t a sou to his name</Example>
     </Synset>
     <!-- Maundy money -->
     <Synset id="ewn-13414600-n" ili="i107116" partOfSpeech="n" dc:subject="noun.possession">
@@ -12798,7 +12799,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13416688-n"/> <!-- fiver, five dollar bill, five-spot -->
       <SynsetRelation relType="hyponym" target="ewn-13416972-n"/> <!-- two dollar bill -->
       <SynsetRelation relType="hyponym" target="ewn-13417070-n"/> <!-- buck, one dollar bill, dollar bill, clam, dollar -->
-      <Example>&quot;he peeled off five one-thousand-zloty notes&quot;</Example>
+      <Example>he peeled off five one-thousand-zloty notes</Example>
     </Synset>
     <!-- silver certificate -->
     <Synset id="ewn-13415352-n" ili="i107119" partOfSpeech="n" dc:subject="noun.possession">
@@ -12858,8 +12859,8 @@
     <Synset id="ewn-13416825-n" ili="i107129" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>five dollars worth of a drug</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13416688-n"/> <!-- fiver, five dollar bill, five-spot -->
-      <Example>&quot;a nickel bag of drugs&quot;</Example>
-      <Example>&quot;a nickel deck of heroin&quot;</Example>
+      <Example>a nickel bag of drugs</Example>
+      <Example>a nickel deck of heroin</Example>
     </Synset>
     <!-- two dollar bill -->
     <Synset id="ewn-13416972-n" ili="i107130" partOfSpeech="n" dc:subject="noun.possession">
@@ -12893,7 +12894,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13417658-n"/> <!-- budget deficit -->
       <SynsetRelation relType="hyponym" target="ewn-13417941-n"/> <!-- trade deficit -->
       <SynsetRelation relType="hyponym" target="ewn-92437243-n"/>
-      <Example>&quot;last year there was a serious budgetary deficit&quot;</Example>
+      <Example>last year there was a serious budgetary deficit</Example>
     </Synset>
     <!-- budget deficit -->
     <Synset id="ewn-13417658-n" ili="i107134" partOfSpeech="n" dc:subject="noun.possession">
@@ -12905,7 +12906,7 @@
     <Synset id="ewn-13417776-n" ili="i107135" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an excess of the federal government&apos;s spending over its revenue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13417658-n"/> <!-- budget deficit -->
-      <Example>&quot;federal deficits can cause inflation&quot;</Example>
+      <Example>federal deficits can cause inflation</Example>
     </Synset>
     <!-- trade deficit -->
     <Synset id="ewn-13417941-n" ili="i107136" partOfSpeech="n" dc:subject="noun.possession">
@@ -12916,7 +12917,7 @@
     <Synset id="ewn-13418034-n" ili="i107137" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a payment that is due (e.g., as the price of membership)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13339169-n"/> <!-- fixed cost, fixed costs, fixed charge -->
-      <Example>&quot;the society dropped him for non-payment of dues&quot;</Example>
+      <Example>the society dropped him for non-payment of dues</Example>
     </Synset>
     <!-- limited liability -->
     <Synset id="ewn-13418191-n" ili="i107138" partOfSpeech="n" dc:subject="noun.possession">
@@ -12984,7 +12985,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13436216-n"/> <!-- municipal note -->
       <SynsetRelation relType="hyponym" target="ewn-13436341-n"/> <!-- IOU -->
       <SynsetRelation relType="hyponym" target="ewn-13436444-n"/> <!-- time note -->
-      <Example>&quot;I had to co-sign his note at the bank&quot;</Example>
+      <Example>I had to co-sign his note at the bank</Example>
     </Synset>
     <!-- bad debt -->
     <Synset id="ewn-13419941-n" ili="i107147" partOfSpeech="n" dc:subject="noun.possession">
@@ -13072,7 +13073,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13329886-n"/> <!-- levy -->
       <SynsetRelation relType="hyponym" target="ewn-13424198-n"/> <!-- encumbrance, incumbrance -->
       <SynsetRelation relType="hyponym" target="ewn-13424319-n"/> <!-- assessment -->
-      <Example>&quot;the charges against the estate&quot;</Example>
+      <Example>the charges against the estate</Example>
     </Synset>
     <!-- lien -->
     <Synset id="ewn-13422186-n" ili="i107161" partOfSpeech="n" dc:subject="noun.possession">
@@ -13148,7 +13149,7 @@
     <Synset id="ewn-13424319-n" ili="i107173" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an amount determined as payable</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13421971-n"/> <!-- charge -->
-      <Example>&quot;the assessment for repairs outraged the club&apos;s membership&quot;</Example>
+      <Example>the assessment for repairs outraged the club&apos;s membership</Example>
     </Synset>
     <!-- document -->
     <Synset id="ewn-13424504-n" ili="i107174" partOfSpeech="n" dc:subject="noun.possession">
@@ -13176,7 +13177,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13433494-n"/> <!-- register -->
       <SynsetRelation relType="hyponym" target="ewn-13435332-n"/> <!-- bankbook, passbook -->
       <SynsetRelation relType="hyponym" target="ewn-13435483-n"/> <!-- chequebook, checkbook -->
-      <Example>&quot;they could find no record of the purchase&quot;</Example>
+      <Example>they could find no record of the purchase</Example>
     </Synset>
     <!-- balance sheet -->
     <Synset id="ewn-13425137-n" ili="i107177" partOfSpeech="n" dc:subject="noun.possession">
@@ -13197,7 +13198,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13426052-n"/> <!-- subsidiary ledger -->
       <SynsetRelation relType="hyponym" target="ewn-13426339-n"/> <!-- daybook, journal -->
       <SynsetRelation relType="mero_member" target="ewn-13427135-n"/> <!-- accounting, accounting system, method of accounting -->
-      <Example>&quot;they got a subpoena to examine our books&quot;</Example>
+      <Example>they got a subpoena to examine our books</Example>
     </Synset>
     <!-- cost ledger -->
     <Synset id="ewn-13425707-n" ili="i107180" partOfSpeech="n" dc:subject="noun.possession">
@@ -13372,7 +13373,7 @@
     <Synset id="ewn-13430536-n" ili="i107208" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the difference in value over a period of time of a country&apos;s imports and exports of merchandise</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13430333-n"/> <!-- balance -->
-      <Example>&quot;a nation&apos;s balance of trade is favorable when its exports exceed its imports&quot;</Example>
+      <Example>a nation&apos;s balance of trade is favorable when its exports exceed its imports</Example>
     </Synset>
     <!-- carry-over, carry-forward -->
     <Synset id="ewn-13430820-n" ili="i107209" partOfSpeech="n" dc:subject="noun.possession">
@@ -13384,7 +13385,7 @@
     <Synset id="ewn-13431023-n" ili="i107210" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a minimum credit balance that a bank may require a borrower to keep on deposit as a condition for granting a loan; a common requirement for establishing a line of credit at a bank</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13430333-n"/> <!-- balance -->
-      <Example>&quot;the compensating balance increases the effective interest rate to the bank since the net amount loaned is reduced but the interest paid is unchanged&quot;</Example>
+      <Example>the compensating balance increases the effective interest rate to the bank since the net amount loaned is reduced but the interest paid is unchanged</Example>
     </Synset>
     <!-- invisible balance -->
     <Synset id="ewn-13431442-n" ili="i107211" partOfSpeech="n" dc:subject="noun.possession">
@@ -13397,7 +13398,7 @@
       <SynsetRelation relType="hypernym" target="ewn-05670377-n"/> <!-- accounting -->
       <SynsetRelation relType="mero_part" target="ewn-13376671-n"/> <!-- capital account -->
       <SynsetRelation relType="mero_part" target="ewn-13431976-n"/> <!-- current account -->
-      <Example>&quot;a favorable balance of payments exists when more payments are coming in than going out&quot;</Example>
+      <Example>a favorable balance of payments exists when more payments are coming in than going out</Example>
     </Synset>
     <!-- current account -->
     <Synset id="ewn-13431976-n" ili="i107213" partOfSpeech="n" dc:subject="noun.possession">
@@ -13464,32 +13465,32 @@
       <Definition>a list of employees and their salaries</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13433494-n"/> <!-- register -->
       <SynsetRelation relType="mero_part" target="ewn-13300285-n"/> <!-- remuneration, earnings, wage, pay, salary -->
-      <Example>&quot;the company had a long payroll&quot;</Example>
+      <Example>the company had a long payroll</Example>
     </Synset>
     <!-- payroll, paysheet -->
     <Synset id="ewn-13434050-n" ili="i107224" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the total amount of money paid in wages</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;the company had a large payroll&quot;</Example>
+      <Example>the company had a large payroll</Example>
     </Synset>
     <!-- peanuts -->
     <Synset id="ewn-13434189-n" ili="i107225" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>an insignificant sum of money; a trifling amount</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;her salary is peanuts compared to his&quot;</Example>
+      <Example>her salary is peanuts compared to his</Example>
     </Synset>
     <!-- purse -->
     <Synset id="ewn-13434332-n" ili="i107226" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a sum of money offered as a prize</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;the purse barely covered the winner&apos;s expenses&quot;</Example>
+      <Example>the purse barely covered the winner&apos;s expenses</Example>
     </Synset>
     <!-- purse -->
     <Synset id="ewn-13434467-n" ili="i107227" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>a sum of money spoken of as the contents of a money purse</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13352213-n"/> <!-- amount, amount of money, sum of money, sum -->
-      <Example>&quot;he made the contribution out of his own purse&quot;</Example>
-      <Example>&quot;he and his wife shared a common purse&quot;</Example>
+      <Example>he made the contribution out of his own purse</Example>
+      <Example>he and his wife shared a common purse</Example>
     </Synset>
     <!-- economic value, value -->
     <Synset id="ewn-13434666-n" ili="i107228" partOfSpeech="n" dc:subject="noun.possession">
@@ -13497,19 +13498,19 @@
       <SynsetRelation relType="hypernym" target="ewn-00033914-n"/> <!-- amount, quantity, measure -->
       <SynsetRelation relType="hyponym" target="ewn-13435013-n"/> <!-- mess of pottage -->
       <SynsetRelation relType="hyponym" target="ewn-13435159-n"/> <!-- premium -->
-      <Example>&quot;he tried to estimate the value of the produce at normal prices&quot;</Example>
+      <Example>he tried to estimate the value of the produce at normal prices</Example>
     </Synset>
     <!-- mess of pottage -->
     <Synset id="ewn-13435013-n" ili="i107229" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>anything of trivial value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13434666-n"/> <!-- economic value, value -->
-      <Example>&quot;Esau sold his birthright to Jacob for a mess of pottage&quot;</Example>
+      <Example>Esau sold his birthright to Jacob for a mess of pottage</Example>
     </Synset>
     <!-- premium -->
     <Synset id="ewn-13435159-n" ili="i107230" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>the amount that something in scarce supply is valued above its nominal value</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13434666-n"/> <!-- economic value, value -->
-      <Example>&quot;they paid a premium for access to water&quot;</Example>
+      <Example>they paid a premium for access to water</Example>
     </Synset>
     <!-- bankbook, passbook -->
     <Synset id="ewn-13435332-n" ili="i107231" partOfSpeech="n" dc:subject="noun.possession">
@@ -13614,7 +13615,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13440708-n"/> <!-- letter security -->
       <SynsetRelation relType="hyponym" target="ewn-13442073-n"/> <!-- listed security -->
       <SynsetRelation relType="hyponym" target="ewn-13442268-n"/> <!-- unlisted security, over the counter security, OTC security -->
-      <Example>&quot;he held several valuable securities&quot;</Example>
+      <Example>he held several valuable securities</Example>
     </Synset>
     <!-- scrip -->
     <Synset id="ewn-13438070-n" ili="i107248" partOfSpeech="n" dc:subject="noun.possession">
@@ -13626,7 +13627,7 @@
       <Definition>a certificate documenting the shareholder&apos;s ownership in the corporation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13437518-n"/> <!-- certificate, security -->
       <SynsetRelation relType="hyponym" target="ewn-13363150-n"/> <!-- share -->
-      <Example>&quot;the value of his stocks doubled during the past year&quot;</Example>
+      <Example>the value of his stocks doubled during the past year</Example>
     </Synset>
     <!-- tax-exempt, tax-exempt security -->
     <Synset id="ewn-13438462-n" ili="i107250" partOfSpeech="n" dc:subject="noun.possession">
@@ -13667,7 +13668,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13370410-n"/> <!-- surety, security -->
       <SynsetRelation relType="hyponym" target="ewn-13439789-n"/> <!-- perpetual warrant -->
       <SynsetRelation relType="hyponym" target="ewn-13439886-n"/> <!-- subscription warrant -->
-      <Example>&quot;as a sweetener they offered warrants along with the fixed-income securities&quot;</Example>
+      <Example>as a sweetener they offered warrants along with the fixed-income securities</Example>
     </Synset>
     <!-- perpetual warrant -->
     <Synset id="ewn-13439789-n" ili="i107254" partOfSpeech="n" dc:subject="noun.possession">
@@ -13759,7 +13760,7 @@
       <Definition>a summary of intended expenditures along with proposals for how to meet them</Definition>
       <SynsetRelation relType="hypernym" target="ewn-05907175-n"/> <!-- program, plan, programme -->
       <SynsetRelation relType="hyponym" target="ewn-13442875-n"/> <!-- balanced budget -->
-      <Example>&quot;the president submitted the annual budget to Congress&quot;</Example>
+      <Example>the president submitted the annual budget to Congress</Example>
     </Synset>
     <!-- balanced budget -->
     <Synset id="ewn-13442875-n" ili="i107271" partOfSpeech="n" dc:subject="noun.possession">
@@ -13772,7 +13773,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13379722-n"/> <!-- fund, monetary fund -->
       <SynsetRelation relType="hyponym" target="ewn-13443234-n"/> <!-- Civil List -->
       <SynsetRelation relType="hyponym" target="ewn-13443407-n"/> <!-- operating budget -->
-      <Example>&quot;the laboratory runs on a budget of a million a year&quot;</Example>
+      <Example>the laboratory runs on a budget of a million a year</Example>
     </Synset>
     <!-- Civil List -->
     <Synset id="ewn-13443234-n" ili="i107273" partOfSpeech="n" dc:subject="noun.possession">
@@ -13800,8 +13801,8 @@
     <Synset id="ewn-13443857-n" ili="i107277" partOfSpeech="n" dc:subject="noun.possession">
       <Definition>money in the form of cash that is readily available</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13407787-n"/> <!-- hard cash, hard currency, cash -->
-      <Example>&quot;his wife was always a good source of ready cash&quot;</Example>
-      <Example>&quot;he paid cold cash for the TV set&quot;</Example>
+      <Example>his wife was always a good source of ready cash</Example>
+      <Example>he paid cold cash for the TV set</Example>
     </Synset>
     <!-- sight bill, sight draft -->
     <Synset id="ewn-13444078-n" ili="i107278" partOfSpeech="n" dc:subject="noun.possession">
