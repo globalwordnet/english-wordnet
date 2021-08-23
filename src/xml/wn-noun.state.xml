@@ -20926,10 +20926,6 @@
         <SenseRelation relType="derivation" target="ewn-relation-n-00041700-01"/> <!-- relation -->
         </Sense>
     </LexicalEntry>
-    <LexicalEntry id="ewn-difficulty-n">
-      <Lemma writtenForm="difficulty" partOfSpeech="n"/>
-      <Sense id="ewn-difficulty-n-14431490-01" n="2" synset="ewn-14431490-n" dc:identifier="difficulty%1:26:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-susceptibleness-n">
       <Lemma writtenForm="susceptibleness" partOfSpeech="n"/>
       <Sense id="ewn-susceptibleness-n-14553663-02" n="0" synset="ewn-14553663-n" dc:identifier="susceptibleness%1:26:00::">
@@ -27347,7 +27343,6 @@
       <SynsetRelation relType="hyponym" target="ewn-14110803-n"/> <!-- protuberance -->
       <SynsetRelation relType="hyponym" target="ewn-14236810-n"/> <!-- curvature -->
       <SynsetRelation relType="hyponym" target="ewn-14396987-n"/> <!-- psychological state, mental condition, mental state, psychological condition -->
-      <SynsetRelation relType="hyponym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14445583-n"/> <!-- melioration, improvement -->
       <SynsetRelation relType="hyponym" target="ewn-14445892-n"/> <!-- declination, decline -->
       <SynsetRelation relType="hyponym" target="ewn-14456971-n"/> <!-- ennoblement -->
@@ -44015,38 +44010,20 @@
       <Definition>the state of being intensely interested (as by awe or terror)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14430940-n"/> <!-- spell, enchantment, trance -->
     </Synset>
-    <!-- difficulty -->
-    <Synset id="ewn-14431490-n" ili="i112724" partOfSpeech="n" dc:subject="noun.state">
-      <Definition>a condition or state of affairs almost beyond one&apos;s ability to deal with and requiring great effort to bear or overcome</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
-      <SynsetRelation relType="hyponym" target="ewn-14431923-n"/> <!-- bitch -->
-      <SynsetRelation relType="hyponym" target="ewn-14432050-n"/> <!-- quandary, plight, predicament -->
-      <SynsetRelation relType="hyponym" target="ewn-14432689-n"/> <!-- rattrap -->
-      <SynsetRelation relType="hyponym" target="ewn-14432775-n"/> <!-- pinch -->
-      <SynsetRelation relType="hyponym" target="ewn-14432893-n"/> <!-- mess, hole, pickle, jam, fix, muddle, kettle of fish -->
-      <SynsetRelation relType="hyponym" target="ewn-14433284-n"/> <!-- hard time, rough sledding -->
-      <SynsetRelation relType="hyponym" target="ewn-14433493-n"/> <!-- stress, strain -->
-      <SynsetRelation relType="hyponym" target="ewn-14433769-n"/> <!-- mire -->
-      <SynsetRelation relType="hyponym" target="ewn-14434009-n"/> <!-- problem, job -->
-      <SynsetRelation relType="hyponym" target="ewn-14434647-n"/> <!-- situation -->
-      <SynsetRelation relType="hyponym" target="ewn-14588100-n"/> <!-- urinary hesitancy -->
-      <SynsetRelation relType="hyponym" target="ewn-14588360-n"/> <!-- wall -->
-      <Example>grappling with financial difficulties</Example>
-    </Synset>
     <!-- bitch -->
     <Synset id="ewn-14431923-n" ili="i112725" partOfSpeech="n" dc:subject="noun.state">
       <Definition>an unpleasant difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="exemplifies" target="ewn-07171981-n"/> <!-- vernacular, slang, jargon, argot, cant, patois, lingo -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>this problem is a real bitch</Example>
     </Synset>
     <!-- quandary, plight, predicament -->
     <Synset id="ewn-14432050-n" ili="i112726" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a situation from which extrication is difficult especially an unpleasant or trying one</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-07520286-n"/> <!-- care -->
       <SynsetRelation relType="hyponym" target="ewn-14432355-n"/> <!-- corner, box -->
       <SynsetRelation relType="hyponym" target="ewn-14432541-n"/> <!-- hot water -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>finds himself in a most awkward predicament</Example>
       <Example>the woeful plight of homeless people</Example>
     </Synset>
@@ -44065,19 +44042,19 @@
     <!-- rattrap -->
     <Synset id="ewn-14432689-n" ili="i112729" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficult entangling situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- pinch -->
     <Synset id="ewn-14432775-n" ili="i112730" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a painful or straitened circumstance</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the pinch of the recession</Example>
     </Synset>
     <!-- mess, hole, pickle, jam, fix, muddle, kettle of fish -->
     <Synset id="ewn-14432893-n" ili="i112731" partOfSpeech="n" dc:subject="noun.state">
       <Definition>informal terms for a difficult situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14433122-n"/> <!-- dog's breakfast, dog's dinner -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>he got into a terrible fix</Example>
       <Example>he made a muddle of his marriage</Example>
     </Synset>
@@ -44091,30 +44068,30 @@
     <!-- hard time, rough sledding -->
     <Synset id="ewn-14433284-n" ili="i112733" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficulty that can be overcome with effort</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>we had a hard time getting here</Example>
       <Example>analysts predicted rough sledding for handset makers</Example>
     </Synset>
     <!-- stress, strain -->
     <Synset id="ewn-14433493-n" ili="i112734" partOfSpeech="n" dc:subject="noun.state">
       <Definition>difficulty that causes worry or emotional tension</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>she endured the stresses and strains of life</Example>
       <Example dc:source="R.J.Samuelson">he presided over the economy during the period of the greatest stress and danger</Example>
     </Synset>
     <!-- mire -->
     <Synset id="ewn-14433769-n" ili="i112735" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficulty or embarrassment that is hard to extricate yourself from</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the country is still trying to climb out of the mire left by its previous president</Example>
       <Example>caught in the mire of poverty</Example>
     </Synset>
     <!-- problem, job -->
     <Synset id="ewn-14434009-n" ili="i112736" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a state of difficulty that needs to be resolved</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14434322-n"/> <!-- race problem -->
       <SynsetRelation relType="hyponym" target="ewn-14434483-n"/> <!-- balance-of-payments problem -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>she and her husband are having problems</Example>
       <Example>it is always a job to contact him</Example>
       <Example>urban problems such as traffic congestion and smog</Example>
@@ -44132,7 +44109,6 @@
     <!-- situation -->
     <Synset id="ewn-14434647-n" ili="i112739" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a complex or critical or unusual difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-13956424-n"/> <!-- conflict of interest -->
       <SynsetRelation relType="hyponym" target="ewn-13956593-n"/> <!-- crisis -->
       <SynsetRelation relType="hyponym" target="ewn-13957103-n"/> <!-- crunch -->
@@ -44151,6 +44127,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13967568-n"/> <!-- urgency -->
       <SynsetRelation relType="hyponym" target="ewn-14038832-n"/> <!-- impasse, stalemate, deadlock, standstill, dead end -->
       <SynsetRelation relType="hyponym" target="ewn-14435176-n"/> <!-- quicksand -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the dangerous situation developed suddenly</Example>
       <Example>that&apos;s quite a situation</Example>
       <Example>no human situation is simple</Example>
@@ -49516,12 +49493,12 @@
     <!-- urinary hesitancy -->
     <Synset id="ewn-14588100-n" ili="i113550" partOfSpeech="n" dc:subject="noun.state">
       <Definition>difficulty in beginning the flow of urine; associated with prostate enlargement in men and with narrowing of the urethral opening in women; may be caused by emotional stress in either men or women</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- wall -->
     <Synset id="ewn-14588360-n" ili="i113551" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficult or awkward situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>his back was to the wall</Example>
       <Example>competition was pushing them to the wall</Example>
     </Synset>
