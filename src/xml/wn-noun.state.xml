@@ -14546,10 +14546,6 @@
       <Lemma writtenForm="Fanconi&apos;s anaemia" partOfSpeech="n"/>
       <Sense id="ewn-Fanconi-ap-s_anaemia-n-14188348-02" n="0" synset="ewn-14188348-n" dc:identifier="fanconi&apos;s_anaemia%1:26:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-anchorage-n">
-      <Lemma writtenForm="anchorage" partOfSpeech="n"/>
-      <Sense id="ewn-anchorage-n-13946615-01" n="0" synset="ewn-13946615-n" dc:identifier="anchorage%1:26:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-tonus-n">
       <Lemma writtenForm="tonus" partOfSpeech="n"/>
       <Sense id="ewn-tonus-n-14568274-02" n="0" synset="ewn-14568274-n" dc:identifier="tonus%1:26:00::"/>
@@ -27266,6 +27262,11 @@
         <SenseRelation relType="derivation" target="ewn-content-v-01196771-01"/> <!-- content -->
         </Sense>
     </LexicalEntry>
+    <LexicalEntry id="ewn-anchorage-n">
+      <Lemma writtenForm="anchorage" partOfSpeech="n"/>
+      <Sense id="ewn-anchorage-n-80258799-01" n="3" synset="ewn-80258799-n" dc:identifier="anchorage%1:26:01::"/>
+      <Sense id="ewn-anchorage-n-81261025-01" n="4" synset="ewn-81261025-n" dc:identifier="anchorage%1:26:02::"/>
+    </LexicalEntry>
     <!-- cleavage -->
     <Synset id="ewn-13943045-n" ili="i110105" partOfSpeech="n" dc:subject="noun.state">
       <Definition>the state of being split or cleft</Definition>
@@ -27309,7 +27310,6 @@
       <Definition>a state at a particular time</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024900-n"/> <!-- state -->
       <SynsetRelation relType="hyponym" target="ewn-04742951-n"/> <!-- diversity -->
-      <SynsetRelation relType="hyponym" target="ewn-13946615-n"/> <!-- anchorage -->
       <SynsetRelation relType="hyponym" target="ewn-13946812-n"/> <!-- health -->
       <SynsetRelation relType="hyponym" target="ewn-13946962-n"/> <!-- mode -->
       <SynsetRelation relType="hyponym" target="ewn-13947369-n"/> <!-- niche, ecological niche -->
@@ -27419,6 +27419,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14603635-n"/> <!-- submission -->
       <SynsetRelation relType="hyponym" target="ewn-14603879-n"/> <!-- urbanization, urbanisation -->
       <SynsetRelation relType="hyponym" target="ewn-92427407-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-80258799-n"/>
       <Example>a condition (or state) of disrepair</Example>
       <Example>the current status of the arms negotiations</Example>
     </Synset>
@@ -27443,13 +27444,6 @@
       <SynsetRelation relType="hypernym" target="ewn-14085287-n"/> <!-- sickness, malady, illness, unwellness -->
       <Example>a heart condition</Example>
       <Example>a skin condition</Example>
-    </Synset>
-    <!-- anchorage -->
-    <Synset id="ewn-13946615-n" ili="i110113" partOfSpeech="n" dc:subject="noun.state">
-      <Definition>the condition of being secured to a base</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
-      <Example>the plant needs a firm anchorage</Example>
-      <Example>the mother provides emotional anchorage for the entire family</Example>
     </Synset>
     <!-- health -->
     <Synset id="ewn-13946812-n" ili="i110114" partOfSpeech="n" dc:subject="noun.state">
@@ -50327,6 +50321,18 @@
       <Definition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</Definition>
       <ILIDefinition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-85935644-n"/> <!-- respiratory illness, respiratory disorder, respiratory disease -->
+    </Synset>
+    <Synset id="ewn-80258799-n" ili="in" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the condition of being secured to a base</Definition>
+      <ILIDefinition>the condition of being secured to a base</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
+      <Example>the plant needs a firm anchorage</Example>
+    </Synset>
+    <Synset id="ewn-81261025-n" ili="in" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the provision of a sense of security or steadfastness</Definition>
+      <ILIDefinition>the provision of a sense of security or steadfastness</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-00026390-n"/>
+      <Example>the mother provides emotional anchorage for the entire family</Example>
     </Synset>
   </Lexicon>
 </LexicalResource>
