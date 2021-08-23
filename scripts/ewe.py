@@ -229,8 +229,8 @@ def change_example(wn, change_list):
         while True:
             example = input("Example: ")
 
-            if not example.startswith("\""):
-                print("Examples must start and end with a quotation")
+            if example.startswith("\"") and example.endswith("\""):
+                print("Examples must NOT start and end with a quotation (since #143)")
                 continue
 
             if check_text(example, "example"):

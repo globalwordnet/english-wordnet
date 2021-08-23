@@ -17,6 +17,8 @@ def map_sense_key(sk):
 def make_pos(y, pos):
     if "adjposition" in y:
         return y["adjposition"] + "-" + pos
+    elif len(pos) > 1:
+        return pos[:1]
     else:
         return pos
 
@@ -135,7 +137,7 @@ def load():
                 for pos, props in pos_map.items():
                     entry = LexicalEntry(
                         "ewn-%s-%s" % (escape_lemma(lemma), pos))
-                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
+                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos[:1])))
                     if "form" in props:
                         for form in props["form"]:
                             entry.add_form(Form(form))
@@ -385,10 +387,12 @@ def save(wn, change_list=None):
     for c in char_range('a', 'z'):
         if not change_list or c in change_list.entry_files:
             with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
-                outp.write(yaml.dump(entry_yaml[c], default_flow_style=False))
+                outp.write(yaml.dump(entry_yaml[c], default_flow_style=False,
+                    allow_unicode=True))
     if not change_list or '0' in change_list.entry_files:
         with open("src/yaml/entries-0.yaml", "w") as outp:
-            outp.write(yaml.dump(entry_yaml['0'], default_flow_style=False))
+            outp.write(yaml.dump(entry_yaml['0'], default_flow_style=False,
+                allow_unicode=True))
 
     synset_yaml = {}
     for synset in wn.synsets:
@@ -417,7 +421,9 @@ def save(wn, change_list=None):
     for key, synsets in synset_yaml.items():
         if not change_list or key in change_list.lexfiles:
             with open("src/yaml/%s.yaml" % key, "w") as outp:
-                outp.write(yaml.dump(synsets, default_flow_style=False))
+                outp.write(yaml.dump(synsets, default_flow_style=False,
+                    allow_unicode=True))
 
     with open("src/yaml/frames.yaml", "w") as outp:
-        outp.write(yaml.dump(frames, default_flow_style=False))
+        outp.write(yaml.dump(frames, default_flow_style=False,
+            allow_unicode=True))

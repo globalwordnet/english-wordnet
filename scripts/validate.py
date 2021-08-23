@@ -70,7 +70,6 @@ def check_transitive(wn, fix):
                                 (synset.id, synset2.id, rel2.target))
     return errors
 
-
 def check_no_loops(wn):
     hypernyms = {}
     for synset in wn.synsets:
@@ -92,6 +91,28 @@ def check_no_loops(wn):
                 return ["Loop for %s" % (synset.id)]
     return []
 
+def check_no_domain_loops(wn):
+    domains = {}
+    for synset in wn.synsets:
+        domains[synset.id] = set()
+        for rel in synset.synset_relations:
+            if (rel.rel_type == SynsetRelType.DOMAIN_TOPIC or
+                rel.rel_type == SynsetRelType.DOMAIN_REGION or
+                rel.rel_type == SynsetRelType.EXEMPLIFIES):
+                domains[synset.id].add(rel.target)
+    changed = True
+    while changed:
+        changed = False
+        for synset in wn.synsets:
+            n_size = len(domains[synset.id])
+            for c in domains[synset.id]:
+                domains[synset.id] = domains[synset.id].union(
+                    domains.get(c, []))
+            if len(domains[synset.id]) != n_size:
+                changed = True
+            if synset.id in domains[synset.id]:
+                return ["Domain loop for %s" % (synset.id)]
+    return []
 
 def check_not_empty(wn, ss):
     if not wn.members_by_id(ss.id):
@@ -200,7 +221,8 @@ def main():
     sense_keys = {}
 
     for entry in wn.entries:
-        if entry.id[-1:] != entry.lemma.part_of_speech.value:
+        if (entry.id[-1:] != entry.lemma.part_of_speech.value and not entry.id[-1].isnumeric()
+            or entry.id[-1].isnumeric() and entry.id[-3:-2] != entry.lemma.part_of_speech.value):
             print("ERROR: Entry ID not same as part of speech %s as %s" %
                   (entry.id, entry.lemma.part_of_speech.value))
             errors += 1
@@ -371,6 +393,15 @@ def main():
             print("ERROR: " + error)
             errors += 1
 
+    for error in check_no_domain_loops(wn):
+        if fix:
+            sys.stderr.write("Cannot be fixed")
+            sys.exit(-1)
+        else:
+            print("ERROR: " + error)
+            errors += 1
+
+ 
     if fix:
         pass
     elif errors > 0:
