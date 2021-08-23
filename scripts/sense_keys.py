@@ -3,6 +3,9 @@ from glob import glob
 import re
 from sys import exit
 
+def unmap_sense_key(sk):
+    return sk[4:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
+
 lex_filenums = {
     "src/xml/wn-adj.all.xml": 0,
     "src/xml/wn-adj.pert.xml": 1,
@@ -61,16 +64,14 @@ ss_types = {
 }
 
 sense_id_lex_id = re.compile(".*%\\d:\\d\\d:(\\d\\d):.*")
-id_lemma = re.compile("ewn-(.*?)(-(a|ip|p))?-[as]-\\d{8}-\\d{2}")
-
 
 def gen_lex_id(e, s):
     max_id = 0
     unseen = 1
     seen = False
     for s2 in e.senses:
-        if s2.sense_key:
-            m = re.match(sense_id_lex_id, s2.sense_key)
+        if s2.id:
+            m = re.match(sense_id_lex_id, unmap_sense_key(s2.id))
             max_id = max(max_id, int(m.group(1)))
         else:
             if not seen:
@@ -102,20 +103,15 @@ def get_head_word(wn, s):
         print(s.id)
         print("Could not deduce target of satellite")
     else:
-        s2s = [
-            sense_for_entry_synset_id(
-                wn,
-                srs[0].target,
-                m) for m in wn.members_by_id(
-                srs[0].target)]
-        s2s = sorted(s2s, key=lambda s2: s2.id[-2:])
-        s2 = s2s[0]
+        tss = wn.synset_by_id(srs[0].target)
+        entry = wn.entry_by_id(tss.members[0])
+        s2 = [sense for sense in entry.senses
+                if sense.synset == srs[0].target][0]
 
-        if not re.match(id_lemma, s2.id):
-            print(s2.id)
-        entry_id = re.match(id_lemma, s2.id).group(1)
-        if s2.sense_key:
-            return entry_id, re.match(sense_id_lex_id, s2.sense_key).group(1)
+        entry_id = unmap_sense_key(s2.id)
+        entry_id = entry_id[:entry_id.index("%")]
+        if s2.id:
+            return entry_id, re.match(sense_id_lex_id, unmap_sense_key(s2.id)).group(1)
         else:
             print(
                 "No sense key for target of satellite! Marking as 99... please fix for " +
@@ -134,8 +130,8 @@ def get_sense_key(wn, e, s, wn_file):
     if not wn_file.startswith("src/xml/wn-"):
         wn_file = f"src/xml/wn-{wn_file}.xml"
     lex_filenum = lex_filenums[wn_file]
-    if s.sense_key:
-        lex_id = extract_lex_id(s.sense_key)
+    if s.id:
+        lex_id = extract_lex_id(unmap_sense_key(s.id))
     else:
         lex_id = gen_lex_id(e, s)
     if e.lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:

@@ -630,6 +630,7 @@ class WordNetContentHandler(ContentHandler):
                                  PartOfSpeech(attrs["partOfSpeech"]),
                                  attrs.get("dc:subject", ""),
                                  attrs.get("dc:source", ""))
+            self.synset.members = attrs.get("members", "").split(" ")
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
