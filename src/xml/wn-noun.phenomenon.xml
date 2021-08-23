@@ -841,14 +841,6 @@
       <Lemma writtenForm="roentgen ray" partOfSpeech="n"/>
       <Sense id="ewn-roentgen_ray-n-11547628-04" n="0" synset="ewn-11547628-n" dc:identifier="roentgen_ray%1:19:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-wind-n">
-      <Lemma writtenForm="wind" partOfSpeech="n"/>
-      <Sense id="ewn-wind-n-11435606-01" n="1" synset="ewn-11435606-n" dc:identifier="wind%1:19:01::"/>
-      <Sense id="ewn-wind-n-11546388-01" n="0" synset="ewn-11546388-n" dc:identifier="wind%1:19:00::">
-        <SenseRelation relType="derivation" target="ewn-windy-s-00306024-03"/> <!-- windy, breezy, blowy -->
-        <SenseRelation relType="derivation" target="ewn-windy-s-00983576-01"/> <!-- windy -->
-        </Sense>
-    </LexicalEntry>
     <LexicalEntry id="ewn-upshot-n">
       <Lemma writtenForm="upshot" partOfSpeech="n"/>
       <Sense id="ewn-upshot-n-11430739-07" n="0" synset="ewn-11430739-n" dc:identifier="upshot%1:19:00::"/>
@@ -4272,13 +4264,6 @@
       <Lemma writtenForm="radio-opacity" partOfSpeech="n"/>
       <Sense id="ewn-radio-opacity-n-11510735-02" n="0" synset="ewn-11510735-n" dc:identifier="radio-opacity%1:19:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-shower-n">
-      <Lemma writtenForm="shower" partOfSpeech="n"/>
-      <Sense id="ewn-shower-n-11522915-01" n="2" synset="ewn-11522915-n" dc:identifier="shower%1:19:00::">
-        <SenseRelation relType="derivation" target="ewn-showery-s-02561103-01"/> <!-- showery, rainy -->
-        <SenseRelation relType="derivation" target="ewn-shower-v-02763609-01"/> <!-- shower down, shower -->
-        </Sense>
-    </LexicalEntry>
     <LexicalEntry id="ewn-brain_death-n">
       <Lemma writtenForm="brain death" partOfSpeech="n"/>
       <Sense id="ewn-brain_death-n-11507478-01" n="0" synset="ewn-11507478-n" dc:identifier="brain_death%1:19:00::"/>
@@ -4589,6 +4574,21 @@
     <LexicalEntry id="ewn-mechanical_stress-n">
       <Lemma writtenForm="mechanical stress" partOfSpeech="n"/>
       <Sense id="ewn-mechanical_stress-n-92467821-00" n="2" synset="ewn-92467821-n" dc:identifier="mechanical_stress%1:19:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-shower-n-1">
+      <Lemma writtenForm="shower" partOfSpeech="n"/>
+      <Sense id="ewn-shower-n-11522915-01" n="2" synset="ewn-11522915-n" dc:identifier="shower%1:19:00::">
+        <SenseRelation relType="derivation" target="ewn-showery-s-02561103-01"/> <!-- showery, rainy -->
+        <SenseRelation relType="derivation" target="ewn-shower-v-02763609-01"/> <!-- shower down, shower -->
+        </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-wind-n-1">
+      <Lemma writtenForm="wind" partOfSpeech="n"/>
+      <Sense id="ewn-wind-n-11546388-01" n="0" synset="ewn-11546388-n" dc:identifier="wind%1:19:00::">
+        <SenseRelation relType="derivation" target="ewn-windy-s-00306024-03"/> <!-- windy, breezy, blowy -->
+        <SenseRelation relType="derivation" target="ewn-windy-s-00983576-01"/> <!-- windy -->
+        </Sense>
+      <Sense id="ewn-wind-n-11435606-01" n="1" synset="ewn-11435606-n" dc:identifier="wind%1:19:01::"/>
     </LexicalEntry>
     <!-- natural phenomenon -->
     <Synset id="ewn-11428673-n" ili="i97550" partOfSpeech="n" dc:subject="noun.phenomenon">

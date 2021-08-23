@@ -1425,13 +1425,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s Adjective/Noun" senses="ewn-come_out-v-00661447-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s Adjective" senses="ewn-come_out-v-00661447-03"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-process-v">
-      <Lemma writtenForm="process" partOfSpeech="v"/>
-      <Sense id="ewn-process-v-00640499-01" n="2" synset="ewn-00640499-v" dc:identifier="process%2:31:00::">
-        <SenseRelation relType="derivation" target="ewn-processor-n-02998952-05"/> <!-- processor, C.P.U., central processing unit, CPU, mainframe, central processor -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-00640499-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-premise-v">
       <Lemma writtenForm="premise" partOfSpeech="v"/>
       <Sense id="ewn-premise-v-00719132-01" n="2" synset="ewn-00719132-v" dc:identifier="premise%2:31:00::">
@@ -9084,11 +9077,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-indoctrinate-v-00606481-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-recreate-v">
-      <Lemma writtenForm="recreate" partOfSpeech="v"/>
-      <Sense id="ewn-recreate-v-00738804-02" n="0" synset="ewn-00738804-v" dc:identifier="recreate%2:31:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-00738804-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-overthink-v">
       <Lemma writtenForm="overthink" partOfSpeech="v"/>
       <Sense id="ewn-overthink-v-90002041-01" n="0" synset="ewn-90002041-v" dc:identifier="overthink%2:31:01::"/>
@@ -9098,6 +9086,18 @@
       <Lemma writtenForm="unsee" partOfSpeech="v"/>
       <Sense id="ewn-unsee-v-90006541-01" n="0" synset="ewn-90006541-v" dc:identifier="unsee%2:31:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-unsee-v-90006541-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recreate-v-1">
+      <Lemma writtenForm="recreate" partOfSpeech="v"/>
+      <Sense id="ewn-recreate-v-00738804-02" n="0" synset="ewn-00738804-v" dc:identifier="recreate%2:31:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-00738804-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-process-v-1">
+      <Lemma writtenForm="process" partOfSpeech="v"/>
+      <Sense id="ewn-process-v-00640499-01" n="2" synset="ewn-00640499-v" dc:identifier="process%2:31:00::">
+        <SenseRelation relType="derivation" target="ewn-processor-n-02998952-05"/> <!-- processor, C.P.U., central processing unit, CPU, mainframe, central processor -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-00640499-01"/>
     </LexicalEntry>
     <!-- dig, compass, grok, grasp, get the picture, apprehend, savvy, comprehend -->
     <Synset id="ewn-00589616-v" ili="i24708" partOfSpeech="v" dc:subject="verb.cognition">

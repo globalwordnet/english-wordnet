@@ -4062,17 +4062,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-sell_short-v-02247968-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-sell_short-v-02247968-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-recover-v">
-      <Lemma writtenForm="recover" partOfSpeech="v"/>
-      <Sense id="ewn-recover-v-02231615-02" n="4" synset="ewn-02231615-v" dc:identifier="recover%2:40:06::"/>
-      <Sense id="ewn-recover-v-02252785-01" n="0" synset="ewn-02252785-v" dc:identifier="recover%2:40:00::">
-        <SenseRelation relType="derivation" target="ewn-recoverer-n-10542352-02"/> <!-- recoverer, saver, rescuer -->
-        <SenseRelation relType="derivation" target="ewn-recovery-n-00046648-01"/> <!-- retrieval, recovery -->
-        </Sense>
-      <Sense id="ewn-recover-v-02254246-01" n="3" synset="ewn-02254246-v" dc:identifier="recover%2:40:01::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something from somebody" senses="ewn-recover-v-02252785-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recover-v-02231615-02 ewn-recover-v-02252785-01 ewn-recover-v-02254246-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-take_on-v">
       <Lemma writtenForm="take on" partOfSpeech="v"/>
       <Sense id="ewn-take_on-v-02241406-04" n="3" synset="ewn-02241406-v" dc:identifier="take_on%2:40:00::"/>
@@ -9001,6 +8990,17 @@
     <LexicalEntry id="ewn-roll_out-v">
       <Lemma writtenForm="roll out" partOfSpeech="v"/>
       <Sense id="ewn-roll_out-v-85549043-01" n="4" synset="ewn-85549043-v" dc:identifier="roll_out%2:40:04::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recover-v-1">
+      <Lemma writtenForm="recover" partOfSpeech="v"/>
+      <Sense id="ewn-recover-v-02252785-01" n="0" synset="ewn-02252785-v" dc:identifier="recover%2:40:00::">
+        <SenseRelation relType="derivation" target="ewn-recoverer-n-10542352-02"/> <!-- recoverer, saver, rescuer -->
+        <SenseRelation relType="derivation" target="ewn-recovery-n-00046648-01"/> <!-- retrieval, recovery -->
+        </Sense>
+      <Sense id="ewn-recover-v-02254246-01" n="3" synset="ewn-02254246-v" dc:identifier="recover%2:40:01::"/>
+      <Sense id="ewn-recover-v-02231615-02" n="4" synset="ewn-02231615-v" dc:identifier="recover%2:40:06::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something from somebody" senses="ewn-recover-v-02252785-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recover-v-02252785-01 ewn-recover-v-02254246-01 ewn-recover-v-02231615-02"/>
     </LexicalEntry>
     <!-- give -->
     <Synset id="ewn-02204104-v" ili="i32755" partOfSpeech="v" dc:subject="verb.possession">

@@ -3849,14 +3849,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-rive-v-01559354-03 ewn-rive-v-01576107-03"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-rive-v-01559354-03 ewn-rive-v-01576107-03"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-process-v">
-      <Lemma writtenForm="process" partOfSpeech="v"/>
-      <Sense id="ewn-process-v-01441318-02" n="6" synset="ewn-01441318-v" dc:identifier="process%2:35:00::">
-        <SenseRelation relType="derivation" target="ewn-process-n-06568683-02"/> <!-- summons, process -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-01441318-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody with something" senses="ewn-process-v-01441318-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-stow-v">
       <Lemma writtenForm="stow" partOfSpeech="v"/>
       <Sense id="ewn-stow-v-01495891-01" n="0" synset="ewn-01495891-v" dc:identifier="stow%2:35:01::">
@@ -4193,26 +4185,6 @@
       <Lemma writtenForm="shellack" partOfSpeech="v"/>
       <Sense id="ewn-shellack-v-01273153-02" n="0" synset="ewn-01273153-v" dc:identifier="shellack%2:35:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-shellack-v-01273153-02"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-tear-v">
-      <Lemma writtenForm="tear" partOfSpeech="v"/>
-      <Form writtenForm="tore"/>
-      <Form writtenForm="torn"/>
-      <Sense id="ewn-tear-v-01386929-03" n="3" synset="ewn-01386929-v" dc:identifier="tear%2:35:06::"/>
-      <Sense id="ewn-tear-v-01559128-01" n="1" synset="ewn-01559128-v" dc:identifier="tear%2:35:01::">
-        <SenseRelation relType="derivation" target="ewn-tear-n-00391894-01"/> <!-- tear -->
-        <SenseRelation relType="derivation" target="ewn-tear-n-09433806-05"/> <!-- rent, rip, snag, tear, split -->
-        </Sense>
-      <Sense id="ewn-tear-v-01576346-01" n="0" synset="ewn-01576346-v" dc:identifier="tear%2:35:00::">
-        <SenseRelation relType="derivation" target="ewn-tear-n-00391894-01"/> <!-- tear -->
-        <SenseRelation relType="derivation" target="ewn-tear-n-09433806-05"/> <!-- rent, rip, snag, tear, split -->
-        <SenseRelation relType="also" target="ewn-tear_up-v-01576722-02"/> <!-- rip up, tear up, shred -->
-        <SenseRelation relType="also" target="ewn-tear_apart-v-00848023-02"/> <!-- pan, tear apart, trash -->
-        <SenseRelation relType="also" target="ewn-tear_down-v-01665698-05"/> <!-- raze, dismantle, level, tear down, take down, pull down, rase -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tear-v-01386929-03 ewn-tear-v-01559128-01 ewn-tear-v-01576346-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-tear-v-01559128-01 ewn-tear-v-01576346-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-tear-v-01559128-01 ewn-tear-v-01576346-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-containerise-v">
       <Lemma writtenForm="containerise" partOfSpeech="v"/>
@@ -7190,28 +7162,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-rummage-v-01321709-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-rummage-v-01321709-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-wind-v">
-      <Lemma writtenForm="wind" partOfSpeech="v"/>
-      <Form writtenForm="wound"/>
-      <Sense id="ewn-wind-v-01457813-03" n="6" synset="ewn-01457813-v" dc:identifier="wind%2:35:03::"/>
-      <Sense id="ewn-wind-v-01519597-02" n="5" synset="ewn-01519597-v" dc:identifier="wind%2:35:02::"/>
-      <Sense id="ewn-wind-v-01524685-01" n="4" synset="ewn-01524685-v" dc:identifier="wind%2:35:00::">
-        <SenseRelation relType="derivation" target="ewn-wind-n-00346467-01"/> <!-- winding, wind, twist -->
-        <SenseRelation relType="derivation" target="ewn-winder-n-10801660-01"/> <!-- winder -->
-        <SenseRelation relType="derivation" target="ewn-winder-n-04593867-01"/> <!-- key, winder -->
-        </Sense>
-      <Sense id="ewn-wind-v-01525056-01" n="2" synset="ewn-01525056-v" dc:identifier="wind%2:35:06::">
-        <SenseRelation relType="derivation" target="ewn-winder-n-04593707-01"/> <!-- winder -->
-        <SenseRelation relType="derivation" target="ewn-winder-n-10801660-01"/> <!-- winder -->
-        <SenseRelation relType="antonym" target="ewn-unwind-v-01526442-01"/> <!-- unroll, unwind, wind off -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-wind-v-01457813-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-wind-v-01457813-03 ewn-wind-v-01519597-02 ewn-wind-v-01524685-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-wind-v-01457813-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-wind-v-01457813-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-wind-v-01457813-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-wind-v-01457813-03 ewn-wind-v-01525056-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-revet-v">
       <Lemma writtenForm="revet" partOfSpeech="v"/>
@@ -11207,11 +11157,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-trice_up-v-01458135-02 ewn-trice_up-v-01458268-02"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-trice_up-v-01458135-02"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-recover-v">
-      <Lemma writtenForm="recover" partOfSpeech="v"/>
-      <Sense id="ewn-recover-v-01339223-01" n="5" synset="ewn-01339223-v" dc:identifier="recover%2:35:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recover-v-01339223-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-bash-v">
       <Lemma writtenForm="bash" partOfSpeech="v"/>
       <Sense id="ewn-bash-v-01399742-06" n="0" synset="ewn-01399742-v" dc:identifier="bash%2:35:00::">
@@ -13554,15 +13499,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-break-v-01301517-01 ewn-break-v-01372423-01 ewn-break-v-01613367-01 ewn-break-v-01613570-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-break-v-01230960-01 ewn-break-v-01372423-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-break-v-01231088-01 ewn-break-v-01372011-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-lower-v">
-      <Lemma writtenForm="lower" partOfSpeech="v"/>
-      <Sense id="ewn-lower-v-01577754-01" n="3" synset="ewn-01577754-v" dc:identifier="lower%2:35:03::">
-        <SenseRelation relType="derivation" target="ewn-lower-n-03699299-02"/> <!-- lower berth, lower -->
-        <SenseRelation relType="derivation" target="ewn-lowering-n-00354295-01"/> <!-- lowering -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-lower-v-01577754-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-lower-v-01577754-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-pistol-whip-v">
       <Lemma writtenForm="pistol-whip" partOfSpeech="v"/>
@@ -23168,6 +23104,70 @@
     <LexicalEntry id="ewn-grass_over-v">
       <Lemma writtenForm="grass over" partOfSpeech="v"/>
       <Sense id="ewn-grass_over-v-01605953-02" n="0" synset="ewn-01605953-v" dc:identifier="grass_over%2:35:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tear-v-1">
+      <Lemma writtenForm="tear" partOfSpeech="v"/>
+      <Form writtenForm="tore"/>
+      <Form writtenForm="torn"/>
+      <Sense id="ewn-tear-v-01576346-01" n="0" synset="ewn-01576346-v" dc:identifier="tear%2:35:00::">
+        <SenseRelation relType="also" target="ewn-tear_up-v-01576722-02"/> <!-- rip up, tear up, shred -->
+        <SenseRelation relType="also" target="ewn-tear_apart-v-00848023-02"/> <!-- pan, tear apart, trash -->
+        <SenseRelation relType="also" target="ewn-tear_down-v-01665698-05"/> <!-- raze, dismantle, level, tear down, take down, pull down, rase -->
+        <SenseRelation relType="derivation" target="ewn-tear-n-00391894-01"/> <!-- tear -->
+        <SenseRelation relType="derivation" target="ewn-tear-n-09433806-05"/> <!-- rent, rip, snag, tear, split -->
+        </Sense>
+      <Sense id="ewn-tear-v-01559128-01" n="1" synset="ewn-01559128-v" dc:identifier="tear%2:35:01::">
+        <SenseRelation relType="derivation" target="ewn-tear-n-00391894-01"/> <!-- tear -->
+        <SenseRelation relType="derivation" target="ewn-tear-n-09433806-05"/> <!-- rent, rip, snag, tear, split -->
+        </Sense>
+      <Sense id="ewn-tear-v-01386929-03" n="3" synset="ewn-01386929-v" dc:identifier="tear%2:35:06::"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-tear-v-01576346-01 ewn-tear-v-01559128-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-tear-v-01576346-01 ewn-tear-v-01559128-01 ewn-tear-v-01386929-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-tear-v-01576346-01 ewn-tear-v-01559128-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recover-v-2">
+      <Lemma writtenForm="recover" partOfSpeech="v"/>
+      <Sense id="ewn-recover-v-01339223-01" n="0" synset="ewn-01339223-v" dc:identifier="recover%2:35:00::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recover-v-01339223-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-process-v-1">
+      <Lemma writtenForm="process" partOfSpeech="v"/>
+      <Sense id="ewn-process-v-01441318-02" n="6" synset="ewn-01441318-v" dc:identifier="process%2:35:00::">
+        <SenseRelation relType="derivation" target="ewn-process-n-06568683-02"/> <!-- summons, process -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-01441318-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody with something" senses="ewn-process-v-01441318-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lower-v-1">
+      <Lemma writtenForm="lower" partOfSpeech="v"/>
+      <Sense id="ewn-lower-v-01577754-01" n="3" synset="ewn-01577754-v" dc:identifier="lower%2:35:03::">
+        <SenseRelation relType="derivation" target="ewn-lower-n-03699299-02"/> <!-- lower berth, lower -->
+        <SenseRelation relType="derivation" target="ewn-lowering-n-00354295-01"/> <!-- lowering -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-lower-v-01577754-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-lower-v-01577754-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-wind-v-1">
+      <Lemma writtenForm="wind" partOfSpeech="v"/>
+      <Form writtenForm="wound"/>
+      <Sense id="ewn-wind-v-01525056-01" n="2" synset="ewn-01525056-v" dc:identifier="wind%2:35:06::">
+        <SenseRelation relType="antonym" target="ewn-unwind-v-01526442-01"/> <!-- unroll, unwind, wind off -->
+        <SenseRelation relType="derivation" target="ewn-winder-n-04593707-01"/> <!-- winder -->
+        <SenseRelation relType="derivation" target="ewn-winder-n-10801660-01"/> <!-- winder -->
+        </Sense>
+      <Sense id="ewn-wind-v-01524685-01" n="3" synset="ewn-01524685-v" dc:identifier="wind%2:35:00::">
+        <SenseRelation relType="derivation" target="ewn-wind-n-00346467-01"/> <!-- winding, wind, twist -->
+        <SenseRelation relType="derivation" target="ewn-winder-n-10801660-01"/> <!-- winder -->
+        <SenseRelation relType="derivation" target="ewn-winder-n-04593867-01"/> <!-- key, winder -->
+        </Sense>
+      <Sense id="ewn-wind-v-01519597-02" n="4" synset="ewn-01519597-v" dc:identifier="wind%2:35:02::"/>
+      <Sense id="ewn-wind-v-01457813-03" n="5" synset="ewn-01457813-v" dc:identifier="wind%2:35:03::"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-wind-v-01457813-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-wind-v-01457813-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-wind-v-01457813-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-wind-v-01524685-01 ewn-wind-v-01519597-02 ewn-wind-v-01457813-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-wind-v-01525056-01 ewn-wind-v-01457813-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-wind-v-01457813-03"/>
     </LexicalEntry>
     <!-- meet, touch, adjoin, contact -->
     <Synset id="ewn-01208316-v" ili="i27653" partOfSpeech="v" dc:subject="verb.contact">

@@ -1071,15 +1071,6 @@
       <Sense id="ewn-whiff-v-01201254-02" n="3" synset="ewn-01201254-v" dc:identifier="whiff%2:34:02::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-whiff-v-01201254-02"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-predate-v">
-      <Lemma writtenForm="predate" partOfSpeech="v"/>
-      <Sense id="ewn-predate-v-01206120-03" n="2" synset="ewn-01206120-v" dc:identifier="predate%2:34:00::">
-        <SenseRelation relType="derivation" target="ewn-predation-n-00969414-02"/> <!-- depredation, predation -->
-        <SenseRelation relType="derivation" target="ewn-predation-n-00713150-01"/> <!-- predation -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-predate-v-01206120-03"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-predate-v-01206120-03"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-appease-v">
       <Lemma writtenForm="appease" partOfSpeech="v"/>
       <Sense id="ewn-appease-v-01196647-03" n="1" synset="ewn-01196647-v" dc:identifier="appease%2:34:00::"/>
@@ -3180,6 +3171,15 @@
       <Lemma writtenForm="vape" partOfSpeech="v"/>
       <Sense id="ewn-vape-v-90000271-01" n="0" synset="ewn-90000271-v" dc:identifier="vape%2:34:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-vape-v-90000271-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-predate-v-2">
+      <Lemma writtenForm="predate" partOfSpeech="v"/>
+      <Sense id="ewn-predate-v-01206120-03" n="0" synset="ewn-01206120-v" dc:identifier="predate%2:34:00::">
+        <SenseRelation relType="derivation" target="ewn-predation-n-00969414-02"/> <!-- depredation, predation -->
+        <SenseRelation relType="derivation" target="ewn-predation-n-00713150-01"/> <!-- predation -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-predate-v-01206120-03"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-predate-v-01206120-03"/>
     </LexicalEntry>
     <!-- ingest, take, have, consume, take in -->
     <Synset id="ewn-01159300-v" ili="i27410" partOfSpeech="v" dc:subject="verb.consumption">

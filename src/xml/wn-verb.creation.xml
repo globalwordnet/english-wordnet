@@ -1235,13 +1235,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-cast-v-01636439-02 ewn-cast-v-01666666-01"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-cast-v-01636439-02"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-process-v">
-      <Lemma writtenForm="process" partOfSpeech="v"/>
-      <Sense id="ewn-process-v-01672498-03" n="5" synset="ewn-01672498-v" dc:identifier="process%2:36:00::">
-        <SenseRelation relType="derivation" target="ewn-process-n-01025762-02"/> <!-- process, procedure -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-01672498-03"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-conjure_up-v">
       <Lemma writtenForm="conjure up" partOfSpeech="v"/>
       <Sense id="ewn-conjure_up-v-01633150-03" n="0" synset="ewn-01633150-v" dc:identifier="conjure_up%2:36:00::"/>
@@ -3114,12 +3107,6 @@
       <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-activate-v-01647199-04"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-activate-v-01647199-04"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-recreate-v">
-      <Lemma writtenForm="recreate" partOfSpeech="v"/>
-      <Sense id="ewn-recreate-v-01622373-02" n="3" synset="ewn-01622373-v" dc:identifier="recreate%2:36:05::"/>
-      <Sense id="ewn-recreate-v-01697776-03" n="4" synset="ewn-01697776-v" dc:identifier="recreate%2:36:06::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-01622373-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-quilt-v">
       <Lemma writtenForm="quilt" partOfSpeech="v"/>
       <Sense id="ewn-quilt-v-01671199-01" n="1" synset="ewn-01671199-v" dc:identifier="quilt%2:36:00::">
@@ -3521,13 +3508,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-fruit-v-01656273-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-fruit-v-01656437-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-bow-v">
-      <Lemma writtenForm="bow" partOfSpeech="v"/>
-      <Sense id="ewn-bow-v-01733174-01" n="4" synset="ewn-01733174-v" dc:identifier="bow%2:36:00::">
-        <SenseRelation relType="derivation" target="ewn-bow-n-02882759-01"/> <!-- bow -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-bow-v-01733174-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-catch-v">
       <Lemma writtenForm="catch" partOfSpeech="v"/>
@@ -7495,6 +7475,26 @@
       <Lemma writtenForm="twerk" partOfSpeech="v"/>
       <Sense id="ewn-twerk-v-90000471-01" n="0" synset="ewn-90000471-v" dc:identifier="twerk%2:36:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-twerk-v-90000471-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-bow-v-2">
+      <Lemma writtenForm="bow" partOfSpeech="v"/>
+      <Sense id="ewn-bow-v-01733174-01" n="0" synset="ewn-01733174-v" dc:identifier="bow%2:36:00::">
+        <SenseRelation relType="derivation" target="ewn-bow-n-02882759-01"/> <!-- bow -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-bow-v-01733174-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recreate-v-1">
+      <Lemma writtenForm="recreate" partOfSpeech="v"/>
+      <Sense id="ewn-recreate-v-01622373-02" n="2" synset="ewn-01622373-v" dc:identifier="recreate%2:36:05::"/>
+      <Sense id="ewn-recreate-v-01697776-03" n="3" synset="ewn-01697776-v" dc:identifier="recreate%2:36:06::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-recreate-v-01622373-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-process-v-1">
+      <Lemma writtenForm="process" partOfSpeech="v"/>
+      <Sense id="ewn-process-v-01672498-03" n="5" synset="ewn-01672498-v" dc:identifier="process%2:36:00::">
+        <SenseRelation relType="derivation" target="ewn-process-n-01025762-02"/> <!-- process, procedure -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-process-v-01672498-03"/>
     </LexicalEntry>
     <!-- make, create -->
     <Synset id="ewn-01620211-v" ili="i29849" partOfSpeech="v" dc:subject="verb.creation">

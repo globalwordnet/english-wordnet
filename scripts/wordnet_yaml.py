@@ -17,6 +17,8 @@ def map_sense_key(sk):
 def make_pos(y, pos):
     if "adjposition" in y:
         return y["adjposition"] + "-" + pos
+    elif len(pos) > 1:
+        return pos[:1]
     else:
         return pos
 
@@ -135,7 +137,7 @@ def load():
                 for pos, props in pos_map.items():
                     entry = LexicalEntry(
                         "ewn-%s-%s" % (escape_lemma(lemma), pos))
-                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
+                    entry.set_lemma(Lemma(lemma, PartOfSpeech(pos[:1])))
                     if "form" in props:
                         for form in props["form"]:
                             entry.add_form(Form(form))

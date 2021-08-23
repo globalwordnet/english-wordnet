@@ -2537,13 +2537,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-put_off-v-02648898-10"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something PP" senses="ewn-put_off-v-02648898-10"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-wind-v">
-      <Lemma writtenForm="wind" partOfSpeech="v"/>
-      <Form writtenForm="wound"/>
-      <Sense id="ewn-wind-v-02744576-01" n="1" synset="ewn-02744576-v" dc:identifier="wind%2:42:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-wind-v-02744576-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-wind-v-02744576-01"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-maintain-v">
       <Lemma writtenForm="maintain" partOfSpeech="v"/>
       <Sense id="ewn-maintain-v-02687605-02" n="0" synset="ewn-02687605-v" dc:identifier="maintain%2:42:00::">
@@ -3017,14 +3010,6 @@
       <Lemma writtenForm="gape" partOfSpeech="v"/>
       <Sense id="ewn-gape-v-02724625-01" n="1" synset="ewn-02724625-v" dc:identifier="gape%2:42:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-gape-v-02724625-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-predate-v">
-      <Lemma writtenForm="predate" partOfSpeech="v"/>
-      <Sense id="ewn-predate-v-02698528-02" n="1" synset="ewn-02698528-v" dc:identifier="predate%2:42:01::"/>
-      <Sense id="ewn-predate-v-02718318-01" n="0" synset="ewn-02718318-v" dc:identifier="predate%2:42:00::">
-        <SenseRelation relType="antonym" target="ewn-postdate-v-02718647-01"/> <!-- follow, postdate -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-predate-v-02698528-02 ewn-predate-v-02718318-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-crowd-v">
       <Lemma writtenForm="crowd" partOfSpeech="v"/>
@@ -8499,6 +8484,21 @@
     <LexicalEntry id="ewn-trend-v">
       <Lemma writtenForm="trend" partOfSpeech="v"/>
       <Sense id="ewn-trend-v-90001891-01" n="1" synset="ewn-90001891-v" dc:identifier="trend%2:42:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-predate-v-1">
+      <Lemma writtenForm="predate" partOfSpeech="v"/>
+      <Sense id="ewn-predate-v-02718318-01" n="0" synset="ewn-02718318-v" dc:identifier="predate%2:42:00::">
+        <SenseRelation relType="antonym" target="ewn-postdate-v-02718647-01"/> <!-- follow, postdate -->
+        </Sense>
+      <Sense id="ewn-predate-v-02698528-02" n="1" synset="ewn-02698528-v" dc:identifier="predate%2:42:01::"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s something" senses="ewn-predate-v-02718318-01 ewn-predate-v-02698528-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-wind-v-1">
+      <Lemma writtenForm="wind" partOfSpeech="v"/>
+      <Form writtenForm="wound"/>
+      <Sense id="ewn-wind-v-02744576-01" n="1" synset="ewn-02744576-v" dc:identifier="wind%2:42:00::"/>
+      <SyntacticBehaviour subcategorizationFrame="Something is ----ing PP" senses="ewn-wind-v-02744576-01"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-wind-v-02744576-01"/>
     </LexicalEntry>
     <!-- be, exist -->
     <Synset id="ewn-02609706-v" ili="i34708" partOfSpeech="v" dc:subject="verb.stative">

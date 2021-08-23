@@ -618,11 +618,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-be_active-v-00014542-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-whoop-v">
-      <Lemma writtenForm="whoop" partOfSpeech="v"/>
-      <Sense id="ewn-whoop-v-00006100-02" n="1" synset="ewn-00006100-v" dc:identifier="whoop%2:29:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-whoop-v-00006100-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-blench-v">
       <Lemma writtenForm="blench" partOfSpeech="v"/>
       <Sense id="ewn-blench-v-00103373-03" n="0" synset="ewn-00103373-v" dc:identifier="blench%2:29:00::"/>
@@ -1191,16 +1186,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-cleanse-v-00035769-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-cleanse-v-00035769-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-cleanse-v-00035769-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-tear-v">
-      <Lemma writtenForm="tear" partOfSpeech="v"/>
-      <Form writtenForm="tore"/>
-      <Form writtenForm="torn"/>
-      <Sense id="ewn-tear-v-00066748-01" n="4" synset="ewn-00066748-v" dc:identifier="tear%2:29:00::">
-        <SenseRelation relType="derivation" target="ewn-tear-n-05412667-01"/> <!-- teardrop, tear -->
-        <SenseRelation relType="derivation" target="ewn-tearing-n-13527046-03"/> <!-- lacrimation, watering, lachrymation, tearing -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-tear-v-00066748-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-deteriorate-v">
       <Lemma writtenForm="deteriorate" partOfSpeech="v"/>
@@ -3068,14 +3053,6 @@
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-cry-v-00065962-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody PP" senses="ewn-cry-v-00066456-01"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-recreate-v">
-      <Lemma writtenForm="recreate" partOfSpeech="v"/>
-      <Sense id="ewn-recreate-v-00024272-02" n="0" synset="ewn-00024272-v" dc:identifier="recreate%2:29:02::">
-        <SenseRelation relType="derivation" target="ewn-recreation-n-00402591-02"/> <!-- refreshment, recreation -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-recreate-v-00024272-02"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-recreate-v-00024272-02"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-stale-v">
       <Lemma writtenForm="stale" partOfSpeech="v"/>
       <Sense id="ewn-stale-v-00072650-01" n="0" synset="ewn-00072650-v" dc:identifier="stale%2:29:00::"/>
@@ -3387,13 +3364,6 @@
       <Lemma writtenForm="act involuntarily" partOfSpeech="v"/>
       <Sense id="ewn-act_involuntarily-v-00010234-01" n="0" synset="ewn-00010234-v" dc:identifier="act_involuntarily%2:29:00::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-act_involuntarily-v-00010234-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-recover-v">
-      <Lemma writtenForm="recover" partOfSpeech="v"/>
-      <Sense id="ewn-recover-v-00092442-02" n="1" synset="ewn-00092442-v" dc:identifier="recover%2:29:00::">
-        <SenseRelation relType="derivation" target="ewn-recovery-n-13473520-03"/> <!-- recovery, convalescence, recuperation -->
-        </Sense>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-recover-v-00092442-02"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-spread-eagle-v">
       <Lemma writtenForm="spread-eagle" partOfSpeech="v"/>
@@ -4152,12 +4122,6 @@
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-cocainize-v-00021672-01"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-cocainize-v-00021672-01"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-lower-v">
-      <Lemma writtenForm="lower" partOfSpeech="v"/>
-      <Sense id="ewn-lower-v-00032974-04" n="4" synset="ewn-00032974-v" dc:identifier="lower%2:29:00::"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-lower-v-00032974-04"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-lower-v-00032974-04"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-nurse-v">
       <Lemma writtenForm="nurse" partOfSpeech="v"/>
@@ -7463,6 +7427,42 @@
       <Lemma writtenForm="wildin&apos;" partOfSpeech="v"/>
       <Sense id="ewn-wildin-ap--v-90002291-01" n="0" synset="ewn-90002291-v" dc:identifier="wildin&apos;%2:29:01::"/>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-wildin-ap--v-90002291-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tear-v-2">
+      <Lemma writtenForm="tear" partOfSpeech="v"/>
+      <Form writtenForm="tore"/>
+      <Form writtenForm="torn"/>
+      <Sense id="ewn-tear-v-00066748-01" n="0" synset="ewn-00066748-v" dc:identifier="tear%2:29:00::">
+        <SenseRelation relType="derivation" target="ewn-tear-n-05412667-01"/> <!-- teardrop, tear -->
+        <SenseRelation relType="derivation" target="ewn-tearing-n-13527046-03"/> <!-- lacrimation, watering, lachrymation, tearing -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s" senses="ewn-tear-v-00066748-01"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recover-v-1">
+      <Lemma writtenForm="recover" partOfSpeech="v"/>
+      <Sense id="ewn-recover-v-00092442-02" n="1" synset="ewn-00092442-v" dc:identifier="recover%2:29:00::">
+        <SenseRelation relType="derivation" target="ewn-recovery-n-13473520-03"/> <!-- recovery, convalescence, recuperation -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-recover-v-00092442-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-recreate-v-1">
+      <Lemma writtenForm="recreate" partOfSpeech="v"/>
+      <Sense id="ewn-recreate-v-00024272-02" n="1" synset="ewn-00024272-v" dc:identifier="recreate%2:29:02::">
+        <SenseRelation relType="derivation" target="ewn-recreation-n-00402591-02"/> <!-- refreshment, recreation -->
+        </Sense>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s somebody" senses="ewn-recreate-v-00024272-02"/>
+      <SyntacticBehaviour subcategorizationFrame="Something ----s somebody" senses="ewn-recreate-v-00024272-02"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lower-v-2">
+      <Lemma writtenForm="lower" partOfSpeech="v"/>
+      <Sense id="ewn-lower-v-00032974-04" n="0" synset="ewn-00032974-v" dc:identifier="lower%2:29:00::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s PP" senses="ewn-lower-v-00032974-04"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-lower-v-00032974-04"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-whoop-v-2">
+      <Lemma writtenForm="whoop" partOfSpeech="v"/>
+      <Sense id="ewn-whoop-v-00006100-02" n="0" synset="ewn-00006100-v" dc:identifier="whoop%2:29:00::"/>
+      <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-whoop-v-00006100-02"/>
     </LexicalEntry>
     <!-- take a breath, suspire, respire, breathe -->
     <Synset id="ewn-00001740-v" ili="i21778" partOfSpeech="v" dc:subject="verb.body">
