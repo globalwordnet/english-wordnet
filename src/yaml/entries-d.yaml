@@ -9478,11 +9478,6 @@ date:
       - 'date%2:41:00::'
       id: 'date%1:18:00::'
       synset: 10012076-n
-    - derivation:
-      - 'date%2:41:01::'
-      - 'date%2:41:00::'
-      id: 'date%1:14:00::'
-      synset: 08401740-n
     - id: 'date%1:28:02::'
       synset: 15145165-n
     - derivation:
@@ -9501,7 +9496,6 @@ date:
     sense:
     - derivation:
       - 'date%1:18:00::'
-      - 'date%1:14:00::'
       id: 'date%2:41:00::'
       subcat:
       - via
@@ -9525,7 +9519,6 @@ date:
       synset: 00620873-v
     - derivation:
       - 'date%1:18:00::'
-      - 'date%1:14:00::'
       id: 'date%2:41:01::'
       subcat:
       - via
@@ -9596,6 +9589,11 @@ date stamp:
       subcat:
       - vtai
       synset: 00737394-v
+date, appointment, engagement:
+  n:
+    sense:
+    - id: 'date,_appointment,_engagement%1:11:01::'
+      synset: 89085494-n
 date-mark:
   v:
     sense:
@@ -33183,7 +33181,6 @@ dine:
       - 'dine_in%2:34:00::'
       - 'dine_out%2:34:00::'
       derivation:
-      - 'dinner%1:14:00::'
       - 'dinner%1:13:00::'
       - 'diner%1:18:00::'
       - 'diner%1:06:01::'
@@ -33194,7 +33191,6 @@ dine:
       - via
       synset: 01170315-v
     - derivation:
-      - 'dinner%1:14:00::'
       - 'dinner%1:13:00::'
       - 'diner%1:06:01::'
       - 'diner%1:06:00::'
@@ -33464,11 +33460,6 @@ dinner:
       - 'dine%2:34:01::'
       id: 'dinner%1:13:00::'
       synset: 07591291-n
-    - derivation:
-      - 'dine%2:34:02::'
-      - 'dine%2:34:01::'
-      id: 'dinner%1:14:00::'
-      synset: 08270736-n
 dinner bell:
   n:
     sense:
@@ -33504,11 +33495,6 @@ dinner pail:
     sense:
     - id: 'dinner_pail%1:06:00::'
       synset: 03206680-n
-dinner party:
-  n:
-    sense:
-    - id: 'dinner_party%1:14:00::'
-      synset: 08270736-n
 dinner plate:
   n:
     sense:
@@ -33539,6 +33525,11 @@ dinner theatre:
     sense:
     - id: 'dinner_theatre%1:06:00::'
       synset: 03207165-n
+dinner, dinner party:
+  n:
+    sense:
+    - id: 'dinner,_dinner_party%1:11:01::'
+      synset: 89528668-n
 dinnertime:
   n:
     sense:
@@ -39010,8 +39001,6 @@ disinterest:
     sense:
     - id: 'disinterest%1:09:01::'
       synset: 06214753-n
-    - id: 'disinterest%1:09:02::'
-      synset: 89776261-n
     - id: 'disinterest%1:09:02::'
       synset: 89776261-n
 disinterested:
@@ -48498,10 +48487,8 @@ double damages:
 double date:
   n:
     sense:
-    - derivation:
-      - 'double-date%2:41:00::'
-      id: 'double_date%1:14:00::'
-      synset: 08402333-n
+    - id: 'double_date%1:11:01::'
+      synset: 80186934-n
 double decomposition:
   n:
     sense:
@@ -48906,9 +48893,7 @@ double-crossing:
 double-date:
   v:
     sense:
-    - derivation:
-      - 'double_date%1:14:00::'
-      id: 'double-date%2:41:00::'
+    - id: 'double-date%2:41:00::'
       subcat:
       - via
       synset: 02491678-v
