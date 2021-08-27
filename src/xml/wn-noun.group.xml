@@ -10786,10 +10786,6 @@
       <Lemma writtenForm="state supreme court" partOfSpeech="n"/>
       <Sense id="ewn-state_supreme_court-n-08353115-02" n="0" synset="ewn-08353115-n" dc:identifier="state_supreme_court%1:14:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-function-n">
-      <Lemma writtenForm="function" partOfSpeech="n"/>
-      <Sense id="ewn-function-n-08269388-01" n="4" synset="ewn-08269388-n" dc:identifier="function%1:14:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-canon_law-n">
       <Lemma writtenForm="canon law" partOfSpeech="n"/>
       <Sense id="ewn-canon_law-n-08470310-01" n="0" synset="ewn-08470310-n" dc:identifier="canon_law%1:14:00::"/>
@@ -18327,6 +18323,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08494923-n"/> <!-- womankind -->
       <SynsetRelation relType="hyponym" target="ewn-08500147-n"/> <!-- chosen people -->
       <SynsetRelation relType="hyponym" target="ewn-09696139-n"/> <!-- Slavic people -->
+      <SynsetRelation relType="hyponym" target="ewn-07989688-n"/> <!-- building -->
       <Example>&quot;old people&quot;</Example>
       <Example>&quot;there were at least 200 people in the audience&quot;</Example>
     </Synset>
@@ -19527,7 +19524,8 @@
     <!-- building -->
     <Synset id="ewn-07989688-n" ili="i79211" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the occupants of a building</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
+      <SynsetRelation relType="hypernym" target="ewn-07958392-n"/> <!-- people -->
+      <SynsetRelation relType="hyponym" target="ewn-07993383-n"/> <!-- pair -->
       <Example>&quot;the entire building complained about the noise&quot;</Example>
     </Synset>
     <!-- broken home -->
@@ -19605,12 +19603,10 @@
     <Synset id="ewn-07991473-n" ili="i79220" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a group of persons together in one place</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07967506-n"/> <!-- social group -->
-      <SynsetRelation relType="hyponym" target="ewn-07989688-n"/> <!-- building -->
       <SynsetRelation relType="hyponym" target="ewn-07992516-n"/> <!-- carload -->
       <SynsetRelation relType="hyponym" target="ewn-07992867-n"/> <!-- contingent -->
       <SynsetRelation relType="hyponym" target="ewn-07993043-n"/> <!-- floor -->
       <SynsetRelation relType="hyponym" target="ewn-07993383-n"/> <!-- pair -->
-      <SynsetRelation relType="hyponym" target="ewn-08002390-n"/> <!-- room -->
       <SynsetRelation relType="hyponym" target="ewn-08002508-n"/> <!-- trio, threesome, trinity, triad -->
       <SynsetRelation relType="hyponym" target="ewn-08003658-n"/> <!-- turnout -->
       <SynsetRelation relType="hyponym" target="ewn-08003822-n"/> <!-- foursome, quartet, quartette -->
@@ -19623,7 +19619,6 @@
       <SynsetRelation relType="hyponym" target="ewn-08199634-n"/> <!-- concourse, throng, multitude -->
       <SynsetRelation relType="hyponym" target="ewn-08238818-n"/> <!-- audience -->
       <SynsetRelation relType="hyponym" target="ewn-08240723-n"/> <!-- community -->
-      <SynsetRelation relType="hyponym" target="ewn-08242502-n"/> <!-- municipality -->
       <SynsetRelation relType="hyponym" target="ewn-08254784-n"/> <!-- dramatis personae, cast, cast of characters -->
       <SynsetRelation relType="hyponym" target="ewn-08255384-n"/> <!-- course, class, grade, form -->
       <SynsetRelation relType="hyponym" target="ewn-08255581-n"/> <!-- class, year -->
@@ -19692,6 +19687,7 @@
       <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08002070-n"/> <!-- couple, twosome, duet, duo -->
       <SynsetRelation relType="hyponym" target="ewn-08247986-n"/> <!-- yoke -->
+      <SynsetRelation relType="hypernym" target="ewn-07989688-n"/> <!-- building -->
     </Synset>
     <!-- hit parade -->
     <Synset id="ewn-07993555-n" ili="i79229" partOfSpeech="n" dc:subject="noun.group">
@@ -20104,7 +20100,6 @@
     <!-- room -->
     <Synset id="ewn-08002390-n" ili="i79249" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the people who are present in a room</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <Example>&quot;the whole room was cheering&quot;</Example>
     </Synset>
     <!-- trio, threesome, trinity, triad -->
@@ -28610,9 +28605,8 @@
     <!-- municipality -->
     <Synset id="ewn-08242502-n" ili="i80336" partOfSpeech="n" dc:subject="noun.group">
       <Definition>people living in a town or city having local self-government</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08243256-n"/> <!-- metropolis, city -->
-      <SynsetRelation relType="hyponym" target="ewn-08243435-n"/> <!-- townsfolk, town, townspeople -->
+      <SynsetRelation relType="hypernym" target="ewn-08243435-n"/> <!-- townsfolk, town, townspeople -->
     </Synset>
     <!-- municipal government -->
     <Synset id="ewn-08242657-n" ili="i80337" partOfSpeech="n" dc:subject="noun.group">
@@ -28644,8 +28638,8 @@
     <!-- townsfolk, town, townspeople -->
     <Synset id="ewn-08243435-n" ili="i80342" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the people living in a municipality smaller than a city</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08242502-n"/> <!-- municipality -->
       <SynsetRelation relType="hyponym" target="ewn-08557579-n"/> <!-- borough -->
+      <SynsetRelation relType="hyponym" target="ewn-08242502-n"/> <!-- municipality -->
       <Example>&quot;the whole town cheered the team&quot;</Example>
     </Synset>
     <!-- small town, settlement, village -->
@@ -29665,16 +29659,9 @@
       <SynsetRelation relType="hyponym" target="ewn-07992356-n"/> <!-- bee -->
       <SynsetRelation relType="hyponym" target="ewn-07993172-n"/> <!-- love feast -->
       <SynsetRelation relType="hyponym" target="ewn-08201779-n"/> <!-- company -->
-      <SynsetRelation relType="hyponym" target="ewn-08269388-n"/> <!-- function -->
       <SynsetRelation relType="hyponym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-08273488-n"/> <!-- supper -->
       <SynsetRelation relType="hyponym" target="ewn-08327319-n"/> <!-- meeting, get together -->
-    </Synset>
-    <!-- function -->
-    <Synset id="ewn-08269388-n" ili="i80499" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>a formal or official social gathering or ceremony</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269132-n"/> <!-- social affair, social gathering -->
-      <Example>&quot;it was a black-tie function&quot;</Example>
     </Synset>
     <!-- party -->
     <Synset id="ewn-08269523-n" ili="i80500" partOfSpeech="n" dc:subject="noun.group">
