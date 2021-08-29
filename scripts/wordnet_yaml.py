@@ -127,10 +127,10 @@ def load():
                  "https://creativecommons.org/licenses/by/4.0",
                  "2020",
                  "https://github.com/globalwordnet/english-wordnet")
-    with open("src/yaml/frames.yaml") as inp:
+    with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
     for f in glob("src/yaml/entries-*.yaml"):
-        with open(f) as inp:
+        with open(f, encoding="utf-8") as inp:
             y = yaml.load(inp, Loader=CLoader)
 
             for lemma, pos_map in y.items():
@@ -150,7 +150,7 @@ def load():
     for f in glob("src/yaml/*.yaml"):
         lex_name = f[9:-5]
         if "entries" not in f and "frames" not in f:
-            with open(f) as inp:
+            with open(f, encoding="utf-8") as inp:
                 y = yaml.load(inp, Loader=CLoader)
 
                 for id, props in y.items():
