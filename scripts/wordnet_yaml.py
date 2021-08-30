@@ -386,11 +386,11 @@ def save(wn, change_list=None):
 
     for c in char_range('a', 'z'):
         if not change_list or c in change_list.entry_files:
-            with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
+            with codecs.open("src/yaml/entries-%s.yaml" % c, "w", "utf-8") as outp:
                 outp.write(yaml.dump(entry_yaml[c], default_flow_style=False,
                     allow_unicode=True))
     if not change_list or '0' in change_list.entry_files:
-        with open("src/yaml/entries-0.yaml", "w") as outp:
+        with codecs.open("src/yaml/entries-0.yaml", "w", "utf-8") as outp:
             outp.write(yaml.dump(entry_yaml['0'], default_flow_style=False,
                 allow_unicode=True))
 
@@ -420,7 +420,7 @@ def save(wn, change_list=None):
 
     for key, synsets in synset_yaml.items():
         if not change_list or key in change_list.lexfiles:
-            with open("src/yaml/%s.yaml" % key, "w") as outp:
+            with codecs.open("src/yaml/%s.yaml" % key, "w", "utf-8") as outp:
                 outp.write(yaml.dump(synsets, default_flow_style=False,
                     allow_unicode=True))
 
