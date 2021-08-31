@@ -32,6 +32,7 @@ def sense_from_yaml(y, lemma, pos, n):
     s = Sense(make_sense_id(y, lemma, pos),
               "ewn-" + y["synset"], map_sense_key(y["id"]), n,
               y.get("adjposition"))
+    s.sent = y.get("sent")
     for rel, targets in y.items():
         if rel in SenseRelType._value2member_map_:
             for target in targets:
@@ -39,6 +40,9 @@ def sense_from_yaml(y, lemma, pos, n):
                 s.add_sense_relation(SenseRelation(
                     map_sense_key(target), SenseRelType(rel)))
     return s
+
+def pronunciation_from_yaml(props):
+    return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
 
 
 def synset_from_yaml(props, id, lex_name):
@@ -145,6 +149,7 @@ def load():
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
                     entry.syntactic_behaviours = syntactic_behaviour_from_yaml(
                         frames, props, lemma, pos)
+                    entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
 
     for f in glob("src/yaml/*.yaml"):
@@ -261,6 +266,8 @@ def sense_to_yaml(wn, s, sb_map):
                     print(f"Dead link from {s.sense_key} to {sr.target}")
     if sb_map[s.id]:
         y["subcat"] = sorted(sb_map[s.id])
+    if s.sent:
+        y["sent"] = s.sent
     return y
 
 
@@ -371,6 +378,13 @@ def save(wn, change_list=None):
                 sb_map[sense].append(sb_name)
 
         e['sense'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
+        if entry.pronunciation:
+            e['pronunciation'] = []
+            for p in entry.pronunciation:
+                if p.variety:
+                    e['pronunciation'].append({'value':p.value, 'variety': p.variety})
+                else:
+                    e['pronunciation'].append({'value':p.value})
 
         first = entry.lemma.written_form[0].lower()
         if first not in char_range('a', 'z'):
@@ -386,11 +400,11 @@ def save(wn, change_list=None):
 
     for c in char_range('a', 'z'):
         if not change_list or c in change_list.entry_files:
-            with open("src/yaml/entries-%s.yaml" % c, "w") as outp:
+            with codecs.open("src/yaml/entries-%s.yaml" % c, "w", "utf-8") as outp:
                 outp.write(yaml.dump(entry_yaml[c], default_flow_style=False,
                     allow_unicode=True))
     if not change_list or '0' in change_list.entry_files:
-        with open("src/yaml/entries-0.yaml", "w") as outp:
+        with codecs.open("src/yaml/entries-0.yaml", "w", "utf-8") as outp:
             outp.write(yaml.dump(entry_yaml['0'], default_flow_style=False,
                 allow_unicode=True))
 
@@ -420,7 +434,7 @@ def save(wn, change_list=None):
 
     for key, synsets in synset_yaml.items():
         if not change_list or key in change_list.lexfiles:
-            with open("src/yaml/%s.yaml" % key, "w") as outp:
+            with codecs.open("src/yaml/%s.yaml" % key, "w", "utf-8") as outp:
                 outp.write(yaml.dump(synsets, default_flow_style=False,
                     allow_unicode=True))
 
