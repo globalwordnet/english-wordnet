@@ -49255,9 +49255,16 @@ cheilosis:
     - id: 'cheilosis%1:26:00::'
       synset: 14081548-n
 chela:
-  n:
-    form:
+  n-1:
+    form: &id001
     - chelae
+    pronunciation:
+    - value: ˈt͡ʃei.lə
+    sense:
+    - id: 'chela%1:18:00::'
+      synset: 09704384-n
+  n-2:
+    form: *id001
     pronunciation:
     - value: ˈkilə
     sense:
@@ -50526,7 +50533,13 @@ chewy:
       id: chewy%5:00:00:elastic:00
       synset: 00847527-s
 chi:
-  n:
+  n-1:
+    pronunciation:
+    - value: tʃiː
+    sense:
+    - id: 'chi%1:26:00::'
+      synset: 14074041-n
+  n-2:
     pronunciation:
     - value: kaɪ
     sense:
@@ -94231,7 +94244,25 @@ content:
       - 'content%1:26:00::'
       id: 'content%3:00:00::'
       synset: 00591490-a
-  n:
+  n-1:
+    pronunciation:
+    - value: ˈkɔn.tɛnt
+    sense:
+    - id: 'content%1:14:00::'
+      synset: 07971643-n
+    - id: 'content%1:10:00::'
+      synset: 06611268-n
+    - id: 'content%1:24:00::'
+      synset: 13838733-n
+    - derivation:
+      - 'contain%2:42:13::'
+      id: 'content%1:23:00::'
+      synset: 13801586-n
+    - id: 'content%1:09:00::'
+      synset: 05817200-n
+    - id: 'content%1:06:00::'
+      synset: 04354303-n
+  n-2:
     pronunciation:
     - value: kənˈtɛnt
     sense:
