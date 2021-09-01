@@ -1723,13 +1723,10 @@
     </LexicalEntry>
     <LexicalEntry id="ewn-convert-v">
       <Lemma writtenForm="convert" partOfSpeech="v"/>
-      <Sense id="ewn-convert-v-01086999-01" n="7" synset="ewn-01086999-v" dc:identifier="convert%2:33:00::"/>
-      <Sense id="ewn-convert-v-01087135-01" n="6" synset="ewn-01087135-v" dc:identifier="convert%2:33:01::"/>
       <Sense id="ewn-convert-v-01087277-01" n="5" synset="ewn-01087277-v" dc:identifier="convert%2:33:02::">
         <SenseRelation relType="derivation" target="ewn-conversion-n-00189955-01"/> <!-- conversion -->
         </Sense>
       <SyntacticBehaviour subcategorizationFrame="Somebody ----s" senses="ewn-convert-v-01087277-01"/>
-      <SyntacticBehaviour subcategorizationFrame="Somebody ----s something" senses="ewn-convert-v-01086999-01 ewn-convert-v-01087135-01"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-fistfight-v">
       <Lemma writtenForm="fistfight" partOfSpeech="v"/>
@@ -5402,24 +5399,8 @@
       <Example>shoot a goal</Example>
     </Synset>
     <!-- convert -->
-    <Synset id="ewn-01086999-v" ili="i27015" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>score (a spare)</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
-      <SynsetRelation relType="domain_topic" target="ewn-00462843-n"/> <!-- bowling -->
-      <SynsetRelation relType="similar" target="ewn-01087135-v"/> <!-- convert -->
-      <SynsetRelation relType="similar" target="ewn-01087277-v"/> <!-- convert -->
-    </Synset>
-    <!-- convert -->
-    <Synset id="ewn-01087135-v" ili="i27016" partOfSpeech="v" dc:subject="verb.competition">
-      <Definition>complete successfully</Definition>
-      <SynsetRelation relType="similar" target="ewn-01086999-v"/> <!-- convert -->
-      <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
-      <Example>score a penalty shot or free throw</Example>
-    </Synset>
-    <!-- convert -->
     <Synset id="ewn-01087277-v" ili="i27017" partOfSpeech="v" dc:subject="verb.competition">
       <Definition>score an extra point or points after touchdown by kicking the ball through the uprights or advancing the ball into the end zone</Definition>
-      <SynsetRelation relType="similar" target="ewn-01086999-v"/> <!-- convert -->
       <SynsetRelation relType="hypernym" target="ewn-01114241-v"/> <!-- score, rack up, hit, tally -->
       <Example>Smith converted and his team won</Example>
     </Synset>
@@ -6394,8 +6375,6 @@
       <SynsetRelation relType="hypernym" target="ewn-01113439-v"/> <!-- get ahead, make headway, gain ground, advance, pull ahead, win, gain -->
       <SynsetRelation relType="hyponym" target="ewn-01086742-v"/> <!-- par -->
       <SynsetRelation relType="hyponym" target="ewn-01086877-v"/> <!-- shoot -->
-      <SynsetRelation relType="hyponym" target="ewn-01086999-v"/> <!-- convert -->
-      <SynsetRelation relType="hyponym" target="ewn-01087135-v"/> <!-- convert -->
       <SynsetRelation relType="hyponym" target="ewn-01087277-v"/> <!-- convert -->
       <SynsetRelation relType="hyponym" target="ewn-01103629-v"/> <!-- homer -->
       <SynsetRelation relType="hyponym" target="ewn-01115404-v"/> <!-- kick -->
