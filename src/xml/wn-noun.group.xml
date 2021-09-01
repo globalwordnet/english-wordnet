@@ -6553,7 +6553,6 @@
     <LexicalEntry id="ewn-ball-n">
       <Lemma writtenForm="ball" partOfSpeech="n"/>
       <Sense id="ewn-ball-n-07977630-01" n="7" synset="ewn-07977630-n" dc:identifier="ball%1:14:01::"/>
-      <Sense id="ewn-ball-n-08270189-01" n="3" synset="ewn-08270189-n" dc:identifier="ball%1:14:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-subgroup-n">
       <Lemma writtenForm="subgroup" partOfSpeech="n"/>
@@ -10785,10 +10784,6 @@
     <LexicalEntry id="ewn-state_supreme_court-n">
       <Lemma writtenForm="state supreme court" partOfSpeech="n"/>
       <Sense id="ewn-state_supreme_court-n-08353115-02" n="0" synset="ewn-08353115-n" dc:identifier="state_supreme_court%1:14:00::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-function-n">
-      <Lemma writtenForm="function" partOfSpeech="n"/>
-      <Sense id="ewn-function-n-08269388-01" n="4" synset="ewn-08269388-n" dc:identifier="function%1:14:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-canon_law-n">
       <Lemma writtenForm="canon law" partOfSpeech="n"/>
@@ -18141,6 +18136,10 @@
       <Lemma writtenForm="content" partOfSpeech="n"/>
       <Sense id="ewn-content-n-07971643-01" n="0" synset="ewn-07971643-n" dc:identifier="content%1:14:00::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-function-n">
+      <Lemma writtenForm="function" partOfSpeech="n"/>
+      <Sense id="ewn-function-n-08269388-01" n="4" synset="ewn-08269388-n" dc:identifier="function%1:14:00::"/>
+    </LexicalEntry>
     <!-- arrangement -->
     <Synset id="ewn-07955013-n" ili="i79043" partOfSpeech="n" dc:subject="noun.group">
       <Definition>an orderly grouping (of things or persons) considered as a unit; the result of arranging</Definition>
@@ -18327,6 +18326,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08494923-n"/> <!-- womankind -->
       <SynsetRelation relType="hyponym" target="ewn-08500147-n"/> <!-- chosen people -->
       <SynsetRelation relType="hyponym" target="ewn-09696139-n"/> <!-- Slavic people -->
+      <SynsetRelation relType="hyponym" target="ewn-07989688-n"/> <!-- building -->
       <Example>old people</Example>
       <Example>there were at least 200 people in the audience</Example>
     </Synset>
@@ -19527,7 +19527,8 @@
     <!-- building -->
     <Synset id="ewn-07989688-n" ili="i79211" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the occupants of a building</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
+      <SynsetRelation relType="hypernym" target="ewn-07958392-n"/> <!-- people -->
+      <SynsetRelation relType="hyponym" target="ewn-07993383-n"/> <!-- pair -->
       <Example>the entire building complained about the noise</Example>
     </Synset>
     <!-- broken home -->
@@ -19605,12 +19606,10 @@
     <Synset id="ewn-07991473-n" ili="i79220" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a group of persons together in one place</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07967506-n"/> <!-- social group -->
-      <SynsetRelation relType="hyponym" target="ewn-07989688-n"/> <!-- building -->
       <SynsetRelation relType="hyponym" target="ewn-07992516-n"/> <!-- carload -->
       <SynsetRelation relType="hyponym" target="ewn-07992867-n"/> <!-- contingent -->
       <SynsetRelation relType="hyponym" target="ewn-07993043-n"/> <!-- floor -->
       <SynsetRelation relType="hyponym" target="ewn-07993383-n"/> <!-- pair -->
-      <SynsetRelation relType="hyponym" target="ewn-08002390-n"/> <!-- room -->
       <SynsetRelation relType="hyponym" target="ewn-08002508-n"/> <!-- trio, threesome, trinity, triad -->
       <SynsetRelation relType="hyponym" target="ewn-08003658-n"/> <!-- turnout -->
       <SynsetRelation relType="hyponym" target="ewn-08003822-n"/> <!-- foursome, quartet, quartette -->
@@ -19623,18 +19622,14 @@
       <SynsetRelation relType="hyponym" target="ewn-08199634-n"/> <!-- concourse, throng, multitude -->
       <SynsetRelation relType="hyponym" target="ewn-08238818-n"/> <!-- audience -->
       <SynsetRelation relType="hyponym" target="ewn-08240723-n"/> <!-- community -->
-      <SynsetRelation relType="hyponym" target="ewn-08242502-n"/> <!-- municipality -->
       <SynsetRelation relType="hyponym" target="ewn-08254784-n"/> <!-- dramatis personae, cast, cast of characters -->
       <SynsetRelation relType="hyponym" target="ewn-08255384-n"/> <!-- course, class, grade, form -->
       <SynsetRelation relType="hyponym" target="ewn-08255581-n"/> <!-- class, year -->
-      <SynsetRelation relType="hyponym" target="ewn-08269132-n"/> <!-- social affair, social gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08290764-n"/> <!-- crowd, crew, bunch, gang -->
       <SynsetRelation relType="hyponym" target="ewn-08327239-n"/> <!-- covey -->
       <SynsetRelation relType="hyponym" target="ewn-08374919-n"/> <!-- quorum -->
-      <SynsetRelation relType="hyponym" target="ewn-08375259-n"/> <!-- mass meeting, rally -->
       <SynsetRelation relType="hyponym" target="ewn-08392296-n"/> <!-- commune -->
       <SynsetRelation relType="hyponym" target="ewn-08419179-n"/> <!-- convocation -->
-      <SynsetRelation relType="hyponym" target="ewn-08425514-n"/> <!-- fair -->
       <SynsetRelation relType="hyponym" target="ewn-08432731-n"/> <!-- bevy -->
       <SynsetRelation relType="hyponym" target="ewn-08446124-n"/> <!-- cortege, suite, retinue, entourage -->
       <SynsetRelation relType="hyponym" target="ewn-08495029-n"/> <!-- camp -->
@@ -19642,8 +19637,9 @@
       <SynsetRelation relType="hyponym" target="ewn-08496806-n"/> <!-- rap group -->
       <SynsetRelation relType="hyponym" target="ewn-08496905-n"/> <!-- rave-up -->
       <SynsetRelation relType="hyponym" target="ewn-08497146-n"/> <!-- table -->
-      <SynsetRelation relType="hyponym" target="ewn-08503199-n"/> <!-- wine tasting -->
-      <SynsetRelation relType="hyponym" target="ewn-08324519-n"/> <!-- group meeting, meeting -->
+      <SynsetRelation relType="hyponym" target="ewn-08269132-n"/> <!-- social affair, social gathering -->
+      <SynsetRelation relType="hyponym" target="ewn-08002390-n"/> <!-- room -->
+      <SynsetRelation relType="hyponym" target="ewn-08242502-n"/> <!-- municipality -->
     </Synset>
     <!-- bee -->
     <Synset id="ewn-07992356-n" ili="i79221" partOfSpeech="n" dc:subject="noun.group">
@@ -19692,6 +19688,7 @@
       <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08002070-n"/> <!-- couple, twosome, duet, duo -->
       <SynsetRelation relType="hyponym" target="ewn-08247986-n"/> <!-- yoke -->
+      <SynsetRelation relType="hypernym" target="ewn-07989688-n"/> <!-- building -->
     </Synset>
     <!-- hit parade -->
     <Synset id="ewn-07993555-n" ili="i79229" partOfSpeech="n" dc:subject="noun.group">
@@ -28610,9 +28607,9 @@
     <!-- municipality -->
     <Synset id="ewn-08242502-n" ili="i80336" partOfSpeech="n" dc:subject="noun.group">
       <Definition>people living in a town or city having local self-government</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08243256-n"/> <!-- metropolis, city -->
       <SynsetRelation relType="hyponym" target="ewn-08243435-n"/> <!-- townsfolk, town, townspeople -->
+      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
     </Synset>
     <!-- municipal government -->
     <Synset id="ewn-08242657-n" ili="i80337" partOfSpeech="n" dc:subject="noun.group">
@@ -28644,8 +28641,8 @@
     <!-- townsfolk, town, townspeople -->
     <Synset id="ewn-08243435-n" ili="i80342" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the people living in a municipality smaller than a city</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08242502-n"/> <!-- municipality -->
       <SynsetRelation relType="hyponym" target="ewn-08557579-n"/> <!-- borough -->
+      <SynsetRelation relType="hypernym" target="ewn-08242502-n"/> <!-- municipality -->
       <Example>the whole town cheered the team</Example>
     </Synset>
     <!-- small town, settlement, village -->
@@ -29661,14 +29658,14 @@
     <!-- social affair, social gathering -->
     <Synset id="ewn-08269132-n" ili="i80498" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a gathering for the purpose of promoting fellowship</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-07992356-n"/> <!-- bee -->
       <SynsetRelation relType="hyponym" target="ewn-07993172-n"/> <!-- love feast -->
       <SynsetRelation relType="hyponym" target="ewn-08201779-n"/> <!-- company -->
-      <SynsetRelation relType="hyponym" target="ewn-08269388-n"/> <!-- function -->
       <SynsetRelation relType="hyponym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-08273488-n"/> <!-- supper -->
       <SynsetRelation relType="hyponym" target="ewn-08327319-n"/> <!-- meeting, get together -->
+      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
+      <SynsetRelation relType="hyponym" target="ewn-08269388-n"/> <!-- function -->
     </Synset>
     <!-- function -->
     <Synset id="ewn-08269388-n" ili="i80499" partOfSpeech="n" dc:subject="noun.group">
@@ -29678,22 +29675,16 @@
     </Synset>
     <!-- party -->
     <Synset id="ewn-08269523-n" ili="i80500" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>a group of people gathered together for pleasure</Definition>
+      <Definition>a gathering of people for pleasure</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08269132-n"/> <!-- social affair, social gathering -->
-      <SynsetRelation relType="hyponym" target="ewn-08269966-n"/> <!-- shindig, shindy -->
       <SynsetRelation relType="hyponym" target="ewn-08270062-n"/> <!-- dance -->
-      <SynsetRelation relType="hyponym" target="ewn-08270371-n"/> <!-- masque, mask, masquerade party, masquerade -->
       <SynsetRelation relType="hyponym" target="ewn-08270736-n"/> <!-- dinner party, dinner -->
-      <SynsetRelation relType="hyponym" target="ewn-08271252-n"/> <!-- reception -->
       <SynsetRelation relType="hyponym" target="ewn-08271914-n"/> <!-- open house -->
       <SynsetRelation relType="hyponym" target="ewn-08272030-n"/> <!-- housewarming -->
       <SynsetRelation relType="hyponym" target="ewn-08272152-n"/> <!-- soiree -->
       <SynsetRelation relType="hyponym" target="ewn-08272429-n"/> <!-- fete champetre, garden party, lawn party -->
-      <SynsetRelation relType="hyponym" target="ewn-08272716-n"/> <!-- shower -->
       <SynsetRelation relType="hyponym" target="ewn-08272926-n"/> <!-- stag party, smoker -->
       <SynsetRelation relType="hyponym" target="ewn-08273072-n"/> <!-- hen party -->
-      <SynsetRelation relType="hyponym" target="ewn-08273150-n"/> <!-- slumber party -->
-      <SynsetRelation relType="hyponym" target="ewn-08273290-n"/> <!-- mixer, social, sociable -->
       <SynsetRelation relType="hyponym" target="ewn-08273656-n"/> <!-- wedding, wedding party -->
       <SynsetRelation relType="hyponym" target="ewn-08495382-n"/> <!-- reunion -->
       <Example>she joined the party after dinner</Example>
@@ -29701,26 +29692,18 @@
     <!-- shindig, shindy -->
     <Synset id="ewn-08269966-n" ili="i80501" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a large and noisy party of people</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- dance -->
     <Synset id="ewn-08270062-n" ili="i80502" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of people assembled for dancing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
-      <SynsetRelation relType="hyponym" target="ewn-08270189-n"/> <!-- ball -->
-    </Synset>
-    <!-- ball -->
-    <Synset id="ewn-08270189-n" ili="i80503" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>the people assembled at a lavish formal dance</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08270062-n"/> <!-- dance -->
-      <SynsetRelation relType="mero_part" target="ewn-00292507-n"/> <!-- promenade -->
-      <Example>the ball was already emptying out before the fire alarm sounded</Example>
     </Synset>
     <!-- masque, mask, masquerade party, masquerade -->
     <Synset id="ewn-08270371-n" ili="i80504" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of guests wearing costumes and masks</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-07463757-n"/> <!-- fancy-dress ball, masked ball, masquerade ball -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- banquet, feast -->
     <Synset id="ewn-08270561-n" ili="i80505" partOfSpeech="n" dc:subject="noun.group">
@@ -29751,11 +29734,11 @@
     <!-- reception -->
     <Synset id="ewn-08271252-n" ili="i80509" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a formal party of people; as after a wedding</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-08271461-n"/> <!-- at home -->
       <SynsetRelation relType="hyponym" target="ewn-08271548-n"/> <!-- levee -->
       <SynsetRelation relType="hyponym" target="ewn-08271797-n"/> <!-- wedding reception -->
       <SynsetRelation relType="mero_part" target="ewn-08450087-n"/> <!-- reception line -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- at home -->
     <Synset id="ewn-08271461-n" ili="i80510" partOfSpeech="n" dc:subject="noun.group">
@@ -29806,7 +29789,7 @@
     <!-- shower -->
     <Synset id="ewn-08272716-n" ili="i80520" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of friends assembled to present gifts (usually of a specified kind) to a person</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
       <Example>her friends organized a baby shower for her when she was expecting</Example>
     </Synset>
     <!-- stag party, smoker -->
@@ -29823,12 +29806,12 @@
     <!-- slumber party -->
     <Synset id="ewn-08273150-n" ili="i80523" partOfSpeech="n" dc:subject="noun.group">
       <Definition>an overnight party of girls who dress in nightclothes and pass the night talking</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- mixer, social, sociable -->
     <Synset id="ewn-08273290-n" ili="i80524" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of people assembled to promote sociability and communal activity</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- supper -->
     <Synset id="ewn-08273488-n" ili="i80525" partOfSpeech="n" dc:subject="noun.group">
@@ -31632,8 +31615,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08327098-n"/> <!-- stockholders meeting -->
       <SynsetRelation relType="hyponym" target="ewn-08329289-n"/> <!-- summit meeting, summit -->
       <SynsetRelation relType="hyponym" target="ewn-08329392-n"/> <!-- town meeting -->
-      <SynsetRelation relType="hyponym" target="ewn-00029677-n"/>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
+      <SynsetRelation relType="hypernym" target="ewn-01232427-n"/>
       <Example>next year the meeting will be in Chicago</Example>
       <Example>the meeting elected a chairperson</Example>
     </Synset>
@@ -33298,9 +33280,9 @@
     <!-- mass meeting, rally -->
     <Synset id="ewn-08375259-n" ili="i81033" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a large gathering of people intended to arouse enthusiasm</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08375419-n"/> <!-- pep rally -->
       <SynsetRelation relType="hyponym" target="ewn-08402874-n"/> <!-- revival meeting, revival -->
+      <SynsetRelation relType="hypernym" target="ewn-01232427-n"/>
     </Synset>
     <!-- pep rally -->
     <Synset id="ewn-08375419-n" ili="i81034" partOfSpeech="n" dc:subject="noun.group">
@@ -35114,9 +35096,9 @@
     <!-- fair -->
     <Synset id="ewn-08425514-n" ili="i81293" partOfSpeech="n" dc:subject="noun.group">
       <Definition>gathering of producers to promote business</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
       <SynsetRelation relType="hyponym" target="ewn-08425375-n"/> <!-- bookfair, book fair -->
       <SynsetRelation relType="hyponym" target="ewn-00523201-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-01232427-n"/>
       <Example>world fair</Example>
       <Example>trade fair</Example>
       <Example>book fair</Example>
@@ -38082,7 +38064,7 @@
     <!-- wine tasting -->
     <Synset id="ewn-08503199-n" ili="i81651" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a gathering of people to taste and compare different wines</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-07991473-n"/> <!-- assemblage, gathering -->
+      <SynsetRelation relType="hypernym" target="ewn-01232427-n"/>
     </Synset>
     <!-- wing -->
     <Synset id="ewn-08503316-n" ili="i81652" partOfSpeech="n" dc:subject="noun.group">
