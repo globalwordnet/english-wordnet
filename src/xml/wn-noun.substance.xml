@@ -1024,11 +1024,6 @@
       <Lemma writtenForm="arsenic acid" partOfSpeech="n"/>
       <Sense id="ewn-arsenic_acid-n-14634525-01" n="0" synset="ewn-14634525-n" dc:identifier="arsenic_acid%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-alum-n">
-      <Lemma writtenForm="alum" partOfSpeech="n"/>
-      <Sense id="ewn-alum-n-14652297-01" n="1" synset="ewn-14652297-n" dc:identifier="alum%1:27:01::"/>
-      <Sense id="ewn-alum-n-14652485-01" n="0" synset="ewn-14652485-n" dc:identifier="alum%1:27:02::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-aquamarine-n">
       <Lemma writtenForm="aquamarine" partOfSpeech="n"/>
       <Sense id="ewn-aquamarine-n-14791842-01" n="0" synset="ewn-14791842-n" dc:identifier="aquamarine%1:27:00::"/>
@@ -4259,10 +4254,6 @@
       <Lemma writtenForm="calcium carbide" partOfSpeech="n"/>
       <Sense id="ewn-calcium_carbide-n-14813257-01" n="0" synset="ewn-14813257-n" dc:identifier="calcium_carbide%1:27:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-lead-n">
-      <Lemma writtenForm="lead" partOfSpeech="n"/>
-      <Sense id="ewn-lead-n-14667645-01" n="1" synset="ewn-14667645-n" dc:identifier="lead%1:27:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-uranyl_oxalate-n">
       <Lemma writtenForm="uranyl oxalate" partOfSpeech="n"/>
       <Sense id="ewn-uranyl_oxalate-n-15109894-01" n="0" synset="ewn-15109894-n" dc:identifier="uranyl_oxalate%1:27:00::"/>
@@ -4298,10 +4289,6 @@
     <LexicalEntry id="ewn-acetyl_chloride-n">
       <Lemma writtenForm="acetyl chloride" partOfSpeech="n"/>
       <Sense id="ewn-acetyl_chloride-n-14833081-01" n="0" synset="ewn-14833081-n" dc:identifier="acetyl_chloride%1:27:00::"/>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-Re-n">
-      <Lemma writtenForm="Re" partOfSpeech="n"/>
-      <Sense id="ewn-Re-n-14676569-02" n="0" synset="ewn-14676569-n" dc:identifier="re%1:27:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-atomic_number_47-n">
       <Lemma writtenForm="atomic number 47" partOfSpeech="n"/>
@@ -21031,17 +21018,30 @@
       <Lemma writtenForm="phalloidin" partOfSpeech="n"/>
       <Sense id="ewn-phalloidin-n-92406062-00" n="2" synset="ewn-92406062-n" dc:identifier="phalloidin%1:27:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-Re-n-1">
+      <Lemma writtenForm="Re" partOfSpeech="n"/>
+      <Sense id="ewn-Re-n-14676569-02" n="0" synset="ewn-14676569-n" dc:identifier="re%1:27:00::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-alum-n-1">
+      <Lemma writtenForm="alum" partOfSpeech="n"/>
+      <Sense id="ewn-alum-n-14652485-01" n="0" synset="ewn-14652485-n" dc:identifier="alum%1:27:02::"/>
+      <Sense id="ewn-alum-n-14652297-01" n="1" synset="ewn-14652297-n" dc:identifier="alum%1:27:01::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lead-n-2">
+      <Lemma writtenForm="lead" partOfSpeech="n"/>
+      <Sense id="ewn-lead-n-14667645-01" n="0" synset="ewn-14667645-n" dc:identifier="lead%1:27:00::"/>
+    </LexicalEntry>
     <!-- substance -->
     <Synset id="ewn-14604577-n" ili="i113649" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material of a particular kind or constitution</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
-      <Example>&quot;the immune response recognizes invading substances&quot;</Example>
+      <Example>the immune response recognizes invading substances</Example>
     </Synset>
     <!-- chemistry -->
     <Synset id="ewn-14604732-n" ili="i113650" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the chemical composition and properties of a substance or object</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00019793-n"/> <!-- substance -->
-      <Example>&quot;the chemistry of soil&quot;</Example>
+      <Example>the chemistry of soil</Example>
     </Synset>
     <!-- material, stuff -->
     <Synset id="ewn-14604877-n" ili="i113651" partOfSpeech="n" dc:subject="noun.substance">
@@ -21104,15 +21104,15 @@
       <SynsetRelation relType="hyponym" target="ewn-92467777-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92462439-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92462434-n"/>
-      <Example>&quot;coal is a hard black material&quot;</Example>
-      <Example>&quot;wheat is the stuff they use to make bread&quot;</Example>
+      <Example>coal is a hard black material</Example>
+      <Example>wheat is the stuff they use to make bread</Example>
     </Synset>
     <!-- recycling -->
     <Synset id="ewn-14606023-n" ili="in" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>used or abandoned materials for use in creating new products</Definition>
       <ILIDefinition>used or abandoned materials for use in creating new products</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;Every Monday, we put our recycling out on the curb for pick-up&quot;</Example>
+      <Example>Every Monday, we put our recycling out on the curb for pick-up</Example>
     </Synset>
     <!-- ylem -->
     <Synset id="ewn-14606205-n" ili="i113652" partOfSpeech="n" dc:subject="noun.substance">
@@ -21168,7 +21168,7 @@
     <Synset id="ewn-14607850-n" ili="i113661" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>worthless or dangerous material that should be removed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14880414-n"/> <!-- waste matter, waste material, waste, waste product -->
-      <Example>&quot;there were impurities in the water&quot;</Example>
+      <Example>there were impurities in the water</Example>
     </Synset>
     <!-- acceptor -->
     <Synset id="ewn-14608023-n" ili="i113662" partOfSpeech="n" dc:subject="noun.substance">
@@ -21260,7 +21260,7 @@
     <Synset id="ewn-14610299-n" ili="i113676" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an abbreviation for `hazardous material&apos; used on warning signs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;NO HAZMATS IN TUNNEL&quot;</Example>
+      <Example>NO HAZMATS IN TUNNEL</Example>
     </Synset>
     <!-- mixture -->
     <Synset id="ewn-14610438-n" ili="i113677" partOfSpeech="n" dc:subject="noun.substance">
@@ -21325,7 +21325,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15082000-n"/> <!-- sterling silver -->
       <SynsetRelation relType="hyponym" target="ewn-15100258-n"/> <!-- tombac, tambac, tombak -->
       <SynsetRelation relType="hyponym" target="ewn-15128478-n"/> <!-- Wood's metal, Wood's alloy -->
-      <Example>&quot;brass is an alloy of zinc and copper&quot;</Example>
+      <Example>brass is an alloy of zinc and copper</Example>
     </Synset>
     <!-- botulinum toxin -->
     <Synset id="ewn-14611868-n" ili="i113679" partOfSpeech="n" dc:subject="noun.substance">
@@ -21415,7 +21415,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92462003-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92462153-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92462192-n"/>
-      <Example>&quot;he used a solution of peroxide and water&quot;</Example>
+      <Example>he used a solution of peroxide and water</Example>
     </Synset>
     <!-- aqueous solution -->
     <Synset id="ewn-14614092-n" ili="i113688" partOfSpeech="n" dc:subject="noun.substance">
@@ -21599,7 +21599,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14645624-n"/> <!-- radical, chemical group, group -->
       <SynsetRelation relType="hyponym" target="ewn-14618636-n"/> <!-- acetyl, acetyl radical, ethanoyl group, ethanoyl radical, acetyl group -->
       <SynsetRelation relType="hyponym" target="ewn-14884606-n"/> <!-- foryml -->
-      <Example>&quot;an example of the acyl group is the acetyl group&quot;</Example>
+      <Example>an example of the acyl group is the acetyl group</Example>
     </Synset>
     <!-- aggregate -->
     <Synset id="ewn-14619105-n" ili="i113717" partOfSpeech="n" dc:subject="noun.substance">
@@ -21637,7 +21637,7 @@
       <Definition>a polymer of styrene; a rigid transparent thermoplastic</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14619723-n"/> <!-- styrene, cinnamene, vinylbenzene, phenylethylene -->
       <SynsetRelation relType="hyponym" target="ewn-14620113-n"/> <!-- Styrofoam -->
-      <Example>&quot;expanded polystyrene looks like a rigid white foam and is used as packing or insulation&quot;</Example>
+      <Example>expanded polystyrene looks like a rigid white foam and is used as packing or insulation</Example>
     </Synset>
     <!-- Styrofoam -->
     <Synset id="ewn-14620113-n" ili="i113724" partOfSpeech="n" dc:subject="noun.substance">
@@ -21881,7 +21881,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15107091-n"/> <!-- tyramine -->
       <SynsetRelation relType="hyponym" target="ewn-15107333-n"/> <!-- tyrosine -->
       <SynsetRelation relType="hyponym" target="ewn-92465468-n"/>
-      <Example>&quot;proteins are composed of various proportions of about 20 common amino acids&quot;</Example>
+      <Example>proteins are composed of various proportions of about 20 common amino acids</Example>
     </Synset>
     <!-- alanine -->
     <Synset id="ewn-14626668-n" ili="i113760" partOfSpeech="n" dc:subject="noun.substance">
@@ -21928,7 +21928,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14901385-n"/> <!-- greenhouse gas, greenhouse emission -->
       <SynsetRelation relType="hyponym" target="ewn-14637308-n"/> <!-- HCFC, hydrochlorofluorocarbon -->
       <SynsetRelation relType="hyponym" target="ewn-14898882-n"/> <!-- Freon -->
-      <Example>&quot;the chlorine in CFCs causes depletion of atmospheric ozone&quot;</Example>
+      <Example>the chlorine in CFCs causes depletion of atmospheric ozone</Example>
     </Synset>
     <!-- CS gas, chlorobenzylidenemalononitrile -->
     <Synset id="ewn-14627976-n" ili="i113768" partOfSpeech="n" dc:subject="noun.substance">
@@ -22281,7 +22281,7 @@
     <Synset id="ewn-14637150-n" ili="i113816" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>(HI) a colorless or yellow aqueous solution of hydrogen iodide</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14631699-n"/> <!-- acid -->
-      <Example>&quot;hydriodic acid is a strong acid&quot;</Example>
+      <Example>hydriodic acid is a strong acid</Example>
     </Synset>
     <!-- HCFC, hydrochlorofluorocarbon -->
     <Synset id="ewn-14637308-n" ili="i113817" partOfSpeech="n" dc:subject="noun.substance">
@@ -22434,7 +22434,7 @@
     <Synset id="ewn-14641117-n" ili="i113844" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>any substance that lessens the purity or effectiveness of a substance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
-      <Example>&quot;it is necessary to remove the adulterants before use&quot;</Example>
+      <Example>it is necessary to remove the adulterants before use</Example>
     </Synset>
     <!-- alkyl group, alkyl radical, alkyl -->
     <Synset id="ewn-14641367-n" ili="i113845" partOfSpeech="n" dc:subject="noun.substance">
@@ -22484,13 +22484,13 @@
       <SynsetRelation relType="hyponym" target="ewn-14940821-n"/> <!-- glyoxaline, iminazole, imidazole -->
       <SynsetRelation relType="hyponym" target="ewn-14973885-n"/> <!-- melamine, cyanuramide -->
       <SynsetRelation relType="hyponym" target="ewn-15024480-n"/> <!-- pyrimidine -->
-      <Example>&quot;bases include oxides and hydroxides of metals and ammonia&quot;</Example>
+      <Example>bases include oxides and hydroxides of metals and ammonia</Example>
     </Synset>
     <!-- base metal -->
     <Synset id="ewn-14642852-n" ili="i113853" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a metal that is common and not considered precious</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14649636-n"/> <!-- metal, metallic element -->
-      <Example>&quot;lead, iron, copper, tin, and zinc are base metals&quot;</Example>
+      <Example>lead, iron, copper, tin, and zinc are base metals</Example>
     </Synset>
     <!-- binary compound -->
     <Synset id="ewn-14643012-n" ili="i113854" partOfSpeech="n" dc:subject="noun.substance">
@@ -22703,7 +22703,7 @@
     <Synset id="ewn-14648203-n" ili="i113875" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a structurally different form of an element</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14647071-n"/> <!-- element, chemical element -->
-      <Example>&quot;graphite and diamond are allotropes of carbon&quot;</Example>
+      <Example>graphite and diamond are allotropes of carbon</Example>
     </Synset>
     <!-- transuranic element -->
     <Synset id="ewn-14648369-n" ili="i113876" partOfSpeech="n" dc:subject="noun.substance">
@@ -22922,7 +22922,7 @@
     <Synset id="ewn-14653950-n" ili="i113897" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a synthetic compound derived from triazine that is widely used as an agricultural herbicide</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14931001-n"/> <!-- weed killer, herbicide, weedkiller -->
-      <Example>&quot;atrazine is thought to cause cancer and is banned in some European countries&quot;</Example>
+      <Example>atrazine is thought to cause cancer and is banned in some European countries</Example>
     </Synset>
     <!-- atomic number 56, Ba, barium -->
     <Synset id="ewn-14654176-n" ili="i113898" partOfSpeech="n" dc:subject="noun.substance">
@@ -23347,7 +23347,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14929348-n"/> <!-- antimonial lead, hard lead -->
       <SynsetRelation relType="hyponym" target="ewn-15008253-n"/> <!-- pig lead -->
       <SynsetRelation relType="hypernym" target="ewn-92464177-n"/>
-      <Example>&quot;the children were playing with lead soldiers&quot;</Example>
+      <Example>the children were playing with lead soldiers</Example>
     </Synset>
     <!-- atomic number 3, Li, lithium -->
     <Synset id="ewn-14667971-n" ili="i113960" partOfSpeech="n" dc:subject="noun.substance">
@@ -24346,7 +24346,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14612399-n"/> <!-- colloid -->
       <SynsetRelation relType="domain_topic" target="ewn-06094057-n"/> <!-- chemical science, chemistry -->
       <SynsetRelation relType="hyponym" target="ewn-92431264-n"/>
-      <Example>&quot;an oil-in-water emulsion&quot;</Example>
+      <Example>an oil-in-water emulsion</Example>
     </Synset>
     <!-- cobalt bloom, erythrite -->
     <Synset id="ewn-14698937-n" ili="i114093" partOfSpeech="n" dc:subject="noun.substance">
@@ -24783,8 +24783,8 @@
     <Synset id="ewn-14710347-n" ili="i114159" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>fuel that is burning and is used as a means for cooking</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14899228-n"/> <!-- fuel -->
-      <Example>&quot;put the kettle on the fire&quot;</Example>
-      <Example>&quot;barbecue over an open fire&quot;</Example>
+      <Example>put the kettle on the fire</Example>
+      <Example>barbecue over an open fire</Example>
     </Synset>
     <!-- fossil fuel -->
     <Synset id="ewn-14710513-n" ili="i114160" partOfSpeech="n" dc:subject="noun.substance">
@@ -24823,7 +24823,7 @@
     <Synset id="ewn-14711422-n" ili="i114164" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>gasoline treated with a lead compound to reduce motor knocks</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14711074-n"/> <!-- petrol, gas, gasolene, gasoline -->
-      <Example>&quot;combustion of leaded gasoline released lead into the air where it could cause lead poisoning&quot;</Example>
+      <Example>combustion of leaded gasoline released lead into the air where it could cause lead poisoning</Example>
     </Synset>
     <!-- illuminant -->
     <Synset id="ewn-14711674-n" ili="i114165" partOfSpeech="n" dc:subject="noun.substance">
@@ -25165,7 +25165,7 @@
       <Definition>a toxic protein extracted from castor beans; used as a chemical reagent; can be used as a bioweapon</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14755688-n"/> <!-- albumen, albumin -->
       <SynsetRelation relType="hypernym" target="ewn-15058641-n"/> <!-- toxin -->
-      <Example>&quot;one milligram of ricin can kill an adult&quot;</Example>
+      <Example>one milligram of ricin can kill an adult</Example>
     </Synset>
     <!-- road metal -->
     <Synset id="ewn-14720851-n" ili="i114223" partOfSpeech="n" dc:subject="noun.substance">
@@ -25200,8 +25200,8 @@
       <SynsetRelation relType="hyponym" target="ewn-14971945-n"/> <!-- marble -->
       <SynsetRelation relType="hyponym" target="ewn-14973365-n"/> <!-- matrix -->
       <SynsetRelation relType="hyponym" target="ewn-14960364-n"/> <!-- limestone -->
-      <Example>&quot;that mountain is solid rock&quot;</Example>
-      <Example>&quot;stone is abundant in New England and there are many quarries&quot;</Example>
+      <Example>that mountain is solid rock</Example>
+      <Example>stone is abundant in New England and there are many quarries</Example>
     </Synset>
     <!-- arenaceous rock -->
     <Synset id="ewn-14721646-n" ili="i114225" partOfSpeech="n" dc:subject="noun.substance">
@@ -25305,8 +25305,8 @@
       <SynsetRelation relType="hyponym" target="ewn-14994225-n"/> <!-- opaque gem -->
       <SynsetRelation relType="hyponym" target="ewn-15102617-n"/> <!-- transparent gem -->
       <SynsetRelation relType="hyponym" target="ewn-92467581-n"/>
-      <Example>&quot;he had the gem set in a ring for his wife&quot;</Example>
-      <Example>&quot;she had jewels made of all the rarest stones&quot;</Example>
+      <Example>he had the gem set in a ring for his wife</Example>
+      <Example>she had jewels made of all the rarest stones</Example>
     </Synset>
     <!-- cabochon -->
     <Synset id="ewn-14724207-n" ili="i114241" partOfSpeech="n" dc:subject="noun.substance">
@@ -25555,7 +25555,7 @@
     <Synset id="ewn-14730533-n" ili="i114279" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>any glutinous material used to fill pores in surfaces or to stiffen fabrics</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14730187-n"/> <!-- filler -->
-      <Example>&quot;size gives body to a fabric&quot;</Example>
+      <Example>size gives body to a fabric</Example>
     </Synset>
     <!-- purine -->
     <Synset id="ewn-14730735-n" ili="i114280" partOfSpeech="n" dc:subject="noun.substance">
@@ -25587,8 +25587,8 @@
     <Synset id="ewn-14731522-n" ili="i114284" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an enzyme found in mammals that can catalyze the deamination of adenosine into inosine and ammonia</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14757125-n"/> <!-- enzyme -->
-      <Example>&quot;ADA deficiency can lead to one form of severe combined immunodeficiency disease&quot;</Example>
-      <Example>&quot;the gene encoding ADA was one of the earlier human genes to be isolated and cloned for study&quot;</Example>
+      <Example>ADA deficiency can lead to one form of severe combined immunodeficiency disease</Example>
+      <Example>the gene encoding ADA was one of the earlier human genes to be isolated and cloned for study</Example>
     </Synset>
     <!-- adenosine monophosphate, adenylic acid, AMP -->
     <Synset id="ewn-14731871-n" ili="i114285" partOfSpeech="n" dc:subject="noun.substance">
@@ -25726,7 +25726,7 @@
     <Synset id="ewn-14735525-n" ili="i114306" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a white crystalline amide of propenoic acid can damage the nervous system and is carcinogenic in laboratory animals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14748425-n"/> <!-- amide -->
-      <Example>&quot;they claimed that acrylamide is produced when certain carbohydrates are baked or fried at high temperatures&quot;</Example>
+      <Example>they claimed that acrylamide is produced when certain carbohydrates are baked or fried at high temperatures</Example>
     </Synset>
     <!-- agglomerate -->
     <Synset id="ewn-14735808-n" ili="i114307" partOfSpeech="n" dc:subject="noun.substance">
@@ -25748,7 +25748,7 @@
     <Synset id="ewn-14736385-n" ili="i114310" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>any of the monovalent metals of group I of the periodic table (lithium or sodium or potassium or rubidium or cesium or francium)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14649636-n"/> <!-- metal, metallic element -->
-      <Example>&quot;the hydroxides of the alkali metals are strongly alkaline&quot;</Example>
+      <Example>the hydroxides of the alkali metals are strongly alkaline</Example>
     </Synset>
     <!-- alkaline earth, alkaline-earth metal -->
     <Synset id="ewn-14736650-n" ili="i114311" partOfSpeech="n" dc:subject="noun.substance">
@@ -26402,7 +26402,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14890317-n"/> <!-- ferritin -->
       <SynsetRelation relType="hyponym" target="ewn-15051756-n"/> <!-- antibody -->
       <SynsetRelation relType="hyponym" target="ewn-92406801-n"/>
-      <Example>&quot;a diet high in protein&quot;</Example>
+      <Example>a diet high in protein</Example>
     </Synset>
     <!-- recombinant protein -->
     <Synset id="ewn-14753812-n" ili="i114400" partOfSpeech="n" dc:subject="noun.substance">
@@ -26579,7 +26579,7 @@
     <Synset id="ewn-14758343-n" ili="i114421" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the main protein of the keratohyalin granules</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14752903-n"/> <!-- protein -->
-      <Example>&quot;the specific target of the immune response in rheumatoid arthritis is filaggrin&quot;</Example>
+      <Example>the specific target of the immune response in rheumatoid arthritis is filaggrin</Example>
     </Synset>
     <!-- growth factor -->
     <Synset id="ewn-14758527-n" ili="i114422" partOfSpeech="n" dc:subject="noun.substance">
@@ -26718,13 +26718,13 @@
     <Synset id="ewn-14762231-n" ili="i114444" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an enzyme that regulates prostaglandins that are important for the health of the stomach lining and kidneys</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14762026-n"/> <!-- Cox, cyclooxygenase -->
-      <Example>&quot;an unfortunate side effect of NSAIDs is that they block Cox-1&quot;</Example>
+      <Example>an unfortunate side effect of NSAIDs is that they block Cox-1</Example>
     </Synset>
     <!-- Cox-2, cyclooxygenase-2 -->
     <Synset id="ewn-14762474-n" ili="i114445" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an enzyme that makes prostaglandins that cause inflammation and pain and fever</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14762026-n"/> <!-- Cox, cyclooxygenase -->
-      <Example>&quot;the beneficial effects of NSAIDs result from their ability to block Cox-2&quot;</Example>
+      <Example>the beneficial effects of NSAIDs result from their ability to block Cox-2</Example>
     </Synset>
     <!-- ptyalin -->
     <Synset id="ewn-14762700-n" ili="i114446" partOfSpeech="n" dc:subject="noun.substance">
@@ -27178,7 +27178,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14777987-n"/> <!-- Decadron, Oradexon, Hexadrol, Dexamethasone Intensol, dexamethasone, Dexone -->
       <SynsetRelation relType="hyponym" target="ewn-14778371-n"/> <!-- spironolactone, Aldactone -->
       <SynsetRelation relType="hyponym" target="ewn-15103335-n"/> <!-- triamcinolone, Aristopak, Aristocort, Kenalog -->
-      <Example>&quot;adrenal cortical steroids are used to treat many different conditions&quot;</Example>
+      <Example>adrenal cortical steroids are used to treat many different conditions</Example>
     </Synset>
     <!-- mineralocorticoid -->
     <Synset id="ewn-14776042-n" ili="i114513" partOfSpeech="n" dc:subject="noun.substance">
@@ -27595,7 +27595,7 @@
     <Synset id="ewn-14787025-n" ili="i114574" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>soft smooth leather from the hide of a young goat</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14783901-n"/> <!-- leather -->
-      <Example>&quot;kid gloves&quot;</Example>
+      <Example>kid gloves</Example>
     </Synset>
     <!-- mocha -->
     <Synset id="ewn-14787148-n" ili="i114575" partOfSpeech="n" dc:subject="noun.substance">
@@ -27757,7 +27757,7 @@
     <Synset id="ewn-14790219-n" ili="i114602" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the pelt or fur (especially the underfur) of a seal</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14788240-n"/> <!-- fur, pelt -->
-      <Example>&quot;a coat of seal&quot;</Example>
+      <Example>a coat of seal</Example>
     </Synset>
     <!-- squirrel -->
     <Synset id="ewn-14790368-n" ili="i114603" partOfSpeech="n" dc:subject="noun.substance">
@@ -28480,7 +28480,7 @@
     <Synset id="ewn-14809356-n" ili="i114723" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the wood from bushes or small branches</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15122728-n"/> <!-- wood -->
-      <Example>&quot;they built a fire of brushwood&quot;</Example>
+      <Example>they built a fire of brushwood</Example>
     </Synset>
     <!-- native sulfur, brimstone, native sulphur -->
     <Synset id="ewn-14809484-n" ili="i114724" partOfSpeech="n" dc:subject="noun.substance">
@@ -28591,7 +28591,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14779983-n"/> <!-- animal material -->
       <SynsetRelation relType="hyponym" target="ewn-14807197-n"/> <!-- bone fat -->
       <SynsetRelation relType="hyponym" target="ewn-14811877-n"/> <!-- butterfat -->
-      <Example>&quot;animal fat is high in saturated fatty acids&quot;</Example>
+      <Example>animal fat is high in saturated fatty acids</Example>
     </Synset>
     <!-- butterfat -->
     <Synset id="ewn-14811877-n" ili="i114739" partOfSpeech="n" dc:subject="noun.substance">
@@ -28602,7 +28602,7 @@
     <Synset id="ewn-14811986-n" ili="i114740" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>moderately dense wood used for cabinetwork</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15122728-n"/> <!-- wood -->
-      <Example>&quot;teak and other heavy cabinet wood&quot;</Example>
+      <Example>teak and other heavy cabinet wood</Example>
     </Synset>
     <!-- methyl ethyl ketone, butanone -->
     <Synset id="ewn-14812124-n" ili="i114741" partOfSpeech="n" dc:subject="noun.substance">
@@ -28915,8 +28915,8 @@
     <Synset id="ewn-14820918-n" ili="i114792" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>graphite (or a similar substance) used in such a way as to be a medium of communication</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14820745-n"/> <!-- black lead, plumbago, graphite -->
-      <Example>&quot;the words were scribbled in pencil&quot;</Example>
-      <Example>&quot;this artist&apos;s favorite medium is pencil&quot;</Example>
+      <Example>the words were scribbled in pencil</Example>
+      <Example>this artist&apos;s favorite medium is pencil</Example>
     </Synset>
     <!-- CO2, carbon dioxide, carbonic acid gas -->
     <Synset id="ewn-14821139-n" ili="i114793" partOfSpeech="n" dc:subject="noun.substance">
@@ -29200,7 +29200,7 @@
     <Synset id="ewn-14828657-n" ili="i114836" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>concrete pavement is sometimes referred to as cement</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14844350-n"/> <!-- concrete -->
-      <Example>&quot;they stood on the grey cement beside the pool&quot;</Example>
+      <Example>they stood on the grey cement beside the pool</Example>
     </Synset>
     <!-- cement -->
     <Synset id="ewn-14828811-n" ili="i114837" partOfSpeech="n" dc:subject="noun.substance">
@@ -29815,7 +29815,7 @@
     <Synset id="ewn-14844026-n" ili="i114922" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>any of several different crystalline forms of the same chemical compound</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14842408-n"/> <!-- chemical compound, compound -->
-      <Example>&quot;calcium carbonate occurs in the allomorphs calcite and aragonite&quot;</Example>
+      <Example>calcium carbonate occurs in the allomorphs calcite and aragonite</Example>
     </Synset>
     <!-- computer paper -->
     <Synset id="ewn-14844222-n" ili="i114923" partOfSpeech="n" dc:subject="noun.substance">
@@ -29895,9 +29895,9 @@
       <Definition>a fluid agent (gas or liquid) that produces cooling; especially one used to cool a system by transferring heat away from one part to another</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14964038-n"/> <!-- fluid -->
       <SynsetRelation relType="hypernym" target="ewn-14802595-n"/> <!-- agent -->
-      <Example>&quot;he added more coolant to the car&apos;s radiator&quot;</Example>
-      <Example>&quot;the atomic reactor used a gas coolant&quot;</Example>
-      <Example>&quot;lathe operators use an emulsion of oil and water as a coolant for the cutting tool&quot;</Example>
+      <Example>he added more coolant to the car&apos;s radiator</Example>
+      <Example>the atomic reactor used a gas coolant</Example>
+      <Example>lathe operators use an emulsion of oil and water as a coolant for the cutting tool</Example>
     </Synset>
     <!-- copper-base alloy -->
     <Synset id="ewn-14846733-n" ili="i114935" partOfSpeech="n" dc:subject="noun.substance">
@@ -30199,13 +30199,13 @@
       <SynsetRelation relType="mero_part" target="ewn-14988268-n"/> <!-- nucleic acid -->
       <SynsetRelation relType="mero_substance" target="ewn-15097424-n"/> <!-- T, thymine -->
       <SynsetRelation relType="mero_part" target="ewn-92463178-n"/>
-      <Example>&quot;DNA is the king of molecules&quot;</Example>
+      <Example>DNA is the king of molecules</Example>
     </Synset>
     <!-- coding DNA, exon -->
     <Synset id="ewn-14855162-n" ili="i114986" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>sequence of a gene&apos;s DNA that transcribes into protein structures</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14854534-n"/> <!-- deoxyribonucleic acid, DNA, desoxyribonucleic acid -->
-      <Example>&quot;exons are interspersed with introns&quot;</Example>
+      <Example>exons are interspersed with introns</Example>
     </Synset>
     <!-- intron, noncoding DNA -->
     <Synset id="ewn-14855348-n" ili="i114987" partOfSpeech="n" dc:subject="noun.substance">
@@ -30216,7 +30216,7 @@
     <Synset id="ewn-14855508-n" ili="i114988" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>stretches of DNA that do not code for genes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14854534-n"/> <!-- deoxyribonucleic acid, DNA, desoxyribonucleic acid -->
-      <Example>&quot;most of the genome consists of junk DNA&quot;</Example>
+      <Example>most of the genome consists of junk DNA</Example>
     </Synset>
     <!-- recombinant deoxyribonucleic acid, recombinant DNA -->
     <Synset id="ewn-14855649-n" ili="i114989" partOfSpeech="n" dc:subject="noun.substance">
@@ -30252,7 +30252,7 @@
       <SynsetRelation relType="mero_substance" target="ewn-14916289-n"/> <!-- G, guanine -->
       <SynsetRelation relType="mero_part" target="ewn-14988268-n"/> <!-- nucleic acid -->
       <SynsetRelation relType="mero_substance" target="ewn-15108924-n"/> <!-- U, uracil -->
-      <Example>&quot;ribonucleic acid is the genetic material of some viruses&quot;</Example>
+      <Example>ribonucleic acid is the genetic material of some viruses</Example>
     </Synset>
     <!-- messenger RNA, informational RNA, template RNA, mRNA -->
     <Synset id="ewn-14856940-n" ili="i114994" partOfSpeech="n" dc:subject="noun.substance">
@@ -30299,7 +30299,7 @@
     <Synset id="ewn-14858302-n" ili="i115002" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>water that has condensed on a cool surface overnight from water vapor in the air</Definition>
       <SynsetRelation relType="hypernym" target="ewn-11466338-n"/> <!-- condensation, condensate -->
-      <Example>&quot;in the morning the grass was wet with dew&quot;</Example>
+      <Example>in the morning the grass was wet with dew</Example>
     </Synset>
     <!-- dextrin -->
     <Synset id="ewn-14858495-n" ili="i115003" partOfSpeech="n" dc:subject="noun.substance">
@@ -30500,7 +30500,7 @@
     <Synset id="ewn-14863868-n" ili="i115038" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>dust resulting from writing with a piece of chalk</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14864016-n"/> <!-- dust -->
-      <Example>&quot;chalk dust covered the teacher&apos;s hands&quot;</Example>
+      <Example>chalk dust covered the teacher&apos;s hands</Example>
     </Synset>
     <!-- dust -->
     <Synset id="ewn-14864016-n" ili="i115039" partOfSpeech="n" dc:subject="noun.substance">
@@ -30508,14 +30508,14 @@
       <SynsetRelation relType="hypernym" target="ewn-14863609-n"/> <!-- particulate matter, particulate -->
       <SynsetRelation relType="hyponym" target="ewn-14863868-n"/> <!-- chalk dust -->
       <SynsetRelation relType="hyponym" target="ewn-14883101-n"/> <!-- fallout, radioactive dust -->
-      <Example>&quot;the furniture was covered with dust&quot;</Example>
+      <Example>the furniture was covered with dust</Example>
     </Synset>
     <!-- dust -->
     <Synset id="ewn-14864262-n" ili="i115040" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>free microscopic particles of solid material</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
       <SynsetRelation relType="hyponym" target="ewn-09337169-n"/> <!-- interplanetary dust -->
-      <Example>&quot;astronomers say that the empty space between planets actually contains measurable amounts of dust&quot;</Example>
+      <Example>astronomers say that the empty space between planets actually contains measurable amounts of dust</Example>
     </Synset>
     <!-- elaidic acid -->
     <Synset id="ewn-14864512-n" ili="i115041" partOfSpeech="n" dc:subject="noun.substance">
@@ -30537,7 +30537,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14868584-n"/> <!-- earth -->
       <SynsetRelation relType="hyponym" target="ewn-14871273-n"/> <!-- ether, quintessence -->
       <SynsetRelation relType="hyponym" target="ewn-14871527-n"/> <!-- water -->
-      <Example>&quot;the alchemists believed that there were four elements&quot;</Example>
+      <Example>the alchemists believed that there were four elements</Example>
     </Synset>
     <!-- elixir -->
     <Synset id="ewn-14865226-n" ili="i115044" partOfSpeech="n" dc:subject="noun.substance">
@@ -30558,17 +30558,17 @@
       <SynsetRelation relType="hyponym" target="ewn-14865940-n"/> <!-- breath -->
       <SynsetRelation relType="hyponym" target="ewn-14866093-n"/> <!-- hot air -->
       <SynsetRelation relType="hyponym" target="ewn-14964994-n"/> <!-- liquid air -->
-      <Example>&quot;air pollution&quot;</Example>
-      <Example>&quot;a smell of chemicals in the air&quot;</Example>
-      <Example>&quot;open a window and let in some air&quot;</Example>
-      <Example>&quot;I need some fresh air&quot;</Example>
+      <Example>air pollution</Example>
+      <Example>a smell of chemicals in the air</Example>
+      <Example>open a window and let in some air</Example>
+      <Example>I need some fresh air</Example>
     </Synset>
     <!-- breath -->
     <Synset id="ewn-14865940-n" ili="i115046" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the air that is inhaled and exhaled in respiration</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14865437-n"/> <!-- air -->
       <SynsetRelation relType="hyponym" target="ewn-14866261-n"/> <!-- halitus, exhalation -->
-      <Example>&quot;his sour breath offended her&quot;</Example>
+      <Example>his sour breath offended her</Example>
     </Synset>
     <!-- hot air -->
     <Synset id="ewn-14866093-n" ili="i115047" partOfSpeech="n" dc:subject="noun.substance">
@@ -30598,7 +30598,7 @@
       <Definition>air at a pressure greater than that of the atmosphere</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14866396-n"/> <!-- compressed gas -->
       <SynsetRelation relType="hyponym" target="ewn-14866730-n"/> <!-- air cushion -->
-      <Example>&quot;compressed air is often used to power machines&quot;</Example>
+      <Example>compressed air is often used to power machines</Example>
     </Synset>
     <!-- air cushion -->
     <Synset id="ewn-14866730-n" ili="i115052" partOfSpeech="n" dc:subject="noun.substance">
@@ -30625,7 +30625,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14867465-n"/> <!-- diatomite, diatomaceous earth, kieselguhr -->
       <SynsetRelation relType="hyponym" target="ewn-14868730-n"/> <!-- saprolite -->
       <SynsetRelation relType="hyponym" target="ewn-14868863-n"/> <!-- soil, dirt -->
-      <Example>&quot;they dug into the earth outside the church&quot;</Example>
+      <Example>they dug into the earth outside the church</Example>
     </Synset>
     <!-- diatomite, diatomaceous earth, kieselguhr -->
     <Synset id="ewn-14867465-n" ili="i115056" partOfSpeech="n" dc:subject="noun.substance">
@@ -30723,7 +30723,7 @@
     <Synset id="ewn-14869553-n" ili="i115067" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a chemical substance used to improve the structure of the soil and increase its porosity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14831008-n"/> <!-- chemical substance, chemical -->
-      <Example>&quot;gypsum can be used as a soil conditioner&quot;</Example>
+      <Example>gypsum can be used as a soil conditioner</Example>
     </Synset>
     <!-- caliche, hardpan -->
     <Synset id="ewn-14869748-n" ili="i115068" partOfSpeech="n" dc:subject="noun.substance">
@@ -30815,7 +30815,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14613403-n"/> <!-- solution -->
       <SynsetRelation relType="hyponym" target="ewn-14614621-n"/> <!-- polyelectrolyte -->
       <SynsetRelation relType="hyponym" target="ewn-92464616-n"/>
-      <Example>&quot;the proper amount and distribution of electrolytes in the body is essential for health&quot;</Example>
+      <Example>the proper amount and distribution of electrolytes in the body is essential for health</Example>
     </Synset>
     <!-- eluate -->
     <Synset id="ewn-14872319-n" ili="i115080" partOfSpeech="n" dc:subject="noun.substance">
@@ -31098,8 +31098,8 @@
     <Synset id="ewn-14879875-n" ili="i115125" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>liquid excretory product</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14878134-n"/> <!-- excrement, excreta, body waste, excretory product, excretion -->
-      <Example>&quot;there was blood in his urine&quot;</Example>
-      <Example>&quot;the child had to make water&quot;</Example>
+      <Example>there was blood in his urine</Example>
+      <Example>the child had to make water</Example>
     </Synset>
     <!-- vomit, puke, vomitus, barf -->
     <Synset id="ewn-14880143-n" ili="i115126" partOfSpeech="n" dc:subject="noun.substance">
@@ -31126,8 +31126,8 @@
       <SynsetRelation relType="hyponym" target="ewn-14881648-n"/> <!-- scrap, rubbish, trash -->
       <SynsetRelation relType="hyponym" target="ewn-14882602-n"/> <!-- slop -->
       <SynsetRelation relType="hyponym" target="ewn-14882788-n"/> <!-- toxic waste, toxic industrial waste -->
-      <Example>&quot;they collect the waste once a week&quot;</Example>
-      <Example>&quot;much of the waste material is carried off in the sewers&quot;</Example>
+      <Example>they collect the waste once a week</Example>
+      <Example>much of the waste material is carried off in the sewers</Example>
     </Synset>
     <!-- skank, crud, filth -->
     <Synset id="ewn-14880903-n" ili="i115129" partOfSpeech="n" dc:subject="noun.substance">
@@ -31174,7 +31174,7 @@
       <Definition>discarded metal suitable for reprocessing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14881648-n"/> <!-- scrap, rubbish, trash -->
       <SynsetRelation relType="hyponym" target="ewn-15045541-n"/> <!-- scrap iron -->
-      <Example>&quot;he finally sold the car for scrap metal&quot;</Example>
+      <Example>he finally sold the car for scrap metal</Example>
     </Synset>
     <!-- dust, rubble, debris, detritus, junk -->
     <Synset id="ewn-14882048-n" ili="i115136" partOfSpeech="n" dc:subject="noun.substance">
@@ -31196,7 +31196,7 @@
     <Synset id="ewn-14882602-n" ili="i115139" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>(usually plural) waste water from a kitchen or bathroom or chamber pot that has to be emptied by hand</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14880414-n"/> <!-- waste matter, waste material, waste, waste product -->
-      <Example>&quot;she carried out the sink slops&quot;</Example>
+      <Example>she carried out the sink slops</Example>
     </Synset>
     <!-- toxic waste, toxic industrial waste -->
     <Synset id="ewn-14882788-n" ili="i115140" partOfSpeech="n" dc:subject="noun.substance">
@@ -31423,7 +31423,7 @@
       <SynsetRelation relType="mero_substance" target="ewn-14909520-n"/> <!-- triglyceride -->
       <SynsetRelation relType="hyponym" target="ewn-14982032-n"/> <!-- myeline, myelin, medulla -->
       <SynsetRelation relType="hyponym" target="ewn-15019391-n"/> <!-- polyunsaturated fat -->
-      <Example>&quot;pizza has too much fat&quot;</Example>
+      <Example>pizza has too much fat</Example>
     </Synset>
     <!-- cocoa butter -->
     <Synset id="ewn-14888882-n" ili="i115176" partOfSpeech="n" dc:subject="noun.substance">
@@ -31574,7 +31574,7 @@
       <Definition>any material that fills a space or container</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
       <SynsetRelation relType="hyponym" target="ewn-14828811-n"/> <!-- cement -->
-      <Example>&quot;there was not enough fill for the trench&quot;</Example>
+      <Example>there was not enough fill for the trench</Example>
     </Synset>
     <!-- filter paper -->
     <Synset id="ewn-14892615-n" ili="i115198" partOfSpeech="n" dc:subject="noun.substance">
@@ -31794,7 +31794,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15067966-n"/> <!-- smelling salts -->
       <SynsetRelation relType="hyponym" target="ewn-92466276-n"/>
       <SynsetRelation relType="hyponym" target="ewn-15043456-n"/> <!-- starch -->
-      <Example>&quot;the physician prescribed a commercial preparation of the medicine&quot;</Example>
+      <Example>the physician prescribed a commercial preparation of the medicine</Example>
     </Synset>
     <!-- thus, gum olibanum, frankincense, olibanum -->
     <Synset id="ewn-14898102-n" ili="i115234" partOfSpeech="n" dc:subject="noun.substance">
@@ -31805,7 +31805,7 @@
     <Synset id="ewn-14898347-n" ili="i115235" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an atom or group of atoms with at least one unpaired electron; in the body it is usually an oxygen molecule that has lost an electron and will stabilize itself by stealing an electron from a nearby molecule</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14643403-n"/> <!-- atom -->
-      <Example>&quot;in the body free radicals are high-energy particles that ricochet wildly and damage cells&quot;</Example>
+      <Example>in the body free radicals are high-energy particles that ricochet wildly and damage cells</Example>
     </Synset>
     <!-- freezing mixture -->
     <Synset id="ewn-14898715-n" ili="i115236" partOfSpeech="n" dc:subject="noun.substance">
@@ -31850,8 +31850,8 @@
       <SynsetRelation relType="hyponym" target="ewn-15125928-n"/> <!-- ignitor, igniter, lighter -->
       <SynsetRelation relType="hyponym" target="ewn-92434887-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92408045-n"/>
-      <Example>&quot;more fuel is needed during the winter months&quot;</Example>
-      <Example>&quot;they developed alternative fuels for aircraft&quot;</Example>
+      <Example>more fuel is needed during the winter months</Example>
+      <Example>they developed alternative fuels for aircraft</Example>
     </Synset>
     <!-- fuller's earth -->
     <Synset id="ewn-14899858-n" ili="i115240" partOfSpeech="n" dc:subject="noun.substance">
@@ -31862,7 +31862,7 @@
     <Synset id="ewn-14900029-n" ili="i115241" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a yellow to yellow-brown humic substance that is soluble in water under all pH conditions</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14933470-n"/> <!-- humic substance -->
-      <Example>&quot;they measured the fluvial fulvic acid&quot;</Example>
+      <Example>they measured the fluvial fulvic acid</Example>
     </Synset>
     <!-- fumaric acid -->
     <Synset id="ewn-14900217-n" ili="i115242" partOfSpeech="n" dc:subject="noun.substance">
@@ -32237,7 +32237,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14779256-n"/> <!-- animal oil -->
       <SynsetRelation relType="holo_part" target="ewn-14888511-n"/> <!-- fat -->
       <SynsetRelation relType="hyponym" target="ewn-14909520-n"/> <!-- triglyceride -->
-      <Example>&quot;fresh fats contain glycerides of fatty acids and very little free acid&quot;</Example>
+      <Example>fresh fats contain glycerides of fatty acids and very little free acid</Example>
     </Synset>
     <!-- triglyceride -->
     <Synset id="ewn-14909520-n" ili="i115298" partOfSpeech="n" dc:subject="noun.substance">
@@ -32355,7 +32355,7 @@
     <Synset id="ewn-14912680-n" ili="i115314" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a glycoprotein that is found primarily on the surface of helper T cells</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14912461-n"/> <!-- glycoprotein -->
-      <Example>&quot;CD4 is a receptor for HIV in humans&quot;</Example>
+      <Example>CD4 is a receptor for HIV in humans</Example>
     </Synset>
     <!-- cluster of differentiation 8, CD8 -->
     <Synset id="ewn-14912871-n" ili="i115315" partOfSpeech="n" dc:subject="noun.substance">
@@ -32770,7 +32770,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00019793-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-15071880-n"/> <!-- dissolver, dissolving agent, resolvent, dissolvent, solvent -->
       <SynsetRelation relType="hyponym" target="ewn-92434385-n"/>
-      <Example>&quot;the dissolving medium is called a solvent&quot;</Example>
+      <Example>the dissolving medium is called a solvent</Example>
     </Synset>
     <!-- medium, culture medium -->
     <Synset id="ewn-14923479-n" ili="i115377" partOfSpeech="n" dc:subject="noun.substance">
@@ -33033,7 +33033,7 @@
     <Synset id="ewn-14930236-n" ili="i115420" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>poisonous drug derived from an Eurasian plant of the genus Conium</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15061205-n"/> <!-- plant toxin, phytotoxin -->
-      <Example>&quot;Socrates refused to flee and died by drinking hemlock&quot;</Example>
+      <Example>Socrates refused to flee and died by drinking hemlock</Example>
     </Synset>
     <!-- hemolysin, erythrocytolysin, erythrolysin, haemolysin -->
     <Synset id="ewn-14930412-n" ili="i115421" partOfSpeech="n" dc:subject="noun.substance">
@@ -33115,7 +33115,7 @@
     <Synset id="ewn-14932573-n" ili="i115433" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material that has been homogenized (especially tissue that has been ground and mixed)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;liver homogenate&quot;</Example>
+      <Example>liver homogenate</Example>
     </Synset>
     <!-- horsehair -->
     <Synset id="ewn-14932735-n" ili="i115434" partOfSpeech="n" dc:subject="noun.substance">
@@ -33146,7 +33146,7 @@
     <Synset id="ewn-14933271-n" ili="i115438" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a dark brown humic substance that is soluble in water only at pH values greater than 2</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14933470-n"/> <!-- humic substance -->
-      <Example>&quot;the half-life of humic acid is measured in centuries&quot;</Example>
+      <Example>the half-life of humic acid is measured in centuries</Example>
     </Synset>
     <!-- humic substance -->
     <Synset id="ewn-14933470-n" ili="i115439" partOfSpeech="n" dc:subject="noun.substance">
@@ -33383,7 +33383,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14940079-n"/> <!-- icicle -->
       <SynsetRelation relType="hyponym" target="ewn-92462049-n"/>
       <SynsetRelation relType="hyponym" target="ewn-92462077-n"/>
-      <Example>&quot;Americans like ice in their drinks&quot;</Example>
+      <Example>Americans like ice in their drinks</Example>
     </Synset>
     <!-- black ice -->
     <Synset id="ewn-14939613-n" ili="i115476" partOfSpeech="n" dc:subject="noun.substance">
@@ -33437,7 +33437,7 @@
     <Synset id="ewn-14940947-n" ili="i115485" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>material with which something is impregnated</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;the impregnation, whatever it was, had turned the rock blue&quot;</Example>
+      <Example>the impregnation, whatever it was, had turned the rock blue</Example>
     </Synset>
     <!-- indelible ink -->
     <Synset id="ewn-14941113-n" ili="i115486" partOfSpeech="n" dc:subject="noun.substance">
@@ -33920,7 +33920,7 @@
     <Synset id="ewn-14953600-n" ili="i115566" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a sugar comprising one glucose molecule linked to a galactose molecule; occurs only in milk</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14860812-n"/> <!-- disaccharide -->
-      <Example>&quot;cow&apos;s milk contains about 4.7% lactose&quot;</Example>
+      <Example>cow&apos;s milk contains about 4.7% lactose</Example>
     </Synset>
     <!-- lamellar mixture -->
     <Synset id="ewn-14953800-n" ili="i115567" partOfSpeech="n" dc:subject="noun.substance">
@@ -34393,7 +34393,7 @@
     <Synset id="ewn-14965368-n" ili="i115639" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a liquid substance that is a solution (or emulsion or suspension) used or obtained in an industrial process</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14964524-n"/> <!-- liquid -->
-      <Example>&quot;waste liquors&quot;</Example>
+      <Example>waste liquors</Example>
     </Synset>
     <!-- litmus test, litmus -->
     <Synset id="ewn-14965545-n" ili="i115640" partOfSpeech="n" dc:subject="noun.substance">
@@ -34578,7 +34578,7 @@
     <Synset id="ewn-14970888-n" ili="i115670" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a lightweight paper used with carbon paper to make multiple copies</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14998823-n"/> <!-- paper -->
-      <Example>&quot;an original and two manifolds&quot;</Example>
+      <Example>an original and two manifolds</Example>
     </Synset>
     <!-- manila, manila paper, manilla, manilla paper -->
     <Synset id="ewn-14971077-n" ili="i115671" partOfSpeech="n" dc:subject="noun.substance">
@@ -34657,7 +34657,7 @@
     <Synset id="ewn-14973213-n" ili="i115685" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>wood in small pieces or splinters</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15122728-n"/> <!-- wood -->
-      <Example>&quot;the vessel was beaten to matchwood on the rocks&quot;</Example>
+      <Example>the vessel was beaten to matchwood on the rocks</Example>
     </Synset>
     <!-- matrix -->
     <Synset id="ewn-14973365-n" ili="i115686" partOfSpeech="n" dc:subject="noun.substance">
@@ -34946,7 +34946,7 @@
     <Synset id="ewn-14980662-n" ili="i115733" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>deep soft mud in water or slush</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14980464-n"/> <!-- clay, mud -->
-      <Example>&quot;they waded through the slop&quot;</Example>
+      <Example>they waded through the slop</Example>
     </Synset>
     <!-- muck, ooze, gunk, gook, slime, sludge, goop, goo, guck -->
     <Synset id="ewn-14980800-n" ili="i115734" partOfSpeech="n" dc:subject="noun.substance">
@@ -35110,7 +35110,7 @@
     <Synset id="ewn-14985102-n" ili="i115759" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a highly lethal nerve agent used in chemical warfare; a toxic liquid that penetrates the skin or lungs to disrupt the nervous system and stop respiration; in combat VX gas is deployed by detonating a container over the target area and can persist in the environment up to several weeks after release</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14984860-n"/> <!-- nerve agent, nerve gas -->
-      <Example>&quot;VX gas is one of those things we wish we could disinvent&quot;</Example>
+      <Example>VX gas is one of those things we wish we could disinvent</Example>
     </Synset>
     <!-- GB, sarin -->
     <Synset id="ewn-14985514-n" ili="i115760" partOfSpeech="n" dc:subject="noun.substance">
@@ -35129,7 +35129,7 @@
     <Synset id="ewn-14985861-n" ili="i115762" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>cheap paper made from wood pulp and used for printing newspapers</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14998823-n"/> <!-- paper -->
-      <Example>&quot;they used bales of newspaper every day&quot;</Example>
+      <Example>they used bales of newspaper every day</Example>
     </Synset>
     <!-- Nichrome -->
     <Synset id="ewn-14986035-n" ili="i115763" partOfSpeech="n" dc:subject="noun.substance">
@@ -35901,8 +35901,8 @@
       <Definition>(physical chemistry) a sample of matter in which substances in different phases are in equilibrium</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
       <SynsetRelation relType="domain_topic" target="ewn-06099035-n"/> <!-- physical chemistry -->
-      <Example>&quot;in a static system oil cannot be replaced by water on a surface&quot;</Example>
-      <Example>&quot;a system generating hydrogen peroxide&quot;</Example>
+      <Example>in a static system oil cannot be replaced by water on a surface</Example>
+      <Example>a system generating hydrogen peroxide</Example>
     </Synset>
     <!-- phenolic urea, phenolic plastic -->
     <Synset id="ewn-15006020-n" ili="i115872" partOfSpeech="n" dc:subject="noun.substance">
@@ -36046,7 +36046,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15015290-n"/> <!-- pigment -->
       <SynsetRelation relType="hyponym" target="ewn-15077537-n"/> <!-- stain -->
       <SynsetRelation relType="hyponym" target="ewn-92427729-n"/>
-      <Example>&quot;she used a different color for the trim&quot;</Example>
+      <Example>she used a different color for the trim</Example>
     </Synset>
     <!-- dyestuff, dye -->
     <Synset id="ewn-15009942-n" ili="i115895" partOfSpeech="n" dc:subject="noun.substance">
@@ -36521,7 +36521,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14831008-n"/> <!-- chemical substance, chemical -->
       <SynsetRelation relType="hyponym" target="ewn-14638019-n"/> <!-- hydrolysate -->
       <SynsetRelation relType="hyponym" target="ewn-14892715-n"/> <!-- filtrate -->
-      <Example>&quot;a product of lime and nitric acid&quot;</Example>
+      <Example>a product of lime and nitric acid</Example>
     </Synset>
     <!-- percolate -->
     <Synset id="ewn-15022455-n" ili="i115960" partOfSpeech="n" dc:subject="noun.substance">
@@ -36745,9 +36745,9 @@
     <Synset id="ewn-15028536-n" ili="i115999" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a solvent that removes a substance (usually from a surface)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15071880-n"/> <!-- dissolver, dissolving agent, resolvent, dissolvent, solvent -->
-      <Example>&quot;paint remover&quot;</Example>
-      <Example>&quot;rust remover&quot;</Example>
-      <Example>&quot;hair remover&quot;</Example>
+      <Example>paint remover</Example>
+      <Example>rust remover</Example>
+      <Example>hair remover</Example>
     </Synset>
     <!-- renin -->
     <Synset id="ewn-15028716-n" ili="i116000" partOfSpeech="n" dc:subject="noun.substance">
@@ -36929,7 +36929,7 @@
       <SynsetRelation relType="mero_substance" target="ewn-14961363-n"/> <!-- calcium chloride -->
       <SynsetRelation relType="hyponym" target="ewn-15028063-n"/> <!-- red tide -->
       <SynsetRelation relType="mero_substance" target="ewn-15033759-n"/> <!-- evaporite -->
-      <Example>&quot;the water in the ocean is all saltwater&quot;</Example>
+      <Example>the water in the ocean is all saltwater</Example>
     </Synset>
     <!-- evaporite -->
     <Synset id="ewn-15033759-n" ili="i116029" partOfSpeech="n" dc:subject="noun.substance">
@@ -37310,7 +37310,7 @@
     <Synset id="ewn-15043255-n" ili="i116079" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a natural fiber (raw cotton, wool, hemp, flax) that can be twisted to form yarn</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14983373-n"/> <!-- natural fibre, natural fiber -->
-      <Example>&quot;staple fibers vary widely in length&quot;</Example>
+      <Example>staple fibers vary widely in length</Example>
     </Synset>
     <!-- starch -->
     <Synset id="ewn-15043456-n" ili="i116080" partOfSpeech="n" dc:subject="noun.substance">
@@ -37507,7 +37507,7 @@
     <Synset id="ewn-15048287-n" ili="i116111" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a substance produced by the mucosa of the stomach and intestines that is essential for the absorption of vitamin B12</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07342405-n"/> <!-- factor -->
-      <Example>&quot;lack of intrinsic factor can result in pernicious anemia&quot;</Example>
+      <Example>lack of intrinsic factor can result in pernicious anemia</Example>
     </Synset>
     <!-- platelet, blood platelet, thrombocyte -->
     <Synset id="ewn-15048526-n" ili="i116112" partOfSpeech="n" dc:subject="noun.substance">
@@ -37527,7 +37527,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15049340-n"/> <!-- oxyhaemoglobin, oxyhemoglobin -->
       <SynsetRelation relType="mero_substance" target="ewn-15049564-n"/> <!-- haem, haemitin, hematin, heme, protoheme -->
       <SynsetRelation relType="mero_substance" target="ewn-15050509-n"/> <!-- globin, haematohiston, hematohiston -->
-      <Example>&quot;fish have simpler hemoglobin than mammals&quot;</Example>
+      <Example>fish have simpler hemoglobin than mammals</Example>
     </Synset>
     <!-- myoglobin -->
     <Synset id="ewn-15049173-n" ili="i116115" partOfSpeech="n" dc:subject="noun.substance">
@@ -37539,7 +37539,7 @@
     <Synset id="ewn-15049340-n" ili="i116116" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the bright red hemoglobin that is a combination of hemoglobin and oxygen from the lungs</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15048807-n"/> <!-- haemoglobin, hemoglobin, Hb -->
-      <Example>&quot;oxyhemoglobin transports oxygen to the cells of the body&quot;</Example>
+      <Example>oxyhemoglobin transports oxygen to the cells of the body</Example>
     </Synset>
     <!-- haem, haemitin, hematin, heme, protoheme -->
     <Synset id="ewn-15049564-n" ili="i116117" partOfSpeech="n" dc:subject="noun.substance">
@@ -37865,7 +37865,7 @@
       <Definition>a bacterial toxin that has been weakened until it is no longer toxic but is strong enough to induce the formation of antibodies and immunity to the specific disease caused by the toxin</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15059506-n"/> <!-- bacterial toxin -->
       <SynsetRelation relType="hypernym" target="ewn-15061906-n"/> <!-- antigen -->
-      <Example>&quot;diphtheria toxoid&quot;</Example>
+      <Example>diphtheria toxoid</Example>
     </Synset>
     <!-- zootoxin, animal toxin -->
     <Synset id="ewn-15059308-n" ili="i116166" partOfSpeech="n" dc:subject="noun.substance">
@@ -38359,7 +38359,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15099945-n"/> <!-- methylbenzene, toluene -->
       <SynsetRelation relType="hyponym" target="ewn-15130710-n"/> <!-- xylene, xylol -->
       <SynsetRelation relType="hyponym" target="ewn-92460302-n"/>
-      <Example>&quot;the solvent does not change its state in forming a solution&quot;</Example>
+      <Example>the solvent does not change its state in forming a solution</Example>
     </Synset>
     <!-- solute -->
     <Synset id="ewn-15072416-n" ili="i116247" partOfSpeech="n" dc:subject="noun.substance">
@@ -38423,7 +38423,7 @@
     <Synset id="ewn-15074161-n" ili="i116258" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>liquid that is spilled</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14964238-n"/> <!-- liquid -->
-      <Example>&quot;clean up the spills&quot;</Example>
+      <Example>clean up the spills</Example>
     </Synset>
     <!-- spelter -->
     <Synset id="ewn-15074312-n" ili="i116259" partOfSpeech="n" dc:subject="noun.substance">
@@ -38706,7 +38706,7 @@
     <Synset id="ewn-15082125-n" ili="i116305" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a chemical substance that causes sneezing and coughing and crying</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14842408-n"/> <!-- chemical compound, compound -->
-      <Example>&quot;police used a sternutatory to subdue the mob&quot;</Example>
+      <Example>police used a sternutatory to subdue the mob</Example>
     </Synset>
     <!-- steroid -->
     <Synset id="ewn-15082311-n" ili="i116306" partOfSpeech="n" dc:subject="noun.substance">
@@ -38964,7 +38964,7 @@
     <Synset id="ewn-15089296-n" ili="i116346" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>the univalent anion O2-</Definition>
       <SynsetRelation relType="hypernym" target="ewn-09220693-n"/> <!-- anion -->
-      <Example>&quot;much of the O2 supporting cellular respiration is reduced to the superoxide anion O2-&quot;</Example>
+      <Example>much of the O2 supporting cellular respiration is reduced to the superoxide anion O2-</Example>
     </Synset>
     <!-- superoxide -->
     <Synset id="ewn-15089484-n" ili="i116347" partOfSpeech="n" dc:subject="noun.substance">
@@ -38975,7 +38975,7 @@
     <Synset id="ewn-15089592-n" ili="i116348" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>an enzyme that catalyzes the conversion of superoxide into hydrogen peroxide and oxygen</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14757125-n"/> <!-- enzyme -->
-      <Example>&quot;oxygen free radicals are normally removed in our bodies by the superoxide dismutase enzymes&quot;</Example>
+      <Example>oxygen free radicals are normally removed in our bodies by the superoxide dismutase enzymes</Example>
     </Synset>
     <!-- surgical spirit -->
     <Synset id="ewn-15089847-n" ili="i116349" partOfSpeech="n" dc:subject="noun.substance">
@@ -39147,7 +39147,7 @@
     <Synset id="ewn-15094387-n" ili="i116377" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>any material used to thicken</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;starch is used in cooking as a thickening&quot;</Example>
+      <Example>starch is used in cooking as a thickening</Example>
     </Synset>
     <!-- thiouracil -->
     <Synset id="ewn-15094565-n" ili="i116378" partOfSpeech="n" dc:subject="noun.substance">
@@ -39571,7 +39571,7 @@
       <Definition>a blue to grey green mineral consisting of copper aluminum phosphate</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14686753-n"/> <!-- mineral -->
       <SynsetRelation relType="hypernym" target="ewn-14994225-n"/> <!-- opaque gem -->
-      <Example>&quot;blue turquoise is valued as a gemstone&quot;</Example>
+      <Example>blue turquoise is valued as a gemstone</Example>
     </Synset>
     <!-- typing paper, typewriter paper -->
     <Synset id="ewn-15106949-n" ili="i116453" partOfSpeech="n" dc:subject="noun.substance">
@@ -39583,7 +39583,7 @@
     <Synset id="ewn-15107091-n" ili="i116454" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>amino acid derived from tyrosine; has a sympathomimetic action; found in chocolate and cola drinks and ripe cheese and beer</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14626007-n"/> <!-- aminoalkanoic acid, amino acid -->
-      <Example>&quot;patients taking MAOIs should avoid foods containing tyramine&quot;</Example>
+      <Example>patients taking MAOIs should avoid foods containing tyramine</Example>
     </Synset>
     <!-- tyrosine -->
     <Synset id="ewn-15107333-n" ili="i116455" partOfSpeech="n" dc:subject="noun.substance">
@@ -39983,7 +39983,7 @@
     <Synset id="ewn-15118302-n" ili="i116521" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a volatile substance; a substance that changes readily from solid or liquid to a vapor</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00019793-n"/> <!-- substance -->
-      <Example>&quot;it was heated to evaporate the volatiles&quot;</Example>
+      <Example>it was heated to evaporate the volatiles</Example>
     </Synset>
     <!-- wallpaper -->
     <Synset id="ewn-15118505-n" ili="i116522" partOfSpeech="n" dc:subject="noun.substance">
@@ -40294,7 +40294,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15125512-n"/> <!-- backlog -->
       <SynsetRelation relType="hyponym" target="ewn-15125724-n"/> <!-- brand, firebrand -->
       <SynsetRelation relType="hyponym" target="ewn-15125838-n"/> <!-- pine knot -->
-      <Example>&quot;they collected and cut their own firewood&quot;</Example>
+      <Example>they collected and cut their own firewood</Example>
     </Synset>
     <!-- cordwood -->
     <Synset id="ewn-15125401-n" ili="i116557" partOfSpeech="n" dc:subject="noun.substance">
@@ -40377,7 +40377,7 @@
       <Definition>a hard cross-grained round piece of wood in a board where a branch emerged</Definition>
       <SynsetRelation relType="hypernym" target="ewn-15122728-n"/> <!-- wood -->
       <SynsetRelation relType="holo_part" target="ewn-15126421-n"/> <!-- board, plank -->
-      <Example>&quot;the saw buckled when it hit a knot&quot;</Example>
+      <Example>the saw buckled when it hit a knot</Example>
     </Synset>
     <!-- knothole -->
     <Synset id="ewn-15127461-n" ili="i116571" partOfSpeech="n" dc:subject="noun.substance">
@@ -40688,7 +40688,7 @@
       <SynsetRelation relType="hypernym" target="ewn-14736853-n"/> <!-- alkaloid -->
       <SynsetRelation relType="hypernym" target="ewn-14985651-n"/> <!-- neuromuscular blocking agent -->
       <SynsetRelation relType="hypernym" target="ewn-15061205-n"/> <!-- plant toxin, phytotoxin -->
-      <Example>&quot;curare acts by blocking cholinergic transmission at the myoneural junction&quot;</Example>
+      <Example>curare acts by blocking cholinergic transmission at the myoneural junction</Example>
     </Synset>
     <!-- tuberculin -->
     <Synset id="ewn-15136470-n" ili="i116623" partOfSpeech="n" dc:subject="noun.substance">
@@ -40720,7 +40720,7 @@
     <Synset id="ewn-15137269-n" ili="i116628" partOfSpeech="n" dc:subject="noun.substance">
       <Definition>a small mass of soft material</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14604877-n"/> <!-- material, stuff -->
-      <Example>&quot;he used a wad of cotton to wipe the counter&quot;</Example>
+      <Example>he used a wad of cotton to wipe the counter</Example>
     </Synset>
     <!-- xanthate -->
     <Synset id="ewn-15137395-n" ili="i116629" partOfSpeech="n" dc:subject="noun.substance">

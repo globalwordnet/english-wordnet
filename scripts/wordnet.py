@@ -143,6 +143,7 @@ class LexicalEntry:
         self.forms = []
         self.senses = []
         self.syntactic_behaviours = []
+        self.pronunciation = []
 
     def set_lemma(self, lemma):
         self.lemma = lemma
@@ -190,6 +191,21 @@ class Form:
 """ % escape_xml_lit(self.written_form))
 
 
+class Pronunciation:
+    """The pronunciation of a lemma"""
+    def __init__(self, value, variety):
+        self.value = value
+        self.variety = variety
+
+    def to_xml(self, xml_file):
+        if self.variety:
+            xml_file.write("""      <Pronunciation variety="%s">%s</Pronunciation>
+""" % (self.variety, escape_xml_lit(self.value)))
+        else:
+            xml_file.write("""      <Pronunciation>%s</Pronunciation>
+""" % (escape_xml_lit(self.value)))
+
+  
 class Sense:
     """The sense links an entry to a synset"""
 
@@ -200,6 +216,7 @@ class Sense:
         self.sense_key = sense_key
         self.sense_relations = []
         self.adjposition = adjposition
+        self.sent = []
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
@@ -306,7 +323,7 @@ class Example:
     def to_xml(self, xml_file):
         if self.source:
             xml_file.write("""      <Example dc:source=\"%s\">%s</Example>
-""" % (self.source, escape_xml_lit(self.text)))
+""" % (escape_xml_lit(self.source), escape_xml_lit(self.text)))
 
         else:
             xml_file.write("""      <Example>%s</Example>

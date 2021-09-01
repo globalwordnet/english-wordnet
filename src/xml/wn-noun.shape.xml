@@ -548,10 +548,6 @@
       <Lemma writtenForm="line of life" partOfSpeech="n"/>
       <Sense id="ewn-line_of_life-n-13929781-01" n="0" synset="ewn-13929781-n" dc:identifier="line_of_life%1:25:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-lead-n">
-      <Lemma writtenForm="lead" partOfSpeech="n"/>
-      <Sense id="ewn-lead-n-13915822-01" n="4" synset="ewn-13915822-n" dc:identifier="lead%1:25:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-box-n">
       <Lemma writtenForm="box" partOfSpeech="n"/>
       <Sense id="ewn-box-n-13906151-01" n="4" synset="ewn-13906151-n" dc:identifier="box%1:25:00::"/>
@@ -1506,10 +1502,6 @@
       <Lemma writtenForm="undecagon" partOfSpeech="n"/>
       <Sense id="ewn-undecagon-n-13905461-01" n="0" synset="ewn-13905461-n" dc:identifier="undecagon%1:25:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-bow-n">
-      <Lemma writtenForm="bow" partOfSpeech="n"/>
-      <Sense id="ewn-bow-n-13918793-01" n="4" synset="ewn-13918793-n" dc:identifier="bow%1:25:00::"/>
-    </LexicalEntry>
     <LexicalEntry id="ewn-center_line-n">
       <Lemma writtenForm="center line" partOfSpeech="n"/>
       <Sense id="ewn-center_line-n-13894606-02" n="0" synset="ewn-13894606-n" dc:identifier="center_line%1:25:00::"/>
@@ -2424,12 +2416,6 @@
       <Lemma writtenForm="star" partOfSpeech="n"/>
       <Sense id="ewn-star-n-13904301-01" n="4" synset="ewn-13904301-n" dc:identifier="star%1:25:00::"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-tower-n">
-      <Lemma writtenForm="tower" partOfSpeech="n"/>
-      <Sense id="ewn-tower-n-13923115-02" n="1" synset="ewn-13923115-n" dc:identifier="tower%1:25:00::">
-        <SenseRelation relType="derivation" target="ewn-tower-v-02702345-02"/> <!-- tower, predominate, loom, hulk -->
-        </Sense>
-    </LexicalEntry>
     <LexicalEntry id="ewn-imprint-n">
       <Lemma writtenForm="imprint" partOfSpeech="n"/>
       <Sense id="ewn-imprint-n-13919062-03" n="1" synset="ewn-13919062-n" dc:identifier="imprint%1:25:00::"/>
@@ -2873,6 +2859,20 @@
       <Lemma writtenForm="conchoid" partOfSpeech="n"/>
       <Sense id="ewn-conchoid-n-92440987-00" n="2" synset="ewn-92440987-n" dc:identifier="conchoid%1:25:01::"/>
     </LexicalEntry>
+    <LexicalEntry id="ewn-bow-n-1">
+      <Lemma writtenForm="bow" partOfSpeech="n"/>
+      <Sense id="ewn-bow-n-13918793-01" n="3" synset="ewn-13918793-n" dc:identifier="bow%1:25:00::"/>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-tower-n-1">
+      <Lemma writtenForm="tower" partOfSpeech="n"/>
+      <Sense id="ewn-tower-n-13923115-02" n="1" synset="ewn-13923115-n" dc:identifier="tower%1:25:00::">
+        <SenseRelation relType="derivation" target="ewn-tower-v-02702345-02"/> <!-- tower, predominate, loom, hulk -->
+        </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="ewn-lead-n-1">
+      <Lemma writtenForm="lead" partOfSpeech="n"/>
+      <Sense id="ewn-lead-n-13915822-01" n="3" synset="ewn-13915822-n" dc:identifier="lead%1:25:00::"/>
+    </LexicalEntry>
     <!-- solid -->
     <Synset id="ewn-13882990-n" ili="i109764" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a three-dimensional object, structurally rigid, usually resistant to changes of shape or volume</Definition>
@@ -2898,8 +2898,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13884409-n"/> <!-- orbital plane -->
       <SynsetRelation relType="hyponym" target="ewn-13884537-n"/> <!-- picture plane -->
       <SynsetRelation relType="hyponym" target="ewn-13884747-n"/> <!-- tangent plane -->
-      <Example>&quot;we will refer to the plane of the graph as the X-Y plane&quot;</Example>
-      <Example>&quot;any line joining two points on a plane lies wholly on that plane&quot;</Example>
+      <Example>we will refer to the plane of the graph as the X-Y plane</Example>
+      <Example>any line joining two points on a plane lies wholly on that plane</Example>
     </Synset>
     <!-- Cartesian plane -->
     <Synset id="ewn-13883664-n" ili="i109766" partOfSpeech="n" dc:subject="noun.shape">
@@ -2961,7 +2961,7 @@
     <Synset id="ewn-13885247-n" ili="i109775" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a shape that spreads outward</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028005-n"/> <!-- shape, form -->
-      <Example>&quot;the skirt had a wide flare&quot;</Example>
+      <Example>the skirt had a wide flare</Example>
     </Synset>
     <!-- figure -->
     <Synset id="ewn-13885383-n" ili="i109776" partOfSpeech="n" dc:subject="noun.shape">
@@ -3107,7 +3107,7 @@
     <Synset id="ewn-13888525-n" ili="i109791" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a plane figure with rounded sides curving inward at the top and intersecting at the bottom; conventionally used on playing cards and valentines</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13885789-n"/> <!-- plane figure, two-dimensional figure -->
-      <Example>&quot;he drew a heart and called it a valentine&quot;</Example>
+      <Example>he drew a heart and called it a valentine</Example>
     </Synset>
     <!-- polygon, polygonal shape -->
     <Synset id="ewn-13888765-n" ili="i109792" partOfSpeech="n" dc:subject="noun.shape">
@@ -3268,8 +3268,8 @@
       <Definition>a circular segment of a curve</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
       <SynsetRelation relType="hyponym" target="ewn-13892535-n"/> <!-- bight -->
-      <Example>&quot;a bend in the road&quot;</Example>
-      <Example>&quot;a crook in the path&quot;</Example>
+      <Example>a bend in the road</Example>
+      <Example>a crook in the path</Example>
     </Synset>
     <!-- crotchet, hook -->
     <Synset id="ewn-13892186-n" ili="i109811" partOfSpeech="n" dc:subject="noun.shape">
@@ -3309,7 +3309,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13927170-n"/> <!-- diagonal, bias -->
       <SynsetRelation relType="hyponym" target="ewn-13927331-n"/> <!-- diagonal -->
       <SynsetRelation relType="hyponym" target="ewn-13936278-n"/> <!-- vector -->
-      <Example>&quot;the shortest distance between two points is a straight line&quot;</Example>
+      <Example>the shortest distance between two points is a straight line</Example>
     </Synset>
     <!-- geodesic, geodesic line -->
     <Synset id="ewn-13893053-n" ili="i109816" partOfSpeech="n" dc:subject="noun.shape">
@@ -3333,7 +3333,7 @@
     <Synset id="ewn-13893574-n" ili="i109819" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a straight line that is the limiting value of a curve; can be considered as tangent at infinity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13892630-n"/> <!-- straight line -->
-      <Example>&quot;the asymptote of the curve&quot;</Example>
+      <Example>the asymptote of the curve</Example>
     </Synset>
     <!-- tangent -->
     <Synset id="ewn-13893773-n" ili="i109820" partOfSpeech="n" dc:subject="noun.shape">
@@ -3426,7 +3426,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13896712-n"/> <!-- equator -->
       <SynsetRelation relType="mero_part" target="ewn-13897023-n"/> <!-- arc -->
       <SynsetRelation relType="hyponym" target="ewn-13932311-n"/> <!-- epicycle -->
-      <Example>&quot;he calculated the circumference of the circle&quot;</Example>
+      <Example>he calculated the circumference of the circle</Example>
     </Synset>
     <!-- circlet -->
     <Synset id="ewn-13896488-n" ili="i109835" partOfSpeech="n" dc:subject="noun.shape">
@@ -3437,7 +3437,7 @@
     <Synset id="ewn-13896556-n" ili="i109836" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>something approximating the shape of a circle</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028005-n"/> <!-- shape, form -->
-      <Example>&quot;the chairs were arranged in a circle&quot;</Example>
+      <Example>the chairs were arranged in a circle</Example>
     </Synset>
     <!-- equator -->
     <Synset id="ewn-13896712-n" ili="i109837" partOfSpeech="n" dc:subject="noun.shape">
@@ -3479,15 +3479,15 @@
       <SynsetRelation relType="hypernym" target="ewn-13888104-n"/> <!-- round shape -->
       <SynsetRelation relType="hyponym" target="ewn-05292116-n"/> <!-- intervertebral disk, intervertebral disc -->
       <SynsetRelation relType="hyponym" target="ewn-13934887-n"/> <!-- point, dot -->
-      <Example>&quot;the moon&apos;s disk hung in a cloudless sky&quot;</Example>
+      <Example>the moon&apos;s disk hung in a cloudless sky</Example>
     </Synset>
     <!-- doughnut, annulus, anchor ring, ring, halo -->
     <Synset id="ewn-13898031-n" ili="i109844" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a toroidal shape</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13922980-n"/> <!-- toroid -->
       <SynsetRelation relType="hyponym" target="ewn-13027794-n"/> <!-- fairy circle, fairy ring -->
-      <Example>&quot;a ring of ships in the harbor&quot;</Example>
-      <Example>&quot;a halo of smoke&quot;</Example>
+      <Example>a ring of ships in the harbor</Example>
+      <Example>a halo of smoke</Example>
     </Synset>
     <!-- loop -->
     <Synset id="ewn-13898210-n" ili="i109845" partOfSpeech="n" dc:subject="noun.shape">
@@ -3528,21 +3528,21 @@
     <Synset id="ewn-13899392-n" ili="i109850" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a pair of parallel helices intertwined about a common axis</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13899200-n"/> <!-- spiral, helix -->
-      <Example>&quot;the shape of the DNA molecule is a double helix&quot;</Example>
+      <Example>the shape of the DNA molecule is a double helix</Example>
     </Synset>
     <!-- perversion -->
     <Synset id="ewn-13899560-n" ili="i109851" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a curve that reverses the direction of something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
-      <Example>&quot;the tendrils of the plant exhibited perversion&quot;</Example>
-      <Example>&quot;perversion also shows up in kinky telephone cords&quot;</Example>
+      <Example>the tendrils of the plant exhibited perversion</Example>
+      <Example>perversion also shows up in kinky telephone cords</Example>
     </Synset>
     <!-- eccentricity -->
     <Synset id="ewn-13899768-n" ili="i109852" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>(geometry) a ratio describing the shape of a conic section; the ratio of the distance between the foci to the length of the major axis</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13841419-n"/> <!-- ratio -->
       <SynsetRelation relType="domain_topic" target="ewn-06014015-n"/> <!-- geometry -->
-      <Example>&quot;a circle is an ellipse with zero eccentricity&quot;</Example>
+      <Example>a circle is an ellipse with zero eccentricity</Example>
     </Synset>
     <!-- element -->
     <Synset id="ewn-13900047-n" ili="i109853" partOfSpeech="n" dc:subject="noun.shape">
@@ -3581,7 +3581,7 @@
       <Definition>a closed plane curve resulting from the intersection of a circular cone and a plane cutting completely through it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13895614-n"/> <!-- conic section, conic -->
       <SynsetRelation relType="hyponym" target="ewn-13896141-n"/> <!-- circle -->
-      <Example>&quot;the sums of the distances from the foci to any point on an ellipse is constant&quot;</Example>
+      <Example>the sums of the distances from the foci to any point on an ellipse is constant</Example>
     </Synset>
     <!-- foursquare, square -->
     <Synset id="ewn-13901273-n" ili="i109860" partOfSpeech="n" dc:subject="noun.shape">
@@ -3590,7 +3590,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13889754-n"/> <!-- regular polygon -->
       <SynsetRelation relType="domain_topic" target="ewn-06014015-n"/> <!-- geometry -->
       <SynsetRelation relType="hyponym" target="ewn-13901688-n"/> <!-- quadrate -->
-      <Example>&quot;you can compute the area of a square if you know the length of its sides&quot;</Example>
+      <Example>you can compute the area of a square if you know the length of its sides</Example>
     </Synset>
     <!-- square -->
     <Synset id="ewn-13901590-n" ili="i109861" partOfSpeech="n" dc:subject="noun.shape">
@@ -3627,7 +3627,7 @@
     <Synset id="ewn-13902291-n" ili="i109865" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>something approximating the shape of a triangle</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028005-n"/> <!-- shape, form -->
-      <Example>&quot;the coastline of Chile and Argentina and Brazil forms two legs of a triangle&quot;</Example>
+      <Example>the coastline of Chile and Argentina and Brazil forms two legs of a triangle</Example>
     </Synset>
     <!-- acute-angled triangle, acute triangle -->
     <Synset id="ewn-13902473-n" ili="i109866" partOfSpeech="n" dc:subject="noun.shape">
@@ -3684,7 +3684,7 @@
       <Definition>(mathematics) one of a set of parallel geometric figures (parallel lines or planes)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13885383-n"/> <!-- figure -->
       <SynsetRelation relType="domain_topic" target="ewn-06009822-n"/> <!-- math, mathematics, maths -->
-      <Example>&quot;parallels never meet&quot;</Example>
+      <Example>parallels never meet</Example>
     </Synset>
     <!-- parallelogram -->
     <Synset id="ewn-13903832-n" ili="i109876" partOfSpeech="n" dc:subject="noun.shape">
@@ -3793,7 +3793,7 @@
     <Synset id="ewn-13906151-n" ili="i109894" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a rectangular drawing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13906003-n"/> <!-- rectangle -->
-      <Example>&quot;the flowchart contained many boxes&quot;</Example>
+      <Example>the flowchart contained many boxes</Example>
     </Synset>
     <!-- spherical polygon -->
     <Synset id="ewn-13906260-n" ili="i109895" partOfSpeech="n" dc:subject="noun.shape">
@@ -3870,14 +3870,14 @@
     <Synset id="ewn-13907864-n" ili="i109905" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>having bends (especially of streams and roads)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13890262-n"/> <!-- curved shape, curve -->
-      <Example>&quot;he hated the sinuosity of mountain roads&quot;</Example>
+      <Example>he hated the sinuosity of mountain roads</Example>
     </Synset>
     <!-- contortion, crookedness, tortuousness, torsion, tortuosity -->
     <Synset id="ewn-13908063-n" ili="i109906" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a tortuous and twisted shape or position</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13889897-n"/> <!-- distorted shape, distortion -->
-      <Example>&quot;they built a tree house in the tortuosities of its boughs&quot;</Example>
-      <Example>&quot;the acrobat performed incredible contortions&quot;</Example>
+      <Example>they built a tree house in the tortuosities of its boughs</Example>
+      <Example>the acrobat performed incredible contortions</Example>
     </Synset>
     <!-- warp, buckle -->
     <Synset id="ewn-13908393-n" ili="i109907" partOfSpeech="n" dc:subject="noun.shape">
@@ -3888,9 +3888,9 @@
     <Synset id="ewn-13908529-n" ili="i109908" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>something twisted and tight and swollen</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13889897-n"/> <!-- distorted shape, distortion -->
-      <Example>&quot;their muscles stood out in knots&quot;</Example>
-      <Example>&quot;the old man&apos;s fists were two great gnarls&quot;</Example>
-      <Example>&quot;his stomach was in knots&quot;</Example>
+      <Example>their muscles stood out in knots</Example>
+      <Example>the old man&apos;s fists were two great gnarls</Example>
+      <Example>his stomach was in knots</Example>
     </Synset>
     <!-- arch -->
     <Synset id="ewn-13908826-n" ili="i109909" partOfSpeech="n" dc:subject="noun.shape">
@@ -3935,7 +3935,7 @@
     <Synset id="ewn-13909904-n" ili="i109916" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a sharp change in direction</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13887384-n"/> <!-- angular shape, angularity -->
-      <Example>&quot;there was a jog in the road&quot;</Example>
+      <Example>there was a jog in the road</Example>
     </Synset>
     <!-- zigzag, zig, zag -->
     <Synset id="ewn-13910012-n" ili="i109917" partOfSpeech="n" dc:subject="noun.shape">
@@ -3996,7 +3996,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08650766-n"/> <!-- RA, celestial longitude, right ascension -->
       <SynsetRelation relType="hyponym" target="ewn-13911476-n"/> <!-- HA, hour angle -->
       <SynsetRelation relType="hyponym" target="ewn-13911759-n"/> <!-- true anomaly -->
-      <Example>&quot;he recorded angular distances between the stars&quot;</Example>
+      <Example>he recorded angular distances between the stars</Example>
     </Synset>
     <!-- HA, hour angle -->
     <Synset id="ewn-13911476-n" ili="i109921" partOfSpeech="n" dc:subject="noun.shape">
@@ -4201,23 +4201,23 @@
       <SynsetRelation relType="hyponym" target="ewn-13918315-n"/> <!-- nub, nubble -->
       <SynsetRelation relType="hyponym" target="ewn-13918438-n"/> <!-- snag -->
       <SynsetRelation relType="hyponym" target="ewn-13918545-n"/> <!-- wart -->
-      <Example>&quot;the gun in his pocket made an obvious bulge&quot;</Example>
-      <Example>&quot;the hump of a camel&quot;</Example>
-      <Example>&quot;he stood on the rocky prominence&quot;</Example>
-      <Example>&quot;the occipital protuberance was well developed&quot;</Example>
-      <Example>&quot;the bony excrescence between its horns&quot;</Example>
+      <Example>the gun in his pocket made an obvious bulge</Example>
+      <Example>the hump of a camel</Example>
+      <Example>he stood on the rocky prominence</Example>
+      <Example>the occipital protuberance was well developed</Example>
+      <Example>the bony excrescence between its horns</Example>
     </Synset>
     <!-- belly -->
     <Synset id="ewn-13917955-n" ili="i109956" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a part that bulges deeply</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13917127-n"/> <!-- excrescence, hump, gibbosity, bump, prominence, gibbousness, swelling, protuberance, protrusion, extrusion, jut, bulge -->
-      <Example>&quot;the belly of a sail&quot;</Example>
+      <Example>the belly of a sail</Example>
     </Synset>
     <!-- caput -->
     <Synset id="ewn-13918055-n" ili="i109957" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a headlike protuberance on an organ or structure</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13917127-n"/> <!-- excrescence, hump, gibbosity, bump, prominence, gibbousness, swelling, protuberance, protrusion, extrusion, jut, bulge -->
-      <Example>&quot;the caput humeri is the head of the humerus which fits into a cavity in the scapula&quot;</Example>
+      <Example>the caput humeri is the head of the humerus which fits into a cavity in the scapula</Example>
     </Synset>
     <!-- mogul -->
     <Synset id="ewn-13918242-n" ili="i109958" partOfSpeech="n" dc:subject="noun.shape">
@@ -4268,13 +4268,13 @@
       <SynsetRelation relType="hyponym" target="ewn-13928578-n"/> <!-- droop, sag -->
       <SynsetRelation relType="hyponym" target="ewn-13928798-n"/> <!-- line, crinkle, seam, crease, furrow, wrinkle -->
       <SynsetRelation relType="hyponym" target="ewn-13930286-n"/> <!-- chap, cranny, crack, fissure, crevice -->
-      <Example>&quot;he left the impression of his fingers in the soft mud&quot;</Example>
+      <Example>he left the impression of his fingers in the soft mud</Example>
     </Synset>
     <!-- dimple -->
     <Synset id="ewn-13919388-n" ili="i109966" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>any slight depression in a surface</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13919062-n"/> <!-- imprint, depression, impression -->
-      <Example>&quot;there are approximately 336 dimples on a golf ball&quot;</Example>
+      <Example>there are approximately 336 dimples on a golf ball</Example>
     </Synset>
     <!-- hyperboloid -->
     <Synset id="ewn-13919547-n" ili="i109967" partOfSpeech="n" dc:subject="noun.shape">
@@ -4290,7 +4290,7 @@
     <Synset id="ewn-13919891-n" ili="i109969" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a surface whose plane sections are all ellipses or circles</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13885789-n"/> <!-- plane figure, two-dimensional figure -->
-      <Example>&quot;the Earth is an ellipsoid&quot;</Example>
+      <Example>the Earth is an ellipsoid</Example>
     </Synset>
     <!-- flank -->
     <Synset id="ewn-13920070-n" ili="i109970" partOfSpeech="n" dc:subject="noun.shape">
@@ -4314,7 +4314,7 @@
     <Synset id="ewn-13920530-n" ili="i109973" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>the bottom side of a geometric figure from which the altitude can be constructed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13920070-n"/> <!-- flank -->
-      <Example>&quot;the base of the triangle&quot;</Example>
+      <Example>the base of the triangle</Example>
     </Synset>
     <!-- counterbalance, balance, equipoise, equilibrium -->
     <Synset id="ewn-13920689-n" ili="i109974" partOfSpeech="n" dc:subject="noun.shape">
@@ -4342,7 +4342,7 @@
     <Synset id="ewn-13921338-n" ili="i109978" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a shape that is generated by rotating an ellipse around one of its axes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13888104-n"/> <!-- round shape -->
-      <Example>&quot;it looked like a sphere but on closer examination I saw it was really a spheroid&quot;</Example>
+      <Example>it looked like a sphere but on closer examination I saw it was really a spheroid</Example>
     </Synset>
     <!-- sphere -->
     <Synset id="ewn-13921592-n" ili="i109979" partOfSpeech="n" dc:subject="noun.shape">
@@ -4376,7 +4376,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13922428-n"/> <!-- spherule -->
       <SynsetRelation relType="hyponym" target="ewn-13924116-n"/> <!-- pellet -->
       <SynsetRelation relType="hyponym" target="ewn-13924183-n"/> <!-- bolus -->
-      <Example>&quot;a ball of fire&quot;</Example>
+      <Example>a ball of fire</Example>
     </Synset>
     <!-- spherule -->
     <Synset id="ewn-13922428-n" ili="i109983" partOfSpeech="n" dc:subject="noun.shape">
@@ -4414,16 +4414,16 @@
       <SynsetRelation relType="hypernym" target="ewn-00028005-n"/> <!-- shape, form -->
       <SynsetRelation relType="hyponym" target="ewn-13923607-n"/> <!-- columella -->
       <SynsetRelation relType="hyponym" target="ewn-13923748-n"/> <!-- hoodoo -->
-      <Example>&quot;the test tube held a column of white powder&quot;</Example>
-      <Example>&quot;a tower of dust rose above the horizon&quot;</Example>
-      <Example>&quot;a thin pillar of smoke betrayed their campsite&quot;</Example>
+      <Example>the test tube held a column of white powder</Example>
+      <Example>a tower of dust rose above the horizon</Example>
+      <Example>a thin pillar of smoke betrayed their campsite</Example>
     </Synset>
     <!-- plume -->
     <Synset id="ewn-13923453-n" ili="i109988" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>anything that resembles a feather in shape or lightness</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028005-n"/> <!-- shape, form -->
-      <Example>&quot;a plume of smoke&quot;</Example>
-      <Example>&quot;grass with large plumes&quot;</Example>
+      <Example>a plume of smoke</Example>
+      <Example>grass with large plumes</Example>
     </Synset>
     <!-- columella -->
     <Synset id="ewn-13923607-n" ili="i109989" partOfSpeech="n" dc:subject="noun.shape">
@@ -4435,7 +4435,7 @@
       <Definition>(geology) a column of weathered and unusually shaped rock</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13923115-n"/> <!-- column, pillar, tower -->
       <SynsetRelation relType="domain_topic" target="ewn-06125308-n"/> <!-- geology -->
-      <Example>&quot;a tall sandstone hoodoo&quot;</Example>
+      <Example>a tall sandstone hoodoo</Example>
     </Synset>
     <!-- barrel, drum -->
     <Synset id="ewn-13923904-n" ili="i109991" partOfSpeech="n" dc:subject="noun.shape">
@@ -4463,8 +4463,8 @@
       <SynsetRelation relType="hypernym" target="ewn-13921893-n"/> <!-- sphere -->
       <SynsetRelation relType="hyponym" target="ewn-13924551-n"/> <!-- dewdrop -->
       <SynsetRelation relType="hyponym" target="ewn-13924618-n"/> <!-- teardrop -->
-      <Example>&quot;he studied the shapes of low-viscosity drops&quot;</Example>
-      <Example>&quot;beads of sweat on his forehead&quot;</Example>
+      <Example>he studied the shapes of low-viscosity drops</Example>
+      <Example>beads of sweat on his forehead</Example>
     </Synset>
     <!-- dewdrop -->
     <Synset id="ewn-13924551-n" ili="i109996" partOfSpeech="n" dc:subject="noun.shape">
@@ -4507,7 +4507,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05264045-n"/> <!-- widow's peak -->
       <SynsetRelation relType="hyponym" target="ewn-05315020-n"/> <!-- cusp -->
       <SynsetRelation relType="hyponym" target="ewn-14335908-n"/> <!-- head -->
-      <Example>&quot;the cannibal&apos;s teeth were filed to sharp points&quot;</Example>
+      <Example>the cannibal&apos;s teeth were filed to sharp points</Example>
     </Synset>
     <!-- taper -->
     <Synset id="ewn-13925486-n" ili="i110002" partOfSpeech="n" dc:subject="noun.shape">
@@ -4588,15 +4588,15 @@
     <Synset id="ewn-13927512-n" ili="i110012" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a depression in an otherwise level surface</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13919062-n"/> <!-- imprint, depression, impression -->
-      <Example>&quot;there was a dip in the road&quot;</Example>
+      <Example>there was a dip in the road</Example>
     </Synset>
     <!-- cup -->
     <Synset id="ewn-13927671-n" ili="i110013" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>any cup-shaped concavity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13887586-n"/> <!-- concave shape, incurvature, incurvation, concavity -->
-      <Example>&quot;bees filled the waxen cups with honey&quot;</Example>
-      <Example>&quot;he wore a jock strap with a metal cup&quot;</Example>
-      <Example>&quot;the cup of her bra&quot;</Example>
+      <Example>bees filled the waxen cups with honey</Example>
+      <Example>he wore a jock strap with a metal cup</Example>
+      <Example>the cup of her bra</Example>
     </Synset>
     <!-- incision, prick, dent, slit, scratch -->
     <Synset id="ewn-13927849-n" ili="i110014" partOfSpeech="n" dc:subject="noun.shape">
@@ -4616,7 +4616,7 @@
       <Definition>a V-shaped indentation</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13931035-n"/> <!-- indentation, indenture -->
       <SynsetRelation relType="hyponym" target="ewn-13928127-n"/> <!-- incisura, incisure -->
-      <Example>&quot;mandibular notch&quot;</Example>
+      <Example>mandibular notch</Example>
     </Synset>
     <!-- scotch, score -->
     <Synset id="ewn-13928411-n" ili="i110017" partOfSpeech="n" dc:subject="noun.shape">
@@ -4627,7 +4627,7 @@
     <Synset id="ewn-13928578-n" ili="i110018" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a shape that sags</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13919062-n"/> <!-- imprint, depression, impression -->
-      <Example>&quot;there was a sag in the chair seat&quot;</Example>
+      <Example>there was a sag in the chair seat</Example>
     </Synset>
     <!-- line, crinkle, seam, crease, furrow, wrinkle -->
     <Synset id="ewn-13928798-n" ili="i110019" partOfSpeech="n" dc:subject="noun.shape">
@@ -4641,8 +4641,8 @@
       <SynsetRelation relType="hyponym" target="ewn-13929950-n"/> <!-- line of heart, love line, heart line, mensal line -->
       <SynsetRelation relType="hyponym" target="ewn-13930118-n"/> <!-- line of fate, line of destiny, line of Saturn -->
       <SynsetRelation relType="hyponym" target="ewn-92436939-n"/>
-      <Example>&quot;his face has many lines&quot;</Example>
-      <Example>&quot;ironing gets rid of most wrinkles&quot;</Example>
+      <Example>his face has many lines</Example>
+      <Example>ironing gets rid of most wrinkles</Example>
     </Synset>
     <!-- crow's feet, crow's foot, laugh line -->
     <Synset id="ewn-13929359-n" ili="i110020" partOfSpeech="n" dc:subject="noun.shape">
@@ -4687,11 +4687,11 @@
       <SynsetRelation relType="hyponym" target="ewn-13900557-n"/> <!-- twirl, kink, twist -->
       <SynsetRelation relType="hyponym" target="ewn-13930861-n"/> <!-- ruck, pucker -->
       <SynsetRelation relType="hyponym" target="ewn-92423476-n"/>
-      <Example>&quot;a fold in the napkin&quot;</Example>
-      <Example>&quot;a crease in his trousers&quot;</Example>
-      <Example>&quot;a plication on her blouse&quot;</Example>
-      <Example>&quot;a flexure of the colon&quot;</Example>
-      <Example>&quot;a bend of his elbow&quot;</Example>
+      <Example>a fold in the napkin</Example>
+      <Example>a crease in his trousers</Example>
+      <Example>a plication on her blouse</Example>
+      <Example>a flexure of the colon</Example>
+      <Example>a bend of his elbow</Example>
     </Synset>
     <!-- ruck, pucker -->
     <Synset id="ewn-13930861-n" ili="i110028" partOfSpeech="n" dc:subject="noun.shape">
@@ -4771,7 +4771,7 @@
     <Synset id="ewn-13932904-n" ili="i110041" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>an amorphous or indefinite shape</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13890113-n"/> <!-- amorphous shape -->
-      <Example>&quot;Despite its grotesque gargoyle shapelessness it was, of course, adorable&quot;</Example>
+      <Example>Despite its grotesque gargoyle shapelessness it was, of course, adorable</Example>
     </Synset>
     <!-- blob -->
     <Synset id="ewn-13933034-n" ili="i110042" partOfSpeech="n" dc:subject="noun.shape">
@@ -4782,9 +4782,9 @@
     <Synset id="ewn-13933131-n" ili="i110043" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>an empty area or space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13933399-n"/> <!-- space -->
-      <Example>&quot;the huge desert voids&quot;</Example>
-      <Example>&quot;the emptiness of outer space&quot;</Example>
-      <Example>&quot;without their support he&apos;ll be ruling in a vacuum&quot;</Example>
+      <Example>the huge desert voids</Example>
+      <Example>the emptiness of outer space</Example>
+      <Example>without their support he&apos;ll be ruling in a vacuum</Example>
     </Synset>
     <!-- space -->
     <Synset id="ewn-13933399-n" ili="i110044" partOfSpeech="n" dc:subject="noun.shape">
@@ -4804,15 +4804,15 @@
       <SynsetRelation relType="hyponym" target="ewn-13934444-n"/> <!-- hole -->
       <SynsetRelation relType="hyponym" target="ewn-13934532-n"/> <!-- enclosed space, cavity -->
       <SynsetRelation relType="hyponym" target="ewn-13934675-n"/> <!-- pocket -->
-      <Example>&quot;the architect left space in front of the building&quot;</Example>
-      <Example>&quot;they stopped at an open space in the jungle&quot;</Example>
-      <Example>&quot;the space between his teeth&quot;</Example>
+      <Example>the architect left space in front of the building</Example>
+      <Example>they stopped at an open space in the jungle</Example>
+      <Example>the space between his teeth</Example>
     </Synset>
     <!-- hollow -->
     <Synset id="ewn-13933910-n" ili="i110045" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a cavity or space in something</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13934532-n"/> <!-- enclosed space, cavity -->
-      <Example>&quot;hunger had caused the hollows in their cheeks&quot;</Example>
+      <Example>hunger had caused the hollows in their cheeks</Example>
     </Synset>
     <!-- node -->
     <Synset id="ewn-13934060-n" ili="i110046" partOfSpeech="n" dc:subject="noun.shape">
@@ -4843,14 +4843,14 @@
       <Definition>(bowling) the space between the headpin and the pins behind it on the right or left</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13933399-n"/> <!-- space -->
       <SynsetRelation relType="domain_topic" target="ewn-00462843-n"/> <!-- bowling -->
-      <Example>&quot;the ball hit the pocket and gave him a perfect strike&quot;</Example>
+      <Example>the ball hit the pocket and gave him a perfect strike</Example>
     </Synset>
     <!-- point, dot -->
     <Synset id="ewn-13934887-n" ili="i110051" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>a very small circular shape</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13897824-n"/> <!-- disk, saucer, disc -->
-      <Example>&quot;a row of points&quot;</Example>
-      <Example>&quot;draw lines between the dots&quot;</Example>
+      <Example>a row of points</Example>
+      <Example>draw lines between the dots</Example>
     </Synset>
     <!-- pore -->
     <Synset id="ewn-13935130-n" ili="i110052" partOfSpeech="n" dc:subject="noun.shape">
@@ -4863,7 +4863,7 @@
       <SynsetRelation relType="hypernym" target="ewn-13885789-n"/> <!-- plane figure, two-dimensional figure -->
       <SynsetRelation relType="hyponym" target="ewn-13935439-n"/> <!-- cladogram -->
       <SynsetRelation relType="hyponym" target="ewn-13935555-n"/> <!-- stemma -->
-      <Example>&quot;genealogical tree&quot;</Example>
+      <Example>genealogical tree</Example>
     </Synset>
     <!-- cladogram -->
     <Synset id="ewn-13935439-n" ili="i110054" partOfSpeech="n" dc:subject="noun.shape">
@@ -4911,7 +4911,7 @@
     <Synset id="ewn-13936581-n" ili="i110062" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>the distinctive form in which a thing is made</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13882990-n"/> <!-- solid -->
-      <Example>&quot;pottery of this cast was found throughout the region&quot;</Example>
+      <Example>pottery of this cast was found throughout the region</Example>
     </Synset>
     <!-- branch, ramification, leg -->
     <Synset id="ewn-13936864-n" ili="i110063" partOfSpeech="n" dc:subject="noun.shape">
@@ -4921,7 +4921,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13909749-n"/> <!-- bifurcation -->
       <SynsetRelation relType="hyponym" target="ewn-13937156-n"/> <!-- brachium -->
       <SynsetRelation relType="hyponym" target="ewn-13937280-n"/> <!-- fork, crotch -->
-      <Example>&quot;he broke off one of the branches&quot;</Example>
+      <Example>he broke off one of the branches</Example>
     </Synset>
     <!-- brachium -->
     <Synset id="ewn-13937156-n" ili="i110064" partOfSpeech="n" dc:subject="noun.shape">
@@ -4933,14 +4933,14 @@
     <Synset id="ewn-13937280-n" ili="i110065" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>the region of the angle formed by the junction of two branches</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13936864-n"/> <!-- branch, ramification, leg -->
-      <Example>&quot;they took the south fork&quot;</Example>
-      <Example>&quot;he climbed into the crotch of a tree&quot;</Example>
+      <Example>they took the south fork</Example>
+      <Example>he climbed into the crotch of a tree</Example>
     </Synset>
     <!-- pouch, sac, pocket, sack -->
     <Synset id="ewn-13937488-n" ili="i110066" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>an enclosed space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13934532-n"/> <!-- enclosed space, cavity -->
-      <Example>&quot;the trapped miners found a pocket of air&quot;</Example>
+      <Example>the trapped miners found a pocket of air</Example>
     </Synset>
     <!-- block, cube -->
     <Synset id="ewn-13937623-n" ili="i110067" partOfSpeech="n" dc:subject="noun.shape">
@@ -5096,8 +5096,8 @@
     <Synset id="ewn-13941420-n" ili="i110094" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>any long thin projection that is transient</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13942718-n"/> <!-- projection -->
-      <Example>&quot;tongues of flame licked at the walls&quot;</Example>
-      <Example>&quot;rifles exploded quick knives of fire into the dark&quot;</Example>
+      <Example>tongues of flame licked at the walls</Example>
+      <Example>rifles exploded quick knives of fire into the dark</Example>
     </Synset>
     <!-- tilt angle -->
     <Synset id="ewn-13941617-n" ili="i110095" partOfSpeech="n" dc:subject="noun.shape">
@@ -5128,7 +5128,7 @@
     <Synset id="ewn-13942206-n" ili="i110100" partOfSpeech="n" dc:subject="noun.shape">
       <Definition>the channel or break produced by erosion of relatively soft soil by water</Definition>
       <SynsetRelation relType="hypernym" target="ewn-13916479-n"/> <!-- groove, channel -->
-      <Example>&quot;it was several days after the storm before they could repair the washout and open the road&quot;</Example>
+      <Example>it was several days after the storm before they could repair the washout and open the road</Example>
     </Synset>
     <!-- wave angle -->
     <Synset id="ewn-13942427-n" ili="i110101" partOfSpeech="n" dc:subject="noun.shape">
