@@ -6553,7 +6553,6 @@
     <LexicalEntry id="ewn-ball-n">
       <Lemma writtenForm="ball" partOfSpeech="n"/>
       <Sense id="ewn-ball-n-07977630-01" n="7" synset="ewn-07977630-n" dc:identifier="ball%1:14:01::"/>
-      <Sense id="ewn-ball-n-08270189-01" n="3" synset="ewn-08270189-n" dc:identifier="ball%1:14:00::"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-subgroup-n">
       <Lemma writtenForm="subgroup" partOfSpeech="n"/>
@@ -29678,20 +29677,14 @@
     <Synset id="ewn-08269523-n" ili="i80500" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a gathering of people for pleasure</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08269132-n"/> <!-- social affair, social gathering -->
-      <SynsetRelation relType="hyponym" target="ewn-08269966-n"/> <!-- shindig, shindy -->
       <SynsetRelation relType="hyponym" target="ewn-08270062-n"/> <!-- dance -->
-      <SynsetRelation relType="hyponym" target="ewn-08270371-n"/> <!-- masque, mask, masquerade party, masquerade -->
       <SynsetRelation relType="hyponym" target="ewn-08270736-n"/> <!-- dinner party, dinner -->
-      <SynsetRelation relType="hyponym" target="ewn-08271252-n"/> <!-- reception -->
       <SynsetRelation relType="hyponym" target="ewn-08271914-n"/> <!-- open house -->
       <SynsetRelation relType="hyponym" target="ewn-08272030-n"/> <!-- housewarming -->
       <SynsetRelation relType="hyponym" target="ewn-08272152-n"/> <!-- soiree -->
       <SynsetRelation relType="hyponym" target="ewn-08272429-n"/> <!-- fete champetre, garden party, lawn party -->
-      <SynsetRelation relType="hyponym" target="ewn-08272716-n"/> <!-- shower -->
       <SynsetRelation relType="hyponym" target="ewn-08272926-n"/> <!-- stag party, smoker -->
       <SynsetRelation relType="hyponym" target="ewn-08273072-n"/> <!-- hen party -->
-      <SynsetRelation relType="hyponym" target="ewn-08273150-n"/> <!-- slumber party -->
-      <SynsetRelation relType="hyponym" target="ewn-08273290-n"/> <!-- mixer, social, sociable -->
       <SynsetRelation relType="hyponym" target="ewn-08273656-n"/> <!-- wedding, wedding party -->
       <SynsetRelation relType="hyponym" target="ewn-08495382-n"/> <!-- reunion -->
       <Example>she joined the party after dinner</Example>
@@ -29699,26 +29692,18 @@
     <!-- shindig, shindy -->
     <Synset id="ewn-08269966-n" ili="i80501" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a large and noisy party of people</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- dance -->
     <Synset id="ewn-08270062-n" ili="i80502" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of people assembled for dancing</Definition>
       <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
-      <SynsetRelation relType="hyponym" target="ewn-08270189-n"/> <!-- ball -->
-    </Synset>
-    <!-- ball -->
-    <Synset id="ewn-08270189-n" ili="i80503" partOfSpeech="n" dc:subject="noun.group">
-      <Definition>the people assembled at a lavish formal dance</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08270062-n"/> <!-- dance -->
-      <SynsetRelation relType="mero_part" target="ewn-00292507-n"/> <!-- promenade -->
-      <Example>the ball was already emptying out before the fire alarm sounded</Example>
     </Synset>
     <!-- masque, mask, masquerade party, masquerade -->
     <Synset id="ewn-08270371-n" ili="i80504" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of guests wearing costumes and masks</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-07463757-n"/> <!-- fancy-dress ball, masked ball, masquerade ball -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- banquet, feast -->
     <Synset id="ewn-08270561-n" ili="i80505" partOfSpeech="n" dc:subject="noun.group">
@@ -29749,11 +29734,11 @@
     <!-- reception -->
     <Synset id="ewn-08271252-n" ili="i80509" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a formal party of people; as after a wedding</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-08271461-n"/> <!-- at home -->
       <SynsetRelation relType="hyponym" target="ewn-08271548-n"/> <!-- levee -->
       <SynsetRelation relType="hyponym" target="ewn-08271797-n"/> <!-- wedding reception -->
       <SynsetRelation relType="mero_part" target="ewn-08450087-n"/> <!-- reception line -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- at home -->
     <Synset id="ewn-08271461-n" ili="i80510" partOfSpeech="n" dc:subject="noun.group">
@@ -29804,7 +29789,7 @@
     <!-- shower -->
     <Synset id="ewn-08272716-n" ili="i80520" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of friends assembled to present gifts (usually of a specified kind) to a person</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
       <Example>her friends organized a baby shower for her when she was expecting</Example>
     </Synset>
     <!-- stag party, smoker -->
@@ -29821,12 +29806,12 @@
     <!-- slumber party -->
     <Synset id="ewn-08273150-n" ili="i80523" partOfSpeech="n" dc:subject="noun.group">
       <Definition>an overnight party of girls who dress in nightclothes and pass the night talking</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- mixer, social, sociable -->
     <Synset id="ewn-08273290-n" ili="i80524" partOfSpeech="n" dc:subject="noun.group">
       <Definition>a party of people assembled to promote sociability and communal activity</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-08269523-n"/> <!-- party -->
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
     </Synset>
     <!-- supper -->
     <Synset id="ewn-08273488-n" ili="i80525" partOfSpeech="n" dc:subject="noun.group">
