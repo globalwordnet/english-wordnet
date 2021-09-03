@@ -44337,8 +44337,17 @@ physical condition:
 physical contact:
   n:
     sense:
-    - id: 'physical_contact%1:04:00::'
+    - antonym:
+      - 'physical_distancing%1:04:01::'
+      id: 'physical_contact%1:04:00::'
       synset: 00125700-n
+physical distancing:
+  n:
+    sense:
+    - antonym:
+      - 'physical_contact%1:04:00::'
+      id: 'physical_distancing%1:04:01::'
+      synset: 82653849-n
 physical education:
   n:
     sense:
@@ -92339,7 +92348,6 @@ pugnacity:
       variety: GB
     sense:
     - derivation:
-      - aggressive%5:00:00:hostile:01
       - pugnacious%5:00:00:aggressive:00
       id: 'pugnacity%1:07:00::'
       synset: 04651019-n
@@ -95948,7 +95956,6 @@ purposeless:
     sense:
     - derivation:
       - 'purposelessness%1:07:00::'
-      - 'aimlessness%1:07:00::'
       id: purposeless%5:00:00:worthless:00
       synset: 02513350-s
 purposelessly:

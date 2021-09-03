@@ -1969,7 +1969,6 @@
     <LexicalEntry id="ewn-grandness-n">
       <Lemma writtenForm="grandness" partOfSpeech="n"/>
       <Sense id="ewn-grandness__1:26:00::" n="0" synset="ewn-14458147-n">
-        <SenseRelation relType="derivation" target="ewn-important__5:00:00:influential:00"/>
         <SenseRelation relType="derivation" target="ewn-grand__5:00:00:important:00"/>
         </Sense>
     </LexicalEntry>
@@ -10936,7 +10935,6 @@
       <Lemma writtenForm="quiescency" partOfSpeech="n"/>
       <Sense id="ewn-quiescency__1:26:00::" n="0" synset="ewn-14035282-n">
         <SenseRelation relType="derivation" target="ewn-quiescent__5:00:00:inactive:07"/>
-        <SenseRelation relType="derivation" target="ewn-dormant__5:00:00:asleep:00"/>
         <SenseRelation relType="derivation" target="ewn-quiescent__5:00:00:dormant:00"/>
         </Sense>
     </LexicalEntry>
@@ -15584,11 +15582,6 @@
       <Lemma writtenForm="Fanconi&apos;s anaemia" partOfSpeech="n"/>
       <Sense id="ewn-fanconi-ap-s_anaemia__1:26:00::" n="0" synset="ewn-14188348-n"/>
     </LexicalEntry>
-    <LexicalEntry id="ewn-anchorage-n">
-      <Lemma writtenForm="anchorage" partOfSpeech="n"/>
-      <Sense id="ewn-anchorage__1:26:00::" n="0" synset="ewn-13946615-n"/>
-      <Pronunciation>ˈæŋkəɹɪdʒ</Pronunciation>
-    </LexicalEntry>
     <LexicalEntry id="ewn-tonus-n">
       <Lemma writtenForm="tonus" partOfSpeech="n"/>
       <Sense id="ewn-tonus__1:26:00::" n="0" synset="ewn-14568274-n"/>
@@ -17078,7 +17071,6 @@
     <LexicalEntry id="ewn-namelessness-n">
       <Lemma writtenForm="namelessness" partOfSpeech="n"/>
       <Sense id="ewn-namelessness__1:26:00::" n="0" synset="ewn-14459751-n">
-        <SenseRelation relType="derivation" target="ewn-anonymous__5:00:00:faceless:00"/>
         <SenseRelation relType="derivation" target="ewn-nameless__5:00:00:anonymous:00"/>
         </Sense>
     </LexicalEntry>
@@ -22459,11 +22451,6 @@
         </Sense>
       <Pronunciation variety="GB">ɹɪˈleɪʃ(ə)nʃɪp</Pronunciation>
       <Pronunciation variety="US">ɹɪˈleɪʃənˌʃɪp</Pronunciation>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-difficulty-n">
-      <Lemma writtenForm="difficulty" partOfSpeech="n"/>
-      <Sense id="ewn-difficulty__1:26:00::" n="2" synset="ewn-14431490-n"/>
-      <Pronunciation>ˈdɪfɪkəlti</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-susceptibleness-n">
       <Lemma writtenForm="susceptibleness" partOfSpeech="n"/>
@@ -29266,6 +29253,12 @@
         </Sense>
       <Pronunciation>kənˈtɛnt</Pronunciation>
     </LexicalEntry>
+    <LexicalEntry id="ewn-anchorage-n">
+      <Lemma writtenForm="anchorage" partOfSpeech="n"/>
+      <Sense id="ewn-anchorage__1:26:01::" n="3" synset="ewn-80258799-n"/>
+      <Sense id="ewn-anchorage__1:26:02::" n="4" synset="ewn-81261025-n"/>
+      <Pronunciation>ˈæŋkəɹɪdʒ</Pronunciation>
+    </LexicalEntry>
     <!-- cleavage -->
     <Synset id="ewn-13943045-n" ili="i110105" members="ewn-cleavage-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>the state of being split or cleft</Definition>
@@ -29309,7 +29302,6 @@
       <Definition>a state at a particular time</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024900-n"/> <!-- state -->
       <SynsetRelation relType="hyponym" target="ewn-04742951-n"/> <!-- diversity -->
-      <SynsetRelation relType="hyponym" target="ewn-13946615-n"/> <!-- anchorage -->
       <SynsetRelation relType="hyponym" target="ewn-13946812-n"/> <!-- health -->
       <SynsetRelation relType="hyponym" target="ewn-13946962-n"/> <!-- mode -->
       <SynsetRelation relType="hyponym" target="ewn-13947369-n"/> <!-- niche, ecological niche -->
@@ -29343,7 +29335,6 @@
       <SynsetRelation relType="hyponym" target="ewn-14110803-n"/> <!-- protuberance -->
       <SynsetRelation relType="hyponym" target="ewn-14236810-n"/> <!-- curvature -->
       <SynsetRelation relType="hyponym" target="ewn-14396987-n"/> <!-- psychological state, mental condition, mental state, psychological condition -->
-      <SynsetRelation relType="hyponym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14445583-n"/> <!-- melioration, improvement -->
       <SynsetRelation relType="hyponym" target="ewn-14445892-n"/> <!-- declination, decline -->
       <SynsetRelation relType="hyponym" target="ewn-14456971-n"/> <!-- ennoblement -->
@@ -29420,6 +29411,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14603635-n"/> <!-- submission -->
       <SynsetRelation relType="hyponym" target="ewn-14603879-n"/> <!-- urbanization, urbanisation -->
       <SynsetRelation relType="hyponym" target="ewn-92427407-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-80258799-n"/>
       <Example>a condition (or state) of disrepair</Example>
       <Example>the current status of the arms negotiations</Example>
     </Synset>
@@ -29444,13 +29436,6 @@
       <SynsetRelation relType="hypernym" target="ewn-14085287-n"/> <!-- sickness, malady, illness, unwellness -->
       <Example>a heart condition</Example>
       <Example>a skin condition</Example>
-    </Synset>
-    <!-- anchorage -->
-    <Synset id="ewn-13946615-n" ili="i110113" members="ewn-anchorage-n" partOfSpeech="n" dc:subject="noun.state">
-      <Definition>the condition of being secured to a base</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
-      <Example>the plant needs a firm anchorage</Example>
-      <Example>the mother provides emotional anchorage for the entire family</Example>
     </Synset>
     <!-- health -->
     <Synset id="ewn-13946812-n" ili="i110114" members="ewn-health-n" partOfSpeech="n" dc:subject="noun.state">
@@ -46011,38 +45996,20 @@
       <Definition>the state of being intensely interested (as by awe or terror)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-14430940-n"/> <!-- spell, enchantment, trance -->
     </Synset>
-    <!-- difficulty -->
-    <Synset id="ewn-14431490-n" ili="i112724" members="ewn-difficulty-n" partOfSpeech="n" dc:subject="noun.state">
-      <Definition>a condition or state of affairs almost beyond one&apos;s ability to deal with and requiring great effort to bear or overcome</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
-      <SynsetRelation relType="hyponym" target="ewn-14431923-n"/> <!-- bitch -->
-      <SynsetRelation relType="hyponym" target="ewn-14432050-n"/> <!-- quandary, plight, predicament -->
-      <SynsetRelation relType="hyponym" target="ewn-14432689-n"/> <!-- rattrap -->
-      <SynsetRelation relType="hyponym" target="ewn-14432775-n"/> <!-- pinch -->
-      <SynsetRelation relType="hyponym" target="ewn-14432893-n"/> <!-- mess, hole, pickle, jam, fix, muddle, kettle of fish -->
-      <SynsetRelation relType="hyponym" target="ewn-14433284-n"/> <!-- hard time, rough sledding -->
-      <SynsetRelation relType="hyponym" target="ewn-14433493-n"/> <!-- stress, strain -->
-      <SynsetRelation relType="hyponym" target="ewn-14433769-n"/> <!-- mire -->
-      <SynsetRelation relType="hyponym" target="ewn-14434009-n"/> <!-- problem, job -->
-      <SynsetRelation relType="hyponym" target="ewn-14434647-n"/> <!-- situation -->
-      <SynsetRelation relType="hyponym" target="ewn-14588100-n"/> <!-- urinary hesitancy -->
-      <SynsetRelation relType="hyponym" target="ewn-14588360-n"/> <!-- wall -->
-      <Example>grappling with financial difficulties</Example>
-    </Synset>
     <!-- bitch -->
     <Synset id="ewn-14431923-n" ili="i112725" members="ewn-bitch-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>an unpleasant difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="exemplifies" target="ewn-07171981-n"/> <!-- vernacular, slang, jargon, argot, cant, patois, lingo -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>this problem is a real bitch</Example>
     </Synset>
     <!-- quandary, plight, predicament -->
     <Synset id="ewn-14432050-n" ili="i112726" members="ewn-predicament-n ewn-quandary-n ewn-plight-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a situation from which extrication is difficult especially an unpleasant or trying one</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-07520286-n"/> <!-- care -->
       <SynsetRelation relType="hyponym" target="ewn-14432355-n"/> <!-- corner, box -->
       <SynsetRelation relType="hyponym" target="ewn-14432541-n"/> <!-- hot water -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>finds himself in a most awkward predicament</Example>
       <Example>the woeful plight of homeless people</Example>
     </Synset>
@@ -46061,19 +46028,19 @@
     <!-- rattrap -->
     <Synset id="ewn-14432689-n" ili="i112729" members="ewn-rattrap-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficult entangling situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- pinch -->
     <Synset id="ewn-14432775-n" ili="i112730" members="ewn-pinch-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a painful or straitened circumstance</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the pinch of the recession</Example>
     </Synset>
     <!-- mess, hole, pickle, jam, fix, muddle, kettle of fish -->
     <Synset id="ewn-14432893-n" ili="i112731" members="ewn-fix-n ewn-hole-n ewn-jam-n ewn-mess-n ewn-muddle-n ewn-pickle-n ewn-kettle_of_fish-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>informal terms for a difficult situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14433122-n"/> <!-- dog's breakfast, dog's dinner -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>he got into a terrible fix</Example>
       <Example>he made a muddle of his marriage</Example>
     </Synset>
@@ -46087,30 +46054,30 @@
     <!-- hard time, rough sledding -->
     <Synset id="ewn-14433284-n" ili="i112733" members="ewn-hard_time-n ewn-rough_sledding-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficulty that can be overcome with effort</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>we had a hard time getting here</Example>
       <Example>analysts predicted rough sledding for handset makers</Example>
     </Synset>
     <!-- stress, strain -->
     <Synset id="ewn-14433493-n" ili="i112734" members="ewn-stress-n ewn-strain-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>difficulty that causes worry or emotional tension</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>she endured the stresses and strains of life</Example>
       <Example dc:source="R.J.Samuelson">he presided over the economy during the period of the greatest stress and danger</Example>
     </Synset>
     <!-- mire -->
     <Synset id="ewn-14433769-n" ili="i112735" members="ewn-mire-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficulty or embarrassment that is hard to extricate yourself from</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the country is still trying to climb out of the mire left by its previous president</Example>
       <Example>caught in the mire of poverty</Example>
     </Synset>
     <!-- problem, job -->
     <Synset id="ewn-14434009-n" ili="i112736" members="ewn-problem-n ewn-job-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a state of difficulty that needs to be resolved</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-14434322-n"/> <!-- race problem -->
       <SynsetRelation relType="hyponym" target="ewn-14434483-n"/> <!-- balance-of-payments problem -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>she and her husband are having problems</Example>
       <Example>it is always a job to contact him</Example>
       <Example>urban problems such as traffic congestion and smog</Example>
@@ -46128,7 +46095,6 @@
     <!-- situation -->
     <Synset id="ewn-14434647-n" ili="i112739" members="ewn-situation-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a complex or critical or unusual difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-13956424-n"/> <!-- conflict of interest -->
       <SynsetRelation relType="hyponym" target="ewn-13956593-n"/> <!-- crisis -->
       <SynsetRelation relType="hyponym" target="ewn-13957103-n"/> <!-- crunch -->
@@ -46147,6 +46113,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13967568-n"/> <!-- urgency -->
       <SynsetRelation relType="hyponym" target="ewn-14038832-n"/> <!-- impasse, stalemate, deadlock, standstill, dead end -->
       <SynsetRelation relType="hyponym" target="ewn-14435176-n"/> <!-- quicksand -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the dangerous situation developed suddenly</Example>
       <Example>that&apos;s quite a situation</Example>
       <Example>no human situation is simple</Example>
@@ -51512,12 +51479,12 @@
     <!-- urinary hesitancy -->
     <Synset id="ewn-14588100-n" ili="i113550" members="ewn-urinary_hesitancy-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>difficulty in beginning the flow of urine; associated with prostate enlargement in men and with narrowing of the urethral opening in women; may be caused by emotional stress in either men or women</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- wall -->
     <Synset id="ewn-14588360-n" ili="i113551" members="ewn-wall-n" partOfSpeech="n" dc:subject="noun.state">
       <Definition>a difficult or awkward situation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-14431490-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>his back was to the wall</Example>
       <Example>competition was pushing them to the wall</Example>
     </Synset>
@@ -52346,6 +52313,18 @@
       <Definition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</Definition>
       <ILIDefinition>a viral disease caused by SARS-CoV-2 that caused a global pandemic in 2020</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-85935644-n"/> <!-- respiratory illness, respiratory disorder, respiratory disease -->
+    </Synset>
+    <Synset id="ewn-80258799-n" ili="in" members="ewn-anchorage-n" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the condition of being secured to a base</Definition>
+      <ILIDefinition>the condition of being secured to a base</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-13943868-n"/> <!-- condition, status -->
+      <Example>the plant needs a firm anchorage</Example>
+    </Synset>
+    <Synset id="ewn-81261025-n" ili="in" members="ewn-anchorage-n" partOfSpeech="n" dc:subject="noun.state">
+      <Definition>the provision of a sense of security or steadfastness</Definition>
+      <ILIDefinition>the provision of a sense of security or steadfastness</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-00026390-n"/>
+      <Example>the mother provides emotional anchorage for the entire family</Example>
     </Synset>
   <SyntacticBehaviour id="ditransitive" subcategorizationFrame="Somebody ----s somebody something"/>
   <SyntacticBehaviour id="nonreferential" subcategorizationFrame="It is ----ing"/>

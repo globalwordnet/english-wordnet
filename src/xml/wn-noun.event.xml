@@ -10006,6 +10006,10 @@
       <Sense id="ewn-do__1:11:00::" n="0" synset="ewn-07462638-n"/>
       <Pronunciation>duː</Pronunciation>
     </LexicalEntry>
+    <LexicalEntry id="ewn-rave-up-n">
+      <Lemma writtenForm="rave-up" partOfSpeech="n"/>
+      <Sense id="ewn-rave-up__1:11:01::" n="1" synset="ewn-87903366-n"/>
+    </LexicalEntry>
     <!-- might-have-been -->
     <Synset id="ewn-07298069-n" ili="i74968" members="ewn-might-have-been-n" partOfSpeech="n" dc:subject="noun.event">
       <Definition>an event that could have occurred but never did</Definition>
@@ -15869,7 +15873,7 @@
     </Synset>
     <!-- social function, social occasion, function, occasion, affair -->
     <Synset id="ewn-07461861-n" ili="i75849" members="ewn-affair-n ewn-occasion-n ewn-social_occasion-n ewn-function-n ewn-social_function-n" partOfSpeech="n" dc:subject="noun.event">
-      <Definition>a vaguely specified social event</Definition>
+      <Definition>a formal or official social gathering or ceremony of people</Definition>
       <SynsetRelation relType="hypernym" target="ewn-07303344-n"/> <!-- social event -->
       <SynsetRelation relType="hyponym" target="ewn-07462241-n"/> <!-- party -->
       <SynsetRelation relType="hyponym" target="ewn-07465251-n"/> <!-- jubilation, celebration -->
@@ -15897,6 +15901,13 @@
       <SynsetRelation relType="hyponym" target="ewn-07465063-n"/> <!-- tea party -->
       <SynsetRelation relType="hyponym" target="ewn-07465149-n"/> <!-- whist drive -->
       <SynsetRelation relType="hyponym" target="ewn-90003411-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-87903366-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-08269966-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-08270371-n"/> <!-- masque, mask, masquerade party, masquerade -->
+      <SynsetRelation relType="hyponym" target="ewn-08271252-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-08272716-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-08273150-n"/>
+      <SynsetRelation relType="hyponym" target="ewn-08273290-n"/>
       <Example>he planned a party to celebrate Bastille Day</Example>
     </Synset>
     <!-- do, bash, brawl -->
@@ -17194,6 +17205,11 @@
       <ILIDefinition>(mechanics) any motion whose acceleration is not constant, due to the fact that the force causing it is not constant.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="ewn-07324399-n"/> <!-- motion, movement -->
       <Example>Time-varying net force must be present to cause motion with variable acceleration along that one coordinate.</Example>
+    </Synset>
+    <Synset id="ewn-87903366-n" ili="in" members="ewn-rave-up-n" partOfSpeech="n" dc:subject="noun.event">
+      <Definition>a large overnight dance party where electronic music is played and illegal drugs are usually taken</Definition>
+      <ILIDefinition>a large overnight dance party where electronic music is played and illegal drugs are usually taken</ILIDefinition>
+      <SynsetRelation relType="hypernym" target="ewn-07462241-n"/> <!-- party -->
     </Synset>
   <SyntacticBehaviour id="ditransitive" subcategorizationFrame="Somebody ----s somebody something"/>
   <SyntacticBehaviour id="nonreferential" subcategorizationFrame="It is ----ing"/>

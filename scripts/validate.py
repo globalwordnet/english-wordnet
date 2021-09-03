@@ -85,10 +85,10 @@ def check_no_loops(wn):
             for c in hypernyms[synset.id]:
                 hypernyms[synset.id] = hypernyms[synset.id].union(
                     hypernyms.get(c, []))
+                if synset.id in hypernyms[synset.id]:
+                    return ["Loop for %s <-> %s" % (synset.id, c)]
             if len(hypernyms[synset.id]) != n_size:
                 changed = True
-            if synset.id in hypernyms[synset.id]:
-                return ["Loop for %s" % (synset.id)]
     return []
 
 def check_no_domain_loops(wn):

@@ -204,6 +204,21 @@ class Pronunciation:
 """ % (escape_xml_lit(self.value)))
 
 
+class Pronunciation:
+    """The pronunciation of a lemma"""
+    def __init__(self, value, variety):
+        self.value = value
+        self.variety = variety
+
+    def to_xml(self, xml_file):
+        if self.variety:
+            xml_file.write("""      <Pronunciation variety="%s">%s</Pronunciation>
+""" % (self.variety, escape_xml_lit(self.value)))
+        else:
+            xml_file.write("""      <Pronunciation>%s</Pronunciation>
+""" % (escape_xml_lit(self.value)))
+
+  
 class Sense:
     """The sense links an entry to a synset"""
 

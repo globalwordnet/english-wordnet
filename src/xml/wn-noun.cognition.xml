@@ -830,7 +830,9 @@
     <LexicalEntry id="ewn-hero-n">
       <Lemma writtenForm="hero" partOfSpeech="n"/>
       <Form writtenForm="heroes"/>
-      <Sense id="ewn-hero__1:09:00::" n="1" synset="ewn-05938456-n"/>
+      <Sense id="ewn-hero__1:09:00::" n="1" synset="ewn-05938456-n">
+        <SenseRelation relType="other" target="ewn-heroine__1:18:01::"/>
+        </Sense>
       <Pronunciation variety="US">ˈhɪɹ.oʊ</Pronunciation>
       <Pronunciation variety="GB">ˈhɪə.ɹəʊ</Pronunciation>
       <Pronunciation variety="CA">ˈhɛɹ.oʊ</Pronunciation>
@@ -3789,7 +3791,6 @@
     <LexicalEntry id="ewn-tartness-n">
       <Lemma writtenForm="tartness" partOfSpeech="n"/>
       <Sense id="ewn-tartness__1:09:00::" n="0" synset="ewn-05724691-n">
-        <SenseRelation relType="derivation" target="ewn-sour__5:00:00:tasty:00"/>
         <SenseRelation relType="derivation" target="ewn-tart__5:00:00:sour:00"/>
         </Sense>
     </LexicalEntry>
@@ -14732,7 +14733,6 @@
     <LexicalEntry id="ewn-largeness-n">
       <Lemma writtenForm="largeness" partOfSpeech="n"/>
       <Sense id="ewn-largeness__1:09:00::" n="0" synset="ewn-05626076-n">
-        <SenseRelation relType="derivation" target="ewn-comprehensive__5:00:00:inclusive:00"/>
         <SenseRelation relType="derivation" target="ewn-large__5:00:00:comprehensive:00"/>
         </Sense>
       <Pronunciation>ˈlɑːdʒnəs</Pronunciation>
@@ -18382,8 +18382,6 @@
         <SenseRelation relType="derivation" target="ewn-immunologic__3:01:00::"/>
         <SenseRelation relType="derivation" target="ewn-immunological__3:01:00::"/>
         <SenseRelation relType="derivation" target="ewn-immunologist__1:18:00::"/>
-        <SenseRelation relType="derivation" target="ewn-allogeneic__3:00:00::"/>
-        <SenseRelation relType="derivation" target="ewn-xenogeneic__3:00:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-hierarchical_classification_system-n">
@@ -19161,11 +19159,6 @@
         <SenseRelation relType="derivation" target="ewn-astringent__5:00:00:sour:00"/>
         </Sense>
       <Pronunciation variety="GB">əˈstɹɪndʒ.əns</Pronunciation>
-    </LexicalEntry>
-    <LexicalEntry id="ewn-difficulty-n">
-      <Lemma writtenForm="difficulty" partOfSpeech="n"/>
-      <Sense id="ewn-difficulty__1:09:02::" n="1" synset="ewn-05694760-n"/>
-      <Pronunciation>ˈdɪfɪkəlti</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-Annwfn-n">
       <Lemma writtenForm="Annwfn" partOfSpeech="n"/>
@@ -28421,7 +28414,6 @@
       <Definition>something immaterial (as a circumstance or influence) that contributes to producing a result</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023451-n"/> <!-- noesis, cognition, knowledge -->
       <SynsetRelation relType="hyponym" target="ewn-05694495-n"/> <!-- divine guidance, inspiration -->
-      <SynsetRelation relType="hyponym" target="ewn-05694760-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-05700384-n"/> <!-- causal factor, determiner, determinant, determinative, determining factor -->
     </Synset>
     <!-- divine guidance, inspiration -->
@@ -28431,31 +28423,16 @@
       <SynsetRelation relType="domain_topic" target="ewn-06191860-n"/> <!-- divinity, theology -->
       <Example>they believe that the books of Scripture were written under divine guidance</Example>
     </Synset>
-    <!-- difficulty -->
-    <Synset id="ewn-05694760-n" ili="i66800" members="ewn-difficulty-n" partOfSpeech="n" dc:subject="noun.cognition">
-      <Definition>a factor causing trouble in achieving a positive result or tending to produce a negative result</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694286-n"/> <!-- cognitive factor -->
-      <SynsetRelation relType="hyponym" target="ewn-05695143-n"/> <!-- trouble, problem -->
-      <SynsetRelation relType="hyponym" target="ewn-05696291-n"/> <!-- facer -->
-      <SynsetRelation relType="hyponym" target="ewn-05696435-n"/> <!-- killer -->
-      <SynsetRelation relType="hyponym" target="ewn-05696575-n"/> <!-- kink -->
-      <SynsetRelation relType="hyponym" target="ewn-05696712-n"/> <!-- pisser -->
-      <SynsetRelation relType="hyponym" target="ewn-05696795-n"/> <!-- pitfall, booby trap -->
-      <SynsetRelation relType="hyponym" target="ewn-05696914-n"/> <!-- snorter -->
-      <SynsetRelation relType="hyponym" target="ewn-05697054-n"/> <!-- baulk, impediment, balk, hindrance, hinderance, check, deterrent, handicap -->
-      <SynsetRelation relType="hyponym" target="ewn-06261554-n"/> <!-- wrinkle -->
-      <Example>serious difficulties were encountered in obtaining a pure reagent</Example>
-    </Synset>
     <!-- trouble, problem -->
     <Synset id="ewn-05695143-n" ili="i66801" members="ewn-trouble-n ewn-problem-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>a source of difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-05695459-n"/> <!-- pressure point -->
       <SynsetRelation relType="hyponym" target="ewn-05695637-n"/> <!-- can of worms -->
       <SynsetRelation relType="hyponym" target="ewn-05695763-n"/> <!-- deep water -->
       <SynsetRelation relType="hyponym" target="ewn-05695835-n"/> <!-- growing pains -->
       <SynsetRelation relType="hyponym" target="ewn-05695974-n"/> <!-- hydra -->
       <SynsetRelation relType="hyponym" target="ewn-05696202-n"/> <!-- matter -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>one trouble after another delayed the job</Example>
       <Example>what&apos;s the problem?</Example>
     </Synset>
@@ -28496,48 +28473,48 @@
     <!-- facer -->
     <Synset id="ewn-05696291-n" ili="i66808" members="ewn-facer-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>(a dated Briticism) a serious difficulty with which one is suddenly faced</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- killer -->
     <Synset id="ewn-05696435-n" ili="i66809" members="ewn-killer-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>a difficulty that is hard to deal with</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>that exam was a real killer</Example>
     </Synset>
     <!-- kink -->
     <Synset id="ewn-05696575-n" ili="i66810" members="ewn-kink-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>a difficulty or flaw in a plan or operation</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>there are still a few kinks to iron out</Example>
     </Synset>
     <!-- pisser -->
     <Synset id="ewn-05696712-n" ili="i66811" members="ewn-pisser-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>a very disagreeable difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- pitfall, booby trap -->
     <Synset id="ewn-05696795-n" ili="i66812" members="ewn-pitfall-n ewn-booby_trap-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>an unforeseen or unexpected or surprising difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- snorter -->
     <Synset id="ewn-05696914-n" ili="i66813" members="ewn-snorter-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>something outstandingly difficult</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
       <SynsetRelation relType="domain_region" target="ewn-08879115-n"/> <!-- United Kingdom of Great Britain and Northern Ireland, United Kingdom, UK, Great Britain, U.K., Britain -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>the problem was a real snorter</Example>
     </Synset>
     <!-- baulk, impediment, balk, hindrance, hinderance, check, deterrent, handicap -->
     <Synset id="ewn-05697054-n" ili="i66814" members="ewn-hindrance-n ewn-hinderance-n ewn-deterrent-n ewn-impediment-n ewn-balk-n ewn-baulk-n ewn-check-n ewn-handicap-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>something immaterial that interferes with or delays action or progress</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
       <SynsetRelation relType="hyponym" target="ewn-05697450-n"/> <!-- albatross, millstone -->
       <SynsetRelation relType="hyponym" target="ewn-05697606-n"/> <!-- bind -->
       <SynsetRelation relType="hyponym" target="ewn-05697714-n"/> <!-- diriment impediment -->
       <SynsetRelation relType="hyponym" target="ewn-05697896-n"/> <!-- drag -->
       <SynsetRelation relType="hyponym" target="ewn-05698074-n"/> <!-- obstruction, obstacle -->
       <SynsetRelation relType="hyponym" target="ewn-05698489-n"/> <!-- straitjacket -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
     </Synset>
     <!-- albatross, millstone -->
     <Synset id="ewn-05697450-n" ili="i66815" members="ewn-albatross-n ewn-millstone-n" partOfSpeech="n" dc:subject="noun.cognition">
@@ -40924,6 +40901,8 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-13998484-n"/> <!-- incompatibility -->
       <SynsetRelation relType="has_domain_topic" target="ewn-15061906-n"/> <!-- antigen -->
       <SynsetRelation relType="has_domain_topic" target="ewn-15062231-n"/> <!-- determinant, epitope, antigenic determinant -->
+      <SynsetRelation relType="has_domain_topic" target="ewn-02606144-a"/>
+      <SynsetRelation relType="has_domain_topic" target="ewn-02606374-a"/>
     </Synset>
     <!-- immunochemistry, chemoimmunology -->
     <Synset id="ewn-06061456-n" ili="i68535" members="ewn-immunochemistry-n ewn-chemoimmunology-n" partOfSpeech="n" dc:subject="noun.cognition">
@@ -48122,7 +48101,7 @@
     <!-- wrinkle -->
     <Synset id="ewn-06261554-n" ili="i69359" members="ewn-wrinkle-n" partOfSpeech="n" dc:subject="noun.cognition">
       <Definition>a minor difficulty</Definition>
-      <SynsetRelation relType="hypernym" target="ewn-05694760-n"/> <!-- difficulty -->
+      <SynsetRelation relType="hypernym" target="ewn-04716529-n"/>
       <Example>they finally have the wrinkles pretty well ironed out</Example>
     </Synset>
     <!-- Zurvanism -->
