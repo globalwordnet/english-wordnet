@@ -56,3 +56,4 @@ WordNet is released under [CC-BY 4.0](LICENSE.md)
 * Ciara O'Loughlin
 * Cathal McGovern
 * Francis Bond
+* Eric Kafe
