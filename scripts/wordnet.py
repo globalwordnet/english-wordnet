@@ -18,6 +18,7 @@ class Lexicon:
         self.url = url
         self.entries = []
         self.synsets = []
+        self.frames = []
         self.comments = {}
         self.id2synset = {}
         self.id2entry = {}
@@ -104,12 +105,12 @@ class Lexicon:
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">\n""")
         else:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">\n""")
         xml_file.write(
-            """<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
+            """<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
   <Lexicon id="%s"
            label="%s"
            language="%s"
@@ -130,6 +131,8 @@ class Lexicon:
             entry.to_xml(xml_file, self.comments)
         for synset in self.synsets:
             synset.to_xml(xml_file, self.comments)
+        for synbeh in self.frames:
+            synbeh.to_xml(xml_file)
         xml_file.write("""  </Lexicon>
 </LexicalResource>\n""")
 
@@ -142,7 +145,6 @@ class LexicalEntry:
         self.lemma = None
         self.forms = []
         self.senses = []
-        self.syntactic_behaviours = []
         self.pronunciation = []
 
     def set_lemma(self, lemma):
@@ -155,9 +157,6 @@ class LexicalEntry:
         if not any(s.id == sense.id for s in self.senses):
             self.senses.append(sense)
 
-    def add_syntactic_behaviour(self, synbeh):
-        self.syntactic_behaviours.append(synbeh)
-
     def to_xml(self, xml_file, comments):
         xml_file.write("""    <LexicalEntry id="%s">
       <Lemma writtenForm="%s" partOfSpeech="%s"/>
@@ -166,8 +165,8 @@ class LexicalEntry:
             form.to_xml(xml_file)
         for sense in self.senses:
             sense.to_xml(xml_file, comments)
-        for synbeh in self.syntactic_behaviours:
-            synbeh.to_xml(xml_file)
+        for pron in self.pronunciation:
+            pron.to_xml(xml_file)
         xml_file.write("""    </LexicalEntry>
 """)
 
@@ -189,6 +188,20 @@ class Form:
     def to_xml(self, xml_file):
         xml_file.write("""      <Form writtenForm="%s"/>
 """ % escape_xml_lit(self.written_form))
+
+class Pronunciation:
+    """The pronunciation of a lemma"""
+    def __init__(self, value, variety):
+        self.value = value
+        self.variety = variety
+
+    def to_xml(self, xml_file):
+        if self.variety:
+            xml_file.write("""      <Pronunciation variety="%s">%s</Pronunciation>
+""" % (self.variety, escape_xml_lit(self.value)))
+        else:
+            xml_file.write("""      <Pronunciation>%s</Pronunciation>
+""" % (escape_xml_lit(self.value)))
 
 
 class Pronunciation:
@@ -217,6 +230,7 @@ class Sense:
         self.sense_relations = []
         self.adjposition = adjposition
         self.sent = []
+        self.subcat = []
 
     def add_sense_relation(self, relation):
         self.sense_relations.append(relation)
@@ -232,9 +246,13 @@ class Sense:
             sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
         else:
             sk_str = ""
+        if self.subcat:
+            subcat_str = " subcat=\"%s\"" % " ".join(self.subcat)
+        else:
+            subcat_str = ""
         if len(self.sense_relations) > 0:
-            xml_file.write("""      <Sense id="%s"%s synset="%s"%s>
-""" % (self.id, n_str, self.synset, sk_str))
+            xml_file.write("""      <Sense id="%s"%s%s synset="%s"%s>
+""" % (self.id, n_str, subcat_str, self.synset, sk_str))
             for rel in self.sense_relations:
                 rel.to_xml(xml_file, comments)
             xml_file.write("""        </Sense>
@@ -250,6 +268,7 @@ class Synset:
     def __init__(self, id, ili, part_of_speech, lex_name, source=None):
         self.id = id
         self.ili = ili
+        self.wikidata = None
         self.part_of_speech = part_of_speech
         self.lex_name = lex_name
         self.definitions = []
@@ -257,6 +276,7 @@ class Synset:
         self.synset_relations = []
         self.examples = []
         self.source = source
+        self.members = []
 
     def add_definition(self, definition, is_ili=False):
         if is_ili:
@@ -280,10 +300,11 @@ class Synset:
         if self.source:
             source_tag = " dc:source=\"%s\"" % (self.source)
         xml_file.write(
-            """    <Synset id="%s" ili="%s" partOfSpeech="%s" dc:subject="%s"%s>
+            """    <Synset id="%s" ili="%s" members="%s" partOfSpeech="%s" dc:subject="%s"%s>
 """ %
             (self.id,
              self.ili,
+             " ".join(self.members),
              self.part_of_speech.value,
              self.lex_name,
              source_tag))
@@ -362,24 +383,23 @@ class SenseRelation:
 
 
 class SyntacticBehaviour:
-    def __init__(self, subcategorization_frame, senses):
+    def __init__(self, id, subcategorization_frame):
         if not isinstance(subcategorization_frame, str):
             raise "Syntactic Behaviour is not string" + \
                 str(subcategorization_frame)
         self.subcategorization_frame = subcategorization_frame
-        self.senses = senses
+        self.id = id
 
     def to_xml(self, xml_file):
         xml_file.write(
-            """      <SyntacticBehaviour subcategorizationFrame="%s" senses="%s"/>
+            """  <SyntacticBehaviour id="%s" subcategorizationFrame="%s"/>
 """ %
-            (escape_xml_lit(
-                self.subcategorization_frame), " ".join(
-                self.senses)))
+            (self.id, escape_xml_lit(
+                self.subcategorization_frame)))
 
     def __repr__(self):
         return "SyntacticBehaviour(%s, %s)" % (
-            self.subcategorization_frame, " ".join(self.senses))
+            self.id, self.subcategorization_frame)
 
 
 class PartOfSpeech(Enum):
@@ -590,6 +610,8 @@ class WordNetContentHandler(ContentHandler):
         self.example = None
         self.example_source = None
         self.synset = None
+        self.pron = None
+        self.pron_var = None
 
     def startElement(self, name, attrs):
         if name == "Lexicon":
@@ -623,6 +645,7 @@ class WordNetContentHandler(ContentHandler):
                                  PartOfSpeech(attrs["partOfSpeech"]),
                                  attrs.get("dc:subject", ""),
                                  attrs.get("dc:source", ""))
+            self.synset.members = attrs.get("members", "").split(" ")
         elif name == "Definition":
             self.defn = ""
         elif name == "ILIDefinition":
@@ -639,10 +662,14 @@ class WordNetContentHandler(ContentHandler):
                 SenseRelation(attrs["target"],
                               SenseRelType(attrs["relType"])))
         elif name == "SyntacticBehaviour":
-            self.entry.add_syntactic_behaviour(
-                SyntacticBehaviour(
-                    attrs["subcategorizationFrame"],
-                    attrs["senses"].split(" ")))
+            pass
+            #self.entry.add_syntactic_behaviour(
+            #    SyntacticBehaviour(
+            #        attrs["subcategorizationFrame"],
+            #        attrs["senses"].split(" ")))
+        elif name == "Pronunciation":
+            self.pron = ""
+            self.pron_var = attrs.get("variety")
         elif name == "LexicalResource":
             pass
         else:
@@ -667,6 +694,9 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Example":
             self.synset.add_example(Example(self.example, self.example_source))
             self.example = None
+        elif name == "Pronunciation":
+            self.entry.pronunciation.append(Pronunciation(self.pron, self.pron_var))
+            self.pron = None
 
     def characters(self, content):
         if self.defn is not None:
@@ -675,6 +705,8 @@ class WordNetContentHandler(ContentHandler):
             self.ili_defn += content
         elif self.example is not None:
             self.example += content
+        elif self.pron is not None:
+            self.pron += content
         elif content.strip() == '':
             pass
         else:

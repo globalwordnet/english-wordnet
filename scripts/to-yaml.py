@@ -3,8 +3,9 @@ from wordnet_yaml import save
 
 
 def main():
-    wn = parse_wordnet("wn.xml")
-    save(wn)
+    print("Don't run this, it will cause data loss!")
+    #wn = parse_wordnet("wn.xml")
+    #save(wn)
 
 
 if __name__ == "__main__":

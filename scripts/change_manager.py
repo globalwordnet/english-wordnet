@@ -80,6 +80,7 @@ def save_all_xml(wn, change_list=None):
                 "ewn", "English WordNet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
+            by_lex_name[synset.lex_name].frames = wn.frames
         by_lex_name[synset.lex_name].add_synset(synset)
 
     for entry in wn.entries:
@@ -102,13 +103,14 @@ def save_all_xml(wn, change_list=None):
                         if sense2.id == sb_sense:
                             return sense2.id
                     return None
-                e.syntactic_behaviours = [SyntacticBehaviour(
-                    sb.subcategorization_frame,
-                    [find_sense_for_sb(sense) for sense in sb.senses])
-                    for sb in entry.syntactic_behaviours]
-                e.syntactic_behaviours = [SyntacticBehaviour(
-                    sb.subcategorization_frame, [s for s in sb.senses if s])
-                    for sb in e.syntactic_behaviours if any(sb.senses)]
+                #e.syntactic_behaviours = [SyntacticBehaviour(
+                #    sb.subcategorization_frame,
+                #    [find_sense_for_sb(sense) for sense in sb.senses])
+                #    for sb in entry.syntactic_behaviours]
+                #e.syntactic_behaviours = [SyntacticBehaviour(
+                #    sb.subcategorization_frame, [s for s in sb.senses if s])
+                #    for sb in e.syntactic_behaviours if any(sb.senses)]
+                e.pronunciation = entry.pronunciation
                 by_lex_name[lex_name].add_entry(e)
 
     for lex_name, wn in by_lex_name.items():
@@ -146,23 +148,23 @@ def save_all_xml(wn, change_list=None):
                                 sense.sense_relations, key=lambda sr: sense_rel_order[(sr.target, sr.rel_type)])
                         else:
                             print("sense not found:" + sense.id)
-                    sb_order = defaultdict(
-                        lambda: 10000, [
-                            (e, i) for i, e in enumerate(
-                                sb.subcategorization_frame for sb in wn_lex.entry_by_id(
-                                    entry.id).syntactic_behaviours)])
-                    entry.syntactic_behaviours = sorted(
-                        entry.syntactic_behaviours, key=lambda sb: sb_order[sb.subcategorization_frame])
-                    for sb in entry.syntactic_behaviours:
-                        sb2s = [sb2 for sb2 in wn_lex.entry_by_id(entry.id).syntactic_behaviours
-                                if sb2.subcategorization_frame == sb.subcategorization_frame]
-                        if sb2s:
-                            sbe_order = defaultdict(
-                                lambda: 10000, [
-                                    (e, i) for i, e in enumerate(
-                                        sb2s[0].senses)])
-                            sb.senses = sorted(
-                                sb.senses, key=lambda s: sbe_order[s])
+                    #sb_order = defaultdict(
+                    #    lambda: 10000, [
+                    #        (e, i) for i, e in enumerate(
+                    #            sb.subcategorization_frame for sb in wn_lex.entry_by_id(
+                    #                entry.id).syntactic_behaviours)])
+                    #entry.syntactic_behaviours = sorted(
+                    #    entry.syntactic_behaviours, key=lambda sb: sb_order[sb.subcategorization_frame])
+                    #for sb in entry.syntactic_behaviours:
+                    #    sb2s = [sb2 for sb2 in wn_lex.entry_by_id(entry.id).syntactic_behaviours
+                    #            if sb2.subcategorization_frame == sb.subcategorization_frame]
+                    #    if sb2s:
+                    #        sbe_order = defaultdict(
+                    #            lambda: 10000, [
+                    #                (e, i) for i, e in enumerate(
+                    #                    sb2s[0].senses)])
+                    #        sb.senses = sorted(
+                    #            sb.senses, key=lambda s: sbe_order[s])
                 else:
                     print("not found:" + entry.id)
             synset_order = defaultdict(

@@ -11,7 +11,10 @@ entry_orders = {}
 
 
 def map_sense_key(sk):
-    return sk
+    return "ewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-")
+
+def unmap_sense_key(sk):
+    return sk[4:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
 
 
 def make_pos(y, pos):
@@ -29,8 +32,8 @@ def make_sense_id(y, lemma, pos):
 
 
 def sense_from_yaml(y, lemma, pos, n):
-    s = Sense(make_sense_id(y, lemma, pos),
-              "ewn-" + y["synset"], map_sense_key(y["id"]), n,
+    s = Sense(map_sense_key(y["id"]),
+              "ewn-" + y["synset"], None, n,
               y.get("adjposition"))
     s.sent = y.get("sent")
     for rel, targets in y.items():
@@ -39,13 +42,20 @@ def sense_from_yaml(y, lemma, pos, n):
                 # Remap senses
                 s.add_sense_relation(SenseRelation(
                     map_sense_key(target), SenseRelType(rel)))
+    if "sent" in y:
+        s.sent = y["sent"]
+    if "subcat" in y:
+        s.subcat = y["subcat"]
     return s
 
 def pronunciation_from_yaml(props):
     return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
 
 
-def synset_from_yaml(props, id, lex_name):
+def pronunciation_from_yaml(props):
+    return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
+
+def synset_from_yaml(wn, props, id, lex_name):
     if "partOfSpeech" not in props:
         print(props)
     ss = Synset("ewn-" + id,
@@ -53,6 +63,7 @@ def synset_from_yaml(props, id, lex_name):
                 PartOfSpeech(props["partOfSpeech"]),
                 lex_name,
                 props.get("source"))
+    ss.wikidata = props.get("wikidata")
     for defn in props["definition"]:
         ss.add_definition(Definition(defn))
     if "ili" not in props:
@@ -67,48 +78,30 @@ def synset_from_yaml(props, id, lex_name):
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
                     "ewn-" + target, SynsetRelType(rel)))
+    ss.members = [entry_for_synset(wn, ss, lemma) for lemma in props["members"]]
     return ss
 
-
-def syntactic_behaviour_from_yaml(frames, props, lemma, pos):
-    keys = set([subcat for sense in props["sense"]
-                for subcat in sense.get("subcat", [])])
-    return [
-        SyntacticBehaviour(
-            frames[k], [
-                make_sense_id(
-                    sense, lemma, pos) for sense in props["sense"] if k in sense.get(
-                    "subcat", [])]) for k in keys]
+def entry_for_synset(wn, ss, lemma):
+    for e in wn.entry_by_lemma(lemma):
+        for s in wn.entry_by_id(e).senses:
+            if s.synset == ss.id:
+                return e
+    print("Could not find %s referring to %s" % (lemma, ss.id))
+    return ""
 
 
-def fix_sense_id(
-        wn,
-        sense,
-        lemma,
-        key2id,
-        key2oldid,
-        synset_ids_starting_from_zero):
-    key2oldid[sense.sense_key] = sense.id
-    idx = entry_orders[sense.synset[4:]].index(lemma)
-    if sense.synset in synset_ids_starting_from_zero:
-        sense.id = "%s-%02d" % (sense.id, idx)
-    else:
-        sense.id = "%s-%02d" % (sense.id, idx + 1)
-    key2id[sense.sense_key] = sense.id
-    wn.id2sense[sense.id] = sense
-    wn.sense2synset[sense.id] = sense.synset
-
-
-def fix_sense_rels(wn, sense, key2id, key2oldid):
+def fix_sense_rels(wn, sense):
     for rel in sense.sense_relations:
-        if not rel.target.startswith("ewn-"):
-            target_id = key2oldid[rel.target]
-            rel.target = key2id[rel.target]
-            if (rel.rel_type in inverse_sense_rels
-                    and inverse_sense_rels[rel.rel_type] != rel.rel_type):
-                wn.sense_by_id(target_id).add_sense_relation(
-                    SenseRelation(sense.id,
-                                  inverse_sense_rels[rel.rel_type]))
+        target_id = rel.target
+        if (rel.rel_type in inverse_sense_rels
+                and inverse_sense_rels[rel.rel_type] != rel.rel_type):
+            sense2 = wn.sense_by_id(target_id)
+            if not any(sr for sr in sense2.sense_relations
+                    if sr.rel_type == inverse_sense_rels[rel.rel_type] and
+                        sr.target == sense.id):
+                sense2.add_sense_relation(
+                        SenseRelation(sense.id,
+                            inverse_sense_rels[rel.rel_type]))
 
 
 def fix_synset_rels(wn, synset):
@@ -133,6 +126,7 @@ def load():
                  "https://github.com/globalwordnet/english-wordnet")
     with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
+        wn.frames = [SyntacticBehaviour(k,v) for k,v in frames.items()]
     for f in glob("src/yaml/entries-*.yaml"):
         with open(f, encoding="utf-8") as inp:
             y = yaml.load(inp, Loader=CLoader)
@@ -147,8 +141,6 @@ def load():
                             entry.add_form(Form(form))
                     for n, sense in enumerate(props["sense"]):
                         entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
-                    entry.syntactic_behaviours = syntactic_behaviour_from_yaml(
-                        frames, props, lemma, pos)
                     entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
 
@@ -159,7 +151,7 @@ def load():
                 y = yaml.load(inp, Loader=CLoader)
 
                 for id, props in y.items():
-                    wn.add_synset(synset_from_yaml(props, id, lex_name))
+                    wn.add_synset(synset_from_yaml(wn, props, id, lex_name))
                     entry_orders[id] = props["members"]
 
     # This is a big hack because of some inconsistencies in the XML that should
@@ -172,21 +164,9 @@ def load():
                 if sense.id.endswith("00"):
                     synset_ids_starting_from_zero.add(sense.synset)
 
-    key2id = {}
-    key2oldid = {}
     for entry in wn.entries:
         for sense in entry.senses:
-            fix_sense_id(
-                wn,
-                sense,
-                entry.lemma.written_form,
-                key2id,
-                key2oldid,
-                synset_ids_starting_from_zero)
-
-    for entry in wn.entries:
-        for sense in entry.senses:
-            fix_sense_rels(wn, sense, key2id, key2oldid)
+            fix_sense_rels(wn, sense)
 
     for synset in wn.synsets:
         fix_synset_rels(wn, synset)
@@ -199,17 +179,6 @@ def load():
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
-
-    for entry in wn.entries:
-        def find_sense_for_sb(sb_sense):
-            for sense2 in entry.senses:
-                if sense2.id[:-3] == sb_sense:
-                    return sense2.id
-            return None
-        entry.syntactic_behaviours = [SyntacticBehaviour(
-            sb.subcategorization_frame,
-            [find_sense_for_sb(sense) for sense in sb.senses])
-            for sb in entry.syntactic_behaviours]
 
     for lex_name, wn2 in by_lex_name.items():
         if os.path.exists("src/xml/wn-%s.xml" % lex_name):
@@ -232,10 +201,6 @@ def char_range(c1, c2):
         yield chr(c)
 
 
-def map_sense_key(sk):
-    return sk
-
-
 ignored_symmetric_sense_rels = set([
     SenseRelType.HAS_DOMAIN_REGION, SenseRelType.HAS_DOMAIN_TOPIC,
     SenseRelType.IS_EXEMPLIFIED_BY])
@@ -245,7 +210,7 @@ def sense_to_yaml(wn, s, sb_map):
     """Converts a single sense to the YAML form"""
     y = {}
     y["synset"] = s.synset[4:]
-    y["id"] = map_sense_key(s.sense_key)
+    y["id"] = unmap_sense_key(s.sense_key)
     if s.adjposition:
         y["adjposition"] = s.adjposition
     for sr in s.sense_relations:

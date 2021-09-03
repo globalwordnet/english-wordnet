@@ -63,8 +63,8 @@ def indent(elem, level=0):
 def wn_merge():
     with open("wn.xml", "w") as out:
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.0.dtd">
-<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">
+<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
   <Lexicon id="ewn"
            label="English WordNet"
            language="en"
@@ -73,6 +73,8 @@ def wn_merge():
            version="2020"
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
+    
+        ET.register_namespace("dc", "https://globalwordnet.github.io/schemas/dc/")
 
         for wn_part in glob("src/xml/wn-*.xml"):
             tree = ET.parse(wn_part).getroot()
@@ -90,7 +92,7 @@ def wn_merge():
                     indent(
                         order_entry(e),
                         level=2)).decode() .replace(
-                    " xmlns:dc=\"http://purl.org/dc/elements/1.1/\"",
+                    " xmlns:dc=\"https://globalwordnet.github.io/schemas/dc/\"",
                     ""))
         out.write("\n    ")
 
@@ -99,7 +101,12 @@ def wn_merge():
             for element in tree[0]:
                 if(element.tag == "Synset"):
                     out.write(ET.tostring(element).decode() .replace(
-                        " xmlns:dc=\"http://purl.org/dc/elements/1.1/\"", ""))
+                        " xmlns:dc=\"https://globalwordnet.github.io/schemas/dc/\"", ""))
+        tree = ET.parse("src/xml/wn-verb.body.xml").getroot()
+        for element in tree[0]:
+            if element.tag == "SyntacticBehaviour":
+                out.write(ET.tostring(element).decode() .replace(
+                    " xmlns:dc=\"https://globalwordnet.github.io/schemas/dc/\"", ""))
         out.write("""
   </Lexicon>
 </LexicalResource>""")

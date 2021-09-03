@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.0.dtd">
-<LexicalResource xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">
+<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
   <Lexicon id="ewn"
            label="English WordNet"
            language="en"
@@ -10,456 +10,553 @@
            url="https://github.com/globalwordnet/english-wordnet">
     <LexicalEntry id="ewn-attribute-n">
       <Lemma writtenForm="attribute" partOfSpeech="n"/>
-      <Sense id="ewn-attribute-n-00024444-01" n="1" synset="ewn-00024444-n" dc:identifier="attribute%1:03:00::"/>
+      <Sense id="ewn-attribute__1:03:00::" n="1" synset="ewn-00024444-n"/>
+      <Pronunciation variety="GB">ˈætɹɪbjuːt</Pronunciation>
+      <Pronunciation variety="US">ˈætɹɪ̈ˌbjut</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-motive-n">
       <Lemma writtenForm="motive" partOfSpeech="n"/>
-      <Sense id="ewn-motive-n-00023953-02" n="0" synset="ewn-00023953-n" dc:identifier="motive%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-motive-a-s-00325093-02"/> <!-- ewn-motive-a00325093-s  -->
-        <SenseRelation relType="derivation" target="ewn-motivate-v-01653541-01"/> <!-- incite, move, motivate, prompt, propel, actuate -->
+      <Sense id="ewn-motive__1:03:00::" n="0" synset="ewn-00023953-n">
+        <SenseRelation relType="derivation" target="ewn-motive__5:00:02:causative:00"/>
+        <SenseRelation relType="derivation" target="ewn-motivate__2:36:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈməʊtɪv</Pronunciation>
+      <Pronunciation variety="US">ˈmoʊtɪv</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-infinite-n">
       <Lemma writtenForm="infinite" partOfSpeech="n"/>
-      <Sense id="ewn-infinite-n-00028950-02" n="0" synset="ewn-00028950-n" dc:identifier="infinite%1:03:00::"/>
+      <Sense id="ewn-infinite__1:03:00::" n="0" synset="ewn-00028950-n"/>
+      <Pronunciation variety="GB">ˈɪnfɪnɪt</Pronunciation>
+      <Pronunciation variety="US">ˈɪnfɪnɪt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-measure-n">
       <Lemma writtenForm="measure" partOfSpeech="n"/>
-      <Sense id="ewn-measure-n-00033914-01" n="1" synset="ewn-00033914-n" dc:identifier="measure%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-measure-v-00683348-01"/> <!-- assess, valuate, value, evaluate, measure, appraise -->
-        <SenseRelation relType="derivation" target="ewn-measure-v-00490773-02"/> <!-- quantify, measure -->
-        <SenseRelation relType="derivation" target="ewn-measure-v-00648747-01"/> <!-- measure out, mensurate, measure -->
+      <Sense id="ewn-measure__1:03:00::" n="1" synset="ewn-00033914-n">
+        <SenseRelation relType="derivation" target="ewn-measure__2:31:01::"/>
+        <SenseRelation relType="derivation" target="ewn-measure__2:30:00::"/>
+        <SenseRelation relType="derivation" target="ewn-measure__2:31:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈmɛʒə</Pronunciation>
+      <Pronunciation variety="US">ˈmɛʒɚ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-substance-n">
       <Lemma writtenForm="substance" partOfSpeech="n"/>
-      <Sense id="ewn-substance-n-00019793-01" n="0" synset="ewn-00019793-n" dc:identifier="substance%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-substantial-a-00628097-01"/> <!-- substantial, material, real -->
+      <Sense id="ewn-substance__1:03:00::" n="0" synset="ewn-00019793-n">
+        <SenseRelation relType="derivation" target="ewn-substantial__3:00:00::"/>
         </Sense>
-      <Sense id="ewn-substance-n-00020270-01" n="7" synset="ewn-00020270-n" dc:identifier="substance%1:03:01::"/>
+      <Sense id="ewn-substance__1:03:01::" n="7" synset="ewn-00020270-n"/>
+      <Pronunciation variety="US">ˈsʌbstəns</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-physical_process-n">
       <Lemma writtenForm="physical process" partOfSpeech="n"/>
-      <Sense id="ewn-physical_process-n-00029976-02" n="0" synset="ewn-00029976-n" dc:identifier="physical_process%1:03:00::"/>
+      <Sense id="ewn-physical_process__1:03:00::" n="0" synset="ewn-00029976-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-physical_entity-n">
       <Lemma writtenForm="physical entity" partOfSpeech="n"/>
-      <Sense id="ewn-physical_entity-n-00001930-01" n="0" synset="ewn-00001930-n" dc:identifier="physical_entity%1:03:00::"/>
+      <Sense id="ewn-physical_entity__1:03:00::" n="0" synset="ewn-00001930-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-time-n">
       <Lemma writtenForm="time" partOfSpeech="n"/>
-      <Sense id="ewn-time-n-00028468-01" n="4" synset="ewn-00028468-n" dc:identifier="time%1:03:00::"/>
+      <Sense id="ewn-time__1:03:00::" n="4" synset="ewn-00028468-n"/>
+      <Pronunciation variety="US">taɪm</Pronunciation>
+      <Pronunciation variety="AU">tɑem</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-grouping-n">
       <Lemma writtenForm="grouping" partOfSpeech="n"/>
-      <Sense id="ewn-grouping-n-00031563-02" n="0" synset="ewn-00031563-n" dc:identifier="grouping%1:03:00::"/>
+      <Sense id="ewn-grouping__1:03:00::" n="0" synset="ewn-00031563-n"/>
+      <Pronunciation>ˈɡɹuːpɪŋ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-nutrient-n">
       <Lemma writtenForm="nutrient" partOfSpeech="n"/>
-      <Sense id="ewn-nutrient-n-00021445-02" n="0" synset="ewn-00021445-n" dc:identifier="nutrient%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-nutrient-s-02568489-04"/> <!-- alimental, nutrient, alimentary, nutritive, nourishing, nutritious -->
-        <SenseRelation relType="derivation" target="ewn-nutrify-v-01206811-01"/> <!-- nourish, aliment, nutrify -->
+      <Sense id="ewn-nutrient__1:03:00::" n="0" synset="ewn-00021445-n">
+        <SenseRelation relType="derivation" target="ewn-nutrient__5:00:00:wholesome:00"/>
+        <SenseRelation relType="derivation" target="ewn-nutrify__2:34:00::"/>
         </Sense>
-      <Sense id="ewn-nutrient-n-00021914-01" n="1" synset="ewn-00021914-n" dc:identifier="nutrient%1:03:01::"/>
+      <Sense id="ewn-nutrient__1:03:01::" n="1" synset="ewn-00021914-n"/>
+      <Pronunciation variety="GB">ˈnjuː.tɹi.ənt</Pronunciation>
+      <Pronunciation variety="US">ˈnuː.tɹi.ənt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-shape-n">
       <Lemma writtenForm="shape" partOfSpeech="n"/>
-      <Sense id="ewn-shape-n-00028005-01" n="1" synset="ewn-00028005-n" dc:identifier="shape%1:03:00::"/>
+      <Sense id="ewn-shape__1:03:00::" n="1" synset="ewn-00028005-n"/>
+      <Pronunciation>ʃeɪp</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-beast-n">
       <Lemma writtenForm="beast" partOfSpeech="n"/>
-      <Sense id="ewn-beast-n-00015568-03" n="0" synset="ewn-00015568-n" dc:identifier="beast%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-beastly-s-01266555-01"/> <!-- brutal, brutish, brute, bestial, beastly -->
-        <SenseRelation relType="derivation" target="ewn-bestial-s-01266555-02"/> <!-- brutal, brutish, brute, bestial, beastly -->
+      <Sense id="ewn-beast__1:03:00::" n="0" synset="ewn-00015568-n">
+        <SenseRelation relType="derivation" target="ewn-beastly__5:00:00:inhumane:00"/>
+        <SenseRelation relType="derivation" target="ewn-bestial__5:00:00:inhumane:00"/>
         </Sense>
+      <Pronunciation>biːst</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-plant_life-n">
       <Lemma writtenForm="plant life" partOfSpeech="n"/>
-      <Sense id="ewn-plant_life-n-00017402-03" n="0" synset="ewn-00017402-n" dc:identifier="plant_life%1:03:00::"/>
+      <Sense id="ewn-plant_life__1:03:00::" n="0" synset="ewn-00017402-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-whole-n">
       <Lemma writtenForm="whole" partOfSpeech="n"/>
-      <Sense id="ewn-whole-n-00003553-01" n="1" synset="ewn-00003553-n" dc:identifier="whole%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-whole-s-00787771-03"/> <!-- solid, unanimous, whole -->
+      <Sense id="ewn-whole__1:03:00::" n="1" synset="ewn-00003553-n">
+        <SenseRelation relType="derivation" target="ewn-whole__5:00:00:undiversified:00"/>
         </Sense>
+      <Pronunciation variety="GB">həʊl</Pronunciation>
+      <Pronunciation variety="US">hoʊl</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-being-n">
       <Lemma writtenForm="being" partOfSpeech="n"/>
-      <Sense id="ewn-being-n-00004475-02" n="1" synset="ewn-00004475-n" dc:identifier="being%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-be-v-02620216-01"/> <!-- be, live -->
+      <Sense id="ewn-being__1:03:00::" n="1" synset="ewn-00004475-n">
+        <SenseRelation relType="derivation" target="ewn-be__2:42:01::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈbiːɪŋ</Pronunciation>
+      <Pronunciation variety="US">ˈbiɪŋ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-noesis-n">
       <Lemma writtenForm="noesis" partOfSpeech="n"/>
-      <Sense id="ewn-noesis-n-00023451-03" n="0" synset="ewn-00023451-n" dc:identifier="noesis%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-noetic-s-01784888-03"/> <!-- rational, noetic, intellectual -->
+      <Sense id="ewn-noesis__1:03:00::" n="0" synset="ewn-00023451-n">
+        <SenseRelation relType="derivation" target="ewn-noetic__5:00:00:mental:00"/>
         </Sense>
+      <Pronunciation variety="GB">nəʊˈiːsɪs</Pronunciation>
+      <Pronunciation variety="US">noʊˈisɪs</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-natural_object-n">
       <Lemma writtenForm="natural object" partOfSpeech="n"/>
-      <Sense id="ewn-natural_object-n-00019308-01" n="0" synset="ewn-00019308-n" dc:identifier="natural_object%1:03:00::">
-        <SenseRelation relType="antonym" target="ewn-artifact-n-00022119-01"/> <!-- artifact, artefact -->
+      <Sense id="ewn-natural_object__1:03:00::" n="0" synset="ewn-00019308-n">
+        <SenseRelation relType="antonym" target="ewn-artifact__1:03:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-person-n">
       <Lemma writtenForm="person" partOfSpeech="n"/>
-      <Sense id="ewn-person-n-00007846-01" n="0" synset="ewn-00007846-n" dc:identifier="person%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-personhood-n-04626138-01"/> <!-- personhood -->
-        <SenseRelation relType="derivation" target="ewn-personify-v-00729535-01"/> <!-- personify, personate -->
+      <Sense id="ewn-person__1:03:00::" n="0" synset="ewn-00007846-n">
+        <SenseRelation relType="derivation" target="ewn-personhood__1:07:00::"/>
+        <SenseRelation relType="derivation" target="ewn-personify__2:31:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈpɜːsən</Pronunciation>
+      <Pronunciation variety="US">ˈpɝsən</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-native-n">
       <Lemma writtenForm="native" partOfSpeech="n"/>
-      <Sense id="ewn-native-n-00019226-01" n="2" synset="ewn-00019226-n" dc:identifier="native%1:03:00::"/>
+      <Sense id="ewn-native__1:03:00::" n="2" synset="ewn-00019226-n"/>
+      <Pronunciation variety="GB">ˈneɪtɪv</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-unit-n">
       <Lemma writtenForm="unit" partOfSpeech="n"/>
-      <Sense id="ewn-unit-n-00003553-02" n="5" synset="ewn-00003553-n" dc:identifier="unit%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-unify-v-01464634-04"/> <!-- commix, unify, mingle, mix, amalgamate -->
-        <SenseRelation relType="derivation" target="ewn-unify-v-00368338-01"/> <!-- unify, merge, unite -->
-        <SenseRelation relType="derivation" target="ewn-unitize-v-01388112-01"/> <!-- unitize, unitise -->
-        <SenseRelation relType="derivation" target="ewn-unitize-v-00368762-01"/> <!-- unitize, unitise -->
+      <Sense id="ewn-unit__1:03:00::" n="5" synset="ewn-00003553-n">
+        <SenseRelation relType="derivation" target="ewn-unify__2:35:00::"/>
+        <SenseRelation relType="derivation" target="ewn-unify__2:30:00::"/>
+        <SenseRelation relType="derivation" target="ewn-unitize__2:35:00::"/>
+        <SenseRelation relType="derivation" target="ewn-unitize__2:30:00::"/>
         </Sense>
+      <Pronunciation>ˈjuː.nɪt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-life-n">
       <Lemma writtenForm="life" partOfSpeech="n"/>
       <Form writtenForm="lives"/>
-      <Sense id="ewn-life-n-00006269-01" n="9" synset="ewn-00006269-n" dc:identifier="life%1:03:00::"/>
+      <Sense id="ewn-life__1:03:00::" n="9" synset="ewn-00006269-n"/>
+      <Pronunciation>laɪf</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-psychological_feature-n">
       <Lemma writtenForm="psychological feature" partOfSpeech="n"/>
-      <Sense id="ewn-psychological_feature-n-00023280-01" n="0" synset="ewn-00023280-n" dc:identifier="psychological_feature%1:03:00::"/>
+      <Sense id="ewn-psychological_feature__1:03:00::" n="0" synset="ewn-00023280-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-matter-n">
       <Lemma writtenForm="matter" partOfSpeech="n"/>
-      <Sense id="ewn-matter-n-00021007-01" n="2" synset="ewn-00021007-n" dc:identifier="matter%1:03:00::"/>
+      <Sense id="ewn-matter__1:03:00::" n="2" synset="ewn-00021007-n"/>
+      <Pronunciation variety="GB">ˈmætə</Pronunciation>
+      <Pronunciation variety="US">ˈmætɚ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-abstract_entity-n">
       <Lemma writtenForm="abstract entity" partOfSpeech="n"/>
-      <Sense id="ewn-abstract_entity-n-00002137-02" n="0" synset="ewn-00002137-n" dc:identifier="abstract_entity%1:03:00::"/>
+      <Sense id="ewn-abstract_entity__1:03:00::" n="0" synset="ewn-00002137-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-cell-n">
       <Lemma writtenForm="cell" partOfSpeech="n"/>
-      <Sense id="ewn-cell-n-00006484-01" n="1" synset="ewn-00006484-n" dc:identifier="cell%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-cellular-a-02696036-01"/> <!-- cellular -->
-        <SenseRelation relType="derivation" target="ewn-cellular-a-00327929-01"/> <!-- cellular -->
+      <Sense id="ewn-cell__1:03:00::" n="1" synset="ewn-00006484-n">
+        <SenseRelation relType="derivation" target="ewn-cellular__3:01:00::"/>
+        <SenseRelation relType="derivation" target="ewn-cellular__3:00:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-motivation-n">
       <Lemma writtenForm="motivation" partOfSpeech="n"/>
-      <Sense id="ewn-motivation-n-00023953-01" n="0" synset="ewn-00023953-n" dc:identifier="motivation%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-motivational-a-02777100-01"/> <!-- motivational -->
-        <SenseRelation relType="derivation" target="ewn-motivate-v-01653541-01"/> <!-- incite, move, motivate, prompt, propel, actuate -->
+      <Sense id="ewn-motivation__1:03:00::" n="0" synset="ewn-00023953-n">
+        <SenseRelation relType="derivation" target="ewn-motivational__3:01:00::"/>
+        <SenseRelation relType="derivation" target="ewn-motivate__2:36:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-amount-n">
       <Lemma writtenForm="amount" partOfSpeech="n"/>
-      <Sense id="ewn-amount-n-00033914-03" n="2" synset="ewn-00033914-n" dc:identifier="amount%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-amount-v-02651091-05"/> <!-- add up, amount, total, number, come -->
+      <Sense id="ewn-amount__1:03:00::" n="2" synset="ewn-00033914-n">
+        <SenseRelation relType="derivation" target="ewn-amount__2:42:01::"/>
         </Sense>
+      <Pronunciation>əˈmaʊnt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-article-n">
       <Lemma writtenForm="article" partOfSpeech="n"/>
-      <Sense id="ewn-article-n-00023083-01" n="1" synset="ewn-00023083-n" dc:identifier="article%1:03:00::"/>
+      <Sense id="ewn-article__1:03:00::" n="1" synset="ewn-00023083-n"/>
+      <Pronunciation variety="GB">ˈɑːtɪkəl</Pronunciation>
+      <Pronunciation variety="US">ˈɑɹtɪkəl</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-cause-n">
       <Lemma writtenForm="cause" partOfSpeech="n"/>
-      <Sense id="ewn-cause-n-00007347-02" n="3" synset="ewn-00007347-n" dc:identifier="cause%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-causal-s-00324097-01"/> <!-- causal -->
-        <SenseRelation relType="derivation" target="ewn-cause-v-01649143-01"/> <!-- make, cause, do -->
-        <SenseRelation relType="derivation" target="ewn-cause-v-00772482-03"/> <!-- make, induce, stimulate, have, get, cause -->
+      <Sense id="ewn-cause__1:03:00::" n="3" synset="ewn-00007347-n">
+        <SenseRelation relType="derivation" target="ewn-causal__5:00:00:causative:00"/>
+        <SenseRelation relType="derivation" target="ewn-cause__2:36:00::"/>
+        <SenseRelation relType="derivation" target="ewn-cause__2:32:00::"/>
         </Sense>
+      <Pronunciation variety="GB">kɔːz</Pronunciation>
+      <Pronunciation variety="US">kɔz</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-thing-n">
       <Lemma writtenForm="thing" partOfSpeech="n"/>
-      <Sense id="ewn-thing-n-00002452-01" n="11" synset="ewn-00002452-n" dc:identifier="thing%1:03:00::"/>
+      <Sense id="ewn-thing__1:03:00::" n="11" synset="ewn-00002452-n"/>
+      <Pronunciation>θɪŋ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-someone-n">
       <Lemma writtenForm="someone" partOfSpeech="n"/>
-      <Sense id="ewn-someone-n-00007846-03" n="0" synset="ewn-00007846-n" dc:identifier="someone%1:03:00::"/>
+      <Sense id="ewn-someone__1:03:00::" n="0" synset="ewn-00007846-n"/>
+      <Pronunciation>ˈsʌmwʌn</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-dwarf-n">
       <Lemma writtenForm="dwarf" partOfSpeech="n"/>
       <Form writtenForm="dwarves"/>
-      <Sense id="ewn-dwarf-n-00005930-01" n="2" synset="ewn-00005930-n" dc:identifier="dwarf%1:03:00::"/>
+      <Sense id="ewn-dwarf__1:03:00::" n="2" synset="ewn-00005930-n"/>
+      <Pronunciation variety="US">dwɔɹf</Pronunciation>
+      <Pronunciation variety="GB">dwɔːf</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-cognition-n">
       <Lemma writtenForm="cognition" partOfSpeech="n"/>
-      <Sense id="ewn-cognition-n-00023451-01" n="0" synset="ewn-00023451-n" dc:identifier="cognition%1:03:00::"/>
+      <Sense id="ewn-cognition__1:03:00::" n="0" synset="ewn-00023451-n"/>
+      <Pronunciation variety="GB">kɒɡˈnɪʃən</Pronunciation>
+      <Pronunciation variety="US">kɑɡˈnɪʃən</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-entity-n">
       <Lemma writtenForm="entity" partOfSpeech="n"/>
-      <Sense id="ewn-entity-n-00001740-01" n="0" synset="ewn-00001740-n" dc:identifier="entity%1:03:00::"/>
+      <Sense id="ewn-entity__1:03:00::" n="0" synset="ewn-00001740-n"/>
+      <Pronunciation>ˈen.tɪ.ti</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-animate_being-n">
       <Lemma writtenForm="animate being" partOfSpeech="n"/>
-      <Sense id="ewn-animate_being-n-00015568-02" n="0" synset="ewn-00015568-n" dc:identifier="animate_being%1:03:00::"/>
+      <Sense id="ewn-animate_being__1:03:00::" n="0" synset="ewn-00015568-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-abstraction-n">
       <Lemma writtenForm="abstraction" partOfSpeech="n"/>
-      <Sense id="ewn-abstraction-n-00002137-01" n="5" synset="ewn-00002137-n" dc:identifier="abstraction%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-abstract-v-00694095-01"/> <!-- abstract -->
+      <Sense id="ewn-abstraction__1:03:00::" n="5" synset="ewn-00002137-n">
+        <SenseRelation relType="derivation" target="ewn-abstract__2:31:00::"/>
         </Sense>
+      <Pronunciation variety="GB">əbˈstɹæk.ʃn̩</Pronunciation>
+      <Pronunciation variety="US">æbˈstɹæk.ʃn̩</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-soul-n">
       <Lemma writtenForm="soul" partOfSpeech="n"/>
-      <Sense id="ewn-soul-n-00007846-06" n="1" synset="ewn-00007846-n" dc:identifier="soul%1:03:00::"/>
+      <Sense id="ewn-soul__1:03:00::" n="1" synset="ewn-00007846-n"/>
+      <Pronunciation variety="GB">səʊl</Pronunciation>
+      <Pronunciation variety="US">soʊl</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-plant-n">
       <Lemma writtenForm="plant" partOfSpeech="n"/>
-      <Sense id="ewn-plant-n-00017402-01" n="1" synset="ewn-00017402-n" dc:identifier="plant%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-plantal-a-02844120-01"/> <!-- plantal -->
-        <SenseRelation relType="derivation" target="ewn-plantlet-n-11551541-01"/> <!-- plantlet -->
-        <SenseRelation relType="derivation" target="ewn-plant-v-01570056-01"/> <!-- set, plant -->
+      <Sense id="ewn-plant__1:03:00::" n="1" synset="ewn-00017402-n">
+        <SenseRelation relType="derivation" target="ewn-plantal__3:01:00::"/>
+        <SenseRelation relType="derivation" target="ewn-plantlet__1:20:00::"/>
+        <SenseRelation relType="derivation" target="ewn-plant__2:35:00::"/>
         </Sense>
+      <Pronunciation>plɑːnt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-causal_agent-n">
       <Lemma writtenForm="causal agent" partOfSpeech="n"/>
-      <Sense id="ewn-causal_agent-n-00007347-01" n="0" synset="ewn-00007347-n" dc:identifier="causal_agent%1:03:00::"/>
+      <Sense id="ewn-causal_agent__1:03:00::" n="0" synset="ewn-00007347-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-human_action-n">
       <Lemma writtenForm="human action" partOfSpeech="n"/>
-      <Sense id="ewn-human_action-n-00030657-03" n="0" synset="ewn-00030657-n" dc:identifier="human_action%1:03:00::"/>
+      <Sense id="ewn-human_action__1:03:00::" n="0" synset="ewn-00030657-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-heterotroph-n">
       <Lemma writtenForm="heterotroph" partOfSpeech="n"/>
-      <Sense id="ewn-heterotroph-n-00006024-01" n="0" synset="ewn-00006024-n" dc:identifier="heterotroph%1:03:00::"/>
+      <Sense id="ewn-heterotroph__1:03:00::" n="0" synset="ewn-00006024-n"/>
+      <Pronunciation variety="GB">ˈhɛt(ə)ɹə(ʊ)tɹəʊf</Pronunciation>
+      <Pronunciation variety="US">ˈhɛɾəɹəˌtɹoʊf</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-benthos-n">
       <Lemma writtenForm="benthos" partOfSpeech="n"/>
-      <Sense id="ewn-benthos-n-00005787-01" n="1" synset="ewn-00005787-n" dc:identifier="benthos%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-benthonic-a-02672279-03"/> <!-- benthonic, benthic, benthal -->
+      <Sense id="ewn-benthos__1:03:00::" n="1" synset="ewn-00005787-n">
+        <SenseRelation relType="derivation" target="ewn-benthonic__3:01:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈbɛnθɒs</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-communication-n">
       <Lemma writtenForm="communication" partOfSpeech="n"/>
-      <Sense id="ewn-communication-n-00033319-01" n="1" synset="ewn-00033319-n" dc:identifier="communication%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-communicational-s-00498715-01"/> <!-- communicational -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-02236443-03"/> <!-- communicate, transmit, convey -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-01032711-01"/> <!-- communicate -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-00762447-02"/> <!-- communicate, commune -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-01072124-01"/> <!-- communicate -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-00744289-01"/> <!-- communicate, put across, pass along, pass on, pass -->
-        <SenseRelation relType="derivation" target="ewn-communicate-v-00742582-01"/> <!-- communicate, intercommunicate -->
+      <Sense id="ewn-communication__1:03:00::" n="1" synset="ewn-00033319-n">
+        <SenseRelation relType="derivation" target="ewn-communicational__5:00:00:communicative:00"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:40:10::"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:32:08::"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:32:07::"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:32:02::"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:32:01::"/>
+        <SenseRelation relType="derivation" target="ewn-communicate__2:32:00::"/>
         </Sense>
+      <Pronunciation>kəˌmjuːnɪˈkeɪʃən</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-brute-n">
       <Lemma writtenForm="brute" partOfSpeech="n"/>
-      <Sense id="ewn-brute-n-00015568-04" n="1" synset="ewn-00015568-n" dc:identifier="brute%1:03:00::"/>
+      <Sense id="ewn-brute__1:03:00::" n="1" synset="ewn-00015568-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-artifact-n">
       <Lemma writtenForm="artifact" partOfSpeech="n"/>
-      <Sense id="ewn-artifact-n-00022119-01" n="0" synset="ewn-00022119-n" dc:identifier="artifact%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-artifactual-a-02998172-01"/> <!-- artifactual, artefactual -->
-        <SenseRelation relType="antonym" target="ewn-natural_object-n-00019308-01"/> <!-- natural object -->
+      <Sense id="ewn-artifact__1:03:00::" n="0" synset="ewn-00022119-n">
+        <SenseRelation relType="antonym" target="ewn-natural_object__1:03:00::"/>
+        <SenseRelation relType="derivation" target="ewn-artifactual__3:01:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈɑːtɪfækt</Pronunciation>
+      <Pronunciation variety="US">ˈɑɹtɪfækt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-need-n">
       <Lemma writtenForm="need" partOfSpeech="n"/>
-      <Sense id="ewn-need-n-00023953-03" n="2" synset="ewn-00023953-n" dc:identifier="need%1:03:00::"/>
+      <Sense id="ewn-need__1:03:00::" n="2" synset="ewn-00023953-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-animate_thing-n">
       <Lemma writtenForm="animate thing" partOfSpeech="n"/>
-      <Sense id="ewn-animate_thing-n-00004258-02" n="0" synset="ewn-00004258-n" dc:identifier="animate_thing%1:03:00::"/>
+      <Sense id="ewn-animate_thing__1:03:00::" n="0" synset="ewn-00004258-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-space-n">
       <Lemma writtenForm="space" partOfSpeech="n"/>
-      <Sense id="ewn-space-n-00028950-01" n="0" synset="ewn-00028950-n" dc:identifier="space%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-spacial-a-02851951-02"/> <!-- spacial, spatial -->
-        <SenseRelation relType="derivation" target="ewn-spatial-a-02851951-01"/> <!-- spacial, spatial -->
+      <Sense id="ewn-space__1:03:00::" n="0" synset="ewn-00028950-n">
+        <SenseRelation relType="derivation" target="ewn-spacial__3:01:00::"/>
+        <SenseRelation relType="derivation" target="ewn-spatial__3:01:00::"/>
         </Sense>
+      <Pronunciation>speɪs</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-process-n">
       <Lemma writtenForm="process" partOfSpeech="n"/>
-      <Sense id="ewn-process-n-00029976-01" n="5" synset="ewn-00029976-n" dc:identifier="process%1:03:00::"/>
+      <Sense id="ewn-process__1:03:00::" n="5" synset="ewn-00029976-n"/>
+      <Pronunciation>ˈpɹəʊsɛs</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-parent-n">
       <Lemma writtenForm="parent" partOfSpeech="n"/>
-      <Sense id="ewn-parent-n-00006150-01" n="1" synset="ewn-00006150-n" dc:identifier="parent%1:03:00::"/>
+      <Sense id="ewn-parent__1:03:00::" n="1" synset="ewn-00006150-n"/>
+      <Pronunciation variety="US">ˈpɛəɹənt</Pronunciation>
+      <Pronunciation variety="GB">ˈpɛəɹənt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-physical_object-n">
       <Lemma writtenForm="physical object" partOfSpeech="n"/>
-      <Sense id="ewn-physical_object-n-00002684-02" n="0" synset="ewn-00002684-n" dc:identifier="physical_object%1:03:00::"/>
+      <Sense id="ewn-physical_object__1:03:00::" n="0" synset="ewn-00002684-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-knowledge-n">
       <Lemma writtenForm="knowledge" partOfSpeech="n"/>
-      <Sense id="ewn-knowledge-n-00023451-02" n="0" synset="ewn-00023451-n" dc:identifier="knowledge%1:03:00::"/>
+      <Sense id="ewn-knowledge__1:03:00::" n="0" synset="ewn-00023451-n"/>
+      <Pronunciation variety="GB">ˈnɒlɪdʒ</Pronunciation>
+      <Pronunciation variety="US">ˈnɑlɪdʒ</Pronunciation>
+      <Pronunciation>ˈnoʊlɪdʒ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-human_activity-n">
       <Lemma writtenForm="human activity" partOfSpeech="n"/>
-      <Sense id="ewn-human_activity-n-00030657-04" n="0" synset="ewn-00030657-n" dc:identifier="human_activity%1:03:00::"/>
+      <Sense id="ewn-human_activity__1:03:00::" n="0" synset="ewn-00030657-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-creature-n">
       <Lemma writtenForm="creature" partOfSpeech="n"/>
-      <Sense id="ewn-creature-n-00015568-05" n="0" synset="ewn-00015568-n" dc:identifier="creature%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-create-v-01620211-02"/> <!-- make, create -->
+      <Sense id="ewn-creature__1:03:00::" n="0" synset="ewn-00015568-n">
+        <SenseRelation relType="derivation" target="ewn-create__2:36:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈkɹiːt͡ʃə</Pronunciation>
+      <Pronunciation variety="US">ˈkɹiːt͡ʃəɹ</Pronunciation>
+      <Pronunciation>kɹiːˈeɪtjʊə</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-animal-n">
       <Lemma writtenForm="animal" partOfSpeech="n"/>
-      <Sense id="ewn-animal-n-00015568-01" n="0" synset="ewn-00015568-n" dc:identifier="animal%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-animalize-v-01684651-01"/> <!-- animalize, animalise -->
-        <SenseRelation relType="derivation" target="ewn-animalise-v-01684651-02"/> <!-- animalize, animalise -->
+      <Sense id="ewn-animal__1:03:00::" n="0" synset="ewn-00015568-n">
+        <SenseRelation relType="derivation" target="ewn-animalize__2:36:00::"/>
+        <SenseRelation relType="derivation" target="ewn-animalise__2:36:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-mortal-n">
       <Lemma writtenForm="mortal" partOfSpeech="n"/>
-      <Sense id="ewn-mortal-n-00007846-05" n="0" synset="ewn-00007846-n" dc:identifier="mortal%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-mortal-a-01562007-01"/> <!-- mortal -->
+      <Sense id="ewn-mortal__1:03:00::" n="0" synset="ewn-00007846-n">
+        <SenseRelation relType="derivation" target="ewn-mortal__3:00:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈmɔːtəl</Pronunciation>
+      <Pronunciation variety="US">ˈmɔːɹtəl</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-social_relation-n">
       <Lemma writtenForm="social relation" partOfSpeech="n"/>
-      <Sense id="ewn-social_relation-n-00033122-01" n="0" synset="ewn-00033122-n" dc:identifier="social_relation%1:03:00::"/>
+      <Sense id="ewn-social_relation__1:03:00::" n="0" synset="ewn-00033122-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-artefact-n">
       <Lemma writtenForm="artefact" partOfSpeech="n"/>
-      <Sense id="ewn-artefact-n-00022119-02" n="0" synset="ewn-00022119-n" dc:identifier="artefact%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-artefactual-a-02998172-02"/> <!-- artifactual, artefactual -->
+      <Sense id="ewn-artefact__1:03:00::" n="0" synset="ewn-00022119-n">
+        <SenseRelation relType="derivation" target="ewn-artefactual__3:01:00::"/>
         </Sense>
     </LexicalEntry>
     <LexicalEntry id="ewn-form-n">
       <Lemma writtenForm="form" partOfSpeech="n"/>
-      <Sense id="ewn-form-n-00028005-02" n="5" synset="ewn-00028005-n" dc:identifier="form%1:03:00::"/>
+      <Sense id="ewn-form__1:03:00::" n="5" synset="ewn-00028005-n"/>
+      <Pronunciation variety="GB">fɔːm</Pronunciation>
+      <Pronunciation variety="US">fɔɹm</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-individual-n">
       <Lemma writtenForm="individual" partOfSpeech="n"/>
-      <Sense id="ewn-individual-n-00007846-02" n="0" synset="ewn-00007846-n" dc:identifier="individual%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-individualize-v-00388736-03"/> <!-- individualise, personalize, individualize, personalise -->
+      <Sense id="ewn-individual__1:03:00::" n="0" synset="ewn-00007846-n">
+        <SenseRelation relType="derivation" target="ewn-individualize__2:30:00::"/>
         </Sense>
+      <Pronunciation variety="US">ˌɪndɪˈvɪd͡ʒu.əl</Pronunciation>
+      <Pronunciation variety="GB">ˌɪndɪˈvɪd͡ʒʊəl</Pronunciation>
+      <Pronunciation variety="NZ">ˌɘndɘˈvɘd͡ʒʉ.ɘl</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-biont-n">
       <Lemma writtenForm="biont" partOfSpeech="n"/>
-      <Sense id="ewn-biont-n-00006400-01" n="0" synset="ewn-00006400-n" dc:identifier="biont%1:03:00::"/>
+      <Sense id="ewn-biont__1:03:00::" n="0" synset="ewn-00006400-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-deed-n">
       <Lemma writtenForm="deed" partOfSpeech="n"/>
-      <Sense id="ewn-deed-n-00030657-02" n="1" synset="ewn-00030657-n" dc:identifier="deed%1:03:00::"/>
+      <Sense id="ewn-deed__1:03:00::" n="1" synset="ewn-00030657-n"/>
+      <Pronunciation>diːd</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-event-n">
       <Lemma writtenForm="event" partOfSpeech="n"/>
-      <Sense id="ewn-event-n-00029677-01" n="0" synset="ewn-00029677-n" dc:identifier="event%1:03:00::"/>
+      <Sense id="ewn-event__1:03:00::" n="0" synset="ewn-00029677-n"/>
+      <Pronunciation>ɪˈvɛnt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-phenomenon-n">
       <Lemma writtenForm="phenomenon" partOfSpeech="n"/>
       <Form writtenForm="phenomena"/>
-      <Sense id="ewn-phenomenon-n-00034512-01" n="0" synset="ewn-00034512-n" dc:identifier="phenomenon%1:03:00::"/>
+      <Sense id="ewn-phenomenon__1:03:00::" n="0" synset="ewn-00034512-n"/>
+      <Pronunciation variety="GB">fɪˈnɒmənɒn</Pronunciation>
+      <Pronunciation variety="US">fɪˈnɑmənɑn</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-relation-n">
       <Lemma writtenForm="relation" partOfSpeech="n"/>
-      <Sense id="ewn-relation-n-00032220-01" n="0" synset="ewn-00032220-n" dc:identifier="relation%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-relationship-n-13951421-01"/> <!-- relationship -->
-        <SenseRelation relType="derivation" target="ewn-relationship-n-13834819-03"/> <!-- relationship, family relationship, kinship -->
-        <SenseRelation relType="derivation" target="ewn-relationship-n-13802931-01"/> <!-- relationship, human relationship -->
-        <SenseRelation relType="derivation" target="ewn-relate-v-02730292-01"/> <!-- interrelate, relate -->
-        <SenseRelation relType="derivation" target="ewn-relate-v-00715072-03"/> <!-- relate, link up, associate, colligate, link, connect, tie in -->
+      <Sense id="ewn-relation__1:03:00::" n="0" synset="ewn-00032220-n">
+        <SenseRelation relType="derivation" target="ewn-relationship__1:26:00::"/>
+        <SenseRelation relType="derivation" target="ewn-relationship__1:24:01::"/>
+        <SenseRelation relType="derivation" target="ewn-relationship__1:24:00::"/>
+        <SenseRelation relType="derivation" target="ewn-relate__2:42:01::"/>
+        <SenseRelation relType="derivation" target="ewn-relate__2:31:00::"/>
         </Sense>
+      <Pronunciation>ɹɪˈleɪʃən</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-quantity-n">
       <Lemma writtenForm="quantity" partOfSpeech="n"/>
-      <Sense id="ewn-quantity-n-00033914-02" n="0" synset="ewn-00033914-n" dc:identifier="quantity%1:03:00::"/>
+      <Sense id="ewn-quantity__1:03:00::" n="0" synset="ewn-00033914-n"/>
+      <Pronunciation variety="GB">ˈkwɒn.tɪ.ti</Pronunciation>
+      <Pronunciation variety="US">ˈkwɑn(t)ɨti</Pronunciation>
+      <Pronunciation variety="CA">ˈkwɑndədi</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-state-n">
       <Lemma writtenForm="state" partOfSpeech="n"/>
-      <Sense id="ewn-state-n-00024900-01" n="1" synset="ewn-00024900-n" dc:identifier="state%1:03:00::"/>
+      <Sense id="ewn-state__1:03:00::" n="1" synset="ewn-00024900-n"/>
+      <Pronunciation>steɪt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-living_thing-n">
       <Lemma writtenForm="living thing" partOfSpeech="n"/>
-      <Sense id="ewn-living_thing-n-00004258-01" n="0" synset="ewn-00004258-n" dc:identifier="living_thing%1:03:00::"/>
+      <Sense id="ewn-living_thing__1:03:00::" n="0" synset="ewn-00004258-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-act-n">
       <Lemma writtenForm="act" partOfSpeech="n"/>
-      <Sense id="ewn-act-n-00030657-01" n="1" synset="ewn-00030657-n" dc:identifier="act%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-actuate-v-01653541-02"/> <!-- incite, move, motivate, prompt, propel, actuate -->
-        <SenseRelation relType="derivation" target="ewn-actuate-v-01647199-02"/> <!-- trigger, trip, spark off, trigger off, activate, spark, set off, actuate, touch off -->
-        <SenseRelation relType="derivation" target="ewn-act-v-02372362-01"/> <!-- move, act -->
+      <Sense id="ewn-act__1:03:00::" n="1" synset="ewn-00030657-n">
+        <SenseRelation relType="derivation" target="ewn-actuate__2:36:02::"/>
+        <SenseRelation relType="derivation" target="ewn-actuate__2:36:00::"/>
+        <SenseRelation relType="derivation" target="ewn-act__2:41:00::"/>
         </Sense>
+      <Pronunciation>ækt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-causal_agency-n">
       <Lemma writtenForm="causal agency" partOfSpeech="n"/>
-      <Sense id="ewn-causal_agency-n-00007347-03" n="0" synset="ewn-00007347-n" dc:identifier="causal_agency%1:03:00::"/>
+      <Sense id="ewn-causal_agency__1:03:00::" n="0" synset="ewn-00007347-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-somebody-n">
       <Lemma writtenForm="somebody" partOfSpeech="n"/>
-      <Sense id="ewn-somebody-n-00007846-04" n="0" synset="ewn-00007846-n" dc:identifier="somebody%1:03:00::"/>
+      <Sense id="ewn-somebody__1:03:00::" n="0" synset="ewn-00007846-n"/>
+      <Pronunciation variety="GB">ˈsʌmbədɪ</Pronunciation>
+      <Pronunciation variety="US">ˈsʌmbʌdi</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-fauna-n">
       <Lemma writtenForm="fauna" partOfSpeech="n"/>
       <Form writtenForm="faunae"/>
-      <Sense id="ewn-fauna-n-00015568-06" n="1" synset="ewn-00015568-n" dc:identifier="fauna%1:03:00::"/>
+      <Sense id="ewn-fauna__1:03:00::" n="1" synset="ewn-00015568-n"/>
+      <Pronunciation>ˈfɔː.nə</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-organism-n">
       <Lemma writtenForm="organism" partOfSpeech="n"/>
-      <Sense id="ewn-organism-n-00004475-01" n="0" synset="ewn-00004475-n" dc:identifier="organism%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-organismic-a-02997941-02"/> <!-- organismal, organismic -->
-        <SenseRelation relType="derivation" target="ewn-organic-a-01684118-01"/> <!-- organic -->
-        <SenseRelation relType="derivation" target="ewn-organic-a-01096835-01"/> <!-- organic -->
+      <Sense id="ewn-organism__1:03:00::" n="0" synset="ewn-00004475-n">
+        <SenseRelation relType="derivation" target="ewn-organismic__3:01:00::"/>
+        <SenseRelation relType="derivation" target="ewn-organic__3:00:02::"/>
+        <SenseRelation relType="derivation" target="ewn-organic__3:00:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈɔː.ɡən.ɪ.zəm</Pronunciation>
+      <Pronunciation variety="US">ˈɔɹ.ɡən.ɪ.zəm</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-absolute_space-n">
       <Lemma writtenForm="absolute space" partOfSpeech="n"/>
-      <Sense id="ewn-absolute_space-n-00029306-01" n="0" synset="ewn-00029306-n" dc:identifier="absolute_space%1:03:00::"/>
+      <Sense id="ewn-absolute_space__1:03:00::" n="0" synset="ewn-00029306-n"/>
+      <Pronunciation variety="US">ˈæb.səˌlut speɪs</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-group-n">
       <Lemma writtenForm="group" partOfSpeech="n"/>
-      <Sense id="ewn-group-n-00031563-01" n="0" synset="ewn-00031563-n" dc:identifier="group%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-group-v-01092289-01"/> <!-- group, aggroup -->
-        <SenseRelation relType="derivation" target="ewn-group-v-00658247-01"/> <!-- group -->
+      <Sense id="ewn-group__1:03:00::" n="0" synset="ewn-00031563-n">
+        <SenseRelation relType="derivation" target="ewn-group__2:33:00::"/>
+        <SenseRelation relType="derivation" target="ewn-group__2:31:00::"/>
         </Sense>
+      <Pronunciation>ɡɹuːp</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-possession-n">
       <Lemma writtenForm="possession" partOfSpeech="n"/>
-      <Sense id="ewn-possession-n-00032912-01" n="1" synset="ewn-00032912-n" dc:identifier="possession%1:03:00::"/>
+      <Sense id="ewn-possession__1:03:00::" n="1" synset="ewn-00032912-n"/>
+      <Pronunciation>pəˈzɛʃən</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-feeling-n">
       <Lemma writtenForm="feeling" partOfSpeech="n"/>
-      <Sense id="ewn-feeling-n-00026390-01" n="0" synset="ewn-00026390-n" dc:identifier="feeling%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-feel-v-01775456-01"/> <!-- experience, feel -->
+      <Sense id="ewn-feeling__1:03:00::" n="0" synset="ewn-00026390-n">
+        <SenseRelation relType="derivation" target="ewn-feel__2:37:00::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈfiːlɪŋ</Pronunciation>
+      <Pronunciation variety="US">ˈfilɪŋ</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-congener-n">
       <Lemma writtenForm="congener" partOfSpeech="n"/>
-      <Sense id="ewn-congener-n-00003993-01" n="2" synset="ewn-00003993-n" dc:identifier="congener%1:03:00::"/>
+      <Sense id="ewn-congener__1:03:00::" n="2" synset="ewn-00003993-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-phase_space-n">
       <Lemma writtenForm="phase space" partOfSpeech="n"/>
-      <Sense id="ewn-phase_space-n-00029413-01" n="0" synset="ewn-00029413-n" dc:identifier="phase_space%1:03:00::"/>
+      <Sense id="ewn-phase_space__1:03:00::" n="0" synset="ewn-00029413-n"/>
     </LexicalEntry>
     <LexicalEntry id="ewn-flora-n">
       <Lemma writtenForm="flora" partOfSpeech="n"/>
       <Form writtenForm="florae"/>
-      <Sense id="ewn-flora-n-00017402-02" n="1" synset="ewn-00017402-n" dc:identifier="flora%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-floral-a-02858504-01"/> <!-- floral -->
+      <Sense id="ewn-flora__1:03:00::" n="1" synset="ewn-00017402-n">
+        <SenseRelation relType="derivation" target="ewn-floral__3:01:00::"/>
         </Sense>
+      <Pronunciation>ˈflɔː.ɹə</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-object-n">
       <Lemma writtenForm="object" partOfSpeech="n"/>
-      <Sense id="ewn-object-n-00002684-01" n="0" synset="ewn-00002684-n" dc:identifier="object%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-objectify-v-00533687-05"/> <!-- exteriorize, objectify, exteriorise, externalise, externalize -->
+      <Sense id="ewn-object__1:03:00::" n="0" synset="ewn-00002684-n">
+        <SenseRelation relType="derivation" target="ewn-objectify__2:30:01::"/>
         </Sense>
+      <Pronunciation variety="GB">ˈɒb.d͡ʒɛkt</Pronunciation>
+      <Pronunciation variety="US">ˈɑb.d͡ʒɛkt</Pronunciation>
+      <Pronunciation>əbˈd͡ʒɛkt</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-food-n">
       <Lemma writtenForm="food" partOfSpeech="n"/>
-      <Sense id="ewn-food-n-00021445-01" n="0" synset="ewn-00021445-n" dc:identifier="food%1:03:00::"/>
+      <Sense id="ewn-food__1:03:00::" n="0" synset="ewn-00021445-n"/>
+      <Pronunciation variety="GB">fuːd</Pronunciation>
+      <Pronunciation variety="US">fud</Pronunciation>
     </LexicalEntry>
     <LexicalEntry id="ewn-location-n">
       <Lemma writtenForm="location" partOfSpeech="n"/>
-      <Sense id="ewn-location-n-00027365-01" n="0" synset="ewn-00027365-n" dc:identifier="location%1:03:00::">
-        <SenseRelation relType="derivation" target="ewn-locate-v-02700775-02"/> <!-- situate, locate -->
-        <SenseRelation relType="derivation" target="ewn-locate-v-02338685-01"/> <!-- place, site, locate -->
-        <SenseRelation relType="derivation" target="ewn-locate-v-02291049-01"/> <!-- turn up, locate -->
-        <SenseRelation relType="derivation" target="ewn-locate-v-00414801-02"/> <!-- settle, locate -->
+      <Sense id="ewn-location__1:03:00::" n="0" synset="ewn-00027365-n">
+        <SenseRelation relType="derivation" target="ewn-locate__2:42:00::"/>
+        <SenseRelation relType="derivation" target="ewn-locate__2:40:01::"/>
+        <SenseRelation relType="derivation" target="ewn-locate__2:40:00::"/>
+        <SenseRelation relType="derivation" target="ewn-locate__2:30:00::"/>
         </Sense>
+      <Pronunciation variety="US">loʊˈkeɪʃən</Pronunciation>
+      <Pronunciation variety="GB">ləʊˈkeɪʃən</Pronunciation>
     </LexicalEntry>
     <!-- entity -->
-    <Synset id="ewn-00001740-n" ili="i35545" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00001740-n" ili="i35545" members="ewn-entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>that which is perceived or known or inferred to have its own distinct existence (living or nonliving)</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-04431553-n"/> <!-- thing -->
     </Synset>
     <!-- physical entity -->
-    <Synset id="ewn-00001930-n" ili="i35546" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00001930-n" ili="i35546" members="ewn-physical_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an entity that has physical existence</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001740-n"/> <!-- entity -->
       <SynsetRelation relType="hyponym" target="ewn-00002452-n"/> <!-- thing -->
@@ -470,7 +567,7 @@
       <SynsetRelation relType="hyponym" target="ewn-14604577-n"/> <!-- substance -->
     </Synset>
     <!-- abstract entity, abstraction -->
-    <Synset id="ewn-00002137-n" ili="i35547" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002137-n" ili="i35547" members="ewn-abstraction-n ewn-abstract_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a general concept formed by extracting common features from specific examples</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001740-n"/> <!-- entity -->
       <SynsetRelation relType="hyponym" target="ewn-00023280-n"/> <!-- psychological feature -->
@@ -484,7 +581,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00029677-n"/> <!-- event -->
     </Synset>
     <!-- thing -->
-    <Synset id="ewn-00002452-n" ili="i35548" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002452-n" ili="i35548" members="ewn-thing-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a separate and self-contained entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-04354303-n"/> <!-- content, depicted object, subject -->
@@ -497,7 +594,7 @@
       <SynsetRelation relType="hyponym" target="ewn-09492089-n"/> <!-- variable -->
     </Synset>
     <!-- object, physical object -->
-    <Synset id="ewn-00002684-n" ili="i35549" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00002684-n" ili="i35549" members="ewn-object-n ewn-physical_object-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a tangible and visible entity; an entity that can cast a shadow</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00003553-n"/> <!-- unit, whole -->
@@ -541,7 +638,7 @@
       <Example>it was full of rackets, balls and other objects</Example>
     </Synset>
     <!-- unit, whole -->
-    <Synset id="ewn-00003553-n" ili="i35550" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00003553-n" ili="i35550" members="ewn-whole-n ewn-unit-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an assemblage of parts that is regarded as a single entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
       <SynsetRelation relType="hyponym" target="ewn-00003993-n"/> <!-- congener -->
@@ -557,14 +654,14 @@
       <Example>the team is a unit</Example>
     </Synset>
     <!-- congener -->
-    <Synset id="ewn-00003993-n" ili="i35551" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00003993-n" ili="i35551" members="ewn-congener-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a whole (a thing or person) of the same kind or category as another</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <Example>lard was also used, though its congener, butter, was more frequently employed</Example>
       <Example>the American shopkeeper differs from his European congener</Example>
     </Synset>
     <!-- animate thing, living thing -->
-    <Synset id="ewn-00004258-n" ili="i35552" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00004258-n" ili="i35552" members="ewn-living_thing-n ewn-animate_thing-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living (or once living) entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="has_domain_topic" target="ewn-01651383-a"/> <!-- young, immature -->
@@ -575,7 +672,7 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-05063385-n"/> <!-- viability -->
     </Synset>
     <!-- organism, being -->
-    <Synset id="ewn-00004475-n" ili="i35553" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00004475-n" ili="i35553" members="ewn-organism-n ewn-being-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living thing that has (or can develop) the ability to act or function independently</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="has_domain_topic" target="ewn-00271722-s"/> <!-- bioluminescent -->
@@ -642,7 +739,7 @@
       <SynsetRelation relType="hypernym" target="ewn-00007347-n"/> <!-- causal agent, cause, causal agency -->
     </Synset>
     <!-- benthos -->
-    <Synset id="ewn-00005787-n" ili="i35554" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00005787-n" ili="i35554" members="ewn-benthos-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>organisms (plants and animals) that live at or near the bottom of a sea, lake, river or stream</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="hyponym" target="ewn-92419748-n"/>
@@ -654,34 +751,34 @@
       <SynsetRelation relType="hyponym" target="ewn-92420298-n"/>
     </Synset>
     <!-- dwarf -->
-    <Synset id="ewn-00005930-n" ili="i35555" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00005930-n" ili="i35555" members="ewn-dwarf-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a plant or animal that is atypically small</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- heterotroph -->
-    <Synset id="ewn-00006024-n" ili="i35556" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006024-n" ili="i35556" members="ewn-heterotroph-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an organism that depends on complex organic substances for nutrition</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- parent -->
-    <Synset id="ewn-00006150-n" ili="i35557" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006150-n" ili="i35557" members="ewn-parent-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an organism (plant or animal) from which younger ones are obtained</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- life -->
-    <Synset id="ewn-00006269-n" ili="i35558" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006269-n" ili="i35558" members="ewn-life-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>living things collectively</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="hyponym" target="ewn-08010218-n"/> <!-- wildlife -->
       <Example>the oceans are teeming with life</Example>
     </Synset>
     <!-- biont -->
-    <Synset id="ewn-00006400-n" ili="i35559" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006400-n" ili="i35559" members="ewn-biont-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a discrete unit of living matter</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
     </Synset>
     <!-- cell -->
-    <Synset id="ewn-00006484-n" ili="i35560" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00006484-n" ili="i35560" members="ewn-cell-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(biology) the basic structural and functional unit of all organisms; they may exist as independent units of life (as in monads) or may form colonies or tissues as in higher plants and animals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="holo_part" target="ewn-00004475-n"/> <!-- organism, being -->
@@ -718,7 +815,7 @@
       <SynsetRelation relType="hyponym" target="ewn-01316379-n"/>
     </Synset>
     <!-- causal agent, cause, causal agency -->
-    <Synset id="ewn-00007347-n" ili="i35561" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00007347-n" ili="i35561" members="ewn-causal_agent-n ewn-cause-n ewn-causal_agency-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any entity that produces an effect or is responsible for events or results</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-09213796-n"/> <!-- agent -->
@@ -739,7 +836,7 @@
       <SynsetRelation relType="hyponym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- soul, someone, individual, somebody, mortal, person -->
-    <Synset id="ewn-00007846-n" ili="i35562" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00007846-n" ili="i35562" members="ewn-person-n ewn-individual-n ewn-someone-n ewn-somebody-n ewn-mortal-n ewn-soul-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-07958392-n"/> <!-- people -->
@@ -1164,7 +1261,7 @@
       <Example>there was too much for one person to do</Example>
     </Synset>
     <!-- animal, brute, fauna, creature, beast, animate being -->
-    <Synset id="ewn-00015568-n" ili="i35563" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00015568-n" ili="i35563" members="ewn-animal-n ewn-animate_being-n ewn-beast-n ewn-brute-n ewn-creature-n ewn-fauna-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living organism characterized by voluntary movement</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-01315584-n"/> <!-- kingdom Animalia, animal kingdom, Animalia -->
@@ -1257,7 +1354,7 @@
       <SynsetRelation relType="hyponym" target="ewn-85444389-n"/>
     </Synset>
     <!-- plant life, plant, flora -->
-    <Synset id="ewn-00017402-n" ili="i35564" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00017402-n" ili="i35564" members="ewn-plant-n ewn-flora-n ewn-plant_life-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(botany) a living organism lacking the power of locomotion</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="ewn-11550054-n"/> <!-- plant kingdom, kingdom Plantae, Plantae -->
@@ -1349,12 +1446,12 @@
       <SynsetRelation relType="hyponym" target="ewn-11550459-n"/>
     </Synset>
     <!-- native -->
-    <Synset id="ewn-00019226-n" ili="i35565" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019226-n" ili="i35565" members="ewn-native-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>indigenous plants and animals</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- natural object -->
-    <Synset id="ewn-00019308-n" ili="i35566" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019308-n" ili="i35566" members="ewn-natural_object-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an object occurring naturally; not made by man</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="hyponym" target="ewn-02315396-n"/> <!-- cocoon -->
@@ -1379,7 +1476,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13107668-n"/> <!-- plant part, plant structure -->
     </Synset>
     <!-- substance -->
-    <Synset id="ewn-00019793-n" ili="i35567" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00019793-n" ili="i35567" members="ewn-substance-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the real physical matter of which a person or thing consists</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
       <SynsetRelation relType="hypernym" target="ewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
@@ -1404,7 +1501,7 @@
       <Example>DNA is the substance of our genes</Example>
     </Synset>
     <!-- substance -->
-    <Synset id="ewn-00020270-n" ili="i35568" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00020270-n" ili="i35568" members="ewn-substance-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a particular kind or species of matter with uniform properties</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00021007-n"/> <!-- matter -->
       <SynsetRelation relType="hyponym" target="ewn-00021445-n"/> <!-- food, nutrient -->
@@ -1441,7 +1538,7 @@
       <Example>shigella is one of the most toxic substances known to man</Example>
     </Synset>
     <!-- matter -->
-    <Synset id="ewn-00021007-n" ili="i35569" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021007-n" ili="i35569" members="ewn-matter-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>that which has mass and occupies space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00019793-n"/> <!-- substance -->
@@ -1464,7 +1561,7 @@
       <Example>physicists study both the nature of matter and the forces which govern it</Example>
     </Synset>
     <!-- food, nutrient -->
-    <Synset id="ewn-00021445-n" ili="i35570" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021445-n" ili="i35570" members="ewn-food-n ewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any substance that can be metabolized by an animal to give energy and build tissue</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-01467485-n"/> <!-- yolk, vitellus -->
@@ -1485,13 +1582,13 @@
       <SynsetRelation relType="hypernym" target="ewn-07571428-n"/> <!-- food, solid food -->
     </Synset>
     <!-- nutrient -->
-    <Synset id="ewn-00021914-n" ili="i35571" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00021914-n" ili="i35571" members="ewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any substance (such as a chemical element or inorganic compound) that can be taken in by a green plant and used in organic synthesis</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="ewn-07951744-n"/> <!-- water -->
     </Synset>
     <!-- artifact, artefact -->
-    <Synset id="ewn-00022119-n" ili="i35572" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00022119-n" ili="i35572" members="ewn-artifact-n ewn-artefact-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a man-made object taken as a whole</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="hyponym" target="ewn-00023083-n"/> <!-- article -->
@@ -1541,7 +1638,7 @@
       <SynsetRelation relType="hyponym" target="ewn-15002063-n"/> <!-- paving material, pavement, paving -->
     </Synset>
     <!-- article -->
-    <Synset id="ewn-00023083-n" ili="i35573" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023083-n" ili="i35573" members="ewn-article-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>one of a class of artifacts</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00022119-n"/> <!-- artifact, artefact -->
       <SynsetRelation relType="hyponym" target="ewn-02897286-n"/> <!-- breakable -->
@@ -1551,14 +1648,14 @@
       <Example>an article of clothing</Example>
     </Synset>
     <!-- psychological feature -->
-    <Synset id="ewn-00023280-n" ili="i35574" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023280-n" ili="i35574" members="ewn-psychological_feature-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a feature of the mental life of a living organism</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00023451-n"/> <!-- noesis, cognition, knowledge -->
       <SynsetRelation relType="hyponym" target="ewn-00023953-n"/> <!-- need, motive, motivation -->
     </Synset>
     <!-- noesis, cognition, knowledge -->
-    <Synset id="ewn-00023451-n" ili="i35575" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023451-n" ili="i35575" members="ewn-cognition-n ewn-knowledge-n ewn-noesis-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological result of perception and learning and reasoning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-05619057-n"/> <!-- psyche, head, brain, mind, nous -->
@@ -1582,7 +1679,7 @@
       <SynsetRelation relType="hyponym" target="ewn-06202938-n"/> <!-- attitude, mental attitude -->
     </Synset>
     <!-- need, motive, motivation -->
-    <Synset id="ewn-00023953-n" ili="i35576" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00023953-n" ili="i35576" members="ewn-motivation-n ewn-motive-n ewn-need-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="ewn-09201624-n"/> <!-- life -->
@@ -1595,7 +1692,7 @@
       <Example>he acted with the best of motives</Example>
     </Synset>
     <!-- attribute -->
-    <Synset id="ewn-00024444-n" ili="i35577" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00024444-n" ili="i35577" members="ewn-attribute-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an abstraction belonging to or characteristic of an entity</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00024900-n"/> <!-- state -->
@@ -1619,7 +1716,7 @@
       <SynsetRelation relType="hyponym" target="ewn-05141618-n"/> <!-- depth -->
     </Synset>
     <!-- state -->
-    <Synset id="ewn-00024900-n" ili="i35578" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00024900-n" ili="i35578" members="ewn-state-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the way something is with respect to its main attributes</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-00026390-n"/> <!-- feeling -->
@@ -1699,7 +1796,7 @@
       <Example>in a weak financial state</Example>
     </Synset>
     <!-- feeling -->
-    <Synset id="ewn-00026390-n" ili="i35579" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00026390-n" ili="i35579" members="ewn-feeling-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the experiencing of affective and emotional states</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024900-n"/> <!-- state -->
       <SynsetRelation relType="hyponym" target="ewn-07495066-n"/> <!-- affect -->
@@ -1750,7 +1847,7 @@
       <Example>I disliked him and the feeling was mutual</Example>
     </Synset>
     <!-- location -->
-    <Synset id="ewn-00027365-n" ili="i35580" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00027365-n" ili="i35580" members="ewn-location-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a point or extent in space; a point or extent in space</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002684-n"/> <!-- object, physical object -->
       <SynsetRelation relType="holo_part" target="ewn-00028950-n"/> <!-- infinite, space -->
@@ -1782,7 +1879,7 @@
       <SynsetRelation relType="hyponym" target="ewn-08517454-n"/>
     </Synset>
     <!-- shape, form -->
-    <Synset id="ewn-00028005-n" ili="i35581" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028005-n" ili="i35581" members="ewn-shape-n ewn-form-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the spatial arrangement of something as distinct from its substance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-13882990-n"/> <!-- solid -->
@@ -1804,7 +1901,7 @@
       <Example>geometry is the mathematical science of shape</Example>
     </Synset>
     <!-- time -->
-    <Synset id="ewn-00028468-n" ili="i35582" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028468-n" ili="i35582" members="ewn-time-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the continuum of experience in which events pass from the future through the present to the past</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="ewn-15140868-n"/> <!-- geologic time, geological time -->
@@ -1826,7 +1923,7 @@
       <Example>time flies like an arrow</Example>
     </Synset>
     <!-- infinite, space -->
-    <Synset id="ewn-00028950-n" ili="i35583" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00028950-n" ili="i35583" members="ewn-space-n ewn-infinite-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the unlimited expanse in which everything is located</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="mero_part" target="ewn-00027365-n"/> <!-- location -->
@@ -1839,12 +1936,12 @@
       <Example>the boundless regions of the infinite</Example>
     </Synset>
     <!-- absolute space -->
-    <Synset id="ewn-00029306-n" ili="i35584" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029306-n" ili="i35584" members="ewn-absolute_space-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>physical space independent of what occupies it</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028950-n"/> <!-- infinite, space -->
     </Synset>
     <!-- phase space -->
-    <Synset id="ewn-00029413-n" ili="i35585" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029413-n" ili="i35585" members="ewn-phase_space-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(physics) an ideal space in which the coordinate dimensions represent the variables that are required to describe a system or substance</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00028950-n"/> <!-- infinite, space -->
       <SynsetRelation relType="domain_topic" target="ewn-06100457-n"/> <!-- physics, natural philosophy -->
@@ -1852,7 +1949,7 @@
       <Example>a multidimensional phase space</Example>
     </Synset>
     <!-- event -->
-    <Synset id="ewn-00029677-n" ili="i35586" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029677-n" ili="i35586" members="ewn-event-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that happens at a given place and time</Definition>
       <SynsetRelation relType="hyponym" target="ewn-00030657-n"/> <!-- deed, human action, act, human activity -->
       <SynsetRelation relType="hyponym" target="ewn-07298069-n"/> <!-- might-have-been -->
@@ -1868,7 +1965,7 @@
       <SynsetRelation relType="hyponym" target="ewn-07298313-n"/>
     </Synset>
     <!-- physical process, process -->
-    <Synset id="ewn-00029976-n" ili="i35587" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00029976-n" ili="i35587" members="ewn-process-n ewn-physical_process-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a sustained phenomenon or one marked by gradual changes through a series of states</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="ewn-00034512-n"/> <!-- phenomenon -->
@@ -1901,7 +1998,7 @@
       <Example>the process of calcification begins later for boys than for girls</Example>
     </Synset>
     <!-- deed, human action, act, human activity -->
-    <Synset id="ewn-00030657-n" ili="i35588" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00030657-n" ili="i35588" members="ewn-act-n ewn-deed-n ewn-human_action-n ewn-human_activity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that people do or cause to happen</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00029677-n"/> <!-- event -->
       <SynsetRelation relType="hyponym" target="ewn-00038116-n"/> <!-- action -->
@@ -1947,7 +2044,7 @@
       <SynsetRelation relType="hyponym" target="ewn-90001771-n"/>
     </Synset>
     <!-- group, grouping -->
-    <Synset id="ewn-00031563-n" ili="i35589" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00031563-n" ili="i35589" members="ewn-group-n ewn-grouping-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any number of entities (members) considered as a unit</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-02475618-n"/> <!-- world, mankind, human beings, human race, humanity, humans, humankind, man -->
@@ -1982,7 +2079,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92417734-n"/>
     </Synset>
     <!-- relation -->
-    <Synset id="ewn-00032220-n" ili="i35590" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00032220-n" ili="i35590" members="ewn-relation-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an abstraction belonging to or characteristic of two entities or parts together</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-00032912-n"/> <!-- possession -->
@@ -2013,7 +2110,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13881240-n"/> <!-- change -->
     </Synset>
     <!-- possession -->
-    <Synset id="ewn-00032912-n" ili="i35591" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00032912-n" ili="i35591" members="ewn-possession-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>anything owned or possessed</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="ewn-13265007-n"/> <!-- belongings, property, holding -->
@@ -2025,7 +2122,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13417227-n"/> <!-- liabilities -->
     </Synset>
     <!-- social relation -->
-    <Synset id="ewn-00033122-n" ili="i35592" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033122-n" ili="i35592" members="ewn-social_relation-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a relation between living organisms (especially between people)</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="ewn-13802661-n"/> <!-- dealings, relations -->
@@ -2034,7 +2131,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13863157-n"/> <!-- alchemy, interpersonal chemistry, chemistry -->
     </Synset>
     <!-- communication -->
-    <Synset id="ewn-00033319-n" ili="i35593" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033319-n" ili="i35593" members="ewn-communication-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that is communicated by or to or between people or groups</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="ewn-01104341-n"/> <!-- publication -->
@@ -2058,7 +2155,7 @@
       <SynsetRelation relType="hyponym" target="ewn-13424504-n"/> <!-- document -->
     </Synset>
     <!-- amount, quantity, measure -->
-    <Synset id="ewn-00033914-n" ili="i35594" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00033914-n" ili="i35594" members="ewn-measure-n ewn-quantity-n ewn-amount-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>how much there is or how many there are of something that you can quantify</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="attribute" target="ewn-02303673-a"/> <!-- standard -->
@@ -2086,7 +2183,7 @@
       <SynsetRelation relType="hyponym" target="ewn-92422856-n"/>
     </Synset>
     <!-- phenomenon -->
-    <Synset id="ewn-00034512-n" ili="i35595" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="ewn-00034512-n" ili="i35595" members="ewn-phenomenon-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any state or process known through the senses rather than by intuition or reasoning</Definition>
       <SynsetRelation relType="hypernym" target="ewn-00029976-n"/> <!-- physical process, process -->
       <SynsetRelation relType="hyponym" target="ewn-11428673-n"/> <!-- natural phenomenon -->
@@ -2097,5 +2194,44 @@
       <SynsetRelation relType="hyponym" target="ewn-11438574-n"/> <!-- fortune, luck -->
       <SynsetRelation relType="hyponym" target="ewn-11549746-n"/> <!-- pulsation -->
     </Synset>
+  <SyntacticBehaviour id="ditransitive" subcategorizationFrame="Somebody ----s somebody something"/>
+  <SyntacticBehaviour id="nonreferential" subcategorizationFrame="It is ----ing"/>
+  <SyntacticBehaviour id="nonreferential-sent" subcategorizationFrame="It ----s that CLAUSE"/>
+  <SyntacticBehaviour id="via" subcategorizationFrame="Somebody ----s"/>
+  <SyntacticBehaviour id="via-adj" subcategorizationFrame="Somebody ----s Adjective"/>
+  <SyntacticBehaviour id="via-at" subcategorizationFrame="Somebody ----s at something"/>
+  <SyntacticBehaviour id="via-for" subcategorizationFrame="Somebody ----s for something"/>
+  <SyntacticBehaviour id="via-ger" subcategorizationFrame="Somebody ----s VERB-ing"/>
+  <SyntacticBehaviour id="via-inf" subcategorizationFrame="Somebody ----s INFINITIVE"/>
+  <SyntacticBehaviour id="via-on-anim" subcategorizationFrame="Somebody ----s on somebody"/>
+  <SyntacticBehaviour id="via-on-inanim" subcategorizationFrame="Somebody ----s on something"/>
+  <SyntacticBehaviour id="via-out-of" subcategorizationFrame="Somebody ----s out of somebody"/>
+  <SyntacticBehaviour id="via-pp" subcategorizationFrame="Somebody ----s PP"/>
+  <SyntacticBehaviour id="via-that" subcategorizationFrame="Somebody ----s that CLAUSE"/>
+  <SyntacticBehaviour id="via-to" subcategorizationFrame="Somebody ----s to somebody"/>
+  <SyntacticBehaviour id="via-to-inf" subcategorizationFrame="Somebody ----s to INFINITIVE"/>
+  <SyntacticBehaviour id="via-whether-inf" subcategorizationFrame="Somebody ----s whether INFINITIVE"/>
+  <SyntacticBehaviour id="vibody" subcategorizationFrame="Somebody&apos;s (body part) ----s"/>
+  <SyntacticBehaviour id="vii" subcategorizationFrame="Something ----s"/>
+  <SyntacticBehaviour id="vii-adj" subcategorizationFrame="Something ----s Adjective/Noun"/>
+  <SyntacticBehaviour id="vii-inf" subcategorizationFrame="Something ----s INFINITIVE"/>
+  <SyntacticBehaviour id="vii-pp" subcategorizationFrame="Something is ----ing PP"/>
+  <SyntacticBehaviour id="vii-to" subcategorizationFrame="Something ----s to somebody"/>
+  <SyntacticBehaviour id="vtaa" subcategorizationFrame="Somebody ----s somebody"/>
+  <SyntacticBehaviour id="vtaa-inf" subcategorizationFrame="Somebody ----s somebody INFINITIVE"/>
+  <SyntacticBehaviour id="vtaa-into-ger" subcategorizationFrame="Somebody ----s somebody into V-ing something"/>
+  <SyntacticBehaviour id="vtaa-of" subcategorizationFrame="Somebody ----s somebody of something"/>
+  <SyntacticBehaviour id="vtaa-pp" subcategorizationFrame="Somebody ----s somebody PP"/>
+  <SyntacticBehaviour id="vtaa-to-inf" subcategorizationFrame="Somebody ----s somebody to INFINITIVE"/>
+  <SyntacticBehaviour id="vtaa-with" subcategorizationFrame="Somebody ----s somebody with something"/>
+  <SyntacticBehaviour id="vtai" subcategorizationFrame="Somebody ----s something"/>
+  <SyntacticBehaviour id="vtai-from" subcategorizationFrame="Somebody ----s something from somebody"/>
+  <SyntacticBehaviour id="vtai-on" subcategorizationFrame="Somebody ----s something on somebody"/>
+  <SyntacticBehaviour id="vtai-pp" subcategorizationFrame="Somebody ----s something PP"/>
+  <SyntacticBehaviour id="vtai-to" subcategorizationFrame="Somebody ----s something to somebody"/>
+  <SyntacticBehaviour id="vtai-with" subcategorizationFrame="Somebody ----s something with something"/>
+  <SyntacticBehaviour id="vtia" subcategorizationFrame="Something ----s somebody"/>
+  <SyntacticBehaviour id="vtii" subcategorizationFrame="Something ----s something"/>
+  <SyntacticBehaviour id="vtii-adj" subcategorizationFrame="Something ----s something Adjective/Noun"/>
   </Lexicon>
 </LexicalResource>

@@ -4,7 +4,7 @@ import sys
 import glob
 import sense_keys
 from collections import Counter
-
+from sense_keys import unmap_sense_key
 
 def check_symmetry(wn, fix):
     errors = []
@@ -158,20 +158,21 @@ def check_lex_files(wn, fix):
                 print("%s is empty in %s" % (entry.id, lexfile))
                 errors += 1
             for sense in entry.senses:
-                if not sense.sense_key:
+                if not sense.id:
                     print("%s does not have a sense key" % (sense.id))
                     errors += 1
                 calc_sense_key = sense_keys.get_sense_key(
                     wn, entry, sense, f)
-                if sense.sense_key != calc_sense_key:
+                sense_key = unmap_sense_key(sense.id)
+                if sense_key != calc_sense_key:
                     if fix:
                         print(
                             "sed -i 's/%s/%s/' src/xml/*" %
-                            (sense.sense_key, calc_sense_key))
+                            (sense_key, calc_sense_key))
                     else:
                         print(
                             "%s has declared key %s but should be %s" %
-                            (sense.id, sense.sense_key, calc_sense_key))
+                            (sense.id, sense_key, calc_sense_key))
                     errors += 1
 
     return errors
@@ -233,12 +234,6 @@ def main():
             print("ERROR: Invalid ID " + entry.id)
             errors += 1
         for sense in entry.senses:
-            if not is_valid_sense_id(sense.id, sense.synset):
-                if fix:
-                    sys.stderr.write("Cannot be fixed")
-                    sys.exit(-1)
-                print("ERROR: Invalid ID " + sense.id)
-                errors += 1
             synset = wn.synset_by_id(sense.synset)
             if not synset:
                 print(
@@ -270,13 +265,12 @@ def main():
                 # if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1
-            if sense.sense_key in sense_keys:
-                print("ERROR: Duplicate sense key %s" % sense.sense_key)
+            if unmap_sense_key(sense.id) in sense_keys:
+                print("ERROR: Duplicate sense key %s" % sense.id)
                 errors += 1
             else:
-                sense_keys[sense.sense_key] = sense.synset
-            sb_counter = Counter(
-                sb.subcategorization_frame for sb in entry.syntactic_behaviours)
+                sense_keys[sense.id] = sense.synset
+            sb_counter = Counter(sense.subcat)
             for item, count in sb_counter.items():
                 if count > 1:
                     print(
