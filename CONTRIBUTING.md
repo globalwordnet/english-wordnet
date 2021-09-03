@@ -25,6 +25,8 @@ Further, if the solution to the issue is clear, please provide on the following 
 * `synset member`: A new member should be added to or removed from the synset
 * `synset split`: A synset represents two distinct concepts and should be split
 
+Please refer to other dictionaries from [this list of dictionaries](DICTIONARIES.md)
+
 ## Pull Requests
 
 We love pull requests from everyone. 
