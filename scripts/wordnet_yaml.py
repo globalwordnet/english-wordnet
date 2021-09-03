@@ -175,7 +175,7 @@ def load():
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                "ewn", "English WordNet", "en",
+                "ewn", "Open English WordNet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
