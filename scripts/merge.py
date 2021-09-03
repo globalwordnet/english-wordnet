@@ -5,7 +5,7 @@ from glob import glob
 def merge_entry(e1, e2):
     i = 0
     for c in e1:
-        if c.tag == "Lemma" or c.tag == "Form" or c.tag == "Sense":
+        if c.tag == "Lemma" or c.tag == "Form" or c.tag == "Sense" or c.tag == "Pronunciation":
             i += 1
     for c in e2:
         if c.tag == "Sense":
@@ -28,7 +28,7 @@ def order_entry(e):
     f.attrib = e.attrib
     senses = []
     for c in e:
-        if c.tag == "Lemma" or c.tag == "Form":
+        if c.tag == "Lemma" or c.tag == "Form" or c.tag == "Pronunciation":
             f.append(c)
         elif c.tag == "Sense":
             senses.append(c)
