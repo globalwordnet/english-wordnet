@@ -158,15 +158,23 @@ class LexicalEntry:
             self.senses.append(sense)
 
     def to_xml(self, xml_file, comments):
-        xml_file.write("""    <LexicalEntry id="%s">
+        xml_file.write("""    <LexicalEntry id="%s">""" % self.id)
+        if self.pronunciation:
+            xml_file.write("""
+      <Lemma writtenForm="%s" partOfSpeech="%s">
+""" % (escape_xml_lit(self.lemma.written_form), self.lemma.part_of_speech.value))
+            for pron in self.pronunciation:
+                pron.to_xml(xml_file)
+            xml_file.write("""      </Lemma>
+""")
+        else:
+            xml_file.write("""
       <Lemma writtenForm="%s" partOfSpeech="%s"/>
-""" % (self.id, escape_xml_lit(self.lemma.written_form), self.lemma.part_of_speech.value))
+""" % (escape_xml_lit(self.lemma.written_form), self.lemma.part_of_speech.value))
         for form in self.forms:
             form.to_xml(xml_file)
         for sense in self.senses:
             sense.to_xml(xml_file, comments)
-        for pron in self.pronunciation:
-            pron.to_xml(xml_file)
         xml_file.write("""    </LexicalEntry>
 """)
 
@@ -197,10 +205,10 @@ class Pronunciation:
 
     def to_xml(self, xml_file):
         if self.variety:
-            xml_file.write("""      <Pronunciation variety="%s">%s</Pronunciation>
+            xml_file.write("""        <Pronunciation variety="%s">%s</Pronunciation>
 """ % (self.variety, escape_xml_lit(self.value)))
         else:
-            xml_file.write("""      <Pronunciation>%s</Pronunciation>
+            xml_file.write("""        <Pronunciation>%s</Pronunciation>
 """ % (escape_xml_lit(self.value)))
 
 
