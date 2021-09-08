@@ -266,8 +266,8 @@ class Sense:
             xml_file.write("""        </Sense>
 """)
         else:
-            xml_file.write("""      <Sense id="%s"%s synset="%s"%s/>
-""" % (self.id, n_str, self.synset, sk_str))
+            xml_file.write("""      <Sense id="%s"%s%s synset="%s"%s/>
+""" % (self.id, n_str, subcat_str, self.synset, sk_str))
 
 
 class Synset:

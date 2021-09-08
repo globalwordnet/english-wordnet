@@ -98,11 +98,11 @@ def save_all_xml(wn, change_list=None):
                     s.n = sense_no[s.id]
                     e.add_sense(s)
 
-                def find_sense_for_sb(sb_sense):
-                    for sense2 in senses:
-                        if sense2.id == sb_sense:
-                            return sense2.id
-                    return None
+                #def find_sense_for_sb(sb_sense):
+                #    for sense2 in senses:
+                #        if sense2.id == sb_sense:
+                #            return sense2.id
+                #    return None
                 #e.syntactic_behaviours = [SyntacticBehaviour(
                 #    sb.subcategorization_frame,
                 #    [find_sense_for_sb(sense) for sense in sb.senses])
