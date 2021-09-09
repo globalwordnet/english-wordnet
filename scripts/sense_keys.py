@@ -2,9 +2,7 @@ from wordnet import *
 from glob import glob
 import re
 from sys import exit
-
-def unmap_sense_key(sk):
-    return sk[4:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
+from wordnet_yaml import unmap_sense_key
 
 lex_filenums = {
     "src/xml/wn-adj.all.xml": 0,
