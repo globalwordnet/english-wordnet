@@ -70,7 +70,7 @@ def wn_merge():
            language="en"
            email="english-wordnet@googlegroups.com"
            license="https://creativecommons.org/licenses/by/4.0/"
-           version="2020"
+           version="2021"
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
     
