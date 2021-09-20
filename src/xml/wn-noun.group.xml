@@ -8,10 +8,10 @@
            license="https://wordnet.princeton.edu/license-and-commercial-use"
            version="2019"
            url="https://github.com/globalwordnet/english-wordnet">
-    <LexicalEntry id="ewn-LGBTQplus-n">
-      <Lemma writtenForm="LGBTQ+" partOfSpeech="n"/>
-      <Sense id="ewn-LGBTQplus__1_14_00__" n="0" synset="ewn-84123305-n"/>
-    </LexicalEntry>  
+    <LexicalEntry id="ewn-LGBTQ-n">
+      <Lemma writtenForm="LGBTQ" partOfSpeech="n"/>
+      <Sense id="ewn-lgbtq__1_14_00__" n="0" synset="ewn-84123305-n"/>
+    </LexicalEntry>
     <LexicalEntry id="ewn-Asbat_al-Ansar-n">
       <Lemma writtenForm="Asbat al-Ansar" partOfSpeech="n"/>
       <Sense id="ewn-asbat_al-ansar__1_14_00__" n="0" synset="ewn-08034010-n"/>
@@ -30678,6 +30678,7 @@
       <SynsetRelation relType="instance_hyponym" target="ewn-08506131-n"/> <!-- Quechua, Kechua -->
       <SynsetRelation relType="instance_hyponym" target="ewn-08506295-n"/> <!-- Xhosa -->
       <SynsetRelation relType="instance_hyponym" target="ewn-08506402-n"/> <!-- Zulu -->
+      <SynsetRelation relType="hyponym" target="ewn-84123305-n"/>
       <Example>the team is drawn from all parts of the community</Example>
     </Synset>
     <!-- community -->
@@ -40844,7 +40845,7 @@
       <SynsetRelation relType="hypernym" target="ewn-06118834-n"/>
       <Example>Neo-evolutionism was the first in a series of modern multi-lineal evolution theories.</Example>
     </Synset>
-    <Synset id="ewn-84123305-n" ili="in" members="ewn-LGBTQplus-n" partOfSpeech="n" dc:subject="noun.group">
+    <Synset id="ewn-84123305-n" ili="in" members="ewn-LGBTQ-n" partOfSpeech="n" dc:subject="noun.group">
       <Definition>the community of people who have a non-normative gender and/or sexual identity, including lesbian, gay, bisexual, transgender, intersex, or asexual</Definition>
       <ILIDefinition>the community of people who have a non-normative gender and/or sexual identity, including lesbian, gay, bisexual, transgender, intersex, or asexual</ILIDefinition>
       <SynsetRelation relType="has_domain_topic" target="ewn-00850924-n"/>
@@ -40855,6 +40856,7 @@
       <SynsetRelation relType="has_domain_topic" target="ewn-02608907-a"/>
       <SynsetRelation relType="has_domain_topic" target="ewn-10745683-n"/>
       <SynsetRelation relType="has_domain_topic" target="ewn-00859053-n"/>
+      <SynsetRelation relType="hypernym" target="ewn-08240723-n"/> <!-- community -->
     </Synset>
   </Lexicon>
 </LexicalResource>
