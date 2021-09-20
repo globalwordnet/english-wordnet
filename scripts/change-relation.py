@@ -105,6 +105,7 @@ def main():
         else:
             print("Bad mode")
             sys.exit(-1)
+            
 
     if args.new_source:
         if args.new_target or args.new_relation:
@@ -194,10 +195,16 @@ def main():
                 if not change_manager.sense_exists(wn, args.target_id):
                     print("Target sense %d does not exist" % args.target_id)
                     sys.exit(-1)
+                if args.source_id == args.target_id:
+                    print("Won;t link sense %d to itself" % args.source_id)
+                    sys.exit(-1) 
                 change_manager.add_sense_relation(
                     wn, args.source_id, args.target_id, wordnet.SenseRelType(
                         args.new_relation))
             else:
+                if source_synset == target_synset:
+                    print("Won't link synset %s to itself" % source_id)
+                    sys.exit(-1) 
                 change_manager.add_relation(
                     wn,
                     source_synset,
