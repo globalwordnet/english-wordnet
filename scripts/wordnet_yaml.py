@@ -9,24 +9,25 @@ from collections import defaultdict
 
 entry_orders = {}
 
+KEY_PREFIX_LEN = 5 # = len("oewn-")
 
 def map_sense_key(sk):
     if "%" in sk:
         e = sk.split("%")
-        return ("ewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-") +
+        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-") +
             "__" + e[1].replace("_","-sp-").replace(":","_"))
     else:
-        return "ewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-")
+        return "oewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-")
 
 def unmap_sense_key(sk):
     if "__" in sk:
         e = sk.split("__")
-        l = e[0][4:]
+        l = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
         return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":") +
             "%" + r.replace("_", ":").replace("-sp-","_"))
     else: 
-        return sk[4:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":")
+        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":")
 
 
 def make_pos(y, pos):
@@ -39,13 +40,13 @@ def make_pos(y, pos):
 
 
 def make_sense_id(y, lemma, pos):
-    return "ewn-%s-%s-%s" % (
+    return "oewn-%s-%s-%s" % (
         escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2])
 
 
 def sense_from_yaml(y, lemma, pos, n):
     s = Sense(map_sense_key(y["id"]),
-              "ewn-" + y["synset"], None, n,
+              "oewn-" + y["synset"], None, n,
               y.get("adjposition"))
     s.sent = y.get("sent")
     for rel, targets in y.items():
@@ -70,7 +71,7 @@ def pronunciation_from_yaml(props):
 def synset_from_yaml(wn, props, id, lex_name):
     if "partOfSpeech" not in props:
         print(props)
-    ss = Synset("ewn-" + id,
+    ss = Synset("oewn-" + id,
                 props.get("ili", "in"),
                 PartOfSpeech(props["partOfSpeech"]),
                 lex_name,
@@ -89,7 +90,7 @@ def synset_from_yaml(wn, props, id, lex_name):
         if rel in SynsetRelType._value2member_map_:
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
-                    "ewn-" + target, SynsetRelType(rel)))
+                    "oewn-" + target, SynsetRelType(rel)))
     ss.members = [entry_for_synset(wn, ss, lemma) for lemma in props["members"]]
     return ss
 
@@ -131,7 +132,7 @@ def fix_synset_rels(wn, synset):
 
 
 def load():
-    wn = Lexicon("ewn", "Engish WordNet", "en",
+    wn = Lexicon("oewn", "Engish WordNet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
                  "2021",
@@ -146,7 +147,7 @@ def load():
             for lemma, pos_map in y.items():
                 for pos, props in pos_map.items():
                     entry = LexicalEntry(
-                        "ewn-%s-%s" % (escape_lemma(lemma), pos))
+                        "oewn-%s-%s" % (escape_lemma(lemma), pos))
                     entry.set_lemma(Lemma(lemma, PartOfSpeech(pos[:1])))
                     if "form" in props:
                         for form in props["form"]:
@@ -187,7 +188,7 @@ def load():
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                "ewn", "Open English WordNet", "en",
+                "oewn", "Open English WordNet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
@@ -221,7 +222,7 @@ ignored_symmetric_sense_rels = set([
 def sense_to_yaml(wn, s, sb_map):
     """Converts a single sense to the YAML form"""
     y = {}
-    y["synset"] = s.synset[4:]
+    y["synset"] = s.synset[KEY_PREFIX_LEN:]
     y["id"] = unmap_sense_key(s.sense_key)
     if s.adjposition:
         y["adjposition"] = s.adjposition
@@ -401,12 +402,12 @@ def save(wn, change_list=None):
         for r in synset.synset_relations:
             if r.rel_type not in ignored_symmetric_synset_rels:
                 if r.rel_type.value not in s:
-                    s[r.rel_type.value] = [r.target[4:]]
+                    s[r.rel_type.value] = [r.target[KEY_PREFIX_LEN:]]
                 else:
-                    s[r.rel_type.value].append(r.target[4:])
+                    s[r.rel_type.value].append(r.target[KEY_PREFIX_LEN:])
         if synset.lex_name not in synset_yaml:
             synset_yaml[synset.lex_name] = {}
-        synset_yaml[synset.lex_name][synset.id[4:]] = s
+        synset_yaml[synset.lex_name][synset.id[KEY_PREFIX_LEN:]] = s
         s["members"] = entries_ordered(wn, synset.id)
 
     for key, synsets in synset_yaml.items():

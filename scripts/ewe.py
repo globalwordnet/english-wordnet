@@ -12,7 +12,7 @@ def enter_synset(wordnet, spec_string=""):
     '''Handle the use input of a single synset'''
     synset = None
     while not synset:
-        synset_id = input("Enter %ssynset ID : ewn-" % spec_string)
+        synset_id = input("Enter %ssynset ID : oewn-" % spec_string)
         while synset_id == "":
             lemma = input("Search by lemma: ")
             entries = wordnet.entry_by_lemma(lemma)
@@ -40,8 +40,8 @@ def enter_synset(wordnet, spec_string=""):
             else:
                 print("Not found")
 
-        if not synset_id.startswith("ewn-"):
-            synset_id = "ewn-" + synset_id
+        if not synset_id.startswith("oewn-"):
+            synset_id = "oewn-" + synset_id
 
         synset = wordnet.synset_by_id(synset_id)
         if not synset:
@@ -130,7 +130,7 @@ def change_entry(wn, change_list):
         change_manager.delete_entry(
             wn,
             synset,
-            "ewn-%s-%s" %
+            "oewn-%s-%s" %
             (wordnet.escape_lemma(lemma),
              synset.part_of_speech.value),
             change_list=change_list)
@@ -146,7 +146,7 @@ def change_entry(wn, change_list):
             change_manager.delete_entry(
                 wn,
                 synset,
-                "ewn-%s-%s" %
+                "oewn-%s-%s" %
                 (wordnet.escape_lemma(lemma),
                  synset.part_of_speech.value),
                 change_list=change_list)

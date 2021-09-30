@@ -95,7 +95,7 @@ def get_head_word(wn, s):
     ss = wn.synset_by_id(s.synset)
     # The hack here is we don't care about satellites in non-Princeton sets
     srs = [r for r in ss.synset_relations if r.rel_type ==
-           SynsetRelType.SIMILAR and not r.target.startswith("ewn-9") and not r.target.startswith("ewn-8")]
+           SynsetRelType.SIMILAR and not r.target.startswith("oewn-9") and not r.target.startswith("oewn-8")]
     if len(srs) != 1:
         print([r.target for r in srs])
         print(s.id)

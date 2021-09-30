@@ -47,7 +47,7 @@ def main():
     wn = change_manager.load_wordnet()
 
     if not args.synset:
-        synset_id = "ewn-" + input("Enter synset ID : ewn-")
+        synset_id = "oewn-" + input("Enter synset ID : oewn-")
     else:
         synset_id = args.synset
 
@@ -74,13 +74,13 @@ def main():
         sys.exit(-1)
 
     if action == "M" and not args.target:
-        args.target = "ewn-" + input("Target synset: ewn-")
+        args.target = "oewn-" + input("Target synset: oewn-")
 
     if action == "A":
         change_manager.add_entry(wn, synset, lemma, args.i, args.n)
     elif action == "D":
         change_manager.delete_entry(
-            wn, synset, "ewn-%s-%s" %
+            wn, synset, "oewn-%s-%s" %
             (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
     elif action == "M":
         target_synset = wn.synset_by_id(args.target)
@@ -95,7 +95,7 @@ def main():
             print(
                 "Moving across lexicographer files so implementing change as delete then add")
             change_manager.delete_entry(
-                wn, synset, "ewn-%s-%s" %
+                wn, synset, "oewn-%s-%s" %
                 (wordnet.escape_lemma(lemma), synset.part_of_speech.value))
             change_manager.add_entry(wn, target_synset, lemma, args.i, args.n)
     change_manager.save_all_xml(wn)

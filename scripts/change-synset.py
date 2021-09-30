@@ -45,7 +45,7 @@ def main():
 
     if args.delete:
         if not args.synset:
-            args.synset = "ewn-" + input("Enter synset ID: ewn-")
+            args.synset = "oewn-" + input("Enter synset ID: oewn-")
         synset = wn.synset_by_id(args.synset)
 
         if not synset:
@@ -56,8 +56,8 @@ def main():
             args.reason = input("Reason for deletion with (#IssueNo): ")
 
         if not args.supersededby:
-            args.supersededby = "ewn-" + \
-                input("Enter superseding synset ID: ewn-")
+            args.supersededby = "oewn-" + \
+                input("Enter superseding synset ID: oewn-")
 
         supersede_synset = wn.synset_by_id(args.supersededby)
 
