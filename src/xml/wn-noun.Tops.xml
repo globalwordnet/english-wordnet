@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
-  <Lexicon id="ewn"
+  <Lexicon id="oewn"
            label="Open English WordNet"
            language="en"
            email="john@mccr.ae"
@@ -626,7 +626,7 @@
       <SynsetRelation relType="hyponym" target="oewn-14604577-n"/> <!-- substance -->
     </Synset>
     <!-- abstract entity, abstraction -->
-    <Synset id="oewn-00002137-n" ili="i35547" members="oewn-abstraction-n ewn-abstract_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00002137-n" ili="i35547" members="oewn-abstraction-n oewn-abstract_entity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a general concept formed by extracting common features from specific examples</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00001740-n"/> <!-- entity -->
       <SynsetRelation relType="hyponym" target="oewn-00023280-n"/> <!-- psychological feature -->
@@ -653,7 +653,7 @@
       <SynsetRelation relType="hyponym" target="oewn-09492089-n"/> <!-- variable -->
     </Synset>
     <!-- object, physical object -->
-    <Synset id="oewn-00002684-n" ili="i35549" members="oewn-object-n ewn-physical_object-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00002684-n" ili="i35549" members="oewn-object-n oewn-physical_object-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a tangible and visible entity; an entity that can cast a shadow</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="oewn-00003553-n"/> <!-- unit, whole -->
@@ -697,7 +697,7 @@
       <Example>it was full of rackets, balls and other objects</Example>
     </Synset>
     <!-- unit, whole -->
-    <Synset id="oewn-00003553-n" ili="i35550" members="oewn-whole-n ewn-unit-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00003553-n" ili="i35550" members="oewn-whole-n oewn-unit-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>an assemblage of parts that is regarded as a single entity</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00002684-n"/> <!-- object, physical object -->
       <SynsetRelation relType="hyponym" target="oewn-00003993-n"/> <!-- congener -->
@@ -720,7 +720,7 @@
       <Example>the American shopkeeper differs from his European congener</Example>
     </Synset>
     <!-- animate thing, living thing -->
-    <Synset id="oewn-00004258-n" ili="i35552" members="oewn-living_thing-n ewn-animate_thing-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00004258-n" ili="i35552" members="oewn-living_thing-n oewn-animate_thing-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living (or once living) entity</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="has_domain_topic" target="oewn-01651383-a"/> <!-- young, immature -->
@@ -731,7 +731,7 @@
       <SynsetRelation relType="has_domain_topic" target="oewn-05063385-n"/> <!-- viability -->
     </Synset>
     <!-- organism, being -->
-    <Synset id="oewn-00004475-n" ili="i35553" members="oewn-organism-n ewn-being-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00004475-n" ili="i35553" members="oewn-organism-n oewn-being-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living thing that has (or can develop) the ability to act or function independently</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00004258-n"/> <!-- animate thing, living thing -->
       <SynsetRelation relType="has_domain_topic" target="oewn-00271722-s"/> <!-- bioluminescent -->
@@ -874,7 +874,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01316379-n"/>
     </Synset>
     <!-- causal agent, cause, causal agency -->
-    <Synset id="oewn-00007347-n" ili="i35561" members="oewn-causal_agent-n ewn-cause-n ewn-causal_agency-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00007347-n" ili="i35561" members="oewn-causal_agent-n oewn-cause-n oewn-causal_agency-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any entity that produces an effect or is responsible for events or results</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="oewn-09213796-n"/> <!-- agent -->
@@ -895,7 +895,7 @@
       <SynsetRelation relType="hyponym" target="oewn-00004475-n"/> <!-- organism, being -->
     </Synset>
     <!-- soul, someone, individual, somebody, mortal, person -->
-    <Synset id="oewn-00007846-n" ili="i35562" members="oewn-person-n ewn-individual-n ewn-someone-n ewn-somebody-n ewn-mortal-n ewn-soul-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00007846-n" ili="i35562" members="oewn-person-n oewn-individual-n oewn-someone-n oewn-somebody-n oewn-mortal-n oewn-soul-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="oewn-07958392-n"/> <!-- people -->
@@ -1320,7 +1320,7 @@
       <Example>there was too much for one person to do</Example>
     </Synset>
     <!-- animal, brute, fauna, creature, beast, animate being -->
-    <Synset id="oewn-00015568-n" ili="i35563" members="oewn-animal-n ewn-animate_being-n ewn-beast-n ewn-brute-n ewn-creature-n ewn-fauna-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00015568-n" ili="i35563" members="oewn-animal-n oewn-animate_being-n oewn-beast-n oewn-brute-n oewn-creature-n oewn-fauna-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a living organism characterized by voluntary movement</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="oewn-01315584-n"/> <!-- kingdom Animalia, animal kingdom, Animalia -->
@@ -1413,7 +1413,7 @@
       <SynsetRelation relType="hyponym" target="oewn-85444389-n"/>
     </Synset>
     <!-- plant life, plant, flora -->
-    <Synset id="oewn-00017402-n" ili="i35564" members="oewn-plant-n ewn-flora-n ewn-plant_life-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00017402-n" ili="i35564" members="oewn-plant-n oewn-flora-n oewn-plant_life-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>(botany) a living organism lacking the power of locomotion</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00004475-n"/> <!-- organism, being -->
       <SynsetRelation relType="holo_member" target="oewn-11550054-n"/> <!-- plant kingdom, kingdom Plantae, Plantae -->
@@ -1620,7 +1620,7 @@
       <Example>physicists study both the nature of matter and the forces which govern it</Example>
     </Synset>
     <!-- food, nutrient -->
-    <Synset id="oewn-00021445-n" ili="i35570" members="oewn-food-n ewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00021445-n" ili="i35570" members="oewn-food-n oewn-nutrient-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any substance that can be metabolized by an animal to give energy and build tissue</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00020270-n"/> <!-- substance -->
       <SynsetRelation relType="hyponym" target="oewn-01467485-n"/> <!-- yolk, vitellus -->
@@ -1647,7 +1647,7 @@
       <SynsetRelation relType="hyponym" target="oewn-07951744-n"/> <!-- water -->
     </Synset>
     <!-- artifact, artefact -->
-    <Synset id="oewn-00022119-n" ili="i35572" members="oewn-artifact-n ewn-artefact-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00022119-n" ili="i35572" members="oewn-artifact-n oewn-artefact-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a man-made object taken as a whole</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00003553-n"/> <!-- unit, whole -->
       <SynsetRelation relType="hyponym" target="oewn-00023083-n"/> <!-- article -->
@@ -1714,7 +1714,7 @@
       <SynsetRelation relType="hyponym" target="oewn-00023953-n"/> <!-- need, motive, motivation -->
     </Synset>
     <!-- noesis, cognition, knowledge -->
-    <Synset id="oewn-00023451-n" ili="i35575" members="oewn-cognition-n ewn-knowledge-n ewn-noesis-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00023451-n" ili="i35575" members="oewn-cognition-n oewn-knowledge-n oewn-noesis-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological result of perception and learning and reasoning</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="oewn-05619057-n"/> <!-- psyche, head, brain, mind, nous -->
@@ -1738,7 +1738,7 @@
       <SynsetRelation relType="hyponym" target="oewn-06202938-n"/> <!-- attitude, mental attitude -->
     </Synset>
     <!-- need, motive, motivation -->
-    <Synset id="oewn-00023953-n" ili="i35576" members="oewn-motivation-n ewn-motive-n ewn-need-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00023953-n" ili="i35576" members="oewn-motivation-n oewn-motive-n oewn-need-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00023280-n"/> <!-- psychological feature -->
       <SynsetRelation relType="hyponym" target="oewn-09201624-n"/> <!-- life -->
@@ -1938,7 +1938,7 @@
       <SynsetRelation relType="hyponym" target="oewn-08517454-n"/>
     </Synset>
     <!-- shape, form -->
-    <Synset id="oewn-00028005-n" ili="i35581" members="oewn-shape-n ewn-form-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00028005-n" ili="i35581" members="oewn-shape-n oewn-form-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the spatial arrangement of something as distinct from its substance</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="hyponym" target="oewn-13882990-n"/> <!-- solid -->
@@ -1982,7 +1982,7 @@
       <Example>time flies like an arrow</Example>
     </Synset>
     <!-- infinite, space -->
-    <Synset id="oewn-00028950-n" ili="i35583" members="oewn-space-n ewn-infinite-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00028950-n" ili="i35583" members="oewn-space-n oewn-infinite-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>the unlimited expanse in which everything is located</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00024444-n"/> <!-- attribute -->
       <SynsetRelation relType="mero_part" target="oewn-00027365-n"/> <!-- location -->
@@ -2024,7 +2024,7 @@
       <SynsetRelation relType="hyponym" target="oewn-07298313-n"/>
     </Synset>
     <!-- physical process, process -->
-    <Synset id="oewn-00029976-n" ili="i35587" members="oewn-process-n ewn-physical_process-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00029976-n" ili="i35587" members="oewn-process-n oewn-physical_process-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>a sustained phenomenon or one marked by gradual changes through a series of states</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00001930-n"/> <!-- physical entity -->
       <SynsetRelation relType="hyponym" target="oewn-00034512-n"/> <!-- phenomenon -->
@@ -2057,7 +2057,7 @@
       <Example>the process of calcification begins later for boys than for girls</Example>
     </Synset>
     <!-- deed, human action, act, human activity -->
-    <Synset id="oewn-00030657-n" ili="i35588" members="oewn-act-n ewn-deed-n ewn-human_action-n ewn-human_activity-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00030657-n" ili="i35588" members="oewn-act-n oewn-deed-n oewn-human_action-n oewn-human_activity-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>something that people do or cause to happen</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00029677-n"/> <!-- event -->
       <SynsetRelation relType="hyponym" target="oewn-00038116-n"/> <!-- action -->
@@ -2103,7 +2103,7 @@
       <SynsetRelation relType="hyponym" target="oewn-90001771-n"/>
     </Synset>
     <!-- group, grouping -->
-    <Synset id="oewn-00031563-n" ili="i35589" members="oewn-group-n ewn-grouping-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00031563-n" ili="i35589" members="oewn-group-n oewn-grouping-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>any number of entities (members) considered as a unit</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="hyponym" target="oewn-02475618-n"/> <!-- world, mankind, human beings, human race, humanity, humans, humankind, man -->
@@ -2214,7 +2214,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13424504-n"/> <!-- document -->
     </Synset>
     <!-- amount, quantity, measure -->
-    <Synset id="oewn-00033914-n" ili="i35594" members="oewn-measure-n ewn-quantity-n ewn-amount-n" partOfSpeech="n" dc:subject="noun.Tops">
+    <Synset id="oewn-00033914-n" ili="i35594" members="oewn-measure-n oewn-quantity-n oewn-amount-n" partOfSpeech="n" dc:subject="noun.Tops">
       <Definition>how much there is or how many there are of something that you can quantify</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00002137-n"/> <!-- abstract entity, abstraction -->
       <SynsetRelation relType="attribute" target="oewn-02303673-a"/> <!-- standard -->
