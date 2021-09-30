@@ -65,7 +65,7 @@ def wn_merge():
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
-  <Lexicon id="ewn"
+  <Lexicon id="oewn"
            label="Open English WordNet"
            language="en"
            email="english-wordnet@googlegroups.com"

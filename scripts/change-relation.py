@@ -9,7 +9,7 @@ import change_manager
 
 def with_ewn(x):
     if x:
-        return "ewn-" + x
+        return "oewn-" + x
     else:
         return None
 
@@ -48,7 +48,7 @@ def main():
     wn = change_manager.load_wordnet()
 
     if not args.source_id:
-        args.source_id = "ewn-" + input("Enter source synset ID: ewn-")
+        args.source_id = "oewn-" + input("Enter source synset ID: oewn-")
 
     if change_manager.sense_id_re.match(args.source_id):
         (source_id, source_entry_id) = change_manager.decompose_sense_id(args.source_id)
@@ -63,7 +63,7 @@ def main():
         sys.exit(-1)
 
     if not args.target_id:
-        args.target_id = "ewn-" + input("Enter target synset ID: ewn-")
+        args.target_id = "oewn-" + input("Enter target synset ID: oewn-")
 
     if change_manager.sense_id_re.match(args.target_id):
         (target_id, target_entry_id) = change_manager.decompose_sense_id(args.target_id)
@@ -88,13 +88,13 @@ def main():
             mode = input("Change [S]ubject/[T]arget/[R]elation: ").lower()
             if mode == "s":
                 args.new_source = with_ewn(
-                    input("Enter new source (or blank for no change): ewn-"))
+                    input("Enter new source (or blank for no change): oewn-"))
             elif mode == "t":
                 args.new_target = with_ewn(
-                    input("Enter new target (or blank for no change): ewn-"))
+                    input("Enter new target (or blank for no change): oewn-"))
             elif mode == "r":
                 args.new_relation = input(
-                    "Enter new relation (or blank for no change): ewn-")
+                    "Enter new relation (or blank for no change): oewn-")
             else:
                 print("Bad choice")
                 sys.exit(-1)

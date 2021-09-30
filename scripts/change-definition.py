@@ -63,7 +63,7 @@ def main():
         wn = pickle.load(open("wn.pickle", "rb"))
 
     if not args.id:
-        id = "ewn-" + input("Enter synset ID : ewn-")
+        id = "oewn-" + input("Enter synset ID : oewn-")
     else:
         id = args.id
 

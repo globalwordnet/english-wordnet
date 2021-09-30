@@ -10,7 +10,7 @@ import wordnet_yaml
 from collections import defaultdict
 from sense_keys import get_sense_key
 
-sense_id_re = re.compile(r"ewn-(.*)-(.)-(\d{8})-\d{2}")
+sense_id_re = re.compile(r"oewn-(.*)-(.)-(\d{8})-\d{2}")
 
 
 class ChangeList:
@@ -77,7 +77,7 @@ def save_all_xml(wn, change_list=None):
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                "ewn", "Open English WordNet", "en",
+                "oewn", "Open English WordNet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
             by_lex_name[synset.lex_name].frames = wn.frames
@@ -202,7 +202,7 @@ def decompose_sense_id(sense_id):
         lemma = m.group(1)
         pos = m.group(2)
         ssid = m.group(3)
-        return ("ewn-%s-%s" % (ssid, pos), "ewn-%s-%s" % (lemma, pos))
+        return ("oewn-%s-%s" % (ssid, pos), "oewn-%s-%s" % (lemma, pos))
     else:
         raise Exception("Not a sense ID")
 
@@ -240,9 +240,10 @@ def empty_if_none(x):
     else:
         return []
 
+KEY_PREFIX_LEN = 5
 
 def synset_key(synset_id):
-    return synset_id[4:-2]
+    return synset_id[KEY_PREFIX_LEN:-2]
 
 
 def change_entry(wn, synset, target_synset, lemma, change_list=None):
@@ -275,7 +276,7 @@ def change_entry(wn, synset, target_synset, lemma, change_list=None):
                 sense.synset = target_synset.id
                 wn.change_sense_id(
                     sense,
-                    "ewn-%s-%s-%s-%02d" %
+                    "oewn-%s-%s-%s-%02d" %
                     (escape_lemma(lemma),
                      target_synset.part_of_speech.value,
                      synset_key(
@@ -338,7 +339,7 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         wn_entry = wn.entry_by_id(entries[0])
         entry = wn_synset.entry_by_id(entries[0])
         sense = Sense(
-            id="ewn-%s-%s-%s-%02d" %
+            id="oewn-%s-%s-%s-%02d" %
             (escape_lemma(lemma),
              synset.part_of_speech.value,
              synset_key(
@@ -358,10 +359,10 @@ def add_entry(wn, synset, lemma, idx=0, n=-1, change_list=None):
         n = 0
         print("Creating new entry")
         entry = LexicalEntry(
-            "ewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
+            "oewn-%s-%s" % (escape_lemma(lemma), synset.part_of_speech.value))
         entry.set_lemma(Lemma(lemma, synset.part_of_speech))
         sense = Sense(
-                id="ewn-%s-%s-%s-%02d" %
+                id="oewn-%s-%s-%s-%02d" %
                 (escape_lemma(lemma),
                  synset.part_of_speech.value,
                  synset_key(
@@ -458,7 +459,7 @@ def delete_synset(
 
         for entry in entries:
             delete_entry(
-                wn, synset, "ewn-%s-%s" %
+                wn, synset, "oewn-%s-%s" %
                 (escape_lemma(entry), synset.part_of_speech.value), change_list)
 
     for rel in synset.synset_relations:
@@ -533,7 +534,7 @@ def sense_ids_for_synset(wn, synset):
 def new_id(wn, pos, definition):
     s = hashlib.sha256()
     s.update(definition.encode())
-    nid = "ewn-8%07d-%s" % ((int(s.hexdigest(), 16) % 10000000), pos)
+    nid = "oewn-8%07d-%s" % ((int(s.hexdigest(), 16) % 10000000), pos)
     if wn.synset_by_id(nid):
         print(
             "Could not find ID for new synset. Either a duplicate definition or a hash collision for " +
