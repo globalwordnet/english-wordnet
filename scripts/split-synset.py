@@ -27,7 +27,7 @@ def main():
     wn = change_manager.load_wordnet()
 
     if not args.synset:
-        args.synset = "ewn-" + input("Enter synset ID: ewn-")
+        args.synset = "oewn-" + input("Enter synset ID: oewn-")
     synset = wn.synset_by_id(args.synset)
 
     if not synset:

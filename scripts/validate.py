@@ -178,12 +178,12 @@ def check_lex_files(wn, fix):
     return errors
 
 
-valid_id = re.compile("^ewn-[A-Za-z0-9_\\-.]*$")
+valid_id = re.compile("^oewn-[A-Za-z0-9_\\-.]*$")
 
 valid_sense_id = re.compile(
-    "^ewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
+    "^oewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
 
-valid_synset_id = re.compile("^ewn-[0-9]{8}-[nvars]$")
+valid_synset_id = re.compile("^oewn-[0-9]{8}-[nvars]$")
 
 
 def is_valid_id(xml_id):
@@ -201,7 +201,7 @@ def is_valid_sense_id(xml_id, synset):
     else:
         pos = m.group(1)
         key = m.group(2)
-        if synset != ("ewn-%s-%s" % (key, pos)):
+        if synset != ("oewn-%s-%s" % (key, pos)):
             print("%s does not match target of %s" % (xml_id, synset))
             return False
         return True
@@ -344,7 +344,7 @@ def main():
             [sr for sr in synset.synset_relations 
                 if sr.rel_type == SynsetRelType.HYPERNYM or
                    sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
-            synset.id != "ewn-00001740-n"):
+            synset.id != "oewn-00001740-n"):
             print("ERROR: noun synset %s has no hypernym" % synset.id)
             errors += 1
 

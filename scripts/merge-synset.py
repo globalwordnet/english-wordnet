@@ -28,9 +28,9 @@ def main():
         args.synsets = []
         print("Enter synsets (empty line to finish)")
         while True:
-            id1 = input("Enter synset ID: ewn-")
+            id1 = input("Enter synset ID: oewn-")
             if id1:
-                args.synsets.append("ewn-" + id1)
+                args.synsets.append("oewn-" + id1)
             else:
                 break
 
