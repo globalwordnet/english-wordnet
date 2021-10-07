@@ -14,7 +14,7 @@ def map_sense_key(sk):
     if "%" in sk:
         e = sk.split("%")
         return ("ewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-") +
-            "__" + e[1].replace("_","-sp-").replace(":","_"))
+            "__" + e[1].replace("_","-sp-").replace(":","."))
     else:
         return "ewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-")
 
@@ -24,7 +24,7 @@ def unmap_sense_key(sk):
         l = e[0][4:]
         r = "__".join(e[1:])
         return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":") +
-            "%" + r.replace("_", ":").replace("-sp-","_"))
+            "%" + r.replace(".", ":").replace("-sp-","_"))
     else: 
         return sk[4:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":")
 
