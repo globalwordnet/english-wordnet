@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
-  <Lexicon id="ewn"
+  <Lexicon id="oewn"
            label="Open English WordNet"
            language="en"
            email="john@mccr.ae"
@@ -913,7 +913,7 @@
       <Sense id="oewn-shower_down__2.43.00.." n="0" subcat="nonreferential" synset="oewn-02763609-v"/>
     </LexicalEntry>
     <!-- rain down, rain -->
-    <Synset id="oewn-02762516-v" ili="i35464" members="oewn-rain-v ewn-rain_down-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02762516-v" ili="i35464" members="oewn-rain-v oewn-rain_down-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>precipitate as rain</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02762779-v"/> <!-- precipitate, come down, fall -->
       <SynsetRelation relType="hyponym" target="oewn-02763433-v"/> <!-- drizzle, mizzle -->
@@ -924,7 +924,7 @@
       <Example>If it rains much more, we can expect some flooding</Example>
     </Synset>
     <!-- precipitate, come down, fall -->
-    <Synset id="oewn-02762779-v" ili="i35465" members="oewn-precipitate-v ewn-come_down-v ewn-fall-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02762779-v" ili="i35465" members="oewn-precipitate-v oewn-come_down-v oewn-fall-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>fall from clouds</Definition>
       <SynsetRelation relType="entails" target="oewn-00365521-v"/> <!-- distill, condense, distil -->
       <SynsetRelation relType="similar" target="oewn-01976312-v"/> <!-- fall -->
@@ -949,25 +949,25 @@
       <Example>The garden air overnight liquefied into a morning dew</Example>
     </Synset>
     <!-- drizzle, mizzle -->
-    <Synset id="oewn-02763433-v" ili="i35468" members="oewn-drizzle-v ewn-mizzle-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02763433-v" ili="i35468" members="oewn-drizzle-v oewn-mizzle-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>rain lightly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02762516-v"/> <!-- rain down, rain -->
       <Example>When it drizzles in summer, hiking can be pleasant</Example>
     </Synset>
     <!-- shower down, shower -->
-    <Synset id="oewn-02763609-v" ili="i35469" members="oewn-shower-v ewn-shower_down-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02763609-v" ili="i35469" members="oewn-shower-v oewn-shower_down-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>rain abundantly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02762516-v"/> <!-- rain down, rain -->
       <Example>Meteors showered down over half of Australia</Example>
     </Synset>
     <!-- spit, spatter, pitter-patter, patter, sprinkle -->
-    <Synset id="oewn-02763786-v" ili="i35470" members="oewn-sprinkle-v ewn-spit-v ewn-spatter-v ewn-patter-v ewn-pitter-patter-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02763786-v" ili="i35470" members="oewn-sprinkle-v oewn-spit-v oewn-spatter-v oewn-patter-v oewn-pitter-patter-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>rain gently</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02762516-v"/> <!-- rain down, rain -->
       <Example>It has only sprinkled, but the roads are slick</Example>
     </Synset>
     <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
-    <Synset id="oewn-02763991-v" ili="i35471" members="oewn-pour-v ewn-pelt-v ewn-stream-v ewn-rain_cats_and_dogs-v ewn-rain_buckets-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02763991-v" ili="i35471" members="oewn-pour-v oewn-pelt-v oewn-stream-v oewn-rain_cats_and_dogs-v oewn-rain_buckets-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>rain heavily</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02762516-v"/> <!-- rain down, rain -->
       <SynsetRelation relType="hyponym" target="oewn-02764220-v"/> <!-- sheet -->
@@ -981,13 +981,13 @@
       <Example>The rain was sheeting down during the monsoon</Example>
     </Synset>
     <!-- sluice, sluice down -->
-    <Synset id="oewn-02764357-v" ili="i35473" members="oewn-sluice-v ewn-sluice_down-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02764357-v" ili="i35473" members="oewn-sluice-v oewn-sluice_down-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>pour as if from a sluice</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02763991-v"/> <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
       <Example>An aggressive tide sluiced across the barrier reef</Example>
     </Synset>
     <!-- ice over, ice up, frost over -->
-    <Synset id="oewn-02764539-v" ili="i35474" members="oewn-ice_up-v ewn-frost_over-v ewn-ice_over-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02764539-v" ili="i35474" members="oewn-ice_up-v oewn-frost_over-v oewn-ice_over-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>become covered with a layer of ice; of a surface such as a window</Definition>
       <SynsetRelation relType="entails" target="oewn-02764784-v"/> <!-- freeze -->
       <SynsetRelation relType="hypernym" target="oewn-00109468-v"/> <!-- change -->
@@ -1024,7 +1024,7 @@
       <Example>The sky seemed to flame in the Hawaiian sunset</Example>
     </Synset>
     <!-- light, ignite -->
-    <Synset id="oewn-02765572-v" ili="i35480" members="oewn-ignite-v ewn-light-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02765572-v" ili="i35480" members="oewn-ignite-v oewn-light-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>cause to start burning; subject to fire or great heat</Definition>
       <SynsetRelation relType="causes" target="oewn-00377673-v"/> <!-- combust, burn -->
       <SynsetRelation relType="hypernym" target="oewn-02768426-v"/> <!-- combust, burn -->
@@ -1038,7 +1038,7 @@
       <Example>Light a cigarette</Example>
     </Synset>
     <!-- set aflame, set afire, set on fire, set ablaze -->
-    <Synset id="oewn-02766097-v" ili="i35481" members="oewn-set_ablaze-v ewn-set_aflame-v ewn-set_on_fire-v ewn-set_afire-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02766097-v" ili="i35481" members="oewn-set_ablaze-v oewn-set_aflame-v oewn-set_on_fire-v oewn-set_afire-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>set fire to; cause to start burning</Definition>
       <SynsetRelation relType="entails" target="oewn-02765572-v"/> <!-- light, ignite -->
       <SynsetRelation relType="hypernym" target="oewn-02768426-v"/> <!-- combust, burn -->
@@ -1051,13 +1051,13 @@
       <Example>The strong winds reignited the cooling embers</Example>
     </Synset>
     <!-- put out, douse -->
-    <Synset id="oewn-02766453-v" ili="i35483" members="oewn-douse-v ewn-put_out-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02766453-v" ili="i35483" members="oewn-douse-v oewn-put_out-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>put out, as of a candle or a light</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02767855-v"/> <!-- extinguish, quench, blow out, snuff out -->
       <Example>Douse the lights</Example>
     </Synset>
     <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
-    <Synset id="oewn-02766580-v" ili="i35484" members="oewn-erupt-v ewn-ignite-v ewn-catch_fire-v ewn-take_fire-v ewn-combust-v ewn-conflagrate-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02766580-v" ili="i35484" members="oewn-erupt-v oewn-ignite-v oewn-catch_fire-v oewn-take_fire-v oewn-combust-v oewn-conflagrate-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>start to burn or burst into flames</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00145958-v"/> <!-- change state, turn -->
       <SynsetRelation relType="hyponym" target="oewn-02766970-v"/> <!-- blow out -->
@@ -1086,7 +1086,7 @@
       <Example>The coal in the BBQ grill finally lit up</Example>
     </Synset>
     <!-- conflagrate, enkindle, inflame, kindle -->
-    <Synset id="oewn-02767330-v" ili="i35488" members="oewn-kindle-v ewn-enkindle-v ewn-conflagrate-v ewn-inflame-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02767330-v" ili="i35488" members="oewn-kindle-v oewn-enkindle-v oewn-conflagrate-v oewn-inflame-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>cause to start burning</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02765572-v"/> <!-- light, ignite -->
       <SynsetRelation relType="hyponym" target="oewn-02767552-v"/> <!-- rekindle -->
@@ -1098,13 +1098,13 @@
       <SynsetRelation relType="hypernym" target="oewn-02767330-v"/> <!-- conflagrate, enkindle, inflame, kindle -->
     </Synset>
     <!-- inflame, kindle -->
-    <Synset id="oewn-02767643-v" ili="i35490" members="oewn-kindle-v ewn-inflame-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02767643-v" ili="i35490" members="oewn-kindle-v oewn-inflame-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>catch fire</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02770203-v"/> <!-- flare up -->
       <Example>The dried grass of the prairie kindled, spreading the flames for miles</Example>
     </Synset>
     <!-- extinguish, quench, blow out, snuff out -->
-    <Synset id="oewn-02767855-v" ili="i35491" members="oewn-snuff_out-v ewn-blow_out-v ewn-extinguish-v ewn-quench-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02767855-v" ili="i35491" members="oewn-snuff_out-v oewn-blow_out-v oewn-extinguish-v oewn-quench-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>put out, as of fires, flames, or lights</Definition>
       <SynsetRelation relType="hyponym" target="oewn-01213186-v"/> <!-- stub -->
       <SynsetRelation relType="hyponym" target="oewn-02766453-v"/> <!-- put out, douse -->
@@ -1113,7 +1113,7 @@
       <Example>snuff out the candles</Example>
     </Synset>
     <!-- combust, burn -->
-    <Synset id="oewn-02768426-v" ili="i35493" members="oewn-burn-v ewn-combust-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02768426-v" ili="i35493" members="oewn-burn-v oewn-combust-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>cause to burn or combust</Definition>
       <SynsetRelation relType="causes" target="oewn-00377673-v"/> <!-- combust, burn -->
       <SynsetRelation relType="similar" target="oewn-02766580-v"/> <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
@@ -1125,13 +1125,13 @@
       <Example>We combust coal and other fossil fuels</Example>
     </Synset>
     <!-- blaze up, burn up, flame up, flare -->
-    <Synset id="oewn-02768764-v" ili="i35494" members="oewn-flare-v ewn-flame_up-v ewn-blaze_up-v ewn-burn_up-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02768764-v" ili="i35494" members="oewn-flare-v oewn-flame_up-v oewn-blaze_up-v oewn-burn_up-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>burn brightly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00377673-v"/> <!-- combust, burn -->
       <Example>Every star seemed to flare with new intensity</Example>
     </Synset>
     <!-- flame, flare -->
-    <Synset id="oewn-02768939-v" ili="i35495" members="oewn-flare-v ewn-flame-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02768939-v" ili="i35495" members="oewn-flare-v oewn-flame-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>shine with a sudden light</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02769698-v"/> <!-- shine, beam -->
       <Example>The night sky flared with the massive bombardment</Example>
@@ -1155,13 +1155,13 @@
       <Example>Beech leaves shimmered in the moonlight</Example>
     </Synset>
     <!-- flick, flicker -->
-    <Synset id="oewn-02769567-v" ili="i35499" members="oewn-flicker-v ewn-flick-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02769567-v" ili="i35499" members="oewn-flicker-v oewn-flick-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>shine unsteadily</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02769698-v"/> <!-- shine, beam -->
       <Example>The candle flickered</Example>
     </Synset>
     <!-- shine, beam -->
-    <Synset id="oewn-02769698-v" ili="i35500" members="oewn-shine-v ewn-beam-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02769698-v" ili="i35500" members="oewn-shine-v oewn-beam-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>emit light; be bright, as of the sun or a light</Definition>
       <SynsetRelation relType="hyponym" target="oewn-02164751-v"/> <!-- beat down -->
       <SynsetRelation relType="hyponym" target="oewn-02164863-v"/> <!-- beacon -->
@@ -1203,7 +1203,7 @@
       <Example>Meteors blazed across the atmosphere</Example>
     </Synset>
     <!-- scintillate, twinkle, winkle -->
-    <Synset id="oewn-02770723-v" ili="i35505" members="oewn-twinkle-v ewn-winkle-v ewn-scintillate-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02770723-v" ili="i35505" members="oewn-twinkle-v oewn-winkle-v oewn-scintillate-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>emit or reflect light in a flickering manner</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02769698-v"/> <!-- shine, beam -->
       <SynsetRelation relType="domain_topic" target="oewn-09262646-n"/> <!-- celestial body, heavenly body -->
@@ -1224,19 +1224,19 @@
       <Example>raindrops caught in a sunbeam seem to opalesce</Example>
     </Synset>
     <!-- absorb, take in -->
-    <Synset id="oewn-02771422-v" ili="i35508" members="oewn-absorb-v ewn-take_in-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02771422-v" ili="i35508" members="oewn-absorb-v oewn-take_in-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>suck or take up or in</Definition>
       <SynsetRelation relType="hyponym" target="oewn-02771650-v"/> <!-- suck, suck in -->
       <Example>A black star absorbs all matter</Example>
     </Synset>
     <!-- suck, suck in -->
-    <Synset id="oewn-02771650-v" ili="i35509" members="oewn-suck-v ewn-suck_in-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02771650-v" ili="i35509" members="oewn-suck-v oewn-suck_in-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>attract by using an inexorable force, inducement, etc.</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02771422-v"/> <!-- absorb, take in -->
       <Example>The current boom in the economy sucked many workers in from abroad</Example>
     </Synset>
     <!-- shine, reflect -->
-    <Synset id="oewn-02771882-v" ili="i35510" members="oewn-reflect-v ewn-shine-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02771882-v" ili="i35510" members="oewn-reflect-v oewn-shine-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>be bright by reflecting or casting light</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02773266-v"/> <!-- give out, emit, give off -->
       <SynsetRelation relType="hyponym" target="oewn-02739328-v"/> <!-- resplend -->
@@ -1252,13 +1252,13 @@
       <SynsetRelation relType="hypernym" target="oewn-02771882-v"/> <!-- shine, reflect -->
     </Synset>
     <!-- scintillate, sparkle, coruscate -->
-    <Synset id="oewn-02772348-v" ili="i35512" members="oewn-sparkle-v ewn-scintillate-v ewn-coruscate-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02772348-v" ili="i35512" members="oewn-sparkle-v oewn-scintillate-v oewn-coruscate-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>reflect brightly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02771882-v"/> <!-- shine, reflect -->
       <Example>Unquarried marble sparkled on the hillside</Example>
     </Synset>
     <!-- sparkle, spark -->
-    <Synset id="oewn-02772645-v" ili="i35513" members="oewn-spark-v ewn-sparkle-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02772645-v" ili="i35513" members="oewn-spark-v oewn-sparkle-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>emit or produce sparks</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02773266-v"/> <!-- give out, emit, give off -->
       <Example>A high tension wire, brought down by a storm, can continue to spark</Example>
@@ -1276,7 +1276,7 @@
       <Example>The sun radiates heat</Example>
     </Synset>
     <!-- give out, emit, give off -->
-    <Synset id="oewn-02773266-v" ili="i35516" members="oewn-emit-v ewn-give_out-v ewn-give_off-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02773266-v" ili="i35516" members="oewn-emit-v oewn-give_out-v oewn-give_off-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>give off, send forth, or discharge; as of light, heat, or radiation, vapor, etc.</Definition>
       <SynsetRelation relType="hyponym" target="oewn-00292048-v"/> <!-- effuse -->
       <SynsetRelation relType="hyponym" target="oewn-02771882-v"/> <!-- shine, reflect -->
@@ -1298,7 +1298,7 @@
       <Example>the substance scintillated sparks and flashes</Example>
     </Synset>
     <!-- fume, smoke -->
-    <Synset id="oewn-02773880-v" ili="i35518" members="oewn-fume-v ewn-smoke-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02773880-v" ili="i35518" members="oewn-fume-v oewn-smoke-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>emit a cloud of fine particles</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02773266-v"/> <!-- give out, emit, give off -->
       <Example>The chimney was fuming</Example>
@@ -1328,12 +1328,12 @@
       <Example>The rain forest was literally steaming</Example>
     </Synset>
     <!-- shadow, shade, shade off -->
-    <Synset id="oewn-02774660-v" ili="i35523" members="oewn-shadow-v ewn-shade-v ewn-shade_off-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02774660-v" ili="i35523" members="oewn-shadow-v oewn-shade-v oewn-shade_off-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>cast a shadow over</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00312341-v"/> <!-- darken -->
     </Synset>
     <!-- burn, glow -->
-    <Synset id="oewn-02774832-v" ili="i35524" members="oewn-burn-v ewn-glow-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02774832-v" ili="i35524" members="oewn-burn-v oewn-glow-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>shine intensely, as if with heat</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02769698-v"/> <!-- shine, beam -->
       <SynsetRelation relType="hyponym" target="oewn-02775035-v"/> <!-- gutter -->
@@ -1402,13 +1402,13 @@
       <Example>The flames blustered</Example>
     </Synset>
     <!-- thunder, boom -->
-    <Synset id="oewn-02776493-v" ili="i35534" members="oewn-thunder-v ewn-boom-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02776493-v" ili="i35534" members="oewn-thunder-v oewn-boom-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>be the case that thunder is being heard</Definition>
       <SynsetRelation relType="entails" target="oewn-02775858-v"/> <!-- storm -->
       <Example>Whenever it thunders, my dog crawls under the bed</Example>
     </Synset>
     <!-- cloud, overcast -->
-    <Synset id="oewn-02776675-v" ili="i35535" members="oewn-overcast-v ewn-cloud-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02776675-v" ili="i35535" members="oewn-overcast-v oewn-cloud-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>make overcast or cloudy</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00312341-v"/> <!-- darken -->
       <SynsetRelation relType="hyponym" target="oewn-02777846-v"/> <!-- fog up -->
@@ -1416,30 +1416,30 @@
       <Example>Fall weather often overcasts our beaches</Example>
     </Synset>
     <!-- overcloud, cloud over, cloud up -->
-    <Synset id="oewn-02776978-v" ili="i35536" members="oewn-overcloud-v ewn-cloud_over-v ewn-cloud_up-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02776978-v" ili="i35536" members="oewn-overcloud-v oewn-cloud_over-v oewn-cloud_up-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>become covered with clouds</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00313162-v"/> <!-- darken -->
       <Example>The sky clouded over</Example>
     </Synset>
     <!-- clear, brighten, light up, clear up -->
-    <Synset id="oewn-02777127-v" ili="i35537" members="oewn-clear_up-v ewn-clear-v ewn-light_up-v ewn-brighten-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02777127-v" ili="i35537" members="oewn-clear_up-v oewn-clear-v oewn-light_up-v oewn-brighten-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>become clear</Definition>
       <Example>The sky cleared after the storm</Example>
     </Synset>
     <!-- plague, blight -->
-    <Synset id="oewn-02777278-v" ili="i35538" members="oewn-blight-v ewn-plague-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02777278-v" ili="i35538" members="oewn-blight-v oewn-plague-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>cause to suffer a blight</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00260813-v"/> <!-- smite, afflict -->
       <Example>Too much rain may blight the garden with mold</Example>
     </Synset>
     <!-- drench, swamp -->
-    <Synset id="oewn-02777522-v" ili="i35539" members="oewn-swamp-v ewn-drench-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02777522-v" ili="i35539" members="oewn-swamp-v oewn-drench-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>drench or submerge or be drenched or submerged</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00217578-v"/> <!-- flood -->
       <Example>The tsunami swamped every boat in the harbor</Example>
     </Synset>
     <!-- dry out, run dry -->
-    <Synset id="oewn-02777714-v" ili="i35540" members="oewn-run_dry-v ewn-dry_out-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02777714-v" ili="i35540" members="oewn-run_dry-v oewn-dry_out-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>become empty of water</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00219829-v"/> <!-- dry out, dry -->
       <Example>The river runs dry in the summer</Example>
@@ -1451,7 +1451,7 @@
       <Example>The windshield fogged up</Example>
     </Synset>
     <!-- char, coal -->
-    <Synset id="oewn-02777955-v" ili="i35542" members="oewn-char-v ewn-coal-v" partOfSpeech="v" dc:subject="verb.weather">
+    <Synset id="oewn-02777955-v" ili="i35542" members="oewn-char-v oewn-coal-v" partOfSpeech="v" dc:subject="verb.weather">
       <Definition>burn to charcoal</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02768426-v"/> <!-- combust, burn -->
       <Example>Without a drenching rain, the forest fire will char everything</Example>

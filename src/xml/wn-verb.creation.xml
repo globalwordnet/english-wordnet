@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
-  <Lexicon id="ewn"
+  <Lexicon id="oewn"
            label="Open English WordNet"
            language="en"
            email="john@mccr.ae"
@@ -7180,7 +7180,7 @@
         </Sense>
     </LexicalEntry>
     <!-- make, create -->
-    <Synset id="oewn-01620211-v" ili="i29849" members="oewn-make-v ewn-create-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01620211-v" ili="i29849" members="oewn-make-v oewn-create-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make or cause to be or to become</Definition>
       <SynsetRelation relType="hyponym" target="oewn-00054345-v"/> <!-- bring forth, get, sire, father, generate, engender, beget, mother -->
       <SynsetRelation relType="hyponym" target="oewn-00054856-v"/> <!-- procreate, reproduce, multiply -->
@@ -7248,7 +7248,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
     </Synset>
     <!-- bring, institute -->
-    <Synset id="oewn-01621566-v" ili="i29851" members="oewn-institute-v ewn-bring-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01621566-v" ili="i29851" members="oewn-institute-v oewn-bring-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>advance or set forth in court</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <Example>bring charges</Example>
@@ -7263,24 +7263,24 @@
       <Example>introduce exotic fruits</Example>
     </Synset>
     <!-- short-circuit, short -->
-    <Synset id="oewn-01621903-v" ili="i29853" members="oewn-short-circuit-v ewn-short-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01621903-v" ili="i29853" members="oewn-short-circuit-v oewn-short-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create a short circuit in</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
     </Synset>
     <!-- make, do -->
-    <Synset id="oewn-01622033-v" ili="i29854" members="oewn-do-v ewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01622033-v" ili="i29854" members="oewn-do-v oewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create or design, often in a certain way</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01643749-v"/> <!-- make, create -->
       <Example>Do my room in blue</Example>
       <Example>I did this piece in wood to express my love for the forest</Example>
     </Synset>
     <!-- undo, unmake -->
-    <Synset id="oewn-01622250-v" ili="i29855" members="oewn-unmake-v ewn-undo-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01622250-v" ili="i29855" members="oewn-unmake-v oewn-undo-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>deprive of certain characteristics</Definition>
       <SynsetRelation relType="hyponym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
     </Synset>
     <!-- re-create -->
-    <Synset id="oewn-01622373-v" ili="i29856" members="oewn-re-create-v ewn-recreate-v-1" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01622373-v" ili="i29856" members="oewn-re-create-v oewn-recreate-v-1" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce or make another of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00168201-v"/> <!-- regenerate -->
@@ -7300,14 +7300,14 @@
       <Example>she recreated the feeling of the 1920&apos;s with her stage setting</Example>
     </Synset>
     <!-- refashion, redo, make over, remake -->
-    <Synset id="oewn-01622744-v" ili="i29857" members="oewn-remake-v ewn-refashion-v ewn-redo-v ewn-make_over-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01622744-v" ili="i29857" members="oewn-remake-v oewn-refashion-v oewn-redo-v oewn-make_over-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make new</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="hyponym" target="oewn-01662480-v"/> <!-- remodel, reforge, recast -->
       <Example>She is remaking her image</Example>
     </Synset>
     <!-- destruct, destroy -->
-    <Synset id="oewn-01622948-v" ili="i29858" members="oewn-destroy-v ewn-destruct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01622948-v" ili="i29858" members="oewn-destroy-v oewn-destruct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>do away with, cause the destruction or undoing of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622250-v"/> <!-- undo, unmake -->
       <SynsetRelation relType="hyponym" target="oewn-00355831-v"/> <!-- kill -->
@@ -7328,7 +7328,7 @@
       <Example>The fire destroyed the house</Example>
     </Synset>
     <!-- self-destruct, self-destroy -->
-    <Synset id="oewn-01623473-v" ili="i29859" members="oewn-self-destruct-v ewn-self-destroy-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01623473-v" ili="i29859" members="oewn-self-destruct-v oewn-self-destroy-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>do away with oneself or itself</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <Example>The machine will self-destruct if you tamper with it</Example>
@@ -7352,7 +7352,7 @@
       <Example>fracture the balance of power</Example>
     </Synset>
     <!-- sweep away, wipe out -->
-    <Synset id="oewn-01624256-v" ili="i29863" members="oewn-wipe_out-v ewn-sweep_away-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01624256-v" ili="i29863" members="oewn-wipe_out-v oewn-sweep_away-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>eliminate completely and without a trace</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <Example>The old values have been wiped out</Example>
@@ -7363,7 +7363,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
     </Synset>
     <!-- make, produce, create -->
-    <Synset id="oewn-01624592-v" ili="i29865" members="oewn-produce-v ewn-make-v ewn-create-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01624592-v" ili="i29865" members="oewn-produce-v oewn-make-v oewn-create-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create or manufacture a man-made product</Definition>
       <SynsetRelation relType="similar" target="oewn-01643749-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-01432088-v"/> <!-- breed -->
@@ -7415,25 +7415,25 @@
       <Example>the computer is outputting the data from the job I&apos;m running</Example>
     </Synset>
     <!-- pulse, pulsate -->
-    <Synset id="oewn-01626064-v" ili="i29869" members="oewn-pulse-v ewn-pulsate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01626064-v" ili="i29869" members="oewn-pulse-v oewn-pulsate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce or modulate (as electromagnetic waves) in the form of short bursts or pulses or cause an apparatus to produce pulses</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <Example>pulse waves</Example>
       <Example>a transmitter pulsed by an electronic tube</Example>
     </Synset>
     <!-- clap together, clap up, slap together -->
-    <Synset id="oewn-01626402-v" ili="i29870" members="oewn-clap_up-v ewn-clap_together-v ewn-slap_together-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01626402-v" ili="i29870" members="oewn-clap_up-v oewn-clap_together-v oewn-slap_together-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make hastily and carelessly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
     </Synset>
     <!-- tailor-make, customize, custom-make, customise -->
-    <Synset id="oewn-01626526-v" ili="i29871" members="oewn-custom-make-v ewn-customize-v ewn-customise-v ewn-tailor-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01626526-v" ili="i29871" members="oewn-custom-make-v oewn-customize-v oewn-customise-v oewn-tailor-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make to specifications</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <Example>I had this desk custom-made for me</Example>
     </Synset>
     <!-- dummy, dummy up -->
-    <Synset id="oewn-01626693-v" ili="i29872" members="oewn-dummy-v ewn-dummy_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01626693-v" ili="i29872" members="oewn-dummy-v oewn-dummy_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a dummy of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <Example>dummy up the books that are to be published</Example>
@@ -7527,7 +7527,7 @@
       <Example>bootleg tapes of the diva&apos;s singing</Example>
     </Synset>
     <!-- compose, compile -->
-    <Synset id="oewn-01629175-v" ili="i29888" members="oewn-compose-v ewn-compile-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01629175-v" ili="i29888" members="oewn-compose-v oewn-compile-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put together out of existing material</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01657416-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="oewn-01629637-v"/> <!-- cobble up, cobble together -->
@@ -7536,23 +7536,23 @@
       <Example>compile a list</Example>
     </Synset>
     <!-- confect, confection, comfit -->
-    <Synset id="oewn-01629457-v" ili="i29889" members="oewn-confect-v ewn-confection-v ewn-comfit-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01629457-v" ili="i29889" members="oewn-confect-v oewn-confection-v oewn-comfit-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make into a confection</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01660471-v"/> <!-- piece, tack, tack together, put together, assemble, set up -->
       <Example>This medicine is home-confected</Example>
     </Synset>
     <!-- cobble up, cobble together -->
-    <Synset id="oewn-01629637-v" ili="i29890" members="oewn-cobble_together-v ewn-cobble_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01629637-v" ili="i29890" members="oewn-cobble_together-v oewn-cobble_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put together hastily</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01629175-v"/> <!-- compose, compile -->
     </Synset>
     <!-- anthologize, anthologise -->
-    <Synset id="oewn-01629742-v" ili="i29891" members="oewn-anthologize-v ewn-anthologise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01629742-v" ili="i29891" members="oewn-anthologize-v oewn-anthologise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>compile an anthology</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01629175-v"/> <!-- compose, compile -->
     </Synset>
     <!-- catalogue, catalog -->
-    <Synset id="oewn-01629881-v" ili="i29892" members="oewn-catalogue-v ewn-catalog-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01629881-v" ili="i29892" members="oewn-catalogue-v oewn-catalog-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a catalogue, compile a catalogue</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01629175-v"/> <!-- compose, compile -->
       <Example>She spends her weekends cataloguing</Example>
@@ -7563,7 +7563,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01657416-v"/> <!-- make -->
     </Synset>
     <!-- bring forth, generate -->
-    <Synset id="oewn-01630392-v" ili="i29894" members="oewn-generate-v ewn-bring_forth-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01630392-v" ili="i29894" members="oewn-generate-v oewn-bring_forth-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce, create</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-01630816-v"/> <!-- come up -->
@@ -7608,7 +7608,7 @@
       <Example>the neurons fired fast</Example>
     </Synset>
     <!-- initiate, start, originate -->
-    <Synset id="oewn-01631641-v" ili="i29898" members="oewn-originate-v ewn-initiate-v ewn-start-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01631641-v" ili="i29898" members="oewn-originate-v oewn-initiate-v oewn-start-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bring into being</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00540626-v"/> <!-- initiate, lead up -->
@@ -7624,7 +7624,7 @@
       <Example>set fire to a building</Example>
     </Synset>
     <!-- yield, render, give, return, generate -->
-    <Synset id="oewn-01632192-v" ili="i29900" members="oewn-render-v ewn-yield-v ewn-return-v ewn-give-v ewn-generate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01632192-v" ili="i29900" members="oewn-render-v oewn-yield-v oewn-return-v oewn-give-v oewn-generate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>give or supply</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="similar" target="oewn-01632595-v"/> <!-- yield, give -->
@@ -7634,14 +7634,14 @@
       <Example>The estate renders some revenue for the family</Example>
     </Synset>
     <!-- yield, give -->
-    <Synset id="oewn-01632595-v" ili="i29901" members="oewn-give-v ewn-yield-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01632595-v" ili="i29901" members="oewn-give-v oewn-yield-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to happen or be responsible for</Definition>
       <SynsetRelation relType="similar" target="oewn-01632192-v"/> <!-- yield, render, give, return, generate -->
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <Example>His two singles gave the team the victory</Example>
     </Synset>
     <!-- make for, wreak, bring, play, work -->
-    <Synset id="oewn-01632781-v" ili="i29902" members="oewn-bring-v ewn-work-v ewn-play-v ewn-wreak-v ewn-make_for-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01632781-v" ili="i29902" members="oewn-bring-v oewn-work-v oewn-play-v oewn-wreak-v oewn-make_for-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to happen or to occur as a consequence</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="similar" target="oewn-02531113-v"/> <!-- act, work -->
@@ -7652,7 +7652,7 @@
       <Example>The rain brought relief to the drought-stricken area</Example>
     </Synset>
     <!-- bring up, evoke, conjure, call forth, put forward, call down, arouse, invoke, stir, conjure up, raise -->
-    <Synset id="oewn-01633150-v" ili="i29903" members="oewn-raise-v ewn-conjure-v ewn-conjure_up-v ewn-invoke-v ewn-evoke-v ewn-stir-v ewn-call_down-v ewn-arouse-v ewn-bring_up-v ewn-put_forward-v ewn-call_forth-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01633150-v" ili="i29903" members="oewn-raise-v oewn-conjure-v oewn-conjure_up-v oewn-invoke-v oewn-evoke-v oewn-stir-v oewn-call_down-v oewn-arouse-v oewn-bring_up-v oewn-put_forward-v oewn-call_forth-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>summon into action or bring into existence, often as if by magic</Definition>
       <SynsetRelation relType="similar" target="oewn-01650408-v"/> <!-- evoke, call forth, kick up, provoke -->
       <SynsetRelation relType="hypernym" target="oewn-01633724-v"/> <!-- call up, summon -->
@@ -7663,7 +7663,7 @@
       <Example>call down the spirits from the mountain</Example>
     </Synset>
     <!-- call up, summon -->
-    <Synset id="oewn-01633724-v" ili="in" members="oewn-call_up-v ewn-summon-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01633724-v" ili="in" members="oewn-call_up-v oewn-summon-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to become available for use, either literally or figuratively</Definition>
       <ILIDefinition>cause to become available for use, either literally or figuratively</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
@@ -7673,25 +7673,25 @@
       <Example>running into an old friend summoned up memories of her childhood</Example>
     </Synset>
     <!-- evoke, draw out, extract, elicit, educe -->
-    <Synset id="oewn-01634074-v" ili="i29904" members="oewn-educe-v ewn-evoke-v ewn-elicit-v ewn-extract-v ewn-draw_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01634074-v" ili="i29904" members="oewn-educe-v oewn-evoke-v oewn-elicit-v oewn-extract-v oewn-draw_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>deduce (a principle) or construe (a meaning)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00624823-v"/> <!-- construe, interpret, see -->
       <Example>We drew out some interesting linguistic data from the native informant</Example>
     </Synset>
     <!-- wring from, extort -->
-    <Synset id="oewn-01634293-v" ili="i29905" members="oewn-extort-v ewn-wring_from-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01634293-v" ili="i29905" members="oewn-extort-v oewn-wring_from-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>get or cause to become in a difficult or laborious manner</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02242867-v"/> <!-- obtain -->
       <SynsetRelation relType="hyponym" target="oewn-01634445-v"/> <!-- pry, prise -->
     </Synset>
     <!-- pry, prise -->
-    <Synset id="oewn-01634445-v" ili="i29906" members="oewn-pry-v ewn-prise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01634445-v" ili="i29906" members="oewn-pry-v oewn-prise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make an uninvited or presumptuous inquiry</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01634293-v"/> <!-- wring from, extort -->
       <Example>They pried the information out of him</Example>
     </Synset>
     <!-- renew, regenerate -->
-    <Synset id="oewn-01634614-v" ili="i29907" members="oewn-regenerate-v ewn-renew-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01634614-v" ili="i29907" members="oewn-regenerate-v oewn-renew-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reestablish on a new, usually improved, basis or make new or like new</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <SynsetRelation relType="hyponym" target="oewn-00162496-v"/> <!-- replace -->
@@ -7708,7 +7708,7 @@
       <Example>They renewed their membership</Example>
     </Synset>
     <!-- create by mental act, create mentally -->
-    <Synset id="oewn-01635076-v" ili="i29908" members="oewn-create_by_mental_act-v ewn-create_mentally-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01635076-v" ili="i29908" members="oewn-create_by_mental_act-v oewn-create_mentally-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create mentally and abstractly rather than with one&apos;s hands</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00732743-v"/> <!-- make, draw -->
@@ -7741,13 +7741,13 @@
       <Example>The chemists schematized the various reactions in a coherent fashion</Example>
     </Synset>
     <!-- invent, contrive, forge, formulate, devise, excogitate -->
-    <Synset id="oewn-01635953-v" ili="i29911" members="oewn-invent-v ewn-contrive-v ewn-devise-v ewn-excogitate-v ewn-formulate-v ewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01635953-v" ili="i29911" members="oewn-invent-v oewn-contrive-v oewn-devise-v oewn-excogitate-v oewn-formulate-v oewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>come up with (an idea, plan, explanation, theory, or principle) after a mental effort</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <Example>excogitate a way to measure the speed of light</Example>
     </Synset>
     <!-- project, cast, contrive, throw -->
-    <Synset id="oewn-01636439-v" ili="i29912" members="oewn-project-v ewn-cast-v ewn-contrive-v ewn-throw-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01636439-v" ili="i29912" members="oewn-project-v oewn-cast-v oewn-contrive-v oewn-throw-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put or send forth</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01955339-v"/> <!-- direct, send -->
       <SynsetRelation relType="hyponym" target="oewn-02100325-v"/> <!-- shoot -->
@@ -7763,7 +7763,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06094057-n"/> <!-- chemical science, chemistry -->
     </Synset>
     <!-- conceive, conceptualise, gestate, conceptualize -->
-    <Synset id="oewn-01636885-v" ili="i29914" members="oewn-gestate-v ewn-conceive-v ewn-conceptualize-v ewn-conceptualise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01636885-v" ili="i29914" members="oewn-gestate-v oewn-conceive-v oewn-conceptualize-v oewn-conceptualise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>have the idea for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="hyponym" target="oewn-01637367-v"/> <!-- design -->
@@ -7785,7 +7785,7 @@
       <Example>a preconceived notion</Example>
     </Synset>
     <!-- think of, concoct, dream up, think up, hatch -->
-    <Synset id="oewn-01637684-v" ili="i29917" members="oewn-think_up-v ewn-think_of-v ewn-dream_up-v ewn-hatch-v ewn-concoct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01637684-v" ili="i29917" members="oewn-think_up-v oewn-think_of-v oewn-dream_up-v oewn-hatch-v oewn-concoct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>devise or invent</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="hyponym" target="oewn-00626604-v"/> <!-- idealize, idealise -->
@@ -7794,7 +7794,7 @@
       <Example>no-one had ever thought of such a clever piece of software</Example>
     </Synset>
     <!-- make up, fabricate, invent, cook up, manufacture -->
-    <Synset id="oewn-01637966-v" ili="i29918" members="oewn-fabricate-v ewn-manufacture-v ewn-cook_up-v ewn-make_up-v ewn-invent-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01637966-v" ili="i29918" members="oewn-fabricate-v oewn-manufacture-v oewn-cook_up-v oewn-make_up-v oewn-invent-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>concoct something artificial or untrue</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01637684-v"/> <!-- think of, concoct, dream up, think up, hatch -->
       <SynsetRelation relType="hyponym" target="oewn-01638276-v"/> <!-- mythologize, mythologise -->
@@ -7804,7 +7804,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01743426-v"/> <!-- vamp up, vamp -->
     </Synset>
     <!-- mythologize, mythologise -->
-    <Synset id="oewn-01638276-v" ili="i29919" members="oewn-mythologize-v ewn-mythologise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01638276-v" ili="i29919" members="oewn-mythologize-v oewn-mythologise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>construct a myth</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01637966-v"/> <!-- make up, fabricate, invent, cook up, manufacture -->
       <Example>The poet mythologized that the King had three sons</Example>
@@ -7816,19 +7816,19 @@
       <SynsetRelation relType="domain_topic" target="oewn-06065477-n"/> <!-- psychological medicine, psychiatry, psychopathology -->
     </Synset>
     <!-- concoct, trump up -->
-    <Synset id="oewn-01638598-v" ili="i29921" members="oewn-trump_up-v ewn-concoct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01638598-v" ili="i29921" members="oewn-trump_up-v oewn-concoct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>invent</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01637966-v"/> <!-- make up, fabricate, invent, cook up, manufacture -->
       <Example>trump up charges</Example>
     </Synset>
     <!-- fictionalize, retell, fictionalise -->
-    <Synset id="oewn-01638718-v" ili="i29922" members="oewn-fictionalize-v ewn-fictionalise-v ewn-retell-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01638718-v" ili="i29922" members="oewn-fictionalize-v oewn-fictionalise-v oewn-retell-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make into fiction</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <Example>The writer fictionalized the lives of his parents in his latest novel</Example>
     </Synset>
     <!-- project, fancy, figure, visualize, picture, envision, image, see, visualise -->
-    <Synset id="oewn-01638974-v" ili="i29923" members="oewn-visualize-v ewn-visualise-v ewn-envision-v ewn-project-v ewn-fancy-v ewn-see-v ewn-figure-v ewn-picture-v ewn-image-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01638974-v" ili="i29923" members="oewn-visualize-v oewn-visualise-v oewn-envision-v oewn-project-v oewn-fancy-v oewn-see-v oewn-figure-v oewn-picture-v oewn-image-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>imagine; conceive of; see in one&apos;s mind</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
       <SynsetRelation relType="similar" target="oewn-00592510-v"/> <!-- realise, understand, realize, see -->
@@ -7838,20 +7838,20 @@
       <Example>I can see a risk in this strategy</Example>
     </Synset>
     <!-- visualize, visualise -->
-    <Synset id="oewn-01639550-v" ili="i29924" members="oewn-visualize-v ewn-visualise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01639550-v" ili="i29924" members="oewn-visualize-v oewn-visualise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form a mental picture of something that is invisible or abstract</Definition>
       <SynsetRelation relType="similar" target="oewn-01638974-v"/> <!-- project, fancy, figure, visualize, picture, envision, image, see, visualise -->
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
       <Example>Mathematicians often visualize</Example>
     </Synset>
     <!-- foresee, envision -->
-    <Synset id="oewn-01639763-v" ili="i29925" members="oewn-envision-v ewn-foresee-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01639763-v" ili="i29925" members="oewn-envision-v oewn-foresee-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>picture to oneself; imagine possible</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
       <Example>I cannot envision him as President</Example>
     </Synset>
     <!-- ideate, conceive of, envisage, imagine -->
-    <Synset id="oewn-01639939-v" ili="i29926" members="oewn-imagine-v ewn-conceive_of-v ewn-ideate-v ewn-envisage-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01639939-v" ili="i29926" members="oewn-imagine-v oewn-conceive_of-v oewn-ideate-v oewn-envisage-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form a mental image of something that is not present or that is not the case</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="hyponym" target="oewn-01638974-v"/> <!-- project, fancy, figure, visualize, picture, envision, image, see, visualise -->
@@ -7865,7 +7865,7 @@
       <Example>Can you conceive of him as the president?</Example>
     </Synset>
     <!-- fantasize, fantasise -->
-    <Synset id="oewn-01640401-v" ili="i29927" members="oewn-fantasize-v ewn-fantasise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01640401-v" ili="i29927" members="oewn-fantasize-v oewn-fantasise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>portray in the mind</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
       <Example>he is fantasizing the ideal wife</Example>
@@ -7884,18 +7884,18 @@
       <Example>Think what a scene it must have been!</Example>
     </Synset>
     <!-- fantasize, fantasise, fantasy -->
-    <Synset id="oewn-01640910-v" ili="i29930" members="oewn-fantasy-v ewn-fantasize-v ewn-fantasise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01640910-v" ili="i29930" members="oewn-fantasy-v oewn-fantasize-v oewn-fantasise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>indulge in fantasies</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
       <Example>he is fantasizing when he says he plans to start his own company</Example>
     </Synset>
     <!-- daydream, dream, stargaze, woolgather -->
-    <Synset id="oewn-01641175-v" ili="i29931" members="oewn-dream-v ewn-daydream-v ewn-woolgather-v ewn-stargaze-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01641175-v" ili="i29931" members="oewn-dream-v oewn-daydream-v oewn-woolgather-v oewn-stargaze-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>have a daydream; indulge in a fantasy</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01639939-v"/> <!-- ideate, conceive of, envisage, imagine -->
     </Synset>
     <!-- discover, find -->
-    <Synset id="oewn-01641524-v" ili="i29932" members="oewn-discover-v ewn-find-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01641524-v" ili="i29932" members="oewn-discover-v oewn-find-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a discovery, make a new finding</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01636885-v"/> <!-- conceive, conceptualise, gestate, conceptualize -->
       <SynsetRelation relType="similar" target="oewn-00920843-v"/> <!-- ascertain, determine, find, find out -->
@@ -7904,7 +7904,7 @@
       <Example>Physicists believe they found a new elementary particle</Example>
     </Synset>
     <!-- project, plan, design, contrive -->
-    <Synset id="oewn-01641910-v" ili="i29933" members="oewn-plan-v ewn-project-v ewn-contrive-v ewn-design-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01641910-v" ili="i29933" members="oewn-plan-v oewn-project-v oewn-contrive-v oewn-design-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make or work out a plan for; devise</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="hyponym" target="oewn-01642367-v"/> <!-- plot -->
@@ -7926,7 +7926,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01641910-v"/> <!-- project, plan, design, contrive -->
     </Synset>
     <!-- strike, mint, coin -->
-    <Synset id="oewn-01642647-v" ili="i29936" members="oewn-mint-v ewn-coin-v ewn-strike-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01642647-v" ili="i29936" members="oewn-mint-v oewn-coin-v oewn-strike-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form by stamping, punching, or printing</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01656555-v"/> <!-- create from raw stuff, create from raw material -->
       <Example>strike coins</Example>
@@ -7951,7 +7951,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01027611-v"/> <!-- slip in, sneak in, stick in, insert -->
     </Synset>
     <!-- plan, design -->
-    <Synset id="oewn-01643256-v" ili="i29940" members="oewn-design-v ewn-plan-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01643256-v" ili="i29940" members="oewn-design-v oewn-plan-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a design of; plan out in systematic, often graphic form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="hyponym" target="oewn-00713379-v"/> <!-- engineer -->
@@ -7966,7 +7966,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01643256-v"/> <!-- plan, design -->
     </Synset>
     <!-- make, create -->
-    <Synset id="oewn-01643749-v" ili="i29942" members="oewn-create-v ewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01643749-v" ili="i29942" members="oewn-create-v oewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by artistic means</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-01622033-v"/> <!-- make, do -->
@@ -7988,7 +7988,7 @@
       <Example>Chanel designed the famous suit</Example>
     </Synset>
     <!-- execute, carry out, fulfill, accomplish, carry through, fulfil, action -->
-    <Synset id="oewn-01644397-v" ili="i29944" members="oewn-carry_through-v ewn-accomplish-v ewn-execute-v ewn-carry_out-v ewn-action-v ewn-fulfill-v ewn-fulfil-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01644397-v" ili="i29944" members="oewn-carry_through-v oewn-accomplish-v oewn-execute-v oewn-carry_out-v oewn-action-v oewn-fulfill-v oewn-fulfil-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put in effect</Definition>
       <SynsetRelation relType="similar" target="oewn-00486949-v"/> <!-- follow out, carry out, follow through, put through, implement, follow up, go through with -->
       <SynsetRelation relType="hypernym" target="oewn-00485097-v"/> <!-- finish, complete -->
@@ -8029,7 +8029,7 @@
       <Example>consummate a marriage</Example>
     </Synset>
     <!-- initiate, pioneer -->
-    <Synset id="oewn-01645456-v" ili="i29949" members="oewn-initiate-v ewn-pioneer-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01645456-v" ili="i29949" members="oewn-initiate-v oewn-pioneer-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>take the lead or initiative in; participate in the development of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01649143-v"/> <!-- make, cause, do -->
       <SynsetRelation relType="hyponym" target="oewn-01645853-v"/> <!-- strike up -->
@@ -8050,7 +8050,7 @@
       <Example>strike up a friendship</Example>
     </Synset>
     <!-- innovate, introduce -->
-    <Synset id="oewn-01645979-v" ili="i29951" members="oewn-introduce-v ewn-innovate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01645979-v" ili="i29951" members="oewn-introduce-v oewn-innovate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bring something new to an environment</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
       <SynsetRelation relType="hyponym" target="oewn-01646259-v"/> <!-- phase in -->
@@ -8069,7 +8069,7 @@
       <SynsetRelation relType="hypernym" target="oewn-00353480-v"/> <!-- terminate, end -->
     </Synset>
     <!-- effect, effectuate, set up -->
-    <Synset id="oewn-01646466-v" ili="i29954" members="oewn-effect-v ewn-effectuate-v ewn-set_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01646466-v" ili="i29954" members="oewn-effect-v oewn-effectuate-v oewn-set_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce</Definition>
       <SynsetRelation relType="causes" target="oewn-00340744-v"/> <!-- take place, come about, hap, occur, go on, pass, fall out, happen, pass off -->
       <SynsetRelation relType="hypernym" target="oewn-01649143-v"/> <!-- make, cause, do -->
@@ -8081,7 +8081,7 @@
       <Example>The scientists set up a shock wave</Example>
     </Synset>
     <!-- get, draw -->
-    <Synset id="oewn-01646839-v" ili="i29955" members="oewn-draw-v ewn-get-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01646839-v" ili="i29955" members="oewn-draw-v oewn-get-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>earn or achieve a base by being walked by the pitcher</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01646466-v"/> <!-- effect, effectuate, set up -->
       <SynsetRelation relType="domain_topic" target="oewn-00472688-n"/> <!-- baseball, baseball game, ball -->
@@ -8095,7 +8095,7 @@
       <Example>He spent the day drawing in the garden</Example>
     </Synset>
     <!-- trigger, trip, spark off, trigger off, activate, spark, set off, actuate, touch off -->
-    <Synset id="oewn-01647199-v" ili="i29957" members="oewn-trip-v ewn-actuate-v ewn-trigger-v ewn-activate-v ewn-set_off-v ewn-spark_off-v ewn-spark-v ewn-trigger_off-v ewn-touch_off-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01647199-v" ili="i29957" members="oewn-trip-v oewn-actuate-v oewn-trigger-v oewn-activate-v oewn-set_off-v oewn-spark_off-v oewn-spark-v oewn-trigger_off-v oewn-touch_off-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put in motion or move to act</Definition>
       <SynsetRelation relType="causes" target="oewn-00340744-v"/> <!-- take place, come about, hap, occur, go on, pass, fall out, happen, pass off -->
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
@@ -8103,7 +8103,7 @@
       <Example>actuate the circuits</Example>
     </Synset>
     <!-- induce, bring on -->
-    <Synset id="oewn-01647592-v" ili="i29958" members="oewn-induce-v ewn-bring_on-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01647592-v" ili="i29958" members="oewn-induce-v oewn-bring_on-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to arise</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01630392-v"/> <!-- bring forth, generate -->
       <Example>induce a crisis</Example>
@@ -8120,13 +8120,13 @@
       <Example>The crisis precipitated by Russia&apos;s revolution</Example>
     </Synset>
     <!-- induce, rush, stimulate, hasten -->
-    <Synset id="oewn-01648064-v" ili="i29961" members="oewn-induce-v ewn-stimulate-v ewn-rush-v ewn-hasten-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01648064-v" ili="i29961" members="oewn-induce-v oewn-stimulate-v oewn-rush-v oewn-hasten-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to occur rapidly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01646466-v"/> <!-- effect, effectuate, set up -->
       <Example>the infection precipitated a high fever and allergic reactions</Example>
     </Synset>
     <!-- realise, actualize, substantiate, realize, actualise -->
-    <Synset id="oewn-01648288-v" ili="i29962" members="oewn-realize-v ewn-realise-v ewn-actualize-v ewn-actualise-v ewn-substantiate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01648288-v" ili="i29962" members="oewn-realize-v oewn-realise-v oewn-actualize-v oewn-actualise-v oewn-substantiate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make real or concrete; give reality or substance to</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-01648699-v"/> <!-- incarnate -->
@@ -8144,13 +8144,13 @@
       <SynsetRelation relType="hypernym" target="oewn-00548882-v"/> <!-- unsubstantialize, immaterialise, unsubstantialise, immaterialize -->
     </Synset>
     <!-- open up, pioneer -->
-    <Synset id="oewn-01648963-v" ili="i29965" members="oewn-pioneer-v ewn-open_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01648963-v" ili="i29965" members="oewn-pioneer-v oewn-open_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>open up an area or prepare a way</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645979-v"/> <!-- innovate, introduce -->
       <Example>She pioneered a graduate program for women students</Example>
     </Synset>
     <!-- make, cause, do -->
-    <Synset id="oewn-01649143-v" ili="i29966" members="oewn-cause-v ewn-do-v ewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01649143-v" ili="i29966" members="oewn-cause-v oewn-do-v oewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>give rise to; cause to happen or occur, not always intentionally</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00702806-v"/> <!-- shape, determine, mold, influence, regulate -->
@@ -8196,7 +8196,7 @@
       <Example>The article about the artist inspired the exhibition of his recent work</Example>
     </Synset>
     <!-- evoke, call forth, kick up, provoke -->
-    <Synset id="oewn-01650408-v" ili="i29971" members="oewn-provoke-v ewn-evoke-v ewn-call_forth-v ewn-kick_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01650408-v" ili="i29971" members="oewn-provoke-v oewn-evoke-v oewn-call_forth-v oewn-kick_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>evoke or provoke to appear or occur</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01649143-v"/> <!-- make, cause, do -->
       <SynsetRelation relType="similar" target="oewn-01633150-v"/> <!-- bring up, evoke, conjure, call forth, put forward, call down, arouse, invoke, stir, conjure up, raise -->
@@ -8210,7 +8210,7 @@
       <Example>pick a fight or a quarrel</Example>
     </Synset>
     <!-- constitute, found, establish, institute, plant -->
-    <Synset id="oewn-01650771-v" ili="i29973" members="oewn-establish-v ewn-found-v ewn-plant-v ewn-constitute-v ewn-institute-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01650771-v" ili="i29973" members="oewn-establish-v oewn-found-v oewn-plant-v oewn-constitute-v oewn-institute-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>set up or lay the groundwork for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
       <SynsetRelation relType="hyponym" target="oewn-01651085-v"/> <!-- fix -->
@@ -8224,7 +8224,7 @@
       <Example>Let&apos;s fix the date for the party!</Example>
     </Synset>
     <!-- establish, give -->
-    <Synset id="oewn-01651214-v" ili="i29975" members="oewn-establish-v ewn-give-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01651214-v" ili="i29975" members="oewn-establish-v oewn-give-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bring about</Definition>
       <SynsetRelation relType="similar" target="oewn-01632192-v"/> <!-- yield, render, give, return, generate -->
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
@@ -8239,7 +8239,7 @@
       <Example>The U.N. troops are working to pacify Bosnia</Example>
     </Synset>
     <!-- stage, arrange -->
-    <Synset id="oewn-01651668-v" ili="i29977" members="oewn-stage-v ewn-arrange-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01651668-v" ili="i29977" members="oewn-stage-v oewn-arrange-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>plan, organize, and carry out (an event)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
       <SynsetRelation relType="hyponym" target="oewn-01651915-v"/> <!-- dogfight -->
@@ -8275,7 +8275,7 @@
       <Example>phase a withdrawal</Example>
     </Synset>
     <!-- breed, spawn, engender -->
-    <Synset id="oewn-01652566-v" ili="i29983" members="oewn-engender-v ewn-breed-v ewn-spawn-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01652566-v" ili="i29983" members="oewn-engender-v oewn-breed-v oewn-spawn-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>call forth</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01649143-v"/> <!-- make, cause, do -->
     </Synset>
@@ -8286,7 +8286,7 @@
       <Example>mount a campaign against pornography</Example>
     </Synset>
     <!-- mount, put on -->
-    <Synset id="oewn-01652793-v" ili="i29985" members="oewn-mount-v ewn-put_on-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01652793-v" ili="i29985" members="oewn-mount-v oewn-put_on-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare and supply with the necessary equipment for execution or performance</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01654986-v"/> <!-- organize, organise, machinate, prepare, devise, get up -->
       <SynsetRelation relType="hyponym" target="oewn-01653024-v"/> <!-- rerun -->
@@ -8310,14 +8310,14 @@
       <SynsetRelation relType="hypernym" target="oewn-01728336-v"/> <!-- spiel, play -->
     </Synset>
     <!-- turn in, put on -->
-    <Synset id="oewn-01653351-v" ili="i29989" members="oewn-put_on-v ewn-turn_in-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01653351-v" ili="i29989" members="oewn-put_on-v oewn-turn_in-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>carry out (performances)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <Example>They turned in a splendid effort</Example>
       <Example>They turned in top jobs for the second straight game</Example>
     </Synset>
     <!-- incite, move, motivate, prompt, propel, actuate -->
-    <Synset id="oewn-01653541-v" ili="i29990" members="oewn-motivate-v ewn-actuate-v ewn-propel-v ewn-move-v ewn-prompt-v ewn-incite-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01653541-v" ili="i29990" members="oewn-motivate-v oewn-actuate-v oewn-propel-v oewn-move-v oewn-prompt-v oewn-incite-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>give an incentive for action</Definition>
       <SynsetRelation relType="similar" target="oewn-01771801-v"/> <!-- move, strike, impress, affect -->
       <SynsetRelation relType="similar" target="oewn-01775311-v"/> <!-- move -->
@@ -8325,12 +8325,12 @@
       <Example>This moved me to sacrifice my career</Example>
     </Synset>
     <!-- impel, force -->
-    <Synset id="oewn-01653967-v" ili="i29991" members="oewn-impel-v ewn-force-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01653967-v" ili="i29991" members="oewn-impel-v oewn-force-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>urge or force (a person) to an action; constrain or motivate</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01649143-v"/> <!-- make, cause, do -->
     </Synset>
     <!-- commence, start, embark on, start up -->
-    <Synset id="oewn-01654152-v" ili="i29992" members="oewn-start-v ewn-start_up-v ewn-embark_on-v ewn-commence-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01654152-v" ili="i29992" members="oewn-start-v oewn-start_up-v oewn-embark_on-v oewn-commence-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>get off the ground</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00349400-v"/> <!-- commence, start, lead off, begin -->
       <SynsetRelation relType="hyponym" target="oewn-02400924-v"/> <!-- kick off, inaugurate -->
@@ -8343,7 +8343,7 @@
       <Example>The blood shed started when the partisans launched a surprise attack</Example>
     </Synset>
     <!-- sound off, strike up -->
-    <Synset id="oewn-01654652-v" ili="i29993" members="oewn-sound_off-v ewn-strike_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01654652-v" ili="i29993" members="oewn-sound_off-v oewn-strike_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>start playing</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01728928-v"/> <!-- play -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
@@ -8352,12 +8352,12 @@
       <Example>The musicians struck up a tune</Example>
     </Synset>
     <!-- attempt, undertake, set about -->
-    <Synset id="oewn-01654835-v" ili="i29994" members="oewn-undertake-v ewn-set_about-v ewn-attempt-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01654835-v" ili="i29994" members="oewn-undertake-v oewn-set_about-v oewn-attempt-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>enter upon an activity or enterprise</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
     </Synset>
     <!-- organize, organise, machinate, prepare, devise, get up -->
-    <Synset id="oewn-01654986-v" ili="i29995" members="oewn-organize-v ewn-organise-v ewn-prepare-v ewn-devise-v ewn-get_up-v ewn-machinate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01654986-v" ili="i29995" members="oewn-organize-v oewn-organise-v oewn-prepare-v oewn-devise-v oewn-get_up-v oewn-machinate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>arrange by systematic planning and united effort</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01645456-v"/> <!-- initiate, pioneer -->
       <SynsetRelation relType="hyponym" target="oewn-01652793-v"/> <!-- mount, put on -->
@@ -8379,7 +8379,7 @@
       <Example>lay the foundation for a new health care plan</Example>
     </Synset>
     <!-- turn out, bear -->
-    <Synset id="oewn-01655681-v" ili="i29997" members="oewn-bear-v ewn-turn_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01655681-v" ili="i29997" members="oewn-bear-v oewn-turn_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bring forth</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00345838-v"/> <!-- spin off -->
@@ -8419,7 +8419,7 @@
       <SynsetRelation relType="causes" target="oewn-01656273-v"/> <!-- fruit -->
     </Synset>
     <!-- create from raw stuff, create from raw material -->
-    <Synset id="oewn-01656555-v" ili="i30003" members="oewn-create_from_raw_material-v ewn-create_from_raw_stuff-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01656555-v" ili="i30003" members="oewn-create_from_raw_material-v oewn-create_from_raw_stuff-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make from scratch</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00266967-v"/> <!-- reform -->
@@ -8441,7 +8441,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01759348-v"/> <!-- make -->
     </Synset>
     <!-- fabricate, construct, manufacture -->
-    <Synset id="oewn-01656984-v" ili="i30004" members="oewn-manufacture-v ewn-fabricate-v ewn-construct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01656984-v" ili="i30004" members="oewn-manufacture-v oewn-fabricate-v oewn-construct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put together out of artificial or natural components or parts</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01657416-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="oewn-01628928-v"/> <!-- mass-produce -->
@@ -8470,7 +8470,7 @@
       <Example>raft these logs</Example>
     </Synset>
     <!-- counterfeit, forge, fake -->
-    <Synset id="oewn-01657814-v" ili="i30007" members="oewn-forge-v ewn-fake-v ewn-counterfeit-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01657814-v" ili="i30007" members="oewn-forge-v oewn-fake-v oewn-counterfeit-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a copy of with the intent to deceive</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <Example>he faked the signature</Example>
@@ -8478,7 +8478,7 @@
       <Example>She forged a Green Card</Example>
     </Synset>
     <!-- make, build, construct -->
-    <Synset id="oewn-01658171-v" ili="i30008" members="oewn-construct-v ewn-build-v ewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01658171-v" ili="i30008" members="oewn-construct-v oewn-build-v oewn-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make by combining materials and parts</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00388590-v"/> <!-- customize, customise -->
@@ -8509,7 +8509,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01658171-v"/> <!-- make, build, construct -->
     </Synset>
     <!-- establish, build -->
-    <Synset id="oewn-01659048-v" ili="i30011" members="oewn-build-v ewn-establish-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01659048-v" ili="i30011" members="oewn-build-v oewn-establish-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>build or establish something abstract</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <Example>build a reputation</Example>
@@ -8521,13 +8521,13 @@
       <SynsetRelation relType="domain_topic" target="oewn-00912746-n"/> <!-- construction, building -->
     </Synset>
     <!-- frame up, frame -->
-    <Synset id="oewn-01659306-v" ili="i30013" members="oewn-frame-v ewn-frame_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01659306-v" ili="i30013" members="oewn-frame-v oewn-frame_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>construct by fitting or uniting parts together</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01658171-v"/> <!-- make, build, construct -->
       <SynsetRelation relType="domain_topic" target="oewn-00912746-n"/> <!-- construction, building -->
     </Synset>
     <!-- rebuild, reconstruct -->
-    <Synset id="oewn-01659445-v" ili="i30014" members="oewn-rebuild-v ewn-reconstruct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01659445-v" ili="i30014" members="oewn-rebuild-v oewn-reconstruct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>build again</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01658171-v"/> <!-- make, build, construct -->
       <SynsetRelation relType="domain_topic" target="oewn-00912746-n"/> <!-- construction, building -->
@@ -8548,7 +8548,7 @@
       <Example>Frank Lloyd Wright liked to cantilever his buildings</Example>
     </Synset>
     <!-- pulverise, demolish, pulverize -->
-    <Synset id="oewn-01660001-v" ili="i30017" members="oewn-demolish-v ewn-pulverize-v ewn-pulverise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01660001-v" ili="i30017" members="oewn-demolish-v oewn-pulverize-v oewn-pulverise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>destroy completely</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <Example>the wrecking ball demolished the building</Example>
@@ -8563,7 +8563,7 @@
       <Example>the professor demolished the student&apos;s argument</Example>
     </Synset>
     <!-- piece, tack, tack together, put together, assemble, set up -->
-    <Synset id="oewn-01660471-v" ili="i30018" members="oewn-assemble-v ewn-piece-v ewn-put_together-v ewn-set_up-v ewn-tack-v ewn-tack_together-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01660471-v" ili="i30018" members="oewn-assemble-v oewn-piece-v oewn-put_together-v oewn-set_up-v oewn-tack-v oewn-tack_together-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by putting components or members together</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01297878-v"/> <!-- join -->
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
@@ -8578,7 +8578,7 @@
       <Example>They set up a committee</Example>
     </Synset>
     <!-- mix up, confuse, jumble -->
-    <Synset id="oewn-01660937-v" ili="i30019" members="oewn-jumble-v ewn-confuse-v ewn-mix_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01660937-v" ili="i30019" members="oewn-jumble-v oewn-confuse-v oewn-mix_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>assemble without order or sense</Definition>
       <SynsetRelation relType="similar" target="oewn-00621282-v"/> <!-- confuse, confound -->
       <SynsetRelation relType="hypernym" target="oewn-01660471-v"/> <!-- piece, tack, tack together, put together, assemble, set up -->
@@ -8603,7 +8603,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01660471-v"/> <!-- piece, tack, tack together, put together, assemble, set up -->
     </Synset>
     <!-- disassemble, break apart, dismantle, take apart, break up -->
-    <Synset id="oewn-01661660-v" ili="i30023" members="oewn-disassemble-v ewn-dismantle-v ewn-take_apart-v ewn-break_up-v ewn-break_apart-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01661660-v" ili="i30023" members="oewn-disassemble-v oewn-dismantle-v oewn-take_apart-v oewn-break_up-v oewn-break_apart-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>take apart into its constituent pieces</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <SynsetRelation relType="hyponym" target="oewn-01661889-v"/> <!-- strike -->
@@ -8617,7 +8617,7 @@
       <Example>after the show, we&apos;ll have to strike the set and pack up</Example>
     </Synset>
     <!-- fashion, forge -->
-    <Synset id="oewn-01662082-v" ili="i30024" members="oewn-fashion-v ewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01662082-v" ili="i30024" members="oewn-fashion-v oewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make out of components (often in an improvising manner)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01657416-v"/> <!-- make -->
       <SynsetRelation relType="hyponym" target="oewn-01662338-v"/> <!-- tie -->
@@ -8632,7 +8632,7 @@
       <Example>The fishermen tied their flies</Example>
     </Synset>
     <!-- remodel, reforge, recast -->
-    <Synset id="oewn-01662480-v" ili="i30026" members="oewn-recast-v ewn-reforge-v ewn-remodel-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01662480-v" ili="i30026" members="oewn-recast-v oewn-reforge-v oewn-remodel-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cast or model anew</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622744-v"/> <!-- refashion, redo, make over, remake -->
       <Example>She had to recast her image to please the electorate in her home state</Example>
@@ -8657,7 +8657,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01657416-v"/> <!-- make -->
     </Synset>
     <!-- mould, form, shape, mold, forge, work -->
-    <Synset id="oewn-01663142-v" ili="i30030" members="oewn-shape-v ewn-form-v ewn-work-v ewn-mold-v ewn-mould-v ewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01663142-v" ili="i30030" members="oewn-shape-v oewn-form-v oewn-work-v oewn-mold-v oewn-mould-v oewn-forge-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make something, usually for a specific function</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01656555-v"/> <!-- create from raw stuff, create from raw material -->
       <SynsetRelation relType="hyponym" target="oewn-01258721-v"/> <!-- carve -->
@@ -8723,7 +8723,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
     </Synset>
     <!-- remold, reshape -->
-    <Synset id="oewn-01664764-v" ili="i30037" members="oewn-reshape-v ewn-remold-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01664764-v" ili="i30037" members="oewn-reshape-v oewn-remold-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>shape again or shape differently</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
     </Synset>
@@ -8738,7 +8738,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
     </Synset>
     <!-- rear, set up, put up, erect, raise -->
-    <Synset id="oewn-01665137-v" ili="i30040" members="oewn-raise-v ewn-erect-v ewn-rear-v ewn-set_up-v ewn-put_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01665137-v" ili="i30040" members="oewn-raise-v oewn-erect-v oewn-rear-v oewn-set_up-v oewn-put_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>construct, build, or erect</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01658171-v"/> <!-- make, build, construct -->
       <SynsetRelation relType="domain_topic" target="oewn-00912746-n"/> <!-- construction, building -->
@@ -8757,14 +8757,14 @@
       <Example>Can he rig up a P.A. system?</Example>
     </Synset>
     <!-- raze, dismantle, level, tear down, take down, pull down, rase -->
-    <Synset id="oewn-01665698-v" ili="i30043" members="oewn-level-v ewn-raze-v ewn-rase-v ewn-dismantle-v ewn-tear_down-v ewn-take_down-v ewn-pull_down-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01665698-v" ili="i30043" members="oewn-level-v oewn-raze-v oewn-rase-v oewn-dismantle-v oewn-tear_down-v oewn-take_down-v oewn-pull_down-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>tear down so as to make flat with the ground</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <SynsetRelation relType="hyponym" target="oewn-01578219-v"/> <!-- bulldoze -->
       <Example>The building was levelled</Example>
     </Synset>
     <!-- extirpate, exterminate, eradicate, uproot, root out -->
-    <Synset id="oewn-01666012-v" ili="i30044" members="oewn-uproot-v ewn-eradicate-v ewn-extirpate-v ewn-root_out-v ewn-exterminate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01666012-v" ili="i30044" members="oewn-uproot-v oewn-eradicate-v oewn-extirpate-v oewn-root_out-v oewn-exterminate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>destroy completely, as if down to the roots</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
       <Example>the vestiges of political democracy were soon uprooted</Example>
@@ -8776,13 +8776,13 @@
       <SynsetRelation relType="hypernym" target="oewn-01622948-v"/> <!-- destruct, destroy -->
     </Synset>
     <!-- press out, press -->
-    <Synset id="oewn-01666509-v" ili="i30046" members="oewn-press-v ewn-press_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01666509-v" ili="i30046" members="oewn-press-v oewn-press_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>press from a plastic</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01666666-v"/> <!-- cast, mould, mold -->
       <Example>press a record</Example>
     </Synset>
     <!-- cast, mould, mold -->
-    <Synset id="oewn-01666666-v" ili="i30047" members="oewn-cast-v ewn-mold-v ewn-mould-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01666666-v" ili="i30047" members="oewn-cast-v oewn-mold-v oewn-mould-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form by pouring (e.g., wax or hot metal) into a cast or mold</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
       <SynsetRelation relType="hyponym" target="oewn-01666509-v"/> <!-- press out, press -->
@@ -8791,7 +8791,7 @@
       <Example>cast a bronze sculpture</Example>
     </Synset>
     <!-- remould, remold, recast -->
-    <Synset id="oewn-01667100-v" ili="i30048" members="oewn-recast-v ewn-remold-v ewn-remould-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01667100-v" ili="i30048" members="oewn-recast-v oewn-remold-v oewn-remould-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cast again</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01666666-v"/> <!-- cast, mould, mold -->
       <Example>The bell cracked and had to be recast</Example>
@@ -8808,7 +8808,7 @@
       <Example>she threw a beautiful teapot</Example>
     </Synset>
     <!-- hand-build, coil, handbuild -->
-    <Synset id="oewn-01667475-v" ili="i30051" members="oewn-handbuild-v ewn-hand-build-v ewn-coil-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01667475-v" ili="i30051" members="oewn-handbuild-v oewn-hand-build-v oewn-coil-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make without a potter&apos;s wheel</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
       <Example>This famous potter hand-builds all of her vessels</Example>
@@ -8827,7 +8827,7 @@
       <Example>people have been brewing beer for thousands of years</Example>
     </Synset>
     <!-- make, ready, prepare, cook, fix -->
-    <Synset id="oewn-01668067-v" ili="i30054" members="oewn-cook-v ewn-fix-v ewn-ready-v ewn-make-v ewn-prepare-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01668067-v" ili="i30054" members="oewn-cook-v oewn-fix-v oewn-ready-v oewn-make-v oewn-prepare-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare for eating by applying heat</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01656555-v"/> <!-- create from raw stuff, create from raw material -->
       <SynsetRelation relType="hyponym" target="oewn-00212840-v"/> <!-- keep, preserve -->
@@ -8852,7 +8852,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01668067-v"/> <!-- make, ready, prepare, cook, fix -->
     </Synset>
     <!-- scallop, escallop -->
-    <Synset id="oewn-01668742-v" ili="i30056" members="oewn-scallop-v ewn-escallop-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01668742-v" ili="i30056" members="oewn-scallop-v oewn-escallop-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bake in a sauce, milk, etc., often with breadcrumbs on top</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01668067-v"/> <!-- make, ready, prepare, cook, fix -->
     </Synset>
@@ -8903,20 +8903,20 @@
       <Example>precook the rice</Example>
     </Synset>
     <!-- whip up, whomp up -->
-    <Synset id="oewn-01669897-v" ili="i30064" members="oewn-whip_up-v ewn-whomp_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01669897-v" ili="i30064" members="oewn-whip_up-v oewn-whomp_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare or cook quickly or hastily</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01668067-v"/> <!-- make, ready, prepare, cook, fix -->
       <SynsetRelation relType="domain_topic" target="oewn-00244785-n"/> <!-- cookery, preparation, cooking -->
     </Synset>
     <!-- concoct, cook up -->
-    <Synset id="oewn-01670026-v" ili="i30065" members="oewn-concoct-v ewn-cook_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01670026-v" ili="i30065" members="oewn-concoct-v oewn-cook_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare or cook by mixing ingredients</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01668067-v"/> <!-- make, ready, prepare, cook, fix -->
       <SynsetRelation relType="domain_topic" target="oewn-00244785-n"/> <!-- cookery, preparation, cooking -->
       <Example>concoct a strange mixture</Example>
     </Synset>
     <!-- tailor-make, tailor, sew -->
-    <Synset id="oewn-01670222-v" ili="i30066" members="oewn-sew-v ewn-tailor-v ewn-tailor-make-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01670222-v" ili="i30066" members="oewn-sew-v oewn-tailor-v oewn-tailor-make-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create (clothes) with cloth</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01662082-v"/> <!-- fashion, forge -->
       <SynsetRelation relType="hyponym" target="oewn-01670499-v"/> <!-- run up -->
@@ -8933,7 +8933,7 @@
       <Example>run up a skirt</Example>
     </Synset>
     <!-- cut, tailor -->
-    <Synset id="oewn-01670612-v" ili="i30068" members="oewn-cut-v ewn-tailor-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01670612-v" ili="i30068" members="oewn-cut-v oewn-tailor-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>style and tailor in a certain fashion</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01644092-v"/> <!-- design -->
       <SynsetRelation relType="domain_topic" target="oewn-05758654-n"/> <!-- fashion -->
@@ -8971,7 +8971,7 @@
       <Example>quilt the skirt</Example>
     </Synset>
     <!-- broider, embroider -->
-    <Synset id="oewn-01671502-v" ili="i30073" members="oewn-embroider-v ewn-broider-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01671502-v" ili="i30073" members="oewn-embroider-v oewn-broider-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with needlework</Definition>
       <SynsetRelation relType="entails" target="oewn-01331921-v"/> <!-- run up, sew together, stitch, sew -->
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
@@ -8980,7 +8980,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01672173-v"/> <!-- purl -->
     </Synset>
     <!-- faggot, fagot -->
-    <Synset id="oewn-01671711-v" ili="i30074" members="oewn-faggot-v ewn-fagot-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01671711-v" ili="i30074" members="oewn-faggot-v oewn-fagot-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>ornament or join (fabric) by faggot stitch</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01671502-v"/> <!-- broider, embroider -->
       <Example>He fagotted the blouse for his wife</Example>
@@ -9010,7 +9010,7 @@
       <Example>illustrate a book with drawings</Example>
     </Synset>
     <!-- process, work on, work -->
-    <Synset id="oewn-01672498-v" ili="i30079" members="oewn-work-v ewn-work_on-v ewn-process-v-1" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01672498-v" ili="i30079" members="oewn-work-v oewn-work_on-v oewn-process-v-1" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>shape, form, or improve a material</Definition>
       <SynsetRelation relType="similar" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
       <SynsetRelation relType="hypernym" target="oewn-00383306-v"/> <!-- transform, transubstantiate, transmute -->
@@ -9031,7 +9031,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01672498-v"/> <!-- process, work on, work -->
     </Synset>
     <!-- coldwork, cold work -->
-    <Synset id="oewn-01672965-v" ili="i30081" members="oewn-coldwork-v ewn-cold_work-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01672965-v" ili="i30081" members="oewn-coldwork-v oewn-cold_work-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>shape (metal) without heat</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01672498-v"/> <!-- process, work on, work -->
     </Synset>
@@ -9042,7 +9042,7 @@
       <Example>This play has been overworked</Example>
     </Synset>
     <!-- make over, rework, retread -->
-    <Synset id="oewn-01673180-v" ili="i30083" members="oewn-rework-v ewn-make_over-v ewn-retread-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01673180-v" ili="i30083" members="oewn-rework-v oewn-make_over-v oewn-retread-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>use again in altered form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01672498-v"/> <!-- process, work on, work -->
       <Example>retread an old plot</Example>
@@ -9066,13 +9066,13 @@
       <Example>They garlanded the statue</Example>
     </Synset>
     <!-- fledge, flight -->
-    <Synset id="oewn-01673687-v" ili="i30087" members="oewn-fledge-v ewn-flight-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01673687-v" ili="i30087" members="oewn-fledge-v oewn-flight-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with feathers</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <Example>fledge an arrow</Example>
     </Synset>
     <!-- bespangle, spangle -->
-    <Synset id="oewn-01673801-v" ili="i30088" members="oewn-spangle-v ewn-bespangle-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01673801-v" ili="i30088" members="oewn-spangle-v oewn-bespangle-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with spangles</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <Example>the star-spangled banner</Example>
@@ -9089,7 +9089,7 @@
       <Example>the building was flagged for the holiday</Example>
     </Synset>
     <!-- dress up, caparison, barde, bard -->
-    <Synset id="oewn-01674210-v" ili="i30091" members="oewn-caparison-v ewn-bard-v ewn-barde-v ewn-dress_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01674210-v" ili="i30091" members="oewn-caparison-v oewn-bard-v oewn-barde-v oewn-dress_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put a caparison on</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <Example>caparison the horses for the festive occasion</Example>
@@ -9161,14 +9161,14 @@
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- knit, entwine -->
-    <Synset id="oewn-01675909-v" ili="i30102" members="oewn-knit-v ewn-entwine-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01675909-v" ili="i30102" members="oewn-knit-v oewn-entwine-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>tie or link together</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01293672-v"/> <!-- join, conjoin -->
       <SynsetRelation relType="hyponym" target="oewn-01675780-v"/> <!-- purl stitch -->
       <SynsetRelation relType="hyponym" target="oewn-01677367-v"/> <!-- intertwine, loop -->
     </Synset>
     <!-- net, web -->
-    <Synset id="oewn-01676063-v" ili="i30103" members="oewn-web-v ewn-net-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01676063-v" ili="i30103" members="oewn-web-v oewn-net-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>construct or form a web, as if by weaving</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01677786-v"/> <!-- weave, tissue -->
     </Synset>
@@ -9179,7 +9179,7 @@
       <Example>materials loomed in Egypt</Example>
     </Synset>
     <!-- crochet, hook -->
-    <Synset id="oewn-01676385-v" ili="i30105" members="oewn-crochet-v ewn-hook-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01676385-v" ili="i30105" members="oewn-crochet-v oewn-hook-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a piece of needlework by interlocking and looping thread with a hooked needle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01677367-v"/> <!-- intertwine, loop -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
@@ -9204,19 +9204,19 @@
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- double crochet, double stitch -->
-    <Synset id="oewn-01677032-v" ili="i30108" members="oewn-double_crochet-v ewn-double_stitch-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01677032-v" ili="i30108" members="oewn-double_crochet-v oewn-double_stitch-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make by double stitching</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01676648-v"/> <!-- crochet -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- single crochet, single stitch -->
-    <Synset id="oewn-01677200-v" ili="i30109" members="oewn-single_crochet-v ewn-single_stitch-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01677200-v" ili="i30109" members="oewn-single_crochet-v oewn-single_stitch-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make by single stitching</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01676648-v"/> <!-- crochet -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- intertwine, loop -->
-    <Synset id="oewn-01677367-v" ili="i30110" members="oewn-loop-v ewn-intertwine-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01677367-v" ili="i30110" members="oewn-loop-v oewn-intertwine-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a loop in</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01675909-v"/> <!-- knit, entwine -->
       <SynsetRelation relType="hyponym" target="oewn-01676385-v"/> <!-- crochet, hook -->
@@ -9237,7 +9237,7 @@
       <Example>She knotted her fingers</Example>
     </Synset>
     <!-- weave, tissue -->
-    <Synset id="oewn-01677786-v" ili="i30113" members="oewn-weave-v ewn-tissue-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01677786-v" ili="i30113" members="oewn-weave-v oewn-tissue-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create a piece of cloth by interlacing strands of fabric, such as wool or cotton</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01656555-v"/> <!-- create from raw stuff, create from raw material -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
@@ -9263,14 +9263,14 @@
       <Example>The Flemish women were lacing in front of the cathedral</Example>
     </Synset>
     <!-- tat, intertwine -->
-    <Synset id="oewn-01678439-v" ili="i30116" members="oewn-tat-v ewn-intertwine-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01678439-v" ili="i30116" members="oewn-tat-v oewn-intertwine-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make lacework by knotting or looping</Definition>
       <SynsetRelation relType="entails" target="oewn-01677627-v"/> <!-- knot -->
       <SynsetRelation relType="hypernym" target="oewn-01656555-v"/> <!-- create from raw stuff, create from raw material -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- lace, braid, plait -->
-    <Synset id="oewn-01678612-v" ili="i30117" members="oewn-braid-v ewn-lace-v ewn-plait-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01678612-v" ili="i30117" members="oewn-braid-v oewn-lace-v oewn-plait-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make by braiding or interlacing</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01677786-v"/> <!-- weave, tissue -->
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
@@ -9290,7 +9290,7 @@
       <Example>strike a match</Example>
     </Synset>
     <!-- hammer, forge -->
-    <Synset id="oewn-01679140-v" ili="i30120" members="oewn-forge-v ewn-hammer-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01679140-v" ili="i30120" members="oewn-forge-v oewn-hammer-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by hammering</Definition>
       <SynsetRelation relType="similar" target="oewn-01419193-v"/> <!-- hammer -->
       <SynsetRelation relType="hypernym" target="oewn-01627934-v"/> <!-- beat -->
@@ -9312,14 +9312,14 @@
       <Example>drop-force the metal</Example>
     </Synset>
     <!-- extrude, squeeze out -->
-    <Synset id="oewn-01679675-v" ili="i30123" members="oewn-extrude-v ewn-squeeze_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01679675-v" ili="i30123" members="oewn-extrude-v oewn-squeeze_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form or shape by forcing through an opening</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="is_entailed_by" target="oewn-01642906-v"/> <!-- spin -->
       <Example>extrude steel</Example>
     </Synset>
     <!-- decorate, ornament, grace, adorn, beautify, embellish -->
-    <Synset id="oewn-01679858-v" ili="i30124" members="oewn-decorate-v ewn-adorn-v ewn-grace-v ewn-ornament-v ewn-embellish-v ewn-beautify-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01679858-v" ili="i30124" members="oewn-decorate-v oewn-adorn-v oewn-grace-v oewn-ornament-v oewn-embellish-v oewn-beautify-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make more attractive by adding ornament, colour, etc.</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00126072-v"/> <!-- modify, alter, change -->
       <SynsetRelation relType="hyponym" target="oewn-01519687-v"/> <!-- wreathe -->
@@ -9371,7 +9371,7 @@
       <Example>beautify yourself for the special day</Example>
     </Synset>
     <!-- paint the lily, gild the lily -->
-    <Synset id="oewn-01681137-v" ili="i30125" members="oewn-gild_the_lily-v ewn-paint_the_lily-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01681137-v" ili="i30125" members="oewn-gild_the_lily-v oewn-paint_the_lily-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>adorn unnecessarily (something that is already beautiful)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
     </Synset>
@@ -9428,13 +9428,13 @@
       <Example>panel the walls with wood</Example>
     </Synset>
     <!-- bejewel, jewel -->
-    <Synset id="oewn-01682580-v" ili="i30135" members="oewn-bejewel-v ewn-jewel-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01682580-v" ili="i30135" members="oewn-bejewel-v oewn-jewel-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>adorn or decorate with precious stones</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <Example>jeweled dresses</Example>
     </Synset>
     <!-- fillet, filet -->
-    <Synset id="oewn-01682852-v" ili="i30136" members="oewn-fillet-v ewn-filet-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01682852-v" ili="i30136" members="oewn-fillet-v oewn-filet-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with a lace of geometric designs</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
     </Synset>
@@ -9455,7 +9455,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
     </Synset>
     <!-- trim, garnish, dress -->
-    <Synset id="oewn-01683328-v" ili="i30140" members="oewn-trim-v ewn-garnish-v ewn-dress-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01683328-v" ili="i30140" members="oewn-trim-v oewn-garnish-v oewn-dress-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate (food), as with parsley or other ornamental foods</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <SynsetRelation relType="similar" target="oewn-00543889-v"/> <!-- dress, dress out -->
@@ -9476,7 +9476,7 @@
       <Example>trim a shop window</Example>
     </Synset>
     <!-- bedeck, bedight, deck -->
-    <Synset id="oewn-01683875-v" ili="i30143" members="oewn-deck-v ewn-bedight-v ewn-bedeck-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01683875-v" ili="i30143" members="oewn-deck-v oewn-bedight-v oewn-bedeck-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <SynsetRelation relType="hyponym" target="oewn-01684027-v"/> <!-- plume -->
@@ -9495,7 +9495,7 @@
       <Example>The public buildings were festooned for the holiday</Example>
     </Synset>
     <!-- carnalize, sensualize -->
-    <Synset id="oewn-01684368-v" ili="i30146" members="oewn-sensualize-v ewn-carnalize-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01684368-v" ili="i30146" members="oewn-sensualize-v oewn-carnalize-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent materialistically, as in a painting or a sculpture</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
     </Synset>
@@ -9505,7 +9505,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
     </Synset>
     <!-- animalize, animalise -->
-    <Synset id="oewn-01684651-v" ili="i30148" members="oewn-animalize-v ewn-animalise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01684651-v" ili="i30148" members="oewn-animalize-v oewn-animalise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent in the form of an animal</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
     </Synset>
@@ -9597,7 +9597,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00716196-n"/> <!-- handicraft -->
     </Synset>
     <!-- engild, begild, gild -->
-    <Synset id="oewn-01686996-v" ili="i30163" members="oewn-gild-v ewn-begild-v ewn-engild-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01686996-v" ili="i30163" members="oewn-gild-v oewn-begild-v oewn-engild-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with, or as if with, gold leaf or liquid gold</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
     </Synset>
@@ -9614,7 +9614,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- draft, draught, blueprint -->
-    <Synset id="oewn-01687477-v" ili="i30166" members="oewn-blueprint-v ewn-draft-v ewn-draught-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01687477-v" ili="i30166" members="oewn-blueprint-v oewn-draft-v oewn-draught-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a blueprint of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01643256-v"/> <!-- plan, design -->
     </Synset>
@@ -9627,20 +9627,20 @@
       <SynsetRelation relType="hyponym" target="oewn-01687852-v"/> <!-- rubricate, miniate -->
     </Synset>
     <!-- rubricate, miniate -->
-    <Synset id="oewn-01687852-v" ili="i30168" members="oewn-miniate-v ewn-rubricate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01687852-v" ili="i30168" members="oewn-miniate-v oewn-rubricate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate (manuscripts) with letters painted red</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01687653-v"/> <!-- illuminate -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
       <Example>In this beautiful book, all the place names are rubricated</Example>
     </Synset>
     <!-- emblazon, blazon -->
-    <Synset id="oewn-01688075-v" ili="i30169" members="oewn-emblazon-v ewn-blazon-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01688075-v" ili="i30169" members="oewn-emblazon-v oewn-blazon-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with heraldic arms</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- sculpt, sculpture -->
-    <Synset id="oewn-01688232-v" ili="i30170" members="oewn-sculpt-v ewn-sculpture-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01688232-v" ili="i30170" members="oewn-sculpt-v oewn-sculpture-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by shaping stone or wood or any other hard material</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9705,7 +9705,7 @@
       <Example>charge all weapons, shields, and banners</Example>
     </Synset>
     <!-- represent, interpret -->
-    <Synset id="oewn-01690027-v" ili="i30177" members="oewn-represent-v ewn-interpret-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01690027-v" ili="i30177" members="oewn-represent-v oewn-interpret-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create an image or likeness of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9740,7 +9740,7 @@
       <Example>The author recaptures an old idea here</Example>
     </Synset>
     <!-- picture, render, depict, show -->
-    <Synset id="oewn-01690851-v" ili="i30180" members="oewn-picture-v ewn-depict-v ewn-render-v ewn-show-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01690851-v" ili="i30180" members="oewn-picture-v oewn-depict-v oewn-render-v oewn-show-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>show in, or as in, a picture</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9756,7 +9756,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- stylise, conventionalize, stylize -->
-    <Synset id="oewn-01691464-v" ili="i30182" members="oewn-stylize-v ewn-stylise-v ewn-conventionalize-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01691464-v" ili="i30182" members="oewn-stylize-v oewn-stylise-v oewn-conventionalize-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent according to a conventional style</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9779,7 +9779,7 @@
       <Example>sorrow was mapped on the mother&apos;s face</Example>
     </Synset>
     <!-- portray, depict, limn -->
-    <Synset id="oewn-01692151-v" ili="i30185" members="oewn-portray-v ewn-depict-v ewn-limn-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01692151-v" ili="i30185" members="oewn-portray-v oewn-depict-v oewn-limn-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a portrait of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9793,7 +9793,7 @@
       <Example>he penciled a figure</Example>
     </Synset>
     <!-- present, portray -->
-    <Synset id="oewn-01692666-v" ili="i30187" members="oewn-portray-v ewn-present-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01692666-v" ili="i30187" members="oewn-portray-v oewn-present-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent abstractly, for example in a painting, drawing, or sculpture</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -9807,7 +9807,7 @@
       <Example>His paintings commend him to the artistic world</Example>
     </Synset>
     <!-- outline, delineate, limn -->
-    <Synset id="oewn-01693274-v" ili="i30189" members="oewn-delineate-v ewn-limn-v ewn-outline-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01693274-v" ili="i30189" members="oewn-delineate-v oewn-limn-v oewn-outline-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>trace the shape of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
       <SynsetRelation relType="hyponym" target="oewn-01693484-v"/> <!-- lipstick -->
@@ -9924,7 +9924,7 @@
       <Example>superscribe one&apos;s name and address</Example>
     </Synset>
     <!-- capitalise, capitalize -->
-    <Synset id="oewn-01696161-v" ili="i30204" members="oewn-capitalize-v ewn-capitalise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01696161-v" ili="i30204" members="oewn-capitalize-v oewn-capitalise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write in capital letters</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694952-v"/> <!-- write -->
     </Synset>
@@ -9950,7 +9950,7 @@
       <Example>She writes code faster than anybody else</Example>
     </Synset>
     <!-- checker, chequer, check -->
-    <Synset id="oewn-01696873-v" ili="i30209" members="oewn-check-v ewn-checker-v ewn-chequer-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01696873-v" ili="i30209" members="oewn-check-v oewn-checker-v oewn-chequer-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>mark into squares or draw squares on; draw crossed lines on</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
     </Synset>
@@ -9968,7 +9968,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
     </Synset>
     <!-- plot, diagram -->
-    <Synset id="oewn-01697348-v" ili="i30212" members="oewn-diagram-v ewn-plot-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01697348-v" ili="i30212" members="oewn-diagram-v oewn-plot-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a schematic or technical drawing that shows interactions among variables or how something is constructed</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
       <SynsetRelation relType="hyponym" target="oewn-01759135-v"/> <!-- graph -->
@@ -9980,7 +9980,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- re-create, copy -->
-    <Synset id="oewn-01697776-v" ili="i30214" members="oewn-copy-v ewn-re-create-v ewn-recreate-v-1" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01697776-v" ili="i30214" members="oewn-copy-v oewn-re-create-v oewn-recreate-v-1" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a replica of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00248588-v"/> <!-- manifold -->
@@ -10032,7 +10032,7 @@
       <Example>The child had to recopy the homework</Example>
     </Synset>
     <!-- mimeograph, mimeo -->
-    <Synset id="oewn-01699152-v" ili="i30221" members="oewn-mimeograph-v ewn-mimeo-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01699152-v" ili="i30221" members="oewn-mimeograph-v oewn-mimeo-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>print copies from (a prepared stencil) using a mimeograph</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01697776-v"/> <!-- re-create, copy -->
       <Example>She mimeographed the syllabus</Example>
@@ -10043,7 +10043,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01697776-v"/> <!-- re-create, copy -->
     </Synset>
     <!-- shade, fill in -->
-    <Synset id="oewn-01699462-v" ili="i30223" members="oewn-shade-v ewn-fill_in-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01699462-v" ili="i30223" members="oewn-shade-v oewn-fill_in-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent the effect of shade or shadow on</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
       <SynsetRelation relType="hypernym" target="oewn-01688794-v"/> <!-- paint -->
@@ -10063,7 +10063,7 @@
       <Example>the draftsman crosshatched the area</Example>
     </Synset>
     <!-- streak, blotch, mottle -->
-    <Synset id="oewn-01700030-v" ili="i30226" members="oewn-mottle-v ewn-streak-v ewn-blotch-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01700030-v" ili="i30226" members="oewn-mottle-v oewn-streak-v oewn-blotch-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>mark with spots or blotches of different color or shades of color as if stained</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00284671-v"/> <!-- colourize, colour in, color, colorize, colour, colourise, color in, colorise -->
     </Synset>
@@ -10073,13 +10073,13 @@
       <SynsetRelation relType="hypernym" target="oewn-00286768-v"/> <!-- stain -->
     </Synset>
     <!-- watercolour, watercolor -->
-    <Synset id="oewn-01700330-v" ili="i30228" members="oewn-watercolour-v ewn-watercolor-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01700330-v" ili="i30228" members="oewn-watercolour-v oewn-watercolor-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>paint with watercolors</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01688794-v"/> <!-- paint -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- emblazon, color, colour -->
-    <Synset id="oewn-01700543-v" ili="i30229" members="oewn-color-v ewn-colour-v ewn-emblazon-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01700543-v" ili="i30229" members="oewn-color-v oewn-colour-v oewn-emblazon-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>decorate with colors</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01679858-v"/> <!-- decorate, ornament, grace, adorn, beautify, embellish -->
       <SynsetRelation relType="hyponym" target="oewn-01700788-v"/> <!-- miniate -->
@@ -10092,20 +10092,20 @@
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- mould, model, mold -->
-    <Synset id="oewn-01700922-v" ili="i30231" members="oewn-model-v ewn-mold-v ewn-mould-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01700922-v" ili="i30231" members="oewn-model-v oewn-mold-v oewn-mould-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form in clay, wax, etc</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01663142-v"/> <!-- mould, form, shape, mold, forge, work -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
       <Example>model a head with clay</Example>
     </Synset>
     <!-- model, mock up -->
-    <Synset id="oewn-01701301-v" ili="i30232" members="oewn-model-v ewn-mock_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01701301-v" ili="i30232" members="oewn-model-v oewn-mock_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>construct a model in the likeness of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <Example>model an airplane</Example>
     </Synset>
     <!-- sketch, chalk out -->
-    <Synset id="oewn-01701523-v" ili="i30233" members="oewn-sketch-v ewn-chalk_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01701523-v" ili="i30233" members="oewn-sketch-v oewn-chalk_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a sketch of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694189-v"/> <!-- draw -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -10132,7 +10132,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01701863-v"/> <!-- coin -->
     </Synset>
     <!-- write, indite, compose, pen -->
-    <Synset id="oewn-01702148-v" ili="i30237" members="oewn-write-v ewn-compose-v ewn-pen-v ewn-indite-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01702148-v" ili="i30237" members="oewn-write-v oewn-compose-v oewn-pen-v oewn-indite-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce a literary work</Definition>
       <SynsetRelation relType="entails" target="oewn-01703755-v"/> <!-- write, spell -->
       <SynsetRelation relType="hypernym" target="oewn-01701711-v"/> <!-- create verbally -->
@@ -10172,7 +10172,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-07107220-n"/> <!-- poetry, verse, poesy -->
     </Synset>
     <!-- write on, write about, write of -->
-    <Synset id="oewn-01703031-v" ili="i30240" members="oewn-write_on-v ewn-write_of-v ewn-write_about-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01703031-v" ili="i30240" members="oewn-write_on-v oewn-write_of-v oewn-write_about-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write about a particular topic</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
@@ -10198,7 +10198,7 @@
       <Example>All her friends were paragraphed in last Monday&apos;s paper</Example>
     </Synset>
     <!-- write, spell -->
-    <Synset id="oewn-01703755-v" ili="i30244" members="oewn-spell-v ewn-write-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01703755-v" ili="i30244" members="oewn-spell-v oewn-write-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write or name the letters that comprise the conventionally accepted form of (a word or part of a word)</Definition>
       <SynsetRelation relType="hyponym" target="oewn-01704008-v"/> <!-- spell out -->
       <SynsetRelation relType="hyponym" target="oewn-01704185-v"/> <!-- hyphenate, hyphen -->
@@ -10212,7 +10212,7 @@
       <Example>Can you spell out your middle name instead of just giving the initial?</Example>
     </Synset>
     <!-- hyphenate, hyphen -->
-    <Synset id="oewn-01704185-v" ili="i30246" members="oewn-hyphenate-v ewn-hyphen-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01704185-v" ili="i30246" members="oewn-hyphenate-v oewn-hyphen-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>divide or connect with a hyphen</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01703755-v"/> <!-- write, spell -->
       <Example>hyphenate these words and names</Example>
@@ -10223,7 +10223,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
     </Synset>
     <!-- dash off, toss off, knock off, scratch off, fling off -->
-    <Synset id="oewn-01704514-v" ili="i30248" members="oewn-dash_off-v ewn-scratch_off-v ewn-knock_off-v ewn-toss_off-v ewn-fling_off-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01704514-v" ili="i30248" members="oewn-dash_off-v oewn-scratch_off-v oewn-knock_off-v oewn-toss_off-v oewn-fling_off-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write quickly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
@@ -10245,21 +10245,21 @@
       <Example>She writes copy for Harper&apos;s Bazaar</Example>
     </Synset>
     <!-- dramatise, adopt, dramatize -->
-    <Synset id="oewn-01705170-v" ili="i30251" members="oewn-dramatize-v ewn-dramatise-v ewn-adopt-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01705170-v" ili="i30251" members="oewn-dramatize-v oewn-dramatise-v oewn-adopt-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put into dramatic form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
       <Example>adopt a book for a screenplay</Example>
     </Synset>
     <!-- outline, draft -->
-    <Synset id="oewn-01705493-v" ili="i30252" members="oewn-draft-v ewn-outline-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01705493-v" ili="i30252" members="oewn-draft-v oewn-outline-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>draw up an outline or sketch for something</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
       <Example>draft a speech</Example>
     </Synset>
     <!-- rime, rhyme -->
-    <Synset id="oewn-01705717-v" ili="i30253" members="oewn-rhyme-v ewn-rime-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01705717-v" ili="i30253" members="oewn-rhyme-v oewn-rime-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>compose rhymes</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01701711-v"/> <!-- create verbally -->
       <SynsetRelation relType="domain_topic" target="oewn-07107220-n"/> <!-- poetry, verse, poesy -->
@@ -10285,7 +10285,7 @@
       <Example>Japanese like to pun--their language is well suited to punning</Example>
     </Synset>
     <!-- poetize, poetise, versify, verse -->
-    <Synset id="oewn-01706373-v" ili="i30257" members="oewn-verse-v ewn-versify-v ewn-poetize-v ewn-poetise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01706373-v" ili="i30257" members="oewn-verse-v oewn-versify-v oewn-poetize-v oewn-poetise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>compose verses or put into verse</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-07107220-n"/> <!-- poetry, verse, poesy -->
@@ -10303,20 +10303,20 @@
       <Example>The bard metrified his poems very precisely</Example>
     </Synset>
     <!-- spondaise, spondaize -->
-    <Synset id="oewn-01707054-v" ili="i30259" members="oewn-spondaize-v ewn-spondaise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01707054-v" ili="i30259" members="oewn-spondaize-v oewn-spondaise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make spondaic</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01706373-v"/> <!-- poetize, poetise, versify, verse -->
       <SynsetRelation relType="domain_topic" target="oewn-07107220-n"/> <!-- poetry, verse, poesy -->
       <Example>spondaize verses</Example>
     </Synset>
     <!-- elegize, elegise -->
-    <Synset id="oewn-01707185-v" ili="i30260" members="oewn-elegize-v ewn-elegise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01707185-v" ili="i30260" members="oewn-elegize-v oewn-elegise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>compose an elegy</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01706373-v"/> <!-- poetize, poetise, versify, verse -->
       <SynsetRelation relType="domain_topic" target="oewn-07107220-n"/> <!-- poetry, verse, poesy -->
     </Synset>
     <!-- retell, recite -->
-    <Synset id="oewn-01707313-v" ili="i30261" members="oewn-recite-v ewn-retell-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01707313-v" ili="i30261" members="oewn-recite-v oewn-retell-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>render verbally</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <Example>recite a poem</Example>
@@ -10341,7 +10341,7 @@
       <Example>She was serenaded by her admirers</Example>
     </Synset>
     <!-- belt, belt out -->
-    <Synset id="oewn-01707889-v" ili="i30265" members="oewn-belt_out-v ewn-belt-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01707889-v" ili="i30265" members="oewn-belt_out-v oewn-belt-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing loudly and forcefully</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
     </Synset>
@@ -10351,7 +10351,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
     </Synset>
     <!-- vocalise, vocalize -->
-    <Synset id="oewn-01708095-v" ili="i30267" members="oewn-vocalize-v ewn-vocalise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01708095-v" ili="i30267" members="oewn-vocalize-v oewn-vocalise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing (each note a scale or in a melody) with the same vowel</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
     </Synset>
@@ -10371,28 +10371,28 @@
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
     </Synset>
     <!-- ghost, ghostwrite -->
-    <Synset id="oewn-01708611-v" ili="i30270" members="oewn-ghost-v ewn-ghostwrite-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01708611-v" ili="i30270" members="oewn-ghost-v oewn-ghostwrite-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write for someone else</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01708311-v"/> <!-- author -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
       <Example>How many books have you ghostwritten so far?</Example>
     </Synset>
     <!-- footnote, annotate -->
-    <Synset id="oewn-01708812-v" ili="i30271" members="oewn-annotate-v ewn-footnote-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01708812-v" ili="i30271" members="oewn-annotate-v oewn-footnote-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>add explanatory notes to or supply with critical comments</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
       <Example>The scholar annotated the early edition of a famous novel</Example>
     </Synset>
     <!-- reference, cite -->
-    <Synset id="oewn-01709116-v" ili="i30272" members="oewn-reference-v ewn-cite-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01709116-v" ili="i30272" members="oewn-reference-v oewn-cite-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>refer to</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
       <Example>he referenced his colleagues&apos; work</Example>
     </Synset>
     <!-- write, compose -->
-    <Synset id="oewn-01709353-v" ili="i30273" members="oewn-compose-v ewn-write-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01709353-v" ili="i30273" members="oewn-compose-v oewn-write-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write music</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
@@ -10419,7 +10419,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
     </Synset>
     <!-- arrange, set -->
-    <Synset id="oewn-01709988-v" ili="i30276" members="oewn-arrange-v ewn-set-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01709988-v" ili="i30276" members="oewn-arrange-v oewn-set-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>adapt for performance in a different way</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01709353-v"/> <!-- write, compose -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
@@ -10450,13 +10450,13 @@
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
     </Synset>
     <!-- melodise, melodize -->
-    <Synset id="oewn-01710615-v" ili="i30280" members="oewn-melodize-v ewn-melodise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01710615-v" ili="i30280" members="oewn-melodize-v oewn-melodise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>supply a melody for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01709353-v"/> <!-- write, compose -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
     </Synset>
     <!-- harmonise, harmonize -->
-    <Synset id="oewn-01710748-v" ili="i30281" members="oewn-harmonize-v ewn-harmonise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01710748-v" ili="i30281" members="oewn-harmonize-v oewn-harmonise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing or play in harmony</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
@@ -10464,14 +10464,14 @@
       <SynsetRelation relType="domain_topic" target="oewn-05726882-n"/> <!-- music -->
     </Synset>
     <!-- reharmonize, reharmonise -->
-    <Synset id="oewn-01710987-v" ili="i30282" members="oewn-reharmonize-v ewn-reharmonise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01710987-v" ili="i30282" members="oewn-reharmonize-v oewn-reharmonise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>provide with a different harmony</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01711165-v"/> <!-- harmonise, harmonize -->
       <SynsetRelation relType="domain_topic" target="oewn-05726503-n"/> <!-- music, euphony -->
       <Example>reharmonize the melody</Example>
     </Synset>
     <!-- harmonise, harmonize -->
-    <Synset id="oewn-01711165-v" ili="i30283" members="oewn-harmonize-v ewn-harmonise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01711165-v" ili="i30283" members="oewn-harmonize-v oewn-harmonise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write a harmony for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01709353-v"/> <!-- write, compose -->
       <SynsetRelation relType="domain_topic" target="oewn-05726503-n"/> <!-- music, euphony -->
@@ -10479,7 +10479,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01711354-v"/> <!-- realise, realize -->
     </Synset>
     <!-- realise, realize -->
-    <Synset id="oewn-01711354-v" ili="i30284" members="oewn-realize-v ewn-realise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01711354-v" ili="i30284" members="oewn-realize-v oewn-realise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>expand or complete (a part in a piece of baroque music) by supplying the harmonies indicated in the figured bass</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01711165-v"/> <!-- harmonise, harmonize -->
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
@@ -10491,7 +10491,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-05726503-n"/> <!-- music, euphony -->
     </Synset>
     <!-- instrument, instrumentate -->
-    <Synset id="oewn-01711784-v" ili="i30286" members="oewn-instrument-v ewn-instrumentate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01711784-v" ili="i30286" members="oewn-instrument-v oewn-instrumentate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write an instrumental score for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01709353-v"/> <!-- write, compose -->
       <SynsetRelation relType="domain_topic" target="oewn-05726503-n"/> <!-- music, euphony -->
@@ -10516,7 +10516,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00429255-n"/> <!-- dancing, terpsichore, dance, saltation -->
     </Synset>
     <!-- trip the light fantastic, trip the light fantastic toe, dance -->
-    <Synset id="oewn-01712535-v" ili="i30290" members="oewn-dance-v ewn-trip_the_light_fantastic-v ewn-trip_the_light_fantastic_toe-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01712535-v" ili="i30290" members="oewn-dance-v oewn-trip_the_light_fantastic-v oewn-trip_the_light_fantastic_toe-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>move in a pattern; usually to musical accompaniment; do or perform a dance</Definition>
       <SynsetRelation relType="similar" target="oewn-01898642-v"/> <!-- dance -->
       <SynsetRelation relType="hypernym" target="oewn-01835473-v"/> <!-- move -->
@@ -10641,7 +10641,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
     </Synset>
     <!-- stage, represent, present -->
-    <Synset id="oewn-01715304-v" ili="i30302" members="oewn-stage-v ewn-present-v ewn-represent-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01715304-v" ili="i30302" members="oewn-stage-v oewn-present-v oewn-represent-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform (a play), especially on a stage</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -10650,7 +10650,7 @@
       <Example>we are going to stage `Othello&apos;</Example>
     </Synset>
     <!-- localize, place, set, localise -->
-    <Synset id="oewn-01715608-v" ili="i30303" members="oewn-set-v ewn-localize-v ewn-localise-v ewn-place-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01715608-v" ili="i30303" members="oewn-set-v oewn-localize-v oewn-localise-v oewn-place-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>locate</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01715304-v"/> <!-- stage, represent, present -->
       <Example>The film is set in Africa</Example>
@@ -10671,7 +10671,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
     </Synset>
     <!-- cinematise, cinematize -->
-    <Synset id="oewn-01716157-v" ili="i30306" members="oewn-cinematize-v ewn-cinematise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01716157-v" ili="i30306" members="oewn-cinematize-v oewn-cinematise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a film of or adopt so as to make into a film</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01715824-v"/> <!-- film -->
       <Example>cinematize history</Example>
@@ -10688,7 +10688,7 @@
       <Example>Cut corners to make a cheaper product</Example>
     </Synset>
     <!-- perform, execute, do -->
-    <Synset id="oewn-01716563-v" ili="i30309" members="oewn-perform-v ewn-execute-v ewn-do-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01716563-v" ili="i30309" members="oewn-perform-v oewn-execute-v oewn-do-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>carry out or perform an action</Definition>
       <SynsetRelation relType="hyponym" target="oewn-00492487-v"/> <!-- click off -->
       <SynsetRelation relType="hyponym" target="oewn-01051478-v"/> <!-- carry -->
@@ -10804,7 +10804,7 @@
       <Example>Her plays are underperformed, although they are very good</Example>
     </Synset>
     <!-- sight-read, sightread -->
-    <Synset id="oewn-01719384-v" ili="i30321" members="oewn-sightread-v ewn-sight-read-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01719384-v" ili="i30321" members="oewn-sightread-v oewn-sight-read-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform music from a score without having seen the score before</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01718067-v"/> <!-- perform -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -10812,7 +10812,7 @@
       <Example>He is a brilliant pianist but he cannot sightread</Example>
     </Synset>
     <!-- sightsing, sight-sing -->
-    <Synset id="oewn-01719643-v" ili="i30322" members="oewn-sightsing-v ewn-sight-sing-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01719643-v" ili="i30322" members="oewn-sightsing-v oewn-sight-sing-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing from a score without having seen it before</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01719384-v"/> <!-- sight-read, sightread -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -10840,7 +10840,7 @@
       <Example>He gave the sign to start</Example>
     </Synset>
     <!-- concertise, concertize -->
-    <Synset id="oewn-01720266-v" ili="i30326" members="oewn-concertize-v ewn-concertise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01720266-v" ili="i30326" members="oewn-concertize-v oewn-concertise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>give concerts; perform in concerts</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01718067-v"/> <!-- perform -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -10865,7 +10865,7 @@
       <Example>`Cats&apos; has been playing on Broadway for many years</Example>
     </Synset>
     <!-- run, play -->
-    <Synset id="oewn-01721028-v" ili="i30329" members="oewn-play-v ewn-run-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01721028-v" ili="i30329" members="oewn-play-v oewn-run-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to emit recorded audio or video</Definition>
       <SynsetRelation relType="similar" target="oewn-00518609-v"/> <!-- run -->
       <SynsetRelation relType="similar" target="oewn-02569242-v"/> <!-- execute, run -->
@@ -10904,19 +10904,19 @@
       <Example>The band debuts a new song or two each month</Example>
     </Synset>
     <!-- premier, premiere -->
-    <Synset id="oewn-01722044-v" ili="i30334" members="oewn-premier-v ewn-premiere-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01722044-v" ili="i30334" members="oewn-premier-v oewn-premiere-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform a work for the first time</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01716563-v"/> <!-- perform, execute, do -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
     </Synset>
     <!-- premier, premiere -->
-    <Synset id="oewn-01722190-v" ili="i30335" members="oewn-premier-v ewn-premiere-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01722190-v" ili="i30335" members="oewn-premier-v oewn-premiere-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>be performed for the first time</Definition>
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
       <Example>We premiered the opera of the young composer and it was a critical success</Example>
     </Synset>
     <!-- audition, try out -->
-    <Synset id="oewn-01722394-v" ili="i30336" members="oewn-audition-v ewn-try_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01722394-v" ili="i30336" members="oewn-audition-v oewn-try_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform in order to get a role</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01718067-v"/> <!-- perform -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -10931,7 +10931,7 @@
       <Example>He is auditioning for `Julius Caesar&apos; at Stratford this year</Example>
     </Synset>
     <!-- computerize, cybernate, computerise -->
-    <Synset id="oewn-01722811-v" ili="i30338" members="oewn-cybernate-v ewn-computerize-v ewn-computerise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01722811-v" ili="i30338" members="oewn-cybernate-v oewn-computerize-v oewn-computerise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>control a function, process, or creation by a computer</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02413117-v"/> <!-- put to work, work -->
       <SynsetRelation relType="domain_topic" target="oewn-06138021-n"/> <!-- computer science, computing -->
@@ -10940,7 +10940,7 @@
       <Example>cybernate a factory</Example>
     </Synset>
     <!-- represent, play, act -->
-    <Synset id="oewn-01723161-v" ili="i30339" members="oewn-act-v ewn-play-v ewn-represent-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01723161-v" ili="i30339" members="oewn-act-v oewn-play-v oewn-represent-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>play a role or part</Definition>
       <SynsetRelation relType="similar" target="oewn-00013608-v"/> <!-- act as, play, act -->
       <SynsetRelation relType="similar" target="oewn-01725954-v"/> <!-- play -->
@@ -10960,7 +10960,7 @@
       <Example>She played the servant to her husband&apos;s master</Example>
     </Synset>
     <!-- playact, roleplay, play, act -->
-    <Synset id="oewn-01723780-v" ili="i30340" members="oewn-act-v ewn-play-v ewn-roleplay-v ewn-playact-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01723780-v" ili="i30340" members="oewn-act-v oewn-play-v oewn-roleplay-v oewn-playact-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform on a stage or theater</Definition>
       <SynsetRelation relType="similar" target="oewn-01720478-v"/> <!-- play -->
       <SynsetRelation relType="similar" target="oewn-01720741-v"/> <!-- play -->
@@ -11018,14 +11018,14 @@
       <SynsetRelation relType="domain_topic" target="oewn-07019235-n"/> <!-- dramatics, dramaturgy, theatre, dramatic art, theater -->
     </Synset>
     <!-- dissemble, pretend, act -->
-    <Synset id="oewn-01725433-v" ili="i30347" members="oewn-dissemble-v ewn-pretend-v ewn-act-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01725433-v" ili="i30347" members="oewn-dissemble-v oewn-pretend-v oewn-act-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>behave unnaturally or affectedly</Definition>
       <SynsetRelation relType="similar" target="oewn-00010428-v"/> <!-- behave, do, act -->
       <SynsetRelation relType="hyponym" target="oewn-01725631-v"/> <!-- assume, feign, sham, simulate -->
       <Example>She&apos;s just acting</Example>
     </Synset>
     <!-- assume, feign, sham, simulate -->
-    <Synset id="oewn-01725631-v" ili="i30348" members="oewn-simulate-v ewn-assume-v ewn-sham-v ewn-feign-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01725631-v" ili="i30348" members="oewn-simulate-v oewn-assume-v oewn-sham-v oewn-feign-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a pretence of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01725433-v"/> <!-- dissemble, pretend, act -->
       <SynsetRelation relType="hyponym" target="oewn-01725954-v"/> <!-- play -->
@@ -11048,7 +11048,7 @@
       <Example>The midfielder feinted to shoot</Example>
     </Synset>
     <!-- reenact, enact, act out -->
-    <Synset id="oewn-01726324-v" ili="i30351" members="oewn-enact-v ewn-reenact-v ewn-act_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01726324-v" ili="i30351" members="oewn-enact-v oewn-reenact-v oewn-act_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>act out; represent or perform as if in a play</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01723161-v"/> <!-- represent, play, act -->
       <Example>She reenacted what had happened earlier that day</Example>
@@ -11066,13 +11066,13 @@
       <Example>They reenacted the battle of Princeton</Example>
     </Synset>
     <!-- model, simulate -->
-    <Synset id="oewn-01726857-v" ili="i30354" members="oewn-model-v ewn-simulate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01726857-v" ili="i30354" members="oewn-model-v oewn-simulate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create a representation or simulation of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <Example>The pilots are trained in conditions simulating high-altitude flights</Example>
     </Synset>
     <!-- rehearse, practise, practice -->
-    <Synset id="oewn-01727101-v" ili="i30355" members="oewn-rehearse-v ewn-practise-v ewn-practice-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01727101-v" ili="i30355" members="oewn-rehearse-v oewn-practise-v oewn-practice-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>engage in a rehearsal (of)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01716563-v"/> <!-- perform, execute, do -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -11090,7 +11090,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01727101-v"/> <!-- rehearse, practise, practice -->
     </Synset>
     <!-- portray, impersonate -->
-    <Synset id="oewn-01727567-v" ili="i30358" members="oewn-impersonate-v ewn-portray-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01727567-v" ili="i30358" members="oewn-impersonate-v oewn-portray-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>assume or act the character of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01723161-v"/> <!-- represent, play, act -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -11108,13 +11108,13 @@
       <SynsetRelation relType="hypernym" target="oewn-00851619-v"/> <!-- parody, burlesque, spoof -->
     </Synset>
     <!-- mime, pantomime -->
-    <Synset id="oewn-01728062-v" ili="i30361" members="oewn-mime-v ewn-pantomime-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01728062-v" ili="i30361" members="oewn-mime-v oewn-pantomime-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>act out without words but with gestures and bodily movements only</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01723780-v"/> <!-- playact, roleplay, play, act -->
       <Example>The acting students mimed eating an apple</Example>
     </Synset>
     <!-- spiel, play -->
-    <Synset id="oewn-01728336-v" ili="i30362" members="oewn-play-v ewn-spiel-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01728336-v" ili="i30362" members="oewn-play-v oewn-spiel-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>replay (as a melody)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01622373-v"/> <!-- re-create -->
       <SynsetRelation relType="hyponym" target="oewn-01653147-v"/> <!-- riff -->
@@ -11238,7 +11238,7 @@
       <Example>beat the drum</Example>
     </Synset>
     <!-- symphonise, symphonize -->
-    <Synset id="oewn-01730929-v" ili="i30375" members="oewn-symphonize-v ewn-symphonise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01730929-v" ili="i30375" members="oewn-symphonize-v oewn-symphonise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>play or sound together, in harmony</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01728928-v"/> <!-- play -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -11256,7 +11256,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-07034009-n"/> <!-- music -->
     </Synset>
     <!-- reprize, recapitulate, repeat, reprise -->
-    <Synset id="oewn-01731369-v" ili="i30378" members="oewn-reprise-v ewn-reprize-v ewn-repeat-v ewn-recapitulate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01731369-v" ili="i30378" members="oewn-reprise-v oewn-reprize-v oewn-repeat-v oewn-recapitulate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>repeat an earlier theme of a composition</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01728336-v"/> <!-- spiel, play -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -11290,7 +11290,7 @@
       <Example>They banged out `The star-spangled banner&apos;</Example>
     </Synset>
     <!-- accompany, follow, play along -->
-    <Synset id="oewn-01732234-v" ili="i30383" members="oewn-play_along-v ewn-accompany-v ewn-follow-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01732234-v" ili="i30383" members="oewn-play_along-v oewn-accompany-v oewn-follow-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform an accompaniment to</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01728928-v"/> <!-- play -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -11303,7 +11303,7 @@
       <Example>Every year the local orchestra and choir perform the `Messiah&apos; and the audience is invited to sing along</Example>
     </Synset>
     <!-- extemporize, ad-lib, improvise, improvize, extemporise -->
-    <Synset id="oewn-01732719-v" ili="i30385" members="oewn-improvise-v ewn-improvize-v ewn-ad-lib-v ewn-extemporize-v ewn-extemporise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01732719-v" ili="i30385" members="oewn-improvise-v oewn-improvize-v oewn-ad-lib-v oewn-extemporize-v oewn-extemporise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>perform without preparation</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01716563-v"/> <!-- perform, execute, do -->
       <Example>he extemporized a speech at the wedding</Example>
@@ -11371,13 +11371,13 @@
       <Example>The voice teacher showed the students how to solmizate</Example>
     </Synset>
     <!-- chirp, tweedle -->
-    <Synset id="oewn-01734544-v" ili="i30392" members="oewn-tweedle-v ewn-chirp-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01734544-v" ili="i30392" members="oewn-tweedle-v oewn-chirp-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing in modulation</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
     </Synset>
     <!-- chorus, choir -->
-    <Synset id="oewn-01734680-v" ili="i30393" members="oewn-choir-v ewn-chorus-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01734680-v" ili="i30393" members="oewn-choir-v oewn-chorus-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>sing in a choir</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01733312-v"/> <!-- sing -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -11431,7 +11431,7 @@
       <Example>The group was madrigaling beautifully</Example>
     </Synset>
     <!-- interpret, render -->
-    <Synset id="oewn-01736053-v" ili="i30400" members="oewn-interpret-v ewn-render-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01736053-v" ili="i30400" members="oewn-interpret-v oewn-render-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>give an interpretation or rendition of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01716563-v"/> <!-- perform, execute, do -->
       <SynsetRelation relType="domain_topic" target="oewn-06167042-n"/> <!-- performing arts -->
@@ -11453,7 +11453,7 @@
       <Example>She harped the Saint-Saens beautifully</Example>
     </Synset>
     <!-- direct, lead, conduct -->
-    <Synset id="oewn-01736802-v" ili="i30403" members="oewn-conduct-v ewn-lead-v ewn-direct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01736802-v" ili="i30403" members="oewn-conduct-v oewn-lead-v oewn-direct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>lead, as in the performance of a composition</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01716563-v"/> <!-- perform, execute, do -->
       <SynsetRelation relType="domain_topic" target="oewn-00544270-n"/> <!-- music -->
@@ -11470,7 +11470,7 @@
       <Example>she cannot conduct modern pieces</Example>
     </Synset>
     <!-- make, give, hold, have, throw -->
-    <Synset id="oewn-01737358-v" ili="i30405" members="oewn-hold-v ewn-throw-v ewn-have-v ewn-make-v ewn-give-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01737358-v" ili="i30405" members="oewn-hold-v oewn-throw-v oewn-have-v oewn-make-v oewn-give-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>organize or be responsible for</Definition>
       <SynsetRelation relType="hypernym" target="oewn-02444366-v"/> <!-- direct -->
       <Example>hold a reception</Example>
@@ -11499,7 +11499,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-05726882-n"/> <!-- music -->
     </Synset>
     <!-- double tongue, triple-tongue -->
-    <Synset id="oewn-01738012-v" ili="i30409" members="oewn-double_tongue-v ewn-triple-tongue-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01738012-v" ili="i30409" members="oewn-double_tongue-v oewn-triple-tongue-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>play fast notes on a wind instrument</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01738181-v"/> <!-- tongue -->
       <SynsetRelation relType="domain_topic" target="oewn-05726882-n"/> <!-- music -->
@@ -11514,7 +11514,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01738012-v"/> <!-- double tongue, triple-tongue -->
     </Synset>
     <!-- reduplicate, replicate, duplicate, double, repeat -->
-    <Synset id="oewn-01738383-v" ili="i30411" members="oewn-duplicate-v ewn-reduplicate-v ewn-double-v ewn-repeat-v ewn-replicate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01738383-v" ili="i30411" members="oewn-duplicate-v oewn-reduplicate-v oewn-double-v oewn-repeat-v oewn-replicate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make or do or perform again</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01740703-v"/> <!-- reproduce -->
       <SynsetRelation relType="hyponym" target="oewn-01738810-v"/> <!-- replicate, copy -->
@@ -11523,7 +11523,7 @@
       <Example>He could never replicate his brilliant performance of the magic trick</Example>
     </Synset>
     <!-- replicate, copy -->
-    <Synset id="oewn-01738810-v" ili="i30412" members="oewn-replicate-v ewn-copy-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01738810-v" ili="i30412" members="oewn-replicate-v oewn-copy-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reproduce or make an exact copy of</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01738383-v"/> <!-- reduplicate, replicate, duplicate, double, repeat -->
       <SynsetRelation relType="domain_topic" target="oewn-06047178-n"/> <!-- biology, biological science -->
@@ -11542,7 +11542,7 @@
       <Example>Could you please duplicate this letter for me?</Example>
     </Synset>
     <!-- geminate, reduplicate -->
-    <Synset id="oewn-01739437-v" ili="i30415" members="oewn-reduplicate-v ewn-geminate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01739437-v" ili="i30415" members="oewn-reduplicate-v oewn-geminate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>form by reduplication</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01738383-v"/> <!-- reduplicate, replicate, duplicate, double, repeat -->
       <SynsetRelation relType="domain_topic" target="oewn-06182505-n"/> <!-- linguistics -->
@@ -11562,13 +11562,13 @@
       <Example>quadruplicate the bill</Example>
     </Synset>
     <!-- reprint, reissue -->
-    <Synset id="oewn-01739979-v" ili="i30418" members="oewn-reprint-v ewn-reissue-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01739979-v" ili="i30418" members="oewn-reprint-v oewn-reissue-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>print anew</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01740703-v"/> <!-- reproduce -->
       <Example>They never reprinted the famous treatise</Example>
     </Synset>
     <!-- photocopy, run off, xerox -->
-    <Synset id="oewn-01740180-v" ili="i30419" members="oewn-photocopy-v ewn-run_off-v ewn-xerox-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01740180-v" ili="i30419" members="oewn-photocopy-v oewn-run_off-v oewn-xerox-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reproduce by xerography</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01740703-v"/> <!-- reproduce -->
       <SynsetRelation relType="hyponym" target="oewn-01740404-v"/> <!-- microcopy -->
@@ -11610,7 +11610,7 @@
       <Example>He reproduced the feeling of sadness in the portrait</Example>
     </Synset>
     <!-- induct, induce -->
-    <Synset id="oewn-01741298-v" ili="i30424" members="oewn-induce-v ewn-induct-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01741298-v" ili="i30424" members="oewn-induce-v oewn-induct-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce electric current by electrostatic or magnetic processes</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01756692-v"/> <!-- produce, give rise, bring about -->
       <SynsetRelation relType="domain_topic" target="oewn-06100457-n"/> <!-- physics, natural philosophy -->
@@ -11628,7 +11628,7 @@
       <Example>The candidate reinvented the concept of national health care so that he would get elected</Example>
     </Synset>
     <!-- catch, get -->
-    <Synset id="oewn-01741988-v" ili="i30428" members="oewn-catch-v ewn-get-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01741988-v" ili="i30428" members="oewn-catch-v oewn-get-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>apprehend and reproduce accurately</Definition>
       <SynsetRelation relType="similar" target="oewn-00591299-v"/> <!-- catch, get -->
       <SynsetRelation relType="hypernym" target="oewn-01741022-v"/> <!-- reproduce -->
@@ -11636,13 +11636,13 @@
       <Example>She got the mood just right in her photographs</Example>
     </Synset>
     <!-- play back, replay -->
-    <Synset id="oewn-01742228-v" ili="i30429" members="oewn-play_back-v ewn-replay-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01742228-v" ili="i30429" members="oewn-play_back-v oewn-replay-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reproduce (a recording) on a recorder</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01740703-v"/> <!-- reproduce -->
       <Example>The lawyers played back the conversation to show that their client was innocent</Example>
     </Synset>
     <!-- germinate, evolve, develop -->
-    <Synset id="oewn-01742478-v" ili="i30430" members="oewn-evolve-v ewn-germinate-v ewn-develop-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01742478-v" ili="i30430" members="oewn-evolve-v oewn-germinate-v oewn-develop-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>work out</Definition>
       <SynsetRelation relType="similar" target="oewn-01742655-v"/> <!-- develop -->
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
@@ -11665,24 +11665,24 @@
       <Example>build a million-dollar business</Example>
     </Synset>
     <!-- preassemble, prefabricate -->
-    <Synset id="oewn-01743144-v" ili="i30433" members="oewn-prefabricate-v ewn-preassemble-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01743144-v" ili="i30433" members="oewn-prefabricate-v oewn-preassemble-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>to manufacture sections of (a building), especially in a factory, so that they can be easily transported to and rapidly assembled on a building site of buildings</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="domain_topic" target="oewn-00912746-n"/> <!-- construction, building -->
     </Synset>
     <!-- vamp up, vamp -->
-    <Synset id="oewn-01743426-v" ili="i30434" members="oewn-vamp-v ewn-vamp_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01743426-v" ili="i30434" members="oewn-vamp-v oewn-vamp_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make up</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01637966-v"/> <!-- make up, fabricate, invent, cook up, manufacture -->
       <Example>vamp up an excuse for not attending the meeting</Example>
     </Synset>
     <!-- throw together, fudge together -->
-    <Synset id="oewn-01743556-v" ili="i30435" members="oewn-fudge_together-v ewn-throw_together-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01743556-v" ili="i30435" members="oewn-fudge_together-v oewn-throw_together-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce shoddily, without much attention to detail</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
     </Synset>
     <!-- produce, grow, farm, raise -->
-    <Synset id="oewn-01743695-v" ili="i30436" members="oewn-grow-v ewn-raise-v ewn-farm-v ewn-produce-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01743695-v" ili="i30436" members="oewn-grow-v oewn-raise-v oewn-farm-v oewn-produce-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cultivate by growing, often involving improvements by means of agricultural techniques</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01746607-v"/> <!-- cultivate -->
       <SynsetRelation relType="domain_topic" target="oewn-00918295-n"/> <!-- husbandry, agriculture, farming -->
@@ -11734,7 +11734,7 @@
       <Example>My sons landscapes for corporations and earns a good living</Example>
     </Synset>
     <!-- cultivate, work, crop -->
-    <Synset id="oewn-01745327-v" ili="i30442" members="oewn-cultivate-v ewn-crop-v ewn-work-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01745327-v" ili="i30442" members="oewn-cultivate-v oewn-crop-v oewn-work-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare for crops</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00407168-v"/> <!-- gear up, ready, prepare, set, set up, fix -->
       <SynsetRelation relType="domain_topic" target="oewn-00918295-n"/> <!-- husbandry, agriculture, farming -->
@@ -11745,14 +11745,14 @@
       <Example>cultivate the land</Example>
     </Synset>
     <!-- overcrop, overcultivate -->
-    <Synset id="oewn-01745573-v" ili="i30443" members="oewn-overcrop-v ewn-overcultivate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01745573-v" ili="i30443" members="oewn-overcrop-v oewn-overcultivate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>to exhaust by excessive cultivation</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01745327-v"/> <!-- cultivate, work, crop -->
       <SynsetRelation relType="domain_topic" target="oewn-00918295-n"/> <!-- husbandry, agriculture, farming -->
       <Example>the farmers overcropped the land</Example>
     </Synset>
     <!-- plow, plough, turn -->
-    <Synset id="oewn-01745745-v" ili="i30444" members="oewn-plow-v ewn-plough-v ewn-turn-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01745745-v" ili="i30444" members="oewn-plow-v oewn-plough-v oewn-turn-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>to break and turn over earth especially with a plow</Definition>
       <SynsetRelation relType="entails" target="oewn-01312361-v"/> <!-- delve, dig, cut into, turn over -->
       <SynsetRelation relType="hypernym" target="oewn-01744489-v"/> <!-- till -->
@@ -11769,7 +11769,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00918295-n"/> <!-- husbandry, agriculture, farming -->
     </Synset>
     <!-- disk, harrow -->
-    <Synset id="oewn-01746296-v" ili="i30446" members="oewn-harrow-v ewn-disk-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01746296-v" ili="i30446" members="oewn-harrow-v oewn-disk-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>draw a harrow over (land)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01745745-v"/> <!-- plow, plough, turn -->
       <SynsetRelation relType="domain_topic" target="oewn-00918295-n"/> <!-- husbandry, agriculture, farming -->
@@ -11789,7 +11789,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01743695-v"/> <!-- produce, grow, farm, raise -->
     </Synset>
     <!-- copy, imitate, simulate -->
-    <Synset id="oewn-01746767-v" ili="i30449" members="oewn-imitate-v ewn-copy-v ewn-simulate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01746767-v" ili="i30449" members="oewn-imitate-v oewn-copy-v oewn-simulate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reproduce someone&apos;s behavior or looks</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01740703-v"/> <!-- reproduce -->
       <SynsetRelation relType="hyponym" target="oewn-00150596-v"/> <!-- conform to, follow -->
@@ -11809,13 +11809,13 @@
       <Example>This song takes off from a famous aria</Example>
     </Synset>
     <!-- mime, mimic -->
-    <Synset id="oewn-01747412-v" ili="i30451" members="oewn-mimic-v ewn-mime-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01747412-v" ili="i30451" members="oewn-mimic-v oewn-mime-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>imitate (a person or manner), especially for satirical effect</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01746767-v"/> <!-- copy, imitate, simulate -->
       <Example>The actor mimicked the President very accurately</Example>
     </Synset>
     <!-- model, pattern -->
-    <Synset id="oewn-01747665-v" ili="i30452" members="oewn-model-v ewn-pattern-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01747665-v" ili="i30452" members="oewn-model-v oewn-pattern-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>plan or create according to a model or models</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01746767-v"/> <!-- copy, imitate, simulate -->
       <SynsetRelation relType="hyponym" target="oewn-01747963-v"/> <!-- scale -->
@@ -11827,13 +11827,13 @@
       <SynsetRelation relType="hypernym" target="oewn-01747665-v"/> <!-- model, pattern -->
     </Synset>
     <!-- sovietise, sovietize -->
-    <Synset id="oewn-01748147-v" ili="i30454" members="oewn-sovietize-v ewn-sovietise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01748147-v" ili="i30454" members="oewn-sovietize-v oewn-sovietise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>model a country&apos;s social, political, and economic structure on the Soviet Union</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01747665-v"/> <!-- model, pattern -->
       <Example>Castro sovietized Cuba</Example>
     </Synset>
     <!-- take after, follow -->
-    <Synset id="oewn-01748331-v" ili="i30455" members="oewn-take_after-v ewn-follow-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01748331-v" ili="i30455" members="oewn-take_after-v oewn-follow-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>imitate in behavior; take as a model</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01746767-v"/> <!-- copy, imitate, simulate -->
       <Example>Teenagers follow their friends in everything</Example>
@@ -11845,7 +11845,7 @@
       <Example>Mozart didn&apos;t publish all of his works</Example>
     </Synset>
     <!-- typeset, set -->
-    <Synset id="oewn-01748696-v" ili="i30457" members="oewn-typeset-v ewn-set-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01748696-v" ili="i30457" members="oewn-typeset-v oewn-set-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>set in type</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01751753-v"/> <!-- print, impress -->
       <Example>My book will be typeset nicely</Example>
@@ -11857,7 +11857,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01751753-v"/> <!-- print, impress -->
     </Synset>
     <!-- arrange, format -->
-    <Synset id="oewn-01748949-v" ili="i30459" members="oewn-format-v ewn-arrange-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01748949-v" ili="i30459" members="oewn-format-v oewn-arrange-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>set (printed matter) into a specific format</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00109468-v"/> <!-- change -->
       <SynsetRelation relType="hyponym" target="oewn-01749185-v"/> <!-- indent -->
@@ -11871,12 +11871,12 @@
       <Example>Indent the paragraphs of a letter</Example>
     </Synset>
     <!-- table, tabularise, tabulate, tabularize -->
-    <Synset id="oewn-01749344-v" ili="i30461" members="oewn-table-v ewn-tabularize-v ewn-tabularise-v ewn-tabulate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01749344-v" ili="i30461" members="oewn-table-v oewn-tabularize-v oewn-tabularise-v oewn-tabulate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>arrange or enter in tabular form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01709988-v"/> <!-- arrange, set -->
     </Synset>
     <!-- print, publish -->
-    <Synset id="oewn-01749530-v" ili="i30462" members="oewn-print-v ewn-publish-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01749530-v" ili="i30462" members="oewn-print-v oewn-publish-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put into print</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="hyponym" target="oewn-01749953-v"/> <!-- republish -->
@@ -11891,7 +11891,7 @@
       <Example>The scientist republished his results after he made some corrections</Example>
     </Synset>
     <!-- run, carry -->
-    <Synset id="oewn-01750167-v" ili="i30464" members="oewn-carry-v ewn-run-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01750167-v" ili="i30464" members="oewn-carry-v oewn-run-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>include as the content; broadcast or publicize</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00970243-v"/> <!-- circularise, disperse, broadcast, disseminate, circulate, propagate, circularize, distribute, diffuse, pass around, spread -->
       <Example>We ran the ad three times</Example>
@@ -11927,7 +11927,7 @@
       <Example>offset a wall</Example>
     </Synset>
     <!-- scribble, scrawl -->
-    <Synset id="oewn-01751011-v" ili="i30470" members="oewn-scribble-v ewn-scrawl-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01751011-v" ili="i30470" members="oewn-scribble-v oewn-scrawl-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write carelessly</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694952-v"/> <!-- write -->
     </Synset>
@@ -11945,14 +11945,14 @@
       <SynsetRelation relType="hypernym" target="oewn-01751182-v"/> <!-- copy -->
     </Synset>
     <!-- programme, program -->
-    <Synset id="oewn-01751525-v" ili="i30473" members="oewn-program-v ewn-programme-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01751525-v" ili="i30473" members="oewn-program-v oewn-programme-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>write a computer program</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01635076-v"/> <!-- create by mental act, create mentally -->
       <SynsetRelation relType="domain_topic" target="oewn-06138021-n"/> <!-- computer science, computing -->
       <SynsetRelation relType="hyponym" target="oewn-00527521-v"/> <!-- hack, hack on -->
     </Synset>
     <!-- print, impress -->
-    <Synset id="oewn-01751753-v" ili="i30474" members="oewn-print-v ewn-impress-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01751753-v" ili="i30474" members="oewn-print-v oewn-impress-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>reproduce by printing</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01694952-v"/> <!-- write -->
       <SynsetRelation relType="hyponym" target="oewn-01696474-v"/> <!-- letter -->
@@ -11965,7 +11965,7 @@
       <SynsetRelation relType="hyponym" target="oewn-01752825-v"/> <!-- italicise, italicize -->
     </Synset>
     <!-- print over, overprint -->
-    <Synset id="oewn-01752081-v" ili="i30475" members="oewn-overprint-v ewn-print_over-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01752081-v" ili="i30475" members="oewn-overprint-v oewn-print_over-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>print (additional text or colors) onto an already imprinted paper</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01751753-v"/> <!-- print, impress -->
       <SynsetRelation relType="hyponym" target="oewn-01752270-v"/> <!-- surcharge -->
@@ -11991,7 +11991,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01751753-v"/> <!-- print, impress -->
     </Synset>
     <!-- italicise, italicize -->
-    <Synset id="oewn-01752825-v" ili="i30480" members="oewn-italicize-v ewn-italicise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01752825-v" ili="i30480" members="oewn-italicize-v oewn-italicise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>print in italics</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01751753-v"/> <!-- print, impress -->
     </Synset>
@@ -12025,7 +12025,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
     </Synset>
     <!-- engrave, etch -->
-    <Synset id="oewn-01753598-v" ili="i30485" members="oewn-engrave-v ewn-etch-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01753598-v" ili="i30485" members="oewn-engrave-v oewn-etch-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>carve or cut into a block used for printing or print from such a block</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01752992-v"/> <!-- print -->
       <SynsetRelation relType="domain_topic" target="oewn-00935235-n"/> <!-- art, artistic production, artistic creation -->
@@ -12083,13 +12083,13 @@
       <Example>The weaver fringed the scarf</Example>
     </Synset>
     <!-- ham, overplay, overact, ham it up -->
-    <Synset id="oewn-01754981-v" ili="i30494" members="oewn-overact-v ewn-ham_it_up-v ewn-ham-v ewn-overplay-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01754981-v" ili="i30494" members="oewn-overact-v oewn-ham_it_up-v oewn-ham-v oewn-overplay-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>exaggerate one&apos;s acting</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01723780-v"/> <!-- playact, roleplay, play, act -->
       <SynsetRelation relType="domain_topic" target="oewn-07019235-n"/> <!-- dramatics, dramaturgy, theatre, dramatic art, theater -->
     </Synset>
     <!-- underact, underplay -->
-    <Synset id="oewn-01755197-v" ili="i30495" members="oewn-underact-v ewn-underplay-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01755197-v" ili="i30495" members="oewn-underact-v oewn-underplay-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>act (a role) with great restraint</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01723780-v"/> <!-- playact, roleplay, play, act -->
       <SynsetRelation relType="domain_topic" target="oewn-07019235-n"/> <!-- dramatics, dramaturgy, theatre, dramatic art, theater -->
@@ -12134,7 +12134,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
     </Synset>
     <!-- bring forth, produce -->
-    <Synset id="oewn-01756303-v" ili="i30502" members="oewn-produce-v ewn-bring_forth-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01756303-v" ili="i30502" members="oewn-produce-v oewn-bring_forth-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>bring forth or yield</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-00056644-v"/> <!-- give birth, deliver, have, bear, birth -->
@@ -12152,7 +12152,7 @@
       <Example>plants sporulate</Example>
     </Synset>
     <!-- produce, give rise, bring about -->
-    <Synset id="oewn-01756692-v" ili="i30504" members="oewn-produce-v ewn-bring_about-v ewn-give_rise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01756692-v" ili="i30504" members="oewn-produce-v oewn-bring_about-v oewn-give_rise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>cause to happen, occur or exist</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <SynsetRelation relType="hyponym" target="oewn-01741298-v"/> <!-- induct, induce -->
@@ -12163,7 +12163,7 @@
       <Example>the new President must bring about a change in the health care system</Example>
     </Synset>
     <!-- grind out, crank out -->
-    <Synset id="oewn-01757080-v" ili="i30505" members="oewn-grind_out-v ewn-crank_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01757080-v" ili="i30505" members="oewn-grind_out-v oewn-crank_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>produce in a routine or monotonous manner</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01756303-v"/> <!-- bring forth, produce -->
       <Example>We have to crank out publications in order to receive funding</Example>
@@ -12205,12 +12205,12 @@
       <Example>prepare a speech</Example>
     </Synset>
     <!-- rough out, rough, rough in -->
-    <Synset id="oewn-01758260-v" ili="i30511" members="oewn-rough_in-v ewn-rough-v ewn-rough_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01758260-v" ili="i30511" members="oewn-rough_in-v oewn-rough-v oewn-rough_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>prepare in preliminary or sketchy form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01758079-v"/> <!-- prepare -->
     </Synset>
     <!-- write up, write out -->
-    <Synset id="oewn-01758384-v" ili="i30512" members="oewn-write_out-v ewn-write_up-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01758384-v" ili="i30512" members="oewn-write_out-v oewn-write_up-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>put into writing; write in complete form</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01702148-v"/> <!-- write, indite, compose, pen -->
       <SynsetRelation relType="domain_topic" target="oewn-00931533-n"/> <!-- composition, authorship, writing, penning -->
@@ -12234,7 +12234,7 @@
       <Example>The sweat cut little rivulets into her face</Example>
     </Synset>
     <!-- chart, graph -->
-    <Synset id="oewn-01758945-v" ili="i30515" members="oewn-graph-v ewn-chart-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01758945-v" ili="i30515" members="oewn-graph-v oewn-chart-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>represent by means of a graph</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01690027-v"/> <!-- represent, interpret -->
       <Example>chart the data</Example>
@@ -12285,13 +12285,13 @@
       <Example>beat a path through the forest</Example>
     </Synset>
     <!-- map, map out -->
-    <Synset id="oewn-01759993-v" ili="i30522" members="oewn-map-v ewn-map_out-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01759993-v" ili="i30522" members="oewn-map-v oewn-map_out-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>plan, delineate, or arrange in detail</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01641910-v"/> <!-- project, plan, design, contrive -->
       <Example>map one&apos;s future</Example>
     </Synset>
     <!-- cut, burn -->
-    <Synset id="oewn-01760121-v" ili="i30523" members="oewn-cut-v ewn-burn-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01760121-v" ili="i30523" members="oewn-cut-v oewn-burn-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by duplicating data</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01624592-v"/> <!-- make, produce, create -->
       <SynsetRelation relType="similar" target="oewn-01760260-v"/> <!-- cut -->
@@ -12328,7 +12328,7 @@
       <Example>the manuscript is not rubricated</Example>
     </Synset>
     <!-- channelise, channelize -->
-    <Synset id="oewn-01760865-v" ili="i30528" members="oewn-channelize-v ewn-channelise-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01760865-v" ili="i30528" members="oewn-channelize-v oewn-channelise-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>make a channel for; provide with a channel</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01658171-v"/> <!-- make, build, construct -->
       <Example>channelize the country for better transportation</Example>
@@ -12366,7 +12366,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01662656-v"/> <!-- craft -->
     </Synset>
     <!-- free, release, liberate -->
-    <Synset id="oewn-01761838-v" ili="i30534" members="oewn-release-v ewn-free-v ewn-liberate-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01761838-v" ili="i30534" members="oewn-release-v oewn-free-v oewn-liberate-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>release (gas or energy) as a result of a chemical reaction or physical decomposition</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01630392-v"/> <!-- bring forth, generate -->
       <SynsetRelation relType="domain_topic" target="oewn-06094057-n"/> <!-- chemical science, chemistry -->
@@ -12407,7 +12407,7 @@
       <Example>this gland manufactures a specific substance only</Example>
     </Synset>
     <!-- shell, blast -->
-    <Synset id="oewn-01762865-v" ili="i30541" members="oewn-blast-v ewn-shell-v" partOfSpeech="v" dc:subject="verb.creation">
+    <Synset id="oewn-01762865-v" ili="i30541" members="oewn-blast-v oewn-shell-v" partOfSpeech="v" dc:subject="verb.creation">
       <Definition>create by using explosives</Definition>
       <SynsetRelation relType="hypernym" target="oewn-01620211-v"/> <!-- make, create -->
       <Example>blast a passage through the mountain</Example>
@@ -12418,7 +12418,7 @@
       <SynsetRelation relType="hypernym" target="oewn-01728928-v"/> <!-- play -->
       <Example>three young men were busking in the plaza</Example>
     </Synset>
-    <Synset id="oewn-90019491-v" ili="in" members="oewn-bump-v ewn-slap-v" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
+    <Synset id="oewn-90019491-v" ili="in" members="oewn-bump-v oewn-slap-v" partOfSpeech="v" dc:subject="verb.creation" dc:source="Colloquial WordNet">
       <Definition>to play music at loud volume</Definition>
       <ILIDefinition>to play music at loud volume</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-01730049-v"/> <!-- play -->

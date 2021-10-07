@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
-  <Lexicon id="ewn"
+  <Lexicon id="oewn"
            label="Open English WordNet"
            language="en"
            email="john@mccr.ae"
@@ -3856,7 +3856,7 @@
       <Sense id="oewn-content__1.24.00.." n="2" synset="oewn-13838733-n"/>
     </LexicalEntry>
     <!-- dealings, relations -->
-    <Synset id="oewn-13802661-n" ili="i109327" members="oewn-relations-n ewn-dealings-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13802661-n" ili="i109327" members="oewn-relations-n oewn-dealings-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual dealings or connections or communications among persons or groups</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00033122-n"/> <!-- social relation -->
     </Synset>
@@ -3866,7 +3866,7 @@
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
     </Synset>
     <!-- relationship, human relationship -->
-    <Synset id="oewn-13802931-n" ili="i109329" members="oewn-relationship-n ewn-human_relationship-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13802931-n" ili="i109329" members="oewn-relationship-n oewn-human_relationship-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation between people; (`relationship&apos; is often used where `relation&apos; would serve, as in `the relationship between inflation and unemployment&apos;, but the preferred usage of `relationship&apos; is for human relations or states of relatedness)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13803560-n"/> <!-- partnership -->
@@ -3889,7 +3889,7 @@
       <Example>the action teams worked in partnership with the government</Example>
     </Synset>
     <!-- personal relation, personal relationship -->
-    <Synset id="oewn-13803882-n" ili="i109332" members="oewn-personal_relation-n ewn-personal_relationship-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13803882-n" ili="i109332" members="oewn-personal_relation-n oewn-personal_relationship-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation between persons</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13802931-n"/> <!-- relationship, human relationship -->
       <SynsetRelation relType="hyponym" target="oewn-13804032-n"/> <!-- bonding -->
@@ -3904,7 +3904,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13804745-n"/> <!-- maternal-infant bonding -->
     </Synset>
     <!-- indebtedness, obligation -->
-    <Synset id="oewn-13804245-n" ili="i109334" members="oewn-obligation-n ewn-indebtedness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13804245-n" ili="i109334" members="oewn-obligation-n oewn-indebtedness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a personal relation in which one is indebted for a service or favor</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13803882-n"/> <!-- personal relation, personal relationship -->
     </Synset>
@@ -3966,7 +3966,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13821026-n"/> <!-- reflexiveness, reflexivity -->
     </Synset>
     <!-- map, single-valued function, function, mathematical function, mapping -->
-    <Synset id="oewn-13806028-n" ili="i109343" members="oewn-function-n ewn-mathematical_function-n ewn-single-valued_function-n ewn-map-n ewn-mapping-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13806028-n" ili="i109343" members="oewn-function-n oewn-mathematical_function-n oewn-single-valued_function-n oewn-map-n oewn-mapping-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13805793-n"/> <!-- mathematical relation -->
       <SynsetRelation relType="domain_topic" target="oewn-06009822-n"/> <!-- math, mathematics, maths -->
@@ -4003,7 +4003,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
     </Synset>
     <!-- metric, metric function -->
-    <Synset id="oewn-13807118-n" ili="i109347" members="oewn-metric_function-n ewn-metric-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13807118-n" ili="i109347" members="oewn-metric_function-n oewn-metric-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a function of a topological space that gives, for any two points in the space, a value equal to the distance between them</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
       <SynsetRelation relType="domain_topic" target="oewn-06009822-n"/> <!-- math, mathematics, maths -->
@@ -4063,13 +4063,13 @@
       <SynsetRelation relType="hypernym" target="oewn-13808625-n"/> <!-- operator -->
     </Synset>
     <!-- identity element, identity, identity operator -->
-    <Synset id="oewn-13808960-n" ili="i109356" members="oewn-identity-n ewn-identity_element-n ewn-identity_operator-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13808960-n" ili="i109356" members="oewn-identity-n oewn-identity_element-n oewn-identity_operator-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>an operator that leaves unchanged the element on which it operates</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13808625-n"/> <!-- operator -->
       <Example>the identity under numerical multiplication is 1</Example>
     </Synset>
     <!-- circular function, trigonometric function -->
-    <Synset id="oewn-13809172-n" ili="i109357" members="oewn-trigonometric_function-n ewn-circular_function-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13809172-n" ili="i109357" members="oewn-trigonometric_function-n oewn-circular_function-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>function of an angle expressed as a ratio of the length of the sides of right-angled triangle containing the angle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
       <SynsetRelation relType="hyponym" target="oewn-13809591-n"/> <!-- sine, sin -->
@@ -4086,62 +4086,62 @@
       <SynsetRelation relType="hyponym" target="oewn-13811348-n"/> <!-- arc cosecant, arccosecant, inverse cosecant -->
     </Synset>
     <!-- sine, sin -->
-    <Synset id="oewn-13809591-n" ili="i109358" members="oewn-sine-n ewn-sin-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13809591-n" ili="i109358" members="oewn-sine-n oewn-sin-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- arc sine, inverse sine, arcsin, arcsine -->
-    <Synset id="oewn-13809763-n" ili="i109359" members="oewn-arc_sine-n ewn-arcsine-n ewn-arcsin-n ewn-inverse_sine-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13809763-n" ili="i109359" members="oewn-arc_sine-n oewn-arcsine-n oewn-arcsin-n oewn-inverse_sine-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the inverse function of the sine; the angle that has a sine equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- cos, cosine -->
-    <Synset id="oewn-13809935-n" ili="i109360" members="oewn-cosine-n ewn-cos-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13809935-n" ili="i109360" members="oewn-cosine-n oewn-cos-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the adjacent side to the hypotenuse of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- arccosine, inverse cosine, arc cosine, arccos -->
-    <Synset id="oewn-13810065-n" ili="i109361" members="oewn-arc_cosine-n ewn-arccosine-n ewn-arccos-n ewn-inverse_cosine-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810065-n" ili="i109361" members="oewn-arc_cosine-n oewn-arccosine-n oewn-arccos-n oewn-inverse_cosine-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the inverse function of the cosine; the angle that has a cosine equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- tangent, tan -->
-    <Synset id="oewn-13810247-n" ili="i109362" members="oewn-tangent-n ewn-tan-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810247-n" ili="i109362" members="oewn-tangent-n oewn-tan-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the opposite to the adjacent side of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- inverse tangent, arc tangent, arctangent, arctan -->
-    <Synset id="oewn-13810394-n" ili="i109363" members="oewn-arc_tangent-n ewn-arctangent-n ewn-arctan-n ewn-inverse_tangent-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810394-n" ili="i109363" members="oewn-arc_tangent-n oewn-arctangent-n oewn-arctan-n oewn-inverse_tangent-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the inverse function of the tangent; the angle that has a tangent equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- cotangent, cotan -->
-    <Synset id="oewn-13810581-n" ili="i109364" members="oewn-cotangent-n ewn-cotan-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810581-n" ili="i109364" members="oewn-cotangent-n oewn-cotan-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the adjacent to the opposite side of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- inverse cotangent, arccotangent, arc cotangent -->
-    <Synset id="oewn-13810714-n" ili="i109365" members="oewn-arc_cotangent-n ewn-arccotangent-n ewn-inverse_cotangent-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810714-n" ili="i109365" members="oewn-arc_cotangent-n oewn-arccotangent-n oewn-inverse_cotangent-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the inverse function of the cotangent; the angle that has a cotangent equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- sec, secant -->
-    <Synset id="oewn-13810902-n" ili="i109366" members="oewn-secant-n ewn-sec-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13810902-n" ili="i109366" members="oewn-secant-n oewn-sec-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the hypotenuse to the adjacent side of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- arcsecant, inverse secant, arcsec, arc secant -->
-    <Synset id="oewn-13811032-n" ili="i109367" members="oewn-arc_secant-n ewn-arcsecant-n ewn-arcsec-n ewn-inverse_secant-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13811032-n" ili="i109367" members="oewn-arc_secant-n oewn-arcsecant-n oewn-arcsec-n oewn-inverse_secant-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the inverse function of the secant; the angle that has a secant equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- cosec, cosecant -->
-    <Synset id="oewn-13811214-n" ili="i109368" members="oewn-cosecant-n ewn-cosec-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13811214-n" ili="i109368" members="oewn-cosecant-n oewn-cosec-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio of the hypotenuse to the opposite side of a right-angled triangle</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
     <!-- arc cosecant, arccosecant, inverse cosecant -->
-    <Synset id="oewn-13811348-n" ili="i109369" members="oewn-arc_cosecant-n ewn-arccosecant-n ewn-inverse_cosecant-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13811348-n" ili="i109369" members="oewn-arc_cosecant-n oewn-arccosecant-n oewn-inverse_cosecant-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the angle that has a cosecant equal to a given number</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13809172-n"/> <!-- circular function, trigonometric function -->
     </Synset>
@@ -4151,7 +4151,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
     </Synset>
     <!-- exponential function, exponential -->
-    <Synset id="oewn-13811674-n" ili="i109371" members="oewn-exponential-n ewn-exponential_function-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13811674-n" ili="i109371" members="oewn-exponential-n oewn-exponential_function-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a function in which an independent variable appears as an exponent</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
     </Synset>
@@ -4203,7 +4203,7 @@
       <Example>there is little foundation for his objections</Example>
     </Synset>
     <!-- basis, ground, footing -->
-    <Synset id="oewn-13813124-n" ili="i109380" members="oewn-footing-n ewn-basis-n ewn-ground-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13813124-n" ili="i109380" members="oewn-footing-n oewn-basis-n oewn-ground-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation that provides the foundation for something</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13812924-n"/> <!-- foundation -->
       <SynsetRelation relType="hyponym" target="oewn-13813334-n"/> <!-- common ground -->
@@ -4222,7 +4222,7 @@
       <Example>the problem was attacked at the grass roots</Example>
     </Synset>
     <!-- connectedness, connection, connexion -->
-    <Synset id="oewn-13813601-n" ili="i109383" members="oewn-connection-n ewn-connexion-n ewn-connectedness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13813601-n" ili="i109383" members="oewn-connection-n oewn-connexion-n oewn-connectedness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation between things or events (as in the case of one causing the other or sharing features with it)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="attribute" target="oewn-00568364-a"/> <!-- connected -->
@@ -4246,7 +4246,7 @@
       <Example>the voltage divider consisted of a series of fixed resistors</Example>
     </Synset>
     <!-- alliance, bond -->
-    <Synset id="oewn-13814395-n" ili="i109385" members="oewn-alliance-n ewn-bond-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13814395-n" ili="i109385" members="oewn-alliance-n oewn-bond-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a connection based on kinship or marriage or common interest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13813601-n"/> <!-- connectedness, connection, connexion -->
       <SynsetRelation relType="hyponym" target="oewn-13814680-n"/> <!-- silver cord -->
@@ -4265,7 +4265,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13814904-n"/> <!-- link, nexus -->
     </Synset>
     <!-- link, nexus -->
-    <Synset id="oewn-13814904-n" ili="i109388" members="oewn-link-n ewn-nexus-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13814904-n" ili="i109388" members="oewn-link-n oewn-nexus-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the means of connection between things linked in series</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13814791-n"/> <!-- linkage -->
     </Synset>
@@ -4305,7 +4305,7 @@
       <Example>he was suspected of implication in several robberies</Example>
     </Synset>
     <!-- comprehension, inclusion -->
-    <Synset id="oewn-13816246-n" ili="i109394" members="oewn-inclusion-n ewn-comprehension-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13816246-n" ili="i109394" members="oewn-inclusion-n oewn-comprehension-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of comprising something</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13815716-n"/> <!-- involvement -->
       <Example>he admired the inclusion of so many ideas in such a short work</Example>
@@ -4318,7 +4318,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13818615-n"/> <!-- unrelatedness -->
     </Synset>
     <!-- relevancy, relevance -->
-    <Synset id="oewn-13816629-n" ili="i109396" members="oewn-relevance-n ewn-relevancy-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13816629-n" ili="i109396" members="oewn-relevance-n oewn-relevancy-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of something to the matter at hand</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13813601-n"/> <!-- connectedness, connection, connexion -->
       <SynsetRelation relType="hyponym" target="oewn-13816870-n"/> <!-- materiality -->
@@ -4347,7 +4347,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13817392-n"/> <!-- pertinence, pertinency, applicability -->
     </Synset>
     <!-- pertinence, pertinency, applicability -->
-    <Synset id="oewn-13817392-n" ili="i109401" members="oewn-applicability-n ewn-pertinence-n ewn-pertinency-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13817392-n" ili="i109401" members="oewn-applicability-n oewn-pertinence-n oewn-pertinency-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>relevance by virtue of being applicable to the matter at hand</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13816629-n"/> <!-- relevancy, relevance -->
       <SynsetRelation relType="hyponym" target="oewn-13817254-n"/> <!-- germaneness -->
@@ -4366,7 +4366,7 @@
       <Example>those issues have no bearing on our situation</Example>
     </Synset>
     <!-- irrelevance, irrelevancy -->
-    <Synset id="oewn-13818046-n" ili="i109404" members="oewn-irrelevance-n ewn-irrelevancy-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13818046-n" ili="i109404" members="oewn-irrelevance-n oewn-irrelevancy-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the lack of a relation of something to the matter at hand</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13816438-n"/> <!-- unconnectedness -->
       <SynsetRelation relType="hyponym" target="oewn-13818265-n"/> <!-- inapplicability -->
@@ -4421,7 +4421,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13831193-n"/> <!-- homonymy -->
     </Synset>
     <!-- concord, agreement -->
-    <Synset id="oewn-13819525-n" ili="i109411" members="oewn-agreement-n ewn-concord-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13819525-n" ili="i109411" members="oewn-agreement-n oewn-concord-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the determination of grammatical inflection on the basis of word relations</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
       <SynsetRelation relType="hyponym" target="oewn-13819773-n"/> <!-- number agreement -->
@@ -4450,12 +4450,12 @@
       <SynsetRelation relType="hypernym" target="oewn-13819525-n"/> <!-- concord, agreement -->
     </Synset>
     <!-- transitivity, transitiveness -->
-    <Synset id="oewn-13820330-n" ili="i109416" members="oewn-transitivity-n ewn-transitiveness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13820330-n" ili="i109416" members="oewn-transitivity-n oewn-transitiveness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the grammatical relation created by a transitive verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
     </Synset>
     <!-- intransitiveness, intransitivity -->
-    <Synset id="oewn-13820513-n" ili="i109417" members="oewn-intransitivity-n ewn-intransitiveness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13820513-n" ili="i109417" members="oewn-intransitivity-n oewn-intransitiveness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the grammatical relation created by an intransitive verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
     </Synset>
@@ -4468,7 +4468,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06009822-n"/> <!-- math, mathematics, maths -->
     </Synset>
     <!-- reflexiveness, reflexivity -->
-    <Synset id="oewn-13821026-n" ili="i109419" members="oewn-reflexivity-n ewn-reflexiveness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13821026-n" ili="i109419" members="oewn-reflexivity-n oewn-reflexiveness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(logic and mathematics) a relation such that it holds between an element and itself</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13805250-n"/> <!-- logical relation -->
       <SynsetRelation relType="hypernym" target="oewn-13805793-n"/> <!-- mathematical relation -->
@@ -4482,7 +4482,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13821457-n"/> <!-- reflexiveness, reflexivity -->
     </Synset>
     <!-- reflexiveness, reflexivity -->
-    <Synset id="oewn-13821457-n" ili="i109421" members="oewn-reflexivity-n ewn-reflexiveness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13821457-n" ili="i109421" members="oewn-reflexivity-n oewn-reflexiveness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the coreferential relation between a reflexive pronoun and its antecedent</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13821275-n"/> <!-- coreference -->
     </Synset>
@@ -4538,7 +4538,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
     </Synset>
     <!-- limiting, qualifying, modification -->
-    <Synset id="oewn-13823013-n" ili="i109431" members="oewn-modification-n ewn-qualifying-n ewn-limiting-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13823013-n" ili="i109431" members="oewn-modification-n oewn-qualifying-n oewn-limiting-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the grammatical relation that exists when a word qualifies the meaning of the phrase</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
       <SynsetRelation relType="hyponym" target="oewn-13823252-n"/> <!-- restrictiveness -->
@@ -4556,7 +4556,7 @@
       <Example>`Rudolph the red-nosed reindeer&apos; is an example of apposition</Example>
     </Synset>
     <!-- mood, modality, mode -->
-    <Synset id="oewn-13823636-n" ili="i109434" members="oewn-mood-n ewn-mode-n ewn-modality-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13823636-n" ili="i109434" members="oewn-mood-n oewn-mode-n oewn-modality-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>verb inflections that express how the action or state is conceived by the speaker</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
       <SynsetRelation relType="hyponym" target="oewn-13823912-n"/> <!-- common mood, indicative mood, fact mood, indicative, declarative, declarative mood -->
@@ -4566,34 +4566,34 @@
       <SynsetRelation relType="hyponym" target="oewn-13824697-n"/> <!-- interrogative, interrogative mood -->
     </Synset>
     <!-- common mood, indicative mood, fact mood, indicative, declarative, declarative mood -->
-    <Synset id="oewn-13823912-n" ili="i109435" members="oewn-indicative_mood-n ewn-indicative-n ewn-declarative_mood-n ewn-declarative-n ewn-common_mood-n ewn-fact_mood-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13823912-n" ili="i109435" members="oewn-indicative_mood-n oewn-indicative-n oewn-declarative_mood-n oewn-declarative-n oewn-common_mood-n oewn-fact_mood-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a mood (grammatically unmarked) that represents the act or state as an objective fact</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13823636-n"/> <!-- mood, modality, mode -->
     </Synset>
     <!-- subjunctive mood, subjunctive -->
-    <Synset id="oewn-13824149-n" ili="i109436" members="oewn-subjunctive_mood-n ewn-subjunctive-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13824149-n" ili="i109436" members="oewn-subjunctive_mood-n oewn-subjunctive-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a mood that represents an act or state (not as a fact but) as contingent or possible</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13823636-n"/> <!-- mood, modality, mode -->
     </Synset>
     <!-- optative mood, optative -->
-    <Synset id="oewn-13824310-n" ili="i109437" members="oewn-optative_mood-n ewn-optative-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13824310-n" ili="i109437" members="oewn-optative_mood-n oewn-optative-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a mood (as in Greek or Sanskrit) that expresses a wish or hope; expressed in English by modal verbs</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13823636-n"/> <!-- mood, modality, mode -->
       <SynsetRelation relType="domain_region" target="oewn-08798733-n"/> <!-- Ellas, Greece, Hellenic Republic -->
       <SynsetRelation relType="domain_topic" target="oewn-06981803-n"/> <!-- Sanskritic language, Sanskrit -->
     </Synset>
     <!-- imperative mood, imperative, imperative form, jussive mood -->
-    <Synset id="oewn-13824518-n" ili="i109438" members="oewn-imperative_mood-n ewn-imperative-n ewn-jussive_mood-n ewn-imperative_form-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13824518-n" ili="i109438" members="oewn-imperative_mood-n oewn-imperative-n oewn-jussive_mood-n oewn-imperative_form-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a mood that expresses an intention to influence the listener&apos;s behavior</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13823636-n"/> <!-- mood, modality, mode -->
     </Synset>
     <!-- interrogative, interrogative mood -->
-    <Synset id="oewn-13824697-n" ili="i109439" members="oewn-interrogative_mood-n ewn-interrogative-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13824697-n" ili="i109439" members="oewn-interrogative_mood-n oewn-interrogative-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>some linguists consider interrogative sentences to constitute a mood</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13823636-n"/> <!-- mood, modality, mode -->
     </Synset>
     <!-- modality, mode -->
-    <Synset id="oewn-13824846-n" ili="i109440" members="oewn-modality-n ewn-mode-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13824846-n" ili="i109440" members="oewn-modality-n oewn-mode-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a classification of propositions on the basis of whether they claim necessity or possibility or impossibility</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13805250-n"/> <!-- logical relation -->
     </Synset>
@@ -4612,20 +4612,20 @@
       <SynsetRelation relType="hyponym" target="oewn-92470589-n"/>
     </Synset>
     <!-- active, active voice -->
-    <Synset id="oewn-13825370-n" ili="i109443" members="oewn-active_voice-n ewn-active-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13825370-n" ili="i109443" members="oewn-active_voice-n oewn-active-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the voice used to indicate that the grammatical subject of the verb is performing the action or causing the happening denoted by the verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13825132-n"/> <!-- voice -->
       <Example>`The boy threw the ball&apos; uses the active voice</Example>
     </Synset>
     <!-- passive voice, passive -->
-    <Synset id="oewn-13825643-n" ili="i109444" members="oewn-passive_voice-n ewn-passive-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13825643-n" ili="i109444" members="oewn-passive_voice-n oewn-passive-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the voice used to indicate that the grammatical subject of the verb is the recipient (not the source) of the action denoted by the verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13825132-n"/> <!-- voice -->
       <Example>`The ball was thrown by the boy&apos; uses the passive voice</Example>
       <Example>`The ball was thrown&apos; is an abbreviated passive</Example>
     </Synset>
     <!-- inflexion, inflection -->
-    <Synset id="oewn-13825994-n" ili="i109445" members="oewn-inflection-n ewn-inflexion-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13825994-n" ili="i109445" members="oewn-inflection-n oewn-inflexion-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a change in the form of a word (usually by adding a suffix) to indicate a change in its grammatical function</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13818991-n"/> <!-- grammatical relation -->
       <SynsetRelation relType="hyponym" target="oewn-13826297-n"/> <!-- conjugation -->
@@ -4652,7 +4652,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13825994-n"/> <!-- inflexion, inflection -->
     </Synset>
     <!-- pluralisation, pluralization -->
-    <Synset id="oewn-13826719-n" ili="i109449" members="oewn-pluralization-n ewn-pluralisation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13826719-n" ili="i109449" members="oewn-pluralization-n oewn-pluralisation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the act of pluralizing or attributing plurality to</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13825994-n"/> <!-- inflexion, inflection -->
     </Synset>
@@ -4666,17 +4666,17 @@
       <SynsetRelation relType="hyponym" target="oewn-13827806-n"/> <!-- iterative aspect, iterative -->
     </Synset>
     <!-- perfective, perfective aspect -->
-    <Synset id="oewn-13827101-n" ili="i109451" members="oewn-perfective-n ewn-perfective_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827101-n" ili="i109451" members="oewn-perfective-n oewn-perfective_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the aspect of a verb that expresses a completed action</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13826881-n"/> <!-- aspect -->
     </Synset>
     <!-- imperfective aspect, imperfective -->
-    <Synset id="oewn-13827232-n" ili="i109452" members="oewn-imperfective-n ewn-imperfective_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827232-n" ili="i109452" members="oewn-imperfective-n oewn-imperfective_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>aspect without regard to the beginning or completion of the action of the verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13827391-n"/> <!-- durative aspect, durative -->
     </Synset>
     <!-- durative aspect, durative -->
-    <Synset id="oewn-13827391-n" ili="i109453" members="oewn-durative-n ewn-durative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827391-n" ili="i109453" members="oewn-durative-n oewn-durative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the aspect of a verb that expresses its duration</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13826881-n"/> <!-- aspect -->
       <SynsetRelation relType="hyponym" target="oewn-13827232-n"/> <!-- imperfective aspect, imperfective -->
@@ -4688,17 +4688,17 @@
       <SynsetRelation relType="hypernym" target="oewn-13827391-n"/> <!-- durative aspect, durative -->
     </Synset>
     <!-- inchoative aspect, inchoative -->
-    <Synset id="oewn-13827668-n" ili="i109455" members="oewn-inchoative-n ewn-inchoative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827668-n" ili="i109455" members="oewn-inchoative-n oewn-inchoative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>aspect with regard to the beginning of the action of the verb</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13826881-n"/> <!-- aspect -->
     </Synset>
     <!-- iterative aspect, iterative -->
-    <Synset id="oewn-13827806-n" ili="i109456" members="oewn-iterative-n ewn-iterative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827806-n" ili="i109456" members="oewn-iterative-n oewn-iterative_aspect-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the aspect of the verb that expresses the repetition of an action</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13826881-n"/> <!-- aspect -->
     </Synset>
     <!-- imperfect, progressive, imperfect tense, progressive tense, continuous tense -->
-    <Synset id="oewn-13827946-n" ili="i109457" members="oewn-progressive-n ewn-progressive_tense-n ewn-imperfect-n ewn-imperfect_tense-n ewn-continuous_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13827946-n" ili="i109457" members="oewn-progressive-n oewn-progressive_tense-n oewn-imperfect-n oewn-imperfect_tense-n oewn-continuous_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a tense of verbs used in describing action that is on-going</Definition>
       <SynsetRelation relType="hypernym" target="oewn-06340499-n"/> <!-- tense -->
       <SynsetRelation relType="hyponym" target="oewn-13828186-n"/> <!-- present progressive tense, present progressive -->
@@ -4706,12 +4706,12 @@
       <SynsetRelation relType="hyponym" target="oewn-13829615-n"/> <!-- future progressive, future progressive tense -->
     </Synset>
     <!-- present progressive tense, present progressive -->
-    <Synset id="oewn-13828186-n" ili="i109458" members="oewn-present_progressive-n ewn-present_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13828186-n" ili="i109458" members="oewn-present_progressive-n oewn-present_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a tense used to express action that is on-going at the time of utterance</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13827946-n"/> <!-- imperfect, progressive, imperfect tense, progressive tense, continuous tense -->
     </Synset>
     <!-- perfective, perfect, perfective tense, perfect tense -->
-    <Synset id="oewn-13828352-n" ili="i109459" members="oewn-perfective-n ewn-perfective_tense-n ewn-perfect-n ewn-perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13828352-n" ili="i109459" members="oewn-perfective-n oewn-perfective_tense-n oewn-perfect-n oewn-perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a tense of verbs used in describing action that has been completed (sometimes regarded as perfective aspect)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-06340499-n"/> <!-- tense -->
       <SynsetRelation relType="hyponym" target="oewn-13828616-n"/> <!-- present perfect, present perfect tense -->
@@ -4720,36 +4720,36 @@
       <SynsetRelation relType="hyponym" target="oewn-92462168-n"/>
     </Synset>
     <!-- present perfect, present perfect tense -->
-    <Synset id="oewn-13828616-n" ili="i109460" members="oewn-present_perfect-n ewn-present_perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13828616-n" ili="i109460" members="oewn-present_perfect-n oewn-present_perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a perfective tense used to express action completed in the present</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13828352-n"/> <!-- perfective, perfect, perfective tense, perfect tense -->
       <Example>`I have finished&apos; is an example of the present perfect</Example>
     </Synset>
     <!-- preterit, preterite -->
-    <Synset id="oewn-13828826-n" ili="i109461" members="oewn-preterit-n ewn-preterite-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13828826-n" ili="i109461" members="oewn-preterit-n oewn-preterite-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a term formerly used to refer to the simple past tense</Definition>
       <SynsetRelation relType="hypernym" target="oewn-06341255-n"/> <!-- past, past tense -->
     </Synset>
     <!-- past perfect, pluperfect tense, pluperfect, past perfect tense -->
-    <Synset id="oewn-13828947-n" ili="i109462" members="oewn-past_perfect-n ewn-past_perfect_tense-n ewn-pluperfect-n ewn-pluperfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13828947-n" ili="i109462" members="oewn-past_perfect-n oewn-past_perfect_tense-n oewn-pluperfect-n oewn-pluperfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a perfective tense used to express action completed in the past</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13828352-n"/> <!-- perfective, perfect, perfective tense, perfect tense -->
       <Example>`I had finished&apos; is an example of the past perfect</Example>
     </Synset>
     <!-- past progressive, past progressive tense -->
-    <Synset id="oewn-13829176-n" ili="i109463" members="oewn-past_progressive-n ewn-past_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13829176-n" ili="i109463" members="oewn-past_progressive-n oewn-past_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a progressive tense used to describe on-going action in the past</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13827946-n"/> <!-- imperfect, progressive, imperfect tense, progressive tense, continuous tense -->
       <Example>`I had been running&apos; is an example of the past progressive</Example>
     </Synset>
     <!-- future perfect tense, future perfect -->
-    <Synset id="oewn-13829390-n" ili="i109464" members="oewn-future_perfect-n ewn-future_perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13829390-n" ili="i109464" members="oewn-future_perfect-n oewn-future_perfect_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a perfective tense used to describe action that will be completed in the future</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13828352-n"/> <!-- perfective, perfect, perfective tense, perfect tense -->
       <Example>`I will have finished&apos; is an example of the future perfect</Example>
     </Synset>
     <!-- future progressive, future progressive tense -->
-    <Synset id="oewn-13829615-n" ili="i109465" members="oewn-future_progressive-n ewn-future_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13829615-n" ili="i109465" members="oewn-future_progressive-n oewn-future_progressive_tense-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a progressive tense used to express action that will be on-going in the future</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13827946-n"/> <!-- imperfect, progressive, imperfect tense, progressive tense, continuous tense -->
       <Example>`I will be running&apos; is an example of the future progressive</Example>
@@ -4767,17 +4767,17 @@
       <SynsetRelation relType="hyponym" target="oewn-13831080-n"/> <!-- troponymy -->
     </Synset>
     <!-- hyponymy, subordination -->
-    <Synset id="oewn-13830065-n" ili="i109467" members="oewn-hyponymy-n ewn-subordination-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13830065-n" ili="i109467" members="oewn-hyponymy-n oewn-subordination-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the semantic relation of being subordinate or belonging to a lower rank or class</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
     </Synset>
     <!-- hypernymy, superordination -->
-    <Synset id="oewn-13830216-n" ili="i109468" members="oewn-hypernymy-n ewn-superordination-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13830216-n" ili="i109468" members="oewn-hypernymy-n oewn-superordination-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the semantic relation of being superordinate or belonging to a higher rank or class</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
     </Synset>
     <!-- synonymousness, synonymity, synonymy -->
-    <Synset id="oewn-13830373-n" ili="i109469" members="oewn-synonymy-n ewn-synonymity-n ewn-synonymousness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13830373-n" ili="i109469" members="oewn-synonymy-n oewn-synonymity-n oewn-synonymousness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the semantic relation that holds between two words that can (in a given context) express the same meaning</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
     </Synset>
@@ -4787,12 +4787,12 @@
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
     </Synset>
     <!-- holonymy, whole to part relation -->
-    <Synset id="oewn-13830778-n" ili="i109471" members="oewn-holonymy-n ewn-whole_to_part_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13830778-n" ili="i109471" members="oewn-holonymy-n oewn-whole_to_part_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the semantic relation that holds between a whole and its parts</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
     </Synset>
     <!-- part to whole relation, meronymy -->
-    <Synset id="oewn-13830920-n" ili="i109472" members="oewn-meronymy-n ewn-part_to_whole_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13830920-n" ili="i109472" members="oewn-meronymy-n oewn-part_to_whole_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the semantic relation that holds between a part and the whole</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13829848-n"/> <!-- semantic relation -->
       <SynsetRelation relType="mero_part" target="oewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
@@ -4808,7 +4808,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13819354-n"/> <!-- linguistic relation -->
     </Synset>
     <!-- component, portion, part, constituent, component part -->
-    <Synset id="oewn-13831419-n" ili="i109475" members="oewn-part-n ewn-portion-n ewn-component_part-n ewn-component-n ewn-constituent-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13831419-n" ili="i109475" members="oewn-part-n oewn-portion-n oewn-component_part-n oewn-component-n oewn-constituent-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>something determined in relation to something that includes it</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="holo_part" target="oewn-13830920-n"/> <!-- part to whole relation, meronymy -->
@@ -4828,20 +4828,20 @@
       <Example>the animal constituent of plankton</Example>
     </Synset>
     <!-- basis, base -->
-    <Synset id="oewn-13831981-n" ili="i109476" members="oewn-basis-n ewn-base-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13831981-n" ili="i109476" members="oewn-basis-n oewn-base-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the most important or necessary part of something</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
       <Example>the basis of this drink is orange juice</Example>
     </Synset>
     <!-- item, particular, detail -->
-    <Synset id="oewn-13832132-n" ili="i109477" members="oewn-detail-n ewn-particular-n ewn-item-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13832132-n" ili="i109477" members="oewn-detail-n oewn-particular-n oewn-item-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a small part that can be considered separately from the whole</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
       <SynsetRelation relType="hyponym" target="oewn-13832353-n"/> <!-- highlight, high spot -->
       <Example>it was perfect in all details</Example>
     </Synset>
     <!-- highlight, high spot -->
-    <Synset id="oewn-13832353-n" ili="i109478" members="oewn-highlight-n ewn-high_spot-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13832353-n" ili="i109478" members="oewn-highlight-n oewn-high_spot-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the most interesting or memorable part</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13832132-n"/> <!-- item, particular, detail -->
       <Example>the highlight of the tour was our visit to the Vatican</Example>
@@ -4861,7 +4861,7 @@
       <Example>members of the opposite sex</Example>
     </Synset>
     <!-- residue, balance, residual, rest, remainder, residuum -->
-    <Synset id="oewn-13833030-n" ili="i109481" members="oewn-remainder-n ewn-balance-n ewn-residual-n ewn-residue-n ewn-residuum-n ewn-rest-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13833030-n" ili="i109481" members="oewn-remainder-n oewn-balance-n oewn-residual-n oewn-residue-n oewn-residuum-n oewn-rest-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>something left after other parts have been taken away</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
       <SynsetRelation relType="hyponym" target="oewn-13833396-n"/> <!-- leftover, remnant -->
@@ -4870,7 +4870,7 @@
       <Example>he took what he wanted and I got the balance</Example>
     </Synset>
     <!-- leftover, remnant -->
-    <Synset id="oewn-13833396-n" ili="i109482" members="oewn-leftover-n ewn-remnant-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13833396-n" ili="i109482" members="oewn-leftover-n oewn-remnant-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a small part or portion that remains after the main part no longer exists</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13833030-n"/> <!-- residue, balance, residual, rest, remainder, residuum -->
     </Synset>
@@ -4880,7 +4880,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13831419-n"/> <!-- component, portion, part, constituent, component part -->
     </Synset>
     <!-- affinity, kinship -->
-    <Synset id="oewn-13833622-n" ili="i109484" members="oewn-affinity-n ewn-kinship-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13833622-n" ili="i109484" members="oewn-affinity-n oewn-kinship-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a close connection marked by community of interests or similarity in nature or character</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13833952-n"/> <!-- resonance, rapport -->
@@ -4890,7 +4890,7 @@
       <Example>anthropology&apos;s kinship with the humanities</Example>
     </Synset>
     <!-- resonance, rapport -->
-    <Synset id="oewn-13833952-n" ili="i109485" members="oewn-rapport-n ewn-resonance-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13833952-n" ili="i109485" members="oewn-rapport-n oewn-resonance-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relationship of mutual understanding or trust and agreement between people</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13833622-n"/> <!-- affinity, kinship -->
     </Synset>
@@ -4902,19 +4902,19 @@
       <Example>the two of them were in close sympathy</Example>
     </Synset>
     <!-- mutual understanding, mutual affection -->
-    <Synset id="oewn-13834385-n" ili="i109487" members="oewn-mutual_understanding-n ewn-mutual_affection-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13834385-n" ili="i109487" members="oewn-mutual_understanding-n oewn-mutual_affection-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>sympathy of each person for the other</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834112-n"/> <!-- sympathy -->
     </Synset>
     <!-- phylogenetic relation, affinity -->
-    <Synset id="oewn-13834508-n" ili="i109488" members="oewn-affinity-n ewn-phylogenetic_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13834508-n" ili="i109488" members="oewn-affinity-n oewn-phylogenetic_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(biology) state of relationship between organisms or groups of organisms resulting in resemblance in structure or structural parts</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
       <SynsetRelation relType="domain_topic" target="oewn-06047178-n"/> <!-- biology, biological science -->
       <Example>in anatomical structure prehistoric man shows close affinity with modern humans</Example>
     </Synset>
     <!-- relationship, family relationship, kinship -->
-    <Synset id="oewn-13834819-n" ili="i109489" members="oewn-kinship-n ewn-family_relationship-n ewn-relationship-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13834819-n" ili="i109489" members="oewn-kinship-n oewn-family_relationship-n oewn-relationship-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(anthropology) relatedness or connection by blood or marriage or adoption</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="domain_topic" target="oewn-06152997-n"/> <!-- anthropology -->
@@ -4930,7 +4930,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13837242-n"/> <!-- marital relationship, marital bed -->
     </Synset>
     <!-- descent, filiation, lineage, line of descent -->
-    <Synset id="oewn-13835254-n" ili="i109490" members="oewn-descent-n ewn-line_of_descent-n ewn-lineage-n ewn-filiation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13835254-n" ili="i109490" members="oewn-descent-n oewn-line_of_descent-n oewn-lineage-n oewn-filiation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the kinship relation between an individual and the individual&apos;s progenitors</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
       <SynsetRelation relType="hyponym" target="oewn-13836668-n"/> <!-- bilateral descent -->
@@ -4949,28 +4949,28 @@
       <SynsetRelation relType="hypernym" target="oewn-13835495-n"/> <!-- affinity -->
     </Synset>
     <!-- consanguinity, cognation, blood kinship -->
-    <Synset id="oewn-13835803-n" ili="i109493" members="oewn-consanguinity-n ewn-blood_kinship-n ewn-cognation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13835803-n" ili="i109493" members="oewn-consanguinity-n oewn-blood_kinship-n oewn-cognation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(anthropology) the condition of being related by blood</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
       <SynsetRelation relType="domain_topic" target="oewn-06152997-n"/> <!-- anthropology -->
     </Synset>
     <!-- parentage, birth -->
-    <Synset id="oewn-13835977-n" ili="i109494" members="oewn-parentage-n ewn-birth-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13835977-n" ili="i109494" members="oewn-parentage-n oewn-birth-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the kinship relation of an offspring to the parents</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
     </Synset>
     <!-- fatherhood, paternity -->
-    <Synset id="oewn-13836110-n" ili="i109495" members="oewn-fatherhood-n ewn-paternity-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13836110-n" ili="i109495" members="oewn-fatherhood-n oewn-paternity-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the kinship relation between an offspring and the father</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
     </Synset>
     <!-- maternity, motherhood -->
-    <Synset id="oewn-13836253-n" ili="i109496" members="oewn-motherhood-n ewn-maternity-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13836253-n" ili="i109496" members="oewn-motherhood-n oewn-maternity-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the kinship relation between an offspring and the mother</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
     </Synset>
     <!-- sisterhood, sistership -->
-    <Synset id="oewn-13836396-n" ili="i109497" members="oewn-sisterhood-n ewn-sistership-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13836396-n" ili="i109497" members="oewn-sisterhood-n oewn-sistership-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the kinship relation between a female offspring and the siblings</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
     </Synset>
@@ -4992,22 +4992,22 @@
       <SynsetRelation relType="hyponym" target="oewn-13837110-n"/> <!-- patrilineage, agnation -->
     </Synset>
     <!-- matrilineage, cognation, enation -->
-    <Synset id="oewn-13836967-n" ili="i109501" members="oewn-matrilineage-n ewn-enation-n ewn-cognation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13836967-n" ili="i109501" members="oewn-matrilineage-n oewn-enation-n oewn-cognation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>line of descent traced through the maternal side of the family</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13836813-n"/> <!-- unilateral descent -->
     </Synset>
     <!-- patrilineage, agnation -->
-    <Synset id="oewn-13837110-n" ili="i109502" members="oewn-patrilineage-n ewn-agnation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13837110-n" ili="i109502" members="oewn-patrilineage-n oewn-agnation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>line of descent traced through the paternal side of the family</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13836813-n"/> <!-- unilateral descent -->
     </Synset>
     <!-- marital relationship, marital bed -->
-    <Synset id="oewn-13837242-n" ili="i109503" members="oewn-marital_relationship-n ewn-marital_bed-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13837242-n" ili="i109503" members="oewn-marital_relationship-n oewn-marital_bed-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relationship between wife and husband</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13834819-n"/> <!-- relationship, family relationship, kinship -->
     </Synset>
     <!-- magnitude relation, quantitative relation -->
-    <Synset id="oewn-13837364-n" ili="i109504" members="oewn-magnitude_relation-n ewn-quantitative_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13837364-n" ili="i109504" members="oewn-magnitude_relation-n oewn-quantitative_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation between magnitudes</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13837554-n"/> <!-- scale -->
@@ -5022,7 +5022,7 @@
       <Example>they entertained on a grand scale</Example>
     </Synset>
     <!-- ratio, proportion -->
-    <Synset id="oewn-13837661-n" ili="i109506" members="oewn-proportion-n ewn-ratio-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13837661-n" ili="i109506" members="oewn-proportion-n oewn-ratio-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation between things (or parts of things) with respect to their comparative quantity, magnitude, or degree</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13837364-n"/> <!-- magnitude relation, quantitative relation -->
       <Example>an inordinate proportion of the book is given over to quotations</Example>
@@ -5048,7 +5048,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13837954-n"/> <!-- proportion -->
     </Synset>
     <!-- case-to-infection ratio, case-to-infection proportion -->
-    <Synset id="oewn-13838525-n" ili="i109509" members="oewn-case-to-infection_proportion-n ewn-case-to-infection_ratio-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13838525-n" ili="i109509" members="oewn-case-to-infection_proportion-n oewn-case-to-infection_ratio-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the number of cases of a disease divided by the number of infections with the agent that causes the disease</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13837954-n"/> <!-- proportion -->
     </Synset>
@@ -5074,17 +5074,17 @@
       <Example>the scale of the model</Example>
     </Synset>
     <!-- golden section, golden mean -->
-    <Synset id="oewn-13839278-n" ili="i109513" members="oewn-golden_section-n ewn-golden_mean-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13839278-n" ili="i109513" members="oewn-golden_section-n oewn-golden_mean-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the proportional relation between two divisions of line or two dimension of a plane figure such that short : long :: long : (short + long)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13837954-n"/> <!-- proportion -->
     </Synset>
     <!-- correspondence, proportionateness, commensurateness -->
-    <Synset id="oewn-13839491-n" ili="i109514" members="oewn-commensurateness-n ewn-correspondence-n ewn-proportionateness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13839491-n" ili="i109514" members="oewn-commensurateness-n oewn-correspondence-n oewn-proportionateness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of corresponding in degree or size or amount</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13846887-n"/> <!-- proportionality -->
     </Synset>
     <!-- percent, percentage, pct, per centum -->
-    <Synset id="oewn-13839738-n" ili="i109515" members="oewn-percentage-n ewn-percent-n ewn-per_centum-n ewn-pct-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13839738-n" ili="i109515" members="oewn-percentage-n oewn-percent-n oewn-per_centum-n oewn-pct-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a proportion in relation to a whole (which is usually the amount per hundred); ten percent</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13837954-n"/> <!-- proportion -->
       <SynsetRelation relType="hyponym" target="oewn-13839973-n"/> <!-- absentee rate -->
@@ -5098,7 +5098,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13839738-n"/> <!-- percent, percentage, pct, per centum -->
     </Synset>
     <!-- hitting average, batting average -->
-    <Synset id="oewn-13840084-n" ili="i109517" members="oewn-batting_average-n ewn-hitting_average-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13840084-n" ili="i109517" members="oewn-batting_average-n oewn-hitting_average-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(baseball) a measure of a batter&apos;s performance; the number of base hits divided by the number of official times at bat</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13842867-n"/> <!-- average -->
       <SynsetRelation relType="domain_topic" target="oewn-00472688-n"/> <!-- baseball, baseball game, ball -->
@@ -5202,7 +5202,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06100457-n"/> <!-- physics, natural philosophy -->
     </Synset>
     <!-- reflective power, albedo -->
-    <Synset id="oewn-13842644-n" ili="i109528" members="oewn-albedo-n ewn-reflective_power-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13842644-n" ili="i109528" members="oewn-albedo-n oewn-reflective_power-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of reflected to incident light</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5220,7 +5220,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13840566-n"/> <!-- fielding average -->
     </Synset>
     <!-- cranial index, breadth index, cephalic index -->
-    <Synset id="oewn-13843038-n" ili="i109531" members="oewn-cephalic_index-n ewn-breadth_index-n ewn-cranial_index-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13843038-n" ili="i109531" members="oewn-cephalic_index-n oewn-breadth_index-n oewn-cranial_index-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>ratio (in percent) of the maximum breadth to the maximum length of a skull</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5241,23 +5241,23 @@
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- focal ratio, f number, speed, stop number -->
-    <Synset id="oewn-13843620-n" ili="i109535" members="oewn-focal_ratio-n ewn-f_number-n ewn-stop_number-n ewn-speed-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13843620-n" ili="i109535" members="oewn-focal_ratio-n oewn-f_number-n oewn-stop_number-n oewn-speed-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the focal length to the diameter of a (camera) lens system</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- relative frequency, frequency -->
-    <Synset id="oewn-13843782-n" ili="i109536" members="oewn-frequency-n ewn-relative_frequency-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13843782-n" ili="i109536" members="oewn-frequency-n oewn-relative_frequency-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the number of observations in a statistical category to the total number of observations</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <SynsetRelation relType="hyponym" target="oewn-13849172-n"/> <!-- incidence, relative incidence -->
     </Synset>
     <!-- hematocrit, packed cell volume, haematocrit -->
-    <Synset id="oewn-13843978-n" ili="i109537" members="oewn-hematocrit-n ewn-haematocrit-n ewn-packed_cell_volume-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13843978-n" ili="i109537" members="oewn-hematocrit-n oewn-haematocrit-n oewn-packed_cell_volume-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the volume occupied by packed red blood cells to the volume of the whole blood as measured by a hematocrit</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- intelligence quotient, IQ, I.Q. -->
-    <Synset id="oewn-13844189-n" ili="i109538" members="oewn-intelligence_quotient-n ewn-IQ-n ewn-I.Q.-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13844189-n" ili="i109538" members="oewn-intelligence_quotient-n oewn-IQ-n oewn-I.Q.-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a measure of a person&apos;s intelligence as indicated by an intelligence test; the ratio of a person&apos;s mental age to their chronological age (multiplied by 100)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <SynsetRelation relType="hyponym" target="oewn-13844461-n"/> <!-- adult intelligence -->
@@ -5300,18 +5300,18 @@
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- mileage, fuel consumption rate, gasoline mileage, gas mileage -->
-    <Synset id="oewn-13845499-n" ili="i109546" members="oewn-mileage-n ewn-fuel_consumption_rate-n ewn-gasoline_mileage-n ewn-gas_mileage-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13845499-n" ili="i109546" members="oewn-mileage-n oewn-fuel_consumption_rate-n oewn-gasoline_mileage-n oewn-gas_mileage-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the number of miles traveled to the number of gallons of gasoline burned</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- betting odds, odds -->
-    <Synset id="oewn-13845695-n" ili="i109547" members="oewn-odds-n ewn-betting_odds-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13845695-n" ili="i109547" members="oewn-odds-n oewn-betting_odds-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio by which one better&apos;s wager is greater than that of another</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <Example>he offered odds of two to one</Example>
     </Synset>
     <!-- order of magnitude, magnitude -->
-    <Synset id="oewn-13845863-n" ili="i109548" members="oewn-order_of_magnitude-n ewn-magnitude-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13845863-n" ili="i109548" members="oewn-order_of_magnitude-n oewn-magnitude-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a number assigned to the ratio of two quantities; two quantities are of the same order of magnitude if one is less than 10 times as large as the other; the number of magnitudes that the quantities differ is specified to within a power of 10</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5328,7 +5328,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06059555-n"/> <!-- epidemiology -->
     </Synset>
     <!-- P/E ratio, price-to-earnings ratio -->
-    <Synset id="oewn-13846552-n" ili="i109551" members="oewn-price-to-earnings_ratio-n ewn-P-sl-E_ratio-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13846552-n" ili="i109551" members="oewn-price-to-earnings_ratio-n oewn-P-sl-E_ratio-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(stock market) the price of a stock divided by its earnings</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <SynsetRelation relType="domain_topic" target="oewn-04330164-n"/> <!-- securities market, stock exchange, stock market -->
@@ -5352,7 +5352,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13837954-n"/> <!-- proportion -->
     </Synset>
     <!-- refractive index, index of refraction -->
-    <Synset id="oewn-13847141-n" ili="i109555" members="oewn-refractive_index-n ewn-index_of_refraction-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13847141-n" ili="i109555" members="oewn-refractive_index-n oewn-index_of_refraction-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the velocity of light in a vacuum to that in a medium</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5367,12 +5367,12 @@
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- factor of safety, safety factor -->
-    <Synset id="oewn-13847703-n" ili="i109558" members="oewn-safety_factor-n ewn-factor_of_safety-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13847703-n" ili="i109558" members="oewn-safety_factor-n oewn-factor_of_safety-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the breaking stress of a structure to the estimated maximum stress in ordinary use</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- signal-to-noise ratio, signal-to-noise, signal/noise, S/N, signal/noise ratio -->
-    <Synset id="oewn-13847877-n" ili="i109559" members="oewn-signal-to-noise_ratio-n ewn-signal-to-noise-n ewn-signal-sl-noise_ratio-n ewn-signal-sl-noise-n ewn-S-sl-N-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13847877-n" ili="i109559" members="oewn-signal-to-noise_ratio-n oewn-signal-to-noise-n oewn-signal-sl-noise_ratio-n oewn-signal-sl-noise-n oewn-S-sl-N-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of signal intensity to noise intensity</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5388,7 +5388,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
     <!-- turnover, employee turnover, turnover rate -->
-    <Synset id="oewn-13848434-n" ili="i109562" members="oewn-employee_turnover-n ewn-turnover_rate-n ewn-turnover-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13848434-n" ili="i109562" members="oewn-employee_turnover-n oewn-turnover_rate-n oewn-turnover-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the ratio of the number of workers that had to be replaced in a given time period to the average number of workers</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
     </Synset>
@@ -5416,7 +5416,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13848639-n"/> <!-- loading -->
     </Synset>
     <!-- incidence, relative incidence -->
-    <Synset id="oewn-13849172-n" ili="i109567" members="oewn-incidence-n ewn-relative_incidence-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13849172-n" ili="i109567" members="oewn-incidence-n oewn-relative_incidence-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relative frequency of occurrence of something</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13843782-n"/> <!-- relative frequency, frequency -->
       <SynsetRelation relType="hyponym" target="oewn-13849316-n"/> <!-- morbidity -->
@@ -5504,17 +5504,17 @@
       <SynsetRelation relType="hyponym" target="oewn-13851621-n"/> <!-- enantiomorphism, mirror-image relation -->
     </Synset>
     <!-- perpendicularity, orthogonal opposition, orthogonality -->
-    <Synset id="oewn-13851260-n" ili="i109578" members="oewn-orthogonality-n ewn-perpendicularity-n ewn-orthogonal_opposition-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13851260-n" ili="i109578" members="oewn-orthogonality-n oewn-perpendicularity-n oewn-orthogonal_opposition-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of opposition between things at right angles</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13851118-n"/> <!-- opposition -->
     </Synset>
     <!-- antipodal, antipodal opposition, diametrical opposition -->
-    <Synset id="oewn-13851456-n" ili="i109579" members="oewn-antipodal-n ewn-antipodal_opposition-n ewn-diametrical_opposition-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13851456-n" ili="i109579" members="oewn-antipodal-n oewn-antipodal_opposition-n oewn-diametrical_opposition-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of opposition along a diameter</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13851118-n"/> <!-- opposition -->
     </Synset>
     <!-- enantiomorphism, mirror-image relation -->
-    <Synset id="oewn-13851621-n" ili="i109580" members="oewn-enantiomorphism-n ewn-mirror-image_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13851621-n" ili="i109580" members="oewn-enantiomorphism-n oewn-mirror-image_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation of opposition between crystals or molecules that are reflections of one another</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13851118-n"/> <!-- opposition -->
     </Synset>
@@ -5525,7 +5525,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13851933-n"/> <!-- weatherboard, weather side, windward side -->
     </Synset>
     <!-- weatherboard, weather side, windward side -->
-    <Synset id="oewn-13851933-n" ili="i109582" members="oewn-windward_side-n ewn-weatherboard-n ewn-weather_side-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13851933-n" ili="i109582" members="oewn-windward_side-n oewn-weatherboard-n oewn-weather_side-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the side toward the wind</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13851799-n"/> <!-- windward -->
     </Synset>
@@ -5536,7 +5536,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13852179-n"/> <!-- to leeward, leeward side -->
     </Synset>
     <!-- to leeward, leeward side -->
-    <Synset id="oewn-13852179-n" ili="i109584" members="oewn-to_leeward-n ewn-leeward_side-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13852179-n" ili="i109584" members="oewn-to_leeward-n oewn-leeward_side-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the side sheltered from the wind</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852047-n"/> <!-- leeward -->
     </Synset>
@@ -5552,7 +5552,7 @@
       <Example>the wind is coming from that quarter</Example>
     </Synset>
     <!-- point, compass point -->
-    <Synset id="oewn-13852504-n" ili="i109587" members="oewn-compass_point-n ewn-point-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13852504-n" ili="i109587" members="oewn-compass_point-n oewn-point-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>any of 32 horizontal directions indicated on the card of a compass</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13849639-n"/> <!-- direction -->
       <SynsetRelation relType="hyponym" target="oewn-13853199-n"/> <!-- cardinal compass point -->
@@ -5596,167 +5596,167 @@
       <SynsetRelation relType="hyponym" target="oewn-13856598-n"/> <!-- W, due west, west, westward -->
     </Synset>
     <!-- north, due north, N, northward -->
-    <Synset id="oewn-13853375-n" ili="i109589" members="oewn-north-n ewn-due_north-n ewn-northward-n ewn-N-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13853375-n" ili="i109589" members="oewn-north-n oewn-due_north-n oewn-northward-n oewn-N-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the cardinal compass point that is at 0 or 360 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13853199-n"/> <!-- cardinal compass point -->
     </Synset>
     <!-- NbE, north by east -->
-    <Synset id="oewn-13853509-n" ili="i109590" members="oewn-north_by_east-n ewn-NbE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13853509-n" ili="i109590" members="oewn-north_by_east-n oewn-NbE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point east (clockwise) of due north</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- north, magnetic north, compass north -->
-    <Synset id="oewn-13853640-n" ili="i109591" members="oewn-north-n ewn-magnetic_north-n ewn-compass_north-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13853640-n" ili="i109591" members="oewn-north-n oewn-magnetic_north-n oewn-compass_north-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the direction in which a compass needle points</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13849639-n"/> <!-- direction -->
     </Synset>
     <!-- NNE, nor'-nor'-east, north northeast -->
-    <Synset id="oewn-13853771-n" ili="i109592" members="oewn-north_northeast-n ewn-nor-ap--nor-ap--east-n ewn-NNE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13853771-n" ili="i109592" members="oewn-north_northeast-n oewn-nor-ap--nor-ap--east-n oewn-NNE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is midway between north and northeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- northeast by north, NEbN -->
-    <Synset id="oewn-13853916-n" ili="i109593" members="oewn-northeast_by_north-n ewn-NEbN-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13853916-n" ili="i109593" members="oewn-northeast_by_north-n oewn-NEbN-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point north of northeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- nor'-east, northeast, northeastward, NE -->
-    <Synset id="oewn-13854042-n" ili="i109594" members="oewn-northeast-n ewn-nor-ap--east-n ewn-northeastward-n ewn-NE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854042-n" ili="i109594" members="oewn-northeast-n oewn-nor-ap--east-n oewn-northeastward-n oewn-NE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between north and east; at 45 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- northeast by east, NEbE -->
-    <Synset id="oewn-13854193-n" ili="i109595" members="oewn-northeast_by_east-n ewn-NEbE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854193-n" ili="i109595" members="oewn-northeast_by_east-n oewn-NEbE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point east of northeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- east northeast, ENE -->
-    <Synset id="oewn-13854317-n" ili="i109596" members="oewn-east_northeast-n ewn-ENE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854317-n" ili="i109596" members="oewn-east_northeast-n oewn-ENE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between northeast and east</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- east by north, EbN -->
-    <Synset id="oewn-13854435-n" ili="i109597" members="oewn-east_by_north-n ewn-EbN-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854435-n" ili="i109597" members="oewn-east_by_north-n oewn-EbN-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point north of due east</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- east, E, eastward, due east -->
-    <Synset id="oewn-13854554-n" ili="i109598" members="oewn-east-n ewn-due_east-n ewn-eastward-n ewn-E-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854554-n" ili="i109598" members="oewn-east-n oewn-due_east-n oewn-eastward-n oewn-E-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the cardinal compass point that is at 90 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13853199-n"/> <!-- cardinal compass point -->
     </Synset>
     <!-- EbS, east by south -->
-    <Synset id="oewn-13854679-n" ili="i109599" members="oewn-east_by_south-n ewn-EbS-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854679-n" ili="i109599" members="oewn-east_by_south-n oewn-EbS-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point south of due east</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- ESE, east southeast -->
-    <Synset id="oewn-13854798-n" ili="i109600" members="oewn-east_southeast-n ewn-ESE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854798-n" ili="i109600" members="oewn-east_southeast-n oewn-ESE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between east and southeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- southeast by east, SEbE -->
-    <Synset id="oewn-13854916-n" ili="i109601" members="oewn-southeast_by_east-n ewn-SEbE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13854916-n" ili="i109601" members="oewn-southeast_by_east-n oewn-SEbE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point east of southeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- SE, southeast, southeastward, sou'-east -->
-    <Synset id="oewn-13855040-n" ili="i109602" members="oewn-southeast-n ewn-sou-ap--east-n ewn-southeastward-n ewn-SE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855040-n" ili="i109602" members="oewn-southeast-n oewn-sou-ap--east-n oewn-southeastward-n oewn-SE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between south and east; at 135 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- SEbS, southeast by south -->
-    <Synset id="oewn-13855192-n" ili="i109603" members="oewn-southeast_by_south-n ewn-SEbS-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855192-n" ili="i109603" members="oewn-southeast_by_south-n oewn-SEbS-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point south of southeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- SSE, south southeast, sou'-sou'-east -->
-    <Synset id="oewn-13855318-n" ili="i109604" members="oewn-south_southeast-n ewn-sou-ap--sou-ap--east-n ewn-SSE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855318-n" ili="i109604" members="oewn-south_southeast-n oewn-sou-ap--sou-ap--east-n oewn-SSE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between south and southeast</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- south by east, SbE -->
-    <Synset id="oewn-13855455-n" ili="i109605" members="oewn-south_by_east-n ewn-SbE-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855455-n" ili="i109605" members="oewn-south_by_east-n oewn-SbE-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point east of due south</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- southward, due south, S, south -->
-    <Synset id="oewn-13855574-n" ili="i109606" members="oewn-south-n ewn-due_south-n ewn-southward-n ewn-S-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855574-n" ili="i109606" members="oewn-south-n oewn-due_south-n oewn-southward-n oewn-S-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the cardinal compass point that is at 180 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13853199-n"/> <!-- cardinal compass point -->
     </Synset>
     <!-- SbW, south by west -->
-    <Synset id="oewn-13855703-n" ili="i109607" members="oewn-south_by_west-n ewn-SbW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855703-n" ili="i109607" members="oewn-south_by_west-n oewn-SbW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point west of due south</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- sou'-sou'-west, south southwest, SSW -->
-    <Synset id="oewn-13855822-n" ili="i109608" members="oewn-south_southwest-n ewn-sou-ap--sou-ap--west-n ewn-SSW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855822-n" ili="i109608" members="oewn-south_southwest-n oewn-sou-ap--sou-ap--west-n oewn-SSW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between south and southwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- southwest by south, SWbS -->
-    <Synset id="oewn-13855959-n" ili="i109609" members="oewn-southwest_by_south-n ewn-SWbS-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13855959-n" ili="i109609" members="oewn-southwest_by_south-n oewn-SWbS-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point south of southwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- SW, sou'-west, southwestward, southwest -->
-    <Synset id="oewn-13856085-n" ili="i109610" members="oewn-southwest-n ewn-sou-ap--west-n ewn-southwestward-n ewn-SW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856085-n" ili="i109610" members="oewn-southwest-n oewn-sou-ap--west-n oewn-southwestward-n oewn-SW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between south and west; at 225 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- southwest by west, SWbW -->
-    <Synset id="oewn-13856237-n" ili="i109611" members="oewn-southwest_by_west-n ewn-SWbW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856237-n" ili="i109611" members="oewn-southwest_by_west-n oewn-SWbW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point west of southwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- west southwest, WSW -->
-    <Synset id="oewn-13856361-n" ili="i109612" members="oewn-west_southwest-n ewn-WSW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856361-n" ili="i109612" members="oewn-west_southwest-n oewn-WSW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between west and southwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- WbS, west by south -->
-    <Synset id="oewn-13856479-n" ili="i109613" members="oewn-west_by_south-n ewn-WbS-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856479-n" ili="i109613" members="oewn-west_by_south-n oewn-WbS-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point south of due west</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- W, due west, west, westward -->
-    <Synset id="oewn-13856598-n" ili="i109614" members="oewn-west-n ewn-due_west-n ewn-westward-n ewn-W-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856598-n" ili="i109614" members="oewn-west-n oewn-due_west-n oewn-westward-n oewn-W-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the cardinal compass point that is at 270 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13853199-n"/> <!-- cardinal compass point -->
     </Synset>
     <!-- WbN, west by north -->
-    <Synset id="oewn-13856723-n" ili="i109615" members="oewn-west_by_north-n ewn-WbN-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856723-n" ili="i109615" members="oewn-west_by_north-n oewn-WbN-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point north of due west</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- WNW, west northwest -->
-    <Synset id="oewn-13856842-n" ili="i109616" members="oewn-west_northwest-n ewn-WNW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856842-n" ili="i109616" members="oewn-west_northwest-n oewn-WNW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between west and northwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- northwest by west, NWbW -->
-    <Synset id="oewn-13856960-n" ili="i109617" members="oewn-northwest_by_west-n ewn-NWbW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13856960-n" ili="i109617" members="oewn-northwest_by_west-n oewn-NWbW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point west of northwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- northwestward, nor'-west, NW, northwest -->
-    <Synset id="oewn-13857084-n" ili="i109618" members="oewn-northwest-n ewn-nor-ap--west-n ewn-northwestward-n ewn-NW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13857084-n" ili="i109618" members="oewn-northwest-n oewn-nor-ap--west-n oewn-northwestward-n oewn-NW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point midway between north and west; at 315 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- northwest by north, NWbN -->
-    <Synset id="oewn-13857236-n" ili="i109619" members="oewn-northwest_by_north-n ewn-NWbN-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13857236-n" ili="i109619" members="oewn-northwest_by_north-n oewn-NWbN-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point north of northwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- NNW, nor'-nor'-west, north northwest -->
-    <Synset id="oewn-13857362-n" ili="i109620" members="oewn-north_northwest-n ewn-nor-ap--nor-ap--west-n ewn-NNW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13857362-n" ili="i109620" members="oewn-north_northwest-n oewn-nor-ap--nor-ap--west-n oewn-NNW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is midway between north and northwest</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
     <!-- north by west, NbW -->
-    <Synset id="oewn-13857507-n" ili="i109621" members="oewn-north_by_west-n ewn-NbW-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13857507-n" ili="i109621" members="oewn-north_by_west-n oewn-NbW-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the compass point that is one point west of due north</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13852504-n"/> <!-- point, compass point -->
     </Synset>
@@ -5808,7 +5808,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13858914-n"/> <!-- depression -->
     </Synset>
     <!-- altitude, elevation, ALT, EL -->
-    <Synset id="oewn-13858749-n" ili="i109631" members="oewn-elevation-n ewn-EL-n ewn-altitude-n ewn-ALT-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13858749-n" ili="i109631" members="oewn-elevation-n oewn-EL-n oewn-altitude-n oewn-ALT-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>angular distance above the horizon (especially of a celestial object)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13858570-n"/> <!-- angular position -->
     </Synset>
@@ -5833,7 +5833,7 @@
       <Example>business competition can be fiendish at times</Example>
     </Synset>
     <!-- price competition, price war -->
-    <Synset id="oewn-13859399-n" ili="i109635" members="oewn-price_war-n ewn-price_competition-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13859399-n" ili="i109635" members="oewn-price_war-n oewn-price_competition-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>intense competition in which competitors cut retail prices to gain business</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13859208-n"/> <!-- competition -->
     </Synset>
@@ -5924,7 +5924,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-08458195-n"/> <!-- law, jurisprudence -->
     </Synset>
     <!-- lawyer-client relation, attorney-client relation -->
-    <Synset id="oewn-13861861-n" ili="i109648" members="oewn-lawyer-client_relation-n ewn-attorney-client_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13861861-n" ili="i109648" members="oewn-lawyer-client_relation-n oewn-attorney-client_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the responsibility of a lawyer to act in the best interests of the client</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13860585-n"/> <!-- fiduciary relation -->
       <SynsetRelation relType="domain_topic" target="oewn-08458195-n"/> <!-- law, jurisprudence -->
@@ -5963,21 +5963,21 @@
       <SynsetRelation relType="mero_member" target="oewn-10713754-n"/> <!-- teacher, instructor -->
     </Synset>
     <!-- politics, political relation -->
-    <Synset id="oewn-13862918-n" ili="i109654" members="oewn-politics-n ewn-political_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13862918-n" ili="i109654" members="oewn-politics-n oewn-political_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>social relations involving intrigue to gain authority or power</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00033122-n"/> <!-- social relation -->
       <SynsetRelation relType="has_domain_topic" target="oewn-14437235-n"/> <!-- wilderness -->
       <Example>office politics is often counterproductive</Example>
     </Synset>
     <!-- alchemy, interpersonal chemistry, chemistry -->
-    <Synset id="oewn-13863157-n" ili="i109655" members="oewn-chemistry-n ewn-interpersonal_chemistry-n ewn-alchemy-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13863157-n" ili="i109655" members="oewn-chemistry-n oewn-interpersonal_chemistry-n oewn-alchemy-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the way two individuals relate to each other</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00033122-n"/> <!-- social relation -->
       <Example>their chemistry was wrong from the beginning -- they hated each other</Example>
       <Example>a mysterious alchemy brought them together</Example>
     </Synset>
     <!-- reciprocality, reciprocity -->
-    <Synset id="oewn-13863412-n" ili="i109656" members="oewn-reciprocality-n ewn-reciprocity-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13863412-n" ili="i109656" members="oewn-reciprocality-n oewn-reciprocity-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation of mutual dependence or action or influence</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13863666-n"/> <!-- complementarity -->
@@ -5993,12 +5993,12 @@
       <Example>the complementarity of the sexes</Example>
     </Synset>
     <!-- correlativity, correlation -->
-    <Synset id="oewn-13863850-n" ili="i109658" members="oewn-correlation-n ewn-correlativity-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13863850-n" ili="i109658" members="oewn-correlation-n oewn-correlativity-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a reciprocal relation between two or more things</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13863412-n"/> <!-- reciprocality, reciprocity -->
     </Synset>
     <!-- mutuality, interdependence, interdependency -->
-    <Synset id="oewn-13864062-n" ili="i109659" members="oewn-mutuality-n ewn-interdependence-n ewn-interdependency-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13864062-n" ili="i109659" members="oewn-mutuality-n oewn-interdependence-n oewn-interdependency-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a reciprocal relation between interdependent entities (objects or individuals or groups)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13863412-n"/> <!-- reciprocality, reciprocity -->
       <SynsetRelation relType="hyponym" target="oewn-13864440-n"/> <!-- commensalism -->
@@ -6018,7 +6018,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13864062-n"/> <!-- mutuality, interdependence, interdependency -->
     </Synset>
     <!-- mutualism, symbiosis -->
-    <Synset id="oewn-13864821-n" ili="i109662" members="oewn-symbiosis-n ewn-mutualism-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13864821-n" ili="i109662" members="oewn-symbiosis-n oewn-mutualism-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation between two different species of organisms that are interdependent; each gains benefits from the other</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13864062-n"/> <!-- mutuality, interdependence, interdependency -->
       <SynsetRelation relType="hyponym" target="oewn-13865040-n"/> <!-- trophobiosis -->
@@ -6035,13 +6035,13 @@
       <SynsetRelation relType="domain_topic" target="oewn-06009822-n"/> <!-- math, mathematics, maths -->
     </Synset>
     <!-- multiplicative inverse, reciprocal -->
-    <Synset id="oewn-13865372-n" ili="i109665" members="oewn-multiplicative_inverse-n ewn-reciprocal-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13865372-n" ili="i109665" members="oewn-multiplicative_inverse-n oewn-reciprocal-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>(mathematics) one of a pair of numbers whose product is 1: the reciprocal of 2/3 is 3/2; the multiplicative inverse of 7 is 1/7</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13881030-n"/> <!-- opposite, inverse -->
       <SynsetRelation relType="domain_topic" target="oewn-06009822-n"/> <!-- math, mathematics, maths -->
     </Synset>
     <!-- mutualness, mutuality -->
-    <Synset id="oewn-13865600-n" ili="i109666" members="oewn-mutuality-n ewn-mutualness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13865600-n" ili="i109666" members="oewn-mutuality-n oewn-mutualness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a reciprocality of sentiments</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13863412-n"/> <!-- reciprocality, reciprocity -->
       <Example>the mutuality of their affection was obvious</Example>
@@ -6071,7 +6071,7 @@
       <SynsetRelation relType="domain_topic" target="oewn-06138021-n"/> <!-- computer science, computing -->
     </Synset>
     <!-- interrelatedness, interrelation, interrelationship -->
-    <Synset id="oewn-13866409-n" ili="i109671" members="oewn-interrelation-n ewn-interrelationship-n ewn-interrelatedness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13866409-n" ili="i109671" members="oewn-interrelation-n oewn-interrelationship-n oewn-interrelatedness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>mutual or reciprocal relation or relatedness</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13866715-n"/> <!-- psychodynamics -->
@@ -6096,7 +6096,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13868035-n"/> <!-- asynchrony, asynchronism, desynchronizing, desynchronisation, desynchronization -->
     </Synset>
     <!-- forerunner, antecedent -->
-    <Synset id="oewn-13867120-n" ili="i109674" members="oewn-antecedent-n ewn-forerunner-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13867120-n" ili="i109674" members="oewn-antecedent-n oewn-forerunner-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>anything that precedes something similar in time</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13866887-n"/> <!-- temporal relation -->
       <Example>phrenology was an antecedent of modern neuroscience</Example>
@@ -6107,19 +6107,19 @@
       <SynsetRelation relType="hypernym" target="oewn-13866887-n"/> <!-- temporal relation -->
     </Synset>
     <!-- synchronism, synchronizing, synchronisation, synchronization, synchroneity, synchronicity, synchrony -->
-    <Synset id="oewn-13867436-n" ili="i109676" members="oewn-synchronism-n ewn-synchrony-n ewn-synchronicity-n ewn-synchroneity-n ewn-synchronization-n ewn-synchronisation-n ewn-synchronizing-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13867436-n" ili="i109676" members="oewn-synchronism-n oewn-synchrony-n oewn-synchronicity-n oewn-synchroneity-n oewn-synchronization-n oewn-synchronisation-n oewn-synchronizing-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation that exists when things occur at the same time</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13866887-n"/> <!-- temporal relation -->
       <Example>the drug produces an increased synchrony of the brain waves</Example>
     </Synset>
     <!-- asynchrony, asynchronism, desynchronizing, desynchronisation, desynchronization -->
-    <Synset id="oewn-13868035-n" ili="i109677" members="oewn-asynchronism-n ewn-asynchrony-n ewn-desynchronization-n ewn-desynchronisation-n ewn-desynchronizing-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13868035-n" ili="i109677" members="oewn-asynchronism-n oewn-asynchrony-n oewn-desynchronization-n oewn-desynchronisation-n oewn-desynchronizing-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation that exists when things occur at unrelated times</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13866887-n"/> <!-- temporal relation -->
       <Example>the stimulus produced a desynchronizing of the brain waves</Example>
     </Synset>
     <!-- first, number one -->
-    <Synset id="oewn-13868396-n" ili="i109678" members="oewn-first-n ewn-number_one-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13868396-n" ili="i109678" members="oewn-first-n oewn-number_one-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the first or highest in an ordering or series</Definition>
       <SynsetRelation relType="hypernym" target="oewn-14453411-n"/> <!-- rank -->
       <SynsetRelation relType="hyponym" target="oewn-13868553-n"/> <!-- former -->
@@ -6302,7 +6302,7 @@
       <Example>he finished an inglorious last</Example>
     </Synset>
     <!-- ordered series, scale, scale of measurement, graduated table -->
-    <Synset id="oewn-13872501-n" ili="i109712" members="oewn-scale-n ewn-scale_of_measurement-n ewn-graduated_table-n ewn-ordered_series-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13872501-n" ili="i109712" members="oewn-scale-n oewn-scale_of_measurement-n oewn-graduated_table-n oewn-ordered_series-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>an ordered reference standard</Definition>
       <SynsetRelation relType="hypernym" target="oewn-07275291-n"/> <!-- touchstone, measure, standard, criterion -->
       <SynsetRelation relType="hyponym" target="oewn-13872871-n"/> <!-- Beaufort scale, wind scale -->
@@ -6318,7 +6318,7 @@
       <Example>judging on a scale of 1 to 10</Example>
     </Synset>
     <!-- Beaufort scale, wind scale -->
-    <Synset id="oewn-13872871-n" ili="i109713" members="oewn-Beaufort_scale-n ewn-wind_scale-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13872871-n" ili="i109713" members="oewn-Beaufort_scale-n oewn-wind_scale-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>an international scale of wind force from 0 (calm air) to 12 (hurricane)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
       <SynsetRelation relType="mero_part" target="oewn-11451731-n"/> <!-- calm, calm air -->
@@ -6381,7 +6381,7 @@
       <SynsetRelation relType="hyponym" target="oewn-13875604-n"/> <!-- Reaumur scale -->
     </Synset>
     <!-- Celsius scale, international scale, centigrade scale -->
-    <Synset id="oewn-13874797-n" ili="i109721" members="oewn-Celsius_scale-n ewn-international_scale-n ewn-centigrade_scale-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13874797-n" ili="i109721" members="oewn-Celsius_scale-n oewn-international_scale-n oewn-centigrade_scale-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a temperature scale that defines the freezing point of water as 0 degrees and the boiling point of water as 100 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13874592-n"/> <!-- temperature scale -->
     </Synset>
@@ -6391,7 +6391,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13874592-n"/> <!-- temperature scale -->
     </Synset>
     <!-- Kelvin scale, absolute scale -->
-    <Synset id="oewn-13875199-n" ili="i109723" members="oewn-Kelvin_scale-n ewn-absolute_scale-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13875199-n" ili="i109723" members="oewn-Kelvin_scale-n oewn-absolute_scale-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a temperature scale that defines absolute zero as 0 degrees; water freezes at 273.16 degrees and boils at 373.16 degrees</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13874592-n"/> <!-- temperature scale -->
     </Synset>
@@ -6406,7 +6406,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13874592-n"/> <!-- temperature scale -->
     </Synset>
     <!-- wage scale, wage schedule -->
-    <Synset id="oewn-13875743-n" ili="i109726" members="oewn-wage_scale-n ewn-wage_schedule-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13875743-n" ili="i109726" members="oewn-wage_scale-n oewn-wage_schedule-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a schedule of wages paid for different jobs</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
       <SynsetRelation relType="hyponym" target="oewn-13875877-n"/> <!-- sliding scale -->
@@ -6428,7 +6428,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13876005-n"/> <!-- comparison -->
     </Synset>
     <!-- standard of measurement, gauge -->
-    <Synset id="oewn-13876298-n" ili="i109730" members="oewn-gauge-n ewn-standard_of_measurement-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13876298-n" ili="i109730" members="oewn-gauge-n oewn-standard_of_measurement-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>accepted or approved instance or example of a quantity or quality against which others are judged or measured or compared</Definition>
       <SynsetRelation relType="hypernym" target="oewn-07275291-n"/> <!-- touchstone, measure, standard, criterion -->
     </Synset>
@@ -6445,7 +6445,7 @@
       <Example>the current middle-class norm of two children per family</Example>
     </Synset>
     <!-- oppositeness, opposition -->
-    <Synset id="oewn-13876846-n" ili="i109733" members="oewn-opposition-n ewn-oppositeness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13876846-n" ili="i109733" members="oewn-opposition-n oewn-oppositeness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation between opposed entities</Definition>
       <SynsetRelation relType="hypernym" target="oewn-00032220-n"/> <!-- relation -->
       <SynsetRelation relType="hyponym" target="oewn-13877297-n"/> <!-- antipode -->
@@ -6485,7 +6485,7 @@
       <Example>this form of conflict is essential to Mann&apos;s writing</Example>
     </Synset>
     <!-- direct contrast, contrast -->
-    <Synset id="oewn-13877824-n" ili="i109737" members="oewn-contrast-n ewn-direct_contrast-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13877824-n" ili="i109737" members="oewn-contrast-n oewn-direct_contrast-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the opposition or dissimilarity of things that are compared</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <Example>in contrast to</Example>
@@ -6500,7 +6500,7 @@
       <Example>on the flip side of partnerships he talked about their competition</Example>
     </Synset>
     <!-- polarity, mutual opposition -->
-    <Synset id="oewn-13878307-n" ili="i109739" members="oewn-mutual_opposition-n ewn-polarity-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13878307-n" ili="i109739" members="oewn-mutual_opposition-n oewn-polarity-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation between two opposite attributes or tendencies</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <Example>he viewed it as a balanced polarity between good and evil</Example>
@@ -6517,7 +6517,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13878517-n"/> <!-- gradable opposition -->
     </Synset>
     <!-- polarity, sign -->
-    <Synset id="oewn-13878771-n" ili="i109742" members="oewn-polarity-n ewn-sign-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13878771-n" ili="i109742" members="oewn-polarity-n oewn-sign-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>having an indicated pole (as the distinction between positive and negative electric charges)</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <SynsetRelation relType="hyponym" target="oewn-13879054-n"/> <!-- positiveness, positivity -->
@@ -6526,12 +6526,12 @@
       <Example>charges of opposite sign</Example>
     </Synset>
     <!-- positiveness, positivity -->
-    <Synset id="oewn-13879054-n" ili="i109743" members="oewn-positivity-n ewn-positiveness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13879054-n" ili="i109743" members="oewn-positivity-n oewn-positiveness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the character of the positive electric pole</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13878771-n"/> <!-- polarity, sign -->
     </Synset>
     <!-- negativeness, negativity -->
-    <Synset id="oewn-13879205-n" ili="i109744" members="oewn-negativity-n ewn-negativeness-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13879205-n" ili="i109744" members="oewn-negativity-n oewn-negativeness-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the character of the negative electric pole</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13878771-n"/> <!-- polarity, sign -->
     </Synset>
@@ -6566,7 +6566,7 @@
       <Example>this situation created the inner dialectic of American history</Example>
     </Synset>
     <!-- inconsistency, incompatibility, mutual exclusiveness, repugnance -->
-    <Synset id="oewn-13880242-n" ili="i109750" members="oewn-incompatibility-n ewn-mutual_exclusiveness-n ewn-inconsistency-n ewn-repugnance-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13880242-n" ili="i109750" members="oewn-incompatibility-n oewn-mutual_exclusiveness-n oewn-inconsistency-n oewn-repugnance-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>the relation between propositions that cannot both be true at the same time</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13879683-n"/> <!-- contradictoriness -->
     </Synset>
@@ -6587,13 +6587,13 @@
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
     </Synset>
     <!-- opposite, contrary, reverse -->
-    <Synset id="oewn-13880801-n" ili="i109754" members="oewn-reverse-n ewn-contrary-n ewn-opposite-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13880801-n" ili="i109754" members="oewn-reverse-n oewn-contrary-n oewn-opposite-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a relation of direct opposition</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <Example>we thought Sue was older than Bill but just the reverse was true</Example>
     </Synset>
     <!-- opposite, inverse -->
-    <Synset id="oewn-13881030-n" ili="i109755" members="oewn-inverse-n ewn-opposite-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13881030-n" ili="i109755" members="oewn-inverse-n oewn-opposite-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>something inverted in sequence or character or effect</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <SynsetRelation relType="hyponym" target="oewn-13865200-n"/> <!-- additive inverse -->
@@ -6641,7 +6641,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13881709-n"/> <!-- gradient -->
     </Synset>
     <!-- conditional relation, implication, logical implication -->
-    <Synset id="oewn-13882478-n" ili="i109762" members="oewn-implication-n ewn-logical_implication-n ewn-conditional_relation-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-13882478-n" ili="i109762" members="oewn-implication-n oewn-logical_implication-n oewn-conditional_relation-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>a logical relation between propositions p and q of the form `if p then q&apos;; if p is true then q cannot be false</Definition>
       <SynsetRelation relType="hypernym" target="oewn-13805250-n"/> <!-- logical relation -->
     </Synset>
@@ -6651,7 +6651,7 @@
       <SynsetRelation relType="hypernym" target="oewn-13876846-n"/> <!-- oppositeness, opposition -->
       <Example>the inherent antagonism of capitalism and socialism</Example>
     </Synset>
-    <Synset id="oewn-80870371-n" ili="in" members="oewn-Douglas_sea_scale-n ewn-Douglas_scale-n ewn-international_sea_and_swell_scale-n" partOfSpeech="n" dc:subject="noun.relation">
+    <Synset id="oewn-80870371-n" ili="in" members="oewn-Douglas_sea_scale-n oewn-Douglas_scale-n oewn-international_sea_and_swell_scale-n" partOfSpeech="n" dc:subject="noun.relation">
       <Definition>scale used for measuring the height of waves</Definition>
       <ILIDefinition>scale used for measuring the height of waves</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13872501-n"/> <!-- ordered series, scale, scale of measurement, graduated table -->
@@ -6684,19 +6684,19 @@
       <SynsetRelation relType="hypernym" target="oewn-13821604-n"/> <!-- conjunction -->
       <Example>One could argue grammatically in favour of &quot;accordingly&quot; being an illative conjunction.</Example>
     </Synset>
-    <Synset id="oewn-92438977-n" ili="in" members="oewn-surjective_function-n ewn-onto_function-n ewn-surjection-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92438977-n" ili="in" members="oewn-surjective_function-n oewn-onto_function-n oewn-surjection-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>a mathematical function that is an onto mapping.</Definition>
       <ILIDefinition>a mathematical function that is an onto mapping.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
       <Example>In fact, if we define a ρ-kernel as the kernel of any surjection of the two graphs of interest, then there are ρ-kernels whose maximum excess does not vanish.</Example>
     </Synset>
-    <Synset id="oewn-92439903-n" ili="in" members="oewn-heat_capacity_ratio-n ewn-adiabatic_index-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92439903-n" ili="in" members="oewn-heat_capacity_ratio-n oewn-adiabatic_index-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>the ratio of the heat capacity at constant pressure (C_P) to heat capacity at constant volume (C_V).</Definition>
       <ILIDefinition>the ratio of the heat capacity at constant pressure (C_P) to heat capacity at constant volume (C_V).</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <Example>The experimental value for the heat capacity ratio of argon is the same as the theoretical heat capacity ratio.</Example>
     </Synset>
-    <Synset id="oewn-92462168-n" ili="in" members="oewn-present_perfect_continuous-n ewn-present_perfect_progressive-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92462168-n" ili="in" members="oewn-present_perfect_continuous-n oewn-present_perfect_progressive-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>A verb construction (made up of has been or have been plus the present participle) that emphasizes the ongoing nature of an action that began in the past and continues in the present.</Definition>
       <ILIDefinition>A verb construction (made up of has been or have been plus the present participle) that emphasizes the ongoing nature of an action that began in the past and continues in the present.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13828352-n"/> <!-- perfective, perfect, perfective tense, perfect tense -->
@@ -6708,13 +6708,13 @@
       <SynsetRelation relType="hypernym" target="oewn-13879873-n"/> <!-- contradiction -->
       <Example>At present the axis of political oppositionality is centered on the nuke issue, which however is defined by the power relations inherent in entire politics and society.</Example>
     </Synset>
-    <Synset id="oewn-92411756-n" ili="in" members="oewn-reserve_ratio-n ewn-cash_reserve_ratio-n ewn-required_reserve_ratio-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92411756-n" ili="in" members="oewn-reserve_ratio-n oewn-cash_reserve_ratio-n oewn-required_reserve_ratio-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>a percentage of the bank&apos;s total deposits, kept to ensure that the bank is able to pay an unusually high number of withdrawals on demand accounts should that event occur.</Definition>
       <ILIDefinition>a percentage of the bank&apos;s total deposits, kept to ensure that the bank is able to pay an unusually high number of withdrawals on demand accounts should that event occur.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
       <Example dc:source="https://en.wikipedia.org">The required reserve ratio is sometimes used as a tool in monetary policy, influencing the country&apos;s borrowing and interest rates by changing the amount of funds available for banks to make loans with.</Example>
     </Synset>
-    <Synset id="oewn-92440136-n" ili="in" members="oewn-homothecy-n ewn-homothety-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92440136-n" ili="in" members="oewn-homothecy-n oewn-homothety-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>(mathematics) an isotropic scaling transformation of an affine space with a single fixed point.</Definition>
       <ILIDefinition>(mathematics) an isotropic scaling transformation of an affine space with a single fixed point.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13806028-n"/> <!-- map, single-valued function, function, mathematical function, mapping -->
@@ -6751,7 +6751,7 @@
       <SynsetRelation relType="holo_part" target="oewn-06038434-n"/>
       <Example>The height (in centimeters) of a candle is a linear function of the amount of time (in hours) it has been burning.</Example>
     </Synset>
-    <Synset id="oewn-92417100-n" ili="in" members="oewn-financial_ratio-n ewn-accounting_ratio-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
+    <Synset id="oewn-92417100-n" ili="in" members="oewn-financial_ratio-n oewn-accounting_ratio-n" partOfSpeech="n" dc:subject="noun.relation" dc:source="plWordNet 4.0">
       <Definition>a relative magnitude of two selected numerical values taken from an enterprise&apos;s financial statements.</Definition>
       <ILIDefinition>a relative magnitude of two selected numerical values taken from an enterprise&apos;s financial statements.</ILIDefinition>
       <SynsetRelation relType="hypernym" target="oewn-13841419-n"/> <!-- ratio -->
