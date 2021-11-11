@@ -60,3 +60,4 @@ WordNet is released under [CC-BY 4.0](LICENSE.md)
 * Cathal McGovern
 * Francis Bond
 * Eric Kafe
+* Michael Wayne Goodman
