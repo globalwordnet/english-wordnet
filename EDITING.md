@@ -26,18 +26,14 @@ Create a new branch for the issue which would normally be called `issue-XXX` whe
 
 ## Implement the change using EWE
 
-You can start EWE with the command
+The preferred editing tool for this resource is [EWE](https://github.com/jmccrae/ewe).
+The lastest version can be downloaded from the releases page at 
+https://github.com/jmccrae/ewe/releases
 
-    python scripts/ewe.py
-    
-Alternatively, on Windows, by running the `ewe` script in the root folder of the repository.
-
-You may need to install the `autocorrect` module using [PIP](https://docs.python.org/3/installing/index.html)
-
-If successful, you should see the EWE interface like this:
 ![EWE Interface](https://github.com/globalwordnet/english-wordnet/raw/ewe-doc-images/ewe-interface.PNG)
 
-EWE is a menu-driven application. Please choose the relevant changes and save the results
+EWE is a menu-driven application. Please choose the relevant changes and save 
+the results before making a pull request
 
 ## Commit the changes
 
