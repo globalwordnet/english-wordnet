@@ -9,6 +9,7 @@ from merge import wn_merge
 import wordnet_yaml
 from collections import defaultdict
 from sense_keys import get_sense_key
+from pathlib import Path
 
 sense_id_re = re.compile(r"oewn-(.*)-(.)-(\d{8})-\d{2}")
 
@@ -182,6 +183,7 @@ def save_all_xml(wn, change_list=None):
                     synset.synset_relations = sorted(
                         synset.synset_relations, key=lambda sr: synset_rel_order[(sr.target, sr.rel_type)])
         if not change_list or lex_name in change_list.lexfiles:
+            Path("src/xml").mkdir(parents=True, exist_ok=True)
             with codecs.open("src/xml/wn-%s.xml" % lex_name, "w", "utf-8") as outp:
                 wn.to_xml(outp, True)
 
