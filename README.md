@@ -61,3 +61,10 @@ WordNet is released under [CC-BY 4.0](LICENSE.md)
 * Francis Bond
 * Eric Kafe
 * Michael Wayne Goodman
+
+## Publications
+John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka, and Christiane Fellbaum (2019) [English WordNet 2019 – An Open-Source WordNet for English](https://aclanthology.org/2019.gwc-1.31/). In Proceedings of the 10th Global Wordnet Conference, pages 245–252, Wroclaw, Poland. Global Wordnet Association.
+
+John P. McCrae, Alexandre Rademaker, Ewa Rudnicka, and Francis Bond (2020) [English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology](https://aclanthology.org/2020.mmw-1.3/). In Proceedings of the LREC 2020 Workshop on Multimodal Wordnets (MMW2020), pages 14–19, Marseille, France. The European Language Resources Association (ELRA).
+
+John P. McCrae, Michael Wayne Goodman, Francis Bond, Alexandre Rademaker, Ewa Rudnicka, and Luis Morgado Da Costa (2021) [The GlobalWordNet Formats: Updates for 2020](https://aclanthology.org/2021.gwc-1.11/). In Proceedings of the 11th Global Wordnet Conference, pages 91–99, University of South Africa (UNISA). Global Wordnet Association.
