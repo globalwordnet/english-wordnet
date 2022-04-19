@@ -25,7 +25,7 @@ jobs:
       run: python scripts/merge.py
       
     - name: Install xmllint
-      run: sudo apt-get install libxml2-utils
+      run: sudo apt-get update && sudo apt-get install libxml2-utils
       
     - name: Verify XML
       run: xmllint --noout --valid wn.xml
