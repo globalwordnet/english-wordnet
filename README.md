@@ -26,9 +26,10 @@ Open English WordNet is released through the [Open English WordNet website](http
 
 ## Usage
 
-To compile these into a single file please use the following script
+To compile these into a single file please use the following script(s)
 
-    python3 scripts/merge.py
+    python scripts/from-yaml.py
+    python scripts/merge.py
 
 This will create a file at `wn31.xml` that contains the complete wordnet.
 
