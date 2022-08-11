@@ -25939,7 +25939,7 @@ accreditation:
 accredited:
   s:
     sense:
-    - id: accredited%5:00:00:authorized:00
+    - id: accredited%5:00:00:official:00
       synset: 00180111-s
 accrete:
   v:
@@ -32850,7 +32850,7 @@ admirability:
     sense:
     - derivation:
       - admirable%5:00:00:pleasing:00
-      - admirable%5:00:00:estimable:00
+      - admirable%5:00:01:reputable:00
       id: 'admirability%1:07:00::'
       synset: 04736385-n
 admirable:
@@ -32861,19 +32861,19 @@ admirable:
     - derivation:
       - 'admirability%1:07:00::'
       - 'admirableness%1:07:00::'
-      id: admirable%5:00:00:estimable:00
-      synset: 00907512-s
+      id: admirable%5:00:00:pleasing:00
+      synset: 01812870-s
     - derivation:
       - 'admirability%1:07:00::'
       - 'admirableness%1:07:00::'
-      id: admirable%5:00:00:pleasing:00
-      synset: 01812870-s
+      id: admirable%5:00:01:reputable:00
+      synset: 01990227-s
 admirableness:
   n:
     sense:
     - derivation:
       - admirable%5:00:00:pleasing:00
-      - admirable%5:00:00:estimable:00
+      - admirable%5:00:01:reputable:00
       id: 'admirableness%1:07:00::'
       synset: 04736385-n
 admirably:
@@ -32884,7 +32884,7 @@ admirably:
     sense:
     - id: 'admirably%4:02:00::'
       pertainym:
-      - admirable%5:00:00:estimable:00
+      - admirable%5:00:01:reputable:00
       synset: 00220366-r
 admiral:
   n:
@@ -81159,10 +81159,6 @@ authorised:
     sense:
     - id: 'authorised%3:00:00::'
       synset: 00179875-a
-  s:
-    sense:
-    - id: authorised%5:00:00:official:00
-      synset: 01636851-s
 authoriser:
   n:
     sense:
@@ -81207,6 +81203,15 @@ authoritarianism:
     - id: 'authoritarianism%1:14:00::'
       synset: 08457622-n
 authoritative:
+  a:
+    pronunciation:
+    - value: ɔːˈθɒɹɪˌteɪtɪv
+      variety: GB
+    - value: əˈθɔɹɪˌteɪtɪv
+      variety: US
+    sense:
+    - id: 'authoritative%3:00:00::'
+      synset: 00179875-a
   s:
     pronunciation:
     - value: ɔːˈθɒɹɪˌteɪtɪv
@@ -81218,8 +81223,6 @@ authoritative:
       synset: 01836121-s
     - id: authoritative%5:00:00:standard:01
       synset: 02302830-s
-    - id: authoritative%5:00:00:official:00
-      synset: 01636851-s
 authoritatively:
   r:
     sense:
@@ -81310,15 +81313,6 @@ authorized:
       - 'unauthorized%3:00:00::'
       id: 'authorized%3:00:00::'
       synset: 00179875-a
-  s:
-    pronunciation:
-    - value: ˈɔθəɹaɪzd
-      variety: US
-    - value: ˈɔːθəɹaɪzd
-      variety: GB
-    sense:
-    - id: authorized%5:00:00:official:00
-      synset: 01636851-s
 authorized shares:
   n:
     sense:
