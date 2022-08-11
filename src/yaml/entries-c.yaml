@@ -5959,16 +5959,16 @@ Caucasian:
       - 'caucasian%1:18:00::'
       id: caucasian%5:00:00:white:02
       synset: 00244343-s
-Caucasian race:
-  n:
-    sense:
-    - id: 'caucasian_race%1:18:00::'
-      synset: 80000191-n
 Caucasian language:
   n:
     sense:
     - id: 'caucasian_language%1:10:00::'
       synset: 06990840-n
+Caucasian race:
+  n:
+    sense:
+    - id: 'caucasian_race%1:18:00::'
+      synset: 80000191-n
 Caucasian walnut:
   n:
     sense:
@@ -74666,19 +74666,19 @@ colored:
       synset: 00395623-a
   n:
     sense:
-    - id: 'colored%1:18:00::'
-      derivation:
+    - derivation:
       - colored%5:00:00:black:02
+      id: 'colored%1:18:00::'
       synset: 89085804-n
   s:
     pronunciation:
     - value: ˈkʌləɹd
       variety: US
     sense:
-    - id: colored%5:00:00:black:02
-      synset: 00244035-s
-      derivation:
+    - derivation:
       - 'colored%1:18:00::'
+      id: colored%5:00:00:black:02
+      synset: 00244035-s
     - id: colored%5:00:00:partial:01
       synset: 01727308-s
     - id: colored%5:00:00:artificial:00
@@ -75057,9 +75057,9 @@ coloured:
       synset: 00395623-a
   n:
     sense:
-    - id: 'coloured%1:18:00::'
-      derivation:
+    - derivation:
       - coloured%5:00:00:black:02
+      id: 'coloured%1:18:00::'
       synset: 89085804-n
   s:
     sense:
@@ -75067,10 +75067,15 @@ coloured:
       synset: 01727308-s
     - id: coloured%5:00:00:artificial:00
       synset: 01576564-s
-    - id: coloured%5:00:00:black:02
-      synset: 00244035-s
-      derivation:
+    - derivation:
       - 'coloured%1:18:00::'
+      id: coloured%5:00:00:black:02
+      synset: 00244035-s
+coloured person:
+  n:
+    sense:
+    - id: 'coloured_person%1:18:00::'
+      synset: 89085804-n
 colourful:
   a:
     sense:
@@ -75144,11 +75149,6 @@ colours:
       synset: 03076060-n
     - id: 'colours%1:06:00::'
       synset: 03075927-n
-coloured person:
-  n:
-    sense:
-    - id: 'coloured_person%1:18:00::'
-      synset: 89085804-n
 colpitis:
   n:
     sense:
