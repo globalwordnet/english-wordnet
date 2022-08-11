@@ -49,8 +49,28 @@ Please be aware that we use the [Global WordNet Association LMF](https://globalw
 
 WordNet is released under [CC-BY 4.0](LICENSE.md)
 
+## References
+
+The canonical citation for English Wordnet is:
+
+* John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka and Christiane Fellbaum (2019) [English WordNet 2019 -- An Open-Source WordNet for English](https://aclanthology.org/2019.gwc-1.31/), *Proceedings of the 10th Global WordNet Conference – GWC 2019*, Wrocław
+
+More recent papers describing it include:
+
+* John Philip McCrae, Alexandre Rademaker, Ewa Rudnicka, Francis Bond (2020)
+[English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology](https://aclanthology.org/2020.mmw-1.3/) *In Proceedings of the 11th Global Wordnet Conference (GWC2021)*, University of South Africa (UNISA)
+
+* John P. McCrae, Michael Wayne Goodman, Francis Bond, Alexandre Rademaker, Ewa Rudnicka, Luis Morgado Da Costa (2020) [The GlobalWordNet Formats: Updates for 2020](https://aclanthology.org/2021.gwc-1.11/)  *In Proceedings of the 11th Global Wordnet Conference (GWC2021)*, University of South Africa (UNISA)
+
+It incorporates material from:
+
+* Christiane Fellbaum, editor (1998) *WordNet: An Electronic Lexical Database*. The MIT Press, Cambridge, MA.
+* Merrick Choo Yeu Herng and Francis Bond (2021) [Taboo wordnet](https://aclanthology.org/2021.gwc-1.5/). *In Proceedings of the 11th Global Wordnet Conference (GWC2021)*, University of South Africa (UNISA).
+
+
 ## Contributors
 
+<<<<<<< HEAD
 * John P. McCrae
 * Alexandre Rademaker
 * Ewa Rudnicka
@@ -69,3 +89,16 @@ John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka, and Christiane 
 John P. McCrae, Alexandre Rademaker, Ewa Rudnicka, and Francis Bond (2020) [English WordNet 2020: Improving and Extending a WordNet for English using an Open-Source Methodology](https://aclanthology.org/2020.mmw-1.3/). In Proceedings of the LREC 2020 Workshop on Multimodal Wordnets (MMW2020), pages 14–19, Marseille, France. The European Language Resources Association (ELRA).
 
 John P. McCrae, Michael Wayne Goodman, Francis Bond, Alexandre Rademaker, Ewa Rudnicka, and Luis Morgado Da Costa (2021) [The GlobalWordNet Formats: Updates for 2020](https://aclanthology.org/2021.gwc-1.11/). In Proceedings of the 11th Global Wordnet Conference, pages 91–99, University of South Africa (UNISA). Global Wordnet Association.
+
+* John P. **McCrae**
+* Alexandre **Rademaker**
+* Ewa **Rudnicka**
+* Bernard **Bou**
+* Daiki **Nomura**
+* David **Cillessen**
+* Ciara **O'Loughlin**
+* Cathal **McGovern**
+* Francis **Bond**
+* Eric **Kafe**
+* Merrick **Choo** Yeu Herng
+* Enejda **Nasaj**

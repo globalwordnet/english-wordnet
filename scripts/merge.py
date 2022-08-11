@@ -71,6 +71,7 @@ def wn_merge():
            email="english-wordnet@googlegroups.com"
            license="https://creativecommons.org/licenses/by/4.0/"
            version="2021"
+           citation = "John P. McCrae, Alexandre Rademaker, Francis Bond, Ewa Rudnicka and Christiane Fellbaum (2019) English WordNet 2019 – An Open-Source WordNet for English, *Proceedings of the 10th Global WordNet Conference* – GWC 2019"
            url="https://github.com/globalwordnet/english-wordnet">""")
         lex_entries = {}
     

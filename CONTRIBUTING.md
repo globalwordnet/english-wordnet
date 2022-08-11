@@ -43,6 +43,11 @@ Please ensure that your contributions are valid XML
 
     xmllint --noout --valid wn31.xml
 
+Please make sure that the structure is valid
+
+    python scripts/validate.py
+
+
 Push to your fork and [submit a pull request][pr].
 
 [pr]: https://github.com/globalwordnet/english-wordnet/compare/
