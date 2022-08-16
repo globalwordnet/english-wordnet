@@ -777,6 +777,8 @@ def escape_lemma(lemma):
             return '-cm-'
         elif c == '!':
             return '-ex-'
+        elif c == '+':
+            return '-pl-'
         else:
             return '-%04x-' % ord(c)
 
