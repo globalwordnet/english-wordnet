@@ -8752,13 +8752,6 @@ eared:
       - 'earless%3:00:00::'
       id: 'eared%3:00:00::'
       synset: 00815739-a
-  s:
-    pronunciation:
-    - value: ɪəd
-      variety: GB
-    - value: ɪ(ə)ɹd
-      variety: US
-    sense:
     - id: eared%5:00:00:worn:00
       synset: 02592267-s
 eared grebe:
@@ -8931,6 +8924,13 @@ early:
       - 'earliness%1:07:00::'
       id: 'early%3:00:01::'
       synset: 00823421-a
+    - adjposition: a
+      id: early%5:00:00:past:00
+      synset: 01733616-s
+    - id: early%5:00:00:young:00
+      synset: 01653059-s
+    - id: early%5:00:01:future:00
+      synset: 01737207-s
   r:
     pronunciation:
     - value: ˈɝli
@@ -8946,23 +8946,6 @@ early:
       synset: 00100632-r
     - id: 'early%4:02:02::'
       synset: 00101142-r
-  s:
-    form:
-    - earlier
-    - earliest
-    pronunciation:
-    - value: ˈɝli
-      variety: US
-    - value: ˈɜː.li
-      variety: GB
-    sense:
-    - adjposition: a
-      id: early%5:00:00:past:00
-      synset: 01733616-s
-    - id: early%5:00:00:young:00
-      synset: 01653059-s
-    - id: early%5:00:01:future:00
-      synset: 01737207-s
 early bird:
   n:
     sense:
@@ -9544,16 +9527,6 @@ earthy:
       pertainym:
       - 'earth%1:27:00::'
       synset: 02916464-a
-  s:
-    form:
-    - earthier
-    - earthiest
-    pronunciation:
-    - value: ˈɜː.θi
-      variety: GB
-    - value: ˈɝθi
-      variety: US
-    sense:
     - id: earthy%5:00:00:indecent:00
       synset: 00686808-s
     - id: earthy%5:00:00:natural:01
@@ -9873,11 +9846,6 @@ eastern:
       - 'western%3:00:01::'
       id: 'eastern%3:00:01::'
       synset: 00829153-a
-  s:
-    pronunciation:
-    - value: ˈiːstən
-      variety: GB
-    sense:
     - id: eastern%5:00:00:east:00
       synset: 00827539-s
     - id: eastern%5:00:02:east:00
@@ -10101,31 +10069,6 @@ easy:
       - 'easiness%1:12:00::'
       id: 'easy%3:00:02::'
       synset: 00825684-a
-  r:
-    pronunciation:
-    - value: ˈiːzi
-      variety: GB
-    - value: ˈizi
-      variety: US
-    sense:
-    - id: 'easy%4:02:01::'
-      synset: 00148912-r
-    - id: 'easy%4:02:02::'
-      synset: 00162829-r
-    - id: 'easy%4:02:00::'
-      pertainym:
-      - 'easy%3:00:01::'
-      synset: 00149175-r
-  s:
-    form:
-    - easier
-    - easiest
-    pronunciation:
-    - value: ˈiːzi
-      variety: GB
-    - value: ˈizi
-      variety: US
-    sense:
     - derivation:
       - 'easiness%1:07:00::'
       id: easy%5:00:00:unhurried:00
@@ -10152,6 +10095,21 @@ easy:
       synset: 00015134-s
     - id: easy%5:00:01:undemanding:01
       synset: 00715296-s
+  r:
+    pronunciation:
+    - value: ˈiːzi
+      variety: GB
+    - value: ˈizi
+      variety: US
+    sense:
+    - id: 'easy%4:02:01::'
+      synset: 00148912-r
+    - id: 'easy%4:02:02::'
+      synset: 00162829-r
+    - id: 'easy%4:02:00::'
+      pertainym:
+      - 'easy%3:00:01::'
+      synset: 00149175-r
 easy chair:
   n:
     sense:
@@ -10725,6 +10683,10 @@ eccentric:
       - 'eccentricity%1:07:01::'
       id: 'eccentric%3:00:00::'
       synset: 00545420-a
+    - derivation:
+      - 'eccentricity%1:07:00::'
+      id: eccentric%5:00:00:unconventional:01
+      synset: 00611168-s
   n:
     pronunciation:
     - value: ɪkˈsɛntɹɪk
@@ -10736,17 +10698,6 @@ eccentric:
       synset: 10062653-n
     - id: 'eccentric%1:18:01::'
       synset: 09928518-n
-  s:
-    pronunciation:
-    - value: ɪkˈsɛntɹɪk
-      variety: GB
-    - value: ɛkˈsɛntɹɪk
-      variety: US
-    sense:
-    - derivation:
-      - 'eccentricity%1:07:00::'
-      id: eccentric%5:00:00:unconventional:01
-      synset: 00611168-s
 eccentric person:
   n:
     sense:
@@ -11122,10 +11073,6 @@ echoic:
       - 'nonechoic%3:00:00::'
       id: 'echoic%3:00:00::'
       synset: 01220250-a
-  s:
-    pronunciation:
-    - value: ɪˈkəʊɪk
-    sense:
     - id: echoic%5:00:00:reflected:00
       synset: 02015916-s
 echoing:
@@ -11426,13 +11373,6 @@ economic:
       pertainym:
       - 'economics%1:09:00::'
       synset: 02727341-a
-  s:
-    pronunciation:
-    - value: ˌiːkəˈnɒmɪk
-      variety: GB
-    - value: ˌɛkəˈnɑmɪk
-      variety: US
-    sense:
     - derivation:
       - 'economy%1:09:01::'
       id: economic%5:00:00:efficient:00
@@ -11567,13 +11507,6 @@ economical:
       pertainym:
       - 'economy%1:14:00::'
       synset: 02727475-a
-  s:
-    pronunciation:
-    - value: ˌɛkəˈnɒmɪkəl
-      variety: GB
-    - value: ˌɛkəˈnɑmɪkəl
-      variety: US
-    sense:
     - derivation:
       - 'economy%1:09:01::'
       - 'economy%1:04:00::'
@@ -12702,13 +12635,6 @@ educated:
       - 'uneducated%3:00:00::'
       id: 'educated%3:00:00::'
       synset: 00833284-a
-  s:
-    pronunciation:
-    - value: ˈɛdʒɘkeɪɾɪd
-      variety: US
-    - value: ˈɛdjuːkeɪtɪd
-      variety: GB
-    sense:
     - id: educated%5:00:00:informed:00
       synset: 01310330-s
 educatee:
@@ -12766,10 +12692,6 @@ educational:
       pertainym:
       - 'education%1:09:01::'
       synset: 02957558-a
-  s:
-    pronunciation:
-    - value: ˌɛdʒʊˈkeɪʃənəl
-    sense:
     - derivation:
       - 'education%1:04:00::'
       id: educational%5:00:00:instructive:00
@@ -13077,8 +12999,6 @@ effective:
       - 'effectivity%1:07:00::'
       id: 'effective%3:00:00::'
       synset: 00837737-a
-  s:
-    sense:
     - derivation:
       - 'effect%2:36:00::'
       - 'effectiveness%1:07:00::'
@@ -13168,10 +13088,6 @@ effectual:
       - 'effectuality%1:07:00::'
       id: 'effectual%3:00:02::'
       synset: 00837737-a
-  s:
-    pronunciation:
-    - value: iˈfɛktʃuəl
-    sense:
     - id: effectual%5:00:01:valid:00
       synset: 02508961-s
 effectuality:
@@ -13345,13 +13261,6 @@ effervescent:
       - 'effervesce%2:30:00::'
       id: 'effervescent%3:00:00::'
       synset: 02283837-a
-  s:
-    pronunciation:
-    - value: ˌɛfəˈvɛsənt
-      variety: GB
-    - value: ˌɛfɚˈvɛsənt
-      variety: US
-    sense:
     - id: effervescent%5:00:00:lively:00
       synset: 00809380-s
 effervescing:
@@ -13459,13 +13368,6 @@ efficient:
       - 'efficiency%1:09:00::'
       id: 'efficient%3:00:00::'
       synset: 00843158-a
-  s:
-    pronunciation:
-    - value: ɪˈfɪʃənt
-      variety: GB
-    - value: əˈfɪʃənt
-      variety: US
-    sense:
     - id: efficient%5:00:00:competent:00
       synset: 00512569-s
 efficiently:
@@ -13615,8 +13517,6 @@ effortless:
       - 'effortlessness%1:07:00::'
       id: 'effortless%3:00:00::'
       synset: 00841835-a
-  s:
-    sense:
     - derivation:
       - 'effortlessness%1:07:00::'
       id: effortless%5:00:00:easy:01
@@ -14954,6 +14854,8 @@ elastic:
       - 'elasticity%1:07:00::'
       id: 'elastic%3:00:00::'
       synset: 00846685-a
+    - id: elastic%5:00:00:adaptable:00
+      synset: 01031778-s
   n:
     pronunciation:
     - value: iˈlæstɪk
@@ -14966,12 +14868,6 @@ elastic:
       - 'elastic%3:00:00::'
       id: 'elastic%1:06:00::'
       synset: 03272607-n
-  s:
-    pronunciation:
-    - value: iˈlæstɪk
-    sense:
-    - id: elastic%5:00:00:adaptable:00
-      synset: 01031778-s
 elastic band:
   n:
     sense:
@@ -15079,8 +14975,6 @@ elated:
       - 'dejected%3:00:00::'
       id: 'elated%3:00:00::'
       synset: 00708053-a
-  s:
-    sense:
     - id: elated%5:00:00:joyous:00
       synset: 01370127-s
 elater:
@@ -15455,20 +15349,16 @@ elective:
       - 'elect%2:41:00::'
       id: 'elective%3:00:00::'
       synset: 00849591-a
+    - derivation:
+      - 'elect%2:31:00::'
+      id: elective%5:00:00:optional:00
+      synset: 00851098-s
   n:
     pronunciation:
     - value: ɪˈlɛktɪv
     sense:
     - id: 'elective%1:04:00::'
       synset: 00892488-n
-  s:
-    pronunciation:
-    - value: ɪˈlɛktɪv
-    sense:
-    - derivation:
-      - 'elect%2:31:00::'
-      id: elective%5:00:00:optional:00
-      synset: 00851098-s
 elective course:
   n:
     sense:
@@ -15502,8 +15392,6 @@ electoral:
       pertainym:
       - 'election%1:04:00::'
       synset: 02728274-a
-  s:
-    sense:
     - derivation:
       - 'elector%1:18:00::'
       id: electoral%5:00:00:elective:00
@@ -15539,22 +15427,18 @@ electric:
       pertainym:
       - 'electricity%1:19:00::'
       synset: 02837762-a
-  n:
-    pronunciation:
-    - value: ɪˈlɛktɹɪk
-    sense:
-    - id: 'electric%1:06:00::'
-      synset: 03273701-n
-  s:
-    pronunciation:
-    - value: ɪˈlɛktɹɪk
-    sense:
     - derivation:
       - 'electricity%1:12:00::'
       id: electric%5:00:00:tense:03
       synset: 02415436-s
     - id: electric%5:00:00:exciting:00
       synset: 00924872-s
+  n:
+    pronunciation:
+    - value: ɪˈlɛktɹɪk
+    sense:
+    - id: 'electric%1:06:00::'
+      synset: 03273701-n
 electric arc:
   n:
     sense:
@@ -17130,10 +17014,6 @@ elegant:
       - 'elegance%1:07:00::'
       id: 'elegant%3:00:00::'
       synset: 00852781-a
-  s:
-    pronunciation:
-    - value: ˈɛl.ə.ɡənt
-    sense:
     - derivation:
       - 'elegance%1:07:00::'
       id: elegant%5:00:00:gracious:00
@@ -17179,10 +17059,6 @@ elegiac:
       pertainym:
       - 'elegy%1:10:00::'
       synset: 02729980-a
-  s:
-    pronunciation:
-    - value: ˌɛləˈdʒaɪək
-    sense:
     - id: elegiac%5:00:00:sorrowful:00
       synset: 01368323-s
 elegiac stanza:
@@ -17328,8 +17204,6 @@ elemental:
       pertainym:
       - 'elements%1:19:00::'
       synset: 02730239-a
-  s:
-    sense:
     - id: elemental%5:00:00:basic:00
       synset: 01862151-s
 elementarily:
@@ -17351,13 +17225,6 @@ elementary:
       pertainym:
       - 'elementary_school%1:14:00::'
       synset: 02730421-a
-  s:
-    pronunciation:
-    - value: (ˌ)ɛlɪ̈ˈmɛnt(ə)ɹɪ
-      variety: GB
-    - value: ˌɛlɪ̈ˈmɛnt(ə)ɹi
-      variety: US
-    sense:
     - id: elementary%5:00:00:easy:01
       synset: 00753900-s
     - derivation:
@@ -17702,8 +17569,6 @@ elfin:
       pertainym:
       - 'elf%1:18:00::'
       synset: 02730608-a
-  s:
-    sense:
     - id: elfin%5:00:00:supernatural:00
       synset: 01580203-s
     - id: elfin%5:00:00:small:00
@@ -18136,8 +18001,6 @@ elocutionary:
       pertainym:
       - 'elocution%1:10:00::'
       synset: 03074581-a
-  s:
-    sense:
     - derivation:
       - 'elocution%1:10:00::'
       id: elocutionary%5:00:00:affected:01
@@ -18455,13 +18318,6 @@ elysian:
       pertainym:
       - 'elysium%1:09:00::'
       synset: 02882651-a
-  s:
-    pronunciation:
-    - value: ɪˈlɪ.zi.ən
-      variety: GB
-    - value: ɪˈliː.ʒən
-      variety: US
-    sense:
     - id: elysian%5:00:00:glorious:00
       synset: 01125269-s
 elytron:
@@ -20200,13 +20056,6 @@ emotional:
       pertainym:
       - 'emotion%1:12:00::'
       synset: 02995009-a
-  s:
-    pronunciation:
-    - value: ɪˈməʊʃənəl
-      variety: GB
-    - value: ɪˈmoʊʃənəl
-      variety: US
-    sense:
     - derivation:
       - 'emotionality%1:07:00::'
       id: emotional%5:00:00:agitated:00
@@ -20761,10 +20610,6 @@ employed:
       - 'unemployed%3:00:00::'
       id: 'employed%3:00:00::'
       synset: 00867133-a
-  s:
-    pronunciation:
-    - value: ɪmˈplɔɪd
-    sense:
     - id: employed%5:00:00:used:00
       synset: 02504948-s
 employee:
@@ -20957,23 +20802,6 @@ empty:
       - 'emptiness%1:26:00::'
       id: 'empty%3:00:00::'
       synset: 01090234-a
-  n:
-    pronunciation:
-    - value: ˈɛmpti
-    sense:
-    - derivation:
-      - 'empty%2:35:00::'
-      - 'empty%2:30:00::'
-      - 'empty%2:30:01::'
-      id: 'empty%1:06:00::'
-      synset: 03289219-n
-  s:
-    form:
-    - emptier
-    - emptiest
-    pronunciation:
-    - value: ˈɛmpti
-    sense:
     - derivation:
       - 'emptiness%1:07:00::'
       id: empty%5:00:00:meaningless:00
@@ -20986,6 +20814,16 @@ empty:
       - 'emptiness%1:26:00::'
       id: empty%5:00:00:drained:00
       synset: 01092441-s
+  n:
+    pronunciation:
+    - value: ˈɛmpti
+    sense:
+    - derivation:
+      - 'empty%2:35:00::'
+      - 'empty%2:30:00::'
+      - 'empty%2:30:01::'
+      id: 'empty%1:06:00::'
+      synset: 03289219-n
   v:
     form:
     - emptied
@@ -21113,13 +20951,6 @@ empyreal:
       pertainym:
       - 'empyrean%1:15:00::'
       synset: 02730778-a
-  s:
-    pronunciation:
-    - value: ɛmˈpɪɹɪəl
-      variety: GB
-    - value: ɛmˈpɪɹ.i.əl
-      variety: US
-    sense:
     - id: empyreal%5:00:00:glorious:00
       synset: 01125519-s
 empyrean:
@@ -21131,6 +20962,8 @@ empyrean:
       pertainym:
       - 'empyrean%1:15:00::'
       synset: 02730778-a
+    - id: empyrean%5:00:00:glorious:00
+      synset: 01125519-s
   n:
     pronunciation:
     - value: ɛmˌpaɪˈɹiːn̩
@@ -21139,12 +20972,6 @@ empyrean:
       - 'empyreal%3:01:00::'
       id: 'empyrean%1:15:00::'
       synset: 08538450-n
-  s:
-    pronunciation:
-    - value: ɛmˌpaɪˈɹiːn̩
-    sense:
-    - id: empyrean%5:00:00:glorious:00
-      synset: 01125519-s
 emu:
   n-1:
     pronunciation:
@@ -21224,8 +21051,6 @@ emulous:
       pertainym:
       - 'emulation%1:04:00::'
       synset: 02730939-a
-  s:
-    sense:
     - id: emulous%5:00:00:competitive:00
       synset: 00514866-s
 emulously:
@@ -22301,13 +22126,6 @@ encouraging:
       - 'discouraging%3:00:00::'
       id: 'encouraging%3:00:00::'
       synset: 00869779-a
-  s:
-    pronunciation:
-    - value: ɪnˈkʌɹɪd͡ʒɪŋ
-      variety: GB
-    - value: ɪnˈkɝɹɪd͡ʒɪŋ
-      variety: US
-    sense:
     - id: encouraging%5:00:00:supportive:00
       synset: 02364800-s
 encouragingly:
@@ -22968,6 +22786,8 @@ endemic:
       - 'cosmopolitan%3:00:00::'
       id: 'endemic%3:00:02::'
       synset: 01110508-a
+    - id: endemic%5:00:00:native:01
+      synset: 01040065-s
   n:
     pronunciation:
     - value: ɛnˈdɛm.ɪk
@@ -22976,12 +22796,6 @@ endemic:
       synset: 14097876-n
     - id: 'endemic%1:20:00::'
       synset: 11551166-n
-  s:
-    pronunciation:
-    - value: ɛnˈdɛm.ɪk
-    sense:
-    - id: endemic%5:00:00:native:01
-      synset: 01040065-s
 endemic disease:
   n:
     sense:
@@ -23339,8 +23153,6 @@ endogenic:
       - 'endogen%1:20:00::'
       id: 'endogenic%3:00:00::'
       synset: 00876421-a
-  s:
-    sense:
     - id: endogenic%5:00:00:integrative:00
       synset: 01334627-s
 endogenous:
@@ -23963,13 +23775,6 @@ energetic:
       - 'energy%1:07:00::'
       id: 'energetic%3:00:00::'
       synset: 00876911-a
-  s:
-    pronunciation:
-    - value: ˌɛnɚˈdʒɛtɪk
-      variety: US
-    - value: ˌɛnəˈdʒɛtɪk
-      variety: GB
-    sense:
     - derivation:
       - 'energy%1:07:02::'
       id: energetic%5:00:00:enterprising:00
@@ -24158,8 +23963,6 @@ energy-releasing:
     sense:
     - id: 'energy-releasing%3:00:00::'
       synset: 00875655-a
-  s:
-    sense:
     - adjposition: a
       id: energy-releasing%5:00:00:catabolic:00
       synset: 00108956-s
@@ -25245,8 +25048,6 @@ enlarged:
     sense:
     - id: 'enlarged%3:00:04::'
       synset: 00557337-a
-  s:
-    sense:
     - id: enlarged%5:00:00:large:00
       synset: 01386869-s
     - id: enlarged%5:00:00:unhealthy:00
@@ -25315,6 +25116,10 @@ enlightened:
       - 'unenlightened%3:00:00::'
       id: 'enlightened%3:00:00::'
       synset: 00887249-a
+    - derivation:
+      - 'enlightened%1:14:00::'
+      id: enlightened%5:00:00:informed:00
+      synset: 01310330-s
   n:
     pronunciation:
     - value: ənˈlaɪtn̩d
@@ -25323,14 +25128,6 @@ enlightened:
       - enlightened%5:00:00:informed:00
       id: 'enlightened%1:14:00::'
       synset: 07965104-n
-  s:
-    pronunciation:
-    - value: ənˈlaɪtn̩d
-    sense:
-    - derivation:
-      - 'enlightened%1:14:00::'
-      id: enlightened%5:00:00:informed:00
-      synset: 01310330-s
 enlightening:
   a:
     sense:
@@ -25451,8 +25248,6 @@ enlivened:
       - 'unenlivened%3:00:00::'
       id: 'enlivened%3:00:00::'
       synset: 00120685-a
-  s:
-    sense:
     - id: enlivened%5:00:00:animated:00
       synset: 00119655-s
 enlivener:
@@ -27326,10 +27121,6 @@ entrepreneurial:
       pertainym:
       - 'entrepreneur%1:18:00::'
       synset: 03075787-a
-  s:
-    pronunciation:
-    - value: ˌɒntɹəpɹəˈnɜːɹi.əl
-    sense:
     - derivation:
       - 'entrepreneur%1:18:00::'
       id: entrepreneurial%5:00:00:enterprising:00
@@ -27937,10 +27728,6 @@ eonian:
       pertainym:
       - 'eon%1:28:01::'
       synset: 02731048-a
-  s:
-    pronunciation:
-    - value: iːˈəʊnɪən
-    sense:
     - derivation:
       - 'eon%1:28:00::'
       id: eonian%5:00:00:permanent:00
@@ -28230,6 +28017,8 @@ epic:
       pertainym:
       - 'epic%1:10:00::'
       synset: 03027102-a
+    - id: epic%5:00:00:large:00
+      synset: 01388944-s
   n:
     sense:
     - derivation:
@@ -28237,10 +28026,6 @@ epic:
       - 'epical%3:01:00::'
       id: 'epic%1:10:00::'
       synset: 06391344-n
-  s:
-    sense:
-    - id: epic%5:00:00:large:00
-      synset: 01388944-s
 epic poem:
   n:
     sense:
@@ -30325,8 +30110,6 @@ equipped:
       synset: 01097742-a
     - id: 'equipped%3:00:02::'
       synset: 01100683-a
-  s:
-    sense:
     - id: equipped%5:00:00:prepared:00
       synset: 01849926-s
     - id: equipped%5:00:00:armed:01
@@ -30465,13 +30248,6 @@ equivocal:
       - 'equivocalness%1:07:00::'
       id: 'equivocal%3:00:00::'
       synset: 00898735-a
-  s:
-    pronunciation:
-    - value: əˈkwɪvəkəl
-      variety: GB
-    - value: ɪˈkwɪvək(ə)l
-      variety: US
-    sense:
     - id: equivocal%5:00:00:questionable:00
       synset: 01923751-s
     - id: equivocal%5:00:00:inconclusive:00
@@ -30679,8 +30455,6 @@ erect:
       - 'erectness%1:07:01::'
       id: 'erect%3:00:00::'
       synset: 01238732-a
-  s:
-    sense:
     - id: erect%5:00:00:hard:01
       synset: 01155095-s
   v:
@@ -30808,10 +30582,6 @@ eremitic:
       pertainym:
       - 'eremite%1:18:00::'
       synset: 02697687-a
-  s:
-    pronunciation:
-    - value: ɛɹəˈmɪtɪk
-    sense:
     - derivation:
       - 'eremite%1:18:00::'
       id: eremitic%5:00:00:unworldly:00
@@ -30827,10 +30597,6 @@ eremitical:
       pertainym:
       - 'eremite%1:18:00::'
       synset: 02697687-a
-  s:
-    pronunciation:
-    - value: ˌɛɹəˈmɪtɪkəl
-    sense:
     - derivation:
       - 'eremite%1:18:00::'
       id: eremitical%5:00:00:unworldly:00
@@ -31578,10 +31344,6 @@ eruptive:
       synset: 02732923-a
     - id: 'eruptive%3:00:00::'
       synset: 01357773-a
-  s:
-    pronunciation:
-    - value: ɪˈɹʌptɪv
-    sense:
     - derivation:
       - 'erupt%2:30:03::'
       id: eruptive%5:00:00:active:04
@@ -32596,20 +32358,6 @@ essential:
       - 'essentialness%1:07:00::'
       id: 'essential%3:00:04::'
       synset: 00055779-a
-  n:
-    pronunciation:
-    - value: ɪˈsɛn.ʃəl
-    sense:
-    - antonym:
-      - 'inessential%1:17:00::'
-      derivation:
-      - essential%5:00:00:necessary:00
-      id: 'essential%1:17:00::'
-      synset: 09390100-n
-  s:
-    pronunciation:
-    - value: ɪˈsɛn.ʃəl
-    sense:
     - derivation:
       - 'essential%1:17:00::'
       - 'essentialness%1:07:00::'
@@ -32621,6 +32369,16 @@ essential:
       - 'essentiality%1:07:00::'
       id: essential%5:00:00:important:00
       synset: 01279260-s
+  n:
+    pronunciation:
+    - value: ɪˈsɛn.ʃəl
+    sense:
+    - antonym:
+      - 'inessential%1:17:00::'
+      derivation:
+      - essential%5:00:00:necessary:00
+      id: 'essential%1:17:00::'
+      synset: 09390100-n
 essential amino acid:
   n:
     sense:
@@ -32745,10 +32503,6 @@ established:
       - 'unestablished%3:00:00::'
       id: 'established%3:00:00::'
       synset: 01639189-a
-  s:
-    pronunciation:
-    - value: ɪˈstæb.lɪʃt
-    sense:
     - id: established%5:00:00:settled:02
       synset: 02136915-s
     - id: established%5:00:00:orthodox:00
@@ -32951,14 +32705,12 @@ esthetic:
       pertainym:
       - 'esthetics%1:09:00::'
       synset: 03002795-a
+    - id: esthetic%5:00:00:tasteful:02
+      synset: 02401653-s
   n:
     sense:
     - id: 'esthetic%1:09:00::'
       synset: 05977838-n
-  s:
-    sense:
-    - id: esthetic%5:00:00:tasteful:02
-      synset: 02401653-s
 esthetical:
   a:
     sense:
@@ -32997,8 +32749,6 @@ estimable:
       - 'contemptible%3:00:00::'
       id: 'estimable%3:00:00::'
       synset: 00907385-a
-  s:
-    sense:
     - id: estimable%5:00:00:reputable:00
       synset: 01990227-s
     - id: estimable%5:00:00:calculable:00
@@ -33667,13 +33417,6 @@ ethereal:
       pertainym:
       - 'ether%1:06:00::'
       synset: 02882364-a
-  s:
-    pronunciation:
-    - value: ɪˈθɪə.ɹi.əl
-      variety: GB
-    - value: ɪˈθɪɹ.i.əl
-      variety: US
-    sense:
     - id: ethereal%5:00:00:insubstantial:00
       synset: 00628872-s
     - derivation:
@@ -33767,10 +33510,6 @@ ethical:
       - 'ethics%1:16:00::'
       id: 'ethical%3:00:00::'
       synset: 00908608-a
-  s:
-    pronunciation:
-    - value: ˈɛθɪkəl
-    sense:
     - derivation:
       - 'ethics%1:16:00::'
       id: ethical%5:00:00:right:01
@@ -34782,13 +34521,6 @@ euphonious:
       - 'euphony%1:09:00::'
       id: 'euphonious%3:00:00::'
       synset: 00301604-a
-  s:
-    pronunciation:
-    - value: juːˈfəʊ.nɪ.əs
-      variety: GB
-    - value: juˈfoʊ.ni.əs
-      variety: US
-    sense:
     - derivation:
       - 'euphony%1:09:00::'
       id: euphonious%5:00:00:soft:04
@@ -35236,10 +34968,6 @@ evangelical:
       pertainym:
       - 'gospel%1:10:00::'
       synset: 02934127-a
-  s:
-    pronunciation:
-    - value: iːvænˈdʒɛlɪkəl
-    sense:
     - id: evangelical%5:00:00:enthusiastic:00
       synset: 00889973-s
 evangelicalism:
@@ -35295,10 +35023,6 @@ evangelistic:
       pertainym:
       - 'evangelism%1:10:00::'
       synset: 02934594-a
-  s:
-    pronunciation:
-    - value: ɪˌvænd͡ʒəˈlɪstɪk
-    sense:
     - id: evangelistic%5:00:00:enthusiastic:00
       synset: 00889973-s
 evangelize:
@@ -35489,24 +35213,6 @@ even:
       - 'evenness%1:07:02::'
       id: 'even%3:00:01::'
       synset: 00912628-a
-  n:
-    pronunciation:
-    - value: əˈvɛn
-    sense:
-    - id: 'even%1:28:00::'
-      synset: 15191509-n
-  r:
-    sense:
-    - id: 'even%4:02:00::'
-      synset: 00017907-r
-    - id: 'even%4:02:03::'
-      synset: 00018505-r
-    - id: 'even%4:02:01::'
-      synset: 00018101-r
-    - id: 'even%4:02:04::'
-      synset: 00018651-r
-  s:
-    sense:
     - derivation:
       - 'evenness%1:07:02::'
       id: even%5:00:01:equal:00
@@ -35523,6 +35229,22 @@ even:
       - 'evenness%1:07:02::'
       id: even%5:00:02:equal:00
       synset: 00895536-s
+  n:
+    pronunciation:
+    - value: əˈvɛn
+    sense:
+    - id: 'even%1:28:00::'
+      synset: 15191509-n
+  r:
+    sense:
+    - id: 'even%4:02:00::'
+      synset: 00017907-r
+    - id: 'even%4:02:03::'
+      synset: 00018505-r
+    - id: 'even%4:02:01::'
+      synset: 00018101-r
+    - id: 'even%4:02:04::'
+      synset: 00018651-r
   v:
     sense:
     - id: 'even%2:35:00::'
@@ -35814,8 +35536,6 @@ eventful:
       - 'uneventful%3:00:00::'
       id: 'eventful%3:00:00::'
       synset: 00807790-a
-  s:
-    sense:
     - id: eventful%5:00:00:important:00
       synset: 01280863-s
 eventide:
@@ -36314,8 +36034,6 @@ evidentiary:
       pertainym:
       - 'evidence%1:10:01::'
       synset: 02734459-a
-  s:
-    sense:
     - derivation:
       - 'evidence%1:09:00::'
       id: evidentiary%5:00:00:significant:00
@@ -36339,6 +36057,12 @@ evil:
       - 'evilness%1:07:00::'
       id: 'evil%3:00:00::'
       synset: 01134543-a
+    - derivation:
+      - 'evilness%1:07:00::'
+      id: evil%5:00:00:wicked:00
+      synset: 02524157-s
+    - id: evil%5:00:00:maleficent:00
+      synset: 00226107-s
   n:
     sense:
     - id: 'evil%1:04:00::'
@@ -36347,14 +36071,6 @@ evil:
       - 'good%1:07:01::'
       id: 'evil%1:07:00::'
       synset: 04859319-n
-  s:
-    sense:
-    - derivation:
-      - 'evilness%1:07:00::'
-      id: evil%5:00:00:wicked:00
-      synset: 02524157-s
-    - id: evil%5:00:00:maleficent:00
-      synset: 00226107-s
 evil eye:
   n:
     sense:
@@ -36821,10 +36537,6 @@ exact:
       - 'exactness%1:07:00::'
       id: 'exact%3:00:00::'
       synset: 00917535-a
-  s:
-    pronunciation:
-    - value: ɪɡˈzækt
-    sense:
     - derivation:
       - 'exactness%1:07:00::'
       id: exact%5:00:00:correct:00
@@ -36864,10 +36576,6 @@ exacting:
     sense:
     - id: 'exacting%3:00:00::'
       synset: 00988799-a
-  s:
-    pronunciation:
-    - value: ɪɡˈzæktɪŋ
-    sense:
     - id: exacting%5:00:02:demanding:01
       synset: 00714774-s
     - id: exacting%5:00:01:demanding:01
@@ -37799,8 +37507,6 @@ exchangeable:
       - 'exchangeability%1:07:00::'
       id: 'exchangeable%3:00:04::'
       synset: 00919820-a
-  s:
-    sense:
     - id: exchangeable%5:00:00:replaceable:00
       synset: 01985596-s
 exchanged:
@@ -37903,8 +37609,6 @@ excitable:
       - 'excitability%1:07:00::'
       id: 'excitable%3:00:00::'
       synset: 00921893-a
-  s:
-    sense:
     - id: excitable%5:00:00:sensitive:01
       synset: 02111557-s
 excitable area:
@@ -38054,10 +37758,6 @@ excited:
       - 'unexcited%3:00:00::'
       id: 'excited%3:00:00::'
       synset: 00922656-a
-  s:
-    pronunciation:
-    - value: ɪkˈsaɪtɪd
-    sense:
     - id: excited%5:00:00:agitated:00
       synset: 00086315-s
     - id: excited%5:00:00:wild:02
@@ -38102,10 +37802,6 @@ exciting:
       - 'unexciting%3:00:00::'
       id: 'exciting%3:00:00::'
       synset: 00924255-a
-  s:
-    pronunciation:
-    - value: ɪkˈsaɪtɪŋ
-    sense:
     - id: exciting%5:00:00:stimulating:00
       synset: 02314443-s
 excitingly:
@@ -38290,22 +37986,18 @@ exclusive:
       - 'exclusiveness%1:07:00::'
       id: 'exclusive%3:00:00::'
       synset: 01868336-a
-  n:
-    pronunciation:
-    - value: ɪkˈsklu.sɪv
-    sense:
-    - id: 'exclusive%1:10:00::'
-      synset: 06695928-n
-  s:
-    pronunciation:
-    - value: ɪkˈsklu.sɪv
-    sense:
     - derivation:
       - 'exclude%2:31:01::'
       id: exclusive%5:00:00:unshared:00
       synset: 02160400-s
     - id: exclusive%5:00:00:concentrated:00
       synset: 00541609-s
+  n:
+    pronunciation:
+    - value: ɪkˈsklu.sɪv
+    sense:
+    - id: 'exclusive%1:10:00::'
+      synset: 06695928-n
 exclusive right:
   n:
     sense:
@@ -38660,8 +38352,6 @@ excusable:
       - 'inexcusable%3:00:00::'
       id: 'excusable%3:00:00::'
       synset: 01726274-a
-  s:
-    sense:
     - id: excusable%5:00:00:pardonable:00
       synset: 01725432-s
 excusably:
@@ -39619,12 +39309,6 @@ exhausted:
       - 'unexhausted%3:00:00::'
       id: 'exhausted%3:00:00::'
       synset: 00929382-a
-  s:
-    pronunciation:
-    - value: ɪɡˈzɔstɪd
-      variety: US
-    - value: ɪɡˈzɑstɪd
-    sense:
     - id: exhausted%5:00:00:tired:00
       synset: 02442263-s
     - id: exhausted%5:00:00:drained:00
@@ -39638,10 +39322,6 @@ exhaustible:
       - 'inexhaustible%3:00:00::'
       id: 'exhaustible%3:00:00::'
       synset: 00928701-a
-  s:
-    pronunciation:
-    - value: ɪɡˈzɔːstɪbl̩
-    sense:
     - id: exhaustible%5:00:00:finite:00
       synset: 01010556-s
 exhausting:
@@ -40085,8 +39765,6 @@ existential:
       pertainym:
       - 'existence%1:26:00::'
       synset: 02735219-a
-  s:
-    sense:
     - id: existential%5:00:00:empirical:00
       synset: 00862819-s
 existential operator:
@@ -40148,10 +39826,6 @@ existing:
     sense:
     - id: 'existing%3:00:00::'
       synset: 00930258-a
-  s:
-    pronunciation:
-    - value: ɪɡˈzɪstɪŋ
-    sense:
     - id: existing%5:00:00:present:01
       synset: 01736035-s
     - id: existing%5:00:00:present:02
@@ -40872,10 +40546,6 @@ expansive:
       - 'expansiveness%1:07:02::'
       id: 'expansive%3:00:00::'
       synset: 00949706-a
-  s:
-    pronunciation:
-    - value: ɪkˈspænsɪv
-    sense:
     - derivation:
       - 'expansivity%1:07:02::'
       - 'expansiveness%1:07:02::'
@@ -41218,21 +40888,17 @@ expedient:
       - 'expedience%1:07:01::'
       id: 'expedient%3:00:00::'
       synset: 00934824-a
+    - derivation:
+      - 'expediency%1:07:00::'
+      - 'expedience%1:07:00::'
+      id: expedient%5:00:00:politic:00
+      synset: 01819018-s
   n:
     pronunciation:
     - value: ɪkˈspiːdi.ənt
     sense:
     - id: 'expedient%1:04:00::'
       synset: 00178297-n
-  s:
-    pronunciation:
-    - value: ɪkˈspiːdi.ənt
-    sense:
-    - derivation:
-      - 'expediency%1:07:00::'
-      - 'expedience%1:07:00::'
-      id: expedient%5:00:00:politic:00
-      synset: 01819018-s
 expediently:
   r:
     sense:
@@ -41384,8 +41050,6 @@ expendable:
       - 'unexpendable%3:00:00::'
       id: 'expendable%3:00:00::'
       synset: 00935964-a
-  s:
-    sense:
     - id: expendable%5:00:00:disposable:02
       synset: 00781450-s
 expender:
@@ -41589,13 +41253,6 @@ experiential:
       pertainym:
       - 'experience%1:09:00::'
       synset: 03001069-a
-  s:
-    pronunciation:
-    - value: ɛkˌspɪəɹiˈɛnʃəl
-      variety: GB
-    - value: ɪkˌspɪɹiˈɛnʃəl
-      variety: US
-    sense:
     - derivation:
       - 'experience%1:09:01::'
       id: experiential%5:00:00:empirical:00
@@ -41651,10 +41308,6 @@ experimental:
       pertainym:
       - 'experiment%1:09:00::'
       synset: 02951729-a
-  s:
-    pronunciation:
-    - value: ɨkspɛɹəˈmɛntəl
-    sense:
     - id: experimental%5:00:01:empirical:00
       synset: 00863136-s
     - id: experimental%5:00:02:empirical:00
@@ -42060,10 +41713,6 @@ explicit:
       - 'explicitness%1:07:00::'
       id: 'explicit%3:00:00::'
       synset: 00943706-a
-  s:
-    pronunciation:
-    - value: ɪkˈsplɪsɪt
-    sense:
     - derivation:
       - 'explicitness%1:07:00::'
       id: explicit%5:00:00:literal:00
@@ -42255,8 +41904,6 @@ exploited:
       - 'unexploited%3:00:00::'
       id: 'exploited%3:00:00::'
       synset: 00945962-a
-  s:
-    sense:
     - id: exploited%5:00:02:misused:00
       synset: 02505376-s
 exploiter:
@@ -42424,18 +42071,16 @@ explosive:
       - 'explosive%1:06:00::'
       id: 'explosive%3:00:00::'
       synset: 00476610-a
+    - id: explosive%5:00:00:unstable:00
+      synset: 02300305-s
+    - id: explosive%5:00:00:sudden:00
+      synset: 01147494-s
   n:
     sense:
     - derivation:
       - 'explosive%3:00:00::'
       id: 'explosive%1:06:00::'
       synset: 03309675-n
-  s:
-    sense:
-    - id: explosive%5:00:00:unstable:00
-      synset: 02300305-s
-    - id: explosive%5:00:00:sudden:00
-      synset: 01147494-s
 explosive charge:
   n:
     sense:
@@ -43074,10 +42719,6 @@ expressed:
     sense:
     - id: 'expressed%3:00:00::'
       synset: 00943706-a
-  s:
-    pronunciation:
-    - value: ɪkˈspɹest
-    sense:
     - id: expressed%5:00:00:spoken:00
       synset: 02291757-s
 expressed almond oil:
@@ -43171,10 +42812,6 @@ expressive:
     sense:
     - id: 'expressive%3:00:01::'
       synset: 85983944-a
-  s:
-    pronunciation:
-    - value: ɪkˈspɹɛsɪv
-    sense:
     - derivation:
       - 'express%2:32:02::'
       - 'express%2:32:01::'
@@ -43610,10 +43247,6 @@ extended:
       - 'unextended%3:00:00::'
       id: 'extended%3:00:00::'
       synset: 01434511-a
-  s:
-    pronunciation:
-    - value: ɛkˈstɛndɪd
-    sense:
     - id: extended%5:00:00:long:02
       synset: 01442029-s
     - id: extended%5:00:00:long:01
@@ -43754,11 +43387,6 @@ extensive:
       - 'intensive%3:00:00::'
       id: 'extensive%3:00:00::'
       synset: 01518681-a
-  s:
-    pronunciation:
-    - value: ɛksˈtɛn.sɪv
-      variety: US
-    sense:
     - derivation:
       - 'extensiveness%1:07:00::'
       - 'extend%2:30:01::'
@@ -43987,6 +43615,14 @@ external:
       - 'externality%1:07:00::'
       id: 'external%3:00:00::'
       synset: 00951310-a
+    - derivation:
+      - 'externality%1:07:00::'
+      id: external%5:00:00:extrinsic:00
+      synset: 01353073-s
+    - id: external%5:00:00:foreign:02
+      synset: 01041567-s
+    - id: external%5:00:00:outward:00
+      synset: 00954193-s
   n:
     pronunciation:
     - value: ɛksˈtɝnəl
@@ -43996,21 +43632,6 @@ external:
     sense:
     - id: 'external%1:09:00::'
       synset: 05860572-n
-  s:
-    pronunciation:
-    - value: ɛksˈtɝnəl
-      variety: US
-    - value: ɪksˈtɜːnəl
-      variety: GB
-    sense:
-    - derivation:
-      - 'externality%1:07:00::'
-      id: external%5:00:00:extrinsic:00
-      synset: 01353073-s
-    - id: external%5:00:00:foreign:02
-      synset: 01041567-s
-    - id: external%5:00:00:outward:00
-      synset: 00954193-s
 external angle:
   n:
     sense:
@@ -44210,10 +43831,6 @@ extinct:
       - 'active%3:00:05::'
       id: 'extinct%3:00:02::'
       synset: 00041273-a
-  s:
-    pronunciation:
-    - value: ɪkˈstɪŋkt
-    sense:
     - id: extinct%5:00:00:dead:02
       synset: 00100933-s
 extinction:
@@ -44851,11 +44468,6 @@ extraordinary:
       - 'extraordinariness%1:07:00::'
       id: 'extraordinary%3:00:00::'
       synset: 01679784-a
-  s:
-    pronunciation:
-    - value: ɪksˈtɹɔː(ɹ)dɪnəɹi
-      variety: GB
-    sense:
     - derivation:
       - 'extraordinariness%1:07:00::'
       id: extraordinary%5:00:00:immoderate:00
@@ -45362,13 +44974,6 @@ extroverted:
     sense:
     - id: 'extroverted%3:00:04::'
       synset: 01353724-a
-  s:
-    pronunciation:
-    - value: ˈɛkstɹəvəːtɪd
-      variety: GB
-    - value: ˈɛkstɹəˌvəɹtɪd
-      variety: US
-    sense:
     - id: extroverted%5:00:00:sociable:00
       synset: 02266005-s
     - id: extroverted%5:00:00:extroversive:00
@@ -45932,8 +45537,6 @@ eyeless:
       - 'eyed%3:00:00::'
       id: 'eyeless%3:00:00::'
       synset: 00958155-a
-  s:
-    sense:
     - derivation:
       - 'eyelessness%1:26:00::'
       id: eyeless%5:00:00:blind:00

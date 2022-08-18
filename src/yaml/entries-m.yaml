@@ -15620,8 +15620,6 @@ made:
       - 'unmade%3:00:00::'
       id: 'made%3:00:00::'
       synset: 01472305-a
-  s:
-    sense:
     - id: made%5:00:00:ready-made:00
       synset: 00676050-s
     - id: made%5:00:00:successful:00
@@ -16078,11 +16076,6 @@ magisterial:
       pertainym:
       - 'magistrate%1:18:00::'
       synset: 02842481-a
-  s:
-    pronunciation:
-    - value: madʒɪˈstɪəɹɪəl
-      variety: GB
-    sense:
     - id: magisterial%5:00:00:domineering:00
       synset: 00791150-s
     - id: magisterial%5:00:00:dignified:00
@@ -16293,10 +16286,6 @@ magnetic:
       - 'magnet%1:06:00::'
       id: 'magnetic%3:00:01::'
       synset: 01473213-a
-  s:
-    pronunciation:
-    - value: mæɡˈnɛtɪk
-    sense:
     - derivation:
       - 'magnet%1:09:00::'
       id: magnetic%5:00:00:attractive:01
@@ -17519,20 +17508,18 @@ main:
     - adjposition: a
       id: 'main%3:00:02::'
       synset: 00733659-a
-  n:
-    sense:
-    - id: 'main%1:17:00::'
-      synset: 09368829-n
-    - id: 'main%1:06:00::'
-      synset: 03716684-n
-  s:
-    sense:
     - adjposition: a
       id: main%5:00:00:important:00
       synset: 01280536-s
     - adjposition: a
       id: main%5:00:00:intense:00
       synset: 01516279-s
+  n:
+    sense:
+    - id: 'main%1:17:00::'
+      synset: 09368829-n
+    - id: 'main%1:06:00::'
+      synset: 03716684-n
 main beam headlamp:
   n:
     sense:
@@ -17942,6 +17929,9 @@ major:
       - 'majority%1:28:00::'
       id: 'major%3:00:03::'
       synset: 01474763-a
+    - adjposition: ip
+      id: major%5:00:00:senior:00
+      synset: 02107516-s
   n:
     pronunciation:
     - value: ˈmeɪ.dʒə(ɹ)
@@ -17956,13 +17946,6 @@ major:
       - 'major%2:31:09::'
       id: 'major%1:09:00::'
       synset: 06006837-n
-  s:
-    pronunciation:
-    - value: ˈmeɪ.dʒə(ɹ)
-    sense:
-    - adjposition: ip
-      id: major%5:00:00:senior:00
-      synset: 02107516-s
   v:
     pronunciation:
     - value: ˈmeɪ.dʒə(ɹ)
@@ -18186,6 +18169,8 @@ majuscule:
       - 'minuscule%3:00:00::'
       id: 'majuscule%3:00:00::'
       synset: 01477139-a
+    - id: majuscule%5:00:00:uppercase:00
+      synset: 01470834-s
   n:
     pronunciation:
     - value: ˈmædʒəskjuːl
@@ -18195,13 +18180,6 @@ majuscule:
       - majuscular%5:00:00:majuscule:00
       id: 'majuscule%1:10:00::'
       synset: 06837277-n
-  s:
-    pronunciation:
-    - value: ˈmædʒəskjuːl
-      variety: GB
-    sense:
-    - id: majuscule%5:00:00:uppercase:00
-      synset: 01470834-s
 makagigi:
   n:
     sense:
@@ -19178,8 +19156,6 @@ maladjusted:
       - 'adjusted%3:00:02::'
       id: 'maladjusted%3:00:00::'
       synset: 00352919-a
-  s:
-    sense:
     - id: maladjusted%5:00:00:neurotic:00
       synset: 01588425-s
     - id: maladjusted%5:00:00:unadjusted:00
@@ -19391,6 +19367,16 @@ male:
       - 'maleness%1:07:00::'
       id: 'male%3:00:00::'
       synset: 01479992-a
+    - derivation:
+      - 'male%1:18:00::'
+      - 'maleness%1:07:00::'
+      id: male%5:00:02:masculine:01
+      synset: 01486984-s
+    - derivation:
+      - 'male%1:18:00::'
+      - 'maleness%1:07:00::'
+      id: male%5:00:01:male:00
+      synset: 01480384-s
   n:
     pronunciation:
     - value: meɪl
@@ -19406,20 +19392,6 @@ male:
       - male%5:00:01:male:00
       id: 'male%1:18:00::'
       synset: 09647338-n
-  s:
-    pronunciation:
-    - value: meɪl
-    sense:
-    - derivation:
-      - 'male%1:18:00::'
-      - 'maleness%1:07:00::'
-      id: male%5:00:02:masculine:01
-      synset: 01486984-s
-    - derivation:
-      - 'male%1:18:00::'
-      - 'maleness%1:07:00::'
-      id: male%5:00:01:male:00
-      synset: 01480384-s
 male aristocrat:
   n:
     sense:
@@ -19851,10 +19823,6 @@ malign:
       - 'benign%3:00:00::'
       id: 'malign%3:00:00::'
       synset: 00228595-a
-  s:
-    pronunciation:
-    - value: məˈlaɪn
-    sense:
     - derivation:
       - 'malignity%1:07:00::'
       id: malign%5:00:00:maleficent:00
@@ -21046,13 +21014,6 @@ manageable:
       - 'manage%2:41:00::'
       id: 'manageable%3:00:00::'
       synset: 01477656-a
-  s:
-    pronunciation:
-    - value: ˈmænɪd͡ʒəbl̩
-      variety: GB
-    - value: ˈmænəd͡ʒəb(ə)l
-      variety: US
-    sense:
     - id: manageable%5:00:00:possible:00
       synset: 01827194-s
 manageableness:
@@ -21592,8 +21553,6 @@ manful:
       - 'manfulness%1:07:00::'
       id: 'manful%3:00:00::'
       synset: 01479138-a
-  s:
-    sense:
     - derivation:
       - 'manfulness%1:07:00::'
       id: manful%5:00:00:masculine:01
@@ -22370,13 +22329,6 @@ manlike:
     sense:
     - id: 'manlike%3:00:00::'
       synset: 01479138-a
-  s:
-    pronunciation:
-    - value: ˈmanlʌɪk
-      variety: GB
-    - value: ˈmænlaɪk
-      variety: US
-    sense:
     - id: manlike%5:00:00:masculine:01
       synset: 01486984-s
     - id: manlike%5:00:00:human:00
@@ -22405,23 +22357,16 @@ manly:
       - 'manliness%1:07:00::'
       id: 'manly%3:00:00::'
       synset: 01479138-a
-  r:
-    sense:
-    - id: 'manly%4:02:00::'
-      synset: 00392480-r
-  s:
-    form:
-    - manlier
-    - manliest
-    pronunciation:
-    - value: ˈmænli
-    sense:
     - derivation:
       - 'man%1:18:06::'
       - 'man%1:18:00::'
       - 'manliness%1:07:00::'
       id: manly%5:00:00:masculine:01
       synset: 01486984-s
+  r:
+    sense:
+    - id: 'manly%4:02:00::'
+      synset: 00392480-r
 manna:
   n:
     pronunciation:
@@ -22994,17 +22939,15 @@ manual:
       - 'automatic%3:00:00::'
       id: 'manual%3:00:00::'
       synset: 00184143-a
+    - adjposition: a
+      id: manual%5:00:00:blue-collar:00
+      synset: 02567793-s
   n:
     sense:
     - id: 'manual%1:10:00::'
       synset: 06433328-n
     - id: 'manual%1:04:00::'
       synset: 00896833-n
-  s:
-    sense:
-    - adjposition: a
-      id: manual%5:00:00:blue-collar:00
-      synset: 02567793-s
 manual alphabet:
   n:
     sense:
@@ -23273,8 +23216,6 @@ many-sided:
     sense:
     - id: 'many-sided%3:00:04::'
       synset: 00238832-a
-  s:
-    sense:
     - id: many-sided%5:00:00:varied:00
       synset: 02516967-s
     - id: many-sided%5:00:00:colorful:03
@@ -24439,18 +24380,14 @@ marine:
       synset: 02899304-a
     - id: 'marine%3:00:00::'
       synset: 01383647-a
+    - id: marine%5:00:00:aquatic:00
+      synset: 00125225-s
   n:
     pronunciation:
     - value: məˈɹiːn
     sense:
     - id: 'marine%1:18:01::'
       synset: 10313979-n
-  s:
-    pronunciation:
-    - value: məˈɹiːn
-    sense:
-    - id: marine%5:00:00:aquatic:00
-      synset: 00125225-s
 marine animal:
   n:
     sense:
@@ -24596,11 +24533,6 @@ maritime:
       pertainym:
       - 'navigation%1:04:02::'
       synset: 02900947-a
-  s:
-    pronunciation:
-    - value: ˈmæ.ɹɪˌtaɪm
-      variety: GB
-    sense:
     - id: maritime%5:00:00:coastal:00
       synset: 00465432-s
 maritime law:
@@ -24850,13 +24782,6 @@ marked:
       - 'unmarked%3:00:00::'
       id: 'marked%3:00:00::'
       synset: 01483493-a
-  s:
-    pronunciation:
-    - value: ˈmɑːkɪd
-      variety: GB
-    - value: mɑɹkt
-      variety: US
-    sense:
     - id: marked%5:00:00:noticeable:00
       synset: 01290810-s
     - id: marked%5:00:00:conspicuous:00
@@ -26352,6 +26277,8 @@ masculine:
       - 'masculinity%1:07:00::'
       id: 'masculine%3:00:01::'
       synset: 01486631-a
+    - id: masculine%5:00:00:stressed:00
+      synset: 02327600-s
   n:
     pronunciation:
     - value: ˈmæskjʊlɪn
@@ -26363,17 +26290,6 @@ masculine:
     sense:
     - id: 'masculine%1:10:00::'
       synset: 06340158-n
-  s:
-    pronunciation:
-    - value: ˈmæskjʊlɪn
-      variety: GB
-    - value: ˈmæskjulɪn
-      variety: US
-    - value: ˈmæskjələn
-      variety: AU
-    sense:
-    - id: masculine%5:00:00:stressed:00
-      synset: 02327600-s
 masculine declension:
   n:
     sense:
@@ -27942,8 +27858,6 @@ matched:
       - 'mismatched%3:00:00::'
       id: 'matched%3:00:00::'
       synset: 01489796-a
-  s:
-    sense:
     - id: matched%5:00:00:competitive:00
       synset: 00514973-s
 matched game:
@@ -28098,8 +28012,6 @@ mated:
       - 'unmated%3:00:00::'
       id: 'mated%3:00:00::'
       synset: 01486263-a
-  s:
-    sense:
     - id: mated%5:00:00:matched:00
       synset: 01490267-s
     - id: mated%5:00:00:married:00
@@ -28159,6 +28071,10 @@ material:
       synset: 00632838-a
     - id: 'material%3:00:03::'
       synset: 00628097-a
+    - id: material%5:00:00:worldly:00
+      synset: 02588172-s
+    - id: material%5:00:00:physical:00
+      synset: 01783738-s
   n:
     pronunciation:
     - value: məˈtɪɹi.əl
@@ -28176,17 +28092,6 @@ material:
       synset: 03735442-n
     - id: 'material%1:18:00::'
       synset: 10320321-n
-  s:
-    pronunciation:
-    - value: məˈtɪɹi.əl
-      variety: US
-    - value: məˈtɪəɹɪəl
-      variety: GB
-    sense:
-    - id: material%5:00:00:worldly:00
-      synset: 02588172-s
-    - id: material%5:00:00:physical:00
-      synset: 01783738-s
 material body:
   n:
     sense:
@@ -28386,13 +28291,6 @@ maternal:
       synset: 02770139-a
     - id: 'maternal%3:00:04::'
       synset: 01726746-a
-  s:
-    pronunciation:
-    - value: məˈtɜːnəl
-      variety: GB
-    - value: məˈtɜɹnəl
-      variety: US
-    sense:
     - adjposition: p
       id: maternal%5:00:00:related:01
       synset: 01979414-s
@@ -28500,11 +28398,6 @@ mathematical:
       synset: 02949213-a
     - id: 'mathematical%3:00:00::'
       synset: 02238540-a
-  s:
-    pronunciation:
-    - value: ˌmæθəˈmætɪkəl
-      variety: GB
-    sense:
     - id: mathematical%5:00:00:unquestionable:00
       synset: 01925170-s
     - id: mathematical%5:00:00:possible:00
@@ -29203,8 +29096,6 @@ mature:
       - 'matureness%1:26:00::'
       id: 'mature%3:00:04::'
       synset: 01099607-a
-  s:
-    sense:
     - id: mature%5:00:00:developed:00
       synset: 00745899-s
   v:
@@ -30351,13 +30242,6 @@ mealy:
       pertainym:
       - 'meal%1:13:01::'
       synset: 02770682-a
-  s:
-    form:
-    - mealier
-    - mealiest
-    pronunciation:
-    - value: miːli
-    sense:
     - id: mealy%5:00:00:coarse:00
       synset: 02239247-s
 mealy bug:
@@ -30609,8 +30493,6 @@ meaningless:
       - 'meaninglessness%1:10:00::'
       id: 'meaningless%3:00:00::'
       synset: 01501055-a
-  s:
-    sense:
     - id: meaningless%5:00:00:useless:00
       synset: 02507270-s
 meaninglessness:
@@ -30686,8 +30568,6 @@ meanspirited:
     sense:
     - id: 'meanspirited%3:00:02::'
       synset: 01118823-a
-  s:
-    sense:
     - id: meanspirited%5:00:00:ignoble:01
       synset: 01594057-s
 meanspiritedly:
@@ -30773,10 +30653,6 @@ measurable:
       - 'measure%2:30:00::'
       id: 'measurable%3:00:00::'
       synset: 01502253-a
-  s:
-    pronunciation:
-    - value: ˈmɛʒəɹəbəl
-    sense:
     - id: measurable%5:00:00:important:00
       synset: 01282420-s
 measurably:
@@ -30902,13 +30778,6 @@ measured:
     sense:
     - id: 'measured%3:01:00::'
       synset: 02943260-a
-  s:
-    pronunciation:
-    - value: ˈmɛʒəd
-      variety: GB
-    - value: ˈmɛʒɚd
-      variety: US
-    sense:
     - id: measured%5:00:00:rhythmical:00
       synset: 02027523-s
     - id: measured%5:00:00:intended:00
@@ -31172,13 +31041,6 @@ meaty:
       - 'meat%1:13:01::'
       id: 'meaty%3:00:00::'
       synset: 01503136-a
-  s:
-    form:
-    - meatier
-    - meatiest
-    pronunciation:
-    - value: ˈmiːti
-    sense:
     - derivation:
       - 'meat%1:09:00::'
       id: meaty%5:00:00:meaningful:00
@@ -31437,10 +31299,6 @@ mechanistic:
       pertainym:
       - 'mechanism%1:09:00::'
       synset: 02922425-a
-  s:
-    pronunciation:
-    - value: ˌmɛkəˈnɪstɪk
-    sense:
     - derivation:
       - 'mechanism%1:17:00::'
       id: mechanistic%5:00:00:mechanical:00
@@ -31682,11 +31540,6 @@ mediaeval:
       pertainym:
       - 'middle_ages%1:28:00::'
       synset: 03001222-a
-  s:
-    pronunciation:
-    - value: mɪd.ˈi.vəl
-      variety: US
-    sense:
     - id: mediaeval%5:00:00:nonmodern:00
       synset: 01541543-s
 medial:
@@ -31797,11 +31650,6 @@ mediate:
       - 'mediateness%1:07:00::'
       id: 'mediate%3:00:00::'
       synset: 00774315-a
-  s:
-    pronunciation:
-    - value: ˈmidieɪt
-      variety: US
-    sense:
     - id: mediate%5:00:00:intermediate:00
       synset: 01018550-s
   v:
@@ -32306,13 +32154,6 @@ medieval:
       pertainym:
       - 'middle_ages%1:28:00::'
       synset: 03001222-a
-  s:
-    pronunciation:
-    - value: ˌmɛd.i.ˈiː.vəl
-      variety: GB
-    - value: mɪd.ˈi.vəl
-      variety: US
-    sense:
     - id: medieval%5:00:00:nonmodern:00
       synset: 01541543-s
     - id: medieval%5:00:00:past:00
@@ -34221,10 +34062,6 @@ membranous:
       pertainym:
       - 'membrane%1:08:00::'
       synset: 03097000-a
-  s:
-    pronunciation:
-    - value: ˈmɛm.bɹən.əs
-    sense:
     - derivation:
       - 'membrane%1:08:00::'
       id: membranous%5:00:00:unhealthy:00
@@ -35112,8 +34949,6 @@ mental:
       pertainym:
       - 'mentum%1:08:00::'
       synset: 02745512-a
-  s:
-    sense:
     - id: mental%5:00:00:unhealthy:00
       synset: 01181443-s
 mental ability:
@@ -35658,13 +35493,6 @@ mercantile:
       pertainym:
       - 'mercantilism%1:14:00::'
       synset: 03006990-a
-  s:
-    pronunciation:
-    - value: ˈmɜːkənˌtaɪl
-      variety: GB
-    - value: ˈmɝ.kənˌtaɪl
-      variety: US
-    sense:
     - id: mercantile%5:00:02:commercial:00
       synset: 00485804-s
     - id: mercantile%5:00:00:commercial:00
@@ -35893,13 +35721,6 @@ merciful:
       - 'mercifulness%1:04:00::'
       id: 'merciful%3:00:00::'
       synset: 01510813-a
-  s:
-    pronunciation:
-    - value: ˈmɝsɪfl̩
-      variety: US
-    - value: ˈmɜːsɪfl̩
-      variety: GB
-    sense:
     - derivation:
       - 'mercifulness%1:07:00::'
       id: merciful%5:00:00:gracious:00
@@ -35977,13 +35798,6 @@ mercurial:
       pertainym:
       - 'mercury%1:27:00::'
       synset: 02877560-a
-  s:
-    pronunciation:
-    - value: məːˈkjʊə.ɹɪ.əl
-      variety: GB
-    - value: mɝˈkjʊ.ɹi.əl
-      variety: US
-    sense:
     - id: mercurial%5:00:00:changeable:00
       synset: 00346106-s
 mercurial ointment:
@@ -36154,10 +35968,6 @@ meretricious:
       pertainym:
       - 'prostitute%1:18:00::'
       synset: 02774456-a
-  s:
-    pronunciation:
-    - value: ˌmɛɹɪˈtɹɪʃəs
-    sense:
     - derivation:
       - 'meretriciousness%1:07:02::'
       id: meretricious%5:00:00:tasteless:02
@@ -36281,6 +36091,10 @@ meridian:
       pertainym:
       - 'noon%1:28:00::'
       synset: 02877465-a
+    - derivation:
+      - 'meridian%1:26:00::'
+      id: meridian%5:00:00:mature:01
+      synset: 01492920-s
   n:
     pronunciation:
     - value: məˈɹɪdɪən
@@ -36296,17 +36110,6 @@ meridian:
       - 'meridional%3:01:00::'
       id: 'meridian%1:15:00::'
       synset: 08616379-n
-  s:
-    pronunciation:
-    - value: məˈɹɪdɪən
-      variety: GB
-    - value: məˈɹɪdiən
-      variety: US
-    sense:
-    - derivation:
-      - 'meridian%1:26:00::'
-      id: meridian%5:00:00:mature:01
-      synset: 01492920-s
 meridional:
   a:
     pronunciation:
@@ -36318,10 +36121,6 @@ meridional:
       pertainym:
       - 'meridian%1:15:00::'
       synset: 02774596-a
-  s:
-    pronunciation:
-    - value: mɪˈɹɪdɪənəl
-    sense:
     - id: meridional%5:00:00:southern:01
       synset: 01610027-s
 meringue:
@@ -37980,8 +37779,6 @@ metamorphous:
       pertainym:
       - 'metamorphosis%1:22:00::'
       synset: 02963206-a
-  s:
-    sense:
     - derivation:
       - 'metamorphosis%1:04:01::'
       id: metamorphous%5:00:00:metamorphic:00
@@ -38048,10 +37845,6 @@ metaphysical:
       pertainym:
       - 'metaphysics%1:09:00::'
       synset: 02877096-a
-  s:
-    pronunciation:
-    - value: ˌmɛtəˈfɪzɪkəl
-    sense:
     - id: metaphysical%5:00:00:supernatural:00
       synset: 01581122-s
     - id: metaphysical%5:00:00:theoretical:00
@@ -38302,8 +38095,6 @@ meteoric:
       pertainym:
       - 'meteoroid%1:17:00::'
       synset: 02876597-a
-  s:
-    sense:
     - id: meteoric%5:00:00:fast:01
       synset: 00982425-s
 meteorite:
@@ -39050,6 +38841,11 @@ metric:
       pertainym:
       - 'meter%1:23:00::'
       synset: 03007144-a
+    - derivation:
+      - 'meter%1:07:00::'
+      - 'metre%1:07:00::'
+      id: metric%5:00:00:rhythmical:00
+      synset: 02027523-s
   n:
     pronunciation:
     - value: ˈmɛt.ɹɪk
@@ -39060,15 +38856,6 @@ metric:
       synset: 13625518-n
     - id: 'metric%1:23:00::'
       synset: 13598374-n
-  s:
-    pronunciation:
-    - value: ˈmɛt.ɹɪk
-    sense:
-    - derivation:
-      - 'meter%1:07:00::'
-      - 'metre%1:07:00::'
-      id: metric%5:00:00:rhythmical:00
-      synset: 02027523-s
 metric capacity unit:
   n:
     sense:
@@ -39133,10 +38920,6 @@ metrical:
       pertainym:
       - 'meter%1:23:00::'
       synset: 03007144-a
-  s:
-    pronunciation:
-    - value: ˈmɛtɹɪkl̩
-    sense:
     - derivation:
       - 'metre%1:10:00::'
       - 'meter%1:10:00::'
@@ -40233,11 +40016,6 @@ microscopic:
       pertainym:
       - 'microscopy%1:04:00::'
       synset: 02930157-a
-  s:
-    pronunciation:
-    - value: ˌmaɪkɹəˈskɑpɪk
-      variety: US
-    sense:
     - id: microscopic%5:00:00:visible:00
       synset: 02526627-s
     - id: microscopic%5:00:00:precise:00
@@ -40264,8 +40042,6 @@ microscopical:
       pertainym:
       - 'microscopy%1:04:00::'
       synset: 02930157-a
-  s:
-    sense:
     - id: microscopical%5:00:00:visible:00
       synset: 02526627-s
     - id: microscopical%5:00:00:small:00
@@ -40671,6 +40447,11 @@ middle:
       - 'early%3:00:00::'
       id: 'middle%3:00:00::'
       synset: 00819510-a
+    - id: middle%5:00:00:intermediate:00
+      synset: 01018550-s
+    - adjposition: a
+      id: middle%5:00:01:central:01
+      synset: 00331404-s
   n:
     pronunciation:
     - value: ˈmɪdəl
@@ -40700,22 +40481,6 @@ middle:
       - 'beginning%1:28:00::'
       id: 'middle%1:28:00::'
       synset: 15291496-n
-  s:
-    pronunciation:
-    - value: ˈmɪdəl
-      variety: US
-    - value: ˈmɪdəl
-      variety: GB
-    - value: ˈmɪdəl
-      variety: AU
-    - value: ˈmɘdɘl
-      variety: NZ
-    sense:
-    - id: middle%5:00:00:intermediate:00
-      synset: 01018550-s
-    - adjposition: a
-      id: middle%5:00:01:central:01
-      synset: 00331404-s
   v:
     pronunciation:
     - value: ˈmɪdəl
@@ -41473,13 +41238,6 @@ migratory:
       - 'migrate%2:38:01::'
       id: 'migratory%3:00:00::'
       synset: 02136387-a
-  s:
-    pronunciation:
-    - value: ˈmaɪ.ɡɹəˌtɔ.ɹi
-      variety: US
-    - value: ˌmaɪˈɡɹeɪ.tə.ɹi
-      variety: GB
-    sense:
     - derivation:
       - 'migrate%2:38:01::'
       - 'migrate%2:38:00::'
@@ -41581,10 +41339,6 @@ mild:
       - 'mildness%1:07:01::'
       id: 'mild%3:00:00::'
       synset: 01512398-a
-  s:
-    pronunciation:
-    - value: ˈmaɪld
-    sense:
     - id: mild%5:00:00:humble:00
       synset: 01899577-s
     - derivation:
@@ -43696,8 +43450,6 @@ mindless:
     sense:
     - id: 'mindless%3:00:00::'
       synset: 01985067-a
-  s:
-    sense:
     - derivation:
       - 'mindlessness%1:07:02::'
       id: mindless%5:00:00:meaningless:00
@@ -43855,18 +43607,14 @@ mineral:
       pertainym:
       - 'mineral%1:27:00::'
       synset: 03098402-a
+    - id: mineral%5:00:00:inorganic:02
+      synset: 01685218-s
   n:
     pronunciation:
     - value: ˈmɪ.nəɹ.əl
     sense:
     - id: 'mineral%1:27:00::'
       synset: 14686753-n
-  s:
-    pronunciation:
-    - value: ˈmɪ.nəɹ.əl
-    sense:
-    - id: mineral%5:00:00:inorganic:02
-      synset: 01685218-s
 mineral association:
   n:
     sense:
@@ -44303,6 +44051,8 @@ minimalist:
       pertainym:
       - 'minimalism%1:14:00::'
       synset: 02775321-a
+    - id: minimalist%5:00:00:moderate:00
+      synset: 01536879-s
   n:
     sense:
     - id: 'minimalist%1:18:01::'
@@ -44311,10 +44061,6 @@ minimalist:
       - 'minimalism%1:14:00::'
       id: 'minimalist%1:18:00::'
       synset: 10339888-n
-  s:
-    sense:
-    - id: minimalist%5:00:00:moderate:00
-      synset: 01536879-s
 minimality:
   n:
     sense:
@@ -44750,16 +44496,6 @@ minor:
       - 'major%3:00:05::'
       id: 'minor%3:00:05::'
       synset: 01475652-a
-  n:
-    pronunciation:
-    - value: ˈmaɪ.nə(ɹ)
-    sense:
-    - id: 'minor%1:18:00::'
-      synset: 09937051-n
-  s:
-    pronunciation:
-    - value: ˈmaɪ.nə(ɹ)
-    sense:
     - adjposition: ip
       id: minor%5:00:00:junior:00
       synset: 02108520-s
@@ -44767,6 +44503,12 @@ minor:
       synset: 01725636-s
     - id: minor%5:00:00:limited:00
       synset: 01418056-s
+  n:
+    pronunciation:
+    - value: ˈmaɪ.nə(ɹ)
+    sense:
+    - id: 'minor%1:18:00::'
+      synset: 09937051-n
   v:
     pronunciation:
     - value: ˈmaɪ.nə(ɹ)
@@ -45080,11 +44822,6 @@ minty:
       pertainym:
       - 'mint%1:13:00::'
       synset: 02775763-a
-  s:
-    pronunciation:
-    - value: ˈmɪnti
-      variety: US
-    sense:
     - id: minty%5:00:00:tasty:00
       synset: 02406780-s
 minuend:
@@ -45110,18 +44847,14 @@ minus:
       - 'plus%3:00:00::'
       id: 'minus%3:00:00::'
       synset: 01825325-a
+    - id: minus%5:00:00:disadvantageous:00
+      synset: 00066276-s
   n:
     pronunciation:
     - value: ˈmaɪnəs
     sense:
     - id: 'minus%1:04:00::'
       synset: 00873540-n
-  s:
-    pronunciation:
-    - value: ˈmaɪnəs
-    sense:
-    - id: minus%5:00:00:disadvantageous:00
-      synset: 00066276-s
 minus sign:
   n:
     sense:
@@ -45146,6 +44879,10 @@ minuscule:
       - 'majuscule%3:00:00::'
       id: 'minuscule%3:00:00::'
       synset: 01477467-a
+    - id: minuscule%5:00:00:lowercase:00
+      synset: 01470449-s
+    - id: minuscule%5:00:00:small:00
+      synset: 01397180-s
   n:
     pronunciation:
     - value: ˈmɪn.ʊˌskjuːl
@@ -45159,17 +44896,6 @@ minuscule:
       - 'minuscular%3:00:00::'
       id: 'minuscule%1:10:00::'
       synset: 06361999-n
-  s:
-    pronunciation:
-    - value: ˈmɪn.ʊˌskjuːl
-      variety: GB
-    - value: ˈmɪn.əˌskjul
-      variety: US
-    sense:
-    - id: minuscule%5:00:00:lowercase:00
-      synset: 01470449-s
-    - id: minuscule%5:00:00:small:00
-      synset: 01397180-s
 minute:
   n:
     pronunciation:
@@ -46788,8 +46514,6 @@ mismatched:
       - 'matched%3:00:00::'
       id: 'mismatched%3:00:00::'
       synset: 01490545-a
-  s:
-    sense:
     - id: mismatched%5:00:00:unequal:00
       synset: 00896066-s
 mismate:
@@ -48697,6 +48421,16 @@ mobile:
       - 'mobility%1:07:00::'
       id: 'mobile%3:00:00::'
       synset: 01526495-a
+    - derivation:
+      - 'mobility%1:07:00::'
+      id: mobile%5:00:00:unsettled:01
+      synset: 02135465-s
+    - id: mobile%5:00:00:moving:02
+      synset: 01567887-s
+    - id: mobile%5:00:02:changeable:00
+      synset: 00347020-s
+    - id: mobile%5:00:01:changeable:00
+      synset: 00346611-s
   n:
     pronunciation:
     - value: ˈməʊbaɪl
@@ -48708,23 +48442,6 @@ mobile:
       - 'stabile%1:06:00::'
       id: 'mobile%1:06:00::'
       synset: 03781824-n
-  s:
-    pronunciation:
-    - value: ˈməʊbaɪl
-      variety: GB
-    - value: ˈmoʊbil
-      variety: US
-    sense:
-    - derivation:
-      - 'mobility%1:07:00::'
-      id: mobile%5:00:00:unsettled:01
-      synset: 02135465-s
-    - id: mobile%5:00:00:moving:02
-      synset: 01567887-s
-    - id: mobile%5:00:02:changeable:00
-      synset: 00347020-s
-    - id: mobile%5:00:01:changeable:00
-      synset: 00346611-s
 mobile canteen:
   n:
     sense:
@@ -49148,17 +48865,15 @@ modal:
       pertainym:
       - 'mode%1:24:02::'
       synset: 02875682-a
-  n:
-    sense:
-    - id: 'modal%1:10:00::'
-      synset: 06329715-n
-  s:
-    sense:
     - adjposition: a
       derivation:
       - 'mode%1:09:00::'
       id: modal%5:00:00:normal:01
       synset: 01599393-s
+  n:
+    sense:
+    - id: 'modal%1:10:00::'
+      synset: 06329715-n
 modal auxiliary:
   n:
     sense:
@@ -49414,18 +49129,6 @@ moderate:
       - 'moderateness%1:07:00::'
       id: 'moderate%3:00:00::'
       synset: 01535494-a
-  n:
-    pronunciation:
-    - value: ˈmɑdəɹət
-      variety: US
-    sense:
-    - id: 'moderate%1:18:00::'
-      synset: 09924290-n
-  s:
-    pronunciation:
-    - value: ˈmɑdəɹət
-      variety: US
-    sense:
     - derivation:
       - 'moderateness%1:07:00::'
       id: moderate%5:00:00:mild:00
@@ -49434,6 +49137,13 @@ moderate:
       - 'moderateness%1:07:00::'
       id: moderate%5:00:00:temperate:00
       synset: 02410802-s
+  n:
+    pronunciation:
+    - value: ˈmɑdəɹət
+      variety: US
+    sense:
+    - id: 'moderate%1:18:00::'
+      synset: 09924290-n
   v:
     pronunciation:
     - value: ˈmɑdəɹət
@@ -49631,6 +49341,20 @@ modern:
       - 'modernity%1:07:00::'
       id: 'modern%3:00:00::'
       synset: 01539804-a
+    - derivation:
+      - 'modernity%1:07:00::'
+      - 'modernness%1:07:00::'
+      id: modern%5:00:00:fashionable:00
+      synset: 00976094-s
+    - derivation:
+      - 'modernity%1:07:00::'
+      - 'modernness%1:07:00::'
+      id: modern%5:00:00:nonclassical:00
+      synset: 00415873-s
+    - derivation:
+      - 'modernity%1:07:00::'
+      id: modern%5:00:00:progressive:01
+      synset: 01882360-s
   n:
     pronunciation:
     - value: ˈmɒd(ə)n
@@ -49646,27 +49370,6 @@ modern:
       - 'old_style%1:10:00::'
       id: 'modern%1:10:00::'
       synset: 06839776-n
-  s:
-    pronunciation:
-    - value: ˈmɒd(ə)n
-      variety: GB
-    - value: ˈmɑdɚn
-      variety: US
-    sense:
-    - derivation:
-      - 'modernity%1:07:00::'
-      - 'modernness%1:07:00::'
-      id: modern%5:00:00:fashionable:00
-      synset: 00976094-s
-    - derivation:
-      - 'modernity%1:07:00::'
-      - 'modernness%1:07:00::'
-      id: modern%5:00:00:nonclassical:00
-      synset: 00415873-s
-    - derivation:
-      - 'modernity%1:07:00::'
-      id: modern%5:00:00:progressive:01
-      synset: 01882360-s
 modern ballet:
   n:
     sense:
@@ -49853,13 +49556,6 @@ modest:
       - 'modestness%1:07:01::'
       id: 'modest%3:00:01::'
       synset: 01541980-a
-  s:
-    form:
-    - modest
-    pronunciation:
-    - value: ˈmɑdəst
-      variety: US
-    sense:
     - derivation:
       - 'modestness%1:07:00::'
       id: modest%5:00:00:moderate:00
@@ -49961,13 +49657,6 @@ modified:
       - 'unmodified%3:00:00::'
       id: 'modified%3:00:00::'
       synset: 01544533-a
-  s:
-    pronunciation:
-    - value: ˈmɑdɪfaɪd
-      variety: US
-    - value: ˈmɒdɪfaɪd
-      variety: GB
-    sense:
     - id: modified%5:00:00:qualified:02
       synset: 01920023-s
 modified American plan:
@@ -50157,8 +49846,6 @@ modulated:
       - 'unmodulated%3:00:00::'
       id: 'modulated%3:00:00::'
       synset: 01545616-a
-  s:
-    sense:
     - id: modulated%5:00:00:inflected:00
       synset: 00703659-s
 modulation:
@@ -51757,8 +51444,6 @@ moneyed:
       - 'moneyless%3:00:00::'
       id: 'moneyed%3:00:00::'
       synset: 02033433-a
-  s:
-    sense:
     - id: moneyed%5:00:00:rich:00
       synset: 02029380-s
 moneyer:
@@ -51791,8 +51476,6 @@ moneyless:
       - 'moneyed%3:00:00::'
       id: 'moneyless%3:00:00::'
       synset: 02033575-a
-  s:
-    sense:
     - id: moneyless%5:00:00:poor:00
       synset: 02031165-s
 moneymaker:
@@ -52392,8 +52075,6 @@ monochromatic:
       - 'polychromatic%3:00:00::'
       id: 'monochromatic%3:00:00::'
       synset: 00367435-a
-  s:
-    sense:
     - id: monochromatic%5:00:00:colored:00
       synset: 00399877-s
 monochromatic vision:
@@ -52943,8 +52624,6 @@ monophonic:
       - 'monophony%1:10:00::'
       id: 'monophonic%3:00:00::'
       synset: 01547939-a
-  s:
-    sense:
     - id: monophonic%5:00:00:monaural:00
       synset: 00242685-s
 monophonic music:
@@ -53255,6 +52934,10 @@ monotone:
     sense:
     - id: 'monotone%3:00:04::'
       synset: 01551387-a
+    - derivation:
+      - 'monotone%1:10:00::'
+      id: monotone%5:00:00:unmodulated:00
+      synset: 01545995-s
   n:
     pronunciation:
     - value: ˈmɒ.nə.təʊn
@@ -53271,17 +52954,6 @@ monotone:
       - monotonic%5:00:00:unmodulated:00
       id: 'monotone%1:10:01::'
       synset: 07098939-n
-  s:
-    pronunciation:
-    - value: ˈmɒ.nə.təʊn
-      variety: GB
-    - value: ˈmɑː.nə.toʊn
-      variety: US
-    sense:
-    - derivation:
-      - 'monotone%1:10:00::'
-      id: monotone%5:00:00:unmodulated:00
-      synset: 01545995-s
 monotonic:
   a:
     pronunciation:
@@ -53294,13 +52966,6 @@ monotonic:
       - 'nonmonotonic%3:00:00::'
       id: 'monotonic%3:00:00::'
       synset: 01551387-a
-  s:
-    pronunciation:
-    - value: ˌmɒnəˈtɒnɪk
-      variety: GB
-    - value: ˌmɑnəˈtɑnɪk
-      variety: US
-    sense:
     - derivation:
       - 'monotone%1:10:01::'
       - 'monotone%1:10:00::'
@@ -53698,10 +53363,6 @@ monumental:
       pertainym:
       - 'monument%1:06:00::'
       synset: 02875447-a
-  s:
-    pronunciation:
-    - value: ˌmɒnjʊˈmɛntəl
-    sense:
     - id: monumental%5:00:00:significant:00
       synset: 02170883-s
     - id: monumental%5:00:00:large:00
@@ -54165,11 +53826,6 @@ moony:
       - 'moon%1:19:00::'
       id: 'moony%3:00:02::'
       synset: 00278872-a
-  s:
-    form:
-    - moonier
-    - mooniest
-    sense:
     - id: moony%5:00:00:inattentive:00
       synset: 00166847-s
 moor:
@@ -54541,6 +54197,8 @@ moral:
       - 'morality%1:07:00::'
       id: 'moral%3:00:00::'
       synset: 01552360-a
+    - id: moral%5:00:00:mental:00
+      synset: 01785141-s
   n:
     pronunciation:
     - value: ˈmɒɹəl
@@ -54550,15 +54208,6 @@ moral:
     sense:
     - id: 'moral%1:10:00::'
       synset: 06618397-n
-  s:
-    pronunciation:
-    - value: ˈmɒɹəl
-      variety: GB
-    - value: ˈmɔɹəl
-      variety: US
-    sense:
-    - id: moral%5:00:00:mental:00
-      synset: 01785141-s
 moral certainty:
   n:
     sense:
@@ -55459,6 +55108,14 @@ mortal:
       - 'mortality%1:07:00::'
       id: 'mortal%3:00:00::'
       synset: 01562007-a
+    - adjposition: a
+      id: mortal%5:00:00:unpardonable:00
+      synset: 01725926-s
+    - adjposition: a
+      id: mortal%5:00:00:merciless:00
+      synset: 01511671-s
+    - id: mortal%5:00:01:fatal:00
+      synset: 00997017-s
   n:
     pronunciation:
     - value: ˈmɔːtəl
@@ -55470,21 +55127,6 @@ mortal:
       - 'mortal%3:00:00::'
       id: 'mortal%1:03:00::'
       synset: 00007846-n
-  s:
-    pronunciation:
-    - value: ˈmɔːtəl
-      variety: GB
-    - value: ˈmɔːɹtəl
-      variety: US
-    sense:
-    - adjposition: a
-      id: mortal%5:00:00:unpardonable:00
-      synset: 01725926-s
-    - adjposition: a
-      id: mortal%5:00:00:merciless:00
-      synset: 01511671-s
-    - id: mortal%5:00:01:fatal:00
-      synset: 00997017-s
 mortal enemy:
   n:
     sense:
@@ -57251,8 +56893,6 @@ motorized:
       - 'unmotorized%3:00:00::'
       id: 'motorized%3:00:00::'
       synset: 01563877-a
-  s:
-    sense:
     - id: motorized%5:00:00:mobile:00
       synset: 01527569-s
 motorized wheelchair:
@@ -58430,8 +58070,6 @@ mousey:
       pertainym:
       - 'mouse%1:05:00::'
       synset: 02777241-a
-  s:
-    sense:
     - id: mousey%5:00:00:chromatic:00
       synset: 00379342-s
     - derivation:
@@ -58509,11 +58147,6 @@ mousy:
       pertainym:
       - 'mouse%1:05:00::'
       synset: 02777241-a
-  s:
-    form:
-    - mousier
-    - mousiest
-    sense:
     - derivation:
       - 'mouse%1:18:00::'
       id: mousy%5:00:00:timid:00
@@ -61397,8 +61030,6 @@ multivalent:
       - 'multivalence%1:26:00::'
       id: 'multivalent%3:00:04::'
       synset: 01550516-a
-  s:
-    sense:
     - id: multivalent%5:00:00:ambiguous:00
       synset: 00104101-s
 multivariate:
@@ -61725,10 +61356,6 @@ municipal:
       pertainym:
       - 'municipality%1:14:00::'
       synset: 02708189-a
-  s:
-    pronunciation:
-    - value: mjuˈnɪsɪpəl
-    sense:
     - derivation:
       - 'municipality%1:15:00::'
       id: municipal%5:00:00:domestic:00
@@ -62452,13 +62079,6 @@ muscular:
       - 'muscle%1:07:00::'
       id: 'muscular%3:00:04::'
       synset: 00831875-a
-  s:
-    pronunciation:
-    - value: ˈmʌs.kjə.lə
-      variety: GB
-    - value: ˈmʌs.kjə.lɚ
-      variety: US
-    sense:
     - id: muscular%5:00:00:powerful:00
       synset: 01832546-s
     - derivation:
@@ -63924,10 +63544,6 @@ mutable:
       - 'mutableness%1:07:00::'
       id: 'mutable%3:00:00::'
       synset: 00357450-a
-  s:
-    pronunciation:
-    - value: ˈmjuːtəbl̩
-    sense:
     - id: mutable%5:00:00:inconstant:00
       synset: 00587318-s
     - id: mutable%5:00:00:changeable:00
@@ -64351,11 +63967,6 @@ mutual:
       - 'mutualness%1:24:00::'
       id: 'mutual%3:00:00::'
       synset: 01952167-a
-  s:
-    pronunciation:
-    - value: ˈmjuːt͡ʃuəl
-      variety: GB
-    sense:
     - derivation:
       - 'mutuality%1:24:01::'
       - 'mutuality%1:24:00::'
@@ -65105,13 +64716,6 @@ myopic:
       - 'myopia%1:26:00::'
       id: 'myopic%3:00:00::'
       synset: 02164641-a
-  s:
-    pronunciation:
-    - value: maɪˈɒpɪk
-      variety: GB
-    - value: maɪˈoʊpɪk
-      variety: US
-    sense:
     - id: myopic%5:00:00:improvident:00
       synset: 01902113-s
 myosarcoma:
@@ -65505,6 +65109,10 @@ mystic:
       pertainym:
       - 'mysticism%1:09:00::'
       synset: 02874529-a
+    - derivation:
+      - 'mystic%1:18:00::'
+      id: mystic%5:00:00:esoteric:00
+      synset: 00903364-s
   n:
     pronunciation:
     - value: ˈmɪstɪk
@@ -65516,14 +65124,6 @@ mystic:
       - 'mystical%3:01:01::'
       id: 'mystic%1:18:00::'
       synset: 10363285-n
-  s:
-    pronunciation:
-    - value: ˈmɪstɪk
-    sense:
-    - derivation:
-      - 'mystic%1:18:00::'
-      id: mystic%5:00:00:esoteric:00
-      synset: 00903364-s
 mystical:
   a:
     pronunciation:
@@ -65545,10 +65145,6 @@ mystical:
       pertainym:
       - 'mysticism%1:09:01::'
       synset: 02874746-a
-  s:
-    pronunciation:
-    - value: ˈmɪstɪkəl
-    sense:
     - derivation:
       - 'mystic%1:18:00::'
       id: mystical%5:00:00:esoteric:00
@@ -65671,10 +65267,6 @@ mythic:
       pertainym:
       - 'myth%1:10:00::'
       synset: 03007480-a
-  s:
-    pronunciation:
-    - value: ˈmɪθɪk
-    sense:
     - derivation:
       - 'myth%1:10:00::'
       id: mythic%5:00:00:unreal:00

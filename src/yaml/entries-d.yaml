@@ -2629,11 +2629,6 @@ Delphic:
       pertainym:
       - 'delphi%1:15:00::'
       synset: 03072006-a
-  s:
-    pronunciation:
-    - value: ˈdɛlfɪk
-      variety: GB
-    sense:
     - id: delphic%5:00:00:prophetic:00
       synset: 01888720-s
 Delphic oracle:
@@ -8128,10 +8123,6 @@ damaged:
       - 'undamaged%3:00:00::'
       id: 'damaged%3:00:00::'
       synset: 00682414-a
-  s:
-    pronunciation:
-    - value: ˈdæmɪdʒd
-    sense:
     - id: damaged%5:00:00:disreputable:00
       synset: 01991317-s
 damages:
@@ -8169,6 +8160,10 @@ damascene:
       pertainym:
       - 'damascus%1:15:00::'
       synset: 03071093-a
+    - derivation:
+      - 'damascene%1:06:00::'
+      id: damascene%5:00:00:fancy:00
+      synset: 01800119-s
   n:
     pronunciation:
     - value: ˈdæməˌsiːn
@@ -8181,17 +8176,6 @@ damascene:
       - 'damascene%2:36:00::'
       id: 'damascene%1:06:00::'
       synset: 03165259-n
-  s:
-    pronunciation:
-    - value: ˈdæməˌsiːn
-      variety: GB
-    - value: ˌdæməˈsiːn
-      variety: US
-    sense:
-    - derivation:
-      - 'damascene%1:06:00::'
-      id: damascene%5:00:00:fancy:00
-      synset: 01800119-s
   v:
     sense:
     - derivation:
@@ -8942,13 +8926,6 @@ dangerous:
       - 'dangerousness%1:07:00::'
       id: 'dangerous%3:00:00::'
       synset: 02066198-a
-  s:
-    pronunciation:
-    - value: ˈdeɪnʒ(ə)ɹəs
-      variety: GB
-    - value: ˈdeɪnd͡ʒəɹəs
-      variety: US
-    sense:
     - derivation:
       - 'dangerousness%1:07:00::'
       id: dangerous%5:00:00:critical:03
@@ -9043,8 +9020,6 @@ dank:
     sense:
     - id: 'dank%3:00:01::'
       synset: 91000891-a
-  s:
-    sense:
     - derivation:
       - 'dankness%1:26:00::'
       id: dank%5:00:00:wet:01
@@ -9296,30 +9271,6 @@ dark:
       - 'darkness%1:07:03::'
       id: 'dark%3:00:02::'
       synset: 00410517-a
-  n:
-    sense:
-    - antonym:
-      - 'light%1:26:00::'
-      derivation:
-      - 'dark%3:00:01::'
-      id: 'dark%1:26:00::'
-      synset: 14007000-n
-    - derivation:
-      - dark%5:00:00:evil:00
-      id: 'dark%1:26:01::'
-      synset: 14587156-n
-    - derivation:
-      - 'dark%3:00:01::'
-      id: 'dark%1:15:00::'
-      synset: 08663881-n
-    - id: 'dark%1:28:00::'
-      synset: 15192074-n
-    - derivation:
-      - dark%5:00:00:unenlightened:00
-      id: 'dark%1:09:00::'
-      synset: 05997383-n
-  s:
-    sense:
     - derivation:
       - 'darkness%1:07:03::'
       id: dark%5:00:00:brunet:00
@@ -9348,6 +9299,28 @@ dark:
       synset: 00365961-s
     - id: dark%5:00:00:inactive:03
       synset: 00036876-s
+  n:
+    sense:
+    - antonym:
+      - 'light%1:26:00::'
+      derivation:
+      - 'dark%3:00:01::'
+      id: 'dark%1:26:00::'
+      synset: 14007000-n
+    - derivation:
+      - dark%5:00:00:evil:00
+      id: 'dark%1:26:01::'
+      synset: 14587156-n
+    - derivation:
+      - 'dark%3:00:01::'
+      id: 'dark%1:15:00::'
+      synset: 08663881-n
+    - id: 'dark%1:28:00::'
+      synset: 15192074-n
+    - derivation:
+      - dark%5:00:00:unenlightened:00
+      id: 'dark%1:09:00::'
+      synset: 05997383-n
 dark adaptation:
   n:
     sense:
@@ -11548,28 +11521,6 @@ dead:
       - 'deadness%1:07:00::'
       id: 'dead%3:00:02::'
       synset: 00100594-a
-  n:
-    pronunciation:
-    - value: dɛd
-    sense:
-    - antonym:
-      - 'living%1:14:00::'
-      id: 'dead%1:14:00::'
-      synset: 07962243-n
-    - id: 'dead%1:28:00::'
-      synset: 15148279-n
-  r:
-    pronunciation:
-    - value: dɛd
-    sense:
-    - id: 'dead%4:02:00::'
-      synset: 00009459-r
-    - id: 'dead%4:02:01::'
-      synset: 81484980-r
-  s:
-    pronunciation:
-    - value: dɛd
-    sense:
     - adjposition: p
       id: dead%5:00:00:tired:00
       synset: 02440966-s
@@ -11620,6 +11571,24 @@ dead:
       synset: 00360340-s
     - id: dead%5:00:00:inactive:03
       synset: 00036992-s
+  n:
+    pronunciation:
+    - value: dɛd
+    sense:
+    - antonym:
+      - 'living%1:14:00::'
+      id: 'dead%1:14:00::'
+      synset: 07962243-n
+    - id: 'dead%1:28:00::'
+      synset: 15148279-n
+  r:
+    pronunciation:
+    - value: dɛd
+    sense:
+    - id: 'dead%4:02:00::'
+      synset: 00009459-r
+    - id: 'dead%4:02:01::'
+      synset: 81484980-r
 dead ahead:
   r:
     sense:
@@ -12094,6 +12063,9 @@ deaf:
       - 'deafness%1:26:00::'
       id: 'deaf%3:00:00::'
       synset: 00685207-a
+    - adjposition: p
+      id: deaf%5:00:01:heedless:00
+      synset: 01197871-s
   n:
     pronunciation:
     - value: dɛf
@@ -12103,13 +12075,6 @@ deaf:
       - 'deaf%2:39:00::'
       id: 'deaf%1:14:00::'
       synset: 07962535-n
-  s:
-    pronunciation:
-    - value: dɛf
-    sense:
-    - adjposition: p
-      id: deaf%5:00:01:heedless:00
-      synset: 01197871-s
   v:
     pronunciation:
     - value: dɛf
@@ -14332,15 +14297,6 @@ decent:
       - 'decency%1:07:00::'
       id: 'decent%3:00:00::'
       synset: 00686209-a
-  r:
-    sense:
-    - id: 'decent%4:02:00::'
-      synset: 00197608-r
-  s:
-    pronunciation:
-    - value: ˈdiːsənt
-      variety: GB
-    sense:
     - derivation:
       - 'decency%1:07:01::'
       - 'decency%1:07:00::'
@@ -14356,6 +14312,10 @@ decent:
       synset: 01542473-s
     - id: decent%5:00:00:good:01
       synset: 01128566-s
+  r:
+    sense:
+    - id: 'decent%4:02:00::'
+      synset: 00197608-r
 decentalisation:
   n:
     sense:
@@ -14676,13 +14636,6 @@ deciduous:
       - 'evergreen%3:00:00::'
       id: 'deciduous%3:00:00::'
       synset: 00917218-a
-  s:
-    pronunciation:
-    - value: dɪˈsɪdʒʊəs
-      variety: GB
-    - value: dɪˈsɪd.ju.əs
-      variety: US
-    sense:
     - id: deciduous%5:00:01:caducous:00
       synset: 01763302-s
 deciduous forest:
@@ -15015,11 +14968,6 @@ decisive:
       - 'decisiveness%1:07:00::'
       id: 'decisive%3:00:01::'
       synset: 00688915-a
-  s:
-    pronunciation:
-    - value: dɪˈsaɪsɪv
-      variety: GB
-    sense:
     - derivation:
       - 'decisiveness%1:07:01::'
       id: decisive%5:00:00:definite:00
@@ -15396,13 +15344,6 @@ declared:
       - 'undeclared%3:00:00::'
       id: 'declared%3:00:00::'
       synset: 00690633-a
-  s:
-    pronunciation:
-    - value: dɪˈklɛəd
-      variety: GB
-    - value: dɪˈklɛɹd
-      variety: US
-    sense:
     - id: declared%5:00:00:explicit:00
       synset: 00944139-s
 declarer:
@@ -16257,11 +16198,6 @@ decorous:
       - 'decorousness%1:07:00::'
       id: 'decorous%3:00:00::'
       synset: 00692224-a
-  s:
-    pronunciation:
-    - value: ˈdɛkəɹəs
-      variety: GB
-    sense:
     - derivation:
       - 'decorum%1:07:00::'
       - 'decorousness%1:07:00::'
@@ -17049,34 +16985,6 @@ deep:
       - 'deepness%1:07:00::'
       id: 'deep%3:00:01::'
       synset: 00693335-a
-  n:
-    pronunciation:
-    - value: diːp
-    sense:
-    - derivation:
-      - deep%5:00:01:intense:00
-      id: 'deep%1:28:00::'
-      synset: 15292202-n
-    - id: 'deep%1:17:00::'
-      synset: 09484445-n
-    - id: 'deep%1:17:01::'
-      synset: 09286717-n
-  r:
-    pronunciation:
-    - value: diːp
-    sense:
-    - id: 'deep%4:02:00::'
-      synset: 00306956-r
-    - id: 'deep%4:02:01::'
-      synset: 00307214-r
-    - id: 'deep%4:02:02::'
-      pertainym:
-      - deep%5:00:00:distant:01
-      synset: 00307076-r
-  s:
-    pronunciation:
-    - value: diːp
-    sense:
     - derivation:
       - 'deepness%1:09:00::'
       id: deep%5:00:00:profound:00
@@ -17111,6 +17019,30 @@ deep:
       synset: 00902519-s
     - id: deep%5:00:00:artful:00
       synset: 00150388-s
+  n:
+    pronunciation:
+    - value: diːp
+    sense:
+    - derivation:
+      - deep%5:00:01:intense:00
+      id: 'deep%1:28:00::'
+      synset: 15292202-n
+    - id: 'deep%1:17:00::'
+      synset: 09484445-n
+    - id: 'deep%1:17:01::'
+      synset: 09286717-n
+  r:
+    pronunciation:
+    - value: diːp
+    sense:
+    - id: 'deep%4:02:00::'
+      synset: 00306956-r
+    - id: 'deep%4:02:01::'
+      synset: 00307214-r
+    - id: 'deep%4:02:02::'
+      pertainym:
+      - deep%5:00:00:distant:01
+      synset: 00307076-r
 deep brown:
   n:
     sense:
@@ -17726,17 +17658,12 @@ defeated:
       - 'undefeated%3:00:00::'
       id: 'defeated%3:00:00::'
       synset: 00698057-a
+    - id: defeated%5:00:00:unsuccessful:00
+      synset: 02341968-s
   n:
     sense:
     - id: 'defeated%1:14:00::'
       synset: 07962721-n
-  s:
-    pronunciation:
-    - value: dɪˈfiːtəd
-      variety: GB
-    sense:
-    - id: defeated%5:00:00:unsuccessful:00
-      synset: 02341968-s
 defeatism:
   n:
     pronunciation:
@@ -18327,6 +18254,12 @@ defensive:
       - 'defend%2:33:00::'
       id: 'defensive%3:00:00::'
       synset: 01634178-a
+    - derivation:
+      - 'defensive%1:09:00::'
+      - 'defend%2:33:05::'
+      - 'defend%2:32:01::'
+      id: defensive%5:00:00:apologetic:00
+      synset: 01636127-s
   n:
     pronunciation:
     - value: dɪˈfɛnsɪv
@@ -18336,17 +18269,6 @@ defensive:
       - defensive%5:00:00:apologetic:00
       id: 'defensive%1:09:00::'
       synset: 06204984-n
-  s:
-    pronunciation:
-    - value: dɪˈfɛnsɪv
-      variety: GB
-    sense:
-    - derivation:
-      - 'defensive%1:09:00::'
-      - 'defend%2:33:05::'
-      - 'defend%2:32:01::'
-      id: defensive%5:00:00:apologetic:00
-      synset: 01636127-s
 defensive attitude:
   n:
     sense:
@@ -18654,11 +18576,6 @@ deficient:
       - 'deficiency%1:07:00::'
       id: 'deficient%3:00:04::'
       synset: 02344427-a
-  s:
-    pronunciation:
-    - value: dɪˈfɪʃənt
-      variety: GB
-    sense:
     - derivation:
       - 'deficiency%1:07:00::'
       id: deficient%5:00:00:inadequate:00
@@ -18809,13 +18726,6 @@ defined:
       - 'undefined%3:00:00::'
       id: 'defined%3:00:00::'
       synset: 00700633-a
-  s:
-    pronunciation:
-    - value: dɪˈfʌɪnd
-      variety: GB
-    - value: dɪˈfaɪnd
-      variety: US
-    sense:
     - id: defined%5:00:00:distinct:00
       synset: 00784271-s
 defining:
@@ -18837,13 +18747,6 @@ definite:
       - 'indefinite%3:00:00::'
       id: 'definite%3:00:00::'
       synset: 00703896-a
-  s:
-    pronunciation:
-    - value: ˈdɛfɪnɪt
-      variety: GB
-    - value: ˈdɛfɪnɪt
-      variety: US
-    sense:
     - derivation:
       - 'definiteness%1:07:00::'
       id: definite%5:00:00:certain:01
@@ -20865,10 +20768,6 @@ delicate:
       - 'rugged%3:00:00::'
       id: 'delicate%3:00:00::'
       synset: 00709335-a
-  s:
-    pronunciation:
-    - value: ˈdɛlɪkət
-    sense:
     - id: delicate%5:00:00:skilled:00
       synset: 02235089-s
     - id: delicate%5:00:00:breakable:00
@@ -22500,10 +22399,6 @@ democratic:
       - 'democracy%1:09:00::'
       id: 'democratic%3:00:00::'
       synset: 00718584-a
-  s:
-    pronunciation:
-    - value: dɛməˈkɹætɪk
-    sense:
     - derivation:
       - 'democracy%1:09:01::'
       id: democratic%5:00:00:common:01
@@ -22990,6 +22885,12 @@ demonstrative:
       - 'demonstrativeness%1:07:00::'
       id: 'demonstrative%3:00:00::'
       synset: 00723740-a
+    - derivation:
+      - 'demonstrative%1:10:00::'
+      - 'demonstrate%2:32:00::'
+      - 'demonstrate%2:31:00::'
+      id: demonstrative%5:00:00:instructive:00
+      synset: 01326914-s
   n:
     pronunciation:
     - value: dɪˈmɒnstɹətɪv
@@ -23001,19 +22902,6 @@ demonstrative:
       - demonstrative%5:00:00:instructive:00
       id: 'demonstrative%1:10:00::'
       synset: 06336671-n
-  s:
-    pronunciation:
-    - value: dɪˈmɒnstɹətɪv
-      variety: GB
-    - value: dɪˈmɑnstɹətɪv
-      variety: US
-    sense:
-    - derivation:
-      - 'demonstrative%1:10:00::'
-      - 'demonstrate%2:32:00::'
-      - 'demonstrate%2:31:00::'
-      id: demonstrative%5:00:00:instructive:00
-      synset: 01326914-s
 demonstrative of:
   s:
     sense:
@@ -23902,8 +23790,6 @@ denotative:
       - 'denote%2:32:00::'
       id: 'denotative%3:00:00::'
       synset: 00725554-a
-  s:
-    sense:
     - derivation:
       - 'denote%2:32:00::'
       id: denotative%5:00:00:literal:00
@@ -25028,8 +24914,6 @@ dependable:
       - 'dependability%1:07:00::'
       id: 'dependable%3:00:00::'
       synset: 00727525-a
-  s:
-    sense:
     - derivation:
       - 'dependableness%1:07:00::'
       - 'dependability%1:07:00::'
@@ -25153,18 +25037,6 @@ dependent:
       - 'independent%3:00:02::'
       id: 'dependent%3:00:02::'
       synset: 00733914-a
-  n:
-    pronunciation:
-    - value: dɪˈpɛndənt
-    sense:
-    - derivation:
-      - 'dependent%3:00:00::'
-      id: 'dependent%1:18:00::'
-      synset: 10024466-n
-  s:
-    pronunciation:
-    - value: dɪˈpɛndənt
-    sense:
     - derivation:
       - 'depend%2:42:00::'
       id: dependent%5:00:00:conditional:00
@@ -25180,6 +25052,14 @@ dependent:
       - 'dependence%1:26:01::'
       id: dependent%5:00:00:addicted:00
       synset: 00047626-s
+  n:
+    pronunciation:
+    - value: dɪˈpɛndənt
+    sense:
+    - derivation:
+      - 'dependent%3:00:00::'
+      id: 'dependent%1:18:00::'
+      synset: 10024466-n
 dependent clause:
   n:
     sense:
@@ -28489,10 +28369,6 @@ desirable:
       - 'desirability%1:07:00::'
       id: 'desirable%3:00:00::'
       synset: 00736491-a
-  s:
-    pronunciation:
-    - value: dɪˈzaɪəɹəbəl
-    sense:
     - derivation:
       - 'desirableness%1:07:01::'
       - 'desirability%1:07:01::'
@@ -29161,13 +29037,6 @@ despotic:
       pertainym:
       - 'despot%1:18:00::'
       synset: 02722028-a
-  s:
-    pronunciation:
-    - value: disˈpɒt.ɪk
-      variety: GB
-    - value: dɛsˈpɑt.ɪk
-      variety: US
-    sense:
     - derivation:
       - 'despot%1:18:00::'
       id: despotic%5:00:02:undemocratic:00
@@ -29501,10 +29370,6 @@ destroyed:
       - 'preserved%3:00:01::'
       id: 'destroyed%3:00:00::'
       synset: 00737862-a
-  s:
-    pronunciation:
-    - value: dɪˈstɹɔɪd
-    sense:
     - id: destroyed%5:00:00:lost:02
       synset: 01454181-s
 destroyer:
@@ -29766,10 +29631,6 @@ detached:
       - 'attached%3:00:02::'
       id: 'detached%3:00:00::'
       synset: 00161838-a
-  s:
-    pronunciation:
-    - value: dɪˈtæt͡ʃt
-    sense:
     - id: detached%5:00:00:unconcerned:00
       synset: 00548375-s
     - id: detached%5:00:00:separate:00
@@ -29975,10 +29836,6 @@ detected:
       - 'undetected%3:00:00::'
       id: 'detected%3:00:00::'
       synset: 01613825-a
-  s:
-    pronunciation:
-    - value: dɪˈtɛktɪd
-    sense:
     - id: detected%5:00:00:noticed:00
       synset: 01612709-s
 detecting:
@@ -30298,8 +30155,6 @@ determinate:
       - 'indeterminate%3:00:02::'
       id: 'determinate%3:00:02::'
       synset: 00744659-a
-  s:
-    sense:
     - derivation:
       - 'determinateness%1:07:00::'
       id: determinate%5:00:00:conclusive:00
@@ -30443,13 +30298,6 @@ determined:
       - 'undetermined%3:00:00::'
       id: 'determined%3:00:00::'
       synset: 01614867-a
-  s:
-    pronunciation:
-    - value: dɪˈtɜːmɪnd
-      variety: GB
-    - value: dɪˈtɝmɪnd
-      variety: US
-    sense:
     - id: determined%5:00:00:resolute:00
       synset: 01997455-s
     - id: determined%5:00:00:stubborn:00
@@ -31302,10 +31150,6 @@ developed:
       - 'undeveloped%3:00:00::'
       id: 'developed%3:00:00::'
       synset: 00745450-a
-  s:
-    pronunciation:
-    - value: dɪˈvɛləpt
-    sense:
     - id: developed%5:00:00:industrial:00
       synset: 01304775-s
     - id: developed%5:00:00:improved:00
@@ -32405,8 +32249,6 @@ dextral:
       - 'sinistral%3:00:00::'
       id: 'dextral%3:00:00::'
       synset: 00746491-a
-  s:
-    sense:
     - derivation:
       - 'dextrality%1:07:00::'
       id: dextral%5:00:00:right-handed:00
@@ -32589,6 +32431,11 @@ diabetic:
       pertainym:
       - 'diabetes%1:26:00::'
       synset: 03072376-a
+    - derivation:
+      - 'diabetic%1:18:00::'
+      - 'diabetes%1:26:00::'
+      id: diabetic%5:00:00:ill:01
+      synset: 02554704-s
   n:
     pronunciation:
     - value: daɪəˈbɛtɪk
@@ -32598,16 +32445,6 @@ diabetic:
       - diabetic%5:00:00:ill:01
       id: 'diabetic%1:18:00::'
       synset: 10030631-n
-  s:
-    pronunciation:
-    - value: daɪəˈbɛtɪk
-      variety: GB
-    sense:
-    - derivation:
-      - 'diabetic%1:18:00::'
-      - 'diabetes%1:26:00::'
-      id: diabetic%5:00:00:ill:01
-      synset: 02554704-s
 diabetic acidosis:
   n:
     sense:
@@ -32857,11 +32694,6 @@ diagnostic:
       pertainym:
       - 'diagnosis%1:04:00::'
       synset: 02987083-a
-  s:
-    pronunciation:
-    - value: daɪəˈɡnɒstɪk
-      variety: GB
-    sense:
     - id: diagnostic%5:00:00:characteristic:00
       synset: 00358334-s
 diagnostic assay:
@@ -33369,11 +33201,6 @@ diametric:
       pertainym:
       - 'diameter%1:25:00::'
       synset: 02722582-a
-  s:
-    pronunciation:
-    - value: daɪəˈmɛtɹɪk
-      variety: GB
-    sense:
     - id: diametric%5:00:02:different:00
       synset: 02073716-s
 diametrical:
@@ -33386,8 +33213,6 @@ diametrical:
       pertainym:
       - 'diameter%1:25:00::'
       synset: 02722582-a
-  s:
-    sense:
     - id: diametrical%5:00:02:different:00
       synset: 02073716-s
 diametrical opposition:
@@ -33871,8 +33696,6 @@ diatonic:
       - 'chromatic%3:00:01::'
       id: 'diatonic%3:00:00::'
       synset: 00410966-a
-  s:
-    sense:
     - id: diatonic%5:00:00:tonal:00
       synset: 02446738-s
 diatonic scale:
@@ -34210,8 +34033,6 @@ dichromatic:
       pertainym:
       - 'dichromatism%1:26:00::'
       synset: 03052254-a
-  s:
-    sense:
     - id: dichromatic%5:00:00:colored:00
       synset: 00397176-s
 dichromatism:
@@ -34502,8 +34323,6 @@ dictatorial:
       pertainym:
       - 'dictator%1:18:00::'
       synset: 02723414-a
-  s:
-    sense:
     - id: dictatorial%5:00:00:domineering:00
       synset: 00790912-s
     - derivation:
@@ -35319,10 +35138,6 @@ different:
       - 'differ%2:42:00::'
       id: 'different%3:00:00::'
       synset: 02072149-a
-  s:
-    pronunciation:
-    - value: ˈdɪf.(ə)ɹ.ənt
-    sense:
     - derivation:
       - 'differ%2:42:00::'
       id: different%5:00:00:other:00
@@ -35355,11 +35170,6 @@ differentiable:
       pertainym:
       - 'differential_coefficient%1:09:00::'
       synset: 02723546-a
-  s:
-    pronunciation:
-    - value: ˌdɪf.ə(ɹ)ˈɛn.ʃə.bəl
-      variety: GB
-    sense:
     - id: differentiable%5:00:00:distinguishable:00
       synset: 00584987-s
 differential:
@@ -35521,8 +35331,6 @@ differentiated:
       - 'undifferentiated%3:00:00::'
       id: 'differentiated%3:00:00::'
       synset: 00747889-a
-  s:
-    sense:
     - id: differentiated%5:00:00:specialized:00
       synset: 02285578-s
 differentiation:
@@ -35612,10 +35420,6 @@ diffident:
       - 'diffidence%1:12:00::'
       id: 'diffident%3:00:00::'
       synset: 00340839-a
-  s:
-    pronunciation:
-    - value: ˈdɪfɪdənt
-    sense:
     - derivation:
       - 'diffidence%1:12:00::'
       id: diffident%5:00:00:reserved:01
@@ -35667,13 +35471,6 @@ diffuse:
     sense:
     - id: 'diffuse%3:00:00::'
       synset: 01161394-a
-  s:
-    pronunciation:
-    - value: dɪˈfjuːs
-      variety: GB
-    - value: dɪˈfjus
-      variety: US
-    sense:
     - derivation:
       - 'diffuseness%1:07:00::'
       id: diffuse%5:00:00:distributed:00
@@ -35718,8 +35515,6 @@ diffused:
     sense:
     - id: 'diffused%3:00:00::'
       synset: 01161394-a
-  s:
-    sense:
     - id: diffused%5:00:00:distributed:00
       synset: 00542852-s
 diffusely:
@@ -36513,11 +36308,6 @@ dignified:
       - 'undignified%3:00:00::'
       id: 'dignified%3:00:00::'
       synset: 00755046-a
-  s:
-    pronunciation:
-    - value: ˈdɪɡnɪfaɪd
-      variety: GB
-    sense:
     - id: dignified%5:00:00:proud:00
       synset: 01897055-s
 dignify:
@@ -36942,11 +36732,6 @@ diligent:
       - 'diligence%1:07:00::'
       id: 'diligent%3:00:00::'
       synset: 00757628-a
-  s:
-    pronunciation:
-    - value: ˈdɪlɪdʒənt
-      variety: GB
-    sense:
     - derivation:
       - 'diligence%1:07:00::'
       id: diligent%5:00:00:patient:00
@@ -37149,13 +36934,6 @@ dim:
       - 'dimness%1:26:00::'
       id: 'dim%3:00:02::'
       synset: 00285441-a
-  s:
-    form:
-    - dimmer
-    - dimmest
-    pronunciation:
-    - value: dɪm
-    sense:
     - derivation:
       - 'dimness%1:07:01::'
       id: dim%5:00:00:dark:01
@@ -37292,10 +37070,6 @@ dimensional:
       pertainym:
       - 'dimension%1:07:00::'
       synset: 02996534-a
-  s:
-    pronunciation:
-    - value: dɪˈmɛnʃənəl
-    sense:
     - derivation:
       - 'dimensionality%1:07:00::'
       id: dimensional%5:00:00:multidimensional:00
@@ -37360,10 +37134,6 @@ diminished:
     sense:
     - id: 'diminished%3:00:04::'
       synset: 00557099-a
-  s:
-    pronunciation:
-    - value: dɪˈmɪnɪʃt
-    sense:
     - id: diminished%5:00:00:impaired:00
       synset: 01278055-s
     - id: diminished%5:00:02:decreased:00
@@ -38748,16 +38518,6 @@ direct:
       - 'alternating%3:00:00::'
       id: 'direct%3:00:01::'
       synset: 00767176-a
-  r:
-    pronunciation:
-    - value: d(a)ɪˈɹɛkt
-    sense:
-    - id: 'direct%4:02:00::'
-      synset: 00052386-r
-  s:
-    pronunciation:
-    - value: d(a)ɪˈɹɛkt
-    sense:
     - id: direct%5:00:00:immediate:00
       synset: 00774039-s
     - derivation:
@@ -38768,6 +38528,12 @@ direct:
       synset: 00917922-s
     - id: direct%5:00:00:absolute:00
       synset: 00005472-s
+  r:
+    pronunciation:
+    - value: d(a)ɪˈɹɛkt
+    sense:
+    - id: 'direct%4:02:00::'
+      synset: 00052386-r
   v:
     pronunciation:
     - value: d(a)ɪˈɹɛkt
@@ -39094,10 +38860,6 @@ directional:
       pertainym:
       - 'direction%1:04:00::'
       synset: 02724999-a
-  s:
-    pronunciation:
-    - value: dɪˈɹɛkʃənəl
-    sense:
     - id: directional%5:00:00:leading:00
       synset: 00200706-s
 directional antenna:
@@ -39468,16 +39230,6 @@ dirty:
       - 'dirtiness%1:26:01::'
       id: 'dirty%3:00:03::'
       synset: 00428105-a
-  s:
-    form:
-    - dirtier
-    - dirtiest
-    pronunciation:
-    - value: ˈdɜːti
-      variety: GB
-    - value: ˈdɝti
-      variety: US
-    sense:
     - id: dirty%5:00:00:nasty:00
       synset: 01591882-s
     - derivation:
@@ -39702,8 +39454,6 @@ disabling:
       - 'enabling%3:00:00::'
       id: 'disabling%3:00:00::'
       synset: 01198884-a
-  s:
-    sense:
     - id: disabling%5:00:00:unhealthful:00
       synset: 01171710-s
 disabuse:
@@ -39891,8 +39641,6 @@ disagreeable:
       - 'disagreeableness%1:07:01::'
       id: 'disagreeable%3:00:00::'
       synset: 00090040-a
-  s:
-    sense:
     - id: disagreeable%5:00:00:ill-natured:00
       synset: 01141382-s
     - derivation:
@@ -40809,13 +40557,6 @@ discernible:
       - 'discern%2:39:00::'
       id: 'discernible%3:00:00::'
       synset: 00584163-a
-  s:
-    pronunciation:
-    - value: dɪˈsɝnɪbl̩
-      variety: US
-    - value: dɪˈsɜːnɪbl̩
-      variety: GB
-    sense:
     - derivation:
       - 'discern%2:39:00::'
       id: discernible%5:00:00:perceptible:00
@@ -40836,13 +40577,6 @@ discerning:
       - 'undiscerning%3:00:00::'
       id: 'discerning%3:00:00::'
       synset: 00774932-a
-  s:
-    pronunciation:
-    - value: dɪˈsɜːn.iŋ
-      variety: GB
-    - value: dɪˈsɝn.iŋ
-      variety: US
-    sense:
     - id: discerning%5:00:00:tactful:00
       synset: 02393240-s
     - id: discerning%5:00:00:perceptive:00
@@ -41065,13 +40799,6 @@ disciplinary:
       pertainym:
       - 'discipline%1:09:00::'
       synset: 03072486-a
-  s:
-    pronunciation:
-    - value: dɪsɪˈplɪnəɹi
-      variety: GB
-    - value: ˈdɪs.ə.pləˌnɛɹi
-      variety: US
-    sense:
     - derivation:
       - 'discipline%1:04:00::'
       id: disciplinary%5:00:00:nonindulgent:00
@@ -41578,8 +41305,6 @@ disconfirming:
     sense:
     - id: 'disconfirming%3:00:02::'
       synset: 01826365-a
-  s:
-    sense:
     - id: disconfirming%5:00:00:unsupportive:00
       synset: 02365268-s
 disconnect:
@@ -41617,11 +41342,6 @@ disconnected:
       - 'disconnectedness%1:26:00::'
       id: 'disconnected%3:00:02::'
       synset: 02301588-a
-  s:
-    pronunciation:
-    - value: ˌdɪskəˈnɛktəd
-      variety: GB
-    sense:
     - derivation:
       - 'disconnectedness%1:26:00::'
       id: disconnected%5:00:00:divided:00
@@ -41670,13 +41390,6 @@ disconsolate:
       - 'disconsolateness%1:12:00::'
       id: 'disconsolate%3:00:04::'
       synset: 01235171-a
-  s:
-    pronunciation:
-    - value: dɪsˈkɑnsəlɪt
-      variety: US
-    - value: dɪsˈkɒnsəlɪt
-      variety: GB
-    sense:
     - id: disconsolate%5:00:00:depressing:00
       synset: 00365961-s
 disconsolately:
@@ -41913,11 +41626,6 @@ discordant:
       - 'discordance%1:04:00::'
       id: 'discordant%3:00:00::'
       synset: 00556119-a
-  s:
-    pronunciation:
-    - value: dɪsˈkɔːdənt
-      variety: GB
-    sense:
     - derivation:
       - 'discord%2:42:00::'
       - 'discordance%1:07:00::'
@@ -42099,11 +41807,6 @@ discouraging:
       - 'encouraging%3:00:00::'
       id: 'discouraging%3:00:00::'
       synset: 00870521-a
-  s:
-    pronunciation:
-    - value: dɪsˈkʌɹɪdʒɪŋ
-      variety: GB
-    sense:
     - id: discouraging%5:00:00:dissuasive:00
       synset: 01775905-s
 discouragingly:
@@ -42159,11 +41862,6 @@ discourteous:
       - 'courteous%3:00:00::'
       id: 'discourteous%3:00:00::'
       synset: 00643305-a
-  s:
-    pronunciation:
-    - value: dɪsˈkɜːtɪəs
-      variety: GB
-    sense:
     - id: discourteous%5:00:00:impolite:00
       synset: 00645174-s
 discourteously:
@@ -42381,10 +42079,6 @@ discreet:
       - 'discreetness%1:07:00::'
       id: 'discreet%3:00:00::'
       synset: 00776469-a
-  s:
-    pronunciation:
-    - value: dɪˈskɹiːt
-    sense:
     - derivation:
       - 'discreetness%1:07:00::'
       id: discreet%5:00:00:tactful:00
@@ -42562,11 +42256,6 @@ discriminating:
       - 'undiscriminating%3:00:00::'
       id: 'discriminating%3:00:00::'
       synset: 00777882-a
-  s:
-    pronunciation:
-    - value: dɪsˈkɹɪmɪneɪtɪŋ(ɡ)
-      variety: GB
-    sense:
     - id: discriminating%5:00:00:perceptive:00
       synset: 01748764-s
 discrimination:
@@ -42618,13 +42307,6 @@ discriminatory:
       - 'discriminate%2:41:12::'
       id: 'discriminatory%3:00:04::'
       synset: 00286014-a
-  s:
-    pronunciation:
-    - value: dɪsˈkɹɪmɪnət(ə)ɹɪ
-      variety: GB
-    - value: dɪsˈkɹɪmɪnəˌtɔɹi
-      variety: US
-    sense:
     - derivation:
       - 'discriminate%2:41:12::'
       id: discriminatory%5:00:00:unfavorable:02
@@ -43795,13 +43477,6 @@ dishonest:
       - 'honest%3:00:00::'
       id: 'dishonest%3:00:00::'
       synset: 01225555-a
-  s:
-    pronunciation:
-    - value: dɪˈsɒnɪst
-      variety: GB
-    - value: dɨˈsɑnɪst
-      variety: US
-    sense:
     - id: dishonest%5:00:00:corrupt:00
       synset: 00623826-s
 dishonestly:
@@ -44576,11 +44251,6 @@ disjunct:
       - 'conjunct%3:00:00::'
       id: 'disjunct%3:00:00::'
       synset: 00568227-a
-  s:
-    pronunciation:
-    - value: dɪsˈdʒʌŋkt
-      variety: GB
-    sense:
     - id: disjunct%5:00:00:divided:00
       synset: 02491135-s
     - id: disjunct%5:00:00:separate:00
@@ -45197,11 +44867,6 @@ disobedient:
       - 'disobey%2:41:00::'
       id: 'disobedient%3:00:00::'
       synset: 01618017-a
-  s:
-    pronunciation:
-    - value: dɪs.əˈbiː.dɪənt
-      variety: GB
-    sense:
     - derivation:
       - 'disobedience%1:07:00::'
       - 'disobey%2:41:00::'
@@ -45305,13 +44970,6 @@ disordered:
       - 'ordered%3:00:00::'
       id: 'disordered%3:00:00::'
       synset: 01672503-a
-  s:
-    pronunciation:
-    - value: dɪsˈɔɹdɚd
-      variety: US
-    - value: dɪsˈɔːdəd
-      variety: GB
-    sense:
     - id: disordered%5:00:00:disorganized:00
       synset: 01673499-s
     - id: disordered%5:00:00:incoherent:00
@@ -45345,11 +45003,6 @@ disorderly:
       - 'disorderliness%1:26:02::'
       id: 'disorderly%3:00:00::'
       synset: 01670528-a
-  s:
-    pronunciation:
-    - value: dɪsˈɔː.də.li
-      variety: GB
-    sense:
     - derivation:
       - 'disorderliness%1:07:00::'
       id: disorderly%5:00:00:untidy:00
@@ -46472,11 +46125,6 @@ disproportionate:
       - 'proportionate%3:00:00::'
       id: 'disproportionate%3:00:00::'
       synset: 00485037-a
-  s:
-    pronunciation:
-    - value: dɪspɹəˈpɔːʃənət
-      variety: GB
-    sense:
     - id: disproportionate%5:00:00:incommensurate:00
       synset: 00484048-s
 disproportionately:
@@ -46938,8 +46586,6 @@ disrespectful:
       - 'respectful%3:00:00::'
       id: 'disrespectful%3:00:00::'
       synset: 02001702-a
-  s:
-    sense:
     - id: disrespectful%5:00:00:irreverent:00
       synset: 02020179-s
 disrespectfully:
@@ -48120,11 +47766,6 @@ distant:
       - 'close%3:00:02::'
       id: 'distant%3:00:02::'
       synset: 00452640-a
-  s:
-    pronunciation:
-    - value: ˈdɪstənt
-      variety: GB
-    sense:
     - derivation:
       - 'distance%1:12:00::'
       id: distant%5:00:00:reserved:01
@@ -48441,10 +48082,6 @@ distinct:
       - 'distinctness%1:07:00::'
       id: 'distinct%3:00:00::'
       synset: 00782933-a
-  s:
-    pronunciation:
-    - value: dɪsˈtɪŋkt
-    sense:
     - derivation:
       - 'distinctness%1:07:01::'
       id: distinct%5:00:00:different:00
@@ -48600,10 +48237,6 @@ distinguishable:
       - 'indistinguishable%3:00:00::'
       id: 'distinguishable%3:00:00::'
       synset: 00584665-a
-  s:
-    pronunciation:
-    - value: dɪsˈtɪŋ.ɡwɪ.ʃə.bl̩
-    sense:
     - id: distinguishable%5:00:00:different:00
       synset: 02074467-s
 distinguished:
@@ -48861,10 +48494,6 @@ distressed:
     sense:
     - id: 'distressed%3:00:04::'
       synset: 00912446-a
-  s:
-    pronunciation:
-    - value: dɪˈstɹɛst
-    sense:
     - id: distressed%5:00:00:troubled:00
       synset: 02466610-s
     - id: distressed%5:00:02:troubled:00
@@ -49670,13 +49299,6 @@ diurnal:
       - 'nocturnal%3:00:00::'
       id: 'diurnal%3:00:00::'
       synset: 00681933-a
-  s:
-    pronunciation:
-    - value: daɪˈɜːnəɫ
-      variety: GB
-    - value: daɪˈɝ.nəl
-      variety: US
-    sense:
     - id: diurnal%5:00:00:periodic:00
       synset: 01975098-s
 diurnal parallax:
@@ -49967,13 +49589,6 @@ divergent:
       - 'diverge%2:38:00::'
       id: 'divergent%3:00:00::'
       synset: 00615275-a
-  s:
-    pronunciation:
-    - value: daɪˈvɜːdʒənt
-      variety: GB
-    - value: dɪˈvɝdʒənt
-      variety: US
-    sense:
     - derivation:
       - 'divergency%1:04:00::'
       - 'divergence%1:07:01::'
@@ -50387,8 +50002,6 @@ divided:
       - 'united%3:00:00::'
       id: 'divided%3:00:00::'
       synset: 02488224-a
-  s:
-    sense:
     - id: divided%5:00:00:multilane:00
       synset: 02229408-s
     - id: divided%5:00:00:distributed:00
@@ -50837,8 +50450,6 @@ divisional:
       pertainym:
       - 'division%1:14:00::'
       synset: 03073031-a
-  s:
-    sense:
     - derivation:
       - 'division%1:04:02::'
       - 'division%1:04:00::'
@@ -51448,13 +51059,6 @@ docile:
       - 'docility%1:07:00::'
       id: 'docile%3:00:00::'
       synset: 02336651-a
-  s:
-    pronunciation:
-    - value: ˈdəʊ.saɪl
-      variety: GB
-    - value: ˈdɑː.səl
-      variety: US
-    sense:
     - id: docile%5:00:00:tractable:00
       synset: 02460707-s
     - derivation:
@@ -51903,6 +51507,10 @@ documentary:
       pertainym:
       - 'document%1:10:00::'
       synset: 02908041-a
+    - derivation:
+      - 'documentary%1:10:00::'
+      id: documentary%5:00:00:real:00
+      synset: 01940473-s
   n:
     pronunciation:
     - value: ˌdɒk.jəˈmɛn.tɹi
@@ -51915,17 +51523,6 @@ documentary:
       - documentary%5:00:00:real:00
       id: 'documentary%1:10:00::'
       synset: 06629313-n
-  s:
-    pronunciation:
-    - value: ˌdɒk.jəˈmɛn.tɹi
-      variety: GB
-    - value: ˌdɑ.kjəˈmɛn.(tɚ.)ɹi
-      variety: US
-    sense:
-    - derivation:
-      - 'documentary%1:10:00::'
-      id: documentary%5:00:00:real:00
-      synset: 01940473-s
 documentary film:
   n:
     sense:
@@ -51958,8 +51555,6 @@ documented:
       - 'undocumented%3:00:00::'
       id: 'documented%3:00:00::'
       synset: 00789846-a
-  s:
-    sense:
     - id: documented%5:00:00:genuine:00
       synset: 01119662-s
 dodder:
@@ -52644,11 +52239,6 @@ dogmatic:
       pertainym:
       - 'dogma%1:10:00::'
       synset: 03017897-a
-  s:
-    pronunciation:
-    - value: dɒɡˈmatɪk
-      variety: GB
-    sense:
     - derivation:
       - 'dogma%1:10:00::'
       - 'dogmatism%1:09:00::'
@@ -53322,22 +52912,18 @@ domestic:
       - 'undomestic%3:00:00::'
       id: 'domestic%3:00:01::'
       synset: 01042490-a
-  n:
-    pronunciation:
-    - value: dəˈmɛstɪk
-    sense:
-    - id: 'domestic%1:18:00::'
-      synset: 10043844-n
-  s:
-    pronunciation:
-    - value: dəˈmɛstɪk
-    sense:
     - derivation:
       - 'domesticity%1:07:00::'
       id: domestic%5:00:00:tame:01
       synset: 02397489-s
     - id: domestic%5:00:00:native:01
       synset: 01040436-s
+  n:
+    pronunciation:
+    - value: dəˈmɛstɪk
+    sense:
+    - id: 'domestic%1:18:00::'
+      synset: 10043844-n
 domestic animal:
   n:
     sense:
@@ -53622,6 +53208,8 @@ dominant:
       - 'dominance%1:19:00::'
       id: 'dominant%3:00:02::'
       synset: 00797348-a
+    - id: dominant%5:00:00:frequent:00
+      synset: 01070476-s
   n:
     pronunciation:
     - value: ˈdɒmɪnənt
@@ -53635,15 +53223,6 @@ dominant:
       - 'dominant%3:00:02::'
       id: 'dominant%1:08:00::'
       synset: 05445706-n
-  s:
-    pronunciation:
-    - value: ˈdɒmɪnənt
-      variety: GB
-    - value: ˈdɑmənənt
-      variety: US
-    sense:
-    - id: dominant%5:00:00:frequent:00
-      synset: 01070476-s
 dominant allele:
   n:
     sense:
@@ -54560,13 +54139,6 @@ dormant:
       - 'dormancy%1:26:00::'
       id: 'dormant%3:00:00::'
       synset: 00040908-a
-  s:
-    pronunciation:
-    - value: ˈdɔɹmənt
-      variety: US
-    - value: ˈdɔːmənt
-      variety: GB
-    sense:
     - derivation:
       - 'dormancy%1:26:00::'
       - 'dormancy%1:04:00::'
@@ -55061,6 +54633,19 @@ double:
       synset: 02228166-a
     - id: 'double%3:00:00::'
       synset: 01550993-a
+    - id: double%5:00:03:multiple:00
+      synset: 02225486-s
+    - id: double%5:00:02:multiple:00
+      synset: 02225139-s
+    - derivation:
+      - 'double%1:09:00::'
+      - 'double%1:04:01::'
+      id: double%5:00:01:multiple:00
+      synset: 02224928-s
+    - id: double%5:00:00:large:00
+      synset: 01388083-s
+    - id: double%5:00:00:equivocal:00
+      synset: 00899319-s
   n:
     pronunciation:
     - value: ˈdʌb.əl
@@ -55094,23 +54679,6 @@ double:
       synset: 00323217-r
     - id: 'double%4:02:00::'
       synset: 00083743-r
-  s:
-    pronunciation:
-    - value: ˈdʌb.əl
-    sense:
-    - id: double%5:00:03:multiple:00
-      synset: 02225486-s
-    - id: double%5:00:02:multiple:00
-      synset: 02225139-s
-    - derivation:
-      - 'double%1:09:00::'
-      - 'double%1:04:01::'
-      id: double%5:00:01:multiple:00
-      synset: 02224928-s
-    - id: double%5:00:00:large:00
-      synset: 01388083-s
-    - id: double%5:00:00:equivocal:00
-      synset: 00899319-s
   v:
     pronunciation:
     - value: ˈdʌb.əl
@@ -55629,8 +55197,6 @@ double-barreled:
       - 'single-barreled%3:00:00::'
       id: 'double-barreled%3:00:00::'
       synset: 00797832-a
-  s:
-    sense:
     - id: double-barreled%5:00:00:ambiguous:00
       synset: 00103377-s
 double-barrelled:
@@ -55638,8 +55204,6 @@ double-barrelled:
     sense:
     - id: 'double-barrelled%3:00:00::'
       synset: 00797832-a
-  s:
-    sense:
     - id: double-barrelled%5:00:00:ambiguous:00
       synset: 00103377-s
 double-bass:
@@ -56541,6 +56105,27 @@ down:
       - 'up%3:00:00::'
       id: 'down%3:00:00::'
       synset: 02501639-a
+    - adjposition: a
+      id: down%5:00:00:descending:00
+      synset: 02495926-s
+    - adjposition: a
+      id: down%5:00:00:falling:00
+      synset: 02497092-s
+    - adjposition: p
+      id: down%5:00:00:out:02
+      synset: 02069082-s
+    - id: down%5:00:00:perfect:00
+      synset: 01755101-s
+    - adjposition: p
+      id: down%5:00:00:low:02
+      synset: 01215539-s
+    - id: down%5:00:00:lowered:00
+      synset: 01211164-s
+    - id: down%5:00:00:inoperative:00
+      synset: 00837276-s
+    - adjposition: p
+      id: down%5:00:00:dejected:00
+      synset: 00707060-s
   n:
     pronunciation:
     - value: daʊn
@@ -56577,29 +56162,6 @@ down:
       synset: 00096639-r
     - id: 'down%4:02:04::'
       synset: 00096496-r
-  s:
-    sense:
-    - adjposition: a
-      id: down%5:00:00:descending:00
-      synset: 02495926-s
-    - adjposition: a
-      id: down%5:00:00:falling:00
-      synset: 02497092-s
-    - adjposition: p
-      id: down%5:00:00:out:02
-      synset: 02069082-s
-    - id: down%5:00:00:perfect:00
-      synset: 01755101-s
-    - adjposition: p
-      id: down%5:00:00:low:02
-      synset: 01215539-s
-    - id: down%5:00:00:lowered:00
-      synset: 01211164-s
-    - id: down%5:00:00:inoperative:00
-      synset: 00837276-s
-    - adjposition: p
-      id: down%5:00:00:dejected:00
-      synset: 00707060-s
   v:
     sense:
     - id: 'down%2:34:00::'
@@ -58177,10 +57739,6 @@ drained:
       - 'undrained%3:00:00::'
       id: 'drained%3:00:00::'
       synset: 01092170-a
-  s:
-    pronunciation:
-    - value: dɹeɪnd
-    sense:
     - id: drained%5:00:00:tired:00
       synset: 02442934-s
     - id: drained%5:00:00:uncharged:00
@@ -58289,10 +57847,6 @@ dramatic:
       - 'lyric%3:00:00::'
       id: 'dramatic%3:00:02::'
       synset: 01472076-a
-  s:
-    pronunciation:
-    - value: dɹəˈmætɪk
-    sense:
     - derivation:
       - 'drama%1:11:00::'
       id: dramatic%5:00:00:impressive:00
@@ -63220,6 +62774,8 @@ drunk:
       - 'drunk%1:18:00::'
       id: 'drunk%3:00:00::'
       synset: 00800854-a
+    - id: drunk%5:00:00:excited:00
+      synset: 00923501-s
   n:
     pronunciation:
     - value: dɹʌŋk
@@ -63232,12 +62788,6 @@ drunk:
       - 'drunk%3:00:00::'
       id: 'drunk%1:18:01::'
       synset: 10056805-n
-  s:
-    pronunciation:
-    - value: dɹʌŋk
-    sense:
-    - id: drunk%5:00:00:excited:00
-      synset: 00923501-s
 drunk-and-disorderly:
   n:
     sense:
@@ -63383,21 +62933,6 @@ dry:
       - 'dryness%1:26:00::'
       id: 'dry%3:00:06::'
       synset: 01182213-a
-  n:
-    pronunciation:
-    - value: dɹaɪ
-    sense:
-    - id: 'dry%1:18:00::'
-      synset: 10057647-n
-  s:
-    form:
-    - drier
-    - driest
-    - dryer
-    - dryest
-    pronunciation:
-    - value: dɹaɪ
-    sense:
     - derivation:
       - 'dryness%1:07:00::'
       id: dry%5:00:00:humorous:00
@@ -63426,6 +62961,12 @@ dry:
       - 'dryness%1:07:02::'
       id: dry%5:00:00:sober:01
       synset: 00803524-s
+  n:
+    pronunciation:
+    - value: dɹaɪ
+    sense:
+    - id: 'dry%1:18:00::'
+      synset: 10057647-n
   v:
     form:
     - dried
@@ -64433,6 +63974,11 @@ due:
       - 'undue%3:00:02::'
       id: 'due%3:00:02::'
       synset: 00138993-a
+    - adjposition: p
+      id: due%5:00:00:expected:00
+      synset: 00933157-s
+    - id: due%5:00:00:attributable:00
+      synset: 00173133-s
   n:
     pronunciation:
     - value: djuː
@@ -64455,19 +64001,6 @@ due:
     sense:
     - id: 'due%4:02:00::'
       synset: 00052690-r
-  s:
-    pronunciation:
-    - value: djuː
-      variety: GB
-    - value: du
-      variety: US
-    - value: dʒʉː
-    sense:
-    - adjposition: p
-      id: due%5:00:00:expected:00
-      synset: 00933157-s
-    - id: due%5:00:00:attributable:00
-      synset: 00173133-s
 due care:
   n:
     sense:
@@ -64815,10 +64348,6 @@ dull:
       - 'dullness%1:07:01::'
       id: 'dull%3:00:01::'
       synset: 00803819-a
-  s:
-    pronunciation:
-    - value: dʌl
-    sense:
     - id: dull%5:00:00:soft:04
       synset: 01457764-s
     - derivation:
@@ -65292,13 +64821,6 @@ dumpy:
       pertainym:
       - 'dump%1:15:00::'
       synset: 02725783-a
-  s:
-    form:
-    - dumpier
-    - dumpiest
-    pronunciation:
-    - value: ˈdʌmpi
-    sense:
     - derivation:
       - 'dumpiness%1:07:00::'
       id: dumpy%5:00:00:short:03
@@ -66922,17 +66444,15 @@ dying:
       - 'nascent%3:00:00::'
       id: 'dying%3:00:00::'
       synset: 00003938-a
+    - adjposition: p
+      id: dying%5:00:00:eager:00
+      synset: 00814817-s
   n:
     sense:
     - derivation:
       - 'die%2:30:01::'
       id: 'dying%1:28:00::'
       synset: 15168437-n
-  s:
-    sense:
-    - adjposition: p
-      id: dying%5:00:00:eager:00
-      synset: 00814817-s
 dyke:
   n:
     pronunciation:
@@ -67301,20 +66821,16 @@ dyslexic:
       pertainym:
       - 'dyslexia%1:26:00::'
       synset: 03051922-a
+    - derivation:
+      - 'dyslexia%1:26:00::'
+      id: dyslexic%5:00:00:impaired:00
+      synset: 01278305-s
   n:
     pronunciation:
     - value: dɪsˈlɛksɪk
     sense:
     - id: 'dyslexic%1:18:00::'
       synset: 10060414-n
-  s:
-    pronunciation:
-    - value: dɪsˈlɛksɪk
-    sense:
-    - derivation:
-      - 'dyslexia%1:26:00::'
-      id: dyslexic%5:00:00:impaired:00
-      synset: 01278305-s
 dyslogia:
   n:
     sense:

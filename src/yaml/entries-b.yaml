@@ -1678,8 +1678,6 @@ Bantu-speaking:
       pertainym:
       - 'bantu%1:10:00::'
       synset: 03058317-a
-  s:
-    sense:
     - id: bantu-speaking%5:00:00:communicative:00
       synset: 00498215-s
 Baphia:
@@ -9364,11 +9362,6 @@ Brobdingnagian:
       pertainym:
       - 'brobdingnag%1:09:00::'
       synset: 02682128-a
-  s:
-    pronunciation:
-    - value: ˌbɹɒbdɪŋˈnaɡɪən
-      variety: GB
-    sense:
     - id: brobdingnagian%5:00:00:large:00
       synset: 01390253-s
 Broca:
@@ -11183,6 +11176,8 @@ Byzantine:
       pertainym:
       - 'byzantine_empire%1:15:00::'
       synset: 02981470-a
+    - id: byzantine%5:00:00:complex:00
+      synset: 02184401-s
   n:
     pronunciation:
     - value: bɪˈzæntaɪn
@@ -11192,15 +11187,6 @@ Byzantine:
     sense:
     - id: 'byzantine%1:18:00::'
       synset: 09715520-n
-  s:
-    pronunciation:
-    - value: bɪˈzæntaɪn
-      variety: GB
-    - value: ˈbɪzəntiːn
-      variety: US
-    sense:
-    - id: byzantine%5:00:00:complex:00
-      synset: 02184401-s
 Byzantine Church:
   n:
     sense:
@@ -11818,8 +11804,6 @@ baccate:
       pertainym:
       - 'bacca%1:20:00::'
       synset: 02667404-a
-  s:
-    sense:
     - id: baccate%5:00:00:fruitful:00
       synset: 01084405-s
 bacchanal:
@@ -12001,8 +11985,6 @@ bacillar:
       pertainym:
       - 'bacillus%1:05:00::'
       synset: 02667635-a
-  s:
-    sense:
     - id: bacillar%5:00:00:formed:00
       synset: 02152403-s
 bacillary:
@@ -12014,8 +11996,6 @@ bacillary:
       pertainym:
       - 'bacillus%1:05:00::'
       synset: 02667635-a
-  s:
-    sense:
     - derivation:
       - 'bacillus%1:05:00::'
       id: bacillary%5:00:00:formed:00
@@ -12067,6 +12047,12 @@ back:
       - 'front%3:00:00::'
       id: 'back%3:00:00::'
       synset: 00199168-a
+    - adjposition: a
+      id: back%5:00:00:posterior:00
+      synset: 00132764-s
+    - adjposition: a
+      id: back%5:00:00:noncurrent:00
+      synset: 00672052-s
   n:
     sense:
     - id: 'back%1:08:00::'
@@ -12109,14 +12095,6 @@ back:
       synset: 00075633-r
     - id: 'back%4:02:03::'
       synset: 00075230-r
-  s:
-    sense:
-    - adjposition: a
-      id: back%5:00:00:posterior:00
-      synset: 00132764-s
-    - adjposition: a
-      id: back%5:00:00:noncurrent:00
-      synset: 00672052-s
   v:
     sense:
     - derivation:
@@ -12589,8 +12567,6 @@ backed:
       - 'backless%3:00:00::'
       id: 'backed%3:00:00::'
       synset: 00201618-a
-  s:
-    sense:
     - id: backed%5:00:00:coated:00
       synset: 01703863-s
 backer:
@@ -12752,6 +12728,8 @@ backhand:
       - 'forehand%3:00:00::'
       id: 'backhand%3:00:00::'
       synset: 01037522-a
+    - id: backhand%5:00:00:written:00
+      synset: 02292626-s
   n:
     pronunciation:
     - value: ˈbækhænd
@@ -12760,12 +12738,6 @@ backhand:
       - 'backhand%2:35:00::'
       id: 'backhand%1:04:00::'
       synset: 00567727-n
-  s:
-    pronunciation:
-    - value: ˈbækhænd
-    sense:
-    - id: backhand%5:00:00:written:00
-      synset: 02292626-s
   v:
     pronunciation:
     - value: ˈbækhænd
@@ -12798,10 +12770,6 @@ backhanded:
     sense:
     - id: 'backhanded%3:00:00::'
       synset: 01037522-a
-  s:
-    pronunciation:
-    - value: ˈbækˌhændəd
-    sense:
     - id: backhanded%5:00:00:indirect:02
       synset: 00770693-s
 backhander:
@@ -13317,6 +13285,12 @@ backward:
       - 'forward%3:00:02::'
       id: 'backward%3:00:02::'
       synset: 00205669-a
+    - derivation:
+      - 'backwardness%1:09:00::'
+      id: backward%5:00:00:retarded:00
+      synset: 01846588-s
+    - id: backward%5:00:00:undynamic:00
+      synset: 00814205-s
   r:
     pronunciation:
     - value: ˈbæk.wə(ɹ)d
@@ -13334,19 +13308,6 @@ backward:
       - 'forward%4:02:02::'
       id: 'backward%4:02:02::'
       synset: 00074467-r
-  s:
-    pronunciation:
-    - value: ˈbæk.wə(ɹ)d
-      variety: GB
-    - value: ˈbækwɚd
-      variety: US
-    sense:
-    - derivation:
-      - 'backwardness%1:09:00::'
-      id: backward%5:00:00:retarded:00
-      synset: 01846588-s
-    - id: backward%5:00:00:undynamic:00
-      synset: 00814205-s
 backward and forward:
   r:
     sense:
@@ -13758,23 +13719,6 @@ bad:
       synset: 01129296-a
     - id: 'bad%3:00:09::'
       synset: 01153978-a
-  n:
-    sense:
-    - antonym:
-      - 'good%1:07:02::'
-      id: 'bad%1:07:00::'
-      synset: 05151326-n
-  r:
-    sense:
-    - id: 'bad%4:02:04::'
-      synset: 00016920-r
-    - id: 'bad%4:02:03::'
-      synset: 00016702-r
-  s:
-    form:
-    - worse
-    - worst
-    sense:
     - derivation:
       - 'badness%1:07:01::'
       id: bad%5:00:00:intense:00
@@ -13807,6 +13751,18 @@ bad:
       synset: 01120968-s
     - id: bad%5:00:00:malfunctioning:00
       synset: 01096265-s
+  n:
+    sense:
+    - antonym:
+      - 'good%1:07:02::'
+      id: 'bad%1:07:00::'
+      synset: 05151326-n
+  r:
+    sense:
+    - id: 'bad%4:02:04::'
+      synset: 00016920-r
+    - id: 'bad%4:02:03::'
+      synset: 00016702-r
 bad block:
   n:
     sense:
@@ -16626,10 +16582,6 @@ banded:
       - 'unbanded%3:00:00::'
       id: 'banded%3:00:00::'
       synset: 00224561-a
-  s:
-    pronunciation:
-    - value: ˈbændɪd
-    sense:
     - id: banded%5:00:00:patterned:00
       synset: 01791518-s
     - id: banded%5:00:00:belted:00
@@ -18564,8 +18516,6 @@ bare:
       - 'bareness%1:07:00::'
       id: 'bare%3:00:00::'
       synset: 01702853-a
-  s:
-    sense:
     - derivation:
       - 'bareness%1:26:00::'
       id: bare%5:00:00:unclothed:00
@@ -19582,21 +19532,14 @@ baroque:
       pertainym:
       - 'baroque%1:28:00::'
       synset: 02985568-a
-  n:
-    sense:
-    - id: 'baroque%1:07:00::'
-      synset: 04705655-n
-  s:
-    pronunciation:
-    - value: bəˈɹɒk
-      variety: GB
-    - value: bəˈɹoʊk
-      variety: US
-    sense:
     - derivation:
       - 'baroqueness%1:07:00::'
       id: baroque%5:00:00:fancy:00
       synset: 01799504-s
+  n:
+    sense:
+    - id: 'baroque%1:07:00::'
+      synset: 04705655-n
 baroqueness:
   n:
     sense:
@@ -19866,8 +19809,6 @@ barreled:
       - 'unbarreled%3:00:00::'
       id: 'barreled%3:00:00::'
       synset: 00207797-a
-  s:
-    sense:
     - id: barreled%5:00:00:pointed:00
       synset: 01815633-s
 barrelfish:
@@ -19890,8 +19831,6 @@ barrelled:
     sense:
     - id: 'barrelled%3:00:02::'
       synset: 00207797-a
-  s:
-    sense:
     - id: barrelled%5:00:00:pointed:00
       synset: 01815633-s
 barrels:
@@ -20270,8 +20209,6 @@ basal:
       - 'base%1:15:00::'
       id: 'basal%3:00:02::'
       synset: 00319565-a
-  s:
-    sense:
     - id: basal%5:00:01:basic:00
       synset: 01862151-s
     - derivation:
@@ -20730,22 +20667,18 @@ basic:
       - 'incidental%3:00:00::'
       id: 'basic%3:00:00::'
       synset: 01861659-a
-  n:
-    pronunciation:
-    - value: ˈbeɪsɪk
-    sense:
-    - id: 'basic%1:06:00::'
-      synset: 02803952-n
-  s:
-    pronunciation:
-    - value: ˈbeɪsɪk
-    sense:
     - id: basic%5:00:00:standard:01
       synset: 02302973-s
     - id: basic%5:00:02:first:00
       synset: 01015350-s
     - id: basic%5:00:00:alkaline:00
       synset: 00026281-s
+  n:
+    pronunciation:
+    - value: ˈbeɪsɪk
+    sense:
+    - id: 'basic%1:06:00::'
+      synset: 02803952-n
 basic assumption:
   n:
     sense:
@@ -25537,10 +25470,6 @@ beaten:
       participle:
       - 'beat%2:36:00::'
       synset: 03159554-a
-  s:
-    pronunciation:
-    - value: ˈbit(ə)n
-    sense:
     - adjposition: a
       id: beaten%5:00:00:familiar:00
       synset: 00969226-s
@@ -25765,10 +25694,6 @@ beautiful:
       - 'ugly%3:00:00::'
       id: 'beautiful%3:00:00::'
       synset: 00219320-a
-  s:
-    pronunciation:
-    - value: ˈbjuːtɪfəl
-    sense:
     - id: beautiful%5:00:00:pleasant:00
       synset: 01805768-s
 beautifully:
@@ -29146,10 +29071,6 @@ bellied:
       - 'bellyless%3:00:00::'
       id: 'bellied%3:00:00::'
       synset: 00224254-a
-  s:
-    pronunciation:
-    - value: ˈbɛlid
-    sense:
     - id: bellied%5:00:00:protrusive:00
       synset: 01356466-s
 belligerence:
@@ -30284,13 +30205,6 @@ beneficent:
       - 'benefit%2:40:01::'
       id: 'beneficent%3:00:00::'
       synset: 00225394-a
-  s:
-    pronunciation:
-    - value: bəˈnɛ.fɪ.sənt
-      variety: GB
-    - value: bəˈnɛ.fə.sənt
-      variety: US
-    sense:
     - id: beneficent%5:00:00:charitable:00
       synset: 00360725-s
 beneficial:
@@ -30436,10 +30350,6 @@ benevolent:
       pertainym:
       - 'benevolence%1:04:00::'
       synset: 02672151-a
-  s:
-    pronunciation:
-    - value: bəˈnɛvələnt
-    sense:
     - id: benevolent%5:00:00:kind:00
       synset: 01375875-s
     - id: benevolent%5:00:00:generous:01
@@ -30505,10 +30415,6 @@ benign:
       - 'benignancy%1:07:00::'
       id: 'benign%3:00:00::'
       synset: 00228210-a
-  s:
-    pronunciation:
-    - value: bɪˈnaɪn
-    sense:
     - derivation:
       - 'benignity%1:07:00::'
       - 'benignancy%1:07:00::'
@@ -30546,10 +30452,6 @@ benignant:
     sense:
     - id: 'benignant%3:00:04::'
       synset: 00228210-a
-  s:
-    pronunciation:
-    - value: bəˈnɪɡnənt
-    sense:
     - id: benignant%5:00:00:kind:00
       synset: 01375495-s
 benignantly:
@@ -31487,6 +31389,9 @@ best:
       - 'best%1:04:00::'
       id: 'best%3:00:00::'
       synset: 00229099-a
+    - adjposition: p
+      id: best%5:00:00:advisable:00
+      synset: 00067988-s
   n:
     sense:
     - antonym:
@@ -31505,11 +31410,6 @@ best:
       synset: 00189569-r
     - id: 'best%4:02:03::'
       synset: 00512379-r
-  s:
-    sense:
-    - adjposition: p
-      id: best%5:00:00:advisable:00
-      synset: 00067988-s
   v:
     sense:
     - id: 'best%2:33:00::'
@@ -32175,6 +32075,11 @@ better:
       - 'worse%3:00:02::'
       id: 'better%3:00:02::'
       synset: 00233353-a
+    - adjposition: p
+      id: better%5:00:00:advisable:00
+      synset: 00067988-s
+    - id: better%5:00:00:major:01
+      synset: 01474175-s
   n:
     sense:
     - id: 'better%1:07:00::'
@@ -32197,13 +32102,6 @@ better:
       synset: 00060145-r
     - id: 'better%4:02:01::'
       synset: 00512379-r
-  s:
-    sense:
-    - adjposition: p
-      id: better%5:00:00:advisable:00
-      synset: 00067988-s
-    - id: better%5:00:00:major:01
-      synset: 01474175-s
   v:
     sense:
     - derivation:
@@ -33016,11 +32914,6 @@ bicameral:
       - 'unicameral%3:00:00::'
       id: 'bicameral%3:00:00::'
       synset: 00234855-a
-  s:
-    pronunciation:
-    - value: bʌɪˈkaməɹəl
-      variety: GB
-    sense:
     - id: bicameral%5:00:00:divided:00
       synset: 02488854-s
 bicameral script:
@@ -33559,6 +33452,8 @@ biennial:
       - 'biennial%1:20:00::'
       id: 'biennial%3:00:00::'
       synset: 00681488-a
+    - id: biennial%5:00:00:periodic:00
+      synset: 01976542-s
   n:
     pronunciation:
     - value: baɪˈɛnɪəl
@@ -33567,12 +33462,6 @@ biennial:
       - 'biennial%3:00:00::'
       id: 'biennial%1:20:00::'
       synset: 11573427-n
-  s:
-    pronunciation:
-    - value: baɪˈɛnɪəl
-    sense:
-    - id: biennial%5:00:00:periodic:00
-      synset: 01976542-s
 biennially:
   r:
     sense:
@@ -33732,23 +33621,6 @@ big:
       - 'bigness%1:07:00::'
       id: 'big%3:00:01::'
       synset: 01385012-a
-  r:
-    sense:
-    - id: 'big%4:02:03::'
-      synset: 00227671-r
-    - id: 'big%4:02:00::'
-      synset: 00227289-r
-    - antonym:
-      - 'small%4:02:00::'
-      id: 'big%4:02:02::'
-      synset: 00227509-r
-    - id: 'big%4:02:01::'
-      synset: 00227422-r
-  s:
-    form:
-    - bigger
-    - biggest
-    sense:
     - id: big%5:00:00:important:00
       synset: 01279982-s
     - id: big%5:00:00:intense:00
@@ -33775,6 +33647,18 @@ big:
     - adjposition: p
       id: big%5:00:00:pregnant:00
       synset: 00174652-s
+  r:
+    sense:
+    - id: 'big%4:02:03::'
+      synset: 00227671-r
+    - id: 'big%4:02:00::'
+      synset: 00227289-r
+    - antonym:
+      - 'small%4:02:00::'
+      id: 'big%4:02:02::'
+      synset: 00227509-r
+    - id: 'big%4:02:01::'
+      synset: 00227422-r
 big H:
   n:
     sense:
@@ -34425,8 +34309,6 @@ bilaterally symmetrical:
     sense:
     - id: 'bilaterally_symmetrical%3:00:00::'
       synset: 02383265-a
-  s:
-    sense:
     - id: bilaterally_symmetrical%5:00:00:symmetrical:00
       synset: 02380686-s
 bilberry:
@@ -34658,13 +34540,6 @@ bilious:
       pertainym:
       - 'bile%1:08:00::'
       synset: 02674772-a
-  s:
-    pronunciation:
-    - value: ˈbɪl.i.əs
-      variety: GB
-    - value: ˈbɪl.jəs
-      variety: US
-    sense:
     - derivation:
       - 'biliousness%1:26:00::'
       id: bilious%5:00:00:ill:01
@@ -35242,10 +35117,6 @@ bimetallic:
       pertainym:
       - 'bimetallism%1:21:00::'
       synset: 02675059-a
-  s:
-    pronunciation:
-    - value: baɪmɪˈtælɪk
-    sense:
     - derivation:
       - 'bimetal%1:27:00::'
       id: bimetallic%5:00:00:metallic:00
@@ -35403,6 +35274,8 @@ binary:
       pertainym:
       - 'binary_numeration_system%1:10:00::'
       synset: 02675405-a
+    - id: binary%5:00:00:multiple:00
+      synset: 02224672-s
   n:
     pronunciation:
     - value: ˈbaɪ.nə.ɹi
@@ -35414,15 +35287,6 @@ binary:
       synset: 09243977-n
     - id: 'binary%1:10:00::'
       synset: 06583139-n
-  s:
-    pronunciation:
-    - value: ˈbaɪ.nə.ɹi
-      variety: US
-    - value: ˈbaɪ.nə.ɹɪ
-      variety: GB
-    sense:
-    - id: binary%5:00:00:multiple:00
-      synset: 02224672-s
 binary arithmetic operation:
   n:
     sense:
@@ -35823,6 +35687,8 @@ binomial:
       pertainym:
       - 'binomial%1:09:00::'
       synset: 03059944-a
+    - id: binomial%5:00:00:onymous:00
+      synset: 00121993-s
   n:
     pronunciation:
     - value: baɪˈnəʊ.mi.əl
@@ -35832,15 +35698,6 @@ binomial:
     sense:
     - id: 'binomial%1:09:00::'
       synset: 06046036-n
-  s:
-    pronunciation:
-    - value: baɪˈnəʊ.mi.əl
-      variety: GB
-    - value: baɪˈnoʊ.mi.əl
-      variety: US
-    sense:
-    - id: binomial%5:00:00:onymous:00
-      synset: 00121993-s
 binomial distribution:
   n:
     sense:
@@ -36105,8 +35962,6 @@ biogenic:
       pertainym:
       - 'biology%1:19:00::'
       synset: 02676202-a
-  s:
-    sense:
     - id: biogenic%5:00:00:essential:00
       synset: 00904335-s
 biogenous:
@@ -36484,11 +36339,6 @@ bionic:
       pertainym:
       - 'bionics%1:09:00::'
       synset: 02677139-a
-  s:
-    pronunciation:
-    - value: ˈbɪˌɒn.ɪk
-      variety: GB
-    sense:
     - id: bionic%5:00:00:artificial:00
       synset: 01576402-s
 bionic man:
@@ -37804,6 +37654,10 @@ bisexual:
       - 'bisexuality%1:04:00::'
       id: 'bisexual%3:00:00::'
       synset: 01205819-a
+    - derivation:
+      - 'bisexuality%1:07:00::'
+      id: bisexual%5:00:00:androgynous:00
+      synset: 01482214-s
   n:
     pronunciation:
     - value: baɪˈsɛk.sju.əl
@@ -37815,17 +37669,6 @@ bisexual:
       - 'bisexual%3:00:00::'
       id: 'bisexual%1:18:00::'
       synset: 09876413-n
-  s:
-    pronunciation:
-    - value: baɪˈsɛk.sju.əl
-      variety: GB
-    - value: baɪˈsɛk.ʃu.əl
-      variety: US
-    sense:
-    - derivation:
-      - 'bisexuality%1:07:00::'
-      id: bisexual%5:00:00:androgynous:00
-      synset: 01482214-s
 bisexual person:
   n:
     sense:
@@ -38946,28 +38789,6 @@ black:
       - 'white%3:00:02::'
       id: 'black%3:00:02::'
       synset: 00243558-a
-  n:
-    pronunciation:
-    - value: blæk
-    sense:
-    - antonym:
-      - 'white%1:07:00::'
-      derivation:
-      - 'black%2:30:00::'
-      id: 'black%1:07:00::'
-      synset: 04967454-n
-    - id: 'black%1:26:00::'
-      synset: 14007292-n
-    - antonym:
-      - 'white%1:06:01::'
-      id: 'black%1:06:01::'
-      synset: 02849498-n
-    - id: 'black%1:06:00::'
-      synset: 02849379-n
-  s:
-    pronunciation:
-    - value: blæk
-    sense:
     - id: black%5:00:00:angry:00
       synset: 00115608-s
     - id: black%5:00:00:hopeless:00
@@ -38998,6 +38819,24 @@ black:
       - 'blackness%1:07:00::'
       id: black%5:00:00:dirty:01
       synset: 00422521-s
+  n:
+    pronunciation:
+    - value: blæk
+    sense:
+    - antonym:
+      - 'white%1:07:00::'
+      derivation:
+      - 'black%2:30:00::'
+      id: 'black%1:07:00::'
+      synset: 04967454-n
+    - id: 'black%1:26:00::'
+      synset: 14007292-n
+    - antonym:
+      - 'white%1:06:01::'
+      id: 'black%1:06:01::'
+      synset: 02849498-n
+    - id: 'black%1:06:00::'
+      synset: 02849379-n
   v:
     pronunciation:
     - value: blæk
@@ -39900,8 +39739,6 @@ black-and-white:
       - 'color%3:00:00::'
       id: 'black-and-white%3:00:00::'
       synset: 00395392-a
-  s:
-    sense:
     - id: black-and-white%5:00:00:divided:00
       synset: 02489810-s
 black-backed gull:
@@ -40841,10 +40678,6 @@ bladed:
       pertainym:
       - 'blade%1:20:00::'
       synset: 03061047-a
-  s:
-    pronunciation:
-    - value: ˈbleɪdɪd
-    sense:
     - id: bladed%5:00:00:thin:01
       synset: 02421528-s
 bladelike:
@@ -42437,8 +42270,6 @@ blemished:
       - 'unblemished%3:00:00::'
       id: 'blemished%3:00:00::'
       synset: 00246808-a
-  s:
-    sense:
     - id: blemished%5:00:00:imperfect:00
       synset: 01757051-s
 blench:
@@ -42625,10 +42456,6 @@ blessed:
       - 'cursed%3:00:00::'
       id: 'blessed%3:00:00::'
       synset: 00673977-a
-  s:
-    pronunciation:
-    - value: ˈblɛsɪd
-    sense:
     - id: blessed%5:00:01:cursed:00
       synset: 00673178-s
     - id: blessed%5:00:01:holy:00
@@ -42802,6 +42629,10 @@ blind:
       - 'blindness%1:26:00::'
       id: 'blind%3:00:00::'
       synset: 02166241-a
+    - id: blind%5:00:00:unperceptive:00
+      synset: 01750714-s
+    - id: blind%5:00:00:irrational:00
+      synset: 01933053-s
   n:
     pronunciation:
     - value: blaɪnd
@@ -42817,14 +42648,6 @@ blind:
       synset: 02854358-n
     - id: 'blind%1:10:00::'
       synset: 06773219-n
-  s:
-    pronunciation:
-    - value: blaɪnd
-    sense:
-    - id: blind%5:00:00:unperceptive:00
-      synset: 01750714-s
-    - id: blind%5:00:00:irrational:00
-      synset: 01933053-s
   v:
     pronunciation:
     - value: blaɪnd
@@ -44402,8 +44225,6 @@ bloodless:
       - 'bloody%3:00:00::'
       id: 'bloodless%3:00:00::'
       synset: 00250299-a
-  s:
-    sense:
     - id: bloodless%5:00:00:dead:01
       synset: 00097092-s
     - id: bloodless%5:00:00:spiritless:00
@@ -44567,6 +44388,9 @@ bloody:
       - 'bloodiness%1:07:00::'
       id: 'bloody%3:00:00::'
       synset: 00248306-a
+    - adjposition: a
+      id: bloody%5:00:00:unmitigated:00
+      synset: 01524775-s
   r:
     pronunciation:
     - value: ˈblʌ.di
@@ -44574,17 +44398,6 @@ bloody:
     sense:
     - id: 'bloody%4:02:00::'
       synset: 00025503-r
-  s:
-    form:
-    - bloodier
-    - bloodiest
-    pronunciation:
-    - value: ˈblʌ.di
-      variety: US
-    sense:
-    - adjposition: a
-      id: bloody%5:00:00:unmitigated:00
-      synset: 01524775-s
   v:
     form:
     - bloodied
@@ -46114,8 +45927,6 @@ blue-collar:
       - 'white-collar%3:00:00::'
       id: 'blue-collar%3:00:00::'
       synset: 02567490-a
-  s:
-    sense:
     - id: blue-collar%5:00:00:lower-class:00
       synset: 00260966-s
 blue-eyed:
@@ -47963,8 +47774,6 @@ bodied:
       - 'unbodied%3:00:00::'
       id: 'bodied%3:00:00::'
       synset: 00630690-a
-  s:
-    sense:
     - id: bodied%5:00:00:corporeal:00
       synset: 00633307-s
 bodiless:
@@ -47988,6 +47797,12 @@ bodily:
       pertainym:
       - 'body%1:08:00::'
       synset: 02677980-a
+    - id: bodily%5:00:00:physical:00
+      synset: 01783480-s
+    - derivation:
+      - 'body%1:08:00::'
+      id: bodily%5:00:00:corporeal:00
+      synset: 00633170-s
   r:
     pronunciation:
     - value: ˈbɑdɪli
@@ -47999,19 +47814,6 @@ bodily:
       pertainym:
       - 'bodily%3:01:01::'
       synset: 00227970-r
-  s:
-    pronunciation:
-    - value: ˈbɑdɪli
-      variety: US
-    - value: ˈbɒdɪli
-      variety: GB
-    sense:
-    - id: bodily%5:00:00:physical:00
-      synset: 01783480-s
-    - derivation:
-      - 'body%1:08:00::'
-      id: bodily%5:00:00:corporeal:00
-      synset: 00633170-s
 bodily cavity:
   n:
     sense:
@@ -48918,18 +48720,16 @@ bold:
       - 'boldness%1:07:00::'
       id: 'bold%3:00:00::'
       synset: 00250587-a
-  n:
-    sense:
-    - id: 'bold%1:10:00::'
-      synset: 06840269-n
-  s:
-    sense:
     - derivation:
       - 'boldness%1:07:01::'
       id: bold%5:00:00:conspicuous:00
       synset: 00582232-s
     - id: bold%5:00:00:steep:00
       synset: 01148907-s
+  n:
+    sense:
+    - id: 'bold%1:10:00::'
+      synset: 06840269-n
 bold face:
   n:
     sense:
@@ -50232,8 +50032,6 @@ boney:
       - 'bone%1:08:00::'
       id: 'boney%3:00:00::'
       synset: 00296523-a
-  s:
-    sense:
     - derivation:
       - 'boniness%1:07:00::'
       - 'bonyness%1:07:00::'
@@ -50464,16 +50262,6 @@ bony:
       - 'bone%1:08:00::'
       id: 'bony%3:00:00::'
       synset: 00296523-a
-  s:
-    form:
-    - bonier
-    - boniest
-    pronunciation:
-    - value: ˈbəʊni
-      variety: GB
-    - value: ˈboʊni
-      variety: US
-    sense:
     - derivation:
       - 'boniness%1:07:00::'
       - 'bonyness%1:07:00::'
@@ -51958,13 +51746,6 @@ boreal:
       pertainym:
       - 'north%1:24:00::'
       synset: 03145081-a
-  s:
-    pronunciation:
-    - value: ˈbɔːɹɪəl
-      variety: GB
-    - value: ˈbɔɹi.əl
-      variety: US
-    sense:
     - id: boreal%5:00:00:northern:01
       synset: 01609035-s
 boreas:
@@ -52071,8 +51852,6 @@ born:
       - 'unborn%3:00:00::'
       id: 'born%3:00:00::'
       synset: 01737711-a
-  s:
-    sense:
     - adjposition: p
       id: born%5:00:00:intelligent:00
       synset: 01338661-s
@@ -53007,6 +52786,8 @@ bottom:
       - 'top%3:00:00::'
       id: 'bottom%3:00:00::'
       synset: 02449895-a
+    - id: bottom%5:00:00:worst:00
+      synset: 00231570-s
   n:
     pronunciation:
     - value: ˈbɒtəm
@@ -53036,15 +52817,6 @@ bottom:
       synset: 09250335-n
     - id: 'bottom%1:06:00::'
       synset: 02881464-n
-  s:
-    pronunciation:
-    - value: ˈbɒtəm
-      variety: GB
-    - value: ˈbɑtəm
-      variety: US
-    sense:
-    - id: bottom%5:00:00:worst:00
-      synset: 00231570-s
   v:
     pronunciation:
     - value: ˈbɒtəm
@@ -53204,13 +52976,6 @@ bottomless:
       - 'bottomed%3:00:00::'
       id: 'bottomless%3:00:00::'
       synset: 02452073-a
-  s:
-    pronunciation:
-    - value: ˈbɒtm̩.ləs
-      variety: GB
-    - value: ˈbaɾm̩lɨs
-      variety: US
-    sense:
     - derivation:
       - 'bottomlessness%1:07:00::'
       id: bottomless%5:00:00:deep:01
@@ -53634,6 +53399,20 @@ bound:
       - 'unbound%3:00:02::'
       id: 'bound%3:00:02::'
       synset: 00257502-a
+    - adjposition: p
+      id: bound%5:00:01:certain:03
+      synset: 00341524-s
+    - id: bound%5:00:00:treated:02
+      synset: 01962316-s
+    - id: bound%5:00:00:oriented:00
+      synset: 01687482-s
+    - id: bound%5:00:00:sworn:00
+      synset: 02380063-s
+    - id: bound%5:00:00:unfree:00
+      synset: 01068495-s
+    - adjposition: p
+      id: bound%5:00:00:constipated:00
+      synset: 00641418-s
   n:
     sense:
     - derivation:
@@ -53653,22 +53432,6 @@ bound:
       - 'bound%2:38:00::'
       id: 'bound%1:04:00::'
       synset: 00121022-n
-  s:
-    sense:
-    - adjposition: p
-      id: bound%5:00:01:certain:03
-      synset: 00341524-s
-    - id: bound%5:00:00:treated:02
-      synset: 01962316-s
-    - id: bound%5:00:00:oriented:00
-      synset: 01687482-s
-    - id: bound%5:00:00:sworn:00
-      synset: 02380063-s
-    - id: bound%5:00:00:unfree:00
-      synset: 01068495-s
-    - adjposition: p
-      id: bound%5:00:00:constipated:00
-      synset: 00641418-s
   v:
     sense:
     - derivation:
@@ -54086,6 +53849,8 @@ bovine:
       pertainym:
       - 'genus_bos%1:05:00::'
       synset: 02853070-a
+    - id: bovine%5:00:00:dull:03
+      synset: 00810847-s
   n:
     pronunciation:
     - value: ˈbəʊ.vaɪn
@@ -54095,15 +53860,6 @@ bovine:
     sense:
     - id: 'bovine%1:05:00::'
       synset: 02404662-n
-  s:
-    pronunciation:
-    - value: ˈbəʊ.vaɪn
-      variety: GB
-    - value: ˈboʊvaɪn
-      variety: US
-    sense:
-    - id: bovine%5:00:00:dull:03
-      synset: 00810847-s
 bovine spongiform encephalitis:
   n:
     sense:
@@ -56735,8 +56491,6 @@ branded:
       - 'unbranded%3:00:00::'
       id: 'branded%3:00:00::'
       synset: 01484709-a
-  s:
-    sense:
     - id: branded%5:00:00:proprietary:00
       synset: 01113962-s
 branding:
@@ -56999,14 +56753,6 @@ brassy:
       pertainym:
       - 'brass%1:06:00::'
       synset: 02681116-a
-  s:
-    form:
-    - brassier
-    - brassiest
-    pronunciation:
-    - value: ˈbɹæs.i
-      variety: US
-    sense:
     - id: brassy%5:00:00:tasteless:02
       synset: 02402358-s
     - derivation:
@@ -57094,6 +56840,12 @@ brave:
       - 'braveness%1:07:00::'
       id: 'brave%3:00:00::'
       synset: 00263658-a
+    - derivation:
+      - 'braveness%1:07:00::'
+      id: brave%5:00:00:bold:00
+      synset: 00250985-s
+    - id: brave%5:00:00:colorful:03
+      synset: 00408228-s
   n:
     pronunciation:
     - value: bɹeɪv
@@ -57106,16 +56858,6 @@ brave:
       - 'brave%2:42:00::'
       id: 'brave%1:14:00::'
       synset: 07961030-n
-  s:
-    pronunciation:
-    - value: bɹeɪv
-    sense:
-    - derivation:
-      - 'braveness%1:07:00::'
-      id: brave%5:00:00:bold:00
-      synset: 00250985-s
-    - id: brave%5:00:00:colorful:03
-      synset: 00408228-s
   v:
     pronunciation:
     - value: bɹeɪv
@@ -57311,10 +57053,6 @@ brazen:
       pertainym:
       - 'brass%1:27:00::'
       synset: 02916798-a
-  s:
-    pronunciation:
-    - value: ˈbɹeɪzən
-    sense:
     - derivation:
       - 'brazenness%1:07:00::'
       id: brazen%5:00:00:unashamed:00
@@ -59253,10 +58991,6 @@ breathless:
       - 'breathlessness%1:26:00::'
       id: 'breathless%3:00:00::'
       synset: 00268737-a
-  s:
-    pronunciation:
-    - value: ˈbɹɛθləs
-    sense:
     - id: breathless%5:00:00:exciting:00
       synset: 00924610-s
     - derivation:
@@ -60503,12 +60237,6 @@ bright:
       - 'brightness%1:07:02::'
       id: 'bright%3:00:02::'
       synset: 00285796-a
-  r:
-    sense:
-    - id: 'bright%4:02:00::'
-      synset: 00077434-r
-  s:
-    sense:
     - derivation:
       - 'brightness%1:07:00::'
       id: bright%5:00:00:colorful:00
@@ -60535,6 +60263,10 @@ bright:
       - 'brightness%1:09:00::'
       id: bright%5:00:00:auspicious:00
       synset: 00177648-s
+  r:
+    sense:
+    - id: 'bright%4:02:00::'
+      synset: 00077434-r
 bright as a new penny:
   s:
     sense:
@@ -61757,22 +61489,6 @@ broad:
       - 'broadness%1:07:00::'
       id: 'broad%3:00:04::'
       synset: 02571278-a
-  n:
-    pronunciation:
-    - value: bɹɔːd
-      variety: GB
-    - value: bɹɔd
-      variety: US
-    sense:
-    - id: 'broad%1:18:00::'
-      synset: 09895129-n
-  s:
-    pronunciation:
-    - value: bɹɔːd
-      variety: GB
-    - value: bɹɔd
-      variety: US
-    sense:
     - id: broad%5:00:00:comprehensive:00
       synset: 00528239-s
     - id: broad%5:00:00:general:00
@@ -61790,6 +61506,15 @@ broad:
       synset: 01290162-s
     - id: broad%5:00:00:broad-minded:00
       synset: 00287703-s
+  n:
+    pronunciation:
+    - value: bɹɔːd
+      variety: GB
+    - value: bɹɔd
+      variety: US
+    sense:
+    - id: 'broad%1:18:00::'
+      synset: 09895129-n
 broad arrow:
   n:
     sense:
@@ -62429,10 +62154,6 @@ broken:
       - 'unbroken%3:00:03::'
       id: 'broken%3:00:03::'
       synset: 00290460-a
-  s:
-    pronunciation:
-    - value: ˈbɹəʊkən
-    sense:
     - id: broken%5:00:00:humble:00
       synset: 01899370-s
     - id: broken%5:00:00:tame:01
@@ -62663,11 +62384,6 @@ bromidic:
       pertainym:
       - 'bromide%1:10:00::'
       synset: 02682419-a
-  s:
-    pronunciation:
-    - value: bɹoʊˈmɪdɪk
-      variety: US
-    sense:
     - id: bromidic%5:00:01:unoriginal:00
       synset: 01693676-s
 brominate:
@@ -65216,16 +64932,14 @@ bucolic:
       pertainym:
       - 'shepherd%1:18:00::'
       synset: 02906296-a
+    - id: bucolic%5:00:01:rural:00
+      synset: 02058608-s
   n:
     sense:
     - id: 'bucolic%1:18:00::'
       synset: 10430413-n
     - id: 'bucolic%1:10:00::'
       synset: 06391062-n
-  s:
-    sense:
-    - id: bucolic%5:00:01:rural:00
-      synset: 02058608-s
 bud:
   n:
     sense:
@@ -66400,8 +66114,6 @@ bulging:
     sense:
     - id: 'bulging%3:00:06::'
       synset: 00539559-a
-  s:
-    sense:
     - id: bulging%5:00:00:protrusive:00
       synset: 01356466-s
 bulgur:
@@ -67540,13 +67252,6 @@ bumpy:
       - 'bump%1:11:00::'
       id: 'bumpy%3:00:00::'
       synset: 02251311-a
-  s:
-    form:
-    - bumpier
-    - bumpiest
-    pronunciation:
-    - value: ˈbʌmpi
-    sense:
     - derivation:
       - 'bumpiness%1:07:00::'
       id: bumpy%5:00:02:rough:00
@@ -68344,8 +68049,6 @@ burdened:
       - 'unburdened%3:00:00::'
       id: 'burdened%3:00:00::'
       synset: 00872769-a
-  s:
-    sense:
     - id: burdened%5:00:00:encumbered:00
       synset: 00871549-s
 burdenless:
@@ -70593,13 +70296,6 @@ busy:
       - 'busyness%1:26:00::'
       id: 'busy%3:00:00::'
       synset: 00293803-a
-  s:
-    form:
-    - busier
-    - busiest
-    pronunciation:
-    - value: ˈbɪzi
-    sense:
     - id: busy%5:00:00:fancy:00
       synset: 01799712-s
     - id: busy%5:00:00:intrusive:01

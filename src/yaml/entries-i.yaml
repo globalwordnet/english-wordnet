@@ -5576,6 +5576,15 @@ ideal:
       pertainym:
       - 'idealism%1:09:00::'
       synset: 02756056-a
+    - derivation:
+      - 'ideality%1:07:00::'
+      id: ideal%5:00:00:perfect:00
+      synset: 01755699-s
+    - derivation:
+      - 'idea%1:09:00::'
+      - 'ideality%1:07:00::'
+      id: ideal%5:00:00:abstract:00
+      synset: 00012708-s
   n:
     pronunciation:
     - value: aɪˈdɪəl
@@ -5589,19 +5598,6 @@ ideal:
       synset: 05932328-n
     - id: 'ideal%1:18:00::'
       synset: 10344909-n
-  s:
-    pronunciation:
-    - value: aɪˈdɪəl
-    sense:
-    - derivation:
-      - 'ideality%1:07:00::'
-      id: ideal%5:00:00:perfect:00
-      synset: 01755699-s
-    - derivation:
-      - 'idea%1:09:00::'
-      - 'ideality%1:07:00::'
-      id: ideal%5:00:00:abstract:00
-      synset: 00012708-s
 ideal gas:
   n:
     sense:
@@ -5678,8 +5674,6 @@ idealistic:
       pertainym:
       - 'idealism%1:09:00::'
       synset: 02756056-a
-  s:
-    sense:
     - derivation:
       - 'idealism%1:07:02::'
       id: idealistic%5:00:00:noble:01
@@ -5791,10 +5785,6 @@ identical:
       - 'identicalness%1:07:00::'
       id: 'identical%3:00:00::'
       synset: 00293314-a
-  s:
-    pronunciation:
-    - value: ɪˈdɛntɪkl̩
-    sense:
     - derivation:
       - 'identity%1:07:02::'
       - 'identicalness%1:07:00::'
@@ -6077,8 +6067,6 @@ ideological:
       pertainym:
       - 'ideology%1:09:01::'
       synset: 02756327-a
-  s:
-    sense:
     - derivation:
       - 'ideology%1:09:03::'
       id: ideological%5:00:00:abstract:00
@@ -6344,16 +6332,6 @@ idle:
       - 'idleness%1:07:00::'
       id: 'idle%3:00:00::'
       synset: 00295041-a
-  n:
-    pronunciation:
-    - value: ˈaɪd(ə)l
-    sense:
-    - id: 'idle%1:26:00::'
-      synset: 14033089-n
-  s:
-    pronunciation:
-    - value: ˈaɪd(ə)l
-    sense:
     - derivation:
       - 'idleness%1:07:01::'
       id: idle%5:00:00:unsupported:02
@@ -6372,6 +6350,12 @@ idle:
       - 'idleness%1:04:00::'
       id: idle%5:00:00:unemployed:00
       synset: 00868194-s
+  n:
+    pronunciation:
+    - value: ˈaɪd(ə)l
+    sense:
+    - id: 'idle%1:26:00::'
+      synset: 14033089-n
   v:
     pronunciation:
     - value: ˈaɪd(ə)l
@@ -6516,8 +6500,6 @@ idolatrous:
       pertainym:
       - 'idolatry%1:04:00::'
       synset: 02942409-a
-  s:
-    sense:
     - id: idolatrous%5:00:00:loving:00
       synset: 01468855-s
 idolatrously:
@@ -6710,10 +6692,6 @@ igneous:
       - 'aqueous%3:00:00::'
       id: 'igneous%3:00:00::'
       synset: 01357773-a
-  s:
-    pronunciation:
-    - value: ˈɪɡni.əs
-    sense:
     - id: igneous%5:00:00:hot:01
       synset: 01252042-s
 igneous rock:
@@ -6879,11 +6857,6 @@ ignoble:
       - 'ignobleness%1:07:00::'
       id: 'ignoble%3:00:01::'
       synset: 01593624-a
-  s:
-    pronunciation:
-    - value: ɪɡˈnəʊbəl
-      variety: GB
-    sense:
     - derivation:
       - 'ignobleness%1:07:00::'
       id: ignoble%5:00:00:lowborn:00
@@ -7202,6 +7175,14 @@ ill:
       - 'illness%1:26:00::'
       id: 'ill%3:00:01::'
       synset: 02552072-a
+    - id: ill%5:00:00:harmful:00
+      synset: 01165811-s
+    - id: ill%5:00:00:bad:00
+      synset: 01131841-s
+    - id: ill%5:00:00:hostile:01
+      synset: 01248878-s
+    - id: ill%5:00:00:unpropitious:00
+      synset: 00179426-s
   n:
     pronunciation:
     - value: ɪl
@@ -7222,18 +7203,6 @@ ill:
       synset: 00013698-r
     - id: 'ill%4:02:01::'
       synset: 00012378-r
-  s:
-    pronunciation:
-    - value: ɪl
-    sense:
-    - id: ill%5:00:00:harmful:00
-      synset: 01165811-s
-    - id: ill%5:00:00:bad:00
-      synset: 01131841-s
-    - id: ill%5:00:00:hostile:01
-      synset: 01248878-s
-    - id: ill%5:00:00:unpropitious:00
-      synset: 00179426-s
 ill at ease:
   s:
     sense:
@@ -7539,11 +7508,6 @@ illative:
       pertainym:
       - 'inference%1:09:00::'
       synset: 02759724-a
-  s:
-    pronunciation:
-    - value: ɪˈleɪtɪv
-      variety: GB
-    sense:
     - id: illative%5:00:02:deductive:00
       synset: 01300082-s
     - id: illative%5:00:00:deductive:00
@@ -7654,18 +7618,14 @@ illegitimate:
       - 'legitimate%3:00:00::'
       id: 'illegitimate%3:00:00::'
       synset: 01410437-a
+    - id: illegitimate%5:00:00:illegal:00
+      synset: 01406764-s
   n:
     pronunciation:
     - value: ɪlɪˈdʒɪtɪmət
     sense:
     - id: 'illegitimate%1:18:00::'
       synset: 09862211-n
-  s:
-    pronunciation:
-    - value: ɪlɪˈdʒɪtɪmət
-    sense:
-    - id: illegitimate%5:00:00:illegal:00
-      synset: 01406764-s
 illegitimate child:
   n:
     sense:
@@ -7721,10 +7681,6 @@ illicit:
       - 'licit%3:00:00::'
       id: 'illicit%3:00:00::'
       synset: 01554929-a
-  s:
-    pronunciation:
-    - value: ɪˈlɪsɪt
-    sense:
     - derivation:
       - 'illicitness%1:07:00::'
       id: illicit%5:00:00:illegal:00
@@ -7789,18 +7745,14 @@ illiterate:
       - 'literate%3:00:01::'
       id: 'illiterate%3:00:01::'
       synset: 01424364-a
+    - id: illiterate%5:00:00:uneducated:00
+      synset: 00834520-s
   n:
     pronunciation:
     - value: ɪˈlɪtəɹət
     sense:
     - id: 'illiterate%1:18:00::'
       synset: 10218722-n
-  s:
-    pronunciation:
-    - value: ɪˈlɪtəɹət
-    sense:
-    - id: illiterate%5:00:00:uneducated:00
-      synset: 00834520-s
 illiterate person:
   n:
     sense:
@@ -7835,8 +7787,6 @@ illogical:
       - 'illogicality%1:07:00::'
       id: 'illogical%3:00:00::'
       synset: 01433720-a
-  s:
-    sense:
     - derivation:
       - 'illogicalness%1:07:00::'
       id: illogical%5:00:00:incoherent:00
@@ -8797,10 +8747,6 @@ immanent:
       - 'transeunt%3:00:00::'
       id: 'immanent%3:00:00::'
       synset: 01277020-a
-  s:
-    pronunciation:
-    - value: ˈɪmənənt
-    sense:
     - derivation:
       - 'immanency%1:26:00::'
       - 'immanence%1:26:00::'
@@ -8828,11 +8774,6 @@ immaterial:
       - 'immateriality%1:07:00::'
       id: 'immaterial%3:00:01::'
       synset: 00630251-a
-  s:
-    pronunciation:
-    - value: ˌɪməˈtɪɹi.əl
-      variety: US
-    sense:
     - derivation:
       - 'immateriality%1:24:00::'
       id: immaterial%5:00:00:irrelevant:00
@@ -8949,10 +8890,6 @@ immeasurable:
       - 'measurable%3:00:00::'
       id: 'immeasurable%3:00:00::'
       synset: 01502441-a
-  s:
-    pronunciation:
-    - value: ɪˈmɛʒəɹəbəl
-    sense:
     - id: immeasurable%5:00:00:incalculable:00
       synset: 00303247-s
 immeasurably:
@@ -8995,13 +8932,6 @@ immediate:
       - 'immediateness%1:07:02::'
       id: 'immediate%3:00:00::'
       synset: 00773875-a
-  s:
-    pronunciation:
-    - value: ɪˈmi.di.ɪt
-      variety: US
-    - value: ɪˈmiːdɪət
-      variety: GB
-    sense:
     - derivation:
       - 'immediateness%1:07:01::'
       id: immediate%5:00:00:present:01
@@ -9326,8 +9256,6 @@ immobile:
       - 'immobilize%2:30:00::'
       id: 'immobile%3:00:00::'
       synset: 01529235-a
-  s:
-    sense:
     - derivation:
       - 'immobility%1:26:00::'
       id: immobile%5:00:00:fixed:00
@@ -9561,10 +9489,6 @@ immoral:
       - 'immorality%1:07:00::'
       id: 'immoral%3:00:00::'
       synset: 01553334-a
-  s:
-    pronunciation:
-    - value: ɪˈmɒrəl
-    sense:
     - derivation:
       - 'immorality%1:07:00::'
       id: immoral%5:00:00:wrong:01
@@ -9755,18 +9679,6 @@ immune:
       pertainym:
       - 'immunity%1:26:00::'
       synset: 02756634-a
-  n:
-    pronunciation:
-    - value: ɪˈmjuːn
-      variety: US
-    sense:
-    - id: 'immune%1:18:00::'
-      synset: 10219402-n
-  s:
-    pronunciation:
-    - value: ɪˈmjuːn
-      variety: US
-    sense:
     - derivation:
       - 'immunity%1:04:00::'
       id: immune%5:00:00:exempt:00
@@ -9779,6 +9691,13 @@ immune:
       - 'immunity%1:07:00::'
       id: immune%5:00:00:unaffected:00
       synset: 00072889-s
+  n:
+    pronunciation:
+    - value: ɪˈmjuːn
+      variety: US
+    sense:
+    - id: 'immune%1:18:00::'
+      synset: 10219402-n
 immune carrier:
   n:
     sense:
@@ -10174,8 +10093,6 @@ immutable:
       - 'immutability%1:07:00::'
       id: 'immutable%3:00:00::'
       synset: 00357728-a
-  s:
-    sense:
     - id: immutable%5:00:00:constant:00
       synset: 00585950-s
 immutableness:
@@ -10307,8 +10224,6 @@ impaired:
       - 'unimpaired%3:00:00::'
       id: 'impaired%3:00:00::'
       synset: 01277371-a
-  s:
-    sense:
     - id: impaired%5:00:00:unfit:01
       synset: 01021856-s
 impairer:
@@ -10402,8 +10317,6 @@ impalpable:
       - 'palpable%3:00:00::'
       id: 'impalpable%3:00:00::'
       synset: 01721906-a
-  s:
-    sense:
     - id: impalpable%5:00:00:imperceptible:00
       synset: 01753200-s
 impalpably:
@@ -10600,10 +10513,6 @@ impatient:
       - 'impatience%1:07:00::'
       id: 'impatient%3:00:00::'
       synset: 01741490-a
-  s:
-    pronunciation:
-    - value: ɪmˈpeɪʃənt
-    sense:
     - adjposition: p
       derivation:
       - 'impatience%1:12:00::'
@@ -10886,10 +10795,6 @@ impenetrable:
       - 'impenetrability%1:07:00::'
       id: 'impenetrable%3:00:00::'
       synset: 01776177-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɛnətɹəbəl
-    sense:
     - id: impenetrable%5:00:00:thick:02
       synset: 02425186-s
     - derivation:
@@ -10929,10 +10834,6 @@ impenitent:
       - 'impenitence%1:07:00::'
       id: 'impenitent%3:00:00::'
       synset: 01748158-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɛnɪtənt
-    sense:
     - id: impenitent%5:00:00:unregenerate:00
       synset: 01964665-s
 impenitently:
@@ -11045,16 +10946,14 @@ imperfect:
       - 'imperfectness%1:26:00::'
       id: 'imperfect%3:00:00::'
       synset: 01756665-a
-  n:
-    sense:
-    - id: 'imperfect%1:24:00::'
-      synset: 13827946-n
-  s:
-    sense:
     - derivation:
       - 'imperfectness%1:26:00::'
       id: imperfect%5:00:00:human:00
       synset: 01262463-s
+  n:
+    sense:
+    - id: 'imperfect%1:24:00::'
+      synset: 13827946-n
 imperfect tense:
   n:
     sense:
@@ -11149,6 +11048,10 @@ imperial:
       pertainym:
       - 'emperor%1:18:00::'
       synset: 02757669-a
+    - derivation:
+      - 'emperor%1:18:00::'
+      id: imperial%5:00:00:noble:02
+      synset: 01595801-s
   n:
     pronunciation:
     - value: ɪmˈpɪ.ɹi.əl
@@ -11157,14 +11060,6 @@ imperial:
       synset: 05269498-n
     - id: 'imperial%1:06:00::'
       synset: 03568791-n
-  s:
-    pronunciation:
-    - value: ɪmˈpɪ.ɹi.əl
-    sense:
-    - derivation:
-      - 'emperor%1:18:00::'
-      id: imperial%5:00:00:noble:02
-      synset: 01595801-s
 imperial Japanese morning glory:
   n:
     sense:
@@ -11314,8 +11209,6 @@ imperishable:
       - 'imperishability%1:07:00::'
       id: 'imperishable%3:00:00::'
       synset: 01758424-a
-  s:
-    sense:
     - id: imperishable%5:00:00:permanent:00
       synset: 01759375-s
 imperishableness:
@@ -11370,8 +11263,6 @@ impermanent:
       - 'impermanence%1:07:00::'
       id: 'impermanent%3:00:00::'
       synset: 01760139-a
-  s:
-    sense:
     - derivation:
       - 'impermanency%1:07:00::'
       - 'impermanence%1:07:00::'
@@ -11429,10 +11320,6 @@ impermissible:
       - 'impermissibility%1:07:00::'
       id: 'impermissible%3:00:00::'
       synset: 01765698-a
-  s:
-    pronunciation:
-    - value: ˌɪmpɝˈmɪsɪbl
-    sense:
     - derivation:
       - 'impermissibility%1:07:00::'
       id: impermissible%5:00:00:inadmissible:00
@@ -11456,11 +11343,6 @@ impersonal:
       - 'personal%3:00:00::'
       id: 'impersonal%3:00:00::'
       synset: 01774089-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɝsənəl
-      variety: US
-    sense:
     - id: impersonal%5:00:00:objective:00
       synset: 01619777-s
 impersonally:
@@ -11749,10 +11631,6 @@ impious:
       - 'impiousness%1:07:00::'
       id: 'impious%3:00:00::'
       synset: 01787064-a
-  s:
-    pronunciation:
-    - value: ˈɪmpi.əs
-    sense:
     - derivation:
       - 'impiousness%1:07:00::'
       id: impious%5:00:00:disrespectful:00
@@ -12045,10 +11923,6 @@ implicit:
       - 'implicitness%1:07:00::'
       id: 'implicit%3:00:00::'
       synset: 00944754-a
-  s:
-    pronunciation:
-    - value: ɪmˈplɪsɪt
-    sense:
     - id: implicit%5:00:00:absolute:00
       synset: 00005598-s
 implicit in:
@@ -12358,13 +12232,6 @@ important:
       - 'importance%1:07:00::'
       id: 'important%3:00:02::'
       synset: 00658802-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɔːtənt
-      variety: GB
-    - value: ɪmˈpɔɹtənt
-      variety: US
-    sense:
     - derivation:
       - 'importance%1:26:00::'
       id: important%5:00:00:influential:00
@@ -12441,13 +12308,6 @@ importunate:
     sense:
     - id: 'importunate%3:00:01::'
       synset: 92266961-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɔːtjʊnət
-      variety: GB
-    - value: ɪmˈpɔɹt͡ʃənət
-      variety: US
-    sense:
     - id: importunate%5:00:00:beseeching:00
       synset: 00717749-s
 importunately:
@@ -12583,6 +12443,12 @@ impossible:
       - 'impossibility%1:26:00::'
       id: 'impossible%3:00:00::'
       synset: 01828578-a
+    - derivation:
+      - 'impossibleness%1:26:00::'
+      id: impossible%5:00:00:unthinkable:00
+      synset: 02427488-s
+    - id: impossible%5:00:00:intolerable:00
+      synset: 02445119-s
   n:
     pronunciation:
     - value: ɪmˈpɒs.ɪ.bəl
@@ -12592,19 +12458,6 @@ impossible:
     sense:
     - id: 'impossible%1:09:00::'
       synset: 05800454-n
-  s:
-    pronunciation:
-    - value: ɪmˈpɒs.ɪ.bəl
-      variety: GB
-    - value: ɪmˈpɑ.səbl
-      variety: US
-    sense:
-    - derivation:
-      - 'impossibleness%1:26:00::'
-      id: impossible%5:00:00:unthinkable:00
-      synset: 02427488-s
-    - id: impossible%5:00:00:intolerable:00
-      synset: 02445119-s
 impossible action:
   n:
     sense:
@@ -12820,8 +12673,6 @@ impractical:
       - 'practical%3:00:00::'
       id: 'impractical%3:00:00::'
       synset: 01842067-a
-  s:
-    sense:
     - derivation:
       - 'impracticality%1:07:00::'
       id: impractical%5:00:00:utopian:00
@@ -13153,10 +13004,6 @@ impressive:
       - 'impress%2:37:00::'
       id: 'impressive%3:00:00::'
       synset: 01285124-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹɛsɪv
-    sense:
     - derivation:
       - 'impressiveness%1:07:01::'
       - 'impress%2:37:01::'
@@ -13318,13 +13165,6 @@ improbable:
       - 'improbability%1:07:00::'
       id: 'improbable%3:00:00::'
       synset: 01416708-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹɑbəbl̩
-      variety: US
-    - value: ɪmˈpɹɒbəbl̩
-      variety: GB
-    sense:
     - derivation:
       - 'improbableness%1:07:00::'
       id: improbable%5:00:00:implausible:00
@@ -13390,15 +13230,6 @@ improper:
       - 'improperness%1:07:00::'
       id: 'improper%3:00:00::'
       synset: 01886613-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹɒp.ə
-      variety: GB
-    - value: ɪmˈpɹɔp.ə
-      variety: AU
-    - value: ɪmˈpɹɑ.pɚ
-      variety: US
-    sense:
     - derivation:
       - 'improperness%1:07:00::'
       id: improper%5:00:00:irregular:00
@@ -13486,10 +13317,6 @@ improved:
       - 'unimproved%3:00:00::'
       id: 'improved%3:00:00::'
       synset: 01291519-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹuːvd
-    sense:
     - id: improved%5:00:00:better:00
       synset: 00232695-s
     - id: improved%5:00:00:cleared:00
@@ -13544,10 +13371,6 @@ improvident:
       - 'improvidence%1:07:00::'
       id: 'improvident%3:00:00::'
       synset: 01901904-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹɒvɪdənt
-    sense:
     - id: improvident%5:00:00:imprudent:00
       synset: 01905809-s
 improvidently:
@@ -13645,10 +13468,6 @@ imprudent:
       - 'imprudence%1:07:00::'
       id: 'imprudent%3:00:00::'
       synset: 01905427-a
-  s:
-    pronunciation:
-    - value: ɪmˈpɹudənt
-    sense:
     - derivation:
       - 'imprudence%1:07:00::'
       id: imprudent%5:00:00:indiscreet:00
@@ -14953,10 +14772,6 @@ inaccessible:
       - 'accessible%3:00:00::'
       id: 'inaccessible%3:00:00::'
       synset: 00019912-a
-  s:
-    pronunciation:
-    - value: ˌɪnəkˈsɛsɪbl̩
-    sense:
     - derivation:
       - 'inaccessibility%1:07:00::'
       id: inaccessible%5:00:00:unavailable:00
@@ -15080,10 +14895,6 @@ inactive:
       - 'inactiveness%1:07:00::'
       id: 'inactive%3:00:01::'
       synset: 00033687-a
-  s:
-    pronunciation:
-    - value: ɪnˈæktɪv
-    sense:
     - derivation:
       - 'inactivity%1:26:00::'
       id: inactive%5:00:00:unreactive:00
@@ -15155,10 +14966,6 @@ inadequate:
       - 'inadequateness%1:07:00::'
       id: 'inadequate%3:00:00::'
       synset: 00051936-a
-  s:
-    pronunciation:
-    - value: ɪnˈædəkwɪt
-    sense:
     - derivation:
       - 'inadequateness%1:07:00::'
       id: inadequate%5:00:00:insufficient:00
@@ -15255,8 +15062,6 @@ inadvisable:
       - 'inadvisability%1:07:00::'
       id: 'inadvisable%3:00:00::'
       synset: 00068376-a
-  s:
-    sense:
     - derivation:
       - 'inadvisability%1:07:00::'
       id: inadvisable%5:00:00:inexpedient:00
@@ -15292,13 +15097,6 @@ inalienable:
       - 'alienable%3:00:00::'
       id: 'inalienable%3:00:00::'
       synset: 00094663-a
-  s:
-    pronunciation:
-    - value: ɪˈneɪ.lɪ.ə.nə.bəl
-      variety: GB
-    - value: ɪˈneɪ.li.ə.nə.bəl
-      variety: US
-    sense:
     - id: inalienable%5:00:00:indefeasible:00
       synset: 00697932-s
 inalienably:
@@ -15361,10 +15159,6 @@ inanimate:
       - 'inanimateness%1:07:00::'
       id: 'inanimate%3:00:01::'
       synset: 00119049-a
-  s:
-    pronunciation:
-    - value: ɪnˈænɪmət
-    sense:
     - derivation:
       - 'inanimateness%1:07:00::'
       id: inanimate%5:00:00:dead:01
@@ -15458,13 +15252,6 @@ inappropriate:
       - 'inappropriateness%1:07:01::'
       id: 'inappropriate%3:00:00::'
       synset: 00136789-a
-  s:
-    pronunciation:
-    - value: ˌɪnəˈpɹəʊpɹi.ət
-      variety: GB
-    - value: ˌɪnəˈpɹoʊpɹi.ət
-      variety: US
-    sense:
     - derivation:
       - 'inappropriateness%1:07:01::'
       id: inappropriate%5:00:00:incongruous:00
@@ -15579,10 +15366,6 @@ inattentive:
       - 'attentive%3:00:00::'
       id: 'inattentive%3:00:00::'
       synset: 00166125-a
-  s:
-    pronunciation:
-    - value: ˌɪn.ə.ˈtɛn.tɪv
-    sense:
     - derivation:
       - 'inattentiveness%1:07:01::'
       id: inattentive%5:00:00:negligent:00
@@ -15649,16 +15432,14 @@ inaugural:
       - 'exaugural%3:00:00::'
       id: 'inaugural%3:00:00::'
       synset: 01293889-a
+    - id: inaugural%5:00:00:opening:00
+      synset: 01012940-s
   n:
     sense:
     - id: 'inaugural%1:10:00::'
       synset: 07254737-n
     - id: 'inaugural%1:04:00::'
       synset: 00244240-n
-  s:
-    sense:
-    - id: inaugural%5:00:00:opening:00
-      synset: 01012940-s
 inaugural address:
   n:
     sense:
@@ -15720,10 +15501,6 @@ inauspicious:
       - 'inauspiciousness%1:07:00::'
       id: 'inauspicious%3:00:00::'
       synset: 00178121-a
-  s:
-    pronunciation:
-    - value: ˌɪnɔːˈspɪʃəs
-    sense:
     - derivation:
       - 'inauspiciousness%1:07:00::'
       id: inauspicious%5:00:00:unfavorable:02
@@ -15800,8 +15577,6 @@ inbred:
       - 'outbred%3:00:00::'
       id: 'inbred%3:00:00::'
       synset: 01294880-a
-  s:
-    sense:
     - id: inbred%5:00:00:native:03
       synset: 01037835-s
 inbreeding:
@@ -15821,8 +15596,6 @@ incalculable:
       - 'calculable%3:00:00::'
       id: 'incalculable%3:00:00::'
       synset: 00302637-a
-  s:
-    sense:
     - id: incalculable%5:00:00:much:00
       synset: 01558769-s
 incalescence:
@@ -15924,10 +15697,6 @@ incapable:
       - 'incapability%1:07:00::'
       id: 'incapable%3:00:02::'
       synset: 00308986-a
-  s:
-    pronunciation:
-    - value: ɪnˈkeɪpəbl̩
-    sense:
     - adjposition: p
       derivation:
       - 'incapability%1:07:00::'
@@ -16110,11 +15879,6 @@ incautious:
       - 'cautious%3:00:00::'
       id: 'incautious%3:00:00::'
       synset: 00327334-a
-  s:
-    pronunciation:
-    - value: ɪnˈkɑʃəs
-      variety: US
-    sense:
     - derivation:
       - 'incautiousness%1:07:00::'
       id: incautious%5:00:00:careless:00
@@ -16155,6 +15919,10 @@ incendiary:
       pertainym:
       - 'arson%1:04:00::'
       synset: 02758869-a
+    - id: incendiary%5:00:00:provocative:00
+      synset: 01903445-s
+    - id: incendiary%5:00:00:combustible:00
+      synset: 00475859-s
   n:
     pronunciation:
     - value: ɪnˈsɛn.dɪ.əɹ.i
@@ -16166,17 +15934,6 @@ incendiary:
       synset: 09830112-n
     - id: 'incendiary%1:06:00::'
       synset: 03571171-n
-  s:
-    pronunciation:
-    - value: ɪnˈsɛn.dɪ.əɹ.i
-      variety: GB
-    - value: ɪnˈsɛn.di.ɛɹ.i
-      variety: US
-    sense:
-    - id: incendiary%5:00:00:provocative:00
-      synset: 01903445-s
-    - id: incendiary%5:00:00:combustible:00
-      synset: 00475859-s
 incendiary bomb:
   n:
     sense:
@@ -16466,6 +16223,10 @@ incidental:
       - 'basic%3:00:00::'
       id: 'incidental%3:00:00::'
       synset: 01862869-a
+    - id: incidental%5:00:00:inessential:00
+      synset: 00906416-s
+    - id: incidental%5:00:00:subsequent:00
+      synset: 00123654-s
   n:
     pronunciation:
     - value: ɪnsɪˈdɛntəl
@@ -16474,14 +16235,6 @@ incidental:
       synset: 13327458-n
     - id: 'incidental%1:10:00::'
       synset: 06494667-n
-  s:
-    pronunciation:
-    - value: ɪnsɪˈdɛntəl
-    sense:
-    - id: incidental%5:00:00:inessential:00
-      synset: 00906416-s
-    - id: incidental%5:00:00:subsequent:00
-      synset: 00123654-s
 incidental expense:
   n:
     sense:
@@ -16925,10 +16678,6 @@ inclined:
       - 'vertical%3:00:00::'
       id: 'inclined%3:00:01::'
       synset: 01237040-a
-  s:
-    pronunciation:
-    - value: ɪnˈklaɪnd
-    sense:
     - adjposition: p
       id: inclined%5:00:00:willing:00
       synset: 02576155-s
@@ -17152,8 +16901,6 @@ incoherent:
       - 'physics%1:09:00::'
       id: 'incoherent%3:00:01::'
       synset: 00329551-a
-  s:
-    sense:
     - id: incoherent%5:00:00:inarticulate:00
       synset: 00153372-s
 incoherently:
@@ -17288,8 +17035,6 @@ incommutable:
       - 'commutable%3:00:00::'
       id: 'incommutable%3:00:00::'
       synset: 00349910-a
-  s:
-    sense:
     - derivation:
       - 'incommutability%1:07:00::'
       id: incommutable%5:00:00:unexchangeable:00
@@ -17362,10 +17107,6 @@ incompatible:
       - 'compatible%3:00:02::'
       id: 'incompatible%3:00:02::'
       synset: 00511131-a
-  s:
-    pronunciation:
-    - value: ˌɪŋkəmˈpætɪbəl
-    sense:
     - id: incompatible%5:00:00:antonymous:00
       synset: 02391140-s
     - derivation:
@@ -17426,12 +17167,6 @@ incompetent:
       - 'incompetence%1:07:00::'
       id: 'incompetent%3:00:00::'
       synset: 00513139-a
-  n:
-    sense:
-    - id: 'incompetent%1:18:00::'
-      synset: 10221982-n
-  s:
-    sense:
     - derivation:
       - 'incompetency%1:07:00::'
       - 'incompetence%1:07:00::'
@@ -17446,6 +17181,10 @@ incompetent:
       - 'incompetence%1:07:00::'
       id: incompetent%5:00:00:inadequate:00
       synset: 00052486-s
+  n:
+    sense:
+    - id: 'incompetent%1:18:00::'
+      synset: 10221982-n
 incompetent cervix:
   n:
     sense:
@@ -17476,10 +17215,6 @@ incomplete:
       - 'incompleteness%1:26:00::'
       id: 'incomplete%3:00:00::'
       synset: 00526155-a
-  s:
-    pronunciation:
-    - value: ɪn.kəm.ˈpliːt
-    sense:
     - derivation:
       - 'incompleteness%1:26:00::'
       id: incomplete%5:00:00:unfinished:01
@@ -17744,10 +17479,6 @@ inconsiderate:
       - 'inconsiderateness%1:07:00::'
       id: 'inconsiderate%3:00:00::'
       synset: 00642378-a
-  s:
-    pronunciation:
-    - value: ˌɪnkənˈsɪdəɹɪt
-    sense:
     - derivation:
       - 'inconsiderateness%1:07:00::'
       id: inconsiderate%5:00:00:thoughtless:00
@@ -17803,10 +17534,6 @@ inconsistent:
       - 'inconsistency%1:07:00::'
       id: 'inconsistent%3:00:00::'
       synset: 00580271-a
-  s:
-    pronunciation:
-    - value: ˌɪnkənˈsɪstənt
-    sense:
     - id: inconsistent%5:00:00:irreconcilable:00
       synset: 01994289-s
     - id: inconsistent%5:00:00:incongruous:00
@@ -17886,8 +17613,6 @@ incontestable:
       - 'contestable%3:00:00::'
       id: 'incontestable%3:00:00::'
       synset: 00593616-a
-  s:
-    sense:
     - id: incontestable%5:00:00:undeniable:00
       synset: 00725080-s
 incontestible:
@@ -18019,8 +17744,6 @@ inconvenient:
       - 'inconvenience%1:07:00::'
       id: 'inconvenient%3:00:00::'
       synset: 00607505-a
-  s:
-    sense:
     - id: inconvenient%5:00:00:inopportune:00
       synset: 01666849-s
 inconveniently:
@@ -18050,8 +17773,6 @@ inconvertible:
       - 'inconvertibility%1:07:00::'
       id: 'inconvertible%3:00:00::'
       synset: 00920321-a
-  s:
-    sense:
     - id: inconvertible%5:00:00:incommutable:00
       synset: 00350040-s
 incoordination:
@@ -18174,10 +17895,6 @@ incorrect:
       - 'incorrectness%1:07:02::'
       id: 'incorrect%3:00:00::'
       synset: 00635278-a
-  s:
-    pronunciation:
-    - value: ˌɪnkəˈɹɛkt
-    sense:
     - id: incorrect%5:00:00:improper:00
       synset: 01887577-s
     - id: incorrect%5:00:00:ungrammatical:00
@@ -18224,13 +17941,6 @@ incorrigible:
       - 'corrigible%3:00:00::'
       id: 'incorrigible%3:00:00::'
       synset: 00638296-a
-  s:
-    pronunciation:
-    - value: ɪnˈkɒɹɨdʒɨb(ə)l
-      variety: GB
-    - value: ɪnˈkɔɹɨdʒɨb(ə)l
-      variety: US
-    sense:
     - id: incorrigible%5:00:00:unmanageable:00
       synset: 01478913-s
 incorrigibly:
@@ -18250,8 +17960,6 @@ incorrupt:
       - 'incorruptness%1:07:00::'
       id: 'incorrupt%3:00:00::'
       synset: 00625237-a
-  s:
-    sense:
     - id: incorrupt%5:00:00:fresh:01
       synset: 01072130-s
 incorrupted:
@@ -18837,6 +18545,10 @@ incurable:
       - 'incurability%1:07:01::'
       id: 'incurable%3:00:00::'
       synset: 00997914-a
+    - derivation:
+      - 'incurability%1:07:02::'
+      id: incurable%5:00:00:unalterable:00
+      synset: 00350861-s
   n:
     pronunciation:
     - value: ˌɪnˈkjʊəɹəbl
@@ -18846,17 +18558,6 @@ incurable:
     sense:
     - id: 'incurable%1:18:00::'
       synset: 10222382-n
-  s:
-    pronunciation:
-    - value: ˌɪnˈkjʊəɹəbl
-      variety: GB
-    - value: ˌɪnˈkjʊɹəbl
-      variety: US
-    sense:
-    - derivation:
-      - 'incurability%1:07:02::'
-      id: incurable%5:00:00:unalterable:00
-      synset: 00350861-s
 incurableness:
   n:
     sense:
@@ -19039,8 +18740,6 @@ indecent:
       - 'indecency%1:04:01::'
       id: 'indecent%3:00:00::'
       synset: 00686462-a
-  s:
-    sense:
     - derivation:
       - 'indecency%1:07:00::'
       - 'indecency%1:04:01::'
@@ -19101,10 +18800,6 @@ indecisive:
       - 'decisive%3:00:00::'
       id: 'indecisive%3:00:00::'
       synset: 00688760-a
-  s:
-    pronunciation:
-    - value: ˌɪndɪˈsaɪsɪv
-    sense:
     - id: indecisive%5:00:00:indefinite:00
       synset: 00705563-s
 indecisively:
@@ -19144,8 +18839,6 @@ indecorous:
       - 'indecorousness%1:07:00::'
       id: 'indecorous%3:00:00::'
       synset: 00692748-a
-  s:
-    sense:
     - derivation:
       - 'indecorousness%1:07:00::'
       id: indecorous%5:00:00:improper:00
@@ -19264,10 +18957,6 @@ indefinite:
       - 'indefinity%1:07:00::'
       id: 'indefinite%3:00:00::'
       synset: 00704924-a
-  s:
-    pronunciation:
-    - value: ɪnˈdɛfɪnɪt
-    sense:
     - derivation:
       - 'indefiniteness%1:07:00::'
       id: indefinite%5:00:00:uncertain:01
@@ -19364,8 +19053,6 @@ indelicate:
     sense:
     - id: 'indelicate%3:00:02::'
       synset: 00692748-a
-  s:
-    sense:
     - id: indelicate%5:00:00:tasteless:02
       synset: 02403360-s
     - id: indelicate%5:00:00:indecent:00
@@ -19577,18 +19264,6 @@ independent:
       - 'dependent%3:00:02::'
       id: 'independent%3:00:02::'
       synset: 00733659-a
-  n:
-    pronunciation:
-    - value: ɪndɪˈpɛndənt
-    sense:
-    - id: 'independent%1:18:01::'
-      synset: 10357201-n
-    - id: 'independent%1:18:00::'
-      synset: 10130190-n
-  s:
-    pronunciation:
-    - value: ɪndɪˈpɛndənt
-    sense:
     - derivation:
       - 'independence%1:26:00::'
       - 'independency%1:26:00::'
@@ -19598,6 +19273,14 @@ independent:
       - 'independence%1:26:00::'
       id: independent%5:00:00:nonpartisan:00
       synset: 00735050-s
+  n:
+    pronunciation:
+    - value: ɪndɪˈpɛndənt
+    sense:
+    - id: 'independent%1:18:01::'
+      synset: 10357201-n
+    - id: 'independent%1:18:00::'
+      synset: 10130190-n
 independent agency:
   n:
     sense:
@@ -19666,8 +19349,6 @@ indestructible:
       - 'indestructibility%1:07:00::'
       id: 'indestructible%3:00:00::'
       synset: 00741912-a
-  s:
-    sense:
     - id: indestructible%5:00:00:imperishable:00
       synset: 01758551-s
 indeterminable:
@@ -19677,8 +19358,6 @@ indeterminable:
       - 'determinable%3:00:00::'
       id: 'indeterminable%3:00:00::'
       synset: 00742817-a
-  s:
-    sense:
     - id: indeterminable%5:00:00:incalculable:00
       synset: 00303444-s
 indeterminably:
@@ -19713,10 +19392,6 @@ indeterminate:
       - 'determinate%3:00:02::'
       id: 'indeterminate%3:00:02::'
       synset: 00745042-a
-  s:
-    pronunciation:
-    - value: ɪndɪˈtɜː(ɹ)mɪnət
-    sense:
     - derivation:
       - 'indeterminateness%1:07:00::'
       id: indeterminate%5:00:00:equivocal:00
@@ -19998,6 +19673,12 @@ indicative:
       pertainym:
       - 'indicative_mood%1:24:00::'
       synset: 03105977-a
+    - derivation:
+      - 'indicate%2:32:01::'
+      - 'indicate%2:32:02::'
+      - 'indicate%2:32:04::'
+      id: indicative%5:00:00:revealing:00
+      synset: 02098448-s
   n:
     pronunciation:
     - value: ɪnˈdɪk.ə.tɪv
@@ -20005,17 +19686,6 @@ indicative:
     sense:
     - id: 'indicative%1:24:00::'
       synset: 13823912-n
-  s:
-    pronunciation:
-    - value: ɪnˈdɪk.ə.tɪv
-      variety: US
-    sense:
-    - derivation:
-      - 'indicate%2:32:01::'
-      - 'indicate%2:32:02::'
-      - 'indicate%2:32:04::'
-      id: indicative%5:00:00:revealing:00
-      synset: 02098448-s
 indicative mood:
   n:
     sense:
@@ -20405,13 +20075,6 @@ indirect:
       - 'direct%3:00:02::'
       id: 'indirect%3:00:02::'
       synset: 00770017-a
-  s:
-    pronunciation:
-    - value: ˌɪndaɪˈɹɛkt
-      variety: GB
-    - value: ˌɪndəˈɹɛkt
-      variety: US
-    sense:
     - id: indirect%5:00:00:mediate:00
       synset: 00774552-s
     - derivation:
@@ -20522,8 +20185,6 @@ indiscernible:
       - 'discernible%3:00:00::'
       id: 'indiscernible%3:00:00::'
       synset: 00584515-a
-  s:
-    sense:
     - id: indiscernible%5:00:00:imperceptible:00
       synset: 01753420-s
 indiscipline:
@@ -20580,11 +20241,6 @@ indiscriminate:
       - 'discriminate%3:00:00::'
       id: 'indiscriminate%3:00:00::'
       synset: 00777318-a
-  s:
-    pronunciation:
-    - value: ɪn.dɪsˈkɹɪm.ɪn.ət
-      variety: GB
-    sense:
     - id: indiscriminate%5:00:00:undiscriminating:00
       synset: 00779649-s
 indiscriminately:
@@ -20626,11 +20282,6 @@ indispensable:
       - 'indispensability%1:07:00::'
       id: 'indispensable%3:00:00::'
       synset: 00906890-a
-  s:
-    pronunciation:
-    - value: ɪndɪˈspɛnsəbəl
-      variety: GB
-    sense:
     - derivation:
       - 'indispensableness%1:07:00::'
       - 'indispensability%1:07:00::'
@@ -20719,10 +20370,6 @@ indissoluble:
     sense:
     - id: 'indissoluble%3:00:00::'
       synset: 02273647-a
-  s:
-    pronunciation:
-    - value: ɪndɪˈsɒljʊbəl
-    sense:
     - id: indissoluble%5:00:00:permanent:00
       synset: 01759930-s
 indistinct:
@@ -20764,8 +20411,6 @@ indistinguishable:
       - 'distinguishable%3:00:00::'
       id: 'indistinguishable%3:00:00::'
       synset: 00585227-a
-  s:
-    sense:
     - derivation:
       - 'indistinguishability%1:07:00::'
       id: indistinguishable%5:00:00:same:00
@@ -20802,6 +20447,13 @@ individual:
       - 'individuality%1:07:00::'
       id: 'individual%3:00:00::'
       synset: 00495505-a
+    - id: individual%5:00:00:independent:00
+      synset: 00732690-s
+    - id: individual%5:00:00:unshared:00
+      synset: 02160589-s
+    - adjposition: a
+      id: individual%5:00:00:personal:00
+      synset: 01772598-s
   n:
     pronunciation:
     - value: ˌɪndɪˈvɪd͡ʒu.əl
@@ -20819,22 +20471,6 @@ individual:
       - 'individualize%2:31:00::'
       id: 'individual%1:18:00::'
       synset: 10223458-n
-  s:
-    pronunciation:
-    - value: ˌɪndɪˈvɪd͡ʒu.əl
-      variety: US
-    - value: ˌɪndɪˈvɪd͡ʒʊəl
-      variety: GB
-    - value: ˌɘndɘˈvɘd͡ʒʉ.ɘl
-      variety: NZ
-    sense:
-    - id: individual%5:00:00:independent:00
-      synset: 00732690-s
-    - id: individual%5:00:00:unshared:00
-      synset: 02160589-s
-    - adjposition: a
-      id: individual%5:00:00:personal:00
-      synset: 01772598-s
 individual retirement account:
   n:
     sense:
@@ -21132,13 +20768,6 @@ indoor:
       - 'outdoor%3:00:00::'
       id: 'indoor%3:00:00::'
       synset: 01697239-a
-  s:
-    pronunciation:
-    - value: ˈɪndɔː
-      variety: GB
-    - value: ˈɪndɔɹ
-      variety: US
-    sense:
     - id: indoor%5:00:00:interior:00
       synset: 00956317-s
 indoor garden:
@@ -21516,10 +21145,6 @@ inductive:
       - 'deductive%3:00:00::'
       id: 'inductive%3:00:00::'
       synset: 01299391-a
-  s:
-    pronunciation:
-    - value: ɪnˈdʌktɪv
-    sense:
     - id: inductive%5:00:00:causative:00
       synset: 00324911-s
 inductive reasoning:
@@ -21612,10 +21237,6 @@ indulgent:
       - 'indulgence%1:07:02::'
       id: 'indulgent%3:00:00::'
       synset: 01300436-a
-  s:
-    pronunciation:
-    - value: ɪnˈdʌldʒənt
-    sense:
     - derivation:
       - 'indulgence%1:07:02::'
       id: indulgent%5:00:00:permissive:01
@@ -21727,10 +21348,6 @@ industrial:
       - 'nonindustrial%3:00:00::'
       id: 'industrial%3:00:00::'
       synset: 01304559-a
-  s:
-    pronunciation:
-    - value: ɪnˈdʌstɹɪəl
-    sense:
     - id: industrial%5:00:00:blue-collar:00
       synset: 02567671-s
     - id: industrial%5:00:00:heavy-duty:00
@@ -22081,8 +21698,6 @@ ineffective:
       - 'ineffectiveness%1:07:00::'
       id: 'ineffective%3:00:00::'
       synset: 00839148-a
-  s:
-    sense:
     - derivation:
       - 'ineffectiveness%1:07:00::'
       id: ineffective%5:00:00:impotent:00
@@ -22119,8 +21734,6 @@ ineffectual:
       - 'ineffectuality%1:07:00::'
       id: 'ineffectual%3:00:02::'
       synset: 00839148-a
-  s:
-    sense:
     - derivation:
       - 'ineffectualness%1:07:00::'
       - 'ineffectuality%1:07:00::'
@@ -22211,10 +21824,6 @@ inefficient:
       - 'inefficiency%1:09:00::'
       id: 'inefficient%3:00:00::'
       synset: 00844441-a
-  s:
-    pronunciation:
-    - value: ˌɪn.ɪˈfɪʃ.ənt
-    sense:
     - derivation:
       - 'inefficiency%1:09:00::'
       id: inefficient%5:00:00:incompetent:00
@@ -22307,8 +21916,6 @@ ineligible:
       - 'ineligibility%1:07:00::'
       id: 'ineligible%3:00:00::'
       synset: 00856167-a
-  s:
-    sense:
     - derivation:
       - 'ineligibility%1:07:00::'
       id: ineligible%5:00:00:illegal:00
@@ -22559,16 +22166,14 @@ inessential:
       - 'inessentiality%1:07:00::'
       id: 'inessential%3:00:00::'
       synset: 00905804-a
+    - id: inessential%5:00:00:unnecessary:00
+      synset: 01586632-s
   n:
     sense:
     - antonym:
       - 'essential%1:17:00::'
       id: 'inessential%1:17:00::'
       synset: 09335551-n
-  s:
-    sense:
-    - id: inessential%5:00:00:unnecessary:00
-      synset: 01586632-s
 inessentiality:
   n:
     sense:
@@ -22607,21 +22212,17 @@ inevitable:
       - 'inevitability%1:07:00::'
       id: 'inevitable%3:00:00::'
       synset: 00343913-a
+    - derivation:
+      - 'inevitableness%1:07:00::'
+      - 'inevitability%1:07:00::'
+      id: inevitable%5:00:00:predictable:00
+      synset: 01847749-s
   n:
     pronunciation:
     - value: ɪnˈɛvɪtəbəl
     sense:
     - id: 'inevitable%1:11:00::'
       synset: 07344850-n
-  s:
-    pronunciation:
-    - value: ɪnˈɛvɪtəbəl
-    sense:
-    - derivation:
-      - 'inevitableness%1:07:00::'
-      - 'inevitability%1:07:00::'
-      id: inevitable%5:00:00:predictable:00
-      synset: 01847749-s
 inevitable accident:
   n:
     sense:
@@ -22687,8 +22288,6 @@ inexcusable:
       - 'excusable%3:00:00::'
       id: 'inexcusable%3:00:00::'
       synset: 01726477-a
-  s:
-    sense:
     - id: inexcusable%5:00:00:unpardonable:00
       synset: 01726102-s
 inexcusably:
@@ -22718,10 +22317,6 @@ inexhaustible:
       - 'exhaustible%3:00:00::'
       id: 'inexhaustible%3:00:00::'
       synset: 00928883-a
-  s:
-    pronunciation:
-    - value: ɪnɪɡˈzɔːstɪbl̩
-    sense:
     - id: inexhaustible%5:00:00:infinite:00
       synset: 01011878-s
 inexhaustibly:
@@ -22798,8 +22393,6 @@ inexpedient:
       - 'inexpedience%1:07:00::'
       id: 'inexpedient%3:00:00::'
       synset: 00935636-a
-  s:
-    sense:
     - derivation:
       - 'inexpediency%1:07:00::'
       - 'inexpedience%1:07:00::'
@@ -23122,8 +22715,6 @@ infantile:
       pertainym:
       - 'infancy%1:28:00::'
       synset: 02759609-a
-  s:
-    sense:
     - id: infantile%5:00:00:immature:02
       synset: 01496164-s
     - id: infantile%5:00:00:young:00
@@ -23321,8 +22912,6 @@ infectious:
       pertainym:
       - 'infection%1:26:00::'
       synset: 02843955-a
-  s:
-    sense:
     - derivation:
       - 'infection%1:26:00::'
       id: infectious%5:00:00:septic:00
@@ -23393,13 +22982,6 @@ infelicitous:
       - 'infelicity%1:07:00::'
       id: 'infelicitous%3:00:00::'
       synset: 01004300-a
-  s:
-    pronunciation:
-    - value: ˌɪn.fəˈlɪs.ɪ.təs
-      variety: GB
-    - value: ˌɪn.fəˈlɪs.ɪ.təs
-      variety: US
-    sense:
     - id: infelicitous%5:00:00:unfortunate:00
       synset: 01055513-s
 infelicitously:
@@ -23485,8 +23067,6 @@ inferential:
       pertainym:
       - 'inference%1:09:00::'
       synset: 02759724-a
-  s:
-    sense:
     - id: inferential%5:00:01:deductive:00
       synset: 01300273-s
     - derivation:
@@ -23523,6 +23103,12 @@ inferior:
       - 'superior%3:00:03::'
       id: 'inferior%3:00:03::'
       synset: 02357217-a
+    - id: inferior%5:00:00:bottom:00
+      synset: 02450200-s
+    - derivation:
+      - 'inferiority%1:26:00::'
+      id: inferior%5:00:00:nonstandard:02
+      synset: 02305084-s
   n:
     pronunciation:
     - value: ɪnˈfɪə.ɹi.ə
@@ -23536,19 +23122,6 @@ inferior:
       synset: 10224850-n
     - id: 'inferior%1:10:00::'
       synset: 06833078-n
-  s:
-    pronunciation:
-    - value: ɪnˈfɪə.ɹi.ə
-      variety: GB
-    - value: ɪnˈfɪɹ.i.ɚ
-      variety: US
-    sense:
-    - id: inferior%5:00:00:bottom:00
-      synset: 02450200-s
-    - derivation:
-      - 'inferiority%1:26:00::'
-      id: inferior%5:00:00:nonstandard:02
-      synset: 02305084-s
 inferior alveolar artery:
   n:
     sense:
@@ -23694,6 +23267,10 @@ infernal:
       - 'supernal%3:00:00::'
       id: 'infernal%3:00:00::'
       synset: 01306711-a
+    - id: infernal%5:00:00:evil:00
+      synset: 01136015-s
+    - id: infernal%5:00:00:cursed:00
+      synset: 00673178-s
   n:
     pronunciation:
     - value: ɪnˈfɜː(ɹ)nəl
@@ -23703,17 +23280,6 @@ infernal:
     sense:
     - id: 'infernal%1:18:00::'
       synset: 10224963-n
-  s:
-    pronunciation:
-    - value: ɪnˈfɜː(ɹ)nəl
-      variety: GB
-    - value: ɪnˈfəɹnəl
-      variety: US
-    sense:
-    - id: infernal%5:00:00:evil:00
-      synset: 01136015-s
-    - id: infernal%5:00:00:cursed:00
-      synset: 00673178-s
 infernal machine:
   n:
     sense:
@@ -23923,6 +23489,14 @@ infinite:
       - 'finite%3:00:02::'
       id: 'infinite%3:00:02::'
       synset: 01012335-a
+    - derivation:
+      - 'infiniteness%1:07:00::'
+      id: infinite%5:00:00:incalculable:00
+      synset: 00302805-s
+    - derivation:
+      - 'infiniteness%1:07:00::'
+      id: infinite%5:00:00:absolute:00
+      synset: 00005717-s
   n:
     pronunciation:
     - value: ˈɪnfɪnɪt
@@ -23932,21 +23506,6 @@ infinite:
     sense:
     - id: 'infinite%1:03:00::'
       synset: 00028950-n
-  s:
-    pronunciation:
-    - value: ˈɪnfɪnɪt
-      variety: GB
-    - value: ˈɪnfɪnɪt
-      variety: US
-    sense:
-    - derivation:
-      - 'infiniteness%1:07:00::'
-      id: infinite%5:00:00:incalculable:00
-      synset: 00302805-s
-    - derivation:
-      - 'infiniteness%1:07:00::'
-      id: infinite%5:00:00:absolute:00
-      synset: 00005717-s
 infinite sequence:
   n:
     sense:
@@ -24445,10 +24004,6 @@ inflexible:
       - 'inflexibility%1:07:02::'
       id: 'inflexible%3:00:01::'
       synset: 01026905-a
-  s:
-    pronunciation:
-    - value: ɪnˈflɛksəbl̩
-    sense:
     - derivation:
       - 'inflexibility%1:07:01::'
       id: inflexible%5:00:00:unadaptable:00
@@ -24726,13 +24281,6 @@ informal:
       - 'formal%3:00:02::'
       id: 'informal%3:00:02::'
       synset: 01049410-a
-  s:
-    pronunciation:
-    - value: ɪnˈfɔɹm(ə)l
-      variety: US
-    - value: ɪnˈfɔːm(ə)l
-      variety: GB
-    sense:
     - id: informal%5:00:00:unofficial:00
       synset: 01638070-s
     - derivation:
@@ -25367,11 +24915,6 @@ ingenuous:
       - 'ingenuousness%1:07:00::'
       id: 'ingenuous%3:00:00::'
       synset: 01312946-a
-  s:
-    pronunciation:
-    - value: ɪnˈdʒɛn.ju.əs
-      variety: US
-    sense:
     - derivation:
       - 'ingenuousness%1:07:02::'
       id: ingenuous%5:00:00:naive:00
@@ -25449,10 +24992,6 @@ inglorious:
       - 'glorious%3:00:00::'
       id: 'inglorious%3:00:00::'
       synset: 01126173-a
-  s:
-    pronunciation:
-    - value: ɪnˈɡlɔɹi.əs
-    sense:
     - id: inglorious%5:00:00:dishonorable:00
       synset: 01230419-s
 ingloriously:
@@ -25844,8 +25383,6 @@ inharmonious:
       - 'inharmoniousness%1:07:00::'
       id: 'inharmonious%3:00:00::'
       synset: 01167616-a
-  s:
-    sense:
     - derivation:
       - 'inharmoniousness%1:07:00::'
       id: inharmonious%5:00:00:incongruous:00
@@ -26690,8 +26227,6 @@ injured:
       - 'uninjured%3:00:00::'
       id: 'injured%3:00:00::'
       synset: 01320916-a
-  s:
-    sense:
     - id: injured%5:00:00:displeased:00
       synset: 01812324-s
 injured party:
@@ -27029,10 +26564,6 @@ innate:
       - 'innateness%1:07:00::'
       id: 'innate%3:00:02::'
       synset: 01641326-a
-  s:
-    pronunciation:
-    - value: ɪˈneɪt
-    sense:
     - adjposition: p
       derivation:
       - 'innateness%1:07:00::'
@@ -27081,13 +26612,6 @@ inner:
       - 'outer%3:00:00::'
       id: 'inner%3:00:00::'
       synset: 00953480-a
-  s:
-    pronunciation:
-    - value: ˈɪnɚ
-      variety: US
-    - value: ˈɪnə
-      variety: GB
-    sense:
     - id: inner%5:00:00:inward:00
       synset: 00955021-s
     - id: inner%5:00:00:intrinsic:00
@@ -27253,16 +26777,6 @@ innocent:
       - 'innocence%1:26:00::'
       id: 'innocent%3:00:00::'
       synset: 01322826-a
-  n:
-    pronunciation:
-    - value: ˈɪnəsn̩t
-    sense:
-    - id: 'innocent%1:18:00::'
-      synset: 09644529-n
-  s:
-    pronunciation:
-    - value: ˈɪnəsn̩t
-    sense:
     - id: innocent%5:00:00:harmless:00
       synset: 01163451-s
     - derivation:
@@ -27280,6 +26794,12 @@ innocent:
       synset: 00931219-s
     - id: innocent%5:00:00:unconscious:00
       synset: 00574656-s
+  n:
+    pronunciation:
+    - value: ˈɪnəsn̩t
+    sense:
+    - id: 'innocent%1:18:00::'
+      synset: 09644529-n
 innocently:
   r:
     pronunciation:
@@ -27305,13 +26825,6 @@ innocuous:
       - 'noxious%3:00:00::'
       id: 'innocuous%3:00:00::'
       synset: 01616367-a
-  s:
-    pronunciation:
-    - value: ɪˈnɒkjuəs
-      variety: GB
-    - value: ɪˈnɑkjuəs
-      variety: US
-    sense:
     - id: innocuous%5:00:00:inoffensive:01
       synset: 01631816-s
     - id: innocuous%5:00:00:harmless:00
@@ -27560,8 +27073,6 @@ inoperable:
       - 'operable%3:00:00::'
       id: 'inoperable%3:00:00::'
       synset: 01173484-a
-  s:
-    sense:
     - id: inoperable%5:00:00:unserviceable:00
       synset: 02132579-s
 inoperative:
@@ -27946,8 +27457,6 @@ inquisitorial:
       pertainym:
       - 'inquisitor%1:18:00::'
       synset: 03053519-a
-  s:
-    sense:
     - derivation:
       - 'inquisitor%1:18:01::'
       id: inquisitorial%5:00:02:inquiring:00
@@ -28016,10 +27525,6 @@ insane:
       - 'insanity%1:26:00::'
       id: 'insane%3:00:00::'
       synset: 02081496-a
-  s:
-    pronunciation:
-    - value: ɪnˈseɪn
-    sense:
     - id: insane%5:00:00:foolish:00
       synset: 02582476-s
 insane asylum:
@@ -28307,8 +27812,6 @@ insecure:
       - 'insecurity%1:12:00::'
       id: 'insecure%3:00:01::'
       synset: 02100773-a
-  s:
-    sense:
     - derivation:
       - 'insecureness%1:26:00::'
       - 'insecurity%1:26:00::'
@@ -28390,10 +27893,6 @@ insensate:
     sense:
     - id: 'insensate%3:00:02::'
       synset: 00118565-a
-  s:
-    pronunciation:
-    - value: ɪnˈsɛn.sət
-    sense:
     - id: insensate%5:00:00:inhumane:00
       synset: 01267081-s
 insensately:
@@ -28428,10 +27927,6 @@ insensible:
       - 'insensibility%1:09:00::'
       id: 'insensible%3:00:00::'
       synset: 02110076-a
-  s:
-    pronunciation:
-    - value: ɪnˈsɛn.sɪ.bl̩
-    sense:
     - adjposition: p
       derivation:
       - 'insensibility%1:07:00::'
@@ -28639,14 +28134,12 @@ inshore:
       - 'offshore%3:00:00::'
       id: 'inshore%3:00:00::'
       synset: 00466228-a
+    - id: inshore%5:00:00:coastal:00
+      synset: 00465341-s
   r:
     sense:
     - id: 'inshore%4:02:00::'
       synset: 00259900-r
-  s:
-    sense:
-    - id: inshore%5:00:00:coastal:00
-      synset: 00465341-s
 inside:
   a:
     pronunciation:
@@ -28656,6 +28149,13 @@ inside:
       - 'outside%3:00:00::'
       id: 'inside%3:00:00::'
       synset: 01698252-a
+    - adjposition: a
+      id: inside%5:00:00:interior:00
+      synset: 00956403-s
+    - id: inside%5:00:00:exclusive:00
+      synset: 01869016-s
+    - id: inside%5:00:00:inner:00
+      synset: 00953800-s
   n:
     pronunciation:
     - value: ˈɪnsaɪd
@@ -28684,17 +28184,6 @@ inside:
       synset: 00231805-r
     - id: 'inside%4:02:02::'
       synset: 00104786-r
-  s:
-    pronunciation:
-    - value: ˈɪnsaɪd
-    sense:
-    - adjposition: a
-      id: inside%5:00:00:interior:00
-      synset: 00956403-s
-    - id: inside%5:00:00:exclusive:00
-      synset: 01869016-s
-    - id: inside%5:00:00:inner:00
-      synset: 00953800-s
 inside caliper:
   n:
     sense:
@@ -28868,10 +28357,6 @@ insignificant:
       - 'insignificance%1:07:00::'
       id: 'insignificant%3:00:00::'
       synset: 02171958-a
-  s:
-    pronunciation:
-    - value: ˌɪnsɪɡˈnɪfɪkənt
-    sense:
     - derivation:
       - 'insignificance%1:07:00::'
       id: insignificant%5:00:00:meaningless:00
@@ -29204,8 +28689,6 @@ insoluble:
       - 'insolubility%1:07:01::'
       id: 'insoluble%3:00:02::'
       synset: 02274356-a
-  s:
-    sense:
     - derivation:
       - 'insolubility%1:07:01::'
       id: insoluble%5:00:00:hopeless:00
@@ -30170,13 +29653,6 @@ institutional:
       - 'institution%1:14:00::'
       id: 'institutional%3:00:00::'
       synset: 01234064-a
-  s:
-    pronunciation:
-    - value: ˌɪnstɪˈtjuʃənəl
-      variety: GB
-    - value: ˌɪnstɪˈtjuʃənəl
-      variety: US
-    sense:
     - id: institutional%5:00:01:institutional:00
       synset: 01234511-s
 institutionalise:
@@ -30194,8 +29670,6 @@ institutionalised:
     sense:
     - id: 'institutionalised%3:00:00::'
       synset: 01233723-a
-  s:
-    sense:
     - id: institutionalised%5:00:00:institutional:00
       synset: 01234242-s
 institutionalize:
@@ -30216,8 +29690,6 @@ institutionalized:
       - 'noninstitutionalized%3:00:00::'
       id: 'institutionalized%3:00:00::'
       synset: 01233723-a
-  s:
-    sense:
     - id: institutionalized%5:00:00:institutional:00
       synset: 01234242-s
 institutionally:
@@ -30454,10 +29926,6 @@ instrumental:
       pertainym:
       - 'musical_instrument%1:06:00::'
       synset: 02836709-a
-  s:
-    pronunciation:
-    - value: ɪnstɹəˈmɛntəl
-    sense:
     - derivation:
       - 'instrument%1:04:00::'
       - 'instrumentality%1:07:00::'
@@ -30544,8 +30012,6 @@ insubordinate:
       - 'subordinate%3:00:02::'
       id: 'insubordinate%3:00:00::'
       synset: 02338328-a
-  s:
-    sense:
     - id: insubordinate%5:00:00:defiant:00
       synset: 00699387-s
 insubordination:
@@ -30567,8 +30033,6 @@ insubstantial:
       - 'insubstantiality%1:07:00::'
       id: 'insubstantial%3:00:00::'
       synset: 00628492-a
-  s:
-    sense:
     - id: insubstantial%5:00:00:unwholesome:00
       synset: 02570464-s
     - id: insubstantial%5:00:00:weak:00
@@ -30710,13 +30174,6 @@ insular:
       pertainym:
       - 'island%1:17:00::'
       synset: 02761255-a
-  s:
-    pronunciation:
-    - value: ˈɪnsjələ
-      variety: GB
-    - value: ˈɪnsəlɚ
-      variety: US
-    sense:
     - derivation:
       - 'insularity%1:26:00::'
       id: insular%5:00:00:private:00
@@ -31088,8 +30545,6 @@ insurmountable:
       - 'surmountable%3:00:00::'
       id: 'insurmountable%3:00:00::'
       synset: 02365671-a
-  s:
-    sense:
     - id: insurmountable%5:00:02:unconquerable:00
       synset: 00572489-s
 insurrection:
@@ -31237,22 +30692,6 @@ intangible:
       - 'intangibleness%1:07:00::'
       id: 'intangible%3:00:00::'
       synset: 02400435-a
-  n:
-    pronunciation:
-    - value: ɪnˈtandʒɪbl
-      variety: GB
-    - value: ɪnˈtændʒəbəl
-      variety: US
-    sense:
-    - id: 'intangible%1:21:00::'
-      synset: 13353685-n
-  s:
-    pronunciation:
-    - value: ɪnˈtandʒɪbl
-      variety: GB
-    - value: ɪnˈtændʒəbəl
-      variety: US
-    sense:
     - derivation:
       - 'intangibleness%1:07:00::'
       id: intangible%5:00:00:unidentifiable:00
@@ -31262,6 +30701,15 @@ intangible:
       - 'intangibleness%1:07:00::'
       id: intangible%5:00:00:immaterial:01
       synset: 00630484-s
+  n:
+    pronunciation:
+    - value: ɪnˈtandʒɪbl
+      variety: GB
+    - value: ɪnˈtændʒəbəl
+      variety: US
+    sense:
+    - id: 'intangible%1:21:00::'
+      synset: 13353685-n
 intangible asset:
   n:
     sense:
@@ -31297,6 +30745,12 @@ integral:
       pertainym:
       - 'integer%1:23:00::'
       synset: 02696440-a
+    - id: integral%5:00:00:intrinsic:00
+      synset: 01351376-s
+    - derivation:
+      - 'integrality%1:26:00::'
+      id: integral%5:00:00:whole:00
+      synset: 00517795-s
   n:
     pronunciation:
     - value: ˈɪntɪɡɹəl
@@ -31309,20 +30763,6 @@ integral:
       - 'integrate%2:31:00::'
       id: 'integral%1:09:00::'
       synset: 06024854-n
-  s:
-    pronunciation:
-    - value: ˈɪntɪɡɹəl
-      variety: GB
-    - value: ˈɪntəɡɹəl
-      variety: US
-    - value: ɪnˈtɛɡɹəl
-    sense:
-    - id: integral%5:00:00:intrinsic:00
-      synset: 01351376-s
-    - derivation:
-      - 'integrality%1:26:00::'
-      id: integral%5:00:00:whole:00
-      synset: 00517795-s
 integral calculus:
   n:
     sense:
@@ -31395,8 +30835,6 @@ integrated:
       - 'segregated%3:00:00::'
       id: 'integrated%3:00:00::'
       synset: 01329100-a
-  s:
-    sense:
     - id: integrated%5:00:00:united:00
       synset: 02487032-s
     - id: integrated%5:00:00:organic:02
@@ -31453,8 +30891,6 @@ integrative:
       - 'integrate%2:30:00::'
       id: 'integrative%3:00:00::'
       synset: 01333938-a
-  s:
-    sense:
     - derivation:
       - 'integrate%2:30:00::'
       id: integrative%5:00:00:centralizing:00
@@ -31540,18 +30976,14 @@ intellectual:
       - 'intellect%1:09:02::'
       id: 'intellectual%3:00:05::'
       synset: 01933854-a
+    - id: intellectual%5:00:00:mental:00
+      synset: 01784888-s
   n:
     pronunciation:
     - value: ˌɪntəˈlɛk(t)ʃʊəl
     sense:
     - id: 'intellectual%1:18:00::'
       synset: 09644715-n
-  s:
-    pronunciation:
-    - value: ˌɪntəˈlɛk(t)ʃʊəl
-    sense:
-    - id: intellectual%5:00:00:mental:00
-      synset: 01784888-s
 intellectual nourishment:
   n:
     sense:
@@ -31665,10 +31097,6 @@ intelligent:
       - 'intelligence%1:09:00::'
       id: 'intelligent%3:00:00::'
       synset: 01337350-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɛlɪd͡ʒənt
-    sense:
     - id: intelligent%5:00:00:sophisticated:00
       synset: 02278811-s
     - id: intelligent%5:00:00:reasonable:00
@@ -31718,11 +31146,6 @@ intelligible:
       - 'intelligibility%1:07:00::'
       id: 'intelligible%3:00:00::'
       synset: 01339879-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɛlədʒəbl̩
-      variety: US
-    sense:
     - derivation:
       - 'intelligibility%1:07:00::'
       id: intelligible%5:00:00:comprehensible:00
@@ -31762,8 +31185,6 @@ intemperate:
       - 'intemperateness%1:04:00::'
       id: 'intemperate%3:00:00::'
       synset: 02410992-a
-  s:
-    sense:
     - derivation:
       - 'intemperateness%1:04:01::'
       - 'intemperateness%1:04:00::'
@@ -31827,10 +31248,6 @@ intended:
       - 'unintended%3:00:00::'
       id: 'intended%3:00:00::'
       synset: 01340439-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɛndɪd
-    sense:
     - id: intended%5:00:00:attached:01
       synset: 00159503-s
 intense:
@@ -31844,10 +31261,6 @@ intense:
       - 'intensity%1:07:00::'
       id: 'intense%3:00:00::'
       synset: 01513206-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɛns
-    sense:
     - id: intense%5:00:00:sharp:04
       synset: 00806846-s
     - derivation:
@@ -31993,6 +31406,10 @@ intensive:
       - 'intensiveness%1:07:00::'
       id: 'intensive%3:00:00::'
       synset: 01518457-a
+    - derivation:
+      - 'intensiveness%1:07:00::'
+      id: intensive%5:00:00:intense:00
+      synset: 01516027-s
   n:
     pronunciation:
     - value: ɪnˈtɛnsɪv
@@ -32000,15 +31417,6 @@ intensive:
     sense:
     - id: 'intensive%1:10:00::'
       synset: 06332047-n
-  s:
-    pronunciation:
-    - value: ɪnˈtɛnsɪv
-      variety: GB
-    sense:
-    - derivation:
-      - 'intensiveness%1:07:00::'
-      id: intensive%5:00:00:intense:00
-      synset: 01516027-s
 intensive care:
   n:
     sense:
@@ -32079,8 +31487,6 @@ intentional:
       - 'intentionality%1:07:00::'
       id: 'intentional%3:00:04::'
       synset: 01342767-a
-  s:
-    sense:
     - derivation:
       - 'intention%1:09:01::'
       - 'intentionality%1:07:00::'
@@ -32199,11 +31605,6 @@ interactive:
     sense:
     - id: 'interactive%3:00:00::'
       synset: 00626030-a
-  s:
-    pronunciation:
-    - value: ɪntɚˈæktɪv
-      variety: US
-    sense:
     - derivation:
       - 'interact%2:41:00::'
       id: interactive%5:00:00:reciprocal:00
@@ -32867,10 +32268,6 @@ interested:
       - 'interestedness%1:09:00::'
       id: 'interested%3:00:00::'
       synset: 01345290-a
-  s:
-    pronunciation:
-    - value: ˈɪntɹəstɪd
-    sense:
     - id: interested%5:00:00:involved:00
       synset: 01519775-s
 interestedness:
@@ -33064,6 +32461,15 @@ interior:
       - 'exterior%3:00:00::'
       id: 'interior%3:00:00::'
       synset: 00956057-a
+    - adjposition: a
+      id: interior%5:00:00:domestic:00
+      synset: 01042014-s
+    - id: interior%5:00:00:inward:00
+      synset: 00955021-s
+    - id: interior%5:00:00:internal:00
+      synset: 00952323-s
+    - id: interior%5:00:00:inland:00
+      synset: 00465950-s
   n:
     pronunciation:
     - value: ɪnˈtɪɹiɚ
@@ -33077,22 +32483,6 @@ interior:
       synset: 08605849-n
     - id: 'interior%1:15:00::'
       synset: 08605707-n
-  s:
-    pronunciation:
-    - value: ɪnˈtɪɹiɚ
-      variety: US
-    - value: ɪnˈtɪəɹiːə
-      variety: GB
-    sense:
-    - adjposition: a
-      id: interior%5:00:00:domestic:00
-      synset: 01042014-s
-    - id: interior%5:00:00:inward:00
-      synset: 00955021-s
-    - id: interior%5:00:00:internal:00
-      synset: 00952323-s
-    - id: interior%5:00:00:inland:00
-      synset: 00465950-s
 interior angle:
   n:
     sense:
@@ -33461,18 +32851,14 @@ intermediate:
       - 'terminal%3:00:00::'
       id: 'intermediate%3:00:00::'
       synset: 01017848-a
+    - id: intermediate%5:00:00:moderate:00
+      synset: 01536076-s
   n:
     pronunciation:
     - value: ˌɪntɚˈmidi.ət
     sense:
     - id: 'intermediate%1:27:00::'
       synset: 14945410-n
-  s:
-    pronunciation:
-    - value: ˌɪntɚˈmidi.ət
-    sense:
-    - id: intermediate%5:00:00:moderate:00
-      synset: 01536076-s
   v:
     pronunciation:
     - value: ˌɪntɚˈmidi.ət
@@ -33751,13 +33137,6 @@ internal:
       - 'external%3:00:00::'
       id: 'internal%3:00:00::'
       synset: 00951878-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɜː.nəl
-      variety: GB
-    - value: ɪnˈtɝ.nl̩
-      variety: US
-    sense:
     - id: internal%5:00:00:intramural:00
       synset: 01349826-s
     - id: internal%5:00:00:domestic:00
@@ -33971,13 +33350,6 @@ international:
       - 'internationality%1:07:00::'
       id: 'international%3:00:00::'
       synset: 01572768-a
-  s:
-    pronunciation:
-    - value: ˌɪn.təˈnæʃ.(ə.)n(ə)l
-      variety: GB
-    - value: ˌɪn.tɚˈnæʃ.(ə.)n(ə)l
-      variety: US
-    sense:
     - derivation:
       - 'internationality%1:07:00::'
       id: international%5:00:00:foreign:02
@@ -35714,8 +35086,6 @@ intolerant:
       - 'intolerance%1:09:00::'
       id: 'intolerant%3:00:00::'
       synset: 02445826-a
-  s:
-    sense:
     - id: intolerant%5:00:00:narrow-minded:00
       synset: 00289103-s
 intolerantly:
@@ -35885,13 +35255,6 @@ intoxicated:
       - 'sober%3:00:01::'
       id: 'intoxicated%3:00:00::'
       synset: 00800854-a
-  s:
-    pronunciation:
-    - value: ɪnˈtɑksɪkeɪtɪd
-      variety: US
-    - value: ɪnˈtɒksɪkeɪtɪd
-      variety: GB
-    sense:
     - id: intoxicated%5:00:00:excited:00
       synset: 00923501-s
 intoxicating:
@@ -36433,10 +35796,6 @@ intrinsic:
       - 'extrinsic%3:00:00::'
       id: 'intrinsic%3:00:00::'
       synset: 01351106-a
-  s:
-    pronunciation:
-    - value: ɪn.ˈtɹɪn.zɪk
-    sense:
     - id: intrinsic%5:00:00:internal:00
       synset: 00952582-s
 intrinsic factor:
@@ -37260,6 +36619,8 @@ invalid:
       - 'invalidity%1:07:00::'
       id: 'invalid%3:00:00::'
       synset: 02509563-a
+    - id: invalid%5:00:00:expired:00
+      synset: 00941479-s
   n:
     pronunciation:
     - value: ˈɪn.və.lɪd
@@ -37268,12 +36629,6 @@ invalid:
       - 'invalid%2:29:00::'
       id: 'invalid%1:18:00::'
       synset: 10233900-n
-  s:
-    pronunciation:
-    - value: ɪnˈvæl.ɪd
-    sense:
-    - id: invalid%5:00:00:expired:00
-      synset: 00941479-s
   v:
     pronunciation:
     - value: ˈɪn.və.lɪd
@@ -37519,10 +36874,6 @@ invasive:
       - 'invade%2:35:00::'
       id: 'invasive%3:00:00::'
       synset: 01358814-a
-  s:
-    pronunciation:
-    - value: ɪnˈveɪsɪv
-    sense:
     - derivation:
       - 'invade%2:33:00::'
       id: invasive%5:00:00:offensive:03
@@ -37710,6 +37061,8 @@ inverse:
       - 'direct%3:00:03::'
       id: 'inverse%3:00:00::'
       synset: 00773049-a
+    - id: inverse%5:00:00:backward:01
+      synset: 00203687-s
   n:
     pronunciation:
     - value: ɪnˈvɝs
@@ -37717,13 +37070,6 @@ inverse:
     sense:
     - id: 'inverse%1:24:02::'
       synset: 13881030-n
-  s:
-    pronunciation:
-    - value: ɪnˈvɝs
-      variety: US
-    sense:
-    - id: inverse%5:00:00:backward:01
-      synset: 00203687-s
 inverse cosecant:
   n:
     sense:
@@ -37854,8 +37200,6 @@ inverted:
     sense:
     - id: 'inverted%3:00:04::'
       synset: 01033325-a
-  s:
-    sense:
     - id: inverted%5:00:00:turned:00
       synset: 02476782-s
 inverted comma:
@@ -38269,10 +37613,6 @@ inviolable:
       - 'violable%3:00:00::'
       id: 'inviolable%3:00:00::'
       synset: 02520662-a
-  s:
-    pronunciation:
-    - value: ɪnˈvaɪələbl̩
-    sense:
     - id: inviolable%5:00:00:invulnerable:00
       synset: 02536283-s
     - id: inviolable%5:00:00:sacred:00
@@ -38701,13 +38041,6 @@ involved:
       - 'uninvolved%3:00:00::'
       id: 'involved%3:00:00::'
       synset: 01518910-a
-  s:
-    pronunciation:
-    - value: ɪnˈvɑlvd
-      variety: US
-    - value: ɪnˈvɒlvd
-      variety: GB
-    sense:
     - id: involved%5:00:00:encumbered:00
       synset: 00871911-s
     - id: involved%5:00:00:attached:01
@@ -38773,6 +38106,10 @@ inward:
       - 'inwardness%1:07:02::'
       id: 'inward%3:00:00::'
       synset: 00954437-a
+    - derivation:
+      - 'inwardness%1:07:00::'
+      id: inward%5:00:00:incoming:00
+      synset: 01297706-s
   r:
     pronunciation:
     - value: ˈɪnwəd
@@ -38784,15 +38121,6 @@ inward:
       synset: 00259981-r
     - id: 'inward%4:02:01::'
       synset: 00504204-r
-  s:
-    pronunciation:
-    - value: ˈɪnwəd
-      variety: GB
-    sense:
-    - derivation:
-      - 'inwardness%1:07:00::'
-      id: inward%5:00:00:incoming:00
-      synset: 01297706-s
 inward-developing:
   s:
     sense:
@@ -40189,20 +39517,6 @@ irregular:
       - 'irregularity%1:07:04::'
       id: 'irregular%3:00:01::'
       synset: 01968933-a
-  n:
-    pronunciation:
-    - value: ɪˈɹɛɡjəlɚ
-      variety: US
-    sense:
-    - id: 'irregular%1:18:00::'
-      synset: 10170076-n
-    - id: 'irregular%1:06:00::'
-      synset: 03592219-n
-  s:
-    pronunciation:
-    - value: ɪˈɹɛɡjəlɚ
-      variety: US
-    sense:
     - derivation:
       - 'irregularity%1:26:00::'
       id: irregular%5:00:00:sporadic:00
@@ -40223,6 +39537,15 @@ irregular:
       - 'irregularity%1:07:00::'
       id: irregular%5:00:00:unconventional:00
       synset: 00609579-s
+  n:
+    pronunciation:
+    - value: ɪˈɹɛɡjəlɚ
+      variety: US
+    sense:
+    - id: 'irregular%1:18:00::'
+      synset: 10170076-n
+    - id: 'irregular%1:06:00::'
+      synset: 03592219-n
 irregularity:
   n:
     pronunciation:
@@ -40454,10 +39777,6 @@ irresistible:
       - 'irresistibility%1:07:00::'
       id: 'irresistible%3:00:00::'
       synset: 01996257-a
-  s:
-    pronunciation:
-    - value: ˌɪɹɪˈzɪstəbl̩
-    sense:
     - derivation:
       - 'irresistibleness%1:07:00::'
       - 'irresistibility%1:07:00::'
@@ -40606,8 +39925,6 @@ irreverent:
       - 'irreverence%1:04:00::'
       id: 'irreverent%3:00:00::'
       synset: 02019600-a
-  s:
-    sense:
     - id: irreverent%5:00:00:spirited:00
       synset: 02287824-s
     - derivation:
@@ -41597,6 +40914,13 @@ isometric:
       - 'isotonic%3:00:01::'
       id: 'isometric%3:00:00::'
       synset: 00356893-a
+    - derivation:
+      - 'isometry%1:07:02::'
+      - 'isometry%1:07:00::'
+      id: isometric%5:00:00:equal:00
+      synset: 00895100-s
+    - id: isometric%5:00:00:cubic:00
+      synset: 00661127-s
   n:
     pronunciation:
     - value: ˌaɪ.səʊˈmɛt.ɹɪk
@@ -41606,20 +40930,6 @@ isometric:
     sense:
     - id: 'isometric%1:10:00::'
       synset: 06814598-n
-  s:
-    pronunciation:
-    - value: ˌaɪ.səʊˈmɛt.ɹɪk
-      variety: GB
-    - value: ˌaɪ.soʊˈmɛt.ɹɪk
-      variety: US
-    sense:
-    - derivation:
-      - 'isometry%1:07:02::'
-      - 'isometry%1:07:00::'
-      id: isometric%5:00:00:equal:00
-      synset: 00895100-s
-    - id: isometric%5:00:00:cubic:00
-      synset: 00661127-s
 isometric exercise:
   n:
     sense:
@@ -41870,8 +41180,6 @@ isotonic:
       - 'isometric%3:00:00::'
       id: 'isotonic%3:00:01::'
       synset: 00357061-a
-  s:
-    sense:
     - id: isotonic%5:00:00:tense:03
       synset: 02415586-s
 isotonic exercise:

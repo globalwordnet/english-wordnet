@@ -5067,6 +5067,13 @@ objective:
       pertainym:
       - 'objective_case%1:10:00::'
       synset: 02873086-a
+    - derivation:
+      - 'objectivity%1:07:00::'
+      - 'objectiveness%1:07:00::'
+      id: objective%5:00:00:real:00
+      synset: 01940682-s
+    - id: objective%5:00:00:concrete:00
+      synset: 00013461-s
   n:
     pronunciation:
     - value: ɒbˈd͡ʒɛk.tɪv
@@ -5078,20 +5085,6 @@ objective:
       synset: 05990115-n
     - id: 'objective%1:06:00::'
       synset: 03843818-n
-  s:
-    pronunciation:
-    - value: ɒbˈd͡ʒɛk.tɪv
-      variety: GB
-    - value: əbˈd͡ʒɛk.tɪv
-      variety: US
-    sense:
-    - derivation:
-      - 'objectivity%1:07:00::'
-      - 'objectiveness%1:07:00::'
-      id: objective%5:00:00:real:00
-      synset: 01940682-s
-    - id: objective%5:00:00:concrete:00
-      synset: 00013461-s
 objective case:
   n:
     sense:
@@ -5339,13 +5332,6 @@ obligatory:
       - 'optional%3:00:00::'
       id: 'obligatory%3:00:00::'
       synset: 00851498-a
-  s:
-    pronunciation:
-    - value: əˈblɪɡətɔɹi
-      variety: US
-    - value: əˈblɪɡət(ə)ɹi
-      variety: GB
-    sense:
     - id: obligatory%5:00:00:necessary:00
       synset: 01585376-s
 oblige:
@@ -5433,6 +5419,11 @@ oblique:
       - 'obliqueness%1:07:00::'
       id: 'oblique%3:00:00::'
       synset: 01723103-a
+    - derivation:
+      - 'obliquity%1:07:00::'
+      - 'obliqueness%1:07:01::'
+      id: oblique%5:00:00:indirect:02
+      synset: 00771658-s
   n:
     pronunciation:
     - value: əˈbliːk
@@ -5447,17 +5438,6 @@ oblique:
       - 'oblique%3:00:00::'
       id: 'oblique%1:08:00::'
       synset: 05565472-n
-  s:
-    pronunciation:
-    - value: əˈbliːk
-      variety: GB
-    - value: oʊˈbliːk
-    sense:
-    - derivation:
-      - 'obliquity%1:07:00::'
-      - 'obliqueness%1:07:01::'
-      id: oblique%5:00:00:indirect:02
-      synset: 00771658-s
 oblique angle:
   n:
     sense:
@@ -6568,13 +6548,6 @@ obstinate:
     sense:
     - id: 'obstinate%3:00:00::'
       synset: 02334687-a
-  s:
-    pronunciation:
-    - value: ˈɒb.stɪ.nət
-      variety: GB
-    - value: ˈɑb.stə.nət
-      variety: US
-    sense:
     - id: obstinate%5:00:00:unregenerate:00
       synset: 01964522-s
     - id: obstinate%5:00:00:disobedient:00
@@ -6925,13 +6898,6 @@ obtuse:
       - 'acute%3:00:02::'
       id: 'obtuse%3:00:00::'
       synset: 01817190-a
-  s:
-    pronunciation:
-    - value: əbˈtjuːs
-      variety: GB
-    - value: əbˈt(j)us
-      variety: US
-    sense:
     - derivation:
       - 'obtuseness%1:07:00::'
       id: obtuse%5:00:00:simple:01
@@ -7521,13 +7487,6 @@ occupied:
       - 'unoccupied%3:00:02::'
       id: 'occupied%3:00:02::'
       synset: 01628448-a
-  s:
-    pronunciation:
-    - value: ˈɑkjəpaɪd
-      variety: US
-    - value: ˈɑkjəpaɪd
-      variety: GB
-    sense:
     - id: occupied%5:00:00:inhabited:00
       synset: 01314769-s
     - id: occupied%5:00:00:busy:00
@@ -7757,10 +7716,6 @@ oceanic:
       pertainym:
       - 'ocean%1:17:00::'
       synset: 02901417-a
-  s:
-    pronunciation:
-    - value: əʊʃiˈænɪk
-    sense:
     - derivation:
       - 'ocean%1:23:00::'
       id: oceanic%5:00:00:unlimited:00
@@ -8176,6 +8131,8 @@ ocular:
       pertainym:
       - 'sight%1:09:00::'
       synset: 02880845-a
+    - id: ocular%5:00:00:visible:00
+      synset: 02526205-s
   n:
     pronunciation:
     - value: ˈɒk.jə.lə
@@ -8185,15 +8142,6 @@ ocular:
     sense:
     - id: 'ocular%1:06:00::'
       synset: 03314410-n
-  s:
-    pronunciation:
-    - value: ˈɒk.jə.lə
-      variety: GB
-    - value: ˈɑ.kjə.lɚ
-      variety: US
-    sense:
-    - id: ocular%5:00:00:visible:00
-      synset: 02526205-s
 ocular helmet:
   n:
     sense:
@@ -8286,13 +8234,6 @@ odd:
       - 'oddness%1:24:00::'
       id: 'odd%3:00:00::'
       synset: 00916568-a
-  s:
-    pronunciation:
-    - value: ɒd
-      variety: GB
-    - value: ɑd
-      variety: US
-    sense:
     - derivation:
       - 'oddness%1:07:00::'
       id: odd%5:00:00:unusual:00
@@ -8606,8 +8547,6 @@ odorous:
       - 'odor%1:07:00::'
       id: 'odorous%3:00:00::'
       synset: 01058772-a
-  s:
-    sense:
     - id: odorous%5:00:02:malodorous:00
       synset: 01058203-s
     - id: odorous%5:00:01:fragrant:00
@@ -8892,6 +8831,12 @@ of unsound mind:
       - 'on%3:00:02::'
       id: 'off%3:00:02::'
       synset: 01656338-a
+    - id: off%5:00:00:unsatisfactory:00
+      synset: 02090070-s
+    - id: off%5:00:00:soured:00
+      synset: 02378437-s
+    - id: off%5:00:00:inactive:08
+      synset: 00035367-s
   r:
     pronunciation:
     - value: ɒf
@@ -8905,21 +8850,6 @@ of unsound mind:
       synset: 00236984-r
     - id: 'off%4:02:04::'
       synset: 00194904-r
-  s:
-    form:
-    - offer
-    pronunciation:
-    - value: ɒf
-      variety: GB
-    - value: ɔf
-      variety: US
-    sense:
-    - id: off%5:00:00:unsatisfactory:00
-      synset: 02090070-s
-    - id: off%5:00:00:soured:00
-      synset: 02378437-s
-    - id: off%5:00:00:inactive:08
-      synset: 00035367-s
   v:
     pronunciation:
     - value: ɒf
@@ -9356,16 +9286,6 @@ offensive:
       - 'offend%2:37:02::'
       id: 'offensive%3:00:01::'
       synset: 01628814-a
-  n:
-    pronunciation:
-    - value: əˈfɛnsɪv
-    sense:
-    - id: 'offensive%1:04:00::'
-      synset: 00982124-n
-  s:
-    pronunciation:
-    - value: əˈfɛnsɪv
-    sense:
     - derivation:
       - 'offensiveness%1:07:00::'
       - 'offend%2:41:00::'
@@ -9376,6 +9296,12 @@ offensive:
       - 'offend%2:37:02::'
       id: offensive%5:00:00:unwholesome:00
       synset: 02570765-s
+  n:
+    pronunciation:
+    - value: əˈfɛnsɪv
+    sense:
+    - id: 'offensive%1:04:00::'
+      synset: 00982124-n
 offensive activity:
   n:
     sense:
@@ -9769,6 +9695,14 @@ official:
       pertainym:
       - 'office%1:14:01::'
       synset: 03002971-a
+    - id: official%5:00:00:confirmed:00
+      synset: 01638779-s
+    - derivation:
+      - 'office%1:04:00::'
+      id: official%5:00:00:regular:00
+      synset: 01966728-s
+    - id: official%5:00:00:established:00
+      synset: 01640424-s
   n:
     pronunciation:
     - value: əˈfɪʃəl
@@ -9779,18 +9713,6 @@ official:
       synset: 10392072-n
     - id: 'official%1:18:00::'
       synset: 10391775-n
-  s:
-    pronunciation:
-    - value: əˈfɪʃəl
-    sense:
-    - id: official%5:00:00:confirmed:00
-      synset: 01638779-s
-    - derivation:
-      - 'office%1:04:00::'
-      id: official%5:00:00:regular:00
-      synset: 01966728-s
-    - id: official%5:00:00:established:00
-      synset: 01640424-s
 official document:
   n:
     sense:
@@ -10070,6 +9992,8 @@ offshore:
       - 'inshore%3:00:00::'
       id: 'offshore%3:00:00::'
       synset: 00466390-a
+    - id: offshore%5:00:00:marine:00
+      synset: 01384266-s
   r:
     pronunciation:
     - value: ɒfˈʃɔː(ɹ)
@@ -10078,12 +10002,6 @@ offshore:
       - 'onshore%4:02:00::'
       id: 'offshore%4:02:00::'
       synset: 00141083-r
-  s:
-    pronunciation:
-    - value: ɒfˈʃɔː(ɹ)
-    sense:
-    - id: offshore%5:00:00:marine:00
-      synset: 01384266-s
 offshore rig:
   n:
     sense:
@@ -10136,6 +10054,8 @@ offstage:
       - 'onstage%3:00:00::'
       id: 'offstage%3:00:00::'
       synset: 01642046-a
+    - id: offstage%5:00:00:private:00
+      synset: 01866268-s
   n:
     sense:
     - id: 'offstage%1:06:00::'
@@ -10148,10 +10068,6 @@ offstage:
       synset: 00261085-r
     - id: 'offstage%4:02:01::'
       synset: 00261005-r
-  s:
-    sense:
-    - id: offstage%5:00:00:private:00
-      synset: 01866268-s
 oft:
   r:
     pronunciation:
@@ -10901,22 +10817,6 @@ old:
       - 'oldness%1:07:00::'
       id: 'old%3:00:01::'
       synset: 01642580-a
-  n:
-    pronunciation:
-    - value: ˈəʊld
-      variety: GB
-    - value: ˈoʊld
-      variety: US
-    sense:
-    - id: 'old%1:28:00::'
-      synset: 15146244-n
-  s:
-    pronunciation:
-    - value: ˈəʊld
-      variety: GB
-    - value: ˈoʊld
-      variety: US
-    sense:
     - adjposition: a
       id: old%5:00:00:familiar:00
       synset: 00969546-s
@@ -10929,6 +10829,15 @@ old:
       synset: 01127641-s
     - id: old%5:00:00:preceding:00
       synset: 00128009-s
+  n:
+    pronunciation:
+    - value: ˈəʊld
+      variety: GB
+    - value: ˈoʊld
+      variety: US
+    sense:
+    - id: 'old%1:28:00::'
+      synset: 15146244-n
 old age:
   n:
     sense:
@@ -12625,14 +12534,12 @@ on time:
     sense:
     - id: 'on_time%3:00:00::'
       synset: 01906416-a
+    - id: on_time%5:00:00:due:00
+      synset: 00138462-s
   r:
     sense:
     - id: 'on_time%4:02:00::'
       synset: 00172866-r
-  s:
-    sense:
-    - id: on_time%5:00:00:due:00
-      synset: 00138462-s
 on tour:
   n:
     sense:
@@ -12674,8 +12581,6 @@ on-line:
       - 'off-line%3:00:00::'
       id: 'on-line%3:00:00::'
       synset: 01654843-a
-  s:
-    sense:
     - adjposition: a
       id: on-line%5:00:00:current:00
       synset: 00671159-s
@@ -13362,8 +13267,6 @@ one-sided:
       synset: 01764521-a
     - id: 'one-sided%3:00:04::'
       synset: 00238581-a
-  s:
-    sense:
     - id: one-sided%5:00:00:partial:01
       synset: 01727308-s
 one-sidedly:
@@ -13693,10 +13596,6 @@ online:
       synset: 01655325-a
     - id: 'online%3:00:00::'
       synset: 01654843-a
-  s:
-    pronunciation:
-    - value: ˈɒnˌlaɪn
-    sense:
     - id: online%5:00:00:current:00
       synset: 00671159-s
 onlooker:
@@ -13881,16 +13780,14 @@ onshore:
     sense:
     - id: 'onshore%3:00:04::'
       synset: 00466228-a
+    - id: onshore%5:00:00:terrestrial:00
+      synset: 00125940-s
   r:
     sense:
     - antonym:
       - 'offshore%4:02:00::'
       id: 'onshore%4:02:00::'
       synset: 00141202-r
-  s:
-    sense:
-    - id: onshore%5:00:00:terrestrial:00
-      synset: 00125940-s
 onside:
   a:
     sense:
@@ -14379,13 +14276,6 @@ opaque:
       - 'opaqueness%1:07:00::'
       id: 'opaque%3:00:00::'
       synset: 00434829-a
-  s:
-    pronunciation:
-    - value: əʊˈpeɪk
-      variety: GB
-    - value: oʊˈpeɪk
-      variety: US
-    sense:
     - derivation:
       - 'opacity%1:07:01::'
       - 'opaqueness%1:07:01::'
@@ -14441,27 +14331,6 @@ open:
       - 'openness%1:07:01::'
       id: 'open%3:00:07::'
       synset: 01709214-a
-  n:
-    sense:
-    - derivation:
-      - open%5:00:00:unobstructed:00
-      id: 'open%1:15:01::'
-      synset: 08649998-n
-    - derivation:
-      - open%5:00:00:unenclosed:00
-      id: 'open%1:15:02::'
-      synset: 08631308-n
-    - derivation:
-      - open%5:00:00:unrestricted:00
-      id: 'open%1:11:00::'
-      synset: 07480116-n
-    - derivation:
-      - open%5:00:00:public:00
-      - 'open%2:40:04::'
-      id: 'open%1:09:00::'
-      synset: 05620592-n
-  s:
-    sense:
     - id: open%5:00:00:unprotected:00
       synset: 01892719-s
     - derivation:
@@ -14506,6 +14375,25 @@ open:
       synset: 01313228-s
     - id: open%5:00:00:active:06
       synset: 00036367-s
+  n:
+    sense:
+    - derivation:
+      - open%5:00:00:unobstructed:00
+      id: 'open%1:15:01::'
+      synset: 08649998-n
+    - derivation:
+      - open%5:00:00:unenclosed:00
+      id: 'open%1:15:02::'
+      synset: 08631308-n
+    - derivation:
+      - open%5:00:00:unrestricted:00
+      id: 'open%1:11:00::'
+      synset: 07480116-n
+    - derivation:
+      - open%5:00:00:public:00
+      - 'open%2:40:04::'
+      id: 'open%1:09:00::'
+      synset: 05620592-n
   v:
     sense:
     - antonym:
@@ -14936,8 +14824,6 @@ opened:
     sense:
     - id: 'opened%3:00:02::'
       synset: 01658803-a
-  s:
-    sense:
     - id: opened%5:00:00:open:02
       synset: 01657577-s
     - id: opened%5:00:00:unsealed:01
@@ -15191,11 +15077,6 @@ operable:
       - 'inoperable%3:00:00::'
       id: 'operable%3:00:00::'
       synset: 01173361-a
-  s:
-    pronunciation:
-    - value: ˈɒ.pə.ɹə.bəl
-      variety: GB
-    sense:
     - id: operable%5:00:00:serviceable:00
       synset: 02131634-s
     - id: operable%5:00:00:practical:00
@@ -15330,13 +15211,6 @@ operating:
       participle:
       - 'operate%2:35:03::'
       synset: 03162996-a
-  s:
-    pronunciation:
-    - value: ˈɑpəɹeɪtɪŋ
-      variety: US
-    - value: ˈɒpəɹeɪtɪŋ
-      variety: GB
-    sense:
     - adjposition: a
       id: operating%5:00:01:operative:00
       synset: 00836557-s
@@ -15483,8 +15357,6 @@ operational:
       - 'nonoperational%3:00:00::'
       id: 'operational%3:00:00::'
       synset: 01664693-a
-  s:
-    sense:
     - id: operational%5:00:00:serviceable:00
       synset: 02131634-s
     - id: operational%5:00:00:operative:00
@@ -15562,6 +15434,13 @@ operative:
       - 'operation%1:04:00::'
       id: 'operative%3:00:04::'
       synset: 01172738-a
+    - id: operative%5:00:00:significant:00
+      synset: 02171606-s
+    - derivation:
+      - 'operate%2:35:03::'
+      - 'operate%2:35:00::'
+      id: operative%5:00:00:functioning:00
+      synset: 01095421-s
   n:
     pronunciation:
     - value: ˈɒpəɹətɪv
@@ -15570,17 +15449,6 @@ operative:
       synset: 10588855-n
     - id: 'operative%1:18:00::'
       synset: 10496256-n
-  s:
-    pronunciation:
-    - value: ˈɒpəɹətɪv
-    sense:
-    - id: operative%5:00:00:significant:00
-      synset: 02171606-s
-    - derivation:
-      - 'operate%2:35:03::'
-      - 'operate%2:35:00::'
-      id: operative%5:00:00:functioning:00
-      synset: 01095421-s
 operative field:
   n:
     sense:
@@ -16159,6 +16027,20 @@ opposite:
       - 'alternate%3:00:00::'
       id: 'opposite%3:00:00::'
       synset: 01667666-a
+    - id: opposite%5:00:01:other:00
+      synset: 02078291-s
+    - id: opposite%5:00:02:other:00
+      synset: 02078543-s
+    - id: opposite%5:00:00:other:00
+      synset: 02078115-s
+    - derivation:
+      - 'oppositeness%1:24:00::'
+      id: opposite%5:00:02:different:00
+      synset: 02075317-s
+    - derivation:
+      - 'oppositeness%1:24:00::'
+      id: opposite%5:00:00:different:00
+      synset: 02073716-s
   n:
     pronunciation:
     - value: ˈɒpəzɪt
@@ -16183,27 +16065,6 @@ opposite:
     sense:
     - id: 'opposite%4:02:00::'
       synset: 00045286-r
-  s:
-    pronunciation:
-    - value: ˈɒpəzɪt
-      variety: GB
-    - value: ˈɑp(ə)sɪt
-      variety: US
-    sense:
-    - id: opposite%5:00:01:other:00
-      synset: 02078291-s
-    - id: opposite%5:00:02:other:00
-      synset: 02078543-s
-    - id: opposite%5:00:00:other:00
-      synset: 02078115-s
-    - derivation:
-      - 'oppositeness%1:24:00::'
-      id: opposite%5:00:02:different:00
-      synset: 02075317-s
-    - derivation:
-      - 'oppositeness%1:24:00::'
-      id: opposite%5:00:00:different:00
-      synset: 02073716-s
 opposite number:
   n:
     sense:
@@ -16815,13 +16676,6 @@ optimistic:
       - 'optimism%1:07:00::'
       id: 'optimistic%3:00:00::'
       synset: 01668036-a
-  s:
-    pronunciation:
-    - value: ˌɒptɪˈmɪstɪk
-      variety: GB
-    - value: ˌɑptɪˈmɪstɪk
-      variety: US
-    sense:
     - derivation:
       - 'optimism%1:12:00::'
       - 'optimism%1:07:00::'
@@ -17043,13 +16897,6 @@ oracular:
       pertainym:
       - 'oracle%1:10:00::'
       synset: 03012376-a
-  s:
-    pronunciation:
-    - value: ɒɹˈæk.juː.lə
-      variety: GB
-    - value: ɔˈɹæk.ju.lɚ
-      variety: US
-    sense:
     - id: oracular%5:00:00:prophetic:00
       synset: 01888720-s
     - derivation:
@@ -17085,6 +16932,10 @@ oral:
       - 'anal%3:00:00::'
       id: 'oral%3:00:02::'
       synset: 00111063-a
+    - derivation:
+      - 'oral%1:10:00::'
+      id: oral%5:00:00:spoken:00
+      synset: 02291903-s
   n:
     pronunciation:
     - value: ˈɔːɹəl
@@ -17096,17 +16947,6 @@ oral:
       - oral%5:00:00:spoken:00
       id: 'oral%1:10:00::'
       synset: 07213506-n
-  s:
-    pronunciation:
-    - value: ˈɔːɹəl
-      variety: GB
-    - value: ˈɔɹəl
-      variety: US
-    sense:
-    - derivation:
-      - 'oral%1:10:00::'
-      id: oral%5:00:00:spoken:00
-      synset: 02291903-s
 oral cancer:
   n:
     sense:
@@ -19955,6 +19795,10 @@ orderly:
       - 'orderliness%1:07:00::'
       id: 'orderly%3:00:00::'
       synset: 01670379-a
+    - derivation:
+      - 'order%1:26:00::'
+      id: orderly%5:00:00:tidy:00
+      synset: 02432057-s
   n:
     pronunciation:
     - value: ˈɔɹdɚli
@@ -19966,17 +19810,6 @@ orderly:
       synset: 10401680-n
     - id: 'orderly%1:18:00::'
       synset: 10401503-n
-  s:
-    pronunciation:
-    - value: ˈɔɹdɚli
-      variety: US
-    - value: ˈɔːdəli
-      variety: GB
-    sense:
-    - derivation:
-      - 'order%1:26:00::'
-      id: orderly%5:00:00:tidy:00
-      synset: 02432057-s
 orderly sergeant:
   n:
     sense:
@@ -20076,6 +19909,10 @@ ordinary:
       - 'ordinariness%1:07:00::'
       id: 'ordinary%3:00:00::'
       synset: 01677162-a
+    - derivation:
+      - 'ordinariness%1:07:00::'
+      id: ordinary%5:00:02:common:01
+      synset: 00488278-s
   n:
     pronunciation:
     - value: ˈɔːdɪnəɹi
@@ -20093,17 +19930,6 @@ ordinary:
       synset: 03859444-n
     - id: 'ordinary%1:06:00::'
       synset: 03859254-n
-  s:
-    pronunciation:
-    - value: ˈɔːdɪnəɹi
-      variety: GB
-    - value: ˈɔɹdɪnɛɹi
-      variety: US
-    sense:
-    - derivation:
-      - 'ordinariness%1:07:00::'
-      id: ordinary%5:00:02:common:01
-      synset: 00488278-s
 ordinary annuity:
   n:
     sense:
@@ -20358,6 +20184,12 @@ organic:
       - 'organ%1:08:00::'
       id: 'organic%3:00:00::'
       synset: 01096835-a
+    - id: organic%5:00:00:wholesome:00
+      synset: 02569537-s
+    - id: organic%5:00:00:healthful:00
+      synset: 01170419-s
+    - id: organic%5:00:00:essential:00
+      synset: 00904519-s
   n:
     pronunciation:
     - value: ɔːˈɡænɪk
@@ -20369,19 +20201,6 @@ organic:
       - 'organic%3:00:02::'
       id: 'organic%1:27:00::'
       synset: 14883989-n
-  s:
-    pronunciation:
-    - value: ɔːˈɡænɪk
-      variety: GB
-    - value: ɔɹˈɡænɪk
-      variety: US
-    sense:
-    - id: organic%5:00:00:wholesome:00
-      synset: 02569537-s
-    - id: organic%5:00:00:healthful:00
-      synset: 01170419-s
-    - id: organic%5:00:00:essential:00
-      synset: 00904519-s
 organic brain syndrome:
   n:
     sense:
@@ -20826,13 +20645,6 @@ organized:
       - 'disorganized%3:00:00::'
       id: 'organized%3:00:01::'
       synset: 01672593-a
-  s:
-    pronunciation:
-    - value: ˈɔɹɡənaɪzd
-      variety: US
-    - value: ˈɔːɡənaɪzd
-      variety: GB
-    sense:
     - id: organized%5:00:00:union:00
       synset: 02483951-s
 organized crime:
@@ -21235,6 +21047,15 @@ original:
       - 'originality%1:07:00::'
       id: 'original%3:00:00::'
       synset: 01691099-a
+    - id: original%5:00:01:first:00
+      synset: 01016100-s
+    - id: original%5:00:00:primary:00
+      synset: 01858967-s
+    - derivation:
+      - 'original%1:09:00::'
+      - 'original%1:06:00::'
+      id: original%5:00:00:underived:00
+      synset: 00702652-s
   n:
     pronunciation:
     - value: əˈɹɪdʒɪnəl
@@ -21248,19 +21069,6 @@ original:
       - original%5:00:00:underived:00
       id: 'original%1:09:00::'
       synset: 05947118-n
-  s:
-    pronunciation:
-    - value: əˈɹɪdʒɪnəl
-    sense:
-    - id: original%5:00:01:first:00
-      synset: 01016100-s
-    - id: original%5:00:00:primary:00
-      synset: 01858967-s
-    - derivation:
-      - 'original%1:09:00::'
-      - 'original%1:06:00::'
-      id: original%5:00:00:underived:00
-      synset: 00702652-s
 original sin:
   n:
     sense:
@@ -21368,8 +21176,6 @@ originative:
       - 'originate%2:36:00::'
       id: 'originative%3:00:00::'
       synset: 00646272-a
-  s:
-    sense:
     - derivation:
       - 'originate%2:42:00::'
       id: originative%5:00:00:original:00
@@ -22845,11 +22651,6 @@ ostentatious:
       - 'ostentatiousness%1:07:00::'
       id: 'ostentatious%3:00:00::'
       synset: 01854283-a
-  s:
-    pronunciation:
-    - value: ˌɒs.tɛnˈteɪ.ʃəs
-      variety: US
-    sense:
     - derivation:
       - 'ostentatiousness%1:07:00::'
       id: ostentatious%5:00:00:tasteless:02
@@ -23180,15 +22981,6 @@ other:
       - 'same%3:00:02::'
       id: 'other%3:00:00::'
       synset: 02076759-a
-  s:
-    pronunciation:
-    - value: ˈʌðə(ɹ)
-      variety: GB
-    - value: ˈʌðɚ
-      variety: US
-    - value: ˈɐðə
-      variety: AU
-    sense:
     - adjposition: a
       id: other%5:00:00:past:00
       synset: 01735069-s
@@ -23547,26 +23339,6 @@ out:
       - 'safe%3:00:02::'
       id: 'out%3:00:02::'
       synset: 02068891-a
-  n:
-    pronunciation:
-    - value: aʊt
-    sense:
-    - id: 'out%1:04:00::'
-      synset: 00130347-n
-  r:
-    pronunciation:
-    - value: aʊt
-    sense:
-    - id: 'out%4:02:02::'
-      synset: 00234593-r
-    - id: 'out%4:02:04::'
-      synset: 00235144-r
-    - id: 'out%4:02:03::'
-      synset: 00235026-r
-  s:
-    pronunciation:
-    - value: aʊt
-    sense:
     - adjposition: p
       id: out%5:00:00:dead:02
       synset: 00100933-s
@@ -23592,6 +23364,22 @@ out:
     - adjposition: p
       id: out%5:00:00:unconscious:00
       synset: 00574990-s
+  n:
+    pronunciation:
+    - value: aʊt
+    sense:
+    - id: 'out%1:04:00::'
+      synset: 00130347-n
+  r:
+    pronunciation:
+    - value: aʊt
+    sense:
+    - id: 'out%4:02:02::'
+      synset: 00234593-r
+    - id: 'out%4:02:04::'
+      synset: 00235144-r
+    - id: 'out%4:02:03::'
+      synset: 00235026-r
   v:
     pronunciation:
     - value: aʊt
@@ -24306,8 +24094,6 @@ outer:
       - 'inner%3:00:00::'
       id: 'outer%3:00:00::'
       synset: 00952756-a
-  s:
-    sense:
     - id: outer%5:00:00:outward:00
       synset: 00954353-s
     - id: outer%5:00:00:external:00
@@ -24576,8 +24362,6 @@ outgoing:
       - 'incoming%3:00:01::'
       id: 'outgoing%3:00:01::'
       synset: 01297308-a
-  s:
-    sense:
     - id: outgoing%5:00:00:sociable:00
       synset: 02266005-s
 outgrow:
@@ -25350,6 +25134,24 @@ outside:
       synset: 01697422-a
     - id: 'outside%3:00:04::'
       synset: 01696675-a
+    - id: outside%5:00:00:extrinsic:00
+      synset: 01353073-s
+    - id: outside%5:00:00:external:00
+      synset: 00951721-s
+    - id: outside%5:00:00:extramural:00
+      synset: 01350597-s
+    - adjposition: a
+      id: outside%5:00:00:exterior:00
+      synset: 00955951-s
+    - adjposition: a
+      id: outside%5:00:00:foreign:02
+      synset: 01041567-s
+    - id: outside%5:00:00:unlikely:00
+      synset: 01415921-s
+    - id: outside%5:00:00:outer:00
+      synset: 00953210-s
+    - id: outside%5:00:00:inaccurate:00
+      synset: 00023695-s
   n:
     pronunciation:
     - value: ˈaʊtsaɪd
@@ -25374,28 +25176,6 @@ outside:
       - 'inside%4:02:01::'
       id: 'outside%4:02:01::'
       synset: 00111662-r
-  s:
-    pronunciation:
-    - value: ˈaʊtsaɪd
-    sense:
-    - id: outside%5:00:00:extrinsic:00
-      synset: 01353073-s
-    - id: outside%5:00:00:external:00
-      synset: 00951721-s
-    - id: outside%5:00:00:extramural:00
-      synset: 01350597-s
-    - adjposition: a
-      id: outside%5:00:00:exterior:00
-      synset: 00955951-s
-    - adjposition: a
-      id: outside%5:00:00:foreign:02
-      synset: 01041567-s
-    - id: outside%5:00:00:unlikely:00
-      synset: 01415921-s
-    - id: outside%5:00:00:outer:00
-      synset: 00953210-s
-    - id: outside%5:00:00:inaccurate:00
-      synset: 00023695-s
 outside caliper:
   n:
     sense:
@@ -25668,6 +25448,8 @@ outward:
       - 'outwardness%1:07:02::'
       id: 'outward%3:00:00::'
       synset: 00953896-a
+    - id: outward%5:00:00:outgoing:00
+      synset: 01298781-s
   r:
     pronunciation:
     - value: ˈaʊt.wɚd
@@ -25679,15 +25461,6 @@ outward:
       - 'inward%4:02:00::'
       id: 'outward%4:02:00::'
       synset: 00260109-r
-  s:
-    pronunciation:
-    - value: ˈaʊt.wɚd
-      variety: US
-    - value: ˈaʊt.wəd
-      variety: GB
-    sense:
-    - id: outward%5:00:00:outgoing:00
-      synset: 01298781-s
 outward-bound:
   s:
     sense:
@@ -26092,8 +25865,6 @@ over-the-counter:
     - adjposition: a
       id: 'over-the-counter%3:00:00::'
       synset: 01852128-a
-  s:
-    sense:
     - id: over-the-counter%5:00:00:unlisted:00
       synset: 01421520-s
 over-the-counter derivative:
@@ -27368,8 +27139,6 @@ overhand:
       - 'underhand%3:00:00::'
       id: 'overhand%3:00:00::'
       synset: 02480209-a
-  s:
-    sense:
     - id: overhand%5:00:00:handmade:00
       synset: 00677289-s
 overhand knot:
