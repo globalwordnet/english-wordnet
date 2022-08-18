@@ -517,7 +517,7 @@ Gaelic language:
     - id: 'gaelic_language%1:10:01::'
       synset: 06973306-n
 Gaelic-speaking:
-  s:
+  a:
     sense:
     - id: gaelic-speaking%5:00:00:communicative:00
       synset: 00499671-s
@@ -3540,7 +3540,7 @@ German-American:
       - 'german_american%1:18:00::'
       synset: 02928165-a
 German-speaking:
-  s:
+  a:
     sense:
     - id: german-speaking%5:00:00:communicative:00
       synset: 00499762-s
@@ -5656,7 +5656,7 @@ Gorbachev:
     - id: 'gorbachev%1:18:00::'
       synset: 11027746-n
 Gordian:
-  s:
+  a:
     sense:
     - id: gordian%5:00:00:complex:00
       synset: 02185861-s
@@ -6127,7 +6127,7 @@ Gracula religiosa:
     - id: 'gracula_religiosa%1:05:00::'
       synset: 01580821-n
 Graeco-Roman:
-  s:
+  a:
     pronunciation:
     - value: ɡɹiːkəʊˈɹəʊmən
       variety: GB
@@ -6245,12 +6245,12 @@ Gram's stain:
     - id: 'gram''s_stain%1:04:00::'
       synset: 00276595-n
 Gram-negative:
-  s:
+  a:
     sense:
     - id: gram-negative%5:00:00:negative:04
       synset: 01826582-s
 Gram-positive:
-  s:
+  a:
     sense:
     - id: gram-positive%5:00:00:positive:04
       synset: 01826188-s
@@ -6781,7 +6781,7 @@ Greco:
     - id: 'greco%1:18:00::'
       synset: 10976369-n
 Greco-Roman:
-  s:
+  a:
     pronunciation:
     - value: ˌɡɹiːkəʊˈɹəʊmən
       variety: GB
@@ -8888,7 +8888,7 @@ gabbro:
     - id: 'gabbro%1:27:00::'
       synset: 14956783-n
 gabby:
-  s:
+  a:
     form:
     - gabbier
     - gabbiest
@@ -9170,7 +9170,7 @@ gag rule:
     - id: 'gag_rule%1:10:00::'
       synset: 06679574-n
 gaga:
-  s:
+  a:
     sense:
     - id: gaga%5:00:00:old:02
       synset: 01649738-s
@@ -9375,7 +9375,7 @@ gainer:
     - id: 'gainer%1:04:00::'
       synset: 00444902-n
 gainful:
-  s:
+  a:
     sense:
     - id: gainful%5:00:00:profitable:00
       synset: 01877441-s
@@ -9402,7 +9402,7 @@ gainlessly:
     - id: 'gainlessly%4:02:00::'
       synset: 00435013-r
 gainly:
-  s:
+  a:
     sense:
     - id: gainly%5:00:00:graceful:00
       synset: 01143554-s
@@ -9683,20 +9683,7 @@ gallamine:
     - id: 'gallamine%1:27:00::'
       synset: 14883773-n
 gallant:
-  n:
-    pronunciation:
-    - value: ɡəˈlænt
-      variety: GB
-    - value: ɡəˈlɑnt
-      variety: US
-    sense:
-    - id: 'gallant%1:18:01::'
-      synset: 10010564-n
-    - derivation:
-      - gallant%5:00:00:courteous:00
-      id: 'gallant%1:18:00::'
-      synset: 10663501-n
-  s:
+  a:
     pronunciation:
     - value: ˈɡælənt
     sense:
@@ -9710,6 +9697,19 @@ gallant:
       - 'gallant%1:18:00::'
       id: gallant%5:00:00:courteous:00
       synset: 00643128-s
+  n:
+    pronunciation:
+    - value: ɡəˈlænt
+      variety: GB
+    - value: ɡəˈlɑnt
+      variety: US
+    sense:
+    - id: 'gallant%1:18:01::'
+      synset: 10010564-n
+    - derivation:
+      - gallant%5:00:00:courteous:00
+      id: 'gallant%1:18:00::'
+      synset: 10663501-n
 gallantly:
   r:
     sense:
@@ -9737,7 +9737,7 @@ gallbladder:
     - id: 'gallbladder%1:08:00::'
       synset: 05392504-n
 galled:
-  s:
+  a:
     sense:
     - id: galled%5:00:00:painful:00
       synset: 01716529-s
@@ -9840,7 +9840,7 @@ gallinaceous bird:
     - id: 'gallinaceous_bird%1:05:00::'
       synset: 01792027-n
 galling:
-  s:
+  a:
     sense:
     - id: galling%5:00:00:disagreeable:00
       synset: 00090253-s
@@ -9969,7 +9969,7 @@ galop:
     - id: 'galop%1:10:01::'
       synset: 92470529-n
 galore:
-  s:
+  a:
     pronunciation:
     - value: ɡəˈlɔː
       variety: GB
@@ -10089,7 +10089,7 @@ galvaniser:
       id: 'galvaniser%1:18:00::'
       synset: 10138039-n
 galvanising:
-  s:
+  a:
     sense:
     - id: galvanising%5:00:00:exciting:00
       synset: 00924872-s
@@ -10171,7 +10171,7 @@ galvanizer:
       id: 'galvanizer%1:18:00::'
       synset: 10138039-n
 galvanizing:
-  s:
+  a:
     sense:
     - id: galvanizing%5:00:00:exciting:00
       synset: 00924872-s
@@ -10256,6 +10256,10 @@ gambler:
       id: 'gambler%1:18:01::'
       synset: 10138857-n
 gambling:
+  a:
+    sense:
+    - id: gambling%5:00:01:indulgent:00
+      synset: 01300894-s
   n:
     pronunciation:
     - value: ˈɡæm.bl̩.ɪŋ
@@ -10264,10 +10268,6 @@ gambling:
       - 'gamble%2:33:00::'
       id: 'gambling%1:04:00::'
       synset: 00431125-n
-  s:
-    sense:
-    - id: gambling%5:00:01:indulgent:00
-      synset: 01300894-s
 gambling casino:
   n:
     sense:
@@ -10353,6 +10353,14 @@ gambrel roof:
     - id: 'gambrel_roof%1:06:00::'
       synset: 03418594-n
 game:
+  a:
+    sense:
+    - derivation:
+      - 'gameness%1:26:00::'
+      id: game%5:00:00:unfit:01
+      synset: 01022380-s
+    - id: game%5:00:00:brave:00
+      synset: 00264860-s
   n:
     sense:
     - id: 'game%1:04:00::'
@@ -10380,14 +10388,6 @@ game:
       synset: 00584126-n
     - id: 'game%1:04:04::'
       synset: 00514100-n
-  s:
-    sense:
-    - derivation:
-      - 'gameness%1:26:00::'
-      id: game%5:00:00:unfit:01
-      synset: 01022380-s
-    - id: game%5:00:00:brave:00
-      synset: 00264860-s
   v:
     sense:
     - derivation:
@@ -10579,7 +10579,7 @@ gametophyte:
     - id: 'gametophyte%1:20:00::'
       synset: 11707540-n
 gamey:
-  s:
+  a:
     pronunciation:
     - value: ˈɡeɪmi
     sense:
@@ -10708,7 +10708,7 @@ gammopathy:
     - id: 'gammopathy%1:26:00::'
       synset: 14092694-n
 gammy:
-  s:
+  a:
     form:
     - gammier
     - gammiest
@@ -10716,7 +10716,7 @@ gammy:
     - id: gammy%5:00:00:unfit:01
       synset: 01023066-s
 gamopetalous:
-  s:
+  a:
     sense:
     - id: gamopetalous%5:00:00:petalous:00
       synset: 01780525-s
@@ -10738,7 +10738,7 @@ gamut:
     - id: 'gamut%1:10:00::'
       synset: 06870537-n
 gamy:
-  s:
+  a:
     form:
     - gamier
     - gamiest
@@ -10861,7 +10861,7 @@ gangland:
     - id: 'gangland%1:14:00::'
       synset: 08262093-n
 gangling:
-  s:
+  a:
     sense:
     - id: gangling%5:00:00:tall:00
       synset: 02394060-s
@@ -10887,7 +10887,7 @@ ganglion cell:
     - id: 'ganglion_cell%1:08:00::'
       synset: 05434923-n
 gangly:
-  s:
+  a:
     pronunciation:
     - value: ˈɡæŋ.ɡli
     sense:
@@ -10931,7 +10931,7 @@ gangrene:
       - vibody
       synset: 00097148-v
 gangrenous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡæŋɡɹɪnəs
     sense:
@@ -11121,7 +11121,7 @@ gap:
       - vtai
       synset: 01596535-v
 gap-toothed:
-  s:
+  a:
     sense:
     - id: gap-toothed%5:00:00:toothed:00
       synset: 02448172-s
@@ -11155,7 +11155,7 @@ gape:
       - vii
       synset: 02724625-v
 gaping:
-  s:
+  a:
     sense:
     - id: gaping%5:00:00:open:08
       synset: 01659008-s
@@ -11327,7 +11327,7 @@ garbanzo:
     - id: 'garbanzo%1:13:00::'
       synset: 07742071-n
 garbed:
-  s:
+  a:
     sense:
     - id: garbed%5:00:00:clothed:00
       synset: 00456473-s
@@ -11341,7 +11341,7 @@ garble:
       - vtai
       synset: 00837582-v
 garbled:
-  s:
+  a:
     sense:
     - id: garbled%5:00:00:incoherent:00
       synset: 00467212-s
@@ -11371,12 +11371,21 @@ garbology:
     - id: 'garbology%1:09:00::'
       synset: 06157221-n
 gardant:
-  s:
+  a:
     sense:
     - adjposition: ip
       id: gardant%5:00:00:forward:01
       synset: 00205087-s
 garden:
+  a:
+    pronunciation:
+    - value: ˈɡɑːdn̩
+      variety: GB
+    - value: ˈɡɑɹdən
+      variety: US
+    sense:
+    - id: garden%5:00:00:familiar:02
+      synset: 00973992-s
   n:
     pronunciation:
     - value: ˈɡɑːdn̩
@@ -11396,15 +11405,6 @@ garden:
       - 'garden%2:36:00::'
       id: 'garden%1:06:01::'
       synset: 03422659-n
-  s:
-    pronunciation:
-    - value: ˈɡɑːdn̩
-      variety: GB
-    - value: ˈɡɑɹdən
-      variety: US
-    sense:
-    - id: garden%5:00:00:familiar:02
-      synset: 00973992-s
   v:
     pronunciation:
     - value: ˈɡɑːdn̩
@@ -11678,7 +11678,7 @@ garganey:
     - id: 'garganey%1:05:00::'
       synset: 01851196-n
 gargantuan:
-  s:
+  a:
     pronunciation:
     - value: ɡɑɹˈɡæn.tʃu.ən
       variety: US
@@ -11749,7 +11749,7 @@ garibaldi:
     - id: 'garibaldi%1:06:00::'
       synset: 03423659-n
 garish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɛəɹɪʃ
     sense:
@@ -11934,12 +11934,12 @@ garment-worker:
     - id: 'garment-worker%1:18:00::'
       synset: 10140473-n
 garmented:
-  s:
+  a:
     sense:
     - id: garmented%5:00:00:clothed:00
       synset: 00456473-s
 garmentless:
-  s:
+  a:
     sense:
     - id: garmentless%5:00:00:unclothed:00
       synset: 00461135-s
@@ -11995,12 +11995,12 @@ garnet lac:
     - id: 'garnet_lac%1:27:00::'
       synset: 14725573-n
 garnet-colored:
-  s:
+  a:
     sense:
     - id: garnet-colored%5:00:00:colored:00
       synset: 00398931-s
 garnet-coloured:
-  s:
+  a:
     sense:
     - id: garnet-coloured%5:00:00:colored:00
       synset: 00398931-s
@@ -12190,7 +12190,7 @@ garrulity:
       id: 'garrulity%1:07:00::'
       synset: 04658739-n
 garrulous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡæɹ.ʊ.ləs
       variety: GB
@@ -12583,12 +12583,12 @@ gas-discharge tube:
     - id: 'gas-discharge_tube%1:06:00::'
       synset: 03427499-n
 gas-filled:
-  s:
+  a:
     sense:
     - id: gas-filled%5:00:00:full:00
       synset: 01088785-s
 gas-tight:
-  s:
+  a:
     sense:
     - id: gas-tight%5:00:00:tight:02
       synset: 01401532-s
@@ -12705,7 +12705,7 @@ gasification:
       id: 'gasification%1:22:00::'
       synset: 13507473-n
 gasified:
-  s:
+  a:
     sense:
     - id: gasified%5:00:00:gaseous:00
       synset: 02271026-s
@@ -12872,7 +12872,7 @@ gassing:
       id: 'gassing%1:04:00::'
       synset: 00225803-n
 gassy:
-  s:
+  a:
     form:
     - gassier
     - gassiest
@@ -13441,7 +13441,7 @@ gator:
     - id: 'gator%1:05:00::'
       synset: 01701075-n
 gauche:
-  s:
+  a:
     pronunciation:
     - value: ɡəʊʃ
       variety: GB
@@ -13511,11 +13511,7 @@ gaudiness:
       id: 'gaudiness%1:07:00::'
       synset: 04698100-n
 gaudy:
-  n:
-    sense:
-    - id: 'gaudy%1:14:00::'
-      synset: 08270976-n
-  s:
+  a:
     form:
     - gaudier
     - gaudiest
@@ -13531,6 +13527,10 @@ gaudy:
       - 'gaudiness%1:07:00::'
       id: gaudy%5:00:00:colorful:03
       synset: 00408497-s
+  n:
+    sense:
+    - id: 'gaudy%1:14:00::'
+      synset: 08270976-n
 gauffer:
   n:
     sense:
@@ -13609,14 +13609,14 @@ gauge boson:
     - id: 'gauge_boson%1:17:00::'
       synset: 09310321-n
 gaumless:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɔːm.ləs
     sense:
     - id: gaumless%5:00:00:stupid:00
       synset: 00443171-s
 gaunt:
-  s:
+  a:
     pronunciation:
     - value: ɡɔːnt
     sense:
@@ -13638,7 +13638,7 @@ gauntlet:
     - id: 'gauntlet%1:04:00::'
       synset: 01166553-n
 gauntleted:
-  s:
+  a:
     sense:
     - id: gauntleted%5:00:00:gloved:00
       synset: 01431262-s
@@ -13691,12 +13691,12 @@ gauze bandage:
     - id: 'gauze_bandage%1:06:00::'
       synset: 03435001-n
 gauze-like:
-  s:
+  a:
     sense:
     - id: gauze-like%5:00:00:thin:01
       synset: 02422186-s
 gauzy:
-  s:
+  a:
     form:
     - gauzier
     - gauziest
@@ -13761,7 +13761,7 @@ gawkiness:
       id: 'gawkiness%1:07:00::'
       synset: 05011865-n
 gawky:
-  s:
+  a:
     form:
     - gawkier
     - gawkiest
@@ -13782,13 +13782,7 @@ gawp:
       - via-pp
       synset: 02168962-v
 gay:
-  n:
-    sense:
-    - derivation:
-      - gay%5:00:00:homosexual:00
-      id: 'gay%1:18:00::'
-      synset: 10202544-n
-  s:
+  a:
     sense:
     - id: gay%5:00:00:cheerful:00
       synset: 00365018-s
@@ -13805,6 +13799,12 @@ gay:
       - 'gayness%1:04:00::'
       id: gay%5:00:00:homosexual:00
       synset: 01205390-s
+  n:
+    sense:
+    - derivation:
+      - gay%5:00:00:homosexual:00
+      id: 'gay%1:18:00::'
+      synset: 10202544-n
 gay lib:
   n:
     sense:
@@ -14159,7 +14159,7 @@ geek out:
       - via
       synset: 90019872-v
 geeked:
-  s:
+  a:
     sense:
     - id: geeked%5:00:01:intoxicated:00
       synset: 90010341-s
@@ -14310,12 +14310,12 @@ gelatinize:
       - vtii
       synset: 00566158-v
 gelatinlike:
-  s:
+  a:
     sense:
     - id: gelatinlike%5:00:00:thick:02
       synset: 02425406-s
 gelatinous:
-  s:
+  a:
     pronunciation:
     - value: dʒəˈlæt.ɪn.əs
     sense:
@@ -14345,7 +14345,7 @@ geld:
       - vtai
       synset: 00060990-v
 gelded:
-  s:
+  a:
     sense:
     - id: gelded%5:00:00:castrated:00
       synset: 02144482-s
@@ -14369,7 +14369,7 @@ gelechiid moth:
     - id: 'gelechiid_moth%1:05:00::'
       synset: 02296004-n
 gelid:
-  s:
+  a:
     pronunciation:
     - value: ˈdʒɛl.ɪd
     sense:
@@ -14488,7 +14488,7 @@ gemmation:
     - id: 'gemmation%1:22:00::'
       synset: 13565276-n
 gemmed:
-  s:
+  a:
     sense:
     - id: gemmed%5:00:00:adorned:00
       synset: 00056900-s
@@ -14877,7 +14877,7 @@ general verdict:
       id: 'general_verdict%1:04:00::'
       synset: 01195666-n
 general-purpose:
-  s:
+  a:
     sense:
     - id: general-purpose%5:00:00:general:00
       synset: 01105751-s
@@ -14937,7 +14937,7 @@ generalise:
       - vii-pp
       synset: 00104219-v
 generalised:
-  s:
+  a:
     sense:
     - id: generalised%5:00:00:unspecialized:00
       synset: 02286262-s
@@ -15020,7 +15020,7 @@ generalize:
       - vii-pp
       synset: 00104219-v
 generalized:
-  s:
+  a:
     sense:
     - id: generalized%5:00:00:unspecialized:00
       synset: 02286262-s
@@ -15551,7 +15551,7 @@ genicular vein:
     - id: 'genicular_vein%1:08:00::'
       synset: 05375443-n
 geniculate:
-  s:
+  a:
     pronunciation:
     - value: dʒɪˈnɪk.jʊl.ɪt
       variety: GB
@@ -15847,7 +15847,7 @@ gentamicin:
     - id: 'gentamicin%1:06:00::'
       synset: 03440292-n
 genteel:
-  s:
+  a:
     pronunciation:
     - value: dʒɛnˈtiːl
     sense:
@@ -15932,7 +15932,7 @@ gentility:
       id: 'gentility%1:07:01::'
       synset: 04820771-n
 gentle:
-  s:
+  a:
     pronunciation:
     - value: ˈdʒɛntl̩
       variety: GB
@@ -16035,7 +16035,7 @@ gentleman-at-arms:
     - id: 'gentleman-at-arms%1:18:00::'
       synset: 10146957-n
 gentlemanlike:
-  s:
+  a:
     sense:
     - id: gentlemanlike%5:00:00:refined:01
       synset: 01955395-s
@@ -16045,7 +16045,7 @@ gentlemanliness:
     - id: 'gentlemanliness%1:07:01::'
       synset: 92418484-n
 gentlemanly:
-  s:
+  a:
     sense:
     - derivation:
       - 'gentleman%1:18:00::'
@@ -35103,7 +35103,7 @@ geosphere:
     - id: 'geosphere%1:17:00::'
       synset: 09362716-n
 geostationary:
-  s:
+  a:
     sense:
     - id: geostationary%5:00:00:fixed:00
       synset: 01063610-s
@@ -35129,7 +35129,7 @@ geostrategy:
       id: 'geostrategy%1:09:00::'
       synset: 06158366-n
 geosynchronous:
-  s:
+  a:
     sense:
     - id: geosynchronous%5:00:00:fixed:00
       synset: 01063809-s
@@ -35327,7 +35327,7 @@ germander speedwell:
     - id: 'germander_speedwell%1:20:00::'
       synset: 12912065-n
 germane:
-  s:
+  a:
     pronunciation:
     - value: dʒɜː(ɹ)ˈmeɪn
       variety: GB
@@ -35367,7 +35367,7 @@ germfree:
       id: 'germfree%3:00:00::'
       synset: 02123898-a
 germicidal:
-  s:
+  a:
     sense:
     - derivation:
       - 'germicide%1:06:00::'
@@ -35381,7 +35381,7 @@ germicide:
       id: 'germicide%1:06:00::'
       synset: 03212950-n
 germinal:
-  s:
+  a:
     sense:
     - derivation:
       - 'germ%1:09:00::'
@@ -35627,7 +35627,7 @@ gesticulate:
       - via-to
       synset: 00994073-v
 gesticulating:
-  s:
+  a:
     sense:
     - id: gesticulating%5:00:00:communicative:00
       synset: 00499853-s
@@ -35639,7 +35639,7 @@ gesticulation:
       id: 'gesticulation%1:10:00::'
       synset: 06889821-n
 gestural:
-  s:
+  a:
     sense:
     - id: gestural%5:00:02:communicative:00
       synset: 00500206-s
@@ -36819,7 +36819,7 @@ get your shit together:
       - via
       synset: 90007311-v
 get-at-able:
-  s:
+  a:
     sense:
     - id: get-at-able%5:00:00:accessible:00
       synset: 00019543-s
@@ -36844,12 +36844,12 @@ geta:
     - id: 'geta%1:06:00::'
       synset: 03051675-n
 getable:
-  s:
+  a:
     sense:
     - id: getable%5:00:00:available:00
       synset: 00185663-s
 getatable:
-  s:
+  a:
     sense:
     - id: getatable%5:00:00:accessible:00
       synset: 00019543-s
@@ -36863,7 +36863,7 @@ getaway:
       id: 'getaway%1:04:00::'
       synset: 00061021-n
 gettable:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɛtəbəl
       variety: GB
@@ -36944,7 +36944,7 @@ ghastliness:
       id: 'ghastliness%1:07:00::'
       synset: 04789874-n
 ghastly:
-  s:
+  a:
     form:
     - ghastlier
     - ghastliest
@@ -37141,7 +37141,7 @@ ghostfish:
     - id: 'ghostfish%1:05:00::'
       synset: 02619027-n
 ghostlike:
-  s:
+  a:
     sense:
     - id: ghostlike%5:00:00:supernatural:00
       synset: 01579318-s
@@ -37153,7 +37153,7 @@ ghostliness:
       id: 'ghostliness%1:07:00::'
       synset: 04805269-n
 ghostly:
-  s:
+  a:
     form:
     - ghostlier
     - ghostliest
@@ -37197,7 +37197,7 @@ ghoul:
     - id: 'ghoul%1:18:00::'
       synset: 09566802-n
 ghoulish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡuːlɪʃ
     sense:
@@ -37211,6 +37211,17 @@ ghrelin:
     - id: 'ghrelin%1:08:00::'
       synset: 05417006-n
 giant:
+  a:
+    pronunciation:
+    - value: ˈdʒaɪ.ənt
+    sense:
+    - derivation:
+      - 'giant%1:18:03::'
+      - 'giant%1:18:02::'
+      - 'giant%1:18:00::'
+      - 'giant%1:05:00::'
+      id: giant%5:00:00:large:00
+      synset: 01388707-s
   n:
     pronunciation:
     - value: ˈdʒaɪ.ənt
@@ -37243,17 +37254,6 @@ giant:
       synset: 09511841-n
     - id: 'giant%1:17:00::'
       synset: 09311675-n
-  s:
-    pronunciation:
-    - value: ˈdʒaɪ.ənt
-    sense:
-    - derivation:
-      - 'giant%1:18:03::'
-      - 'giant%1:18:02::'
-      - 'giant%1:18:00::'
-      - 'giant%1:05:00::'
-      id: giant%5:00:00:large:00
-      synset: 01388707-s
 giant anteater:
   n:
     sense:
@@ -37633,7 +37633,7 @@ gibbon:
     - id: 'gibbon%1:05:00::'
       synset: 02485993-n
 gibbose:
-  s:
+  a:
     sense:
     - id: gibbose%5:00:00:convex:00
       synset: 00540394-s
@@ -37645,7 +37645,7 @@ gibbosity:
       id: 'gibbosity%1:25:00::'
       synset: 13917127-n
 gibbous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɪbəs
     sense:
@@ -37689,7 +37689,7 @@ gibe:
       - via-pp
       synset: 00851872-v
 gibelike:
-  s:
+  a:
     sense:
     - id: gibelike%5:00:00:disrespectful:00
       synset: 02002696-s
@@ -37739,7 +37739,7 @@ giddiness:
       id: 'giddiness%1:26:00::'
       synset: 14395918-n
 giddy:
-  s:
+  a:
     form:
     - giddier
     - giddiest
@@ -37923,7 +37923,7 @@ gigahertz:
     - id: 'gigahertz%1:28:00::'
       synset: 15303677-n
 gigantic:
-  s:
+  a:
     pronunciation:
     - value: dʒaɪˈɡæntɪk
     sense:
@@ -38038,7 +38038,7 @@ gild the lily:
       - via
       synset: 00183386-v
 gilded:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɪldɪd
     sense:
@@ -38168,20 +38168,20 @@ gillyflower:
     - id: 'gillyflower%1:20:01::'
       synset: 11828937-n
 gilt:
+  a:
+    sense:
+    - derivation:
+      - 'gilt%1:06:00::'
+      id: gilt%5:00:00:chromatic:00
+      synset: 00371003-s
   n:
     sense:
     - derivation:
       - gilt%5:00:00:chromatic:00
       id: 'gilt%1:06:00::'
       synset: 03442340-n
-  s:
-    sense:
-    - derivation:
-      - 'gilt%1:06:00::'
-      id: gilt%5:00:00:chromatic:00
-      synset: 00371003-s
 gilt-edged:
-  s:
+  a:
     sense:
     - id: gilt-edged%5:00:00:superior:02
       synset: 02351544-s
@@ -38195,23 +38195,23 @@ gimbal:
     - id: 'gimbal%1:06:00::'
       synset: 03442491-n
 gimbaled:
-  s:
+  a:
     sense:
     - id: gimbaled%5:00:00:supported:00
       synset: 02359785-s
 gimcrack:
+  a:
+    pronunciation:
+    - value: ˈd͡ʒɪmkɹæk
+    sense:
+    - id: gimcrack%5:00:00:tasteless:02
+      synset: 02402358-s
   n:
     pronunciation:
     - value: ˈd͡ʒɪmkɹæk
     sense:
     - id: 'gimcrack%1:06:00::'
       synset: 03381284-n
-  s:
-    pronunciation:
-    - value: ˈd͡ʒɪmkɹæk
-    sense:
-    - id: gimcrack%5:00:00:tasteless:02
-      synset: 02402358-s
 gimcrackery:
   n:
     sense:
@@ -38276,7 +38276,7 @@ gimpiness:
       id: 'gimpiness%1:26:00::'
       synset: 14573529-n
 gimpy:
-  s:
+  a:
     sense:
     - derivation:
       - 'gimpiness%1:26:00::'
@@ -38355,6 +38355,10 @@ ginep:
     - id: 'ginep%1:20:00::'
       synset: 12765610-n
 ginger:
+  a:
+    sense:
+    - id: ginger%5:00:00:colored:00
+      synset: 00399036-s
   n:
     sense:
     - id: 'ginger%1:20:00::'
@@ -38369,10 +38373,6 @@ ginger:
       synset: 07830901-n
     - id: 'ginger%1:07:00::'
       synset: 04642190-n
-  s:
-    sense:
-    - id: ginger%5:00:00:colored:00
-      synset: 00399036-s
   v:
     sense:
     - derivation:
@@ -38421,7 +38421,7 @@ ginger up:
       - vtii
       synset: 00193003-v
 ginger-scented:
-  s:
+  a:
     sense:
     - id: ginger-scented%5:00:00:odorous:00
       synset: 01060101-s
@@ -38441,6 +38441,10 @@ gingerbread man:
     - id: 'gingerbread_man%1:13:00::'
       synset: 07654183-n
 gingerly:
+  a:
+    sense:
+    - id: gingerly%5:00:00:cautious:00
+      synset: 00326893-s
   r:
     pronunciation:
     - value: ˈdʒɪndʒəɹli
@@ -38450,10 +38454,6 @@ gingerly:
       pertainym:
       - gingerly%5:00:00:cautious:00
       synset: 00349786-r
-  s:
-    sense:
-    - id: gingerly%5:00:00:cautious:00
-      synset: 00326893-s
 gingerol:
   n:
     pronunciation:
@@ -38472,7 +38472,7 @@ gingersnap:
     - id: 'gingersnap%1:13:00::'
       synset: 07651993-n
 gingery:
-  s:
+  a:
     sense:
     - id: gingery%5:00:00:tasty:00
       synset: 02406229-s
@@ -38746,7 +38746,7 @@ girlhood:
       id: 'girlhood%1:28:00::'
       synset: 15172290-n
 girlish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɝlɪʃ
       variety: US
@@ -39560,15 +39560,7 @@ giveaway:
     - id: 'giveaway%1:10:01::'
       synset: 06633568-n
 given:
-  n:
-    pronunciation:
-    - value: ˈɡɪ.vən
-    sense:
-    - derivation:
-      - given%5:00:00:acknowledged:00
-      id: 'given%1:09:00::'
-      synset: 05901963-n
-  s:
+  a:
     pronunciation:
     - value: ˈɡɪ.vən
     sense:
@@ -39580,6 +39572,14 @@ given:
     - adjposition: p
       id: given%5:00:00:inclined:02
       synset: 01295534-s
+  n:
+    pronunciation:
+    - value: ˈɡɪ.vən
+    sense:
+    - derivation:
+      - given%5:00:00:acknowledged:00
+      id: 'given%1:09:00::'
+      synset: 05901963-n
 given name:
   n:
     sense:
@@ -39603,6 +39603,12 @@ giver:
       id: 'giver%1:18:00::'
       synset: 10045455-n
 giving:
+  a:
+    pronunciation:
+    - value: ˈɡɪvɪŋ
+    sense:
+    - id: giving%5:00:00:generous:01
+      synset: 01115129-s
   n:
     pronunciation:
     - value: ˈɡɪvɪŋ
@@ -39625,12 +39631,6 @@ giving:
       - 'give%2:40:00::'
       id: 'giving%1:04:01::'
       synset: 00091599-n
-  s:
-    pronunciation:
-    - value: ˈɡɪvɪŋ
-    sense:
-    - id: giving%5:00:00:generous:01
-      synset: 01115129-s
 giving birth:
   n:
     sense:
@@ -39687,14 +39687,14 @@ glabellar:
       - 'glabella%1:08:00::'
       synset: 02746647-a
 glabrescent:
-  s:
+  a:
     pronunciation:
     - value: ɡleɪˈbɹɛsənt
     sense:
     - id: glabrescent%5:00:00:hairless:00
       synset: 00213036-s
 glabrous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlabɹəs
       variety: GB
@@ -39702,7 +39702,7 @@ glabrous:
     - id: glabrous%5:00:00:hairless:00
       synset: 00213156-s
 glace:
-  s:
+  a:
     sense:
     - id: glace%5:00:00:preserved:02
       synset: 01075629-s
@@ -39774,7 +39774,7 @@ glaciate:
       - vii
       synset: 00375046-v
 glaciated:
-  s:
+  a:
     sense:
     - id: glaciated%5:00:00:frozen:00
       synset: 01082620-s
@@ -39876,7 +39876,7 @@ gladden:
       - via
       synset: 01816917-v
 gladdened:
-  s:
+  a:
     sense:
     - id: gladdened%5:00:00:elated:00
       synset: 00708780-s
@@ -39973,7 +39973,7 @@ gladness:
       id: 'gladness%1:12:00::'
       synset: 07542406-n
 gladsome:
-  s:
+  a:
     sense:
     - derivation:
       - 'gladsomeness%1:12:00::'
@@ -40040,7 +40040,7 @@ glamorize:
       - vtai
       synset: 00533966-v
 glamorous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlaməɹəs
     sense:
@@ -40115,7 +40115,7 @@ glamourize:
       - vtai
       synset: 00533966-v
 glamourous:
-  s:
+  a:
     sense:
     - derivation:
       - 'glamour%1:07:00::'
@@ -40315,7 +40315,7 @@ glareole:
     - id: 'glareole%1:05:00::'
       synset: 02041647-n
 glaring:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlɛəɹɪŋ
       variety: GB
@@ -40339,7 +40339,7 @@ glaringly:
       - glaring%5:00:00:conspicuous:00
       synset: 00143036-r
 glary:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlɛəɹi
     sense:
@@ -40497,7 +40497,7 @@ glass-cutter:
     - id: 'glass-cutter%1:18:00::'
       synset: 10151665-n
 glass-like:
-  s:
+  a:
     sense:
     - id: glass-like%5:00:00:glazed:00
       synset: 01123700-s
@@ -40582,7 +40582,7 @@ glasswort:
     - id: 'glasswort%1:20:00::'
       synset: 11854741-n
 glassy:
-  s:
+  a:
     form:
     - glassier
     - glassiest
@@ -40616,7 +40616,7 @@ glauconite:
     - id: 'glauconite%1:27:00::'
       synset: 14701305-n
 glaucous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlɔː.kəs
       variety: GB
@@ -40756,6 +40756,12 @@ gleam:
       - vii-pp
       synset: 00424528-v
 gleaming:
+  a:
+    pronunciation:
+    - value: ˈɡliːmɪŋ
+    sense:
+    - id: gleaming%5:00:00:bright:00
+      synset: 00279958-s
   n:
     pronunciation:
     - value: ˈɡliːmɪŋ
@@ -40766,12 +40772,6 @@ gleaming:
       synset: 07427078-n
     - id: 'gleaming%1:07:00::'
       synset: 04961711-n
-  s:
-    pronunciation:
-    - value: ˈɡliːmɪŋ
-    sense:
-    - id: gleaming%5:00:00:bright:00
-      synset: 00279958-s
 glean:
   v:
     pronunciation:
@@ -40827,7 +40827,7 @@ glee club:
     - id: 'glee_club%1:14:00::'
       synset: 08246526-n
 gleeful:
-  s:
+  a:
     pronunciation:
     - value: ˈɡliːfəl
     sense:
@@ -40897,7 +40897,7 @@ glial cell:
     - id: 'glial_cell%1:08:00::'
       synset: 05475084-n
 glib:
-  s:
+  a:
     form:
     - glibber
     - glibbest
@@ -40915,7 +40915,7 @@ glib:
       id: glib%5:00:00:persuasive:00
       synset: 01775250-s
 glib-tongued:
-  s:
+  a:
     sense:
     - id: glib-tongued%5:00:00:persuasive:00
       synset: 01775250-s
@@ -41084,7 +41084,7 @@ glimmering:
     - id: 'glimmering%1:09:00::'
       synset: 05924900-n
 glimmery:
-  s:
+  a:
     sense:
     - derivation:
       - 'glimmer%1:11:00::'
@@ -41145,7 +41145,7 @@ glint:
       - via-pp
       synset: 02169748-v
 glinting:
-  s:
+  a:
     sense:
     - id: glinting%5:00:00:bright:00
       synset: 00280484-s
@@ -41235,7 +41235,7 @@ glisten:
       - vii
       synset: 02167378-v
 glistening:
-  s:
+  a:
     sense:
     - id: glistening%5:00:00:bright:00
       synset: 00282523-s
@@ -41245,7 +41245,7 @@ glister:
     - id: 'glister%1:07:00::'
       synset: 04960121-n
 glistering:
-  s:
+  a:
     sense:
     - id: glistering%5:00:00:bright:00
       synset: 00280484-s
@@ -41298,14 +41298,14 @@ glitter:
       - vii
       synset: 02167378-v
 glittering:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlɪtəɹɪŋ
     sense:
     - id: glittering%5:00:00:bright:00
       synset: 00280484-s
 glittery:
-  s:
+  a:
     sense:
     - derivation:
       - 'glitter%1:11:00::'
@@ -41405,7 +41405,7 @@ glob:
     - id: 'glob%1:14:00::'
       synset: 07977630-n
 global:
-  s:
+  a:
     pronunciation:
     - value: ˈɡləʊbəl
       variety: GB
@@ -41601,7 +41601,7 @@ globin:
     - id: 'globin%1:27:00::'
       synset: 15050509-n
 globose:
-  s:
+  a:
     sense:
     - derivation:
       - 'globosity%1:07:00::'
@@ -41615,7 +41615,7 @@ globosity:
       id: 'globosity%1:07:00::'
       synset: 05080300-n
 globular:
-  s:
+  a:
     pronunciation:
     - value: ˈɡlɑb.jə.lɚ
       variety: US
@@ -41760,7 +41760,7 @@ gloom:
     - id: 'gloom%1:26:02::'
       synset: 14548967-n
 gloomful:
-  s:
+  a:
     sense:
     - id: gloomful%5:00:00:dark:01
       synset: 00276630-s
@@ -41788,12 +41788,12 @@ gloominess:
     - id: 'gloominess%1:07:01::'
       synset: 92422222-n
 glooming:
-  s:
+  a:
     sense:
     - id: glooming%5:00:00:dark:01
       synset: 00276630-s
 gloomy:
-  s:
+  a:
     form:
     - gloomier
     - gloomiest
@@ -41844,7 +41844,7 @@ glorification:
       id: 'glorification%1:04:00::'
       synset: 01221422-n
 glorified:
-  s:
+  a:
     sense:
     - id: glorified%5:00:00:authorized:00
       synset: 00180490-s
@@ -42151,18 +42151,7 @@ glossoptosis:
     - id: 'glossoptosis%1:26:00::'
       synset: 14197690-n
 glossy:
-  n:
-    pronunciation:
-    - value: ˈɡlɒsi
-      variety: GB
-    - value: ˈɡlɔsi
-      variety: US
-    sense:
-    - id: 'glossy%1:10:00::'
-      synset: 06608931-n
-    - id: 'glossy%1:06:00::'
-      synset: 03445933-n
-  s:
+  a:
     form:
     - glossier
     - glossiest
@@ -42184,23 +42173,34 @@ glossy:
       synset: 00282523-s
     - id: glossy%5:00:00:attractive:01
       synset: 00169301-s
+  n:
+    pronunciation:
+    - value: ˈɡlɒsi
+      variety: GB
+    - value: ˈɡlɔsi
+      variety: US
+    sense:
+    - id: 'glossy%1:10:00::'
+      synset: 06608931-n
+    - id: 'glossy%1:06:00::'
+      synset: 03445933-n
 glossy snake:
   n:
     sense:
     - id: 'glossy_snake%1:05:00::'
       synset: 01736107-n
 glossy-coated:
-  s:
+  a:
     sense:
     - id: glossy-coated%5:00:00:hairy:00
       synset: 00215915-s
 glossy-furred:
-  s:
+  a:
     sense:
     - id: glossy-furred%5:00:00:hairy:00
       synset: 00215915-s
 glossy-haired:
-  s:
+  a:
     sense:
     - id: glossy-haired%5:00:00:hairy:00
       synset: 00215915-s
@@ -42438,7 +42438,7 @@ glower:
       - via-pp
       synset: 00032974-v
 glowering:
-  s:
+  a:
     sense:
     - id: glowering%5:00:00:ill-natured:00
       synset: 01140878-s
@@ -42450,6 +42450,15 @@ gloweringly:
       - glowering%5:00:00:ill-natured:00
       synset: 00351383-r
 glowing:
+  a:
+    pronunciation:
+    - value: ˈɡloʊɪŋ
+      variety: US
+    - value: ˈɡləʊɪŋ
+      variety: GB
+    sense:
+    - id: glowing%5:00:00:enthusiastic:00
+      synset: 00890096-s
   n:
     pronunciation:
     - value: ˈɡloʊɪŋ
@@ -42459,15 +42468,6 @@ glowing:
     sense:
     - id: 'glowing%1:19:00::'
       synset: 11483770-n
-  s:
-    pronunciation:
-    - value: ˈɡloʊɪŋ
-      variety: US
-    - value: ˈɡləʊɪŋ
-      variety: GB
-    sense:
-    - id: glowing%5:00:00:enthusiastic:00
-      synset: 00890096-s
 glowingly:
   r:
     sense:
@@ -42571,12 +42571,12 @@ glue:
       - vtii
       synset: 00487786-v
 glued:
-  s:
+  a:
     sense:
     - id: glued%5:00:00:affixed:00
       synset: 00160371-s
 gluey:
-  s:
+  a:
     sense:
     - derivation:
       - 'glue%1:27:00::'
@@ -42609,7 +42609,7 @@ gluiness:
       id: 'gluiness%1:07:00::'
       synset: 04943081-n
 glum:
-  s:
+  a:
     form:
     - glummer
     - glummest
@@ -42816,7 +42816,7 @@ glutinosity:
       id: 'glutinosity%1:07:00::'
       synset: 04943390-n
 glutinous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡluːtɪnəs
     sense:
@@ -42834,7 +42834,7 @@ glutinousness:
       id: 'glutinousness%1:07:00::'
       synset: 04943390-n
 glutted:
-  s:
+  a:
     sense:
     - id: glutted%5:00:00:full:00
       synset: 01088855-s
@@ -43145,12 +43145,12 @@ gnarl:
       - via-that
       synset: 00911172-v
 gnarled:
-  s:
+  a:
     sense:
     - id: gnarled%5:00:00:crooked:01
       synset: 02320915-s
 gnarly:
-  s:
+  a:
     pronunciation:
     - value: ˈnɑːli
       variety: GB
@@ -43283,7 +43283,7 @@ gnomic:
       - 'gnome%1:10:00::'
       synset: 02860360-a
 gnomish:
-  s:
+  a:
     sense:
     - id: gnomish%5:00:00:small:00
       synset: 01396311-s
@@ -44337,7 +44337,7 @@ go-around:
     - id: 'go-around%1:04:00::'
       synset: 00282742-n
 go-as-you-please:
-  s:
+  a:
     sense:
     - id: go-as-you-please%5:00:00:unconventional:00
       synset: 00609386-s
@@ -44376,7 +44376,7 @@ go-to:
     - id: 'go-to%1:06:01::'
       synset: 90003191-n
 go-to-meeting:
-  s:
+  a:
     sense:
     - adjposition: a
       id: go-to-meeting%5:00:00:best:00
@@ -44452,7 +44452,7 @@ goad:
       - vtia
       synset: 00853413-v
 goaded:
-  s:
+  a:
     sense:
     - id: goaded%5:00:00:involuntary:01
       synset: 02531814-s
@@ -44486,7 +44486,7 @@ goal line:
     - id: 'goal_line%1:15:00::'
       synset: 08596662-n
 goal-directed:
-  s:
+  a:
     sense:
     - id: goal-directed%5:00:00:purposeful:00
       synset: 01916630-s
@@ -44515,7 +44515,7 @@ goalkeeper:
     - id: 'goalkeeper%1:04:00::'
       synset: 00465105-n
 goalless:
-  s:
+  a:
     sense:
     - id: goalless%5:00:00:unsuccessful:00
       synset: 02343111-s
@@ -44615,7 +44615,7 @@ goatee:
     - id: 'goatee%1:08:00::'
       synset: 05270528-n
 goateed:
-  s:
+  a:
     sense:
     - id: goateed%5:00:00:unshaven:00
       synset: 02161662-s
@@ -44750,7 +44750,7 @@ goblet cell:
     - id: 'goblet_cell%1:08:00::'
       synset: 05249868-n
 goblet-shaped:
-  s:
+  a:
     sense:
     - id: goblet-shaped%5:00:00:round:00
       synset: 02049831-s
@@ -44770,7 +44770,7 @@ gobs:
     - id: 'gobs%1:23:00::'
       synset: 13799721-n
 gobsmacked:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɒb.smækt
       variety: GB
@@ -44806,12 +44806,12 @@ god of war:
     - id: 'god_of_war%1:18:00::'
       synset: 10787322-n
 god-awful:
-  s:
+  a:
     sense:
     - id: god-awful%5:00:00:unpleasant:00
       synset: 01807949-s
 god-fearing:
-  s:
+  a:
     sense:
     - id: god-fearing%5:00:00:religious:00
       synset: 01788237-s
@@ -44823,34 +44823,34 @@ godchild:
     - id: 'godchild%1:18:00::'
       synset: 10153916-n
 goddam:
+  a:
+    sense:
+    - id: goddam%5:00:00:cursed:00
+      synset: 00673178-s
   r:
     sense:
     - id: 'goddam%4:02:00::'
       synset: 00351763-r
-  s:
-    sense:
-    - id: goddam%5:00:00:cursed:00
-      synset: 00673178-s
 goddamn:
-  r:
-    sense:
-    - id: 'goddamn%4:02:00::'
-      synset: 00351763-r
-  s:
+  a:
     sense:
     - id: goddamn%5:00:00:cursed:00
       synset: 00673766-s
     - id: goddamn%5:00:02:cursed:00
       synset: 00673178-s
+  r:
+    sense:
+    - id: 'goddamn%4:02:00::'
+      synset: 00351763-r
 goddamned:
+  a:
+    sense:
+    - id: goddamned%5:00:02:cursed:00
+      synset: 00673178-s
   r:
     sense:
     - id: 'goddamned%4:02:00::'
       synset: 00351763-r
-  s:
-    sense:
-    - id: goddamned%5:00:02:cursed:00
-      synset: 00673178-s
 goddaughter:
   n:
     sense:
@@ -44879,14 +44879,14 @@ godfather:
     - id: 'godfather%1:18:01::'
       synset: 10154147-n
 godforsaken:
-  s:
+  a:
     pronunciation:
     - value: ˌɡɒd.fə(ɹ)ˈseɪ.kɪn
     sense:
     - id: godforsaken%5:00:00:inhospitable:00
       synset: 01245976-s
 godless:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɒdləs
     sense:
@@ -44902,7 +44902,7 @@ godlessness:
       id: 'godlessness%1:07:00::'
       synset: 04835985-n
 godlike:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɑdlaɪk
       variety: US
@@ -44924,7 +44924,7 @@ godliness:
       id: 'godliness%1:07:00::'
       synset: 04834734-n
 godly:
-  s:
+  a:
     form:
     - godlier
     - godliest
@@ -45047,7 +45047,7 @@ goggle-eye:
     - id: 'goggle-eye%1:05:00::'
       synset: 02583739-n
 goggle-eyed:
-  s:
+  a:
     sense:
     - id: goggle-eyed%5:00:00:surprised:00
       synset: 02367317-s
@@ -45057,6 +45057,16 @@ goggles:
     - id: 'goggles%1:06:00::'
       synset: 03448836-n
 going:
+  a:
+    pronunciation:
+    - value: ˈɡəʊɪŋ
+      variety: GB
+    - value: ˈɡoʊɪŋ
+      variety: US
+    sense:
+    - adjposition: a
+      id: going%5:00:00:active:06
+      synset: 00036276-s
   n:
     pronunciation:
     - value: ˈɡəʊɪŋ
@@ -45076,16 +45086,6 @@ going:
       - 'go%2:42:03::'
       id: 'going%1:04:00::'
       synset: 00048792-n
-  s:
-    pronunciation:
-    - value: ˈɡəʊɪŋ
-      variety: GB
-    - value: ˈɡoʊɪŋ
-      variety: US
-    sense:
-    - adjposition: a
-      id: going%5:00:00:active:06
-      synset: 00036276-s
 going ashore:
   n:
     sense:
@@ -45148,6 +45148,22 @@ goitrogen:
     - id: 'goitrogen%1:27:00::'
       synset: 14913879-n
 gold:
+  a:
+    pronunciation:
+    - value: ɡəʊld
+      variety: GB
+    - value: ɡoʊld
+      variety: US
+    sense:
+    - derivation:
+      - 'gold%1:27:00::'
+      - 'gold%1:21:00::'
+      id: gold%5:00:00:metallic:00
+      synset: 01532849-s
+    - derivation:
+      - 'gold%1:07:00::'
+      id: gold%5:00:00:chromatic:00
+      synset: 00371003-s
   n:
     pronunciation:
     - value: ɡəʊld
@@ -45171,22 +45187,6 @@ gold:
       synset: 13374461-n
     - id: 'gold%1:07:01::'
       synset: 05148739-n
-  s:
-    pronunciation:
-    - value: ɡəʊld
-      variety: GB
-    - value: ɡoʊld
-      variety: US
-    sense:
-    - derivation:
-      - 'gold%1:27:00::'
-      - 'gold%1:21:00::'
-      id: gold%5:00:00:metallic:00
-      synset: 01532849-s
-    - derivation:
-      - 'gold%1:07:00::'
-      id: gold%5:00:00:chromatic:00
-      synset: 00371003-s
 gold braid:
   n:
     sense:
@@ -45307,7 +45307,7 @@ gold telluride:
     - id: 'gold_telluride%1:27:01::'
       synset: 92463417-n
 gold-bearing:
-  s:
+  a:
     sense:
     - id: gold-bearing%5:00:00:metallic:00
       synset: 01532468-s
@@ -45317,12 +45317,12 @@ gold-beater:
     - id: 'gold-beater%1:18:00::'
       synset: 10155362-n
 gold-colored:
-  s:
+  a:
     sense:
     - id: gold-colored%5:00:00:colored:00
       synset: 00399233-s
 gold-coloured:
-  s:
+  a:
     sense:
     - id: gold-coloured%5:00:00:colored:00
       synset: 00399233-s
@@ -45399,7 +45399,7 @@ goldcup:
     - id: 'goldcup%1:20:00::'
       synset: 11740822-n
 golden:
-  s:
+  a:
     sense:
     - id: golden%5:00:00:chromatic:00
       synset: 00371003-s
@@ -45786,7 +45786,7 @@ golden-beard penstemon:
     - id: 'golden-beard_penstemon%1:20:00::'
       synset: 12905805-n
 golden-brown:
-  s:
+  a:
     sense:
     - id: golden-brown%5:00:00:chromatic:00
       synset: 00376365-s
@@ -45801,12 +45801,12 @@ golden-eyed fly:
     - id: 'golden-eyed_fly%1:05:00::'
       synset: 02267728-n
 golden-green:
-  s:
+  a:
     sense:
     - id: golden-green%5:00:00:chromatic:00
       synset: 00376449-s
 golden-yellow:
-  s:
+  a:
     sense:
     - id: golden-yellow%5:00:00:chromatic:00
       synset: 00376279-s
@@ -46358,7 +46358,7 @@ gonorrhoea:
     - id: 'gonorrhoea%1:26:00::'
       synset: 14157025-n
 gonzo:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɑnzoʊ
       variety: US
@@ -46517,7 +46517,7 @@ good egg:
       id: 'good_egg%1:18:00::'
       synset: 10157762-n
 good enough:
-  s:
+  a:
     sense:
     - id: good_enough%5:00:00:good:01
       synset: 01127990-s
@@ -46534,7 +46534,7 @@ good faith:
     - id: 'good_faith%1:07:00::'
       synset: 04879211-n
 good for you:
-  s:
+  a:
     sense:
     - adjposition: p
       id: good_for_you%5:00:00:wholesome:00
@@ -46740,40 +46740,40 @@ good-bye:
     - id: 'good-bye%1:10:00::'
       synset: 06642117-n
 good-for-naught:
+  a:
+    sense:
+    - derivation:
+      - 'good-for-naught%1:18:00::'
+      id: good-for-naught%5:00:00:worthless:00
+      synset: 02512593-s
   n:
     sense:
     - derivation:
       - good-for-naught%5:00:00:worthless:00
       id: 'good-for-naught%1:18:00::'
       synset: 10155473-n
-  s:
+good-for-nothing:
+  a:
     sense:
     - derivation:
-      - 'good-for-naught%1:18:00::'
-      id: good-for-naught%5:00:00:worthless:00
+      - 'good-for-nothing%1:18:00::'
+      id: good-for-nothing%5:00:00:worthless:00
       synset: 02512593-s
-good-for-nothing:
   n:
     sense:
     - derivation:
       - good-for-nothing%5:00:00:worthless:00
       id: 'good-for-nothing%1:18:00::'
       synset: 10155473-n
-  s:
-    sense:
-    - derivation:
-      - 'good-for-nothing%1:18:00::'
-      id: good-for-nothing%5:00:00:worthless:00
-      synset: 02512593-s
 good-hearted:
-  s:
+  a:
     pronunciation:
     - value: ɡʊd.hɑː.təd
     sense:
     - id: good-hearted%5:00:00:kind:00
       synset: 01375875-s
 good-humored:
-  s:
+  a:
     sense:
     - derivation:
       - 'good-humoredness%1:07:00::'
@@ -46787,7 +46787,7 @@ good-humoredness:
       id: 'good-humoredness%1:07:00::'
       synset: 04638424-n
 good-humoured:
-  s:
+  a:
     sense:
     - derivation:
       - 'good-humouredness%1:07:00::'
@@ -46806,7 +46806,7 @@ good-king-henry:
     - id: 'good-king-henry%1:20:00::'
       synset: 11849442-n
 good-looking:
-  s:
+  a:
     pronunciation:
     - value: ɡʊdˈlʊkɪŋ
     sense:
@@ -46848,7 +46848,7 @@ good-neighbourliness:
     - id: 'good-neighbourliness%1:07:00::'
       synset: 04663408-n
 good-tempered:
-  s:
+  a:
     sense:
     - derivation:
       - 'good-temperedness%1:07:00::'
@@ -46862,7 +46862,7 @@ good-temperedness:
       id: 'good-temperedness%1:07:00::'
       synset: 04638424-n
 good-time:
-  s:
+  a:
     sense:
     - id: good-time%5:00:00:sociable:00
       synset: 02265758-s
@@ -46879,14 +46879,14 @@ goodbye:
     - id: 'goodbye%1:10:00::'
       synset: 06642117-n
 goodish:
-  s:
+  a:
     sense:
     - id: goodish%5:00:00:good:01
       synset: 01128140-s
     - id: goodish%5:00:00:considerable:00
       synset: 00627250-s
 goodly:
-  s:
+  a:
     form:
     - goodlier
     - goodliest
@@ -46940,20 +46940,20 @@ goody:
     - id: 'goody%1:13:00::'
       synset: 07572730-n
 goody-goody:
+  a:
+    sense:
+    - derivation:
+      - 'goody-goody%1:18:00::'
+      id: goody-goody%5:00:00:good:02
+      synset: 01134114-s
   n:
     sense:
     - derivation:
       - goody-goody%5:00:00:good:02
       id: 'goody-goody%1:18:00::'
       synset: 10158726-n
-  s:
-    sense:
-    - derivation:
-      - 'goody-goody%1:18:00::'
-      id: goody-goody%5:00:00:good:02
-      synset: 01134114-s
 gooey:
-  s:
+  a:
     form:
     - gooier
     - gooiest
@@ -47026,7 +47026,7 @@ goofproof:
       - vtai
       synset: 00166401-v
 goofy:
-  s:
+  a:
     form:
     - goofier
     - goofiest
@@ -47291,7 +47291,7 @@ goosefoot maple:
     - id: 'goosefoot_maple%1:20:00::'
       synset: 12774522-n
 gooselike:
-  s:
+  a:
     sense:
     - id: gooselike%5:00:00:stupid:00
       synset: 00441663-s
@@ -47311,14 +47311,14 @@ gooseneck loosestrife:
     - id: 'gooseneck_loosestrife%1:20:00::'
       synset: 12115798-n
 goosey:
-  s:
+  a:
     sense:
     - derivation:
       - 'goose%1:18:00::'
       id: goosey%5:00:00:stupid:00
       synset: 00441663-s
 goosy:
-  s:
+  a:
     form:
     - goosier
     - goosiest
@@ -47419,7 +47419,7 @@ gorge:
       - via-pp
       synset: 01195632-v
 gorgeous:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɔːdʒəs
       variety: GB
@@ -47496,7 +47496,7 @@ gormandize:
       - via-pp
       synset: 01195632-v
 gormless:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɔːmləs
       variety: GB
@@ -47514,7 +47514,7 @@ gorse:
     - id: 'gorse%1:20:00::'
       synset: 12595371-n
 gory:
-  s:
+  a:
     form:
     - gorier
     - goriest
@@ -47595,6 +47595,20 @@ gospeller:
     - id: 'gospeller%1:18:00::'
       synset: 10086818-n
 gossamer:
+  a:
+    pronunciation:
+    - value: ˈɡɒ.sə.mə
+      variety: GB
+    - value: ˈɡɑ.sə.mɚ
+      variety: US
+    sense:
+    - derivation:
+      - 'gossamer%1:06:01::'
+      - 'gossamer%1:06:00::'
+      id: gossamer%5:00:00:delicate:00
+      synset: 00709899-s
+    - id: gossamer%5:00:00:thin:01
+      synset: 02422186-s
   n:
     pronunciation:
     - value: ˈɡɒ.sə.mə
@@ -47610,20 +47624,6 @@ gossamer:
       - gossamer%5:00:00:delicate:00
       id: 'gossamer%1:06:01::'
       synset: 03063809-n
-  s:
-    pronunciation:
-    - value: ˈɡɒ.sə.mə
-      variety: GB
-    - value: ˈɡɑ.sə.mɚ
-      variety: US
-    sense:
-    - derivation:
-      - 'gossamer%1:06:01::'
-      - 'gossamer%1:06:00::'
-      id: gossamer%5:00:00:delicate:00
-      synset: 00709899-s
-    - id: gossamer%5:00:00:thin:01
-      synset: 02422186-s
 gossip:
   n:
     pronunciation:
@@ -47706,14 +47706,14 @@ gossipmongering:
     - id: 'gossipmongering%1:10:00::'
       synset: 07150158-n
 gossipy:
-  s:
+  a:
     sense:
     - derivation:
       - 'gossip%1:10:00::'
       id: gossipy%5:00:00:communicative:00
       synset: 00498467-s
 gothic:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɒ.θɪk
       variety: GB
@@ -47916,7 +47916,7 @@ gout:
       id: 'gout%1:26:00::'
       synset: 14212286-n
 gouty:
-  s:
+  a:
     sense:
     - derivation:
       - 'gout%1:26:00::'
@@ -47965,7 +47965,7 @@ govern:
       - vtii
       synset: 02634728-v
 governable:
-  s:
+  a:
     sense:
     - id: governable%5:00:00:manageable:00
       synset: 01478085-s
@@ -47999,6 +47999,10 @@ governess:
     - id: 'governess%1:18:00::'
       synset: 10159689-n
 governing:
+  a:
+    sense:
+    - id: governing%5:00:00:dominant:01
+      synset: 00795630-s
   n:
     pronunciation:
     - value: ˈɡʌvɚnɪŋ
@@ -48010,10 +48014,6 @@ governing:
       - 'govern%2:41:00::'
       id: 'governing%1:04:00::'
       synset: 01127115-n
-  s:
-    sense:
-    - id: governing%5:00:00:dominant:01
-      synset: 00795630-s
 governing board:
   n:
     sense:
@@ -48127,7 +48127,7 @@ government-in-exile:
     - id: 'government-in-exile%1:14:00::'
       synset: 08069442-n
 governmental:
-  s:
+  a:
     sense:
     - id: governmental%5:00:00:political:00
       synset: 01819996-s
@@ -48227,7 +48227,7 @@ gown:
       - vtaa
       synset: 00106346-v
 gowned:
-  s:
+  a:
     sense:
     - id: gowned%5:00:00:clothed:00
       synset: 00458059-s
@@ -48319,7 +48319,7 @@ grabber:
     - id: 'grabber%1:18:00::'
       synset: 10160203-n
 grabby:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹæbi
       variety: US
@@ -48439,7 +48439,7 @@ gracefulness:
       id: 'gracefulness%1:07:00::'
       synset: 05010588-n
 graceless:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪsləs
     sense:
@@ -48487,7 +48487,7 @@ gracilariid moth:
     - id: 'gracilariid_moth%1:05:00::'
       synset: 02295632-n
 gracile:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹæsaɪl
       variety: GB
@@ -48587,7 +48587,7 @@ grad student:
     - id: 'grad_student%1:18:00::'
       synset: 10160629-n
 gradable:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪdəbəl
     sense:
@@ -48638,7 +48638,7 @@ gradation:
       id: 'gradation%1:04:00::'
       synset: 01005671-n
 gradational:
-  s:
+  a:
     sense:
     - derivation:
       - 'gradation%1:26:00::'
@@ -48646,7 +48646,7 @@ gradational:
       id: gradational%5:00:00:gradual:01
       synset: 01146623-s
 gradatory:
-  s:
+  a:
     sense:
     - id: gradatory%5:00:00:gradual:01
       synset: 01146623-s
@@ -48756,17 +48756,17 @@ grade separation:
     - id: 'grade_separation%1:06:00::'
       synset: 03456309-n
 grade-appropriate:
-  s:
+  a:
     sense:
     - id: grade-appropriate%5:00:00:appropriate:00
       synset: 00136264-s
 grade-constructed:
-  s:
+  a:
     sense:
     - id: grade-constructed%5:00:00:surface:00
       synset: 02480941-s
 graded:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪdɪd
     sense:
@@ -48877,6 +48877,16 @@ gradualness:
       id: 'gradualness%1:07:00::'
       synset: 05068974-n
 graduate:
+  a:
+    pronunciation:
+    - value: ˈɡɹædjuət
+      variety: GB
+    - value: ˈɡɹædʒuɪt
+      variety: US
+    sense:
+    - adjposition: a
+      id: graduate%5:00:00:high:02
+      synset: 01214337-s
   n:
     pronunciation:
     - value: ˈɡɹædjuət
@@ -48893,16 +48903,6 @@ graduate:
       - 'graduate%2:30:00::'
       id: 'graduate%1:06:00::'
       synset: 03456417-n
-  s:
-    pronunciation:
-    - value: ˈɡɹædjuət
-      variety: GB
-    - value: ˈɡɹædʒuɪt
-      variety: US
-    sense:
-    - adjposition: a
-      id: graduate%5:00:00:high:02
-      synset: 01214337-s
   v:
     pronunciation:
     - value: ˈɡɹædjuət
@@ -49212,7 +49212,7 @@ grains of paradise:
     - id: 'grains_of_paradise%1:20:00::'
       synset: 12378485-n
 grainy:
-  s:
+  a:
     form:
     - grainier
     - grainiest
@@ -49493,13 +49493,7 @@ granary:
     - id: 'granary%1:06:00::'
       synset: 03457393-n
 grand:
-  n:
-    sense:
-    - id: 'grand%1:23:00::'
-      synset: 13772984-n
-    - id: 'grand%1:06:00::'
-      synset: 03457685-n
-  s:
+  a:
     sense:
     - derivation:
       - 'grandness%1:07:01::'
@@ -49533,6 +49527,12 @@ grand:
       - 'grandness%1:07:00::'
       id: grand%5:00:00:dignified:00
       synset: 00755631-s
+  n:
+    sense:
+    - id: 'grand%1:23:00::'
+      synset: 13772984-n
+    - id: 'grand%1:06:00::'
+      synset: 03457685-n
 grand Turk:
   n:
     sense:
@@ -49711,7 +49711,7 @@ grandiloquence:
       id: 'grandiloquence%1:10:00::'
       synset: 07084469-n
 grandiloquent:
-  s:
+  a:
     pronunciation:
     - value: ɡɹænˈdɪl.ə.kwənt
     sense:
@@ -49729,7 +49729,7 @@ grandiloquently:
       - grandiloquent%5:00:00:rhetorical:00
       synset: 00396196-r
 grandiose:
-  s:
+  a:
     pronunciation:
     - value: ɡɹæn.diˈəʊs
     sense:
@@ -49893,7 +49893,7 @@ granite:
       id: 'granite%1:07:00::'
       synset: 04785353-n
 granitelike:
-  s:
+  a:
     sense:
     - id: granitelike%5:00:00:hard:01
       synset: 01155454-s
@@ -49903,7 +49903,7 @@ graniteware:
     - id: 'graniteware%1:06:00::'
       synset: 03458175-n
 granitic:
-  s:
+  a:
     sense:
     - derivation:
       - 'granite%1:07:00::'
@@ -50051,7 +50051,7 @@ grant-in-aid:
     - id: 'grant-in-aid%1:21:00::'
       synset: 13288557-n
 granted:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹæntɪd
       variety: US
@@ -50142,7 +50142,7 @@ granulate:
       - vibody
       synset: 00099128-v
 granulated:
-  s:
+  a:
     sense:
     - id: granulated%5:00:00:coarse:00
       synset: 02239631-s
@@ -50251,7 +50251,7 @@ granulomatous:
       - 'granuloma%1:26:00::'
       synset: 02747332-a
 granulose:
-  s:
+  a:
     sense:
     - id: granulose%5:00:00:coarse:00
       synset: 02239247-s
@@ -50330,7 +50330,7 @@ grape-leaf begonia:
     - id: 'grape-leaf_begonia%1:20:00::'
       synset: 12381867-n
 grape-sized:
-  s:
+  a:
     sense:
     - id: grape-sized%5:00:00:sized:00
       synset: 02231219-s
@@ -50378,7 +50378,7 @@ grapevine family:
     - id: 'grapevine_family%1:20:00::'
       synset: 13165080-n
 grapey:
-  s:
+  a:
     sense:
     - derivation:
       - 'grape%1:13:00::'
@@ -50672,7 +50672,7 @@ grappling iron:
     - id: 'grappling_iron%1:06:00::'
       synset: 03459155-n
 grapy:
-  s:
+  a:
     sense:
     - derivation:
       - 'grape%1:13:00::'
@@ -50731,11 +50731,22 @@ graspability:
     - id: 'graspability%1:26:01::'
       synset: 92423351-n
 graspable:
-  s:
+  a:
     sense:
     - id: graspable%5:00:00:comprehensible:00
       synset: 00535672-s
 grasping:
+  a:
+    pronunciation:
+    - value: ˈɡɹæspɪŋ
+      variety: US
+    - value: ˈɡɹɑːspɪŋ
+      variety: GB
+    sense:
+    - derivation:
+      - 'grasping%1:04:00::'
+      id: grasping%5:00:00:acquisitive:00
+      synset: 00030046-s
   n:
     pronunciation:
     - value: ˈɡɹæspɪŋ
@@ -50752,17 +50763,6 @@ grasping:
       - 'grasp%2:35:00::'
       id: 'grasping%1:04:00::'
       synset: 00813935-n
-  s:
-    pronunciation:
-    - value: ˈɡɹæspɪŋ
-      variety: US
-    - value: ˈɡɹɑːspɪŋ
-      variety: GB
-    sense:
-    - derivation:
-      - 'grasping%1:04:00::'
-      id: grasping%5:00:00:acquisitive:00
-      synset: 00030046-s
 grass:
   n:
     pronunciation:
@@ -50927,12 +50927,12 @@ grass wrack:
     - id: 'grass_wrack%1:20:00::'
       synset: 12639488-n
 grass-covered:
-  s:
+  a:
     sense:
     - id: grass-covered%5:00:00:grassy:00
       synset: 00211373-s
 grass-eating:
-  s:
+  a:
     sense:
     - adjposition: a
       id: grass-eating%5:00:00:herbivorous:00
@@ -50987,12 +50987,12 @@ grassless:
       id: 'grassless%3:00:00::'
       synset: 00211804-a
 grasslike:
-  s:
+  a:
     sense:
     - id: grasslike%5:00:00:grassy:00
       synset: 00211508-s
 grassroots:
-  s:
+  a:
     sense:
     - id: grassroots%5:00:00:basic:00
       synset: 01862626-s
@@ -51021,12 +51021,12 @@ grassy death camas:
     - id: 'grassy_death_camas%1:20:00::'
       synset: 12488097-n
 grassy-leafed:
-  s:
+  a:
     sense:
     - id: grassy-leafed%5:00:00:leafy:00
       synset: 01706484-s
 grassy-leaved:
-  s:
+  a:
     sense:
     - id: grassy-leaved%5:00:00:leafy:00
       synset: 01706484-s
@@ -51149,7 +51149,7 @@ gratification:
       id: 'gratification%1:04:00::'
       synset: 01074704-n
 gratified:
-  s:
+  a:
     sense:
     - id: gratified%5:00:00:pleased:00
       synset: 01811050-s
@@ -51182,7 +51182,7 @@ gratify:
       - vtii
       synset: 01184590-v
 gratifying:
-  s:
+  a:
     sense:
     - id: gratifying%5:00:00:pleasing:00
       synset: 01813678-s
@@ -51196,6 +51196,12 @@ gratifyingly:
       - gratifying%5:00:00:pleasant:00
       synset: 00184950-r
 grating:
+  a:
+    pronunciation:
+    - value: ˈɡɹeɪtɪŋ
+    sense:
+    - id: grating%5:00:00:cacophonous:00
+      synset: 00300342-s
   n:
     pronunciation:
     - value: ˈɡɹeɪtɪŋ
@@ -51208,12 +51214,6 @@ grating:
       synset: 03459480-n
     - id: 'grating%1:06:02::'
       synset: 03199222-n
-  s:
-    pronunciation:
-    - value: ˈɡɹeɪtɪŋ
-    sense:
-    - id: grating%5:00:00:cacophonous:00
-      synset: 00300342-s
 gratingly:
   r:
     sense:
@@ -51222,16 +51222,7 @@ gratingly:
       - grating%5:00:00:cacophonous:00
       synset: 00352317-r
 gratis:
-  r:
-    pronunciation:
-    - value: ˈɡɹɑː.tɪs
-      variety: GB
-    - value: ˈɡɹætɪs
-      variety: US
-    sense:
-    - id: 'gratis%4:02:00::'
-      synset: 00259685-r
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹɑː.tɪs
       variety: GB
@@ -51241,6 +51232,15 @@ gratis:
     - adjposition: p
       id: gratis%5:00:00:unpaid:00
       synset: 01714713-s
+  r:
+    pronunciation:
+    - value: ˈɡɹɑː.tɪs
+      variety: GB
+    - value: ˈɡɹætɪs
+      variety: US
+    sense:
+    - id: 'gratis%4:02:00::'
+      synset: 00259685-r
 gratitude:
   n:
     pronunciation:
@@ -51251,7 +51251,7 @@ gratitude:
       id: 'gratitude%1:12:00::'
       synset: 07519582-n
 gratuitous:
-  s:
+  a:
     pronunciation:
     - value: ɡɹəˈtjuː.ɪt.əs
       variety: GB
@@ -51289,20 +51289,12 @@ gratuity:
     - id: 'gratuity%1:21:01::'
       synset: 13289043-n
 gratulatory:
-  s:
+  a:
     sense:
     - id: gratulatory%5:00:00:felicitous:00
       synset: 01003512-s
 grave:
-  n:
-    sense:
-    - id: 'grave%1:28:00::'
-      synset: 15168686-n
-    - id: 'grave%1:06:00::'
-      synset: 03459977-n
-    - id: 'grave%1:10:00::'
-      synset: 06835587-n
-  s:
+  a:
     sense:
     - derivation:
       - 'graveness%1:07:00::'
@@ -51316,6 +51308,14 @@ grave:
       - 'gravity%1:07:00::'
       id: grave%5:00:00:important:00
       synset: 01281533-s
+  n:
+    sense:
+    - id: 'grave%1:28:00::'
+      synset: 15168686-n
+    - id: 'grave%1:06:00::'
+      synset: 03459977-n
+    - id: 'grave%1:10:00::'
+      synset: 06835587-n
   v:
     form:
     - graven
@@ -51390,7 +51390,7 @@ gravel pit:
     - id: 'gravel_pit%1:06:00::'
       synset: 03460223-n
 gravelly:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹævəli
       variety: US
@@ -51420,7 +51420,7 @@ gravely:
       - grave%5:00:00:critical:03
       synset: 00016415-r
 graven:
-  s:
+  a:
     sense:
     - id: graven%5:00:02:carved:00
       synset: 00318378-s
@@ -51482,7 +51482,7 @@ graveyard watch:
     - id: 'graveyard_watch%1:28:00::'
       synset: 15318678-n
 gravid:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹævɪd
     sense:
@@ -51800,6 +51800,21 @@ gravy train:
     - id: 'gravy_train%1:21:00::'
       synset: 13276782-n
 gray:
+  a:
+    pronunciation:
+    - value: ɡɹeɪ
+    sense:
+    - derivation:
+      - 'gray%1:07:00::'
+      - 'grayness%1:07:00::'
+      id: gray%5:00:00:achromatic:00
+      synset: 00390371-s
+    - id: gray%5:00:00:old:02
+      synset: 01650120-s
+    - id: gray%5:00:00:southern:02
+      synset: 01611702-s
+    - id: gray%5:00:00:intermediate:00
+      synset: 01018282-s
   n:
     pronunciation:
     - value: ɡɹeɪ
@@ -51818,21 +51833,6 @@ gray:
       synset: 02384016-n
     - id: 'gray%1:23:00::'
       synset: 13667291-n
-  s:
-    pronunciation:
-    - value: ɡɹeɪ
-    sense:
-    - derivation:
-      - 'gray%1:07:00::'
-      - 'grayness%1:07:00::'
-      id: gray%5:00:00:achromatic:00
-      synset: 00390371-s
-    - id: gray%5:00:00:old:02
-      synset: 01650120-s
-    - id: gray%5:00:00:southern:02
-      synset: 01611702-s
-    - id: gray%5:00:00:intermediate:00
-      synset: 01018282-s
   v:
     pronunciation:
     - value: ɡɹeɪ
@@ -51988,42 +51988,42 @@ gray wolf:
     - id: 'gray_wolf%1:05:00::'
       synset: 02117019-n
 gray-black:
-  s:
+  a:
     sense:
     - id: gray-black%5:00:00:achromatic:00
       synset: 00390668-s
 gray-blue:
-  s:
+  a:
     sense:
     - id: gray-blue%5:00:00:chromatic:00
       synset: 00376533-s
 gray-brown:
-  s:
+  a:
     sense:
     - id: gray-brown%5:00:00:chromatic:00
       synset: 00376655-s
 gray-green:
-  s:
+  a:
     sense:
     - id: gray-green%5:00:00:chromatic:00
       synset: 00376782-s
 gray-haired:
-  s:
+  a:
     sense:
     - id: gray-haired%5:00:00:old:02
       synset: 01650120-s
 gray-headed:
-  s:
+  a:
     sense:
     - id: gray-headed%5:00:00:old:02
       synset: 01650120-s
 gray-pink:
-  s:
+  a:
     sense:
     - id: gray-pink%5:00:00:chromatic:00
       synset: 00376909-s
 gray-white:
-  s:
+  a:
     sense:
     - id: gray-white%5:00:00:achromatic:00
       synset: 00390795-s
@@ -52045,7 +52045,7 @@ grayhen:
     - id: 'grayhen%1:05:00::'
       synset: 01798746-n
 grayish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪ.ɪʃ
     sense:
@@ -52057,32 +52057,32 @@ grayish brown:
     - id: 'grayish_brown%1:07:00::'
       synset: 04980377-n
 grayish-black:
-  s:
+  a:
     sense:
     - id: grayish-black%5:00:00:achromatic:00
       synset: 00390668-s
 grayish-blue:
-  s:
+  a:
     sense:
     - id: grayish-blue%5:00:00:chromatic:00
       synset: 00376533-s
 grayish-brown:
-  s:
+  a:
     sense:
     - id: grayish-brown%5:00:00:chromatic:00
       synset: 00376655-s
 grayish-green:
-  s:
+  a:
     sense:
     - id: grayish-green%5:00:00:chromatic:00
       synset: 00376782-s
 grayish-pink:
-  s:
+  a:
     sense:
     - id: grayish-pink%5:00:00:chromatic:00
       synset: 00376909-s
 grayish-white:
-  s:
+  a:
     sense:
     - id: grayish-white%5:00:00:achromatic:00
       synset: 00390795-s
@@ -52182,7 +52182,7 @@ graze:
       - via-pp
       synset: 01177039-v
 grazed:
-  s:
+  a:
     sense:
     - id: grazed%5:00:00:touched:00
       synset: 02454462-s
@@ -52284,7 +52284,7 @@ greasepaint:
     - id: 'greasepaint%1:06:00::'
       synset: 03461389-n
 greaseproof:
-  s:
+  a:
     sense:
     - id: greaseproof%5:00:00:impervious:00
       synset: 01779028-s
@@ -52321,7 +52321,7 @@ greasiness:
       id: 'greasiness%1:07:00::'
       synset: 05007281-n
 greasy:
-  s:
+  a:
     form:
     - greasier
     - greasiest
@@ -52346,13 +52346,7 @@ greasy spoon:
     - id: 'greasy_spoon%1:06:00::'
       synset: 03461490-n
 great:
-  n:
-    pronunciation:
-    - value: ɡɹeɪt
-    sense:
-    - id: 'great%1:18:00::'
-      synset: 10164601-n
-  s:
+  a:
     pronunciation:
     - value: ɡɹeɪt
     sense:
@@ -52375,6 +52369,12 @@ great:
     - adjposition: p
       id: great%5:00:00:pregnant:00
       synset: 00174652-s
+  n:
+    pronunciation:
+    - value: ɡɹeɪt
+    sense:
+    - id: 'great%1:18:00::'
+      synset: 10164601-n
 great Solomon's-seal:
   n:
     sense:
@@ -52411,7 +52411,7 @@ great barracuda:
     - id: 'great_barracuda%1:05:00::'
       synset: 02606170-n
 great bellied:
-  s:
+  a:
     sense:
     - id: great_bellied%5:00:00:bellied:00
       synset: 00224367-s
@@ -52769,7 +52769,7 @@ greater yellowlegs:
     - id: 'greater_yellowlegs%1:05:00::'
       synset: 02030996-n
 greatest:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪtɛst
     sense:
@@ -52786,7 +52786,7 @@ greatest common factor:
     - id: 'greatest_common_factor%1:23:00::'
       synset: 13757303-n
 greathearted:
-  s:
+  a:
     sense:
     - id: greathearted%5:00:00:noble:01
       synset: 01593452-s
@@ -52864,7 +52864,7 @@ greediness:
       id: 'greediness%1:07:00::'
       synset: 04842048-n
 greedy:
-  s:
+  a:
     form:
     - greedier
     - greediest
@@ -53270,7 +53270,7 @@ green woodpecker:
     - id: 'green_woodpecker%1:05:00::'
       synset: 01841727-n
 green-blind:
-  s:
+  a:
     sense:
     - derivation:
       - 'green-blindness%1:26:00::'
@@ -53284,7 +53284,7 @@ green-blindness:
       id: 'green-blindness%1:26:00::'
       synset: 14177650-n
 green-eyed:
-  s:
+  a:
     sense:
     - id: green-eyed%5:00:00:distrustful:00
       synset: 02473333-s
@@ -53299,7 +53299,7 @@ green-tailed towhee:
     - id: 'green-tailed_towhee%1:05:00::'
       synset: 01545074-n
 green-white:
-  s:
+  a:
     sense:
     - id: green-white%5:00:00:achromatic:00
       synset: 00391023-s
@@ -53437,7 +53437,7 @@ greening:
       id: 'greening%1:19:00::'
       synset: 11525964-n
 greenish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹiːnɪʃ
     sense:
@@ -53456,22 +53456,22 @@ greenish yellow:
     - id: 'greenish_yellow%1:07:00::'
       synset: 04974271-n
 greenish-brown:
-  s:
+  a:
     sense:
     - id: greenish-brown%5:00:00:chromatic:00
       synset: 00377317-s
 greenish-gray:
-  s:
+  a:
     sense:
     - id: greenish-gray%5:00:00:achromatic:00
       synset: 00390922-s
 greenish-grey:
-  s:
+  a:
     sense:
     - id: greenish-grey%5:00:00:achromatic:00
       synset: 00390922-s
 greenish-white:
-  s:
+  a:
     sense:
     - id: greenish-white%5:00:00:achromatic:00
       synset: 00391023-s
@@ -53773,6 +53773,18 @@ grevy's zebra:
     - id: 'grevy''s_zebra%1:05:00::'
       synset: 02394160-n
 grey:
+  a:
+    sense:
+    - derivation:
+      - 'greyness%1:07:00::'
+      id: grey%5:00:00:achromatic:00
+      synset: 00390371-s
+    - id: grey%5:00:00:old:02
+      synset: 01650120-s
+    - id: grey%5:00:00:southern:02
+      synset: 01611702-s
+    - id: grey%5:00:00:intermediate:00
+      synset: 01018282-s
   n:
     sense:
     - id: 'grey%1:14:00::'
@@ -53786,18 +53798,6 @@ grey:
       synset: 03461130-n
     - id: 'grey%1:05:00::'
       synset: 02384016-n
-  s:
-    sense:
-    - derivation:
-      - 'greyness%1:07:00::'
-      id: grey%5:00:00:achromatic:00
-      synset: 00390371-s
-    - id: grey%5:00:00:old:02
-      synset: 01650120-s
-    - id: grey%5:00:00:southern:02
-      synset: 01611702-s
-    - id: grey%5:00:00:intermediate:00
-      synset: 01018282-s
   v:
     sense:
     - derivation:
@@ -53956,32 +53956,32 @@ grey wolf:
     - id: 'grey_wolf%1:05:00::'
       synset: 02117019-n
 grey-black:
-  s:
+  a:
     sense:
     - id: grey-black%5:00:00:achromatic:00
       synset: 00390668-s
 grey-blue:
-  s:
+  a:
     sense:
     - id: grey-blue%5:00:00:chromatic:00
       synset: 00376533-s
 grey-brown:
-  s:
+  a:
     sense:
     - id: grey-brown%5:00:00:chromatic:00
       synset: 00376655-s
 grey-green:
-  s:
+  a:
     sense:
     - id: grey-green%5:00:00:chromatic:00
       synset: 00376782-s
 grey-haired:
-  s:
+  a:
     sense:
     - id: grey-haired%5:00:00:old:02
       synset: 01650120-s
 grey-headed:
-  s:
+  a:
     sense:
     - id: grey-headed%5:00:00:old:02
       synset: 01650120-s
@@ -53991,12 +53991,12 @@ grey-leaf pine:
     - id: 'grey-leaf_pine%1:20:00::'
       synset: 11638976-n
 grey-pink:
-  s:
+  a:
     sense:
     - id: grey-pink%5:00:00:chromatic:00
       synset: 00376909-s
 grey-white:
-  s:
+  a:
     sense:
     - id: grey-white%5:00:00:achromatic:00
       synset: 00390795-s
@@ -54020,7 +54020,7 @@ greybeard:
     - id: 'greybeard%1:06:00::'
       synset: 02828382-n
 greyed:
-  s:
+  a:
     sense:
     - id: greyed%5:00:00:colorless:02
       synset: 00406483-s
@@ -54042,7 +54042,7 @@ greyhound racing:
     - id: 'greyhound_racing%1:04:00::'
       synset: 00450962-n
 greyish:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹeɪ.ɪʃ
     sense:
@@ -54054,32 +54054,32 @@ greyish brown:
     - id: 'greyish_brown%1:07:00::'
       synset: 04980377-n
 greyish-black:
-  s:
+  a:
     sense:
     - id: greyish-black%5:00:00:achromatic:00
       synset: 00390668-s
 greyish-blue:
-  s:
+  a:
     sense:
     - id: greyish-blue%5:00:00:chromatic:00
       synset: 00376533-s
 greyish-brown:
-  s:
+  a:
     sense:
     - id: greyish-brown%5:00:00:chromatic:00
       synset: 00376655-s
 greyish-green:
-  s:
+  a:
     sense:
     - id: greyish-green%5:00:00:chromatic:00
       synset: 00376782-s
 greyish-pink:
-  s:
+  a:
     sense:
     - id: greyish-pink%5:00:00:chromatic:00
       synset: 00376909-s
 greyish-white:
-  s:
+  a:
     sense:
     - id: greyish-white%5:00:00:achromatic:00
       synset: 00390795-s
@@ -54190,7 +54190,7 @@ grief:
     - id: 'grief%1:09:00::'
       synset: 05842007-n
 grief-stricken:
-  s:
+  a:
     sense:
     - id: grief-stricken%5:00:00:sorrowful:00
       synset: 01367733-s
@@ -54232,12 +54232,12 @@ griever:
       id: 'griever%1:18:00::'
       synset: 10354959-n
 grieving:
-  s:
+  a:
     sense:
     - id: grieving%5:00:00:sorrowful:00
       synset: 01367733-s
 grievous:
-  s:
+  a:
     pronunciation:
     - value: ɡɹiː.vəs
     sense:
@@ -54341,7 +54341,7 @@ grille:
     - id: 'grille%1:06:00::'
       synset: 03464523-n
 grilled:
-  s:
+  a:
     sense:
     - id: grilled%5:00:02:cooked:00
       synset: 00619652-s
@@ -54374,7 +54374,7 @@ grillwork:
     - id: 'grillwork%1:06:01::'
       synset: 03464523-n
 grim:
-  s:
+  a:
     form:
     - grimmer
     - grimmest
@@ -54483,7 +54483,7 @@ grimoire:
     - id: 'grimoire%1:10:00::'
       synset: 06433675-n
 grimy:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹaɪmi
     sense:
@@ -54803,7 +54803,7 @@ grippe:
     - id: 'grippe%1:26:00::'
       synset: 14145979-n
 gripping:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹɪpɪŋ
     sense:
@@ -54830,7 +54830,7 @@ griseofulvin:
     - id: 'griseofulvin%1:06:00::'
       synset: 03465606-n
 grisly:
-  s:
+  a:
     form:
     - grislier
     - grisliest
@@ -54869,7 +54869,7 @@ gristle:
       id: 'gristle%1:08:00::'
       synset: 05295590-n
 gristly:
-  s:
+  a:
     sense:
     - derivation:
       - 'gristle%1:08:00::'
@@ -54923,7 +54923,7 @@ gritstone:
     - id: 'gritstone%1:27:00::'
       synset: 14724755-n
 gritty:
-  s:
+  a:
     form:
     - grittier
     - grittiest
@@ -54963,16 +54963,12 @@ grizzle:
       - via-that
       synset: 00909883-v
 grizzled:
-  s:
+  a:
     sense:
     - id: grizzled%5:00:00:brunet:00
       synset: 00246619-s
 grizzly:
-  n:
-    sense:
-    - id: 'grizzly%1:05:00::'
-      synset: 02135232-n
-  s:
+  a:
     form:
     - grizzlier
     - grizzliest
@@ -54981,6 +54977,10 @@ grizzly:
       - 'grizzle%1:06:00::'
       id: grizzly%5:00:00:old:02
       synset: 01650120-s
+  n:
+    sense:
+    - id: 'grizzly%1:05:00::'
+      synset: 02135232-n
 grizzly bear:
   n:
     sense:
@@ -55114,7 +55114,7 @@ grogginess:
     - id: 'grogginess%1:09:00::'
       synset: 05687747-n
 groggy:
-  s:
+  a:
     form:
     - groggier
     - groggiest
@@ -55294,7 +55294,7 @@ groove:
       - vtii
       synset: 01279995-v
 grooved:
-  s:
+  a:
     sense:
     - id: grooved%5:00:00:established:00
       synset: 01640151-s
@@ -55315,7 +55315,7 @@ grooving:
       id: 'grooving%1:04:00::'
       synset: 00927840-n
 groovy:
-  s:
+  a:
     form:
     - groovier
     - grooviest
@@ -55376,7 +55376,7 @@ grope for:
       - vtai
       synset: 01317100-v
 groping:
-  s:
+  a:
     sense:
     - id: groping%5:00:00:uncertain:02
       synset: 00339173-s
@@ -55575,16 +55575,7 @@ grot:
     - id: 'grot%1:17:00::'
       synset: 09317783-n
 grotesque:
-  n:
-    pronunciation:
-    - value: ɡɹəʊˈtɛsk
-      variety: GB
-    - value: ɡɹoʊˈtɛsk
-      variety: US
-    sense:
-    - id: 'grotesque%1:06:00::'
-      synset: 03467373-n
-  s:
+  a:
     pronunciation:
     - value: ɡɹəʊˈtɛsk
       variety: GB
@@ -55599,6 +55590,15 @@ grotesque:
       - 'grotesqueness%1:07:00::'
       id: grotesque%5:00:00:strange:00
       synset: 00970835-s
+  n:
+    pronunciation:
+    - value: ɡɹəʊˈtɛsk
+      variety: GB
+    - value: ɡɹoʊˈtɛsk
+      variety: US
+    sense:
+    - id: 'grotesque%1:06:00::'
+      synset: 03467373-n
 grotesquely:
   r:
     sense:
@@ -55639,7 +55639,7 @@ grotto:
     - id: 'grotto%1:17:00::'
       synset: 09317783-n
 grotty:
-  s:
+  a:
     form:
     - grottier
     - grottiest
@@ -55675,7 +55675,7 @@ grouchily:
       - grouchy%5:00:00:ill-natured:00
       synset: 00294964-r
 grouchy:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹaʊtʃi
     sense:
@@ -56064,12 +56064,12 @@ ground-emplaced mine:
     - id: 'ground-emplaced_mine%1:06:00::'
       synset: 03644989-n
 ground-floor:
-  s:
+  a:
     sense:
     - id: ground-floor%5:00:00:downstairs:00
       synset: 02503931-s
 ground-hugging:
-  s:
+  a:
     sense:
     - id: ground-hugging%5:00:00:low:01
       synset: 01209679-s
@@ -56101,18 +56101,18 @@ groundbreaker:
     - id: 'groundbreaker%1:18:00::'
       synset: 10454492-n
 groundbreaking:
+  a:
+    pronunciation:
+    - value: ˈɡɹaʊndbɹeɪkɪŋ
+    sense:
+    - id: groundbreaking%5:00:00:original:00
+      synset: 01692228-s
   n:
     pronunciation:
     - value: ˈɡɹaʊndbɹeɪkɪŋ
     sense:
     - id: 'groundbreaking%1:04:00::'
       synset: 00240350-n
-  s:
-    pronunciation:
-    - value: ˈɡɹaʊndbɹeɪkɪŋ
-    sense:
-    - id: groundbreaking%5:00:00:original:00
-      synset: 01692228-s
 groundbreaking ceremony:
   n:
     sense:
@@ -56161,7 +56161,7 @@ groundkeeper:
     - id: 'groundkeeper%1:18:00::'
       synset: 10168183-n
 groundless:
-  s:
+  a:
     sense:
     - id: groundless%5:00:00:unsupported:02
       synset: 02361767-s
@@ -56401,7 +56401,7 @@ group therapy:
     - id: 'group_therapy%1:04:00::'
       synset: 00704941-n
 grouped:
-  s:
+  a:
     sense:
     - id: grouped%5:00:00:classified:01
       synset: 00416438-s
@@ -56546,7 +56546,7 @@ groveler:
       id: 'groveler%1:18:00::'
       synset: 09820054-n
 groveling:
-  s:
+  a:
     sense:
     - id: groveling%5:00:00:submissive:00
       synset: 00793426-s
@@ -56558,7 +56558,7 @@ groveller:
       id: 'groveller%1:18:00::'
       synset: 09820054-n
 grovelling:
-  s:
+  a:
     sense:
     - id: grovelling%5:00:00:submissive:00
       synset: 00793426-s
@@ -56789,7 +56789,7 @@ growling:
       id: 'growling%1:11:00::'
       synset: 07399073-n
 grown:
-  s:
+  a:
     pronunciation:
     - value: ɡɹəʊn
       variety: GB
@@ -56799,18 +56799,18 @@ grown:
     - id: grown%5:00:00:mature:01
       synset: 01491979-s
 grownup:
+  a:
+    sense:
+    - derivation:
+      - 'grownup%1:18:01::'
+      id: grownup%5:00:00:mature:01
+      synset: 01491979-s
   n:
     sense:
     - derivation:
       - grownup%5:00:00:mature:01
       id: 'grownup%1:18:01::'
       synset: 09628463-n
-  s:
-    sense:
-    - derivation:
-      - 'grownup%1:18:01::'
-      id: grownup%5:00:00:mature:01
-      synset: 01491979-s
 growth:
   n:
     pronunciation:
@@ -57019,7 +57019,7 @@ grudge:
       - vtai
       synset: 01777655-v
 grudging:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹʌ.dʒɪŋ
       variety: GB
@@ -57047,12 +57047,12 @@ gruel:
     - id: 'gruel%1:13:00::'
       synset: 07719799-n
 grueling:
-  s:
+  a:
     sense:
     - id: grueling%5:00:00:effortful:00
       synset: 00840083-s
 gruelling:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹʊə.lɪŋ
       variety: GB
@@ -57062,7 +57062,7 @@ gruelling:
     - id: gruelling%5:00:00:effortful:00
       synset: 00840083-s
 gruesome:
-  s:
+  a:
     sense:
     - derivation:
       - 'gruesomeness%1:07:00::'
@@ -57083,7 +57083,7 @@ gruesomeness:
       id: 'gruesomeness%1:07:00::'
       synset: 04789874-n
 gruff:
-  s:
+  a:
     pronunciation:
     - value: ɡɹʌf
     sense:
@@ -57193,6 +57193,10 @@ grumbler:
       id: 'grumbler%1:18:00::'
       synset: 10796007-n
 grumbling:
+  a:
+    sense:
+    - id: grumbling%5:00:00:full:01
+      synset: 01459887-s
   n:
     sense:
     - derivation:
@@ -57204,10 +57208,6 @@ grumbling:
       - 'grumble%2:32:00::'
       id: 'grumbling%1:10:00::'
       synset: 07225752-n
-  s:
-    sense:
-    - id: grumbling%5:00:00:full:01
-      synset: 01459887-s
 grume:
   n:
     pronunciation:
@@ -57227,12 +57227,12 @@ grummet:
     - id: 'grummet%1:06:00::'
       synset: 03137089-n
 grumose:
-  s:
+  a:
     sense:
     - id: grumose%5:00:00:thick:02
       synset: 02424832-s
 grumous:
-  s:
+  a:
     sense:
     - derivation:
       - 'grume%1:27:00::'
@@ -57263,7 +57263,7 @@ grumpiness:
       id: 'grumpiness%1:07:00::'
       synset: 04649226-n
 grumpy:
-  s:
+  a:
     form:
     - grumpier
     - grumpiest
@@ -57292,7 +57292,7 @@ grungily:
       - grungy%5:00:00:dirty:01
       synset: 00502424-r
 grungy:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɹʌndʒi
     sense:
@@ -57666,13 +57666,13 @@ guard's van:
     - id: 'guard''s_van%1:06:00::'
       synset: 03470252-n
 guardant:
-  s:
+  a:
     sense:
     - adjposition: ip
       id: guardant%5:00:00:forward:01
       synset: 00205087-s
 guarded:
-  s:
+  a:
     pronunciation:
     - value: ˈɡɑɹdɪd
       variety: US
@@ -58264,7 +58264,7 @@ guideword:
     - id: 'guideword%1:10:00::'
       synset: 06302383-n
 guiding:
-  s:
+  a:
     sense:
     - id: guiding%5:00:00:leading:00
       synset: 00201055-s
@@ -58313,12 +58313,12 @@ guile:
     - id: 'guile%1:04:00::'
       synset: 00754297-n
 guileful:
-  s:
+  a:
     sense:
     - id: guileful%5:00:00:artful:00
       synset: 00149346-s
 guileless:
-  s:
+  a:
     pronunciation:
     - value: ˈɡaɪl.ləs
     sense:
@@ -58389,7 +58389,7 @@ guilt trip:
     - id: 'guilt_trip%1:12:00::'
       synset: 07551633-n
 guilt-ridden:
-  s:
+  a:
     sense:
     - id: guilt-ridden%5:00:00:guilty:00
       synset: 01325654-s
@@ -58545,7 +58545,7 @@ guitar player:
     - id: 'guitar_player%1:18:00::'
       synset: 10171280-n
 guitar-shaped:
-  s:
+  a:
     sense:
     - id: guitar-shaped%5:00:00:formed:00
       synset: 02154802-s
@@ -58650,7 +58650,7 @@ gullibility:
       id: 'gullibility%1:07:00::'
       synset: 04888351-n
 gullible:
-  s:
+  a:
     pronunciation:
     - value: ˈɡʌlɪbl̩
     sense:
@@ -58913,7 +58913,7 @@ gum-lac:
     - id: 'gum-lac%1:27:00::'
       synset: 14725682-n
 gum-like:
-  s:
+  a:
     sense:
     - id: gum-like%5:00:00:adhesive:00
       synset: 00054441-s
@@ -58961,7 +58961,7 @@ gumma:
     - id: 'gumma%1:26:00::'
       synset: 14262302-n
 gummed:
-  s:
+  a:
     sense:
     - id: gummed%5:00:00:adhesive:00
       synset: 00054518-s
@@ -58999,7 +58999,7 @@ gummosis:
     - id: 'gummosis%1:26:02::'
       synset: 14302455-n
 gummy:
-  s:
+  a:
     form:
     - gummier
     - gummiest
@@ -59021,7 +59021,7 @@ gumption:
     - id: 'gumption%1:07:00::'
       synset: 05039506-n
 gumptious:
-  s:
+  a:
     sense:
     - id: gumptious%5:00:00:enterprising:00
       synset: 00888341-s
@@ -59251,7 +59251,7 @@ gunflint:
     - id: 'gunflint%1:06:00::'
       synset: 03474278-n
 gung ho:
-  s:
+  a:
     pronunciation:
     - value: ɡʌŋˈhəʊ
       variety: GB
@@ -59538,7 +59538,7 @@ gusher:
       id: 'gusher%1:06:00::'
       synset: 03476153-n
 gushing:
-  s:
+  a:
     pronunciation:
     - value: ˈɡʌʃɪŋ
     sense:
@@ -59557,7 +59557,7 @@ gushingly:
       - gushing%5:00:00:demonstrative:00
       synset: 00354278-r
 gushy:
-  s:
+  a:
     form:
     - gushier
     - gushiest
@@ -59672,7 +59672,7 @@ gusto:
     - id: 'gusto%1:12:00::'
       synset: 07507121-n
 gusty:
-  s:
+  a:
     form:
     - gustier
     - gustiest
@@ -60178,12 +60178,12 @@ gynandromorph:
       id: 'gynandromorph%1:18:00::'
       synset: 10191752-n
 gynandromorphic:
-  s:
+  a:
     sense:
     - id: gynandromorphic%5:00:00:androgynous:00
       synset: 01482332-s
 gynandromorphous:
-  s:
+  a:
     sense:
     - derivation:
       - 'gynandromorph%1:18:00::'

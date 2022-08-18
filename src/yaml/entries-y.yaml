@@ -16,7 +16,7 @@ Y-linked gene:
     - id: 'y-linked_gene%1:08:00::'
       synset: 05449598-n
 Y-shaped:
-  s:
+  a:
     sense:
     - id: y-shaped%5:00:00:formed:00
       synset: 02159031-s
@@ -26,7 +26,7 @@ Y2K:
     - id: 'y2k%1:28:00::'
       synset: 15274358-n
 Y2K compliant:
-  s:
+  a:
     sense:
     - id: y2k_compliant%5:00:00:obedient:00
       synset: 01617863-s
@@ -267,6 +267,14 @@ Yank:
     - id: 'yank%1:18:00::'
       synset: 09766150-n
 Yankee:
+  a:
+    pronunciation:
+    - value: ˈjæŋ.ki
+    sense:
+    - derivation:
+      - 'yankee%1:18:02::'
+      id: yankee%5:00:00:northern:02
+      synset: 01611052-s
   n:
     pronunciation:
     - value: ˈjæŋ.ki
@@ -279,14 +287,6 @@ Yankee:
       synset: 10375641-n
     - id: 'yankee%1:18:00::'
       synset: 09766150-n
-  s:
-    pronunciation:
-    - value: ˈjæŋ.ki
-    sense:
-    - derivation:
-      - 'yankee%1:18:02::'
-      id: yankee%5:00:00:northern:02
-      synset: 01611052-s
 Yankee corn:
   n:
     sense:
@@ -1522,7 +1522,7 @@ yarn-dye:
       - vtai
       synset: 00284565-v
 yarn-spinning:
-  s:
+  a:
     sense:
     - id: yarn-spinning%5:00:00:communicative:00
       synset: 00502479-s
@@ -1653,13 +1653,7 @@ yawner:
       id: 'yawner%1:18:00::'
       synset: 10822797-n
 yawning:
-  n:
-    sense:
-    - derivation:
-      - 'yawn%2:29:00::'
-      id: 'yawning%1:04:00::'
-      synset: 00838954-n
-  s:
+  a:
     sense:
     - id: yawning%5:00:00:open:02
       synset: 01657821-s
@@ -1668,6 +1662,12 @@ yawning:
     - adjposition: a
       id: yawning%5:00:00:inattentive:00
       synset: 00167028-s
+  n:
+    sense:
+    - derivation:
+      - 'yawn%2:29:00::'
+      id: 'yawning%1:04:00::'
+      synset: 00838954-n
 yawp:
   v:
     sense:
@@ -1739,14 +1739,14 @@ year-around:
     - id: 'year-around%3:00:00::'
       synset: 01497577-a
 year-end:
+  a:
+    sense:
+    - id: year-end%5:00:00:closing:00
+      synset: 01014344-s
   n:
     sense:
     - id: 'year-end%1:28:00::'
       synset: 15226829-n
-  s:
-    sense:
-    - id: year-end%5:00:00:closing:00
-      synset: 01014344-s
 year-round:
   a:
     sense:
@@ -1771,11 +1771,22 @@ yearling:
     - id: 'yearling%1:05:01::'
       synset: 01890822-n
 yearlong:
-  s:
+  a:
     sense:
     - id: yearlong%5:00:00:long:02
       synset: 01444970-s
 yearly:
+  a:
+    pronunciation:
+    - value: ˈjɪɹli
+      variety: US
+    - value: ˈjɪəli
+      variety: GB
+    sense:
+    - derivation:
+      - 'year%1:28:01::'
+      id: yearly%5:00:00:periodic:00
+      synset: 01976215-s
   n:
     pronunciation:
     - value: ˈjɪɹli
@@ -1794,17 +1805,6 @@ yearly:
     sense:
     - id: 'yearly%4:02:00::'
       synset: 00082087-r
-  s:
-    pronunciation:
-    - value: ˈjɪɹli
-      variety: US
-    - value: ˈjɪəli
-      variety: GB
-    sense:
-    - derivation:
-      - 'year%1:28:01::'
-      id: yearly%5:00:00:periodic:00
-      synset: 01976215-s
 yearn:
   v:
     sense:
@@ -1829,7 +1829,7 @@ yearn:
       - vtaa
       synset: 01781522-v
 yearned-for:
-  s:
+  a:
     sense:
     - id: yearned-for%5:00:00:wanted:00
       synset: 02537648-s
@@ -1953,7 +1953,7 @@ yell:
       - via
       synset: 00914786-v
 yelled:
-  s:
+  a:
     sense:
     - id: yelled%5:00:00:loud:00
       synset: 01457023-s
@@ -1972,19 +1972,7 @@ yelling:
       id: 'yelling%1:10:00::'
       synset: 07138260-n
 yellow:
-  n:
-    pronunciation:
-    - value: ˈjɛl.əʊ
-      variety: GB
-    - value: ˈjɛl.oʊ
-      variety: US
-    sense:
-    - derivation:
-      - yellow%5:00:00:chromatic:00
-      - 'yellow%2:30:00::'
-      id: 'yellow%1:07:00::'
-      synset: 04972838-n
-  s:
+  a:
     pronunciation:
     - value: ˈjɛl.əʊ
       variety: GB
@@ -2007,6 +1995,18 @@ yellow:
       synset: 01231243-s
     - id: yellow%5:00:00:unhealthy:00
       synset: 01181100-s
+  n:
+    pronunciation:
+    - value: ˈjɛl.əʊ
+      variety: GB
+    - value: ˈjɛl.oʊ
+      variety: US
+    sense:
+    - derivation:
+      - yellow%5:00:00:chromatic:00
+      - 'yellow%2:30:00::'
+      id: 'yellow%1:07:00::'
+      synset: 04972838-n
   v:
     pronunciation:
     - value: ˈjɛl.əʊ
@@ -2558,17 +2558,17 @@ yellow woman:
     - id: 'yellow_woman%1:18:00::'
       synset: 80570446-n
 yellow-banded:
-  s:
+  a:
     sense:
     - id: yellow-banded%5:00:00:patterned:00
       synset: 01796100-s
 yellow-beige:
-  s:
+  a:
     sense:
     - id: yellow-beige%5:00:00:chromatic:00
       synset: 00387052-s
 yellow-bellied:
-  s:
+  a:
     sense:
     - id: yellow-bellied%5:00:00:cowardly:00
       synset: 00266180-s
@@ -2608,7 +2608,7 @@ yellow-breasted chat:
     - id: 'yellow-breasted_chat%1:05:00::'
       synset: 01572612-n
 yellow-brown:
-  s:
+  a:
     sense:
     - id: yellow-brown%5:00:00:chromatic:00
       synset: 00370566-s
@@ -2638,12 +2638,12 @@ yellow-fever mosquito:
     - id: 'yellow-fever_mosquito%1:05:00::'
       synset: 02203502-n
 yellow-gray:
-  s:
+  a:
     sense:
     - id: yellow-gray%5:00:00:achromatic:00
       synset: 00393635-s
 yellow-green:
-  s:
+  a:
     sense:
     - id: yellow-green%5:00:00:chromatic:00
       synset: 00387156-s
@@ -2653,7 +2653,7 @@ yellow-green algae:
     - id: 'yellow-green_algae%1:05:00::'
       synset: 01403032-n
 yellow-grey:
-  s:
+  a:
     sense:
     - id: yellow-grey%5:00:00:achromatic:00
       synset: 00393635-s
@@ -2663,12 +2663,12 @@ yellow-leaf sickle pine:
     - id: 'yellow-leaf_sickle_pine%1:20:00::'
       synset: 11675603-n
 yellow-marked:
-  s:
+  a:
     sense:
     - id: yellow-marked%5:00:00:patterned:00
       synset: 01796179-s
 yellow-orange:
-  s:
+  a:
     sense:
     - id: yellow-orange%5:00:00:chromatic:00
       synset: 00387257-s
@@ -2678,12 +2678,12 @@ yellow-shafted flicker:
     - id: 'yellow-shafted_flicker%1:05:00::'
       synset: 01842391-n
 yellow-spotted:
-  s:
+  a:
     sense:
     - id: yellow-spotted%5:00:00:patterned:00
       synset: 01796258-s
 yellow-striped:
-  s:
+  a:
     sense:
     - id: yellow-striped%5:00:00:patterned:00
       synset: 01796338-s
@@ -2693,17 +2693,17 @@ yellow-throated marten:
     - id: 'yellow-throated_marten%1:05:00::'
       synset: 02453756-n
 yellow-tinged:
-  s:
+  a:
     sense:
     - id: yellow-tinged%5:00:00:chromatic:00
       synset: 00387364-s
 yellow-tipped:
-  s:
+  a:
     sense:
     - id: yellow-tipped%5:00:00:tipped:00
       synset: 02440341-s
 yellow-white:
-  s:
+  a:
     sense:
     - id: yellow-white%5:00:00:achromatic:00
       synset: 00393767-s
@@ -2725,7 +2725,7 @@ yellowcake:
     - id: 'yellowcake%1:27:00::'
       synset: 15131096-n
 yellowed:
-  s:
+  a:
     sense:
     - id: yellowed%5:00:00:old:01
       synset: 01644956-s
@@ -2757,7 +2757,7 @@ yellowhammer:
     - id: 'yellowhammer%1:05:01::'
       synset: 01540841-n
 yellowish:
-  s:
+  a:
     pronunciation:
     - value: ˈjeləʊɪʃ
       variety: GB
@@ -2782,27 +2782,27 @@ yellowish pink:
     - id: 'yellowish_pink%1:07:00::'
       synset: 04978942-n
 yellowish-beige:
-  s:
+  a:
     sense:
     - id: yellowish-beige%5:00:00:chromatic:00
       synset: 00387052-s
 yellowish-gray:
-  s:
+  a:
     sense:
     - id: yellowish-gray%5:00:00:achromatic:00
       synset: 00393635-s
 yellowish-grey:
-  s:
+  a:
     sense:
     - id: yellowish-grey%5:00:00:achromatic:00
       synset: 00393635-s
 yellowish-orange:
-  s:
+  a:
     sense:
     - id: yellowish-orange%5:00:00:chromatic:00
       synset: 00387257-s
 yellowish-white:
-  s:
+  a:
     sense:
     - id: yellowish-white%5:00:00:achromatic:00
       synset: 00393767-s
@@ -3198,6 +3198,14 @@ yielder:
       id: 'yielder%1:18:00::'
       synset: 10699445-n
 yielding:
+  a:
+    sense:
+    - id: yielding%5:00:00:docile:00
+      synset: 02337212-s
+    - id: yielding%5:00:00:soft:01
+      synset: 01158003-s
+    - id: yielding%5:00:00:compromising:00
+      synset: 01030167-s
   n:
     sense:
     - derivation:
@@ -3208,14 +3216,6 @@ yielding:
       - 'yield%2:32:01::'
       id: 'yielding%1:10:00::'
       synset: 07190894-n
-  s:
-    sense:
-    - id: yielding%5:00:00:docile:00
-      synset: 02337212-s
-    - id: yielding%5:00:00:soft:01
-      synset: 01158003-s
-    - id: yielding%5:00:00:compromising:00
-      synset: 01030167-s
 yieldingly:
   r:
     sense:
@@ -3494,12 +3494,12 @@ yokel:
     - id: 'yokel%1:18:00::'
       synset: 10823706-n
 yokel-like:
-  s:
+  a:
     sense:
     - id: yokel-like%5:00:00:stupid:00
       synset: 00443647-s
 yokelish:
-  s:
+  a:
     pronunciation:
     - value: ˈjəʊkəlɪʃ
       variety: GB
@@ -3526,6 +3526,15 @@ yolk sac:
     - id: 'yolk_sac%1:05:01::'
       synset: 01467687-n
 yon:
+  a:
+    pronunciation:
+    - value: jɒn
+      variety: GB
+    - value: jɑn
+      variety: US
+    sense:
+    - id: yon%5:00:00:distant:01
+      synset: 00448792-s
   r:
     pronunciation:
     - value: jɒn
@@ -3535,16 +3544,14 @@ yon:
     sense:
     - id: 'yon%4:02:00::'
       synset: 00082658-r
-  s:
-    pronunciation:
-    - value: jɒn
-      variety: GB
-    - value: jɑn
-      variety: US
-    sense:
-    - id: yon%5:00:00:distant:01
-      synset: 00448792-s
 yonder:
+  a:
+    pronunciation:
+    - value: ˈjɒndə(ɹ)
+      variety: GB
+    sense:
+    - id: yonder%5:00:00:distant:01
+      synset: 00448792-s
   r:
     pronunciation:
     - value: ˈjɒndə(ɹ)
@@ -3552,13 +3559,6 @@ yonder:
     sense:
     - id: 'yonder%4:02:00::'
       synset: 00082658-r
-  s:
-    pronunciation:
-    - value: ˈjɒndə(ɹ)
-      variety: GB
-    sense:
-    - id: yonder%5:00:00:distant:01
-      synset: 00448792-s
 yore:
   n:
     pronunciation:
@@ -3700,19 +3700,19 @@ young woman:
     - id: 'young_woman%1:18:00::'
       synset: 10149362-n
 young-bearing:
-  s:
+  a:
     sense:
     - adjposition: a
       id: young-bearing%5:00:00:female:00
       synset: 01481660-s
 young-begetting:
-  s:
+  a:
     sense:
     - adjposition: a
       id: young-begetting%5:00:00:male:00
       synset: 01481018-s
 younger:
-  s:
+  a:
     pronunciation:
     - value: ˈjʌŋɡɚ
       variety: US
@@ -3722,7 +3722,7 @@ younger:
     - id: younger%5:00:00:junior:00
       synset: 02108662-s
 youngish:
-  s:
+  a:
     sense:
     - id: youngish%5:00:00:young:00
       synset: 01654093-s
@@ -3804,7 +3804,7 @@ youth-on-age:
     - id: 'youth-on-age%1:20:00::'
       synset: 12825112-n
 youthful:
-  s:
+  a:
     pronunciation:
     - value: ˈjuːθfəl
     sense:
@@ -3900,7 +3900,7 @@ yucca:
     - id: 'yucca%1:20:00::'
       synset: 12502536-n
 yucky:
-  s:
+  a:
     pronunciation:
     - value: ˈjʌkɪ
       variety: GB
@@ -3915,7 +3915,7 @@ yuga:
     - id: 'yuga%1:28:01::'
       synset: 92440469-n
 yummy:
-  s:
+  a:
     form:
     - yummier
     - yummiest
