@@ -240,7 +240,9 @@ def main():
                     "ERROR: Entry %s refers to nonexistent synset %s" %
                     (entry.id, sense.synset))
                 errors += 1
-            if synset and entry.lemma.part_of_speech != synset.part_of_speech:
+            if (synset and entry.lemma.part_of_speech != synset.part_of_speech
+                    and not (entry.lemma.part_of_speech == PartOfSpeech.ADJECTIVE and
+                        synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE)):
                 print(
                     "ERROR: Part of speech of entry not the same as synset %s in %s" %
                     (entry.id, synset.id))
