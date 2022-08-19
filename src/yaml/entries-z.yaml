@@ -1313,7 +1313,7 @@ zabaglione:
     - id: 'zabaglione%1:13:00::'
       synset: 07637106-n
 zaftig:
-  s:
+  a:
     pronunciation:
     - value: ˈzæftɪɡ
       variety: GB
@@ -1387,21 +1387,7 @@ zamia family:
     - id: 'zamia_family%1:20:00::'
       synset: 11621938-n
 zany:
-  n:
-    pronunciation:
-    - value: ˈzeɪni
-    sense:
-    - derivation:
-      - zany%5:00:00:humorous:00
-      - zany%5:00:00:foolish:00
-      id: 'zany%1:18:00::'
-      synset: 10824717-n
-    - derivation:
-      - zany%5:00:00:humorous:00
-      - zany%5:00:00:foolish:00
-      id: 'zany%1:18:01::'
-      synset: 10177319-n
-  s:
+  a:
     form:
     - zanier
     - zaniest
@@ -1418,6 +1404,20 @@ zany:
       - 'zany%1:18:00::'
       id: zany%5:00:00:humorous:00
       synset: 01268218-s
+  n:
+    pronunciation:
+    - value: ˈzeɪni
+    sense:
+    - derivation:
+      - zany%5:00:00:humorous:00
+      - zany%5:00:00:foolish:00
+      id: 'zany%1:18:00::'
+      synset: 10824717-n
+    - derivation:
+      - zany%5:00:00:humorous:00
+      - zany%5:00:00:foolish:00
+      id: 'zany%1:18:01::'
+      synset: 10177319-n
 zap:
   n:
     pronunciation:
@@ -1509,7 +1509,7 @@ zealotry:
     - id: 'zealotry%1:09:00::'
       synset: 06216069-n
 zealous:
-  s:
+  a:
     pronunciation:
     - value: ˈzɛl.əs
     sense:
@@ -1686,6 +1686,13 @@ zero:
       pertainym:
       - 'null_set%1:14:00::'
       synset: 03157519-a
+    - id: zero%5:00:00:cardinal:00
+      synset: 02193771-s
+    - adjposition: a
+      id: zero%5:00:00:no:00
+      synset: 02276900-s
+    - id: zero%5:00:02:ordinal:00
+      synset: 02209551-s
   n:
     form:
     - zeroes
@@ -1707,18 +1714,6 @@ zero:
       synset: 05864801-n
     - id: 'zero%1:06:00::'
       synset: 04621862-n
-  s:
-    pronunciation:
-    - value: ˈzɪɹ(ˌ)oʊ
-      variety: US
-    sense:
-    - id: zero%5:00:00:cardinal:00
-      synset: 02193771-s
-    - adjposition: a
-      id: zero%5:00:00:no:00
-      synset: 02276900-s
-    - id: zero%5:00:02:ordinal:00
-      synset: 02209551-s
   v:
     pronunciation:
     - value: ˈzɪɹ(ˌ)oʊ
@@ -1793,7 +1788,7 @@ zero-tolerance policy:
     - id: 'zero-tolerance_policy%1:10:00::'
       synset: 06676053-n
 zeroth:
-  s:
+  a:
     pronunciation:
     - value: ˈzɪɹ(ˌ)oʊθ
       variety: US
@@ -1830,7 +1825,7 @@ zest:
       - vtai
       synset: 02197016-v
 zestful:
-  s:
+  a:
     sense:
     - derivation:
       - 'zestfulness%1:12:00::'
@@ -1858,7 +1853,7 @@ zestily:
       - zesty%5:00:00:spirited:00
       synset: 00500115-r
 zesty:
-  s:
+  a:
     pronunciation:
     - value: ˈzɛsti
       variety: US
@@ -1931,7 +1926,7 @@ zig:
     - id: 'zig%1:25:00::'
       synset: 13910012-n
 zig-zag:
-  s:
+  a:
     sense:
     - derivation:
       - 'zigzag%1:25:00::'
@@ -1955,6 +1950,12 @@ ziggurat:
     - id: 'ziggurat%1:06:00::'
       synset: 04622012-n
 zigzag:
+  a:
+    sense:
+    - derivation:
+      - 'zigzag%1:25:00::'
+      id: zigzag%5:00:00:crooked:01
+      synset: 02322131-s
   n:
     sense:
     - derivation:
@@ -1967,12 +1968,6 @@ zigzag:
     sense:
     - id: 'zigzag%4:02:00::'
       synset: 00500266-r
-  s:
-    sense:
-    - derivation:
-      - 'zigzag%1:25:00::'
-      id: zigzag%5:00:00:crooked:01
-      synset: 02322131-s
   v:
     form:
     - zigzagged
@@ -2020,16 +2015,16 @@ zill:
     - id: 'zill%1:06:00::'
       synset: 04622201-n
 zillion:
+  a:
+    sense:
+    - id: zillion%5:00:00:cardinal:00
+      synset: 02207588-s
   n:
     pronunciation:
     - value: ˈzɪljən
     sense:
     - id: 'zillion%1:23:00::'
       synset: 13798632-n
-  s:
-    sense:
-    - id: zillion%5:00:00:cardinal:00
-      synset: 02207588-s
 zinc:
   n:
     pronunciation:
@@ -2251,7 +2246,7 @@ zippo:
     - id: 'zippo%1:23:00::'
       synset: 13762308-n
 zippy:
-  s:
+  a:
     form:
     - zippier
     - zippiest
@@ -2388,7 +2383,7 @@ zodiacal light:
     - id: 'zodiacal_light%1:19:00::'
       synset: 11548007-n
 zoftig:
-  s:
+  a:
     sense:
     - id: zoftig%5:00:00:fat:01
       synset: 00990165-s
@@ -2781,7 +2776,7 @@ zoonotic disease:
     - id: 'zoonotic_disease%1:26:00::'
       synset: 14300151-n
 zoophagous:
-  s:
+  a:
     sense:
     - id: zoophagous%5:00:00:carnivorous:00
       synset: 00314598-s

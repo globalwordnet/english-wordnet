@@ -17,7 +17,7 @@ H-bomb:
     - id: 'h-bomb%1:06:00::'
       synset: 03558428-n
 H-shaped:
-  s:
+  a:
     sense:
     - id: h-shaped%5:00:00:formed:00
       synset: 02155337-s
@@ -399,16 +399,16 @@ Had crime:
     - id: 'had_crime%1:04:00::'
       synset: 00771184-n
 Hadean:
-  n:
-    sense:
-    - id: 'hadean%1:28:00::'
-      synset: 15154524-n
-  s:
+  a:
     sense:
     - derivation:
       - 'hades%1:18:00::'
       id: hadean%5:00:00:infernal:00
       synset: 01307016-s
+  n:
+    sense:
+    - id: 'hadean%1:28:00::'
+      synset: 15154524-n
 Hadean aeon:
   n:
     sense:
@@ -4703,7 +4703,7 @@ Hesiod:
     - id: 'hesiod%1:18:00::'
       synset: 11067328-n
 Hesperian:
-  s:
+  a:
     sense:
     - id: hesperian%5:00:00:western:01
       synset: 00828924-s
@@ -6374,6 +6374,8 @@ Hollywood:
       pertainym:
       - 'hollywood%1:14:00::'
       synset: 02751653-a
+    - id: hollywood%5:00:00:indecent:00
+      synset: 00687187-s
   n:
     sense:
     - id: 'hollywood%1:14:00::'
@@ -6382,10 +6384,6 @@ Hollywood:
       synset: 14549379-n
     - id: 'hollywood%1:15:00::'
       synset: 09086427-n
-  s:
-    sense:
-    - id: hollywood%5:00:00:indecent:00
-      synset: 00687187-s
 Holman Hunt:
   n:
     sense:
@@ -9249,7 +9247,7 @@ habiliment:
     - id: 'habiliment%1:06:00::'
       synset: 03055525-n
 habilimented:
-  s:
+  a:
     sense:
     - id: habilimented%5:00:00:clothed:00
       synset: 00456473-s
@@ -9310,7 +9308,7 @@ habitability:
       id: 'habitability%1:07:00::'
       synset: 04729507-n
 habitable:
-  s:
+  a:
     pronunciation:
     - value: ˈhæbɪtəbəl
       variety: US
@@ -9352,12 +9350,12 @@ habitation:
     - id: 'habitation%1:04:00::'
       synset: 01056469-n
 habited:
-  s:
+  a:
     sense:
     - id: habited%5:00:00:clothed:00
       synset: 00458154-s
 habitual:
-  s:
+  a:
     pronunciation:
     - value: həˈbɪ.tʃʊ.əl
       variety: GB
@@ -9663,7 +9661,7 @@ hackney coach:
     - id: 'hackney_coach%1:06:00::'
       synset: 03479758-n
 hackneyed:
-  s:
+  a:
     pronunciation:
     - value: ˈhækniːd
     sense:
@@ -10195,7 +10193,7 @@ hag:
     - id: 'hag%1:05:00::'
       synset: 01481152-n
 hag-ridden:
-  s:
+  a:
     sense:
     - id: hag-ridden%5:00:00:troubled:00
       synset: 02467274-s
@@ -10222,7 +10220,7 @@ hagfish:
     - id: 'hagfish%1:05:00::'
       synset: 01481152-n
 haggard:
-  s:
+  a:
     sense:
     - id: haggard%5:00:00:tired:00
       synset: 02441812-s
@@ -10332,7 +10330,7 @@ hagionym:
     - id: 'hagionym%1:10:01::'
       synset: 92463636-n
 hagridden:
-  s:
+  a:
     sense:
     - id: hagridden%5:00:00:troubled:00
       synset: 02467274-s
@@ -10406,12 +10404,12 @@ hail:
       - nonreferential
       synset: 02765073-v
 hail-fellow:
-  s:
+  a:
     sense:
     - id: hail-fellow%5:00:00:friendly:01
       synset: 01079552-s
 hail-fellow-well-met:
-  s:
+  a:
     sense:
     - id: hail-fellow-well-met%5:00:00:friendly:01
       synset: 01079552-s
@@ -10606,7 +10604,7 @@ hair-raiser:
     - id: 'hair-raiser%1:04:00::'
       synset: 01263606-n
 hair-raising:
-  s:
+  a:
     sense:
     - id: hair-raising%5:00:00:alarming:00
       synset: 00196418-s
@@ -10718,7 +10716,7 @@ hairlessness:
       id: 'hairlessness%1:07:00::'
       synset: 04691064-n
 hairlike:
-  s:
+  a:
     sense:
     - id: hairlike%5:00:00:thin:01
       synset: 02421676-s
@@ -10775,18 +10773,18 @@ hairsplitter:
     - id: 'hairsplitter%1:18:00::'
       synset: 10175733-n
 hairsplitting:
+  a:
+    sense:
+    - derivation:
+      - 'hairsplitting%1:09:00::'
+      id: hairsplitting%5:00:00:precise:00
+      synset: 01844113-s
   n:
     sense:
     - derivation:
       - hairsplitting%5:00:00:precise:00
       id: 'hairsplitting%1:09:00::'
       synset: 05757207-n
-  s:
-    sense:
-    - derivation:
-      - 'hairsplitting%1:09:00::'
-      id: hairsplitting%5:00:00:precise:00
-      synset: 01844113-s
 hairspring:
   n:
     sense:
@@ -10840,13 +10838,6 @@ hairy:
       - 'hairiness%1:07:00::'
       id: 'hairy%3:00:00::'
       synset: 00213765-a
-  s:
-    form:
-    - hairier
-    - hairiest
-    pronunciation:
-    - value: ˈhɛəɹi
-    sense:
     - id: hairy%5:00:00:alarming:00
       synset: 00197714-s
 hairy darling pea:
@@ -10957,13 +10948,7 @@ hakim:
     - id: 'hakim%1:18:00::'
       synset: 10176189-n
 halal:
-  n:
-    sense:
-    - derivation:
-      - halal%5:00:00:clean:04
-      id: 'halal%1:13:00::'
-      synset: 07680327-n
-  s:
+  a:
     pronunciation:
     - value: həˈlɑːl
       variety: US
@@ -10976,6 +10961,12 @@ halal:
       - 'halal%1:13:00::'
       id: halal%5:00:00:clean:04
       synset: 00428993-s
+  n:
+    sense:
+    - derivation:
+      - halal%5:00:00:clean:04
+      id: 'halal%1:13:00::'
+      synset: 07680327-n
 halberd:
   n:
     pronunciation:
@@ -10989,14 +10980,7 @@ halberdier:
     - id: 'halberdier%1:18:00::'
       synset: 10176576-n
 halcyon:
-  n:
-    pronunciation:
-    - value: ˈhælsiːən
-      variety: GB
-    sense:
-    - id: 'halcyon%1:05:01::'
-      synset: 01829843-n
-  s:
+  a:
     pronunciation:
     - value: ˈhælsiːən
       variety: GB
@@ -11005,8 +10989,15 @@ halcyon:
       synset: 01745519-s
     - id: halcyon%5:00:00:happy:00
       synset: 01152698-s
+  n:
+    pronunciation:
+    - value: ˈhælsiːən
+      variety: GB
+    sense:
+    - id: 'halcyon%1:05:01::'
+      synset: 01829843-n
 hale:
-  s:
+  a:
     sense:
     - derivation:
       - 'haleness%1:26:00::'
@@ -11052,6 +11043,12 @@ half:
       - 'whole%3:00:02::'
       id: 'half%3:00:02::'
       synset: 00519960-a
+    - adjposition: a
+      id: half%5:00:00:fractional:00
+      synset: 00519479-s
+    - adjposition: a
+      id: half%5:00:00:incomplete:00
+      synset: 00526673-s
   n:
     form:
     - halves
@@ -11076,19 +11073,6 @@ half:
       pertainym:
       - half%5:00:00:fractional:00
       synset: 00008300-r
-  s:
-    pronunciation:
-    - value: hɑːf
-      variety: GB
-    - value: hæf
-      variety: US
-    sense:
-    - adjposition: a
-      id: half%5:00:00:fractional:00
-      synset: 00519479-s
-    - adjposition: a
-      id: half%5:00:00:incomplete:00
-      synset: 00526673-s
 half a dozen:
   n:
     sense:
@@ -11138,7 +11122,7 @@ half door:
     - id: 'half_door%1:06:00::'
       synset: 03263821-n
 half dozen:
-  s:
+  a:
     sense:
     - id: half_dozen%5:00:00:cardinal:00
       synset: 02194472-s
@@ -11240,6 +11224,10 @@ half volley:
     - id: 'half_volley%1:04:00::'
       synset: 00570271-n
 half-and-half:
+  a:
+    sense:
+    - id: half-and-half%5:00:00:equal:00
+      synset: 00894761-s
   n:
     sense:
     - id: 'half-and-half%1:13:00::'
@@ -11250,17 +11238,13 @@ half-and-half:
       pertainym:
       - half-and-half%5:00:00:equal:00
       synset: 00214493-r
-  s:
-    sense:
-    - id: half-and-half%5:00:00:equal:00
-      synset: 00894761-s
 half-and-half dressing:
   n:
     sense:
     - id: 'half-and-half_dressing%1:13:00::'
       synset: 07850262-n
 half-baked:
-  s:
+  a:
     sense:
     - id: half-baked%5:00:00:impractical:00
       synset: 01842483-s
@@ -11272,29 +11256,29 @@ half-bastion:
     - id: 'half-bastion%1:06:01::'
       synset: 92459760-n
 half-blooded:
-  s:
+  a:
     sense:
     - id: half-blooded%5:00:00:crossbred:00
       synset: 01910877-s
 half-bound:
-  s:
+  a:
     sense:
     - id: half-bound%5:00:00:bound:02
       synset: 00257968-s
 half-bred:
-  s:
+  a:
     sense:
     - id: half-bred%5:00:00:crossbred:00
       synset: 01910877-s
 half-breed:
+  a:
+    sense:
+    - id: half-breed%5:00:00:crossbred:00
+      synset: 01910877-s
   n:
     sense:
     - id: 'half-breed%1:18:00::'
       synset: 10177117-n
-  s:
-    sense:
-    - id: half-breed%5:00:00:crossbred:00
-      synset: 01910877-s
 half-brother:
   n:
     sense:
@@ -11311,7 +11295,7 @@ half-century:
     - id: 'half-century%1:28:00::'
       synset: 15230893-n
 half-clothed:
-  s:
+  a:
     sense:
     - id: half-clothed%5:00:00:unclothed:00
       synset: 00461476-s
@@ -11326,12 +11310,12 @@ half-consciousness:
     - id: 'half-consciousness%1:09:01::'
       synset: 92444027-n
 half-crazed:
-  s:
+  a:
     sense:
     - id: half-crazed%5:00:00:insane:00
       synset: 02082977-s
 half-dozen:
-  s:
+  a:
     sense:
     - id: half-dozen%5:00:00:cardinal:00
       synset: 02194472-s
@@ -11341,7 +11325,7 @@ half-dugout:
     - id: 'half-dugout%1:06:01::'
       synset: 92459623-n
 half-evergreen:
-  s:
+  a:
     sense:
     - id: half-evergreen%5:00:00:evergreen:00
       synset: 00917003-s
@@ -11351,12 +11335,12 @@ half-free morel:
     - id: 'half-free_morel%1:20:00::'
       synset: 13054822-n
 half-hardy:
-  s:
+  a:
     sense:
     - id: half-hardy%5:00:00:robust:00
       synset: 02046898-s
 half-hearted:
-  s:
+  a:
     sense:
     - id: half-hearted%5:00:00:unenthusiastic:00
       synset: 00890764-s
@@ -11378,32 +11362,32 @@ half-hour:
     - id: 'half-hour%1:28:00::'
       synset: 15252958-n
 half-hourly:
+  a:
+    sense:
+    - id: half-hourly%5:00:00:periodic:00
+      synset: 01976021-s
   r:
     sense:
     - id: 'half-hourly%4:02:00::'
       pertainym:
       - half-hourly%5:00:00:periodic:00
       synset: 00354517-r
-  s:
-    sense:
-    - id: half-hourly%5:00:00:periodic:00
-      synset: 01976021-s
 half-intensity:
   n:
     sense:
     - id: 'half-intensity%1:07:00::'
       synset: 05108436-n
 half-length:
-  n:
-    sense:
-    - id: 'half-length%1:06:00::'
-      synset: 03483116-n
-  s:
+  a:
     sense:
     - id: half-length%5:00:00:short:03
       synset: 02396230-s
     - id: half-length%5:00:00:abridged:00
       synset: 00004722-s
+  n:
+    sense:
+    - id: 'half-length%1:06:00::'
+      synset: 03483116-n
 half-life:
   n:
     pronunciation:
@@ -11455,7 +11439,7 @@ half-relief:
     - id: 'half-relief%1:06:00::'
       synset: 03763863-n
 half-seas-over:
-  s:
+  a:
     sense:
     - id: half-seas-over%5:00:00:intoxicated:00
       synset: 00802700-s
@@ -11465,7 +11449,7 @@ half-sister:
     - id: 'half-sister%1:18:00::'
       synset: 10622650-n
 half-size:
-  s:
+  a:
     sense:
     - id: half-size%5:00:00:small:00
       synset: 01396397-s
@@ -11485,12 +11469,12 @@ half-term:
     - id: 'half-term%1:28:00::'
       synset: 15163193-n
 half-timber:
-  s:
+  a:
     sense:
     - id: half-timber%5:00:00:timbered:00
       synset: 02438533-s
 half-timbered:
-  s:
+  a:
     pronunciation:
     - value: ˌhɑːf ˈtɪmbəd
       variety: GB
@@ -11500,23 +11484,23 @@ half-timbered:
     - id: half-timbered%5:00:00:timbered:00
       synset: 02438533-s
 half-time:
+  a:
+    sense:
+    - id: half-time%5:00:00:part-time:00
+      synset: 01093309-s
   r:
     sense:
     - antonym:
       - 'full-time%4:02:00::'
       id: 'half-time%4:02:00::'
       synset: 00254209-r
-  s:
-    sense:
-    - id: half-time%5:00:00:part-time:00
-      synset: 01093309-s
 half-track:
-  s:
+  a:
     sense:
     - id: half-track%5:00:00:tracked:00
       synset: 02462975-s
 half-tracked:
-  s:
+  a:
     sense:
     - id: half-tracked%5:00:00:tracked:00
       synset: 02462975-s
@@ -11533,21 +11517,21 @@ half-wit:
     - id: 'half-wit%1:18:00::'
       synset: 10032859-n
 half-witted:
-  s:
+  a:
     sense:
     - id: half-witted%5:00:00:retarded:00
       synset: 01846588-s
 half-yearly:
+  a:
+    sense:
+    - id: half-yearly%5:00:00:periodic:00
+      synset: 01976413-s
   r:
     sense:
     - id: 'half-yearly%4:02:00::'
       pertainym:
       - half-yearly%5:00:00:periodic:00
       synset: 00354612-r
-  s:
-    sense:
-    - id: half-yearly%5:00:00:periodic:00
-      synset: 01976413-s
 halfback:
   n:
     sense:
@@ -11561,7 +11545,7 @@ halfbeak:
     - id: 'halfbeak%1:05:00::'
       synset: 02553765-n
 halfhearted:
-  s:
+  a:
     sense:
     - id: halfhearted%5:00:00:unenthusiastic:00
       synset: 00890764-s
@@ -11605,16 +11589,7 @@ halftone engraving:
     - id: 'halftone_engraving%1:06:00::'
       synset: 03483344-n
 halfway:
-  r:
-    pronunciation:
-    - value: hæfweɪ
-      variety: US
-    - value: hɑːfˈweɪ
-      variety: GB
-    sense:
-    - id: 'halfway%4:02:00::'
-      synset: 00256895-r
-  s:
+  a:
     form:
     - halfways
     sense:
@@ -11624,6 +11599,15 @@ halfway:
       synset: 01018435-s
     - id: halfway%5:00:00:fractional:00
       synset: 00519635-s
+  r:
+    pronunciation:
+    - value: hæfweɪ
+      variety: US
+    - value: hɑːfˈweɪ
+      variety: GB
+    sense:
+    - id: 'halfway%4:02:00::'
+      synset: 00256895-r
 halibut:
   n:
     pronunciation:
@@ -11769,7 +11753,7 @@ hallow:
       - vtai
       synset: 00868366-v
 hallowed:
-  s:
+  a:
     pronunciation:
     - value: ˈhaləʊd
       variety: GB
@@ -11797,7 +11781,7 @@ hallucinate:
       - vtai
       synset: 02122132-v
 hallucinating:
-  s:
+  a:
     sense:
     - id: hallucinating%5:00:00:ill:01
       synset: 02554593-s
@@ -11819,7 +11803,7 @@ hallucination:
       id: 'hallucination%1:09:01::'
       synset: 05821023-n
 hallucinatory:
-  s:
+  a:
     pronunciation:
     - value: həˈluː.sɪ.nə.tər.i
       variety: GB
@@ -11843,7 +11827,7 @@ hallucinogen:
       id: 'hallucinogen%1:06:00::'
       synset: 03484730-n
 hallucinogenic:
-  s:
+  a:
     pronunciation:
     - value: ˌhæluːˈsɪnədʒənɪk
       variety: GB
@@ -12007,6 +11991,10 @@ halothane:
     - id: 'halothane%1:06:00::'
       synset: 03485450-n
 halt:
+  a:
+    sense:
+    - id: halt%5:00:00:unfit:01
+      synset: 01022380-s
   n:
     sense:
     - derivation:
@@ -12027,10 +12015,6 @@ halt:
       - 'halt%2:38:05::'
       id: 'halt%1:04:00::'
       synset: 01065621-n
-  s:
-    sense:
-    - id: halt%5:00:00:unfit:01
-      synset: 01022380-s
   v:
     sense:
     - derivation:
@@ -12113,7 +12097,7 @@ haltere:
     - id: 'haltere%1:05:00::'
       synset: 02154864-n
 halting:
-  s:
+  a:
     sense:
     - id: halting%5:00:00:unfit:01
       synset: 01022380-s
@@ -12200,7 +12184,7 @@ ham sandwich:
     - id: 'ham_sandwich%1:13:00::'
       synset: 07712370-n
 ham-fisted:
-  s:
+  a:
     sense:
     - id: ham-fisted%5:00:00:maladroit:00
       synset: 00063822-s
@@ -12210,7 +12194,7 @@ ham-fistedness:
     - id: 'ham-fistedness%1:09:01::'
       synset: 92428606-n
 ham-handed:
-  s:
+  a:
     sense:
     - id: ham-handed%5:00:00:maladroit:00
       synset: 00063822-s
@@ -12397,7 +12381,7 @@ hammer-axe:
     - id: 'hammer-axe%1:06:01::'
       synset: 92448436-n
 hammer-shaped:
-  s:
+  a:
     sense:
     - id: hammer-shaped%5:00:00:formed:00
       synset: 02154892-s
@@ -12456,7 +12440,7 @@ hammock:
     - id: 'hammock%1:06:00::'
       synset: 03487335-n
 hammy:
-  s:
+  a:
     form:
     - hammier
     - hammiest
@@ -12841,7 +12825,7 @@ hand-crafted:
     - id: 'hand-crafted%3:00:00::'
       synset: 00676724-a
 hand-down:
-  s:
+  a:
     sense:
     - id: hand-down%5:00:01:old:01
       synset: 01643862-s
@@ -12882,30 +12866,30 @@ hand-held vacuum cleaner:
     - id: 'hand-held_vacuum_cleaner%1:06:01::'
       synset: 92463007-n
 hand-hewn:
-  s:
+  a:
     sense:
     - id: hand-hewn%5:00:00:cut:03
       synset: 00666763-s
 hand-loomed:
-  s:
+  a:
     sense:
     - id: hand-loomed%5:00:00:handmade:00
       synset: 00677075-s
 hand-me-down:
+  a:
+    sense:
+    - derivation:
+      - 'hand-me-down%1:06:00::'
+      id: hand-me-down%5:00:01:old:01
+      synset: 01643862-s
   n:
     sense:
     - derivation:
       - hand-me-down%5:00:01:old:01
       id: 'hand-me-down%1:06:00::'
       synset: 03492725-n
-  s:
-    sense:
-    - derivation:
-      - 'hand-me-down%1:06:00::'
-      id: hand-me-down%5:00:01:old:01
-      synset: 01643862-s
 hand-operated:
-  s:
+  a:
     sense:
     - id: hand-operated%5:00:00:manual:00
       synset: 00184261-s
@@ -12918,7 +12902,7 @@ hand-pick:
       - vtai
       synset: 00678633-v
 hand-to-hand:
-  s:
+  a:
     sense:
     - id: hand-to-hand%5:00:00:close:01
       synset: 00451696-s
@@ -12928,7 +12912,7 @@ hand-to-hand struggle:
     - id: 'hand-to-hand_struggle%1:04:00::'
       synset: 00623506-n
 hand-to-mouth:
-  s:
+  a:
     sense:
     - adjposition: a
       id: hand-to-mouth%5:00:00:meager:00
@@ -13088,7 +13072,7 @@ handed:
       id: 'handed%3:00:00::'
       synset: 02035082-a
 handed-down:
-  s:
+  a:
     sense:
     - id: handed-down%5:00:00:traditional:00
       synset: 00614150-s
@@ -13199,16 +13183,16 @@ handicap bet:
     - id: 'handicap_bet%1:04:01::'
       synset: 92436532-n
 handicapped:
+  a:
+    sense:
+    - id: handicapped%5:00:00:unfit:01
+      synset: 01022875-s
   n:
     sense:
     - exemplifies:
       - 'slur%1:10:00::'
       id: 'handicapped%1:14:00::'
       synset: 07962874-n
-  s:
-    sense:
-    - id: handicapped%5:00:00:unfit:01
-      synset: 01022875-s
 handicapped person:
   n:
     sense:
@@ -13390,8 +13374,6 @@ handless:
       - 'handed%3:00:00::'
       id: 'handless%3:00:00::'
       synset: 02035641-a
-  s:
-    sense:
     - id: handless%5:00:00:maladroit:00
       synset: 00063822-s
 handline:
@@ -13507,17 +13489,17 @@ hands down:
     - id: 'hands_down%4:02:00::'
       synset: 00148821-r
 hands-down:
-  s:
+  a:
     sense:
     - id: hands-down%5:00:00:easy:01
       synset: 00754206-s
 hands-off:
-  s:
+  a:
     sense:
     - id: hands-off%5:00:00:passive:01
       synset: 00040060-s
 hands-on:
-  s:
+  a:
     pronunciation:
     - value: ˌhændz ˈɒn
     sense:
@@ -13546,7 +13528,7 @@ handset:
     - id: 'handset%1:06:00::'
       synset: 03493521-n
 handsewn:
-  s:
+  a:
     sense:
     - id: handsewn%5:00:00:handmade:00
       synset: 00677187-s
@@ -13565,7 +13547,7 @@ handshaking:
       id: 'handshaking%1:10:00::'
       synset: 06644604-n
 handsome:
-  s:
+  a:
     pronunciation:
     - value: ˈhæn.səm
     sense:
@@ -13630,7 +13612,7 @@ handstand:
     - id: 'handstand%1:04:00::'
       synset: 00437127-n
 handstitched:
-  s:
+  a:
     sense:
     - id: handstitched%5:00:00:handmade:00
       synset: 00677187-s
@@ -13663,7 +13645,7 @@ handwork:
     - id: 'handwork%1:06:00::'
       synset: 03490738-n
 handwoven:
-  s:
+  a:
     sense:
     - id: handwoven%5:00:00:handmade:00
       synset: 00677075-s
@@ -13696,12 +13678,12 @@ handwriting expert:
     - id: 'handwriting_expert%1:18:00::'
       synset: 10163708-n
 handwritten:
-  s:
+  a:
     sense:
     - id: handwritten%5:00:00:written:00
       synset: 02293141-s
 handy:
-  s:
+  a:
     form:
     - handier
     - handiest
@@ -13993,7 +13975,7 @@ hangbird:
     - id: 'hangbird%1:05:00::'
       synset: 01575130-n
 hangdog:
-  s:
+  a:
     sense:
     - id: hangdog%5:00:00:ashamed:00
       synset: 00155850-s
@@ -14199,13 +14181,7 @@ hapax legomenon:
     - id: 'hapax_legomenon%1:10:00::'
       synset: 06305365-n
 haphazard:
-  r:
-    sense:
-    - id: 'haphazard%4:02:00::'
-      pertainym:
-      - haphazard%5:00:00:careless:00
-      synset: 00354974-r
-  s:
+  a:
     pronunciation:
     - value: ˌhæpˈhæz.əd
       variety: GB
@@ -14218,6 +14194,12 @@ haphazard:
       synset: 01931202-s
     - id: haphazard%5:00:00:careless:00
       synset: 00313416-s
+  r:
+    sense:
+    - id: 'haphazard%4:02:00::'
+      pertainym:
+      - haphazard%5:00:00:careless:00
+      synset: 00354974-r
 haphazardly:
   r:
     pronunciation:
@@ -14242,7 +14224,7 @@ haphazardness:
       id: 'haphazardness%1:07:00::'
       synset: 04778571-n
 hapless:
-  s:
+  a:
     pronunciation:
     - value: ˈhæplɪs
     sense:
@@ -14399,16 +14381,6 @@ happy:
       - 'happiness%1:12:00::'
       id: 'happy%3:00:00::'
       synset: 01151786-a
-  s:
-    form:
-    - happier
-    - happiest
-    pronunciation:
-    - value: ˈhæpiː
-      variety: GB
-    - value: ˈhæpi
-      variety: US
-    sense:
     - derivation:
       - 'happiness%1:26:00::'
       id: happy%5:00:00:fortunate:00
@@ -14433,7 +14405,7 @@ happy hour:
     - id: 'happy_hour%1:28:00::'
       synset: 15253815-n
 happy-go-lucky:
-  s:
+  a:
     sense:
     - id: happy-go-lucky%5:00:00:irresponsible:00
       synset: 02005360-s
@@ -14525,7 +14497,7 @@ harass:
       - vtai
       synset: 01123177-v
 harassed:
-  s:
+  a:
     sense:
     - id: harassed%5:00:00:troubled:00
       synset: 02464897-s
@@ -14723,6 +14695,22 @@ hard:
       - 'soft%3:00:03::'
       id: 'hard%3:00:03::'
       synset: 01160012-a
+    - id: hard%5:00:00:strong:00
+      synset: 02330284-s
+    - derivation:
+      - 'hardness%1:07:02::'
+      id: hard%5:00:01:effortful:00
+      synset: 00840083-s
+    - id: hard%5:00:00:indulgent:00
+      synset: 01302121-s
+    - id: hard%5:00:00:alcoholic:00
+      synset: 01162481-s
+    - derivation:
+      - 'hardness%1:07:04::'
+      id: hard%5:00:00:bad:00
+      synset: 01131133-s
+    - id: hard%5:00:00:stale:00
+      synset: 01073471-s
   r:
     form:
     - harder
@@ -14759,29 +14747,6 @@ hard:
       synset: 00092706-r
     - id: 'hard%4:02:01::'
       synset: 00092022-r
-  s:
-    pronunciation:
-    - value: hɑːd
-      variety: GB
-    - value: hɑɹd
-      variety: US
-    sense:
-    - id: hard%5:00:00:strong:00
-      synset: 02330284-s
-    - derivation:
-      - 'hardness%1:07:02::'
-      id: hard%5:00:01:effortful:00
-      synset: 00840083-s
-    - id: hard%5:00:00:indulgent:00
-      synset: 01302121-s
-    - id: hard%5:00:00:alcoholic:00
-      synset: 01162481-s
-    - derivation:
-      - 'hardness%1:07:04::'
-      id: hard%5:00:00:bad:00
-      synset: 01131133-s
-    - id: hard%5:00:00:stale:00
-      synset: 01073471-s
 hard beech:
   n:
     sense:
@@ -14911,7 +14876,7 @@ hard palate:
     - id: 'hard_palate%1:08:00::'
       synset: 05317116-n
 hard put:
-  s:
+  a:
     sense:
     - id: hard_put%5:00:00:troubled:00
       synset: 02466610-s
@@ -15000,13 +14965,13 @@ hard times:
     - id: 'hard_times%1:28:00::'
       synset: 15148429-n
 hard to please:
-  s:
+  a:
     sense:
     - adjposition: p
       id: hard_to_please%5:00:00:demanding:01
       synset: 00714186-s
 hard up:
-  s:
+  a:
     sense:
     - id: hard_up%5:00:00:poor:00
       synset: 02030912-s
@@ -15028,22 +14993,22 @@ hard worker:
     - id: 'hard_worker%1:18:00::'
       synset: 10629072-n
 hard-and-fast:
-  s:
+  a:
     sense:
     - id: hard-and-fast%5:00:00:invariable:00
       synset: 02516312-s
 hard-baked:
-  s:
+  a:
     sense:
     - id: hard-baked%5:00:00:cooked:00
       synset: 00620129-s
 hard-bitten:
-  s:
+  a:
     sense:
     - id: hard-bitten%5:00:00:tough:03
       synset: 02457696-s
 hard-boiled:
-  s:
+  a:
     sense:
     - id: hard-boiled%5:00:00:tough:03
       synset: 02457696-s
@@ -15062,7 +15027,7 @@ hard-cooked egg:
     - id: 'hard-cooked_egg%1:13:00::'
       synset: 07857615-n
 hard-core:
-  s:
+  a:
     sense:
     - id: hard-core%5:00:00:inflexible:02
       synset: 01029225-s
@@ -15071,29 +15036,29 @@ hard-core:
     - id: hard-core%5:00:00:explicit:00
       synset: 00944644-s
 hard-fought:
-  s:
+  a:
     sense:
     - id: hard-fought%5:00:00:difficult:00
       synset: 00751084-s
 hard-hitting:
-  s:
+  a:
     sense:
     - id: hard-hitting%5:00:00:effective:00
       synset: 00838498-s
     - id: hard-hitting%5:00:00:aggressive:00
       synset: 00083766-s
 hard-line:
-  s:
+  a:
     sense:
     - id: hard-line%5:00:00:uncompromising:00
       synset: 01029765-s
 hard-nosed:
-  s:
+  a:
     sense:
     - id: hard-nosed%5:00:00:realistic:00
       synset: 01947268-s
 hard-of-hearing:
-  s:
+  a:
     sense:
     - id: hard-of-hearing%5:00:00:deaf:00
       synset: 00685696-s
@@ -15106,7 +15071,7 @@ hard-on:
     - id: 'hard-on%1:26:00::'
       synset: 14061667-n
 hard-pressed:
-  s:
+  a:
     sense:
     - id: hard-pressed%5:00:00:troubled:00
       synset: 02466610-s
@@ -15123,7 +15088,7 @@ hard-shell crab:
     - id: 'hard-shell_crab%1:05:00::'
       synset: 01980651-n
 hard-shelled:
-  s:
+  a:
     sense:
     - id: hard-shelled%5:00:00:shelled:00
       synset: 02606941-s
@@ -15133,26 +15098,26 @@ hard-skinned puffball:
     - id: 'hard-skinned_puffball%1:20:00::'
       synset: 12989891-n
 hard-to-please:
-  s:
+  a:
     sense:
     - adjposition: a
       id: hard-to-please%5:00:00:demanding:01
       synset: 00714186-s
 hardback:
+  a:
+    sense:
+    - derivation:
+      - 'hardback%1:06:00::'
+      id: hardback%5:00:00:backed:00
+      synset: 00201850-s
   n:
     sense:
     - derivation:
       - hardback%5:00:00:backed:00
       id: 'hardback%1:06:00::'
       synset: 03497492-n
-  s:
-    sense:
-    - derivation:
-      - 'hardback%1:06:00::'
-      id: hardback%5:00:00:backed:00
-      synset: 00201850-s
 hardbacked:
-  s:
+  a:
     sense:
     - id: hardbacked%5:00:00:backed:00
       synset: 00201850-s
@@ -15176,12 +15141,12 @@ hardboard:
     - id: 'hardboard%1:27:00::'
       synset: 15127022-n
 hardbound:
-  s:
+  a:
     sense:
     - id: hardbound%5:00:00:backed:00
       synset: 00201850-s
 hardcore:
-  s:
+  a:
     pronunciation:
     - value: hɑː(ɹ)dˈkɔː(ɹ)
     sense:
@@ -15190,18 +15155,18 @@ hardcore:
     - id: hardcore%5:00:00:explicit:00
       synset: 00944644-s
 hardcover:
+  a:
+    sense:
+    - derivation:
+      - 'hardcover%1:06:00::'
+      id: hardcover%5:00:00:backed:00
+      synset: 00201850-s
   n:
     sense:
     - derivation:
       - hardcover%5:00:00:backed:00
       id: 'hardcover%1:06:00::'
       synset: 03497492-n
-  s:
-    sense:
-    - derivation:
-      - 'hardcover%1:06:00::'
-      id: hardcover%5:00:00:backed:00
-      synset: 00201850-s
 harden:
   v:
     sense:
@@ -15251,13 +15216,6 @@ hardened:
       - 'soft%3:00:06::'
       id: 'hardened%3:00:06::'
       synset: 01462080-a
-  s:
-    pronunciation:
-    - value: ˈhɑɹdn̩d
-      variety: US
-    - value: ˈhɑːdn̩d
-      variety: GB
-    sense:
     - id: hardened%5:00:05:hard:02
       synset: 01159329-s
     - id: hardened%5:00:00:tough:02
@@ -15288,12 +15246,12 @@ hardening of the arteries:
     - id: 'hardening_of_the_arteries%1:26:00::'
       synset: 14131806-n
 hardfisted:
-  s:
+  a:
     sense:
     - id: hardfisted%5:00:00:stingy:00
       synset: 01117247-s
 hardheaded:
-  s:
+  a:
     sense:
     - id: hardheaded%5:00:00:stubborn:00
       synset: 02336289-s
@@ -15318,8 +15276,6 @@ hardhearted:
       - 'hardheartedness%1:12:00::'
       id: 'hardhearted%3:00:00::'
       synset: 01161527-a
-  s:
-    sense:
     - derivation:
       - 'hardheartedness%1:12:00::'
       id: hardhearted%5:00:00:uncompassionate:00
@@ -15352,7 +15308,7 @@ hardinggrass:
     - id: 'hardinggrass%1:20:00::'
       synset: 12150677-n
 hardline:
-  s:
+  a:
     pronunciation:
     - value: ˈhɑː(ɹ)dlaɪn
     sense:
@@ -15378,7 +15334,7 @@ hardly:
     - id: 'hardly%4:02:01::'
       synset: 00092166-r
 hardly a:
-  s:
+  a:
     sense:
     - adjposition: a
       id: hardly_a%5:00:00:few:00
@@ -15418,7 +15374,7 @@ hardpan:
     - id: 'hardpan%1:27:00::'
       synset: 14869748-n
 hardscrabble:
-  s:
+  a:
     pronunciation:
     - value: ˈhɑɹdˌskɹæbəl
       variety: US
@@ -15506,12 +15462,12 @@ hardwood:
     - id: 'hardwood%1:27:00::'
       synset: 15124679-n
 hardworking:
-  s:
+  a:
     sense:
     - id: hardworking%5:00:00:diligent:00
       synset: 00758203-s
 hardy:
-  s:
+  a:
     form:
     - hardier
     - hardiest
@@ -15577,7 +15533,7 @@ harebell:
     - id: 'harebell%1:20:01::'
       synset: 12057797-n
 harebrained:
-  s:
+  a:
     sense:
     - id: harebrained%5:00:00:foolish:00
       synset: 02582476-s
@@ -15837,6 +15793,12 @@ harmonic:
       pertainym:
       - 'harmonics%1:09:00::'
       synset: 02748845-a
+    - id: harmonic%5:00:02:harmonious:00
+      synset: 01167133-s
+    - derivation:
+      - 'harmony%1:26:00::'
+      id: harmonic%5:00:01:harmonious:00
+      synset: 01166864-s
   n:
     pronunciation:
     - value: hɑː(ɹ)ˈmɒnɪk
@@ -15849,16 +15811,6 @@ harmonic:
       - 'harmonic%3:01:02::'
       id: 'harmonic%1:07:00::'
       synset: 04995327-n
-  s:
-    pronunciation:
-    - value: hɑː(ɹ)ˈmɒnɪk
-    sense:
-    - id: harmonic%5:00:02:harmonious:00
-      synset: 01167133-s
-    - derivation:
-      - 'harmony%1:26:00::'
-      id: harmonic%5:00:01:harmonious:00
-      synset: 01166864-s
 harmonic analysis:
   n:
     sense:
@@ -15895,7 +15847,7 @@ harmonica:
     - id: 'harmonica%1:06:00::'
       synset: 03499379-n
 harmonical:
-  s:
+  a:
     sense:
     - derivation:
       - 'harmony%1:26:00::'
@@ -15933,13 +15885,6 @@ harmonious:
       - 'harmoniousness%1:07:01::'
       id: 'harmonious%3:00:00::'
       synset: 01166627-a
-  s:
-    pronunciation:
-    - value: hɑɹˈmoʊniəs
-      variety: US
-    - value: hɑːˈməʊnɪəs
-      variety: GB
-    sense:
     - derivation:
       - 'harmony%1:26:00::'
       - 'harmoniousness%1:07:00::'
@@ -16033,7 +15978,7 @@ harmonise:
       - vtii
       synset: 00483111-v
 harmonised:
-  s:
+  a:
     sense:
     - id: harmonised%5:00:00:harmonious:00
       synset: 01166864-s
@@ -16055,7 +16000,7 @@ harmonium:
     - id: 'harmonium%1:06:00::'
       synset: 03499638-n
 harmonizable:
-  s:
+  a:
     sense:
     - id: harmonizable%5:00:00:reconcilable:00
       synset: 01993736-s
@@ -16126,7 +16071,7 @@ harmonize:
       - vtii
       synset: 00483111-v
 harmonized:
-  s:
+  a:
     sense:
     - id: harmonized%5:00:00:harmonious:00
       synset: 01166864-s
@@ -16242,7 +16187,7 @@ harness racing:
     - id: 'harness_racing%1:11:00::'
       synset: 07476913-n
 harnessed:
-  s:
+  a:
     sense:
     - id: harnessed%5:00:00:controlled:00
       synset: 00601936-s
@@ -16298,7 +16243,7 @@ harp seal:
     - id: 'harp_seal%1:05:00::'
       synset: 02082798-n
 harp-shaped:
-  s:
+  a:
     sense:
     - id: harp-shaped%5:00:00:formed:00
       synset: 02154982-s
@@ -16449,7 +16394,7 @@ harridan:
     - id: 'harridan%1:18:00::'
       synset: 10180866-n
 harried:
-  s:
+  a:
     sense:
     - id: harried%5:00:00:troubled:00
       synset: 02464897-s
@@ -16488,7 +16433,7 @@ harrow:
       - vtai
       synset: 01746296-v
 harrowing:
-  s:
+  a:
     pronunciation:
     - value: ˈhæɹəʊiŋ
       variety: GB
@@ -16530,13 +16475,6 @@ harsh:
       - 'harshness%1:07:03::'
       id: 'harsh%3:00:00::'
       synset: 02238735-a
-  s:
-    pronunciation:
-    - value: hɑɹʃ
-      variety: US
-    - value: hɑːʃ
-      variety: GB
-    sense:
     - derivation:
       - 'harshness%1:07:02::'
       id: harsh%5:00:01:unpleasant:00
@@ -16563,7 +16501,7 @@ harsh on:
       - vtaa
       synset: 01074155-v
 harsh-voiced:
-  s:
+  a:
     sense:
     - id: harsh-voiced%5:00:00:loud:00
       synset: 01456498-s
@@ -16644,6 +16582,15 @@ hartley:
     - id: 'hartley%1:23:01::'
       synset: 92422125-n
 harum-scarum:
+  a:
+    pronunciation:
+    - value: ˌhɛəɹəmˈskɛəɹəm
+      variety: US
+    sense:
+    - derivation:
+      - 'harum-scarum%1:18:00::'
+      id: harum-scarum%5:00:00:irresponsible:00
+      synset: 02005360-s
   n:
     pronunciation:
     - value: ˌhɛəɹəmˈskɛəɹəm
@@ -16660,15 +16607,6 @@ harum-scarum:
     sense:
     - id: 'harum-scarum%4:02:00::'
       synset: 00165190-r
-  s:
-    pronunciation:
-    - value: ˌhɛəɹəmˈskɛəɹəm
-      variety: US
-    sense:
-    - derivation:
-      - 'harum-scarum%1:18:00::'
-      id: harum-scarum%5:00:00:irresponsible:00
-      synset: 02005360-s
 harvest:
   n:
     pronunciation:
@@ -16932,7 +16870,7 @@ hassock:
     - id: 'hassock%1:06:00::'
       synset: 03502656-n
 hastate:
-  s:
+  a:
     pronunciation:
     - value: ˈhæsteɪt
     sense:
@@ -17002,7 +16940,7 @@ hastiness:
       id: 'hastiness%1:07:00::'
       synset: 04670215-n
 hasty:
-  s:
+  a:
     form:
     - hastier
     - hastiest
@@ -17158,7 +17096,7 @@ hatcheck girl:
     - id: 'hatcheck_girl%1:18:00::'
       synset: 09932698-n
 hatched:
-  s:
+  a:
     sense:
     - id: hatched%5:00:00:born:00
       synset: 01737837-s
@@ -17268,7 +17206,7 @@ hate mail:
     - id: 'hate_mail%1:14:00::'
       synset: 08480520-n
 hated:
-  s:
+  a:
     pronunciation:
     - value: ˈheɪtɪd
     sense:
@@ -17285,10 +17223,6 @@ hateful:
       - 'hatefulness%1:07:00::'
       id: 'hateful%3:00:00::'
       synset: 01463343-a
-  s:
-    pronunciation:
-    - value: ˈheɪtfəl
-    sense:
     - derivation:
       - 'hatefulness%1:07:00::'
       id: hateful%5:00:00:nasty:00
@@ -17402,7 +17336,7 @@ haughtiness:
       id: 'haughtiness%1:07:00::'
       synset: 04895107-n
 haughty:
-  s:
+  a:
     form:
     - haughtier
     - haughtiest
@@ -17573,7 +17507,7 @@ haunt:
       - vtai
       synset: 01848373-v
 haunted:
-  s:
+  a:
     pronunciation:
     - value: ˈhɔːntɪd
     sense:
@@ -17584,7 +17518,7 @@ haunted:
     - id: haunted%5:00:00:inhabited:00
       synset: 01314660-s
 haunting:
-  s:
+  a:
     sense:
     - id: haunting%5:00:00:unforgettable:00
       synset: 01044226-s
@@ -18053,7 +17987,7 @@ hawk's-beards:
     - id: 'hawk''s-beards%1:20:00::'
       synset: 11979728-n
 hawk-eyed:
-  s:
+  a:
     sense:
     - id: hawk-eyed%5:00:00:sighted:00
       synset: 02165853-s
@@ -18086,7 +18020,7 @@ hawking:
       id: 'hawking%1:04:00::'
       synset: 01119289-n
 hawkish:
-  s:
+  a:
     sense:
     - derivation:
       - 'hawkishness%1:09:00::'
@@ -18292,16 +18226,7 @@ haystack:
     - id: 'haystack%1:14:00::'
       synset: 07979822-n
 haywire:
-  n:
-    pronunciation:
-    - value: ˈheɪ.waɪ.ə(ɹ)
-      variety: GB
-    - value: ˈheɪ.waɪɚ
-      variety: US
-    sense:
-    - id: 'haywire%1:06:00::'
-      synset: 03506212-n
-  s:
+  a:
     pronunciation:
     - value: ˈheɪ.waɪ.ə(ɹ)
       variety: GB
@@ -18312,6 +18237,15 @@ haywire:
       synset: 02082059-s
     - id: haywire%5:00:00:malfunctioning:00
       synset: 01096064-s
+  n:
+    pronunciation:
+    - value: ˈheɪ.waɪ.ə(ɹ)
+      variety: GB
+    - value: ˈheɪ.waɪɚ
+      variety: US
+    sense:
+    - id: 'haywire%1:06:00::'
+      synset: 03506212-n
 hazan:
   n:
     sense:
@@ -18369,7 +18303,7 @@ hazard insurance:
     - id: 'hazard_insurance%1:21:00::'
       synset: 13367645-n
 hazardous:
-  s:
+  a:
     pronunciation:
     - value: ˈhæzəɹdəs
       variety: US
@@ -18425,6 +18359,14 @@ haze over:
       - vtii
       synset: 02162161-v
 hazel:
+  a:
+    pronunciation:
+    - value: ˈheɪzəl
+    sense:
+    - derivation:
+      - 'hazel%1:07:00::'
+      id: hazel%5:00:00:chromatic:00
+      synset: 00377404-s
   n:
     pronunciation:
     - value: ˈheɪzəl
@@ -18439,14 +18381,6 @@ hazel:
       - hazel%5:00:00:chromatic:00
       id: 'hazel%1:07:00::'
       synset: 04979870-n
-  s:
-    pronunciation:
-    - value: ˈheɪzəl
-    sense:
-    - derivation:
-      - 'hazel%1:07:00::'
-      id: hazel%5:00:00:chromatic:00
-      synset: 00377404-s
 hazel alder:
   n:
     sense:
@@ -18463,7 +18397,7 @@ hazel tree:
     - id: 'hazel_tree%1:20:00::'
       synset: 13164861-n
 hazel-brown:
-  s:
+  a:
     sense:
     - id: hazel-brown%5:00:00:chromatic:00
       synset: 00377515-s
@@ -18511,7 +18445,7 @@ haziness:
       id: 'haziness%1:07:01::'
       synset: 04711464-n
 hazy:
-  s:
+  a:
     form:
     - hazier
     - haziest
@@ -18939,23 +18873,23 @@ head word:
     - id: 'head_word%1:10:01::'
       synset: 06302589-n
 head-in-the-clouds:
-  s:
+  a:
     sense:
     - id: head-in-the-clouds%5:00:00:frivolous:00
       synset: 02128403-s
 head-on:
+  a:
+    sense:
+    - id: head-on%5:00:00:hostile:01
+      synset: 01248763-s
+    - id: head-on%5:00:00:front:00
+      synset: 00200349-s
   r:
     sense:
     - id: 'head-on%4:02:01::'
       synset: 00219747-r
     - id: 'head-on%4:02:00::'
       synset: 00219659-r
-  s:
-    sense:
-    - id: head-on%5:00:00:hostile:01
-      synset: 01248763-s
-    - id: head-on%5:00:00:front:00
-      synset: 00200349-s
 head-shrinker:
   n:
     sense:
@@ -18964,6 +18898,14 @@ head-shrinker:
     - id: 'head-shrinker%1:18:00::'
       synset: 10183045-n
 head-to-head:
+  a:
+    pronunciation:
+    - value: hɛd.tu.hɛd
+    sense:
+    - id: head-to-head%5:00:00:private:00
+      synset: 01866830-s
+    - id: head-to-head%5:00:00:inconclusive:00
+      synset: 00553636-s
   r:
     pronunciation:
     - value: hɛd.tu.hɛd
@@ -18972,14 +18914,6 @@ head-to-head:
       pertainym:
       - head-to-head%5:00:00:inconclusive:00
       synset: 00410542-r
-  s:
-    pronunciation:
-    - value: hɛd.tu.hɛd
-    sense:
-    - id: head-to-head%5:00:00:private:00
-      synset: 01866830-s
-    - id: head-to-head%5:00:00:inconclusive:00
-      synset: 00553636-s
 headache:
   n:
     pronunciation:
@@ -19051,8 +18985,6 @@ headed:
       - 'headless%3:00:00::'
       id: 'headed%3:00:01::'
       synset: 01187145-a
-  s:
-    sense:
     - id: headed%5:00:00:oriented:00
       synset: 01687881-s
     - id: headed%5:00:00:mature:01
@@ -19084,14 +19016,14 @@ headfast:
     - id: 'headfast%1:06:00::'
       synset: 03508502-n
 headfirst:
+  a:
+    sense:
+    - id: headfirst%5:00:00:forward:01
+      synset: 00205206-s
   r:
     sense:
     - id: 'headfirst%4:02:00::'
       synset: 00356323-r
-  s:
-    sense:
-    - id: headfirst%5:00:00:forward:01
-      synset: 00205206-s
 headfish:
   n:
     sense:
@@ -19164,10 +19096,6 @@ headless:
       - 'headed%3:00:01::'
       id: 'headless%3:00:00::'
       synset: 01187805-a
-  s:
-    pronunciation:
-    - value: ˈhɛdləs
-    sense:
     - id: headless%5:00:00:unintelligent:00
       synset: 01339790-s
 headlight:
@@ -19176,7 +19104,7 @@ headlight:
     - id: 'headlight%1:06:00::'
       synset: 03509141-n
 headlike:
-  s:
+  a:
     sense:
     - id: headlike%5:00:00:headed:01
       synset: 01187629-s
@@ -19231,6 +19159,17 @@ headlock:
     - id: 'headlock%1:04:00::'
       synset: 00815767-n
 headlong:
+  a:
+    pronunciation:
+    - value: ˈhɛdlɒŋ
+      variety: GB
+    - value: ˈhɛdlɔŋ
+      variety: US
+    sense:
+    - id: headlong%5:00:01:hurried:00
+      synset: 01273814-s
+    - id: headlong%5:00:00:forward:01
+      synset: 00205206-s
   r:
     pronunciation:
     - value: ˈhɛdlɒŋ
@@ -19246,17 +19185,6 @@ headlong:
       synset: 00356734-r
     - id: 'headlong%4:02:01::'
       synset: 00356438-r
-  s:
-    pronunciation:
-    - value: ˈhɛdlɒŋ
-      variety: GB
-    - value: ˈhɛdlɔŋ
-      variety: US
-    sense:
-    - id: headlong%5:00:01:hurried:00
-      synset: 01273814-s
-    - id: headlong%5:00:00:forward:01
-      synset: 00205206-s
 headman:
   n:
     sense:
@@ -19366,14 +19294,14 @@ headroom:
     - id: 'headroom%1:04:00::'
       synset: 01022570-n
 heads-up:
+  a:
+    sense:
+    - id: heads-up%5:00:00:alert:00
+      synset: 00093129-s
   n:
     sense:
     - id: 'heads-up%1:10:00::'
       synset: 07240237-n
-  s:
-    sense:
-    - id: heads-up%5:00:00:alert:00
-      synset: 00093129-s
 headsail:
   n:
     pronunciation:
@@ -19475,7 +19403,7 @@ headstream:
     - id: 'headstream%1:17:00::'
       synset: 09325033-n
 headstrong:
-  s:
+  a:
     sense:
     - id: headstrong%5:00:00:disobedient:00
       synset: 01618926-s
@@ -19516,7 +19444,7 @@ headword:
     - id: 'headword%1:10:00::'
       synset: 06302780-n
 heady:
-  s:
+  a:
     form:
     - headier
     - headiest
@@ -19563,7 +19491,7 @@ heal all:
     - id: 'heal_all%1:20:01::'
       synset: 12493064-n
 healed:
-  s:
+  a:
     sense:
     - id: healed%5:00:00:well:01
       synset: 02551782-s
@@ -19580,6 +19508,11 @@ healer:
       id: 'healer%1:18:00::'
       synset: 10726882-n
 healing:
+  a:
+    sense:
+    - adjposition: p
+      id: healing%5:00:00:healthful:00
+      synset: 01169487-s
   n:
     sense:
     - derivation:
@@ -19587,11 +19520,6 @@ healing:
       - 'heal%2:29:00::'
       id: 'healing%1:22:00::'
       synset: 13512819-n
-  s:
-    sense:
-    - adjposition: p
-      id: healing%5:00:00:healthful:00
-      synset: 01169487-s
 healing herb:
   n:
     sense:
@@ -19728,7 +19656,7 @@ healthfulness:
       id: 'healthfulness%1:07:00::'
       synset: 04797298-n
 healthier:
-  s:
+  a:
     sense:
     - id: healthier%5:00:00:better:02
       synset: 00233555-s
@@ -19762,13 +19690,6 @@ healthy:
       - 'healthiness%1:26:00::'
       id: 'healthy%3:00:00::'
       synset: 01173787-a
-  s:
-    form:
-    - healthier
-    - healthiest
-    pronunciation:
-    - value: ˈhɛl.θi
-    sense:
     - id: healthy%5:00:00:sound:00
       synset: 02281587-s
     - id: healthy%5:00:00:wholesome:00
@@ -19909,7 +19830,7 @@ hearable:
       id: 'hearable%3:00:00::'
       synset: 00175025-a
 heard:
-  s:
+  a:
     pronunciation:
     - value: ˈhɜːd
       variety: GB
@@ -20001,7 +19922,7 @@ hearing officer:
     - id: 'hearing_officer%1:18:00::'
       synset: 10185550-n
 hearing-impaired:
-  s:
+  a:
     sense:
     - id: hearing-impaired%5:00:00:deaf:00
       synset: 00685696-s
@@ -20019,14 +19940,14 @@ hearken:
       - via-pp
       synset: 02194034-v
 hearsay:
+  a:
+    sense:
+    - id: hearsay%5:00:00:indirect:02
+      synset: 00772368-s
   n:
     sense:
     - id: 'hearsay%1:10:00::'
       synset: 07238110-n
-  s:
-    sense:
-    - id: hearsay%5:00:00:indirect:02
-      synset: 00772368-s
 hearsay evidence:
   n:
     sense:
@@ -20186,7 +20107,7 @@ heart ventricle:
     - id: 'heart_ventricle%1:08:00::'
       synset: 05399106-n
 heart-healthy:
-  s:
+  a:
     sense:
     - id: heart-healthy%5:00:00:wholesome:00
       synset: 02568802-s
@@ -20208,25 +20129,25 @@ heart-lung machine:
     - id: 'heart-lung_machine%1:06:00::'
       synset: 03512802-n
 heart-shaped:
-  s:
+  a:
     sense:
     - id: heart-shaped%5:00:00:simple:01
       synset: 02175185-s
 heart-to-heart:
+  a:
+    sense:
+    - derivation:
+      - 'heart-to-heart%1:10:00::'
+      id: heart-to-heart%5:00:00:ingenuous:00
+      synset: 01313228-s
   n:
     sense:
     - derivation:
       - heart-to-heart%5:00:00:ingenuous:00
       id: 'heart-to-heart%1:10:00::'
       synset: 07151023-n
-  s:
-    sense:
-    - derivation:
-      - 'heart-to-heart%1:10:00::'
-      id: heart-to-heart%5:00:00:ingenuous:00
-      synset: 01313228-s
 heart-whole:
-  s:
+  a:
     sense:
     - id: heart-whole%5:00:00:sincere:00
       synset: 02188116-s
@@ -20272,12 +20193,12 @@ heartbreaker:
     - id: 'heartbreaker%1:11:00::'
       synset: 07491317-n
 heartbreaking:
-  s:
+  a:
     sense:
     - id: heartbreaking%5:00:00:sorrowful:00
       synset: 01368460-s
 heartbroken:
-  s:
+  a:
     sense:
     - id: heartbroken%5:00:00:sorrowful:00
       synset: 01368019-s
@@ -20306,12 +20227,12 @@ hearten:
       - vtia
       synset: 01821905-v
 heartening:
-  s:
+  a:
     sense:
     - id: heartening%5:00:00:encouraging:00
       synset: 00870202-s
 heartfelt:
-  s:
+  a:
     pronunciation:
     - value: ˈhɑːt.fɛlt
       variety: GB
@@ -20417,13 +20338,6 @@ heartless:
       - 'heartlessness%1:12:00::'
       id: 'heartless%3:00:02::'
       synset: 01161527-a
-  s:
-    pronunciation:
-    - value: ˈhɑɹt.lɪs
-      variety: US
-    - value: ˈhɑːt.lɪs
-      variety: GB
-    sense:
     - id: heartless%5:00:00:spiritless:00
       synset: 02289905-s
 heartlessly:
@@ -20446,7 +20360,7 @@ heartlessness:
       id: 'heartlessness%1:12:00::'
       synset: 07521388-n
 heartrending:
-  s:
+  a:
     sense:
     - id: heartrending%5:00:00:sorrowful:00
       synset: 01368460-s
@@ -20480,7 +20394,7 @@ heartseed:
     - id: 'heartseed%1:20:00::'
       synset: 12763638-n
 heartsick:
-  s:
+  a:
     sense:
     - derivation:
       - 'heartsickness%1:12:00::'
@@ -20512,7 +20426,7 @@ heartthrob:
     - id: 'heartthrob%1:18:00::'
       synset: 10185906-n
 heartwarming:
-  s:
+  a:
     sense:
     - id: heartwarming%5:00:00:moving:01
       synset: 01565673-s
@@ -20522,7 +20436,7 @@ heartwood:
     - id: 'heartwood%1:20:00::'
       synset: 13118511-n
 hearty:
-  s:
+  a:
     form:
     - heartier
     - heartiest
@@ -20828,7 +20742,7 @@ heat-seeking missile:
     - id: 'heat-seeking_missile%1:06:00::'
       synset: 03514987-n
 heatable:
-  s:
+  a:
     sense:
     - derivation:
       - 'heat%2:40:00::'
@@ -20837,7 +20751,7 @@ heatable:
       id: heatable%5:00:00:hot:01
       synset: 01252221-s
 heated:
-  s:
+  a:
     pronunciation:
     - value: ˈhiːtɪd
     sense:
@@ -20846,7 +20760,7 @@ heated:
     - id: heated%5:00:00:hot:02
       synset: 01259937-s
 heated up:
-  s:
+  a:
     sense:
     - id: heated_up%5:00:00:hot:01
       synset: 01252393-s
@@ -20911,6 +20825,14 @@ heath violet:
     - id: 'heath_violet%1:20:00::'
       synset: 12409375-n
 heathen:
+  a:
+    pronunciation:
+    - value: ˈhiːðən
+    sense:
+    - derivation:
+      - 'heathen%1:18:00::'
+      id: heathen%5:00:00:irreligious:00
+      synset: 01788910-s
   n:
     pronunciation:
     - value: ˈhiːðən
@@ -20919,16 +20841,8 @@ heathen:
       - heathen%5:00:00:irreligious:00
       id: 'heathen%1:18:00::'
       synset: 10185987-n
-  s:
-    pronunciation:
-    - value: ˈhiːðən
-    sense:
-    - derivation:
-      - 'heathen%1:18:00::'
-      id: heathen%5:00:00:irreligious:00
-      synset: 01788910-s
 heathenish:
-  s:
+  a:
     sense:
     - id: heathenish%5:00:00:irreligious:00
       synset: 01788910-s
@@ -21015,7 +20929,7 @@ heating system:
     - id: 'heating_system%1:06:00::'
       synset: 03514169-n
 heatless:
-  s:
+  a:
     sense:
     - id: heatless%5:00:00:cold:01
       synset: 01256541-s
@@ -21132,7 +21046,7 @@ heaven:
     - id: 'heaven%1:15:01::'
       synset: 08583035-n
 heaven-sent:
-  s:
+  a:
     sense:
     - id: heaven-sent%5:00:00:fortunate:00
       synset: 01052675-s
@@ -21168,14 +21082,14 @@ heavens:
     - id: 'heavens%1:15:00::'
       synset: 08538450-n
 heavenward:
+  a:
+    sense:
+    - id: heavenward%5:00:00:up:00
+      synset: 02500849-s
   r:
     sense:
     - id: 'heavenward%4:02:00::'
       synset: 00357305-r
-  s:
-    sense:
-    - id: heavenward%5:00:00:up:00
-      synset: 02500849-s
 heavenwardly:
   r:
     sense:
@@ -21205,7 +21119,7 @@ heaves:
     - id: 'heaves%1:26:00::'
       synset: 14288852-n
 heavier-than-air:
-  s:
+  a:
     sense:
     - id: heavier-than-air%5:00:00:heavy:01
       synset: 01189179-s
@@ -21248,7 +21162,7 @@ heavily:
       id: 'heavily%4:02:01::'
       synset: 00178004-r
 heavily traveled:
-  s:
+  a:
     sense:
     - id: heavily_traveled%5:00:00:traveled:00
       synset: 02463393-s
@@ -21349,27 +21263,6 @@ heavy:
       - 'heaviness%1:07:00::'
       id: 'heavy%3:00:07::'
       synset: 01194770-a
-  n:
-    pronunciation:
-    - value: ˈhɛ.vi
-    sense:
-    - id: 'heavy%1:18:00::'
-      synset: 10186954-n
-    - id: 'heavy%1:09:00::'
-      synset: 05938368-n
-  r:
-    pronunciation:
-    - value: ˈhɛ.vi
-    sense:
-    - id: 'heavy%4:02:00::'
-      synset: 00357411-r
-  s:
-    form:
-    - heavier
-    - heaviest
-    pronunciation:
-    - value: ˈhɛ.vi
-    sense:
     - derivation:
       - 'heaviness%1:07:00::'
       id: heavy%5:00:00:fat:01
@@ -21424,6 +21317,20 @@ heavy:
     - adjposition: p
       id: heavy%5:00:00:pregnant:00
       synset: 00174652-s
+  n:
+    pronunciation:
+    - value: ˈhɛ.vi
+    sense:
+    - id: 'heavy%1:18:00::'
+      synset: 10186954-n
+    - id: 'heavy%1:09:00::'
+      synset: 05938368-n
+  r:
+    pronunciation:
+    - value: ˈhɛ.vi
+    sense:
+    - id: 'heavy%4:02:00::'
+      synset: 00357411-r
 heavy cream:
   n:
     sense:
@@ -21497,12 +21404,12 @@ heavy whipping cream:
     - id: 'heavy_whipping_cream%1:13:00::'
       synset: 07863561-n
 heavy-armed:
-  s:
+  a:
     sense:
     - id: heavy-armed%5:00:00:robust:00
       synset: 02047039-s
 heavy-coated:
-  s:
+  a:
     sense:
     - id: heavy-coated%5:00:00:clothed:00
       synset: 00458262-s
@@ -21521,7 +21428,7 @@ heavy-footed:
       id: 'heavy-footed%3:00:00::'
       synset: 01196182-a
 heavy-handed:
-  s:
+  a:
     sense:
     - id: heavy-handed%5:00:00:maladroit:00
       synset: 00063822-s
@@ -21533,19 +21440,19 @@ heavy-handedness:
     - id: 'heavy-handedness%1:09:01::'
       synset: 92428606-n
 heavy-laden:
-  s:
+  a:
     sense:
     - id: heavy-laden%5:00:00:troubled:00
       synset: 02465927-s
     - id: heavy-laden%5:00:00:encumbered:00
       synset: 00871549-s
 heavy-limbed:
-  s:
+  a:
     sense:
     - id: heavy-limbed%5:00:00:limbed:00
       synset: 01417500-s
 heavyhearted:
-  s:
+  a:
     sense:
     - derivation:
       - 'heavyheartedness%1:12:00::'
@@ -21559,7 +21466,7 @@ heavyheartedness:
       id: 'heavyheartedness%1:12:00::'
       synset: 07548880-n
 heavyset:
-  s:
+  a:
     sense:
     - id: heavyset%5:00:01:short:03
       synset: 02395981-s
@@ -21594,7 +21501,7 @@ hebdomad:
       id: 'hebdomad%1:28:00::'
       synset: 15194920-n
 hebdomadal:
-  s:
+  a:
     pronunciation:
     - value: hɛbˈdɒmədəl
     sense:
@@ -21610,7 +21517,7 @@ hebdomadally:
       - hebdomadal%5:00:00:periodic:00
       synset: 00081941-r
 hebdomadary:
-  s:
+  a:
     sense:
     - derivation:
       - 'hebdomad%1:28:00::'
@@ -21626,7 +21533,7 @@ hebephrenia:
       id: 'hebephrenia%1:26:00::'
       synset: 14422842-n
 hebephrenic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hebephrenia%1:26:00::'
@@ -21712,7 +21619,7 @@ hectare:
     - id: 'hectare%1:23:00::'
       synset: 13635266-n
 hectic:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛktɪk
     sense:
@@ -21886,7 +21793,7 @@ hedge violet:
     - id: 'hedge_violet%1:20:00::'
       synset: 12410831-n
 hedged:
-  s:
+  a:
     pronunciation:
     - value: hɛdʒd
     sense:
@@ -21961,7 +21868,7 @@ hediondilla:
     - id: 'hediondilla%1:20:00::'
       synset: 12743822-n
 hedonic:
-  s:
+  a:
     pronunciation:
     - value: ˈhiːdənɪk
     sense:
@@ -22001,7 +21908,7 @@ hedonist:
       id: 'hedonist%1:18:00::'
       synset: 10187776-n
 hedonistic:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛdənɪstɪk
       variety: GB
@@ -22068,8 +21975,6 @@ heedful:
       - 'heedfulness%1:07:00::'
       id: 'heedful%3:00:00::'
       synset: 01198026-a
-  s:
-    sense:
     - derivation:
       - 'heedfulness%1:07:00::'
       id: heedful%5:00:00:mindful:00
@@ -22111,10 +22016,6 @@ heedless:
       - 'heedlessness%1:07:02::'
       id: 'heedless%3:00:00::'
       synset: 01197257-a
-  s:
-    pronunciation:
-    - value: ˈhiːdləs
-    sense:
     - derivation:
       - 'heedlessness%1:07:02::'
       id: heedless%5:00:00:careless:00
@@ -22261,7 +22162,7 @@ heftiness:
       id: 'heftiness%1:07:01::'
       synset: 05035003-n
 hefty:
-  s:
+  a:
     form:
     - heftier
     - heftiest
@@ -22372,7 +22273,7 @@ heighten:
       - vtii
       synset: 00227591-v
 heightening:
-  s:
+  a:
     sense:
     - adjposition: a
       id: heightening%5:00:00:intensifying:00
@@ -22385,7 +22286,7 @@ heights:
     - id: 'heights%1:15:00::'
       synset: 08602145-n
 heinous:
-  s:
+  a:
     pronunciation:
     - value: ˈheɪnəs
     sense:
@@ -22522,7 +22423,7 @@ helianthus:
     - id: 'helianthus%1:20:00::'
       synset: 11998702-n
 helical:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛl.ɪ.kəl
     sense:
@@ -22723,7 +22624,7 @@ hell to pay:
     - id: 'hell_to_pay%1:07:00::'
       synset: 05178450-n
 hell-bent:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛlˌbɛnt
     sense:
@@ -22826,7 +22727,7 @@ hellion:
     - id: 'hellion%1:18:00::'
       synset: 10189012-n
 hellish:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛlɪʃ
     sense:
@@ -22889,12 +22790,12 @@ helmet orchid:
     - id: 'helmet_orchid%1:20:01::'
       synset: 12075147-n
 helmet-shaped:
-  s:
+  a:
     sense:
     - id: helmet-shaped%5:00:00:convex:00
       synset: 00540496-s
 helmeted:
-  s:
+  a:
     sense:
     - id: helmeted%5:00:00:equipped:00
       synset: 01098460-s
@@ -22920,18 +22821,18 @@ helminthiasis:
     - id: 'helminthiasis%1:26:00::'
       synset: 14477020-n
 helminthic:
+  a:
+    sense:
+    - derivation:
+      - 'helminthic%1:06:00::'
+      id: helminthic%5:00:00:healthful:00
+      synset: 01168810-s
   n:
     sense:
     - derivation:
       - helminthic%5:00:00:healthful:00
       id: 'helminthic%1:06:00::'
       synset: 04535925-n
-  s:
-    sense:
-    - derivation:
-      - 'helminthic%1:06:00::'
-      id: helminthic%5:00:00:healthful:00
-      synset: 01168810-s
 helmsman:
   n:
     sense:
@@ -23139,7 +23040,7 @@ helping hand:
     - id: 'helping_hand%1:04:00::'
       synset: 01210950-n
 helpless:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛlplɪs
     sense:
@@ -23189,16 +23090,7 @@ helpmeet:
     - id: 'helpmeet%1:18:00::'
       synset: 10190191-n
 helter-skelter:
-  r:
-    pronunciation:
-    - value: ˌhɛltɚˈskɛltɚ
-      variety: US
-    - value: ˌhɛltəˈskɛltə
-      variety: GB
-    sense:
-    - id: 'helter-skelter%4:02:00::'
-      synset: 00164789-r
-  s:
+  a:
     pronunciation:
     - value: ˌhɛltɚˈskɛltɚ
       variety: US
@@ -23209,6 +23101,15 @@ helter-skelter:
       synset: 01673760-s
     - id: helter-skelter%5:00:00:hurried:00
       synset: 01274520-s
+  r:
+    pronunciation:
+    - value: ˌhɛltɚˈskɛltɚ
+      variety: US
+    - value: ˌhɛltəˈskɛltə
+      variety: GB
+    sense:
+    - id: 'helter-skelter%4:02:00::'
+      synset: 00164789-r
 helve:
   n:
     pronunciation:
@@ -23573,7 +23474,7 @@ hemiepiphyte:
     - id: 'hemiepiphyte%1:20:00::'
       synset: 13144068-n
 hemimetabolic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hemimetabolism%1:22:00::'
@@ -23589,7 +23490,7 @@ hemimetabolism:
       id: 'hemimetabolism%1:22:00::'
       synset: 13513992-n
 hemimetabolous:
-  s:
+  a:
     sense:
     - derivation:
       - 'hemimetabolism%1:22:00::'
@@ -23603,7 +23504,7 @@ hemimetaboly:
       id: 'hemimetaboly%1:22:00::'
       synset: 13513992-n
 hemimetamorphic:
-  s:
+  a:
     sense:
     - id: hemimetamorphic%5:00:00:metamorphic:00
       synset: 01534195-s
@@ -23615,7 +23516,7 @@ hemimetamorphosis:
       id: 'hemimetamorphosis%1:22:00::'
       synset: 13513992-n
 hemimetamorphous:
-  s:
+  a:
     sense:
     - derivation:
       - 'hemimetamorphosis%1:22:00::'
@@ -24016,7 +23917,7 @@ hemostat:
     - id: 'hemostat%1:06:00::'
       synset: 03519595-n
 hemostatic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hemostasis%1:04:00::'
@@ -24064,7 +23965,7 @@ hemp willow:
     - id: 'hemp_willow%1:20:00::'
       synset: 12751789-n
 hempen:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛmpən
       variety: CA
@@ -24242,7 +24143,7 @@ henna:
       - vtai
       synset: 00284424-v
 henpecked:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛnpɛkt
     sense:
@@ -24259,7 +24160,7 @@ henry:
     - id: 'henry%1:23:00::'
       synset: 13660884-n
 hep:
-  s:
+  a:
     form:
     - hepper
     - heppest
@@ -24409,7 +24310,7 @@ hepatomegaly:
     - id: 'hepatomegaly%1:26:00::'
       synset: 14126662-n
 hepatotoxic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hepatotoxin%1:27:00::'
@@ -24487,7 +24388,7 @@ herald:
       - vtaa
       synset: 00902139-v
 heralded:
-  s:
+  a:
     sense:
     - id: heralded%5:00:00:publicized:00
       synset: 00471870-s
@@ -24498,8 +24399,6 @@ heraldic:
       pertainym:
       - 'heraldry%1:06:00::'
       synset: 03005099-a
-  s:
-    sense:
     - id: heraldic%5:00:00:communicative:00
       synset: 00500331-s
 heraldic bearing:
@@ -24598,7 +24497,7 @@ herba impia:
     - id: 'herba_impia%1:20:00::'
       synset: 11990767-n
 herbaceous:
-  s:
+  a:
     pronunciation:
     - value: hə(ɹ)ˈbeɪ.ʃəs
       variety: GB
@@ -24713,7 +24612,7 @@ herbs robert:
     - id: 'herbs_robert%1:20:00::'
       synset: 12707437-n
 herculean:
-  s:
+  a:
     pronunciation:
     - value: hɜːɹˈkjuːliən
       variety: US
@@ -24794,6 +24693,18 @@ herdsman:
     - id: 'herdsman%1:18:00::'
       synset: 10191239-n
 here:
+  a:
+    pronunciation:
+    - value: hɪə(ɹ)
+      variety: GB
+    - value: hɪɹ
+      variety: US
+    sense:
+    - adjposition: p
+      derivation:
+      - 'hereness%1:26:00::'
+      id: here%5:00:00:present:02
+      synset: 01853170-s
   n:
     pronunciation:
     - value: hɪə(ɹ)
@@ -24824,18 +24735,6 @@ here:
       synset: 00109415-r
     - id: 'here%4:02:04::'
       synset: 00109789-r
-  s:
-    pronunciation:
-    - value: hɪə(ɹ)
-      variety: GB
-    - value: hɪɹ
-      variety: US
-    sense:
-    - adjposition: p
-      derivation:
-      - 'hereness%1:26:00::'
-      id: here%5:00:00:present:02
-      synset: 01853170-s
 here and now:
   n:
     sense:
@@ -24911,7 +24810,7 @@ hereditarianism:
       id: 'hereditarianism%1:09:00::'
       synset: 05980780-n
 hereditary:
-  s:
+  a:
     pronunciation:
     - value: həˈɹɛdɪt(ə)ɹi
       variety: GB
@@ -25024,7 +24923,7 @@ heretic:
     - id: 'heretic%1:18:01::'
       synset: 10191625-n
 heretical:
-  s:
+  a:
     pronunciation:
     - value: həˈɹɛtɪkəl
     sense:
@@ -25109,6 +25008,15 @@ hermaphrodism:
     - id: 'hermaphrodism%1:26:00::'
       synset: 14491559-n
 hermaphrodite:
+  a:
+    pronunciation:
+    - value: hɝˈmæfɹədaɪt
+      variety: US
+    sense:
+    - derivation:
+      - 'hermaphrodite%1:18:00::'
+      id: hermaphrodite%5:00:00:androgynous:00
+      synset: 01482488-s
   n:
     pronunciation:
     - value: hɝˈmæfɹədaɪt
@@ -25120,22 +25028,13 @@ hermaphrodite:
       - hermaphroditic%5:00:00:androgynous:00
       id: 'hermaphrodite%1:18:00::'
       synset: 10191752-n
-  s:
-    pronunciation:
-    - value: hɝˈmæfɹədaɪt
-      variety: US
-    sense:
-    - derivation:
-      - 'hermaphrodite%1:18:00::'
-      id: hermaphrodite%5:00:00:androgynous:00
-      synset: 01482488-s
 hermaphrodite brig:
   n:
     sense:
     - id: 'hermaphrodite_brig%1:06:00::'
       synset: 02904924-n
 hermaphroditic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hermaphrodite%1:18:00::'
@@ -25167,7 +25066,7 @@ hermeneutics:
     - id: 'hermeneutics%1:09:00::'
       synset: 06193114-n
 hermetic:
-  s:
+  a:
     pronunciation:
     - value: hə(ɹ)ˈmɛtɪk
     sense:
@@ -25216,7 +25115,7 @@ hermitage:
     - id: 'hermitage%1:06:00::'
       synset: 03521097-n
 hermitic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hermit%1:18:01::'
@@ -25224,7 +25123,7 @@ hermitic:
       id: hermitic%5:00:00:unworldly:00
       synset: 02588984-s
 hermitical:
-  s:
+  a:
     sense:
     - derivation:
       - 'hermit%1:18:01::'
@@ -25318,6 +25217,14 @@ heroic:
       pertainym:
       - 'hero%1:18:04::'
       synset: 02751262-a
+    - id: heroic%5:00:00:large:00
+      synset: 01388944-s
+    - id: heroic%5:00:00:bold:00
+      synset: 00252000-s
+    - id: heroic%5:00:00:impressive:00
+      synset: 01287636-s
+    - id: heroic%5:00:00:brave:00
+      synset: 00264329-s
   n:
     pronunciation:
     - value: hɪˈɹoʊ.ɪk
@@ -25327,21 +25234,6 @@ heroic:
     sense:
     - id: 'heroic%1:10:00::'
       synset: 06397799-n
-  s:
-    pronunciation:
-    - value: hɪˈɹoʊ.ɪk
-      variety: US
-    - value: hɪˈɹəʊ.ɪk
-      variety: GB
-    sense:
-    - id: heroic%5:00:00:large:00
-      synset: 01388944-s
-    - id: heroic%5:00:00:bold:00
-      synset: 00252000-s
-    - id: heroic%5:00:00:impressive:00
-      synset: 01287636-s
-    - id: heroic%5:00:00:brave:00
-      synset: 00264329-s
 heroic couplet:
   n:
     sense:
@@ -25378,7 +25270,7 @@ heroic verse:
     - id: 'heroic_verse%1:10:00::'
       synset: 06397799-n
 heroical:
-  s:
+  a:
     sense:
     - derivation:
       - 'hero%1:18:04::'
@@ -25637,7 +25529,7 @@ hesitancy:
       id: 'hesitancy%1:07:00::'
       synset: 04653300-n
 hesitant:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛzɪtənt
     sense:
@@ -25694,7 +25586,7 @@ hesitater:
       id: 'hesitater%1:18:00::'
       synset: 10622936-n
 hesitating:
-  s:
+  a:
     sense:
     - id: hesitating%5:00:00:indecisive:01
       synset: 00689850-s
@@ -25740,12 +25632,12 @@ hessonite:
     - id: 'hessonite%1:27:00::'
       synset: 14927617-n
 het:
-  s:
+  a:
     sense:
     - id: het%5:00:00:hot:01
       synset: 01252393-s
 het up:
-  s:
+  a:
     sense:
     - id: het_up%5:00:00:hot:01
       synset: 01252393-s
@@ -25783,17 +25675,17 @@ heterocycle:
       id: 'heterocycle%1:17:00::'
       synset: 09325306-n
 heterocyclic:
-  n:
-    sense:
-    - id: 'heterocyclic%1:27:00::'
-      synset: 15049964-n
-  s:
+  a:
     sense:
     - derivation:
       - 'heterocycle%1:27:00::'
       - 'heterocycle%1:17:00::'
       id: heterocyclic%5:00:00:cyclic:02
       synset: 00680267-s
+  n:
+    sense:
+    - id: 'heterocyclic%1:27:00::'
+      synset: 15049964-n
 heterocyclic compound:
   n:
     sense:
@@ -25819,7 +25711,7 @@ heterodactyl foot:
       id: 'heterodactyl_foot%1:05:00::'
       synset: 02157666-n
 heterodox:
-  s:
+  a:
     pronunciation:
     - value: ˈhɛtɛɹədɒks
       variety: GB
@@ -25922,7 +25814,7 @@ heterograft:
     - id: 'heterograft%1:08:00::'
       synset: 05591274-n
 heteroicous:
-  s:
+  a:
     sense:
     - id: heteroicous%5:00:00:monoecious:00
       synset: 01547392-s
@@ -25968,7 +25860,7 @@ heterology:
       id: 'heterology%1:07:00::'
       synset: 04757802-n
 heterometabolic:
-  s:
+  a:
     sense:
     - derivation:
       - 'heterometaboly%1:22:00::'
@@ -25983,7 +25875,7 @@ heterometabolism:
       id: 'heterometabolism%1:22:00::'
       synset: 13514206-n
 heterometabolous:
-  s:
+  a:
     sense:
     - id: heterometabolous%5:00:00:metamorphic:00
       synset: 01534497-s
@@ -26115,7 +26007,7 @@ heterotaxy:
     - id: 'heterotaxy%1:26:00::'
       synset: 14127480-n
 heterothermic:
-  s:
+  a:
     sense:
     - id: heterothermic%5:00:00:cold-blooded:00
       synset: 02543547-s
@@ -26239,7 +26131,7 @@ hewer:
       id: 'hewer%1:18:00::'
       synset: 10193779-n
 hewn:
-  s:
+  a:
     pronunciation:
     - value: hjuːn
     sense:
@@ -26410,7 +26302,7 @@ hexapod:
     - id: 'hexapod%1:05:00::'
       synset: 02159858-n
 hexed:
-  s:
+  a:
     pronunciation:
     - value: hɛkst
     sense:
@@ -26456,6 +26348,10 @@ hi:
     - id: 'hi%1:10:00::'
       synset: 06645018-n
 hi-fi:
+  a:
+    sense:
+    - id: hi-fi%5:00:00:accurate:00
+      synset: 00022717-s
   n:
     pronunciation:
     - value: ˈhaɪˌfaɪ
@@ -26465,10 +26361,6 @@ hi-fi:
       synset: 03522923-n
     - id: 'hi-fi%1:04:00::'
       synset: 01022430-n
-  s:
-    sense:
-    - id: hi-fi%5:00:00:accurate:00
-      synset: 00022717-s
 hi-tech:
   a:
     sense:
@@ -26519,7 +26411,7 @@ hibachi:
       - vtai
       synset: 00327820-v
 hibernal:
-  s:
+  a:
     sense:
     - id: hibernal%5:00:00:wintry:00
       synset: 01259148-s
@@ -26544,7 +26436,7 @@ hibernate:
       - vii
       synset: 02602001-v
 hibernating:
-  s:
+  a:
     sense:
     - adjposition: a
       id: hibernating%5:00:00:asleep:00
@@ -26626,14 +26518,14 @@ hiccup nut:
     - id: 'hiccup_nut%1:20:00::'
       synset: 12344739-n
 hick:
+  a:
+    sense:
+    - id: hick%5:00:00:provincial:00
+      synset: 00639749-s
   n:
     sense:
     - id: 'hick%1:18:00::'
       synset: 10823706-n
-  s:
-    sense:
-    - id: hick%5:00:00:provincial:00
-      synset: 00639749-s
 hickey:
   n:
     pronunciation:
@@ -26669,7 +26561,7 @@ hickory tree:
     - id: 'hickory_tree%1:20:00::'
       synset: 12340527-n
 hidden:
-  s:
+  a:
     pronunciation:
     - value: ˈhɪd(ə)n
     sense:
@@ -26775,7 +26667,7 @@ hideaway:
     - id: 'hideaway%1:06:00::'
       synset: 03522810-n
 hidebound:
-  s:
+  a:
     pronunciation:
     - value: ˈhaɪd.baʊnd
       variety: GB
@@ -26783,7 +26675,7 @@ hidebound:
     - id: hidebound%5:00:00:conservative:00
       synset: 00577363-s
 hideous:
-  s:
+  a:
     pronunciation:
     - value: ˈhɪd.iː.ʌs
       variety: GB
@@ -26862,7 +26754,7 @@ hie:
       - vii
       synset: 02062918-v
 hiemal:
-  s:
+  a:
     sense:
     - id: hiemal%5:00:00:wintry:00
       synset: 01259148-s
@@ -26970,6 +26862,8 @@ hieratic:
       pertainym:
       - 'hieratic%1:10:00::'
       synset: 02752793-a
+    - id: hieratic%5:00:00:nonrepresentational:00
+      synset: 01988308-s
   n:
     pronunciation:
     - value: ˌhaɪ(ə)ˈɹætɪk
@@ -26978,12 +26872,6 @@ hieratic:
       - 'hieratic%3:01:00::'
       id: 'hieratic%1:10:00::'
       synset: 06373667-n
-  s:
-    pronunciation:
-    - value: ˌhaɪ(ə)ˈɹætɪk
-    sense:
-    - id: hieratic%5:00:00:nonrepresentational:00
-      synset: 01988308-s
 hieratic script:
   n:
     sense:
@@ -27074,7 +26962,7 @@ hierolatry:
     - id: 'hierolatry%1:04:00::'
       synset: 01048181-n
 hifalutin:
-  s:
+  a:
     sense:
     - id: hifalutin%5:00:00:pretentious:00
       synset: 01856216-s
@@ -27092,14 +26980,14 @@ higgle:
       - via-pp
       synset: 02264354-v
 higgledy-piggledy:
+  a:
+    sense:
+    - id: higgledy-piggledy%5:00:00:untidy:00
+      synset: 02434302-s
   r:
     sense:
     - id: 'higgledy-piggledy%4:02:00::'
       synset: 00257334-r
-  s:
-    sense:
-    - id: higgledy-piggledy%5:00:00:untidy:00
-      synset: 02434302-s
 high:
   a:
     sense:
@@ -27121,6 +27009,20 @@ high:
       - 'low%3:00:03::'
       id: 'high%3:00:03::'
       synset: 01215869-a
+    - derivation:
+      - 'highness%1:07:01::'
+      id: high%5:00:00:superior:01
+      synset: 02347190-s
+    - derivation:
+      - 'high%1:26:02::'
+      id: high%5:00:00:elated:00
+      synset: 00708942-s
+    - id: high%5:00:00:malodorous:00
+      synset: 01057746-s
+    - derivation:
+      - 'high%1:26:01::'
+      id: high%5:00:00:intoxicated:00
+      synset: 00802795-s
   n:
     sense:
     - antonym:
@@ -27159,22 +27061,6 @@ high:
       synset: 00359047-r
     - id: 'high%4:02:01::'
       synset: 00358848-r
-  s:
-    sense:
-    - derivation:
-      - 'highness%1:07:01::'
-      id: high%5:00:00:superior:01
-      synset: 02347190-s
-    - derivation:
-      - 'high%1:26:02::'
-      id: high%5:00:00:elated:00
-      synset: 00708942-s
-    - id: high%5:00:00:malodorous:00
-      synset: 01057746-s
-    - derivation:
-      - 'high%1:26:01::'
-      id: high%5:00:00:intoxicated:00
-      synset: 00802795-s
 high altar:
   n:
     sense:
@@ -27542,12 +27428,12 @@ high wire:
     - id: 'high_wire%1:06:00::'
       synset: 03525562-n
 high-altitude:
-  s:
+  a:
     sense:
     - id: high-altitude%5:00:00:high:01
       synset: 01208418-s
 high-and-mighty:
-  s:
+  a:
     sense:
     - id: high-and-mighty%5:00:00:domineering:00
       synset: 00791150-s
@@ -27562,7 +27448,7 @@ high-angle gun:
     - id: 'high-angle_gun%1:06:00::'
       synset: 03523145-n
 high-backed:
-  s:
+  a:
     sense:
     - id: high-backed%5:00:00:backed:00
       synset: 00202023-s
@@ -27572,17 +27458,17 @@ high-bush blueberry:
     - id: 'high-bush_blueberry%1:20:00::'
       synset: 12268181-n
 high-ceilinged:
-  s:
+  a:
     sense:
     - id: high-ceilinged%5:00:00:ceilinged:00
       synset: 01212656-s
 high-class:
-  s:
+  a:
     sense:
     - id: high-class%5:00:00:elegant:00
       synset: 00853840-s
 high-crowned:
-  s:
+  a:
     sense:
     - id: high-crowned%5:00:00:crowned:00
       synset: 00657619-s
@@ -27603,8 +27489,6 @@ high-energy:
       pertainym:
       - 'energy%1:19:00::'
       synset: 02753318-a
-  s:
-    sense:
     - id: high-energy%5:00:00:energetic:00
       synset: 00878089-s
     - id: high-energy%5:00:00:dynamic:00
@@ -27615,7 +27499,7 @@ high-energy physics:
     - id: 'high-energy_physics%1:09:00::'
       synset: 06111158-n
 high-fidelity:
-  s:
+  a:
     sense:
     - id: high-fidelity%5:00:00:accurate:00
       synset: 00022717-s
@@ -27625,19 +27509,19 @@ high-five:
     - id: 'high-five%1:10:00::'
       synset: 07028356-n
 high-flown:
-  s:
+  a:
     sense:
     - id: high-flown%5:00:00:pretentious:00
       synset: 01856374-s
     - id: high-flown%5:00:00:noble:01
       synset: 01593026-s
 high-grade:
-  s:
+  a:
     sense:
     - id: high-grade%5:00:00:best:00
       synset: 00229765-s
 high-handed:
-  s:
+  a:
     sense:
     - derivation:
       - 'high-handedness%1:07:00::'
@@ -27675,12 +27559,12 @@ high-interest:
       id: 'high-interest%3:00:00::'
       synset: 01213389-a
 high-keyed:
-  s:
+  a:
     sense:
     - id: high-keyed%5:00:00:excitable:00
       synset: 00922053-s
 high-level:
-  s:
+  a:
     sense:
     - id: high-level%5:00:00:superior:01
       synset: 02347647-s
@@ -27712,7 +27596,7 @@ high-low-jack:
     - id: 'high-low-jack%1:04:00::'
       synset: 00490741-n
 high-minded:
-  s:
+  a:
     sense:
     - derivation:
       - 'high-mindedness%1:07:00::'
@@ -27738,12 +27622,12 @@ high-muck-a-muck:
     - id: 'high-muck-a-muck%1:18:00::'
       synset: 10194602-n
 high-necked:
-  s:
+  a:
     sense:
     - id: high-necked%5:00:00:necked:00
       synset: 01212023-s
 high-octane:
-  s:
+  a:
     sense:
     - id: high-octane%5:00:00:efficient:00
       synset: 00844173-s
@@ -27755,7 +27639,7 @@ high-pass filter:
     - id: 'high-pass_filter%1:06:00::'
       synset: 03524389-n
 high-performance:
-  s:
+  a:
     sense:
     - id: high-performance%5:00:00:superior:02
       synset: 02351802-s
@@ -27764,39 +27648,37 @@ high-pitched:
     sense:
     - id: 'high-pitched%3:00:00::'
       synset: 01215869-a
-  s:
-    sense:
     - id: high-pitched%5:00:00:inclined:01
       synset: 01237825-s
 high-potential:
-  s:
+  a:
     sense:
     - id: high-potential%5:00:00:high-tension:00
       synset: 01835553-s
 high-power:
-  s:
+  a:
     sense:
     - id: high-power%5:00:00:dynamic:00
       synset: 00812912-s
 high-powered:
-  s:
+  a:
     sense:
     - id: high-powered%5:00:00:dynamic:00
       synset: 00812912-s
     - id: high-powered%5:00:00:powered:00
       synset: 01834554-s
 high-pressure:
-  s:
+  a:
     sense:
     - id: high-pressure%5:00:00:aggressive:00
       synset: 00083766-s
 high-priced:
-  s:
+  a:
     sense:
     - id: high-priced%5:00:00:expensive:00
       synset: 00936868-s
 high-principled:
-  s:
+  a:
     sense:
     - id: high-principled%5:00:00:principled:00
       synset: 01555734-s
@@ -27806,7 +27688,7 @@ high-protein diet:
     - id: 'high-protein_diet%1:13:00::'
       synset: 07578772-n
 high-ranking:
-  s:
+  a:
     sense:
     - id: high-ranking%5:00:00:superior:01
       synset: 02347647-s
@@ -27829,17 +27711,17 @@ high-rise:
     - id: 'high-rise%1:06:00::'
       synset: 03524550-n
 high-risk:
-  s:
+  a:
     sense:
     - id: high-risk%5:00:00:unsound:00
       synset: 02282286-s
 high-sounding:
-  s:
+  a:
     sense:
     - id: high-sounding%5:00:00:pretentious:00
       synset: 01856374-s
 high-speed:
-  s:
+  a:
     sense:
     - id: high-speed%5:00:01:fast:01
       synset: 00981620-s
@@ -27849,7 +27731,7 @@ high-speed steel:
     - id: 'high-speed_steel%1:27:00::'
       synset: 14932018-n
 high-spirited:
-  s:
+  a:
     sense:
     - derivation:
       - 'high-spiritedness%1:07:00::'
@@ -27863,12 +27745,12 @@ high-spiritedness:
       id: 'high-spiritedness%1:07:00::'
       synset: 04641518-n
 high-stepped:
-  s:
+  a:
     sense:
     - id: high-stepped%5:00:00:high:01
       synset: 01208558-s
 high-stepping:
-  s:
+  a:
     sense:
     - id: high-stepping%5:00:00:high:01
       synset: 01208558-s
@@ -27878,7 +27760,7 @@ high-strength brass:
     - id: 'high-strength_brass%1:27:00::'
       synset: 14971263-n
 high-strung:
-  s:
+  a:
     sense:
     - id: high-strung%5:00:00:tense:03
       synset: 02415166-s
@@ -27913,23 +27795,23 @@ high-tension:
       id: 'high-tension%3:00:00::'
       synset: 01835370-a
 high-ticket:
-  s:
+  a:
     sense:
     - adjposition: a
       id: high-ticket%5:00:00:expensive:00
       synset: 00936684-s
 high-toned:
-  s:
+  a:
     sense:
     - id: high-toned%5:00:00:elegant:00
       synset: 00853840-s
 high-top:
-  s:
+  a:
     sense:
     - id: high-top%5:00:00:high:01
       synset: 01208718-s
 high-topped:
-  s:
+  a:
     sense:
     - id: high-topped%5:00:00:high:01
       synset: 01208718-s
@@ -27939,7 +27821,7 @@ high-up:
     - id: 'high-up%1:18:00::'
       synset: 10768288-n
 high-velocity:
-  s:
+  a:
     sense:
     - id: high-velocity%5:00:00:fast:01
       synset: 00981620-s
@@ -27949,7 +27831,7 @@ high-vitamin diet:
     - id: 'high-vitamin_diet%1:13:00::'
       synset: 07578931-n
 high-voltage:
-  s:
+  a:
     sense:
     - id: high-voltage%5:00:00:high-tension:00
       synset: 01835553-s
@@ -27966,7 +27848,7 @@ high-water mark:
     - id: 'high-water_mark%1:15:00::'
       synset: 08696905-n
 high-yield:
-  s:
+  a:
     sense:
     - id: high-yield%5:00:00:fruitful:00
       synset: 01085605-s
@@ -27996,7 +27878,7 @@ highboard:
     - id: 'highboard%1:06:00::'
       synset: 03523393-n
 highborn:
-  s:
+  a:
     sense:
     - id: highborn%5:00:00:noble:02
       synset: 01595634-s
@@ -28006,20 +27888,20 @@ highboy:
     - id: 'highboy%1:06:00::'
       synset: 03523468-n
 highbrow:
+  a:
+    sense:
+    - derivation:
+      - 'highbrow%1:18:00::'
+      id: highbrow%5:00:00:intellectual:00
+      synset: 01335859-s
   n:
     sense:
     - derivation:
       - highbrow%5:00:00:intellectual:00
       id: 'highbrow%1:18:00::'
       synset: 10193961-n
-  s:
-    sense:
-    - derivation:
-      - 'highbrow%1:18:00::'
-      id: highbrow%5:00:00:intellectual:00
-      synset: 01335859-s
 highbrowed:
-  s:
+  a:
     sense:
     - id: highbrowed%5:00:00:intellectual:00
       synset: 01335859-s
@@ -28034,7 +27916,7 @@ highchair:
     - id: 'highchair%1:06:00::'
       synset: 03523608-n
 higher:
-  s:
+  a:
     pronunciation:
     - value: ˈhaɪə
       variety: GB
@@ -28083,7 +27965,7 @@ higher up:
     - id: 'higher_up%4:02:00::'
       synset: 00080519-r
 higher-ranking:
-  s:
+  a:
     sense:
     - id: higher-ranking%5:00:00:senior:00
       synset: 02107846-s
@@ -28098,7 +27980,7 @@ highest common factor:
     - id: 'highest_common_factor%1:23:00::'
       synset: 13757303-n
 highfalutin:
-  s:
+  a:
     pronunciation:
     - value: ˌhaɪ.fəˈlu.tɨn
       variety: US
@@ -28106,7 +27988,7 @@ highfalutin:
     - id: highfalutin%5:00:00:pretentious:00
       synset: 01856216-s
 highfaluting:
-  s:
+  a:
     sense:
     - id: highfaluting%5:00:00:pretentious:00
       synset: 01856216-s
@@ -28123,7 +28005,7 @@ highflyer:
     - id: 'highflyer%1:18:00::'
       synset: 10194220-n
 highflying:
-  s:
+  a:
     sense:
     - adjposition: a
       id: highflying%5:00:00:ascending:00
@@ -28269,22 +28151,22 @@ highly active antiretroviral therapy:
     - id: 'highly_active_antiretroviral_therapy%1:06:00::'
       synset: 03253263-n
 highly infective:
-  s:
+  a:
     sense:
     - id: highly_infective%5:00:00:virulent:00
       synset: 00045955-s
 highly strung:
-  s:
+  a:
     sense:
     - id: highly_strung%5:00:00:tense:03
       synset: 02415166-s
 highly-developed:
-  s:
+  a:
     sense:
     - id: highly-developed%5:00:00:industrial:00
       synset: 01304775-s
 highly-sexed:
-  s:
+  a:
     sense:
     - id: highly-sexed%5:00:00:sexy:00
       synset: 02141533-s
@@ -28511,7 +28393,7 @@ hilar:
       - 'hilum%1:08:00::'
       synset: 02959136-a
 hilarious:
-  s:
+  a:
     pronunciation:
     - value: hɪˈlɛəɹiəs
       variety: GB
@@ -28617,7 +28499,7 @@ hilltop:
     - id: 'hilltop%1:15:00::'
       synset: 08602314-n
 hilly:
-  s:
+  a:
     pronunciation:
     - value: ˈhɪli
     sense:
@@ -28661,19 +28543,19 @@ hin:
     - id: 'hin%1:23:00::'
       synset: 13638488-n
 hind:
-  n:
-    sense:
-    - id: 'hind%1:05:01::'
-      synset: 02572115-n
-    - id: 'hind%1:05:00::'
-      synset: 02434087-n
-  s:
+  a:
     form:
     - hinder
     sense:
     - adjposition: a
       id: hind%5:00:00:posterior:00
       synset: 00132764-s
+  n:
+    sense:
+    - id: 'hind%1:05:01::'
+      synset: 02572115-n
+    - id: 'hind%1:05:00::'
+      synset: 02434087-n
 hind end:
   n:
     sense:
@@ -28697,7 +28579,7 @@ hindbrain:
     - id: 'hindbrain%1:08:00::'
       synset: 05508245-n
 hinder:
-  s:
+  a:
     pronunciation:
     - value: ˈhaɪn.də
       variety: GB
@@ -28744,7 +28626,7 @@ hinderance:
     - id: 'hinderance%1:04:00::'
       synset: 01075919-n
 hindering:
-  s:
+  a:
     sense:
     - id: hindering%5:00:00:preventive:00
       synset: 01768863-s
@@ -28756,7 +28638,7 @@ hinderingly:
       - hindering%5:00:00:preventive:00
       synset: 00415297-r
 hindermost:
-  s:
+  a:
     sense:
     - id: hindermost%5:00:00:back:00
       synset: 00199365-s
@@ -28776,7 +28658,7 @@ hindlimb:
     - id: 'hindlimb%1:05:00::'
       synset: 02467092-n
 hindmost:
-  s:
+  a:
     sense:
     - id: hindmost%5:00:00:back:00
       synset: 00199365-s
@@ -28916,6 +28798,13 @@ hinterland:
     - id: 'hinterland%1:15:00::'
       synset: 08519693-n
 hip:
+  a:
+    form:
+    - hipper
+    - hippest
+    sense:
+    - id: hip%5:00:00:informed:00
+      synset: 01310526-s
   n:
     pronunciation:
     - value: hɪp
@@ -28930,13 +28819,6 @@ hip:
       synset: 13913372-n
     - id: 'hip%1:20:00::'
       synset: 12641307-n
-  s:
-    form:
-    - hipper
-    - hippest
-    sense:
-    - id: hip%5:00:00:informed:00
-      synset: 01310526-s
 hip bath:
   n:
     sense:
@@ -28978,7 +28860,7 @@ hip tile:
     - id: 'hip_tile%1:27:00::'
       synset: 14932178-n
 hip to:
-  s:
+  a:
     sense:
     - adjposition: p
       id: hip_to%5:00:00:informed:00
@@ -29190,8 +29072,6 @@ hired:
     sense:
     - id: 'hired%3:00:02::'
       synset: 00361121-a
-  s:
-    sense:
     - id: hired%5:00:00:employed:00
       synset: 00867533-s
 hired gun:
@@ -29271,7 +29151,7 @@ hirudinean:
     - id: 'hirudinean%1:05:00::'
       synset: 01940550-n
 hispid:
-  s:
+  a:
     sense:
     - id: hispid%5:00:00:hairy:00
       synset: 00216053-s
@@ -29495,7 +29375,7 @@ historian:
     - id: 'historian%1:18:00::'
       synset: 10196781-n
 historic:
-  s:
+  a:
     pronunciation:
     - value: (h)ɪˈstɒɹɪk
       variety: GB
@@ -29538,13 +29418,6 @@ historical:
       - 'historicalness%1:07:00::'
       id: 'historical%3:00:04::'
       synset: 02385986-a
-  s:
-    pronunciation:
-    - value: hɪˈstɒɹɪkəl
-      variety: GB
-    - value: hɪˈstɔːɹɪkəl
-      variety: US
-    sense:
     - derivation:
       - 'historicalness%1:26:00::'
       id: historical%5:00:00:real:00
@@ -29613,7 +29486,7 @@ historicism:
     - id: 'historicism%1:09:00::'
       synset: 06165589-n
 historied:
-  s:
+  a:
     sense:
     - id: historied%5:00:00:glorious:00
       synset: 01125164-s
@@ -29679,7 +29552,7 @@ histrion:
     - id: 'histrion%1:18:00::'
       synset: 09784701-n
 histrionic:
-  s:
+  a:
     pronunciation:
     - value: hɪstɹiːˈɒnɪk
       variety: GB
@@ -29949,7 +29822,7 @@ hit the sack:
       - via
       synset: 00017858-v
 hit-and-run:
-  s:
+  a:
     sense:
     - id: hit-and-run%5:00:00:offensive:03
       synset: 01633554-s
@@ -29957,7 +29830,7 @@ hit-and-run:
       id: hit-and-run%5:00:00:negligent:00
       synset: 00759263-s
 hit-or-miss:
-  s:
+  a:
     sense:
     - id: hit-or-miss%5:00:00:random:00
       synset: 01931202-s
@@ -30084,7 +29957,7 @@ hitherto:
     - id: 'hitherto%4:02:00::'
       synset: 00028314-r
 hitless:
-  s:
+  a:
     sense:
     - id: hitless%5:00:00:unsuccessful:00
       synset: 02342709-s
@@ -30212,7 +30085,7 @@ ho:
     - id: 'ho%1:18:01::'
       synset: 90012011-n
 ho-hum:
-  s:
+  a:
     sense:
     - id: ho-hum%5:00:00:uninteresting:00
       synset: 01348155-s
@@ -30235,6 +30108,16 @@ hoagy:
     - id: 'hoagy%1:13:00::'
       synset: 07713570-n
 hoar:
+  a:
+    pronunciation:
+    - value: hɔː
+      variety: GB
+    - value: hɔɹ
+      variety: US
+    - value: ho(ː)ɹ
+    sense:
+    - id: hoar%5:00:00:old:02
+      synset: 01650120-s
   n:
     pronunciation:
     - value: hɔː
@@ -30245,16 +30128,6 @@ hoar:
     sense:
     - id: 'hoar%1:27:00::'
       synset: 14939773-n
-  s:
-    pronunciation:
-    - value: hɔː
-      variety: GB
-    - value: hɔɹ
-      variety: US
-    - value: ho(ː)ɹ
-    sense:
-    - id: hoar%5:00:00:old:02
-      synset: 01650120-s
 hoard:
   n:
     sense:
@@ -30320,7 +30193,7 @@ hoariness:
       id: 'hoariness%1:07:01::'
       synset: 04933485-n
 hoarse:
-  s:
+  a:
     pronunciation:
     - value: hoɹs
       variety: US
@@ -30346,7 +30219,7 @@ hoarseness:
       id: 'hoarseness%1:07:00::'
       synset: 04996097-n
 hoary:
-  s:
+  a:
     form:
     - hoarier
     - hoariest
@@ -30616,7 +30489,7 @@ hobnail:
       - vtai
       synset: 02337784-v
 hobnailed:
-  s:
+  a:
     sense:
     - id: hobnailed%5:00:00:rural:00
       synset: 02059601-s
@@ -30953,7 +30826,7 @@ hogg:
     - id: 'hogg%1:05:00::'
       synset: 02415433-n
 hogged:
-  s:
+  a:
     sense:
     - id: hogged%5:00:00:convex:00
       synset: 00540104-s
@@ -30968,7 +30841,7 @@ hogget:
     - id: 'hogget%1:05:00::'
       synset: 02415433-n
 hoggish:
-  s:
+  a:
     sense:
     - derivation:
       - 'hoggishness%1:07:00::'
@@ -31075,14 +30948,14 @@ hoister:
       id: 'hoister%1:18:00::'
       synset: 10199448-n
 hoity-toity:
-  s:
+  a:
     pronunciation:
     - value: ˌhɔɪ.tiˈtɔɪ.ti
     sense:
     - id: hoity-toity%5:00:00:pretentious:00
       synset: 01856216-s
 hokey:
-  s:
+  a:
     pronunciation:
     - value: ˈhəʊki
     sense:
@@ -31909,7 +31782,7 @@ hole up:
       - vii
       synset: 00015939-v
 hole-and-corner:
-  s:
+  a:
     sense:
     - id: hole-and-corner%5:00:00:insignificant:00
       synset: 02172269-s
@@ -31917,7 +31790,7 @@ hole-and-corner:
       id: hole-and-corner%5:00:00:covert:00
       synset: 01710918-s
 hole-in-corner:
-  s:
+  a:
     sense:
     - id: hole-in-corner%5:00:00:insignificant:00
       synset: 02172269-s
@@ -31932,7 +31805,7 @@ hole-in-the-wall:
     - id: 'hole-in-the-wall%1:15:00::'
       synset: 08602441-n
 holey:
-  s:
+  a:
     pronunciation:
     - value: ˈhoʊli
       variety: US
@@ -31990,7 +31863,7 @@ holidaymaker:
     - id: 'holidaymaker%1:18:00::'
       synset: 10737780-n
 holier-than-thou:
-  s:
+  a:
     pronunciation:
     - value: ˈhəʊ.li.ə ð(ə)n ˈðaʊ
       variety: GB
@@ -32155,6 +32028,14 @@ hollow:
       - 'hollowness%1:26:00::'
       id: 'hollow%3:00:00::'
       synset: 02271738-a
+    - id: hollow%5:00:00:reverberant:00
+      synset: 02017223-s
+    - derivation:
+      - 'hollowness%1:07:01::'
+      id: hollow%5:00:00:meaningless:00
+      synset: 01501421-s
+    - id: hollow%5:00:00:insubstantial:00
+      synset: 00629437-s
   n:
     sense:
     - derivation:
@@ -32171,16 +32052,6 @@ hollow:
       - 'hollow%2:35:00::'
       id: 'hollow%1:17:00::'
       synset: 09327656-n
-  s:
-    sense:
-    - id: hollow%5:00:00:reverberant:00
-      synset: 02017223-s
-    - derivation:
-      - 'hollowness%1:07:01::'
-      id: hollow%5:00:00:meaningless:00
-      synset: 01501421-s
-    - id: hollow%5:00:00:insubstantial:00
-      synset: 00629437-s
   v:
     sense:
     - derivation:
@@ -32215,12 +32086,12 @@ hollow-back:
     - id: 'hollow-back%1:26:00::'
       synset: 14528817-n
 hollow-eyed:
-  s:
+  a:
     sense:
     - id: hollow-eyed%5:00:00:thin:03
       synset: 00992555-s
 hollow-horned:
-  s:
+  a:
     sense:
     - id: hollow-horned%5:00:00:horned:00
       synset: 02041911-s
@@ -32378,8 +32249,6 @@ holographic:
       pertainym:
       - 'holograph%1:10:00::'
       synset: 03012786-a
-  s:
-    sense:
     - id: holographic%5:00:00:written:00
       synset: 02293214-s
 holographical:
@@ -32400,7 +32269,7 @@ holometabola:
     - id: 'holometabola%1:05:00::'
       synset: 02163877-n
 holometabolic:
-  s:
+  a:
     sense:
     - derivation:
       - 'holometabolism%1:22:00::'
@@ -32415,7 +32284,7 @@ holometabolism:
       id: 'holometabolism%1:22:00::'
       synset: 13514895-n
 holometabolous:
-  s:
+  a:
     sense:
     - derivation:
       - 'holometaboly%1:22:00::'
@@ -32643,6 +32512,9 @@ home:
       pertainym:
       - 'home%1:15:02::'
       synset: 02753598-a
+    - adjposition: a
+      id: home%5:00:00:domestic:00
+      synset: 01042014-s
   n:
     pronunciation:
     - value: (h)əʊm
@@ -32695,16 +32567,6 @@ home:
       synset: 00099070-r
     - id: 'home%4:02:03::'
       synset: 00098930-r
-  s:
-    pronunciation:
-    - value: (h)əʊm
-      variety: GB
-    - value: hoʊm
-      variety: US
-    sense:
-    - adjposition: a
-      id: home%5:00:00:domestic:00
-      synset: 01042014-s
   v:
     pronunciation:
     - value: (h)əʊm
@@ -32947,12 +32809,12 @@ home truth:
     - id: 'home_truth%1:09:00::'
       synset: 05827788-n
 home-baked:
-  s:
+  a:
     sense:
     - id: home-baked%5:00:00:homemade:00
       synset: 00677901-s
 home-brewed:
-  s:
+  a:
     sense:
     - id: home-brewed%5:00:00:homemade:00
       synset: 00678000-s
@@ -32962,7 +32824,7 @@ home-builder:
     - id: 'home-builder%1:18:00::'
       synset: 10201287-n
 home-cured:
-  s:
+  a:
     sense:
     - id: home-cured%5:00:00:homemade:00
       synset: 00678092-s
@@ -32977,7 +32839,7 @@ home-fried potatoes:
     - id: 'home-fried_potatoes%1:13:00::'
       synset: 07726977-n
 home-loving:
-  s:
+  a:
     sense:
     - id: home-loving%5:00:00:domestic:01
       synset: 01043048-s
@@ -32989,7 +32851,7 @@ home-school:
       - vtaa
       synset: 02393357-v
 home-style:
-  s:
+  a:
     sense:
     - id: home-style%5:00:00:domestic:01
       synset: 01043142-s
@@ -32999,18 +32861,18 @@ homebody:
     - id: 'homebody%1:18:00::'
       synset: 10672827-n
 homebound:
+  a:
+    sense:
+    - derivation:
+      - 'homebound%1:14:00::'
+      id: homebound%5:00:00:confined:00
+      synset: 00561053-s
   n:
     sense:
     - derivation:
       - homebound%5:00:00:confined:00
       id: 'homebound%1:14:00::'
       synset: 07964769-n
-  s:
-    sense:
-    - derivation:
-      - 'homebound%1:14:00::'
-      id: homebound%5:00:00:confined:00
-      synset: 00561053-s
 homeboy:
   n:
     pronunciation:
@@ -33057,7 +32919,7 @@ homegirl:
     - id: 'homegirl%1:18:00::'
       synset: 10201509-n
 homegrown:
-  s:
+  a:
     sense:
     - id: homegrown%5:00:00:native:01
       synset: 01040556-s
@@ -33067,17 +32929,7 @@ homeland:
     - id: 'homeland%1:15:00::'
       synset: 08527190-n
 homeless:
-  n:
-    sense:
-    - derivation:
-      - homeless%5:00:00:unfortunate:00
-      id: 'homeless%1:18:00::'
-      synset: 10201821-n
-    - derivation:
-      - homeless%5:00:00:unfortunate:00
-      id: 'homeless%1:14:00::'
-      synset: 07964900-n
-  s:
+  a:
     pronunciation:
     - value: ˈhoʊmlɪs
       variety: US
@@ -33090,6 +32942,16 @@ homeless:
       - 'homelessness%1:26:00::'
       id: homeless%5:00:00:unfortunate:00
       synset: 01054302-s
+  n:
+    sense:
+    - derivation:
+      - homeless%5:00:00:unfortunate:00
+      id: 'homeless%1:18:00::'
+      synset: 10201821-n
+    - derivation:
+      - homeless%5:00:00:unfortunate:00
+      id: 'homeless%1:14:00::'
+      synset: 07964900-n
 homeless person:
   n:
     sense:
@@ -33103,7 +32965,7 @@ homelessness:
       id: 'homelessness%1:26:00::'
       synset: 13966105-n
 homelike:
-  s:
+  a:
     sense:
     - id: homelike%5:00:00:comfortable:00
       synset: 00479651-s
@@ -33120,7 +32982,7 @@ homeliness:
       id: 'homeliness%1:07:00::'
       synset: 04698999-n
 homely:
-  s:
+  a:
     form:
     - homelier
     - homeliest
@@ -33242,7 +33104,7 @@ homeotherm:
       id: 'homeotherm%1:05:00::'
       synset: 01317821-n
 homeothermic:
-  s:
+  a:
     sense:
     - derivation:
       - 'homeotherm%1:05:00::'
@@ -33288,7 +33150,7 @@ homeroom:
     - id: 'homeroom%1:06:00::'
       synset: 03534355-n
 homesick:
-  s:
+  a:
     sense:
     - derivation:
       - 'homesickness%1:12:00::'
@@ -33302,14 +33164,7 @@ homesickness:
       id: 'homesickness%1:12:00::'
       synset: 07502734-n
 homespun:
-  n:
-    sense:
-    - derivation:
-      - homespun%5:00:00:rough:00
-      - homespun%5:00:00:homemade:00
-      id: 'homespun%1:06:00::'
-      synset: 03534624-n
-  s:
+  a:
     sense:
     - adjposition: p
       derivation:
@@ -33322,6 +33177,13 @@ homespun:
       - 'homespun%1:06:00::'
       id: homespun%5:00:00:homemade:00
       synset: 00678181-s
+  n:
+    sense:
+    - derivation:
+      - homespun%5:00:00:rough:00
+      - homespun%5:00:00:homemade:00
+      id: 'homespun%1:06:00::'
+      synset: 03534624-n
 homestead:
   n:
     pronunciation:
@@ -33373,16 +33235,16 @@ hometown:
     - id: 'hometown%1:15:00::'
       synset: 08689382-n
 homeward:
+  a:
+    sense:
+    - id: homeward%5:00:00:oriented:00
+      synset: 01688009-s
   r:
     sense:
     - id: 'homeward%4:02:00::'
       synset: 00099155-r
-  s:
-    sense:
-    - id: homeward%5:00:00:oriented:00
-      synset: 01688009-s
 homeward-bound:
-  s:
+  a:
     sense:
     - id: homeward-bound%5:00:00:oriented:00
       synset: 01688009-s
@@ -33407,7 +33269,7 @@ homework problem:
     - id: 'homework_problem%1:10:00::'
       synset: 06797958-n
 homey:
-  s:
+  a:
     form:
     - homier
     - homiest
@@ -33417,7 +33279,7 @@ homey:
       id: homey%5:00:00:comfortable:00
       synset: 00479651-s
 homicidal:
-  s:
+  a:
     sense:
     - derivation:
       - 'homicide%1:04:00::'
@@ -33490,12 +33352,12 @@ homily:
       id: 'homily%1:10:00::'
       synset: 07259609-n
 hominal:
-  s:
+  a:
     sense:
     - id: hominal%5:00:00:human:00
       synset: 01262716-s
 homing:
-  s:
+  a:
     sense:
     - id: homing%5:00:00:orienting:00
       synset: 01689891-s
@@ -33515,25 +33377,25 @@ homing torpedo:
     - id: 'homing_torpedo%1:06:00::'
       synset: 03535369-n
 hominian:
-  s:
+  a:
     sense:
     - id: hominian%5:00:00:human:00
       synset: 01262818-s
 hominid:
+  a:
+    sense:
+    - derivation:
+      - 'hominid%1:05:00::'
+      id: hominid%5:00:00:human:00
+      synset: 01262818-s
   n:
     sense:
     - derivation:
       - hominid%5:00:00:human:00
       id: 'hominid%1:05:00::'
       synset: 02474393-n
-  s:
-    sense:
-    - derivation:
-      - 'hominid%1:05:00::'
-      id: hominid%5:00:00:human:00
-      synset: 01262818-s
 hominine:
-  s:
+  a:
     sense:
     - id: hominine%5:00:00:human:00
       synset: 01263013-s
@@ -33591,7 +33453,7 @@ homochromatic:
     - id: 'homochromatic%3:00:00::'
       synset: 00367435-a
 homocyclic:
-  s:
+  a:
     sense:
     - id: homocyclic%5:00:00:cyclic:02
       synset: 00680438-s
@@ -33611,7 +33473,7 @@ homoeopathy:
     - id: 'homoeopathy%1:04:00::'
       synset: 00712142-n
 homoerotic:
-  s:
+  a:
     pronunciation:
     - value: ˌhoʊmoʊəˈɹɑtɪk
       variety: US
@@ -33726,7 +33588,7 @@ homogenise:
       - vtii
       synset: 00458055-v
 homogenised:
-  s:
+  a:
     sense:
     - id: homogenised%5:00:00:blended:00
       synset: 01332365-s
@@ -33771,7 +33633,7 @@ homogenize:
       - vii
       synset: 00458282-v
 homogenized:
-  s:
+  a:
     sense:
     - id: homogenized%5:00:00:blended:00
       synset: 01332365-s
@@ -33835,21 +33697,21 @@ homoiotherm:
       id: 'homoiotherm%1:05:00::'
       synset: 01317821-n
 homoiothermic:
-  s:
+  a:
     sense:
     - derivation:
       - 'homoiotherm%1:05:00::'
       id: homoiothermic%5:00:00:warm-blooded:00
       synset: 02543153-s
 homologic:
-  s:
+  a:
     sense:
     - derivation:
       - 'homology%1:07:00::'
       id: homologic%5:00:00:homologous:02
       synset: 01223553-s
 homological:
-  s:
+  a:
     sense:
     - derivation:
       - 'homology%1:07:00::'
@@ -33950,15 +33812,15 @@ homonymy:
     - id: 'homonymy%1:24:00::'
       synset: 13831193-n
 homophile:
-  n:
-    sense:
-    - id: 'homophile%1:18:00::'
-      synset: 10202544-n
-  s:
+  a:
     sense:
     - adjposition: a
       id: homophile%5:00:00:homosexual:00
       synset: 01205390-s
+  n:
+    sense:
+    - id: 'homophile%1:18:00::'
+      synset: 10202544-n
 homophobe:
   n:
     sense:
@@ -33970,7 +33832,7 @@ homophobia:
     - id: 'homophobia%1:09:00::'
       synset: 06213207-n
 homophobic:
-  s:
+  a:
     sense:
     - id: homophobic%5:00:00:prejudiced:00
       synset: 00286279-s
@@ -33987,7 +33849,7 @@ homophone:
       id: 'homophone%1:10:00::'
       synset: 07145877-n
 homophonic:
-  s:
+  a:
     sense:
     - derivation:
       - 'homophony%1:10:01::'
@@ -34118,7 +33980,7 @@ homotherm:
       id: 'homotherm%1:05:00::'
       synset: 01317821-n
 homothermic:
-  s:
+  a:
     sense:
     - derivation:
       - 'homotherm%1:05:00::'
@@ -34174,7 +34036,7 @@ homunculus:
     - id: 'homunculus%1:18:01::'
       synset: 10202776-n
 homy:
-  s:
+  a:
     sense:
     - derivation:
       - 'home%1:26:00::'
@@ -34227,13 +34089,6 @@ honest:
       - 'honestness%1:07:00::'
       id: 'honest%3:00:00::'
       synset: 01225031-a
-  s:
-    pronunciation:
-    - value: ˈɒnɪst
-      variety: GB
-    - value: ˈɑnɪst
-      variety: US
-    sense:
     - derivation:
       - 'honestness%1:07:00::'
       id: honest%5:00:00:sincere:00
@@ -34254,12 +34109,12 @@ honest woman:
     - id: 'honest_woman%1:18:00::'
       synset: 10202966-n
 honest-to-god:
-  s:
+  a:
     sense:
     - id: honest-to-god%5:00:00:genuine:00
       synset: 01119860-s
 honest-to-goodness:
-  s:
+  a:
     sense:
     - id: honest-to-goodness%5:00:00:genuine:00
       synset: 01119860-s
@@ -34305,6 +34160,14 @@ honesty:
     - id: 'honesty%1:20:00::'
       synset: 11912010-n
 honey:
+  a:
+    pronunciation:
+    - value: ˈhʌni
+    sense:
+    - derivation:
+      - 'honey%1:13:00::'
+      id: honey%5:00:00:chromatic:00
+      synset: 00377599-s
   n:
     pronunciation:
     - value: ˈhʌni
@@ -34316,14 +34179,6 @@ honey:
       synset: 07874954-n
     - id: 'honey%1:18:00::'
       synset: 09869006-n
-  s:
-    pronunciation:
-    - value: ˈhʌni
-    sense:
-    - derivation:
-      - 'honey%1:13:00::'
-      id: honey%5:00:00:chromatic:00
-      synset: 00377599-s
   v:
     form:
     - honied
@@ -34427,12 +34282,12 @@ honey plant:
     - id: 'honey_plant%1:20:00::'
       synset: 13257973-n
 honey-colored:
-  s:
+  a:
     sense:
     - id: honey-colored%5:00:00:colored:00
       synset: 00399332-s
 honey-coloured:
-  s:
+  a:
     sense:
     - id: honey-coloured%5:00:00:colored:00
       synset: 00399332-s
@@ -34444,7 +34299,7 @@ honey-flower:
     - id: 'honey-flower%1:20:01::'
       synset: 12235727-n
 honey-scented:
-  s:
+  a:
     sense:
     - id: honey-scented%5:00:00:odorous:00
       synset: 01060180-s
@@ -34498,7 +34353,7 @@ honeycomb tripe:
     - id: 'honeycomb_tripe%1:13:00::'
       synset: 07679105-n
 honeycombed:
-  s:
+  a:
     sense:
     - id: honeycombed%5:00:00:cellular:00
       synset: 00328588-s
@@ -34529,7 +34384,7 @@ honeydew melon:
     - id: 'honeydew_melon%1:13:00::'
       synset: 07772301-n
 honeyed:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌnid
     sense:
@@ -34550,7 +34405,7 @@ honeyflower:
     - id: 'honeyflower%1:20:01::'
       synset: 12235727-n
 honeylike:
-  s:
+  a:
     sense:
     - id: honeylike%5:00:00:sugary:00
       synset: 02346195-s
@@ -34626,7 +34481,7 @@ honeysuckle family:
     - id: 'honeysuckle_family%1:20:00::'
       synset: 12691918-n
 honied:
-  s:
+  a:
     sense:
     - id: honied%5:00:00:sugary:00
       synset: 02346107-s
@@ -34817,13 +34672,6 @@ honorable:
       - 'honorableness%1:07:00::'
       id: 'honorable%3:00:00::'
       synset: 01229113-a
-  s:
-    pronunciation:
-    - value: ˈɒnəɹəbl̩
-      variety: GB
-    - value: ˈɑnəɹəbl̩
-      variety: US
-    sense:
     - derivation:
       - 'honorableness%1:07:00::'
       id: honorable%5:00:00:right:01
@@ -34881,7 +34729,7 @@ honorarium:
     - id: 'honorarium%1:21:00::'
       synset: 13304975-n
 honorary:
-  s:
+  a:
     sense:
     - derivation:
       - 'honor%1:26:00::'
@@ -34899,7 +34747,7 @@ honorary society:
     - id: 'honorary_society%1:14:00::'
       synset: 08297045-n
 honored:
-  s:
+  a:
     sense:
     - id: honored%5:00:00:reputable:00
       synset: 01990022-s
@@ -34911,6 +34759,17 @@ honoree:
       id: 'honoree%1:18:00::'
       synset: 10203376-n
 honorific:
+  a:
+    pronunciation:
+    - value: ˌɒnəˈɹɪfɪk
+      variety: GB
+    - value: ˌɑːnəˈɹɪfɪk
+      variety: US
+    sense:
+    - derivation:
+      - 'honorific%1:10:00::'
+      id: honorific%5:00:00:respectful:00
+      synset: 02001504-s
   n:
     pronunciation:
     - value: ˌɒnəˈɹɪfɪk
@@ -34922,17 +34781,6 @@ honorific:
       - honorific%5:00:00:respectful:00
       id: 'honorific%1:10:00::'
       synset: 07084923-n
-  s:
-    pronunciation:
-    - value: ˌɒnəˈɹɪfɪk
-      variety: GB
-    - value: ˌɑːnəˈɹɪfɪk
-      variety: US
-    sense:
-    - derivation:
-      - 'honorific%1:10:00::'
-      id: honorific%5:00:00:respectful:00
-      synset: 02001504-s
 honoring:
   n:
     sense:
@@ -34992,8 +34840,6 @@ honourable:
       - 'honourableness%1:07:00::'
       id: 'honourable%3:00:00::'
       synset: 01229113-a
-  s:
-    sense:
     - derivation:
       - 'honourableness%1:07:00::'
       id: honourable%5:00:00:right:01
@@ -35473,12 +35319,12 @@ hook wrench:
     - id: 'hook_wrench%1:06:00::'
       synset: 03539025-n
 hook-nosed:
-  s:
+  a:
     sense:
     - id: hook-nosed%5:00:00:nosed:00
       synset: 01612074-s
 hook-shaped:
-  s:
+  a:
     sense:
     - id: hook-shaped%5:00:00:formed:00
       synset: 02155068-s
@@ -35493,7 +35339,7 @@ hookah:
     - id: 'hookah%1:06:00::'
       synset: 03538194-n
 hooked:
-  s:
+  a:
     pronunciation:
     - value: hʊkt
     sense:
@@ -35524,7 +35370,7 @@ hooking:
       id: 'hooking%1:04:00::'
       synset: 00573322-n
 hooklike:
-  s:
+  a:
     sense:
     - id: hooklike%5:00:00:curved:00
       synset: 02324046-s
@@ -35987,7 +35833,7 @@ hope chest:
     - id: 'hope_chest%1:06:00::'
       synset: 03540204-n
 hoped-for:
-  s:
+  a:
     sense:
     - id: hoped-for%5:00:00:expected:00
       synset: 00933056-s
@@ -36006,6 +35852,11 @@ hopeful:
       - 'hopefulness%1:12:00::'
       id: 'hopeful%3:00:00::'
       synset: 01231403-a
+    - derivation:
+      - 'hopeful%1:18:00::'
+      - 'hopefulness%1:26:00::'
+      id: hopeful%5:00:00:auspicious:00
+      synset: 00177648-s
   n:
     pronunciation:
     - value: ˈhoʊpfəl
@@ -36018,18 +35869,6 @@ hopeful:
       - 'hopeful%3:00:00::'
       id: 'hopeful%1:18:00::'
       synset: 09820956-n
-  s:
-    pronunciation:
-    - value: ˈhoʊpfəl
-      variety: US
-    - value: ˈhəʊpfəl
-      variety: GB
-    sense:
-    - derivation:
-      - 'hopeful%1:18:00::'
-      - 'hopefulness%1:26:00::'
-      id: hopeful%5:00:00:auspicious:00
-      synset: 00177648-s
 hopefully:
   r:
     pronunciation:
@@ -36073,13 +35912,6 @@ hopeless:
       - 'hopelessness%1:12:00::'
       id: 'hopeless%3:00:00::'
       synset: 01231893-a
-  s:
-    pronunciation:
-    - value: ˈhoʊplɪs
-      variety: US
-    - value: ˈhəʊplɪs
-      variety: GB
-    sense:
     - derivation:
       - 'hopelessness%1:12:00::'
       id: hopeless%5:00:03:unskilled:00
@@ -36130,7 +35962,7 @@ hoper:
       id: 'hoper%1:18:00::'
       synset: 10204767-n
 hopped-up:
-  s:
+  a:
     sense:
     - id: hopped-up%5:00:00:powered:00
       synset: 01834705-s
@@ -36470,12 +36302,12 @@ horn poppy:
     - id: 'horn_poppy%1:20:00::'
       synset: 11926218-n
 horn-rimmed:
-  s:
+  a:
     sense:
     - id: horn-rimmed%5:00:00:rimmed:00
       synset: 02034697-s
 horn-shaped:
-  s:
+  a:
     sense:
     - id: horn-shaped%5:00:00:formed:00
       synset: 02155154-s
@@ -36650,7 +36482,7 @@ hornless:
       id: 'hornless%3:00:00::'
       synset: 02042146-a
 hornlike:
-  s:
+  a:
     sense:
     - id: hornlike%5:00:00:hard:01
       synset: 01154955-s
@@ -36699,7 +36531,7 @@ hornwort:
     - id: 'hornwort%1:20:01::'
       synset: 11559271-n
 horny:
-  s:
+  a:
     form:
     - hornier
     - horniest
@@ -36783,14 +36615,14 @@ horoscopy:
     - id: 'horoscopy%1:09:00::'
       synset: 05786643-n
 horrendous:
-  s:
+  a:
     pronunciation:
     - value: həˈɹɛndəs
     sense:
     - id: horrendous%5:00:00:alarming:00
       synset: 00195400-s
 horrible:
-  s:
+  a:
     pronunciation:
     - value: ˈhɒɹɪbəl
       variety: GB
@@ -36807,7 +36639,7 @@ horribly:
       - horrible%5:00:00:alarming:00
       synset: 00056878-r
 horrid:
-  s:
+  a:
     pronunciation:
     - value: ˈhɒɹɪd
       variety: GB
@@ -36838,7 +36670,7 @@ horridness:
       id: 'horridness%1:07:00::'
       synset: 04789380-n
 horrific:
-  s:
+  a:
     pronunciation:
     - value: həˈɹɪfɪk
       variety: US
@@ -36852,7 +36684,7 @@ horrific:
     - id: horrific%5:00:00:alarming:00
       synset: 00195400-s
 horrified:
-  s:
+  a:
     sense:
     - id: horrified%5:00:00:afraid:00
       synset: 00080376-s
@@ -36876,7 +36708,7 @@ horrify:
       - vtia
       synset: 01786469-v
 horrifying:
-  s:
+  a:
     sense:
     - id: horrifying%5:00:00:alarming:00
       synset: 00195081-s
@@ -36931,12 +36763,12 @@ horror:
     - id: 'horror%1:12:00::'
       synset: 07519226-n
 horror-stricken:
-  s:
+  a:
     sense:
     - id: horror-stricken%5:00:00:afraid:00
       synset: 00080376-s
 horror-struck:
-  s:
+  a:
     sense:
     - id: horror-struck%5:00:00:afraid:00
       synset: 00080376-s
@@ -37203,7 +37035,7 @@ horse's foot:
     - id: 'horse''s_foot%1:05:00::'
       synset: 02161769-n
 horse-and-buggy:
-  s:
+  a:
     sense:
     - id: horse-and-buggy%5:00:00:nonmodern:00
       synset: 01541364-s
@@ -37631,7 +37463,7 @@ horsy set:
     - id: 'horsy_set%1:14:00::'
       synset: 08268526-n
 hortative:
-  s:
+  a:
     pronunciation:
     - value: ˈhɔːtətɪv
       variety: GB
@@ -37639,7 +37471,7 @@ hortative:
     - id: hortative%5:00:00:encouraging:00
       synset: 00870043-s
 hortatory:
-  s:
+  a:
     pronunciation:
     - value: ˈhɔːtətəɹi
       variety: GB
@@ -37793,13 +37625,6 @@ hospitable:
       - 'hospitality%1:10:00::'
       id: 'hospitable%3:00:02::'
       synset: 01246699-a
-  s:
-    pronunciation:
-    - value: hɒsˈpɪtəbl̩
-      variety: GB
-    - value: hɑsˈpɪtəbl̩
-      variety: US
-    sense:
     - id: hospitable%5:00:00:receptive:00
       synset: 01993216-s
 hospitableness:
@@ -38060,6 +37885,14 @@ hostile:
       - 'hostilities%1:04:01::'
       id: 'hostile%3:00:02::'
       synset: 01081517-a
+    - id: hostile%5:00:00:irreconcilable:00
+      synset: 01994175-s
+    - id: hostile%5:00:00:inhospitable:00
+      synset: 01246247-s
+    - derivation:
+      - 'hostility%1:04:00::'
+      id: hostile%5:00:00:aggressive:00
+      synset: 00083948-s
   n:
     pronunciation:
     - value: ˈhɒstaɪl
@@ -38071,21 +37904,6 @@ hostile:
       - 'friendly%1:14:00::'
       id: 'hostile%1:14:00::'
       synset: 08414632-n
-  s:
-    pronunciation:
-    - value: ˈhɒstaɪl
-      variety: GB
-    - value: ˈhɑstəl
-      variety: US
-    sense:
-    - id: hostile%5:00:00:irreconcilable:00
-      synset: 01994175-s
-    - id: hostile%5:00:00:inhospitable:00
-      synset: 01246247-s
-    - derivation:
-      - 'hostility%1:04:00::'
-      id: hostile%5:00:00:aggressive:00
-      synset: 00083948-s
 hostile expedition:
   n:
     sense:
@@ -38171,16 +37989,6 @@ hot:
       - 'cold%3:00:02::'
       id: 'hot%3:00:02::'
       synset: 01259404-a
-  s:
-    form:
-    - hotter
-    - hottest
-    pronunciation:
-    - value: hɒt
-      variety: GB
-    - value: hɑt
-      variety: US
-    sense:
     - id: hot%5:00:00:violent:00
       synset: 02521858-s
     - id: hot%5:00:00:warm:03
@@ -38231,7 +38039,7 @@ hot air:
     - id: 'hot_air%1:10:00::'
       synset: 06621856-n
 hot and bothered:
-  s:
+  a:
     sense:
     - adjposition: p
       id: hot_and_bothered%5:00:00:discomposed:00
@@ -38401,7 +38209,7 @@ hot tub:
     - id: 'hot_tub%1:06:00::'
       synset: 03548783-n
 hot under the collar:
-  s:
+  a:
     sense:
     - adjposition: p
       id: hot_under_the_collar%5:00:00:angry:00
@@ -38445,7 +38253,7 @@ hot-air balloon:
     - id: 'hot-air_balloon%1:06:00::'
       synset: 03547103-n
 hot-blooded:
-  s:
+  a:
     sense:
     - id: hot-blooded%5:00:00:emotional:00
       synset: 00858752-s
@@ -38477,7 +38285,7 @@ hot-rod:
     - id: 'hot-rod%1:06:00::'
       synset: 03548574-n
 hot-tempered:
-  s:
+  a:
     sense:
     - id: hot-tempered%5:00:00:ill-natured:00
       synset: 01139414-s
@@ -38675,7 +38483,7 @@ hothead:
     - id: 'hothead%1:18:00::'
       synset: 10011068-n
 hotheaded:
-  s:
+  a:
     sense:
     - id: hotheaded%5:00:00:ill-natured:00
       synset: 01139414-s
@@ -38747,7 +38555,7 @@ hotspur:
     - id: 'hotspur%1:18:00::'
       synset: 10207765-n
 hottish:
-  s:
+  a:
     sense:
     - id: hottish%5:00:00:hot:01
       synset: 01252639-s
@@ -38852,7 +38660,7 @@ hourglass:
     - id: 'hourglass%1:06:00::'
       synset: 03549323-n
 hourglass-shaped:
-  s:
+  a:
     sense:
     - id: hourglass-shaped%5:00:00:formed:00
       synset: 02155240-s
@@ -38866,11 +38674,22 @@ houri:
     - id: 'houri%1:18:02::'
       synset: 09568129-n
 hourlong:
-  s:
+  a:
     sense:
     - id: hourlong%5:00:00:long:02
       synset: 01442932-s
 hourly:
+  a:
+    pronunciation:
+    - value: ˈaʊ̯əli
+      variety: GB
+    - value: ˈaʊ̯ɚli
+      variety: US
+    sense:
+    - derivation:
+      - 'hour%1:28:00::'
+      id: hourly%5:00:00:periodic:00
+      synset: 01975876-s
   r:
     pronunciation:
     - value: ˈaʊ̯əli
@@ -38882,17 +38701,6 @@ hourly:
       pertainym:
       - hourly%5:00:00:periodic:00
       synset: 00360781-r
-  s:
-    pronunciation:
-    - value: ˈaʊ̯əli
-      variety: GB
-    - value: ˈaʊ̯ɚli
-      variety: US
-    sense:
-    - derivation:
-      - 'hour%1:28:00::'
-      id: hourly%5:00:00:periodic:00
-      synset: 01975876-s
 hours:
   n:
     pronunciation:
@@ -39136,7 +38944,7 @@ house-builder:
     - id: 'house-builder%1:18:00::'
       synset: 10201287-n
 house-proud:
-  s:
+  a:
     sense:
     - id: house-proud%5:00:00:proud:00
       synset: 01898394-s
@@ -39146,7 +38954,7 @@ house-raising:
     - id: 'house-raising%1:04:00::'
       synset: 00913736-n
 house-to-house:
-  s:
+  a:
     sense:
     - id: house-to-house%5:00:00:comprehensive:00
       synset: 00529727-s
@@ -39158,7 +38966,7 @@ house-train:
       - vtai
       synset: 00605620-v
 house-trained:
-  s:
+  a:
     sense:
     - id: house-trained%5:00:00:trained:00
       synset: 01918661-s
@@ -39171,7 +38979,7 @@ houseboat:
     - id: 'houseboat%1:06:00::'
       synset: 03550650-n
 housebound:
-  s:
+  a:
     sense:
     - id: housebound%5:00:00:confined:00
       synset: 00561053-s
@@ -39195,7 +39003,7 @@ housebreaking:
     - id: 'housebreaking%1:04:00::'
       synset: 00786917-n
 housebroken:
-  s:
+  a:
     sense:
     - id: housebroken%5:00:00:trained:00
       synset: 01918661-s
@@ -39413,7 +39221,7 @@ housewife:
       id: 'housewife%1:18:00::'
       synset: 10209395-n
 housewifely:
-  s:
+  a:
     sense:
     - derivation:
       - 'housewife%1:18:00::'
@@ -39680,6 +39488,11 @@ howler monkey:
     - id: 'howler_monkey%1:05:00::'
       synset: 02495291-n
 howling:
+  a:
+    sense:
+    - adjposition: a
+      id: howling%5:00:00:extraordinary:00
+      synset: 01681111-s
   n:
     sense:
     - derivation:
@@ -39687,11 +39500,6 @@ howling:
       - 'howl%2:29:00::'
       id: 'howling%1:10:00::'
       synset: 07141442-n
-  s:
-    sense:
-    - adjposition: a
-      id: howling%5:00:00:extraordinary:00
-      synset: 01681111-s
 hoy:
   n:
     sense:
@@ -39710,7 +39518,7 @@ hoyden:
     - id: 'hoyden%1:18:00::'
       synset: 10734679-n
 hoydenish:
-  s:
+  a:
     sense:
     - id: hoydenish%5:00:00:unwomanly:00
       synset: 01489015-s
@@ -39914,7 +39722,7 @@ huddle together:
       - via-pp
       synset: 02031072-v
 huddled:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌdl̩d
     sense:
@@ -39977,7 +39785,7 @@ hue and cry:
     - id: 'hue_and_cry%1:10:00::'
       synset: 07136826-n
 hueless:
-  s:
+  a:
     sense:
     - id: hueless%5:00:00:achromatic:00
       synset: 00391132-s
@@ -40029,7 +39837,7 @@ huffing:
       id: 'huffing%1:04:00::'
       synset: 00836121-n
 huffish:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌfɪʃ
     sense:
@@ -40045,7 +39853,7 @@ huffishness:
       id: 'huffishness%1:12:00::'
       synset: 07564867-n
 huffy:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌfi
     sense:
@@ -40103,7 +39911,7 @@ hug-me-tight:
     - id: 'hug-me-tight%1:06:00::'
       synset: 03553500-n
 huge:
-  s:
+  a:
     pronunciation:
     - value: hjuːd͡ʒ
     sense:
@@ -40136,6 +39944,19 @@ hugger mugger:
       - via
       synset: 02523709-v
 hugger-mugger:
+  a:
+    pronunciation:
+    - value: ˈhʌɡ.əˌmʌɡ.ə
+      variety: GB
+    - value: ˈhʌɡ.ɚˌmʌɡ.ɚ
+      variety: US
+    sense:
+    - derivation:
+      - 'hugger-mugger%1:26:00::'
+      id: hugger-mugger%5:00:00:untidy:00
+      synset: 02434302-s
+    - id: hugger-mugger%5:00:00:covert:00
+      synset: 01710918-s
   n:
     pronunciation:
     - value: ˈhʌɡ.əˌmʌɡ.ə
@@ -40157,19 +39978,6 @@ hugger-mugger:
     sense:
     - id: 'hugger-mugger%4:02:00::'
       synset: 00361013-r
-  s:
-    pronunciation:
-    - value: ˈhʌɡ.əˌmʌɡ.ə
-      variety: GB
-    - value: ˈhʌɡ.ɚˌmʌɡ.ɚ
-      variety: US
-    sense:
-    - derivation:
-      - 'hugger-mugger%1:26:00::'
-      id: hugger-mugger%5:00:00:untidy:00
-      synset: 02434302-s
-    - id: hugger-mugger%5:00:00:covert:00
-      synset: 01710918-s
 hugging:
   n:
     pronunciation:
@@ -40236,14 +40044,14 @@ hulk:
       - vii-pp
       synset: 02702345-v
 hulking:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌlkɪŋ
     sense:
     - id: hulking%5:00:00:large:00
       synset: 01390836-s
 hulky:
-  s:
+  a:
     sense:
     - derivation:
       - 'hulk%1:18:00::'
@@ -40547,12 +40355,12 @@ human waste:
     - id: 'human_waste%1:27:00::'
       synset: 14879786-n
 human-centered:
-  s:
+  a:
     sense:
     - id: human-centered%5:00:00:humane:00
       synset: 01265356-s
 human-centred:
-  s:
+  a:
     sense:
     - domain_region:
       - 'canada%1:15:00::'
@@ -40560,7 +40368,7 @@ human-centred:
       id: human-centred%5:00:00:humane:00
       synset: 01265356-s
 human-sized:
-  s:
+  a:
     sense:
     - id: human-sized%5:00:00:sized:00
       synset: 02231315-s
@@ -40580,11 +40388,6 @@ humane:
       - 'humaneness%1:07:00::'
       id: 'humane%3:00:00::'
       synset: 01264939-a
-  s:
-    pronunciation:
-    - value: hjuːˈmeɪn
-      variety: GB
-    sense:
     - id: humane%5:00:00:civilized:00
       synset: 00413537-s
 humanely:
@@ -40660,6 +40463,8 @@ humanist:
       pertainym:
       - 'humanities%1:09:00::'
       synset: 02754319-a
+    - id: humanist%5:00:00:humane:00
+      synset: 01265356-s
   n:
     pronunciation:
     - value: ˈhjuːmənɪst
@@ -40673,12 +40478,6 @@ humanist:
       - 'humanism%1:09:01::'
       id: 'humanist%1:18:01::'
       synset: 10211007-n
-  s:
-    pronunciation:
-    - value: ˈhjuːmənɪst
-    sense:
-    - id: humanist%5:00:00:humane:00
-      synset: 01265356-s
 humanistic:
   a:
     sense:
@@ -40696,8 +40495,6 @@ humanistic:
       pertainym:
       - 'humanities%1:09:00::'
       synset: 02754319-a
-  s:
-    sense:
     - derivation:
       - 'humanism%1:09:01::'
       id: humanistic%5:00:00:humane:00
@@ -40721,6 +40518,8 @@ humanitarian:
       pertainym:
       - 'humanitarianism%1:09:00::'
       synset: 03005210-a
+    - id: humanitarian%5:00:00:humane:00
+      synset: 01265356-s
   n:
     pronunciation:
     - value: hjʊˌmæ.nɪˈtɛː.ɹɪ.ən
@@ -40734,15 +40533,6 @@ humanitarian:
       - 'humanitarianism%1:09:00::'
       id: 'humanitarian%1:18:01::'
       synset: 10211007-n
-  s:
-    pronunciation:
-    - value: hjʊˌmæ.nɪˈtɛː.ɹɪ.ən
-      variety: GB
-    - value: hjuˌmæ.nəˈtɛ.ɹi.ən
-      variety: US
-    sense:
-    - id: humanitarian%5:00:00:humane:00
-      synset: 01265356-s
 humanitarianism:
   n:
     sense:
@@ -40799,7 +40589,7 @@ humankind:
     - id: 'humankind%1:05:00::'
       synset: 02475618-n
 humanlike:
-  s:
+  a:
     sense:
     - id: humanlike%5:00:00:human:00
       synset: 01262195-s
@@ -40850,8 +40640,6 @@ humble:
       - 'humility%1:07:00::'
       id: 'humble%3:00:00::'
       synset: 01899020-a
-  s:
-    sense:
     - derivation:
       - 'humbleness%1:26:00::'
       id: humble%5:00:00:inferior:01
@@ -40887,7 +40675,7 @@ humblebee:
     - id: 'humblebee%1:05:00::'
       synset: 02212276-n
 humbled:
-  s:
+  a:
     sense:
     - id: humbled%5:00:00:humble:00
       synset: 01899370-s
@@ -40906,7 +40694,7 @@ humbleness:
       id: 'humbleness%1:07:00::'
       synset: 04896722-n
 humbling:
-  s:
+  a:
     sense:
     - id: humbling%5:00:00:undignified:00
       synset: 00756076-s
@@ -40961,13 +40749,7 @@ humdinger:
     - id: 'humdinger%1:18:00::'
       synset: 10345322-n
 humdrum:
-  n:
-    pronunciation:
-    - value: ˈhʌmdɹʌm
-    sense:
-    - id: 'humdrum%1:07:00::'
-      synset: 04747566-n
-  s:
+  a:
     pronunciation:
     - value: ˈhʌmdɹʌm
     sense:
@@ -40975,6 +40757,12 @@ humdrum:
       synset: 00926081-s
     - id: humdrum%5:00:00:dull:03
       synset: 00811387-s
+  n:
+    pronunciation:
+    - value: ˈhʌmdɹʌm
+    sense:
+    - id: 'humdrum%1:07:00::'
+      synset: 04747566-n
 humectant:
   n:
     pronunciation:
@@ -41024,7 +40812,7 @@ humic substance:
     - id: 'humic_substance%1:27:00::'
       synset: 14933470-n
 humid:
-  s:
+  a:
     pronunciation:
     - value: ˈhjuːmɪd
     sense:
@@ -41112,14 +40900,14 @@ humiliate:
       - vtia
       synset: 01803805-v
 humiliated:
-  s:
+  a:
     sense:
     - id: humiliated%5:00:00:humble:00
       synset: 01899370-s
     - id: humiliated%5:00:00:ashamed:00
       synset: 00155537-s
 humiliating:
-  s:
+  a:
     pronunciation:
     - value: hjuːˈmɪliˌeɪtɪŋ
     sense:
@@ -41235,7 +41023,7 @@ hummus:
     - id: 'hummus%1:13:00::'
       synset: 07873707-n
 humongous:
-  s:
+  a:
     pronunciation:
     - value: ˌhjuːˈmʌŋɡəs
     sense:
@@ -41484,12 +41272,12 @@ humpback whale:
     - id: 'humpback_whale%1:05:00::'
       synset: 02068379-n
 humpbacked:
-  s:
+  a:
     sense:
     - id: humpbacked%5:00:00:unfit:01
       synset: 01022592-s
 humped:
-  s:
+  a:
     pronunciation:
     - value: hʌmpt
     sense:
@@ -41551,28 +41339,28 @@ hunchback:
     - id: 'hunchback%1:18:00::'
       synset: 10212031-n
 hunchbacked:
-  s:
+  a:
     sense:
     - id: hunchbacked%5:00:00:unfit:01
       synset: 01022592-s
 hunched:
-  s:
+  a:
     sense:
     - id: hunched%5:00:00:unerect:00
       synset: 01242072-s
 hundred:
+  a:
+    sense:
+    - id: hundred%5:00:00:cardinal:00
+      synset: 02203776-s
   n:
     pronunciation:
     - value: ˈhʌndɹəd
     sense:
     - id: 'hundred%1:23:00::'
       synset: 13772555-n
-  s:
-    sense:
-    - id: hundred%5:00:00:cardinal:00
-      synset: 02203776-s
 hundred and one:
-  s:
+  a:
     sense:
     - id: hundred_and_one%5:00:00:cardinal:00
       synset: 02203880-s
@@ -41582,101 +41370,101 @@ hundred dollar bill:
     - id: 'hundred_dollar_bill%1:21:00::'
       synset: 13416247-n
 hundred thousand:
+  a:
+    sense:
+    - id: hundred_thousand%5:00:00:cardinal:00
+      synset: 02206674-s
   n:
     sense:
     - id: 'hundred_thousand%1:23:00::'
       synset: 13773544-n
-  s:
-    sense:
-    - id: hundred_thousand%5:00:00:cardinal:00
-      synset: 02206674-s
 hundred-and-eightieth:
-  s:
+  a:
     sense:
     - id: hundred-and-eightieth%5:00:00:ordinal:00
       synset: 02219385-s
 hundred-and-fifteenth:
-  s:
+  a:
     sense:
     - id: hundred-and-fifteenth%5:00:00:ordinal:00
       synset: 02217602-s
 hundred-and-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-fifth%5:00:00:ordinal:00
       synset: 02217347-s
 hundred-and-fiftieth:
-  s:
+  a:
     sense:
     - id: hundred-and-fiftieth%5:00:00:ordinal:00
       synset: 02218561-s
 hundred-and-fifty-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-fifty-fifth%5:00:00:ordinal:00
       synset: 02218693-s
 hundred-and-first:
-  s:
+  a:
     sense:
     - id: hundred-and-first%5:00:00:ordinal:00
       synset: 02217220-s
 hundred-and-fortieth:
-  s:
+  a:
     sense:
     - id: hundred-and-fortieth%5:00:00:ordinal:00
       synset: 02218289-s
 hundred-and-forty-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-forty-fifth%5:00:00:ordinal:00
       synset: 02218421-s
 hundred-and-ninetieth:
-  s:
+  a:
     sense:
     - id: hundred-and-ninetieth%5:00:00:ordinal:00
       synset: 02219519-s
 hundred-and-seventieth:
-  s:
+  a:
     sense:
     - id: hundred-and-seventieth%5:00:00:ordinal:00
       synset: 02219105-s
 hundred-and-seventy-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-seventy-fifth%5:00:00:ordinal:00
       synset: 02219241-s
 hundred-and-sixtieth:
-  s:
+  a:
     sense:
     - id: hundred-and-sixtieth%5:00:00:ordinal:00
       synset: 02218833-s
 hundred-and-sixty-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-sixty-fifth%5:00:00:ordinal:00
       synset: 02218965-s
 hundred-and-tenth:
-  s:
+  a:
     sense:
     - id: hundred-and-tenth%5:00:00:ordinal:00
       synset: 02217475-s
 hundred-and-thirtieth:
-  s:
+  a:
     sense:
     - id: hundred-and-thirtieth%5:00:00:ordinal:00
       synset: 02218013-s
 hundred-and-thirty-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-thirty-fifth%5:00:00:ordinal:00
       synset: 02218147-s
 hundred-and-twentieth:
-  s:
+  a:
     sense:
     - id: hundred-and-twentieth%5:00:00:ordinal:00
       synset: 02217737-s
 hundred-and-twenty-fifth:
-  s:
+  a:
     sense:
     - id: hundred-and-twenty-fifth%5:00:00:ordinal:00
       synset: 02217871-s
@@ -41691,6 +41479,12 @@ hundredfold:
     - id: 'hundredfold%4:02:00::'
       synset: 00361728-r
 hundredth:
+  a:
+    pronunciation:
+    - value: ˈhʌndɹədθ
+    sense:
+    - id: hundredth%5:00:00:ordinal:00
+      synset: 02217092-s
   n:
     pronunciation:
     - value: ˈhʌndɹədθ
@@ -41699,12 +41493,6 @@ hundredth:
       synset: 13871907-n
     - id: 'hundredth%1:23:00::'
       synset: 13761191-n
-  s:
-    pronunciation:
-    - value: ˈhʌndɹədθ
-    sense:
-    - id: hundredth%5:00:00:ordinal:00
-      synset: 02217092-s
 hundredweight:
   n:
     sense:
@@ -41770,7 +41558,7 @@ hunger strike:
     - id: 'hunger_strike%1:04:00::'
       synset: 01245509-n
 hungover:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌŋˌəʊ.və(ɹ)
       variety: GB
@@ -41814,13 +41602,6 @@ hungry:
       - 'hungriness%1:26:00::'
       id: 'hungry%3:00:00::'
       synset: 01272183-a
-  s:
-    form:
-    - hungrier
-    - hungriest
-    pronunciation:
-    - value: ˈhʌŋ.ɡɹi
-    sense:
     - adjposition: p
       derivation:
       - 'hunger%1:07:00::'
@@ -41862,7 +41643,7 @@ hunker down:
       - via
       synset: 00820996-v
 hunky-dory:
-  s:
+  a:
     sense:
     - id: hunky-dory%5:00:00:satisfactory:00
       synset: 02088253-s
@@ -41968,7 +41749,7 @@ hunt down:
       - vtai
       synset: 01146304-v
 hunted:
-  s:
+  a:
     pronunciation:
     - value: ˈhʌntɪd
     sense:
@@ -42391,6 +42172,10 @@ hurry:
       - vtai
       synset: 00460251-v
 hurrying:
+  a:
+    sense:
+    - id: hurrying%5:00:00:fast:01
+      synset: 00981772-s
   n:
     pronunciation:
     - value: ˈhʌɹiɪŋ
@@ -42402,11 +42187,18 @@ hurrying:
       - 'hurry%2:38:00::'
       id: 'hurrying%1:04:00::'
       synset: 00330986-n
-  s:
-    sense:
-    - id: hurrying%5:00:00:fast:01
-      synset: 00981772-s
 hurt:
+  a:
+    pronunciation:
+    - value: hɜːt
+      variety: GB
+    - value: hɝt
+      variety: US
+    sense:
+    - id: hurt%5:00:01:injured:00
+      synset: 01321683-s
+    - id: hurt%5:00:00:damaged:00
+      synset: 00683799-s
   n:
     pronunciation:
     - value: hɜːt
@@ -42435,17 +42227,6 @@ hurt:
       synset: 07435138-n
     - id: 'hurt%1:04:00::'
       synset: 00403900-n
-  s:
-    pronunciation:
-    - value: hɜːt
-      variety: GB
-    - value: hɝt
-      variety: US
-    sense:
-    - id: hurt%5:00:01:injured:00
-      synset: 01321683-s
-    - id: hurt%5:00:00:damaged:00
-      synset: 00683799-s
   v:
     pronunciation:
     - value: hɜːt
@@ -42517,7 +42298,7 @@ hurt:
       - vii
       synset: 00064841-v
 hurtful:
-  s:
+  a:
     sense:
     - id: hurtful%5:00:00:unkind:00
       synset: 01377287-s
@@ -42593,11 +42374,6 @@ husbandly:
       - 'husband%1:18:00::'
       id: 'husbandly%3:00:00::'
       synset: 01739871-a
-  s:
-    pronunciation:
-    - value: ˈhʌzbəndli
-      variety: GB
-    sense:
     - derivation:
       - 'husband%1:18:00::'
       id: husbandly%5:00:00:domestic:01
@@ -42692,19 +42468,19 @@ hush up:
       - vtia
       synset: 00462448-v
 hush-hush:
-  s:
+  a:
     sense:
     - id: hush-hush%5:00:00:covert:00
       synset: 01710918-s
 hushed:
-  s:
+  a:
     pronunciation:
     - value: hʌʃt
     sense:
     - id: hushed%5:00:00:soft:04
       synset: 01458319-s
 hushed-up:
-  s:
+  a:
     sense:
     - id: hushed-up%5:00:00:suppressed:00
       synset: 00472362-s
@@ -42779,11 +42555,7 @@ husking bee:
     - id: 'husking_bee%1:14:00::'
       synset: 08205897-n
 husky:
-  n:
-    sense:
-    - id: 'husky%1:05:00::'
-      synset: 02112613-n
-  s:
+  a:
     form:
     - huskier
     - huskiest
@@ -42796,6 +42568,10 @@ husky:
       - 'huskiness%1:07:02::'
       id: husky%5:00:00:cacophonous:00
       synset: 00300556-s
+  n:
+    sense:
+    - id: 'husky%1:05:00::'
+      synset: 02112613-n
 hussar:
   n:
     sense:
@@ -42928,6 +42704,14 @@ hyalin:
     - id: 'hyalin%1:27:00::'
       synset: 14933854-n
 hyaline:
+  a:
+    pronunciation:
+    - value: ˈhaɪəlɪn
+    sense:
+    - derivation:
+      - 'hyaline%1:27:00::'
+      id: hyaline%5:00:00:clear:02
+      synset: 00433966-s
   n:
     pronunciation:
     - value: ˈhaɪəlɪn
@@ -42936,14 +42720,6 @@ hyaline:
       - hyaline%5:00:00:clear:02
       id: 'hyaline%1:27:00::'
       synset: 14933854-n
-  s:
-    pronunciation:
-    - value: ˈhaɪəlɪn
-    sense:
-    - derivation:
-      - 'hyaline%1:27:00::'
-      id: hyaline%5:00:00:clear:02
-      synset: 00433966-s
 hyaline cartilage:
   n:
     sense:
@@ -42965,14 +42741,14 @@ hyalinization:
     - id: 'hyalinization%1:26:00::'
       synset: 14100291-n
 hyaloid:
+  a:
+    sense:
+    - id: hyaloid%5:00:00:clear:02
+      synset: 00433966-s
   n:
     sense:
     - id: 'hyaloid%1:08:00::'
       synset: 05327138-n
-  s:
-    sense:
-    - id: hyaloid%5:00:00:clear:02
-      synset: 00433966-s
 hyaloid membrane:
   n:
     sense:
@@ -43005,6 +42781,14 @@ hyaluronidase:
     - id: 'hyaluronidase%1:27:00::'
       synset: 14934316-n
 hybrid:
+  a:
+    pronunciation:
+    - value: ˈhaɪ.bɹɪd
+    sense:
+    - derivation:
+      - 'hybrid%1:05:00::'
+      id: hybrid%5:00:00:crossbred:00
+      synset: 01910664-s
   n:
     pronunciation:
     - value: ˈhaɪ.bɹɪd
@@ -43022,14 +42806,6 @@ hybrid:
       synset: 01329963-n
     - id: 'hybrid%1:06:01::'
       synset: 82558699-n
-  s:
-    pronunciation:
-    - value: ˈhaɪ.bɹɪd
-    sense:
-    - derivation:
-      - 'hybrid%1:05:00::'
-      id: hybrid%5:00:00:crossbred:00
-      synset: 01910664-s
 hybrid car:
   n:
     pronunciation:
@@ -43979,8 +43755,6 @@ hydrophobic:
       - 'hydrophobicity%1:07:00::'
       id: 'hydrophobic%3:00:00::'
       synset: 00493794-a
-  s:
-    sense:
     - id: hydrophobic%5:00:00:afraid:00
       synset: 00080688-s
 hydrophobicity:
@@ -44000,7 +43774,7 @@ hydrophyte:
       id: 'hydrophyte%1:20:00::'
       synset: 13142303-n
 hydrophytic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hydrophyte%1:20:00::'
@@ -44292,7 +44066,7 @@ hygiene:
       id: 'hygiene%1:09:00::'
       synset: 06060911-n
 hygienic:
-  s:
+  a:
     pronunciation:
     - value: haɪˈdʒiːnɪk
     sense:
@@ -44302,7 +44076,7 @@ hygienic:
       id: hygienic%5:00:00:sanitary:00
       synset: 02120471-s
 hygienical:
-  s:
+  a:
     sense:
     - derivation:
       - 'hygiene%1:26:00::'
@@ -44361,7 +44135,7 @@ hygrophyte:
       id: 'hygrophyte%1:20:00::'
       synset: 11573973-n
 hygrophytic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hygrophyte%1:20:00::'
@@ -44375,7 +44149,7 @@ hygroscope:
       id: 'hygroscope%1:06:00::'
       synset: 03559825-n
 hygroscopic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hygroscope%1:06:00::'
@@ -44568,7 +44342,7 @@ hyoscyamine:
     - id: 'hyoscyamine%1:06:00::'
       synset: 03559975-n
 hypaethral:
-  s:
+  a:
     pronunciation:
     - value: hʌɪˈpiːθɹəl
     sense:
@@ -44623,7 +44397,7 @@ hyperacidity:
     - id: 'hyperacidity%1:07:00::'
       synset: 05046787-n
 hyperactive:
-  s:
+  a:
     pronunciation:
     - value: ˈhaɪp.ə(ɹ)ˌæk.tɪv
       variety: GB
@@ -44733,8 +44507,6 @@ hyperbolic:
       pertainym:
       - 'hyperbola%1:25:00::'
       synset: 03005597-a
-  s:
-    sense:
     - derivation:
       - 'hyperbole%1:10:00::'
       id: hyperbolic%5:00:00:increased:00
@@ -44785,7 +44557,7 @@ hyperboloid:
       id: 'hyperboloid%1:25:00::'
       synset: 13919547-n
 hyperboloidal:
-  s:
+  a:
     sense:
     - derivation:
       - 'hyperboloid%1:25:00::'
@@ -44872,7 +44644,7 @@ hypercoaster:
     - id: 'hypercoaster%1:06:00::'
       synset: 03560397-n
 hypercritical:
-  s:
+  a:
     sense:
     - id: hypercritical%5:00:00:critical:01
       synset: 00651367-s
@@ -44932,7 +44704,7 @@ hyperextension:
       id: 'hyperextension%1:04:00::'
       synset: 00370502-n
 hyperfine:
-  s:
+  a:
     sense:
     - id: hyperfine%5:00:00:thin:01
       synset: 02423119-s
@@ -45060,7 +44832,7 @@ hypermetropia:
       id: 'hypermetropia%1:26:00::'
       synset: 14577603-n
 hypermetropic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hypermetropy%1:26:00::'
@@ -45126,7 +44898,7 @@ hyperopia:
       id: 'hyperopia%1:26:00::'
       synset: 14577603-n
 hyperopic:
-  s:
+  a:
     sense:
     - derivation:
       - 'hyperopia%1:26:00::'
@@ -45186,12 +44958,12 @@ hypersecretion:
     - id: 'hypersecretion%1:22:00::'
       synset: 13516536-n
 hypersensitised:
-  s:
+  a:
     sense:
     - id: hypersensitised%5:00:00:susceptible:00
       synset: 02369499-s
 hypersensitive:
-  s:
+  a:
     sense:
     - derivation:
       - 'hypersensitivity%1:26:00::'
@@ -45215,7 +44987,7 @@ hypersensitivity reaction:
     - id: 'hypersensitivity_reaction%1:26:00::'
       synset: 14556805-n
 hypersensitized:
-  s:
+  a:
     sense:
     - id: hypersensitized%5:00:00:susceptible:00
       synset: 02369499-s
@@ -45464,7 +45236,7 @@ hypesthesia:
     - id: 'hypesthesia%1:26:00::'
       synset: 14583444-n
 hypethral:
-  s:
+  a:
     sense:
     - id: hypethral%5:00:00:unenclosed:00
       synset: 01663440-s
@@ -45528,7 +45300,7 @@ hyphenation:
       id: 'hyphenation%1:04:00::'
       synset: 00391253-n
 hypnagogic:
-  s:
+  a:
     pronunciation:
     - value: hɪpnəˈɡɒdʒɪk
       variety: GB
@@ -45551,12 +45323,12 @@ hypnogenesis:
     - id: 'hypnogenesis%1:04:00::'
       synset: 00239645-n
 hypnogogic:
-  s:
+  a:
     sense:
     - id: hypnogogic%5:00:00:depressant:00
       synset: 02316867-s
 hypnoid:
-  s:
+  a:
     sense:
     - id: hypnoid%5:00:00:asleep:00
       synset: 00190405-s
@@ -45598,20 +45370,16 @@ hypnotic:
       pertainym:
       - 'hypnosis%1:26:00::'
       synset: 02755975-a
+    - derivation:
+      - 'hypnosis%1:26:00::'
+      id: hypnotic%5:00:00:attractive:01
+      synset: 00169450-s
   n:
     pronunciation:
     - value: hɪpˈnɒtɪk
     sense:
     - id: 'hypnotic%1:06:00::'
       synset: 04268044-n
-  s:
-    pronunciation:
-    - value: hɪpˈnɒtɪk
-    sense:
-    - derivation:
-      - 'hypnosis%1:26:00::'
-      id: hypnotic%5:00:00:attractive:01
-      synset: 00169450-s
 hypnotic trance:
   n:
     sense:
@@ -45636,7 +45404,7 @@ hypnotise:
       - vtia
       synset: 00020664-v
 hypnotised:
-  s:
+  a:
     sense:
     - id: hypnotised%5:00:00:enchanted:00
       synset: 00869156-s
@@ -45679,7 +45447,7 @@ hypnotize:
       - vtia
       synset: 00020664-v
 hypnotized:
-  s:
+  a:
     sense:
     - id: hypnotized%5:00:00:enchanted:00
       synset: 00869156-s
@@ -45708,7 +45476,7 @@ hypo-eutectoid steel:
     - id: 'hypo-eutectoid_steel%1:27:00::'
       synset: 14938342-n
 hypoactive:
-  s:
+  a:
     sense:
     - id: hypoactive%5:00:00:inactive:01
       synset: 00034345-s
@@ -45779,6 +45547,15 @@ hypochondria:
       id: 'hypochondria%1:26:00::'
       synset: 14398410-n
 hypochondriac:
+  a:
+    pronunciation:
+    - value: ˌhaɪpəʊˈkɒndɹiæk
+      variety: GB
+    - value: ˌhaɪpoʊˈkɑːndɹiæk
+      variety: US
+    sense:
+    - id: hypochondriac%5:00:00:neurotic:00
+      synset: 01588572-s
   n:
     pronunciation:
     - value: ˌhaɪpəʊˈkɒndɹiæk
@@ -45788,17 +45565,8 @@ hypochondriac:
     sense:
     - id: 'hypochondriac%1:18:00::'
       synset: 10215106-n
-  s:
-    pronunciation:
-    - value: ˌhaɪpəʊˈkɒndɹiæk
-      variety: GB
-    - value: ˌhaɪpoʊˈkɑːndɹiæk
-      variety: US
-    sense:
-    - id: hypochondriac%5:00:00:neurotic:00
-      synset: 01588572-s
 hypochondriacal:
-  s:
+  a:
     sense:
     - derivation:
       - 'hypochondria%1:26:00::'
@@ -45860,7 +45628,7 @@ hypocrite:
     - id: 'hypocrite%1:18:00::'
       synset: 10215212-n
 hypocritical:
-  s:
+  a:
     pronunciation:
     - value: hɪpəˈkɹɪtɪkəl
     sense:
@@ -46435,18 +46203,12 @@ hypothesize:
       - via-that
       synset: 00635105-v
 hypothetic:
-  s:
+  a:
     sense:
     - id: hypothetic%5:00:00:theoretical:00
       synset: 00864403-s
 hypothetical:
-  n:
-    pronunciation:
-    - value: ˌhaɪpəˈθɛtɪkl
-    sense:
-    - id: 'hypothetical%1:09:00::'
-      synset: 05898182-n
-  s:
+  a:
     pronunciation:
     - value: ˌhaɪpəˈθɛtɪkl
     sense:
@@ -46454,6 +46216,12 @@ hypothetical:
       - 'hypothesis%1:10:01::'
       id: hypothetical%5:00:00:theoretical:00
       synset: 00864403-s
+  n:
+    pronunciation:
+    - value: ˌhaɪpəˈθɛtɪkl
+    sense:
+    - id: 'hypothetical%1:09:00::'
+      synset: 05898182-n
 hypothetical creature:
   n:
     sense:
@@ -46687,13 +46455,7 @@ hysteria:
       id: 'hysteria%1:26:00::'
       synset: 14416843-n
 hysteric:
-  n:
-    pronunciation:
-    - value: hɪsˈtɛɹɪk
-    sense:
-    - id: 'hysteric%1:18:00::'
-      synset: 10215665-n
-  s:
+  a:
     pronunciation:
     - value: hɪsˈtɛɹɪk
     sense:
@@ -46701,8 +46463,14 @@ hysteric:
       - 'hysteria%1:26:00::'
       id: hysteric%5:00:00:neurotic:00
       synset: 01588695-s
+  n:
+    pronunciation:
+    - value: hɪsˈtɛɹɪk
+    sense:
+    - id: 'hysteric%1:18:00::'
+      synset: 10215665-n
 hysterical:
-  s:
+  a:
     pronunciation:
     - value: hɪˈstɛɹɪkəl
     sense:
