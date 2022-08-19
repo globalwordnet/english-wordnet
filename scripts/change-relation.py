@@ -196,14 +196,14 @@ def main():
                     print("Target sense %d does not exist" % args.target_id)
                     sys.exit(-1)
                 if args.source_id == args.target_id:
-                    print("Won;t link sense %d to itself" % args.source_id)
+                    print("Won't link sense %d to itself" % args.source_id)
                     sys.exit(-1) 
                 change_manager.add_sense_relation(
                     wn, args.source_id, args.target_id, wordnet.SenseRelType(
                         args.new_relation))
             else:
                 if source_synset == target_synset:
-                    print("Won't link synset %s to itself" % source_id)
+                    print("Won't link synset %s to itself" % source_synset)
                     sys.exit(-1) 
                 change_manager.add_relation(
                     wn,

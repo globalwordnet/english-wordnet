@@ -12,7 +12,7 @@ W:
     - id: 'w%1:10:00::'
       synset: 06846594-n
 W-shaped:
-  s:
+  a:
     sense:
     - id: w-shaped%5:00:00:formed:00
       synset: 02158942-s
@@ -4649,7 +4649,7 @@ wacko:
     - id: 'wacko%1:18:00::'
       synset: 10388113-n
 wacky:
-  s:
+  a:
     form:
     - wackier
     - wackiest
@@ -4810,21 +4810,21 @@ wafer:
     - id: 'wafer%1:13:02::'
       synset: 07702798-n
 wafer-like:
-  s:
+  a:
     sense:
     - id: wafer-like%5:00:00:cooked:00
       synset: 00621857-s
 wafer-thin:
+  a:
+    sense:
+    - id: wafer-thin%5:00:00:thin:01
+      synset: 02424090-s
   r:
     sense:
     - id: 'wafer-thin%4:02:00::'
       pertainym:
       - wafer-thin%5:00:00:thin:01
       synset: 00518934-r
-  s:
-    sense:
-    - id: wafer-thin%5:00:00:thin:01
-      synset: 02424090-s
 waffle:
   n:
     sense:
@@ -4977,7 +4977,7 @@ wage setter:
     - id: 'wage_setter%1:26:00::'
       synset: 14518178-n
 wage-earning:
-  s:
+  a:
     sense:
     - id: wage-earning%5:00:00:blue-collar:00
       synset: 02567915-s
@@ -5034,7 +5034,7 @@ waggery:
     - id: 'waggery%1:04:00::'
       synset: 00516080-n
 waggish:
-  s:
+  a:
     sense:
     - derivation:
       - 'waggishness%1:10:00::'
@@ -5212,7 +5212,7 @@ wailer:
       id: 'wailer%1:18:00::'
       synset: 10782913-n
 wailful:
-  s:
+  a:
     pronunciation:
     - value: ˈweɪlfəl
       variety: GB
@@ -5220,6 +5220,10 @@ wailful:
     - id: wailful%5:00:00:sorrowful:00
       synset: 01368701-s
 wailing:
+  a:
+    sense:
+    - id: wailing%5:00:00:sorrowful:00
+      synset: 01368701-s
   n:
     pronunciation:
     - value: ˈweɪlɪŋ
@@ -5228,10 +5232,6 @@ wailing:
       - 'wail%2:32:00::'
       id: 'wailing%1:04:01::'
       synset: 00870477-n
-  s:
-    sense:
-    - id: wailing%5:00:00:sorrowful:00
-      synset: 01368701-s
 wain:
   n:
     sense:
@@ -5248,7 +5248,7 @@ wainscot:
     - id: 'wainscot%1:06:00::'
       synset: 04551282-n
 wainscoted:
-  s:
+  a:
     pronunciation:
     - value: ˈweɪnskɒtɪd
       variety: GB
@@ -5310,7 +5310,7 @@ waist-high:
     - id: 'waist-high%4:02:00::'
       synset: 00496326-r
 waist-length:
-  s:
+  a:
     sense:
     - id: waist-length%5:00:00:fractional:00
       synset: 00519741-s
@@ -5426,6 +5426,10 @@ waiter's assistant:
     - id: 'waiter''s_assistant%1:18:00::'
       synset: 09900824-n
 waiting:
+  a:
+    sense:
+    - id: waiting%5:00:00:ready:00
+      synset: 01938342-s
   n:
     pronunciation:
     - value: ˈweɪtɪŋ
@@ -5434,10 +5438,6 @@ waiting:
       - 'wait%2:42:00::'
       id: 'waiting%1:04:00::'
       synset: 01065863-n
-  s:
-    sense:
-    - id: waiting%5:00:00:ready:00
-      synset: 01938342-s
 waiting area:
   n:
     sense:
@@ -5598,7 +5598,7 @@ wakeboard:
     - id: 'wakeboard%1:06:00::'
       synset: 04551912-n
 wakeful:
-  s:
+  a:
     sense:
     - derivation:
       - 'wakefulness%1:09:01::'
@@ -5626,7 +5626,7 @@ wakefulness:
       id: 'wakefulness%1:09:01::'
       synset: 05713669-n
 wakeless:
-  s:
+  a:
     sense:
     - id: wakeless%5:00:00:deep:02
       synset: 00696469-s
@@ -5663,6 +5663,12 @@ waker:
       id: 'waker%1:18:00::'
       synset: 10783546-n
 waking:
+  a:
+    pronunciation:
+    - value: ˈweɪkɪŋ
+    sense:
+    - id: waking%5:00:00:awake:00
+      synset: 00189078-s
   n:
     pronunciation:
     - value: ˈweɪkɪŋ
@@ -5673,12 +5679,6 @@ waking:
       - 'wake%2:29:00::'
       id: 'waking%1:09:00::'
       synset: 05686141-n
-  s:
-    pronunciation:
-    - value: ˈweɪkɪŋ
-    sense:
-    - id: waking%5:00:00:awake:00
-      synset: 00189078-s
 waking up:
   n:
     sense:
@@ -5956,6 +5956,11 @@ walk through:
       - vtai
       synset: 01727314-v
 walk-in:
+  a:
+    sense:
+    - adjposition: a
+      id: walk-in%5:00:00:deep:01
+      synset: 00694774-s
   n:
     sense:
     - derivation:
@@ -5968,11 +5973,6 @@ walk-in:
       synset: 07490902-n
     - id: 'walk-in%1:06:00::'
       synset: 04553270-n
-  s:
-    sense:
-    - adjposition: a
-      id: walk-in%5:00:00:deep:01
-      synset: 00694774-s
 walk-on:
   a:
     sense:
@@ -5996,22 +5996,22 @@ walk-through:
     - id: 'walk-through%1:04:01::'
       synset: 00294597-n
 walk-to:
-  s:
+  a:
     sense:
     - adjposition: a
       id: walk-to%5:00:00:close:01
       synset: 00452436-s
 walk-up:
+  a:
+    sense:
+    - id: walk-up%5:00:00:low-rise:00
+      synset: 01221678-s
   n:
     sense:
     - id: 'walk-up%1:06:01::'
       synset: 04553881-n
     - id: 'walk-up%1:06:00::'
       synset: 04553767-n
-  s:
-    sense:
-    - id: walk-up%5:00:00:low-rise:00
-      synset: 01221678-s
 walk-up apartment:
   n:
     sense:
@@ -6059,17 +6059,17 @@ walkie-talkie:
     - id: 'walkie-talkie%1:06:00::'
       synset: 04553144-n
 walking:
+  a:
+    sense:
+    - adjposition: a
+      id: walking%5:00:00:close:01
+      synset: 00452436-s
   n:
     sense:
     - derivation:
       - 'walk%2:38:00::'
       id: 'walking%1:04:00::'
       synset: 00284412-n
-  s:
-    sense:
-    - adjposition: a
-      id: walking%5:00:00:close:01
-      synset: 00452436-s
 walking delegate:
   n:
     sense:
@@ -6442,16 +6442,16 @@ walloper:
     - id: 'walloper%1:10:00::'
       synset: 06770387-n
 walloping:
+  a:
+    sense:
+    - id: walloping%5:00:00:large:00
+      synset: 01390996-s
   n:
     sense:
     - derivation:
       - 'wallop%2:33:00::'
       id: 'walloping%1:11:00::'
       synset: 07491763-n
-  s:
-    sense:
-    - id: walloping%5:00:00:large:00
-      synset: 01390996-s
 wallow:
   n:
     sense:
@@ -6657,7 +6657,7 @@ wampumpeag:
     - id: 'wampumpeag%1:06:00::'
       synset: 04556693-n
 wan:
-  s:
+  a:
     form:
     - wanner
     - wannest
@@ -6750,18 +6750,7 @@ wanderer:
     - id: 'wanderer%1:10:00::'
       synset: 06591891-n
 wandering:
-  n:
-    pronunciation:
-    - value: ˈwɑndəɹɪŋ
-      variety: US
-    - value: ˈwɒndəɹɪŋ
-      variety: GB
-    sense:
-    - derivation:
-      - 'wander%2:38:00::'
-      id: 'wandering%1:04:00::'
-      synset: 00297888-n
-  s:
+  a:
     pronunciation:
     - value: ˈwɑndəɹɪŋ
       variety: US
@@ -6775,6 +6764,17 @@ wandering:
       synset: 00766950-s
     - id: wandering%5:00:01:unsettled:01
       synset: 02134890-s
+  n:
+    pronunciation:
+    - value: ˈwɑndəɹɪŋ
+      variety: US
+    - value: ˈwɒndəɹɪŋ
+      variety: GB
+    sense:
+    - derivation:
+      - 'wander%2:38:00::'
+      id: 'wandering%1:04:00::'
+      synset: 00297888-n
 wandering albatross:
   n:
     sense:
@@ -7059,8 +7059,6 @@ wanted:
       - 'unwanted%3:00:00::'
       id: 'wanted%3:00:00::'
       synset: 02537084-a
-  s:
-    sense:
     - id: wanted%5:00:00:loved:00
       synset: 01465547-s
 wanted notice:
@@ -7085,7 +7083,7 @@ wanter:
       id: 'wanter%1:18:00::'
       synset: 10785693-n
 wanting:
-  s:
+  a:
     sense:
     - id: wanting%5:00:00:nonexistent:00
       synset: 00931073-s
@@ -7093,22 +7091,7 @@ wanting:
       id: wanting%5:00:00:inadequate:00
       synset: 00052252-s
 wanton:
-  n:
-    pronunciation:
-    - value: ˈwɒntən
-      variety: GB
-    - value: ˈwɑntən
-      variety: US
-    - value: ˈwɒntən
-      variety: AU
-    sense:
-    - derivation:
-      - wanton%5:00:00:unchaste:00
-      - 'wanton%2:42:01::'
-      - 'wanton%2:32:00::'
-      id: 'wanton%1:18:00::'
-      synset: 10785928-n
-  s:
+  a:
     pronunciation:
     - value: ˈwɒntən
       variety: GB
@@ -7126,6 +7109,21 @@ wanton:
       - 'wantonness%1:07:01::'
       id: wanton%5:00:00:unchaste:00
       synset: 00362917-s
+  n:
+    pronunciation:
+    - value: ˈwɒntən
+      variety: GB
+    - value: ˈwɑntən
+      variety: US
+    - value: ˈwɒntən
+      variety: AU
+    sense:
+    - derivation:
+      - wanton%5:00:00:unchaste:00
+      - 'wanton%2:42:01::'
+      - 'wanton%2:32:00::'
+      id: 'wanton%1:18:00::'
+      synset: 10785928-n
   v:
     pronunciation:
     - value: ˈwɒntən
@@ -7373,17 +7371,17 @@ war zone:
     - id: 'war_zone%1:15:00::'
       synset: 08706517-n
 war-ridden:
-  s:
+  a:
     sense:
     - id: war-ridden%5:00:00:unpeaceful:00
       synset: 01746786-s
 war-torn:
-  s:
+  a:
     sense:
     - id: war-torn%5:00:00:destroyed:00
       synset: 00740577-s
 war-worn:
-  s:
+  a:
     sense:
     - id: war-worn%5:00:00:destroyed:00
       synset: 00740577-s
@@ -7666,7 +7664,7 @@ wariness:
       id: 'wariness%1:07:00::'
       synset: 04671770-n
 warlike:
-  s:
+  a:
     pronunciation:
     - value: ˈwɔɹlaɪk
       variety: US
@@ -7711,14 +7709,6 @@ warm:
       - 'cool%3:00:03::'
       id: 'warm%3:00:03::'
       synset: 02542324-a
-  r:
-    sense:
-    - id: 'warm%4:02:00::'
-      pertainym:
-      - 'warm%3:00:01::'
-      synset: 00434207-r
-  s:
-    sense:
     - id: warm%5:00:00:fresh:01
       synset: 01072383-s
     - id: warm%5:00:00:excitable:00
@@ -7731,6 +7721,12 @@ warm:
       synset: 00481182-s
     - id: warm%5:00:00:near:00
       synset: 00447342-s
+  r:
+    sense:
+    - id: 'warm%4:02:00::'
+      pertainym:
+      - 'warm%3:00:01::'
+      synset: 00434207-r
   v:
     sense:
     - derivation:
@@ -7804,7 +7800,7 @@ warm-blooded:
       id: 'warm-blooded%3:00:00::'
       synset: 02542980-a
 warm-toned:
-  s:
+  a:
     sense:
     - id: warm-toned%5:00:00:emotional:00
       synset: 00859977-s
@@ -7817,7 +7813,7 @@ warm-up:
       id: 'warm-up%1:04:00::'
       synset: 01147229-n
 warmed:
-  s:
+  a:
     sense:
     - id: warmed%5:00:00:warm:01
       synset: 02540166-s
@@ -7855,6 +7851,12 @@ warmheartedness:
       id: 'warmheartedness%1:12:00::'
       synset: 07560035-n
 warming:
+  a:
+    sense:
+    - id: warming%5:00:00:warm:01
+      synset: 02540264-s
+    - id: warming%5:00:00:hot:01
+      synset: 01251232-s
   n:
     sense:
     - derivation:
@@ -7863,12 +7865,6 @@ warming:
       synset: 13513079-n
     - id: 'warming%1:19:00::'
       synset: 11502540-n
-  s:
-    sense:
-    - id: warming%5:00:00:warm:01
-      synset: 02540264-s
-    - id: warming%5:00:00:hot:01
-      synset: 01251232-s
 warming pan:
   n:
     sense:
@@ -7979,6 +7975,11 @@ warner:
       id: 'warner%1:18:00::'
       synset: 10787690-n
 warning:
+  a:
+    sense:
+    - adjposition: a
+      id: warning%5:00:00:dissuasive:00
+      synset: 01775648-s
   n:
     pronunciation:
     - value: ˈwɔɹnɪŋ
@@ -7996,11 +7997,6 @@ warning:
       synset: 06685042-n
     - id: 'warning%1:10:02::'
       synset: 07227534-n
-  s:
-    sense:
-    - adjposition: a
-      id: warning%5:00:00:dissuasive:00
-      synset: 01775648-s
 warning bell:
   n:
     sense:
@@ -8074,7 +8070,7 @@ warpath:
     - id: 'warpath%1:04:00::'
       synset: 00417659-n
 warped:
-  s:
+  a:
     sense:
     - id: warped%5:00:00:crooked:01
       synset: 02321750-s
@@ -8216,7 +8212,7 @@ warrigal:
     - id: 'warrigal%1:05:01::'
       synset: 02118293-n
 warring:
-  s:
+  a:
     sense:
     - id: warring%5:00:00:unpeaceful:00
       synset: 01746786-s
@@ -8233,7 +8229,7 @@ warrior:
       id: 'warrior%1:18:00::'
       synset: 10788253-n
 warriorlike:
-  s:
+  a:
     sense:
     - id: warriorlike%5:00:00:military:02
       synset: 01522777-s
@@ -8274,7 +8270,7 @@ wartime:
     - id: 'wartime%1:28:00::'
       synset: 15318571-n
 wartlike:
-  s:
+  a:
     sense:
     - id: wartlike%5:00:00:rough:00
       synset: 02250999-s
@@ -8294,7 +8290,7 @@ wartwort:
     - id: 'wartwort%1:20:00::'
       synset: 12939369-n
 warty:
-  s:
+  a:
     sense:
     - derivation:
       - 'wart%1:07:00::'
@@ -8317,16 +8313,6 @@ wary:
       - 'wariness%1:07:00::'
       id: 'wary%3:00:00::'
       synset: 00163651-a
-  s:
-    form:
-    - warier
-    - wariest
-    pronunciation:
-    - value: ˈwɛəɹ.i
-      variety: GB
-    - value: ˈwɛəɹi
-      variety: US
-    sense:
     - derivation:
       - 'wariness%1:07:00::'
       id: wary%5:00:00:distrustful:00
@@ -8593,18 +8579,18 @@ wash up:
       - vtia
       synset: 00075174-v
 wash-and-wear:
+  a:
+    sense:
+    - derivation:
+      - 'wash-and-wear%1:06:00::'
+      id: wash-and-wear%5:00:00:washable:00
+      synset: 02544514-s
   n:
     sense:
     - derivation:
       - wash-and-wear%5:00:00:washable:00
       id: 'wash-and-wear%1:06:00::'
       synset: 04560847-n
-  s:
-    sense:
-    - derivation:
-      - 'wash-and-wear%1:06:00::'
-      id: wash-and-wear%5:00:00:washable:00
-      synset: 02544514-s
 wash-hand basin:
   n:
     sense:
@@ -8668,21 +8654,21 @@ washday:
     - id: 'washday%1:28:00::'
       synset: 15247636-n
 washed:
-  s:
+  a:
     sense:
     - id: washed%5:00:00:clean:01
       synset: 00420694-s
     - id: washed%5:00:00:wet:01
       synset: 02561911-s
 washed-out:
-  s:
+  a:
     sense:
     - id: washed-out%5:00:00:tired:00
       synset: 02442263-s
     - id: washed-out%5:00:00:colorless:02
       synset: 00406038-s
 washed-up:
-  s:
+  a:
     sense:
     - id: washed-up%5:00:00:unsuccessful:00
       synset: 02342313-s
@@ -8814,7 +8800,7 @@ washwoman:
     - id: 'washwoman%1:18:00::'
       synset: 10788856-n
 washy:
-  s:
+  a:
     form:
     - washier
     - washiest
@@ -8839,12 +8825,12 @@ wasp's nest:
     - id: 'wasp''s_nest%1:17:00::'
       synset: 09498174-n
 wasp-waisted:
-  s:
+  a:
     sense:
     - id: wasp-waisted%5:00:00:thin:03
       synset: 00994419-s
 waspish:
-  s:
+  a:
     pronunciation:
     - value: ˈwɒs.pɪʃ
       variety: GB
@@ -8914,6 +8900,12 @@ wastage:
     - id: 'wastage%1:21:00::'
       synset: 13349295-n
 waste:
+  a:
+    sense:
+    - derivation:
+      - 'waste%1:15:00::'
+      id: waste%5:00:00:inhospitable:00
+      synset: 01245976-s
   n:
     sense:
     - derivation:
@@ -8938,12 +8930,6 @@ waste:
       synset: 08521615-n
     - id: 'waste%1:04:01::'
       synset: 01254711-n
-  s:
-    sense:
-    - derivation:
-      - 'waste%1:15:00::'
-      id: waste%5:00:00:inhospitable:00
-      synset: 01245976-s
   v:
     sense:
     - antonym:
@@ -9113,10 +9099,6 @@ wasted:
     sense:
     - id: 'wasted%3:00:04::'
       synset: 00557099-a
-  s:
-    pronunciation:
-    - value: ˈweɪstɪd
-    sense:
     - id: wasted%5:00:00:worthless:00
       synset: 02513350-s
     - id: wasted%5:00:00:lost:01
@@ -9134,10 +9116,6 @@ wasteful:
       - 'wastefulness%1:07:00::'
       id: 'wasteful%3:00:00::'
       synset: 02430842-a
-  s:
-    pronunciation:
-    - value: ˈweɪstfəl
-    sense:
     - derivation:
       - 'wastefulness%1:04:03::'
       id: wasteful%5:00:00:inefficient:00
@@ -9432,13 +9410,6 @@ watchful:
       - 'watchfulness%1:07:00::'
       id: 'watchful%3:00:00::'
       synset: 00092165-a
-  s:
-    pronunciation:
-    - value: ˈwɒt͡ʃ.fəl
-      variety: GB
-    - value: ˈwɔt͡ʃ.fəl
-      variety: US
-    sense:
     - id: watchful%5:00:00:awake:00
       synset: 00188664-s
     - id: watchful%5:00:01:alert:00
@@ -10444,7 +10415,7 @@ water-colour:
     - id: 'water-colour%1:04:00::'
       synset: 00940458-n
 water-cooled:
-  s:
+  a:
     sense:
     - id: water-cooled%5:00:00:cool:01
       synset: 02541098-s
@@ -10454,7 +10425,7 @@ water-cooled reactor:
     - id: 'water-cooled_reactor%1:06:00::'
       synset: 04566309-n
 water-insoluble:
-  s:
+  a:
     sense:
     - id: water-insoluble%5:00:00:insoluble:01
       synset: 02273799-s
@@ -10464,7 +10435,7 @@ water-lily family:
     - id: 'water-lily_family%1:20:00::'
       synset: 11735087-n
 water-loving:
-  s:
+  a:
     sense:
     - id: water-loving%5:00:00:healthy:00
       synset: 01176037-s
@@ -10489,12 +10460,12 @@ water-rate:
     - id: 'water-rate%1:21:00::'
       synset: 13346404-n
 water-repellent:
-  s:
+  a:
     sense:
     - id: water-repellent%5:00:00:impermeable:00
       synset: 01777639-s
 water-resistant:
-  s:
+  a:
     sense:
     - id: water-resistant%5:00:00:impermeable:00
       synset: 01777639-s
@@ -10520,7 +10491,7 @@ water-skiing:
       id: 'water-skiing%1:04:00::'
       synset: 00446211-n
 water-soluble:
-  s:
+  a:
     sense:
     - id: water-soluble%5:00:00:soluble:01
       synset: 02273571-s
@@ -10544,7 +10515,7 @@ water-wash:
       - vtai
       synset: 01272680-v
 water-washed:
-  s:
+  a:
     sense:
     - id: water-washed%5:00:00:inhospitable:00
       synset: 01246483-s
@@ -10561,7 +10532,7 @@ waterboarding:
     - id: 'waterboarding%1:04:01::'
       synset: 90002371-n
 waterborne:
-  s:
+  a:
     sense:
     - id: waterborne%5:00:00:mobile:00
       synset: 01529136-s
@@ -10677,6 +10648,12 @@ watercraft:
     - id: 'watercraft%1:06:00::'
       synset: 04537861-n
 watercress:
+  a:
+    sense:
+    - derivation:
+      - 'watercress%1:20:00::'
+      id: watercress%5:00:00:chromatic:00
+      synset: 00375063-s
   n:
     pronunciation:
     - value: ˈwɔːtəkɹɛs
@@ -10690,19 +10667,13 @@ watercress:
       synset: 11890158-n
     - id: 'watercress%1:13:00::'
       synset: 07748880-n
-  s:
-    sense:
-    - derivation:
-      - 'watercress%1:20:00::'
-      id: watercress%5:00:00:chromatic:00
-      synset: 00375063-s
 waterdog:
   n:
     sense:
     - id: 'waterdog%1:05:00::'
       synset: 01635593-n
 watered:
-  s:
+  a:
     sense:
     - id: watered%5:00:00:patterned:00
       synset: 01793868-s
@@ -10819,7 +10790,7 @@ waterleaf family:
     - id: 'waterleaf_family%1:20:00::'
       synset: 12855168-n
 waterless:
-  s:
+  a:
     sense:
     - derivation:
       - 'waterlessness%1:26:00::'
@@ -10838,7 +10809,7 @@ waterline:
     - id: 'waterline%1:15:00::'
       synset: 08696521-n
 waterlogged:
-  s:
+  a:
     sense:
     - id: waterlogged%5:00:00:wet:01
       synset: 02558836-s
@@ -10902,6 +10873,13 @@ waterpower:
     - id: 'waterpower%1:19:00::'
       synset: 11544646-n
 waterproof:
+  a:
+    sense:
+    - derivation:
+      - 'waterproof%1:06:02::'
+      - 'waterproof%1:06:01::'
+      id: waterproof%5:00:00:tight:02
+      synset: 01401945-s
   n:
     sense:
     - derivation:
@@ -10914,13 +10892,6 @@ waterproof:
       - 'waterproof%2:35:00::'
       id: 'waterproof%1:06:01::'
       synset: 04056517-n
-  s:
-    sense:
-    - derivation:
-      - 'waterproof%1:06:02::'
-      - 'waterproof%1:06:01::'
-      id: waterproof%5:00:00:tight:02
-      synset: 01401945-s
   v:
     sense:
     - derivation:
@@ -10934,7 +10905,7 @@ waterproof:
       - vtai
       synset: 01357108-v
 waterproofed:
-  s:
+  a:
     sense:
     - id: waterproofed%5:00:00:tight:02
       synset: 01401945-s
@@ -11001,7 +10972,7 @@ waterspout:
     - id: 'waterspout%1:06:00::'
       synset: 04569782-n
 watertight:
-  s:
+  a:
     pronunciation:
     - value: ˈwɔː.tə.taɪt
       variety: GB
@@ -11052,12 +11023,12 @@ waterworks:
     - id: 'waterworks%1:06:00::'
       synset: 04571076-n
 waterworn:
-  s:
+  a:
     sense:
     - id: waterworn%5:00:00:worn:00
       synset: 02594785-s
 watery:
-  s:
+  a:
     pronunciation:
     - value: ˈwɔːtəɹi
       variety: GB
@@ -11084,7 +11055,7 @@ watery:
       id: watery%5:00:00:diluted:00
       synset: 00759980-s
 watery-eyed:
-  s:
+  a:
     sense:
     - id: watery-eyed%5:00:00:tearful:00
       synset: 02483130-s
@@ -11359,7 +11330,7 @@ wavelet:
       id: 'wavelet%1:11:00::'
       synset: 07359263-n
 wavelike:
-  s:
+  a:
     sense:
     - id: wavelike%5:00:00:uneven:00
       synset: 00914876-s
@@ -11452,6 +11423,10 @@ waverer:
       id: 'waverer%1:18:00::'
       synset: 10622936-n
 wavering:
+  a:
+    sense:
+    - id: wavering%5:00:00:irresolute:00
+      synset: 01999949-s
   n:
     sense:
     - derivation:
@@ -11462,10 +11437,6 @@ wavering:
       - 'waver%2:38:01::'
       id: 'wavering%1:07:00::'
       synset: 04778150-n
-  s:
-    sense:
-    - id: wavering%5:00:00:irresolute:00
-      synset: 01999949-s
 waviness:
   n:
     sense:
@@ -11487,7 +11458,7 @@ waving:
       id: 'waving%1:10:00::'
       synset: 07288732-n
 wavy:
-  s:
+  a:
     form:
     - wavier
     - waviest
@@ -11502,7 +11473,7 @@ wavy:
       id: wavy%5:00:00:uneven:00
       synset: 00914876-s
 wavy-grained:
-  s:
+  a:
     sense:
     - id: wavy-grained%5:00:00:uneven:00
       synset: 00915049-s
@@ -11658,8 +11629,6 @@ waxen:
       pertainym:
       - 'wax%1:27:00::'
       synset: 03016360-a
-  s:
-    sense:
     - id: waxen%5:00:00:colorless:02
       synset: 00407572-s
 waxflower:
@@ -11701,7 +11670,7 @@ waxing:
       id: 'waxing%1:11:00::'
       synset: 07429166-n
 waxlike:
-  s:
+  a:
     sense:
     - id: waxlike%5:00:00:colorless:02
       synset: 00407572-s
@@ -11737,11 +11706,6 @@ waxy:
       synset: 03016360-a
     - id: 'waxy%3:00:00::'
       synset: 02373016-a
-  s:
-    form:
-    - waxier
-    - waxiest
-    sense:
     - id: waxy%5:00:00:flexible:01
       synset: 01025983-s
     - id: waxy%5:00:00:colorless:02
@@ -11802,7 +11766,7 @@ way station:
     - id: 'way_station%1:06:00::'
       synset: 04587081-n
 way-out:
-  s:
+  a:
     sense:
     - id: way-out%5:00:00:unconventional:01
       synset: 00611941-s
@@ -11822,14 +11786,14 @@ wayfarer:
     - id: 'wayfarer%1:18:00::'
       synset: 10791060-n
 wayfaring:
+  a:
+    sense:
+    - id: wayfaring%5:00:00:unsettled:01
+      synset: 02135768-s
   n:
     sense:
     - id: 'wayfaring%1:04:00::'
       synset: 00298144-n
-  s:
-    sense:
-    - id: wayfaring%5:00:00:unsettled:01
-      synset: 02135768-s
 wayfaring tree:
   n:
     sense:
@@ -11867,7 +11831,7 @@ wayside:
     - id: 'wayside%1:06:00::'
       synset: 04572519-n
 wayward:
-  s:
+  a:
     pronunciation:
     - value: ˈweɪwɚd
     sense:
@@ -11884,10 +11848,6 @@ weak:
       - 'weakness%1:07:00::'
       id: 'weak%3:00:00::'
       synset: 02332106-a
-  s:
-    pronunciation:
-    - value: wiːk
-    sense:
     - id: weak%5:00:00:diluted:00
       synset: 00759980-s
     - id: weak%5:00:00:unstressed:00
@@ -11953,12 +11913,12 @@ weak yer:
     - id: 'weak_yer%1:10:01::'
       synset: 92462519-n
 weak-kneed:
-  s:
+  a:
     sense:
     - id: weak-kneed%5:00:00:irresolute:00
       synset: 02000078-s
 weak-stemmed:
-  s:
+  a:
     sense:
     - id: weak-stemmed%5:00:00:caulescent:00
       synset: 00322905-s
@@ -12009,7 +11969,7 @@ weaken:
       - vtii
       synset: 00390886-v
 weakened:
-  s:
+  a:
     pronunciation:
     - value: wiːˈkɛnd
       variety: GB
@@ -12036,6 +11996,12 @@ weakener:
       id: 'weakener%1:17:00::'
       synset: 09499651-n
 weakening:
+  a:
+    sense:
+    - id: weakening%5:00:00:debilitating:00
+      synset: 01360944-s
+    - id: weakening%5:00:00:moderating:00
+      synset: 01344875-s
   n:
     sense:
     - antonym:
@@ -12050,12 +12016,6 @@ weakening:
       - 'weaken%2:30:01::'
       id: 'weakening%1:04:00::'
       synset: 00363181-n
-  s:
-    sense:
-    - id: weakening%5:00:00:debilitating:00
-      synset: 01360944-s
-    - id: weakening%5:00:00:moderating:00
-      synset: 01344875-s
 weakfish:
   n:
     form:
@@ -12073,6 +12033,13 @@ weakling:
     - id: 'weakling%1:18:00::'
       synset: 10791304-n
 weakly:
+  a:
+    form:
+    - weaklier
+    - weakliest
+    sense:
+    - id: weakly%5:00:00:frail:00
+      synset: 02047640-s
   r:
     sense:
     - antonym:
@@ -12081,13 +12048,6 @@ weakly:
       pertainym:
       - 'weak%3:00:00::'
       synset: 00178969-r
-  s:
-    form:
-    - weaklier
-    - weakliest
-    sense:
-    - id: weakly%5:00:00:frail:00
-      synset: 02047640-s
 weakly interacting massive particle:
   n:
     sense:
@@ -12168,7 +12128,7 @@ wealthiness:
       id: 'wealthiness%1:26:00::'
       synset: 14514855-n
 wealthy:
-  s:
+  a:
     form:
     - wealthier
     - wealthiest
@@ -12243,7 +12203,7 @@ weapon system:
     - id: 'weapon_system%1:06:00::'
       synset: 04572661-n
 weaponed:
-  s:
+  a:
     sense:
     - id: weaponed%5:00:00:armed:01
       synset: 00143890-s
@@ -12260,7 +12220,7 @@ weaponize:
       - vtii
       synset: 00586031-v
 weaponless:
-  s:
+  a:
     sense:
     - id: weaponless%5:00:00:unarmed:01
       synset: 00144784-s
@@ -12295,7 +12255,7 @@ weapons system:
     - id: 'weapons_system%1:06:00::'
       synset: 04573543-n
 weapons-grade:
-  s:
+  a:
     sense:
     - id: weapons-grade%5:00:00:superior:02
       synset: 02353493-s
@@ -12562,7 +12522,7 @@ wearer:
       id: 'wearer%1:18:00::'
       synset: 10791477-n
 wearied:
-  s:
+  a:
     sense:
     - id: wearied%5:00:00:tired:00
       synset: 02442794-s
@@ -12591,6 +12551,15 @@ weariness:
       id: 'weariness%1:26:00::'
       synset: 14039832-n
 wearing:
+  a:
+    pronunciation:
+    - value: ˈwɛɹɪŋ
+      variety: US
+    - value: ˈwɛəɹɪŋ
+      variety: GB
+    sense:
+    - id: wearing%5:00:00:effortful:00
+      synset: 00840788-s
   n:
     pronunciation:
     - value: ˈwɛɹɪŋ
@@ -12604,15 +12573,6 @@ wearing:
       - 'wear%2:29:04::'
       id: 'wearing%1:04:00::'
       synset: 00831918-n
-  s:
-    pronunciation:
-    - value: ˈwɛɹɪŋ
-      variety: US
-    - value: ˈwɛəɹɪŋ
-      variety: GB
-    sense:
-    - id: wearing%5:00:00:effortful:00
-      synset: 00840788-s
 wearing apparel:
   n:
     sense:
@@ -12626,12 +12586,12 @@ wearing away:
       id: 'wearing_away%1:22:00::'
       synset: 13496741-n
 wearisome:
-  s:
+  a:
     sense:
     - id: wearisome%5:00:00:uninteresting:00
       synset: 01348155-s
 weary:
-  s:
+  a:
     form:
     - wearier
     - weariest
@@ -12660,7 +12620,7 @@ weary:
       - via
       synset: 00075867-v
 wearying:
-  s:
+  a:
     sense:
     - id: wearying%5:00:00:effortful:00
       synset: 00840788-s
@@ -12682,11 +12642,21 @@ weasel word:
     - id: 'weasel_word%1:10:00::'
       synset: 06774956-n
 weasel-worded:
-  s:
+  a:
     sense:
     - id: weasel-worded%5:00:00:qualified:02
       synset: 01919895-s
 weather:
+  a:
+    pronunciation:
+    - value: ˈwɛðə
+      variety: GB
+    - value: ˈwɛðɚ
+      variety: US
+    sense:
+    - adjposition: a
+      id: weather%5:00:00:windward:00
+      synset: 01403468-s
   n:
     pronunciation:
     - value: ˈwɛðə
@@ -12698,16 +12668,6 @@ weather:
       - 'weather%2:30:00::'
       id: 'weather%1:19:00::'
       synset: 11545095-n
-  s:
-    pronunciation:
-    - value: ˈwɛðə
-      variety: GB
-    - value: ˈwɛðɚ
-      variety: US
-    sense:
-    - adjposition: a
-      id: weather%5:00:00:windward:00
-      synset: 01403468-s
   v:
     pronunciation:
     - value: ˈwɛðə
@@ -12831,19 +12791,19 @@ weather vane:
     - id: 'weather_vane%1:06:00::'
       synset: 04575355-n
 weather-beaten:
-  s:
+  a:
     sense:
     - id: weather-beaten%5:00:00:tough:02
       synset: 02457113-s
     - id: weather-beaten%5:00:00:worn:00
       synset: 02594897-s
 weather-bound:
-  s:
+  a:
     sense:
     - id: weather-bound%5:00:00:confined:00
       synset: 00561497-s
 weather-stripped:
-  s:
+  a:
     sense:
     - id: weather-stripped%5:00:00:caulked:00
       synset: 01402568-s
@@ -12865,7 +12825,7 @@ weathercock:
     - id: 'weathercock%1:06:00::'
       synset: 04574042-n
 weathered:
-  s:
+  a:
     sense:
     - id: weathered%5:00:00:worn:00
       synset: 02594897-s
@@ -12896,7 +12856,7 @@ weatherman:
     - id: 'weatherman%1:18:00::'
       synset: 10791760-n
 weatherproof:
-  s:
+  a:
     sense:
     - id: weatherproof%5:00:00:protected:00
       synset: 01892340-s
@@ -12932,7 +12892,7 @@ weathervane:
     - id: 'weathervane%1:06:00::'
       synset: 04575355-n
 weatherworn:
-  s:
+  a:
     sense:
     - id: weatherworn%5:00:00:worn:00
       synset: 02594897-s
@@ -13108,7 +13068,7 @@ web tv:
     - id: 'web_tv%1:10:01::'
       synset: 92460638-n
 web-footed:
-  s:
+  a:
     sense:
     - id: web-footed%5:00:00:footed:00
       synset: 01035369-s
@@ -13118,7 +13078,7 @@ web-spinning mite:
     - id: 'web-spinning_mite%1:05:00::'
       synset: 01782580-n
 web-toed:
-  s:
+  a:
     sense:
     - id: web-toed%5:00:00:footed:00
       synset: 01035369-s
@@ -13136,10 +13096,6 @@ webbed:
       - 'unwebbed%3:00:00::'
       id: 'webbed%3:00:00::'
       synset: 02601403-a
-  s:
-    pronunciation:
-    - value: ˈwɛbd
-    sense:
     - id: webbed%5:00:00:reticulate:00
       synset: 02014163-s
 webbed foot:
@@ -13171,7 +13127,7 @@ webbing moth:
     - id: 'webbing_moth%1:05:00::'
       synset: 02295053-n
 webby:
-  s:
+  a:
     form:
     - webbier
     - webbiest
@@ -13204,7 +13160,7 @@ webfoot:
     - id: 'webfoot%1:05:00::'
       synset: 02157272-n
 weblike:
-  s:
+  a:
     sense:
     - id: weblike%5:00:00:reticulate:00
       synset: 02014163-s
@@ -13236,7 +13192,7 @@ webworm moth:
     - id: 'webworm_moth%1:05:00::'
       synset: 02311123-n
 wed:
-  s:
+  a:
     sense:
     - id: wed%5:00:00:married:00
       synset: 01485447-s
@@ -13262,7 +13218,7 @@ wed:
       - vtaa
       synset: 02495105-v
 wedded:
-  s:
+  a:
     pronunciation:
     - value: ˈwɛdəd
     sense:
@@ -13448,12 +13404,10 @@ wedge-shaped:
       pertainym:
       - 'wedge%1:25:00::'
       synset: 03156623-a
-  s:
-    sense:
     - id: wedge-shaped%5:00:00:simple:01
       synset: 02175297-s
 wedged:
-  s:
+  a:
     sense:
     - id: wedged%5:00:00:compact:00
       synset: 00504721-s
@@ -13474,11 +13428,7 @@ wedlock:
     - id: 'wedlock%1:26:00::'
       synset: 13987306-n
 wee:
-  n:
-    sense:
-    - id: 'wee%1:28:00::'
-      synset: 15271069-n
-  s:
+  a:
     sense:
     - derivation:
       - 'weeness%1:07:00::'
@@ -13486,6 +13436,10 @@ wee:
       synset: 01395585-s
     - id: wee%5:00:00:early:00
       synset: 00819418-s
+  n:
+    sense:
+    - id: 'wee%1:28:00::'
+      synset: 15271069-n
   v:
     sense:
     - id: 'wee%2:29:00::'
@@ -13617,13 +13571,6 @@ weedy:
       - 'weed%1:20:00::'
       id: 'weedy%3:00:00::'
       synset: 02550461-a
-  s:
-    form:
-    - weedier
-    - weediest
-    pronunciation:
-    - value: ˈwiːdi
-    sense:
     - id: weedy%5:00:00:thin:03
       synset: 00993331-s
 week:
@@ -13711,11 +13658,20 @@ weekender:
       id: 'weekender%1:06:00::'
       synset: 04578101-n
 weeklong:
-  s:
+  a:
     sense:
     - id: weeklong%5:00:00:long:02
       synset: 01444856-s
 weekly:
+  a:
+    pronunciation:
+    - value: wiːk.li
+    sense:
+    - derivation:
+      - 'week%1:28:00::'
+      - 'week%1:28:02::'
+      id: weekly%5:00:00:periodic:00
+      synset: 01975568-s
   n:
     pronunciation:
     - value: wiːk.li
@@ -13728,15 +13684,6 @@ weekly:
     sense:
     - id: 'weekly%4:02:00::'
       synset: 00081941-r
-  s:
-    pronunciation:
-    - value: wiːk.li
-    sense:
-    - derivation:
-      - 'week%1:28:00::'
-      - 'week%1:28:02::'
-      id: weekly%5:00:00:periodic:00
-      synset: 01975568-s
 weeknight:
   n:
     sense:
@@ -13760,7 +13707,7 @@ weenie roast:
     - id: 'weenie_roast%1:13:00::'
       synset: 07592809-n
 weensy:
-  s:
+  a:
     form:
     - weensier
     - weensiest
@@ -13768,7 +13715,7 @@ weensy:
     - id: weensy%5:00:00:small:00
       synset: 01395585-s
 weeny:
-  s:
+  a:
     form:
     - weenier
     - weeniest
@@ -13807,6 +13754,12 @@ weepiness:
       id: 'weepiness%1:12:00::'
       synset: 07549666-n
 weeping:
+  a:
+    sense:
+    - id: weeping%5:00:00:sorrowful:00
+      synset: 01368155-s
+    - id: weeping%5:00:00:unerect:00
+      synset: 01241359-s
   n:
     pronunciation:
     - value: ˈwiːpɪŋ
@@ -13815,12 +13768,6 @@ weeping:
       - 'weep%2:29:00::'
       id: 'weeping%1:04:00::'
       synset: 00869874-n
-  s:
-    sense:
-    - id: weeping%5:00:00:sorrowful:00
-      synset: 01368155-s
-    - id: weeping%5:00:00:unerect:00
-      synset: 01241359-s
 weeping beech:
   n:
     sense:
@@ -13847,7 +13794,7 @@ weeping willow:
     - id: 'weeping_willow%1:20:00::'
       synset: 12747430-n
 weepy:
-  s:
+  a:
     form:
     - weepier
     - weepiest
@@ -13972,7 +13919,7 @@ weighbridge:
     - id: 'weighbridge%1:06:00::'
       synset: 04578244-n
 weighed down:
-  s:
+  a:
     sense:
     - id: weighed_down%5:00:00:full:00
       synset: 01088956-s
@@ -14094,7 +14041,7 @@ weight-lift:
       - via
       synset: 01152836-v
 weighted:
-  s:
+  a:
     pronunciation:
     - value: ˈweɪt.ɪd
       variety: GB
@@ -14210,13 +14157,6 @@ weighty:
       - 'weight%1:07:00::'
       id: 'weighty%3:00:00::'
       synset: 01191154-a
-  s:
-    form:
-    - weightier
-    - weightiest
-    pronunciation:
-    - value: ˈweɪti
-    sense:
     - derivation:
       - 'weightiness%1:07:01::'
       id: weighty%5:00:00:persuasive:00
@@ -14247,7 +14187,7 @@ weir:
     - id: 'weir%1:06:01::'
       synset: 04578972-n
 weird:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪəd
       variety: GB
@@ -14396,7 +14336,7 @@ welcomer:
       id: 'welcomer%1:18:00::'
       synset: 10166447-n
 welcoming:
-  s:
+  a:
     sense:
     - id: welcoming%5:00:01:hospitable:02
       synset: 01246980-s
@@ -14497,12 +14437,12 @@ welfare worker:
     - id: 'welfare_worker%1:18:00::'
       synset: 10639543-n
 welfare-statist:
-  s:
+  a:
     sense:
     - id: welfare-statist%5:00:00:liberal:00
       synset: 00578924-s
 welfarist:
-  s:
+  a:
     pronunciation:
     - value: ˈwɛlfɛːɹɪst
       variety: GB
@@ -14527,6 +14467,12 @@ well:
       - 'wellness%1:26:00::'
       id: 'well%3:00:01::'
       synset: 02551348-a
+    - adjposition: p
+      id: well%5:00:00:fortunate:00
+      synset: 01052461-s
+    - adjposition: p
+      id: well%5:00:00:advisable:00
+      synset: 00068247-s
   n:
     sense:
     - id: 'well%1:06:00::'
@@ -14580,16 +14526,6 @@ well:
       - 'badly%4:02:08::'
       id: 'well%4:02:01::'
       synset: 00012591-r
-  s:
-    form:
-    - better
-    sense:
-    - adjposition: p
-      id: well%5:00:00:fortunate:00
-      synset: 01052461-s
-    - adjposition: p
-      id: well%5:00:00:advisable:00
-      synset: 00068247-s
   v:
     sense:
     - id: 'well%2:38:00::'
@@ -14597,12 +14533,12 @@ well:
       - vii-pp
       synset: 01995218-v
 well behaved:
-  s:
+  a:
     sense:
     - id: well_behaved%5:00:00:good:01
       synset: 01129108-s
 well disposed:
-  s:
+  a:
     sense:
     - id: well_disposed%5:00:00:amicable:00
       synset: 01249700-s
@@ -14627,13 +14563,13 @@ well point:
     - id: 'well_point%1:06:00::'
       synset: 04580415-n
 well thought out:
-  s:
+  a:
     sense:
     - adjposition: p
       id: well_thought_out%5:00:00:thoughtful:00
       synset: 02428859-s
 well timed:
-  s:
+  a:
     sense:
     - adjposition: p
       id: well_timed%5:00:00:opportune:00
@@ -14652,7 +14588,7 @@ well water:
     - id: 'well_water%1:27:00::'
       synset: 14871673-n
 well-adjusted:
-  s:
+  a:
     sense:
     - id: well-adjusted%5:00:00:adjusted:02
       synset: 00352780-s
@@ -14664,19 +14600,19 @@ well-advised:
       id: 'well-advised%3:00:00::'
       synset: 00068575-a
 well-appointed:
-  s:
+  a:
     sense:
     - id: well-appointed%5:00:00:furnished:00
       synset: 01101659-s
 well-balanced:
-  s:
+  a:
     sense:
     - id: well-balanced%5:00:00:balanced:00
       synset: 00897920-s
     - id: well-balanced%5:00:00:adjusted:02
       synset: 00352780-s
 well-behaved:
-  s:
+  a:
     sense:
     - id: well-behaved%5:00:00:good:01
       synset: 01129108-s
@@ -14690,32 +14626,32 @@ well-being:
       id: 'well-being%1:26:00::'
       synset: 14470991-n
 well-bound:
-  s:
+  a:
     sense:
     - id: well-bound%5:00:00:bound:02
       synset: 00258222-s
 well-branched:
-  s:
+  a:
     sense:
     - id: well-branched%5:00:00:branchy:00
       synset: 00617223-s
 well-bred:
-  s:
+  a:
     sense:
     - id: well-bred%5:00:00:refined:01
       synset: 01955881-s
 well-chosen:
-  s:
+  a:
     sense:
     - id: well-chosen%5:00:00:felicitous:00
       synset: 01003861-s
 well-conducted:
-  s:
+  a:
     sense:
     - id: well-conducted%5:00:00:organized:01
       synset: 01672976-s
 well-connected:
-  s:
+  a:
     sense:
     - id: well-connected%5:00:00:connected:00
       synset: 00569678-s
@@ -14726,52 +14662,50 @@ well-defined:
       - 'ill-defined%3:00:00::'
       id: 'well-defined%3:00:00::'
       synset: 00701368-a
-  s:
-    sense:
     - id: well-defined%5:00:00:distinct:00
       synset: 00783378-s
 well-disposed:
-  s:
+  a:
     sense:
     - id: well-disposed%5:00:00:amicable:00
       synset: 01249700-s
 well-done:
-  s:
+  a:
     sense:
     - id: well-done%5:00:00:cooked:00
       synset: 00621943-s
 well-dressed:
-  s:
+  a:
     sense:
     - id: well-dressed%5:00:00:groomed:00
       synset: 02437063-s
 well-educated:
-  s:
+  a:
     sense:
     - id: well-educated%5:00:00:educated:00
       synset: 00833590-s
 well-endowed:
-  s:
+  a:
     sense:
     - id: well-endowed%5:00:00:shapely:00
       synset: 02146404-s
 well-favored:
-  s:
+  a:
     sense:
     - id: well-favored%5:00:00:beautiful:00
       synset: 00220542-s
 well-favoured:
-  s:
+  a:
     sense:
     - id: well-favoured%5:00:00:beautiful:00
       synset: 00220542-s
 well-fed:
-  s:
+  a:
     sense:
     - id: well-fed%5:00:00:nourished:00
       synset: 02308305-s
 well-fixed:
-  s:
+  a:
     sense:
     - id: well-fixed%5:00:00:rich:00
       synset: 02029807-s
@@ -14781,61 +14715,61 @@ well-formed:
     - id: 'well-formed%3:00:04::'
       synset: 01149515-a
 well-found:
-  s:
+  a:
     sense:
     - id: well-found%5:00:00:furnished:00
       synset: 01101659-s
 well-founded:
-  s:
+  a:
     sense:
     - id: well-founded%5:00:00:reasonable:00
       synset: 01951109-s
 well-groomed:
-  s:
+  a:
     sense:
     - id: well-groomed%5:00:01:groomed:00
       synset: 02437063-s
     - id: well-groomed%5:00:00:groomed:00
       synset: 02436962-s
 well-grooved:
-  s:
+  a:
     sense:
     - id: well-grooved%5:00:00:established:00
       synset: 01640151-s
 well-grounded:
-  s:
+  a:
     sense:
     - id: well-grounded%5:00:00:valid:00
       synset: 02509324-s
 well-heeled:
-  s:
+  a:
     sense:
     - id: well-heeled%5:00:00:rich:00
       synset: 02029807-s
 well-informed:
-  s:
+  a:
     sense:
     - id: well-informed%5:00:00:sophisticated:00
       synset: 02278811-s
 well-intentioned:
-  s:
+  a:
     sense:
     - id: well-intentioned%5:00:00:intended:00
       synset: 01341401-s
 well-kept:
-  s:
+  a:
     sense:
     - id: well-kept%5:00:00:preserved:01
       synset: 00741059-s
     - id: well-kept%5:00:00:tidy:00
       synset: 02432422-s
 well-knit:
-  s:
+  a:
     sense:
     - id: well-knit%5:00:00:strong:00
       synset: 02331874-s
 well-known:
-  s:
+  a:
     pronunciation:
     - value: ˌwɛlˈnoʊn
       variety: US
@@ -14848,46 +14782,46 @@ well-known:
       id: well-known%5:00:00:familiar:00
       synset: 00969356-s
 well-lighted:
-  s:
+  a:
     sense:
     - id: well-lighted%5:00:00:light:06
       synset: 00272446-s
 well-lined:
-  s:
+  a:
     sense:
     - id: well-lined%5:00:00:full:00
       synset: 01090142-s
 well-made:
-  s:
+  a:
     sense:
     - id: well-made%5:00:00:superior:02
       synset: 02353689-s
 well-mannered:
-  s:
+  a:
     sense:
     - id: well-mannered%5:00:00:refined:01
       synset: 01955881-s
     - id: well-mannered%5:00:00:polite:00
       synset: 00644365-s
 well-marked:
-  s:
+  a:
     sense:
     - id: well-marked%5:00:00:marked:00
       synset: 01484223-s
 well-meaning:
-  s:
+  a:
     sense:
     - id: well-meaning%5:00:00:amicable:00
       synset: 01250059-s
     - id: well-meaning%5:00:00:intended:00
       synset: 01341401-s
 well-meant:
-  s:
+  a:
     sense:
     - id: well-meant%5:00:00:intended:00
       synset: 01341401-s
 well-mined:
-  s:
+  a:
     sense:
     - id: well-mined%5:00:00:mined:00
       synset: 01507961-s
@@ -14897,88 +14831,88 @@ well-nigh:
     - id: 'well-nigh%4:02:00::'
       synset: 00073433-r
 well-nourished:
-  s:
+  a:
     sense:
     - id: well-nourished%5:00:00:nourished:00
       synset: 02308305-s
 well-off:
-  s:
+  a:
     sense:
     - id: well-off%5:00:00:rich:00
       synset: 02029807-s
     - id: well-off%5:00:00:fortunate:00
       synset: 01053051-s
 well-ordered:
-  s:
+  a:
     sense:
     - id: well-ordered%5:00:00:regular:00
       synset: 01967367-s
 well-preserved:
-  s:
+  a:
     sense:
     - id: well-preserved%5:00:00:healthy:00
       synset: 01176138-s
 well-proportioned:
-  s:
+  a:
     sense:
     - id: well-proportioned%5:00:00:shapely:00
       synset: 02147720-s
 well-qualified:
-  s:
+  a:
     sense:
     - id: well-qualified%5:00:00:qualified:01
       synset: 01917677-s
 well-read:
-  s:
+  a:
     sense:
     - id: well-read%5:00:00:informed:00
       synset: 01311214-s
     - id: well-read%5:00:00:educated:00
       synset: 00833590-s
 well-rounded:
-  s:
+  a:
     pronunciation:
     - value: ˌwɛlˈɹaʊndɪd
     sense:
     - id: well-rounded%5:00:00:comprehensive:00
       synset: 00528718-s
 well-set:
-  s:
+  a:
     sense:
     - id: well-set%5:00:00:strong:00
       synset: 02331874-s
 well-shaven:
-  s:
+  a:
     sense:
     - id: well-shaven%5:00:00:shaven:00
       synset: 02161120-s
 well-situated:
-  s:
+  a:
     sense:
     - id: well-situated%5:00:00:rich:00
       synset: 02029807-s
 well-spoken:
-  s:
+  a:
     sense:
     - id: well-spoken%5:00:00:articulate:00
       synset: 00152204-s
 well-thought-of:
-  s:
+  a:
     sense:
     - id: well-thought-of%5:00:00:reputable:00
       synset: 01990613-s
 well-timed:
-  r:
-    sense:
-    - id: 'well-timed%4:02:00::'
-      synset: 00275183-r
-  s:
+  a:
     sense:
     - adjposition: a
       id: well-timed%5:00:00:opportune:00
       synset: 01665994-s
+  r:
+    sense:
+    - id: 'well-timed%4:02:00::'
+      synset: 00275183-r
 well-to-do:
-  s:
+  a:
     pronunciation:
     - value: ˌwɛltəˈdu
       variety: US
@@ -14986,12 +14920,12 @@ well-to-do:
     - id: well-to-do%5:00:00:rich:00
       synset: 02029807-s
 well-tried:
-  s:
+  a:
     sense:
     - id: well-tried%5:00:00:proved:00
       synset: 01900263-s
 well-turned:
-  s:
+  a:
     sense:
     - id: well-turned%5:00:00:shapely:00
       synset: 02147807-s
@@ -15003,21 +14937,21 @@ well-wisher:
     - id: 'well-wisher%1:18:00::'
       synset: 10705556-n
 well-wishing:
-  n:
-    sense:
-    - derivation:
-      - well-wishing%5:00:00:felicitous:00
-      id: 'well-wishing%1:10:00::'
-      synset: 06642966-n
-  s:
+  a:
     sense:
     - adjposition: a
       derivation:
       - 'well-wishing%1:10:00::'
       id: well-wishing%5:00:00:felicitous:00
       synset: 01004156-s
+  n:
+    sense:
+    - derivation:
+      - well-wishing%5:00:00:felicitous:00
+      id: 'well-wishing%1:10:00::'
+      synset: 06642966-n
 well-worn:
-  s:
+  a:
     sense:
     - id: well-worn%5:00:00:worn:00
       synset: 02595048-s
@@ -15029,7 +14963,7 @@ wellbeing:
     - id: 'wellbeing%1:26:00::'
       synset: 14470991-n
 wellborn:
-  s:
+  a:
     sense:
     - id: wellborn%5:00:00:upper-class:00
       synset: 00262874-s
@@ -15281,12 +15215,12 @@ west wind:
     - id: 'west_wind%1:19:00::'
       synset: 11545913-n
 west-central:
-  s:
+  a:
     sense:
     - id: west-central%5:00:00:western:02
       synset: 00830366-s
 westbound:
-  s:
+  a:
     sense:
     - id: westbound%5:00:00:west:00
       synset: 00828077-s
@@ -15298,6 +15232,17 @@ wester:
       id: 'wester%1:19:00::'
       synset: 11545913-n
 westerly:
+  a:
+    pronunciation:
+    - value: ˈwɛstə(ɹ)li
+    sense:
+    - derivation:
+      - 'westerly%1:19:00::'
+      - 'wester%1:19:00::'
+      id: westerly%5:00:01:west:00
+      synset: 00828321-s
+    - id: westerly%5:00:03:west:00
+      synset: 00828077-s
   n:
     pronunciation:
     - value: ˈwɛstə(ɹ)li
@@ -15320,17 +15265,6 @@ westerly:
       pertainym:
       - 'west%3:00:00::'
       synset: 00325751-r
-  s:
-    pronunciation:
-    - value: ˈwɛstə(ɹ)li
-    sense:
-    - derivation:
-      - 'westerly%1:19:00::'
-      - 'wester%1:19:00::'
-      id: westerly%5:00:01:west:00
-      synset: 00828321-s
-    - id: westerly%5:00:03:west:00
-      synset: 00828077-s
 western:
   a:
     pronunciation:
@@ -15349,6 +15283,10 @@ western:
       - 'eastern%3:00:02::'
       id: 'western%3:00:02::'
       synset: 00829509-a
+    - id: western%5:00:00:west:00
+      synset: 00828199-s
+    - id: western%5:00:01:west:00
+      synset: 00828321-s
   n:
     pronunciation:
     - value: ˈwɛstɚn
@@ -15358,17 +15296,6 @@ western:
     sense:
     - id: 'western%1:13:00::'
       synset: 07714417-n
-  s:
-    pronunciation:
-    - value: ˈwɛstɚn
-      variety: US
-    - value: ˈwɛstən
-      variety: GB
-    sense:
-    - id: western%5:00:00:west:00
-      synset: 00828199-s
-    - id: western%5:00:01:west:00
-      synset: 00828321-s
 western United States:
   n:
     sense:
@@ -15628,7 +15555,7 @@ westernize:
       - vtia
       synset: 00524725-v
 westernmost:
-  s:
+  a:
     sense:
     - id: westernmost%5:00:00:west:00
       synset: 00828444-s
@@ -15638,16 +15565,25 @@ westland pine:
     - id: 'westland_pine%1:20:00::'
       synset: 11676425-n
 westmost:
-  s:
+  a:
     sense:
     - id: westmost%5:00:00:west:00
       synset: 00828444-s
 westside:
-  s:
+  a:
     sense:
     - id: westside%5:00:00:west:00
       synset: 00828533-s
 westward:
+  a:
+    pronunciation:
+    - value: ˈwɛstwɚd
+      variety: US
+    - value: ˈwɛstwəd
+      variety: GB
+    sense:
+    - id: westward%5:00:00:west:00
+      synset: 00828077-s
   n:
     pronunciation:
     - value: ˈwɛstwɚd
@@ -15666,15 +15602,6 @@ westward:
     sense:
     - id: 'westward%4:02:00::'
       synset: 00325415-r
-  s:
-    pronunciation:
-    - value: ˈwɛstwɚd
-      variety: US
-    - value: ˈwɛstwəd
-      variety: GB
-    sense:
-    - id: westward%5:00:00:west:00
-      synset: 00828077-s
 westwards:
   r:
     sense:
@@ -15709,6 +15636,10 @@ wet:
       - 'dry%3:00:02::'
       id: 'wet%3:00:02::'
       synset: 02565037-a
+    - id: wet%5:00:00:alcoholic:00
+      synset: 01162949-s
+    - id: wet%5:00:00:intoxicated:00
+      synset: 00801674-s
   n:
     pronunciation:
     - value: wɛt
@@ -15718,17 +15649,6 @@ wet:
       - 'wet%2:30:00::'
       id: 'wet%1:26:00::'
       synset: 14559033-n
-  s:
-    form:
-    - wetter
-    - wettest
-    pronunciation:
-    - value: wɛt
-    sense:
-    - id: wet%5:00:00:alcoholic:00
-      synset: 01162949-s
-    - id: wet%5:00:00:intoxicated:00
-      synset: 00801674-s
   v:
     form:
     - wetted
@@ -15915,7 +15835,7 @@ whack:
       - vtia
       synset: 01418461-v
 whacked:
-  s:
+  a:
     sense:
     - id: whacked%5:00:00:tired:00
       synset: 02443291-s
@@ -15927,6 +15847,10 @@ whacker:
     - id: 'whacker%1:06:00::'
       synset: 04581520-n
 whacking:
+  a:
+    sense:
+    - id: whacking%5:00:00:large:00
+      synset: 01394026-s
   n:
     sense:
     - derivation:
@@ -15937,17 +15861,13 @@ whacking:
     sense:
     - id: 'whacking%4:02:00::'
       synset: 00496954-r
-  s:
-    sense:
-    - id: whacking%5:00:00:large:00
-      synset: 01394026-s
 whacko:
   n:
     sense:
     - id: 'whacko%1:18:00::'
       synset: 10388113-n
 whacky:
-  s:
+  a:
     form:
     - whackier
     - whackiest
@@ -16211,7 +16131,7 @@ whatchamacallum:
     - id: 'whatchamacallum%1:06:00::'
       synset: 03223248-n
 whatever:
-  s:
+  a:
     pronunciation:
     - value: ʍɒtˈɛvə
       variety: GB
@@ -16241,7 +16161,7 @@ whatsis:
     - id: 'whatsis%1:06:00::'
       synset: 03223248-n
 whatsoever:
-  s:
+  a:
     pronunciation:
     - value: ˌwɒtsəʊˈɛvə(ɹ)
       variety: GB
@@ -16522,7 +16442,7 @@ wheel tree:
     - id: 'wheel_tree%1:20:00::'
       synset: 12243417-n
 wheel-like:
-  s:
+  a:
     sense:
     - id: wheel-like%5:00:00:round:00
       synset: 02050562-s
@@ -16662,7 +16582,7 @@ wheeziness:
       id: 'wheeziness%1:26:00::'
       synset: 14396260-n
 wheezing:
-  s:
+  a:
     sense:
     - id: wheezing%5:00:00:unhealthy:00
       synset: 01177592-s
@@ -16674,7 +16594,7 @@ wheezingly:
       - wheezing%5:00:00:unhealthy:00
       synset: 00497025-r
 wheezy:
-  s:
+  a:
     sense:
     - id: wheezy%5:00:00:noisy:00
       synset: 01928038-s
@@ -16972,7 +16892,7 @@ whimsey:
     - id: 'whimsey%1:07:00::'
       synset: 04679198-n
 whimsical:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪmzɪkəl
       variety: GB
@@ -17081,7 +17001,7 @@ whiner:
       id: 'whiner%1:18:00::'
       synset: 10796007-n
 whiney:
-  s:
+  a:
     sense:
     - derivation:
       - 'whine%1:10:00::'
@@ -17114,7 +17034,7 @@ whinstone:
     - id: 'whinstone%1:17:00::'
       synset: 09501340-n
 whiny:
-  s:
+  a:
     pronunciation:
     - value: ˈwaɪni
     sense:
@@ -17306,6 +17226,10 @@ whippet:
     - id: 'whippet%1:05:00::'
       synset: 02093786-n
 whipping:
+  a:
+    sense:
+    - id: whipping%5:00:00:spirited:00
+      synset: 02288414-s
   n:
     pronunciation:
     - value: ˈwɪpɪŋ
@@ -17322,10 +17246,6 @@ whipping:
       synset: 04585845-n
     - id: 'whipping%1:04:02::'
       synset: 01178709-n
-  s:
-    sense:
-    - id: whipping%5:00:00:spirited:00
-      synset: 02288414-s
 whipping boy:
   n:
     sense:
@@ -17362,7 +17282,7 @@ whippoorwill:
     - id: 'whippoorwill%1:05:00::'
       synset: 01838728-n
 whippy:
-  s:
+  a:
     sense:
     - id: whippy%5:00:00:elastic:00
       synset: 00848258-s
@@ -17651,16 +17571,16 @@ whirr:
       - vii
       synset: 01054434-v
 whirring:
+  a:
+    sense:
+    - id: whirring%5:00:00:noisy:00
+      synset: 01928530-s
   n:
     sense:
     - derivation:
       - 'whir%2:39:00::'
       id: 'whirring%1:11:00::'
       synset: 07414517-n
-  s:
-    sense:
-    - id: whirring%5:00:00:noisy:00
-      synset: 01928530-s
 whish:
   v:
     pronunciation:
@@ -17777,12 +17697,12 @@ whisker jack:
     - id: 'whisker_jack%1:05:00::'
       synset: 01583807-n
 whiskered:
-  s:
+  a:
     sense:
     - id: whiskered%5:00:00:unshaven:00
       synset: 02161380-s
 whiskerless:
-  s:
+  a:
     sense:
     - id: whiskerless%5:00:00:shaven:00
       synset: 02161035-s
@@ -17792,7 +17712,7 @@ whiskers:
     - id: 'whiskers%1:08:00::'
       synset: 05269065-n
 whiskery:
-  s:
+  a:
     sense:
     - derivation:
       - 'whisker%1:05:00::'
@@ -17888,7 +17808,7 @@ whisper:
       - vtai
       synset: 00917783-v
 whispered:
-  s:
+  a:
     sense:
     - id: whispered%5:00:00:unvoiced:00
       synset: 02294239-s
@@ -17900,6 +17820,12 @@ whisperer:
       id: 'whisperer%1:18:00::'
       synset: 10796967-n
 whispering:
+  a:
+    pronunciation:
+    - value: ˈ(h)wɪspəɹɪŋ
+    sense:
+    - id: whispering%5:00:00:soft:04
+      synset: 01458817-s
   n:
     pronunciation:
     - value: ˈ(h)wɪspəɹɪŋ
@@ -17910,12 +17836,6 @@ whispering:
       - 'whisper%2:32:00::'
       id: 'whispering%1:10:00::'
       synset: 07145049-n
-  s:
-    pronunciation:
-    - value: ˈ(h)wɪspəɹɪŋ
-    sense:
-    - id: whispering%5:00:00:soft:04
-      synset: 01458817-s
 whispering bells:
   n:
     sense:
@@ -18127,29 +18047,6 @@ white:
       - 'white%1:18:00::'
       id: 'white%3:00:02::'
       synset: 00244146-a
-  n:
-    pronunciation:
-    - value: waɪt
-    sense:
-    - antonym:
-      - 'black%1:07:00::'
-      derivation:
-      - 'white%3:00:01::'
-      - 'white%2:30:00::'
-      id: 'white%1:07:00::'
-      synset: 04967906-n
-    - id: 'white%1:13:00::'
-      synset: 07857013-n
-    - antonym:
-      - 'black%1:06:01::'
-      id: 'white%1:06:01::'
-      synset: 04587272-n
-    - id: 'white%1:06:03::'
-      synset: 03361927-n
-  s:
-    pronunciation:
-    - value: waɪt
-    sense:
     - derivation:
       - 'whiteness%1:26:00::'
       id: white%5:00:00:pure:01
@@ -18172,6 +18069,25 @@ white:
       synset: 00405645-s
     - id: white%5:00:00:light:06
       synset: 00273816-s
+  n:
+    pronunciation:
+    - value: waɪt
+    sense:
+    - antonym:
+      - 'black%1:07:00::'
+      derivation:
+      - 'white%3:00:01::'
+      - 'white%2:30:00::'
+      id: 'white%1:07:00::'
+      synset: 04967906-n
+    - id: 'white%1:13:00::'
+      synset: 07857013-n
+    - antonym:
+      - 'black%1:06:01::'
+      id: 'white%1:06:01::'
+      synset: 04587272-n
+    - id: 'white%1:06:03::'
+      synset: 03361927-n
   v:
     pronunciation:
     - value: waɪt
@@ -19137,12 +19053,12 @@ white-berry yew:
     - id: 'white-berry_yew%1:20:00::'
       synset: 11683714-n
 white-blotched:
-  s:
+  a:
     sense:
     - id: white-blotched%5:00:00:patterned:00
       synset: 01795858-s
 white-bread:
-  s:
+  a:
     sense:
     - id: white-bread%5:00:00:conventional:01
       synset: 00610622-s
@@ -19174,7 +19090,7 @@ white-crowned sparrow:
     - id: 'white-crowned_sparrow%1:05:00::'
       synset: 01538331-n
 white-edged:
-  s:
+  a:
     sense:
     - id: white-edged%5:00:00:bordered:00
       synset: 00260043-s
@@ -19184,7 +19100,7 @@ white-faced hornet:
     - id: 'white-faced_hornet%1:05:00::'
       synset: 02216315-n
 white-flowered:
-  s:
+  a:
     sense:
     - id: white-flowered%5:00:00:achromatic:00
       synset: 00393428-s
@@ -19194,7 +19110,7 @@ white-footed mouse:
     - id: 'white-footed_mouse%1:05:00::'
       synset: 02339478-n
 white-haired:
-  s:
+  a:
     sense:
     - id: white-haired%5:00:00:old:02
       synset: 01650120-s
@@ -19212,7 +19128,7 @@ white-heart hickory:
     - id: 'white-heart_hickory%1:20:00::'
       synset: 12342616-n
 white-hot:
-  s:
+  a:
     sense:
     - id: white-hot%5:00:00:hot:02
       synset: 01260573-s
@@ -19224,7 +19140,7 @@ white-leaved rockrose:
     - id: 'white-leaved_rockrose%1:20:00::'
       synset: 12395222-n
 white-lipped:
-  s:
+  a:
     sense:
     - id: white-lipped%5:00:00:afraid:00
       synset: 00081887-s
@@ -19234,7 +19150,7 @@ white-lipped peccary:
     - id: 'white-lipped_peccary%1:05:00::'
       synset: 02400639-n
 white-livered:
-  s:
+  a:
     sense:
     - id: white-livered%5:00:00:cowardly:00
       synset: 00266180-s
@@ -19256,7 +19172,7 @@ white-pine rust:
     - id: 'white-pine_rust%1:26:00::'
       synset: 14301335-n
 white-pink:
-  s:
+  a:
     sense:
     - id: white-pink%5:00:00:chromatic:00
       synset: 00386609-s
@@ -19266,7 +19182,7 @@ white-rayed mule's ears:
     - id: 'white-rayed_mule''s_ears%1:20:00::'
       synset: 12053155-n
 white-ribbed:
-  s:
+  a:
     sense:
     - id: white-ribbed%5:00:00:patterned:00
       synset: 01795943-s
@@ -19276,12 +19192,12 @@ white-rumped shrike:
     - id: 'white-rumped_shrike%1:05:00::'
       synset: 01602029-n
 white-seeded:
-  s:
+  a:
     sense:
     - id: white-seeded%5:00:00:seedy:00
       synset: 02263761-s
 white-shoe:
-  s:
+  a:
     sense:
     - id: white-shoe%5:00:00:exclusive:00
       synset: 01869392-s
@@ -19291,7 +19207,7 @@ white-stemmed filaree:
     - id: 'white-stemmed_filaree%1:20:00::'
       synset: 12710066-n
 white-streaked:
-  s:
+  a:
     sense:
     - id: white-streaked%5:00:00:patterned:00
       synset: 01796019-s
@@ -19321,7 +19237,7 @@ white-throated sparrow:
     - id: 'white-throated_sparrow%1:05:00::'
       synset: 01538110-n
 white-tie:
-  s:
+  a:
     sense:
     - id: white-tie%5:00:00:formal:01
       synset: 01047817-s
@@ -19429,7 +19345,7 @@ whiten:
       - vtii
       synset: 00281071-v
 whitened:
-  s:
+  a:
     sense:
     - id: whitened%5:00:02:colorless:02
       synset: 00407820-s
@@ -19567,7 +19483,7 @@ whitewash:
       - vtia
       synset: 00906831-v
 whitewashed:
-  s:
+  a:
     sense:
     - id: whitewashed%5:00:00:painted:00
       synset: 01718268-s
@@ -19604,7 +19520,7 @@ whiting:
     - id: 'whiting%1:05:00::'
       synset: 02525741-n
 whitish:
-  s:
+  a:
     pronunciation:
     - value: ˈwaɪtɪʃ
     sense:
@@ -19766,6 +19682,17 @@ whole:
       - 'half%3:00:02::'
       id: 'whole%3:00:02::'
       synset: 00519841-a
+    - id: whole%5:00:00:uninjured:00
+      synset: 01322654-s
+    - derivation:
+      - 'wholeness%1:26:01::'
+      id: whole%5:00:00:healthy:00
+      synset: 01174940-s
+    - derivation:
+      - 'whole%1:03:00::'
+      - 'wholeness%1:26:00::'
+      id: whole%5:00:00:undiversified:00
+      synset: 00787771-s
   n:
     pronunciation:
     - value: həʊl
@@ -19790,24 +19717,6 @@ whole:
     sense:
     - id: 'whole%4:02:00::'
       synset: 00008423-r
-  s:
-    pronunciation:
-    - value: həʊl
-      variety: GB
-    - value: hoʊl
-      variety: US
-    sense:
-    - id: whole%5:00:00:uninjured:00
-      synset: 01322654-s
-    - derivation:
-      - 'wholeness%1:26:01::'
-      id: whole%5:00:00:healthy:00
-      synset: 01174940-s
-    - derivation:
-      - 'whole%1:03:00::'
-      - 'wholeness%1:26:00::'
-      id: whole%5:00:00:undiversified:00
-      synset: 00787771-s
 whole blood:
   n:
     sense:
@@ -19921,7 +19830,7 @@ whole works:
     - id: 'whole_works%1:26:00::'
       synset: 14485263-n
 whole-souled:
-  s:
+  a:
     sense:
     - id: whole-souled%5:00:00:sincere:00
       synset: 02188116-s
@@ -19938,7 +19847,7 @@ whole-word method:
     - id: 'whole-word_method%1:04:00::'
       synset: 00890224-n
 wholehearted:
-  s:
+  a:
     pronunciation:
     - value: ˌhəʊlˈhɑː(ɹ)t.əd
       variety: GB
@@ -19990,6 +19899,12 @@ wholeness:
       id: 'wholeness%1:26:01::'
       synset: 14073493-n
 wholesale:
+  a:
+    pronunciation:
+    - value: ˈhoʊlseɪl
+    sense:
+    - id: wholesale%5:00:00:indiscriminate:00
+      synset: 00777741-s
   n:
     pronunciation:
     - value: ˈhoʊlseɪl
@@ -20010,12 +19925,6 @@ wholesale:
       synset: 00444667-r
     - id: 'wholesale%4:02:01::'
       synset: 00262135-r
-  s:
-    pronunciation:
-    - value: ˈhoʊlseɪl
-    sense:
-    - id: wholesale%5:00:00:indiscriminate:00
-      synset: 00777741-s
   v:
     pronunciation:
     - value: ˈhoʊlseɪl
@@ -20063,11 +19972,6 @@ wholesome:
       - 'wholesomeness%1:07:00::'
       id: 'wholesome%3:00:00::'
       synset: 02568127-a
-  s:
-    pronunciation:
-    - value: ˈhoʊlsəm
-      variety: US
-    sense:
     - derivation:
       - 'wholesomeness%1:07:00::'
       id: wholesome%5:00:00:healthy:00
@@ -20263,6 +20167,15 @@ whopper:
     - id: 'whopper%1:06:00::'
       synset: 04581520-n
 whopping:
+  a:
+    pronunciation:
+    - value: ˈ(h)wɒpɪŋ
+      variety: GB
+    - value: ˈ(h)wɑpɪŋ
+      variety: US
+    sense:
+    - id: whopping%5:00:00:large:00
+      synset: 01390996-s
   r:
     pronunciation:
     - value: ˈ(h)wɒpɪŋ
@@ -20272,15 +20185,6 @@ whopping:
     sense:
     - id: 'whopping%4:02:00::'
       synset: 00497644-r
-  s:
-    pronunciation:
-    - value: ˈ(h)wɒpɪŋ
-      variety: GB
-    - value: ˈ(h)wɑpɪŋ
-      variety: US
-    sense:
-    - id: whopping%5:00:00:large:00
-      synset: 01390996-s
 whore:
   n:
     pronunciation:
@@ -20383,7 +20287,7 @@ whorl:
     - id: 'whorl%1:06:00::'
       synset: 03069428-n
 whorled:
-  s:
+  a:
     pronunciation:
     - value: ʍɜːld
       variety: GB
@@ -20465,10 +20369,6 @@ wicked:
       - 'wickedness%1:04:00::'
       id: 'wicked%3:00:00::'
       synset: 02523798-a
-  s:
-    pronunciation:
-    - value: ˈwɪkɪd
-    sense:
     - derivation:
       - 'wickedness%1:07:01::'
       id: wicked%5:00:00:unrighteous:00
@@ -20602,22 +20502,6 @@ wide:
       - 'wideness%1:07:01::'
       id: 'wide%3:00:02::'
       synset: 02573798-a
-  r:
-    pronunciation:
-    - value: waɪd
-    sense:
-    - id: 'wide%4:02:01::'
-      synset: 00497941-r
-    - id: 'wide%4:02:03::'
-      synset: 00498208-r
-    - id: 'wide%4:02:02::'
-      synset: 00498056-r
-    - id: 'wide%4:02:00::'
-      synset: 00497722-r
-  s:
-    pronunciation:
-    - value: waɪd
-    sense:
     - derivation:
       - 'wideness%1:07:01::'
       id: wide%5:00:00:comprehensive:00
@@ -20634,13 +20518,25 @@ wide:
       synset: 00107089-s
     - id: wide%5:00:00:inaccurate:00
       synset: 00024282-s
+  r:
+    pronunciation:
+    - value: waɪd
+    sense:
+    - id: 'wide%4:02:01::'
+      synset: 00497941-r
+    - id: 'wide%4:02:03::'
+      synset: 00498208-r
+    - id: 'wide%4:02:02::'
+      synset: 00498056-r
+    - id: 'wide%4:02:00::'
+      synset: 00497722-r
 wide area network:
   n:
     sense:
     - id: 'wide_area_network%1:06:00::'
       synset: 04590763-n
 wide of the mark:
-  s:
+  a:
     pronunciation:
     - value: ˈwaɪd əv ðə ˈmɑːk
       variety: GB
@@ -20672,7 +20568,7 @@ wide-angle lens:
     - id: 'wide-angle_lens%1:06:00::'
       synset: 04590498-n
 wide-awake:
-  s:
+  a:
     sense:
     - id: wide-awake%5:00:00:awake:00
       synset: 00188931-s
@@ -20689,33 +20585,33 @@ wide-body aircraft:
     - id: 'wide-body_aircraft%1:06:00::'
       synset: 04590906-n
 wide-cut:
-  s:
+  a:
     sense:
     - id: wide-cut%5:00:00:ample:00
       synset: 00107089-s
 wide-eyed:
-  s:
+  a:
     sense:
     - id: wide-eyed%5:00:00:naive:00
       synset: 02279797-s
     - id: wide-eyed%5:00:00:open:08
       synset: 01659326-s
 wide-open:
-  s:
+  a:
     sense:
     - id: wide-open%5:00:00:open:01
       synset: 01657131-s
     - id: wide-open%5:00:00:unlawful:00
       synset: 01399508-s
 wide-ranging:
-  s:
+  a:
     sense:
     - id: wide-ranging%5:00:00:large:00
       synset: 01394189-s
     - id: wide-ranging%5:00:00:diversified:00
       synset: 00787025-s
 wide-screen:
-  s:
+  a:
     sense:
     - adjposition: a
       id: wide-screen%5:00:00:wide:00
@@ -20817,7 +20713,7 @@ widening:
       id: 'widening%1:04:00::'
       synset: 00408091-n
 widespread:
-  s:
+  a:
     sense:
     - id: widespread%5:00:00:general:00
       synset: 01106569-s
@@ -20888,7 +20784,7 @@ widow's weeds:
     - id: 'widow''s_weeds%1:06:00::'
       synset: 04577818-n
 widowed:
-  s:
+  a:
     sense:
     - id: widowed%5:00:00:unmarried:00
       synset: 01486172-s
@@ -21093,7 +20989,7 @@ wiggliness:
       id: 'wiggliness%1:07:00::'
       synset: 04782424-n
 wiggly:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪ.ɡə.ˌli
     sense:
@@ -21168,27 +21064,6 @@ wild:
       - 'wilderness%1:15:00::'
       id: 'wild%3:00:01::'
       synset: 02397788-a
-  n:
-    sense:
-    - derivation:
-      - wild%5:00:00:noncivilized:00
-      - 'wild%3:00:01::'
-      id: 'wild%1:26:00::'
-      synset: 13962386-n
-    - derivation:
-      - wild%5:00:00:inhospitable:00
-      id: 'wild%1:15:00::'
-      synset: 08701286-n
-  r:
-    sense:
-    - id: 'wild%4:02:02::'
-      synset: 00441150-r
-    - id: 'wild%4:02:01::'
-      pertainym:
-      - 'wild%3:00:01::'
-      synset: 00176356-r
-  s:
-    sense:
     - derivation:
       - 'wildness%1:12:00::'
       id: wild%5:00:00:passionate:00
@@ -21223,6 +21098,25 @@ wild:
       - 'wildness%1:07:02::'
       id: wild%5:00:00:stormy:00
       synset: 00304943-s
+  n:
+    sense:
+    - derivation:
+      - wild%5:00:00:noncivilized:00
+      - 'wild%3:00:01::'
+      id: 'wild%1:26:00::'
+      synset: 13962386-n
+    - derivation:
+      - wild%5:00:00:inhospitable:00
+      id: 'wild%1:15:00::'
+      synset: 08701286-n
+  r:
+    sense:
+    - id: 'wild%4:02:02::'
+      synset: 00441150-r
+    - id: 'wild%4:02:01::'
+      pertainym:
+      - 'wild%3:00:01::'
+      synset: 00176356-r
 wild China tree:
   n:
     sense:
@@ -21832,7 +21726,7 @@ wild yellow lily:
     - id: 'wild_yellow_lily%1:20:00::'
       synset: 12447254-n
 wild-eyed:
-  s:
+  a:
     sense:
     - id: wild-eyed%5:00:00:agitated:00
       synset: 00087707-s
@@ -21844,6 +21738,18 @@ wild-goose chase:
     - id: 'wild-goose_chase%1:04:00::'
       synset: 00321568-n
 wildcat:
+  a:
+    pronunciation:
+    - value: ˈwaɪldˌkæt
+    sense:
+    - id: wildcat%5:00:00:unsound:00
+      synset: 02282708-s
+    - id: wildcat%5:00:00:unofficial:00
+      synset: 01638242-s
+    - derivation:
+      - 'wildcat%1:06:00::'
+      id: wildcat%5:00:00:exploratory:00
+      synset: 00881680-s
   n:
     pronunciation:
     - value: ˈwaɪldˌkæt
@@ -21856,18 +21762,6 @@ wildcat:
       synset: 09864997-n
     - id: 'wildcat%1:05:00::'
       synset: 02127275-n
-  s:
-    pronunciation:
-    - value: ˈwaɪldˌkæt
-    sense:
-    - id: wildcat%5:00:00:unsound:00
-      synset: 02282708-s
-    - id: wildcat%5:00:00:unofficial:00
-      synset: 01638242-s
-    - derivation:
-      - 'wildcat%1:06:00::'
-      id: wildcat%5:00:00:exploratory:00
-      synset: 00881680-s
 wildcat strike:
   n:
     pronunciation:
@@ -22000,7 +21894,7 @@ wile:
       id: 'wile%1:04:00::'
       synset: 00754297-n
 wilful:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪlfʊl
     sense:
@@ -22094,7 +21988,7 @@ willet:
     - id: 'willet%1:05:00::'
       synset: 02033491-n
 willful:
-  s:
+  a:
     sense:
     - id: willful%5:00:00:voluntary:01
       synset: 02530749-s
@@ -22137,6 +22031,8 @@ willing:
       - 'willingness%1:07:00::'
       id: 'willing%3:00:00::'
       synset: 02575716-a
+    - id: willing%5:00:00:voluntary:01
+      synset: 02531092-s
   n:
     pronunciation:
     - value: ˈwɪlɪŋ
@@ -22145,14 +22041,8 @@ willing:
       - 'will%2:31:01::'
       id: 'willing%1:04:00::'
       synset: 00163868-n
-  s:
-    pronunciation:
-    - value: ˈwɪlɪŋ
-    sense:
-    - id: willing%5:00:00:voluntary:01
-      synset: 02531092-s
 willing and able:
-  s:
+  a:
     sense:
     - id: willing_and_able%5:00:00:willing:00
       synset: 02576669-s
@@ -22231,7 +22121,7 @@ willowware:
     - id: 'willowware%1:06:00::'
       synset: 04592230-n
 willowy:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪləʊi
       variety: GB
@@ -22287,7 +22177,7 @@ wilt disease:
     - id: 'wilt_disease%1:26:00::'
       synset: 14306680-n
 wilted:
-  s:
+  a:
     sense:
     - derivation:
       - 'wilt%2:30:00::'
@@ -22303,7 +22193,7 @@ wilting:
       id: 'wilting%1:04:00::'
       synset: 00363372-n
 wily:
-  s:
+  a:
     form:
     - wilier
     - wiliest
@@ -22330,7 +22220,7 @@ wimp:
       id: 'wimp%1:18:00::'
       synset: 10801493-n
 wimpish:
-  s:
+  a:
     sense:
     - id: wimpish%5:00:00:forceless:00
       synset: 00846585-s
@@ -22340,7 +22230,7 @@ wimple:
     - id: 'wimple%1:06:00::'
       synset: 04592604-n
 wimpy:
-  s:
+  a:
     sense:
     - derivation:
       - 'wimp%1:18:00::'
@@ -22762,7 +22652,7 @@ windbag:
     - id: 'windbag%1:18:00::'
       synset: 10141124-n
 windblown:
-  s:
+  a:
     sense:
     - id: windblown%5:00:00:crooked:01
       synset: 02321916-s
@@ -22786,12 +22676,12 @@ windburn:
     - id: 'windburn%1:26:00::'
       synset: 14314253-n
 windburned:
-  s:
+  a:
     sense:
     - id: windburned%5:00:00:unhealthy:00
       synset: 01182121-s
 windburnt:
-  s:
+  a:
     sense:
     - id: windburnt%5:00:00:unhealthy:00
       synset: 01182121-s
@@ -22801,7 +22691,7 @@ windcheater:
     - id: 'windcheater%1:06:00::'
       synset: 03896748-n
 winded:
-  s:
+  a:
     sense:
     - id: winded%5:00:00:breathless:00
       synset: 00269614-s
@@ -22865,13 +22755,7 @@ windiness:
       id: 'windiness%1:10:00::'
       synset: 07104300-n
 winding:
-  n:
-    pronunciation:
-    - value: ˈwaɪndɪŋ
-    sense:
-    - id: 'winding%1:04:00::'
-      synset: 00346467-n
-  s:
+  a:
     pronunciation:
     - value: ˈwaɪndɪŋ
     sense:
@@ -22879,6 +22763,12 @@ winding:
       synset: 02321464-s
     - id: winding%5:00:00:indirect:00
       synset: 00766950-s
+  n:
+    pronunciation:
+    - value: ˈwaɪndɪŋ
+    sense:
+    - id: 'winding%1:04:00::'
+      synset: 00346467-n
 winding-clothes:
   n:
     sense:
@@ -22903,7 +22793,7 @@ windlass:
     - id: 'windlass%1:06:00::'
       synset: 04593031-n
 windless:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪndləs
     sense:
@@ -23146,7 +23036,7 @@ windsurf:
       - via-pp
       synset: 01952309-v
 windswept:
-  s:
+  a:
     sense:
     - id: windswept%5:00:00:inhospitable:00
       synset: 01246596-s
@@ -23156,17 +23046,17 @@ windtalker:
     - id: 'windtalker%1:18:00::'
       synset: 09953071-n
 windup:
+  a:
+    sense:
+    - adjposition: a
+      id: windup%5:00:00:mechanical:00
+      synset: 01504351-s
   n:
     sense:
     - derivation:
       - 'wind_up%2:30:02::'
       id: 'windup%1:04:00::'
       synset: 00211959-n
-  s:
-    sense:
-    - adjposition: a
-      id: windup%5:00:00:mechanical:00
-      synset: 01504351-s
 windward:
   a:
     pronunciation:
@@ -23202,7 +23092,7 @@ windward side:
     - id: 'windward_side%1:24:00::'
       synset: 13851933-n
 windy:
-  s:
+  a:
     form:
     - windier
     - windiest
@@ -23382,7 +23272,7 @@ wine-maker's yeast:
     - id: 'wine-maker''s_yeast%1:20:00::'
       synset: 13046775-n
 wine-red:
-  s:
+  a:
     sense:
     - id: wine-red%5:00:00:chromatic:00
       synset: 00386713-s
@@ -23439,7 +23329,7 @@ wineskin:
     - id: 'wineskin%1:06:00::'
       synset: 04599923-n
 winey:
-  s:
+  a:
     sense:
     - derivation:
       - 'wine%1:13:00::'
@@ -23552,7 +23442,7 @@ wing-nut:
     - id: 'wing-nut%1:06:00::'
       synset: 04600512-n
 wing-shaped:
-  s:
+  a:
     sense:
     - id: wing-shaped%5:00:00:winged:00
       synset: 02577673-s
@@ -23572,10 +23462,6 @@ winged:
       - 'wingless%3:00:00::'
       id: 'winged%3:00:00::'
       synset: 02577356-a
-  s:
-    pronunciation:
-    - value: wɪŋ(ɪ)d
-    sense:
     - id: winged%5:00:00:fast:01
       synset: 00983478-s
 winged bean:
@@ -23626,7 +23512,7 @@ wingless:
       id: 'wingless%3:00:00::'
       synset: 02578841-a
 winglike:
-  s:
+  a:
     sense:
     - id: winglike%5:00:00:winged:00
       synset: 02578748-s
@@ -23726,16 +23612,16 @@ winker:
     - id: 'winker%1:06:00::'
       synset: 04600956-n
 winking:
+  a:
+    sense:
+    - id: winking%5:00:00:closed:03
+      synset: 01659812-s
   n:
     sense:
     - derivation:
       - 'wink%2:29:00::'
       id: 'winking%1:04:00::'
       synset: 00118779-n
-  s:
-    sense:
-    - id: winking%5:00:00:closed:03
-      synset: 01659812-s
 winkle:
   n:
     pronunciation:
@@ -23777,7 +23663,7 @@ winkle out:
       - vtai
       synset: 01354857-v
 winless:
-  s:
+  a:
     sense:
     - id: winless%5:00:00:unsuccessful:00
       synset: 02343712-s
@@ -23813,6 +23699,14 @@ winner's circle:
     - id: 'winner''s_circle%1:15:00::'
       synset: 08701579-n
 winning:
+  a:
+    pronunciation:
+    - value: ˈwɪnɪŋ
+    sense:
+    - id: winning%5:00:01:successful:00
+      synset: 02341306-s
+    - id: winning%5:00:00:attractive:01
+      synset: 00169091-s
   n:
     pronunciation:
     - value: ˈwɪnɪŋ
@@ -23821,14 +23715,6 @@ winning:
       - 'win%2:40:00::'
       id: 'winning%1:04:00::'
       synset: 00064838-n
-  s:
-    pronunciation:
-    - value: ˈwɪnɪŋ
-    sense:
-    - id: winning%5:00:01:successful:00
-      synset: 02341306-s
-    - id: winning%5:00:00:attractive:01
-      synset: 00169091-s
 winning post:
   n:
     sense:
@@ -23913,7 +23799,7 @@ wino:
     - id: 'wino%1:18:00::'
       synset: 10057110-n
 winsome:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪn.s(ə)m
       variety: GB
@@ -24147,12 +24033,12 @@ winter's bark tree:
     - id: 'winter''s_bark_tree%1:20:00::'
       synset: 11760447-n
 winter-blooming:
-  s:
+  a:
     sense:
     - id: winter-blooming%5:00:00:wintry:00
       synset: 01259285-s
 winter-flowering:
-  s:
+  a:
     sense:
     - id: winter-flowering%5:00:00:wintry:00
       synset: 01259285-s
@@ -24237,20 +24123,10 @@ wintry:
       - 'winter%1:28:00::'
       id: 'wintry%3:00:00::'
       synset: 01258879-a
-  s:
-    form:
-    - wintrier
-    - wintriest
-    pronunciation:
-    - value: ˈwɪnt(ə)ɹɪ
-      variety: GB
-    - value: ˈwɪnt(ə)ɹi
-      variety: US
-    sense:
     - id: wintry%5:00:00:cold:02
       synset: 01261336-s
 winy:
-  s:
+  a:
     form:
     - winier
     - winiest
@@ -24370,7 +24246,7 @@ wipe up:
       - vtai
       synset: 01395993-v
 wiped out:
-  s:
+  a:
     sense:
     - adjposition: p
       id: wiped_out%5:00:00:destroyed:00
@@ -24571,7 +24447,7 @@ wire-guided torpedo:
     - id: 'wire-guided_torpedo%1:06:01::'
       synset: 92450838-n
 wire-haired:
-  s:
+  a:
     sense:
     - id: wire-haired%5:00:00:hairy:00
       synset: 00218012-s
@@ -24607,13 +24483,6 @@ wired:
       - 'wireless%3:00:00::'
       id: 'wired%3:00:00::'
       synset: 02579112-a
-  s:
-    pronunciation:
-    - value: waɪɹd
-      variety: US
-    - value: waɪəd
-      variety: GB
-    sense:
     - id: wired%5:00:00:tense:03
       synset: 02416142-s
     - id: wired%5:00:00:bound:01
@@ -24778,13 +24647,6 @@ wiry:
       pertainym:
       - 'wire%1:06:00::'
       synset: 03156722-a
-  s:
-    form:
-    - wirier
-    - wiriest
-    pronunciation:
-    - value: ˈwaɪ(ə)ɹi
-    sense:
     - derivation:
       - 'wiriness%1:07:00::'
       id: wiry%5:00:00:thin:03
@@ -24792,12 +24654,12 @@ wiry:
     - id: wiry%5:00:00:hairy:00
       synset: 00218152-s
 wiry-coated:
-  s:
+  a:
     sense:
     - id: wiry-coated%5:00:00:hairy:00
       synset: 00218012-s
 wiry-stemmed:
-  s:
+  a:
     sense:
     - id: wiry-stemmed%5:00:00:caulescent:00
       synset: 00322982-s
@@ -24840,12 +24702,6 @@ wise:
       - 'wiseness%1:07:00::'
       id: 'wise%3:00:00::'
       synset: 02579686-a
-  n:
-    sense:
-    - id: 'wise%1:07:00::'
-      synset: 04938910-n
-  s:
-    sense:
     - derivation:
       - 'wiseness%1:07:01::'
       id: wise%5:00:00:prudent:00
@@ -24855,6 +24711,10 @@ wise:
       synset: 01310645-s
     - id: wise%5:00:00:forward:02
       synset: 00206887-s
+  n:
+    sense:
+    - id: 'wise%1:07:00::'
+      synset: 04938910-n
 wise guy:
   n:
     sense:
@@ -24869,7 +24729,7 @@ wise man:
     - id: 'wise_man%1:18:00::'
       synset: 10329163-n
 wise to:
-  s:
+  a:
     sense:
     - adjposition: p
       id: wise_to%5:00:00:informed:00
@@ -25038,7 +24898,7 @@ wishbone:
     - id: 'wishbone%1:05:00::'
       synset: 01898152-n
 wished-for:
-  s:
+  a:
     sense:
     - id: wished-for%5:00:00:wanted:00
       synset: 02537648-s
@@ -25052,11 +24912,6 @@ wishful:
       - 'wishfulness%1:12:00::'
       id: 'wishful%3:00:00::'
       synset: 00891011-a
-  s:
-    pronunciation:
-    - value: ˈwɪʃfəl
-      variety: GB
-    sense:
     - id: wishful%5:00:00:ambitious:00
       synset: 00105332-s
 wishful thinker:
@@ -25126,12 +24981,12 @@ wisp:
     - id: 'wisp%1:14:00::'
       synset: 08008664-n
 wisplike:
-  s:
+  a:
     sense:
     - id: wisplike%5:00:00:thin:03
       synset: 00995028-s
 wispy:
-  s:
+  a:
     form:
     - wispier
     - wispiest
@@ -25155,7 +25010,7 @@ wisteria:
     - id: 'wisteria%1:20:00::'
       synset: 12601205-n
 wistful:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪstfəl
     sense:
@@ -25338,22 +25193,22 @@ witchgrass:
     - id: 'witchgrass%1:20:02::'
       synset: 12126095-n
 witching:
-  n:
-    sense:
-    - id: 'witching%1:04:00::'
-      synset: 01270676-n
-  s:
+  a:
     sense:
     - adjposition: a
       id: witching%5:00:00:supernatural:00
       synset: 01580464-s
+  n:
+    sense:
+    - id: 'witching%1:04:00::'
+      synset: 01270676-n
 witchlike:
-  s:
+  a:
     sense:
     - id: witchlike%5:00:00:supernatural:00
       synset: 01582081-s
 with child:
-  s:
+  a:
     sense:
     - adjposition: p
       id: with_child%5:00:00:pregnant:00
@@ -25364,7 +25219,7 @@ with kid gloves:
     - id: 'with_kid_gloves%4:02:01::'
       synset: 00283532-r
 with-it:
-  s:
+  a:
     sense:
     - id: with-it%5:00:00:fashionable:00
       synset: 00975821-s
@@ -25561,7 +25416,7 @@ withdrawing room:
     - id: 'withdrawing_room%1:06:00::'
       synset: 03239745-n
 withdrawn:
-  s:
+  a:
     pronunciation:
     - value: wɪðˈdɹɔːn
     sense:
@@ -25608,7 +25463,7 @@ wither:
       - vii
       synset: 00422870-v
 withered:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪðɚd
       variety: US
@@ -25620,18 +25475,18 @@ withered:
     - id: withered%5:00:00:dry:01
       synset: 02564004-s
 withering:
+  a:
+    sense:
+    - id: withering%5:00:00:destructive:00
+      synset: 00589310-s
+    - id: withering%5:00:00:disrespectful:00
+      synset: 02002147-s
   n:
     sense:
     - derivation:
       - 'wither%2:30:01::'
       id: 'withering%1:11:00::'
       synset: 07441660-n
-  s:
-    sense:
-    - id: withering%5:00:00:destructive:00
-      synset: 00589310-s
-    - id: withering%5:00:00:disrespectful:00
-      synset: 02002147-s
 witheringly:
   r:
     sense:
@@ -25725,7 +25580,7 @@ within:
     - id: 'within%4:02:00::'
       synset: 00111558-r
 without a stitch:
-  s:
+  a:
     sense:
     - id: without_a_stitch%5:00:00:unclothed:00
       synset: 00462329-s
@@ -25774,7 +25629,7 @@ withy:
     - id: 'withy%1:20:00::'
       synset: 13185301-n
 witless:
-  s:
+  a:
     sense:
     - id: witless%5:00:00:intense:00
       synset: 01517273-s
@@ -25884,8 +25739,6 @@ witting:
       - 'unwitting%3:00:00::'
       id: 'witting%3:00:00::'
       synset: 00194357-a
-  s:
-    sense:
     - id: witting%5:00:00:intended:00
       synset: 01340720-s
 wittingly:
@@ -25905,7 +25758,7 @@ wittol:
     - id: 'wittol%1:18:00::'
       synset: 10806431-n
 witty:
-  s:
+  a:
     form:
     - wittier
     - wittiest
@@ -25947,6 +25800,18 @@ wiz:
     - id: 'wiz%1:18:00::'
       synset: 09781932-n
 wizard:
+  a:
+    pronunciation:
+    - value: ˈwɪz.əd
+      variety: GB
+    - value: wɪz.ɚd
+      variety: US
+    sense:
+    - adjposition: a
+      derivation:
+      - 'wizard%1:18:00::'
+      id: wizard%5:00:00:supernatural:00
+      synset: 01580464-s
   n:
     pronunciation:
     - value: ˈwɪz.əd
@@ -25961,20 +25826,8 @@ wizard:
       - wizardly%5:00:00:supernatural:00
       id: 'wizard%1:18:00::'
       synset: 10645222-n
-  s:
-    pronunciation:
-    - value: ˈwɪz.əd
-      variety: GB
-    - value: wɪz.ɚd
-      variety: US
-    sense:
-    - adjposition: a
-      derivation:
-      - 'wizard%1:18:00::'
-      id: wizard%5:00:00:supernatural:00
-      synset: 01580464-s
 wizardly:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪzɚdli
     sense:
@@ -25988,14 +25841,14 @@ wizardry:
     - id: 'wizardry%1:09:00::'
       synset: 05633156-n
 wizen:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪzən
     sense:
     - id: wizen%5:00:00:thin:03
       synset: 00993672-s
 wizened:
-  s:
+  a:
     pronunciation:
     - value: ˈwɪzənd
     sense:
@@ -26064,12 +25917,12 @@ wobbler:
       id: 'wobbler%1:06:00::'
       synset: 04603957-n
 wobbling:
-  s:
+  a:
     sense:
     - id: wobbling%5:00:00:unsteady:00
       synset: 02313466-s
 wobbly:
-  s:
+  a:
     sense:
     - derivation:
       - 'wobble%1:11:00::'
@@ -26088,7 +25941,7 @@ woe:
     - id: 'woe%1:12:00::'
       synset: 07549265-n
 woebegone:
-  s:
+  a:
     pronunciation:
     - value: ˈwəʊbɪɡɒn
       variety: GB
@@ -26100,7 +25953,7 @@ woebegone:
     - id: woebegone%5:00:00:sorrowful:00
       synset: 01369441-s
 woeful:
-  s:
+  a:
     pronunciation:
     - value: ˈwəʊfəl
     sense:
@@ -26241,7 +26094,7 @@ wolf's milk:
     - id: 'wolf''s_milk%1:20:00::'
       synset: 12940607-n
 wolf-sized:
-  s:
+  a:
     sense:
     - id: wolf-sized%5:00:00:sized:00
       synset: 02232835-s
@@ -26282,10 +26135,6 @@ wolfish:
       pertainym:
       - 'wolf%1:05:00::'
       synset: 02850891-a
-  s:
-    pronunciation:
-    - value: ˈwʊlfiʃ
-    sense:
     - id: wolfish%5:00:00:gluttonous:00
       synset: 00010745-s
 wolfishly:
@@ -26459,7 +26308,7 @@ womaniser:
       id: 'womaniser%1:18:00::'
       synset: 10808758-n
 womanish:
-  s:
+  a:
     pronunciation:
     - value: ˈwʊmənɪʃ
       variety: GB
@@ -26508,17 +26357,17 @@ womankind:
     - id: 'womankind%1:14:00::'
       synset: 08494923-n
 womanlike:
-  n:
-    sense:
-    - id: 'womanlike%1:07:00::'
-      synset: 04675017-n
-  s:
+  a:
     pronunciation:
     - value: ˈwʊmənlʌɪk
       variety: GB
     sense:
     - id: womanlike%5:00:00:womanly:00
       synset: 01488708-s
+  n:
+    sense:
+    - id: 'womanlike%1:07:00::'
+      synset: 04675017-n
 womanliness:
   n:
     sense:
@@ -26546,7 +26395,7 @@ womb:
     - id: 'womb%1:08:00::'
       synset: 05526736-n
 womb-to-tomb:
-  s:
+  a:
     sense:
     - id: womb-to-tomb%5:00:00:long:02
       synset: 01443033-s
@@ -26701,7 +26550,7 @@ wonder woman:
     - id: 'wonder_woman%1:18:00::'
       synset: 10809460-n
 wonder-struck:
-  s:
+  a:
     sense:
     - id: wonder-struck%5:00:00:affected:00
       synset: 00072505-s
@@ -26722,7 +26571,7 @@ wonderer:
       id: 'wonderer%1:18:00::'
       synset: 10809174-n
 wonderful:
-  s:
+  a:
     pronunciation:
     - value: ˈwʌn.də.fl
       variety: GB
@@ -26750,7 +26599,7 @@ wonderfulness:
       id: 'wonderfulness%1:07:00::'
       synset: 04736385-n
 wondering:
-  s:
+  a:
     sense:
     - adjposition: a
       id: wondering%5:00:00:curious:00
@@ -26782,18 +26631,12 @@ wonderment:
       id: 'wonderment%1:12:00::'
       synset: 07525235-n
 wonderworking:
-  s:
+  a:
     sense:
     - id: wonderworking%5:00:00:extraordinary:00
       synset: 01683605-s
 wondrous:
-  r:
-    pronunciation:
-    - value: ˈwʌndɹəs
-    sense:
-    - id: 'wondrous%4:02:00::'
-      synset: 00184576-r
-  s:
+  a:
     pronunciation:
     - value: ˈwʌndɹəs
     sense:
@@ -26801,6 +26644,12 @@ wondrous:
       - 'wonder%1:11:00::'
       id: wondrous%5:00:00:extraordinary:00
       synset: 01681111-s
+  r:
+    pronunciation:
+    - value: ˈwʌndɹəs
+    sense:
+    - id: 'wondrous%4:02:00::'
+      synset: 00184576-r
 wondrously:
   r:
     sense:
@@ -26814,7 +26663,7 @@ wonk:
     - id: 'wonk%1:18:00::'
       synset: 10704113-n
 wonky:
-  s:
+  a:
     form:
     - wonkier
     - wonkiest
@@ -26834,7 +26683,7 @@ wont:
     - id: 'wont%1:09:00::'
       synset: 05676878-n
 wont to:
-  s:
+  a:
     sense:
     - adjposition: p
       domain_topic:
@@ -26843,7 +26692,7 @@ wont to:
       id: wont_to%5:00:00:accustomed_to:00
       synset: 00024701-s
 wonted:
-  s:
+  a:
     pronunciation:
     - value: ˈwoʊntɪd
       variety: GB
@@ -27204,7 +27053,7 @@ wood widgeon:
     - id: 'wood_widgeon%1:05:00::'
       synset: 01854783-n
 wood-burning:
-  s:
+  a:
     sense:
     - id: wood-burning%5:00:00:fueled:00
       synset: 01102634-s
@@ -27219,7 +27068,7 @@ wood-fern:
     - id: 'wood-fern%1:20:00::'
       synset: 13214540-n
 wood-fired:
-  s:
+  a:
     sense:
     - id: wood-fired%5:00:00:fueled:00
       synset: 01102634-s
@@ -27313,7 +27162,7 @@ wooded:
       id: 'wooded%3:00:00::'
       synset: 02583261-a
 wooden:
-  s:
+  a:
     pronunciation:
     - value: ˈwʊdən
     sense:
@@ -27341,7 +27190,7 @@ wooden spoon:
     - id: 'wooden_spoon%1:06:00::'
       synset: 04605240-n
 wooden-headed:
-  s:
+  a:
     sense:
     - id: wooden-headed%5:00:00:stupid:00
       synset: 00442219-s
@@ -27509,7 +27358,7 @@ woodsman:
     - id: 'woodsman%1:18:01::'
       synset: 10809832-n
 woodsy:
-  s:
+  a:
     form:
     - woodsier
     - woodsiest
@@ -27592,13 +27441,6 @@ woody:
       - 'wood%1:27:00::'
       id: 'woody%3:00:00::'
       synset: 02585768-a
-  s:
-    form:
-    - woodier
-    - woodiest
-    pronunciation:
-    - value: ˈwʊdi
-    sense:
     - derivation:
       - 'woodiness%1:07:00::'
       id: woody%5:00:00:wooded:00
@@ -27621,7 +27463,7 @@ woody plant:
     - id: 'woody_plant%1:20:00::'
       synset: 13123895-n
 woody-stemmed:
-  s:
+  a:
     sense:
     - id: woody-stemmed%5:00:00:caulescent:00
       synset: 00323140-s
@@ -27744,16 +27586,16 @@ woolgatherer:
       id: 'woolgatherer%1:18:00::'
       synset: 10013439-n
 woolgathering:
+  a:
+    sense:
+    - id: woolgathering%5:00:00:inattentive:00
+      synset: 00166847-s
   n:
     sense:
     - derivation:
       - 'woolgather%2:36:00::'
       id: 'woolgathering%1:09:00::'
       synset: 05777723-n
-  s:
-    sense:
-    - id: woolgathering%5:00:00:inattentive:00
-      synset: 00166847-s
 woollen:
   a:
     sense:
@@ -27777,7 +27619,7 @@ woolliness:
     - id: 'woolliness%1:07:02::'
       synset: 92421132-n
 woolly:
-  s:
+  a:
     form:
     - woollier
     - woolliest
@@ -27880,17 +27722,17 @@ woolly thistle:
     - id: 'woolly_thistle%1:20:01::'
       synset: 11974953-n
 woolly-haired:
-  s:
+  a:
     sense:
     - id: woolly-haired%5:00:00:hairy:00
       synset: 00218260-s
 woolly-headed:
-  s:
+  a:
     sense:
     - id: woolly-headed%5:00:00:confused:00
       synset: 00437830-s
 woolly-stemmed:
-  s:
+  a:
     sense:
     - id: woolly-stemmed%5:00:00:caulescent:00
       synset: 00323059-s
@@ -27910,7 +27752,7 @@ woolsorter's pneumonia:
     - id: 'woolsorter''s_pneumonia%1:26:00::'
       synset: 14096416-n
 wooly:
-  s:
+  a:
     sense:
     - id: wooly%5:00:00:soft:01
       synset: 01157854-s
@@ -27931,12 +27773,12 @@ wooly lip fern:
     - id: 'wooly_lip_fern%1:20:00::'
       synset: 13230168-n
 wooly-haired:
-  s:
+  a:
     sense:
     - id: wooly-haired%5:00:00:hairy:00
       synset: 00218260-s
 wooly-minded:
-  s:
+  a:
     sense:
     - id: wooly-minded%5:00:00:confused:00
       synset: 00437830-s
@@ -27948,7 +27790,7 @@ woosh:
       - vtai
       synset: 02073048-v
 woozy:
-  s:
+  a:
     form:
     - woozier
     - wooziest
@@ -28135,7 +27977,7 @@ word-blind:
       - 'word_blindness%1:26:00::'
       synset: 03051778-a
 word-of-mouth:
-  s:
+  a:
     sense:
     - id: word-of-mouth%5:00:00:spoken:00
       synset: 02292157-s
@@ -28150,7 +27992,7 @@ word-painting:
     - id: 'word-painting%1:10:00::'
       synset: 07216464-n
 word-perfect:
-  s:
+  a:
     sense:
     - id: word-perfect%5:00:00:correct:00
       synset: 00634911-s
@@ -28201,7 +28043,7 @@ wording:
       id: 'wording%1:10:00::'
       synset: 07095931-n
 wordless:
-  s:
+  a:
     sense:
     - id: wordless%5:00:00:inarticulate:00
       synset: 00153553-s
@@ -28259,7 +28101,7 @@ wordsmith:
     - id: 'wordsmith%1:18:00::'
       synset: 10810558-n
 wordy:
-  s:
+  a:
     form:
     - wordier
     - wordiest
@@ -28731,7 +28573,7 @@ work-shirt:
     - id: 'work-shirt%1:06:00::'
       synset: 04610314-n
 work-shy:
-  s:
+  a:
     sense:
     - id: work-shy%5:00:00:idle:00
       synset: 00295445-s
@@ -28741,7 +28583,7 @@ work-study program:
     - id: 'work-study_program%1:04:00::'
       synset: 00892751-n
 workable:
-  s:
+  a:
     sense:
     - derivation:
       - 'work%2:41:12::'
@@ -28752,7 +28594,7 @@ workable:
       id: workable%5:00:00:possible:00
       synset: 01828067-s
 workaday:
-  s:
+  a:
     sense:
     - id: workaday%5:00:00:ordinary:00
       synset: 01678797-s
@@ -28806,7 +28648,7 @@ workday:
     - id: 'workday%1:28:00::'
       synset: 15161675-n
 worked up:
-  s:
+  a:
     sense:
     - id: worked_up%5:00:00:agitated:00
       synset: 00086315-s
@@ -28875,11 +28717,7 @@ workhouse:
     - id: 'workhouse%1:06:01::'
       synset: 04608399-n
 working:
-  n:
-    sense:
-    - id: 'working%1:06:00::'
-      synset: 04608831-n
-  s:
+  a:
     sense:
     - adjposition: a
       id: working%5:00:00:employed:00
@@ -28894,6 +28732,10 @@ working:
       synset: 01095421-s
     - id: working%5:00:02:operative:00
       synset: 00836873-s
+  n:
+    sense:
+    - id: 'working%1:06:00::'
+      synset: 04608831-n
 working agreement:
   n:
     sense:
@@ -28976,7 +28818,7 @@ working rule:
     - id: 'working_rule%1:09:00::'
       synset: 05857439-n
 working-class:
-  s:
+  a:
     sense:
     - id: working-class%5:00:00:lower-class:00
       synset: 00260966-s
@@ -29012,7 +28854,7 @@ workman:
       id: 'workman%1:18:00::'
       synset: 10810861-n
 workmanlike:
-  s:
+  a:
     pronunciation:
     - value: ˈwɜː(ɹ)kmənlaɪk
     sense:
@@ -29146,6 +28988,11 @@ workweek:
     - id: 'workweek%1:28:00::'
       synset: 15160948-n
 world:
+  a:
+    sense:
+    - adjposition: a
+      id: world%5:00:00:international:00
+      synset: 01573077-s
   n:
     pronunciation:
     - value: wɜːld
@@ -29173,11 +29020,6 @@ world:
       synset: 05678816-n
     - id: 'world%1:05:00::'
       synset: 02475618-n
-  s:
-    sense:
-    - adjposition: a
-      id: world%5:00:00:international:00
-      synset: 01573077-s
 world affairs:
   n:
     sense:
@@ -29234,19 +29076,19 @@ world-beater:
     - id: 'world-beater%1:18:00::'
       synset: 10254721-n
 world-class:
-  s:
+  a:
     pronunciation:
     - value: wɜː(ɹ)ldˈklæs
     sense:
     - id: world-class%5:00:00:best:00
       synset: 00229886-s
 world-shaking:
-  s:
+  a:
     sense:
     - id: world-shaking%5:00:00:significant:00
       synset: 02169873-s
 world-shattering:
-  s:
+  a:
     sense:
     - id: world-shattering%5:00:00:significant:00
       synset: 02169873-s
@@ -29258,7 +29100,7 @@ world-weariness:
       id: 'world-weariness%1:12:00::'
       synset: 07549123-n
 world-weary:
-  s:
+  a:
     pronunciation:
     - value: ˈwɜːld ˌwɪəɹi
       variety: GB
@@ -29270,7 +29112,7 @@ world-weary:
       id: world-weary%5:00:00:tired:00
       synset: 02441494-s
 world-wide:
-  s:
+  a:
     sense:
     - id: world-wide%5:00:00:international:00
       synset: 01573077-s
@@ -29313,13 +29155,6 @@ worldly:
       - 'world%1:09:01::'
       id: 'worldly%3:00:00::'
       synset: 02587499-a
-  s:
-    form:
-    - worldlier
-    - worldliest
-    pronunciation:
-    - value: ˈwɜː(ɹ)ldli
-    sense:
     - derivation:
       - 'worldliness%1:07:00::'
       id: worldly%5:00:00:sophisticated:00
@@ -29355,17 +29190,17 @@ worldly possessions:
     - id: 'worldly_possessions%1:21:00::'
       synset: 13265778-n
 worldly-minded:
-  s:
+  a:
     sense:
     - id: worldly-minded%5:00:00:worldly:00
       synset: 02588345-s
 worldly-wise:
-  s:
+  a:
     sense:
     - id: worldly-wise%5:00:00:sophisticated:00
       synset: 02279187-s
 worldwide:
-  s:
+  a:
     pronunciation:
     - value: ˈwɜːldwaɪd
       variety: GB
@@ -29456,12 +29291,12 @@ worm wheel:
     - id: 'worm_wheel%1:06:00::'
       synset: 04612415-n
 worm-eaten:
-  s:
+  a:
     sense:
     - id: worm-eaten%5:00:00:worn:00
       synset: 02594641-s
 worm-shaped:
-  s:
+  a:
     sense:
     - id: worm-shaped%5:00:00:formed:00
       synset: 02158735-s
@@ -29478,7 +29313,7 @@ wormhole:
     - id: 'wormhole%1:17:00::'
       synset: 09504166-n
 wormlike:
-  s:
+  a:
     sense:
     - id: wormlike%5:00:00:submissive:00
       synset: 00793426-s
@@ -29511,7 +29346,7 @@ wormwood sage:
     - id: 'wormwood_sage%1:20:00::'
       synset: 11951040-n
 wormy:
-  s:
+  a:
     form:
     - wormier
     - wormiest
@@ -29534,17 +29369,10 @@ worn:
       - 'new%3:00:09::'
       id: 'worn%3:00:00::'
       synset: 02590887-a
-  s:
-    pronunciation:
-    - value: wɔɹn
-      variety: US
-    - value: wɔːn
-      variety: GB
-    sense:
     - id: worn%5:00:00:tired:00
       synset: 02441812-s
 worn out:
-  s:
+  a:
     sense:
     - adjposition: p
       id: worn_out%5:00:00:tired:00
@@ -29555,7 +29383,7 @@ worn spot:
     - id: 'worn_spot%1:07:00::'
       synset: 04690359-n
 worn-out:
-  s:
+  a:
     sense:
     - id: worn-out%5:00:00:worn:00
       synset: 02593311-s
@@ -29563,7 +29391,7 @@ worn-out:
       id: worn-out%5:00:00:tired:00
       synset: 02442263-s
 worried:
-  s:
+  a:
     pronunciation:
     - value: ˈwʌɹid
       variety: GB
@@ -29603,13 +29431,6 @@ worrisome:
     sense:
     - id: 'worrisome%3:00:04::'
       synset: 00199039-a
-  s:
-    pronunciation:
-    - value: ˈwʌɹisəm
-      variety: GB
-    - value: ˈwʌɹisəm
-      variety: US
-    sense:
     - id: worrisome%5:00:00:heavy:02
       synset: 01192929-s
 worry:
@@ -29685,6 +29506,10 @@ worry:
       - vtai
       synset: 01253673-v
 worrying:
+  a:
+    sense:
+    - id: worrying%5:00:00:heavy:02
+      synset: 01192929-s
   n:
     sense:
     - derivation:
@@ -29693,10 +29518,6 @@ worrying:
       synset: 00426281-n
     - id: 'worrying%1:04:01::'
       synset: 00348679-n
-  s:
-    sense:
-    - id: worrying%5:00:00:heavy:02
-      synset: 01192929-s
 worryingly:
   r:
     sense:
@@ -29784,8 +29605,6 @@ worsened:
     sense:
     - id: 'worsened%3:00:00::'
       synset: 00233660-a
-  s:
-    sense:
     - id: worsened%5:00:00:worse:00
       synset: 00233183-s
 worsening:
@@ -29881,7 +29700,7 @@ worshiper:
       id: 'worshiper%1:18:00::'
       synset: 09867135-n
 worshipful:
-  s:
+  a:
     pronunciation:
     - value: ˈwɜːʃɪpfl̩
       variety: GB
@@ -29893,7 +29712,7 @@ worshipful:
     - id: worshipful%5:00:00:pious:00
       synset: 01786427-s
 worshipped:
-  s:
+  a:
     sense:
     - adjposition: a
       id: worshipped%5:00:00:loved:00
@@ -29995,6 +29814,18 @@ wort:
     - id: 'wort%1:13:00::'
       synset: 07905168-n
 worth:
+  a:
+    sense:
+    - adjposition: p
+      derivation:
+      - 'worth%1:07:00::'
+      id: worth%5:00:00:worthy:00
+      synset: 02596626-s
+    - adjposition: p
+      derivation:
+      - 'worth%1:23:00::'
+      id: worth%5:00:00:valuable:00
+      synset: 02511965-s
   n:
     sense:
     - derivation:
@@ -30008,20 +29839,8 @@ worth:
       - 'worthy%3:00:00::'
       id: 'worth%1:07:00::'
       synset: 05145473-n
-  s:
-    sense:
-    - adjposition: p
-      derivation:
-      - 'worth%1:07:00::'
-      id: worth%5:00:00:worthy:00
-      synset: 02596626-s
-    - adjposition: p
-      derivation:
-      - 'worth%1:23:00::'
-      id: worth%5:00:00:valuable:00
-      synset: 02511965-s
 worthful:
-  s:
+  a:
     pronunciation:
     - value: ˈwɚθ.fɫ̩
       variety: US
@@ -30058,13 +29877,6 @@ worthless:
       - 'worthlessness%1:07:00::'
       id: 'worthless%3:00:00::'
       synset: 02512179-a
-  s:
-    pronunciation:
-    - value: ˈwɝθləs
-      variety: US
-    - value: ˈwɜːθləs
-      variety: GB
-    sense:
     - id: worthless%5:00:00:evil:00
       synset: 01136517-s
 worthlessly:
@@ -30086,7 +29898,7 @@ worthlessness:
     - id: 'worthlessness%1:07:01::'
       synset: 05158233-n
 worthwhile:
-  s:
+  a:
     sense:
     - derivation:
       - 'worthwhileness%1:07:00::'
@@ -30113,28 +29925,27 @@ worthy:
       - 'worth%1:07:00::'
       id: 'worthy%3:00:00::'
       synset: 02595419-a
+    - id: worthy%5:00:00:eligible:00
+      synset: 00855376-s
+    - id: worthy%5:00:00:fit:02
+      synset: 01024736-s
   n:
     sense:
     - derivation:
       - 'worthy%3:00:00::'
       id: 'worthy%1:18:00::'
       synset: 10812146-n
-  s:
-    form:
-    - worthier
-    - worthiest
-    sense:
-    - id: worthy%5:00:00:eligible:00
-      synset: 00855376-s
-    - id: worthy%5:00:00:fit:02
-      synset: 01024736-s
 would-be:
-  s:
+  a:
     sense:
     - adjposition: a
       id: would-be%5:00:00:ambitious:00
       synset: 00105624-s
 wound:
+  a:
+    sense:
+    - id: wound%5:00:00:coiled:00
+      synset: 02325885-s
   n:
     pronunciation:
     - value: wuːnd
@@ -30155,10 +29966,6 @@ wound:
       - 'wound%2:29:00::'
       id: 'wound%1:04:00::'
       synset: 00404604-n
-  s:
-    sense:
-    - id: wound%5:00:00:coiled:00
-      synset: 02325885-s
   v:
     pronunciation:
     - value: wuːnd
@@ -30187,32 +29994,32 @@ wound tumor virus:
     - id: 'wound_tumor_virus%1:05:00::'
       synset: 01374569-n
 wound up:
-  s:
+  a:
     sense:
     - id: wound_up%5:00:00:tense:03
       synset: 02414473-s
 wounded:
-  n:
-    sense:
-    - id: 'wounded%1:14:00::'
-      synset: 07967372-n
-  s:
+  a:
     pronunciation:
     - value: ˈwuːndɪd
     sense:
     - id: wounded%5:00:01:injured:00
       synset: 01321683-s
+  n:
+    sense:
+    - id: 'wounded%1:14:00::'
+      synset: 07967372-n
 wounding:
+  a:
+    sense:
+    - id: wounding%5:00:00:harmful:00
+      synset: 01166445-s
   n:
     sense:
     - derivation:
       - 'wound%2:29:00::'
       id: 'wounding%1:04:00::'
       synset: 00404604-n
-  s:
-    sense:
-    - id: wounding%5:00:00:harmful:00
-      synset: 01166445-s
 wove paper:
   n:
     sense:
@@ -30282,7 +30089,7 @@ wraith:
     - id: 'wraith%1:09:00::'
       synset: 05906778-n
 wraithlike:
-  s:
+  a:
     sense:
     - id: wraithlike%5:00:00:insubstantial:00
       synset: 00629219-s
@@ -30426,16 +30233,12 @@ wrapped:
       - 'unwrapped%3:00:00::'
       id: 'wrapped%3:00:00::'
       synset: 02094739-a
-  s:
-    pronunciation:
-    - value: ɹæpt
-    sense:
     - id: wrapped%5:00:00:covered:00
       synset: 01699958-s
     - id: wrapped%5:00:00:attentive:00
       synset: 00165213-s
 wrapped up:
-  s:
+  a:
     sense:
     - id: wrapped_up%5:00:00:committed:00
       synset: 00520330-s
@@ -30492,7 +30295,7 @@ wrath:
     - id: 'wrath%1:04:00::'
       synset: 00760325-n
 wrathful:
-  s:
+  a:
     pronunciation:
     - value: ˈɹæθfəl
     sense:
@@ -30598,7 +30401,7 @@ wreckage:
       id: 'wreckage%1:06:00::'
       synset: 04613716-n
 wrecked:
-  s:
+  a:
     pronunciation:
     - value: ɹɛkt
     sense:
@@ -30707,7 +30510,7 @@ wrench:
       - vtai
       synset: 00090876-v
 wrenching:
-  s:
+  a:
     sense:
     - id: wrenching%5:00:00:painful:00
       synset: 01716982-s
@@ -30818,7 +30621,7 @@ wretch:
     - id: 'wretch%1:18:00::'
       synset: 10472821-n
 wretched:
-  s:
+  a:
     pronunciation:
     - value: ˈɹɛtʃɪd
     sense:
@@ -30914,12 +30717,12 @@ wriggler:
     - id: 'wriggler%1:05:00::'
       synset: 02203161-n
 wriggling:
-  s:
+  a:
     sense:
     - id: wriggling%5:00:00:moving:02
       synset: 01568106-s
 wriggly:
-  s:
+  a:
     sense:
     - derivation:
       - 'wriggle%1:04:00::'
@@ -31154,7 +30957,7 @@ writ:
     - id: 'writ%1:10:00::'
       synset: 06564975-n
 writ large:
-  s:
+  a:
     pronunciation:
     - value: ɹɪtˈlɑɹd͡ʒ
     sense:
@@ -31488,12 +31291,12 @@ writhe:
       - vii
       synset: 01872363-v
 writhed:
-  s:
+  a:
     sense:
     - id: writhed%5:00:00:crooked:01
       synset: 02320399-s
 writhen:
-  s:
+  a:
     pronunciation:
     - value: ˈɹɪðən
       variety: GB
@@ -31501,7 +31304,7 @@ writhen:
     - id: writhen%5:00:00:crooked:01
       synset: 02320399-s
 writhing:
-  s:
+  a:
     sense:
     - id: writhing%5:00:00:moving:02
       synset: 01568106-s
@@ -31690,6 +31493,21 @@ wrong:
       - 'wrongness%1:07:01::'
       id: 'wrong%3:00:04::'
       synset: 00636618-a
+    - derivation:
+      - 'wrongness%1:07:02::'
+      id: wrong%5:00:00:inappropriate:00
+      synset: 00137256-s
+    - adjposition: p
+      id: wrong%5:00:00:malfunctioning:00
+      synset: 01096064-s
+    - id: wrong%5:00:02:improper:00
+      synset: 01887577-s
+    - id: wrong%5:00:00:inside:00
+      synset: 01698534-s
+    - id: wrong%5:00:00:inopportune:00
+      synset: 01666584-s
+    - id: wrong%5:00:00:inaccurate:00
+      synset: 00023894-s
   n:
     pronunciation:
     - value: ɹɒŋ
@@ -31718,28 +31536,6 @@ wrong:
     sense:
     - id: 'wrong%4:02:00::'
       synset: 00205553-r
-  s:
-    pronunciation:
-    - value: ɹɒŋ
-      variety: GB
-    - value: ɹɔŋ
-      variety: US
-    sense:
-    - derivation:
-      - 'wrongness%1:07:02::'
-      id: wrong%5:00:00:inappropriate:00
-      synset: 00137256-s
-    - adjposition: p
-      id: wrong%5:00:00:malfunctioning:00
-      synset: 01096064-s
-    - id: wrong%5:00:02:improper:00
-      synset: 01887577-s
-    - id: wrong%5:00:00:inside:00
-      synset: 01698534-s
-    - id: wrong%5:00:00:inopportune:00
-      synset: 01666584-s
-    - id: wrong%5:00:00:inaccurate:00
-      synset: 00023894-s
   v:
     pronunciation:
     - value: ɹɒŋ
@@ -31762,7 +31558,7 @@ wrong 'un:
     - id: 'wrong_''un%1:04:00::'
       synset: 00478108-n
 wrong-side-out:
-  s:
+  a:
     sense:
     - adjposition: p
       id: wrong-side-out%5:00:00:turned:00
@@ -31787,7 +31583,7 @@ wrongdoing:
     - id: 'wrongdoing%1:04:00::'
       synset: 00734044-n
 wrongful:
-  s:
+  a:
     pronunciation:
     - value: ˈɹɒŋfəl
     sense:
@@ -31834,7 +31630,7 @@ wrongfulness:
       id: 'wrongfulness%1:07:01::'
       synset: 04861835-n
 wrongheaded:
-  s:
+  a:
     sense:
     - id: wrongheaded%5:00:00:wrong:04
       synset: 00636777-s
@@ -31887,7 +31683,7 @@ wrongness:
       id: 'wrongness%1:07:01::'
       synset: 04809652-n
 wroth:
-  s:
+  a:
     pronunciation:
     - value: ɹəʊθ
       variety: GB
@@ -31897,12 +31693,12 @@ wroth:
     - id: wroth%5:00:00:angry:00
       synset: 00117056-s
 wrothful:
-  s:
+  a:
     sense:
     - id: wrothful%5:00:00:angry:00
       synset: 00117056-s
 wrought:
-  s:
+  a:
     pronunciation:
     - value: ɹɔːt
       variety: GB
@@ -31917,7 +31713,7 @@ wrought iron:
     - id: 'wrought_iron%1:27:00::'
       synset: 14826432-n
 wry:
-  s:
+  a:
     form:
     - wrier
     - wriest

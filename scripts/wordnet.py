@@ -308,7 +308,7 @@ class Synset:
         if self.source:
             source_tag = " dc:source=\"%s\"" % (self.source)
         xml_file.write(
-            """    <Synset id="%s" ili="%s" members="%s" partOfSpeech="%s" dc:subject="%s"%s>
+            """    <Synset id="%s" ili="%s" members="%s" partOfSpeech="%s" lexfile="%s"%s>
 """ %
             (self.id,
              self.ili,
@@ -651,7 +651,7 @@ class WordNetContentHandler(ContentHandler):
         elif name == "Synset":
             self.synset = Synset(attrs["id"], attrs["ili"],
                                  PartOfSpeech(attrs["partOfSpeech"]),
-                                 attrs.get("dc:subject", ""),
+                                 attrs.get("lexfile", attrs.get("dc:subject", "")),
                                  attrs.get("dc:source", ""))
             self.synset.members = attrs.get("members", "").split(" ")
         elif name == "Definition":

@@ -121,10 +121,11 @@ def get_head_word(wn, s):
 
 def get_sense_key(wn, e, s, wn_file):
     """Calculate the sense key for a sense of an entry"""
+    ss = wn.synset_by_id(s.synset)
     lemma = e.lemma.written_form.replace(
         " ", "_").replace(
         "&apos", "'").replace("+", "-pl-").lower()
-    ss_type = ss_types[e.lemma.part_of_speech]
+    ss_type = ss_types[ss.part_of_speech]
     if not wn_file.startswith("src/xml/wn-"):
         wn_file = f"src/xml/wn-{wn_file}.xml"
     lex_filenum = lex_filenums[wn_file]
@@ -132,7 +133,7 @@ def get_sense_key(wn, e, s, wn_file):
         lex_id = extract_lex_id(unmap_sense_key(s.id))
     else:
         lex_id = gen_lex_id(e, s)
-    if e.lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
+    if ss.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
         head_word, head_id = get_head_word(wn, s)
     else:
         head_word = ""
