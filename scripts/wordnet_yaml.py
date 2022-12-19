@@ -124,6 +124,7 @@ def fix_synset_rels(wn, synset):
             target_synset = wn.synset_by_id(rel.target)
             if not target_synset:
                 print(synset.id)
+                print(rel.target)
             if not [sr for sr in target_synset.synset_relations if sr.target ==
                     synset.id and sr.rel_type == inverse_synset_rels[rel.rel_type]]:
                 target_synset.add_synset_relation(

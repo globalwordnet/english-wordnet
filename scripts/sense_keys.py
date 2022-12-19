@@ -124,7 +124,7 @@ def get_sense_key(wn, e, s, wn_file):
     ss = wn.synset_by_id(s.synset)
     lemma = e.lemma.written_form.replace(
         " ", "_").replace(
-        "&apos", "'").lower()
+        "&apos", "'").replace("+", "-pl-").lower()
     ss_type = ss_types[ss.part_of_speech]
     if not wn_file.startswith("src/xml/wn-"):
         wn_file = f"src/xml/wn-{wn_file}.xml"
