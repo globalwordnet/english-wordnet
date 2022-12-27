@@ -16803,12 +16803,12 @@ painkiller:
 painless:
   a:
     sense:
+    - id: painless%5:00:00:easy:01
+      synset: 00754316-s
     - antonym:
       - 'painful%3:00:00::'
       id: 'painless%3:00:00::'
       synset: 01717548-a
-    - id: painless%5:00:00:easy:01
-      synset: 00754316-s
 painlessly:
   r:
     sense:
@@ -16994,12 +16994,12 @@ painted:
       - 'unpainted%3:00:00::'
       id: 'painted%3:00:00::'
       synset: 01717826-a
+    - id: painted%5:00:00:artificial:00
+      synset: 01578282-s
     - antonym:
       - 'unpainted%3:00:01::'
       id: 'painted%3:00:01::'
       synset: 01718969-a
-    - id: painted%5:00:00:artificial:00
-      synset: 01578282-s
     - id: painted%5:00:00:colored:00
       synset: 00400039-s
 painted beauty:
@@ -17235,10 +17235,10 @@ pair production:
 paired:
   a:
     sense:
-    - id: 'paired%3:00:02::'
-      synset: 01667666-a
     - id: paired%5:00:00:matched:00
       synset: 01490267-s
+    - id: 'paired%3:00:02::'
+      synset: 01667666-a
     - id: paired%5:00:00:mated:00
       synset: 01486383-s
 pairing:
@@ -20626,14 +20626,14 @@ papery:
     sense:
     - derivation:
       - 'paper%1:27:00::'
+      id: papery%5:00:00:thin:01
+      synset: 02423395-s
+    - derivation:
+      - 'paper%1:27:00::'
       id: 'papery%3:01:00::'
       pertainym:
       - 'paper%1:27:00::'
       synset: 02702268-a
-    - derivation:
-      - 'paper%1:27:00::'
-      id: papery%5:00:00:thin:01
-      synset: 02423395-s
 papier-mache:
   n:
     sense:
@@ -26261,13 +26261,13 @@ passing:
     - value: ˈpɑːsɪŋ
       variety: GB
     sense:
+    - id: passing%5:00:00:impermanent:00
+      synset: 01760804-s
     - adjposition: a
       antonym:
       - 'running%3:00:00::'
       id: 'passing%3:00:00::'
       synset: 01244800-a
-    - id: passing%5:00:00:impermanent:00
-      synset: 01760804-s
     - adjposition: a
       id: passing%5:00:00:satisfactory:00
       synset: 02089079-s
@@ -26444,16 +26444,16 @@ passive:
       - 'passiveness%1:07:00::'
       id: 'passive%3:00:01::'
       synset: 00039705-a
+    - derivation:
+      - 'passiveness%1:07:01::'
+      id: passive%5:00:00:nonviolent:00
+      synset: 02523159-s
     - antonym:
       - 'active%3:00:09::'
       derivation:
       - 'passive%1:24:00::'
       id: 'passive%3:00:02::'
       synset: 00042449-a
-    - derivation:
-      - 'passiveness%1:07:01::'
-      id: passive%5:00:00:nonviolent:00
-      synset: 02523159-s
   n:
     pronunciation:
     - value: ˈpæs.ɪv
@@ -27778,15 +27778,15 @@ pathologic:
   a:
     sense:
     - derivation:
+      - 'pathology%1:26:00::'
+      id: pathologic%5:00:00:unhealthy:00
+      synset: 01179790-s
+    - derivation:
       - 'pathology%1:09:00::'
       id: 'pathologic%3:01:00::'
       pertainym:
       - 'pathology%1:09:00::'
       synset: 02872295-a
-    - derivation:
-      - 'pathology%1:26:00::'
-      id: pathologic%5:00:00:unhealthy:00
-      synset: 01179790-s
 pathologic process:
   n:
     sense:
@@ -29841,12 +29841,12 @@ peaceable:
     - value: ˈpiːsəb(ə)l
       variety: GB
     sense:
-    - id: 'peaceable%3:00:00::'
-      synset: 01745141-a
     - derivation:
       - 'peaceableness%1:26:00::'
       id: peaceable%5:00:02:peaceful:00
       synset: 01746368-s
+    - id: 'peaceable%3:00:00::'
+      synset: 01745141-a
     - derivation:
       - 'peaceableness%1:26:00::'
       id: peaceable%5:00:01:peaceful:00
@@ -37939,13 +37939,6 @@ persistent:
     - value: pəˈsɪstənt
       variety: GB
     sense:
-    - antonym:
-      - 'caducous%3:00:00::'
-      derivation:
-      - 'persist%2:42:01::'
-      - 'persist%2:42:00::'
-      id: 'persistent%3:00:00::'
-      synset: 01762851-a
     - derivation:
       - 'persistency%1:07:00::'
       - 'persistence%1:07:02::'
@@ -37954,6 +37947,13 @@ persistent:
       synset: 00595708-s
     - id: persistent%5:00:00:unforgettable:00
       synset: 01044226-s
+    - antonym:
+      - 'caducous%3:00:00::'
+      derivation:
+      - 'persist%2:42:01::'
+      - 'persist%2:42:00::'
+      id: 'persistent%3:00:00::'
+      synset: 01762851-a
     - derivation:
       - 'persistence%1:07:00::'
       id: persistent%5:00:00:stubborn:00
@@ -41522,14 +41522,14 @@ philanderer:
 philanthropic:
   a:
     sense:
+    - id: philanthropic%5:00:00:charitable:00
+      synset: 00360725-s
     - derivation:
       - 'philanthropy%1:04:00::'
       id: 'philanthropic%3:01:00::'
       pertainym:
       - 'philanthropy%1:04:00::'
       synset: 03018207-a
-    - id: philanthropic%5:00:00:charitable:00
-      synset: 00360725-s
 philanthropic foundation:
   n:
     sense:
@@ -52000,6 +52000,10 @@ plaid:
 plain:
   a:
     sense:
+    - derivation:
+      - 'plainness%1:07:03::'
+      id: plain%5:00:00:obvious:00
+      synset: 01622528-s
     - antonym:
       - 'fancy%3:00:00::'
       id: 'plain%3:00:01::'
@@ -52008,10 +52012,6 @@ plain:
       - 'patterned%3:00:00::'
       id: 'plain%3:00:02::'
       synset: 01790415-a
-    - derivation:
-      - 'plainness%1:07:03::'
-      id: plain%5:00:00:obvious:00
-      synset: 01622528-s
     - derivation:
       - 'plainness%1:26:00::'
       id: plain%5:00:00:pure:02
@@ -53104,12 +53104,12 @@ plantation owner:
 planted:
   a:
     sense:
+    - id: planted%5:00:00:established:00
+      synset: 01639694-s
     - antonym:
       - 'unplanted%3:00:00::'
       id: 'planted%3:00:00::'
       synset: 01837191-a
-    - id: planted%5:00:00:established:00
-      synset: 01639694-s
 planter:
   n:
     sense:
@@ -58811,15 +58811,15 @@ poetic:
       - 'poetry%1:10:02::'
       synset: 02868188-a
     - derivation:
+      - 'poetry%1:10:03::'
+      id: poetic%5:00:00:figurative:00
+      synset: 01423210-s
+    - derivation:
       - 'poet%1:18:00::'
       id: 'poetic%3:01:01::'
       pertainym:
       - 'poet%1:18:00::'
       synset: 02868384-a
-    - derivation:
-      - 'poetry%1:10:03::'
-      id: poetic%5:00:00:figurative:00
-      synset: 01423210-s
     - derivation:
       - 'poetry%1:10:03::'
       id: poetic%5:00:00:rhetorical:00
@@ -60151,6 +60151,16 @@ polar:
       variety: US
     sense:
     - derivation:
+      - 'pole%1:06:03::'
+      - 'polarity%1:24:00::'
+      id: polar%5:00:00:charged:00
+      synset: 00359900-s
+    - derivation:
+      - 'pole%1:09:00::'
+      - 'polarity%1:24:01::'
+      id: polar%5:00:00:different:00
+      synset: 02073716-s
+    - derivation:
       - 'pole%1:15:00::'
       id: 'polar%3:01:00::'
       pertainym:
@@ -60162,16 +60172,6 @@ polar:
       - 'pole%1:15:00::'
       id: 'polar%3:00:00::'
       synset: 02453215-a
-    - derivation:
-      - 'pole%1:06:03::'
-      - 'polarity%1:24:00::'
-      id: polar%5:00:00:charged:00
-      synset: 00359900-s
-    - derivation:
-      - 'pole%1:09:00::'
-      - 'polarity%1:24:01::'
-      id: polar%5:00:00:different:00
-      synset: 02073716-s
     - id: polar%5:00:00:cold:01
       synset: 01255223-s
     - id: polar%5:00:00:crucial:00
@@ -61046,12 +61046,12 @@ polite:
       - 'politeness%1:04:00::'
       id: 'polite%3:00:00::'
       synset: 00644180-a
+    - id: polite%5:00:00:refined:01
+      synset: 01954376-s
     - derivation:
       - 'politeness%1:07:00::'
       id: 'polite%3:00:04::'
       synset: 00645401-a
-    - id: polite%5:00:00:refined:01
-      synset: 01954376-s
 politely:
   r:
     pronunciation:
@@ -63301,17 +63301,17 @@ pompous:
       variety: US
     sense:
     - derivation:
-      - 'pomp%1:07:01::'
-      id: 'pompous%3:01:00::'
-      pertainym:
-      - 'pomp%1:07:01::'
-      synset: 02793173-a
-    - derivation:
       - 'pomp%1:10:00::'
       - 'pomposity%1:07:00::'
       - 'pompousness%1:07:00::'
       id: pompous%5:00:00:pretentious:00
       synset: 01855888-s
+    - derivation:
+      - 'pomp%1:07:01::'
+      id: 'pompous%3:01:00::'
+      pertainym:
+      - 'pomp%1:07:01::'
+      synset: 02793173-a
 pompously:
   r:
     sense:
@@ -63904,6 +63904,8 @@ poor:
       variety: CA
     - value: pʊə(ɹ)
     sense:
+    - id: poor%5:00:00:unfortunate:00
+      synset: 01054589-s
     - antonym:
       - 'rich%3:00:00::'
       derivation:
@@ -63923,8 +63925,6 @@ poor:
       - 'poorness%1:07:02::'
       id: 'poor%3:00:02::'
       synset: 02031662-a
-    - id: poor%5:00:00:unfortunate:00
-      synset: 01054589-s
     - derivation:
       - 'poorness%1:07:03::'
       id: poor%5:00:00:insufficient:00
@@ -65064,6 +65064,11 @@ porous:
     pronunciation:
     - value: ˈpɔːɹəs
     sense:
+    - derivation:
+      - 'porosity%1:07:00::'
+      - 'porousness%1:07:00::'
+      id: porous%5:00:00:permeable:00
+      synset: 01776850-s
     - antonym:
       - 'nonporous%3:00:00::'
       derivation:
@@ -65071,11 +65076,6 @@ porous:
       - 'porosity%1:07:00::'
       id: 'porous%3:00:00::'
       synset: 00330294-a
-    - derivation:
-      - 'porosity%1:07:00::'
-      - 'porousness%1:07:00::'
-      id: porous%5:00:00:permeable:00
-      synset: 01776850-s
     - derivation:
       - 'pore%1:25:00::'
       id: porous%5:00:00:leaky:00
@@ -66102,10 +66102,21 @@ positive:
       - 'positiveness%1:07:00::'
       id: 'positive%3:00:01::'
       synset: 01823004-a
+    - adjposition: p
+      id: positive%5:00:00:certain:02
+      synset: 00338070-s
+    - id: positive%5:00:00:advantageous:00
+      synset: 00065384-s
     - antonym:
       - 'negative%3:00:04::'
       id: 'positive%3:00:04::'
       synset: 01825985-a
+    - id: positive%5:00:00:formal:01
+      synset: 01047187-s
+    - derivation:
+      - 'positivity%1:07:02::'
+      id: positive%5:00:00:undeniable:00
+      synset: 00725282-s
     - derivation:
       - 'positiveness%1:07:00::'
       id: 'positive%3:01:00::'
@@ -66116,17 +66127,6 @@ positive:
       - 'negative%3:00:05::'
       id: 'positive%3:00:05::'
       synset: 01825607-a
-    - adjposition: p
-      id: positive%5:00:00:certain:02
-      synset: 00338070-s
-    - id: positive%5:00:00:advantageous:00
-      synset: 00065384-s
-    - id: positive%5:00:00:formal:01
-      synset: 01047187-s
-    - derivation:
-      - 'positivity%1:07:02::'
-      id: positive%5:00:00:undeniable:00
-      synset: 00725282-s
     - derivation:
       - 'positivity%1:07:03::'
       id: positive%5:00:00:plus:00
@@ -66430,13 +66430,13 @@ possessed:
     pronunciation:
     - value: pəˈzɛst
     sense:
+    - adjposition: p
+      id: possessed%5:00:00:controlled:00
+      synset: 00602112-s
     - derivation:
       - 'possess%2:42:02::'
       id: 'possessed%3:01:00::'
       synset: 02873340-a
-    - adjposition: p
-      id: possessed%5:00:00:controlled:00
-      synset: 00602112-s
 possession:
   n:
     pronunciation:
@@ -68434,6 +68434,12 @@ potent:
     - value: ˈpoʊt(ə)nt
       variety: US
     sense:
+    - id: potent%5:00:00:influential:00
+      synset: 01836317-s
+    - derivation:
+      - 'potency%1:07:01::'
+      id: potent%5:00:00:powerful:00
+      synset: 01832697-s
     - antonym:
       - 'impotent%3:00:00::'
       derivation:
@@ -68446,12 +68452,6 @@ potent:
       - 'potency%1:26:01::'
       id: 'potent%3:00:02::'
       synset: 01831137-a
-    - id: potent%5:00:00:influential:00
-      synset: 01836317-s
-    - derivation:
-      - 'potency%1:07:01::'
-      id: potent%5:00:00:powerful:00
-      synset: 01832697-s
 potentate:
   n:
     pronunciation:
@@ -70459,15 +70459,15 @@ pragmatic:
     - value: pɹæɡˈmætɪk
     sense:
     - derivation:
+      - 'pragmatism%1:07:00::'
+      id: pragmatic%5:00:00:practical:00
+      synset: 01841127-s
+    - derivation:
       - 'pragmatism%1:09:00::'
       id: 'pragmatic%3:01:00::'
       pertainym:
       - 'pragmatism%1:09:00::'
       synset: 02793891-a
-    - derivation:
-      - 'pragmatism%1:07:00::'
-      id: pragmatic%5:00:00:practical:00
-      synset: 01841127-s
     - derivation:
       - 'pragmatism%1:07:00::'
       id: pragmatic%5:00:00:realistic:00
@@ -73650,14 +73650,14 @@ prehistoric:
     sense:
     - derivation:
       - 'prehistory%1:28:00::'
+      id: prehistoric%5:00:00:past:00
+      synset: 01735158-s
+    - derivation:
+      - 'prehistory%1:28:00::'
       id: 'prehistoric%3:01:00::'
       pertainym:
       - 'prehistory%1:28:00::'
       synset: 02957696-a
-    - derivation:
-      - 'prehistory%1:28:00::'
-      id: prehistoric%5:00:00:past:00
-      synset: 01735158-s
     - id: prehistoric%5:00:00:unfashionable:00
       synset: 00978202-s
 prehistoric culture:
@@ -73750,23 +73750,23 @@ prejudice:
 prejudiced:
   a:
     sense:
+    - id: prejudiced%5:00:00:subjective:00
+      synset: 01620396-s
     - antonym:
       - 'unprejudiced%3:00:00::'
       id: 'prejudiced%3:00:00::'
       synset: 00286014-a
-    - id: prejudiced%5:00:00:subjective:00
-      synset: 01620396-s
 prejudicial:
   a:
     sense:
+    - id: prejudicial%5:00:00:harmful:00
+      synset: 01165528-s
     - derivation:
       - 'prejudice%1:09:01::'
       id: 'prejudicial%3:01:00::'
       pertainym:
       - 'prejudice%1:09:01::'
       synset: 02772853-a
-    - id: prejudicial%5:00:00:harmful:00
-      synset: 01165528-s
 prejudicious:
   a:
     sense:
@@ -77157,6 +77157,10 @@ preventive:
     pronunciation:
     - value: pɹɪˈvɛntɪv
     sense:
+    - derivation:
+      - 'preventive%1:06:01::'
+      id: preventive%5:00:00:healthful:00
+      synset: 01170813-s
     - antonym:
       - 'permissive%3:00:02::'
       derivation:
@@ -77166,10 +77170,6 @@ preventive:
       - 'prevent%2:41:00::'
       id: 'preventive%3:00:00::'
       synset: 01768325-a
-    - derivation:
-      - 'preventive%1:06:01::'
-      id: preventive%5:00:00:healthful:00
-      synset: 01170813-s
   n:
     pronunciation:
     - value: pɹɪˈvɛntɪv
@@ -78357,10 +78357,6 @@ prime:
     pronunciation:
     - value: pɹaɪ̯m
     sense:
-    - id: 'prime%3:01:00::'
-      pertainym:
-      - 'prime_number%1:23:00::'
-      synset: 03023717-a
     - adjposition: a
       id: prime%5:00:02:first:00
       synset: 01016587-s
@@ -78370,6 +78366,10 @@ prime:
     - adjposition: a
       id: prime%5:00:00:superior:02
       synset: 02351005-s
+    - id: 'prime%3:01:00::'
+      pertainym:
+      - 'prime_number%1:23:00::'
+      synset: 03023717-a
     - id: prime%5:00:00:mature:01
       synset: 01492920-s
   n:
@@ -80751,14 +80751,14 @@ process-server:
 processed:
   a:
     sense:
+    - id: processed%5:00:00:prepared:00
+      synset: 01850509-s
     - id: 'processed%3:00:02::'
       synset: 01960119-a
     - antonym:
       - 'unprocessed%3:00:00::'
       id: 'processed%3:00:00::'
       synset: 01958506-a
-    - id: processed%5:00:00:prepared:00
-      synset: 01850509-s
 processed cheese:
   n:
     sense:
@@ -81694,17 +81694,17 @@ profane:
     - value: pɹəˈfeɪn
       variety: GB
     sense:
+    - derivation:
+      - 'profaneness%1:07:00::'
+      - 'profanity%1:10:00::'
+      id: profane%5:00:00:dirty:02
+      synset: 00426521-s
     - antonym:
       - 'sacred%3:00:00::'
       derivation:
       - 'profaneness%1:09:00::'
       id: 'profane%3:00:00::'
       synset: 02064284-a
-    - derivation:
-      - 'profaneness%1:07:00::'
-      - 'profanity%1:10:00::'
-      id: profane%5:00:00:dirty:02
-      synset: 00426521-s
     - id: profane%5:00:00:unholy:00
       synset: 02062330-s
     - derivation:
@@ -82112,15 +82112,15 @@ proficient:
     - value: pɹoʊˈfɪʃ.ənt
       variety: US
     sense:
-    - id: 'proficient%3:01:00::'
-      pertainym:
-      - 'proficiency%1:09:00::'
-      synset: 02820043-a
     - derivation:
       - 'proficiency%1:09:00::'
       - 'proficiency%1:07:00::'
       id: proficient%5:00:00:skilled:00
       synset: 02234002-s
+    - id: 'proficient%3:01:00::'
+      pertainym:
+      - 'proficiency%1:09:00::'
+      synset: 02820043-a
 proficiently:
   r:
     sense:
@@ -82997,16 +82997,16 @@ progressive:
       - 'progressiveness%1:07:00::'
       id: 'progressive%3:00:01::'
       synset: 01882105-a
-    - antonym:
-      - 'regressive%3:00:02::'
-      id: 'progressive%3:00:02::'
-      synset: 01883716-a
     - derivation:
       - 'progressive%1:18:00::'
       - 'progressiveness%1:07:00::'
       - 'progressivity%1:07:00::'
       id: progressive%5:00:00:liberal:00
       synset: 00578540-s
+    - antonym:
+      - 'regressive%3:00:02::'
+      id: 'progressive%3:00:02::'
+      synset: 01883716-a
     - id: progressive%5:00:00:increasing:00
       synset: 02546990-s
     - id: progressive%5:00:00:ordered:00
@@ -88110,12 +88110,12 @@ providential:
     - value: pɹɒvɪˈdɛnʃl̩
       variety: GB
     sense:
+    - id: providential%5:00:00:fortunate:00
+      synset: 01052675-s
     - id: 'providential%3:01:00::'
       pertainym:
       - 'providence%1:26:00::'
       synset: 03018021-a
-    - id: providential%5:00:00:fortunate:00
-      synset: 01052675-s
     - derivation:
       - 'providence%1:26:00::'
       - 'providence%1:04:00::'
@@ -89643,14 +89643,14 @@ psychological:
     - value: ˌsaɪkəˈlɑːdʒɪkl
       variety: US
     sense:
+    - id: psychological%5:00:00:mental:00
+      synset: 01785621-s
     - derivation:
       - 'psychology%1:09:00::'
       id: 'psychological%3:01:00::'
       pertainym:
       - 'psychology%1:09:00::'
       synset: 02917107-a
-    - id: psychological%5:00:00:mental:00
-      synset: 01785621-s
 psychological condition:
   n:
     sense:
@@ -94141,10 +94141,17 @@ pure:
       - 'purity%1:26:00::'
       id: 'pure%3:00:02::'
       synset: 01911832-a
+    - adjposition: a
+      id: pure%5:00:00:unmitigated:00
+      synset: 01524174-s
     - derivation:
       - 'pureness%1:26:00::'
       id: 'pure%3:00:04::'
       synset: 00394569-a
+    - id: pure%5:00:00:harmonious:00
+      synset: 01167404-s
+    - id: pure%5:00:00:theoretical:01
+      synset: 00866098-s
     - antonym:
       - 'impure%3:00:01::'
       derivation:
@@ -94152,13 +94159,6 @@ pure:
       - 'purity%1:26:02::'
       id: 'pure%3:00:01::'
       synset: 01911024-a
-    - adjposition: a
-      id: pure%5:00:00:unmitigated:00
-      synset: 01524174-s
-    - id: pure%5:00:00:harmonious:00
-      synset: 01167404-s
-    - id: pure%5:00:00:theoretical:01
-      synset: 00866098-s
     - derivation:
       - 'pureness%1:26:01::'
       - 'pureness%1:07:00::'

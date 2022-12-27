@@ -9097,12 +9097,12 @@ wasted:
     pronunciation:
     - value: ˈweɪstɪd
     sense:
-    - id: 'wasted%3:00:04::'
-      synset: 00557099-a
     - id: wasted%5:00:00:worthless:00
       synset: 02513350-s
     - id: wasted%5:00:00:lost:01
       synset: 01453072-s
+    - id: 'wasted%3:00:04::'
+      synset: 00557099-a
     - id: wasted%5:00:00:thin:03
       synset: 00992194-s
 wasteful:
@@ -9110,16 +9110,16 @@ wasteful:
     pronunciation:
     - value: ˈweɪstfəl
     sense:
+    - derivation:
+      - 'wastefulness%1:04:03::'
+      id: wasteful%5:00:00:inefficient:00
+      synset: 00844698-s
     - antonym:
       - 'thrifty%3:00:00::'
       derivation:
       - 'wastefulness%1:07:00::'
       id: 'wasteful%3:00:00::'
       synset: 02430842-a
-    - derivation:
-      - 'wastefulness%1:04:03::'
-      id: wasteful%5:00:00:inefficient:00
-      synset: 00844698-s
     - derivation:
       - 'wastefulness%1:04:03::'
       id: wasteful%5:00:00:destructive:00
@@ -13400,12 +13400,12 @@ wedge sum:
 wedge-shaped:
   a:
     sense:
+    - id: wedge-shaped%5:00:00:simple:01
+      synset: 02175297-s
     - id: 'wedge-shaped%3:01:00::'
       pertainym:
       - 'wedge%1:25:00::'
       synset: 03156623-a
-    - id: wedge-shaped%5:00:00:simple:01
-      synset: 02175297-s
 wedged:
   a:
     sense:
@@ -14658,12 +14658,12 @@ well-connected:
 well-defined:
   a:
     sense:
+    - id: well-defined%5:00:00:distinct:00
+      synset: 00783378-s
     - antonym:
       - 'ill-defined%3:00:00::'
       id: 'well-defined%3:00:00::'
       synset: 00701368-a
-    - id: well-defined%5:00:00:distinct:00
-      synset: 00783378-s
 well-disposed:
   a:
     sense:
@@ -20496,12 +20496,6 @@ wide:
       - 'wideness%1:07:00::'
       id: 'wide%3:00:00::'
       synset: 02571278-a
-    - antonym:
-      - 'narrow%3:00:02::'
-      derivation:
-      - 'wideness%1:07:01::'
-      id: 'wide%3:00:02::'
-      synset: 02573798-a
     - derivation:
       - 'wideness%1:07:01::'
       id: wide%5:00:00:comprehensive:00
@@ -20512,6 +20506,12 @@ wide:
       - 'wideness%1:07:01::'
       id: wide%5:00:00:large:00
       synset: 01387146-s
+    - antonym:
+      - 'narrow%3:00:02::'
+      derivation:
+      - 'wideness%1:07:01::'
+      id: 'wide%3:00:02::'
+      synset: 02573798-a
     - derivation:
       - 'wideness%1:07:01::'
       id: wide%5:00:00:ample:00
@@ -24642,15 +24642,15 @@ wiry:
     - value: ˈwaɪ(ə)ɹi
     sense:
     - derivation:
+      - 'wiriness%1:07:00::'
+      id: wiry%5:00:00:thin:03
+      synset: 00994814-s
+    - derivation:
       - 'wire%1:06:00::'
       id: 'wiry%3:01:00::'
       pertainym:
       - 'wire%1:06:00::'
       synset: 03156722-a
-    - derivation:
-      - 'wiriness%1:07:00::'
-      id: wiry%5:00:00:thin:03
-      synset: 00994814-s
     - id: wiry%5:00:00:hairy:00
       synset: 00218152-s
 wiry-coated:
@@ -30229,14 +30229,14 @@ wrapped:
     pronunciation:
     - value: ɹæpt
     sense:
-    - antonym:
-      - 'unwrapped%3:00:00::'
-      id: 'wrapped%3:00:00::'
-      synset: 02094739-a
     - id: wrapped%5:00:00:covered:00
       synset: 01699958-s
     - id: wrapped%5:00:00:attentive:00
       synset: 00165213-s
+    - antonym:
+      - 'unwrapped%3:00:00::'
+      id: 'wrapped%3:00:00::'
+      synset: 02094739-a
 wrapped up:
   a:
     sense:
@@ -31487,12 +31487,6 @@ wrong:
       - 'wrongness%1:07:00::'
       id: 'wrong%3:00:01::'
       synset: 02042744-a
-    - antonym:
-      - 'right%3:00:04::'
-      derivation:
-      - 'wrongness%1:07:01::'
-      id: 'wrong%3:00:04::'
-      synset: 00636618-a
     - derivation:
       - 'wrongness%1:07:02::'
       id: wrong%5:00:00:inappropriate:00
@@ -31500,6 +31494,12 @@ wrong:
     - adjposition: p
       id: wrong%5:00:00:malfunctioning:00
       synset: 01096064-s
+    - antonym:
+      - 'right%3:00:04::'
+      derivation:
+      - 'wrongness%1:07:01::'
+      id: 'wrong%3:00:04::'
+      synset: 00636618-a
     - id: wrong%5:00:02:improper:00
       synset: 01887577-s
     - id: wrong%5:00:00:inside:00

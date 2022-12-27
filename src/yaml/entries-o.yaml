@@ -8827,12 +8827,12 @@ of unsound mind:
       - 'on%3:00:00::'
       id: 'off%3:00:00::'
       synset: 01655911-a
+    - id: off%5:00:00:unsatisfactory:00
+      synset: 02090070-s
     - antonym:
       - 'on%3:00:02::'
       id: 'off%3:00:02::'
       synset: 01656338-a
-    - id: off%5:00:00:unsatisfactory:00
-      synset: 02090070-s
     - id: off%5:00:00:soured:00
       synset: 02378437-s
     - id: off%5:00:00:inactive:08
@@ -9261,6 +9261,11 @@ offensive:
     pronunciation:
     - value: əˈfɛnsɪv
     sense:
+    - derivation:
+      - 'offensiveness%1:07:00::'
+      - 'offend%2:41:00::'
+      id: offensive%5:00:00:offending:00
+      synset: 01635447-s
     - antonym:
       - 'defensive%3:00:00::'
       id: 'offensive%3:00:03::'
@@ -9286,11 +9291,6 @@ offensive:
       - 'offend%2:37:02::'
       id: 'offensive%3:00:01::'
       synset: 01628814-a
-    - derivation:
-      - 'offensiveness%1:07:00::'
-      - 'offend%2:41:00::'
-      id: offensive%5:00:00:offending:00
-      synset: 01635447-s
     - derivation:
       - 'offensiveness%1:07:00::'
       - 'offend%2:37:02::'
@@ -14315,28 +14315,16 @@ open:
       - 'closed%3:00:01::'
       id: 'open%3:00:02::'
       synset: 01657344-a
-    - antonym:
-      - 'closed%3:00:03::'
-      id: 'open%3:00:08::'
-      synset: 01658803-a
-    - antonym:
-      - 'closed%3:00:02::'
-      id: 'open%3:00:04::'
-      synset: 01664425-a
-    - derivation:
-      - 'openness%1:07:02::'
-      id: 'open%3:00:00::'
-      synset: 01992330-a
-    - derivation:
-      - 'openness%1:07:01::'
-      id: 'open%3:00:07::'
-      synset: 01709214-a
     - id: open%5:00:00:unprotected:00
       synset: 01892719-s
     - derivation:
       - 'open%1:09:00::'
       id: open%5:00:00:public:00
       synset: 01867850-s
+    - antonym:
+      - 'closed%3:00:03::'
+      id: 'open%3:00:08::'
+      synset: 01658803-a
     - id: open%5:00:00:available:00
       synset: 00186809-s
     - derivation:
@@ -14351,6 +14339,10 @@ open:
       - 'open%1:15:02::'
       id: open%5:00:00:unenclosed:00
       synset: 01663543-s
+    - antonym:
+      - 'closed%3:00:02::'
+      id: 'open%3:00:04::'
+      synset: 01664425-a
     - id: open%5:00:00:unsettled:02
       synset: 02138201-s
     - id: open%5:00:00:unsealed:01
@@ -14359,6 +14351,14 @@ open:
       - 'openness%1:07:02::'
       id: open%5:00:00:unconstricted:00
       synset: 01452245-s
+    - derivation:
+      - 'openness%1:07:02::'
+      id: 'open%3:00:00::'
+      synset: 01992330-a
+    - derivation:
+      - 'openness%1:07:01::'
+      id: 'open%3:00:07::'
+      synset: 01709214-a
     - adjposition: a
       id: open%5:00:00:nonunion:00
       synset: 02484351-s
@@ -15353,12 +15353,12 @@ operational:
       pertainym:
       - 'operation%1:04:05::'
       synset: 03025801-a
+    - id: operational%5:00:00:serviceable:00
+      synset: 02131634-s
     - antonym:
       - 'nonoperational%3:00:00::'
       id: 'operational%3:00:00::'
       synset: 01664693-a
-    - id: operational%5:00:00:serviceable:00
-      synset: 02131634-s
     - id: operational%5:00:00:operative:00
       synset: 00836557-s
 operational analysis:
@@ -16023,12 +16023,12 @@ opposite:
     - value: ˈɑp(ə)sɪt
       variety: US
     sense:
+    - id: opposite%5:00:01:other:00
+      synset: 02078291-s
     - antonym:
       - 'alternate%3:00:00::'
       id: 'opposite%3:00:00::'
       synset: 01667666-a
-    - id: opposite%5:00:01:other:00
-      synset: 02078291-s
     - id: opposite%5:00:02:other:00
       synset: 02078543-s
     - id: opposite%5:00:00:other:00
@@ -16920,6 +16920,10 @@ oral:
     - value: ˈɔɹəl
       variety: US
     sense:
+    - derivation:
+      - 'oral%1:10:00::'
+      id: oral%5:00:00:spoken:00
+      synset: 02291903-s
     - id: 'oral%3:01:00::'
       pertainym:
       - 'mouth%1:08:01::'
@@ -16932,10 +16936,6 @@ oral:
       - 'anal%3:00:00::'
       id: 'oral%3:00:02::'
       synset: 00111063-a
-    - derivation:
-      - 'oral%1:10:00::'
-      id: oral%5:00:00:spoken:00
-      synset: 02291903-s
   n:
     pronunciation:
     - value: ˈɔːɹəl
@@ -21040,6 +21040,10 @@ original:
     pronunciation:
     - value: əˈɹɪdʒɪnəl
     sense:
+    - id: original%5:00:01:first:00
+      synset: 01016100-s
+    - id: original%5:00:00:primary:00
+      synset: 01858967-s
     - antonym:
       - 'unoriginal%3:00:00::'
       derivation:
@@ -21047,10 +21051,6 @@ original:
       - 'originality%1:07:00::'
       id: 'original%3:00:00::'
       synset: 01691099-a
-    - id: original%5:00:01:first:00
-      synset: 01016100-s
-    - id: original%5:00:00:primary:00
-      synset: 01858967-s
     - derivation:
       - 'original%1:09:00::'
       - 'original%1:06:00::'
@@ -25132,12 +25132,12 @@ outside:
       - 'inside%3:00:00::'
       id: 'outside%3:00:00::'
       synset: 01697422-a
-    - id: 'outside%3:00:04::'
-      synset: 01696675-a
     - id: outside%5:00:00:extrinsic:00
       synset: 01353073-s
     - id: outside%5:00:00:external:00
       synset: 00951721-s
+    - id: 'outside%3:00:04::'
+      synset: 01696675-a
     - id: outside%5:00:00:extramural:00
       synset: 01350597-s
     - adjposition: a

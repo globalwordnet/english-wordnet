@@ -351,11 +351,11 @@ def save(wn, change_list=None):
             e['form'] = [f.written_form for f in entry.forms]
 
         sb_map = defaultdict(lambda: [])
-        for sb in entry.syntactic_behaviours:
-            sb_name = frames_inv[sb.subcategorization_frame]
-            for sense in sb.senses:
-                sb_map[sense].append(sb_name)
-
+#        for sb in entry.syntactic_behaviours:
+#            sb_name = frames_inv[sb.subcategorization_frame]
+#            for sense in sb.senses:
+#                sb_map[sense].append(sb_name)
+#
         e['sense'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
         if entry.pronunciation:
             e['pronunciation'] = []

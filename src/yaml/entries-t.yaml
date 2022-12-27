@@ -13675,6 +13675,10 @@ tambourine:
 tame:
   a:
     sense:
+    - derivation:
+      - 'tameness%1:07:02::'
+      id: tame%5:00:00:unexciting:00
+      synset: 00926473-s
     - antonym:
       - 'wild%3:00:02::'
       id: 'tame%3:00:02::'
@@ -13685,10 +13689,6 @@ tame:
       - 'tameness%1:07:01::'
       id: 'tame%3:00:01::'
       synset: 02396713-a
-    - derivation:
-      - 'tameness%1:07:02::'
-      id: tame%5:00:00:unexciting:00
-      synset: 00926473-s
     - derivation:
       - 'tameness%1:07:01::'
       id: tame%5:00:00:docile:00
@@ -14045,6 +14045,8 @@ tangential:
     - value: tænˈdʒɛnt.ʃəl
       variety: US
     sense:
+    - id: tangential%5:00:00:irrelevant:00
+      synset: 01983424-s
     - derivation:
       - 'tangent%1:25:00::'
       - 'tangent%1:24:00::'
@@ -14052,8 +14054,6 @@ tangential:
       pertainym:
       - 'tangent%1:25:00::'
       synset: 02819653-a
-    - id: tangential%5:00:00:irrelevant:00
-      synset: 01983424-s
 tangentially:
   r:
     pronunciation:
@@ -14110,6 +14110,10 @@ tangible:
       - 'tangibility%1:07:00::'
       id: 'tangible%3:00:00::'
       synset: 02400023-a
+    - derivation:
+      - 'tangibleness%1:07:00::'
+      id: tangible%5:00:00:concrete:00
+      synset: 00013681-s
     - antonym:
       - 'intangible%3:00:02::'
       id: 'tangible%3:00:02::'
@@ -14119,10 +14123,6 @@ tangible:
       - 'tangibility%1:07:00::'
       id: 'tangible%3:00:04::'
       synset: 01721570-a
-    - derivation:
-      - 'tangibleness%1:07:00::'
-      id: tangible%5:00:00:concrete:00
-      synset: 00013681-s
 tangible goods:
   n:
     sense:
@@ -14453,12 +14453,12 @@ tankful:
 tanned:
   a:
     sense:
+    - id: tanned%5:00:00:brunet:00
+      synset: 00245814-s
     - antonym:
       - 'untanned%3:00:00::'
       id: 'tanned%3:00:00::'
       synset: 01663781-a
-    - id: tanned%5:00:00:brunet:00
-      synset: 00245814-s
 tanner:
   n:
     sense:
@@ -18624,15 +18624,15 @@ technological:
     sense:
     - derivation:
       - 'technology%1:09:00::'
+      id: technological%5:00:00:scientific:00
+      synset: 02092125-s
+    - derivation:
+      - 'technology%1:09:00::'
       - 'technology%1:04:00::'
       id: 'technological%3:01:00::'
       pertainym:
       - 'technology%1:09:00::'
       synset: 02820431-a
-    - derivation:
-      - 'technology%1:09:00::'
-      id: technological%5:00:00:scientific:00
-      synset: 02092125-s
 technological revolution:
   n:
     sense:
@@ -20895,6 +20895,8 @@ tempo:
 temporal:
   a:
     sense:
+    - id: temporal%5:00:00:impermanent:00
+      synset: 01762426-s
     - id: 'temporal%3:01:01::'
       pertainym:
       - 'time%1:03:00::'
@@ -20905,8 +20907,6 @@ temporal:
       synset: 02821678-a
     - id: 'temporal%3:00:00::'
       synset: 02587499-a
-    - id: temporal%5:00:00:impermanent:00
-      synset: 01762426-s
     - id: temporal%5:00:00:earthly:00
       synset: 01185448-s
   n:
@@ -21589,6 +21589,17 @@ tender:
       - 'tenderness%1:12:00::'
       id: 'tender%3:00:03::'
       synset: 02457962-a
+    - derivation:
+      - 'tenderness%1:26:00::'
+      id: tender%5:00:00:painful:00
+      synset: 01717206-s
+    - id: tender%5:00:00:young:00
+      synset: 01654003-s
+    - derivation:
+      - 'tenderness%1:12:01::'
+      - 'tenderness%1:07:00::'
+      id: tender%5:00:00:loving:00
+      synset: 01467633-s
     - antonym:
       - 'tough%3:00:01::'
       derivation:
@@ -21601,17 +21612,6 @@ tender:
       - 'tenderness%1:26:00::'
       id: 'tender%3:00:02::'
       synset: 02457239-a
-    - derivation:
-      - 'tenderness%1:26:00::'
-      id: tender%5:00:00:painful:00
-      synset: 01717206-s
-    - id: tender%5:00:00:young:00
-      synset: 01654003-s
-    - derivation:
-      - 'tenderness%1:12:01::'
-      - 'tenderness%1:07:00::'
-      id: tender%5:00:00:loving:00
-      synset: 01467633-s
     - id: tender%5:00:00:unstable:00
       synset: 02300153-s
     - id: tender%5:00:00:delicate:00
@@ -26720,14 +26720,14 @@ therapeutic:
     pronunciation:
     - value: θɛɹəˈpjuːtɪk
     sense:
+    - id: therapeutic%5:00:00:healthful:00
+      synset: 01169487-s
     - derivation:
       - 'therapy%1:04:00::'
       id: 'therapeutic%3:01:00::'
       pertainym:
       - 'therapy%1:04:00::'
       synset: 02925526-a
-    - id: therapeutic%5:00:00:healthful:00
-      synset: 01169487-s
   n:
     pronunciation:
     - value: θɛɹəˈpjuːtɪk
@@ -27650,14 +27650,14 @@ thick:
       - 'thickness%1:07:03::'
       id: 'thick%3:00:01::'
       synset: 02419189-a
+    - id: thick%5:00:00:concentrated:00
+      synset: 00541229-s
     - antonym:
       - 'thin%3:00:02::'
       derivation:
       - 'thickness%1:07:02::'
       id: 'thick%3:00:02::'
       synset: 02424186-a
-    - id: thick%5:00:00:concentrated:00
-      synset: 00541229-s
     - derivation:
       - 'thickness%1:10:00::'
       id: thick%5:00:00:unintelligible:00
@@ -28088,6 +28088,12 @@ thin:
       - 'thinness%1:07:00::'
       id: 'thin%3:00:03::'
       synset: 00991420-a
+    - derivation:
+      - 'thinness%1:07:03::'
+      id: thin%5:00:00:narrow:00
+      synset: 02573296-s
+    - id: thin%5:00:00:distributed:00
+      synset: 00544579-s
     - antonym:
       - 'thick%3:00:02::'
       derivation:
@@ -28100,12 +28106,6 @@ thin:
       - 'thinness%1:07:04::'
       id: 'thin%3:00:04::'
       synset: 01460862-a
-    - derivation:
-      - 'thinness%1:07:03::'
-      id: thin%5:00:00:narrow:00
-      synset: 02573296-s
-    - id: thin%5:00:00:distributed:00
-      synset: 00544579-s
     - id: thin%5:00:00:spiritless:00
       synset: 02290011-s
     - derivation:
@@ -29045,6 +29045,10 @@ thirsty:
     pronunciation:
     - value: ˈθɜː(ɹ)st.i
     sense:
+    - derivation:
+      - 'thirstiness%1:26:01::'
+      id: thirsty%5:00:00:dry:01
+      synset: 02564910-s
     - antonym:
       - 'hungry%3:00:00::'
       derivation:
@@ -29052,10 +29056,6 @@ thirsty:
       - 'thirst%1:26:00::'
       id: 'thirsty%3:00:00::'
       synset: 01273114-a
-    - derivation:
-      - 'thirstiness%1:26:01::'
-      id: thirsty%5:00:00:dry:01
-      synset: 02564910-s
     - adjposition: p
       derivation:
       - 'thirstiness%1:07:00::'
@@ -29691,6 +29691,8 @@ thoughtful:
       variety: US
     - value: ˈθɑtfəl
     sense:
+    - id: thoughtful%5:00:00:profound:00
+      synset: 01879263-s
     - antonym:
       - 'thoughtless%3:00:00::'
       derivation:
@@ -29698,15 +29700,13 @@ thoughtful:
       id: 'thoughtful%3:00:00::'
       synset: 02427668-a
     - derivation:
-      - 'thoughtfulness%1:07:00::'
-      id: 'thoughtful%3:00:04::'
-      synset: 01198026-a
-    - id: thoughtful%5:00:00:profound:00
-      synset: 01879263-s
-    - derivation:
       - 'thoughtfulness%1:04:00::'
       id: thoughtful%5:00:00:serious:00
       synset: 02127251-s
+    - derivation:
+      - 'thoughtfulness%1:07:00::'
+      id: 'thoughtful%3:00:04::'
+      synset: 01198026-a
     - derivation:
       - 'thoughtfulness%1:07:01::'
       id: thoughtful%5:00:00:considerate:00
@@ -30283,12 +30283,12 @@ three-decker:
 three-dimensional:
   a:
     sense:
+    - id: three-dimensional%5:00:00:multidimensional:00
+      synset: 00663996-s
     - derivation:
       - 'three-dimensionality%1:07:00::'
       id: 'three-dimensional%3:00:02::'
       synset: 00660221-a
-    - id: three-dimensional%5:00:00:multidimensional:00
-      synset: 00663996-s
 three-dimensional figure:
   n:
     sense:
@@ -33706,16 +33706,16 @@ tied:
     pronunciation:
     - value: taɪd
     sense:
+    - id: tied%5:00:00:bound:01
+      synset: 00254735-s
+    - id: tied%5:00:00:united:00
+      synset: 02487690-s
     - antonym:
       - 'untied%3:00:00::'
       id: 'tied%3:00:00::'
       synset: 00255612-a
     - id: 'tied%3:00:02::'
       synset: 00255382-a
-    - id: tied%5:00:00:bound:01
-      synset: 00254735-s
-    - id: tied%5:00:00:united:00
-      synset: 02487690-s
     - adjposition: p
       id: tied%5:00:00:equal:00
       synset: 00895536-s
@@ -33890,10 +33890,6 @@ tight:
       - 'tightness%1:09:00::'
       id: 'tight%3:00:01::'
       synset: 01450193-a
-    - antonym:
-      - 'leaky%3:00:00::'
-      id: 'tight%3:00:02::'
-      synset: 01401203-a
     - derivation:
       - 'tightness%1:07:00::'
       id: tight%5:00:00:tense:01
@@ -33912,6 +33908,10 @@ tight:
       - 'tightness%1:26:00::'
       id: tight%5:00:00:scarce:00
       synset: 00017224-s
+    - antonym:
+      - 'leaky%3:00:00::'
+      id: 'tight%3:00:02::'
+      synset: 01401203-a
     - id: tight%5:00:00:fine:00
       synset: 02240484-s
     - id: tight%5:00:00:secure:03
@@ -39184,12 +39184,12 @@ toned:
     - value: toʊnd
       variety: US
     sense:
+    - id: toned%5:00:00:tonal:00
+      synset: 02447057-s
     - antonym:
       - 'toneless%3:00:00::'
       id: 'toned%3:00:00::'
       synset: 02438908-a
-    - id: toned%5:00:00:tonal:00
-      synset: 02447057-s
 toneless:
   a:
     sense:
@@ -40506,6 +40506,8 @@ topical:
     - value: ˈtɒp.ɪ.kəl
       variety: GB
     sense:
+    - id: topical%5:00:00:local:02
+      synset: 01428768-s
     - derivation:
       - 'topic%1:10:00::'
       - 'topic%1:09:00::'
@@ -40513,8 +40515,6 @@ topical:
       pertainym:
       - 'topic%1:09:00::'
       synset: 02828278-a
-    - id: topical%5:00:00:local:02
-      synset: 01428768-s
     - id: topical%5:00:00:current:00
       synset: 00671276-s
 topical anaesthesia:
@@ -42025,12 +42025,12 @@ totalitarian:
     - value: ˌtoʊtəlɪˈtɛəɹiən
       variety: US
     sense:
+    - id: totalitarian%5:00:00:undemocratic:00
+      synset: 00722079-s
     - id: 'totalitarian%3:01:00::'
       pertainym:
       - 'totalitarianism%1:09:00::'
       synset: 02829050-a
-    - id: totalitarian%5:00:00:undemocratic:00
-      synset: 00722079-s
   n:
     pronunciation:
     - value: ˌtəʊtəlɪˈtɛɹiən
@@ -42683,26 +42683,26 @@ tough:
       - 'tender%3:00:03::'
       id: 'tough%3:00:03::'
       synset: 02457510-a
-    - antonym:
-      - 'tender%3:00:02::'
-      id: 'tough%3:00:02::'
-      synset: 02456417-a
-    - antonym:
-      - 'tender%3:00:01::'
-      derivation:
-      - 'toughness%1:07:02::'
-      id: 'tough%3:00:01::'
-      synset: 02454704-a
     - derivation:
       - 'toughness%1:07:02::'
       id: tough%5:00:01:difficult:00
       synset: 00751671-s
+    - antonym:
+      - 'tender%3:00:02::'
+      id: 'tough%3:00:02::'
+      synset: 02456417-a
     - id: tough%5:00:00:rugged:00
       synset: 00711239-s
     - id: tough%5:00:00:violent:00
       synset: 02522699-s
     - id: tough%5:00:00:uncomfortable:00
       synset: 00480301-s
+    - antonym:
+      - 'tender%3:00:01::'
+      derivation:
+      - 'toughness%1:07:02::'
+      id: 'tough%3:00:01::'
+      synset: 02454704-a
     - id: tough%5:00:00:bad:00
       synset: 01131133-s
     - derivation:
@@ -43842,12 +43842,12 @@ traceable:
     - value: ˈtɹeɪsəbəl
       variety: US
     sense:
+    - id: traceable%5:00:00:attributable:00
+      synset: 00173569-s
     - antonym:
       - 'untraceable%3:00:00::'
       id: 'traceable%3:00:00::'
       synset: 02462377-a
-    - id: traceable%5:00:00:attributable:00
-      synset: 00173569-s
 tracer:
   n:
     pronunciation:
@@ -44903,15 +44903,15 @@ tragic:
     - value: ˈtɹædʒɪk
     sense:
     - derivation:
+      - 'tragedy%1:11:00::'
+      id: tragic%5:00:00:sad:00
+      synset: 01366069-s
+    - derivation:
       - 'tragedy%1:10:00::'
       id: 'tragic%3:01:00::'
       pertainym:
       - 'tragedy%1:10:00::'
       synset: 02984786-a
-    - derivation:
-      - 'tragedy%1:11:00::'
-      id: tragic%5:00:00:sad:00
-      synset: 01366069-s
 tragic flaw:
   n:
     sense:
@@ -46140,14 +46140,14 @@ transcendental:
     pronunciation:
     - value: ˌtɹænsɛnˈdɛntəl
     sense:
+    - id: transcendental%5:00:00:supernatural:00
+      synset: 01581495-s
     - derivation:
       - 'transcendentalism%1:09:00::'
       id: 'transcendental%3:01:00::'
       pertainym:
       - 'transcendentalism%1:09:00::'
       synset: 02884663-a
-    - id: transcendental%5:00:00:supernatural:00
-      synset: 01581495-s
 transcendental number:
   n:
     sense:
@@ -54217,14 +54217,14 @@ tropical:
     sense:
     - derivation:
       - 'tropic%1:15:00::'
+      id: tropical%5:00:00:equatorial:00
+      synset: 02452975-s
+    - derivation:
+      - 'tropic%1:15:00::'
       id: 'tropical%3:01:00::'
       pertainym:
       - 'tropic%1:15:00::'
       synset: 02940813-a
-    - derivation:
-      - 'tropic%1:15:00::'
-      id: tropical%5:00:00:equatorial:00
-      synset: 02452975-s
     - derivation:
       - 'trope%1:10:00::'
       id: tropical%5:00:00:figurative:00
@@ -55069,8 +55069,6 @@ trudger:
       - 'trueness%1:26:00::'
       id: 'true%3:00:00::'
       synset: 02469730-a
-    - id: 'true%3:00:04::'
-      synset: 01228271-a
     - derivation:
       - 'trueness%1:07:00::'
       id: true%5:00:00:accurate:00
@@ -55079,6 +55077,8 @@ trudger:
       - 'trueness%1:07:01::'
       id: true%5:00:02:faithful:00
       synset: 00962719-s
+    - id: 'true%3:00:04::'
+      synset: 01228271-a
     - id: true%5:00:00:typical:00
       synset: 02478996-s
     - adjposition: p

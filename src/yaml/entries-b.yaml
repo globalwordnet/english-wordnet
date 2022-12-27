@@ -13717,8 +13717,6 @@ bad:
       - 'badness%1:07:00::'
       id: 'bad%3:00:00::'
       synset: 01129296-a
-    - id: 'bad%3:00:09::'
-      synset: 01153978-a
     - derivation:
       - 'badness%1:07:01::'
       id: bad%5:00:00:intense:00
@@ -13729,6 +13727,8 @@ bad:
       synset: 00480301-s
     - id: bad%5:00:00:stale:00
       synset: 01073039-s
+    - id: 'bad%3:00:09::'
+      synset: 01153978-a
     - id: bad%5:00:00:invalid:00
       synset: 02509881-s
     - derivation:
@@ -18507,6 +18507,13 @@ bare:
   a:
     sense:
     - derivation:
+      - 'bareness%1:26:00::'
+      id: bare%5:00:00:unclothed:00
+      synset: 00460031-s
+    - adjposition: a
+      id: bare%5:00:00:meager:00
+      synset: 00107633-s
+    - derivation:
       - 'bareness%1:07:00::'
       id: 'bare%3:00:04::'
       synset: 02162939-a
@@ -18516,13 +18523,6 @@ bare:
       - 'bareness%1:07:00::'
       id: 'bare%3:00:00::'
       synset: 01702853-a
-    - derivation:
-      - 'bareness%1:26:00::'
-      id: bare%5:00:00:unclothed:00
-      synset: 00460031-s
-    - adjposition: a
-      id: bare%5:00:00:meager:00
-      synset: 00107633-s
     - adjposition: a
       id: bare%5:00:00:narrow:02
       synset: 02574196-s
@@ -19528,14 +19528,14 @@ baroque:
     - value: bəˈɹoʊk
       variety: US
     sense:
-    - id: 'baroque%3:01:01::'
-      pertainym:
-      - 'baroque%1:28:00::'
-      synset: 02985568-a
     - derivation:
       - 'baroqueness%1:07:00::'
       id: baroque%5:00:00:fancy:00
       synset: 01799504-s
+    - id: 'baroque%3:01:01::'
+      pertainym:
+      - 'baroque%1:28:00::'
+      synset: 02985568-a
   n:
     sense:
     - id: 'baroque%1:07:00::'
@@ -44221,12 +44221,12 @@ bloodleaf:
 bloodless:
   a:
     sense:
+    - id: bloodless%5:00:00:dead:01
+      synset: 00097092-s
     - antonym:
       - 'bloody%3:00:00::'
       id: 'bloodless%3:00:00::'
       synset: 00250299-a
-    - id: bloodless%5:00:00:dead:01
-      synset: 00097092-s
     - id: bloodless%5:00:00:spiritless:00
       synset: 02289547-s
     - id: bloodless%5:00:00:nonhuman:00
@@ -50251,6 +50251,11 @@ bony:
       variety: US
     sense:
     - derivation:
+      - 'boniness%1:07:00::'
+      - 'bonyness%1:07:00::'
+      id: bony%5:00:00:thin:03
+      synset: 00993331-s
+    - derivation:
       - 'bone%1:08:00::'
       id: 'bony%3:01:00::'
       pertainym:
@@ -50262,11 +50267,6 @@ bony:
       - 'bone%1:08:00::'
       id: 'bony%3:00:00::'
       synset: 00296523-a
-    - derivation:
-      - 'boniness%1:07:00::'
-      - 'bonyness%1:07:00::'
-      id: bony%5:00:00:thin:03
-      synset: 00993331-s
 bony fish:
   n:
     sense:
@@ -52972,14 +52972,14 @@ bottomless:
     - value: ˈbaɾm̩lɨs
       variety: US
     sense:
-    - antonym:
-      - 'bottomed%3:00:00::'
-      id: 'bottomless%3:00:00::'
-      synset: 02452073-a
     - derivation:
       - 'bottomlessness%1:07:00::'
       id: bottomless%5:00:00:deep:01
       synset: 00694169-s
+    - antonym:
+      - 'bottomed%3:00:00::'
+      id: 'bottomless%3:00:00::'
+      synset: 02452073-a
     - derivation:
       - 'bottomlessness%1:07:00::'
       id: bottomless%5:00:00:unlimited:00
@@ -56487,12 +56487,12 @@ brand-newness:
 branded:
   a:
     sense:
+    - id: branded%5:00:00:proprietary:00
+      synset: 01113962-s
     - antonym:
       - 'unbranded%3:00:00::'
       id: 'branded%3:00:00::'
       synset: 01484709-a
-    - id: branded%5:00:00:proprietary:00
-      synset: 01113962-s
 branding:
   n:
     sense:
@@ -57049,14 +57049,14 @@ brazen:
     pronunciation:
     - value: ˈbɹeɪzən
     sense:
-    - id: 'brazen%3:01:00::'
-      pertainym:
-      - 'brass%1:27:00::'
-      synset: 02916798-a
     - derivation:
       - 'brazenness%1:07:00::'
       id: brazen%5:00:00:unashamed:00
       synset: 00156411-s
+    - id: 'brazen%3:01:00::'
+      pertainym:
+      - 'brass%1:27:00::'
+      synset: 02916798-a
   v:
     pronunciation:
     - value: ˈbɹeɪzən
@@ -60234,10 +60234,6 @@ bright:
       id: 'bright%3:00:00::'
       synset: 00279417-a
     - derivation:
-      - 'brightness%1:07:02::'
-      id: 'bright%3:00:02::'
-      synset: 00285796-a
-    - derivation:
       - 'brightness%1:07:00::'
       id: bright%5:00:00:colorful:00
       synset: 00403922-s
@@ -60255,6 +60251,10 @@ bright:
       synset: 01817522-s
     - id: bright%5:00:00:glorious:00
       synset: 01125000-s
+    - derivation:
+      - 'brightness%1:07:02::'
+      id: 'bright%3:00:02::'
+      synset: 00285796-a
     - id: bright%5:00:00:reverberant:00
       synset: 02016784-s
     - id: bright%5:00:00:happy:00
@@ -62150,12 +62150,12 @@ broken:
       - 'unbroken%3:00:02::'
       id: 'broken%3:00:02::'
       synset: 00290849-a
+    - id: broken%5:00:00:humble:00
+      synset: 01899370-s
     - antonym:
       - 'unbroken%3:00:03::'
       id: 'broken%3:00:03::'
       synset: 00290460-a
-    - id: broken%5:00:00:humble:00
-      synset: 01899370-s
     - id: broken%5:00:00:tame:01
       synset: 02397009-s
     - id: broken%5:00:00:rough:00
@@ -64928,12 +64928,12 @@ buckyball:
 bucolic:
   a:
     sense:
+    - id: bucolic%5:00:01:rural:00
+      synset: 02058608-s
     - id: 'bucolic%3:01:00::'
       pertainym:
       - 'shepherd%1:18:00::'
       synset: 02906296-a
-    - id: bucolic%5:00:01:rural:00
-      synset: 02058608-s
   n:
     sense:
     - id: 'bucolic%1:18:00::'

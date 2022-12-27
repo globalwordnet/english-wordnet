@@ -7021,15 +7021,15 @@ factual:
     - derivation:
       - 'factualness%1:07:00::'
       - 'factuality%1:07:01::'
+      id: factual%5:00:00:real:00
+      synset: 01940178-s
+    - derivation:
+      - 'factualness%1:07:00::'
+      - 'factuality%1:07:01::'
       id: 'factual%3:01:00::'
       pertainym:
       - 'fact%1:09:01::'
       synset: 02910364-a
-    - derivation:
-      - 'factualness%1:07:00::'
-      - 'factuality%1:07:01::'
-      id: factual%5:00:00:real:00
-      synset: 01940178-s
 factuality:
   n:
     sense:
@@ -7714,10 +7714,6 @@ fair:
       - 'fairness%1:07:00::'
       id: 'fair%3:00:03::'
       synset: 00959321-a
-    - antonym:
-      - 'foul%3:00:00::'
-      id: 'fair%3:00:01::'
-      synset: 00958816-a
     - derivation:
       - 'fairness%1:07:00::'
       id: fair%5:00:00:moderate:00
@@ -7726,6 +7722,10 @@ fair:
       - 'fairness%1:07:02::'
       id: fair%5:00:00:beautiful:00
       synset: 00220032-s
+    - antonym:
+      - 'foul%3:00:00::'
+      id: 'fair%3:00:01::'
+      synset: 00958816-a
     - id: fair%5:00:00:ordinary:00
       synset: 01677616-s
     - adjposition: a
@@ -8119,16 +8119,16 @@ faithful:
       - 'faithfulness%1:07:00::'
       id: 'faithful%3:00:00::'
       synset: 00962069-a
+    - derivation:
+      - 'faithfulness%1:07:00::'
+      id: faithful%5:00:00:accurate:00
+      synset: 00022256-s
     - antonym:
       - 'unfaithful%3:00:01::'
       derivation:
       - 'faithfulness%1:07:00::'
       id: 'faithful%3:00:01::'
       synset: 00963818-a
-    - derivation:
-      - 'faithfulness%1:07:00::'
-      id: faithful%5:00:00:accurate:00
-      synset: 00022256-s
   n:
     pronunciation:
     - value: ˈfeɪθ.fəl
@@ -9120,12 +9120,12 @@ falling:
     - value: ˈfɔlɪŋ
       variety: US
     sense:
+    - id: falling%5:00:00:decreasing:00
+      synset: 02548108-s
     - antonym:
       - 'rising%3:00:00::'
       id: 'falling%3:00:00::'
       synset: 02496922-a
-    - id: falling%5:00:00:decreasing:00
-      synset: 02548108-s
     - id: falling%5:00:00:descending:00
       synset: 02496306-s
 falling off:
@@ -18107,13 +18107,13 @@ fat:
       - 'fatness%1:07:00::'
       id: 'fat%3:00:01::'
       synset: 00989218-a
+    - id: fat%5:00:00:thick:01
+      synset: 02420020-s
     - derivation:
       - 'fat%1:27:00::'
       - 'fat%1:08:00::'
       id: 'fat%3:00:02::'
       synset: 00995188-a
-    - id: fat%5:00:00:thick:01
-      synset: 02420020-s
     - id: fat%5:00:00:profitable:00
       synset: 01877317-s
     - id: fat%5:00:00:fruitful:00
@@ -19154,12 +19154,12 @@ favorable:
       synset: 00998466-a
     - derivation:
       - 'favorableness%1:07:00::'
-      id: 'favorable%3:00:03::'
-      synset: 00064738-a
-    - derivation:
-      - 'favorableness%1:07:00::'
       id: favorable%5:00:00:propitious:00
       synset: 00178829-s
+    - derivation:
+      - 'favorableness%1:07:00::'
+      id: 'favorable%3:00:03::'
+      synset: 00064738-a
 favorable position:
   n:
     sense:
@@ -19578,15 +19578,15 @@ fearful:
       variety: US
     sense:
     - derivation:
-      - 'fearfulness%1:07:00::'
-      id: 'fearful%3:00:04::'
-      synset: 00265642-a
-    - derivation:
       - 'fearfulness%1:12:00::'
       id: fearful%5:00:00:afraid:00
       synset: 00080075-s
     - id: fearful%5:00:00:alarming:00
       synset: 00195400-s
+    - derivation:
+      - 'fearfulness%1:07:00::'
+      id: 'fearful%3:00:04::'
+      synset: 00265642-a
     - id: fearful%5:00:00:bad:00
       synset: 01130978-s
     - id: fearful%5:00:00:timid:00
@@ -19928,12 +19928,12 @@ featherbrained:
 feathered:
   a:
     sense:
+    - id: feathered%5:00:00:adorned:00
+      synset: 00058794-s
     - antonym:
       - 'unfeathered%3:00:00::'
       id: 'feathered%3:00:00::'
       synset: 01001023-a
-    - id: feathered%5:00:00:adorned:00
-      synset: 00058794-s
 featheredge:
   n:
     sense:
@@ -23805,14 +23805,14 @@ feverish:
     - value: ˈfi.vɚ.ɪʃ
       variety: US
     sense:
+    - id: feverish%5:00:00:agitated:00
+      synset: 00086895-s
     - derivation:
       - 'feverishness%1:26:00::'
       id: 'feverish%3:01:00::'
       pertainym:
       - 'fever%1:26:00::'
       synset: 02737451-a
-    - id: feverish%5:00:00:agitated:00
-      synset: 00086895-s
     - derivation:
       - 'feverishness%1:26:00::'
       id: feverish%5:00:00:ill:01
@@ -26998,14 +26998,14 @@ filled:
     pronunciation:
     - value: fɪld
     sense:
+    - id: filled%5:00:01:full:00
+      synset: 01088332-s
     - antonym:
       - 'unfilled%3:44:00::'
       id: 'filled%3:44:00::'
       participle:
       - 'fill%2:34:02::'
       synset: 03161743-a
-    - id: filled%5:00:01:full:00
-      synset: 01088332-s
     - id: filled%5:00:00:occupied:00
       synset: 01627925-s
 filler:
@@ -28304,12 +28304,6 @@ fine:
     - value: faɪn
       variety: US
     sense:
-    - antonym:
-      - 'coarse%3:00:00::'
-      derivation:
-      - 'fineness%1:07:02::'
-      id: 'fine%3:00:00::'
-      synset: 02239996-a
     - id: fine%5:00:00:satisfactory:00
       synset: 02088253-s
     - id: fine%5:00:00:precise:00
@@ -28320,6 +28314,12 @@ fine:
       synset: 02422827-s
     - id: fine%5:00:00:elegant:00
       synset: 00853589-s
+    - antonym:
+      - 'coarse%3:00:00::'
+      derivation:
+      - 'fineness%1:07:02::'
+      id: 'fine%3:00:00::'
+      synset: 02239996-a
     - id: fine%5:00:00:pure:02
       synset: 01913014-s
   n:
@@ -31434,17 +31434,17 @@ fit:
       - 'fitness%1:07:00::'
       id: 'fit%3:00:02::'
       synset: 01024009-a
+    - adjposition: p
+      derivation:
+      - 'fitness%1:07:00::'
+      id: fit%5:00:00:ready:00
+      synset: 01937602-s
     - antonym:
       - 'unfit%3:00:01::'
       derivation:
       - 'fitness%1:07:01::'
       id: 'fit%3:00:01::'
       synset: 01020753-a
-    - adjposition: p
-      derivation:
-      - 'fitness%1:07:00::'
-      id: fit%5:00:00:ready:00
-      synset: 01937602-s
   n:
     sense:
     - id: 'fit%1:26:01::'
@@ -32061,13 +32061,6 @@ fixed:
     pronunciation:
     - value: fɪkst
     sense:
-    - antonym:
-      - 'unfixed%3:00:00::'
-      derivation:
-      - 'fixedness%1:07:00::'
-      - 'fixity%1:07:00::'
-      id: 'fixed%3:00:00::'
-      synset: 01063099-a
     - derivation:
       - 'fixedness%1:07:02::'
       id: fixed%5:00:00:determinate:01
@@ -32077,6 +32070,13 @@ fixed:
       - 'fixity%1:07:00::'
       id: fixed%5:00:00:nonmoving:00
       synset: 01568996-s
+    - antonym:
+      - 'unfixed%3:00:00::'
+      derivation:
+      - 'fixedness%1:07:00::'
+      - 'fixity%1:07:00::'
+      id: 'fixed%3:00:00::'
+      synset: 01063099-a
     - derivation:
       - 'fixity%1:07:00::'
       id: fixed%5:00:00:unchangeable:00
@@ -33939,17 +33939,6 @@ flat:
     - flatter
     - flattest
     sense:
-    - antonym:
-      - 'contrasty%3:00:00::'
-      derivation:
-      - 'flatness%1:07:02::'
-      id: 'flat%3:00:03::'
-      synset: 01025410-a
-    - antonym:
-      - 'natural%3:00:04::'
-      - 'sharp%3:00:03::'
-      id: 'flat%3:00:00::'
-      synset: 01582560-a
     - derivation:
       - 'flatness%1:07:00::'
       id: flat%5:00:00:even:01
@@ -33962,6 +33951,17 @@ flat:
       synset: 01920312-s
     - id: flat%5:00:00:unerect:00
       synset: 01241913-s
+    - antonym:
+      - 'contrasty%3:00:00::'
+      derivation:
+      - 'flatness%1:07:02::'
+      id: 'flat%3:00:03::'
+      synset: 01025410-a
+    - antonym:
+      - 'natural%3:00:04::'
+      - 'sharp%3:00:03::'
+      id: 'flat%3:00:00::'
+      synset: 01582560-a
     - derivation:
       - 'flatness%1:07:00::'
       id: flat%5:00:00:thin:01
@@ -35263,15 +35263,15 @@ fleshy:
     - value: ˈflɛʃi
     sense:
     - derivation:
+      - 'fleshiness%1:07:00::'
+      id: fleshy%5:00:00:fat:01
+      synset: 00990957-s
+    - derivation:
       - 'flesh%1:08:02::'
       id: 'fleshy%3:01:00::'
       pertainym:
       - 'flesh%1:08:02::'
       synset: 02740075-a
-    - derivation:
-      - 'fleshiness%1:07:00::'
-      id: fleshy%5:00:00:fat:01
-      synset: 00990957-s
 fleur-de-lis:
   n:
     form:
@@ -35395,11 +35395,6 @@ flexible:
       synset: 01025680-a
     - derivation:
       - 'flexibleness%1:07:01::'
-      - 'flexibility%1:07:03::'
-      id: 'flexible%3:00:04::'
-      synset: 01029877-a
-    - derivation:
-      - 'flexibleness%1:07:01::'
       - 'flexibility%1:07:01::'
       id: flexible%5:00:00:adaptable:00
       synset: 01031778-s
@@ -35408,6 +35403,11 @@ flexible:
       - 'flexibility%1:07:02::'
       id: flexible%5:00:00:elastic:00
       synset: 00848258-s
+    - derivation:
+      - 'flexibleness%1:07:01::'
+      - 'flexibility%1:07:03::'
+      id: 'flexible%3:00:04::'
+      synset: 01029877-a
 flexible harrow:
   n:
     sense:
@@ -35860,14 +35860,14 @@ flimsy:
     - value: ˈflɪmzi
     sense:
     - derivation:
-      - 'flimsiness%1:07:00::'
-      id: 'flimsy%3:00:02::'
-      synset: 00618080-a
-    - derivation:
       - 'flimsy%1:27:00::'
       - 'flimsiness%1:07:00::'
       id: flimsy%5:00:01:weak:00
       synset: 02333212-s
+    - derivation:
+      - 'flimsiness%1:07:00::'
+      id: 'flimsy%3:00:02::'
+      synset: 00618080-a
     - id: flimsy%5:00:03:insignificant:00
       synset: 02172469-s
   n:
@@ -37244,6 +37244,8 @@ floral:
     - value: ˈflɔːɹəl
       variety: GB
     sense:
+    - id: floral%5:00:00:patterned:00
+      synset: 01793214-s
     - id: 'floral%3:01:01::'
       pertainym:
       - 'flower%1:20:00::'
@@ -37254,8 +37256,6 @@ floral:
       pertainym:
       - 'flora%1:14:00::'
       synset: 02858504-a
-    - id: floral%5:00:00:patterned:00
-      synset: 01793214-s
 floral arrangement:
   n:
     sense:
@@ -40156,6 +40156,8 @@ focal:
     - value: ˈfoʊ.kl̩
       variety: US
     sense:
+    - id: focal%5:00:00:central:01
+      synset: 00331802-s
     - derivation:
       - 'focus%1:19:00::'
       - 'focus%1:15:00::'
@@ -40163,8 +40165,6 @@ focal:
       pertainym:
       - 'focus%1:19:00::'
       synset: 02892742-a
-    - id: focal%5:00:00:central:01
-      synset: 00331802-s
 focal distance:
   n:
     sense:
@@ -41617,15 +41617,15 @@ following:
     - value: ˈfɑloʊɪŋ
       variety: US
     sense:
-    - antonym:
-      - 'leading%3:00:00::'
-      id: 'following%3:00:00::'
-      synset: 00201161-a
     - adjposition: a
       id: following%5:00:01:succeeding:00
       synset: 00128705-s
     - id: following%5:00:02:succeeding:00
       synset: 00128838-s
+    - antonym:
+      - 'leading%3:00:00::'
+      id: 'following%3:00:00::'
+      synset: 00201161-a
     - adjposition: a
       id: following%5:00:00:favorable:01
       synset: 00998712-s
@@ -45705,14 +45705,14 @@ formal:
       - 'formality%1:04:00::'
       id: 'formal%3:00:01::'
       synset: 01045598-a
-    - antonym:
-      - 'informal%3:00:02::'
-      id: 'formal%3:00:02::'
-      synset: 01048915-a
     - derivation:
       - 'formality%1:11:00::'
       id: formal%5:00:00:official:00
       synset: 01637196-s
+    - antonym:
+      - 'informal%3:00:02::'
+      id: 'formal%3:00:02::'
+      synset: 01048915-a
     - id: formal%5:00:00:nonrepresentational:00
       synset: 01987861-s
     - id: formal%5:00:00:logical:00
@@ -47462,10 +47462,6 @@ fothergilla:
 foul:
   a:
     sense:
-    - antonym:
-      - 'fair%3:00:01::'
-      id: 'foul%3:00:00::'
-      synset: 00959105-a
     - id: foul%5:00:00:offensive:01
       synset: 01630074-s
     - derivation:
@@ -47476,6 +47472,10 @@ foul:
       - 'foulness%1:26:01::'
       id: foul%5:00:00:unfair:00
       synset: 00960933-s
+    - antonym:
+      - 'fair%3:00:01::'
+      id: 'foul%3:00:00::'
+      synset: 00959105-a
     - id: foul%5:00:00:illegible:00
       synset: 01408416-s
     - id: foul%5:00:00:dirty:02
@@ -49883,16 +49883,16 @@ free:
       - 'bound%3:00:03::'
       id: 'free%3:00:02::'
       synset: 01062062-a
-    - antonym:
-      - 'unfree%3:00:01::'
-      id: 'free%3:00:01::'
-      synset: 01069383-a
     - id: free%5:00:00:unpaid:00
       synset: 01714713-s
     - id: free%5:00:02:unoccupied:00
       synset: 01628191-s
     - id: free%5:00:00:unfixed:00
       synset: 01064646-s
+    - antonym:
+      - 'unfree%3:00:01::'
+      id: 'free%3:00:01::'
+      synset: 01069383-a
     - id: free%5:00:01:unoccupied:00
       synset: 01628296-s
     - id: free%5:00:00:nonexistent:00
@@ -51192,14 +51192,6 @@ fresh:
       - 'freshness%1:07:01::'
       id: 'fresh%3:00:01::'
       synset: 01071383-a
-    - antonym:
-      - 'preserved%3:00:02::'
-      id: 'fresh%3:00:02::'
-      synset: 01074886-a
-    - antonym:
-      - 'salty%3:00:00::'
-      id: 'fresh%3:00:03::'
-      synset: 01077395-a
     - derivation:
       - 'freshness%1:07:00::'
       id: fresh%5:00:00:new:00
@@ -51212,6 +51204,14 @@ fresh:
       - 'freshness%1:09:00::'
       id: fresh%5:00:00:original:00
       synset: 01691809-s
+    - antonym:
+      - 'preserved%3:00:02::'
+      id: 'fresh%3:00:02::'
+      synset: 01074886-a
+    - antonym:
+      - 'salty%3:00:00::'
+      id: 'fresh%3:00:03::'
+      synset: 01077395-a
     - id: fresh%5:00:00:wet:02
       synset: 02565190-s
     - derivation:
@@ -51868,6 +51868,10 @@ friendly:
       - 'friendliness%1:07:00::'
       id: 'friendly%3:00:01::'
       synset: 01078338-a
+    - derivation:
+      - 'friendliness%1:12:00::'
+      id: friendly%5:00:00:amicable:00
+      synset: 01249700-s
     - antonym:
       - 'unfriendly%3:00:02::'
       id: 'friendly%3:00:03::'
@@ -51876,10 +51880,6 @@ friendly:
       - 'hostile%3:00:02::'
       id: 'friendly%3:00:02::'
       synset: 01081326-a
-    - derivation:
-      - 'friendliness%1:12:00::'
-      id: friendly%5:00:00:amicable:00
-      synset: 01249700-s
   n:
     sense:
     - antonym:
@@ -53018,17 +53018,17 @@ frontal:
   a:
     sense:
     - derivation:
-      - 'front%1:19:00::'
-      id: 'frontal%3:01:02::'
-      pertainym:
-      - 'front%1:19:00::'
-      synset: 02906130-a
-    - derivation:
       - 'front%1:15:02::'
       - 'front%1:15:00::'
       - 'front%1:06:00::'
       id: frontal%5:00:01:anterior:00
       synset: 00132090-s
+    - derivation:
+      - 'front%1:19:00::'
+      id: 'frontal%3:01:02::'
+      pertainym:
+      - 'front%1:19:00::'
+      synset: 02906130-a
     - derivation:
       - 'front%1:15:01::'
       id: frontal%5:00:00:front:00
@@ -54796,12 +54796,6 @@ full:
       - 'fullness%1:26:00::'
       id: 'full%3:00:00::'
       synset: 01086845-a
-    - antonym:
-      - 'thin%3:00:04::'
-      derivation:
-      - 'fullness%1:07:02::'
-      id: 'full%3:00:01::'
-      synset: 01459489-a
     - id: full%5:00:01:whole:00
       synset: 00517305-s
     - derivation:
@@ -54810,6 +54804,12 @@ full:
       synset: 00524974-s
     - id: full%5:00:00:nourished:00
       synset: 02308182-s
+    - antonym:
+      - 'thin%3:00:04::'
+      derivation:
+      - 'fullness%1:07:02::'
+      id: 'full%3:00:01::'
+      synset: 01459489-a
     - id: full%5:00:00:ample:00
       synset: 00106819-s
     - adjposition: a
@@ -57449,10 +57449,6 @@ future:
       - 'futurity%1:07:00::'
       id: 'future%3:00:00::'
       synset: 01736519-a
-    - id: 'future%3:01:00::'
-      pertainym:
-      - 'future%1:10:00::'
-      synset: 03004422-a
     - derivation:
       - 'futurity%1:28:00::'
       - 'futurity%1:07:00::'
@@ -57463,6 +57459,10 @@ future:
       - 'futurity%1:07:00::'
       id: future%5:00:00:incoming:00
       synset: 01298098-s
+    - id: 'future%3:01:00::'
+      pertainym:
+      - 'future%1:10:00::'
+      synset: 03004422-a
   n:
     pronunciation:
     - value: ˈfjuːt͡ʃə

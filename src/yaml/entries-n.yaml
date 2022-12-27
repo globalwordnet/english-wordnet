@@ -7900,6 +7900,10 @@ narrow:
       id: 'narrow%3:00:00::'
       synset: 02572618-a
     - derivation:
+      - 'narrowness%1:09:01::'
+      id: narrow%5:00:00:limited:00
+      synset: 01418331-s
+    - derivation:
       - 'narrowness%1:09:00::'
       id: 'narrow%3:00:06::'
       synset: 00288506-a
@@ -7909,10 +7913,6 @@ narrow:
       - 'narrowness%1:07:01::'
       id: 'narrow%3:00:02::'
       synset: 02574040-a
-    - derivation:
-      - 'narrowness%1:09:01::'
-      id: narrow%5:00:00:limited:00
-      synset: 01418331-s
     - id: narrow%5:00:00:careful:00
       synset: 00311514-s
   n:
@@ -8646,6 +8646,10 @@ national:
       - 'nationality%1:14:00::'
       id: 'national%3:00:01::'
       synset: 01109533-a
+    - id: national%5:00:00:public:00
+      synset: 01867716-s
+    - id: national%5:00:00:domestic:00
+      synset: 01042014-s
     - derivation:
       - 'nationality%1:14:00::'
       id: 'national%3:01:02::'
@@ -8658,10 +8662,6 @@ national:
       pertainym:
       - 'nationality%1:26:00::'
       synset: 02999749-a
-    - id: national%5:00:00:public:00
-      synset: 01867716-s
-    - id: national%5:00:00:domestic:00
-      synset: 01042014-s
   n:
     pronunciation:
     - value: ˈnaʃn̩(ə)l
@@ -9221,6 +9221,8 @@ natural:
       - 'naturalness%1:07:00::'
       id: 'natural%3:00:03::'
       synset: 01578429-a
+    - id: natural%5:00:00:normal:01
+      synset: 01599632-s
     - antonym:
       - 'sharp%3:00:03::'
       - 'flat%3:00:00::'
@@ -9228,8 +9230,6 @@ natural:
       synset: 01582180-a
     - id: 'natural%3:00:00::'
       synset: 01408930-a
-    - id: natural%5:00:00:normal:01
-      synset: 01599632-s
     - id: natural%5:00:00:spontaneous:00
       synset: 02290719-s
     - id: natural%5:00:00:unprocessed:00
@@ -10673,14 +10673,14 @@ nebulous:
     pronunciation:
     - value: ˈnɛbjʊləs
     sense:
+    - id: nebulous%5:00:00:indistinct:00
+      synset: 00785533-s
     - derivation:
       - 'nebula%1:17:00::'
       id: 'nebulous%3:01:00::'
       pertainym:
       - 'nebula%1:17:00::'
       synset: 03100835-a
-    - id: nebulous%5:00:00:indistinct:00
-      synset: 00785533-s
     - id: nebulous%5:00:00:indefinite:00
       synset: 00705690-s
 nebulously:
@@ -11653,6 +11653,10 @@ negative:
       - 'negate%2:31:00::'
       id: 'negative%3:00:01::'
       synset: 00076123-a
+    - derivation:
+      - 'negativeness%1:07:00::'
+      id: negative%5:00:00:bad:00
+      synset: 01132339-s
     - antonym:
       - 'positive%3:00:04::'
       id: 'negative%3:00:04::'
@@ -11661,10 +11665,6 @@ negative:
       - 'positive%3:00:05::'
       id: 'negative%3:00:05::'
       synset: 01825842-a
-    - derivation:
-      - 'negativeness%1:07:00::'
-      id: negative%5:00:00:bad:00
-      synset: 01132339-s
     - derivation:
       - 'negativeness%1:07:03::'
       id: negative%5:00:00:minus:00
@@ -13327,12 +13327,6 @@ nervous:
       variety: US
     sense:
     - derivation:
-      - 'nerve%1:08:00::'
-      id: 'nervous%3:01:00::'
-      pertainym:
-      - 'nervous_system%1:08:00::'
-      synset: 02915824-a
-    - derivation:
       - 'nervousness%1:07:00::'
       id: nervous%5:00:00:tense:03
       synset: 02415704-s
@@ -13341,6 +13335,12 @@ nervous:
       - 'nervousness%1:12:00::'
       id: nervous%5:00:00:troubled:00
       synset: 02465209-s
+    - derivation:
+      - 'nerve%1:08:00::'
+      id: 'nervous%3:01:00::'
+      pertainym:
+      - 'nervous_system%1:08:00::'
+      synset: 02915824-a
     - derivation:
       - 'nervousness%1:12:00::'
       id: nervous%5:00:00:excited:00
@@ -14798,13 +14798,6 @@ neutral:
     - value: ˈnuːtɹəl
       variety: US
     sense:
-    - antonym:
-      - 'positive%3:00:01::'
-      - 'negative%3:00:02::'
-      id: 'neutral%3:00:02::'
-      synset: 01824496-a
-    - id: 'neutral%3:00:00::'
-      synset: 00387453-a
     - derivation:
       - 'neutrality%1:09:00::'
       id: neutral%5:00:00:objective:00
@@ -14818,6 +14811,13 @@ neutral:
       - 'neutrality%1:04:00::'
       id: neutral%5:00:00:nonaligned:00
       synset: 00735604-s
+    - antonym:
+      - 'positive%3:00:01::'
+      - 'negative%3:00:02::'
+      id: 'neutral%3:00:02::'
+      synset: 01824496-a
+    - id: 'neutral%3:00:00::'
+      synset: 00387453-a
     - id: neutral%5:00:00:colorless:03
       synset: 00409361-s
     - id: neutral%5:00:00:uncharged:00
@@ -18176,6 +18176,8 @@ noble:
     - value: ˈnoʊbəl
       variety: US
     sense:
+    - id: noble%5:00:00:impressive:00
+      synset: 01286600-s
     - antonym:
       - 'lowborn%3:00:00::'
       derivation:
@@ -18189,8 +18191,6 @@ noble:
       - 'nobility%1:07:00::'
       id: 'noble%3:00:01::'
       synset: 01592579-a
-    - id: noble%5:00:00:impressive:00
-      synset: 01286600-s
     - id: noble%5:00:00:unreactive:00
       synset: 01936643-s
   n:
@@ -18915,6 +18915,8 @@ nominal:
       pertainym:
       - 'name%1:10:00::'
       synset: 02779900-a
+    - id: nominal%5:00:00:minimal:00
+      synset: 01499887-s
     - id: 'nominal%3:01:00::'
       pertainym:
       - 'noun%1:10:01::'
@@ -18923,8 +18925,6 @@ nominal:
       - 'real%3:00:01::'
       id: 'nominal%3:00:00::'
       synset: 01946401-a
-    - id: nominal%5:00:00:minimal:00
-      synset: 01499887-s
     - id: nominal%5:00:02:specified:00
       synset: 01103503-s
     - id: nominal%5:00:00:formal:01
@@ -22906,16 +22906,16 @@ northern:
       - 'southern%3:00:02::'
       id: 'northern%3:00:02::'
       synset: 01610335-a
-    - antonym:
-      - 'southern%3:00:01::'
-      id: 'northern%3:00:01::'
-      synset: 01608808-a
     - id: northern%5:00:02:north:00
       synset: 01605879-s
     - derivation:
       - 'northernness%1:07:00::'
       id: northern%5:00:01:north:00
       synset: 01605651-s
+    - antonym:
+      - 'southern%3:00:01::'
+      id: 'northern%3:00:01::'
+      synset: 01608808-a
 northern Europe:
   n:
     sense:
@@ -25915,6 +25915,8 @@ numerical:
     pronunciation:
     - value: n(j)uˈmɛɹɪkəl
     sense:
+    - id: numerical%5:00:00:quantitative:00
+      synset: 01921967-s
     - derivation:
       - 'number%1:23:00::'
       id: 'numerical%3:01:00::'
@@ -25925,8 +25927,6 @@ numerical:
       - 'verbal%3:00:00::'
       id: 'numerical%3:00:00::'
       synset: 02238540-a
-    - id: numerical%5:00:00:quantitative:00
-      synset: 01921967-s
 numerical analysis:
   n:
     sense:
@@ -26010,14 +26010,14 @@ numinous:
     sense:
     - derivation:
       - 'numen%1:18:00::'
+      id: numinous%5:00:00:sacred:00
+      synset: 02063405-s
+    - derivation:
+      - 'numen%1:18:00::'
       id: 'numinous%3:01:00::'
       pertainym:
       - 'numen%1:18:00::'
       synset: 02781171-a
-    - derivation:
-      - 'numen%1:18:00::'
-      id: numinous%5:00:00:sacred:00
-      synset: 02063405-s
 numismatics:
   n:
     pronunciation:

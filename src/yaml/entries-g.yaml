@@ -14694,13 +14694,6 @@ general:
       - 'generality%1:07:00::'
       id: 'general%3:00:00::'
       synset: 01105084-a
-    - antonym:
-      - 'local%3:00:02::'
-      derivation:
-      - 'generality%1:09:00::'
-      - 'generality%1:07:00::'
-      id: 'general%3:00:02::'
-      synset: 01428950-a
     - derivation:
       - 'general%1:09:00::'
       - 'generality%1:09:00::'
@@ -14709,6 +14702,13 @@ general:
       synset: 00787396-s
     - id: general%5:00:00:common:01
       synset: 00489185-s
+    - antonym:
+      - 'local%3:00:02::'
+      derivation:
+      - 'generality%1:09:00::'
+      - 'generality%1:07:00::'
+      id: 'general%3:00:02::'
+      synset: 01428950-a
     - id: general%5:00:00:imprecise:00
       synset: 01845578-s
     - id: general%5:00:00:comprehensive:00
@@ -15340,6 +15340,8 @@ genet:
 genetic:
   a:
     sense:
+    - id: genetic%5:00:00:inheritable:00
+      synset: 01317491-s
     - id: 'genetic%3:01:02::'
       pertainym:
       - 'gene%1:08:00::'
@@ -15355,8 +15357,6 @@ genetic:
       pertainym:
       - 'genetics%1:09:00::'
       synset: 02744928-a
-    - id: genetic%5:00:00:inheritable:00
-      synset: 01317491-s
 genetic abnormality:
   n:
     sense:
@@ -15510,14 +15510,14 @@ genial:
     pronunciation:
     - value: dʒɪˈnʌɪəl
     sense:
-    - id: 'genial%3:01:00::'
-      pertainym:
-      - 'chin%1:08:00::'
-      synset: 02745512-a
     - derivation:
       - 'geniality%1:07:00::'
       id: genial%5:00:00:friendly:01
       synset: 01078866-s
+    - id: 'genial%3:01:00::'
+      pertainym:
+      - 'chin%1:08:00::'
+      synset: 02745512-a
     - id: genial%5:00:00:hospitable:00
       synset: 01245155-s
 geniality:
@@ -34864,14 +34864,14 @@ geometric:
     - value: ˌdʒi.oʊˈmɛt.ɹɪk
       variety: US
     sense:
+    - id: geometric%5:00:00:nonrepresentational:00
+      synset: 01988074-s
     - derivation:
       - 'geometry%1:09:00::'
       id: 'geometric%3:01:00::'
       pertainym:
       - 'geometry%1:09:00::'
       synset: 02745944-a
-    - id: geometric%5:00:00:nonrepresentational:00
-      synset: 01988074-s
 geometric isomer:
   n:
     sense:
@@ -40692,6 +40692,8 @@ glazed:
     pronunciation:
     - value: ɡleɪzd
     sense:
+    - id: glazed%5:00:00:empty:00
+      synset: 01091077-s
     - antonym:
       - 'unglazed%3:00:01::'
       id: 'glazed%3:00:01::'
@@ -40700,8 +40702,6 @@ glazed:
       - 'unglazed%3:00:00::'
       id: 'glazed%3:00:00::'
       synset: 01123184-a
-    - id: glazed%5:00:00:empty:00
-      synset: 01091077-s
     - id: glazed%5:00:00:coated:00
       synset: 01704105-s
 glazer:
@@ -46262,8 +46262,6 @@ gone:
       variety: GB
     - value: ɡɔːn
     sense:
-    - id: 'gone%3:00:00::'
-      synset: 00800854-a
     - adjposition: a
       id: gone%5:00:00:destroyed:00
       synset: 00739426-s
@@ -46271,6 +46269,8 @@ gone:
       synset: 00096726-s
     - id: gone%5:00:00:past:00
       synset: 01733151-s
+    - id: 'gone%3:00:00::'
+      synset: 00800854-a
     - id: gone%5:00:00:tired:00
       synset: 02442263-s
     - adjposition: p
@@ -46401,14 +46401,14 @@ good:
       - 'goodness%1:07:02::'
       id: 'good%3:00:01::'
       synset: 01126910-a
+    - id: good%5:00:00:ample:00
+      synset: 00106819-s
     - antonym:
       - 'evil%3:00:00::'
       derivation:
       - 'goodness%1:07:01::'
       id: 'good%3:00:02::'
       synset: 01133477-a
-    - id: good%5:00:00:ample:00
-      synset: 00106819-s
     - derivation:
       - 'goodness%1:07:01::'
       id: good%5:00:00:reputable:00
@@ -50103,13 +50103,13 @@ granular:
     pronunciation:
     - value: ˈɡɹæn.jə.lə(ɹ)
     sense:
-    - id: 'granular%3:00:04::'
-      synset: 00366879-a
     - derivation:
       - 'grain%1:17:00::'
       - 'granularity%1:07:00::'
       id: granular%5:00:00:coarse:00
       synset: 02239247-s
+    - id: 'granular%3:00:04::'
+      synset: 00366879-a
 granular pearlite:
   n:
     sense:
@@ -50443,6 +50443,10 @@ graphic:
     pronunciation:
     - value: ˈɡɹæfɪk
     sense:
+    - id: graphic%5:00:00:written:00
+      synset: 02293012-s
+    - id: graphic%5:00:00:explicit:00
+      synset: 00944511-s
     - id: 'graphic%3:01:01::'
       pertainym:
       - 'graphics%1:06:00::'
@@ -50451,10 +50455,6 @@ graphic:
       pertainym:
       - 'graph%1:10:00::'
       synset: 02747544-a
-    - id: graphic%5:00:00:written:00
-      synset: 02293012-s
-    - id: graphic%5:00:00:explicit:00
-      synset: 00944511-s
     - id: graphic%5:00:00:realistic:00
       synset: 01947643-s
   n:
@@ -52894,6 +52894,11 @@ green:
     - value: ɡɹiːn
     sense:
     - derivation:
+      - 'green%1:07:00::'
+      - 'greenness%1:07:00::'
+      id: green%5:00:00:chromatic:00
+      synset: 00377031-s
+    - derivation:
       - 'green%1:18:00::'
       id: 'green%3:01:00::'
       pertainym:
@@ -52905,11 +52910,6 @@ green:
       - 'greenness%1:26:00::'
       id: 'green%3:00:00::'
       synset: 01497045-a
-    - derivation:
-      - 'green%1:07:00::'
-      - 'greenness%1:07:00::'
-      id: green%5:00:00:chromatic:00
-      synset: 00377031-s
     - id: green%5:00:00:ill:01
       synset: 02556027-s
     - id: green%5:00:00:naive:00
@@ -53690,14 +53690,14 @@ gregarious:
       - 'gregariousness%1:07:00::'
       id: 'gregarious%3:00:00::'
       synset: 02260390-a
-    - antonym:
-      - 'ungregarious%3:00:01::'
-      id: 'gregarious%3:00:01::'
-      synset: 02261145-a
     - derivation:
       - 'gregariousness%1:07:00::'
       id: gregarious%5:00:00:social:00
       synset: 02256728-s
+    - antonym:
+      - 'ungregarious%3:00:01::'
+      id: 'gregarious%3:00:01::'
+      synset: 02261145-a
 gregariously:
   r:
     sense:
@@ -59860,14 +59860,14 @@ guttural:
     pronunciation:
     - value: ˈɡʌtəɹəl
     sense:
+    - id: guttural%5:00:00:cacophonous:00
+      synset: 00300179-s
     - derivation:
       - 'guttural%1:10:00::'
       id: 'guttural%3:01:00::'
       pertainym:
       - 'throat%1:08:00::'
       synset: 02748215-a
-    - id: guttural%5:00:00:cacophonous:00
-      synset: 00300179-s
   n:
     pronunciation:
     - value: ˈɡʌtəɹəl
@@ -60038,14 +60038,14 @@ gymnastic:
     sense:
     - derivation:
       - 'gymnastics%1:04:00::'
+      id: gymnastic%5:00:00:active:01
+      synset: 00032610-s
+    - derivation:
+      - 'gymnastics%1:04:00::'
       id: 'gymnastic%3:01:00::'
       pertainym:
       - 'gymnastics%1:04:00::'
       synset: 02860617-a
-    - derivation:
-      - 'gymnastics%1:04:00::'
-      id: gymnastic%5:00:00:active:01
-      synset: 00032610-s
 gymnastic apparatus:
   n:
     sense:

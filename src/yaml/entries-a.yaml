@@ -23209,12 +23209,12 @@ abused:
     pronunciation:
     - value: əˈbjuːzd
     sense:
+    - id: abused%5:00:00:misused:00
+      synset: 02505253-s
     - antonym:
       - 'unabused%3:00:01::'
       id: 'abused%3:00:01::'
       synset: 00017390-a
-    - id: abused%5:00:00:misused:00
-      synset: 02505253-s
 abuser:
   n:
     pronunciation:
@@ -26276,16 +26276,16 @@ accusative:
     - value: əˈkjuzətɪv
       variety: US
     sense:
-    - id: 'accusative%3:01:00::'
-      pertainym:
-      - 'accusative_case%1:10:00::'
-      synset: 02873086-a
     - derivation:
       - 'accusative%1:10:00::'
       - 'accuse%2:32:01::'
       - 'accuse%2:32:00::'
       id: accusative%5:00:00:inculpatory:00
       synset: 00927498-s
+    - id: 'accusative%3:01:00::'
+      pertainym:
+      - 'accusative_case%1:10:00::'
+      synset: 02873086-a
   n:
     pronunciation:
     - value: əˈkjuːzətɪv
@@ -29605,6 +29605,11 @@ active:
       - 'activity%1:22:00::'
       id: 'active%3:00:02::'
       synset: 00037570-a
+    - derivation:
+      - 'activeness%1:26:00::'
+      - 'activity%1:26:00::'
+      id: active%5:00:00:operational:00
+      synset: 01664870-s
     - antonym:
       - 'passive%3:00:01::'
       derivation:
@@ -29613,6 +29618,12 @@ active:
       - 'activity%1:07:00::'
       id: 'active%3:00:03::'
       synset: 00038863-a
+    - derivation:
+      - 'active%1:18:00::'
+      - 'activeness%1:26:00::'
+      - 'activity%1:04:00::'
+      id: active%5:00:00:involved:00
+      synset: 01519363-s
     - antonym:
       - 'inactive%3:00:01::'
       derivation:
@@ -29635,6 +29646,11 @@ active:
       - 'activity%1:07:00::'
       id: 'active%3:00:06::'
       synset: 00035578-a
+    - derivation:
+      - 'activeness%1:26:00::'
+      - 'activity%1:04:00::'
+      id: active%5:00:00:existent:00
+      synset: 00930614-s
     - antonym:
       - 'quiet%3:00:03::'
       derivation:
@@ -29668,22 +29684,6 @@ active:
       - 'activity%1:26:00::'
       id: 'active%3:00:08::'
       synset: 00034823-a
-    - derivation:
-      - 'activeness%1:26:00::'
-      - 'activity%1:26:00::'
-      id: active%5:00:00:operational:00
-      synset: 01664870-s
-    - derivation:
-      - 'active%1:18:00::'
-      - 'activeness%1:26:00::'
-      - 'activity%1:04:00::'
-      id: active%5:00:00:involved:00
-      synset: 01519363-s
-    - derivation:
-      - 'activeness%1:26:00::'
-      - 'activity%1:04:00::'
-      id: active%5:00:00:existent:00
-      synset: 00930614-s
   n:
     pronunciation:
     - value: ˈæk.tɪv
@@ -30280,16 +30280,16 @@ acute:
       - 'chronic%3:00:00::'
       id: 'acute%3:00:00::'
       synset: 00044980-a
-    - antonym:
-      - 'obtuse%3:00:00::'
-      id: 'acute%3:00:02::'
-      synset: 01817105-a
     - id: acute%5:00:00:sharp:04
       synset: 00806846-s
     - derivation:
       - 'acuteness%1:09:00::'
       id: acute%5:00:00:perceptive:00
       synset: 01748764-s
+    - antonym:
+      - 'obtuse%3:00:00::'
+      id: 'acute%3:00:02::'
+      synset: 01817105-a
     - derivation:
       - 'acuteness%1:07:00::'
       id: acute%5:00:00:pointed:00
@@ -37008,13 +37008,13 @@ afloat:
   a:
     sense:
     - adjposition: p
+      id: afloat%5:00:00:purposeless:00
+      synset: 01917033-s
+    - adjposition: p
       antonym:
       - 'aground%3:00:00::'
       id: 'afloat%3:00:00::'
       synset: 00077529-a
-    - adjposition: p
-      id: afloat%5:00:00:purposeless:00
-      synset: 01917033-s
     - adjposition: p
       id: afloat%5:00:00:full:00
       synset: 01087442-s
@@ -43165,15 +43165,15 @@ alive:
       - 'aliveness%1:07:00::'
       id: 'alive%3:00:01::'
       synset: 00095301-a
-    - derivation:
-      - 'aliveness%1:07:00::'
-      id: 'alive%3:00:04::'
-      synset: 00119378-a
     - adjposition: p
       derivation:
       - 'aliveness%1:07:00::'
       id: alive%5:00:00:lively:00
       synset: 00808685-s
+    - derivation:
+      - 'aliveness%1:07:00::'
+      id: 'alive%3:00:04::'
+      synset: 00119378-a
     - adjposition: p
       derivation:
       - 'aliveness%1:26:00::'
@@ -45086,10 +45086,10 @@ allow in:
 allowable:
   a:
     sense:
-    - id: 'allowable%3:00:00::'
-      synset: 01765456-a
     - id: allowable%5:00:00:deductible:00
       synset: 00693155-s
+    - id: 'allowable%3:00:00::'
+      synset: 01765456-a
     - derivation:
       - 'allow%2:42:07::'
       - 'allow%2:32:00::'
@@ -46531,10 +46531,6 @@ alternate:
     - value: ˈɔl.tɚ.nət
       variety: US
     sense:
-    - antonym:
-      - 'opposite%3:00:00::'
-      id: 'alternate%3:00:00::'
-      synset: 01667824-a
     - adjposition: a
       id: alternate%5:00:02:cyclic:01
       synset: 00679361-s
@@ -46545,6 +46541,10 @@ alternate:
     - adjposition: a
       id: alternate%5:00:01:cyclic:01
       synset: 00679196-s
+    - antonym:
+      - 'opposite%3:00:00::'
+      id: 'alternate%3:00:00::'
+      synset: 01667824-a
   n:
     pronunciation:
     - value: ɒl.ˈtɜː(ɹ).nət
@@ -51434,16 +51434,16 @@ analogous:
     - value: əˈnæl.ə.ɡəs
       variety: US
     sense:
-    - antonym:
-      - 'homologous%3:00:02::'
-      - 'heterologous%3:00:02::'
-      id: 'analogous%3:00:00::'
-      synset: 01223961-a
     - derivation:
       - 'analogy%1:09:00::'
       - 'analogy%1:04:00::'
       id: analogous%5:00:00:similar:00
       synset: 02079377-s
+    - antonym:
+      - 'homologous%3:00:02::'
+      - 'heterologous%3:00:02::'
+      id: 'analogous%3:00:00::'
+      synset: 01223961-a
 analogously:
   r:
     pronunciation:
@@ -52475,14 +52475,14 @@ ancestral:
     sense:
     - derivation:
       - 'ancestor%1:18:00::'
+      id: ancestral%5:00:00:inheritable:00
+      synset: 01317151-s
+    - derivation:
+      - 'ancestor%1:18:00::'
       id: 'ancestral%3:01:00::'
       pertainym:
       - 'ancestor%1:18:00::'
       synset: 02615330-a
-    - derivation:
-      - 'ancestor%1:18:00::'
-      id: ancestral%5:00:00:inheritable:00
-      synset: 01317151-s
 ancestress:
   n:
     pronunciation:
@@ -53071,15 +53071,15 @@ anemic:
     - value: ʌˈni.mɪk
     sense:
     - derivation:
+      - 'anemia%1:26:01::'
+      id: anemic%5:00:00:weak:00
+      synset: 02332508-s
+    - derivation:
       - 'anemia%1:26:00::'
       id: 'anemic%3:01:00::'
       pertainym:
       - 'anemia%1:26:00::'
       synset: 03052845-a
-    - derivation:
-      - 'anemia%1:26:01::'
-      id: anemic%5:00:00:weak:00
-      synset: 02332508-s
 anemic anoxia:
   n:
     sense:
@@ -53532,14 +53532,14 @@ angelic:
     pronunciation:
     - value: ænˈdʒɛlɪk
     sense:
+    - id: angelic%5:00:00:good:02
+      synset: 01133761-s
     - derivation:
       - 'angel%1:18:00::'
       id: 'angelic%3:01:00::'
       pertainym:
       - 'angel%1:18:00::'
       synset: 02881967-a
-    - id: angelic%5:00:00:good:02
-      synset: 01133761-s
     - id: angelic%5:00:00:lovable:00
       synset: 01462871-s
 angelica:
@@ -56883,6 +56883,16 @@ antagonistic:
     pronunciation:
     - value: æn.tæ.ɡə.ˈnɪs.tɪk
     sense:
+    - derivation:
+      - 'antagonist%1:18:00::'
+      - 'antagonism%1:24:00::'
+      id: antagonistic%5:00:00:negative:02
+      synset: 01824184-s
+    - derivation:
+      - 'antagonism%1:26:00::'
+      - 'antagonism%1:24:00::'
+      id: antagonistic%5:00:00:hostile:01
+      synset: 01248012-s
     - antonym:
       - 'conciliatory%3:00:00::'
       derivation:
@@ -56897,16 +56907,6 @@ antagonistic:
       - 'antagonism%1:04:00::'
       id: 'antagonistic%3:00:02::'
       synset: 00626239-a
-    - derivation:
-      - 'antagonist%1:18:00::'
-      - 'antagonism%1:24:00::'
-      id: antagonistic%5:00:00:negative:02
-      synset: 01824184-s
-    - derivation:
-      - 'antagonism%1:26:00::'
-      - 'antagonism%1:24:00::'
-      id: antagonistic%5:00:00:hostile:01
-      synset: 01248012-s
     - derivation:
       - 'antagonism%1:26:00::'
       id: antagonistic%5:00:00:incompatible:01
@@ -61141,15 +61141,15 @@ apocalyptic:
       variety: GB
     sense:
     - derivation:
+      - 'apocalypse%1:10:00::'
+      id: apocalyptic%5:00:00:prophetic:00
+      synset: 01888391-s
+    - derivation:
       - 'apocalypse%1:11:00::'
       id: 'apocalyptic%3:01:00::'
       pertainym:
       - 'apocalypse%1:11:00::'
       synset: 02643766-a
-    - derivation:
-      - 'apocalypse%1:10:00::'
-      id: apocalyptic%5:00:00:prophetic:00
-      synset: 01888391-s
 apocalyptical:
   a:
     sense:
@@ -64052,6 +64052,8 @@ approachability:
 approachable:
   a:
     sense:
+    - id: approachable%5:00:00:comprehensible:00
+      synset: 00535441-s
     - antonym:
       - 'unapproachable%3:00:00::'
       derivation:
@@ -64059,8 +64061,6 @@ approachable:
       - 'approachability%1:07:00::'
       id: 'approachable%3:00:00::'
       synset: 00135131-a
-    - id: approachable%5:00:00:comprehensible:00
-      synset: 00535441-s
     - derivation:
       - 'approach%2:38:00::'
       id: approachable%5:00:00:accessible:00
@@ -74987,6 +74987,11 @@ astringent:
     - value: əˈstɹɪn.dʒənt
       variety: US
     sense:
+    - derivation:
+      - 'astringency%1:09:00::'
+      - 'astringence%1:09:00::'
+      id: astringent%5:00:00:sour:00
+      synset: 02377595-s
     - antonym:
       - 'nonastringent%3:00:00::'
       derivation:
@@ -74996,11 +75001,6 @@ astringent:
       - 'astringe%2:30:00::'
       id: 'astringent%3:00:00::'
       synset: 00191068-a
-    - derivation:
-      - 'astringency%1:09:00::'
-      - 'astringence%1:09:00::'
-      id: astringent%5:00:00:sour:00
-      synset: 02377595-s
   n:
     pronunciation:
     - value: əˈstɹɪn.dʒənt
@@ -76065,13 +76065,13 @@ atheistic:
     - derivation:
       - 'atheist%1:18:00::'
       - 'atheism%1:09:01::'
-      id: 'atheistic%3:01:00::'
-      synset: 02837382-a
+      id: atheistic%5:00:00:irreligious:00
+      synset: 01788744-s
     - derivation:
       - 'atheist%1:18:00::'
       - 'atheism%1:09:01::'
-      id: atheistic%5:00:00:irreligious:00
-      synset: 01788744-s
+      id: 'atheistic%3:01:00::'
+      synset: 02837382-a
 atheistical:
   a:
     sense:
@@ -77798,6 +77798,8 @@ attached:
     pronunciation:
     - value: əˈtætʃt
     sense:
+    - id: attached%5:00:00:related:02
+      synset: 01980375-s
     - antonym:
       - 'detached%3:00:00::'
       id: 'attached%3:00:02::'
@@ -77806,8 +77808,6 @@ attached:
       - 'unattached%3:00:00::'
       id: 'attached%3:00:01::'
       synset: 00159190-a
-    - id: attached%5:00:00:related:02
-      synset: 01980375-s
     - id: attached%5:00:00:loving:00
       synset: 01468358-s
 attachment:
@@ -78792,6 +78792,11 @@ attractive:
       - 'attractiveness%1:07:00::'
       id: 'attractive%3:00:01::'
       synset: 00167408-a
+    - derivation:
+      - 'attract%2:35:00::'
+      - 'attractiveness%1:07:01::'
+      id: attractive%5:00:00:appealing:00
+      synset: 00172108-s
     - adjposition: a
       antonym:
       - 'repulsive%3:00:00::'
@@ -78799,11 +78804,6 @@ attractive:
       - 'attract%2:35:01::'
       id: 'attractive%3:00:02::'
       synset: 00171217-a
-    - derivation:
-      - 'attract%2:35:00::'
-      - 'attractiveness%1:07:01::'
-      id: attractive%5:00:00:appealing:00
-      synset: 00172108-s
 attractive feature:
   n:
     sense:
@@ -83465,15 +83465,15 @@ away:
     pronunciation:
     - value: əˈweɪ
     sense:
-    - antonym:
-      - 'home%3:00:00::'
-      id: 'away%3:00:00::'
-      synset: 01222609-a
     - adjposition: p
       derivation:
       - 'awayness%1:26:00::'
       id: away%5:00:00:absent:00
       synset: 01853792-s
+    - antonym:
+      - 'home%3:00:00::'
+      id: 'away%3:00:00::'
+      synset: 01222609-a
     - id: away%5:00:00:inaccurate:00
       synset: 00023695-s
   r:
@@ -83555,12 +83555,12 @@ awed:
     pronunciation:
     - value: ɔːd
     sense:
+    - id: awed%5:00:00:reverent:00
+      synset: 02019253-s
     - antonym:
       - 'unawed%3:00:00::'
       id: 'awed%3:00:00::'
       synset: 02021929-a
-    - id: awed%5:00:00:reverent:00
-      synset: 02019253-s
 aweigh:
   a:
     pronunciation:
@@ -83612,16 +83612,16 @@ awful:
     sense:
     - derivation:
       - 'awfulness%1:07:00::'
-      id: 'awful%3:00:02::'
-      synset: 01591485-a
-    - derivation:
-      - 'awfulness%1:07:00::'
       id: awful%5:00:00:bad:00
       synset: 01130122-s
     - derivation:
       - 'awfulness%1:07:00::'
       id: awful%5:00:00:alarming:00
       synset: 00195400-s
+    - derivation:
+      - 'awfulness%1:07:00::'
+      id: 'awful%3:00:02::'
+      synset: 01591485-a
     - id: awful%5:00:00:reverent:00
       synset: 02019253-s
     - id: awful%5:00:00:extraordinary:00
@@ -83692,14 +83692,14 @@ awkward:
       variety: US
     - value: ˈɑkwɚd
     sense:
+    - id: awkward%5:00:00:inconvenient:00
+      synset: 00607783-s
     - antonym:
       - 'graceful%3:00:00::'
       derivation:
       - 'awkwardness%1:09:01::'
       id: 'awkward%3:00:00::'
       synset: 01144030-a
-    - id: awkward%5:00:00:inconvenient:00
-      synset: 00607783-s
     - derivation:
       - 'awkwardness%1:07:02::'
       id: awkward%5:00:00:unwieldy:00
@@ -84121,6 +84121,10 @@ axiomatic:
     - value: ˌæk.si.əˈmæt.ɪk
     sense:
     - derivation:
+      - 'axiom%1:10:01::'
+      id: axiomatic%5:00:00:obvious:00
+      synset: 01623076-s
+    - derivation:
       - 'axiom%1:10:00::'
       id: 'axiomatic%3:01:02::'
       pertainym:
@@ -84132,10 +84136,6 @@ axiomatic:
       pertainym:
       - 'axiom%1:10:01::'
       synset: 02664090-a
-    - derivation:
-      - 'axiom%1:10:01::'
-      id: axiomatic%5:00:00:obvious:00
-      synset: 01623076-s
 axiomatic system:
   n:
     sense:

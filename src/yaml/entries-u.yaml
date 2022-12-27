@@ -3708,6 +3708,10 @@ unacceptable:
     - value: ˌʌn.æk.ˈsɛp.tə.bl̩
       variety: US
     sense:
+    - derivation:
+      - 'unacceptableness%1:07:00::'
+      id: unacceptable%5:00:00:unsatisfactory:00
+      synset: 02090199-s
     - antonym:
       - 'acceptable%3:00:00::'
       derivation:
@@ -3715,10 +3719,6 @@ unacceptable:
       - 'unacceptability%1:07:00::'
       id: 'unacceptable%3:00:00::'
       synset: 00018622-a
-    - derivation:
-      - 'unacceptableness%1:07:00::'
-      id: unacceptable%5:00:00:unsatisfactory:00
-      synset: 02090199-s
     - derivation:
       - 'unacceptableness%1:07:00::'
       - 'unacceptability%1:07:00::'
@@ -3990,6 +3990,9 @@ unaffected:
       - 'affected%3:00:00::'
       id: 'unaffected%3:00:00::'
       synset: 00072600-a
+    - adjposition: p
+      id: unaffected%5:00:01:insensitive:02
+      synset: 02115107-s
     - id: 'unaffected%3:00:02::'
       synset: 01564713-a
     - antonym:
@@ -3998,9 +4001,6 @@ unaffected:
       - 'unaffectedness%1:07:00::'
       id: 'unaffected%3:00:01::'
       synset: 00074954-a
-    - adjposition: p
-      id: unaffected%5:00:01:insensitive:02
-      synset: 02115107-s
 unaffectedness:
   n:
     sense:
@@ -4672,12 +4672,12 @@ unassigned:
 unassisted:
   a:
     sense:
+    - id: unassisted%5:00:00:unsupported:02
+      synset: 02362044-s
     - antonym:
       - 'assisted%3:00:00::'
       id: 'unassisted%3:00:00::'
       synset: 02362685-a
-    - id: unassisted%5:00:00:unsupported:02
-      synset: 02362044-s
 unassuming:
   a:
     pronunciation:
@@ -4714,12 +4714,12 @@ unasterisked:
 unattached:
   a:
     sense:
+    - id: unattached%5:00:00:unconnected:00
+      synset: 00571145-s
     - antonym:
       - 'attached%3:00:01::'
       id: 'unattached%3:00:00::'
       synset: 00159672-a
-    - id: unattached%5:00:00:unconnected:00
-      synset: 00571145-s
     - id: unattached%5:00:00:vagile:00
       synset: 00161553-s
 unattackable:
@@ -5622,6 +5622,8 @@ unbroken:
       - 'broken%3:00:02::'
       id: 'unbroken%3:00:02::'
       synset: 00291789-a
+    - id: unbroken%5:00:00:wild:01
+      synset: 02398287-s
     - id: 'unbroken%3:00:04::'
       synset: 01838944-a
     - antonym:
@@ -5632,8 +5634,6 @@ unbroken:
       - 'broken%3:00:01::'
       id: 'unbroken%3:00:01::'
       synset: 00290231-a
-    - id: unbroken%5:00:00:wild:01
-      synset: 02398287-s
 unbrushed:
   a:
     sense:
@@ -8749,10 +8749,10 @@ underhand:
 underhanded:
   a:
     sense:
-    - id: 'underhanded%3:00:00::'
-      synset: 02480006-a
     - id: underhanded%5:00:00:crooked:02
       synset: 02327024-s
+    - id: 'underhanded%3:00:00::'
+      synset: 02480006-a
 underhandedly:
   r:
     sense:
@@ -11120,12 +11120,12 @@ uneven:
       - 'unevenness%1:07:00::'
       id: 'uneven%3:00:00::'
       synset: 00914441-a
-    - id: 'uneven%3:00:04::'
-      synset: 00916568-a
     - derivation:
       - 'unevenness%1:07:02::'
       id: uneven%5:00:00:unequal:00
       synset: 00896066-s
+    - id: 'uneven%3:00:04::'
+      synset: 00916568-a
     - id: uneven%5:00:05:unsteady:00
       synset: 02313332-s
     - derivation:
@@ -13485,17 +13485,17 @@ uniform:
       id: 'uniform%3:00:00::'
       synset: 01973553-a
     - derivation:
-      - 'uniformize%2:30:00::'
-      - 'uniformity%1:07:01::'
-      - 'uniformity%1:07:00::'
-      id: 'uniform%3:00:04::'
-      synset: 00748118-a
-    - derivation:
       - 'uniformness%1:07:00::'
       - 'uniformity%1:07:01::'
       - 'uniformity%1:07:00::'
       id: uniform%5:00:00:homogeneous:00
       synset: 01203638-s
+    - derivation:
+      - 'uniformize%2:30:00::'
+      - 'uniformity%1:07:01::'
+      - 'uniformity%1:07:00::'
+      id: 'uniform%3:00:04::'
+      synset: 00748118-a
     - derivation:
       - 'uniformity%1:07:00::'
       id: uniform%5:00:00:regular:00
@@ -14239,10 +14239,10 @@ uninterestingness:
 uninterrupted:
   a:
     sense:
-    - id: 'uninterrupted%3:00:00::'
-      synset: 00597095-a
     - id: uninterrupted%5:00:00:unbroken:02
       synset: 00292204-s
+    - id: 'uninterrupted%3:00:00::'
+      synset: 00597095-a
 uninterruptedly:
   r:
     sense:
@@ -15433,16 +15433,16 @@ unlaurelled:
 unlawful:
   a:
     sense:
+    - derivation:
+      - 'unlawfulness%1:07:00::'
+      id: unlawful%5:00:00:irregular:00
+      synset: 01968236-s
     - antonym:
       - 'lawful%3:00:00::'
       derivation:
       - 'unlawfulness%1:07:00::'
       id: 'unlawful%3:00:00::'
       synset: 01399052-a
-    - derivation:
-      - 'unlawfulness%1:07:00::'
-      id: unlawful%5:00:00:irregular:00
-      synset: 01968236-s
     - id: unlawful%5:00:00:illicit:00
       synset: 01555383-s
     - derivation:
@@ -17090,12 +17090,12 @@ unorthodox:
     - value: ʌnˈɔːθədɒks
       variety: GB
     sense:
+    - id: unorthodox%5:00:00:unconventional:00
+      synset: 00609579-s
     - antonym:
       - 'orthodox%3:00:00::'
       id: 'unorthodox%3:00:00::'
       synset: 01695526-a
-    - id: unorthodox%5:00:00:unconventional:00
-      synset: 00609579-s
 unorthodoxy:
   n:
     sense:
@@ -17847,12 +17847,12 @@ unprejudiced:
 unpremeditated:
   a:
     sense:
+    - id: unpremeditated%5:00:00:unplanned:00
+      synset: 01803206-s
     - antonym:
       - 'premeditated%3:00:00::'
       id: 'unpremeditated%3:00:00::'
       synset: 01849016-a
-    - id: unpremeditated%5:00:00:unplanned:00
-      synset: 01803206-s
 unprepared:
   a:
     sense:
@@ -18855,6 +18855,10 @@ unreliability:
 unreliable:
   a:
     sense:
+    - derivation:
+      - 'unreliableness%1:07:00::'
+      id: unreliable%5:00:00:fallible:00
+      synset: 00967779-s
     - antonym:
       - 'reliable%3:00:00::'
       derivation:
@@ -18862,10 +18866,6 @@ unreliable:
       - 'unreliability%1:07:00::'
       id: 'unreliable%3:00:00::'
       synset: 00728305-a
-    - derivation:
-      - 'unreliableness%1:07:00::'
-      id: unreliable%5:00:00:fallible:00
-      synset: 00967779-s
     - derivation:
       - 'unreliableness%1:07:00::'
       id: unreliable%5:00:00:dangerous:00
@@ -22042,16 +22042,16 @@ untouched:
     pronunciation:
     - value: ʌnˈtʌt͡ʃt
     sense:
+    - id: untouched%5:00:00:full:00
+      synset: 01090028-s
+    - id: untouched%5:00:00:unaffected:00
+      synset: 00073398-s
     - antonym:
       - 'touched%3:00:00::'
       id: 'untouched%3:00:00::'
       synset: 02454622-a
     - id: 'untouched%3:00:01::'
       synset: 01564713-a
-    - id: untouched%5:00:00:full:00
-      synset: 01090028-s
-    - id: untouched%5:00:00:unaffected:00
-      synset: 00073398-s
 untoughened:
   a:
     sense:
@@ -22587,12 +22587,12 @@ unvarnished:
 unvarying:
   a:
     sense:
+    - id: unvarying%5:00:00:invariable:00
+      synset: 02516074-s
     - id: 'unvarying%3:00:00::'
       synset: 02518026-a
     - id: 'unvarying%3:00:04::'
       synset: 01973553-a
-    - id: unvarying%5:00:00:invariable:00
-      synset: 02516074-s
 unveil:
   v:
     pronunciation:
@@ -23082,12 +23082,12 @@ unwished-for:
 unwitting:
   a:
     sense:
+    - id: unwitting%5:00:00:unintended:00
+      synset: 01342529-s
     - antonym:
       - 'witting%3:00:00::'
       id: 'unwitting%3:00:00::'
       synset: 00194481-a
-    - id: unwitting%5:00:00:unintended:00
-      synset: 01342529-s
     - id: unwitting%5:00:00:uninformed:00
       synset: 01311849-s
 unwittingly:
@@ -24259,10 +24259,6 @@ upright:
     - value: ˈʌpɹaɪt
     sense:
     - derivation:
-      - 'uprightness%1:07:03::'
-      id: 'upright%3:00:02::'
-      synset: 01238732-a
-    - derivation:
       - 'uprightness%1:07:02::'
       id: upright%5:00:00:vertical:00
       synset: 01236903-s
@@ -24270,6 +24266,10 @@ upright:
       - 'uprightness%1:07:01::'
       id: upright%5:00:00:righteous:00
       synset: 02044341-s
+    - derivation:
+      - 'uprightness%1:07:03::'
+      id: 'upright%3:00:02::'
+      synset: 01238732-a
   n:
     pronunciation:
     - value: ˈʌpɹaɪt

@@ -11039,16 +11039,16 @@ half:
     - value: hæf
       variety: US
     sense:
-    - antonym:
-      - 'whole%3:00:02::'
-      id: 'half%3:00:02::'
-      synset: 00519960-a
     - adjposition: a
       id: half%5:00:00:fractional:00
       synset: 00519479-s
     - adjposition: a
       id: half%5:00:00:incomplete:00
       synset: 00526673-s
+    - antonym:
+      - 'whole%3:00:02::'
+      id: 'half%3:00:02::'
+      synset: 00519960-a
   n:
     form:
     - halves
@@ -14685,6 +14685,12 @@ hard:
       - 'hardness%1:07:01::'
       id: 'hard%3:00:01::'
       synset: 01154418-a
+    - id: hard%5:00:00:strong:00
+      synset: 02330284-s
+    - derivation:
+      - 'hardness%1:07:02::'
+      id: hard%5:00:01:effortful:00
+      synset: 00840083-s
     - id: 'hard%3:00:00::'
       synset: 02294026-a
     - antonym:
@@ -14695,12 +14701,6 @@ hard:
       - 'soft%3:00:03::'
       id: 'hard%3:00:03::'
       synset: 01160012-a
-    - id: hard%5:00:00:strong:00
-      synset: 02330284-s
-    - derivation:
-      - 'hardness%1:07:02::'
-      id: hard%5:00:01:effortful:00
-      synset: 00840083-s
     - id: hard%5:00:00:indulgent:00
       synset: 01302121-s
     - id: hard%5:00:00:alcoholic:00
@@ -15210,14 +15210,14 @@ hardened:
     - value: ˈhɑːdn̩d
       variety: GB
     sense:
+    - id: hardened%5:00:05:hard:02
+      synset: 01159329-s
     - id: 'hardened%3:00:04::'
       synset: 01525661-a
     - antonym:
       - 'soft%3:00:06::'
       id: 'hardened%3:00:06::'
       synset: 01462080-a
-    - id: hardened%5:00:05:hard:02
-      synset: 01159329-s
     - id: hardened%5:00:00:tough:02
       synset: 02456852-s
     - id: hardened%5:00:02:hard:01
@@ -16472,10 +16472,6 @@ harsh:
       variety: GB
     sense:
     - derivation:
-      - 'harshness%1:07:03::'
-      id: 'harsh%3:00:00::'
-      synset: 02238735-a
-    - derivation:
       - 'harshness%1:07:02::'
       id: harsh%5:00:01:unpleasant:00
       synset: 01808700-s
@@ -16483,6 +16479,10 @@ harsh:
       - 'harshness%1:07:01::'
       id: harsh%5:00:03:unpleasant:00
       synset: 01808909-s
+    - derivation:
+      - 'harshness%1:07:03::'
+      id: 'harsh%3:00:00::'
+      synset: 02238735-a
     - derivation:
       - 'harshness%1:07:04::'
       id: harsh%5:00:00:unkind:00
@@ -18977,6 +18977,8 @@ headdress:
 headed:
   a:
     sense:
+    - id: headed%5:00:00:oriented:00
+      synset: 01687881-s
     - antonym:
       - 'unheaded%3:00:00::'
       id: 'headed%3:00:02::'
@@ -18985,8 +18987,6 @@ headed:
       - 'headless%3:00:00::'
       id: 'headed%3:00:01::'
       synset: 01187145-a
-    - id: headed%5:00:00:oriented:00
-      synset: 01687881-s
     - id: headed%5:00:00:mature:01
       synset: 01492570-s
 header:
@@ -21253,6 +21253,14 @@ heavy:
       - 'heaviness%1:12:00::'
       id: 'heavy%3:00:02::'
       synset: 01192305-a
+    - derivation:
+      - 'heaviness%1:07:00::'
+      id: heavy%5:00:00:fat:01
+      synset: 00990957-s
+    - id: heavy%5:00:00:compact:00
+      synset: 00504399-s
+    - id: heavy%5:00:00:cloudy:00
+      synset: 00464442-s
     - antonym:
       - 'light%3:00:08::'
       id: 'heavy%3:00:08::'
@@ -21263,14 +21271,6 @@ heavy:
       - 'heaviness%1:07:00::'
       id: 'heavy%3:00:07::'
       synset: 01194770-a
-    - derivation:
-      - 'heaviness%1:07:00::'
-      id: heavy%5:00:00:fat:01
-      synset: 00990957-s
-    - id: heavy%5:00:00:compact:00
-      synset: 00504399-s
-    - id: heavy%5:00:00:cloudy:00
-      synset: 00464442-s
     - id: heavy%5:00:00:wicked:00
       synset: 02524297-s
     - id: heavy%5:00:01:thick:02
@@ -24395,12 +24395,12 @@ heralded:
 heraldic:
   a:
     sense:
+    - id: heraldic%5:00:00:communicative:00
+      synset: 00500331-s
     - id: 'heraldic%3:01:00::'
       pertainym:
       - 'heraldry%1:06:00::'
       synset: 03005099-a
-    - id: heraldic%5:00:00:communicative:00
-      synset: 00500331-s
 heraldic bearing:
   n:
     sense:
@@ -25213,12 +25213,12 @@ heroic:
     - value: hɪˈɹəʊ.ɪk
       variety: GB
     sense:
+    - id: heroic%5:00:00:large:00
+      synset: 01388944-s
     - id: 'heroic%3:01:00::'
       pertainym:
       - 'hero%1:18:04::'
       synset: 02751262-a
-    - id: heroic%5:00:00:large:00
-      synset: 01388944-s
     - id: heroic%5:00:00:bold:00
       synset: 00252000-s
     - id: heroic%5:00:00:impressive:00
@@ -27005,14 +27005,14 @@ high:
       - 'highness%1:07:00::'
       id: 'high%3:00:01::'
       synset: 01207229-a
-    - antonym:
-      - 'low%3:00:03::'
-      id: 'high%3:00:03::'
-      synset: 01215869-a
     - derivation:
       - 'highness%1:07:01::'
       id: high%5:00:00:superior:01
       synset: 02347190-s
+    - antonym:
+      - 'low%3:00:03::'
+      id: 'high%3:00:03::'
+      synset: 01215869-a
     - derivation:
       - 'high%1:26:02::'
       id: high%5:00:00:elated:00
@@ -29070,10 +29070,10 @@ hire-purchase:
 hired:
   a:
     sense:
-    - id: 'hired%3:00:02::'
-      synset: 00361121-a
     - id: hired%5:00:00:employed:00
       synset: 00867533-s
+    - id: 'hired%3:00:02::'
+      synset: 00361121-a
 hired gun:
   n:
     sense:
@@ -29415,10 +29415,6 @@ historical:
       - 'history%1:09:00::'
       synset: 02931434-a
     - derivation:
-      - 'historicalness%1:07:00::'
-      id: 'historical%3:00:04::'
-      synset: 02385986-a
-    - derivation:
       - 'historicalness%1:26:00::'
       id: historical%5:00:00:real:00
       synset: 01940876-s
@@ -29426,6 +29422,10 @@ historical:
       - 'historicalness%1:07:00::'
       id: historical%5:00:00:past:00
       synset: 01734292-s
+    - derivation:
+      - 'historicalness%1:07:00::'
+      id: 'historical%3:00:04::'
+      synset: 02385986-a
 historical document:
   n:
     sense:
@@ -37985,12 +37985,12 @@ hot:
       - 'hotness%1:07:00::'
       id: 'hot%3:00:01::'
       synset: 01250274-a
+    - id: hot%5:00:00:violent:00
+      synset: 02521858-s
     - antonym:
       - 'cold%3:00:02::'
       id: 'hot%3:00:02::'
       synset: 01259404-a
-    - id: hot%5:00:00:violent:00
-      synset: 02521858-s
     - id: hot%5:00:00:warm:03
       synset: 02542535-s
     - derivation:
@@ -40512,14 +40512,14 @@ humanitarian:
     - value: hjuˌmæ.nəˈtɛ.ɹi.ən
       variety: US
     sense:
+    - id: humanitarian%5:00:00:humane:00
+      synset: 01265356-s
     - derivation:
       - 'humanity%1:07:00::'
       id: 'humanitarian%3:01:00::'
       pertainym:
       - 'humanitarianism%1:09:00::'
       synset: 03005210-a
-    - id: humanitarian%5:00:00:humane:00
-      synset: 01265356-s
   n:
     pronunciation:
     - value: hjʊˌmæ.nɪˈtɛː.ɹɪ.ən
@@ -40633,6 +40633,10 @@ humate:
 humble:
   a:
     sense:
+    - derivation:
+      - 'humbleness%1:26:00::'
+      id: humble%5:00:00:inferior:01
+      synset: 02348528-s
     - antonym:
       - 'proud%3:00:00::'
       derivation:
@@ -40640,10 +40644,6 @@ humble:
       - 'humility%1:07:00::'
       id: 'humble%3:00:00::'
       synset: 01899020-a
-    - derivation:
-      - 'humbleness%1:26:00::'
-      id: humble%5:00:00:inferior:01
-      synset: 02348528-s
     - id: humble%5:00:00:unskilled:00
       synset: 02237706-s
     - derivation:
@@ -44502,15 +44502,15 @@ hyperbolic:
   a:
     sense:
     - derivation:
+      - 'hyperbole%1:10:00::'
+      id: hyperbolic%5:00:00:increased:00
+      synset: 00884272-s
+    - derivation:
       - 'hyperbola%1:25:00::'
       id: 'hyperbolic%3:01:00::'
       pertainym:
       - 'hyperbola%1:25:00::'
       synset: 03005597-a
-    - derivation:
-      - 'hyperbole%1:10:00::'
-      id: hyperbolic%5:00:00:increased:00
-      synset: 00884272-s
 hyperbolic geometry:
   n:
     sense:

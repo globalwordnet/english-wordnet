@@ -8693,6 +8693,12 @@ radical:
     pronunciation:
     - value: ˈɹædɪkəl
     sense:
+    - id: radical%5:00:00:immoderate:00
+      synset: 01539365-s
+    - id: radical%5:00:00:new:00
+      synset: 01647099-s
+    - id: radical%5:00:00:basic:00
+      synset: 01862742-s
     - id: 'radical%3:01:01::'
       pertainym:
       - 'root%1:10:00::'
@@ -8701,12 +8707,6 @@ radical:
       - 'cauline%3:00:00::'
       id: 'radical%3:00:00::'
       synset: 00319565-a
-    - id: radical%5:00:00:immoderate:00
-      synset: 01539365-s
-    - id: radical%5:00:00:new:00
-      synset: 01647099-s
-    - id: radical%5:00:00:basic:00
-      synset: 01862742-s
   n:
     pronunciation:
     - value: ˈɹædɪkəl
@@ -13991,6 +13991,10 @@ rational:
       - 'rationality%1:26:00::'
       id: 'rational%3:00:00::'
       synset: 01931771-a
+    - derivation:
+      - 'rationality%1:07:00::'
+      id: rational%5:00:00:mental:00
+      synset: 01784888-s
     - antonym:
       - 'irrational%3:01:00::'
       derivation:
@@ -13999,10 +14003,6 @@ rational:
       pertainym:
       - 'ratio%1:24:01::'
       synset: 02941214-a
-    - derivation:
-      - 'rationality%1:07:00::'
-      id: rational%5:00:00:mental:00
-      synset: 01784888-s
     - derivation:
       - 'rationalness%1:07:00::'
       - 'rationality%1:07:00::'
@@ -14948,10 +14948,6 @@ raw:
       variety: US
     - value: ɹɒ
     sense:
-    - antonym:
-      - 'cooked%3:00:00::'
-      id: 'raw%3:00:00::'
-      synset: 00622052-a
     - adjposition: a
       id: raw%5:00:00:unprocessed:00
       synset: 01959465-s
@@ -14959,6 +14955,10 @@ raw:
       - 'rawness%1:26:01::'
       id: raw%5:00:00:injured:00
       synset: 01322003-s
+    - antonym:
+      - 'cooked%3:00:00::'
+      id: 'raw%3:00:00::'
+      synset: 00622052-a
     - id: raw%5:00:00:untreated:00
       synset: 01961765-s
     - id: raw%5:00:00:overt:00
@@ -16524,14 +16524,6 @@ real:
       - 'unreal%3:00:02::'
       id: 'real%3:00:02::'
       synset: 01944611-a
-    - antonym:
-      - 'nominal%3:00:00::'
-      id: 'real%3:00:01::'
-      synset: 01946213-a
-    - derivation:
-      - 'reality%1:07:00::'
-      id: 'real%3:00:03::'
-      synset: 00628097-a
     - derivation:
       - 'reality%1:26:02::'
       - 'reality%1:26:01::'
@@ -16548,6 +16540,14 @@ real:
       - 'reality%1:26:01::'
       id: real%5:00:00:true:00
       synset: 02470192-s
+    - antonym:
+      - 'nominal%3:00:00::'
+      id: 'real%3:00:01::'
+      synset: 01946213-a
+    - derivation:
+      - 'reality%1:07:00::'
+      id: 'real%3:00:03::'
+      synset: 00628097-a
     - id: real%5:00:00:tangible:02
       synset: 02400973-s
     - derivation:
@@ -16868,15 +16868,15 @@ realistic:
       id: 'realistic%3:00:00::'
       synset: 01946601-a
     - derivation:
+      - 'realist%1:18:01::'
+      id: realistic%5:00:00:representational:00
+      synset: 01987050-s
+    - derivation:
       - 'realist%1:18:00::'
       id: 'realistic%3:01:00::'
       pertainym:
       - 'realism%1:09:00::'
       synset: 02798114-a
-    - derivation:
-      - 'realist%1:18:01::'
-      id: realistic%5:00:00:representational:00
-      synset: 01987050-s
 realistically:
   r:
     sense:
@@ -18962,6 +18962,15 @@ receptive:
     - value: ɹəˈsɛptɪv
       variety: US
     sense:
+    - derivation:
+      - 'receptiveness%1:07:00::'
+      - 'receptivity%1:07:00::'
+      - 'receive%2:42:00::'
+      - 'receive%2:35:00::'
+      - 'receive%2:31:08::'
+      - 'receive%2:31:00::'
+      id: receptive%5:00:00:pervious:00
+      synset: 01777965-s
     - antonym:
       - 'unreceptive%3:00:00::'
       derivation:
@@ -18972,15 +18981,6 @@ receptive:
       - 'receive%2:31:00::'
       id: 'receptive%3:00:00::'
       synset: 01992330-a
-    - derivation:
-      - 'receptiveness%1:07:00::'
-      - 'receptivity%1:07:00::'
-      - 'receive%2:42:00::'
-      - 'receive%2:35:00::'
-      - 'receive%2:31:08::'
-      - 'receive%2:31:00::'
-      id: receptive%5:00:00:pervious:00
-      synset: 01777965-s
     - derivation:
       - 'receive%2:39:00::'
       id: receptive%5:00:00:afferent:00
@@ -25229,6 +25229,11 @@ reflective:
     pronunciation:
     - value: ɹɪˈflɛktɪv
     sense:
+    - derivation:
+      - 'reflectivity%1:07:01::'
+      - 'reflect%2:31:00::'
+      id: reflective%5:00:00:thoughtful:00
+      synset: 02428209-s
     - antonym:
       - 'nonreflective%3:00:00::'
       derivation:
@@ -25236,11 +25241,6 @@ reflective:
       - 'reflect%2:43:00::'
       id: 'reflective%3:00:00::'
       synset: 02014978-a
-    - derivation:
-      - 'reflectivity%1:07:01::'
-      - 'reflect%2:31:00::'
-      id: reflective%5:00:00:thoughtful:00
-      synset: 02428209-s
     - derivation:
       - 'reflectivity%1:07:01::'
       - 'reflect%2:31:00::'
@@ -27319,16 +27319,6 @@ regular:
       - 'regularity%1:07:00::'
       id: 'regular%3:00:00::'
       synset: 01966104-a
-    - antonym:
-      - 'irregular%3:00:02::'
-      id: 'regular%3:00:02::'
-      synset: 01977842-a
-    - antonym:
-      - 'irregular%3:00:01::'
-      id: 'regular%3:00:01::'
-      synset: 01968763-a
-    - id: 'regular%3:00:06::'
-      synset: 00641523-a
     - adjposition: a
       id: regular%5:00:00:typical:00
       synset: 02478817-s
@@ -27353,6 +27343,16 @@ regular:
       - 'regularity%1:07:00::'
       id: regular%5:00:00:frequent:00
       synset: 01070692-s
+    - antonym:
+      - 'irregular%3:00:02::'
+      id: 'regular%3:00:02::'
+      synset: 01977842-a
+    - antonym:
+      - 'irregular%3:00:01::'
+      id: 'regular%3:00:01::'
+      synset: 01968763-a
+    - id: 'regular%3:00:06::'
+      synset: 00641523-a
     - derivation:
       - 'regularity%1:07:04::'
       id: regular%5:00:00:symmetrical:00
@@ -29942,6 +29942,12 @@ religious:
     - value: ɹɪ.ˈlɪ.d͡ʒəs
       variety: GB
     sense:
+    - derivation:
+      - 'religiousness%1:07:00::'
+      - 'religion%1:14:00::'
+      - 'religiosity%1:07:00::'
+      id: religious%5:00:00:sacred:00
+      synset: 02063669-s
     - antonym:
       - 'irreligious%3:00:00::'
       derivation:
@@ -29955,12 +29961,6 @@ religious:
       - 'religious%1:18:00::'
       id: 'religious%3:00:01::'
       synset: 01787508-a
-    - derivation:
-      - 'religiousness%1:07:00::'
-      - 'religion%1:14:00::'
-      - 'religiosity%1:07:00::'
-      id: religious%5:00:00:sacred:00
-      synset: 02063669-s
     - derivation:
       - 'religiousness%1:07:01::'
       id: religious%5:00:00:scrupulous:00
@@ -31261,8 +31261,6 @@ remorselessly:
 remote:
   a:
     sense:
-    - id: 'remote%3:00:00::'
-      synset: 00452640-a
     - derivation:
       - 'remoteness%1:07:00::'
       id: remote%5:00:01:far:00
@@ -31279,6 +31277,8 @@ remote:
       - 'remoteness%1:07:00::'
       id: remote%5:00:00:inaccessible:00
       synset: 00020141-s
+    - id: 'remote%3:00:00::'
+      synset: 00452640-a
   n:
     sense:
     - id: 'remote%1:06:00::'
@@ -33250,6 +33250,12 @@ repetitiousness:
 repetitive:
   a:
     sense:
+    - derivation:
+      - 'repetitiveness%1:10:00::'
+      - 'repeat%2:36:00::'
+      - 'repeat%2:30:00::'
+      id: repetitive%5:00:00:continual:00
+      synset: 00595176-s
     - antonym:
       - 'nonrepetitive%3:00:00::'
       derivation:
@@ -33258,12 +33264,6 @@ repetitive:
       - 'repeat%2:30:00::'
       id: 'repetitive%3:00:00::'
       synset: 01971192-a
-    - derivation:
-      - 'repetitiveness%1:10:00::'
-      - 'repeat%2:36:00::'
-      - 'repeat%2:30:00::'
-      id: repetitive%5:00:00:continual:00
-      synset: 00595176-s
 repetitively:
   r:
     sense:
@@ -34164,6 +34164,10 @@ representative:
     pronunciation:
     - value: ˌɹɛpɹɪˈzɛnt(ət)ɪv
     sense:
+    - derivation:
+      - 'represent%2:41:02::'
+      id: representative%5:00:00:typical:00
+      synset: 02478647-s
     - antonym:
       - 'nonrepresentative%3:00:00::'
       derivation:
@@ -34171,10 +34175,6 @@ representative:
       - 'represent%2:32:00::'
       id: 'representative%3:00:00::'
       synset: 01988764-a
-    - derivation:
-      - 'represent%2:41:02::'
-      id: representative%5:00:00:typical:00
-      synset: 02478647-s
     - derivation:
       - 'represent%2:41:00::'
       id: representative%5:00:00:democratic:00
@@ -34967,6 +34967,12 @@ repulsive:
     pronunciation:
     - value: ɹɪˈpʌlsɪv
     sense:
+    - derivation:
+      - 'repulsiveness%1:07:00::'
+      - 'repel%2:39:00::'
+      - 'repel%2:37:00::'
+      id: repulsive%5:00:00:offensive:01
+      synset: 01629244-s
     - adjposition: a
       antonym:
       - 'attractive%3:00:02::'
@@ -34976,12 +34982,6 @@ repulsive:
       - 'repel%2:33:00::'
       id: 'repulsive%3:00:00::'
       synset: 00171417-a
-    - derivation:
-      - 'repulsiveness%1:07:00::'
-      - 'repel%2:39:00::'
-      - 'repel%2:37:00::'
-      id: repulsive%5:00:00:offensive:01
-      synset: 01629244-s
     - derivation:
       - 'repulsiveness%1:07:00::'
       - 'repel%2:39:00::'
@@ -36992,10 +36992,10 @@ resolved:
     - value: ɹɪˈzɒlvd
       variety: GB
     sense:
-    - id: 'resolved%3:00:04::'
-      synset: 02274768-a
     - id: resolved%5:00:00:resolute:00
       synset: 01998349-s
+    - id: 'resolved%3:00:04::'
+      synset: 02274768-a
 resolvent:
   n:
     sense:
@@ -38486,12 +38486,12 @@ restrain:
 restrained:
   a:
     sense:
+    - id: restrained%5:00:00:undemonstrative:00
+      synset: 00724494-s
     - antonym:
       - 'unrestrained%3:00:00::'
       id: 'restrained%3:00:00::'
       synset: 02007214-a
-    - id: restrained%5:00:00:undemonstrative:00
-      synset: 00724494-s
     - id: restrained%5:00:00:temperate:00
       synset: 02410802-s
     - id: restrained%5:00:00:unostentatious:00
@@ -41130,12 +41130,12 @@ revealing:
     pronunciation:
     - value: ɹəˈviːlɪŋ
     sense:
+    - id: revealing%5:00:00:informative:00
+      synset: 01308279-s
     - antonym:
       - 'concealing%3:00:00::'
       id: 'revealing%3:00:00::'
       synset: 02098311-a
-    - id: revealing%5:00:00:informative:00
-      synset: 01308279-s
   n:
     pronunciation:
     - value: ɹəˈviːlɪŋ
@@ -41613,14 +41613,14 @@ reverse:
     - value: ɹɪˈvɝs
       variety: US
     sense:
+    - id: reverse%5:00:00:backward:01
+      synset: 00203842-s
     - antonym:
       - 'forward%3:00:03::'
       derivation:
       - 'reverse%1:06:00::'
       id: 'reverse%3:00:00::'
       synset: 00205509-a
-    - id: reverse%5:00:00:backward:01
-      synset: 00203842-s
     - derivation:
       - 'reverse%1:24:00::'
       - 'reverse%1:04:01::'
@@ -42508,6 +42508,10 @@ revolutionary:
       variety: GB
     sense:
     - derivation:
+      - 'revolution%1:11:01::'
+      id: revolutionary%5:00:00:new:00
+      synset: 01647099-s
+    - derivation:
       - 'revolution%1:11:00::'
       id: 'revolutionary%3:01:02::'
       pertainym:
@@ -42525,10 +42529,6 @@ revolutionary:
       - 'revolutionary%1:18:00::'
       id: 'revolutionary%3:00:00::'
       synset: 02022452-a
-    - derivation:
-      - 'revolution%1:11:01::'
-      id: revolutionary%5:00:00:new:00
-      synset: 01647099-s
   n:
     pronunciation:
     - value: ˌɹɛvəˈluʃənɛɹi
@@ -45441,6 +45441,10 @@ right:
       - 'rightness%1:07:01::'
       id: 'right%3:00:02::'
       synset: 00634232-a
+    - derivation:
+      - 'rightness%1:07:02::'
+      id: right%5:00:01:proper:00
+      synset: 01885314-s
     - antonym:
       - 'wrong%3:00:01::'
       derivation:
@@ -45453,17 +45457,13 @@ right:
       - 'rightness%1:07:02::'
       id: 'right%3:00:04::'
       synset: 00636250-a
+    - id: right%5:00:00:appropriate:00
+      synset: 00136526-s
     - antonym:
       - 'left%3:00:02::'
       - 'center%3:00:00::'
       id: 'right%3:00:03::'
       synset: 02037458-a
-    - derivation:
-      - 'rightness%1:07:02::'
-      id: right%5:00:01:proper:00
-      synset: 01885314-s
-    - id: right%5:00:00:appropriate:00
-      synset: 00136526-s
     - id: right%5:00:00:satisfactory:00
       synset: 02089227-s
     - adjposition: a
@@ -46075,10 +46075,6 @@ rigid:
     pronunciation:
     - value: ˈɹɪdʒɪd
     sense:
-    - antonym:
-      - 'nonrigid%3:00:00::'
-      id: 'rigid%3:00:00::'
-      synset: 01030336-a
     - derivation:
       - 'rigidness%1:07:00::'
       - 'rigidity%1:07:00::'
@@ -46093,6 +46089,10 @@ rigid:
       - 'rigidness%1:07:01::'
       id: rigid%5:00:00:unadaptable:00
       synset: 01032766-s
+    - antonym:
+      - 'nonrigid%3:00:00::'
+      id: 'rigid%3:00:00::'
+      synset: 01030336-a
     - derivation:
       - 'rigidness%1:07:00::'
       id: rigid%5:00:00:nonmoving:00
@@ -49780,14 +49780,14 @@ rocky:
     - rockiest
     sense:
     - derivation:
-      - 'rock%1:04:00::'
-      id: 'rocky%3:00:00::'
-      synset: 02251311-a
-    - derivation:
       - 'rockiness%1:07:00::'
       - 'rock%1:17:01::'
       id: rocky%5:00:00:rough:00
       synset: 02249732-s
+    - derivation:
+      - 'rock%1:04:00::'
+      id: 'rocky%3:00:00::'
+      synset: 02251311-a
     - id: rocky%5:00:00:unstable:00
       synset: 02300873-s
     - id: rocky%5:00:00:difficult:00
@@ -53025,18 +53025,6 @@ rough:
       - 'roughness%1:07:00::'
       id: 'rough%3:00:00::'
       synset: 02246206-a
-    - antonym:
-      - 'smooth%3:00:02::'
-      derivation:
-      - 'roughness%1:07:00::'
-      id: 'rough%3:00:02::'
-      synset: 02253147-a
-    - antonym:
-      - 'smooth%3:00:04::'
-      id: 'rough%3:00:04::'
-      synset: 02251311-a
-    - id: 'rough%3:00:05::'
-      synset: 00667354-a
     - derivation:
       - 'roughness%1:26:02::'
       id: rough%5:00:00:unrefined:01
@@ -53057,6 +53045,18 @@ rough:
       - 'roughness%1:26:02::'
       id: rough%5:00:00:aggressive:00
       synset: 00084822-s
+    - antonym:
+      - 'smooth%3:00:02::'
+      derivation:
+      - 'roughness%1:07:00::'
+      id: 'rough%3:00:02::'
+      synset: 02253147-a
+    - antonym:
+      - 'smooth%3:00:04::'
+      id: 'rough%3:00:04::'
+      synset: 02251311-a
+    - id: 'rough%3:00:05::'
+      synset: 00667354-a
     - derivation:
       - 'roughness%1:07:02::'
       id: rough%5:00:00:unskilled:00
@@ -55374,14 +55374,14 @@ rude:
     sense:
     - derivation:
       - 'rudeness%1:07:00::'
-      id: 'rude%3:00:04::'
-      synset: 00645747-a
-    - derivation:
-      - 'rudeness%1:07:00::'
       id: rude%5:00:00:impolite:00
       synset: 00644966-s
     - id: rude%5:00:00:unrefined:01
       synset: 01957679-s
+    - derivation:
+      - 'rudeness%1:07:00::'
+      id: 'rude%3:00:04::'
+      synset: 00645747-a
     - adjposition: a
       id: rude%5:00:00:unprocessed:00
       synset: 01959465-s
@@ -57455,6 +57455,9 @@ running:
       id: 'running%3:00:02::'
       synset: 01243464-a
     - adjposition: a
+      id: running%5:00:00:continual:00
+      synset: 00595391-s
+    - adjposition: a
       antonym:
       - 'passing%3:00:00::'
       id: 'running%3:00:00::'
@@ -57464,9 +57467,6 @@ running:
       - 'standing%3:00:01::'
       id: 'running%3:00:01::'
       synset: 01243286-a
-    - adjposition: a
-      id: running%5:00:00:continual:00
-      synset: 00595391-s
     - adjposition: a
       id: running%5:00:00:lengthwise:00
       synset: 01448329-s

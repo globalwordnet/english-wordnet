@@ -19776,15 +19776,15 @@ safe:
       - 'safeness%1:07:00::'
       id: 'safe%3:00:01::'
       synset: 02065233-a
+    - derivation:
+      - 'safeness%1:07:00::'
+      id: safe%5:00:00:unadventurous:00
+      synset: 00067542-s
     - adjposition: p
       antonym:
       - 'out%3:00:02::'
       id: 'safe%3:00:02::'
       synset: 02068711-a
-    - derivation:
-      - 'safeness%1:07:00::'
-      id: safe%5:00:00:unadventurous:00
-      synset: 00067542-s
     - derivation:
       - 'safeness%1:07:00::'
       id: safe%5:00:00:sound:00
@@ -21231,15 +21231,15 @@ salient:
     pronunciation:
     - value: ˈseɪ.li.ənt
     sense:
-    - antonym:
-      - 're-entrant%3:00:00::'
-      id: 'salient%3:00:00::'
-      synset: 02602211-a
     - derivation:
       - 'saliency%1:26:00::'
       - 'salience%1:26:00::'
       id: salient%5:00:00:conspicuous:00
       synset: 00583156-s
+    - antonym:
+      - 're-entrant%3:00:00::'
+      id: 'salient%3:00:00::'
+      synset: 02602211-a
     - adjposition: ip
       id: salient%5:00:00:inclined:01
       synset: 01238312-s
@@ -22008,6 +22008,10 @@ salty:
     - value: ˈsɒl.ti
       variety: GB
     sense:
+    - derivation:
+      - 'saltiness%1:10:00::'
+      id: salty%5:00:00:stimulating:00
+      synset: 02314554-s
     - antonym:
       - 'fresh%3:00:03::'
       derivation:
@@ -22016,10 +22020,6 @@ salty:
       - 'salt%1:13:00::'
       id: 'salty%3:00:00::'
       synset: 01077510-a
-    - derivation:
-      - 'saltiness%1:10:00::'
-      id: salty%5:00:00:stimulating:00
-      synset: 02314554-s
     - derivation:
       - 'saltiness%1:09:00::'
       - 'salt%1:09:00::'
@@ -23502,13 +23502,13 @@ sandy:
     pronunciation:
     - value: ˈsændi
     sense:
+    - id: sandy%5:00:00:blond:00
+      synset: 00245055-s
     - derivation:
       - 'sand%1:27:00::'
       - 'sandiness%1:07:00::'
       id: 'sandy%3:00:02::'
       synset: 00143308-a
-    - id: sandy%5:00:00:blond:00
-      synset: 00245055-s
 sandy mushroom:
   n:
     sense:
@@ -28957,14 +28957,14 @@ scenic:
     pronunciation:
     - value: ˈsiːnɪk
     sense:
-    - id: 'scenic%3:01:00::'
-      pertainym:
-      - 'scenery%1:06:00::'
-      synset: 02803613-a
     - derivation:
       - 'scene%1:09:00::'
       id: scenic%5:00:00:beautiful:00
       synset: 00222192-s
+    - id: 'scenic%3:01:00::'
+      pertainym:
+      - 'scenery%1:06:00::'
+      synset: 02803613-a
 scenic artist:
   n:
     sense:
@@ -29590,16 +29590,16 @@ schizophrenic:
     - value: ˌskɪtsəˈfɹɛnɪk
     sense:
     - derivation:
+      - 'schizophrenic%1:18:00::'
+      - 'schizophrenia%1:26:00::'
+      id: schizophrenic%5:00:01:insane:00
+      synset: 02084871-s
+    - derivation:
       - 'schizophrenia%1:26:00::'
       id: 'schizophrenic%3:01:00::'
       pertainym:
       - 'schizophrenia%1:26:00::'
       synset: 03126945-a
-    - derivation:
-      - 'schizophrenic%1:18:00::'
-      - 'schizophrenia%1:26:00::'
-      id: schizophrenic%5:00:01:insane:00
-      synset: 02084871-s
   n:
     pronunciation:
     - value: ˌskɪtsəˈfɹɛnɪk
@@ -37064,14 +37064,14 @@ second:
       variety: CA
     - value: səˈkɒnd
     sense:
-    - antonym:
-      - 'first%3:00:03::'
-      id: 'second%3:00:00::'
-      synset: 01020028-a
     - derivation:
       - 'second%1:24:00::'
       id: second%5:00:00:ordinal:00
       synset: 02209815-s
+    - antonym:
+      - 'first%3:00:03::'
+      id: 'second%3:00:00::'
+      synset: 01020028-a
   n:
     pronunciation:
     - value: ˈsɛk.(ə)nd
@@ -43554,12 +43554,12 @@ sensational:
       - 'unsensational%3:00:00::'
       id: 'sensational%3:00:00::'
       synset: 02108860-a
+    - id: sensational%5:00:00:impressive:00
+      synset: 01286013-s
     - id: 'sensational%3:01:00::'
       pertainym:
       - 'sensation%1:09:00::'
       synset: 02807248-a
-    - id: sensational%5:00:00:impressive:00
-      synset: 01286013-s
 sensationalism:
   n:
     sense:
@@ -44260,6 +44260,9 @@ sensory:
     pronunciation:
     - value: ˈsɛn.sə.ɹi
     sense:
+    - adjposition: a
+      id: sensory%5:00:00:afferent:00
+      synset: 00334509-s
     - antonym:
       - 'extrasensory%3:00:00::'
       id: 'sensory%3:00:00::'
@@ -44268,9 +44271,6 @@ sensory:
       pertainym:
       - 'sensation%1:09:00::'
       synset: 02807248-a
-    - adjposition: a
-      id: sensory%5:00:00:afferent:00
-      synset: 00334509-s
 sensory activity:
   n:
     sense:
@@ -45719,6 +45719,12 @@ serial:
     - value: ˈsɪəɹiːəɫ
     sense:
     - derivation:
+      - 'serial%1:10:01::'
+      - 'serial%1:10:00::'
+      - 'series%1:14:00::'
+      id: serial%5:00:00:ordered:00
+      synset: 01671982-s
+    - derivation:
       - 'series%1:14:00::'
       id: 'serial%3:01:02::'
       pertainym:
@@ -45732,12 +45738,6 @@ serial:
       pertainym:
       - 'series%1:14:00::'
       synset: 02807844-a
-    - derivation:
-      - 'serial%1:10:01::'
-      - 'serial%1:10:00::'
-      - 'series%1:14:00::'
-      id: serial%5:00:00:ordered:00
-      synset: 01671982-s
     - derivation:
       - 'series%1:24:00::'
       id: serial%5:00:00:asynchronous:00
@@ -46022,10 +46022,6 @@ serious:
       synset: 02125659-a
     - derivation:
       - 'seriousness%1:07:00::'
-      id: 'serious%3:00:02::'
-      synset: 02130695-a
-    - derivation:
-      - 'seriousness%1:07:00::'
       id: serious%5:00:00:important:00
       synset: 01282721-s
     - derivation:
@@ -46034,6 +46030,10 @@ serious:
       synset: 00654061-s
     - id: serious%5:00:00:intellectual:00
       synset: 01336429-s
+    - derivation:
+      - 'seriousness%1:07:00::'
+      id: 'serious%3:00:02::'
+      synset: 02130695-a
     - id: serious%5:00:00:difficult:00
       synset: 00751972-s
 serious music:
@@ -51298,12 +51298,12 @@ shaped:
     pronunciation:
     - value: ʃeɪpt
     sense:
+    - id: shaped%5:00:00:formed:00
+      synset: 02157202-s
     - id: 'shaped%3:01:00::'
       pertainym:
       - 'shape%1:03:00::'
       synset: 03147725-a
-    - id: shaped%5:00:00:formed:00
-      synset: 02157202-s
 shapeless:
   a:
     sense:
@@ -51624,25 +51624,6 @@ sharp:
     - value: ʃɑɹp
       variety: US
     sense:
-    - antonym:
-      - 'dull%3:00:04::'
-      derivation:
-      - 'sharpness%1:07:05::'
-      id: 'sharp%3:00:04::'
-      synset: 00806609-a
-    - antonym:
-      - 'dull%3:00:01::'
-      derivation:
-      - 'sharpness%1:07:01::'
-      id: 'sharp%3:00:00::'
-      synset: 00804397-a
-    - antonym:
-      - 'flat%3:00:00::'
-      - 'natural%3:00:04::'
-      derivation:
-      - 'sharp%1:10:00::'
-      id: 'sharp%3:00:03::'
-      synset: 01582381-a
     - derivation:
       - 'sharpness%1:07:03::'
       id: sharp%5:00:00:distinct:00
@@ -51668,6 +51649,25 @@ sharp:
       synset: 01217102-s
     - id: sharp%5:00:00:steep:00
       synset: 01148636-s
+    - antonym:
+      - 'dull%3:00:04::'
+      derivation:
+      - 'sharpness%1:07:05::'
+      id: 'sharp%3:00:04::'
+      synset: 00806609-a
+    - antonym:
+      - 'dull%3:00:01::'
+      derivation:
+      - 'sharpness%1:07:01::'
+      id: 'sharp%3:00:00::'
+      synset: 00804397-a
+    - antonym:
+      - 'flat%3:00:00::'
+      - 'natural%3:00:04::'
+      derivation:
+      - 'sharp%1:10:00::'
+      id: 'sharp%3:00:03::'
+      synset: 01582381-a
     - id: sharp%5:00:00:sudden:00
       synset: 01147715-s
     - derivation:
@@ -54364,14 +54364,14 @@ shiny:
     - value: ˈʃaɪni
     sense:
     - derivation:
+      - 'shininess%1:07:00::'
+      id: shiny%5:00:00:bright:00
+      synset: 00282523-s
+    - derivation:
       - 'shine%1:07:00::'
       - 'shininess%1:07:00::'
       id: 'shiny%3:00:04::'
       synset: 01123184-a
-    - derivation:
-      - 'shininess%1:07:00::'
-      id: shiny%5:00:00:bright:00
-      synset: 00282523-s
     - derivation:
       - 'shine%1:07:00::'
       - 'shininess%1:07:00::'
@@ -56617,6 +56617,10 @@ short:
       synset: 02395180-a
     - derivation:
       - 'shortness%1:26:00::'
+      id: short%5:00:00:insufficient:00
+      synset: 02344882-s
+    - derivation:
+      - 'shortness%1:26:00::'
       id: 'short%3:00:00::'
       synset: 02013127-a
     - antonym:
@@ -56627,10 +56631,6 @@ short:
       - 'long%3:00:04::'
       id: 'short%3:00:04::'
       synset: 01447121-a
-    - derivation:
-      - 'shortness%1:26:00::'
-      id: short%5:00:00:insufficient:00
-      synset: 02344882-s
     - id: short%5:00:02:insufficient:00
       synset: 02345399-s
     - id: short%5:00:00:improvident:00
@@ -57358,13 +57358,13 @@ shortsighted:
   a:
     sense:
     - derivation:
-      - 'shortsightedness%1:26:00::'
-      id: 'shortsighted%3:00:00::'
-      synset: 02164641-a
-    - derivation:
       - 'shortsightedness%1:07:00::'
       id: shortsighted%5:00:00:improvident:00
       synset: 01902113-s
+    - derivation:
+      - 'shortsightedness%1:26:00::'
+      id: 'shortsighted%3:00:00::'
+      synset: 02164641-a
     - derivation:
       - 'shortsightedness%1:07:00::'
       id: shortsighted%5:00:00:imprudent:00
@@ -61890,12 +61890,12 @@ significant:
       - 'significance%1:07:00::'
       id: 'significant%3:00:00::'
       synset: 02168847-a
+    - id: significant%5:00:00:considerable:00
+      synset: 00627729-s
     - antonym:
       - 'nonsignificant%3:00:00::'
       id: 'significant%3:00:01::'
       synset: 02173212-a
-    - id: significant%5:00:00:considerable:00
-      synset: 00627729-s
     - derivation:
       - 'significance%1:10:00::'
       - 'significance%1:09:01::'
@@ -63740,12 +63740,6 @@ simple:
       - 'simplicity%1:07:02::'
       id: 'simple%3:00:02::'
       synset: 02182456-a
-    - antonym:
-      - 'compound%3:00:00::'
-      derivation:
-      - 'simplicity%1:07:02::'
-      id: 'simple%3:00:01::'
-      synset: 02173903-a
     - derivation:
       - 'simpleness%1:07:02::'
       - 'simplicity%1:07:00::'
@@ -63763,6 +63757,12 @@ simple:
       - 'simpleness%1:07:04::'
       id: simple%5:00:00:retarded:00
       synset: 01847305-s
+    - antonym:
+      - 'compound%3:00:00::'
+      derivation:
+      - 'simplicity%1:07:02::'
+      id: 'simple%3:00:01::'
+      synset: 02173903-a
     - derivation:
       - 'simpleness%1:07:01::'
       - 'simplicity%1:07:01::'
@@ -64371,14 +64371,14 @@ sinewy:
     pronunciation:
     - value: ˈsɪnjuːi
     sense:
+    - id: sinewy%5:00:00:tough:01
+      synset: 02455307-s
     - derivation:
       - 'sinew%1:08:00::'
       id: 'sinewy%3:01:00::'
       pertainym:
       - 'sinew%1:08:00::'
       synset: 02822204-a
-    - id: sinewy%5:00:00:tough:01
-      synset: 02455307-s
     - derivation:
       - 'sinew%1:07:00::'
       id: sinewy%5:00:00:strong:00
@@ -65010,14 +65010,6 @@ singular:
     - value: ˈsɪŋɡjʊlə
       variety: GB
     sense:
-    - antonym:
-      - 'plural%3:00:01::'
-      id: 'singular%3:00:01::'
-      synset: 02191060-a
-    - antonym:
-      - 'plural%3:00:00::'
-      id: 'singular%3:00:00::'
-      synset: 02190501-a
     - derivation:
       - 'singularity%1:07:02::'
       id: singular%5:00:00:extraordinary:00
@@ -65030,6 +65022,14 @@ singular:
       - 'singularity%1:07:01::'
       id: singular%5:00:00:individual:00
       synset: 00496667-s
+    - antonym:
+      - 'plural%3:00:01::'
+      id: 'singular%3:00:01::'
+      synset: 02191060-a
+    - antonym:
+      - 'plural%3:00:00::'
+      id: 'singular%3:00:00::'
+      synset: 02190501-a
     - derivation:
       - 'singularity%1:07:01::'
       id: singular%5:00:00:single:05
@@ -68135,15 +68135,15 @@ skinny:
     - value: ˈskɪni
     sense:
     - derivation:
+      - 'skinniness%1:07:00::'
+      id: skinny%5:00:00:thin:03
+      synset: 00993331-s
+    - derivation:
       - 'skin%1:08:00::'
       id: 'skinny%3:01:00::'
       pertainym:
       - 'skin%1:08:00::'
       synset: 02947250-a
-    - derivation:
-      - 'skinniness%1:07:00::'
-      id: skinny%5:00:00:thin:03
-      synset: 00993331-s
     - id: skinny%5:00:00:tight:01
       synset: 01451069-s
     - id: skinny%5:00:00:stingy:00
@@ -73285,15 +73285,15 @@ slow:
       - 'slowness%1:07:00::'
       id: 'slow%3:00:02::'
       synset: 00985793-a
-    - antonym:
-      - 'fast%3:00:03::'
-      id: 'slow%3:00:03::'
-      synset: 00986913-a
     - derivation:
       - 'slowness%1:09:02::'
       - 'slowness%1:09:01::'
       id: slow%5:00:00:stupid:00
       synset: 00442596-s
+    - antonym:
+      - 'fast%3:00:03::'
+      id: 'slow%3:00:03::'
+      synset: 00986913-a
     - id: slow%5:00:00:uninteresting:00
       synset: 01348155-s
     - id: slow%5:00:00:inactive:03
@@ -75976,12 +75976,20 @@ smooth:
       - 'smoothness%1:07:00::'
       id: 'smooth%3:00:00::'
       synset: 02244586-a
+    - derivation:
+      - 'smoothness%1:07:03::'
+      id: smooth%5:00:00:diplomatic:00
+      synset: 00762345-s
     - antonym:
       - 'rough%3:00:02::'
       derivation:
       - 'smoothness%1:07:01::'
       id: 'smooth%3:00:02::'
       synset: 02252363-a
+    - derivation:
+      - 'smoothness%1:07:02::'
+      id: smooth%5:00:00:graceful:00
+      synset: 01143332-s
     - derivation:
       - 'smoothness%1:07:02::'
       id: 'smooth%3:00:03::'
@@ -75992,14 +76000,6 @@ smooth:
       - 'smoothness%1:07:02::'
       id: 'smooth%3:00:04::'
       synset: 02251155-a
-    - derivation:
-      - 'smoothness%1:07:03::'
-      id: smooth%5:00:00:diplomatic:00
-      synset: 00762345-s
-    - derivation:
-      - 'smoothness%1:07:02::'
-      id: smooth%5:00:00:graceful:00
-      synset: 01143332-s
     - derivation:
       - 'smoothness%1:07:02::'
       id: smooth%5:00:00:easy:01
@@ -80235,14 +80235,14 @@ sober:
       synset: 00803088-a
     - derivation:
       - 'soberness%1:07:00::'
-      id: 'sober%3:00:02::'
-      synset: 02130695-a
-    - derivation:
-      - 'soberness%1:07:00::'
       id: sober%5:00:00:serious:00
       synset: 02126493-s
     - id: sober%5:00:00:colorless:02
       synset: 00406256-s
+    - derivation:
+      - 'soberness%1:07:00::'
+      id: 'sober%3:00:02::'
+      synset: 02130695-a
   v:
     pronunciation:
     - value: ˈsəʊ.bə(ɹ)
@@ -81705,6 +81705,8 @@ soft:
       - 'softness%1:07:01::'
       id: 'soft%3:00:04::'
       synset: 01457415-a
+    - id: soft%5:00:00:tender:02
+      synset: 02457397-s
     - id: 'soft%3:00:00::'
       synset: 02293817-a
     - antonym:
@@ -81723,8 +81725,6 @@ soft:
       - 'softness%1:07:01::'
       id: 'soft%3:00:03::'
       synset: 01160432-a
-    - id: soft%5:00:00:tender:02
-      synset: 02457397-s
     - derivation:
       - 'softness%1:26:00::'
       id: soft%5:00:00:falling:00
@@ -83467,6 +83467,10 @@ solid:
     - value: ˈsɒlɪd
       variety: GB
     sense:
+    - derivation:
+      - 'solidness%1:07:01::'
+      id: solid%5:00:00:good:01
+      synset: 01128873-s
     - antonym:
       - 'liquid%3:00:00::'
       - 'gaseous%3:00:00::'
@@ -83481,10 +83485,6 @@ solid:
       - 'solidity%1:26:00::'
       id: 'solid%3:00:02::'
       synset: 02271436-a
-    - derivation:
-      - 'solidness%1:07:01::'
-      id: solid%5:00:00:good:01
-      synset: 01128873-s
     - derivation:
       - 'solidness%1:07:00::'
       id: solid%5:00:00:homogeneous:00
@@ -86506,14 +86506,14 @@ sound:
       - 'soundness%1:26:00::'
       id: 'sound%3:00:00::'
       synset: 02281076-a
+    - id: sound%5:00:00:reasonable:00
+      synset: 01950705-s
     - antonym:
       - 'unsound%3:00:01::'
       derivation:
       - 'soundness%1:26:00::'
       id: 'sound%3:00:01::'
       synset: 02282958-a
-    - id: sound%5:00:00:reasonable:00
-      synset: 01950705-s
     - derivation:
       - 'soundness%1:07:00::'
       id: sound%5:00:00:healthy:00
@@ -87093,16 +87093,16 @@ sour:
     - value: ˈsaʊə
       variety: GB
     sense:
+    - derivation:
+      - 'sourness%1:07:00::'
+      id: sour%5:00:00:malodorous:00
+      synset: 01058621-s
     - antonym:
       - 'sweet%3:00:02::'
       derivation:
       - 'sourness%1:07:00::'
       id: 'sour%3:00:00::'
       synset: 02377355-a
-    - derivation:
-      - 'sourness%1:07:00::'
-      id: sour%5:00:00:malodorous:00
-      synset: 01058621-s
     - derivation:
       - 'sourness%1:09:00::'
       - 'sourness%1:07:00::'
@@ -87790,16 +87790,16 @@ southern:
       - 'northern%3:00:02::'
       id: 'southern%3:00:02::'
       synset: 01611230-a
+    - derivation:
+      - 'southernness%1:07:00::'
+      id: southern%5:00:02:south:00
+      synset: 01607761-s
     - antonym:
       - 'northern%3:00:01::'
       derivation:
       - 'southernness%1:07:00::'
       id: 'southern%3:00:01::'
       synset: 01609663-a
-    - derivation:
-      - 'southernness%1:07:00::'
-      id: southern%5:00:02:south:00
-      synset: 01607761-s
     - derivation:
       - 'southernness%1:07:00::'
       id: southern%5:00:01:south:00
@@ -88594,12 +88594,12 @@ spacecraft event time:
 spaced:
   a:
     sense:
+    - id: spaced%5:00:00:distributed:00
+      synset: 00544502-s
     - antonym:
       - 'unspaced%3:00:00::'
       id: 'spaced%3:00:00::'
       synset: 01660209-a
-    - id: spaced%5:00:00:distributed:00
-      synset: 00544502-s
 spaced-out:
   a:
     sense:
@@ -89444,12 +89444,12 @@ sparkling:
     - value: ˈspɑːkl̩ɪŋ
       variety: GB
     sense:
+    - id: sparkling%5:00:00:starry:00
+      synset: 02307429-s
     - antonym:
       - 'still%3:00:00::'
       id: 'sparkling%3:00:00::'
       synset: 02285028-a
-    - id: sparkling%5:00:00:starry:00
-      synset: 02307429-s
   n:
     pronunciation:
     - value: ˈspɑɹkl̩ɪŋ
@@ -90813,6 +90813,10 @@ specific:
       - 'nonspecific%3:00:00::'
       id: 'specific%3:00:00::'
       synset: 01106714-a
+    - derivation:
+      - 'specificity%1:07:01::'
+      id: specific%5:00:00:specified:00
+      synset: 01103644-s
     - id: 'specific%3:01:00::'
       pertainym:
       - 'species%1:14:00::'
@@ -90821,10 +90825,6 @@ specific:
       - 'nonspecific%3:00:00::'
       id: 'specific%3:00:02::'
       synset: 01108926-a
-    - derivation:
-      - 'specificity%1:07:01::'
-      id: specific%5:00:00:specified:00
-      synset: 01103644-s
   n:
     sense:
     - antonym:
@@ -95906,14 +95906,14 @@ splintery:
     sense:
     - derivation:
       - 'splinter%1:17:00::'
+      id: splintery%5:00:00:breakable:00
+      synset: 00713070-s
+    - derivation:
+      - 'splinter%1:17:00::'
       id: 'splintery%3:01:00::'
       pertainym:
       - 'splinter%1:17:00::'
       synset: 02812172-a
-    - derivation:
-      - 'splinter%1:17:00::'
-      id: splintery%5:00:00:breakable:00
-      synset: 00713070-s
 split:
   a:
     pronunciation:
@@ -97358,12 +97358,12 @@ sporting:
     - value: ˈspɔːtɪŋ
       variety: GB
     sense:
+    - id: sporting%5:00:00:fair:03
+      synset: 00959923-s
     - id: 'sporting%3:01:00::'
       pertainym:
       - 'sport%1:04:00::'
       synset: 02812662-a
-    - id: sporting%5:00:00:fair:03
-      synset: 00959923-s
     - id: sporting%5:00:00:adventurous:00
       synset: 00067174-s
     - id: sporting%5:00:00:indulgent:00
@@ -104428,6 +104428,8 @@ standard:
       - 'nonstandard%3:00:02::'
       id: 'standard%3:00:02::'
       synset: 02303673-a
+    - id: standard%5:00:00:common:01
+      synset: 00489512-s
     - antonym:
       - 'nonstandard%3:00:00::'
       id: 'standard%3:00:01::'
@@ -104436,8 +104438,6 @@ standard:
       - 'nonstandard%3:00:03::'
       id: 'standard%3:00:03::'
       synset: 02305339-a
-    - id: standard%5:00:00:common:01
-      synset: 00489512-s
     - id: standard%5:00:00:regular:00
       synset: 01966886-s
   n:
@@ -104720,6 +104720,12 @@ standing:
   a:
     sense:
     - adjposition: a
+      id: standing%5:00:00:erect:00
+      synset: 01240306-s
+    - adjposition: a
+      id: standing%5:00:00:permanent:00
+      synset: 01760020-s
+    - adjposition: a
       antonym:
       - 'running%3:00:02::'
       id: 'standing%3:00:02::'
@@ -104733,12 +104739,6 @@ standing:
       - 'seated%3:00:00::'
       id: 'standing%3:00:00::'
       synset: 01242735-a
-    - adjposition: a
-      id: standing%5:00:00:erect:00
-      synset: 01240306-s
-    - adjposition: a
-      id: standing%5:00:00:permanent:00
-      synset: 01760020-s
     - id: standing%5:00:00:regular:02
       synset: 01978028-s
   n:
@@ -106617,12 +106617,12 @@ static:
     pronunciation:
     - value: ˈstæt.ɪk
     sense:
+    - id: static%5:00:00:nonmoving:00
+      synset: 01568708-s
     - id: 'static%3:01:00::'
       pertainym:
       - 'static_electricity%1:19:00::'
       synset: 02729745-a
-    - id: static%5:00:00:nonmoving:00
-      synset: 01568708-s
     - id: static%5:00:00:unchangeable:00
       synset: 00349120-s
   n:
@@ -108654,13 +108654,13 @@ stellar:
     - value: ˈstɛlɚ
       variety: US
     sense:
+    - adjposition: a
+      id: stellar%5:00:00:major:06
+      synset: 01475933-s
     - id: 'stellar%3:01:00::'
       pertainym:
       - 'star%1:17:00::'
       synset: 02813799-a
-    - adjposition: a
-      id: stellar%5:00:00:major:06
-      synset: 01475933-s
 stellar association:
   n:
     sense:
@@ -110636,8 +110636,6 @@ stiff:
     pronunciation:
     - value: stɪf
     sense:
-    - id: 'stiff%3:00:00::'
-      synset: 01829730-a
     - derivation:
       - 'stiffness%1:07:00::'
       id: stiff%5:00:00:immobile:00
@@ -110648,6 +110646,8 @@ stiff:
       - 'stiffness%1:07:02::'
       id: stiff%5:00:00:formal:01
       synset: 01047623-s
+    - id: 'stiff%3:00:00::'
+      synset: 01829730-a
     - derivation:
       - 'stiffness%1:07:04::'
       id: stiff%5:00:00:resolute:00
@@ -111041,16 +111041,6 @@ stiletto heel:
 still:
   a:
     sense:
-    - antonym:
-      - 'moving%3:00:03::'
-      derivation:
-      - 'stillness%1:26:01::'
-      id: 'still%3:00:03::'
-      synset: 01570144-a
-    - antonym:
-      - 'sparkling%3:00:00::'
-      id: 'still%3:00:00::'
-      synset: 02285234-a
     - derivation:
       - 'stillness%1:26:01::'
       id: still%5:00:01:nonmoving:00
@@ -111063,6 +111053,16 @@ still:
       - 'stillness%1:26:00::'
       id: still%5:00:00:calm:00
       synset: 00303750-s
+    - antonym:
+      - 'moving%3:00:03::'
+      derivation:
+      - 'stillness%1:26:01::'
+      id: 'still%3:00:03::'
+      synset: 01570144-a
+    - antonym:
+      - 'sparkling%3:00:00::'
+      id: 'still%3:00:00::'
+      synset: 02285234-a
     - derivation:
       - 'stillness%1:26:01::'
       - 'stillness%1:26:00::'
@@ -115147,6 +115147,8 @@ straight:
     pronunciation:
     - value: stɹeɪt
     sense:
+    - id: straight%5:00:00:continuous:01
+      synset: 00599155-s
     - antonym:
       - 'crooked%3:00:01::'
       derivation:
@@ -115159,6 +115161,10 @@ straight:
       - 'straightness%1:07:01::'
       id: 'straight%3:00:03::'
       synset: 01034481-a
+    - id: straight%5:00:00:erect:00
+      synset: 01240627-s
+    - id: straight%5:00:00:accurate:00
+      synset: 00022999-s
     - antonym:
       - 'crooked%3:00:02::'
       derivation:
@@ -115174,12 +115180,6 @@ straight:
       - 'straightness%1:07:00::'
       id: 'straight%3:00:05::'
       synset: 02322264-a
-    - id: straight%5:00:00:continuous:01
-      synset: 00599155-s
-    - id: straight%5:00:00:erect:00
-      synset: 01240627-s
-    - id: straight%5:00:00:accurate:00
-      synset: 00022999-s
     - id: straight%5:00:00:tidy:00
       synset: 02432754-s
     - derivation:
@@ -115885,12 +115885,12 @@ strange:
       - 'strangeness%1:07:00::'
       id: 'strange%3:00:00::'
       synset: 00970318-a
-    - id: 'strange%3:00:01::'
-      synset: 01038139-a
     - derivation:
       - 'strangeness%1:07:00::'
       id: strange%5:00:01:unfamiliar:00
       synset: 00969942-s
+    - id: 'strange%3:00:01::'
+      synset: 01038139-a
 strange attractor:
   n:
     sense:
@@ -116315,12 +116315,12 @@ stratification:
 stratified:
   a:
     sense:
+    - id: stratified%5:00:02:hierarchical:00
+      synset: 01206658-s
     - antonym:
       - 'unstratified%3:00:00::'
       id: 'stratified%3:00:00::'
       synset: 00209821-a
-    - id: stratified%5:00:02:hierarchical:00
-      synset: 01206658-s
     - id: stratified%5:00:00:hierarchical:00
       synset: 01206375-s
 stratified language:
@@ -117446,12 +117446,12 @@ stressed:
     pronunciation:
     - value: stɹɛst
     sense:
+    - id: stressed%5:00:00:troubled:00
+      synset: 02467725-s
     - antonym:
       - 'unstressed%3:00:00::'
       id: 'stressed%3:00:00::'
       synset: 02327216-a
-    - id: stressed%5:00:00:troubled:00
-      synset: 02467725-s
 stressful:
   a:
     pronunciation:
@@ -117893,10 +117893,6 @@ strict:
     - value: stɹɪkt
     sense:
     - derivation:
-      - 'strictness%1:07:01::'
-      id: 'strict%3:00:00::'
-      synset: 01302836-a
-    - derivation:
       - 'strictness%1:07:02::'
       id: strict%5:00:00:exact:00
       synset: 00918670-s
@@ -117904,6 +117900,10 @@ strict:
       - 'strictness%1:07:02::'
       id: strict%5:00:00:invariable:00
       synset: 02516312-s
+    - derivation:
+      - 'strictness%1:07:01::'
+      id: 'strict%3:00:00::'
+      synset: 01302836-a
     - derivation:
       - 'strictness%1:07:01::'
       id: strict%5:00:00:intolerant:00
@@ -119421,12 +119421,12 @@ strong:
       - 'weak%3:00:00::'
       id: 'strong%3:00:00::'
       synset: 02328781-a
-    - id: 'strong%3:00:04::'
-      synset: 01829730-a
     - id: strong%5:00:00:intense:00
       synset: 01517595-s
     - id: strong%5:00:00:powerful:00
       synset: 01832697-s
+    - id: 'strong%3:00:04::'
+      synset: 01829730-a
     - id: strong%5:00:00:invulnerable:00
       synset: 02536283-s
     - id: strong%5:00:00:sound:01
@@ -119690,14 +119690,14 @@ structural:
       pertainym:
       - 'structure%1:07:00::'
       synset: 02908410-a
-    - id: 'structural%3:01:03::'
-      synset: 02960848-a
-    - id: 'structural%3:01:02::'
-      synset: 02960612-a
     - id: structural%5:00:00:functional:00
       synset: 01094286-s
     - id: structural%5:00:00:constructive:00
       synset: 00588753-s
+    - id: 'structural%3:01:03::'
+      synset: 02960848-a
+    - id: 'structural%3:01:02::'
+      synset: 02960612-a
 structural anthropology:
   n:
     sense:
@@ -121102,14 +121102,14 @@ stupid:
       - 'stupidity%1:09:00::'
       id: 'stupid%3:00:00::'
       synset: 00441328-a
+    - adjposition: p
+      id: stupid%5:00:00:confused:00
+      synset: 00438360-s
     - derivation:
       - 'stupid%1:18:00::'
       - 'stupidity%1:09:00::'
       id: 'stupid%3:00:02::'
       synset: 01339540-a
-    - adjposition: p
-      id: stupid%5:00:00:confused:00
-      synset: 00438360-s
   n:
     pronunciation:
     - value: ˈstjuːpɪd
@@ -121208,13 +121208,13 @@ sturdy:
       variety: US
     sense:
     - derivation:
-      - 'sturdiness%1:07:01::'
-      id: 'sturdy%3:00:00::'
-      synset: 01029528-a
-    - derivation:
       - 'sturdiness%1:26:00::'
       id: sturdy%5:00:00:robust:00
       synset: 02046401-s
+    - derivation:
+      - 'sturdiness%1:07:01::'
+      id: 'sturdy%3:00:00::'
+      synset: 01029528-a
     - derivation:
       - 'sturdiness%1:07:00::'
       id: sturdy%5:00:00:rugged:00
@@ -125181,6 +125181,10 @@ substantial:
     pronunciation:
     - value: səbˈstænʃəl
     sense:
+    - id: substantial%5:00:00:considerable:00
+      synset: 00627729-s
+    - id: substantial%5:00:00:essential:00
+      synset: 00905143-s
     - antonym:
       - 'insubstantial%3:00:00::'
       derivation:
@@ -125189,10 +125193,6 @@ substantial:
       - 'substantiality%1:07:00::'
       id: 'substantial%3:00:00::'
       synset: 00628097-a
-    - id: substantial%5:00:00:considerable:00
-      synset: 00627729-s
-    - id: substantial%5:00:00:essential:00
-      synset: 00905143-s
     - derivation:
       - 'substantialness%1:07:00::'
       id: substantial%5:00:00:wholesome:00
@@ -125302,12 +125302,12 @@ substantive:
     - value: ˈsʌbstəntɪv
       variety: US
     sense:
+    - id: substantive%5:00:00:essential:00
+      synset: 00905143-s
     - antonym:
       - 'adjective%3:00:00::'
       id: 'substantive%3:00:00::'
       synset: 00055779-a
-    - id: substantive%5:00:00:essential:00
-      synset: 00905143-s
     - id: substantive%5:00:00:meaningful:00
       synset: 01500539-s
   n:
@@ -130640,16 +130640,16 @@ superior:
       - 'superiority%1:07:01::'
       id: 'superior%3:00:01::'
       synset: 02346685-a
+    - derivation:
+      - 'superiority%1:26:00::'
+      id: superior%5:00:00:dominant:01
+      synset: 00796324-s
     - id: 'superior%3:00:00::'
       synset: 02358224-a
     - antonym:
       - 'inferior%3:00:03::'
       id: 'superior%3:00:03::'
       synset: 02357021-a
-    - derivation:
-      - 'superiority%1:26:00::'
-      id: superior%5:00:00:dominant:01
-      synset: 00796324-s
     - derivation:
       - 'superiority%1:07:01::'
       id: superior%5:00:00:senior:00
@@ -132911,10 +132911,10 @@ sure:
       - 'sureness%1:09:00::'
       id: 'sure%3:00:00::'
       synset: 00337729-a
-    - id: 'sure%3:00:04::'
-      synset: 00341137-a
     - id: sure%5:00:00:careful:00
       synset: 00310538-s
+    - id: 'sure%3:00:04::'
+      synset: 00341137-a
     - id: sure%5:00:00:secure:02
       synset: 02101913-s
     - id: sure%5:00:00:reliable:00
@@ -136803,14 +136803,6 @@ sweet:
       - 'sweetness%1:07:00::'
       id: 'sweet%3:00:02::'
       synset: 02376904-a
-    - antonym:
-      - 'dry%3:00:03::'
-      derivation:
-      - 'sweetness%1:07:00::'
-      id: 'sweet%3:00:01::'
-      synset: 02376172-a
-    - id: 'sweet%3:00:00::'
-      synset: 01077395-a
     - derivation:
       - 'sweetness%1:07:03::'
       id: sweet%5:00:00:lovable:00
@@ -136831,6 +136823,14 @@ sweet:
       - 'sweetness%1:07:01::'
       id: sweet%5:00:00:fragrant:00
       synset: 01056310-s
+    - antonym:
+      - 'dry%3:00:03::'
+      derivation:
+      - 'sweetness%1:07:00::'
+      id: 'sweet%3:00:01::'
+      synset: 02376172-a
+    - id: 'sweet%3:00:00::'
+      synset: 01077395-a
     - id: sweet%5:00:00:unsoured:00
       synset: 02378651-s
     - derivation:
@@ -138980,12 +138980,12 @@ sworn:
     - value: swɔːn
       variety: GB
     sense:
+    - id: sworn%5:00:00:committed:00
+      synset: 00520474-s
     - antonym:
       - 'unsworn%3:00:00::'
       id: 'sworn%3:00:00::'
       synset: 02379911-a
-    - id: sworn%5:00:00:committed:00
-      synset: 00520474-s
 swosh:
   v:
     sense:
@@ -139487,14 +139487,14 @@ symbolic:
       pertainym:
       - 'symbol%1:10:00::'
       synset: 02817730-a
-    - id: 'symbolic%3:01:01::'
-      pertainym:
-      - 'symbolism%1:10:00::'
-      synset: 02817986-a
     - derivation:
       - 'symbol%1:09:00::'
       id: symbolic%5:00:00:representative:00
       synset: 01989251-s
+    - id: 'symbolic%3:01:01::'
+      pertainym:
+      - 'symbolism%1:10:00::'
+      synset: 02817986-a
 symbolic logic:
   n:
     sense:
@@ -139780,12 +139780,12 @@ sympathetic:
       - 'sympathy%1:09:00::'
       id: 'sympathetic%3:00:00::'
       synset: 02383482-a
+    - id: sympathetic%5:00:00:kind:00
+      synset: 01375875-s
     - antonym:
       - 'unsympathetic%3:00:02::'
       id: 'sympathetic%3:00:02::'
       synset: 02384845-a
-    - id: sympathetic%5:00:00:kind:00
-      synset: 01375875-s
     - derivation:
       - 'sympathy%1:24:00::'
       id: sympathetic%5:00:00:similar:00
@@ -140111,15 +140111,15 @@ symptomatic:
     sense:
     - derivation:
       - 'symptom%1:26:00::'
+      - 'symptom%1:10:00::'
+      id: symptomatic%5:00:00:characteristic:00
+      synset: 00358334-s
+    - derivation:
+      - 'symptom%1:26:00::'
       id: 'symptomatic%3:01:00::'
       pertainym:
       - 'symptom%1:26:00::'
       synset: 02818072-a
-    - derivation:
-      - 'symptom%1:26:00::'
-      - 'symptom%1:10:00::'
-      id: symptomatic%5:00:00:characteristic:00
-      synset: 00358334-s
 symptomatically:
   r:
     sense:
@@ -141424,6 +141424,8 @@ synthetic:
     pronunciation:
     - value: sɪnˈθɛtɪk
     sense:
+    - id: synthetic%5:00:00:artificial:00
+      synset: 01577961-s
     - antonym:
       - 'analytic%3:00:03::'
       derivation:
@@ -141440,8 +141442,6 @@ synthetic:
       - 'synthesis%1:09:01::'
       id: 'synthetic%3:00:01::'
       synset: 00111940-a
-    - id: synthetic%5:00:00:artificial:00
-      synset: 01577961-s
     - id: synthetic%5:00:01:artificial:00
       synset: 01576851-s
     - id: synthetic%5:00:00:counterfeit:00

@@ -8748,12 +8748,12 @@ eared:
     - value: ɪ(ə)ɹd
       variety: US
     sense:
+    - id: eared%5:00:00:worn:00
+      synset: 02592267-s
     - antonym:
       - 'earless%3:00:00::'
       id: 'eared%3:00:00::'
       synset: 00815739-a
-    - id: eared%5:00:00:worn:00
-      synset: 02592267-s
 eared grebe:
   n:
     sense:
@@ -8917,6 +8917,11 @@ early:
       - 'earliness%1:07:00::'
       id: 'early%3:00:02::'
       synset: 00820993-a
+    - adjposition: a
+      id: early%5:00:00:past:00
+      synset: 01733616-s
+    - id: early%5:00:00:young:00
+      synset: 01653059-s
     - antonym:
       - 'middle%3:00:01::'
       - 'late%3:00:01::'
@@ -8924,11 +8929,6 @@ early:
       - 'earliness%1:07:00::'
       id: 'early%3:00:01::'
       synset: 00823421-a
-    - adjposition: a
-      id: early%5:00:00:past:00
-      synset: 01733616-s
-    - id: early%5:00:00:young:00
-      synset: 01653059-s
     - id: early%5:00:01:future:00
       synset: 01737207-s
   r:
@@ -9521,18 +9521,18 @@ earthy:
     - value: ˈɝθi
       variety: US
     sense:
-    - derivation:
-      - 'earth%1:27:00::'
-      id: 'earthy%3:01:00::'
-      pertainym:
-      - 'earth%1:27:00::'
-      synset: 02916464-a
     - id: earthy%5:00:00:indecent:00
       synset: 00686808-s
     - id: earthy%5:00:00:natural:01
       synset: 01574679-s
     - id: earthy%5:00:00:uninhibited:00
       synset: 01320324-s
+    - derivation:
+      - 'earth%1:27:00::'
+      id: 'earthy%3:01:00::'
+      pertainym:
+      - 'earth%1:27:00::'
+      synset: 02916464-a
     - id: earthy%5:00:00:realistic:00
       synset: 01947089-s
 earwax:
@@ -9838,18 +9838,18 @@ eastern:
     - value: ˈiːstən
       variety: GB
     sense:
+    - id: eastern%5:00:00:east:00
+      synset: 00827539-s
     - antonym:
       - 'western%3:00:02::'
       id: 'eastern%3:00:02::'
       synset: 00830498-a
+    - id: eastern%5:00:02:east:00
+      synset: 00827400-s
     - antonym:
       - 'western%3:00:01::'
       id: 'eastern%3:00:01::'
       synset: 00829153-a
-    - id: eastern%5:00:00:east:00
-      synset: 00827539-s
-    - id: eastern%5:00:02:east:00
-      synset: 00827400-s
     - id: eastern%5:00:01:east:00
       synset: 00827233-s
 eastern United States:
@@ -10676,6 +10676,10 @@ eccentric:
     - value: ɛkˈsɛntɹɪk
       variety: US
     sense:
+    - derivation:
+      - 'eccentricity%1:07:00::'
+      id: eccentric%5:00:00:unconventional:01
+      synset: 00611168-s
     - antonym:
       - 'concentric%3:00:00::'
       derivation:
@@ -10683,10 +10687,6 @@ eccentric:
       - 'eccentricity%1:07:01::'
       id: 'eccentric%3:00:00::'
       synset: 00545420-a
-    - derivation:
-      - 'eccentricity%1:07:00::'
-      id: eccentric%5:00:00:unconventional:01
-      synset: 00611168-s
   n:
     pronunciation:
     - value: ɪkˈsɛntɹɪk
@@ -11502,16 +11502,16 @@ economical:
       variety: US
     sense:
     - derivation:
+      - 'economy%1:09:01::'
+      - 'economy%1:04:00::'
+      id: economical%5:00:00:efficient:00
+      synset: 00843751-s
+    - derivation:
       - 'economy%1:14:00::'
       id: 'economical%3:01:00::'
       pertainym:
       - 'economy%1:14:00::'
       synset: 02727475-a
-    - derivation:
-      - 'economy%1:09:01::'
-      - 'economy%1:04:00::'
-      id: economical%5:00:00:efficient:00
-      synset: 00843751-s
     - derivation:
       - 'economy%1:07:00::'
       id: economical%5:00:00:thrifty:00
@@ -17221,12 +17221,12 @@ elementary:
     - value: ˌɛlɪ̈ˈmɛnt(ə)ɹi
       variety: US
     sense:
+    - id: elementary%5:00:00:easy:01
+      synset: 00753900-s
     - id: 'elementary%3:01:00::'
       pertainym:
       - 'elementary_school%1:14:00::'
       synset: 02730421-a
-    - id: elementary%5:00:00:easy:01
-      synset: 00753900-s
     - derivation:
       - 'element%1:06:00::'
       id: elementary%5:00:00:basic:00
@@ -17565,14 +17565,14 @@ elf cup:
 elfin:
   a:
     sense:
-    - id: 'elfin%3:01:00::'
-      pertainym:
-      - 'elf%1:18:00::'
-      synset: 02730608-a
     - id: elfin%5:00:00:supernatural:00
       synset: 01580203-s
     - id: elfin%5:00:00:small:00
       synset: 01396141-s
+    - id: 'elfin%3:01:00::'
+      pertainym:
+      - 'elf%1:18:00::'
+      synset: 02730608-a
     - id: elfin%5:00:00:playful:00
       synset: 02129841-s
 elfish:
@@ -28010,6 +28010,8 @@ ephemeropteran:
 epic:
   a:
     sense:
+    - id: epic%5:00:00:large:00
+      synset: 01388944-s
     - derivation:
       - 'epic%1:10:00::'
       - 'epos%1:10:00::'
@@ -28017,8 +28019,6 @@ epic:
       pertainym:
       - 'epic%1:10:00::'
       synset: 03027102-a
-    - id: epic%5:00:00:large:00
-      synset: 01388944-s
   n:
     sense:
     - derivation:
@@ -32340,6 +32340,11 @@ essential:
     pronunciation:
     - value: ɪˈsɛn.ʃəl
     sense:
+    - derivation:
+      - 'essential%1:17:00::'
+      - 'essentialness%1:07:00::'
+      id: essential%5:00:00:necessary:00
+      synset: 01584714-s
     - antonym:
       - 'inessential%3:00:00::'
       derivation:
@@ -32347,6 +32352,12 @@ essential:
       - 'essentiality%1:07:00::'
       id: 'essential%3:00:00::'
       synset: 00903909-a
+    - derivation:
+      - 'essence%1:09:00::'
+      - 'essentialness%1:07:00::'
+      - 'essentiality%1:07:00::'
+      id: essential%5:00:00:important:00
+      synset: 01279260-s
     - derivation:
       - 'essence%1:27:00::'
       - 'essentialness%1:07:00::'
@@ -32358,17 +32369,6 @@ essential:
       - 'essentialness%1:07:00::'
       id: 'essential%3:00:04::'
       synset: 00055779-a
-    - derivation:
-      - 'essential%1:17:00::'
-      - 'essentialness%1:07:00::'
-      id: essential%5:00:00:necessary:00
-      synset: 01584714-s
-    - derivation:
-      - 'essence%1:09:00::'
-      - 'essentialness%1:07:00::'
-      - 'essentiality%1:07:00::'
-      id: essential%5:00:00:important:00
-      synset: 01279260-s
   n:
     pronunciation:
     - value: ɪˈsɛn.ʃəl
@@ -33410,6 +33410,8 @@ ethereal:
     - value: ɪˈθɪɹ.i.əl
       variety: US
     sense:
+    - id: ethereal%5:00:00:insubstantial:00
+      synset: 00628872-s
     - derivation:
       - 'ether%1:27:00::'
       - 'ether%1:06:00::'
@@ -33417,8 +33419,6 @@ ethereal:
       pertainym:
       - 'ether%1:06:00::'
       synset: 02882364-a
-    - id: ethereal%5:00:00:insubstantial:00
-      synset: 00628872-s
     - derivation:
       - 'ether%1:27:01::'
       id: ethereal%5:00:00:heavenly:00
@@ -35207,16 +35207,16 @@ even:
       - 'odd%3:00:00::'
       id: 'even%3:00:02::'
       synset: 00916501-a
+    - derivation:
+      - 'evenness%1:07:02::'
+      id: even%5:00:01:equal:00
+      synset: 00894463-s
     - antonym:
       - 'uneven%3:00:00::'
       derivation:
       - 'evenness%1:07:02::'
       id: 'even%3:00:01::'
       synset: 00912628-a
-    - derivation:
-      - 'evenness%1:07:02::'
-      id: even%5:00:01:equal:00
-      synset: 00894463-s
     - derivation:
       - 'evenness%1:07:00::'
       id: even%5:00:00:symmetrical:00
@@ -37754,12 +37754,12 @@ excited:
     pronunciation:
     - value: ɪkˈsaɪtɪd
     sense:
+    - id: excited%5:00:00:agitated:00
+      synset: 00086315-s
     - antonym:
       - 'unexcited%3:00:00::'
       id: 'excited%3:00:00::'
       synset: 00922656-a
-    - id: excited%5:00:00:agitated:00
-      synset: 00086315-s
     - id: excited%5:00:00:wild:02
       synset: 02399292-s
     - id: excited%5:00:00:reactive:00
@@ -37979,6 +37979,10 @@ exclusive:
     pronunciation:
     - value: ɪkˈsklu.sɪv
     sense:
+    - derivation:
+      - 'exclude%2:31:01::'
+      id: exclusive%5:00:00:unshared:00
+      synset: 02160400-s
     - antonym:
       - 'inclusive%3:00:00::'
       derivation:
@@ -37986,10 +37990,6 @@ exclusive:
       - 'exclusiveness%1:07:00::'
       id: 'exclusive%3:00:00::'
       synset: 01868336-a
-    - derivation:
-      - 'exclude%2:31:01::'
-      id: exclusive%5:00:00:unshared:00
-      synset: 02160400-s
     - id: exclusive%5:00:00:concentrated:00
       synset: 00541609-s
   n:
@@ -39305,12 +39305,12 @@ exhausted:
       variety: US
     - value: ɪɡˈzɑstɪd
     sense:
+    - id: exhausted%5:00:00:tired:00
+      synset: 02442263-s
     - antonym:
       - 'unexhausted%3:00:00::'
       id: 'exhausted%3:00:00::'
       synset: 00929382-a
-    - id: exhausted%5:00:00:tired:00
-      synset: 02442263-s
     - id: exhausted%5:00:00:drained:00
       synset: 01092573-s
 exhaustible:
@@ -39755,6 +39755,8 @@ existent:
 existential:
   a:
     sense:
+    - id: existential%5:00:00:empirical:00
+      synset: 00862819-s
     - id: 'existential%3:01:01::'
       pertainym:
       - 'existentialism%1:09:00::'
@@ -39765,8 +39767,6 @@ existential:
       pertainym:
       - 'existence%1:26:00::'
       synset: 02735219-a
-    - id: existential%5:00:00:empirical:00
-      synset: 00862819-s
 existential operator:
   n:
     sense:
@@ -39824,10 +39824,10 @@ existing:
     pronunciation:
     - value: ɪɡˈzɪstɪŋ
     sense:
-    - id: 'existing%3:00:00::'
-      synset: 00930258-a
     - id: existing%5:00:00:present:01
       synset: 01736035-s
+    - id: 'existing%3:00:00::'
+      synset: 00930258-a
     - id: existing%5:00:00:present:02
       synset: 01853029-s
 exit:
@@ -42717,10 +42717,10 @@ expressed:
     pronunciation:
     - value: ɪkˈspɹest
     sense:
-    - id: 'expressed%3:00:00::'
-      synset: 00943706-a
     - id: expressed%5:00:00:spoken:00
       synset: 02291757-s
+    - id: 'expressed%3:00:00::'
+      synset: 00943706-a
 expressed almond oil:
   n:
     sense:
@@ -43243,12 +43243,12 @@ extended:
     pronunciation:
     - value: ɛkˈstɛndɪd
     sense:
+    - id: extended%5:00:00:long:02
+      synset: 01442029-s
     - antonym:
       - 'unextended%3:00:00::'
       id: 'extended%3:00:00::'
       synset: 01434511-a
-    - id: extended%5:00:00:long:02
-      synset: 01442029-s
     - id: extended%5:00:00:long:01
       synset: 01437093-s
     - id: extended%5:00:00:figurative:00
@@ -43383,10 +43383,6 @@ extensive:
     - value: ɛksˈtɛn.sɪv
       variety: US
     sense:
-    - antonym:
-      - 'intensive%3:00:00::'
-      id: 'extensive%3:00:00::'
-      synset: 01518681-a
     - derivation:
       - 'extensiveness%1:07:00::'
       - 'extend%2:30:01::'
@@ -43396,6 +43392,10 @@ extensive:
       - 'extensiveness%1:07:00::'
       id: extensive%5:00:00:comprehensive:00
       synset: 00528239-s
+    - antonym:
+      - 'intensive%3:00:00::'
+      id: 'extensive%3:00:00::'
+      synset: 01518681-a
 extensively:
   r:
     sense:

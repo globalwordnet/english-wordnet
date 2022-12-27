@@ -163,6 +163,11 @@ LGBT:
     sense:
     - id: 'lgbt%1:14:00::'
       synset: 84123305-n
+LGBT+:
+  n:
+    sense:
+    - id: 'lgbt-pl-%1:14:00::'
+      synset: 84123305-n
 LGBTQ:
   n:
     sense:
@@ -177,11 +182,6 @@ LGBTQIA+:
   n:
     sense:
     - id: 'lgbtqia-pl-%1:14:00::'
-      synset: 84123305-n
-LGBT+:
-  n:
-    sense:
-    - id: 'lgbt-pl-%1:14:00::'
       synset: 84123305-n
 LGV:
   n:
@@ -14667,14 +14667,14 @@ larval:
     sense:
     - derivation:
       - 'larva%1:05:00::'
+      id: larval%5:00:00:immature:01
+      synset: 01493965-s
+    - derivation:
+      - 'larva%1:05:00::'
       id: 'larval%3:01:00::'
       pertainym:
       - 'larva%1:05:00::'
       synset: 03025679-a
-    - derivation:
-      - 'larva%1:05:00::'
-      id: larval%5:00:00:immature:01
-      synset: 01493965-s
 larvicide:
   n:
     sense:
@@ -15041,13 +15041,13 @@ lasso:
 last:
   a:
     sense:
+    - adjposition: a
+      id: last%5:00:00:past:00
+      synset: 01734561-s
     - antonym:
       - 'first%3:00:00::'
       id: 'last%3:00:00::'
       synset: 01016876-a
-    - adjposition: a
-      id: last%5:00:00:past:00
-      synset: 01734561-s
     - id: last%5:00:00:closing:00
       synset: 01013868-s
     - id: last%5:00:00:unlikely:00
@@ -15235,12 +15235,12 @@ lasting:
       synset: 01758923-a
     - derivation:
       - 'lastingness%1:07:00::'
-      id: 'lasting%3:00:06::'
-      synset: 01762851-a
-    - derivation:
-      - 'lastingness%1:07:00::'
       id: lasting%5:00:00:long:02
       synset: 01442370-s
+    - derivation:
+      - 'lastingness%1:07:00::'
+      id: 'lasting%3:00:06::'
+      synset: 01762851-a
     - derivation:
       - 'lastingness%1:07:00::'
       id: lasting%5:00:00:stable:00
@@ -15379,6 +15379,18 @@ late:
       - 'lateness%1:07:00::'
       id: 'late%3:00:00::'
       synset: 00820050-a
+    - derivation:
+      - 'lateness%1:07:00::'
+      id: late%5:00:00:unpunctual:00
+      synset: 01907298-s
+    - adjposition: a
+      derivation:
+      - 'lateness%1:07:00::'
+      id: late%5:00:00:past:00
+      synset: 01734676-s
+    - adjposition: a
+      id: late%5:00:00:dead:01
+      synset: 00098527-s
     - antonym:
       - 'early%3:00:01::'
       - 'middle%3:00:01::'
@@ -15392,18 +15404,6 @@ late:
       - 'lateness%1:07:00::'
       id: 'late%3:00:02::'
       synset: 00822804-a
-    - derivation:
-      - 'lateness%1:07:00::'
-      id: late%5:00:00:unpunctual:00
-      synset: 01907298-s
-    - adjposition: a
-      derivation:
-      - 'lateness%1:07:00::'
-      id: late%5:00:00:past:00
-      synset: 01734676-s
-    - adjposition: a
-      id: late%5:00:00:dead:01
-      synset: 00098527-s
     - adjposition: a
       id: late%5:00:02:past:00
       synset: 01734051-s
@@ -15597,11 +15597,11 @@ later:
       variety: US
     sense:
     - adjposition: a
-      id: 'later%3:00:02::'
-      synset: 00822804-a
-    - adjposition: a
       id: later%5:00:00:subsequent:00
       synset: 00124357-s
+    - adjposition: a
+      id: 'later%3:00:02::'
+      synset: 00822804-a
   r:
     pronunciation:
     - value: ˈleɪtə
@@ -17366,6 +17366,11 @@ lawyerbush:
 lax:
   a:
     sense:
+    - derivation:
+      - 'laxness%1:07:00::'
+      - 'laxity%1:07:00::'
+      id: lax%5:00:00:negligent:00
+      synset: 00759003-s
     - antonym:
       - 'tense%3:00:02::'
       id: 'lax%3:00:02::'
@@ -17376,11 +17381,6 @@ lax:
       - 'laxness%1:26:00::'
       id: 'lax%3:00:01::'
       synset: 02412395-a
-    - derivation:
-      - 'laxness%1:07:00::'
-      - 'laxity%1:07:00::'
-      id: lax%5:00:00:negligent:00
-      synset: 00759003-s
     - derivation:
       - 'laxness%1:26:00::'
       id: lax%5:00:00:unconstipated:00
@@ -18323,12 +18323,12 @@ lead-in:
 leaded:
   a:
     sense:
+    - id: leaded%5:00:00:fixed:00
+      synset: 01064003-s
     - antonym:
       - 'unleaded%3:00:00::'
       id: 'leaded%3:00:00::'
       synset: 01399805-a
-    - id: leaded%5:00:00:fixed:00
-      synset: 01064003-s
     - id: leaded%5:00:00:spaced:00
       synset: 01660555-s
 leaded bronze:
@@ -18353,14 +18353,14 @@ leaden:
     pronunciation:
     - value: ˈlɛdən
     sense:
-    - id: 'leaden%3:01:00::'
-      pertainym:
-      - 'lead%1:27:00::'
-      synset: 02764784-a
     - id: leaden%5:00:00:cloudy:00
       synset: 00464282-s
     - id: leaden%5:00:00:heavy:02
       synset: 01193396-s
+    - id: 'leaden%3:01:00::'
+      pertainym:
+      - 'lead%1:27:00::'
+      synset: 02764784-a
     - id: leaden%5:00:00:effortful:00
       synset: 00841295-s
     - id: leaden%5:00:00:dull:03
@@ -18430,16 +18430,16 @@ leading:
     - value: ˈlidɪŋ
       variety: US
     sense:
-    - antonym:
-      - 'following%3:00:00::'
-      id: 'leading%3:00:00::'
-      synset: 00200496-a
     - adjposition: p
       id: leading%5:00:02:major:06
       synset: 01475933-s
     - adjposition: a
       id: leading%5:00:00:superior:01
       synset: 02347411-s
+    - antonym:
+      - 'following%3:00:00::'
+      id: 'leading%3:00:00::'
+      synset: 00200496-a
     - id: leading%5:00:00:up:00
       synset: 02500309-s
   n-1:
@@ -19348,8 +19348,6 @@ learned:
     pronunciation:
     - value: lɜːnd
     sense:
-    - id: 'learned%3:00:02::'
-      synset: 01641174-a
     - derivation:
       - 'learnedness%1:09:00::'
       id: learned%5:00:00:scholarly:00
@@ -19358,6 +19356,8 @@ learned:
       - 'learnedness%1:09:00::'
       id: learned%5:00:00:educated:00
       synset: 00833590-s
+    - id: 'learned%3:00:02::'
+      synset: 01641174-a
 learned person:
   n:
     sense:
@@ -20520,17 +20520,17 @@ left:
       - 'right%3:00:00::'
       id: 'left%3:00:00::'
       synset: 02040360-a
-    - antonym:
-      - 'center%3:00:00::'
-      - 'right%3:00:03::'
-      id: 'left%3:00:02::'
-      synset: 02038342-a
     - adjposition: p
       id: left%5:00:00:unexhausted:00
       synset: 00929746-s
     - adjposition: a
       id: left%5:00:00:left-handed:00
       synset: 02036816-s
+    - antonym:
+      - 'center%3:00:00::'
+      - 'right%3:00:03::'
+      id: 'left%3:00:02::'
+      synset: 02038342-a
   n:
     pronunciation:
     - value: lɛft
@@ -20920,14 +20920,14 @@ legal:
       pertainym:
       - 'law%1:14:00::'
       synset: 02764868-a
-    - id: 'legal%3:01:01::'
-      pertainym:
-      - 'law%1:04:00::'
-      synset: 02764969-a
     - derivation:
       - 'legality%1:07:00::'
       id: legal%5:00:00:valid:00
       synset: 02508961-s
+    - id: 'legal%3:01:01::'
+      pertainym:
+      - 'law%1:04:00::'
+      synset: 02764969-a
     - id: legal%5:00:00:eligible:00
       synset: 00855933-s
 legal action:
@@ -24629,12 +24629,6 @@ liberal:
     - value: ˈlɪbəɹəl
       variety: US
     sense:
-    - antonym:
-      - 'conservative%3:00:00::'
-      derivation:
-      - 'liberalness%1:09:01::'
-      id: 'liberal%3:00:00::'
-      synset: 00577581-a
     - derivation:
       - 'liberalness%1:09:01::'
       id: liberal%5:00:00:broad-minded:00
@@ -24644,6 +24638,12 @@ liberal:
       - 'liberality%1:09:01::'
       id: liberal%5:00:00:left:02
       synset: 02038880-s
+    - antonym:
+      - 'conservative%3:00:00::'
+      derivation:
+      - 'liberalness%1:09:01::'
+      id: 'liberal%3:00:00::'
+      synset: 00577581-a
     - derivation:
       - 'liberalness%1:07:00::'
       - 'liberality%1:07:00::'
@@ -26639,14 +26639,6 @@ light:
       - 'lightness%1:07:01::'
       id: 'light%3:00:06::'
       synset: 00270855-a
-    - antonym:
-      - 'heavy%3:00:08::'
-      id: 'light%3:00:08::'
-      synset: 01195419-a
-    - antonym:
-      - 'heavy%3:00:07::'
-      id: 'light%3:00:07::'
-      synset: 01194991-a
     - id: light%5:00:00:unstressed:00
       synset: 02328120-s
     - id: light%5:00:00:digestible:00
@@ -26663,6 +26655,14 @@ light:
       synset: 01195936-s
     - id: light%5:00:00:undemanding:01
       synset: 00715651-s
+    - antonym:
+      - 'heavy%3:00:08::'
+      id: 'light%3:00:08::'
+      synset: 01195419-a
+    - antonym:
+      - 'heavy%3:00:07::'
+      id: 'light%3:00:07::'
+      synset: 01194991-a
     - id: light%5:00:00:ill:01
       synset: 02555295-s
     - derivation:
@@ -28645,12 +28645,12 @@ limitless:
     sense:
     - derivation:
       - 'limitlessness%1:07:00::'
-      id: 'limitless%3:00:04::'
-      synset: 01418456-a
-    - derivation:
-      - 'limitlessness%1:07:00::'
       id: limitless%5:00:00:immeasurable:00
       synset: 01502766-s
+    - derivation:
+      - 'limitlessness%1:07:00::'
+      id: 'limitless%3:00:04::'
+      synset: 01418456-a
     - derivation:
       - 'limitlessness%1:07:00::'
       id: limitless%5:00:00:infinite:00
@@ -29654,14 +29654,14 @@ lined:
     pronunciation:
     - value: laɪnd
     sense:
-    - antonym:
-      - 'unlined%3:00:00::'
-      id: 'lined%3:00:00::'
-      synset: 01420811-a
     - id: lined%5:00:00:bordered:00
       synset: 00259663-s
     - id: lined%5:00:00:rough:00
       synset: 02249287-s
+    - antonym:
+      - 'unlined%3:00:00::'
+      id: 'lined%3:00:00::'
+      synset: 01420811-a
 lined snake:
   n:
     sense:
@@ -30962,15 +30962,15 @@ liquid:
       synset: 02269142-a
     - derivation:
       - 'liquidness%1:26:00::'
-      id: 'liquid%3:00:04::'
-      synset: 01509670-a
-    - derivation:
-      - 'liquidness%1:26:00::'
       - 'liquidity%1:26:00::'
       id: liquid%5:00:00:tearful:00
       synset: 02482846-s
     - id: liquid%5:00:00:clear:02
       synset: 00434168-s
+    - derivation:
+      - 'liquidness%1:26:00::'
+      id: 'liquid%3:00:04::'
+      synset: 01509670-a
     - id: liquid%5:00:00:musical:01
       synset: 01508720-s
     - id: liquid%5:00:00:graceful:00
@@ -31643,10 +31643,10 @@ listlessness:
 lit:
   a:
     sense:
-    - id: 'lit%3:00:02::'
-      synset: 00477115-a
     - id: lit%5:00:00:light:06
       synset: 00272446-s
+    - id: 'lit%3:00:02::'
+      synset: 00477115-a
   n:
     form:
     - litai
@@ -31731,12 +31731,6 @@ literal:
     pronunciation:
     - value: ˈlɪt(ə)ɹəl
     sense:
-    - antonym:
-      - 'figurative%3:00:00::'
-      derivation:
-      - 'literalness%1:07:00::'
-      id: 'literal%3:00:00::'
-      synset: 01421662-a
     - derivation:
       - 'literalness%1:07:00::'
       id: literal%5:00:00:true:00
@@ -31745,6 +31739,12 @@ literal:
       - 'literalness%1:07:00::'
       id: literal%5:00:00:exact:00
       synset: 00918097-s
+    - antonym:
+      - 'figurative%3:00:00::'
+      derivation:
+      - 'literalness%1:07:00::'
+      id: 'literal%3:00:00::'
+      synset: 01421662-a
     - id: literal%5:00:00:plain:01
       synset: 01798183-s
   n:
@@ -32408,8 +32408,6 @@ little:
       - 'much%3:00:00::'
       id: 'little%3:00:03::'
       synset: 01558903-a
-    - id: 'little%3:00:00::'
-      synset: 02395180-a
     - id: little%5:00:00:young:00
       synset: 01653473-s
     - derivation:
@@ -32420,6 +32418,8 @@ little:
       - 'littleness%1:07:03::'
       id: little%5:00:00:soft:04
       synset: 01458511-s
+    - id: 'little%3:00:00::'
+      synset: 02395180-a
     - id: little%5:00:00:lowercase:00
       synset: 01470449-s
     - id: little%5:00:00:emotional:00
@@ -33686,12 +33686,12 @@ loaded:
     - value: ˈləʊdɪd
       variety: GB
     sense:
+    - id: loaded%5:00:00:full:00
+      synset: 01089350-s
     - antonym:
       - 'unloaded%3:00:00::'
       id: 'loaded%3:00:00::'
       synset: 01427328-a
-    - id: loaded%5:00:00:full:00
-      synset: 01089350-s
     - id: loaded%5:00:00:prejudiced:00
       synset: 00286591-s
     - id: loaded%5:00:00:rich:00
@@ -35861,13 +35861,13 @@ logical:
       - 'logicality%1:07:00::'
       id: 'logical%3:00:00::'
       synset: 01432984-a
-    - id: 'logical%3:00:05::'
-      synset: 00466504-a
     - derivation:
       - 'logicalness%1:07:00::'
       - 'logicality%1:07:00::'
       id: logical%5:00:00:valid:00
       synset: 02509114-s
+    - id: 'logical%3:00:05::'
+      synset: 00466504-a
     - derivation:
       - 'logicalness%1:07:00::'
       id: logical%5:00:00:rational:00
@@ -36500,6 +36500,10 @@ long:
       - 'longness%1:07:00::'
       id: 'long%3:00:01::'
       synset: 01436368-a
+    - derivation:
+      - 'longness%1:07:00::'
+      id: long%5:00:00:tall:00
+      synset: 02394693-s
     - id: 'long%3:00:00::'
       synset: 02012852-a
     - antonym:
@@ -36510,10 +36514,6 @@ long:
       - 'short%3:00:04::'
       id: 'long%3:00:04::'
       synset: 01446913-a
-    - derivation:
-      - 'longness%1:07:00::'
-      id: long%5:00:00:tall:00
-      synset: 02394693-s
     - id: long%5:00:00:unsound:00
       synset: 02282618-s
     - id: long%5:00:00:provident:00
@@ -38102,18 +38102,14 @@ loose:
       - 'looseness%1:07:03::'
       id: 'loose%3:00:02::'
       synset: 00505233-a
+    - id: loose%5:00:00:uncontrolled:00
+      synset: 00603369-s
     - antonym:
       - 'tight%3:00:01::'
       derivation:
       - 'looseness%1:07:03::'
       id: 'loose%3:00:01::'
       synset: 01449640-a
-    - derivation:
-      - 'looseness%1:07:03::'
-      id: 'loose%3:00:04::'
-      synset: 00160646-a
-    - id: loose%5:00:00:uncontrolled:00
-      synset: 00603369-s
     - id: loose%5:00:00:unofficial:00
       synset: 01638070-s
     - derivation:
@@ -38124,6 +38120,10 @@ loose:
       - 'looseness%1:26:00::'
       id: loose%5:00:00:unconstipated:00
       synset: 00641863-s
+    - derivation:
+      - 'looseness%1:07:03::'
+      id: 'loose%3:00:04::'
+      synset: 00160646-a
     - derivation:
       - 'looseness%1:07:00::'
       id: loose%5:00:00:lax:01
@@ -39026,6 +39026,8 @@ lost:
       - 'found%3:00:00::'
       id: 'lost%3:00:01::'
       synset: 01452455-a
+    - id: lost%5:00:00:unoriented:00
+      synset: 01688793-s
     - antonym:
       - 'saved%3:00:00::'
       id: 'lost%3:00:02::'
@@ -39034,8 +39036,6 @@ lost:
       - 'won%3:00:00::'
       id: 'lost%3:00:03::'
       synset: 01455045-a
-    - id: lost%5:00:00:unoriented:00
-      synset: 01688793-s
     - id: lost%5:00:00:unrecoverable:00
       synset: 01963677-s
     - id: lost%5:00:00:incomprehensible:00
@@ -39258,13 +39258,13 @@ loud:
       id: 'loud%3:00:00::'
       synset: 01455372-a
     - derivation:
-      - 'loudness%1:07:00::'
-      id: 'loud%3:00:02::'
-      synset: 01461579-a
-    - derivation:
       - 'loudness%1:07:02::'
       id: loud%5:00:00:tasteless:02
       synset: 02402358-s
+    - derivation:
+      - 'loudness%1:07:00::'
+      id: 'loud%3:00:02::'
+      synset: 01461579-a
   r:
     sense:
     - id: 'loud%4:02:00::'
@@ -40115,12 +40115,6 @@ low:
       - 'lower%3:00:01::'
       id: 'low%3:00:01::'
       synset: 01209146-a
-    - antonym:
-      - 'high%3:00:03::'
-      derivation:
-      - 'lowness%1:07:01::'
-      id: 'low%3:00:03::'
-      synset: 01218092-a
     - derivation:
       - 'lowness%1:07:01::'
       id: low%5:00:00:soft:04
@@ -40129,6 +40123,12 @@ low:
       - 'lowness%1:26:00::'
       id: low%5:00:00:unrefined:01
       synset: 01957830-s
+    - antonym:
+      - 'high%3:00:03::'
+      derivation:
+      - 'lowness%1:07:01::'
+      id: 'low%3:00:03::'
+      synset: 01218092-a
     - id: low%5:00:00:contemptible:00
       synset: 00907967-s
     - derivation:
@@ -40461,10 +40461,10 @@ low-keyed:
 low-level:
   a:
     sense:
-    - id: 'low-level%3:00:04::'
-      synset: 00796546-a
     - id: low-level%5:00:00:low:02
       synset: 01215672-s
+    - id: 'low-level%3:00:04::'
+      synset: 00796546-a
     - id: low-level%5:00:00:inferior:01
       synset: 02348948-s
     - id: low-level%5:00:00:low:01
@@ -41436,6 +41436,11 @@ lucky:
     - luckier
     - luckiest
     sense:
+    - derivation:
+      - 'luck%1:19:01::'
+      - 'luckiness%1:26:00::'
+      id: lucky%5:00:00:fortunate:00
+      synset: 01052909-s
     - antonym:
       - 'unlucky%3:00:00::'
       derivation:
@@ -41443,11 +41448,6 @@ lucky:
       - 'luckiness%1:26:00::'
       id: 'lucky%3:00:00::'
       synset: 01471012-a
-    - derivation:
-      - 'luck%1:19:01::'
-      - 'luckiness%1:26:00::'
-      id: lucky%5:00:00:fortunate:00
-      synset: 01052909-s
     - derivation:
       - 'luckiness%1:26:00::'
       id: lucky%5:00:00:propitious:00
@@ -44084,6 +44084,8 @@ lyric:
     pronunciation:
     - value: ˈlɪɹ.ɪk
     sense:
+    - id: lyric%5:00:00:emotional:00
+      synset: 00859198-s
     - antonym:
       - 'dramatic%3:00:02::'
       id: 'lyric%3:00:00::'
@@ -44096,8 +44098,6 @@ lyric:
       pertainym:
       - 'lyric%1:10:00::'
       synset: 02867171-a
-    - id: lyric%5:00:00:emotional:00
-      synset: 00859198-s
   n:
     pronunciation:
     - value: ˈlɪɹ.ɪk
