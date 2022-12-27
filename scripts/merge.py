@@ -61,7 +61,7 @@ def indent(elem, level=0):
 
 
 def wn_merge():
-    with open("wn.xml", "w") as out:
+    with open("wn.xml", "w", encoding="utf-8") as out:
         out.write("""<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">
 <LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
