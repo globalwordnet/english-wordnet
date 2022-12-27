@@ -162,7 +162,8 @@ class LexicalEntry:
         if self.pronunciation:
             xml_file.write("""
       <Lemma writtenForm="%s" partOfSpeech="%s">
-""" % (escape_xml_lit(self.lemma.written_form), self.lemma.part_of_speech.value))
+""" % (escape_xml_lit(self.lemma.written_form), 
+        self.lemma.part_of_speech.value if self.lemma.part_of_speech.value != "s" else "a"))
             for pron in self.pronunciation:
                 pron.to_xml(xml_file)
             xml_file.write("""      </Lemma>
