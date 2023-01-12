@@ -14,6 +14,9 @@ through the [Collaborative Interlingual Index (CILI)](https://github.com/globalw
 
 Open English WordNet is released through the [Open English WordNet website](https://en-word.net/). The versions released are
 
+* **2022 Edition** (Released 31st December 2022). [(LMF)](https://en-word.net/static/english-wordnet-2022.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2022.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2022.zip)
 * **2021 Edition** (Released 9th November 2021). [(LMF)](https://en-word.net/static/english-wordnet-2021.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2021.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2021.zip)
