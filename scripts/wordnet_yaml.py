@@ -136,7 +136,7 @@ def load():
     wn = Lexicon("oewn", "Engish WordNet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
-                 "2021",
+                 "2022",
                  "https://github.com/globalwordnet/english-wordnet")
     with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
