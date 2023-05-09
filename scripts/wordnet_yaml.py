@@ -24,10 +24,10 @@ def unmap_sense_key(sk):
         e = sk.split("__")
         l = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
-        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl","+") +
+        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
             "%" + r.replace(".", ":").replace("-sp-","_"))
     else: 
-        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl","+")
+        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl-","+")
 
 
 def make_pos(y, pos):
