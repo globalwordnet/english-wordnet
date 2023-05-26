@@ -32,4 +32,4 @@ for n in G.nodes():
 sup_size = sorted(sup_size.items(), key=lambda x: -x[1])
 
 for sup, size in sup_size:
-    print("%s,%d,\"%s\",\"%s\"" % (sup, size, ", ".join(members[sup]), defs[sup].replace("\"", "\"\"")))
+    print("%s,%d,\"%s\",\"%s\",," % (sup, size, ", ".join(members[sup]), defs[sup].replace("\"", "\"\"")))
