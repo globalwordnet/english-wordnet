@@ -13,3 +13,9 @@ for file in glob("src/yaml/entries-*.yaml"):
         if lemma in female_words and "n" in d:
             for sense in d["n"]["sense"]:
                 print("%s,%s," % (lemma, sense["synset"]))
+        elif (lemma.endswith("lady") or lemma.endswith("woman") or lemma.endswith("euse")) and "n" in d:
+            for sense in d["n"]["sense"]:
+                print("%s,%s," % (lemma, sense["synset"]))
+
+
+
