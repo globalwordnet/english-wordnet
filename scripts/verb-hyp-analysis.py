@@ -14,6 +14,8 @@ for f in glob("src/yaml/verb.*.yaml"):
         if "hypernym" in data:
             for h in data["hypernym"]:
                 G.add_edge(ssid, h)
+        else:
+            G.add_node(ssid)
         if "definition" in data:
             defs[ssid] = data["definition"][0]
         if "members" in data:
