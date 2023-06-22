@@ -2,7 +2,6 @@ import yaml
 from yaml import CLoader as Loader
 from glob import glob
 import networkx as nx
-import matplotlib.pyplot as plt
 
 G = nx.DiGraph()
 
@@ -22,21 +21,17 @@ for f in glob("src/yaml/verb.*.yaml"):
         if "members" in data:
             members[ssid] = data["members"]
 
-size = {n: -1 for n in G.nodes()}
+sinks = [node for node in G.nodes() if G.out_degree(node) == 0]
 
-def calc_size(n):
-    if size[n] >= 0:
-        return size[n]
-    else:
-        z = sum(calc_size(p) for p in G.predecessors(n)) + 1
-        size[n] = z
-        return z
+sup_size = {s: 0 for s in sinks}
 
 for n in G.nodes():
-    calc_size(n)
+    if n not in sinks:
+        for s in sinks:
+            if nx.has_path(G, n, s):
+                sup_size[s] += 1
 
-def filter_by_size(n):
-    return size[n] >= 35
+sup_size = sorted(sup_size.items(), key=lambda x: -x[1])
 
-nx.draw(nx.subgraph_view(G, filter_node=filter_by_size))
-plt.show()
+for sup, size in sup_size:
+    print("%s,%d,\"%s\",\"%s\",," % (sup, size, ", ".join(members[sup]), defs[sup].replace("\"", "\"\"")))
