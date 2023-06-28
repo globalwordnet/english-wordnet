@@ -19,9 +19,9 @@ links of the synset, which are as follows
   * entails
 * Adjectives:
   * pertains
-  * further to be decided
+  * Relations to be introduced in #953
 * Adverbs:
-  * to be decided
+  * Relatiosn to be introduced in #954
 
 Two synsets with different positions in the graph should not be merged. For example,
 similar definitions but clearly distinct hypernyms would not be merged.
