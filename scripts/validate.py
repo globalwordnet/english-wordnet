@@ -279,6 +279,11 @@ def main():
                         "ERROR: Duplicate syntactic behaviour in entry %s" %
                         (entry.id))
                     errors += 1
+            for sense2 in entry.senses:
+                if sense2.id != sense.id and sense2.synset == sense2.synset:
+                    print("ERROR: Duplicate senses %s/%s referring to %s" % (
+                        sense.id, sense2.id, sense.synset))
+                    errors += 1
 
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
