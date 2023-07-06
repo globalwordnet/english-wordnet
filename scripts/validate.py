@@ -280,7 +280,7 @@ def main():
                         (entry.id))
                     errors += 1
             for sense2 in entry.senses:
-                if sense2.id != sense.id and sense2.synset == sense2.synset:
+                if sense2.id != sense.id and sense2.synset == sense.synset:
                     print("ERROR: Duplicate senses %s/%s referring to %s" % (
                         sense.id, sense2.id, sense.synset))
                     errors += 1
