@@ -118012,16 +118012,6 @@ cultivate:
     sense:
     - derivation:
       - 'cultivation%1:04:00::'
-      - 'cultivator%1:18:00::'
-      - 'cultivation%1:22:00::'
-      id: 'cultivate%2:36:00::'
-      sent:
-      - They cultivate rye in the field
-      subcat:
-      - vtai
-      synset: 01746607-v
-    - derivation:
-      - 'cultivation%1:04:00::'
       - 'cultivator%1:06:00::'
       id: 'cultivate%2:36:01::'
       subcat:
@@ -118038,6 +118028,16 @@ cultivate:
       subcat:
       - vtai
       synset: 00303245-v
+    - derivation:
+      - 'cultivation%1:04:00::'
+      - 'cultivator%1:18:00::'
+      - 'cultivation%1:22:00::'
+      id: 'cultivate%2:41:02::'
+      sent:
+      - They cultivate rye in the field
+      subcat:
+      - vtai
+      synset: 02560130-v
 cultivated:
   a:
     pronunciation:
@@ -118107,7 +118107,7 @@ cultivation:
       synset: 01131684-n
     - derivation:
       - 'cultivate%2:36:01::'
-      - 'cultivate%2:36:00::'
+      - 'cultivate%2:41:02::'
       id: 'cultivation%1:04:00::'
       synset: 00917553-n
     - derivation:
@@ -118115,7 +118115,7 @@ cultivation:
       id: 'cultivation%1:26:00::'
       synset: 14483408-n
     - derivation:
-      - 'cultivate%2:36:00::'
+      - 'cultivate%2:41:02::'
       id: 'cultivation%1:22:00::'
       synset: 13475491-n
     - id: 'cultivation%1:04:02::'
@@ -118124,7 +118124,7 @@ cultivator:
   n:
     sense:
     - derivation:
-      - 'cultivate%2:36:00::'
+      - 'cultivate%2:41:02::'
       id: 'cultivator%1:18:00::'
       synset: 09799231-n
     - derivation:
