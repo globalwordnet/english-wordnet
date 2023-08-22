@@ -1439,6 +1439,8 @@ zap:
       synset: 01772856-v
     - derivation:
       - 'zapper%1:06:00::'
+      instrument:
+      - 'zapper%1:06:00::'
       id: 'zap%2:35:00::'
       subcat:
       - vtaa
@@ -1724,6 +1726,10 @@ zero:
       - 'zero%1:23:01::'
       - 'zero%1:09:00::'
       id: 'zero%2:30:01::'
+      result:
+      - 'zero%1:23:02::'
+      - 'zero%1:23:01::'
+      - 'zero%1:09:00::'
       subcat:
       - vtai
       synset: 00298288-v
@@ -1821,6 +1827,8 @@ zest:
     - derivation:
       - 'zest%1:07:01::'
       id: 'zest%2:39:00::'
+      result:
+      - 'zest%1:07:01::'
       subcat:
       - vtai
       synset: 02197016-v
@@ -1974,6 +1982,8 @@ zigzag:
     - zigzagging
     sense:
     - derivation:
+      - 'zigzag%1:25:00::'
+      event:
       - 'zigzag%1:25:00::'
       id: 'zigzag%2:38:00::'
       sent:
@@ -2180,6 +2190,9 @@ zip:
     - derivation:
       - 'zip%1:06:00::'
       - 'zipper%1:06:00::'
+      instrument:
+      - 'zipper%1:06:00::'
+      - 'zip%1:06:00::'
       id: 'zip%2:35:00::'
       subcat:
       - vtai
@@ -2235,6 +2248,8 @@ zipper:
       variety: US
     sense:
     - derivation:
+      - 'zipper%1:06:00::'
+      instrument:
       - 'zipper%1:06:00::'
       id: 'zipper%2:35:00::'
       subcat:
@@ -2508,12 +2523,16 @@ zone:
     - derivation:
       - 'zone%1:15:00::'
       id: 'zone%2:41:00::'
+      location:
+      - 'zone%1:15:00::'
       subcat:
       - vtai
       synset: 02517816-v
     - derivation:
       - 'zone%1:15:01::'
       id: 'zone%2:30:00::'
+      result:
+      - 'zone%1:15:01::'
       subcat:
       - vtai
       - vtii
@@ -2699,6 +2718,9 @@ zoom:
       - vii-pp
       synset: 02060133-v
     - derivation:
+      - 'zoom%1:11:00::'
+      - 'zoom%1:04:00::'
+      event:
       - 'zoom%1:11:00::'
       - 'zoom%1:04:00::'
       id: 'zoom%2:38:03::'

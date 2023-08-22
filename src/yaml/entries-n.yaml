@@ -6543,7 +6543,10 @@ nag:
     - nagged
     - nagging
     sense:
-    - derivation:
+    - agent:
+      - 'nagger%1:18:00::'
+      - 'nag%1:18:00::'
+      derivation:
       - 'nag%1:18:00::'
       - 'nagger%1:18:00::'
       id: 'nag%2:32:00::'
@@ -6635,8 +6638,12 @@ nail:
       synset: 13673953-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'nailer%1:18:00::'
+      also:
       - 'nail_down%2:31:00::'
+      by_means_of:
+      - 'nail%1:06:00::'
       derivation:
       - 'nail%1:06:00::'
       - 'nailer%1:18:00::'
@@ -7026,7 +7033,9 @@ name:
       synset: 06733713-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'namer%1:18:00::'
+      derivation:
       - 'namer%1:18:00::'
       - 'name%1:10:00::'
       - 'naming%1:10:00::'
@@ -7038,6 +7047,8 @@ name:
       - vtaa
       - vtai
       synset: 01030757-v
+      uses:
+      - 'name%1:10:00::'
     - derivation:
       - 'naming%1:10:00::'
       id: 'name%2:32:02::'
@@ -7062,7 +7073,9 @@ name:
       - vtaa
       - vtai
       synset: 02401347-v
-    - derivation:
+    - by_means_of:
+      - 'name%1:10:00::'
+      derivation:
       - 'name%1:10:00::'
       - 'naming%1:10:00::'
       id: 'name%2:32:07::'
@@ -7079,7 +7092,9 @@ name:
       - vtia
       - vtii
       synset: 01026199-v
-    - derivation:
+    - by_means_of:
+      - 'name%1:10:00::'
+      derivation:
       - 'name%1:10:00::'
       - 'naming%1:10:00::'
       id: 'name%2:31:01::'
@@ -7399,6 +7414,9 @@ nap:
     - napping
     sense:
     - derivation:
+      - 'nap%1:04:00::'
+      - 'nap%1:28:00::'
+      event:
       - 'nap%1:04:00::'
       - 'nap%1:28:00::'
       id: 'nap%2:29:00::'
@@ -7813,7 +7831,9 @@ nark:
       - vtaa
       - vtia
       synset: 01791774-v
-    - derivation:
+    - agent:
+      - 'nark%1:18:00::'
+      derivation:
       - 'nark%1:18:00::'
       id: 'nark%2:32:00::'
       subcat:
@@ -7830,17 +7850,28 @@ narrate:
     - derivation:
       - 'narration%1:10:01::'
       - 'narration%1:10:00::'
+      event:
+      - 'narration%1:10:00::'
       id: 'narrate%2:32:01::'
       subcat:
       - via
       - vtai
       synset: 00956303-v
-    - derivation:
+      uses:
+      - 'narration%1:10:01::'
+    - agent:
+      - 'narrator%1:18:00::'
+      by_means_of:
+      - 'narration%1:10:01::'
+      derivation:
       - narrative%5:00:00:communicative:00
       - 'narration%1:10:02::'
       - 'narration%1:10:01::'
       - 'narration%1:10:00::'
       - 'narrator%1:18:00::'
+      event:
+      - 'narration%1:10:02::'
+      - 'narration%1:10:00::'
       id: 'narrate%2:32:00::'
       sent:
       - They won't narrate the story
@@ -7943,6 +7974,8 @@ narrow:
       - 'narrow_down%2:30:01::'
       antonym:
       - 'widen%2:30:00::'
+      by_means_of:
+      - 'narrow%1:17:00::'
       derivation:
       - 'narrow%1:17:00::'
       - 'narrowing%1:04:00::'
@@ -8368,6 +8401,8 @@ nasalise:
       synset: 00953431-v
     - derivation:
       - 'nasalisation%1:10:00::'
+      event:
+      - 'nasalisation%1:10:00::'
       id: 'nasalise%2:32:00::'
       subcat:
       - vtai
@@ -8392,11 +8427,15 @@ nasalize:
     sense:
     - derivation:
       - 'nasalization%1:10:00::'
+      event:
+      - 'nasalization%1:10:00::'
       id: 'nasalize%2:32:01::'
       subcat:
       - via
       synset: 00953431-v
     - derivation:
+      - 'nasalization%1:10:00::'
+      event:
       - 'nasalization%1:10:00::'
       id: 'nasalize%2:32:00::'
       subcat:
@@ -8803,6 +8842,8 @@ nationalise:
     sense:
     - derivation:
       - 'nationalisation%1:04:01::'
+      event:
+      - 'nationalisation%1:04:01::'
       id: 'nationalise%2:30:01::'
       subcat:
       - vtai
@@ -8811,6 +8852,8 @@ nationalise:
     - antonym:
       - 'denationalise%2:30:00::'
       derivation:
+      - 'nationalisation%1:04:00::'
+      event:
       - 'nationalisation%1:04:00::'
       id: 'nationalise%2:30:00::'
       subcat:
@@ -8915,11 +8958,15 @@ nationalize:
       - 'denationalize%2:30:00::'
       derivation:
       - 'nationalization%1:04:00::'
+      event:
+      - 'nationalization%1:04:00::'
       id: 'nationalize%2:30:00::'
       subcat:
       - vtai
       synset: 00412472-v
     - derivation:
+      - 'nationalization%1:04:01::'
+      event:
       - 'nationalization%1:04:01::'
       id: 'nationalize%2:30:01::'
       subcat:
@@ -9506,6 +9553,8 @@ naturalise:
     sense:
     - derivation:
       - 'naturalisation%1:04:01::'
+      event:
+      - 'naturalisation%1:04:01::'
       id: 'naturalise%2:30:02::'
       subcat:
       - vtai
@@ -9513,10 +9562,14 @@ naturalise:
     - derivation:
       - 'naturalisation%1:07:00::'
       id: 'naturalise%2:30:01::'
+      property:
+      - 'naturalisation%1:07:00::'
       subcat:
       - vtai
       synset: 00413621-v
     - derivation:
+      - 'naturalisation%1:04:00::'
+      event:
       - 'naturalisation%1:04:00::'
       id: 'naturalise%2:30:00::'
       subcat:
@@ -9525,7 +9578,11 @@ naturalise:
     - derivation:
       - 'naturalisation%1:07:00::'
       - 'naturalisation%1:04:02::'
+      event:
+      - 'naturalisation%1:04:02::'
       id: 'naturalise%2:30:03::'
+      property:
+      - 'naturalisation%1:07:00::'
       subcat:
       - vtai
       synset: 00303245-v
@@ -9590,6 +9647,8 @@ naturalize:
       - 'denaturalize%2:30:00::'
       derivation:
       - 'naturalization%1:04:00::'
+      event:
+      - 'naturalization%1:04:00::'
       id: 'naturalize%2:30:00::'
       subcat:
       - vtaa
@@ -9600,6 +9659,8 @@ naturalize:
       synset: 00941788-v
     - derivation:
       - 'naturalization%1:04:01::'
+      event:
+      - 'naturalization%1:04:01::'
       id: 'naturalize%2:30:02::'
       subcat:
       - vtai
@@ -9609,13 +9670,19 @@ naturalize:
       derivation:
       - 'naturalization%1:07:00::'
       id: 'naturalize%2:30:01::'
+      property:
+      - 'naturalization%1:07:00::'
       subcat:
       - vtai
       synset: 00413621-v
     - derivation:
       - 'naturalization%1:07:00::'
       - 'naturalization%1:04:02::'
+      event:
+      - 'naturalization%1:04:02::'
       id: 'naturalize%2:30:03::'
+      property:
+      - 'naturalization%1:07:00::'
       subcat:
       - vtai
       synset: 00303245-v
@@ -10150,16 +10217,23 @@ navigate:
     - derivation:
       - navigable%5:00:00:passable:00
       - 'navigation%1:04:02::'
+      event:
+      - 'navigation%1:04:02::'
       id: 'navigate%2:38:02::'
       subcat:
       - via
       - vii
       - vtaa-pp
       synset: 01850262-v
-    - derivation:
+    - agent:
+      - 'navigator%1:18:02::'
+      - 'navigator%1:18:01::'
+      derivation:
       - 'navigation%1:04:00::'
       - 'navigator%1:18:02::'
       - 'navigator%1:18:01::'
+      event:
+      - 'navigation%1:04:00::'
       id: 'navigate%2:38:00::'
       subcat:
       - via
@@ -10327,6 +10401,8 @@ nazify:
       derivation:
       - 'nazism%1:14:00::'
       id: 'nazify%2:30:00::'
+      result:
+      - 'nazism%1:14:00::'
       subcat:
       - vtaa
       - vtai
@@ -10824,7 +10900,9 @@ neck:
     pronunciation:
     - value: nɛk
     sense:
-    - derivation:
+    - agent:
+      - 'necker%1:18:00::'
+      derivation:
       - 'necker%1:18:00::'
       - 'necking%1:04:00::'
       id: 'neck%2:35:00::'
@@ -11265,6 +11343,8 @@ need:
       subcat:
       - vtii
       synset: 02634015-v
+      undergoer:
+      - 'need%1:17:00::'
     - derivation:
       - 'need%1:26:00::'
       id: 'need%2:34:00::'
@@ -11272,6 +11352,8 @@ need:
       - They need more bread
       - They need him to write the letter
       - They need to move
+      state:
+      - 'need%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -11348,6 +11430,8 @@ needle:
       - vtia
       synset: 00853413-v
     - derivation:
+      - 'needle%1:06:00::'
+      instrument:
       - 'needle%1:06:00::'
       id: 'needle%2:35:00::'
       subcat:
@@ -11599,13 +11683,19 @@ negate:
     sense:
     - derivation:
       - 'negation%1:10:02::'
+      event:
+      - 'negation%1:10:02::'
       id: 'negate%2:42:00::'
       subcat:
       - vtii
       synset: 02669219-v
-    - derivation:
+    - by_means_of:
+      - 'negation%1:10:01::'
+      derivation:
       - 'negative%3:00:01::'
       - 'negation%1:10:01::'
+      - 'negation%1:10:00::'
+      event:
       - 'negation%1:10:00::'
       id: 'negate%2:32:00::'
       subcat:
@@ -11717,6 +11807,8 @@ negative:
       variety: CA
     sense:
     - derivation:
+      - 'negative%1:10:00::'
+      event:
       - 'negative%1:10:00::'
       id: 'negative%2:41:00::'
       subcat:
@@ -11901,11 +11993,15 @@ neglect:
     pronunciation:
     - value: nɪˈɡlɛkt
     sense:
-    - antonym:
+    - agent:
+      - 'neglecter%1:18:00::'
+      antonym:
       - 'attend_to%2:31:00::'
       derivation:
       - 'neglect%1:04:00::'
       - 'neglecter%1:18:00::'
+      event:
+      - 'neglect%1:04:00::'
       id: 'neglect%2:31:00::'
       subcat:
       - via-to-inf
@@ -11915,26 +12011,39 @@ neglect:
     - derivation:
       - 'neglect%1:07:00::'
       id: 'neglect%2:41:00::'
+      property:
+      - 'neglect%1:07:00::'
       subcat:
       - via-to-inf
       synset: 02534950-v
-    - derivation:
+    - agent:
+      - 'neglecter%1:18:00::'
+      derivation:
       - 'negligent%3:00:00::'
       - 'neglect%1:07:00::'
       - 'neglect%1:04:02::'
       - 'neglect%1:09:00::'
       - 'neglecter%1:18:00::'
+      event:
+      - 'neglect%1:04:02::'
+      - 'neglect%1:09:00::'
       id: 'neglect%2:31:05::'
+      property:
+      - 'neglect%1:07:00::'
       sent:
       - Sam cannot neglect Sue
       subcat:
       - vtaa
       - vtai
       synset: 00617843-v
-    - derivation:
+    - agent:
+      - 'neglecter%1:18:00::'
+      derivation:
       - 'negligent%3:00:00::'
       - 'neglect%1:09:00::'
       - 'neglecter%1:18:00::'
+      event:
+      - 'neglect%1:09:00::'
       id: 'neglect%2:31:01::'
       subcat:
       - vtaa
@@ -12108,12 +12217,16 @@ negotiate:
     - value: nəˈɡoʊ.ʃi.eɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'negotiator%1:18:00::'
+      derivation:
       - negotiable%5:00:00:flexible:02
       - negotiable%5:00:00:alienable:00
       - 'negotiation%1:10:00::'
       - 'negotiant%1:18:00::'
       - 'negotiator%1:18:00::'
+      event:
+      - 'negotiation%1:10:00::'
       id: 'negotiate%2:32:00::'
       sent:
       - Sam and Sue negotiate
@@ -12204,6 +12317,8 @@ neigh:
     sense:
     - derivation:
       - 'neigh%1:11:00::'
+      event:
+      - 'neigh%1:11:00::'
       id: 'neigh%2:32:00::'
       subcat:
       - vii
@@ -12225,18 +12340,24 @@ neighbor:
       synset: 09391121-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'neighbor%1:18:00::'
+      derivation:
       - 'neighbor%1:18:00::'
       id: 'neighbor%2:42:01::'
       subcat:
       - via
       synset: 02614211-v
-    - derivation:
+    - by_means_of:
+      - 'neighbor%1:17:00::'
+      derivation:
       - 'neighbor%1:17:00::'
       id: 'neighbor%2:42:00::'
       subcat:
       - vtii
       synset: 02614039-v
+      undergoer:
+      - 'neighbor%1:17:00::'
 neighborhood:
   n:
     pronunciation:
@@ -12310,7 +12431,9 @@ neighbour:
     - value: ˈneɪbɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'neighbour%1:18:00::'
+      derivation:
       - 'neighbour%1:18:00::'
       id: 'neighbour%2:42:01::'
       subcat:
@@ -12322,6 +12445,8 @@ neighbour:
       subcat:
       - vtii
       synset: 02614039-v
+      undergoer:
+      - 'neighbour%1:17:00::'
 neighbourhood:
   n:
     sense:
@@ -13143,7 +13268,9 @@ nerve:
     - value: nɜːv
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'nerve%1:07:00::'
+      derivation:
       - 'nerve%1:07:00::'
       id: 'nerve%2:37:00::'
       subcat:
@@ -13606,10 +13733,14 @@ nest:
       synset: 03824876-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'nester%1:05:00::'
+      derivation:
       - 'nester%1:05:00::'
       - 'nest%1:17:00::'
       id: 'nest%2:42:00::'
+      location:
+      - 'nest%1:17:00::'
       subcat:
       - vii
       synset: 02661042-v
@@ -13620,12 +13751,16 @@ nest:
       subcat:
       - vtai-pp
       synset: 01532554-v
+      undergoer:
+      - 'nest%1:06:01::'
     - id: 'nest%2:35:02::'
       subcat:
       - via
       - via-pp
       synset: 01427599-v
-    - derivation:
+    - agent:
+      - 'nester%1:05:00::'
+      derivation:
       - 'nester%1:05:00::'
       - 'nest%1:17:00::'
       id: 'nest%2:35:01::'
@@ -13670,6 +13805,8 @@ nestle:
     - value: ˈnɛsəl
     sense:
     - derivation:
+      - 'nestle%1:04:00::'
+      event:
       - 'nestle%1:04:00::'
       id: 'nestle%2:35:00::'
       sent:
@@ -13742,6 +13879,8 @@ net:
     - derivation:
       - 'net%1:21:00::'
       id: 'net%2:40:01::'
+      result:
+      - 'net%1:21:00::'
       subcat:
       - vtii
       synset: 02296509-v
@@ -13749,10 +13888,14 @@ net:
       - 'net%1:06:00::'
       - 'netting%1:04:00::'
       id: 'net%2:36:00::'
+      result:
+      - 'net%1:06:00::'
       subcat:
       - vtai
       synset: 01676063-v
     - derivation:
+      - 'net%1:06:02::'
+      instrument:
       - 'net%1:06:02::'
       id: 'net%2:35:00::'
       subcat:
@@ -13928,7 +14071,9 @@ nettle:
     pronunciation:
     - value: ˈnɛt(ə)l
     sense:
-    - derivation:
+    - by_means_of:
+      - 'nettle%1:20:00::'
+      derivation:
       - 'nettle%1:20:00::'
       id: 'nettle%2:39:00::'
       subcat:
@@ -14010,7 +14155,9 @@ network:
     - value: nɛtwɝk
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'network%1:14:00::'
+      derivation:
       - 'network%1:14:00::'
       id: 'network%2:32:00::'
       subcat:
@@ -14894,11 +15041,15 @@ neutralise:
       synset: 01329983-v
     - derivation:
       - 'neutralisation%1:04:01::'
+      event:
+      - 'neutralisation%1:04:01::'
       id: 'neutralise%2:33:00::'
       subcat:
       - vtai
       synset: 01120349-v
     - derivation:
+      - 'neutralisation%1:04:00::'
+      event:
       - 'neutralisation%1:04:00::'
       id: 'neutralise%2:30:01::'
       subcat:
@@ -14906,6 +15057,8 @@ neutralise:
       - vtii
       synset: 00471015-v
     - derivation:
+      - 'neutralisation%1:22:00::'
+      event:
       - 'neutralisation%1:22:00::'
       id: 'neutralise%2:30:00::'
       subcat:
@@ -14987,6 +15140,8 @@ neutralize:
     sense:
     - derivation:
       - 'neutralization%1:04:01::'
+      event:
+      - 'neutralization%1:04:01::'
       id: 'neutralize%2:41:00::'
       subcat:
       - vtai
@@ -14994,12 +15149,16 @@ neutralize:
       synset: 02541562-v
     - derivation:
       - 'neutralization%1:04:00::'
+      event:
+      - 'neutralization%1:04:00::'
       id: 'neutralize%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00471015-v
     - derivation:
+      - 'neutralization%1:04:00::'
+      event:
       - 'neutralization%1:04:00::'
       id: 'neutralize%2:41:02::'
       subcat:
@@ -15011,11 +15170,15 @@ neutralize:
       synset: 01329983-v
     - derivation:
       - 'neutralization%1:04:01::'
+      event:
+      - 'neutralization%1:04:01::'
       id: 'neutralize%2:33:00::'
       subcat:
       - vtai
       synset: 01120349-v
     - derivation:
+      - 'neutralization%1:22:00::'
+      event:
       - 'neutralization%1:22:00::'
       id: 'neutralize%2:30:00::'
       subcat:
@@ -15859,7 +16022,9 @@ nibble:
     pronunciation:
     - value: ˈnɪbəl
     sense:
-    - derivation:
+    - agent:
+      - 'nibbler%1:18:00::'
+      derivation:
       - 'nibble%1:23:00::'
       - 'nibbler%1:18:00::'
       id: 'nibble%2:35:00::'
@@ -15870,12 +16035,16 @@ nibble:
       synset: 01449348-v
     - derivation:
       - 'nibble%1:04:00::'
+      event:
+      - 'nibble%1:04:00::'
       id: 'nibble%2:35:02::'
       subcat:
       - via
       - via-pp
       synset: 01449039-v
-    - derivation:
+    - agent:
+      - 'nibbler%1:18:00::'
+      derivation:
       - 'nibble%1:23:00::'
       - 'nibbler%1:18:00::'
       id: 'nibble%2:34:01::'
@@ -15992,6 +16161,8 @@ nick:
     sense:
     - derivation:
       - 'nick%1:04:00::'
+      event:
+      - 'nick%1:04:00::'
       id: 'nick%2:35:01::'
       subcat:
       - vtai
@@ -15999,6 +16170,8 @@ nick:
       - vtii
       synset: 01261705-v
     - derivation:
+      - 'nick%1:04:00::'
+      event:
       - 'nick%1:04:00::'
       id: 'nick%2:35:00::'
       subcat:
@@ -16040,6 +16213,8 @@ nickel:
       subcat:
       - vtai
       synset: 01398317-v
+      uses:
+      - 'nickel%1:27:00::'
 nickel alloy:
   n:
     sense:
@@ -16119,6 +16294,8 @@ nicker:
     sense:
     - derivation:
       - 'nicker%1:11:00::'
+      event:
+      - 'nicker%1:11:00::'
       id: 'nicker%2:32:00::'
       subcat:
       - vii
@@ -16161,6 +16338,8 @@ nickname:
       subcat:
       - ditransitive
       synset: 01030649-v
+      uses:
+      - 'nickname%1:10:00::'
 nicotinamide adenine dinucleotide:
   n:
     sense:
@@ -16200,6 +16379,8 @@ nictate:
     sense:
     - derivation:
       - 'nictation%1:04:00::'
+      event:
+      - 'nictation%1:04:00::'
       id: 'nictate%2:29:00::'
       subcat:
       - via
@@ -16219,6 +16400,8 @@ nictitate:
     - value: ˈnɪktɪteɪt
     sense:
     - derivation:
+      - 'nictitation%1:04:00::'
+      event:
       - 'nictitation%1:04:00::'
       id: 'nictitate%2:29:00::'
       subcat:
@@ -16378,7 +16561,9 @@ niggle:
       - via
       - via-pp
       synset: 01797944-v
-    - derivation:
+    - agent:
+      - 'niggler%1:18:00::'
+      derivation:
       - 'niggler%1:18:00::'
       id: 'niggle%2:32:00::'
       subcat:
@@ -17306,7 +17491,9 @@ nip:
     - nipped
     - nipping
     sense:
-    - derivation:
+    - body_part:
+      - 'nipper%1:05:00::'
+      derivation:
       - 'nipper%1:05:00::'
       id: 'nip%2:35:00::'
       subcat:
@@ -17314,6 +17501,8 @@ nip:
       - vtii
       synset: 01459400-v
     - derivation:
+      - 'nip%1:04:01::'
+      event:
       - 'nip%1:04:01::'
       id: 'nip%2:35:02::'
       subcat:
@@ -17468,7 +17657,9 @@ nitpick:
     pronunciation:
     - value: ˈnɪt.pɪk
     sense:
-    - derivation:
+    - agent:
+      - 'nitpicker%1:18:00::'
+      derivation:
       - 'nitpicker%1:18:00::'
       id: 'nitpick%2:32:00::'
       subcat:
@@ -17513,6 +17704,8 @@ nitrate:
       subcat:
       - vtai
       synset: 00185248-v
+      uses:
+      - 'nitrate%1:27:00::'
 nitrate bacterium:
   n:
     sense:
@@ -17597,7 +17790,13 @@ nitrify:
       - 'nitrous_acid%1:27:00::'
       - 'nitric_acid%1:27:00::'
       - 'nitrate%1:27:00::'
+      event:
+      - 'nitrification%1:22:00::'
       id: 'nitrify%2:30:02::'
+      result:
+      - 'nitrous_acid%1:27:00::'
+      - 'nitric_acid%1:27:00::'
+      - 'nitrate%1:27:00::'
       subcat:
       - vtai
       synset: 00505982-v
@@ -17606,19 +17805,30 @@ nitrify:
       - 'nitrous_acid%1:27:00::'
       - 'nitrogen%1:27:00::'
       - 'nitrate%1:27:00::'
+      event:
+      - 'nitrification%1:22:01::'
       id: 'nitrify%2:30:01::'
       subcat:
       - vtai
       synset: 00505757-v
+      uses:
+      - 'nitrous_acid%1:27:00::'
+      - 'nitrogen%1:27:00::'
+      - 'nitrate%1:27:00::'
     - antonym:
       - 'denitrify%2:30:00::'
       derivation:
       - 'nitrification%1:22:00::'
       - 'nitrate%1:27:00::'
+      event:
+      - 'nitrification%1:22:00::'
       id: 'nitrify%2:30:00::'
       subcat:
       - vtai
       synset: 00503559-v
+      uses:
+      - 'nitrification%1:22:00::'
+      - 'nitrate%1:27:00::'
 nitril:
   n:
     sense:
@@ -18449,11 +18659,15 @@ nod:
     sense:
     - derivation:
       - 'nod%1:10:01::'
+      event:
+      - 'nod%1:10:01::'
       id: 'nod%2:32:01::'
       subcat:
       - vtai
       synset: 00900197-v
     - derivation:
+      - 'nod%1:04:00::'
+      event:
       - 'nod%1:04:00::'
       id: 'nod%2:32:00::'
       subcat:
@@ -18461,6 +18675,8 @@ nod:
       - via-to
       synset: 00899973-v
     - derivation:
+      - 'nod%1:04:00::'
+      event:
       - 'nod%1:04:00::'
       id: 'nod%2:29:03::'
       subcat:
@@ -18684,6 +18900,9 @@ noise:
     - value: nɔɪz
     sense:
     - derivation:
+      - 'noise%1:09:00::'
+      - 'noise%1:11:00::'
+      event:
       - 'noise%1:09:00::'
       - 'noise%1:11:00::'
       id: 'noise%2:39:00::'
@@ -19024,18 +19243,27 @@ nominate:
     - value: ˈnɑm.ɪ.neɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'nominator%1:18:00::'
+      derivation:
       - nominative%5:00:00:appointive:00
       - 'nomination%1:26:00::'
       - 'nomination%1:10:00::'
       - 'nomination%1:04:00::'
       - 'nominator%1:18:00::'
+      event:
+      - 'nomination%1:10:00::'
+      - 'nomination%1:04:00::'
       id: 'nominate%2:32:00::'
+      state:
+      - 'nomination%1:26:00::'
       subcat:
       - via-pp
       - vtaa
       synset: 00881061-v
-    - derivation:
+    - agent:
+      - 'nominator%1:18:00::'
+      derivation:
       - nominative%5:00:00:appointive:00
       - 'nominator%1:18:00::'
       id: 'nominate%2:41:02::'
@@ -19046,6 +19274,8 @@ nominate:
     - derivation:
       - nominative%5:00:00:appointive:00
       - 'nomination%1:04:00::'
+      event:
+      - 'nomination%1:04:00::'
       id: 'nominate%2:41:01::'
       sent:
       - They nominate him to write the letter
@@ -19054,6 +19284,8 @@ nominate:
       synset: 02401858-v
     - derivation:
       - nominative%5:00:00:appointive:00
+      - 'nomination%1:04:00::'
+      event:
       - 'nomination%1:04:00::'
       id: 'nominate%2:41:00::'
       subcat:
@@ -22332,10 +22564,14 @@ noose:
     - derivation:
       - 'noose%1:06:01::'
       id: 'noose%2:36:00::'
+      result:
+      - 'noose%1:06:01::'
       subcat:
       - vtai
       synset: 01677525-v
-    - derivation:
+    - by_means_of:
+      - 'noose%1:06:01::'
+      derivation:
       - 'noose%1:06:01::'
       id: 'noose%2:35:00::'
       subcat:
@@ -22558,9 +22794,13 @@ normalise:
       subcat:
       - vii
       synset: 00469496-v
-    - derivation:
+    - agent:
+      - 'normaliser%1:18:00::'
+      derivation:
       - 'normalisation%1:04:00::'
       - 'normaliser%1:18:00::'
+      event:
+      - 'normalisation%1:04:00::'
       id: 'normalise%2:30:01::'
       subcat:
       - vtai
@@ -22609,9 +22849,13 @@ normalize:
       subcat:
       - vii
       synset: 00469496-v
-    - derivation:
+    - agent:
+      - 'normalizer%1:18:00::'
+      derivation:
       - 'normalization%1:04:00::'
       - 'normalizer%1:18:00::'
+      event:
+      - 'normalization%1:04:00::'
       id: 'normalize%2:30:01::'
       subcat:
       - vtai
@@ -23320,7 +23564,12 @@ nose:
       subcat:
       - vtai
       synset: 01998160-v
-    - derivation:
+      undergoer:
+      - 'nose%1:06:00::'
+    - by_means_of:
+      - 'nose%1:09:00::'
+      - 'nose%1:08:00::'
+      derivation:
       - 'nose%1:09:00::'
       - 'nose%1:08:00::'
       id: 'nose%2:39:01::'
@@ -23328,7 +23577,9 @@ nose:
       - vtaa
       - vtai
       synset: 02129688-v
-    - derivation:
+    - by_means_of:
+      - 'nose%1:08:00::'
+      derivation:
       - 'nose%1:08:00::'
       id: 'nose%2:38:00::'
       subcat:
@@ -23341,7 +23592,11 @@ nose:
       - via
       - vii
       synset: 01427004-v
+      undergoer:
+      - 'nose%1:08:00::'
     - derivation:
+      - 'nose%1:23:00::'
+      event:
       - 'nose%1:23:00::'
       id: 'nose%2:33:00::'
       sent:
@@ -23516,8 +23771,12 @@ nosh:
     - value: nɒʃ
       variety: GB
     sense:
-    - derivation:
+    - agent:
       - 'nosher%1:18:00::'
+      derivation:
+      - 'nosher%1:18:00::'
+      - 'nosh%1:13:00::'
+      event:
       - 'nosh%1:13:00::'
       id: 'nosh%2:34:00::'
       sent:
@@ -23776,7 +24035,11 @@ notate:
     - derivation:
       - 'notation%1:10:00::'
       - 'notation%1:04:00::'
+      event:
+      - 'notation%1:04:00::'
       id: 'notate%2:32:00::'
+      result:
+      - 'notation%1:10:00::'
       subcat:
       - vtai
       synset: 00997331-v
@@ -23839,6 +24102,10 @@ notch:
       - 'notch%1:06:00::'
       - 'notch%1:25:00::'
       id: 'notch%2:35:00::'
+      result:
+      - 'notch%1:04:00::'
+      - 'notch%1:06:00::'
+      - 'notch%1:25:00::'
       subcat:
       - vtai
       - vtii
@@ -23847,6 +24114,9 @@ notch:
       - 'notch%1:04:00::'
       - 'notch%1:06:00::'
       id: 'notch%2:32:00::'
+      result:
+      - 'notch%1:04:00::'
+      - 'notch%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -23889,6 +24159,8 @@ note:
     sense:
     - derivation:
       - 'note%1:10:02::'
+      event:
+      - 'note%1:10:02::'
       id: 'note%2:32:00::'
       subcat:
       - via-that
@@ -23908,7 +24180,11 @@ note:
     - derivation:
       - 'note%1:10:00::'
       - 'notation%1:10:01::'
+      event:
+      - 'note%1:10:00::'
       id: 'note%2:32:01::'
+      result:
+      - 'notation%1:10:01::'
       subcat:
       - via-that
       - vtai
@@ -24063,19 +24339,25 @@ notice:
     sense:
     - derivation:
       - 'notice%1:09:00::'
+      event:
+      - 'notice%1:09:00::'
       id: 'notice%2:39:04::'
       subcat:
       - via-that
       - vtaa
       - vtai
       synset: 02158938-v
-    - antonym:
+    - agent:
+      - 'noticer%1:18:01::'
+      antonym:
       - 'ignore%2:39:00::'
       derivation:
       - noticeable%5:00:00:perceptible:00
       - 'noticeable%3:00:00::'
       - 'notice%1:09:00::'
       - 'noticer%1:18:01::'
+      event:
+      - 'notice%1:09:00::'
       id: 'notice%2:39:00::'
       subcat:
       - via-that
@@ -24084,11 +24366,16 @@ notice:
       synset: 02122959-v
     - derivation:
       - 'notice%1:10:04::'
+      event:
+      - 'notice%1:10:04::'
       id: 'notice%2:32:00::'
       subcat:
       - vtai
       synset: 01060446-v
     - derivation:
+      - 'notice%1:09:01::'
+      - 'notice%1:09:00::'
+      event:
       - 'notice%1:09:01::'
       - 'notice%1:09:00::'
       id: 'notice%2:32:01::'
@@ -24198,6 +24485,11 @@ notify:
       - 'notice%1:10:02::'
       - 'notice%1:10:01::'
       - notifiable%5:00:00:reported:00
+      event:
+      - 'notification%1:10:00::'
+      - 'notice%1:10:02::'
+      - 'notice%1:10:01::'
+      - 'notification%1:10:01::'
       id: 'notify%2:32:00::'
       subcat:
       - via-that
@@ -24205,6 +24497,8 @@ notify:
       - vtaa-of
       - vtia
       synset: 00875364-v
+      uses:
+      - 'notification%1:10:01::'
 notion:
   n:
     pronunciation:
@@ -24369,8 +24663,12 @@ nourish:
       - vtaa
       - vtia
       synset: 01205348-v
+      uses:
+      - 'nourishment%1:13:00::'
     - derivation:
       - nutrient%5:00:00:wholesome:00
+      - 'nourishment%1:04:00::'
+      event:
       - 'nourishment%1:04:00::'
       id: 'nourish%2:34:01::'
       subcat:
@@ -24449,6 +24747,8 @@ novate:
     sense:
     - derivation:
       - 'novation%1:04:00::'
+      event:
+      - 'novation%1:04:00::'
       id: 'novate%2:30:00::'
       subcat:
       - vtai
@@ -24509,6 +24809,8 @@ novelise:
     sense:
     - derivation:
       - 'novelisation%1:04:00::'
+      event:
+      - 'novelisation%1:04:00::'
       id: 'novelise%2:30:00::'
       subcat:
       - vtai
@@ -24537,6 +24839,8 @@ novelize:
   v:
     sense:
     - derivation:
+      - 'novelization%1:04:00::'
+      event:
       - 'novelization%1:04:00::'
       id: 'novelize%2:30:00::'
       subcat:
@@ -25268,16 +25572,22 @@ nudge:
     pronunciation:
     - value: nʌdʒ
     sense:
-    - derivation:
+    - agent:
+      - 'nudger%1:18:00::'
+      derivation:
       - 'nudge%1:04:00::'
       - 'nudger%1:18:00::'
+      event:
+      - 'nudge%1:04:00::'
       id: 'nudge%2:35:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       synset: 01233816-v
-    - derivation:
+    - agent:
+      - 'nudger%1:18:00::'
+      derivation:
       - 'nudger%1:18:00::'
       id: 'nudge%2:32:00::'
       sent:
@@ -25395,14 +25705,18 @@ nuke:
       synset: 02756886-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'nuke%1:06:00::'
+      derivation:
       - 'nuke%1:06:00::'
       id: 'nuke%2:33:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01135714-v
-    - derivation:
+    - by_means_of:
+      - 'nuke%1:06:00::'
+      derivation:
       - 'nuke%1:06:00::'
       id: 'nuke%2:33:01::'
       subcat:
@@ -25481,11 +25795,18 @@ nullify:
     pronunciation:
     - value: ˈnʌlɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'nullifier%1:18:01::'
+      - 'nullifier%1:18:00::'
+      by_means_of:
+      - 'nullification%1:09:00::'
+      derivation:
       - 'nullifier%1:18:01::'
       - 'nullification%1:09:00::'
       - 'nullification%1:04:00::'
       - 'nullifier%1:18:00::'
+      event:
+      - 'nullification%1:04:00::'
       id: 'nullify%2:41:00::'
       subcat:
       - vtai
@@ -25497,6 +25818,8 @@ nullify:
       - vtii
       synset: 00669020-v
     - derivation:
+      - 'nullification%1:04:00::'
+      event:
       - 'nullification%1:04:00::'
       id: 'nullify%2:30:00::'
       subcat:
@@ -25620,6 +25943,10 @@ number:
       - 'number%1:23:00::'
       - 'number%1:07:00::'
       id: 'number%2:42:00::'
+      result:
+      - 'number%1:07:00::'
+      state:
+      - 'number%1:23:00::'
       subcat:
       - vtii
       synset: 02651091-v
@@ -25630,10 +25957,21 @@ number:
       - 'number%1:07:00::'
       - 'numbering%1:10:00::'
       id: 'number%2:32:03::'
+      state:
+      - 'number%1:23:00::'
       subcat:
       - vtaa
       - vtai
       synset: 00950885-v
+      undergoer:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:07:00::'
+      uses:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:23:00::'
+      - 'number%1:07:00::'
     - derivation:
       - 'number%1:10:01::'
       - 'number%1:10:02::'
@@ -25641,15 +25979,28 @@ number:
       - 'number%1:07:00::'
       - 'numbering%1:10:00::'
       id: 'number%2:32:01::'
+      property:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:23:00::'
+      - 'number%1:07:00::'
+      state:
+      - 'number%1:23:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       - vtii
       synset: 00948787-v
+      undergoer:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:07:00::'
     - derivation:
       - 'number%1:14:00::'
       id: 'number%2:42:01::'
+      result:
+      - 'number%1:14:00::'
       subcat:
       - vtaa-pp
       - vtai-pp
@@ -25660,21 +26011,38 @@ number:
       - 'number%1:23:00::'
       - 'number%1:07:00::'
       id: 'number%2:32:00::'
+      property:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:23:00::'
+      - 'number%1:07:00::'
+      state:
+      - 'number%1:23:00::'
       subcat:
       - vtaa
       - vtai
       - vtii
       synset: 00950103-v
+      undergoer:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:07:00::'
     - derivation:
       - 'number%1:10:01::'
       - 'number%1:10:02::'
       - 'number%1:23:00::'
       - 'number%1:07:00::'
       id: 'number%2:30:00::'
+      state:
+      - 'number%1:23:00::'
       subcat:
       - vtai
       - vtii
       synset: 00236768-v
+      undergoer:
+      - 'number%1:10:01::'
+      - 'number%1:10:02::'
+      - 'number%1:07:00::'
 number 1:
   n:
     sense:
@@ -25881,6 +26249,8 @@ numerate:
     - derivation:
       - numerable%5:00:00:calculable:00
       - 'numeration%1:04:00::'
+      event:
+      - 'numeration%1:04:00::'
       id: 'numerate%2:32:00::'
       subcat:
       - vtaa
@@ -25888,6 +26258,8 @@ numerate:
       - vtii
       synset: 00950103-v
     - derivation:
+      - 'numeration%1:10:01::'
+      event:
       - 'numeration%1:10:01::'
       id: 'numerate%2:31:00::'
       subcat:
@@ -26163,7 +26535,9 @@ nurse:
     - value: nɝs
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'nurse%1:18:00::'
+      derivation:
       - 'nurse%1:18:00::'
       - 'nursing%1:04:00::'
       id: 'nurse%2:29:00::'
@@ -26176,7 +26550,9 @@ nurse:
       subcat:
       - vtai
       synset: 01777051-v
-    - derivation:
+    - agent:
+      - 'nurse%1:18:00::'
+      derivation:
       - 'nurse%1:18:00::'
       - 'nursing%1:14:00::'
       - 'nursing%1:04:00::'
@@ -26184,14 +26560,18 @@ nurse:
       subcat:
       - vtaa
       synset: 02556395-v
-    - derivation:
+    - agent:
+      - 'nurser%1:18:00::'
+      derivation:
       - 'nurser%1:18:00::'
       id: 'nurse%2:41:03::'
       subcat:
       - vtaa
       - vtai
       synset: 02520860-v
-    - derivation:
+    - agent:
+      - 'nurse%1:18:01::'
+      derivation:
       - 'nurse%1:18:01::'
       - 'nursing%1:04:01::'
       - 'nursery%1:06:01::'
@@ -26386,7 +26766,11 @@ nurture:
     - derivation:
       - 'nurture%1:04:00::'
       - 'nurture%1:07:00::'
+      event:
+      - 'nurture%1:04:00::'
       id: 'nurture%2:32:00::'
+      property:
+      - 'nurture%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -26396,7 +26780,11 @@ nurture:
     - derivation:
       - 'nurture%1:04:00::'
       - 'nurture%1:07:00::'
+      event:
+      - 'nurture%1:04:00::'
       id: 'nurture%2:41:00::'
+      property:
+      - 'nurture%1:07:00::'
       subcat:
       - vtaa
       synset: 02545454-v
@@ -26407,6 +26795,8 @@ nurture:
       - vtaa
       - vtia
       synset: 01205348-v
+      uses:
+      - 'nurturance%1:04:00::'
 nut:
   n:
     sense:
@@ -26439,6 +26829,8 @@ nut:
       - via
       - via-pp
       synset: 01385374-v
+      undergoer:
+      - 'nut%1:20:00::'
 nut and bolt:
   n:
     sense:
@@ -26513,6 +26905,8 @@ nutate:
   v:
     sense:
     - derivation:
+      - 'nutation%1:04:00::'
+      event:
       - 'nutation%1:04:00::'
       id: 'nutate%2:38:00::'
       subcat:
@@ -26674,10 +27068,14 @@ nutrify:
     - derivation:
       - 'nutrition%1:22:00::'
       - 'nutrient%1:03:00::'
+      event:
+      - 'nutrition%1:22:00::'
       id: 'nutrify%2:34:00::'
       subcat:
       - vtii
       synset: 01206811-v
+      uses:
+      - 'nutrient%1:03:00::'
 nutriment:
   n:
     sense:

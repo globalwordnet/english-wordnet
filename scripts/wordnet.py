@@ -361,12 +361,18 @@ class SynsetRelation:
 
 
 class SenseRelation:
-    def __init__(self, target, rel_type):
+    def __init__(self, target, rel_type, other_type=None):
         self.target = target
         self.rel_type = rel_type
+        self.other_type = other_type
 
     def to_xml(self, xml_file, comments):
-        xml_file.write(
+        if self.other_type:
+            xml_file.write(
+                    """        <SenseRelation relType="other" target="%s" dc:type="%s"/>""" %
+                (self.target, self.other_type))
+        else:
+            xml_file.write(
             """        <SenseRelation relType="%s" target="%s"/>""" %
             (self.rel_type.value, self.target))
         if self.target in comments:
@@ -578,6 +584,21 @@ class SenseRelType(Enum):
     SIMILAR = 'similar'
     OTHER = 'other'
 
+class OtherSenseRelType(Enum):
+    AGENT = 'agent'
+    MATERIAL = 'material'
+    EVENT = 'event'
+    INSTRUMENT = 'instrument'
+    LOCATION = 'location'
+    BY_MEANS_OF = 'by_means_of'
+    UNDERGOER = 'undergoer'
+    PROPERTY = 'property'
+    RESULT = 'result'
+    STATE = 'state'
+    USES = 'uses'
+    DESTINATION = 'destination'
+    BODY_PART = 'body_part'
+    VEHICLE = 'vehicle'
 
 inverse_sense_rels = {
     SenseRelType.DOMAIN_REGION: SenseRelType.HAS_DOMAIN_REGION,
@@ -654,7 +675,8 @@ class WordNetContentHandler(ContentHandler):
         elif name == "SenseRelation":
             self.sense.add_sense_relation(
                 SenseRelation(attrs["target"],
-                              SenseRelType(attrs["relType"])))
+                              SenseRelType(attrs["relType"]),
+                              attrs.get("dc:type")))
         elif name == "SyntacticBehaviour":
             pass
             #self.entry.add_syntactic_behaviour(

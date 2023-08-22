@@ -8875,6 +8875,8 @@ gabble:
     sense:
     - derivation:
       - 'gabble%1:10:00::'
+      event:
+      - 'gabble%1:10:00::'
       id: 'gabble%2:32:00::'
       subcat:
       - via
@@ -9099,7 +9101,9 @@ gag:
     pronunciation:
     - value: ɡæɡ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'gag%1:06:00::'
+      derivation:
       - 'gag%1:06:00::'
       id: 'gag%2:39:00::'
       sent:
@@ -9119,7 +9123,11 @@ gag:
       subcat:
       - vtai
       synset: 01287286-v
+      uses:
+      - 'gag%1:06:00::'
     - derivation:
+      - 'gag%1:10:00::'
+      event:
       - 'gag%1:10:00::'
       id: 'gag%2:32:00::'
       subcat:
@@ -9280,7 +9288,9 @@ gain:
       - vtai
       - vtai-from
       synset: 02297086-v
-    - derivation:
+    - agent:
+      - 'gainer%1:18:00::'
+      derivation:
       - 'gainer%1:18:00::'
       id: 'gain%2:40:01::'
       sent:
@@ -9289,7 +9299,9 @@ gain:
       - vtai
       - vtai-from
       synset: 02293158-v
-    - derivation:
+    - agent:
+      - 'gainer%1:18:00::'
+      derivation:
       - 'gainer%1:18:00::'
       id: 'gain%2:40:02::'
       subcat:
@@ -9300,7 +9312,9 @@ gain:
       subcat:
       - vtai
       synset: 02024442-v
-    - antonym:
+    - agent:
+      - 'gainer%1:18:00::'
+      antonym:
       - 'fall_back%2:33:00::'
       derivation:
       - 'gainer%1:18:00::'
@@ -9321,7 +9335,9 @@ gain:
       - vtai
       - vtii
       synset: 00157270-v
-    - derivation:
+    - agent:
+      - 'gainer%1:18:00::'
+      derivation:
       - 'gainer%1:18:00::'
       id: 'gain%2:40:00::'
       sent:
@@ -9329,7 +9345,9 @@ gain:
       subcat:
       - vtai
       synset: 02294200-v
-    - antonym:
+    - agent:
+      - 'gainer%1:18:01::'
+      antonym:
       - 'reduce%2:29:00::'
       derivation:
       - 'gainer%1:18:01::'
@@ -9628,6 +9646,9 @@ gall:
     - derivation:
       - 'gall%1:26:00::'
       - 'gall%1:26:01::'
+      event:
+      - 'gall%1:26:00::'
+      - 'gall%1:26:01::'
       id: 'gall%2:39:00::'
       subcat:
       - vii
@@ -9636,6 +9657,8 @@ gall:
       - vtii
       synset: 02124124-v
     - derivation:
+      - 'gall%1:12:00::'
+      event:
       - 'gall%1:12:00::'
       id: 'gall%2:37:00::'
       sent:
@@ -9896,11 +9919,15 @@ gallop:
     sense:
     - derivation:
       - 'gallop%1:04:00::'
+      event:
+      - 'gallop%1:04:00::'
       id: 'gallop%2:38:00::'
       subcat:
       - via
       synset: 01963786-v
     - derivation:
+      - 'gallop%1:04:00::'
+      event:
       - 'gallop%1:04:00::'
       id: 'gallop%2:38:01::'
       sent:
@@ -9909,6 +9936,8 @@ gallop:
       - vii
       synset: 01964502-v
     - derivation:
+      - 'gallop%1:04:00::'
+      event:
       - 'gallop%1:04:00::'
       id: 'gallop%2:38:03::'
       sent:
@@ -10052,8 +10081,12 @@ galvanisation:
 galvanise:
   v:
     sense:
-    - derivation:
+    - agent:
       - 'galvaniser%1:18:00::'
+      derivation:
+      - 'galvaniser%1:18:00::'
+      - 'galvanisation%1:04:01::'
+      event:
       - 'galvanisation%1:04:01::'
       id: 'galvanise%2:37:00::'
       subcat:
@@ -10061,10 +10094,14 @@ galvanise:
       - vtaa-into-ger
       - vtia
       synset: 01825572-v
-    - derivation:
+    - agent:
+      - 'galvaniser%1:18:01::'
+      derivation:
       - 'galvanisation%1:04:00::'
       - 'galvaniser%1:18:00::'
       - 'galvaniser%1:18:01::'
+      event:
+      - 'galvanisation%1:04:00::'
       id: 'galvanise%2:35:00::'
       subcat:
       - vtii
@@ -10072,6 +10109,8 @@ galvanise:
     - derivation:
       - 'galvanisation%1:22:00::'
       - 'galvanism%1:04:00::'
+      event:
+      - 'galvanisation%1:22:00::'
       id: 'galvanise%2:29:02::'
       subcat:
       - vtai
@@ -10127,9 +10166,13 @@ galvanize:
     pronunciation:
     - value: ˈɡælvənaɪ̯z
     sense:
-    - derivation:
+    - agent:
+      - 'galvanizer%1:18:00::'
+      derivation:
       - 'galvanization%1:04:01::'
       - 'galvanizer%1:18:00::'
+      event:
+      - 'galvanization%1:04:01::'
       id: 'galvanize%2:37:00::'
       sent:
       - The bad news will galvanize him
@@ -10140,9 +10183,13 @@ galvanize:
       - vtaa-into-ger
       - vtia
       synset: 01825572-v
-    - derivation:
+    - agent:
+      - 'galvanizer%1:18:01::'
+      derivation:
       - 'galvanization%1:04:00::'
       - 'galvanizer%1:18:01::'
+      event:
+      - 'galvanization%1:04:00::'
       id: 'galvanize%2:35:00::'
       subcat:
       - vtii
@@ -10150,6 +10197,8 @@ galvanize:
     - derivation:
       - 'galvanization%1:22:00::'
       - 'galvanism%1:04:00::'
+      event:
+      - 'galvanization%1:22:00::'
       id: 'galvanize%2:29:02::'
       subcat:
       - vtai
@@ -10229,14 +10278,20 @@ gamble:
     pronunciation:
     - value: ˈɡæm.bəl
     sense:
-    - derivation:
+    - agent:
+      - 'gambler%1:18:01::'
+      derivation:
       - 'gamble%1:04:00::'
       - 'gambler%1:18:01::'
+      event:
+      - 'gamble%1:04:00::'
       id: 'gamble%2:41:00::'
       subcat:
       - via-that
       synset: 02550045-v
-    - derivation:
+    - agent:
+      - 'gambler%1:18:00::'
+      derivation:
       - 'gamble%1:21:00::'
       - 'gambler%1:18:00::'
       - 'gambling%1:04:00::'
@@ -10337,6 +10392,8 @@ gambol:
     - value: ˈɡæm.bəl
     sense:
     - derivation:
+      - 'gambol%1:04:00::'
+      event:
       - 'gambol%1:04:00::'
       id: 'gambol%2:38:00::'
       subcat:
@@ -10800,6 +10857,8 @@ gang:
       - 'gang%1:14:00::'
       - 'gang%1:14:02::'
       id: 'gang%2:33:00::'
+      result:
+      - 'gang%1:14:00::'
       subcat:
       - via-pp
       - vtaa
@@ -10927,6 +10986,8 @@ gangrene:
     - derivation:
       - 'gangrene%1:26:00::'
       id: 'gangrene%2:29:00::'
+      result:
+      - 'gangrene%1:26:00::'
       subcat:
       - vibody
       synset: 00097148-v
@@ -11063,10 +11124,14 @@ gaol:
     pronunciation:
     - value: dʒeɪl
     sense:
-    - derivation:
+    - agent:
+      - 'gaoler%1:18:00::'
+      derivation:
       - 'gaoler%1:18:00::'
       - 'gaol%1:06:00::'
       id: 'gaol%2:41:00::'
+      location:
+      - 'gaol%1:06:00::'
       sent:
       - They want to gaol the prisoners
       subcat:
@@ -11117,6 +11182,9 @@ gap:
       - 'gap%1:06:00::'
       - 'gap%1:17:00::'
       id: 'gap%2:35:00::'
+      result:
+      - 'gap%1:06:00::'
+      - 'gap%1:17:00::'
       subcat:
       - vtai
       synset: 01596535-v
@@ -11143,6 +11211,9 @@ gape:
     - value: ˈɡeɪp
     sense:
     - derivation:
+      - 'gape%1:04:01::'
+      - 'gape%1:10:00::'
+      event:
       - 'gape%1:04:01::'
       - 'gape%1:10:00::'
       id: 'gape%2:39:00::'
@@ -11195,6 +11266,8 @@ garage:
     - derivation:
       - 'garage%1:06:00::'
       id: 'garage%2:40:00::'
+      location:
+      - 'garage%1:06:00::'
       subcat:
       - vtai
       synset: 02287791-v
@@ -11236,6 +11309,8 @@ garb:
       - vtaa
       - vtai
       synset: 00047662-v
+      uses:
+      - 'garb%1:06:00::'
 garbage:
   n:
     pronunciation:
@@ -11412,7 +11487,10 @@ garden:
     - value: ˈɡɑɹdən
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'gardener%1:18:01::'
+      - 'gardener%1:18:00::'
+      derivation:
       - 'garden%1:14:00::'
       - 'garden%1:06:01::'
       - 'garden%1:06:00::'
@@ -11420,6 +11498,9 @@ garden:
       - 'gardener%1:18:00::'
       - 'gardening%1:04:00::'
       id: 'garden%2:36:00::'
+      location:
+      - 'garden%1:06:01::'
+      - 'garden%1:06:00::'
       subcat:
       - via
       synset: 01744850-v
@@ -11709,6 +11790,8 @@ gargle:
     sense:
     - derivation:
       - 'gargle%1:11:00::'
+      event:
+      - 'gargle%1:11:00::'
       id: 'gargle%2:32:00::'
       subcat:
       - vtai
@@ -11719,6 +11802,8 @@ gargle:
       subcat:
       - via
       synset: 00037131-v
+      uses:
+      - 'gargle%1:27:00::'
 gargoyle:
   n:
     pronunciation:
@@ -11799,6 +11884,8 @@ garland:
       subcat:
       - vtai
       synset: 01673538-v
+      uses:
+      - 'garland%1:06:00::'
 garland crab:
   n:
     sense:
@@ -11908,6 +11995,8 @@ garment:
       - vtaa
       - vtai
       synset: 00047662-v
+      uses:
+      - 'garment%1:06:00::'
 garment bag:
   n:
     sense:
@@ -11974,6 +12063,8 @@ garner:
     - derivation:
       - 'garner%1:06:00::'
       id: 'garner%2:35:01::'
+      location:
+      - 'garner%1:06:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -12032,7 +12123,9 @@ garnish:
     - value: ˈɡɑːnɪʃ
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'garnishment%1:10:00::'
+      derivation:
       - 'garnishment%1:10:00::'
       id: 'garnish%2:40:00::'
       subcat:
@@ -12048,6 +12141,9 @@ garnish:
       - vtai
       - vtii
       synset: 01683328-v
+      uses:
+      - 'garnish%1:06:00::'
+      - 'garnish%1:13:00::'
 garnishee:
   n:
     sense:
@@ -12076,6 +12172,8 @@ garotte:
   v:
     sense:
     - derivation:
+      - 'garotte%1:06:00::'
+      instrument:
       - 'garotte%1:06:00::'
       id: 'garotte%2:35:00::'
       sent:
@@ -12120,10 +12218,14 @@ garrison:
       - 'garrison%1:14:00::'
       - 'garrison%1:06:00::'
       id: 'garrison%2:33:00::'
+      location:
+      - 'garrison%1:06:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01091548-v
+      undergoer:
+      - 'garrison%1:14:00::'
 garrison cap:
   n:
     sense:
@@ -12140,7 +12242,9 @@ garrote:
     pronunciation:
     - value: ɡəˈɹɒt
     sense:
-    - derivation:
+    - agent:
+      - 'garroter%1:18:00::'
+      derivation:
       - 'garroter%1:18:00::'
       id: 'garrote%2:35:00::'
       subcat:
@@ -12163,8 +12267,12 @@ garrotte:
       synset: 03425845-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'garrotter%1:18:00::'
+      derivation:
+      - 'garrotter%1:18:00::'
+      - 'garrotte%1:06:00::'
+      instrument:
       - 'garrotte%1:06:00::'
       id: 'garrotte%2:35:00::'
       sent:
@@ -12235,7 +12343,11 @@ garter:
     - value: ˈɡɑːɹtɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'garter%1:06:00::'
+      derivation:
+      - 'garter%1:06:00::'
+      instrument:
       - 'garter%1:06:00::'
       id: 'garter%2:35:00::'
       subcat:
@@ -12628,6 +12740,8 @@ gasconade:
     sense:
     - derivation:
       - 'gasconade%1:10:00::'
+      event:
+      - 'gasconade%1:10:00::'
       id: 'gasconade%2:32:00::'
       subcat:
       - via
@@ -12690,6 +12804,9 @@ gash:
     - derivation:
       - 'gash%1:04:02::'
       - 'gash%1:26:00::'
+      event:
+      - 'gash%1:04:02::'
+      - 'gash%1:26:00::'
       id: 'gash%2:35:00::'
       sent:
       - They will gash the duet
@@ -12720,7 +12837,13 @@ gasify:
       - 'gas%1:27:02::'
       - 'gas%1:27:00::'
       - 'gas%1:26:00::'
+      event:
+      - 'gasification%1:22:00::'
       id: 'gasify%2:30:00::'
+      result:
+      - 'gas%1:27:03::'
+      - 'gas%1:27:00::'
+      - 'gas%1:26:00::'
       subcat:
       - vii
       - vtai
@@ -12857,6 +12980,8 @@ gasp:
       variety: US
     sense:
     - derivation:
+      - 'gasp%1:04:00::'
+      event:
       - 'gasp%1:04:00::'
       id: 'gasp%2:29:00::'
       subcat:
@@ -13197,6 +13322,8 @@ gate:
       subcat:
       - vtai
       synset: 02358840-v
+      uses:
+      - 'gate%1:06:00::'
     - id: 'gate%2:35:00::'
       subcat:
       - vtai
@@ -13297,6 +13424,8 @@ gather:
       - 'spread%2:35:00::'
       derivation:
       - 'gather%1:04:00::'
+      event:
+      - 'gather%1:04:00::'
       id: 'gather%2:35:00::'
       subcat:
       - vtaa
@@ -13326,6 +13455,8 @@ gather:
       - 'gather%1:06:00::'
       - 'gathering%1:06:00::'
       id: 'gather%2:35:03::'
+      result:
+      - 'gather%1:06:00::'
       subcat:
       - vtai
       synset: 01333504-v
@@ -13342,9 +13473,13 @@ gather:
       subcat:
       - vtai
       synset: 01352575-v
-    - derivation:
+    - agent:
+      - 'gatherer%1:18:01::'
+      derivation:
       - 'gather%1:04:00::'
       - 'gatherer%1:18:01::'
+      event:
+      - 'gather%1:04:00::'
       id: 'gather%2:35:04::'
       subcat:
       - via
@@ -13584,11 +13719,15 @@ gauge:
       synset: 01252938-v
     - derivation:
       - 'gauge%1:06:00::'
+      instrument:
+      - 'gauge%1:06:00::'
       id: 'gauge%2:32:00::'
       subcat:
       - vtai
       synset: 00921395-v
     - derivation:
+      - 'gauge%1:24:00::'
+      event:
       - 'gauge%1:24:00::'
       id: 'gauge%2:30:00::'
       subcat:
@@ -13882,6 +14021,8 @@ gaze:
     - value: ɡeɪz
     sense:
     - derivation:
+      - 'gaze%1:04:00::'
+      event:
       - 'gaze%1:04:00::'
       id: 'gaze%2:39:00::'
       sent:
@@ -14233,6 +14374,8 @@ gel:
     - derivation:
       - 'gel%1:27:00::'
       id: 'gel%2:30:00::'
+      result:
+      - 'gel%1:27:00::'
       subcat:
       - vii
       synset: 00113536-v
@@ -14459,6 +14602,8 @@ geminate:
       - vtai
       synset: 01467847-v
     - derivation:
+      - 'gemination%1:10:00::'
+      event:
       - 'gemination%1:10:00::'
       id: 'geminate%2:30:00::'
       subcat:
@@ -14739,7 +14884,9 @@ general:
     pronunciation:
     - value: ˈd͡ʒɛnɹəl
     sense:
-    - derivation:
+    - agent:
+      - 'general%1:18:00::'
+      derivation:
       - 'general%1:18:00::'
       id: 'general%2:32:00::'
       subcat:
@@ -14914,12 +15061,17 @@ generalise:
     - derivation:
       - 'generalisation%1:09:00::'
       id: 'generalise%2:32:00::'
+      result:
+      - 'generalisation%1:09:00::'
       sent:
       - Sam and Sue generalise
       subcat:
       - via
       synset: 01024915-v
     - derivation:
+      - 'generalisation%1:09:03::'
+      - 'generalisation%1:09:02::'
+      event:
       - 'generalisation%1:09:03::'
       - 'generalisation%1:09:02::'
       id: 'generalise%2:32:01::'
@@ -14995,7 +15147,12 @@ generalize:
       - 'generalization%1:09:03::'
       - 'generalization%1:09:02::'
       - 'generalization%1:09:01::'
+      event:
+      - 'generalization%1:09:03::'
+      - 'generalization%1:09:02::'
       id: 'generalize%2:32:01::'
+      result:
+      - 'generalization%1:09:01::'
       subcat:
       - via-that
       - vtai
@@ -15005,6 +15162,8 @@ generalize:
       derivation:
       - 'generalization%1:09:00::'
       id: 'generalize%2:32:00::'
+      result:
+      - 'generalization%1:09:00::'
       sent:
       - Sam and Sue generalize
       subcat:
@@ -15084,17 +15243,24 @@ generate:
     - value: ˈdʒɛn.ɚ.eɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'generator%1:18:00::'
+      derivation:
       - 'generative%3:00:00::'
       - 'generation%1:28:01::'
       - 'generation%1:11:00::'
       - 'generator%1:18:00::'
+      event:
+      - 'generation%1:28:01::'
+      - 'generation%1:11:00::'
       id: 'generate%2:36:00::'
       subcat:
       - vtai
       - vtii
       synset: 01630392-v
     - derivation:
+      - 'generation%1:04:01::'
+      event:
       - 'generation%1:04:01::'
       id: 'generate%2:36:02::'
       subcat:
@@ -15105,12 +15271,20 @@ generate:
       - 'generative%3:00:00::'
       - 'generation%1:04:01::'
       - 'generator%1:06:00::'
+      event:
+      - 'generation%1:04:01::'
+      instrument:
+      - 'generator%1:06:00::'
       id: 'generate%2:36:01::'
       subcat:
       - vtai
       synset: 01631234-v
     - derivation:
       - generative%5:00:00:fruitful:00
+      - 'generation%1:14:00::'
+      - 'generation%1:11:00::'
+      - 'generation%1:04:00::'
+      event:
       - 'generation%1:14:00::'
       - 'generation%1:11:00::'
       - 'generation%1:04:00::'
@@ -16112,6 +16286,8 @@ gentrify:
     sense:
     - derivation:
       - 'gentrification%1:04:00::'
+      event:
+      - 'gentrification%1:04:00::'
       id: 'gentrify%2:30:00::'
       subcat:
       - vtai
@@ -16153,11 +16329,17 @@ genuflect:
     - derivation:
       - 'genuflection%1:10:00::'
       - 'genuflexion%1:10:00::'
+      event:
+      - 'genuflection%1:10:00::'
+      - 'genuflexion%1:10:00::'
       id: 'genuflect%2:38:00::'
       subcat:
       - via
       synset: 02044779-v
     - derivation:
+      - 'genuflection%1:10:00::'
+      - 'genuflexion%1:10:00::'
+      event:
       - 'genuflection%1:10:00::'
       - 'genuflexion%1:10:00::'
       id: 'genuflect%2:38:01::'
@@ -35405,6 +35587,8 @@ germinate:
     - derivation:
       - 'germ%1:08:00::'
       - 'germination%1:22:00::'
+      event:
+      - 'germination%1:22:00::'
       id: 'germinate%2:30:00::'
       subcat:
       - vii
@@ -35416,6 +35600,9 @@ germinate:
       - vtai
       synset: 01742478-v
     - derivation:
+      - 'germination%1:22:00::'
+      - 'germination%1:11:00::'
+      event:
       - 'germination%1:22:00::'
       - 'germination%1:11:00::'
       id: 'germinate%2:30:01::'
@@ -35493,6 +35680,8 @@ gerrymander:
     sense:
     - derivation:
       - 'gerrymander%1:04:00::'
+      event:
+      - 'gerrymander%1:04:00::'
       id: 'gerrymander%2:41:00::'
       subcat:
       - vtai
@@ -35556,6 +35745,8 @@ gestate:
     sense:
     - derivation:
       - 'gestation%1:09:00::'
+      event:
+      - 'gestation%1:09:00::'
       id: 'gestate%2:36:03::'
       subcat:
       - via-pp
@@ -35564,7 +35755,11 @@ gestate:
     - derivation:
       - 'gestation%1:28:00::'
       - 'gestation%1:26:00::'
+      event:
+      - 'gestation%1:28:00::'
       id: 'gestate%2:29:00::'
+      state:
+      - 'gestation%1:26:00::'
       subcat:
       - vtaa
       synset: 00058790-v
@@ -35621,6 +35816,8 @@ gesticulate:
       - 'gesture%1:10:00::'
       - 'gesture%1:04:00::'
       - 'gesticulation%1:10:00::'
+      event:
+      - 'gesticulation%1:10:00::'
       id: 'gesticulate%2:32:00::'
       subcat:
       - via
@@ -35666,7 +35863,10 @@ gesture:
     pronunciation:
     - value: ˈd͡ʒest͡ʃə
     sense:
-    - derivation:
+    - by_means_of:
+      - 'gesture%1:10:00::'
+      - 'gesture%1:04:00::'
+      derivation:
       - 'gesture%1:10:00::'
       - 'gesture%1:04:00::'
       id: 'gesture%2:32:00::'
@@ -36676,6 +36876,8 @@ get together:
     sense:
     - derivation:
       - 'get_together%1:14:00::'
+      event:
+      - 'get_together%1:14:00::'
       id: 'get_together%2:41:03::'
       sent:
       - They want to get together the prisoners
@@ -36683,6 +36885,8 @@ get together:
       - vtaa
       synset: 02604140-v
     - derivation:
+      - 'get_together%1:14:00::'
+      event:
       - 'get_together%1:14:00::'
       id: 'get_together%2:41:01::'
       subcat:
@@ -36924,7 +37128,9 @@ geyser:
     - value: ˈɡaɪzɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'geyser%1:17:00::'
+      derivation:
       - 'geyser%1:17:00::'
       id: 'geyser%2:38:00::'
       subcat:
@@ -37097,7 +37303,9 @@ ghost:
       - vtaa
       - vtia
       synset: 01787033-v
-    - derivation:
+    - agent:
+      - 'ghost%1:18:01::'
+      derivation:
       - 'ghost%1:18:01::'
       id: 'ghost%2:36:00::'
       sent:
@@ -37172,7 +37380,9 @@ ghostwrite:
     - ghostwritten
     - ghostwrote
     sense:
-    - derivation:
+    - agent:
+      - 'ghostwriter%1:18:00::'
+      derivation:
       - 'ghostwriter%1:18:00::'
       id: 'ghostwrite%2:36:00::'
       sent:
@@ -37578,7 +37788,11 @@ gibber:
     - derivation:
       - 'gibber%1:10:00::'
       - 'gibberish%1:10:00::'
+      event:
+      - 'gibber%1:10:00::'
       id: 'gibber%2:32:01::'
+      result:
+      - 'gibber%1:10:00::'
       subcat:
       - via
       - vtai
@@ -37616,6 +37830,8 @@ gibbet:
     - value: ˈdʒɪbɪt
     sense:
     - derivation:
+      - 'gibbet%1:06:00::'
+      instrument:
       - 'gibbet%1:06:00::'
       id: 'gibbet%2:41:00::'
       subcat:
@@ -37683,6 +37899,8 @@ gibe:
       - vii-pp
       synset: 02663315-v
     - derivation:
+      - 'gibe%1:10:00::'
+      event:
       - 'gibe%1:10:00::'
       id: 'gibe%2:32:00::'
       subcat:
@@ -37793,17 +38011,23 @@ gift:
       - 'gift%1:09:00::'
       - 'gift%1:21:00::'
       id: 'gift%2:41:00::'
+      property:
+      - 'gift%1:09:00::'
       subcat:
       - vtaa-with
       synset: 02479662-v
     - derivation:
       - 'gift%1:04:00::'
       - 'gift%1:21:00::'
+      event:
+      - 'gift%1:04:00::'
       id: 'gift%2:40:00::'
       subcat:
       - ditransitive
       - vtai-to
       synset: 02205200-v
+      undergoer:
+      - 'gift%1:21:00::'
 gift cards:
   n:
     sense:
@@ -37960,8 +38184,12 @@ giggle:
     pronunciation:
     - value: ˈɡɪɡl
     sense:
-    - derivation:
+    - agent:
       - 'giggler%1:18:00::'
+      derivation:
+      - 'giggler%1:18:00::'
+      - 'giggle%1:10:00::'
+      event:
       - 'giggle%1:10:00::'
       id: 'giggle%2:29:00::'
       subcat:
@@ -38017,7 +38245,9 @@ gild:
     pronunciation:
     - value: ɡɪld
     sense:
-    - derivation:
+    - agent:
+      - 'gilder%1:18:00::'
+      derivation:
       - 'gilder%1:18:00::'
       - 'gilding%1:06:00::'
       id: 'gild%2:36:00::'
@@ -38307,13 +38537,17 @@ gin:
     pronunciation:
     - value: dʒɪn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'gin%1:06:00::'
+      derivation:
       - 'gin%1:06:00::'
       id: 'gin%2:35:03::'
       subcat:
       - vtai
       synset: 01560299-v
-    - derivation:
+    - by_means_of:
+      - 'gin%1:06:01::'
+      derivation:
       - 'gin%1:06:01::'
       id: 'gin%2:35:00::'
       subcat:
@@ -38379,9 +38613,15 @@ ginger:
       - 'ginger%1:13:02::'
       - 'ginger%1:13:00::'
       id: 'ginger%2:39:00::'
+      material:
+      - 'ginger%1:13:02::'
+      - 'ginger%1:13:00::'
       subcat:
       - vtai
       synset: 02197264-v
+      uses:
+      - 'ginger%1:13:02::'
+      - 'ginger%1:13:00::'
 ginger ale:
   n:
     sense:
@@ -38680,6 +38920,8 @@ girdle:
       subcat:
       - vtai
       synset: 01611026-v
+      uses:
+      - 'girdle%1:08:00::'
     - derivation:
       - 'girdle%1:06:00::'
       id: 'girdle%2:35:00::'
@@ -38687,6 +38929,8 @@ girdle:
       - vtai
       - vtii
       synset: 01470546-v
+      uses:
+      - 'girdle%1:06:00::'
 girl:
   n:
     pronunciation:
@@ -38818,6 +39062,8 @@ girth:
       subcat:
       - vtai
       synset: 01305642-v
+      uses:
+      - 'girth%1:06:00::'
 gismo:
   n:
     sense:
@@ -38881,7 +39127,9 @@ give:
       subcat:
       - vtii
       synset: 02344167-v
-    - also:
+    - agent:
+      - 'giver%1:18:00::'
+      also:
       - 'give_back%2:40:00::'
       antonym:
       - 'take%2:40:00::'
@@ -38914,7 +39162,9 @@ give:
       subcat:
       - ditransitive
       synset: 01062189-v
-    - derivation:
+    - agent:
+      - 'giver%1:18:00::'
+      derivation:
       - 'giver%1:18:00::'
       - 'giving%1:04:01::'
       id: 'give%2:40:01::'
@@ -39052,6 +39302,8 @@ give:
       derivation:
       - 'give%1:07:00::'
       id: 'give%2:35:00::'
+      property:
+      - 'give%1:07:00::'
       subcat:
       - vii
       synset: 01452389-v
@@ -39761,7 +40013,13 @@ glaciate:
       - 'glaciation%1:26:00::'
       - 'glaciation%1:22:00::'
       - 'glacier%1:17:00::'
+      event:
+      - 'glaciation%1:22:00::'
       id: 'glaciate%2:35:00::'
+      result:
+      - 'glacier%1:17:00::'
+      state:
+      - 'glaciation%1:26:00::'
       subcat:
       - vtii
       synset: 01211328-v
@@ -39769,7 +40027,13 @@ glaciate:
       - 'glaciation%1:26:00::'
       - 'glaciation%1:22:00::'
       - 'glacier%1:17:00::'
+      event:
+      - 'glaciation%1:22:00::'
       id: 'glaciate%2:30:00::'
+      result:
+      - 'glacier%1:17:00::'
+      state:
+      - 'glaciation%1:26:00::'
       subcat:
       - vii
       synset: 00375046-v
@@ -40013,6 +40277,8 @@ glamorise:
     sense:
     - derivation:
       - 'glamorisation%1:04:00::'
+      event:
+      - 'glamorisation%1:04:00::'
       id: 'glamorise%2:30:00::'
       subcat:
       - vtai
@@ -40035,7 +40301,11 @@ glamorize:
     - derivation:
       - 'glamorization%1:04:00::'
       - 'glamor%1:07:00::'
+      event:
+      - 'glamorization%1:04:00::'
       id: 'glamorize%2:30:00::'
+      state:
+      - 'glamor%1:07:00::'
       subcat:
       - vtai
       synset: 00533966-v
@@ -40072,6 +40342,8 @@ glamour:
     - derivation:
       - 'glamour%1:07:00::'
       id: 'glamour%2:32:00::'
+      property:
+      - 'glamour%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -40094,6 +40366,8 @@ glamourise:
     - derivation:
       - 'glamourisation%1:04:00::'
       - 'glamour%1:07:00::'
+      event:
+      - 'glamourisation%1:04:00::'
       id: 'glamourise%2:30:00::'
       subcat:
       - vtai
@@ -40109,6 +40383,8 @@ glamourize:
   v:
     sense:
     - derivation:
+      - 'glamourization%1:04:00::'
+      event:
       - 'glamourization%1:04:00::'
       id: 'glamourize%2:30:00::'
       subcat:
@@ -40149,6 +40425,8 @@ glance:
       variety: US
     sense:
     - derivation:
+      - 'glance%1:04:00::'
+      event:
       - 'glance%1:04:00::'
       id: 'glance%2:39:00::'
       sent:
@@ -40292,6 +40570,8 @@ glare:
     sense:
     - derivation:
       - 'glare%1:04:00::'
+      event:
+      - 'glare%1:04:00::'
       id: 'glare%2:29:00::'
       sent:
       - The ropes glare
@@ -40304,6 +40584,8 @@ glare:
       - vii
       synset: 02771048-v
     - derivation:
+      - 'glare%1:07:00::'
+      event:
       - 'glare%1:07:00::'
       id: 'glare%2:39:01::'
       subcat:
@@ -40397,7 +40679,11 @@ glass:
       subcat:
       - vtai
       synset: 02340359-v
+      uses:
+      - 'glass%1:27:00::'
     - derivation:
+      - 'glass%1:06:03::'
+      instrument:
       - 'glass%1:06:03::'
       id: 'glass%2:39:00::'
       subcat:
@@ -40409,6 +40695,8 @@ glass:
       subcat:
       - vtai
       synset: 01590496-v
+      uses:
+      - 'glass%1:27:00::'
     - derivation:
       - 'glass%1:23:00::'
       - 'glass%1:06:04::'
@@ -40417,6 +40705,8 @@ glass:
       subcat:
       - vtai
       synset: 00188912-v
+      undergoer:
+      - 'glass%1:23:00::'
     - id: 'glass%2:30:00::'
       subcat:
       - vii
@@ -40657,11 +40947,15 @@ glaze:
       subcat:
       - vtai
       synset: 01272085-v
+      uses:
+      - 'glaze%1:07:00::'
     - id: 'glaze%2:30:00::'
       subcat:
       - vii
       synset: 00125255-v
-    - derivation:
+    - agent:
+      - 'glazier%1:18:00::'
+      derivation:
       - 'glazier%1:18:00::'
       id: 'glaze%2:40:00::'
       subcat:
@@ -40674,6 +40968,8 @@ glaze:
       - vtai
       - vtii
       synset: 02200824-v
+      uses:
+      - 'glaze%1:13:00::'
 glaze over:
   v:
     sense:
@@ -40743,6 +41039,8 @@ gleam:
     - derivation:
       - 'gleam%1:11:00::'
       - 'gleaming%1:11:00::'
+      event:
+      - 'gleam%1:11:00::'
       id: 'gleam%2:39:00::'
       sent:
       - Lights gleam on the horizon
@@ -40778,7 +41076,9 @@ glean:
     - value: ɡliːn
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'gleaner%1:18:00::'
+      derivation:
       - 'gleaner%1:18:00::'
       id: 'glean%2:35:00::'
       sent:
@@ -40962,6 +41262,8 @@ glide:
       derivation:
       - 'glide%1:04:00::'
       - 'glider%1:06:00::'
+      event:
+      - 'glide%1:04:00::'
       id: 'glide%2:38:00::'
       sent:
       - The cars glide down the avenue
@@ -40970,16 +41272,24 @@ glide:
       - vii-pp
       - vtai-pp
       synset: 01891569-v
+      vehicle:
+      - 'glider%1:06:00::'
     - derivation:
       - 'glide%1:04:01::'
       - 'glider%1:06:00::'
       - 'gliding%1:04:00::'
+      event:
+      - 'glide%1:04:01::'
       id: 'glide%2:38:01::'
       subcat:
       - via
       - vii
       synset: 01946206-v
+      vehicle:
+      - 'glider%1:06:00::'
     - derivation:
+      - 'glide%1:04:00::'
+      event:
       - 'glide%1:04:00::'
       id: 'glide%2:38:02::'
       sent:
@@ -41071,6 +41381,8 @@ glimmer:
     sense:
     - derivation:
       - 'glimmer%1:11:00::'
+      event:
+      - 'glimmer%1:11:00::'
       id: 'glimmer%2:39:00::'
       sent:
       - Lights glimmer on the horizon
@@ -41112,6 +41424,9 @@ glimpse:
     - derivation:
       - 'glimpse%1:09:00::'
       - 'glimpse%1:04:00::'
+      event:
+      - 'glimpse%1:09:00::'
+      - 'glimpse%1:04:00::'
       id: 'glimpse%2:39:00::'
       subcat:
       - vtai
@@ -41132,6 +41447,8 @@ glint:
     - value: ɡlɪnt
     sense:
     - derivation:
+      - 'glint%1:11:00::'
+      event:
       - 'glint%1:11:00::'
       id: 'glint%2:39:00::'
       sent:
@@ -41197,6 +41514,8 @@ glissade:
     sense:
     - derivation:
       - 'glissade%1:04:00::'
+      event:
+      - 'glissade%1:04:00::'
       id: 'glissade%2:38:00::'
       subcat:
       - via
@@ -41228,6 +41547,8 @@ glisten:
     - derivation:
       - 'glisten%1:07:00::'
       id: 'glisten%2:39:00::'
+      property:
+      - 'glisten%1:07:00::'
       sent:
       - Lights glisten on the horizon
       - The horizon is glistening with lights
@@ -41291,9 +41612,13 @@ glitter:
     - derivation:
       - 'glitter%1:07:00::'
       id: 'glitter%2:39:00::'
+      property:
+      - 'glitter%1:07:00::'
       sent:
       - Lights glitter on the horizon
       - The horizon is glittering with lights
+      state:
+      - 'glitter%1:07:00::'
       subcat:
       - vii
       synset: 02167378-v
@@ -41357,6 +41682,8 @@ gloat:
     - derivation:
       - 'gloat%1:12:00::'
       - 'gloating%1:12:00::'
+      event:
+      - 'gloat%1:12:00::'
       id: 'gloat%2:32:00::'
       sent:
       - Sam and Sue gloat over the results of the experiment
@@ -41369,6 +41696,8 @@ gloat:
     - derivation:
       - 'gloat%1:12:00::'
       - 'gloating%1:12:00::'
+      event:
+      - 'gloat%1:12:00::'
       id: 'gloat%2:39:00::'
       sent:
       - Sam and Sue gloat over the results of the experiment
@@ -41464,6 +41793,8 @@ globalise:
     sense:
     - derivation:
       - 'globalisation%1:22:00::'
+      event:
+      - 'globalisation%1:22:00::'
       id: 'globalise%2:30:00::'
       subcat:
       - vtai
@@ -41480,6 +41811,8 @@ globalize:
   v:
     sense:
     - derivation:
+      - 'globalization%1:22:00::'
+      event:
       - 'globalization%1:22:00::'
       id: 'globalize%2:30:00::'
       subcat:
@@ -41860,9 +42193,16 @@ glorify:
       - 'glorification%1:04:00::'
       - 'glory%1:26:00::'
       - 'glory%1:07:00::'
+      event:
+      - 'glorification%1:04:00::'
       id: 'glorify%2:32:00::'
+      result:
+      - 'glorification%1:26:00::'
+      - 'glory%1:26:00::'
       sent:
       - Sam and Sue glorify the movie
+      state:
+      - 'glorification%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -41872,19 +42212,33 @@ glorify:
       - 'glory%1:26:00::'
       - 'glory%1:07:00::'
       id: 'glorify%2:30:00::'
+      result:
+      - 'glorification%1:26:00::'
+      - 'glory%1:26:00::'
+      state:
+      - 'glorification%1:26:00::'
       subcat:
       - vtai
       - vtii
       synset: 00490235-v
+      uses:
+      - 'glory%1:07:00::'
     - id: 'glorify%2:30:03::'
       subcat:
       - vtaa
       synset: 00581589-v
-    - derivation:
+    - by_means_of:
+      - 'glorification%1:04:01::'
+      derivation:
       - 'glorification%1:04:01::'
       - 'glory%1:26:00::'
       - 'glory%1:07:00::'
+      event:
+      - 'glorification%1:04:01::'
       id: 'glorify%2:30:01::'
+      result:
+      - 'glory%1:26:00::'
+      - 'glory%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -41962,6 +42316,8 @@ glory:
     - derivation:
       - 'glory%1:26:00::'
       id: 'glory%2:32:00::'
+      state:
+      - 'glory%1:26:00::'
       subcat:
       - via
       synset: 00860023-v
@@ -42014,6 +42370,8 @@ gloss:
       derivation:
       - 'gloss%1:07:00::'
       id: 'gloss%2:36:00::'
+      property:
+      - 'gloss%1:07:00::'
       subcat:
       - vtai
       synset: 01686477-v
@@ -42024,6 +42382,9 @@ gloss:
       subcat:
       - vtai
       synset: 00963361-v
+      uses:
+      - 'gloss%1:10:01::'
+      - 'gloss%1:10:00::'
     - derivation:
       - 'gloss%1:10:01::'
       - 'gloss%1:10:00::'
@@ -42031,7 +42392,12 @@ gloss:
       subcat:
       - vtai
       synset: 00962993-v
+      uses:
+      - 'gloss%1:10:01::'
+      - 'gloss%1:10:00::'
     - derivation:
+      - 'gloss%1:07:01::'
+      event:
       - 'gloss%1:07:01::'
       id: 'gloss%2:32:02::'
       subcat:
@@ -42376,6 +42742,8 @@ glow:
       synset: 02165960-v
     - derivation:
       - 'glow%1:19:00::'
+      event:
+      - 'glow%1:19:00::'
       id: 'glow%2:43:00::'
       sent:
       - Lights glow on the horizon
@@ -42386,6 +42754,8 @@ glow:
     - derivation:
       - 'glow%1:26:00::'
       id: 'glow%2:37:01::'
+      state:
+      - 'glow%1:26:00::'
       subcat:
       - via
       - vii
@@ -42394,6 +42764,9 @@ glow:
       - 'glow%1:26:00::'
       - 'glow%1:12:00::'
       id: 'glow%2:37:00::'
+      state:
+      - 'glow%1:26:00::'
+      - 'glow%1:12:00::'
       subcat:
       - via
       synset: 01833689-v
@@ -42423,6 +42796,8 @@ glower:
     sense:
     - derivation:
       - 'glower%1:04:00::'
+      event:
+      - 'glower%1:04:00::'
       id: 'glower%2:29:01::'
       sent:
       - They glower up the hill
@@ -42431,6 +42806,8 @@ glower:
       - via-pp
       synset: 00033196-v
     - derivation:
+      - 'glower%1:04:00::'
+      event:
       - 'glower%1:04:00::'
       id: 'glower%2:29:00::'
       subcat:
@@ -42555,14 +42932,18 @@ glue:
     pronunciation:
     - value: ɡluː
     sense:
-    - derivation:
+    - by_means_of:
+      - 'glue%1:27:00::'
+      derivation:
       - 'glue%1:27:00::'
       id: 'glue%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01334887-v
-    - derivation:
+    - by_means_of:
+      - 'glue%1:27:00::'
+      derivation:
       - 'glue%1:27:00::'
       id: 'glue%2:30:00::'
       subcat:
@@ -42676,6 +43057,8 @@ glut:
     - derivation:
       - 'glut%1:07:00::'
       id: 'glut%2:40:00::'
+      property:
+      - 'glut%1:07:00::'
       subcat:
       - vtaa-with
       - vtai
@@ -43135,6 +43518,8 @@ gnarl:
     - derivation:
       - 'gnarl%1:25:00::'
       id: 'gnarl%2:35:00::'
+      result:
+      - 'gnarl%1:25:00::'
       subcat:
       - vtii
       synset: 01283411-v
@@ -43210,7 +43595,9 @@ gnaw:
       variety: US
     - value: nɑ
     sense:
-    - derivation:
+    - agent:
+      - 'gnawer%1:05:00::'
+      derivation:
       - 'gnawer%1:05:00::'
       id: 'gnaw%2:35:00::'
       subcat:
@@ -43421,7 +43808,9 @@ go:
       - vii-adj
       - vii-pp
       synset: 02377696-v
-    - antonym:
+    - agent:
+      - 'goer%1:18:00::'
+      antonym:
       - 'come%2:38:00::'
       derivation:
       - 'goer%1:18:00::'
@@ -43529,6 +43918,8 @@ go:
       - vtai
       synset: 01868216-v
     - derivation:
+      - 'go%1:28:00::'
+      event:
       - 'go%1:28:00::'
       id: 'go%2:33:00::'
       sent:
@@ -44419,17 +44810,23 @@ goad:
     - value: ɡoʊd
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'goad%1:10:00::'
+      derivation:
       - 'goad%1:10:00::'
       id: 'goad%2:37:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01822802-v
-    - derivation:
+    - by_means_of:
+      - 'goad%1:10:00::'
+      derivation:
       - 'goad%1:10:00::'
       - 'goad%1:06:00::'
       - 'goading%1:10:00::'
+      instrument:
+      - 'goad%1:06:00::'
       id: 'goad%2:35:00::'
       subcat:
       - vtaa
@@ -44438,12 +44835,16 @@ goad:
       synset: 01243637-v
     - derivation:
       - 'goad%1:06:00::'
+      instrument:
+      - 'goad%1:06:00::'
       id: 'goad%2:35:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01243499-v
-    - derivation:
+    - by_means_of:
+      - 'goad%1:10:00::'
+      derivation:
       - 'goad%1:10:00::'
       - 'goading%1:10:00::'
       id: 'goad%2:32:01::'
@@ -44686,7 +45087,9 @@ gobble:
       synset: 07398727-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'gobbler%1:18:00::'
+      also:
       - 'gobble_up%2:34:00::'
       derivation:
       - 'gobbler%1:18:00::'
@@ -44699,6 +45102,8 @@ gobble:
     - derivation:
       - 'gobble%1:11:00::'
       - 'gobbler%1:05:00::'
+      event:
+      - 'gobble%1:11:00::'
       id: 'gobble%2:32:00::'
       subcat:
       - vii
@@ -45282,6 +45687,8 @@ gold plate:
       subcat:
       - vtai
       synset: 01398745-v
+      uses:
+      - 'gold_plate%1:06:00::'
 gold rush:
   n:
     pronunciation:
@@ -45963,9 +46370,13 @@ golf:
     - value: ɡɑlf
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'golfer%1:18:00::'
+      derivation:
       - 'golfer%1:18:00::'
       - 'golfing%1:04:00::'
+      - 'golf%1:04:00::'
+      event:
       - 'golf%1:04:00::'
       id: 'golf%2:33:00::'
       subcat:
@@ -46303,6 +46714,9 @@ gong:
       subcat:
       - vtai
       synset: 02184596-v
+      undergoer:
+      - 'gong%1:06:01::'
+      - 'gong%1:06:00::'
 gong buoy:
   n:
     sense:
@@ -46983,7 +47397,9 @@ goof:
     pronunciation:
     - value: ɡuːf
     sense:
-    - derivation:
+    - agent:
+      - 'goof%1:18:00::'
+      derivation:
       - 'goof%1:18:00::'
       - 'goof%1:18:01::'
       id: 'goof%2:41:00::'
@@ -47219,6 +47635,8 @@ goose step:
     sense:
     - derivation:
       - 'goose_step%1:04:00::'
+      event:
+      - 'goose_step%1:04:00::'
       id: 'goose_step%2:38:00::'
       subcat:
       - via
@@ -47390,6 +47808,8 @@ gore:
     - derivation:
       - 'gore%1:08:00::'
       - 'gore%1:04:00::'
+      event:
+      - 'gore%1:04:00::'
       id: 'gore%2:35:02::'
       subcat:
       - vtaa
@@ -47398,6 +47818,8 @@ gore:
     - derivation:
       - 'gore%1:06:00::'
       id: 'gore%2:35:01::'
+      result:
+      - 'gore%1:06:00::'
       subcat:
       - vtai
       synset: 01562012-v
@@ -47412,7 +47834,9 @@ gorge:
       synset: 05541581-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'gorger%1:18:00::'
+      derivation:
       - 'gorger%1:18:00::'
       id: 'gorge%2:34:00::'
       subcat:
@@ -47652,11 +48076,16 @@ gossip:
     - value: ˈɡɑs.ɪp
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'gossiper%1:18:00::'
+      - 'gossip%1:18:00::'
+      derivation:
       - 'gossiper%1:18:00::'
       - 'gossip%1:18:00::'
       - 'gossip%1:10:01::'
       - 'gossiping%1:10:00::'
+      event:
+      - 'gossip%1:10:01::'
       id: 'gossip%2:32:00::'
       sent:
       - Sam and Sue gossip
@@ -47666,6 +48095,8 @@ gossip:
       - via-pp
       synset: 01043826-v
     - derivation:
+      - 'gossip%1:10:00::'
+      event:
       - 'gossip%1:10:00::'
       id: 'gossip%2:32:01::'
       subcat:
@@ -47763,25 +48194,35 @@ gouge:
     - value: ɡaʊdʒ
       variety: US
     sense:
-    - also:
+    - agent:
+      - 'gouger%1:18:01::'
+      also:
       - 'gouge_out%2:35:00::'
       derivation:
       - 'gouger%1:18:01::'
+      - 'gouge%1:04:00::'
+      event:
       - 'gouge%1:04:00::'
       id: 'gouge%2:35:00::'
       subcat:
       - vtai
       synset: 01284214-v
-    - derivation:
+    - agent:
+      - 'gouger%1:18:00::'
+      derivation:
       - 'gouger%1:18:00::'
       id: 'gouge%2:40:00::'
       subcat:
       - vtai-from
       synset: 02245889-v
-    - derivation:
+    - by_means_of:
+      - 'gouge%1:06:00::'
+      derivation:
       - 'gouge%1:07:00::'
       - 'gouge%1:06:00::'
       id: 'gouge%2:35:01::'
+      result:
+      - 'gouge%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -47935,8 +48376,12 @@ govern:
     - value: ˈɡʌvən
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
       - 'government%1:09:00::'
+      derivation:
+      - 'government%1:09:00::'
+      - 'governor%1:06:00::'
+      instrument:
       - 'governor%1:06:00::'
       id: 'govern%2:41:02::'
       subcat:
@@ -47946,14 +48391,22 @@ govern:
       synset: 02517217-v
     - derivation:
       - 'government%1:04:00::'
+      event:
+      - 'government%1:04:00::'
       id: 'govern%2:41:01::'
       subcat:
       - vtii
       synset: 02447070-v
-    - derivation:
+    - agent:
+      - 'governor%1:18:00::'
+      by_means_of:
+      - 'government%1:14:00::'
+      derivation:
       - 'government%1:14:00::'
       - 'governor%1:18:00::'
       - 'governing%1:04:00::'
+      - 'governance%1:04:00::'
+      event:
       - 'governance%1:04:00::'
       id: 'govern%2:41:00::'
       subcat:
@@ -48226,6 +48679,10 @@ gown:
       subcat:
       - vtaa
       synset: 00106346-v
+      uses:
+      - 'gown%1:06:02::'
+      - 'gown%1:06:01::'
+      - 'gown%1:06:00::'
 gowned:
   a:
     sense:
@@ -48259,6 +48716,8 @@ grab:
     sense:
     - derivation:
       - 'grab%1:04:00::'
+      event:
+      - 'grab%1:04:00::'
       id: 'grab%2:35:00::'
       subcat:
       - vtaa
@@ -48268,11 +48727,15 @@ grab:
       synset: 01441809-v
     - derivation:
       - 'grab%1:04:00::'
+      event:
+      - 'grab%1:04:00::'
       id: 'grab%2:40:00::'
       subcat:
       - vtai
       synset: 02309628-v
     - derivation:
+      - 'grab%1:04:00::'
+      event:
       - 'grab%1:04:00::'
       id: 'grab%2:38:02::'
       subcat:
@@ -48283,6 +48746,8 @@ grab:
       - vtai
       synset: 02363216-v
     - derivation:
+      - 'grab%1:04:00::'
+      event:
       - 'grab%1:04:00::'
       id: 'grab%2:35:05::'
       subcat:
@@ -48360,6 +48825,8 @@ grace:
     - derivation:
       - 'grace%1:07:01::'
       id: 'grace%2:36:00::'
+      result:
+      - 'grace%1:07:01::'
       sent:
       - They grace the halls with holly
       subcat:
@@ -48369,6 +48836,8 @@ grace:
     - derivation:
       - 'grace%1:07:01::'
       id: 'grace%2:42:00::'
+      property:
+      - 'grace%1:07:01::'
       sent:
       - Holly flowers grace the halls
       subcat:
@@ -48604,7 +49073,11 @@ gradate:
     - derivation:
       - 'gradation%1:26:00::'
       - 'gradation%1:04:00::'
+      event:
+      - 'gradation%1:04:00::'
       id: 'gradate%2:35:00::'
+      location:
+      - 'gradation%1:26:00::'
       subcat:
       - vtai
       synset: 01616983-v
@@ -48687,30 +49160,46 @@ grade:
     pronunciation:
     - value: ɡɹeɪd
     sense:
-    - derivation:
+    - agent:
+      - 'grader%1:18:00::'
+      derivation:
       - 'grade%1:09:00::'
       - 'grade%1:26:00::'
       - 'gradation%1:26:00::'
       - 'gradation%1:04:00::'
       - 'grader%1:18:00::'
       - 'grading%1:04:00::'
+      event:
+      - 'gradation%1:04:00::'
       id: 'grade%2:31:03::'
+      location:
+      - 'gradation%1:26:00::'
       subcat:
       - vtaa
       - vtai
       synset: 00659723-v
+      uses:
+      - 'grade%1:09:00::'
+      - 'grade%1:26:00::'
     - derivation:
       - 'grade%1:07:02::'
       - 'grade%1:07:01::'
       - 'grading%1:04:02::'
       id: 'grade%2:35:00::'
+      property:
+      - 'grade%1:07:02::'
+      - 'grade%1:07:01::'
       subcat:
       - vtai
       synset: 01310269-v
-    - derivation:
+    - agent:
+      - 'grader%1:18:00::'
+      derivation:
       - 'gradation%1:04:00::'
       - 'grader%1:18:00::'
       - 'grading%1:04:01::'
+      event:
+      - 'gradation%1:04:00::'
       id: 'grade%2:31:05::'
       subcat:
       - via
@@ -48721,10 +49210,16 @@ grade:
       - 'gradation%1:26:00::'
       - 'gradation%1:04:00::'
       - 'grading%1:04:01::'
+      event:
+      - 'gradation%1:04:00::'
       id: 'grade%2:31:00::'
+      location:
+      - 'gradation%1:26:00::'
       subcat:
       - vtai
       synset: 00659221-v
+      uses:
+      - 'grade%1:09:00::'
 grade crossing:
   n:
     sense:
@@ -48910,24 +49405,38 @@ graduate:
     - value: ˈɡɹædʒuɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'graduate%1:18:00::'
+      derivation:
       - 'graduation%1:11:01::'
       - 'graduation%1:04:01::'
       - 'graduate%1:18:00::'
+      event:
+      - 'graduation%1:11:01::'
+      - 'graduation%1:04:01::'
       id: 'graduate%2:40:00::'
       subcat:
       - via
       synset: 02269205-v
-    - derivation:
+    - agent:
+      - 'graduate%1:18:00::'
+      derivation:
       - 'graduation%1:11:01::'
       - 'graduation%1:04:01::'
       - 'graduate%1:18:00::'
+      event:
+      - 'graduation%1:11:01::'
+      - 'graduation%1:04:01::'
       id: 'graduate%2:40:01::'
       subcat:
       - vtaa
       synset: 02268987-v
-    - derivation:
+    - by_means_of:
       - 'graduation%1:10:00::'
+      derivation:
+      - 'graduation%1:10:00::'
+      - 'graduate%1:06:00::'
+      instrument:
       - 'graduate%1:06:00::'
       id: 'graduate%2:30:00::'
       subcat:
@@ -49044,6 +49553,8 @@ graft:
     - derivation:
       - 'graft%1:04:00::'
       - 'grafting%1:04:00::'
+      event:
+      - 'graft%1:04:00::'
       id: 'graft%2:35:00::'
       subcat:
       - vtai-to
@@ -49056,6 +49567,8 @@ graft:
       - vtai
       - vtai-pp
       synset: 01533219-v
+      uses:
+      - 'graft%1:08:00::'
 grafting:
   n:
     sense:
@@ -49143,12 +49656,16 @@ grain:
     - derivation:
       - 'grain%1:17:00::'
       id: 'grain%2:30:00::'
+      result:
+      - 'grain%1:17:00::'
       subcat:
       - vtai
       synset: 00143989-v
     - derivation:
       - 'grain%1:17:00::'
       id: 'grain%2:30:01::'
+      result:
+      - 'grain%1:17:00::'
       subcat:
       - vii
       synset: 00141344-v
@@ -49847,7 +50364,9 @@ grandstand:
       synset: 03457897-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'grandstander%1:18:00::'
+      derivation:
       - 'grandstander%1:18:00::'
       id: 'grandstand%2:36:00::'
       subcat:
@@ -49986,15 +50505,21 @@ grant:
     - value: ɡɹænt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'granter%1:18:00::'
+      derivation:
       - 'granter%1:18:00::'
       - 'grant%1:07:00::'
       id: 'grant%2:40:01::'
       subcat:
       - ditransitive
       synset: 02260270-v
+      uses:
+      - 'grant%1:07:00::'
     - derivation:
       - 'grant%1:21:00::'
+      - 'grantee%1:18:00::'
+      destination:
       - 'grantee%1:18:00::'
       id: 'grant%2:40:03::'
       sent:
@@ -50004,6 +50529,8 @@ grant:
       - ditransitive
       - vtai-to
       synset: 02267085-v
+      uses:
+      - 'grant%1:21:00::'
     - id: 'grant%2:32:00::'
       subcat:
       - ditransitive
@@ -50019,8 +50546,14 @@ grant:
       - ditransitive
       - vtai-to
       synset: 02260076-v
-    - derivation:
+      uses:
+      - 'grant%1:07:00::'
+    - agent:
       - 'granter%1:18:00::'
+      derivation:
+      - 'granter%1:18:00::'
+      - 'grantee%1:18:00::'
+      destination:
       - 'grantee%1:18:00::'
       id: 'grant%2:40:05::'
       subcat:
@@ -50032,10 +50565,16 @@ grant:
       - vtai
       - vtai-to
       synset: 02321629-v
-    - derivation:
+    - agent:
+      - 'grantor%1:18:00::'
+      derivation:
       - 'grant%1:21:02::'
       - 'grantee%1:18:00::'
       - 'grantor%1:18:00::'
+      destination:
+      - 'grantee%1:18:00::'
+      event:
+      - 'grant%1:21:02::'
       id: 'grant%2:40:02::'
       subcat:
       - vtai
@@ -50127,6 +50666,8 @@ granulate:
     sense:
     - derivation:
       - 'granulation%1:04:00::'
+      event:
+      - 'granulation%1:04:00::'
       id: 'granulate%2:30:00::'
       subcat:
       - vtai
@@ -50138,6 +50679,8 @@ granulate:
     - derivation:
       - 'granulation%1:26:00::'
       id: 'granulate%2:29:00::'
+      result:
+      - 'granulation%1:26:00::'
       subcat:
       - vibody
       synset: 00099128-v
@@ -50416,12 +50959,16 @@ graph:
       - 'graph%1:10:00::'
       - 'graph%1:10:01::'
       id: 'graph%2:36:00::'
+      result:
+      - 'graph%1:10:00::'
       subcat:
       - vtai
       synset: 01758945-v
     - derivation:
       - 'graph%1:10:00::'
       id: 'graph%2:36:01::'
+      result:
+      - 'graph%1:10:00::'
       subcat:
       - vtai
       synset: 01759135-v
@@ -50621,11 +51168,15 @@ grapple:
       subcat:
       - via-pp
       synset: 02593624-v
-    - derivation:
+    - agent:
+      - 'grappler%1:18:00::'
+      derivation:
       - 'grappler%1:18:00::'
       - 'grapple%1:04:00::'
       - 'grappling%1:04:01::'
       - 'grappling%1:04:00::'
+      event:
+      - 'grapple%1:04:00::'
       id: 'grapple%2:35:01::'
       subcat:
       - via-pp
@@ -50708,6 +51259,8 @@ grasp:
     - derivation:
       - 'grasp%1:04:00::'
       - 'grasping%1:04:00::'
+      event:
+      - 'grasp%1:04:00::'
       id: 'grasp%2:35:00::'
       subcat:
       - vtaa
@@ -50717,6 +51270,8 @@ grasp:
     - derivation:
       - 'grasp%1:09:00::'
       - 'grasping%1:09:00::'
+      event:
+      - 'grasp%1:09:00::'
       id: 'grasp%2:31:00::'
       sent:
       - Sam and Sue grasp the movie
@@ -50794,6 +51349,8 @@ grass:
       subcat:
       - vtai
       synset: 01605953-v
+      uses:
+      - 'grass%1:20:00::'
     - id: 'grass%2:35:01::'
       subcat:
       - vtai
@@ -50804,6 +51361,8 @@ grass:
       subcat:
       - vtai
       synset: 01207201-v
+      uses:
+      - 'grass%1:20:00::'
     - id: 'grass%2:32:09::'
       subcat:
       - via-pp
@@ -51053,6 +51612,9 @@ grate:
       subcat:
       - vtai
       synset: 02335579-v
+      uses:
+      - 'grate%1:06:01::'
+      - 'grate%1:06:00::'
     - id: 'grate%2:37:00::'
       sent:
       - The bad news will grate him
@@ -51060,6 +51622,8 @@ grate:
       - vtia
       synset: 01777746-v
     - derivation:
+      - 'grater%1:06:00::'
+      instrument:
       - 'grater%1:06:00::'
       id: 'grate%2:35:02::'
       subcat:
@@ -51163,14 +51727,22 @@ gratify:
     - derivation:
       - 'gratification%1:26:00::'
       - 'gratification%1:04:00::'
+      event:
+      - 'gratification%1:04:00::'
       id: 'gratify%2:37:00::'
+      result:
+      - 'gratification%1:26:00::'
       sent:
       - The performance is likely to gratify Sue
+      state:
+      - 'gratification%1:26:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01820398-v
     - derivation:
+      - 'gratification%1:04:00::'
+      event:
       - 'gratification%1:04:00::'
       id: 'gratify%2:34:00::'
       sent:
@@ -51380,6 +51952,8 @@ gravel:
       subcat:
       - vtai
       synset: 01606096-v
+      uses:
+      - 'gravel%1:27:00::'
     - id: 'gravel%2:31:00::'
       subcat:
       - vtia
@@ -51590,11 +52164,15 @@ gravitate:
     sense:
     - derivation:
       - 'gravitation%1:09:00::'
+      event:
+      - 'gravitation%1:09:00::'
       id: 'gravitate%2:42:01::'
       subcat:
       - vii-pp
       synset: 02738023-v
     - derivation:
+      - 'gravitation%1:09:00::'
+      event:
       - 'gravitation%1:09:00::'
       id: 'gravitate%2:42:00::'
       subcat:
@@ -51606,6 +52184,9 @@ gravitate:
       - 'gravitation%1:19:00::'
       - 'gravitation%1:11:00::'
       - 'gravity%1:19:00::'
+      event:
+      - 'gravitation%1:19:00::'
+      - 'gravitation%1:11:00::'
       id: 'gravitate%2:38:00::'
       subcat:
       - vii-pp
@@ -51840,6 +52421,8 @@ gray:
     - derivation:
       - 'gray%1:07:00::'
       id: 'gray%2:30:01::'
+      result:
+      - 'gray%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -51847,6 +52430,8 @@ gray:
     - derivation:
       - 'gray%1:07:00::'
       id: 'gray%2:30:00::'
+      result:
+      - 'gray%1:07:00::'
       subcat:
       - vii
       synset: 00290154-v
@@ -52135,6 +52720,8 @@ graze:
     - derivation:
       - 'graze%1:04:00::'
       - 'grazing%1:04:01::'
+      event:
+      - 'graze%1:04:00::'
       id: 'graze%2:35:01::'
       sent:
       - The animals graze
@@ -52146,15 +52733,22 @@ graze:
       - 'graze%1:04:00::'
       - 'grazing%1:04:00::'
       id: 'graze%2:35:02::'
+      result:
+      - 'graze%1:26:00::'
+      - 'graze%1:04:00::'
       sent:
       - Did he graze his foot?
       subcat:
       - vtia
       synset: 01611412-v
-    - derivation:
+    - agent:
+      - 'grazier%1:18:00::'
+      derivation:
       - 'grazier%1:18:00::'
       - 'graze%1:04:00::'
       - 'grazing%1:04:01::'
+      event:
+      - 'graze%1:04:00::'
       id: 'graze%2:35:10::'
       sent:
       - They graze the animals
@@ -52165,6 +52759,9 @@ graze:
       - 'graze%1:26:00::'
       - 'graze%1:04:00::'
       - 'grazing%1:04:00::'
+      event:
+      - 'graze%1:26:00::'
+      - 'graze%1:04:00::'
       id: 'graze%2:35:00::'
       subcat:
       - vtaa
@@ -52173,6 +52770,8 @@ graze:
       - vtii
       synset: 01243078-v
     - derivation:
+      - 'graze%1:04:00::'
+      event:
       - 'graze%1:04:00::'
       id: 'graze%2:34:02::'
       sent:
@@ -52248,9 +52847,13 @@ grease:
       - 'grease%1:27:00::'
       - 'grease%1:26:00::'
       id: 'grease%2:35:00::'
+      state:
+      - 'grease%1:26:00::'
       subcat:
       - vtai
       synset: 01271943-v
+      uses:
+      - 'grease%1:27:00::'
 grease gun:
   n:
     sense:
@@ -52938,6 +53541,8 @@ green:
       - 'greening%1:19:00::'
       - 'greenery%1:20:00::'
       id: 'green%2:30:00::'
+      property:
+      - 'green%1:07:00::'
       subcat:
       - vii
       synset: 00522558-v
@@ -53624,7 +54229,9 @@ greenwood:
 greet:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'greeter%1:18:00::'
+      derivation:
       - 'greeter%1:18:00::'
       - 'greeting%1:10:00::'
       id: 'greet%2:32:00::'
@@ -53803,6 +54410,8 @@ grey:
     - derivation:
       - 'grey%1:07:00::'
       id: 'grey%2:30:01::'
+      result:
+      - 'grey%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -53810,6 +54419,8 @@ grey:
     - derivation:
       - 'grey%1:07:00::'
       id: 'grey%2:30:00::'
+      result:
+      - 'grey%1:07:00::'
       subcat:
       - vii
       synset: 00290154-v
@@ -54145,7 +54756,9 @@ griddle:
       synset: 03464260-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'griddle%1:06:00::'
+      derivation:
       - 'griddle%1:06:00::'
       id: 'griddle%2:30:00::'
       subcat:
@@ -54209,7 +54822,9 @@ grievance:
 grieve:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'griever%1:18:00::'
+      derivation:
       - 'griever%1:18:00::'
       id: 'grieve%2:37:00::'
       sent:
@@ -54314,11 +54929,15 @@ grill:
       synset: 03464523-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'grill%1:06:00::'
+      derivation:
       - 'grill%1:06:01::'
       - 'grill%1:06:00::'
       - 'grilling%1:04:00::'
       id: 'grill%2:30:00::'
+      location:
+      - 'grill%1:06:01::'
       sent:
       - The chefs grill the vegetables
       subcat:
@@ -54420,6 +55039,8 @@ grimace:
     sense:
     - derivation:
       - 'grimace%1:10:00::'
+      event:
+      - 'grimace%1:10:00::'
       id: 'grimace%2:29:00::'
       subcat:
       - via
@@ -54441,6 +55062,8 @@ grime:
     - derivation:
       - 'grime%1:26:00::'
       id: 'grime%2:35:00::'
+      state:
+      - 'grime%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -54504,9 +55127,13 @@ grin:
     - grinned
     - grinning
     sense:
-    - derivation:
+    - agent:
+      - 'grinner%1:18:00::'
+      derivation:
       - 'grinner%1:18:00::'
       - 'grinning%1:10:00::'
+      - 'grin%1:10:00::'
+      event:
       - 'grin%1:10:00::'
       id: 'grin%2:29:00::'
       subcat:
@@ -54543,6 +55170,8 @@ grind:
       - 'grind_down%2:41:00::'
       derivation:
       - 'grind%1:04:00::'
+      event:
+      - 'grind%1:04:00::'
       id: 'grind%2:35:02::'
       subcat:
       - vtai
@@ -54551,6 +55180,8 @@ grind:
     - derivation:
       - 'grind%1:04:00::'
       - 'grinding%1:11:00::'
+      event:
+      - 'grind%1:04:00::'
       id: 'grind%2:35:00::'
       subcat:
       - vtai
@@ -54558,6 +55189,8 @@ grind:
       synset: 01397118-v
     - derivation:
       - 'grind%1:18:00::'
+      - 'grind%1:04:01::'
+      event:
       - 'grind%1:04:01::'
       id: 'grind%2:41:00::'
       subcat:
@@ -54570,12 +55203,18 @@ grind:
       subcat:
       - via
       synset: 02052631-v
-    - derivation:
+    - body_part:
+      - 'grinder%1:08:00::'
+      derivation:
       - 'grind%1:04:00::'
       - 'grinder%1:08:00::'
       - 'grinder%1:06:01::'
       - 'grinding%1:19:00::'
       - 'grinding%1:17:00::'
+      event:
+      - 'grind%1:04:00::'
+      instrument:
+      - 'grinder%1:06:01::'
       id: 'grind%2:30:00::'
       subcat:
       - vtai
@@ -54742,6 +55381,8 @@ grip:
     - derivation:
       - 'grip%1:06:01::'
       - 'grip%1:04:00::'
+      event:
+      - 'grip%1:04:00::'
       id: 'grip%2:35:00::'
       subcat:
       - vtaa
@@ -54749,7 +55390,11 @@ grip:
       - vtia
       - vtii
       synset: 01226565-v
+      undergoer:
+      - 'grip%1:06:01::'
     - derivation:
+      - 'grip%1:04:00::'
+      event:
       - 'grip%1:04:00::'
       id: 'grip%2:35:03::'
       subcat:
@@ -54757,7 +55402,9 @@ grip:
       - vtaa
       - vtai
       synset: 01577123-v
-    - derivation:
+    - by_means_of:
+      - 'grip%1:07:00::'
+      derivation:
       - 'grip%1:07:00::'
       id: 'grip%2:37:00::'
       subcat:
@@ -54778,6 +55425,8 @@ gripe:
     - value: ɡɹaɪp
     sense:
     - derivation:
+      - 'gripe%1:10:00::'
+      event:
       - 'gripe%1:10:00::'
       id: 'gripe%2:32:00::'
       subcat:
@@ -54903,6 +55552,8 @@ grit:
       subcat:
       - vtai
       synset: 01397592-v
+      uses:
+      - 'grit%1:27:00::'
     - id: 'grit%2:35:00::'
       subcat:
       - vtai
@@ -55013,8 +55664,12 @@ groan:
     - value: ɡɹoʊn
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'groaner%1:18:00::'
+      derivation:
+      - 'groaner%1:18:00::'
+      - 'groan%1:10:00::'
+      event:
       - 'groan%1:10:00::'
       id: 'groan%2:32:00::'
       sent:
@@ -55204,7 +55859,9 @@ groom:
       subcat:
       - vtaa
       synset: 02392176-v
-    - derivation:
+    - agent:
+      - 'groom%1:18:01::'
+      derivation:
       - 'groom%1:18:01::'
       id: 'groom%2:29:03::'
       sent:
@@ -55281,7 +55938,11 @@ groove:
       - 'groove%1:25:00::'
       - 'groover%1:06:00::'
       - 'grooving%1:04:00::'
+      instrument:
+      - 'groover%1:06:00::'
       id: 'groove%2:35:02::'
+      result:
+      - 'groove%1:25:00::'
       subcat:
       - vtai
       synset: 01460118-v
@@ -55289,6 +55950,9 @@ groove:
       - 'groove%1:25:00::'
       - 'groove%1:08:00::'
       id: 'groove%2:35:00::'
+      result:
+      - 'groove%1:25:00::'
+      - 'groove%1:08:00::'
       subcat:
       - vtai
       - vtii
@@ -55349,6 +56013,8 @@ grope:
       - 'grope_for%2:35:00::'
       derivation:
       - 'grope%1:04:00::'
+      event:
+      - 'grope%1:04:00::'
       id: 'grope%2:35:01::'
       subcat:
       - via
@@ -55356,11 +56022,15 @@ grope:
       synset: 01317398-v
     - derivation:
       - 'grope%1:04:00::'
+      event:
+      - 'grope%1:04:00::'
       id: 'grope%2:41:00::'
       subcat:
       - via-to-inf
       synset: 02536602-v
     - derivation:
+      - 'grope%1:04:00::'
+      event:
       - 'grope%1:04:00::'
       id: 'grope%2:35:02::'
       subcat:
@@ -55468,6 +56138,8 @@ gross:
       subcat:
       - vtai
       synset: 02296395-v
+      undergoer:
+      - 'gross%1:21:00::'
 gross anatomy:
   n:
     sense:
@@ -55660,7 +56332,9 @@ grouch:
     pronunciation:
     - value: ɡɹaʊtʃ
     sense:
-    - derivation:
+    - agent:
+      - 'grouch%1:18:00::'
+      derivation:
       - 'grouch%1:18:00::'
       id: 'grouch%2:32:00::'
       subcat:
@@ -55732,6 +56406,8 @@ ground:
     - derivation:
       - 'ground%1:17:00::'
       id: 'ground%2:35:01::'
+      location:
+      - 'ground%1:17:00::'
       subcat:
       - vtaa
       - vtai
@@ -55739,6 +56415,8 @@ ground:
     - derivation:
       - 'ground%1:17:00::'
       id: 'ground%2:35:00::'
+      location:
+      - 'ground%1:17:00::'
       subcat:
       - vtai
       synset: 01505293-v
@@ -55749,12 +56427,16 @@ ground:
     - derivation:
       - 'ground%1:17:00::'
       id: 'ground%2:38:01::'
+      location:
+      - 'ground%1:17:00::'
       subcat:
       - vtai
       synset: 02026332-v
     - derivation:
       - 'ground%1:17:00::'
       id: 'ground%2:38:00::'
+      location:
+      - 'ground%1:17:00::'
       subcat:
       - via
       - vii
@@ -55762,12 +56444,16 @@ ground:
     - derivation:
       - 'ground%1:17:00::'
       id: 'ground%2:35:12::'
+      location:
+      - 'ground%1:17:00::'
       subcat:
       - vtai
       synset: 01409338-v
     - derivation:
       - 'grounder%1:04:00::'
       id: 'ground%2:35:11::'
+      result:
+      - 'grounder%1:04:00::'
       subcat:
       - nonreferential
       synset: 01409166-v
@@ -55779,14 +56465,20 @@ ground:
       subcat:
       - vtai
       synset: 01368058-v
+      uses:
+      - 'ground%1:06:00::'
     - derivation:
       - 'ground%1:06:02::'
       - 'grounding%1:04:00::'
       id: 'ground%2:35:02::'
+      result:
+      - 'ground%1:06:02::'
       subcat:
       - vtai
       synset: 01295137-v
-    - derivation:
+    - by_means_of:
+      - 'ground%1:16:00::'
+      derivation:
       - 'ground%1:16:00::'
       id: 'ground%2:31:00::'
       subcat:
@@ -56292,6 +56984,8 @@ group:
       - 'group%1:03:00::'
       - 'grouping%1:04:00::'
       id: 'group%2:31:00::'
+      result:
+      - 'group%1:03:00::'
       subcat:
       - vtaa
       - vtai
@@ -56300,6 +56994,8 @@ group:
       - 'group%1:03:00::'
       - 'grouping%1:04:00::'
       id: 'group%2:33:00::'
+      result:
+      - 'group%1:03:00::'
       sent:
       - The crowds group in the streets
       subcat:
@@ -56467,6 +57163,8 @@ grouse:
       - via
       - via-pp
       synset: 01145494-v
+      undergoer:
+      - 'grouse%1:05:00::'
     - id: 'grouse%2:32:00::'
       subcat:
       - via
@@ -56507,7 +57205,9 @@ grout:
     - value: ɡɹʌut
       variety: CA
     sense:
-    - derivation:
+    - by_means_of:
+      - 'grout%1:27:00::'
+      derivation:
       - 'grout%1:27:00::'
       id: 'grout%2:35:00::'
       subcat:
@@ -56531,7 +57231,10 @@ grovel:
     - grovelled
     - grovelling
     sense:
-    - derivation:
+    - agent:
+      - 'groveler%1:18:00::'
+      - 'groveller%1:18:00::'
+      derivation:
       - 'groveler%1:18:00::'
       - 'groveller%1:18:00::'
       id: 'grovel%2:38:00::'
@@ -56604,7 +57307,9 @@ grow:
       - vii
       - vii-pp
       synset: 00231983-v
-    - derivation:
+    - agent:
+      - 'grower%1:18:00::'
+      derivation:
       - 'growth%1:22:00::'
       - 'grower%1:18:00::'
       - 'growing%1:22:00::'
@@ -56631,7 +57336,9 @@ grow:
       subcat:
       - vii
       synset: 02630344-v
-    - derivation:
+    - agent:
+      - 'grower%1:18:00::'
+      derivation:
       - 'growth%1:14:00::'
       - 'grower%1:18:00::'
       id: 'grow%2:36:00::'
@@ -56753,10 +57460,14 @@ growl:
     - value: ɡɹaʊl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'growler%1:18:00::'
+      derivation:
       - 'growler%1:18:00::'
       - 'growling%1:11:00::'
       - 'growling%1:10:00::'
+      - 'growl%1:11:00::'
+      event:
       - 'growl%1:11:00::'
       id: 'growl%2:32:00::'
       sent:
@@ -56994,6 +57705,8 @@ grubstake:
       - vtaa
       - vtai
       synset: 02221014-v
+      uses:
+      - 'grubstake%1:21:00::'
 grudge:
   n:
     pronunciation:
@@ -57008,6 +57721,8 @@ grudge:
     - value: ɡɹʌdʒ
     sense:
     - derivation:
+      - 'grudge%1:12:00::'
+      event:
       - 'grudge%1:12:00::'
       id: 'grudge%2:37:01::'
       subcat:
@@ -57147,18 +57862,26 @@ grumble:
     pronunciation:
     - value: ˈɡɹʌmbl̩
     sense:
-    - derivation:
+    - agent:
+      - 'grumbler%1:18:00::'
+      derivation:
       - 'grumble%1:10:00::'
       - 'grumbler%1:18:00::'
+      event:
+      - 'grumble%1:10:00::'
       id: 'grumble%2:32:01::'
       subcat:
       - via
       - via-pp
       synset: 00911526-v
-    - derivation:
+    - agent:
+      - 'grumbler%1:18:00::'
+      derivation:
       - 'grumble%1:10:00::'
       - 'grumbler%1:18:00::'
       - 'grumbling%1:10:00::'
+      event:
+      - 'grumble%1:10:00::'
       id: 'grumble%2:32:00::'
       subcat:
       - via
@@ -57168,6 +57891,8 @@ grumble:
     - derivation:
       - 'grumble%1:11:00::'
       - 'grumbling%1:11:00::'
+      event:
+      - 'grumble%1:11:00::'
       id: 'grumble%2:32:02::'
       subcat:
       - via
@@ -57176,6 +57901,8 @@ grumble:
     - derivation:
       - 'grumble%1:11:00::'
       - 'grumbling%1:11:00::'
+      event:
+      - 'grumble%1:11:00::'
       id: 'grumble%2:39:00::'
       sent:
       - Cars grumble in the streets
@@ -57317,10 +58044,14 @@ grunt:
     pronunciation:
     - value: ɡɹʌnt
     sense:
-    - derivation:
+    - agent:
+      - 'grunter%1:18:00::'
+      derivation:
       - 'grunt%1:11:00::'
       - 'grunter%1:18:00::'
       - 'grunter%1:05:00::'
+      event:
+      - 'grunt%1:11:00::'
       id: 'grunt%2:32:00::'
       subcat:
       - via
@@ -57513,8 +58244,13 @@ guarantee:
     - value: ˌɡɛəɹənˈtiː
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
       - 'guarantee%1:10:00::'
+      - 'guarantee%1:10:01::'
+      derivation:
+      - 'guarantee%1:10:00::'
+      - 'guarantee%1:10:01::'
+      event:
       - 'guarantee%1:10:01::'
       id: 'guarantee%2:32:00::'
       subcat:
@@ -57522,13 +58258,21 @@ guarantee:
       - vtai
       - vtii
       synset: 00891621-v
-    - derivation:
+    - by_means_of:
+      - 'guarantee%1:10:01::'
+      derivation:
+      - 'guarantee%1:10:01::'
+      event:
       - 'guarantee%1:10:01::'
       id: 'guarantee%2:32:03::'
       subcat:
       - vtii
       synset: 00892111-v
-    - derivation:
+    - by_means_of:
+      - 'guarantee%1:10:01::'
+      derivation:
+      - 'guarantee%1:10:01::'
+      event:
       - 'guarantee%1:10:01::'
       id: 'guarantee%2:32:01::'
       sent:
@@ -57538,7 +58282,12 @@ guarantee:
       - via-to-inf
       - vtai
       synset: 00891076-v
-    - derivation:
+    - agent:
+      - 'guarantor%1:18:00::'
+      by_means_of:
+      - 'guarantee%1:10:01::'
+      - 'guarantee%1:10:00::'
+      derivation:
       - 'guarantee%1:10:01::'
       - 'guarantee%1:10:00::'
       - 'guarantor%1:18:00::'
@@ -57546,6 +58295,9 @@ guarantee:
       subcat:
       - vtai
       synset: 00893457-v
+      undergoer:
+      - 'guarantee%1:10:01::'
+      - 'guarantee%1:10:00::'
 guarantor:
   n:
     pronunciation:
@@ -57605,15 +58357,21 @@ guard:
     - value: ɡɑɹd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'guard%1:18:03::'
+      derivation:
       - 'guard%1:04:01::'
       - 'guard%1:18:03::'
+      event:
+      - 'guard%1:04:01::'
       id: 'guard%2:41:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02461453-v
-    - derivation:
+    - agent:
+      - 'guard%1:14:00::'
+      derivation:
       - 'guard%1:14:00::'
       id: 'guard%2:33:00::'
       subcat:
@@ -57896,10 +58654,15 @@ guess:
       synset: 05811946-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'guesser%1:18:00::'
+      derivation:
       - 'guess%1:10:00::'
       - 'guess%1:09:00::'
       - 'guesser%1:18:00::'
+      event:
+      - 'guess%1:10:00::'
+      - 'guess%1:09:00::'
       id: 'guess%2:31:00::'
       sent:
       - They guess that there was a traffic accident
@@ -57907,26 +58670,37 @@ guess:
       - via-that
       - vtaa-to-inf
       synset: 00633399-v
-    - derivation:
+    - agent:
+      - 'guesser%1:18:00::'
+      derivation:
       - 'guess%1:09:00::'
       - 'guess%1:10:00::'
       - 'guesser%1:18:00::'
       - 'guessing%1:09:00::'
+      event:
+      - 'guess%1:09:00::'
+      - 'guess%1:10:00::'
       id: 'guess%2:32:00::'
       subcat:
       - via-that
       - vtai
       synset: 00918880-v
-    - derivation:
+    - agent:
+      - 'guesser%1:18:00::'
+      derivation:
       - 'guess%1:10:00::'
       - 'guesser%1:18:00::'
+      event:
+      - 'guess%1:10:00::'
       id: 'guess%2:31:01::'
       subcat:
       - via-pp
       - via-that
       - vtai
       synset: 00674352-v
-    - derivation:
+    - agent:
+      - 'guesser%1:18:00::'
+      derivation:
       - 'guesser%1:18:00::'
       id: 'guess%2:31:02::'
       subcat:
@@ -57971,6 +58745,8 @@ guesstimate:
       variety: US
     sense:
     - derivation:
+      - 'guesstimate%1:09:00::'
+      event:
       - 'guesstimate%1:09:00::'
       id: 'guesstimate%2:32:00::'
       subcat:
@@ -58056,6 +58832,8 @@ guffaw:
     sense:
     - derivation:
       - 'guffaw%1:10:00::'
+      event:
+      - 'guffaw%1:10:00::'
       id: 'guffaw%2:29:00::'
       subcat:
       - via
@@ -58133,7 +58911,10 @@ guide:
       synset: 03470959-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'guide%1:18:00::'
+      - 'guide%1:18:02::'
+      derivation:
       - 'guide%1:18:00::'
       - 'guide%1:18:02::'
       id: 'guide%2:38:01::'
@@ -58142,7 +58923,9 @@ guide:
       - vtai
       - vtai-pp
       synset: 01935739-v
-    - derivation:
+    - agent:
+      - 'guide%1:18:00::'
+      derivation:
       - 'guide%1:18:00::'
       id: 'guide%2:38:00::'
       sent:
@@ -58153,8 +58936,12 @@ guide:
       - vtia
       - vtii
       synset: 02003830-v
-    - derivation:
+    - agent:
       - 'guide%1:18:02::'
+      derivation:
+      - 'guide%1:18:02::'
+      - 'guidance%1:04:01::'
+      event:
       - 'guidance%1:04:01::'
       id: 'guide%2:41:00::'
       subcat:
@@ -58171,6 +58958,9 @@ guide:
       - vtai
       - vtii
       synset: 02163857-v
+      undergoer:
+      - 'guide%1:18:02::'
+      - 'guide%1:18:01::'
     - id: 'guide%2:35:00::'
       subcat:
       - vtai-pp
@@ -58348,6 +59138,8 @@ guillotine:
   v:
     sense:
     - derivation:
+      - 'guillotine%1:06:00::'
+      instrument:
       - 'guillotine%1:06:00::'
       id: 'guillotine%2:35:00::'
       sent:
@@ -58628,12 +59420,16 @@ gull:
       subcat:
       - vtaa
       synset: 02582434-v
+      undergoer:
+      - 'gull%1:18:00::'
     - derivation:
       - 'gull%1:18:00::'
       id: 'gull%2:32:00::'
       subcat:
       - vtaa
       synset: 00856586-v
+      undergoer:
+      - 'gull%1:18:00::'
 gullet:
   n:
     pronunciation:
@@ -58684,11 +59480,16 @@ gulp:
     pronunciation:
     - value: ɡʌlp
     sense:
-    - derivation:
+    - agent:
+      - 'gulper%1:18:00::'
+      derivation:
       - 'gulp%1:04:01::'
       - 'gulp%1:04:00::'
       - 'gulper%1:18:00::'
       - 'gulping%1:04:00::'
+      event:
+      - 'gulp%1:04:01::'
+      - 'gulp%1:04:00::'
       id: 'gulp%2:34:01::'
       sent:
       - Sam and Sue gulp
@@ -58757,7 +59558,9 @@ gum:
       subcat:
       - vtai
       synset: 01366722-v
-    - derivation:
+    - by_means_of:
+      - 'gum%1:08:00::'
+      derivation:
       - 'gum%1:08:00::'
       - 'gumming%1:04:00::'
       id: 'gum%2:34:00::'
@@ -58771,6 +59574,8 @@ gum:
     - derivation:
       - 'gum%1:27:00::'
       id: 'gum%2:29:00::'
+      result:
+      - 'gum%1:27:00::'
       subcat:
       - vii
       synset: 00068937-v
@@ -59085,7 +59890,11 @@ gun:
     pronunciation:
     - value: ɡʌn
     sense:
-    - also:
+    - agent:
+      - 'gunner%1:18:00::'
+      - 'gun%1:18:00::'
+      - 'gun%1:18:01::'
+      also:
       - 'gun_down%2:33:00::'
       derivation:
       - 'gun%1:04:00::'
@@ -59094,6 +59903,11 @@ gun:
       - 'gun%1:06:01::'
       - 'gun%1:06:00::'
       - 'gunner%1:18:00::'
+      event:
+      - 'gun%1:04:00::'
+      instrument:
+      - 'gun%1:06:01::'
+      - 'gun%1:06:00::'
       id: 'gun%2:33:00::'
       subcat:
       - via
@@ -59436,12 +60250,16 @@ gurgle:
     sense:
     - derivation:
       - 'gurgle%1:11:00::'
+      event:
+      - 'gurgle%1:11:00::'
       id: 'gurgle%2:39:00::'
       subcat:
       - via-pp
       - vii
       synset: 02192368-v
     - derivation:
+      - 'gurgle%1:11:00::'
+      event:
       - 'gurgle%1:11:00::'
       id: 'gurgle%2:39:02::'
       subcat:
@@ -59506,15 +60324,21 @@ gush:
     pronunciation:
     - value: ˈɡʌʃ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'gusher%1:06:00::'
+      derivation:
       - 'gush%1:11:00::'
       - 'gusher%1:06:00::'
+      event:
+      - 'gush%1:11:00::'
       id: 'gush%2:38:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02072341-v
     - derivation:
+      - 'gush%1:10:00::'
+      event:
       - 'gush%1:10:00::'
       id: 'gush%2:32:00::'
       sent:
@@ -59523,7 +60347,9 @@ gush:
       - via
       - via-pp
       synset: 00883741-v
-    - derivation:
+    - by_means_of:
+      - 'gusher%1:06:00::'
+      derivation:
       - 'gusher%1:06:00::'
       id: 'gush%2:35:00::'
       subcat:
@@ -59700,22 +60526,31 @@ gut:
     pronunciation:
     - value: ɡʌt
     sense:
-    - derivation:
+    - agent:
+      - 'gutter%1:18:00::'
+      derivation:
       - 'gutter%1:18:00::'
       id: 'gut%2:35:01::'
       subcat:
       - vtai
       - vtii
       synset: 01593933-v
-    - derivation:
+    - agent:
+      - 'gutter%1:18:00::'
+      derivation:
       - 'gut%1:06:00::'
       - 'gut%1:08:00::'
       - 'gutter%1:06:01::'
       - 'gutter%1:18:00::'
+      instrument:
+      - 'gutter%1:06:01::'
       id: 'gut%2:35:00::'
       subcat:
       - vtai
       synset: 01593668-v
+      undergoer:
+      - 'gut%1:06:00::'
+      - 'gut%1:08:00::'
 gut issue:
   n:
     sense:
@@ -59828,12 +60663,16 @@ gutter:
       subcat:
       - vtii
       synset: 01312785-v
-    - derivation:
+    - by_means_of:
+      - 'gutter%1:06:00::'
+      derivation:
       - 'gutter%1:06:00::'
       id: 'gutter%2:34:00::'
       subcat:
       - vtai
       synset: 01207297-v
+      uses:
+      - 'gutter%1:06:00::'
 gutter press:
   n:
     sense:
@@ -59909,7 +60748,9 @@ guy:
       - vtaa
       - vtai
       synset: 00853615-v
-    - derivation:
+    - by_means_of:
+      - 'guy%1:06:00::'
+      derivation:
       - 'guy%1:06:00::'
       id: 'guy%2:30:00::'
       subcat:
@@ -60385,12 +61226,17 @@ gyrate:
     sense:
     - derivation:
       - 'gyration%1:04:00::'
+      event:
+      - 'gyration%1:04:00::'
       id: 'gyrate%2:38:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02053139-v
     - derivation:
+      - 'gyration%1:11:00::'
+      - 'gyration%1:04:00::'
+      event:
       - 'gyration%1:11:00::'
       - 'gyration%1:04:00::'
       id: 'gyrate%2:38:01::'

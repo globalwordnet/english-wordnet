@@ -2771,15 +2771,21 @@ ulcer diet:
 ulcerate:
   v:
     sense:
-    - derivation:
+    - body_part:
+      - 'ulcer%1:26:00::'
+      derivation:
       - 'ulcerative%3:01:00::'
       - 'ulceration%1:22:00::'
       - 'ulcer%1:26:00::'
+      event:
+      - 'ulceration%1:22:00::'
       id: 'ulcerate%2:30:00::'
       subcat:
       - vii
       synset: 00538233-v
-    - derivation:
+    - body_part:
+      - 'ulcer%1:26:00::'
+      derivation:
       - 'ulcerative%3:01:00::'
       - 'ulcer%1:26:00::'
       id: 'ulcerate%2:29:00::'
@@ -3042,6 +3048,8 @@ ultracentrifuge:
     sense:
     - derivation:
       - 'ultracentrifugation%1:22:00::'
+      event:
+      - 'ultracentrifugation%1:22:00::'
       id: 'ultracentrifuge%2:38:00::'
       subcat:
       - vtai
@@ -3247,6 +3255,8 @@ ululate:
     - value: ˈjuːljuleɪt
     sense:
     - derivation:
+      - 'ululation%1:10:00::'
+      event:
       - 'ululation%1:10:00::'
       id: 'ululate%2:32:00::'
       sent:
@@ -3574,7 +3584,9 @@ umpire:
     - value: ˈʌm.paɪ.ə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'umpire%1:18:00::'
+      derivation:
       - 'umpirage%1:10:00::'
       - 'umpirage%1:04:00::'
       - 'umpire%1:18:00::'
@@ -4987,6 +4999,8 @@ unbalance:
     - derivation:
       - 'unbalance%1:26:01::'
       id: 'unbalance%2:37:00::'
+      result:
+      - 'unbalance%1:26:01::'
       subcat:
       - vtia
       synset: 01768438-v
@@ -8141,9 +8155,13 @@ under-the-table:
 underachieve:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'underachiever%1:18:00::'
+      derivation:
       - 'underachievement%1:04:00::'
       - 'underachiever%1:18:00::'
+      event:
+      - 'underachievement%1:04:00::'
       id: 'underachieve%2:41:00::'
       subcat:
       - via
@@ -8292,6 +8310,8 @@ undercharge:
       subcat:
       - vtaa
       synset: 02324270-v
+      undergoer:
+      - 'undercharge%1:21:00::'
 underclass:
   a:
     sense:
@@ -8347,6 +8367,9 @@ undercoat:
       subcat:
       - vtai
       synset: 01368058-v
+      uses:
+      - 'undercoat%1:06:02::'
+      - 'undercoat%1:06:01::'
 undercoated:
   a:
     sense:
@@ -8418,24 +8441,36 @@ undercut:
     - derivation:
       - 'undercut%1:04:01::'
       - 'undercut%1:27:00::'
+      event:
+      - 'undercut%1:04:01::'
       id: 'undercut%2:35:02::'
       subcat:
       - vtai
       synset: 01557100-v
+      undergoer:
+      - 'undercut%1:27:00::'
     - derivation:
       - 'undercut%1:04:01::'
       - 'undercut%1:27:00::'
+      event:
+      - 'undercut%1:04:01::'
       id: 'undercut%2:35:01::'
       subcat:
       - vtai
       synset: 01556947-v
+      undergoer:
+      - 'undercut%1:27:00::'
     - derivation:
+      - 'undercut%1:04:00::'
+      event:
       - 'undercut%1:04:00::'
       id: 'undercut%2:35:00::'
       subcat:
       - vtai
       synset: 01405771-v
     - derivation:
+      - 'undercut%1:06:00::'
+      event:
       - 'undercut%1:06:00::'
       id: 'undercut%2:35:03::'
       subcat:
@@ -8445,6 +8480,8 @@ underdevelop:
   v:
     sense:
     - derivation:
+      - 'underdevelopment%1:22:00::'
+      event:
       - 'underdevelopment%1:22:00::'
       id: 'underdevelop%2:39:00::'
       subcat:
@@ -8526,15 +8563,22 @@ underestimate:
       derivation:
       - 'underestimate%1:09:00::'
       - 'underestimation%1:09:00::'
+      event:
+      - 'underestimation%1:09:00::'
       id: 'underestimate%2:31:02::'
       subcat:
       - vtai
       synset: 00697527-v
+      uses:
+      - 'underestimate%1:09:00::'
     - also:
       - 'estimate%2:31:00::'
       derivation:
       - 'underestimate%1:09:00::'
       - 'underestimation%1:09:00::'
+      event:
+      - 'underestimation%1:09:00::'
+      - 'underestimate%1:09:00::'
       id: 'underestimate%2:31:00::'
       subcat:
       - vtai
@@ -8542,6 +8586,8 @@ underestimate:
     - antonym:
       - 'overestimate%2:31:00::'
       derivation:
+      - 'underestimation%1:09:00::'
+      event:
       - 'underestimation%1:09:00::'
       id: 'underestimate%2:31:01::'
       subcat:
@@ -8857,6 +8903,8 @@ underline:
       synset: 01016618-v
     - derivation:
       - 'underline%1:10:00::'
+      event:
+      - 'underline%1:10:00::'
       id: 'underline%2:32:03::'
       subcat:
       - vtai
@@ -8928,6 +8976,8 @@ undernourish:
     - derivation:
       - 'undernourishment%1:26:00::'
       id: 'undernourish%2:34:00::'
+      state:
+      - 'undernourishment%1:26:00::'
       subcat:
       - vtaa
       synset: 01181573-v
@@ -8967,6 +9017,8 @@ underpay:
       - 'overpay%2:40:00::'
       derivation:
       - 'underpayment%1:04:00::'
+      event:
+      - 'underpayment%1:04:00::'
       id: 'underpay%2:40:00::'
       subcat:
       - via-pp
@@ -8984,7 +9036,10 @@ underpayment:
 underperform:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'underperformer%1:18:00::'
+      - 'underperformer%1:14:00::'
+      derivation:
       - 'underperformer%1:18:00::'
       - 'underperformer%1:14:00::'
       id: 'underperform%2:41:00::'
@@ -9063,6 +9118,8 @@ underproduce:
   v:
     sense:
     - derivation:
+      - 'underproduction%1:04:00::'
+      event:
       - 'underproduction%1:04:00::'
       id: 'underproduce%2:36:00::'
       subcat:
@@ -9144,6 +9201,8 @@ underscore:
       synset: 01016618-v
     - derivation:
       - 'underscore%1:10:00::'
+      event:
+      - 'underscore%1:10:00::'
       id: 'underscore%2:32:03::'
       subcat:
       - vtai
@@ -9173,7 +9232,9 @@ undersell:
     form:
     - undersold
     sense:
-    - derivation:
+    - agent:
+      - 'underseller%1:18:00::'
+      derivation:
       - 'underseller%1:18:00::'
       id: 'undersell%2:40:00::'
       subcat:
@@ -9413,6 +9474,8 @@ understate:
       - 'overstate%2:32:00::'
       derivation:
       - 'understatement%1:10:00::'
+      event:
+      - 'understatement%1:10:00::'
       id: 'understate%2:32:00::'
       subcat:
       - vtai
@@ -9483,7 +9546,9 @@ understudy:
     - value: ˈʌndəˌstʌdi
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'understudy%1:18:00::'
+      derivation:
       - 'understudy%1:18:00::'
       id: 'understudy%2:31:00::'
       subcat:
@@ -9589,9 +9654,13 @@ undervalue:
       subcat:
       - vtai
       synset: 00697527-v
+      undergoer:
+      - 'undervaluation%1:09:00::'
     - derivation:
       - 'undervaluation%1:09:00::'
       id: 'undervalue%2:31:01::'
+      result:
+      - 'undervaluation%1:09:00::'
       subcat:
       - vtaa
       - vtai
@@ -9676,7 +9745,10 @@ underwrite:
       - vtai
       - vtii
       synset: 00891261-v
-    - derivation:
+    - agent:
+      - 'underwriter%1:18:01::'
+      - 'underwriter%1:14:00::'
+      derivation:
       - 'underwriter%1:18:01::'
       - 'underwriter%1:14:00::'
       id: 'underwrite%2:32:00::'
@@ -10123,7 +10195,10 @@ undo:
       subcat:
       - vtai
       synset: 01622250-v
-    - derivation:
+    - agent:
+      - 'undoer%1:18:00::'
+      - 'undoer%1:18:02::'
+      derivation:
       - 'undoer%1:18:00::'
       - 'undoer%1:18:02::'
       id: 'undo%2:41:00::'
@@ -10131,14 +10206,18 @@ undo:
       - vtaa
       - vtia
       synset: 02565025-v
-    - derivation:
+    - agent:
+      - 'undoer%1:18:01::'
+      derivation:
       - 'undoer%1:18:01::'
       - 'undoing%1:04:01::'
       id: 'undo%2:35:01::'
       subcat:
       - vtai
       synset: 01287511-v
-    - derivation:
+    - agent:
+      - 'undoer%1:18:01::'
+      derivation:
       - 'undoer%1:18:01::'
       id: 'undo%2:35:03::'
       subcat:
@@ -10326,6 +10405,8 @@ undress:
       - 'dress%2:29:00::'
       derivation:
       - 'undress%1:26:00::'
+      event:
+      - 'undress%1:26:00::'
       id: 'undress%2:29:00::'
       sent:
       - They undress
@@ -10336,6 +10417,8 @@ undress:
       - vtai
       synset: 00049617-v
     - derivation:
+      - 'undress%1:26:00::'
+      event:
       - 'undress%1:26:00::'
       id: 'undress%2:30:00::'
       sent:
@@ -10419,6 +10502,9 @@ undulate:
       - vii-pp
       synset: 02693093-v
     - derivation:
+      - 'undulation%1:11:01::'
+      - 'undulation%1:11:00::'
+      event:
       - 'undulation%1:11:01::'
       - 'undulation%1:11:00::'
       id: 'undulate%2:38:00::'
@@ -11603,7 +11689,9 @@ unfashionably:
 unfasten:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'unfastener%1:18:00::'
+      antonym:
       - 'fasten%2:35:01::'
       derivation:
       - 'unfastener%1:18:00::'
@@ -13524,6 +13612,8 @@ uniform:
       subcat:
       - vtaa
       synset: 02336782-v
+      uses:
+      - 'uniform%1:06:00::'
 uniform acceleration:
   n:
     sense:
@@ -13626,7 +13716,13 @@ unify:
       - 'unification%1:04:00::'
       - 'unit%1:09:00::'
       - 'unit%1:03:00::'
+      event:
+      - 'unification%1:11:00::'
+      - 'unification%1:04:00::'
       id: 'unify%2:30:00::'
+      result:
+      - 'unit%1:09:00::'
+      - 'unit%1:03:00::'
       subcat:
       - via
       - vii
@@ -13634,6 +13730,8 @@ unify:
     - derivation:
       - 'unit%1:03:00::'
       id: 'unify%2:35:00::'
+      result:
+      - 'unit%1:03:00::'
       subcat:
       - vii
       - vtai
@@ -13646,11 +13744,15 @@ unify:
       synset: 02609063-v
     - derivation:
       - 'unification%1:04:00::'
+      event:
+      - 'unification%1:04:00::'
       id: 'unify%2:41:00::'
       subcat:
       - via
       synset: 02475258-v
     - derivation:
+      - 'unification%1:11:00::'
+      event:
       - 'unification%1:11:00::'
       id: 'unify%2:30:01::'
       subcat:
@@ -14398,11 +14500,15 @@ unionise:
     sense:
     - derivation:
       - 'unionisation%1:04:00::'
+      event:
+      - 'unionisation%1:04:00::'
       id: 'unionise%2:41:01::'
       subcat:
       - vtaa
       synset: 02440714-v
     - derivation:
+      - 'unionisation%1:04:00::'
+      event:
       - 'unionisation%1:04:00::'
       id: 'unionise%2:41:00::'
       subcat:
@@ -14445,14 +14551,22 @@ unionize:
     - derivation:
       - 'unionization%1:04:00::'
       - 'union%1:14:01::'
+      event:
+      - 'unionization%1:04:00::'
       id: 'unionize%2:41:01::'
+      result:
+      - 'union%1:14:01::'
       subcat:
       - vtaa
       synset: 02440714-v
     - derivation:
       - 'unionization%1:04:00::'
       - 'union%1:14:01::'
+      event:
+      - 'unionization%1:04:00::'
       id: 'unionize%2:41:00::'
+      result:
+      - 'union%1:14:01::'
       subcat:
       - via
       synset: 02439085-v
@@ -14704,6 +14818,8 @@ unite:
     - derivation:
       - 'union%1:04:00::'
       - 'uniting%1:04:00::'
+      event:
+      - 'union%1:04:00::'
       id: 'unite%2:30:00::'
       subcat:
       - via
@@ -14784,6 +14900,8 @@ unitise:
       synset: 02474216-v
     - derivation:
       - 'unitisation%1:04:02::'
+      event:
+      - 'unitisation%1:04:02::'
       id: 'unitise%2:35:00::'
       subcat:
       - vtai
@@ -14820,6 +14938,8 @@ unitize:
       - 'unitization%1:04:02::'
       - 'unit%1:17:00::'
       - 'unit%1:03:00::'
+      event:
+      - 'unitization%1:04:02::'
       id: 'unitize%2:35:00::'
       subcat:
       - vtai
@@ -18381,7 +18501,9 @@ unravel:
     pronunciation:
     - value: ʌnˈɹævəl
     sense:
-    - antonym:
+    - agent:
+      - 'unraveler%1:18:00::'
+      antonym:
       - 'ravel%2:35:00::'
       derivation:
       - 'unraveler%1:18:00::'
@@ -18390,7 +18512,10 @@ unravel:
       - vii
       - vtai
       synset: 01523477-v
-    - antonym:
+    - agent:
+      - 'unraveller%1:18:00::'
+      - 'unraveler%1:18:00::'
+      antonym:
       - 'ravel%2:35:00::'
       derivation:
       - 'unraveller%1:18:00::'
@@ -18399,7 +18524,9 @@ unravel:
       subcat:
       - vtai
       synset: 01524000-v
-    - derivation:
+    - agent:
+      - 'unraveller%1:18:00::'
+      derivation:
       - 'unraveller%1:18:00::'
       id: 'unravel%2:30:01::'
       subcat:
@@ -19497,6 +19624,8 @@ unsanctify:
     - derivation:
       - 'unsanctification%1:07:00::'
       id: 'unsanctify%2:30:00::'
+      result:
+      - 'unsanctification%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -21893,7 +22022,9 @@ untie:
     pronunciation:
     - value: ʌnˈtaɪ
     sense:
-    - antonym:
+    - agent:
+      - 'untier%1:18:00::'
+      antonym:
       - 'tie%2:35:00::'
       derivation:
       - 'untier%1:18:00::'
@@ -21906,7 +22037,9 @@ untie:
       - vtai
       - vtai-pp
       synset: 01287064-v
-    - derivation:
+    - agent:
+      - 'untier%1:18:00::'
+      derivation:
       - 'untier%1:18:00::'
       - 'untying%1:04:00::'
       id: 'untie%2:35:01::'
@@ -23535,7 +23668,9 @@ upbraid:
     pronunciation:
     - value: ˌʌpˈbɹeɪd
     sense:
-    - derivation:
+    - agent:
+      - 'upbraider%1:18:00::'
+      derivation:
       - 'upbraider%1:18:00::'
       - 'upbraiding%1:10:00::'
       id: 'upbraid%2:32:00::'
@@ -23635,6 +23770,8 @@ update:
       - 'update%1:10:00::'
       - 'updating%1:04:00::'
       - 'update%1:04:00::'
+      event:
+      - 'update%1:10:00::'
       id: 'update%2:32:00::'
       subcat:
       - vtaa
@@ -23739,17 +23876,24 @@ upgrade:
       subcat:
       - vtai
       synset: 00207592-v
+      undergoer:
+      - 'upgrade%1:06:00::'
+      - 'upgrade%1:10:00::'
     - id: 'upgrade%2:41:00::'
       subcat:
       - vtaa
       synset: 02402779-v
     - derivation:
       - 'upgrade%1:09:00::'
+      event:
+      - 'upgrade%1:09:00::'
       id: 'upgrade%2:30:05::'
       subcat:
       - via
       synset: 00585297-v
     - derivation:
+      - 'upgrade%1:09:00::'
+      event:
       - 'upgrade%1:09:00::'
       id: 'upgrade%2:30:04::'
       subcat:
@@ -23781,6 +23925,8 @@ upheave:
     sense:
     - derivation:
       - 'upheaval%1:11:00::'
+      event:
+      - 'upheaval%1:11:00::'
       id: 'upheave%2:35:00::'
       subcat:
       - vtai
@@ -23807,7 +23953,9 @@ uphold:
     pronunciation:
     - value: ˌʌpˈhold
     sense:
-    - derivation:
+    - agent:
+      - 'upholder%1:18:00::'
+      derivation:
       - 'upholder%1:18:00::'
       id: 'uphold%2:42:00::'
       subcat:
@@ -23818,7 +23966,9 @@ uphold:
       subcat:
       - vtai
       synset: 00897613-v
-    - derivation:
+    - agent:
+      - 'upholder%1:18:00::'
+      derivation:
       - 'upholder%1:18:00::'
       id: 'uphold%2:32:02::'
       subcat:
@@ -23838,7 +23988,9 @@ upholster:
     - value: əˈpɒl.stə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'upholsterer%1:18:00::'
+      derivation:
       - 'upholsterer%1:18:00::'
       - 'upholstery%1:06:00::'
       - 'upholstery%1:04:00::'
@@ -23954,11 +24106,15 @@ uplift:
       synset: 01815703-v
     - derivation:
       - 'uplift%1:11:00::'
+      event:
+      - 'uplift%1:11:00::'
       id: 'uplift%2:38:02::'
       subcat:
       - vii
       synset: 01973608-v
-    - derivation:
+    - by_means_of:
+      - 'uplift%1:06:00::'
+      derivation:
       - 'uplift%1:06:00::'
       - 'uplifting%1:11:00::'
       id: 'uplift%2:38:00::'
@@ -24413,7 +24569,9 @@ uproot:
       - vtaa
       - vtia
       synset: 02544219-v
-    - derivation:
+    - agent:
+      - 'uprooter%1:18:00::'
+      derivation:
       - 'uprooter%1:18:00::'
       id: 'uproot%2:36:00::'
       subcat:
@@ -24493,6 +24651,8 @@ upset:
       synset: 00522376-v
     - derivation:
       - 'upset%1:26:00::'
+      event:
+      - 'upset%1:26:00::'
       id: 'upset%2:37:01::'
       sent:
       - The performance is likely to upset Sue
@@ -24503,6 +24663,9 @@ upset:
     - derivation:
       - 'upset%1:04:01::'
       - 'upset%1:26:00::'
+      event:
+      - 'upset%1:04:01::'
+      - 'upset%1:26:00::'
       id: 'upset%2:37:00::'
       sent:
       - The bad news will upset him
@@ -24511,6 +24674,8 @@ upset:
       synset: 01774422-v
     - derivation:
       - 'upset%1:04:02::'
+      event:
+      - 'upset%1:04:02::'
       id: 'upset%2:38:00::'
       subcat:
       - vtai
@@ -24518,13 +24683,19 @@ upset:
       synset: 01913971-v
     - derivation:
       - 'upset%1:06:00::'
+      instrument:
+      - 'upset%1:06:00::'
       id: 'upset%2:35:00::'
       subcat:
       - vtai
       synset: 01258938-v
-    - derivation:
+    - agent:
+      - 'upsetter%1:18:00::'
+      derivation:
       - 'upset%1:04:00::'
       - 'upsetter%1:18:00::'
+      event:
+      - 'upset%1:04:00::'
       id: 'upset%2:33:00::'
       sent:
       - The fighter managed to upset his opponent
@@ -24628,14 +24799,18 @@ upstage:
       subcat:
       - vtaa
       synset: 02521393-v
-    - derivation:
+    - agent:
+      - 'upstager%1:18:00::'
+      derivation:
       - 'upstager%1:18:00::'
       id: 'upstage%2:38:00::'
       subcat:
       - vtaa
       - vtia
       synset: 02090349-v
-    - derivation:
+    - agent:
+      - 'upstager%1:18:00::'
+      derivation:
       - 'upstager%1:18:00::'
       id: 'upstage%2:33:00::'
       sent:
@@ -25116,6 +25291,8 @@ urbanise:
     - derivation:
       - 'urbanisation%1:26:00::'
       id: 'urbanise%2:30:01::'
+      state:
+      - 'urbanisation%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -25123,6 +25300,8 @@ urbanise:
       - vtii
       synset: 00501136-v
     - derivation:
+      - 'urbanisation%1:22:00::'
+      event:
       - 'urbanisation%1:22:00::'
       id: 'urbanise%2:30:00::'
       subcat:
@@ -25170,6 +25349,8 @@ urbanize:
     - derivation:
       - 'urban%3:00:00::'
       - 'urbanization%1:22:00::'
+      event:
+      - 'urbanization%1:22:00::'
       id: 'urbanize%2:30:00::'
       subcat:
       - vtai
@@ -25179,6 +25360,8 @@ urbanize:
       - 'urban%3:00:00::'
       - 'urbanization%1:26:00::'
       id: 'urbanize%2:30:01::'
+      state:
+      - 'urbanization%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -25575,10 +25758,14 @@ urinate:
       subcat:
       - vtai
       synset: 00072339-v
-    - derivation:
+    - agent:
+      - 'urinator%1:18:00::'
+      derivation:
       - 'urination%1:22:00::'
       - 'urine%1:27:00::'
       - 'urinator%1:18:00::'
+      event:
+      - 'urination%1:22:00::'
       id: 'urinate%2:29:00::'
       subcat:
       - via
@@ -25796,6 +25983,8 @@ urticate:
       synset: 02125377-v
     - derivation:
       - 'urtication%1:09:00::'
+      event:
+      - 'urtication%1:09:00::'
       id: 'urticate%2:39:00::'
       subcat:
       - vtii
@@ -25908,7 +26097,9 @@ use:
     pronunciation:
     - value: juːs
     sense:
-    - derivation:
+    - agent:
+      - 'user%1:18:00::'
+      derivation:
       - useable%5:00:00:useful:00
       - useable%5:00:00:serviceable:00
       - useable%5:00:00:disposable:02
@@ -25918,6 +26109,8 @@ use:
       - 'use%1:04:00::'
       - 'user%1:18:00::'
       - 'usage%1:04:00::'
+      event:
+      - 'use%1:04:00::'
       id: 'use%2:34:01::'
       sent:
       - They use the animals
@@ -25929,17 +26122,25 @@ use:
       - vtai-to
       - vtii
       synset: 01161188-v
-    - derivation:
+    - agent:
+      - 'user%1:18:02::'
+      derivation:
       - 'use%1:04:00::'
       - 'user%1:18:02::'
+      event:
+      - 'use%1:04:00::'
       id: 'use%2:34:02::'
       subcat:
       - vtai
       synset: 01167359-v
-    - derivation:
+    - agent:
+      - 'user%1:18:01::'
+      derivation:
       - 'use%1:04:02::'
       - 'user%1:18:01::'
       - 'using%1:04:00::'
+      event:
+      - 'use%1:04:02::'
       id: 'use%2:41:14::'
       sent:
       - They use him to write the letter
@@ -25950,10 +26151,14 @@ use:
     - derivation:
       - 'use%1:07:02::'
       - 'usance%1:04:00::'
+      event:
+      - 'usance%1:04:00::'
       id: 'use%2:41:04::'
       subcat:
       - vtai
       synset: 02567247-v
+      undergoer:
+      - 'use%1:07:02::'
     - derivation:
       - 'usage%1:04:01::'
       id: 'use%2:41:03::'
@@ -26162,7 +26367,9 @@ usher:
     pronunciation:
     - value: ˈʌʃəɹ
     sense:
-    - derivation:
+    - agent:
+      - 'usher%1:18:00::'
+      derivation:
       - 'usher%1:18:00::'
       id: 'usher%2:38:00::'
       subcat:
@@ -26314,9 +26521,13 @@ usurp:
     - value: juːˈzɜːp
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'usurper%1:18:00::'
+      derivation:
       - 'usurpation%1:04:00::'
       - 'usurper%1:18:00::'
+      event:
+      - 'usurpation%1:04:00::'
       id: 'usurp%2:40:00::'
       subcat:
       - vtai
@@ -26444,6 +26655,8 @@ utilise:
     - derivation:
       - 'utilisation%1:04:00::'
       - 'utility%1:07:00::'
+      event:
+      - 'utilisation%1:04:00::'
       id: 'utilise%2:34:00::'
       sent:
       - They utilise the animals
@@ -26582,11 +26795,15 @@ utilize:
     pronunciation:
     - value: ˈjuːtɨlaɪz
     sense:
-    - derivation:
+    - agent:
+      - 'utilizer%1:18:00::'
+      derivation:
       - utilizable%5:00:00:useful:00
       - 'utilization%1:04:00::'
       - 'utilizer%1:18:00::'
       - 'utility%1:07:00::'
+      event:
+      - 'utilization%1:04:00::'
       id: 'utilize%2:34:00::'
       sent:
       - They utilize the animals
@@ -26705,7 +26922,11 @@ utter:
       synset: 00524044-s
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'utterer%1:18:02::'
+      by_means_of:
+      - 'utterance%1:10:00::'
+      derivation:
       - utterable%5:00:00:expressible:00
       - 'utterer%1:18:02::'
       - 'utterance%1:10:00::'
@@ -26713,7 +26934,11 @@ utter:
       subcat:
       - vtai
       synset: 00942415-v
-    - derivation:
+    - agent:
+      - 'utterer%1:18:02::'
+      by_means_of:
+      - 'utterance%1:10:00::'
+      derivation:
       - utterable%5:00:00:expressible:00
       - 'utterer%1:18:02::'
       - 'utterance%1:10:00::'
@@ -26722,7 +26947,11 @@ utter:
       - vtai
       - vtii
       synset: 00985856-v
-    - derivation:
+    - agent:
+      - 'utterer%1:18:00::'
+      by_means_of:
+      - 'utterance%1:10:00::'
+      derivation:
       - utterable%5:00:00:expressible:00
       - 'utterer%1:18:00::'
       - 'utterance%1:10:00::'
@@ -26731,7 +26960,9 @@ utter:
       - via
       - via-pp
       synset: 00944022-v
-    - derivation:
+    - agent:
+      - 'utterer%1:18:01::'
+      derivation:
       - 'utterer%1:18:01::'
       id: 'utter%2:38:00::'
       subcat:

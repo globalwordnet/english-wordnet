@@ -256,7 +256,7 @@ def main():
                             "ERROR: Pertainyms should be between adjectives %s => %s" %
                             (sense.id, sr.target))
                         errors += 1
-            sr_counter = Counter((sr.target, sr.rel_type)
+            sr_counter = Counter((sr.target, sr.other_type if sr.other_type else sr.rel_type)
                                  for sr in sense.sense_relations)
             for item, count in sr_counter.items():
                 if count > 1:
