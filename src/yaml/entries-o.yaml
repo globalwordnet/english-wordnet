@@ -85,7 +85,9 @@ O.K.:
       synset: 00015933-r
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'o.k.%1:10:00::'
+      derivation:
       - 'ok%1:10:00::'
       - 'o.k.%1:10:00::'
       id: 'o.k.%2:32:00::'
@@ -4756,7 +4758,12 @@ obey:
       - 'obeisance%1:04:00::'
       - 'obedience%1:07:00::'
       - 'obedience%1:04:00::'
+      event:
+      - 'obedience%1:04:00::'
+      - 'obeisance%1:04:00::'
       id: 'obey%2:41:00::'
+      property:
+      - 'obedience%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -4775,7 +4782,12 @@ obfuscate:
       - 'obfuscation%1:09:00::'
       - 'obfuscation%1:04:01::'
       - 'obfuscation%1:04:00::'
+      event:
+      - 'obfuscation%1:04:01::'
+      - 'obfuscation%1:04:00::'
       id: 'obfuscate%2:32:00::'
+      result:
+      - 'obfuscation%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -4868,10 +4880,15 @@ object:
       variety: US
     - value: əbˈd͡ʒɛkt
     sense:
-    - derivation:
+    - agent:
+      - 'objector%1:18:00::'
+      derivation:
       - 'objection%1:10:01::'
       - 'objection%1:04:01::'
       - 'objector%1:18:00::'
+      event:
+      - 'objection%1:10:01::'
+      - 'objection%1:04:01::'
       id: 'object%2:32:00::'
       subcat:
       - via
@@ -4880,6 +4897,8 @@ object:
       - vii-to
       synset: 00809123-v
     - derivation:
+      - 'objection%1:04:01::'
+      event:
       - 'objection%1:04:01::'
       id: 'object%2:42:00::'
       subcat:
@@ -4995,7 +5014,12 @@ objectify:
       - 'objectification%1:06:00::'
       - 'objectification%1:04:00::'
       - 'object%1:03:00::'
+      event:
+      - 'objectification%1:04:00::'
       id: 'objectify%2:30:01::'
+      result:
+      - 'objectification%1:06:00::'
+      - 'object%1:03:00::'
       subcat:
       - vtai
       synset: 00533687-v
@@ -5160,6 +5184,8 @@ objurgate:
       synset: 00865823-v
     - derivation:
       - 'objurgation%1:10:00::'
+      event:
+      - 'objurgation%1:10:00::'
       id: 'objurgate%2:32:01::'
       subcat:
       - vtaa
@@ -5228,7 +5254,9 @@ obligate:
       variety: US
     - value: ˈɑblɪɡət
     sense:
-    - derivation:
+    - by_means_of:
+      - 'obligation%1:04:00::'
+      derivation:
       - 'obligation%1:04:00::'
       id: 'obligate%2:41:00::'
       sent:
@@ -5239,13 +5267,19 @@ obligate:
     - derivation:
       - 'obligation%1:26:00::'
       id: 'obligate%2:40:00::'
+      state:
+      - 'obligation%1:26:00::'
       subcat:
       - vtai
       synset: 02353178-v
-    - derivation:
+    - by_means_of:
+      - 'obligation%1:10:00::'
+      derivation:
       - 'obligation%1:26:00::'
       - 'obligation%1:10:00::'
       id: 'obligate%2:32:00::'
+      state:
+      - 'obligation%1:26:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
@@ -5339,7 +5373,9 @@ oblige:
     pronunciation:
     - value: əˈblaɪdʒ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'obligation%1:04:00::'
+      derivation:
       - 'obligation%1:04:00::'
       id: 'oblige%2:41:00::'
       sent:
@@ -5347,7 +5383,9 @@ oblige:
       subcat:
       - vtaa-to-inf
       synset: 02512195-v
-    - derivation:
+    - by_means_of:
+      - 'obligation%1:10:00::'
+      derivation:
       - 'obligation%1:10:00::'
       id: 'oblige%2:32:00::'
       subcat:
@@ -5355,8 +5393,12 @@ oblige:
       - vtaa-to-inf
       - vtia
       synset: 00886738-v
-    - antonym:
+    - agent:
+      - 'obliger%1:18:00::'
+      antonym:
       - 'disoblige%2:32:00::'
+      by_means_of:
+      - 'obligation%1:24:00::'
       derivation:
       - 'obligation%1:24:00::'
       - 'obliger%1:18:00::'
@@ -5527,6 +5569,8 @@ obliterate:
     - derivation:
       - obliterable%5:00:00:eradicable:00
       - 'obliteration%1:11:00::'
+      event:
+      - 'obliteration%1:11:00::'
       id: 'obliterate%2:30:02::'
       subcat:
       - vtai
@@ -5542,15 +5586,23 @@ obliterate:
     - derivation:
       - 'obliteration%1:11:00::'
       - 'obliteration%1:04:00::'
+      event:
+      - 'obliteration%1:11:00::'
+      - 'obliteration%1:04:00::'
       id: 'obliterate%2:30:00::'
       subcat:
       - vtai
       synset: 00312120-v
-    - derivation:
+    - agent:
+      - 'obliterator%1:17:00::'
+      derivation:
       - obliterable%5:00:00:eradicable:00
       - 'obliteration%1:11:00::'
       - 'obliteration%1:04:00::'
       - 'obliterator%1:17:00::'
+      event:
+      - 'obliteration%1:11:00::'
+      - 'obliteration%1:04:00::'
       id: 'obliterate%2:30:03::'
       subcat:
       - vtai
@@ -6117,7 +6169,9 @@ observe:
     - value: əbˈzɝv
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'observer%1:18:00::'
+      derivation:
       - observable%5:00:00:noticeable:00
       - observant%5:00:00:perceptive:00
       - 'observer%1:18:00::'
@@ -6125,21 +6179,33 @@ observe:
       - 'observation%1:09:02::'
       - 'observation%1:04:01::'
       - 'observance%1:09:00::'
+      event:
+      - 'observation%1:04:01::'
+      - 'observance%1:09:00::'
       id: 'observe%2:39:02::'
+      result:
+      - 'observation%1:10:00::'
+      - 'observation%1:09:02::'
       subcat:
       - via-that
       - vtaa
       - vtai
       synset: 02158938-v
-    - derivation:
+    - agent:
       - 'observer%1:18:01::'
+      derivation:
+      - 'observer%1:18:01::'
+      - 'observation%1:09:00::'
+      event:
       - 'observation%1:09:00::'
       id: 'observe%2:32:00::'
       subcat:
       - via-that
       - vtai
       synset: 01022014-v
-    - derivation:
+    - agent:
+      - 'observer%1:18:00::'
+      derivation:
       - observable%5:00:00:noticeable:00
       - observant%5:00:00:attentive:00
       - 'observer%1:18:00::'
@@ -6147,7 +6213,13 @@ observe:
       - 'observation%1:09:02::'
       - 'observation%1:09:00::'
       - 'observation%1:04:00::'
+      event:
+      - 'observation%1:09:00::'
+      - 'observation%1:04:00::'
       id: 'observe%2:39:01::'
+      result:
+      - 'observation%1:10:00::'
+      - 'observation%1:09:02::'
       subcat:
       - vtaa
       - vtai
@@ -6159,7 +6231,14 @@ observe:
       - 'observation%1:09:00::'
       - 'observation%1:04:00::'
       - 'observance%1:04:00::'
+      event:
+      - 'observation%1:09:00::'
+      - 'observation%1:04:00::'
+      - 'observance%1:04:00::'
       id: 'observe%2:39:00::'
+      result:
+      - 'observation%1:09:02::'
+      - 'observation%1:10:00::'
       sent:
       - The customs agents observe the bags for drugs
       subcat:
@@ -6173,17 +6252,27 @@ observe:
     - derivation:
       - observant%5:00:00:lawful:00
       - 'observance%1:11:01::'
+      event:
+      - 'observance%1:11:01::'
       id: 'observe%2:41:02::'
       subcat:
       - vtai
       synset: 02584595-v
-    - derivation:
+    - agent:
+      - 'observer%1:18:00::'
+      derivation:
       - 'observer%1:18:00::'
       - 'observation%1:10:00::'
       - 'observation%1:09:02::'
       - 'observation%1:09:00::'
       - 'observation%1:04:00::'
+      event:
+      - 'observation%1:09:00::'
+      - 'observation%1:04:00::'
       id: 'observe%2:41:00::'
+      result:
+      - 'observation%1:09:02::'
+      - 'observation%1:10:00::'
       sent:
       - The children observe the ball
       subcat:
@@ -6197,11 +6286,20 @@ observe:
       - 'observation%1:09:00::'
       - 'observation%1:04:01::'
       - 'observation%1:04:00::'
+      event:
+      - 'observation%1:09:00::'
+      - 'observation%1:04:01::'
+      - 'observation%1:04:00::'
       id: 'observe%2:31:00::'
+      result:
+      - 'observation%1:10:00::'
+      - 'observation%1:09:02::'
       subcat:
       - vtai
       synset: 00734575-v
     - derivation:
+      - 'observance%1:04:02::'
+      event:
       - 'observance%1:04:02::'
       id: 'observe%2:41:04::'
       subcat:
@@ -6259,6 +6357,8 @@ obsess:
     sense:
     - derivation:
       - 'obsession%1:09:00::'
+      event:
+      - 'obsession%1:09:00::'
       id: 'obsess%2:37:00::'
       sent:
       - The good news will obsess her
@@ -6268,6 +6368,8 @@ obsess:
       synset: 01787033-v
     - derivation:
       - obsessive%5:00:00:neurotic:00
+      - 'obsession%1:09:00::'
+      event:
       - 'obsession%1:09:00::'
       id: 'obsess%2:37:03::'
       sent:
@@ -6399,6 +6501,8 @@ obsolesce:
     sense:
     - derivation:
       - obsolescent%5:00:00:noncurrent:00
+      - 'obsolescence%1:22:00::'
+      event:
       - 'obsolescence%1:22:00::'
       id: 'obsolesce%2:30:00::'
       subcat:
@@ -6554,6 +6658,8 @@ obstinate:
     sense:
     - derivation:
       - 'obstinance%1:07:01::'
+      event:
+      - 'obstinance%1:07:01::'
       id: 'obstinate%2:30:00::'
       subcat:
       - via
@@ -6574,6 +6680,8 @@ obstipate:
   v:
     sense:
     - derivation:
+      - 'obstipation%1:26:00::'
+      event:
       - 'obstipation%1:26:00::'
       id: 'obstipate%2:29:00::'
       subcat:
@@ -6627,10 +6735,15 @@ obstruct:
     pronunciation:
     - value: əbˈstɹʌkt
     sense:
-    - derivation:
+    - agent:
+      - 'obstructer%1:18:00::'
+      - 'obstructor%1:18:00::'
+      derivation:
       - 'obstruction%1:04:01::'
       - 'obstructer%1:18:00::'
       - 'obstructor%1:18:00::'
+      event:
+      - 'obstruction%1:04:01::'
       id: 'obstruct%2:41:00::'
       subcat:
       - vtai
@@ -6638,11 +6751,16 @@ obstruct:
       synset: 02563025-v
     - antonym:
       - 'free%2:35:01::'
+      by_means_of:
+      - 'obstructer%1:06:00::'
+      - 'obstructor%1:06:00::'
       derivation:
       - obstructive%5:00:00:preventive:00
       - 'obstruction%1:04:01::'
       - 'obstructer%1:06:00::'
       - 'obstructor%1:06:00::'
+      event:
+      - 'obstruction%1:04:01::'
       id: 'obstruct%2:35:00::'
       subcat:
       - vtai
@@ -6758,6 +6876,9 @@ obtain:
       - obtainable%5:00:00:available:00
       - 'obtention%1:04:00::'
       - 'obtainment%1:04:00::'
+      event:
+      - 'obtention%1:04:00::'
+      - 'obtainment%1:04:00::'
       id: 'obtain%2:40:00::'
       subcat:
       - vtai
@@ -6867,6 +6988,8 @@ obturate:
     sense:
     - derivation:
       - 'obturator%1:06:00::'
+      instrument:
+      - 'obturator%1:06:00::'
       id: 'obturate%2:35:00::'
       subcat:
       - vtai
@@ -6970,11 +7093,15 @@ obviate:
       - 'necessitate%2:42:00::'
       derivation:
       - 'obviation%1:04:00::'
+      event:
+      - 'obviation%1:04:00::'
       id: 'obviate%2:42:00::'
       subcat:
       - vtii
       synset: 02635337-v
     - derivation:
+      - 'obviation%1:04:00::'
+      event:
       - 'obviation%1:04:00::'
       id: 'obviate%2:41:00::'
       subcat:
@@ -7078,6 +7205,9 @@ occasion:
     - derivation:
       - 'occasion%1:26:00::'
       - 'occasion%1:16:00::'
+      - 'occasion%1:28:00::'
+      event:
+      - 'occasion%1:26:00::'
       - 'occasion%1:28:00::'
       id: 'occasion%2:36:00::'
       subcat:
@@ -7229,6 +7359,8 @@ occlude:
     sense:
     - derivation:
       - 'occlusive%3:01:00::'
+      - 'occlusion%1:04:00::'
+      event:
       - 'occlusion%1:04:00::'
       id: 'occlude%2:35:00::'
       subcat:
@@ -7512,16 +7644,22 @@ occupy:
     sense:
     - derivation:
       - 'occupation%1:04:04::'
+      event:
+      - 'occupation%1:04:04::'
       id: 'occupy%2:41:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02420961-v
-    - derivation:
+    - agent:
+      - 'occupier%1:18:00::'
+      derivation:
       - 'occupation%1:04:01::'
       - 'occupier%1:18:00::'
       - 'occupant%1:18:00::'
       - 'occupancy%1:04:00::'
+      event:
+      - 'occupation%1:04:01::'
       id: 'occupy%2:42:00::'
       subcat:
       - vtai
@@ -7529,11 +7667,15 @@ occupy:
       synset: 02654741-v
     - derivation:
       - 'occupation%1:28:00::'
+      event:
+      - 'occupation%1:28:00::'
       id: 'occupy%2:42:01::'
       subcat:
       - vtii
       synset: 02655144-v
     - derivation:
+      - 'occupation%1:04:04::'
+      event:
       - 'occupation%1:04:04::'
       id: 'occupy%2:42:04::'
       sent:
@@ -7542,8 +7684,12 @@ occupy:
       - vtaa
       - vtia
       synset: 02684248-v
-    - derivation:
+    - agent:
       - 'occupier%1:18:01::'
+      derivation:
+      - 'occupier%1:18:01::'
+      - 'occupation%1:04:02::'
+      event:
       - 'occupation%1:04:02::'
       id: 'occupy%2:33:00::'
       subcat:
@@ -7552,12 +7698,17 @@ occupy:
       synset: 01128786-v
     - derivation:
       - 'occupation%1:28:00::'
+      event:
+      - 'occupation%1:28:00::'
       id: 'occupy%2:40:08::'
       subcat:
       - vtai
       - vtii
       synset: 02272834-v
     - derivation:
+      - 'occupation%1:04:04::'
+      - 'occupation%1:04:00::'
+      event:
       - 'occupation%1:04:04::'
       - 'occupation%1:04:00::'
       id: 'occupy%2:31:00::'
@@ -8518,12 +8669,16 @@ odoriferous:
 odorize:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'odor%1:07:00::'
+      antonym:
       - 'deodorize%2:39:00::'
       derivation:
       - 'odor%1:09:00::'
       - 'odor%1:07:00::'
       id: 'odorize%2:39:00::'
+      result:
+      - 'odor%1:09:00::'
       subcat:
       - vtai
       synset: 02130106-v
@@ -8576,6 +8731,9 @@ odourise:
       - 'odour%1:07:00::'
       - 'odour%1:09:00::'
       id: 'odourise%2:39:00::'
+      result:
+      - 'odor%1:09:00::'
+      - 'odor%1:07:00::'
       subcat:
       - vtai
       synset: 02130106-v
@@ -9170,11 +9328,15 @@ offend:
       - 'offensive%3:00:02::'
       - 'offence%1:12:00::'
       id: 'offend%2:37:01::'
+      result:
+      - 'offence%1:12:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01793089-v
-    - derivation:
+    - agent:
+      - 'offender%1:18:00::'
+      derivation:
       - offensive%5:00:00:offending:00
       - 'offensive%3:00:04::'
       - 'offender%1:18:00::'
@@ -9196,7 +9358,9 @@ offend:
       - vtaa
       - vtia
       synset: 01814414-v
-    - derivation:
+    - by_means_of:
+      - 'offence%1:04:02::'
+      derivation:
       - 'offensive%3:00:02::'
       - 'offence%1:04:02::'
       - 'offense%1:04:02::'
@@ -9367,10 +9531,15 @@ offer:
       - vtai-to
       - vtii
       synset: 02332196-v
-    - derivation:
+    - agent:
+      - 'offerer%1:18:00::'
+      - 'offeror%1:18:00::'
+      derivation:
       - 'offer%1:10:01::'
       - 'offerer%1:18:00::'
       - 'offeror%1:18:00::'
+      event:
+      - 'offer%1:10:01::'
       id: 'offer%2:40:00::'
       subcat:
       - ditransitive
@@ -9378,6 +9547,8 @@ offer:
       - vtai-to
       synset: 02302103-v
     - derivation:
+      - 'offer%1:10:01::'
+      event:
       - 'offer%1:10:01::'
       id: 'offer%2:41:00::'
       sent:
@@ -9395,6 +9566,8 @@ offer:
     - derivation:
       - 'offer%1:10:01::'
       - 'offering%1:10:01::'
+      event:
+      - 'offer%1:10:01::'
       id: 'offer%2:40:09::'
       subcat:
       - ditransitive
@@ -9413,6 +9586,8 @@ offer:
       - vtai
       - vtai-pp
       synset: 02303593-v
+      undergoer:
+      - 'offer%1:10:00::'
     - id: 'offer%2:39:06::'
       subcat:
       - vtai
@@ -9420,6 +9595,8 @@ offer:
     - derivation:
       - 'offer%1:10:01::'
       - 'offering%1:04:00::'
+      event:
+      - 'offer%1:10:01::'
       id: 'offer%2:42:00::'
       subcat:
       - vtai
@@ -9429,6 +9606,8 @@ offer:
       - vtai
       synset: 02381380-v
     - derivation:
+      - 'offer%1:10:01::'
+      event:
       - 'offer%1:10:01::'
       id: 'offer%2:40:10::'
       subcat:
@@ -9662,7 +9841,11 @@ officer:
     - value: ˈɔfɪsɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'officer%1:18:04::'
+      - 'officer%1:18:01::'
+      - 'officer%1:18:03::'
+      derivation:
       - 'officer%1:18:04::'
       - 'officer%1:18:01::'
       - 'officer%1:18:03::'
@@ -9787,6 +9970,8 @@ officiate:
       - 'office%1:04:01::'
       - 'office%1:04:00::'
       - 'officiant%1:18:00::'
+      event:
+      - 'officiation%1:04:01::'
       id: 'officiate%2:41:01::'
       subcat:
       - via
@@ -9800,6 +9985,9 @@ officiate:
       - 'office%1:04:01::'
       - 'office%1:04:00::'
       - 'officiating%1:04:00::'
+      event:
+      - 'officiation%1:04:01::'
+      - 'officiation%1:04:00::'
       id: 'officiate%2:33:00::'
       subcat:
       - via
@@ -9926,19 +10114,25 @@ offset:
     - value: ˈɑf.sɛt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'offset%1:21:00::'
+      derivation:
       - 'offset%1:21:00::'
       id: 'offset%2:42:01::'
       subcat:
       - vtii
       synset: 02723890-v
-    - derivation:
+    - by_means_of:
+      - 'offset%1:21:00::'
+      derivation:
       - 'offset%1:21:00::'
       id: 'offset%2:42:00::'
       subcat:
       - vtii
       synset: 02723706-v
-    - derivation:
+    - by_means_of:
+      - 'offset%1:10:00::'
+      derivation:
       - 'offset%1:10:00::'
       id: 'offset%2:40:01::'
       subcat:
@@ -9947,10 +10141,14 @@ offset:
     - derivation:
       - 'offset%1:06:00::'
       id: 'offset%2:36:01::'
+      result:
+      - 'offset%1:06:00::'
       subcat:
       - vtai
       synset: 01750893-v
-    - derivation:
+    - by_means_of:
+      - 'offset%1:10:00::'
+      derivation:
       - 'offset%1:10:00::'
       id: 'offset%2:36:00::'
       subcat:
@@ -10156,7 +10354,9 @@ ogle:
     - value: ˈoʊɡəl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'ogler%1:18:00::'
+      derivation:
       - 'ogler%1:18:00::'
       id: 'ogle%2:39:00::'
       sent:
@@ -10256,13 +10456,17 @@ oil:
       synset: 07689142-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'oiler%1:18:00::'
+      derivation:
       - 'oil%1:27:00::'
       - 'oiler%1:18:00::'
       id: 'oil%2:35:00::'
       subcat:
       - vtai
       synset: 01271135-v
+      uses:
+      - 'oil%1:27:00::'
     - derivation:
       - 'oil%1:27:00::'
       id: 'oil%2:29:00::'
@@ -10271,6 +10475,8 @@ oil:
       - vtaa-with
       - vtai
       synset: 00085379-v
+      uses:
+      - 'oil%1:27:00::'
 oil beetle:
   n:
     sense:
@@ -10761,6 +10967,8 @@ okay:
       - via-pp
       - vtai
       synset: 00808164-v
+      uses:
+      - 'okay%1:10:00::'
 okeh:
   n:
     sense:
@@ -11873,6 +12081,8 @@ omen:
       subcat:
       - vtii
       synset: 00873606-v
+      uses:
+      - 'omen%1:11:00::'
 omental bursa:
   n:
     sense:
@@ -11986,6 +12196,8 @@ omit:
       - omissible%5:00:00:incidental:00
       - 'omission%1:04:01::'
       id: 'omit%2:31:01::'
+      result:
+      - 'omission%1:04:01::'
       subcat:
       - vtai
       - vtia
@@ -11996,6 +12208,9 @@ omit:
       - 'omission%1:09:00::'
       - 'omission%1:04:01::'
       id: 'omit%2:31:00::'
+      result:
+      - 'omission%1:09:00::'
+      - 'omission%1:04:01::'
       subcat:
       - via-to-inf
       - vtaa
@@ -14050,6 +14265,8 @@ ooze:
     - derivation:
       - 'ooze%1:11:00::'
       - 'oozing%1:11:00::'
+      event:
+      - 'ooze%1:11:00::'
       id: 'ooze%2:38:00::'
       subcat:
       - vii-pp
@@ -14057,6 +14274,8 @@ ooze:
     - derivation:
       - 'ooze%1:11:00::'
       - 'oozing%1:11:00::'
+      event:
+      - 'ooze%1:11:00::'
       id: 'ooze%2:29:00::'
       subcat:
       - vii
@@ -14131,6 +14350,8 @@ opacify:
       synset: 00578766-v
     - derivation:
       - 'opacification%1:22:00::'
+      event:
+      - 'opacification%1:22:00::'
       id: 'opacify%2:30:00::'
       subcat:
       - vii
@@ -14192,6 +14413,8 @@ opalesce:
       - opalescent%5:00:00:bright:00
       - 'opalescence%1:07:00::'
       id: 'opalesce%2:43:00::'
+      property:
+      - 'opalescence%1:07:00::'
       sent:
       - The coins opalesce
       subcat:
@@ -14201,6 +14424,8 @@ opalesce:
       - opalescent%5:00:00:bright:00
       - 'opalescence%1:07:00::'
       id: 'opalesce%2:42:00::'
+      property:
+      - 'opalescence%1:07:00::'
       subcat:
       - vii
       synset: 02740015-v
@@ -14248,6 +14473,8 @@ opalize:
     - derivation:
       - 'opal%1:27:00::'
       id: 'opalize%2:30:01::'
+      material:
+      - 'opal%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -14255,6 +14482,8 @@ opalize:
     - derivation:
       - 'opal%1:27:00::'
       id: 'opalize%2:30:00::'
+      material:
+      - 'opal%1:27:00::'
       subcat:
       - vtii
       synset: 00116893-v
@@ -14394,13 +14623,17 @@ open:
       synset: 05620592-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'opener%1:18:00::'
+      antonym:
       - 'close%2:35:00::'
       derivation:
       - 'opener%1:18:00::'
       - 'opener%1:06:00::'
       - 'opening%1:04:02::'
       - 'opening%1:04:01::'
+      instrument:
+      - 'opener%1:06:00::'
       id: 'open%2:35:00::'
       sent:
       - They want to open the doors
@@ -14438,6 +14671,8 @@ open:
       - 'opener%1:11:00::'
       - 'opening%1:11:01::'
       - 'opening%1:04:03::'
+      event:
+      - 'opener%1:11:00::'
       id: 'open%2:41:01::'
       subcat:
       - vtai
@@ -14484,6 +14719,8 @@ open:
       subcat:
       - vii-pp
       synset: 02363033-v
+      undergoer:
+      - 'open%1:09:00::'
     - antonym:
       - 'close%2:39:10::'
       id: 'open%2:39:10::'
@@ -15114,10 +15351,15 @@ operate:
     - value: ˈɑpəɹeɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'operator%1:18:01::'
+      derivation:
       - 'operation%1:04:07::'
       - 'operation%1:04:06::'
       - 'operator%1:18:01::'
+      event:
+      - 'operation%1:04:07::'
+      - 'operation%1:04:06::'
       id: 'operate%2:41:00::'
       subcat:
       - vtai
@@ -15127,22 +15369,31 @@ operate:
       - operant%5:00:00:operative:00
       - 'operation%1:22:01::'
       - 'operation%1:04:05::'
+      event:
+      - 'operation%1:22:01::'
+      - 'operation%1:04:05::'
       id: 'operate%2:35:03::'
       sent:
       - These cars won't operate
       subcat:
       - vii
       synset: 01528454-v
-    - derivation:
+    - agent:
+      - 'operator%1:18:00::'
+      derivation:
       - operative%5:00:00:functioning:00
       - 'operation%1:04:07::'
       - 'operator%1:18:00::'
+      event:
+      - 'operation%1:04:07::'
       id: 'operate%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01227308-v
     - derivation:
+      - 'operation%1:04:02::'
+      event:
       - 'operation%1:04:02::'
       id: 'operate%2:33:00::'
       subcat:
@@ -15152,7 +15403,11 @@ operate:
     - derivation:
       - 'operation%1:26:00::'
       - 'operation%1:04:07::'
+      event:
+      - 'operation%1:04:07::'
       id: 'operate%2:35:02::'
+      state:
+      - 'operation%1:26:00::'
       subcat:
       - vii
       - vii-pp
@@ -15161,6 +15416,8 @@ operate:
       synset: 01513459-v
     - derivation:
       - 'operative%3:00:04::'
+      - 'operation%1:04:00::'
+      event:
       - 'operation%1:04:00::'
       id: 'operate%2:29:00::'
       sent:
@@ -15662,11 +15919,15 @@ opine:
     - derivation:
       - opinionative%5:00:00:narrow-minded:00
       - 'opinion%1:10:01::'
+      event:
+      - 'opinion%1:10:01::'
       id: 'opine%2:32:00::'
       subcat:
       - via-that
       synset: 01029677-v
     - derivation:
+      - 'opinion%1:09:00::'
+      event:
       - 'opinion%1:09:00::'
       id: 'opine%2:31:02::'
       subcat:
@@ -15936,11 +16197,15 @@ oppose:
     - value: əˈpoʊz
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'opposer%1:18:00::'
+      derivation:
       - opponent%5:00:00:hostile:01
       - 'opposition%1:04:01::'
       - 'opposer%1:18:00::'
       - 'opponent%1:18:00::'
+      event:
+      - 'opposition%1:04:01::'
       id: 'oppose%2:32:01::'
       sent:
       - Sam cannot oppose Sue
@@ -15948,10 +16213,14 @@ oppose:
       - vtaa
       - vtai
       synset: 00777876-v
-    - derivation:
+    - agent:
+      - 'opposer%1:18:00::'
+      derivation:
       - opponent%5:00:00:hostile:01
       - 'opposition%1:04:00::'
       - 'opposer%1:18:00::'
+      event:
+      - 'opposition%1:04:00::'
       id: 'oppose%2:33:01::'
       subcat:
       - via
@@ -15971,7 +16240,9 @@ oppose:
       - vtaa
       - vtia
       synset: 01083545-v
-    - derivation:
+    - agent:
+      - 'opposer%1:18:00::'
+      derivation:
       - opponent%5:00:00:hostile:01
       - 'opposer%1:18:00::'
       id: 'oppose%2:41:00::'
@@ -15979,7 +16250,9 @@ oppose:
       - via
       - via-pp
       synset: 02383714-v
-    - derivation:
+    - agent:
+      - 'opposer%1:18:00::'
+      derivation:
       - opponent%5:00:00:hostile:01
       - 'opposer%1:18:00::'
       id: 'oppose%2:32:00::'
@@ -16129,17 +16402,23 @@ oppress:
     pronunciation:
     - value: əˈpɹɛs
     sense:
-    - derivation:
+    - agent:
+      - 'oppressor%1:18:00::'
+      derivation:
       - oppressive%5:00:00:domineering:00
       - 'oppression%1:04:00::'
       - 'oppressor%1:18:00::'
+      event:
+      - 'oppression%1:04:00::'
       id: 'oppress%2:41:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       synset: 02429499-v
-    - derivation:
+    - agent:
+      - 'oppressor%1:18:00::'
+      derivation:
       - oppressive%5:00:00:domineering:00
       - 'oppressor%1:18:00::'
       id: 'oppress%2:41:01::'
@@ -16272,6 +16551,9 @@ opsonize:
     - derivation:
       - 'opsonisation%1:22:00::'
       - 'opsonization%1:22:00::'
+      event:
+      - 'opsonisation%1:22:00::'
+      - 'opsonization%1:22:00::'
       id: 'opsonize%2:30:00::'
       subcat:
       - vtii
@@ -16283,6 +16565,8 @@ opt:
     sense:
     - derivation:
       - 'optative%3:01:01::'
+      - 'option%1:04:00::'
+      event:
       - 'option%1:04:00::'
       id: 'opt%2:31:00::'
       subcat:
@@ -16605,12 +16889,16 @@ optimise:
     - derivation:
       - 'optimisation%1:04:00::'
       - 'optimum%1:07:00::'
+      event:
+      - 'optimisation%1:04:00::'
       id: 'optimise%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00172518-v
     - derivation:
+      - 'optimisation%1:04:00::'
+      event:
       - 'optimisation%1:04:00::'
       id: 'optimise%2:30:01::'
       subcat:
@@ -16707,12 +16995,16 @@ optimize:
     - derivation:
       - 'optimization%1:04:00::'
       - 'optimum%1:07:00::'
+      event:
+      - 'optimization%1:04:00::'
       id: 'optimize%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00172518-v
     - derivation:
+      - 'optimization%1:04:00::'
+      event:
       - 'optimization%1:04:00::'
       id: 'optimize%2:30:01::'
       subcat:
@@ -17336,7 +17628,9 @@ orate:
     - value: ˈɔɹ.eɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'orator%1:18:00::'
+      derivation:
       - 'orator%1:18:00::'
       id: 'orate%2:32:00::'
       subcat:
@@ -17475,6 +17769,11 @@ orbit:
     - derivation:
       - 'orbit%1:15:01::'
       - 'orbit%1:15:00::'
+      - 'orbiter%1:06:00::'
+      event:
+      - 'orbit%1:15:01::'
+      - 'orbit%1:15:00::'
+      instrument:
       - 'orbiter%1:06:00::'
       id: 'orbit%2:38:00::'
       subcat:
@@ -17629,11 +17928,16 @@ orchestrate:
     - value: ˈɔɹ.kəstˌɹeɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'orchestrator%1:18:00::'
+      derivation:
       - 'orchestra%1:14:00::'
       - 'orchestration%1:10:00::'
       - 'orchestration%1:04:01::'
       - 'orchestrator%1:18:00::'
+      event:
+      - 'orchestration%1:10:00::'
+      - 'orchestration%1:04:01::'
       id: 'orchestrate%2:36:00::'
       sent:
       - Did he orchestrate his major works over a short period of time?
@@ -17642,6 +17946,8 @@ orchestrate:
       - vtai
       synset: 01711596-v
     - derivation:
+      - 'orchestration%1:04:02::'
+      event:
       - 'orchestration%1:04:02::'
       id: 'orchestrate%2:31:00::'
       subcat:
@@ -17768,16 +18074,24 @@ ordain:
       - via-that
       - vtai
       synset: 02432763-v
-    - derivation:
+    - agent:
       - 'ordainer%1:18:00::'
+      derivation:
+      - 'ordainer%1:18:00::'
+      - 'ordinance%1:04:00::'
+      event:
       - 'ordinance%1:04:00::'
       id: 'ordain%2:41:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02391154-v
-    - derivation:
+    - agent:
       - 'ordainer%1:18:00::'
+      derivation:
+      - 'ordainer%1:18:00::'
+      - 'ordinance%1:04:00::'
+      event:
       - 'ordinance%1:04:00::'
       id: 'ordain%2:41:02::'
       subcat:
@@ -17790,6 +18104,8 @@ ordain:
       - via-that
       - vtai
       synset: 00748070-v
+      undergoer:
+      - 'ordinance%1:10:01::'
 ordained:
   a:
     pronunciation:
@@ -17907,6 +18223,8 @@ order:
     - derivation:
       - 'order%1:10:00::'
       - 'order%1:10:03::'
+      event:
+      - 'order%1:10:03::'
       id: 'order%2:32:01::'
       sent:
       - They order him to write the letter
@@ -17914,11 +18232,21 @@ order:
       - via-that
       - vtaa-to-inf
       synset: 00748704-v
-    - derivation:
+      undergoer:
+      - 'order%1:10:00::'
+      - 'order%1:10:03::'
+    - agent:
+      - 'orderer%1:18:01::'
+      by_means_of:
+      - 'order%1:10:01::'
+      derivation:
       - 'order%1:10:01::'
       - 'order%1:04:00::'
       - 'order%1:10:04::'
       - 'orderer%1:18:01::'
+      event:
+      - 'order%1:04:00::'
+      - 'order%1:10:04::'
       id: 'order%2:32:00::'
       subcat:
       - vtai
@@ -17927,36 +18255,57 @@ order:
     - derivation:
       - 'order%1:10:00::'
       - 'order%1:10:03::'
+      event:
+      - 'order%1:10:03::'
       id: 'order%2:32:02::'
       subcat:
       - vtai
       synset: 00749139-v
+      undergoer:
+      - 'order%1:10:00::'
+      - 'order%1:10:03::'
     - derivation:
       - 'order%1:26:00::'
+      event:
+      - 'order%1:26:00::'
       id: 'order%2:41:01::'
+      state:
+      - 'order%1:26:00::'
       subcat:
       - via
       - vtai
       - vtii
       synset: 02517217-v
-    - antonym:
+    - agent:
+      - 'orderer%1:18:00::'
+      antonym:
       - 'disorder%2:30:00::'
       derivation:
       - 'order%1:14:00::'
       - 'order%1:04:00::'
       - 'orderer%1:18:00::'
       - 'ordering%1:04:00::'
+      event:
+      - 'order%1:04:00::'
       id: 'order%2:30:00::'
+      result:
+      - 'order%1:14:00::'
       subcat:
       - vtai
       - vtii
       synset: 00278429-v
-    - derivation:
+    - agent:
+      - 'orderer%1:18:00::'
+      derivation:
       - 'order%1:14:00::'
       - 'order%1:04:00::'
       - 'orderer%1:18:00::'
       - 'ordering%1:04:00::'
+      event:
+      - 'order%1:04:00::'
       id: 'order%2:30:01::'
+      result:
+      - 'order%1:14:00::'
       subcat:
       - vtaa
       - vtai
@@ -17972,6 +18321,8 @@ order:
       - 'order%1:14:00::'
       - 'ordering%1:14:00::'
       id: 'order%2:31:01::'
+      result:
+      - 'order%1:14:00::'
       subcat:
       - vtai
       synset: 00737576-v
@@ -17979,6 +18330,10 @@ order:
       - 'order%1:07:01::'
       - 'ordering%1:04:00::'
       id: 'order%2:31:00::'
+      property:
+      - 'order%1:07:01::'
+      result:
+      - 'order%1:07:01::'
       subcat:
       - vtaa
       - vtai
@@ -20362,7 +20717,13 @@ organise:
       - 'organisation%1:07:00::'
       - 'organisation%1:04:01::'
       - 'organisation%1:04:00::'
+      event:
+      - 'organisation%1:04:01::'
+      - 'organisation%1:04:00::'
       id: 'organise%2:30:00::'
+      result:
+      - 'organisation%1:09:00::'
+      - 'organisation%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -20372,7 +20733,13 @@ organise:
       - 'organisation%1:14:00::'
       - 'organisation%1:04:02::'
       - 'organisation%1:04:00::'
+      event:
+      - 'organisation%1:04:02::'
+      - 'organisation%1:04:00::'
       id: 'organise%2:41:01::'
+      result:
+      - 'organisation%1:14:01::'
+      - 'organisation%1:14:00::'
       subcat:
       - via
       - vii
@@ -20382,7 +20749,11 @@ organise:
     - derivation:
       - 'organisation%1:14:00::'
       - 'organisation%1:04:02::'
+      event:
+      - 'organisation%1:04:02::'
       id: 'organise%2:41:02::'
+      result:
+      - 'organisation%1:14:00::'
       subcat:
       - via
       synset: 02439085-v
@@ -20393,7 +20764,13 @@ organise:
       - 'organisation%1:07:00::'
       - 'organisation%1:04:01::'
       - 'organisation%1:04:00::'
+      event:
+      - 'organisation%1:04:01::'
+      - 'organisation%1:04:00::'
       id: 'organise%2:41:00::'
+      result:
+      - 'organisation%1:14:01::'
+      - 'organisation%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -20402,13 +20779,22 @@ organise:
     - derivation:
       - 'organisation%1:14:00::'
       - 'organisation%1:04:02::'
+      event:
+      - 'organisation%1:04:02::'
       id: 'organise%2:36:00::'
+      result:
+      - 'organisation%1:14:00::'
       subcat:
       - vtai
       synset: 01654986-v
-    - derivation:
+    - agent:
+      - 'organisation%1:14:01::'
+      derivation:
       - 'organisation%1:04:01::'
       - 'organisation%1:14:01::'
+      - 'organisation%1:04:00::'
+      event:
+      - 'organisation%1:04:01::'
       - 'organisation%1:04:00::'
       id: 'organise%2:31:00::'
       subcat:
@@ -20568,7 +20954,13 @@ organize:
       - 'organization%1:14:00::'
       - 'organization%1:04:02::'
       - 'organization%1:04:00::'
+      event:
+      - 'organization%1:04:02::'
+      - 'organization%1:04:00::'
       id: 'organize%2:41:01::'
+      result:
+      - 'organization%1:14:01::'
+      - 'organization%1:14:00::'
       subcat:
       - via
       - vii
@@ -20582,22 +20974,37 @@ organize:
       - 'organization%1:04:02::'
       - 'organization%1:04:01::'
       - 'organization%1:04:00::'
+      event:
+      - 'organization%1:04:02::'
+      - 'organization%1:04:01::'
+      - 'organization%1:04:00::'
       id: 'organize%2:41:00::'
+      result:
+      - 'organization%1:14:01::'
       subcat:
       - vtaa
       - vtai
       - vtii
       synset: 02437377-v
-    - derivation:
+    - agent:
       - 'organizer%1:18:01::'
       - 'organization%1:14:01::'
+      derivation:
+      - 'organizer%1:18:01::'
+      - 'organization%1:14:01::'
+      - 'organization%1:04:01::'
+      - 'organization%1:04:00::'
+      event:
       - 'organization%1:04:01::'
       - 'organization%1:04:00::'
       id: 'organize%2:31:00::'
       subcat:
       - vtai
       synset: 00711834-v
-    - derivation:
+    - agent:
+      - 'organizer%1:18:00::'
+      - 'organization%1:14:01::'
+      derivation:
       - 'organizer%1:18:00::'
       - 'organizer%1:06:00::'
       - 'organization%1:14:01::'
@@ -20606,24 +21013,44 @@ organize:
       - 'organization%1:04:02::'
       - 'organization%1:04:01::'
       - 'organization%1:04:00::'
+      event:
+      - 'organization%1:04:02::'
+      - 'organization%1:04:01::'
+      - 'organization%1:04:00::'
+      instrument:
+      - 'organizer%1:06:00::'
       id: 'organize%2:30:00::'
+      result:
+      - 'organization%1:09:00::'
+      - 'organization%1:07:00::'
       subcat:
       - vtai
       - vtii
       synset: 00405549-v
-    - derivation:
+    - agent:
       - 'organization%1:14:00::'
+      derivation:
+      - 'organization%1:14:00::'
+      - 'organization%1:04:02::'
+      - 'organization%1:04:00::'
+      event:
       - 'organization%1:04:02::'
       - 'organization%1:04:00::'
       id: 'organize%2:36:00::'
       subcat:
       - vtai
       synset: 01654986-v
-    - derivation:
+    - agent:
+      - 'organizer%1:18:01::'
+      derivation:
       - 'organization%1:14:00::'
       - 'organization%1:04:02::'
       - 'organizer%1:18:01::'
+      event:
+      - 'organization%1:04:02::'
       id: 'organize%2:41:02::'
+      result:
+      - 'organization%1:14:00::'
       subcat:
       - via
       synset: 02439085-v
@@ -21115,17 +21542,24 @@ originate:
       - 'origin%1:11:00::'
       - 'origination%1:11:00::'
       - 'origination%1:04:00::'
+      event:
+      - 'origination%1:11:00::'
+      - 'origination%1:04:00::'
       id: 'originate%2:42:00::'
       subcat:
       - vii
       synset: 02630344-v
-    - also:
+    - agent:
+      - 'originator%1:18:00::'
+      also:
       - 'originate_in%2:42:00::'
       derivation:
       - 'originative%3:00:00::'
       - 'origin%1:11:00::'
       - 'origination%1:04:00::'
       - 'originator%1:18:00::'
+      event:
+      - 'origination%1:04:00::'
       id: 'originate%2:36:00::'
       subcat:
       - vtai
@@ -21134,6 +21568,8 @@ originate:
     - derivation:
       - 'origin%1:15:00::'
       - 'origin%1:11:00::'
+      - 'origination%1:11:00::'
+      event:
       - 'origination%1:11:00::'
       id: 'originate%2:42:02::'
       subcat:
@@ -21265,9 +21701,13 @@ ornament:
     - value: ˈɔɹnəmənt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'ornament%1:06:00::'
+      derivation:
       - 'ornamentation%1:04:00::'
       - 'ornament%1:06:00::'
+      event:
+      - 'ornamentation%1:04:00::'
       id: 'ornament%2:36:00::'
       subcat:
       - vtai
@@ -21276,6 +21716,8 @@ ornament:
     - derivation:
       - 'ornamentation%1:26:00::'
       id: 'ornament%2:42:00::'
+      state:
+      - 'ornamentation%1:26:00::'
       subcat:
       - vtii
       synset: 02755122-v
@@ -21537,6 +21979,8 @@ orphan:
       - 'orphanage%1:06:00::'
       - 'orphan%1:18:00::'
       id: 'orphan%2:40:00::'
+      result:
+      - 'orphan%1:18:00::'
       subcat:
       - vtaa
       - vtia
@@ -22174,12 +22618,17 @@ oscillate:
     sense:
     - derivation:
       - 'oscillation%1:22:00::'
+      event:
+      - 'oscillation%1:22:00::'
       id: 'oscillate%2:42:00::'
       subcat:
       - via
       synset: 02711906-v
     - derivation:
       - oscillatory%5:00:00:periodic:00
+      - 'oscillation%1:11:01::'
+      - 'oscillation%1:11:00::'
+      event:
       - 'oscillation%1:11:01::'
       - 'oscillation%1:11:00::'
       id: 'oscillate%2:38:00::'
@@ -22298,14 +22747,20 @@ osculate:
       synset: 02758306-v
     - derivation:
       - 'osculation%1:26:00::'
+      event:
+      - 'osculation%1:26:00::'
       id: 'osculate%2:42:00::'
       subcat:
       - vii
       - vtii
       synset: 02756930-v
-    - derivation:
+    - agent:
+      - 'osculator%1:18:00::'
+      derivation:
       - 'osculation%1:04:00::'
       - 'osculator%1:18:00::'
+      event:
+      - 'osculation%1:04:00::'
       id: 'osculate%2:35:00::'
       sent:
       - Sam cannot osculate Sue
@@ -22505,6 +22960,8 @@ ossify:
     sense:
     - derivation:
       - 'ossification%1:22:02::'
+      event:
+      - 'ossification%1:22:02::'
       id: 'ossify%2:30:00::'
       subcat:
       - vii
@@ -22512,11 +22969,18 @@ ossify:
     - derivation:
       - 'ossification%1:22:01::'
       - 'ossification%1:07:00::'
+      event:
+      - 'ossification%1:22:01::'
+      - 'ossification%1:07:00::'
       id: 'ossify%2:30:02::'
+      result:
+      - 'ossification%1:07:00::'
       subcat:
       - vtii
       synset: 00419035-v
     - derivation:
+      - 'ossification%1:22:02::'
+      event:
       - 'ossification%1:22:02::'
       id: 'ossify%2:30:01::'
       subcat:
@@ -22611,6 +23075,9 @@ ostentate:
     - value: ˈɒstənteɪt
     sense:
     - derivation:
+      - 'ostentation%1:10:00::'
+      - 'ostentation%1:07:00::'
+      event:
       - 'ostentation%1:10:00::'
       - 'ostentation%1:07:00::'
       id: 'ostentate%2:39:00::'
@@ -23294,7 +23761,9 @@ oust:
     - value: ʌʊst
       variety: CA
     sense:
-    - derivation:
+    - agent:
+      - 'ouster%1:18:00::'
+      derivation:
       - 'ouster%1:18:00::'
       - 'ousting%1:04:00::'
       id: 'oust%2:41:00::'
@@ -23916,7 +24385,9 @@ outcrop:
     pronunciation:
     - value: ˈaʊt.kɹɑp
     sense:
-    - derivation:
+    - by_means_of:
+      - 'outcrop%1:17:00::'
+      derivation:
       - 'outcropping%1:17:00::'
       - 'outcrop%1:17:00::'
       id: 'outcrop%2:30:00::'
@@ -23947,6 +24418,8 @@ outcry:
     - value: ˈaʊtkɹaɪ
     sense:
     - derivation:
+      - 'outcry%1:10:00::'
+      event:
       - 'outcry%1:10:00::'
       id: 'outcry%2:33:00::'
       sent:
@@ -24228,7 +24701,9 @@ outfit:
     pronunciation:
     - value: ˈaʊtfɪt
     sense:
-    - derivation:
+    - agent:
+      - 'outfitter%1:18:00::'
+      derivation:
       - 'outfit%1:06:00::'
       - 'outfit%1:06:01::'
       - 'outfitter%1:18:00::'
@@ -24239,6 +24714,9 @@ outfit:
       - vtaa-with
       - vtai
       synset: 02344409-v
+      uses:
+      - 'outfit%1:06:00::'
+      - 'outfit%1:06:01::'
 outfitted:
   a:
     sense:
@@ -24498,6 +24976,8 @@ outlaw:
       subcat:
       - vtai
       synset: 02486512-v
+      undergoer:
+      - 'outlaw%1:18:00::'
 outlawed:
   a:
     sense:
@@ -24571,12 +25051,16 @@ outline:
     - derivation:
       - 'outline%1:10:00::'
       id: 'outline%2:32:00::'
+      result:
+      - 'outline%1:10:00::'
       subcat:
       - vtai
       synset: 01008466-v
     - derivation:
       - 'outline%1:09:00::'
       id: 'outline%2:36:03::'
+      result:
+      - 'outline%1:09:00::'
       sent:
       - Did he outline his major works over a short period of time?
       subcat:
@@ -24585,6 +25069,8 @@ outline:
     - derivation:
       - 'outline%1:15:00::'
       id: 'outline%2:36:01::'
+      result:
+      - 'outline%1:15:00::'
       subcat:
       - vtai
       synset: 01693274-v
@@ -24807,7 +25293,12 @@ output:
       - 'output%1:06:01::'
       - 'output%1:04:00::'
       - 'output%1:06:00::'
+      event:
+      - 'output%1:04:00::'
       id: 'output%2:36:00::'
+      result:
+      - 'output%1:06:01::'
+      - 'output%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -24877,6 +25368,10 @@ outrage:
       - 'outrage%1:11:00::'
       - 'outrage%1:04:00::'
       - 'outrage%1:12:00::'
+      event:
+      - 'outrage%1:11:00::'
+      - 'outrage%1:04:00::'
+      - 'outrage%1:12:00::'
       id: 'outrage%2:37:01::'
       sent:
       - The bad news will outrage him
@@ -24890,6 +25385,8 @@ outrage:
       - vtai
       synset: 02573980-v
     - derivation:
+      - 'outrage%1:04:01::'
+      event:
       - 'outrage%1:04:01::'
       id: 'outrage%2:41:00::'
       subcat:
@@ -25925,6 +26422,8 @@ overachieve:
     sense:
     - derivation:
       - 'overachievement%1:04:00::'
+      event:
+      - 'overachievement%1:04:00::'
       id: 'overachieve%2:41:00::'
       subcat:
       - via
@@ -26158,6 +26657,9 @@ overbid:
     - derivation:
       - 'overbid%1:10:00::'
       - 'overbid%1:10:01::'
+      event:
+      - 'overbid%1:10:00::'
+      - 'overbid%1:10:01::'
       id: 'overbid%2:40:01::'
       subcat:
       - via
@@ -26226,12 +26728,16 @@ overburden:
       - vtaa
       - vtaa-with
       synset: 00752848-v
+      uses:
+      - 'overburden%1:06:00::'
     - derivation:
       - 'overburden%1:06:00::'
       id: 'overburden%2:35:00::'
       subcat:
       - vtai
       synset: 01490344-v
+      uses:
+      - 'overburden%1:06:00::'
 overburdened:
   a:
     sense:
@@ -26275,6 +26781,8 @@ overcapitalise:
       synset: 00673778-v
     - derivation:
       - 'overcapitalisation%1:04:00::'
+      event:
+      - 'overcapitalisation%1:04:00::'
       id: 'overcapitalise%2:30:00::'
       subcat:
       - via
@@ -26299,6 +26807,8 @@ overcapitalize:
       - vtii
       synset: 00673778-v
     - derivation:
+      - 'overcapitalization%1:04:00::'
+      event:
       - 'overcapitalization%1:04:00::'
       id: 'overcapitalize%2:30:00::'
       subcat:
@@ -26358,11 +26868,16 @@ overcast:
       derivation:
       - 'overcast%1:26:01::'
       - 'overcast%1:26:00::'
+      event:
+      - 'overcast%1:26:01::'
+      - 'overcast%1:26:00::'
       id: 'overcast%2:43:00::'
       subcat:
       - vtii
       synset: 02776675-v
-    - derivation:
+    - by_means_of:
+      - 'overcast%1:06:00::'
+      derivation:
       - 'overcast%1:06:00::'
       - 'overcasting%1:06:00::'
       id: 'overcast%2:35:01::'
@@ -26376,6 +26891,8 @@ overcast:
       subcat:
       - vtai
       synset: 01332775-v
+      uses:
+      - 'overcast%1:06:00::'
 overcasting:
   n:
     sense:
@@ -26401,6 +26918,8 @@ overcharge:
     - antonym:
       - 'undercharge%2:40:00::'
       derivation:
+      - 'overcharge%1:21:00::'
+      event:
       - 'overcharge%1:21:00::'
       id: 'overcharge%2:40:00::'
       subcat:
@@ -26469,7 +26988,9 @@ overcome:
     - value: ˌoʊvəɹˈkʌm
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'overcomer%1:18:00::'
+      derivation:
       - 'overcomer%1:18:00::'
       id: 'overcome%2:33:03::'
       sent:
@@ -26502,6 +27023,8 @@ overcompensate:
   v:
     sense:
     - derivation:
+      - 'overcompensation%1:22:00::'
+      event:
       - 'overcompensation%1:22:00::'
       id: 'overcompensate%2:42:00::'
       subcat:
@@ -26731,6 +27254,8 @@ overdrive:
     sense:
     - derivation:
       - 'overdrive%1:26:00::'
+      event:
+      - 'overdrive%1:26:00::'
       id: 'overdrive%2:41:00::'
       subcat:
       - vtaa
@@ -26833,6 +27358,10 @@ overestimate:
       - 'overestimate%1:10:00::'
       - 'overestimation%1:10:00::'
       - 'overestimation%1:09:00::'
+      event:
+      - 'overestimation%1:10:00::'
+      - 'overestimation%1:09:00::'
+      - 'overestimate%1:10:00::'
       id: 'overestimate%2:31:00::'
       subcat:
       - vtaa
@@ -26840,10 +27369,15 @@ overestimate:
       synset: 00673936-v
     - antonym:
       - 'underestimate%2:31:02::'
+      by_means_of:
+      - 'overestimate%1:09:00::'
       derivation:
       - 'overestimate%1:10:00::'
       - 'overestimate%1:09:00::'
       - 'overestimation%1:10:00::'
+      event:
+      - 'overestimation%1:10:00::'
+      - 'overestimate%1:10:00::'
       id: 'overestimate%2:31:02::'
       subcat:
       - vtai
@@ -26870,6 +27404,8 @@ overexert:
     sense:
     - derivation:
       - 'overexertion%1:04:00::'
+      event:
+      - 'overexertion%1:04:00::'
       id: 'overexert%2:41:00::'
       subcat:
       - vtaa
@@ -26892,6 +27428,8 @@ overexploit:
   v:
     sense:
     - derivation:
+      - 'overexploitation%1:04:00::'
+      event:
       - 'overexploitation%1:04:00::'
       id: 'overexploit%2:34:00::'
       subcat:
@@ -27017,6 +27555,9 @@ overflow:
     - value: ˈəʊvəˌfləʊ
     sense:
     - derivation:
+      - 'overflow%1:11:00::'
+      - 'overflow%1:04:00::'
+      event:
       - 'overflow%1:11:00::'
       - 'overflow%1:04:00::'
       id: 'overflow%2:38:00::'
@@ -27181,7 +27722,9 @@ overhang:
     - value: ˈoʊvəɹˌhæŋ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'overhang%1:06:00::'
+      derivation:
       - 'overhang%1:06:00::'
       id: 'overhang%2:42:01::'
       subcat:
@@ -27194,6 +27737,8 @@ overhang:
       subcat:
       - vtii
       synset: 02703277-v
+      undergoer:
+      - 'overhang%1:06:00::'
 overhasty:
   a:
     sense:
@@ -27222,6 +27767,8 @@ overhaul:
       - vtii
       synset: 02053645-v
     - derivation:
+      - 'overhaul%1:04:00::'
+      event:
       - 'overhaul%1:04:00::'
       id: 'overhaul%2:30:00::'
       subcat:
@@ -27323,6 +27870,8 @@ overindulge:
     sense:
     - derivation:
       - 'overindulgence%1:04:00::'
+      event:
+      - 'overindulgence%1:04:00::'
       id: 'overindulge%2:34:00::'
       subcat:
       - via-pp
@@ -27419,13 +27968,19 @@ overlap:
     - derivation:
       - 'overlap%1:07:00::'
       - 'overlap%1:09:00::'
+      event:
+      - 'overlap%1:09:00::'
       id: 'overlap%2:42:03::'
+      property:
+      - 'overlap%1:07:00::'
       subcat:
       - vii
       - vii-pp
       - vtai
       synset: 02666709-v
-    - derivation:
+    - by_means_of:
+      - 'overlap%1:06:00::'
+      derivation:
       - 'overlap%1:06:00::'
       - 'overlapping%1:06:00::'
       id: 'overlap%2:42:01::'
@@ -27479,6 +28034,10 @@ overlay:
       - vtai
       - vtii
       synset: 01339317-v
+      undergoer:
+      - 'overlayer%1:06:00::'
+      uses:
+      - 'overlay%1:06:00::'
     - id: 'overlay%2:35:01::'
       subcat:
       - vtaa
@@ -27565,12 +28124,16 @@ overload:
       - vtai
       - vtii
       synset: 00182182-v
+      uses:
+      - 'overload%1:06:00::'
     - derivation:
       - 'overload%1:06:00::'
       id: 'overload%2:35:00::'
       subcat:
       - vtai
       synset: 01491184-v
+      uses:
+      - 'overload%1:06:00::'
 overloaded:
   a:
     sense:
@@ -27604,6 +28167,8 @@ overlook:
     - derivation:
       - 'overlook%1:15:00::'
       id: 'overlook%2:42:01::'
+      location:
+      - 'overlook%1:15:00::'
       subcat:
       - vtii
       synset: 02727841-v
@@ -27755,6 +28320,9 @@ overpay:
       derivation:
       - 'overpayment%1:21:00::'
       - 'overpayment%1:04:00::'
+      event:
+      - 'overpayment%1:21:00::'
+      - 'overpayment%1:04:00::'
       id: 'overpay%2:40:00::'
       subcat:
       - via-pp
@@ -27791,6 +28359,8 @@ overpopulate:
   v:
     sense:
     - derivation:
+      - 'overpopulation%1:14:00::'
+      event:
       - 'overpopulation%1:14:00::'
       id: 'overpopulate%2:42:00::'
       subcat:
@@ -27886,16 +28456,22 @@ overprint:
       - vtai
       - vtii
       synset: 01752081-v
+      uses:
+      - 'overprint%1:06:00::'
 overproduce:
   v:
     sense:
     - derivation:
+      - 'overproduction%1:04:00::'
+      event:
       - 'overproduction%1:04:00::'
       id: 'overproduce%2:36:00::'
       subcat:
       - vtai
       synset: 01744349-v
     - derivation:
+      - 'overproduction%1:04:00::'
+      event:
       - 'overproduction%1:04:00::'
       id: 'overproduce%2:36:01::'
       subcat:
@@ -27917,6 +28493,8 @@ overprotect:
       - vtaa
       synset: 02556213-v
     - derivation:
+      - 'overprotection%1:04:00::'
+      event:
       - 'overprotection%1:04:00::'
       id: 'overprotect%2:33:00::'
       subcat:
@@ -28004,6 +28582,8 @@ overreact:
     sense:
     - derivation:
       - 'overreaction%1:04:00::'
+      event:
+      - 'overreaction%1:04:00::'
       id: 'overreact%2:31:00::'
       subcat:
       - via
@@ -28026,6 +28606,8 @@ overrefine:
   v:
     sense:
     - derivation:
+      - 'overrefinement%1:04:00::'
+      event:
       - 'overrefinement%1:04:00::'
       id: 'overrefine%2:30:00::'
       subcat:
@@ -28076,11 +28658,15 @@ override:
       synset: 00718035-v
     - derivation:
       - 'override%1:04:00::'
+      event:
+      - 'override%1:04:00::'
       id: 'override%2:42:03::'
       subcat:
       - vtii
       synset: 02650706-v
     - derivation:
+      - 'override%1:04:00::'
+      event:
       - 'override%1:04:00::'
       id: 'override%2:41:00::'
       subcat:
@@ -28143,6 +28729,8 @@ overrun:
       - vtii
       synset: 02660781-v
     - derivation:
+      - 'overrun%1:04:00::'
+      event:
       - 'overrun%1:04:00::'
       id: 'overrun%2:38:00::'
       subcat:
@@ -28211,7 +28799,9 @@ oversee:
     pronunciation:
     - value: əʊvə(ɹ)siː
     sense:
-    - derivation:
+    - agent:
+      - 'overseer%1:18:00::'
+      derivation:
       - 'overseer%1:18:00::'
       id: 'oversee%2:41:00::'
       subcat:
@@ -28323,6 +28913,8 @@ overshoot:
       synset: 01137645-v
     - derivation:
       - 'overshoot%1:04:00::'
+      event:
+      - 'overshoot%1:04:00::'
       id: 'overshoot%2:31:00::'
       subcat:
       - vtai
@@ -28368,6 +28960,8 @@ oversimplify:
     - oversimplified
     sense:
     - derivation:
+      - 'oversimplification%1:04:00::'
+      event:
       - 'oversimplification%1:04:00::'
       id: 'oversimplify%2:41:00::'
       subcat:
@@ -28481,6 +29075,8 @@ overstate:
       - 'understate%2:32:00::'
       derivation:
       - 'overstatement%1:10:00::'
+      event:
+      - 'overstatement%1:10:00::'
       id: 'overstate%2:32:00::'
       subcat:
       - vtai
@@ -28551,6 +29147,8 @@ overstrain:
   v:
     sense:
     - derivation:
+      - 'overstrain%1:19:00::'
+      event:
       - 'overstrain%1:19:00::'
       id: 'overstrain%2:34:00::'
       subcat:
@@ -28624,6 +29222,8 @@ oversupply:
     - derivation:
       - 'oversupply%1:07:00::'
       id: 'oversupply%2:40:00::'
+      property:
+      - 'oversupply%1:07:00::'
       subcat:
       - vtaa-with
       - vtai
@@ -28723,6 +29323,8 @@ overthrow:
     - overthrown
     sense:
     - derivation:
+      - 'overthrow%1:04:01::'
+      event:
       - 'overthrow%1:04:01::'
       id: 'overthrow%2:41:00::'
       subcat:
@@ -28842,6 +29444,8 @@ overturn:
     sense:
     - derivation:
       - 'overturn%1:04:00::'
+      event:
+      - 'overturn%1:04:00::'
       id: 'overturn%2:38:00::'
       sent:
       - These cars won't overturn
@@ -28849,6 +29453,8 @@ overturn:
       - vii
       synset: 01913390-v
     - derivation:
+      - 'overturn%1:04:00::'
+      event:
       - 'overturn%1:04:00::'
       id: 'overturn%2:38:01::'
       subcat:
@@ -28901,6 +29507,8 @@ overuse:
     sense:
     - derivation:
       - 'overuse%1:04:00::'
+      event:
+      - 'overuse%1:04:00::'
       id: 'overuse%2:34:00::'
       subcat:
       - vtai
@@ -28937,6 +29545,9 @@ overvalue:
     - antonym:
       - 'undervalue%2:31:00::'
       derivation:
+      - 'overvaluation%1:10:00::'
+      - 'overvaluation%1:09:00::'
+      event:
       - 'overvaluation%1:10:00::'
       - 'overvaluation%1:09:00::'
       id: 'overvalue%2:31:00::'
@@ -29077,6 +29688,8 @@ overwork:
     - derivation:
       - 'overwork%1:04:00::'
       - 'overworking%1:04:00::'
+      event:
+      - 'overwork%1:04:00::'
       id: 'overwork%2:41:00::'
       subcat:
       - vtaa
@@ -29244,6 +29857,8 @@ ovulate:
       - 'ovum%1:08:00::'
       - 'ovule%1:08:01::'
       - 'ovulation%1:22:00::'
+      event:
+      - 'ovulation%1:22:00::'
       id: 'ovulate%2:29:00::'
       subcat:
       - via
@@ -29386,7 +30001,10 @@ own:
       synset: 01773236-s
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'owner%1:18:00::'
+      - 'owner%1:18:02::'
+      derivation:
       - 'owner%1:18:00::'
       - 'owner%1:18:02::'
       id: 'own%2:40:00::'
@@ -29695,12 +30313,16 @@ oxidate:
     - derivation:
       - oxidative%5:00:00:aerobic:00
       - 'oxidation%1:22:00::'
+      event:
+      - 'oxidation%1:22:00::'
       id: 'oxidate%2:30:01::'
       subcat:
       - vii
       synset: 00240207-v
     - derivation:
       - oxidative%5:00:00:aerobic:00
+      - 'oxidation%1:22:00::'
+      event:
       - 'oxidation%1:22:00::'
       id: 'oxidate%2:30:00::'
       subcat:
@@ -29784,12 +30406,18 @@ oxidise:
       - 'oxidiser%1:27:00::'
       - 'oxidant%1:27:00::'
       - 'oxide%1:27:00::'
+      event:
+      - 'oxidisation%1:22:00::'
       id: 'oxidise%2:30:00::'
+      material:
+      - 'oxidiser%1:27:00::'
       subcat:
       - vtai
       - vtii
       synset: 00239753-v
     - derivation:
+      - 'oxidisation%1:22:00::'
+      event:
       - 'oxidisation%1:22:00::'
       id: 'oxidise%2:30:01::'
       subcat:
@@ -29829,6 +30457,8 @@ oxidize:
     sense:
     - derivation:
       - 'oxidization%1:22:00::'
+      event:
+      - 'oxidization%1:22:00::'
       id: 'oxidize%2:30:01::'
       subcat:
       - vii
@@ -29840,7 +30470,11 @@ oxidize:
       - 'oxidizer%1:27:00::'
       - 'oxidant%1:27:00::'
       - 'oxide%1:27:00::'
+      event:
+      - 'oxidization%1:22:00::'
       id: 'oxidize%2:30:00::'
+      material:
+      - 'oxidizer%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -29997,6 +30631,8 @@ oxygenate:
     sense:
     - derivation:
       - 'oxygen%1:27:00::'
+      - 'oxygenation%1:22:00::'
+      event:
       - 'oxygenation%1:22:00::'
       id: 'oxygenate%2:30:00::'
       subcat:
@@ -30177,6 +30813,9 @@ oyster:
       - via
       - via-pp
       synset: 01386165-v
+      undergoer:
+      - 'oyster%1:05:00::'
+      - 'oyster%1:13:00::'
 oyster agaric:
   n:
     sense:

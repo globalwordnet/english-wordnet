@@ -4693,11 +4693,15 @@ wad:
     - derivation:
       - 'wad%1:13:00::'
       id: 'wad%2:35:01::'
+      result:
+      - 'wad%1:13:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01486416-v
-    - derivation:
+    - by_means_of:
+      - 'wad%1:23:00::'
+      derivation:
       - 'wad%1:23:00::'
       id: 'wad%2:35:00::'
       subcat:
@@ -4729,9 +4733,13 @@ waddle:
     - value: ˈwɑd.əl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'waddler%1:18:00::'
+      derivation:
       - 'waddle%1:04:00::'
       - 'waddler%1:18:00::'
+      event:
+      - 'waddle%1:04:00::'
       id: 'waddle%2:38:00::'
       sent:
       - The children waddle to the playground
@@ -4748,7 +4756,9 @@ waddler:
 wade:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wader%1:05:01::'
+      derivation:
       - 'wader%1:05:01::'
       - 'wading%1:04:00::'
       - 'wade%1:18:00::'
@@ -4834,7 +4844,9 @@ waffle:
       synset: 07657308-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'waffler%1:18:00::'
+      derivation:
       - 'waffler%1:18:00::'
       id: 'waffle%2:42:00::'
       subcat:
@@ -4910,6 +4922,8 @@ wag:
     - value: wæɡ
     sense:
     - derivation:
+      - 'wag%1:04:00::'
+      event:
       - 'wag%1:04:00::'
       id: 'wag%2:38:00::'
       subcat:
@@ -4999,16 +5013,24 @@ wager:
       synset: 13364541-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wagerer%1:18:00::'
+      derivation:
       - 'wager%1:21:00::'
       - 'wager%1:04:00::'
       - 'wagerer%1:18:00::'
+      event:
+      - 'wager%1:04:00::'
       id: 'wager%2:33:00::'
       subcat:
       - via
       - vtai
       synset: 01158153-v
+      undergoer:
+      - 'wager%1:21:00::'
     - derivation:
+      - 'wager%1:04:00::'
+      event:
       - 'wager%1:04:00::'
       id: 'wager%2:32:00::'
       subcat:
@@ -5074,6 +5096,8 @@ waggle:
     sense:
     - derivation:
       - 'waggle%1:04:00::'
+      event:
+      - 'waggle%1:04:00::'
       id: 'waggle%2:38:00::'
       subcat:
       - vii
@@ -5081,6 +5105,8 @@ waggle:
       - vtii
       synset: 01902585-v
     - derivation:
+      - 'waggle%1:04:00::'
+      event:
       - 'waggle%1:04:00::'
       id: 'waggle%2:38:01::'
       subcat:
@@ -5188,10 +5214,14 @@ wail:
       synset: 07226610-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wailer%1:18:00::'
+      derivation:
       - 'wail%1:10:00::'
       - 'wailer%1:18:00::'
       - 'wailing%1:04:01::'
+      event:
+      - 'wail%1:10:00::'
       id: 'wail%2:32:00::'
       sent:
       - You can hear animals wail in the meadows
@@ -5201,6 +5231,8 @@ wail:
       - vii
       synset: 01048804-v
     - derivation:
+      - 'wail%1:10:00::'
+      event:
       - 'wail%1:10:00::'
       id: 'wail%2:29:00::'
       subcat:
@@ -5357,10 +5389,14 @@ wait:
     pronunciation:
     - value: weɪt
     sense:
-    - derivation:
+    - agent:
+      - 'waiter%1:18:01::'
+      derivation:
       - 'wait%1:04:00::'
       - 'waiter%1:18:01::'
       - 'waiting%1:04:00::'
+      event:
+      - 'wait%1:04:00::'
       id: 'wait%2:42:00::'
       sent:
       - They wait a long time
@@ -5368,9 +5404,13 @@ wait:
       - via
       - via-pp
       synset: 02644022-v
-    - derivation:
+    - agent:
+      - 'waiter%1:18:01::'
+      derivation:
       - 'wait%1:28:00::'
       - 'waiter%1:18:01::'
+      event:
+      - 'wait%1:28:00::'
       id: 'wait%2:42:01::'
       sent:
       - They wait to move
@@ -5379,7 +5419,9 @@ wait:
       - via-ger
       - vtai
       synset: 02647547-v
-    - derivation:
+    - agent:
+      - 'waiter%1:18:01::'
+      derivation:
       - 'waiter%1:18:01::'
       id: 'wait%2:31:00::'
       subcat:
@@ -5388,7 +5430,9 @@ wait:
       - vtaa
       - vtai
       synset: 00721987-v
-    - derivation:
+    - agent:
+      - 'waiter%1:18:00::'
+      derivation:
       - 'waiter%1:18:00::'
       id: 'wait%2:41:00::'
       subcat:
@@ -5483,13 +5527,17 @@ waitress:
 waive:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'waiver%1:04:00::'
+      derivation:
       - 'waiver%1:04:00::'
       id: 'waive%2:41:00::'
       subcat:
       - vtai
       synset: 02539728-v
-    - derivation:
+    - by_means_of:
+      - 'waiver%1:04:00::'
+      derivation:
       - 'waiver%1:04:00::'
       id: 'waive%2:40:00::'
       subcat:
@@ -5530,7 +5578,9 @@ wake:
       subcat:
       - via
       synset: 00020126-v
-    - derivation:
+    - agent:
+      - 'waker%1:18:00::'
+      derivation:
       - 'waker%1:18:00::'
       id: 'wake%2:29:01::'
       subcat:
@@ -5744,7 +5794,9 @@ walk:
       synset: 00585285-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'walker%1:18:00::'
+      also:
       - 'walk_around%2:38:00::'
       - 'walk_about%2:38:00::'
       antonym:
@@ -5756,7 +5808,14 @@ walk:
       - 'walk%1:04:00::'
       - 'walker%1:18:00::'
       - 'walking%1:04:00::'
+      event:
+      - 'walk%1:04:03::'
+      - 'walk%1:04:00::'
       id: 'walk%2:38:00::'
+      location:
+      - 'walk%1:06:00::'
+      property:
+      - 'walk%1:07:00::'
       sent:
       - Sam and Sue walk
       - The children walk to the playground
@@ -5773,12 +5832,16 @@ walk:
       synset: 01911069-v
     - derivation:
       - 'walk%1:04:01::'
+      event:
+      - 'walk%1:04:01::'
       id: 'walk%2:33:00::'
       subcat:
       - via
       - vtaa
       synset: 01115898-v
-    - derivation:
+    - agent:
+      - 'walker%1:18:00::'
+      derivation:
       - 'walker%1:18:00::'
       - 'walker%1:06:02::'
       - 'walker%1:06:01::'
@@ -5787,11 +5850,22 @@ walk:
       - 'walk%1:06:00::'
       - 'walk%1:04:03::'
       - 'walk%1:04:00::'
+      event:
+      - 'walk%1:04:03::'
+      - 'walk%1:04:00::'
+      instrument:
+      - 'walker%1:06:02::'
+      - 'walker%1:06:01::'
+      - 'walker%1:06:00::'
       id: 'walk%2:38:03::'
+      location:
+      - 'walk%1:06:00::'
       subcat:
       - vtai
       synset: 01916886-v
     - derivation:
+      - 'walk%1:04:01::'
+      event:
       - 'walk%1:04:01::'
       id: 'walk%2:33:01::'
       subcat:
@@ -5807,6 +5881,8 @@ walk:
       synset: 02475941-v
     - derivation:
       - 'walk%1:04:02::'
+      event:
+      - 'walk%1:04:02::'
       id: 'walk%2:38:02::'
       sent:
       - The horses walk across the field
@@ -5816,7 +5892,11 @@ walk:
     - derivation:
       - 'walk%1:07:00::'
       - 'walk%1:04:00::'
+      event:
+      - 'walk%1:04:00::'
       id: 'walk%2:38:05::'
+      property:
+      - 'walk%1:07:00::'
       sent:
       - The men walk the horses across the field
       subcat:
@@ -5828,7 +5908,12 @@ walk:
       - 'walk%1:06:00::'
       - 'walk%1:04:03::'
       - 'walk%1:04:00::'
+      event:
+      - 'walk%1:04:03::'
+      - 'walk%1:04:00::'
       id: 'walk%2:38:04::'
+      location:
+      - 'walk%1:06:00::'
       subcat:
       - via
       - via-pp
@@ -5942,6 +6027,8 @@ walk over:
   v:
     sense:
     - derivation:
+      - 'walkover%1:04:00::'
+      event:
       - 'walkover%1:04:00::'
       id: 'walk_over%2:33:00::'
       subcat:
@@ -6191,6 +6278,10 @@ wall:
       subcat:
       - vtai
       synset: 01133033-v
+      uses:
+      - 'wall%1:06:02::'
+      - 'wall%1:06:01::'
+      - 'wall%1:06:00::'
 wall barley:
   n:
     sense:
@@ -6411,9 +6502,13 @@ wallop:
       synset: 01178521-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'walloper%1:18:01::'
+      derivation:
       - 'wallop%1:04:00::'
       - 'walloper%1:18:01::'
+      event:
+      - 'wallop%1:04:00::'
       id: 'wallop%2:35:00::'
       sent:
       - The fighter managed to wallop his opponent
@@ -6422,7 +6517,9 @@ wallop:
       - vtai
       - vtia
       synset: 01418461-v
-    - derivation:
+    - agent:
+      - 'walloper%1:18:00::'
+      derivation:
       - 'walloper%1:18:00::'
       - 'walloping%1:11:00::'
       id: 'wallop%2:33:00::'
@@ -6474,7 +6571,11 @@ wallow:
     - derivation:
       - 'wallow%1:17:00::'
       - 'wallow%1:11:00::'
+      event:
+      - 'wallow%1:11:00::'
       id: 'wallow%2:38:00::'
+      location:
+      - 'wallow%1:17:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -6501,13 +6602,19 @@ wallpaper:
       synset: 15118505-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wallpaperer%1:18:00::'
+      by_means_of:
+      - 'wallpaper%1:27:00::'
+      derivation:
       - 'wallpaper%1:27:00::'
       - 'wallpaperer%1:18:00::'
       id: 'wallpaper%2:35:00::'
       subcat:
       - vtai
       synset: 01270676-v
+      uses:
+      - 'wallpaper%1:27:00::'
 wallpaperer:
   n:
     sense:
@@ -6601,10 +6708,15 @@ waltz:
     pronunciation:
     - value: wɔːlts
     sense:
-    - derivation:
+    - agent:
+      - 'waltzer%1:18:00::'
+      derivation:
       - 'waltz%1:10:00::'
       - 'waltz%1:04:00::'
       - 'waltzer%1:18:00::'
+      event:
+      - 'waltz%1:10:00::'
+      - 'waltz%1:04:00::'
       id: 'waltz%2:38:00::'
       sent:
       - Sam and Sue waltz
@@ -6710,7 +6822,9 @@ wander:
     - value: ˈwɑndɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'wanderer%1:18:00::'
+      derivation:
       - 'wanderer%1:18:00::'
       - 'wandering%1:04:00::'
       id: 'wander%2:38:00::'
@@ -6817,6 +6931,8 @@ wane:
     - derivation:
       - 'wane%1:22:00::'
       - 'waning%1:11:00::'
+      event:
+      - 'wane%1:22:00::'
       id: 'wane%2:30:02::'
       subcat:
       - vii
@@ -6834,6 +6950,8 @@ wane:
       derivation:
       - 'wane%1:22:00::'
       - 'waning%1:11:00::'
+      event:
+      - 'wane%1:22:00::'
       id: 'wane%2:30:01::'
       sent:
       - The moon will soon wane
@@ -6854,18 +6972,26 @@ wangle:
     pronunciation:
     - value: ˈwæŋ.ɡəl
     sense:
-    - derivation:
+    - agent:
+      - 'wangler%1:18:00::'
+      derivation:
       - 'wangle%1:09:00::'
       - 'wangler%1:18:00::'
       - 'wangling%1:09:00::'
+      event:
+      - 'wangle%1:09:00::'
       id: 'wangle%2:41:00::'
       subcat:
       - ditransitive
       - via
       synset: 02533097-v
-    - derivation:
+    - agent:
+      - 'wangler%1:18:00::'
+      derivation:
       - 'wangle%1:09:00::'
       - 'wangler%1:18:00::'
+      event:
+      - 'wangle%1:09:00::'
       id: 'wangle%2:41:01::'
       subcat:
       - vtai
@@ -6915,9 +7041,13 @@ wank:
     pronunciation:
     - value: wæŋk
     sense:
-    - derivation:
+    - agent:
+      - 'wanker%1:18:00::'
+      derivation:
       - 'wank%1:04:00::'
       - 'wanker%1:18:00::'
+      event:
+      - 'wank%1:04:00::'
       id: 'wank%2:35:00::'
       subcat:
       - via
@@ -6999,8 +7129,12 @@ want:
     - value: wɔnt
       variety: NZ
     sense:
-    - derivation:
+    - agent:
       - 'wanter%1:18:00::'
+      derivation:
+      - 'wanter%1:18:00::'
+      - 'want%1:12:00::'
+      event:
       - 'want%1:12:00::'
       id: 'want%2:37:00::'
       sent:
@@ -7011,10 +7145,14 @@ want:
       - vtaa-to-inf
       - vtai
       synset: 01829179-v
-    - derivation:
+    - agent:
+      - 'wanter%1:18:00::'
+      derivation:
       - 'wanter%1:18:00::'
       - 'want%1:26:01::'
       - 'want%1:17:00::'
+      event:
+      - 'want%1:26:01::'
       id: 'want%2:34:00::'
       sent:
       - They want more bread
@@ -7024,14 +7162,22 @@ want:
       - vtai
       - vtii
       synset: 01191258-v
-    - derivation:
+      undergoer:
+      - 'want%1:17:00::'
+    - agent:
+      - 'wanter%1:18:00::'
+      derivation:
       - 'wanter%1:18:00::'
       id: 'want%2:35:00::'
       subcat:
       - vtaa
       synset: 01319724-v
-    - derivation:
+    - agent:
       - 'wanter%1:18:00::'
+      derivation:
+      - 'wanter%1:18:00::'
+      - 'want%1:12:00::'
+      event:
       - 'want%1:12:00::'
       id: 'want%2:31:01::'
       sent:
@@ -7039,16 +7185,23 @@ want:
       subcat:
       - vtaa
       synset: 00711034-v
-    - derivation:
+    - agent:
+      - 'wanter%1:18:00::'
+      derivation:
       - 'wanter%1:18:00::'
       - 'want%1:26:01::'
       - 'want%1:26:00::'
       - 'want%1:17:00::'
+      event:
+      - 'want%1:26:01::'
+      - 'want%1:26:00::'
       id: 'want%2:42:01::'
       subcat:
       - vtai
       - vtii
       synset: 02638648-v
+      undergoer:
+      - 'want%1:17:00::'
 want ad:
   n:
     sense:
@@ -7139,7 +7292,9 @@ wanton:
       subcat:
       - via
       synset: 02713983-v
-    - derivation:
+    - agent:
+      - 'wanton%1:18:00::'
+      derivation:
       - 'wanton%1:18:00::'
       id: 'wanton%2:42:01::'
       subcat:
@@ -7153,7 +7308,9 @@ wanton:
       subcat:
       - via
       synset: 01207423-v
-    - derivation:
+    - agent:
+      - 'wanton%1:18:00::'
+      derivation:
       - 'wanton%1:18:00::'
       id: 'wanton%2:32:00::'
       subcat:
@@ -7235,12 +7392,17 @@ war:
     - value: wɔɹ
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'warrior%1:18:00::'
+      antonym:
       - 'make_peace%2:33:00::'
       derivation:
       - 'war%1:26:00::'
       - 'war%1:04:00::'
       - 'warrior%1:18:00::'
+      event:
+      - 'war%1:26:00::'
+      - 'war%1:04:00::'
       id: 'war%2:33:00::'
       subcat:
       - via
@@ -7406,7 +7568,9 @@ warble:
       synset: 02197909-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'warbler%1:18:00::'
+      derivation:
       - 'warbler%1:18:00::'
       id: 'warble%2:32:00::'
       sent:
@@ -7453,7 +7617,10 @@ ward:
       synset: 02995487-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'warder%1:18:00::'
+      - 'ward%1:18:00::'
+      derivation:
       - 'ward%1:18:00::'
       - 'warder%1:18:00::'
       id: 'ward%2:33:00::'
@@ -7576,7 +7743,9 @@ warehouse:
       synset: 04558341-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'warehouser%1:18:00::'
+      derivation:
       - 'warehouse%1:06:00::'
       - 'warehouser%1:18:00::'
       - 'warehousing%1:04:00::'
@@ -7738,6 +7907,8 @@ warm:
       - vii
       synset: 00373903-v
     - derivation:
+      - 'warmer%1:06:00::'
+      instrument:
       - 'warmer%1:06:00::'
       id: 'warm%2:30:01::'
       subcat:
@@ -7938,7 +8109,9 @@ warn:
     - value: wɔɹn
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'warner%1:18:00::'
+      derivation:
       - 'warner%1:18:00::'
       - 'warning%1:10:00::'
       id: 'warn%2:32:00::'
@@ -7962,7 +8135,9 @@ warn:
       subcat:
       - vtaa-pp
       synset: 00834732-v
-    - derivation:
+    - agent:
+      - 'warner%1:18:00::'
+      derivation:
       - 'warner%1:18:00::'
       id: 'warn%2:32:02::'
       subcat:
@@ -8054,6 +8229,8 @@ warp:
     - derivation:
       - 'warp%1:26:00::'
       - 'warping%1:11:00::'
+      event:
+      - 'warp%1:26:00::'
       id: 'warp%2:32:00::'
       subcat:
       - vtai
@@ -8061,6 +8238,8 @@ warp:
     - derivation:
       - 'warp%1:25:00::'
       id: 'warp%2:30:00::'
+      result:
+      - 'warp%1:25:00::'
       subcat:
       - vii
       synset: 00357608-v
@@ -8134,11 +8313,18 @@ warrant:
       subcat:
       - vtii
       synset: 00898453-v
-    - derivation:
+    - agent:
+      - 'warrantor%1:18:00::'
+      - 'warranter%1:18:00::'
+      by_means_of:
+      - 'warrant%1:10:01::'
+      derivation:
       - 'warrant%1:10:01::'
       - 'warrantee%1:18:00::'
       - 'warrantor%1:18:00::'
       - 'warranter%1:18:00::'
+      destination:
+      - 'warrantee%1:18:00::'
       id: 'warrant%2:32:01::'
       subcat:
       - vtai
@@ -8369,10 +8555,14 @@ wash:
     - value: wɔʃ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'washer%1:18:00::'
+      derivation:
       - 'washable%3:00:00::'
       - 'wash%1:06:00::'
       - 'washer%1:18:00::'
+      - 'washer%1:06:00::'
+      instrument:
       - 'washer%1:06:00::'
       id: 'wash%2:35:02::'
       sent:
@@ -8380,11 +8570,15 @@ wash:
       subcat:
       - vtai
       synset: 01272763-v
+      undergoer:
+      - 'wash%1:06:00::'
     - also:
       - 'wash_up%2:29:00::'
       derivation:
       - 'wash%1:04:01::'
       - 'washing%1:04:00::'
+      event:
+      - 'wash%1:04:01::'
       id: 'wash%2:29:00::'
       sent:
       - They wash
@@ -8394,11 +8588,17 @@ wash:
       - vtaa
       - vtai
       synset: 00036355-v
-    - derivation:
+    - agent:
+      - 'washer%1:18:00::'
+      derivation:
       - 'washable%3:00:00::'
       - 'wash%1:06:00::'
       - 'wash%1:04:01::'
       - 'washer%1:18:00::'
+      - 'washer%1:06:00::'
+      event:
+      - 'wash%1:04:01::'
+      instrument:
       - 'washer%1:06:00::'
       id: 'wash%2:35:00::'
       sent:
@@ -8406,12 +8606,16 @@ wash:
       subcat:
       - vtai
       synset: 01538034-v
+      undergoer:
+      - 'wash%1:06:00::'
     - id: 'wash%2:38:01::'
       subcat:
       - vtii
       synset: 02102457-v
     - derivation:
       - 'washable%3:00:00::'
+      - 'wash%1:04:01::'
+      event:
       - 'wash%1:04:01::'
       id: 'wash%2:42:00::'
       subcat:
@@ -8432,6 +8636,8 @@ wash:
       subcat:
       - vtai
       synset: 01272408-v
+      uses:
+      - 'wash%1:06:02::'
     - id: 'wash%2:30:05::'
       subcat:
       - vtai
@@ -8452,6 +8658,8 @@ wash:
     - id: 'wash%2:30:10::'
       synset: 00462189-v
     - derivation:
+      - 'wash%1:04:01::'
+      event:
       - 'wash%1:04:01::'
       id: 'wash%2:29:02::'
       subcat:
@@ -8865,13 +9073,17 @@ wassail:
     - value: ˈwɒseɪl
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'wassailer%1:18:00::'
+      derivation:
       - 'wassailer%1:18:00::'
       id: 'wassail%2:41:00::'
       subcat:
       - via
       synset: 02497032-v
-    - derivation:
+    - agent:
+      - 'wassailer%1:18:01::'
+      derivation:
       - 'wassail%1:13:00::'
       - 'wassailer%1:18:01::'
       id: 'wassail%2:34:00::'
@@ -8934,20 +9146,30 @@ waste:
       synset: 01254711-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'waster%1:18:00::'
+      antonym:
       - 'conserve%2:40:00::'
       derivation:
       - 'waste%1:07:00::'
       - 'waste%1:04:00::'
       - 'waster%1:18:00::'
+      event:
+      - 'waste%1:04:00::'
       id: 'waste%2:40:00::'
+      property:
+      - 'waste%1:07:00::'
       subcat:
       - vtai
       synset: 02273196-v
     - derivation:
       - 'waste%1:07:00::'
       - 'waste%1:04:00::'
+      event:
+      - 'waste%1:04:00::'
       id: 'waste%2:34:05::'
+      property:
+      - 'waste%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -8958,6 +9180,8 @@ waste:
       subcat:
       - vtai
       synset: 02228261-v
+      undergoer:
+      - 'waste%1:27:00::'
     - derivation:
       - 'waste%1:27:00::'
       id: 'waste%2:38:00::'
@@ -8965,15 +9189,21 @@ waste:
       - vii
       - vii-pp
       synset: 02071817-v
+      undergoer:
+      - 'waste%1:27:00::'
     - id: 'waste%2:35:00::'
       sent:
       - They want to waste the prisoners
       subcat:
       - vtaa
       synset: 01329983-v
-    - derivation:
+    - agent:
+      - 'waster%1:18:00::'
+      derivation:
       - 'waste%1:04:00::'
       - 'waster%1:18:00::'
+      event:
+      - 'waste%1:04:00::'
       id: 'waste%2:34:00::'
       subcat:
       - via
@@ -8993,7 +9223,9 @@ waste:
       subcat:
       - vtia
       synset: 00390077-v
-    - derivation:
+    - agent:
+      - 'waster%1:18:01::'
+      derivation:
       - 'waster%1:18:01::'
       id: 'waste%2:30:00::'
       subcat:
@@ -9238,9 +9470,13 @@ watch:
       synset: 01031703-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'watcher%1:18:02::'
+      derivation:
       - 'watch%1:04:00::'
       - 'watcher%1:18:02::'
+      event:
+      - 'watch%1:04:00::'
       id: 'watch%2:39:00::'
       subcat:
       - via
@@ -9248,6 +9484,8 @@ watch:
       - vtai
       synset: 02154940-v
     - derivation:
+      - 'watch%1:04:00::'
+      event:
       - 'watch%1:04:00::'
       id: 'watch%2:41:00::'
       sent:
@@ -9259,22 +9497,31 @@ watch:
       synset: 02460829-v
     - derivation:
       - 'watch%1:04:00::'
+      event:
+      - 'watch%1:04:00::'
       id: 'watch%2:39:05::'
       sent:
       - Sam and Sue watch the movie
       subcat:
       - vtai
       synset: 02155378-v
-    - derivation:
+    - agent:
+      - 'watcher%1:18:02::'
+      derivation:
       - 'watcher%1:18:02::'
       - 'watch%1:04:00::'
       - 'watching%1:04:00::'
+      event:
+      - 'watch%1:04:00::'
       id: 'watch%2:39:02::'
       subcat:
       - via
       - vtai
       synset: 02133118-v
-    - derivation:
+    - agent:
+      - 'watcher%1:18:01::'
+      - 'watch%1:18:00::'
+      derivation:
       - 'watcher%1:18:01::'
       - 'watch%1:18:00::'
       id: 'watch%2:39:01::'
@@ -9286,6 +9533,8 @@ watch:
       - via-pp
       synset: 02156396-v
     - derivation:
+      - 'watch%1:04:00::'
+      event:
       - 'watch%1:04:00::'
       id: 'watch%2:39:03::'
       subcat:
@@ -9505,23 +9754,36 @@ water:
       synset: 07951744-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'waterer%1:18:01::'
+      derivation:
       - 'water%1:27:00::'
       - 'waterer%1:18:01::'
       - 'watering%1:04:00::'
       id: 'water%2:30:00::'
+      material:
+      - 'water%1:27:00::'
       subcat:
       - vtai
       - vtii
       synset: 00228662-v
-    - derivation:
+      uses:
+      - 'water%1:27:00::'
+    - agent:
+      - 'waterer%1:18:01::'
+      - 'waterer%1:18:00::'
+      derivation:
       - 'water%1:27:00::'
       - 'waterer%1:18:01::'
       - 'waterer%1:18:00::'
       id: 'water%2:40:00::'
+      material:
+      - 'water%1:27:00::'
       subcat:
       - vtai
       synset: 02362872-v
+      uses:
+      - 'water%1:27:00::'
     - id: 'water%2:29:00::'
       subcat:
       - vii
@@ -10201,6 +10463,8 @@ water ski:
       subcat:
       - via
       synset: 01944107-v
+      vehicle:
+      - 'water_ski%1:06:00::'
 water skin:
   n:
     sense:
@@ -10575,12 +10839,21 @@ watercolor:
       synset: 00940458-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'watercolor%1:27:00::'
+      - 'watercolor%1:06:01::'
+      derivation:
       - 'watercolorist%1:18:00::'
       - 'watercolor%1:27:00::'
       - 'watercolor%1:06:01::'
       - 'watercolor%1:06:00::'
       id: 'watercolor%2:36:00::'
+      material:
+      - 'watercolor%1:27:00::'
+      - 'watercolor%1:06:01::'
+      - 'watercolor%1:06:00::'
+      result:
+      - 'watercolor%1:06:00::'
       sent:
       - Sam and Sue watercolor
       subcat:
@@ -10906,6 +11179,9 @@ waterproof:
       - 'waterproof%1:06:01::'
       - 'waterproofing%1:04:00::'
       id: 'waterproof%2:35:00::'
+      result:
+      - 'waterproof%1:06:02::'
+      - 'waterproof%1:06:01::'
       sent:
       - The men waterproof the boat
       subcat:
@@ -11115,7 +11391,9 @@ wattle:
     - value: ˈwɒtəl
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'wattle%1:06:00::'
+      derivation:
       - 'wattle%1:06:00::'
       id: 'wattle%2:36:00::'
       subcat:
@@ -11124,6 +11402,8 @@ wattle:
     - derivation:
       - 'wattle%1:06:00::'
       id: 'wattle%2:35:00::'
+      result:
+      - 'wattle%1:06:00::'
       subcat:
       - vtai
       synset: 01520976-v
@@ -11178,23 +11458,31 @@ wave:
       synset: 11544884-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'waver%1:18:00::'
+      derivation:
       - 'wave%1:10:01::'
       - 'waver%1:18:00::'
       - 'waving%1:10:00::'
+      event:
+      - 'wave%1:10:01::'
       id: 'wave%2:32:00::'
       subcat:
       - via
       - via-to
       - vtai
       synset: 01043287-v
-    - derivation:
+    - agent:
+      - 'waver%1:18:00::'
+      derivation:
       - 'waver%1:18:00::'
       id: 'wave%2:35:00::'
       subcat:
       - vtai
       synset: 01449520-v
     - derivation:
+      - 'wave%1:04:02::'
+      event:
       - 'wave%1:04:02::'
       id: 'wave%2:38:00::'
       subcat:
@@ -11204,6 +11492,8 @@ wave:
     - derivation:
       - 'wave%1:08:00::'
       id: 'wave%2:35:01::'
+      result:
+      - 'wave%1:08:00::'
       sent:
       - They wave their hair
       subcat:
@@ -11214,6 +11504,8 @@ wave:
     - derivation:
       - 'wave%1:08:00::'
       id: 'wave%2:29:00::'
+      result:
+      - 'wave%1:08:00::'
       sent:
       - They wave their hair
       subcat:
@@ -11372,17 +11664,23 @@ waver:
     - value: ˈweɪ.vɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'waverer%1:18:00::'
+      derivation:
       - 'waver%1:04:01::'
       - 'waverer%1:18:00::'
       - 'wavering%1:09:00::'
+      event:
+      - 'waver%1:04:01::'
       id: 'waver%2:42:00::'
       subcat:
       - via
       - via-to-inf
       - via-whether-inf
       synset: 02646524-v
-    - derivation:
+    - agent:
+      - 'waverer%1:18:00::'
+      derivation:
       - 'waverer%1:18:00::'
       id: 'waver%2:42:02::'
       subcat:
@@ -11390,6 +11688,8 @@ waver:
       - vii
       synset: 02746079-v
     - derivation:
+      - 'waver%1:04:00::'
+      event:
       - 'waver%1:04:00::'
       id: 'waver%2:38:03::'
       subcat:
@@ -11399,6 +11699,8 @@ waver:
     - derivation:
       - 'waver%1:04:00::'
       - 'wavering%1:07:00::'
+      event:
+      - 'waver%1:04:00::'
       id: 'waver%2:38:01::'
       subcat:
       - via
@@ -11406,11 +11708,15 @@ waver:
       synset: 01880900-v
     - derivation:
       - 'waver%1:04:00::'
+      event:
+      - 'waver%1:04:00::'
       id: 'waver%2:38:02::'
       subcat:
       - vii-pp
       synset: 01882712-v
     - derivation:
+      - 'waver%1:04:00::'
+      event:
       - 'waver%1:04:00::'
       id: 'waver%2:38:00::'
       subcat:
@@ -11521,6 +11827,8 @@ wax:
       subcat:
       - vtai
       synset: 01271290-v
+      uses:
+      - 'wax%1:27:00::'
     - antonym:
       - 'wane%2:30:00::'
       derivation:
@@ -11937,6 +12245,8 @@ weaken:
     sense:
     - antonym:
       - 'strengthen%2:30:01::'
+      by_means_of:
+      - 'weakener%1:17:00::'
       derivation:
       - 'weakener%1:17:00::'
       - 'weakening%1:04:00::'
@@ -11960,14 +12270,18 @@ weaken:
       subcat:
       - vtai
       synset: 02549304-v
-    - derivation:
+    - by_means_of:
+      - 'weakener%1:17:00::'
+      derivation:
       - 'weakener%1:17:00::'
       id: 'weaken%2:30:03::'
       subcat:
       - vtai
       - vtii
       synset: 00291502-v
-    - derivation:
+    - by_means_of:
+      - 'weakener%1:17:00::'
+      derivation:
       - 'weakener%1:17:00::'
       id: 'weaken%2:30:04::'
       subcat:
@@ -12307,7 +12621,9 @@ wear:
     - value: wɛə(ɹ)
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'wearer%1:18:00::'
+      derivation:
       - 'wearable%3:00:00::'
       - 'wear%1:06:00::'
       - 'wearer%1:18:00::'
@@ -12315,21 +12631,29 @@ wear:
       subcat:
       - vtai
       synset: 00052091-v
+      undergoer:
+      - 'wear%1:06:00::'
     - derivation:
       - 'wearable%3:00:00::'
       - 'wear%1:06:00::'
       - 'wear%1:04:00::'
       - 'wearing%1:04:00::'
+      event:
+      - 'wear%1:04:00::'
       id: 'wear%2:29:04::'
       subcat:
       - vtai
       synset: 00047462-v
+      undergoer:
+      - 'wear%1:06:00::'
     - id: 'wear%2:42:01::'
       subcat:
       - vtai
       - vtii
       synset: 02745909-v
     - derivation:
+      - 'wear%1:26:00::'
+      event:
       - 'wear%1:26:00::'
       id: 'wear%2:30:00::'
       subcat:
@@ -12355,11 +12679,15 @@ wear:
       - 'wear_away%2:35:02::'
       derivation:
       - 'wear%1:26:00::'
+      event:
+      - 'wear%1:26:00::'
       id: 'wear%2:35:00::'
       subcat:
       - vii
       synset: 01372011-v
     - derivation:
+      - 'wear%1:26:00::'
+      event:
       - 'wear%1:26:00::'
       id: 'wear%2:29:03::'
       sent:
@@ -12375,6 +12703,8 @@ wear:
       subcat:
       - vtai
       synset: 00050369-v
+      uses:
+      - 'wear%1:06:00::'
 wear and tear:
   n:
     pronunciation:
@@ -12697,6 +13027,8 @@ weather:
       synset: 01932236-v
     - derivation:
       - 'weather%1:19:00::'
+      event:
+      - 'weather%1:19:00::'
       id: 'weather%2:30:00::'
       subcat:
       - vii
@@ -12918,6 +13250,8 @@ weave:
     sense:
     - antonym:
       - 'unweave%2:35:00::'
+      by_means_of:
+      - 'weave%1:06:00::'
       derivation:
       - 'weave%1:06:00::'
       id: 'weave%2:35:00::'
@@ -12925,7 +13259,11 @@ weave:
       - via
       - vtai
       synset: 01521557-v
-    - derivation:
+    - agent:
+      - 'weaver%1:18:00::'
+      by_means_of:
+      - 'weave%1:06:00::'
+      derivation:
       - 'weave%1:06:00::'
       - 'weaver%1:18:00::'
       - 'weaving%1:04:00::'
@@ -13032,6 +13370,10 @@ web:
       - 'web%1:06:01::'
       - 'webbing%1:06:00::'
       id: 'web%2:36:00::'
+      result:
+      - 'web%1:17:00::'
+      - 'web%1:14:00::'
+      - 'web%1:06:01::'
       subcat:
       - vtai
       synset: 01676063-v
@@ -13384,6 +13726,9 @@ wedge:
       - vtaa-pp
       - vtai-pp
       synset: 01530059-v
+      undergoer:
+      - 'wedge%1:06:00::'
+      - 'wedge%1:25:00::'
 wedge bone:
   n:
     sense:
@@ -13497,9 +13842,13 @@ weed:
     form:
     - weed
     sense:
-    - derivation:
+    - agent:
+      - 'weeder%1:18:00::'
+      derivation:
       - 'weed%1:20:00::'
       - 'weeder%1:18:00::'
+      - 'weeder%1:06:00::'
+      instrument:
       - 'weeder%1:06:00::'
       id: 'weed%2:30:00::'
       subcat:
@@ -13507,6 +13856,8 @@ weed:
       - via-pp
       - vtai
       synset: 00313972-v
+      undergoer:
+      - 'weed%1:20:00::'
 weed killer:
   n:
     sense:
@@ -13638,10 +13989,14 @@ weekend:
     - value: ˈwiˌkɛnd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'weekender%1:18:00::'
+      derivation:
       - 'weekend%1:28:00::'
       - 'weekender%1:18:00::'
       - 'weekender%1:06:00::'
+      event:
+      - 'weekend%1:28:00::'
       id: 'weekend%2:42:00::'
       subcat:
       - via
@@ -13734,7 +14089,10 @@ weep:
     form:
     - wept
     sense:
-    - derivation:
+    - agent:
+      - 'weeper%1:18:01::'
+      - 'weeper%1:18:00::'
+      derivation:
       - 'weeper%1:18:01::'
       - 'weeper%1:18:00::'
       - 'weeping%1:04:00::'
@@ -13856,7 +14214,9 @@ weigh:
       - via-that
       - vtai
       synset: 00952463-v
-    - derivation:
+    - agent:
+      - 'weigher%1:18:00::'
+      derivation:
       - 'weigher%1:18:00::'
       id: 'weigh%2:42:00::'
       subcat:
@@ -13994,7 +14354,9 @@ weight:
     pronunciation:
     - value: weɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'weight%1:06:00::'
+      derivation:
       - 'weight%1:06:00::'
       id: 'weight%2:35:00::'
       subcat:
@@ -14126,7 +14488,9 @@ weightlift:
       synset: 00627428-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'weightlifter%1:18:00::'
+      derivation:
       - 'weightlifter%1:18:00::'
       - 'weightlifting%1:04:00::'
       id: 'weightlift%2:33:00::'
@@ -14305,12 +14669,16 @@ welcome:
     sense:
     - derivation:
       - 'welcome%1:10:00::'
+      event:
+      - 'welcome%1:10:00::'
       id: 'welcome%2:40:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02241988-v
-    - antonym:
+    - agent:
+      - 'welcomer%1:18:00::'
+      antonym:
       - 'say_farewell%2:32:00::'
       derivation:
       - 'welcomer%1:18:00::'
@@ -14319,6 +14687,8 @@ welcome:
       - vtaa
       synset: 00902346-v
     - derivation:
+      - 'welcome%1:26:00::'
+      event:
       - 'welcome%1:26:00::'
       id: 'welcome%2:35:00::'
       subcat:
@@ -14363,12 +14733,18 @@ weld:
       synset: 04579244-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'welder%1:18:00::'
+      derivation:
       - 'weldment%1:06:00::'
       - 'weld%1:06:00::'
       - 'welder%1:18:00::'
       - 'welding%1:04:00::'
+      event:
+      - 'weld%1:06:00::'
       id: 'weld%2:35:00::'
+      result:
+      - 'weldment%1:06:00::'
       subcat:
       - vtai
       synset: 01598751-v
@@ -15017,7 +15393,9 @@ welsh:
     - value: wɛlʃ
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'welsher%1:18:00::'
+      derivation:
       - 'welsher%1:18:00::'
       id: 'welsh%2:41:00::'
       subcat:
@@ -15046,6 +15424,8 @@ welt:
     - derivation:
       - 'welt%1:26:00::'
       id: 'welt%2:35:00::'
+      result:
+      - 'welt%1:26:00::'
       sent:
       - They want to welt the prisoners
       subcat:
@@ -15058,6 +15438,8 @@ welt:
       subcat:
       - vtai
       synset: 00187560-v
+      uses:
+      - 'welt%1:06:00::'
 welted thistle:
   n:
     sense:
@@ -15122,7 +15504,9 @@ wench:
     pronunciation:
     - value: wɛntʃ
     sense:
-    - derivation:
+    - agent:
+      - 'wencher%1:18:00::'
+      derivation:
       - 'wencher%1:18:00::'
       id: 'wench%2:35:00::'
       subcat:
@@ -15663,18 +16047,24 @@ wet:
     pronunciation:
     - value: wɛt
     sense:
-    - antonym:
+    - agent:
+      - 'wetter%1:18:00::'
+      antonym:
       - 'dry%2:30:01::'
       derivation:
       - 'wet%1:26:00::'
       - 'wetter%1:18:00::'
       - 'wetting%1:04:00::'
+      event:
+      - 'wet%1:26:00::'
       id: 'wet%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00215377-v
-    - derivation:
+    - agent:
+      - 'wetter%1:18:01::'
+      derivation:
       - 'wetter%1:18:01::'
       id: 'wet%2:29:00::'
       subcat:
@@ -15833,6 +16223,8 @@ whack:
     - derivation:
       - 'whack%1:04:00::'
       - 'whacking%1:04:00::'
+      event:
+      - 'whack%1:04:00::'
       id: 'whack%2:35:00::'
       sent:
       - The fighter managed to whack his opponent
@@ -15894,7 +16286,9 @@ whale:
       synset: 02065397-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'whaler%1:18:00::'
+      derivation:
       - 'whale%1:05:00::'
       - 'whaler%1:18:00::'
       - 'whaler%1:06:00::'
@@ -15904,6 +16298,10 @@ whale:
       subcat:
       - via
       synset: 01144364-v
+      undergoer:
+      - 'whale%1:05:00::'
+      vehicle:
+      - 'whaler%1:06:00::'
 whale louse:
   n:
     sense:
@@ -16006,6 +16404,8 @@ whang:
     sense:
     - derivation:
       - 'whang%1:04:00::'
+      event:
+      - 'whang%1:04:00::'
       id: 'whang%2:35:01::'
       sent:
       - The fighter managed to whang his opponent
@@ -16017,6 +16417,8 @@ whang:
       - vtai
       synset: 01405666-v
     - derivation:
+      - 'whang%1:04:00::'
+      event:
       - 'whang%1:04:00::'
       id: 'whang%2:32:00::'
       subcat:
@@ -16067,27 +16469,37 @@ wharf:
       subcat:
       - vtai
       synset: 02336171-v
+      uses:
+      - 'wharf%1:06:00::'
     - derivation:
       - 'wharf%1:06:00::'
       id: 'wharf%2:40:00::'
       subcat:
       - vtai
       synset: 02286805-v
+      uses:
+      - 'wharf%1:06:00::'
     - derivation:
       - 'wharf%1:06:00::'
       id: 'wharf%2:35:02::'
+      location:
+      - 'wharf%1:06:00::'
       subcat:
       - vtai
       synset: 01492391-v
     - derivation:
       - 'wharf%1:06:00::'
       id: 'wharf%2:35:03::'
+      location:
+      - 'wharf%1:06:00::'
       subcat:
       - vii
       synset: 01308021-v
     - derivation:
       - 'wharf%1:06:00::'
       id: 'wharf%2:35:00::'
+      location:
+      - 'wharf%1:06:00::'
       subcat:
       - vtai
       synset: 01307901-v
@@ -16302,7 +16714,9 @@ wheedle:
     pronunciation:
     - value: ˈʍiː.dəl
     sense:
-    - derivation:
+    - agent:
+      - 'wheedler%1:18:00::'
+      derivation:
       - 'wheedler%1:18:00::'
       - 'wheedling%1:04:00::'
       id: 'wheedle%2:32:00::'
@@ -16358,7 +16772,9 @@ wheel:
     - value: ʍil
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'wheeler%1:18:02::'
+      derivation:
       - 'wheeler%1:18:02::'
       id: 'wheel%2:38:00::'
       subcat:
@@ -16372,6 +16788,8 @@ wheel:
       - vtaa-pp
       - vtai-pp
       synset: 02050390-v
+      vehicle:
+      - 'wheel%1:06:00::'
     - derivation:
       - 'wheel%1:06:00::'
       - 'wheeling%1:04:00::'
@@ -16382,7 +16800,11 @@ wheel:
       - vii
       - vii-pp
       synset: 01891013-v
-    - derivation:
+      vehicle:
+      - 'wheel%1:06:00::'
+    - agent:
+      - 'wheeler%1:18:01::'
+      derivation:
       - 'wheel%1:06:00::'
       - 'wheeler%1:18:01::'
       id: 'wheel%2:38:06::'
@@ -16572,6 +16994,8 @@ wheeze:
     sense:
     - derivation:
       - 'wheeze%1:04:00::'
+      event:
+      - 'wheeze%1:04:00::'
       id: 'wheeze%2:29:00::'
       subcat:
       - via
@@ -16635,6 +17059,9 @@ whelk:
       - via
       - via-pp
       synset: 01145613-v
+      undergoer:
+      - 'whelk%1:13:00::'
+      - 'whelk%1:05:00::'
 whelm:
   v:
     pronunciation:
@@ -16665,6 +17092,8 @@ whelp:
       subcat:
       - vii
       synset: 00058239-v
+      undergoer:
+      - 'whelp%1:05:00::'
 when first seen:
   r:
     sense:
@@ -16784,6 +17213,8 @@ whicker:
     sense:
     - derivation:
       - 'whicker%1:11:00::'
+      event:
+      - 'whicker%1:11:00::'
       id: 'whicker%2:32:00::'
       subcat:
       - vii
@@ -16816,6 +17247,8 @@ whiff:
       synset: 02129497-v
     - derivation:
       - 'whiff%1:19:00::'
+      event:
+      - 'whiff%1:19:00::'
       id: 'whiff%2:38:00::'
       subcat:
       - vtaa
@@ -16823,9 +17256,13 @@ whiff:
       - vtia
       - vtii
       synset: 02105139-v
-    - derivation:
+    - agent:
+      - 'whiffer%1:18:00::'
+      derivation:
       - 'whiff%1:04:00::'
       - 'whiffer%1:18:00::'
+      event:
+      - 'whiff%1:04:00::'
       id: 'whiff%2:35:00::'
       subcat:
       - vtaa
@@ -16836,6 +17273,8 @@ whiff:
       - vtai
       synset: 01201254-v
     - derivation:
+      - 'whiff%1:19:00::'
+      event:
       - 'whiff%1:19:00::'
       id: 'whiff%2:32:00::'
       subcat:
@@ -16888,6 +17327,8 @@ whimper:
     - value: ˈwɪmpə(ɹ)
     sense:
     - derivation:
+      - 'whimper%1:10:00::'
+      event:
       - 'whimper%1:10:00::'
       id: 'whimper%2:29:00::'
       subcat:
@@ -16978,9 +17419,13 @@ whine:
       subcat:
       - vii-pp
       synset: 01843222-v
-    - derivation:
+    - agent:
+      - 'whiner%1:18:00::'
+      derivation:
       - 'whine%1:10:00::'
       - 'whiner%1:18:00::'
+      event:
+      - 'whine%1:10:00::'
       id: 'whine%2:32:01::'
       sent:
       - Sam and Sue whine
@@ -16993,9 +17438,13 @@ whine:
       - via
       - vii
       synset: 02176108-v
-    - derivation:
+    - agent:
+      - 'whiner%1:18:00::'
+      derivation:
       - 'whine%1:10:00::'
       - 'whiner%1:18:00::'
+      event:
+      - 'whine%1:10:00::'
       id: 'whine%2:32:00::'
       subcat:
       - via
@@ -17032,6 +17481,8 @@ whinny:
     - value: ˈwɪni
     sense:
     - derivation:
+      - 'whinny%1:11:00::'
+      event:
       - 'whinny%1:11:00::'
       id: 'whinny%2:32:00::'
       subcat:
@@ -17077,11 +17528,17 @@ whip:
     pronunciation:
     - value: wɪp
     sense:
-    - derivation:
+    - agent:
+      - 'whipper%1:18:00::'
+      derivation:
       - 'whip%1:06:00::'
       - 'whip%1:04:00::'
       - 'whipper%1:18:00::'
       - 'whipping%1:04:00::'
+      event:
+      - 'whip%1:04:00::'
+      instrument:
+      - 'whip%1:06:00::'
       id: 'whip%2:35:00::'
       sent:
       - They want to whip the prisoners
@@ -17312,6 +17769,8 @@ whipsaw:
       synset: 02580033-v
     - derivation:
       - 'whipsaw%1:06:00::'
+      instrument:
+      - 'whipsaw%1:06:00::'
       id: 'whipsaw%2:35:00::'
       subcat:
       - vtai
@@ -17356,6 +17815,8 @@ whir:
     - derivation:
       - 'whir%1:11:00::'
       - 'whirring%1:11:00::'
+      event:
+      - 'whir%1:11:00::'
       id: 'whir%2:39:00::'
       sent:
       - Cars whir in the streets
@@ -17399,6 +17860,8 @@ whirl:
     - derivation:
       - 'whirl%1:11:00::'
       - 'whirling%1:04:00::'
+      event:
+      - 'whirl%1:11:00::'
       id: 'whirl%2:38:01::'
       sent:
       - The wooden sticks whirl
@@ -17411,7 +17874,11 @@ whirl:
     - derivation:
       - 'whirl%1:25:00::'
       - 'whirl%1:04:02::'
+      event:
+      - 'whirl%1:04:02::'
       id: 'whirl%2:38:02::'
+      result:
+      - 'whirl%1:25:00::'
       sent:
       - The girls whirl the wooden sticks
       subcat:
@@ -17419,22 +17886,34 @@ whirl:
       synset: 02052000-v
     - derivation:
       - 'whirl%1:11:00::'
+      event:
+      - 'whirl%1:11:00::'
       id: 'whirl%2:38:00::'
       subcat:
       - vii
       synset: 02051599-v
-    - derivation:
+    - agent:
+      - 'whirler%1:18:00::'
+      by_means_of:
+      - 'whirler%1:06:00::'
+      derivation:
       - 'whirl%1:25:00::'
       - 'whirl%1:04:02::'
       - 'whirler%1:18:00::'
       - 'whirler%1:06:00::'
+      event:
+      - 'whirl%1:04:02::'
       id: 'whirl%2:38:04::'
+      result:
+      - 'whirl%1:25:00::'
       subcat:
       - via-pp
       - vii-pp
       - vtai
       synset: 02050704-v
     - derivation:
+      - 'whirl%1:11:00::'
+      event:
       - 'whirl%1:11:00::'
       id: 'whirl%2:38:03::'
       subcat:
@@ -17482,6 +17961,8 @@ whirligig:
       subcat:
       - vii
       synset: 02051097-v
+      undergoer:
+      - 'whirligig%1:06:01::'
 whirligig beetle:
   n:
     sense:
@@ -17530,6 +18011,8 @@ whirlpool:
     sense:
     - derivation:
       - 'whirlpool%1:11:00::'
+      event:
+      - 'whirlpool%1:11:00::'
       id: 'whirlpool%2:38:00::'
       subcat:
       - vii
@@ -17567,6 +18050,8 @@ whirr:
       variety: US
     sense:
     - derivation:
+      - 'whirr%1:11:00::'
+      event:
       - 'whirr%1:11:00::'
       id: 'whirr%2:39:00::'
       sent:
@@ -17626,6 +18111,8 @@ whisk:
       - via
       synset: 02084065-v
     - derivation:
+      - 'whisk%1:06:00::'
+      instrument:
       - 'whisk%1:06:00::'
       id: 'whisk%2:35:01::'
       subcat:
@@ -17802,12 +18289,16 @@ whisper:
     - value: ˈ(h)wɪspɚ
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'whisperer%1:18:00::'
+      antonym:
       - 'shout%2:32:00::'
       derivation:
       - 'whisper%1:10:00::'
       - 'whisperer%1:18:00::'
       - 'whispering%1:10:00::'
+      event:
+      - 'whisper%1:10:00::'
       id: 'whisper%2:32:00::'
       sent:
       - Sam and Sue whisper
@@ -17898,7 +18389,9 @@ whistle:
     pronunciation:
     - value: wɪsl̩
     sense:
-    - derivation:
+    - agent:
+      - 'whistler%1:18:00::'
+      derivation:
       - 'whistler%1:18:00::'
       - 'whistling%1:11:00::'
       id: 'whistle%2:39:00::'
@@ -17913,7 +18406,9 @@ whistle:
       - via-pp
       - vii-pp
       synset: 02097366-v
-    - derivation:
+    - agent:
+      - 'whistler%1:18:00::'
+      derivation:
       - 'whistler%1:18:00::'
       - 'whistling%1:04:00::'
       id: 'whistle%2:32:00::'
@@ -17930,6 +18425,8 @@ whistle:
     - derivation:
       - 'whistle%1:11:00::'
       - 'whistling%1:11:00::'
+      event:
+      - 'whistle%1:11:00::'
       id: 'whistle%2:32:01::'
       subcat:
       - vii
@@ -17937,6 +18434,8 @@ whistle:
     - derivation:
       - 'whistle%1:10:00::'
       - 'whistling%1:10:00::'
+      event:
+      - 'whistle%1:10:00::'
       id: 'whistle%2:32:02::'
       subcat:
       - via-pp
@@ -18104,6 +18603,8 @@ white:
     - derivation:
       - 'white%1:07:00::'
       id: 'white%2:30:00::'
+      property:
+      - 'white%1:07:00::'
       subcat:
       - vii
       - vtai
@@ -19348,6 +19849,8 @@ whiten:
       - 'whitener%1:27:00::'
       - 'whitening%1:04:00::'
       id: 'whiten%2:30:00::'
+      material:
+      - 'whitener%1:27:00::'
       subcat:
       - vii
       - vtai
@@ -19472,6 +19975,8 @@ whitewash:
     sense:
     - derivation:
       - 'whitewash%1:04:00::'
+      event:
+      - 'whitewash%1:04:00::'
       id: 'whitewash%2:39:00::'
       subcat:
       - vtaa
@@ -19484,7 +19989,11 @@ whitewash:
       subcat:
       - vtai
       synset: 01272266-v
+      uses:
+      - 'whitewash%1:06:00::'
     - derivation:
+      - 'whitewash%1:04:00::'
+      event:
       - 'whitewash%1:04:00::'
       id: 'whitewash%2:32:00::'
       subcat:
@@ -19563,7 +20072,9 @@ whitlowwort:
 whittle:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'whittler%1:18:00::'
+      derivation:
       - 'whittler%1:18:00::'
       id: 'whittle%2:35:00::'
       subcat:
@@ -19608,6 +20119,8 @@ whiz:
     - whizzing
     sense:
     - derivation:
+      - 'whiz%1:11:00::'
+      event:
       - 'whiz%1:11:00::'
       id: 'whiz%2:39:00::'
       subcat:
@@ -19938,11 +20451,15 @@ wholesale:
     pronunciation:
     - value: ˈhoʊlseɪl
     sense:
-    - antonym:
+    - agent:
+      - 'wholesaler%1:18:00::'
+      antonym:
       - 'retail%2:40:00::'
       derivation:
       - 'wholesale%1:04:00::'
       - 'wholesaler%1:18:00::'
+      event:
+      - 'wholesale%1:04:00::'
       id: 'wholesale%2:40:00::'
       subcat:
       - vtai
@@ -20057,9 +20574,13 @@ whoop:
     pronunciation:
     - value: wʊp
     sense:
-    - derivation:
+    - agent:
+      - 'whooper%1:05:00::'
+      derivation:
       - 'whoop%1:10:00::'
       - 'whooper%1:05:00::'
+      event:
+      - 'whoop%1:10:00::'
       id: 'whoop%2:32:00::'
       subcat:
       - via
@@ -20217,7 +20738,9 @@ whore:
       variety: US
     - value: ho(ː)ɹ
     sense:
-    - derivation:
+    - agent:
+      - 'whore%1:18:00::'
+      derivation:
       - 'whore%1:18:00::'
       id: 'whore%2:41:00::'
       subcat:
@@ -20229,6 +20752,8 @@ whore:
       subcat:
       - via
       synset: 01430328-v
+      undergoer:
+      - 'whore%1:18:00::'
     - id: 'whore%2:32:01::'
       subcat:
       - via
@@ -20767,6 +21292,8 @@ widow:
       subcat:
       - vtaa
       synset: 00360990-v
+      undergoer:
+      - 'widow%1:18:00::'
 widow bird:
   n:
     sense:
@@ -20954,11 +21481,17 @@ wiggle:
     pronunciation:
     - value: ˈwɪɡəl
     sense:
-    - derivation:
+    - agent:
+      - 'wiggler%1:18:00::'
+      - 'wiggler%1:05:02::'
+      - 'wiggler%1:05:01::'
+      derivation:
       - 'wiggle%1:04:00::'
       - 'wiggler%1:18:00::'
       - 'wiggler%1:05:02::'
       - 'wiggler%1:05:01::'
+      event:
+      - 'wiggle%1:04:00::'
       id: 'wiggle%2:38:00::'
       subcat:
       - via
@@ -21965,11 +22498,16 @@ will:
       - 'will%1:09:01::'
       - 'will%1:09:00::'
       - 'willing%1:04:00::'
+      event:
+      - 'will%1:09:01::'
+      - 'will%1:09:00::'
       id: 'will%2:31:01::'
       subcat:
       - vtai
       synset: 00700164-v
-    - derivation:
+    - by_means_of:
+      - 'will%1:10:00::'
+      derivation:
       - 'will%1:10:00::'
       id: 'will%2:40:00::'
       sent:
@@ -22172,7 +22710,9 @@ wilt:
       - via
       - vii
       synset: 00470725-v
-    - derivation:
+    - by_means_of:
+      - 'wilt%1:26:00::'
+      derivation:
       - 'wilt%1:26:00::'
       - 'wilting%1:04:00::'
       - wilted%5:00:00:lax:01
@@ -22262,13 +22802,18 @@ win:
     - winning
     - won
     sense:
-    - antonym:
+    - agent:
+      - 'winner%1:18:01::'
+      - 'winner%1:18:00::'
+      antonym:
       - 'lose%2:33:00::'
       derivation:
       - 'win%1:11:00::'
       - 'winner%1:18:01::'
       - 'winner%1:18:00::'
       - 'winnings%1:21:00::'
+      event:
+      - 'win%1:11:00::'
       id: 'win%2:33:00::'
       sent:
       - They win
@@ -22277,7 +22822,10 @@ win:
       - via-pp
       - vtai
       synset: 01102556-v
-    - antonym:
+    - agent:
+      - 'winner%1:18:01::'
+      - 'winner%1:18:02::'
+      antonym:
       - 'lose%2:40:00::'
       derivation:
       - 'winner%1:18:01::'
@@ -22292,14 +22840,20 @@ win:
       - vtai
       - vtai-from
       synset: 02293158-v
+      undergoer:
+      - 'win%1:21:00::'
     - derivation:
+      - 'win%1:11:00::'
+      event:
       - 'win%1:11:00::'
       id: 'win%2:33:01::'
       subcat:
       - via
       - vii
       synset: 01113439-v
-    - derivation:
+    - agent:
+      - 'winner%1:18:02::'
+      derivation:
       - 'winner%1:18:02::'
       id: 'win%2:41:04::'
       subcat:
@@ -22351,12 +22905,17 @@ wince:
     - derivation:
       - 'wince%1:10:00::'
       - 'wince%1:04:00::'
+      event:
+      - 'wince%1:10:00::'
+      - 'wince%1:04:00::'
       id: 'wince%2:38:00::'
       subcat:
       - via
       - via-pp
       synset: 02064997-v
     - derivation:
+      - 'wince%1:10:00::'
+      event:
       - 'wince%1:10:00::'
       id: 'wince%2:29:00::'
       subcat:
@@ -22382,6 +22941,8 @@ winch:
   v:
     sense:
     - derivation:
+      - 'winch%1:06:00::'
+      instrument:
       - 'winch%1:06:00::'
       id: 'winch%2:35:00::'
       subcat:
@@ -22435,11 +22996,15 @@ wind:
       - vii
       - vii-pp
       synset: 02744576-v
-    - antonym:
+    - agent:
+      - 'winder%1:18:00::'
+      antonym:
       - 'unwind%2:35:06::'
       derivation:
       - 'winder%1:06:00::'
       - 'winder%1:18:00::'
+      instrument:
+      - 'winder%1:06:00::'
       id: 'wind%2:35:06::'
       sent:
       - They wind the wire around the stick
@@ -22447,9 +23012,15 @@ wind:
       subcat:
       - vtai-pp
       synset: 01525056-v
-    - derivation:
+    - agent:
+      - 'winder%1:18:00::'
+      derivation:
       - 'wind%1:04:00::'
       - 'winder%1:18:00::'
+      - 'winder%1:06:01::'
+      event:
+      - 'wind%1:04:00::'
+      instrument:
       - 'winder%1:06:01::'
       id: 'wind%2:35:00::'
       subcat:
@@ -23150,6 +23721,8 @@ wine:
       subcat:
       - via
       synset: 01193373-v
+      undergoer:
+      - 'wine%1:13:00::'
     - derivation:
       - 'wine%1:13:00::'
       - 'winery%1:06:00::'
@@ -23157,6 +23730,8 @@ wine:
       subcat:
       - vtaa
       synset: 01178864-v
+      undergoer:
+      - 'wine%1:13:00::'
 wine and dine:
   v:
     sense:
@@ -23379,7 +23954,10 @@ wing:
     pronunciation:
     - value: wɪŋ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'wing%1:06:00::'
+      - 'wing%1:05:00::'
+      derivation:
       - 'wing%1:06:00::'
       - 'wing%1:05:00::'
       id: 'wing%2:38:00::'
@@ -23574,9 +24152,13 @@ wink:
       synset: 00118779-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'winker%1:18:00::'
+      derivation:
       - 'wink%1:10:00::'
       - 'winker%1:18:00::'
+      event:
+      - 'wink%1:10:00::'
       id: 'wink%2:29:02::'
       subcat:
       - via-pp
@@ -23586,15 +24168,21 @@ wink:
       - vii
       - vtai
       synset: 02164320-v
-    - derivation:
+    - agent:
+      - 'winker%1:18:00::'
+      derivation:
       - 'wink%1:04:00::'
       - 'winker%1:18:00::'
       - 'winking%1:04:00::'
+      event:
+      - 'wink%1:04:00::'
       id: 'wink%2:29:00::'
       subcat:
       - via
       synset: 00007739-v
     - derivation:
+      - 'wink%1:10:00::'
+      event:
       - 'wink%1:10:00::'
       id: 'wink%2:29:01::'
       subcat:
@@ -23768,6 +24356,8 @@ winnow:
     - derivation:
       - 'winnow%1:04:00::'
       - 'winnowing%1:04:00::'
+      event:
+      - 'winnow%1:04:00::'
       id: 'winnow%2:35:05::'
       subcat:
       - via
@@ -23856,6 +24446,8 @@ winter:
       variety: US
     sense:
     - derivation:
+      - 'winter%1:28:00::'
+      event:
       - 'winter%1:28:00::'
       id: 'winter%2:42:00::'
       subcat:
@@ -24089,6 +24681,8 @@ winterize:
       - 'summerize%2:30:00::'
       derivation:
       - 'winter%1:28:00::'
+      event:
+      - 'winter%1:28:00::'
       id: 'winterize%2:30:00::'
       subcat:
       - vtai
@@ -24155,7 +24749,9 @@ wipe:
       synset: 00125946-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'wiper%1:18:00::'
+      also:
       - 'wipe_off%2:35:00::'
       - 'wipe_away%2:35:00::'
       - 'wipe_off%2:35:01::'
@@ -24163,6 +24759,11 @@ wipe:
       derivation:
       - 'wipe%1:04:00::'
       - 'wiper%1:18:00::'
+      - 'wiper%1:06:01::'
+      - 'wiper%1:06:00::'
+      event:
+      - 'wipe%1:04:00::'
+      instrument:
       - 'wiper%1:06:01::'
       - 'wiper%1:06:00::'
       id: 'wipe%2:35:00::'
@@ -24343,7 +24944,9 @@ wire:
     - value: ˈwaɪɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'wirer%1:18:00::'
+      derivation:
       - 'wire%1:06:01::'
       - 'wirer%1:18:00::'
       - 'wiring%1:06:00::'
@@ -24351,9 +24954,15 @@ wire:
       subcat:
       - vtai
       synset: 02359532-v
-    - derivation:
+      uses:
+      - 'wire%1:06:01::'
+    - agent:
+      - 'wirer%1:18:01::'
+      derivation:
       - 'wire%1:10:00::'
       - 'wirer%1:18:01::'
+      event:
+      - 'wire%1:10:00::'
       id: 'wire%2:32:00::'
       sent:
       - They wire them the information
@@ -24367,6 +24976,8 @@ wire:
       synset: 01009249-v
     - antonym:
       - 'unwire%2:35:00::'
+      by_means_of:
+      - 'wire%1:06:00::'
       derivation:
       - 'wire%1:06:00::'
       id: 'wire%2:35:00::'
@@ -24380,7 +24991,9 @@ wire:
       subcat:
       - vtai
       synset: 01602246-v
-    - derivation:
+    - agent:
+      - 'wirer%1:18:00::'
+      derivation:
       - 'wire%1:06:01::'
       - 'wirer%1:18:00::'
       - 'wiring%1:04:01::'
@@ -24388,6 +25001,8 @@ wire:
       subcat:
       - vtai
       synset: 00506883-v
+      uses:
+      - 'wire%1:06:01::'
 wire cloth:
   n:
     sense:
@@ -24595,9 +25210,13 @@ wiretap:
       synset: 00655643-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wiretapper%1:18:00::'
+      derivation:
       - 'wiretap%1:04:00::'
       - 'wiretapper%1:18:00::'
+      event:
+      - 'wiretap%1:04:00::'
       id: 'wiretap%2:39:00::'
       subcat:
       - vtai
@@ -24778,6 +25397,8 @@ wisecrack:
     sense:
     - derivation:
       - 'wisecrack%1:10:00::'
+      event:
+      - 'wisecrack%1:10:00::'
       id: 'wisecrack%2:32:00::'
       subcat:
       - via
@@ -24847,6 +25468,8 @@ wish:
     sense:
     - derivation:
       - 'wish%1:12:00::'
+      event:
+      - 'wish%1:12:00::'
       id: 'wish%2:37:02::'
       sent:
       - They wish him to write the letter
@@ -24855,6 +25478,9 @@ wish:
       - via-to-inf
       synset: 01828678-v
     - derivation:
+      - 'wish%1:12:00::'
+      - 'wish%1:10:00::'
+      event:
       - 'wish%1:12:00::'
       - 'wish%1:10:00::'
       id: 'wish%2:32:02::'
@@ -24866,6 +25492,9 @@ wish:
       derivation:
       - 'wish%1:12:00::'
       - 'wish%1:10:00::'
+      event:
+      - 'wish%1:12:00::'
+      - 'wish%1:10:00::'
       id: 'wish%2:37:01::'
       subcat:
       - ditransitive
@@ -24875,6 +25504,8 @@ wish:
       - vtai
       synset: 00905052-v
     - derivation:
+      - 'wish%1:10:01::'
+      event:
       - 'wish%1:10:01::'
       id: 'wish%2:32:00::'
       subcat:
@@ -25076,7 +25707,10 @@ witch:
       synset: 10175045-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'witch%1:18:01::'
+      - 'witch%1:18:00::'
+      derivation:
       - 'witch%1:18:01::'
       - 'witch%1:18:00::'
       - 'witchery%1:09:00::'
@@ -25256,6 +25890,8 @@ withdraw:
     sense:
     - derivation:
       - 'withdrawal%1:04:00::'
+      event:
+      - 'withdrawal%1:04:00::'
       id: 'withdraw%2:38:00::'
       subcat:
       - via
@@ -25265,12 +25901,18 @@ withdraw:
       synset: 01998474-v
     - derivation:
       - 'withdrawal%1:04:01::'
+      event:
+      - 'withdrawal%1:04:01::'
       id: 'withdraw%2:41:01::'
       subcat:
       - via-pp
       synset: 02385151-v
-    - derivation:
+    - agent:
       - 'withdrawer%1:18:03::'
+      derivation:
+      - 'withdrawer%1:18:03::'
+      - 'withdrawal%1:04:00::'
+      event:
       - 'withdrawal%1:04:00::'
       id: 'withdraw%2:35:00::'
       subcat:
@@ -25285,18 +25927,26 @@ withdraw:
       synset: 02317458-v
     - derivation:
       - 'withdrawal%1:10:00::'
+      event:
+      - 'withdrawal%1:10:00::'
       id: 'withdraw%2:32:01::'
       subcat:
       - vtai
       synset: 00800738-v
-    - derivation:
+    - agent:
       - 'withdrawer%1:18:04::'
+      derivation:
+      - 'withdrawer%1:18:04::'
+      - 'withdrawal%1:04:00::'
+      event:
       - 'withdrawal%1:04:00::'
       id: 'withdraw%2:30:00::'
       subcat:
       - vtaa
       synset: 00496934-v
     - derivation:
+      - 'withdrawal%1:04:00::'
+      event:
       - 'withdrawal%1:04:00::'
       id: 'withdraw%2:41:00::'
       subcat:
@@ -25305,37 +25955,54 @@ withdraw:
       synset: 02433334-v
     - derivation:
       - 'withdrawal%1:04:00::'
+      event:
+      - 'withdrawal%1:04:00::'
       id: 'withdraw%2:41:03::'
       subcat:
       - via
       synset: 02385902-v
-    - antonym:
+    - agent:
+      - 'withdrawer%1:18:00::'
+      antonym:
       - 'deposit%2:40:00::'
       derivation:
       - 'withdrawer%1:18:00::'
+      - 'withdrawal%1:04:03::'
+      event:
       - 'withdrawal%1:04:03::'
       id: 'withdraw%2:40:00::'
       subcat:
       - via-pp
       - vtai
       synset: 02316367-v
-    - derivation:
+    - agent:
       - 'withdrawer%1:18:04::'
+      derivation:
+      - 'withdrawer%1:18:04::'
+      - 'withdrawal%1:12:00::'
+      event:
       - 'withdrawal%1:12:00::'
       id: 'withdraw%2:37:00::'
       subcat:
       - via
       - via-pp
       synset: 01770804-v
-    - derivation:
+    - agent:
       - 'withdrawer%1:18:02::'
       - 'withdrawer%1:18:01::'
+      derivation:
+      - 'withdrawer%1:18:02::'
+      - 'withdrawer%1:18:01::'
+      - 'withdrawal%1:04:00::'
+      event:
       - 'withdrawal%1:04:00::'
       id: 'withdraw%2:32:00::'
       subcat:
       - via
       synset: 00801045-v
     - derivation:
+      - 'withdrawal%1:04:00::'
+      event:
       - 'withdrawal%1:04:00::'
       id: 'withdraw%2:30:01::'
       subcat:
@@ -25523,7 +26190,10 @@ withhold:
     - value: wɪθˈhoʊld
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'withholder%1:18:01::'
+      - 'withholder%1:18:00::'
+      derivation:
       - 'withholder%1:18:01::'
       - 'withholder%1:18:00::'
       - 'withholding%1:04:01::'
@@ -25533,7 +26203,9 @@ withhold:
       subcat:
       - vtai-from
       synset: 02218472-v
-    - derivation:
+    - agent:
+      - 'withholder%1:18:01::'
+      derivation:
       - 'withholder%1:18:01::'
       - 'withholding%1:21:00::'
       - 'withholding%1:04:00::'
@@ -25605,14 +26277,18 @@ withstand:
     pronunciation:
     - value: wɪðˈstænd
     sense:
-    - derivation:
+    - agent:
+      - 'withstander%1:18:00::'
+      derivation:
       - 'withstander%1:18:00::'
       id: 'withstand%2:42:00::'
       subcat:
       - vtai
       - vtii
       synset: 02712676-v
-    - derivation:
+    - agent:
+      - 'withstander%1:18:01::'
+      derivation:
       - 'withstander%1:18:01::'
       id: 'withstand%2:33:00::'
       subcat:
@@ -25678,7 +26354,12 @@ witness:
     pronunciation:
     - value: ˈwɪtnəs
     sense:
-    - derivation:
+    - agent:
+      - 'witnesser%1:18:00::'
+      - 'witness%1:18:03::'
+      - 'witness%1:18:02::'
+      - 'witness%1:18:00::'
+      derivation:
       - 'witness%1:18:03::'
       - 'witness%1:18:02::'
       - 'witness%1:18:00::'
@@ -25687,7 +26368,9 @@ witness:
       subcat:
       - vtai
       synset: 02132751-v
-    - derivation:
+    - agent:
+      - 'witness%1:18:01::'
+      derivation:
       - 'witness%1:18:01::'
       id: 'witness%2:39:01::'
       subcat:
@@ -25896,17 +26579,25 @@ wobble:
     - value: ˈwɒbl̩
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'wobbler%1:06:00::'
+      derivation:
       - 'wobble%1:11:00::'
       - 'wobbler%1:06:00::'
+      event:
+      - 'wobble%1:11:00::'
       id: 'wobble%2:38:00::'
       subcat:
       - via
       - vii
       synset: 01872996-v
-    - derivation:
+    - by_means_of:
+      - 'wobbler%1:06:00::'
+      derivation:
       - 'wobble%1:11:00::'
       - 'wobbler%1:06:00::'
+      event:
+      - 'wobble%1:11:00::'
       id: 'wobble%2:38:02::'
       subcat:
       - via-pp
@@ -26299,7 +26990,9 @@ womanhood:
 womanise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'womaniser%1:18:00::'
+      derivation:
       - 'womaniser%1:18:00::'
       - 'woman%1:18:01::'
       - 'woman%1:18:00::'
@@ -26334,7 +27027,9 @@ womanishness:
 womanize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'womanizer%1:18:00::'
+      derivation:
       - 'womanizer%1:18:00::'
       - 'woman%1:18:01::'
       id: 'womanize%2:41:00::'
@@ -26501,10 +27196,16 @@ wonder:
     - value: ˈwʌndɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'wonderer%1:18:01::'
+      derivation:
       - 'wonder%1:09:00::'
       - 'wonderer%1:18:01::'
+      event:
+      - 'wonder%1:09:00::'
       id: 'wonder%2:31:00::'
+      state:
+      - 'wonder%1:09:00::'
       subcat:
       - via-whether-inf
       synset: 00731363-v
@@ -26515,17 +27216,28 @@ wonder:
       - via
       - via-whether-inf
       synset: 00927081-v
-    - derivation:
+    - agent:
+      - 'wonderer%1:18:00::'
+      by_means_of:
+      - 'wonder%1:11:00::'
+      derivation:
       - 'wonderment%1:12:00::'
       - 'wonder%1:12:00::'
       - 'wonder%1:11:00::'
       - 'wonderer%1:18:00::'
+      event:
+      - 'wonder%1:12:00::'
       id: 'wonder%2:32:12::'
       sent:
       - Sam and Sue wonder over the results of the experiment
+      state:
+      - 'wonder%1:12:00::'
+      - 'wonderment%1:12:00::'
       subcat:
       - vtai
       synset: 00927461-v
+      undergoer:
+      - 'wonder%1:11:00::'
 wonder bean:
   n:
     sense:
@@ -26726,7 +27438,9 @@ wonton soup:
 woo:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wooer%1:18:00::'
+      derivation:
       - 'wooer%1:18:00::'
       id: 'woo%2:41:01::'
       subcat:
@@ -26735,7 +27449,9 @@ woo:
       - vtia
       - vtii
       synset: 02540602-v
-    - derivation:
+    - agent:
+      - 'wooer%1:18:00::'
+      derivation:
       - 'wooer%1:18:00::'
       - 'wooing%1:10:00::'
       id: 'woo%2:41:00::'
@@ -27573,7 +28289,9 @@ woolen:
 woolgather:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'woolgatherer%1:18:00::'
+      derivation:
       - 'woolgatherer%1:18:00::'
       - 'woolgathering%1:09:00::'
       id: 'woolgather%2:36:00::'
@@ -27840,9 +28558,13 @@ word:
       - 'word%1:10:00::'
       - 'wording%1:10:00::'
       id: 'word%2:32:00::'
+      result:
+      - 'word%1:10:03::'
       subcat:
       - vtai
       synset: 00982485-v
+      uses:
+      - 'word%1:10:00::'
 word accent:
   n:
     sense:
@@ -28149,7 +28871,11 @@ work:
     form:
     - wrought
     sense:
-    - antonym:
+    - agent:
+      - 'worker%1:18:02::'
+      - 'worker%1:18:00::'
+      - 'worker%1:05:01::'
+      antonym:
       - 'idle%2:41:00::'
       derivation:
       - 'worker%1:18:02::'
@@ -28157,16 +28883,24 @@ work:
       - 'work%1:04:00::'
       - 'worker%1:18:00::'
       - 'worker%1:05:01::'
+      event:
+      - 'work%1:04:00::'
       id: 'work%2:41:02::'
+      result:
+      - 'work%1:06:00::'
       sent:
       - Sam and Sue work
       subcat:
       - via
       - via-pp
       synset: 02418610-v
-    - derivation:
+    - agent:
+      - 'worker%1:18:00::'
+      derivation:
       - 'work%1:04:01::'
       - 'worker%1:18:00::'
+      event:
+      - 'work%1:04:01::'
       id: 'work%2:41:00::'
       subcat:
       - via
@@ -28176,6 +28910,8 @@ work:
       - workable%5:00:00:possible:00
       - 'work%1:06:00::'
       id: 'work%2:41:03::'
+      result:
+      - 'work%1:06:00::'
       subcat:
       - vii
       - vii-pp
@@ -28208,6 +28944,8 @@ work:
       synset: 02054955-v
     - derivation:
       - 'work%1:04:00::'
+      event:
+      - 'work%1:04:00::'
       id: 'work%2:41:04::'
       sent:
       - They work in the city
@@ -28216,6 +28954,8 @@ work:
       - vtai
       synset: 02600976-v
     - derivation:
+      - 'work%1:04:00::'
+      event:
       - 'work%1:04:00::'
       id: 'work%2:41:05::'
       subcat:
@@ -28233,6 +28973,9 @@ work:
       - vtii
       synset: 01632781-v
     - derivation:
+      - 'work%1:04:01::'
+      - 'work%1:04:00::'
+      event:
       - 'work%1:04:01::'
       - 'work%1:04:00::'
       id: 'work%2:41:01::'
@@ -29461,11 +30204,18 @@ worry:
     - value: ˈwʌɹi
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'worrier%1:18:00::'
+      by_means_of:
+      - 'worriment%1:07:00::'
+      - 'worry%1:09:00::'
+      derivation:
       - 'worriment%1:07:00::'
       - 'worrier%1:18:00::'
       - 'worry%1:12:00::'
       - 'worry%1:09:00::'
+      event:
+      - 'worry%1:12:00::'
       id: 'worry%2:37:00::'
       sent:
       - They worry that there was a traffic accident
@@ -29474,15 +30224,21 @@ worry:
       - via-pp
       - via-that
       synset: 01771015-v
-    - derivation:
+    - by_means_of:
+      - 'worry%1:09:00::'
+      derivation:
       - 'worry%1:12:00::'
       - 'worry%1:09:00::'
+      event:
+      - 'worry%1:12:00::'
       id: 'worry%2:37:12::'
       subcat:
       - via-pp
       synset: 01770600-v
     - antonym:
       - 'reassure%2:32:00::'
+      by_means_of:
+      - 'worry%1:09:00::'
       derivation:
       - 'worry%1:09:00::'
       - 'worrying%1:04:00::'
@@ -29654,10 +30410,15 @@ worship:
     - value: ˈwɝʃɪp
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'worshiper%1:18:01::'
+      - 'worshipper%1:18:01::'
+      derivation:
       - 'worship%1:12:01::'
       - 'worshiper%1:18:01::'
       - 'worshipper%1:18:01::'
+      event:
+      - 'worship%1:12:01::'
       id: 'worship%2:37:00::'
       sent:
       - Sam cannot worship Sue
@@ -29665,17 +30426,25 @@ worship:
       - vtaa
       - vtai
       synset: 01781934-v
-    - derivation:
+    - agent:
+      - 'worshiper%1:18:00::'
+      - 'worshipper%1:18:00::'
+      derivation:
       - 'worshiper%1:18:00::'
       - 'worshipper%1:18:00::'
       id: 'worship%2:37:01::'
       subcat:
       - vtai
       synset: 01782907-v
-    - derivation:
+    - agent:
+      - 'worshiper%1:18:00::'
+      - 'worshipper%1:18:00::'
+      derivation:
       - 'worship%1:04:00::'
       - 'worshiper%1:18:00::'
       - 'worshipper%1:18:00::'
+      event:
+      - 'worship%1:04:00::'
       id: 'worship%2:42:00::'
       subcat:
       - via-pp
@@ -29978,6 +30747,9 @@ wound:
       - 'wound%1:11:00::'
       - 'wound%1:04:00::'
       - 'wounding%1:04:00::'
+      event:
+      - 'wound%1:11:00::'
+      - 'wound%1:04:00::'
       id: 'wound%2:29:00::'
       subcat:
       - vtaa
@@ -30080,6 +30852,8 @@ wrack:
     sense:
     - derivation:
       - 'wrack%1:11:00::'
+      event:
+      - 'wrack%1:11:00::'
       id: 'wrack%2:35:00::'
       subcat:
       - vtai
@@ -30112,16 +30886,22 @@ wrangle:
     pronunciation:
     - value: ˈɹæŋ.ɡəl
     sense:
-    - derivation:
+    - agent:
+      - 'wrangler%1:18:01::'
+      derivation:
       - 'wrangle%1:10:01::'
       - 'wrangler%1:18:01::'
       - 'wrangling%1:10:00::'
+      event:
+      - 'wrangle%1:10:01::'
       id: 'wrangle%2:32:00::'
       subcat:
       - via
       - via-pp
       synset: 00776389-v
-    - derivation:
+    - agent:
+      - 'wrangler%1:18:00::'
+      derivation:
       - 'wrangler%1:18:00::'
       id: 'wrangle%2:42:00::'
       subcat:
@@ -30176,6 +30956,12 @@ wrap:
       - vtai
       - vtai-pp
       synset: 01285811-v
+      undergoer:
+      - 'wrapper%1:06:02::'
+      - 'wrapper%1:06:01::'
+      - 'wrapper%1:06:00::'
+      uses:
+      - 'wrap%1:06:01::'
     - also:
       - 'wrap_up%2:30:00::'
       id: 'wrap%2:35:02::'
@@ -30194,6 +30980,8 @@ wrap:
       - vtia
       - vtii
       synset: 01583316-v
+      uses:
+      - 'wrap%1:06:01::'
     - id: 'wrap%2:35:03::'
       subcat:
       - vtai
@@ -30383,7 +31171,10 @@ wreck:
     pronunciation:
     - value: ˈɹɛk
     sense:
-    - derivation:
+    - agent:
+      - 'wrecker%1:18:02::'
+      - 'wrecker%1:18:00::'
+      derivation:
       - 'wreck%1:26:00::'
       - 'wreck%1:11:01::'
       - 'wreck%1:06:00::'
@@ -30392,11 +31183,17 @@ wreck:
       - 'wrecker%1:06:00::'
       - 'wreckage%1:06:00::'
       - 'wrecking%1:04:00::'
+      event:
+      - 'wreck%1:26:00::'
+      - 'wreck%1:11:01::'
+      - 'wreck%1:06:00::'
       id: 'wreck%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01568966-v
+      vehicle:
+      - 'wrecker%1:06:00::'
 wreckage:
   n:
     sense:
@@ -30486,6 +31283,8 @@ wrench:
     sense:
     - derivation:
       - 'wrench%1:06:00::'
+      instrument:
+      - 'wrench%1:06:00::'
       id: 'wrench%2:35:00::'
       subcat:
       - vtai
@@ -30493,6 +31292,8 @@ wrench:
       - vtii
       synset: 01352175-v
     - derivation:
+      - 'wrench%1:11:00::'
+      event:
       - 'wrench%1:11:00::'
       id: 'wrench%2:38:00::'
       subcat:
@@ -30506,6 +31307,8 @@ wrench:
       - vtii
       synset: 01351812-v
     - derivation:
+      - 'wrench%1:26:00::'
+      event:
       - 'wrench%1:26:00::'
       id: 'wrench%2:29:00::'
       sent:
@@ -30521,7 +31324,9 @@ wrenching:
 wrest:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'wrester%1:18:00::'
+      derivation:
       - 'wrester%1:18:00::'
       id: 'wrest%2:35:01::'
       subcat:
@@ -30549,7 +31354,9 @@ wrestle:
     pronunciation:
     - value: ˈɹɛ.səl
     sense:
-    - derivation:
+    - agent:
+      - 'wrestler%1:18:00::'
+      derivation:
       - 'wrestler%1:18:00::'
       id: 'wrestle%2:33:01::'
       subcat:
@@ -30570,6 +31377,8 @@ wrestle:
       - 'wrestle%1:04:00::'
       - 'wrestling%1:04:01::'
       - 'wrestling%1:04:00::'
+      event:
+      - 'wrestle%1:04:00::'
       id: 'wrestle%2:35:00::'
       subcat:
       - via
@@ -30683,6 +31492,8 @@ wrick:
     sense:
     - derivation:
       - 'wrick%1:26:00::'
+      event:
+      - 'wrick%1:26:00::'
       id: 'wrick%2:29:00::'
       sent:
       - Did he wrick his foot?
@@ -30703,8 +31514,12 @@ wriggle:
     pronunciation:
     - value: ˈɹɪɡəl
     sense:
-    - derivation:
+    - agent:
       - 'wriggler%1:18:00::'
+      derivation:
+      - 'wriggler%1:18:00::'
+      - 'wriggle%1:04:00::'
+      event:
       - 'wriggle%1:04:00::'
       id: 'wriggle%2:38:00::'
       subcat:
@@ -30772,6 +31587,10 @@ wring:
     - derivation:
       - 'wring%1:11:00::'
       - 'wringer%1:06:00::'
+      event:
+      - 'wring%1:11:00::'
+      instrument:
+      - 'wringer%1:06:00::'
       id: 'wring%2:35:02::'
       subcat:
       - vtai
@@ -30822,6 +31641,8 @@ wrinkle:
     - derivation:
       - 'wrinkle%1:25:00::'
       id: 'wrinkle%2:35:01::'
+      result:
+      - 'wrinkle%1:25:00::'
       subcat:
       - vii
       - vtai
@@ -30829,6 +31650,8 @@ wrinkle:
     - derivation:
       - 'wrinkle%1:25:00::'
       id: 'wrinkle%2:35:00::'
+      result:
+      - 'wrinkle%1:25:00::'
       sent:
       - They wrinkle the sheets
       subcat:
@@ -30839,6 +31662,8 @@ wrinkle:
     - derivation:
       - 'wrinkle%1:25:00::'
       id: 'wrinkle%2:35:02::'
+      result:
+      - 'wrinkle%1:25:00::'
       subcat:
       - vtai
       - vtii
@@ -30846,6 +31671,8 @@ wrinkle:
     - derivation:
       - 'wrinkle%1:25:00::'
       id: 'wrinkle%2:30:10::'
+      result:
+      - 'wrinkle%1:25:00::'
       sent:
       - The sheets didn't wrinkle
       - These fabrics wrinkle easily
@@ -31020,7 +31847,9 @@ write:
     pronunciation:
     - value: ɹaɪt
     sense:
-    - also:
+    - agent:
+      - 'writer%1:18:00::'
+      also:
       - 'write_out%2:36:00::'
       derivation:
       - 'writer%1:18:00::'
@@ -31031,7 +31860,9 @@ write:
       subcat:
       - vtai
       synset: 01702148-v
-    - derivation:
+    - agent:
+      - 'writer%1:18:01::'
+      derivation:
       - 'writer%1:18:01::'
       - 'writing%1:04:01::'
       id: 'write%2:32:00::'
@@ -31046,7 +31877,9 @@ write:
       - vtai
       - vtai-to
       synset: 00995046-v
-    - derivation:
+    - agent:
+      - 'writer%1:18:01::'
+      derivation:
       - 'writer%1:18:01::'
       id: 'write%2:32:08::'
       subcat:
@@ -31060,7 +31893,9 @@ write:
       - via
       - vtai
       synset: 01709353-v
-    - derivation:
+    - agent:
+      - 'writer%1:18:01::'
+      derivation:
       - 'writer%1:18:01::'
       id: 'write%2:36:01::'
       subcat:
@@ -31199,6 +32034,8 @@ write up:
   v:
     sense:
     - derivation:
+      - 'write_up%1:10:00::'
+      event:
       - 'write_up%1:10:00::'
       id: 'write_up%2:32:02::'
       subcat:
@@ -31550,6 +32387,9 @@ wrong:
     - antonym:
       - 'right%2:41:00::'
       derivation:
+      - 'wrong%1:07:01::'
+      - 'wrong%1:04:00::'
+      event:
       - 'wrong%1:07:01::'
       - 'wrong%1:04:00::'
       id: 'wrong%2:41:00::'

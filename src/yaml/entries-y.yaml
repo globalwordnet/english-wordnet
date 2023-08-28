@@ -1112,6 +1112,8 @@ yacht:
       subcat:
       - via
       synset: 01949240-v
+      vehicle:
+      - 'yacht%1:06:00::'
 yacht chair:
   n:
     sense:
@@ -1163,6 +1165,8 @@ yack:
     - value: jæk
     sense:
     - derivation:
+      - 'yack%1:10:00::'
+      event:
       - 'yack%1:10:00::'
       id: 'yack%2:32:00::'
       sent:
@@ -1293,7 +1297,9 @@ yank:
     pronunciation:
     - value: jæŋk
     sense:
-    - derivation:
+    - agent:
+      - 'yanker%1:18:00::'
+      derivation:
       - 'yanker%1:18:00::'
       id: 'yank%2:35:00::'
       subcat:
@@ -1510,6 +1516,8 @@ yarn:
     sense:
     - derivation:
       - 'yarn%1:10:00::'
+      event:
+      - 'yarn%1:10:00::'
       id: 'yarn%2:32:00::'
       subcat:
       - via
@@ -1586,6 +1594,8 @@ yaw:
       synset: 02724625-v
     - derivation:
       - 'yaw%1:11:00::'
+      event:
+      - 'yaw%1:11:00::'
       id: 'yaw%2:38:00::'
       subcat:
       - vii
@@ -1633,10 +1643,14 @@ yawn:
       variety: US
     - value: jɑn
     sense:
-    - derivation:
+    - agent:
+      - 'yawner%1:18:00::'
+      derivation:
       - 'yawn%1:04:00::'
       - 'yawner%1:18:00::'
       - 'yawning%1:04:00::'
+      event:
+      - 'yawn%1:04:00::'
       id: 'yawn%2:29:00::'
       subcat:
       - via
@@ -1808,7 +1822,9 @@ yearly:
 yearn:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'yearner%1:18:00::'
+      derivation:
       - 'yearner%1:18:00::'
       - 'yearning%1:12:00::'
       id: 'yearn%2:37:00::'
@@ -1817,7 +1833,9 @@ yearn:
       subcat:
       - via-pp
       synset: 01832347-v
-    - derivation:
+    - agent:
+      - 'yearner%1:18:00::'
+      derivation:
       - 'yearner%1:18:00::'
       - 'yearning%1:12:00::'
       id: 'yearn%2:37:01::'
@@ -1938,14 +1956,21 @@ yell:
       - 'yell%1:10:01::'
       - 'yell%1:10:00::'
       - 'yelling%1:10:00::'
+      event:
+      - 'yell%1:10:01::'
+      - 'yell%1:10:00::'
       id: 'yell%2:32:01::'
       subcat:
       - via
       - vii
       synset: 00915018-v
-    - derivation:
+    - agent:
+      - 'yeller%1:18:00::'
+      derivation:
       - 'yell%1:10:00::'
       - 'yeller%1:18:00::'
+      event:
+      - 'yell%1:10:00::'
       id: 'yell%2:32:00::'
       sent:
       - Sam and Sue yell
@@ -2017,6 +2042,8 @@ yellow:
     - derivation:
       - 'yellow%1:07:00::'
       id: 'yellow%2:30:00::'
+      property:
+      - 'yellow%1:07:00::'
       subcat:
       - vii
       synset: 00290602-v
@@ -2866,6 +2893,8 @@ yelp:
     - derivation:
       - 'yelp%1:11:00::'
       - 'yelping%1:11:00::'
+      event:
+      - 'yelp%1:11:00::'
       id: 'yelp%2:32:00::'
       subcat:
       - vii
@@ -2894,6 +2923,8 @@ yen:
     - yenning
     sense:
     - derivation:
+      - 'yen%1:12:00::'
+      event:
       - 'yen%1:12:00::'
       id: 'yen%2:37:00::'
       subcat:
@@ -3113,6 +3144,11 @@ yield:
       - vtai
       - vtii
       synset: 01632192-v
+      uses:
+      - 'yield%1:21:00::'
+      - 'yield%1:06:00::'
+      - 'yield%1:04:00::'
+      - 'yield%1:23:00::'
     - id: 'yield%2:40:01::'
       subcat:
       - vtai
@@ -3160,15 +3196,22 @@ yield:
       - 'yield%1:06:00::'
       - 'yield%1:04:00::'
       - 'yield%1:23:00::'
+      event:
+      - 'yield%1:04:00::'
       id: 'yield%2:40:00::'
       subcat:
       - vtii
       synset: 02296669-v
+      undergoer:
+      - 'yield%1:06:00::'
+      - 'yield%1:23:00::'
     - id: 'yield%2:35:00::'
       subcat:
       - vii
       synset: 01452389-v
-    - derivation:
+    - agent:
+      - 'yielder%1:18:00::'
+      derivation:
       - 'yielder%1:18:00::'
       id: 'yield%2:33:00::'
       subcat:
@@ -3324,9 +3367,13 @@ yodel:
     - value: ˈjoʊ.dəl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'yodeller%1:18:00::'
+      derivation:
       - 'yodeller%1:18:00::'
       - 'yodeling%1:04:00::'
+      - 'yodel%1:10:00::'
+      event:
       - 'yodel%1:10:00::'
       id: 'yodel%2:32:00::'
       sent:
@@ -3458,16 +3505,23 @@ yoke:
       synset: 04620197-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'yoke%1:06:02::'
+      derivation:
       - 'yoke%1:06:02::'
       id: 'yoke%2:35:02::'
       subcat:
       - vii
       - vii-pp
       synset: 01494940-v
-    - derivation:
+    - by_means_of:
       - 'yoke%1:06:02::'
       - 'yoke%1:06:03::'
+      derivation:
+      - 'yoke%1:06:02::'
+      - 'yoke%1:06:03::'
+      - 'yoke%1:06:00::'
+      instrument:
       - 'yoke%1:06:00::'
       id: 'yoke%2:35:01::'
       subcat:
@@ -3483,6 +3537,9 @@ yoke:
       - vtai
       - vtai-pp
       synset: 01493615-v
+      uses:
+      - 'yoke%1:06:03::'
+      - 'yoke%1:06:00::'
 yokel:
   n:
     pronunciation:
@@ -3838,6 +3895,8 @@ yowl:
     sense:
     - derivation:
       - 'yowl%1:10:00::'
+      event:
+      - 'yowl%1:10:00::'
       id: 'yowl%2:32:01::'
       sent:
       - You can hear animals yowl in the meadows
@@ -3847,6 +3906,8 @@ yowl:
       - vii
       synset: 01049253-v
     - derivation:
+      - 'yowl%1:10:00::'
+      event:
       - 'yowl%1:10:00::'
       id: 'yowl%2:32:00::'
       subcat:

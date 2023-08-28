@@ -256,7 +256,7 @@ def main():
                             "ERROR: Pertainyms should be between adjectives %s => %s" %
                             (sense.id, sr.target))
                         errors += 1
-            sr_counter = Counter((sr.target, sr.rel_type)
+            sr_counter = Counter((sr.target, sr.other_type if sr.other_type else sr.rel_type)
                                  for sr in sense.sense_relations)
             for item, count in sr_counter.items():
                 if count > 1:
@@ -278,6 +278,11 @@ def main():
                     print(
                         "ERROR: Duplicate syntactic behaviour in entry %s" %
                         (entry.id))
+                    errors += 1
+            for sense2 in entry.senses:
+                if sense2.id != sense.id and sense2.synset == sense.synset:
+                    print("ERROR: Duplicate senses %s/%s referring to %s" % (
+                        sense.id, sense2.id, sense.synset))
                     errors += 1
 
     for synset in wn.synsets:

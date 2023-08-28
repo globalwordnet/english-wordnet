@@ -4762,6 +4762,8 @@ ice:
       subcat:
       - vtai
       synset: 01519807-v
+      uses:
+      - 'ice%1:13:01::'
     - id: 'ice%2:30:03::'
       subcat:
       - vtai
@@ -4774,6 +4776,8 @@ ice:
       subcat:
       - vtai
       synset: 00371574-v
+      uses:
+      - 'ice%1:27:00::'
 ice age:
   n:
     sense:
@@ -4957,7 +4961,11 @@ ice skate:
       synset: 03563584-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'ice-skater%1:18:00::'
+      by_means_of:
+      - 'ice_skate%1:06:00::'
+      derivation:
       - 'ice_skate%1:06:00::'
       - 'ice-skater%1:18:00::'
       - 'ice_skating%1:04:00::'
@@ -5625,7 +5633,11 @@ idealise:
     - derivation:
       - 'idealisation%1:22:00::'
       - 'ideal%1:09:00::'
+      event:
+      - 'idealisation%1:22:00::'
       id: 'idealise%2:31:00::'
+      result:
+      - 'ideal%1:09:00::'
       subcat:
       - vtaa
       - vtai
@@ -5633,6 +5645,8 @@ idealise:
     - derivation:
       - 'ideal%1:09:00::'
       id: 'idealise%2:31:01::'
+      result:
+      - 'ideal%1:09:00::'
       subcat:
       - via
       synset: 00626604-v
@@ -5703,7 +5717,11 @@ idealize:
     - derivation:
       - 'idealization%1:04:00::'
       - 'ideal%1:09:00::'
+      event:
+      - 'idealization%1:04:00::'
       id: 'idealize%2:31:00::'
+      result:
+      - 'ideal%1:09:00::'
       subcat:
       - vtaa
       - vtai
@@ -5711,6 +5729,8 @@ idealize:
     - derivation:
       - 'ideal%1:09:00::'
       id: 'idealize%2:31:01::'
+      result:
+      - 'ideal%1:09:00::'
       subcat:
       - via
       synset: 00626604-v
@@ -5742,6 +5762,8 @@ ideate:
     sense:
     - derivation:
       - 'idea%1:09:00::'
+      - 'ideation%1:09:00::'
+      event:
       - 'ideation%1:09:00::'
       id: 'ideate%2:36:01::'
       subcat:
@@ -5896,33 +5918,59 @@ identify:
       - 'identification%1:09:00::'
       - 'identity%1:09:00::'
       - 'identity%1:07:00::'
+      event:
+      - 'identification%1:09:00::'
       id: 'identify%2:31:00::'
+      property:
+      - 'identification%1:26:00::'
+      state:
+      - 'identification%1:26:00::'
       subcat:
       - vtaa
       - vtai
       synset: 00620568-v
-    - derivation:
+      undergoer:
+      - 'identity%1:09:00::'
+      - 'identity%1:07:00::'
+    - by_means_of:
+      - 'identification%1:10:01::'
+      derivation:
       - 'identification%1:26:00::'
       - 'identification%1:10:01::'
       - 'identification%1:04:00::'
       - 'identity%1:09:00::'
+      event:
+      - 'identification%1:04:00::'
       id: 'identify%2:32:00::'
+      result:
+      - 'identification%1:26:00::'
+      state:
+      - 'identification%1:26:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       - vtii
       synset: 01028104-v
+      uses:
+      - 'identification%1:10:01::'
+      - 'identity%1:09:00::'
     - derivation:
       - 'identification%1:07:00::'
       - 'identity%1:07:02::'
+      event:
+      - 'identification%1:07:00::'
       id: 'identify%2:31:04::'
+      property:
+      - 'identity%1:07:02::'
       subcat:
       - via
       - via-pp
       - vtaa-with
       synset: 00693710-v
     - derivation:
+      - 'identification%1:04:00::'
+      event:
       - 'identification%1:04:00::'
       id: 'identify%2:31:03::'
       subcat:
@@ -5933,15 +5981,21 @@ identify:
       - 'identifiable%3:00:00::'
       - 'identification%1:04:00::'
       - 'identity%1:09:00::'
+      event:
+      - 'identification%1:04:00::'
       id: 'identify%2:31:01::'
       subcat:
       - vtaa
       - vtai
       - vtii
       synset: 00654017-v
+      undergoer:
+      - 'identity%1:09:00::'
     - derivation:
       - 'identity%1:07:02::'
       id: 'identify%2:31:02::'
+      property:
+      - 'identity%1:07:02::'
       subcat:
       - vtaa
       - vtai
@@ -6366,7 +6420,9 @@ idle:
       subcat:
       - vii
       synset: 01529271-v
-    - antonym:
+    - agent:
+      - 'idler%1:18:00::'
+      antonym:
       - 'work%2:41:02::'
       derivation:
       - 'idler%1:18:00::'
@@ -6542,6 +6598,9 @@ idolise:
       - 'idol%1:18:00::'
       - 'idol%1:09:00::'
       - 'idol%1:06:00::'
+      event:
+      - 'idolisation%1:04:01::'
+      - 'idolisation%1:04:00::'
       id: 'idolise%2:37:00::'
       subcat:
       - vtaa
@@ -6575,13 +6634,18 @@ idolize:
     pronunciation:
     - value: ˈaɪdəlaɪz
     sense:
-    - derivation:
+    - agent:
+      - 'idolizer%1:18:01::'
+      derivation:
       - 'idolization%1:04:01::'
       - 'idolization%1:04:00::'
       - 'idolizer%1:18:01::'
       - 'idol%1:18:00::'
       - 'idol%1:09:00::'
       - 'idol%1:06:00::'
+      event:
+      - 'idolization%1:04:01::'
+      - 'idolization%1:04:00::'
       id: 'idolize%2:37:00::'
       sent:
       - Sam cannot idolize Sue
@@ -6737,7 +6801,16 @@ ignite:
       - 'igniter%1:06:00::'
       - 'ignitor%1:27:00::'
       - 'ignitor%1:06:00::'
+      event:
+      - 'ignition%1:22:00::'
+      - 'ignition%1:04:00::'
+      instrument:
+      - 'igniter%1:06:00::'
+      - 'ignitor%1:06:00::'
       id: 'ignite%2:43:00::'
+      material:
+      - 'igniter%1:27:00::'
+      - 'ignitor%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -6745,6 +6818,8 @@ ignite:
     - derivation:
       - ignitible%5:00:00:combustible:00
       - ignitable%5:00:00:combustible:00
+      - 'ignition%1:04:00::'
+      event:
       - 'ignition%1:04:00::'
       id: 'ignite%2:43:01::'
       subcat:
@@ -6998,6 +7073,8 @@ ignore:
       derivation:
       - 'ignorance%1:09:00::'
       id: 'ignore%2:31:01::'
+      state:
+      - 'ignorance%1:09:00::'
       subcat:
       - via-that
       - vtai
@@ -7445,6 +7522,8 @@ ill-treat:
     sense:
     - derivation:
       - 'ill-treatment%1:04:00::'
+      event:
+      - 'ill-treatment%1:04:00::'
       id: 'ill-treat%2:41:00::'
       sent:
       - They want to ill-treat the prisoners
@@ -7848,6 +7927,9 @@ illuminate:
       - 'illumination%1:26:00::'
       - 'illumination%1:07:00::'
       - 'illuminant%1:27:00::'
+      event:
+      - 'illumination%1:26:00::'
+      - 'illumination%1:07:00::'
       id: 'illuminate%2:30:03::'
       subcat:
       - vtai
@@ -7855,11 +7937,15 @@ illuminate:
       synset: 00292635-v
     - derivation:
       - 'illumination%1:10:00::'
+      event:
+      - 'illumination%1:10:00::'
       id: 'illuminate%2:31:00::'
       subcat:
       - vtai
       synset: 00622730-v
     - derivation:
+      - 'illumination%1:06:00::'
+      event:
       - 'illumination%1:06:00::'
       id: 'illuminate%2:36:00::'
       subcat:
@@ -8006,11 +8092,15 @@ illustrate:
       - illustrative%5:00:00:informative:00
       - 'illustration%1:10:01::'
       - 'illustration%1:09:02::'
+      event:
+      - 'illustration%1:10:01::'
       id: 'illustrate%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 01023137-v
+      uses:
+      - 'illustration%1:09:02::'
     - derivation:
       - illustrative%5:00:00:instructive:00
       - 'illustration%1:10:00::'
@@ -8019,7 +8109,12 @@ illustrate:
       subcat:
       - vtai
       synset: 01691296-v
-    - derivation:
+      uses:
+      - 'illustration%1:10:00::'
+      - 'illustration%1:06:00::'
+    - agent:
+      - 'illustrator%1:18:00::'
+      derivation:
       - 'illustration%1:10:00::'
       - 'illustration%1:06:00::'
       - 'illustrator%1:18:00::'
@@ -8027,6 +8122,9 @@ illustrate:
       subcat:
       - vtai
       synset: 01672316-v
+      uses:
+      - 'illustration%1:10:00::'
+      - 'illustration%1:06:00::'
 illustration:
   n:
     pronunciation:
@@ -8167,6 +8265,10 @@ image:
       - 'image%1:06:00::'
       - 'imaging%1:09:00::'
       - 'imagery%1:09:00::'
+      event:
+      - 'image%1:09:00::'
+      - 'image%1:06:01::'
+      - 'image%1:06:00::'
       id: 'image%2:36:00::'
       subcat:
       - via-that
@@ -8316,9 +8418,13 @@ imagine:
     pronunciation:
     - value: ɪˈmædʒ.ɪn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'imagination%1:09:02::'
+      derivation:
       - imaginative%5:00:00:creative:00
       - 'imagination%1:09:02::'
+      - 'imagination%1:09:01::'
+      event:
       - 'imagination%1:09:01::'
       id: 'imagine%2:36:00::'
       subcat:
@@ -8452,7 +8558,9 @@ imbed:
 imbibe:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'imbiber%1:18:00::'
+      derivation:
       - 'imbiber%1:18:00::'
       id: 'imbibe%2:35:01::'
       subcat:
@@ -8460,14 +8568,20 @@ imbibe:
       synset: 01541851-v
     - derivation:
       - 'imbibition%1:22:00::'
+      event:
+      - 'imbibition%1:22:00::'
       id: 'imbibe%2:35:00::'
       subcat:
       - vtii
       synset: 01542830-v
-    - derivation:
+    - agent:
+      - 'imbiber%1:18:00::'
+      derivation:
       - 'imbibition%1:04:00::'
       - 'imbiber%1:18:00::'
       - 'imbibing%1:04:00::'
+      event:
+      - 'imbibition%1:04:00::'
       id: 'imbibe%2:34:00::'
       subcat:
       - vtai
@@ -8511,11 +8625,15 @@ imbricate:
     sense:
     - derivation:
       - 'imbrication%1:06:00::'
+      event:
+      - 'imbrication%1:06:00::'
       id: 'imbricate%2:42:01::'
       subcat:
       - vtai
       synset: 02694988-v
     - derivation:
+      - 'imbrication%1:06:00::'
+      event:
       - 'imbrication%1:06:00::'
       id: 'imbricate%2:42:00::'
       subcat:
@@ -8612,10 +8730,14 @@ imitate:
     - value: ˈɪmɪteɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'imitator%1:18:00::'
+      derivation:
       - 'imitative%3:00:00::'
       - 'imitation%1:04:00::'
       - 'imitator%1:18:00::'
+      event:
+      - 'imitation%1:04:00::'
       id: 'imitate%2:36:00::'
       subcat:
       - vtai
@@ -9066,6 +9188,8 @@ immerse:
       synset: 01580466-v
     - derivation:
       - 'immersion%1:09:00::'
+      event:
+      - 'immersion%1:09:00::'
       id: 'immerse%2:31:00::'
       subcat:
       - vtaa
@@ -9077,6 +9201,8 @@ immerse:
       - vtii
       synset: 01585330-v
     - derivation:
+      - 'immersion%1:04:01::'
+      event:
       - 'immersion%1:04:01::'
       id: 'immerse%2:31:01::'
       subcat:
@@ -9135,24 +9261,32 @@ immigrate:
     sense:
     - derivation:
       - 'immigration%1:04:00::'
+      event:
+      - 'immigration%1:04:00::'
       id: 'immigrate%2:30:01::'
       subcat:
       - vii
       - vii-pp
       synset: 00416892-v
-    - derivation:
+    - agent:
+      - 'immigration%1:14:00::'
+      derivation:
       - 'immigration%1:14:00::'
       id: 'immigrate%2:30:02::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 00414629-v
-    - antonym:
+    - agent:
+      - 'immigration%1:14:00::'
+      antonym:
       - 'emigrate%2:30:00::'
       derivation:
       - 'immigration%1:14:00::'
       - 'immigration%1:04:00::'
       - 'immigrant%1:18:00::'
+      event:
+      - 'immigration%1:04:00::'
       id: 'immigrate%2:30:00::'
       subcat:
       - via
@@ -9280,6 +9414,8 @@ immobilise:
       synset: 02219646-v
     - derivation:
       - 'immobilisation%1:04:01::'
+      event:
+      - 'immobilisation%1:04:01::'
       id: 'immobilise%2:35:00::'
       subcat:
       - vtaa
@@ -9302,6 +9438,8 @@ immobilise:
       - vtai
       synset: 00270309-v
     - derivation:
+      - 'immobilisation%1:04:00::'
+      event:
       - 'immobilisation%1:04:00::'
       id: 'immobilise%2:30:00::'
       subcat:
@@ -9343,6 +9481,8 @@ immobilize:
       - 'immobile%3:00:00::'
       - 'immobilization%1:04:01::'
       - 'immobilizing%1:04:00::'
+      event:
+      - 'immobilization%1:04:01::'
       id: 'immobilize%2:35:00::'
       sent:
       - The fighter managed to immobilize his opponent
@@ -9372,6 +9512,8 @@ immobilize:
       - 'immobile%3:00:00::'
       - 'immobilization%1:04:00::'
       - 'immobilizing%1:04:00::'
+      event:
+      - 'immobilization%1:04:00::'
       id: 'immobilize%2:30:00::'
       subcat:
       - vtaa
@@ -9465,6 +9607,8 @@ immolate:
       variety: US
     sense:
     - derivation:
+      - 'immolation%1:04:00::'
+      event:
       - 'immolation%1:04:00::'
       id: 'immolate%2:40:00::'
       subcat:
@@ -9798,6 +9942,8 @@ immunize:
       synset: 01131204-v
     - derivation:
       - 'immunization%1:04:00::'
+      event:
+      - 'immunization%1:04:00::'
       id: 'immunize%2:29:00::'
       subcat:
       - via
@@ -10064,6 +10210,8 @@ immure:
       id: 'immure%2:41:00::'
       sent:
       - They want to immure the prisoners
+      state:
+      - 'immurement%1:26:00::'
       subcat:
       - vtaa
       synset: 02500005-v
@@ -10149,11 +10297,16 @@ impact:
     - derivation:
       - 'impaction%1:26:02::'
       id: 'impact%2:35:01::'
+      state:
+      - 'impaction%1:26:02::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01346164-v
     - derivation:
+      - 'impact%1:19:00::'
+      - 'impact%1:04:00::'
+      event:
       - 'impact%1:19:00::'
       - 'impact%1:04:00::'
       id: 'impact%2:30:00::'
@@ -10201,15 +10354,22 @@ impair:
     pronunciation:
     - value: ɪmˈpɛə
     sense:
-    - derivation:
+    - by_means_of:
+      - 'impairer%1:17:00::'
+      derivation:
       - 'impairment%1:11:00::'
       - 'impairer%1:17:00::'
+      event:
+      - 'impairment%1:11:00::'
       id: 'impair%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00263767-v
-    - derivation:
+    - by_means_of:
+      - 'impairer%1:17:00::'
+      - 'impairment%1:04:00::'
+      derivation:
       - 'impairment%1:04:00::'
       - 'impairer%1:17:00::'
       id: 'impair%2:30:01::'
@@ -10270,12 +10430,16 @@ impale:
     sense:
     - derivation:
       - 'impalement%1:04:00::'
+      event:
+      - 'impalement%1:04:00::'
       id: 'impale%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01446945-v
     - derivation:
+      - 'impalement%1:04:00::'
+      event:
       - 'impalement%1:04:00::'
       id: 'impale%2:35:01::'
       sent:
@@ -10354,6 +10518,8 @@ impart:
     - derivation:
       - 'impartation%1:10:00::'
       - 'imparting%1:10:00::'
+      event:
+      - 'impartation%1:10:00::'
       id: 'impart%2:40:00::'
       subcat:
       - vtai
@@ -10538,7 +10704,9 @@ impeach:
       subcat:
       - vtaa
       synset: 00869507-v
-    - derivation:
+    - by_means_of:
+      - 'impeachment%1:10:00::'
+      derivation:
       - 'impeachment%1:10:00::'
       id: 'impeach%2:32:01::'
       subcat:
@@ -10633,7 +10801,9 @@ impede:
     pronunciation:
     - value: ɪmˈpiːd
     sense:
-    - derivation:
+    - by_means_of:
+      - 'impediment%1:09:00::'
+      derivation:
       - 'impediment%1:09:00::'
       id: 'impede%2:41:00::'
       subcat:
@@ -10641,7 +10811,9 @@ impede:
       - vtia
       - vtii
       synset: 02456614-v
-    - derivation:
+    - by_means_of:
+      - 'impediment%1:06:00::'
+      derivation:
       - 'impediment%1:06:00::'
       id: 'impede%2:35:00::'
       subcat:
@@ -10688,7 +10860,9 @@ impel:
     pronunciation:
     - value: ɪmˈpɛl
     sense:
-    - derivation:
+    - by_means_of:
+      - 'impulsion%1:19:00::'
+      derivation:
       - impulsive%5:00:00:dynamic:00
       - 'impulsion%1:19:00::'
       id: 'impel%2:36:00::'
@@ -10700,6 +10874,10 @@ impel:
     - derivation:
       - impellent%5:00:00:forceful:00
       - 'impulsion%1:04:00::'
+      - 'impeller%1:06:00::'
+      event:
+      - 'impulsion%1:04:00::'
+      instrument:
       - 'impeller%1:06:00::'
       id: 'impel%2:35:00::'
       subcat:
@@ -10741,6 +10919,8 @@ impend:
       - 'impendency%1:26:00::'
       - 'impendence%1:26:00::'
       id: 'impend%2:42:00::'
+      state:
+      - 'impendence%1:26:00::'
       subcat:
       - vii
       synset: 02732759-v
@@ -11367,6 +11547,9 @@ impersonate:
       - 'persona%1:09:00::'
       - 'impersonation%1:04:01::'
       - 'impersonation%1:04:00::'
+      event:
+      - 'impersonation%1:04:01::'
+      - 'impersonation%1:04:00::'
       id: 'impersonate%2:36:00::'
       subcat:
       - vtaa
@@ -11374,14 +11557,21 @@ impersonate:
     - derivation:
       - 'persona%1:09:00::'
       - 'impersonation%1:10:00::'
+      event:
+      - 'impersonation%1:10:00::'
       id: 'impersonate%2:32:01::'
       subcat:
       - vtaa
       synset: 00851468-v
-    - derivation:
+    - agent:
+      - 'impersonator%1:18:00::'
+      derivation:
       - 'impersonation%1:04:01::'
       - 'impersonation%1:04:00::'
       - 'impersonator%1:18:00::'
+      event:
+      - 'impersonation%1:04:01::'
+      - 'impersonation%1:04:00::'
       id: 'impersonate%2:32:00::'
       subcat:
       - vtaa
@@ -11582,6 +11772,8 @@ impinge:
     - derivation:
       - 'impingement%1:04:00::'
       - 'impinging%1:11:00::'
+      event:
+      - 'impingement%1:04:00::'
       id: 'impinge%2:41:10::'
       subcat:
       - vtai
@@ -11703,11 +11895,17 @@ implant:
       - 'implantation%1:04:01::'
       - 'implantation%1:04:00::'
       - 'implant%1:06:00::'
+      event:
+      - 'implantation%1:22:00::'
+      - 'implantation%1:04:01::'
+      - 'implantation%1:04:00::'
       id: 'implant%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01531609-v
+      undergoer:
+      - 'implant%1:06:00::'
     - id: 'implant%2:35:02::'
       subcat:
       - vii
@@ -11789,15 +11987,21 @@ implement:
     - derivation:
       - 'implementation%1:04:00::'
       - 'implement%1:06:00::'
+      event:
+      - 'implementation%1:04:00::'
       id: 'implement%2:41:01::'
       subcat:
       - vtai
       synset: 02414095-v
+      undergoer:
+      - 'implement%1:06:00::'
     - id: 'implement%2:41:00::'
       subcat:
       - vtai
       synset: 02565990-v
     - derivation:
+      - 'implementation%1:04:01::'
+      event:
       - 'implementation%1:04:01::'
       id: 'implement%2:30:00::'
       subcat:
@@ -11842,6 +12046,9 @@ implicate:
     - derivation:
       - 'implication%1:24:00::'
       - 'implication%1:10:00::'
+      event:
+      - 'implication%1:24:00::'
+      - 'implication%1:10:00::'
       id: 'implicate%2:42:01::'
       subcat:
       - vtaa
@@ -11850,6 +12057,10 @@ implicate:
       - vtii
       synset: 02683142-v
     - derivation:
+      - 'implication%1:24:01::'
+      - 'implication%1:09:01::'
+      - 'implication%1:09:00::'
+      event:
       - 'implication%1:24:01::'
       - 'implication%1:09:01::'
       - 'implication%1:09:00::'
@@ -11971,6 +12182,9 @@ implode:
       derivation:
       - 'implosion%1:11:00::'
       - 'implosion%1:10:00::'
+      event:
+      - 'implosion%1:11:00::'
+      - 'implosion%1:10:00::'
       id: 'implode%2:30:00::'
       subcat:
       - vii
@@ -12027,6 +12241,8 @@ imply:
     - derivation:
       - implicative%5:00:00:connotative:00
       - 'implication%1:09:00::'
+      event:
+      - 'implication%1:09:00::'
       id: 'imply%2:32:00::'
       subcat:
       - via-that
@@ -12036,12 +12252,16 @@ imply:
     - derivation:
       - implicative%5:00:00:connotative:00
       - 'implication%1:24:01::'
+      event:
+      - 'implication%1:24:01::'
       id: 'imply%2:32:01::'
       subcat:
       - vtii
       synset: 00932561-v
     - derivation:
       - implicative%5:00:00:connotative:00
+      - 'implication%1:09:01::'
+      event:
       - 'implication%1:09:01::'
       id: 'imply%2:42:00::'
       subcat:
@@ -12050,11 +12270,16 @@ imply:
     - derivation:
       - 'implication%1:24:00::'
       - 'implication%1:10:00::'
+      event:
+      - 'implication%1:24:00::'
+      - 'implication%1:10:00::'
       id: 'imply%2:42:02::'
       subcat:
       - vtia
       synset: 02643005-v
     - derivation:
+      - 'implication%1:09:01::'
+      event:
       - 'implication%1:09:01::'
       id: 'imply%2:42:01::'
       subcat:
@@ -12145,7 +12370,9 @@ import:
       synset: 05178101-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'importer%1:18:00::'
+      antonym:
       - 'export%2:40:00::'
       derivation:
       - 'importation%1:06:00::'
@@ -12155,6 +12382,8 @@ import:
       - 'import%1:06:00::'
       - 'importer%1:18:00::'
       - 'importing%1:04:00::'
+      event:
+      - 'importation%1:04:00::'
       id: 'import%2:40:00::'
       sent:
       - Sam and Sue import the movie
@@ -12162,6 +12391,11 @@ import:
       - vtai
       - vtai-pp
       synset: 02351132-v
+      undergoer:
+      - 'importee%1:18:00::'
+      - 'importation%1:06:00::'
+      - 'import%1:18:00::'
+      - 'import%1:06:00::'
     - antonym:
       - 'export%2:40:01::'
       id: 'import%2:40:01::'
@@ -12175,6 +12409,9 @@ import:
       subcat:
       - vtii
       synset: 00934598-v
+      undergoer:
+      - 'import%1:10:00::'
+      - 'import%1:09:00::'
 import barrier:
   n:
     sense:
@@ -12363,11 +12600,17 @@ impose:
     - derivation:
       - 'imposition%1:09:00::'
       - 'imposition%1:04:02::'
+      event:
+      - 'imposition%1:04:02::'
       id: 'impose%2:32:00::'
       subcat:
       - vtai-on
       synset: 00750288-v
+      undergoer:
+      - 'imposition%1:09:00::'
     - derivation:
+      - 'imposition%1:04:02::'
+      event:
       - 'imposition%1:04:02::'
       id: 'impose%2:40:00::'
       subcat:
@@ -12567,6 +12810,8 @@ impound:
     - derivation:
       - 'impoundment%1:04:00::'
       - 'impounding%1:04:00::'
+      event:
+      - 'impoundment%1:04:00::'
       id: 'impound%2:40:00::'
       subcat:
       - vtai
@@ -12597,12 +12842,16 @@ impoverish:
       - 'enrich%2:40:00::'
       derivation:
       - 'impoverishment%1:04:00::'
+      event:
+      - 'impoverishment%1:04:00::'
       id: 'impoverish%2:40:00::'
       subcat:
       - vtaa
       - vtia
       synset: 02322641-v
     - derivation:
+      - 'impoverishment%1:04:00::'
+      event:
       - 'impoverishment%1:04:00::'
       id: 'impoverish%2:30:00::'
       subcat:
@@ -12703,6 +12952,8 @@ imprecate:
     sense:
     - derivation:
       - 'imprecation%1:10:00::'
+      event:
+      - 'imprecation%1:10:00::'
       id: 'imprecate%2:32:01::'
       subcat:
       - vtaa
@@ -12801,6 +13052,8 @@ impregnate:
       synset: 00499380-v
     - derivation:
       - 'impregnation%1:22:00::'
+      event:
+      - 'impregnation%1:22:00::'
       id: 'impregnate%2:30:00::'
       sent:
       - They impregnate the cloth with water and alcohol
@@ -12811,11 +13064,15 @@ impregnate:
       synset: 00498786-v
     - derivation:
       - 'impregnation%1:11:00::'
+      event:
+      - 'impregnation%1:11:00::'
       id: 'impregnate%2:29:01::'
       subcat:
       - vtai
       synset: 00053058-v
     - derivation:
+      - 'impregnation%1:11:00::'
+      event:
       - 'impregnation%1:11:00::'
       id: 'impregnate%2:29:00::'
       subcat:
@@ -12886,6 +13143,8 @@ impress:
       synset: 00730355-v
     - derivation:
       - 'impression%1:04:01::'
+      event:
+      - 'impression%1:04:01::'
       id: 'impress%2:35:00::'
       subcat:
       - vtai-pp
@@ -12895,6 +13154,9 @@ impress:
       - vtai
       synset: 01751753-v
     - derivation:
+      - 'impressment%1:04:00::'
+      - 'impress%1:04:00::'
+      event:
       - 'impressment%1:04:00::'
       - 'impress%1:04:00::'
       id: 'impress%2:35:01::'
@@ -13082,12 +13344,16 @@ imprint:
       - 'imprint%1:09:00::'
       - 'imprinting%1:09:00::'
       id: 'imprint%2:41:00::'
+      result:
+      - 'imprint%1:09:00::'
       subcat:
       - vtai-on
       synset: 02435769-v
     - derivation:
       - 'imprint%1:10:00::'
       id: 'imprint%2:35:00::'
+      result:
+      - 'imprint%1:10:00::'
       subcat:
       - vtai-pp
       synset: 01534530-v
@@ -13106,6 +13372,9 @@ imprison:
     - derivation:
       - 'imprisonment%1:04:01::'
       - 'imprisonment%1:04:00::'
+      event:
+      - 'imprisonment%1:04:01::'
+      - 'imprisonment%1:04:00::'
       id: 'imprison%2:41:00::'
       sent:
       - They want to imprison the prisoners
@@ -13115,6 +13384,8 @@ imprison:
     - derivation:
       - 'imprisonment%1:26:00::'
       id: 'imprison%2:41:01::'
+      state:
+      - 'imprisonment%1:26:00::'
       subcat:
       - vtaa
       synset: 02501466-v
@@ -13286,10 +13557,16 @@ improve:
     pronunciation:
     - value: ɪmˈpɹuːv
     sense:
-    - derivation:
+    - agent:
+      - 'improver%1:18:00::'
+      by_means_of:
+      - 'improver%1:06:00::'
+      derivation:
       - 'improvement%1:04:00::'
       - 'improver%1:18:00::'
       - 'improver%1:06:00::'
+      event:
+      - 'improvement%1:04:00::'
       id: 'improve%2:30:01::'
       sent:
       - They improve their earnings this year
@@ -13301,9 +13578,13 @@ improve:
     - derivation:
       - 'improvement%1:26:00::'
       - 'improvement%1:11:00::'
+      event:
+      - 'improvement%1:11:00::'
       id: 'improve%2:30:00::'
       sent:
       - Their earnings improve this year
+      state:
+      - 'improvement%1:26:00::'
       subcat:
       - via
       - vii
@@ -13414,6 +13695,9 @@ improvise:
       - 'improvisation%1:06:00::'
       - 'improvisation%1:04:01::'
       - 'improvisation%1:04:00::'
+      event:
+      - 'improvisation%1:04:01::'
+      - 'improvisation%1:04:00::'
       id: 'improvise%2:36:00::'
       sent:
       - They will improvise the duet
@@ -13421,7 +13705,11 @@ improvise:
       - via
       - vtai
       synset: 01732719-v
+      undergoer:
+      - 'improvisation%1:06:00::'
     - derivation:
+      - 'improvisation%1:04:00::'
+      event:
       - 'improvisation%1:04:00::'
       id: 'improvise%2:41:00::'
       subcat:
@@ -13707,12 +13995,16 @@ impute:
     sense:
     - derivation:
       - 'imputation%1:09:00::'
+      event:
+      - 'imputation%1:09:00::'
       id: 'impute%2:31:00::'
       subcat:
       - vtai-pp
       - vtai-to
       synset: 00728262-v
-    - derivation:
+    - by_means_of:
+      - 'imputation%1:10:00::'
+      derivation:
       - 'imputation%1:10:00::'
       id: 'impute%2:31:01::'
       subcat:
@@ -14824,6 +15116,8 @@ inactivate:
     sense:
     - derivation:
       - 'inactivation%1:04:00::'
+      event:
+      - 'inactivation%1:04:00::'
       id: 'inactivate%2:33:00::'
       subcat:
       - vtaa
@@ -14831,6 +15125,8 @@ inactivate:
     - antonym:
       - 'activate%2:30:00::'
       derivation:
+      - 'inactivation%1:22:00::'
+      event:
       - 'inactivation%1:22:00::'
       id: 'inactivate%2:30:00::'
       subcat:
@@ -15458,12 +15754,17 @@ inaugurate:
     - derivation:
       - 'inauguration%1:04:01::'
       - 'inauguration%1:04:00::'
+      event:
+      - 'inauguration%1:04:01::'
+      - 'inauguration%1:04:00::'
       id: 'inaugurate%2:41:00::'
       subcat:
       - vtai
       - vtii
       synset: 02400924-v
     - derivation:
+      - 'inauguration%1:04:01::'
+      event:
       - 'inauguration%1:04:01::'
       id: 'inaugurate%2:41:01::'
       subcat:
@@ -15609,12 +15910,18 @@ incandesce:
     - derivation:
       - 'incandescence%1:19:00::'
       - 'incandescence%1:07:00::'
+      event:
+      - 'incandescence%1:19:00::'
+      - 'incandescence%1:07:00::'
       id: 'incandesce%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00573263-v
     - derivation:
+      - 'incandescence%1:19:00::'
+      - 'incandescence%1:07:00::'
+      event:
       - 'incandescence%1:19:00::'
       - 'incandescence%1:07:00::'
       id: 'incandesce%2:30:00::'
@@ -15770,6 +16077,8 @@ incarcerate:
       id: 'incarcerate%2:41:00::'
       sent:
       - They want to incarcerate the prisoners
+      state:
+      - 'incarceration%1:26:00::'
       subcat:
       - vtaa
       synset: 02500005-v
@@ -15811,12 +16120,16 @@ incarnate:
       - 'disincarnate%2:36:00::'
       derivation:
       - 'incarnation%1:18:00::'
+      event:
+      - 'incarnation%1:18:00::'
       id: 'incarnate%2:36:00::'
       subcat:
       - vtai
       - vtii
       synset: 01648699-v
     - derivation:
+      - 'incarnation%1:18:00::'
+      event:
       - 'incarnation%1:18:00::'
       id: 'incarnate%2:42:00::'
       subcat:
@@ -15841,6 +16154,8 @@ incase:
   v:
     sense:
     - derivation:
+      - 'incasement%1:04:00::'
+      event:
       - 'incasement%1:04:00::'
       id: 'incase%2:35:00::'
       subcat:
@@ -15956,10 +16271,14 @@ incense:
     pronunciation:
     - value: ˈɪnsɛns
     sense:
-    - derivation:
+    - by_means_of:
+      - 'incense%1:27:00::'
+      derivation:
       - 'incense%1:27:00::'
       - 'incense%1:09:00::'
       id: 'incense%2:39:00::'
+      result:
+      - 'incense%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -16264,12 +16583,18 @@ incinerate:
     sense:
     - derivation:
       - 'incineration%1:04:00::'
+      event:
+      - 'incineration%1:04:00::'
       id: 'incinerate%2:30:01::'
       subcat:
       - vii
       synset: 00379032-v
     - derivation:
       - 'incineration%1:04:00::'
+      - 'incinerator%1:06:00::'
+      event:
+      - 'incineration%1:04:00::'
+      instrument:
       - 'incinerator%1:06:00::'
       id: 'incinerate%2:30:00::'
       subcat:
@@ -16330,6 +16655,9 @@ incise:
       - 'incision%1:25:00::'
       - 'incision%1:04:00::'
       - 'incisure%1:25:00::'
+      event:
+      - 'incision%1:25:00::'
+      - 'incision%1:04:00::'
       id: 'incise%2:35:00::'
       subcat:
       - vtai
@@ -16435,7 +16763,10 @@ incite:
     pronunciation:
     - value: ɪnˈsaɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'incitation%1:16:00::'
+      - 'incitement%1:10:01::'
+      derivation:
       - 'incitement%1:10:01::'
       - 'incitation%1:16:00::'
       id: 'incite%2:36:00::'
@@ -16448,23 +16779,37 @@ incite:
       - vtia
       - vtii
       synset: 01653541-v
-    - derivation:
+    - agent:
+      - 'inciter%1:18:00::'
+      by_means_of:
+      - 'incitation%1:16:00::'
+      derivation:
       - incitive%5:00:00:provocative:00
       - 'incitement%1:04:02::'
       - 'incitation%1:16:00::'
       - 'incitation%1:04:00::'
       - 'inciter%1:18:00::'
+      event:
+      - 'incitation%1:04:00::'
+      - 'incitement%1:04:02::'
       id: 'incite%2:32:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
       - vtai
       synset: 00852919-v
-    - derivation:
+    - agent:
+      - 'inciter%1:18:00::'
+      by_means_of:
+      - 'incitation%1:16:00::'
+      - 'incitement%1:16:00::'
+      derivation:
       - 'incitement%1:16:00::'
       - 'incitation%1:16:00::'
       - 'incitation%1:04:00::'
       - 'inciter%1:18:00::'
+      event:
+      - 'incitation%1:04:00::'
       id: 'incite%2:35:00::'
       subcat:
       - vtaa
@@ -16612,7 +16957,11 @@ incline:
     pronunciation:
     - value: ɪnˈklaɪn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'inclination%1:12:00::'
+      - 'inclination%1:09:00::'
+      - 'inclination%1:07:00::'
+      derivation:
       - 'inclination%1:12:00::'
       - 'inclination%1:09:00::'
       - 'inclination%1:07:00::'
@@ -16629,6 +16978,8 @@ incline:
     - derivation:
       - 'inclination%1:04:00::'
       - 'inclining%1:04:00::'
+      event:
+      - 'inclination%1:04:00::'
       id: 'incline%2:38:01::'
       subcat:
       - via
@@ -16642,15 +16993,27 @@ incline:
       - 'inclination%1:25:00::'
       - 'inclination%1:07:02::'
       id: 'incline%2:38:00::'
+      location:
+      - 'inclination%1:25:02::'
+      - 'inclination%1:25:01::'
+      - 'inclination%1:25:00::'
+      property:
+      - 'inclination%1:07:02::'
       subcat:
       - vii
       - vii-pp
       synset: 02040935-v
+      undergoer:
+      - 'incline%1:06:00::'
+      - 'incline%1:17:00::'
     - id: 'incline%2:37:00::'
       subcat:
       - via-pp
       synset: 01776093-v
-    - derivation:
+    - by_means_of:
+      - 'inclination%1:12:00::'
+      - 'inclination%1:09:00::'
+      derivation:
       - 'inclination%1:12:00::'
       - 'inclination%1:09:00::'
       id: 'incline%2:31:03::'
@@ -16752,11 +17115,15 @@ include:
       derivation:
       - 'inclusive%3:00:00::'
       - 'inclusion%1:04:00::'
+      event:
+      - 'inclusion%1:04:00::'
       id: 'include%2:31:00::'
       subcat:
       - vtai
       synset: 00686739-v
     - derivation:
+      - 'inclusion%1:04:00::'
+      event:
       - 'inclusion%1:04:00::'
       id: 'include%2:30:00::'
       subcat:
@@ -16764,6 +17131,8 @@ include:
       - vtii
       synset: 00184024-v
     - derivation:
+      - 'inclusion%1:04:00::'
+      event:
       - 'inclusion%1:04:00::'
       id: 'include%2:41:03::'
       subcat:
@@ -17720,7 +18089,13 @@ inconvenience:
     - derivation:
       - 'inconvenience%1:07:00::'
       - 'inconvenience%1:26:00::'
+      event:
+      - 'inconvenience%1:26:00::'
       id: 'inconvenience%2:41:01::'
+      property:
+      - 'inconvenience%1:07:00::'
+      result:
+      - 'inconvenience%1:07:00::'
       subcat:
       - vtaa
       - vtia
@@ -17799,12 +18174,17 @@ incorporate:
     - derivation:
       - 'incorporation%1:04:01::'
       - 'incorporation%1:04:00::'
+      event:
+      - 'incorporation%1:04:01::'
+      - 'incorporation%1:04:00::'
       id: 'incorporate%2:30:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 00467564-v
     - derivation:
+      - 'incorporation%1:04:00::'
+      event:
       - 'incorporation%1:04:00::'
       id: 'incorporate%2:42:00::'
       subcat:
@@ -17817,6 +18197,8 @@ incorporate:
       synset: 02452944-v
     - derivation:
       - incorporative%5:00:00:increasing:00
+      - 'incorporation%1:04:01::'
+      event:
       - 'incorporation%1:04:01::'
       id: 'incorporate%2:35:00::'
       subcat:
@@ -18039,12 +18421,19 @@ increase:
     sense:
     - antonym:
       - 'decrease%2:30:00::'
+      by_means_of:
+      - 'increase%1:07:00::'
+      - 'increase%1:23:00::'
       derivation:
       - 'increase%1:04:00::'
       - 'increase%1:07:00::'
       - 'increase%1:22:00::'
       - 'increase%1:11:00::'
       - 'increase%1:23:00::'
+      event:
+      - 'increase%1:04:00::'
+      - 'increase%1:22:00::'
+      - 'increase%1:11:00::'
       id: 'increase%2:30:00::'
       sent:
       - Their earnings increase this year
@@ -18053,12 +18442,19 @@ increase:
       synset: 00156409-v
     - antonym:
       - 'decrease%2:30:01::'
+      by_means_of:
+      - 'increase%1:07:00::'
+      - 'increase%1:23:00::'
       derivation:
       - 'increase%1:04:00::'
       - 'increase%1:07:00::'
       - 'increase%1:22:00::'
       - 'increase%1:11:00::'
       - 'increase%1:23:00::'
+      event:
+      - 'increase%1:04:00::'
+      - 'increase%1:22:00::'
+      - 'increase%1:11:00::'
       id: 'increase%2:30:02::'
       sent:
       - They increase their earnings this year
@@ -18216,6 +18612,8 @@ incriminate:
       - 'incrimination%1:10:00::'
       - 'crime%1:04:01::'
       - 'crime%1:04:00::'
+      event:
+      - 'incrimination%1:10:00::'
       id: 'incriminate%2:42:00::'
       subcat:
       - vtia
@@ -18223,6 +18621,8 @@ incriminate:
     - derivation:
       - 'incrimination%1:10:00::'
       - 'crime%1:04:00::'
+      event:
+      - 'incrimination%1:10:00::'
       id: 'incriminate%2:32:00::'
       sent:
       - They want to incriminate the prisoners
@@ -18263,6 +18663,8 @@ incrust:
     - derivation:
       - 'incrustation%1:06:00::'
       id: 'incrust%2:35:01::'
+      result:
+      - 'incrustation%1:06:00::'
       subcat:
       - vtai
       synset: 01519987-v
@@ -18273,10 +18675,16 @@ incrust:
       - vtai
       - vtii
       synset: 01264192-v
+      uses:
+      - 'incrustation%1:17:00::'
     - derivation:
       - 'incrustation%1:22:00::'
       - 'incrustation%1:17:00::'
+      event:
+      - 'incrustation%1:22:00::'
       id: 'incrust%2:30:00::'
+      result:
+      - 'incrustation%1:17:00::'
       subcat:
       - vii
       synset: 00255965-v
@@ -18306,12 +18714,19 @@ incubate:
     - derivation:
       - 'incubation%1:28:00::'
       - 'incubation%1:04:00::'
+      event:
+      - 'incubation%1:28:00::'
+      - 'incubation%1:04:00::'
       id: 'incubate%2:30:02::'
       subcat:
       - vii
       synset: 00255036-v
     - derivation:
       - 'incubation%1:22:00::'
+      - 'incubator%1:06:00::'
+      event:
+      - 'incubation%1:22:00::'
+      instrument:
       - 'incubator%1:06:00::'
       id: 'incubate%2:29:00::'
       subcat:
@@ -18372,6 +18787,8 @@ inculcate:
     sense:
     - derivation:
       - 'inculcation%1:04:00::'
+      event:
+      - 'inculcation%1:04:00::'
       id: 'inculcate%2:31:00::'
       subcat:
       - vtai
@@ -18412,6 +18829,8 @@ inculpate:
     - derivation:
       - 'inculpative%3:00:00::'
       - 'inculpatory%3:00:00::'
+      - 'inculpation%1:10:00::'
+      event:
       - 'inculpation%1:10:00::'
       id: 'inculpate%2:42:00::'
       subcat:
@@ -18506,6 +18925,9 @@ incur:
     - derivation:
       - 'incursion%1:04:02::'
       - 'incurring%1:04:00::'
+      - 'incurrence%1:04:00::'
+      event:
+      - 'incursion%1:04:02::'
       - 'incurrence%1:04:00::'
       id: 'incur%2:42:00::'
       subcat:
@@ -18623,11 +19045,17 @@ incurvate:
     - derivation:
       - 'incurvation%1:04:00::'
       - 'incurvation%1:25:00::'
+      event:
+      - 'incurvation%1:04:00::'
+      - 'incurvation%1:25:00::'
       id: 'incurvate%2:38:00::'
       subcat:
       - vii
       synset: 02040184-v
     - derivation:
+      - 'incurvation%1:25:00::'
+      - 'incurvation%1:04:00::'
+      event:
       - 'incurvation%1:25:00::'
       - 'incurvation%1:04:00::'
       id: 'incurvate%2:35:00::'
@@ -19079,6 +19507,9 @@ indemnify:
     - derivation:
       - 'indemnity%1:26:01::'
       - 'indemnity%1:26:00::'
+      event:
+      - 'indemnity%1:26:01::'
+      - 'indemnity%1:26:00::'
       id: 'indemnify%2:40:01::'
       subcat:
       - vtaa
@@ -19086,10 +19517,16 @@ indemnify:
       - vtia
       - vtii
       synset: 02256055-v
-    - derivation:
+    - by_means_of:
+      - 'indemnification%1:21:00::'
+      - 'indemnity%1:21:00::'
+      derivation:
       - 'indemnification%1:21:00::'
       - 'indemnification%1:04:00::'
       - 'indemnity%1:21:00::'
+      event:
+      - 'indemnification%1:04:00::'
+      - 'indemnification%1:21:00::'
       id: 'indemnify%2:40:00::'
       subcat:
       - vtai
@@ -19132,14 +19569,20 @@ indent:
       - 'indent%1:10:01::'
       - 'indentation%1:10:00::'
       id: 'indent%2:36:00::'
+      result:
+      - 'indent%1:10:01::'
       subcat:
       - vtai
       synset: 01749185-v
+      undergoer:
+      - 'indentation%1:10:00::'
     - id: 'indent%2:35:01::'
       subcat:
       - vtai
       synset: 01282436-v
     - derivation:
+      - 'indentation%1:22:00::'
+      event:
       - 'indentation%1:22:00::'
       id: 'indent%2:35:00::'
       subcat:
@@ -19147,6 +19590,8 @@ indent:
       - vtii
       synset: 01282234-v
     - derivation:
+      - 'indentation%1:04:00::'
+      event:
       - 'indentation%1:04:00::'
       id: 'indent%2:35:02::'
       subcat:
@@ -19212,7 +19657,9 @@ indenture:
     - value: ɪnˈdɛn.ʃɝ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'indenture%1:10:01::'
+      derivation:
       - 'indenture%1:10:01::'
       id: 'indenture%2:32:00::'
       subcat:
@@ -19444,15 +19891,21 @@ index:
     pronunciation:
     - value: ˈɪndɛks
     sense:
-    - derivation:
+    - agent:
+      - 'indexer%1:18:00::'
+      derivation:
       - 'index%1:10:00::'
       - 'indexer%1:18:00::'
       id: 'index%2:41:00::'
+      result:
+      - 'index%1:10:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02478240-v
-    - derivation:
+    - agent:
+      - 'indexer%1:18:00::'
+      derivation:
       - 'index%1:10:00::'
       - 'indexer%1:18:00::'
       - 'indexing%1:04:00::'
@@ -19460,7 +19913,12 @@ index:
       subcat:
       - vtai
       synset: 02359108-v
-    - derivation:
+      uses:
+      - 'index%1:10:00::'
+    - by_means_of:
+      - 'indexation%1:04:00::'
+      - 'index%1:24:00::'
+      derivation:
       - 'index%1:24:00::'
       - 'indexation%1:04:00::'
       id: 'index%2:31:00::'
@@ -19582,7 +20040,10 @@ indicate:
     pronunciation:
     - value: ˈɪndɪkeɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'indication%1:10:02::'
+      - 'indication%1:10:00::'
+      derivation:
       - indicative%5:00:00:revealing:00
       - 'indication%1:10:02::'
       - 'indication%1:10:00::'
@@ -19593,6 +20054,8 @@ indicate:
       - vtii
       synset: 00923271-v
     - derivation:
+      - 'indication%1:10:01::'
+      event:
       - 'indication%1:10:01::'
       id: 'indicate%2:32:03::'
       subcat:
@@ -19610,12 +20073,17 @@ indicate:
       - vtai
       - vtii
       synset: 00929986-v
-    - derivation:
+    - by_means_of:
+      - 'indication%1:10:00::'
+      derivation:
       - indicative%5:00:00:revealing:00
       - 'indication%1:10:03::'
       - 'indication%1:10:00::'
       - 'indication%1:09:00::'
       - 'indicant%1:10:01::'
+      event:
+      - 'indication%1:10:03::'
+      - 'indication%1:09:00::'
       id: 'indicate%2:32:02::'
       subcat:
       - vtai
@@ -19623,6 +20091,9 @@ indicate:
       synset: 00774685-v
     - antonym:
       - 'contraindicate%2:32:00::'
+      by_means_of:
+      - 'indication%1:10:03::'
+      - 'indication%1:10:02::'
       derivation:
       - indicative%5:00:00:revealing:00
       - 'indication%1:10:03::'
@@ -19726,9 +20197,13 @@ indict:
     - value: ˌɪnˈdaɪt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'indictment%1:10:00::'
+      derivation:
       - 'indictment%1:10:01::'
       - 'indictment%1:10:00::'
+      event:
+      - 'indictment%1:10:01::'
       id: 'indict%2:41:00::'
       sent:
       - They want to indict the prisoners
@@ -20305,6 +20780,8 @@ indispose:
       derivation:
       - 'indisposition%1:07:00::'
       id: 'indispose%2:31:00::'
+      property:
+      - 'indisposition%1:07:00::'
       subcat:
       - vtaa-to-inf
       - vtia
@@ -20315,6 +20792,8 @@ indispose:
       - vtii
       synset: 00302119-v
     - derivation:
+      - 'indisposition%1:26:00::'
+      event:
       - 'indisposition%1:26:00::'
       id: 'indispose%2:29:00::'
       subcat:
@@ -20486,6 +20965,8 @@ individualise:
     sense:
     - derivation:
       - 'individualisation%1:09:00::'
+      event:
+      - 'individualisation%1:09:00::'
       id: 'individualise%2:31:00::'
       subcat:
       - vtai
@@ -20577,6 +21058,8 @@ individualize:
     - derivation:
       - 'individualization%1:09:00::'
       - 'individual%1:18:00::'
+      event:
+      - 'individualization%1:09:00::'
       id: 'individualize%2:31:00::'
       subcat:
       - vtai
@@ -20606,7 +21089,11 @@ individuate:
     - derivation:
       - 'individuation%1:09:00::'
       - 'individuation%1:07:00::'
+      event:
+      - 'individuation%1:09:00::'
       id: 'individuate%2:42:00::'
+      property:
+      - 'individuation%1:07:00::'
       subcat:
       - vtia
       - vtii
@@ -20614,6 +21101,8 @@ individuate:
     - derivation:
       - 'individuation%1:07:00::'
       id: 'individuate%2:30:00::'
+      property:
+      - 'individuation%1:07:00::'
       subcat:
       - vtii
       synset: 00141182-v
@@ -20662,6 +21151,8 @@ indoctrinate:
     sense:
     - derivation:
       - 'doctrine%1:09:00::'
+      - 'indoctrination%1:04:00::'
+      event:
       - 'indoctrination%1:04:00::'
       id: 'indoctrinate%2:31:00::'
       subcat:
@@ -20788,15 +21279,23 @@ indoors:
 indorse:
   v:
     sense:
-    - derivation:
+    - by_means_of:
       - 'indorsement%1:10:01::'
+      derivation:
+      - 'indorsement%1:10:01::'
+      - 'indorsement%1:04:00::'
+      event:
       - 'indorsement%1:04:00::'
       id: 'indorse%2:41:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02459338-v
-    - derivation:
+    - agent:
+      - 'indorser%1:18:00::'
+      by_means_of:
+      - 'indorsement%1:10:02::'
+      derivation:
       - 'indorser%1:18:00::'
       - 'indorsement%1:10:02::'
       id: 'indorse%2:41:02::'
@@ -20805,12 +21304,18 @@ indorse:
       synset: 02562643-v
     - derivation:
       - 'indorsement%1:10:00::'
+      event:
+      - 'indorsement%1:10:00::'
       id: 'indorse%2:41:01::'
       subcat:
       - via-that
       - vtai
       synset: 02452658-v
-    - derivation:
+    - agent:
+      - 'indorser%1:18:01::'
+      by_means_of:
+      - 'indorsement%1:10:04::'
+      derivation:
       - 'indorser%1:18:01::'
       - 'indorsement%1:10:04::'
       id: 'indorse%2:32:00::'
@@ -20912,17 +21417,26 @@ induce:
       - 'inducement%1:04:00::'
       - 'induction%1:04:00::'
       - 'inducing%1:04:00::'
+      event:
+      - 'induction%1:04:00::'
+      - 'inducement%1:04:00::'
       id: 'induce%2:36:00::'
       subcat:
       - vtai
       - vtii
       synset: 01647592-v
-    - derivation:
+    - agent:
+      - 'inducer%1:18:00::'
+      by_means_of:
+      - 'inducement%1:16:00::'
+      derivation:
       - inducive%5:00:00:causative:00
       - 'inducement%1:16:00::'
       - 'induction%1:04:03::'
       - 'inducer%1:18:00::'
       - 'inducing%1:04:00::'
+      event:
+      - 'induction%1:04:03::'
       id: 'induce%2:32:00::'
       sent:
       - They induce him to write the letter
@@ -20933,6 +21447,8 @@ induce:
     - derivation:
       - 'induction%1:04:00::'
       - 'inducing%1:04:00::'
+      event:
+      - 'induction%1:04:00::'
       id: 'induce%2:36:01::'
       subcat:
       - vtai
@@ -20940,11 +21456,15 @@ induce:
       synset: 01648064-v
     - derivation:
       - 'induction%1:09:00::'
+      event:
+      - 'induction%1:09:00::'
       id: 'induce%2:31:00::'
       subcat:
       - via-that
       synset: 00638103-v
     - derivation:
+      - 'induction%1:19:00::'
+      event:
       - 'induction%1:19:00::'
       id: 'induce%2:36:03::'
       subcat:
@@ -21012,19 +21532,28 @@ induct:
       - 'inductee%1:18:00::'
       - 'induction%1:11:00::'
       - 'inductee%1:18:01::'
+      event:
+      - 'induction%1:11:00::'
       id: 'induct%2:41:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02389417-v
+      undergoer:
+      - 'inductee%1:18:00::'
+      - 'inductee%1:18:01::'
     - derivation:
       - 'induction%1:11:00::'
       - 'inductee%1:18:01::'
+      event:
+      - 'induction%1:11:00::'
       id: 'induct%2:41:01::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02395612-v
+      undergoer:
+      - 'inductee%1:18:01::'
     - id: 'induct%2:41:03::'
       subcat:
       - vtaa
@@ -21032,12 +21561,17 @@ induct:
       synset: 02389696-v
     - derivation:
       - 'induction%1:19:00::'
+      event:
+      - 'induction%1:19:00::'
       id: 'induct%2:36:00::'
       subcat:
       - vtai
       - vtii
       synset: 01741298-v
     - derivation:
+      - 'induction%1:04:03::'
+      - 'induction%1:04:00::'
+      event:
       - 'induction%1:04:03::'
       - 'induction%1:04:00::'
       id: 'induct%2:32:00::'
@@ -21169,6 +21703,8 @@ indulge:
     sense:
     - derivation:
       - 'indulgence%1:04:00::'
+      event:
+      - 'indulgence%1:04:00::'
       id: 'indulge%2:41:01::'
       subcat:
       - via-pp
@@ -21176,6 +21712,8 @@ indulge:
     - derivation:
       - 'indulgence%1:07:02::'
       - 'indulging%1:04:00::'
+      event:
+      - 'indulgence%1:07:02::'
       id: 'indulge%2:34:00::'
       sent:
       - Sam cannot indulge Sue
@@ -21187,6 +21725,8 @@ indulge:
       synset: 01184590-v
     - derivation:
       - 'indulgence%1:07:00::'
+      event:
+      - 'indulgence%1:07:00::'
       id: 'indulge%2:34:12::'
       sent:
       - They indulge themselves
@@ -21195,6 +21735,8 @@ indulge:
       synset: 01194178-v
     - derivation:
       - 'indulging%1:04:00::'
+      - 'indulgence%1:04:00::'
+      event:
       - 'indulgence%1:04:00::'
       id: 'indulge%2:41:00::'
       subcat:
@@ -21281,6 +21823,8 @@ indurate:
       synset: 00577461-v
     - derivation:
       - 'induration%1:26:00::'
+      event:
+      - 'induration%1:26:00::'
       id: 'indurate%2:30:01::'
       subcat:
       - vtai
@@ -21288,6 +21832,8 @@ indurate:
       - vtii
       synset: 00444339-v
     - derivation:
+      - 'induration%1:26:00::'
+      event:
       - 'induration%1:26:00::'
       id: 'indurate%2:30:00::'
       subcat:
@@ -21447,6 +21993,8 @@ industrialise:
     - derivation:
       - 'industrialisation%1:04:00::'
       - 'industrialism%1:14:00::'
+      event:
+      - 'industrialisation%1:04:00::'
       id: 'industrialise%2:30:00::'
       subcat:
       - vii
@@ -21492,6 +22040,8 @@ industrialize:
     - derivation:
       - 'industrialization%1:04:00::'
       - 'industrialism%1:14:00::'
+      event:
+      - 'industrialization%1:04:00::'
       id: 'industrialize%2:30:00::'
       subcat:
       - vii
@@ -21574,6 +22124,8 @@ indwell:
     sense:
     - derivation:
       - 'indweller%1:22:00::'
+      event:
+      - 'indweller%1:22:00::'
       id: 'indwell%2:42:00::'
       subcat:
       - vtii
@@ -21619,15 +22171,25 @@ inebriate:
       - 'inebriation%1:26:00::'
       - 'inebriant%1:13:00::'
       - 'inebriate%1:18:00::'
+      event:
+      - 'inebriation%1:26:01::'
       id: 'inebriate%2:34:01::'
+      state:
+      - 'inebriation%1:26:00::'
       subcat:
       - vtia
       synset: 01193027-v
-    - derivation:
+    - agent:
+      - 'inebriate%1:18:00::'
+      derivation:
       - 'inebriation%1:26:01::'
       - 'inebriation%1:26:00::'
       - 'inebriate%1:18:00::'
+      event:
+      - 'inebriation%1:26:01::'
       id: 'inebriate%2:34:00::'
+      state:
+      - 'inebriation%1:26:00::'
       subcat:
       - via
       synset: 01192810-v
@@ -22778,11 +23340,16 @@ infatuate:
       - 'infatuation%1:12:02::'
       - 'infatuation%1:12:00::'
       - 'infatuation%1:09:00::'
+      event:
+      - 'infatuation%1:12:02::'
+      - 'infatuation%1:12:00::'
       id: 'infatuate%2:37:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01764521-v
+      undergoer:
+      - 'infatuation%1:09:00::'
 infatuated:
   a:
     sense:
@@ -22828,6 +23395,8 @@ infect:
       - infective%5:00:00:unhealthful:00
       - infective%5:00:00:septic:00
       - 'infection%1:11:00::'
+      event:
+      - 'infection%1:11:00::'
       id: 'infect%2:29:01::'
       subcat:
       - vtaa
@@ -22840,7 +23409,11 @@ infect:
       - infective%5:00:00:septic:00
       - 'infection%1:22:00::'
       - 'infection%1:26:00::'
+      event:
+      - 'infection%1:22:00::'
       id: 'infect%2:29:00::'
+      state:
+      - 'infection%1:26:00::'
       subcat:
       - vtaa
       synset: 00088465-v
@@ -22852,6 +23425,8 @@ infect:
       - vtii
       synset: 02586322-v
     - derivation:
+      - 'infection%1:10:00::'
+      event:
       - 'infection%1:10:00::'
       id: 'infect%2:31:01::'
       subcat:
@@ -23013,11 +23588,15 @@ infer:
     sense:
     - derivation:
       - 'inference%1:09:00::'
+      event:
+      - 'inference%1:09:00::'
       id: 'infer%2:31:00::'
       subcat:
       - via-that
       synset: 00638236-v
     - derivation:
+      - 'inference%1:09:00::'
+      event:
       - 'inference%1:09:00::'
       id: 'infer%2:32:01::'
       subcat:
@@ -23025,6 +23604,8 @@ infer:
       - vtai
       synset: 01024429-v
     - derivation:
+      - 'inference%1:09:00::'
+      event:
       - 'inference%1:09:00::'
       id: 'infer%2:32:00::'
       subcat:
@@ -23332,18 +23913,26 @@ infest:
     pronunciation:
     - value: ɪnˈfɛst
     sense:
-    - derivation:
+    - agent:
+      - 'infestation%1:14:00::'
+      derivation:
       - 'infestation%1:26:00::'
       - 'infestation%1:14:00::'
       id: 'infest%2:38:00::'
+      state:
+      - 'infestation%1:26:00::'
       subcat:
       - vtia
       - vtii
       synset: 02024265-v
-    - derivation:
+    - agent:
+      - 'infestation%1:14:00::'
+      derivation:
       - 'infestation%1:26:00::'
       - 'infestation%1:14:00::'
       id: 'infest%2:42:02::'
+      state:
+      - 'infestation%1:26:00::'
       subcat:
       - vii-pp
       - vtii
@@ -23416,26 +24005,38 @@ infiltrate:
     sense:
     - derivation:
       - 'infiltration%1:22:00::'
+      event:
+      - 'infiltration%1:22:00::'
       id: 'infiltrate%2:38:01::'
       subcat:
       - vtii
       synset: 01917700-v
-    - derivation:
+    - agent:
+      - 'infiltrator%1:18:01::'
+      derivation:
       - 'infiltration%1:04:00::'
       - 'infiltrator%1:18:01::'
+      event:
+      - 'infiltration%1:04:00::'
       id: 'infiltrate%2:41:00::'
       subcat:
       - vtai
       synset: 02440481-v
     - derivation:
       - 'infiltration%1:22:00::'
+      event:
+      - 'infiltration%1:22:00::'
       id: 'infiltrate%2:38:03::'
       subcat:
       - vii
       synset: 01917525-v
-    - derivation:
+    - agent:
+      - 'infiltrator%1:18:00::'
+      derivation:
       - 'infiltration%1:04:00::'
       - 'infiltrator%1:18:00::'
+      event:
+      - 'infiltration%1:04:00::'
       id: 'infiltrate%2:38:00::'
       subcat:
       - vtai
@@ -23635,6 +24236,8 @@ infix:
       - vtai
       - vtai-pp
       synset: 01301131-v
+      undergoer:
+      - 'infix%1:10:00::'
 infix notation:
   n:
     sense:
@@ -23648,6 +24251,8 @@ inflame:
     - derivation:
       - inflammatory%5:00:00:unhealthy:00
       - 'inflammation%1:26:00::'
+      event:
+      - 'inflammation%1:26:00::'
       id: 'inflame%2:29:01::'
       subcat:
       - vtia
@@ -23655,11 +24260,15 @@ inflame:
       synset: 00063495-v
     - derivation:
       - 'inflammation%1:04:01::'
+      event:
+      - 'inflammation%1:04:01::'
       id: 'inflame%2:43:01::'
       subcat:
       - vii
       synset: 02767643-v
     - derivation:
+      - 'inflammation%1:04:01::'
+      event:
       - 'inflammation%1:04:01::'
       id: 'inflame%2:43:00::'
       subcat:
@@ -23670,6 +24279,8 @@ inflame:
       - inflammatory%5:00:00:provocative:00
       - 'inflammation%1:04:00::'
       - 'inflaming%1:04:00::'
+      event:
+      - 'inflammation%1:04:00::'
       id: 'inflame%2:37:00::'
       subcat:
       - vtai
@@ -23677,6 +24288,8 @@ inflame:
       synset: 01764964-v
     - derivation:
       - inflammatory%5:00:00:unhealthy:00
+      - 'inflammation%1:26:00::'
+      event:
       - 'inflammation%1:26:00::'
       id: 'inflame%2:29:00::'
       subcat:
@@ -23788,6 +24401,11 @@ inflate:
       - 'inflation%1:04:00::'
       - 'inflater%1:06:00::'
       - 'inflator%1:06:00::'
+      event:
+      - 'inflation%1:04:00::'
+      instrument:
+      - 'inflater%1:06:00::'
+      - 'inflator%1:06:00::'
       id: 'inflate%2:30:00::'
       subcat:
       - vtai
@@ -23797,6 +24415,8 @@ inflate:
       - 'deflate%2:30:11::'
       derivation:
       - 'inflation%1:22:00::'
+      event:
+      - 'inflation%1:22:00::'
       id: 'inflate%2:30:11::'
       subcat:
       - vtii
@@ -23805,12 +24425,16 @@ inflate:
       - 'deflate%2:30:10::'
       derivation:
       - 'inflation%1:22:00::'
+      event:
+      - 'inflation%1:22:00::'
       id: 'inflate%2:30:10::'
       subcat:
       - vtai
       - vtia
       synset: 00563600-v
     - derivation:
+      - 'inflation%1:04:00::'
+      event:
       - 'inflation%1:04:00::'
       id: 'inflate%2:30:02::'
       subcat:
@@ -23897,6 +24521,9 @@ inflect:
     - derivation:
       - 'inflexion%1:24:00::'
       - 'inflection%1:24:00::'
+      event:
+      - 'inflexion%1:24:00::'
+      - 'inflection%1:24:00::'
       id: 'inflect%2:32:01::'
       subcat:
       - vtai
@@ -23905,6 +24532,9 @@ inflect:
       - 'inflection%1:10:01::'
       - 'inflection%1:10:00::'
       id: 'inflect%2:32:00::'
+      result:
+      - 'inflection%1:10:01::'
+      - 'inflection%1:10:00::'
       subcat:
       - vtai
       synset: 00984325-v
@@ -24036,6 +24666,8 @@ inflict:
     sense:
     - derivation:
       - 'infliction%1:04:01::'
+      event:
+      - 'infliction%1:04:01::'
       id: 'inflict%2:32:00::'
       subcat:
       - vtai-on
@@ -24121,31 +24753,56 @@ influence:
     pronunciation:
     - value: ˈɪn.flu.əns
     sense:
-    - derivation:
+    - agent:
+      - 'influence%1:18:00::'
+      by_means_of:
+      - 'influence%1:07:00::'
+      - 'influence%1:09:00::'
+      derivation:
       - 'influence%1:18:00::'
       - 'influence%1:19:00::'
       - 'influence%1:09:00::'
       - 'influence%1:07:00::'
       id: 'influence%2:41:00::'
+      result:
+      - 'influence%1:19:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       - vtii
       synset: 02542223-v
-    - derivation:
+      undergoer:
+      - 'influence%1:19:00::'
+      - 'influence%1:09:00::'
+      - 'influence%1:07:00::'
+    - agent:
+      - 'influence%1:18:00::'
+      by_means_of:
+      - 'influence%1:19:00::'
+      derivation:
       - 'influence%1:19:00::'
       - 'influence%1:18:00::'
       - 'influence%1:04:00::'
+      event:
+      - 'influence%1:04:00::'
+      - 'influence%1:19:00::'
       id: 'influence%2:31:00::'
       subcat:
       - via-whether-inf
       - vtii
       synset: 00702806-v
-    - derivation:
+    - agent:
+      - 'influence%1:18:00::'
+      by_means_of:
+      - 'influence%1:19:00::'
+      - 'influence%1:07:00::'
+      derivation:
       - 'influence%1:18:00::'
       - 'influence%1:19:00::'
       - 'influence%1:07:00::'
+      event:
+      - 'influence%1:19:00::'
       id: 'influence%2:32:00::'
       sent:
       - They influence him to write the letter
@@ -24249,11 +24906,17 @@ inform:
       subcat:
       - via-pp
       synset: 00833312-v
+      uses:
+      - 'information%1:14:00::'
+      - 'information%1:10:00::'
+      - 'information%1:09:00::'
     - id: 'inform%2:30:00::'
       subcat:
       - vtai
       synset: 00523693-v
-    - derivation:
+    - agent:
+      - 'informer%1:18:00::'
+      derivation:
       - 'informer%1:18:00::'
       - 'informing%1:10:01::'
       id: 'inform%2:32:10::'
@@ -24542,6 +25205,8 @@ infract:
     sense:
     - derivation:
       - 'infraction%1:04:00::'
+      event:
+      - 'infraction%1:04:00::'
       id: 'infract%2:41:00::'
       subcat:
       - vtai
@@ -24690,11 +25355,16 @@ infringe:
     - derivation:
       - 'infringement%1:04:01::'
       - 'infringement%1:04:00::'
+      event:
+      - 'infringement%1:04:01::'
+      - 'infringement%1:04:00::'
       id: 'infringe%2:41:00::'
       subcat:
       - via-pp
       synset: 02573062-v
     - derivation:
+      - 'infringement%1:04:01::'
+      event:
       - 'infringement%1:04:01::'
       id: 'infringe%2:38:00::'
       subcat:
@@ -24746,6 +25416,8 @@ infuriate:
       sent:
       - The bad news will infuriate him
       - The performance is likely to infuriate Sue
+      state:
+      - 'infuriation%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -24786,6 +25458,8 @@ infuse:
       synset: 00607995-v
     - derivation:
       - 'infusion%1:04:01::'
+      event:
+      - 'infusion%1:04:01::'
       id: 'infuse%2:30:01::'
       subcat:
       - vtaa
@@ -24794,6 +25468,8 @@ infuse:
       - vtii
       synset: 00499380-v
     - derivation:
+      - 'infusion%1:22:00::'
+      event:
       - 'infusion%1:22:00::'
       id: 'infuse%2:30:02::'
       subcat:
@@ -24804,6 +25480,8 @@ infuse:
       - vtai
       synset: 00328172-v
     - derivation:
+      - 'infusion%1:04:00::'
+      event:
       - 'infusion%1:04:00::'
       id: 'infuse%2:29:00::'
       subcat:
@@ -24946,6 +25624,8 @@ ingest:
     - value: ɪnˈdʒɛst
     sense:
     - derivation:
+      - 'ingestion%1:04:00::'
+      event:
       - 'ingestion%1:04:00::'
       id: 'ingest%2:34:00::'
       sent:
@@ -25210,11 +25890,15 @@ inhabit:
       - 'inhabitation%1:04:00::'
       - 'inhabitant%1:18:00::'
       - 'inhabitancy%1:04:00::'
+      event:
+      - 'inhabitation%1:04:00::'
       id: 'inhabit%2:42:00::'
       subcat:
       - via-pp
       synset: 02655932-v
     - derivation:
+      - 'inhabitation%1:04:00::'
+      event:
       - 'inhabitation%1:04:00::'
       id: 'inhabit%2:42:02::'
       subcat:
@@ -25345,17 +26029,25 @@ inhale:
       - 'inhalation%1:06:00::'
       - 'inhalation%1:04:00::'
       - 'inhalant%1:27:00::'
+      event:
+      - 'inhalation%1:04:00::'
       id: 'inhale%2:34:00::'
       subcat:
       - via
       - vtai
       synset: 01201417-v
+      undergoer:
+      - 'inhalation%1:06:00::'
     - antonym:
       - 'exhale%2:29:00::'
       derivation:
       - 'inhalant%3:01:00::'
       - 'inhalant%1:27:00::'
       - 'inhalation%1:04:00::'
+      - 'inhalator%1:06:01::'
+      event:
+      - 'inhalation%1:04:00::'
+      instrument:
       - 'inhalator%1:06:01::'
       id: 'inhale%2:29:00::'
       subcat:
@@ -25404,6 +26096,8 @@ inhere:
       - inherent%5:00:00:implicit:00
       - 'inherence%1:26:00::'
       id: 'inhere%2:42:00::'
+      state:
+      - 'inherence%1:26:00::'
       subcat:
       - vii-pp
       synset: 02659659-v
@@ -25464,8 +26158,12 @@ inherit:
     pronunciation:
     - value: ɪnˈhɛɹɪt
     sense:
-    - derivation:
+    - agent:
       - 'inheritor%1:18:00::'
+      derivation:
+      - 'inheritor%1:18:00::'
+      - 'inheritance%1:04:00::'
+      event:
       - 'inheritance%1:04:00::'
       id: 'inherit%2:40:00::'
       subcat:
@@ -25482,6 +26180,8 @@ inherit:
       subcat:
       - vtai
       synset: 02320739-v
+      undergoer:
+      - 'inheritance%1:07:02::'
 inheritable:
   a:
     sense:
@@ -25565,6 +26265,8 @@ inhibit:
       - 'inhibitor%1:27:00::'
       - 'inhibition%1:04:01::'
       id: 'inhibit%2:30:01::'
+      material:
+      - 'inhibitor%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -25752,6 +26454,8 @@ inhume:
     sense:
     - derivation:
       - 'inhumation%1:11:00::'
+      event:
+      - 'inhumation%1:11:00::'
       id: 'inhume%2:41:00::'
       subcat:
       - vtaa
@@ -25843,12 +26547,16 @@ initial:
     pronunciation:
     - value: ɪˈnɪʃəl
     sense:
-    - derivation:
+    - by_means_of:
+      - 'initial%1:10:00::'
+      derivation:
       - 'initial%1:10:00::'
       id: 'initial%2:32:00::'
       subcat:
       - vtai
       synset: 00999352-v
+      undergoer:
+      - 'initial%1:10:00::'
 initial offering:
   n:
     sense:
@@ -25886,6 +26594,8 @@ initialise:
     - derivation:
       - 'initialisation%1:10:00::'
       id: 'initialise%2:30:10::'
+      result:
+      - 'initialisation%1:10:00::'
       subcat:
       - vii
       synset: 00564629-v
@@ -25912,12 +26622,16 @@ initialize:
     - derivation:
       - 'initialization%1:10:00::'
       id: 'initialize%2:31:00::'
+      result:
+      - 'initialization%1:10:00::'
       subcat:
       - vtai
       synset: 00702662-v
     - derivation:
       - 'initialization%1:10:00::'
       id: 'initialize%2:30:10::'
+      result:
+      - 'initialization%1:10:00::'
       subcat:
       - vii
       synset: 00564629-v
@@ -25954,14 +26668,21 @@ initiate:
       - initiatory%5:00:00:opening:00
       - 'initiation%1:04:02::'
       - 'initiation%1:04:01::'
+      event:
+      - 'initiation%1:04:02::'
+      - 'initiation%1:04:01::'
       id: 'initiate%2:36:01::'
       subcat:
       - vtai
       - vtii
       synset: 01631641-v
-    - derivation:
+    - agent:
+      - 'initiator%1:18:00::'
+      derivation:
       - 'initiation%1:04:01::'
       - 'initiator%1:18:00::'
+      event:
+      - 'initiation%1:04:01::'
       id: 'initiate%2:36:00::'
       subcat:
       - vtai
@@ -25971,17 +26692,26 @@ initiate:
       - 'initiate%1:18:00::'
       - 'initiate%1:14:00::'
       - 'initiation%1:11:00::'
+      event:
+      - 'initiation%1:11:00::'
       id: 'initiate%2:41:01::'
+      result:
+      - 'initiate%1:18:00::'
+      - 'initiate%1:14:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02395612-v
+      undergoer:
+      - 'initiate%1:18:02::'
     - id: 'initiate%2:32:00::'
       subcat:
       - vtai
       synset: 00966943-v
     - derivation:
       - initiative%5:00:00:opening:00
+      - 'initiation%1:04:02::'
+      event:
       - 'initiation%1:04:02::'
       id: 'initiate%2:30:00::'
       subcat:
@@ -26050,6 +26780,8 @@ inject:
       - 'injectable%3:00:00::'
       - 'injection%1:04:01::'
       - 'injectant%1:27:00::'
+      event:
+      - 'injection%1:04:01::'
       id: 'inject%2:29:00::'
       sent:
       - Did he inject his foot?
@@ -26064,6 +26796,10 @@ inject:
     - derivation:
       - 'injectable%3:00:00::'
       - 'injection%1:04:00::'
+      - 'injector%1:06:00::'
+      event:
+      - 'injection%1:04:00::'
+      instrument:
       - 'injector%1:06:00::'
       id: 'inject%2:35:00::'
       sent:
@@ -26327,6 +27063,8 @@ ink:
       subcat:
       - vtai
       synset: 00454635-v
+      undergoer:
+      - 'ink%1:27:01::'
 ink bottle:
   n:
     sense:
@@ -26492,6 +27230,8 @@ inlay:
     - derivation:
       - 'inlay%1:06:00::'
       id: 'inlay%2:36:00::'
+      result:
+      - 'inlay%1:06:00::'
       subcat:
       - vtai
       synset: 01685934-v
@@ -26690,6 +27430,8 @@ innervate:
     sense:
     - derivation:
       - 'innervation%1:07:00::'
+      event:
+      - 'innervation%1:07:00::'
       id: 'innervate%2:40:00::'
       subcat:
       - vtai
@@ -26848,12 +27590,18 @@ innovate:
     - value: ˈɪnəveɪt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'innovator%1:18:00::'
+      derivation:
       - innovative%5:00:00:original:00
       - 'innovation%1:06:00::'
       - 'innovation%1:04:00::'
       - 'innovator%1:18:00::'
+      event:
+      - 'innovation%1:04:00::'
       id: 'innovate%2:36:00::'
+      result:
+      - 'innovation%1:06:00::'
       subcat:
       - vtai
       synset: 01645979-v
@@ -26988,11 +27736,15 @@ inoculate:
       - vtai
       - vtai-pp
       synset: 00188584-v
-    - derivation:
+    - agent:
+      - 'inoculator%1:18:00::'
+      derivation:
       - 'inoculation%1:04:00::'
       - 'inoculant%1:27:00::'
       - 'inoculator%1:18:00::'
       - 'inoculating%1:04:00::'
+      event:
+      - 'inoculation%1:04:00::'
       id: 'inoculate%2:29:00::'
       subcat:
       - via
@@ -27178,6 +27930,8 @@ inosculate:
       - vii
       synset: 01294969-v
     - derivation:
+      - 'inosculation%1:08:00::'
+      event:
       - 'inosculation%1:08:00::'
       id: 'inosculate%2:35:00::'
       subcat:
@@ -27622,6 +28376,8 @@ inscribe:
       synset: 01586265-v
     - derivation:
       - 'inscription%1:04:00::'
+      event:
+      - 'inscription%1:04:00::'
       id: 'inscribe%2:32:03::'
       subcat:
       - vtai
@@ -27860,6 +28616,8 @@ inseminate:
     sense:
     - derivation:
       - 'insemination%1:04:01::'
+      event:
+      - 'insemination%1:04:01::'
       id: 'inseminate%2:35:00::'
       sent:
       - They inseminate the field with rye
@@ -27869,6 +28627,8 @@ inseminate:
     - derivation:
       - 'insemination%1:04:00::'
       - 'semen%1:08:00::'
+      event:
+      - 'insemination%1:04:00::'
       id: 'inseminate%2:29:00::'
       subcat:
       - vtaa
@@ -28053,21 +28813,32 @@ insert:
       - 'insertion%1:04:00::'
       - 'insert%1:04:00::'
       - 'insert%1:06:00::'
+      event:
+      - 'insertion%1:04:00::'
       id: 'insert%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01424276-v
+      undergoer:
+      - 'insert%1:04:00::'
+      - 'insert%1:06:00::'
     - derivation:
       - 'insertion%1:04:00::'
       - 'insert%1:06:00::'
+      event:
+      - 'insertion%1:04:00::'
       id: 'insert%2:30:00::'
       subcat:
       - vtai
       - vtai-pp
       - vtii
       synset: 00187671-v
+      undergoer:
+      - 'insert%1:06:00::'
     - derivation:
+      - 'insertion%1:04:00::'
+      event:
       - 'insertion%1:04:00::'
       id: 'insert%2:35:01::'
       subcat:
@@ -28125,6 +28896,9 @@ inset:
       subcat:
       - vtai-pp
       synset: 00188798-v
+      undergoer:
+      - 'inset%1:06:01::'
+      - 'inset%1:06:00::'
 inshore:
   a:
     sense:
@@ -28416,6 +29190,8 @@ insinuate:
       synset: 02083102-v
     - derivation:
       - 'insinuation%1:10:00::'
+      event:
+      - 'insinuation%1:10:00::'
       id: 'insinuate%2:32:00::'
       sent:
       - They insinuate that there was a traffic accident
@@ -28490,6 +29266,8 @@ insist:
     - value: ɪnˈsɪst
     sense:
     - derivation:
+      - 'insistence%1:10:00::'
+      event:
       - 'insistence%1:10:00::'
       id: 'insist%2:32:00::'
       subcat:
@@ -28583,6 +29361,10 @@ insolate:
   v:
     sense:
     - derivation:
+      - 'insolation%1:26:00::'
+      - 'insolation%1:19:00::'
+      - 'insolation%1:04:00::'
+      event:
       - 'insolation%1:26:00::'
       - 'insolation%1:19:00::'
       - 'insolation%1:04:00::'
@@ -28792,12 +29574,16 @@ inspect:
       synset: 02169987-v
     - derivation:
       - 'inspection%1:04:00::'
+      event:
+      - 'inspection%1:04:00::'
       id: 'inspect%2:38:00::'
       subcat:
       - vtai
       - vtii
       synset: 01847990-v
-    - derivation:
+    - agent:
+      - 'inspector%1:18:00::'
+      derivation:
       - 'inspector%1:18:00::'
       id: 'inspect%2:31:00::'
       subcat:
@@ -28915,6 +29701,8 @@ inspire:
       synset: 01816687-v
     - derivation:
       - 'inspiration%1:09:02::'
+      event:
+      - 'inspiration%1:09:02::'
       id: 'inspire%2:36:00::'
       subcat:
       - vtii
@@ -28931,7 +29719,9 @@ inspire:
       subcat:
       - vtaa
       synset: 00860463-v
-    - derivation:
+    - agent:
+      - 'inspirer%1:18:00::'
+      derivation:
       - 'inspirer%1:18:00::'
       id: 'inspire%2:31:00::'
       subcat:
@@ -28940,6 +29730,8 @@ inspire:
       synset: 00606705-v
     - derivation:
       - 'inspiratory%3:01:00::'
+      - 'inspiration%1:04:00::'
+      event:
       - 'inspiration%1:04:00::'
       id: 'inspire%2:29:00::'
       subcat:
@@ -28993,6 +29785,9 @@ inspissate:
     - derivation:
       - 'inspissation%1:22:00::'
       - 'inspissation%1:04:00::'
+      event:
+      - 'inspissation%1:22:00::'
+      - 'inspissation%1:04:00::'
       id: 'inspissate%2:30:03::'
       subcat:
       - vtai
@@ -29000,12 +29795,16 @@ inspissate:
       synset: 00432563-v
     - derivation:
       - 'inspissation%1:04:00::'
+      event:
+      - 'inspissation%1:04:00::'
       id: 'inspissate%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00432280-v
     - derivation:
+      - 'inspissation%1:04:00::'
+      event:
       - 'inspissation%1:04:00::'
       id: 'inspissate%2:30:00::'
       subcat:
@@ -29063,6 +29862,8 @@ instal:
     - derivation:
       - 'instalment%1:04:00::'
       - 'installing%1:04:00::'
+      event:
+      - 'instalment%1:04:00::'
       id: 'instal%2:35:00::'
       sent:
       - They want to instal the doors
@@ -29105,6 +29906,9 @@ install:
       - 'installment%1:04:00::'
       - 'installation%1:04:00::'
       - 'installing%1:04:00::'
+      event:
+      - 'installation%1:04:00::'
+      - 'installment%1:04:00::'
       id: 'install%2:35:00::'
       sent:
       - They want to install the doors
@@ -29117,6 +29921,9 @@ install:
     - derivation:
       - 'installation%1:11:00::'
       - 'installation%1:04:00::'
+      event:
+      - 'installation%1:11:00::'
+      - 'installation%1:04:00::'
       id: 'install%2:41:00::'
       subcat:
       - vtaa
@@ -29125,6 +29932,8 @@ install:
     - derivation:
       - 'installation%1:06:00::'
       id: 'install%2:35:01::'
+      result:
+      - 'installation%1:06:00::'
       subcat:
       - vtaa
       - vtai
@@ -29234,11 +30043,15 @@ instance:
     sense:
     - derivation:
       - 'instance%1:09:00::'
+      event:
+      - 'instance%1:09:00::'
       id: 'instance%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 01023137-v
+      uses:
+      - 'instance%1:09:00::'
 instancy:
   n:
     sense:
@@ -29321,10 +30134,15 @@ instantiate:
     pronunciation:
     - value: ɪnˈstænʃieɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'instance%1:09:00::'
+      derivation:
       - 'instance%1:11:00::'
       - 'instance%1:09:00::'
       - 'instantiation%1:09:00::'
+      event:
+      - 'instantiation%1:09:00::'
+      - 'instance%1:11:00::'
       id: 'instantiate%2:39:01::'
       subcat:
       - vtii
@@ -29333,10 +30151,15 @@ instantiate:
       - 'instance%1:11:00::'
       - 'instance%1:09:00::'
       - 'instantiation%1:09:00::'
+      event:
+      - 'instantiation%1:09:00::'
+      - 'instance%1:11:00::'
       id: 'instantiate%2:39:00::'
       subcat:
       - via
       synset: 02159923-v
+      undergoer:
+      - 'instance%1:09:00::'
 instantiation:
   n:
     pronunciation:
@@ -29397,21 +30220,30 @@ instigate:
     pronunciation:
     - value: ˈɪnstəɡeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'instigator%1:18:01::'
+      derivation:
       - instigative%5:00:00:provocative:00
       - 'instigation%1:04:00::'
       - 'instigant%1:18:00::'
       - 'instigator%1:18:01::'
+      event:
+      - 'instigation%1:04:00::'
       id: 'instigate%2:32:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
       - vtai
       synset: 00852919-v
-    - derivation:
+    - agent:
+      - 'instigator%1:18:00::'
+      derivation:
       - 'instigation%1:10:00::'
       - 'instigation%1:04:00::'
       - 'instigator%1:18:00::'
+      event:
+      - 'instigation%1:10:00::'
+      - 'instigation%1:04:00::'
       id: 'instigate%2:32:01::'
       sent:
       - They instigate him to write the letter
@@ -29460,6 +30292,8 @@ instil:
     sense:
     - derivation:
       - 'instilment%1:04:00::'
+      event:
+      - 'instilment%1:04:00::'
       id: 'instil%2:35:01::'
       subcat:
       - vtai
@@ -29482,11 +30316,18 @@ instill:
       - 'instillation%1:27:00::'
       - 'instillation%1:04:00::'
       - 'instillator%1:06:00::'
+      event:
+      - 'instillation%1:04:00::'
+      - 'instillment%1:04:00::'
+      instrument:
+      - 'instillator%1:06:00::'
       id: 'instill%2:35:01::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01425316-v
+      undergoer:
+      - 'instillation%1:27:00::'
     - derivation:
       - 'instilling%1:04:00::'
       id: 'instill%2:31:00::'
@@ -29590,6 +30431,8 @@ institute:
   v:
     sense:
     - derivation:
+      - 'institution%1:04:00::'
+      event:
       - 'institution%1:04:00::'
       id: 'institute%2:36:01::'
       subcat:
@@ -29712,10 +30555,14 @@ instruct:
     pronunciation:
     - value: ˌɪnˈstɹʌkt
     sense:
-    - derivation:
+    - agent:
+      - 'instructor%1:18:00::'
+      derivation:
       - 'instructive%3:00:00::'
       - 'instruction%1:04:01::'
       - 'instructor%1:18:00::'
+      event:
+      - 'instruction%1:04:01::'
       id: 'instruct%2:32:00::'
       subcat:
       - via-that
@@ -29859,17 +30706,28 @@ instrument:
     pronunciation:
     - value: ˈɪnstɹəmənt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'instrument%1:04:00::'
+      derivation:
       - 'instrument%1:04:00::'
       - 'instrumentation%1:06:00::'
+      - 'instrumentation%1:04:00::'
+      event:
       - 'instrumentation%1:04:00::'
       id: 'instrument%2:40:00::'
       subcat:
       - vtai
       - vtia
       synset: 02345539-v
-    - derivation:
+      uses:
+      - 'instrumentation%1:06:00::'
+      - 'instrument%1:04:00::'
+    - by_means_of:
       - 'instrument%1:06:01::'
+      derivation:
+      - 'instrument%1:06:01::'
+      - 'instrumentation%1:04:01::'
+      event:
       - 'instrumentation%1:04:01::'
       id: 'instrument%2:36:00::'
       subcat:
@@ -29877,10 +30735,14 @@ instrument:
       synset: 01711784-v
     - derivation:
       - 'instrument%1:10:00::'
+      event:
+      - 'instrument%1:10:00::'
       id: 'instrument%2:32:00::'
       subcat:
       - vtaa
       synset: 00993183-v
+      undergoer:
+      - 'instrument%1:10:00::'
 instrument flying:
   n:
     sense:
@@ -29978,7 +30840,9 @@ instrumentality:
 instrumentate:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'instrument%1:06:01::'
+      derivation:
       - 'instrument%1:06:01::'
       id: 'instrumentate%2:36:00::'
       sent:
@@ -30122,6 +30986,8 @@ insufflate:
     sense:
     - derivation:
       - 'insufflation%1:04:00::'
+      event:
+      - 'insufflation%1:04:00::'
       id: 'insufflate%2:40:00::'
       subcat:
       - vtaa
@@ -30129,11 +30995,15 @@ insufflate:
       synset: 02314781-v
     - derivation:
       - 'insufflation%1:22:00::'
+      event:
+      - 'insufflation%1:22:00::'
       id: 'insufflate%2:29:01::'
       subcat:
       - vtai
       synset: 00079382-v
     - derivation:
+      - 'insufflation%1:04:00::'
+      event:
       - 'insufflation%1:04:00::'
       id: 'insufflate%2:29:00::'
       subcat:
@@ -30199,18 +31069,26 @@ insulate:
     - value: ˈɪnsəleɪt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'insulation%1:27:00::'
+      derivation:
       - 'insulation%1:27:00::'
       - 'insulation%1:04:00::'
       - 'insulant%1:27:00::'
       - 'insulator%1:27:00::'
+      event:
+      - 'insulation%1:04:00::'
       id: 'insulate%2:30:01::'
+      material:
+      - 'insulator%1:27:00::'
       subcat:
       - vtai
       synset: 00495974-v
     - derivation:
       - 'insulation%1:26:00::'
       id: 'insulate%2:30:00::'
+      state:
+      - 'insulation%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -30308,6 +31186,9 @@ insult:
     - value: ɪnˈsʌlt
     sense:
     - derivation:
+      - 'insult%1:04:00::'
+      - 'insult%1:10:00::'
+      event:
       - 'insult%1:04:00::'
       - 'insult%1:10:00::'
       id: 'insult%2:32:00::'
@@ -30452,7 +31333,11 @@ insure:
       subcat:
       - vtii
       synset: 00892111-v
-    - derivation:
+    - agent:
+      - 'insurer%1:14:00::'
+      by_means_of:
+      - 'insurance%1:21:02::'
+      derivation:
       - 'insurer%1:14:00::'
       - 'insurance%1:21:02::'
       id: 'insure%2:32:00::'
@@ -30471,6 +31356,8 @@ insure:
       - vtia
       - vtii
       synset: 02255873-v
+      undergoer:
+      - 'insurance%1:26:00::'
 insured:
   a:
     sense:
@@ -30791,6 +31678,8 @@ integrate:
       - integrative%5:00:00:centralizing:00
       - 'integrative%3:00:00::'
       - 'integration%1:04:02::'
+      event:
+      - 'integration%1:04:02::'
       id: 'integrate%2:30:00::'
       subcat:
       - vtai
@@ -30799,6 +31688,8 @@ integrate:
     - derivation:
       - 'integration%1:04:00::'
       - 'integrating%1:04:00::'
+      event:
+      - 'integration%1:04:00::'
       id: 'integrate%2:41:00::'
       subcat:
       - vtai
@@ -30806,6 +31697,8 @@ integrate:
     - derivation:
       - 'integration%1:04:02::'
       - 'integrating%1:04:00::'
+      event:
+      - 'integration%1:04:02::'
       id: 'integrate%2:30:01::'
       subcat:
       - via
@@ -30813,11 +31706,17 @@ integrate:
       synset: 00468364-v
     - antonym:
       - 'differentiate%2:31:00::'
+      by_means_of:
+      - 'integration%1:04:03::'
       derivation:
       - 'integral%1:09:00::'
       - 'integration%1:04:03::'
       - 'integrator%1:06:00::'
+      instrument:
+      - 'integrator%1:06:00::'
       id: 'integrate%2:31:00::'
+      result:
+      - 'integral%1:09:00::'
       subcat:
       - via
       - vtai
@@ -31215,6 +32114,8 @@ intend:
     - derivation:
       - 'intention%1:04:00::'
       - 'intent%1:09:00::'
+      event:
+      - 'intention%1:04:00::'
       id: 'intend%2:31:00::'
       sent:
       - They intend to move
@@ -31309,17 +32210,27 @@ intensify:
     - derivation:
       - 'intensity%1:07:00::'
       - 'intensification%1:04:00::'
+      event:
+      - 'intensification%1:04:00::'
       id: 'intensify%2:30:02::'
+      result:
+      - 'intensity%1:07:00::'
       subcat:
       - via
       - vtai
       - vtii
       synset: 00291064-v
-    - derivation:
+    - by_means_of:
+      - 'intensifier%1:10:00::'
+      derivation:
       - 'intensity%1:07:00::'
       - 'intensification%1:04:00::'
       - 'intensifier%1:10:00::'
+      event:
+      - 'intensification%1:04:00::'
       id: 'intensify%2:30:01::'
+      result:
+      - 'intensity%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -31327,14 +32238,22 @@ intensify:
     - derivation:
       - 'intensity%1:07:00::'
       - 'intensification%1:04:00::'
+      event:
+      - 'intensification%1:04:00::'
       id: 'intensify%2:30:00::'
+      result:
+      - 'intensity%1:07:00::'
       subcat:
       - vii
       synset: 00226992-v
     - derivation:
       - 'intensity%1:07:01::'
       - 'intensification%1:04:01::'
+      event:
+      - 'intensification%1:04:01::'
       id: 'intensify%2:30:10::'
+      result:
+      - 'intensity%1:07:01::'
       subcat:
       - vtai
       - vtii
@@ -31536,6 +32455,8 @@ inter:
     sense:
     - derivation:
       - 'interment%1:11:00::'
+      event:
+      - 'interment%1:11:00::'
       id: 'inter%2:41:00::'
       sent:
       - Sam cannot inter Sue
@@ -31570,6 +32491,8 @@ interact:
     sense:
     - derivation:
       - interactive%5:00:00:reciprocal:00
+      - 'interaction%1:04:00::'
+      event:
       - 'interaction%1:04:00::'
       id: 'interact%2:41:00::'
       subcat:
@@ -31704,6 +32627,8 @@ intercede:
     sense:
     - derivation:
       - 'intercession%1:04:00::'
+      event:
+      - 'intercession%1:04:00::'
       id: 'intercede%2:32:00::'
       sent:
       - Sam and Sue intercede
@@ -31744,11 +32669,15 @@ intercept:
     - derivation:
       - 'interception%1:04:00::'
       - 'interceptor%1:06:00::'
+      event:
+      - 'interception%1:04:00::'
       id: 'intercept%2:35:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01442997-v
+      vehicle:
+      - 'interceptor%1:06:00::'
     - id: 'intercept%2:39:00::'
       subcat:
       - vtai
@@ -31825,6 +32754,8 @@ interchange:
       - vtai-with
       synset: 02262575-v
     - derivation:
+      - 'interchange%1:04:01::'
+      event:
       - 'interchange%1:04:01::'
       id: 'interchange%2:40:00::'
       subcat:
@@ -31906,6 +32837,8 @@ intercommunicate:
       synset: 02628893-v
     - derivation:
       - 'intercommunication%1:10:00::'
+      event:
+      - 'intercommunication%1:10:00::'
       id: 'intercommunicate%2:32:00::'
       subcat:
       - via
@@ -31938,10 +32871,14 @@ interconnect:
     - derivation:
       - 'interconnection%1:26:00::'
       id: 'interconnect%2:42:00::'
+      state:
+      - 'interconnection%1:26:00::'
       subcat:
       - vii
       synset: 02629050-v
     - derivation:
+      - 'interconnection%1:04:00::'
+      event:
       - 'interconnection%1:04:00::'
       id: 'interconnect%2:35:01::'
       subcat:
@@ -32086,6 +33023,8 @@ interdepend:
       - interdependent%5:00:00:dependent:00
       - 'interdependency%1:24:00::'
       - 'interdependence%1:24:00::'
+      event:
+      - 'interdependence%1:24:00::'
       id: 'interdepend%2:42:00::'
       subcat:
       - vii
@@ -32144,6 +33083,9 @@ interdict:
     - derivation:
       - 'interdict%1:10:01::'
       - 'interdiction%1:10:01::'
+      event:
+      - 'interdiction%1:10:01::'
+      - 'interdict%1:10:01::'
       id: 'interdict%2:32:00::'
       sent:
       - Sam and Sue interdict the movie
@@ -32212,7 +33154,11 @@ interest:
       derivation:
       - 'interest%1:07:02::'
       - 'interest%1:09:00::'
+      event:
+      - 'interest%1:09:00::'
       id: 'interest%2:37:00::'
+      property:
+      - 'interest%1:07:02::'
       subcat:
       - vtaa
       - vtia
@@ -32229,6 +33175,8 @@ interest:
     - derivation:
       - 'interest%1:07:02::'
       id: 'interest%2:42:00::'
+      property:
+      - 'interest%1:07:02::'
       subcat:
       - vtia
       - vtii
@@ -32359,12 +33307,16 @@ interfere:
     sense:
     - derivation:
       - 'interference%1:04:00::'
+      event:
+      - 'interference%1:04:00::'
       id: 'interfere%2:41:01::'
       subcat:
       - via-pp
       - vii-pp
       synset: 02457343-v
     - derivation:
+      - 'interference%1:10:00::'
+      event:
       - 'interference%1:10:00::'
       id: 'interfere%2:41:00::'
       subcat:
@@ -32546,6 +33498,8 @@ interiorize:
     - derivation:
       - 'interior%1:15:01::'
       id: 'interiorize%2:31:00::'
+      location:
+      - 'interior%1:15:01::'
       subcat:
       - vtai
       - vtai-pp
@@ -32559,6 +33513,9 @@ interject:
       variety: US
     sense:
     - derivation:
+      - 'interjection%1:10:00::'
+      - 'interjection%1:04:00::'
+      event:
       - 'interjection%1:10:00::'
       - 'interjection%1:04:00::'
       id: 'interject%2:32:00::'
@@ -32719,11 +33676,15 @@ interlock:
     sense:
     - derivation:
       - 'interlock%1:04:00::'
+      event:
+      - 'interlock%1:04:00::'
       id: 'interlock%2:30:00::'
       subcat:
       - vtai
       synset: 00406004-v
     - derivation:
+      - 'interlock%1:04:00::'
+      event:
       - 'interlock%1:04:00::'
       id: 'interlock%2:35:01::'
       subcat:
@@ -32771,7 +33732,9 @@ interlocutory injunction:
 interlope:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'interloper%1:18:00::'
+      derivation:
       - 'interloper%1:18:00::'
       id: 'interlope%2:41:00::'
       subcat:
@@ -32800,6 +33763,8 @@ interlude:
     - value: ˈɪntə(ɹ)luːd
     sense:
     - derivation:
+      - 'interlude%1:04:00::'
+      event:
       - 'interlude%1:04:00::'
       id: 'interlude%2:36:00::'
       subcat:
@@ -32861,9 +33826,13 @@ intermediate:
     pronunciation:
     - value: ˌɪntɚˈmidi.ət
     sense:
-    - derivation:
+    - agent:
+      - 'intermediator%1:18:00::'
+      derivation:
       - 'intermediation%1:04:00::'
       - 'intermediator%1:18:00::'
+      event:
+      - 'intermediation%1:04:00::'
       id: 'intermediate%2:32:00::'
       subcat:
       - via
@@ -32997,6 +33966,8 @@ intermit:
     sense:
     - derivation:
       - 'intermission%1:04:00::'
+      event:
+      - 'intermission%1:04:00::'
       id: 'intermit%2:32:00::'
       subcat:
       - via
@@ -33103,20 +34074,28 @@ intern:
     pronunciation:
     - value: ɪnˈtɝn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'internment%1:26:00::'
+      derivation:
       - 'internee%1:18:00::'
       - 'internment%1:26:00::'
+      - 'internment%1:04:00::'
+      event:
       - 'internment%1:04:00::'
       id: 'intern%2:41:02::'
       subcat:
       - vtaa
       - vtia
       synset: 02501036-v
+      undergoer:
+      - 'internee%1:18:00::'
   v-2:
     pronunciation:
     - value: ˈɪntɝn
     sense:
-    - derivation:
+    - agent:
+      - 'intern%1:18:00::'
+      derivation:
       - 'internist%1:18:00::'
       - 'intern%1:18:00::'
       id: 'intern%2:41:00::'
@@ -33291,6 +34270,8 @@ internalise:
     - derivation:
       - 'internalisation%1:09:00::'
       id: 'internalise%2:31:00::'
+      result:
+      - 'internalisation%1:09:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -33316,6 +34297,8 @@ internalize:
     - derivation:
       - 'internalization%1:09:00::'
       id: 'internalize%2:31:00::'
+      result:
+      - 'internalization%1:09:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -33460,6 +34443,8 @@ internationalise:
     sense:
     - derivation:
       - 'internationalisation%1:04:00::'
+      event:
+      - 'internationalisation%1:04:00::'
       id: 'internationalise%2:41:00::'
       subcat:
       - vtai
@@ -33529,6 +34514,8 @@ internationalize:
   v:
     sense:
     - derivation:
+      - 'internationalization%1:04:00::'
+      event:
       - 'internationalization%1:04:00::'
       id: 'internationalize%2:41:00::'
       subcat:
@@ -33691,6 +34678,8 @@ interpellate:
     sense:
     - derivation:
       - 'interpellation%1:10:00::'
+      event:
+      - 'interpellation%1:10:00::'
       id: 'interpellate%2:32:00::'
       subcat:
       - vtaa
@@ -33709,11 +34698,15 @@ interpenetrate:
     sense:
     - derivation:
       - 'interpenetration%1:04:01::'
+      event:
+      - 'interpenetration%1:04:01::'
       id: 'interpenetrate%2:35:00::'
       subcat:
       - vii
       synset: 01229799-v
     - derivation:
+      - 'interpenetration%1:04:00::'
+      event:
       - 'interpenetration%1:04:00::'
       id: 'interpenetrate%2:35:03::'
       subcat:
@@ -33787,7 +34780,9 @@ interpolate:
     pronunciation:
     - value: ɪn.ˈtɜɹ.pə.ˌleɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'interpolation%1:09:00::'
+      derivation:
       - 'interpolation%1:09:00::'
       id: 'interpolate%2:31:00::'
       subcat:
@@ -33796,7 +34791,11 @@ interpolate:
     - derivation:
       - 'interpolation%1:10:00::'
       - 'interpolation%1:04:00::'
+      event:
+      - 'interpolation%1:04:00::'
       id: 'interpolate%2:30:00::'
+      result:
+      - 'interpolation%1:10:00::'
       subcat:
       - vtai
       synset: 00201771-v
@@ -33836,6 +34835,9 @@ interpose:
     - derivation:
       - 'interposition%1:04:01::'
       - 'interposition%1:04:00::'
+      event:
+      - 'interposition%1:04:01::'
+      - 'interposition%1:04:00::'
       id: 'interpose%2:32:00::'
       subcat:
       - via-that
@@ -33870,6 +34872,10 @@ interpret:
       - 'interpretation%1:09:01::'
       - 'interpretation%1:09:00::'
       id: 'interpret%2:31:00::'
+      result:
+      - 'interpretation%1:10:00::'
+      - 'interpretation%1:09:01::'
+      - 'interpretation%1:09:00::'
       sent:
       - Sam and Sue interpret the movie
       - They won't interpret the story
@@ -33884,17 +34890,27 @@ interpret:
       - 'interpretation%1:09:00::'
       - 'interpretation%1:04:02::'
       - 'interpreting%1:09:00::'
+      event:
+      - 'interpretation%1:04:02::'
       id: 'interpret%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00940278-v
-    - derivation:
+      uses:
+      - 'interpretation%1:10:00::'
+      - 'interpretation%1:09:01::'
+      - 'interpretation%1:09:00::'
+    - agent:
+      - 'interpreter%1:18:02::'
+      derivation:
       - interpretive%5:00:00:instructive:00
       - interpretative%5:00:00:instructive:00
       - 'interpretation%1:09:00::'
       - 'interpretation%1:04:02::'
       - 'interpreter%1:18:02::'
+      event:
+      - 'interpretation%1:04:02::'
       id: 'interpret%2:36:00::'
       sent:
       - They will interpret the duet
@@ -33902,16 +34918,26 @@ interpret:
       - vtaa
       - vtai
       synset: 01736053-v
-    - derivation:
+      uses:
+      - 'interpretation%1:09:00::'
+    - agent:
+      - 'interpreter%1:18:02::'
+      derivation:
       - 'interpretation%1:04:02::'
       - 'interpreter%1:18:02::'
+      event:
+      - 'interpretation%1:04:02::'
       id: 'interpret%2:36:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01690027-v
-    - derivation:
+    - agent:
       - 'interpreter%1:18:01::'
+      derivation:
+      - 'interpreter%1:18:01::'
+      - 'interpreter%1:10:00::'
+      instrument:
       - 'interpreter%1:10:00::'
       id: 'interpret%2:32:01::'
       subcat:
@@ -34082,12 +35108,16 @@ interrelate:
     sense:
     - derivation:
       - 'interrelation%1:24:00::'
+      event:
+      - 'interrelation%1:24:00::'
       id: 'interrelate%2:42:00::'
       subcat:
       - via
       - vii
       synset: 02730292-v
     - derivation:
+      - 'interrelation%1:24:00::'
+      event:
       - 'interrelation%1:24:00::'
       id: 'interrelate%2:31:00::'
       subcat:
@@ -34128,18 +35158,26 @@ interrogate:
     sense:
     - derivation:
       - 'interrogation%1:10:03::'
+      event:
+      - 'interrogation%1:10:03::'
       id: 'interrogate%2:32:09::'
       subcat:
       - vtai
       - vtii
       synset: 00975562-v
-    - derivation:
+    - agent:
+      - 'interrogator%1:18:00::'
+      derivation:
       - 'interrogative%3:00:00::'
       - 'interrogatory%3:00:00::'
       - 'interrogation%1:10:02::'
       - 'interrogation%1:10:01::'
       - 'interrogation%1:10:00::'
       - 'interrogator%1:18:00::'
+      event:
+      - 'interrogation%1:10:02::'
+      - 'interrogation%1:10:01::'
+      - 'interrogation%1:10:00::'
       id: 'interrogate%2:32:00::'
       subcat:
       - vtaa
@@ -34263,6 +35301,10 @@ interrupt:
     - derivation:
       - 'interruption%1:04:00::'
       - 'interrupter%1:06:00::'
+      event:
+      - 'interruption%1:04:00::'
+      instrument:
+      - 'interrupter%1:06:00::'
       id: 'interrupt%2:32:00::'
       subcat:
       - via
@@ -34281,6 +35323,8 @@ interrupt:
       - vtii
       synset: 00521099-v
     - derivation:
+      - 'interruption%1:04:00::'
+      event:
       - 'interruption%1:04:00::'
       id: 'interrupt%2:30:04::'
       subcat:
@@ -34345,6 +35389,8 @@ intersect:
     sense:
     - derivation:
       - intersectant%5:00:00:crossed:01
+      - 'intersection%1:04:00::'
+      event:
       - 'intersection%1:04:00::'
       id: 'intersect%2:38:00::'
       sent:
@@ -34441,11 +35487,16 @@ intersperse:
     - derivation:
       - 'interspersion%1:04:00::'
       - 'interspersal%1:04:00::'
+      event:
+      - 'interspersal%1:04:00::'
+      - 'interspersion%1:04:00::'
       id: 'intersperse%2:35:02::'
       subcat:
       - vtai
       synset: 01379285-v
     - derivation:
+      - 'interspersion%1:04:00::'
+      event:
       - 'interspersion%1:04:00::'
       id: 'intersperse%2:30:00::'
       subcat:
@@ -34619,8 +35670,12 @@ intervene:
     pronunciation:
     - value: ˌɪntə(ɹ)ˈviːn
     sense:
-    - derivation:
+    - agent:
       - 'intervenor%1:18:00::'
+      derivation:
+      - 'intervenor%1:18:00::'
+      - 'intervention%1:04:00::'
+      event:
       - 'intervention%1:04:00::'
       id: 'intervene%2:41:00::'
       subcat:
@@ -34721,26 +35776,38 @@ interview:
     - value: ˈɪntɚvjuː
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'interviewer%1:18:00::'
+      derivation:
       - 'interview%1:10:01::'
       - 'interviewee%1:18:00::'
       - 'interviewer%1:18:00::'
+      event:
+      - 'interview%1:10:01::'
       id: 'interview%2:32:00::'
       sent:
       - Sam cannot interview Sue
       subcat:
       - vtaa
       synset: 00810517-v
+      undergoer:
+      - 'interviewee%1:18:00::'
     - derivation:
       - 'interview%1:10:01::'
       - 'interviewee%1:18:00::'
+      event:
+      - 'interview%1:10:01::'
       id: 'interview%2:32:01::'
       sent:
       - Sam cannot interview Sue
       subcat:
       - vtaa
       synset: 00810910-v
+      undergoer:
+      - 'interviewee%1:18:00::'
     - derivation:
+      - 'interview%1:10:01::'
+      event:
       - 'interview%1:10:01::'
       id: 'interview%2:32:02::'
       sent:
@@ -34936,6 +36003,8 @@ intimate:
     sense:
     - derivation:
       - 'intimation%1:09:00::'
+      event:
+      - 'intimation%1:09:00::'
       id: 'intimate%2:32:00::'
       sent:
       - They intimate that there was a traffic accident
@@ -34943,6 +36012,9 @@ intimate:
       - via-that
       synset: 00929682-v
     - derivation:
+      - 'intimation%1:10:00::'
+      - 'intimation%1:09:00::'
+      event:
       - 'intimation%1:10:00::'
       - 'intimation%1:09:00::'
       id: 'intimate%2:32:01::'
@@ -34984,18 +36056,28 @@ intimidate:
     pronunciation:
     - value: ɪnˈtɪmɪdeɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'intimidation%1:10:00::'
+      derivation:
       - 'intimidation%1:12:00::'
       - 'intimidation%1:10:00::'
+      - 'intimidation%1:04:01::'
+      event:
       - 'intimidation%1:04:01::'
       id: 'intimidate%2:37:00::'
       sent:
       - Sam cannot intimidate Sue
+      state:
+      - 'intimidation%1:12:00::'
       subcat:
       - vtaa
       synset: 01784999-v
-    - derivation:
+    - by_means_of:
       - 'intimidation%1:10:00::'
+      derivation:
+      - 'intimidation%1:10:00::'
+      - 'intimidation%1:04:01::'
+      event:
       - 'intimidation%1:04:01::'
       id: 'intimidate%2:37:01::'
       sent:
@@ -35107,6 +36189,8 @@ intonate:
       - 'tone%1:07:02::'
       - 'intonation%1:10:00::'
       id: 'intonate%2:32:01::'
+      property:
+      - 'intonation%1:10:00::'
       subcat:
       - vtai
       synset: 01052185-v
@@ -35115,7 +36199,13 @@ intonate:
       - 'intonation%1:04:02::'
       - 'intonation%1:04:01::'
       - 'intonation%1:04:00::'
+      event:
+      - 'intonation%1:04:02::'
+      - 'intonation%1:04:01::'
+      - 'intonation%1:04:00::'
       id: 'intonate%2:32:00::'
+      property:
+      - 'intonation%1:10:00::'
       subcat:
       - via
       - vtai
@@ -35163,6 +36253,8 @@ intone:
     sense:
     - derivation:
       - 'intonation%1:04:00::'
+      event:
+      - 'intonation%1:04:00::'
       id: 'intone%2:32:04::'
       subcat:
       - vtai
@@ -35172,7 +36264,13 @@ intone:
       - 'intonation%1:04:02::'
       - 'intonation%1:04:01::'
       - 'intonation%1:04:00::'
+      event:
+      - 'intonation%1:04:02::'
+      - 'intonation%1:04:01::'
+      - 'intonation%1:04:00::'
       id: 'intone%2:32:00::'
+      property:
+      - 'intonation%1:10:00::'
       sent:
       - They will intone the duet
       subcat:
@@ -35182,6 +36280,8 @@ intone:
     - derivation:
       - 'intonation%1:10:00::'
       id: 'intone%2:32:01::'
+      property:
+      - 'intonation%1:10:00::'
       subcat:
       - vtai
       synset: 01052185-v
@@ -35221,6 +36321,8 @@ intoxicate:
       sent:
       - The good news will intoxicate her
       - The performance is likely to intoxicate Sue
+      state:
+      - 'intoxication%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -35229,6 +36331,8 @@ intoxicate:
       - 'intoxication%1:26:00::'
       - 'intoxicant%1:13:00::'
       id: 'intoxicate%2:34:00::'
+      state:
+      - 'intoxication%1:26:00::'
       subcat:
       - vtia
       synset: 01193027-v
@@ -35238,6 +36342,9 @@ intoxicate:
       - 'intoxication%1:26:00::'
       - 'intoxicant%1:06:00::'
       id: 'intoxicate%2:29:00::'
+      state:
+      - 'intoxication%1:26:01::'
+      - 'intoxication%1:26:00::'
       subcat:
       - vtia
       synset: 00088284-v
@@ -35764,6 +36871,8 @@ intrigue:
     - derivation:
       - 'intrigue%1:09:00::'
       id: 'intrigue%2:31:00::'
+      result:
+      - 'intrigue%1:09:00::'
       subcat:
       - via
       - via-pp
@@ -35838,6 +36947,8 @@ introduce:
     sense:
     - derivation:
       - 'introduction%1:10:01::'
+      event:
+      - 'introduction%1:10:01::'
       id: 'introduce%2:32:00::'
       subcat:
       - via-to-inf
@@ -35848,6 +36959,8 @@ introduce:
       - vtai
       synset: 01645979-v
     - derivation:
+      - 'introduction%1:04:00::'
+      event:
       - 'introduction%1:04:00::'
       id: 'introduce%2:30:03::'
       subcat:
@@ -35867,6 +36980,8 @@ introduce:
       - vtii
       synset: 01621712-v
     - derivation:
+      - 'introduction%1:04:00::'
+      event:
       - 'introduction%1:04:00::'
       id: 'introduce%2:35:00::'
       subcat:
@@ -35972,10 +37087,15 @@ introject:
       - 'introjection%1:09:01::'
       - 'introjection%1:09:00::'
       - 'introject%1:09:00::'
+      event:
+      - 'introjection%1:09:01::'
+      - 'introjection%1:09:00::'
       id: 'introject%2:30:00::'
       subcat:
       - via
       synset: 00555971-v
+      undergoer:
+      - 'introject%1:09:00::'
 introjected:
   a:
     sense:
@@ -36009,6 +37129,8 @@ intromit:
     sense:
     - derivation:
       - 'intromission%1:04:00::'
+      event:
+      - 'intromission%1:04:00::'
       id: 'intromit%2:41:00::'
       subcat:
       - vtaa
@@ -36030,6 +37152,8 @@ introspect:
     sense:
     - derivation:
       - 'introspective%3:00:00::'
+      - 'introspection%1:09:00::'
+      event:
       - 'introspection%1:09:00::'
       id: 'introspect%2:31:00::'
       subcat:
@@ -36125,16 +37249,24 @@ introvert:
     - derivation:
       - 'introversion%1:26:00::'
       - 'introversion%1:22:00::'
+      event:
+      - 'introversion%1:22:00::'
       id: 'introvert%2:35:00::'
+      state:
+      - 'introversion%1:26:00::'
       subcat:
       - vii
       synset: 01509444-v
-    - derivation:
+    - agent:
+      - 'introvert%1:18:00::'
+      derivation:
       - 'introvertive%3:00:00::'
       - 'introversive%3:00:00::'
       - 'introvert%1:18:00::'
       - 'introversion%1:07:00::'
       id: 'introvert%2:30:00::'
+      state:
+      - 'introversion%1:07:00::'
       subcat:
       - vtai
       - vtia
@@ -36162,20 +37294,28 @@ intrude:
     pronunciation:
     - value: ɪnˈtɹuːd
     sense:
-    - also:
+    - agent:
+      - 'intruder%1:18:00::'
+      also:
       - 'intrude_on%2:38:00::'
       derivation:
       - 'intrusive%3:00:01::'
       - 'intrusion%1:04:01::'
       - 'intruder%1:18:00::'
+      event:
+      - 'intrusion%1:04:01::'
       id: 'intrude%2:38:01::'
       subcat:
       - via
       - via-pp
       synset: 02022376-v
-    - derivation:
+    - agent:
+      - 'intruder%1:18:00::'
+      derivation:
       - 'intrusion%1:04:01::'
       - 'intruder%1:18:00::'
+      event:
+      - 'intrusion%1:04:01::'
       id: 'intrude%2:41:00::'
       subcat:
       - via
@@ -36281,6 +37421,8 @@ intubate:
     sense:
     - derivation:
       - 'intubation%1:04:00::'
+      event:
+      - 'intubation%1:04:00::'
       id: 'intubate%2:35:00::'
       subcat:
       - vtai
@@ -36302,6 +37444,9 @@ intuit:
     sense:
     - derivation:
       - intuitive%5:00:00:illogical:00
+      - 'intuition%1:09:01::'
+      - 'intuition%1:09:00::'
+      event:
       - 'intuition%1:09:01::'
       - 'intuition%1:09:00::'
       id: 'intuit%2:31:00::'
@@ -36370,6 +37515,8 @@ intumesce:
     - derivation:
       - 'intumescency%1:26:00::'
       - 'intumescence%1:26:00::'
+      event:
+      - 'intumescence%1:26:00::'
       id: 'intumesce%2:30:00::'
       subcat:
       - vii
@@ -36407,6 +37554,8 @@ intussuscept:
     sense:
     - derivation:
       - 'intussusception%1:22:01::'
+      event:
+      - 'intussusception%1:22:01::'
       id: 'intussuscept%2:35:00::'
       subcat:
       - vii
@@ -36439,6 +37588,8 @@ inunct:
     sense:
     - derivation:
       - 'inunction%1:04:00::'
+      event:
+      - 'inunction%1:04:00::'
       id: 'inunct%2:29:00::'
       subcat:
       - vtaa
@@ -36462,12 +37613,18 @@ inundate:
     - derivation:
       - 'inundation%1:23:00::'
       - 'inundation%1:19:00::'
+      event:
+      - 'inundation%1:19:00::'
       id: 'inundate%2:35:00::'
+      result:
+      - 'inundation%1:23:00::'
       subcat:
       - vtai
       - vtai-with
       synset: 01527311-v
     - derivation:
+      - 'inundation%1:19:00::'
+      event:
       - 'inundation%1:19:00::'
       id: 'inundate%2:30:00::'
       sent:
@@ -36533,24 +37690,34 @@ invade:
     pronunciation:
     - value: ɪnˈveɪd
     sense:
-    - derivation:
+    - agent:
+      - 'invader%1:18:00::'
+      derivation:
       - invasive%5:00:00:offensive:03
       - 'invasion%1:04:00::'
       - 'invader%1:18:00::'
+      event:
+      - 'invasion%1:04:00::'
       id: 'invade%2:33:00::'
       subcat:
       - vtai
       - vtii
       synset: 01128786-v
-    - derivation:
+    - agent:
+      - 'invader%1:18:00::'
+      derivation:
       - invasive%5:00:00:intrusive:01
       - 'invasion%1:11:00::'
       - 'invader%1:18:00::'
+      event:
+      - 'invasion%1:11:00::'
       id: 'invade%2:38:00::'
       subcat:
       - vtai
       synset: 02023568-v
     - derivation:
+      - 'invasion%1:11:00::'
+      event:
       - 'invasion%1:11:00::'
       id: 'invade%2:42:00::'
       subcat:
@@ -36559,6 +37726,8 @@ invade:
       synset: 02660781-v
     - derivation:
       - 'invasive%3:00:00::'
+      - 'invasion%1:11:01::'
+      event:
       - 'invasion%1:11:01::'
       id: 'invade%2:35:00::'
       subcat:
@@ -36585,10 +37754,14 @@ invaginate:
     - derivation:
       - 'invagination%1:26:00::'
       id: 'invaginate%2:35:02::'
+      state:
+      - 'invagination%1:26:00::'
       subcat:
       - vtii
       synset: 01584638-v
     - derivation:
+      - 'invagination%1:22:00::'
+      event:
       - 'invagination%1:22:00::'
       id: 'invaginate%2:35:00::'
       subcat:
@@ -36638,6 +37811,8 @@ invalid:
     - derivation:
       - 'invalid%1:18:00::'
       id: 'invalid%2:29:00::'
+      result:
+      - 'invalid%1:18:00::'
       subcat:
       - vtaa
       - vtia
@@ -36648,11 +37823,15 @@ invalidate:
     - value: ˌɪnˈvæl.ɪ.deɪt
       variety: GB
     sense:
-    - antonym:
+    - agent:
+      - 'invalidator%1:18:00::'
+      antonym:
       - 'validate%2:41:00::'
       derivation:
       - 'invalidation%1:04:00::'
       - 'invalidator%1:18:00::'
+      event:
+      - 'invalidation%1:04:00::'
       id: 'invalidate%2:41:00::'
       subcat:
       - vtai
@@ -36672,6 +37851,8 @@ invalidate:
     - antonym:
       - 'validate%2:30:00::'
       derivation:
+      - 'invalidation%1:04:00::'
+      event:
       - 'invalidation%1:04:00::'
       id: 'invalidate%2:30:00::'
       subcat:
@@ -36921,11 +38102,16 @@ invent:
     pronunciation:
     - value: ɪnˈvɛnt
     sense:
-    - derivation:
+    - agent:
+      - 'inventor%1:18:00::'
+      derivation:
       - inventive%5:00:00:creative:00
       - 'invention%1:09:00::'
       - 'invention%1:04:00::'
       - 'inventor%1:18:00::'
+      event:
+      - 'invention%1:09:00::'
+      - 'invention%1:04:00::'
       id: 'invent%2:36:00::'
       sent:
       - Did he invent his major works over a short period of time?
@@ -36933,6 +38119,8 @@ invent:
       - vtai
       synset: 01635953-v
     - derivation:
+      - 'invention%1:04:00::'
+      event:
       - 'invention%1:04:00::'
       id: 'invent%2:36:01::'
       subcat:
@@ -37155,6 +38343,11 @@ invert:
       - 'inversion%1:04:01::'
       - 'inversion%1:04:00::'
       - 'inverter%1:06:00::'
+      event:
+      - 'inversion%1:04:01::'
+      - 'inversion%1:04:00::'
+      instrument:
+      - 'inverter%1:06:00::'
       id: 'invert%2:30:00::'
       subcat:
       - vtai
@@ -37232,18 +38425,24 @@ invertible:
 invest:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'investor%1:18:00::'
+      antonym:
       - 'divest%2:40:00::'
       derivation:
       - 'investment%1:21:00::'
       - 'investment%1:04:00::'
       - 'investor%1:18:00::'
       - 'investing%1:04:00::'
+      event:
+      - 'investment%1:04:00::'
       id: 'invest%2:40:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 02275982-v
+      undergoer:
+      - 'investment%1:21:00::'
     - id: 'invest%2:41:03::'
       subcat:
       - vtaa-with
@@ -37251,6 +38450,8 @@ invest:
     - derivation:
       - 'investment%1:04:02::'
       - 'investiture%1:11:01::'
+      event:
+      - 'investment%1:04:02::'
       id: 'invest%2:41:02::'
       subcat:
       - vtaa-with
@@ -37271,10 +38472,14 @@ invest:
 investigate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'investigator%1:18:01::'
+      derivation:
       - 'investigation%1:04:00::'
       - 'investigator%1:18:01::'
       - 'investigating%1:04:00::'
+      event:
+      - 'investigation%1:04:00::'
       id: 'investigate%2:32:00::'
       sent:
       - The customs agents investigate the bags for drugs
@@ -37283,13 +38488,18 @@ investigate:
       - vtaa
       - vtai
       synset: 00790800-v
-    - derivation:
+    - agent:
+      - 'investigator%1:18:02::'
+      derivation:
       - investigative%5:00:00:inquiring:00
       - investigatory%5:00:00:inquiring:00
       - 'investigation%1:09:00::'
       - 'investigation%1:04:00::'
       - 'investigator%1:18:02::'
       - 'investigating%1:04:00::'
+      event:
+      - 'investigation%1:09:00::'
+      - 'investigation%1:04:00::'
       id: 'investigate%2:32:01::'
       sent:
       - They investigate whether there was a traffic accident
@@ -37479,9 +38689,13 @@ invidiously:
 invigilate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'invigilator%1:18:00::'
+      derivation:
       - 'invigilation%1:04:00::'
       - 'invigilator%1:18:00::'
+      event:
+      - 'invigilation%1:04:00::'
       id: 'invigilate%2:41:00::'
       subcat:
       - vtaa
@@ -37510,6 +38724,8 @@ invigorate:
     sense:
     - derivation:
       - 'invigoration%1:04:00::'
+      event:
+      - 'invigoration%1:04:00::'
       id: 'invigorate%2:37:00::'
       subcat:
       - vtaa
@@ -37518,7 +38734,11 @@ invigorate:
     - derivation:
       - 'invigoration%1:07:00::'
       - 'invigoration%1:04:00::'
+      event:
+      - 'invigoration%1:04:00::'
       id: 'invigorate%2:30:01::'
+      property:
+      - 'invigoration%1:07:00::'
       subcat:
       - vtai
       - vtia
@@ -37527,7 +38747,11 @@ invigorate:
     - derivation:
       - 'invigoration%1:07:00::'
       - 'invigoration%1:04:00::'
+      event:
+      - 'invigoration%1:04:00::'
       id: 'invigorate%2:30:00::'
+      property:
+      - 'invigoration%1:07:00::'
       sent:
       - The performance is likely to invigorate Sue
       subcat:
@@ -37539,7 +38763,13 @@ invigorate:
       - 'invigoration%1:07:00::'
       - 'invigoration%1:04:00::'
       - 'invigorator%1:17:00::'
+      event:
+      - 'invigoration%1:04:00::'
       id: 'invigorate%2:29:00::'
+      material:
+      - 'invigorator%1:17:00::'
+      property:
+      - 'invigoration%1:07:00::'
       subcat:
       - vtia
       synset: 00028355-v
@@ -37723,7 +38953,9 @@ invite:
     pronunciation:
     - value: ɪnˈvaɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'invitation%1:07:00::'
+      derivation:
       - 'invitation%1:07:00::'
       id: 'invite%2:37:01::'
       subcat:
@@ -37734,19 +38966,28 @@ invite:
       - 'invite%1:10:00::'
       - 'invitee%1:18:00::'
       - 'invitation%1:10:00::'
+      event:
+      - 'invitation%1:10:00::'
+      - 'invite%1:10:00::'
       id: 'invite%2:41:00::'
       sent:
       - They invite him to write the letter
       subcat:
       - vtaa
       synset: 02389828-v
-    - derivation:
+      undergoer:
+      - 'invitee%1:18:00::'
+    - by_means_of:
+      - 'invitation%1:07:00::'
+      derivation:
       - 'invitation%1:07:00::'
       id: 'invite%2:37:00::'
       subcat:
       - vtia
       synset: 01811496-v
     - derivation:
+      - 'invitation%1:10:00::'
+      event:
       - 'invitation%1:10:00::'
       id: 'invite%2:32:00::'
       sent:
@@ -37761,11 +39002,18 @@ invite:
       - 'invite%1:10:00::'
       - 'invitee%1:18:00::'
       - 'invitation%1:10:00::'
+      event:
+      - 'invitation%1:10:00::'
+      - 'invite%1:10:00::'
       id: 'invite%2:41:01::'
       subcat:
       - vtaa
       synset: 02390082-v
+      undergoer:
+      - 'invitee%1:18:00::'
     - derivation:
+      - 'invitation%1:10:00::'
+      event:
       - 'invitation%1:10:00::'
       id: 'invite%2:35:00::'
       subcat:
@@ -37774,11 +39022,15 @@ invite:
     - derivation:
       - invitatory%5:00:00:inviting:00
       - 'invitation%1:10:00::'
+      event:
+      - 'invitation%1:10:00::'
       id: 'invite%2:32:01::'
       subcat:
       - vtai
       synset: 01065717-v
     - derivation:
+      - 'invitation%1:10:00::'
+      event:
       - 'invitation%1:10:00::'
       id: 'invite%2:35:12::'
       sent:
@@ -37861,13 +39113,18 @@ invoice:
       subcat:
       - vtaa
       synset: 02325883-v
+      undergoer:
+      - 'invoice%1:10:00::'
 invoke:
   v:
     pronunciation:
     - value: ɪnˈvoʊk
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'invocation%1:10:01::'
+      - 'invocation%1:09:00::'
+      derivation:
       - 'invocation%1:10:01::'
       - 'invocation%1:09:00::'
       id: 'invoke%2:36:00::'
@@ -37880,8 +39137,12 @@ invoke:
       - vtai
       - vtii
       synset: 01026873-v
-    - derivation:
+    - by_means_of:
       - 'invocation%1:10:00::'
+      derivation:
+      - 'invocation%1:10:00::'
+      - 'invocation%1:04:01::'
+      event:
       - 'invocation%1:04:01::'
       id: 'invoke%2:32:04::'
       subcat:
@@ -37987,6 +39248,8 @@ involve:
     sense:
     - derivation:
       - 'involvement%1:24:00::'
+      event:
+      - 'involvement%1:24:00::'
       id: 'involve%2:42:01::'
       subcat:
       - vtaa
@@ -37997,12 +39260,19 @@ involve:
       - 'involution%1:04:02::'
       - 'involvement%1:26:01::'
       - 'involvement%1:04:00::'
+      event:
+      - 'involution%1:04:02::'
+      - 'involvement%1:04:00::'
       id: 'involve%2:42:04::'
+      state:
+      - 'involvement%1:26:01::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02683377-v
     - derivation:
+      - 'involvement%1:24:00::'
+      event:
       - 'involvement%1:24:00::'
       id: 'involve%2:42:00::'
       subcat:
@@ -38017,6 +39287,8 @@ involve:
       - vtii
       synset: 02639299-v
     - derivation:
+      - 'involvement%1:09:00::'
+      event:
       - 'involvement%1:09:00::'
       id: 'involve%2:31:00::'
       subcat:
@@ -38280,6 +39552,8 @@ iodise:
     - derivation:
       - 'iodination%1:22:00::'
       - 'iodine%1:27:00::'
+      event:
+      - 'iodination%1:22:00::'
       id: 'iodise%2:30:00::'
       subcat:
       - vtai
@@ -38301,6 +39575,8 @@ iodize:
     - derivation:
       - 'iodination%1:22:00::'
       - 'iodine%1:27:00::'
+      event:
+      - 'iodination%1:22:00::'
       id: 'iodize%2:30:00::'
       subcat:
       - vtai
@@ -38411,6 +39687,8 @@ ionate:
       subcat:
       - vtai
       synset: 00522265-v
+      uses:
+      - 'ion%1:17:00::'
 ionic:
   a:
     pronunciation:
@@ -38463,7 +39741,11 @@ ionise:
     - derivation:
       - 'ionisation%1:26:00::'
       - 'ionisation%1:22:00::'
+      event:
+      - 'ionisation%1:22:00::'
       id: 'ionise%2:30:01::'
+      state:
+      - 'ionisation%1:26:00::'
       subcat:
       - vii
       synset: 00267927-v
@@ -38471,7 +39753,13 @@ ionise:
       - 'ionisation%1:26:00::'
       - 'ionisation%1:22:00::'
       - 'ion%1:17:00::'
+      event:
+      - 'ionisation%1:22:00::'
       id: 'ionise%2:30:00::'
+      result:
+      - 'ion%1:17:00::'
+      state:
+      - 'ionisation%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -38519,7 +39807,11 @@ ionize:
     - derivation:
       - 'ionization%1:26:00::'
       - 'ionization%1:22:00::'
+      event:
+      - 'ionization%1:22:00::'
       id: 'ionize%2:30:01::'
+      state:
+      - 'ionization%1:26:00::'
       subcat:
       - vii
       synset: 00267927-v
@@ -38527,7 +39819,13 @@ ionize:
       - 'ionization%1:26:00::'
       - 'ionization%1:22:00::'
       - 'ion%1:17:00::'
+      event:
+      - 'ionization%1:22:00::'
       id: 'ionize%2:30:00::'
+      result:
+      - 'ion%1:17:00::'
+      state:
+      - 'ionization%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -38723,6 +40021,8 @@ iridesce:
       - iridescent%5:00:00:bright:00
       - 'iridescence%1:07:00::'
       id: 'iridesce%2:42:00::'
+      property:
+      - 'iridescence%1:07:00::'
       subcat:
       - vii
       synset: 02739803-v
@@ -38896,6 +40196,8 @@ iron:
       - 'iron%1:06:00::'
       - 'ironing%1:06:00::'
       - 'ironing%1:04:00::'
+      instrument:
+      - 'iron%1:06:00::'
       id: 'iron%2:35:00::'
       sent:
       - They iron the cape
@@ -39319,7 +40621,9 @@ irradiate:
       subcat:
       - vtai
       synset: 00928903-v
-    - derivation:
+    - by_means_of:
+      - 'irradiation%1:19:00::'
+      derivation:
       - 'irradiation%1:19:00::'
       id: 'irradiate%2:30:01::'
       subcat:
@@ -39329,6 +40633,8 @@ irradiate:
     - derivation:
       - 'irradiation%1:26:00::'
       id: 'irradiate%2:30:00::'
+      state:
+      - 'irradiation%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -40030,12 +41336,16 @@ irrigate:
     sense:
     - derivation:
       - 'irrigation%1:04:00::'
+      event:
+      - 'irrigation%1:04:00::'
       id: 'irrigate%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00228662-v
     - derivation:
+      - 'irrigation%1:04:01::'
+      event:
       - 'irrigation%1:04:01::'
       id: 'irrigate%2:29:00::'
       subcat:
@@ -40122,16 +41432,23 @@ irritate:
     pronunciation:
     - value: ˈɪɹɪteɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'irritation%1:04:00::'
+      derivation:
       - 'irritation%1:26:00::'
       - 'irritation%1:12:01::'
       - 'irritation%1:04:01::'
       - 'irritation%1:04:00::'
       - 'irritant%1:09:00::'
+      event:
+      - 'irritation%1:12:01::'
+      - 'irritation%1:04:01::'
       id: 'irritate%2:37:00::'
       sent:
       - The bad news will irritate him
       - The performance is likely to irritate Sue
+      state:
+      - 'irritation%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -40142,13 +41459,19 @@ irritate:
       - irritative%5:00:00:stimulative:00
       - 'irritation%1:26:02::'
       - 'irritation%1:12:00::'
+      event:
+      - 'irritation%1:26:02::'
       id: 'irritate%2:29:00::'
+      result:
+      - 'irritation%1:12:00::'
       subcat:
       - vtia
       - vtii
       synset: 00063062-v
     - derivation:
       - irritative%5:00:00:stimulative:00
+      - 'irritation%1:26:01::'
+      event:
       - 'irritation%1:26:01::'
       id: 'irritate%2:30:00::'
       subcat:
@@ -40223,12 +41546,16 @@ irrupt:
     sense:
     - derivation:
       - 'irruption%1:04:00::'
+      event:
+      - 'irruption%1:04:00::'
       id: 'irrupt%2:38:01::'
       subcat:
       - via
       - via-pp
       synset: 02022376-v
     - derivation:
+      - 'irruption%1:11:00::'
+      event:
       - 'irruption%1:11:00::'
       id: 'irrupt%2:30:03::'
       subcat:
@@ -40692,6 +42019,8 @@ isolate:
       - isolable%5:00:00:separate:00
       - 'isolation%1:26:00::'
       id: 'isolate%2:30:00::'
+      state:
+      - 'isolation%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -40708,7 +42037,9 @@ isolate:
       subcat:
       - vtai
       synset: 00496744-v
-    - derivation:
+    - by_means_of:
+      - 'isolation%1:22:00::'
+      derivation:
       - isolable%5:00:00:separate:00
       - 'isolation%1:22:00::'
       id: 'isolate%2:31:05::'
@@ -40849,12 +42180,16 @@ isomerise:
     sense:
     - derivation:
       - 'isomerisation%1:11:00::'
+      event:
+      - 'isomerisation%1:11:00::'
       id: 'isomerise%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00576246-v
     - derivation:
+      - 'isomerisation%1:11:00::'
+      event:
       - 'isomerisation%1:11:00::'
       id: 'isomerise%2:30:00::'
       subcat:
@@ -40883,12 +42218,16 @@ isomerize:
     sense:
     - derivation:
       - 'isomerization%1:11:00::'
+      event:
+      - 'isomerization%1:11:00::'
       id: 'isomerize%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00576246-v
     - derivation:
+      - 'isomerization%1:11:00::'
+      event:
       - 'isomerization%1:11:00::'
       id: 'isomerize%2:30:00::'
       subcat:
@@ -41301,22 +42640,32 @@ issue:
     - value: ˈɪʃ(j)u
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'issuer%1:14:00::'
+      derivation:
       - 'issue%1:04:00::'
       - 'issue%1:10:00::'
       - 'issuer%1:14:00::'
+      event:
+      - 'issue%1:04:00::'
       id: 'issue%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00969657-v
-    - antonym:
+      uses:
+      - 'issue%1:10:00::'
+    - agent:
+      - 'issuer%1:14:00::'
+      antonym:
       - 'recall%2:41:00::'
       derivation:
       - 'issue%1:04:01::'
       - 'issue%1:21:01::'
       - 'issuer%1:14:00::'
       - 'issuing%1:04:00::'
+      event:
+      - 'issue%1:04:01::'
       id: 'issue%2:41:00::'
       sent:
       - They issue the money to them
@@ -41324,7 +42673,11 @@ issue:
       subcat:
       - vtai
       synset: 02484912-v
+      uses:
+      - 'issue%1:21:01::'
     - derivation:
+      - 'issue%1:04:00::'
+      event:
       - 'issue%1:04:00::'
       id: 'issue%2:32:01::'
       subcat:
@@ -41334,6 +42687,8 @@ issue:
     - derivation:
       - 'issue%1:06:00::'
       id: 'issue%2:30:00::'
+      location:
+      - 'issue%1:06:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -41478,6 +42833,9 @@ itch:
     - derivation:
       - 'itch%1:09:00::'
       - 'itch%1:26:00::'
+      event:
+      - 'itch%1:09:00::'
+      - 'itch%1:26:00::'
       id: 'itch%2:39:01::'
       subcat:
       - vii
@@ -41489,6 +42847,9 @@ itch:
       - 'itch%1:26:00::'
       - 'itch%1:09:00::'
       - 'itching%1:09:00::'
+      event:
+      - 'itch%1:26:00::'
+      - 'itch%1:09:00::'
       id: 'itch%2:39:00::'
       subcat:
       - via-pp
@@ -41501,6 +42862,8 @@ itch:
       - vii
       synset: 02125888-v
     - derivation:
+      - 'itch%1:12:00::'
+      event:
       - 'itch%1:12:00::'
       id: 'itch%2:37:00::'
       subcat:
@@ -41595,6 +42958,8 @@ itemise:
     sense:
     - derivation:
       - 'itemisation%1:04:00::'
+      event:
+      - 'itemisation%1:04:00::'
       id: 'itemise%2:32:01::'
       subcat:
       - vtai
@@ -41605,6 +42970,8 @@ itemise:
       - 'item%1:10:00::'
       - 'item%1:09:00::'
       - 'item%1:06:00::'
+      event:
+      - 'itemisation%1:04:00::'
       id: 'itemise%2:32:00::'
       subcat:
       - vtai
@@ -41628,12 +42995,16 @@ itemize:
       - 'item%1:10:00::'
       - 'item%1:09:00::'
       - 'item%1:06:00::'
+      event:
+      - 'itemization%1:04:00::'
       id: 'itemize%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00948137-v
     - derivation:
+      - 'itemization%1:04:00::'
+      event:
       - 'itemization%1:04:00::'
       id: 'itemize%2:32:01::'
       subcat:
@@ -41646,6 +43017,10 @@ iterate:
     sense:
     - derivation:
       - iterative%5:00:00:repetitive:00
+      - 'iteration%1:22:01::'
+      - 'iteration%1:22:00::'
+      - 'iteration%1:04:00::'
+      event:
       - 'iteration%1:22:01::'
       - 'iteration%1:22:00::'
       - 'iteration%1:04:00::'
