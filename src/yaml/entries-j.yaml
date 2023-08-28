@@ -6323,12 +6323,17 @@ jab:
     - derivation:
       - 'jab%1:04:02::'
       - 'jabbing%1:04:00::'
+      event:
+      - 'jab%1:04:02::'
       id: 'jab%2:35:00::'
       subcat:
       - vtaa-pp
       - vtai-pp
       synset: 01232540-v
     - derivation:
+      - 'jab%1:04:00::'
+      - 'jab%1:04:01::'
+      event:
       - 'jab%1:04:00::'
       - 'jab%1:04:01::'
       id: 'jab%2:35:01::'
@@ -6354,9 +6359,13 @@ jabber:
       synset: 06623345-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'jabberer%1:18:00::'
+      derivation:
       - 'jabberer%1:18:00::'
       - 'jabbering%1:10:00::'
+      - 'jabber%1:10:00::'
+      event:
       - 'jabber%1:10:00::'
       id: 'jabber%2:32:00::'
       sent:
@@ -6481,6 +6490,8 @@ jack:
   v:
     sense:
     - derivation:
+      - 'jack%1:06:00::'
+      instrument:
       - 'jack%1:06:00::'
       id: 'jack%2:35:00::'
       subcat:
@@ -6690,6 +6701,8 @@ jacket:
       subcat:
       - vtaa
       synset: 00048507-v
+      uses:
+      - 'jacket%1:06:00::'
 jacket crown:
   n:
     sense:
@@ -6736,6 +6749,8 @@ jackknife:
   v:
     sense:
     - derivation:
+      - 'jackknife%1:04:00::'
+      event:
       - 'jackknife%1:04:00::'
       id: 'jackknife%2:38:00::'
       subcat:
@@ -6851,6 +6866,8 @@ jactitate:
     sense:
     - derivation:
       - 'jactitation%1:07:00::'
+      event:
+      - 'jactitation%1:07:00::'
       id: 'jactitate%2:38:00::'
       subcat:
       - via
@@ -6902,6 +6919,8 @@ jade:
     - derivation:
       - 'jade%1:05:00::'
       id: 'jade%2:29:01::'
+      result:
+      - 'jade%1:05:00::'
       subcat:
       - vtaa
       - vtia
@@ -6978,6 +6997,8 @@ jag:
       - 'jag%1:06:01::'
       - 'jag%1:17:00::'
       id: 'jag%2:35:00::'
+      result:
+      - 'jag%1:17:00::'
       subcat:
       - vtai
       - vtii
@@ -7096,11 +7117,16 @@ jail:
     pronunciation:
     - value: dʒeɪl
     sense:
-    - derivation:
+    - agent:
+      - 'jailer%1:18:00::'
+      - 'jailor%1:18:00::'
+      derivation:
       - 'jailer%1:18:00::'
       - 'jailor%1:18:00::'
       - 'jail%1:06:00::'
       id: 'jail%2:41:00::'
+      location:
+      - 'jail%1:06:00::'
       sent:
       - They want to jail the prisoners
       subcat:
@@ -7237,6 +7263,8 @@ jam:
     - derivation:
       - 'jam%1:04:00::'
       - 'jamming%1:04:00::'
+      event:
+      - 'jam%1:04:00::'
       id: 'jam%2:32:00::'
       subcat:
       - vtai
@@ -7250,6 +7278,8 @@ jam:
       - vii-pp
       synset: 01527965-v
     - derivation:
+      - 'jam%1:14:00::'
+      event:
       - 'jam%1:14:00::'
       id: 'jam%2:35:00::'
       sent:
@@ -7395,6 +7425,8 @@ jangle:
     sense:
     - derivation:
       - 'jangle%1:11:00::'
+      event:
+      - 'jangle%1:11:00::'
       id: 'jangle%2:39:00::'
       sent:
       - The coins jangle
@@ -7464,9 +7496,13 @@ japan:
       - 'japan%1:06:00::'
       - 'japan%1:06:01::'
       id: 'japan%2:36:00::'
+      result:
+      - 'japan%1:06:01::'
       subcat:
       - vtai
       synset: 01686841-v
+      uses:
+      - 'japan%1:06:00::'
 japan clover:
   n:
     sense:
@@ -7533,6 +7569,8 @@ jar:
       synset: 02673757-v
     - derivation:
       - 'jar%1:11:00::'
+      event:
+      - 'jar%1:11:00::'
       id: 'jar%2:38:00::'
       subcat:
       - via
@@ -7560,6 +7598,8 @@ jar:
       subcat:
       - vtai
       synset: 01500503-v
+      undergoer:
+      - 'jar%1:23:00::'
 jar against:
   v:
     sense:
@@ -7654,10 +7694,14 @@ jaundice:
     - derivation:
       - 'jaundice%1:07:00::'
       id: 'jaundice%2:30:00::'
+      property:
+      - 'jaundice%1:07:00::'
       subcat:
       - vtii
       synset: 00478038-v
     - derivation:
+      - 'jaundice%1:26:00::'
+      event:
       - 'jaundice%1:26:00::'
       id: 'jaundice%2:29:00::'
       subcat:
@@ -7691,6 +7735,8 @@ jaunt:
     - value: ˈdʒɔːnt
     sense:
     - derivation:
+      - 'jaunt%1:04:00::'
+      event:
       - 'jaunt%1:04:00::'
       id: 'jaunt%2:38:00::'
       subcat:
@@ -7803,7 +7849,9 @@ jaw:
       subcat:
       - via
       synset: 01039370-v
-    - derivation:
+    - by_means_of:
+      - 'jaw%1:08:00::'
+      derivation:
       - 'jaw%1:08:01::'
       - 'jaw%1:08:00::'
       id: 'jaw%2:34:00::'
@@ -7887,7 +7935,9 @@ jaywalk:
       variety: GB
     - value: ˈdʒeɪ.wɔːk
     sense:
-    - derivation:
+    - agent:
+      - 'jaywalker%1:18:00::'
+      derivation:
       - 'jaywalker%1:18:00::'
       id: 'jaywalk%2:38:00::'
       subcat:
@@ -7930,6 +7980,9 @@ jazz:
       subcat:
       - vtai
       synset: 01729611-v
+      undergoer:
+      - 'jazz%1:10:01::'
+      - 'jazz%1:10:00::'
     - id: 'jazz%2:35:00::'
       subcat:
       - via
@@ -8068,10 +8121,14 @@ jeer:
       synset: 06729173-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'jeerer%1:18:00::'
+      derivation:
       - 'jeerer%1:18:00::'
       - 'jeer%1:10:00::'
       - 'jeering%1:10:00::'
+      event:
+      - 'jeer%1:10:00::'
       id: 'jeer%2:32:00::'
       subcat:
       - via-pp
@@ -8222,6 +8279,10 @@ jellify:
       - 'jelly%1:13:01::'
       - 'jelly%1:13:00::'
       id: 'jellify%2:30:00::'
+      result:
+      - 'jelly%1:27:00::'
+      - 'jelly%1:13:01::'
+      - 'jelly%1:13:00::'
       subcat:
       - vii
       synset: 00508412-v
@@ -8230,6 +8291,10 @@ jellify:
       - 'jelly%1:13:01::'
       - 'jelly%1:13:00::'
       id: 'jellify%2:30:01::'
+      result:
+      - 'jelly%1:27:00::'
+      - 'jelly%1:13:01::'
+      - 'jelly%1:13:00::'
       subcat:
       - vtai
       - vtii
@@ -8270,6 +8335,8 @@ jelly:
     - derivation:
       - 'jelly%1:27:00::'
       id: 'jelly%2:30:00::'
+      result:
+      - 'jelly%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -8440,10 +8507,15 @@ jerk:
       synset: 00116320-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'jerker%1:18:00::'
+      derivation:
       - 'jerk%1:04:01::'
       - 'jerk%1:04:00::'
       - 'jerker%1:18:00::'
+      event:
+      - 'jerk%1:04:01::'
+      - 'jerk%1:04:00::'
       id: 'jerk%2:35:01::'
       subcat:
       - vtai
@@ -8453,6 +8525,9 @@ jerk:
       - 'jerk%1:04:00::'
       - 'jerk%1:04:01::'
       - 'jerking%1:04:00::'
+      event:
+      - 'jerk%1:04:00::'
+      - 'jerk%1:04:01::'
       id: 'jerk%2:38:00::'
       subcat:
       - via
@@ -8463,6 +8538,8 @@ jerk:
     - derivation:
       - 'jerk%1:04:00::'
       - 'jerking%1:04:00::'
+      event:
+      - 'jerk%1:04:00::'
       id: 'jerk%2:29:00::'
       subcat:
       - via
@@ -8470,12 +8547,16 @@ jerk:
       synset: 00009624-v
     - derivation:
       - 'jerk%1:04:00::'
+      event:
+      - 'jerk%1:04:00::'
       id: 'jerk%2:38:01::'
       subcat:
       - via
       - vii
       synset: 01888376-v
     - derivation:
+      - 'jerk%1:04:00::'
+      event:
       - 'jerk%1:04:00::'
       id: 'jerk%2:35:00::'
       subcat:
@@ -8641,20 +8722,30 @@ jest:
     pronunciation:
     - value: dʒɛst
     sense:
-    - also:
+    - agent:
+      - 'jester%1:18:00::'
+      also:
       - 'jest_at%2:32:00::'
       derivation:
       - 'jest%1:04:00::'
       - 'jest%1:10:00::'
       - 'jester%1:18:00::'
+      event:
+      - 'jest%1:04:00::'
       id: 'jest%2:32:00::'
       subcat:
       - via
       synset: 00855315-v
-    - derivation:
+      undergoer:
+      - 'jest%1:10:00::'
+    - agent:
+      - 'jester%1:18:00::'
+      derivation:
       - 'jest%1:04:00::'
       - 'jest%1:10:00::'
       - 'jester%1:18:00::'
+      event:
+      - 'jest%1:04:00::'
       id: 'jest%2:29:00::'
       subcat:
       - via
@@ -8729,6 +8820,9 @@ jet:
     - derivation:
       - 'jet%1:11:00::'
       - 'jet%1:06:01::'
+      event:
+      - 'jet%1:11:00::'
+      - 'jet%1:06:01::'
       id: 'jet%2:35:00::'
       subcat:
       - vii-pp
@@ -8739,6 +8833,8 @@ jet:
       subcat:
       - vii
       synset: 01946093-v
+      undergoer:
+      - 'jet%1:06:00::'
 jet black:
   n:
     sense:
@@ -8877,7 +8973,12 @@ jewel:
     - value: ˈdʒuːəl
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'jeweller%1:18:00::'
+      - 'jeweler%1:18:00::'
+      - 'jeweller%1:18:01::'
+      - 'jeweler%1:18:01::'
+      derivation:
       - 'jewel%1:06:00::'
       - 'jeweller%1:18:00::'
       - 'jeweler%1:18:00::'
@@ -8891,6 +8992,8 @@ jewel:
       - vtai
       - vtia
       synset: 01682580-v
+      uses:
+      - 'jewel%1:06:00::'
 jewel casket:
   n:
     sense:
@@ -9113,6 +9216,9 @@ jig:
     - derivation:
       - 'jig%1:04:00::'
       - 'jig%1:10:00::'
+      event:
+      - 'jig%1:04:00::'
+      - 'jig%1:10:00::'
       id: 'jig%2:38:00::'
       sent:
       - Sam and Sue jig
@@ -9180,6 +9286,8 @@ jiggle:
     sense:
     - derivation:
       - 'jiggle%1:04:00::'
+      event:
+      - 'jiggle%1:04:00::'
       id: 'jiggle%2:38:00::'
       subcat:
       - via
@@ -9236,7 +9344,9 @@ jilt:
     pronunciation:
     - value: dʒɪlt
     sense:
-    - derivation:
+    - agent:
+      - 'jilt%1:18:00::'
+      derivation:
       - 'jilt%1:18:00::'
       id: 'jilt%2:31:00::'
       sent:
@@ -9293,6 +9403,8 @@ jimmy:
     sense:
     - derivation:
       - 'jimmy%1:06:00::'
+      instrument:
+      - 'jimmy%1:06:00::'
       id: 'jimmy%2:35:00::'
       subcat:
       - vtai
@@ -9325,6 +9437,8 @@ jingle:
     - value: ˈdʒɪŋɡəl
     sense:
     - derivation:
+      - 'jingle%1:11:00::'
+      event:
       - 'jingle%1:11:00::'
       id: 'jingle%2:39:00::'
       sent:
@@ -9447,7 +9561,11 @@ jinx:
       - vtaa
       - vtai
       synset: 00779033-v
-    - derivation:
+      undergoer:
+      - 'jinx%1:10:00::'
+    - agent:
+      - 'jinx%1:18:00::'
+      derivation:
       - 'jinx%1:18:00::'
       id: 'jinx%2:31:00::'
       subcat:
@@ -9502,6 +9620,8 @@ jitterbug:
     - value: ˈd͡ʒɪtə(ɹ)bʌɡ
     sense:
     - derivation:
+      - 'jitterbug%1:04:00::'
+      event:
       - 'jitterbug%1:04:00::'
       id: 'jitterbug%2:38:00::'
       sent:
@@ -9559,6 +9679,8 @@ jive:
   v:
     sense:
     - derivation:
+      - 'jive%1:10:00::'
+      event:
       - 'jive%1:10:00::'
       id: 'jive%2:36:00::'
       sent:
@@ -9631,7 +9753,12 @@ job:
       - 'job%1:06:00::'
       - 'job%1:04:05::'
       - 'job%1:04:01::'
+      event:
+      - 'job%1:04:05::'
+      - 'job%1:04:01::'
       id: 'job%2:41:03::'
+      location:
+      - 'job%1:06:00::'
       subcat:
       - vtai
       - vtai-to
@@ -9641,10 +9768,17 @@ job:
       - 'job%1:06:00::'
       - 'job%1:04:05::'
       - 'job%1:04:01::'
+      event:
+      - 'job%1:04:05::'
+      - 'job%1:04:01::'
       id: 'job%2:41:00::'
+      location:
+      - 'job%1:06:00::'
       subcat:
       - via-pp
       synset: 02425889-v
+      undergoer:
+      - 'job%1:06:01::'
     - id: 'job%2:40:00::'
       subcat:
       - via
@@ -9758,7 +9892,9 @@ jockey:
       subcat:
       - via-pp
       synset: 01112554-v
-    - derivation:
+    - agent:
+      - 'jockey%1:18:00::'
+      derivation:
       - 'jockey%1:18:00::'
       id: 'jockey%2:33:03::'
       subcat:
@@ -9962,10 +10098,14 @@ jog:
       subcat:
       - vtai
       synset: 01991662-v
-    - derivation:
+    - agent:
+      - 'jogger%1:18:00::'
+      derivation:
       - 'jog%1:04:00::'
       - 'jogger%1:18:00::'
       - 'jogging%1:04:00::'
+      event:
+      - 'jog%1:04:00::'
       id: 'jog%2:38:00::'
       sent:
       - Sam and Sue jog
@@ -9974,15 +10114,21 @@ jog:
       - via-pp
       - vtai
       synset: 01932343-v
-    - derivation:
+    - agent:
+      - 'jogger%1:18:00::'
+      derivation:
       - 'jog%1:04:00::'
       - 'jogger%1:18:00::'
       - 'jogging%1:04:00::'
+      event:
+      - 'jog%1:04:00::'
       id: 'jog%2:38:01::'
       subcat:
       - via-pp
       synset: 01905440-v
     - derivation:
+      - 'jog%1:04:01::'
+      event:
       - 'jog%1:04:01::'
       id: 'jog%2:35:00::'
       subcat:
@@ -10041,6 +10187,8 @@ joggle:
     sense:
     - derivation:
       - 'joggle%1:04:00::'
+      event:
+      - 'joggle%1:04:00::'
       id: 'joggle%2:38:00::'
       subcat:
       - via
@@ -10048,6 +10196,8 @@ joggle:
       - vtai
       synset: 01902275-v
     - derivation:
+      - 'joggle%1:06:00::'
+      instrument:
       - 'joggle%1:06:00::'
       id: 'joggle%2:35:00::'
       subcat:
@@ -10101,7 +10251,9 @@ join:
     pronunciation:
     - value: ˈdʒɔɪn
     sense:
-    - derivation:
+    - agent:
+      - 'joiner%1:18:01::'
+      derivation:
       - 'joiner%1:18:01::'
       id: 'join%2:41:00::'
       subcat:
@@ -10114,6 +10266,8 @@ join:
       derivation:
       - 'junction%1:04:00::'
       - 'joining%1:04:00::'
+      event:
+      - 'junction%1:04:00::'
       id: 'join%2:35:01::'
       subcat:
       - vtaa
@@ -10234,21 +10388,31 @@ joint:
     pronunciation:
     - value: dʒɔɪnt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'joint%1:06:01::'
+      - 'joint%1:25:00::'
+      derivation:
       - 'joint%1:06:01::'
       - 'joint%1:25:00::'
       id: 'joint%2:42:00::'
       subcat:
       - vii
       synset: 02666225-v
-    - derivation:
+    - agent:
+      - 'jointer%1:06:00::'
+      by_means_of:
+      - 'joint%1:25:00::'
+      derivation:
       - 'joint%1:25:00::'
       - 'jointer%1:06:00::'
       id: 'joint%2:40:00::'
       subcat:
       - vtai
       synset: 02359283-v
-    - derivation:
+    - by_means_of:
+      - 'joint%1:06:01::'
+      - 'joint%1:25:00::'
+      derivation:
       - 'joint%1:06:01::'
       - 'joint%1:25:00::'
       id: 'joint%2:35:00::'
@@ -10406,18 +10570,28 @@ joke:
     - value: dʒoʊk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'joker%1:18:00::'
+      derivation:
       - 'joker%1:18:00::'
       - 'joke%1:04:01::'
       - 'joke%1:10:00::'
+      event:
+      - 'joke%1:04:01::'
       id: 'joke%2:32:00::'
       subcat:
       - via
       synset: 00855315-v
-    - derivation:
+      undergoer:
+      - 'joke%1:10:00::'
+    - agent:
+      - 'joker%1:18:00::'
+      derivation:
       - 'joker%1:18:00::'
       - 'joke%1:04:01::'
       - 'joke%1:10:00::'
+      event:
+      - 'joke%1:04:01::'
       id: 'joke%2:29:00::'
       subcat:
       - via
@@ -10484,6 +10658,8 @@ jollify:
     - jollified
     sense:
     - derivation:
+      - 'jollification%1:04:00::'
+      event:
       - 'jollification%1:04:00::'
       id: 'jollify%2:41:00::'
       subcat:
@@ -10554,6 +10730,8 @@ jolly:
     sense:
     - derivation:
       - 'jolly%1:11:00::'
+      event:
+      - 'jolly%1:11:00::'
       id: 'jolly%2:32:00::'
       subcat:
       - via
@@ -10608,6 +10786,9 @@ jolt:
       variety: US
     sense:
     - derivation:
+      - 'jolt%1:04:00::'
+      - 'jolt%1:11:00::'
+      event:
       - 'jolt%1:04:00::'
       - 'jolt%1:11:00::'
       id: 'jolt%2:38:00::'
@@ -10765,6 +10946,8 @@ jostle:
     - derivation:
       - 'jostle%1:04:00::'
       - 'jostling%1:04:00::'
+      event:
+      - 'jostle%1:04:00::'
       id: 'jostle%2:38:02::'
       subcat:
       - via-pp
@@ -10772,6 +10955,8 @@ jostle:
     - derivation:
       - 'jostle%1:04:00::'
       - 'jostling%1:04:00::'
+      event:
+      - 'jostle%1:04:00::'
       id: 'jostle%2:38:00::'
       subcat:
       - via
@@ -10815,6 +11000,10 @@ jot:
       - 'jotter%1:10:00::'
       - 'jotting%1:10:00::'
       id: 'jot%2:32:00::'
+      location:
+      - 'jotter%1:10:00::'
+      result:
+      - 'jot%1:10:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -10972,18 +11161,26 @@ journey:
     - value: ˈd͡ʒɜːni
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'journeyer%1:18:00::'
+      derivation:
       - 'journey%1:04:00::'
       - 'journeyer%1:18:00::'
       - 'journeying%1:04:00::'
+      event:
+      - 'journey%1:04:00::'
       id: 'journey%2:38:00::'
       subcat:
       - via
       - vtaa-pp
       synset: 01849662-v
-    - derivation:
+    - agent:
+      - 'journeyer%1:18:00::'
+      derivation:
       - 'journey%1:04:00::'
       - 'journeyer%1:18:00::'
+      event:
+      - 'journey%1:04:00::'
       id: 'journey%2:38:01::'
       subcat:
       - vtai
@@ -11033,6 +11230,8 @@ joust:
     - value: dʒaʊst
     sense:
     - derivation:
+      - 'joust%1:11:00::'
+      event:
       - 'joust%1:11:00::'
       id: 'joust%2:33:00::'
       subcat:
@@ -11121,16 +11320,22 @@ joy:
     - derivation:
       - 'joy%1:12:00::'
       id: 'joy%2:37:00::'
+      state:
+      - 'joy%1:12:00::'
       subcat:
       - via
       - via-pp
       synset: 01817851-v
-    - derivation:
+    - by_means_of:
+      - 'joy%1:09:00::'
+      derivation:
       - 'joy%1:09:00::'
       - 'joy%1:12:00::'
       id: 'joy%2:37:01::'
       sent:
       - The good news will joy her
+      state:
+      - 'joy%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -11235,6 +11440,8 @@ joyride:
     sense:
     - derivation:
       - 'joyride%1:04:00::'
+      event:
+      - 'joyride%1:04:00::'
       id: 'joyride%2:38:00::'
       subcat:
       - via
@@ -11302,6 +11509,9 @@ jubilate:
     - derivation:
       - 'jubilee%1:28:00::'
       - 'jubilation%1:11:00::'
+      event:
+      - 'jubilee%1:28:00::'
+      - 'jubilation%1:11:00::'
       id: 'jubilate%2:41:00::'
       subcat:
       - vtai
@@ -11313,14 +11523,20 @@ jubilate:
       - 'jubilation%1:10:00::'
       - 'jubilancy%1:12:00::'
       - 'jubilance%1:12:00::'
+      event:
+      - 'jubilation%1:10:00::'
       id: 'jubilate%2:32:00::'
       sent:
       - Sam and Sue jubilate
       - Sam and Sue jubilate over the results of the experiment
+      state:
+      - 'jubilation%1:12:00::'
       subcat:
       - via
       - via-pp
       synset: 00859605-v
+      undergoer:
+      - 'jubilance%1:12:00::'
 jubilation:
   n:
     sense:
@@ -11393,6 +11609,9 @@ judge:
     - derivation:
       - 'judge%1:18:01::'
       - 'judgment%1:04:02::'
+      event:
+      - 'judgment%1:04:02::'
+      - 'judge%1:18:01::'
       id: 'judge%2:31:02::'
       subcat:
       - vtai
@@ -11401,6 +11620,9 @@ judge:
       - 'judge%1:18:01::'
       - 'judgment%1:04:02::'
       - 'judging%1:09:00::'
+      event:
+      - 'judgment%1:04:02::'
+      - 'judge%1:18:01::'
       id: 'judge%2:31:00::'
       subcat:
       - via-that
@@ -11413,6 +11635,9 @@ judge:
       - 'judge%1:18:01::'
       - 'judgment%1:09:00::'
       - 'judging%1:09:00::'
+      event:
+      - 'judgment%1:09:00::'
+      - 'judge%1:18:01::'
       id: 'judge%2:31:01::'
       subcat:
       - via-pp
@@ -11420,6 +11645,8 @@ judge:
       - vtai
       synset: 00674352-v
     - derivation:
+      - 'judgment%1:04:02::'
+      event:
       - 'judgment%1:04:02::'
       id: 'judge%2:32:00::'
       subcat:
@@ -11431,7 +11658,12 @@ judge:
       - 'judgment%1:10:00::'
       - 'judgment%1:04:00::'
       - 'judiciary%1:14:00::'
+      event:
+      - 'judge%1:18:00::'
       id: 'judge%2:41:09::'
+      result:
+      - 'judgment%1:10:00::'
+      - 'judgment%1:04:00::'
       sent:
       - They want to judge the prisoners
       subcat:
@@ -11828,6 +12060,8 @@ jug:
       subcat:
       - vtai
       synset: 00324872-v
+      undergoer:
+      - 'jug%1:23:00::'
 jug band:
   n:
     sense:
@@ -11896,21 +12130,29 @@ juggle:
     - derivation:
       - 'juggle%1:04:01::'
       - 'juggling%1:04:01::'
+      event:
+      - 'juggle%1:04:01::'
       id: 'juggle%2:41:01::'
       subcat:
       - vtai
       synset: 02583476-v
     - derivation:
       - 'juggle%1:04:01::'
+      event:
+      - 'juggle%1:04:01::'
       id: 'juggle%2:41:00::'
       subcat:
       - vtai
       synset: 02443248-v
-    - derivation:
+    - agent:
+      - 'juggler%1:18:00::'
+      derivation:
       - 'juggle%1:04:00::'
       - 'juggler%1:18:00::'
       - 'juggling%1:04:00::'
       - 'jugglery%1:04:00::'
+      event:
+      - 'juggle%1:04:00::'
       id: 'juggle%2:35:00::'
       subcat:
       - via
@@ -12187,6 +12429,9 @@ jumble:
       - 'jumble%1:09:00::'
       - 'jumble%1:26:00::'
       id: 'jumble%2:42:00::'
+      result:
+      - 'jumble%1:09:00::'
+      - 'jumble%1:26:00::'
       subcat:
       - vii
       - vii-pp
@@ -12195,13 +12440,20 @@ jumble:
       - 'jumble%1:26:00::'
       - 'jumble%1:09:00::'
       id: 'jumble%2:36:00::'
+      result:
+      - 'jumble%1:26:00::'
+      - 'jumble%1:09:00::'
       subcat:
       - vtai
       synset: 01660937-v
     - derivation:
       - 'jumble%1:09:00::'
       - 'jumble%1:26:00::'
+      event:
+      - 'jumble%1:26:00::'
       id: 'jumble%2:35:00::'
+      result:
+      - 'jumble%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -12297,6 +12549,8 @@ jump:
       derivation:
       - 'jump%1:04:00::'
       - 'jumping%1:04:01::'
+      event:
+      - 'jump%1:04:00::'
       id: 'jump%2:38:00::'
       sent:
       - The horses jump across the field
@@ -12306,6 +12560,8 @@ jump:
       - vii
       synset: 01967949-v
     - derivation:
+      - 'jump%1:04:01::'
+      event:
       - 'jump%1:04:01::'
       id: 'jump%2:38:04::'
       subcat:
@@ -12317,6 +12573,8 @@ jump:
       - vtaa
       synset: 01123596-v
     - derivation:
+      - 'jump%1:11:01::'
+      event:
       - 'jump%1:11:01::'
       id: 'jump%2:30:00::'
       subcat:
@@ -12334,6 +12592,8 @@ jump:
       synset: 01085330-v
     - derivation:
       - 'jump%1:11:00::'
+      event:
+      - 'jump%1:11:00::'
       id: 'jump%2:30:01::'
       subcat:
       - vii
@@ -12348,6 +12608,8 @@ jump:
       - vii
       synset: 02015717-v
     - derivation:
+      - 'jump%1:04:02::'
+      event:
       - 'jump%1:04:02::'
       id: 'jump%2:38:12::'
       subcat:
@@ -12370,6 +12632,8 @@ jump:
       - vtai
       synset: 00618188-v
     - derivation:
+      - 'jump%1:10:00::'
+      event:
       - 'jump%1:10:00::'
       id: 'jump%2:30:05::'
       subcat:
@@ -12897,6 +13161,8 @@ junk:
       subcat:
       - vtai
       synset: 02228020-v
+      undergoer:
+      - 'junk%1:27:00::'
 junk DNA:
   n:
     sense:
@@ -12957,6 +13223,8 @@ junket:
     - derivation:
       - 'junket%1:04:00::'
       - 'junketing%1:04:00::'
+      event:
+      - 'junket%1:04:00::'
       id: 'junket%2:38:00::'
       subcat:
       - via
@@ -13435,7 +13703,12 @@ justify:
     pronunciation:
     - value: ˈdʒʌstɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'justifier%1:18:00::'
+      by_means_of:
+      - 'justification%1:10:00::'
+      - 'justification%1:09:00::'
+      derivation:
       - justificative%5:00:00:exculpatory:00
       - justificative%5:00:00:apologetic:00
       - justificatory%5:00:00:exculpatory:00
@@ -13650,7 +13923,11 @@ juxtapose:
     - derivation:
       - 'juxtaposition%1:15:00::'
       - 'juxtaposition%1:04:00::'
+      event:
+      - 'juxtaposition%1:04:00::'
       id: 'juxtapose%2:35:00::'
+      location:
+      - 'juxtaposition%1:15:00::'
       subcat:
       - vtai
       synset: 01504599-v

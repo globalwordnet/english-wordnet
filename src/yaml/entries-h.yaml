@@ -9295,6 +9295,8 @@ habit:
       subcat:
       - vtaa
       synset: 00048819-v
+      uses:
+      - 'habit%1:06:00::'
 habit-forming:
   a:
     sense:
@@ -9403,6 +9405,9 @@ habituate:
       - 'habituation%1:04:00::'
       - 'habit%1:04:01::'
       id: 'habituate%2:30:00::'
+      result:
+      - 'habituation%1:26:00::'
+      - 'habituation%1:04:00::'
       subcat:
       - vtaa-pp
       synset: 00274244-v
@@ -9492,6 +9497,8 @@ hack:
     sense:
     - derivation:
       - 'hack%1:06:01::'
+      instrument:
+      - 'hack%1:06:01::'
       id: 'hack%2:35:02::'
       sent:
       - The chefs hack the vegetables
@@ -9503,7 +9510,9 @@ hack:
       subcat:
       - vtai
       synset: 02594436-v
-    - derivation:
+    - by_means_of:
+      - 'hack%1:06:01::'
+      derivation:
       - 'hack%1:06:01::'
       id: 'hack%2:35:01::'
       subcat:
@@ -9518,7 +9527,9 @@ hack:
       subcat:
       - vtaa
       synset: 01150567-v
-    - derivation:
+    - agent:
+      - 'hacker%1:18:01::'
+      derivation:
       - 'hacker%1:18:01::'
       id: 'hack%2:30:01::'
       subcat:
@@ -9760,6 +9771,8 @@ haemagglutinate:
   v:
     sense:
     - derivation:
+      - 'haemagglutination%1:22:00::'
+      event:
       - 'haemagglutination%1:22:00::'
       id: 'haemagglutinate%2:35:00::'
       subcat:
@@ -10253,9 +10266,13 @@ haggle:
     pronunciation:
     - value: ˈhæɡəl
     sense:
-    - derivation:
+    - agent:
+      - 'haggler%1:18:00::'
+      derivation:
       - 'haggler%1:18:00::'
       - 'haggling%1:10:00::'
+      - 'haggle%1:10:00::'
+      event:
       - 'haggle%1:10:00::'
       id: 'haggle%2:40:00::'
       sent:
@@ -10391,11 +10408,15 @@ hail:
       synset: 00902262-v
     - derivation:
       - 'hail%1:10:00::'
+      event:
+      - 'hail%1:10:00::'
       id: 'hail%2:32:00::'
       subcat:
       - vtaa
       synset: 00902139-v
     - derivation:
+      - 'hail%1:19:00::'
+      event:
       - 'hail%1:19:00::'
       id: 'hail%2:43:00::'
       sent:
@@ -11739,6 +11760,8 @@ halloo:
       synset: 01233704-v
     - derivation:
       - 'halloo%1:10:00::'
+      event:
+      - 'halloo%1:10:00::'
       id: 'halloo%2:32:00::'
       subcat:
       - via
@@ -11772,6 +11795,10 @@ hallucinate:
     sense:
     - derivation:
       - hallucinatory%5:00:00:unreal:00
+      - 'hallucination%1:26:00::'
+      - 'hallucination%1:09:01::'
+      - 'hallucination%1:09:00::'
+      event:
       - 'hallucination%1:26:00::'
       - 'hallucination%1:09:01::'
       - 'hallucination%1:09:00::'
@@ -12021,6 +12048,10 @@ halt:
       - 'halt%1:11:00::'
       - 'halt%1:04:00::'
       - 'halt%1:26:00::'
+      event:
+      - 'halt%1:11:00::'
+      - 'halt%1:04:00::'
+      - 'halt%1:26:00::'
       id: 'halt%2:38:05::'
       sent:
       - They halt the animals
@@ -12031,6 +12062,10 @@ halt:
       - vtii
       synset: 01863572-v
     - derivation:
+      - 'halt%1:26:00::'
+      - 'halt%1:04:00::'
+      - 'halt%1:11:00::'
+      event:
       - 'halt%1:26:00::'
       - 'halt%1:04:00::'
       - 'halt%1:11:00::'
@@ -12045,11 +12080,16 @@ halt:
     - derivation:
       - 'halt%1:04:00::'
       - 'halt%1:11:00::'
+      event:
+      - 'halt%1:04:00::'
+      - 'halt%1:11:00::'
       id: 'halt%2:41:00::'
       subcat:
       - vtai
       synset: 02565578-v
     - derivation:
+      - 'halt%1:11:00::'
+      event:
       - 'halt%1:11:00::'
       id: 'halt%2:30:02::'
       subcat:
@@ -12073,7 +12113,11 @@ halter:
       synset: 02154864-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'halter%1:06:02::'
+      derivation:
+      - 'halter%1:06:02::'
+      instrument:
       - 'halter%1:06:02::'
       id: 'halter%2:41:00::'
       subcat:
@@ -12150,6 +12194,8 @@ ham:
     - derivation:
       - 'ham%1:18:00::'
       - 'hamming%1:04:00::'
+      event:
+      - 'ham%1:18:00::'
       id: 'ham%2:36:00::'
       subcat:
       - via
@@ -12330,11 +12376,17 @@ hammer:
     - derivation:
       - 'hammer%1:06:00::'
       - 'hammering%1:04:00::'
+      instrument:
+      - 'hammer%1:06:00::'
       id: 'hammer%2:35:00::'
       subcat:
       - vtai
       synset: 01419193-v
-    - derivation:
+    - by_means_of:
+      - 'hammer%1:06:00::'
+      derivation:
+      - 'hammer%1:06:00::'
+      instrument:
       - 'hammer%1:06:00::'
       id: 'hammer%2:36:00::'
       subcat:
@@ -12461,14 +12513,22 @@ hamper:
       synset: 03487488-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hamper%1:06:01::'
+      derivation:
+      - 'hamper%1:06:01::'
+      instrument:
       - 'hamper%1:06:01::'
       id: 'hamper%2:30:00::'
       subcat:
       - vtia
       - vtii
       synset: 00237139-v
-    - derivation:
+    - by_means_of:
+      - 'hamper%1:06:01::'
+      derivation:
+      - 'hamper%1:06:01::'
+      instrument:
       - 'hamper%1:06:01::'
       id: 'hamper%2:33:00::'
       subcat:
@@ -12511,6 +12571,8 @@ hamstring:
       subcat:
       - vtaa
       synset: 00091603-v
+      undergoer:
+      - 'hamstring%1:08:00::'
 hamstring tendon:
   n:
     sense:
@@ -12573,6 +12635,8 @@ hand:
       - vtai-to
       synset: 02235554-v
     - derivation:
+      - 'hand%1:04:00::'
+      event:
       - 'hand%1:04:00::'
       id: 'hand%2:38:00::'
       subcat:
@@ -12735,6 +12799,8 @@ hand over:
     - also:
       - 'hand%2:40:00::'
       derivation:
+      - 'handover%1:04:00::'
+      event:
       - 'handover%1:04:00::'
       id: 'hand_over%2:40:00::'
       subcat:
@@ -13036,6 +13102,8 @@ handcraft:
     - derivation:
       - 'handcraft%1:06:00::'
       id: 'handcraft%2:36:00::'
+      result:
+      - 'handcraft%1:06:00::'
       subcat:
       - vtai
       synset: 01662901-v
@@ -13052,7 +13120,9 @@ handcuff:
     pronunciation:
     - value: ˈhændˌkʌf
     sense:
-    - derivation:
+    - by_means_of:
+      - 'handcuff%1:06:00::'
+      derivation:
       - 'handcuff%1:06:00::'
       id: 'handcuff%2:35:00::'
       sent:
@@ -13155,12 +13225,16 @@ handicap:
     sense:
     - derivation:
       - 'handicap%1:26:00::'
+      event:
+      - 'handicap%1:26:00::'
       id: 'handicap%2:29:00::'
       subcat:
       - vtaa
       - vtia
       synset: 00091720-v
-    - derivation:
+    - agent:
+      - 'handicapper%1:18:00::'
+      derivation:
       - 'handicap%1:07:02::'
       - 'handicapper%1:18:00::'
       id: 'handicap%2:33:01::'
@@ -13170,7 +13244,9 @@ handicap:
       - vtia
       - vtii
       synset: 01088285-v
-    - derivation:
+    - by_means_of:
+      - 'handicap%1:09:00::'
+      derivation:
       - 'handicap%1:09:00::'
       id: 'handicap%2:33:00::'
       subcat:
@@ -13269,7 +13345,9 @@ handle:
       synset: 03491080-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'handler%1:18:02::'
+      derivation:
       - 'handler%1:18:02::'
       - 'handling%1:04:02::'
       id: 'handle%2:41:00::'
@@ -13290,7 +13368,9 @@ handle:
       - vtai
       - vtii
       synset: 01035399-v
-    - derivation:
+    - by_means_of:
+      - 'handle%1:06:00::'
+      derivation:
       - 'handle%1:06:00::'
       - 'handling%1:04:01::'
       id: 'handle%2:35:00::'
@@ -13301,7 +13381,10 @@ handle:
       subcat:
       - vtai
       synset: 01226979-v
-    - derivation:
+    - agent:
+      - 'handler%1:18:01::'
+      - 'handler%1:18:00::'
+      derivation:
       - 'handler%1:18:01::'
       - 'handler%1:18:00::'
       id: 'handle%2:37:05::'
@@ -13600,6 +13683,8 @@ handstamp:
     sense:
     - derivation:
       - 'handstamp%1:06:00::'
+      instrument:
+      - 'handstamp%1:06:00::'
       id: 'handstamp%2:35:00::'
       subcat:
       - vtai
@@ -13736,7 +13821,11 @@ hang:
       - vii
       - vii-pp
       synset: 01484705-v
-    - derivation:
+    - agent:
+      - 'hanger%1:18:00::'
+      by_means_of:
+      - 'hanger%1:06:00::'
+      derivation:
       - 'hanger%1:18:00::'
       - 'hanger%1:06:00::'
       - 'hanging%1:06:00::'
@@ -13764,6 +13853,8 @@ hang:
     - derivation:
       - 'hang%1:07:00::'
       id: 'hang%2:35:02::'
+      property:
+      - 'hang%1:07:00::'
       subcat:
       - vii-adj
       synset: 01545450-v
@@ -14167,6 +14258,8 @@ hap:
     sense:
     - derivation:
       - 'hap%1:11:00::'
+      event:
+      - 'hap%1:11:00::'
       id: 'hap%2:30:00::'
       subcat:
       - nonreferential-sent
@@ -14459,8 +14552,12 @@ harangue:
     pronunciation:
     - value: həˈɹæŋ
     sense:
-    - derivation:
+    - agent:
       - 'haranguer%1:18:00::'
+      derivation:
+      - 'haranguer%1:18:00::'
+      - 'harangue%1:10:00::'
+      event:
       - 'harangue%1:10:00::'
       id: 'harangue%2:32:00::'
       subcat:
@@ -14481,15 +14578,21 @@ harass:
     - value: ˈhæɹəs
       variety: GB
     sense:
-    - derivation:
+    - agent:
       - 'harasser%1:18:01::'
+      derivation:
+      - 'harasser%1:18:01::'
+      - 'harassment%1:04:00::'
+      event:
       - 'harassment%1:04:00::'
       id: 'harass%2:37:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01793315-v
-    - derivation:
+    - agent:
+      - 'harasser%1:18:00::'
+      derivation:
       - 'harasser%1:18:00::'
       id: 'harass%2:33:00::'
       subcat:
@@ -14547,7 +14650,11 @@ harbinger:
     - value: ˈhɑɹbɪndʒəɹ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'harbinger%1:10:00::'
+      derivation:
+      - 'harbinger%1:10:00::'
+      event:
       - 'harbinger%1:10:00::'
       id: 'harbinger%2:32:00::'
       subcat:
@@ -14573,6 +14680,8 @@ harbor:
       - 'harbor%1:06:00::'
       - 'harborage%1:15:00::'
       id: 'harbor%2:42:00::'
+      location:
+      - 'harbor%1:06:00::'
       subcat:
       - vtaa
       - vtai
@@ -14635,6 +14744,8 @@ harbour:
       - 'harbour%1:06:00::'
       - 'harbourage%1:15:00::'
       id: 'harbour%2:42:00::'
+      location:
+      - 'harbour%1:06:00::'
       subcat:
       - vtaa
       - vtai
@@ -15696,6 +15807,9 @@ harm:
     - derivation:
       - 'harm%1:04:00::'
       - 'harm%1:11:01::'
+      event:
+      - 'harm%1:04:00::'
+      - 'harm%1:11:01::'
       id: 'harm%2:29:00::'
       subcat:
       - via
@@ -15944,25 +16058,35 @@ harmonise:
     - derivation:
       - 'harmonisation%1:10:00::'
       id: 'harmonise%2:36:01::'
+      result:
+      - 'harmonisation%1:10:00::'
       subcat:
       - vtai
       synset: 01711165-v
-    - derivation:
+    - agent:
+      - 'harmoniser%1:18:01::'
+      derivation:
       - 'harmonisation%1:04:00::'
       - 'harmoniser%1:18:01::'
+      event:
+      - 'harmonisation%1:04:00::'
       id: 'harmonise%2:36:00::'
       subcat:
       - via
       - via-pp
       synset: 01710748-v
-    - derivation:
+    - agent:
+      - 'harmoniser%1:18:00::'
+      derivation:
       - 'harmoniser%1:18:00::'
       - 'harmony%1:26:00::'
       id: 'harmonise%2:30:03::'
       subcat:
       - vtai
       synset: 00484112-v
-    - derivation:
+    - agent:
+      - 'harmoniser%1:18:00::'
+      derivation:
       - 'harmoniser%1:18:00::'
       - 'harmony%1:26:00::'
       id: 'harmonise%2:30:02::'
@@ -15972,7 +16096,11 @@ harmonise:
     - derivation:
       - 'harmonisation%1:10:00::'
       - 'harmonisation%1:04:00::'
+      event:
+      - 'harmonisation%1:04:00::'
       id: 'harmonise%2:30:01::'
+      result:
+      - 'harmonisation%1:10:00::'
       subcat:
       - vtai
       - vtii
@@ -16035,12 +16163,18 @@ harmonize:
     - derivation:
       - 'harmonization%1:10:00::'
       id: 'harmonize%2:36:01::'
+      result:
+      - 'harmonization%1:10:00::'
       subcat:
       - vtai
       synset: 01711165-v
-    - derivation:
+    - agent:
+      - 'harmonizer%1:18:01::'
+      derivation:
       - 'harmonization%1:04:00::'
       - 'harmonizer%1:18:01::'
+      event:
+      - 'harmonization%1:04:00::'
       id: 'harmonize%2:36:00::'
       sent:
       - Sam and Sue harmonize
@@ -16048,14 +16182,18 @@ harmonize:
       - via
       - via-pp
       synset: 01710748-v
-    - derivation:
+    - agent:
+      - 'harmonizer%1:18:00::'
+      derivation:
       - 'harmonizer%1:18:00::'
       - 'harmony%1:26:00::'
       id: 'harmonize%2:30:03::'
       subcat:
       - vtai
       synset: 00484112-v
-    - derivation:
+    - agent:
+      - 'harmonizer%1:18:00::'
+      derivation:
       - 'harmonizer%1:18:00::'
       - 'harmony%1:26:00::'
       id: 'harmonize%2:30:02::'
@@ -16065,7 +16203,11 @@ harmonize:
     - derivation:
       - 'harmonization%1:10:00::'
       - 'harmonization%1:04:00::'
+      event:
+      - 'harmonization%1:04:00::'
       id: 'harmonize%2:30:01::'
+      result:
+      - 'harmonization%1:10:00::'
       subcat:
       - vtai
       - vtii
@@ -16157,11 +16299,15 @@ harness:
       - vtai
       - vtai-pp
       synset: 01494354-v
+      uses:
+      - 'harness%1:06:00::'
     - id: 'harness%2:34:00::'
       subcat:
       - vtai
       synset: 01165811-v
-    - derivation:
+    - by_means_of:
+      - 'harness%1:06:00::'
+      derivation:
       - 'harness%1:06:00::'
       id: 'harness%2:41:00::'
       subcat:
@@ -16227,7 +16373,9 @@ harp:
       subcat:
       - via-pp
       synset: 00961399-v
-    - derivation:
+    - agent:
+      - 'harper%1:18:00::'
+      derivation:
       - 'harp%1:06:02::'
       - 'harp%1:06:00::'
       - 'harper%1:18:00::'
@@ -16235,6 +16383,9 @@ harp:
       subcat:
       - via
       synset: 01736594-v
+      undergoer:
+      - 'harp%1:06:02::'
+      - 'harp%1:06:00::'
 harp seal:
   n:
     pronunciation:
@@ -16287,8 +16438,12 @@ harpoon:
     - value: hɑːˈpuːn
       variety: GB
     sense:
-    - derivation:
+    - agent:
       - 'harpooner%1:18:00::'
+      derivation:
+      - 'harpooner%1:18:00::'
+      - 'harpoon%1:06:00::'
+      instrument:
       - 'harpoon%1:06:00::'
       id: 'harpoon%2:33:00::'
       subcat:
@@ -16432,6 +16587,8 @@ harrow:
       - via
       - vtai
       synset: 01746296-v
+      undergoer:
+      - 'harrow%1:06:00::'
 harrowing:
   a:
     pronunciation:
@@ -16450,7 +16607,9 @@ harry:
     - value: hæɹi
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'harrier%1:18:00::'
+      derivation:
       - 'harrier%1:18:00::'
       id: 'harry%2:37:00::'
       sent:
@@ -16636,19 +16795,27 @@ harvest:
     - value: ˈhɑː(ɹ)vɪst
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'harvester%1:18:00::'
+      derivation:
       - 'harvest%1:04:00::'
       - 'harvest%1:04:01::'
       - 'harvest%1:20:00::'
       - 'harvester%1:06:00::'
       - 'harvester%1:18:00::'
       - 'harvesting%1:04:00::'
+      event:
+      - 'harvest%1:04:01::'
+      instrument:
+      - 'harvester%1:06:00::'
       id: 'harvest%2:35:00::'
       sent:
       - They harvest rye in the field
       subcat:
       - vtai
       synset: 01322669-v
+      undergoer:
+      - 'harvest%1:20:00::'
     - id: 'harvest%2:30:00::'
       subcat:
       - vtai
@@ -16747,6 +16914,8 @@ hash:
     - derivation:
       - 'hash%1:13:00::'
       id: 'hash%2:35:00::'
+      result:
+      - 'hash%1:13:00::'
       sent:
       - The chefs hash the vegetables
       subcat:
@@ -16822,7 +16991,9 @@ hasp:
       synset: 03502477-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hasp%1:06:00::'
+      derivation:
       - 'hasp%1:06:00::'
       id: 'hasp%2:35:00::'
       subcat:
@@ -16851,6 +17022,8 @@ hassle:
     - value: ˈhæsl
     sense:
     - derivation:
+      - 'hassle%1:11:00::'
+      event:
       - 'hassle%1:11:00::'
       id: 'hassle%2:37:00::'
       sent:
@@ -16996,6 +17169,8 @@ hat:
       subcat:
       - via
       synset: 00046889-v
+      uses:
+      - 'hat%1:06:00::'
     - derivation:
       - 'hat%1:06:00::'
       id: 'hat%2:40:00::'
@@ -17003,6 +17178,8 @@ hat:
       - vtaa
       - vtai
       synset: 02368127-v
+      uses:
+      - 'hat%1:06:00::'
 hat shop:
   n:
     sense:
@@ -17048,6 +17225,8 @@ hatch:
       - 'hatch%1:22:00::'
       - 'hatching%1:22:00::'
       - 'hatchery%1:15:00::'
+      event:
+      - 'hatch%1:22:00::'
       id: 'hatch%2:29:01::'
       subcat:
       - via
@@ -17061,6 +17240,8 @@ hatch:
     - derivation:
       - 'hatch%1:07:00::'
       id: 'hatch%2:36:03::'
+      result:
+      - 'hatch%1:07:00::'
       subcat:
       - vtai
       synset: 01686129-v
@@ -17069,10 +17250,14 @@ hatch:
       - 'hachure%1:07:00::'
       - 'hatching%1:07:00::'
       id: 'hatch%2:35:04::'
+      result:
+      - 'hatch%1:07:00::'
       subcat:
       - vtai
       synset: 01279157-v
     - derivation:
+      - 'hatch%1:22:00::'
+      event:
       - 'hatch%1:22:00::'
       id: 'hatch%2:29:00::'
       subcat:
@@ -17182,7 +17367,9 @@ hate:
     pronunciation:
     - value: heɪt
     sense:
-    - antonym:
+    - agent:
+      - 'hater%1:18:00::'
+      antonym:
       - 'love%2:37:00::'
       derivation:
       - 'hater%1:18:00::'
@@ -17191,6 +17378,8 @@ hate:
       sent:
       - Sam cannot hate Sue
       - Sam and Sue hate the movie
+      state:
+      - 'hate%1:12:00::'
       subcat:
       - vtaa
       - vtai
@@ -17369,21 +17558,29 @@ haul:
     - value: hɔl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'hauler%1:18:00::'
+      derivation:
       - 'haul%1:04:00::'
       - 'hauler%1:18:00::'
       - 'haulage%1:04:00::'
       - 'hauling%1:04:00::'
+      event:
+      - 'haul%1:04:00::'
       id: 'haul%2:35:01::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01457421-v
-    - derivation:
+    - agent:
+      - 'hauler%1:18:00::'
+      derivation:
       - 'haul%1:04:00::'
       - 'hauler%1:18:00::'
       - 'haulage%1:04:00::'
       - 'hauling%1:04:00::'
+      event:
+      - 'haul%1:04:00::'
       id: 'haul%2:35:00::'
       subcat:
       - vtaa
@@ -17503,6 +17700,8 @@ haunt:
     - derivation:
       - 'haunt%1:15:00::'
       id: 'haunt%2:38:02::'
+      location:
+      - 'haunt%1:15:00::'
       subcat:
       - vtai
       synset: 01848373-v
@@ -17595,7 +17794,9 @@ have:
     - had
     - has
     sense:
-    - derivation:
+    - agent:
+      - 'have%1:18:00::'
+      derivation:
       - 'have%1:18:00::'
       id: 'have%2:40:00::'
       sent:
@@ -17617,7 +17818,9 @@ have:
       - vtai
       - vtii
       synset: 02112480-v
-    - derivation:
+    - agent:
+      - 'have%1:18:00::'
+      derivation:
       - 'have%1:18:00::'
       id: 'have%2:40:04::'
       subcat:
@@ -17937,14 +18140,20 @@ hawk:
       synset: 03792697-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hawker%1:18:00::'
+      derivation:
       - 'hawker%1:18:00::'
       - 'hawking%1:04:00::'
       id: 'hawk%2:40:00::'
       subcat:
       - vtai
       synset: 02307797-v
-    - derivation:
+    - agent:
+      - 'hawker%1:18:01::'
+      by_means_of:
+      - 'hawk%1:05:00::'
+      derivation:
       - 'hawk%1:05:00::'
       - 'hawker%1:18:01::'
       id: 'hawk%2:33:00::'
@@ -18276,12 +18485,16 @@ hazard:
     sense:
     - derivation:
       - 'hazard%1:19:00::'
+      event:
+      - 'hazard%1:19:00::'
       id: 'hazard%2:32:00::'
       subcat:
       - via-that
       - vtai
       synset: 00918880-v
-    - derivation:
+    - by_means_of:
+      - 'hazard%1:26:00::'
+      derivation:
       - 'hazard%1:26:00::'
       id: 'hazard%2:41:01::'
       subcat:
@@ -18293,6 +18506,8 @@ hazard:
       subcat:
       - via-that
       synset: 02550045-v
+      undergoer:
+      - 'hazard%1:26:00::'
 hazard insurance:
   n:
     sense:
@@ -18338,6 +18553,8 @@ haze:
   v:
     sense:
     - derivation:
+      - 'haze%1:19:00::'
+      event:
       - 'haze%1:19:00::'
       id: 'haze%2:43:00::'
       subcat:
@@ -18596,7 +18813,9 @@ head:
       - via-pp
       - vii-pp
       synset: 01939092-v
-    - derivation:
+    - agent:
+      - 'head%1:18:00::'
+      derivation:
       - 'head%1:18:00::'
       id: 'head%2:41:00::'
       subcat:
@@ -18606,12 +18825,19 @@ head:
       - 'head%1:11:00::'
       - 'head%1:15:02::'
       - 'head%1:14:00::'
+      event:
+      - 'head%1:11:00::'
       id: 'head%2:38:02::'
+      location:
+      - 'head%1:15:02::'
+      - 'head%1:14:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02003455-v
-    - derivation:
+    - agent:
+      - 'head%1:18:00::'
+      derivation:
       - 'head%1:15:02::'
       - 'head%1:14:00::'
       - 'head%1:18:00::'
@@ -18625,6 +18851,8 @@ head:
       - 'head%1:14:00::'
       - 'head%1:11:00::'
       - 'heading%1:15:00::'
+      event:
+      - 'head%1:11:00::'
       id: 'head%2:38:01::'
       subcat:
       - via
@@ -18635,12 +18863,17 @@ head:
       subcat:
       - vii-pp
       synset: 02760338-v
-    - derivation:
+    - by_means_of:
+      - 'header%1:10:00::'
+      derivation:
       - 'head%1:15:02::'
       - 'header%1:10:00::'
       - 'head%1:15:00::'
       - 'heading%1:10:00::'
       id: 'head%2:42:00::'
+      location:
+      - 'head%1:15:02::'
+      - 'head%1:15:00::'
       subcat:
       - vtai
       - vtii
@@ -19120,14 +19353,18 @@ headline:
     - value: ˈhɛd.laɪn
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'headline%1:10:00::'
+      derivation:
       - 'headline%1:10:00::'
       id: 'headline%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00978256-v
-    - derivation:
+    - agent:
+      - 'headliner%1:18:00::'
+      derivation:
       - 'headline%1:10:00::'
       - 'headliner%1:18:00::'
       id: 'headline%2:40:00::'
@@ -19135,6 +19372,8 @@ headline:
       - vtai
       - vtii
       synset: 02337441-v
+      uses:
+      - 'headline%1:10:00::'
 headliner:
   n:
     sense:
@@ -19472,7 +19711,9 @@ heal:
       - vibody
       - vii
       synset: 00098938-v
-    - derivation:
+    - agent:
+      - 'healer%1:18:00::'
+      derivation:
       - 'healer%1:18:00::'
       id: 'heal%2:29:01::'
       subcat:
@@ -19721,6 +19962,8 @@ heap:
       - vtaa-with
       - vtai-on
       synset: 02268596-v
+      uses:
+      - 'heap%1:23:00::'
     - also:
       - 'heap_up%2:35:00::'
       derivation:
@@ -19731,7 +19974,11 @@ heap:
       subcat:
       - vtai-pp
       synset: 01506036-v
+      undergoer:
+      - 'heap%1:14:00::'
     - derivation:
+      - 'heap%1:23:00::'
+      event:
       - 'heap%1:23:00::'
       id: 'heap%2:30:00::'
       sent:
@@ -19802,7 +20049,9 @@ hear:
       subcat:
       - via-pp
       synset: 02111896-v
-    - derivation:
+    - agent:
+      - 'hearer%1:18:00::'
+      derivation:
       - 'hearer%1:18:00::'
       - 'hearing%1:04:00::'
       id: 'hear%2:39:05::'
@@ -20499,11 +20748,15 @@ heat:
     sense:
     - antonym:
       - 'cool%2:30:01::'
+      by_means_of:
+      - 'heat%1:19:00::'
       derivation:
       - heatable%5:00:00:hot:01
       - 'heat%1:09:00::'
       - 'heat%1:07:01::'
       - 'heat%1:19:00::'
+      - 'heater%1:06:00::'
+      instrument:
       - 'heater%1:06:00::'
       id: 'heat%2:30:01::'
       sent:
@@ -20513,7 +20766,12 @@ heat:
       - vtia
       - vtii
       synset: 00371917-v
-    - derivation:
+      uses:
+      - 'heat%1:09:00::'
+      - 'heat%1:07:01::'
+    - by_means_of:
+      - 'heat%1:06:00::'
+      derivation:
       - heatable%5:00:00:hot:01
       - 'heat%1:06:00::'
       - 'heat%1:09:00::'
@@ -20521,11 +20779,19 @@ heat:
       - 'heat%1:19:00::'
       - 'heater%1:06:00::'
       - 'heating%1:06:00::'
+      instrument:
+      - 'heater%1:06:00::'
       id: 'heat%2:40:00::'
       subcat:
       - vtai
       synset: 02338354-v
+      uses:
+      - 'heat%1:09:00::'
+      - 'heat%1:07:01::'
+      - 'heat%1:19:00::'
     - derivation:
+      - 'heat%1:07:02::'
+      event:
       - 'heat%1:07:02::'
       id: 'heat%2:37:00::'
       subcat:
@@ -20534,6 +20800,9 @@ heat:
       synset: 01764964-v
     - antonym:
       - 'cool%2:30:00::'
+      by_means_of:
+      - 'heat%1:06:00::'
+      - 'heat%1:19:00::'
       derivation:
       - heatable%5:00:00:hot:01
       - 'heat%1:06:00::'
@@ -20542,6 +20811,9 @@ heat:
       - 'heat%1:19:00::'
       - 'heating%1:22:00::'
       id: 'heat%2:30:00::'
+      result:
+      - 'heat%1:09:00::'
+      - 'heat%1:07:01::'
       sent:
       - The water heats
       subcat:
@@ -20983,6 +21255,8 @@ heave:
     - derivation:
       - 'heave%1:04:00::'
       - 'heaving%1:04:00::'
+      event:
+      - 'heave%1:04:00::'
       id: 'heave%2:35:01::'
       subcat:
       - vtai
@@ -20990,15 +21264,22 @@ heave:
     - derivation:
       - 'heave%1:11:01::'
       - 'heaving%1:11:01::'
+      event:
+      - 'heave%1:11:01::'
       id: 'heave%2:38:00::'
       subcat:
       - vii
       synset: 02045051-v
-    - derivation:
+    - agent:
+      - 'heaver%1:18:00::'
+      derivation:
       - 'heave%1:04:02::'
       - 'heave%1:04:01::'
       - 'heaver%1:18:00::'
       - 'heaving%1:04:03::'
+      event:
+      - 'heave%1:04:02::'
+      - 'heave%1:04:01::'
       id: 'heave%2:35:00::'
       subcat:
       - vtaa
@@ -21016,11 +21297,15 @@ heave:
       synset: 00005526-v
     - derivation:
       - 'heave%1:11:00::'
+      event:
+      - 'heave%1:11:00::'
       id: 'heave%2:30:00::'
       subcat:
       - vii
       synset: 00357608-v
     - derivation:
+      - 'heave%1:04:03::'
+      event:
       - 'heave%1:04:03::'
       id: 'heave%2:29:00::'
       subcat:
@@ -21580,7 +21865,9 @@ heckle:
       subcat:
       - vtai
       synset: 01599893-v
-    - derivation:
+    - agent:
+      - 'heckler%1:18:00::'
+      derivation:
       - 'heckler%1:18:00::'
       - 'heckling%1:04:00::'
       id: 'heckle%2:32:00::'
@@ -21644,6 +21931,8 @@ hectograph:
     sense:
     - derivation:
       - 'hectograph%1:06:00::'
+      instrument:
+      - 'hectograph%1:06:00::'
       id: 'hectograph%2:36:00::'
       subcat:
       - vtai
@@ -21701,7 +21990,11 @@ hedge:
       synset: 06774314-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hedger%1:18:02::'
+      by_means_of:
+      - 'hedge%1:10:00::'
+      derivation:
       - 'hedge%1:10:00::'
       - 'hedger%1:18:02::'
       - 'hedging%1:10:00::'
@@ -21718,7 +22011,9 @@ hedge:
       subcat:
       - vtai
       synset: 01617924-v
-    - derivation:
+    - agent:
+      - 'hedger%1:18:01::'
+      derivation:
       - 'hedger%1:18:01::'
       id: 'hedge%2:30:00::'
       subcat:
@@ -21931,6 +22226,8 @@ hee-haw:
     sense:
     - derivation:
       - 'hee-haw%1:10:00::'
+      event:
+      - 'hee-haw%1:10:00::'
       id: 'hee-haw%2:32:00::'
       subcat:
       - vii
@@ -21956,6 +22253,8 @@ heed:
     - value: hiːd
     sense:
     - derivation:
+      - 'heed%1:09:00::'
+      event:
       - 'heed%1:09:00::'
       id: 'heed%2:41:00::'
       subcat:
@@ -22077,14 +22376,19 @@ heel:
       - vtaa
       - vtia
       synset: 01996146-v
-    - derivation:
+    - by_means_of:
+      - 'heel%1:08:00::'
+      - 'heel%1:06:00::'
+      derivation:
       - 'heel%1:08:00::'
       - 'heel%1:06:00::'
       id: 'heel%2:36:00::'
       subcat:
       - vtai
       synset: 01755353-v
-    - derivation:
+    - by_means_of:
+      - 'heel%1:06:02::'
+      derivation:
       - 'heel%1:06:02::'
       id: 'heel%2:35:00::'
       subcat:
@@ -22374,6 +22678,9 @@ heist:
     - derivation:
       - 'heist%1:04:01::'
       - 'heist%1:04:00::'
+      event:
+      - 'heist%1:04:01::'
+      - 'heist%1:04:00::'
       id: 'heist%2:41:00::'
       subcat:
       - vtaa
@@ -22476,6 +22783,8 @@ heliograph:
   v:
     sense:
     - derivation:
+      - 'heliograph%1:06:00::'
+      instrument:
       - 'heliograph%1:06:00::'
       id: 'heliograph%2:32:00::'
       subcat:
@@ -22866,11 +23175,19 @@ help:
       synset: 05157079-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'helper%1:18:01::'
+      - 'helper%1:18:00::'
+      - 'help%1:18:00::'
+      by_means_of:
+      - 'help%1:07:00::'
+      derivation:
       - 'helper%1:18:01::'
       - 'helper%1:18:00::'
       - 'help%1:18:00::'
       - 'help%1:07:00::'
+      - 'help%1:04:00::'
+      event:
       - 'help%1:04:00::'
       id: 'help%2:41:00::'
       sent:
@@ -22883,16 +23200,24 @@ help:
       - vtai
       - vtia
       synset: 02553283-v
-    - derivation:
+    - by_means_of:
       - 'help%1:07:00::'
+      derivation:
+      - 'help%1:07:00::'
+      - 'help%1:04:00::'
+      event:
       - 'help%1:04:00::'
       id: 'help%2:29:00::'
       subcat:
       - vtaa
       - vtia
       synset: 00081834-v
-    - derivation:
+    - by_means_of:
       - 'help%1:07:00::'
+      derivation:
+      - 'help%1:07:00::'
+      - 'help%1:04:00::'
+      event:
       - 'help%1:04:00::'
       id: 'help%2:42:00::'
       sent:
@@ -22916,10 +23241,17 @@ help:
       subcat:
       - vtaa
       synset: 01183592-v
-    - derivation:
+    - agent:
+      - 'helper%1:18:01::'
+      - 'helper%1:18:00::'
+      by_means_of:
+      - 'help%1:07:00::'
+      derivation:
       - 'helper%1:18:01::'
       - 'helper%1:18:00::'
       - 'help%1:07:00::'
+      - 'help%1:04:00::'
+      event:
       - 'help%1:04:00::'
       id: 'help%2:41:12::'
       subcat:
@@ -22932,8 +23264,12 @@ help:
       subcat:
       - vtai
       synset: 01196102-v
-    - derivation:
+    - by_means_of:
       - 'help%1:07:00::'
+      derivation:
+      - 'help%1:07:00::'
+      - 'help%1:04:00::'
+      event:
       - 'help%1:04:00::'
       id: 'help%2:30:13::'
       subcat:
@@ -23139,6 +23475,8 @@ hem:
     - derivation:
       - 'hem%1:06:00::'
       id: 'hem%2:35:00::'
+      result:
+      - 'hem%1:06:00::'
       subcat:
       - vtai
       synset: 01332414-v
@@ -23170,6 +23508,8 @@ hemagglutinate:
   v:
     sense:
     - derivation:
+      - 'hemagglutination%1:22:00::'
+      event:
       - 'hemagglutination%1:22:00::'
       id: 'hemagglutinate%2:35:00::'
       subcat:
@@ -23831,6 +24171,8 @@ hemorrhage:
     sense:
     - derivation:
       - 'hemorrhage%1:26:00::'
+      event:
+      - 'hemorrhage%1:26:00::'
       id: 'hemorrhage%2:29:00::'
       subcat:
       - via
@@ -23986,7 +24328,10 @@ hemstitch:
       synset: 03519732-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hemstitch%1:06:01::'
+      - 'hemstitch%1:06:00::'
+      derivation:
       - 'hemstitch%1:06:01::'
       - 'hemstitch%1:06:00::'
       - 'hemstitching%1:06:00::'
@@ -24138,6 +24483,8 @@ henna:
       subcat:
       - vtai
       synset: 00284424-v
+      uses:
+      - 'henna%1:27:00::'
 henpecked:
   a:
     pronunciation:
@@ -24368,6 +24715,8 @@ herald:
   v:
     sense:
     - derivation:
+      - 'herald%1:10:00::'
+      event:
       - 'herald%1:10:00::'
       id: 'herald%2:32:00::'
       subcat:
@@ -24639,10 +24988,14 @@ herd:
       synset: 08199964-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'herder%1:18:00::'
+      derivation:
       - 'herd%1:14:02::'
       - 'herder%1:18:00::'
       id: 'herd%2:38:01::'
+      result:
+      - 'herd%1:14:02::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -24652,12 +25005,16 @@ herd:
     - derivation:
       - 'herd%1:14:02::'
       id: 'herd%2:38:00::'
+      result:
+      - 'herd%1:14:02::'
       sent:
       - The crowds herd in the streets
       subcat:
       - via
       synset: 02032462-v
-    - derivation:
+    - agent:
+      - 'herder%1:18:00::'
+      derivation:
       - 'herd%1:14:01::'
       - 'herd%1:14:00::'
       - 'herder%1:18:00::'
@@ -24665,6 +25022,9 @@ herd:
       subcat:
       - vtai
       synset: 02658253-v
+      undergoer:
+      - 'herd%1:14:01::'
+      - 'herd%1:14:00::'
 herd's grass:
   n:
     sense:
@@ -25550,22 +25910,33 @@ hesitate:
     pronunciation:
     - value: ˈhɛzɪteɪt
     sense:
-    - derivation:
+    - agent:
+      - 'hesitater%1:18:00::'
+      - 'hesitator%1:18:00::'
+      by_means_of:
+      - 'hesitation%1:07:01::'
+      derivation:
       - hesitant%5:00:00:indecisive:01
       - 'hesitation%1:09:00::'
       - 'hesitation%1:07:01::'
       - 'hesitater%1:18:00::'
       - 'hesitancy%1:07:00::'
       - 'hesitator%1:18:00::'
+      event:
+      - 'hesitation%1:09:00::'
       id: 'hesitate%2:42:00::'
       subcat:
       - via
       - via-to-inf
       - via-whether-inf
       synset: 02646524-v
-    - derivation:
+    - agent:
+      - 'hesitater%1:18:00::'
+      derivation:
       - 'hesitation%1:04:00::'
       - 'hesitater%1:18:00::'
+      event:
+      - 'hesitation%1:04:00::'
       id: 'hesitate%2:42:01::'
       sent:
       - They hesitate a long time
@@ -26093,13 +26464,17 @@ hew:
     pronunciation:
     - value: hjuː
     sense:
-    - derivation:
+    - agent:
+      - 'hewer%1:18:00::'
+      derivation:
       - 'hewer%1:18:00::'
       id: 'hew%2:35:02::'
       subcat:
       - vtai
       synset: 01263249-v
-    - also:
+    - agent:
+      - 'hewer%1:18:00::'
+      also:
       - 'hew_out%2:35:00::'
       derivation:
       - 'hewer%1:18:00::'
@@ -26155,6 +26530,8 @@ hex:
       - vtaa
       - vtai
       synset: 00779033-v
+      undergoer:
+      - 'hex%1:10:00::'
 hex key:
   n:
     sense:
@@ -26397,7 +26774,9 @@ hibachi:
       synset: 03522672-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hibachi%1:06:00::'
+      derivation:
       - 'hibachi%1:06:00::'
       id: 'hibachi%2:30:00::'
       sent:
@@ -26422,7 +26801,11 @@ hibernate:
       derivation:
       - 'hibernation%1:26:01::'
       - 'hibernation%1:26:00::'
+      event:
+      - 'hibernation%1:26:01::'
       id: 'hibernate%2:29:00::'
+      state:
+      - 'hibernation%1:26:00::'
       subcat:
       - vii
       synset: 00015939-v
@@ -26477,6 +26860,8 @@ hiccough:
     sense:
     - derivation:
       - 'hiccough%1:26:00::'
+      event:
+      - 'hiccough%1:26:00::'
       id: 'hiccough%2:29:00::'
       subcat:
       - via
@@ -26503,6 +26888,8 @@ hiccup:
     - value: ˈhɪkəp
     sense:
     - derivation:
+      - 'hiccup%1:26:00::'
+      event:
       - 'hiccup%1:26:00::'
       id: 'hiccup%2:29:00::'
       subcat:
@@ -28018,11 +28405,16 @@ highjack:
       synset: 00771433-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'highjacker%1:18:01::'
+      - 'highjacker%1:18:00::'
+      derivation:
       - 'highjack%1:04:00::'
       - 'highjacker%1:18:01::'
       - 'highjacker%1:18:00::'
       - 'highjacking%1:04:00::'
+      event:
+      - 'highjack%1:04:00::'
       id: 'highjack%2:35:00::'
       subcat:
       - vtaa
@@ -28091,7 +28483,10 @@ highlight:
     pronunciation:
     - value: ˈhaɪ.ˌlaɪt
     sense:
-    - derivation:
+    - agent:
+      - 'highlighter%1:06:01::'
+      - 'highlighter%1:06:00::'
+      derivation:
       - 'highlighter%1:06:00::'
       - 'highlight%1:24:00::'
       - 'highlighting%1:07:00::'
@@ -28101,6 +28496,8 @@ highlight:
       - vtai
       - vtii
       synset: 00515150-v
+      undergoer:
+      - 'highlight%1:24:00::'
     - derivation:
       - 'highlighter%1:06:01::'
       id: 'highlight%2:29:00::'
@@ -28271,11 +28668,16 @@ hijack:
     - value: ˈhaɪ.dʒæk
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'hijacker%1:18:00::'
+      - 'hijacker%1:18:01::'
+      derivation:
       - 'hijack%1:04:00::'
       - 'hijacker%1:18:00::'
       - 'hijacker%1:18:01::'
       - 'hijacking%1:04:00::'
+      event:
+      - 'hijack%1:04:00::'
       id: 'hijack%2:35:00::'
       subcat:
       - vtaa
@@ -28334,13 +28736,20 @@ hike:
     - derivation:
       - 'hike%1:07:01::'
       - 'hike%1:07:00::'
+      event:
+      - 'hike%1:07:01::'
+      - 'hike%1:07:00::'
       id: 'hike%2:38:01::'
       subcat:
       - vtai
       synset: 01979926-v
-    - derivation:
+    - agent:
+      - 'hiker%1:18:00::'
+      derivation:
       - 'hike%1:04:00::'
       - 'hiker%1:18:00::'
+      event:
+      - 'hike%1:04:00::'
       id: 'hike%2:38:00::'
       sent:
       - Sam and Sue hike
@@ -28443,6 +28852,10 @@ hill:
       - 'hill%1:06:01::'
       - 'hill%1:06:00::'
       id: 'hill%2:36:00::'
+      result:
+      - 'hill%1:17:00::'
+      - 'hill%1:06:01::'
+      - 'hill%1:06:00::'
       subcat:
       - vtai
       synset: 01664534-v
@@ -28592,7 +29005,9 @@ hinder:
     - value: ˈhɪndɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hindrance%1:06:00::'
+      derivation:
       - 'hindrance%1:06:00::'
       id: 'hinder%2:41:01::'
       subcat:
@@ -28600,7 +29015,9 @@ hinder:
       - vtia
       - vtii
       synset: 02456614-v
-    - derivation:
+    - by_means_of:
+      - 'hindrance%1:09:00::'
+      derivation:
       - 'hindrance%1:09:00::'
       id: 'hinder%2:41:00::'
       subcat:
@@ -28710,7 +29127,9 @@ hinge:
     pronunciation:
     - value: ˈhɪndʒ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hinge%1:06:00::'
+      derivation:
       - 'hinge%1:06:00::'
       id: 'hinge%2:35:00::'
       subcat:
@@ -28775,6 +29194,10 @@ hint:
     - value: hɪnt
     sense:
     - derivation:
+      - 'hint%1:10:02::'
+      - 'hint%1:10:01::'
+      - 'hint%1:10:00::'
+      event:
       - 'hint%1:10:02::'
       - 'hint%1:10:01::'
       - 'hint%1:10:00::'
@@ -29025,7 +29448,9 @@ hire:
       synset: 00810735-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'hirer%1:18:00::'
+      antonym:
       - 'fire%2:41:00::'
       derivation:
       - 'hirer%1:18:00::'
@@ -29177,11 +29602,16 @@ hiss:
     pronunciation:
     - value: hɪs
     sense:
-    - derivation:
+    - agent:
+      - 'hisser%1:18:00::'
+      derivation:
       - 'hiss%1:11:00::'
       - 'hiss%1:10:00::'
       - 'hisser%1:18:00::'
       - 'hissing%1:11:00::'
+      event:
+      - 'hiss%1:11:00::'
+      - 'hiss%1:10:00::'
       id: 'hiss%2:32:00::'
       subcat:
       - via
@@ -29196,6 +29626,9 @@ hiss:
       - 'hiss%1:11:00::'
       - 'hiss%1:10:00::'
       - 'hissing%1:11:00::'
+      event:
+      - 'hiss%1:11:00::'
+      - 'hiss%1:10:00::'
       id: 'hiss%2:32:01::'
       sent:
       - They hiss that there was a traffic accident
@@ -29203,11 +29636,16 @@ hiss:
       - via-that
       - vtai
       synset: 01056058-v
-    - derivation:
+    - agent:
+      - 'hisser%1:18:00::'
+      derivation:
       - 'hiss%1:11:00::'
       - 'hiss%1:10:00::'
       - 'hisser%1:18:00::'
       - 'hissing%1:11:00::'
+      event:
+      - 'hiss%1:11:00::'
+      - 'hiss%1:10:00::'
       id: 'hiss%2:32:02::'
       subcat:
       - via
@@ -29602,10 +30040,14 @@ hit:
     form:
     - hitting
     sense:
-    - derivation:
+    - agent:
+      - 'hitter%1:18:01::'
+      derivation:
       - 'hitter%1:18:01::'
       - 'hit%1:04:03::'
       - 'hitting%1:04:00::'
+      event:
+      - 'hit%1:04:03::'
       id: 'hit%2:35:03::'
       sent:
       - The children hit the ball
@@ -29618,6 +30060,8 @@ hit:
       derivation:
       - 'hit%1:11:01::'
       - 'hitting%1:04:00::'
+      event:
+      - 'hit%1:11:01::'
       id: 'hit%2:35:01::'
       sent:
       - The car hits the tree
@@ -29630,6 +30074,8 @@ hit:
     - derivation:
       - 'hit%1:04:00::'
       - 'hitting%1:04:00::'
+      event:
+      - 'hit%1:04:00::'
       id: 'hit%2:35:00::'
       sent:
       - The fighter managed to hit his opponent
@@ -29678,6 +30124,8 @@ hit:
       - vtii
       synset: 01126313-v
     - derivation:
+      - 'hit%1:04:04::'
+      event:
       - 'hit%1:04:04::'
       id: 'hit%2:41:00::'
       sent:
@@ -29865,6 +30313,8 @@ hitch:
       synset: 01330498-v
     - derivation:
       - 'hitch%1:04:00::'
+      event:
+      - 'hitch%1:04:00::'
       id: 'hitch%2:38:01::'
       subcat:
       - via
@@ -29882,6 +30332,8 @@ hitch:
       synset: 01960814-v
     - derivation:
       - 'hitch%1:06:01::'
+      event:
+      - 'hitch%1:06:01::'
       id: 'hitch%2:35:13::'
       subcat:
       - vtai-pp
@@ -29898,7 +30350,9 @@ hitchhike:
     pronunciation:
     - value: ˈhɪtʃhaɪk
     sense:
-    - derivation:
+    - agent:
+      - 'hitchhiker%1:18:00::'
+      derivation:
       - 'hitchhiker%1:18:00::'
       id: 'hitchhike%2:38:00::'
       subcat:
@@ -30133,7 +30587,9 @@ hoard:
       synset: 13388085-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hoarder%1:18:00::'
+      derivation:
       - 'hoard%1:21:00::'
       - 'hoarder%1:18:00::'
       id: 'hoard%2:40:01::'
@@ -30142,6 +30598,8 @@ hoard:
       subcat:
       - vtai
       synset: 02310836-v
+      undergoer:
+      - 'hoard%1:21:00::'
     - id: 'hoard%2:40:00::'
       sent:
       - They hoard the money in the closet
@@ -30305,7 +30763,9 @@ hoax:
     - value: hoʊks
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'hoaxer%1:18:00::'
+      derivation:
       - 'hoax%1:04:00::'
       - 'hoaxer%1:18:00::'
       id: 'hoax%2:41:00::'
@@ -30338,6 +30798,8 @@ hob:
     - hobbing
     sense:
     - derivation:
+      - 'hob%1:06:01::'
+      instrument:
       - 'hob%1:06:01::'
       id: 'hob%2:35:00::'
       subcat:
@@ -30379,9 +30841,13 @@ hobble:
     pronunciation:
     - value: ˈhɒbəl
     sense:
-    - derivation:
+    - agent:
+      - 'hobbler%1:18:00::'
+      derivation:
       - 'hobble%1:04:00::'
       - 'hobbler%1:18:00::'
+      event:
+      - 'hobble%1:04:00::'
       id: 'hobble%2:38:00::'
       sent:
       - They hobble up the hill
@@ -30396,7 +30862,9 @@ hobble:
       - vtia
       - vtii
       synset: 02457671-v
-    - derivation:
+    - by_means_of:
+      - 'hobble%1:06:00::'
+      derivation:
       - 'hobble%1:06:00::'
       id: 'hobble%2:35:00::'
       subcat:
@@ -30484,6 +30952,8 @@ hobnail:
       subcat:
       - vtai
       synset: 02337784-v
+      uses:
+      - 'hobnail%1:06:00::'
 hobnailed:
   a:
     sense:
@@ -30672,6 +31142,8 @@ hoe:
     sense:
     - derivation:
       - 'hoe%1:06:00::'
+      instrument:
+      - 'hoe%1:06:00::'
       id: 'hoe%2:36:00::'
       subcat:
       - via
@@ -30703,7 +31175,9 @@ hog:
     - hogged
     - hogging
     sense:
-    - derivation:
+    - agent:
+      - 'hog%1:18:00::'
+      derivation:
       - 'hog%1:18:00::'
       id: 'hog%2:40:00::'
       subcat:
@@ -30914,9 +31388,13 @@ hoist:
     pronunciation:
     - value: hɔɪst
     sense:
-    - derivation:
+    - agent:
+      - 'hoister%1:18:00::'
+      derivation:
       - 'hoist%1:06:00::'
       - 'hoister%1:18:00::'
+      instrument:
+      - 'hoist%1:06:00::'
       id: 'hoist%2:35:00::'
       subcat:
       - via-pp
@@ -31029,6 +31507,8 @@ hold:
       - 'let_go_of%2:35:00::'
       derivation:
       - 'hold%1:04:00::'
+      event:
+      - 'hold%1:04:00::'
       id: 'hold%2:35:00::'
       sent:
       - They want to hold the prisoners
@@ -31064,6 +31544,8 @@ hold:
       - 'hold%1:26:00::'
       - 'hold%1:06:01::'
       id: 'hold%2:35:03::'
+      state:
+      - 'hold%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -31078,13 +31560,17 @@ hold:
       subcat:
       - vtai
       synset: 02288169-v
-    - derivation:
+    - agent:
+      - 'holder%1:18:00::'
+      derivation:
       - 'holder%1:18:00::'
       id: 'hold%2:40:04::'
       subcat:
       - vtai
       synset: 02307200-v
     - derivation:
+      - 'holder%1:06:00::'
+      instrument:
       - 'holder%1:06:00::'
       id: 'hold%2:35:01::'
       subcat:
@@ -31093,7 +31579,9 @@ hold:
       - vtia
       - vtii
       synset: 01219607-v
-    - derivation:
+    - by_means_of:
+      - 'hold%1:06:02::'
+      derivation:
       - 'hold%1:06:02::'
       id: 'hold%2:42:13::'
       sent:
@@ -31135,6 +31623,8 @@ hold:
       subcat:
       - vtii
       synset: 02707070-v
+      undergoer:
+      - 'hold%1:06:02::'
     - id: 'hold%2:41:00::'
       subcat:
       - vtai
@@ -31149,7 +31639,9 @@ hold:
       - vtaa-to-inf
       - vtia
       synset: 00886738-v
-    - derivation:
+    - by_means_of:
+      - 'hold%1:07:00::'
+      derivation:
       - 'hold%1:07:00::'
       id: 'hold%2:31:04::'
       subcat:
@@ -31173,6 +31665,8 @@ hold:
       synset: 02682599-v
     - derivation:
       - 'hold%1:28:00::'
+      event:
+      - 'hold%1:28:00::'
       id: 'hold%2:42:12::'
       subcat:
       - vtii
@@ -31192,6 +31686,8 @@ hold:
       - vtaa
       synset: 02446762-v
     - derivation:
+      - 'hold%1:28:00::'
+      event:
       - 'hold%1:28:00::'
       id: 'hold%2:38:05::'
       sent:
@@ -31467,7 +31963,11 @@ hold over:
       subcat:
       - vtai
       synset: 02688247-v
-    - derivation:
+      undergoer:
+      - 'holdover%1:04:00::'
+    - agent:
+      - 'holdover%1:18:00::'
+      derivation:
       - 'holdover%1:18:00::'
       id: 'hold_over%2:42:01::'
       subcat:
@@ -31738,6 +32238,9 @@ hole:
       - 'hole%1:17:01::'
       - 'hole%1:06:00::'
       id: 'hole%2:35:00::'
+      result:
+      - 'hole%1:17:01::'
+      - 'hole%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -31837,6 +32340,8 @@ holiday:
       variety: US
     sense:
     - derivation:
+      - 'holiday%1:28:00::'
+      event:
       - 'holiday%1:28:00::'
       id: 'holiday%2:42:00::'
       subcat:
@@ -31940,6 +32445,8 @@ holler:
     - derivation:
       - 'holler%1:10:00::'
       - 'hollering%1:10:00::'
+      event:
+      - 'holler%1:10:00::'
       id: 'holler%2:32:06::'
       sent:
       - Sam and Sue holler
@@ -31952,6 +32459,8 @@ holler:
     - derivation:
       - 'holler%1:10:00::'
       - 'hollering%1:10:00::'
+      event:
+      - 'holler%1:10:00::'
       id: 'holler%2:32:05::'
       subcat:
       - via
@@ -31996,11 +32505,15 @@ hollo:
       synset: 00915838-v
     - derivation:
       - 'hollo%1:10:00::'
+      event:
+      - 'hollo%1:10:00::'
       id: 'hollo%2:32:01::'
       subcat:
       - via
       synset: 00915748-v
     - derivation:
+      - 'hollo%1:10:00::'
+      event:
       - 'hollo%1:10:00::'
       id: 'hollo%2:32:00::'
       subcat:
@@ -32053,6 +32566,8 @@ hollow:
     - derivation:
       - 'hollow%1:17:00::'
       id: 'hollow%2:35:05::'
+      result:
+      - 'hollow%1:17:00::'
       subcat:
       - vtai
       - vtii
@@ -32060,6 +32575,8 @@ hollow:
     - derivation:
       - 'hollow%1:17:00::'
       id: 'hollow%2:35:00::'
+      result:
+      - 'hollow%1:17:00::'
       sent:
       - They hollow the trees
       subcat:
@@ -32457,6 +32974,8 @@ holystone:
     sense:
     - derivation:
       - 'holystone%1:17:00::'
+      instrument:
+      - 'holystone%1:17:00::'
       id: 'holystone%2:35:00::'
       subcat:
       - vtai
@@ -32576,12 +33095,19 @@ home:
       - 'home%1:06:01::'
       - 'home%1:06:00::'
       id: 'home%2:41:00::'
+      location:
+      - 'home%1:06:01::'
       subcat:
       - vtaa
       synset: 02465056-v
+      uses:
+      - 'home%1:26:00::'
+      - 'home%1:06:00::'
     - derivation:
       - 'home%1:15:04::'
       id: 'home%2:38:00::'
+      location:
+      - 'home%1:15:04::'
       subcat:
       - via
       - vii
@@ -33136,6 +33662,8 @@ homer:
     sense:
     - derivation:
       - 'homer%1:04:00::'
+      event:
+      - 'homer%1:04:00::'
       id: 'homer%2:33:00::'
       subcat:
       - via
@@ -33199,13 +33727,17 @@ homestead:
     - value: ˈhoʊmˌstɛd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'homesteader%1:18:00::'
+      derivation:
       - 'homestead%1:21:01::'
       - 'homesteader%1:18:00::'
       id: 'homestead%2:30:00::'
       subcat:
       - vtai
       synset: 00416156-v
+      undergoer:
+      - 'homestead%1:21:01::'
 homestead law:
   n:
     sense:
@@ -33564,6 +34096,8 @@ homogenise:
       - 'curdle%2:30:00::'
       derivation:
       - 'homogenisation%1:04:00::'
+      event:
+      - 'homogenisation%1:04:00::'
       id: 'homogenise%2:30:02::'
       subcat:
       - vtai
@@ -33572,11 +34106,15 @@ homogenise:
       - 'curdle%2:30:00::'
       derivation:
       - 'homogenisation%1:04:00::'
+      event:
+      - 'homogenisation%1:04:00::'
       id: 'homogenise%2:30:00::'
       subcat:
       - vii
       synset: 00458282-v
     - derivation:
+      - 'homogenisation%1:04:00::'
+      event:
       - 'homogenisation%1:04:00::'
       id: 'homogenise%2:30:01::'
       subcat:
@@ -33609,6 +34147,8 @@ homogenize:
     sense:
     - derivation:
       - 'homogenization%1:04:00::'
+      event:
+      - 'homogenization%1:04:00::'
       id: 'homogenize%2:30:01::'
       subcat:
       - vtai
@@ -33618,11 +34158,15 @@ homogenize:
       - 'curdle%2:30:00::'
       derivation:
       - 'homogenization%1:04:00::'
+      event:
+      - 'homogenization%1:04:00::'
       id: 'homogenize%2:30:02::'
       subcat:
       - vtai
       synset: 00458524-v
     - derivation:
+      - 'homogenization%1:04:00::'
+      event:
       - 'homogenization%1:04:00::'
       id: 'homogenize%2:30:00::'
       subcat:
@@ -34061,6 +34605,8 @@ hone:
     sense:
     - derivation:
       - 'hone%1:06:00::'
+      instrument:
+      - 'hone%1:06:00::'
       id: 'hone%2:35:00::'
       subcat:
       - vtai
@@ -34181,7 +34727,9 @@ honey:
     pronunciation:
     - value: ˈhʌni
     sense:
-    - derivation:
+    - by_means_of:
+      - 'honey%1:13:00::'
+      derivation:
       - 'honey%1:13:00::'
       id: 'honey%2:39:00::'
       subcat:
@@ -34328,6 +34876,8 @@ honeycomb:
     - derivation:
       - 'honeycomb%1:06:00::'
       id: 'honeycomb%2:36:00::'
+      result:
+      - 'honeycomb%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -34340,6 +34890,8 @@ honeycomb:
     - derivation:
       - 'honeycomb%1:06:00::'
       id: 'honeycomb%2:30:00::'
+      result:
+      - 'honeycomb%1:06:00::'
       subcat:
       - vtii
       synset: 00534853-v
@@ -34422,9 +34974,13 @@ honeymoon:
     - value: ˈhʌn.iˌmun
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'honeymooner%1:18:00::'
+      derivation:
       - 'honeymoon%1:28:00::'
       - 'honeymooner%1:18:00::'
+      event:
+      - 'honeymoon%1:28:00::'
       id: 'honeymoon%2:42:00::'
       subcat:
       - via
@@ -34505,7 +35061,9 @@ honk:
     - value: hɑŋk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'honker%1:18:00::'
+      derivation:
       - 'honker%1:18:00::'
       id: 'honk%2:39:00::'
       subcat:
@@ -34513,7 +35071,9 @@ honk:
       - vii
       - vtai
       synset: 02187621-v
-    - derivation:
+    - agent:
+      - 'honker%1:18:00::'
+      derivation:
       - 'honker%1:18:00::'
       id: 'honk%2:32:01::'
       subcat:
@@ -34522,6 +35082,8 @@ honk:
     - derivation:
       - 'honk%1:11:00::'
       - 'honker%1:05:00::'
+      event:
+      - 'honk%1:11:00::'
       id: 'honk%2:32:00::'
       subcat:
       - via
@@ -34612,13 +35174,23 @@ honor:
       - 'honor%1:26:00::'
       - 'honor%1:10:00::'
       - 'honoree%1:18:00::'
+      event:
+      - 'honor%1:26:00::'
       id: 'honor%2:41:00::'
+      result:
+      - 'honor%1:10:00::'
+      state:
+      - 'honor%1:26:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       - vtii
       synset: 02551772-v
+      undergoer:
+      - 'honoree%1:18:00::'
+      uses:
+      - 'honor%1:10:00::'
     - derivation:
       - honorable%5:00:00:reputable:00
       - 'honoring%1:04:00::'
@@ -34632,6 +35204,8 @@ honor:
       derivation:
       - 'honor%1:26:00::'
       id: 'honor%2:40:00::'
+      state:
+      - 'honor%1:26:00::'
       subcat:
       - vtai
       synset: 02242413-v
@@ -34813,6 +35387,8 @@ honour:
     - derivation:
       - 'honour%1:10:00::'
       - 'honour%1:26:00::'
+      event:
+      - 'honour%1:26:00::'
       id: 'honour%2:41:00::'
       subcat:
       - vtaa
@@ -34820,6 +35396,8 @@ honour:
       - vtia
       - vtii
       synset: 02551772-v
+      uses:
+      - 'honour%1:10:00::'
     - id: 'honour%2:41:01::'
       subcat:
       - vtaa
@@ -34925,6 +35503,8 @@ hood:
       - vtai
       - vtia
       synset: 01339774-v
+      uses:
+      - 'hood%1:06:02::'
 hood latch:
   n:
     sense:
@@ -35016,7 +35596,12 @@ hoodoo:
       synset: 03537260-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hoodoo%1:18:00::'
+      by_means_of:
+      - 'hoodoo%1:06:00::'
+      - 'hoodoo%1:06:02::'
+      derivation:
       - 'hoodoo%1:18:00::'
       - 'hoodoo%1:06:00::'
       - 'hoodoo%1:06:02::'
@@ -35075,7 +35660,9 @@ hoof:
       - via
       - via-pp
       synset: 01910315-v
-    - derivation:
+    - agent:
+      - 'hoofer%1:18:00::'
+      derivation:
       - 'hoofer%1:18:00::'
       id: 'hoof%2:36:03::'
       subcat:
@@ -35191,6 +35778,9 @@ hook:
       derivation:
       - 'hook%1:06:01::'
       - 'hook%1:06:03::'
+      instrument:
+      - 'hook%1:06:01::'
+      - 'hook%1:06:03::'
       id: 'hook%2:35:00::'
       subcat:
       - vtai
@@ -35202,14 +35792,20 @@ hook:
       synset: 02324030-v
     - derivation:
       - 'hook%1:06:00::'
+      instrument:
+      - 'hook%1:06:00::'
       id: 'hook%2:36:00::'
       subcat:
       - vtai
       synset: 01676385-v
-    - derivation:
+    - agent:
+      - 'hooker%1:18:02::'
+      derivation:
       - 'hook%1:04:02::'
       - 'hooker%1:18:02::'
       - 'hooking%1:04:00::'
+      event:
+      - 'hook%1:04:02::'
       id: 'hook%2:35:03::'
       subcat:
       - vtai
@@ -35227,6 +35823,8 @@ hook:
       synset: 02281711-v
     - derivation:
       - 'hook%1:04:00::'
+      event:
+      - 'hook%1:04:00::'
       id: 'hook%2:35:02::'
       sent:
       - The fighter managed to hook his opponent
@@ -35235,11 +35833,15 @@ hook:
       synset: 01399444-v
     - derivation:
       - 'hook%1:06:00::'
+      instrument:
+      - 'hook%1:06:00::'
       id: 'hook%2:35:01::'
       subcat:
       - vtai
       synset: 01368412-v
-    - derivation:
+    - by_means_of:
+      - 'hook%1:09:00::'
+      derivation:
       - 'hook%1:09:00::'
       id: 'hook%2:34:00::'
       subcat:
@@ -35249,7 +35851,9 @@ hook:
       subcat:
       - vtai
       synset: 01083276-v
-    - derivation:
+    - by_means_of:
+      - 'hook%1:09:00::'
+      derivation:
       - 'hook%1:09:00::'
       id: 'hook%2:32:09::'
       subcat:
@@ -35449,6 +36053,8 @@ hoop:
     sense:
     - derivation:
       - 'hoop%1:06:00::'
+      instrument:
+      - 'hoop%1:06:00::'
       id: 'hoop%2:35:00::'
       subcat:
       - vtai
@@ -35548,6 +36154,10 @@ hoot:
     - derivation:
       - 'hoot%1:10:02::'
       - 'hooter%1:06:00::'
+      event:
+      - 'hoot%1:10:02::'
+      instrument:
+      - 'hooter%1:06:00::'
       id: 'hoot%2:32:00::'
       sent:
       - You can hear animals hoot in the meadows
@@ -35603,7 +36213,9 @@ hoover:
     - value: ˈhuvɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'hoover%1:06:00::'
+      derivation:
       - 'hoover%1:18:02::'
       - 'hoover%1:06:00::'
       id: 'hoover%2:35:00::'
@@ -35632,7 +36244,9 @@ hop:
     - hopped
     - hopping
     sense:
-    - also:
+    - agent:
+      - 'hopper%1:18:00::'
+      also:
       - 'hop_on%2:38:00::'
       derivation:
       - 'hop%1:11:00::'
@@ -35640,14 +36254,23 @@ hop:
       - 'hopper%1:18:00::'
       - 'hopper%1:06:00::'
       - 'hopper%1:04:00::'
+      event:
+      - 'hop%1:11:00::'
+      - 'hop%1:04:00::'
+      instrument:
+      - 'hopper%1:06:00::'
       id: 'hop%2:38:00::'
       subcat:
       - via
       - vii
       synset: 01970868-v
-    - derivation:
+    - agent:
+      - 'hopper%1:18:00::'
+      derivation:
       - 'hop%1:04:00::'
       - 'hopper%1:18:00::'
+      event:
+      - 'hop%1:04:00::'
       id: 'hop%2:38:04::'
       sent:
       - The crowds hop in the streets
@@ -35667,12 +36290,16 @@ hop:
       synset: 02099338-v
     - derivation:
       - 'hop%1:04:00::'
+      event:
+      - 'hop%1:04:00::'
       id: 'hop%2:38:02::'
       subcat:
       - vtai
       - vtii
       synset: 02099200-v
     - derivation:
+      - 'hop%1:04:00::'
+      event:
       - 'hop%1:04:00::'
       id: 'hop%2:38:01::'
       subcat:
@@ -35788,21 +36415,10 @@ hope:
       synset: 04855493-n
   v:
     sense:
-    - derivation:
-      - 'hope%1:07:00::'
-      - 'hope%1:18:00::'
-      - 'hope%1:09:00::'
-      - 'hope%1:12:00::'
-      - 'hope%1:12:01::'
+    - agent:
       - 'hoper%1:18:00::'
-      id: 'hope%2:37:01::'
-      sent:
-      - They hope to move
-      subcat:
-      - via-that
-      synset: 01830665-v
-    - antonym:
-      - 'despair%2:37:00::'
+      by_means_of:
+      - 'hope%1:09:00::'
       derivation:
       - 'hope%1:07:00::'
       - 'hope%1:18:00::'
@@ -35810,13 +36426,46 @@ hope:
       - 'hope%1:12:00::'
       - 'hope%1:12:01::'
       - 'hoper%1:18:00::'
+      event:
+      - 'hope%1:12:01::'
+      id: 'hope%2:37:01::'
+      sent:
+      - They hope to move
+      state:
+      - 'hope%1:12:00::'
+      subcat:
+      - via-that
+      synset: 01830665-v
+      undergoer:
+      - 'hope%1:18:00::'
+    - agent:
+      - 'hoper%1:18:00::'
+      antonym:
+      - 'despair%2:37:00::'
+      by_means_of:
+      - 'hope%1:09:00::'
+      derivation:
+      - 'hope%1:07:00::'
+      - 'hope%1:18:00::'
+      - 'hope%1:09:00::'
+      - 'hope%1:12:00::'
+      - 'hope%1:12:01::'
+      - 'hoper%1:18:00::'
+      event:
+      - 'hope%1:12:01::'
       id: 'hope%2:37:00::'
+      state:
+      - 'hope%1:12:00::'
       subcat:
       - via
       - via-pp
       - via-that
       synset: 01815408-v
-    - derivation:
+      undergoer:
+      - 'hope%1:18:00::'
+    - agent:
+      - 'hoper%1:18:00::'
+      derivation:
       - 'hoper%1:18:00::'
       id: 'hope%2:31:00::'
       subcat:
@@ -36266,6 +36915,9 @@ horn:
     - derivation:
       - 'horn%1:05:02::'
       - 'horn%1:05:01::'
+      instrument:
+      - 'horn%1:05:02::'
+      - 'horn%1:05:01::'
       id: 'horn%2:35:00::'
       subcat:
       - vtia
@@ -36697,12 +37349,16 @@ horrify:
     - derivation:
       - 'horror%1:12:01::'
       id: 'horrify%2:37:01::'
+      result:
+      - 'horror%1:12:01::'
       sent:
       - The bad news will horrify him
       subcat:
       - vtaa
       - vtia
       synset: 01786469-v
+      uses:
+      - 'horror%1:12:01::'
 horrifying:
   a:
     sense:
@@ -36725,11 +37381,15 @@ horripilate:
     sense:
     - derivation:
       - 'horripilation%1:04:00::'
+      event:
+      - 'horripilation%1:04:00::'
       id: 'horripilate%2:39:01::'
       subcat:
       - via
       synset: 02121260-v
     - derivation:
+      - 'horripilation%1:04:00::'
+      event:
       - 'horripilation%1:04:00::'
       id: 'horripilate%2:39:00::'
       subcat:
@@ -36802,6 +37462,8 @@ horse:
       - vtaa
       - vtai
       synset: 01186591-v
+      uses:
+      - 'horse%1:05:00::'
 horse around:
   v:
     sense:
@@ -37422,6 +38084,8 @@ horsewhip:
     - derivation:
       - 'horsewhipping%1:04:00::'
       - 'horsewhip%1:06:00::'
+      instrument:
+      - 'horsewhip%1:06:00::'
       id: 'horsewhip%2:35:00::'
       sent:
       - They want to horsewhip the prisoners
@@ -37553,6 +38217,8 @@ hose:
       variety: US
     sense:
     - derivation:
+      - 'hose%1:06:01::'
+      instrument:
       - 'hose%1:06:01::'
       id: 'hose%2:30:00::'
       subcat:
@@ -37714,6 +38380,8 @@ hospitalise:
     sense:
     - derivation:
       - 'hospitalisation%1:04:00::'
+      event:
+      - 'hospitalisation%1:04:00::'
       id: 'hospitalise%2:40:00::'
       subcat:
       - vtaa
@@ -37763,7 +38431,15 @@ hospitalize:
       - 'hospitalization%1:04:00::'
       - 'hospital%1:14:00::'
       - 'hospital%1:06:00::'
+      event:
+      - 'hospitalization%1:28:00::'
+      - 'hospitalization%1:04:00::'
       id: 'hospitalize%2:40:00::'
+      location:
+      - 'hospital%1:14:00::'
+      - 'hospital%1:06:00::'
+      state:
+      - 'hospitalization%1:26:00::'
       subcat:
       - vtaa
       synset: 02353923-v
@@ -37803,7 +38479,11 @@ host:
       synset: 04182208-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'host%1:18:00::'
+      - 'host%1:18:01::'
+      - 'host%1:18:02::'
+      derivation:
       - 'host%1:18:00::'
       - 'host%1:18:01::'
       - 'host%1:18:02::'
@@ -38764,6 +39444,9 @@ house:
       - vtai
       - vtai-pp
       synset: 02464596-v
+      uses:
+      - 'house%1:06:01::'
+      - 'house%1:06:00::'
 house agent:
   n:
     sense:
@@ -39105,7 +39788,9 @@ househusband:
 housekeep:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'housekeeper%1:18:00::'
+      derivation:
       - 'housekeeper%1:18:00::'
       - 'housekeeping%1:04:00::'
       id: 'housekeep%2:42:00::'
@@ -39428,14 +40113,20 @@ howl:
     - derivation:
       - 'howl%1:10:00::'
       - 'howling%1:10:00::'
+      event:
+      - 'howl%1:10:00::'
       id: 'howl%2:32:02::'
       subcat:
       - via
       - vii
       synset: 01048804-v
-    - derivation:
+    - agent:
+      - 'howler%1:05:00::'
+      derivation:
       - 'howl%1:11:02::'
       - 'howler%1:05:00::'
+      event:
+      - 'howl%1:11:02::'
       id: 'howl%2:32:03::'
       sent:
       - You can hear animals howl in the meadows
@@ -39446,16 +40137,22 @@ howl:
       synset: 01049253-v
     - derivation:
       - 'howl%1:11:00::'
+      event:
+      - 'howl%1:11:00::'
       id: 'howl%2:32:01::'
       sent:
       - The cars howl down the avenue
       subcat:
       - vii
       synset: 01047931-v
-    - derivation:
+    - by_means_of:
+      - 'howler%1:10:00::'
+      derivation:
       - 'howl%1:10:00::'
       - 'howler%1:10:00::'
       - 'howling%1:10:00::'
+      event:
+      - 'howl%1:10:00::'
       id: 'howl%2:29:00::'
       subcat:
       - via
@@ -39660,7 +40357,9 @@ huckster:
     - value: ˈhʌkstɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'huckster%1:18:00::'
+      derivation:
       - 'huckster%1:18:00::'
       id: 'huckster%2:40:00::'
       sent:
@@ -39669,7 +40368,9 @@ huckster:
       subcat:
       - vtai
       synset: 02307797-v
-    - derivation:
+    - agent:
+      - 'huckster%1:18:00::'
+      derivation:
       - 'huckster%1:18:00::'
       id: 'huckster%2:40:01::'
       subcat:
@@ -39691,17 +40392,23 @@ huddle:
     pronunciation:
     - value: ˈhʌdəl
     sense:
-    - derivation:
+    - agent:
+      - 'huddler%1:18:00::'
+      derivation:
       - 'huddle%1:14:00::'
       - 'huddler%1:18:00::'
       id: 'huddle%2:38:01::'
+      result:
+      - 'huddle%1:14:00::'
       sent:
       - The crowds huddle in the streets
       subcat:
       - via
       - via-pp
       synset: 02031072-v
-    - derivation:
+    - agent:
+      - 'huddler%1:18:01::'
+      derivation:
       - 'huddler%1:18:01::'
       id: 'huddle%2:38:00::'
       subcat:
@@ -39765,6 +40472,8 @@ hue:
     - derivation:
       - 'hue%1:07:00::'
       id: 'hue%2:30:01::'
+      property:
+      - 'hue%1:07:00::'
       subcat:
       - vii
       synset: 00288779-v
@@ -39775,6 +40484,8 @@ hue:
       - vtai
       - vtii
       synset: 00288497-v
+      uses:
+      - 'hue%1:07:00::'
 hue and cry:
   n:
     sense:
@@ -39878,10 +40589,14 @@ hug:
     pronunciation:
     - value: hʌɡ
     sense:
-    - derivation:
+    - agent:
+      - 'hugger%1:18:00::'
+      derivation:
       - 'hug%1:04:00::'
       - 'hugger%1:18:00::'
       - 'hugging%1:04:00::'
+      event:
+      - 'hug%1:04:00::'
       id: 'hug%2:35:01::'
       sent:
       - Sam and Sue hug
@@ -39936,6 +40651,8 @@ hugger mugger:
     - derivation:
       - 'hugger-mugger%1:26:00::'
       id: 'hugger_mugger%2:41:00::'
+      state:
+      - 'hugger-mugger%1:26:00::'
       subcat:
       - via
       synset: 02523709-v
@@ -40032,7 +40749,9 @@ hulk:
       synset: 03553713-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hulk%1:18:00::'
+      derivation:
       - 'hulk%1:18:00::'
       id: 'hulk%2:42:00::'
       subcat:
@@ -40072,6 +40791,8 @@ hull:
       subcat:
       - vtai
       synset: 00180221-v
+      undergoer:
+      - 'hull%1:20:01::'
 hullabaloo:
   n:
     pronunciation:
@@ -40110,7 +40831,9 @@ hum:
     pronunciation:
     - value: ˈhʌm
     sense:
-    - derivation:
+    - agent:
+      - 'hummer%1:18:00::'
+      derivation:
       - 'hummer%1:18:00::'
       - 'humming%1:04:00::'
       id: 'hum%2:32:00::'
@@ -40124,6 +40847,8 @@ hum:
     - derivation:
       - 'hum%1:11:00::'
       - 'humming%1:11:00::'
+      event:
+      - 'hum%1:11:00::'
       id: 'hum%2:42:00::'
       sent:
       - Cars hum in the streets
@@ -40132,6 +40857,8 @@ hum:
       - vii
       synset: 02712465-v
     - derivation:
+      - 'hum%1:11:00::'
+      event:
       - 'hum%1:11:00::'
       id: 'hum%2:39:00::'
       subcat:
@@ -40142,6 +40869,8 @@ hum:
     - derivation:
       - 'hum%1:11:00::'
       - 'humming%1:11:00::'
+      event:
+      - 'hum%1:11:00::'
       id: 'hum%2:32:01::'
       subcat:
       - vii
@@ -40416,6 +41145,8 @@ humanise:
     sense:
     - derivation:
       - 'humanisation%1:04:00::'
+      event:
+      - 'humanisation%1:04:00::'
       id: 'humanise%2:37:00::'
       subcat:
       - vtia
@@ -40575,6 +41306,8 @@ humanize:
       - 'dehumanize%2:37:00::'
       derivation:
       - 'humanization%1:04:00::'
+      event:
+      - 'humanization%1:04:00::'
       id: 'humanize%2:37:00::'
       subcat:
       - vtia
@@ -40731,6 +41464,8 @@ humbug:
     sense:
     - derivation:
       - 'humbug%1:04:00::'
+      event:
+      - 'humbug%1:04:00::'
       id: 'humbug%2:41:00::'
       subcat:
       - via
@@ -40834,6 +41569,8 @@ humidify:
       derivation:
       - 'humidity%1:26:00::'
       id: 'humidify%2:30:00::'
+      result:
+      - 'humidity%1:26:00::'
       subcat:
       - vtii
       synset: 00216226-v
@@ -40888,9 +41625,15 @@ humiliate:
       - 'humiliation%1:12:00::'
       - 'humiliation%1:11:00::'
       - 'humiliation%1:04:00::'
+      event:
+      - 'humiliation%1:11:00::'
+      - 'humiliation%1:04:00::'
       id: 'humiliate%2:37:00::'
       sent:
       - Sam cannot humiliate Sue
+      state:
+      - 'humiliation%1:26:00::'
+      - 'humiliation%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -41067,10 +41810,14 @@ humor:
     - value: hjuː.mə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'humor%1:12:00::'
+      derivation:
       - 'humor%1:12:00::'
       - 'humoring%1:04:00::'
       id: 'humor%2:32:00::'
+      result:
+      - 'humor%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -41196,6 +41943,8 @@ humour:
     - derivation:
       - 'humour%1:12:00::'
       id: 'humour%2:32:00::'
+      result:
+      - 'humour%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -41245,6 +41994,8 @@ hump:
     - derivation:
       - 'hump%1:25:00::'
       id: 'hump%2:38:00::'
+      result:
+      - 'hump%1:25:00::'
       subcat:
       - via
       synset: 02039404-v
@@ -41306,6 +42057,8 @@ hunch:
     - value: hʌntʃ
     sense:
     - derivation:
+      - 'hunch%1:04:00::'
+      event:
       - 'hunch%1:04:00::'
       id: 'hunch%2:38:00::'
       subcat:
@@ -41521,17 +42274,25 @@ hunger:
     sense:
     - derivation:
       - 'hunger%1:26:00::'
+      event:
+      - 'hunger%1:26:00::'
       id: 'hunger%2:39:00::'
       subcat:
       - via
       synset: 02126423-v
     - derivation:
       - 'hunger%1:07:00::'
+      event:
+      - 'hunger%1:07:00::'
       id: 'hunger%2:34:01::'
+      state:
+      - 'hunger%1:07:00::'
       subcat:
       - via-pp
       synset: 01191018-v
     - derivation:
+      - 'hunger%1:26:00::'
+      event:
       - 'hunger%1:26:00::'
       id: 'hunger%2:34:00::'
       subcat:
@@ -41674,12 +42435,17 @@ hunt:
     pronunciation:
     - value: hʌnt
     sense:
-    - derivation:
+    - agent:
+      - 'hunter%1:18:00::'
+      derivation:
       - 'hunt%1:04:01::'
       - 'hunt%1:04:00::'
       - 'hunter%1:18:00::'
       - 'hunting%1:04:01::'
       - 'hunting%1:04:00::'
+      event:
+      - 'hunt%1:04:01::'
+      - 'hunt%1:04:00::'
       id: 'hunt%2:33:00::'
       sent:
       - The men hunt the area for animals
@@ -41689,10 +42455,15 @@ hunt:
       - vtaa
       - vtai
       synset: 01146304-v
-    - derivation:
+    - agent:
+      - 'hunter%1:18:00::'
+      derivation:
       - 'hunt%1:04:01::'
       - 'hunt%1:04:00::'
       - 'hunter%1:18:00::'
+      event:
+      - 'hunt%1:04:01::'
+      - 'hunt%1:04:00::'
       id: 'hunt%2:38:00::'
       subcat:
       - vtaa
@@ -41712,20 +42483,30 @@ hunt:
       subcat:
       - vii
       synset: 01882369-v
-    - derivation:
+    - agent:
+      - 'hunter%1:18:01::'
+      derivation:
       - 'hunt%1:09:00::'
       - 'hunt%1:04:02::'
       - 'hunter%1:18:01::'
       - 'hunting%1:04:02::'
+      event:
+      - 'hunt%1:09:00::'
+      - 'hunt%1:04:02::'
       id: 'hunt%2:35:03::'
       subcat:
       - vtai
       synset: 01319061-v
-    - derivation:
+    - agent:
+      - 'hunter%1:18:00::'
+      derivation:
       - 'hunt%1:04:01::'
       - 'hunt%1:04:00::'
       - 'hunter%1:18:00::'
       - 'hunting%1:04:01::'
+      event:
+      - 'hunt%1:04:01::'
+      - 'hunt%1:04:00::'
       id: 'hunt%2:33:02::'
       subcat:
       - vtai
@@ -41939,15 +42720,21 @@ hurdle:
       synset: 00121335-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hurdler%1:18:00::'
+      derivation:
       - 'hurdle%1:06:00::'
       - 'hurdle%1:04:00::'
       - 'hurdler%1:18:00::'
       - 'hurdling%1:11:00::'
+      event:
+      - 'hurdle%1:04:00::'
       id: 'hurdle%2:38:00::'
       subcat:
       - vtai
       synset: 01971212-v
+      undergoer:
+      - 'hurdle%1:06:00::'
 hurdle race:
   n:
     sense:
@@ -42003,9 +42790,13 @@ hurl:
     - value: hɝl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'hurler%1:18:00::'
+      derivation:
       - 'hurl%1:04:00::'
       - 'hurler%1:18:00::'
+      event:
+      - 'hurl%1:04:00::'
       id: 'hurl%2:35:00::'
       sent:
       - They hurl the object in the water
@@ -42014,6 +42805,8 @@ hurl:
       - vtai-pp
       synset: 01509775-v
     - derivation:
+      - 'hurl%1:04:00::'
+      event:
       - 'hurl%1:04:00::'
       id: 'hurl%2:38:00::'
       subcat:
@@ -42149,6 +42942,8 @@ hurry:
     - derivation:
       - 'hurry%1:04:00::'
       - 'hurrying%1:04:00::'
+      event:
+      - 'hurry%1:04:00::'
       id: 'hurry%2:38:00::'
       subcat:
       - via-pp
@@ -42157,12 +42952,16 @@ hurry:
     - derivation:
       - 'hurry%1:07:00::'
       id: 'hurry%2:30:00::'
+      property:
+      - 'hurry%1:07:00::'
       subcat:
       - via
       synset: 00460453-v
     - derivation:
       - 'hurry%1:26:00::'
       id: 'hurry%2:30:01::'
+      state:
+      - 'hurry%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -42233,6 +43032,8 @@ hurt:
     - derivation:
       - 'hurt%1:12:02::'
       - 'hurting%1:26:00::'
+      event:
+      - 'hurt%1:12:02::'
       id: 'hurt%2:39:00::'
       sent:
       - Did his feet hurt?
@@ -42243,6 +43044,8 @@ hurt:
     - derivation:
       - 'hurt%1:12:02::'
       - 'hurt%1:12:01::'
+      event:
+      - 'hurt%1:12:02::'
       id: 'hurt%2:29:01::'
       sent:
       - Did he hurt his foot?
@@ -42251,9 +43054,13 @@ hurt:
       - vtia
       - vtii
       synset: 00064414-v
+      uses:
+      - 'hurt%1:12:01::'
     - derivation:
       - 'hurt%1:12:01::'
       id: 'hurt%2:37:01::'
+      result:
+      - 'hurt%1:12:01::'
       sent:
       - Sam cannot hurt Sue
       subcat:
@@ -42262,6 +43069,8 @@ hurt:
     - derivation:
       - 'hurt%1:11:01::'
       id: 'hurt%2:30:04::'
+      result:
+      - 'hurt%1:11:01::'
       subcat:
       - vtai
       - vtii
@@ -42277,6 +43086,8 @@ hurt:
     - derivation:
       - 'hurt%1:26:00::'
       - 'hurting%1:26:00::'
+      event:
+      - 'hurt%1:26:00::'
       id: 'hurt%2:39:01::'
       sent:
       - Sam and Sue hurt
@@ -42286,6 +43097,8 @@ hurt:
     - derivation:
       - 'hurt%1:26:00::'
       - 'hurting%1:26:00::'
+      event:
+      - 'hurt%1:26:00::'
       id: 'hurt%2:29:02::'
       sent:
       - Sam and Sue hurt
@@ -42408,6 +43221,8 @@ hush:
     sense:
     - derivation:
       - 'hush%1:07:00::'
+      event:
+      - 'hush%1:07:00::'
       id: 'hush%2:30:00::'
       subcat:
       - via
@@ -42417,12 +43232,16 @@ hush:
       - 'hush_up%2:39:00::'
       derivation:
       - 'hush%1:07:00::'
+      event:
+      - 'hush%1:07:00::'
       id: 'hush%2:30:01::'
       subcat:
       - vtaa
       - vtia
       synset: 00462448-v
     - derivation:
+      - 'hush%1:07:00::'
+      event:
       - 'hush%1:07:00::'
       id: 'hush%2:39:00::'
       subcat:
@@ -42511,6 +43330,9 @@ husk:
       subcat:
       - vtai
       synset: 00181403-v
+      undergoer:
+      - 'husk%1:27:00::'
+      - 'husk%1:20:00::'
 husk tomato:
   n:
     sense:
@@ -42615,11 +43437,16 @@ hustle:
       synset: 02100590-v
     - derivation:
       - 'hustle%1:04:00::'
+      event:
+      - 'hustle%1:04:00::'
       id: 'hustle%2:38:00::'
       subcat:
       - via
       synset: 02062115-v
-    - derivation:
+    - agent:
+      - 'hustler%1:18:01::'
+      - 'hustler%1:18:00::'
+      derivation:
       - 'hustler%1:18:01::'
       - 'hustler%1:18:00::'
       id: 'hustle%2:40:00::'
@@ -42836,6 +43663,8 @@ hybridise:
     sense:
     - derivation:
       - 'hybridisation%1:04:00::'
+      event:
+      - 'hybridisation%1:04:00::'
       id: 'hybridise%2:35:00::'
       subcat:
       - vtai
@@ -42861,6 +43690,8 @@ hybridize:
       - 'hybridizing%1:04:00::'
       - 'hybrid%1:09:00::'
       - 'hybrid%1:05:00::'
+      event:
+      - 'hybridization%1:04:00::'
       id: 'hybridize%2:35:00::'
       subcat:
       - vtai
@@ -42996,6 +43827,8 @@ hydrate:
       synset: 00214833-v
     - derivation:
       - 'hydration%1:22:00::'
+      event:
+      - 'hydration%1:22:00::'
       id: 'hydrate%2:30:02::'
       subcat:
       - vii
@@ -43005,6 +43838,8 @@ hydrate:
       derivation:
       - 'hydration%1:22:00::'
       - 'hydrate%1:27:00::'
+      event:
+      - 'hydration%1:22:00::'
       id: 'hydrate%2:30:00::'
       subcat:
       - vtai
@@ -43488,6 +44323,8 @@ hydrogenate:
       derivation:
       - 'hydrogen%1:27:00::'
       - 'hydrogenation%1:22:00::'
+      event:
+      - 'hydrogenation%1:22:00::'
       id: 'hydrogenate%2:30:00::'
       subcat:
       - vtai
@@ -43811,6 +44648,9 @@ hydroplane:
       subcat:
       - via
       synset: 01947012-v
+      vehicle:
+      - 'hydroplane%1:06:01::'
+      - 'hydroplane%1:06:00::'
 hydroplane racing:
   n:
     sense:
@@ -44265,6 +45105,8 @@ hymn:
       subcat:
       - via
       synset: 01735599-v
+      undergoer:
+      - 'hymn%1:10:00::'
     - derivation:
       - 'hymn%1:10:00::'
       id: 'hymn%2:32:00::'
@@ -44273,6 +45115,8 @@ hymn:
       subcat:
       - vtai
       synset: 00863087-v
+      undergoer:
+      - 'hymn%1:10:00::'
 hymnal:
   n:
     pronunciation:
@@ -44687,6 +45531,8 @@ hyperextend:
   v:
     sense:
     - derivation:
+      - 'hyperextension%1:04:00::'
+      event:
       - 'hyperextension%1:04:00::'
       id: 'hyperextend%2:29:00::'
       subcat:
@@ -45170,6 +46016,8 @@ hypertrophy:
     sense:
     - derivation:
       - 'hypertrophy%1:26:00::'
+      event:
+      - 'hypertrophy%1:26:00::'
       id: 'hypertrophy%2:29:00::'
       sent:
       - Did his feet hypertrophy?
@@ -45186,11 +46034,15 @@ hyperventilate:
     sense:
     - derivation:
       - 'hyperventilation%1:04:00::'
+      event:
+      - 'hyperventilation%1:04:00::'
       id: 'hyperventilate%2:29:01::'
       subcat:
       - vtaa
       synset: 00003133-v
     - derivation:
+      - 'hyperventilation%1:04:00::'
+      event:
       - 'hyperventilation%1:04:00::'
       id: 'hyperventilate%2:29:00::'
       subcat:
@@ -45262,7 +46114,9 @@ hyphen:
     pronunciation:
     - value: ˈhaɪ.fən
     sense:
-    - derivation:
+    - by_means_of:
+      - 'hyphen%1:10:00::'
+      derivation:
       - 'hyphen%1:10:00::'
       id: 'hyphen%2:36:00::'
       subcat:
@@ -45278,6 +46132,9 @@ hyphenate:
       - 'hyphenation%1:04:02::'
       - 'hyphenation%1:04:00::'
       - 'hyphen%1:10:00::'
+      event:
+      - 'hyphenation%1:04:02::'
+      - 'hyphenation%1:04:00::'
       id: 'hyphenate%2:36:00::'
       subcat:
       - vtai
@@ -45391,7 +46248,9 @@ hypnotically:
 hypnotise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'hypnotiser%1:18:00::'
+      derivation:
       - 'hypnotiser%1:18:00::'
       - 'hypnosis%1:26:00::'
       id: 'hypnotise%2:29:00::'
@@ -45432,7 +46291,9 @@ hypnotize:
     pronunciation:
     - value: ˈhɪpnətaɪ̯z
     sense:
-    - derivation:
+    - agent:
+      - 'hypnotizer%1:18:00::'
+      derivation:
       - 'hypnotizer%1:18:00::'
       - 'hypnosis%1:26:00::'
       id: 'hypnotize%2:29:00::'
@@ -46028,6 +46889,8 @@ hypostatise:
     sense:
     - derivation:
       - 'hypostatisation%1:04:00::'
+      event:
+      - 'hypostatisation%1:04:00::'
       id: 'hypostatise%2:31:00::'
       subcat:
       - vtai
@@ -46045,6 +46908,8 @@ hypostatize:
     - derivation:
       - 'hypostatization%1:04:00::'
       - 'hypostasis%1:09:00::'
+      event:
+      - 'hypostatization%1:04:00::'
       id: 'hypostatize%2:31:00::'
       subcat:
       - vtai
