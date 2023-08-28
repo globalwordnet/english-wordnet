@@ -9639,6 +9639,9 @@ label:
       - vtai
       - vtia
       synset: 01031885-v
+      uses:
+      - 'label%1:10:00::'
+      - 'label%1:10:01::'
     - derivation:
       - 'label%1:10:00::'
       - 'label%1:10:01::'
@@ -9647,6 +9650,9 @@ label:
       - vtai
       - vtai-with
       synset: 01591414-v
+      uses:
+      - 'label%1:10:00::'
+      - 'label%1:10:01::'
     - derivation:
       - 'label%1:10:01::'
       - 'label%1:10:00::'
@@ -9655,18 +9661,25 @@ label:
       - ditransitive
       - vtii-adj
       synset: 00973682-v
+      uses:
+      - 'label%1:10:01::'
+      - 'label%1:10:00::'
     - derivation:
       - 'label%1:27:00::'
       id: 'label%2:31:01::'
       subcat:
       - vtai
       synset: 00653151-v
+      undergoer:
+      - 'label%1:27:00::'
     - derivation:
       - 'label%1:27:00::'
       id: 'label%2:31:00::'
       subcat:
       - vtai
       synset: 00652603-v
+      undergoer:
+      - 'label%1:27:00::'
 labeled:
   a:
     sense:
@@ -9841,23 +9854,38 @@ labor:
     - value: ˈleɪ.bɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'laborer%1:18:00::'
+      derivation:
       - 'labor%1:04:01::'
       - 'laborer%1:18:00::'
+      event:
+      - 'labor%1:04:01::'
       id: 'labor%2:41:01::'
       subcat:
       - via-to-inf
       synset: 02412046-v
-    - derivation:
+      undergoer:
+      - 'labor%1:04:01::'
+    - agent:
+      - 'laborer%1:18:00::'
+      derivation:
       - 'labor%1:04:00::'
       - 'labor%1:04:01::'
       - 'laborer%1:18:00::'
+      event:
+      - 'labor%1:04:00::'
+      - 'labor%1:04:01::'
       id: 'labor%2:41:00::'
       subcat:
       - via
       - via-pp
       synset: 02424873-v
+      undergoer:
+      - 'labor%1:04:01::'
     - derivation:
+      - 'labor%1:26:00::'
+      event:
       - 'labor%1:26:00::'
       id: 'labor%2:29:00::'
       subcat:
@@ -10064,9 +10092,13 @@ labour:
     - value: ˈleɪ.bɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'labourer%1:18:00::'
+      derivation:
       - 'labour%1:04:00::'
       - 'labourer%1:18:00::'
+      event:
+      - 'labour%1:04:00::'
       id: 'labour%2:41:00::'
       subcat:
       - via
@@ -10074,11 +10106,15 @@ labour:
       synset: 02424873-v
     - derivation:
       - 'labour%1:04:00::'
+      event:
+      - 'labour%1:04:00::'
       id: 'labour%2:41:01::'
       subcat:
       - via-to-inf
       synset: 02412046-v
     - derivation:
+      - 'labour%1:26:00::'
+      event:
       - 'labour%1:26:00::'
       id: 'labour%2:29:00::'
       subcat:
@@ -10246,18 +10282,24 @@ lace:
     - derivation:
       - 'lace%1:06:00::'
       id: 'lace%2:36:01::'
+      result:
+      - 'lace%1:06:00::'
       subcat:
       - vtai
       synset: 01678612-v
     - derivation:
       - 'lace%1:06:00::'
       id: 'lace%2:36:00::'
+      result:
+      - 'lace%1:06:00::'
       sent:
       - They lace the cape
       subcat:
       - via
       synset: 01678270-v
-    - derivation:
+    - agent:
+      - 'lacer%1:18:00::'
+      derivation:
       - 'lace%1:06:01::'
       - 'lacer%1:18:00::'
       - 'lacing%1:06:00::'
@@ -10265,6 +10307,8 @@ lace:
       subcat:
       - vtai
       synset: 01524236-v
+      undergoer:
+      - 'lace%1:06:01::'
     - derivation:
       - 'lacing%1:13:00::'
       id: 'lace%2:30:00::'
@@ -10367,12 +10411,17 @@ lacerate:
     - derivation:
       - 'laceration%1:26:00::'
       - 'laceration%1:04:00::'
+      event:
+      - 'laceration%1:26:00::'
+      - 'laceration%1:04:00::'
       id: 'lacerate%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01562122-v
     - derivation:
+      - 'laceration%1:04:00::'
+      event:
       - 'laceration%1:04:00::'
       id: 'lacerate%2:37:00::'
       subcat:
@@ -10546,6 +10595,8 @@ lack:
       derivation:
       - 'lack%1:26:00::'
       id: 'lack%2:42:00::'
+      state:
+      - 'lack%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -10657,9 +10708,15 @@ lacquer:
       - 'lacquer%1:06:00::'
       - 'lacquer%1:27:00::'
       id: 'lacquer%2:36:00::'
+      material:
+      - 'lacquer%1:06:00::'
+      - 'lacquer%1:27:00::'
       subcat:
       - vtai
       synset: 01686656-v
+      uses:
+      - 'lacquer%1:06:00::'
+      - 'lacquer%1:27:00::'
 lacquer tree:
   n:
     sense:
@@ -10789,6 +10846,10 @@ lactate:
   v:
     sense:
     - derivation:
+      - 'lactation%1:28:00::'
+      - 'lactation%1:22:00::'
+      - 'lactation%1:04:00::'
+      event:
       - 'lactation%1:28:00::'
       - 'lactation%1:22:00::'
       - 'lactation%1:04:00::'
@@ -11017,6 +11078,8 @@ ladder:
     - derivation:
       - 'ladder%1:11:00::'
       id: 'ladder%2:30:00::'
+      result:
+      - 'ladder%1:11:00::'
       subcat:
       - vii
       synset: 00335613-v
@@ -11411,10 +11474,14 @@ lag:
     pronunciation:
     - value: læɡ
     sense:
-    - derivation:
+    - agent:
+      - 'lagger%1:18:00::'
+      derivation:
       - 'lag%1:04:00::'
       - 'lagger%1:18:00::'
       - 'laggard%1:18:00::'
+      event:
+      - 'lag%1:04:00::'
       id: 'lag%2:38:00::'
       subcat:
       - via
@@ -11790,6 +11857,8 @@ lam:
     sense:
     - derivation:
       - 'lam%1:04:00::'
+      event:
+      - 'lam%1:04:00::'
       id: 'lam%2:38:00::'
       subcat:
       - via
@@ -11849,6 +11918,8 @@ lamb:
       - 'lamb%1:13:00::'
       - 'lamb%1:05:00::'
       id: 'lamb%2:29:00::'
+      result:
+      - 'lamb%1:05:00::'
       subcat:
       - vii
       synset: 00057988-v
@@ -12131,18 +12202,32 @@ lament:
     pronunciation:
     - value: ləˈmɛnt
     sense:
-    - derivation:
+    - agent:
+      - 'lamenter%1:18:00::'
+      by_means_of:
+      - 'lament%1:10:00::'
+      - 'lament%1:10:01::'
+      - 'lament%1:10:02::'
+      derivation:
       - 'lament%1:10:00::'
       - 'lament%1:10:01::'
       - 'lament%1:10:02::'
       - 'lamentation%1:10:00::'
       - 'lamentation%1:04:00::'
       - 'lamenter%1:18:00::'
+      event:
+      - 'lamentation%1:10:00::'
+      - 'lamentation%1:04:00::'
+      - 'lament%1:10:00::'
+      - 'lament%1:10:01::'
+      - 'lament%1:10:02::'
       id: 'lament%2:37:00::'
       subcat:
       - vtai
       synset: 01806201-v
-    - derivation:
+    - agent:
+      - 'lamenter%1:18:00::'
+      derivation:
       - lamentable%5:00:00:bad:00
       - 'lamenter%1:18:00::'
       id: 'lament%2:32:00::'
@@ -12271,13 +12356,20 @@ laminate:
     pronunciation:
     - value: ˈlæmɪneɪt
     sense:
-    - derivation:
+    - agent:
+      - 'laminator%1:18:00::'
+      derivation:
       - 'laminate%1:06:00::'
       - 'lamina%1:08:00::'
       - 'lamination%1:06:00::'
       - 'lamination%1:04:00::'
       - 'laminator%1:18:00::'
+      event:
+      - 'lamination%1:04:00::'
       id: 'laminate%2:36:00::'
+      result:
+      - 'lamination%1:06:00::'
+      - 'laminate%1:06:00::'
       subcat:
       - vtai
       synset: 01628703-v
@@ -12285,6 +12377,8 @@ laminate:
       - 'laminate%1:06:00::'
       - 'lamina%1:08:00::'
       id: 'laminate%2:35:01::'
+      result:
+      - 'laminate%1:06:00::'
       subcat:
       - vtai
       synset: 01394192-v
@@ -12293,10 +12387,16 @@ laminate:
       - 'lamina%1:08:00::'
       - 'lamination%1:06:00::'
       - 'lamination%1:04:00::'
+      event:
+      - 'lamination%1:04:00::'
       id: 'laminate%2:35:00::'
+      result:
+      - 'lamination%1:06:00::'
       subcat:
       - vtai
       synset: 01367834-v
+      uses:
+      - 'laminate%1:06:00::'
     - derivation:
       - 'laminate%1:06:00::'
       - 'lamina%1:08:00::'
@@ -12464,7 +12564,11 @@ lampoon:
     - derivation:
       - 'lampooner%1:18:00::'
       - 'lampoon%1:10:00::'
+      event:
+      - 'lampoon%1:10:00::'
       id: 'lampoon%2:32:00::'
+      result:
+      - 'lampooner%1:18:00::'
       subcat:
       - vtaa
       - vtai
@@ -12552,14 +12656,22 @@ lance:
       - vii
       - vii-pp
       synset: 02089405-v
-    - derivation:
+    - by_means_of:
+      - 'lance%1:06:00::'
+      derivation:
+      - 'lance%1:06:00::'
+      instrument:
       - 'lance%1:06:00::'
       id: 'lance%2:35:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01607040-v
-    - derivation:
+    - by_means_of:
+      - 'lance%1:06:02::'
+      derivation:
+      - 'lance%1:06:02::'
+      instrument:
       - 'lance%1:06:02::'
       id: 'lance%2:35:00::'
       subcat:
@@ -12716,10 +12828,14 @@ land:
       - via-pp
       - vii
       synset: 01983915-v
+      vehicle:
+      - 'lander%1:06:00::'
     - derivation:
       - 'land%1:17:00::'
       - 'landing%1:04:01::'
       id: 'land%2:38:01::'
+      location:
+      - 'land%1:17:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -12735,6 +12851,8 @@ land:
       - 'land%1:17:00::'
       - 'landing%1:04:00::'
       id: 'land%2:38:03::'
+      location:
+      - 'land%1:17:00::'
       subcat:
       - vtai
       - vtii
@@ -12747,6 +12865,8 @@ land:
       - 'land%1:17:00::'
       - 'landing%1:04:00::'
       id: 'land%2:38:02::'
+      location:
+      - 'land%1:17:00::'
       subcat:
       - vii
       synset: 01985450-v
@@ -13415,7 +13535,9 @@ languish:
     pronunciation:
     - value: ˈlæŋ.ɡwɪʃ
     sense:
-    - derivation:
+    - agent:
+      - 'languisher%1:18:00::'
+      derivation:
       - 'languisher%1:18:00::'
       id: 'languish%2:30:00::'
       subcat:
@@ -13426,7 +13548,9 @@ languish:
       subcat:
       - via-pp
       synset: 01809651-v
-    - derivation:
+    - agent:
+      - 'languisher%1:18:00::'
+      derivation:
       - 'languisher%1:18:00::'
       id: 'languish%2:29:00::'
       subcat:
@@ -13709,7 +13833,11 @@ lap:
       subcat:
       - vii-pp
       synset: 02698039-v
+      undergoer:
+      - 'lap%1:06:00::'
     - derivation:
+      - 'lap%1:04:00::'
+      event:
       - 'lap%1:04:00::'
       id: 'lap%2:35:00::'
       subcat:
@@ -13722,6 +13850,8 @@ lap:
       - vii
       synset: 02192644-v
     - derivation:
+      - 'lap%1:04:00::'
+      event:
       - 'lap%1:04:00::'
       id: 'lap%2:34:00::'
       subcat:
@@ -13885,9 +14015,13 @@ lapidate:
     - value: ˈlæpɪˌdeɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'lapidator%1:18:00::'
+      derivation:
       - 'lapidation%1:04:00::'
       - 'lapidator%1:18:00::'
+      event:
+      - 'lapidation%1:04:00::'
       id: 'lapidate%2:35:00::'
       sent:
       - They want to lapidate the prisoners
@@ -13895,6 +14029,8 @@ lapidate:
       - vtaa
       synset: 01326182-v
     - derivation:
+      - 'lapidation%1:04:00::'
+      event:
       - 'lapidation%1:04:00::'
       id: 'lapidate%2:35:01::'
       subcat:
@@ -14010,11 +14146,15 @@ lapse:
       synset: 01976145-v
     - derivation:
       - 'lapse%1:28:00::'
+      event:
+      - 'lapse%1:28:00::'
       id: 'lapse%2:30:01::'
       subcat:
       - vii
       synset: 00352478-v
     - derivation:
+      - 'lapse%1:04:01::'
+      event:
       - 'lapse%1:04:01::'
       id: 'lapse%2:30:00::'
       subcat:
@@ -14022,17 +14162,23 @@ lapse:
       synset: 00204947-v
     - derivation:
       - 'lapse%1:04:01::'
+      event:
+      - 'lapse%1:04:01::'
       id: 'lapse%2:29:00::'
       subcat:
       - via
       synset: 00093079-v
     - derivation:
       - 'lapse%1:28:00::'
+      event:
+      - 'lapse%1:28:00::'
       id: 'lapse%2:40:00::'
       subcat:
       - vtai
       synset: 02308741-v
     - derivation:
+      - 'lapse%1:28:00::'
+      event:
       - 'lapse%1:28:00::'
       id: 'lapse%2:38:00::'
       subcat:
@@ -14152,6 +14298,8 @@ lard:
       subcat:
       - vtai
       synset: 01683564-v
+      uses:
+      - 'lard%1:13:00::'
     - id: 'lard%2:32:00::'
       subcat:
       - vtai
@@ -14603,6 +14751,8 @@ lark:
     sense:
     - derivation:
       - 'lark%1:04:00::'
+      event:
+      - 'lark%1:04:00::'
       id: 'lark%2:38:00::'
       subcat:
       - via-pp
@@ -14903,6 +15053,10 @@ lash:
     - derivation:
       - 'lash%1:04:00::'
       - 'lash%1:06:01::'
+      event:
+      - 'lash%1:04:00::'
+      instrument:
+      - 'lash%1:06:01::'
       id: 'lash%2:35:01::'
       sent:
       - They want to lash the prisoners
@@ -14917,6 +15071,10 @@ lash:
     - derivation:
       - 'lash%1:06:01::'
       - 'lash%1:04:00::'
+      event:
+      - 'lash%1:04:00::'
+      instrument:
+      - 'lash%1:06:01::'
       id: 'lash%2:35:00::'
       subcat:
       - vtaa
@@ -15037,6 +15195,8 @@ lasso:
     - value: læsˈuː
     sense:
     - derivation:
+      - 'lasso%1:06:00::'
+      instrument:
       - 'lasso%1:06:00::'
       id: 'lasso%2:35:00::'
       subcat:
@@ -15323,6 +15483,9 @@ latch:
   v:
     sense:
     - derivation:
+      - 'latch%1:06:00::'
+      - 'latch%1:06:01::'
+      instrument:
       - 'latch%1:06:00::'
       - 'latch%1:06:01::'
       id: 'latch%2:35:00::'
@@ -15738,6 +15901,8 @@ lateralize:
     - derivation:
       - 'lateralization%1:09:00::'
       id: 'lateralize%2:38:00::'
+      result:
+      - 'lateralization%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -15853,6 +16018,9 @@ lather:
       - 'lather%1:17:01::'
       - 'lather%1:17:00::'
       id: 'lather%2:30:00::'
+      result:
+      - 'lather%1:17:01::'
+      - 'lather%1:17:00::'
       subcat:
       - vii
       synset: 00513124-v
@@ -15864,12 +16032,18 @@ lather:
       - 'lather%1:17:01::'
       - 'lather%1:17:00::'
       id: 'lather%2:29:00::'
+      result:
+      - 'lather%1:17:01::'
+      - 'lather%1:17:00::'
       sent:
       - Did he lather his foot?
       subcat:
       - vtaa
       - vtai
       synset: 00036925-v
+      uses:
+      - 'lather%1:17:01::'
+      - 'lather%1:17:00::'
 lathery:
   a:
     sense:
@@ -16097,7 +16271,9 @@ laud:
     - value: lɔd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'lauder%1:18:00::'
+      derivation:
       - laudatory%5:00:00:complimentary:00
       - laudable%5:00:00:worthy:00
       - 'lauder%1:18:00::'
@@ -16202,18 +16378,25 @@ laugh:
     - value: læf
       variety: US
     sense:
-    - also:
+    - agent:
+      - 'laugher%1:18:00::'
+      also:
       - 'laugh_off%2:32:00::'
       - 'laugh_away%2:32:00::'
       - 'laugh_at%2:32:00::'
       antonym:
       - 'cry%2:29:00::'
+      by_means_of:
+      - 'laugh%1:10:01::'
       derivation:
       - laughable%5:00:00:humorous:00
       - 'laugh%1:10:01::'
       - 'laugh%1:10:02::'
       - 'laugh%1:10:00::'
       - 'laugher%1:18:00::'
+      event:
+      - 'laugh%1:10:02::'
+      - 'laugh%1:10:00::'
       id: 'laugh%2:29:00::'
       subcat:
       - via
@@ -16396,6 +16579,11 @@ launch:
       - 'launch%1:04:00::'
       - 'launcher%1:06:01::'
       - 'launcher%1:06:00::'
+      event:
+      - 'launch%1:04:00::'
+      instrument:
+      - 'launcher%1:06:01::'
+      - 'launcher%1:06:00::'
       id: 'launch%2:35:00::'
       subcat:
       - vtai
@@ -16403,6 +16591,8 @@ launch:
       - vtii
       synset: 01517287-v
     - derivation:
+      - 'launch%1:04:00::'
+      event:
       - 'launch%1:04:00::'
       id: 'launch%2:35:02::'
       subcat:
@@ -16762,6 +16952,8 @@ lave:
     - derivation:
       - 'lavation%1:04:00::'
       - 'lavage%1:04:00::'
+      event:
+      - 'lavation%1:04:00::'
       id: 'lave%2:29:00::'
       subcat:
       - via
@@ -16769,6 +16961,8 @@ lave:
       - vtai
       synset: 00036355-v
     - derivation:
+      - 'lavation%1:04:00::'
+      event:
       - 'lavation%1:04:00::'
       id: 'lave%2:29:02::'
       subcat:
@@ -17484,7 +17678,9 @@ lay:
       subcat:
       - vtai
       synset: 01655514-v
-    - derivation:
+    - agent:
+      - 'layer%1:05:01::'
+      derivation:
       - 'layer%1:05:01::'
       id: 'lay%2:35:02::'
       subcat:
@@ -17626,6 +17822,8 @@ lay over:
     sense:
     - derivation:
       - 'layover%1:04:00::'
+      event:
+      - 'layover%1:04:00::'
       id: 'lay_over%2:42:00::'
       subcat:
       - via
@@ -17731,6 +17929,11 @@ layer:
       - 'layer%1:15:00::'
       - 'layer%1:06:00::'
       id: 'layer%2:35:00::'
+      result:
+      - 'layer%1:05:00::'
+      - 'layer%1:09:00::'
+      - 'layer%1:15:00::'
+      - 'layer%1:06:00::'
       subcat:
       - via
       - vtai
@@ -17983,11 +18186,15 @@ leach:
     sense:
     - derivation:
       - 'leach%1:22:00::'
+      event:
+      - 'leach%1:22:00::'
       id: 'leach%2:38:01::'
       subcat:
       - vtii
       synset: 02075765-v
     - derivation:
+      - 'leach%1:22:00::'
+      event:
       - 'leach%1:22:00::'
       id: 'leach%2:38:00::'
       subcat:
@@ -17995,6 +18202,8 @@ leach:
       - vii-pp
       synset: 02075555-v
     - derivation:
+      - 'leach%1:22:00::'
+      event:
       - 'leach%1:22:00::'
       id: 'leach%2:30:00::'
       subcat:
@@ -18062,7 +18271,9 @@ lead:
     pronunciation:
     - value: liːd
     sense:
-    - derivation:
+    - agent:
+      - 'leader%1:18:00::'
+      derivation:
       - 'leader%1:18:00::'
       id: 'lead%2:38:01::'
       sent:
@@ -18081,14 +18292,18 @@ lead:
       subcat:
       - vii-pp
       synset: 02642040-v
-    - derivation:
+    - agent:
+      - 'leader%1:18:00::'
+      derivation:
       - 'leader%1:18:00::'
       id: 'lead%2:38:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02003455-v
-    - derivation:
+    - agent:
+      - 'leader%1:18:00::'
+      derivation:
       - 'leader%1:18:00::'
       id: 'lead%2:32:00::'
       sent:
@@ -18100,9 +18315,13 @@ lead:
       subcat:
       - vii-pp
       synset: 02691775-v
-    - derivation:
+    - agent:
+      - 'leader%1:18:00::'
+      derivation:
       - 'lead%1:04:01::'
       - 'leader%1:18:00::'
+      event:
+      - 'lead%1:04:01::'
       id: 'lead%2:41:00::'
       sent:
       - They lead him to write the letter
@@ -18123,6 +18342,8 @@ lead:
       - vii-pp
       synset: 02561616-v
     - derivation:
+      - 'lead%1:04:01::'
+      event:
       - 'lead%1:04:01::'
       id: 'lead%2:36:00::'
       subcat:
@@ -18146,6 +18367,8 @@ lead:
       - vtai-pp
       synset: 02692467-v
     - derivation:
+      - 'lead%1:04:01::'
+      event:
       - 'lead%1:04:01::'
       id: 'lead%2:32:01::'
       subcat:
@@ -18563,6 +18786,8 @@ leaf:
       subcat:
       - via-pp
       synset: 02157453-v
+      undergoer:
+      - 'leaf%1:10:00::'
     - derivation:
       - 'leaf%1:10:00::'
       id: 'leaf%2:38:00::'
@@ -18570,10 +18795,14 @@ leaf:
       - via-pp
       - vtai
       synset: 02094104-v
+      undergoer:
+      - 'leaf%1:10:00::'
     - derivation:
       - 'leaf%1:20:00::'
       - 'leafage%1:20:00::'
       id: 'leaf%2:29:00::'
+      result:
+      - 'leaf%1:20:00::'
       subcat:
       - vii
       synset: 00095501-v
@@ -18871,6 +19100,9 @@ league:
       - 'league%1:14:00::'
       - 'league%1:14:01::'
       id: 'league%2:30:00::'
+      result:
+      - 'league%1:14:00::'
+      - 'league%1:14:01::'
       subcat:
       - via
       - vii
@@ -18914,18 +19146,26 @@ leak:
     pronunciation:
     - value: liːk
     sense:
-    - derivation:
+    - agent:
+      - 'leaker%1:18:00::'
+      derivation:
       - 'leak%1:10:00::'
       - 'leaker%1:18:00::'
+      event:
+      - 'leak%1:10:00::'
       id: 'leak%2:32:00::'
       subcat:
       - ditransitive
       - vtai
       - vtai-to
       synset: 00939053-v
-    - derivation:
+    - agent:
+      - 'leaker%1:18:00::'
+      derivation:
       - 'leak%1:10:00::'
       - 'leaker%1:18:00::'
+      event:
+      - 'leak%1:10:00::'
       id: 'leak%2:32:01::'
       subcat:
       - vii
@@ -18934,7 +19174,11 @@ leak:
       - 'leak%1:11:00::'
       - 'leak%1:17:00::'
       - 'leakage%1:11:00::'
+      event:
+      - 'leak%1:11:00::'
       id: 'leak%2:30:04::'
+      location:
+      - 'leak%1:17:00::'
       subcat:
       - vii
       - vii-pp
@@ -18943,7 +19187,11 @@ leak:
       - 'leak%1:17:00::'
       - 'leak%1:11:00::'
       - 'leakage%1:11:00::'
+      event:
+      - 'leak%1:11:00::'
       id: 'leak%2:30:00::'
+      location:
+      - 'leak%1:17:00::'
       subcat:
       - vii
       synset: 00258995-v
@@ -19057,7 +19305,11 @@ lean:
       derivation:
       - 'lean%1:07:00::'
       - 'leaner%1:04:00::'
+      event:
+      - 'leaner%1:04:00::'
       id: 'lean%2:38:00::'
+      property:
+      - 'lean%1:07:00::'
       subcat:
       - via-pp
       - vii
@@ -19066,7 +19318,11 @@ lean:
     - derivation:
       - 'lean%1:07:00::'
       - 'leaner%1:04:00::'
+      event:
+      - 'leaner%1:04:00::'
       id: 'lean%2:35:00::'
+      property:
+      - 'lean%1:07:00::'
       sent:
       - They lean their rifles on the cabinet
       subcat:
@@ -19188,12 +19444,17 @@ leap:
     form:
     - leapt
     sense:
-    - also:
+    - agent:
+      - 'leaper%1:18:00::'
+      also:
       - 'leap_out%2:42:00::'
       derivation:
       - 'leap%1:07:00::'
       - 'leap%1:04:00::'
       - 'leaper%1:18:00::'
+      event:
+      - 'leap%1:07:00::'
+      - 'leap%1:04:00::'
       id: 'leap%2:38:00::'
       sent:
       - The horses leap across the field
@@ -19203,6 +19464,8 @@ leap:
       - vii
       synset: 01967949-v
     - derivation:
+      - 'leap%1:11:00::'
+      event:
       - 'leap%1:11:00::'
       id: 'leap%2:30:00::'
       subcat:
@@ -19214,6 +19477,9 @@ leap:
       - via
       synset: 02109360-v
     - derivation:
+      - 'leap%1:07:00::'
+      - 'leap%1:04:00::'
+      event:
       - 'leap%1:07:00::'
       - 'leap%1:04:00::'
       id: 'leap%2:38:10::'
@@ -19288,6 +19554,8 @@ leapfrog:
     sense:
     - derivation:
       - 'leapfrog%1:04:00::'
+      event:
+      - 'leapfrog%1:04:00::'
       id: 'leapfrog%2:38:00::'
       subcat:
       - via
@@ -19307,7 +19575,10 @@ learn:
     form:
     - learnt
     sense:
-    - derivation:
+    - agent:
+      - 'learner%1:18:01::'
+      - 'learner%1:18:00::'
+      derivation:
       - 'learner%1:18:01::'
       - 'learner%1:18:00::'
       id: 'learn%2:31:00::'
@@ -19476,29 +19747,46 @@ lease:
       synset: 15299849-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'lease%1:10:00::'
+      derivation:
       - 'lease%1:28:00::'
       - 'lease%1:10:00::'
       - 'lease%1:21:00::'
       - 'lessee%1:18:00::'
+      event:
+      - 'lease%1:28:00::'
       id: 'lease%2:41:00::'
       subcat:
       - vtai
       - vtai-from
       - vtai-to
       synset: 02465622-v
-    - derivation:
+      undergoer:
+      - 'lessee%1:18:00::'
+      - 'lease%1:21:00::'
+    - agent:
+      - 'lessee%1:18:00::'
+      by_means_of:
+      - 'lease%1:10:00::'
+      derivation:
       - 'lease%1:28:00::'
       - 'lease%1:10:00::'
       - 'lessee%1:18:00::'
+      event:
+      - 'lease%1:28:00::'
       id: 'lease%2:41:01::'
       subcat:
       - vtai
       - vtai-from
       synset: 02466042-v
-    - derivation:
+    - by_means_of:
+      - 'lease%1:10:00::'
+      derivation:
       - 'lease%1:21:00::'
       - 'lease%1:10:00::'
+      - 'lease%1:28:00::'
+      event:
       - 'lease%1:28:00::'
       id: 'lease%2:40:01::'
       sent:
@@ -19509,9 +19797,15 @@ lease:
       - vtai
       - vtai-to
       synset: 02213685-v
-    - derivation:
+      undergoer:
+      - 'lease%1:21:00::'
+    - by_means_of:
+      - 'lease%1:10:00::'
+      derivation:
       - 'lease%1:28:00::'
       - 'lease%1:10:00::'
+      event:
+      - 'lease%1:28:00::'
       id: 'lease%2:40:00::'
       subcat:
       - vtaa
@@ -19562,7 +19856,9 @@ leash:
     pronunciation:
     - value: liːʃ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'leash%1:06:00::'
+      derivation:
       - 'leash%1:06:00::'
       id: 'leash%2:35:00::'
       subcat:
@@ -19839,10 +20135,14 @@ leave:
     form:
     - left
     sense:
-    - antonym:
+    - agent:
+      - 'leaver%1:18:00::'
+      antonym:
       - 'arrive%2:38:00::'
       derivation:
       - 'leaver%1:18:00::'
+      - 'leave%1:04:00::'
+      event:
       - 'leave%1:04:00::'
       id: 'leave%2:38:01::'
       sent:
@@ -19852,6 +20152,8 @@ leave:
       - vii
       synset: 02013448-v
     - derivation:
+      - 'leave%1:04:00::'
+      event:
       - 'leave%1:04:00::'
       id: 'leave%2:31:05::'
       sent:
@@ -19877,6 +20179,8 @@ leave:
       - vtii
       synset: 00136799-v
     - derivation:
+      - 'leave%1:04:00::'
+      event:
       - 'leave%1:04:00::'
       id: 'leave%2:38:00::'
       sent:
@@ -20055,7 +20359,9 @@ leaven:
     pronunciation:
     - value: ˈlɛv.ən
     sense:
-    - derivation:
+    - by_means_of:
+      - 'leaven%1:27:00::'
+      derivation:
       - 'leaven%1:27:00::'
       id: 'leaven%2:38:00::'
       sent:
@@ -20233,11 +20539,17 @@ lecture:
     - value: ˈlɛk.t͡ʃɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'lecturer%1:18:01::'
+      - 'lecturer%1:18:00::'
+      derivation:
       - 'lecture%1:04:00::'
       - 'lecture%1:10:00::'
       - 'lecturer%1:18:01::'
       - 'lecturer%1:18:00::'
+      event:
+      - 'lecture%1:04:00::'
+      - 'lecture%1:10:00::'
       id: 'lecture%2:32:01::'
       sent:
       - Sam and Sue lecture
@@ -20247,6 +20559,8 @@ lecture:
       - vii-to
       synset: 00832422-v
     - derivation:
+      - 'lecture%1:10:01::'
+      event:
       - 'lecture%1:10:01::'
       id: 'lecture%2:32:00::'
       subcat:
@@ -20426,6 +20740,9 @@ leer:
   v:
     sense:
     - derivation:
+      - 'leer%1:07:00::'
+      - 'leer%1:10:00::'
+      event:
       - 'leer%1:07:00::'
       - 'leer%1:10:00::'
       id: 'leer%2:39:00::'
@@ -21125,6 +21442,8 @@ legalise:
       - 'outlaw%2:41:00::'
       derivation:
       - 'legalisation%1:04:00::'
+      event:
+      - 'legalisation%1:04:00::'
       id: 'legalise%2:41:00::'
       subcat:
       - vtai
@@ -21159,6 +21478,8 @@ legalize:
     - antonym:
       - 'outlaw%2:41:00::'
       derivation:
+      - 'legalization%1:04:00::'
+      event:
       - 'legalization%1:04:00::'
       id: 'legalize%2:41:00::'
       subcat:
@@ -21394,12 +21715,17 @@ legislate:
     pronunciation:
     - value: ˈlɛdʒɪsˌleɪt
     sense:
-    - derivation:
+    - agent:
+      - 'legislator%1:18:00::'
+      derivation:
       - 'legislative%3:01:00::'
       - 'legislature%1:14:00::'
       - 'legislation%1:10:00::'
       - 'legislation%1:04:00::'
       - 'legislator%1:18:00::'
+      event:
+      - 'legislation%1:10:00::'
+      - 'legislation%1:04:00::'
       id: 'legislate%2:41:00::'
       subcat:
       - via
@@ -21531,17 +21857,23 @@ legitimate:
     - derivation:
       - 'legitimation%1:04:00::'
       - 'legitimacy%1:07:00::'
+      event:
+      - 'legitimation%1:04:00::'
       id: 'legitimate%2:41:00::'
       subcat:
       - vtai
       synset: 02487025-v
     - derivation:
       - 'legitimation%1:04:00::'
+      event:
+      - 'legitimation%1:04:00::'
       id: 'legitimate%2:32:02::'
       subcat:
       - vtai
       synset: 00898327-v
     - derivation:
+      - 'legitimation%1:04:01::'
+      event:
       - 'legitimation%1:04:01::'
       id: 'legitimate%2:30:00::'
       subcat:
@@ -22068,7 +22400,9 @@ lend:
       - vtai-to
       - vtii
       synset: 02329474-v
-    - antonym:
+    - agent:
+      - 'lender%1:18:00::'
+      antonym:
       - 'borrow%2:40:00::'
       derivation:
       - lendable%5:00:00:available:00
@@ -23158,7 +23492,10 @@ let:
       - vtaa
       - vtai
       synset: 00497754-v
-    - derivation:
+    - agent:
+      - 'letter%1:18:00::'
+      - 'lessor%1:18:00::'
+      derivation:
       - 'letter%1:18:00::'
       - 'lessor%1:18:00::'
       id: 'let%2:40:00::'
@@ -23459,20 +23796,34 @@ letter:
       - via
       - vtai
       synset: 02295310-v
-    - derivation:
+      undergoer:
+      - 'letter%1:10:02::'
+    - agent:
+      - 'letterer%1:18:00::'
+      derivation:
       - 'letter%1:10:01::'
       - 'letterer%1:18:00::'
+      instrument:
+      - 'letter%1:10:01::'
       id: 'letter%2:36:01::'
       subcat:
       - vtai
       synset: 01696474-v
-    - derivation:
+      undergoer:
+      - 'letter%1:10:01::'
+    - agent:
+      - 'letterer%1:18:00::'
+      derivation:
       - 'letter%1:10:01::'
       - 'letterer%1:18:00::'
+      instrument:
+      - 'letter%1:10:01::'
       id: 'letter%2:36:00::'
       subcat:
       - vtai
       synset: 01696338-v
+      undergoer:
+      - 'letter%1:10:01::'
 letter bomb:
   n:
     sense:
@@ -23488,6 +23839,8 @@ letter bomb:
       subcat:
       - vtaa
       synset: 01135914-v
+      undergoer:
+      - 'letter_bomb%1:06:00::'
 letter bond:
   n:
     sense:
@@ -23911,11 +24264,16 @@ level:
       - 'level%1:06:03::'
       - 'level%1:06:00::'
       id: 'level%2:36:00::'
+      result:
+      - 'level%1:06:03::'
       subcat:
       - vtai
       - vtii
       synset: 01665698-v
-    - derivation:
+    - agent:
+      - 'leveller%1:18:00::'
+      - 'leveler%1:18:00::'
+      derivation:
       - 'level%1:06:00::'
       - 'leveller%1:18:00::'
       - 'leveler%1:18:00::'
@@ -24018,6 +24376,9 @@ lever:
       - 'lever%1:06:02::'
       - 'lever%1:06:00::'
       - 'leverage%1:19:00::'
+      instrument:
+      - 'lever%1:06:02::'
+      - 'lever%1:06:00::'
       id: 'lever%2:35:00::'
       subcat:
       - vtai
@@ -24065,12 +24426,16 @@ leverage:
     sense:
     - derivation:
       - 'leverage%1:04:00::'
+      event:
+      - 'leverage%1:04:00::'
       id: 'leverage%2:40:01::'
       subcat:
       - vtai
       - vtii
       synset: 02364838-v
     - derivation:
+      - 'leverage%1:04:00::'
+      event:
       - 'leverage%1:04:00::'
       id: 'leverage%2:40:00::'
       subcat:
@@ -24118,6 +24483,8 @@ levitate:
     sense:
     - derivation:
       - 'levitation%1:19:00::'
+      event:
+      - 'levitation%1:19:00::'
       id: 'levitate%2:38:01::'
       subcat:
       - vtaa
@@ -24126,6 +24493,8 @@ levitate:
       - vtii
       synset: 01948325-v
     - derivation:
+      - 'levitation%1:19:00::'
+      event:
       - 'levitation%1:19:00::'
       id: 'levitate%2:38:00::'
       subcat:
@@ -24210,7 +24579,11 @@ levy:
       subcat:
       - vtai
       synset: 02311442-v
+      undergoer:
+      - 'levy%1:21:00::'
     - derivation:
+      - 'levy%1:04:01::'
+      event:
       - 'levy%1:04:01::'
       id: 'levy%2:33:00::'
       subcat:
@@ -24336,6 +24709,8 @@ lexicalize:
   v:
     sense:
     - derivation:
+      - 'lexicalization%1:22:00::'
+      event:
       - 'lexicalization%1:22:00::'
       id: 'lexicalize%2:32:00::'
       subcat:
@@ -24593,8 +24968,12 @@ libel:
     pronunciation:
     - value: ˈlaɪbəl
     sense:
-    - derivation:
+    - agent:
       - 'libeler%1:18:00::'
+      derivation:
+      - 'libeler%1:18:00::'
+      - 'libel%1:10:00::'
+      event:
       - 'libel%1:10:00::'
       id: 'libel%2:32:00::'
       subcat:
@@ -24686,11 +25065,15 @@ liberalise:
     sense:
     - derivation:
       - 'liberalisation%1:04:00::'
+      event:
+      - 'liberalisation%1:04:00::'
       id: 'liberalise%2:41:01::'
       subcat:
       - vii
       synset: 02472626-v
     - derivation:
+      - 'liberalisation%1:04:00::'
+      event:
       - 'liberalisation%1:04:00::'
       id: 'liberalise%2:41:00::'
       subcat:
@@ -24750,11 +25133,15 @@ liberalize:
     sense:
     - derivation:
       - 'liberalization%1:04:00::'
+      event:
+      - 'liberalization%1:04:00::'
       id: 'liberalize%2:41:00::'
       subcat:
       - vtai
       synset: 02472426-v
     - derivation:
+      - 'liberalization%1:04:00::'
+      event:
       - 'liberalization%1:04:00::'
       id: 'liberalize%2:41:01::'
       subcat:
@@ -24792,15 +25179,21 @@ liberate:
     - derivation:
       - 'liberation%1:04:00::'
       - 'liberty%1:26:01::'
+      event:
+      - 'liberation%1:04:00::'
       id: 'liberate%2:41:01::'
       subcat:
       - vtaa
       - vtia
       synset: 02503049-v
-    - derivation:
+    - agent:
+      - 'liberator%1:18:00::'
+      derivation:
       - 'liberation%1:04:02::'
       - 'liberty%1:26:03::'
       - 'liberator%1:18:00::'
+      event:
+      - 'liberation%1:04:02::'
       id: 'liberate%2:41:02::'
       sent:
       - They want to liberate the prisoners
@@ -24808,13 +25201,18 @@ liberate:
       - vtaa
       - vtia
       synset: 02426474-v
-    - derivation:
+    - agent:
+      - 'liberator%1:18:00::'
+      derivation:
       - 'liberation%1:04:02::'
       - 'liberation%1:04:00::'
       - 'liberty%1:26:03::'
       - 'liberty%1:26:02::'
       - 'liberty%1:26:01::'
       - 'liberator%1:18:00::'
+      event:
+      - 'liberation%1:04:02::'
+      - 'liberation%1:04:00::'
       id: 'liberate%2:41:00::'
       subcat:
       - vtaa
@@ -25055,6 +25453,8 @@ librate:
       synset: 02710477-v
     - derivation:
       - 'libration%1:22:00::'
+      event:
+      - 'libration%1:22:00::'
       id: 'librate%2:38:00::'
       subcat:
       - vii
@@ -25116,12 +25516,16 @@ licence:
     - derivation:
       - 'licensee%1:18:00::'
       - 'licence%1:26:01::'
+      event:
+      - 'licence%1:26:01::'
       id: 'licence%2:41:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
       - vtai
       synset: 02449527-v
+      uses:
+      - 'licence%1:26:01::'
 licenced:
   a:
     sense:
@@ -25148,17 +25552,25 @@ license:
     pronunciation:
     - value: ˈlaɪsəns
     sense:
-    - derivation:
+    - agent:
+      - 'licenser%1:18:00::'
+      by_means_of:
+      - 'license%1:10:00::'
+      derivation:
       - 'license%1:04:00::'
       - 'license%1:10:00::'
       - 'licensee%1:18:00::'
       - 'licenser%1:18:00::'
+      event:
+      - 'license%1:04:00::'
       id: 'license%2:41:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
       - vtai
       synset: 02449527-v
+      undergoer:
+      - 'licensee%1:18:00::'
 license fee:
   n:
     sense:
@@ -25350,6 +25762,8 @@ lick:
       synset: 01415566-v
     - derivation:
       - 'lick%1:04:00::'
+      event:
+      - 'lick%1:04:00::'
       id: 'lick%2:35:00::'
       subcat:
       - vtaa
@@ -25487,6 +25901,8 @@ lie:
     - derivation:
       - 'lie%1:15:00::'
       id: 'lie%2:42:00::'
+      property:
+      - 'lie%1:15:00::'
       sent:
       - The children lie in the rocking chair
       - There lie some children in the rocking chair
@@ -25500,6 +25916,8 @@ lie:
       derivation:
       - 'lie%1:15:00::'
       id: 'lie%2:35:00::'
+      property:
+      - 'lie%1:15:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -25507,12 +25925,16 @@ lie:
     - derivation:
       - 'lie%1:15:00::'
       id: 'lie%2:42:01::'
+      property:
+      - 'lie%1:15:00::'
       subcat:
       - vii-pp
       synset: 02659476-v
     - derivation:
       - 'lie%1:15:00::'
       id: 'lie%2:42:03::'
+      property:
+      - 'lie%1:15:00::'
       subcat:
       - via-adj
       - vii-adj
@@ -25521,6 +25943,8 @@ lie:
       - 'lie%1:10:00::'
       - 'liar%1:18:00::'
       - 'lying%1:04:00::'
+      event:
+      - 'lie%1:10:00::'
       id: 'lie%2:32:00::'
       subcat:
       - via
@@ -25529,6 +25953,8 @@ lie:
     - derivation:
       - 'lie%1:15:00::'
       id: 'lie%2:42:02::'
+      property:
+      - 'lie%1:15:00::'
       subcat:
       - vtii
       synset: 02737265-v
@@ -26281,7 +26707,9 @@ lift:
       synset: 00117196-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'lifter%1:18:00::'
+      also:
       - 'lift_up%2:38:00::'
       derivation:
       - 'lift%1:04:00::'
@@ -26292,6 +26720,15 @@ lift:
       - 'lift%1:11:01::'
       - 'lift%1:11:00::'
       - 'lifter%1:18:00::'
+      event:
+      - 'lift%1:04:00::'
+      - 'lift%1:04:04::'
+      - 'lift%1:11:01::'
+      - 'lift%1:11:00::'
+      - 'lift%1:06:00::'
+      - 'lift%1:06:03::'
+      instrument:
+      - 'lift%1:06:01::'
       id: 'lift%2:38:00::'
       sent:
       - The men lift the chairs
@@ -26308,11 +26745,15 @@ lift:
       synset: 01582002-v
     - derivation:
       - 'lift%1:04:00::'
+      event:
+      - 'lift%1:04:00::'
       id: 'lift%2:38:01::'
       subcat:
       - vtai
       synset: 01977773-v
     - derivation:
+      - 'lift%1:11:00::'
+      event:
       - 'lift%1:11:00::'
       id: 'lift%2:38:03::'
       subcat:
@@ -26328,7 +26769,9 @@ lift:
       - vtai
       - vtii
       synset: 00801460-v
-    - derivation:
+    - agent:
+      - 'lifter%1:18:01::'
+      derivation:
       - 'lifter%1:18:01::'
       id: 'lift%2:40:00::'
       sent:
@@ -26339,6 +26782,11 @@ lift:
       synset: 02281711-v
     - derivation:
       - 'lift%1:04:00::'
+      - 'lift%1:06:00::'
+      - 'lift%1:06:01::'
+      event:
+      - 'lift%1:04:00::'
+      instrument:
       - 'lift%1:06:00::'
       - 'lift%1:06:01::'
       id: 'lift%2:35:01::'
@@ -26567,6 +27015,8 @@ ligate:
       - 'ligature%1:04:00::'
       - 'ligation%1:04:00::'
       - 'ligature%1:06:01::'
+      event:
+      - 'ligation%1:04:00::'
       id: 'ligate%2:29:00::'
       subcat:
       - vtai
@@ -26758,12 +27208,24 @@ light:
       - 'light%1:07:01::'
       - 'light%1:06:00::'
       - 'light%1:19:00::'
+      event:
+      - 'light%1:26:00::'
+      - 'light%1:07:00::'
+      - 'light%1:19:00::'
+      instrument:
+      - 'light%1:06:00::'
       id: 'light%2:30:00::'
+      location:
+      - 'light%1:15:00::'
+      property:
+      - 'light%1:07:01::'
       subcat:
       - vtai
       - vtii
       synset: 00292635-v
     - derivation:
+      - 'light%1:06:01::'
+      instrument:
       - 'light%1:06:01::'
       id: 'light%2:34:00::'
       subcat:
@@ -26780,7 +27242,12 @@ light:
       - 'light%1:06:01::'
       - 'lighter%1:27:00::'
       - 'lighter%1:06:00::'
+      instrument:
+      - 'lighter%1:06:00::'
+      - 'light%1:06:01::'
       id: 'light%2:43:00::'
+      material:
+      - 'lighter%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -27314,6 +27781,8 @@ lighter:
       - vtaa-pp
       - vtai
       synset: 01958711-v
+      vehicle:
+      - 'lighter%1:06:01::'
 lighter-than-air:
   a:
     sense:
@@ -28369,6 +28838,8 @@ lime:
       - vtai
       - vtai-pp
       synset: 02087484-v
+      uses:
+      - 'lime%1:27:02::'
     - derivation:
       - 'lime%1:27:01::'
       - 'lime%1:27:00::'
@@ -28376,6 +28847,9 @@ lime:
       subcat:
       - vtai
       synset: 01606653-v
+      uses:
+      - 'lime%1:27:01::'
+      - 'lime%1:27:00::'
 lime hydrate:
   n:
     sense:
@@ -28488,27 +28962,44 @@ limit:
       synset: 13780436-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'limiter%1:06:00::'
+      - 'limitation%1:09:00::'
+      derivation:
       - 'limiter%1:06:00::'
       - 'limit%1:07:00::'
       - 'limitation%1:28:00::'
       - 'limitation%1:09:00::'
       - 'limitation%1:07:00::'
       - 'limitation%1:04:00::'
+      event:
+      - 'limitation%1:04:00::'
       id: 'limit%2:30:01::'
+      property:
+      - 'limitation%1:07:00::'
+      - 'limit%1:07:00::'
       subcat:
       - vtaa-pp
       - vtai
       - vtai-pp
       - vtii
       synset: 00234091-v
-    - derivation:
+    - by_means_of:
+      - 'limitation%1:09:00::'
+      derivation:
       - 'limit%1:07:00::'
       - 'limitation%1:28:00::'
       - 'limitation%1:09:00::'
       - 'limitation%1:07:00::'
       - 'limitation%1:04:00::'
+      event:
+      - 'limitation%1:04:00::'
       id: 'limit%2:30:00::'
+      property:
+      - 'limitation%1:07:00::'
+      - 'limit%1:07:00::'
+      result:
+      - 'limitation%1:28:00::'
       subcat:
       - vtai
       - vtii
@@ -28516,7 +29007,11 @@ limit:
     - derivation:
       - 'limit%1:28:00::'
       - 'limit%1:07:00::'
+      event:
+      - 'limit%1:28:00::'
       id: 'limit%2:32:00::'
+      property:
+      - 'limit%1:07:00::'
       subcat:
       - vtai
       synset: 00949109-v
@@ -28677,7 +29172,9 @@ limn:
       subcat:
       - vtai
       synset: 01693274-v
-    - derivation:
+    - agent:
+      - 'limner%1:18:00::'
+      derivation:
       - 'limner%1:18:00::'
       id: 'limn%2:36:00::'
       subcat:
@@ -28776,9 +29273,13 @@ limp:
       synset: 00287600-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'limper%1:18:00::'
+      derivation:
       - 'limp%1:04:00::'
       - 'limper%1:18:00::'
+      event:
+      - 'limp%1:04:00::'
       id: 'limp%2:38:00::'
       sent:
       - They limp up the hill
@@ -28787,6 +29288,8 @@ limp:
       - via-pp
       synset: 01921237-v
     - derivation:
+      - 'limp%1:04:00::'
+      event:
       - 'limp%1:04:00::'
       id: 'limp%2:38:01::'
       sent:
@@ -29028,11 +29531,15 @@ line:
     sense:
     - derivation:
       - 'line%1:14:01::'
+      event:
+      - 'line%1:14:01::'
       id: 'line%2:42:00::'
       subcat:
       - vtii
       synset: 02709399-v
-    - derivation:
+    - by_means_of:
+      - 'liner%1:06:01::'
+      derivation:
       - 'liner%1:06:01::'
       - 'lining%1:06:01::'
       - 'lining%1:06:00::'
@@ -29047,21 +29554,34 @@ line:
       - 'line%1:10:01::'
       - 'lineation%1:15:00::'
       - 'lineation%1:04:00::'
+      event:
+      - 'lineation%1:04:00::'
       id: 'line%2:35:01::'
+      result:
+      - 'lineation%1:15:00::'
       subcat:
       - vtai
       - vtai-pp
       - vtii
       synset: 01585566-v
+      uses:
+      - 'line%1:10:01::'
     - derivation:
       - 'line%1:25:01::'
       - 'line%1:10:01::'
       - 'lineation%1:15:00::'
       - 'lineation%1:04:00::'
+      event:
+      - 'lineation%1:04:00::'
       id: 'line%2:35:02::'
+      result:
+      - 'lineation%1:15:00::'
       subcat:
       - vtii
       synset: 01278925-v
+      uses:
+      - 'line%1:25:01::'
+      - 'line%1:10:01::'
     - id: 'line%2:30:00::'
       subcat:
       - vtai
@@ -29806,7 +30326,9 @@ linger:
       - vii
       - vii-pp
       synset: 02737117-v
-    - derivation:
+    - agent:
+      - 'lingerer%1:18:00::'
+      derivation:
       - 'lingerer%1:18:00::'
       id: 'linger%2:42:00::'
       subcat:
@@ -30194,11 +30716,16 @@ link:
       - 'link%1:26:00::'
       - 'linkage%1:24:00::'
       id: 'link%2:31:00::'
+      state:
+      - 'link%1:26:00::'
       subcat:
       - vtaa-with
       - vtai-with
       synset: 00715072-v
-    - derivation:
+    - by_means_of:
+      - 'link%1:24:00::'
+      - 'link%1:06:00::'
+      derivation:
       - 'link%1:24:00::'
       - 'link%1:06:00::'
       - 'linkage%1:04:00::'
@@ -30213,14 +30740,20 @@ link:
       - 'link%1:26:00::'
       - 'linkage%1:06:00::'
       id: 'link%2:42:01::'
+      state:
+      - 'link%1:26:00::'
       subcat:
       - via
       - vii
       synset: 02628315-v
-    - derivation:
+    - by_means_of:
+      - 'link%1:24:00::'
+      derivation:
       - 'link%1:26:00::'
       - 'link%1:24:00::'
       id: 'link%2:35:02::'
+      state:
+      - 'link%1:26:00::'
       subcat:
       - vtai
       synset: 01494709-v
@@ -30536,6 +31069,8 @@ lionize:
     - derivation:
       - 'lion%1:18:00::'
       id: 'lionize%2:41:00::'
+      result:
+      - 'lion%1:18:00::'
       subcat:
       - vtaa
       synset: 02404098-v
@@ -30856,6 +31391,8 @@ lipstick:
     - derivation:
       - 'lipstick%1:06:00::'
       id: 'lipstick%2:36:00::'
+      result:
+      - 'lipstick%1:06:00::'
       subcat:
       - vtai
       synset: 01693484-v
@@ -30866,6 +31403,8 @@ lipstick:
       - via
       - vtai
       synset: 00041148-v
+      uses:
+      - 'lipstick%1:06:00::'
 lipstick plant:
   n:
     sense:
@@ -30911,12 +31450,16 @@ liquefy:
     - derivation:
       - liquefiable%5:00:00:liquid:00
       - 'liquefaction%1:22:00::'
+      event:
+      - 'liquefaction%1:22:00::'
       id: 'liquefy%2:43:00::'
       subcat:
       - vii
       synset: 02763262-v
     - derivation:
       - liquefiable%5:00:00:liquid:00
+      - 'liquefaction%1:22:00::'
+      event:
       - 'liquefaction%1:22:00::'
       id: 'liquefy%2:30:01::'
       subcat:
@@ -30925,6 +31468,8 @@ liquefy:
       synset: 00445264-v
     - derivation:
       - liquefiable%5:00:00:liquid:00
+      - 'liquefaction%1:22:00::'
+      event:
       - 'liquefaction%1:22:00::'
       id: 'liquefy%2:30:00::'
       subcat:
@@ -31098,9 +31643,13 @@ liquidate:
     pronunciation:
     - value: ˈlɪkwədeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'liquidator%1:18:01::'
+      derivation:
       - 'liquidation%1:04:02::'
       - 'liquidator%1:18:01::'
+      event:
+      - 'liquidation%1:04:02::'
       id: 'liquidate%2:35:00::'
       sent:
       - They want to liquidate the prisoners
@@ -31108,6 +31657,8 @@ liquidate:
       - vtaa
       synset: 01329983-v
     - derivation:
+      - 'liquidation%1:04:00::'
+      event:
       - 'liquidation%1:04:00::'
       id: 'liquidate%2:40:00::'
       subcat:
@@ -31149,6 +31700,8 @@ liquidise:
   v:
     sense:
     - derivation:
+      - 'liquidizer%1:06:00::'
+      instrument:
       - 'liquidizer%1:06:00::'
       id: 'liquidise%2:30:00::'
       subcat:
@@ -31192,6 +31745,8 @@ liquidize:
       - vtai
       synset: 02252366-v
     - derivation:
+      - 'liquidizer%1:06:00::'
+      instrument:
       - 'liquidizer%1:06:00::'
       id: 'liquidize%2:30:00::'
       subcat:
@@ -31244,6 +31799,9 @@ liquify:
       - 'liquid%1:27:00::'
       - 'liquid%1:26:00::'
       id: 'liquify%2:30:01::'
+      result:
+      - 'liquid%1:27:00::'
+      - 'liquid%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -31253,6 +31811,9 @@ liquify:
       - 'liquid%1:27:00::'
       - 'liquid%1:26:00::'
       id: 'liquify%2:30:00::'
+      result:
+      - 'liquid%1:27:00::'
+      - 'liquid%1:26:00::'
       subcat:
       - vii
       synset: 00444939-v
@@ -31342,9 +31903,13 @@ lisp:
       synset: 14426167-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'lisper%1:18:00::'
+      derivation:
       - 'lisp%1:26:00::'
       - 'lisper%1:18:00::'
+      event:
+      - 'lisp%1:26:00::'
       id: 'lisp%2:32:00::'
       subcat:
       - via
@@ -31397,7 +31962,9 @@ list:
       synset: 05075249-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'lister%1:18:00::'
+      derivation:
       - 'list%1:10:00::'
       - 'lister%1:18:00::'
       - 'listing%1:10:00::'
@@ -31407,7 +31974,11 @@ list:
       - vtai
       - vtii
       synset: 00947885-v
-    - derivation:
+      uses:
+      - 'list%1:10:00::'
+    - agent:
+      - 'lister%1:18:00::'
+      derivation:
       - 'list%1:10:00::'
       - 'lister%1:18:00::'
       - 'listing%1:04:00::'
@@ -31424,6 +31995,8 @@ list:
     - derivation:
       - 'list%1:07:00::'
       id: 'list%2:38:00::'
+      property:
+      - 'list%1:07:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -31478,7 +32051,9 @@ listen:
     pronunciation:
     - value: ˈlɪs.ən
     sense:
-    - also:
+    - agent:
+      - 'listener%1:18:00::'
+      also:
       - 'listen_in%2:39:00::'
       derivation:
       - 'listener%1:18:00::'
@@ -31488,7 +32063,9 @@ listen:
       - via
       - via-pp
       synset: 02174335-v
-    - derivation:
+    - agent:
+      - 'listener%1:18:00::'
+      derivation:
       - 'listener%1:18:00::'
       - 'listening%1:04:00::'
       id: 'listen%2:39:01::'
@@ -32050,11 +32627,17 @@ lithograph:
       synset: 03683302-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'lithographer%1:18:00::'
+      by_means_of:
+      - 'lithograph%1:06:00::'
+      derivation:
       - 'lithograph%1:06:00::'
       - 'lithograph%1:06:01::'
       - 'lithographer%1:18:00::'
       id: 'lithograph%2:36:00::'
+      result:
+      - 'lithograph%1:06:01::'
       subcat:
       - vtai
       synset: 01753202-v
@@ -32183,15 +32766,21 @@ litigate:
     pronunciation:
     - value: ˈlɪtɪɡeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'litigator%1:18:00::'
+      derivation:
       - 'litigation%1:04:00::'
       - 'litigant%1:18:00::'
       - 'litigator%1:18:00::'
+      event:
+      - 'litigation%1:04:00::'
       id: 'litigate%2:41:01::'
       subcat:
       - via
       synset: 02588535-v
     - derivation:
+      - 'litigation%1:04:00::'
+      event:
       - 'litigation%1:04:00::'
       id: 'litigate%2:41:00::'
       subcat:
@@ -32314,13 +32903,17 @@ litter:
     - value: ˈlɪtɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'litterer%1:18:00::'
+      derivation:
       - 'litter%1:27:00::'
       - 'litterer%1:18:00::'
       id: 'litter%2:42:00::'
       subcat:
       - vtii
       synset: 02741017-v
+      undergoer:
+      - 'litter%1:27:00::'
     - derivation:
       - 'litter%1:27:00::'
       id: 'litter%2:35:00::'
@@ -32328,9 +32921,13 @@ litter:
       - via
       - via-pp
       synset: 01381086-v
+      undergoer:
+      - 'litter%1:27:00::'
     - derivation:
       - 'litter%1:14:00::'
       id: 'litter%2:29:00::'
+      result:
+      - 'litter%1:14:00::'
       subcat:
       - vii
       synset: 00058124-v
@@ -32806,7 +33403,9 @@ live:
     pronunciation:
     - value: lɪv
     sense:
-    - also:
+    - agent:
+      - 'liver%1:18:00::'
+      also:
       - 'live_in%2:34:00::'
       - 'live_out%2:34:00::'
       derivation:
@@ -32817,7 +33416,9 @@ live:
       subcat:
       - via-pp
       synset: 02655932-v
-    - derivation:
+    - agent:
+      - 'liver%1:18:01::'
+      derivation:
       - 'liver%1:18:01::'
       - 'living%1:09:00::'
       id: 'live%2:42:06::'
@@ -33602,7 +34203,9 @@ load:
     - value: ləʊd
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'loader%1:18:00::'
+      derivation:
       - 'load%1:06:00::'
       - 'load%1:06:02::'
       - 'loader%1:18:00::'
@@ -33615,18 +34218,27 @@ load:
       - vtai-pp
       - vtai-with
       synset: 01492646-v
-    - derivation:
+      uses:
+      - 'load%1:06:00::'
+      - 'load%1:06:02::'
+    - agent:
+      - 'loader%1:18:01::'
+      derivation:
       - 'load%1:06:01::'
       - 'loader%1:18:01::'
       id: 'load%2:35:02::'
       subcat:
       - vtai
       synset: 01492993-v
+      uses:
+      - 'load%1:06:01::'
     - id: 'load%2:40:12::'
       subcat:
       - vtai
       synset: 02236692-v
-    - derivation:
+    - agent:
+      - 'loader%1:18:00::'
+      derivation:
       - 'load%1:06:02::'
       - 'load%1:06:00::'
       - 'loader%1:18:00::'
@@ -33637,6 +34249,9 @@ load:
       subcat:
       - vtai-pp
       synset: 01614988-v
+      undergoer:
+      - 'load%1:06:02::'
+      - 'load%1:06:00::'
     - id: 'load%2:30:12::'
       subcat:
       - vtai
@@ -33796,7 +34411,9 @@ loaf:
       synset: 07665191-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'loafer%1:18:00::'
+      derivation:
       - 'loafer%1:18:00::'
       id: 'loaf%2:42:01::'
       subcat:
@@ -33870,6 +34487,8 @@ loan:
   v:
     sense:
     - derivation:
+      - 'loan%1:21:00::'
+      event:
       - 'loan%1:21:00::'
       id: 'loan%2:40:00::'
       sent:
@@ -33982,7 +34601,9 @@ loathe:
     - value: ˈloʊð
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'loather%1:18:00::'
+      derivation:
       - 'loather%1:18:00::'
       - 'loathing%1:12:00::'
       id: 'loathe%2:37:00::'
@@ -34057,6 +34678,9 @@ lob:
     - lobbing
     sense:
     - derivation:
+      - 'lob%1:04:00::'
+      - 'lob%1:04:01::'
+      event:
       - 'lob%1:04:00::'
       - 'lob%1:04:01::'
       id: 'lob%2:35:00::'
@@ -34515,6 +35139,8 @@ localise:
     sense:
     - derivation:
       - 'localisation%1:04:00::'
+      event:
+      - 'localisation%1:04:00::'
       id: 'localise%2:42:01::'
       subcat:
       - vtai
@@ -34524,6 +35150,8 @@ localise:
       - vii-pp
       synset: 02698177-v
     - derivation:
+      - 'localisation%1:04:00::'
+      event:
       - 'localisation%1:04:00::'
       id: 'localise%2:41:00::'
       subcat:
@@ -34585,6 +35213,8 @@ localize:
     - derivation:
       - 'localization%1:04:00::'
       - 'locale%1:15:00::'
+      event:
+      - 'localization%1:04:00::'
       id: 'localize%2:42:01::'
       subcat:
       - vtai
@@ -34600,6 +35230,8 @@ localize:
     - derivation:
       - 'localization%1:04:00::'
       - 'locale%1:15:00::'
+      event:
+      - 'localization%1:04:00::'
       id: 'localize%2:36:00::'
       subcat:
       - vtai-pp
@@ -34640,25 +35272,38 @@ locate:
     - derivation:
       - 'location%1:04:01::'
       - 'location%1:03:00::'
+      event:
+      - 'location%1:04:01::'
       id: 'locate%2:40:00::'
+      location:
+      - 'location%1:03:00::'
       subcat:
       - vtaa
       - vtaa-pp
       - vtai
       - vtai-pp
       synset: 02291049-v
-    - derivation:
+    - agent:
+      - 'locater%1:18:00::'
+      - 'locator%1:18:00::'
+      derivation:
       - 'locater%1:18:00::'
       - 'location%1:04:01::'
       - 'location%1:03:00::'
       - 'locator%1:18:00::'
+      event:
+      - 'location%1:04:01::'
       id: 'locate%2:42:00::'
+      location:
+      - 'location%1:03:00::'
       subcat:
       - vtai
       synset: 02700775-v
     - derivation:
       - 'location%1:04:02::'
       - 'location%1:03:00::'
+      event:
+      - 'location%1:04:02::'
       id: 'locate%2:40:01::'
       subcat:
       - vtaa
@@ -34666,10 +35311,16 @@ locate:
       - vtia
       - vtii
       synset: 02338685-v
+      undergoer:
+      - 'location%1:03:00::'
     - derivation:
       - 'location%1:04:02::'
       - 'location%1:03:00::'
+      event:
+      - 'location%1:04:02::'
       id: 'locate%2:30:00::'
+      location:
+      - 'location%1:03:00::'
       subcat:
       - via-pp
       synset: 00414801-v
@@ -34801,6 +35452,9 @@ lock:
       derivation:
       - 'lock%1:06:00::'
       - 'locker%1:06:02::'
+      instrument:
+      - 'locker%1:06:02::'
+      - 'lock%1:06:00::'
       id: 'lock%2:35:00::'
       subcat:
       - vtaa-pp
@@ -34823,12 +35477,16 @@ lock:
       synset: 00220201-v
     - derivation:
       - 'lock%1:04:00::'
+      event:
+      - 'lock%1:04:00::'
       id: 'lock%2:35:04::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01609657-v
     - derivation:
+      - 'lock%1:04:00::'
+      event:
       - 'lock%1:04:00::'
       id: 'lock%2:35:03::'
       subcat:
@@ -34850,6 +35508,8 @@ lock:
       - 'lockage%1:06:00::'
       - 'lockage%1:04:00::'
       id: 'lock%2:38:04::'
+      location:
+      - 'lock%1:06:02::'
       subcat:
       - via
       - vii
@@ -34861,6 +35521,8 @@ lock:
       subcat:
       - via
       synset: 01658890-v
+      undergoer:
+      - 'lock%1:06:02::'
 lock away:
   v:
     sense:
@@ -35119,9 +35781,13 @@ locomote:
     - value: ləʊkəˈməʊt
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'locomotion%1:07:00::'
+      derivation:
       - 'locomotive%3:01:00::'
       - 'locomotion%1:07:00::'
+      - 'locomotion%1:04:00::'
+      event:
       - 'locomotion%1:04:00::'
       id: 'locomote%2:38:00::'
       subcat:
@@ -35345,13 +36011,17 @@ lodge:
     - value: lɒdʒ
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'lodger%1:18:00::'
+      derivation:
       - 'lodger%1:18:00::'
       - 'lodge%1:06:02::'
       - 'lodge%1:06:01::'
       - 'lodgings%1:06:00::'
       - 'lodging%1:04:00::'
       id: 'lodge%2:42:02::'
+      location:
+      - 'lodge%1:06:01::'
       subcat:
       - via-pp
       synset: 02658589-v
@@ -35361,6 +36031,8 @@ lodge:
       - 'lodgement%1:07:00::'
       - 'lodging%1:07:00::'
       id: 'lodge%2:35:00::'
+      state:
+      - 'lodgement%1:07:00::'
       subcat:
       - vtai-pp
       synset: 01530857-v
@@ -35594,11 +36266,15 @@ log:
       subcat:
       - vtai
       synset: 01004526-v
-    - derivation:
+    - agent:
+      - 'logger%1:18:00::'
+      derivation:
       - 'logger%1:18:00::'
       - 'log%1:27:01::'
       - 'logging%1:04:00::'
       id: 'log%2:35:00::'
+      result:
+      - 'log%1:27:01::'
       subcat:
       - via
       synset: 01261392-v
@@ -36271,7 +36947,9 @@ loiter:
     - value: ˈlɔɪtɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'loiterer%1:18:00::'
+      derivation:
       - 'loiterer%1:18:00::'
       id: 'loiter%2:42:00::'
       subcat:
@@ -36532,7 +37210,9 @@ long:
       synset: 00167533-r
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'longer%1:18:00::'
+      derivation:
       - 'longer%1:18:00::'
       - 'longing%1:12:00::'
       id: 'long%2:37:02::'
@@ -37460,7 +38140,9 @@ look:
     pronunciation:
     - value: lʊk
     sense:
-    - also:
+    - agent:
+      - 'looker%1:18:01::'
+      also:
       - 'look_back%2:39:00::'
       - 'look_away%2:39:00::'
       - 'look_after%2:39:00::'
@@ -37473,6 +38155,8 @@ look:
       derivation:
       - 'looker%1:18:01::'
       - 'look%1:04:00::'
+      event:
+      - 'look%1:04:00::'
       id: 'look%2:39:00::'
       sent:
       - They look up the hill
@@ -37480,10 +38164,15 @@ look:
       - via
       - via-pp
       synset: 02134989-v
-    - derivation:
+    - by_means_of:
+      - 'look%1:07:01::'
+      - 'look%1:07:00::'
+      derivation:
       - 'look%1:26:00::'
       - 'look%1:07:01::'
       - 'look%1:07:00::'
+      event:
+      - 'look%1:26:00::'
       id: 'look%2:39:01::'
       sent:
       - John will look angry
@@ -37495,6 +38184,9 @@ look:
     - derivation:
       - 'look%1:07:01::'
       - 'look%1:07:00::'
+      event:
+      - 'look%1:07:00::'
+      - 'look%1:07:01::'
       id: 'look%2:29:00::'
       sent:
       - The food does look good
@@ -37515,7 +38207,9 @@ look:
       subcat:
       - via-pp
       synset: 02555278-v
-    - derivation:
+    - by_means_of:
+      - 'look%1:07:01::'
+      derivation:
       - 'look%1:07:01::'
       id: 'look%2:32:00::'
       subcat:
@@ -38004,10 +38698,14 @@ loop:
     - derivation:
       - 'loop%1:25:00::'
       id: 'loop%2:36:00::'
+      result:
+      - 'loop%1:25:00::'
       subcat:
       - vtai
       synset: 01677367-v
     - derivation:
+      - 'loop%1:04:00::'
+      event:
       - 'loop%1:04:00::'
       id: 'loop%2:38:00::'
       subcat:
@@ -38017,6 +38715,8 @@ loop:
     - derivation:
       - 'loop%1:25:00::'
       id: 'loop%2:35:00::'
+      result:
+      - 'loop%1:25:00::'
       sent:
       - They loop the wire around the stick
       - The wires loop around the stick
@@ -38025,6 +38725,8 @@ loop:
       - vtai-pp
       synset: 01526774-v
     - derivation:
+      - 'loop%1:06:01::'
+      instrument:
       - 'loop%1:06:01::'
       id: 'loop%2:35:01::'
       subcat:
@@ -38437,7 +39139,9 @@ loot:
       - vtaa
       - vtai
       synset: 02350284-v
-    - derivation:
+    - agent:
+      - 'looter%1:18:00::'
+      derivation:
       - 'looter%1:18:00::'
       - 'loot%1:21:00::'
       - 'looting%1:04:00::'
@@ -38445,6 +39149,8 @@ loot:
       subcat:
       - vtai
       synset: 02349564-v
+      undergoer:
+      - 'loot%1:21:00::'
 looted:
   a:
     sense:
@@ -38475,12 +39181,16 @@ lop:
     sense:
     - derivation:
       - 'lopper%1:06:00::'
+      instrument:
+      - 'lopper%1:06:00::'
       id: 'lop%2:35:01::'
       subcat:
       - vtai
       - vtii
       synset: 01563513-v
     - derivation:
+      - 'lopper%1:06:00::'
+      instrument:
       - 'lopper%1:06:00::'
       id: 'lop%2:35:00::'
       sent:
@@ -38526,6 +39236,9 @@ lope:
       variety: US
     sense:
     - derivation:
+      - 'lope%1:04:02::'
+      - 'lope%1:04:00::'
+      event:
       - 'lope%1:04:02::'
       - 'lope%1:04:00::'
       id: 'lope%2:38:00::'
@@ -38800,7 +39513,11 @@ lose:
       - vtai
       - vtii
       synset: 02292634-v
-    - antonym:
+    - agent:
+      - 'loser%1:18:02::'
+      - 'loser%1:18:01::'
+      - 'loser%1:18:00::'
+      antonym:
       - 'win%2:33:00::'
       derivation:
       - 'loser%1:18:02::'
@@ -38830,7 +39547,9 @@ lose:
       - vtaa
       - vtai
       synset: 02201537-v
-    - antonym:
+    - agent:
+      - 'loser%1:18:00::'
+      antonym:
       - 'profit%2:40:00::'
       - 'break_even%2:40:00::'
       derivation:
@@ -39104,6 +39823,8 @@ lot:
     - derivation:
       - 'lot%1:15:00::'
       id: 'lot%2:41:00::'
+      result:
+      - 'lot%1:15:00::'
       subcat:
       - vtai
       synset: 02474388-v
@@ -39413,6 +40134,8 @@ lounge:
       - 'lounger%1:06:00::'
       - 'lounge%1:06:01::'
       id: 'lounge%2:35:00::'
+      location:
+      - 'lounger%1:06:00::'
       sent:
       - The children lounge in the rocking chair
       - There lounge some children in the rocking chair
@@ -39420,7 +40143,9 @@ lounge:
       - via
       - via-pp
       synset: 01531127-v
-    - derivation:
+    - agent:
+      - 'lounger%1:18:00::'
+      derivation:
       - 'lounger%1:18:00::'
       id: 'lounge%2:42:00::'
       subcat:
@@ -39726,7 +40451,10 @@ love:
       synset: 00848145-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'lover%1:18:01::'
+      - 'lover%1:18:00::'
+      antonym:
       - 'hate%2:37:00::'
       derivation:
       - 'loveable%3:00:00::'
@@ -39736,16 +40464,25 @@ love:
       - 'love%1:12:00::'
       - 'lover%1:18:01::'
       - 'lover%1:18:00::'
+      event:
+      - 'love%1:18:00::'
+      - 'love%1:09:00::'
+      - 'love%1:12:00::'
       id: 'love%2:37:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01779085-v
-    - derivation:
+    - agent:
+      - 'lover%1:18:01::'
+      - 'lover%1:18:00::'
+      derivation:
       - 'love%1:09:00::'
       - 'love%1:12:00::'
       - 'lover%1:18:01::'
       - 'lover%1:18:00::'
+      event:
+      - 'love%1:12:00::'
       id: 'love%2:37:02::'
       sent:
       - They love him to write the letter
@@ -39753,23 +40490,37 @@ love:
       - via-to-inf
       - vtai
       synset: 01832678-v
-    - derivation:
+      undergoer:
+      - 'love%1:09:00::'
+    - agent:
+      - 'lover%1:18:00::'
+      derivation:
       - 'loveable%3:00:00::'
       - 'lovable%3:00:00::'
       - 'love%1:18:00::'
       - 'love%1:09:00::'
       - 'love%1:12:00::'
       - 'lover%1:18:00::'
+      event:
+      - 'love%1:12:00::'
       id: 'love%2:37:01::'
       sent:
       - Sam cannot love Sue
       subcat:
       - vtaa
       synset: 01779456-v
-    - derivation:
+      undergoer:
+      - 'love%1:18:00::'
+      - 'love%1:09:00::'
+    - agent:
+      - 'lover%1:18:02::'
+      derivation:
       - 'love%1:04:00::'
       - 'love%1:12:01::'
       - 'lover%1:18:02::'
+      event:
+      - 'love%1:04:00::'
+      - 'love%1:12:01::'
       id: 'love%2:35:00::'
       subcat:
       - via
@@ -40719,6 +41470,8 @@ lower:
       - vtai
       - vtai-pp
       synset: 01977139-v
+      undergoer:
+      - 'lower%1:06:00::'
     - id: 'lower%2:30:01::'
       subcat:
       - vtai
@@ -40737,6 +41490,8 @@ lower:
       - vtai
       - vtii
       synset: 01577754-v
+      undergoer:
+      - 'lower%1:06:00::'
   v-2:
     pronunciation:
     - value: ˈlaʊə
@@ -41195,6 +41950,10 @@ lubricate:
       - 'lubricant%1:27:00::'
       - 'lubricator%1:27:00::'
       id: 'lubricate%2:42:00::'
+      material:
+      - 'lubricator%1:27:00::'
+      state:
+      - 'lubrication%1:26:00::'
       subcat:
       - vii
       synset: 02757472-v
@@ -41202,7 +41961,11 @@ lubricate:
       - 'lubrication%1:26:00::'
       - 'lubrication%1:04:00::'
       - 'lubricant%1:27:00::'
+      event:
+      - 'lubrication%1:04:00::'
       id: 'lubricate%2:35:00::'
+      state:
+      - 'lubrication%1:26:00::'
       subcat:
       - vtai
       - vtai-with
@@ -41211,7 +41974,11 @@ lubricate:
       - 'lubrication%1:26:00::'
       - 'lubrication%1:04:00::'
       - 'lubricant%1:27:00::'
+      event:
+      - 'lubrication%1:04:00::'
       id: 'lubricate%2:30:02::'
+      state:
+      - 'lubrication%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -41493,6 +42260,8 @@ lucubrate:
     - derivation:
       - 'lucubration%1:10:00::'
       id: 'lucubrate%2:32:00::'
+      result:
+      - 'lucubration%1:10:00::'
       subcat:
       - via
       - via-pp
@@ -41587,11 +42356,15 @@ luff:
     sense:
     - derivation:
       - 'luff%1:04:00::'
+      event:
+      - 'luff%1:04:00::'
       id: 'luff%2:38:01::'
       subcat:
       - via
       synset: 01932107-v
     - derivation:
+      - 'luff%1:04:00::'
+      event:
       - 'luff%1:04:00::'
       id: 'luff%2:38:00::'
       subcat:
@@ -41661,6 +42434,8 @@ luge:
       subcat:
       - via
       synset: 01943893-v
+      vehicle:
+      - 'luge%1:06:00::'
 luger:
   n:
     pronunciation:
@@ -41814,6 +42589,9 @@ lull:
     - derivation:
       - 'lull%1:26:00::'
       - 'lull%1:28:00::'
+      event:
+      - 'lull%1:26:00::'
+      - 'lull%1:28:00::'
       id: 'lull%2:37:01::'
       subcat:
       - vtaa
@@ -41821,11 +42599,15 @@ lull:
       synset: 01767495-v
     - derivation:
       - 'lull%1:28:00::'
+      event:
+      - 'lull%1:28:00::'
       id: 'lull%2:30:00::'
       subcat:
       - vii
       synset: 00559138-v
     - derivation:
+      - 'lull%1:28:00::'
+      event:
       - 'lull%1:28:00::'
       id: 'lull%2:37:00::'
       sent:
@@ -41945,9 +42727,13 @@ lumber:
     - derivation:
       - 'lumber%1:27:00::'
       id: 'lumber%2:35:00::'
+      result:
+      - 'lumber%1:27:00::'
       subcat:
       - via
       synset: 01261392-v
+      undergoer:
+      - 'lumber%1:27:00::'
 lumber jacket:
   n:
     sense:
@@ -42073,7 +42859,11 @@ luminesce:
       - luminescent%5:00:00:light:06
       - 'luminescence%1:19:00::'
       - 'luminescence%1:07:00::'
+      event:
+      - 'luminescence%1:07:00::'
       id: 'luminesce%2:43:00::'
+      result:
+      - 'luminescence%1:19:00::'
       subcat:
       - vii
       synset: 02772181-v
@@ -42199,7 +42989,11 @@ lump:
       subcat:
       - vtai-pp
       synset: 01388574-v
-    - derivation:
+      undergoer:
+      - 'lump%1:17:00::'
+    - agent:
+      - 'lumper%1:18:00::'
+      derivation:
       - 'lumper%1:18:00::'
       - 'lump%1:17:00::'
       id: 'lump%2:31:13::'
@@ -42207,6 +43001,8 @@ lump:
       - vtaa
       - vtai
       synset: 00658687-v
+      undergoer:
+      - 'lump%1:17:00::'
 lump sugar:
   n:
     sense:
@@ -42429,10 +43225,14 @@ lunch:
     pronunciation:
     - value: lʌnt͡ʃ
     sense:
-    - derivation:
+    - agent:
+      - 'luncher%1:18:00::'
+      derivation:
       - 'luncher%1:18:00::'
       - 'lunch%1:13:00::'
       - 'lunching%1:04:00::'
+      event:
+      - 'lunch%1:13:00::'
       id: 'lunch%2:34:00::'
       sent:
       - Sam and Sue lunch
@@ -42445,6 +43245,8 @@ lunch:
       subcat:
       - vtaa
       synset: 01188008-v
+      uses:
+      - 'lunch%1:13:00::'
 lunch meat:
   n:
     sense:
@@ -42562,8 +43364,12 @@ lunge:
     pronunciation:
     - value: lʌndʒ
     sense:
-    - derivation:
+    - agent:
       - 'lunger%1:18:01::'
+      derivation:
+      - 'lunger%1:18:01::'
+      - 'lunge%1:04:00::'
+      event:
       - 'lunge%1:04:00::'
       id: 'lunge%2:38:00::'
       subcat:
@@ -42718,12 +43524,17 @@ lurch:
     sense:
     - derivation:
       - 'lurch%1:04:00::'
+      event:
+      - 'lurch%1:04:00::'
       id: 'lurch%2:38:03::'
       subcat:
       - via
       - via-pp
       synset: 01928835-v
     - derivation:
+      - 'lurch%1:04:01::'
+      - 'lurch%1:04:02::'
+      event:
       - 'lurch%1:04:01::'
       - 'lurch%1:04:02::'
       id: 'lurch%2:38:00::'
@@ -42742,6 +43553,8 @@ lurch:
       - via-pp
       synset: 02645559-v
     - derivation:
+      - 'lurch%1:11:00::'
+      event:
       - 'lurch%1:11:00::'
       id: 'lurch%2:33:00::'
       subcat:
@@ -42781,7 +43594,11 @@ lure:
     - value: lʊəɹ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'lure%1:06:00::'
+      - 'lure%1:09:00::'
+      - 'lure%1:07:00::'
+      derivation:
       - 'lure%1:06:00::'
       - 'lure%1:09:00::'
       - 'lure%1:07:00::'
@@ -42847,7 +43664,9 @@ lurk:
     - value: lɝk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'lurker%1:18:00::'
+      derivation:
       - 'lurker%1:18:00::'
       id: 'lurk%2:42:01::'
       subcat:
@@ -42858,7 +43677,9 @@ lurk:
       - via
       - via-pp
       synset: 02645159-v
-    - derivation:
+    - agent:
+      - 'lurker%1:18:00::'
+      derivation:
       - 'lurker%1:18:00::'
       id: 'lurk%2:33:00::'
       subcat:
@@ -42954,6 +43775,9 @@ lust:
     - value: lʌst
     sense:
     - derivation:
+      - 'lust%1:12:00::'
+      - 'lust%1:04:00::'
+      event:
       - 'lust%1:12:00::'
       - 'lust%1:04:00::'
       id: 'lust%2:34:00::'
@@ -43250,6 +44074,8 @@ luxate:
     - value: ˈlʌk.seɪt
     sense:
     - derivation:
+      - 'luxation%1:11:00::'
+      event:
       - 'luxation%1:11:00::'
       id: 'luxate%2:30:00::'
       subcat:
@@ -44003,6 +44829,8 @@ lyophilise:
     sense:
     - derivation:
       - 'lyophilisation%1:22:00::'
+      event:
+      - 'lyophilisation%1:22:00::'
       id: 'lyophilise%2:30:00::'
       subcat:
       - vtai
@@ -44023,6 +44851,8 @@ lyophilize:
   v:
     sense:
     - derivation:
+      - 'lyophilization%1:22:00::'
+      event:
       - 'lyophilization%1:22:00::'
       id: 'lyophilize%2:30:00::'
       subcat:
@@ -44121,6 +44951,8 @@ lyric:
       subcat:
       - vtai
       synset: 01702775-v
+      undergoer:
+      - 'lyric%1:10:01::'
 lyric mezzo-soprano:
   n:
     sense:
@@ -44259,6 +45091,8 @@ lysogenize:
   v:
     sense:
     - derivation:
+      - 'lysogenization%1:22:00::'
+      event:
       - 'lysogenization%1:22:00::'
       id: 'lysogenize%2:30:00::'
       subcat:

@@ -901,11 +901,15 @@ quack:
     sense:
     - derivation:
       - 'quack%1:11:00::'
+      event:
+      - 'quack%1:11:00::'
       id: 'quack%2:32:00::'
       subcat:
       - vii
       synset: 01054970-v
-    - derivation:
+    - agent:
+      - 'quack%1:18:00::'
+      derivation:
       - 'quack%1:18:00::'
       - 'quackery%1:04:00::'
       id: 'quack%2:29:00::'
@@ -1272,6 +1276,8 @@ quadruple:
       - 'quadrupling%1:22:00::'
       - 'quadruple%1:09:00::'
       id: 'quadruple%2:30:00::'
+      result:
+      - 'quadruple%1:09:00::'
       sent:
       - They quadruple their earnings this year
       - Their earnings quadruple this year
@@ -1326,6 +1332,8 @@ quadruplicate:
       - 'quadruple%1:09:00::'
       - 'quadruplicate%1:06:00::'
       id: 'quadruplicate%2:36:00::'
+      result:
+      - 'quadruplicate%1:06:00::'
       subcat:
       - vtai
       synset: 01739828-v
@@ -1365,8 +1373,12 @@ quaff:
     - value: kwɑf
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'quaffer%1:18:00::'
+      derivation:
+      - 'quaffer%1:18:00::'
+      - 'quaff%1:13:00::'
+      event:
       - 'quaff%1:13:00::'
       id: 'quaff%2:34:00::'
       subcat:
@@ -1524,7 +1536,9 @@ quake:
     pronunciation:
     - value: kweɪk
     sense:
-    - derivation:
+    - agent:
+      - 'quaker%1:18:01::'
+      derivation:
       - 'quaker%1:18:01::'
       id: 'quake%2:38:01::'
       subcat:
@@ -1532,6 +1546,8 @@ quake:
       - vii
       synset: 01893122-v
     - derivation:
+      - 'quake%1:11:00::'
+      event:
       - 'quake%1:11:00::'
       id: 'quake%2:38:02::'
       subcat:
@@ -1619,31 +1635,51 @@ qualify:
     - value: ˈkwɒl.ɪ.faɪ
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'qualifier%1:18:00::'
+      by_means_of:
+      - 'qualification%1:07:00::'
+      - 'quality%1:26:00::'
+      - 'quality%1:07:02::'
+      derivation:
       - 'qualification%1:07:00::'
       - 'quality%1:26:00::'
       - 'quality%1:07:02::'
       - 'qualifier%1:18:00::'
       - 'qualifying%1:04:00::'
+      event:
+      - 'qualifying%1:04:00::'
       id: 'qualify%2:42:00::'
+      property:
+      - 'qualification%1:07:00::'
       subcat:
       - via
       - vii
       synset: 02684822-v
     - antonym:
       - 'disqualify%2:32:00::'
+      by_means_of:
+      - 'qualification%1:07:00::'
+      - 'quality%1:07:02::'
       derivation:
       - 'qualification%1:07:00::'
       - 'quality%1:07:02::'
       id: 'qualify%2:32:02::'
+      property:
+      - 'qualification%1:07:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
       synset: 00974223-v
-    - derivation:
+    - by_means_of:
+      - 'qualification%1:10:00::'
+      - 'quality%1:09:00::'
+      derivation:
       - 'qualification%1:04:00::'
       - 'qualification%1:10:00::'
       - 'quality%1:09:00::'
+      event:
+      - 'qualification%1:04:00::'
       id: 'qualify%2:30:02::'
       subcat:
       - vtai
@@ -1654,6 +1690,8 @@ qualify:
       derivation:
       - 'quality%1:07:02::'
       id: 'qualify%2:30:00::'
+      result:
+      - 'quality%1:07:02::'
       subcat:
       - vtaa-to-inf
       - vtia
@@ -1662,11 +1700,15 @@ qualify:
     - derivation:
       - 'qualification%1:07:00::'
       id: 'qualify%2:32:00::'
+      property:
+      - 'qualification%1:07:00::'
       subcat:
       - via
       - via-that
       - vtai
       synset: 01020937-v
+      undergoer:
+      - 'qualification%1:07:00::'
     - derivation:
       - 'quality%1:09:00::'
       - 'quality%1:07:00::'
@@ -1677,7 +1719,12 @@ qualify:
       - vtia
       - vtii
       synset: 00958719-v
-    - derivation:
+      undergoer:
+      - 'quality%1:09:00::'
+      - 'quality%1:07:00::'
+    - agent:
+      - 'qualifier%1:10:00::'
+      derivation:
       - 'qualifier%1:10:00::'
       - 'qualifying%1:24:00::'
       id: 'qualify%2:30:01::'
@@ -1686,6 +1733,9 @@ qualify:
       - vtai-with
       - vtii
       synset: 00171140-v
+      uses:
+      - 'qualifier%1:10:00::'
+      - 'qualifying%1:24:00::'
 qualifying:
   n:
     sense:
@@ -1914,7 +1964,9 @@ quantify:
     - value: ˈkwɑːn.tə.faɪ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'quantification%1:09:00::'
+      derivation:
       - 'quantification%1:09:00::'
       id: 'quantify%2:30:01::'
       subcat:
@@ -1924,11 +1976,15 @@ quantify:
     - derivation:
       - 'quantity%1:09:01::'
       - 'quantification%1:04:00::'
+      event:
+      - 'quantification%1:04:00::'
       id: 'quantify%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00490773-v
+      undergoer:
+      - 'quantity%1:09:01::'
 quantisation:
   n:
     sense:
@@ -1944,6 +2000,8 @@ quantise:
       - vtai
       synset: 00675014-v
     - derivation:
+      - 'quantisation%1:04:00::'
+      event:
       - 'quantisation%1:04:00::'
       id: 'quantise%2:31:00::'
       subcat:
@@ -2028,11 +2086,15 @@ quantize:
     sense:
     - derivation:
       - 'quantization%1:04:00::'
+      event:
+      - 'quantization%1:04:00::'
       id: 'quantize%2:31:01::'
       subcat:
       - vtai
       synset: 00675014-v
     - derivation:
+      - 'quantization%1:04:00::'
+      event:
       - 'quantization%1:04:00::'
       id: 'quantize%2:31:00::'
       subcat:
@@ -2136,6 +2198,9 @@ quarantine:
     - derivation:
       - 'quarantine%1:04:00::'
       - 'quarantine%1:26:00::'
+      event:
+      - 'quarantine%1:04:00::'
+      - 'quarantine%1:26:00::'
       id: 'quarantine%2:30:00::'
       subcat:
       - vtaa
@@ -2177,10 +2242,15 @@ quarrel:
     - quarrelled
     - quarrelling
     sense:
-    - derivation:
+    - agent:
+      - 'quarreller%1:18:00::'
+      - 'quarreler%1:18:00::'
+      derivation:
       - 'quarrel%1:10:00::'
       - 'quarreller%1:18:00::'
       - 'quarreler%1:18:00::'
+      event:
+      - 'quarrel%1:10:00::'
       id: 'quarrel%2:32:00::'
       sent:
       - Sam and Sue quarrel
@@ -2244,7 +2314,9 @@ quarry:
     form:
     - quarried
     sense:
-    - derivation:
+    - agent:
+      - 'quarrier%1:18:00::'
+      derivation:
       - 'quarry%1:06:00::'
       - 'quarrier%1:18:00::'
       - 'quarrying%1:04:00::'
@@ -2354,6 +2426,8 @@ quarter:
     - derivation:
       - 'quarter%1:23:01::'
       id: 'quarter%2:41:00::'
+      result:
+      - 'quarter%1:23:01::'
       subcat:
       - vtaa
       synset: 02489153-v
@@ -2361,6 +2435,8 @@ quarter:
       - 'quarter%1:23:01::'
       - 'quartering%1:04:00::'
       id: 'quarter%2:35:01::'
+      result:
+      - 'quarter%1:23:01::'
       subcat:
       - vtai
       - vtii
@@ -2480,13 +2556,17 @@ quarterback:
       synset: 00727818-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'quarterback%1:18:00::'
+      derivation:
       - 'quarterback%1:04:00::'
       - 'quarterback%1:18:00::'
       id: 'quarterback%2:33:00::'
       subcat:
       - via
       synset: 01078763-v
+      undergoer:
+      - 'quarterback%1:04:00::'
 quarterdeck:
   n:
     sense:
@@ -2874,11 +2954,15 @@ quaver:
     sense:
     - derivation:
       - 'quaver%1:11:00::'
+      event:
+      - 'quaver%1:11:00::'
       id: 'quaver%2:32:01::'
       subcat:
       - vii
       synset: 01052990-v
     - derivation:
+      - 'quaver%1:10:00::'
+      event:
       - 'quaver%1:10:00::'
       id: 'quaver%2:32:00::'
       subcat:
@@ -2990,12 +3074,16 @@ queen:
     - derivation:
       - 'queen%1:06:00::'
       id: 'queen%2:41:00::'
+      result:
+      - 'queen%1:06:00::'
       subcat:
       - vtai
       synset: 02599946-v
     - derivation:
       - 'queen%1:06:00::'
       id: 'queen%2:38:00::'
+      result:
+      - 'queen%1:06:00::'
       subcat:
       - vii
       synset: 01974005-v
@@ -3355,8 +3443,12 @@ query:
     - value: ˈkwɪ.ɹi
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'querier%1:18:00::'
+      derivation:
+      - 'querier%1:18:00::'
+      - 'query%1:10:00::'
+      event:
       - 'query%1:10:00::'
       id: 'query%2:32:00::'
       subcat:
@@ -3394,9 +3486,13 @@ quest:
     pronunciation:
     - value: kwɛst
     sense:
-    - derivation:
+    - agent:
+      - 'quester%1:18:00::'
+      derivation:
       - 'quest%1:04:00::'
       - 'quester%1:18:00::'
+      event:
+      - 'quest%1:04:00::'
       id: 'quest%2:40:00::'
       subcat:
       - via
@@ -3478,7 +3574,11 @@ question:
     sense:
     - derivation:
       - 'question%1:07:00::'
+      event:
+      - 'question%1:07:00::'
       id: 'question%2:32:01::'
+      result:
+      - 'question%1:07:00::'
       subcat:
       - via-that
       - vtaa
@@ -3489,15 +3589,23 @@ question:
       - 'question%1:10:03::'
       - 'question%1:10:00::'
       - 'questioning%1:10:00::'
+      event:
+      - 'question%1:10:03::'
+      - 'question%1:10:00::'
       id: 'question%2:32:03::'
       subcat:
       - vtaa
       synset: 00789846-v
-    - derivation:
+    - agent:
+      - 'questioner%1:18:00::'
+      derivation:
       - 'question%1:10:03::'
       - 'question%1:10:00::'
       - 'questioner%1:18:00::'
       - 'questioning%1:10:00::'
+      event:
+      - 'question%1:10:03::'
+      - 'question%1:10:00::'
       id: 'question%2:32:00::'
       subcat:
       - via-whether-inf
@@ -3505,6 +3613,8 @@ question:
       - vtai
       synset: 00786670-v
     - derivation:
+      - 'question%1:10:00::'
+      event:
       - 'question%1:10:00::'
       id: 'question%2:32:09::'
       sent:
@@ -3514,7 +3624,11 @@ question:
       synset: 00810517-v
     - derivation:
       - 'question%1:07:00::'
+      event:
+      - 'question%1:07:00::'
       id: 'question%2:32:02::'
+      result:
+      - 'question%1:07:00::'
       sent:
       - They question whether there was a traffic accident
       subcat:
@@ -3674,6 +3788,8 @@ queue:
     - derivation:
       - 'queue%1:14:00::'
       id: 'queue%2:38:00::'
+      result:
+      - 'queue%1:14:00::'
       subcat:
       - via
       synset: 02040600-v
@@ -3707,14 +3823,20 @@ quibble:
     pronunciation:
     - value: ˈkwɪbəl
     sense:
-    - derivation:
+    - agent:
+      - 'quibbler%1:18:00::'
+      derivation:
       - 'quibble%1:10:00::'
       - 'quibbler%1:18:00::'
+      event:
+      - 'quibble%1:10:00::'
       id: 'quibble%2:32:01::'
       subcat:
       - via
       synset: 00812047-v
-    - derivation:
+    - agent:
+      - 'quibbler%1:18:00::'
+      derivation:
       - 'quibbler%1:18:00::'
       id: 'quibble%2:32:00::'
       sent:
@@ -3906,7 +4028,9 @@ quicken:
       subcat:
       - vtai
       synset: 02122017-v
-    - derivation:
+    - by_means_of:
+      - 'quickener%1:17:00::'
+      derivation:
       - 'quickener%1:17:00::'
       id: 'quicken%2:30:00::'
       subcat:
@@ -3920,7 +4044,9 @@ quicken:
       subcat:
       - via
       synset: 00052752-v
-    - derivation:
+    - by_means_of:
+      - 'quickener%1:17:00::'
+      derivation:
       - 'quickener%1:17:00::'
       id: 'quicken%2:29:00::'
       subcat:
@@ -4067,6 +4193,8 @@ quickstep:
     - quickstepping
     sense:
     - derivation:
+      - 'quickstep%1:04:01::'
+      event:
       - 'quickstep%1:04:01::'
       id: 'quickstep%2:38:00::'
       sent:
@@ -4232,6 +4360,8 @@ quiet:
     sense:
     - derivation:
       - 'quiet%1:07:02::'
+      event:
+      - 'quiet%1:07:02::'
       id: 'quiet%2:39:00::'
       subcat:
       - via
@@ -4240,6 +4370,8 @@ quiet:
     - derivation:
       - 'quiet%1:07:00::'
       id: 'quiet%2:37:00::'
+      result:
+      - 'quiet%1:07:00::'
       sent:
       - The performance is likely to quiet Sue
       subcat:
@@ -4396,6 +4528,8 @@ quilt:
       - 'quilt%1:06:00::'
       - 'quilting%1:06:01::'
       id: 'quilt%2:36:01::'
+      result:
+      - 'quilt%1:06:00::'
       subcat:
       - vtai
       synset: 01671344-v
@@ -4403,6 +4537,8 @@ quilt:
       - 'quilt%1:06:00::'
       - 'quilting%1:06:01::'
       id: 'quilt%2:36:00::'
+      result:
+      - 'quilt%1:06:00::'
       sent:
       - They quilt the cape
       subcat:
@@ -4703,6 +4839,9 @@ quip:
     - derivation:
       - 'quip%1:10:00::'
       - 'quip%1:10:01::'
+      event:
+      - 'quip%1:10:00::'
+      - 'quip%1:10:01::'
       id: 'quip%2:32:00::'
       subcat:
       - via
@@ -4828,7 +4967,9 @@ quit:
       - vtaa
       - vtai
       synset: 02232269-v
-    - derivation:
+    - agent:
+      - 'quitter%1:18:00::'
+      derivation:
       - 'quitter%1:18:00::'
       id: 'quit%2:33:05::'
       subcat:
@@ -4923,6 +5064,9 @@ quiver:
       - 'quiver%1:04:00::'
       - 'quiver%1:26:00::'
       - 'quivering%1:26:00::'
+      event:
+      - 'quiver%1:04:00::'
+      - 'quiver%1:26:00::'
       id: 'quiver%2:38:00::'
       subcat:
       - via
@@ -4993,8 +5137,12 @@ quiz:
     pronunciation:
     - value: kwɪz
     sense:
-    - derivation:
+    - agent:
       - 'quizzer%1:18:00::'
+      derivation:
+      - 'quizzer%1:18:00::'
+      - 'quiz%1:10:00::'
+      event:
       - 'quiz%1:10:00::'
       id: 'quiz%2:32:00::'
       subcat:
@@ -5171,11 +5319,16 @@ quote:
     pronunciation:
     - value: kwəʊt
     sense:
-    - derivation:
+    - agent:
+      - 'quoter%1:18:00::'
+      derivation:
       - 'quote%1:10:01::'
       - 'quotation%1:10:00::'
       - 'quotation%1:04:00::'
       - 'quoter%1:18:00::'
+      event:
+      - 'quotation%1:04:00::'
+      - 'quote%1:10:01::'
       id: 'quote%2:32:00::'
       sent:
       - The parents quote a French poem to the children
@@ -5187,7 +5340,11 @@ quote:
       - vtai
       - vtai-to
       synset: 01025268-v
-    - derivation:
+      undergoer:
+      - 'quotation%1:10:00::'
+    - by_means_of:
+      - 'quotation%1:10:02::'
+      derivation:
       - 'quotation%1:10:02::'
       id: 'quote%2:32:13::'
       subcat:
@@ -5206,6 +5363,8 @@ quote:
       subcat:
       - vtai
       synset: 01006448-v
+      uses:
+      - 'quote%1:10:00::'
 quoter:
   n:
     sense:

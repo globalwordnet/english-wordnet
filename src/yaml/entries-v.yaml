@@ -3466,6 +3466,8 @@ vacate:
       synset: 02080923-v
     - derivation:
       - 'vacation%1:04:01::'
+      event:
+      - 'vacation%1:04:01::'
       id: 'vacate%2:32:00::'
       subcat:
       - vtai
@@ -3495,11 +3497,15 @@ vacation:
     - value: veɪˈkeɪʃən
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'vacationer%1:18:00::'
+      derivation:
       - 'vacation%1:28:00::'
       - 'vacationist%1:18:00::'
       - 'vacationer%1:18:00::'
       - 'vacationing%1:04:00::'
+      event:
+      - 'vacation%1:28:00::'
       id: 'vacation%2:42:00::'
       subcat:
       - via
@@ -3556,13 +3562,19 @@ vaccinate:
     pronunciation:
     - value: ˈvæksɪneɪt
     sense:
-    - derivation:
+    - agent:
+      - 'vaccinator%1:18:00::'
+      derivation:
       - 'vaccination%1:26:00::'
       - 'vaccination%1:04:00::'
       - 'vaccine%1:06:00::'
       - 'vaccinator%1:18:00::'
       - 'vaccinating%1:04:00::'
+      event:
+      - 'vaccination%1:04:00::'
       id: 'vaccinate%2:29:00::'
+      result:
+      - 'vaccination%1:26:00::'
       subcat:
       - via
       - vtaa
@@ -3643,15 +3655,21 @@ vacillate:
     pronunciation:
     - value: ˈvæ.sə.leɪt
     sense:
-    - derivation:
+    - agent:
+      - 'vacillator%1:18:00::'
+      derivation:
       - vacillant%5:00:00:irresolute:00
       - 'vacillation%1:09:00::'
       - 'vacillator%1:18:00::'
+      event:
+      - 'vacillation%1:09:00::'
       id: 'vacillate%2:42:00::'
       subcat:
       - via
       synset: 02711906-v
     - derivation:
+      - 'vacillation%1:04:00::'
+      event:
       - 'vacillation%1:04:00::'
       id: 'vacillate%2:38:00::'
       subcat:
@@ -3789,6 +3807,8 @@ vacuum:
     sense:
     - derivation:
       - 'vacuum%1:06:00::'
+      instrument:
+      - 'vacuum%1:06:00::'
       id: 'vacuum%2:35:00::'
       subcat:
       - via
@@ -3895,7 +3915,11 @@ vagabond:
     pronunciation:
     - value: ˈvæɡ.ə.bɒnd
     sense:
-    - derivation:
+    - agent:
+      - 'vagabond%1:18:01::'
+      by_means_of:
+      - 'vagabond%1:17:00::'
+      derivation:
       - 'vagabond%1:18:01::'
       - 'vagabond%1:17:00::'
       - 'vagabondage%1:04:00::'
@@ -4291,7 +4315,9 @@ valet:
     - value: ˈvæleɪ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'valet%1:18:00::'
+      derivation:
       - 'valet%1:18:00::'
       id: 'valet%2:41:00::'
       subcat:
@@ -4414,6 +4440,9 @@ validate:
       - validatory%5:00:00:supportive:00
       - 'validation%1:09:00::'
       - 'validation%1:04:00::'
+      event:
+      - 'validation%1:09:00::'
+      - 'validation%1:04:00::'
       id: 'validate%2:31:00::'
       subcat:
       - vtai
@@ -4421,6 +4450,9 @@ validate:
       synset: 00669142-v
     - derivation:
       - validatory%5:00:00:supportive:00
+      - 'validation%1:09:00::'
+      - 'validation%1:04:00::'
+      event:
       - 'validation%1:09:00::'
       - 'validation%1:04:00::'
       id: 'validate%2:32:00::'
@@ -4648,11 +4680,15 @@ valuableness:
 valuate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'valuator%1:18:00::'
+      derivation:
       - 'valuation%1:09:00::'
       - 'value%1:21:00::'
       - 'value%1:07:00::'
       - 'valuator%1:18:00::'
+      event:
+      - 'valuation%1:09:00::'
       id: 'valuate%2:31:00::'
       subcat:
       - vtai
@@ -4716,13 +4752,17 @@ value:
     pronunciation:
     - value: ˈvæljuː
     sense:
-    - derivation:
+    - agent:
+      - 'valuer%1:18:00::'
+      derivation:
       - 'value%1:21:00::'
       - 'valuer%1:18:00::'
       id: 'value%2:31:03::'
       subcat:
       - vtai-pp
       synset: 00696992-v
+      uses:
+      - 'value%1:21:00::'
     - derivation:
       - valuable%5:00:00:worthy:00
       - 'valuable%3:00:00::'
@@ -4740,13 +4780,19 @@ value:
       - vtaa
       - vtai
       synset: 00695834-v
-    - derivation:
+      undergoer:
+      - 'value%1:09:01::'
+    - agent:
+      - 'valuer%1:18:00::'
+      derivation:
       - 'value%1:21:00::'
       - 'valuer%1:18:00::'
       id: 'value%2:31:00::'
       subcat:
       - vtai
       synset: 00683348-v
+      uses:
+      - 'value%1:21:00::'
     - id: 'value%2:31:02::'
       subcat:
       - vtai
@@ -4948,7 +4994,10 @@ vamp:
       subcat:
       - vtai
       synset: 01593310-v
-    - derivation:
+    - agent:
+      - 'vamper%1:18:00::'
+      - 'vamp%1:18:00::'
+      derivation:
       - 'vamp%1:18:00::'
       - 'vamper%1:18:00::'
       id: 'vamp%2:32:00::'
@@ -4961,6 +5010,8 @@ vamp:
       subcat:
       - vtai
       synset: 00534607-v
+      uses:
+      - 'vamp%1:06:00::'
 vamp up:
   v:
     sense:
@@ -5105,7 +5156,9 @@ vandal:
 vandalise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vandal%1:18:00::'
+      derivation:
       - 'vandal%1:18:00::'
       id: 'vandalise%2:35:00::'
       subcat:
@@ -5122,7 +5175,9 @@ vandalism:
 vandalize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vandal%1:18:00::'
+      derivation:
       - 'vandal%1:18:00::'
       id: 'vandalize%2:35:00::'
       subcat:
@@ -5252,7 +5307,11 @@ vanish:
       - vii
       - vii-pp
       synset: 00427911-v
-    - derivation:
+      undergoer:
+      - 'vanisher%1:18:00::'
+    - agent:
+      - 'vanisher%1:18:00::'
+      derivation:
       - 'vanisher%1:18:00::'
       - 'vanishing%1:04:00::'
       id: 'vanish%2:39:00::'
@@ -5345,7 +5404,9 @@ vanquish:
     pronunciation:
     - value: ˈvæŋkwɪʃ
     sense:
-    - derivation:
+    - agent:
+      - 'vanquisher%1:18:00::'
+      derivation:
       - vanquishable%5:00:00:conquerable:00
       - 'vanquisher%1:18:00::'
       id: 'vanquish%2:33:00::'
@@ -5535,7 +5596,12 @@ vaporise:
       - 'vaporisation%1:22:00::'
       - 'vapor%1:27:01::'
       - 'vapor%1:22:00::'
+      event:
+      - 'vapor%1:22:00::'
+      - 'vaporisation%1:22:00::'
       id: 'vaporise%2:30:00::'
+      result:
+      - 'vapor%1:27:01::'
       subcat:
       - vii
       - vtai
@@ -5545,7 +5611,12 @@ vaporise:
       - 'vaporisation%1:22:00::'
       - 'vapor%1:27:01::'
       - 'vapor%1:22:00::'
+      event:
+      - 'vapor%1:22:00::'
+      - 'vaporisation%1:22:00::'
       id: 'vaporise%2:30:01::'
+      result:
+      - 'vapor%1:27:01::'
       subcat:
       - vii
       - vtai
@@ -5592,18 +5663,29 @@ vaporize:
       - 'vaporization%1:22:00::'
       - 'vapor%1:27:01::'
       - 'vapor%1:22:00::'
+      event:
+      - 'vapor%1:22:00::'
+      - 'vaporization%1:22:00::'
       id: 'vaporize%2:30:00::'
+      result:
+      - 'vapor%1:27:01::'
       subcat:
       - vii
       - vtai
       - vtii
       synset: 00443222-v
-    - derivation:
+    - agent:
+      - 'vapor%1:22:00::'
+      derivation:
       - vaporizable%5:00:00:volatile:00
       - 'vaporization%1:22:00::'
       - 'vapor%1:27:01::'
       - 'vapor%1:22:00::'
+      event:
+      - 'vaporization%1:22:00::'
       id: 'vaporize%2:30:01::'
+      result:
+      - 'vapor%1:27:01::'
       sent:
       - The water vaporizes
       - They vaporize the water
@@ -6107,12 +6189,16 @@ variegate:
     sense:
     - derivation:
       - 'variegation%1:07:00::'
+      event:
+      - 'variegation%1:07:00::'
       id: 'variegate%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00582586-v
     - derivation:
+      - 'variegation%1:04:00::'
+      event:
       - 'variegation%1:04:00::'
       id: 'variegate%2:30:00::'
       subcat:
@@ -6372,13 +6458,17 @@ varnish:
     pronunciation:
     - value: ˈvɑː(ɹ)nɪʃ
     sense:
-    - derivation:
+    - agent:
+      - 'varnisher%1:18:00::'
+      derivation:
       - 'varnisher%1:18:00::'
       - 'varnish%1:06:00::'
       id: 'varnish%2:35:00::'
       subcat:
       - vtai
       synset: 01271572-v
+      uses:
+      - 'varnish%1:06:00::'
 varnish tree:
   n:
     sense:
@@ -6442,16 +6532,24 @@ vary:
       - 'variation%1:09:01::'
       - 'variant%1:09:01::'
       id: 'vary%2:30:01::'
+      result:
+      - 'variation%1:09:01::'
       subcat:
       - via
       - vii
       synset: 00122978-v
-    - derivation:
+    - agent:
+      - 'variation%1:18:00::'
+      derivation:
       - variant%5:00:00:different:00
       - 'variation%1:19:00::'
       - 'variation%1:18:00::'
       - 'variation%1:04:00::'
       - 'variant%1:11:00::'
+      - 'variance%1:04:00::'
+      event:
+      - 'variation%1:19:00::'
+      - 'variation%1:04:00::'
       - 'variance%1:04:00::'
       id: 'vary%2:42:00::'
       subcat:
@@ -6467,6 +6565,9 @@ vary:
       - 'variation%1:19:00::'
       - 'variation%1:11:01::'
       - 'variate%1:09:00::'
+      event:
+      - 'variation%1:19:00::'
+      - 'variation%1:11:01::'
       id: 'vary%2:42:01::'
       subcat:
       - vii
@@ -6474,6 +6575,8 @@ vary:
     - derivation:
       - variable%5:00:00:varied:00
       - variant%5:00:00:variable:00
+      - 'variation%1:04:01::'
+      event:
       - 'variation%1:04:01::'
       id: 'vary%2:30:04::'
       subcat:
@@ -6624,12 +6727,16 @@ vascularize:
     - derivation:
       - 'vascular%3:01:00::'
       - 'vascularization%1:22:00::'
+      event:
+      - 'vascularization%1:22:00::'
       id: 'vascularize%2:30:01::'
       subcat:
       - vii
       synset: 00582748-v
     - derivation:
       - 'vascular%3:01:00::'
+      - 'vascularization%1:22:00::'
+      event:
       - 'vascularization%1:22:00::'
       id: 'vascularize%2:30:00::'
       subcat:
@@ -6845,18 +6952,26 @@ vaticinate:
     pronunciation:
     - value: vəˈtɪ.səˌneɪt
     sense:
-    - derivation:
+    - agent:
+      - 'vaticinator%1:18:00::'
+      derivation:
       - 'vaticination%1:09:00::'
       - 'vaticinator%1:18:00::'
+      event:
+      - 'vaticination%1:09:00::'
       id: 'vaticinate%2:32:00::'
       subcat:
       - via-that
       - vtai
       - vtii
       synset: 00928673-v
-    - derivation:
+    - agent:
+      - 'vaticinator%1:18:00::'
+      derivation:
       - 'vaticination%1:09:00::'
       - 'vaticinator%1:18:00::'
+      event:
+      - 'vaticination%1:09:00::'
       id: 'vaticinate%2:32:01::'
       subcat:
       - vtai
@@ -6919,15 +7034,21 @@ vault:
       synset: 00121335-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vaulter%1:18:00::'
+      derivation:
       - 'vault%1:04:00::'
       - 'vaulter%1:18:00::'
       - 'vaulting%1:04:00::'
+      event:
+      - 'vault%1:04:00::'
       id: 'vault%2:38:01::'
       subcat:
       - vtai
       synset: 01970175-v
-    - derivation:
+    - agent:
+      - 'vaulter%1:18:00::'
+      derivation:
       - 'vaulter%1:18:00::'
       id: 'vault%2:38:00::'
       subcat:
@@ -6979,8 +7100,12 @@ vaunt:
       synset: 07244887-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'vaunter%1:18:00::'
+      derivation:
+      - 'vaunter%1:18:00::'
+      - 'vaunt%1:10:00::'
+      event:
       - 'vaunt%1:10:00::'
       id: 'vaunt%2:32:00::'
       subcat:
@@ -7267,6 +7392,8 @@ vegetate:
     - derivation:
       - 'vegetative%3:01:01::'
       - 'vegetation%1:04:00::'
+      event:
+      - 'vegetation%1:04:00::'
       id: 'vegetate%2:42:00::'
       subcat:
       - via
@@ -7277,7 +7404,11 @@ vegetate:
       subcat:
       - vtai
       synset: 00232932-v
+      undergoer:
+      - 'vegetation%1:14:00::'
     - derivation:
+      - 'vegetation%1:22:00::'
+      event:
       - 'vegetation%1:22:00::'
       id: 'vegetate%2:30:01::'
       subcat:
@@ -7285,11 +7416,15 @@ vegetate:
       synset: 00232796-v
     - derivation:
       - 'vegetation%1:22:00::'
+      event:
+      - 'vegetation%1:22:00::'
       id: 'vegetate%2:30:00::'
       subcat:
       - vii
       synset: 00232651-v
     - derivation:
+      - 'vegetation%1:08:00::'
+      event:
       - 'vegetation%1:08:00::'
       id: 'vegetate%2:30:04::'
       subcat:
@@ -7303,6 +7438,8 @@ vegetate:
       synset: 00055451-v
     - derivation:
       - 'vegetative%3:01:01::'
+      - 'vegetation%1:04:00::'
+      event:
       - 'vegetation%1:04:00::'
       id: 'vegetate%2:29:00::'
       subcat:
@@ -7482,6 +7619,9 @@ veil:
     sense:
     - antonym:
       - 'unveil%2:35:00::'
+      by_means_of:
+      - 'veil%1:06:01::'
+      - 'veil%1:06:00::'
       derivation:
       - 'veil%1:06:01::'
       - 'veil%1:06:00::'
@@ -7637,6 +7777,8 @@ vellicate:
     - value: ˈvɛlɪkeɪt
     sense:
     - derivation:
+      - 'vellication%1:26:00::'
+      event:
       - 'vellication%1:26:00::'
       id: 'vellicate%2:39:00::'
       subcat:
@@ -8677,13 +8819,18 @@ vend:
     pronunciation:
     - value: vɛnd
     sense:
-    - derivation:
+    - agent:
+      - 'vender%1:18:00::'
+      - 'vendor%1:18:00::'
+      derivation:
       - vendible%5:00:00:salable:00
       - vendable%5:00:00:salable:00
       - 'vendition%1:04:00::'
       - 'vender%1:18:00::'
       - 'vendor%1:18:00::'
       - 'vending%1:04:00::'
+      event:
+      - 'vendition%1:04:00::'
       id: 'vend%2:40:00::'
       subcat:
       - vtai
@@ -8785,6 +8932,10 @@ veneer:
       subcat:
       - vtai
       synset: 01271788-v
+      undergoer:
+      - 'veneer%1:06:01::'
+      uses:
+      - 'veneer%1:06:01::'
 veneering:
   n:
     sense:
@@ -8828,9 +8979,13 @@ venerate:
     pronunciation:
     - value: ˈvɛnəɹeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'venerator%1:18:00::'
+      derivation:
       - 'veneration%1:12:00::'
       - 'venerator%1:18:00::'
+      event:
+      - 'veneration%1:12:00::'
       id: 'venerate%2:37:00::'
       sent:
       - Sam cannot venerate Sue
@@ -8890,6 +9045,8 @@ venesect:
   v:
     sense:
     - derivation:
+      - 'venesection%1:04:00::'
+      event:
       - 'venesection%1:04:00::'
       id: 'venesect%2:29:00::'
       subcat:
@@ -9109,9 +9266,13 @@ vent:
       synset: 01266940-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'venter%1:18:00::'
+      derivation:
       - 'vent%1:04:00::'
       - 'venter%1:18:00::'
+      event:
+      - 'vent%1:04:00::'
       id: 'vent%2:32:00::'
       subcat:
       - vtai
@@ -9167,6 +9328,8 @@ ventilate:
     - derivation:
       - 'vent%1:06:00::'
       - 'ventilator%1:06:00::'
+      instrument:
+      - 'ventilator%1:06:00::'
       id: 'ventilate%2:30:00::'
       subcat:
       - vtai
@@ -9174,6 +9337,10 @@ ventilate:
     - derivation:
       - 'ventilator%1:06:00::'
       - 'ventilation%1:06:00::'
+      event:
+      - 'ventilation%1:06:00::'
+      instrument:
+      - 'ventilator%1:06:00::'
       id: 'ventilate%2:39:00::'
       subcat:
       - vtai
@@ -9181,11 +9348,16 @@ ventilate:
     - derivation:
       - 'ventilation%1:06:00::'
       - 'ventilation%1:04:00::'
+      event:
+      - 'ventilation%1:06:00::'
+      - 'ventilation%1:04:00::'
       id: 'ventilate%2:38:00::'
       subcat:
       - vtii
       synset: 02046562-v
     - derivation:
+      - 'ventilation%1:10:00::'
+      event:
       - 'ventilation%1:10:00::'
       id: 'ventilate%2:32:00::'
       subcat:
@@ -9195,6 +9367,10 @@ ventilate:
       - 'ventilatory%3:01:00::'
       - 'ventilator%1:06:00::'
       - 'ventilation%1:04:00::'
+      event:
+      - 'ventilation%1:04:00::'
+      instrument:
+      - 'ventilator%1:06:00::'
       id: 'ventilate%2:30:01::'
       subcat:
       - vtai
@@ -9428,9 +9604,13 @@ venture:
     - value: ˈvɛn.t͡ʃə
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'venturer%1:18:00::'
+      derivation:
       - 'venture%1:04:00::'
       - 'venturer%1:18:00::'
+      event:
+      - 'venture%1:04:00::'
       id: 'venture%2:41:01::'
       subcat:
       - via-pp
@@ -9441,7 +9621,12 @@ venture:
       - via-that
       - vtai
       synset: 00918880-v
-    - derivation:
+    - agent:
+      - 'venturer%1:18:00::'
+      by_means_of:
+      - 'venture%1:21:00::'
+      - 'venture%1:04:01::'
+      derivation:
       - 'venture%1:21:00::'
       - 'venture%1:04:01::'
       - 'venturer%1:18:00::'
@@ -9670,12 +9855,16 @@ verbalise:
       synset: 00945313-v
     - derivation:
       - 'verbalisation%1:10:00::'
+      event:
+      - 'verbalisation%1:10:00::'
       id: 'verbalise%2:32:00::'
       subcat:
       - via
       - via-pp
       synset: 00944022-v
     - derivation:
+      - 'verbalisation%1:10:00::'
+      event:
       - 'verbalisation%1:10:00::'
       id: 'verbalise%2:32:03::'
       subcat:
@@ -9718,9 +9907,13 @@ verbalize:
       subcat:
       - via
       synset: 00945313-v
-    - derivation:
+    - agent:
+      - 'verbalizer%1:18:00::'
+      derivation:
       - 'verbalization%1:10:00::'
       - 'verbalizer%1:18:00::'
+      event:
+      - 'verbalization%1:10:00::'
       id: 'verbalize%2:32:00::'
       subcat:
       - via
@@ -9810,6 +10003,9 @@ verbify:
       - 'verb%1:10:01::'
       - 'verb%1:10:00::'
       id: 'verbify%2:30:00::'
+      result:
+      - 'verb%1:10:01::'
+      - 'verb%1:10:00::'
       subcat:
       - vtai
       synset: 00555806-v
@@ -9926,6 +10122,8 @@ verdigris:
       subcat:
       - vtai
       synset: 00286074-v
+      uses:
+      - 'verdigris%1:27:00::'
 verdin:
   n:
     sense:
@@ -9972,6 +10170,9 @@ verge:
       subcat:
       - vtii
       synset: 02709650-v
+      undergoer:
+      - 'verge%1:07:00::'
+      - 'verge%1:25:00::'
 verger:
   n:
     pronunciation:
@@ -10042,7 +10243,11 @@ verify:
     form:
     - verified
     sense:
-    - derivation:
+    - agent:
+      - 'verifier%1:18:00::'
+      by_means_of:
+      - 'verification%1:09:00::'
+      derivation:
       - verificatory%5:00:00:supportive:00
       - verifiable%5:00:00:objective:00
       - verifiable%5:00:00:empirical:00
@@ -10064,6 +10269,10 @@ verify:
       subcat:
       - vtai
       synset: 01014404-v
+      undergoer:
+      - 'verification%1:10:00::'
+      uses:
+      - 'verification%1:10:00::'
     - id: 'verify%2:32:03::'
       subcat:
       - via-that
@@ -10152,6 +10361,8 @@ vermiculate:
       subcat:
       - vtai
       synset: 01681282-v
+      undergoer:
+      - 'vermiculation%1:06:00::'
 vermiculated:
   a:
     sense:
@@ -10226,10 +10437,14 @@ vermilion:
     - derivation:
       - 'vermilion%1:07:00::'
       id: 'vermilion%2:30:00::'
+      result:
+      - 'vermilion%1:07:00::'
       subcat:
       - vtai
       - vtii
       synset: 00536228-v
+      uses:
+      - 'vermilion%1:07:00::'
 vermillion:
   a:
     sense:
@@ -10503,6 +10718,10 @@ verse:
       - 'verse%1:10:00::'
       - 'verse%1:10:02::'
       id: 'verse%2:36:00::'
+      result:
+      - 'verse%1:10:01::'
+      - 'verse%1:10:00::'
+      - 'verse%1:10:02::'
       subcat:
       - via
       - vtai
@@ -10562,7 +10781,9 @@ versify:
     pronunciation:
     - value: ˈvɜː(ɹ)sɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'versifier%1:18:00::'
+      derivation:
       - 'versification%1:10:02::'
       - 'versification%1:10:01::'
       - 'versification%1:10:00::'
@@ -10570,7 +10791,15 @@ versify:
       - 'verse%1:10:02::'
       - 'verse%1:10:01::'
       - 'verse%1:10:00::'
+      event:
+      - 'versification%1:10:00::'
       id: 'versify%2:36:00::'
+      result:
+      - 'versification%1:10:02::'
+      - 'versification%1:10:01::'
+      - 'verse%1:10:02::'
+      - 'verse%1:10:01::'
+      - 'verse%1:10:00::'
       sent:
       - Did he versify his major works over a short period of time?
       subcat:
@@ -11060,6 +11289,8 @@ vesicate:
       - vesicatory%5:00:00:noxious:00
       - vesicant%5:00:00:noxious:00
       - 'vesication%1:22:00::'
+      event:
+      - 'vesication%1:22:00::'
       id: 'vesicate%2:30:00::'
       subcat:
       - vii
@@ -11124,11 +11355,15 @@ vesiculate:
     sense:
     - derivation:
       - 'vesiculation%1:22:00::'
+      event:
+      - 'vesiculation%1:22:00::'
       id: 'vesiculate%2:30:01::'
       subcat:
       - vii
       synset: 00582115-v
     - derivation:
+      - 'vesiculation%1:22:00::'
+      event:
       - 'vesiculation%1:22:00::'
       id: 'vesiculate%2:30:00::'
       subcat:
@@ -11453,6 +11688,8 @@ vesture:
       subcat:
       - vtaa
       synset: 00048914-v
+      uses:
+      - 'vesture%1:06:00::'
 vesuvian:
   n:
     sense:
@@ -11480,7 +11717,9 @@ vet:
     - vetted
     - vetting
     sense:
-    - derivation:
+    - agent:
+      - 'vet%1:18:00::'
+      derivation:
       - 'vet%1:18:00::'
       id: 'vet%2:41:00::'
       subcat:
@@ -11494,7 +11733,9 @@ vet:
       subcat:
       - vtaa
       synset: 00080342-v
-    - derivation:
+    - agent:
+      - 'vet%1:18:00::'
+      derivation:
       - 'vet%1:18:00::'
       id: 'vet%2:29:00::'
       subcat:
@@ -11631,11 +11872,16 @@ veto:
     - derivation:
       - 'veto%1:07:00::'
       - 'veto%1:04:00::'
+      event:
+      - 'veto%1:07:00::'
+      - 'veto%1:04:00::'
       id: 'veto%2:41:00::'
       subcat:
       - vtai
       synset: 02478854-v
-    - derivation:
+    - by_means_of:
+      - 'veto%1:04:00::'
+      derivation:
       - 'veto%1:04:00::'
       id: 'veto%2:32:00::'
       sent:
@@ -11649,19 +11895,27 @@ vex:
     pronunciation:
     - value: vɛks
     sense:
-    - derivation:
+    - agent:
+      - 'vexer%1:18:00::'
+      derivation:
       - 'vexation%1:26:00::'
       - 'vexation%1:04:00::'
       - 'vexer%1:18:00::'
+      event:
+      - 'vexation%1:04:00::'
       id: 'vex%2:37:00::'
       sent:
       - The bad news will vex him
       - The performance is likely to vex Sue
+      state:
+      - 'vexation%1:26:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01791774-v
-    - derivation:
+    - by_means_of:
+      - 'vexation%1:09:00::'
+      derivation:
       - 'vexation%1:09:00::'
       id: 'vex%2:37:02::'
       subcat:
@@ -11922,6 +12176,10 @@ vibrate:
     - derivation:
       - 'vibration%1:26:01::'
       - 'vibrator%1:06:00::'
+      event:
+      - 'vibration%1:26:01::'
+      instrument:
+      - 'vibrator%1:06:00::'
       id: 'vibrate%2:38:00::'
       subcat:
       - vii
@@ -11932,6 +12190,11 @@ vibrate:
       - 'vibrator%1:06:01::'
       - 'vibration%1:11:00::'
       - 'vibration%1:04:00::'
+      event:
+      - 'vibration%1:11:00::'
+      - 'vibration%1:04:00::'
+      instrument:
+      - 'vibrator%1:06:01::'
       id: 'vibrate%2:38:01::'
       subcat:
       - vii
@@ -12404,11 +12667,15 @@ victimisation:
 victimise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'victimiser%1:18:00::'
+      derivation:
       - 'victimisation%1:04:00::'
       - 'victimiser%1:18:00::'
       - 'victim%1:18:01::'
       - 'victim%1:18:00::'
+      event:
+      - 'victimisation%1:04:00::'
       id: 'victimise%2:41:01::'
       subcat:
       - vtaa
@@ -12448,12 +12715,16 @@ victimize:
     pronunciation:
     - value: ˈvɪktɪmaɪz
     sense:
-    - derivation:
+    - agent:
+      - 'victimizer%1:18:00::'
+      derivation:
       - 'victimization%1:26:00::'
       - 'victimizer%1:18:00::'
       - 'victim%1:18:01::'
       - 'victim%1:18:00::'
       id: 'victimize%2:41:01::'
+      result:
+      - 'victimization%1:26:00::'
       subcat:
       - vtaa
       synset: 02580280-v
@@ -12466,6 +12737,8 @@ victimize:
       - vtia
       synset: 02506268-v
     - derivation:
+      - 'victimization%1:04:00::'
+      event:
       - 'victimization%1:04:00::'
       id: 'victimize%2:41:03::'
       subcat:
@@ -12569,30 +12842,47 @@ victual:
     - victualled
     - victualling
     sense:
-    - derivation:
+    - agent:
+      - 'victualer%1:18:02::'
+      - 'victualer%1:18:01::'
+      - 'victualler%1:18:02::'
+      - 'victualler%1:18:01::'
+      derivation:
       - 'victual%1:13:00::'
       - 'victualer%1:18:02::'
       - 'victualer%1:18:01::'
       - 'victualler%1:18:02::'
       - 'victualler%1:18:01::'
       id: 'victual%2:40:02::'
+      material:
+      - 'victual%1:13:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02337995-v
+      uses:
+      - 'victual%1:13:00::'
     - derivation:
       - 'victual%1:13:00::'
       id: 'victual%2:40:00::'
+      material:
+      - 'victual%1:13:00::'
       subcat:
       - via
       - vii
       synset: 02286330-v
+      undergoer:
+      - 'victual%1:13:00::'
     - derivation:
       - 'victual%1:13:00::'
       id: 'victual%2:34:00::'
+      material:
+      - 'victual%1:13:00::'
       subcat:
       - via
       synset: 01169522-v
+      undergoer:
+      - 'victual%1:13:00::'
 victualer:
   n:
     sense:
@@ -12744,7 +13034,11 @@ videotape:
     - derivation:
       - 'videotape%1:06:01::'
       - 'videotape%1:06:00::'
+      instrument:
+      - 'videotape%1:06:00::'
       id: 'videotape%2:32:00::'
+      result:
+      - 'videotape%1:06:01::'
       sent:
       - Sam and Sue videotape the movie
       - They will videotape the duet
@@ -12810,6 +13104,10 @@ view:
       - 'view%1:10:00::'
       - 'view%1:09:04::'
       - 'view%1:09:02::'
+      event:
+      - 'view%1:10:00::'
+      - 'view%1:09:04::'
+      - 'view%1:09:02::'
       id: 'view%2:31:00::'
       subcat:
       - vtaa-pp
@@ -12820,16 +13118,27 @@ view:
     - derivation:
       - 'view%1:09:02::'
       - 'viewer%1:06:00::'
+      event:
+      - 'view%1:09:02::'
+      instrument:
+      - 'viewer%1:06:00::'
       id: 'view%2:39:00::'
       subcat:
       - vtai
       synset: 02134765-v
-    - derivation:
+    - agent:
+      - 'viewer%1:18:01::'
+      by_means_of:
+      - 'view%1:15:00::'
+      derivation:
       - viewable%5:00:00:visible:00
       - 'view%1:15:00::'
       - 'view%1:04:00::'
       - 'view%1:09:01::'
       - 'viewer%1:18:01::'
+      event:
+      - 'view%1:04:00::'
+      - 'view%1:09:01::'
       id: 'view%2:39:02::'
       sent:
       - Sam and Sue view the movie
@@ -13136,10 +13445,18 @@ vilify:
     pronunciation:
     - value: ˈvɪl.ɪ.faɪ
     sense:
-    - derivation:
+    - agent:
+      - 'vilifier%1:18:00::'
+      by_means_of:
+      - 'vilification%1:10:01::'
+      - 'vilification%1:10:00::'
+      derivation:
       - 'vilification%1:10:01::'
       - 'vilification%1:10:00::'
       - 'vilifier%1:18:00::'
+      event:
+      - 'vilification%1:10:01::'
+      - 'vilification%1:10:00::'
       id: 'vilify%2:32:00::'
       subcat:
       - vtaa
@@ -13319,7 +13636,9 @@ vindicate:
     pronunciation:
     - value: ˈvɪn.dɪˌkeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'vindicator%1:18:00::'
+      derivation:
       - vindicatory%5:00:00:exculpatory:00
       - 'vindication%1:10:00::'
       - 'vindicator%1:18:00::'
@@ -13328,9 +13647,17 @@ vindicate:
       - vtai
       - vtii
       synset: 00897737-v
-    - derivation:
+      uses:
+      - 'vindication%1:10:00::'
+    - agent:
+      - 'vindicator%1:18:00::'
+      by_means_of:
+      - 'vindication%1:10:00::'
+      derivation:
       - 'vindicator%1:18:00::'
       - 'vindication%1:10:00::'
+      - 'vindication%1:04:01::'
+      event:
       - 'vindication%1:04:01::'
       id: 'vindicate%2:32:02::'
       subcat:
@@ -13555,7 +13882,11 @@ vinify:
     - derivation:
       - 'vinification%1:22:00::'
       - 'wine%1:13:00::'
+      event:
+      - 'vinification%1:22:00::'
       id: 'vinify%2:30:00::'
+      result:
+      - 'wine%1:13:00::'
       subcat:
       - vtai
       synset: 00460069-v
@@ -13711,12 +14042,16 @@ violate:
       - 'violable%3:00:00::'
       - violative%5:00:00:offending:00
       - 'violation%1:04:04::'
+      event:
+      - 'violation%1:04:04::'
       id: 'violate%2:42:00::'
       subcat:
       - vtai
       - vtii
       synset: 02674312-v
-    - derivation:
+    - agent:
+      - 'violator%1:18:01::'
+      derivation:
       - 'violable%3:00:00::'
       - violative%5:00:00:offending:00
       - 'violator%1:18:01::'
@@ -13733,13 +14068,20 @@ violate:
       - violative%5:00:00:offending:00
       - 'violation%1:04:03::'
       - 'violation%1:04:01::'
+      event:
+      - 'violation%1:04:03::'
+      - 'violation%1:04:01::'
       id: 'violate%2:41:02::'
       subcat:
       - vtai
       synset: 02573980-v
-    - derivation:
+    - agent:
+      - 'violator%1:18:00::'
+      derivation:
       - 'violation%1:04:02::'
       - 'violator%1:18:00::'
+      event:
+      - 'violation%1:04:02::'
       id: 'violate%2:41:01::'
       subcat:
       - vtaa
@@ -14314,6 +14656,8 @@ virilize:
     sense:
     - derivation:
       - 'virilization%1:22:00::'
+      event:
+      - 'virilization%1:22:00::'
       id: 'virilize%2:30:00::'
       subcat:
       - vtaa
@@ -14647,6 +14991,8 @@ visa:
       subcat:
       - vtai
       synset: 01000227-v
+      uses:
+      - 'visa%1:10:00::'
     - id: 'visa%2:32:01::'
       subcat:
       - vtai
@@ -15070,24 +15416,32 @@ visit:
     pronunciation:
     - value: ˈvɪzɪt
     sense:
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visitor%1:18:00::'
       - 'visitant%1:18:00::'
       id: 'visit%2:41:02::'
       subcat:
       - vtai
       synset: 02498679-v
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visitor%1:18:00::'
       - 'visiting%1:04:00::'
       id: 'visit%2:38:00::'
       subcat:
       - vtai
       synset: 01847631-v
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visit%1:04:02::'
       - 'visitor%1:18:00::'
       - 'visitant%1:18:00::'
+      event:
+      - 'visit%1:04:02::'
       id: 'visit%2:41:00::'
       sent:
       - Sam cannot visit Sue
@@ -15095,10 +15449,15 @@ visit:
       - via
       - vtaa
       synset: 02493222-v
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visit%1:14:00::'
       - 'visitation%1:04:00::'
       - 'visitor%1:18:00::'
+      event:
+      - 'visitation%1:04:00::'
+      - 'visit%1:14:00::'
       id: 'visit%2:38:01::'
       subcat:
       - vtai
@@ -15106,11 +15465,15 @@ visit:
       synset: 01847990-v
     - derivation:
       - 'visitation%1:11:00::'
+      event:
+      - 'visitation%1:11:00::'
       id: 'visit%2:32:01::'
       subcat:
       - vtai-on
       synset: 00750288-v
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visitor%1:18:00::'
       id: 'visit%2:32:00::'
       sent:
@@ -15119,14 +15482,20 @@ visit:
       subcat:
       - via
       synset: 01040538-v
-    - derivation:
+    - agent:
+      - 'visitor%1:18:00::'
+      derivation:
       - 'visit%1:04:03::'
       - 'visitor%1:18:00::'
+      event:
+      - 'visit%1:04:03::'
       id: 'visit%2:42:04::'
       subcat:
       - vtaa
       synset: 02625504-v
     - derivation:
+      - 'visitation%1:11:01::'
+      event:
       - 'visitation%1:11:01::'
       id: 'visit%2:30:00::'
       subcat:
@@ -15412,6 +15781,8 @@ visualise:
     - derivation:
       - 'visualisation%1:09:00::'
       id: 'visualise%2:36:02::'
+      result:
+      - 'visualisation%1:09:00::'
       subcat:
       - via
       synset: 01639550-v
@@ -15450,10 +15821,14 @@ visualization:
 visualize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'visualizer%1:18:00::'
+      derivation:
       - 'visualization%1:09:00::'
       - 'visualizer%1:18:00::'
       id: 'visualize%2:36:00::'
+      result:
+      - 'visualization%1:09:00::'
       sent:
       - Did he visualize his major works over a short period of time?
       subcat:
@@ -15578,10 +15953,14 @@ vitalise:
       - vtai
       - vtii
       synset: 00164911-v
-    - derivation:
+    - agent:
+      - 'vitaliser%1:18:00::'
+      derivation:
       - 'vitalisation%1:26:00::'
       - 'vitaliser%1:18:00::'
       id: 'vitalise%2:30:00::'
+      state:
+      - 'vitalisation%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -15648,13 +16027,17 @@ vitalize:
       - vtai
       - vtii
       synset: 00164911-v
-    - antonym:
+    - agent:
+      - 'vitalizer%1:18:00::'
+      antonym:
       - 'devitalize%2:30:00::'
       derivation:
       - vital%5:00:00:animated:00
       - 'vitalization%1:26:00::'
       - 'vitalizer%1:18:00::'
       id: 'vitalize%2:30:00::'
+      state:
+      - 'vitalization%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -15879,6 +16262,8 @@ vitiate:
       synset: 00478872-v
     - derivation:
       - 'vitiation%1:04:00::'
+      event:
+      - 'vitiation%1:04:00::'
       id: 'vitiate%2:30:00::'
       subcat:
       - vtai
@@ -15993,11 +16378,15 @@ vitrify:
     - derivation:
       - 'vitrification%1:27:00::'
       id: 'vitrify%2:30:01::'
+      result:
+      - 'vitrification%1:27:00::'
       subcat:
       - vtai
       - vtii
       synset: 00538972-v
     - derivation:
+      - 'vitrification%1:22:00::'
+      event:
       - 'vitrification%1:22:00::'
       id: 'vitrify%2:30:00::'
       subcat:
@@ -16071,6 +16460,8 @@ vituperate:
     sense:
     - derivation:
       - vituperative%5:00:00:critical:01
+      - 'vituperation%1:10:00::'
+      event:
       - 'vituperation%1:10:00::'
       id: 'vituperate%2:32:00::'
       subcat:
@@ -16240,6 +16631,8 @@ vivify:
     sense:
     - derivation:
       - 'vivification%1:04:00::'
+      event:
+      - 'vivification%1:04:00::'
       id: 'vivify%2:29:00::'
       subcat:
       - vtaa
@@ -16248,6 +16641,8 @@ vivify:
     - derivation:
       - 'vivification%1:07:00::'
       id: 'vivify%2:30:01::'
+      property:
+      - 'vivification%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -16271,6 +16666,8 @@ vivisect:
   v:
     sense:
     - derivation:
+      - 'vivisection%1:04:00::'
+      event:
       - 'vivisection%1:04:00::'
       id: 'vivisect%2:35:00::'
       subcat:
@@ -16484,7 +16881,9 @@ vocalisation:
 vocalise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vocaliser%1:18:00::'
+      derivation:
       - 'vocaliser%1:18:00::'
       id: 'vocalise%2:36:00::'
       subcat:
@@ -16499,10 +16898,14 @@ vocalise:
       subcat:
       - vtai
       synset: 00980401-v
-    - derivation:
+    - agent:
+      - 'vocaliser%1:18:01::'
+      derivation:
       - 'vocalisation%1:10:00::'
       - 'vocaliser%1:18:01::'
       id: 'vocalise%2:32:02::'
+      result:
+      - 'vocalisation%1:10:00::'
       subcat:
       - vtai
       synset: 00954214-v
@@ -16560,15 +16963,22 @@ vocalize:
     - value: ˈvoʊ.kə.laɪz
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'vocalizer%1:18:01::'
+      - 'vocalizer%1:18:00::'
+      derivation:
       - 'vocalization%1:10:00::'
       - 'vocalizer%1:18:01::'
       - 'vocalizer%1:18:00::'
       id: 'vocalize%2:32:02::'
+      result:
+      - 'vocalization%1:10:00::'
       subcat:
       - vtai
       synset: 00954214-v
-    - derivation:
+    - agent:
+      - 'vocalizer%1:18:00::'
+      derivation:
       - 'vocal%3:01:02::'
       - 'vocalizer%1:18:00::'
       - 'vocalizing%1:04:00::'
@@ -16590,10 +17000,14 @@ vocalize:
       subcat:
       - vtai
       synset: 00980401-v
-    - derivation:
+    - agent:
+      - 'vocalizer%1:18:01::'
+      derivation:
       - 'vocal%3:01:00::'
       - 'vocalization%1:10:01::'
       - 'vocalizer%1:18:01::'
+      event:
+      - 'vocalization%1:10:01::'
       id: 'vocalize%2:32:04::'
       subcat:
       - via
@@ -16721,7 +17135,9 @@ vociferate:
     pronunciation:
     - value: vəʊˈsɪfəɹeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'vociferator%1:18:00::'
+      derivation:
       - 'vociferator%1:18:00::'
       id: 'vociferate%2:32:01::'
       subcat:
@@ -16836,7 +17252,9 @@ voice:
       synset: 92417423-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'voicer%1:18:00::'
+      derivation:
       - 'voice%1:04:00::'
       - 'voice%1:10:01::'
       - 'voicer%1:18:00::'
@@ -16845,10 +17263,17 @@ voice:
       - vtai
       - vtii
       synset: 00935365-v
+      uses:
+      - 'voice%1:04:00::'
+      - 'voice%1:10:01::'
     - antonym:
       - 'devoice%2:32:00::'
+      by_means_of:
+      - 'voice%1:07:01::'
       derivation:
       - 'voice%1:07:01::'
+      - 'voice%1:10:00::'
+      event:
       - 'voice%1:10:00::'
       id: 'voice%2:32:01::'
       subcat:
@@ -16990,10 +17415,14 @@ void:
       synset: 13933131-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'voider%1:18:00::'
+      derivation:
       - voidable%5:00:00:revocable:00
       - 'void%1:26:00::'
       - 'voider%1:18:00::'
+      event:
+      - 'void%1:26:00::'
       id: 'void%2:41:00::'
       subcat:
       - vtai
@@ -17002,6 +17431,8 @@ void:
     - derivation:
       - 'void%1:25:00::'
       id: 'void%2:30:04::'
+      result:
+      - 'void%1:25:00::'
       subcat:
       - vtai
       synset: 00451258-v
@@ -17012,9 +17443,13 @@ void:
       - vtai
       - vtii
       synset: 00449395-v
-    - derivation:
+    - agent:
+      - 'voider%1:18:01::'
+      derivation:
       - 'voider%1:18:01::'
       - 'voiding%1:22:00::'
+      - 'voidance%1:04:00::'
+      event:
       - 'voidance%1:04:00::'
       id: 'void%2:29:00::'
       subcat:
@@ -17357,6 +17792,8 @@ volley:
     sense:
     - derivation:
       - 'volley%1:04:00::'
+      event:
+      - 'volley%1:04:00::'
       id: 'volley%2:38:01::'
       subcat:
       - vii
@@ -17364,17 +17801,23 @@ volley:
       synset: 02033337-v
     - derivation:
       - 'volley%1:04:01::'
+      event:
+      - 'volley%1:04:01::'
       id: 'volley%2:35:01::'
       subcat:
       - vtai
       synset: 01601176-v
     - derivation:
       - 'volley%1:04:00::'
+      event:
+      - 'volley%1:04:00::'
       id: 'volley%2:35:00::'
       subcat:
       - vtai
       synset: 01380236-v
     - derivation:
+      - 'volley%1:04:01::'
+      event:
       - 'volley%1:04:01::'
       id: 'volley%2:33:00::'
       subcat:
@@ -17754,7 +18197,9 @@ volunteer:
       subcat:
       - via-to-inf
       synset: 02429959-v
-    - derivation:
+    - agent:
+      - 'volunteer%1:18:00::'
+      derivation:
       - 'volunteer%1:18:00::'
       - 'voluntary%1:18:00::'
       id: 'volunteer%2:41:00::'
@@ -17925,18 +18370,26 @@ vomit:
     - value: ˈvɑmɪt
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'vomiter%1:18:00::'
+      antonym:
       - 'keep_down%2:29:00::'
+      by_means_of:
+      - 'vomit%1:06:00::'
       derivation:
       - 'vomit%1:04:00::'
       - 'vomit%1:06:00::'
       - 'vomit%1:27:00::'
       - 'vomiter%1:18:00::'
       - 'vomiting%1:04:00::'
+      event:
+      - 'vomit%1:04:00::'
       id: 'vomit%2:29:00::'
       subcat:
       - via
       synset: 00076153-v
+      undergoer:
+      - 'vomit%1:27:00::'
 vomit up:
   v:
     sense:
@@ -18048,7 +18501,10 @@ voodoo:
     pronunciation:
     - value: ˈvuːduː
     sense:
-    - derivation:
+    - by_means_of:
+      - 'voodoo%1:09:00::'
+      - 'voodoo%1:06:00::'
+      derivation:
       - 'voodoo%1:09:00::'
       - 'voodoo%1:06:00::'
       id: 'voodoo%2:32:00::'
@@ -18186,9 +18642,14 @@ vote:
     - value: voʊt
       variety: US
     sense:
-    - also:
+    - agent:
+      - 'voter%1:18:00::'
+      also:
       - 'vote_in%2:41:00::'
       - 'vote_out%2:41:00::'
+      by_means_of:
+      - 'vote%1:14:00::'
+      - 'vote%1:07:00::'
       derivation:
       - 'vote%1:09:00::'
       - 'vote%1:14:00::'
@@ -18197,18 +18658,30 @@ vote:
       - 'vote%1:04:00::'
       - 'voter%1:18:00::'
       - 'voting%1:04:00::'
+      event:
+      - 'vote%1:04:01::'
+      - 'vote%1:04:00::'
       id: 'vote%2:41:13::'
+      result:
+      - 'vote%1:09:00::'
       subcat:
       - via
       - via-pp
       synset: 02466737-v
-    - derivation:
+    - agent:
+      - 'voter%1:18:00::'
+      by_means_of:
+      - 'vote%1:14:00::'
+      derivation:
       - 'vote%1:09:00::'
       - 'vote%1:14:00::'
       - 'vote%1:04:01::'
       - 'vote%1:04:00::'
       - 'voter%1:18:00::'
       - 'voting%1:04:00::'
+      event:
+      - 'vote%1:04:01::'
+      - 'vote%1:04:00::'
       id: 'vote%2:41:10::'
       subcat:
       - vtai
@@ -18222,7 +18695,9 @@ vote:
       subcat:
       - vtai
       synset: 02479313-v
-    - derivation:
+    - agent:
+      - 'voter%1:18:00::'
+      derivation:
       - 'voter%1:18:00::'
       id: 'vote%2:41:12::'
       subcat:
@@ -18354,13 +18829,17 @@ vouch:
     pronunciation:
     - value: ˈvaʊtʃ
     sense:
-    - derivation:
+    - agent:
+      - 'voucher%1:18:00::'
+      derivation:
       - 'voucher%1:18:00::'
       id: 'vouch%2:32:01::'
       subcat:
       - via-pp
       synset: 01017113-v
-    - derivation:
+    - agent:
+      - 'voucher%1:18:00::'
+      derivation:
       - 'voucher%1:18:00::'
       id: 'vouch%2:32:12::'
       subcat:
@@ -18375,6 +18854,8 @@ vouch:
       subcat:
       - vtaa
       synset: 00793827-v
+      undergoer:
+      - 'vouchee%1:18:00::'
     - id: 'vouch%2:30:00::'
       subcat:
       - vtai
@@ -18434,9 +18915,13 @@ vow:
     pronunciation:
     - value: vaʊ
     sense:
-    - derivation:
+    - agent:
+      - 'vower%1:18:00::'
+      derivation:
       - 'vow%1:10:00::'
       - 'vower%1:18:00::'
+      event:
+      - 'vow%1:10:00::'
       id: 'vow%2:32:00::'
       sent:
       - They vow to move
@@ -18445,6 +18930,8 @@ vow:
       - via-to-inf
       synset: 00888280-v
     - derivation:
+      - 'vow%1:10:00::'
+      event:
       - 'vow%1:10:00::'
       id: 'vow%2:32:01::'
       subcat:
@@ -18559,10 +19046,15 @@ voyage:
     pronunciation:
     - value: ˈvɔɪ.ɪdʒ
     sense:
-    - derivation:
+    - agent:
+      - 'voyager%1:18:00::'
+      derivation:
       - 'voyage%1:04:01::'
       - 'voyage%1:04:00::'
       - 'voyager%1:18:00::'
+      event:
+      - 'voyage%1:04:01::'
+      - 'voyage%1:04:00::'
       id: 'voyage%2:38:00::'
       subcat:
       - via
@@ -18670,13 +19162,19 @@ vulcanise:
     sense:
     - derivation:
       - 'vulcanisation%1:22:00::'
+      event:
+      - 'vulcanisation%1:22:00::'
       id: 'vulcanise%2:30:00::'
       subcat:
       - vii
       synset: 00539123-v
-    - derivation:
+    - agent:
+      - 'vulcaniser%1:18:00::'
+      derivation:
       - 'vulcanisation%1:22:00::'
       - 'vulcaniser%1:18:00::'
+      event:
+      - 'vulcanisation%1:22:00::'
       id: 'vulcanise%2:30:01::'
       subcat:
       - vtai
@@ -18715,13 +19213,19 @@ vulcanize:
     sense:
     - derivation:
       - 'vulcanization%1:22:00::'
+      event:
+      - 'vulcanization%1:22:00::'
       id: 'vulcanize%2:30:00::'
       subcat:
       - vii
       synset: 00539123-v
-    - derivation:
+    - agent:
+      - 'vulcanizer%1:18:00::'
+      derivation:
       - 'vulcanization%1:22:00::'
       - 'vulcanizer%1:18:00::'
+      event:
+      - 'vulcanization%1:22:00::'
       id: 'vulcanize%2:30:01::'
       subcat:
       - vtai
@@ -18801,14 +19305,20 @@ vulgarisation:
 vulgarise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vulgariser%1:18:01::'
+      derivation:
       - 'vulgarisation%1:04:00::'
       - 'vulgariser%1:18:01::'
+      event:
+      - 'vulgarisation%1:04:00::'
       id: 'vulgarise%2:32:00::'
       subcat:
       - vtai
       synset: 00972247-v
     - derivation:
+      - 'vulgarisation%1:04:01::'
+      event:
       - 'vulgarisation%1:04:01::'
       id: 'vulgarise%2:30:01::'
       subcat:
@@ -18860,16 +19370,22 @@ vulgarization:
 vulgarize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'vulgarizer%1:18:01::'
+      derivation:
       - vulgar%5:00:00:lowborn:00
       - 'vulgarization%1:04:00::'
       - 'vulgarizer%1:18:01::'
+      event:
+      - 'vulgarization%1:04:00::'
       id: 'vulgarize%2:32:00::'
       subcat:
       - vtai
       synset: 00972247-v
     - derivation:
       - vulgar%5:00:00:unrefined:01
+      - 'vulgarization%1:04:01::'
+      event:
       - 'vulgarization%1:04:01::'
       id: 'vulgarize%2:30:01::'
       subcat:

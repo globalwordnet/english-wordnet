@@ -5305,6 +5305,8 @@ kayak:
       subcat:
       - via
       synset: 01951594-v
+      vehicle:
+      - 'kayak%1:06:00::'
 kayo:
   n:
     sense:
@@ -5467,6 +5469,8 @@ keen:
     sense:
     - derivation:
       - 'keen%1:10:00::'
+      event:
+      - 'keen%1:10:00::'
       id: 'keen%2:37:00::'
       subcat:
       - vtai
@@ -5579,7 +5583,10 @@ keep:
       subcat:
       - vtai
       synset: 00734575-v
-    - derivation:
+    - agent:
+      - 'keeper%1:18:02::'
+      - 'keeper%1:18:00::'
+      derivation:
       - 'keeper%1:18:02::'
       - 'keeper%1:18:00::'
       - 'keeping%1:04:00::'
@@ -5613,6 +5620,8 @@ keep:
       - vtia
       - vtii
       synset: 01187158-v
+      uses:
+      - 'keep%1:21:00::'
     - id: 'keep%2:42:03::'
       sent:
       - This food does keep well
@@ -5650,6 +5659,8 @@ keep:
     - derivation:
       - 'keep%1:06:01::'
       id: 'keep%2:35:10::'
+      location:
+      - 'keep%1:06:01::'
       subcat:
       - vtaa
       synset: 01304679-v
@@ -6286,6 +6297,8 @@ keratinise:
       synset: 00577937-v
     - derivation:
       - 'keratinisation%1:22:00::'
+      event:
+      - 'keratinisation%1:22:00::'
       id: 'keratinise%2:30:00::'
       subcat:
       - vii
@@ -6309,6 +6322,8 @@ keratinize:
       - vtii
       synset: 00577937-v
     - derivation:
+      - 'keratinization%1:22:00::'
+      event:
       - 'keratinization%1:22:00::'
       id: 'keratinize%2:30:00::'
       subcat:
@@ -6866,7 +6881,11 @@ key:
       subcat:
       - vtaa
       synset: 02343223-v
+      uses:
+      - 'key%1:06:00::'
     - derivation:
+      - 'key%1:06:00::'
+      instrument:
       - 'key%1:06:00::'
       id: 'key%2:35:00::'
       subcat:
@@ -6879,6 +6898,9 @@ key:
       subcat:
       - vtai-pp
       synset: 00484587-v
+      undergoer:
+      - 'key%1:07:00::'
+      - 'key%1:10:00::'
     - id: 'key%2:30:00::'
       subcat:
       - vtaa-pp
@@ -7052,12 +7074,16 @@ keynote:
       subcat:
       - vtii
       synset: 00299969-v
+      undergoer:
+      - 'keynote%1:09:00::'
     - derivation:
       - 'keynote%1:10:01::'
       id: 'keynote%2:32:00::'
       subcat:
       - vtai
       synset: 00770310-v
+      undergoer:
+      - 'keynote%1:10:01::'
 keynote address:
   n:
     sense:
@@ -7272,7 +7298,9 @@ kibitz:
     pronunciation:
     - value: ˈkɪbɪts
     sense:
-    - derivation:
+    - agent:
+      - 'kibitzer%1:18:00::'
+      derivation:
       - 'kibitzer%1:18:00::'
       id: 'kibitz%2:32:00::'
       subcat:
@@ -7318,10 +7346,14 @@ kick:
       synset: 00337631-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'kicker%1:18:00::'
+      derivation:
       - 'kick%1:04:00::'
       - 'kicker%1:18:00::'
       - 'kicking%1:04:00::'
+      event:
+      - 'kick%1:04:00::'
       id: 'kick%2:35:01::'
       subcat:
       - vtai
@@ -7329,6 +7361,8 @@ kick:
       - vtii
       synset: 01374421-v
     - derivation:
+      - 'kick%1:04:01::'
+      event:
       - 'kick%1:04:01::'
       id: 'kick%2:38:00::'
       subcat:
@@ -7343,6 +7377,8 @@ kick:
       derivation:
       - 'kick%1:04:00::'
       - 'kicking%1:04:00::'
+      event:
+      - 'kick%1:04:00::'
       id: 'kick%2:35:00::'
       sent:
       - They want to kick the prisoners
@@ -7355,6 +7391,8 @@ kick:
       - via
       synset: 02052460-v
     - derivation:
+      - 'kick%1:11:00::'
+      event:
       - 'kick%1:11:00::'
       id: 'kick%2:35:08::'
       subcat:
@@ -7370,6 +7408,8 @@ kick:
       - vtai
       synset: 01115404-v
     - derivation:
+      - 'kick%1:10:00::'
+      event:
       - 'kick%1:10:00::'
       id: 'kick%2:32:00::'
       subcat:
@@ -7688,7 +7728,9 @@ kidnap:
     pronunciation:
     - value: ˈkɪdnæp
     sense:
-    - derivation:
+    - agent:
+      - 'kidnapper%1:18:00::'
+      derivation:
       - 'kidnapper%1:18:00::'
       - 'kidnapping%1:04:00::'
       - 'kidnaper%1:18:00::'
@@ -7845,8 +7887,12 @@ kill:
       synset: 01325752-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'killer%1:18:00::'
+      also:
       - 'kill_off%2:35:00::'
+      by_means_of:
+      - 'killer%1:26:00::'
       derivation:
       - killable%5:00:00:edible:00
       - 'kill%1:04:00::'
@@ -7855,6 +7901,8 @@ kill:
       - 'killing%1:11:00::'
       - 'killing%1:04:00::'
       - 'kill%1:05:00::'
+      event:
+      - 'kill%1:04:00::'
       id: 'kill%2:35:00::'
       sent:
       - They want to kill the prisoners
@@ -7874,11 +7922,15 @@ kill:
       synset: 00355692-v
     - derivation:
       - 'kill%1:04:00::'
+      event:
+      - 'kill%1:04:00::'
       id: 'kill%2:42:00::'
       subcat:
       - vii
       synset: 02754370-v
-    - derivation:
+    - by_means_of:
+      - 'killer%1:09:00::'
+      derivation:
       - 'killer%1:09:00::'
       id: 'kill%2:39:00::'
       subcat:
@@ -7900,15 +7952,21 @@ kill:
       synset: 01409889-v
     - derivation:
       - 'kill%1:04:00::'
+      event:
+      - 'kill%1:04:00::'
       id: 'kill%2:35:02::'
       subcat:
       - vtai
       - vtia
       synset: 01328456-v
-    - derivation:
+    - by_means_of:
+      - 'killer%1:26:00::'
+      derivation:
       - 'kill%1:04:00::'
       - 'killer%1:26:00::'
       - 'killing%1:11:00::'
+      event:
+      - 'kill%1:04:00::'
       id: 'kill%2:35:01::'
       subcat:
       - vtia
@@ -7927,6 +7985,8 @@ kill:
       - vtia
       synset: 00356178-v
     - derivation:
+      - 'kill%1:04:01::'
+      event:
       - 'kill%1:04:01::'
       id: 'kill%2:30:03::'
       subcat:
@@ -9038,6 +9098,8 @@ kink:
     - derivation:
       - 'kink%1:25:00::'
       id: 'kink%2:35:00::'
+      result:
+      - 'kink%1:25:00::'
       sent:
       - They kink their hair
       subcat:
@@ -9046,6 +9108,8 @@ kink:
     - derivation:
       - 'kink%1:25:00::'
       id: 'kink%2:30:00::'
+      result:
+      - 'kink%1:25:00::'
       subcat:
       - vii
       synset: 00362781-v
@@ -9168,6 +9232,8 @@ kip:
     sense:
     - derivation:
       - 'kip%1:28:00::'
+      event:
+      - 'kip%1:28:00::'
       id: 'kip%2:29:00::'
       subcat:
       - via
@@ -9262,10 +9328,14 @@ kiss:
       synset: 00138898-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'kisser%1:18:00::'
+      derivation:
       - 'kiss%1:04:00::'
       - 'kisser%1:18:00::'
       - 'kissing%1:04:00::'
+      event:
+      - 'kiss%1:04:00::'
       id: 'kiss%2:35:00::'
       sent:
       - Sam cannot kiss Sue
@@ -9277,6 +9347,8 @@ kiss:
       - vtai-pp
       synset: 01433863-v
     - derivation:
+      - 'kiss%1:04:01::'
+      event:
       - 'kiss%1:04:01::'
       id: 'kiss%2:35:01::'
       subcat:
@@ -9371,6 +9443,9 @@ kit:
       - vtaa-with
       - vtai
       synset: 02346196-v
+      uses:
+      - 'kit%1:06:00::'
+      - 'kit%1:06:01::'
 kit and boodle:
   n:
     sense:
@@ -9532,13 +9607,17 @@ kite:
     pronunciation:
     - value: kaɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'kite%1:21:01::'
+      derivation:
       - 'kite%1:21:01::'
       id: 'kite%2:40:01::'
       subcat:
       - vtai
       synset: 02211095-v
-    - derivation:
+    - by_means_of:
+      - 'kite%1:21:00::'
+      derivation:
       - 'kite%1:21:00::'
       id: 'kite%2:40:00::'
       subcat:
@@ -9556,6 +9635,8 @@ kite:
       - via
       - vtai
       synset: 01852132-v
+      undergoer:
+      - 'kite%1:06:00::'
 kite balloon:
   n:
     sense:
@@ -9617,6 +9698,8 @@ kitten:
     - derivation:
       - 'kitten%1:05:00::'
       id: 'kitten%2:29:00::'
+      result:
+      - 'kitten%1:05:00::'
       subcat:
       - vii
       synset: 00057849-v
@@ -10042,12 +10125,18 @@ kneel:
     pronunciation:
     - value: niːl
     sense:
-    - derivation:
+    - agent:
+      - 'kneeler%1:18:00::'
+      derivation:
       - 'kneeler%1:18:00::'
       - 'kneeler%1:06:00::'
       - 'kneeling%1:04:00::'
       - 'kneel%1:04:00::'
+      event:
+      - 'kneel%1:04:00::'
       id: 'kneel%2:35:00::'
+      location:
+      - 'kneeler%1:06:00::'
       sent:
       - The children kneel in the rocking chair
       - There kneel some children in the rocking chair
@@ -10094,11 +10183,15 @@ knell:
     sense:
     - derivation:
       - 'knell%1:11:00::'
+      event:
+      - 'knell%1:11:00::'
       id: 'knell%2:39:00::'
       subcat:
       - vii
       synset: 02186311-v
     - derivation:
+      - 'knell%1:11:00::'
+      event:
       - 'knell%1:11:00::'
       id: 'knell%2:39:01::'
       subcat:
@@ -10159,6 +10252,9 @@ knife:
     - value: naɪf
     sense:
     - derivation:
+      - 'knife%1:06:01::'
+      - 'knife%1:06:00::'
+      instrument:
       - 'knife%1:06:01::'
       - 'knife%1:06:00::'
       id: 'knife%2:35:00::'
@@ -10226,7 +10322,9 @@ knight:
       synset: 03629976-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'knight%1:18:00::'
+      derivation:
       - 'knight%1:18:00::'
       id: 'knight%2:41:01::'
       subcat:
@@ -10324,7 +10422,11 @@ knit:
     pronunciation:
     - value: ˈnɪt
     sense:
-    - derivation:
+    - agent:
+      - 'knitter%1:18:00::'
+      by_means_of:
+      - 'knit%1:06:01::'
+      derivation:
       - 'knit%1:06:00::'
       - 'knit%1:06:01::'
       - 'knit%1:06:02::'
@@ -10332,6 +10434,9 @@ knit:
       - 'knitting%1:06:00::'
       - 'knitting%1:04:00::'
       id: 'knit%2:36:00::'
+      result:
+      - 'knit%1:06:00::'
+      - 'knit%1:06:02::'
       sent:
       - They knit the cape
       subcat:
@@ -10341,6 +10446,8 @@ knit:
     - derivation:
       - 'knit%1:06:00::'
       id: 'knit%2:36:01::'
+      result:
+      - 'knit%1:06:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -10514,15 +10621,22 @@ knock:
       derivation:
       - 'knock%1:04:00::'
       - 'knock%1:11:00::'
+      event:
+      - 'knock%1:04:00::'
+      - 'knock%1:11:00::'
       id: 'knock%2:35:04::'
       subcat:
       - vtaa
       - vtai
       synset: 01241204-v
-    - derivation:
+    - agent:
+      - 'knocker%1:18:01::'
+      derivation:
       - 'knock%1:11:01::'
       - 'knocker%1:18:01::'
       - 'knocking%1:11:00::'
+      event:
+      - 'knock%1:11:01::'
       id: 'knock%2:35:01::'
       subcat:
       - via-pp
@@ -10538,6 +10652,8 @@ knock:
       synset: 01242183-v
     - derivation:
       - 'knock%1:11:01::'
+      event:
+      - 'knock%1:11:01::'
       id: 'knock%2:39:00::'
       subcat:
       - via-pp
@@ -10546,6 +10662,8 @@ knock:
     - derivation:
       - 'knock%1:11:01::'
       - 'knocking%1:11:00::'
+      event:
+      - 'knock%1:11:01::'
       id: 'knock%2:39:01::'
       subcat:
       - vii
@@ -10882,12 +11000,16 @@ knot:
     - derivation:
       - 'knot%1:25:00::'
       id: 'knot%2:36:00::'
+      result:
+      - 'knot%1:25:00::'
       subcat:
       - vtai
       synset: 01677627-v
     - derivation:
       - 'knot%1:06:00::'
       id: 'knot%2:35:00::'
+      result:
+      - 'knot%1:06:00::'
       subcat:
       - vtai
       synset: 01302730-v
@@ -10896,6 +11018,8 @@ knot:
       derivation:
       - 'knot%1:25:00::'
       id: 'knot%2:35:02::'
+      result:
+      - 'knot%1:25:00::'
       subcat:
       - vii
       - vtai
@@ -10986,7 +11110,9 @@ know:
     - value: noʊ
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'knower%1:18:00::'
+      antonym:
       - 'ignore%2:31:01::'
       derivation:
       - 'knowable%3:00:00::'
@@ -11281,7 +11407,9 @@ knuckle:
     pronunciation:
     - value: ˈnʌkəl
     sense:
-    - derivation:
+    - by_means_of:
+      - 'knuckle%1:08:00::'
+      derivation:
       - 'knuckle%1:08:00::'
       id: 'knuckle%2:35:00::'
       subcat:
@@ -11669,12 +11797,16 @@ kowtow:
     sense:
     - derivation:
       - 'kowtow%1:10:00::'
+      event:
+      - 'kowtow%1:10:00::'
       id: 'kowtow%2:38:00::'
       subcat:
       - via
       - via-pp
       synset: 02044554-v
     - derivation:
+      - 'kowtow%1:10:00::'
+      event:
       - 'kowtow%1:10:00::'
       id: 'kowtow%2:32:00::'
       subcat:

@@ -275,6 +275,8 @@ FTP:
     sense:
     - derivation:
       - 'ftp%1:10:00::'
+      instrument:
+      - 'ftp%1:10:00::'
       id: 'ftp%2:40:00::'
       subcat:
       - vtai
@@ -5889,15 +5891,24 @@ fabricate:
       - 'fabrication%1:04:03::'
       - 'fabrication%1:04:01::'
       - 'fabrication%1:04:00::'
+      event:
+      - 'fabrication%1:04:03::'
+      - 'fabrication%1:04:01::'
+      - 'fabrication%1:04:00::'
       id: 'fabricate%2:36:01::'
       subcat:
       - vtai
       - vtii
       synset: 01656984-v
-    - derivation:
+    - agent:
+      - 'fabricator%1:18:00::'
+      derivation:
       - 'fabrication%1:10:00::'
       - 'fabrication%1:04:02::'
       - 'fabricator%1:18:00::'
+      event:
+      - 'fabrication%1:10:00::'
+      - 'fabrication%1:04:02::'
       id: 'fabricate%2:36:00::'
       subcat:
       - vtai
@@ -6042,6 +6053,8 @@ face:
       - 'face_off%2:33:00::'
       derivation:
       - 'face%1:07:02::'
+      event:
+      - 'face%1:07:02::'
       id: 'face%2:33:00::'
       subcat:
       - vtaa
@@ -6079,6 +6092,9 @@ face:
       subcat:
       - vtai
       synset: 02142380-v
+      undergoer:
+      - 'face%1:06:01::'
+      - 'face%1:15:00::'
     - derivation:
       - 'facing%1:06:01::'
       id: 'face%2:35:00::'
@@ -6094,6 +6110,8 @@ face:
       subcat:
       - vtai
       synset: 01273753-v
+      undergoer:
+      - 'face%1:06:00::'
 face angle:
   n:
     sense:
@@ -6504,17 +6522,25 @@ facilitate:
     pronunciation:
     - value: fəˈsɪlɪteɪt
     sense:
-    - derivation:
+    - agent:
+      - 'facilitator%1:18:00::'
+      derivation:
       - facilitative%5:00:00:helpful:00
       - 'facilitation%1:26:00::'
       - 'facilitation%1:04:00::'
       - 'facilitator%1:18:00::'
+      event:
+      - 'facilitation%1:04:00::'
       id: 'facilitate%2:30:00::'
+      state:
+      - 'facilitation%1:26:00::'
       subcat:
       - vtai
       - vtii
       synset: 00519475-v
     - derivation:
+      - 'facilitation%1:04:00::'
+      event:
       - 'facilitation%1:04:00::'
       id: 'facilitate%2:42:00::'
       subcat:
@@ -6525,6 +6551,8 @@ facilitate:
       synset: 02741772-v
     - derivation:
       - facilitatory%5:00:00:helpful:00
+      - 'facilitation%1:19:00::'
+      event:
       - 'facilitation%1:19:00::'
       id: 'facilitate%2:36:03::'
       subcat:
@@ -6633,6 +6661,8 @@ facsimile:
     sense:
     - derivation:
       - 'facsimile%1:06:01::'
+      - 'facsimile%1:06:00::'
+      instrument:
       - 'facsimile%1:06:00::'
       id: 'facsimile%2:32:00::'
       subcat:
@@ -6747,7 +6777,13 @@ factor:
       - 'factorization%1:09:00::'
       - 'factorisation%1:09:00::'
       - 'factoring%1:09:00::'
+      event:
+      - 'factorization%1:09:00::'
+      - 'factorisation%1:09:00::'
       id: 'factor%2:31:00::'
+      result:
+      - 'factor%1:23:00::'
+      - 'factor%1:23:01::'
       subcat:
       - vtai
       synset: 00642047-v
@@ -6930,6 +6966,8 @@ factorise:
     sense:
     - derivation:
       - 'factorisation%1:09:00::'
+      event:
+      - 'factorisation%1:09:00::'
       id: 'factorise%2:31:00::'
       subcat:
       - vtai
@@ -6950,7 +6988,14 @@ factorize:
       - 'factor%1:23:01::'
       - 'factor%1:23:00::'
       - 'factor%1:09:00::'
+      event:
+      - 'factorization%1:09:00::'
       id: 'factorize%2:31:00::'
+      result:
+      - 'factor%1:23:01::'
+      - 'factor%1:23:00::'
+      state:
+      - 'factor%1:09:00::'
       subcat:
       - vtai
       synset: 00735273-v
@@ -7164,6 +7209,8 @@ fade:
   v:
     sense:
     - derivation:
+      - 'fade%1:04:00::'
+      event:
       - 'fade%1:04:00::'
       id: 'fade%2:30:02::'
       subcat:
@@ -7646,6 +7693,8 @@ faint:
   v:
     sense:
     - derivation:
+      - 'faint%1:11:00::'
+      event:
       - 'faint%1:11:00::'
       id: 'faint%2:29:00::'
       subcat:
@@ -8212,27 +8261,40 @@ fake:
       synset: 00173038-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'fake%1:18:00::'
+      derivation:
       - 'fake%1:18:00::'
       - 'fake%1:06:00::'
       - 'fakery%1:04:00::'
       id: 'fake%2:36:00::'
+      result:
+      - 'fake%1:06:00::'
       subcat:
       - vtai
       synset: 01657814-v
-    - derivation:
+    - agent:
+      - 'faker%1:18:00::'
+      - 'fake%1:18:00::'
+      derivation:
       - 'fake%1:06:00::'
       - 'fake%1:18:00::'
       - 'faker%1:18:00::'
       - 'fakery%1:04:00::'
       id: 'fake%2:41:00::'
+      result:
+      - 'fake%1:06:00::'
       subcat:
       - vtai
       synset: 02583006-v
-    - derivation:
+    - agent:
+      - 'faker%1:18:00::'
+      derivation:
       - 'fake%1:06:00::'
       - 'faker%1:18:00::'
       id: 'fake%2:32:00::'
+      result:
+      - 'fake%1:06:00::'
       subcat:
       - via
       - via-on-inanim
@@ -8357,7 +8419,11 @@ falcon:
     - value: ˈfoːlkən
       variety: NZ
     sense:
-    - derivation:
+    - agent:
+      - 'falconer%1:18:00::'
+      by_means_of:
+      - 'falcon%1:05:00::'
+      derivation:
       - 'falcon%1:05:00::'
       - 'falconer%1:18:00::'
       - 'falconry%1:09:00::'
@@ -8477,8 +8543,13 @@ fall:
       variety: US
     - value: fɑl
     sense:
-    - derivation:
+    - agent:
       - 'faller%1:18:00::'
+      derivation:
+      - 'faller%1:18:00::'
+      - 'fall%1:11:00::'
+      - 'fall%1:04:01::'
+      event:
       - 'fall%1:11:00::'
       - 'fall%1:04:01::'
       id: 'fall%2:38:03::'
@@ -8491,6 +8562,8 @@ fall:
       antonym:
       - 'rise%2:38:00::'
       derivation:
+      - 'fall%1:11:04::'
+      event:
       - 'fall%1:11:04::'
       id: 'fall%2:38:00::'
       sent:
@@ -8521,6 +8594,9 @@ fall:
     - derivation:
       - 'fall%1:04:02::'
       - 'fall%1:11:01::'
+      event:
+      - 'fall%1:04:02::'
+      - 'fall%1:11:01::'
       id: 'fall%2:41:02::'
       subcat:
       - via
@@ -8537,6 +8613,8 @@ fall:
       synset: 02618011-v
     - derivation:
       - 'fall%1:04:02::'
+      event:
+      - 'fall%1:04:02::'
       id: 'fall%2:40:05::'
       subcat:
       - vii
@@ -8547,6 +8625,8 @@ fall:
       synset: 00343098-v
     - derivation:
       - 'fall%1:07:00::'
+      event:
+      - 'fall%1:07:00::'
       id: 'fall%2:30:06::'
       subcat:
       - vii
@@ -8554,11 +8634,16 @@ fall:
     - derivation:
       - 'fall%1:11:03::'
       - 'fall%1:04:03::'
+      event:
+      - 'fall%1:04:03::'
       id: 'fall%2:41:01::'
       subcat:
       - via
       synset: 02571826-v
     - derivation:
+      - 'fall%1:04:02::'
+      - 'fall%1:11:01::'
+      event:
       - 'fall%1:04:02::'
       - 'fall%1:11:01::'
       id: 'fall%2:41:00::'
@@ -8580,6 +8665,8 @@ fall:
       - vii-pp
       synset: 02667093-v
     - derivation:
+      - 'fall%1:04:03::'
+      event:
       - 'fall%1:04:03::'
       id: 'fall%2:41:15::'
       subcat:
@@ -8604,6 +8691,8 @@ fall:
       synset: 02234332-v
     - derivation:
       - 'fall%1:17:00::'
+      event:
+      - 'fall%1:17:00::'
       id: 'fall%2:38:11::'
       subcat:
       - vii
@@ -8612,11 +8701,16 @@ fall:
     - derivation:
       - 'fall%1:04:01::'
       - 'fall%1:11:00::'
+      event:
+      - 'fall%1:04:01::'
+      - 'fall%1:11:00::'
       id: 'fall%2:38:15::'
       subcat:
       - via
       synset: 01988331-v
     - derivation:
+      - 'fall%1:04:01::'
+      event:
       - 'fall%1:04:01::'
       id: 'fall%2:38:14::'
       subcat:
@@ -9715,48 +9809,78 @@ falsify:
     pronunciation:
     - value: ˈfɒlsɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'falsifier%1:18:00::'
+      derivation:
       - 'falsification%1:04:02::'
       - 'falsity%1:26:00::'
       - 'falsity%1:10:00::'
       - 'falsifier%1:18:00::'
+      event:
+      - 'falsification%1:04:02::'
+      - 'falsity%1:26:00::'
+      - 'falsity%1:10:00::'
       id: 'falsify%2:32:00::'
       subcat:
       - vtai
       synset: 00837582-v
-    - derivation:
+    - agent:
+      - 'falsifier%1:18:00::'
+      derivation:
       - 'falsification%1:04:02::'
       - 'falsification%1:04:00::'
       - 'falsity%1:26:00::'
       - 'falsifier%1:18:00::'
+      event:
+      - 'falsification%1:04:02::'
+      - 'falsification%1:04:00::'
       id: 'falsify%2:41:00::'
+      result:
+      - 'falsity%1:26:00::'
       subcat:
       - vtai
       synset: 02583006-v
-    - derivation:
+    - by_means_of:
+      - 'falsification%1:09:00::'
+      derivation:
       - 'falsification%1:09:00::'
       - 'falsity%1:26:00::'
       - 'falsifying%1:04:00::'
+      event:
+      - 'falsifying%1:04:00::'
       id: 'falsify%2:31:00::'
+      result:
+      - 'falsity%1:26:00::'
       subcat:
       - vtai
       - vtii
       synset: 00669860-v
-    - antonym:
+    - agent:
+      - 'falsifier%1:18:00::'
+      antonym:
       - 'correct%2:30:00::'
       derivation:
       - 'falsification%1:04:02::'
       - 'falsity%1:26:00::'
       - 'falsity%1:10:00::'
       - 'falsifier%1:18:00::'
+      event:
+      - 'falsification%1:04:02::'
+      - 'falsity%1:10:00::'
       id: 'falsify%2:30:00::'
+      result:
+      - 'falsity%1:26:00::'
       subcat:
       - vtai
       - vtii
       synset: 00202600-v
-    - derivation:
+    - agent:
+      - 'falsifier%1:18:00::'
+      derivation:
       - 'falsification%1:04:02::'
       - 'falsifier%1:18:00::'
+      event:
+      - 'falsification%1:04:02::'
       id: 'falsify%2:30:03::'
       subcat:
       - vtai
@@ -9825,6 +9949,8 @@ falter:
       - via-pp
       synset: 01905126-v
     - derivation:
+      - 'falter%1:04:00::'
+      event:
       - 'falter%1:04:00::'
       id: 'falter%2:32:00::'
       sent:
@@ -9963,6 +10089,8 @@ familiarise:
     sense:
     - derivation:
       - 'familiarisation%1:09:00::'
+      event:
+      - 'familiarisation%1:09:00::'
       id: 'familiarise%2:32:00::'
       subcat:
       - vtaa-with
@@ -10014,6 +10142,8 @@ familiarize:
   v:
     sense:
     - derivation:
+      - 'familiarization%1:09:00::'
+      event:
       - 'familiarization%1:09:00::'
       id: 'familiarize%2:32:00::'
       subcat:
@@ -16154,7 +16284,9 @@ fan:
       - vtai
       - vtii
       synset: 00228231-v
-    - derivation:
+    - by_means_of:
+      - 'fan%1:06:00::'
+      derivation:
       - 'fan%1:06:00::'
       id: 'fan%2:38:00::'
       subcat:
@@ -16385,10 +16517,16 @@ fancy:
       - via-that
       - vtai
       synset: 01638974-v
-    - derivation:
+      undergoer:
+      - 'fancy%1:09:02::'
+    - agent:
+      - 'fancier%1:18:00::'
+      derivation:
       - 'fancy%1:12:00::'
       - 'fancier%1:18:00::'
       id: 'fancy%2:37:00::'
+      property:
+      - 'fancy%1:12:00::'
       sent:
       - They fancy more bread
       - Sam cannot fancy Sue
@@ -16960,6 +17098,8 @@ fare:
       synset: 02623620-v
     - derivation:
       - 'fare%1:13:00::'
+      event:
+      - 'fare%1:13:00::'
       id: 'fare%2:34:00::'
       subcat:
       - via
@@ -17035,11 +17175,15 @@ farm:
       synset: 03327044-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'farmer%1:18:00::'
+      derivation:
       - 'farm%1:06:00::'
       - 'farmer%1:18:00::'
       - 'farming%1:04:01::'
       id: 'farm%2:41:00::'
+      location:
+      - 'farm%1:06:00::'
       subcat:
       - via
       synset: 02425332-v
@@ -17049,11 +17193,15 @@ farm:
       subcat:
       - vtai
       synset: 02223225-v
-    - derivation:
+    - agent:
+      - 'farmer%1:18:00::'
+      derivation:
       - 'farm%1:06:00::'
       - 'farmer%1:18:00::'
       - 'farming%1:04:00::'
       id: 'farm%2:36:00::'
+      location:
+      - 'farm%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -17307,6 +17455,8 @@ farrow:
     - derivation:
       - 'farrow%1:22:00::'
       - 'farrowing%1:22:00::'
+      event:
+      - 'farrow%1:22:00::'
       id: 'farrow%2:29:00::'
       subcat:
       - vii
@@ -17373,6 +17523,8 @@ fart:
     - derivation:
       - 'fart%1:04:00::'
       - 'farting%1:04:00::'
+      event:
+      - 'fart%1:04:00::'
       id: 'fart%2:29:00::'
       subcat:
       - via
@@ -17512,18 +17664,26 @@ fascinate:
     pronunciation:
     - value: ˈfæsɪneɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'fascination%1:07:00::'
+      derivation:
       - 'fascination%1:26:00::'
       - 'fascination%1:07:00::'
       id: 'fascinate%2:42:00::'
+      state:
+      - 'fascination%1:26:00::'
       subcat:
       - vtaa
       - vtia
       synset: 02684649-v
-    - derivation:
+    - by_means_of:
+      - 'fascination%1:07:00::'
+      derivation:
       - 'fascination%1:26:00::'
       - 'fascination%1:07:00::'
       id: 'fascinate%2:37:00::'
+      state:
+      - 'fascination%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -17533,6 +17693,8 @@ fascinate:
       id: 'fascinate%2:37:01::'
       sent:
       - The performance is likely to fascinate Sue
+      state:
+      - 'fascination%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -17806,6 +17968,8 @@ fast:
     - derivation:
       - 'fast%1:04:00::'
       - 'fasting%1:04:00::'
+      event:
+      - 'fast%1:04:00::'
       id: 'fast%2:34:01::'
       subcat:
       - via
@@ -17813,6 +17977,8 @@ fast:
     - derivation:
       - 'fast%1:04:00::'
       - 'fasting%1:04:00::'
+      event:
+      - 'fast%1:04:00::'
       id: 'fast%2:34:00::'
       subcat:
       - via
@@ -17925,12 +18091,16 @@ fasten:
     - value: ˈfæsən
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'fastener%1:18:00::'
+      antonym:
       - 'unfasten%2:35:01::'
       derivation:
       - 'fastener%1:18:00::'
       - 'fastener%1:06:00::'
       - 'fastening%1:04:00::'
+      instrument:
+      - 'fastener%1:06:00::'
       id: 'fasten%2:35:01::'
       subcat:
       - vtai
@@ -17942,6 +18112,8 @@ fasten:
       derivation:
       - 'fastener%1:06:00::'
       - 'fastening%1:06:00::'
+      instrument:
+      - 'fastener%1:06:00::'
       id: 'fasten%2:35:00::'
       subcat:
       - vii-pp
@@ -18142,10 +18314,14 @@ fat:
     - fatted
     - fatting
     sense:
-    - derivation:
+    - by_means_of:
+      - 'fat%1:08:00::'
+      derivation:
       - 'fat%1:08:00::'
       - 'fat%1:07:00::'
       id: 'fat%2:34:00::'
+      result:
+      - 'fat%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -18333,6 +18509,8 @@ fate:
     - derivation:
       - 'fate%1:18:00::'
       - 'fate%1:11:00::'
+      event:
+      - 'fate%1:11:00::'
       id: 'fate%2:32:00::'
       subcat:
       - vtaa-to-inf
@@ -18416,7 +18594,9 @@ father:
       variety: AU
     - value: ˈfæðəɹ
     sense:
-    - derivation:
+    - agent:
+      - 'father%1:18:00::'
+      derivation:
       - 'father%1:18:00::'
       id: 'father%2:29:00::'
       subcat:
@@ -18518,7 +18698,9 @@ fathom:
       - vtaa
       - vtai
       synset: 00730916-v
-    - derivation:
+    - by_means_of:
+      - 'fathom%1:23:01::'
+      derivation:
       - 'fathom%1:23:01::'
       id: 'fathom%2:30:00::'
       subcat:
@@ -18571,10 +18753,14 @@ fatigue:
     - derivation:
       - 'fatigue%1:12:00::'
       id: 'fatigue%2:29:01::'
+      result:
+      - 'fatigue%1:12:00::'
       subcat:
       - via
       synset: 00075867-v
     - derivation:
+      - 'fatigue%1:26:00::'
+      event:
       - 'fatigue%1:26:00::'
       id: 'fatigue%2:29:00::'
       sent:
@@ -18897,6 +19083,8 @@ fault:
     - derivation:
       - 'fault%1:07:01::'
       - 'fault%1:04:00::'
+      event:
+      - 'fault%1:04:00::'
       id: 'fault%2:32:00::'
       subcat:
       - vtaa
@@ -18905,6 +19093,8 @@ fault:
       - vtia
       - vtii
       synset: 00844217-v
+      undergoer:
+      - 'fault%1:07:01::'
 fault line:
   n:
     sense:
@@ -19106,6 +19296,8 @@ favor:
       sent:
       - Sam cannot favor Sue
       - The chefs favor the vegetables
+      state:
+      - 'favor%1:12:00::'
       subcat:
       - vtaa
       - vtai
@@ -19114,6 +19306,11 @@ favor:
       - 'favor%1:12:00::'
       - 'favor%1:07:00::'
       id: 'favor%2:31:00::'
+      result:
+      - 'favor%1:07:00::'
+      state:
+      - 'favor%1:12:00::'
+      - 'favor%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -19121,6 +19318,8 @@ favor:
       - vtii
       synset: 00693909-v
     - derivation:
+      - 'favor%1:04:00::'
+      event:
       - 'favor%1:04:00::'
       id: 'favor%2:41:01::'
       sent:
@@ -19134,6 +19333,8 @@ favor:
       id: 'favor%2:41:03::'
       sent:
       - They favor him to write the letter
+      state:
+      - 'favor%1:12:00::'
       subcat:
       - vtaa
       synset: 02459141-v
@@ -19274,6 +19475,8 @@ favour:
     - derivation:
       - 'favour%1:12:00::'
       id: 'favour%2:41:01::'
+      state:
+      - 'favour%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -19281,9 +19484,13 @@ favour:
     - derivation:
       - 'favour%1:12:00::'
       - 'favour%1:04:00::'
+      event:
+      - 'favour%1:04:00::'
       id: 'favour%2:41:03::'
       sent:
       - They favour him to write the letter
+      state:
+      - 'favour%1:12:00::'
       subcat:
       - vtaa
       synset: 02459141-v
@@ -19293,6 +19500,8 @@ favour:
       sent:
       - Sam cannot favour Sue
       - The chefs favour the vegetables
+      state:
+      - 'favour%1:12:00::'
       subcat:
       - vtaa
       - vtai
@@ -19414,13 +19623,17 @@ fawn:
       synset: 02433476-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'fawner%1:18:00::'
+      derivation:
       - 'fawner%1:18:00::'
       id: 'fawn%2:38:00::'
       subcat:
       - via-pp
       synset: 02067699-v
-    - derivation:
+    - agent:
+      - 'fawner%1:18:00::'
+      derivation:
       - 'fawner%1:18:00::'
       id: 'fawn%2:32:00::'
       sent:
@@ -19432,6 +19645,8 @@ fawn:
     - derivation:
       - 'fawn%1:05:00::'
       id: 'fawn%2:29:00::'
+      result:
+      - 'fawn%1:05:00::'
       subcat:
       - vii
       synset: 00058548-v
@@ -19475,6 +19690,8 @@ fax:
   v:
     sense:
     - derivation:
+      - 'fax%1:06:00::'
+      instrument:
       - 'fax%1:06:00::'
       id: 'fax%2:32:00::'
       sent:
@@ -19547,11 +19764,15 @@ fear:
       id: 'fear%2:37:03::'
       sent:
       - They fear that there was a traffic accident
+      state:
+      - 'fear%1:12:01::'
       subcat:
       - via-pp
       - via-that
       synset: 01784548-v
     - derivation:
+      - 'fear%1:12:00::'
+      event:
       - 'fear%1:12:00::'
       id: 'fear%2:37:00::'
       sent:
@@ -19568,12 +19789,16 @@ fear:
     - derivation:
       - 'fear%1:12:01::'
       id: 'fear%2:37:13::'
+      state:
+      - 'fear%1:12:01::'
       subcat:
       - vtai
       synset: 01784253-v
     - derivation:
       - 'fear%1:12:02::'
       id: 'fear%2:37:01::'
+      state:
+      - 'fear%1:12:02::'
       subcat:
       - vtaa
       - vtai
@@ -19752,6 +19977,10 @@ feast:
       - 'feast%1:13:00::'
       - 'feast%1:14:00::'
       - 'feasting%1:04:00::'
+      event:
+      - 'feast%1:11:01::'
+      - 'feast%1:13:00::'
+      - 'feast%1:14:00::'
       id: 'feast%2:34:00::'
       sent:
       - Sam and Sue feast
@@ -19763,13 +19992,20 @@ feast:
       - 'feast%1:11:01::'
       - 'feast%1:13:00::'
       - 'feast%1:14:00::'
+      event:
+      - 'feast%1:11:01::'
       id: 'feast%2:34:01::'
       sent:
       - Sam cannot feast Sue
       subcat:
       - vtaa
       synset: 01188741-v
+      uses:
+      - 'feast%1:13:00::'
+      - 'feast%1:14:00::'
     - derivation:
+      - 'feast%1:11:00::'
+      event:
       - 'feast%1:11:00::'
       id: 'feast%2:34:02::'
       subcat:
@@ -19841,6 +20077,8 @@ feather:
       synset: 01275362-v
     - derivation:
       - 'feather%1:04:00::'
+      event:
+      - 'feather%1:04:00::'
       id: 'feather%2:33:02::'
       subcat:
       - via
@@ -19848,6 +20086,8 @@ feather:
     - derivation:
       - 'feather%1:04:00::'
       - 'feathering%1:04:00::'
+      event:
+      - 'feather%1:04:00::'
       id: 'feather%2:33:00::'
       subcat:
       - via
@@ -20070,6 +20310,9 @@ feature:
       subcat:
       - vtii
       synset: 02636270-v
+      undergoer:
+      - 'feature%1:08:00::'
+      - 'feature%1:09:00::'
     - derivation:
       - 'feature%1:06:00::'
       - 'feature%1:10:01::'
@@ -20077,6 +20320,9 @@ feature:
       subcat:
       - vtii
       synset: 02637740-v
+      undergoer:
+      - 'feature%1:06:00::'
+      - 'feature%1:10:01::'
 feature article:
   n:
     sense:
@@ -20248,11 +20494,15 @@ fecundate:
     sense:
     - derivation:
       - 'fecundation%1:11:01::'
+      event:
+      - 'fecundation%1:11:01::'
       id: 'fecundate%2:30:00::'
       subcat:
       - vtai
       synset: 00505351-v
     - derivation:
+      - 'fecundation%1:11:00::'
+      event:
       - 'fecundation%1:11:00::'
       id: 'fecundate%2:29:00::'
       subcat:
@@ -20392,7 +20642,11 @@ federalise:
     - derivation:
       - 'federalisation%1:26:00::'
       - 'federalisation%1:04:00::'
+      event:
+      - 'federalisation%1:04:00::'
       id: 'federalise%2:30:01::'
+      state:
+      - 'federalisation%1:26:00::'
       subcat:
       - vtai
       synset: 00505545-v
@@ -20441,7 +20695,11 @@ federalize:
     - derivation:
       - 'federalization%1:26:00::'
       - 'federalization%1:04:00::'
+      event:
+      - 'federalization%1:04:00::'
       id: 'federalize%2:30:01::'
+      state:
+      - 'federalization%1:26:00::'
       subcat:
       - vtai
       synset: 00505545-v
@@ -20471,7 +20729,12 @@ federate:
       - 'federation%1:14:01::'
       - 'federation%1:14:00::'
       - 'federation%1:04:00::'
+      event:
+      - 'federation%1:04:00::'
       id: 'federate%2:30:00::'
+      result:
+      - 'federation%1:14:01::'
+      - 'federation%1:14:00::'
       subcat:
       - vtai
       synset: 00369847-v
@@ -20647,6 +20910,8 @@ feed:
       derivation:
       - 'feeder%1:06:00::'
       - 'feeding%1:04:01::'
+      instrument:
+      - 'feeder%1:06:00::'
       id: 'feed%2:34:01::'
       sent:
       - They feed the food to the people
@@ -20654,13 +20919,17 @@ feed:
       subcat:
       - vtaa
       synset: 01180862-v
-    - derivation:
+    - by_means_of:
+      - 'feeder%1:17:00::'
+      derivation:
       - 'feeder%1:17:00::'
       id: 'feed%2:34:03::'
       subcat:
       - vtii
       synset: 01183463-v
     - derivation:
+      - 'feeder%1:06:00::'
+      instrument:
       - 'feeder%1:06:00::'
       id: 'feed%2:30:01::'
       subcat:
@@ -20672,7 +20941,9 @@ feed:
       - vtai
       - vtii
       synset: 02561495-v
-    - derivation:
+    - agent:
+      - 'feeder%1:18:00::'
+      derivation:
       - 'feed%1:13:00::'
       - 'feeder%1:18:00::'
       - 'feeding%1:04:00::'
@@ -20683,9 +20954,13 @@ feed:
       - vii
       - vii-pp
       synset: 01182162-v
+      undergoer:
+      - 'feed%1:13:00::'
     - derivation:
       - 'feed%1:13:00::'
       id: 'feed%2:34:02::'
+      property:
+      - 'feed%1:13:00::'
       subcat:
       - vtia
       - vtii
@@ -20903,6 +21178,8 @@ feel:
     - derivation:
       - 'feel%1:09:00::'
       - 'feeling%1:09:03::'
+      event:
+      - 'feel%1:09:00::'
       id: 'feel%2:31:00::'
       sent:
       - They feel that there was a traffic accident
@@ -20913,6 +21190,8 @@ feel:
       - 'feel%1:07:00::'
       - 'feeling%1:09:01::'
       id: 'feel%2:39:00::'
+      property:
+      - 'feel%1:07:00::'
       subcat:
       - vtaa
       - vtai
@@ -20939,6 +21218,8 @@ feel:
       synset: 02115034-v
     - derivation:
       - 'feel%1:26:00::'
+      event:
+      - 'feel%1:26:00::'
       id: 'feel%2:42:00::'
       sent:
       - The cool air does feel good
@@ -20949,28 +21230,39 @@ feel:
     - derivation:
       - 'feel%1:07:00::'
       id: 'feel%2:39:10::'
+      property:
+      - 'feel%1:07:00::'
       sent:
       - The men feel the area for animals
       subcat:
       - vtaa
       - vtai
       synset: 02132078-v
-    - derivation:
+    - body_part:
+      - 'feeler%1:05:02::'
+      derivation:
       - 'feeler%1:05:02::'
       - 'feeler%1:05:01::'
       - 'feel%1:07:00::'
       - 'feeling%1:09:02::'
       id: 'feel%2:35:00::'
+      property:
+      - 'feel%1:07:00::'
       subcat:
       - vtai
       synset: 01212242-v
     - derivation:
       - 'feel%1:07:00::'
       id: 'feel%2:35:01::'
+      property:
+      - 'feel%1:07:00::'
       subcat:
       - vtai
       synset: 01212916-v
-    - derivation:
+    - body_part:
+      - 'feeler%1:05:02::'
+      - 'feeler%1:05:01::'
+      derivation:
       - 'feeler%1:05:02::'
       - 'feeler%1:05:01::'
       id: 'feel%2:40:00::'
@@ -20979,11 +21271,15 @@ feel:
       synset: 02290872-v
     - derivation:
       - 'feel%1:26:00::'
+      event:
+      - 'feel%1:26:00::'
       id: 'feel%2:39:09::'
       subcat:
       - vii-adj
       synset: 02138815-v
     - derivation:
+      - 'feel%1:04:00::'
+      event:
       - 'feel%1:04:00::'
       id: 'feel%2:35:11::'
       subcat:
@@ -21174,6 +21470,8 @@ feint:
     sense:
     - derivation:
       - 'feint%1:04:00::'
+      event:
+      - 'feint%1:04:00::'
       id: 'feint%2:36:00::'
       subcat:
       - vtaa
@@ -21218,6 +21516,9 @@ felicitate:
     sense:
     - derivation:
       - 'felicity%1:07:00::'
+      - 'felicitation%1:10:01::'
+      - 'felicitation%1:10:00::'
+      event:
       - 'felicitation%1:10:01::'
       - 'felicitation%1:10:00::'
       id: 'felicitate%2:32:00::'
@@ -21328,8 +21629,12 @@ fell:
       synset: 00223243-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'feller%1:18:01::'
+      derivation:
+      - 'feller%1:18:01::'
+      - 'fell%1:04:00::'
+      event:
       - 'fell%1:04:00::'
       id: 'fell%2:35:00::'
       sent:
@@ -21346,6 +21651,8 @@ fell:
     - derivation:
       - 'fell%1:06:00::'
       id: 'fell%2:35:02::'
+      result:
+      - 'fell%1:06:00::'
       subcat:
       - vtai
       synset: 01333919-v
@@ -21368,6 +21675,8 @@ fellate:
   v:
     sense:
     - derivation:
+      - 'fellation%1:04:00::'
+      event:
       - 'fellation%1:04:00::'
       id: 'fellate%2:39:00::'
       subcat:
@@ -21548,6 +21857,8 @@ felt:
     - derivation:
       - 'felt%1:06:00::'
       id: 'felt%2:35:01::'
+      result:
+      - 'felt%1:06:00::'
       subcat:
       - vtii
       synset: 01465841-v
@@ -21559,12 +21870,18 @@ felt:
       subcat:
       - vtai
       synset: 01319615-v
+      uses:
+      - 'felt%1:06:00::'
     - derivation:
       - 'felt%1:06:00::'
       id: 'felt%2:30:00::'
+      result:
+      - 'felt%1:06:00::'
       subcat:
       - vii
       synset: 00566669-v
+      uses:
+      - 'felt%1:06:00::'
 felt fern:
   n:
     sense:
@@ -21834,6 +22151,8 @@ feminise:
     sense:
     - derivation:
       - 'feminisation%1:22:00::'
+      event:
+      - 'feminisation%1:22:00::'
       id: 'feminise%2:30:01::'
       subcat:
       - via
@@ -21899,6 +22218,8 @@ feminize:
     - value: ˈfɛmɪnaɪz
     sense:
     - derivation:
+      - 'feminization%1:22:00::'
+      event:
       - 'feminization%1:22:00::'
       id: 'feminize%2:30:01::'
       subcat:
@@ -22033,7 +22354,9 @@ fence:
     pronunciation:
     - value: fɛns
     sense:
-    - derivation:
+    - by_means_of:
+      - 'fence%1:06:00::'
+      derivation:
       - 'fence%1:06:00::'
       - 'fencing%1:06:00::'
       id: 'fence%2:35:00::'
@@ -22041,25 +22364,35 @@ fence:
       - vtai
       - vtii
       synset: 01591055-v
-    - derivation:
+      uses:
+      - 'fence%1:06:00::'
+    - agent:
+      - 'fence%1:18:00::'
+      derivation:
       - 'fence%1:18:00::'
       id: 'fence%2:40:00::'
       subcat:
       - via
       synset: 02215536-v
-    - derivation:
+    - agent:
+      - 'fencer%1:18:00::'
+      derivation:
       - 'fencer%1:18:00::'
       - 'fencing%1:04:00::'
       id: 'fence%2:33:01::'
       subcat:
       - via
       synset: 01149384-v
-    - derivation:
+    - by_means_of:
+      - 'fence%1:06:00::'
+      derivation:
       - 'fence%1:06:00::'
       id: 'fence%2:33:00::'
       subcat:
       - vtai
       synset: 01133033-v
+      uses:
+      - 'fence%1:06:00::'
     - id: 'fence%2:32:00::'
       subcat:
       - via
@@ -22183,6 +22516,11 @@ fend:
       - via-pp
       synset: 02594278-v
     - derivation:
+      - 'fender%1:06:03::'
+      - 'fender%1:06:02::'
+      - 'fender%1:06:01::'
+      - 'fender%1:06:00::'
+      instrument:
       - 'fender%1:06:03::'
       - 'fender%1:06:02::'
       - 'fender%1:06:01::'
@@ -22462,6 +22800,8 @@ ferment:
     - derivation:
       - 'fermentation%1:26:00::'
       id: 'ferment%2:37:01::'
+      state:
+      - 'fermentation%1:26:00::'
       subcat:
       - via
       - vii
@@ -22469,25 +22809,39 @@ ferment:
     - derivation:
       - 'fermentation%1:26:00::'
       id: 'ferment%2:37:00::'
+      state:
+      - 'fermentation%1:26:00::'
       subcat:
       - vtaa
       - vtai
       - vtia
       - vtii
       synset: 01765377-v
-    - derivation:
+    - by_means_of:
+      - 'ferment%1:27:00::'
+      - 'ferment%1:22:00::'
+      derivation:
       - 'fermentation%1:22:00::'
       - 'ferment%1:27:00::'
       - 'ferment%1:22:00::'
       - 'fermenting%1:22:00::'
+      event:
+      - 'fermentation%1:22:00::'
+      - 'ferment%1:22:00::'
       id: 'ferment%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00459709-v
-    - derivation:
+    - by_means_of:
+      - 'ferment%1:27:00::'
+      - 'ferment%1:22:00::'
+      derivation:
       - 'fermentation%1:22:00::'
       - 'ferment%1:27:00::'
+      - 'ferment%1:22:00::'
+      event:
+      - 'fermentation%1:22:00::'
       - 'ferment%1:22:00::'
       id: 'ferment%2:30:00::'
       subcat:
@@ -22836,12 +23190,16 @@ ferry:
     sense:
     - derivation:
       - 'ferry%1:04:00::'
+      event:
+      - 'ferry%1:04:00::'
       id: 'ferry%2:38:02::'
       subcat:
       - vtaa-pp
       - vtai-pp
       synset: 01953533-v
-    - derivation:
+    - by_means_of:
+      - 'ferry%1:06:00::'
+      derivation:
       - 'ferry%1:06:00::'
       - 'ferrying%1:04:00::'
       id: 'ferry%2:38:01::'
@@ -22855,6 +23213,8 @@ ferry:
       subcat:
       - via-pp
       synset: 01953077-v
+      vehicle:
+      - 'ferry%1:06:00::'
 ferryboat:
   n:
     pronunciation:
@@ -23003,7 +23363,11 @@ fertilize:
     - derivation:
       - 'fertilization%1:11:01::'
       - 'fertilizer%1:27:00::'
+      event:
+      - 'fertilization%1:11:01::'
       id: 'fertilize%2:30:00::'
+      material:
+      - 'fertilizer%1:27:00::'
       sent:
       - They fertilize the trees
       subcat:
@@ -23012,10 +23376,14 @@ fertilize:
     - derivation:
       - 'fertilizer%1:27:00::'
       id: 'fertilize%2:30:01::'
+      material:
+      - 'fertilizer%1:27:00::'
       subcat:
       - vtai
       synset: 00505351-v
     - derivation:
+      - 'fertilization%1:11:00::'
+      event:
       - 'fertilization%1:11:00::'
       id: 'fertilize%2:29:00::'
       subcat:
@@ -23187,8 +23555,12 @@ fester:
     - value: ˈfɛstɚ
       variety: US
     sense:
-    - derivation:
+    - body_part:
+      - 'fester%1:26:00::'
+      derivation:
       - 'festering%1:22:00::'
+      - 'fester%1:26:00::'
+      event:
       - 'fester%1:26:00::'
       id: 'fester%2:29:00::'
       subcat:
@@ -23207,6 +23579,8 @@ festinate:
   v:
     sense:
     - derivation:
+      - 'festination%1:26:00::'
+      event:
       - 'festination%1:26:00::'
       id: 'festinate%2:30:00::'
       subcat:
@@ -23263,7 +23637,10 @@ festoon:
     pronunciation:
     - value: fɛsˈtuːn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'festoon%1:06:00::'
+      - 'festoon%1:06:01::'
+      derivation:
       - 'festoon%1:06:00::'
       - 'festoon%1:06:01::'
       - 'festoonery%1:06:00::'
@@ -23390,6 +23767,8 @@ fete:
     - value: feɪt
     sense:
     - derivation:
+      - 'fete%1:11:00::'
+      event:
       - 'fete%1:11:00::'
       id: 'fete%2:41:00::'
       subcat:
@@ -23578,6 +23957,8 @@ fetter:
     sense:
     - derivation:
       - 'fetter%1:06:00::'
+      instrument:
+      - 'fetter%1:06:00::'
       id: 'fetter%2:35:00::'
       sent:
       - They want to fetter the prisoners
@@ -23663,6 +24044,8 @@ feud:
   v:
     sense:
     - derivation:
+      - 'feud%1:04:00::'
+      event:
       - 'feud%1:04:00::'
       id: 'feud%2:33:00::'
       subcat:
@@ -23962,7 +24345,9 @@ fib:
     - fibbed
     - fibbing
     sense:
-    - derivation:
+    - agent:
+      - 'fibber%1:18:00::'
+      derivation:
       - 'fibber%1:18:00::'
       - 'fibbing%1:04:00::'
       - 'fib%1:10:00::'
@@ -23970,6 +24355,8 @@ fib:
       subcat:
       - via
       synset: 00836973-v
+      undergoer:
+      - 'fib%1:10:00::'
 fibber:
   n:
     sense:
@@ -24158,6 +24545,8 @@ fibrillate:
   v:
     sense:
     - derivation:
+      - 'fibrillation%1:26:00::'
+      event:
       - 'fibrillation%1:26:00::'
       id: 'fibrillate%2:29:00::'
       subcat:
@@ -24481,7 +24870,11 @@ fictionalise:
     - derivation:
       - 'fictionalisation%1:10:00::'
       - 'fictionalisation%1:04:00::'
+      event:
+      - 'fictionalisation%1:04:00::'
       id: 'fictionalise%2:30:00::'
+      result:
+      - 'fictionalisation%1:10:00::'
       subcat:
       - vtai
       synset: 00116427-v
@@ -24511,7 +24904,13 @@ fictionalize:
       - 'fictionalization%1:04:00::'
       - 'fiction%1:10:01::'
       - 'fiction%1:10:00::'
+      event:
+      - 'fictionalization%1:04:00::'
       id: 'fictionalize%2:36:00::'
+      result:
+      - 'fictionalization%1:10:00::'
+      - 'fiction%1:10:01::'
+      - 'fiction%1:10:00::'
       subcat:
       - vtai
       synset: 01638718-v
@@ -24594,18 +24993,24 @@ fiddle:
       subcat:
       - via
       synset: 02297950-v
-    - derivation:
+    - agent:
+      - 'fiddler%1:18:00::'
+      derivation:
       - 'fiddle%1:06:00::'
       - 'fiddler%1:18:00::'
       id: 'fiddle%2:36:00::'
       subcat:
       - via
       synset: 01737548-v
+      undergoer:
+      - 'fiddle%1:06:00::'
     - id: 'fiddle%2:36:02::'
       subcat:
       - vtai
       synset: 01728768-v
-    - derivation:
+    - agent:
+      - 'fiddler%1:18:02::'
+      derivation:
       - 'fiddler%1:18:02::'
       id: 'fiddle%2:35:00::'
       subcat:
@@ -24615,7 +25020,9 @@ fiddle:
       subcat:
       - vtai
       synset: 01588939-v
-    - derivation:
+    - agent:
+      - 'fiddler%1:18:01::'
+      derivation:
       - 'fiddler%1:18:01::'
       id: 'fiddle%2:30:00::'
       subcat:
@@ -24713,6 +25120,8 @@ fidget:
     - value: ˈfɪdʒ.ɪt
     sense:
     - derivation:
+      - 'fidget%1:12:00::'
+      event:
       - 'fidget%1:12:00::'
       id: 'fidget%2:38:00::'
       subcat:
@@ -24851,7 +25260,9 @@ field:
     - value: fild
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'fielder%1:18:01::'
+      derivation:
       - 'fielder%1:18:01::'
       - 'field%1:15:02::'
       - 'fielding%1:04:00::'
@@ -24859,7 +25270,10 @@ field:
       subcat:
       - vtai
       synset: 01084683-v
-    - derivation:
+    - agent:
+      - 'fielder%1:18:01::'
+      - 'fielder%1:18:00::'
+      derivation:
       - 'field%1:15:02::'
       - 'fielder%1:18:01::'
       - 'fielder%1:18:00::'
@@ -25887,7 +26301,9 @@ fight:
     pronunciation:
     - value: faɪt
     sense:
-    - also:
+    - agent:
+      - 'fighter%1:18:00::'
+      also:
       - 'fight_off%2:33:00::'
       derivation:
       - 'fight%1:04:03::'
@@ -25896,6 +26312,10 @@ fight:
       - 'fighter%1:18:00::'
       - 'fighter%1:06:00::'
       - 'fighting%1:04:00::'
+      event:
+      - 'fight%1:04:03::'
+      - 'fight%1:04:01::'
+      - 'fight%1:04:02::'
       id: 'fight%2:33:00::'
       sent:
       - Sam and Sue fight
@@ -25905,23 +26325,35 @@ fight:
       - via-pp
       - vtaa
       synset: 01092746-v
-    - derivation:
+      vehicle:
+      - 'fighter%1:06:00::'
+    - agent:
+      - 'fighter%1:18:00::'
+      derivation:
       - 'fight%1:10:00::'
       - 'fighter%1:18:00::'
       - 'fighter%1:06:00::'
+      event:
+      - 'fight%1:10:00::'
       id: 'fight%2:33:01::'
       subcat:
       - via
       - vtaa
       - vtai
       synset: 01093838-v
+      vehicle:
+      - 'fighter%1:06:00::'
     - derivation:
       - 'fight%1:07:00::'
       id: 'fight%2:41:00::'
+      property:
+      - 'fight%1:07:00::'
       subcat:
       - via-pp
       synset: 02412468-v
-    - derivation:
+    - agent:
+      - 'fighter%1:18:02::'
+      derivation:
       - 'fighter%1:18:02::'
       id: 'fight%2:41:10::'
       subcat:
@@ -26137,12 +26569,16 @@ figure:
       synset: 02728082-v
     - derivation:
       - 'figuration%1:04:01::'
+      event:
+      - 'figuration%1:04:01::'
       id: 'figure%2:36:00::'
       subcat:
       - via-that
       - vtai
       synset: 01638974-v
-    - also:
+    - agent:
+      - 'figurer%1:18:00::'
+      also:
       - 'figure_out%2:31:00::'
       derivation:
       - 'figure%1:07:01::'
@@ -26150,6 +26586,10 @@ figure:
       - 'figurer%1:18:00::'
       - 'figuring%1:09:00::'
       id: 'figure%2:31:00::'
+      property:
+      - 'figure%1:07:01::'
+      result:
+      - 'figure%1:21:00::'
       subcat:
       - via-that
       - vtai
@@ -26443,6 +26883,8 @@ file:
       subcat:
       - vtai
       synset: 01003902-v
+      undergoer:
+      - 'file%1:10:00::'
     - derivation:
       - 'filing%1:04:01::'
       id: 'file%2:35:00::'
@@ -26455,10 +26897,14 @@ file:
       derivation:
       - 'file%1:14:00::'
       id: 'file%2:38:00::'
+      result:
+      - 'file%1:14:00::'
       subcat:
       - via-pp
       synset: 01924041-v
-    - derivation:
+    - agent:
+      - 'filer%1:18:00::'
+      derivation:
       - 'file%1:06:01::'
       - 'file%1:10:00::'
       - 'filer%1:18:00::'
@@ -26468,7 +26914,9 @@ file:
       - vtaa
       - vtaa-with
       synset: 00871595-v
-    - derivation:
+    - agent:
+      - 'filer%1:18:01::'
+      derivation:
       - 'file%1:10:00::'
       - 'file%1:06:01::'
       - 'filer%1:18:01::'
@@ -26479,6 +26927,8 @@ file:
       subcat:
       - vtai
       synset: 01003688-v
+      undergoer:
+      - 'file%1:10:00::'
 file allocation table:
   n:
     sense:
@@ -26624,7 +27074,9 @@ filet:
     - value: ˈfɪlɪt
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'filet%1:06:00::'
+      derivation:
       - 'filet%1:06:00::'
       id: 'filet%2:36:00::'
       subcat:
@@ -26634,6 +27086,9 @@ filet:
       - 'filet%1:13:02::'
       - 'filet%1:13:01::'
       id: 'filet%2:35:00::'
+      result:
+      - 'filet%1:13:02::'
+      - 'filet%1:13:01::'
       subcat:
       - vtai
       synset: 01251858-v
@@ -26679,6 +27134,8 @@ filiate:
     sense:
     - derivation:
       - 'filiation%1:24:00::'
+      event:
+      - 'filiation%1:24:00::'
       id: 'filiate%2:31:00::'
       subcat:
       - vtai
@@ -26715,7 +27172,12 @@ filibuster:
     - value: ˈfɪləbʌstɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'filibuster%1:18:00::'
+      - 'filibusterer%1:18:00::'
+      by_means_of:
+      - 'filibuster%1:04:00::'
+      derivation:
       - 'filibuster%1:04:00::'
       - 'filibuster%1:18:00::'
       - 'filibusterer%1:18:00::'
@@ -26820,6 +27282,10 @@ fill:
       - 'fill_out%2:34:00::'
       antonym:
       - 'empty%2:30:01::'
+      by_means_of:
+      - 'filler%1:10:00::'
+      - 'filler%1:06:01::'
+      - 'fill%1:27:00::'
       derivation:
       - 'fill%1:27:00::'
       - 'filler%1:10:00::'
@@ -26827,6 +27293,8 @@ fill:
       - 'filler%1:06:00::'
       - 'filling%1:04:00::'
       id: 'fill%2:30:01::'
+      material:
+      - 'filler%1:06:00::'
       sent:
       - They fill the cart with boxes
       subcat:
@@ -26836,6 +27304,8 @@ fill:
       synset: 00453467-v
     - antonym:
       - 'empty%2:30:00::'
+      by_means_of:
+      - 'fill%1:27:00::'
       derivation:
       - 'fill%1:27:00::'
       - 'filling%1:22:00::'
@@ -26867,7 +27337,9 @@ fill:
       subcat:
       - vtaa
       synset: 01206513-v
-    - derivation:
+    - by_means_of:
+      - 'fill%1:23:00::'
+      derivation:
       - 'fill%1:23:00::'
       id: 'fill%2:34:00::'
       subcat:
@@ -26875,11 +27347,15 @@ fill:
       - vtaa
       - vtia
       synset: 01196254-v
-    - derivation:
+    - by_means_of:
+      - 'fill%1:27:00::'
+      derivation:
       - 'fill%1:27:00::'
       - 'filler%1:27:00::'
       - 'filling%1:06:01::'
       id: 'fill%2:30:02::'
+      material:
+      - 'filler%1:27:00::'
       subcat:
       - vtai
       synset: 00262419-v
@@ -27079,6 +27555,9 @@ fillet:
       - 'fillet%1:13:02::'
       - 'fillet%1:13:01::'
       id: 'fillet%2:35:00::'
+      result:
+      - 'fillet%1:13:02::'
+      - 'fillet%1:13:01::'
       subcat:
       - vtai
       synset: 01251858-v
@@ -27159,12 +27638,16 @@ film:
     pronunciation:
     - value: fɪlm
     sense:
-    - derivation:
+    - by_means_of:
+      - 'film%1:10:00::'
+      derivation:
       - 'film%1:06:01::'
       - 'film%1:10:00::'
       - 'film%1:10:01::'
       - 'filming%1:04:00::'
       id: 'film%2:32:00::'
+      result:
+      - 'film%1:10:01::'
       sent:
       - Sam and Sue film the movie
       subcat:
@@ -27172,12 +27655,17 @@ film:
       - vtaa
       - vtai
       synset: 01004785-v
-    - derivation:
+    - by_means_of:
+      - 'film%1:10:00::'
+      - 'film%1:06:01::'
+      derivation:
       - 'film%1:10:00::'
       - 'film%1:06:01::'
       - 'film%1:10:01::'
       - 'filming%1:04:00::'
       id: 'film%2:36:00::'
+      result:
+      - 'film%1:10:01::'
       sent:
       - Did he film his major works over a short period of time?
       - They will film the duet
@@ -27381,12 +27869,20 @@ filter:
       - 'filtration%1:22:00::'
       - 'filtration%1:04:00::'
       - 'filtrate%1:27:00::'
+      event:
+      - 'filtration%1:22:00::'
+      - 'filtration%1:04:00::'
+      instrument:
+      - 'filter%1:06:00::'
       id: 'filter%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01461293-v
     - derivation:
+      - 'filtration%1:22:00::'
+      - 'filtration%1:04:00::'
+      event:
       - 'filtration%1:22:00::'
       - 'filtration%1:04:00::'
       id: 'filter%2:35:01::'
@@ -27527,7 +28023,11 @@ filtrate:
     - derivation:
       - 'filter%1:06:00::'
       - 'filtrate%1:27:00::'
+      instrument:
+      - 'filter%1:06:00::'
       id: 'filtrate%2:35:00::'
+      result:
+      - 'filtrate%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -27611,8 +28111,14 @@ fin:
       subcat:
       - vtai
       synset: 02230693-v
-    - derivation:
+      uses:
+      - 'fin%1:06:03::'
+    - by_means_of:
       - 'fin%1:05:00::'
+      derivation:
+      - 'fin%1:05:00::'
+      - 'fin%1:06:02::'
+      instrument:
       - 'fin%1:06:02::'
       id: 'fin%2:38:01::'
       subcat:
@@ -27662,7 +28168,9 @@ finagle:
     pronunciation:
     - value: fɪˈneɪ.ɡəl
     sense:
-    - derivation:
+    - agent:
+      - 'finagler%1:18:00::'
+      derivation:
       - 'finagler%1:18:00::'
       id: 'finagle%2:41:00::'
       subcat:
@@ -27793,6 +28301,8 @@ finalise:
     sense:
     - derivation:
       - 'finalisation%1:04:00::'
+      event:
+      - 'finalisation%1:04:00::'
       id: 'finalise%2:30:00::'
       subcat:
       - vtai
@@ -27824,6 +28334,8 @@ finalize:
     - value: ˈfaɪ.nə.laɪz
     sense:
     - derivation:
+      - 'finalization%1:04:00::'
+      event:
       - 'finalization%1:04:00::'
       id: 'finalize%2:30:00::'
       subcat:
@@ -27876,6 +28388,9 @@ finance:
       - 'finance%1:09:00::'
       - 'finance%1:04:00::'
       - 'financing%1:04:00::'
+      event:
+      - 'finance%1:04:01::'
+      - 'finance%1:04:00::'
       id: 'finance%2:40:00::'
       sent:
       - Sam and Sue finance the movie
@@ -27883,6 +28398,9 @@ finance:
       - vtai
       synset: 02222048-v
     - derivation:
+      - 'finance%1:04:01::'
+      - 'finance%1:04:00::'
+      event:
       - 'finance%1:04:01::'
       - 'finance%1:04:00::'
       id: 'finance%2:40:01::'
@@ -28050,7 +28568,9 @@ financier:
     - value: f(a)ɪnænˈsɪəɹ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'financier%1:18:00::'
+      derivation:
       - 'financier%1:18:00::'
       id: 'financier%2:41:00::'
       subcat:
@@ -28103,32 +28623,45 @@ find:
     pronunciation:
     - value: faɪnd
     sense:
-    - derivation:
+    - agent:
+      - 'finder%1:18:00::'
+      derivation:
       - 'find%1:04:00::'
       - 'finder%1:18:00::'
+      event:
+      - 'find%1:04:00::'
       id: 'find%2:40:02::'
       sent:
       - They find the money in the closet
       subcat:
       - vtai
       synset: 02253273-v
-    - derivation:
+    - agent:
+      - 'finder%1:18:00::'
+      derivation:
       - 'find%1:04:00::'
       - 'finder%1:18:00::'
       - 'finding%1:17:00::'
       - 'finding%1:04:00::'
+      event:
+      - 'find%1:04:00::'
       id: 'find%2:39:02::'
       subcat:
       - via-that
       - vtaa
       - vtai
       synset: 02158938-v
-    - antonym:
+    - agent:
+      - 'finder%1:18:01::'
+      - 'finder%1:18:00::'
+      antonym:
       - 'lose%2:40:01::'
       derivation:
       - 'finder%1:18:01::'
       - 'find%1:04:00::'
       - 'finder%1:18:00::'
+      event:
+      - 'find%1:04:00::'
       id: 'find%2:40:00::'
       sent:
       - They find the money in the closet
@@ -28140,6 +28673,8 @@ find:
       - 'find%1:09:00::'
       - 'finding%1:17:00::'
       id: 'find%2:32:00::'
+      result:
+      - 'find%1:09:00::'
       subcat:
       - via-whether-inf
       - vtai
@@ -28150,7 +28685,9 @@ find:
       subcat:
       - via-that
       synset: 00717144-v
-    - derivation:
+    - agent:
+      - 'finder%1:18:00::'
+      derivation:
       - 'finder%1:18:00::'
       id: 'find%2:39:01::'
       subcat:
@@ -28166,7 +28703,11 @@ find:
       - 'find%1:09:00::'
       - 'find%1:04:00::'
       - 'finding%1:17:00::'
+      event:
+      - 'find%1:04:00::'
       id: 'find%2:36:00::'
+      result:
+      - 'find%1:09:00::'
       subcat:
       - via-that
       - vtai
@@ -28206,7 +28747,9 @@ find:
 find fault:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'faultfinder%1:18:00::'
+      derivation:
       - 'faultfinder%1:18:00::'
       id: 'find_fault%2:32:10::'
       subcat:
@@ -28360,6 +28903,8 @@ fine:
     - derivation:
       - 'fine%1:21:00::'
       id: 'fine%2:41:00::'
+      result:
+      - 'fine%1:21:00::'
       subcat:
       - vtaa
       synset: 02504365-v
@@ -28596,7 +29141,11 @@ finger:
     - value: ˈfɪŋɡɚ
       variety: US
     sense:
-    - derivation:
+    - body_part:
+      - 'finger%1:08:00::'
+      by_means_of:
+      - 'finger%1:08:00::'
+      derivation:
       - 'finger%1:08:00::'
       - 'fingering%1:04:00::'
       id: 'finger%2:35:00::'
@@ -28604,7 +29153,11 @@ finger:
       - vtaa
       - vtai
       synset: 01212517-v
-    - derivation:
+    - body_part:
+      - 'finger%1:08:00::'
+      by_means_of:
+      - 'finger%1:08:00::'
+      derivation:
       - 'finger%1:08:00::'
       - 'fingering%1:04:00::'
       id: 'finger%2:35:05::'
@@ -28615,7 +29168,9 @@ finger:
       subcat:
       - vtaa
       synset: 01317233-v
-    - derivation:
+    - body_part:
+      - 'finger%1:08:00::'
+      derivation:
       - 'finger%1:08:00::'
       - 'fingering%1:04:02::'
       id: 'finger%2:32:00::'
@@ -28857,11 +29412,15 @@ fingerprint:
       - 'fingerprint%1:10:01::'
       - 'fingerprinting%1:04:00::'
       id: 'fingerprint%2:36:00::'
+      result:
+      - 'fingerprint%1:10:01::'
       sent:
       - They want to fingerprint the prisoners
       subcat:
       - vtai
       synset: 01752556-v
+      undergoer:
+      - 'fingerprint%1:07:00::'
 fingerprint expert:
   n:
     sense:
@@ -28989,12 +29548,18 @@ finish:
     pronunciation:
     - value: ˈfɪnɪʃ
     sense:
-    - derivation:
+    - agent:
+      - 'finisher%1:18:02::'
+      derivation:
       - 'finisher%1:18:02::'
       - 'finish%1:11:02::'
       - 'finish%1:28:00::'
       - 'finish%1:04:00::'
       - 'finishing%1:04:00::'
+      event:
+      - 'finish%1:11:02::'
+      - 'finish%1:28:00::'
+      - 'finish%1:04:00::'
       id: 'finish%2:30:02::'
       sent:
       - They finish moving
@@ -29010,12 +29575,19 @@ finish:
       - 'finish%1:11:02::'
       - 'finish%1:28:00::'
       - 'finish%1:04:00::'
+      event:
+      - 'finish%1:11:02::'
+      - 'finish%1:28:00::'
+      - 'finish%1:04:00::'
       id: 'finish%2:42:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02615799-v
-    - derivation:
+    - agent:
+      - 'finisher%1:18:01::'
+      - 'finisher%1:18:00::'
+      derivation:
       - 'finish%1:07:00::'
       - 'finisher%1:18:01::'
       - 'finisher%1:18:00::'
@@ -29024,6 +29596,8 @@ finish:
       subcat:
       - vtai
       synset: 01268553-v
+      uses:
+      - 'finish%1:07:00::'
     - id: 'finish%2:34:00::'
       sent:
       - They finish more bread
@@ -29031,6 +29605,9 @@ finish:
       - vtai
       synset: 01199335-v
     - derivation:
+      - 'finish%1:11:02::'
+      - 'finish%1:28:00::'
+      event:
       - 'finish%1:11:02::'
       - 'finish%1:28:00::'
       id: 'finish%2:30:03::'
@@ -29324,6 +29901,8 @@ fire:
     - derivation:
       - 'fire%1:04:00::'
       - 'firing%1:04:03::'
+      event:
+      - 'fire%1:04:00::'
       id: 'fire%2:33:01::'
       subcat:
       - via
@@ -29332,11 +29911,15 @@ fire:
     - derivation:
       - 'fire%1:04:00::'
       - 'firing%1:04:02::'
+      event:
+      - 'fire%1:04:00::'
       id: 'fire%2:33:00::'
       subcat:
       - vtai
       synset: 01136251-v
     - derivation:
+      - 'fire%1:22:00::'
+      event:
       - 'fire%1:22:00::'
       id: 'fire%2:30:00::'
       subcat:
@@ -29352,6 +29935,8 @@ fire:
       - vtaa-to-inf
       synset: 02407967-v
     - derivation:
+      - 'fire%1:04:00::'
+      event:
       - 'fire%1:04:00::'
       id: 'fire%2:33:02::'
       subcat:
@@ -29371,6 +29956,9 @@ fire:
       - 'fire%1:06:00::'
       - 'fire%1:22:00::'
       - 'fire%1:11:00::'
+      event:
+      - 'fire%1:22:00::'
+      - 'fire%1:11:00::'
       id: 'fire%2:30:01::'
       sent:
       - They fire the trees
@@ -29381,6 +29969,8 @@ fire:
       - vtii
       synset: 00379335-v
     - derivation:
+      - 'fire%1:22:00::'
+      event:
       - 'fire%1:22:00::'
       id: 'fire%2:40:00::'
       subcat:
@@ -29785,6 +30375,8 @@ firebomb:
   v:
     sense:
     - derivation:
+      - 'firebomb%1:06:00::'
+      instrument:
       - 'firebomb%1:06:00::'
       id: 'firebomb%2:33:00::'
       subcat:
@@ -30754,7 +31346,9 @@ fish:
       subcat:
       - via
       synset: 01322006-v
-    - derivation:
+    - agent:
+      - 'fisher%1:18:00::'
+      derivation:
       - 'fish%1:13:00::'
       - 'fish%1:05:00::'
       - 'fisher%1:18:00::'
@@ -30770,6 +31364,8 @@ fish:
       - via-pp
       - vtai
       synset: 01143220-v
+      undergoer:
+      - 'fish%1:05:00::'
 fish and chips:
   n:
     sense:
@@ -31331,6 +31927,9 @@ fissure:
       - 'fissure%1:17:00::'
       - 'fissure%1:25:00::'
       id: 'fissure%2:30:00::'
+      result:
+      - 'fissure%1:17:00::'
+      - 'fissure%1:25:00::'
       subcat:
       - vtai
       - vtii
@@ -31364,6 +31963,8 @@ fistfight:
     - value: ˈfɪstˌfaɪt
     sense:
     - derivation:
+      - 'fistfight%1:04:00::'
+      event:
       - 'fistfight%1:04:00::'
       id: 'fistfight%2:33:00::'
       subcat:
@@ -31476,7 +32077,9 @@ fit:
     - fitted
     - fitting
     sense:
-    - derivation:
+    - agent:
+      - 'fitter%1:18:00::'
+      derivation:
       - 'fitter%1:18:00::'
       id: 'fit%2:42:05::'
       subcat:
@@ -31486,16 +32089,22 @@ fit:
       - 'fit%1:07:00::'
       - 'fitting%1:04:00::'
       id: 'fit%2:42:02::'
+      property:
+      - 'fit%1:07:00::'
       sent:
       - These cars won't fit
       subcat:
       - vii
       synset: 02665841-v
-    - derivation:
+    - agent:
+      - 'fitter%1:18:00::'
+      derivation:
       - 'fit%1:07:00::'
       - 'fitter%1:18:00::'
       - 'fitting%1:11:00::'
       id: 'fit%2:30:01::'
+      property:
+      - 'fit%1:07:00::'
       sent:
       - They fit the cape
       subcat:
@@ -31917,11 +32526,15 @@ fix:
     pronunciation:
     - value: ˈfɪks
     sense:
-    - derivation:
+    - agent:
+      - 'fixer%1:18:01::'
+      derivation:
       - 'fix%1:04:00::'
       - 'fixture%1:04:00::'
       - 'fixer%1:18:01::'
       - 'fixing%1:04:00::'
+      event:
+      - 'fix%1:04:00::'
       id: 'fix%2:30:01::'
       sent:
       - The men fix the chairs
@@ -32018,17 +32631,24 @@ fixate:
     sense:
     - derivation:
       - 'fixation%1:09:00::'
+      event:
+      - 'fixation%1:09:00::'
       id: 'fixate%2:41:00::'
       subcat:
       - via-pp
       synset: 02544031-v
     - derivation:
       - 'fixation%1:09:00::'
+      event:
+      - 'fixation%1:09:00::'
       id: 'fixate%2:39:00::'
       subcat:
       - via-pp
       synset: 02175305-v
     - derivation:
+      - 'fixation%1:04:01::'
+      - 'fixation%1:04:00::'
+      event:
       - 'fixation%1:04:01::'
       - 'fixation%1:04:00::'
       id: 'fixate%2:30:01::'
@@ -32519,6 +33139,9 @@ flag:
     sense:
     - also:
       - 'flag_down%2:38:00::'
+      by_means_of:
+      - 'flag%1:10:00::'
+      - 'flag%1:06:00::'
       derivation:
       - 'flag%1:10:00::'
       - 'flag%1:06:00::'
@@ -32542,6 +33165,8 @@ flag:
       subcat:
       - vtai
       synset: 01674067-v
+      uses:
+      - 'flag%1:06:00::'
     - id: 'flag%2:30:01::'
       subcat:
       - vii
@@ -32646,6 +33271,8 @@ flagellate:
       - 'flagellation%1:04:00::'
       - 'flagellant%1:18:01::'
       - 'flagellant%1:18:00::'
+      event:
+      - 'flagellation%1:04:00::'
       id: 'flagellate%2:35:00::'
       subcat:
       - vtaa
@@ -32810,6 +33437,8 @@ flail:
     sense:
     - derivation:
       - 'flail%1:06:00::'
+      instrument:
+      - 'flail%1:06:00::'
       id: 'flail%2:35:00::'
       sent:
       - They want to flail the prisoners
@@ -32877,6 +33506,8 @@ flake:
     - derivation:
       - 'flake%1:17:00::'
       id: 'flake%2:35:00::'
+      result:
+      - 'flake%1:17:00::'
       subcat:
       - vii
       synset: 01262515-v
@@ -33033,6 +33664,8 @@ flame:
     - derivation:
       - 'flame%1:22:00::'
       - 'flaming%1:22:00::'
+      event:
+      - 'flame%1:22:00::'
       id: 'flame%2:43:00::'
       subcat:
       - vii
@@ -33290,7 +33923,12 @@ flank:
     pronunciation:
     - value: flæŋk
     sense:
-    - derivation:
+    - agent:
+      - 'flanker%1:18:01::'
+      - 'flanker%1:18:00::'
+      by_means_of:
+      - 'flank%1:25:00::'
+      derivation:
       - 'flank%1:25:00::'
       - 'flanker%1:18:01::'
       - 'flanker%1:18:00::'
@@ -33397,6 +34035,8 @@ flap:
     - derivation:
       - 'flap%1:11:01::'
       - 'flapping%1:11:00::'
+      event:
+      - 'flap%1:11:01::'
       id: 'flap%2:38:01::'
       subcat:
       - vii
@@ -33405,6 +34045,8 @@ flap:
     - derivation:
       - 'flap%1:11:01::'
       - 'flapping%1:11:00::'
+      event:
+      - 'flap%1:11:01::'
       id: 'flap%2:38:00::'
       subcat:
       - vii
@@ -33412,6 +34054,8 @@ flap:
     - derivation:
       - 'flap%1:11:01::'
       - 'flapping%1:11:00::'
+      event:
+      - 'flap%1:11:01::'
       id: 'flap%2:38:03::'
       subcat:
       - vtii
@@ -33419,6 +34063,8 @@ flap:
     - derivation:
       - 'flap%1:11:01::'
       - 'flapping%1:11:00::'
+      event:
+      - 'flap%1:11:01::'
       id: 'flap%2:38:02::'
       subcat:
       - vii
@@ -33426,6 +34072,8 @@ flap:
     - derivation:
       - 'flap%1:26:00::'
       id: 'flap%2:37:00::'
+      state:
+      - 'flap%1:26:00::'
       subcat:
       - via
       - via-pp
@@ -33524,6 +34172,8 @@ flare:
     sense:
     - derivation:
       - 'flare%1:22:00::'
+      event:
+      - 'flare%1:22:00::'
       id: 'flare%2:43:00::'
       subcat:
       - vii
@@ -33531,10 +34181,14 @@ flare:
     - derivation:
       - 'flare%1:25:00::'
       id: 'flare%2:30:00::'
+      result:
+      - 'flare%1:25:00::'
       subcat:
       - vii
       synset: 00305033-v
     - derivation:
+      - 'flare%1:22:00::'
+      event:
       - 'flare%1:22:00::'
       id: 'flare%2:43:01::'
       sent:
@@ -33642,9 +34296,13 @@ flash:
       synset: 03363018-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'flasher%1:06:01::'
+      derivation:
       - 'flash%1:07:00::'
       - 'flasher%1:06:01::'
+      event:
+      - 'flash%1:07:00::'
       id: 'flash%2:39:00::'
       sent:
       - Lights flash on the horizon
@@ -33657,6 +34315,9 @@ flash:
       - 'flash%1:10:00::'
       - 'flash%1:11:01::'
       - 'flashing%1:11:00::'
+      event:
+      - 'flash%1:10:00::'
+      - 'flash%1:11:01::'
       id: 'flash%2:30:03::'
       subcat:
       - via-pp
@@ -33668,6 +34329,8 @@ flash:
       - vtai
       synset: 02146446-v
     - derivation:
+      - 'flash%1:10:00::'
+      event:
       - 'flash%1:10:00::'
       id: 'flash%2:32:00::'
       subcat:
@@ -33681,9 +34344,13 @@ flash:
       - via-pp
       - vii-pp
       synset: 02065423-v
-    - derivation:
+    - agent:
+      - 'flasher%1:18:00::'
+      derivation:
       - 'flash%1:28:00::'
       - 'flasher%1:18:00::'
+      event:
+      - 'flash%1:28:00::'
       id: 'flash%2:39:02::'
       subcat:
       - via
@@ -33693,10 +34360,17 @@ flash:
       subcat:
       - vtai
       synset: 01338143-v
-    - derivation:
+    - by_means_of:
+      - 'flasher%1:06:01::'
+      derivation:
       - 'flash%1:07:00::'
       - 'flash%1:11:00::'
       - 'flasher%1:06:01::'
+      - 'flasher%1:06:00::'
+      event:
+      - 'flash%1:07:00::'
+      - 'flash%1:11:00::'
+      instrument:
       - 'flasher%1:06:00::'
       id: 'flash%2:30:04::'
       subcat:
@@ -34355,7 +35029,9 @@ flattened:
 flatter:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'flatterer%1:18:00::'
+      antonym:
       - 'disparage%2:32:00::'
       derivation:
       - 'flatterer%1:18:00::'
@@ -34480,6 +35156,8 @@ flaunt:
     sense:
     - derivation:
       - 'flaunt%1:10:00::'
+      event:
+      - 'flaunt%1:10:00::'
       id: 'flaunt%2:39:00::'
       subcat:
       - vtaa
@@ -34556,7 +35234,11 @@ flavor:
       - 'flavor%1:09:00::'
       - 'flavorer%1:13:00::'
       - 'flavoring%1:13:00::'
+      event:
+      - 'flavor%1:09:00::'
       id: 'flavor%2:39:00::'
+      material:
+      - 'flavorer%1:13:00::'
       subcat:
       - vtai
       - vtii
@@ -34639,7 +35321,11 @@ flavour:
       - 'flavour%1:09:00::'
       - 'flavourer%1:13:00::'
       - 'flavouring%1:13:00::'
+      event:
+      - 'flavour%1:09:00::'
       id: 'flavour%2:39:00::'
+      material:
+      - 'flavourer%1:13:00::'
       subcat:
       - vtai
       - vtii
@@ -34724,7 +35410,11 @@ flaw:
     - derivation:
       - 'flaw%1:26:01::'
       - 'flaw%1:26:00::'
+      event:
+      - 'flaw%1:26:00::'
       id: 'flaw%2:30:00::'
+      property:
+      - 'flaw%1:26:01::'
       subcat:
       - vtai
       - vtii
@@ -34906,6 +35596,8 @@ fleck:
       - vtai
       - vtii
       synset: 01534786-v
+      uses:
+      - 'fleck%1:07:00::'
 flecked:
   a:
     sense:
@@ -35044,9 +35736,14 @@ fleece:
       - 'fleece%1:27:01::'
       - 'fleece%1:27:00::'
       id: 'fleece%2:35:00::'
+      result:
+      - 'fleece%1:27:01::'
+      - 'fleece%1:27:00::'
       subcat:
       - vtai
       synset: 01563151-v
+      undergoer:
+      - 'fleece%1:05:00::'
 fleeceable:
   a:
     sense:
@@ -35326,6 +36023,8 @@ flex:
     sense:
     - derivation:
       - 'flex%1:04:00::'
+      event:
+      - 'flex%1:04:00::'
       id: 'flex%2:38:01::'
       subcat:
       - vii
@@ -35564,6 +36263,8 @@ flick:
       synset: 01897458-v
     - derivation:
       - 'flick%1:11:00::'
+      event:
+      - 'flick%1:11:00::'
       id: 'flick%2:35:03::'
       subcat:
       - vtai-pp
@@ -35620,11 +36321,15 @@ flicker:
     sense:
     - derivation:
       - 'flicker%1:04:00::'
+      event:
+      - 'flicker%1:04:00::'
       id: 'flicker%2:38:00::'
       subcat:
       - vii-pp
       synset: 01882712-v
     - derivation:
+      - 'flicker%1:11:00::'
+      event:
       - 'flicker%1:11:00::'
       id: 'flicker%2:43:00::'
       sent:
@@ -35634,6 +36339,8 @@ flicker:
       - vii
       synset: 02769567-v
     - derivation:
+      - 'flicker%1:11:00::'
+      event:
       - 'flicker%1:11:00::'
       id: 'flicker%2:39:00::'
       subcat:
@@ -35704,11 +36411,16 @@ flight:
     sense:
     - derivation:
       - 'flight%1:04:00::'
+      event:
+      - 'flight%1:04:00::'
       id: 'flight%2:41:00::'
       subcat:
       - vtai
       synset: 02490360-v
     - derivation:
+      - 'flight%1:14:02::'
+      - 'flight%1:04:00::'
+      event:
       - 'flight%1:14:02::'
       - 'flight%1:04:00::'
       id: 'flight%2:38:00::'
@@ -35902,6 +36614,8 @@ flinch:
     sense:
     - derivation:
       - 'flinch%1:04:00::'
+      event:
+      - 'flinch%1:04:00::'
       id: 'flinch%2:38:00::'
       subcat:
       - via
@@ -35942,6 +36656,8 @@ fling:
     sense:
     - derivation:
       - 'fling%1:04:02::'
+      event:
+      - 'fling%1:04:02::'
       id: 'fling%2:35:00::'
       subcat:
       - vtai
@@ -35954,12 +36670,16 @@ fling:
       synset: 02098706-v
     - derivation:
       - 'fling%1:04:00::'
+      event:
+      - 'fling%1:04:00::'
       id: 'fling%2:40:01::'
       subcat:
       - via
       - via-pp
       synset: 02273848-v
     - derivation:
+      - 'fling%1:04:02::'
+      event:
       - 'fling%1:04:02::'
       id: 'fling%2:40:02::'
       subcat:
@@ -36075,6 +36795,8 @@ flip:
     sense:
     - derivation:
       - 'flip%1:04:01::'
+      event:
+      - 'flip%1:04:01::'
       id: 'flip%2:38:00::'
       sent:
       - They flip the coin
@@ -36093,6 +36815,8 @@ flip:
       synset: 02157453-v
     - derivation:
       - 'flip%1:04:00::'
+      event:
+      - 'flip%1:04:00::'
       id: 'flip%2:38:02::'
       subcat:
       - via
@@ -36101,11 +36825,15 @@ flip:
       synset: 01897594-v
     - derivation:
       - 'flip%1:04:00::'
+      event:
+      - 'flip%1:04:00::'
       id: 'flip%2:38:01::'
       subcat:
       - vtai
       synset: 01897458-v
     - derivation:
+      - 'flip%1:04:00::'
+      event:
       - 'flip%1:04:00::'
       id: 'flip%2:35:00::'
       sent:
@@ -36114,9 +36842,13 @@ flip:
       - vtai
       - vtai-pp
       synset: 01515257-v
-    - derivation:
+    - body_part:
+      - 'flipper%1:05:00::'
+      derivation:
       - 'flipper%1:06:00::'
       - 'flipper%1:05:00::'
+      instrument:
+      - 'flipper%1:06:00::'
       id: 'flip%2:35:05::'
       subcat:
       - vtai
@@ -36226,6 +36958,8 @@ flip-flop:
     sense:
     - derivation:
       - 'flip-flop%1:09:00::'
+      event:
+      - 'flip-flop%1:09:00::'
       id: 'flip-flop%2:30:00::'
       subcat:
       - vii
@@ -36310,11 +37044,16 @@ flirt:
     - value: flɝt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'flirt%1:18:00::'
+      derivation:
       - 'flirt%1:04:00::'
       - 'flirt%1:18:00::'
       - 'flirtation%1:04:00::'
       - 'flirting%1:04:00::'
+      event:
+      - 'flirtation%1:04:00::'
+      - 'flirt%1:04:00::'
       id: 'flirt%2:32:00::'
       sent:
       - Sam wants to flirt with Sue
@@ -36391,6 +37130,8 @@ flit:
     sense:
     - derivation:
       - 'flit%1:04:00::'
+      event:
+      - 'flit%1:04:00::'
       id: 'flit%2:38:00::'
       subcat:
       - via
@@ -36458,13 +37199,21 @@ float:
       - vii
       - vii-pp
       synset: 01906776-v
-    - antonym:
+    - agent:
+      - 'floater%1:18:00::'
+      antonym:
       - 'sink%2:38:00::'
+      by_means_of:
+      - 'floater%1:17:00::'
+      - 'float%1:06:00::'
       derivation:
       - 'floating%1:04:00::'
       - 'floater%1:18:00::'
       - 'floater%1:17:00::'
       - 'float%1:06:00::'
+      - 'floatation%1:19:00::'
+      - 'flotation%1:19:00::'
+      event:
       - 'floatation%1:19:00::'
       - 'flotation%1:19:00::'
       id: 'float%2:38:01::'
@@ -36479,6 +37228,9 @@ float:
       - 'float%1:06:00::'
       - 'floatation%1:19:00::'
       - 'flotation%1:19:00::'
+      event:
+      - 'floatation%1:19:00::'
+      - 'flotation%1:19:00::'
       id: 'float%2:38:02::'
       sent:
       - The girls float the wooden sticks
@@ -36486,6 +37238,8 @@ float:
       - vtai
       - vtii
       synset: 01878561-v
+      undergoer:
+      - 'float%1:06:00::'
     - id: 'float%2:41:03::'
       subcat:
       - vtai
@@ -36502,10 +37256,15 @@ float:
       - 'float%1:06:00::'
       - 'floatation%1:19:00::'
       - 'flotation%1:19:00::'
+      event:
+      - 'floatation%1:19:00::'
+      - 'flotation%1:19:00::'
       id: 'float%2:35:04::'
       subcat:
       - vtai
       synset: 01517519-v
+      undergoer:
+      - 'float%1:06:00::'
     - id: 'float%2:35:00::'
       subcat:
       - vtai
@@ -36703,6 +37462,8 @@ flocculate:
     - derivation:
       - flocculent%5:00:00:soft:01
       - 'flocculation%1:22:00::'
+      event:
+      - 'flocculation%1:22:00::'
       id: 'flocculate%2:42:00::'
       subcat:
       - vtii
@@ -36765,6 +37526,8 @@ flock:
     - derivation:
       - 'flock%1:14:03::'
       id: 'flock%2:38:01::'
+      result:
+      - 'flock%1:14:03::'
       subcat:
       - via-pp
       - vii-pp
@@ -36772,6 +37535,8 @@ flock:
     - derivation:
       - 'flock%1:14:03::'
       id: 'flock%2:38:00::'
+      result:
+      - 'flock%1:14:03::'
       sent:
       - The crowds flock in the streets
       subcat:
@@ -36866,6 +37631,9 @@ flood:
       - 'flood%1:04:00::'
       - 'flood%1:19:00::'
       - 'flooding%1:04:00::'
+      event:
+      - 'flood%1:04:00::'
+      - 'flood%1:19:00::'
       id: 'flood%2:35:00::'
       subcat:
       - vtai
@@ -36875,6 +37643,8 @@ flood:
       - 'flood_out%2:32:00::'
       derivation:
       - 'flood%1:19:00::'
+      event:
+      - 'flood%1:19:00::'
       id: 'flood%2:30:00::'
       subcat:
       - vtii
@@ -36882,12 +37652,17 @@ flood:
     - derivation:
       - 'flood%1:23:00::'
       id: 'flood%2:40:00::'
+      result:
+      - 'flood%1:23:00::'
       subcat:
       - vtaa-with
       - vtai
       - vtii
       synset: 02361703-v
     - derivation:
+      - 'flood%1:04:00::'
+      - 'flood%1:19:00::'
+      event:
       - 'flood%1:04:00::'
       - 'flood%1:19:00::'
       id: 'flood%2:30:01::'
@@ -36984,7 +37759,9 @@ floodlight:
     form:
     - floodlit
     sense:
-    - derivation:
+    - by_means_of:
+      - 'floodlight%1:06:00::'
+      derivation:
       - 'floodlight%1:06:00::'
       id: 'floodlight%2:30:00::'
       subcat:
@@ -37060,6 +37837,8 @@ floor:
       - 'floor%1:17:01::'
       - 'floor%1:06:00::'
       id: 'floor%2:35:00::'
+      location:
+      - 'floor%1:06:00::'
       sent:
       - The fighter managed to floor his opponent
       subcat:
@@ -37182,6 +37961,8 @@ flop:
     sense:
     - derivation:
       - 'flop%1:04:00::'
+      event:
+      - 'flop%1:04:00::'
       id: 'flop%2:38:01::'
       sent:
       - The children flop in the rocking chair
@@ -37196,6 +37977,8 @@ flop:
       - vii-pp
       synset: 01976767-v
     - derivation:
+      - 'flop%1:11:00::'
+      event:
       - 'flop%1:11:00::'
       id: 'flop%2:41:00::'
       sent:
@@ -37432,6 +38215,8 @@ floss:
     sense:
     - derivation:
       - 'floss%1:06:01::'
+      instrument:
+      - 'floss%1:06:01::'
       id: 'floss%2:29:00::'
       subcat:
       - via
@@ -37501,6 +38286,8 @@ flounce:
     sense:
     - derivation:
       - 'flounce%1:04:00::'
+      event:
+      - 'flounce%1:04:00::'
       id: 'flounce%2:38:00::'
       sent:
       - They flounce up the hill
@@ -37553,9 +38340,13 @@ flour:
       - vtai
       - vtai-pp
       synset: 01264514-v
+      uses:
+      - 'flour%1:13:00::'
     - derivation:
       - 'flour%1:13:00::'
       id: 'flour%2:30:00::'
+      result:
+      - 'flour%1:13:00::'
       subcat:
       - vtai
       synset: 00382167-v
@@ -37629,6 +38420,8 @@ flourish:
       synset: 02347796-v
     - derivation:
       - 'flourish%1:10:00::'
+      event:
+      - 'flourish%1:10:00::'
       id: 'flourish%2:35:00::'
       subcat:
       - vtai
@@ -37655,13 +38448,17 @@ flout:
     pronunciation:
     - value: flaʊt
     sense:
-    - derivation:
+    - agent:
+      - 'flouter%1:18:00::'
+      derivation:
       - 'flouter%1:18:00::'
       id: 'flout%2:32:01::'
       subcat:
       - vtai
       synset: 00803444-v
-    - derivation:
+    - agent:
+      - 'flouter%1:18:00::'
+      derivation:
       - 'flouter%1:18:00::'
       id: 'flout%2:32:00::'
       subcat:
@@ -37717,6 +38514,9 @@ flow:
     - derivation:
       - 'flow%1:26:00::'
       - 'flow%1:04:00::'
+      event:
+      - 'flow%1:26:00::'
+      - 'flow%1:04:00::'
       id: 'flow%2:38:01::'
       subcat:
       - vii
@@ -37724,11 +38524,16 @@ flow:
       synset: 02070438-v
     - also:
       - 'flow_from%2:42:00::'
+      by_means_of:
+      - 'flow%1:28:00::'
       derivation:
       - 'flow%1:04:00::'
       - 'flow%1:28:00::'
       - 'flow%1:11:00::'
       - 'flowing%1:11:00::'
+      event:
+      - 'flow%1:04:00::'
+      - 'flow%1:11:00::'
       id: 'flow%2:38:00::'
       sent:
       - Water and oil flow into the bowl
@@ -37741,13 +38546,23 @@ flow:
       - 'flow%1:04:00::'
       - 'flow%1:28:00::'
       - 'flow%1:11:00::'
+      event:
+      - 'flow%1:22:00::'
+      - 'flow%1:04:00::'
+      - 'flow%1:11:00::'
       id: 'flow%2:38:02::'
       subcat:
       - vtai
       - vtii
       synset: 02071617-v
+      undergoer:
+      - 'flow%1:28:00::'
     - derivation:
       - 'flow%1:28:00::'
+      - 'flow%1:11:00::'
+      - 'flow%1:22:00::'
+      - 'flow%1:04:00::'
+      event:
       - 'flow%1:11:00::'
       - 'flow%1:22:00::'
       - 'flow%1:04:00::'
@@ -37768,6 +38583,8 @@ flow:
       - vtii
       synset: 00217853-v
     - derivation:
+      - 'flow%1:22:01::'
+      event:
       - 'flow%1:22:01::'
       id: 'flow%2:29:00::'
       subcat:
@@ -37881,11 +38698,16 @@ flower:
     - value: ˈfloʊɚ
       variety: US
     sense:
-    - derivation:
+    - body_part:
+      - 'flower%1:20:02::'
+      derivation:
       - 'flower%1:20:00::'
       - 'flower%1:20:02::'
       - 'flowering%1:22:00::'
       id: 'flower%2:30:00::'
+      result:
+      - 'flower%1:20:00::'
+      - 'flower%1:20:02::'
       subcat:
       - vii
       synset: 00295007-v
@@ -38202,6 +39024,8 @@ flub:
     sense:
     - derivation:
       - 'flub%1:04:00::'
+      event:
+      - 'flub%1:04:00::'
       id: 'flub%2:41:00::'
       subcat:
       - via
@@ -38212,11 +39036,16 @@ fluctuate:
     sense:
     - derivation:
       - 'fluctuation%1:11:01::'
+      event:
+      - 'fluctuation%1:11:01::'
       id: 'fluctuate%2:38:03::'
       subcat:
       - vtii
       synset: 01881197-v
     - derivation:
+      - 'fluctuation%1:11:01::'
+      - 'fluctuation%1:11:00::'
+      event:
       - 'fluctuation%1:11:01::'
       - 'fluctuation%1:11:00::'
       id: 'fluctuate%2:38:00::'
@@ -38227,6 +39056,8 @@ fluctuate:
     - derivation:
       - 'fluctuation%1:07:00::'
       id: 'fluctuate%2:30:00::'
+      property:
+      - 'fluctuation%1:07:00::'
       subcat:
       - vii
       synset: 00271498-v
@@ -38349,6 +39180,8 @@ fluff:
     - value: flʌf
     sense:
     - derivation:
+      - 'fluff%1:04:00::'
+      event:
       - 'fluff%1:04:00::'
       id: 'fluff%2:41:00::'
       subcat:
@@ -38668,6 +39501,8 @@ fluoresce:
       - fluorescent%5:00:00:light:06
       - fluorescent%5:00:00:colorful:00
       - 'fluorescence%1:19:00::'
+      event:
+      - 'fluorescence%1:19:00::'
       id: 'fluoresce%2:39:00::'
       subcat:
       - vii
@@ -38760,6 +39595,8 @@ fluoridate:
     - derivation:
       - 'fluoride%1:27:00::'
       - 'fluoridation%1:04:00::'
+      event:
+      - 'fluoridation%1:04:00::'
       id: 'fluoridate%2:30:00::'
       subcat:
       - vtai
@@ -38796,6 +39633,8 @@ fluoridise:
     sense:
     - derivation:
       - 'fluoridisation%1:04:00::'
+      event:
+      - 'fluoridisation%1:04:00::'
       id: 'fluoridise%2:30:00::'
       subcat:
       - vtai
@@ -38813,6 +39652,8 @@ fluoridize:
     - derivation:
       - 'fluoridization%1:04:00::'
       - 'fluoride%1:27:00::'
+      event:
+      - 'fluoridization%1:04:00::'
       id: 'fluoridize%2:30:00::'
       subcat:
       - vtai
@@ -38967,6 +39808,8 @@ flurry:
     sense:
     - derivation:
       - 'flurry%1:04:00::'
+      event:
+      - 'flurry%1:04:00::'
       id: 'flurry%2:38:00::'
       subcat:
       - via
@@ -39027,11 +39870,16 @@ flush:
     - derivation:
       - 'flush%1:26:00::'
       - 'flush%1:04:00::'
+      event:
+      - 'flush%1:26:00::'
+      - 'flush%1:04:00::'
       id: 'flush%2:29:00::'
       subcat:
       - via
       synset: 00103071-v
     - derivation:
+      - 'flush%1:11:00::'
+      event:
       - 'flush%1:11:00::'
       id: 'flush%2:30:00::'
       subcat:
@@ -39055,11 +39903,15 @@ flush:
       synset: 00456484-v
     - derivation:
       - 'flush%1:11:00::'
+      event:
+      - 'flush%1:11:00::'
       id: 'flush%2:30:02::'
       subcat:
       - vtai
       synset: 00456323-v
     - derivation:
+      - 'flush%1:11:00::'
+      event:
       - 'flush%1:11:00::'
       id: 'flush%2:30:03::'
       subcat:
@@ -39123,6 +39975,8 @@ fluster:
     - derivation:
       - 'fluster%1:07:00::'
       id: 'fluster%2:37:01::'
+      state:
+      - 'fluster%1:07:00::'
       subcat:
       - via
       synset: 01796002-v
@@ -39132,6 +39986,8 @@ fluster:
       sent:
       - The bad news will fluster him
       - The good news will fluster her
+      state:
+      - 'fluster%1:07:00::'
       subcat:
       - vtaa
       - vtia
@@ -39161,6 +40017,8 @@ flute:
       - 'flute%1:06:02::'
       - 'fluting%1:06:00::'
       id: 'flute%2:35:00::'
+      result:
+      - 'flute%1:06:02::'
       subcat:
       - vtai
       synset: 01460005-v
@@ -39218,6 +40076,8 @@ flutter:
     sense:
     - derivation:
       - 'flutter%1:04:00::'
+      event:
+      - 'flutter%1:04:00::'
       id: 'flutter%2:38:02::'
       sent:
       - The crowds flutter in the streets
@@ -39230,6 +40090,8 @@ flutter:
     - derivation:
       - 'flutter%1:04:00::'
       - 'fluttering%1:11:00::'
+      event:
+      - 'flutter%1:04:00::'
       id: 'flutter%2:38:01::'
       subcat:
       - vii-pp
@@ -39239,6 +40101,8 @@ flutter:
       - vii
       synset: 01904248-v
     - derivation:
+      - 'flutter%1:26:00::'
+      event:
       - 'flutter%1:26:00::'
       id: 'flutter%2:38:00::'
       subcat:
@@ -39303,12 +40167,16 @@ flux:
     sense:
     - derivation:
       - 'fluxion%1:11:00::'
+      event:
+      - 'fluxion%1:11:00::'
       id: 'flux%2:38:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02070438-v
     - derivation:
+      - 'flux%1:11:00::'
+      event:
       - 'flux%1:11:00::'
       id: 'flux%2:30:01::'
       subcat:
@@ -39388,7 +40256,10 @@ fly:
     - flew
     - flown
     sense:
-    - derivation:
+    - agent:
+      - 'flyer%1:18:00::'
+      - 'flier%1:18:00::'
+      derivation:
       - 'fly%1:05:00::'
       - 'flyer%1:18:00::'
       - 'flier%1:18:00::'
@@ -39410,7 +40281,10 @@ fly:
       - vii
       - vii-pp
       synset: 01846010-v
-    - derivation:
+    - agent:
+      - 'flyer%1:18:01::'
+      - 'flier%1:18:01::'
+      derivation:
       - 'flyer%1:18:01::'
       - 'flier%1:18:01::'
       - 'flying%1:04:00::'
@@ -39444,7 +40318,10 @@ fly:
       subcat:
       - vii
       synset: 02076993-v
-    - derivation:
+    - agent:
+      - 'flyer%1:18:00::'
+      - 'flier%1:18:00::'
+      derivation:
       - 'flyer%1:18:00::'
       - 'flier%1:18:00::'
       - 'flying%1:04:00::'
@@ -39476,6 +40353,8 @@ fly:
       subcat:
       - via
       synset: 01405419-v
+      undergoer:
+      - 'fly%1:04:00::'
     - id: 'fly%2:30:00::'
       subcat:
       - vii
@@ -40036,6 +40915,8 @@ foal:
     - derivation:
       - 'foal%1:05:00::'
       id: 'foal%2:29:00::'
+      result:
+      - 'foal%1:05:00::'
       subcat:
       - vii
       synset: 00057609-v
@@ -40064,6 +40945,8 @@ foam:
     - derivation:
       - 'foam%1:17:00::'
       id: 'foam%2:30:05::'
+      result:
+      - 'foam%1:17:00::'
       subcat:
       - vii
       synset: 00520443-v
@@ -40235,11 +41118,15 @@ focalise:
     sense:
     - derivation:
       - 'focalisation%1:22:00::'
+      event:
+      - 'focalisation%1:22:00::'
       id: 'focalise%2:42:00::'
       subcat:
       - vii-pp
       synset: 02698177-v
     - derivation:
+      - 'focalisation%1:04:01::'
+      event:
       - 'focalisation%1:04:01::'
       id: 'focalise%2:31:00::'
       subcat:
@@ -40247,12 +41134,16 @@ focalise:
       synset: 00733774-v
     - derivation:
       - 'focalisation%1:04:01::'
+      event:
+      - 'focalisation%1:04:01::'
       id: 'focalise%2:30:00::'
       subcat:
       - via-pp
       - vii
       synset: 00315583-v
     - derivation:
+      - 'focalisation%1:04:01::'
+      event:
       - 'focalisation%1:04:01::'
       id: 'focalise%2:30:01::'
       subcat:
@@ -40278,11 +41169,15 @@ focalize:
     sense:
     - derivation:
       - 'focalization%1:22:00::'
+      event:
+      - 'focalization%1:22:00::'
       id: 'focalize%2:42:00::'
       subcat:
       - vii-pp
       synset: 02698177-v
     - derivation:
+      - 'focalization%1:04:01::'
+      event:
       - 'focalization%1:04:01::'
       id: 'focalize%2:31:00::'
       subcat:
@@ -40290,12 +41185,16 @@ focalize:
       synset: 00733774-v
     - derivation:
       - 'focalization%1:04:01::'
+      event:
+      - 'focalization%1:04:01::'
       id: 'focalize%2:30:00::'
       subcat:
       - via-pp
       - vii
       synset: 00315583-v
     - derivation:
+      - 'focalization%1:04:01::'
+      event:
       - 'focalization%1:04:01::'
       id: 'focalize%2:30:01::'
       subcat:
@@ -40360,6 +41259,8 @@ focus:
       - 'focussing%1:09:00::'
       - 'focusing%1:09:00::'
       id: 'focus%2:31:00::'
+      property:
+      - 'focus%1:09:00::'
       subcat:
       - via-on-inanim
       synset: 00724156-v
@@ -40370,6 +41271,10 @@ focus:
       - 'focus%1:07:01::'
       - 'focusing%1:04:00::'
       id: 'focus%2:39:00::'
+      location:
+      - 'focus%1:19:00::'
+      result:
+      - 'focus%1:07:01::'
       subcat:
       - vtai
       - vtii
@@ -40379,6 +41284,10 @@ focus:
       - 'focus%1:09:00::'
       - 'focusing%1:04:00::'
       id: 'focus%2:31:01::'
+      property:
+      - 'focus%1:09:00::'
+      result:
+      - 'focus%1:07:03::'
       subcat:
       - vtai
       synset: 00733774-v
@@ -40388,6 +41297,8 @@ focus:
       - 'focus%1:19:00::'
       - 'focusing%1:04:00::'
       id: 'focus%2:30:00::'
+      location:
+      - 'focus%1:19:00::'
       subcat:
       - via-pp
       - vii
@@ -40400,6 +41311,8 @@ focus:
       - 'focus%1:07:01::'
       - 'focusing%1:04:00::'
       id: 'focus%2:30:01::'
+      result:
+      - 'focus%1:07:01::'
       subcat:
       - vtai
       - vtai-pp
@@ -40481,6 +41394,10 @@ fodder:
       subcat:
       - vtai
       synset: 01180398-v
+      undergoer:
+      - 'fodder%1:13:00::'
+      uses:
+      - 'fodder%1:13:00::'
 foe:
   n:
     sense:
@@ -40612,6 +41529,9 @@ fog:
     - fogging
     sense:
     - derivation:
+      - 'fog%1:09:00::'
+      - 'fog%1:26:01::'
+      event:
       - 'fog%1:09:00::'
       - 'fog%1:26:01::'
       id: 'fog%2:39:00::'
@@ -40760,7 +41680,9 @@ foil:
       synset: 03380421-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'foil%1:09:00::'
+      derivation:
       - 'foil%1:09:00::'
       id: 'foil%2:42:00::'
       subcat:
@@ -40781,6 +41703,8 @@ foil:
       - vtai
       - vtii
       synset: 01337757-v
+      uses:
+      - 'foil%1:06:01::'
 foiled:
   a:
     pronunciation:
@@ -40860,11 +41784,17 @@ fold:
       - 'fold%1:04:00::'
       - 'folder%1:06:00::'
       - 'folding%1:04:00::'
+      event:
+      - 'fold%1:04:00::'
       id: 'fold%2:35:00::'
+      result:
+      - 'fold%1:25:00::'
       subcat:
       - vtai
       - vtii
       synset: 01280538-v
+      undergoer:
+      - 'folder%1:06:00::'
     - id: 'fold%2:30:00::'
       sent:
       - They fold the sheets
@@ -40887,6 +41817,8 @@ fold:
       - vii
       synset: 01348559-v
     - derivation:
+      - 'fold%1:04:00::'
+      event:
       - 'fold%1:04:00::'
       id: 'fold%2:30:10::'
       sent:
@@ -41052,6 +41984,8 @@ foliate:
     - derivation:
       - 'foil%1:06:01::'
       - 'foliation%1:04:00::'
+      event:
+      - 'foliation%1:04:00::'
       id: 'foliate%2:36:00::'
       subcat:
       - vtai
@@ -41060,11 +41994,15 @@ foliate:
       - 'foliage%1:06:00::'
       - 'foliation%1:06:00::'
       id: 'foliate%2:36:01::'
+      result:
+      - 'foliation%1:06:00::'
       subcat:
       - vtai
       synset: 01673946-v
     - derivation:
       - 'foil%1:06:01::'
+      - 'foliation%1:04:01::'
+      event:
       - 'foliation%1:04:01::'
       id: 'foliate%2:35:00::'
       subcat:
@@ -41076,6 +42014,8 @@ foliate:
       synset: 00951125-v
     - derivation:
       - 'foliage%1:20:00::'
+      - 'foliation%1:22:01::'
+      event:
       - 'foliation%1:22:01::'
       id: 'foliate%2:30:00::'
       subcat:
@@ -41198,6 +42138,8 @@ folk dance:
     sense:
     - derivation:
       - 'folk_dancing%1:04:00::'
+      - 'folk_dance%1:04:00::'
+      event:
       - 'folk_dance%1:04:00::'
       id: 'folk_dance%2:38:00::'
       sent:
@@ -41347,7 +42289,9 @@ follow:
     - value: ˈfɑloʊ
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'follower%1:18:01::'
+      antonym:
       - 'precede%2:38:00::'
       derivation:
       - 'follower%1:18:01::'
@@ -41447,7 +42391,9 @@ follow:
       subcat:
       - vii-pp
       synset: 02631420-v
-    - derivation:
+    - agent:
+      - 'follower%1:18:00::'
+      derivation:
       - 'follower%1:18:00::'
       - 'following%1:14:00::'
       id: 'follow%2:41:10::'
@@ -41470,7 +42416,9 @@ follow:
       - vtaa
       - vtia
       synset: 02203116-v
-    - derivation:
+    - agent:
+      - 'follower%1:18:01::'
+      derivation:
       - 'follower%1:18:01::'
       - 'following%1:04:01::'
       id: 'follow%2:38:13::'
@@ -41703,9 +42651,13 @@ foment:
     - value: foʊˈmɛnt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'fomenter%1:18:00::'
+      derivation:
       - 'fomentation%1:04:00::'
       - 'fomenter%1:18:00::'
+      event:
+      - 'fomentation%1:04:00::'
       id: 'foment%2:41:00::'
       subcat:
       - via
@@ -41714,6 +42666,8 @@ foment:
       - vtia
       synset: 02591135-v
     - derivation:
+      - 'fomentation%1:04:01::'
+      event:
       - 'fomentation%1:04:01::'
       id: 'foment%2:29:00::'
       subcat:
@@ -42100,7 +43054,10 @@ fool:
     pronunciation:
     - value: fuːl
     sense:
-    - derivation:
+    - agent:
+      - 'fool%1:18:01::'
+      - 'fool%1:18:00::'
+      derivation:
       - 'fool%1:18:01::'
       - 'fool%1:18:00::'
       id: 'fool%2:41:00::'
@@ -42111,14 +43068,19 @@ fool:
       subcat:
       - vtai
       synset: 01198337-v
-    - derivation:
+    - agent:
+      - 'fool%1:18:00::'
+      - 'fool%1:18:01::'
+      derivation:
       - 'fool%1:18:00::'
       - 'fool%1:18:01::'
       id: 'fool%2:32:01::'
       subcat:
       - vtaa
       synset: 00856586-v
-    - derivation:
+    - agent:
+      - 'fool%1:18:02::'
+      derivation:
       - 'fool%1:18:02::'
       - 'foolery%1:04:00::'
       id: 'fool%2:32:00::'
@@ -42320,10 +43282,14 @@ foot:
       subcat:
       - via
       synset: 02292054-v
-    - derivation:
+    - agent:
+      - 'footer%1:18:00::'
+      derivation:
       - 'foot%1:04:00::'
       - 'foot%1:08:01::'
       - 'footer%1:18:00::'
+      event:
+      - 'foot%1:04:00::'
       id: 'foot%2:38:00::'
       subcat:
       - via
@@ -42720,6 +43686,8 @@ footnote:
       subcat:
       - vtai
       synset: 01708812-v
+      uses:
+      - 'footnote%1:10:00::'
 footpad:
   n:
     sense:
@@ -42772,7 +43740,9 @@ footslog:
     - footslogged
     - footslogging
     sense:
-    - derivation:
+    - agent:
+      - 'footslogger%1:18:00::'
+      derivation:
       - 'footslogger%1:18:00::'
       id: 'footslog%2:38:00::'
       subcat:
@@ -43046,6 +44016,8 @@ forage:
     - derivation:
       - 'forage%1:04:00::'
       - 'foraging%1:04:00::'
+      event:
+      - 'forage%1:04:00::'
       id: 'forage%2:40:00::'
       subcat:
       - via
@@ -43140,6 +44112,8 @@ foray:
       synset: 02349564-v
     - derivation:
       - 'foray%1:04:00::'
+      event:
+      - 'foray%1:04:00::'
       id: 'foray%2:35:00::'
       subcat:
       - via-pp
@@ -43177,6 +44151,8 @@ forbear:
       - via
       synset: 02731919-v
     - derivation:
+      - 'forbearance%1:04:00::'
+      event:
       - 'forbearance%1:04:00::'
       id: 'forbear%2:42:00::'
       subcat:
@@ -43220,6 +44196,9 @@ forbid:
       - 'permit%2:32:00::'
       derivation:
       - 'forbidding%1:10:00::'
+      - 'forbiddance%1:10:00::'
+      - 'forbiddance%1:04:00::'
+      event:
       - 'forbiddance%1:10:00::'
       - 'forbiddance%1:04:00::'
       id: 'forbid%2:32:00::'
@@ -43329,7 +44308,10 @@ force:
       synset: 00130563-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'force%1:07:01::'
+      - 'force%1:18:00::'
+      derivation:
       - 'force%1:07:01::'
       - 'force%1:18:00::'
       id: 'force%2:41:00::'
@@ -43339,7 +44321,9 @@ force:
       - vtaa-into-ger
       - vtaa-to-inf
       synset: 02510211-v
-    - derivation:
+    - by_means_of:
+      - 'force%1:07:01::'
+      derivation:
       - 'force%1:07:01::'
       id: 'force%2:36:00::'
       sent:
@@ -43350,6 +44334,8 @@ force:
     - also:
       - 'force_out%2:38:00::'
       - 'force_out%2:38:01::'
+      by_means_of:
+      - 'force%1:19:00::'
       derivation:
       - forcible%5:00:00:forceful:00
       - 'force%1:19:00::'
@@ -43362,7 +44348,10 @@ force:
       - vtaa-pp
       - vtai-pp
       synset: 01875972-v
-    - derivation:
+    - by_means_of:
+      - 'force%1:07:01::'
+      - 'force%1:18:00::'
+      derivation:
       - 'force%1:07:01::'
       - 'force%1:18:00::'
       id: 'force%2:32:00::'
@@ -43385,6 +44374,10 @@ force:
       - 'force_out%2:35:01::'
       - 'force_out%2:35:02::'
       - 'force_back%2:35:00::'
+      by_means_of:
+      - 'force%1:07:01::'
+      - 'force%1:19:00::'
+      - 'force%1:18:00::'
       derivation:
       - 'force%1:07:01::'
       - 'force%1:19:00::'
@@ -43394,6 +44387,8 @@ force:
       - vtai
       synset: 01353131-v
     - derivation:
+      - 'force%1:04:01::'
+      event:
       - 'force%1:04:01::'
       id: 'force%2:35:03::'
       subcat:
@@ -43690,7 +44685,11 @@ ford:
       - 'ford%1:17:00::'
       - 'ford%1:04:00::'
       - 'fording%1:04:00::'
+      event:
+      - 'ford%1:04:00::'
       id: 'ford%2:38:00::'
+      location:
+      - 'ford%1:17:00::'
       subcat:
       - vtai
       synset: 01917842-v
@@ -43894,24 +44893,34 @@ forecast:
     - value: ˈfɔːkɑːst
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'forecaster%1:18:00::'
+      derivation:
       - 'forecast%1:10:00::'
       - 'forecaster%1:18:00::'
       - 'forecasting%1:10:00::'
+      event:
+      - 'forecast%1:10:00::'
       id: 'forecast%2:32:00::'
       subcat:
       - via-that
       - vtai
       synset: 00928443-v
-    - derivation:
+    - agent:
+      - 'forecaster%1:18:00::'
+      derivation:
       - 'forecast%1:10:00::'
       - 'forecaster%1:18:00::'
+      event:
+      - 'forecast%1:10:00::'
       id: 'forecast%2:31:00::'
       subcat:
       - via-that
       - vtai
       synset: 00713964-v
     - derivation:
+      - 'forecast%1:10:00::'
+      event:
       - 'forecast%1:10:00::'
       id: 'forecast%2:32:01::'
       subcat:
@@ -44117,6 +45126,8 @@ foreground:
       derivation:
       - 'foreground%1:09:00::'
       id: 'foreground%2:30:00::'
+      location:
+      - 'foreground%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -44471,7 +45482,9 @@ foreordain:
     - value: ˌfɔːɹɔːˈdeɪn
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'foreordination%1:09:00::'
+      derivation:
       - 'foreordination%1:09:00::'
       id: 'foreordain%2:31:01::'
       subcat:
@@ -44479,7 +45492,9 @@ foreordain:
       - vtaa
       - vtia
       synset: 00705076-v
-    - derivation:
+    - by_means_of:
+      - 'foreordination%1:09:00::'
+      derivation:
       - 'foreordination%1:09:00::'
       id: 'foreordain%2:31:00::'
       subcat:
@@ -44717,6 +45732,8 @@ forest:
       - 'forest%1:14:00::'
       - 'forestry%1:09:00::'
       id: 'forest%2:35:00::'
+      result:
+      - 'forest%1:17:00::'
       subcat:
       - vtai
       synset: 01570669-v
@@ -45005,10 +46022,15 @@ forfeit:
       - 'forfeit%1:21:01::'
       - 'forfeit%1:21:00::'
       - 'forfeit%1:04:00::'
+      event:
+      - 'forfeit%1:21:00::'
+      - 'forfeit%1:04:00::'
       id: 'forfeit%2:40:00::'
       subcat:
       - vtai
       synset: 02308311-v
+      undergoer:
+      - 'forfeit%1:21:01::'
 forfeited:
   a:
     sense:
@@ -45076,15 +46098,21 @@ forge:
       synset: 03388492-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'forger%1:18:00::'
+      derivation:
       - 'forge%1:06:00::'
       - 'forger%1:18:00::'
       - 'forging%1:04:00::'
       id: 'forge%2:36:00::'
+      location:
+      - 'forge%1:06:00::'
       subcat:
       - vtai
       synset: 01679140-v
-    - derivation:
+    - agent:
+      - 'forger%1:18:01::'
+      derivation:
       - 'forger%1:18:01::'
       - 'forgery%1:06:00::'
       - 'forgery%1:04:01::'
@@ -45288,7 +46316,9 @@ forgive:
     pronunciation:
     - value: fə(ɹ)ˈɡɪv
     sense:
-    - derivation:
+    - agent:
+      - 'forgiver%1:18:00::'
+      derivation:
       - 'forgiver%1:18:00::'
       id: 'forgive%2:32:00::'
       subcat:
@@ -45425,6 +46455,8 @@ fork:
     sense:
     - derivation:
       - 'fork%1:06:02::'
+      instrument:
+      - 'fork%1:06:02::'
       id: 'fork%2:35:00::'
       subcat:
       - vtai
@@ -45437,6 +46469,8 @@ fork:
       - 'fork%1:04:00::'
       - 'forking%1:25:00::'
       - 'forking%1:04:00::'
+      event:
+      - 'fork%1:04:00::'
       id: 'fork%2:30:00::'
       subcat:
       - vii
@@ -45445,6 +46479,8 @@ fork:
       - 'fork%1:25:00::'
       - 'fork%1:06:00::'
       id: 'fork%2:30:01::'
+      result:
+      - 'fork%1:25:00::'
       subcat:
       - vtai
       synset: 00141734-v
@@ -45597,6 +46633,9 @@ form:
     - derivation:
       - 'formation%1:14:00::'
       - 'formation%1:04:01::'
+      event:
+      - 'formation%1:14:00::'
+      - 'formation%1:04:01::'
       id: 'form%2:41:00::'
       subcat:
       - via
@@ -45607,10 +46646,14 @@ form:
     - derivation:
       - 'form%1:10:02::'
       id: 'form%2:42:00::'
+      result:
+      - 'form%1:10:02::'
       subcat:
       - vtii
       synset: 02627475-v
     - derivation:
+      - 'formation%1:04:02::'
+      event:
       - 'formation%1:04:02::'
       id: 'form%2:42:02::'
       subcat:
@@ -45619,17 +46662,30 @@ form:
       - vii
       - vii-pp
       synset: 02629987-v
-    - derivation:
+    - by_means_of:
+      - 'form%1:06:01::'
+      derivation:
       - 'form%1:06:01::'
       - 'form%1:09:00::'
       - 'formation%1:06:00::'
       - 'formation%1:04:00::'
+      event:
+      - 'formation%1:06:00::'
+      - 'formation%1:04:00::'
       id: 'form%2:30:01::'
+      result:
+      - 'form%1:09:00::'
       subcat:
       - vtai
       synset: 00142011-v
-    - derivation:
+    - by_means_of:
       - 'form%1:06:01::'
+      derivation:
+      - 'form%1:06:01::'
+      - 'formation%1:06:00::'
+      - 'formation%1:04:01::'
+      - 'formation%1:04:00::'
+      event:
       - 'formation%1:06:00::'
       - 'formation%1:04:01::'
       - 'formation%1:04:00::'
@@ -45790,12 +46846,16 @@ formalise:
     sense:
     - derivation:
       - 'formalisation%1:04:00::'
+      event:
+      - 'formalisation%1:04:00::'
       id: 'formalise%2:41:00::'
       subcat:
       - vtai
       - vtii
       synset: 02484525-v
     - derivation:
+      - 'formalisation%1:04:00::'
+      event:
       - 'formalisation%1:04:00::'
       id: 'formalise%2:41:01::'
       subcat:
@@ -45880,12 +46940,16 @@ formalize:
     sense:
     - derivation:
       - 'formalization%1:04:00::'
+      event:
+      - 'formalization%1:04:00::'
       id: 'formalize%2:41:00::'
       subcat:
       - vtai
       - vtii
       synset: 02484525-v
     - derivation:
+      - 'formalization%1:04:00::'
+      event:
       - 'formalization%1:04:00::'
       id: 'formalize%2:41:01::'
       subcat:
@@ -45963,6 +47027,8 @@ format:
       - 'format%1:07:00::'
       - 'formatting%1:10:00::'
       id: 'format%2:36:00::'
+      result:
+      - 'format%1:07:00::'
       subcat:
       - vtai
       synset: 01748949-v
@@ -45970,6 +47036,8 @@ format:
       - 'format%1:10:00::'
       - 'formatting%1:10:00::'
       id: 'format%2:31:10::'
+      result:
+      - 'format%1:10:00::'
       subcat:
       - vtai
       synset: 00702102-v
@@ -45977,6 +47045,8 @@ format:
       - 'format%1:10:00::'
       - 'formatting%1:10:00::'
       id: 'format%2:30:09::'
+      result:
+      - 'format%1:10:00::'
       subcat:
       - vii
       synset: 00564629-v
@@ -46116,6 +47186,8 @@ formicate:
   v:
     sense:
     - derivation:
+      - 'formication%1:26:00::'
+      event:
       - 'formication%1:26:00::'
       id: 'formicate%2:38:00::'
       subcat:
@@ -46262,12 +47334,16 @@ formulate:
     sense:
     - derivation:
       - 'formulation%1:04:00::'
+      event:
+      - 'formulation%1:04:00::'
       id: 'formulate%2:32:03::'
       subcat:
       - vtai
       synset: 00927844-v
     - derivation:
       - 'formula%1:10:01::'
+      - 'formulation%1:04:00::'
+      event:
       - 'formulation%1:04:00::'
       id: 'formulate%2:36:00::'
       sent:
@@ -46276,6 +47352,9 @@ formulate:
       - vtai
       synset: 01635953-v
     - derivation:
+      - 'formulation%1:10:00::'
+      - 'formulation%1:04:00::'
+      event:
       - 'formulation%1:10:00::'
       - 'formulation%1:04:00::'
       id: 'formulate%2:32:00::'
@@ -46287,6 +47366,8 @@ formulate:
       - 'formula%1:09:01::'
       - 'formulation%1:27:00::'
       id: 'formulate%2:36:01::'
+      result:
+      - 'formulation%1:27:00::'
       subcat:
       - vtai
       synset: 01636715-v
@@ -46320,9 +47401,13 @@ fornicate:
     - value: ˈfɔɹ.nɪ.kət
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'fornicator%1:18:00::'
+      derivation:
       - 'fornication%1:04:00::'
       - 'fornicator%1:18:00::'
+      event:
+      - 'fornication%1:04:00::'
       id: 'fornicate%2:35:00::'
       subcat:
       - via
@@ -46475,11 +47560,16 @@ fort:
       - 'fort%1:06:00::'
       - 'fort%1:06:01::'
       id: 'fort%2:38:00::'
+      location:
+      - 'fort%1:06:00::'
+      - 'fort%1:06:01::'
       subcat:
       - via
       - via-pp
       synset: 02027838-v
-    - derivation:
+    - by_means_of:
+      - 'fort%1:06:00::'
+      derivation:
       - 'fort%1:06:00::'
       id: 'fort%2:35:00::'
       subcat:
@@ -46489,6 +47579,9 @@ fort:
       - 'fort%1:06:01::'
       - 'fort%1:06:00::'
       id: 'fort%2:33:00::'
+      location:
+      - 'fort%1:06:01::'
+      - 'fort%1:06:00::'
       subcat:
       - vtaa
       synset: 01157887-v
@@ -46680,8 +47773,12 @@ fortify:
     - value: ˈfɔːtɪfaɪ
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
       - 'fortification%1:09:00::'
+      derivation:
+      - 'fortification%1:09:00::'
+      - 'fortification%1:04:00::'
+      event:
       - 'fortification%1:04:00::'
       id: 'fortify%2:30:01::'
       subcat:
@@ -46690,7 +47787,11 @@ fortify:
       - vtia
       - vtii
       synset: 00221295-v
-    - derivation:
+    - by_means_of:
+      - 'fortification%1:06:00::'
+      - 'fort%1:06:01::'
+      - 'fort%1:06:00::'
+      derivation:
       - 'fortification%1:06:00::'
       - 'fort%1:06:01::'
       - 'fort%1:06:00::'
@@ -46698,7 +47799,10 @@ fortify:
       subcat:
       - vtai
       synset: 01609126-v
-    - derivation:
+    - by_means_of:
+      - 'fortification%1:09:00::'
+      - 'fort%1:06:01::'
+      derivation:
       - 'fortification%1:09:00::'
       - 'fort%1:06:01::'
       id: 'fortify%2:33:00::'
@@ -46707,12 +47811,16 @@ fortify:
       synset: 01089608-v
     - derivation:
       - 'fortification%1:04:00::'
+      event:
+      - 'fortification%1:04:00::'
       id: 'fortify%2:30:02::'
       subcat:
       - vtai
       - vtii
       synset: 00222754-v
     - derivation:
+      - 'fortification%1:04:00::'
+      event:
       - 'fortification%1:04:00::'
       id: 'fortify%2:30:00::'
       subcat:
@@ -47230,12 +48338,16 @@ fossilise:
     sense:
     - derivation:
       - 'fossilisation%1:22:00::'
+      event:
+      - 'fossilisation%1:22:00::'
       id: 'fossilise%2:30:00::'
       subcat:
       - vii
       - vtii
       synset: 00508745-v
     - derivation:
+      - 'fossilisation%1:04:00::'
+      event:
       - 'fossilisation%1:04:00::'
       id: 'fossilise%2:30:02::'
       subcat:
@@ -47271,6 +48383,8 @@ fossilize:
     - derivation:
       - 'fossilization%1:22:00::'
       - 'fossil%1:17:00::'
+      event:
+      - 'fossilization%1:22:00::'
       id: 'fossilize%2:30:00::'
       subcat:
       - vii
@@ -47510,6 +48624,8 @@ foul:
     sense:
     - derivation:
       - 'foul%1:04:01::'
+      event:
+      - 'foul%1:04:01::'
       id: 'foul%2:33:01::'
       subcat:
       - via
@@ -47526,6 +48642,8 @@ foul:
       - vtii
       synset: 01481233-v
     - derivation:
+      - 'foul%1:04:01::'
+      event:
       - 'foul%1:04:01::'
       id: 'foul%2:33:00::'
       subcat:
@@ -47694,7 +48812,9 @@ found:
       synset: 13301031-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'founder%1:18:00::'
+      derivation:
       - 'foundation%1:14:00::'
       - 'founder%1:18:00::'
       - 'founding%1:04:00::'
@@ -47702,10 +48822,16 @@ found:
       subcat:
       - vtai
       synset: 02431950-v
-    - derivation:
+      undergoer:
+      - 'foundation%1:14:00::'
+    - agent:
+      - 'founder%1:18:00::'
+      derivation:
       - 'foundation%1:04:00::'
       - 'founder%1:18:00::'
       - 'founding%1:04:00::'
+      event:
+      - 'foundation%1:04:00::'
       id: 'found%2:36:00::'
       subcat:
       - vtai
@@ -47717,6 +48843,9 @@ found:
       subcat:
       - vtai-pp
       synset: 00638550-v
+      undergoer:
+      - 'foundation%1:24:00::'
+      - 'foundation%1:09:00::'
 foundation:
   n:
     pronunciation:
@@ -48375,7 +49504,9 @@ fowl:
     pronunciation:
     - value: faʊl
     sense:
-    - derivation:
+    - agent:
+      - 'fowler%1:18:00::'
+      derivation:
       - 'fowler%1:18:00::'
       - 'fowl%1:05:00::'
       id: 'fowl%2:33:01::'
@@ -48384,6 +49515,8 @@ fowl:
       subcat:
       - via
       synset: 01148410-v
+      undergoer:
+      - 'fowl%1:05:00::'
     - derivation:
       - 'fowl%1:05:00::'
       id: 'fowl%2:33:00::'
@@ -48393,6 +49526,8 @@ fowl:
       - via
       - via-pp
       synset: 01145365-v
+      undergoer:
+      - 'fowl%1:05:00::'
 fowl cholera:
   n:
     sense:
@@ -48448,7 +49583,9 @@ fox:
     - value: fɑks
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'fox%1:18:00::'
+      derivation:
       - 'fox%1:18:00::'
       id: 'fox%2:41:00::'
       subcat:
@@ -48547,6 +49684,8 @@ foxhunt:
     - derivation:
       - 'foxhunt%1:04:00::'
       - 'fox_hunting%1:04:00::'
+      event:
+      - 'foxhunt%1:04:00::'
       id: 'foxhunt%2:33:00::'
       sent:
       - In the summer they like to go out and foxhunt
@@ -48689,6 +49828,8 @@ fraction:
     - derivation:
       - 'fraction%1:23:00::'
       id: 'fraction%2:31:00::'
+      result:
+      - 'fraction%1:23:00::'
       subcat:
       - via
       synset: 00643760-v
@@ -48736,6 +49877,9 @@ fractionate:
     - derivation:
       - 'fractionation%1:22:00::'
       - 'fractionation%1:04:00::'
+      event:
+      - 'fractionation%1:22:00::'
+      - 'fractionation%1:04:00::'
       id: 'fractionate%2:35:01::'
       subcat:
       - vtai
@@ -48743,7 +49887,11 @@ fractionate:
     - derivation:
       - 'fraction%1:27:00::'
       - 'fractionation%1:22:00::'
+      event:
+      - 'fractionation%1:22:00::'
       id: 'fractionate%2:35:00::'
+      result:
+      - 'fraction%1:27:00::'
       subcat:
       - vtai
       synset: 01462171-v
@@ -48803,7 +49951,6 @@ fracture:
       - 'fracture%2:29:00::'
       - 'fracture%2:29:02::'
       - 'fracture%2:30:10::'
-      - 'fracture%2:29:11::'
       id: 'fracture%1:26:00::'
       synset: 14315592-n
     - derivation:
@@ -48813,7 +49960,6 @@ fracture:
     - derivation:
       - 'fracture%2:29:00::'
       - 'fracture%2:30:10::'
-      - 'fracture%2:29:11::'
       id: 'fracture%1:04:00::'
       synset: 00377802-n
   v:
@@ -48833,7 +49979,12 @@ fracture:
       - 'fracture%1:04:00::'
       - 'fracture%1:26:00::'
       - 'fracture%1:17:00::'
+      event:
+      - 'fracture%1:04:00::'
+      - 'fracture%1:26:00::'
       id: 'fracture%2:30:10::'
+      location:
+      - 'fracture%1:17:00::'
       sent:
       - The girls fracture the wooden sticks
       - These glasses fracture easily
@@ -48842,6 +49993,8 @@ fracture:
       - vtii
       synset: 00336176-v
     - derivation:
+      - 'fracture%1:26:00::'
+      event:
       - 'fracture%1:26:00::'
       id: 'fracture%2:29:02::'
       sent:
@@ -48852,16 +50005,12 @@ fracture:
     - derivation:
       - 'fracture%1:04:00::'
       - 'fracture%1:26:00::'
+      event:
+      - 'fracture%1:04:00::'
+      - 'fracture%1:26:00::'
       id: 'fracture%2:29:00::'
       sent:
       - Did he fracture his foot?
-      subcat:
-      - vtai
-      synset: 00107543-v
-    - derivation:
-      - 'fracture%1:04:00::'
-      - 'fracture%1:26:00::'
-      id: 'fracture%2:29:11::'
       subcat:
       - vtai
       synset: 00107543-v
@@ -48932,7 +50081,17 @@ fragment:
       - 'fragmentation%1:22:00::'
       - 'fragmentation%1:11:00::'
       - 'fragmentation%1:04:00::'
+      event:
+      - 'fragmentation%1:26:00::'
+      - 'fragmentation%1:11:00::'
+      - 'fragmentation%1:04:00::'
       id: 'fragment%2:30:00::'
+      result:
+      - 'fragment%1:17:01::'
+      - 'fragment%1:10:00::'
+      - 'fragment%1:06:00::'
+      state:
+      - 'fragmentation%1:22:00::'
       subcat:
       - vtaa-of
       synset: 00338881-v
@@ -48996,6 +50155,8 @@ fragmentize:
     - derivation:
       - 'fragment%1:17:01::'
       id: 'fragmentize%2:30:00::'
+      result:
+      - 'fragment%1:17:01::'
       subcat:
       - vtaa-of
       synset: 00338881-v
@@ -49177,11 +50338,15 @@ frame:
       - 'framing%1:06:00::'
       - 'frame%1:06:00::'
       id: 'frame%2:35:00::'
+      location:
+      - 'frame%1:06:02::'
       subcat:
       - vtai
       - vtii
       synset: 01589771-v
-    - derivation:
+    - agent:
+      - 'framer%1:18:01::'
+      derivation:
       - 'framer%1:18:01::'
       - 'framing%1:06:00::'
       - 'frame%1:06:00::'
@@ -49201,7 +50366,9 @@ frame:
       subcat:
       - vtai-pp
       synset: 00983308-v
-    - derivation:
+    - agent:
+      - 'framer%1:18:00::'
+      derivation:
       - 'framer%1:18:00::'
       - 'framing%1:04:00::'
       id: 'frame%2:31:00::'
@@ -49330,6 +50497,9 @@ franchise:
       - vtaa
       - vtai
       synset: 02452407-v
+      undergoer:
+      - 'franchise%1:14:00::'
+      - 'franchise%1:10:00::'
 franchise tax:
   n:
     sense:
@@ -49578,6 +50748,8 @@ fraternise:
     - derivation:
       - 'fraternisation%1:04:00::'
       - 'fraternity%1:14:00::'
+      event:
+      - 'fraternisation%1:04:00::'
       id: 'fraternise%2:41:00::'
       subcat:
       - via
@@ -49618,6 +50790,8 @@ fraternize:
     - derivation:
       - 'fraternization%1:04:00::'
       - 'fraternity%1:14:00::'
+      event:
+      - 'fraternization%1:04:00::'
       id: 'fraternize%2:41:00::'
       subcat:
       - via
@@ -49773,6 +50947,8 @@ frazzle:
     - derivation:
       - 'frazzle%1:26:00::'
       id: 'frazzle%2:29:00::'
+      state:
+      - 'frazzle%1:26:00::'
       subcat:
       - vtia
       synset: 00075461-v
@@ -49872,6 +51048,8 @@ freckle:
     - derivation:
       - 'freckle%1:08:00::'
       id: 'freckle%2:30:00::'
+      result:
+      - 'freckle%1:08:00::'
       subcat:
       - vtia
       synset: 00510938-v
@@ -49936,6 +51114,8 @@ free:
       - 'free%1:14:00::'
       - 'freeing%1:04:00::'
       id: 'free%2:41:00::'
+      result:
+      - 'free%1:14:00::'
       sent:
       - They want to free the prisoners
       subcat:
@@ -50564,7 +51744,9 @@ freeload:
     pronunciation:
     - value: ˈfɹiːloʊd
     sense:
-    - derivation:
+    - agent:
+      - 'freeloader%1:18:00::'
+      derivation:
       - 'freeloader%1:18:00::'
       id: 'freeload%2:40:00::'
       subcat:
@@ -50677,7 +51859,9 @@ freewheel:
       synset: 03398597-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'freewheeler%1:18:00::'
+      derivation:
       - 'freewheeler%1:18:00::'
       id: 'freewheel%2:42:00::'
       subcat:
@@ -50752,6 +51936,8 @@ freeze:
       derivation:
       - 'freeze%1:22:01::'
       - 'freezing%1:22:00::'
+      event:
+      - 'freeze%1:22:01::'
       id: 'freeze%2:30:00::'
       sent:
       - The water freezes
@@ -50763,6 +51949,8 @@ freeze:
       synset: 00374806-v
     - derivation:
       - 'freeze%1:19:00::'
+      event:
+      - 'freeze%1:19:00::'
       id: 'freeze%2:29:00::'
       subcat:
       - via
@@ -50772,6 +51960,10 @@ freeze:
       - 'freeze%1:22:01::'
       - 'freezer%1:06:00::'
       - 'freezing%1:22:00::'
+      event:
+      - 'freeze%1:22:01::'
+      instrument:
+      - 'freezer%1:06:00::'
       id: 'freeze%2:30:02::'
       sent:
       - The chefs freeze the vegetables
@@ -50781,12 +51973,16 @@ freeze:
       synset: 00376536-v
     - derivation:
       - 'freeze%1:04:01::'
+      event:
+      - 'freeze%1:04:01::'
       id: 'freeze%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00364146-v
-    - derivation:
+    - by_means_of:
+      - 'freeze%1:19:00::'
+      derivation:
       - 'freeze%1:19:00::'
       - 'freezing%1:22:00::'
       id: 'freeze%2:43:10::'
@@ -50804,6 +52000,8 @@ freeze:
     - antonym:
       - 'unfreeze%2:30:01::'
       derivation:
+      - 'freeze%1:04:02::'
+      event:
       - 'freeze%1:04:02::'
       id: 'freeze%2:30:03::'
       sent:
@@ -50929,10 +52127,14 @@ freight:
       - 'freighter%1:06:00::'
       - 'freightage%1:21:00::'
       - 'freightage%1:04:00::'
+      event:
+      - 'freight%1:04:00::'
       id: 'freight%2:38:00::'
       subcat:
       - vtai
       synset: 01955135-v
+      vehicle:
+      - 'freighter%1:06:00::'
     - derivation:
       - 'freight%1:06:00::'
       - 'freighter%1:06:00::'
@@ -50942,6 +52144,10 @@ freight:
       subcat:
       - vtai
       synset: 01491790-v
+      undergoer:
+      - 'freight%1:06:00::'
+      vehicle:
+      - 'freighter%1:06:00::'
 freight agent:
   n:
     sense:
@@ -51123,7 +52329,9 @@ frequent:
     - value: fɹɪˈkwɛnt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'frequenter%1:18:00::'
+      derivation:
       - 'frequent%3:00:00::'
       - 'frequenter%1:18:00::'
       id: 'frequent%2:41:00::'
@@ -51131,7 +52339,9 @@ frequent:
       - vtaa
       - vtai
       synset: 02471557-v
-    - derivation:
+    - agent:
+      - 'frequenter%1:18:00::'
+      derivation:
       - 'frequent%3:00:00::'
       - 'frequenter%1:18:00::'
       id: 'frequent%2:38:00::'
@@ -51192,7 +52402,11 @@ fresco:
     - derivation:
       - 'fresco%1:04:00::'
       - 'fresco%1:06:00::'
+      event:
+      - 'fresco%1:04:00::'
       id: 'fresco%2:36:00::'
+      result:
+      - 'fresco%1:06:00::'
       subcat:
       - vtai
       synset: 01687166-v
@@ -51301,7 +52515,9 @@ fresh-cut:
 freshen:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'freshener%1:06:00::'
+      derivation:
       - 'freshener%1:06:00::'
       id: 'freshen%2:30:00::'
       subcat:
@@ -51316,6 +52532,8 @@ freshen:
       synset: 00024807-v
     - also:
       - 'freshen_up%2:29:02::'
+      by_means_of:
+      - 'freshener%1:06:00::'
       derivation:
       - 'freshener%1:06:00::'
       id: 'freshen%2:29:00::'
@@ -51500,6 +52718,8 @@ fret:
     sense:
     - derivation:
       - 'fret%1:26:00::'
+      event:
+      - 'fret%1:26:00::'
       id: 'fret%2:37:03::'
       sent:
       - Sam and Sue fret over the results of the experiment
@@ -51520,9 +52740,13 @@ fret:
       subcat:
       - vtai
       synset: 02335105-v
+      uses:
+      - 'fret%1:06:00::'
     - derivation:
       - 'fret%1:07:00::'
       id: 'fret%2:39:00::'
+      result:
+      - 'fret%1:07:00::'
       subcat:
       - vii
       - vtai
@@ -51546,12 +52770,16 @@ fret:
       subcat:
       - vtai
       synset: 01755833-v
+      uses:
+      - 'fret%1:06:01::'
     - derivation:
       - 'fret%1:06:01::'
       id: 'fret%2:36:00::'
       subcat:
       - vtai
       synset: 01755530-v
+      uses:
+      - 'fret%1:06:01::'
     - id: 'fret%2:35:03::'
       subcat:
       - vtaa
@@ -51695,11 +52923,15 @@ fricassee:
     - derivation:
       - 'fricassee%1:13:00::'
       id: 'fricassee%2:30:00::'
+      result:
+      - 'fricassee%1:13:00::'
       sent:
       - The chefs fricassee the vegetables
       subcat:
       - vtai
       synset: 00324504-v
+      undergoer:
+      - 'fricassee%1:13:00::'
 fricative:
   a:
     pronunciation:
@@ -52259,12 +53491,16 @@ fringe:
       subcat:
       - vtai
       synset: 01754829-v
+      uses:
+      - 'fringe%1:06:00::'
     - derivation:
       - 'fringe%1:06:00::'
       id: 'fringe%2:35:00::'
       subcat:
       - vtii
       synset: 01470380-v
+      uses:
+      - 'fringe%1:06:00::'
 fringe benefit:
   n:
     sense:
@@ -52386,6 +53622,8 @@ frisk:
     - derivation:
       - 'frisk%1:04:00::'
       - 'frisking%1:04:00::'
+      event:
+      - 'frisk%1:04:00::'
       id: 'frisk%2:35:00::'
       subcat:
       - vtaa
@@ -52612,6 +53850,8 @@ frock:
       subcat:
       - vtaa
       synset: 00048629-v
+      uses:
+      - 'frock%1:06:00::'
 frock coat:
   n:
     sense:
@@ -52741,6 +53981,8 @@ frolic:
       variety: US
     sense:
     - derivation:
+      - 'frolic%1:04:00::'
+      event:
       - 'frolic%1:04:00::'
       id: 'frolic%2:38:00::'
       subcat:
@@ -52890,6 +54132,9 @@ front:
       subcat:
       - vtii
       synset: 02699161-v
+      undergoer:
+      - 'front%1:15:02::'
+      - 'front%1:15:00::'
     - derivation:
       - 'front%1:15:00::'
       - 'front%1:06:00::'
@@ -52900,6 +54145,9 @@ front:
       - vtia
       - vtii
       synset: 01081565-v
+      undergoer:
+      - 'front%1:15:00::'
+      - 'front%1:06:00::'
 front bench:
   n:
     sense:
@@ -53223,11 +54471,17 @@ frost:
     - derivation:
       - 'frost%1:22:01::'
       - 'frost%1:27:00::'
+      event:
+      - 'frost%1:22:01::'
       id: 'frost%2:35:04::'
       subcat:
       - vtii
       synset: 01211020-v
+      uses:
+      - 'frost%1:27:00::'
     - derivation:
+      - 'frost%1:19:00::'
+      event:
       - 'frost%1:19:00::'
       id: 'frost%2:30:00::'
       subcat:
@@ -53379,12 +54633,16 @@ froth:
     - derivation:
       - 'froth%1:17:00::'
       id: 'froth%2:30:00::'
+      result:
+      - 'froth%1:17:00::'
       subcat:
       - vii
       synset: 00520443-v
     - derivation:
       - 'froth%1:17:00::'
       id: 'froth%2:30:01::'
+      result:
+      - 'froth%1:17:00::'
       subcat:
       - vii
       synset: 00512936-v
@@ -53464,6 +54722,8 @@ frown:
   v:
     sense:
     - derivation:
+      - 'frown%1:10:00::'
+      event:
       - 'frown%1:10:00::'
       id: 'frown%2:29:00::'
       subcat:
@@ -53613,7 +54873,11 @@ fructify:
     - derivation:
       - 'fruit%1:20:00::'
       - 'fructification%1:22:00::'
+      event:
+      - 'fructification%1:22:00::'
       id: 'fructify%2:30:00::'
+      result:
+      - 'fruit%1:20:00::'
       subcat:
       - vii
       synset: 00507753-v
@@ -53625,10 +54889,14 @@ fructify:
     - derivation:
       - 'fructification%1:22:00::'
       - 'fruit%1:20:00::'
+      event:
+      - 'fructification%1:22:00::'
       id: 'fructify%2:29:00::'
       subcat:
       - vii
       synset: 00055930-v
+      undergoer:
+      - 'fruit%1:20:00::'
 fructose:
   n:
     pronunciation:
@@ -53713,14 +54981,20 @@ fruit:
       subcat:
       - vtai
       synset: 01656437-v
+      undergoer:
+      - 'fruit%1:20:00::'
     - derivation:
       - 'fruit%1:20:00::'
       - 'fruition%1:26:00::'
       - 'fruitage%1:20:00::'
       id: 'fruit%2:36:00::'
+      state:
+      - 'fruition%1:26:00::'
       subcat:
       - vii
       synset: 01656273-v
+      undergoer:
+      - 'fruit%1:20:00::'
 fruit bar:
   n:
     sense:
@@ -54006,7 +55280,12 @@ frustrate:
       - 'frustration%1:12:01::'
       - 'frustration%1:12:00::'
       - 'frustration%1:04:02::'
+      event:
+      - 'frustration%1:04:02::'
       id: 'frustrate%2:41:00::'
+      state:
+      - 'frustration%1:12:01::'
+      - 'frustration%1:12:00::'
       subcat:
       - vtai
       - vtii
@@ -54016,6 +55295,8 @@ frustrate:
       id: 'frustrate%2:37:00::'
       sent:
       - The performance is likely to frustrate Sue
+      state:
+      - 'frustration%1:12:01::'
       subcat:
       - vtaa
       - vtia
@@ -54107,6 +55388,9 @@ fry:
       - vii
       - vtai
       synset: 00326129-v
+      undergoer:
+      - 'fryer%1:13:00::'
+      - 'frier%1:13:00::'
     - id: 'fry%2:41:00::'
       sent:
       - They want to fry the prisoners
@@ -54199,6 +55483,8 @@ fuck:
     sense:
     - derivation:
       - 'fucking%1:04:00::'
+      - 'fuck%1:04:00::'
+      event:
       - 'fuck%1:04:00::'
       id: 'fuck%2:35:00::'
       sent:
@@ -54444,12 +55730,16 @@ fuel:
       subcat:
       - vtai
       synset: 02343382-v
+      uses:
+      - 'fuel%1:27:00::'
     - derivation:
       - 'fuel%1:27:00::'
       id: 'fuel%2:40:01::'
       subcat:
       - vtii
       synset: 02361419-v
+      uses:
+      - 'fuel%1:27:00::'
     - derivation:
       - 'fuel%1:27:00::'
       - 'fueling%1:04:00::'
@@ -54458,6 +55748,8 @@ fuel:
       - vii
       - vii-pp
       synset: 02241806-v
+      undergoer:
+      - 'fuel%1:27:00::'
     - id: 'fuel%2:37:00::'
       subcat:
       - vtia
@@ -54698,6 +55990,8 @@ fulfil:
     sense:
     - derivation:
       - 'fulfilment%1:04:00::'
+      event:
+      - 'fulfilment%1:04:00::'
       id: 'fulfil%2:36:00::'
       subcat:
       - vtai
@@ -54709,6 +56003,8 @@ fulfil:
       - vtai
       synset: 01185870-v
     - derivation:
+      - 'fulfilment%1:04:00::'
+      event:
       - 'fulfilment%1:04:00::'
       id: 'fulfil%2:42:00::'
       subcat:
@@ -54730,6 +56026,8 @@ fulfill:
       - vtai
       synset: 01644397-v
     - derivation:
+      - 'fulfillment%1:04:00::'
+      event:
       - 'fulfillment%1:04:00::'
       id: 'fulfill%2:42:00::'
       subcat:
@@ -54852,7 +56150,9 @@ full:
       synset: 00010928-r
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'fuller%1:18:00::'
+      derivation:
       - 'fuller%1:18:00::'
       id: 'full%2:35:02::'
       subcat:
@@ -55264,6 +56564,8 @@ fulminate:
     sense:
     - derivation:
       - 'fulmination%1:10:00::'
+      event:
+      - 'fulmination%1:10:00::'
       id: 'fulminate%2:32:00::'
       subcat:
       - via-pp
@@ -55275,6 +56577,8 @@ fulminate:
       - vii
       synset: 00426334-v
     - derivation:
+      - 'fulmination%1:04:01::'
+      event:
       - 'fulmination%1:04:01::'
       id: 'fulminate%2:30:00::'
       subcat:
@@ -55370,7 +56674,9 @@ fumble:
       subcat:
       - vtai
       synset: 01213583-v
-    - derivation:
+    - agent:
+      - 'fumbler%1:18:00::'
+      derivation:
       - 'fumbler%1:18:00::'
       id: 'fumble%2:41:00::'
       subcat:
@@ -55378,6 +56684,8 @@ fumble:
       - vtai
       synset: 02533317-v
     - derivation:
+      - 'fumble%1:04:00::'
+      event:
       - 'fumble%1:04:00::'
       id: 'fumble%2:33:00::'
       subcat:
@@ -55425,6 +56733,8 @@ fume:
       subcat:
       - vii
       synset: 02773880-v
+      undergoer:
+      - 'fume%1:19:00::'
     - id: 'fume%2:39:00::'
       subcat:
       - vtai
@@ -55480,6 +56790,8 @@ fumigate:
       - 'fumigant%1:27:00::'
       - 'fumigator%1:18:00::'
       - 'fumigator%1:06:00::'
+      event:
+      - 'fumigation%1:04:00::'
       id: 'fumigate%2:39:00::'
       subcat:
       - vtai
@@ -55593,7 +56905,11 @@ function:
       synset: 01528454-v
     - derivation:
       - 'function%1:07:00::'
+      event:
+      - 'function%1:07:00::'
       id: 'function%2:42:12::'
+      property:
+      - 'function%1:07:00::'
       subcat:
       - via
       - vii
@@ -55603,6 +56919,8 @@ function:
     - derivation:
       - 'function%1:04:00::'
       - 'functionary%1:18:00::'
+      event:
+      - 'function%1:04:00::'
       id: 'function%2:33:00::'
       subcat:
       - via
@@ -55774,16 +57092,22 @@ fund:
     - derivation:
       - 'fund%1:21:00::'
       id: 'fund%2:40:01::'
+      result:
+      - 'fund%1:21:00::'
       subcat:
       - vtai
       synset: 02223417-v
-    - derivation:
+    - by_means_of:
+      - 'fund%1:14:00::'
+      derivation:
       - 'fund%1:14:00::'
       id: 'fund%2:40:05::'
       subcat:
       - vtai
       synset: 02220865-v
-    - derivation:
+    - by_means_of:
+      - 'fund%1:14:00::'
+      derivation:
       - 'fund%1:14:00::'
       id: 'fund%2:40:04::'
       subcat:
@@ -55807,6 +57131,8 @@ fund:
       - vtaa
       - vtai
       synset: 02220288-v
+      undergoer:
+      - 'fund%1:21:00::'
 fund raise:
   v:
     sense:
@@ -56365,6 +57691,9 @@ funnel:
     - derivation:
       - 'funnel%1:06:01::'
       - 'funnel%1:25:00::'
+      instrument:
+      - 'funnel%1:06:01::'
+      - 'funnel%1:25:00::'
       id: 'funnel%2:35:00::'
       sent:
       - The women funnel water into the bowl
@@ -56563,6 +57892,8 @@ furcate:
     - derivation:
       - 'furcation%1:25:00::'
       id: 'furcate%2:30:00::'
+      location:
+      - 'furcation%1:25:00::'
       subcat:
       - vii
       synset: 00329612-v
@@ -56708,6 +58039,8 @@ furlough:
       subcat:
       - vtaa
       synset: 00750809-v
+      uses:
+      - 'furlough%1:28:00::'
 furnace:
   n:
     pronunciation:
@@ -56882,6 +58215,8 @@ furrow:
     - derivation:
       - 'furrow%1:06:00::'
       id: 'furrow%2:35:00::'
+      result:
+      - 'furrow%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -56889,6 +58224,8 @@ furrow:
     - derivation:
       - 'furrow%1:25:00::'
       id: 'furrow%2:35:01::'
+      result:
+      - 'furrow%1:25:00::'
       subcat:
       - vtai
       - vtii
@@ -56953,12 +58290,16 @@ further:
     sense:
     - derivation:
       - 'furtherance%1:10:00::'
+      event:
+      - 'furtherance%1:10:00::'
       id: 'further%2:41:01::'
       subcat:
       - vtai
       - vtii
       synset: 02560130-v
     - derivation:
+      - 'furtherance%1:10:00::'
+      event:
       - 'furtherance%1:10:00::'
       id: 'further%2:41:00::'
       subcat:
@@ -57122,6 +58463,9 @@ fuse:
       - fusible%5:00:00:melted:00
       - 'fusion%1:11:00::'
       - 'fusion%1:04:00::'
+      event:
+      - 'fusion%1:11:00::'
+      - 'fusion%1:04:00::'
       id: 'fuse%2:30:00::'
       subcat:
       - via
@@ -57144,8 +58488,13 @@ fuse:
       subcat:
       - vtai
       synset: 01140255-v
+      uses:
+      - 'fuse%1:06:00::'
+      - 'fuse%1:06:01::'
     - derivation:
       - fusible%5:00:00:melted:00
+      - 'fusion%1:04:00::'
+      event:
       - 'fusion%1:04:00::'
       id: 'fuse%2:30:02::'
       subcat:
@@ -57246,6 +58595,8 @@ fusillade:
     sense:
     - derivation:
       - 'fusillade%1:04:00::'
+      event:
+      - 'fusillade%1:04:00::'
       id: 'fusillade%2:33:00::'
       subcat:
       - vtaa
@@ -57321,6 +58672,8 @@ fuss:
     sense:
     - derivation:
       - 'fuss%1:26:00::'
+      event:
+      - 'fuss%1:26:00::'
       id: 'fuss%2:37:00::'
       sent:
       - Sam and Sue fuss over the results of the experiment
@@ -57329,6 +58682,8 @@ fuss:
       - via-pp
       synset: 01797944-v
     - derivation:
+      - 'fuss%1:04:00::'
+      event:
       - 'fuss%1:04:00::'
       id: 'fuss%2:41:00::'
       subcat:

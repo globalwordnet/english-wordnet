@@ -55,6 +55,10 @@ def sense_from_yaml(y, lemma, pos, n):
                 # Remap senses
                 s.add_sense_relation(SenseRelation(
                     map_sense_key(target), SenseRelType(rel)))
+        if rel in OtherSenseRelType._value2member_map_:
+            for target in targets:
+                s.add_sense_relation(SenseRelation(
+                    map_sense_key(target), SenseRelType.OTHER, rel))
     if "sent" in y:
         s.sent = y["sent"]
     if "subcat" in y:

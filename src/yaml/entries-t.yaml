@@ -9667,7 +9667,11 @@ taboo:
     - derivation:
       - 'taboo%1:07:00::'
       - 'taboo%1:09:00::'
+      event:
+      - 'taboo%1:09:00::'
       id: 'taboo%2:41:00::'
+      result:
+      - 'taboo%1:07:00::'
       subcat:
       - vtai
       synset: 02514626-v
@@ -9769,6 +9773,9 @@ tabulate:
       - 'tabulation%1:10:00::'
       - 'tabulation%1:04:00::'
       - 'table%1:14:00::'
+      event:
+      - 'tabulation%1:10:00::'
+      - 'tabulation%1:04:00::'
       id: 'tabulate%2:36:00::'
       subcat:
       - vtai
@@ -9950,23 +9957,34 @@ tack:
       synset: 00315221-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'tacker%1:18:01::'
+      - 'tacker%1:18:00::'
+      also:
       - 'tack_on%2:35:00::'
+      by_means_of:
+      - 'tack%1:06:00::'
       derivation:
       - 'tack%1:06:00::'
       - 'tacker%1:06:00::'
       - 'tacker%1:18:01::'
       - 'tacker%1:18:00::'
+      instrument:
+      - 'tacker%1:06:00::'
       id: 'tack%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01360132-v
-    - derivation:
+    - by_means_of:
+      - 'tack%1:06:02::'
+      derivation:
       - 'tack%1:06:02::'
       - 'tack%1:15:00::'
       - 'tacking%1:04:00::'
       id: 'tack%2:38:00::'
+      property:
+      - 'tack%1:15:00::'
       subcat:
       - via
       - vtai
@@ -9977,7 +9995,9 @@ tack:
       - vtia
       - vtii
       synset: 01660471-v
-    - derivation:
+    - agent:
+      - 'tacker%1:18:00::'
+      derivation:
       - 'tacker%1:18:00::'
       id: 'tack%2:35:05::'
       subcat:
@@ -9990,6 +10010,8 @@ tack:
       - vtai-to
       synset: 01331195-v
     - derivation:
+      - 'tack%1:04:01::'
+      event:
       - 'tack%1:04:01::'
       id: 'tack%2:30:02::'
       subcat:
@@ -10088,10 +10110,15 @@ tackle:
       - vtai
       - vtai-pp
       synset: 01494354-v
-    - derivation:
+    - agent:
+      - 'tackler%1:18:00::'
+      - 'tackle%1:18:00::'
+      derivation:
       - 'tackle%1:18:00::'
       - 'tackle%1:04:00::'
       - 'tackler%1:18:00::'
+      event:
+      - 'tackle%1:04:00::'
       id: 'tackle%2:33:01::'
       subcat:
       - vtaa
@@ -10492,7 +10519,11 @@ tag:
       - vtai
       - vtai-with
       synset: 01591414-v
+      uses:
+      - 'tag%1:10:00::'
     - derivation:
+      - 'tag%1:04:00::'
+      event:
       - 'tag%1:04:00::'
       id: 'tag%2:35:01::'
       subcat:
@@ -10505,6 +10536,8 @@ tag:
     - also:
       - 'tag_along%2:38:00::'
       derivation:
+      - 'tag%1:04:01::'
+      event:
       - 'tag%1:04:01::'
       id: 'tag%2:38:00::'
       subcat:
@@ -10651,7 +10684,9 @@ tail:
       synset: 04323784-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tail%1:18:00::'
+      derivation:
       - 'tail%1:18:00::'
       - 'tailing%1:04:00::'
       id: 'tail%2:38:00::'
@@ -10668,6 +10703,8 @@ tail:
       subcat:
       - vtai
       synset: 01558960-v
+      undergoer:
+      - 'tail%1:05:00::'
     - id: 'tail%2:35:01::'
       subcat:
       - vtai
@@ -10800,7 +10837,9 @@ tailgate:
     pronunciation:
     - value: ˈteɪlˌɡeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'tailgater%1:18:00::'
+      derivation:
       - 'tailgater%1:18:00::'
       id: 'tailgate%2:38:00::'
       sent:
@@ -10867,13 +10906,17 @@ tailor:
       subcat:
       - vtai
       synset: 00302443-v
-    - derivation:
+    - agent:
+      - 'tailor%1:18:00::'
+      derivation:
       - 'tailor%1:18:00::'
       id: 'tailor%2:36:01::'
       subcat:
       - vtai
       synset: 01670612-v
-    - derivation:
+    - agent:
+      - 'tailor%1:18:00::'
+      derivation:
       - 'tailor%1:18:00::'
       - 'tailoring%1:04:00::'
       id: 'tailor%2:36:00::'
@@ -11004,6 +11047,8 @@ taint:
       - vtii
       synset: 01540747-v
     - derivation:
+      - 'taint%1:26:00::'
+      event:
       - 'taint%1:26:00::'
       id: 'taint%2:29:00::'
       subcat:
@@ -11137,7 +11182,9 @@ take:
       - vtaa
       - vtai
       synset: 00676526-v
-    - also:
+    - agent:
+      - 'taker%1:18:02::'
+      also:
       - 'take_over%2:40:00::'
       - 'take_over%2:40:06::'
       - 'take_up%2:40:00::'
@@ -11168,6 +11215,8 @@ take:
       synset: 02113499-v
     - derivation:
       - 'take%1:04:00::'
+      event:
+      - 'take%1:04:00::'
       id: 'take%2:32:02::'
       sent:
       - Sam cannot take Sue
@@ -11194,7 +11243,9 @@ take:
       subcat:
       - vtai
       synset: 01159300-v
-    - derivation:
+    - agent:
+      - 'taker%1:18:01::'
+      derivation:
       - 'taker%1:18:01::'
       id: 'take%2:31:09::'
       subcat:
@@ -11272,6 +11323,8 @@ take:
       subcat:
       - vtai
       synset: 02214527-v
+      undergoer:
+      - 'take%1:21:00::'
     - also:
       - 'take_out%2:40:00::'
       id: 'take%2:40:02::'
@@ -12182,6 +12235,8 @@ take over:
     sense:
     - derivation:
       - 'takeover%1:04:02::'
+      event:
+      - 'takeover%1:04:02::'
       id: 'take_over%2:40:07::'
       subcat:
       - vtai
@@ -12202,6 +12257,8 @@ take over:
       - vtai
       synset: 02306786-v
     - derivation:
+      - 'takeover%1:04:01::'
+      event:
       - 'takeover%1:04:01::'
       id: 'take_over%2:40:03::'
       subcat:
@@ -12820,6 +12877,8 @@ talc:
       subcat:
       - vtai
       synset: 00042095-v
+      uses:
+      - 'talc%1:27:00::'
 talcum:
   n:
     sense:
@@ -12985,6 +13044,9 @@ talk:
       - 'talk%1:10:03::'
       - 'talk%1:10:00::'
       - 'talking%1:10:00::'
+      event:
+      - 'talk%1:10:03::'
+      - 'talk%1:10:00::'
       id: 'talk%2:32:01::'
       sent:
       - Sam and Sue talk
@@ -12995,18 +13057,27 @@ talk:
       - vii
       - vii-pp
       synset: 00964479-v
-    - derivation:
+    - agent:
+      - 'talker%1:18:00::'
+      derivation:
       - 'talk%1:10:03::'
       - 'talk%1:10:00::'
       - 'talker%1:18:00::'
+      event:
+      - 'talk%1:10:03::'
+      - 'talk%1:10:00::'
       id: 'talk%2:32:00::'
       subcat:
       - via
       - via-pp
       synset: 00944022-v
-    - derivation:
+    - agent:
+      - 'talker%1:18:00::'
+      derivation:
       - 'talk%1:10:00::'
       - 'talker%1:18:00::'
+      event:
+      - 'talk%1:10:00::'
       id: 'talk%2:32:03::'
       sent:
       - Sam and Sue talk
@@ -13015,6 +13086,8 @@ talk:
       - vtai
       synset: 00965602-v
     - derivation:
+      - 'talk%1:10:00::'
+      event:
       - 'talk%1:10:00::'
       id: 'talk%2:32:02::'
       subcat:
@@ -13025,13 +13098,19 @@ talk:
       derivation:
       - talkative%5:00:00:indiscreet:00
       - 'talk%1:10:01::'
+      event:
+      - 'talk%1:10:01::'
       id: 'talk%2:32:06::'
       subcat:
       - via
       synset: 00939238-v
-    - derivation:
+    - agent:
+      - 'talker%1:18:00::'
+      derivation:
       - 'talk%1:10:02::'
       - 'talker%1:18:00::'
+      event:
+      - 'talk%1:10:02::'
       id: 'talk%2:32:05::'
       sent:
       - Sam and Sue talk
@@ -13494,6 +13573,8 @@ tally:
       synset: 02663315-v
     - derivation:
       - 'tally%1:04:01::'
+      event:
+      - 'tally%1:04:01::'
       id: 'tally%2:33:00::'
       subcat:
       - via
@@ -13501,11 +13582,15 @@ tally:
       synset: 01114241-v
     - derivation:
       - 'tally%1:04:01::'
+      event:
+      - 'tally%1:04:01::'
       id: 'tally%2:32:01::'
       subcat:
       - via
       synset: 00951873-v
     - derivation:
+      - 'tally%1:04:00::'
+      event:
       - 'tally%1:04:00::'
       id: 'tally%2:32:00::'
       subcat:
@@ -13734,7 +13819,9 @@ tame:
       subcat:
       - vtai
       synset: 00303245-v
-    - derivation:
+    - agent:
+      - 'tamer%1:18:00::'
+      derivation:
       - tameable%5:00:00:tractable:00
       - tamable%5:00:00:tractable:00
       - 'tamer%1:18:00::'
@@ -13825,6 +13912,9 @@ tamp:
     - derivation:
       - 'tamper%1:06:00::'
       - 'tamp%1:06:00::'
+      instrument:
+      - 'tamper%1:06:00::'
+      - 'tamp%1:06:00::'
       id: 'tamp%2:35:00::'
       subcat:
       - vtai
@@ -13885,6 +13975,8 @@ tampon:
     - derivation:
       - 'tamponage%1:26:00::'
       - 'tampon%1:06:00::'
+      instrument:
+      - 'tampon%1:06:00::'
       id: 'tampon%2:35:00::'
       subcat:
       - vtai
@@ -13924,7 +14016,9 @@ tan:
     - tanned
     - tanning
     sense:
-    - derivation:
+    - agent:
+      - 'tanner%1:18:00::'
+      derivation:
       - 'tanner%1:18:00::'
       - 'tanning%1:04:00::'
       - 'tannery%1:06:00::'
@@ -13935,6 +14029,8 @@ tan:
     - derivation:
       - 'tan%1:26:00::'
       - 'tanning%1:22:00::'
+      event:
+      - 'tan%1:26:00::'
       id: 'tan%2:29:00::'
       subcat:
       - via
@@ -14202,6 +14298,8 @@ tangle:
       synset: 02683607-v
     - derivation:
       - 'tangle%1:09:00::'
+      event:
+      - 'tangle%1:09:00::'
       id: 'tangle%2:35:03::'
       subcat:
       - vii
@@ -14211,6 +14309,8 @@ tangle:
     - derivation:
       - 'tangle%1:17:00::'
       id: 'tangle%2:35:01::'
+      result:
+      - 'tangle%1:17:00::'
       subcat:
       - vtai
       - vtii
@@ -14218,6 +14318,8 @@ tangle:
     - derivation:
       - 'tangle%1:17:00::'
       id: 'tangle%2:35:00::'
+      result:
+      - 'tangle%1:17:00::'
       sent:
       - They tangle their hair
       subcat:
@@ -14275,6 +14377,9 @@ tango:
       variety: US
     sense:
     - derivation:
+      - 'tango%1:10:00::'
+      - 'tango%1:04:00::'
+      event:
       - 'tango%1:10:00::'
       - 'tango%1:04:00::'
       id: 'tango%2:38:00::'
@@ -14336,6 +14441,8 @@ tank:
       subcat:
       - vtai
       synset: 02286927-v
+      undergoer:
+      - 'tank%1:23:00::'
     - id: 'tank%2:34:00::'
       subcat:
       - via
@@ -14606,7 +14713,9 @@ tansy-smelling:
 tantalise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tantaliser%1:18:00::'
+      derivation:
       - 'tantaliser%1:18:00::'
       - 'tantalus%1:18:00::'
       id: 'tantalise%2:32:00::'
@@ -14646,7 +14755,9 @@ tantalize:
     pronunciation:
     - value: ˈtæntəlaɪz
     sense:
-    - derivation:
+    - agent:
+      - 'tantalizer%1:18:00::'
+      derivation:
       - 'tantalizer%1:18:00::'
       - 'tantalus%1:18:00::'
       - 'tantalization%1:04:00::'
@@ -14758,9 +14869,13 @@ tap:
     - tapped
     - tapping
     sense:
-    - derivation:
+    - agent:
+      - 'tapper%1:18:02::'
+      derivation:
       - 'tap%1:06:02::'
       - 'tapper%1:18:02::'
+      instrument:
+      - 'tap%1:06:02::'
       id: 'tap%2:35:02::'
       subcat:
       - vtai
@@ -14771,11 +14886,17 @@ tap:
       - vtai-pp
       - vtii
       synset: 02317298-v
-    - derivation:
+    - agent:
+      - 'tapper%1:18:04::'
+      derivation:
       - 'tap%1:11:00::'
       - 'tap%1:04:00::'
       - 'tap%1:11:01::'
       - 'tapper%1:18:04::'
+      event:
+      - 'tap%1:11:00::'
+      - 'tap%1:04:00::'
+      - 'tap%1:11:01::'
       id: 'tap%2:35:00::'
       subcat:
       - vtaa-pp
@@ -14786,31 +14907,45 @@ tap:
       subcat:
       - vtai
       synset: 01166589-v
-    - derivation:
+    - agent:
+      - 'tapper%1:18:00::'
+      derivation:
       - 'tap%1:04:01::'
       - 'tapper%1:18:00::'
+      event:
+      - 'tap%1:04:01::'
       id: 'tap%2:39:00::'
       subcat:
       - vtai
       synset: 02193294-v
-    - derivation:
+    - agent:
+      - 'tapper%1:18:01::'
+      derivation:
       - 'tap%1:06:01::'
       - 'tapper%1:18:01::'
       id: 'tap%2:40:04::'
       subcat:
       - vtai
       synset: 02365273-v
+      uses:
+      - 'tap%1:06:01::'
     - derivation:
       - 'tap%1:11:01::'
       - 'tap%1:04:00::'
       - 'tap%1:11:00::'
       - 'tapping%1:11:00::'
+      event:
+      - 'tap%1:11:01::'
+      - 'tap%1:04:00::'
+      - 'tap%1:11:00::'
       id: 'tap%2:39:01::'
       subcat:
       - via-pp
       - vii
       synset: 02189819-v
     - derivation:
+      - 'tap%1:11:00::'
+      event:
       - 'tap%1:11:00::'
       id: 'tap%2:38:00::'
       sent:
@@ -14819,7 +14954,9 @@ tap:
       - via
       - via-pp
       synset: 01905014-v
-    - derivation:
+    - agent:
+      - 'tapper%1:18:03::'
+      derivation:
       - 'tap%1:06:03::'
       - 'tapper%1:18:03::'
       id: 'tap%2:38:01::'
@@ -14828,7 +14965,9 @@ tap:
       subcat:
       - via
       synset: 01899750-v
-    - derivation:
+    - agent:
+      - 'tapper%1:18:01::'
+      derivation:
       - 'tap%1:06:01::'
       - 'tapper%1:18:01::'
       id: 'tap%2:38:04::'
@@ -14855,6 +14994,8 @@ tap dance:
   v:
     sense:
     - derivation:
+      - 'tap_dance%1:04:00::'
+      event:
       - 'tap_dance%1:04:00::'
       id: 'tap_dance%2:36:00::'
       sent:
@@ -14948,17 +15089,23 @@ tape:
     pronunciation:
     - value: teɪ̯p
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tape%1:06:00::'
+      derivation:
       - 'tape%1:06:00::'
       id: 'tape%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01334500-v
-    - derivation:
+    - by_means_of:
+      - 'tape%1:06:04::'
+      derivation:
       - 'tape%1:06:04::'
       - 'tape%1:06:01::'
       id: 'tape%2:32:03::'
+      result:
+      - 'tape%1:06:01::'
       sent:
       - Sam and Sue tape the movie
       subcat:
@@ -14966,11 +15113,15 @@ tape:
       - vtaa
       - vtai
       synset: 01005094-v
-    - derivation:
+    - by_means_of:
+      - 'tape%1:06:04::'
+      derivation:
       - 'tape%1:06:01::'
       - 'tape%1:06:04::'
       - 'taping%1:06:00::'
       id: 'tape%2:32:00::'
+      result:
+      - 'tape%1:06:01::'
       sent:
       - They will tape the duet
       subcat:
@@ -15025,6 +15176,8 @@ tape record:
     - derivation:
       - 'tape_recorder%1:06:00::'
       - 'tape_recording%1:06:00::'
+      instrument:
+      - 'tape_recorder%1:06:00::'
       id: 'tape_record%2:32:00::'
       sent:
       - They will tape record the duet
@@ -15105,6 +15258,12 @@ taper:
       - 'taper%1:07:00::'
       - 'taper%1:25:00::'
       id: 'taper%2:30:00::'
+      property:
+      - 'taper%1:07:00::'
+      result:
+      - 'taper%1:25:00::'
+      state:
+      - 'taper%1:07:00::'
       subcat:
       - vtai
       synset: 00393662-v
@@ -15367,6 +15526,8 @@ tar:
       subcat:
       - vtai
       synset: 01275021-v
+      uses:
+      - 'tar%1:27:00::'
 tar paper:
   n:
     sense:
@@ -15551,7 +15712,9 @@ target:
     - value: tɑːɡɪt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'target%1:18:00::'
+      derivation:
       - 'target%1:09:00::'
       - 'target%1:18:00::'
       id: 'target%2:33:00::'
@@ -15559,6 +15722,8 @@ target:
       - vtaa
       - vtai
       synset: 01153025-v
+      undergoer:
+      - 'target%1:09:00::'
 target acquisition system:
   n:
     sense:
@@ -15634,6 +15799,8 @@ tariff:
     sense:
     - derivation:
       - 'tariff%1:21:00::'
+      event:
+      - 'tariff%1:21:00::'
       id: 'tariff%2:40:00::'
       subcat:
       - vtai
@@ -15662,6 +15829,9 @@ tarmac:
       subcat:
       - vtai
       synset: 01606339-v
+      uses:
+      - 'tarmac%1:27:00::'
+      - 'tarmac%1:06:00::'
 tarmacadam:
   n:
     sense:
@@ -15693,6 +15863,8 @@ tarnish:
     - value: ˈtɑɹnɪʃ
     sense:
     - derivation:
+      - 'tarnish%1:07:00::'
+      event:
       - 'tarnish%1:07:00::'
       id: 'tarnish%2:35:00::'
       subcat:
@@ -15830,6 +16002,8 @@ tarry:
       - via-pp
       synset: 02645159-v
     - derivation:
+      - 'tarriance%1:04:00::'
+      event:
       - 'tarriance%1:04:00::'
       id: 'tarry%2:38:00::'
       subcat:
@@ -16059,6 +16233,9 @@ task:
     - derivation:
       - 'task%1:04:00::'
       - 'task%1:04:01::'
+      event:
+      - 'task%1:04:00::'
+      - 'task%1:04:01::'
       id: 'task%2:41:00::'
       subcat:
       - vtai-with
@@ -16179,6 +16356,8 @@ taste:
       - 'taste%1:04:00::'
       - 'taste%1:09:04::'
       - 'taste%1:09:02::'
+      event:
+      - 'taste%1:09:02::'
       id: 'taste%2:39:02::'
       sent:
       - The food does taste good
@@ -16186,17 +16365,24 @@ taste:
       - vii
       - vii-adj
       synset: 02198732-v
-    - derivation:
+    - by_means_of:
+      - 'taste%1:04:00::'
+      - 'taste%1:09:04::'
+      derivation:
       - 'taste%1:04:00::'
       - 'taste%1:09:04::'
       - 'taste%1:09:02::'
       - 'tasting%1:04:00::'
+      event:
+      - 'taste%1:09:02::'
       id: 'taste%2:39:00::'
       subcat:
       - via
       - vtai
       synset: 02195992-v
-    - derivation:
+    - agent:
+      - 'taster%1:18:00::'
+      derivation:
       - 'taste%1:13:00::'
       - 'taster%1:18:00::'
       - 'tasting%1:09:00::'
@@ -16207,16 +16393,26 @@ taste:
       subcat:
       - vtai
       synset: 01197832-v
+      undergoer:
+      - 'taste%1:13:00::'
     - derivation:
       - 'taste%1:04:00::'
       - 'taste%1:09:04::'
       - 'taste%1:09:02::'
       - 'tasting%1:04:00::'
+      event:
+      - 'taste%1:04:00::'
+      - 'taste%1:09:02::'
       id: 'taste%2:39:12::'
       subcat:
       - vtii
       synset: 02198941-v
-    - derivation:
+    - agent:
+      - 'taster%1:18:00::'
+      by_means_of:
+      - 'taste%1:04:00::'
+      - 'taste%1:09:04::'
+      derivation:
       - 'taste%1:04:00::'
       - 'taste%1:09:04::'
       - 'taste%1:09:02::'
@@ -16225,7 +16421,11 @@ taste:
       subcat:
       - vtai
       synset: 02197438-v
+      undergoer:
+      - 'taste%1:09:02::'
     - derivation:
+      - 'taste%1:11:00::'
+      event:
       - 'taste%1:11:00::'
       id: 'taste%2:31:05::'
       subcat:
@@ -16529,9 +16729,13 @@ tattle:
       subcat:
       - via
       synset: 01038676-v
-    - derivation:
+    - agent:
+      - 'tattler%1:18:00::'
+      derivation:
       - 'tattle%1:10:00::'
       - 'tattler%1:18:00::'
+      event:
+      - 'tattle%1:10:00::'
       id: 'tattle%2:32:01::'
       subcat:
       - via
@@ -16587,6 +16791,9 @@ tattoo:
   v:
     sense:
     - derivation:
+      - 'tattoo%1:04:00::'
+      - 'tattoo%1:06:00::'
+      event:
       - 'tattoo%1:04:00::'
       - 'tattoo%1:06:00::'
       id: 'tattoo%2:36:00::'
@@ -16654,6 +16861,8 @@ taunt:
     sense:
     - derivation:
       - 'taunting%1:04:00::'
+      - 'taunt%1:04:00::'
+      event:
       - 'taunt%1:04:00::'
       id: 'taunt%2:32:00::'
       subcat:
@@ -16929,18 +17138,27 @@ tax:
       synset: 13330021-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'taxer%1:18:00::'
+      derivation:
       - 'taxable%3:00:00::'
       - 'tax%1:21:00::'
       - 'taxation%1:21:01::'
       - 'taxation%1:21:00::'
       - 'taxation%1:04:00::'
       - 'taxer%1:18:00::'
+      event:
+      - 'taxation%1:21:00::'
+      - 'taxation%1:04:00::'
       id: 'tax%2:40:00::'
+      result:
+      - 'taxation%1:21:01::'
       subcat:
       - vtaa
       - vtai
       synset: 02312527-v
+      uses:
+      - 'tax%1:21:00::'
     - id: 'tax%2:40:01::'
       subcat:
       - vtai
@@ -17212,6 +17430,8 @@ taxi:
       subcat:
       - via
       synset: 01952866-v
+      vehicle:
+      - 'taxi%1:06:00::'
 taxi dancer:
   n:
     sense:
@@ -17650,7 +17870,11 @@ teach:
     form:
     - taught
     sense:
-    - derivation:
+    - agent:
+      - 'teacher%1:18:00::'
+      by_means_of:
+      - 'teacher%1:09:00::'
+      derivation:
       - teachable%5:00:00:tractable:00
       - 'teacher%1:18:00::'
       - 'teacher%1:09:00::'
@@ -17668,7 +17892,11 @@ teach:
       - vtai-to
       - vtia
       synset: 00830768-v
-    - derivation:
+    - agent:
+      - 'teacher%1:18:00::'
+      by_means_of:
+      - 'teacher%1:09:00::'
+      derivation:
       - teachable%5:00:00:tractable:00
       - 'teacher%1:18:00::'
       - 'teacher%1:09:00::'
@@ -17852,6 +18080,8 @@ team:
     - derivation:
       - 'team%1:14:00::'
       id: 'team%2:33:00::'
+      result:
+      - 'team%1:14:00::'
       subcat:
       - via-pp
       synset: 01091696-v
@@ -17945,7 +18175,11 @@ tear:
       derivation:
       - 'tear%1:04:00::'
       - 'tear%1:17:00::'
+      event:
+      - 'tear%1:04:00::'
       id: 'tear%2:35:00::'
+      result:
+      - 'tear%1:17:00::'
       sent:
       - They tear the sheets
       subcat:
@@ -17956,7 +18190,11 @@ tear:
     - derivation:
       - 'tear%1:04:00::'
       - 'tear%1:17:00::'
+      event:
+      - 'tear%1:04:00::'
       id: 'tear%2:35:01::'
+      result:
+      - 'tear%1:17:00::'
       subcat:
       - vii
       - vtai
@@ -17985,6 +18223,8 @@ tear:
       subcat:
       - vii
       synset: 00066748-v
+      undergoer:
+      - 'tear%1:08:01::'
 tear apart:
   v:
     pronunciation:
@@ -18246,26 +18486,38 @@ tease:
     pronunciation:
     - value: tiːz
     sense:
-    - derivation:
+    - agent:
+      - 'teaser%1:18:00::'
+      - 'tease%1:18:00::'
+      derivation:
       - 'tease%1:04:00::'
       - 'tease%1:18:00::'
       - 'teaser%1:18:00::'
+      event:
+      - 'tease%1:04:00::'
       id: 'tease%2:37:00::'
       sent:
       - Sam cannot tease Sue
       subcat:
       - vtaa
       synset: 01807344-v
-    - derivation:
+    - agent:
+      - 'teaser%1:18:00::'
+      - 'tease%1:18:00::'
+      derivation:
       - 'tease%1:04:00::'
       - 'tease%1:18:00::'
       - 'teaser%1:18:00::'
       - 'teasing%1:04:00::'
+      event:
+      - 'tease%1:04:00::'
       id: 'tease%2:32:00::'
       subcat:
       - vtaa
       synset: 00852181-v
-    - derivation:
+    - agent:
+      - 'tease%1:18:01::'
+      derivation:
       - 'tease%1:18:01::'
       id: 'tease%2:37:01::'
       subcat:
@@ -18279,9 +18531,13 @@ tease:
       subcat:
       - vtai
       synset: 01534423-v
-    - derivation:
+    - agent:
+      - 'teaser%1:18:01::'
+      derivation:
       - 'teaser%1:06:01::'
       - 'teaser%1:18:01::'
+      instrument:
+      - 'teaser%1:06:01::'
       id: 'tease%2:35:01::'
       subcat:
       - vtai
@@ -18291,7 +18547,10 @@ tease:
       - vtai
       - vtii
       synset: 01358959-v
-    - derivation:
+    - agent:
+      - 'teaser%1:18:00::'
+      - 'tease%1:18:01::'
+      derivation:
       - 'tease%1:18:01::'
       - 'teaser%1:18:00::'
       id: 'tease%2:32:09::'
@@ -18862,6 +19121,9 @@ tee:
     - derivation:
       - 'tee%1:06:00::'
       - 'tee%1:15:00::'
+      destination:
+      - 'tee%1:06:00::'
+      - 'tee%1:15:00::'
       id: 'tee%2:35:00::'
       subcat:
       - vtai
@@ -19123,7 +19385,9 @@ teetotal:
       synset: 00803524-s
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'teetotaller%1:18:00::'
+      derivation:
       - 'teetotaller%1:18:00::'
       id: 'teetotal%2:34:00::'
       subcat:
@@ -19271,9 +19535,13 @@ telecast:
       synset: 06635102-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'telecaster%1:18:00::'
+      derivation:
       - 'telecaster%1:18:00::'
       - 'telecasting%1:10:00::'
+      - 'telecast%1:10:00::'
+      event:
       - 'telecast%1:10:00::'
       id: 'telecast%2:32:00::'
       sent:
@@ -19324,6 +19592,8 @@ telecommunicate:
   v:
     sense:
     - derivation:
+      - 'telecommunication%1:10:00::'
+      event:
       - 'telecommunication%1:10:00::'
       id: 'telecommunicate%2:32:00::'
       subcat:
@@ -19418,7 +19688,11 @@ telegraph:
     - value: ˈtɛl.ə.ɡɹæf
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'telegrapher%1:18:00::'
+      by_means_of:
+      - 'telegraph%1:06:00::'
+      derivation:
       - 'telegraphist%1:18:00::'
       - 'telegrapher%1:18:00::'
       - 'telegraph%1:06:00::'
@@ -19698,10 +19972,16 @@ telephone:
     - value: ˈ tɛl.əˌfoʊn
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'telephoner%1:18:00::'
+      by_means_of:
+      - 'telephone%1:06:00::'
+      derivation:
       - 'telephone%1:10:00::'
       - 'telephone%1:06:00::'
       - 'telephoner%1:18:00::'
+      event:
+      - 'telephone%1:10:00::'
       id: 'telephone%2:32:00::'
       sent:
       - Sam cannot telephone Sue
@@ -19927,6 +20207,8 @@ teleport:
     sense:
     - derivation:
       - 'teleportation%1:04:00::'
+      event:
+      - 'teleportation%1:04:00::'
       id: 'teleport%2:38:00::'
       subcat:
       - vtai
@@ -20069,6 +20351,9 @@ televise:
     - value: ˈtɛlɪvaɪz
     sense:
     - derivation:
+      - 'television%1:10:00::'
+      - 'television%1:06:00::'
+      event:
       - 'television%1:10:00::'
       - 'television%1:06:00::'
       id: 'televise%2:32:00::'
@@ -20220,7 +20505,9 @@ telex:
     - value: tɛlɛks
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'telex%1:06:00::'
+      derivation:
       - 'telex%1:06:00::'
       id: 'telex%2:32:00::'
       sent:
@@ -20261,7 +20548,9 @@ tell:
     form:
     - told
     sense:
-    - derivation:
+    - agent:
+      - 'teller%1:18:03::'
+      derivation:
       - 'teller%1:18:03::'
       - 'telling%1:10:00::'
       id: 'tell%2:32:04::'
@@ -20280,7 +20569,9 @@ tell:
       subcat:
       - via-that
       synset: 00954556-v
-    - derivation:
+    - agent:
+      - 'teller%1:18:03::'
+      derivation:
       - 'tale%1:10:00::'
       - 'teller%1:18:03::'
       - 'telling%1:10:01::'
@@ -20612,7 +20903,11 @@ temper:
       - 'temper%1:07:01::'
       - 'tempering%1:04:00::'
       - 'temperance%1:04:01::'
+      event:
+      - 'temperance%1:04:01::'
       id: 'temper%2:30:04::'
+      state:
+      - 'temper%1:07:01::'
       subcat:
       - vtai
       synset: 00303837-v
@@ -20620,7 +20915,11 @@ temper:
       - 'temper%1:07:01::'
       - 'tempering%1:04:00::'
       - 'temperance%1:04:01::'
+      event:
+      - 'temperance%1:04:01::'
       id: 'temper%2:30:02::'
+      state:
+      - 'temper%1:07:01::'
       subcat:
       - vtai
       synset: 00303656-v
@@ -20636,7 +20935,11 @@ temper:
     - derivation:
       - 'temper%1:12:01::'
       - 'temper%1:07:02::'
+      event:
+      - 'temper%1:12:01::'
       id: 'temper%2:30:03::'
+      state:
+      - 'temper%1:07:02::'
       subcat:
       - vtaa
       synset: 00203298-v
@@ -21134,7 +21437,9 @@ temporary worker:
 temporise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'temporiser%1:18:00::'
+      derivation:
       - 'temporiser%1:18:00::'
       id: 'temporise%2:30:00::'
       subcat:
@@ -21155,7 +21460,9 @@ temporize:
     - value: ˈtɛmpəˌɹaɪz
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'temporizer%1:18:00::'
+      derivation:
       - 'temporizer%1:18:00::'
       id: 'temporize%2:30:00::'
       subcat:
@@ -21178,10 +21485,14 @@ tempt:
     pronunciation:
     - value: tɛmpt
     sense:
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'temptation%1:12:00::'
       - 'tempter%1:18:00::'
+      event:
+      - 'temptation%1:12:00::'
       id: 'tempt%2:32:01::'
       sent:
       - They tempt him to write the letter
@@ -21190,16 +21501,24 @@ tempt:
       - vtaa-to-inf
       - vtia
       synset: 00795447-v
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'temptation%1:04:00::'
       - 'tempter%1:18:00::'
+      event:
+      - 'temptation%1:04:00::'
       id: 'tempt%2:32:04::'
       subcat:
       - vtaa
       - vtaa-into-ger
       synset: 00784574-v
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      by_means_of:
+      - 'temptation%1:09:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'temptation%1:09:00::'
       - 'tempter%1:18:00::'
@@ -21207,10 +21526,14 @@ tempt:
       subcat:
       - vtia
       synset: 01811496-v
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'temptation%1:04:00::'
       - 'tempter%1:18:00::'
+      event:
+      - 'temptation%1:04:00::'
       id: 'tempt%2:32:00::'
       sent:
       - They tempt him to write the letter
@@ -21218,14 +21541,18 @@ tempt:
       - vtaa
       - vtaa-into-ger
       synset: 00778568-v
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'tempter%1:18:00::'
       id: 'tempt%2:37:01::'
       subcat:
       - vtaa
       synset: 01811737-v
-    - derivation:
+    - agent:
+      - 'tempter%1:18:00::'
+      derivation:
       - temptable%5:00:00:susceptible:00
       - 'tempter%1:18:00::'
       id: 'tempt%2:32:03::'
@@ -21494,7 +21821,10 @@ tenant:
     pronunciation:
     - value: ˈtɛ.nənt
     sense:
-    - derivation:
+    - agent:
+      - 'tenant%1:18:01::'
+      - 'tenant%1:18:00::'
+      derivation:
       - 'tenant%1:18:01::'
       - 'tenant%1:18:00::'
       - 'tenantry%1:14:00::'
@@ -21536,7 +21866,9 @@ tend:
       subcat:
       - via-to-inf
       synset: 02725274-v
-    - derivation:
+    - agent:
+      - 'tender%1:18:00::'
+      derivation:
       - 'tender%1:18:00::'
       - 'tending%1:04:00::'
       id: 'tend%2:41:00::'
@@ -21670,6 +22002,8 @@ tender:
       synset: 02301576-v
     - derivation:
       - 'tender%1:10:00::'
+      event:
+      - 'tender%1:10:00::'
       id: 'tender%2:40:02::'
       subcat:
       - via
@@ -21677,6 +22011,8 @@ tender:
       - vtai-pp
       synset: 02303593-v
     - derivation:
+      - 'tender%1:10:00::'
+      event:
       - 'tender%1:10:00::'
       id: 'tender%2:40:00::'
       subcat:
@@ -21741,7 +22077,11 @@ tenderise:
     - derivation:
       - 'tenderisation%1:04:00::'
       - 'tenderiser%1:27:00::'
+      event:
+      - 'tenderisation%1:04:00::'
       id: 'tenderise%2:30:00::'
+      material:
+      - 'tenderiser%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -21772,7 +22112,11 @@ tenderize:
       - 'tender%3:00:01::'
       - 'tenderization%1:04:00::'
       - 'tenderizer%1:27:00::'
+      event:
+      - 'tenderization%1:04:00::'
       id: 'tenderize%2:30:00::'
+      material:
+      - 'tenderizer%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -22230,11 +22574,17 @@ tense:
     - derivation:
       - 'tension%1:19:00::'
       - 'tension%1:04:00::'
+      event:
+      - 'tension%1:19:00::'
+      - 'tension%1:04:00::'
       id: 'tense%2:35:00::'
       subcat:
       - vii
       synset: 01575559-v
     - derivation:
+      - 'tension%1:19:00::'
+      - 'tension%1:04:00::'
+      event:
       - 'tension%1:19:00::'
       - 'tension%1:04:00::'
       id: 'tense%2:30:00::'
@@ -22244,10 +22594,14 @@ tense:
       synset: 00537384-v
     - antonym:
       - 'relax%2:29:00::'
+      body_part:
+      - 'tensor%1:08:00::'
       derivation:
       - 'tension%1:26:01::'
       - 'tensor%1:08:00::'
       id: 'tense%2:29:01::'
+      state:
+      - 'tension%1:26:01::'
       subcat:
       - via
       - vibody
@@ -22258,6 +22612,8 @@ tense:
       derivation:
       - 'tension%1:26:01::'
       id: 'tense%2:29:00::'
+      state:
+      - 'tension%1:26:01::'
       subcat:
       - vtai
       - vtia
@@ -22655,6 +23011,8 @@ tenure:
       subcat:
       - vtaa
       synset: 02402602-v
+      uses:
+      - 'tenure%1:28:00::'
 tenured:
   a:
     sense:
@@ -22926,12 +23284,16 @@ tergiversate:
     sense:
     - derivation:
       - 'tergiversation%1:04:00::'
+      event:
+      - 'tergiversation%1:04:00::'
       id: 'tergiversate%2:32:01::'
       subcat:
       - via
       - via-pp
       synset: 00837185-v
     - derivation:
+      - 'tergiversation%1:04:01::'
+      event:
       - 'tergiversation%1:04:01::'
       id: 'tergiversate%2:32:00::'
       subcat:
@@ -22997,6 +23359,8 @@ term:
       subcat:
       - vtai
       synset: 01031675-v
+      uses:
+      - 'term%1:10:00::'
 term infant:
   n:
     sense:
@@ -23136,6 +23500,8 @@ terminate:
     sense:
     - derivation:
       - terminative%5:00:00:closing:00
+      - 'termination%1:04:00::'
+      event:
       - 'termination%1:04:00::'
       id: 'terminate%2:30:01::'
       sent:
@@ -23426,9 +23792,13 @@ terrace:
       subcat:
       - vtai
       synset: 02231162-v
+      uses:
+      - 'terrace%1:06:00::'
     - derivation:
       - 'terrace%1:17:00::'
       id: 'terrace%2:30:00::'
+      result:
+      - 'terrace%1:17:00::'
       subcat:
       - vtai
       synset: 00141569-v
@@ -23645,10 +24015,14 @@ terrify:
       id: 'terrify%2:37:00::'
       sent:
       - The bad news will terrify him
+      state:
+      - 'terror%1:12:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01784760-v
+      uses:
+      - 'terror%1:12:00::'
 terrifying:
   a:
     pronunciation:
@@ -23729,11 +24103,15 @@ territorialise:
     sense:
     - derivation:
       - 'territorialisation%1:04:00::'
+      event:
+      - 'territorialisation%1:04:00::'
       id: 'territorialise%2:41:00::'
       subcat:
       - vtai
       synset: 02437822-v
     - derivation:
+      - 'territorialisation%1:04:00::'
+      event:
       - 'territorialisation%1:04:00::'
       id: 'territorialise%2:30:01::'
       subcat:
@@ -23766,11 +24144,15 @@ territorialize:
     sense:
     - derivation:
       - 'territorialization%1:04:00::'
+      event:
+      - 'territorialization%1:04:00::'
       id: 'territorialize%2:41:00::'
       subcat:
       - vtai
       synset: 02437822-v
     - derivation:
+      - 'territorialization%1:04:00::'
+      event:
       - 'territorialization%1:04:00::'
       id: 'territorialize%2:30:01::'
       subcat:
@@ -23857,14 +24239,22 @@ terrorise:
     - derivation:
       - 'terrorisation%1:04:01::'
       - 'terror%1:12:00::'
+      event:
+      - 'terrorisation%1:04:01::'
       id: 'terrorise%2:41:00::'
+      state:
+      - 'terror%1:12:00::'
       subcat:
       - vtaa
       synset: 02512010-v
     - derivation:
       - 'terrorisation%1:04:00::'
       - 'terror%1:12:00::'
+      event:
+      - 'terrorisation%1:04:00::'
       id: 'terrorise%2:37:00::'
+      state:
+      - 'terror%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -23933,18 +24323,26 @@ terrorize:
     - derivation:
       - 'terrorization%1:04:01::'
       - 'terror%1:12:00::'
+      event:
+      - 'terrorization%1:04:01::'
       id: 'terrorize%2:41:00::'
       sent:
       - Sam cannot terrorize Sue
+      state:
+      - 'terror%1:12:00::'
       subcat:
       - vtaa
       synset: 02512010-v
     - derivation:
       - 'terrorization%1:04:00::'
       - 'terror%1:12:00::'
+      event:
+      - 'terrorization%1:04:00::'
       id: 'terrorize%2:37:00::'
       sent:
       - The bad news will terrorize him
+      state:
+      - 'terror%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -24079,6 +24477,8 @@ tessellate:
       - 'tessellation%1:04:00::'
       - 'tessera%1:06:00::'
       - 'tessella%1:06:00::'
+      event:
+      - 'tessellation%1:04:00::'
       id: 'tessellate%2:35:00::'
       subcat:
       - vtai
@@ -24152,6 +24552,8 @@ test:
     - derivation:
       - 'test%1:09:02::'
       - 'testing%1:04:00::'
+      event:
+      - 'test%1:09:02::'
       id: 'test%2:41:00::'
       subcat:
       - vtai
@@ -24161,26 +24563,41 @@ test:
       - vtaa
       - vtai
       synset: 02538775-v
-    - derivation:
+    - agent:
+      - 'tester%1:18:00::'
+      by_means_of:
+      - 'test%1:10:00::'
+      derivation:
       - 'test%1:10:00::'
       - 'test%1:04:03::'
       - 'test%1:04:02::'
       - 'testee%1:18:00::'
       - 'tester%1:18:00::'
       - 'testing%1:04:02::'
+      event:
+      - 'test%1:04:03::'
+      - 'test%1:04:02::'
       id: 'test%2:32:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 00788120-v
+      undergoer:
+      - 'testee%1:18:00::'
     - derivation:
       - 'test%1:04:00::'
       - 'testing%1:04:03::'
+      event:
+      - 'test%1:04:00::'
       id: 'test%2:42:00::'
       subcat:
       - via-adj
       synset: 02751588-v
     - derivation:
+      - 'test%1:04:03::'
+      - 'test%1:04:02::'
+      - 'test%1:10:00::'
+      event:
       - 'test%1:04:03::'
       - 'test%1:04:02::'
       - 'test%1:10:00::'
@@ -24191,15 +24608,23 @@ test:
     - derivation:
       - 'test%1:04:00::'
       - 'testing%1:04:03::'
+      event:
+      - 'test%1:04:00::'
       id: 'test%2:32:08::'
       subcat:
       - vtai
       synset: 00922749-v
-    - derivation:
+    - agent:
+      - 'testee%1:18:00::'
+      derivation:
       - 'test%1:10:00::'
       - 'test%1:04:03::'
       - 'test%1:04:02::'
       - 'testee%1:18:00::'
+      event:
+      - 'test%1:10:00::'
+      - 'test%1:04:03::'
+      - 'test%1:04:02::'
       id: 'test%2:31:06::'
       subcat:
       - via-adj
@@ -24233,8 +24658,12 @@ test drive:
       synset: 05808395-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'test_driver%1:18:00::'
+      derivation:
+      - 'test_driver%1:18:00::'
+      - 'test_drive%1:09:00::'
+      event:
       - 'test_drive%1:09:00::'
       id: 'test_drive%2:38:00::'
       subcat:
@@ -24489,7 +24918,9 @@ testify:
     pronunciation:
     - value: ˈtɛstɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'testifier%1:18:00::'
+      derivation:
       - 'testimony%1:10:02::'
       - 'testimony%1:10:01::'
       - 'testifier%1:18:00::'
@@ -24500,7 +24931,13 @@ testify:
       subcat:
       - via
       synset: 01016830-v
-    - derivation:
+      uses:
+      - 'testimony%1:10:02::'
+      - 'testimony%1:10:01::'
+      - 'testimony%1:10:00::'
+    - agent:
+      - 'testifier%1:18:00::'
+      derivation:
       - 'testimony%1:10:02::'
       - 'testimony%1:10:01::'
       - 'testifier%1:18:00::'
@@ -24511,6 +24948,9 @@ testify:
       - vtai
       - vtii
       synset: 01017253-v
+      uses:
+      - 'testimony%1:10:02::'
+      - 'testimony%1:10:01::'
 testily:
   r:
     sense:
@@ -24776,7 +25216,11 @@ tether:
     pronunciation:
     - value: ˈtɛðə(r)
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tether%1:06:00::'
+      derivation:
+      - 'tether%1:06:00::'
+      instrument:
       - 'tether%1:06:00::'
       id: 'tether%2:35:00::'
       subcat:
@@ -25479,7 +25923,9 @@ thatch:
       synset: 04424807-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'thatcher%1:18:00::'
+      derivation:
       - 'thatch%1:06:00::'
       - 'thatch%1:27:00::'
       - 'thatcher%1:18:00::'
@@ -25487,6 +25933,9 @@ thatch:
       subcat:
       - vtai
       synset: 01236402-v
+      uses:
+      - 'thatch%1:06:00::'
+      - 'thatch%1:27:00::'
 thatch palm:
   n:
     sense:
@@ -25562,6 +26011,9 @@ thaw:
       - 'thaw%1:19:00::'
       - 'thaw%1:22:00::'
       - 'thawing%1:22:00::'
+      event:
+      - 'thaw%1:19:00::'
+      - 'thaw%1:22:00::'
       id: 'thaw%2:30:00::'
       sent:
       - The chefs thaw the vegetables
@@ -26365,14 +26817,18 @@ theologically:
 theologise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'theologiser%1:18:00::'
+      derivation:
       - 'theologiser%1:18:00::'
       id: 'theologise%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 01035990-v
-    - derivation:
+    - agent:
+      - 'theologiser%1:18:00::'
+      derivation:
       - 'theologiser%1:18:00::'
       id: 'theologise%2:31:00::'
       subcat:
@@ -26398,14 +26854,18 @@ theologist:
 theologize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'theologizer%1:18:00::'
+      derivation:
       - 'theologizer%1:18:00::'
       id: 'theologize%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 01035990-v
-    - derivation:
+    - agent:
+      - 'theologizer%1:18:00::'
+      derivation:
       - 'theologizer%1:18:00::'
       id: 'theologize%2:31:00::'
       subcat:
@@ -26528,11 +26988,15 @@ theorisation:
 theorise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'theoriser%1:18:00::'
+      derivation:
       - 'theoriser%1:18:00::'
       - 'theorisation%1:09:00::'
       - 'theory%1:09:02::'
       - 'theory%1:09:01::'
+      event:
+      - 'theorisation%1:09:00::'
       id: 'theorise%2:31:00::'
       sent:
       - They theorise that there was a traffic accident
@@ -26571,7 +27035,9 @@ theorization:
 theorize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'theorizer%1:18:00::'
+      derivation:
       - 'theorizer%1:18:00::'
       - 'theory%1:09:02::'
       - 'theory%1:09:01::'
@@ -26583,11 +27049,15 @@ theorize:
       synset: 00635105-v
     - derivation:
       - 'theorization%1:09:00::'
+      event:
+      - 'theorization%1:09:00::'
       id: 'theorize%2:31:02::'
       subcat:
       - vtai
       synset: 00634756-v
     - derivation:
+      - 'theorization%1:09:00::'
+      event:
       - 'theorization%1:09:00::'
       id: 'theorize%2:31:01::'
       subcat:
@@ -27506,6 +27976,8 @@ thermostat:
     sense:
     - derivation:
       - 'thermostat%1:06:00::'
+      instrument:
+      - 'thermostat%1:06:00::'
       id: 'thermostat%2:41:00::'
       subcat:
       - vtai
@@ -27794,6 +28266,8 @@ thicken:
       - 'thickener%1:27:00::'
       - 'thickening%1:04:00::'
       id: 'thicken%2:30:01::'
+      material:
+      - 'thickener%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -27808,6 +28282,8 @@ thicken:
       - 'thickener%1:27:00::'
       - 'thickening%1:04:00::'
       id: 'thicken%2:30:02::'
+      material:
+      - 'thickener%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -28161,6 +28637,8 @@ thin:
       derivation:
       - 'thinner%1:27:00::'
       id: 'thin%2:30:01::'
+      material:
+      - 'thinner%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -28169,6 +28647,8 @@ thin:
       - 'thinner%1:27:00::'
       - 'thinning%1:04:00::'
       id: 'thin%2:30:02::'
+      material:
+      - 'thinner%1:27:00::'
       subcat:
       - vii
       - vtai
@@ -28353,7 +28833,10 @@ think:
       - via-that
       - vtaa-to-inf
       synset: 00633399-v
-    - also:
+    - agent:
+      - 'thinker%1:18:00::'
+      - 'thinker%1:18:01::'
+      also:
       - 'think_over%2:31:00::'
       - 'think_out%2:31:00::'
       - 'think_up%2:36:00::'
@@ -28363,6 +28846,8 @@ think:
       - 'thinker%1:18:00::'
       - 'thinker%1:18:01::'
       - 'thinking%1:09:00::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:31:00::'
       subcat:
       - via
@@ -28371,6 +28856,8 @@ think:
       - 'think_back%2:31:00::'
       derivation:
       - 'thought%1:09:01::'
+      - 'think%1:09:00::'
+      event:
       - 'think%1:09:00::'
       id: 'think%2:31:02::'
       subcat:
@@ -28381,12 +28868,16 @@ think:
     - derivation:
       - 'think%1:09:00::'
       - 'thought%1:09:01::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:36:00::'
       subcat:
       - via
       synset: 01640708-v
     - derivation:
       - 'thought%1:09:01::'
+      - 'think%1:09:00::'
+      event:
       - 'think%1:09:00::'
       id: 'think%2:31:09::'
       subcat:
@@ -28402,6 +28893,8 @@ think:
     - derivation:
       - 'think%1:09:00::'
       - 'thinking%1:09:00::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:31:12::'
       subcat:
       - vtai
@@ -28410,6 +28903,8 @@ think:
       - 'think%1:09:00::'
       - 'thought%1:09:00::'
       - 'thought%1:09:01::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:31:13::'
       subcat:
       - via-whether-inf
@@ -28424,6 +28919,8 @@ think:
     - derivation:
       - 'think%1:09:00::'
       - 'thought%1:09:01::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:31:14::'
       subcat:
       - vtai
@@ -28432,6 +28929,8 @@ think:
       - 'think%1:09:00::'
       - 'thought%1:09:01::'
       - 'thought%1:09:00::'
+      event:
+      - 'think%1:09:00::'
       id: 'think%2:31:08::'
       sent:
       - Sam and Sue think
@@ -29016,11 +29515,15 @@ thirst:
     sense:
     - derivation:
       - 'thirst%1:26:00::'
+      event:
+      - 'thirst%1:26:00::'
       id: 'thirst%2:39:00::'
       subcat:
       - via
       synset: 02126525-v
     - derivation:
+      - 'thirst%1:07:00::'
+      event:
       - 'thirst%1:07:00::'
       id: 'thirst%2:34:00::'
       subcat:
@@ -29925,6 +30428,8 @@ thrash:
       synset: 01418847-v
     - derivation:
       - 'thrash%1:04:00::'
+      event:
+      - 'thrash%1:04:00::'
       id: 'thrash%2:38:01::'
       subcat:
       - via
@@ -29945,6 +30450,8 @@ thrash:
       - vii-pp
       synset: 01842802-v
     - derivation:
+      - 'thrasher%1:06:00::'
+      instrument:
       - 'thrasher%1:06:00::'
       id: 'thrash%2:35:01::'
       subcat:
@@ -30022,7 +30529,9 @@ thread:
     pronunciation:
     - value: θɹɛd
     sense:
-    - derivation:
+    - by_means_of:
+      - 'thread%1:17:00::'
+      derivation:
       - 'thread%1:17:00::'
       id: 'thread%2:38:00::'
       subcat:
@@ -30032,10 +30541,14 @@ thread:
     - derivation:
       - 'thread%1:06:00::'
       - 'threader%1:06:00::'
+      instrument:
+      - 'threader%1:06:00::'
       id: 'thread%2:35:00::'
       subcat:
       - vtai
       synset: 01524545-v
+      undergoer:
+      - 'thread%1:06:00::'
     - id: 'thread%2:35:07::'
       subcat:
       - vtai
@@ -30046,6 +30559,8 @@ thread:
       synset: 01362506-v
     - derivation:
       - 'thread%1:06:00::'
+      - 'threader%1:06:00::'
+      instrument:
       - 'threader%1:06:00::'
       id: 'thread%2:35:01::'
       subcat:
@@ -30617,6 +31132,8 @@ thresh:
     - derivation:
       - 'thresher%1:06:00::'
       - 'threshing%1:04:00::'
+      instrument:
+      - 'thresher%1:06:00::'
       id: 'thresh%2:35:01::'
       sent:
       - The fighter managed to thresh his opponent
@@ -30825,17 +31342,26 @@ thrill:
       synset: 01263786-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'thriller%1:10:00::'
+      derivation:
       - 'thrill%1:12:00::'
       - 'thriller%1:10:00::'
+      event:
+      - 'thrill%1:12:00::'
       id: 'thrill%2:39:00::'
       subcat:
       - vtaa
       - vtia
       synset: 02121816-v
-    - derivation:
+    - by_means_of:
+      - 'thrill%1:04:00::'
+      derivation:
       - 'thrill%1:12:02::'
       - 'thrill%1:04:00::'
+      - 'thrill%1:12:00::'
+      event:
+      - 'thrill%1:12:02::'
       - 'thrill%1:12:00::'
       id: 'thrill%2:37:02::'
       subcat:
@@ -30847,6 +31373,10 @@ thrill:
       - vii
       synset: 01892939-v
     - derivation:
+      - 'thrill%1:04:00::'
+      - 'thrill%1:12:02::'
+      - 'thrill%1:12:00::'
+      event:
       - 'thrill%1:04:00::'
       - 'thrill%1:12:02::'
       - 'thrill%1:12:00::'
@@ -31008,12 +31538,17 @@ throb:
       - 'throb%1:11:00::'
       - 'throb%1:26:00::'
       - 'throbbing%1:11:00::'
+      event:
+      - 'throb%1:11:00::'
+      - 'throb%1:26:00::'
       id: 'throb%2:39:00::'
       subcat:
       - vibody
       - vii
       synset: 02127130-v
     - derivation:
+      - 'throb%1:11:00::'
+      event:
       - 'throb%1:11:00::'
       id: 'throb%2:38:01::'
       sent:
@@ -31219,6 +31754,8 @@ throng:
     sense:
     - derivation:
       - 'throng%1:14:00::'
+      event:
+      - 'throng%1:14:00::'
       id: 'throng%2:38:00::'
       sent:
       - The crowds throng in the streets
@@ -31260,7 +31797,9 @@ throttle:
       - vtai-pp
       - vtii
       synset: 00234091-v
-    - derivation:
+    - agent:
+      - 'throttler%1:18:00::'
+      derivation:
       - 'throttler%1:18:00::'
       - 'throttling%1:04:00::'
       id: 'throttle%2:35:00::'
@@ -31271,6 +31810,9 @@ throttle:
       - vtia
       synset: 01573763-v
     - derivation:
+      - 'throttle%1:06:01::'
+      - 'throttle%1:06:00::'
+      instrument:
       - 'throttle%1:06:01::'
       - 'throttle%1:06:00::'
       id: 'throttle%2:30:00::'
@@ -31408,9 +31950,13 @@ throw:
     - threw
     - thrown
     sense:
-    - derivation:
+    - agent:
+      - 'thrower%1:18:00::'
+      derivation:
       - 'throw%1:04:00::'
       - 'thrower%1:18:00::'
+      event:
+      - 'throw%1:04:00::'
       id: 'throw%2:35:00::'
       subcat:
       - ditransitive
@@ -31468,7 +32014,9 @@ throw:
       subcat:
       - vtai
       synset: 01737358-v
-    - derivation:
+    - agent:
+      - 'thrower%1:18:01::'
+      derivation:
       - 'thrower%1:18:01::'
       id: 'throw%2:36:00::'
       sent:
@@ -31777,6 +32325,8 @@ thrum:
       synset: 02191487-v
     - derivation:
       - 'thrum%1:11:00::'
+      event:
+      - 'thrum%1:11:00::'
       id: 'thrum%2:39:02::'
       subcat:
       - vtai
@@ -31841,6 +32391,8 @@ thrust:
       synset: 01903255-v
     - derivation:
       - 'thrust%1:19:00::'
+      event:
+      - 'thrust%1:19:00::'
       id: 'thrust%2:38:02::'
       sent:
       - They thrust the books into the box
@@ -31848,11 +32400,16 @@ thrust:
       - vtaa-pp
       - vtai-pp
       synset: 02098847-v
-    - derivation:
+    - agent:
+      - 'thruster%1:18:00::'
+      derivation:
       - 'thrust%1:04:00::'
       - 'thrust%1:04:01::'
       - 'thruster%1:18:00::'
       - 'thrusting%1:04:00::'
+      event:
+      - 'thrust%1:04:00::'
+      - 'thrust%1:04:01::'
       id: 'thrust%2:38:01::'
       subcat:
       - via-pp
@@ -31866,6 +32423,8 @@ thrust:
       synset: 00749422-v
     - derivation:
       - 'thrust%1:04:01::'
+      event:
+      - 'thrust%1:04:01::'
       id: 'thrust%2:35:01::'
       subcat:
       - vtii
@@ -31878,12 +32437,16 @@ thrust:
       synset: 02719932-v
     - derivation:
       - 'thrust%1:19:00::'
+      event:
+      - 'thrust%1:19:00::'
       id: 'thrust%2:42:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02719727-v
     - derivation:
+      - 'thrust%1:04:02::'
+      event:
       - 'thrust%1:04:02::'
       id: 'thrust%2:35:08::'
       subcat:
@@ -31965,11 +32528,15 @@ thud:
     sense:
     - derivation:
       - 'thud%1:11:00::'
+      event:
+      - 'thud%1:11:00::'
       id: 'thud%2:39:00::'
       subcat:
       - vii
       synset: 02189056-v
     - derivation:
+      - 'thud%1:11:00::'
+      event:
       - 'thud%1:11:00::'
       id: 'thud%2:35:00::'
       subcat:
@@ -31977,6 +32544,8 @@ thud:
       - vtii
       synset: 01240768-v
     - derivation:
+      - 'thud%1:11:00::'
+      event:
       - 'thud%1:11:00::'
       id: 'thud%2:39:01::'
       subcat:
@@ -32121,6 +32690,8 @@ thumbtack:
     sense:
     - derivation:
       - 'thumbtack%1:06:00::'
+      instrument:
+      - 'thumbtack%1:06:00::'
       id: 'thumbtack%2:35:00::'
       subcat:
       - vtai
@@ -32151,11 +32722,15 @@ thump:
     - derivation:
       - 'thump%1:11:01::'
       - 'thumping%1:11:00::'
+      event:
+      - 'thump%1:11:01::'
       id: 'thump%2:39:00::'
       subcat:
       - vii
       synset: 02189056-v
     - derivation:
+      - 'thump%1:04:00::'
+      event:
       - 'thump%1:04:00::'
       id: 'thump%2:35:00::'
       sent:
@@ -32218,7 +32793,11 @@ thunder:
     sense:
     - derivation:
       - 'thunder%1:11:00::'
+      event:
+      - 'thunder%1:11:00::'
       id: 'thunder%2:38:00::'
+      result:
+      - 'thunder%1:11:00::'
       sent:
       - Cars thunder in the streets
       - The streets thunder with cars
@@ -32228,7 +32807,11 @@ thunder:
       synset: 02093059-v
     - derivation:
       - 'thunder%1:11:00::'
+      event:
+      - 'thunder%1:11:00::'
       id: 'thunder%2:32:00::'
+      result:
+      - 'thunder%1:11:00::'
       subcat:
       - via
       - via-pp
@@ -32236,16 +32819,26 @@ thunder:
       synset: 00917558-v
     - derivation:
       - 'thunder%1:11:01::'
+      event:
+      - 'thunder%1:11:01::'
       id: 'thunder%2:43:00::'
+      result:
+      - 'thunder%1:11:01::'
       sent:
       - It was thundering all day long
       subcat:
       - nonreferential
       synset: 02776493-v
-    - derivation:
+    - by_means_of:
+      - 'thunderer%1:06:00::'
+      derivation:
       - 'thunder%1:11:00::'
       - 'thunderer%1:06:00::'
+      event:
+      - 'thunder%1:11:00::'
       id: 'thunder%2:32:01::'
+      result:
+      - 'thunder%1:11:00::'
       sent:
       - The cars thunder down the avenue
       subcat:
@@ -32390,6 +32983,8 @@ thurify:
       - vtai
       - vtii
       synset: 02131151-v
+      uses:
+      - 'thus%1:27:00::'
 thus:
   n:
     sense:
@@ -32430,6 +33025,8 @@ thwack:
     sense:
     - derivation:
       - 'thwack%1:04:00::'
+      event:
+      - 'thwack%1:04:00::'
       id: 'thwack%2:35:00::'
       sent:
       - The fighter managed to thwack his opponent
@@ -32454,7 +33051,9 @@ thwart:
     - value: θwɔ(ə)ɹt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'thwarter%1:18:00::'
+      derivation:
       - 'thwarter%1:18:00::'
       - 'thwarting%1:04:00::'
       id: 'thwart%2:41:00::'
@@ -32893,13 +33492,17 @@ tick:
     - derivation:
       - 'tick%1:11:00::'
       - 'ticking%1:11:00::'
+      event:
+      - 'tick%1:11:00::'
       id: 'tick%2:39:00::'
       subcat:
       - via-pp
       - vii
       - vtai
       synset: 02190110-v
-    - derivation:
+    - by_means_of:
+      - 'ticker%1:06:01::'
+      derivation:
       - 'tick%1:05:00::'
       - 'ticker%1:06:01::'
       - 'ticking%1:11:00::'
@@ -32914,6 +33517,8 @@ tick:
       subcat:
       - vtai
       synset: 01334371-v
+      undergoer:
+      - 'tick%1:06:00::'
     - id: 'tick%2:31:00::'
       subcat:
       - vtai
@@ -32999,12 +33604,16 @@ ticket:
       subcat:
       - vtaa
       synset: 02504365-v
+      uses:
+      - 'ticket%1:10:00::'
     - derivation:
       - 'ticket%1:10:01::'
       id: 'ticket%2:40:01::'
       subcat:
       - vtaa
       synset: 02334409-v
+      uses:
+      - 'ticket%1:10:01::'
 ticket agent:
   n:
     sense:
@@ -33115,6 +33724,9 @@ tickle:
       - 'tickle%1:04:00::'
       - 'tickle%1:09:00::'
       - 'tickling%1:04:00::'
+      event:
+      - 'tickle%1:04:00::'
+      - 'tickle%1:09:00::'
       id: 'tickle%2:39:00::'
       sent:
       - Did he tickle his foot?
@@ -33131,6 +33743,9 @@ tickle:
       - 'tickle%1:09:00::'
       - 'tickle%1:04:00::'
       - 'tickling%1:04:00::'
+      event:
+      - 'tickle%1:09:00::'
+      - 'tickle%1:04:00::'
       id: 'tickle%2:35:00::'
       subcat:
       - vtaa
@@ -33226,6 +33841,8 @@ ticktock:
   v:
     sense:
     - derivation:
+      - 'ticktock%1:11:00::'
+      event:
       - 'ticktock%1:11:00::'
       id: 'ticktock%2:39:00::'
       subcat:
@@ -33339,6 +33956,8 @@ tide:
       - 'ebb%2:38:00::'
       derivation:
       - 'tide%1:11:01::'
+      event:
+      - 'tide%1:11:01::'
       id: 'tide%2:38:01::'
       subcat:
       - vii
@@ -33347,11 +33966,15 @@ tide:
       - 'tide_over%2:42:00::'
       derivation:
       - 'tide%1:11:00::'
+      event:
+      - 'tide%1:11:00::'
       id: 'tide%2:38:03::'
       subcat:
       - vtii
       synset: 01878417-v
     - derivation:
+      - 'tide%1:11:00::'
+      event:
       - 'tide%1:11:00::'
       id: 'tide%2:38:02::'
       subcat:
@@ -33529,7 +34152,9 @@ tie:
     form:
     - tying
     sense:
-    - also:
+    - agent:
+      - 'tier%1:18:00::'
+      also:
       - 'tie_down%2:35:00::'
       - 'tie_up%2:35:00::'
       antonym:
@@ -33540,6 +34165,10 @@ tie:
       - 'tier%1:18:00::'
       - 'tier%1:06:01::'
       - 'tying%1:04:00::'
+      instrument:
+      - 'tier%1:06:01::'
+      - 'tie%1:06:00::'
+      - 'tie%1:06:04::'
       id: 'tie%2:35:00::'
       subcat:
       - vtaa
@@ -33548,14 +34177,20 @@ tie:
       - vtai-pp
       - vtai-to
       synset: 01288043-v
-    - derivation:
+    - agent:
+      - 'tier%1:18:01::'
+      derivation:
       - 'tie%1:11:00::'
       - 'tier%1:18:01::'
+      event:
+      - 'tie%1:11:00::'
       id: 'tie%2:33:00::'
       subcat:
       - via
       synset: 01117608-v
     - derivation:
+      - 'tie%1:26:01::'
+      event:
       - 'tie%1:26:01::'
       id: 'tie%2:30:01::'
       subcat:
@@ -33563,6 +34198,8 @@ tie:
       - vtai-pp
       synset: 00234918-v
     - derivation:
+      - 'tie%1:06:04::'
+      instrument:
       - 'tie%1:06:04::'
       id: 'tie%2:35:01::'
       subcat:
@@ -33577,7 +34214,11 @@ tie:
       subcat:
       - vtai
       synset: 00141452-v
+      undergoer:
+      - 'tie%1:06:01::'
     - derivation:
+      - 'tie%1:26:01::'
+      event:
       - 'tie%1:26:01::'
       id: 'tie%2:41:01::'
       subcat:
@@ -33594,6 +34235,8 @@ tie:
       - vtai
       synset: 01662338-v
     - derivation:
+      - 'tie%1:10:00::'
+      event:
       - 'tie%1:10:00::'
       id: 'tie%2:35:02::'
       subcat:
@@ -34195,7 +34838,9 @@ tile:
       synset: 04442512-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tiler%1:18:00::'
+      derivation:
       - 'tile%1:27:00::'
       - 'tile%1:06:00::'
       - 'tiler%1:18:00::'
@@ -34204,6 +34849,9 @@ tile:
       subcat:
       - vtai
       synset: 01341345-v
+      uses:
+      - 'tile%1:27:00::'
+      - 'tile%1:06:00::'
 tile cutter:
   n:
     sense:
@@ -34257,13 +34905,17 @@ till:
       synset: 02980398-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tiller%1:18:00::'
+      derivation:
       - 'till%1:27:00::'
       - 'tiller%1:18:00::'
       - 'tiller%1:06:01::'
       - 'tillage%1:17:00::'
       - 'tillage%1:04:00::'
       - 'tilling%1:04:00::'
+      instrument:
+      - 'tiller%1:06:01::'
       id: 'till%2:36:00::'
       subcat:
       - via
@@ -34320,7 +34972,11 @@ tiller:
     sense:
     - derivation:
       - 'tiller%1:20:00::'
+      event:
+      - 'tiller%1:20:00::'
       id: 'tiller%2:29:00::'
+      result:
+      - 'tiller%1:20:00::'
       subcat:
       - vii
       synset: 00095349-v
@@ -34357,7 +35013,11 @@ tilt:
     - derivation:
       - 'tilt%1:07:00::'
       - 'tilt%1:04:01::'
+      event:
+      - 'tilt%1:04:01::'
       id: 'tilt%2:38:00::'
+      property:
+      - 'tilt%1:07:00::'
       subcat:
       - via-pp
       - vii
@@ -34366,6 +35026,10 @@ tilt:
     - derivation:
       - 'tilt%1:04:01::'
       - 'tilter%1:06:00::'
+      event:
+      - 'tilt%1:04:01::'
+      instrument:
+      - 'tilter%1:06:00::'
       id: 'tilt%2:38:01::'
       subcat:
       - vii
@@ -34373,15 +35037,21 @@ tilt:
       synset: 01888570-v
     - derivation:
       - 'tilt%1:04:01::'
+      event:
+      - 'tilt%1:04:01::'
       id: 'tilt%2:38:02::'
       subcat:
       - via-pp
       - vii
       - vii-pp
       synset: 01888967-v
-    - derivation:
+    - agent:
+      - 'tilter%1:18:00::'
+      derivation:
       - 'tilt%1:11:01::'
       - 'tilter%1:18:00::'
+      event:
+      - 'tilt%1:11:01::'
       id: 'tilt%2:33:00::'
       subcat:
       - via
@@ -34588,10 +35258,17 @@ time:
     - value: tɑem
       variety: AU
     sense:
-    - derivation:
+    - agent:
+      - 'timer%1:18:00::'
+      derivation:
       - 'time%1:28:05::'
       - 'time%1:28:00::'
       - 'timer%1:18:00::'
+      - 'timer%1:06:00::'
+      event:
+      - 'time%1:28:05::'
+      - 'time%1:28:00::'
+      instrument:
       - 'timer%1:06:00::'
       id: 'time%2:30:00::'
       subcat:
@@ -34601,6 +35278,8 @@ time:
     - derivation:
       - 'time%1:28:06::'
       - 'timing%1:07:00::'
+      event:
+      - 'time%1:28:06::'
       id: 'time%2:31:00::'
       subcat:
       - vtaa
@@ -34611,6 +35290,10 @@ time:
     - derivation:
       - 'time%1:28:06::'
       - 'timer%1:06:00::'
+      event:
+      - 'time%1:28:06::'
+      instrument:
+      - 'timer%1:06:00::'
       id: 'time%2:31:01::'
       subcat:
       - vtai
@@ -34620,11 +35303,18 @@ time:
       - 'time%1:28:03::'
       - 'time%1:28:00::'
       - 'timer%1:06:01::'
+      event:
+      - 'time%1:28:03::'
+      - 'time%1:28:00::'
+      instrument:
+      - 'timer%1:06:01::'
       id: 'time%2:30:01::'
       subcat:
       - vtai
       synset: 00298687-v
     - derivation:
+      - 'time%1:28:06::'
+      event:
       - 'time%1:28:06::'
       id: 'time%2:30:06::'
       subcat:
@@ -35301,6 +35991,8 @@ tin:
       subcat:
       - vtai
       synset: 01398036-v
+      uses:
+      - 'tin%1:27:00::'
     - derivation:
       - 'tin%1:06:00::'
       - 'tin%1:06:01::'
@@ -35317,6 +36009,8 @@ tin:
       subcat:
       - vtai
       synset: 00213460-v
+      uses:
+      - 'tin%1:27:00::'
 tin can:
   n:
     sense:
@@ -35440,6 +36134,9 @@ tincture:
       subcat:
       - vtai
       synset: 00288320-v
+      uses:
+      - 'tincture%1:27:00::'
+      - 'tincture%1:07:00::'
 tincture of iodine:
   n:
     sense:
@@ -35568,11 +36265,15 @@ ting:
     sense:
     - derivation:
       - 'ting%1:11:00::'
+      event:
+      - 'ting%1:11:00::'
       id: 'ting%2:39:01::'
       subcat:
       - vtai
       synset: 02184706-v
     - derivation:
+      - 'ting%1:11:00::'
+      event:
       - 'ting%1:11:00::'
       id: 'ting%2:39:00::'
       subcat:
@@ -35601,6 +36302,8 @@ tinge:
       - 'tinge%1:07:00::'
       - 'tincture%1:27:00::'
       id: 'tinge%2:30:00::'
+      result:
+      - 'tinge%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -35626,6 +36329,9 @@ tingle:
       - 'tingle%1:09:00::'
       - 'tingle%1:12:00::'
       - 'tingling%1:09:00::'
+      event:
+      - 'tingle%1:09:00::'
+      - 'tingle%1:12:00::'
       id: 'tingle%2:39:00::'
       subcat:
       - vibody
@@ -35682,7 +36388,11 @@ tinker:
     - value: ˈtɪŋkɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'tinker%1:18:02::'
+      - 'tinkerer%1:18:02::'
+      - 'tinkerer%1:18:00::'
+      derivation:
       - 'tinker%1:18:02::'
       - 'tinkerer%1:18:02::'
       - 'tinkerer%1:18:00::'
@@ -35742,6 +36452,8 @@ tinkle:
       variety: US
     sense:
     - derivation:
+      - 'tinkle%1:11:00::'
+      event:
       - 'tinkle%1:11:00::'
       id: 'tinkle%2:39:00::'
       subcat:
@@ -35862,6 +36574,8 @@ tinsel:
       - vii-pp
       - vtai-to
       synset: 02330401-v
+      uses:
+      - 'tinsel%1:06:01::'
     - derivation:
       - 'tinsel%1:06:00::'
       - 'tinsel%1:06:01::'
@@ -35869,12 +36583,17 @@ tinsel:
       subcat:
       - vtai
       synset: 01681884-v
+      uses:
+      - 'tinsel%1:06:00::'
+      - 'tinsel%1:06:01::'
     - derivation:
       - 'tinsel%1:06:00::'
       id: 'tinsel%2:35:00::'
       subcat:
       - vtai
       synset: 01522079-v
+      uses:
+      - 'tinsel%1:06:00::'
 tinseled:
   a:
     sense:
@@ -35911,11 +36630,15 @@ tint:
       synset: 13795501-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tinter%1:18:00::'
+      derivation:
       - 'tinter%1:18:00::'
       - 'tinting%1:04:00::'
       - 'tint%1:07:00::'
       id: 'tint%2:30:00::'
+      result:
+      - 'tint%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -35943,6 +36666,8 @@ tintinnabulate:
   v:
     sense:
     - derivation:
+      - 'tintinnabulation%1:11:00::'
+      event:
       - 'tintinnabulation%1:11:00::'
       id: 'tintinnabulate%2:39:00::'
       subcat:
@@ -36014,6 +36739,8 @@ tip:
       subcat:
       - vtai
       synset: 02043389-v
+      vehicle:
+      - 'tipper%1:06:00::'
     - derivation:
       - 'tip%1:15:00::'
       id: 'tip%2:30:00::'
@@ -36021,7 +36748,11 @@ tip:
       - vtai
       - vtii
       synset: 00512259-v
-    - derivation:
+      uses:
+      - 'tip%1:15:00::'
+    - agent:
+      - 'tipper%1:18:00::'
+      derivation:
       - 'tip%1:21:00::'
       - 'tipper%1:18:00::'
       id: 'tip%2:40:00::'
@@ -36029,6 +36760,8 @@ tip:
       - ditransitive
       - vtaa
       synset: 02206915-v
+      uses:
+      - 'tip%1:21:00::'
     - id: 'tip%2:38:04::'
       subcat:
       - vtaa
@@ -36066,12 +36799,16 @@ tip:
       - vtaa-to-inf
       - vtia
       synset: 00875151-v
+      uses:
+      - 'tip%1:10:00::'
     - derivation:
       - 'tip%1:15:00::'
       id: 'tip%2:30:04::'
       subcat:
       - vtai
       synset: 00176031-v
+      undergoer:
+      - 'tip%1:15:00::'
 tip in:
   n:
     sense:
@@ -36215,13 +36952,17 @@ tipple:
     pronunciation:
     - value: ˈtɪpəl
     sense:
-    - derivation:
+    - agent:
+      - 'tippler%1:18:00::'
+      derivation:
       - 'tippler%1:18:00::'
       - 'tipple%1:13:00::'
       id: 'tipple%2:34:00::'
       subcat:
       - via
       synset: 01174411-v
+      undergoer:
+      - 'tipple%1:13:00::'
 tippler:
   n:
     sense:
@@ -36305,7 +37046,9 @@ tiptoe:
     - value: ˈtɪpˌtoʊ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tiptoe%1:08:00::'
+      derivation:
       - 'tiptoe%1:08:00::'
       id: 'tiptoe%2:38:00::'
       sent:
@@ -36689,7 +37432,9 @@ tithe:
       subcat:
       - vtai
       synset: 02311849-v
-    - derivation:
+    - agent:
+      - 'tither%1:18:00::'
+      derivation:
       - 'tither%1:18:00::'
       id: 'tithe%2:40:02::'
       subcat:
@@ -36738,6 +37483,8 @@ titillate:
     sense:
     - derivation:
       - 'titillation%1:04:00::'
+      event:
+      - 'titillation%1:04:00::'
       id: 'titillate%2:39:00::'
       subcat:
       - vtaa
@@ -36745,6 +37492,8 @@ titillate:
       - vtii
       synset: 02124605-v
     - derivation:
+      - 'titillation%1:04:01::'
+      event:
       - 'titillation%1:04:01::'
       id: 'titillate%2:37:00::'
       sent:
@@ -36786,6 +37535,8 @@ titivate:
     - value: ˈtɪt.ɪ.veɪt
     sense:
     - derivation:
+      - 'titivation%1:04:00::'
+      event:
       - 'titivation%1:04:00::'
       id: 'titivate%2:30:00::'
       subcat:
@@ -36854,12 +37605,17 @@ title:
       subcat:
       - vtai
       synset: 01031533-v
+      uses:
+      - 'title%1:10:00::'
+      - 'title%1:07:00::'
     - derivation:
       - 'title%1:10:01::'
       id: 'title%2:32:02::'
       subcat:
       - vtai
       synset: 01030475-v
+      uses:
+      - 'title%1:10:01::'
 title bar:
   n:
     sense:
@@ -36914,7 +37670,11 @@ titrate:
       - 'titre%1:07:00::'
       - 'titration%1:04:00::'
       - 'titrator%1:06:00::'
+      instrument:
+      - 'titrator%1:06:00::'
       id: 'titrate%2:30:00::'
+      result:
+      - 'titration%1:04:00::'
       subcat:
       - vtai
       synset: 00492846-v
@@ -36956,8 +37716,13 @@ titter:
       synset: 07142933-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'titterer%1:18:00::'
+      - 'titter%1:10:00::'
+      derivation:
+      - 'titterer%1:18:00::'
+      - 'titter%1:10:00::'
+      event:
       - 'titter%1:10:00::'
       id: 'titter%2:29:00::'
       subcat:
@@ -36981,6 +37746,8 @@ tittivate:
   v:
     sense:
     - derivation:
+      - 'tittivation%1:04:00::'
+      event:
       - 'tittivation%1:04:00::'
       id: 'tittivate%2:30:00::'
       subcat:
@@ -37010,6 +37777,8 @@ tittle-tattle:
   v:
     sense:
     - derivation:
+      - 'tittle-tattle%1:10:00::'
+      event:
       - 'tittle-tattle%1:10:00::'
       id: 'tittle-tattle%2:32:00::'
       sent:
@@ -37359,7 +38128,9 @@ toady:
     form:
     - toadied
     sense:
-    - derivation:
+    - agent:
+      - 'toady%1:18:00::'
+      derivation:
       - 'toady%1:18:00::'
       id: 'toady%2:32:00::'
       subcat:
@@ -37393,12 +38164,18 @@ toast:
       - 'toast%1:13:00::'
       - 'toaster%1:06:00::'
       - 'toasting%1:04:00::'
+      instrument:
+      - 'toaster%1:06:00::'
       id: 'toast%2:30:00::'
+      result:
+      - 'toast%1:13:00::'
       subcat:
       - vtai
       - vtii
       synset: 00322952-v
     - derivation:
+      - 'toast%1:13:01::'
+      event:
       - 'toast%1:13:01::'
       id: 'toast%2:34:00::'
       subcat:
@@ -37602,6 +38379,8 @@ toboggan:
       subcat:
       - via
       synset: 01943893-v
+      vehicle:
+      - 'toboggan%1:06:00::'
 toboggan cap:
   n:
     sense:
@@ -37723,7 +38502,9 @@ today:
 toddle:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'toddler%1:18:00::'
+      derivation:
       - 'toddler%1:18:00::'
       id: 'toddle%2:38:00::'
       sent:
@@ -37790,11 +38571,15 @@ toe:
       subcat:
       - via
       synset: 01910518-v
+      undergoer:
+      - 'toe%1:08:01::'
     - id: 'toe%2:35:02::'
       subcat:
       - vtai
       synset: 01519497-v
     - derivation:
+      - 'toe%1:06:01::'
+      instrument:
       - 'toe%1:06:01::'
       id: 'toe%2:35:01::'
       subcat:
@@ -37802,11 +38587,15 @@ toe:
       synset: 01406792-v
     - derivation:
       - 'toe%1:06:01::'
+      instrument:
+      - 'toe%1:06:01::'
       id: 'toe%2:35:03::'
       subcat:
       - vtai
       synset: 01404959-v
-    - derivation:
+    - by_means_of:
+      - 'toe%1:08:01::'
+      derivation:
       - 'toe%1:08:01::'
       id: 'toe%2:35:00::'
       subcat:
@@ -38085,13 +38874,20 @@ toggle:
       subcat:
       - vtai
       synset: 02362560-v
+      uses:
+      - 'toggle%1:06:00::'
+      - 'toggle%1:06:01::'
     - derivation:
+      - 'toggle%1:06:00::'
+      instrument:
       - 'toggle%1:06:00::'
       id: 'toggle%2:35:00::'
       subcat:
       - vtai
       synset: 01610908-v
     - derivation:
+      - 'toggle%1:06:01::'
+      instrument:
       - 'toggle%1:06:01::'
       id: 'toggle%2:35:01::'
       subcat:
@@ -38130,8 +38926,12 @@ toil:
     pronunciation:
     - value: tɔɪl
     sense:
-    - derivation:
+    - agent:
       - 'toiler%1:18:00::'
+      derivation:
+      - 'toiler%1:18:00::'
+      - 'toil%1:04:00::'
+      event:
       - 'toil%1:04:00::'
       id: 'toil%2:41:00::'
       subcat:
@@ -38474,6 +39274,9 @@ tolerate:
       - tolerant%5:00:00:forgiving:00
       - 'toleration%1:07:00::'
       - 'tolerance%1:04:00::'
+      event:
+      - 'toleration%1:07:00::'
+      - 'tolerance%1:04:00::'
       id: 'tolerate%2:31:00::'
       sent:
       - Sam cannot tolerate Sue
@@ -38484,6 +39287,8 @@ tolerate:
     - derivation:
       - tolerant%5:00:00:broad-minded:00
       - 'tolerant%3:00:00::'
+      - 'toleration%1:04:00::'
+      event:
       - 'toleration%1:04:00::'
       id: 'tolerate%2:41:01::'
       subcat:
@@ -38530,14 +39335,20 @@ toll:
       synset: 07391844-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'toller%1:18:01::'
+      derivation:
       - 'toll%1:11:00::'
       - 'toller%1:18:01::'
+      event:
+      - 'toll%1:11:00::'
       id: 'toll%2:39:00::'
       subcat:
       - vtai
       synset: 02186419-v
     - derivation:
+      - 'toll%1:21:00::'
+      event:
       - 'toll%1:21:00::'
       id: 'toll%2:40:00::'
       subcat:
@@ -38718,11 +39529,15 @@ tomahawk:
     sense:
     - derivation:
       - 'tomahawk%1:06:00::'
+      instrument:
+      - 'tomahawk%1:06:00::'
       id: 'tomahawk%2:35:00::'
       subcat:
       - vtai
       synset: 01557301-v
     - derivation:
+      - 'tomahawk%1:06:00::'
+      instrument:
       - 'tomahawk%1:06:00::'
       id: 'tomahawk%2:35:01::'
       subcat:
@@ -39110,6 +39925,9 @@ tone:
       - 'tone%1:07:01::'
       - 'tone%1:07:02::'
       id: 'tone%2:32:02::'
+      property:
+      - 'tone%1:07:01::'
+      - 'tone%1:07:02::'
       subcat:
       - vtai
       synset: 00984325-v
@@ -39118,6 +39936,11 @@ tone:
       - 'toner%1:27:01::'
       - 'toner%1:27:00::'
       id: 'tone%2:30:02::'
+      material:
+      - 'toner%1:27:01::'
+      - 'toner%1:27:00::'
+      property:
+      - 'tone%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -39126,6 +39949,10 @@ tone:
       - 'tone%1:07:00::'
       - 'toner%1:27:01::'
       id: 'tone%2:30:01::'
+      material:
+      - 'toner%1:27:01::'
+      property:
+      - 'tone%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -39133,6 +39960,8 @@ tone:
     - derivation:
       - 'tone%1:26:02::'
       id: 'tone%2:29:00::'
+      result:
+      - 'tone%1:26:02::'
       subcat:
       - vtai
       synset: 00101031-v
@@ -39286,14 +40115,18 @@ tongue:
     - value: tʌŋ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tongue%1:08:00::'
+      derivation:
       - 'tongue%1:08:00::'
       id: 'tongue%2:36:00::'
       subcat:
       - via
       - vtai
       synset: 01738181-v
-    - derivation:
+    - by_means_of:
+      - 'tongue%1:08:00::'
+      derivation:
       - 'tongue%1:08:00::'
       id: 'tongue%2:35:00::'
       subcat:
@@ -39632,7 +40465,11 @@ tonsure:
     - derivation:
       - 'tonsure%1:04:00::'
       - 'tonsure%1:08:00::'
+      event:
+      - 'tonsure%1:04:00::'
       id: 'tonsure%2:29:00::'
+      result:
+      - 'tonsure%1:08:00::'
       subcat:
       - vtaa
       synset: 00037772-v
@@ -39752,7 +40589,11 @@ tool:
       - vtaa
       - vtai
       synset: 02342999-v
+      uses:
+      - 'tool%1:06:00::'
     - derivation:
+      - 'tool%1:06:00::'
+      instrument:
       - 'tool%1:06:00::'
       id: 'tool%2:36:00::'
       subcat:
@@ -39850,6 +40691,8 @@ toot:
     - value: tuːt
     sense:
     - derivation:
+      - 'toot%1:11:00::'
+      event:
       - 'toot%1:11:00::'
       id: 'toot%2:39:00::'
       sent:
@@ -40070,6 +40913,8 @@ tootle:
     sense:
     - derivation:
       - 'tootle%1:11:00::'
+      event:
+      - 'tootle%1:11:00::'
       id: 'tootle%2:39:00::'
       sent:
       - Cars tootle in the streets
@@ -40152,10 +40997,14 @@ top:
     - value: tɑp
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'topper%1:18:02::'
+      derivation:
       - 'top%1:26:00::'
       - 'topper%1:18:02::'
       - 'topper%1:10:00::'
+      event:
+      - 'top%1:26:00::'
       id: 'top%2:42:00::'
       subcat:
       - vtai
@@ -40165,6 +41014,9 @@ top:
       - 'top%1:15:02::'
       - 'top%1:15:00::'
       id: 'top%2:38:00::'
+      location:
+      - 'top%1:15:02::'
+      - 'top%1:15:00::'
       subcat:
       - vtai
       - vtii
@@ -40172,27 +41024,39 @@ top:
     - derivation:
       - 'top%1:15:01::'
       id: 'top%2:42:02::'
+      location:
+      - 'top%1:15:01::'
       subcat:
       - vtii
       synset: 02697564-v
-    - derivation:
+    - agent:
+      - 'topper%1:18:02::'
+      derivation:
       - 'top%1:26:00::'
       - 'topper%1:18:02::'
+      event:
+      - 'top%1:26:00::'
       id: 'top%2:42:11::'
       subcat:
       - via
       - via-pp
       synset: 02693227-v
-    - derivation:
+    - agent:
+      - 'topper%1:18:01::'
+      derivation:
       - 'top%1:15:01::'
       - 'topper%1:18:01::'
       id: 'top%2:40:00::'
       subcat:
       - vtai
       synset: 02365496-v
+      uses:
+      - 'top%1:15:01::'
     - derivation:
       - 'top%1:15:02::'
       id: 'top%2:38:04::'
+      location:
+      - 'top%1:15:02::'
       subcat:
       - vtai
       synset: 02025228-v
@@ -40202,7 +41066,9 @@ top:
       subcat:
       - vtai
       synset: 01409551-v
-    - derivation:
+    - agent:
+      - 'topper%1:18:00::'
+      derivation:
       - 'top%1:15:01::'
       - 'topper%1:18:00::'
       id: 'top%2:35:00::'
@@ -40211,6 +41077,8 @@ top:
       subcat:
       - vtai
       synset: 01324169-v
+      undergoer:
+      - 'top%1:15:01::'
     - id: 'top%2:30:01::'
       subcat:
       - vtii
@@ -40424,7 +41292,9 @@ tope:
       synset: 04353406-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'toper%1:18:00::'
+      derivation:
       - 'toper%1:18:00::'
       id: 'tope%2:34:00::'
       subcat:
@@ -40583,6 +41453,8 @@ topicalize:
   v:
     sense:
     - derivation:
+      - 'topicalization%1:10:01::'
+      event:
       - 'topicalization%1:10:01::'
       id: 'topicalize%2:32:00::'
       subcat:
@@ -41067,11 +41939,19 @@ torment:
       synset: 00426281-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tormenter%1:18:00::'
+      - 'tormentor%1:18:00::'
+      by_means_of:
+      - 'tormenter%1:06:00::'
+      derivation:
       - 'torment%1:12:01::'
       - 'torment%1:12:02::'
       - 'tormenter%1:18:00::'
       - 'tormentor%1:18:00::'
+      event:
+      - 'torment%1:12:01::'
+      - 'torment%1:12:02::'
       id: 'torment%2:37:00::'
       sent:
       - The bad news will torment him
@@ -41079,25 +41959,45 @@ torment:
       - vtaa
       - vtia
       synset: 01806671-v
-    - derivation:
+      undergoer:
+      - 'torment%1:12:01::'
+      - 'torment%1:12:02::'
+    - agent:
+      - 'tormenter%1:18:00::'
+      - 'tormentor%1:18:00::'
+      derivation:
       - 'torment%1:04:00::'
       - 'torment%1:12:03::'
       - 'tormenter%1:18:00::'
       - 'tormentor%1:18:00::'
+      event:
+      - 'torment%1:04:00::'
       id: 'torment%2:37:01::'
+      result:
+      - 'torment%1:12:03::'
       subcat:
       - vtaa
       - vtia
       synset: 01806967-v
-    - derivation:
+      undergoer:
+      - 'torment%1:12:03::'
+    - agent:
+      - 'tormenter%1:18:00::'
+      by_means_of:
+      - 'tormenter%1:06:00::'
+      derivation:
       - 'torment%1:26:00::'
       - 'tormenter%1:18:00::'
+      event:
+      - 'torment%1:26:00::'
       id: 'torment%2:29:00::'
       sent:
       - They want to torment the prisoners
       subcat:
       - vtaa
       synset: 00070949-v
+      undergoer:
+      - 'torment%1:26:00::'
 tormented:
   a:
     sense:
@@ -41214,6 +42114,8 @@ torpedo:
       variety: US
     sense:
     - derivation:
+      - 'torpedo%1:06:00::'
+      instrument:
       - 'torpedo%1:06:00::'
       id: 'torpedo%2:33:00::'
       subcat:
@@ -41615,10 +42517,15 @@ torture:
     - value: ˈtɔːt͡ʃə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'torturer%1:18:00::'
+      derivation:
       - 'torture%1:12:01::'
       - 'torture%1:12:02::'
       - 'torturer%1:18:00::'
+      event:
+      - 'torture%1:12:01::'
+      - 'torture%1:12:02::'
       id: 'torture%2:37:00::'
       sent:
       - The bad news will torture him
@@ -41626,11 +42533,16 @@ torture:
       - vtaa
       - vtia
       synset: 01806671-v
-    - derivation:
+    - agent:
+      - 'torturer%1:18:00::'
+      derivation:
       - 'torture%1:04:00::'
       - 'torture%1:26:00::'
       - 'torturer%1:18:00::'
       - 'torturing%1:04:00::'
+      event:
+      - 'torture%1:04:00::'
+      - 'torture%1:26:00::'
       id: 'torture%2:29:00::'
       sent:
       - They want to torture the prisoners
@@ -41748,9 +42660,13 @@ toss:
     - value: tɔs
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'tosser%1:18:00::'
+      derivation:
       - 'toss%1:04:00::'
       - 'tosser%1:18:00::'
+      event:
+      - 'toss%1:04:00::'
       id: 'toss%2:35:04::'
       sent:
       - The children toss the ball
@@ -41758,9 +42674,13 @@ toss:
       - vtai
       - vtai-pp
       synset: 01515257-v
-    - derivation:
+    - agent:
+      - 'tosser%1:18:00::'
+      derivation:
       - 'toss%1:04:01::'
       - 'tosser%1:18:00::'
+      event:
+      - 'toss%1:04:01::'
       id: 'toss%2:38:00::'
       sent:
       - They toss the coin
@@ -41771,6 +42691,8 @@ toss:
       synset: 01897072-v
     - derivation:
       - 'toss%1:04:00::'
+      event:
+      - 'toss%1:04:00::'
       id: 'toss%2:35:05::'
       sent:
       - The children toss the ball
@@ -41779,6 +42701,8 @@ toss:
       - vtai-pp
       synset: 01517157-v
     - derivation:
+      - 'toss%1:04:02::'
+      event:
       - 'toss%1:04:02::'
       id: 'toss%2:38:01::'
       subcat:
@@ -41951,6 +42875,9 @@ total:
       - 'total%1:06:00::'
       - 'total%1:09:00::'
       id: 'total%2:42:00::'
+      result:
+      - 'total%1:06:00::'
+      - 'total%1:09:00::'
       subcat:
       - vtii
       synset: 02651091-v
@@ -41958,6 +42885,9 @@ total:
       - 'total%1:06:00::'
       - 'total%1:09:00::'
       id: 'total%2:32:00::'
+      result:
+      - 'total%1:06:00::'
+      - 'total%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -42144,7 +43074,9 @@ tote:
       synset: 02973867-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'toter%1:18:00::'
+      derivation:
       - 'toter%1:18:00::'
       - 'tote%1:06:00::'
       id: 'tote%2:35:00::'
@@ -42253,7 +43185,9 @@ totter:
       - vii
       - vii-pp
       synset: 01923035-v
-    - derivation:
+    - agent:
+      - 'totterer%1:18:00::'
+      derivation:
       - 'totterer%1:18:00::'
       id: 'totter%2:38:01::'
       sent:
@@ -42348,12 +43282,16 @@ touch:
     pronunciation:
     - value: tʌt͡ʃ
     sense:
-    - also:
+    - agent:
+      - 'toucher%1:18:00::'
+      also:
       - 'touch_down%2:38:00::'
       derivation:
       - 'touch%1:11:00::'
       - 'toucher%1:18:00::'
       - 'touching%1:04:00::'
+      event:
+      - 'touch%1:11:00::'
       id: 'touch%2:35:00::'
       subcat:
       - vii
@@ -42363,11 +43301,16 @@ touch:
       - vtai-pp
       - vtii
       synset: 01208838-v
-    - derivation:
+    - by_means_of:
+      - 'touch%1:09:01::'
+      derivation:
       - 'touch%1:09:02::'
       - 'touch%1:09:01::'
       - 'touch%1:11:00::'
       - 'touching%1:11:00::'
+      event:
+      - 'touch%1:09:02::'
+      - 'touch%1:11:00::'
       id: 'touch%2:39:00::'
       subcat:
       - vtaa
@@ -42388,6 +43331,8 @@ touch:
       synset: 02681865-v
     - derivation:
       - 'touch%1:11:00::'
+      event:
+      - 'touch%1:11:00::'
       id: 'touch%2:35:01::'
       sent:
       - Our properties touch at this point
@@ -42407,15 +43352,22 @@ touch:
       - vtai
       - vtii
       synset: 02605322-v
-    - derivation:
+    - agent:
+      - 'toucher%1:18:00::'
+      derivation:
       - 'touch%1:04:00::'
       - 'touch%1:11:00::'
       - 'toucher%1:18:00::'
+      event:
+      - 'touch%1:04:00::'
+      - 'touch%1:11:00::'
       id: 'touch%2:35:04::'
       subcat:
       - vtai
       synset: 01209469-v
     - derivation:
+      - 'touch%1:11:00::'
+      event:
       - 'touch%1:11:00::'
       id: 'touch%2:42:01::'
       subcat:
@@ -42853,10 +43805,14 @@ tour:
       synset: 15318833-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'tourer%1:18:00::'
+      derivation:
       - 'tour%1:04:00::'
       - 'tourist%1:18:00::'
       - 'tourer%1:18:00::'
+      event:
+      - 'tour%1:04:00::'
       id: 'tour%2:38:00::'
       subcat:
       - via
@@ -43002,6 +43958,8 @@ tourney:
     sense:
     - derivation:
       - 'tourney%1:11:00::'
+      event:
+      - 'tourney%1:11:00::'
       id: 'tourney%2:33:00::'
       subcat:
       - via
@@ -43053,7 +44011,10 @@ tout:
     pronunciation:
     - value: taʊt
     sense:
-    - derivation:
+    - agent:
+      - 'touter%1:18:00::'
+      - 'tout%1:18:00::'
+      derivation:
       - 'tout%1:18:00::'
       - 'touter%1:18:00::'
       id: 'tout%2:32:02::'
@@ -43117,12 +44078,16 @@ tow:
       - 'tower%1:06:01::'
       - 'towage%1:04:00::'
       - 'tow%1:04:00::'
+      event:
+      - 'tow%1:04:00::'
       id: 'tow%2:35:00::'
       subcat:
       - vtai
       - vtia
       - vtii
       synset: 01457042-v
+      vehicle:
+      - 'tower%1:06:01::'
 tow car:
   n:
     sense:
@@ -43169,6 +44134,8 @@ towel:
     - value: taʊl
     sense:
     - derivation:
+      - 'towel%1:06:00::'
+      instrument:
       - 'towel%1:06:00::'
       id: 'towel%2:35:00::'
       subcat:
@@ -43234,7 +44201,9 @@ tower:
     - value: ˈtəʊ.ə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tower%1:25:00::'
+      derivation:
       - 'tower%1:25:00::'
       id: 'tower%2:42:00::'
       subcat:
@@ -43644,6 +44613,8 @@ toy:
       subcat:
       - vtai
       synset: 00013321-v
+      undergoer:
+      - 'toy%1:06:00::'
 toy Manchester:
   n:
     sense:
@@ -43806,7 +44777,11 @@ trace:
       - 'trace%1:06:00::'
       - 'tracer%1:06:02::'
       - 'tracing%1:04:00::'
+      instrument:
+      - 'tracer%1:06:02::'
       id: 'trace%2:35:00::'
+      result:
+      - 'trace%1:06:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -43830,6 +44805,9 @@ trace:
       subcat:
       - vtai
       synset: 02160493-v
+      undergoer:
+      - 'trace%1:10:02::'
+      - 'trace%1:23:00::'
     - id: 'trace%2:38:03::'
       subcat:
       - via
@@ -43838,7 +44816,11 @@ trace:
     - derivation:
       - 'trace%1:06:00::'
       - 'tracer%1:06:02::'
+      instrument:
+      - 'tracer%1:06:02::'
       id: 'trace%2:36:00::'
+      result:
+      - 'trace%1:06:00::'
       subcat:
       - vtai
       synset: 01698271-v
@@ -44071,7 +45053,11 @@ track:
       - vtaa
       - vtai
       synset: 02202143-v
-    - derivation:
+      undergoer:
+      - 'track%1:17:00::'
+    - agent:
+      - 'tracker%1:18:00::'
+      derivation:
       - 'track%1:09:00::'
       - 'tracker%1:18:00::'
       - 'tracking%1:04:00::'
@@ -44086,6 +45072,8 @@ track:
     - derivation:
       - 'track%1:17:00::'
       id: 'track%2:38:01::'
+      location:
+      - 'track%1:17:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -44341,17 +45329,26 @@ trade:
     pronunciation:
     - value: tɹeɪd
     sense:
-    - also:
+    - agent:
+      - 'trader%1:18:00::'
+      also:
       - 'deal%2:40:00::'
       derivation:
       - 'trade%1:04:02::'
       - 'trade%1:04:05::'
       - 'trader%1:18:00::'
+      event:
+      - 'trade%1:04:02::'
+      - 'trade%1:04:05::'
       id: 'trade%2:40:01::'
       subcat:
       - vtai
       synset: 02265169-v
     - derivation:
+      - 'trade%1:04:02::'
+      - 'trade%1:04:03::'
+      - 'trade%1:04:05::'
+      event:
       - 'trade%1:04:02::'
       - 'trade%1:04:03::'
       - 'trade%1:04:05::'
@@ -44363,12 +45360,17 @@ trade:
     - derivation:
       - 'trade%1:04:02::'
       - 'trade%1:04:05::'
+      event:
+      - 'trade%1:04:02::'
+      - 'trade%1:04:05::'
       id: 'trade%2:42:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02734659-v
     - derivation:
+      - 'trade%1:04:03::'
+      event:
       - 'trade%1:04:03::'
       id: 'trade%2:40:02::'
       sent:
@@ -44382,6 +45384,9 @@ trade:
       - 'trade%1:04:02::'
       - 'trade%1:04:05::'
       - 'trading%1:04:00::'
+      event:
+      - 'trade%1:04:02::'
+      - 'trade%1:04:05::'
       id: 'trade%2:40:11::'
       subcat:
       - via-pp
@@ -44770,9 +45775,13 @@ traduce:
     - value: tɹəˈdus
       variety: CA
     sense:
-    - derivation:
+    - agent:
+      - 'traducer%1:18:00::'
+      derivation:
       - 'traducement%1:10:00::'
       - 'traducer%1:18:00::'
+      event:
+      - 'traducement%1:10:00::'
       id: 'traduce%2:32:00::'
       subcat:
       - vtaa
@@ -44817,13 +45826,19 @@ traffic:
     sense:
     - derivation:
       - 'traffic%1:04:01::'
+      event:
+      - 'traffic%1:04:01::'
       id: 'traffic%2:40:00::'
       subcat:
       - vtai
       synset: 02265930-v
-    - derivation:
+    - agent:
+      - 'trafficker%1:18:00::'
+      derivation:
       - 'traffic%1:04:01::'
       - 'trafficker%1:18:00::'
+      event:
+      - 'traffic%1:04:01::'
       id: 'traffic%2:40:01::'
       subcat:
       - via
@@ -45038,7 +46053,9 @@ trail:
     pronunciation:
     - value: tɹeɪl
     sense:
-    - derivation:
+    - agent:
+      - 'trailer%1:18:00::'
+      derivation:
       - 'trailer%1:18:00::'
       id: 'trail%2:38:02::'
       subcat:
@@ -45057,7 +46074,9 @@ trail:
       - vtai
       - vtia
       synset: 02005890-v
-    - derivation:
+    - agent:
+      - 'trailer%1:18:00::'
+      derivation:
       - 'trailer%1:18:00::'
       id: 'trail%2:38:01::'
       subcat:
@@ -45076,6 +46095,9 @@ trail:
       subcat:
       - vtai
       synset: 01456580-v
+      vehicle:
+      - 'trailer%1:06:01::'
+      - 'trailer%1:06:00::'
 trail bike:
   n:
     sense:
@@ -45203,7 +46225,9 @@ train:
     pronunciation:
     - value: tɹeɪn
     sense:
-    - derivation:
+    - agent:
+      - 'trainer%1:18:00::'
+      derivation:
       - 'trainee%1:18:00::'
       - 'trainer%1:18:00::'
       - 'training%1:04:00::'
@@ -45211,12 +46235,16 @@ train:
       subcat:
       - vtaa
       synset: 00604693-v
+      undergoer:
+      - 'trainee%1:18:00::'
     - derivation:
       - 'trainee%1:18:00::'
       id: 'train%2:31:00::'
       subcat:
       - via-to
       synset: 00604200-v
+      undergoer:
+      - 'trainee%1:18:00::'
     - derivation:
       - 'trainee%1:18:00::'
       id: 'train%2:41:02::'
@@ -45224,7 +46252,11 @@ train:
       - vtaa
       - vtai
       synset: 02559394-v
-    - derivation:
+      undergoer:
+      - 'trainee%1:18:00::'
+    - agent:
+      - 'trainer%1:18:00::'
+      derivation:
       - 'trainee%1:18:00::'
       - 'trainer%1:18:00::'
       - 'training%1:04:00::'
@@ -45232,6 +46264,8 @@ train:
       subcat:
       - vtaa
       synset: 02392176-v
+      undergoer:
+      - 'trainee%1:18:00::'
     - id: 'train%2:41:01::'
       subcat:
       - vtaa
@@ -45243,7 +46277,9 @@ train:
       - via-pp
       - vtai-pp
       synset: 01153576-v
-    - derivation:
+    - agent:
+      - 'trainer%1:18:00::'
+      derivation:
       - 'trainer%1:18:00::'
       - 'training%1:04:00::'
       id: 'train%2:32:00::'
@@ -45268,12 +46304,16 @@ train:
       - via
       - via-pp
       synset: 01940396-v
+      vehicle:
+      - 'train%1:06:00::'
     - derivation:
       - 'train%1:06:02::'
       id: 'train%2:35:04::'
       subcat:
       - vtai
       synset: 01456580-v
+      undergoer:
+      - 'train%1:06:02::'
 train depot:
   n:
     sense:
@@ -45582,7 +46622,9 @@ trammel:
       subcat:
       - vtai
       synset: 01483400-v
-    - derivation:
+    - by_means_of:
+      - 'trammel%1:06:00::'
+      derivation:
       - 'trammel%1:06:00::'
       id: 'trammel%2:30:00::'
       subcat:
@@ -45645,29 +46687,40 @@ tramp:
     pronunciation:
     - value: tɹæmp
     sense:
-    - derivation:
+    - agent:
+      - 'tramper%1:18:01::'
+      - 'tramp%1:18:02::'
+      derivation:
       - 'tramp%1:04:00::'
       - 'tramp%1:18:02::'
       - 'tramper%1:18:01::'
+      event:
+      - 'tramp%1:04:00::'
       id: 'tramp%2:38:00::'
       sent:
       - The children tramp to the playground
       subcat:
       - via-pp
       synset: 01924691-v
-    - derivation:
+    - agent:
+      - 'tramper%1:18:00::'
+      derivation:
       - 'tramper%1:18:00::'
       id: 'tramp%2:38:01::'
       subcat:
       - via-pp
       synset: 01925197-v
-    - derivation:
+    - agent:
+      - 'tramp%1:18:02::'
+      derivation:
       - 'tramp%1:18:02::'
       id: 'tramp%2:38:03::'
       subcat:
       - vtai
       synset: 01885950-v
-    - derivation:
+    - agent:
+      - 'tramp%1:18:02::'
+      derivation:
       - 'tramp%1:18:02::'
       id: 'tramp%2:38:02::'
       subcat:
@@ -45722,27 +46775,39 @@ trample:
     pronunciation:
     - value: ˈtɹæmpəl
     sense:
-    - derivation:
+    - agent:
+      - 'trampler%1:18:00::'
+      derivation:
       - 'trample%1:11:00::'
       - 'trampler%1:18:00::'
       - 'trampling%1:11:00::'
+      event:
+      - 'trample%1:11:00::'
       id: 'trample%2:38:00::'
       sent:
       - The children trample to the playground
       subcat:
       - via-pp
       synset: 01933420-v
-    - derivation:
+    - agent:
+      - 'trampler%1:18:01::'
+      derivation:
       - 'trample%1:11:00::'
       - 'trampler%1:18:01::'
+      event:
+      - 'trample%1:11:00::'
       id: 'trample%2:29:00::'
       subcat:
       - vtia
       - vtii
       synset: 00070210-v
-    - derivation:
+    - agent:
+      - 'trampler%1:18:01::'
+      derivation:
       - 'trample%1:11:00::'
       - 'trampler%1:18:01::'
+      event:
+      - 'trample%1:11:00::'
       id: 'trample%2:38:04::'
       subcat:
       - vtai
@@ -45808,7 +46873,11 @@ trance:
     sense:
     - derivation:
       - 'trance%1:26:00::'
+      event:
+      - 'trance%1:26:00::'
       id: 'trance%2:37:00::'
+      result:
+      - 'trance%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -45869,7 +46938,9 @@ tranquilize:
     pronunciation:
     - value: ˈtɹæŋkwɪlaɪz
     sense:
-    - derivation:
+    - by_means_of:
+      - 'tranquilizer%1:06:00::'
+      derivation:
       - 'tranquilizer%1:06:00::'
       id: 'tranquilize%2:37:00::'
       sent:
@@ -45878,7 +46949,9 @@ tranquilize:
       - vtaa
       - vtia
       synset: 01768652-v
-    - derivation:
+    - by_means_of:
+      - 'tranquilizer%1:06:00::'
+      derivation:
       - 'tranquilizer%1:06:00::'
       id: 'tranquilize%2:29:00::'
       subcat:
@@ -45907,7 +46980,9 @@ tranquillise:
       - vtaa
       - vtia
       synset: 01768652-v
-    - derivation:
+    - by_means_of:
+      - 'tranquilliser%1:06:00::'
+      derivation:
       - 'tranquilliser%1:06:00::'
       id: 'tranquillise%2:29:00::'
       subcat:
@@ -45950,7 +47025,9 @@ tranquillize:
       - vtaa
       - vtia
       synset: 01768652-v
-    - derivation:
+    - by_means_of:
+      - 'tranquillizer%1:06:00::'
+      derivation:
       - 'tranquillizer%1:06:00::'
       id: 'tranquillize%2:29:00::'
       subcat:
@@ -45990,9 +47067,13 @@ transact:
     pronunciation:
     - value: ˌtɹænˈzækt
     sense:
-    - derivation:
+    - agent:
+      - 'transactor%1:18:00::'
+      derivation:
       - 'transaction%1:04:00::'
       - 'transactor%1:18:00::'
+      event:
+      - 'transaction%1:04:00::'
       id: 'transact%2:40:14::'
       subcat:
       - via-pp
@@ -46076,6 +47157,8 @@ transaminate:
       synset: 00581422-v
     - derivation:
       - 'transamination%1:22:00::'
+      event:
+      - 'transamination%1:22:00::'
       id: 'transaminate%2:30:00::'
       subcat:
       - vii
@@ -46106,6 +47189,8 @@ transcend:
       - 'transcendence%1:26:02::'
       - transcendent%5:00:00:unknowable:00
       id: 'transcend%2:42:00::'
+      state:
+      - 'transcendence%1:26:02::'
       subcat:
       - vtii
       synset: 02675266-v
@@ -46115,6 +47200,8 @@ transcend:
       - 'transcendence%1:26:02::'
       - transcendent%5:00:00:unknowable:00
       id: 'transcend%2:42:01::'
+      state:
+      - 'transcendence%1:26:02::'
       subcat:
       - vtai
       - vtii
@@ -46225,10 +47312,14 @@ transcribe:
     pronunciation:
     - value: trænˈskɹaɪb
     sense:
-    - derivation:
+    - agent:
+      - 'transcriber%1:18:00::'
+      derivation:
       - 'transcription%1:10:00::'
       - 'transcriber%1:18:00::'
       id: 'transcribe%2:32:01::'
+      result:
+      - 'transcription%1:10:00::'
       subcat:
       - vtai
       synset: 00997148-v
@@ -46236,7 +47327,9 @@ transcribe:
       subcat:
       - vtai
       synset: 00996727-v
-    - derivation:
+    - agent:
+      - 'transcriber%1:18:02::'
+      derivation:
       - 'transcriber%1:18:02::'
       id: 'transcribe%2:36:00::'
       sent:
@@ -46244,7 +47337,10 @@ transcribe:
       subcat:
       - vtai
       synset: 01711972-v
-    - derivation:
+    - agent:
+      - 'transcriber%1:18:01::'
+      - 'transcriber%1:18:00::'
+      derivation:
       - 'transcriber%1:18:01::'
       - 'transcriber%1:18:00::'
       id: 'transcribe%2:32:02::'
@@ -46252,6 +47348,8 @@ transcribe:
       - vtai
       synset: 00996940-v
     - derivation:
+      - 'transcription%1:22:00::'
+      event:
       - 'transcription%1:22:00::'
       id: 'transcribe%2:30:00::'
       subcat:
@@ -46357,6 +47455,10 @@ transduce:
     - derivation:
       - 'transduction%1:22:00::'
       - 'transducer%1:06:00::'
+      event:
+      - 'transduction%1:22:00::'
+      instrument:
+      - 'transducer%1:06:00::'
       id: 'transduce%2:30:00::'
       subcat:
       - vtii
@@ -46456,24 +47558,36 @@ transfer:
     - value: tɹænsˈfɝ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'transfer%1:18:00::'
+      derivation:
       - 'transfer%1:18:00::'
       id: 'transfer%2:41:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02398228-v
-    - derivation:
+    - agent:
+      - 'transferrer%1:18:00::'
+      derivation:
       - 'transfer%1:04:00::'
       - 'transfer%1:04:03::'
       - 'transferrer%1:18:00::'
       - 'transferral%1:04:00::'
+      event:
+      - 'transfer%1:04:00::'
+      - 'transfer%1:04:03::'
       id: 'transfer%2:40:01::'
+      result:
+      - 'transferral%1:04:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02236972-v
-    - derivation:
+    - agent:
+      - 'transferer%1:18:00::'
+      - 'transferrer%1:18:00::'
+      derivation:
       - 'transferer%1:18:00::'
       - 'transferrer%1:18:00::'
       id: 'transfer%2:38:05::'
@@ -46481,7 +47595,9 @@ transfer:
       - vtai
       - vtai-pp
       synset: 01859141-v
-    - derivation:
+    - agent:
+      - 'transferrer%1:18:00::'
+      derivation:
       - 'transferrer%1:18:00::'
       id: 'transfer%2:38:00::'
       subcat:
@@ -46490,11 +47606,19 @@ transfer:
       - vtai
       - vtai-pp
       synset: 02016196-v
-    - derivation:
+    - agent:
       - 'transfer%1:04:02::'
       - 'transferer%1:18:00::'
       - 'transferrer%1:18:00::'
       - 'transferor%1:18:00::'
+      derivation:
+      - 'transfer%1:04:02::'
+      - 'transferer%1:18:00::'
+      - 'transferrer%1:18:00::'
+      - 'transferor%1:18:00::'
+      - 'transference%1:04:00::'
+      event:
+      - 'transfer%1:04:02::'
       - 'transference%1:04:00::'
       id: 'transfer%2:40:00::'
       subcat:
@@ -46503,7 +47627,9 @@ transfer:
       - vtai-from
       - vtai-to
       synset: 02225243-v
-    - derivation:
+    - by_means_of:
+      - 'transfer%1:10:01::'
+      derivation:
       - 'transfer%1:10:01::'
       id: 'transfer%2:38:02::'
       sent:
@@ -46514,12 +47640,19 @@ transfer:
       - vii
       - vii-pp
       synset: 02092508-v
-    - derivation:
+    - agent:
+      - 'transferer%1:18:00::'
+      - 'transferrer%1:18:00::'
+      derivation:
       - 'transfer%1:04:03::'
       - 'transferer%1:18:00::'
       - 'transferrer%1:18:00::'
       - 'transferral%1:04:00::'
+      event:
+      - 'transfer%1:04:03::'
       id: 'transfer%2:35:00::'
+      result:
+      - 'transferral%1:04:00::'
       sent:
       - They transfer the parcel to their parents
       subcat:
@@ -46527,7 +47660,10 @@ transfer:
       - vtai-pp
       - vtii
       synset: 01438013-v
-    - derivation:
+    - agent:
+      - 'transferer%1:18:00::'
+      - 'transferrer%1:18:00::'
+      derivation:
       - 'transferer%1:18:00::'
       - 'transferrer%1:18:00::'
       id: 'transfer%2:38:01::'
@@ -46694,11 +47830,17 @@ transfigure:
       - 'transfiguration%1:28:00::'
       - 'transfiguration%1:11:00::'
       - 'transfiguration%1:04:00::'
+      event:
+      - 'transfiguration%1:28:00::'
+      - 'transfiguration%1:11:00::'
+      - 'transfiguration%1:04:00::'
       id: 'transfigure%2:30:02::'
       subcat:
       - vtaa
       synset: 00581589-v
     - derivation:
+      - 'transfiguration%1:04:02::'
+      event:
       - 'transfiguration%1:04:02::'
       id: 'transfigure%2:30:00::'
       subcat:
@@ -46732,13 +47874,17 @@ transform:
     - value: tɹænsˈfɔɹm
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'transformation%1:24:00::'
+      derivation:
       - 'transformation%1:24:00::'
       id: 'transform%2:30:02::'
       subcat:
       - vtai
       synset: 00545091-v
     - derivation:
+      - 'transformation%1:04:00::'
+      event:
       - 'transformation%1:04:00::'
       id: 'transform%2:30:00::'
       subcat:
@@ -46762,11 +47908,15 @@ transform:
       synset: 00382927-v
     - derivation:
       - 'transformation%1:04:01::'
+      event:
+      - 'transformation%1:04:01::'
       id: 'transform%2:30:05::'
       subcat:
       - vtai
       synset: 00382681-v
     - derivation:
+      - 'transformer%1:06:00::'
+      event:
       - 'transformer%1:06:00::'
       id: 'transform%2:30:04::'
       subcat:
@@ -46843,6 +47993,8 @@ transfuse:
       synset: 00087042-v
     - derivation:
       - 'transfusion%1:04:00::'
+      event:
+      - 'transfusion%1:04:00::'
       id: 'transfuse%2:29:01::'
       subcat:
       - vtaa
@@ -46890,14 +48042,20 @@ transgress:
     pronunciation:
     - value: tɹænzˈɡɹɛs
     sense:
-    - derivation:
+    - agent:
+      - 'transgressor%1:18:00::'
+      derivation:
       - 'transgression%1:04:00::'
       - 'transgressor%1:18:00::'
+      event:
+      - 'transgression%1:04:00::'
       id: 'transgress%2:41:00::'
       subcat:
       - vtai
       synset: 02572443-v
     - derivation:
+      - 'transgression%1:19:00::'
+      event:
       - 'transgression%1:19:00::'
       id: 'transgress%2:42:00::'
       subcat:
@@ -46905,11 +48063,15 @@ transgress:
       synset: 02695371-v
     - derivation:
       - 'transgression%1:04:00::'
+      event:
+      - 'transgression%1:04:00::'
       id: 'transgress%2:41:02::'
       subcat:
       - via
       synset: 02571602-v
     - derivation:
+      - 'transgression%1:04:01::'
+      event:
       - 'transgression%1:04:01::'
       id: 'transgress%2:38:00::'
       subcat:
@@ -47023,6 +48185,8 @@ transistorize:
     sense:
     - derivation:
       - 'transistor%1:06:00::'
+      event:
+      - 'transistor%1:06:00::'
       id: 'transistorize%2:40:00::'
       subcat:
       - vtai
@@ -47056,6 +48220,9 @@ transit:
     - derivation:
       - 'transit%1:04:00::'
       - 'transition%1:04:00::'
+      event:
+      - 'transition%1:04:00::'
+      - 'transit%1:04:00::'
       id: 'transit%2:38:00::'
       subcat:
       - via-pp
@@ -47072,7 +48239,11 @@ transit:
       subcat:
       - vtai
       synset: 01870858-v
-    - derivation:
+      undergoer:
+      - 'transit%1:06:00::'
+    - by_means_of:
+      - 'transit%1:06:01::'
+      derivation:
       - 'transit%1:06:01::'
       id: 'transit%2:38:01::'
       subcat:
@@ -47276,10 +48447,15 @@ translate:
     - value: ˈtɹɛnzlæet
       variety: NZ
     sense:
-    - derivation:
+    - agent:
+      - 'translator%1:18:01::'
+      - 'translator%1:18:00::'
+      derivation:
       - 'translation%1:10:00::'
       - 'translator%1:18:01::'
       - 'translator%1:18:00::'
+      event:
+      - 'translation%1:10:00::'
       id: 'translate%2:32:00::'
       subcat:
       - via
@@ -47287,6 +48463,8 @@ translate:
       - vtai
       synset: 00961859-v
     - derivation:
+      - 'translation%1:04:02::'
+      event:
       - 'translation%1:04:02::'
       id: 'translate%2:30:01::'
       subcat:
@@ -47305,6 +48483,8 @@ translate:
       synset: 01438923-v
     - derivation:
       - 'translation%1:11:00::'
+      event:
+      - 'translation%1:11:00::'
       id: 'translate%2:30:00::'
       subcat:
       - vtai
@@ -47316,11 +48496,15 @@ translate:
     - derivation:
       - 'translation%1:10:00::'
       id: 'translate%2:42:00::'
+      result:
+      - 'translation%1:10:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02734017-v
     - derivation:
+      - 'translation%1:04:01::'
+      event:
       - 'translation%1:04:01::'
       id: 'translate%2:38:04::'
       subcat:
@@ -47332,6 +48516,8 @@ translate:
       - vtai
       synset: 00963979-v
     - derivation:
+      - 'translation%1:22:00::'
+      event:
       - 'translation%1:22:00::'
       id: 'translate%2:32:05::'
       subcat:
@@ -47412,6 +48598,8 @@ transliterate:
     sense:
     - derivation:
       - 'transliteration%1:10:00::'
+      event:
+      - 'transliteration%1:10:00::'
       id: 'transliterate%2:32:00::'
       subcat:
       - vtai
@@ -47429,6 +48617,8 @@ translocate:
   v:
     sense:
     - derivation:
+      - 'translocation%1:22:00::'
+      event:
       - 'translocation%1:22:00::'
       id: 'translocate%2:40:01::'
       subcat:
@@ -47506,6 +48696,8 @@ transmigrate:
   v:
     sense:
     - derivation:
+      - 'transmigration%1:11:00::'
+      event:
       - 'transmigration%1:11:00::'
       id: 'transmigrate%2:42:00::'
       subcat:
@@ -47613,11 +48805,15 @@ transmit:
     pronunciation:
     - value: tɹænsˈmɪt
     sense:
-    - derivation:
+    - agent:
+      - 'transmitter%1:17:00::'
+      derivation:
       - transmissible%5:00:01:inheritable:00
       - transmissible%5:00:00:infectious:00
       - 'transmission%1:11:00::'
       - 'transmitter%1:17:00::'
+      event:
+      - 'transmission%1:11:00::'
       id: 'transmit%2:40:10::'
       sent:
       - They transmit them the information
@@ -47629,7 +48825,11 @@ transmit:
     - derivation:
       - 'transmission%1:10:00::'
       - 'transmittal%1:04:00::'
+      event:
+      - 'transmission%1:10:00::'
       id: 'transmit%2:38:00::'
+      result:
+      - 'transmittal%1:04:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -47637,18 +48837,27 @@ transmit:
     - derivation:
       - 'transmission%1:10:00::'
       - 'transmitter%1:06:00::'
+      event:
+      - 'transmitter%1:06:00::'
+      - 'transmission%1:10:00::'
       id: 'transmit%2:32:00::'
       subcat:
       - vtai
       - vtai-pp
       - vtii
       synset: 00975088-v
-    - derivation:
+    - agent:
+      - 'transmitter%1:18:00::'
+      derivation:
       - 'transmission%1:04:01::'
       - 'transmitter%1:18:00::'
       - 'transmitting%1:04:00::'
       - 'transmittal%1:04:00::'
+      event:
+      - 'transmission%1:04:01::'
       id: 'transmit%2:35:00::'
+      result:
+      - 'transmittal%1:04:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -47725,6 +48934,8 @@ transmogrify:
     sense:
     - derivation:
       - 'transmogrification%1:04:00::'
+      event:
+      - 'transmogrification%1:04:00::'
       id: 'transmogrify%2:30:00::'
       subcat:
       - vii
@@ -47783,6 +48994,8 @@ transmute:
       synset: 00382272-v
     - derivation:
       - 'transmutation%1:04:00::'
+      event:
+      - 'transmutation%1:04:00::'
       id: 'transmute%2:30:02::'
       subcat:
       - vtaa
@@ -47791,6 +49004,8 @@ transmute:
       - vtii
       synset: 00383306-v
     - derivation:
+      - 'transmutation%1:11:01::'
+      event:
       - 'transmutation%1:11:01::'
       id: 'transmute%2:30:01::'
       subcat:
@@ -47964,12 +49179,16 @@ transpire:
     sense:
     - derivation:
       - 'transpiration%1:22:01::'
+      event:
+      - 'transpiration%1:22:01::'
       id: 'transpire%2:38:00::'
       subcat:
       - vii
       - vii-pp
       synset: 02070685-v
     - derivation:
+      - 'transpiration%1:22:00::'
+      event:
       - 'transpiration%1:22:00::'
       id: 'transpire%2:30:02::'
       subcat:
@@ -47984,6 +49203,8 @@ transpire:
       - vii-pp
       synset: 00341832-v
     - derivation:
+      - 'transpiration%1:22:02::'
+      event:
       - 'transpiration%1:22:02::'
       id: 'transpire%2:29:00::'
       subcat:
@@ -48029,17 +49250,24 @@ transplant:
     - value: tɹænzˈplænt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'transplanter%1:18:00::'
+      derivation:
       - 'transplant%1:04:01::'
       - 'transplantation%1:04:00::'
       - 'transplanter%1:18:00::'
       - 'transplanting%1:04:00::'
+      event:
+      - 'transplantation%1:04:00::'
+      - 'transplant%1:04:01::'
       id: 'transplant%2:38:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01859141-v
     - derivation:
+      - 'transplant%1:04:01::'
+      event:
       - 'transplant%1:04:01::'
       id: 'transplant%2:42:00::'
       subcat:
@@ -48049,11 +49277,16 @@ transplant:
       - 'transplant%1:08:00::'
       - 'transplant%1:04:02::'
       - 'transplantation%1:04:02::'
+      event:
+      - 'transplantation%1:04:02::'
+      - 'transplant%1:04:02::'
       id: 'transplant%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01533219-v
+      undergoer:
+      - 'transplant%1:08:00::'
     - id: 'transplant%2:30:00::'
       subcat:
       - vtaa
@@ -48138,10 +49371,15 @@ transport:
     - value: tɹænzˈpɔɹt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'transportation%1:06:00::'
+      - 'transport%1:06:00::'
+      derivation:
       - 'transport%1:06:00::'
       - 'transportation%1:06:00::'
       - 'transporter%1:06:03::'
+      - 'transporter%1:06:02::'
+      instrument:
       - 'transporter%1:06:02::'
       id: 'transport%2:38:00::'
       sent:
@@ -48152,11 +49390,17 @@ transport:
       - vtai
       - vtai-pp
       synset: 01957669-v
+      vehicle:
+      - 'transporter%1:06:03::'
     - derivation:
       - 'transportation%1:04:00::'
       - 'transporter%1:06:03::'
       - 'transporter%1:06:01::'
       - 'transport%1:04:01::'
+      event:
+      - 'transportation%1:04:00::'
+      instrument:
+      - 'transporter%1:06:01::'
       id: 'transport%2:35:00::'
       subcat:
       - vtaa
@@ -48166,12 +49410,16 @@ transport:
       - vtia
       - vtii
       synset: 01452567-v
+      vehicle:
+      - 'transporter%1:06:03::'
     - derivation:
       - 'transport%1:26:00::'
       id: 'transport%2:37:00::'
       sent:
       - The good news will transport her
       - The performance is likely to transport Sue
+      state:
+      - 'transport%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -48179,6 +49427,9 @@ transport:
     - derivation:
       - 'transport%1:04:00::'
       - 'transportation%1:04:01::'
+      event:
+      - 'transportation%1:04:01::'
+      - 'transport%1:04:00::'
       id: 'transport%2:38:01::'
       subcat:
       - vtaa
@@ -48186,8 +49437,12 @@ transport:
       - vtai
       - vtai-pp
       synset: 01954657-v
-    - derivation:
+    - by_means_of:
       - 'transport%1:06:00::'
+      derivation:
+      - 'transport%1:06:00::'
+      - 'transport%1:04:00::'
+      event:
       - 'transport%1:04:00::'
       id: 'transport%2:35:01::'
       subcat:
@@ -48287,6 +49542,8 @@ transpose:
     sense:
     - derivation:
       - 'transposition%1:04:00::'
+      event:
+      - 'transposition%1:04:00::'
       id: 'transpose%2:30:00::'
       subcat:
       - vii
@@ -48304,6 +49561,8 @@ transpose:
       synset: 00121734-v
     - derivation:
       - 'transposition%1:04:02::'
+      event:
+      - 'transposition%1:04:02::'
       id: 'transpose%2:38:00::'
       subcat:
       - vtai
@@ -48320,6 +49579,8 @@ transpose:
       - vii-pp
       synset: 00554484-v
     - derivation:
+      - 'transposition%1:04:01::'
+      event:
       - 'transposition%1:04:01::'
       id: 'transpose%2:30:01::'
       subcat:
@@ -48400,6 +49661,8 @@ transship:
     sense:
     - derivation:
       - 'transshipment%1:04:00::'
+      event:
+      - 'transshipment%1:04:00::'
       id: 'transship%2:38:00::'
       subcat:
       - vtai
@@ -48421,11 +49684,15 @@ transubstantiate:
     sense:
     - derivation:
       - 'transubstantiation%1:09:00::'
+      event:
+      - 'transubstantiation%1:09:00::'
       id: 'transubstantiate%2:30:01::'
       subcat:
       - vtai
       synset: 00383764-v
     - derivation:
+      - 'transubstantiation%1:04:00::'
+      event:
       - 'transubstantiation%1:04:00::'
       id: 'transubstantiate%2:30:00::'
       subcat:
@@ -48463,6 +49730,8 @@ transude:
   v:
     sense:
     - derivation:
+      - 'transudation%1:11:00::'
+      event:
       - 'transudation%1:11:00::'
       id: 'transude%2:29:00::'
       subcat:
@@ -48627,7 +49896,9 @@ trap:
     - trapped
     - trapping
     sense:
-    - derivation:
+    - by_means_of:
+      - 'trap%1:09:00::'
+      derivation:
       - 'trap%1:09:00::'
       id: 'trap%2:41:00::'
       subcat:
@@ -48636,7 +49907,11 @@ trap:
       - vtia
       - vtii
       synset: 02501834-v
-    - derivation:
+    - agent:
+      - 'trapper%1:18:00::'
+      by_means_of:
+      - 'trap%1:06:00::'
+      derivation:
       - 'trap%1:06:00::'
       - 'trapper%1:18:00::'
       id: 'trap%2:35:00::'
@@ -48828,6 +50103,8 @@ trash:
       subcat:
       - vtai
       synset: 02228020-v
+      undergoer:
+      - 'trash%1:27:00::'
     - id: 'trash%2:32:00::'
       sent:
       - Sam and Sue trash the movie
@@ -48983,6 +50260,8 @@ travail:
     sense:
     - derivation:
       - 'travail%1:04:00::'
+      event:
+      - 'travail%1:04:00::'
       id: 'travail%2:41:00::'
       subcat:
       - via
@@ -49022,13 +50301,19 @@ travel:
     pronunciation:
     - value: ˈtɹævəl
     sense:
-    - antonym:
+    - agent:
+      - 'traveller%1:18:00::'
+      - 'traveler%1:18:00::'
+      antonym:
       - 'stay_in_place%2:38:00::'
       derivation:
       - 'travel%1:11:00::'
       - 'travel%1:04:01::'
       - 'traveller%1:18:00::'
       - 'traveler%1:18:00::'
+      event:
+      - 'travel%1:11:00::'
+      - 'travel%1:04:01::'
       id: 'travel%2:38:00::'
       sent:
       - They travel the countryside
@@ -49039,12 +50324,17 @@ travel:
       - vii
       - vii-pp
       synset: 01839438-v
-    - derivation:
+    - agent:
+      - 'traveller%1:18:00::'
+      - 'traveler%1:18:00::'
+      derivation:
       - 'travel%1:04:00::'
       - 'traveller%1:18:00::'
       - 'traveler%1:18:00::'
       - 'travelling%1:04:00::'
       - 'traveling%1:04:00::'
+      event:
+      - 'travel%1:04:00::'
       id: 'travel%2:38:04::'
       sent:
       - They travel
@@ -49052,7 +50342,10 @@ travel:
       - via
       - vtaa-pp
       synset: 01849662-v
-    - derivation:
+    - agent:
+      - 'traveller%1:18:00::'
+      - 'traveler%1:18:00::'
+      derivation:
       - 'traveller%1:18:00::'
       - 'traveler%1:18:00::'
       id: 'travel%2:38:01::'
@@ -49060,18 +50353,27 @@ travel:
       - via
       - vtaa-pp
       synset: 01846997-v
-    - derivation:
+    - agent:
+      - 'traveller%1:18:00::'
+      derivation:
       - 'travel%1:04:00::'
       - 'traveller%1:18:00::'
+      event:
+      - 'travel%1:04:00::'
       id: 'travel%2:38:02::'
       subcat:
       - vtai
       - vtii
       synset: 01850858-v
-    - derivation:
+    - agent:
+      - 'traveller%1:18:00::'
+      - 'traveler%1:18:00::'
+      derivation:
       - 'travel%1:11:00::'
       - 'traveller%1:18:00::'
       - 'traveler%1:18:00::'
+      event:
+      - 'travel%1:11:00::'
       id: 'travel%2:38:03::'
       subcat:
       - via
@@ -49079,10 +50381,15 @@ travel:
       - vii
       - vii-pp
       synset: 01845021-v
-    - derivation:
+    - agent:
+      - 'traveller%1:18:00::'
+      - 'traveler%1:18:00::'
+      derivation:
       - 'travel%1:04:00::'
       - 'traveller%1:18:00::'
       - 'traveler%1:18:00::'
+      event:
+      - 'travel%1:04:00::'
       id: 'travel%2:38:05::'
       subcat:
       - via
@@ -49407,11 +50714,17 @@ traverse:
     - value: tɹəˈvɜːs
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'traverser%1:18:00::'
+      derivation:
       - 'traverse%1:04:01::'
       - 'traverser%1:18:00::'
       - 'traversal%1:04:01::'
+      event:
+      - 'traverse%1:04:01::'
       id: 'traverse%2:38:00::'
+      result:
+      - 'traversal%1:04:01::'
       subcat:
       - via-pp
       - vii-pp
@@ -49451,6 +50764,8 @@ travesty:
     sense:
     - derivation:
       - 'travesty%1:10:00::'
+      event:
+      - 'travesty%1:10:00::'
       id: 'travesty%2:36:00::'
       subcat:
       - vtai
@@ -49479,6 +50794,9 @@ trawl:
       variety: US
     sense:
     - derivation:
+      - 'trawl%1:06:01::'
+      - 'trawl%1:06:00::'
+      instrument:
       - 'trawl%1:06:01::'
       - 'trawl%1:06:00::'
       id: 'trawl%2:33:00::'
@@ -49614,6 +50932,8 @@ tread:
     sense:
     - derivation:
       - 'tread%1:04:00::'
+      event:
+      - 'tread%1:04:00::'
       id: 'tread%2:38:01::'
       subcat:
       - via
@@ -49639,6 +50959,8 @@ tread:
       subcat:
       - vtai
       synset: 02314493-v
+      uses:
+      - 'tread%1:06:02::'
     - id: 'tread%2:35:02::'
       subcat:
       - vtia
@@ -49690,6 +51012,8 @@ treadle:
       - vtai
       synset: 01933641-v
     - derivation:
+      - 'treadle%1:06:00::'
+      instrument:
       - 'treadle%1:06:00::'
       id: 'treadle%2:35:00::'
       subcat:
@@ -49798,6 +51122,8 @@ treasure:
       subcat:
       - vtai
       synset: 02260917-v
+      undergoer:
+      - 'treasure%1:21:01::'
     - derivation:
       - 'treasure%1:21:01::'
       id: 'treasure%2:37:00::'
@@ -49808,6 +51134,8 @@ treasure:
       - vtaa
       - vtai
       synset: 01780135-v
+      undergoer:
+      - 'treasure%1:21:01::'
 treasure chest:
   n:
     sense:
@@ -49917,12 +51245,16 @@ treat:
       synset: 02519853-v
     - derivation:
       - 'treatment%1:04:01::'
+      event:
+      - 'treatment%1:04:01::'
       id: 'treat%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00516235-v
     - derivation:
+      - 'treatment%1:04:00::'
+      event:
       - 'treatment%1:04:00::'
       id: 'treat%2:29:00::'
       sent:
@@ -49933,6 +51265,8 @@ treat:
       synset: 00078513-v
     - derivation:
       - 'treatment%1:10:00::'
+      event:
+      - 'treatment%1:10:00::'
       id: 'treat%2:32:00::'
       subcat:
       - vtaa
@@ -49940,6 +51274,8 @@ treat:
       - vtii
       synset: 01035399-v
     - derivation:
+      - 'treat%1:11:00::'
+      event:
       - 'treat%1:11:00::'
       id: 'treat%2:40:00::'
       subcat:
@@ -49953,7 +51289,11 @@ treat:
       - vtaa-pp
       - vtaa-with
       synset: 01178529-v
-    - derivation:
+      uses:
+      - 'treat%1:13:00::'
+    - agent:
+      - 'treater%1:18:00::'
+      derivation:
       - 'treater%1:18:00::'
       id: 'treat%2:32:03::'
       subcat:
@@ -50043,6 +51383,8 @@ treble:
   v:
     sense:
     - derivation:
+      - 'treble%1:07:00::'
+      event:
       - 'treble%1:07:00::'
       id: 'treble%2:32:00::'
       subcat:
@@ -50452,13 +51794,17 @@ trek:
     pronunciation:
     - value: tɹɛk
     sense:
-    - derivation:
+    - agent:
+      - 'trekker%1:18:00::'
+      derivation:
       - 'trekker%1:18:00::'
       id: 'trek%2:38:01::'
       subcat:
       - via
       synset: 01851334-v
-    - derivation:
+    - agent:
+      - 'trekker%1:18:00::'
+      derivation:
       - 'trekker%1:18:00::'
       id: 'trek%2:38:00::'
       subcat:
@@ -50522,10 +51868,14 @@ tremble:
     pronunciation:
     - value: ˈtɹɛmbl̩
     sense:
-    - derivation:
+    - agent:
+      - 'trembler%1:18:00::'
+      derivation:
       - 'tremble%1:04:00::'
       - 'trembler%1:18:00::'
       - 'trembling%1:26:00::'
+      event:
+      - 'tremble%1:04:00::'
       id: 'tremble%2:38:00::'
       sent:
       - The crowds tremble in the streets
@@ -50618,6 +51968,8 @@ tremor:
     sense:
     - derivation:
       - 'tremor%1:11:00::'
+      event:
+      - 'tremor%1:11:00::'
       id: 'tremor%2:38:00::'
       subcat:
       - vii
@@ -50673,7 +52025,11 @@ trench:
       subcat:
       - vtai
       synset: 01609344-v
+      uses:
+      - 'trench%1:06:00::'
     - derivation:
+      - 'trencher%1:06:00::'
+      instrument:
       - 'trencher%1:06:00::'
       id: 'trench%2:35:00::'
       subcat:
@@ -50686,17 +52042,25 @@ trench:
       - vtaa
       - vtai
       synset: 01500097-v
-    - derivation:
+    - agent:
+      - 'trencher%1:18:00::'
+      derivation:
       - 'trench%1:06:01::'
       - 'trencher%1:18:00::'
       id: 'trench%2:35:03::'
       subcat:
       - vtai
       synset: 01314556-v
-    - derivation:
+      uses:
+      - 'trench%1:06:01::'
+    - agent:
+      - 'trencher%1:18:00::'
+      derivation:
       - 'trench%1:06:01::'
       - 'trencher%1:18:00::'
       id: 'trench%2:35:01::'
+      result:
+      - 'trench%1:06:01::'
       subcat:
       - via
       synset: 01314382-v
@@ -50811,6 +52175,8 @@ trend:
     - derivation:
       - 'trend%1:15:01::'
       id: 'trend%2:38:00::'
+      property:
+      - 'trend%1:15:01::'
       subcat:
       - vii
       - vii-pp
@@ -50888,6 +52254,9 @@ trepan:
     - derivation:
       - 'trepan%1:06:00::'
       - 'trepan%1:06:01::'
+      instrument:
+      - 'trepan%1:06:00::'
+      - 'trepan%1:06:01::'
       id: 'trepan%2:35:00::'
       subcat:
       - vtai
@@ -50923,6 +52292,10 @@ trephine:
     sense:
     - derivation:
       - 'trephination%1:04:00::'
+      - 'trephine%1:06:00::'
+      event:
+      - 'trephination%1:04:00::'
+      instrument:
       - 'trephine%1:06:00::'
       id: 'trephine%2:29:00::'
       subcat:
@@ -50968,11 +52341,15 @@ trespass:
       synset: 00734781-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'trespasser%1:18:00::'
+      also:
       - 'trespass%2:41:12::'
       derivation:
       - 'trespass%1:04:00::'
       - 'trespasser%1:18:00::'
+      event:
+      - 'trespass%1:04:00::'
       id: 'trespass%2:41:01::'
       subcat:
       - via
@@ -50985,6 +52362,8 @@ trespass:
       - via-pp
       synset: 02575977-v
     - derivation:
+      - 'trespass%1:04:01::'
+      event:
       - 'trespass%1:04:01::'
       id: 'trespass%2:41:00::'
       subcat:
@@ -51297,13 +52676,17 @@ triangulate:
       subcat:
       - vtai
       synset: 02474041-v
-    - derivation:
+    - by_means_of:
+      - 'triangulation%1:09:00::'
+      derivation:
       - 'triangulation%1:09:00::'
       id: 'triangulate%2:31:01::'
       subcat:
       - vtai
       synset: 00649282-v
-    - derivation:
+    - by_means_of:
+      - 'triangulation%1:04:00::'
+      derivation:
       - 'triangulation%1:04:00::'
       - 'triangle%1:25:00::'
       id: 'triangulate%2:31:00::'
@@ -51509,6 +52892,8 @@ tribulate:
   v:
     sense:
     - derivation:
+      - 'tribulation%1:11:00::'
+      event:
       - 'tribulation%1:11:00::'
       id: 'tribulate%2:37:00::'
       subcat:
@@ -51828,11 +53213,15 @@ trick:
     pronunciation:
     - value: tɹɪk
     sense:
-    - derivation:
+    - agent:
+      - 'tricker%1:18:00::'
+      derivation:
       - 'trick%1:04:05::'
       - 'tricker%1:18:00::'
       - 'trickery%1:10:00::'
       - 'trickery%1:04:01::'
+      event:
+      - 'trick%1:04:05::'
       id: 'trick%2:41:00::'
       subcat:
       - vtaa
@@ -51916,6 +53305,8 @@ trickle:
     - value: ˈtɹɪkəl
     sense:
     - derivation:
+      - 'trickle%1:11:00::'
+      event:
       - 'trickle%1:11:00::'
       id: 'trickle%2:38:00::'
       sent:
@@ -52165,7 +53556,9 @@ trifle:
       subcat:
       - via
       synset: 02713983-v
-    - derivation:
+    - agent:
+      - 'trifler%1:18:00::'
+      derivation:
       - 'trifler%1:18:00::'
       id: 'trifle%2:41:00::'
       subcat:
@@ -52249,6 +53642,8 @@ trifurcate:
     sense:
     - derivation:
       - 'trifurcation%1:04:00::'
+      event:
+      - 'trifurcation%1:04:00::'
       id: 'trifurcate%2:30:00::'
       subcat:
       - vii
@@ -52321,6 +53716,8 @@ trigger:
     sense:
     - derivation:
       - 'trigger%1:04:00::'
+      event:
+      - 'trigger%1:04:00::'
       id: 'trigger%2:36:00::'
       subcat:
       - vtai
@@ -52328,10 +53725,14 @@ trigger:
       synset: 01647199-v
     - derivation:
       - 'trigger%1:06:00::'
+      event:
+      - 'trigger%1:06:00::'
       id: 'trigger%2:33:00::'
       subcat:
       - vtai
       synset: 01137797-v
+      undergoer:
+      - 'trigger%1:06:00::'
 trigger off:
   v:
     sense:
@@ -52495,6 +53896,8 @@ trill:
       synset: 01057138-v
     - derivation:
       - 'trill%1:10:00::'
+      event:
+      - 'trill%1:10:00::'
       id: 'trill%2:32:00::'
       sent:
       - The birds trill in the woods
@@ -52635,6 +54038,8 @@ trim:
     sense:
     - derivation:
       - 'trimmer%1:06:02::'
+      event:
+      - 'trimmer%1:06:02::'
       id: 'trim%2:35:03::'
       subcat:
       - vtai
@@ -52647,7 +54052,11 @@ trim:
       subcat:
       - vtai
       synset: 01683701-v
+      uses:
+      - 'trim%1:06:00::'
     - derivation:
+      - 'trim%1:04:00::'
+      event:
       - 'trim%1:04:00::'
       id: 'trim%2:30:00::'
       subcat:
@@ -52657,12 +54066,16 @@ trim:
     - derivation:
       - 'trim%1:24:00::'
       id: 'trim%2:42:06::'
+      property:
+      - 'trim%1:24:00::'
       subcat:
       - vtai
       synset: 02757982-v
     - derivation:
       - 'trim%1:24:00::'
       id: 'trim%2:42:05::'
+      property:
+      - 'trim%1:24:00::'
       subcat:
       - vii
       synset: 02757827-v
@@ -52675,10 +54088,16 @@ trim:
       - vtai
       - vtii
       synset: 01683328-v
-    - derivation:
+      uses:
+      - 'trim%1:06:00::'
+    - agent:
+      - 'trimmer%1:18:00::'
+      derivation:
       - 'trim%1:04:00::'
       - 'trimmer%1:18:00::'
       - 'trimming%1:04:01::'
+      event:
+      - 'trim%1:04:00::'
       id: 'trim%2:35:02::'
       sent:
       - They trim the trees
@@ -52689,6 +54108,8 @@ trim:
     - derivation:
       - 'trim%1:04:00::'
       - 'trimming%1:04:01::'
+      event:
+      - 'trim%1:04:00::'
       id: 'trim%2:35:01::'
       sent:
       - They trim their hair
@@ -52965,9 +54386,13 @@ trip:
     pronunciation:
     - value: tɹɪp
     sense:
-    - derivation:
+    - agent:
+      - 'tripper%1:18:01::'
+      derivation:
       - 'trip%1:11:00::'
       - 'tripper%1:18:01::'
+      event:
+      - 'trip%1:11:00::'
       id: 'trip%2:38:00::'
       subcat:
       - via
@@ -52975,21 +54400,31 @@ trip:
       synset: 01904401-v
     - derivation:
       - 'trip%1:11:00::'
+      event:
+      - 'trip%1:11:00::'
       id: 'trip%2:38:01::'
       subcat:
       - vtaa
       - vtia
       synset: 01904753-v
-    - derivation:
+    - agent:
+      - 'tripper%1:18:00::'
+      derivation:
       - 'trip%1:04:00::'
       - 'tripper%1:18:00::'
+      event:
+      - 'trip%1:04:00::'
       id: 'trip%2:38:02::'
       subcat:
       - via
       - vtaa-pp
       synset: 01846997-v
-    - derivation:
+    - by_means_of:
       - 'trip%1:06:00::'
+      derivation:
+      - 'trip%1:06:00::'
+      - 'tripper%1:06:00::'
+      event:
       - 'tripper%1:06:00::'
       id: 'trip%2:36:00::'
       subcat:
@@ -52997,6 +54432,8 @@ trip:
       - vtii
       synset: 01647199-v
     - derivation:
+      - 'trip%1:26:00::'
+      event:
       - 'trip%1:26:00::'
       id: 'trip%2:34:00::'
       subcat:
@@ -53161,6 +54598,8 @@ triple:
       - 'triplicate%1:06:00::'
       - 'tripling%1:22:00::'
       id: 'triple%2:30:00::'
+      result:
+      - 'triple%1:09:00::'
       sent:
       - They triple their earnings this year
       - Their earnings triple this year
@@ -53170,6 +54609,8 @@ triple:
       - vtii
       synset: 00247632-v
     - derivation:
+      - 'triple%1:04:00::'
+      event:
       - 'triple%1:04:00::'
       id: 'triple%2:35:00::'
       subcat:
@@ -53285,6 +54726,8 @@ triplicate:
     - derivation:
       - 'triplicate%1:06:00::'
       id: 'triplicate%2:36:00::'
+      result:
+      - 'triplicate%1:06:00::'
       subcat:
       - vtai
       synset: 01739680-v
@@ -53566,12 +55009,16 @@ triumph:
     - derivation:
       - triumphant%5:00:00:undefeated:00
       - 'triumph%1:11:00::'
+      event:
+      - 'triumph%1:11:00::'
       id: 'triumph%2:33:00::'
       subcat:
       - via
       synset: 01104145-v
     - derivation:
       - triumphant%5:00:00:elated:00
+      - 'triumph%1:12:00::'
+      event:
       - 'triumph%1:12:00::'
       id: 'triumph%2:37:00::'
       subcat:
@@ -53888,14 +55335,22 @@ troll:
       synset: 01891447-v
     - derivation:
       - 'troll%1:10:00::'
+      event:
+      - 'troll%1:10:00::'
       id: 'troll%2:36:00::'
       subcat:
       - vtai
       synset: 01735458-v
-    - derivation:
+    - agent:
+      - 'troller%1:18:00::'
+      derivation:
       - 'troll%1:06:00::'
       - 'troll%1:04:00::'
       - 'troller%1:18:00::'
+      event:
+      - 'troll%1:04:00::'
+      instrument:
+      - 'troll%1:06:00::'
       id: 'troll%2:33:00::'
       sent:
       - The men troll the area for animals
@@ -54070,7 +55525,9 @@ troop:
       - via
       - via-pp
       synset: 01928458-v
-    - derivation:
+    - agent:
+      - 'troop%1:14:01::'
+      derivation:
       - 'troop%1:14:01::'
       id: 'troop%2:38:00::'
       sent:
@@ -54377,15 +55834,21 @@ trot:
     - trotted
     - trotting
     sense:
-    - derivation:
+    - agent:
+      - 'trotter%1:05:00::'
+      derivation:
       - 'trot%1:04:00::'
       - 'trotter%1:05:01::'
       - 'trotter%1:05:00::'
+      event:
+      - 'trot%1:04:00::'
       id: 'trot%2:38:00::'
       subcat:
       - via-pp
       synset: 01905440-v
     - derivation:
+      - 'trot%1:04:02::'
+      event:
       - 'trot%1:04:02::'
       id: 'trot%2:38:01::'
       sent:
@@ -54394,6 +55857,8 @@ trot:
       - via
       synset: 01964638-v
     - derivation:
+      - 'trot%1:04:02::'
+      event:
       - 'trot%1:04:02::'
       id: 'trot%2:38:02::'
       sent:
@@ -54496,13 +55961,18 @@ trouble:
     - derivation:
       - 'trouble%1:12:03::'
       - 'trouble%1:11:00::'
+      event:
+      - 'trouble%1:11:00::'
+      - 'trouble%1:12:03::'
       id: 'trouble%2:37:01::'
       sent:
       - The bad news will trouble him
       subcat:
       - vtia
       synset: 01774422-v
-    - derivation:
+    - by_means_of:
+      - 'trouble%1:09:00::'
+      derivation:
       - 'trouble%1:09:00::'
       id: 'trouble%2:41:00::'
       subcat:
@@ -54510,6 +55980,9 @@ trouble:
       - vtia
       synset: 02513385-v
     - derivation:
+      - 'trouble%1:12:03::'
+      - 'trouble%1:11:00::'
+      event:
       - 'trouble%1:12:03::'
       - 'trouble%1:11:00::'
       id: 'trouble%2:37:00::'
@@ -54521,12 +55994,16 @@ trouble:
       synset: 01768023-v
     - derivation:
       - 'trouble%1:04:02::'
+      event:
+      - 'trouble%1:04:02::'
       id: 'trouble%2:41:01::'
       subcat:
       - via-to-inf
       - vii
       synset: 02513113-v
     - derivation:
+      - 'trouble%1:11:00::'
+      event:
       - 'trouble%1:11:00::'
       id: 'trouble%2:29:00::'
       subcat:
@@ -54815,6 +56292,8 @@ trowel:
     sense:
     - derivation:
       - 'trowel%1:06:00::'
+      instrument:
+      - 'trowel%1:06:00::'
       id: 'trowel%2:35:00::'
       subcat:
       - vtai
@@ -54889,7 +56368,9 @@ truck:
       synset: 03495220-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'trucker%1:18:00::'
+      derivation:
       - 'truck%1:06:00::'
       - 'trucker%1:18:00::'
       - 'trucking%1:04:00::'
@@ -54899,6 +56380,8 @@ truck:
       - vtaa-pp
       - vtai-pp
       synset: 01958200-v
+      vehicle:
+      - 'truck%1:06:00::'
 truck bed:
   n:
     sense:
@@ -54987,13 +56470,17 @@ truckle:
       synset: 04498933-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'truckler%1:18:00::'
+      derivation:
       - 'truckler%1:18:00::'
       id: 'truckle%2:42:00::'
       subcat:
       - vtai-pp
       synset: 02709292-v
-    - derivation:
+    - agent:
+      - 'truckler%1:18:00::'
+      derivation:
       - 'truckler%1:18:00::'
       - 'truckling%1:04:00::'
       id: 'truckle%2:32:00::'
@@ -55066,9 +56553,13 @@ trudge:
     pronunciation:
     - value: tɹʌdʒ
     sense:
-    - derivation:
+    - agent:
+      - 'trudger%1:18:00::'
+      derivation:
       - 'trudge%1:04:00::'
       - 'trudger%1:18:00::'
+      event:
+      - 'trudge%1:04:00::'
       id: 'trudge%2:38:01::'
       sent:
       - They trudge up the hill
@@ -55162,6 +56653,8 @@ trudger:
     - derivation:
       - 'true%1:07:00::'
       id: 'true%2:30:00::'
+      property:
+      - 'true%1:07:00::'
       subcat:
       - vtai
       synset: 00466204-v
@@ -55483,6 +56976,8 @@ trump:
     sense:
     - derivation:
       - 'trump%1:06:01::'
+      instrument:
+      - 'trump%1:06:01::'
       id: 'trump%2:39:00::'
       subcat:
       - via
@@ -55501,6 +56996,8 @@ trump:
       subcat:
       - via
       synset: 01080628-v
+      undergoer:
+      - 'trump%1:06:00::'
     - id: 'trump%2:32:00::'
       subcat:
       - via-that
@@ -55555,20 +57052,28 @@ trumpet:
     pronunciation:
     - value: ˈtɹʌmpɪt
     sense:
-    - derivation:
+    - agent:
+      - 'trumpeter%1:18:01::'
+      derivation:
       - 'trumpeter%1:18:01::'
       id: 'trumpet%2:32:00::'
       subcat:
       - vtai
       synset: 00979903-v
-    - derivation:
+    - agent:
+      - 'trumpeter%1:18:00::'
+      derivation:
       - 'trumpet%1:06:00::'
       - 'trumpeter%1:18:00::'
+      instrument:
+      - 'trumpet%1:06:00::'
       id: 'trumpet%2:36:00::'
       subcat:
       - via
       synset: 01737710-v
-    - derivation:
+    - agent:
+      - 'trumpeter%1:18:01::'
+      derivation:
       - 'trumpeter%1:18:01::'
       id: 'trumpet%2:32:02::'
       sent:
@@ -55705,6 +57210,8 @@ truncate:
     sense:
     - derivation:
       - 'truncation%1:04:01::'
+      event:
+      - 'truncation%1:04:01::'
       id: 'truncate%2:40:00::'
       subcat:
       - vtai
@@ -55714,6 +57221,8 @@ truncate:
       - vtai
       synset: 00742295-v
     - derivation:
+      - 'truncation%1:04:00::'
+      event:
       - 'truncation%1:04:00::'
       id: 'truncate%2:30:00::'
       subcat:
@@ -55895,7 +57404,9 @@ truss:
       - vtaa
       - vtai
       synset: 01289516-v
-    - derivation:
+    - by_means_of:
+      - 'truss%1:06:00::'
+      derivation:
       - 'truss%1:06:00::'
       id: 'truss%2:35:00::'
       subcat:
@@ -55963,9 +57474,13 @@ trust:
       subcat:
       - vtaa-to-inf
       synset: 02487408-v
-    - derivation:
+    - agent:
+      - 'truster%1:18:00::'
+      derivation:
       - 'trust%1:09:00::'
       - 'truster%1:18:00::'
+      event:
+      - 'trust%1:09:00::'
       id: 'trust%2:31:02::'
       subcat:
       - via-that
@@ -55979,7 +57494,14 @@ trust:
       - 'trust%1:07:00::'
       - 'trustee%1:18:01::'
       - 'trustee%1:18:00::'
+      destination:
+      - 'trustee%1:18:00::'
+      - 'trustee%1:18:01::'
+      event:
+      - 'trust%1:26:00::'
       id: 'trust%2:40:00::'
+      property:
+      - 'trust%1:07:00::'
       subcat:
       - vtai-to
       synset: 02354208-v
@@ -56266,11 +57788,15 @@ try:
     form:
     - tried
     sense:
-    - also:
+    - agent:
+      - 'trier%1:18:01::'
+      also:
       - 'try_out%2:41:00::'
       derivation:
       - 'try%1:04:00::'
       - 'trier%1:18:01::'
+      event:
+      - 'try%1:04:00::'
       id: 'try%2:41:00::'
       sent:
       - They try to move
@@ -56279,24 +57805,36 @@ try:
       - via-to-inf
       - vtai
       synset: 02535833-v
-    - derivation:
+    - agent:
+      - 'trier%1:18:01::'
+      derivation:
       - 'trier%1:18:01::'
       - 'trial%1:04:03::'
       id: 'try%2:41:01::'
+      result:
+      - 'trial%1:04:03::'
       subcat:
       - vtai
       synset: 02537291-v
-    - derivation:
+    - agent:
+      - 'trier%1:18:02::'
+      derivation:
       - 'trier%1:18:02::'
       - 'trial%1:04:02::'
       id: 'try%2:41:06::'
+      result:
+      - 'trial%1:04:02::'
       sent:
       - They want to try the prisoners
       subcat:
       - vtaa
       synset: 02506927-v
-    - derivation:
+    - agent:
       - 'trier%1:18:01::'
+      derivation:
+      - 'trier%1:18:01::'
+      - 'trial%1:09:00::'
+      event:
       - 'trial%1:09:00::'
       id: 'try%2:34:00::'
       sent:
@@ -56304,7 +57842,9 @@ try:
       subcat:
       - vtai
       synset: 01197832-v
-    - derivation:
+    - agent:
+      - 'trier%1:18:02::'
+      derivation:
       - 'trier%1:18:02::'
       id: 'try%2:41:05::'
       subcat:
@@ -56313,6 +57853,8 @@ try:
     - derivation:
       - 'trial%1:11:00::'
       id: 'try%2:37:01::'
+      result:
+      - 'trial%1:11:00::'
       sent:
       - Sam cannot try Sue
       subcat:
@@ -56713,6 +58255,8 @@ tube:
       subcat:
       - vtai
       synset: 02334288-v
+      uses:
+      - 'tube%1:08:00::'
     - derivation:
       - 'tube%1:08:00::'
       - 'tubing%1:06:00::'
@@ -57037,17 +58581,23 @@ tuck:
       subcat:
       - vtai-pp
       synset: 01392430-v
-    - derivation:
+    - agent:
+      - 'tucker%1:18:00::'
+      derivation:
       - 'tucker%1:18:00::'
       id: 'tuck%2:35:01::'
       subcat:
       - vtai
       - vtii
       synset: 01392981-v
-    - derivation:
+    - agent:
+      - 'tucker%1:18:00::'
+      derivation:
       - 'tuck%1:06:00::'
       - 'tucker%1:18:00::'
       id: 'tuck%2:35:03::'
+      result:
+      - 'tuck%1:06:00::'
       subcat:
       - vtai
       synset: 01333504-v
@@ -57235,9 +58785,13 @@ tug:
     pronunciation:
     - value: tʌɡ
     sense:
-    - derivation:
+    - agent:
+      - 'tugger%1:18:00::'
+      derivation:
       - 'tug%1:04:00::'
       - 'tugger%1:18:00::'
+      event:
+      - 'tug%1:04:00::'
       id: 'tug%2:35:00::'
       subcat:
       - via
@@ -57247,7 +58801,11 @@ tug:
       subcat:
       - via-to-inf
       synset: 02412046-v
-    - derivation:
+    - agent:
+      - 'tugger%1:18:00::'
+      by_means_of:
+      - 'tug%1:06:00::'
+      derivation:
       - 'tug%1:06:00::'
       - 'tugger%1:18:00::'
       id: 'tug%2:35:04::'
@@ -57258,15 +58816,21 @@ tug:
       subcat:
       - vtai
       synset: 01456857-v
-    - derivation:
+    - agent:
+      - 'tugger%1:18:00::'
+      derivation:
       - 'tug%1:04:00::'
       - 'tugger%1:18:00::'
+      event:
+      - 'tug%1:04:00::'
       id: 'tug%2:35:02::'
       subcat:
       - vtai
       - vtii
       synset: 01455867-v
     - derivation:
+      - 'tug%1:04:00::'
+      event:
       - 'tug%1:04:00::'
       id: 'tug%2:35:01::'
       subcat:
@@ -57432,12 +58996,16 @@ tumble:
     sense:
     - derivation:
       - 'tumble%1:04:01::'
+      event:
+      - 'tumble%1:04:01::'
       id: 'tumble%2:38:00::'
       subcat:
       - via
       - vii
       synset: 01980502-v
     - derivation:
+      - 'tumble%1:04:01::'
+      event:
       - 'tumble%1:04:01::'
       id: 'tumble%2:38:06::'
       subcat:
@@ -57446,7 +59014,9 @@ tumble:
       - vtia
       - vtii
       synset: 02101325-v
-    - derivation:
+    - agent:
+      - 'tumbler%1:05:00::'
+      derivation:
       - 'tumbler%1:06:01::'
       - 'tumbler%1:05:00::'
       id: 'tumble%2:38:04::'
@@ -57454,6 +59024,8 @@ tumble:
       - via
       - vii
       synset: 01871983-v
+      undergoer:
+      - 'tumbler%1:06:01::'
     - id: 'tumble%2:38:07::'
       subcat:
       - vii
@@ -57475,6 +59047,8 @@ tumble:
       synset: 00591761-v
     - derivation:
       - 'tumble%1:04:01::'
+      event:
+      - 'tumble%1:04:01::'
       id: 'tumble%2:30:00::'
       sent:
       - The stock market is going to tumble
@@ -57489,10 +59063,14 @@ tumble:
       subcat:
       - vii
       synset: 00204643-v
-    - derivation:
+    - agent:
+      - 'tumbler%1:18:00::'
+      derivation:
       - 'tumble%1:04:00::'
       - 'tumbler%1:18:00::'
       - 'tumbling%1:04:00::'
+      event:
+      - 'tumble%1:04:00::'
       id: 'tumble%2:29:00::'
       subcat:
       - via
@@ -57608,11 +59186,15 @@ tumefy:
     sense:
     - derivation:
       - 'tumefaction%1:22:00::'
+      event:
+      - 'tumefaction%1:22:00::'
       id: 'tumefy%2:30:01::'
       subcat:
       - vtii
       synset: 00258723-v
     - derivation:
+      - 'tumefaction%1:22:00::'
+      event:
       - 'tumefaction%1:22:00::'
       id: 'tumefy%2:30:00::'
       subcat:
@@ -57902,6 +59484,8 @@ tune:
       - 'tuner%1:18:01::'
       - 'tuning%1:04:00::'
       id: 'tune%2:30:00::'
+      property:
+      - 'tune%1:07:00::'
       subcat:
       - vtai
       synset: 00296127-v
@@ -58107,12 +59691,16 @@ tunnel:
     - derivation:
       - 'tunnel%1:17:00::'
       id: 'tunnel%2:38:00::'
+      result:
+      - 'tunnel%1:17:00::'
       subcat:
       - vii-pp
       synset: 02045912-v
     - derivation:
       - 'tunnel%1:06:00::'
       id: 'tunnel%2:35:00::'
+      result:
+      - 'tunnel%1:06:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -58653,6 +60241,10 @@ turn:
       - 'turn%1:04:01::'
       - 'turning%1:11:00::'
       - 'turning%1:04:00::'
+      event:
+      - 'turn%1:04:02::'
+      - 'turn%1:11:00::'
+      - 'turn%1:04:01::'
       id: 'turn%2:38:00::'
       sent:
       - They turn the car down the avenue
@@ -58667,6 +60259,8 @@ turn:
       derivation:
       - 'turn%1:11:01::'
       - 'turning%1:04:01::'
+      event:
+      - 'turn%1:11:01::'
       id: 'turn%2:30:04::'
       subcat:
       - via
@@ -58674,12 +60268,17 @@ turn:
       synset: 00145958-v
     - derivation:
       - 'turn%1:11:01::'
+      event:
+      - 'turn%1:11:01::'
       id: 'turn%2:42:00::'
       subcat:
       - vtaa
       - vtii
       synset: 02632685-v
     - derivation:
+      - 'turn%1:04:07::'
+      - 'turn%1:11:00::'
+      event:
       - 'turn%1:04:07::'
       - 'turn%1:11:00::'
       id: 'turn%2:38:02::'
@@ -58691,6 +60290,8 @@ turn:
       - 'turn_off%2:35:00::'
       derivation:
       - 'turn%1:11:00::'
+      event:
+      - 'turn%1:11:00::'
       id: 'turn%2:30:00::'
       subcat:
       - via
@@ -58701,11 +60302,15 @@ turn:
       synset: 00138328-v
     - derivation:
       - 'turn%1:11:00::'
+      event:
+      - 'turn%1:11:00::'
       id: 'turn%2:38:03::'
       subcat:
       - vtai
       synset: 01913805-v
     - derivation:
+      - 'turn%1:11:01::'
+      event:
       - 'turn%1:11:01::'
       id: 'turn%2:30:03::'
       sent:
@@ -58726,6 +60331,8 @@ turn:
       synset: 02100445-v
     - derivation:
       - 'turner%1:06:00::'
+      instrument:
+      - 'turner%1:06:00::'
       id: 'turn%2:38:01::'
       sent:
       - They turn the coin
@@ -58742,7 +60349,9 @@ turn:
       - via
       - vtai
       synset: 01745745-v
-    - derivation:
+    - agent:
+      - 'turner%1:18:01::'
+      derivation:
       - 'turner%1:18:01::'
       - 'turnery%1:06:01::'
       - 'turnery%1:06:00::'
@@ -58769,7 +60378,9 @@ turn:
       - vtia
       - vtii
       synset: 02633015-v
-    - derivation:
+    - agent:
+      - 'turner%1:18:02::'
+      derivation:
       - 'turner%1:18:02::'
       id: 'turn%2:41:10::'
       subcat:
@@ -58880,6 +60491,8 @@ turn around:
   v:
     sense:
     - derivation:
+      - 'turn_around%1:11:00::'
+      event:
       - 'turn_around%1:11:00::'
       id: 'turn_around%2:38:00::'
       subcat:
@@ -59221,6 +60834,8 @@ turn over:
       synset: 02235554-v
     - derivation:
       - 'turnover%1:04:00::'
+      event:
+      - 'turnover%1:04:00::'
       id: 'turn_over%2:38:02::'
       sent:
       - These cars won't turn over
@@ -59242,6 +60857,8 @@ turn over:
     - derivation:
       - 'turnover%1:07:00::'
       id: 'turn_over%2:40:01::'
+      result:
+      - 'turnover%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -59253,6 +60870,8 @@ turn over:
       - vtai
       synset: 02093687-v
     - derivation:
+      - 'turnover%1:04:00::'
+      event:
       - 'turnover%1:04:00::'
       id: 'turn_over%2:38:00::'
       subcat:
@@ -59804,7 +61423,9 @@ turtle:
       subcat:
       - vii
       synset: 01897306-v
-    - derivation:
+    - agent:
+      - 'turtler%1:18:00::'
+      derivation:
       - 'turtler%1:18:00::'
       id: 'turtle%2:33:00::'
       subcat:
@@ -59880,6 +61501,9 @@ tusk:
     - derivation:
       - 'tusk%1:27:00::'
       - 'tusk%1:05:00::'
+      instrument:
+      - 'tusk%1:27:00::'
+      - 'tusk%1:05:00::'
       id: 'tusk%2:35:00::'
       subcat:
       - vtia
@@ -59891,6 +61515,9 @@ tusk:
       subcat:
       - vtai
       synset: 00198588-v
+      undergoer:
+      - 'tusk%1:27:00::'
+      - 'tusk%1:05:00::'
 tusk shell:
   n:
     sense:
@@ -59937,6 +61564,8 @@ tussle:
     - value: ˈtʌsəl
     sense:
     - derivation:
+      - 'tussle%1:04:00::'
+      event:
       - 'tussle%1:04:00::'
       id: 'tussle%2:35:01::'
       subcat:
@@ -60205,8 +61834,12 @@ twaddle:
     - value: ˈtwɑdəl
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'twaddler%1:18:00::'
+      derivation:
+      - 'twaddler%1:18:00::'
+      - 'twaddle%1:10:00::'
+      event:
       - 'twaddle%1:10:00::'
       id: 'twaddle%2:32:00::'
       subcat:
@@ -60247,12 +61880,16 @@ twang:
     sense:
     - derivation:
       - 'twang%1:11:00::'
+      event:
+      - 'twang%1:11:00::'
       id: 'twang%2:39:01::'
       subcat:
       - vtai
       - vtii
       synset: 02178411-v
     - derivation:
+      - 'twang%1:11:00::'
+      event:
       - 'twang%1:11:00::'
       id: 'twang%2:39:00::'
       subcat:
@@ -60264,6 +61901,8 @@ twang:
       synset: 02127360-v
     - derivation:
       - 'twang%1:11:00::'
+      event:
+      - 'twang%1:11:00::'
       id: 'twang%2:35:00::'
       subcat:
       - vtai
@@ -60271,6 +61910,8 @@ twang:
     - derivation:
       - 'twang%1:07:00::'
       id: 'twang%2:32:00::'
+      property:
+      - 'twang%1:07:00::'
       subcat:
       - vtai
       synset: 00747064-v
@@ -60307,11 +61948,15 @@ tweak:
     sense:
     - derivation:
       - 'tweak%1:04:00::'
+      event:
+      - 'tweak%1:04:00::'
       id: 'tweak%2:35:01::'
       subcat:
       - vtai
       synset: 01595590-v
     - derivation:
+      - 'tweak%1:04:00::'
+      event:
       - 'tweak%1:04:00::'
       id: 'tweak%2:35:00::'
       subcat:
@@ -60418,6 +62063,10 @@ tweet:
     - derivation:
       - 'tweet%1:11:00::'
       - 'tweeter%1:06:00::'
+      event:
+      - 'tweet%1:11:00::'
+      instrument:
+      - 'tweeter%1:06:00::'
       id: 'tweet%2:39:00::'
       subcat:
       - via
@@ -60452,6 +62101,8 @@ tweeze:
       variety: US
     sense:
     - derivation:
+      - 'tweezer%1:06:00::'
+      instrument:
       - 'tweezer%1:06:00::'
       id: 'tweeze%2:35:00::'
       subcat:
@@ -60797,6 +62448,8 @@ twiddle:
     sense:
     - derivation:
       - 'twiddle%1:04:00::'
+      event:
+      - 'twiddle%1:04:00::'
       id: 'twiddle%2:38:00::'
       subcat:
       - via-pp
@@ -60804,7 +62457,9 @@ twiddle:
       - vii-pp
       - vtai
       synset: 02052840-v
-    - derivation:
+    - agent:
+      - 'twiddler%1:18:00::'
+      derivation:
       - 'twiddler%1:18:00::'
       id: 'twiddle%2:35:00::'
       subcat:
@@ -60839,6 +62494,8 @@ twig:
     - derivation:
       - 'twig%1:20:00::'
       id: 'twig%2:30:00::'
+      result:
+      - 'twig%1:20:00::'
       subcat:
       - vii
       synset: 00330464-v
@@ -60931,6 +62588,9 @@ twill:
       - 'twill%1:06:00::'
       - 'twill%1:06:01::'
       id: 'twill%2:36:00::'
+      result:
+      - 'twill%1:06:00::'
+      - 'twill%1:06:01::'
       subcat:
       - vtai
       synset: 01678833-v
@@ -60973,6 +62633,8 @@ twin:
     - derivation:
       - 'twin%1:06:00::'
       id: 'twin%2:42:00::'
+      result:
+      - 'twin%1:06:00::'
       subcat:
       - vtii
       synset: 02665436-v
@@ -60988,6 +62650,8 @@ twin:
     - derivation:
       - 'twin%1:18:00::'
       id: 'twin%2:29:00::'
+      result:
+      - 'twin%1:18:00::'
       subcat:
       - via
       synset: 00057379-v
@@ -61042,12 +62706,16 @@ twine:
       synset: 04345112-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'twiner%1:18:00::'
+      antonym:
       - 'untwine%2:35:00::'
       derivation:
       - 'twine%1:06:00::'
       - 'twiner%1:18:00::'
       id: 'twine%2:35:00::'
+      result:
+      - 'twine%1:06:00::'
       subcat:
       - vtai
       synset: 01520294-v
@@ -61055,7 +62723,9 @@ twine:
       subcat:
       - vtai-pp
       synset: 01525056-v
-    - derivation:
+    - agent:
+      - 'twiner%1:18:00::'
+      derivation:
       - 'twiner%1:18:00::'
       id: 'twine%2:35:01::'
       subcat:
@@ -61100,12 +62770,16 @@ twinge:
     sense:
     - derivation:
       - 'twinge%1:09:00::'
+      event:
+      - 'twinge%1:09:00::'
       id: 'twinge%2:39:00::'
       subcat:
       - vtia
       - vtii
       synset: 02127889-v
     - derivation:
+      - 'twinge%1:09:00::'
+      event:
       - 'twinge%1:09:00::'
       id: 'twinge%2:39:01::'
       subcat:
@@ -61139,9 +62813,13 @@ twinkle:
     pronunciation:
     - value: ˈtwɪŋkl̩
     sense:
-    - derivation:
+    - by_means_of:
+      - 'twinkler%1:17:00::'
+      derivation:
       - 'twinkle%1:11:00::'
       - 'twinkler%1:17:00::'
+      event:
+      - 'twinkle%1:11:00::'
       id: 'twinkle%2:39:00::'
       sent:
       - Lights twinkle on the horizon
@@ -61150,9 +62828,13 @@ twinkle:
       - vii
       - vtai
       synset: 02164320-v
-    - derivation:
+    - by_means_of:
+      - 'twinkler%1:17:00::'
+      derivation:
       - 'twinkle%1:11:00::'
       - 'twinkler%1:17:00::'
+      event:
+      - 'twinkle%1:11:00::'
       id: 'twinkle%2:43:00::'
       sent:
       - The coins twinkle
@@ -61219,9 +62901,13 @@ twirl:
     - value: ˈtwɜː(ɹ)l
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'twirler%1:18:00::'
+      derivation:
       - 'twirl%1:04:00::'
       - 'twirler%1:18:00::'
+      event:
+      - 'twirl%1:04:00::'
       id: 'twirl%2:38:00::'
       sent:
       - The wooden sticks twirl
@@ -61231,9 +62917,13 @@ twirl:
       - vii-pp
       - vtai
       synset: 02052840-v
-    - derivation:
+    - agent:
+      - 'twirler%1:18:01::'
+      derivation:
       - 'twirl%1:04:00::'
       - 'twirler%1:18:01::'
+      event:
+      - 'twirl%1:04:00::'
       id: 'twirl%2:38:01::'
       sent:
       - The girls twirl the wooden sticks
@@ -61322,6 +63012,9 @@ twist:
     - derivation:
       - 'twist%1:11:02::'
       - 'twister%1:19:00::'
+      event:
+      - 'twister%1:19:00::'
+      - 'twist%1:11:02::'
       id: 'twist%2:38:01::'
       subcat:
       - via
@@ -61335,6 +63028,8 @@ twist:
       synset: 01282617-v
     - derivation:
       - 'twist%1:04:02::'
+      event:
+      - 'twist%1:04:02::'
       id: 'twist%2:35:00::'
       subcat:
       - vtai
@@ -61342,6 +63037,8 @@ twist:
     - antonym:
       - 'untwist%2:35:00::'
       derivation:
+      - 'twist%1:25:00::'
+      event:
       - 'twist%1:25:00::'
       id: 'twist%2:35:01::'
       subcat:
@@ -61354,6 +63051,8 @@ twist:
     - derivation:
       - 'twist%1:08:00::'
       id: 'twist%2:30:00::'
+      result:
+      - 'twist%1:08:00::'
       sent:
       - They twist the wire around the stick
       subcat:
@@ -61366,6 +63065,8 @@ twist:
       synset: 02744576-v
     - derivation:
       - 'twist%1:04:00::'
+      event:
+      - 'twist%1:04:00::'
       id: 'twist%2:38:02::'
       sent:
       - Sam and Sue twist
@@ -61373,6 +63074,9 @@ twist:
       - via
       synset: 01899512-v
     - derivation:
+      - 'twist%1:11:02::'
+      - 'twist%1:04:02::'
+      event:
       - 'twist%1:11:02::'
       - 'twist%1:04:02::'
       id: 'twist%2:35:06::'
@@ -61384,12 +63088,16 @@ twist:
     - derivation:
       - 'twist%1:10:00::'
       - 'twisting%1:04:00::'
+      event:
+      - 'twist%1:10:00::'
       id: 'twist%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00934760-v
     - derivation:
+      - 'twist%1:26:00::'
+      event:
       - 'twist%1:26:00::'
       id: 'twist%2:29:00::'
       sent:
@@ -61500,6 +63208,8 @@ twit:
     sense:
     - derivation:
       - 'twit%1:04:00::'
+      event:
+      - 'twit%1:04:00::'
       id: 'twit%2:32:00::'
       subcat:
       - vtaa
@@ -61521,6 +63231,8 @@ twitch:
     - derivation:
       - 'twitch%1:26:00::'
       - 'twitching%1:26:00::'
+      event:
+      - 'twitch%1:26:00::'
       id: 'twitch%2:29:00::'
       subcat:
       - via
@@ -61529,6 +63241,8 @@ twitch:
     - derivation:
       - 'twitch%1:26:00::'
       - 'twitching%1:26:00::'
+      event:
+      - 'twitch%1:26:00::'
       id: 'twitch%2:38:01::'
       subcat:
       - via
@@ -61583,8 +63297,13 @@ twitter:
     - value: ˈtwɪ.tɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'twitterer%1:05:00::'
+      - 'twitter%1:11:00::'
+      derivation:
+      - 'twitterer%1:05:00::'
+      - 'twitter%1:11:00::'
+      event:
       - 'twitter%1:11:00::'
       id: 'twitter%2:32:00::'
       subcat:
@@ -62251,18 +63970,26 @@ type:
     pronunciation:
     - value: taɪp
     sense:
-    - derivation:
+    - by_means_of:
+      - 'type%1:06:00::'
+      derivation:
       - 'type%1:06:00::'
       - 'type%1:10:01::'
       - 'typist%1:18:00::'
       - 'typing%1:10:00::'
       id: 'type%2:32:00::'
+      result:
+      - 'type%1:10:01::'
       subcat:
       - via
       - vtai
       synset: 01006737-v
-    - derivation:
+    - agent:
       - 'type%1:18:00::'
+      derivation:
+      - 'type%1:18:00::'
+      - 'type%1:09:00::'
+      event:
       - 'type%1:09:00::'
       id: 'type%2:31:00::'
       subcat:
@@ -62378,7 +64105,9 @@ typeset:
     form:
     - typesetting
     sense:
-    - derivation:
+    - agent:
+      - 'typesetter%1:18:00::'
+      derivation:
       - 'typesetter%1:18:00::'
       id: 'typeset%2:36:00::'
       subcat:
@@ -62410,6 +64139,8 @@ typewrite:
     - derivation:
       - 'typewriter%1:06:00::'
       - 'typewriting%1:10:00::'
+      instrument:
+      - 'typewriter%1:06:00::'
       id: 'typewrite%2:32:00::'
       subcat:
       - via
@@ -62564,17 +64295,25 @@ typify:
     pronunciation:
     - value: ˈtɪpɪfaɪ
     sense:
-    - derivation:
+    - agent:
+      - 'type%1:18:00::'
+      derivation:
       - 'typification%1:09:00::'
       - 'type%1:18:00::'
       - 'type%1:14:01::'
       - 'type%1:09:00::'
+      event:
+      - 'typification%1:09:00::'
       id: 'typify%2:42:00::'
+      result:
+      - 'typification%1:09:00::'
       subcat:
       - vtai
       - vtii
       synset: 02704983-v
     - derivation:
+      - 'typification%1:04:00::'
+      event:
       - 'typification%1:04:00::'
       id: 'typify%2:32:00::'
       subcat:

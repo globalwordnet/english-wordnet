@@ -14629,6 +14629,8 @@ macerate:
       synset: 00399647-v
     - derivation:
       - 'maceration%1:22:00::'
+      event:
+      - 'maceration%1:22:00::'
       id: 'macerate%2:30:01::'
       subcat:
       - vtii
@@ -14636,6 +14638,8 @@ macerate:
     - derivation:
       - 'maceration%1:07:00::'
       id: 'macerate%2:30:03::'
+      result:
+      - 'maceration%1:07:00::'
       subcat:
       - vtia
       synset: 00390077-v
@@ -14677,6 +14681,8 @@ machicolate:
       subcat:
       - vtai
       synset: 02366810-v
+      uses:
+      - 'machicolation%1:06:00::'
 machicolation:
   n:
     pronunciation:
@@ -14702,13 +14708,19 @@ machinate:
     - derivation:
       - 'machination%1:09:00::'
       id: 'machinate%2:36:00::'
+      result:
+      - 'machination%1:09:00::'
       subcat:
       - vtai
       synset: 01654986-v
-    - derivation:
+    - agent:
+      - 'machinator%1:18:00::'
+      derivation:
       - 'machination%1:09:00::'
       - 'machinator%1:18:00::'
       id: 'machinate%2:31:00::'
+      result:
+      - 'machination%1:09:00::'
       subcat:
       - via
       - via-pp
@@ -14762,6 +14774,8 @@ machine:
     - derivation:
       - 'machine%1:06:00::'
       - 'machinist%1:18:00::'
+      instrument:
+      - 'machine%1:06:00::'
       id: 'machine%2:36:01::'
       subcat:
       - vtai
@@ -14770,6 +14784,8 @@ machine:
       - 'machine%1:06:00::'
       - 'machinist%1:18:00::'
       - 'machinery%1:06:00::'
+      instrument:
+      - 'machine%1:06:00::'
       id: 'machine%2:36:00::'
       subcat:
       - vtai
@@ -14794,6 +14810,8 @@ machine gun:
   v:
     sense:
     - derivation:
+      - 'machine_gun%1:06:00::'
+      instrument:
       - 'machine_gun%1:06:00::'
       id: 'machine_gun%2:33:00::'
       subcat:
@@ -15108,6 +15126,8 @@ macrame:
     - derivation:
       - 'macrame%1:06:00::'
       id: 'macrame%2:36:00::'
+      result:
+      - 'macrame%1:06:00::'
       sent:
       - They macrame the cape
       subcat:
@@ -15428,6 +15448,8 @@ maculate:
     - derivation:
       - 'macula%1:08:01::'
       - 'maculation%1:04:00::'
+      event:
+      - 'maculation%1:04:00::'
       id: 'maculate%2:35:00::'
       subcat:
       - vii
@@ -15436,6 +15458,8 @@ maculate:
       synset: 01540197-v
     - derivation:
       - 'macula%1:08:01::'
+      - 'maculation%1:04:00::'
+      event:
       - 'maculation%1:04:00::'
       id: 'maculate%2:30:00::'
       subcat:
@@ -15597,7 +15621,9 @@ madder:
       synset: 12681988-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'madder%1:20:00::'
+      derivation:
       - 'madder%1:20:00::'
       id: 'madder%2:30:00::'
       subcat:
@@ -15757,6 +15783,8 @@ madrigal:
       subcat:
       - vtai
       synset: 01735895-v
+      undergoer:
+      - 'madrigal%1:10:00::'
 madrigalist:
   n:
     sense:
@@ -16571,6 +16599,8 @@ magnetise:
       derivation:
       - 'magnetisation%1:22:00::'
       - 'magnet%1:06:00::'
+      event:
+      - 'magnetisation%1:22:00::'
       id: 'magnetise%2:30:00::'
       subcat:
       - vtai
@@ -16625,7 +16655,12 @@ magnetize:
       - 'magnetization%1:22:00::'
       - 'magnetization%1:07:00::'
       - 'magnet%1:06:00::'
+      event:
+      - 'magnetization%1:22:00::'
       id: 'magnetize%2:30:00::'
+      property:
+      - 'magnetization%1:23:00::'
+      - 'magnetization%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -16634,6 +16669,8 @@ magnetize:
       - 'magnetization%1:23:00::'
       - 'magnet%1:06:00::'
       id: 'magnetize%2:32:00::'
+      property:
+      - 'magnetization%1:23:00::'
       subcat:
       - vtaa
       - vtia
@@ -16815,7 +16852,18 @@ magnify:
       - 'magnification%1:10:00::'
       - 'magnification%1:06:00::'
       - 'magnification%1:04:00::'
+      event:
+      - 'magnification%1:10:00::'
+      - 'magnification%1:04:00::'
+      - 'magnification%1:06:00::'
+      - 'magnification%1:24:00::'
       id: 'magnify%2:30:00::'
+      property:
+      - 'magnitude%1:07:01::'
+      - 'magnitude%1:07:00::'
+      - 'magnification%1:24:00::'
+      result:
+      - 'magnification%1:06:00::'
       subcat:
       - vii
       - vtai
@@ -16823,19 +16871,34 @@ magnify:
       synset: 00435030-v
     - derivation:
       - 'magnification%1:10:00::'
+      event:
+      - 'magnification%1:10:00::'
       id: 'magnify%2:32:00::'
       subcat:
       - vtai
       synset: 00841513-v
-    - derivation:
+    - agent:
+      - 'magnifier%1:06:00::'
+      derivation:
       - 'magnitude%1:07:00::'
       - 'magnification%1:24:00::'
       - 'magnification%1:06:00::'
       - 'magnifier%1:06:00::'
+      event:
+      - 'magnification%1:06:00::'
+      instrument:
+      - 'magnifier%1:06:00::'
       id: 'magnify%2:30:01::'
+      property:
+      - 'magnification%1:24:00::'
+      result:
+      - 'magnitude%1:07:00::'
+      - 'magnification%1:06:00::'
       subcat:
       - vtai
       synset: 00241179-v
+      undergoer:
+      - 'magnification%1:24:00::'
 magnifying glass:
   n:
     sense:
@@ -17275,7 +17338,12 @@ mail:
       synset: 03003851-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'mailer%1:18:00::'
+      by_means_of:
+      - 'mail%1:06:01::'
+      - 'mail%1:10:00::'
+      derivation:
       - 'mailer%1:18:00::'
       - 'mail%1:14:00::'
       - 'mail%1:06:01::'
@@ -17289,7 +17357,15 @@ mail:
       - vtai
       - vtai-to
       synset: 01440525-v
-    - derivation:
+      undergoer:
+      - 'mail%1:14:00::'
+      - 'mail%1:10:01::'
+    - agent:
+      - 'mailer%1:18:00::'
+      by_means_of:
+      - 'mail%1:06:01::'
+      - 'mail%1:10:00::'
+      derivation:
       - 'mailer%1:18:00::'
       - 'mail%1:06:01::'
       - 'mail%1:10:00::'
@@ -17479,7 +17555,9 @@ maim:
     pronunciation:
     - value: meɪm
     sense:
-    - derivation:
+    - agent:
+      - 'maimer%1:18:00::'
+      derivation:
       - 'maimer%1:18:00::'
       id: 'maim%2:29:00::'
       subcat:
@@ -17696,7 +17774,9 @@ maintain:
     pronunciation:
     - value: meɪnˈteɪn
     sense:
-    - derivation:
+    - agent:
+      - 'maintainer%1:18:00::'
+      derivation:
       - maintainable%5:00:00:reparable:00
       - 'maintainer%1:18:00::'
       id: 'maintain%2:42:00::'
@@ -17707,12 +17787,16 @@ maintain:
       synset: 02687605-v
     - derivation:
       - 'maintenance%1:04:00::'
+      event:
+      - 'maintenance%1:04:00::'
       id: 'maintain%2:40:00::'
       subcat:
       - vtai
       synset: 02284977-v
     - derivation:
       - 'maintenance%1:21:00::'
+      - 'maintenance%1:04:01::'
+      event:
       - 'maintenance%1:04:01::'
       id: 'maintain%2:34:00::'
       subcat:
@@ -17721,6 +17805,8 @@ maintain:
       - vtia
       - vtii
       synset: 01187158-v
+      uses:
+      - 'maintenance%1:21:00::'
     - id: 'maintain%2:32:00::'
       sent:
       - They maintain that there was a traffic accident
@@ -17950,13 +18036,17 @@ major:
     pronunciation:
     - value: ˈmeɪ.dʒə(ɹ)
     sense:
-    - derivation:
+    - agent:
+      - 'major%1:18:01::'
+      derivation:
       - 'major%1:18:01::'
       - 'major%1:09:00::'
       id: 'major%2:31:09::'
       subcat:
       - via-pp
       synset: 00609022-v
+      undergoer:
+      - 'major%1:09:00::'
 major affective disorder:
   n:
     sense:
@@ -18229,12 +18319,17 @@ make:
       - vtai
       - vtii
       synset: 01649143-v
-    - derivation:
+    - agent:
+      - 'maker%1:14:00::'
+      - 'maker%1:18:00::'
+      derivation:
       - 'maker%1:18:00::'
       - 'maker%1:14:00::'
       - 'make%1:09:00::'
       - 'making%1:04:00::'
       id: 'make%2:36:01::'
+      result:
+      - 'make%1:09:00::'
       sent:
       - Sam and Sue make the movie
       subcat:
@@ -18296,7 +18391,9 @@ make:
       subcat:
       - vtai
       synset: 01759660-v
-    - derivation:
+    - agent:
+      - 'maker%1:18:00::'
+      derivation:
       - 'maker%1:18:00::'
       - 'make%1:09:00::'
       - 'making%1:04:00::'
@@ -18729,6 +18826,9 @@ make over:
     - also:
       - 'make%2:36:00::'
       derivation:
+      - 'makeover%1:04:01::'
+      - 'makeover%1:04:00::'
+      event:
       - 'makeover%1:04:01::'
       - 'makeover%1:04:00::'
       id: 'make_over%2:36:00::'
@@ -19563,6 +19663,8 @@ maledict:
     sense:
     - derivation:
       - 'malediction%1:10:00::'
+      event:
+      - 'malediction%1:10:00::'
       id: 'maledict%2:32:00::'
       subcat:
       - vtaa
@@ -19741,6 +19843,8 @@ malfunction:
       - 'function%2:35:00::'
       derivation:
       - 'malfunction%1:11:00::'
+      event:
+      - 'malfunction%1:11:00::'
       id: 'malfunction%2:35:00::'
       subcat:
       - vii
@@ -19831,9 +19935,13 @@ malign:
     pronunciation:
     - value: məˈlaɪn
     sense:
-    - derivation:
+    - agent:
+      - 'maligner%1:18:00::'
+      derivation:
       - 'malignment%1:10:00::'
       - 'maligner%1:18:00::'
+      event:
+      - 'malignment%1:10:00::'
       id: 'malign%2:32:00::'
       subcat:
       - vtaa
@@ -19980,7 +20088,9 @@ malinger:
     - value: məˈlɪŋɡɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'malingerer%1:18:00::'
+      derivation:
       - 'malingerer%1:18:00::'
       - 'malingering%1:04:00::'
       id: 'malinger%2:41:00::'
@@ -20118,6 +20228,8 @@ malnourish:
     - derivation:
       - 'malnourishment%1:26:00::'
       id: 'malnourish%2:34:00::'
+      result:
+      - 'malnourishment%1:26:00::'
       subcat:
       - vtaa
       synset: 01181573-v
@@ -20270,24 +20382,33 @@ malt:
       - 'malt%1:13:01::'
       - 'malt%1:13:03::'
       id: 'malt%2:30:03::'
+      result:
+      - 'malt%1:13:01::'
+      - 'malt%1:13:03::'
       subcat:
       - vtai
       synset: 00186146-v
     - derivation:
       - 'malt%1:13:02::'
       id: 'malt%2:30:01::'
+      result:
+      - 'malt%1:13:02::'
       subcat:
       - vii
       synset: 00117686-v
     - derivation:
       - 'malt%1:13:01::'
       id: 'malt%2:30:02::'
+      result:
+      - 'malt%1:13:01::'
       subcat:
       - vtai
       synset: 00117565-v
     - derivation:
       - 'malt%1:13:02::'
       id: 'malt%2:30:00::'
+      result:
+      - 'malt%1:13:02::'
       subcat:
       - vtai
       synset: 00117432-v
@@ -20357,9 +20478,13 @@ maltreat:
     - value: malˈtɹiːt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'maltreater%1:18:00::'
+      derivation:
       - 'maltreatment%1:04:00::'
       - 'maltreater%1:18:00::'
+      event:
+      - 'maltreatment%1:04:00::'
       id: 'maltreat%2:41:00::'
       subcat:
       - vtaa
@@ -20410,6 +20535,8 @@ malversate:
   v:
     sense:
     - derivation:
+      - 'malversation%1:04:00::'
+      event:
       - 'malversation%1:04:00::'
       id: 'malversate%2:40:00::'
       subcat:
@@ -20724,7 +20851,9 @@ man:
     - manned
     - manning
     sense:
-    - derivation:
+    - agent:
+      - 'man%1:18:05::'
+      derivation:
       - 'man%1:18:05::'
       id: 'man%2:41:00::'
       subcat:
@@ -20933,6 +21062,8 @@ manacle:
     sense:
     - derivation:
       - 'manacle%1:06:00::'
+      instrument:
+      - 'manacle%1:06:00::'
       id: 'manacle%2:35:00::'
       sent:
       - They want to manacle the prisoners
@@ -20955,6 +21086,8 @@ manage:
     - derivation:
       - 'manageable%3:00:00::'
       - 'management%1:04:00::'
+      event:
+      - 'management%1:04:00::'
       id: 'manage%2:41:00::'
       subcat:
       - vtaa
@@ -20966,11 +21099,16 @@ manage:
       - via
       - via-pp
       synset: 02593624-v
-    - derivation:
+    - agent:
+      - 'manager%1:18:01::'
+      - 'manager%1:18:00::'
+      derivation:
       - 'manageable%3:00:00::'
       - 'management%1:04:00::'
       - 'manager%1:18:01::'
       - 'manager%1:18:00::'
+      event:
+      - 'management%1:04:00::'
       id: 'manage%2:41:01::'
       subcat:
       - vtaa
@@ -21244,23 +21382,31 @@ mandate:
     pronunciation:
     - value: ˈmæn.deɪt
     sense:
-    - derivation:
+    - agent:
+      - 'mandator%1:18:00::'
+      derivation:
       - 'mandate%1:04:00::'
       - 'mandatory%1:18:00::'
       - 'mandatary%1:18:00::'
       - 'mandator%1:18:00::'
+      event:
+      - 'mandate%1:04:00::'
       id: 'mandate%2:41:00::'
       subcat:
       - vtai-to
       synset: 02400745-v
-    - derivation:
+    - by_means_of:
+      - 'mandate%1:10:00::'
+      derivation:
       - mandatory%5:00:00:obligatory:00
       - 'mandate%1:10:00::'
       id: 'mandate%2:32:02::'
       subcat:
       - vtai
       synset: 00753395-v
-    - derivation:
+    - agent:
+      - 'mandator%1:18:00::'
+      derivation:
       - 'mandator%1:18:00::'
       id: 'mandate%2:32:00::'
       subcat:
@@ -21503,7 +21649,9 @@ maneuver:
     - value: məˈnuːvə
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'maneuverer%1:18:00::'
+      derivation:
       - maneuverable%5:00:00:mobile:00
       - 'maneuverer%1:18:00::'
       id: 'maneuver%2:38:00::'
@@ -21518,6 +21666,8 @@ maneuver:
       - via-pp
       synset: 02374389-v
     - derivation:
+      - 'maneuver%1:04:02::'
+      event:
       - 'maneuver%1:04:02::'
       id: 'maneuver%2:33:00::'
       subcat:
@@ -21681,6 +21831,8 @@ mangle:
     sense:
     - derivation:
       - 'mangle%1:06:00::'
+      instrument:
+      - 'mangle%1:06:00::'
       id: 'mangle%2:35:01::'
       sent:
       - They mangle the cape
@@ -21688,7 +21840,9 @@ mangle:
       - vtai
       - vtii
       synset: 01393140-v
-    - derivation:
+    - agent:
+      - 'mangler%1:18:00::'
+      derivation:
       - 'mangler%1:18:00::'
       id: 'mangle%2:35:02::'
       subcat:
@@ -21699,7 +21853,9 @@ mangle:
       subcat:
       - vtai
       synset: 00549830-v
-    - derivation:
+    - agent:
+      - 'mangler%1:18:00::'
+      derivation:
       - 'mangler%1:18:00::'
       id: 'mangle%2:30:00::'
       subcat:
@@ -21981,6 +22137,8 @@ manicure:
     - derivation:
       - 'manicure%1:04:00::'
       - 'manicurist%1:18:00::'
+      event:
+      - 'manicure%1:04:00::'
       id: 'manicure%2:29:01::'
       subcat:
       - vtai
@@ -21988,6 +22146,8 @@ manicure:
     - derivation:
       - 'manicure%1:04:00::'
       - 'manicurist%1:18:00::'
+      event:
+      - 'manicure%1:04:00::'
       id: 'manicure%2:29:00::'
       subcat:
       - vtai
@@ -22026,6 +22186,9 @@ manifest:
     - derivation:
       - 'manifestation%1:10:01::'
       - 'manifestation%1:10:00::'
+      event:
+      - 'manifestation%1:10:01::'
+      - 'manifestation%1:10:00::'
       id: 'manifest%2:32:00::'
       subcat:
       - vtai
@@ -22036,6 +22199,8 @@ manifest:
       - vtai
       synset: 01002923-v
     - derivation:
+      - 'manifestation%1:11:01::'
+      event:
       - 'manifestation%1:11:01::'
       id: 'manifest%2:30:00::'
       subcat:
@@ -22106,7 +22271,9 @@ manifold:
       synset: 08020990-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'manifold%1:27:00::'
+      derivation:
       - 'manifold%1:27:00::'
       id: 'manifold%2:30:00::'
       subcat:
@@ -22209,14 +22376,20 @@ manipulate:
     - derivation:
       - manipulative%5:00:00:artful:00
       - 'manipulation%1:04:00::'
+      event:
+      - 'manipulation%1:04:00::'
       id: 'manipulate%2:41:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02541995-v
-    - derivation:
+    - agent:
+      - 'manipulator%1:18:01::'
+      derivation:
       - 'manipulation%1:04:01::'
       - 'manipulator%1:18:01::'
+      event:
+      - 'manipulation%1:04:01::'
       id: 'manipulate%2:35:00::'
       subcat:
       - vtai
@@ -22233,12 +22406,16 @@ manipulate:
     - derivation:
       - manipulative%5:00:00:artful:00
       - 'manipulation%1:04:00::'
+      event:
+      - 'manipulation%1:04:00::'
       id: 'manipulate%2:37:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01807900-v
     - derivation:
+      - 'manipulation%1:04:01::'
+      event:
       - 'manipulation%1:04:01::'
       id: 'manipulate%2:29:00::'
       sent:
@@ -22576,7 +22753,9 @@ manoeuvre:
     - value: məˈnuːvɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'manoeuvre%1:09:00::'
+      derivation:
       - 'manoeuvre%1:09:00::'
       id: 'manoeuvre%2:41:03::'
       subcat:
@@ -22585,6 +22764,8 @@ manoeuvre:
       synset: 02374389-v
     - derivation:
       - 'manoeuvre%1:04:03::'
+      event:
+      - 'manoeuvre%1:04:03::'
       id: 'manoeuvre%2:38:00::'
       subcat:
       - via
@@ -22592,6 +22773,8 @@ manoeuvre:
       - vtai-pp
       synset: 01935739-v
     - derivation:
+      - 'manoeuvre%1:04:02::'
+      event:
       - 'manoeuvre%1:04:02::'
       id: 'manoeuvre%2:33:00::'
       subcat:
@@ -22875,12 +23058,16 @@ mantle:
       - vii
       - vii-pp
       synset: 02089567-v
+      undergoer:
+      - 'mantle%1:17:01::'
     - derivation:
       - 'mantle%1:17:01::'
       id: 'mantle%2:35:00::'
       subcat:
       - vtai
       synset: 01608325-v
+      undergoer:
+      - 'mantle%1:17:01::'
 mantled:
   a:
     sense:
@@ -23023,11 +23210,17 @@ manufacture:
     - value: ˌmænjuˈfæktʃɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'manufacturer%1:18:00::'
+      - 'manufacturer%1:14:00::'
+      derivation:
       - 'manufacture%1:04:01::'
       - 'manufacture%1:04:00::'
       - 'manufacturer%1:18:00::'
       - 'manufacturer%1:14:00::'
+      event:
+      - 'manufacture%1:04:01::'
+      - 'manufacture%1:04:00::'
       id: 'manufacture%2:36:00::'
       subcat:
       - vtai
@@ -23115,9 +23308,13 @@ manumit:
     pronunciation:
     - value: mænjʊˈmɪt
     sense:
-    - derivation:
+    - agent:
+      - 'manumitter%1:18:00::'
+      derivation:
       - 'manumission%1:04:00::'
       - 'manumitter%1:18:00::'
+      event:
+      - 'manumission%1:04:00::'
       id: 'manumit%2:41:00::'
       subcat:
       - vtaa
@@ -23155,6 +23352,8 @@ manure:
       - vtai
       - vtai-pp
       synset: 02087334-v
+      uses:
+      - 'manure%1:27:00::'
 manus:
   n:
     sense:
@@ -23253,16 +23452,22 @@ map:
     pronunciation:
     - value: mæp
     sense:
-    - derivation:
+    - agent:
+      - 'mapper%1:18:00::'
+      derivation:
       - 'mapper%1:18:00::'
       - 'map%1:06:00::'
       id: 'map%2:36:00::'
+      result:
+      - 'map%1:06:00::'
       subcat:
       - vtai
       synset: 01691771-v
     - derivation:
       - 'map%1:06:00::'
       id: 'map%2:31:01::'
+      result:
+      - 'map%1:06:00::'
       subcat:
       - vtai
       synset: 00712435-v
@@ -23285,6 +23490,8 @@ map:
     - derivation:
       - 'map%1:24:00::'
       - 'mapping%1:24:00::'
+      event:
+      - 'map%1:24:00::'
       id: 'map%2:30:00::'
       subcat:
       - vii-pp
@@ -23431,7 +23638,9 @@ mar:
     - marred
     - marring
     sense:
-    - derivation:
+    - by_means_of:
+      - 'mar%1:07:00::'
+      derivation:
       - 'mar%1:07:00::'
       id: 'mar%2:30:00::'
       subcat:
@@ -23582,9 +23791,13 @@ maraud:
     - value: mɘˈɹoːd
       variety: NZ
     sense:
-    - derivation:
+    - agent:
+      - 'marauder%1:18:00::'
+      derivation:
       - 'maraud%1:04:00::'
       - 'marauder%1:18:00::'
+      event:
+      - 'maraud%1:04:00::'
       id: 'maraud%2:38:00::'
       subcat:
       - via
@@ -23681,6 +23894,8 @@ marbleise:
     - derivation:
       - 'marbleisation%1:07:00::'
       id: 'marbleise%2:30:00::'
+      result:
+      - 'marbleisation%1:07:00::'
       subcat:
       - vtai
       synset: 00524516-v
@@ -23709,6 +23924,8 @@ marbleize:
       - 'marbleizing%1:07:00::'
       - 'marble%1:27:00::'
       id: 'marbleize%2:30:00::'
+      result:
+      - 'marbleization%1:07:00::'
       subcat:
       - vtai
       synset: 00524516-v
@@ -23802,6 +24019,9 @@ march:
       - 'march%1:14:00::'
       - 'march%1:04:00::'
       - 'marching%1:04:00::'
+      event:
+      - 'march%1:14:00::'
+      - 'march%1:04:00::'
       id: 'march%2:38:01::'
       sent:
       - The children march to the playground
@@ -23812,18 +24032,26 @@ march:
     - derivation:
       - 'march%1:14:00::'
       - 'march%1:04:00::'
+      event:
+      - 'march%1:14:00::'
+      - 'march%1:04:00::'
       id: 'march%2:38:04::'
       sent:
       - They want to march the prisoners
       subcat:
       - vtaa
       synset: 02088627-v
-    - also:
+    - agent:
+      - 'marcher%1:18:01::'
+      also:
       - 'march_on%2:38:00::'
       derivation:
       - 'march%1:14:00::'
       - 'march%1:04:00::'
       - 'marcher%1:18:01::'
+      event:
+      - 'march%1:14:00::'
+      - 'march%1:04:00::'
       id: 'march%2:38:00::'
       sent:
       - The children march to the playground
@@ -23832,6 +24060,9 @@ march:
       - via-pp
       synset: 01923384-v
     - derivation:
+      - 'march%1:14:00::'
+      - 'march%1:04:00::'
+      event:
       - 'march%1:14:00::'
       - 'march%1:04:00::'
       id: 'march%2:41:00::'
@@ -23847,6 +24078,9 @@ march:
     - derivation:
       - 'march%1:14:00::'
       - 'march%1:04:00::'
+      event:
+      - 'march%1:14:00::'
+      - 'march%1:04:00::'
       id: 'march%2:38:10::'
       sent:
       - The horses march across the field
@@ -23856,6 +24090,8 @@ march:
     - derivation:
       - 'march%1:15:00::'
       id: 'march%2:35:00::'
+      location:
+      - 'march%1:15:00::'
       subcat:
       - vtii
       synset: 01469607-v
@@ -24174,6 +24410,8 @@ marginalise:
     sense:
     - derivation:
       - 'marginalisation%1:22:00::'
+      event:
+      - 'marginalisation%1:22:00::'
       id: 'marginalise%2:41:00::'
       subcat:
       - vtaa
@@ -24199,6 +24437,8 @@ marginalize:
   v:
     sense:
     - derivation:
+      - 'marginalization%1:22:00::'
+      event:
       - 'marginalization%1:22:00::'
       id: 'marginalize%2:41:00::'
       subcat:
@@ -24345,6 +24585,8 @@ marinade:
       subcat:
       - vtai
       synset: 00213970-v
+      uses:
+      - 'marinade%1:13:00::'
 marinara:
   n:
     sense:
@@ -24620,8 +24862,13 @@ mark:
       - vtai
       - vtai-with
       synset: 01591414-v
-    - derivation:
+    - by_means_of:
       - 'mark%1:10:03::'
+      derivation:
+      - 'mark%1:10:03::'
+      - 'marker%1:06:01::'
+      - 'marker%1:06:00::'
+      instrument:
       - 'marker%1:06:01::'
       - 'marker%1:06:00::'
       id: 'mark%2:32:02::'
@@ -24629,7 +24876,10 @@ mark:
       - vtai
       - vtii
       synset: 00923709-v
-    - derivation:
+    - by_means_of:
+      - 'marker%1:10:00::'
+      - 'mark%1:10:02::'
+      derivation:
       - 'mark%1:10:02::'
       - 'marker%1:10:00::'
       id: 'mark%2:31:09::'
@@ -24649,19 +24899,28 @@ mark:
       - 'mark%1:10:02::'
       - 'marker%1:06:01::'
       - 'marking%1:04:01::'
+      instrument:
+      - 'marker%1:06:01::'
       id: 'mark%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00509113-v
-    - derivation:
+      uses:
+      - 'mark%1:10:03::'
+      - 'mark%1:10:02::'
+    - by_means_of:
+      - 'mark%1:10:01::'
+      derivation:
       - 'mark%1:10:01::'
       id: 'mark%2:41:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02513894-v
-    - derivation:
+    - by_means_of:
+      - 'mark%1:10:05::'
+      derivation:
       - 'mark%1:10:05::'
       id: 'mark%2:39:00::'
       subcat:
@@ -24672,6 +24931,8 @@ mark:
     - derivation:
       - 'mark%1:07:00::'
       id: 'mark%2:35:02::'
+      result:
+      - 'mark%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -24680,11 +24941,17 @@ mark:
       - 'mark%1:10:03::'
       - 'mark%1:07:01::'
       id: 'mark%2:35:01::'
+      result:
+      - 'mark%1:10:03::'
       subcat:
       - vtai
       - vtii
       synset: 01278326-v
-    - derivation:
+      uses:
+      - 'mark%1:07:01::'
+    - by_means_of:
+      - 'mark%1:04:01::'
+      derivation:
       - 'mark%1:04:01::'
       id: 'mark%2:32:03::'
       subcat:
@@ -24695,11 +24962,16 @@ mark:
       - 'mark%1:10:00::'
       - 'mark%1:07:01::'
       - 'marker%1:06:01::'
+      instrument:
+      - 'marker%1:06:01::'
       id: 'mark%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 01006107-v
+      uses:
+      - 'mark%1:10:00::'
+      - 'mark%1:07:01::'
     - id: 'mark%2:32:01::'
       subcat:
       - vtai
@@ -24853,12 +25125,16 @@ market:
     - value: ˈmɑɹkɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'marketer%1:18:00::'
+      derivation:
       - marketable%5:00:02:salable:00
       - marketable%5:00:00:exportable:00
       - 'market%1:14:00::'
       - 'market%1:04:00::'
       - 'marketer%1:18:00::'
+      event:
+      - 'market%1:04:00::'
       id: 'market%2:40:00::'
       subcat:
       - vtai
@@ -24866,6 +25142,8 @@ market:
     - derivation:
       - 'market%1:06:00::'
       id: 'market%2:40:05::'
+      location:
+      - 'market%1:06:00::'
       subcat:
       - via
       synset: 02331194-v
@@ -24874,6 +25152,8 @@ market:
       - 'marketing%1:04:01::'
       - 'marketing%1:04:00::'
       id: 'market%2:40:01::'
+      location:
+      - 'market%1:06:00::'
       subcat:
       - via
       - via-pp
@@ -24884,6 +25164,8 @@ market:
       - marketable%5:00:00:exportable:00
       - 'market%1:04:00::'
       - 'marketing%1:04:02::'
+      event:
+      - 'market%1:04:00::'
       id: 'market%2:30:00::'
       subcat:
       - vtai
@@ -25329,12 +25611,16 @@ maroon:
       subcat:
       - vtaa
       synset: 02233137-v
+      undergoer:
+      - 'maroon%1:18:00::'
     - derivation:
       - 'maroon%1:18:00::'
       id: 'maroon%2:30:00::'
       subcat:
       - vtaa
       synset: 00497570-v
+      undergoer:
+      - 'maroon%1:18:00::'
 maroon-purple:
   a:
     sense:
@@ -25795,7 +26081,9 @@ marshal:
     - value: ˈmɑɹʃəl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'marshal%1:18:01::'
+      derivation:
       - 'marshal%1:18:01::'
       id: 'marshal%2:38:00::'
       subcat:
@@ -26049,6 +26337,9 @@ martyr:
       subcat:
       - vtaa
       synset: 01607942-v
+      undergoer:
+      - 'martyr%1:18:01::'
+      - 'martyr%1:18:00::'
     - id: 'martyr%2:29:00::'
       subcat:
       - vtaa
@@ -26134,9 +26425,13 @@ marvel:
     - value: ˈmɑːvl̩
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'marveller%1:18:00::'
+      derivation:
       - 'marvel%1:11:00::'
       - 'marveller%1:18:00::'
+      event:
+      - 'marvel%1:11:00::'
       id: 'marvel%2:32:12::'
       sent:
       - Sam and Sue marvel over the results of the experiment
@@ -26144,6 +26439,8 @@ marvel:
       - vtai
       synset: 00927461-v
     - derivation:
+      - 'marvel%1:11:00::'
+      event:
       - 'marvel%1:11:00::'
       id: 'marvel%2:32:00::'
       sent:
@@ -26343,6 +26640,8 @@ masculinize:
       synset: 00567972-v
     - derivation:
       - 'masculinization%1:22:00::'
+      event:
+      - 'masculinization%1:22:00::'
       id: 'masculinize%2:30:00::'
       subcat:
       - vtaa
@@ -26388,7 +26687,9 @@ mash:
       - vtia
       - vtii
       synset: 01596858-v
-    - derivation:
+    - agent:
+      - 'masher%1:18:00::'
+      derivation:
       - 'masher%1:18:00::'
       id: 'mash%2:32:00::'
       subcat:
@@ -26399,7 +26700,12 @@ mash:
       - 'mash%1:13:00::'
       - 'mash%1:27:00::'
       - 'masher%1:06:00::'
+      instrument:
+      - 'masher%1:06:00::'
       id: 'mash%2:30:00::'
+      result:
+      - 'mash%1:13:00::'
+      - 'mash%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -26472,6 +26778,8 @@ mask:
     - derivation:
       - 'mask%1:04:00::'
       - 'masking%1:04:00::'
+      event:
+      - 'mask%1:04:00::'
       id: 'mask%2:39:00::'
       subcat:
       - vtaa
@@ -26479,7 +26787,9 @@ mask:
       - vtia
       - vtii
       synset: 02152033-v
-    - antonym:
+    - agent:
+      - 'masker%1:18:00::'
+      antonym:
       - 'unmask%2:35:00::'
       derivation:
       - 'mask%1:06:01::'
@@ -26493,6 +26803,9 @@ mask:
       - vtia
       - vtii
       synset: 01361031-v
+      uses:
+      - 'mask%1:06:01::'
+      - 'mask%1:06:00::'
     - id: 'mask%2:39:01::'
       subcat:
       - vtaa
@@ -26501,6 +26814,8 @@ mask:
       - vtii
       synset: 02163017-v
     - derivation:
+      - 'mask%1:04:00::'
+      event:
       - 'mask%1:04:00::'
       id: 'mask%2:35:02::'
       subcat:
@@ -26700,15 +27015,21 @@ masquerade:
     - value: ˌmæskəˈɹeɪd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'masquerader%1:18:00::'
+      derivation:
       - 'masquerade%1:06:00::'
       - 'masquerade%1:14:00::'
       - 'masquerader%1:18:00::'
+      event:
+      - 'masquerade%1:14:00::'
       id: 'masquerade%2:39:00::'
       subcat:
       - vtaa
       synset: 02152392-v
     - derivation:
+      - 'masquerade%1:04:00::'
+      event:
       - 'masquerade%1:04:00::'
       id: 'masquerade%2:32:00::'
       subcat:
@@ -26770,6 +27091,8 @@ mass:
     - derivation:
       - 'mass%1:14:02::'
       id: 'mass%2:38:00::'
+      result:
+      - 'mass%1:14:02::'
       sent:
       - The crowds mass in the streets
       subcat:
@@ -26932,6 +27255,8 @@ massacre:
     sense:
     - derivation:
       - 'massacre%1:04:00::'
+      event:
+      - 'massacre%1:04:00::'
       id: 'massacre%2:30:00::'
       sent:
       - They want to massacre the prisoners
@@ -26958,17 +27283,25 @@ massage:
     - value: ˈmæsɑːʒ
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'massager%1:18:00::'
+      derivation:
       - 'massage%1:04:00::'
       - 'massager%1:18:00::'
+      event:
+      - 'massage%1:04:00::'
       id: 'massage%2:35:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01235302-v
-    - derivation:
+    - agent:
+      - 'massager%1:18:00::'
+      derivation:
       - 'massage%1:04:00::'
       - 'massager%1:18:00::'
+      event:
+      - 'massage%1:04:00::'
       id: 'massage%2:29:00::'
       sent:
       - Did he massage his foot?
@@ -27211,7 +27544,9 @@ master:
       synset: 03902681-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'master%1:18:00::'
+      derivation:
       - 'master%1:18:00::'
       - 'mastery%1:09:00::'
       - 'mastering%1:09:00::'
@@ -27223,7 +27558,9 @@ master:
       subcat:
       - vtai
       synset: 01111038-v
-    - derivation:
+    - agent:
+      - 'master%1:18:04::'
+      derivation:
       - 'master%1:18:04::'
       - 'mastery%1:26:00::'
       - 'mastery%1:04:00::'
@@ -27233,7 +27570,9 @@ master:
       - vtai
       - vtia
       synset: 02545000-v
-    - derivation:
+    - agent:
+      - 'master%1:18:00::'
+      derivation:
       - 'master%1:18:00::'
       id: 'master%2:31:00::'
       subcat:
@@ -27373,7 +27712,9 @@ mastermind:
     - value: ˈmæs.tɚˌmaɪnd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mastermind%1:18:00::'
+      derivation:
       - 'mastermind%1:18:00::'
       id: 'mastermind%2:31:00::'
       subcat:
@@ -27473,6 +27814,8 @@ masticate:
       - vtai
       synset: 01238231-v
     - derivation:
+      - 'mastication%1:04:00::'
+      event:
       - 'mastication%1:04:00::'
       id: 'masticate%2:34:00::'
       subcat:
@@ -27611,13 +27954,19 @@ masturbate:
     sense:
     - derivation:
       - 'masturbation%1:04:00::'
+      event:
+      - 'masturbation%1:04:00::'
       id: 'masturbate%2:35:01::'
       subcat:
       - vtaa
       synset: 01433585-v
-    - derivation:
+    - agent:
+      - 'masturbator%1:18:00::'
+      derivation:
       - 'masturbation%1:04:00::'
       - 'masturbator%1:18:00::'
+      event:
+      - 'masturbation%1:04:00::'
       id: 'masturbate%2:35:00::'
       subcat:
       - via
@@ -27682,6 +28031,8 @@ mat:
       - 'mat%1:07:00::'
       - 'matting%1:06:00::'
       id: 'mat%2:30:00::'
+      property:
+      - 'mat%1:07:00::'
       subcat:
       - vii
       synset: 00566669-v
@@ -27743,7 +28094,9 @@ match:
       synset: 05703985-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'match%1:06:01::'
+      derivation:
       - 'match%1:06:01::'
       id: 'match%2:42:00::'
       subcat:
@@ -27764,7 +28117,12 @@ match:
       - vtaa
       - vtai
       synset: 01295488-v
-    - derivation:
+      undergoer:
+      - 'match%1:14:00::'
+      - 'match%1:18:01::'
+    - agent:
+      - 'match%1:18:00::'
+      derivation:
       - 'match%1:18:00::'
       id: 'match%2:42:01::'
       subcat:
@@ -27780,7 +28138,11 @@ match:
       - vtai
       - vtii
       synset: 00457695-v
-    - derivation:
+      undergoer:
+      - 'match%1:09:00::'
+    - agent:
+      - 'matcher%1:18:01::'
+      derivation:
       - 'matcher%1:18:01::'
       - 'match%1:14:00::'
       - 'match%1:18:01::'
@@ -27788,14 +28150,21 @@ match:
       subcat:
       - vtai
       synset: 01295992-v
+      undergoer:
+      - 'match%1:14:00::'
+      - 'match%1:18:01::'
     - derivation:
+      - 'match%1:11:00::'
+      event:
       - 'match%1:11:00::'
       id: 'match%2:33:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01083545-v
-    - derivation:
+    - by_means_of:
+      - 'match%1:09:00::'
+      derivation:
       - 'match%1:09:00::'
       id: 'match%2:30:00::'
       subcat:
@@ -27991,6 +28360,8 @@ mate:
       subcat:
       - via
       synset: 01431486-v
+      undergoer:
+      - 'mate%1:18:01::'
     - derivation:
       - 'mate%1:06:00::'
       id: 'mate%2:35:02::'
@@ -27998,7 +28369,11 @@ mate:
       - vtaa
       - vtai
       synset: 01295488-v
+      undergoer:
+      - 'mate%1:06:00::'
     - derivation:
+      - 'mate%1:04:00::'
+      event:
       - 'mate%1:04:00::'
       id: 'mate%2:33:00::'
       subcat:
@@ -28146,7 +28521,12 @@ materialise:
       - 'materialisation%1:11:00::'
       - 'materialisation%1:22:00::'
       - 'materialisation%1:11:01::'
+      event:
+      - 'materialisation%1:11:00::'
+      - 'materialisation%1:22:00::'
       id: 'materialise%2:30:00::'
+      result:
+      - 'materialisation%1:11:01::'
       subcat:
       - vii
       synset: 00344828-v
@@ -28241,7 +28621,12 @@ materialize:
       - 'materialization%1:22:00::'
       - 'materialization%1:11:01::'
       - 'materialization%1:11:00::'
+      event:
+      - 'materialization%1:22:00::'
       id: 'materialize%2:30:00::'
+      result:
+      - 'materialization%1:11:01::'
+      - 'materialization%1:11:00::'
       subcat:
       - vii
       synset: 00344828-v
@@ -28648,9 +29033,13 @@ matriculate:
     - value: məˈtɹɪkjəˌleɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'matriculate%1:18:00::'
+      derivation:
       - 'matriculation%1:04:00::'
       - 'matriculate%1:18:00::'
+      event:
+      - 'matriculation%1:04:00::'
       id: 'matriculate%2:41:00::'
       subcat:
       - via
@@ -28929,12 +29318,19 @@ matter:
     - value: ˈmætɚ
       variety: US
     sense:
-    - also:
+    - agent:
+      - 'matter%1:07:00::'
+      also:
       - 'matter_to%2:42:00::'
       derivation:
       - 'matter%1:09:00::'
       - 'matter%1:07:00::'
+      event:
+      - 'matter%1:09:00::'
+      - 'matter%1:07:00::'
       id: 'matter%2:42:00::'
+      state:
+      - 'matter%1:09:00::'
       subcat:
       - nonreferential-sent
       - vii
@@ -29022,6 +29418,8 @@ maturate:
     sense:
     - derivation:
       - 'maturation%1:22:01::'
+      event:
+      - 'maturation%1:22:01::'
       id: 'maturate%2:30:00::'
       sent:
       - Sam and Sue maturate
@@ -29031,12 +29429,16 @@ maturate:
       synset: 00251067-v
     - derivation:
       - 'maturation%1:22:00::'
+      event:
+      - 'maturation%1:22:00::'
       id: 'maturate%2:30:01::'
       subcat:
       - via
       - vii
       synset: 00248912-v
     - derivation:
+      - 'maturation%1:22:02::'
+      event:
       - 'maturation%1:22:02::'
       id: 'maturate%2:29:00::'
       subcat:
@@ -29103,6 +29505,9 @@ mature:
     - derivation:
       - 'maturement%1:22:00::'
       - 'maturation%1:22:01::'
+      event:
+      - 'maturation%1:22:01::'
+      - 'maturement%1:22:00::'
       id: 'mature%2:30:00::'
       sent:
       - Sam and Sue mature
@@ -29111,6 +29516,8 @@ mature:
       - vii
       synset: 00251067-v
     - derivation:
+      - 'maturement%1:22:00::'
+      event:
       - 'maturement%1:22:00::'
       id: 'mature%2:32:00::'
       subcat:
@@ -29122,11 +29529,15 @@ mature:
       synset: 00579075-v
     - derivation:
       - 'maturement%1:22:00::'
+      event:
+      - 'maturement%1:22:00::'
       id: 'mature%2:30:04::'
       subcat:
       - vtii
       synset: 00250855-v
     - derivation:
+      - 'maturation%1:22:00::'
+      event:
       - 'maturation%1:22:00::'
       id: 'mature%2:30:01::'
       subcat:
@@ -29134,6 +29545,8 @@ mature:
       - vii
       synset: 00248912-v
     - derivation:
+      - 'maturation%1:22:02::'
+      event:
       - 'maturation%1:22:02::'
       id: 'mature%2:29:04::'
       subcat:
@@ -29303,11 +29716,15 @@ maul:
     sense:
     - derivation:
       - 'maul%1:06:00::'
+      instrument:
+      - 'maul%1:06:00::'
       id: 'maul%2:35:01::'
       subcat:
       - vtai
       synset: 01234836-v
-    - derivation:
+    - agent:
+      - 'mauler%1:18:00::'
+      derivation:
       - 'mauler%1:18:00::'
       id: 'maul%2:35:00::'
       subcat:
@@ -29661,6 +30078,8 @@ maximise:
       - 'maximisation%1:04:00::'
       - 'maximum%1:23:00::'
       - 'maximum%1:07:00::'
+      event:
+      - 'maximisation%1:04:00::'
       id: 'maximise%2:30:00::'
       subcat:
       - vtai
@@ -29693,6 +30112,8 @@ maximize:
       - 'maximization%1:04:00::'
       - 'maximum%1:23:00::'
       - 'maximum%1:07:00::'
+      event:
+      - 'maximization%1:04:00::'
       id: 'maximize%2:30:00::'
       subcat:
       - vtai
@@ -30416,7 +30837,11 @@ meander:
     - derivation:
       - 'meander%1:17:00::'
       - 'meander%1:04:00::'
+      event:
+      - 'meander%1:17:00::'
       id: 'meander%2:38:00::'
+      location:
+      - 'meander%1:17:00::'
       subcat:
       - via-pp
       - vii-pp
@@ -30711,7 +31136,9 @@ measure:
     - value: ˈmɛʒɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'measurer%1:18:00::'
+      derivation:
       - 'measurable%3:00:00::'
       - 'measure%1:06:00::'
       - 'measure%1:03:00::'
@@ -30719,26 +31146,44 @@ measure:
       - 'measurement%1:04:00::'
       - 'measurer%1:18:00::'
       - 'measuring%1:04:00::'
+      event:
+      - 'measurement%1:04:00::'
+      - 'measure%1:04:00::'
+      instrument:
+      - 'measure%1:06:00::'
       id: 'measure%2:31:00::'
       subcat:
       - vtai
       synset: 00648747-v
+      undergoer:
+      - 'measure%1:03:00::'
     - derivation:
       - 'measurable%3:00:00::'
       - 'measure%1:06:00::'
       - 'measure%1:03:00::'
       - 'measure%1:04:00::'
       - 'measurement%1:04:00::'
+      event:
+      - 'measurement%1:04:00::'
+      - 'measure%1:04:00::'
+      instrument:
+      - 'measure%1:06:00::'
       id: 'measure%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00490773-v
+      undergoer:
+      - 'measure%1:03:00::'
     - also:
       - 'measure_up%2:42:00::'
       derivation:
       - 'measure%1:06:00::'
       - 'measure%1:04:00::'
+      event:
+      - 'measure%1:04:00::'
+      instrument:
+      - 'measure%1:06:00::'
       id: 'measure%2:42:00::'
       subcat:
       - vtii
@@ -30747,10 +31192,16 @@ measure:
       - 'measure%1:06:00::'
       - 'measure%1:04:00::'
       - 'measure%1:03:00::'
+      event:
+      - 'measure%1:04:00::'
+      instrument:
+      - 'measure%1:06:00::'
       id: 'measure%2:31:01::'
       subcat:
       - vtai
       synset: 00683348-v
+      undergoer:
+      - 'measure%1:03:00::'
 measure out:
   v:
     sense:
@@ -31247,7 +31698,11 @@ mechanise:
     - derivation:
       - 'mechanisation%1:26:00::'
       - 'mechanisation%1:04:00::'
+      event:
+      - 'mechanisation%1:04:00::'
       id: 'mechanise%2:30:00::'
+      state:
+      - 'mechanisation%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -31336,7 +31791,11 @@ mechanize:
     - derivation:
       - 'mechanization%1:26:00::'
       - 'mechanization%1:04:00::'
+      event:
+      - 'mechanization%1:04:00::'
       id: 'mechanize%2:30:00::'
+      state:
+      - 'mechanization%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -31456,7 +31915,9 @@ meddle:
     - value: ˈmɛd.əl
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'meddler%1:18:00::'
+      derivation:
       - 'meddler%1:18:00::'
       - 'meddling%1:04:00::'
       id: 'meddle%2:41:00::'
@@ -31661,10 +32122,15 @@ mediate:
     - value: ˈmidieɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mediator%1:18:00::'
+      derivation:
       - 'mediation%1:10:00::'
       - 'mediation%1:04:00::'
       - 'mediator%1:18:00::'
+      event:
+      - 'mediation%1:10:00::'
+      - 'mediation%1:04:00::'
       id: 'mediate%2:32:00::'
       sent:
       - Sam and Sue mediate
@@ -31991,16 +32457,22 @@ medicate:
       - medicative%5:00:00:healthful:00
       - 'medicine%1:06:00::'
       - 'medication%1:04:00::'
+      event:
+      - 'medication%1:04:00::'
       id: 'medicate%2:29:01::'
       subcat:
       - vtai
       synset: 00084315-v
-    - derivation:
+    - by_means_of:
+      - 'medication%1:06:00::'
+      derivation:
       - medicative%5:00:00:healthful:00
       - 'medicine%1:09:00::'
       - 'medicine%1:06:00::'
       - 'medicine%1:04:00::'
       - 'medication%1:06:00::'
+      - 'medication%1:04:00::'
+      event:
       - 'medication%1:04:00::'
       id: 'medicate%2:29:00::'
       subcat:
@@ -32091,9 +32563,14 @@ medicine:
     - value: ˈmɛ.dɪ.sɪn
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'medicine%1:06:00::'
+      derivation:
       - 'medicine%1:04:00::'
       - 'medicine%1:06:00::'
+      - 'medicine%1:09:00::'
+      event:
+      - 'medicine%1:04:00::'
       - 'medicine%1:09:00::'
       id: 'medicine%2:29:00::'
       subcat:
@@ -32226,12 +32703,17 @@ meditate:
     - derivation:
       - meditative%5:00:00:thoughtful:00
       - 'meditation%1:09:00::'
+      event:
+      - 'meditation%1:09:00::'
       id: 'meditate%2:31:00::'
       subcat:
       - via-pp
       synset: 00632042-v
     - derivation:
       - meditative%5:00:00:thoughtful:00
+      - 'meditation%1:09:01::'
+      - 'meditation%1:09:00::'
+      event:
       - 'meditation%1:09:01::'
       - 'meditation%1:09:00::'
       id: 'meditate%2:31:02::'
@@ -32616,11 +33098,15 @@ meet:
       - vtai
       - vtii
       synset: 02026953-v
-    - derivation:
+    - agent:
+      - 'meeter%1:18:00::'
+      derivation:
       - 'meet%1:11:00::'
       - 'meeter%1:18:00::'
       - 'meeting%1:14:01::'
       - 'meeting%1:04:00::'
+      event:
+      - 'meet%1:11:00::'
       id: 'meet%2:41:01::'
       subcat:
       - via
@@ -32659,6 +33145,8 @@ meet:
       - vtai
       synset: 02026650-v
     - derivation:
+      - 'meet%1:11:00::'
+      event:
       - 'meet%1:11:00::'
       id: 'meet%2:33:00::'
       sent:
@@ -33367,6 +33855,8 @@ meld:
     sense:
     - derivation:
       - 'meld%1:04:00::'
+      event:
+      - 'meld%1:04:00::'
       id: 'meld%2:32:00::'
       subcat:
       - vtai
@@ -33429,7 +33919,11 @@ meliorate:
       - meliorative%5:00:00:bettering:00
       - 'melioration%1:26:00::'
       - 'melioration%1:04:00::'
+      event:
+      - 'melioration%1:04:00::'
       id: 'meliorate%2:30:01::'
+      state:
+      - 'melioration%1:26:00::'
       subcat:
       - vtai
       - vtia
@@ -33440,7 +33934,12 @@ meliorate:
       - 'melioration%1:26:00::'
       - 'melioration%1:22:00::'
       - 'melioration%1:04:00::'
+      event:
+      - 'melioration%1:22:00::'
+      - 'melioration%1:04:00::'
       id: 'meliorate%2:30:00::'
+      state:
+      - 'melioration%1:26:00::'
       subcat:
       - via
       - vii
@@ -33826,17 +34325,23 @@ melt:
       - meltable%5:00:00:soluble:01
       - 'melt%1:22:00::'
       - 'melting%1:22:00::'
+      event:
+      - 'melt%1:22:00::'
       id: 'melt%2:30:01::'
       subcat:
       - vii
       - vtai
       - vtii
       synset: 00445584-v
-    - derivation:
+    - agent:
+      - 'melter%1:18:00::'
+      derivation:
       - meltable%5:00:00:soluble:01
       - 'melt%1:22:00::'
       - 'melter%1:18:00::'
       - 'melting%1:22:00::'
+      event:
+      - 'melt%1:22:00::'
       id: 'melt%2:30:00::'
       subcat:
       - vii
@@ -34205,6 +34710,8 @@ memorialise:
     sense:
     - derivation:
       - 'memorialisation%1:11:00::'
+      event:
+      - 'memorialisation%1:11:00::'
       id: 'memorialise%2:32:00::'
       subcat:
       - vtaa
@@ -34229,6 +34736,8 @@ memorialize:
     sense:
     - derivation:
       - 'memorialization%1:11:00::'
+      event:
+      - 'memorialization%1:11:00::'
       id: 'memorialize%2:32:00::'
       subcat:
       - vtaa
@@ -34244,6 +34753,9 @@ memorialize:
       - vtia
       - vtii
       synset: 00613596-v
+      uses:
+      - 'memorial%1:10:00::'
+      - 'memorial%1:06:00::'
 memorisation:
   n:
     sense:
@@ -34254,11 +34766,15 @@ memorisation:
 memorise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'memoriser%1:18:00::'
+      derivation:
       - 'memorisation%1:09:00::'
       - 'memoriser%1:18:00::'
       - 'memory%1:09:02::'
       - 'memory%1:09:01::'
+      event:
+      - 'memorisation%1:09:00::'
       id: 'memorise%2:31:00::'
       subcat:
       - vtai
@@ -34282,12 +34798,16 @@ memorize:
     pronunciation:
     - value: ˈmɛm.əɹˌaɪ̯z
     sense:
-    - derivation:
+    - agent:
+      - 'memorizer%1:18:00::'
+      derivation:
       - 'memorization%1:09:00::'
       - 'memorizer%1:18:00::'
       - 'memory%1:09:02::'
       - 'memory%1:09:01::'
       - 'memory%1:09:00::'
+      event:
+      - 'memorization%1:09:00::'
       id: 'memorize%2:31:00::'
       sent:
       - They won't memorize the story
@@ -34418,7 +34938,9 @@ menace:
       synset: 06746531-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'menace%1:26:00::'
+      derivation:
       - 'menace%1:26:00::'
       id: 'menace%2:42:00::'
       sent:
@@ -34427,14 +34949,18 @@ menace:
       - vtia
       - vtii
       synset: 02702962-v
-    - derivation:
+    - by_means_of:
+      - 'menace%1:10:00::'
+      derivation:
       - 'menace%1:10:00::'
       id: 'menace%2:32:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01069216-v
-    - derivation:
+    - by_means_of:
+      - 'menace%1:10:00::'
+      derivation:
       - 'menace%1:10:00::'
       id: 'menace%2:29:00::'
       subcat:
@@ -34506,10 +35032,14 @@ mend:
     pronunciation:
     - value: mɛnd
     sense:
-    - derivation:
+    - agent:
+      - 'mender%1:18:00::'
+      derivation:
       - 'mend%1:04:00::'
       - 'mender%1:18:00::'
       - 'mending%1:04:00::'
+      event:
+      - 'mend%1:04:00::'
       id: 'mend%2:30:00::'
       sent:
       - They mend the cape
@@ -34862,6 +35392,8 @@ menstruate:
     sense:
     - derivation:
       - 'menstruation%1:22:00::'
+      event:
+      - 'menstruation%1:22:00::'
       id: 'menstruate%2:29:00::'
       sent:
       - They menstruate
@@ -34916,6 +35448,8 @@ mensurate:
   v:
     sense:
     - derivation:
+      - 'mensuration%1:04:00::'
+      event:
       - 'mensuration%1:04:00::'
       id: 'mensurate%2:31:00::'
       subcat:
@@ -35286,7 +35820,12 @@ mention:
     pronunciation:
     - value: ˈmɛnʃən
     sense:
-    - derivation:
+    - agent:
+      - 'mentioner%1:18:00::'
+      by_means_of:
+      - 'mention%1:10:02::'
+      - 'mention%1:10:01::'
+      derivation:
       - 'mention%1:10:02::'
       - 'mention%1:10:01::'
       - 'mentioner%1:18:00::'
@@ -35297,15 +35836,23 @@ mention:
       - vtia
       - vtii
       synset: 01026199-v
-    - derivation:
+    - agent:
+      - 'mentioner%1:18:00::'
+      by_means_of:
+      - 'mention%1:10:01::'
+      derivation:
       - 'mention%1:10:01::'
       - 'mentioner%1:18:00::'
+      event:
+      - 'mention%1:10:01::'
       id: 'mention%2:32:00::'
       subcat:
       - via-that
       - vtai
       synset: 01022014-v
     - derivation:
+      - 'mention%1:10:00::'
+      event:
       - 'mention%1:10:00::'
       id: 'mention%2:32:01::'
       sent:
@@ -35391,6 +35938,8 @@ meow:
       variety: US
     sense:
     - derivation:
+      - 'meow%1:11:00::'
+      event:
       - 'meow%1:11:00::'
       id: 'meow%2:32:00::'
       subcat:
@@ -35632,7 +36181,9 @@ merchandise:
     - value: ˈmɜːtʃənˌdaɪs
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'merchandiser%1:18:00::'
+      derivation:
       - 'merchandiser%1:18:00::'
       - 'merchandising%1:04:00::'
       - 'merchandise%1:06:00::'
@@ -35640,6 +36191,8 @@ merchandise:
       subcat:
       - vtai
       synset: 02265169-v
+      undergoer:
+      - 'merchandise%1:06:00::'
 merchandiser:
   n:
     sense:
@@ -36022,6 +36575,8 @@ merge:
     - derivation:
       - 'merger%1:04:00::'
       - 'merging%1:04:02::'
+      event:
+      - 'merger%1:04:00::'
       id: 'merge%2:30:00::'
       subcat:
       - via
@@ -36034,9 +36589,13 @@ merge:
       - vii
       - vii-pp
       synset: 00395719-v
-    - derivation:
+    - agent:
+      - 'merger%1:04:00::'
+      derivation:
       - 'merger%1:11:00::'
       - 'merger%1:04:00::'
+      event:
+      - 'merger%1:11:00::'
       id: 'merge%2:30:02::'
       subcat:
       - vtai
@@ -36190,6 +36749,8 @@ merit:
       - meritable%5:00:00:worthy:00
       - 'merit%1:07:02::'
       id: 'merit%2:42:04::'
+      property:
+      - 'merit%1:07:02::'
       subcat:
       - vtai
       - vtii
@@ -36534,6 +37095,9 @@ mesh:
       - 'mesh%1:11:00::'
       - 'mesh%1:04:00::'
       - 'meshing%1:11:00::'
+      event:
+      - 'mesh%1:11:00::'
+      - 'mesh%1:04:00::'
       id: 'mesh%2:35:01::'
       subcat:
       - vii
@@ -36549,7 +37113,9 @@ mesh:
       subcat:
       - via
       synset: 02463449-v
-    - derivation:
+    - by_means_of:
+      - 'mesh%1:06:00::'
+      derivation:
       - 'mesh%1:06:00::'
       id: 'mesh%2:35:00::'
       subcat:
@@ -36941,7 +37507,11 @@ mess:
       - 'mess%1:06:00::'
       - 'mess%1:13:00::'
       - 'mess%1:13:01::'
+      event:
+      - 'mess%1:13:00::'
       id: 'mess%2:34:00::'
+      location:
+      - 'mess%1:06:00::'
       sent:
       - Sam and Sue mess
       subcat:
@@ -36950,6 +37520,8 @@ mess:
     - derivation:
       - 'mess%1:26:00::'
       id: 'mess%2:30:00::'
+      state:
+      - 'mess%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -37435,9 +38007,15 @@ metal:
       - 'metal%1:27:01::'
       - 'metal%1:27:00::'
       id: 'metal%2:35:00::'
+      material:
+      - 'metal%1:27:01::'
+      - 'metal%1:27:00::'
       subcat:
       - vtai
       synset: 01606224-v
+      uses:
+      - 'metal%1:27:01::'
+      - 'metal%1:27:00::'
 metal detector:
   n:
     sense:
@@ -38257,6 +38835,8 @@ meter:
     sense:
     - derivation:
       - 'meter%1:06:00::'
+      instrument:
+      - 'meter%1:06:00::'
       id: 'meter%2:30:00::'
       subcat:
       - vtai
@@ -38956,6 +39536,8 @@ metricate:
     sense:
     - derivation:
       - 'metrication%1:04:00::'
+      event:
+      - 'metrication%1:04:00::'
       id: 'metricate%2:30:00::'
       subcat:
       - vtai
@@ -39009,6 +39591,8 @@ metrify:
     - metrified
     sense:
     - derivation:
+      - 'metrification%1:04:01::'
+      event:
       - 'metrification%1:04:01::'
       id: 'metrify%2:36:00::'
       subcat:
@@ -39179,6 +39763,8 @@ mew:
     - derivation:
       - 'mew%1:11:00::'
       - 'mew%1:05:00::'
+      event:
+      - 'mew%1:11:00::'
       id: 'mew%2:32:00::'
       subcat:
       - vii
@@ -39325,6 +39911,8 @@ miaou:
     sense:
     - derivation:
       - 'miaou%1:11:00::'
+      event:
+      - 'miaou%1:11:00::'
       id: 'miaou%2:32:00::'
       subcat:
       - via
@@ -39340,6 +39928,8 @@ miaow:
   v:
     sense:
     - derivation:
+      - 'miaow%1:11:00::'
+      event:
       - 'miaow%1:11:00::'
       id: 'miaow%2:32:00::'
       subcat:
@@ -39751,6 +40341,8 @@ microfilm:
       subcat:
       - vtai
       synset: 01716309-v
+      undergoer:
+      - 'microfilm%1:06:00::'
 microfinishing machine:
   n:
     sense:
@@ -40192,9 +40784,13 @@ microwave:
     pronunciation:
     - value: ˈmaɪkɹəˌweɪv
     sense:
-    - derivation:
+    - by_means_of:
+      - 'microwave%1:19:00::'
+      derivation:
       - 'microwave%1:06:00::'
       - 'microwave%1:19:00::'
+      instrument:
+      - 'microwave%1:06:00::'
       id: 'microwave%2:30:00::'
       sent:
       - The chefs microwave the vegetables
@@ -40244,6 +40840,8 @@ micturate:
     - value: ˈmɪkt͡ʃəɹeɪt
     sense:
     - derivation:
+      - 'micturition%1:22:00::'
+      event:
       - 'micturition%1:22:00::'
       id: 'micturate%2:29:00::'
       subcat:
@@ -40510,6 +41108,9 @@ middle:
       - 'middle%1:09:00::'
       - 'middle%1:15:00::'
       id: 'middle%2:35:00::'
+      location:
+      - 'middle%1:09:00::'
+      - 'middle%1:15:00::'
       subcat:
       - vtai
       synset: 01501137-v
@@ -41043,6 +41644,8 @@ miff:
       sent:
       - Sam cannot miff Sue
       - The performance is likely to miff Sue
+      state:
+      - 'miff%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -41162,13 +41765,19 @@ migrate:
     pronunciation:
     - value: maɪ.ˈɡɹeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'migrator%1:18:00::'
+      - 'migrator%1:05:00::'
+      - 'migration%1:14:00::'
+      derivation:
       - migratory%5:00:00:unsettled:01
       - 'migration%1:14:00::'
       - 'migration%1:04:00::'
       - 'migrant%1:18:00::'
       - 'migrator%1:18:00::'
       - 'migrator%1:05:00::'
+      event:
+      - 'migration%1:04:00::'
       id: 'migrate%2:38:00::'
       subcat:
       - via
@@ -41180,6 +41789,8 @@ migrate:
       - migratory%5:00:00:unsettled:01
       - 'migratory%3:00:00::'
       - migrant%5:00:00:unsettled:01
+      - 'migration%1:11:00::'
+      event:
       - 'migration%1:11:00::'
       id: 'migrate%2:38:01::'
       subcat:
@@ -41402,8 +42013,12 @@ mildew:
     - value: ˈmɪl.d(j)u
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
       - 'mildew%1:20:00::'
+      derivation:
+      - 'mildew%1:20:00::'
+      - 'mildew%1:22:00::'
+      event:
       - 'mildew%1:22:00::'
       id: 'mildew%2:30:00::'
       subcat:
@@ -41639,12 +42254,16 @@ militarise:
       derivation:
       - 'militarisation%1:04:00::'
       - 'military%1:14:00::'
+      event:
+      - 'militarisation%1:04:00::'
       id: 'militarise%2:33:00::'
       subcat:
       - vtai
       - vtii
       synset: 01101280-v
     - derivation:
+      - 'militarisation%1:04:00::'
+      event:
       - 'militarisation%1:04:00::'
       id: 'militarise%2:30:00::'
       subcat:
@@ -41695,12 +42314,16 @@ militarize:
       derivation:
       - 'militarization%1:04:00::'
       - 'military%1:14:00::'
+      event:
+      - 'militarization%1:04:00::'
       id: 'militarize%2:33:00::'
       subcat:
       - vtai
       - vtii
       synset: 01101280-v
     - derivation:
+      - 'militarization%1:04:00::'
+      event:
       - 'militarization%1:04:00::'
       id: 'militarize%2:30:00::'
       subcat:
@@ -42136,6 +42759,9 @@ milk:
       subcat:
       - vtai
       synset: 00194514-v
+      undergoer:
+      - 'milk%1:08:00::'
+      - 'milk%1:13:01::'
     - id: 'milk%2:34:00::'
       sent:
       - They milk him of all his money
@@ -42151,6 +42777,10 @@ milk:
       subcat:
       - vtai
       synset: 00194717-v
+      uses:
+      - 'milk%1:13:02::'
+      - 'milk%1:08:00::'
+      - 'milk%1:13:01::'
 milk adder:
   n:
     sense:
@@ -42426,6 +43056,10 @@ mill:
       synset: 01906119-v
     - derivation:
       - 'mill%1:04:00::'
+      - 'mill%1:06:00::'
+      event:
+      - 'mill%1:04:00::'
+      instrument:
       - 'mill%1:06:00::'
       id: 'mill%2:30:00::'
       subcat:
@@ -42998,7 +43632,9 @@ mime:
     pronunciation:
     - value: maɪm
     sense:
-    - derivation:
+    - agent:
+      - 'mime%1:18:00::'
+      derivation:
       - 'mime%1:18:00::'
       id: 'mime%2:36:01::'
       subcat:
@@ -43006,8 +43642,12 @@ mime:
       - vtai
       - vtii
       synset: 01747412-v
-    - derivation:
+    - agent:
       - 'mimer%1:18:00::'
+      derivation:
+      - 'mimer%1:18:00::'
+      - 'mime%1:04:00::'
+      event:
       - 'mime%1:04:00::'
       id: 'mime%2:36:00::'
       subcat:
@@ -43028,6 +43668,8 @@ mimeo:
     sense:
     - derivation:
       - 'mimeo%1:06:00::'
+      instrument:
+      - 'mimeo%1:06:00::'
       id: 'mimeo%2:36:00::'
       subcat:
       - vtai
@@ -43042,6 +43684,8 @@ mimeograph:
   v:
     sense:
     - derivation:
+      - 'mimeograph%1:06:00::'
+      instrument:
       - 'mimeograph%1:06:00::'
       id: 'mimeograph%2:36:00::'
       subcat:
@@ -43111,7 +43755,10 @@ mimic:
     pronunciation:
     - value: ˈmɪm.ɪk
     sense:
-    - derivation:
+    - agent:
+      - 'mimicker%1:18:00::'
+      - 'mimic%1:18:00::'
+      derivation:
       - 'mimicker%1:18:00::'
       - 'mimic%1:18:00::'
       id: 'mimic%2:36:00::'
@@ -43224,7 +43871,11 @@ mince:
     - derivation:
       - 'mince%1:13:00::'
       - 'mincer%1:06:00::'
+      instrument:
+      - 'mincer%1:06:00::'
       id: 'mince%2:35:00::'
+      result:
+      - 'mince%1:13:00::'
       sent:
       - The chefs mince the vegetables
       subcat:
@@ -43310,6 +43961,9 @@ mind:
     - derivation:
       - 'mind%1:09:03::'
       - 'mind%1:09:06::'
+      event:
+      - 'mind%1:09:03::'
+      - 'mind%1:09:06::'
       id: 'mind%2:31:02::'
       subcat:
       - vtaa
@@ -43324,6 +43978,8 @@ mind:
       synset: 02442554-v
     - derivation:
       - 'mind%1:09:03::'
+      event:
+      - 'mind%1:09:03::'
       id: 'mind%2:41:00::'
       subcat:
       - vtaa
@@ -43335,9 +43991,13 @@ mind:
       synset: 00726626-v
     - antonym:
       - 'forget%2:31:03::'
+      by_means_of:
+      - 'mind%1:09:00::'
       derivation:
       - 'mind%1:09:01::'
       - 'mind%1:09:00::'
+      event:
+      - 'mind%1:09:01::'
       id: 'mind%2:31:00::'
       subcat:
       - via-that
@@ -43526,10 +44186,14 @@ mine:
       synset: 03773667-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'miner%1:18:00::'
+      derivation:
       - 'mine%1:06:01::'
       - 'miner%1:18:00::'
       - 'mining%1:04:00::'
+      event:
+      - 'mine%1:06:01::'
       id: 'mine%2:34:00::'
       subcat:
       - vtai
@@ -43541,6 +44205,8 @@ mine:
       subcat:
       - vtai
       synset: 01128150-v
+      undergoer:
+      - 'mine%1:06:00::'
 mine cage:
   n:
     sense:
@@ -43940,6 +44606,8 @@ miniaturise:
     - derivation:
       - 'miniaturisation%1:04:00::'
       - 'miniature%1:06:01::'
+      event:
+      - 'miniaturisation%1:04:00::'
       id: 'miniaturise%2:30:00::'
       subcat:
       - vtai
@@ -43964,6 +44632,8 @@ miniaturize:
     - derivation:
       - 'miniaturization%1:04:00::'
       - 'miniature%1:06:01::'
+      event:
+      - 'miniaturization%1:04:00::'
       id: 'miniaturize%2:30:00::'
       subcat:
       - vtai
@@ -44108,6 +44778,8 @@ minimise:
     - derivation:
       - 'minimisation%1:04:00::'
       - 'minimum%1:23:00::'
+      event:
+      - 'minimisation%1:04:00::'
       id: 'minimise%2:32:01::'
       subcat:
       - vtai
@@ -44117,6 +44789,8 @@ minimise:
       derivation:
       - 'minimisation%1:04:00::'
       - 'minimum%1:23:00::'
+      event:
+      - 'minimisation%1:04:00::'
       id: 'minimise%2:30:00::'
       subcat:
       - vtai
@@ -44146,6 +44820,8 @@ minimize:
       derivation:
       - 'minimization%1:04:00::'
       - 'minimum%1:23:00::'
+      event:
+      - 'minimization%1:04:00::'
       id: 'minimize%2:30:00::'
       subcat:
       - vtai
@@ -44154,6 +44830,8 @@ minimize:
     - derivation:
       - 'minimization%1:04:00::'
       - 'minimum%1:23:00::'
+      event:
+      - 'minimization%1:04:00::'
       id: 'minimize%2:32:01::'
       subcat:
       - vtai
@@ -44161,6 +44839,8 @@ minimize:
     - derivation:
       - 'minimization%1:04:00::'
       - 'minimum%1:23:00::'
+      event:
+      - 'minimization%1:04:00::'
       id: 'minimize%2:32:00::'
       subcat:
       - vtai
@@ -44304,11 +44984,15 @@ minister:
     - derivation:
       - ministrant%5:00:00:helpful:00
       - 'ministration%1:04:00::'
+      event:
+      - 'ministration%1:04:00::'
       id: 'minister%2:41:12::'
       subcat:
       - vii-to
       synset: 02555089-v
-    - derivation:
+    - agent:
+      - 'minister%1:18:00::'
+      derivation:
       - 'minister%1:18:00::'
       - 'ministrant%1:18:00::'
       id: 'minister%2:41:00::'
@@ -44706,7 +45390,10 @@ minstrel:
       synset: 10341132-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'minstrel%1:18:01::'
+      - 'minstrel%1:18:00::'
+      derivation:
       - 'minstrel%1:18:01::'
       - 'minstrel%1:18:00::'
       id: 'minstrel%2:36:00::'
@@ -44755,7 +45442,11 @@ mint:
       synset: 03777802-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'minter%1:18:00::'
+      by_means_of:
+      - 'mint%1:06:00::'
+      derivation:
       - 'mint%1:06:00::'
       - 'minter%1:18:00::'
       - 'mintage%1:04:00::'
@@ -45159,6 +45850,8 @@ mire:
     - derivation:
       - 'mire%1:17:00::'
       id: 'mire%2:38:01::'
+      location:
+      - 'mire%1:17:00::'
       subcat:
       - vtia
       - vtii
@@ -45241,10 +45934,14 @@ mirror:
     - value: ˈmɘ.ɹɘ
       variety: NZ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'mirror%1:06:00::'
+      derivation:
       - 'mirror%1:09:00::'
       - 'mirror%1:06:00::'
       id: 'mirror%2:43:00::'
+      result:
+      - 'mirror%1:09:00::'
       subcat:
       - vtia
       - vtii
@@ -45369,6 +46066,8 @@ misalign:
     - derivation:
       - 'misalignment%1:07:00::'
       id: 'misalign%2:30:00::'
+      property:
+      - 'misalignment%1:07:00::'
       subcat:
       - vtai
       synset: 00467240-v
@@ -45393,6 +46092,8 @@ misally:
   v:
     sense:
     - derivation:
+      - 'misalliance%1:26:00::'
+      event:
       - 'misalliance%1:26:00::'
       id: 'misally%2:41:00::'
       subcat:
@@ -45476,6 +46177,8 @@ misapply:
     sense:
     - derivation:
       - 'misapplication%1:04:02::'
+      event:
+      - 'misapplication%1:04:02::'
       id: 'misapply%2:34:00::'
       subcat:
       - vtai
@@ -45487,6 +46190,8 @@ misapprehend:
       variety: GB
     sense:
     - derivation:
+      - 'misapprehension%1:09:00::'
+      event:
       - 'misapprehension%1:09:00::'
       id: 'misapprehend%2:31:01::'
       subcat:
@@ -45508,6 +46213,8 @@ misappropriate:
       variety: US
     sense:
     - derivation:
+      - 'misappropriation%1:04:00::'
+      event:
       - 'misappropriation%1:04:00::'
       id: 'misappropriate%2:40:00::'
       subcat:
@@ -45550,6 +46257,8 @@ misbehave:
       - 'behave%2:41:00::'
       derivation:
       - 'misbehavior%1:04:00::'
+      event:
+      - 'misbehavior%1:04:00::'
       id: 'misbehave%2:41:00::'
       subcat:
       - via
@@ -45580,7 +46289,9 @@ misbehaviour:
 misbelieve:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'misbeliever%1:18:00::'
+      derivation:
       - 'misbeliever%1:18:00::'
       id: 'misbelieve%2:31:00::'
       subcat:
@@ -45608,12 +46319,16 @@ miscalculate:
     sense:
     - derivation:
       - 'miscalculation%1:04:00::'
+      event:
+      - 'miscalculation%1:04:00::'
       id: 'miscalculate%2:31:01::'
       subcat:
       - via
       - vtai
       synset: 00714218-v
     - derivation:
+      - 'miscalculation%1:04:00::'
+      event:
       - 'miscalculation%1:04:00::'
       id: 'miscalculate%2:31:00::'
       subcat:
@@ -45689,6 +46404,8 @@ miscegenate:
   v:
     sense:
     - derivation:
+      - 'miscegenation%1:04:00::'
+      event:
       - 'miscegenation%1:04:00::'
       id: 'miscegenate%2:42:00::'
       subcat:
@@ -45815,6 +46532,8 @@ misconceive:
     sense:
     - derivation:
       - 'misconception%1:09:00::'
+      event:
+      - 'misconception%1:09:00::'
       id: 'misconceive%2:31:01::'
       sent:
       - Sam and Sue misconceive the movie
@@ -45853,12 +46572,16 @@ misconduct:
     sense:
     - derivation:
       - 'misconduct%1:04:00::'
+      event:
+      - 'misconduct%1:04:00::'
       id: 'misconduct%2:41:02::'
       subcat:
       - via
       - vtaa
       synset: 02522868-v
     - derivation:
+      - 'misconduct%1:04:01::'
+      event:
       - 'misconduct%1:04:01::'
       id: 'misconduct%2:41:00::'
       subcat:
@@ -45891,7 +46614,11 @@ misconstrue:
     - derivation:
       - 'misconstruction%1:10:01::'
       - 'misconstrual%1:10:00::'
+      event:
+      - 'misconstrual%1:10:00::'
       id: 'misconstrue%2:31:01::'
+      result:
+      - 'misconstruction%1:10:01::'
       subcat:
       - vtai
       synset: 00621541-v
@@ -45905,6 +46632,8 @@ miscount:
   v:
     sense:
     - derivation:
+      - 'miscount%1:04:00::'
+      event:
       - 'miscount%1:04:00::'
       id: 'miscount%2:32:00::'
       sent:
@@ -45928,6 +46657,8 @@ miscreate:
     - derivation:
       - 'miscreation%1:11:00::'
       id: 'miscreate%2:31:00::'
+      result:
+      - 'miscreation%1:11:00::'
       subcat:
       - vtai
       - vtii
@@ -45974,6 +46705,8 @@ misdeal:
     - misdealt
     sense:
     - derivation:
+      - 'misdeal%1:04:00::'
+      event:
       - 'misdeal%1:04:00::'
       id: 'misdeal%2:40:00::'
       subcat:
@@ -46022,7 +46755,9 @@ misdirect:
       - vtaa
       - vtia
       synset: 02585532-v
-    - derivation:
+    - by_means_of:
+      - 'misdirection%1:10:00::'
+      derivation:
       - 'misdirection%1:10:00::'
       id: 'misdirect%2:38:00::'
       subcat:
@@ -46158,6 +46893,8 @@ misestimate:
       synset: 00714218-v
     - derivation:
       - 'misestimation%1:04:00::'
+      event:
+      - 'misestimation%1:04:00::'
       id: 'misestimate%2:31:00::'
       subcat:
       - via
@@ -46186,6 +46923,8 @@ misfire:
   v:
     sense:
     - derivation:
+      - 'misfire%1:11:00::'
+      event:
       - 'misfire%1:11:00::'
       id: 'misfire%2:33:00::'
       subcat:
@@ -46258,7 +46997,9 @@ misgiving:
 misgovern:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'misgovernment%1:04:00::'
+      derivation:
       - 'misgovernment%1:04:00::'
       id: 'misgovern%2:41:00::'
       subcat:
@@ -46360,6 +47101,8 @@ misinform:
       - vtaa
       - vtia
       synset: 00835688-v
+      undergoer:
+      - 'misinformation%1:10:00::'
 misinformation:
   n:
     sense:
@@ -46377,6 +47120,8 @@ misinterpret:
       synset: 00941213-v
     - derivation:
       - 'misinterpretation%1:10:00::'
+      event:
+      - 'misinterpretation%1:10:00::'
       id: 'misinterpret%2:31:01::'
       sent:
       - Sam and Sue misinterpret the movie
@@ -46385,6 +47130,8 @@ misinterpret:
       - vtai
       synset: 00626438-v
     - derivation:
+      - 'misinterpretation%1:10:00::'
+      event:
       - 'misinterpretation%1:10:00::'
       id: 'misinterpret%2:31:02::'
       sent:
@@ -46440,13 +47187,17 @@ mislead:
     pronunciation:
     - value: mɪsˈliːd
     sense:
-    - derivation:
+    - agent:
+      - 'misleader%1:18:00::'
+      derivation:
       - 'misleader%1:18:00::'
       id: 'mislead%2:38:00::'
       subcat:
       - vtaa
       synset: 02004320-v
-    - derivation:
+    - agent:
+      - 'misleader%1:18:00::'
+      derivation:
       - 'misleader%1:18:00::'
       id: 'mislead%2:32:00::'
       subcat:
@@ -46481,7 +47232,9 @@ misleadingness:
 mismanage:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'mismanagement%1:04:00::'
+      derivation:
       - 'mismanagement%1:04:00::'
       id: 'mismanage%2:41:00::'
       subcat:
@@ -46689,6 +47442,8 @@ misplace:
     - derivation:
       - 'misplacement%1:07:00::'
       id: 'misplace%2:35:00::'
+      location:
+      - 'misplacement%1:07:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -46730,6 +47485,8 @@ misplay:
       synset: 01653237-v
     - derivation:
       - 'misplay%1:04:00::'
+      event:
+      - 'misplay%1:04:00::'
       id: 'misplay%2:33:00::'
       subcat:
       - via
@@ -46749,6 +47506,8 @@ misprint:
     sense:
     - derivation:
       - 'misprint%1:10:00::'
+      event:
+      - 'misprint%1:10:00::'
       id: 'misprint%2:36:00::'
       subcat:
       - vtai
@@ -46757,6 +47516,8 @@ mispronounce:
   v:
     sense:
     - derivation:
+      - 'mispronunciation%1:10:00::'
+      event:
       - 'mispronunciation%1:10:00::'
       id: 'mispronounce%2:32:00::'
       subcat:
@@ -46786,6 +47547,8 @@ misquote:
   v:
     sense:
     - derivation:
+      - 'misquotation%1:10:00::'
+      event:
       - 'misquotation%1:10:00::'
       id: 'misquote%2:32:00::'
       subcat:
@@ -46846,12 +47609,16 @@ misrepresent:
     sense:
     - derivation:
       - 'misrepresentation%1:10:00::'
+      event:
+      - 'misrepresentation%1:10:00::'
       id: 'misrepresent%2:32:00::'
       subcat:
       - vtai
       - vtii
       synset: 00838384-v
     - derivation:
+      - 'misrepresentation%1:10:00::'
+      event:
       - 'misrepresentation%1:10:00::'
       id: 'misrepresent%2:41:00::'
       subcat:
@@ -46921,6 +47688,8 @@ miss:
       synset: 00616690-v
     - derivation:
       - 'miss%1:11:00::'
+      event:
+      - 'miss%1:11:00::'
       id: 'miss%2:38:00::'
       subcat:
       - vtii
@@ -46935,6 +47704,8 @@ miss:
     - antonym:
       - 'hit%2:35:01::'
       derivation:
+      - 'miss%1:11:00::'
+      event:
       - 'miss%1:11:00::'
       id: 'miss%2:35:00::'
       subcat:
@@ -47173,6 +47944,8 @@ misstate:
     - derivation:
       - 'misstatement%1:10:00::'
       id: 'misstate%2:32:00::'
+      result:
+      - 'misstatement%1:10:00::'
       subcat:
       - vtai
       synset: 00800905-v
@@ -47222,6 +47995,8 @@ mist:
       subcat:
       - vii
       synset: 00362148-v
+      uses:
+      - 'mist%1:19:00::'
     - id: 'mist%2:39:00::'
       subcat:
       - vtii
@@ -47233,6 +48008,8 @@ mist:
       - vtai
       - vtii
       synset: 01375968-v
+      uses:
+      - 'mist%1:19:00::'
 mist over:
   v:
     sense:
@@ -47282,6 +48059,10 @@ mistake:
       - vtai
       synset: 00619957-v
     - derivation:
+      - 'mistake%1:10:00::'
+      - 'mistake%1:09:00::'
+      - 'mistake%1:04:00::'
+      event:
       - 'mistake%1:10:00::'
       - 'mistake%1:09:00::'
       - 'mistake%1:04:00::'
@@ -47411,6 +48192,8 @@ mistranslate:
     sense:
     - derivation:
       - 'mistranslation%1:10:00::'
+      event:
+      - 'mistranslation%1:10:00::'
       id: 'mistranslate%2:32:00::'
       subcat:
       - vtai
@@ -47426,6 +48209,8 @@ mistreat:
   v:
     sense:
     - derivation:
+      - 'mistreatment%1:04:00::'
+      event:
       - 'mistreatment%1:04:00::'
       id: 'mistreat%2:41:00::'
       sent:
@@ -47484,7 +48269,11 @@ mistrust:
       derivation:
       - 'mistrust%1:07:00::'
       - 'mistrust%1:09:00::'
+      event:
+      - 'mistrust%1:09:00::'
       id: 'mistrust%2:31:00::'
+      property:
+      - 'mistrust%1:07:00::'
       sent:
       - They want to mistrust the prisoners
       subcat:
@@ -47585,11 +48374,15 @@ misuse:
     sense:
     - derivation:
       - 'misuse%1:04:00::'
+      event:
+      - 'misuse%1:04:00::'
       id: 'misuse%2:34:00::'
       subcat:
       - vtai
       synset: 01163606-v
     - derivation:
+      - 'misuse%1:04:00::'
+      event:
       - 'misuse%1:04:00::'
       id: 'misuse%2:30:00::'
       subcat:
@@ -47643,6 +48436,8 @@ miter:
     - derivation:
       - 'miter%1:06:01::'
       id: 'miter%2:35:00::'
+      location:
+      - 'miter%1:06:01::'
       subcat:
       - vtai
       synset: 01587120-v
@@ -47653,9 +48448,17 @@ miter:
       - vtaa
       - vtia
       synset: 02268766-v
-    - derivation:
+      undergoer:
+      - 'miter%1:06:00::'
+      uses:
+      - 'miter%1:06:00::'
+    - by_means_of:
+      - 'miter%1:06:02::'
+      derivation:
       - 'miter%1:06:02::'
       id: 'miter%2:35:01::'
+      location:
+      - 'miter%1:06:02::'
       subcat:
       - vtai
       synset: 01294310-v
@@ -47730,6 +48533,9 @@ mitigate:
       - mitigatory%5:00:00:moderating:00
       - 'mitigation%1:10:00::'
       - 'mitigation%1:04:00::'
+      event:
+      - 'mitigation%1:10:00::'
+      - 'mitigation%1:04:00::'
       id: 'mitigate%2:32:00::'
       subcat:
       - vtii
@@ -47738,6 +48544,8 @@ mitigate:
       - mitigative%5:00:00:moderating:00
       - mitigatory%5:00:00:moderating:00
       - mitigable%5:00:00:placable:00
+      - 'mitigation%1:10:00::'
+      event:
       - 'mitigation%1:10:00::'
       id: 'mitigate%2:30:04::'
       subcat:
@@ -47953,6 +48761,11 @@ mix:
       - 'mixture%1:14:00::'
       - 'mixture%1:13:00::'
       - 'mixture%1:04:00::'
+      event:
+      - 'mix%1:04:00::'
+      - 'mix%1:11:00::'
+      instrument:
+      - 'mixer%1:06:00::'
       id: 'mix%2:30:00::'
       subcat:
       - via
@@ -47970,6 +48783,11 @@ mix:
       - 'mix%1:11:00::'
       - 'mix%1:04:00::'
       - 'mixing%1:04:00::'
+      event:
+      - 'mix%1:11:00::'
+      - 'mix%1:04:00::'
+      instrument:
+      - 'mixer%1:06:01::'
       id: 'mix%2:30:02::'
       subcat:
       - vtai
@@ -47981,6 +48799,9 @@ mix:
       - 'mixture%1:11:00::'
       - 'mixture%1:04:00::'
       - 'mixing%1:04:00::'
+      event:
+      - 'mix%1:04:00::'
+      - 'mix%1:11:00::'
       id: 'mix%2:30:01::'
       subcat:
       - vtai
@@ -47991,6 +48812,9 @@ mix:
       - 'mixture%1:11:00::'
       - 'mixture%1:04:00::'
       - 'mixing%1:04:00::'
+      event:
+      - 'mix%1:04:00::'
+      - 'mix%1:11:00::'
       id: 'mix%2:35:00::'
       subcat:
       - vii
@@ -47998,6 +48822,9 @@ mix:
       - vtii
       synset: 01464634-v
     - derivation:
+      - 'mix%1:11:00::'
+      - 'mix%1:04:00::'
+      event:
       - 'mix%1:11:00::'
       - 'mix%1:04:00::'
       id: 'mix%2:35:02::'
@@ -48236,6 +49063,8 @@ mizzle:
     sense:
     - derivation:
       - 'mizzle%1:19:00::'
+      event:
+      - 'mizzle%1:19:00::'
       id: 'mizzle%2:43:00::'
       sent:
       - It was mizzleing all day long
@@ -48352,8 +49181,12 @@ moan:
     - value: moʊn
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'moaner%1:18:00::'
+      derivation:
+      - 'moaner%1:18:00::'
+      - 'moan%1:10:00::'
+      event:
       - 'moan%1:10:00::'
       id: 'moan%2:32:00::'
       sent:
@@ -48406,6 +49239,8 @@ mob:
     - mobbing
     sense:
     - derivation:
+      - 'mob%1:14:00::'
+      event:
       - 'mob%1:14:00::'
       id: 'mob%2:38:00::'
       subcat:
@@ -48491,6 +49326,9 @@ mobilise:
     - derivation:
       - 'mobilisation%1:04:01::'
       - 'mobilisation%1:04:00::'
+      event:
+      - 'mobilisation%1:04:01::'
+      - 'mobilisation%1:04:00::'
       id: 'mobilise%2:33:01::'
       subcat:
       - vtaa
@@ -48500,11 +49338,16 @@ mobilise:
       - 'demobilise%2:33:00::'
       derivation:
       - 'mobilisation%1:04:01::'
+      event:
+      - 'mobilisation%1:04:01::'
       id: 'mobilise%2:33:00::'
       subcat:
       - via
       synset: 01090792-v
     - derivation:
+      - 'mobilisation%1:04:01::'
+      - 'mobilisation%1:04:00::'
+      event:
       - 'mobilisation%1:04:01::'
       - 'mobilisation%1:04:00::'
       id: 'mobilise%2:30:02::'
@@ -48553,6 +49396,9 @@ mobilize:
     - derivation:
       - 'mobilization%1:04:01::'
       - 'mobilization%1:04:00::'
+      event:
+      - 'mobilization%1:04:01::'
+      - 'mobilization%1:04:00::'
       id: 'mobilize%2:30:02::'
       subcat:
       - vtaa
@@ -48562,6 +49408,8 @@ mobilize:
       - 'demobilize%2:33:03::'
       derivation:
       - 'mobilization%1:04:01::'
+      event:
+      - 'mobilization%1:04:01::'
       id: 'mobilize%2:33:01::'
       subcat:
       - vtaa
@@ -48570,6 +49418,8 @@ mobilize:
     - antonym:
       - 'demobilize%2:33:00::'
       derivation:
+      - 'mobilization%1:04:01::'
+      event:
       - 'mobilization%1:04:01::'
       id: 'mobilize%2:33:00::'
       subcat:
@@ -48673,7 +49523,9 @@ mock:
     - value: mɑk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mocker%1:18:00::'
+      derivation:
       - 'mocker%1:18:00::'
       - 'mockery%1:10:00::'
       id: 'mock%2:32:00::'
@@ -48682,8 +49534,12 @@ mock:
       - vtai
       - vtia
       synset: 00850760-v
-    - derivation:
+    - agent:
       - 'mocker%1:18:00::'
+      derivation:
+      - 'mocker%1:18:00::'
+      - 'mock%1:04:00::'
+      event:
       - 'mock%1:04:00::'
       id: 'mock%2:32:01::'
       subcat:
@@ -49017,14 +49873,24 @@ model:
     - value: ˈmɑdl̩
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'modeller%1:18:00::'
+      - 'modeler%1:18:00::'
+      by_means_of:
+      - 'model%1:09:02::'
+      - 'model%1:06:00::'
+      derivation:
       - 'model%1:04:00::'
       - 'model%1:09:02::'
       - 'model%1:06:00::'
       - 'model%1:09:00::'
       - 'modeller%1:18:00::'
       - 'modeler%1:18:00::'
+      event:
+      - 'model%1:04:00::'
       id: 'model%2:36:02::'
+      result:
+      - 'model%1:09:00::'
       subcat:
       - vtai-pp
       synset: 01747665-v
@@ -49034,19 +49900,26 @@ model:
       - 'modelling%1:04:01::'
       - 'modeling%1:06:00::'
       - 'modeling%1:04:01::'
+      event:
+      - 'model%1:04:00::'
+      - 'model%1:06:00::'
       id: 'model%2:36:00::'
       sent:
       - Did he model his major works over a short period of time?
       subcat:
       - vtai
       synset: 01700922-v
-    - derivation:
+    - agent:
+      - 'model%1:18:00::'
+      derivation:
       - 'model%1:18:00::'
       id: 'model%2:39:01::'
       subcat:
       - via
       synset: 02147248-v
-    - derivation:
+    - agent:
+      - 'model%1:18:02::'
+      derivation:
       - 'model%1:18:02::'
       id: 'model%2:39:00::'
       sent:
@@ -49058,18 +49931,27 @@ model:
     - derivation:
       - 'model%1:09:00::'
       id: 'model%2:36:04::'
+      result:
+      - 'model%1:09:00::'
       subcat:
       - vtai
       - vtii
       synset: 01726857-v
-    - derivation:
+    - agent:
+      - 'modeller%1:18:00::'
+      - 'modeler%1:18:00::'
+      derivation:
       - 'model%1:06:00::'
       - 'model%1:04:00::'
       - 'modeller%1:18:00::'
       - 'modeler%1:18:00::'
       - 'modelling%1:04:00::'
       - 'modeling%1:04:00::'
+      event:
+      - 'model%1:04:00::'
       id: 'model%2:36:01::'
+      result:
+      - 'model%1:06:00::'
       subcat:
       - vtai
       synset: 01701301-v
@@ -49170,7 +50052,9 @@ moderate:
     - value: ˈmɑdəɹət
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'moderator%1:18:01::'
+      derivation:
       - 'moderator%1:18:01::'
       id: 'moderate%2:32:00::'
       sent:
@@ -49182,6 +50066,8 @@ moderate:
     - derivation:
       - 'moderation%1:07:00::'
       id: 'moderate%2:30:03::'
+      property:
+      - 'moderation%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -49189,11 +50075,15 @@ moderate:
     - derivation:
       - 'moderation%1:07:00::'
       id: 'moderate%2:41:00::'
+      property:
+      - 'moderation%1:07:00::'
       subcat:
       - vtai
       - vtii
       synset: 02516039-v
     - derivation:
+      - 'moderation%1:04:00::'
+      event:
       - 'moderation%1:04:00::'
       id: 'moderate%2:32:06::'
       subcat:
@@ -49202,6 +50092,8 @@ moderate:
     - derivation:
       - 'moderation%1:07:00::'
       id: 'moderate%2:32:01::'
+      property:
+      - 'moderation%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -49453,6 +50345,8 @@ modernise:
     sense:
     - derivation:
       - 'modernisation%1:04:00::'
+      event:
+      - 'modernisation%1:04:00::'
       id: 'modernise%2:30:02::'
       subcat:
       - vtaa
@@ -49538,6 +50432,8 @@ modernize:
       - vtai
       synset: 00262962-v
     - derivation:
+      - 'modernization%1:04:00::'
+      event:
       - 'modernization%1:04:00::'
       id: 'modernize%2:30:02::'
       subcat:
@@ -49730,13 +50626,20 @@ modify:
     - value: ˈmɑdɪfaɪ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'modifier%1:18:00::'
+      derivation:
       - 'modifiable%3:00:00::'
       - 'modifier%1:18:00::'
       - 'modification%1:11:00::'
       - 'modification%1:06:00::'
       - 'modification%1:04:00::'
+      event:
+      - 'modification%1:11:00::'
+      - 'modification%1:04:00::'
       id: 'modify%2:30:00::'
+      result:
+      - 'modification%1:06:00::'
       subcat:
       - via
       - vii
@@ -49744,8 +50647,12 @@ modify:
       - vtia
       - vtii
       synset: 00169614-v
-    - derivation:
+    - by_means_of:
       - 'modifier%1:10:00::'
+      derivation:
+      - 'modifier%1:10:00::'
+      - 'modification%1:24:00::'
+      event:
       - 'modification%1:24:00::'
       id: 'modify%2:30:01::'
       subcat:
@@ -49753,6 +50660,9 @@ modify:
       - vtai-with
       - vtii
       synset: 00171140-v
+      uses:
+      - 'modifier%1:10:00::'
+      - 'modification%1:24:00::'
     - derivation:
       - 'modifiable%3:00:00::'
       - 'modification%1:04:00::'
@@ -49826,6 +50736,8 @@ modulate:
     sense:
     - derivation:
       - 'modulation%1:10:01::'
+      event:
+      - 'modulation%1:10:01::'
       id: 'modulate%2:36:00::'
       sent:
       - They will modulate the duet
@@ -49836,10 +50748,15 @@ modulate:
       - 'modulation%1:10:03::'
       - 'modulation%1:10:02::'
       id: 'modulate%2:32:00::'
+      result:
+      - 'modulation%1:10:03::'
+      - 'modulation%1:10:02::'
       subcat:
       - vtai
       synset: 00984325-v
     - derivation:
+      - 'modulation%1:04:00::'
+      event:
       - 'modulation%1:04:00::'
       id: 'modulate%2:30:01::'
       subcat:
@@ -49849,11 +50766,15 @@ modulate:
     - derivation:
       - 'modulation%1:10:03::'
       id: 'modulate%2:30:00::'
+      result:
+      - 'modulation%1:10:03::'
       subcat:
       - vtai
       - vtii
       synset: 00171471-v
     - derivation:
+      - 'modulation%1:10:00::'
+      event:
       - 'modulation%1:10:00::'
       id: 'modulate%2:30:05::'
       subcat:
@@ -50056,6 +50977,8 @@ moisten:
       - 'moistener%1:06:00::'
       - 'moisture%1:26:00::'
       - 'moistening%1:04:00::'
+      instrument:
+      - 'moistener%1:06:00::'
       id: 'moisten%2:30:00::'
       subcat:
       - vtai
@@ -50314,7 +51237,11 @@ mold:
       - 'mold%1:25:00::'
       - 'molding%1:04:01::'
       - 'molding%1:04:00::'
+      event:
+      - 'mold%1:25:00::'
       id: 'mold%2:36:02::'
+      result:
+      - 'mold%1:06:02::'
       sent:
       - Did he mold his major works over a short period of time?
       subcat:
@@ -50323,23 +51250,34 @@ mold:
     - derivation:
       - 'mold%1:20:00::'
       - 'mold%1:22:00::'
+      event:
+      - 'mold%1:20:00::'
+      - 'mold%1:22:00::'
       id: 'mold%2:30:00::'
       subcat:
       - vii
       - vtii
       synset: 00211164-v
-    - derivation:
+    - by_means_of:
+      - 'mold%1:06:00::'
+      derivation:
       - moldable%5:00:00:elastic:00
       - 'mold%1:06:02::'
       - 'mold%1:06:00::'
       - 'mold%1:25:00::'
       - 'molding%1:06:02::'
       - 'molding%1:04:01::'
+      event:
+      - 'mold%1:25:00::'
       id: 'mold%2:36:00::'
+      result:
+      - 'mold%1:06:02::'
       subcat:
       - vtai
       synset: 01666666-v
     - derivation:
+      - 'mold%1:25:00::'
+      event:
       - 'mold%1:25:00::'
       id: 'mold%2:36:01::'
       subcat:
@@ -50573,11 +51511,15 @@ molest:
     sense:
     - derivation:
       - 'molestation%1:04:01::'
+      event:
+      - 'molestation%1:04:01::'
       id: 'molest%2:41:00::'
       subcat:
       - vtaa
       synset: 02575410-v
     - derivation:
+      - 'molestation%1:04:00::'
+      event:
       - 'molestation%1:04:00::'
       id: 'molest%2:37:00::'
       sent:
@@ -50660,9 +51602,14 @@ mollify:
     - derivation:
       - 'mollification%1:26:00::'
       - 'mollification%1:04:00::'
+      event:
+      - 'mollification%1:26:00::'
+      - 'mollification%1:04:00::'
       id: 'mollify%2:37:00::'
       sent:
       - The performance is likely to mollify Sue
+      state:
+      - 'mollification%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -50671,7 +51618,12 @@ mollify:
     - derivation:
       - 'mollification%1:26:00::'
       - 'mollification%1:04:00::'
+      event:
+      - 'mollification%1:26:00::'
+      - 'mollification%1:04:00::'
       id: 'mollify%2:30:01::'
+      state:
+      - 'mollification%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -50744,10 +51696,14 @@ mollycoddle:
     - value: ˈmɑl.iˌkɑd.əl
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mollycoddler%1:18:00::'
+      derivation:
       - 'mollycoddler%1:18:00::'
       - 'mollycoddle%1:18:00::'
       id: 'mollycoddle%2:41:00::'
+      result:
+      - 'mollycoddle%1:18:00::'
       subcat:
       - vtaa
       synset: 02576182-v
@@ -50782,9 +51738,13 @@ molt:
       synset: 13538045-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'molter%1:05:00::'
+      derivation:
       - 'molter%1:05:00::'
       - 'molting%1:22:00::'
+      - 'molt%1:22:00::'
+      event:
       - 'molt%1:22:00::'
       id: 'molt%2:29:00::'
       subcat:
@@ -51345,6 +52305,8 @@ monetise:
     sense:
     - derivation:
       - 'monetisation%1:04:01::'
+      event:
+      - 'monetisation%1:04:01::'
       id: 'monetise%2:41:00::'
       subcat:
       - vtai
@@ -51366,6 +52328,8 @@ monetize:
     - value: ˈmʌnətaɪz
     sense:
     - derivation:
+      - 'monetization%1:04:01::'
+      event:
       - 'monetization%1:04:01::'
       id: 'monetize%2:41:00::'
       subcat:
@@ -51562,7 +52526,9 @@ monger:
     - value: ˈmʌŋ.ɡəɹ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'monger%1:18:00::'
+      derivation:
       - 'monger%1:18:00::'
       id: 'monger%2:40:00::'
       subcat:
@@ -51688,14 +52654,18 @@ moniliasis:
 monish:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'monition%1:10:01::'
+      derivation:
       - 'monition%1:10:01::'
       id: 'monish%2:32:01::'
       subcat:
       - vtaa
       - vtia
       synset: 00872857-v
-    - derivation:
+    - by_means_of:
+      - 'monition%1:10:01::'
+      derivation:
       - 'monition%1:10:01::'
       id: 'monish%2:32:00::'
       subcat:
@@ -51765,10 +52735,16 @@ monitor:
     - value: ˈmɒnɨtə
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'monitor%1:18:01::'
+      by_means_of:
+      - 'monitor%1:06:00::'
+      derivation:
       - 'monitor%1:06:00::'
       - 'monitor%1:18:01::'
       - 'monitoring%1:04:00::'
+      instrument:
+      - 'monitor%1:06:00::'
       id: 'monitor%2:39:00::'
       subcat:
       - vtaa
@@ -51846,7 +52822,9 @@ monkey:
     pronunciation:
     - value: ˈmʌŋki
     sense:
-    - derivation:
+    - agent:
+      - 'monkey%1:18:00::'
+      derivation:
       - 'monkey%1:18:00::'
       id: 'monkey%2:35:12::'
       subcat:
@@ -52697,12 +53675,16 @@ monopolise:
       subcat:
       - vtai
       synset: 02447411-v
-    - derivation:
+    - agent:
+      - 'monopoliser%1:18:00::'
+      derivation:
       - 'monopolist%1:18:00::'
       - 'monopolisation%1:04:00::'
       - 'monopoliser%1:18:00::'
       - 'monopoly%1:26:02::'
       - 'monopoly%1:26:01::'
+      event:
+      - 'monopolisation%1:04:00::'
       id: 'monopolise%2:40:00::'
       subcat:
       - vtai
@@ -52747,12 +53729,16 @@ monopolize:
       subcat:
       - vtai
       synset: 02447411-v
-    - derivation:
+    - agent:
+      - 'monopolizer%1:18:00::'
+      derivation:
       - 'monopolist%1:18:00::'
       - 'monopolization%1:04:00::'
       - 'monopolizer%1:18:00::'
       - 'monopoly%1:26:02::'
       - 'monopoly%1:26:01::'
+      event:
+      - 'monopolization%1:04:00::'
       id: 'monopolize%2:40:00::'
       subcat:
       - vtai
@@ -53429,6 +54415,8 @@ moo:
     sense:
     - derivation:
       - 'moo%1:11:00::'
+      event:
+      - 'moo%1:11:00::'
       id: 'moo%2:32:00::'
       subcat:
       - vii
@@ -53457,7 +54445,9 @@ mooch:
     pronunciation:
     - value: muːtʃ
     sense:
-    - derivation:
+    - agent:
+      - 'moocher%1:18:00::'
+      derivation:
       - 'moocher%1:18:00::'
       id: 'mooch%2:40:00::'
       subcat:
@@ -53788,13 +54778,17 @@ moonshine:
       synset: 07918760-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'moonshiner%1:18:00::'
+      derivation:
       - 'moonshine%1:13:00::'
       - 'moonshiner%1:18:00::'
       id: 'moonshine%2:30:00::'
       subcat:
       - via
       synset: 00229284-v
+      undergoer:
+      - 'moonshine%1:13:00::'
 moonshiner:
   n:
     sense:
@@ -54041,10 +55035,14 @@ mop:
     - value: mɑp
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mopper%1:18:00::'
+      derivation:
       - 'mop%1:06:00::'
       - 'mopper%1:18:00::'
       - 'mopping%1:04:00::'
+      instrument:
+      - 'mop%1:06:00::'
       id: 'mop%2:35:01::'
       subcat:
       - vtai
@@ -54079,6 +55077,8 @@ mop up:
       - vtai
       synset: 01105408-v
     - derivation:
+      - 'mop_up%1:04:00::'
+      event:
       - 'mop_up%1:04:00::'
       id: 'mop_up%2:30:00::'
       subcat:
@@ -54115,14 +55115,18 @@ mope:
     - value: moʊp
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mope%1:18:00::'
+      derivation:
       - 'mope%1:18:00::'
       id: 'mope%2:38:00::'
       subcat:
       - via
       - via-pp
       synset: 01922662-v
-    - derivation:
+    - agent:
+      - 'mope%1:18:00::'
+      derivation:
       - 'mope%1:18:00::'
       id: 'mope%2:37:00::'
       sent:
@@ -54325,6 +55329,8 @@ moralise:
       synset: 00940652-v
     - derivation:
       - 'moralisation%1:10:00::'
+      event:
+      - 'moralisation%1:10:00::'
       id: 'moralise%2:32:00::'
       sent:
       - Sam and Sue moralise
@@ -54332,6 +55338,8 @@ moralise:
       - via
       synset: 00830035-v
     - derivation:
+      - 'moralisation%1:04:00::'
+      event:
       - 'moralisation%1:04:00::'
       id: 'moralise%2:30:00::'
       subcat:
@@ -54421,6 +55429,8 @@ moralize:
     - derivation:
       - 'moralization%1:10:00::'
       - 'moralizing%1:10:00::'
+      event:
+      - 'moralization%1:10:00::'
       id: 'moralize%2:32:00::'
       sent:
       - Sam and Sue moralize
@@ -54428,6 +55438,8 @@ moralize:
       - via
       synset: 00830035-v
     - derivation:
+      - 'moralization%1:04:00::'
+      event:
       - 'moralization%1:04:00::'
       id: 'moralize%2:30:00::'
       subcat:
@@ -55217,6 +56229,8 @@ mortar:
       subcat:
       - vtai
       synset: 01364994-v
+      undergoer:
+      - 'mortar%1:27:00::'
 mortar fire:
   n:
     sense:
@@ -55248,7 +56262,11 @@ mortgage:
     - value: ˈmɔɹ.ɡɪdʒ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mortgagee%1:18:00::'
+      - 'mortgager%1:18:00::'
+      - 'mortgagor%1:18:00::'
+      derivation:
       - 'mortgagee%1:18:00::'
       - 'mortgager%1:18:00::'
       - 'mortgagor%1:18:00::'
@@ -55257,6 +56275,8 @@ mortgage:
       subcat:
       - vtai
       synset: 02356733-v
+      undergoer:
+      - 'mortgage%1:21:00::'
 mortgage application:
   n:
     sense:
@@ -55321,10 +56341,14 @@ mortice:
     - derivation:
       - 'mortice%1:06:00::'
       id: 'mortice%2:35:01::'
+      result:
+      - 'mortice%1:06:00::'
       subcat:
       - vtai
       synset: 01296385-v
-    - derivation:
+    - by_means_of:
+      - 'mortice%1:06:00::'
+      derivation:
       - 'mortice%1:06:00::'
       id: 'mortice%2:35:00::'
       subcat:
@@ -55381,11 +56405,15 @@ mortify:
     sense:
     - derivation:
       - 'mortification%1:04:00::'
+      event:
+      - 'mortification%1:04:00::'
       id: 'mortify%2:37:04::'
       subcat:
       - via
       synset: 01806052-v
     - derivation:
+      - 'mortification%1:04:00::'
+      event:
       - 'mortification%1:04:00::'
       id: 'mortify%2:37:02::'
       subcat:
@@ -55395,14 +56423,21 @@ mortify:
     - derivation:
       - 'mortification%1:12:00::'
       - 'mortification%1:11:00::'
+      event:
+      - 'mortification%1:12:00::'
+      - 'mortification%1:11:00::'
       id: 'mortify%2:37:01::'
       sent:
       - The performance is likely to mortify Sue
+      state:
+      - 'mortification%1:12:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01803805-v
     - derivation:
+      - 'mortification%1:19:00::'
+      event:
       - 'mortification%1:19:00::'
       id: 'mortify%2:29:00::'
       subcat:
@@ -55432,10 +56467,14 @@ mortise:
     - derivation:
       - 'mortise%1:06:00::'
       id: 'mortise%2:35:01::'
+      result:
+      - 'mortise%1:06:00::'
       subcat:
       - vtai
       synset: 01296385-v
-    - derivation:
+    - by_means_of:
+      - 'mortise%1:06:00::'
+      derivation:
       - 'mortise%1:06:00::'
       id: 'mortise%2:35:00::'
       subcat:
@@ -55933,13 +56972,21 @@ mother:
       synset: 05843616-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'mother%1:18:00::'
+      by_means_of:
+      - 'mother%1:18:00::'
+      derivation:
       - 'mother%1:18:00::'
       id: 'mother%2:41:00::'
       subcat:
       - vtaa
       synset: 02556213-v
-    - derivation:
+    - agent:
+      - 'mother%1:18:00::'
+      by_means_of:
+      - 'mother%1:18:00::'
+      derivation:
       - 'mother%1:18:00::'
       id: 'mother%2:29:00::'
       subcat:
@@ -56260,7 +57307,9 @@ motion:
     - value: ˈmoʊʃən
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'motion%1:10:00::'
+      derivation:
       - 'motion%1:10:00::'
       id: 'motion%2:32:00::'
       subcat:
@@ -56360,16 +57409,24 @@ motivate:
     - value: ˈmoʊtɪveɪt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'motivator%1:16:00::'
+      - 'motivation%1:03:00::'
+      derivation:
       - motivative%5:00:00:causative:00
       - 'motivation%1:26:00::'
       - 'motivation%1:04:00::'
       - 'motivation%1:03:00::'
       - 'motive%1:03:00::'
       - 'motivator%1:16:00::'
+      event:
+      - 'motivation%1:04:00::'
       id: 'motivate%2:36:00::'
       sent:
       - They motivate him to write the letter
+      state:
+      - 'motivator%1:16:00::'
+      - 'motivation%1:26:00::'
       subcat:
       - vtaa
       - vtaa-to-inf
@@ -56529,12 +57586,16 @@ motley:
     - derivation:
       - 'motley%1:14:00::'
       id: 'motley%2:30:01::'
+      result:
+      - 'motley%1:14:00::'
       subcat:
       - vtai
       synset: 00437832-v
     - derivation:
       - 'motley%1:06:00::'
       id: 'motley%2:30:00::'
+      result:
+      - 'motley%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -56600,6 +57661,8 @@ motor:
       - 'motorist%1:18:00::'
       - 'motoring%1:04:00::'
       - 'motor%1:06:00::'
+      instrument:
+      - 'motor%1:06:00::'
       id: 'motor%2:38:00::'
       sent:
       - They motor up the hill
@@ -56607,6 +57670,8 @@ motor:
       - via
       - via-pp
       synset: 01934070-v
+      vehicle:
+      - 'motor%1:06:00::'
 motor aphasia:
   n:
     sense:
@@ -56807,6 +57872,8 @@ motorcycle:
       - via
       - via-pp
       synset: 01939907-v
+      vehicle:
+      - 'motorcycle%1:06:00::'
 motorcycle cop:
   n:
     sense:
@@ -56858,6 +57925,8 @@ motorise:
     sense:
     - derivation:
       - 'motorisation%1:04:00::'
+      event:
+      - 'motorisation%1:04:00::'
       id: 'motorise%2:30:00::'
       subcat:
       - vtai
@@ -56889,6 +57958,10 @@ motorize:
     - derivation:
       - 'motorization%1:04:00::'
       - 'motor%1:06:00::'
+      event:
+      - 'motorization%1:04:00::'
+      instrument:
+      - 'motor%1:06:00::'
       id: 'motorize%2:40:05::'
       subcat:
       - vtai
@@ -56896,12 +57969,20 @@ motorize:
     - derivation:
       - 'motorization%1:04:00::'
       - 'motor%1:06:00::'
+      event:
+      - 'motorization%1:04:00::'
+      instrument:
+      - 'motor%1:06:00::'
       id: 'motorize%2:40:03::'
       subcat:
       - vtai
       synset: 02230795-v
     - derivation:
       - 'motorization%1:04:00::'
+      - 'motor%1:06:00::'
+      event:
+      - 'motorization%1:04:00::'
+      instrument:
       - 'motor%1:06:00::'
       id: 'motorize%2:30:00::'
       subcat:
@@ -57060,6 +58141,8 @@ mould:
       - 'mould%1:06:02::'
       - 'moulding%1:04:00::'
       id: 'mould%2:36:02::'
+      result:
+      - 'mould%1:06:02::'
       subcat:
       - vtai
       synset: 01700922-v
@@ -57067,6 +58150,8 @@ mould:
       - 'mould%1:06:02::'
       - 'moulding%1:06:02::'
       id: 'mould%2:36:00::'
+      result:
+      - 'mould%1:06:02::'
       subcat:
       - vtai
       synset: 01666666-v
@@ -57152,9 +58237,13 @@ moult:
     - value: mɒlt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'moulter%1:05:00::'
+      derivation:
       - 'moulter%1:05:00::'
       - 'moulting%1:22:00::'
+      - 'moult%1:22:00::'
+      event:
       - 'moult%1:22:00::'
       id: 'moult%2:29:00::'
       subcat:
@@ -57201,6 +58290,9 @@ mound:
       - 'mound%1:06:00::'
       - 'mound%1:17:00::'
       id: 'mound%2:36:00::'
+      result:
+      - 'mound%1:06:00::'
+      - 'mound%1:17:00::'
       subcat:
       - vtai
       synset: 01664280-v
@@ -57272,14 +58364,20 @@ mount:
       - vtai
       - vtai-pp
       synset: 01345886-v
+      undergoer:
+      - 'mount%1:06:00::'
     - derivation:
       - 'mount%1:04:00::'
       - 'mounting%1:11:00::'
+      event:
+      - 'mount%1:04:00::'
       id: 'mount%2:30:00::'
       subcat:
       - vii
       synset: 00434185-v
-    - derivation:
+    - agent:
+      - 'mounter%1:18:01::'
+      derivation:
       - 'mount%1:06:01::'
       - 'mount%1:06:00::'
       - 'mounter%1:18:01::'
@@ -57288,6 +58386,9 @@ mount:
       subcat:
       - vtai
       synset: 00408558-v
+      undergoer:
+      - 'mount%1:06:01::'
+      - 'mount%1:06:00::'
     - id: 'mount%2:36:00::'
       subcat:
       - vtai
@@ -57299,10 +58400,16 @@ mount:
       subcat:
       - vtai
       synset: 01927367-v
-    - derivation:
+      undergoer:
+      - 'mount%1:05:00::'
+    - agent:
+      - 'mounter%1:18:00::'
+      derivation:
       - 'mount%1:04:00::'
       - 'mounter%1:18:00::'
       - 'mounting%1:11:00::'
+      event:
+      - 'mount%1:04:00::'
       id: 'mount%2:38:00::'
       subcat:
       - via-pp
@@ -57740,7 +58847,9 @@ mountaineer:
     - value: ˌmaʊn.tɪnˈɪɹ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'mountaineer%1:18:00::'
+      derivation:
       - 'mountaineering%1:04:00::'
       - 'mountaineer%1:18:00::'
       id: 'mountaineer%2:38:00::'
@@ -57824,7 +58933,9 @@ mourn:
       variety: GB
     - value: mʊɹn
     sense:
-    - derivation:
+    - agent:
+      - 'mourner%1:18:00::'
+      derivation:
       - 'mourner%1:18:00::'
       - 'mourning%1:26:00::'
       id: 'mourn%2:37:00::'
@@ -57834,7 +58945,9 @@ mourn:
       - via
       - via-pp
       synset: 01801062-v
-    - derivation:
+    - agent:
+      - 'mourner%1:18:00::'
+      derivation:
       - 'mourner%1:18:00::'
       id: 'mourn%2:37:01::'
       sent:
@@ -57977,6 +59090,8 @@ mouse:
       subcat:
       - via
       synset: 01214679-v
+      undergoer:
+      - 'mouse%1:06:00::'
 mouse button:
   n:
     sense:
@@ -58133,6 +59248,8 @@ mousse:
       subcat:
       - vtai
       synset: 00039663-v
+      uses:
+      - 'mousse%1:06:00::'
 mousseline de sole:
   n:
     sense:
@@ -58218,13 +59335,19 @@ mouth:
     pronunciation:
     - value: maʊθ
     sense:
-    - also:
+    - agent:
+      - 'mouth%1:18:01::'
+      also:
       - 'mouth_off%2:32:00::'
+      by_means_of:
+      - 'mouth%1:08:00::'
       derivation:
       - 'mouth%1:10:00::'
       - 'mouth%1:18:01::'
       - 'mouth%1:08:00::'
       - 'mouth%1:08:01::'
+      event:
+      - 'mouth%1:10:00::'
       id: 'mouth%2:32:00::'
       subcat:
       - via
@@ -58234,11 +59357,16 @@ mouth:
       - 'mouth%1:10:00::'
       - 'mouth%1:08:00::'
       - 'mouth%1:08:01::'
+      event:
+      - 'mouth%1:10:00::'
       id: 'mouth%2:32:01::'
       subcat:
       - via
       synset: 01042579-v
-    - derivation:
+    - by_means_of:
+      - 'mouth%1:08:00::'
+      - 'mouth%1:08:01::'
+      derivation:
       - 'mouth%1:08:00::'
       - 'mouth%1:08:01::'
       id: 'mouth%2:35:00::'
@@ -58425,7 +59553,9 @@ move:
     pronunciation:
     - value: muːv
     sense:
-    - also:
+    - agent:
+      - 'mover%1:18:00::'
+      also:
       - 'move_on%2:38:00::'
       - 'move_out%2:38:00::'
       - 'move_back%2:38:00::'
@@ -58435,6 +59565,11 @@ move:
       - 'movement%1:04:04::'
       - 'movement%1:11:00::'
       - 'mover%1:18:00::'
+      event:
+      - 'motion%1:04:01::'
+      - 'movement%1:04:04::'
+      - 'movement%1:11:00::'
+      - 'move%1:04:04::'
       id: 'move%2:38:03::'
       sent:
       - The cars move down the avenue
@@ -58444,7 +59579,10 @@ move:
       - vii
       - vii-pp
       synset: 01839438-v
-    - derivation:
+    - agent:
+      - 'mover%1:18:02::'
+      - 'mover%1:14:00::'
+      derivation:
       - moveable%5:00:00:mobile:00
       - movable%5:00:00:portable:00
       - movable%5:00:00:mobile:00
@@ -58453,6 +59591,10 @@ move:
       - 'movement%1:04:02::'
       - 'mover%1:18:02::'
       - 'mover%1:14:00::'
+      event:
+      - 'movement%1:04:04::'
+      - 'movement%1:04:02::'
+      - 'move%1:04:04::'
       id: 'move%2:38:01::'
       sent:
       - They move the car down the avenue
@@ -58469,17 +59611,26 @@ move:
       - 'motion%1:04:00::'
       - 'move%1:04:03::'
       - 'movement%1:04:00::'
+      event:
+      - 'motion%1:04:00::'
+      - 'movement%1:04:00::'
+      - 'move%1:04:03::'
       id: 'move%2:38:00::'
       subcat:
       - vtai
       - vtii
       synset: 01835473-v
-    - antonym:
+    - agent:
+      - 'mover%1:18:00::'
+      antonym:
       - 'stay%2:38:00::'
       derivation:
       - 'move%1:04:01::'
       - 'movement%1:04:04::'
       - 'mover%1:18:00::'
+      event:
+      - 'movement%1:04:04::'
+      - 'move%1:04:01::'
       id: 'move%2:38:02::'
       sent:
       - Sam and Sue move
@@ -58498,7 +59649,11 @@ move:
       - 'motion%1:26:00::'
       - 'move%1:04:00::'
       - 'mover%1:18:01::'
+      event:
+      - 'move%1:04:00::'
       id: 'move%2:29:06::'
+      state:
+      - 'motion%1:26:00::'
       subcat:
       - via
       synset: 00014542-v
@@ -58553,13 +59708,17 @@ move:
       synset: 02604860-v
     - derivation:
       - 'move%1:04:02::'
+      event:
+      - 'move%1:04:02::'
       id: 'move%2:33:00::'
       sent:
       - Sam and Sue move
       subcat:
       - via
       synset: 01079008-v
-    - derivation:
+    - agent:
+      - 'mover%1:18:01::'
+      derivation:
       - 'mover%1:18:01::'
       id: 'move%2:32:00::'
       subcat:
@@ -58993,6 +60152,8 @@ mow:
     - derivation:
       - 'mow%1:06:00::'
       - 'mower%1:06:00::'
+      instrument:
+      - 'mower%1:06:00::'
       id: 'mow%2:35:00::'
       sent:
       - They mow rye in the field
@@ -59244,6 +60405,8 @@ muck:
       subcat:
       - via-pp
       synset: 00178494-v
+      undergoer:
+      - 'muck%1:27:00::'
     - derivation:
       - 'muck%1:27:01::'
       id: 'muck%2:38:00::'
@@ -59251,6 +60414,8 @@ muck:
       - vtai
       - vtai-pp
       synset: 02087334-v
+      undergoer:
+      - 'muck%1:27:01::'
     - derivation:
       - 'muck%1:27:00::'
       id: 'muck%2:35:00::'
@@ -59260,6 +60425,8 @@ muck:
       - vtia
       - vtii
       synset: 01537533-v
+      undergoer:
+      - 'muck%1:27:00::'
 muck about:
   v:
     sense:
@@ -59311,7 +60478,9 @@ muckle:
 muckrake:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'muckraker%1:18:00::'
+      derivation:
       - 'muckraker%1:18:00::'
       - 'muckraking%1:10:00::'
       id: 'muckrake%2:32:00::'
@@ -59508,12 +60677,16 @@ mud:
       - vtia
       - vtii
       synset: 01537533-v
+      uses:
+      - 'mud%1:27:00::'
     - derivation:
       - 'mud%1:27:00::'
       id: 'mud%2:35:01::'
       subcat:
       - vtai
       synset: 01364587-v
+      uses:
+      - 'mud%1:27:00::'
 mud bath:
   n:
     sense:
@@ -59655,6 +60828,8 @@ muddle:
       synset: 01422521-v
     - derivation:
       - 'muddle%1:26:00::'
+      event:
+      - 'muddle%1:26:00::'
       id: 'muddle%2:31:00::'
       subcat:
       - vtai
@@ -59787,6 +60962,8 @@ muff:
     sense:
     - derivation:
       - 'muff%1:04:00::'
+      event:
+      - 'muff%1:04:00::'
       id: 'muff%2:41:01::'
       subcat:
       - vtai
@@ -59837,6 +61014,9 @@ muffle:
       - vtii
       synset: 01571411-v
     - derivation:
+      - 'muffler%1:06:02::'
+      - 'muffler%1:06:01::'
+      instrument:
       - 'muffler%1:06:02::'
       - 'muffler%1:06:01::'
       id: 'muffle%2:39:00::'
@@ -59894,7 +61074,9 @@ mug:
     - mugged
     - mugging
     sense:
-    - derivation:
+    - agent:
+      - 'mugger%1:18:00::'
+      derivation:
       - 'muggee%1:18:00::'
       - 'mugger%1:18:00::'
       - 'mugging%1:04:00::'
@@ -59902,6 +61084,8 @@ mug:
       subcat:
       - vtaa
       synset: 02282508-v
+      undergoer:
+      - 'muggee%1:18:00::'
     - id: 'mug%2:39:01::'
       subcat:
       - via
@@ -60154,6 +61338,8 @@ mulch:
       subcat:
       - vtai
       synset: 01236943-v
+      uses:
+      - 'mulch%1:06:00::'
 mulct:
   n:
     pronunciation:
@@ -60175,6 +61361,8 @@ mulct:
       - vtaa-pp
       synset: 02578034-v
     - derivation:
+      - 'mulct%1:21:00::'
+      event:
       - 'mulct%1:21:00::'
       id: 'mulct%2:40:00::'
       subcat:
@@ -60264,13 +61452,17 @@ mull:
       synset: 09385842-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'muller%1:18:06::'
+      derivation:
       - 'muller%1:18:06::'
       id: 'mull%2:31:00::'
       subcat:
       - via-pp
       synset: 00632042-v
     - derivation:
+      - 'muller%1:06:01::'
+      instrument:
       - 'muller%1:06:01::'
       id: 'mull%2:39:00::'
       subcat:
@@ -60905,6 +62097,8 @@ multiply:
     sense:
     - antonym:
       - 'divide%2:31:00::'
+      by_means_of:
+      - 'multiplication%1:04:00::'
       derivation:
       - multiplicative%5:00:00:increasing:00
       - 'multiplication%1:04:00::'
@@ -60913,10 +62107,16 @@ multiply:
       subcat:
       - vtai
       synset: 00643334-v
-    - derivation:
+      undergoer:
+      - 'multiplier%1:23:00::'
+    - by_means_of:
+      - 'multiplication%1:04:00::'
+      derivation:
       - multiplicative%5:00:00:increasing:00
       - 'multiplication%1:22:00::'
       - 'multiplication%1:04:00::'
+      event:
+      - 'multiplication%1:22:00::'
       id: 'multiply%2:30:00::'
       sent:
       - They multiply their earnings this year
@@ -60930,11 +62130,15 @@ multiply:
       synset: 00248588-v
     - derivation:
       - 'multiplication%1:04:01::'
+      event:
+      - 'multiplication%1:04:01::'
       id: 'multiply%2:29:00::'
       subcat:
       - vii
       synset: 00056076-v
     - derivation:
+      - 'multiplication%1:04:01::'
+      event:
       - 'multiplication%1:04:01::'
       id: 'multiply%2:29:01::'
       subcat:
@@ -61114,7 +62318,9 @@ mumble:
     pronunciation:
     - value: ˈmʌmbəl
     sense:
-    - derivation:
+    - agent:
+      - 'mumbler%1:18:00::'
+      derivation:
       - 'mumbler%1:18:00::'
       - 'mumbling%1:10:00::'
       - 'mumble%1:10:00::'
@@ -61216,14 +62422,22 @@ mummify:
     sense:
     - derivation:
       - 'mummification%1:26:00::'
+      event:
+      - 'mummification%1:26:00::'
       id: 'mummify%2:42:00::'
+      state:
+      - 'mummification%1:26:00::'
       subcat:
       - vtai
       synset: 02686168-v
     - derivation:
       - 'mummification%1:04:00::'
       - 'mummy%1:08:00::'
+      event:
+      - 'mummification%1:04:00::'
       id: 'mummify%2:40:00::'
+      result:
+      - 'mummy%1:08:00::'
       subcat:
       - vtaa
       - vtai
@@ -61231,6 +62445,8 @@ mummify:
     - derivation:
       - 'mummy%1:08:00::'
       id: 'mummify%2:30:00::'
+      result:
+      - 'mummy%1:08:00::'
       subcat:
       - vii
       synset: 00243091-v
@@ -61282,9 +62498,13 @@ munch:
     - value: mʌntʃ
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'muncher%1:18:00::'
+      derivation:
       - 'munch%1:04:00::'
       - 'muncher%1:18:00::'
+      event:
+      - 'munch%1:04:00::'
       id: 'munch%2:34:00::'
       subcat:
       - vtai
@@ -61480,6 +62700,8 @@ munition:
       - vtaa
       - vtai
       synset: 02339752-v
+      uses:
+      - 'munition%1:06:00::'
 munitions industry:
   n:
     sense:
@@ -61582,9 +62804,13 @@ murder:
     - value: ˈmɝ.dɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'murderer%1:18:00::'
+      derivation:
       - 'murder%1:04:00::'
       - 'murderer%1:18:00::'
+      event:
+      - 'murder%1:04:00::'
       id: 'murder%2:41:00::'
       sent:
       - They want to murder the prisoners
@@ -61737,6 +62963,8 @@ murk:
     sense:
     - derivation:
       - 'murk%1:26:00::'
+      event:
+      - 'murk%1:26:00::'
       id: 'murk%2:30:00::'
       subcat:
       - vtai
@@ -61813,6 +63041,9 @@ murmur:
       - 'murmuration%1:11:00::'
       - 'murmuring%1:11:00::'
       - 'murmurer%1:18:00::'
+      event:
+      - 'murmuration%1:11:00::'
+      - 'murmur%1:11:00::'
       id: 'murmur%2:32:00::'
       sent:
       - Sam and Sue murmur
@@ -61825,6 +63056,8 @@ murmur:
       - 'murmur%1:10:00::'
       - 'murmuring%1:10:00::'
       - 'murmurer%1:18:00::'
+      event:
+      - 'murmur%1:10:00::'
       id: 'murmur%2:32:01::'
       subcat:
       - via
@@ -61979,7 +63212,9 @@ muscle:
     pronunciation:
     - value: ˈmʌ.sl̩
     sense:
-    - derivation:
+    - by_means_of:
+      - 'muscle%1:07:00::'
+      derivation:
       - 'muscle%1:07:00::'
       id: 'muscle%2:38:00::'
       subcat:
@@ -62425,7 +63660,9 @@ muse:
       synset: 05843486-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'muser%1:18:00::'
+      derivation:
       - 'muse%1:09:00::'
       - 'muser%1:18:00::'
       - 'musing%1:09:00::'
@@ -62485,13 +63722,17 @@ mush:
     - value: mʌʃ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'musher%1:18:00::'
+      derivation:
       - 'musher%1:18:00::'
       id: 'mush%2:38:01::'
       subcat:
       - vtai
       synset: 01943537-v
-    - derivation:
+    - agent:
+      - 'musher%1:18:00::'
+      derivation:
       - 'musher%1:18:00::'
       id: 'mush%2:38:00::'
       subcat:
@@ -62551,6 +63792,9 @@ mushroom:
       - via
       - via-pp
       synset: 01385091-v
+      undergoer:
+      - 'mushroom%1:13:00::'
+      - 'mushroom%1:20:00::'
     - id: 'mushroom%2:30:00::'
       subcat:
       - vii
@@ -63268,6 +64512,8 @@ muss:
     - derivation:
       - 'muss%1:26:00::'
       id: 'muss%2:35:00::'
+      state:
+      - 'muss%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -63299,6 +64545,8 @@ mussitate:
     - value: ˈmʌ.sɪ.teɪt
     sense:
     - derivation:
+      - 'mussitation%1:11:00::'
+      event:
       - 'mussitation%1:11:00::'
       id: 'mussitate%2:32:00::'
       subcat:
@@ -63486,6 +64734,9 @@ muster:
     - derivation:
       - 'muster%1:04:00::'
       - 'muster%1:14:00::'
+      event:
+      - 'muster%1:14:00::'
+      - 'muster%1:04:00::'
       id: 'muster%2:32:00::'
       subcat:
       - vtaa
@@ -63668,10 +64919,14 @@ mutate:
       - 'mutation%1:11:00::'
       - 'mutant%1:18:00::'
       - 'mutant%1:05:00::'
+      event:
+      - 'mutation%1:11:00::'
       id: 'mutate%2:30:00::'
       subcat:
       - vii
       synset: 00119681-v
+      undergoer:
+      - 'mutation%1:18:00::'
 mutation:
   n:
     pronunciation:
@@ -63753,6 +65008,8 @@ mute:
     sense:
     - derivation:
       - 'mute%1:06:00::'
+      instrument:
+      - 'mute%1:06:00::'
       id: 'mute%2:39:00::'
       subcat:
       - vtai
@@ -63792,9 +65049,13 @@ muteness:
 mutilate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'mutilator%1:18:00::'
+      derivation:
       - 'mutilation%1:11:00::'
       - 'mutilator%1:18:00::'
+      event:
+      - 'mutilation%1:11:00::'
       id: 'mutilate%2:30:00::'
       subcat:
       - vtai
@@ -63804,9 +65065,13 @@ mutilate:
       subcat:
       - vtai
       synset: 00549830-v
-    - derivation:
+    - agent:
+      - 'mutilator%1:18:00::'
+      derivation:
       - 'mutilation%1:11:00::'
       - 'mutilator%1:18:00::'
+      event:
+      - 'mutilation%1:11:00::'
       id: 'mutilate%2:29:00::'
       subcat:
       - vtaa
@@ -63868,6 +65133,9 @@ mutiny:
     - derivation:
       - 'mutineer%1:18:00::'
       - 'mutiny%1:04:00::'
+      event:
+      - 'mutineer%1:18:00::'
+      - 'mutiny%1:04:00::'
       id: 'mutiny%2:41:00::'
       subcat:
       - via
@@ -63906,10 +65174,14 @@ mutter:
       synset: 07225752-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'mutterer%1:18:00::'
+      derivation:
       - 'mutter%1:11:00::'
       - 'mutterer%1:18:00::'
       - 'muttering%1:11:00::'
+      event:
+      - 'mutter%1:11:00::'
       id: 'mutter%2:32:01::'
       sent:
       - Sam and Sue mutter
@@ -63919,9 +65191,13 @@ mutter:
       - via-that
       - vtai
       synset: 01046405-v
-    - derivation:
+    - agent:
+      - 'mutter%1:10:00::'
+      derivation:
       - 'mutter%1:10:00::'
       - 'muttering%1:10:00::'
+      event:
+      - 'mutter%1:10:00::'
       id: 'mutter%2:32:00::'
       subcat:
       - via
@@ -64159,7 +65435,9 @@ muzzle:
     pronunciation:
     - value: ˈmʌzəl
     sense:
-    - antonym:
+    - agent:
+      - 'muzzler%1:18:00::'
+      antonym:
       - 'unmuzzle%2:40:00::'
       derivation:
       - 'muzzle%1:06:02::'
@@ -64168,7 +65446,11 @@ muzzle:
       subcat:
       - vtai
       synset: 02345893-v
-    - derivation:
+      uses:
+      - 'muzzle%1:06:02::'
+    - by_means_of:
+      - 'muzzle%1:06:00::'
+      derivation:
       - 'muzzle%1:06:00::'
       id: 'muzzle%2:39:00::'
       sent:
@@ -64183,6 +65465,8 @@ muzzle:
       subcat:
       - vtai
       synset: 01287286-v
+      uses:
+      - 'muzzle%1:06:00::'
 muzzle loader:
   n:
     sense:
@@ -65239,7 +66523,12 @@ mystify:
     form:
     - mystified
     sense:
-    - derivation:
+    - by_means_of:
+      - 'mystifier%1:10:00::'
+      - 'mystification%1:06:00::'
+      - 'mystification%1:04:00::'
+      - 'mystery%1:09:00::'
+      derivation:
       - 'mystification%1:06:00::'
       - 'mystification%1:04:00::'
       - 'mystifier%1:10:00::'
@@ -65254,12 +66543,20 @@ mystify:
       synset: 00624056-v
     - antonym:
       - 'demystify%2:30:00::'
+      by_means_of:
+      - 'mystification%1:06:00::'
+      - 'mystification%1:04:00::'
       derivation:
       - 'mystification%1:09:00::'
       - 'mystification%1:06:00::'
       - 'mystification%1:04:00::'
       - 'mystery%1:09:00::'
+      event:
+      - 'mystification%1:04:00::'
       id: 'mystify%2:30:00::'
+      result:
+      - 'mystification%1:09:00::'
+      - 'mystery%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -65388,6 +66685,8 @@ mythologise:
       synset: 01638276-v
     - derivation:
       - 'mythologisation%1:10:00::'
+      event:
+      - 'mythologisation%1:10:00::'
       id: 'mythologise%2:30:00::'
       subcat:
       - vtai
@@ -65424,6 +66723,8 @@ mythologize:
       - 'mythology%1:09:00::'
       - 'mythology%1:14:00::'
       - 'myth%1:10:00::'
+      event:
+      - 'mythologization%1:10:00::'
       id: 'mythologize%2:30:00::'
       subcat:
       - vtai

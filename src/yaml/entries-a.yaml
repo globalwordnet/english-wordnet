@@ -8706,12 +8706,16 @@ Americanise:
     sense:
     - derivation:
       - 'americanisation%1:22:00::'
+      event:
+      - 'americanisation%1:22:00::'
       id: 'americanise%2:30:01::'
       subcat:
       - vtaa
       - vtai
       synset: 00411331-v
     - derivation:
+      - 'americanisation%1:22:00::'
+      event:
       - 'americanisation%1:22:00::'
       id: 'americanise%2:30:00::'
       subcat:
@@ -8742,6 +8746,8 @@ Americanize:
       - 'american%3:01:01::'
       - 'americanization%1:22:00::'
       - 'american%1:18:00::'
+      event:
+      - 'americanization%1:22:00::'
       id: 'americanize%2:30:01::'
       subcat:
       - vtaa
@@ -8749,6 +8755,8 @@ Americanize:
       synset: 00411331-v
     - derivation:
       - 'american%3:01:01::'
+      - 'americanization%1:22:00::'
+      event:
       - 'americanization%1:22:00::'
       id: 'americanize%2:30:00::'
       subcat:
@@ -19001,12 +19009,16 @@ abandon:
     sense:
     - derivation:
       - 'abandonment%1:04:02::'
+      event:
+      - 'abandonment%1:04:02::'
       id: 'abandon%2:40:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02232813-v
     - derivation:
+      - 'abandonment%1:04:03::'
+      event:
       - 'abandonment%1:04:03::'
       id: 'abandon%2:40:01::'
       subcat:
@@ -19020,11 +19032,15 @@ abandon:
       synset: 02080923-v
     - derivation:
       - 'abandonment%1:04:03::'
+      event:
+      - 'abandonment%1:04:03::'
       id: 'abandon%2:31:01::'
       subcat:
       - vtai
       synset: 00614907-v
     - derivation:
+      - 'abandonment%1:04:01::'
+      event:
       - 'abandonment%1:04:01::'
       id: 'abandon%2:31:00::'
       subcat:
@@ -19096,6 +19112,8 @@ abase:
     - derivation:
       - 'abasement%1:04:00::'
       id: 'abase%2:37:00::'
+      state:
+      - 'abasement%1:04:00::'
       subcat:
       - vtaa
       - vtia
@@ -19125,6 +19143,8 @@ abash:
       sent:
       - The bad news will abash him
       - The good news will abash her
+      state:
+      - 'abashment%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -19200,6 +19220,8 @@ abate:
       - vtii
       synset: 00246175-v
     - derivation:
+      - 'abatement%1:11:01::'
+      event:
       - 'abatement%1:11:01::'
       id: 'abate%2:30:00::'
       subcat:
@@ -19373,17 +19395,23 @@ abbreviate:
     pronunciation:
     - value: ə.ˈbɹiː.vi.eɪt
     sense:
-    - derivation:
+    - agent:
+      - 'abbreviator%1:18:00::'
+      derivation:
       - 'abbreviator%1:18:00::'
       id: 'abbreviate%2:30:01::'
       subcat:
       - vtai
       - vtii
       synset: 00244786-v
-    - derivation:
+    - agent:
+      - 'abbreviator%1:18:00::'
+      derivation:
       - 'abbreviation%1:10:00::'
       - 'abbreviator%1:18:00::'
       id: 'abbreviate%2:30:00::'
+      result:
+      - 'abbreviation%1:10:00::'
       subcat:
       - vtai
       synset: 00244635-v
@@ -19450,11 +19478,16 @@ abdicate:
     - value: ˈæb.dɪˌkeɪt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'abdicator%1:18:00::'
+      derivation:
       - abdicable%5:00:00:unwanted:00
       - 'abdication%1:10:01::'
       - 'abdication%1:10:00::'
       - 'abdicator%1:18:00::'
+      event:
+      - 'abdication%1:10:01::'
+      - 'abdication%1:10:00::'
       id: 'abdicate%2:41:00::'
       subcat:
       - via
@@ -19699,18 +19732,26 @@ abduct:
     - value: æbˈdʌkt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'abductor%1:18:00::'
+      derivation:
       - 'abduction%1:04:00::'
       - 'abductor%1:18:00::'
+      event:
+      - 'abduction%1:04:00::'
       id: 'abduct%2:35:02::'
       subcat:
       - vtaa
       synset: 01473673-v
     - antonym:
       - 'adduct%2:35:00::'
+      body_part:
+      - 'abductor%1:08:00::'
       derivation:
       - 'abduction%1:04:01::'
       - 'abductor%1:08:00::'
+      event:
+      - 'abduction%1:04:01::'
       id: 'abduct%2:35:00::'
       subcat:
       - vii
@@ -19886,7 +19927,11 @@ aberrate:
       - 'aberration%1:26:00::'
       - 'aberrant%1:18:00::'
       - 'aberrance%1:26:00::'
+      event:
+      - 'aberrance%1:26:00::'
       id: 'aberrate%2:42:01::'
+      state:
+      - 'aberration%1:26:01::'
       subcat:
       - via
       synset: 02668154-v
@@ -19894,7 +19939,12 @@ aberrate:
       - 'aberration%1:26:01::'
       - 'aberration%1:19:00::'
       - 'aberrance%1:26:00::'
+      event:
+      - 'aberration%1:19:00::'
+      - 'aberrance%1:26:00::'
       id: 'aberrate%2:42:00::'
+      state:
+      - 'aberration%1:26:01::'
       subcat:
       - vii
       synset: 02667847-v
@@ -19925,11 +19975,16 @@ abet:
     pronunciation:
     - value: əˈbɛt
     sense:
-    - derivation:
+    - agent:
+      - 'abettor%1:18:00::'
+      - 'abetter%1:18:00::'
+      derivation:
       - 'abetment%1:10:00::'
       - 'abettal%1:10:00::'
       - 'abettor%1:18:00::'
       - 'abetter%1:18:00::'
+      event:
+      - 'abetment%1:10:00::'
       id: 'abet%2:41:00::'
       subcat:
       - vtaa
@@ -20038,6 +20093,8 @@ abhor:
       - They abhor moving
       - Sam and Sue abhor the movie
       - Sam cannot abhor Sue
+      state:
+      - 'abhorrence%1:12:00::'
       subcat:
       - vtaa
       - vtai
@@ -20108,11 +20165,15 @@ abide:
     sense:
     - derivation:
       - 'abidance%1:04:01::'
+      event:
+      - 'abidance%1:04:01::'
       id: 'abide%2:42:01::'
       subcat:
       - via-pp
       synset: 02643286-v
     - derivation:
+      - 'abidance%1:04:00::'
+      event:
       - 'abidance%1:04:00::'
       id: 'abide%2:31:00::'
       sent:
@@ -20282,6 +20343,8 @@ abjure:
     - derivation:
       - 'abjuration%1:10:00::'
       - 'abjurer%1:18:00::'
+      event:
+      - 'abjuration%1:10:00::'
       id: 'abjure%2:32:00::'
       subcat:
       - via
@@ -20325,11 +20388,15 @@ ablate:
     - derivation:
       - ablative%5:00:00:subtractive:00
       - 'ablation%1:22:00::'
+      event:
+      - 'ablation%1:22:00::'
       id: 'ablate%2:30:00::'
       subcat:
       - vtii
       synset: 00276265-v
     - derivation:
+      - 'ablation%1:04:00::'
+      event:
       - 'ablation%1:04:00::'
       id: 'ablate%2:30:10::'
       subcat:
@@ -20539,20 +20606,28 @@ abnegate:
     sense:
     - derivation:
       - 'abnegation%1:04:00::'
+      event:
+      - 'abnegation%1:04:00::'
       id: 'abnegate%2:40:00::'
       subcat:
       - ditransitive
       synset: 02217856-v
-    - derivation:
+    - agent:
+      - 'abnegator%1:18:00::'
+      derivation:
       - 'abnegator%1:18:00::'
       id: 'abnegate%2:33:00::'
       subcat:
       - vtai
       - vtai-to
       synset: 01118693-v
-    - derivation:
+    - agent:
+      - 'abnegator%1:18:00::'
+      derivation:
       - 'abnegation%1:10:00::'
       - 'abnegator%1:18:00::'
+      event:
+      - 'abnegation%1:10:00::'
       id: 'abnegate%2:32:00::'
       subcat:
       - vtaa
@@ -20702,6 +20777,9 @@ abolish:
       - abolishable%5:00:00:destructible:00
       - 'abolishment%1:04:00::'
       - 'abolition%1:04:00::'
+      event:
+      - 'abolition%1:04:00::'
+      - 'abolishment%1:04:00::'
       id: 'abolish%2:41:00::'
       subcat:
       - vtai
@@ -20834,13 +20912,19 @@ abominate:
     - value: əˈbɒm.əˌnəɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'abominator%1:18:00::'
+      derivation:
       - abominable%5:00:00:hateful:00
       - 'abomination%1:18:00::'
       - 'abomination%1:12:00::'
       - 'abomination%1:04:00::'
       - 'abominator%1:18:00::'
+      event:
+      - 'abomination%1:04:00::'
       id: 'abominate%2:37:00::'
+      result:
+      - 'abomination%1:12:00::'
       sent:
       - They abominate moving
       - Sam and Sue abominate the movie
@@ -20849,6 +20933,8 @@ abominate:
       - vtaa
       - vtai
       synset: 01778347-v
+      undergoer:
+      - 'abomination%1:18:00::'
 abomination:
   n:
     pronunciation:
@@ -20942,6 +21028,8 @@ abort:
     - derivation:
       - abortive%5:00:00:unfruitful:00
       - 'abortion%1:11:00::'
+      event:
+      - 'abortion%1:11:00::'
       id: 'abort%2:30:00::'
       subcat:
       - vtai
@@ -20951,6 +21039,8 @@ abort:
       - vii
       synset: 00059834-v
     - derivation:
+      - 'abortion%1:04:00::'
+      event:
       - 'abortion%1:04:00::'
       id: 'abort%2:29:00::'
       subcat:
@@ -21084,6 +21174,8 @@ abound:
       - 'abundant%3:00:00::'
       - 'abundance%1:07:00::'
       id: 'abound%2:42:00::'
+      property:
+      - 'abundance%1:07:00::'
       subcat:
       - vii
       - vii-pp
@@ -21169,12 +21261,16 @@ about-face:
     sense:
     - derivation:
       - 'about-face%1:04:02::'
+      event:
+      - 'about-face%1:04:02::'
       id: 'about-face%2:38:00::'
       subcat:
       - via
       - vii
       synset: 01913035-v
     - derivation:
+      - 'about-face%1:04:01::'
+      event:
       - 'about-face%1:04:01::'
       id: 'about-face%2:31:00::'
       subcat:
@@ -21286,7 +21382,9 @@ abradant:
 abrade:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'abrader%1:06:00::'
+      derivation:
       - abrasive%5:00:00:rough:00
       - 'abrasion%1:26:00::'
       - 'abrasion%1:22:00::'
@@ -21294,11 +21392,18 @@ abrade:
       - 'abradant%1:27:00::'
       - 'abradant%1:06:00::'
       - 'abrader%1:06:00::'
+      event:
+      - 'abrasion%1:22:00::'
+      - 'abrasion%1:19:00::'
       id: 'abrade%2:35:00::'
+      location:
+      - 'abrasion%1:26:00::'
       subcat:
       - vtii
       synset: 01256577-v
-    - derivation:
+    - agent:
+      - 'abrader%1:06:00::'
+      derivation:
       - abrasive%5:00:00:rough:00
       - 'abrader%1:06:00::'
       id: 'abrade%2:35:01::'
@@ -21426,6 +21531,8 @@ abreact:
     sense:
     - derivation:
       - 'abreaction%1:04:00::'
+      event:
+      - 'abreaction%1:04:00::'
       id: 'abreact%2:37:00::'
       subcat:
       - via
@@ -21462,10 +21569,14 @@ abridge:
     - value: əˈbɹɪd͡ʒ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'abridger%1:18:00::'
+      derivation:
       - 'abridgement%1:10:00::'
       - 'abridger%1:18:00::'
       id: 'abridge%2:30:00::'
+      result:
+      - 'abridgement%1:10:00::'
       sent:
       - They won't abridge the story
       subcat:
@@ -21555,8 +21666,12 @@ abrogate:
     - value: ˈæb.ɹəˌɡət
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'abrogator%1:18:00::'
+      derivation:
+      - 'abrogator%1:18:00::'
+      - 'abrogation%1:04:00::'
+      event:
       - 'abrogation%1:04:00::'
       id: 'abrogate%2:41:00::'
       subcat:
@@ -21690,6 +21805,8 @@ abscise:
       synset: 01257919-v
     - derivation:
       - 'abscission%1:04:00::'
+      event:
+      - 'abscission%1:04:00::'
       id: 'abscise%2:35:00::'
       subcat:
       - vtai
@@ -21724,9 +21841,13 @@ abscond:
     - value: əbˈskɑnd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'absconder%1:18:00::'
+      derivation:
       - 'abscondment%1:04:00::'
       - 'absconder%1:18:00::'
+      event:
+      - 'abscondment%1:04:00::'
       id: 'abscond%2:38:00::'
       subcat:
       - via
@@ -21840,8 +21961,12 @@ absent:
     - value: æbˈsɛnt
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'absentee%1:18:00::'
+      derivation:
+      - 'absentee%1:18:00::'
+      - 'absence%1:04:00::'
+      event:
       - 'absence%1:04:00::'
       id: 'absent%2:30:00::'
       subcat:
@@ -22238,12 +22363,18 @@ absolve:
     - value: æbˈzɑlv
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'absolver%1:18:00::'
+      derivation:
       - absolvitory%5:00:00:exculpatory:00
       - 'absolution%1:26:00::'
       - 'absolution%1:04:00::'
       - 'absolver%1:18:00::'
+      event:
+      - 'absolution%1:04:00::'
       id: 'absolve%2:32:02::'
+      state:
+      - 'absolution%1:26:00::'
       subcat:
       - vtaa
       synset: 00905665-v
@@ -22289,18 +22420,24 @@ absorb:
     - value: æbˈsɔɹb
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'absorber%1:27:00::'
+      derivation:
       - 'absorptive%3:00:00::'
       - 'absorbent%3:00:00::'
       - 'absorption%1:22:00::'
       - 'absorbate%1:27:00::'
       - 'absorbent%1:27:00::'
       - 'absorber%1:27:00::'
+      event:
+      - 'absorption%1:22:00::'
       id: 'absorb%2:35:01::'
       subcat:
       - vii
       synset: 01542421-v
     - derivation:
+      - 'absorption%1:22:03::'
+      event:
       - 'absorption%1:22:03::'
       id: 'absorb%2:31:00::'
       subcat:
@@ -22311,9 +22448,13 @@ absorb:
       - vtai
       - vtii
       synset: 02221342-v
-    - derivation:
+    - agent:
+      - 'absorber%1:27:00::'
+      derivation:
       - 'absorption%1:22:00::'
       - 'absorber%1:27:00::'
+      event:
+      - 'absorption%1:22:00::'
       id: 'absorb%2:35:00::'
       subcat:
       - vtii
@@ -22329,6 +22470,8 @@ absorb:
       - 'absorbent%3:00:00::'
       - 'absorbable%3:00:00::'
       - 'absorption%1:22:02::'
+      event:
+      - 'absorption%1:22:02::'
       id: 'absorb%2:43:00::'
       subcat:
       - vtai
@@ -22337,6 +22480,8 @@ absorb:
     - derivation:
       - 'absorption%1:09:01::'
       id: 'absorb%2:31:06::'
+      result:
+      - 'absorption%1:09:01::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -22352,6 +22497,8 @@ absorb:
       id: 'absorb%2:31:03::'
       sent:
       - The performance is likely to absorb Sue
+      state:
+      - 'absorption%1:09:00::'
       subcat:
       - vtaa
       - vtia
@@ -22604,7 +22751,10 @@ abstain:
       subcat:
       - via
       synset: 02468849-v
-    - antonym:
+    - agent:
+      - 'abstainer%1:18:00::'
+      - 'abstainer%1:18:01::'
+      antonym:
       - 'consume%2:34:00::'
       derivation:
       - abstinent%5:00:00:abstemious:00
@@ -22614,6 +22764,9 @@ abstain:
       - 'abstainer%1:18:01::'
       - 'abstinence%1:07:00::'
       id: 'abstain%2:34:00::'
+      property:
+      - 'abstention%1:07:00::'
+      - 'abstinence%1:07:00::'
       subcat:
       - via
       - via-ger
@@ -22775,10 +22928,16 @@ abstract:
       - 'abstraction%1:03:00::'
       - 'abstraction%1:09:02::'
       - 'abstract%1:09:00::'
+      event:
+      - 'abstraction%1:09:02::'
       id: 'abstract%2:31:00::'
       subcat:
       - vtai
       synset: 00694095-v
+      undergoer:
+      - 'abstraction%1:09:00::'
+      - 'abstraction%1:03:00::'
+      - 'abstract%1:09:00::'
     - id: 'abstract%2:40:00::'
       subcat:
       - vtai
@@ -22791,7 +22950,12 @@ abstract:
       subcat:
       - via-pp
       synset: 00736610-v
-    - derivation:
+      undergoer:
+      - 'abstract%1:09:00::'
+    - agent:
+      - 'abstractor%1:18:00::'
+      - 'abstracter%1:18:00::'
+      derivation:
       - 'abstractor%1:18:00::'
       - 'abstract%1:10:00::'
       - 'abstracter%1:18:00::'
@@ -22800,6 +22964,8 @@ abstract:
       - vtai
       - vtii
       synset: 01010315-v
+      undergoer:
+      - 'abstract%1:10:00::'
 abstract art:
   n:
     pronunciation:
@@ -23210,10 +23376,14 @@ abuse:
     - value: əˈbjuz
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'abuser%1:18:00::'
+      derivation:
       - abusive%5:00:00:harmful:00
       - 'abuse%1:04:02::'
       - 'abuser%1:18:00::'
+      event:
+      - 'abuse%1:04:02::'
       id: 'abuse%2:41:00::'
       sent:
       - They want to abuse the prisoners
@@ -23221,13 +23391,19 @@ abuse:
       - vtaa
       - vtai
       synset: 02522260-v
-    - derivation:
+    - by_means_of:
+      - 'abuse%1:04:01::'
+      derivation:
       - 'abuse%1:04:01::'
       id: 'abuse%2:30:00::'
       subcat:
       - vtai
       synset: 00203575-v
-    - derivation:
+    - agent:
+      - 'abuser%1:18:00::'
+      by_means_of:
+      - 'abuse%1:10:00::'
+      derivation:
       - abusive%5:00:00:offensive:02
       - 'abuse%1:10:00::'
       - 'abuser%1:18:00::'
@@ -23297,10 +23473,14 @@ abut:
     - abutted
     - abutting
     sense:
-    - derivation:
+    - agent:
+      - 'abutter%1:18:00::'
+      derivation:
       - 'abutment%1:15:00::'
       - 'abutter%1:18:00::'
       id: 'abut%2:35:00::'
+      location:
+      - 'abutment%1:15:00::'
       subcat:
       - vtii
       synset: 01469607-v
@@ -24042,11 +24222,15 @@ accede:
       synset: 00879879-v
     - derivation:
       - 'accession%1:04:03::'
+      event:
+      - 'accession%1:04:03::'
       id: 'accede%2:41:00::'
       subcat:
       - via
       synset: 02386539-v
     - derivation:
+      - 'accession%1:10:02::'
+      event:
       - 'accession%1:10:02::'
       id: 'accede%2:32:01::'
       subcat:
@@ -24109,6 +24293,12 @@ accelerate:
       - accelerative%5:00:00:increasing:00
       - 'acceleration%1:07:00::'
       - 'acceleration%1:04:00::'
+      - 'accelerator%1:06:02::'
+      - 'accelerator%1:06:00::'
+      event:
+      - 'acceleration%1:07:00::'
+      - 'acceleration%1:04:00::'
+      instrument:
       - 'accelerator%1:06:02::'
       - 'accelerator%1:06:00::'
       id: 'accelerate%2:30:01::'
@@ -24244,6 +24434,8 @@ accent:
     - derivation:
       - 'accent%1:26:00::'
       id: 'accent%2:32:01::'
+      result:
+      - 'accent%1:26:00::'
       subcat:
       - via-that
       - vtai
@@ -24252,6 +24444,8 @@ accent:
     - derivation:
       - 'accent%1:10:00::'
       id: 'accent%2:32:00::'
+      result:
+      - 'accent%1:10:00::'
       subcat:
       - vtai
       synset: 00985365-v
@@ -24315,6 +24509,8 @@ accentuate:
     - derivation:
       - 'accent%1:26:00::'
       - 'accentuation%1:04:00::'
+      event:
+      - 'accentuation%1:04:00::'
       id: 'accentuate%2:32:00::'
       subcat:
       - via-that
@@ -24326,6 +24522,8 @@ accentuate:
       - 'accent%1:10:02::'
       - 'accent%1:10:01::'
       - 'accent%1:10:00::'
+      - 'accentuation%1:10:00::'
+      event:
       - 'accentuation%1:10:00::'
       id: 'accentuate%2:32:01::'
       subcat:
@@ -24360,7 +24558,12 @@ accept:
       - 'acceptation%1:26:00::'
       - 'acceptation%1:10:00::'
       - 'acceptance%1:09:00::'
+      event:
+      - 'acceptation%1:26:00::'
+      - 'acceptation%1:10:00::'
       id: 'accept%2:31:00::'
+      result:
+      - 'acceptance%1:09:00::'
       subcat:
       - via-that
       - vtai
@@ -24368,6 +24571,9 @@ accept:
     - antonym:
       - 'refuse%2:40:00::'
       derivation:
+      - 'acceptation%1:04:00::'
+      - 'acceptance%1:04:03::'
+      event:
       - 'acceptation%1:04:00::'
       - 'acceptance%1:04:03::'
       id: 'accept%2:40:00::'
@@ -24379,6 +24585,9 @@ accept:
     - antonym:
       - 'refuse%2:32:00::'
       derivation:
+      - 'acceptation%1:26:00::'
+      - 'acceptation%1:04:00::'
+      event:
       - 'acceptation%1:26:00::'
       - 'acceptation%1:04:00::'
       id: 'accept%2:32:00::'
@@ -24393,7 +24602,13 @@ accept:
       - 'acceptation%1:04:00::'
       - 'acceptance%1:26:00::'
       - 'acceptance%1:04:00::'
+      event:
+      - 'acceptation%1:26:00::'
+      - 'acceptation%1:04:00::'
+      - 'acceptance%1:04:00::'
       id: 'accept%2:31:01::'
+      result:
+      - 'acceptance%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -24412,6 +24627,8 @@ accept:
     - derivation:
       - 'acceptance%1:07:00::'
       id: 'accept%2:31:03::'
+      property:
+      - 'acceptance%1:07:00::'
       subcat:
       - vtai
       synset: 00670723-v
@@ -24420,6 +24637,8 @@ accept:
       - vtii
       synset: 02747421-v
     - derivation:
+      - 'acceptation%1:26:00::'
+      event:
       - 'acceptation%1:26:00::'
       id: 'accept%2:40:07::'
       subcat:
@@ -24663,12 +24882,17 @@ access:
     sense:
     - derivation:
       - 'access%1:06:01::'
+      event:
+      - 'access%1:06:01::'
       id: 'access%2:40:00::'
       subcat:
       - vtai
       synset: 02253616-v
     - derivation:
       - 'accessible%3:00:00::'
+      - 'accession%1:04:03::'
+      - 'access%1:04:00::'
+      event:
       - 'accession%1:04:03::'
       - 'access%1:04:00::'
       id: 'access%2:38:00::'
@@ -24968,6 +25192,9 @@ acclaim:
     - derivation:
       - 'acclamation%1:10:00::'
       - 'acclaim%1:10:00::'
+      event:
+      - 'acclamation%1:10:00::'
+      - 'acclaim%1:10:00::'
       id: 'acclaim%2:32:00::'
       sent:
       - Sam and Sue acclaim the movie
@@ -24976,6 +25203,8 @@ acclaim:
       - vtai
       synset: 00863389-v
     - derivation:
+      - 'acclaim%1:10:00::'
+      event:
       - 'acclaim%1:10:00::'
       id: 'acclaim%2:32:01::'
       subcat:
@@ -25003,6 +25232,8 @@ acclimate:
     sense:
     - derivation:
       - 'climate%1:26:00::'
+      - 'acclimation%1:22:00::'
+      event:
       - 'acclimation%1:22:00::'
       id: 'acclimate%2:30:00::'
       subcat:
@@ -25032,6 +25263,8 @@ acclimatise:
     - derivation:
       - 'acclimatisation%1:22:00::'
       - 'climate%1:26:00::'
+      event:
+      - 'acclimatisation%1:22:00::'
       id: 'acclimatise%2:30:00::'
       subcat:
       - via
@@ -25055,6 +25288,8 @@ acclimatize:
     - derivation:
       - 'acclimatization%1:22:00::'
       - 'climate%1:26:00::'
+      event:
+      - 'acclimatization%1:22:00::'
       id: 'acclimatize%2:30:00::'
       subcat:
       - via
@@ -25096,11 +25331,16 @@ accommodate:
     - derivation:
       - accommodative%5:00:00:noncompetitive:00
       - 'accommodation%1:11:00::'
+      event:
+      - 'accommodation%1:11:00::'
       id: 'accommodate%2:42:00::'
       subcat:
       - vtia
       synset: 02708690-v
     - derivation:
+      - 'accommodation%1:11:00::'
+      - 'accommodation%1:09:00::'
+      event:
       - 'accommodation%1:11:00::'
       - 'accommodation%1:09:00::'
       id: 'accommodate%2:30:00::'
@@ -25109,6 +25349,8 @@ accommodate:
       - vtii
       synset: 00300361-v
     - derivation:
+      - 'accommodation%1:04:00::'
+      event:
       - 'accommodation%1:04:00::'
       id: 'accommodate%2:34:00::'
       subcat:
@@ -25122,20 +25364,32 @@ accommodate:
     - derivation:
       - 'accommodation%1:06:00::'
       - 'accommodation%1:04:00::'
+      event:
+      - 'accommodation%1:04:00::'
       id: 'accommodate%2:42:01::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 02657519-v
-    - derivation:
+      uses:
+      - 'accommodation%1:06:00::'
+    - agent:
+      - 'accommodator%1:18:00::'
+      derivation:
       - 'accommodative%3:00:00::'
       - 'accommodation%1:04:00::'
       - 'accommodator%1:18:00::'
+      event:
+      - 'accommodation%1:04:00::'
       id: 'accommodate%2:32:00::'
       subcat:
       - vtaa
       synset: 00887446-v
     - derivation:
+      - 'accommodation%1:11:00::'
+      - 'accommodation%1:10:02::'
+      - 'accommodation%1:09:00::'
+      event:
       - 'accommodation%1:11:00::'
       - 'accommodation%1:10:02::'
       - 'accommodation%1:09:00::'
@@ -25312,12 +25566,16 @@ accompany:
     sense:
     - derivation:
       - 'accompaniment%1:11:00::'
+      event:
+      - 'accompaniment%1:11:00::'
       id: 'accompany%2:42:00::'
       subcat:
       - vtia
       - vtii
       synset: 02722040-v
     - derivation:
+      - 'accompaniment%1:04:00::'
+      event:
       - 'accompaniment%1:04:00::'
       id: 'accompany%2:38:00::'
       subcat:
@@ -25331,11 +25589,15 @@ accompany:
       - 'accompanist%1:18:00::'
       - 'accompaniment%1:10:00::'
       id: 'accompany%2:36:00::'
+      result:
+      - 'accompaniment%1:10:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01732234-v
     - derivation:
+      - 'accompaniment%1:04:00::'
+      event:
       - 'accompaniment%1:04:00::'
       id: 'accompany%2:42:01::'
       subcat:
@@ -25383,11 +25645,15 @@ accomplish:
     - derivation:
       - accomplishable%5:00:00:possible:00
       - 'accomplishment%1:04:00::'
+      event:
+      - 'accomplishment%1:04:00::'
       id: 'accomplish%2:36:00::'
       subcat:
       - vtai
       synset: 01644397-v
     - derivation:
+      - 'accomplishment%1:04:00::'
+      event:
       - 'accomplishment%1:04:00::'
       id: 'accomplish%2:41:00::'
       subcat:
@@ -25467,6 +25733,8 @@ accord:
     - derivation:
       - 'accordant%3:00:00::'
       - 'accord%1:07:00::'
+      event:
+      - 'accord%1:07:00::'
       id: 'accord%2:42:00::'
       subcat:
       - via
@@ -25474,6 +25742,8 @@ accord:
       - vii-pp
       synset: 02705946-v
     - derivation:
+      - 'accordance%1:04:00::'
+      event:
       - 'accordance%1:04:00::'
       id: 'accord%2:40:00::'
       subcat:
@@ -25652,12 +25922,16 @@ account:
       - 'accounting%1:09:00::'
       - 'accounting%1:04:00::'
       id: 'account%2:40:00::'
+      result:
+      - 'account%1:10:02::'
       subcat:
       - via-pp
       synset: 02270039-v
     - derivation:
       - 'account%1:10:04::'
       id: 'account%2:32:02::'
+      result:
+      - 'account%1:10:04::'
       subcat:
       - via
       - via-pp
@@ -25670,6 +25944,8 @@ account:
       - accountable%5:00:00:responsible:00
       - 'account%1:10:04::'
       id: 'account%2:32:00::'
+      result:
+      - 'account%1:10:04::'
       subcat:
       - vtai
       synset: 00869308-v
@@ -25879,6 +26155,8 @@ accredit:
     sense:
     - derivation:
       - 'accreditation%1:04:00::'
+      event:
+      - 'accreditation%1:04:00::'
       id: 'accredit%2:41:00::'
       subcat:
       - vtaa
@@ -25920,6 +26198,9 @@ accrete:
       synset: 00397231-v
     - derivation:
       - accretive%5:00:00:increasing:00
+      - 'accretion%1:22:02::'
+      - 'accretion%1:22:00::'
+      event:
       - 'accretion%1:22:02::'
       - 'accretion%1:22:00::'
       id: 'accrete%2:30:01::'
@@ -26028,11 +26309,16 @@ accrue:
     - derivation:
       - 'accruement%1:04:00::'
       - 'accrual%1:04:00::'
+      event:
+      - 'accrual%1:04:00::'
+      - 'accruement%1:04:00::'
       id: 'accrue%2:30:00::'
       subcat:
       - vii
       synset: 00155677-v
     - derivation:
+      - 'accrual%1:04:00::'
+      event:
       - 'accrual%1:04:00::'
       id: 'accrue%2:40:10::'
       subcat:
@@ -26065,6 +26351,8 @@ acculturate:
       - 'culture%1:14:00::'
       - 'culture%1:09:01::'
       - 'culture%1:09:00::'
+      - 'acculturation%1:04:00::'
+      event:
       - 'acculturation%1:04:00::'
       id: 'acculturate%2:30:00::'
       subcat:
@@ -26132,7 +26420,11 @@ accumulate:
       - accumulative%5:00:00:acquisitive:00
       - 'accumulation%1:14:00::'
       - 'accumulation%1:04:00::'
+      event:
+      - 'accumulation%1:04:00::'
       id: 'accumulate%2:40:00::'
+      result:
+      - 'accumulation%1:14:00::'
       sent:
       - They accumulate the money in the closet
       subcat:
@@ -26141,6 +26433,8 @@ accumulate:
     - derivation:
       - accumulative%5:00:00:additive:00
       - accumulative%5:00:00:acquisitive:00
+      - 'accumulation%1:04:00::'
+      event:
       - 'accumulation%1:04:00::'
       id: 'accumulate%2:30:00::'
       sent:
@@ -26371,25 +26665,35 @@ accuse:
     - value: əˈkjuz
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'accuser%1:18:00::'
+      derivation:
       - accusive%5:00:00:inculpatory:00
       - accusative%5:00:00:inculpatory:00
       - accusatory%5:00:00:inculpatory:00
       - 'accusation%1:10:00::'
       - 'accuser%1:18:00::'
       - 'accusal%1:10:00::'
+      event:
+      - 'accusal%1:10:00::'
+      - 'accusation%1:10:00::'
       id: 'accuse%2:32:00::'
       subcat:
       - vtaa
       - vtaa-of
       synset: 00844668-v
-    - derivation:
+    - agent:
+      - 'accuser%1:18:00::'
+      derivation:
       - accusive%5:00:00:inculpatory:00
       - accusative%5:00:00:inculpatory:00
       - accusatory%5:00:00:inculpatory:00
       - 'accusation%1:10:01::'
       - 'accuser%1:18:00::'
       - 'accusal%1:10:00::'
+      event:
+      - 'accusal%1:10:00::'
+      - 'accusation%1:10:01::'
       id: 'accuse%2:32:01::'
       sent:
       - They want to accuse the prisoners
@@ -26488,7 +26792,9 @@ ace:
       synset: 00569738-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'ace%1:18:00::'
+      derivation:
       - 'ace%1:18:00::'
       id: 'ace%2:41:00::'
       subcat:
@@ -26503,6 +26809,8 @@ ace:
       - vtai
       synset: 01087541-v
     - derivation:
+      - 'ace%1:04:00::'
+      event:
       - 'ace%1:04:00::'
       id: 'ace%2:33:01::'
       subcat:
@@ -26957,12 +27265,16 @@ acetylate:
     - derivation:
       - 'acetyl%1:27:00::'
       - 'acetylation%1:22:00::'
+      event:
+      - 'acetylation%1:22:00::'
       id: 'acetylate%2:30:00::'
       subcat:
       - vii
       synset: 00525379-v
     - derivation:
       - 'acetyl%1:27:00::'
+      - 'acetylation%1:22:00::'
+      event:
       - 'acetylation%1:22:00::'
       id: 'acetylate%2:30:01::'
       subcat:
@@ -27057,6 +27369,8 @@ ache:
     - derivation:
       - 'ache%1:26:00::'
       - 'aching%1:26:00::'
+      event:
+      - 'ache%1:26:00::'
       id: 'ache%2:39:01::'
       sent:
       - Sam and Sue ache
@@ -27071,6 +27385,8 @@ ache:
       - 'ache%1:26:00::'
       - 'aching%1:26:00::'
       id: 'ache%2:39:00::'
+      result:
+      - 'ache%1:26:00::'
       sent:
       - Did his feet ache?
       subcat:
@@ -27120,10 +27436,14 @@ achieve:
     - value: əˈtʃiːv
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'achiever%1:18:00::'
+      derivation:
       - achievable%5:00:00:possible:00
       - 'achievement%1:04:00::'
       - 'achiever%1:18:00::'
+      event:
+      - 'achievement%1:04:00::'
       id: 'achieve%2:41:00::'
       subcat:
       - via-that
@@ -27554,7 +27874,9 @@ acidify:
     form:
     - acidified
     sense:
-    - derivation:
+    - by_means_of:
+      - 'acid%1:27:00::'
+      derivation:
       - 'acid%1:27:00::'
       id: 'acidify%2:39:00::'
       subcat:
@@ -27564,9 +27886,13 @@ acidify:
       synset: 02201136-v
     - antonym:
       - 'alkalize%2:30:00::'
+      by_means_of:
+      - 'acid%1:27:00::'
       derivation:
       - 'acidification%1:22:00::'
       - 'acid%1:27:00::'
+      event:
+      - 'acidification%1:22:00::'
       id: 'acidify%2:30:00::'
       subcat:
       - vii
@@ -27794,6 +28120,8 @@ acknowledge:
       - acknowledgeable%5:00:00:identifiable:00
       - 'acknowledgment%1:26:00::'
       id: 'acknowledge%2:32:00::'
+      state:
+      - 'acknowledgment%1:26:00::'
       subcat:
       - via-that
       - vtai
@@ -27806,11 +28134,17 @@ acknowledge:
     - derivation:
       - 'acknowledgment%1:10:01::'
       - 'acknowledgment%1:10:00::'
+      event:
+      - 'acknowledgment%1:10:00::'
       id: 'acknowledge%2:32:07::'
+      result:
+      - 'acknowledgment%1:10:01::'
       subcat:
       - vtaa
       synset: 01060995-v
     - derivation:
+      - 'acknowledgment%1:10:00::'
+      event:
       - 'acknowledgment%1:10:00::'
       id: 'acknowledge%2:32:01::'
       subcat:
@@ -27823,7 +28157,11 @@ acknowledge:
     - derivation:
       - 'acknowledgment%1:26:00::'
       - 'acknowledgment%1:10:00::'
+      event:
+      - 'acknowledgment%1:10:00::'
       id: 'acknowledge%2:31:09::'
+      state:
+      - 'acknowledgment%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -28160,6 +28498,8 @@ acquaint:
     - derivation:
       - 'acquaintance%1:09:00::'
       id: 'acquaint%2:32:00::'
+      result:
+      - 'acquaintance%1:09:00::'
       subcat:
       - via-to-inf
       - vtaa
@@ -28217,6 +28557,9 @@ acquiesce:
       - acquiescent%5:00:00:obedient:00
       - 'acquiescence%1:26:00::'
       - 'acquiescence%1:10:00::'
+      event:
+      - 'acquiescence%1:10:00::'
+      - 'acquiescence%1:26:00::'
       id: 'acquiesce%2:32:00::'
       subcat:
       - via
@@ -28263,7 +28606,13 @@ acquire:
     - value: əˈkwaɪə
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'acquirer%1:18:00::'
+      by_means_of:
+      - 'acquirer%1:14:02::'
+      - 'acquirer%1:14:00::'
+      - 'acquirer%1:14:01::'
+      derivation:
       - 'acquisitive%3:00:00::'
       - acquirable%5:00:00:available:00
       - 'acquiring%1:04:00::'
@@ -28273,6 +28622,9 @@ acquire:
       - 'acquirer%1:18:00::'
       - 'acquirer%1:14:01::'
       - 'acquirer%1:14:00::'
+      event:
+      - 'acquisition%1:09:01::'
+      - 'acquisition%1:04:00::'
       id: 'acquire%2:40:00::'
       sent:
       - The children acquire the ball
@@ -28303,6 +28655,8 @@ acquire:
     - derivation:
       - 'acquisition%1:09:01::'
       - 'acquisition%1:09:00::'
+      event:
+      - 'acquisition%1:09:01::'
       id: 'acquire%2:31:00::'
       subcat:
       - via
@@ -28310,6 +28664,8 @@ acquire:
       - via-to-inf
       - vtai
       synset: 00599310-v
+      undergoer:
+      - 'acquisition%1:09:00::'
     - id: 'acquire%2:30:05::'
       subcat:
       - vtai
@@ -28438,6 +28794,8 @@ acquit:
       derivation:
       - 'acquittal%1:04:00::'
       id: 'acquit%2:32:00::'
+      result:
+      - 'acquittal%1:04:00::'
       sent:
       - They want to acquit the prisoners
       subcat:
@@ -28978,7 +29336,12 @@ act:
       - 'action%1:26:00::'
       - 'action%1:04:02::'
       - 'act%1:03:00::'
+      event:
+      - 'action%1:04:02::'
+      - 'act%1:03:00::'
       id: 'act%2:41:00::'
+      state:
+      - 'action%1:26:00::'
       subcat:
       - via
       - via-pp
@@ -28991,24 +29354,32 @@ act:
       - via
       - via-adj
       synset: 00010428-v
-    - derivation:
+    - agent:
+      - 'actor%1:18:00::'
+      derivation:
       - 'actable%3:00:00::'
       - 'actor%1:18:00::'
       - 'act%1:10:02::'
       - 'acting%1:04:00::'
+      event:
+      - 'act%1:10:02::'
       id: 'act%2:36:00::'
       subcat:
       - via
       - vtaa
       - vtai
       synset: 01723161-v
-    - derivation:
+    - agent:
+      - 'actor%1:18:01::'
+      derivation:
       - 'actor%1:18:01::'
       id: 'act%2:33:00::'
       subcat:
       - via-pp
       synset: 01098310-v
     - derivation:
+      - 'act%1:10:03::'
+      event:
       - 'act%1:10:03::'
       id: 'act%2:29:01::'
       subcat:
@@ -29018,6 +29389,8 @@ act:
       - 'actable%3:00:00::'
       - 'act%1:10:02::'
       - 'acting%1:04:00::'
+      event:
+      - 'act%1:10:02::'
       id: 'act%2:42:00::'
       subcat:
       - vii-adj
@@ -29028,23 +29401,23 @@ act:
       - vii-pp
       synset: 02531113-v
     - derivation:
-      - 'action%1:26:00::'
-      id: 'act%2:41:07::'
-      subcat:
-      - via
-      synset: 02424173-v
-    - derivation:
+      - 'act%1:10:03::'
+      event:
       - 'act%1:10:03::'
       id: 'act%2:36:04::'
       subcat:
       - via
       - vtai
       synset: 01725433-v
-    - derivation:
+    - agent:
+      - 'actor%1:18:00::'
+      derivation:
       - 'actable%3:00:00::'
       - 'actor%1:18:00::'
       - 'act%1:10:02::'
       - 'acting%1:04:00::'
+      event:
+      - 'act%1:10:02::'
       id: 'act%2:36:03::'
       subcat:
       - via
@@ -29419,7 +29792,6 @@ action:
     - antonym:
       - 'inaction%1:26:00::'
       derivation:
-      - 'act%2:41:07::'
       - 'act%2:41:00::'
       id: 'action%1:26:00::'
       synset: 14030430-n
@@ -29449,6 +29821,8 @@ action:
     sense:
     - derivation:
       - actionable%5:00:00:unjust:00
+      - 'action%1:04:01::'
+      event:
       - 'action%1:04:01::'
       id: 'action%2:41:00::'
       subcat:
@@ -29515,17 +29889,23 @@ activate:
     pronunciation:
     - value: ˈæktɪˌveɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'activation%1:22:00::'
+      derivation:
       - 'activation%1:22:00::'
       id: 'activate%2:36:00::'
       subcat:
       - vtai
       - vtii
       synset: 01647199-v
-    - antonym:
+    - agent:
+      - 'activator%1:27:00::'
+      antonym:
       - 'inactivate%2:30:00::'
       derivation:
       - 'activator%1:27:00::'
+      - 'activation%1:04:01::'
+      event:
       - 'activation%1:04:01::'
       id: 'activate%2:30:00::'
       subcat:
@@ -29533,21 +29913,27 @@ activate:
       - vtia
       - vtii
       synset: 00191014-v
-    - derivation:
+    - by_means_of:
+      - 'activation%1:22:00::'
+      derivation:
       - 'activation%1:22:00::'
       id: 'activate%2:30:03::'
       subcat:
       - vtai
       - vtii
       synset: 00191717-v
-    - derivation:
+    - by_means_of:
+      - 'activation%1:22:00::'
+      derivation:
       - 'activation%1:22:00::'
       id: 'activate%2:30:02::'
       subcat:
       - vtai
       - vtii
       synset: 00191331-v
-    - derivation:
+    - by_means_of:
+      - 'activation%1:22:00::'
+      derivation:
       - 'activation%1:22:00::'
       id: 'activate%2:30:01::'
       subcat:
@@ -30051,6 +30437,8 @@ actualise:
     sense:
     - derivation:
       - 'actualisation%1:04:00::'
+      event:
+      - 'actualisation%1:04:00::'
       id: 'actualise%2:36:00::'
       subcat:
       - vtai
@@ -30086,6 +30474,8 @@ actualize:
       - actual%5:00:02:real:00
       - actual%5:00:00:real:00
       - 'actual%3:00:00::'
+      - 'actualization%1:04:00::'
+      event:
       - 'actualization%1:04:00::'
       id: 'actualize%2:36:00::'
       sent:
@@ -30151,9 +30541,13 @@ actuate:
     - value: ˈæktʃu.eɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'actuator%1:06:00::'
+      derivation:
       - 'actuator%1:06:00::'
       - 'act%1:03:00::'
+      - 'actuation%1:04:00::'
+      event:
       - 'actuation%1:04:00::'
       id: 'actuate%2:36:00::'
       subcat:
@@ -30656,6 +31050,8 @@ ad-lib:
       - via
       - vtai
       synset: 01732719-v
+      undergoer:
+      - 'ad-lib%1:10:00::'
 adactylia:
   n:
     sense:
@@ -30756,7 +31152,10 @@ adapt:
     pronunciation:
     - value: əˈdæpt
     sense:
-    - derivation:
+    - agent:
+      - 'adaptor%1:06:00::'
+      - 'adapter%1:06:00::'
+      derivation:
       - 'adaptative%3:00:00::'
       - 'adaptable%3:00:00::'
       - 'adaptor%1:06:00::'
@@ -30771,6 +31170,8 @@ adapt:
       - 'adaptable%3:00:00::'
       - 'adaptation%1:22:00::'
       - 'adaption%1:22:00::'
+      event:
+      - 'adaptation%1:22:00::'
       id: 'adapt%2:30:02::'
       subcat:
       - via
@@ -30902,6 +31303,8 @@ add:
     sense:
     - antonym:
       - 'take_away%2:30:00::'
+      by_means_of:
+      - 'addition%1:04:02::'
       derivation:
       - 'additive%3:00:04::'
       - 'addition%1:04:02::'
@@ -30920,7 +31323,9 @@ add:
       - vtai
       - vtii
       synset: 01029183-v
-    - derivation:
+    - by_means_of:
+      - 'addition%1:06:00::'
+      derivation:
       - 'addition%1:06:00::'
       id: 'add%2:40:00::'
       subcat:
@@ -30929,10 +31334,14 @@ add:
       - vtai-to
       - vtii
       synset: 02329474-v
-    - also:
+    - agent:
+      - 'adder%1:06:00::'
+      also:
       - 'add_up%2:42:03::'
       antonym:
       - 'subtract%2:31:00::'
+      by_means_of:
+      - 'addition%1:04:01::'
       derivation:
       - 'additive%3:00:00::'
       - addable%5:00:00:additive:00
@@ -30943,7 +31352,11 @@ add:
       - via
       - vtai
       synset: 00642490-v
-    - derivation:
+    - agent:
+      - 'adder%1:06:00::'
+      by_means_of:
+      - 'addition%1:04:01::'
+      derivation:
       - addible%5:00:00:additive:00
       - 'additive%3:00:04::'
       - 'additive%3:00:00::'
@@ -31121,12 +31534,19 @@ addict:
     pronunciation:
     - value: ˈæ.dɪkt
     sense:
-    - derivation:
+    - agent:
+      - 'addict%1:18:01::'
+      - 'addict%1:18:00::'
+      by_means_of:
+      - 'addiction%1:04:00::'
+      derivation:
       - 'addictive%3:00:00::'
       - 'addiction%1:04:00::'
       - 'addiction%1:26:00::'
       - 'addict%1:18:01::'
       - 'addict%1:18:00::'
+      event:
+      - 'addiction%1:26:00::'
       id: 'addict%2:34:00::'
       subcat:
       - vtaa-pp
@@ -31340,28 +31760,43 @@ address:
       subcat:
       - vtaa
       synset: 00899077-v
+      undergoer:
+      - 'addressee%1:18:00::'
     - derivation:
       - 'addressee%1:18:00::'
+      - 'address%1:10:00::'
+      event:
       - 'address%1:10:00::'
       id: 'address%2:32:02::'
       subcat:
       - vtaa
       synset: 00991233-v
+      undergoer:
+      - 'addressee%1:18:00::'
     - derivation:
       - 'addressee%1:18:00::'
       - 'address%1:15:00::'
       - 'address%1:10:02::'
       id: 'address%2:32:03::'
+      location:
+      - 'address%1:15:00::'
       subcat:
       - vtai-pp
       synset: 00992844-v
+      undergoer:
+      - 'addressee%1:18:00::'
+      - 'address%1:10:02::'
     - derivation:
       - 'addressee%1:18:00::'
+      - 'address%1:10:03::'
+      event:
       - 'address%1:10:03::'
       id: 'address%2:33:00::'
       subcat:
       - vtai-pp
       synset: 01153447-v
+      undergoer:
+      - 'addressee%1:18:00::'
     - derivation:
       - addressable%5:00:00:available:00
       id: 'address%2:34:00::'
@@ -31373,7 +31808,9 @@ address:
       subcat:
       - ditransitive
       synset: 02607453-v
-    - derivation:
+    - by_means_of:
+      - 'address%1:10:04::'
+      derivation:
       - 'address%1:10:04::'
       id: 'address%2:40:00::'
       subcat:
@@ -31391,6 +31828,8 @@ address:
       subcat:
       - vtaa
       synset: 00992687-v
+      undergoer:
+      - 'addressee%1:18:00::'
     - id: 'address%2:30:00::'
       subcat:
       - vtai
@@ -31467,12 +31906,16 @@ adduct:
     pronunciation:
     - value: əˈdʌkt
     sense:
-    - antonym:
+    - agent:
+      - 'adductor%1:08:00::'
+      antonym:
       - 'abduct%2:35:00::'
       derivation:
       - 'adductive%3:00:00::'
       - 'adduction%1:04:00::'
       - 'adductor%1:08:00::'
+      event:
+      - 'adduction%1:04:00::'
       id: 'adduct%2:35:00::'
       subcat:
       - vii
@@ -31800,6 +32243,8 @@ adhere:
       - adherent%5:00:00:adhesive:00
       - 'adhesion%1:07:00::'
       id: 'adhere%2:35:01::'
+      property:
+      - 'adhesion%1:07:00::'
       subcat:
       - via-pp
       - vii
@@ -31809,6 +32254,8 @@ adhere:
       - 'adhesion%1:04:00::'
       - 'adherent%1:18:00::'
       id: 'adhere%2:42:02::'
+      result:
+      - 'adhesion%1:04:00::'
       subcat:
       - via-pp
       synset: 02644929-v
@@ -31822,6 +32269,8 @@ adhere:
       - adherent%5:00:00:adhesive:00
       - 'adhesion%1:07:00::'
       id: 'adhere%2:35:00::'
+      property:
+      - 'adhesion%1:07:00::'
       subcat:
       - vii
       - vii-pp
@@ -32174,6 +32623,8 @@ adjoin:
     - derivation:
       - adjunctive%5:00:00:connected:00
       - 'adjunction%1:04:00::'
+      event:
+      - 'adjunction%1:04:00::'
       id: 'adjoin%2:35:03::'
       sent:
       - Our properties adjoin at this point
@@ -32200,12 +32651,16 @@ adjourn:
     sense:
     - derivation:
       - 'adjournment%1:04:00::'
+      event:
+      - 'adjournment%1:04:00::'
       id: 'adjourn%2:30:00::'
       subcat:
       - via
       - vtai
       synset: 00364950-v
     - derivation:
+      - 'adjournment%1:04:01::'
+      event:
       - 'adjournment%1:04:01::'
       id: 'adjourn%2:41:00::'
       subcat:
@@ -32239,7 +32694,9 @@ adjudicate:
     pronunciation:
     - value: əˈdʒudɪˌkeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'adjudicator%1:18:00::'
+      derivation:
       - 'adjudicative%3:01:00::'
       - 'adjudicatory%3:01:00::'
       - 'judge%1:18:00::'
@@ -32364,6 +32821,8 @@ adjure:
     - derivation:
       - adjuratory%5:00:00:beseeching:00
       - 'adjuration%1:10:00::'
+      event:
+      - 'adjuration%1:10:00::'
       id: 'adjure%2:32:01::'
       subcat:
       - vtaa
@@ -32371,6 +32830,8 @@ adjure:
       synset: 00761702-v
     - derivation:
       - adjuratory%5:00:01:imperative:00
+      - 'adjuration%1:10:00::'
+      event:
       - 'adjuration%1:10:00::'
       id: 'adjure%2:32:00::'
       subcat:
@@ -32386,6 +32847,8 @@ adjust:
       - adjustable%5:00:00:changeable:00
       - 'adjustment%1:04:01::'
       - 'adjuster%1:18:00::'
+      event:
+      - 'adjustment%1:04:01::'
       id: 'adjust%2:30:00::'
       subcat:
       - vtai
@@ -32400,6 +32863,9 @@ adjust:
       - adjustive%5:00:00:adaptive:00
       - 'adjustment%1:22:00::'
       - 'adjustment%1:11:00::'
+      event:
+      - 'adjustment%1:22:00::'
+      - 'adjustment%1:11:00::'
       id: 'adjust%2:30:01::'
       subcat:
       - via
@@ -32409,15 +32875,21 @@ adjust:
     - derivation:
       - adjustable%5:00:00:adaptable:00
       - 'adjustment%1:04:00::'
+      event:
+      - 'adjustment%1:04:00::'
       id: 'adjust%2:30:03::'
       subcat:
       - vtai
       - vtai-to
       synset: 00298848-v
-    - derivation:
+    - agent:
+      - 'adjustor%1:18:00::'
+      derivation:
       - 'adjustment%1:21:00::'
       - 'adjustor%1:18:00::'
       id: 'adjust%2:31:00::'
+      result:
+      - 'adjustment%1:21:00::'
       subcat:
       - vtai
       synset: 00701100-v
@@ -32577,7 +33049,11 @@ administer:
     - value: ədˈmɪnɪstɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'administration%1:14:00::'
+      by_means_of:
+      - 'administration%1:04:00::'
+      derivation:
       - 'administrative%3:01:00::'
       - administrable%5:00:00:manageable:00
       - 'administration%1:28:00::'
@@ -32599,6 +33075,8 @@ administer:
       - vtai-to
       synset: 02299397-v
     - derivation:
+      - 'administration%1:04:01::'
+      event:
       - 'administration%1:04:01::'
       id: 'administer%2:29:00::'
       subcat:
@@ -32627,7 +33105,11 @@ administrate:
     pronunciation:
     - value: ədˈmɪnɪstɹeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'administrator%1:18:02::'
+      - 'administrator%1:18:01::'
+      - 'administrator%1:18:00::'
+      derivation:
       - administrable%5:00:00:manageable:00
       - 'administrative%3:01:00::'
       - 'administrator%1:18:02::'
@@ -32838,7 +33320,11 @@ admire:
     - value: ədˈmaɪɹ
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'admirer%1:18:01::'
+      - 'admirer%1:18:02::'
+      - 'admirer%1:18:00::'
+      antonym:
       - 'look_down_on%2:37:00::'
       derivation:
       - 'admiration%1:12:01::'
@@ -32846,11 +33332,16 @@ admire:
       - 'admirer%1:18:02::'
       - 'admirer%1:18:00::'
       id: 'admire%2:37:00::'
+      state:
+      - 'admiration%1:12:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01831800-v
-    - derivation:
+    - agent:
+      - 'admirer%1:18:02::'
+      - 'admirer%1:18:00::'
+      derivation:
       - 'admirer%1:18:02::'
       - 'admirer%1:18:00::'
       id: 'admire%2:39:00::'
@@ -32964,6 +33455,8 @@ admit:
       - 'deny%2:32:00::'
       derivation:
       - 'admission%1:10:00::'
+      event:
+      - 'admission%1:10:00::'
       id: 'admit%2:32:00::'
       subcat:
       - via-that
@@ -32971,10 +33464,14 @@ admit:
       synset: 00818972-v
     - antonym:
       - 'reject%2:41:00::'
+      by_means_of:
+      - 'admission%1:21:00::'
       derivation:
       - admittible%5:00:00:admissible:00
       - admittable%5:00:00:admissible:00
       - 'admission%1:21:00::'
+      - 'admission%1:04:00::'
+      event:
       - 'admission%1:04:00::'
       id: 'admit%2:41:01::'
       subcat:
@@ -32991,6 +33488,8 @@ admit:
       - vtaa
       - vtaa-pp
       synset: 02454712-v
+      uses:
+      - 'admittance%1:07:00::'
     - id: 'admit%2:40:00::'
       sent:
       - Sam cannot admit Sue
@@ -33015,7 +33514,9 @@ admit:
       - vtia
       - vtii
       synset: 02738673-v
-    - derivation:
+    - by_means_of:
+      - 'admission%1:21:00::'
+      derivation:
       - admittible%5:00:00:admissible:00
       - admittable%5:00:00:admissible:00
       - 'admission%1:21:00::'
@@ -33090,10 +33591,14 @@ admonish:
     - value: ædˈmɑn.ɪʃ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'admonisher%1:18:00::'
+      derivation:
       - admonitory%5:00:00:dissuasive:00
       - 'admonition%1:10:01::'
       - 'admonisher%1:18:00::'
+      event:
+      - 'admonition%1:10:01::'
       id: 'admonish%2:32:02::'
       sent:
       - Sam cannot admonish Sue
@@ -33101,10 +33606,14 @@ admonish:
       - via-pp
       - vtaa
       synset: 00872241-v
-    - derivation:
+    - agent:
+      - 'admonisher%1:18:00::'
+      derivation:
       - admonitory%5:00:00:dissuasive:00
       - 'admonition%1:10:01::'
       - 'admonisher%1:18:00::'
+      event:
+      - 'admonition%1:10:01::'
       id: 'admonish%2:32:01::'
       subcat:
       - vtaa
@@ -33114,6 +33623,9 @@ admonish:
       - admonitory%5:00:00:unfavorable:02
       - 'admonishment%1:10:00::'
       - 'admonition%1:10:00::'
+      event:
+      - 'admonition%1:10:00::'
+      - 'admonishment%1:10:00::'
       id: 'admonish%2:32:00::'
       subcat:
       - vtaa
@@ -33240,6 +33752,9 @@ adolesce:
       - 'adolescent%1:18:00::'
       - 'adolescence%1:28:00::'
       - 'adolescence%1:26:00::'
+      event:
+      - 'adolescence%1:28:00::'
+      - 'adolescence%1:26:00::'
       id: 'adolesce%2:30:00::'
       subcat:
       - via
@@ -33314,12 +33829,16 @@ adopt:
     sense:
     - derivation:
       - 'adoption%1:04:00::'
+      event:
+      - 'adoption%1:04:00::'
       id: 'adopt%2:40:02::'
       subcat:
       - vtai
       synset: 02351891-v
     - derivation:
       - 'adoptive%3:00:04::'
+      - 'adoption%1:04:01::'
+      event:
       - 'adoption%1:04:01::'
       id: 'adopt%2:40:00::'
       subcat:
@@ -33334,17 +33853,23 @@ adopt:
       subcat:
       - vtii
       synset: 00525762-v
-    - derivation:
+    - agent:
+      - 'adopter%1:18:00::'
+      derivation:
       - 'adoptable%3:00:00::'
       - 'adoptive%3:00:00::'
       - 'adoptee%1:18:00::'
       - 'adoption%1:04:02::'
       - 'adopter%1:18:00::'
+      event:
+      - 'adoption%1:04:02::'
       id: 'adopt%2:30:00::'
       subcat:
       - vtaa
       - vtaa-pp
       synset: 00414120-v
+      undergoer:
+      - 'adoptee%1:18:00::'
     - id: 'adopt%2:36:00::'
       sent:
       - Did he adopt his major works over a short period of time?
@@ -33352,6 +33877,8 @@ adopt:
       - vtai
       synset: 01705170-v
     - derivation:
+      - 'adoption%1:04:01::'
+      event:
       - 'adoption%1:04:01::'
       id: 'adopt%2:31:04::'
       subcat:
@@ -33539,6 +34066,8 @@ adorn:
     sense:
     - derivation:
       - 'adornment%1:04:00::'
+      event:
+      - 'adornment%1:04:00::'
       id: 'adorn%2:36:00::'
       sent:
       - They adorn the halls with holly
@@ -33546,7 +34075,9 @@ adorn:
       - vtai
       - vtii
       synset: 01679858-v
-    - derivation:
+    - by_means_of:
+      - 'adornment%1:06:00::'
+      derivation:
       - 'adornment%1:06:00::'
       id: 'adorn%2:42:00::'
       sent:
@@ -33807,6 +34338,8 @@ adsorb:
       - 'adsorbent%3:00:00::'
       - 'adsorption%1:22:00::'
       - 'adsorbent%1:27:00::'
+      event:
+      - 'adsorption%1:22:00::'
       id: 'adsorb%2:35:00::'
       subcat:
       - vtii
@@ -33886,7 +34419,9 @@ adulate:
     pronunciation:
     - value: ˈæ.d͡ʒə.leɪt
     sense:
-    - derivation:
+    - agent:
+      - 'adulator%1:18:00::'
+      derivation:
       - adulatory%5:00:00:flattering:00
       - 'adulator%1:18:00::'
       id: 'adulate%2:32:00::'
@@ -34044,7 +34579,10 @@ adulterate:
     - value: əˈdʌltərət
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'adulterator%1:27:00::'
+      - 'adulterator%1:18:00::'
+      derivation:
       - 'adulterant%3:00:00::'
       - 'adulterant%1:27:00::'
       - 'adulterator%1:27:00::'
@@ -34256,13 +34794,19 @@ advance:
     - value: ədˈvæns
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'advancer%1:18:00::'
+      antonym:
       - 'recede%2:38:01::'
       derivation:
       - 'advancement%1:04:01::'
       - 'advance%1:11:00::'
       - 'advance%1:04:00::'
       - 'advancer%1:18:00::'
+      event:
+      - 'advancement%1:04:01::'
+      - 'advance%1:11:00::'
+      - 'advance%1:04:00::'
       id: 'advance%2:38:00::'
       sent:
       - The water advances
@@ -34281,6 +34825,8 @@ advance:
       synset: 00498142-v
     - derivation:
       - 'advance%1:11:01::'
+      event:
+      - 'advance%1:11:01::'
       id: 'advance%2:41:01::'
       subcat:
       - vtaa
@@ -34291,6 +34837,8 @@ advance:
     - antonym:
       - 'back%2:38:01::'
       derivation:
+      - 'advancement%1:04:01::'
+      event:
       - 'advancement%1:04:01::'
       id: 'advance%2:38:01::'
       subcat:
@@ -34305,6 +34853,9 @@ advance:
     - derivation:
       - 'advance%1:11:01::'
       - 'advance%1:04:00::'
+      event:
+      - 'advance%1:11:01::'
+      - 'advance%1:04:00::'
       id: 'advance%2:30:00::'
       subcat:
       - via
@@ -34313,12 +34864,17 @@ advance:
     - derivation:
       - 'advancement%1:04:02::'
       - 'advancement%1:04:01::'
+      event:
+      - 'advancement%1:04:02::'
+      - 'advancement%1:04:01::'
       id: 'advance%2:30:09::'
       subcat:
       - vtai
       - vtii
       synset: 00559448-v
     - derivation:
+      - 'advancement%1:10:00::'
+      event:
       - 'advancement%1:10:00::'
       id: 'advance%2:41:00::'
       subcat:
@@ -34335,11 +34891,15 @@ advance:
       - vtai
       - vtai-to
       synset: 02288794-v
+      undergoer:
+      - 'advance%1:21:00::'
     - id: 'advance%2:38:04::'
       subcat:
       - vtai
       synset: 01998320-v
     - derivation:
+      - 'advance%1:04:01::'
+      event:
       - 'advance%1:04:01::'
       id: 'advance%2:30:01::'
       sent:
@@ -34448,6 +35008,10 @@ advantage:
       - 'advantage%1:07:01::'
       - 'advantage%1:07:00::'
       id: 'advantage%2:41:00::'
+      property:
+      - 'advantage%1:07:00::'
+      result:
+      - 'advantage%1:07:01::'
       subcat:
       - vtaa
       - vtia
@@ -34488,6 +35052,8 @@ advect:
     sense:
     - derivation:
       - 'advective%3:01:00::'
+      - 'advection%1:22:00::'
+      event:
       - 'advection%1:22:00::'
       id: 'advect%2:38:00::'
       subcat:
@@ -34570,17 +35136,25 @@ adventure:
       synset: 00797976-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'adventurer%1:18:00::'
+      derivation:
       - 'adventure%1:04:00::'
       - 'adventurer%1:18:01::'
       - 'adventurer%1:18:00::'
+      event:
+      - 'adventure%1:04:00::'
       id: 'adventure%2:41:01::'
       subcat:
       - via-that
       synset: 02550045-v
-    - derivation:
+    - agent:
+      - 'adventurer%1:18:00::'
+      derivation:
       - 'adventure%1:04:00::'
       - 'adventurer%1:18:00::'
+      event:
+      - 'adventure%1:04:00::'
       id: 'adventure%2:41:00::'
       subcat:
       - vtai
@@ -34812,6 +35386,8 @@ advert:
       - advertent%5:00:00:attentive:00
       - 'advertency%1:09:00::'
       - 'advertence%1:09:00::'
+      event:
+      - 'advertence%1:09:00::'
       id: 'advert%2:39:00::'
       subcat:
       - via
@@ -34876,11 +35452,15 @@ advertise:
       - vtai
       - vtii
       synset: 00977934-v
-    - derivation:
+    - agent:
+      - 'advertiser%1:18:00::'
+      derivation:
       - 'advertisement%1:10:00::'
       - 'advertiser%1:18:00::'
       - 'advertising%1:10:00::'
       - 'advertising%1:04:00::'
+      event:
+      - 'advertisement%1:10:00::'
       id: 'advertise%2:32:00::'
       subcat:
       - vtai
@@ -34951,9 +35531,13 @@ advertising division:
 advertize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'advertizer%1:18:00::'
+      derivation:
       - 'advertizement%1:10:00::'
       - 'advertizer%1:18:00::'
+      event:
+      - 'advertizement%1:10:00::'
       id: 'advertize%2:32:00::'
       sent:
       - Sam and Sue advertize the movie
@@ -35037,7 +35621,10 @@ advise:
     pronunciation:
     - value: ədˈvaɪz
     sense:
-    - derivation:
+    - agent:
+      - 'advisor%1:18:00::'
+      - 'adviser%1:18:00::'
+      derivation:
       - 'advisable%3:00:00::'
       - advisory%5:00:00:informative:00
       - 'advisory%1:10:00::'
@@ -35045,6 +35632,8 @@ advise:
       - 'advisee%1:18:00::'
       - 'advisor%1:18:00::'
       - 'adviser%1:18:00::'
+      event:
+      - 'advisement%1:09:00::'
       id: 'advise%2:32:00::'
       sent:
       - Sam cannot advise Sue
@@ -35053,6 +35642,8 @@ advise:
       - vtaa
       - vtaa-to-inf
       synset: 00874568-v
+      undergoer:
+      - 'advisee%1:18:00::'
     - id: 'advise%2:32:01::'
       subcat:
       - via-that
@@ -35177,7 +35768,10 @@ advocate:
       - vtai
       - vtii
       synset: 00876672-v
-    - derivation:
+    - agent:
+      - 'advocator%1:18:00::'
+      - 'advocate%1:18:00::'
+      derivation:
       - 'advocator%1:18:00::'
       - 'advocate%1:18:00::'
       - 'advocacy%1:04:00::'
@@ -35321,11 +35915,15 @@ aerate:
     - derivation:
       - 'air%1:27:00::'
       - 'aeration%1:22:00::'
+      event:
+      - 'aeration%1:22:00::'
       id: 'aerate%2:39:00::'
       subcat:
       - vtai
       synset: 02117374-v
-    - derivation:
+    - agent:
+      - 'aerator%1:06:00::'
+      derivation:
       - 'air%1:27:00::'
       - 'aerator%1:06:00::'
       id: 'aerate%2:30:00::'
@@ -35334,6 +35932,8 @@ aerate:
       - vtii
       synset: 00191331-v
     - derivation:
+      - 'aeration%1:04:00::'
+      event:
       - 'aeration%1:04:00::'
       id: 'aerate%2:30:01::'
       subcat:
@@ -35965,6 +36565,8 @@ aestivate:
       - 'hibernate%2:29:00::'
       derivation:
       - 'aestivation%1:26:00::'
+      event:
+      - 'aestivation%1:26:00::'
       id: 'aestivate%2:29:00::'
       subcat:
       - vii
@@ -36189,6 +36791,8 @@ affect:
     - derivation:
       - affective%5:00:00:emotional:00
       - 'affect%1:12:00::'
+      event:
+      - 'affect%1:12:00::'
       id: 'affect%2:37:00::'
       sent:
       - The bad news will affect him
@@ -36402,11 +37006,17 @@ affiliate:
       subcat:
       - via-pp
       synset: 02595401-v
-    - derivation:
+    - agent:
+      - 'affiliate%1:18:00::'
+      - 'affiliate%1:14:00::'
+      derivation:
       - 'affiliation%1:26:00::'
       - 'affiliation%1:04:00::'
       - 'affiliate%1:18:00::'
       - 'affiliate%1:14:00::'
+      event:
+      - 'affiliation%1:26:00::'
+      - 'affiliation%1:04:00::'
       id: 'affiliate%2:41:00::'
       subcat:
       - via
@@ -36510,16 +37120,23 @@ affirm:
       derivation:
       - affirmable%5:00:00:possible:00
       - 'affirmation%1:04:00::'
+      event:
+      - 'affirmation%1:04:00::'
       id: 'affirm%2:31:00::'
       subcat:
       - via-that
       - vtai
       - vtii
       synset: 00667804-v
-    - derivation:
+    - agent:
+      - 'affirmer%1:18:00::'
+      derivation:
       - 'affirmation%1:10:02::'
       - 'affirmation%1:10:00::'
       - 'affirmer%1:18:00::'
+      event:
+      - 'affirmation%1:10:02::'
+      - 'affirmation%1:10:00::'
       id: 'affirm%2:32:00::'
       sent:
       - They affirm that there was a traffic accident
@@ -36530,6 +37147,8 @@ affirm:
     - derivation:
       - 'affirmative%3:00:00::'
       - 'affirmatory%3:00:00::'
+      - 'affirmation%1:10:02::'
+      event:
       - 'affirmation%1:10:02::'
       id: 'affirm%2:32:01::'
       subcat:
@@ -36657,6 +37276,8 @@ affix:
       synset: 01359073-v
     - derivation:
       - 'affixation%1:04:01::'
+      event:
+      - 'affixation%1:04:01::'
       id: 'affix%2:35:01::'
       subcat:
       - vtai
@@ -36666,11 +37287,17 @@ affix:
       - 'affixation%1:09:00::'
       - 'affixation%1:04:00::'
       - 'affix%1:10:00::'
+      event:
+      - 'affixation%1:04:00::'
       id: 'affix%2:35:02::'
+      result:
+      - 'affixation%1:09:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01300869-v
+      undergoer:
+      - 'affix%1:10:00::'
 affixal:
   a:
     sense:
@@ -36726,13 +37353,17 @@ afflict:
     pronunciation:
     - value: əˈflɪkt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'affliction%1:11:00::'
+      derivation:
       - afflictive%5:00:00:unpleasant:00
       - 'affliction%1:26:02::'
       - 'affliction%1:11:00::'
       id: 'afflict%2:37:00::'
       sent:
       - The bad news will afflict him
+      state:
+      - 'affliction%1:26:02::'
       subcat:
       - vtia
       synset: 01801741-v
@@ -36740,6 +37371,8 @@ afflict:
       - afflictive%5:00:00:unpleasant:00
       - 'affliction%1:26:02::'
       id: 'afflict%2:30:00::'
+      state:
+      - 'affliction%1:26:02::'
       subcat:
       - vtai
       - vtii
@@ -36864,6 +37497,8 @@ afforest:
     sense:
     - derivation:
       - 'afforestation%1:04:00::'
+      event:
+      - 'afforestation%1:04:00::'
       id: 'afforest%2:35:00::'
       subcat:
       - vtai
@@ -36948,6 +37583,8 @@ affront:
     - value: əˈfɹʌnt
     sense:
     - derivation:
+      - 'affront%1:04:00::'
+      event:
       - 'affront%1:04:00::'
       id: 'affront%2:32:00::'
       sent:
@@ -37626,6 +38263,9 @@ age:
     - derivation:
       - 'age%1:28:00::'
       - 'age%1:28:01::'
+      event:
+      - 'age%1:28:00::'
+      - 'age%1:28:01::'
       id: 'age%2:30:00::'
       subcat:
       - via
@@ -37634,6 +38274,8 @@ age:
     - antonym:
       - 'rejuvenate%2:30:00::'
       derivation:
+      - 'age%1:28:01::'
+      event:
       - 'age%1:28:01::'
       id: 'age%2:30:02::'
       subcat:
@@ -37939,6 +38581,8 @@ agglomerate:
       - 'agglomerate%1:27:00::'
       - 'agglomerate%1:14:00::'
       - 'agglomerator%1:06:00::'
+      instrument:
+      - 'agglomerator%1:06:00::'
       id: 'agglomerate%2:35:00::'
       subcat:
       - vii
@@ -37980,11 +38624,15 @@ agglutinate:
     - derivation:
       - agglutinative%5:00:00:synthetic:02
       - 'agglutination%1:22:00::'
+      event:
+      - 'agglutination%1:22:00::'
       id: 'agglutinate%2:35:01::'
       subcat:
       - vii
       synset: 01224580-v
     - derivation:
+      - 'agglutination%1:22:01::'
+      event:
       - 'agglutination%1:22:01::'
       id: 'agglutinate%2:35:00::'
       subcat:
@@ -38056,6 +38704,8 @@ aggrandise:
     sense:
     - derivation:
       - 'aggrandisement%1:04:00::'
+      event:
+      - 'aggrandisement%1:04:00::'
       id: 'aggrandise%2:32:00::'
       subcat:
       - vtai
@@ -38074,6 +38724,8 @@ aggrandize:
     - value: əˈɡɹændaɪ̯z
     sense:
     - derivation:
+      - 'aggrandizement%1:04:00::'
+      event:
       - 'aggrandizement%1:04:00::'
       id: 'aggrandize%2:32:00::'
       subcat:
@@ -38094,17 +38746,25 @@ aggravate:
     sense:
     - derivation:
       - 'aggravation%1:04:01::'
+      event:
+      - 'aggravation%1:04:01::'
       id: 'aggravate%2:30:00::'
       subcat:
       - vtai
       - vtia
       - vtii
       synset: 00208618-v
-    - derivation:
+    - agent:
+      - 'aggravator%1:18:00::'
+      derivation:
       - 'aggravation%1:04:00::'
       - 'aggravation%1:12:00::'
       - 'aggravator%1:18:00::'
+      event:
+      - 'aggravation%1:04:00::'
       id: 'aggravate%2:37:00::'
+      state:
+      - 'aggravation%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -38190,14 +38850,20 @@ aggregate:
     - derivation:
       - 'aggregate%1:06:00::'
       id: 'aggregate%2:42:00::'
+      result:
+      - 'aggregate%1:06:00::'
       subcat:
       - vtii
       synset: 02633636-v
-    - derivation:
+    - agent:
+      - 'aggregator%1:18:00::'
+      derivation:
       - aggregative%5:00:00:collective:00
       - 'aggregator%1:18:00::'
       - 'aggregate%1:06:00::'
       id: 'aggregate%2:35:00::'
+      result:
+      - 'aggregate%1:06:00::'
       subcat:
       - vtai
       synset: 01387824-v
@@ -38244,11 +38910,16 @@ aggress:
     pronunciation:
     - value: əˈɡɹɛs
     sense:
-    - derivation:
+    - agent:
+      - 'aggressor%1:18:00::'
+      derivation:
       - aggressive%5:00:00:hostile:01
       - 'aggression%1:04:02::'
       - 'aggression%1:04:00::'
       - 'aggressor%1:18:00::'
+      event:
+      - 'aggression%1:04:02::'
+      - 'aggression%1:04:00::'
       id: 'aggress%2:33:00::'
       subcat:
       - via
@@ -38434,7 +39105,9 @@ agitate:
     pronunciation:
     - value: ˈæ.dʒɪ.teɪt
     sense:
-    - derivation:
+    - agent:
+      - 'agitator%1:18:00::'
+      derivation:
       - 'agitator%1:18:00::'
       id: 'agitate%2:41:00::'
       subcat:
@@ -39011,6 +39684,8 @@ agree:
       derivation:
       - agreeable%5:00:00:accordant:00
       - 'agreement%1:10:00::'
+      event:
+      - 'agreement%1:10:00::'
       id: 'agree%2:32:00::'
       sent:
       - Sam and Sue agree
@@ -39025,6 +39700,9 @@ agree:
       - agreeable%5:00:00:accordant:00
       - 'agreement%1:10:01::'
       - 'agreement%1:10:00::'
+      event:
+      - 'agreement%1:10:01::'
+      - 'agreement%1:10:00::'
       id: 'agree%2:32:01::'
       sent:
       - They agree to move
@@ -39036,6 +39714,8 @@ agree:
       - 'disagree%2:42:00::'
       derivation:
       - agreeable%5:00:00:consistent:00
+      - 'agreement%1:07:00::'
+      event:
       - 'agreement%1:07:00::'
       id: 'agree%2:42:00::'
       subcat:
@@ -39053,6 +39733,8 @@ agree:
     - derivation:
       - 'agreement%1:24:03::'
       id: 'agree%2:42:03::'
+      result:
+      - 'agreement%1:24:03::'
       subcat:
       - vii
       - vii-pp
@@ -39063,6 +39745,9 @@ agree:
       synset: 02296096-v
     - derivation:
       - agreeable%5:00:00:accordant:00
+      - 'agreement%1:26:01::'
+      - 'agreement%1:10:00::'
+      event:
       - 'agreement%1:26:01::'
       - 'agreement%1:10:00::'
       id: 'agree%2:32:04::'
@@ -39576,7 +40261,9 @@ aid:
       synset: 00656128-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'aid%1:07:00::'
+      derivation:
       - 'aid%1:07:00::'
       id: 'aid%2:41:00::'
       sent:
@@ -39589,6 +40276,8 @@ aid:
       - vtia
       synset: 02553283-v
     - derivation:
+      - 'aid%1:04:01::'
+      event:
       - 'aid%1:04:01::'
       id: 'aid%2:29:00::'
       subcat:
@@ -39674,13 +40363,17 @@ ail:
       synset: 07834253-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'ailment%1:26:00::'
+      derivation:
       - 'ailment%1:26:00::'
       id: 'ail%2:29:00::'
       subcat:
       - via
       synset: 00078418-v
-    - derivation:
+    - by_means_of:
+      - 'ailment%1:26:00::'
+      derivation:
       - 'ailment%1:26:00::'
       id: 'ail%2:29:01::'
       subcat:
@@ -39754,6 +40447,8 @@ aim:
     sense:
     - derivation:
       - 'aim%1:04:00::'
+      event:
+      - 'aim%1:04:00::'
       id: 'aim%2:33:00::'
       subcat:
       - via
@@ -39761,6 +40456,9 @@ aim:
       - vtai-pp
       synset: 01153576-v
     - derivation:
+      - 'aim%1:09:01::'
+      - 'aim%1:09:00::'
+      event:
       - 'aim%1:09:01::'
       - 'aim%1:09:00::'
       id: 'aim%2:31:01::'
@@ -39776,6 +40474,8 @@ aim:
       - vtai
       synset: 00714920-v
     - derivation:
+      - 'aim%1:04:00::'
+      event:
       - 'aim%1:04:00::'
       id: 'aim%2:33:10::'
       subcat:
@@ -39891,14 +40591,18 @@ air:
       subcat:
       - vtai
       synset: 02117374-v
-    - derivation:
+    - by_means_of:
+      - 'air%1:10:02::'
+      derivation:
       - 'air%1:10:02::'
       id: 'air%2:32:02::'
       subcat:
       - vii
       - vii-pp
       synset: 00975760-v
-    - derivation:
+    - by_means_of:
+      - 'air%1:10:02::'
+      derivation:
       - 'air%1:10:02::'
       id: 'air%2:32:01::'
       subcat:
@@ -40367,6 +41071,8 @@ air-condition:
     - derivation:
       - 'air_conditioner%1:06:00::'
       - 'air_conditioning%1:06:00::'
+      instrument:
+      - 'air_conditioner%1:06:00::'
       id: 'air-condition%2:40:01::'
       subcat:
       - vtai
@@ -40375,6 +41081,8 @@ air-condition:
     - derivation:
       - 'air_conditioner%1:06:00::'
       - 'air_conditioning%1:06:00::'
+      instrument:
+      - 'air_conditioner%1:06:00::'
       id: 'air-condition%2:40:00::'
       subcat:
       - vtai
@@ -40536,6 +41244,8 @@ airbrush:
   v:
     sense:
     - derivation:
+      - 'airbrush%1:06:00::'
+      instrument:
       - 'airbrush%1:06:00::'
       id: 'airbrush%2:35:00::'
       subcat:
@@ -40736,6 +41446,8 @@ airlift:
     sense:
     - derivation:
       - 'airlift%1:04:00::'
+      event:
+      - 'airlift%1:04:00::'
       id: 'airlift%2:35:00::'
       subcat:
       - vtaa
@@ -40787,7 +41499,11 @@ airmail:
     pronunciation:
     - value: ˈɛə.meɪl
     sense:
-    - derivation:
+    - agent:
+      - 'airmailer%1:06:00::'
+      by_means_of:
+      - 'airmail%1:10:00::'
+      derivation:
       - 'airmail%1:10:00::'
       - 'airmailer%1:06:00::'
       id: 'airmail%2:32:00::'
@@ -41354,6 +42070,8 @@ alarm:
       - 'alarmist%1:18:00::'
       - 'alarm%1:12:00::'
       id: 'alarm%2:37:00::'
+      result:
+      - 'alarm%1:12:00::'
       sent:
       - The bad news will alarm him
       subcat:
@@ -41363,6 +42081,8 @@ alarm:
     - derivation:
       - 'alarm%1:12:00::'
       id: 'alarm%2:32:00::'
+      result:
+      - 'alarm%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -42281,11 +43001,17 @@ alert:
       synset: 06816015-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'alert%1:10:01::'
+      derivation:
       - 'alert%1:26:00::'
       - 'alert%1:10:01::'
       - 'alert%1:10:00::'
+      event:
+      - 'alert%1:10:00::'
       id: 'alert%2:32:00::'
+      state:
+      - 'alert%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -42730,7 +43456,10 @@ alibi:
     - value: ˈæl.ə.baɪ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'alibi%1:10:01::'
+      - 'alibi%1:10:00::'
+      derivation:
       - 'alibi%1:10:01::'
       - 'alibi%1:10:00::'
       id: 'alibi%2:32:00::'
@@ -42827,7 +43556,9 @@ alienate:
     pronunciation:
     - value: ˈeɪ.li.ə.neɪt
     sense:
-    - derivation:
+    - agent:
+      - 'alienator%1:18:00::'
+      derivation:
       - 'alienator%1:18:00::'
       id: 'alienate%2:37:00::'
       sent:
@@ -42941,10 +43672,14 @@ align:
       derivation:
       - 'alignment%1:07:00::'
       id: 'align%2:30:00::'
+      property:
+      - 'alignment%1:07:00::'
       subcat:
       - vtai
       synset: 00465234-v
     - derivation:
+      - 'alignment%1:04:00::'
+      event:
       - 'alignment%1:04:00::'
       id: 'align%2:42:00::'
       subcat:
@@ -42957,6 +43692,8 @@ align:
       - vtaa
       synset: 00735655-v
     - derivation:
+      - 'alignment%1:04:00::'
+      event:
       - 'alignment%1:04:00::'
       id: 'align%2:30:01::'
       subcat:
@@ -43041,11 +43778,16 @@ aliment:
     - value: ˈa.lɪ.mənt
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'alimentation%1:13:00::'
+      - 'aliment%1:13:00::'
+      derivation:
       - 'alimentative%3:01:00::'
       - 'alimentation%1:13:00::'
       - 'alimentation%1:04:00::'
       - 'aliment%1:13:00::'
+      event:
+      - 'alimentation%1:04:00::'
       id: 'aliment%2:34:00::'
       subcat:
       - vtii
@@ -43371,7 +44113,10 @@ alkalify:
     form:
     - alkalified
     sense:
-    - derivation:
+    - by_means_of:
+      - 'alkali%1:27:01::'
+      - 'alkali%1:27:00::'
+      derivation:
       - 'alkali%1:27:01::'
       - 'alkali%1:27:00::'
       id: 'alkalify%2:30:00::'
@@ -43477,7 +44222,9 @@ alkaliser:
 alkalize:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'alkalizer%1:27:00::'
+      antonym:
       - 'acidify%2:30:00::'
       derivation:
       - 'alkalizer%1:27:00::'
@@ -43978,7 +44725,9 @@ allay:
     pronunciation:
     - value: əˈleɪ
     sense:
-    - derivation:
+    - agent:
+      - 'allayer%1:18:00::'
+      derivation:
       - 'allayer%1:18:00::'
       id: 'allay%2:37:00::'
       sent:
@@ -44012,6 +44761,8 @@ allege:
   v:
     sense:
     - derivation:
+      - 'allegement%1:10:00::'
+      event:
       - 'allegement%1:10:00::'
       id: 'allege%2:32:00::'
       sent:
@@ -44114,7 +44865,9 @@ allegorise:
       subcat:
       - vtai
       synset: 00625935-v
-    - derivation:
+    - agent:
+      - 'allegoriser%1:18:00::'
+      derivation:
       - 'allegoriser%1:18:00::'
       - 'allegory%1:10:02::'
       - 'allegory%1:10:01::'
@@ -44142,7 +44895,9 @@ allegorize:
       subcat:
       - vtai
       synset: 00625935-v
-    - derivation:
+    - agent:
+      - 'allegorizer%1:18:00::'
+      derivation:
       - 'allegorizer%1:18:00::'
       - 'allegory%1:10:02::'
       - 'allegory%1:10:01::'
@@ -44377,7 +45132,9 @@ alleviate:
     pronunciation:
     - value: əˈli.vi.eɪt
     sense:
-    - derivation:
+    - agent:
+      - 'alleviator%1:18:00::'
+      derivation:
       - alleviatory%5:00:00:moderating:00
       - alleviative%5:00:00:moderating:00
       - 'alleviation%1:12:00::'
@@ -44385,7 +45142,13 @@ alleviate:
       - 'alleviator%1:18:00::'
       - 'alleviator%1:06:00::'
       - 'alleviant%1:06:00::'
+      event:
+      - 'alleviation%1:04:00::'
+      instrument:
+      - 'alleviator%1:06:00::'
       id: 'alleviate%2:29:00::'
+      result:
+      - 'alleviation%1:12:00::'
       subcat:
       - vtii
       synset: 00063866-v
@@ -44617,10 +45380,14 @@ alliterate:
     - value: əˈlɪ.tə.ɹeɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'alliterator%1:18:00::'
+      derivation:
       - alliterative%5:00:00:rhymed:00
       - 'alliteration%1:10:00::'
       - 'alliterator%1:18:00::'
+      event:
+      - 'alliteration%1:10:00::'
       id: 'alliterate%2:36:00::'
       subcat:
       - via
@@ -44685,13 +45452,18 @@ allocate:
     pronunciation:
     - value: ˈæl.ə.keɪt
     sense:
-    - derivation:
+    - agent:
+      - 'allocator%1:18:00::'
+      derivation:
       - allocatable%5:00:00:distributive:00
       - allocable%5:00:00:distributive:00
       - 'allocation%1:04:01::'
       - 'allocation%1:21:00::'
       - 'allocation%1:04:00::'
       - 'allocator%1:18:00::'
+      event:
+      - 'allocation%1:04:01::'
+      - 'allocation%1:04:00::'
       id: 'allocate%2:40:00::'
       sent:
       - They allocate the money to them
@@ -44700,6 +45472,8 @@ allocate:
       - vtai
       - vtai-to
       synset: 02238869-v
+      undergoer:
+      - 'allocation%1:21:00::'
 allocation:
   n:
     pronunciation:
@@ -44956,6 +45730,8 @@ allot:
       synset: 02260076-v
     - derivation:
       - 'allotment%1:04:00::'
+      event:
+      - 'allotment%1:04:00::'
       id: 'allot%2:40:02::'
       sent:
       - They allot the food to the people
@@ -45067,6 +45843,8 @@ allow:
       - vtai
       - vtai-to
       synset: 00726112-v
+      undergoer:
+      - 'allowance%1:21:00::'
     - id: 'allow%2:42:00::'
       subcat:
       - vtai
@@ -45094,6 +45872,9 @@ allow:
       - ditransitive
       synset: 02324649-v
     - derivation:
+      - 'allowance%1:07:00::'
+      - 'allowance%1:04:00::'
+      event:
       - 'allowance%1:07:00::'
       - 'allowance%1:04:00::'
       id: 'allow%2:32:06::'
@@ -45167,9 +45948,13 @@ allowance:
     - derivation:
       - 'allowance%1:21:00::'
       id: 'allowance%2:40:00::'
+      result:
+      - 'allowance%1:21:00::'
       subcat:
       - ditransitive
       synset: 02260629-v
+      undergoer:
+      - 'allowance%1:21:00::'
 allowance account:
   n:
     sense:
@@ -45193,6 +45978,10 @@ alloy:
     - derivation:
       - 'alloy%1:27:00::'
       id: 'alloy%2:30:00::'
+      material:
+      - 'alloy%1:27:00::'
+      result:
+      - 'alloy%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -45247,6 +46036,8 @@ allude:
     - derivation:
       - allusive%5:00:00:indirect:02
       - 'allusion%1:10:00::'
+      event:
+      - 'allusion%1:10:00::'
       id: 'allude%2:32:00::'
       subcat:
       - via-pp
@@ -45266,10 +46057,15 @@ allure:
     - value: əˈl(j)ʊɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'allurement%1:07:00::'
+      - 'allure%1:07:00::'
+      derivation:
       - 'allurement%1:07:00::'
       - 'allurement%1:04:00::'
       - 'allure%1:07:00::'
+      event:
+      - 'allurement%1:04:00::'
       id: 'allure%2:32:00::'
       subcat:
       - vtaa
@@ -45417,9 +46213,14 @@ ally:
     pronunciation:
     - value: ˈæl.aɪ
     sense:
-    - derivation:
+    - agent:
       - 'ally%1:18:00::'
       - 'ally%1:14:00::'
+      derivation:
+      - 'ally%1:18:00::'
+      - 'ally%1:14:00::'
+      - 'alliance%1:04:00::'
+      event:
       - 'alliance%1:04:00::'
       id: 'ally%2:41:00::'
       subcat:
@@ -46125,7 +46926,9 @@ alphabetisation:
 alphabetise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'alphabetiser%1:18:00::'
+      derivation:
       - 'alphabetiser%1:18:00::'
       - 'alphabet%1:10:00::'
       id: 'alphabetise%2:30:00::'
@@ -46154,10 +46957,14 @@ alphabetization:
 alphabetize:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'alphabetizer%1:18:00::'
+      derivation:
       - 'alphabetization%1:04:00::'
       - 'alphabetizer%1:18:00::'
       - 'alphabet%1:10:00::'
+      event:
+      - 'alphabetization%1:04:00::'
       id: 'alphabetize%2:30:00::'
       subcat:
       - vtai
@@ -46436,6 +47243,9 @@ alter:
       - 'alterable%3:00:00::'
       - 'alteration%1:04:01::'
       - 'alteration%1:11:00::'
+      event:
+      - 'alteration%1:04:01::'
+      - 'alteration%1:11:00::'
       id: 'alter%2:30:01::'
       subcat:
       - vtaa
@@ -46450,6 +47260,8 @@ alter:
       synset: 00122978-v
     - derivation:
       - 'alterable%3:00:00::'
+      - 'alteration%1:04:01::'
+      event:
       - 'alteration%1:04:01::'
       id: 'alter%2:36:00::'
       sent:
@@ -46602,18 +47414,24 @@ alternate:
     sense:
     - derivation:
       - 'alternation%1:04:00::'
+      event:
+      - 'alternation%1:04:00::'
       id: 'alternate%2:30:01::'
       subcat:
       - via-pp
       - vii-pp
       synset: 00121314-v
-    - derivation:
+    - agent:
+      - 'alternate%1:18:00::'
+      derivation:
       - 'alternate%1:18:00::'
       id: 'alternate%2:41:00::'
       subcat:
       - vtaa
       synset: 02398868-v
-    - derivation:
+    - agent:
+      - 'alternate%1:18:00::'
+      derivation:
       - 'alternate%1:18:00::'
       id: 'alternate%2:31:00::'
       subcat:
@@ -46625,6 +47443,8 @@ alternate:
       - vtai
       synset: 00121486-v
     - derivation:
+      - 'alternation%1:04:00::'
+      event:
       - 'alternation%1:04:00::'
       id: 'alternate%2:30:00::'
       subcat:
@@ -46966,7 +47786,7 @@ altruistic:
       variety: US
     sense:
     - antonym:
-      - 'egoistic%3:00:00::'
+      - 'egoistic%3:00:01::'
       derivation:
       - 'altruist%1:18:00::'
       id: 'altruistic%3:00:00::'
@@ -47382,7 +48202,9 @@ amalgamate:
     pronunciation:
     - value: əˈmælɡəˌmeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'amalgamator%1:18:00::'
+      derivation:
       - 'amalgamative%3:01:00::'
       - 'amalgamator%1:18:00::'
       - 'amalgam%1:14:00::'
@@ -47628,6 +48450,8 @@ amaze:
       sent:
       - The good news will amaze her
       - The performance is likely to amaze Sue
+      state:
+      - 'amazement%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -47944,13 +48768,18 @@ ambition:
     - value: æmˈbɪ.ʃən
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'ambition%1:07:00::'
+      derivation:
       - 'ambition%1:12:00::'
       - 'ambition%1:07:00::'
       id: 'ambition%2:37:00::'
       subcat:
       - via-to-inf
       synset: 01830002-v
+      undergoer:
+      - 'ambition%1:12:00::'
+      - 'ambition%1:07:00::'
 ambitionless:
   a:
     sense:
@@ -48046,8 +48875,12 @@ amble:
     pronunciation:
     - value: ˈæm.bəl
     sense:
-    - derivation:
+    - agent:
       - 'ambler%1:18:00::'
+      derivation:
+      - 'ambler%1:18:00::'
+      - 'amble%1:04:00::'
+      event:
       - 'amble%1:04:00::'
       id: 'amble%2:38:00::'
       sent:
@@ -48208,6 +49041,8 @@ ambulate:
       - ambulant%5:00:00:mobile:00
       - 'amble%1:04:00::'
       - 'ambulation%1:04:00::'
+      event:
+      - 'ambulation%1:04:00::'
       id: 'ambulate%2:38:00::'
       sent:
       - Sam and Sue ambulate
@@ -48263,6 +49098,8 @@ ambuscade:
     sense:
     - derivation:
       - 'ambuscade%1:04:00::'
+      event:
+      - 'ambuscade%1:04:00::'
       id: 'ambuscade%2:33:00::'
       subcat:
       - vtaa
@@ -48283,16 +49120,24 @@ ambush:
     - value: ˈæm.bʊʃ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'ambusher%1:18:00::'
+      derivation:
       - 'ambush%1:04:00::'
       - 'ambusher%1:18:00::'
+      event:
+      - 'ambush%1:04:00::'
       id: 'ambush%2:33:00::'
       subcat:
       - vtaa
       synset: 01140630-v
-    - derivation:
+    - agent:
+      - 'ambusher%1:18:00::'
+      derivation:
       - 'ambush%1:04:00::'
       - 'ambusher%1:18:00::'
+      event:
+      - 'ambush%1:04:00::'
       id: 'ambush%2:33:01::'
       subcat:
       - via
@@ -48397,6 +49242,8 @@ ameliorate:
       - ameliorative%5:00:00:bettering:00
       - amelioratory%5:00:00:bettering:00
       - 'amelioration%1:04:00::'
+      event:
+      - 'amelioration%1:04:00::'
       id: 'ameliorate%2:30:01::'
       subcat:
       - vtai
@@ -48406,6 +49253,8 @@ ameliorate:
     - derivation:
       - ameliorative%5:00:00:bettering:00
       - amelioratory%5:00:00:bettering:00
+      - 'amelioration%1:04:00::'
+      event:
       - 'amelioration%1:04:00::'
       id: 'ameliorate%2:30:00::'
       subcat:
@@ -48509,6 +49358,9 @@ amend:
     sense:
     - derivation:
       - amendatory%5:00:00:bettering:00
+      - 'amendment%1:10:00::'
+      - 'amendment%1:04:00::'
+      event:
       - 'amendment%1:10:00::'
       - 'amendment%1:04:00::'
       id: 'amend%2:32:00::'
@@ -48694,6 +49546,8 @@ amerce:
       - amerciable%5:00:00:illegal:00
       - 'amercement%1:21:00::'
       id: 'amerce%2:41:01::'
+      result:
+      - 'amercement%1:21:00::'
       subcat:
       - vtaa
       synset: 02504636-v
@@ -49253,10 +50107,14 @@ ammonify:
     - derivation:
       - 'ammonification%1:22:00::'
       - 'ammonium%1:27:00::'
+      event:
+      - 'ammonification%1:22:00::'
       id: 'ammonify%2:30:00::'
       subcat:
       - vtai
       synset: 00498300-v
+      uses:
+      - 'ammonium%1:27:00::'
 ammonite:
   n:
     sense:
@@ -49443,9 +50301,14 @@ amnesty:
     pronunciation:
     - value: ˈæm.nɪ.sti
     sense:
-    - derivation:
+    - by_means_of:
+      - 'amnesty%1:10:00::'
+      derivation:
       - 'amnesty%1:26:00::'
       - 'amnesty%1:10:00::'
+      - 'amnesty%1:04:00::'
+      event:
+      - 'amnesty%1:26:00::'
       - 'amnesty%1:04:00::'
       id: 'amnesty%2:32:00::'
       subcat:
@@ -49774,6 +50637,8 @@ amortise:
     sense:
     - derivation:
       - 'amortisation%1:04:00::'
+      event:
+      - 'amortisation%1:04:00::'
       id: 'amortise%2:40:00::'
       subcat:
       - vtai
@@ -49801,6 +50666,8 @@ amortize:
       variety: US
     sense:
     - derivation:
+      - 'amortization%1:04:00::'
+      event:
       - 'amortization%1:04:00::'
       id: 'amortize%2:40:00::'
       subcat:
@@ -49835,9 +50702,13 @@ amount:
       - 'amount%1:09:00::'
       - 'amount%1:03:00::'
       id: 'amount%2:42:01::'
+      result:
+      - 'amount%1:09:00::'
       subcat:
       - vtii
       synset: 02651091-v
+      undergoer:
+      - 'amount%1:03:00::'
     - id: 'amount%2:42:00::'
       subcat:
       - vtii
@@ -50332,6 +51203,8 @@ amplify:
     sense:
     - derivation:
       - 'amplifier%1:06:00::'
+      instrument:
+      - 'amplifier%1:06:00::'
       id: 'amplify%2:30:00::'
       subcat:
       - vii
@@ -50347,7 +51220,11 @@ amplify:
       - vtai
       - vtii
       synset: 00265272-v
-    - derivation:
+    - by_means_of:
+      - 'amplifier%1:06:00::'
+      derivation:
+      - 'amplifier%1:06:00::'
+      instrument:
       - 'amplifier%1:06:00::'
       id: 'amplify%2:30:01::'
       subcat:
@@ -50458,13 +51335,19 @@ amputate:
     pronunciation:
     - value: ˈæmpjʊteɪt
     sense:
-    - derivation:
+    - agent:
+      - 'amputator%1:18:00::'
+      derivation:
       - 'amputation%1:26:00::'
       - 'amputation%1:04:00::'
       - 'amputator%1:18:00::'
+      event:
+      - 'amputation%1:04:00::'
       id: 'amputate%2:35:00::'
       sent:
       - Did he amputate his foot?
+      state:
+      - 'amputation%1:26:00::'
       subcat:
       - vtai
       synset: 01257256-v
@@ -50527,6 +51410,8 @@ amuse:
     - derivation:
       - amusive%5:00:00:interesting:00
       - 'amusement%1:04:00::'
+      event:
+      - 'amusement%1:04:00::'
       id: 'amuse%2:41:00::'
       sent:
       - The performance is likely to amuse Sue
@@ -50540,6 +51425,8 @@ amuse:
       id: 'amuse%2:32:00::'
       sent:
       - Sam cannot amuse Sue
+      state:
+      - 'amusement%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -51212,6 +52099,8 @@ anagram:
     - derivation:
       - 'anagram%1:10:00::'
       id: 'anagram%2:31:00::'
+      result:
+      - 'anagram%1:10:00::'
       subcat:
       - via
       synset: 00627155-v
@@ -51578,6 +52467,8 @@ analyse:
     sense:
     - derivation:
       - 'analyser%1:06:00::'
+      instrument:
+      - 'analyser%1:06:00::'
       id: 'analyse%2:31:00::'
       sent:
       - Sam and Sue analyse the movie
@@ -51589,6 +52480,8 @@ analyse:
       - vtai
       synset: 00738221-v
     - derivation:
+      - 'analyser%1:06:00::'
+      instrument:
       - 'analyser%1:06:00::'
       id: 'analyse%2:31:01::'
       subcat:
@@ -51776,6 +52669,8 @@ analyze:
       - 'synthesize%2:31:00::'
       derivation:
       - 'analyst%1:18:00::'
+      - 'analyzer%1:06:00::'
+      instrument:
       - 'analyzer%1:06:00::'
       id: 'analyze%2:31:01::'
       subcat:
@@ -52277,6 +53172,9 @@ anathematise:
       - 'anathematization%1:04:00::'
       - 'anathema%1:10:00::'
       - 'anathematisation%1:04:00::'
+      event:
+      - 'anathematization%1:04:00::'
+      - 'anathematisation%1:04:00::'
       id: 'anathematise%2:32:00::'
       subcat:
       - vtaa
@@ -52298,6 +53196,8 @@ anathematize:
     - derivation:
       - 'anathematization%1:04:00::'
       - 'anathema%1:10:00::'
+      event:
+      - 'anathematization%1:04:00::'
       id: 'anathematize%2:32:00::'
       sent:
       - Sam and Sue anathematize the movie
@@ -52550,7 +53450,9 @@ anchor:
       synset: 09812410-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'anchor%1:09:00::'
+      derivation:
       - 'anchor%1:09:00::'
       id: 'anchor%2:35:01::'
       subcat:
@@ -52561,6 +53463,8 @@ anchor:
       - 'anchor%1:06:00::'
       - 'anchorage%1:15:00::'
       - 'anchorage%1:04:00::'
+      instrument:
+      - 'anchor%1:06:00::'
       id: 'anchor%2:35:00::'
       subcat:
       - via
@@ -53679,10 +54583,16 @@ anger:
       id: 'anger%2:37:00::'
       sent:
       - The bad news will anger him
+      state:
+      - 'anger%1:26:00::'
+      - 'anger%1:12:00::'
+      - 'anger%1:04:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01789790-v
+      undergoer:
+      - 'anger%1:04:00::'
     - derivation:
       - 'anger%1:26:00::'
       - 'anger%1:12:00::'
@@ -53690,9 +54600,15 @@ anger:
       id: 'anger%2:37:01::'
       sent:
       - Sam and Sue anger over the results of the experiment
+      state:
+      - 'anger%1:26:00::'
+      - 'anger%1:12:00::'
+      - 'anger%1:04:00::'
       subcat:
       - via
       synset: 01790925-v
+      undergoer:
+      - 'anger%1:04:00::'
 angered:
   a:
     sense:
@@ -53958,10 +54874,14 @@ angle:
       synset: 06220813-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'angler%1:18:01::'
+      derivation:
       - 'angle%1:25:00::'
       - 'angler%1:18:01::'
       id: 'angle%2:38:01::'
+      location:
+      - 'angle%1:25:00::'
       subcat:
       - via
       - vii
@@ -53970,6 +54890,8 @@ angle:
     - derivation:
       - 'angle%1:25:00::'
       id: 'angle%2:38:00::'
+      location:
+      - 'angle%1:25:00::'
       subcat:
       - via-pp
       - vii
@@ -53979,7 +54901,9 @@ angle:
       subcat:
       - via
       synset: 01322006-v
-    - derivation:
+    - agent:
+      - 'angler%1:18:00::'
+      derivation:
       - 'angler%1:05:00::'
       - 'angler%1:18:00::'
       id: 'angle%2:33:00::'
@@ -54292,6 +55216,8 @@ anguish:
     sense:
     - derivation:
       - 'anguish%1:12:02::'
+      event:
+      - 'anguish%1:12:02::'
       id: 'anguish%2:37:02::'
       sent:
       - Sam and Sue anguish over the results of the experiment
@@ -54299,6 +55225,9 @@ anguish:
       - via
       synset: 01798980-v
     - derivation:
+      - 'anguish%1:26:00::'
+      - 'anguish%1:12:02::'
+      event:
       - 'anguish%1:26:00::'
       - 'anguish%1:12:02::'
       id: 'anguish%2:37:00::'
@@ -54534,6 +55463,8 @@ animadvert:
       synset: 01029677-v
     - derivation:
       - 'animadversion%1:10:00::'
+      event:
+      - 'animadversion%1:10:00::'
       id: 'animadvert%2:32:01::'
       subcat:
       - via
@@ -54733,6 +55664,8 @@ animalise:
     - derivation:
       - 'animal%1:03:00::'
       id: 'animalise%2:36:00::'
+      result:
+      - 'animal%1:03:00::'
       subcat:
       - vtaa
       - vtai
@@ -54787,6 +55720,8 @@ animalize:
     - derivation:
       - 'animal%1:03:00::'
       id: 'animalize%2:36:00::'
+      result:
+      - 'animal%1:03:00::'
       subcat:
       - vtaa
       - vtai
@@ -54828,14 +55763,18 @@ animate:
       - vtaa
       - vtia
       synset: 01816687-v
-    - derivation:
+    - agent:
+      - 'animator%1:18:00::'
+      derivation:
       - 'animator%1:18:00::'
       id: 'animate%2:30:01::'
       subcat:
       - vtia
       - vtii
       synset: 00549075-v
-    - derivation:
+    - agent:
+      - 'animator%1:18:01::'
+      derivation:
       - 'animator%1:18:01::'
       id: 'animate%2:30:00::'
       subcat:
@@ -55507,6 +56446,8 @@ annex:
       - vtai
       - vtii
       synset: 01331823-v
+      undergoer:
+      - 'annex%1:06:00::'
 annexa:
   n:
     sense:
@@ -55553,11 +56494,16 @@ annihilate:
     - value: əˈnaɪə.leɪt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'annihilator%1:18:00::'
+      derivation:
       - annihilative%5:00:00:destructive:00
       - 'annihilation%1:11:00::'
       - 'annihilation%1:04:00::'
       - 'annihilator%1:18:00::'
+      event:
+      - 'annihilation%1:11:00::'
+      - 'annihilation%1:04:00::'
       id: 'annihilate%2:30:00::'
       subcat:
       - vtaa
@@ -55625,17 +56571,23 @@ annon:
 annotate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'annotator%1:18:00::'
+      derivation:
       - 'note%1:10:02::'
       - 'annotation%1:10:00::'
       - 'annotation%1:04:00::'
       - 'annotator%1:18:00::'
+      event:
+      - 'annotation%1:04:00::'
       id: 'annotate%2:36:00::'
       sent:
       - Did he annotate his major works over a short period of time?
       subcat:
       - vtai
       synset: 01708812-v
+      undergoer:
+      - 'annotation%1:10:00::'
     - derivation:
       - 'note%1:10:02::'
       id: 'annotate%2:32:00::'
@@ -55673,7 +56625,10 @@ announce:
     - value: ˈæ.naʊns
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'announcer%1:18:00::'
+      - 'announcer%1:18:01::'
+      derivation:
       - 'annunciatory%3:01:00::'
       - 'announcer%1:18:00::'
       - 'announcer%1:18:01::'
@@ -55684,19 +56639,27 @@ announce:
       - vtia
       - vtii
       synset: 00976399-v
-    - derivation:
+    - agent:
+      - 'announcer%1:18:01::'
+      - 'announcer%1:18:00::'
+      derivation:
       - 'annunciatory%3:01:00::'
       - 'announcement%1:10:01::'
       - 'announcement%1:10:00::'
       - 'announcer%1:18:00::'
       - 'announcer%1:18:01::'
+      event:
+      - 'announcement%1:10:01::'
+      - 'announcement%1:10:00::'
       id: 'announce%2:32:02::'
       sent:
       - They announce that there was a traffic accident
       subcat:
       - vtai
       synset: 00967903-v
-    - derivation:
+    - agent:
+      - 'announcer%1:18:01::'
+      derivation:
       - 'announcer%1:18:01::'
       id: 'announce%2:32:07::'
       subcat:
@@ -55751,8 +56714,12 @@ annoy:
     pronunciation:
     - value: əˈnɔɪ
     sense:
-    - derivation:
+    - agent:
       - 'annoyer%1:18:00::'
+      derivation:
+      - 'annoyer%1:18:00::'
+      - 'annoyance%1:04:00::'
+      event:
       - 'annoyance%1:04:00::'
       id: 'annoy%2:37:00::'
       sent:
@@ -55914,12 +56881,16 @@ annul:
     sense:
     - derivation:
       - 'annulment%1:04:00::'
+      event:
+      - 'annulment%1:04:00::'
       id: 'annul%2:41:00::'
       subcat:
       - vtai
       - vtii
       synset: 02483482-v
     - derivation:
+      - 'annulment%1:04:01::'
+      event:
       - 'annulment%1:04:01::'
       id: 'annul%2:32:00::'
       subcat:
@@ -55996,6 +56967,8 @@ annunciate:
   v:
     sense:
     - derivation:
+      - 'annunciator%1:06:00::'
+      instrument:
       - 'annunciator%1:06:00::'
       id: 'annunciate%2:32:00::'
       subcat:
@@ -56131,9 +57104,13 @@ anoint:
       - vtaa
       - vtia
       synset: 00677331-v
-    - derivation:
+    - agent:
+      - 'anointer%1:18:00::'
+      derivation:
       - 'anointment%1:04:00::'
       - 'anointer%1:18:00::'
+      event:
+      - 'anointment%1:04:00::'
       id: 'anoint%2:29:00::'
       subcat:
       - vtaa
@@ -56659,11 +57636,19 @@ answer:
       synset: 01237517-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'answerer%1:18:00::'
+      by_means_of:
+      - 'answer%1:10:01::'
+      derivation:
       - 'answer%1:10:01::'
       - 'answer%1:10:00::'
       - 'answerer%1:18:00::'
+      event:
+      - 'answer%1:10:00::'
       id: 'answer%2:32:00::'
+      result:
+      - 'answer%1:10:01::'
       sent:
       - They answer that there was a traffic accident
       subcat:
@@ -56674,13 +57659,19 @@ answer:
       synset: 00817348-v
     - derivation:
       - 'answer%1:04:00::'
+      event:
+      - 'answer%1:04:00::'
       id: 'answer%2:31:02::'
       subcat:
       - vtai
       synset: 00721514-v
-    - derivation:
+    - by_means_of:
+      - 'answer%1:10:02::'
+      derivation:
       - 'answer%1:10:02::'
       id: 'answer%2:31:00::'
+      result:
+      - 'answer%1:10:02::'
       subcat:
       - vtai
       synset: 00637941-v
@@ -56692,6 +57683,8 @@ answer:
       - vtii
       synset: 00637185-v
     - derivation:
+      - 'answer%1:10:03::'
+      event:
       - 'answer%1:10:03::'
       id: 'answer%2:32:06::'
       subcat:
@@ -56715,6 +57708,8 @@ answer:
       - vtii
       synset: 01186429-v
     - derivation:
+      - 'answer%1:04:00::'
+      event:
       - 'answer%1:04:00::'
       id: 'answer%2:31:05::'
       subcat:
@@ -57006,6 +58001,8 @@ ante:
       subcat:
       - vtai
       synset: 01141806-v
+      undergoer:
+      - 'ante%1:21:00::'
 ante meridiem:
   a:
     sense:
@@ -57058,6 +58055,8 @@ antecede:
     - derivation:
       - 'antecedency%1:07:00::'
       - 'antecedent%1:11:00::'
+      - 'antecedence%1:07:00::'
+      event:
       - 'antecedence%1:07:00::'
       id: 'antecede%2:42:00::'
       subcat:
@@ -58350,6 +59349,8 @@ antic:
     sense:
     - derivation:
       - 'antic%1:04:00::'
+      event:
+      - 'antic%1:04:00::'
       id: 'antic%2:29:00::'
       subcat:
       - via
@@ -58422,14 +59423,18 @@ anticipate:
       - via-to-inf
       - vtai
       synset: 00721658-v
-    - derivation:
+    - agent:
+      - 'anticipator%1:18:00::'
+      derivation:
       - anticipatory%5:00:00:antecedent:00
       - 'anticipator%1:18:00::'
       id: 'anticipate%2:41:00::'
       subcat:
       - vtai
       synset: 02571406-v
-    - derivation:
+    - agent:
+      - 'anticipator%1:18:00::'
+      derivation:
       - 'anticipator%1:18:00::'
       id: 'anticipate%2:31:01::'
       subcat:
@@ -59550,9 +60555,13 @@ antique:
       - via
       - via-pp
       synset: 02331791-v
+      undergoer:
+      - 'antique%1:06:00::'
     - derivation:
       - 'antique%1:06:00::'
       id: 'antique%2:30:00::'
+      result:
+      - 'antique%1:06:00::'
       subcat:
       - vtai
       synset: 00254387-v
@@ -60542,7 +61551,10 @@ ape:
       synset: 09815626-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'aper%1:18:00::'
+      - 'ape%1:18:01::'
+      derivation:
       - 'ape%1:18:01::'
       - 'aper%1:18:00::'
       - 'apery%1:04:00::'
@@ -62109,6 +63121,8 @@ apparel:
       - vtaa
       - vtai
       synset: 00047662-v
+      uses:
+      - 'apparel%1:06:00::'
 apparel chain:
   n:
     sense:
@@ -62240,12 +63254,16 @@ appeal:
       - 'appellant%3:01:00::'
       - 'appellant%1:18:00::'
       - 'appeal%1:04:00::'
+      event:
+      - 'appeal%1:04:00::'
       id: 'appeal%2:41:00::'
       subcat:
       - via
       - vtai
       synset: 02503235-v
     - derivation:
+      - 'appeal%1:10:00::'
+      event:
       - 'appeal%1:10:00::'
       id: 'appeal%2:32:00::'
       subcat:
@@ -62254,6 +63272,8 @@ appeal:
     - derivation:
       - 'appeal%1:07:00::'
       id: 'appeal%2:37:00::'
+      property:
+      - 'appeal%1:07:00::'
       subcat:
       - vii-pp
       - vtaa
@@ -62262,6 +63282,8 @@ appeal:
     - derivation:
       - 'appealable%3:00:00::'
       - 'appellant%3:01:00::'
+      - 'appeal%1:04:00::'
+      event:
       - 'appeal%1:04:00::'
       id: 'appeal%2:41:04::'
       subcat:
@@ -62346,6 +63368,8 @@ appear:
     sense:
     - derivation:
       - 'appearance%1:09:00::'
+      event:
+      - 'appearance%1:09:00::'
       id: 'appear%2:39:00::'
       sent:
       - They appear to move
@@ -62361,7 +63385,12 @@ appear:
       - 'apparition%1:04:00::'
       - 'appearance%1:11:00::'
       - 'appearance%1:07:00::'
+      event:
+      - 'apparition%1:04:00::'
+      - 'appearance%1:11:00::'
       id: 'appear%2:30:00::'
+      property:
+      - 'appearance%1:07:00::'
       sent:
       - The moon will soon appear
       subcat:
@@ -62386,6 +63415,8 @@ appear:
       - 'disappear%2:30:02::'
       derivation:
       - 'apparition%1:04:00::'
+      event:
+      - 'apparition%1:04:00::'
       id: 'appear%2:30:02::'
       subcat:
       - via
@@ -62393,11 +63424,15 @@ appear:
       synset: 00426024-v
     - derivation:
       - 'appearance%1:04:00::'
+      event:
+      - 'appearance%1:04:00::'
       id: 'appear%2:36:00::'
       subcat:
       - via-pp
       synset: 01725046-v
     - derivation:
+      - 'appearance%1:04:01::'
+      event:
       - 'appearance%1:04:01::'
       id: 'appear%2:41:03::'
       subcat:
@@ -62472,7 +63507,9 @@ appease:
       - vii
       - vtia
       synset: 01196647-v
-    - derivation:
+    - agent:
+      - 'appeaser%1:18:00::'
+      derivation:
       - appeasable%5:00:00:placable:00
       - 'appeaser%1:18:00::'
       id: 'appease%2:32:00::'
@@ -62698,6 +63735,8 @@ apperceive:
     sense:
     - derivation:
       - 'apperception%1:09:00::'
+      event:
+      - 'apperception%1:09:00::'
       id: 'apperceive%2:39:00::'
       subcat:
       - vtaa
@@ -62726,7 +63765,9 @@ appertain:
     - value: æpɚˈteɪn
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'appurtenance%1:06:00::'
+      derivation:
       - appurtenant%5:00:00:supportive:00
       - 'appurtenance%1:06:00::'
       id: 'appertain%2:42:00::'
@@ -62836,7 +63877,9 @@ applaud:
     - value: əˈplɔd
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'applauder%1:18:00::'
+      antonym:
       - 'boo%2:32:00::'
       derivation:
       - 'applauder%1:18:00::'
@@ -62846,7 +63889,9 @@ applaud:
       - vtaa
       - vtai
       synset: 00863593-v
-    - derivation:
+    - agent:
+      - 'applauder%1:18:00::'
+      derivation:
       - applaudable%5:00:00:worthy:00
       - 'applauder%1:18:00::'
       id: 'applaud%2:32:00::'
@@ -63267,6 +64312,8 @@ applique:
       subcat:
       - vtai
       synset: 01674672-v
+      undergoer:
+      - 'applique%1:06:00::'
 apply:
   v:
     form:
@@ -63277,6 +64324,8 @@ apply:
     - derivation:
       - applicative%5:00:00:practical:00
       - applicatory%5:00:00:practical:00
+      - 'application%1:04:02::'
+      event:
       - 'application%1:04:02::'
       id: 'apply%2:34:00::'
       subcat:
@@ -63295,10 +64344,14 @@ apply:
       - vii
       - vii-pp
       synset: 02682599-v
-    - derivation:
+    - agent:
+      - 'applier%1:18:00::'
+      derivation:
       - 'application%1:10:00::'
       - 'applicant%1:18:00::'
       - 'applier%1:18:00::'
+      event:
+      - 'application%1:10:00::'
       id: 'apply%2:32:00::'
       sent:
       - They apply to move
@@ -63311,7 +64364,13 @@ apply:
       - 'application%1:06:00::'
       - 'application%1:04:03::'
       - 'applier%1:06:00::'
+      event:
+      - 'application%1:04:03::'
+      instrument:
+      - 'applier%1:06:00::'
       id: 'apply%2:35:00::'
+      material:
+      - 'application%1:06:00::'
       subcat:
       - vtai-pp
       synset: 01366351-v
@@ -63319,6 +64378,8 @@ apply:
       - applicative%5:00:00:practical:00
       - applicable%5:00:00:relevant:00
       - applicatory%5:00:00:practical:00
+      - 'application%1:04:02::'
+      event:
       - 'application%1:04:02::'
       id: 'apply%2:42:01::'
       subcat:
@@ -63330,6 +64391,8 @@ apply:
       synset: 02314145-v
     - derivation:
       - applicable%5:00:00:relevant:00
+      - 'application%1:04:02::'
+      event:
       - 'application%1:04:02::'
       id: 'apply%2:41:01::'
       subcat:
@@ -63343,12 +64406,16 @@ apply:
       synset: 02565990-v
     - derivation:
       - 'application%1:04:02::'
+      event:
+      - 'application%1:04:02::'
       id: 'apply%2:32:01::'
       subcat:
       - vtai-pp
       - vtai-to
       synset: 01028567-v
     - derivation:
+      - 'application%1:04:01::'
+      event:
       - 'application%1:04:01::'
       id: 'apply%2:41:09::'
       subcat:
@@ -63378,6 +64445,9 @@ appoint:
       - vtaa
       - vtai
       synset: 02401347-v
+      undergoer:
+      - 'appointee%1:18:01::'
+      - 'appointee%1:18:00::'
     - derivation:
       - 'appointive%3:01:00::'
       - 'appointive%3:00:00::'
@@ -63390,6 +64460,9 @@ appoint:
       - ditransitive
       - vtaa
       synset: 02481345-v
+      undergoer:
+      - 'appointee%1:18:01::'
+      - 'appointee%1:18:00::'
     - id: 'appoint%2:40:00::'
       subcat:
       - vtaa
@@ -63480,6 +64553,8 @@ apportion:
     - derivation:
       - apportionable%5:00:00:distributive:00
       - 'apportionment%1:04:00::'
+      event:
+      - 'apportionment%1:04:00::'
       id: 'apportion%2:40:01::'
       subcat:
       - vtai
@@ -63530,6 +64605,8 @@ appose:
     - derivation:
       - 'appositive%3:01:00::'
       - 'apposable%3:00:00::'
+      - 'apposition%1:04:00::'
+      event:
       - 'apposition%1:04:00::'
       id: 'appose%2:35:00::'
       subcat:
@@ -63617,9 +64694,14 @@ appraisal cost:
 appraise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'appraiser%1:18:01::'
+      - 'appraiser%1:18:02::'
+      derivation:
       - 'appraiser%1:18:02::'
       - 'appraiser%1:18:01::'
+      - 'appraisal%1:09:00::'
+      event:
       - 'appraisal%1:09:00::'
       id: 'appraise%2:31:01::'
       subcat:
@@ -63671,7 +64753,9 @@ appreciate:
       subcat:
       - vtai
       synset: 01809949-v
-    - derivation:
+    - agent:
+      - 'appreciator%1:18:00::'
+      derivation:
       - 'appreciator%1:18:00::'
       id: 'appreciate%2:31:00::'
       subcat:
@@ -63764,30 +64848,43 @@ apprehend:
     - value: æ.pɹiˈhɛnd
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'apprehender%1:18:01::'
+      derivation:
       - apprehensible%5:00:00:comprehensible:00
       - apprehensive%5:00:00:perceptive:00
       - 'apprehension%1:09:00::'
       - 'apprehender%1:18:01::'
       id: 'apprehend%2:31:00::'
+      state:
+      - 'apprehension%1:09:00::'
       subcat:
       - via-that
       - vtai
       synset: 00589616-v
-    - derivation:
+    - agent:
+      - 'apprehender%1:18:00::'
+      derivation:
       - 'apprehension%1:04:00::'
       - 'apprehender%1:18:00::'
+      event:
+      - 'apprehension%1:04:00::'
       id: 'apprehend%2:35:00::'
       subcat:
       - vtaa
       synset: 01217701-v
-    - derivation:
+    - agent:
+      - 'apprehender%1:18:01::'
+      derivation:
       - apprehensive%5:00:00:uneasy:00
       - apprehensive%5:00:00:afraid:00
       - 'apprehension%1:12:00::'
       - 'apprehension%1:09:01::'
       - 'apprehender%1:18:01::'
       id: 'apprehend%2:37:00::'
+      state:
+      - 'apprehension%1:12:00::'
+      - 'apprehension%1:09:01::'
       subcat:
       - vtai
       synset: 01786251-v
@@ -63887,7 +64984,9 @@ apprentice:
     pronunciation:
     - value: əˈpɹɛntɪs
     sense:
-    - derivation:
+    - agent:
+      - 'apprentice%1:18:00::'
+      derivation:
       - 'apprentice%1:18:00::'
       id: 'apprentice%2:31:00::'
       subcat:
@@ -63925,6 +65024,8 @@ apprise:
     - value: əˈpɹaɪ̯z
     sense:
     - derivation:
+      - 'apprisal%1:10:00::'
+      event:
       - 'apprisal%1:10:00::'
       id: 'apprise%2:32:00::'
       subcat:
@@ -64015,6 +65116,9 @@ approach:
       - approachable%5:00:00:accessible:00
       - 'approach%1:11:00::'
       - 'approach%1:04:00::'
+      event:
+      - 'approach%1:11:00::'
+      - 'approach%1:04:00::'
       id: 'approach%2:38:00::'
       sent:
       - Sam and Sue approach
@@ -64025,11 +65129,15 @@ approach:
       synset: 02057865-v
     - derivation:
       - 'approach%1:07:01::'
+      event:
+      - 'approach%1:07:01::'
       id: 'approach%2:42:00::'
       subcat:
       - vtii
       synset: 02709812-v
     - derivation:
+      - 'approach%1:04:02::'
+      event:
       - 'approach%1:04:02::'
       id: 'approach%2:41:00::'
       subcat:
@@ -64038,6 +65146,8 @@ approach:
     - derivation:
       - 'approach%1:07:00::'
       id: 'approach%2:38:01::'
+      property:
+      - 'approach%1:07:00::'
       subcat:
       - via
       - vii
@@ -64046,7 +65156,9 @@ approach:
       - vtia
       - vtii
       synset: 01853713-v
-    - derivation:
+    - by_means_of:
+      - 'approach%1:10:00::'
+      derivation:
       - 'approachable%3:00:00::'
       - 'approach%1:10:00::'
       id: 'approach%2:32:00::'
@@ -64126,9 +65238,16 @@ approaching:
 approbate:
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'approval%1:10:00::'
+      derivation:
       - 'approval%1:26:00::'
       - 'approval%1:10:00::'
+      - 'approval%1:04:02::'
+      - 'approbation%1:12:00::'
+      - 'approbation%1:10:00::'
+      event:
+      - 'approval%1:26:00::'
       - 'approval%1:04:02::'
       - 'approbation%1:12:00::'
       - 'approbation%1:10:00::'
@@ -64139,6 +65258,9 @@ approbate:
     - antonym:
       - 'reprobate%2:31:00::'
       derivation:
+      - 'approbation%1:12:00::'
+      - 'approbation%1:10:00::'
+      event:
       - 'approbation%1:12:00::'
       - 'approbation%1:10:00::'
       id: 'approbate%2:31:00::'
@@ -64225,7 +65347,9 @@ appropriate:
       - vtai
       - vtai-to
       synset: 00726112-v
-    - derivation:
+    - agent:
+      - 'appropriator%1:18:00::'
+      derivation:
       - 'appropriative%3:01:00::'
       - 'appropriator%1:18:00::'
       id: 'appropriate%2:40:00::'
@@ -64322,13 +65446,18 @@ approval:
 approve:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'approver%1:18:00::'
+      antonym:
       - 'disapprove%2:32:00::'
       derivation:
       - approbative%5:00:00:favorable:02
       - 'approbation%1:10:00::'
       - 'approver%1:18:00::'
       - 'approval%1:04:02::'
+      event:
+      - 'approval%1:04:02::'
+      - 'approbation%1:10:00::'
       id: 'approve%2:32:00::'
       subcat:
       - via-pp
@@ -64342,7 +65471,12 @@ approve:
       - 'approbation%1:12:00::'
       - 'approbation%1:10:00::'
       - 'approval%1:12:00::'
+      event:
+      - 'approbation%1:12:00::'
+      - 'approbation%1:10:00::'
       id: 'approve%2:31:00::'
+      state:
+      - 'approval%1:12:00::'
       subcat:
       - via
       - vtaa
@@ -64799,6 +65933,8 @@ aquaplane:
       synset: 01960371-v
     - derivation:
       - 'aquaplane%1:06:00::'
+      instrument:
+      - 'aquaplane%1:06:00::'
       id: 'aquaplane%2:38:00::'
       subcat:
       - vii
@@ -64890,10 +66026,14 @@ aquatint:
       synset: 00940907-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'aquatint%1:04:00::'
+      derivation:
       - 'aquatint%1:06:00::'
       - 'aquatint%1:04:00::'
       id: 'aquatint%2:36:00::'
+      result:
+      - 'aquatint%1:06:00::'
       subcat:
       - via
       - vtai
@@ -65209,8 +66349,12 @@ arbitrage:
     - value: ˈɑɹbɪˌtɹɑʒ
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'arbitrager%1:18:00::'
+      derivation:
+      - 'arbitrager%1:18:00::'
+      - 'arbitrage%1:04:00::'
+      event:
       - 'arbitrage%1:04:00::'
       id: 'arbitrage%2:40:00::'
       subcat:
@@ -65279,7 +66423,10 @@ arbitrary:
 arbitrate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'arbiter%1:18:00::'
+      - 'arbitrator%1:18:00::'
+      derivation:
       - 'arbitrative%3:01:00::'
       - 'arbitrable%3:00:00::'
       - 'arbitrement%1:04:00::'
@@ -65288,6 +66435,11 @@ arbitrate:
       - 'arbitration%1:10:00::'
       - 'arbitration%1:04:00::'
       - 'arbitrator%1:18:00::'
+      event:
+      - 'arbitration%1:10:00::'
+      - 'arbitration%1:04:00::'
+      - 'arbitrement%1:04:00::'
+      - 'arbitrament%1:04:00::'
       id: 'arbitrate%2:32:00::'
       sent:
       - Sam and Sue arbitrate
@@ -65584,6 +66736,9 @@ arc:
       - 'arc%1:25:01::'
       - 'arc%1:25:00::'
       id: 'arc%2:38:00::'
+      result:
+      - 'arc%1:25:01::'
+      - 'arc%1:25:00::'
       subcat:
       - vii
       - vtai
@@ -65756,6 +66911,11 @@ arch:
       - 'arch%1:06:01::'
       - 'arch%1:06:00::'
       id: 'arch%2:38:00::'
+      result:
+      - 'arch%1:25:00::'
+      - 'arch%1:08:00::'
+      - 'arch%1:06:01::'
+      - 'arch%1:06:00::'
       subcat:
       - vii
       - vtai
@@ -66448,6 +67608,8 @@ archive:
     - derivation:
       - 'archive%1:06:00::'
       id: 'archive%2:35:00::'
+      result:
+      - 'archive%1:06:00::'
       sent:
       - They archive the newspapers
       subcat:
@@ -67141,12 +68303,18 @@ argue:
     - value: ˈɑɹ.ɡju
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'arguer%1:18:00::'
+      derivation:
       - arguable%5:00:00:plausible:00
       - 'argument%1:10:00::'
       - 'argumentation%1:10:00::'
       - 'argumentation%1:09:00::'
       - 'arguer%1:18:00::'
+      event:
+      - 'argumentation%1:10:00::'
+      - 'argumentation%1:09:00::'
+      - 'argument%1:10:00::'
       id: 'argue%2:32:02::'
       sent:
       - Sam and Sue argue
@@ -67154,10 +68322,14 @@ argue:
       subcat:
       - via-that
       synset: 00774234-v
-    - derivation:
+    - agent:
+      - 'arguer%1:18:00::'
+      derivation:
       - 'argumentative%3:00:00::'
       - 'argument%1:10:03::'
       - 'arguer%1:18:00::'
+      event:
+      - 'argument%1:10:03::'
       id: 'argue%2:32:00::'
       sent:
       - Sam and Sue argue
@@ -67167,8 +68339,13 @@ argue:
       - via-pp
       - vtai
       synset: 00775477-v
-    - derivation:
+    - by_means_of:
       - 'argument%1:10:02::'
+      derivation:
+      - 'argument%1:10:02::'
+      - 'argumentation%1:10:00::'
+      - 'argumentation%1:09:00::'
+      event:
       - 'argumentation%1:10:00::'
       - 'argumentation%1:09:00::'
       id: 'argue%2:32:01::'
@@ -67642,6 +68819,10 @@ arm:
       - 'armor%1:14:00::'
       - 'armament%1:04:00::'
       - 'arm%1:06:01::'
+      event:
+      - 'armament%1:04:00::'
+      instrument:
+      - 'arm%1:06:01::'
       id: 'arm%2:33:00::'
       subcat:
       - via
@@ -67649,11 +68830,15 @@ arm:
     - derivation:
       - 'armament%1:06:00::'
       - 'arm%1:06:01::'
+      instrument:
+      - 'arm%1:06:01::'
       id: 'arm%2:40:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02339863-v
+      uses:
+      - 'armament%1:06:00::'
 arm band:
   n:
     sense:
@@ -67946,13 +69131,17 @@ armor:
     - value: ˈɑː.mə
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'armor%1:06:00::'
+      derivation:
       - 'armor%1:06:00::'
       id: 'armor%2:40:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02346680-v
+      uses:
+      - 'armor%1:06:00::'
 armor plate:
   n:
     sense:
@@ -68093,6 +69282,8 @@ armour:
       - vtaa
       - vtai
       synset: 02346680-v
+      uses:
+      - 'armour%1:06:00::'
 armour plate:
   n:
     sense:
@@ -68487,11 +69678,15 @@ arouse:
     sense:
     - derivation:
       - 'arousal%1:04:00::'
+      event:
+      - 'arousal%1:04:00::'
       id: 'arouse%2:37:00::'
       subcat:
       - vtai
       synset: 01763170-v
     - derivation:
+      - 'arousal%1:09:00::'
+      event:
       - 'arousal%1:09:00::'
       id: 'arouse%2:29:05::'
       subcat:
@@ -68510,8 +69705,12 @@ arouse:
       - vtia
       - vtii
       synset: 00022679-v
-    - derivation:
+    - agent:
       - 'arouser%1:18:00::'
+      derivation:
+      - 'arouser%1:18:00::'
+      - 'arousal%1:09:00::'
+      event:
       - 'arousal%1:09:00::'
       id: 'arouse%2:29:01::'
       subcat:
@@ -68585,7 +69784,9 @@ arraign:
     pronunciation:
     - value: əˈɹeɪn
     sense:
-    - derivation:
+    - by_means_of:
+      - 'arraignment%1:10:00::'
+      derivation:
       - 'arraignment%1:10:00::'
       id: 'arraign%2:41:00::'
       sent:
@@ -68612,22 +69813,30 @@ arrange:
     pronunciation:
     - value: əˈɹeɪndʒ
     sense:
-    - antonym:
+    - agent:
+      - 'arranger%1:18:00::'
+      antonym:
       - 'disarrange%2:35:00::'
       derivation:
       - 'arrangement%1:07:00::'
       - 'arranger%1:18:00::'
       id: 'arrange%2:35:00::'
+      property:
+      - 'arrangement%1:07:00::'
       sent:
       - They arrange the bags on the table
       - The men arrange the bookshelves
       subcat:
       - vtai
       synset: 01466592-v
-    - derivation:
+    - agent:
+      - 'arranger%1:18:00::'
+      derivation:
       - 'arrangement%1:09:01::'
       - 'arranger%1:18:00::'
       id: 'arrange%2:32:04::'
+      result:
+      - 'arrangement%1:09:01::'
       subcat:
       - via-that
       - vtai
@@ -68643,12 +69852,16 @@ arrange:
     - derivation:
       - 'arrangement%1:14:00::'
       id: 'arrange%2:29:00::'
+      result:
+      - 'arrangement%1:14:00::'
       sent:
       - They arrange their hair
       subcat:
       - vtai
       synset: 00038562-v
-    - derivation:
+    - agent:
+      - 'arranger%1:18:01::'
+      derivation:
       - 'arranger%1:18:01::'
       id: 'arrange%2:36:00::'
       sent:
@@ -68753,6 +69966,8 @@ array:
     - derivation:
       - 'array%1:14:00::'
       id: 'array%2:35:00::'
+      result:
+      - 'array%1:14:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -68792,6 +70007,8 @@ arrest:
     sense:
     - derivation:
       - 'arrest%1:04:00::'
+      event:
+      - 'arrest%1:04:00::'
       id: 'arrest%2:35:00::'
       subcat:
       - vtaa
@@ -68811,6 +70028,8 @@ arrest:
       - vtii
       synset: 01508590-v
     - derivation:
+      - 'arrester%1:06:00::'
+      instrument:
       - 'arrester%1:06:00::'
       id: 'arrest%2:38:00::'
       subcat:
@@ -68902,10 +70121,14 @@ arrive:
     pronunciation:
     - value: əˈɹaɪv
     sense:
-    - antonym:
+    - agent:
+      - 'arriver%1:18:00::'
+      antonym:
       - 'leave%2:38:01::'
       derivation:
       - 'arriver%1:18:00::'
+      - 'arrival%1:04:01::'
+      event:
       - 'arrival%1:04:01::'
       id: 'arrive%2:38:00::'
       sent:
@@ -68989,21 +70212,29 @@ arrogate:
     pronunciation:
     - value: ˈæɹəɡeɪt
     sense:
-    - derivation:
+    - agent:
+      - 'arrogator%1:18:00::'
+      derivation:
       - 'arrogator%1:18:00::'
       id: 'arrogate%2:40:02::'
       subcat:
       - vtai
       synset: 02280210-v
-    - derivation:
+    - agent:
+      - 'arrogator%1:18:00::'
+      derivation:
       - 'arrogator%1:18:00::'
       id: 'arrogate%2:40:01::'
       subcat:
       - vtai-to
       synset: 02281591-v
-    - derivation:
+    - agent:
+      - 'arrogator%1:18:00::'
+      derivation:
       - 'arrogation%1:04:00::'
       - 'arrogator%1:18:00::'
+      event:
+      - 'arrogation%1:04:00::'
       id: 'arrogate%2:40:00::'
       subcat:
       - vtai
@@ -70396,23 +71627,36 @@ articulate:
       - 'articulation%1:25:00::'
       - 'articulation%1:08:00::'
       - 'articulation%1:04:00::'
+      event:
+      - 'articulation%1:04:00::'
       id: 'articulate%2:40:00::'
       subcat:
       - vtai
       synset: 02359283-v
+      uses:
+      - 'articulation%1:25:00::'
+      - 'articulation%1:08:00::'
     - derivation:
+      - 'articulation%1:10:01::'
+      event:
       - 'articulation%1:10:01::'
       id: 'articulate%2:32:02::'
       subcat:
       - vtai
       synset: 00982485-v
-    - derivation:
+    - agent:
+      - 'articulator%1:18:00::'
+      derivation:
       - 'articulative%3:01:00::'
       - 'articulatory%3:01:00::'
       - 'articulation%1:10:01::'
       - 'articulation%1:10:00::'
       - 'articulator%1:18:00::'
+      event:
+      - 'articulation%1:10:01::'
       id: 'articulate%2:32:00::'
+      property:
+      - 'articulation%1:10:00::'
       subcat:
       - vtai
       synset: 00980581-v
@@ -70422,6 +71666,8 @@ articulate:
       synset: 02628718-v
     - derivation:
       - 'articulative%3:01:00::'
+      - 'articulation%1:10:01::'
+      event:
       - 'articulation%1:10:01::'
       id: 'articulate%2:32:01::'
       subcat:
@@ -71237,7 +72483,9 @@ ascend:
     pronunciation:
     - value: əˈsɛnd
     sense:
-    - antonym:
+    - agent:
+      - 'ascender%1:18:00::'
+      antonym:
       - 'descend%2:38:00::'
       derivation:
       - ascendable%5:00:00:scalable:00
@@ -71248,6 +72496,9 @@ ascend:
       - 'ascent%1:11:00::'
       - 'ascent%1:04:00::'
       - 'ascender%1:18:00::'
+      event:
+      - 'ascension%1:11:00::'
+      - 'ascension%1:04:00::'
       id: 'ascend%2:38:02::'
       sent:
       - The airplane is sure to ascend
@@ -71284,8 +72535,12 @@ ascend:
       subcat:
       - vii
       synset: 02041317-v
+      undergoer:
+      - 'ascender%1:10:01::'
     - derivation:
       - ascendent%5:00:00:ascending:00
+      - 'ascension%1:11:01::'
+      event:
       - 'ascension%1:11:01::'
       id: 'ascend%2:38:03::'
       subcat:
@@ -71755,6 +73010,8 @@ ascribe:
     - derivation:
       - ascribable%5:00:00:attributable:00
       - 'ascription%1:09:00::'
+      event:
+      - 'ascription%1:09:00::'
       id: 'ascribe%2:31:00::'
       subcat:
       - vtai-pp
@@ -71859,6 +73116,8 @@ ash:
     - derivation:
       - 'ash%1:27:01::'
       id: 'ash%2:30:00::'
+      result:
+      - 'ash%1:27:01::'
       subcat:
       - vtai
       - vtii
@@ -72078,7 +73337,9 @@ ask:
       - vtaa-to-inf
       - vtai-from
       synset: 00754499-v
-    - derivation:
+    - agent:
+      - 'asker%1:18:00::'
+      derivation:
       - 'asker%1:18:00::'
       id: 'ask%2:32:02::'
       subcat:
@@ -72091,7 +73352,9 @@ ask:
       - vtaa-to-inf
       - vtai-from
       synset: 00757790-v
-    - derivation:
+    - agent:
+      - 'asker%1:18:00::'
+      derivation:
       - 'asker%1:18:00::'
       id: 'ask%2:32:04::'
       sent:
@@ -72449,6 +73712,9 @@ asperse:
     - derivation:
       - 'aspersion%1:10:00::'
       - 'aspersion%1:04:00::'
+      event:
+      - 'aspersion%1:10:00::'
+      - 'aspersion%1:04:00::'
       id: 'asperse%2:32:00::'
       subcat:
       - vtaa
@@ -72511,6 +73777,8 @@ asphalt:
       subcat:
       - vtai
       synset: 01270430-v
+      uses:
+      - 'asphalt%1:27:02::'
 asphaltic:
   a:
     sense:
@@ -72551,9 +73819,13 @@ asphyxiate:
       - 'asphyxiation%1:26:00::'
       - 'asphyxia%1:26:00::'
       - 'asphyxiation%1:04:00::'
+      event:
+      - 'asphyxiation%1:04:00::'
       id: 'asphyxiate%2:35:00::'
       sent:
       - They want to asphyxiate the prisoners
+      state:
+      - 'asphyxiation%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -72562,6 +73834,8 @@ asphyxiate:
       - 'asphyxiation%1:26:00::'
       - 'asphyxia%1:26:00::'
       id: 'asphyxiate%2:35:01::'
+      state:
+      - 'asphyxiation%1:26:00::'
       subcat:
       - vtia
       - vtii
@@ -72570,7 +73844,11 @@ asphyxiate:
       - 'asphyxiation%1:26:00::'
       - 'asphyxiation%1:04:00::'
       - 'asphyxia%1:26:00::'
+      event:
+      - 'asphyxiation%1:04:00::'
       id: 'asphyxiate%2:30:00::'
+      state:
+      - 'asphyxiation%1:26:00::'
       subcat:
       - via
       synset: 00360165-v
@@ -72658,12 +73936,20 @@ aspirate:
     - derivation:
       - 'aspiration%1:10:00::'
       - 'aspirate%1:10:00::'
+      event:
+      - 'aspiration%1:10:00::'
       id: 'aspirate%2:32:00::'
+      result:
+      - 'aspirate%1:10:00::'
       subcat:
       - vtai
       synset: 00954071-v
     - derivation:
       - 'aspiration%1:04:00::'
+      - 'aspirator%1:06:00::'
+      event:
+      - 'aspiration%1:04:00::'
+      instrument:
       - 'aspirator%1:06:00::'
       id: 'aspirate%2:29:00::'
       subcat:
@@ -72711,7 +73997,9 @@ aspire:
     - value: əˈspaɪɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'aspirer%1:18:00::'
+      derivation:
       - aspirant%5:00:00:ambitious:00
       - 'aspiration%1:12:00::'
       - 'aspiration%1:07:00::'
@@ -72723,6 +74011,9 @@ aspire:
       subcat:
       - via-to-inf
       synset: 00707283-v
+      undergoer:
+      - 'aspiration%1:12:00::'
+      - 'aspiration%1:07:00::'
 aspirer:
   n:
     sense:
@@ -72859,15 +74150,21 @@ assassinate:
     - value: əˈsasɪneɪt
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'assassinator%1:18:00::'
+      derivation:
       - 'assassin%1:18:00::'
       - 'assassination%1:04:00::'
       - 'assassinator%1:18:00::'
+      event:
+      - 'assassination%1:04:00::'
       id: 'assassinate%2:41:00::'
       subcat:
       - vtaa
       synset: 02488589-v
     - derivation:
+      - 'assassination%1:10:01::'
+      event:
       - 'assassination%1:10:01::'
       id: 'assassinate%2:32:00::'
       subcat:
@@ -72926,11 +74223,16 @@ assault:
     - value: əˈsɑlt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'assaulter%1:18:00::'
+      derivation:
       - assaultive%5:00:00:offensive:03
       - 'assault%1:04:02::'
       - 'assault%1:04:01::'
       - 'assaulter%1:18:00::'
+      event:
+      - 'assault%1:04:02::'
+      - 'assault%1:04:01::'
       id: 'assault%2:33:00::'
       subcat:
       - vtaa
@@ -72943,7 +74245,9 @@ assault:
       subcat:
       - vtaa
       synset: 02573434-v
-    - derivation:
+    - agent:
+      - 'assaulter%1:18:00::'
+      derivation:
       - assaultive%5:00:00:offensive:03
       - 'assaulter%1:18:00::'
       id: 'assault%2:32:00::'
@@ -73006,9 +74310,13 @@ assay:
     pronunciation:
     - value: ˈæseɪ
     sense:
-    - derivation:
+    - agent:
+      - 'assayer%1:18:00::'
+      derivation:
       - 'assay%1:04:00::'
       - 'assayer%1:18:00::'
+      event:
+      - 'assay%1:04:00::'
       id: 'assay%2:31:00::'
       subcat:
       - vtai
@@ -73188,6 +74496,8 @@ assent:
       - assentient%5:00:00:affirmative:00
       - 'assent%1:10:00::'
       - 'assenter%1:18:00::'
+      event:
+      - 'assent%1:10:00::'
       id: 'assent%2:32:00::'
       subcat:
       - via
@@ -73227,6 +74537,8 @@ assert:
     - derivation:
       - assertable%5:00:00:possible:00
       - 'assertion%1:10:00::'
+      event:
+      - 'assertion%1:10:00::'
       id: 'assert%2:32:01::'
       sent:
       - They assert that there was a traffic accident
@@ -73234,10 +74546,14 @@ assert:
       - via-that
       - vtai
       synset: 01018787-v
-    - derivation:
+    - agent:
+      - 'asserter%1:18:00::'
+      derivation:
       - assertable%5:00:00:possible:00
       - 'assertion%1:10:01::'
       - 'asserter%1:18:00::'
+      event:
+      - 'assertion%1:10:01::'
       id: 'assert%2:32:00::'
       sent:
       - They assert that there was a traffic accident
@@ -73253,6 +74569,8 @@ assert:
       synset: 02378876-v
     - derivation:
       - assertable%5:00:00:possible:00
+      - 'assertion%1:10:01::'
+      event:
       - 'assertion%1:10:01::'
       id: 'assert%2:31:00::'
       subcat:
@@ -73353,10 +74671,14 @@ assess:
     pronunciation:
     - value: əˈsɛs
     sense:
-    - derivation:
+    - agent:
+      - 'assessor%1:18:00::'
+      derivation:
       - assessable%5:00:00:taxable:00
       - 'assessment%1:09:00::'
       - 'assessor%1:18:00::'
+      event:
+      - 'assessment%1:09:00::'
       id: 'assess%2:31:00::'
       subcat:
       - vtai
@@ -73368,16 +74690,22 @@ assess:
       subcat:
       - vtaa
       synset: 02313532-v
+      undergoer:
+      - 'assessment%1:21:00::'
     - derivation:
       - 'assessment%1:21:00::'
       id: 'assess%2:40:00::'
       subcat:
       - vtai
       synset: 02313369-v
+      undergoer:
+      - 'assessment%1:21:00::'
     - derivation:
       - assessable%5:00:00:taxable:00
       - 'assessment%1:07:00::'
       id: 'assess%2:31:01::'
+      result:
+      - 'assessment%1:07:00::'
       subcat:
       - vtai
       synset: 00684149-v
@@ -73451,9 +74779,13 @@ assets:
 asseverate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'asseverator%1:18:00::'
+      derivation:
       - 'asseveration%1:10:00::'
       - 'asseverator%1:18:00::'
+      event:
+      - 'asseveration%1:10:00::'
       id: 'asseverate%2:32:00::'
       sent:
       - They asseverate that there was a traffic accident
@@ -73493,12 +74825,17 @@ assibilate:
     - derivation:
       - 'sibilant%1:10:00::'
       - 'assibilation%1:10:00::'
+      event:
+      - 'assibilation%1:10:00::'
       id: 'assibilate%2:32:00::'
       subcat:
       - vtai
       synset: 01055899-v
     - derivation:
       - 'sibilant%1:10:00::'
+      - 'assibilation%1:22:00::'
+      - 'assibilation%1:10:00::'
+      event:
       - 'assibilation%1:22:00::'
       - 'assibilation%1:10:00::'
       id: 'assibilate%2:30:00::'
@@ -73561,6 +74898,9 @@ assign:
     - derivation:
       - 'assignment%1:04:00::'
       - 'assignment%1:04:01::'
+      event:
+      - 'assignment%1:04:00::'
+      - 'assignment%1:04:01::'
       id: 'assign%2:41:00::'
       sent:
       - They assign him to write the letter
@@ -73570,6 +74910,8 @@ assign:
       - vtai-to
       synset: 02396945-v
     - derivation:
+      - 'assignation%1:04:01::'
+      event:
       - 'assignation%1:04:01::'
       id: 'assign%2:40:01::'
       sent:
@@ -73586,6 +74928,8 @@ assign:
       synset: 00728262-v
     - derivation:
       - 'assignment%1:04:03::'
+      event:
+      - 'assignment%1:04:03::'
       id: 'assign%2:31:00::'
       subcat:
       - vtaa-pp
@@ -73599,17 +74943,25 @@ assign:
       subcat:
       - vtai-to
       synset: 02281591-v
-    - derivation:
+    - by_means_of:
+      - 'assignment%1:10:02::'
+      derivation:
       - assignable%5:00:00:alienable:00
       - 'assignment%1:21:02::'
       - 'assignment%1:10:02::'
       - 'assignee%1:18:00::'
+      event:
+      - 'assignment%1:21:02::'
       id: 'assign%2:40:00::'
       subcat:
       - ditransitive
       - vtai-to
       synset: 02233313-v
+      undergoer:
+      - 'assignee%1:18:00::'
     - derivation:
+      - 'assignment%1:04:02::'
+      event:
       - 'assignment%1:04:02::'
       id: 'assign%2:31:03::'
       subcat:
@@ -73701,10 +75053,15 @@ assimilate:
     pronunciation:
     - value: əˈsɪm.ɪ.leɪt
     sense:
-    - derivation:
+    - agent:
+      - 'assimilator%1:18:00::'
+      derivation:
       - 'assimilation%1:09:01::'
       - 'assimilation%1:09:00::'
       - 'assimilator%1:18:00::'
+      event:
+      - 'assimilation%1:09:01::'
+      - 'assimilation%1:09:00::'
       id: 'assimilate%2:31:00::'
       subcat:
       - vtai
@@ -73714,7 +75071,11 @@ assimilate:
       derivation:
       - 'assimilation%1:26:00::'
       - 'assimilation%1:22:02::'
+      event:
+      - 'assimilation%1:22:02::'
       id: 'assimilate%2:30:00::'
+      state:
+      - 'assimilation%1:26:00::'
       subcat:
       - via
       - via-pp
@@ -73725,13 +75086,19 @@ assimilate:
       derivation:
       - 'assimilation%1:26:00::'
       - 'assimilation%1:22:02::'
+      event:
+      - 'assimilation%1:22:02::'
       id: 'assimilate%2:30:01::'
+      state:
+      - 'assimilation%1:26:00::'
       subcat:
       - vtai-pp
       synset: 00160069-v
     - derivation:
       - assimilative%5:00:00:absorbent:00
       - assimilatory%5:00:00:absorbent:00
+      - 'assimilation%1:22:01::'
+      event:
       - 'assimilation%1:22:01::'
       id: 'assimilate%2:35:00::'
       subcat:
@@ -73740,6 +75107,8 @@ assimilate:
     - antonym:
       - 'dissimilate%2:30:02::'
       derivation:
+      - 'assimilation%1:22:00::'
+      event:
       - 'assimilation%1:22:00::'
       id: 'assimilate%2:30:02::'
       subcat:
@@ -73826,6 +75195,9 @@ assist:
       - 'assistant%1:18:00::'
       - 'assist%1:04:01::'
       - 'assistance%1:04:00::'
+      event:
+      - 'assist%1:04:01::'
+      - 'assistance%1:04:00::'
       id: 'assist%2:41:02::'
       sent:
       - Sam cannot assist Sue
@@ -73845,6 +75217,8 @@ assist:
       - vtaa
       synset: 02419840-v
     - derivation:
+      - 'assist%1:04:01::'
+      event:
       - 'assist%1:04:01::'
       id: 'assist%2:41:01::'
       sent:
@@ -74003,20 +75377,30 @@ associate:
       - 'associatory%3:00:00::'
       - 'association%1:26:02::'
       - 'association%1:09:00::'
+      event:
+      - 'association%1:09:00::'
       id: 'associate%2:31:00::'
+      state:
+      - 'association%1:26:02::'
       subcat:
       - vtaa-with
       - vtai-with
       synset: 00715072-v
-    - derivation:
+    - agent:
+      - 'associate%1:18:01::'
+      derivation:
       - 'association%1:14:00::'
       - 'association%1:04:00::'
       - 'associate%1:18:01::'
+      event:
+      - 'association%1:04:00::'
       id: 'associate%2:41:02::'
       subcat:
       - via-pp
       synset: 02595401-v
-    - derivation:
+    - agent:
+      - 'associate%1:18:00::'
+      derivation:
       - associable%5:00:00:associative:00
       - 'association%1:26:00::'
       - 'association%1:24:00::'
@@ -74024,7 +75408,13 @@ associate:
       - 'association%1:14:00::'
       - 'association%1:04:00::'
       - 'associate%1:18:00::'
+      event:
+      - 'association%1:26:00::'
+      - 'association%1:04:00::'
       id: 'associate%2:41:00::'
+      result:
+      - 'association%1:14:00::'
+      - 'association%1:24:00::'
       subcat:
       - via
       - vii
@@ -74190,6 +75580,8 @@ assonate:
       - assonant%5:00:00:same:00
       - assonant%5:00:00:rhymed:00
       - 'assonance%1:10:00::'
+      event:
+      - 'assonance%1:10:00::'
       id: 'assonate%2:42:00::'
       subcat:
       - vii
@@ -74207,6 +75599,8 @@ assort:
       - via-pp
       synset: 02595401-v
     - derivation:
+      - 'assortment%1:04:00::'
+      event:
       - 'assortment%1:04:00::'
       id: 'assort%2:31:00::'
       subcat:
@@ -74260,6 +75654,8 @@ assuage:
     - derivation:
       - 'assuagement%1:12:00::'
       id: 'assuage%2:29:00::'
+      state:
+      - 'assuagement%1:12:00::'
       subcat:
       - vtii
       synset: 00063866-v
@@ -74288,6 +75684,10 @@ assume:
       - 'assumption%1:10:00::'
       - 'assumption%1:09:00::'
       - 'assumption%1:04:01::'
+      event:
+      - 'assumption%1:10:00::'
+      - 'assumption%1:09:00::'
+      - 'assumption%1:04:01::'
       id: 'assume%2:31:00::'
       subcat:
       - via-that
@@ -74295,6 +75695,8 @@ assume:
       - vtii
       synset: 00633898-v
     - derivation:
+      - 'assumption%1:04:00::'
+      event:
       - 'assumption%1:04:00::'
       id: 'assume%2:41:00::'
       subcat:
@@ -74306,6 +75708,8 @@ assume:
       synset: 00525762-v
     - derivation:
       - 'assumption%1:04:00::'
+      event:
+      - 'assumption%1:04:00::'
       id: 'assume%2:40:01::'
       subcat:
       - vtai
@@ -74316,6 +75720,8 @@ assume:
       synset: 01986409-v
     - derivation:
       - 'assumption%1:04:00::'
+      event:
+      - 'assumption%1:04:00::'
       id: 'assume%2:40:00::'
       subcat:
       - vtai
@@ -74325,6 +75731,8 @@ assume:
       - vtai
       synset: 01725631-v
     - derivation:
+      - 'assumption%1:11:00::'
+      event:
       - 'assumption%1:11:00::'
       id: 'assume%2:35:00::'
       subcat:
@@ -74426,6 +75834,8 @@ assure:
       synset: 01021652-v
     - derivation:
       - 'assurance%1:10:00::'
+      event:
+      - 'assurance%1:10:00::'
       id: 'assure%2:32:01::'
       subcat:
       - vtaa-of
@@ -74436,6 +75846,8 @@ assure:
       - via-that
       synset: 00664507-v
     - derivation:
+      - 'assurance%1:10:01::'
+      event:
       - 'assurance%1:10:01::'
       id: 'assure%2:32:02::'
       subcat:
@@ -74577,6 +75989,8 @@ asterisk:
       subcat:
       - vtai
       synset: 00511950-v
+      uses:
+      - 'asterisk%1:10:00::'
 asterisked:
   a:
     sense:
@@ -74829,6 +76243,8 @@ astonish:
       sent:
       - The good news will astonish her
       - The performance is likely to astonish Sue
+      state:
+      - 'astonishment%1:12:00::'
       subcat:
       - vtaa
       - vtia
@@ -75086,13 +76502,17 @@ astrodynamics:
 astrogate:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'astrogator%1:18:00::'
+      derivation:
       - 'astrogator%1:18:00::'
       id: 'astrogate%2:38:01::'
       subcat:
       - vtaa
       synset: 01937737-v
-    - derivation:
+    - agent:
+      - 'astrogator%1:18:00::'
+      derivation:
       - 'astrogator%1:18:00::'
       id: 'astrogate%2:38:00::'
       subcat:
@@ -77213,11 +78633,15 @@ atomise:
     - derivation:
       - 'atomiser%1:06:00::'
       - 'atom%1:27:00::'
+      instrument:
+      - 'atomiser%1:06:00::'
       id: 'atomise%2:35:00::'
       subcat:
       - vtai
       synset: 01375803-v
     - derivation:
+      - 'atomisation%1:04:01::'
+      event:
       - 'atomisation%1:04:01::'
       id: 'atomise%2:33:00::'
       subcat:
@@ -77229,6 +78653,10 @@ atomise:
       - 'atomiser%1:06:00::'
       - 'atom%1:27:01::'
       - 'atom%1:27:00::'
+      event:
+      - 'atomisation%1:04:00::'
+      instrument:
+      - 'atomiser%1:06:00::'
       id: 'atomise%2:30:00::'
       subcat:
       - vtai
@@ -77301,11 +78729,15 @@ atomize:
     sense:
     - derivation:
       - 'atomizer%1:06:00::'
+      instrument:
+      - 'atomizer%1:06:00::'
       id: 'atomize%2:35:00::'
       subcat:
       - vtai
       synset: 01375803-v
     - derivation:
+      - 'atomization%1:04:01::'
+      event:
       - 'atomization%1:04:01::'
       id: 'atomize%2:33:00::'
       subcat:
@@ -77316,6 +78748,10 @@ atomize:
       - 'atomization%1:04:00::'
       - 'atomizer%1:06:00::'
       - 'atom%1:27:00::'
+      event:
+      - 'atomization%1:04:00::'
+      instrument:
+      - 'atomizer%1:06:00::'
       id: 'atomize%2:30:00::'
       subcat:
       - vtai
@@ -77385,12 +78821,16 @@ atone:
     sense:
     - derivation:
       - 'atonement%1:21:00::'
+      event:
+      - 'atonement%1:21:00::'
       id: 'atone%2:41:12::'
       subcat:
       - via-pp
       - vtai
       synset: 02526175-v
     - derivation:
+      - 'atonement%1:04:00::'
+      event:
       - 'atonement%1:04:00::'
       id: 'atone%2:37:00::'
       subcat:
@@ -77718,6 +79158,9 @@ atrophy:
     - derivation:
       - 'atrophy%1:26:00::'
       - 'atrophy%1:11:00::'
+      event:
+      - 'atrophy%1:26:00::'
+      - 'atrophy%1:11:00::'
       id: 'atrophy%2:29:00::'
       subcat:
       - via
@@ -77745,6 +79188,9 @@ attach:
       - 'attachable%3:00:00::'
       - 'attachment%1:04:01::'
       - 'attachment%1:04:00::'
+      event:
+      - 'attachment%1:04:01::'
+      - 'attachment%1:04:00::'
       id: 'attach%2:35:01::'
       subcat:
       - vtai
@@ -77753,6 +79199,8 @@ attach:
       synset: 01299048-v
     - also:
       - 'attach_to%2:42:00::'
+      by_means_of:
+      - 'attachment%1:06:01::'
       derivation:
       - 'attachable%3:00:00::'
       - 'attachment%1:06:01::'
@@ -77764,6 +79212,8 @@ attach:
       - 'attach_to%2:42:01::'
       antonym:
       - 'detach%2:35:00::'
+      by_means_of:
+      - 'attachment%1:06:01::'
       derivation:
       - 'attachable%3:00:00::'
       - 'attachment%1:06:01::'
@@ -77776,11 +79226,16 @@ attach:
     - derivation:
       - 'attachment%1:12:00::'
       - 'attachment%1:04:02::'
+      event:
+      - 'attachment%1:12:00::'
+      - 'attachment%1:04:02::'
       id: 'attach%2:41:03::'
       subcat:
       - vtia
       synset: 02543752-v
-    - derivation:
+    - by_means_of:
+      - 'attachment%1:10:00::'
+      derivation:
       - 'attachment%1:10:00::'
       id: 'attach%2:40:00::'
       subcat:
@@ -77915,19 +79370,27 @@ attack:
     - value: əˈtæk
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'attacker%1:18:00::'
+      antonym:
       - 'defend%2:33:00::'
       derivation:
       - 'attack%1:04:00::'
       - 'attacker%1:18:00::'
+      event:
+      - 'attack%1:04:00::'
       id: 'attack%2:33:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01121587-v
-    - derivation:
+    - agent:
+      - 'attacker%1:18:00::'
+      derivation:
       - 'attack%1:10:00::'
       - 'attacker%1:18:00::'
+      event:
+      - 'attack%1:10:00::'
       id: 'attack%2:32:00::'
       subcat:
       - vtaa
@@ -77935,9 +79398,13 @@ attack:
       - vtia
       - vtii
       synset: 00864347-v
-    - derivation:
+    - agent:
+      - 'attacker%1:18:00::'
+      derivation:
       - 'attack%1:04:00::'
       - 'attacker%1:18:00::'
+      event:
+      - 'attack%1:04:00::'
       id: 'attack%2:33:01::'
       subcat:
       - via
@@ -77945,24 +79412,34 @@ attack:
       - vtaa
       - vtai
       synset: 01120867-v
-    - derivation:
+    - agent:
+      - 'attacker%1:18:00::'
+      derivation:
       - 'attack%1:04:02::'
       - 'attacker%1:18:00::'
+      event:
+      - 'attack%1:04:02::'
       id: 'attack%2:33:02::'
       subcat:
       - vtaa
       - vtai
       - vtia
       synset: 01122487-v
-    - derivation:
+    - agent:
+      - 'attacker%1:18:00::'
+      derivation:
       - 'attacker%1:18:00::'
       id: 'attack%2:30:00::'
       subcat:
       - vtai
       synset: 00348264-v
-    - derivation:
+    - agent:
+      - 'attacker%1:18:00::'
+      derivation:
       - 'attack%1:22:00::'
       - 'attacker%1:18:00::'
+      event:
+      - 'attack%1:22:00::'
       id: 'attack%2:29:00::'
       subcat:
       - vtii
@@ -78018,6 +79495,8 @@ attain:
     - derivation:
       - attainable%5:00:00:possible:00
       - 'attainment%1:04:00::'
+      event:
+      - 'attainment%1:04:00::'
       id: 'attain%2:41:00::'
       subcat:
       - via-that
@@ -78025,6 +79504,8 @@ attain:
       - vtii
       synset: 02531751-v
     - derivation:
+      - 'attainment%1:04:01::'
+      event:
       - 'attainment%1:04:01::'
       id: 'attain%2:38:00::'
       subcat:
@@ -78036,6 +79517,8 @@ attain:
       - vtai
       synset: 02291532-v
     - derivation:
+      - 'attainment%1:04:01::'
+      event:
       - 'attainment%1:04:01::'
       id: 'attain%2:38:01::'
       sent:
@@ -78147,9 +79630,13 @@ attempt:
     pronunciation:
     - value: əˈtɛmpt
     sense:
-    - derivation:
+    - agent:
+      - 'attempter%1:18:00::'
+      derivation:
       - 'attempt%1:04:00::'
       - 'attempter%1:18:00::'
+      event:
+      - 'attempt%1:04:00::'
       id: 'attempt%2:41:00::'
       sent:
       - They attempt to move
@@ -78179,18 +79666,24 @@ attempter:
 attend:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'attender%1:18:01::'
+      antonym:
       - 'miss%2:42:01::'
       derivation:
       - 'attendant%1:18:01::'
       - 'attender%1:18:01::'
       - 'attender%1:18:00::'
       - 'attendance%1:04:00::'
+      event:
+      - 'attendance%1:04:00::'
       id: 'attend%2:42:00::'
       subcat:
       - vtai
       synset: 02618797-v
     - derivation:
+      - 'attention%1:04:01::'
+      event:
       - 'attention%1:04:01::'
       id: 'attend%2:41:12::'
       subcat:
@@ -78202,7 +79695,9 @@ attend:
       subcat:
       - vtii
       synset: 02722442-v
-    - derivation:
+    - agent:
+      - 'attender%1:18:00::'
+      derivation:
       - 'attendant%1:18:00::'
       - 'attender%1:18:00::'
       id: 'attend%2:41:00::'
@@ -78210,17 +79705,25 @@ attend:
       - vtaa
       - vtaa-with
       synset: 02546367-v
-    - derivation:
+    - agent:
+      - 'attender%1:18:02::'
+      derivation:
       - 'attentive%3:00:04::'
       - 'attentive%3:00:00::'
       - 'attention%1:09:02::'
       - 'attention%1:09:01::'
       - 'attention%1:09:00::'
       - 'attender%1:18:02::'
+      event:
+      - 'attention%1:09:00::'
       id: 'attend%2:39:00::'
+      property:
+      - 'attention%1:09:01::'
       subcat:
       - via
       synset: 02174871-v
+      undergoer:
+      - 'attention%1:09:02::'
 attend to:
   v:
     sense:
@@ -78453,12 +79956,18 @@ attenuate:
     - derivation:
       - 'attenuation%1:07:00::'
       id: 'attenuate%2:30:01::'
+      property:
+      - 'attenuation%1:07:00::'
       subcat:
       - vtai
       - vtii
       synset: 00226805-v
     - derivation:
       - 'attenuation%1:11:00::'
+      - 'attenuator%1:06:00::'
+      event:
+      - 'attenuation%1:11:00::'
+      instrument:
       - 'attenuator%1:06:00::'
       id: 'attenuate%2:30:00::'
       subcat:
@@ -78503,7 +80012,11 @@ attest:
       - vtai
       - vtii
       synset: 00822637-v
-    - derivation:
+      uses:
+      - 'attestation%1:10:01::'
+    - agent:
+      - 'attester%1:18:00::'
+      derivation:
       - 'attestation%1:10:01::'
       - 'attestant%1:18:01::'
       - 'attester%1:18:00::'
@@ -78513,9 +80026,13 @@ attest:
       - via-that
       - vtai
       synset: 00822013-v
+      undergoer:
+      - 'attestation%1:10:01::'
     - derivation:
       - 'attestation%1:10:00::'
       - 'attestant%1:18:00::'
+      event:
+      - 'attestation%1:10:00::'
       id: 'attest%2:32:02::'
       sent:
       - They attest that there was a traffic accident
@@ -78528,6 +80045,8 @@ attest:
       subcat:
       - vtii
       synset: 00822272-v
+      undergoer:
+      - 'attestation%1:10:01::'
 attestant:
   n:
     sense:
@@ -78626,6 +80145,8 @@ attire:
       subcat:
       - vtaa
       synset: 00043880-v
+      uses:
+      - 'attire%1:06:00::'
 attired:
   a:
     sense:
@@ -78728,7 +80249,9 @@ attract:
     pronunciation:
     - value: əˈtɹækt
     sense:
-    - antonym:
+    - agent:
+      - 'attraction%1:18:00::'
+      antonym:
       - 'repel%2:35:00::'
       derivation:
       - attractive%5:00:00:appealing:00
@@ -78736,7 +80259,12 @@ attract:
       - 'attraction%1:10:00::'
       - 'attraction%1:09:00::'
       - 'attraction%1:07:00::'
+      event:
+      - 'attraction%1:10:00::'
       id: 'attract%2:35:00::'
+      property:
+      - 'attraction%1:09:00::'
+      - 'attraction%1:07:00::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -78755,11 +80283,18 @@ attract:
       - 'attraction%1:07:00::'
       - 'attractor%1:09:00::'
       id: 'attract%2:37:00::'
+      property:
+      - 'attraction%1:09:00::'
+      - 'attraction%1:07:00::'
+      state:
+      - 'attractor%1:09:00::'
       subcat:
       - vii-pp
       - vtaa
       - vtia
       synset: 01811849-v
+      undergoer:
+      - 'attraction%1:10:00::'
     - derivation:
       - 'attractive%3:00:02::'
       - attractable%5:00:00:magnetic:00
@@ -78768,6 +80303,8 @@ attract:
       subcat:
       - vtii
       synset: 01352707-v
+      undergoer:
+      - 'attraction%1:19:00::'
 attractable:
   a:
     sense:
@@ -78925,6 +80462,8 @@ attribute:
       - vtai-to
       synset: 00728262-v
     - derivation:
+      - 'attribution%1:09:00::'
+      event:
       - 'attribution%1:09:00::'
       id: 'attribute%2:31:01::'
       subcat:
@@ -79168,9 +80707,13 @@ auction:
     pronunciation:
     - value: ˈɔːkʃən
     sense:
-    - derivation:
+    - agent:
+      - 'auctioneer%1:18:00::'
+      derivation:
       - 'auction%1:04:00::'
       - 'auctioneer%1:18:00::'
+      event:
+      - 'auction%1:04:00::'
       id: 'auction%2:40:00::'
       subcat:
       - vtai
@@ -79218,7 +80761,9 @@ auctioneer:
       synset: 09631407-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'auctioneer%1:18:00::'
+      derivation:
       - 'auctioneer%1:18:00::'
       id: 'auctioneer%2:40:00::'
       subcat:
@@ -79547,14 +81092,20 @@ audit:
     - value: ˈɔ.dɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'auditor%1:18:00::'
+      derivation:
+      - 'auditor%1:18:00::'
+      - 'audit%1:21:00::'
+      event:
       - 'audit%1:21:00::'
       id: 'audit%2:31:01::'
       subcat:
       - vtai
       synset: 00698828-v
-    - derivation:
+    - agent:
+      - 'auditor%1:18:02::'
+      derivation:
       - 'auditor%1:18:02::'
       id: 'audit%2:31:00::'
       subcat:
@@ -79592,6 +81143,8 @@ audition:
     - value: ɔːˈdɪʃən
     sense:
     - derivation:
+      - 'audition%1:04:01::'
+      event:
       - 'audition%1:04:01::'
       id: 'audition%2:36:00::'
       subcat:
@@ -79792,6 +81345,9 @@ augment:
       - augmentative%5:00:00:intensifying:00
       - 'augmentation%1:11:00::'
       - 'augmentation%1:04:00::'
+      event:
+      - 'augmentation%1:11:00::'
+      - 'augmentation%1:04:00::'
       id: 'augment%2:30:01::'
       subcat:
       - vtai
@@ -79799,6 +81355,8 @@ augment:
       synset: 00154196-v
     - derivation:
       - augmentative%5:00:00:intensifying:00
+      - 'augmentation%1:11:00::'
+      event:
       - 'augmentation%1:11:00::'
       id: 'augment%2:30:00::'
       subcat:
@@ -79855,13 +81413,17 @@ augur:
     - value: ˈɔ.ɡɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'augur%1:18:00::'
+      derivation:
       - 'augur%1:18:00::'
       id: 'augur%2:32:00::'
       subcat:
       - vtii
       synset: 00873606-v
-    - derivation:
+    - agent:
+      - 'augur%1:18:00::'
+      derivation:
       - 'augur%1:18:00::'
       id: 'augur%2:32:01::'
       subcat:
@@ -80217,6 +81779,8 @@ auscultate:
     sense:
     - derivation:
       - 'auscultation%1:04:00::'
+      event:
+      - 'auscultation%1:04:00::'
       id: 'auscultate%2:39:00::'
       subcat:
       - vtaa
@@ -80537,10 +82101,16 @@ authenticate:
     - value: ɔ.ˈθɛn.tɪ.keɪt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'authenticator%1:18:00::'
+      by_means_of:
+      - 'authentication%1:10:00::'
+      derivation:
       - 'authentication%1:10:00::'
       - 'authentication%1:04:00::'
       - 'authenticator%1:18:00::'
+      event:
+      - 'authentication%1:04:00::'
       id: 'authenticate%2:31:00::'
       subcat:
       - vtai
@@ -80607,7 +82177,9 @@ author:
     - value: ˈɔ.θɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'author%1:18:00::'
+      derivation:
       - 'author%1:18:00::'
       id: 'author%2:36:00::'
       sent:
@@ -80661,15 +82233,21 @@ authorise:
       subcat:
       - vtaa
       synset: 02479404-v
-    - derivation:
+    - agent:
+      - 'authoriser%1:18:00::'
+      derivation:
       - 'authorisation%1:07:02::'
       - 'authorisation%1:04:00::'
       - 'authoriser%1:18:00::'
+      event:
+      - 'authorisation%1:04:00::'
       id: 'authorise%2:32:00::'
       subcat:
       - vtaa-to-inf
       - vtai
       synset: 00804987-v
+      undergoer:
+      - 'authorisation%1:07:02::'
 authorised:
   a:
     sense:
@@ -80796,7 +82374,9 @@ authorize:
     - value: ˈɔːθəɹaɪz
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'authorizer%1:18:00::'
+      derivation:
       - 'authorization%1:07:02::'
       - 'authorizer%1:18:00::'
       id: 'authorize%2:32:00::'
@@ -80804,7 +82384,11 @@ authorize:
       - vtaa-to-inf
       - vtai
       synset: 00804987-v
+      undergoer:
+      - 'authorization%1:07:02::'
     - derivation:
+      - 'authorization%1:04:00::'
+      event:
       - 'authorization%1:04:00::'
       id: 'authorize%2:41:00::'
       subcat:
@@ -81122,6 +82706,8 @@ autoclave:
     sense:
     - derivation:
       - 'autoclave%1:06:00::'
+      instrument:
+      - 'autoclave%1:06:00::'
       id: 'autoclave%2:29:00::'
       subcat:
       - vtai
@@ -81374,6 +82960,9 @@ autograph:
       subcat:
       - vtai
       synset: 00999178-v
+      uses:
+      - 'autograph%1:10:02::'
+      - 'autograph%1:10:00::'
 autograph album:
   n:
     sense:
@@ -81500,7 +83089,11 @@ automate:
     - derivation:
       - 'automation%1:04:00::'
       - 'automation%1:26:00::'
+      event:
+      - 'automation%1:04:00::'
       id: 'automate%2:30:00::'
+      state:
+      - 'automation%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -81765,6 +83358,8 @@ automobile:
       - via
       - via-pp
       synset: 01934709-v
+      vehicle:
+      - 'automobile%1:06:00::'
 automobile battery:
   n:
     sense:
@@ -82002,6 +83597,8 @@ autopsy:
       variety: US
     sense:
     - derivation:
+      - 'autopsy%1:04:00::'
+      event:
       - 'autopsy%1:04:00::'
       id: 'autopsy%2:39:00::'
       subcat:
@@ -82400,7 +83997,9 @@ avail:
       subcat:
       - vtaa-pp
       synset: 01163877-v
-    - derivation:
+    - by_means_of:
+      - 'avail%1:07:00::'
+      derivation:
       - 'avail%1:07:00::'
       id: 'avail%2:41:00::'
       subcat:
@@ -82471,6 +84070,8 @@ avalanche:
       variety: US
     sense:
     - derivation:
+      - 'avalanche%1:11:00::'
+      event:
       - 'avalanche%1:11:00::'
       id: 'avalanche%2:38:00::'
       subcat:
@@ -82584,7 +84185,9 @@ avenge:
     pronunciation:
     - value: əˈvɛnd͡ʒ
     sense:
-    - derivation:
+    - agent:
+      - 'avenger%1:18:00::'
+      derivation:
       - 'avenger%1:18:00::'
       id: 'avenge%2:33:00::'
       subcat:
@@ -82658,6 +84261,8 @@ aver:
       synset: 01018011-v
     - derivation:
       - 'averment%1:10:00::'
+      event:
+      - 'averment%1:10:00::'
       id: 'aver%2:32:00::'
       sent:
       - They aver that there was a traffic accident
@@ -82713,12 +84318,16 @@ average:
     - derivation:
       - 'average%1:09:00::'
       id: 'average%2:42:00::'
+      result:
+      - 'average%1:09:00::'
       subcat:
       - vtii
       synset: 02651473-v
     - derivation:
       - 'average%1:09:00::'
       id: 'average%2:41:00::'
+      result:
+      - 'average%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -82726,6 +84335,8 @@ average:
     - derivation:
       - 'average%1:09:00::'
       id: 'average%2:31:00::'
+      result:
+      - 'average%1:09:00::'
       subcat:
       - vtai
       synset: 00641660-v
@@ -82844,6 +84455,8 @@ avert:
       synset: 02458770-v
     - derivation:
       - 'aversion%1:04:00::'
+      event:
+      - 'aversion%1:04:00::'
       id: 'avert%2:38:00::'
       subcat:
       - vtii
@@ -82907,10 +84520,15 @@ aviate:
     pronunciation:
     - value: ˈeɪvieɪt
     sense:
-    - derivation:
+    - agent:
+      - 'aviator%1:18:00::'
+      derivation:
       - 'aviation%1:14:01::'
       - 'aviation%1:09:00::'
       - 'aviator%1:18:00::'
+      event:
+      - 'aviation%1:14:01::'
+      - 'aviation%1:09:00::'
       id: 'aviate%2:38:00::'
       subcat:
       - vtai
@@ -83139,6 +84757,8 @@ avoid:
       - 'confront%2:32:00::'
       derivation:
       - 'avoidance%1:04:00::'
+      event:
+      - 'avoidance%1:04:00::'
       id: 'avoid%2:32:00::'
       subcat:
       - vtaa
@@ -83221,8 +84841,12 @@ avow:
     pronunciation:
     - value: əˈvaʊ
     sense:
-    - derivation:
+    - agent:
       - 'avower%1:18:01::'
+      derivation:
+      - 'avower%1:18:01::'
+      - 'avowal%1:10:00::'
+      event:
       - 'avowal%1:10:00::'
       id: 'avow%2:32:00::'
       sent:
@@ -83231,7 +84855,9 @@ avow:
       - via-that
       - vtai
       synset: 01013058-v
-    - antonym:
+    - agent:
+      - 'avower%1:18:00::'
+      antonym:
       - 'disavow%2:32:00::'
       derivation:
       - 'avower%1:18:00::'
@@ -83280,6 +84906,8 @@ avulse:
     - value: əˈvʌls
     sense:
     - derivation:
+      - 'avulsion%1:04:00::'
+      event:
       - 'avulsion%1:04:00::'
       id: 'avulse%2:38:00::'
       subcat:
@@ -83430,6 +85058,9 @@ award:
       - ditransitive
       - vtai-to
       synset: 02266695-v
+      undergoer:
+      - 'award%1:21:00::'
+      - 'award%1:10:00::'
     - id: 'award%2:40:01::'
       sent:
       - They award the money to them
@@ -83572,6 +85203,8 @@ awe:
       sent:
       - Sam cannot awe Sue
       - The performance is likely to awe Sue
+      state:
+      - 'awe%1:12:02::'
       subcat:
       - vtaa
       synset: 01783561-v
@@ -83908,6 +85541,8 @@ ax:
     sense:
     - derivation:
       - 'ax%1:06:00::'
+      instrument:
+      - 'ax%1:06:00::'
       id: 'ax%2:35:00::'
       sent:
       - They ax the trees
@@ -83942,6 +85577,8 @@ axe:
     - value: æks
     sense:
     - derivation:
+      - 'axe%1:06:00::'
+      instrument:
       - 'axe%1:06:00::'
       id: 'axe%2:35:00::'
       sent:
@@ -84538,6 +86175,8 @@ azure:
     - derivation:
       - 'azure%1:07:00::'
       id: 'azure%2:30:00::'
+      result:
+      - 'azure%1:07:00::'
       subcat:
       - vtai
       - vtii

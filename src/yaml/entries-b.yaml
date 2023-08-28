@@ -11269,6 +11269,8 @@ baa:
     sense:
     - derivation:
       - 'baa%1:11:00::'
+      event:
+      - 'baa%1:11:00::'
       id: 'baa%2:32:00::'
       subcat:
       - vii
@@ -11333,6 +11335,8 @@ babbitt:
       subcat:
       - vtai
       synset: 01274913-v
+      uses:
+      - 'babbitt%1:27:00::'
 babbitting:
   n:
     sense:
@@ -11352,22 +11356,30 @@ babble:
     pronunciation:
     - value: ˈbæb.l̩
     sense:
-    - derivation:
+    - agent:
+      - 'babbler%1:18:00::'
+      derivation:
       - 'babbler%1:18:00::'
       - 'babble%1:10:00::'
       - 'babbling%1:10:00::'
       id: 'babble%2:32:02::'
+      result:
+      - 'babble%1:10:00::'
       sent:
       - Sam and Sue babble
       subcat:
       - via
       - vtai
       synset: 01067652-v
-    - derivation:
+    - agent:
+      - 'babbler%1:18:00::'
+      derivation:
       - 'babbler%1:18:00::'
       - 'babble%1:10:00::'
       - 'babbling%1:10:00::'
       id: 'babble%2:32:00::'
+      result:
+      - 'babble%1:10:00::'
       sent:
       - Sam and Sue babble
       subcat:
@@ -11703,7 +11715,10 @@ baby-sit:
       subcat:
       - vtai
       synset: 02608895-v
-    - derivation:
+    - agent:
+      - 'babysitter%1:18:00::'
+      - 'baby-sitter%1:18:00::'
+      derivation:
       - 'babysitter%1:18:00::'
       - 'baby-sitter%1:18:00::'
       id: 'baby-sit%2:41:00::'
@@ -11947,7 +11962,9 @@ bachelor:
       synset: 10258446-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bachelor%1:18:00::'
+      derivation:
       - 'bachelor%1:18:00::'
       id: 'bachelor%2:42:00::'
       subcat:
@@ -12147,7 +12164,9 @@ back:
       - vtaa-pp
       - vtai-pp
       synset: 02001544-v
-    - derivation:
+    - agent:
+      - 'backer%1:18:00::'
+      derivation:
       - 'backer%1:18:00::'
       - 'backing%1:21:00::'
       - 'backing%1:04:00::'
@@ -12162,6 +12181,8 @@ back:
       derivation:
       - 'back%1:06:00::'
       id: 'back%2:42:00::'
+      location:
+      - 'back%1:06:00::'
       subcat:
       - vtii
       synset: 02699807-v
@@ -12188,6 +12209,8 @@ back:
       subcat:
       - vtai
       synset: 00186002-v
+      uses:
+      - 'back%1:06:03::'
 back and forth:
   r:
     sense:
@@ -12483,7 +12506,9 @@ backbite:
     - backbit
     - backbitten
     sense:
-    - derivation:
+    - agent:
+      - 'backbiter%1:18:00::'
+      derivation:
       - 'backbiter%1:18:00::'
       id: 'backbite%2:32:00::'
       subcat:
@@ -12620,11 +12645,15 @@ backfire:
     sense:
     - derivation:
       - 'backfire%1:04:00::'
+      event:
+      - 'backfire%1:04:00::'
       id: 'backfire%2:41:00::'
       subcat:
       - vii
       synset: 02384041-v
     - derivation:
+      - 'backfire%1:11:00::'
+      event:
       - 'backfire%1:11:00::'
       id: 'backfire%2:39:00::'
       sent:
@@ -12690,6 +12719,8 @@ background:
     - antonym:
       - 'foreground%2:30:00::'
       derivation:
+      - 'background%1:11:01::'
+      event:
       - 'background%1:11:01::'
       id: 'background%2:30:00::'
       subcat:
@@ -12763,6 +12794,8 @@ backhand:
     - value: ˈbækhænd
     sense:
     - derivation:
+      - 'backhand%1:04:00::'
+      event:
       - 'backhand%1:04:00::'
       id: 'backhand%2:35:00::'
       subcat:
@@ -12840,6 +12873,8 @@ backlash:
     sense:
     - derivation:
       - 'backlash%1:04:00::'
+      event:
+      - 'backlash%1:04:00::'
       id: 'backlash%2:41:00::'
       subcat:
       - vii
@@ -12882,6 +12917,9 @@ backlog:
       - 'backlog%1:21:00::'
       - 'backlog%1:14:00::'
       id: 'backlog%2:30:00::'
+      result:
+      - 'backlog%1:21:00::'
+      - 'backlog%1:14:00::'
       subcat:
       - vii
       synset: 00159044-v
@@ -13031,7 +13069,9 @@ backside:
 backslap:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'backslapper%1:18:00::'
+      derivation:
       - 'backslapper%1:18:00::'
       id: 'backslap%2:41:00::'
       subcat:
@@ -13051,7 +13091,9 @@ backslide:
     - backslid
     - backslidden
     sense:
-    - derivation:
+    - agent:
+      - 'backslider%1:18:00::'
+      derivation:
       - 'backslider%1:18:00::'
       id: 'backslide%2:30:00::'
       subcat:
@@ -13086,6 +13128,8 @@ backspace:
     - value: ˈbækˌspeɪs
     sense:
     - derivation:
+      - 'backspacer%1:06:00::'
+      instrument:
       - 'backspacer%1:06:00::'
       id: 'backspace%2:32:00::'
       subcat:
@@ -13167,6 +13211,8 @@ backstitch:
     - derivation:
       - 'backstitch%1:06:00::'
       id: 'backstitch%2:35:00::'
+      result:
+      - 'backstitch%1:06:00::'
       subcat:
       - via
       - vtai
@@ -13203,7 +13249,9 @@ backstroke:
     - value: ˈbækˌstɹoʊk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'backstroker%1:18:00::'
+      derivation:
       - 'backstroker%1:18:00::'
       id: 'backstroke%2:38:00::'
       subcat:
@@ -13942,6 +13990,8 @@ badge:
       - vtaa
       - vtai
       synset: 01592790-v
+      uses:
+      - 'badge%1:10:00::'
 badger:
   n:
     sense:
@@ -13949,7 +13999,9 @@ badger:
       synset: 02449997-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'badgerer%1:18:00::'
+      derivation:
       - 'badgerer%1:18:00::'
       id: 'badger%2:37:00::'
       sent:
@@ -14118,6 +14170,8 @@ baffle:
     - derivation:
       - 'bafflement%1:09:00::'
       id: 'baffle%2:31:00::'
+      result:
+      - 'bafflement%1:09:00::'
       sent:
       - The bad news will baffle him
       - The good news will baffle her
@@ -14131,6 +14185,8 @@ baffle:
       - vtii
       synset: 02563998-v
     - derivation:
+      - 'baffle%1:06:00::'
+      instrument:
       - 'baffle%1:06:00::'
       id: 'baffle%2:30:00::'
       subcat:
@@ -14203,6 +14259,8 @@ bag:
     sense:
     - derivation:
       - 'bag%1:23:01::'
+      event:
+      - 'bag%1:23:01::'
       id: 'bag%2:35:01::'
       subcat:
       - vtai
@@ -14224,11 +14282,15 @@ bag:
       subcat:
       - vtai
       synset: 02297393-v
-    - derivation:
+    - agent:
+      - 'bagger%1:18:00::'
+      derivation:
       - 'bagger%1:06:00::'
       - 'bag%1:06:02::'
       - 'bagger%1:18:00::'
       - 'bagging%1:06:00::'
+      instrument:
+      - 'bagger%1:06:00::'
       id: 'bag%2:35:00::'
       sent:
       - They bag the goods
@@ -14415,7 +14477,10 @@ bail:
       synset: 05912039-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bail%1:09:00::'
+      - 'bail%1:21:00::'
+      derivation:
       - bailable%5:00:00:permissive:02
       - 'bail%1:21:00::'
       - 'bail%1:09:00::'
@@ -14426,11 +14491,19 @@ bail:
     - derivation:
       - 'bailment%1:04:00::'
       - 'bailee%1:18:00::'
+      event:
+      - 'bailment%1:04:00::'
       id: 'bail%2:40:00::'
       subcat:
       - vtai
       synset: 02298693-v
-    - derivation:
+      undergoer:
+      - 'bailee%1:18:00::'
+    - agent:
+      - 'bailor%1:18:00::'
+      by_means_of:
+      - 'bail%1:09:00::'
+      derivation:
       - bailable%5:00:00:permissive:02
       - 'bailor%1:18:00::'
       - 'bail%1:09:00::'
@@ -14564,7 +14637,10 @@ bait:
       subcat:
       - vtaa
       synset: 00852181-v
-    - derivation:
+    - by_means_of:
+      - 'bait%1:09:00::'
+      - 'bait%1:06:00::'
+      derivation:
       - 'bait%1:09:00::'
       - 'bait%1:06:00::'
       id: 'bait%2:41:00::'
@@ -14619,7 +14695,10 @@ bake:
       - vtai
       - vtii
       synset: 00320687-v
-    - derivation:
+    - agent:
+      - 'baker%1:18:01::'
+      - 'baker%1:18:00::'
+      derivation:
       - 'baker%1:18:01::'
       - 'baker%1:18:00::'
       - 'baking%1:04:01::'
@@ -14898,6 +14977,10 @@ balance:
       derivation:
       - 'balance%1:26:00::'
       id: 'balance%2:42:00::'
+      result:
+      - 'balance%1:26:00::'
+      state:
+      - 'balance%1:26:00::'
       subcat:
       - vtai
       - vtii
@@ -14905,18 +14988,30 @@ balance:
     - derivation:
       - 'balance%1:21:00::'
       id: 'balance%2:40:00::'
+      result:
+      - 'balance%1:21:00::'
       subcat:
       - vtai
       synset: 02269775-v
-    - derivation:
+    - agent:
+      - 'balancer%1:18:00::'
+      body_part:
+      - 'balancer%1:05:00::'
+      derivation:
       - 'balance%1:26:00::'
       - 'balancer%1:05:00::'
       - 'balancer%1:18:00::'
       id: 'balance%2:35:00::'
+      state:
+      - 'balance%1:26:00::'
       subcat:
       - vtai
       synset: 01605239-v
-    - derivation:
+    - agent:
+      - 'balancer%1:18:00::'
+      body_part:
+      - 'balancer%1:05:00::'
+      derivation:
       - 'balance%1:26:00::'
       - 'balancer%1:05:00::'
       - 'balancer%1:18:00::'
@@ -14924,6 +15019,8 @@ balance:
       sent:
       - The children balance in the rocking chair
       - There balance some children in the rocking chair
+      state:
+      - 'balance%1:26:00::'
       subcat:
       - via
       - vii
@@ -15219,6 +15316,8 @@ bale:
     - derivation:
       - 'bale%1:06:00::'
       id: 'bale%2:35:00::'
+      result:
+      - 'bale%1:06:00::'
       subcat:
       - vtai
       synset: 01388854-v
@@ -15314,7 +15413,9 @@ balk:
     - value: bɔk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'balker%1:18:00::'
+      derivation:
       - 'balker%1:18:00::'
       id: 'balk%2:41:00::'
       subcat:
@@ -15390,6 +15491,8 @@ ball:
     - derivation:
       - 'ball%1:08:00::'
       id: 'ball%2:35:00::'
+      result:
+      - 'ball%1:08:00::'
       subcat:
       - vtai
       synset: 01526058-v
@@ -15597,6 +15700,8 @@ ballast:
     - value: ˈbæl.əst
     sense:
     - derivation:
+      - 'ballast%1:06:00::'
+      instrument:
       - 'ballast%1:06:00::'
       id: 'ballast%2:30:00::'
       subcat:
@@ -15823,6 +15928,8 @@ balloon:
       - via
       - vii
       synset: 01952518-v
+      vehicle:
+      - 'balloon%1:06:00::'
     - id: 'balloon%2:30:00::'
       subcat:
       - vii
@@ -15896,8 +16003,12 @@ ballot:
     - value: ˈbælət
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
       - 'ballot%1:10:00::'
+      derivation:
+      - 'ballot%1:10:00::'
+      - 'ballot%1:04:00::'
+      event:
       - 'ballot%1:04:00::'
       id: 'ballot%2:41:00::'
       subcat:
@@ -15995,6 +16106,8 @@ ballyhoo:
   v:
     sense:
     - derivation:
+      - 'ballyhoo%1:10:00::'
+      event:
       - 'ballyhoo%1:10:00::'
       id: 'ballyhoo%2:32:00::'
       subcat:
@@ -16327,9 +16440,13 @@ ban:
     - banned
     - banning
     sense:
-    - derivation:
+    - by_means_of:
+      - 'ban%1:10:00::'
+      derivation:
       - 'ban%1:10:01::'
       - 'ban%1:10:00::'
+      event:
+      - 'ban%1:10:01::'
       id: 'ban%2:41:00::'
       sent:
       - Sam and Sue ban the movie
@@ -16337,9 +16454,13 @@ ban:
       - vtai
       - vtii
       synset: 02499315-v
-    - derivation:
+    - by_means_of:
+      - 'ban%1:10:00::'
+      derivation:
       - 'ban%1:10:01::'
       - 'ban%1:10:00::'
+      event:
+      - 'ban%1:10:01::'
       id: 'ban%2:32:00::'
       subcat:
       - via-ger
@@ -16486,7 +16607,9 @@ band:
       synset: 02788021-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'band%1:06:02::'
+      derivation:
       - 'band%1:06:02::'
       id: 'band%2:35:00::'
       subcat:
@@ -16548,7 +16671,9 @@ bandage:
       subcat:
       - vtai
       synset: 01306207-v
-    - derivation:
+    - by_means_of:
+      - 'bandage%1:06:00::'
+      derivation:
       - 'bandage%1:06:00::'
       id: 'bandage%2:29:00::'
       sent:
@@ -16905,14 +17030,20 @@ bang:
     sense:
     - derivation:
       - 'bang%1:11:01::'
+      event:
+      - 'bang%1:11:01::'
       id: 'bang%2:35:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01244955-v
-    - derivation:
+    - by_means_of:
+      - 'banger%1:06:00::'
+      derivation:
       - 'bang%1:11:00::'
       - 'banger%1:06:00::'
+      event:
+      - 'bang%1:11:00::'
       id: 'bang%2:39:00::'
       subcat:
       - vii
@@ -16927,6 +17058,8 @@ bang:
       - vtii
       synset: 01245396-v
     - derivation:
+      - 'bang%1:11:00::'
+      event:
       - 'bang%1:11:00::'
       id: 'bang%2:38:00::'
       subcat:
@@ -17031,6 +17164,8 @@ banish:
     - derivation:
       - 'banishment%1:26:00::'
       id: 'banish%2:41:01::'
+      state:
+      - 'banishment%1:26:00::'
       subcat:
       - vtaa
       synset: 02509666-v
@@ -17039,6 +17174,8 @@ banish:
       - vtaa
       synset: 02509929-v
     - derivation:
+      - 'banishment%1:04:00::'
+      event:
       - 'banishment%1:04:00::'
       id: 'banish%2:41:00::'
       subcat:
@@ -17121,6 +17258,8 @@ bank:
     sense:
     - derivation:
       - 'bank%1:04:00::'
+      event:
+      - 'bank%1:04:00::'
       id: 'bank%2:38:00::'
       subcat:
       - vtai
@@ -17131,12 +17270,18 @@ bank:
       subcat:
       - vtai
       synset: 01590626-v
-    - derivation:
+      uses:
+      - 'bank%1:17:01::'
+    - agent:
+      - 'bank%1:14:00::'
+      derivation:
       - bankable%5:00:00:acceptable:00
       - 'bank%1:14:00::'
       - 'bank%1:06:00::'
       - 'banking%1:04:00::'
       id: 'bank%2:40:02::'
+      location:
+      - 'bank%1:06:00::'
       subcat:
       - via-pp
       synset: 02348370-v
@@ -17144,13 +17289,18 @@ bank:
       subcat:
       - via
       synset: 02348248-v
-    - derivation:
+    - agent:
+      - 'banker%1:18:00::'
+      - 'bank%1:14:00::'
+      derivation:
       - bankable%5:00:00:acceptable:00
       - 'banker%1:18:00::'
       - 'bank%1:14:00::'
       - 'bank%1:06:00::'
       - 'banking%1:04:01::'
       id: 'bank%2:40:01::'
+      location:
+      - 'bank%1:06:00::'
       subcat:
       - via
       synset: 02348052-v
@@ -17160,6 +17310,8 @@ bank:
       - 'bank%1:06:00::'
       - 'banking%1:04:00::'
       id: 'bank%2:40:00::'
+      location:
+      - 'bank%1:06:00::'
       sent:
       - They bank the money
       subcat:
@@ -17599,6 +17751,9 @@ banquet:
       subcat:
       - vtaa
       synset: 01188741-v
+      uses:
+      - 'banquet%1:14:00::'
+      - 'banquet%1:13:00::'
     - id: 'banquet%2:34:00::'
       sent:
       - Sam and Sue banquet
@@ -17683,6 +17838,8 @@ banter:
       variety: US
     sense:
     - derivation:
+      - 'banter%1:10:00::'
+      event:
       - 'banter%1:10:00::'
       id: 'banter%2:32:00::'
       subcat:
@@ -17879,6 +18036,8 @@ bar:
     sense:
     - derivation:
       - 'bar%1:04:00::'
+      event:
+      - 'bar%1:04:00::'
       id: 'bar%2:32:00::'
       subcat:
       - vtaa
@@ -17886,7 +18045,9 @@ bar:
       - vtai
       - vtai-pp
       synset: 00798250-v
-    - derivation:
+    - by_means_of:
+      - 'bar%1:06:02::'
+      derivation:
       - 'bar%1:06:02::'
       id: 'bar%2:35:00::'
       subcat:
@@ -17900,6 +18061,9 @@ bar:
       synset: 02509452-v
     - antonym:
       - 'unbar%2:35:00::'
+      by_means_of:
+      - 'bar%1:06:02::'
+      - 'bar%1:06:00::'
       derivation:
       - 'bar%1:06:02::'
       - 'bar%1:06:00::'
@@ -17996,6 +18160,8 @@ bar mitzvah:
     sense:
     - derivation:
       - 'bar_mitzvah%1:11:00::'
+      event:
+      - 'bar_mitzvah%1:11:00::'
       id: 'bar_mitzvah%2:41:00::'
       subcat:
       - vtaa
@@ -18053,6 +18219,8 @@ barb:
       subcat:
       - vtai
       synset: 01341863-v
+      uses:
+      - 'barb%1:06:01::'
 barbacan:
   n:
     sense:
@@ -18117,11 +18285,15 @@ barbarise:
     sense:
     - derivation:
       - 'barbarisation%1:04:00::'
+      event:
+      - 'barbarisation%1:04:00::'
       id: 'barbarise%2:30:01::'
       subcat:
       - via
       synset: 00134372-v
     - derivation:
+      - 'barbarisation%1:04:00::'
+      event:
       - 'barbarisation%1:04:00::'
       id: 'barbarise%2:30:00::'
       subcat:
@@ -18166,6 +18338,8 @@ barbarize:
       - via
       synset: 00134372-v
     - derivation:
+      - 'barbarization%1:04:00::'
+      event:
       - 'barbarization%1:04:00::'
       id: 'barbarize%2:30:00::'
       subcat:
@@ -18238,7 +18412,11 @@ barbecue:
       - 'barbecue%1:13:02::'
       - 'barbecue%1:13:00::'
       - 'barbecue%1:06:00::'
+      event:
+      - 'barbecue%1:13:00::'
       id: 'barbecue%2:30:00::'
+      result:
+      - 'barbecue%1:13:02::'
       sent:
       - The chefs barbecue the vegetables
       subcat:
@@ -18356,7 +18534,9 @@ barber:
     - value: ˈbɑɹ.bɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'barber%1:18:00::'
+      derivation:
       - 'barber%1:18:00::'
       id: 'barber%2:29:00::'
       subcat:
@@ -18498,6 +18678,8 @@ bard:
       subcat:
       - vtai
       synset: 01674210-v
+      uses:
+      - 'bard%1:06:00::'
 barde:
   v:
     sense:
@@ -18798,12 +18980,17 @@ bargain:
     - value: ˈbɑːɹɡən
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'bargainer%1:18:01::'
+      derivation:
       - 'bargain%1:21:01::'
       - 'bargain%1:10:00::'
       - 'bargainer%1:18:01::'
       - 'bargaining%1:10:00::'
       id: 'bargain%2:40:00::'
+      result:
+      - 'bargain%1:21:01::'
+      - 'bargain%1:10:00::'
       sent:
       - Sam and Sue bargain
       - Sam wants to bargain with Sue
@@ -18811,7 +18998,9 @@ bargain:
       - via
       - via-pp
       synset: 02264636-v
-    - derivation:
+    - agent:
+      - 'bargainer%1:18:01::'
+      derivation:
       - 'bargainer%1:18:01::'
       id: 'bargain%2:32:00::'
       subcat:
@@ -18893,13 +19082,17 @@ barge:
       subcat:
       - via-pp
       synset: 02000606-v
-    - derivation:
+    - agent:
+      - 'bargee%1:18:00::'
+      derivation:
       - 'bargee%1:18:00::'
       - 'barge%1:06:00::'
       id: 'barge%2:38:01::'
       subcat:
       - vtai
       synset: 01954361-v
+      vehicle:
+      - 'barge%1:06:00::'
 barge in:
   v:
     sense:
@@ -19089,6 +19282,8 @@ bark:
     sense:
     - derivation:
       - 'bark%1:11:02::'
+      event:
+      - 'bark%1:11:02::'
       id: 'bark%2:32:01::'
       sent:
       - They bark that there was a traffic accident
@@ -19102,6 +19297,8 @@ bark:
       subcat:
       - vtai
       synset: 01266468-v
+      uses:
+      - 'bark%1:20:00::'
     - derivation:
       - 'bark%1:20:00::'
       id: 'bark%2:35:00::'
@@ -19111,10 +19308,16 @@ bark:
       - vtai
       - vtii
       synset: 01266348-v
-    - derivation:
+      undergoer:
+      - 'bark%1:20:00::'
+    - agent:
+      - 'barker%1:05:00::'
+      derivation:
       - 'bark%1:11:00::'
       - 'barker%1:18:00::'
       - 'barker%1:05:00::'
+      event:
+      - 'bark%1:11:00::'
       id: 'bark%2:32:00::'
       subcat:
       - vii
@@ -19350,7 +19553,9 @@ barnstorm:
     - value: ˈbɑː(ɹ)nstɔː(ɹ)m
       variety: GB
     sense:
-    - derivation:
+    - agent:
+      - 'barnstormer%1:18:00::'
+      derivation:
       - 'barnstormer%1:18:00::'
       id: 'barnstorm%2:33:01::'
       subcat:
@@ -19612,6 +19817,8 @@ barrack:
     - derivation:
       - 'barrack%1:06:00::'
       id: 'barrack%2:42:00::'
+      location:
+      - 'barrack%1:06:00::'
       subcat:
       - vtaa
       - vtia
@@ -19664,6 +19871,8 @@ barrage:
       variety: US
     sense:
     - derivation:
+      - 'barrage%1:10:00::'
+      event:
       - 'barrage%1:10:00::'
       id: 'barrage%2:32:00::'
       subcat:
@@ -19782,9 +19991,13 @@ barrel:
       - 'barrel%1:23:04::'
       - 'barrel%1:06:00::'
       id: 'barrel%2:35:00::'
+      location:
+      - 'barrel%1:06:00::'
       subcat:
       - vtai
       synset: 01505179-v
+      undergoer:
+      - 'barrel%1:23:04::'
 barrel cactus:
   n:
     sense:
@@ -19940,7 +20153,9 @@ barricade:
     - value: ˌbæɹɪˈkeɪd
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'barricade%1:06:00::'
+      derivation:
       - 'barricade%1:06:00::'
       - 'barricade%1:06:01::'
       id: 'barricade%2:35:00::'
@@ -19948,14 +20163,18 @@ barricade:
       - vtai
       - vtii
       synset: 01480632-v
-    - derivation:
+    - by_means_of:
+      - 'barricade%1:06:00::'
+      derivation:
       - 'barricade%1:06:00::'
       - 'barricade%1:06:01::'
       id: 'barricade%2:33:01::'
       subcat:
       - vtai
       synset: 01129641-v
-    - derivation:
+    - by_means_of:
+      - 'barricade%1:06:00::'
+      derivation:
       - 'barricade%1:06:00::'
       - 'barricade%1:06:01::'
       id: 'barricade%2:33:00::'
@@ -20092,8 +20311,12 @@ barter:
     - value: ˈbɑɹtɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'barterer%1:18:00::'
+      derivation:
+      - 'barterer%1:18:00::'
+      - 'barter%1:04:00::'
+      event:
       - 'barter%1:04:00::'
       id: 'barter%2:40:00::'
       sent:
@@ -20389,7 +20612,9 @@ base:
       synset: 02801276-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'base%1:09:00::'
+      derivation:
       - 'base%1:09:00::'
       id: 'base%2:31:00::'
       subcat:
@@ -20651,6 +20876,8 @@ bash:
     sense:
     - derivation:
       - 'bash%1:11:00::'
+      event:
+      - 'bash%1:11:00::'
       id: 'bash%2:35:00::'
       subcat:
       - vtaa
@@ -20846,7 +21073,9 @@ basify:
     form:
     - basified
     sense:
-    - derivation:
+    - by_means_of:
+      - 'base%1:27:00::'
+      derivation:
       - 'base%1:27:00::'
       id: 'basify%2:30:00::'
       subcat:
@@ -21614,6 +21843,8 @@ bastardise:
     - derivation:
       - 'bastardisation%1:04:00::'
       - 'bastard%1:06:00::'
+      event:
+      - 'bastardisation%1:04:00::'
       id: 'bastardise%2:41:00::'
       subcat:
       - vtai
@@ -21649,6 +21880,8 @@ bastardize:
     - derivation:
       - 'bastardization%1:04:00::'
       - 'bastard%1:06:00::'
+      event:
+      - 'bastardization%1:04:00::'
       id: 'bastardize%2:41:00::'
       subcat:
       - vtai
@@ -21656,6 +21889,8 @@ bastardize:
     - derivation:
       - 'bastardization%1:10:00::'
       - 'bastard%1:18:01::'
+      event:
+      - 'bastardization%1:10:00::'
       id: 'bastardize%2:32:00::'
       subcat:
       - vtaa
@@ -21708,6 +21943,8 @@ baste:
     - derivation:
       - 'baste%1:06:00::'
       id: 'baste%2:35:00::'
+      result:
+      - 'baste%1:06:00::'
       subcat:
       - via
       - vtai
@@ -21745,6 +21982,8 @@ bastinado:
   v:
     sense:
     - derivation:
+      - 'bastinado%1:06:00::'
+      instrument:
       - 'bastinado%1:06:00::'
       id: 'bastinado%2:35:00::'
       subcat:
@@ -21828,11 +22067,16 @@ bat:
     - batted
     - batting
     sense:
-    - derivation:
+    - agent:
+      - 'batter%1:18:00::'
+      derivation:
       - 'bat%1:06:03::'
       - 'bat%1:06:00::'
       - 'batter%1:18:00::'
       - 'batting%1:04:00::'
+      instrument:
+      - 'bat%1:06:03::'
+      - 'bat%1:06:00::'
       id: 'bat%2:35:01::'
       subcat:
       - vtai
@@ -21876,6 +22120,8 @@ bat mitzvah:
     sense:
     - derivation:
       - 'bat_mitzvah%1:11:00::'
+      event:
+      - 'bat_mitzvah%1:11:00::'
       id: 'bat_mitzvah%2:41:00::'
       subcat:
       - vtaa
@@ -21896,6 +22142,8 @@ batch:
     - derivation:
       - 'batch%1:14:00::'
       id: 'batch%2:35:00::'
+      result:
+      - 'batch%1:14:00::'
       subcat:
       - vtai
       synset: 01388727-v
@@ -22052,9 +22300,13 @@ bathe:
     pronunciation:
     - value: beɪð
     sense:
-    - derivation:
+    - agent:
+      - 'bather%1:18:01::'
+      derivation:
       - 'bather%1:18:01::'
       - 'bathing%1:04:01::'
+      event:
+      - 'bathe%1:04:00::'
       id: 'bathe%2:29:00::'
       sent:
       - They bathe
@@ -22339,6 +22591,8 @@ batik:
     - derivation:
       - 'batik%1:06:00::'
       id: 'batik%2:30:00::'
+      result:
+      - 'batik%1:06:00::'
       subcat:
       - vtai
       synset: 00289576-v
@@ -22448,7 +22702,11 @@ batten:
       subcat:
       - vtai
       synset: 01309085-v
+      uses:
+      - 'batten%1:06:00::'
     - derivation:
+      - 'batten%1:06:00::'
+      instrument:
       - 'batten%1:06:00::'
       id: 'batten%2:35:00::'
       subcat:
@@ -22631,10 +22889,15 @@ battle:
       synset: 00961007-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'battler%1:18:00::'
+      derivation:
       - 'battle%1:04:02::'
       - 'battle%1:04:00::'
       - 'battler%1:18:00::'
+      event:
+      - 'battle%1:04:02::'
+      - 'battle%1:04:00::'
       id: 'battle%2:33:00::'
       sent:
       - Sam and Sue battle
@@ -23185,7 +23448,9 @@ baulk:
     - value: bɔk
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'baulker%1:18:00::'
+      derivation:
       - 'baulker%1:18:00::'
       id: 'baulk%2:41:00::'
       subcat:
@@ -23308,13 +23573,17 @@ bawl:
       - via
       - vtai
       synset: 01050441-v
-    - derivation:
+    - agent:
+      - 'bawler%1:18:00::'
+      derivation:
       - 'bawler%1:18:00::'
       id: 'bawl%2:32:01::'
       subcat:
       - vii
       synset: 01048352-v
-    - derivation:
+    - agent:
+      - 'bawler%1:18:01::'
+      derivation:
       - 'bawler%1:18:01::'
       id: 'bawl%2:29:00::'
       subcat:
@@ -23385,6 +23654,8 @@ bay:
       - vtai
       synset: 01049945-v
     - derivation:
+      - 'bay%1:11:00::'
+      event:
       - 'bay%1:11:00::'
       id: 'bay%2:32:00::'
       subcat:
@@ -23510,6 +23781,8 @@ bayonet:
     sense:
     - derivation:
       - 'bayonet%1:06:00::'
+      instrument:
+      - 'bayonet%1:06:00::'
       id: 'bayonet%2:35:00::'
       sent:
       - They want to bayonet the prisoners
@@ -23620,13 +23893,6 @@ be:
       - via-pp
       - vii
       synset: 02609706-v
-    - id: 'be%2:42:04::'
-      subcat:
-      - via
-      - via-pp
-      - vii
-      - vii-pp
-      synset: 02755779-v
     - id: 'be%2:42:07::'
       subcat:
       - vtaa
@@ -23854,6 +24120,8 @@ beach:
     - derivation:
       - 'beach%1:17:00::'
       id: 'beach%2:38:00::'
+      location:
+      - 'beach%1:17:00::'
       sent:
       - The men beach the boat
       subcat:
@@ -24016,14 +24284,19 @@ beacon:
     - value: ˈbiːkən
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'beacon%1:10:00::'
+      - 'beacon%1:06:01::'
+      derivation:
       - 'beacon%1:10:00::'
       - 'beacon%1:06:01::'
       id: 'beacon%2:39:00::'
       subcat:
       - vii
       synset: 02164863-v
-    - derivation:
+    - by_means_of:
+      - 'beacon%1:06:01::'
+      derivation:
       - 'beacon%1:06:01::'
       id: 'beacon%2:38:00::'
       subcat:
@@ -24064,6 +24337,8 @@ bead:
     - derivation:
       - 'bead%1:25:00::'
       id: 'bead%2:42:00::'
+      result:
+      - 'bead%1:25:00::'
       subcat:
       - vii
       - vii-pp
@@ -24074,12 +24349,16 @@ bead:
       subcat:
       - vtai
       synset: 01674406-v
+      undergoer:
+      - 'bead%1:06:00::'
     - derivation:
       - 'bead%1:06:00::'
       id: 'bead%2:35:00::'
       subcat:
       - vtai
       synset: 01362794-v
+      undergoer:
+      - 'bead%1:06:00::'
 bead and quirk:
   n:
     sense:
@@ -24314,6 +24593,8 @@ beam:
       subcat:
       - vii
       synset: 02769698-v
+      undergoer:
+      - 'beam%1:19:00::'
     - id: 'beam%2:32:01::'
       subcat:
       - vtai
@@ -24327,6 +24608,8 @@ beam:
       - vtai-pp
       - vtii
       synset: 00975088-v
+      undergoer:
+      - 'beam%1:10:00::'
     - id: 'beam%2:39:03::'
       subcat:
       - via
@@ -24409,6 +24692,9 @@ bean:
       subcat:
       - vtaa
       synset: 01403510-v
+      undergoer:
+      - 'beaner%1:04:00::'
+      - 'bean%1:08:00::'
 bean aphid:
   n:
     sense:
@@ -24565,7 +24851,11 @@ bear:
       - vtaa
       - vtai
       synset: 00670017-v
-    - derivation:
+    - agent:
+      - 'bearer%1:18:03::'
+      - 'bearer%1:18:01::'
+      - 'bearer%1:18:00::'
+      derivation:
       - 'bearer%1:18:03::'
       - 'bearer%1:18:01::'
       - 'bearer%1:18:00::'
@@ -24600,7 +24890,9 @@ bear:
       subcat:
       - vtai
       synset: 00047462-v
-    - derivation:
+    - agent:
+      - 'bearer%1:18:02::'
+      derivation:
       - 'bearer%1:18:02::'
       id: 'bear%2:40:00::'
       subcat:
@@ -25244,6 +25536,11 @@ beat:
       - 'beat%1:11:01::'
       - 'beat%1:04:01::'
       - 'beater%1:06:00::'
+      event:
+      - 'beat%1:11:01::'
+      - 'beat%1:04:01::'
+      instrument:
+      - 'beater%1:06:00::'
       id: 'beat%2:35:00::'
       subcat:
       - vtaa
@@ -25254,12 +25551,18 @@ beat:
     - derivation:
       - 'beat%1:10:00::'
       - 'beat%1:11:00::'
+      event:
+      - 'beat%1:11:00::'
       id: 'beat%2:38:00::'
+      result:
+      - 'beat%1:10:00::'
       subcat:
       - vii
       - vii-pp
       synset: 01884106-v
     - derivation:
+      - 'beat%1:04:01::'
+      event:
       - 'beat%1:04:01::'
       id: 'beat%2:36:00::'
       sent:
@@ -25270,6 +25573,8 @@ beat:
     - derivation:
       - 'beat%1:10:00::'
       id: 'beat%2:39:00::'
+      result:
+      - 'beat%1:10:00::'
       subcat:
       - vii
       - vii-pp
@@ -25286,6 +25591,8 @@ beat:
       synset: 02097888-v
     - derivation:
       - 'beat%1:04:00::'
+      event:
+      - 'beat%1:04:00::'
       id: 'beat%2:38:01::'
       subcat:
       - via
@@ -25294,6 +25601,8 @@ beat:
       - vii-pp
       synset: 01949797-v
     - derivation:
+      - 'beater%1:06:00::'
+      instrument:
       - 'beater%1:06:00::'
       id: 'beat%2:35:03::'
       subcat:
@@ -25316,6 +25625,8 @@ beat:
       synset: 02579928-v
     - derivation:
       - 'beat%1:11:01::'
+      event:
+      - 'beat%1:11:01::'
       id: 'beat%2:39:01::'
       subcat:
       - vii
@@ -25327,6 +25638,8 @@ beat:
     - derivation:
       - 'beat%1:10:00::'
       id: 'beat%2:38:03::'
+      result:
+      - 'beat%1:10:00::'
       subcat:
       - vtai
       - vtai-pp
@@ -25342,6 +25655,8 @@ beat:
     - derivation:
       - 'beat%1:10:00::'
       id: 'beat%2:36:05::'
+      result:
+      - 'beat%1:10:00::'
       subcat:
       - vtai
       synset: 01730756-v
@@ -25553,7 +25868,13 @@ beatify:
     - derivation:
       - 'beatification%1:26:00::'
       - 'beatification%1:04:01::'
+      event:
+      - 'beatification%1:04:01::'
       id: 'beatify%2:37:03::'
+      result:
+      - 'beatification%1:26:00::'
+      state:
+      - 'beatification%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -25561,12 +25882,19 @@ beatify:
     - derivation:
       - 'beatification%1:26:00::'
       - 'beatification%1:04:01::'
+      event:
+      - 'beatification%1:26:00::'
+      - 'beatification%1:04:01::'
       id: 'beatify%2:37:01::'
+      result:
+      - 'beatification%1:26:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01816035-v
     - derivation:
+      - 'beatification%1:04:00::'
+      event:
       - 'beatification%1:04:00::'
       id: 'beatify%2:32:00::'
       subcat:
@@ -25737,21 +26065,31 @@ beautify:
       derivation:
       - 'beautification%1:04:00::'
       - 'beauty%1:07:00::'
+      event:
+      - 'beautification%1:04:00::'
       id: 'beautify%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00293903-v
+      uses:
+      - 'beauty%1:07:00::'
     - derivation:
       - 'beautification%1:04:00::'
       - 'beauty%1:07:00::'
+      event:
+      - 'beautification%1:04:00::'
       id: 'beautify%2:42:00::'
+      property:
+      - 'beauty%1:07:00::'
       subcat:
       - vtii
       synset: 02754802-v
     - derivation:
       - 'beautification%1:04:00::'
       - 'beauty%1:07:00::'
+      event:
+      - 'beautification%1:04:00::'
       id: 'beautify%2:36:00::'
       sent:
       - They beautify the halls with holly
@@ -25759,6 +26097,8 @@ beautify:
       - vtai
       - vtii
       synset: 01679858-v
+      uses:
+      - 'beauty%1:07:00::'
 beauty:
   n:
     pronunciation:
@@ -25905,6 +26245,8 @@ bebop:
       subcat:
       - via
       synset: 01899256-v
+      undergoer:
+      - 'bebop%1:10:00::'
 becalm:
   v:
     pronunciation:
@@ -26120,6 +26462,8 @@ bed:
       subcat:
       - vtai
       synset: 02342062-v
+      uses:
+      - 'bed%1:06:00::'
     - id: 'bed%2:35:02::'
       subcat:
       - vtai
@@ -26127,6 +26471,8 @@ bed:
     - derivation:
       - 'bed%1:06:00::'
       id: 'bed%2:35:01::'
+      location:
+      - 'bed%1:06:00::'
       subcat:
       - vtaa
       synset: 01502721-v
@@ -26370,6 +26716,8 @@ bedevil:
     - bedevilling
     sense:
     - derivation:
+      - 'bedevilment%1:04:00::'
+      event:
       - 'bedevilment%1:04:00::'
       id: 'bedevil%2:37:00::'
       subcat:
@@ -26815,6 +27163,8 @@ beef:
     sense:
     - derivation:
       - 'beef%1:10:00::'
+      event:
+      - 'beef%1:10:00::'
       id: 'beef%2:32:00::'
       subcat:
       - via
@@ -27075,6 +27425,10 @@ beep:
     - derivation:
       - 'beep%1:11:00::'
       - 'beeper%1:06:00::'
+      event:
+      - 'beep%1:11:00::'
+      instrument:
+      - 'beeper%1:06:00::'
       id: 'beep%2:39:00::'
       sent:
       - Cars beep in the streets
@@ -27086,6 +27440,10 @@ beep:
       synset: 02187621-v
     - derivation:
       - 'beep%1:11:00::'
+      - 'beeper%1:06:00::'
+      event:
+      - 'beep%1:11:00::'
+      instrument:
       - 'beeper%1:06:00::'
       id: 'beep%2:32:01::'
       subcat:
@@ -27204,6 +27562,8 @@ beeswax:
       subcat:
       - vtai
       synset: 01271434-v
+      uses:
+      - 'beeswax%1:27:00::'
 beet:
   n:
     sense:
@@ -27258,6 +27618,8 @@ beetle:
       - via-pp
       synset: 02107890-v
     - derivation:
+      - 'beetle%1:06:00::'
+      instrument:
       - 'beetle%1:06:00::'
       id: 'beetle%2:35:00::'
       subcat:
@@ -27433,6 +27795,8 @@ befoul:
     - derivation:
       - 'befoulment%1:26:00::'
       id: 'befoul%2:30:00::'
+      state:
+      - 'befoulment%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -27469,6 +27833,8 @@ befuddle:
     - derivation:
       - 'befuddlement%1:09:00::'
       id: 'befuddle%2:31:00::'
+      result:
+      - 'befuddlement%1:09:00::'
       subcat:
       - vtaa
       - vtia
@@ -27548,7 +27914,9 @@ beget:
     pronunciation:
     - value: biˈɡɛt
     sense:
-    - derivation:
+    - agent:
+      - 'begetter%1:18:00::'
+      derivation:
       - 'begetter%1:18:00::'
       id: 'beget%2:29:00::'
       subcat:
@@ -27588,6 +27956,8 @@ beggar:
     - derivation:
       - 'beggar%1:18:00::'
       id: 'beggar%2:40:00::'
+      result:
+      - 'beggar%1:18:00::'
       subcat:
       - vtia
       synset: 02322950-v
@@ -27705,7 +28075,9 @@ begin:
     pronunciation:
     - value: bɪˈɡɪn
     sense:
-    - antonym:
+    - agent:
+      - 'beginner%1:18:00::'
+      antonym:
       - 'end%2:30:01::'
       derivation:
       - 'beginner%1:18:00::'
@@ -27729,7 +28101,9 @@ begin:
       - vii-pp
       - vtii
       synset: 02614382-v
-    - antonym:
+    - agent:
+      - 'beginner%1:18:01::'
+      antonym:
       - 'end%2:30:01::'
       derivation:
       - 'beginner%1:18:01::'
@@ -27883,16 +28257,22 @@ beguile:
     pronunciation:
     - value: bɪˈɡaɪl
     sense:
-    - derivation:
+    - agent:
+      - 'beguiler%1:18:01::'
+      derivation:
       - 'beguiler%1:18:01::'
       id: 'beguile%2:41:00::'
       subcat:
       - vtaa
       synset: 02584320-v
-    - derivation:
+    - agent:
+      - 'beguiler%1:18:00::'
+      derivation:
       - 'beguilement%1:07:00::'
       - 'beguiler%1:18:00::'
       id: 'beguile%2:37:00::'
+      property:
+      - 'beguilement%1:07:00::'
       sent:
       - The performance is likely to beguile Sue
       subcat:
@@ -28202,7 +28582,9 @@ behold:
     - value: bɪˈhoʊld
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'beholder%1:18:00::'
+      derivation:
       - 'beholder%1:18:00::'
       id: 'behold%2:39:00::'
       sent:
@@ -28413,14 +28795,18 @@ belay:
       variety: GB
     - value: ˈbiːleɪ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'belay%1:17:00::'
+      derivation:
       - 'belay%1:17:00::'
       id: 'belay%2:35:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01345437-v
-    - derivation:
+    - by_means_of:
+      - 'belay%1:17:00::'
+      derivation:
       - 'belay%1:17:00::'
       id: 'belay%2:35:00::'
       subcat:
@@ -28447,6 +28833,8 @@ belch:
       variety: GB
     sense:
     - derivation:
+      - 'belch%1:04:00::'
+      event:
       - 'belch%1:04:00::'
       id: 'belch%2:29:00::'
       subcat:
@@ -28606,7 +28994,9 @@ believe:
     - value: bɪˈliv
       variety: US
     sense:
-    - antonym:
+    - agent:
+      - 'believer%1:18:01::'
+      antonym:
       - 'disbelieve%2:31:00::'
       derivation:
       - 'believable%3:00:04::'
@@ -28635,7 +29025,9 @@ believe:
       subcat:
       - via-that
       synset: 00723022-v
-    - derivation:
+    - agent:
+      - 'believer%1:18:00::'
+      derivation:
       - 'believer%1:18:00::'
       id: 'believe%2:31:01::'
       subcat:
@@ -28761,10 +29153,14 @@ bell:
     - derivation:
       - 'bell%1:11:00::'
       - 'bell%1:06:00::'
+      event:
+      - 'bell%1:11:00::'
       id: 'bell%2:35:00::'
       subcat:
       - vtai
       synset: 01299860-v
+      uses:
+      - 'bell%1:06:00::'
 bell apple:
   n:
     sense:
@@ -29183,6 +29579,8 @@ bellow:
     - derivation:
       - 'bellow%1:10:00::'
       - 'bellowing%1:10:00::'
+      event:
+      - 'bellow%1:10:00::'
       id: 'bellow%2:32:00::'
       subcat:
       - via
@@ -29191,6 +29589,8 @@ bellow:
     - derivation:
       - 'bellow%1:10:00::'
       - 'bellowing%1:10:00::'
+      event:
+      - 'bellow%1:10:00::'
       id: 'bellow%2:32:01::'
       sent:
       - You can hear animals bellow in the meadows
@@ -29294,6 +29694,8 @@ belly dance:
     sense:
     - derivation:
       - 'belly_dance%1:04:00::'
+      event:
+      - 'belly_dance%1:04:00::'
       id: 'belly_dance%2:36:00::'
       sent:
       - They belly dance
@@ -29381,7 +29783,9 @@ bellyache:
     pronunciation:
     - value: ˈbɛliˌeɪk
     sense:
-    - derivation:
+    - agent:
+      - 'bellyacher%1:18:00::'
+      derivation:
       - 'bellyacher%1:18:00::'
       id: 'bellyache%2:32:00::'
       subcat:
@@ -29579,6 +29983,8 @@ belt:
       synset: 01707889-v
     - derivation:
       - 'belt%1:11:00::'
+      event:
+      - 'belt%1:11:00::'
       id: 'belt%2:35:00::'
       sent:
       - The fighter managed to belt his opponent
@@ -29588,6 +29994,8 @@ belt:
     - antonym:
       - 'unbelt%2:35:00::'
       derivation:
+      - 'belt%1:06:00::'
+      instrument:
       - 'belt%1:06:00::'
       id: 'belt%2:35:01::'
       subcat:
@@ -29783,6 +30191,8 @@ bemuse:
       sent:
       - The bad news will bemuse him
       - The good news will bemuse her
+      state:
+      - 'bemusement%1:09:00::'
       subcat:
       - vtaa
       - vtia
@@ -29930,7 +30340,12 @@ bend:
       - 'bender%1:06:00::'
       - 'bend%1:25:02::'
       - 'bend%1:25:01::'
+      instrument:
+      - 'bender%1:06:00::'
       id: 'bend%2:38:00::'
+      result:
+      - 'bend%1:25:02::'
+      - 'bend%1:25:01::'
       sent:
       - The glass tubes bend
       subcat:
@@ -29948,13 +30363,19 @@ bend:
       - vii
       - vii-pp
       synset: 02036982-v
+      undergoer:
+      - 'bender%1:04:02::'
     - antonym:
       - 'unbend%2:35:00::'
       derivation:
       - bendable%5:00:00:flexible:01
       - 'bender%1:06:00::'
       - 'bend%1:25:01::'
+      instrument:
+      - 'bender%1:06:00::'
       id: 'bend%2:35:00::'
+      result:
+      - 'bend%1:25:01::'
       sent:
       - They bend the glass tubes
       subcat:
@@ -30114,6 +30535,9 @@ benefact:
     - derivation:
       - 'benefaction%1:21:00::'
       - 'benefaction%1:04:00::'
+      event:
+      - 'benefaction%1:21:00::'
+      - 'benefaction%1:04:00::'
       id: 'benefact%2:41:00::'
       subcat:
       - vtaa
@@ -30181,6 +30605,8 @@ benefice:
       subcat:
       - vtaa-with
       synset: 02206303-v
+      undergoer:
+      - 'benefice%1:21:00::'
 beneficed:
   a:
     sense:
@@ -30271,6 +30697,8 @@ beneficiate:
     sense:
     - derivation:
       - 'beneficiation%1:22:00::'
+      event:
+      - 'beneficiation%1:22:00::'
       id: 'beneficiate%2:30:00::'
       subcat:
       - vtai
@@ -30310,14 +30738,18 @@ benefit:
     - value: ˈbɛn.ə.fɪt
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'benefit%1:07:00::'
+      derivation:
       - 'benefit%1:07:00::'
       id: 'benefit%2:40:00::'
       subcat:
       - via
       - via-pp
       synset: 02295422-v
-    - derivation:
+    - by_means_of:
+      - 'benefit%1:07:00::'
+      derivation:
       - 'beneficent%3:00:00::'
       - 'benefit%1:07:00::'
       id: 'benefit%2:40:01::'
@@ -30894,6 +31326,8 @@ bereave:
     - derivation:
       - 'bereavement%1:26:00::'
       id: 'bereave%2:40:00::'
+      state:
+      - 'bereavement%1:26:00::'
       subcat:
       - vtaa-of
       synset: 02320401-v
@@ -31049,6 +31483,9 @@ berry:
       subcat:
       - via
       synset: 01386756-v
+      undergoer:
+      - 'berry%1:20:00::'
+      - 'berry%1:13:00::'
 berry fern:
   n:
     sense:
@@ -31113,15 +31550,22 @@ berth:
       subcat:
       - vtaa
       synset: 02341943-v
+      uses:
+      - 'berth%1:15:00::'
+      - 'berth%1:06:00::'
     - derivation:
       - 'berth%1:15:00::'
       id: 'berth%2:35:00::'
+      location:
+      - 'berth%1:15:00::'
       subcat:
       - vtai
       synset: 01308202-v
     - derivation:
       - 'berth%1:15:00::'
       id: 'berth%2:35:03::'
+      location:
+      - 'berth%1:15:00::'
       subcat:
       - vii
       synset: 01308021-v
@@ -31229,7 +31673,9 @@ besiege:
     pronunciation:
     - value: bəˈsiːd͡ʒ
     sense:
-    - derivation:
+    - agent:
+      - 'besieger%1:18:00::'
+      derivation:
       - 'besieger%1:18:00::'
       id: 'besiege%2:33:00::'
       subcat:
@@ -31572,6 +32018,9 @@ bestow:
     - derivation:
       - 'bestowment%1:04:00::'
       - 'bestowal%1:04:00::'
+      event:
+      - 'bestowal%1:04:00::'
+      - 'bestowment%1:04:00::'
       id: 'bestow%2:40:00::'
       subcat:
       - vtai-on
@@ -31582,6 +32031,8 @@ bestow:
       subcat:
       - vtai-on
       synset: 02268500-v
+      undergoer:
+      - 'bestowment%1:21:00::'
     - id: 'bestow%2:40:01::'
       subcat:
       - vii-pp
@@ -31670,11 +32121,16 @@ bet:
       subcat:
       - via-that
       synset: 00920551-v
-    - derivation:
+    - agent:
+      - 'bettor%1:18:00::'
+      - 'better%1:18:00::'
+      derivation:
       - 'bettor%1:18:00::'
       - 'bet%1:21:00::'
       - 'bet%1:04:00::'
       - 'better%1:18:00::'
+      event:
+      - 'bet%1:04:00::'
       id: 'bet%2:33:00::'
       sent:
       - They bet the money
@@ -31682,6 +32138,8 @@ bet:
       - via
       - vtai
       synset: 01158153-v
+      undergoer:
+      - 'bet%1:21:00::'
     - id: 'bet%2:31:00::'
       subcat:
       - vtaa
@@ -31985,8 +32443,12 @@ betray:
       subcat:
       - vtii
       synset: 00938362-v
-    - derivation:
+    - agent:
       - 'betrayer%1:18:01::'
+      derivation:
+      - 'betrayer%1:18:01::'
+      - 'betrayal%1:04:00::'
+      event:
       - 'betrayal%1:04:00::'
       id: 'betray%2:41:00::'
       sent:
@@ -32006,13 +32468,17 @@ betray:
       subcat:
       - vtaa
       synset: 02582588-v
-    - derivation:
+    - agent:
+      - 'betrayer%1:18:01::'
+      derivation:
       - 'betrayer%1:18:01::'
       id: 'betray%2:32:00::'
       subcat:
       - vtaa
       synset: 00843665-v
-    - derivation:
+    - agent:
+      - 'betrayer%1:18:00::'
+      derivation:
       - 'betrayer%1:18:00::'
       id: 'betray%2:32:03::'
       subcat:
@@ -32048,6 +32514,8 @@ betroth:
       variety: US
     sense:
     - derivation:
+      - 'betrothal%1:04:00::'
+      event:
       - 'betrothal%1:04:00::'
       id: 'betroth%2:32:00::'
       subcat:
@@ -32120,9 +32588,13 @@ better:
       synset: 00512379-r
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'better%1:07:01::'
+      derivation:
       - 'better%1:07:01::'
       id: 'better%2:33:00::'
+      state:
+      - 'better%1:07:01::'
       subcat:
       - vtai
       synset: 01109275-v
@@ -32131,7 +32603,13 @@ better:
       derivation:
       - 'betterment%1:04:00::'
       - 'better%1:07:01::'
+      event:
+      - 'betterment%1:04:00::'
       id: 'better%2:30:01::'
+      result:
+      - 'better%1:07:01::'
+      state:
+      - 'better%1:07:01::'
       subcat:
       - vtai
       - vtia
@@ -32142,7 +32620,13 @@ better:
       derivation:
       - 'betterment%1:11:00::'
       - 'better%1:07:01::'
+      event:
+      - 'betterment%1:11:00::'
       id: 'better%2:30:00::'
+      result:
+      - 'better%1:07:01::'
+      state:
+      - 'better%1:07:01::'
       subcat:
       - via
       - vii
@@ -32286,6 +32770,8 @@ bevel:
     - derivation:
       - 'bevel%1:06:01::'
       id: 'bevel%2:35:00::'
+      result:
+      - 'bevel%1:06:01::'
       subcat:
       - vtai
       - vtii
@@ -32358,6 +32844,8 @@ bewilder:
     - derivation:
       - 'bewilderment%1:09:00::'
       id: 'bewilder%2:31:00::'
+      result:
+      - 'bewilderment%1:09:00::'
       sent:
       - The bad news will bewilder him
       - The good news will bewilder her
@@ -32432,6 +32920,8 @@ bewitch:
       - vtaa
       - vtai
       synset: 00779033-v
+      undergoer:
+      - 'bewitchment%1:09:00::'
 bewitched:
   a:
     pronunciation:
@@ -32628,7 +33118,9 @@ bias:
     pronunciation:
     - value: ˈbaɪəs
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bias%1:09:00::'
+      derivation:
       - 'bias%1:09:00::'
       id: 'bias%2:33:00::'
       subcat:
@@ -32637,7 +33129,9 @@ bias:
       - vtia
       - vtii
       synset: 01088088-v
-    - derivation:
+    - by_means_of:
+      - 'bias%1:09:00::'
+      derivation:
       - 'bias%1:09:00::'
       id: 'bias%2:31:00::'
       subcat:
@@ -33071,6 +33565,8 @@ bicker:
     sense:
     - derivation:
       - 'bicker%1:10:00::'
+      event:
+      - 'bicker%1:10:00::'
       id: 'bicker%2:32:00::'
       sent:
       - Sam and Sue bicker
@@ -33194,7 +33690,9 @@ bicycle:
     pronunciation:
     - value: ˈbaɪsɪkl̩
     sense:
-    - derivation:
+    - agent:
+      - 'bicycler%1:18:00::'
+      derivation:
       - 'bicyclist%1:18:00::'
       - 'bicycler%1:18:00::'
       - 'bicycle%1:06:00::'
@@ -33206,6 +33704,8 @@ bicycle:
       - via
       - via-pp
       synset: 01939335-v
+      vehicle:
+      - 'bicycle%1:06:00::'
 bicycle chain:
   n:
     sense:
@@ -33319,9 +33819,13 @@ bid:
     - bidden
     - bidding
     sense:
-    - derivation:
+    - agent:
+      - 'bidder%1:18:00::'
+      derivation:
       - 'bid%1:10:00::'
       - 'bidder%1:18:00::'
+      event:
+      - 'bid%1:10:00::'
       id: 'bid%2:40:00::'
       subcat:
       - via
@@ -33337,12 +33841,16 @@ bid:
       - biddable%5:00:00:obedient:00
       - 'bid%1:10:03::'
       - 'bidding%1:10:02::'
+      event:
+      - 'bid%1:10:03::'
       id: 'bid%2:32:02::'
       subcat:
       - vtaa
       - vtaa-to-inf
       synset: 00761702-v
-    - derivation:
+    - agent:
+      - 'bidder%1:18:01::'
+      derivation:
       - 'bid%1:10:01::'
       - 'bidder%1:18:01::'
       - 'bidding%1:10:01::'
@@ -33351,6 +33859,9 @@ bid:
       - via
       synset: 02305021-v
     - derivation:
+      - 'bid%1:10:00::'
+      - 'bid%1:04:00::'
+      event:
       - 'bid%1:10:00::'
       - 'bid%1:04:00::'
       id: 'bid%2:40:04::'
@@ -33522,6 +34033,8 @@ biff:
     sense:
     - derivation:
       - 'biff%1:04:00::'
+      event:
+      - 'biff%1:04:00::'
       id: 'biff%2:35:00::'
       subcat:
       - vtaa
@@ -33584,7 +34097,11 @@ bifurcate:
       - 'fork%1:04:00::'
       - 'bifurcation%1:25:01::'
       - 'bifurcation%1:04:00::'
+      event:
+      - 'bifurcation%1:04:00::'
       id: 'bifurcate%2:42:00::'
+      result:
+      - 'bifurcation%1:25:01::'
       subcat:
       - vii
       - vii-pp
@@ -33594,7 +34111,13 @@ bifurcate:
       - 'bifurcation%1:25:01::'
       - 'bifurcation%1:25:00::'
       - 'bifurcation%1:04:00::'
+      event:
+      - 'bifurcation%1:04:00::'
       id: 'bifurcate%2:30:00::'
+      location:
+      - 'bifurcation%1:25:00::'
+      result:
+      - 'bifurcation%1:25:01::'
       subcat:
       - vii
       synset: 00330627-v
@@ -34076,7 +34599,9 @@ bight:
       synset: 02840781-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bight%1:25:01::'
+      derivation:
       - 'bight%1:25:01::'
       id: 'bight%2:35:00::'
       subcat:
@@ -34197,6 +34722,8 @@ bike:
       - via
       - via-pp
       synset: 01939335-v
+      vehicle:
+      - 'bike%1:06:00::'
 bike parking rack:
   n:
     sense:
@@ -34417,6 +34944,10 @@ bilge:
       - 'bilge%1:27:00::'
       - 'bilge%1:06:00::'
       id: 'bilge%2:30:00::'
+      location:
+      - 'bilge%1:06:00::'
+      result:
+      - 'bilge%1:27:00::'
       subcat:
       - vii
       synset: 00258833-v
@@ -34637,7 +35168,9 @@ bill:
       synset: 01760949-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bill%1:10:01::'
+      derivation:
       - 'bill%1:10:01::'
       id: 'bill%2:40:00::'
       subcat:
@@ -34645,14 +35178,18 @@ bill:
       - vtaa
       - vtai
       synset: 02325354-v
-    - derivation:
+    - by_means_of:
+      - 'bill%1:10:00::'
+      derivation:
       - 'bill%1:10:00::'
       id: 'bill%2:32:00::'
       subcat:
       - vtaa
       - vtai
       synset: 00979185-v
-    - derivation:
+    - by_means_of:
+      - 'bill%1:10:00::'
+      derivation:
       - 'bill%1:10:00::'
       id: 'bill%2:32:01::'
       subcat:
@@ -34769,6 +35306,8 @@ billet:
       - via
       - vtaa
       synset: 02659254-v
+      uses:
+      - 'billet%1:06:00::'
 billet doux:
   n:
     sense:
@@ -34959,6 +35498,8 @@ billow:
       - via-pp
       synset: 02045573-v
     - derivation:
+      - 'billow%1:11:00::'
+      event:
       - 'billow%1:11:00::'
       id: 'billow%2:38:00::'
       subcat:
@@ -35402,6 +35943,8 @@ bind:
     - derivation:
       - 'binder%1:27:01::'
       - 'binding%1:07:00::'
+      instrument:
+      - 'binder%1:27:01::'
       id: 'bind%2:35:06::'
       subcat:
       - vii
@@ -35415,6 +35958,9 @@ bind:
       - 'unbind%2:35:00::'
       derivation:
       - bindable%5:00:00:attachable:00
+      - 'binder%1:06:03::'
+      - 'binder%1:06:00::'
+      instrument:
       - 'binder%1:06:03::'
       - 'binder%1:06:00::'
       id: 'bind%2:35:00::'
@@ -35439,7 +35985,9 @@ bind:
       - vtaa
       - vtai
       synset: 01289516-v
-    - derivation:
+    - by_means_of:
+      - 'bind%1:09:00::'
+      derivation:
       - 'bind%1:09:00::'
       id: 'bind%2:32:00::'
       subcat:
@@ -35452,12 +36000,16 @@ bind:
       - 'binding%1:06:01::'
       - 'binding%1:06:00::'
       - 'bindery%1:06:00::'
+      instrument:
+      - 'binder%1:06:01::'
       id: 'bind%2:35:02::'
       subcat:
       - vtai
       synset: 01338486-v
     - derivation:
       - bindable%5:00:00:attachable:00
+      - 'binder%1:06:03::'
+      instrument:
       - 'binder%1:06:03::'
       id: 'bind%2:35:01::'
       subcat:
@@ -35470,6 +36022,8 @@ bind:
     - derivation:
       - 'binder%1:27:01::'
       - 'binding%1:07:00::'
+      instrument:
+      - 'binder%1:27:01::'
       id: 'bind%2:30:09::'
       subcat:
       - vtii
@@ -35618,6 +36172,8 @@ binge:
     - value: bɪndʒ
     sense:
     - derivation:
+      - 'binge%1:04:00::'
+      event:
       - 'binge%1:04:00::'
       id: 'binge%2:34:00::'
       subcat:
@@ -35789,6 +36345,8 @@ bioassay:
   v:
     sense:
     - derivation:
+      - 'bioassay%1:09:00::'
+      event:
       - 'bioassay%1:09:00::'
       id: 'bioassay%2:31:00::'
       subcat:
@@ -36846,6 +37404,8 @@ birch:
     sense:
     - derivation:
       - 'birch%1:06:00::'
+      instrument:
+      - 'birch%1:06:00::'
       id: 'birch%2:35:00::'
       sent:
       - They want to birch the prisoners
@@ -36925,7 +37485,9 @@ bird:
       synset: 04219349-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'birder%1:18:00::'
+      derivation:
       - 'birder%1:18:00::'
       - 'bird%1:05:00::'
       id: 'bird%2:33:00::'
@@ -36935,6 +37497,8 @@ bird:
       - via
       - via-pp
       synset: 01142291-v
+      undergoer:
+      - 'bird%1:05:00::'
 bird cherry:
   n:
     sense:
@@ -37229,6 +37793,8 @@ birdie:
     sense:
     - derivation:
       - 'birdie%1:23:00::'
+      event:
+      - 'birdie%1:23:00::'
       id: 'birdie%2:35:00::'
       subcat:
       - via
@@ -37259,6 +37825,8 @@ birdlime:
       - vtai
       - vtai-pp
       synset: 02087484-v
+      undergoer:
+      - 'birdlime%1:27:00::'
 birdnest:
   n:
     sense:
@@ -37296,7 +37864,10 @@ birdsong:
 birdwatch:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bird_watcher%1:18:00::'
+      - 'bird_watcher%1:18:01::'
+      derivation:
       - 'bird_watcher%1:18:00::'
       - 'bird_watcher%1:18:01::'
       id: 'birdwatch%2:33:00::'
@@ -37389,6 +37960,8 @@ birr:
     sense:
     - derivation:
       - 'birr%1:11:00::'
+      event:
+      - 'birr%1:11:00::'
       id: 'birr%2:39:00::'
       subcat:
       - vii
@@ -37427,6 +38000,10 @@ birth:
   v:
     sense:
     - derivation:
+      - 'birth%1:28:00::'
+      - 'birth%1:22:00::'
+      - 'birth%1:11:00::'
+      event:
       - 'birth%1:28:00::'
       - 'birth%1:22:00::'
       - 'birth%1:11:00::'
@@ -37616,6 +38193,8 @@ bisect:
       variety: US
     sense:
     - derivation:
+      - 'bisection%1:04:00::'
+      event:
       - 'bisection%1:04:00::'
       id: 'bisect%2:35:00::'
       subcat:
@@ -37967,6 +38546,8 @@ bitch:
     - derivation:
       - 'bitch%1:10:00::'
       - 'bitchery%1:04:00::'
+      event:
+      - 'bitch%1:10:00::'
       id: 'bitch%2:32:00::'
       subcat:
       - via
@@ -38036,13 +38617,19 @@ bite:
     pronunciation:
     - value: baɪt
     sense:
-    - also:
+    - agent:
+      - 'biter%1:18:00::'
+      also:
       - 'bite_off%2:35:00::'
       derivation:
       - 'bite%1:26:00::'
       - 'bite%1:04:00::'
       - 'biter%1:18:00::'
+      event:
+      - 'bite%1:04:00::'
       id: 'bite%2:35:00::'
+      result:
+      - 'bite%1:26:00::'
       subcat:
       - vtaa
       - vtai
@@ -38059,6 +38646,8 @@ bite:
     - derivation:
       - 'bite%1:26:01::'
       id: 'bite%2:35:02::'
+      result:
+      - 'bite%1:26:01::'
       subcat:
       - vtia
       - vtii
@@ -38174,7 +38763,9 @@ bitt:
       synset: 02867933-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bitt%1:06:00::'
+      derivation:
       - 'bitt%1:06:00::'
       id: 'bitt%2:35:00::'
       subcat:
@@ -38233,9 +38824,13 @@ bitter:
       synset: 00424346-r
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bitter%1:07:00::'
+      derivation:
       - 'bitter%1:07:00::'
       id: 'bitter%2:39:00::'
+      property:
+      - 'bitter%1:07:00::'
       subcat:
       - vtai
       - vtii
@@ -38628,6 +39223,9 @@ bivouac:
       - 'bivouac%1:15:00::'
       - 'bivouac%1:06:00::'
       id: 'bivouac%2:42:00::'
+      location:
+      - 'bivouac%1:15:00::'
+      - 'bivouac%1:06:00::'
       subcat:
       - via
       - via-pp
@@ -38730,7 +39328,9 @@ blab:
     pronunciation:
     - value: blæb
     sense:
-    - derivation:
+    - agent:
+      - 'blabber%1:18:00::'
+      derivation:
       - 'blabber%1:18:00::'
       id: 'blab%2:32:00::'
       subcat:
@@ -38762,7 +39362,9 @@ blabber:
     pronunciation:
     - value: ˈblæb.ə(ɹ)
     sense:
-    - derivation:
+    - agent:
+      - 'blabber%1:18:00::'
+      derivation:
       - 'blabber%1:18:00::'
       id: 'blabber%2:32:00::'
       subcat:
@@ -38860,6 +39462,8 @@ black:
     - derivation:
       - 'black%1:07:00::'
       id: 'black%2:30:00::'
+      property:
+      - 'black%1:07:00::'
       subcat:
       - vii
       - vtai
@@ -39371,8 +39975,12 @@ black market:
       synset: 01099644-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'black_market%1:14:00::'
+      derivation:
+      - 'black_market%1:14:00::'
+      - 'black_market%1:04:00::'
+      event:
       - 'black_market%1:04:00::'
       id: 'black_market%2:40:00::'
       subcat:
@@ -39387,7 +39995,9 @@ black marketeer:
       synset: 09877966-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'black_marketeer%1:18:00::'
+      derivation:
       - 'black_marketeer%1:18:00::'
       id: 'black_marketeer%2:40:00::'
       subcat:
@@ -39948,6 +40558,8 @@ blackball:
     sense:
     - derivation:
       - 'blackball%1:04:00::'
+      event:
+      - 'blackball%1:04:00::'
       id: 'blackball%2:41:00::'
       subcat:
       - vtaa
@@ -39993,6 +40605,8 @@ blackberry:
       - via
       - via-pp
       synset: 01385743-v
+      undergoer:
+      - 'blackberry%1:13:00::'
 blackberry bush:
   n:
     sense:
@@ -40279,7 +40893,9 @@ blackleg:
     - blacklegged
     - blacklegging
     sense:
-    - derivation:
+    - agent:
+      - 'blackleg%1:18:00::'
+      derivation:
       - 'blackleg%1:18:00::'
       id: 'blackleg%2:41:00::'
       subcat:
@@ -40306,6 +40922,8 @@ blacklist:
       subcat:
       - vtaa
       synset: 02478566-v
+      undergoer:
+      - 'blacklist%1:10:00::'
 blackmail:
   n:
     sense:
@@ -40316,18 +40934,26 @@ blackmail:
       synset: 00786252-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'blackmailer%1:18:00::'
+      derivation:
       - 'blackmail%1:04:00::'
       - 'blackmailer%1:18:00::'
+      event:
+      - 'blackmail%1:04:00::'
       id: 'blackmail%2:41:00::'
       sent:
       - They blackmail him to write the letter
       subcat:
       - vtaa
       synset: 02587158-v
-    - derivation:
+    - agent:
+      - 'blackmailer%1:18:00::'
+      derivation:
       - 'blackmail%1:04:00::'
       - 'blackmailer%1:18:00::'
+      event:
+      - 'blackmail%1:04:00::'
       id: 'blackmail%2:40:00::'
       subcat:
       - vtaa
@@ -40474,6 +41100,8 @@ blacktop:
       subcat:
       - vtai
       synset: 01269168-v
+      uses:
+      - 'blacktop%1:27:00::'
 blacktopping:
   n:
     sense:
@@ -40769,6 +41397,8 @@ blame:
       - blameable%5:00:00:guilty:00
       - blamable%5:00:00:guilty:00
       - 'blame%1:10:01::'
+      event:
+      - 'blame%1:10:01::'
       id: 'blame%2:32:00::'
       subcat:
       - vtaa
@@ -40779,6 +41409,8 @@ blame:
       synset: 00844217-v
     - derivation:
       - 'blame%1:10:00::'
+      event:
+      - 'blame%1:10:00::'
       id: 'blame%2:32:01::'
       subcat:
       - vtaa
@@ -40787,6 +41419,8 @@ blame:
     - derivation:
       - blameable%5:00:00:guilty:00
       - blamable%5:00:00:guilty:00
+      - 'blame%1:10:01::'
+      event:
       - 'blame%1:10:01::'
       id: 'blame%2:31:00::'
       subcat:
@@ -40942,6 +41576,9 @@ blandish:
     - derivation:
       - 'blandishment%1:10:00::'
       - 'blandishment%1:04:00::'
+      event:
+      - 'blandishment%1:10:00::'
+      - 'blandishment%1:04:00::'
       id: 'blandish%2:32:00::'
       subcat:
       - vtaa
@@ -41095,7 +41732,9 @@ blanket:
     pronunciation:
     - value: ˈblæŋkɪt
     sense:
-    - derivation:
+    - by_means_of:
+      - 'blanket%1:17:00::'
+      derivation:
       - 'blanket%1:17:00::'
       id: 'blanket%2:35:00::'
       sent:
@@ -41103,7 +41742,9 @@ blanket:
       subcat:
       - vtii
       synset: 01361710-v
-    - derivation:
+    - by_means_of:
+      - 'blanket%1:17:00::'
+      derivation:
       - 'blanket%1:17:00::'
       id: 'blanket%2:42:00::'
       sent:
@@ -41178,6 +41819,8 @@ blare:
     sense:
     - derivation:
       - 'blare%1:11:00::'
+      event:
+      - 'blare%1:11:00::'
       id: 'blare%2:39:01::'
       subcat:
       - vii
@@ -41230,7 +41873,9 @@ blarney:
     - value: ˈblɑːni
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'blarney%1:10:00::'
+      derivation:
       - 'blarney%1:10:00::'
       id: 'blarney%2:32:00::'
       subcat:
@@ -41257,7 +41902,9 @@ blaspheme:
       subcat:
       - via
       synset: 00867051-v
-    - derivation:
+    - agent:
+      - 'blasphemer%1:18:00::'
+      derivation:
       - 'blasphemer%1:18:00::'
       id: 'blaspheme%2:32:01::'
       subcat:
@@ -41329,6 +41976,8 @@ blast:
     sense:
     - derivation:
       - 'blast%1:11:01::'
+      event:
+      - 'blast%1:11:01::'
       id: 'blast%2:39:00::'
       sent:
       - Cars blast in the streets
@@ -41338,14 +41987,20 @@ blast:
       synset: 02186925-v
     - derivation:
       - 'blast%1:04:00::'
+      event:
+      - 'blast%1:04:00::'
       id: 'blast%2:35:00::'
       subcat:
       - vtaa
       - vtai
       synset: 01404426-v
-    - derivation:
+    - agent:
+      - 'blaster%1:18:00::'
+      derivation:
       - 'blast%1:11:00::'
       - 'blaster%1:18:00::'
+      event:
+      - 'blast%1:11:00::'
       id: 'blast%2:33:00::'
       subcat:
       - vtai
@@ -41784,6 +42439,8 @@ blather:
     sense:
     - derivation:
       - 'blather%1:10:00::'
+      event:
+      - 'blather%1:10:00::'
       id: 'blather%2:32:00::'
       sent:
       - Sam and Sue blather
@@ -41821,6 +42478,8 @@ blaze:
     sense:
     - derivation:
       - 'blaze%1:07:00::'
+      event:
+      - 'blaze%1:07:00::'
       id: 'blaze%2:43:01::'
       sent:
       - Lights blaze on the horizon
@@ -41834,6 +42493,8 @@ blaze:
       synset: 01137512-v
     - also:
       - 'blaze_up%2:43:00::'
+      by_means_of:
+      - 'blaze%1:22:00::'
       derivation:
       - 'blaze%1:22:00::'
       id: 'blaze%2:43:00::'
@@ -41937,6 +42598,8 @@ blazon:
       subcat:
       - vtai
       synset: 01688075-v
+      uses:
+      - 'blazon%1:06:00::'
 blazon out:
   v:
     sense:
@@ -41968,18 +42631,28 @@ bleach:
       synset: 00274853-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bleacher%1:18:00::'
+      derivation:
       - 'bleach%1:07:00::'
       - 'bleacher%1:18:00::'
       id: 'bleach%2:30:01::'
+      result:
+      - 'bleach%1:07:00::'
       subcat:
       - vtai
       - vtii
       synset: 00280592-v
-    - derivation:
+    - agent:
+      - 'bleacher%1:18:00::'
+      by_means_of:
+      - 'bleach%1:27:00::'
+      derivation:
       - 'bleach%1:27:00::'
       - 'bleach%1:04:00::'
       - 'bleacher%1:18:00::'
+      event:
+      - 'bleach%1:04:00::'
       id: 'bleach%2:30:00::'
       subcat:
       - vii
@@ -42125,6 +42798,8 @@ bleat:
       synset: 01050364-v
     - derivation:
       - 'bleat%1:11:00::'
+      event:
+      - 'bleat%1:11:00::'
       id: 'bleat%2:32:00::'
       sent:
       - You can hear animals bleat in the meadows
@@ -42162,7 +42837,9 @@ bleed:
     pronunciation:
     - value: ˈbliːd
     sense:
-    - derivation:
+    - agent:
+      - 'bleeder%1:18:00::'
+      derivation:
       - 'bleeder%1:18:00::'
       - 'bleeding%1:26:00::'
       id: 'bleed%2:29:00::'
@@ -42239,6 +42916,8 @@ bleep:
     sense:
     - derivation:
       - 'bleep%1:11:00::'
+      event:
+      - 'bleep%1:11:00::'
       id: 'bleep%2:39:00::'
       subcat:
       - vii
@@ -42258,21 +42937,27 @@ blemish:
     pronunciation:
     - value: ˈblɛmɪʃ
     sense:
-    - derivation:
+    - by_means_of:
+      - 'blemish%1:07:00::'
+      derivation:
       - 'blemish%1:07:00::'
       id: 'blemish%2:35:01::'
       subcat:
       - vtai
       - vtii
       synset: 01552687-v
-    - derivation:
+    - by_means_of:
+      - 'blemish%1:07:00::'
+      derivation:
       - 'blemish%1:07:00::'
       id: 'blemish%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01540949-v
-    - derivation:
+    - by_means_of:
+      - 'blemish%1:07:00::'
+      derivation:
       - 'blemish%1:07:00::'
       id: 'blemish%2:30:00::'
       subcat:
@@ -42320,6 +43005,11 @@ blend:
       - 'blend%1:11:00::'
       - 'blend%1:04:00::'
       - 'blender%1:06:00::'
+      event:
+      - 'blend%1:11:00::'
+      - 'blend%1:04:00::'
+      instrument:
+      - 'blender%1:06:00::'
       id: 'blend%2:35:00::'
       subcat:
       - vii
@@ -42332,6 +43022,9 @@ blend:
       - vii-pp
       synset: 02706315-v
     - derivation:
+      - 'blend%1:11:00::'
+      - 'blend%1:04:00::'
+      event:
       - 'blend%1:11:00::'
       - 'blend%1:04:00::'
       id: 'blend%2:30:00::'
@@ -42547,6 +43240,8 @@ blether:
     sense:
     - derivation:
       - 'blether%1:10:00::'
+      event:
+      - 'blether%1:10:00::'
       id: 'blether%2:32:00::'
       subcat:
       - via
@@ -42593,7 +43288,11 @@ blight:
     - derivation:
       - 'blight%1:26:01::'
       - 'blight%1:26:00::'
+      event:
+      - 'blight%1:26:01::'
       id: 'blight%2:43:00::'
+      state:
+      - 'blight%1:26:00::'
       subcat:
       - vtia
       - vtii
@@ -42671,13 +43370,19 @@ blind:
     - derivation:
       - 'blinder%1:06:00::'
       - 'blind%1:14:00::'
+      instrument:
+      - 'blinder%1:06:00::'
       id: 'blind%2:39:01::'
+      result:
+      - 'blind%1:14:00::'
       subcat:
       - vtia
       synset: 02172999-v
     - derivation:
       - 'blind%1:14:00::'
       id: 'blind%2:39:00::'
+      result:
+      - 'blind%1:14:00::'
       subcat:
       - vtaa
       - vtia
@@ -42946,17 +43651,24 @@ blink:
     - derivation:
       - 'blink%1:04:00::'
       - 'blinking%1:04:00::'
+      event:
+      - 'blink%1:04:00::'
       id: 'blink%2:29:00::'
       subcat:
       - via
       synset: 00007739-v
     - derivation:
       - 'blink%1:04:00::'
+      event:
+      - 'blink%1:04:00::'
       id: 'blink%2:29:01::'
       subcat:
       - vtai
       synset: 00008435-v
     - derivation:
+      - 'blinker%1:10:00::'
+      - 'blinker%1:06:00::'
+      instrument:
       - 'blinker%1:10:00::'
       - 'blinker%1:06:00::'
       id: 'blink%2:39:00::'
@@ -43002,10 +43714,14 @@ blinker:
     sense:
     - derivation:
       - 'blinker%1:06:01::'
+      instrument:
+      - 'blinker%1:06:01::'
       id: 'blinker%2:35:00::'
       subcat:
       - vtai
       synset: 01340501-v
+      uses:
+      - 'blinker%1:06:01::'
 blinking:
   a:
     sense:
@@ -43109,9 +43825,13 @@ blister:
     - value: ˈblɪstɚ
       variety: US
     sense:
-    - derivation:
+    - body_part:
+      - 'blister%1:08:00::'
+      derivation:
       - 'blister%1:08:00::'
       id: 'blister%2:30:00::'
+      result:
+      - 'blister%1:08:00::'
       sent:
       - Did his feet blister?
       subcat:
@@ -43242,6 +43962,8 @@ blitz:
     sense:
     - derivation:
       - 'blitz%1:04:00::'
+      event:
+      - 'blitz%1:04:00::'
       id: 'blitz%2:33:00::'
       subcat:
       - vtai
@@ -43291,6 +44013,8 @@ bloat:
     sense:
     - derivation:
       - 'bloat%1:26:00::'
+      event:
+      - 'bloat%1:26:00::'
       id: 'bloat%2:30:00::'
       sent:
       - Did his feet bloat?
@@ -43298,6 +44022,8 @@ bloat:
       - vii
       synset: 00362450-v
     - derivation:
+      - 'bloat%1:26:00::'
+      event:
       - 'bloat%1:26:00::'
       id: 'bloat%2:30:01::'
       subcat:
@@ -43331,6 +44057,8 @@ blob:
     - derivation:
       - 'blob%1:25:00::'
       id: 'blob%2:35:00::'
+      result:
+      - 'blob%1:25:00::'
       subcat:
       - vtai
       - vtii
@@ -43418,7 +44146,9 @@ block:
       subcat:
       - vtai
       synset: 02449162-v
-    - derivation:
+    - by_means_of:
+      - 'blocker%1:06:00::'
+      derivation:
       - 'blocker%1:06:00::'
       id: 'block%2:39:05::'
       subcat:
@@ -43438,6 +44168,8 @@ block:
     - derivation:
       - 'block%1:06:01::'
       - 'blockage%1:06:00::'
+      event:
+      - 'block%1:06:01::'
       id: 'block%2:35:02::'
       subcat:
       - vtai
@@ -43454,16 +44186,22 @@ block:
       subcat:
       - vtai
       synset: 01220488-v
-    - derivation:
+    - agent:
+      - 'blocker%1:18:00::'
+      derivation:
       - 'blocker%1:18:00::'
       - 'block%1:04:00::'
       - 'blockage%1:04:00::'
       - 'blocking%1:04:00::'
+      event:
+      - 'block%1:04:00::'
       id: 'block%2:33:00::'
       subcat:
       - vtai
       synset: 01149526-v
     - derivation:
+      - 'block%1:09:00::'
+      event:
       - 'block%1:09:00::'
       id: 'block%2:31:00::'
       subcat:
@@ -43473,6 +44211,8 @@ block:
       - vtai
       synset: 00610654-v
     - derivation:
+      - 'block%1:25:01::'
+      instrument:
       - 'block%1:25:01::'
       id: 'block%2:30:01::'
       subcat:
@@ -43613,20 +44353,26 @@ blockade:
       - vtai
       - vtii
       synset: 02563025-v
-    - derivation:
+    - by_means_of:
+      - 'blockade%1:06:00::'
+      derivation:
       - 'blockade%1:06:00::'
       id: 'blockade%2:35:00::'
       subcat:
       - vtai
       - vtii
       synset: 01480632-v
-    - derivation:
+    - by_means_of:
+      - 'blockade%1:06:00::'
+      derivation:
       - 'blockade%1:06:00::'
       id: 'blockade%2:33:01::'
       subcat:
       - vtai
       synset: 01129387-v
     - derivation:
+      - 'blockade%1:04:00::'
+      event:
       - 'blockade%1:04:00::'
       id: 'blockade%2:33:00::'
       subcat:
@@ -43863,9 +44609,13 @@ blood:
     - derivation:
       - 'blood%1:08:00::'
       id: 'blood%2:35:00::'
+      material:
+      - 'blood%1:08:00::'
       subcat:
       - vtai
       synset: 01236206-v
+      uses:
+      - 'blood%1:08:00::'
 blood agar:
   n:
     sense:
@@ -44461,11 +45211,17 @@ bloom:
       synset: 11430641-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bloomer%1:20:00::'
+      derivation:
       - 'bloom%1:22:00::'
       - 'bloom%1:20:00::'
       - 'bloomer%1:20:00::'
+      event:
+      - 'bloom%1:22:00::'
       id: 'bloom%2:30:00::'
+      result:
+      - 'bloom%1:20:00::'
       subcat:
       - vii
       synset: 00295007-v
@@ -44545,10 +45301,14 @@ blossom:
     - derivation:
       - 'blossom%1:20:00::'
       id: 'blossom%2:30:01::'
+      result:
+      - 'blossom%1:20:00::'
       subcat:
       - vii
       synset: 00295007-v
     - derivation:
+      - 'blossom%1:28:00::'
+      event:
       - 'blossom%1:28:00::'
       id: 'blossom%2:30:00::'
       subcat:
@@ -44604,6 +45364,8 @@ blot:
     - derivation:
       - 'blot%1:07:00::'
       - 'blotter%1:27:00::'
+      instrument:
+      - 'blotter%1:27:00::'
       id: 'blot%2:35:00::'
       subcat:
       - vtai
@@ -44648,6 +45410,8 @@ blotch:
     - derivation:
       - 'blotch%1:07:00::'
       id: 'blotch%2:36:00::'
+      result:
+      - 'blotch%1:07:00::'
       subcat:
       - vtai
       synset: 01700030-v
@@ -44752,11 +45516,15 @@ blow:
     sense:
     - derivation:
       - 'blow%1:04:02::'
+      event:
+      - 'blow%1:04:02::'
       id: 'blow%2:29:00::'
       subcat:
       - via
       synset: 00007012-v
     - derivation:
+      - 'blow%1:19:00::'
+      event:
       - 'blow%1:19:00::'
       id: 'blow%2:43:00::'
       sent:
@@ -44768,11 +45536,15 @@ blow:
       synset: 02775199-v
     - derivation:
       - 'blow%1:04:02::'
+      event:
+      - 'blow%1:04:02::'
       id: 'blow%2:29:01::'
       subcat:
       - via
       synset: 00034941-v
     - derivation:
+      - 'blow%1:19:00::'
+      event:
       - 'blow%1:19:00::'
       id: 'blow%2:38:00::'
       subcat:
@@ -44781,6 +45553,8 @@ blow:
       synset: 01906776-v
     - derivation:
       - 'blow%1:04:02::'
+      event:
+      - 'blow%1:04:02::'
       id: 'blow%2:39:01::'
       subcat:
       - vii
@@ -44788,6 +45562,8 @@ blow:
     - derivation:
       - 'blow%1:04:02::'
       - 'blowing%1:22:00::'
+      event:
+      - 'blow%1:04:02::'
       id: 'blow%2:30:08::'
       subcat:
       - vtai
@@ -44825,6 +45601,9 @@ blow:
     - derivation:
       - 'blower%1:06:02::'
       - 'blower%1:06:00::'
+      instrument:
+      - 'blower%1:06:02::'
+      - 'blower%1:06:00::'
       id: 'blow%2:38:09::'
       subcat:
       - vtii
@@ -44833,12 +45612,19 @@ blow:
       - 'blow%1:19:00::'
       - 'blower%1:06:02::'
       - 'blower%1:06:00::'
+      event:
+      - 'blow%1:19:00::'
+      instrument:
+      - 'blower%1:06:02::'
+      - 'blower%1:06:00::'
       id: 'blow%2:38:03::'
       subcat:
       - vtai
       - vtii
       synset: 02104910-v
     - derivation:
+      - 'blow%1:04:02::'
+      event:
       - 'blow%1:04:02::'
       id: 'blow%2:38:12::'
       subcat:
@@ -45271,7 +46057,9 @@ blubber:
     - value: ˈblʌbɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'blubberer%1:18:00::'
+      derivation:
       - 'blubberer%1:18:00::'
       id: 'blubber%2:29:00::'
       sent:
@@ -45335,8 +46123,12 @@ bludgeon:
       subcat:
       - vtaa-into-ger
       synset: 02511255-v
-    - derivation:
+    - agent:
       - 'bludgeoner%1:18:00::'
+      derivation:
+      - 'bludgeoner%1:18:00::'
+      - 'bludgeon%1:06:00::'
+      instrument:
       - 'bludgeon%1:06:00::'
       id: 'bludgeon%2:35:00::'
       sent:
@@ -45400,6 +46192,8 @@ blue:
       - 'blue%1:07:00::'
       - 'bluing%1:22:00::'
       id: 'blue%2:30:00::'
+      result:
+      - 'blue%1:07:00::'
       subcat:
       - vii
       synset: 00522721-v
@@ -46242,6 +47036,9 @@ blueprint:
       - 'blueprint%1:09:00::'
       - 'blueprint%1:06:00::'
       id: 'blueprint%2:36:00::'
+      result:
+      - 'blueprint%1:09:00::'
+      - 'blueprint%1:06:00::'
       subcat:
       - vtai
       synset: 01687477-v
@@ -46337,17 +47134,25 @@ bluff:
       synset: 00757951-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bluffer%1:18:00::'
+      derivation:
       - 'bluff%1:04:00::'
       - 'bluffer%1:18:00::'
+      event:
+      - 'bluff%1:04:00::'
       id: 'bluff%2:33:00::'
       subcat:
       - via
       - vtaa
       synset: 01079346-v
-    - derivation:
+    - agent:
+      - 'bluffer%1:18:00::'
+      derivation:
       - 'bluff%1:10:00::'
       - 'bluffer%1:18:00::'
+      event:
+      - 'bluff%1:10:00::'
       id: 'bluff%2:32:00::'
       sent:
       - Sam cannot bluff Sue
@@ -46476,8 +47281,12 @@ blunder:
     - value: ˈblʌn.dɚ
       variety: US
     sense:
-    - derivation:
+    - agent:
       - 'blunderer%1:18:00::'
+      derivation:
+      - 'blunderer%1:18:00::'
+      - 'blunder%1:04:00::'
+      event:
       - 'blunder%1:04:00::'
       id: 'blunder%2:41:00::'
       subcat:
@@ -46641,6 +47450,8 @@ blur:
     - derivation:
       - 'blur%1:09:00::'
       id: 'blur%2:39:01::'
+      result:
+      - 'blur%1:09:00::'
       subcat:
       - vii
       synset: 02162464-v
@@ -46649,6 +47460,8 @@ blur:
       derivation:
       - 'blur%1:09:00::'
       id: 'blur%2:39:00::'
+      result:
+      - 'blur%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -46668,6 +47481,8 @@ blur:
       derivation:
       - 'blur%1:09:00::'
       id: 'blur%2:30:01::'
+      result:
+      - 'blur%1:09:00::'
       subcat:
       - vtai
       - vtii
@@ -46677,6 +47492,8 @@ blur:
       derivation:
       - 'blur%1:09:00::'
       id: 'blur%2:30:00::'
+      result:
+      - 'blur%1:09:00::'
       subcat:
       - vii
       synset: 00311895-v
@@ -46756,7 +47573,12 @@ blush:
       - 'blush%1:04:00::'
       - 'blusher%1:20:00::'
       - 'blusher%1:06:00::'
+      event:
+      - 'blush%1:04:00::'
       id: 'blush%2:29:00::'
+      material:
+      - 'blusher%1:20:00::'
+      - 'blusher%1:06:00::'
       subcat:
       - via
       synset: 00103071-v
@@ -46838,14 +47660,21 @@ bluster:
     sense:
     - derivation:
       - 'bluster%1:19:00::'
+      event:
+      - 'bluster%1:19:00::'
       id: 'bluster%2:43:00::'
       subcat:
       - nonreferential
       synset: 02776320-v
-    - derivation:
+    - agent:
+      - 'blusterer%1:18:00::'
+      derivation:
       - 'bluster%1:10:01::'
       - 'bluster%1:10:00::'
       - 'blusterer%1:18:00::'
+      event:
+      - 'bluster%1:10:01::'
+      - 'bluster%1:10:00::'
       id: 'bluster%2:32:00::'
       subcat:
       - via
@@ -46853,7 +47682,9 @@ bluster:
       - via-that
       - via-to
       synset: 00884747-v
-    - derivation:
+    - agent:
+      - 'blusterer%1:18:00::'
+      derivation:
       - 'blusterer%1:18:00::'
       id: 'bluster%2:29:00::'
       subcat:
@@ -46981,13 +47812,17 @@ board:
       synset: 02860303-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'boarder%1:18:02::'
+      derivation:
       - 'boarder%1:18:02::'
       id: 'board%2:38:00::'
       subcat:
       - vtai
       synset: 02021901-v
-    - derivation:
+    - agent:
+      - 'boarder%1:18:01::'
+      derivation:
       - 'board%1:13:00::'
       - 'board%1:06:01::'
       - 'boarder%1:18:01::'
@@ -46995,7 +47830,10 @@ board:
       subcat:
       - via-pp
       synset: 02662859-v
-    - derivation:
+    - agent:
+      - 'boarder%1:18:01::'
+      - 'boarder%1:18:00::'
+      derivation:
       - 'board%1:13:00::'
       - 'board%1:06:01::'
       - 'boarder%1:18:01::'
@@ -47011,6 +47849,8 @@ board:
       subcat:
       - vtaa
       synset: 01179194-v
+      uses:
+      - 'board%1:13:00::'
 board foot:
   n:
     sense:
@@ -47186,9 +48026,13 @@ boast:
       synset: 07244190-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'boaster%1:18:00::'
+      derivation:
       - 'boast%1:10:00::'
       - 'boaster%1:18:00::'
+      event:
+      - 'boast%1:10:00::'
       id: 'boast%2:32:00::'
       subcat:
       - via
@@ -47260,7 +48104,9 @@ boat:
     - value: boʊt
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'boater%1:18:00::'
+      derivation:
       - 'boat%1:06:00::'
       - 'boater%1:18:00::'
       - 'boating%1:04:00::'
@@ -47268,6 +48114,8 @@ boat:
       subcat:
       - via
       synset: 01948551-v
+      vehicle:
+      - 'boat%1:06:00::'
 boat bug:
   n:
     sense:
@@ -47470,6 +48318,8 @@ bob:
       - via
       - vii
       synset: 01869369-v
+      undergoer:
+      - 'bobber%1:06:00::'
     - derivation:
       - 'bob%1:06:02::'
       id: 'bob%2:38:01::'
@@ -47477,13 +48327,19 @@ bob:
       - via
       - via-pp
       synset: 01943670-v
+      vehicle:
+      - 'bob%1:06:02::'
     - derivation:
       - 'bob%1:05:00::'
       id: 'bob%2:35:00::'
+      result:
+      - 'bob%1:05:00::'
       subcat:
       - vtai
       synset: 01558960-v
     - derivation:
+      - 'bob%1:04:00::'
+      event:
       - 'bob%1:04:00::'
       id: 'bob%2:32:00::'
       subcat:
@@ -47492,6 +48348,8 @@ bob:
     - derivation:
       - 'bob%1:08:00::'
       id: 'bob%2:29:00::'
+      result:
+      - 'bob%1:08:00::'
       sent:
       - They bob their hair
       subcat:
@@ -47627,6 +48485,9 @@ bobsled:
       - via
       - via-pp
       synset: 01943670-v
+      vehicle:
+      - 'bobsled%1:06:01::'
+      - 'bobsled%1:06:00::'
 bobsledding:
   n:
     sense:
@@ -48383,6 +49244,8 @@ bogey:
     sense:
     - derivation:
       - 'bogey%1:23:00::'
+      event:
+      - 'bogey%1:23:00::'
       id: 'bogey%2:35:00::'
       subcat:
       - via
@@ -48517,6 +49380,10 @@ boil:
       derivation:
       - 'boil%1:07:00::'
       - 'boiler%1:06:00::'
+      event:
+      - 'boil%1:07:00::'
+      instrument:
+      - 'boiler%1:06:00::'
       id: 'boil%2:30:01::'
       sent:
       - The water boils
@@ -48528,6 +49395,10 @@ boil:
     - derivation:
       - 'boil%1:07:00::'
       - 'boiler%1:06:01::'
+      event:
+      - 'boil%1:07:00::'
+      instrument:
+      - 'boiler%1:06:01::'
       id: 'boil%2:30:00::'
       sent:
       - The chefs boil the vegetables
@@ -48537,6 +49408,10 @@ boil:
       synset: 00328938-v
     - derivation:
       - 'boil%1:07:00::'
+      - 'boiler%1:06:00::'
+      event:
+      - 'boil%1:07:00::'
+      instrument:
       - 'boiler%1:06:00::'
       id: 'boil%2:30:02::'
       sent:
@@ -48766,6 +49641,8 @@ boldface:
       subcat:
       - vtai
       synset: 01752724-v
+      uses:
+      - 'boldface%1:10:00::'
 boldly:
   r:
     pronunciation:
@@ -49050,7 +49927,9 @@ bolster:
       - vtai
       - vtii
       synset: 00223800-v
-    - derivation:
+    - by_means_of:
+      - 'bolster%1:06:00::'
+      derivation:
       - 'bolster%1:06:00::'
       id: 'bolster%2:35:00::'
       subcat:
@@ -49103,12 +49982,16 @@ bolt:
     sense:
     - derivation:
       - 'bolt%1:04:01::'
+      event:
+      - 'bolt%1:04:01::'
       id: 'bolt%2:38:00::'
       subcat:
       - vii-pp
       synset: 01970046-v
     - antonym:
       - 'unbolt%2:35:00::'
+      by_means_of:
+      - 'bolt%1:06:01::'
       derivation:
       - 'bolt%1:06:01::'
       id: 'bolt%2:35:00::'
@@ -49121,6 +50004,8 @@ bolt:
       - vtai
       synset: 01205271-v
     - derivation:
+      - 'bolt%1:04:00::'
+      event:
       - 'bolt%1:04:00::'
       id: 'bolt%2:38:02::'
       subcat:
@@ -49224,7 +50109,9 @@ bomb:
     - value: bɑm
       variety: US
     sense:
-    - derivation:
+    - agent:
+      - 'bomber%1:18:00::'
+      derivation:
       - 'bomber%1:18:00::'
       - 'bomber%1:06:00::'
       - 'bomb%1:06:00::'
@@ -49234,7 +50121,13 @@ bomb:
       - vtaa
       - vtai
       synset: 01134328-v
+      undergoer:
+      - 'bomb%1:06:00::'
+      vehicle:
+      - 'bomber%1:06:00::'
     - derivation:
+      - 'bomb%1:11:00::'
+      event:
       - 'bomb%1:11:00::'
       id: 'bomb%2:41:00::'
       subcat:
@@ -49292,6 +50185,8 @@ bombard:
       - vtaa-with
       synset: 01510546-v
     - derivation:
+      - 'bombardment%1:04:01::'
+      event:
       - 'bombardment%1:04:01::'
       id: 'bombard%2:33:00::'
       subcat:
@@ -49426,6 +50321,8 @@ bombilate:
     sense:
     - derivation:
       - 'bombilation%1:11:00::'
+      event:
+      - 'bombilation%1:11:00::'
       id: 'bombilate%2:39:00::'
       subcat:
       - vii
@@ -49443,6 +50340,8 @@ bombinate:
     - value: ˈbɒmbɪneɪt
     sense:
     - derivation:
+      - 'bombination%1:11:00::'
+      event:
       - 'bombination%1:11:00::'
       id: 'bombinate%2:39:00::'
       subcat:
@@ -49617,11 +50516,15 @@ bond:
       synset: 04942705-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bond%1:06:01::'
+      derivation:
       - bondable%5:00:00:adhesive:00
       - 'bond%1:07:00::'
       - 'bond%1:06:01::'
       id: 'bond%2:35:00::'
+      property:
+      - 'bond%1:07:00::'
       subcat:
       - vii
       - vii-pp
@@ -49629,6 +50532,8 @@ bond:
     - derivation:
       - 'bond%1:24:00::'
       id: 'bond%2:41:13::'
+      result:
+      - 'bond%1:24:00::'
       subcat:
       - via-pp
       - vtia
@@ -49639,7 +50544,11 @@ bond:
       subcat:
       - vtai
       synset: 02356921-v
-    - derivation:
+      undergoer:
+      - 'bond%1:21:02::'
+    - by_means_of:
+      - 'bond%1:24:00::'
+      derivation:
       - 'bond%1:24:00::'
       id: 'bond%2:35:01::'
       subcat:
@@ -49832,6 +50741,8 @@ bone:
       subcat:
       - vtai
       synset: 00197798-v
+      undergoer:
+      - 'bone%1:27:00::'
 bone age:
   n:
     sense:
@@ -50177,6 +51088,8 @@ bonnet:
       subcat:
       - vtaa
       synset: 00047228-v
+      uses:
+      - 'bonnet%1:06:00::'
 bonnet macaque:
   n:
     sense:
@@ -50326,6 +51239,8 @@ boo:
       - 'applaud%2:32:01::'
       derivation:
       - 'boo%1:10:00::'
+      event:
+      - 'boo%1:10:00::'
       id: 'boo%2:32:00::'
       subcat:
       - via
@@ -50351,7 +51266,9 @@ boob:
       synset: 05562038-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'boob%1:18:00::'
+      derivation:
       - 'boob%1:18:00::'
       id: 'boob%2:41:00::'
       subcat:
@@ -50876,6 +51793,8 @@ boom:
     sense:
     - derivation:
       - 'boom%1:11:01::'
+      event:
+      - 'boom%1:11:01::'
       id: 'boom%2:39:00::'
       sent:
       - Cars boom in the streets
@@ -50897,12 +51816,16 @@ boom:
       synset: 02776493-v
     - derivation:
       - 'boom%1:11:01::'
+      event:
+      - 'boom%1:11:01::'
       id: 'boom%2:39:01::'
       subcat:
       - vtai
       - vtii
       synset: 02179106-v
     - derivation:
+      - 'boom%1:26:00::'
+      event:
       - 'boom%1:26:00::'
       id: 'boom%2:30:00::'
       sent:
@@ -50961,6 +51884,8 @@ boomerang:
     - derivation:
       - 'boomerang%1:06:00::'
       - 'boomerang%1:04:00::'
+      event:
+      - 'boomerang%1:04:00::'
       id: 'boomerang%2:38:00::'
       subcat:
       - vii
@@ -51002,6 +51927,8 @@ boondoggle:
     - value: ˈbuːndɒɡəl
     sense:
     - derivation:
+      - 'boondoggle%1:04:00::'
+      event:
       - 'boondoggle%1:04:00::'
       id: 'boondoggle%2:41:00::'
       subcat:
@@ -51066,11 +51993,15 @@ boost:
     sense:
     - derivation:
       - 'boost%1:07:00::'
+      event:
+      - 'boost%1:07:00::'
       id: 'boost%2:38:00::'
       subcat:
       - vtai
       synset: 01979926-v
     - derivation:
+      - 'boost%1:04:00::'
+      event:
       - 'boost%1:04:00::'
       id: 'boost%2:30:02::'
       subcat:
@@ -51079,9 +52010,14 @@ boost:
       - vtai-pp
       - vtii
       synset: 00311719-v
-    - derivation:
+    - agent:
       - 'booster%1:18:02::'
       - 'booster%1:18:01::'
+      derivation:
+      - 'booster%1:18:02::'
+      - 'booster%1:18:01::'
+      - 'boost%1:04:01::'
+      event:
       - 'boost%1:04:01::'
       id: 'boost%2:41:00::'
       subcat:
@@ -51095,8 +52031,12 @@ boost:
       - vtai
       - vtii
       synset: 00498142-v
-    - derivation:
+    - by_means_of:
       - 'booster%1:06:01::'
+      derivation:
+      - 'booster%1:06:01::'
+      - 'boost%1:04:01::'
+      event:
       - 'boost%1:04:01::'
       id: 'boost%2:35:00::'
       subcat:
@@ -51197,6 +52137,8 @@ boot:
     - also:
       - 'boot_out%2:41:00::'
       derivation:
+      - 'boot%1:04:00::'
+      event:
       - 'boot%1:04:00::'
       id: 'boot%2:35:00::'
       sent:
@@ -51325,7 +52267,9 @@ bootleg:
     - bootlegged
     - bootlegging
     sense:
-    - derivation:
+    - agent:
+      - 'bootlegger%1:18:00::'
+      derivation:
       - 'bootleg%1:13:00::'
       - 'bootlegger%1:18:00::'
       id: 'bootleg%2:40:00::'
@@ -51361,7 +52305,9 @@ bootless:
 bootlick:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bootlicker%1:18:00::'
+      derivation:
       - 'bootlicker%1:18:00::'
       id: 'bootlick%2:32:00::'
       subcat:
@@ -51425,7 +52371,9 @@ booze:
     pronunciation:
     - value: buːz
     sense:
-    - derivation:
+    - agent:
+      - 'boozer%1:18:00::'
+      derivation:
       - 'boozer%1:18:00::'
       - 'booze%1:13:00::'
       id: 'booze%2:34:00::'
@@ -51486,6 +52434,8 @@ bop:
       subcat:
       - via
       synset: 01899256-v
+      undergoer:
+      - 'bop%1:10:00::'
     - id: 'bop%2:35:00::'
       subcat:
       - vtaa
@@ -51598,11 +52548,17 @@ border:
     - value: ˈbɔɹdɚ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'border%1:06:00::'
+      derivation:
       - 'border%1:15:01::'
       - 'border%1:15:00::'
       - 'border%1:06:00::'
       id: 'border%2:35:01::'
+      location:
+      - 'border%1:15:01::'
+      - 'border%1:15:00::'
+      - 'border%1:06:00::'
       subcat:
       - vtii
       synset: 01469999-v
@@ -51613,12 +52569,20 @@ border:
       - 'border%1:15:01::'
       - 'border%1:15:00::'
       id: 'border%2:42:00::'
+      location:
+      - 'border%1:25:00::'
+      - 'border%1:15:01::'
+      - 'border%1:15:00::'
       subcat:
       - vtii
       synset: 02716547-v
-    - derivation:
+    - by_means_of:
+      - 'border%1:06:00::'
+      derivation:
       - 'border%1:06:00::'
       id: 'border%2:35:02::'
+      location:
+      - 'border%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -51631,6 +52595,9 @@ border:
       - 'border%1:15:01::'
       - 'border%1:15:00::'
       id: 'border%2:35:00::'
+      location:
+      - 'border%1:15:01::'
+      - 'border%1:15:00::'
       subcat:
       - vtii
       synset: 01469607-v
@@ -51713,7 +52680,9 @@ bore:
       synset: 02878475-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'bore%1:18:00::'
+      antonym:
       - 'interest%2:37:00::'
       derivation:
       - 'bore%1:18:00::'
@@ -51724,12 +52693,18 @@ bore:
       - vtaa
       - vtia
       synset: 01825834-v
-    - derivation:
+    - agent:
+      - 'borer%1:05:00::'
+      derivation:
       - 'bore%1:07:00::'
       - 'bore%1:06:00::'
       - 'borer%1:06:00::'
       - 'borer%1:05:00::'
+      instrument:
+      - 'borer%1:06:00::'
       id: 'bore%2:35:00::'
+      result:
+      - 'bore%1:06:00::'
       subcat:
       - vtai
       - vtii
@@ -51965,7 +52940,9 @@ borrelia:
 borrow:
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'borrower%1:18:00::'
+      antonym:
       - 'lend%2:40:00::'
       derivation:
       - 'borrower%1:18:00::'
@@ -52256,6 +53233,8 @@ boss:
     - derivation:
       - 'boss%1:06:00::'
       id: 'boss%2:35:00::'
+      result:
+      - 'boss%1:06:00::'
       subcat:
       - vtai
       synset: 01534053-v
@@ -52393,8 +53372,12 @@ botch:
       synset: 00075610-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'botcher%1:18:00::'
+      derivation:
+      - 'botcher%1:18:00::'
+      - 'botch%1:04:00::'
+      event:
       - 'botch%1:04:00::'
       id: 'botch%2:41:00::'
       subcat:
@@ -52464,20 +53447,33 @@ bother:
       - via-to-inf
       - vii
       synset: 02513113-v
-    - derivation:
+    - agent:
+      - 'bother%1:09:00::'
+      by_means_of:
+      - 'bother%1:09:00::'
+      - 'botheration%1:09:00::'
+      derivation:
       - 'botheration%1:26:00::'
       - 'botheration%1:09:00::'
       - 'bother%1:09:00::'
       id: 'bother%2:37:00::'
+      state:
+      - 'botheration%1:26:00::'
       subcat:
       - vtaa
       - vtia
       synset: 01791774-v
-    - derivation:
+    - by_means_of:
+      - 'botheration%1:09:00::'
+      derivation:
       - 'botheration%1:26:00::'
       - 'botheration%1:09:00::'
       - 'bother%1:11:00::'
+      event:
+      - 'bother%1:11:00::'
       id: 'bother%2:41:01::'
+      state:
+      - 'botheration%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -52486,13 +53482,17 @@ bother:
       subcat:
       - vtaa
       synset: 02022710-v
-    - derivation:
+    - by_means_of:
+      - 'botheration%1:09:00::'
+      derivation:
       - 'botheration%1:26:00::'
       - 'botheration%1:09:00::'
       id: 'bother%2:37:03::'
       sent:
       - The bad news will bother him
       - The performance is likely to bother Sue
+      state:
+      - 'botheration%1:26:00::'
       subcat:
       - vtaa
       - vtia
@@ -52582,7 +53582,9 @@ bottle:
       subcat:
       - vtai
       synset: 02287925-v
-    - derivation:
+    - agent:
+      - 'bottler%1:14:00::'
+      derivation:
       - 'bottle%1:23:00::'
       - 'bottle%1:06:00::'
       - 'bottler%1:14:00::'
@@ -52756,6 +53758,8 @@ bottleneck:
     - derivation:
       - 'bottleneck%1:25:00::'
       id: 'bottleneck%2:30:00::'
+      result:
+      - 'bottleneck%1:25:00::'
       subcat:
       - vii
       synset: 00305727-v
@@ -53265,7 +54269,11 @@ bounce:
     - derivation:
       - 'bounce%1:11:00::'
       - 'bounce%1:07:00::'
+      event:
+      - 'bounce%1:11:00::'
       id: 'bounce%2:38:00::'
+      property:
+      - 'bounce%1:07:00::'
       subcat:
       - vii
       - vii-pp
@@ -53273,12 +54281,16 @@ bounce:
     - derivation:
       - 'bounce%1:07:00::'
       id: 'bounce%2:35:03::'
+      property:
+      - 'bounce%1:07:00::'
       sent:
       - The children bounce the ball
       subcat:
       - vtai
       synset: 01407043-v
     - derivation:
+      - 'bounce%1:11:00::'
+      event:
       - 'bounce%1:11:00::'
       id: 'bounce%2:38:02::'
       sent:
@@ -53308,7 +54320,9 @@ bounce:
       - vtai
       - vtii
       synset: 02259575-v
-    - derivation:
+    - agent:
+      - 'bouncer%1:18:00::'
+      derivation:
       - 'bouncer%1:18:00::'
       id: 'bounce%2:35:00::'
       subcat:
@@ -53450,8 +54464,12 @@ bound:
       synset: 00121022-n
   v:
     sense:
-    - derivation:
+    - agent:
       - 'bounder%1:18:01::'
+      derivation:
+      - 'bounder%1:18:01::'
+      - 'bound%1:04:00::'
+      event:
       - 'bound%1:04:00::'
       id: 'bound%2:38:01::'
       subcat:
@@ -53459,7 +54477,10 @@ bound:
       - via-pp
       - vii
       synset: 01967949-v
-    - derivation:
+    - by_means_of:
+      - 'bound%1:25:00::'
+      - 'bound%1:15:00::'
+      derivation:
       - 'boundary%1:25:00::'
       - 'boundary%1:15:00::'
       - 'bound%1:25:00::'
@@ -53472,6 +54493,9 @@ bound:
       - 'bound%1:25:00::'
       - 'bound%1:15:00::'
       id: 'bound%2:30:00::'
+      location:
+      - 'bound%1:25:00::'
+      - 'bound%1:15:00::'
       subcat:
       - vtaa-pp
       - vtai
@@ -53479,6 +54503,8 @@ bound:
       - vtii
       synset: 00234091-v
     - derivation:
+      - 'bound%1:04:00::'
+      event:
       - 'bound%1:04:00::'
       id: 'bound%2:38:00::'
       subcat:
@@ -53920,6 +54946,8 @@ bow:
     sense:
     - derivation:
       - 'bow%1:10:01::'
+      event:
+      - 'bow%1:10:01::'
       id: 'bow%2:32:00::'
       subcat:
       - via-pp
@@ -53934,11 +54962,15 @@ bow:
       - 'bow_down%2:38:00::'
       derivation:
       - 'bow%1:10:01::'
+      event:
+      - 'bow%1:10:01::'
       id: 'bow%2:38:00::'
       subcat:
       - via
       synset: 02044118-v
     - derivation:
+      - 'bow%1:10:01::'
+      event:
       - 'bow%1:10:01::'
       id: 'bow%2:38:01::'
       subcat:
@@ -53950,6 +54982,8 @@ bow:
     - value: bəʊ
     sense:
     - derivation:
+      - 'bow%1:06:00::'
+      instrument:
       - 'bow%1:06:00::'
       id: 'bow%2:36:00::'
       subcat:
@@ -54047,12 +55081,18 @@ bowdlerisation:
 bowdlerise:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bowdler%1:18:00::'
+      derivation:
       - 'bowdlerisation%1:04:01::'
       - 'bowdlerisation%1:04:00::'
       - 'bowdler%1:18:00::'
       - 'bowdleriser%1:18:00::'
+      event:
+      - 'bowdlerisation%1:04:00::'
       id: 'bowdlerise%2:30:00::'
+      result:
+      - 'bowdlerisation%1:04:01::'
       sent:
       - They won't bowdlerise the story
       subcat:
@@ -54086,7 +55126,11 @@ bowdlerize:
       - 'bowdlerization%1:04:01::'
       - 'bowdlerization%1:04:00::'
       - 'bowdlerizer%1:18:00::'
+      event:
+      - 'bowdlerization%1:04:00::'
       id: 'bowdlerize%2:30:00::'
+      result:
+      - 'bowdlerization%1:04:01::'
       sent:
       - They won't bowdlerize the story
       subcat:
@@ -54166,7 +55210,11 @@ bower:
     sense:
     - derivation:
       - 'bower%1:06:00::'
+      instrument:
+      - 'bower%1:06:00::'
       id: 'bower%2:35:00::'
+      location:
+      - 'bower%1:06:00::'
       subcat:
       - vtaa
       - vtai
@@ -54255,18 +55303,24 @@ bowl:
       synset: 00105229-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bowler%1:18:00::'
+      derivation:
       - 'bowl%1:06:04::'
       - 'bowler%1:18:00::'
       id: 'bowl%2:38:00::'
       subcat:
       - vtai
       synset: 01891317-v
+      undergoer:
+      - 'bowl%1:06:04::'
     - id: 'bowl%2:35:04::'
       subcat:
       - vtai
       synset: 01619642-v
-    - derivation:
+    - agent:
+      - 'bowler%1:18:00::'
+      derivation:
       - 'bowl%1:06:04::'
       - 'bowler%1:18:00::'
       id: 'bowl%2:33:00::'
@@ -54508,7 +55562,9 @@ box:
       synset: 00135968-n
   v:
     sense:
-    - antonym:
+    - agent:
+      - 'boxer%1:18:01::'
+      antonym:
       - 'unbox%2:35:00::'
       derivation:
       - 'box%1:06:00::'
@@ -54520,10 +55576,14 @@ box:
       subcat:
       - vtai
       synset: 01487784-v
-    - derivation:
+    - agent:
+      - 'boxer%1:18:00::'
+      derivation:
       - 'box%1:04:00::'
       - 'boxer%1:18:00::'
       - 'boxing%1:04:00::'
+      event:
+      - 'box%1:04:00::'
       id: 'box%2:35:00::'
       sent:
       - The fighter managed to box his opponent
@@ -54531,10 +55591,14 @@ box:
       - vtaa
       - vtai
       synset: 01423419-v
-    - derivation:
+    - agent:
+      - 'boxer%1:18:00::'
+      derivation:
       - 'box%1:04:00::'
       - 'boxer%1:18:00::'
       - 'boxing%1:04:00::'
+      event:
+      - 'box%1:04:00::'
       id: 'box%2:35:01::'
       sent:
       - Sam and Sue box
@@ -54863,6 +55927,8 @@ boycott:
       - 'patronise%2:41:00::'
       derivation:
       - 'boycott%1:04:00::'
+      event:
+      - 'boycott%1:04:00::'
       id: 'boycott%2:41:00::'
       subcat:
       - vtai
@@ -55020,7 +56086,9 @@ brace:
       subcat:
       - vtaa
       synset: 01810076-v
-    - derivation:
+    - by_means_of:
+      - 'brace%1:06:04::'
+      derivation:
       - 'brace%1:06:04::'
       id: 'brace%2:35:01::'
       subcat:
@@ -55028,7 +56096,10 @@ brace:
       - vtai
       - vtii
       synset: 01222557-v
-    - derivation:
+    - by_means_of:
+      - 'brace%1:06:04::'
+      - 'brace%1:06:00::'
+      derivation:
       - 'brace%1:06:04::'
       - 'brace%1:06:00::'
       - 'bracing%1:06:00::'
@@ -55040,6 +56111,8 @@ brace:
     - derivation:
       - 'bracer%1:06:00::'
       id: 'brace%2:29:00::'
+      material:
+      - 'bracer%1:06:00::'
       subcat:
       - via
       - vtaa
@@ -55158,6 +56231,8 @@ brachiate:
     - value: ˈbɹækɪeɪt
     sense:
     - derivation:
+      - 'brachiation%1:04:00::'
+      event:
       - 'brachiation%1:04:00::'
       id: 'brachiate%2:38:00::'
       subcat:
@@ -55341,13 +56416,18 @@ bracket:
       synset: 02891810-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bracket%1:06:00::'
+      derivation:
       - 'bracket%1:06:00::'
       id: 'bracket%2:35:00::'
       subcat:
       - vtai
       synset: 01221355-v
-    - derivation:
+    - by_means_of:
+      - 'bracket%1:10:01::'
+      - 'bracket%1:10:00::'
+      derivation:
       - 'bracket%1:10:01::'
       - 'bracket%1:10:00::'
       id: 'bracket%2:32:00::'
@@ -55357,6 +56437,8 @@ bracket:
     - derivation:
       - 'bracket%1:14:00::'
       id: 'bracket%2:31:00::'
+      result:
+      - 'bracket%1:14:00::'
       subcat:
       - vtai-with
       synset: 00658587-v
@@ -55471,6 +56553,8 @@ brad:
     sense:
     - derivation:
       - 'brad%1:06:00::'
+      instrument:
+      - 'brad%1:06:00::'
       id: 'brad%2:35:00::'
       subcat:
       - vtai
@@ -55520,9 +56604,13 @@ brag:
     pronunciation:
     - value: bɹæɡ
     sense:
-    - derivation:
+    - agent:
+      - 'bragger%1:18:00::'
+      derivation:
       - 'bragger%1:18:00::'
       - 'braggart%1:18:00::'
+      - 'brag%1:10:00::'
+      event:
       - 'brag%1:10:00::'
       id: 'brag%2:32:00::'
       subcat:
@@ -55661,6 +56749,8 @@ braid:
     - derivation:
       - 'braid%1:06:00::'
       id: 'braid%2:36:00::'
+      result:
+      - 'braid%1:06:00::'
       subcat:
       - vtai
       synset: 01678612-v
@@ -55670,11 +56760,15 @@ braid:
       subcat:
       - vtai
       synset: 01522360-v
+      uses:
+      - 'braid%1:06:00::'
     - antonym:
       - 'unbraid%2:35:00::'
       derivation:
       - 'braid%1:08:00::'
       id: 'braid%2:35:00::'
+      result:
+      - 'braid%1:08:00::'
       sent:
       - They braid their hair
       subcat:
@@ -56083,6 +57177,8 @@ brake:
     sense:
     - derivation:
       - 'brake%1:06:00::'
+      instrument:
+      - 'brake%1:06:00::'
       id: 'brake%2:38:01::'
       sent:
       - These cars won't brake
@@ -56091,6 +57187,8 @@ brake:
       - vii
       synset: 01867803-v
     - derivation:
+      - 'brake%1:06:00::'
+      instrument:
       - 'brake%1:06:00::'
       id: 'brake%2:38:00::'
       subcat:
@@ -56274,6 +57372,8 @@ branch:
       - 'branch%1:25:00::'
       - 'branch%1:17:01::'
       id: 'branch%2:30:00::'
+      result:
+      - 'branch%1:25:00::'
       subcat:
       - vii
       synset: 00329612-v
@@ -56450,10 +57550,14 @@ brand:
     - derivation:
       - 'brand%1:10:02::'
       id: 'brand%2:41:01::'
+      result:
+      - 'brand%1:10:02::'
       subcat:
       - ditransitive
       synset: 02514312-v
-    - derivation:
+    - by_means_of:
+      - 'brand%1:10:01::'
+      derivation:
       - 'brand%1:10:01::'
       id: 'brand%2:41:00::'
       subcat:
@@ -56464,7 +57568,9 @@ brand:
       subcat:
       - vtai
       synset: 01591797-v
-    - derivation:
+    - by_means_of:
+      - 'brand%1:10:01::'
+      derivation:
       - 'brand%1:10:01::'
       id: 'brand%2:32:00::'
       subcat:
@@ -56529,6 +57635,8 @@ brandish:
     - value: ˈbɹændɪʃ
     sense:
     - derivation:
+      - 'brandish%1:10:00::'
+      event:
       - 'brandish%1:10:00::'
       id: 'brandish%2:35:00::'
       subcat:
@@ -56874,7 +57982,9 @@ brave:
     pronunciation:
     - value: bɹeɪv
     sense:
-    - derivation:
+    - agent:
+      - 'brave%1:14:00::'
+      derivation:
       - 'brave%1:14:00::'
       id: 'brave%2:42:00::'
       subcat:
@@ -56940,6 +58050,8 @@ bravo:
     sense:
     - derivation:
       - 'bravo%1:10:00::'
+      event:
+      - 'bravo%1:10:00::'
       id: 'bravo%2:32:00::'
       subcat:
       - via
@@ -56972,9 +58084,13 @@ brawl:
       synset: 01178921-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'brawler%1:18:00::'
+      derivation:
       - 'brawl%1:04:00::'
       - 'brawler%1:18:00::'
+      event:
+      - 'brawl%1:04:00::'
       id: 'brawl%2:32:00::'
       sent:
       - Sam and Sue brawl
@@ -57030,6 +58146,8 @@ bray:
     sense:
     - derivation:
       - 'bray%1:11:00::'
+      event:
+      - 'bray%1:11:00::'
       id: 'bray%2:32:00::'
       subcat:
       - vii
@@ -57040,6 +58158,8 @@ bray:
       - vtii
       synset: 00331892-v
     - derivation:
+      - 'bray%1:11:00::'
+      event:
       - 'bray%1:11:00::'
       id: 'bray%2:29:00::'
       subcat:
@@ -57154,6 +58274,8 @@ breach:
     sense:
     - derivation:
       - 'breach%1:04:01::'
+      event:
+      - 'breach%1:04:01::'
       id: 'breach%2:41:00::'
       subcat:
       - vtai
@@ -57161,6 +58283,8 @@ breach:
     - derivation:
       - 'breach%1:17:00::'
       id: 'breach%2:35:00::'
+      result:
+      - 'breach%1:17:00::'
       subcat:
       - vtai
       synset: 01596535-v
@@ -57221,6 +58345,8 @@ bread:
       subcat:
       - vtai
       synset: 01340335-v
+      uses:
+      - 'bread%1:13:00::'
 bread and butter:
   n:
     sense:
@@ -57454,7 +58580,12 @@ break:
       - 'break%1:17:00::'
       - 'break%1:11:02::'
       - 'break%1:04:00::'
+      event:
+      - 'break%1:11:02::'
+      - 'break%1:04:00::'
       id: 'break%2:30:00::'
+      result:
+      - 'break%1:17:00::'
       sent:
       - The wooden sticks break
       - These glasses break easily
@@ -57484,11 +58615,15 @@ break:
       - vtai
       - vtii
       synset: 01372423-v
-    - derivation:
+    - agent:
+      - 'breaker%1:18:00::'
+      derivation:
       - 'breakable%3:00:00::'
       - 'break%1:04:00::'
       - 'breakage%1:04:00::'
       - 'breaker%1:18:00::'
+      event:
+      - 'break%1:04:00::'
       id: 'break%2:30:10::'
       sent:
       - The girls break the wooden sticks
@@ -57503,6 +58638,8 @@ break:
       - vtai
       synset: 02572443-v
     - derivation:
+      - 'break%1:04:04::'
+      event:
       - 'break%1:04:04::'
       id: 'break%2:38:02::'
       subcat:
@@ -57564,6 +58701,8 @@ break:
       synset: 00435327-v
     - derivation:
       - 'break%1:28:00::'
+      event:
+      - 'break%1:28:00::'
       id: 'break%2:41:01::'
       subcat:
       - via-pp
@@ -57574,7 +58713,9 @@ break:
       - via
       - vii
       synset: 02034609-v
-    - derivation:
+    - by_means_of:
+      - 'breaker%1:11:00::'
+      derivation:
       - 'breaker%1:11:00::'
       id: 'break%2:38:01::'
       subcat:
@@ -57595,6 +58736,8 @@ break:
       - vii
       synset: 02752492-v
     - derivation:
+      - 'break%1:11:00::'
+      event:
       - 'break%1:11:00::'
       id: 'break%2:42:05::'
       subcat:
@@ -57628,6 +58771,8 @@ break:
       - vtai
       synset: 02484058-v
     - derivation:
+      - 'break%1:11:03::'
+      event:
       - 'break%1:11:03::'
       id: 'break%2:41:13::'
       subcat:
@@ -57675,6 +58820,8 @@ break:
       synset: 01613367-v
     - derivation:
       - 'break%1:04:03::'
+      event:
+      - 'break%1:04:03::'
       id: 'break%2:35:14::'
       subcat:
       - via
@@ -57694,7 +58841,9 @@ break:
       subcat:
       - vii
       synset: 01372011-v
-    - derivation:
+    - agent:
+      - 'breaker%1:18:00::'
+      derivation:
       - 'breakable%3:00:00::'
       - 'breakage%1:04:00::'
       - 'breaker%1:18:00::'
@@ -57716,11 +58865,15 @@ break:
       synset: 00938019-v
     - derivation:
       - 'break%1:04:05::'
+      event:
+      - 'break%1:04:05::'
       id: 'break%2:32:04::'
       subcat:
       - via
       synset: 00781106-v
     - derivation:
+      - 'breaker%1:06:00::'
+      instrument:
       - 'breaker%1:06:00::'
       id: 'break%2:32:13::'
       subcat:
@@ -57754,6 +58907,8 @@ break:
     - derivation:
       - 'breakable%3:00:00::'
       - 'break%1:26:00::'
+      event:
+      - 'break%1:26:00::'
       id: 'break%2:30:15::'
       subcat:
       - vii
@@ -57769,6 +58924,8 @@ break:
       - vii
       synset: 00154854-v
     - derivation:
+      - 'break%1:26:00::'
+      event:
       - 'break%1:26:00::'
       id: 'break%2:29:04::'
       sent:
@@ -57866,6 +59023,8 @@ break dance:
   v:
     sense:
     - derivation:
+      - 'break_dance%1:04:00::'
+      event:
       - 'break_dance%1:04:00::'
       id: 'break_dance%2:38:00::'
       sent:
@@ -58465,6 +59624,8 @@ breakfast:
     sense:
     - derivation:
       - 'breakfast%1:13:00::'
+      event:
+      - 'breakfast%1:13:00::'
       id: 'breakfast%2:34:00::'
       sent:
       - Sam and Sue breakfast
@@ -58477,6 +59638,8 @@ breakfast:
       subcat:
       - vtaa
       synset: 01188408-v
+      uses:
+      - 'breakfast%1:13:00::'
 breakfast area:
   n:
     sense:
@@ -58760,7 +59923,9 @@ breaststroke:
       synset: 00572097-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'breaststroker%1:18:00::'
+      derivation:
       - 'breaststroker%1:18:00::'
       id: 'breaststroke%2:38:00::'
       subcat:
@@ -58868,6 +60033,8 @@ breathe:
     - derivation:
       - 'breather%1:28:00::'
       - 'breathing%1:04:00::'
+      event:
+      - 'breather%1:28:00::'
       id: 'breathe%2:32:00::'
       sent:
       - Sam and Sue breathe
@@ -59158,7 +60325,9 @@ breed:
       subcat:
       - vii
       synset: 01433080-v
-    - derivation:
+    - agent:
+      - 'breeder%1:18:00::'
+      derivation:
       - 'breed%1:14:00::'
       - 'breeder%1:18:00::'
       - 'breeding%1:04:02::'
@@ -59240,6 +60409,8 @@ breeze:
     sense:
     - derivation:
       - 'breeze%1:19:00::'
+      event:
+      - 'breeze%1:19:00::'
       id: 'breeze%2:43:00::'
       subcat:
       - nonreferential
@@ -59249,6 +60420,8 @@ breeze:
     - also:
       - 'breeze_through%2:41:00::'
       derivation:
+      - 'breeze%1:04:00::'
+      event:
       - 'breeze%1:04:00::'
       id: 'breeze%2:38:00::'
       subcat:
@@ -59372,7 +60545,9 @@ brevet:
     - value: ˈbɹɛv.ɪt
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'brevet%1:10:00::'
+      derivation:
       - 'brevet%1:10:00::'
       id: 'brevet%2:41:00::'
       subcat:
@@ -59418,13 +60593,18 @@ brew:
     pronunciation:
     - value: bɹuː
     sense:
-    - derivation:
+    - agent:
+      - 'brewer%1:18:01::'
+      - 'brewer%1:18:00::'
+      derivation:
       - 'brew%1:13:00::'
       - 'brewer%1:18:01::'
       - 'brewer%1:18:00::'
       - 'brewage%1:13:00::'
       - 'brewery%1:06:00::'
       id: 'brew%2:36:00::'
+      result:
+      - 'brew%1:13:00::'
       subcat:
       - vii
       - vtai
@@ -59432,6 +60612,8 @@ brew:
     - derivation:
       - 'brew%1:13:00::'
       id: 'brew%2:30:00::'
+      result:
+      - 'brew%1:13:00::'
       subcat:
       - vii
       - vtai
@@ -59555,7 +60737,9 @@ bribe:
     pronunciation:
     - value: bɹaɪb
     sense:
-    - derivation:
+    - agent:
+      - 'briber%1:18:00::'
+      derivation:
       - bribable%5:00:00:corrupt:00
       - 'briber%1:18:00::'
       - 'bribery%1:04:00::'
@@ -59566,6 +60750,8 @@ bribe:
       subcat:
       - vtaa
       synset: 02288941-v
+      undergoer:
+      - 'bribe%1:21:00::'
 briber:
   n:
     sense:
@@ -59877,20 +61063,26 @@ bridge:
     sense:
     - also:
       - 'bridge_over%2:42:01::'
+      by_means_of:
+      - 'bridge%1:24:00::'
       derivation:
       - 'bridge%1:24:00::'
       id: 'bridge%2:42:00::'
       subcat:
       - vtii
       synset: 02629275-v
-    - derivation:
+    - by_means_of:
+      - 'bridge%1:06:00::'
+      derivation:
       - 'bridgeable%3:00:00::'
       - 'bridge%1:06:00::'
       id: 'bridge%2:35:00::'
       subcat:
       - vtai
       synset: 01298910-v
-    - derivation:
+    - by_means_of:
+      - 'bridge%1:06:00::'
+      derivation:
       - 'bridgeable%3:00:00::'
       - 'bridge%1:06:00::'
       id: 'bridge%2:38:00::'
@@ -60002,6 +61194,8 @@ bridle:
       subcat:
       - vtai
       synset: 01303241-v
+      uses:
+      - 'bridle%1:06:00::'
     - derivation:
       - 'bridle%1:06:00::'
       id: 'bridle%2:32:00::'
@@ -60076,6 +61270,8 @@ brief:
       subcat:
       - vtaa
       synset: 00832934-v
+      undergoer:
+      - 'brief%1:10:00::'
 briefcase:
   n:
     pronunciation:
@@ -60202,6 +61398,8 @@ brigade:
     - derivation:
       - 'brigade%1:14:00::'
       id: 'brigade%2:33:00::'
+      result:
+      - 'brigade%1:14:00::'
       subcat:
       - via
       - vtaa
@@ -60570,6 +61768,9 @@ brine:
       subcat:
       - vtai
       synset: 00216987-v
+      uses:
+      - 'brine%1:27:00::'
+      - 'brine%1:13:00::'
 brine shrimp:
   n:
     sense:
@@ -61749,7 +62950,9 @@ broadcast:
     - value: ˈbɹɑdkæst
       variety: CA
     sense:
-    - derivation:
+    - agent:
+      - 'broadcaster%1:18:00::'
+      derivation:
       - 'broadcast%1:10:01::'
       - 'broadcast%1:10:00::'
       - 'broadcaster%1:18:00::'
@@ -61759,7 +62962,11 @@ broadcast:
       - vtai-pp
       - vtii
       synset: 00975088-v
+      undergoer:
+      - 'broadcast%1:10:01::'
     - derivation:
+      - 'broadcaster%1:06:00::'
+      instrument:
       - 'broadcaster%1:06:00::'
       id: 'broadcast%2:35:00::'
       subcat:
@@ -62004,6 +63211,8 @@ brocade:
       subcat:
       - vtai
       synset: 01678138-v
+      undergoer:
+      - 'brocade%1:06:00::'
 brocaded:
   a:
     sense:
@@ -62101,6 +63310,10 @@ broil:
       - 'broil%1:04:00::'
       - 'broiler%1:13:00::'
       - 'broiler%1:06:00::'
+      event:
+      - 'broil%1:04:00::'
+      instrument:
+      - 'broiler%1:06:00::'
       id: 'broil%2:30:00::'
       sent:
       - The chefs broil the vegetables
@@ -62108,6 +63321,8 @@ broil:
       - vii
       - vtai
       synset: 00329180-v
+      undergoer:
+      - 'broiler%1:13:00::'
     - id: 'broil%2:30:01::'
       subcat:
       - vtia
@@ -62255,7 +63470,9 @@ broker:
       synset: 09796453-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'broker%1:18:00::'
+      derivation:
       - 'brokerage%1:14:01::'
       - 'brokerage%1:14:00::'
       - 'brokerage%1:06:00::'
@@ -62689,6 +63906,8 @@ bronze:
     - derivation:
       - 'bronze%1:27:00::'
       id: 'bronze%2:30:00::'
+      material:
+      - 'bronze%1:27:00::'
       subcat:
       - vtai
       - vtii
@@ -62761,7 +63980,9 @@ brooch:
     - value: bɹoʊtʃ
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'brooch%1:06:00::'
+      derivation:
       - 'brooch%1:06:00::'
       id: 'brooch%2:35:00::'
       subcat:
@@ -62805,6 +64026,8 @@ brood:
       synset: 01809351-v
     - derivation:
       - 'brood%1:14:00::'
+      - 'brooder%1:06:00::'
+      instrument:
       - 'brooder%1:06:00::'
       id: 'brood%2:29:00::'
       subcat:
@@ -62939,6 +64162,8 @@ broom:
   v:
     sense:
     - derivation:
+      - 'broom%1:06:00::'
+      instrument:
       - 'broom%1:06:00::'
       id: 'broom%2:35:00::'
       subcat:
@@ -63610,7 +64835,9 @@ browse:
     pronunciation:
     - value: bɹaʊz
     sense:
-    - derivation:
+    - agent:
+      - 'browser%1:18:00::'
+      derivation:
       - 'browser%1:18:00::'
       id: 'browse%2:40:00::'
       sent:
@@ -63621,14 +64848,20 @@ browse:
       synset: 02331351-v
     - derivation:
       - 'browse%1:04:00::'
+      event:
+      - 'browse%1:04:00::'
       id: 'browse%2:35:01::'
       sent:
       - The animals browse
       subcat:
       - vii
       synset: 01578996-v
-    - derivation:
+    - agent:
       - 'browser%1:18:00::'
+      derivation:
+      - 'browser%1:18:00::'
+      - 'browser%1:10:00::'
+      instrument:
       - 'browser%1:10:00::'
       id: 'browse%2:35:00::'
       subcat:
@@ -63636,6 +64869,8 @@ browse:
       - vtai
       synset: 01317993-v
     - derivation:
+      - 'browse%1:04:00::'
+      event:
       - 'browse%1:04:00::'
       id: 'browse%2:34:00::'
       sent:
@@ -63704,6 +64939,8 @@ bruise:
     sense:
     - derivation:
       - 'bruiser%1:18:01::'
+      - 'bruise%1:26:00::'
+      event:
       - 'bruise%1:26:00::'
       id: 'bruise%2:35:00::'
       sent:
@@ -63791,6 +65028,8 @@ brunch:
     sense:
     - derivation:
       - 'brunch%1:13:00::'
+      event:
+      - 'brunch%1:13:00::'
       id: 'brunch%2:34:00::'
       sent:
       - Sam and Sue brunch
@@ -63876,12 +65115,16 @@ brush:
     sense:
     - derivation:
       - 'brush%1:06:00::'
+      instrument:
+      - 'brush%1:06:00::'
       id: 'brush%2:35:01::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01246373-v
     - derivation:
+      - 'brush%1:11:00::'
+      event:
       - 'brush%1:11:00::'
       id: 'brush%2:35:00::'
       subcat:
@@ -63891,6 +65134,8 @@ brush:
       - vtai
       synset: 01243284-v
     - derivation:
+      - 'brush%1:06:00::'
+      instrument:
       - 'brush%1:06:00::'
       id: 'brush%2:35:02::'
       sent:
@@ -63907,6 +65152,8 @@ brush:
       - vtii
       synset: 01874036-v
     - derivation:
+      - 'brush%1:06:00::'
+      instrument:
       - 'brush%1:06:00::'
       id: 'brush%2:30:00::'
       subcat:
@@ -64168,12 +65415,18 @@ brutalise:
     - derivation:
       - 'brutalisation%1:26:00::'
       - 'brutalisation%1:04:01::'
+      event:
+      - 'brutalisation%1:04:01::'
       id: 'brutalise%2:41:00::'
+      state:
+      - 'brutalisation%1:26:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02521600-v
     - derivation:
+      - 'brutalisation%1:04:00::'
+      event:
       - 'brutalisation%1:04:00::'
       id: 'brutalise%2:30:01::'
       subcat:
@@ -64181,6 +65434,8 @@ brutalise:
       - vtia
       synset: 00113860-v
     - derivation:
+      - 'brutalisation%1:04:00::'
+      event:
       - 'brutalisation%1:04:00::'
       id: 'brutalise%2:30:00::'
       subcat:
@@ -64217,13 +65472,19 @@ brutalize:
     - derivation:
       - 'brutalization%1:26:00::'
       - 'brutalization%1:04:01::'
+      event:
+      - 'brutalization%1:04:01::'
       id: 'brutalize%2:41:00::'
+      state:
+      - 'brutalization%1:26:00::'
       subcat:
       - vtaa
       - vtai
       synset: 02521600-v
     - derivation:
       - brutal%5:00:00:inhumane:00
+      - 'brutalization%1:04:00::'
+      event:
       - 'brutalization%1:04:00::'
       id: 'brutalize%2:30:01::'
       subcat:
@@ -64232,6 +65493,8 @@ brutalize:
       synset: 00113860-v
     - derivation:
       - brutal%5:00:00:inhumane:00
+      - 'brutalization%1:04:00::'
+      event:
       - 'brutalization%1:04:00::'
       id: 'brutalize%2:30:00::'
       subcat:
@@ -64354,10 +65617,14 @@ bubble:
       derivation:
       - 'bubble%1:17:00::'
       id: 'bubble%2:30:00::'
+      result:
+      - 'bubble%1:17:00::'
       subcat:
       - vii
       synset: 00520136-v
-    - derivation:
+    - by_means_of:
+      - 'bubbler%1:06:00::'
+      derivation:
       - 'bubble%1:17:00::'
       - 'bubbler%1:06:00::'
       id: 'bubble%2:39:00::'
@@ -64377,6 +65644,8 @@ bubble:
     - derivation:
       - 'bubble%1:17:00::'
       id: 'bubble%2:29:00::'
+      result:
+      - 'bubble%1:17:00::'
       subcat:
       - via
       synset: 00003443-v
@@ -64555,7 +65824,9 @@ buccaneer:
       synset: 10455134-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'buccaneer%1:18:00::'
+      derivation:
       - 'buccaneer%1:18:00::'
       id: 'buccaneer%2:42:00::'
       subcat:
@@ -64715,6 +65986,8 @@ bucket:
       subcat:
       - vtai
       synset: 01435675-v
+      undergoer:
+      - 'bucket%1:23:00::'
 bucket along:
   v:
     sense:
@@ -64774,6 +66047,8 @@ buckle:
     sense:
     - antonym:
       - 'unbuckle%2:35:00::'
+      by_means_of:
+      - 'buckle%1:06:00::'
       derivation:
       - 'buckle%1:06:00::'
       id: 'buckle%2:35:00::'
@@ -64788,6 +66063,8 @@ buckle:
     - derivation:
       - 'buckle%1:25:00::'
       id: 'buckle%2:30:00::'
+      result:
+      - 'buckle%1:25:00::'
       subcat:
       - vii
       synset: 00357608-v
@@ -64849,7 +66126,9 @@ buckram:
       synset: 02913867-n
   v:
     sense:
-    - derivation:
+    - by_means_of:
+      - 'buckram%1:06:00::'
+      derivation:
       - 'buckram%1:06:00::'
       id: 'buckram%2:30:00::'
       subcat:
@@ -64972,6 +66251,9 @@ bud:
       - 'bud%1:20:02::'
       - 'bud%1:20:00::'
       id: 'bud%2:30:00::'
+      result:
+      - 'bud%1:20:02::'
+      - 'bud%1:20:00::'
       subcat:
       - vii
       synset: 00358652-v
@@ -65078,6 +66360,9 @@ budget:
       - 'budget%1:21:03::'
       - 'budget%1:21:02::'
       id: 'budget%2:31:00::'
+      result:
+      - 'budget%1:21:03::'
+      - 'budget%1:21:02::'
       subcat:
       - via
       - via-pp
@@ -65152,6 +66437,10 @@ buff:
       - 'buff%1:06:00::'
       - 'buffer%1:06:04::'
       - 'buffer%1:06:01::'
+      instrument:
+      - 'buffer%1:06:04::'
+      - 'buffer%1:06:01::'
+      - 'buff%1:06:00::'
       id: 'buff%2:35:00::'
       sent:
       - They buff the glass tubes
@@ -65316,10 +66605,16 @@ buffer:
     - derivation:
       - 'buffer%1:27:00::'
       id: 'buffer%2:30:00::'
+      material:
+      - 'buffer%1:27:00::'
       subcat:
       - vtai
       synset: 00514425-v
+      uses:
+      - 'buffer%1:27:00::'
     - derivation:
+      - 'buffer%1:06:00::'
+      instrument:
       - 'buffer%1:06:00::'
       id: 'buffer%2:35:00::'
       subcat:
@@ -65475,6 +66770,8 @@ bug:
       synset: 01807344-v
     - derivation:
       - 'bug%1:06:00::'
+      instrument:
+      - 'bug%1:06:00::'
       id: 'bug%2:39:00::'
       sent:
       - They want to bug the prisoners
@@ -65535,7 +66832,9 @@ bugger:
       synset: 10640876-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bugger%1:18:00::'
+      derivation:
       - 'buggery%1:04:00::'
       - 'bugger%1:18:00::'
       id: 'bugger%2:41:00::'
@@ -65612,9 +66911,13 @@ bugle:
       synset: 02916381-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bugler%1:18:00::'
+      derivation:
       - 'bugle%1:06:00::'
       - 'bugler%1:18:00::'
+      instrument:
+      - 'bugle%1:06:00::'
       id: 'bugle%2:36:00::'
       subcat:
       - vtai
@@ -65677,7 +66980,9 @@ build:
     pronunciation:
     - value: bɪld
     sense:
-    - derivation:
+    - agent:
+      - 'builder%1:18:00::'
+      derivation:
       - 'builder%1:18:00::'
       - 'building%1:04:00::'
       id: 'build%2:36:00::'
@@ -65698,6 +67003,8 @@ build:
     - derivation:
       - 'builder%1:27:00::'
       id: 'build%2:30:02::'
+      material:
+      - 'builder%1:27:00::'
       subcat:
       - vtii
       synset: 00448113-v
@@ -66081,6 +67388,8 @@ bulge:
       subcat:
       - vii
       synset: 00264117-v
+      undergoer:
+      - 'bulge%1:25:00::'
     - derivation:
       - 'bulge%1:25:00::'
       id: 'bulge%2:42:00::'
@@ -66090,18 +67399,24 @@ bulge:
       - vii
       - vii-pp
       synset: 02720235-v
+      undergoer:
+      - 'bulge%1:25:00::'
     - derivation:
       - 'bulge%1:25:00::'
       id: 'bulge%2:38:00::'
       subcat:
       - vii
       synset: 02086193-v
+      undergoer:
+      - 'bulge%1:25:00::'
     - derivation:
       - 'bulge%1:25:00::'
       id: 'bulge%2:30:01::'
       subcat:
       - vtii
       synset: 00257255-v
+      undergoer:
+      - 'bulge%1:25:00::'
 bulge out:
   v:
     sense:
@@ -66306,7 +67621,9 @@ bull:
       subcat:
       - via
       synset: 02379540-v
-    - derivation:
+    - agent:
+      - 'bull%1:18:01::'
+      derivation:
       - 'bull%1:18:01::'
       id: 'bull%2:40:00::'
       subcat:
@@ -66519,6 +67836,8 @@ bulldoze:
     sense:
     - derivation:
       - 'bulldozer%1:06:00::'
+      instrument:
+      - 'bulldozer%1:06:00::'
       id: 'bulldoze%2:35:00::'
       subcat:
       - vtai
@@ -66594,7 +67913,9 @@ bulletin:
     - value: ˈbʊlɪtɪn
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bulletin%1:10:00::'
+      derivation:
       - 'bulletin%1:10:00::'
       id: 'bulletin%2:32:00::'
       subcat:
@@ -66853,7 +68174,9 @@ bully:
       subcat:
       - vtaa
       synset: 01785339-v
-    - derivation:
+    - agent:
+      - 'bully%1:18:00::'
+      derivation:
       - 'bully%1:18:00::'
       id: 'bully%2:32:00::'
       sent:
@@ -66951,7 +68274,10 @@ bulwark:
     - value: ˈbʊl.wɝk
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bulwark%1:06:01::'
+      - 'bulwark%1:06:00::'
+      derivation:
       - 'bulwark%1:06:01::'
       - 'bulwark%1:06:00::'
       id: 'bulwark%2:33:00::'
@@ -66984,7 +68310,9 @@ bum:
     - bummed
     - bumming
     sense:
-    - derivation:
+    - agent:
+      - 'bum%1:18:03::'
+      derivation:
       - 'bum%1:18:03::'
       id: 'bum%2:40:00::'
       subcat:
@@ -67015,7 +68343,9 @@ bum around:
 bumble:
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bumbler%1:18:00::'
+      derivation:
       - 'bumbler%1:18:00::'
       id: 'bumble%2:41:00::'
       subcat:
@@ -67095,6 +68425,10 @@ bump:
       - 'bump_into%2:35:00::'
       derivation:
       - 'bump%1:11:00::'
+      - 'bumper%1:06:00::'
+      event:
+      - 'bump%1:11:00::'
+      instrument:
       - 'bumper%1:06:00::'
       id: 'bump%2:35:00::'
       subcat:
@@ -67325,12 +68659,16 @@ bunch:
     - derivation:
       - 'bunch%1:14:00::'
       id: 'bunch%2:38:00::'
+      result:
+      - 'bunch%1:14:00::'
       subcat:
       - via-pp
       synset: 02031257-v
     - derivation:
       - 'bunch%1:14:00::'
       id: 'bunch%2:35:00::'
+      result:
+      - 'bunch%1:14:00::'
       subcat:
       - vii
       - vtai
@@ -67390,6 +68728,8 @@ bunco:
     sense:
     - derivation:
       - 'bunco%1:04:00::'
+      event:
+      - 'bunco%1:04:00::'
       id: 'bunco%2:41:00::'
       sent:
       - They bunco him of all his money
@@ -67432,6 +68772,9 @@ bundle:
       - 'bundle%1:14:00::'
       - 'bundle%1:06:00::'
       id: 'bundle%2:35:00::'
+      result:
+      - 'bundle%1:14:00::'
+      - 'bundle%1:06:00::'
       subcat:
       - vtai
       synset: 01489634-v
@@ -67439,6 +68782,9 @@ bundle:
       - 'bundle%1:14:00::'
       - 'bundle%1:06:00::'
       id: 'bundle%2:35:03::'
+      result:
+      - 'bundle%1:14:00::'
+      - 'bundle%1:06:00::'
       subcat:
       - vii
       - vtai
@@ -67516,6 +68862,8 @@ bung:
       synset: 02206915-v
     - derivation:
       - 'bung%1:06:00::'
+      instrument:
+      - 'bung%1:06:00::'
       id: 'bung%2:35:00::'
       subcat:
       - vtai
@@ -67565,17 +68913,25 @@ bungle:
     pronunciation:
     - value: ˈbʌŋ.ɡ(ə)l
     sense:
-    - derivation:
+    - agent:
+      - 'bungler%1:18:00::'
+      derivation:
       - 'bungle%1:04:00::'
       - 'bungler%1:18:00::'
+      event:
+      - 'bungle%1:04:00::'
       id: 'bungle%2:41:00::'
       subcat:
       - via
       - vtai
       synset: 02533317-v
-    - derivation:
+    - agent:
+      - 'bungler%1:18:00::'
+      derivation:
       - 'bungle%1:04:00::'
       - 'bungler%1:18:00::'
+      event:
+      - 'bungle%1:04:00::'
       id: 'bungle%2:29:00::'
       subcat:
       - via
@@ -67646,6 +69002,8 @@ bunk:
       subcat:
       - vtaa
       synset: 02342226-v
+      uses:
+      - 'bunk%1:06:02::'
     - id: 'bunk%2:38:00::'
       subcat:
       - via
@@ -67694,6 +69052,8 @@ bunker:
     - derivation:
       - 'bunker%1:06:00::'
       id: 'bunker%2:35:00::'
+      location:
+      - 'bunker%1:06:00::'
       subcat:
       - vtai
       synset: 01406932-v
@@ -67788,9 +69148,13 @@ bunt:
       synset: 13089015-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'bunter%1:18:00::'
+      derivation:
       - 'bunt%1:04:00::'
       - 'bunter%1:18:00::'
+      event:
+      - 'bunt%1:04:00::'
       id: 'bunt%2:35:01::'
       subcat:
       - via
@@ -67856,7 +69220,9 @@ buoy:
     - value: ˈbu.i
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'buoy%1:10:00::'
+      derivation:
       - buoyant%5:00:00:light:01
       - 'buoy%1:10:00::'
       id: 'buoy%2:38:00::'
@@ -67872,6 +69238,8 @@ buoy:
       - vtii
       synset: 01221076-v
     - derivation:
+      - 'buoy%1:10:00::'
+      instrument:
       - 'buoy%1:10:00::'
       id: 'buoy%2:32:00::'
       subcat:
@@ -67956,6 +69324,8 @@ bur:
       subcat:
       - vtai
       synset: 00181579-v
+      undergoer:
+      - 'bur%1:20:00::'
 bur grass:
   n:
     sense:
@@ -68035,6 +69405,8 @@ burden:
     sense:
     - antonym:
       - 'unburden%2:35:00::'
+      by_means_of:
+      - 'burden%1:06:01::'
       derivation:
       - 'burden%1:06:01::'
       id: 'burden%2:35:00::'
@@ -68044,6 +69416,8 @@ burden:
       - vtai-with
       synset: 01489937-v
     - derivation:
+      - 'burden%1:09:01::'
+      event:
       - 'burden%1:09:01::'
       id: 'burden%2:32:00::'
       subcat:
@@ -68484,6 +69858,8 @@ burl:
       subcat:
       - vtai
       synset: 00180640-v
+      undergoer:
+      - 'burl%1:07:00::'
 burlap:
   n:
     pronunciation:
@@ -68537,6 +69913,9 @@ burlesque:
     - derivation:
       - 'burlesque%1:10:00::'
       - 'burlesque%1:10:01::'
+      event:
+      - 'burlesque%1:10:00::'
+      - 'burlesque%1:10:01::'
       id: 'burlesque%2:32:00::'
       subcat:
       - vtaa
@@ -68582,6 +69961,8 @@ burn:
       - burnable%5:00:00:combustible:00
       - 'burn%1:07:00::'
       id: 'burn%2:30:02::'
+      location:
+      - 'burn%1:07:00::'
       sent:
       - They burn the trees
       subcat:
@@ -68600,6 +69981,8 @@ burn:
     - derivation:
       - burnable%5:00:00:combustible:00
       - 'burn%1:04:00::'
+      event:
+      - 'burn%1:04:00::'
       id: 'burn%2:30:00::'
       sent:
       - The wooden sticks burn
@@ -68608,6 +69991,8 @@ burn:
       - vii
       synset: 00377673-v
     - derivation:
+      - 'burn%1:26:00::'
+      event:
       - 'burn%1:26:00::'
       id: 'burn%2:39:00::'
       subcat:
@@ -68632,7 +70017,13 @@ burn:
       - 'burn%1:07:00::'
       - 'burn%1:04:00::'
       - 'burner%1:06:00::'
+      event:
+      - 'burn%1:04:00::'
+      instrument:
+      - 'burner%1:06:00::'
       id: 'burn%2:30:01::'
+      location:
+      - 'burn%1:07:00::'
       subcat:
       - vii
       - vtai
@@ -68649,6 +70040,8 @@ burn:
       synset: 02273726-v
     - derivation:
       - 'burn%1:26:00::'
+      event:
+      - 'burn%1:26:00::'
       id: 'burn%2:39:04::'
       subcat:
       - vii
@@ -68656,6 +70049,8 @@ burn:
     - derivation:
       - 'burn%1:26:01::'
       id: 'burn%2:30:08::'
+      result:
+      - 'burn%1:26:01::'
       subcat:
       - vtai
       synset: 00374419-v
@@ -68676,7 +70071,11 @@ burn:
       - burnable%5:00:00:combustible:00
       - 'burn%1:07:00::'
       - 'burn%1:04:00::'
+      event:
+      - 'burn%1:04:00::'
       id: 'burn%2:30:03::'
+      location:
+      - 'burn%1:07:00::'
       subcat:
       - vtaa
       - vtia
@@ -68873,6 +70272,8 @@ burnish:
     - derivation:
       - 'burnish%1:07:00::'
       id: 'burnish%2:35:00::'
+      property:
+      - 'burnish%1:07:00::'
       sent:
       - They burnish the glass tubes
       subcat:
@@ -68985,6 +70386,8 @@ burp:
     sense:
     - derivation:
       - 'burp%1:04:00::'
+      event:
+      - 'burp%1:04:00::'
       id: 'burp%2:29:00::'
       subcat:
       - via
@@ -69029,6 +70432,8 @@ burr:
       subcat:
       - vtai
       synset: 00181579-v
+      undergoer:
+      - 'burr%1:20:00::'
 burr drill:
   n:
     sense:
@@ -69116,6 +70521,8 @@ burrow:
     - derivation:
       - 'burrow%1:17:00::'
       id: 'burrow%2:38:00::'
+      result:
+      - 'burrow%1:17:00::'
       subcat:
       - vii-pp
       synset: 02045912-v
@@ -69207,6 +70614,8 @@ burst:
     sense:
     - derivation:
       - 'burst%1:04:00::'
+      event:
+      - 'burst%1:04:00::'
       id: 'burst%2:30:00::'
       subcat:
       - vii
@@ -69217,9 +70626,13 @@ burst:
       subcat:
       - via-pp
       synset: 01789214-v
-    - derivation:
+    - by_means_of:
+      - 'burster%1:06:00::'
+      derivation:
       - 'burst%1:04:00::'
       - 'burster%1:06:00::'
+      event:
+      - 'burst%1:04:00::'
       id: 'burst%2:30:09::'
       subcat:
       - vii
@@ -69231,6 +70644,8 @@ burst:
       - via-pp
       synset: 01968641-v
     - derivation:
+      - 'burst%1:04:02::'
+      event:
       - 'burst%1:04:02::'
       id: 'burst%2:42:00::'
       sent:
@@ -69330,7 +70745,9 @@ burthen:
     pronunciation:
     - value: ˈbɜː(r)ðən
     sense:
-    - derivation:
+    - by_means_of:
+      - 'burthen%1:06:00::'
+      derivation:
       - 'burthen%1:06:00::'
       id: 'burthen%2:35:00::'
       subcat:
@@ -69361,6 +70778,8 @@ bury:
       synset: 02151896-v
     - derivation:
       - 'burial%1:11:00::'
+      event:
+      - 'burial%1:11:00::'
       id: 'bury%2:41:00::'
       sent:
       - Sam cannot bury Sue
@@ -69369,6 +70788,8 @@ bury:
       - vtai
       synset: 02461925-v
     - derivation:
+      - 'burial%1:04:00::'
+      event:
       - 'burial%1:04:00::'
       id: 'bury%2:35:00::'
       subcat:
@@ -69430,6 +70851,8 @@ bus:
       - vtai
       - vtai-pp
       synset: 01953987-v
+      vehicle:
+      - 'bus%1:06:00::'
     - derivation:
       - 'bus%1:06:00::'
       id: 'bus%2:38:00::'
@@ -69438,6 +70861,8 @@ bus:
       - vtaa
       - vtai-pp
       synset: 01952969-v
+      vehicle:
+      - 'bus%1:06:00::'
     - id: 'bus%2:30:00::'
       subcat:
       - vtai
@@ -70125,6 +71550,8 @@ buss:
     sense:
     - derivation:
       - 'buss%1:04:00::'
+      event:
+      - 'buss%1:04:00::'
       id: 'buss%2:35:00::'
       sent:
       - Sam cannot buss Sue
@@ -70156,11 +71583,15 @@ bust:
       synset: 00511734-n
   v:
     sense:
-    - also:
+    - agent:
+      - 'buster%1:18:00::'
+      also:
       - 'bust_up%2:35:00::'
       derivation:
       - 'bust%1:11:00::'
       - 'buster%1:18:00::'
+      event:
+      - 'bust%1:11:00::'
       id: 'bust%2:35:01::'
       subcat:
       - vtai
@@ -70262,6 +71693,8 @@ bustle:
     - value: ˈbʌsəl
     sense:
     - derivation:
+      - 'bustle%1:04:00::'
+      event:
       - 'bustle%1:04:00::'
       id: 'bustle%2:38:00::'
       sent:
@@ -70451,7 +71884,10 @@ butcher:
       synset: 09899210-n
   v:
     sense:
-    - derivation:
+    - agent:
+      - 'butcher%1:18:02::'
+      - 'butcher%1:18:00::'
+      derivation:
       - 'butcher%1:18:02::'
       - 'butcher%1:18:00::'
       - 'butchery%1:06:00::'
@@ -70605,7 +72041,9 @@ butt:
       subcat:
       - vtii
       synset: 01469607-v
-    - also:
+    - agent:
+      - 'butter%1:18:00::'
+      also:
       - 'butt_against%2:35:01::'
       derivation:
       - 'butter%1:18:00::'
@@ -70707,6 +72145,8 @@ butt-weld:
       - 'butt_welding%1:04:00::'
       - 'butt-welding%1:04:00::'
       id: 'butt-weld%2:35:00::'
+      result:
+      - 'butt-weld%1:06:00::'
       subcat:
       - vtai
       synset: 01599325-v
@@ -70746,6 +72186,8 @@ butter:
       subcat:
       - vtai
       synset: 01270562-v
+      undergoer:
+      - 'butter%1:13:00::'
 butter bean:
   n:
     sense:
@@ -71165,9 +72607,13 @@ button:
       subcat:
       - vtai
       synset: 01370829-v
+      uses:
+      - 'button%1:06:00::'
     - antonym:
       - 'unbutton%2:35:00::'
       derivation:
+      - 'button%1:06:00::'
+      instrument:
       - 'button%1:06:00::'
       id: 'button%2:35:00::'
       subcat:
@@ -71333,7 +72779,9 @@ buttress:
     - value: ˈbʌtɹɪs
       variety: US
     sense:
-    - derivation:
+    - by_means_of:
+      - 'buttress%1:06:00::'
+      derivation:
       - 'buttress%1:06:00::'
       id: 'buttress%2:30:01::'
       subcat:
@@ -71486,7 +72934,9 @@ buy:
     pronunciation:
     - value: baɪ
     sense:
-    - also:
+    - agent:
+      - 'buyer%1:18:00::'
+      also:
       - 'buy_in%2:40:00::'
       - 'buy_up%2:40:00::'
       - 'buy_out%2:40:00::'
@@ -71496,6 +72946,8 @@ buy:
       - 'buy%1:21:00::'
       - 'buyer%1:18:00::'
       - 'buying%1:04:00::'
+      event:
+      - 'buy%1:21:00::'
       id: 'buy%2:40:00::'
       sent:
       - The children buy the ball
@@ -71511,6 +72963,8 @@ buy:
       - vtaa
       synset: 02288941-v
     - derivation:
+      - 'buy%1:21:00::'
+      event:
       - 'buy%1:21:00::'
       id: 'buy%2:42:00::'
       subcat:
@@ -71698,6 +73152,11 @@ buzz:
       - 'buzz%1:11:00::'
       - 'buzzer%1:06:01::'
       - 'buzzer%1:06:00::'
+      event:
+      - 'buzz%1:11:00::'
+      instrument:
+      - 'buzzer%1:06:01::'
+      - 'buzzer%1:06:00::'
       id: 'buzz%2:39:00::'
       subcat:
       - vii
@@ -71709,6 +73168,8 @@ buzz:
       synset: 01928220-v
     - derivation:
       - 'buzz%1:04:00::'
+      event:
+      - 'buzz%1:04:00::'
       id: 'buzz%2:42:00::'
       sent:
       - The streets buzz with crowds
@@ -71718,6 +73179,11 @@ buzz:
       synset: 02712465-v
     - derivation:
       - 'buzz%1:11:00::'
+      - 'buzzer%1:06:01::'
+      - 'buzzer%1:06:00::'
+      event:
+      - 'buzz%1:11:00::'
+      instrument:
       - 'buzzer%1:06:01::'
       - 'buzzer%1:06:00::'
       id: 'buzz%2:32:00::'
@@ -72084,7 +73550,9 @@ bypass:
     - value: ˈbaɪpɑːs
       variety: GB
     sense:
-    - derivation:
+    - by_means_of:
+      - 'bypass%1:06:00::'
+      derivation:
       - 'bypass%1:06:00::'
       id: 'bypass%2:32:00::'
       subcat:
