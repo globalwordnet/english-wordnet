@@ -2399,12 +2399,18 @@ yellow oak:
 yellow ocher:
   n:
     sense:
-    - id: 'yellow_ocher%1:27:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'yellow_ocher%1:27:00::'
       synset: 14868451-n
 yellow ochre:
   n:
     sense:
-    - id: 'yellow_ochre%1:27:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'yellow_ochre%1:27:00::'
       synset: 14868451-n
 yellow oleander:
   n:
@@ -3429,7 +3435,10 @@ yoghurt:
     - value: ˈjɒɡət
       variety: GB
     sense:
-    - id: 'yoghurt%1:13:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'yoghurt%1:13:00::'
       synset: 07865312-n
 yogi:
   n:
@@ -3470,7 +3479,9 @@ yogurt:
     - value: ˈjəʉɡət
       variety: AU
     sense:
-    - id: 'yogurt%1:13:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'yogurt%1:13:00::'
       synset: 07865312-n
 yokai:
   n:
