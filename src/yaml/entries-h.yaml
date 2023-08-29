@@ -429,8 +429,6 @@ Hades:
     sense:
     - derivation:
       - hadean%5:00:00:infernal:00
-      domain_topic:
-      - 'greek_mythology%1:14:00::'
       id: 'hades%1:18:00::'
       synset: 09593427-n
     - id: 'hades%1:09:00::'
@@ -22078,10 +22076,7 @@ hectometer:
 hectometre:
   n:
     sense:
-    - domain_region:
-      - 'canada%1:15:00::'
-      - 'britain%1:15:00::'
-      exemplifies:
+    - exemplifies:
       - 'british_spelling%1:10:01::'
       - 'canadian_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
@@ -24980,9 +24975,7 @@ herbaceous:
     - value: hɝˈbeɪ.ʃəs
       variety: US
     sense:
-    - domain_topic:
-      - 'botany%1:09:00::'
-      id: herbaceous%5:00:00:nonwoody:00
+    - id: herbaceous%5:00:00:nonwoody:00
       synset: 02587233-s
 herbaceous plant:
   n:
@@ -41349,9 +41342,9 @@ human-centered:
 human-centred:
   a:
     sense:
-    - domain_region:
-      - 'canada%1:15:00::'
-      - 'britain%1:15:00::'
+    - exemplifies:
+      - 'canadian_english%1:10:01::'
+      - 'british_english%1:10:01::'
       id: human-centred%5:00:00:humane:00
       synset: 01265356-s
 human-sized:
