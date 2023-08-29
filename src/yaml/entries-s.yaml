@@ -3029,7 +3029,9 @@ Santa Clara:
 Santa Claus:
   n:
     sense:
-    - id: 'santa_claus%1:18:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'santa_claus%1:18:00::'
       synset: 10570230-n
 Santa Cruz:
   n:
@@ -4264,12 +4266,18 @@ Savior:
     - value: ˈseɪvjə
       variety: GB
     sense:
-    - id: 'savior%1:18:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'savior%1:18:01::'
       synset: 11103646-n
 Saviour:
   n:
     sense:
-    - id: 'saviour%1:18:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'saviour%1:18:01::'
       synset: 11103646-n
 Savitar:
   n:
@@ -9741,7 +9749,10 @@ Simone de Beauvoir:
 Simonise:
   v:
     sense:
-    - id: 'simonise%2:35:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'simonise%2:35:00::'
       subcat:
       - vtai
       synset: 01248054-v
@@ -9757,6 +9768,8 @@ Simonize:
     sense:
     - derivation:
       - 'simoniz%1:27:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'simonize%2:35:00::'
       subcat:
       - vtai
@@ -15179,6 +15192,9 @@ Stalinisation:
     sense:
     - derivation:
       - 'stalinise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stalinisation%1:22:00::'
       synset: 13582114-n
 Stalinism:
@@ -15206,6 +15222,8 @@ Stalinization:
     sense:
     - derivation:
       - 'stalinize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stalinization%1:22:00::'
       synset: 13582114-n
 Stalino:
@@ -18593,11 +18611,15 @@ saber:
     - derivation:
       - 'saber%2:35:00::'
       - 'saber%2:35:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'saber%1:06:01::'
       synset: 04128605-n
     - derivation:
       - 'saber%2:35:00::'
       - 'saber%2:35:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'saber%1:06:00::'
       synset: 02990947-n
   v:
@@ -18610,6 +18632,8 @@ saber:
     - derivation:
       - 'saber%1:06:00::'
       - 'saber%1:06:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'saber%1:06:00::'
       - 'saber%1:06:01::'
@@ -18621,6 +18645,8 @@ saber:
     - derivation:
       - 'saber%1:06:01::'
       - 'saber%1:06:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'saber%1:06:01::'
       - 'saber%1:06:00::'
@@ -18789,11 +18815,19 @@ sabre:
     - derivation:
       - 'sabre%2:35:01::'
       - 'sabre%2:35:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sabre%1:06:01::'
       synset: 04128605-n
     - derivation:
       - 'sabre%2:35:01::'
       - 'sabre%2:35:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sabre%1:06:00::'
       synset: 02990947-n
   v:
@@ -18806,6 +18840,10 @@ sabre:
     - derivation:
       - 'sabre%1:06:01::'
       - 'sabre%1:06:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'sabre%1:06:01::'
       - 'sabre%1:06:00::'
@@ -18817,6 +18855,10 @@ sabre:
     - derivation:
       - 'sabre%1:06:01::'
       - 'sabre%1:06:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'sabre%1:06:01::'
       - 'sabre%1:06:00::'
@@ -20581,7 +20623,9 @@ sailboat:
     - value: ˈseɪlˌboʊt
       variety: US
     sense:
-    - id: 'sailboat%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'sailboat%1:06:00::'
       synset: 04135600-n
 sailcloth:
   n:
@@ -20613,7 +20657,9 @@ sailing:
 sailing boat:
   n:
     sense:
-    - id: 'sailing_boat%1:06:00::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'sailing_boat%1:06:00::'
       synset: 04135600-n
 sailing master:
   n:
@@ -20892,6 +20938,8 @@ salable:
       derivation:
       - 'salableness%1:07:00::'
       - 'salability%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'salable%3:00:00::'
       synset: 02069203-a
 salableness:
@@ -21117,7 +21165,9 @@ saleable:
     pronunciation:
     - value: ˈseɪləbl̩
     sense:
-    - id: 'saleable%3:00:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      id: 'saleable%3:00:00::'
       synset: 02069203-a
 saleratus:
   n:
@@ -22061,12 +22111,18 @@ saltpan:
 saltpeter:
   n:
     sense:
-    - id: 'saltpeter%1:27:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'saltpeter%1:27:00::'
       synset: 14885506-n
 saltpetre:
   n:
     sense:
-    - id: 'saltpetre%1:27:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'saltpetre%1:27:00::'
       synset: 14885506-n
 saltshaker:
   n:
@@ -22788,7 +22844,9 @@ sanatorium:
     pronunciation:
     - value: ˌsænəˈtɔɹiəm
     sense:
-    - id: 'sanatorium%1:06:00::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'sanatorium%1:06:00::'
       synset: 04140580-n
     - id: 'sanatorium%1:06:01::'
       synset: 02823933-n
@@ -23877,7 +23935,9 @@ sanitarium:
     form:
     - sanitaria
     sense:
-    - id: 'sanitarium%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'sanitarium%1:06:00::'
       synset: 04140580-n
 sanitary:
   a:
@@ -23952,6 +24012,9 @@ sanitisation:
     sense:
     - derivation:
       - 'sanitise%2:35:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sanitisation%1:04:00::'
       synset: 00255282-n
 sanitise:
@@ -23961,11 +24024,17 @@ sanitise:
       - 'sanitisation%1:04:00::'
       event:
       - 'sanitisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sanitise%2:35:00::'
       subcat:
       - vtai
       synset: 01247616-v
-    - id: 'sanitise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sanitise%2:30:00::'
       subcat:
       - vtai
       synset: 00555545-v
@@ -23981,6 +24050,8 @@ sanitization:
     sense:
     - derivation:
       - 'sanitize%2:35:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sanitization%1:04:00::'
       synset: 00255282-n
 sanitize:
@@ -23993,11 +24064,15 @@ sanitize:
       - 'sanitization%1:04:00::'
       event:
       - 'sanitization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sanitize%2:35:00::'
       subcat:
       - vtai
       synset: 01247616-v
-    - id: 'sanitize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sanitize%2:30:00::'
       subcat:
       - vtai
       synset: 00555545-v
@@ -25304,6 +25379,9 @@ satirise:
     sense:
     - derivation:
       - 'satire%1:10:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'satirise%2:32:00::'
       subcat:
       - vtaa
@@ -25321,6 +25399,8 @@ satirize:
     sense:
     - derivation:
       - 'satire%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'satirize%2:32:00::'
       subcat:
       - vtaa
@@ -25394,7 +25474,11 @@ satisfiable:
 satisfice:
   v:
     sense:
-    - id: 'satisfice%2:41:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'satisfice%2:41:00::'
       subcat:
       - via
       synset: 02374122-v
@@ -25417,7 +25501,9 @@ satisfier:
 satisfise:
   v:
     sense:
-    - id: 'satisfise%2:41:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'satisfise%2:41:00::'
       subcat:
       - via
       synset: 02374122-v
@@ -26418,12 +26504,18 @@ savior:
     sense:
     - derivation:
       - 'save%2:41:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'savior%1:18:00::'
       synset: 10573233-n
 saviour:
   n:
     sense:
-    - id: 'saviour%1:18:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'saviour%1:18:00::'
       synset: 10573233-n
 savoir-faire:
   n:
@@ -26445,7 +26537,9 @@ savor:
       synset: 05723811-n
   v:
     sense:
-    - id: 'savor%2:37:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'savor%2:37:00::'
       sent:
       - Sam and Sue savor the movie
       subcat:
@@ -26457,6 +26551,8 @@ savor:
       - 'savor%1:09:00::'
       event:
       - 'savor%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'savor%2:39:02::'
       subcat:
       - vii
@@ -26464,6 +26560,8 @@ savor:
       synset: 02198732-v
     - derivation:
       - 'savoring%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'savor%2:39:00::'
       sent:
       - The chefs savor the vegetables
@@ -26474,6 +26572,8 @@ savor:
       - 'savor%1:09:00::'
       event:
       - 'savor%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'savor%2:39:01::'
       sent:
       - The chefs savor the vegetables
@@ -26559,6 +26659,10 @@ savour:
       - 'savour%1:09:00::'
       event:
       - 'savour%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'savour%2:39:02::'
       subcat:
       - vii
@@ -26566,6 +26670,10 @@ savour:
       synset: 02198732-v
     - derivation:
       - 'savour%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'savour%2:39:01::'
       sent:
       - The chefs savour the vegetables
@@ -26580,13 +26688,21 @@ savour:
       - 'savouring%1:04:00::'
       event:
       - 'savour%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'savour%2:39:00::'
       sent:
       - The chefs savour the vegetables
       subcat:
       - vtai
       synset: 02198420-v
-    - id: 'savour%2:37:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'savour%2:37:00::'
       sent:
       - Sam and Sue savour the movie
       subcat:
@@ -27310,7 +27426,9 @@ scalawag:
       synset: 10574094-n
     - id: 'scalawag%1:18:02::'
       synset: 10556285-n
-    - id: 'scalawag%1:18:01::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'scalawag%1:18:01::'
       synset: 10219666-n
 scald:
   n:
@@ -27776,7 +27894,9 @@ scallywag:
       synset: 10574094-n
     - id: 'scallywag%1:18:02::'
       synset: 10556285-n
-    - id: 'scallywag%1:18:01::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'scallywag%1:18:01::'
       synset: 10219666-n
 scalp:
   n:
@@ -28065,10 +28185,16 @@ scandal:
 scandalisation:
   n:
     sense:
-    - id: 'scandalisation%1:26:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'scandalisation%1:26:00::'
       synset: 14603034-n
     - derivation:
       - 'scandalise%2:37:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'scandalisation%1:04:00::'
       synset: 01227886-n
 scandalise:
@@ -28083,6 +28209,9 @@ scandalise:
       event:
       - 'scandal%1:11:00::'
       - 'scandalisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'scandalise%2:37:00::'
       subcat:
       - vtaa
@@ -28091,10 +28220,14 @@ scandalise:
 scandalization:
   n:
     sense:
-    - id: 'scandalization%1:26:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'scandalization%1:26:00::'
       synset: 14603034-n
     - derivation:
       - 'scandalize%2:37:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'scandalization%1:04:00::'
       synset: 01227886-n
 scandalize:
@@ -28109,6 +28242,8 @@ scandalize:
       event:
       - 'scandal%1:11:00::'
       - 'scandalization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'scandalize%2:37:00::'
       sent:
       - The bad news will scandalize him
@@ -29468,9 +29603,13 @@ scentless mayweed:
 scepter:
   n:
     sense:
-    - id: 'scepter%1:26:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'scepter%1:26:00::'
       synset: 14467142-n
-    - id: 'scepter%1:10:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'scepter%1:10:00::'
       synset: 07282278-n
 sceptered:
   a:
@@ -29485,6 +29624,9 @@ sceptic:
     - derivation:
       - sceptical%5:00:00:incredulous:00
       - sceptical%5:00:00:distrustful:00
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sceptic%1:18:00::'
       synset: 10624042-n
 sceptical:
@@ -29493,11 +29635,17 @@ sceptical:
     - derivation:
       - 'scepticism%1:09:00::'
       - 'sceptic%1:18:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: sceptical%5:00:00:distrustful:00
       synset: 02473075-s
     - derivation:
       - 'scepticism%1:09:00::'
       - 'sceptic%1:18:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: sceptical%5:00:00:incredulous:00
       synset: 00650269-s
 sceptically:
@@ -29513,8 +29661,16 @@ scepticism:
     - derivation:
       - sceptical%5:00:00:incredulous:00
       - sceptical%5:00:00:distrustful:00
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'scepticism%1:09:00::'
       synset: 05988918-n
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'scepticism%1:09:01::'
+      synset: 05706947-n
 sceptre:
   n:
     pronunciation:
@@ -29523,9 +29679,17 @@ sceptre:
     - value: ˈsɛptɚ
       variety: US
     sense:
-    - id: 'sceptre%1:26:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sceptre%1:26:00::'
       synset: 14467142-n
-    - id: 'sceptre%1:10:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sceptre%1:10:00::'
       synset: 07282278-n
 sceptred:
   a:
@@ -29691,10 +29855,16 @@ schematically:
 schematisation:
   n:
     sense:
-    - id: 'schematisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'schematisation%1:04:00::'
       synset: 00901905-n
     - derivation:
       - 'schematise%2:30:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'schematisation%1:04:01::'
       synset: 00193306-n
 schematise:
@@ -29704,6 +29874,9 @@ schematise:
       - 'schematisation%1:04:01::'
       event:
       - 'schematisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'schematise%2:30:01::'
       subcat:
       - vtai
@@ -29714,10 +29887,14 @@ schematization:
     sense:
     - derivation:
       - 'schematize%2:36:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'schematization%1:04:00::'
       synset: 00901905-n
     - derivation:
       - 'schematize%2:30:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'schematization%1:04:01::'
       synset: 00193306-n
 schematize:
@@ -29743,6 +29920,8 @@ schematize:
       - 'schema%1:09:01::'
       event:
       - 'schematization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'schematize%2:30:01::'
       subcat:
       - vtai
@@ -34996,6 +35175,9 @@ scrutinise:
       - 'scrutiniser%1:18:00::'
       - 'scrutiny%1:04:01::'
       - 'scrutiny%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'scrutinise%2:39:00::'
       subcat:
       - vtaa
@@ -35007,6 +35189,9 @@ scrutinise:
       - 'scrutiniser%1:18:00::'
       - 'scrutiny%1:04:01::'
       - 'scrutiny%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'scrutinise%2:31:00::'
       subcat:
       - vtai
@@ -35033,6 +35218,8 @@ scrutinize:
       - 'scrutinizer%1:18:00::'
       - 'scrutiny%1:04:01::'
       - 'scrutiny%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'scrutinize%2:39:00::'
       sent:
       - The customs agents scrutinize the bags for drugs
@@ -35046,6 +35233,8 @@ scrutinize:
       - 'scrutinizer%1:18:00::'
       - 'scrutiny%1:04:01::'
       - 'scrutiny%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'scrutinize%2:31:00::'
       subcat:
       - vtai
@@ -38794,6 +38983,9 @@ sectionalisation:
     sense:
     - derivation:
       - 'sectionalise%2:41:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sectionalisation%1:04:00::'
       synset: 00398761-n
 sectionalise:
@@ -38803,6 +38995,9 @@ sectionalise:
       - 'sectionalisation%1:04:00::'
       event:
       - 'sectionalisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sectionalise%2:41:00::'
       subcat:
       - vtai
@@ -38817,6 +39012,8 @@ sectionalization:
     sense:
     - derivation:
       - 'sectionalize%2:41:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sectionalization%1:04:00::'
       synset: 00398761-n
 sectionalize:
@@ -38826,6 +39023,8 @@ sectionalize:
       - 'sectionalization%1:04:00::'
       event:
       - 'sectionalization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sectionalize%2:41:00::'
       subcat:
       - vtai
@@ -38915,9 +39114,15 @@ secularisation:
     sense:
     - derivation:
       - 'secularise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'secularisation%1:04:01::'
       synset: 01157952-n
-    - id: 'secularisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'secularisation%1:04:00::'
       synset: 01111216-n
 secularise:
   v:
@@ -38926,6 +39131,9 @@ secularise:
       - 'secularisation%1:04:01::'
       event:
       - 'secularisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'secularise%2:30:00::'
       subcat:
       - vtai
@@ -38952,10 +39160,14 @@ secularization:
     sense:
     - derivation:
       - 'secularize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'secularization%1:04:01::'
       synset: 01157952-n
     - derivation:
       - 'secularize%2:40:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'secularization%1:04:00::'
       synset: 01111216-n
 secularize:
@@ -38965,6 +39177,8 @@ secularize:
       - 'secularization%1:04:01::'
       event:
       - 'secularization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'secularize%2:30:00::'
       subcat:
       - vtai
@@ -39923,12 +40137,18 @@ seed cake:
 seed catalog:
   n:
     sense:
-    - id: 'seed_catalog%1:10:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'seed_catalog%1:10:00::'
       synset: 06500600-n
 seed catalogue:
   n:
     sense:
-    - id: 'seed_catalogue%1:10:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'seed_catalogue%1:10:00::'
       synset: 06500600-n
 seed cleaner:
   n:
@@ -41275,11 +41495,17 @@ self-aggrandisement:
 self-aggrandising:
   a:
     sense:
-    - id: 'self-aggrandising%3:01:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'self-aggrandising%3:01:00::'
       pertainym:
       - 'self-aggrandisement%1:04:00::'
       synset: 02805676-a
-    - id: self-aggrandising%5:00:00:proud:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: self-aggrandising%5:00:00:proud:00
       synset: 01896819-s
 self-aggrandizement:
   n:
@@ -41289,11 +41515,15 @@ self-aggrandizement:
 self-aggrandizing:
   a:
     sense:
-    - id: 'self-aggrandizing%3:01:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'self-aggrandizing%3:01:00::'
       pertainym:
       - 'self-aggrandizement%1:04:00::'
       synset: 02805676-a
-    - id: self-aggrandizing%5:00:00:proud:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: self-aggrandizing%5:00:00:proud:00
       synset: 01896819-s
 self-analysis:
   n:
@@ -41570,12 +41800,18 @@ self-defeating:
 self-defence:
   n:
     sense:
-    - id: 'self-defence%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'self-defence%1:04:00::'
       synset: 00826853-n
 self-defense:
   n:
     sense:
-    - id: 'self-defense%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'self-defense%1:04:00::'
       synset: 00826853-n
 self-denial:
   n:
@@ -41807,7 +42043,10 @@ self-feeder:
 self-fertilisation:
   n:
     sense:
-    - id: 'self-fertilisation%1:11:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'self-fertilisation%1:11:00::'
       synset: 07452590-n
 self-fertilised:
   a:
@@ -41819,6 +42058,8 @@ self-fertilization:
     sense:
     - antonym:
       - 'cross-fertilization%1:11:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'self-fertilization%1:11:00::'
       synset: 07452590-n
 self-fertilized:
@@ -42068,12 +42309,17 @@ self-opinionated:
 self-organisation:
   n:
     sense:
-    - id: 'self-organisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'self-organisation%1:04:00::'
       synset: 01140720-n
 self-organization:
   n:
     sense:
-    - id: 'self-organization%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'self-organization%1:04:00::'
       synset: 01140720-n
 self-pity:
   n:
@@ -42178,12 +42424,17 @@ self-raising flour:
 self-realisation:
   n:
     sense:
-    - id: 'self-realisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'self-realisation%1:04:00::'
       synset: 00063491-n
 self-realization:
   n:
     sense:
-    - id: 'self-realization%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'self-realization%1:04:00::'
       synset: 00063491-n
 self-referent:
   a:
@@ -43056,7 +43307,10 @@ semi-abstraction:
 semi-automatise:
   v:
     sense:
-    - id: 'semi-automatise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'semi-automatise%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -43064,7 +43318,9 @@ semi-automatise:
 semi-automatize:
   v:
     sense:
-    - id: 'semi-automatize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'semi-automatize%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -44698,7 +44954,10 @@ senselessness:
 sensibilise:
   v:
     sense:
-    - id: 'sensibilise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensibilise%2:30:00::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -44727,7 +44986,9 @@ sensibility:
 sensibilize:
   v:
     sense:
-    - id: 'sensibilize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sensibilize%2:30:00::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -44824,12 +45085,21 @@ sensitisation:
     sense:
     - derivation:
       - 'sensitise%2:30:02::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sensitisation%1:26:00::'
       synset: 14555585-n
-    - id: 'sensitisation%1:22:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensitisation%1:22:00::'
       synset: 13575546-n
     - derivation:
       - 'sensitise%2:30:02::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sensitisation%1:04:00::'
       synset: 00830831-n
 sensitise:
@@ -44837,6 +45107,9 @@ sensitise:
     sense:
     - antonym:
       - 'desensitise%2:39:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sensitise%2:39:00::'
       subcat:
       - vtaa
@@ -44849,6 +45122,9 @@ sensitise:
       - 'sensitisation%1:04:00::'
       event:
       - 'sensitisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sensitise%2:30:02::'
       material:
       - 'sensitiser%1:27:00::'
@@ -44860,13 +45136,19 @@ sensitise:
       synset: 00575009-v
     - derivation:
       - 'sensitiser%1:27:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sensitise%2:30:01::'
       material:
       - 'sensitiser%1:27:00::'
       subcat:
       - vtai
       synset: 00574748-v
-    - id: 'sensitise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensitise%2:30:00::'
       subcat:
       - vtaa
       - vtaa-pp
@@ -44890,11 +45172,17 @@ sensitiser:
 sensitising:
   a:
     sense:
-    - id: 'sensitising%3:00:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensitising%3:00:00::'
       synset: 02115478-a
   n:
     sense:
-    - id: 'sensitising%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensitising%1:04:00::'
       synset: 00830831-n
 sensitive:
   a:
@@ -45015,14 +45303,20 @@ sensitivity:
 sensitization:
   n:
     sense:
-    - id: 'sensitization%1:26:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sensitization%1:26:00::'
       synset: 14555585-n
     - derivation:
       - 'sensitize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitization%1:22:00::'
       synset: 13575546-n
     - derivation:
       - 'sensitize%2:30:02::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitization%1:04:00::'
       synset: 00830831-n
 sensitize:
@@ -45034,6 +45328,8 @@ sensitize:
       - 'sensitization%1:22:00::'
       event:
       - 'sensitization%1:22:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitize%2:30:00::'
       subcat:
       - vtaa
@@ -45044,6 +45340,8 @@ sensitize:
       synset: 00273190-v
     - antonym:
       - 'desensitize%2:39:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitize%2:39:00::'
       subcat:
       - vtaa
@@ -45055,6 +45353,8 @@ sensitize:
       - 'sensitization%1:04:00::'
       event:
       - 'sensitization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitize%2:30:02::'
       material:
       - 'sensitizer%1:27:00::'
@@ -45062,7 +45362,9 @@ sensitize:
       - vtaa
       - vtia
       synset: 00575009-v
-    - id: 'sensitize%2:30:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sensitize%2:30:01::'
       subcat:
       - vtai
       synset: 00574748-v
@@ -45083,11 +45385,15 @@ sensitizing:
     sense:
     - antonym:
       - 'desensitizing%3:00:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sensitizing%3:00:00::'
       synset: 02115478-a
   n:
     sense:
-    - id: 'sensitizing%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sensitizing%1:04:00::'
       synset: 00830831-n
 sensitometer:
   n:
@@ -45244,7 +45550,10 @@ sensual:
 sensualise:
   v:
     sense:
-    - id: 'sensualise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sensualise%2:30:00::'
       subcat:
       - vtaa
       synset: 00133786-v
@@ -45283,7 +45592,9 @@ sensualize:
       subcat:
       - vtai
       synset: 00728974-v
-    - id: 'sensualize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sensualize%2:30:00::'
       subcat:
       - vtaa
       synset: 00133786-v
@@ -45505,12 +45816,18 @@ sentimentalisation:
     - derivation:
       - 'sentimentalise%2:30:00::'
       - 'sentimentalise%2:29:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sentimentalisation%1:04:00::'
       synset: 01221796-n
 sentimentalise:
   v:
     sense:
-    - id: 'sentimentalise%2:30:03::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sentimentalise%2:30:03::'
       subcat:
       - vtia
       - vtii
@@ -45519,6 +45836,9 @@ sentimentalise:
       - 'sentimentalisation%1:04:00::'
       event:
       - 'sentimentalisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sentimentalise%2:30:00::'
       subcat:
       - vtai
@@ -45528,6 +45848,9 @@ sentimentalise:
       - 'sentimentalisation%1:04:00::'
       event:
       - 'sentimentalisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sentimentalise%2:29:00::'
       subcat:
       - via
@@ -45564,17 +45887,23 @@ sentimentalization:
     sense:
     - derivation:
       - 'sentimentalize%2:29:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sentimentalization%1:04:00::'
       synset: 01221796-n
 sentimentalize:
   v:
     sense:
-    - id: 'sentimentalize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sentimentalize%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00534265-v
-    - id: 'sentimentalize%2:30:03::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sentimentalize%2:30:03::'
       subcat:
       - vtia
       - vtii
@@ -45583,6 +45912,8 @@ sentimentalize:
       - 'sentimentalization%1:04:00::'
       event:
       - 'sentimentalization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sentimentalize%2:29:00::'
       subcat:
       - via
@@ -45599,14 +45930,19 @@ sentimentally:
 sentimentise:
   v:
     sense:
-    - id: 'sentimentise%2:29:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sentimentise%2:29:00::'
       subcat:
       - via
       synset: 00012937-v
 sentimentize:
   v:
     sense:
-    - id: 'sentimentize%2:29:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sentimentize%2:29:00::'
       subcat:
       - via
       synset: 00012937-v
@@ -46159,7 +46495,9 @@ sepulcher:
     - value: ˈsɛpəɫkɚ
       variety: US
     sense:
-    - id: 'sepulcher%1:06:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sepulcher%1:06:00::'
       synset: 02925268-n
 sepulchral:
   a:
@@ -46189,6 +46527,10 @@ sepulchre:
     - derivation:
       - sepulchral%5:00:00:joyless:00
       - 'sepulchral%3:01:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sepulchre%1:06:00::'
       synset: 02925268-n
 sepulture:
@@ -46752,6 +47094,9 @@ serialisation:
     sense:
     - derivation:
       - 'serialise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'serialisation%1:04:00::'
       synset: 01104767-n
 serialise:
@@ -46761,6 +47106,9 @@ serialise:
       - 'serialisation%1:04:00::'
       event:
       - 'serialisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'serialise%2:30:00::'
       subcat:
       - vtai
@@ -46776,6 +47124,8 @@ serialization:
     sense:
     - derivation:
       - 'serialize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'serialization%1:04:00::'
       synset: 01104767-n
 serialize:
@@ -46790,6 +47140,8 @@ serialize:
       - 'serialization%1:04:00::'
       event:
       - 'serialization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'serialize%2:30:00::'
       subcat:
       - vtai
@@ -47088,6 +47440,9 @@ sermonise:
       - 'sermoniser%1:18:00::'
       - 'sermon%1:10:01::'
       - 'sermon%1:10:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sermonise%2:32:00::'
       subcat:
       - via
@@ -47113,6 +47468,8 @@ sermonize:
       - 'sermonizer%1:18:00::'
       - 'sermon%1:10:01::'
       - 'sermon%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sermonize%2:32:00::'
       sent:
       - Sam and Sue sermonize
@@ -49629,11 +49986,17 @@ several-seeded:
 severalise:
   v:
     sense:
-    - id: 'severalise%2:31:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'severalise%2:31:01::'
       subcat:
       - vtai
       synset: 00663398-v
-    - id: 'severalise%2:31:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'severalise%2:31:00::'
       subcat:
       - vtaa
       - vtai
@@ -49642,11 +50005,15 @@ severalise:
 severalize:
   v:
     sense:
-    - id: 'severalize%2:31:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'severalize%2:31:01::'
       subcat:
       - vtai
       synset: 00663398-v
-    - id: 'severalize%2:31:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'severalize%2:31:00::'
       subcat:
       - vtaa
       - vtai
@@ -50539,7 +50906,10 @@ sexual urge:
 sexualise:
   v:
     sense:
-    - id: 'sexualise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sexualise%2:30:00::'
       subcat:
       - vtaa
       - vtai
@@ -50560,7 +50930,9 @@ sexuality:
 sexualize:
   v:
     sense:
-    - id: 'sexualize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sexualize%2:30:00::'
       subcat:
       - vtaa
       - vtai
@@ -51317,7 +51689,9 @@ shaitan:
 shakable:
   a:
     sense:
-    - id: shakable%5:00:00:contestable:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: shakable%5:00:00:contestable:00
       synset: 00593475-s
 shake:
   n:
@@ -51500,7 +51874,9 @@ shake-up:
 shakeable:
   a:
     sense:
-    - id: shakeable%5:00:00:contestable:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      id: shakeable%5:00:00:contestable:00
       synset: 00593475-s
 shakedown:
   a:
@@ -51838,7 +52214,10 @@ shaman:
 shamanise:
   v:
     sense:
-    - id: 'shamanise%2:41:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'shamanise%2:41:00::'
       subcat:
       - via
       synset: 02574799-v
@@ -51877,6 +52256,8 @@ shamanize:
     sense:
     - derivation:
       - 'shaman%1:18:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'shamanize%2:41:00::'
       subcat:
       - via
@@ -56365,7 +56746,9 @@ shivaree:
     pronunciation:
     - value: ʃɪvəˈɹiː
     sense:
-    - id: 'shivaree%1:10:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'shivaree%1:10:00::'
       synset: 07068162-n
 shiver:
   n:
@@ -62198,7 +62581,9 @@ sidewalk:
     pronunciation:
     - value: ˈsaɪdwɔːk
     sense:
-    - id: 'sidewalk%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'sidewalk%1:06:00::'
       synset: 04222469-n
 sidewall:
   n:
@@ -63149,6 +63534,8 @@ signaling:
     sense:
     - derivation:
       - 'signal%2:32:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signaling%1:10:00::'
       synset: 06804229-n
 signaling device:
@@ -63161,21 +63548,33 @@ signalisation:
     sense:
     - derivation:
       - 'signalise%2:32:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'signalisation%1:10:00::'
       synset: 06811194-n
 signalise:
   v:
     sense:
-    - id: 'signalise%2:40:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'signalise%2:40:00::'
       subcat:
       - vtai
       synset: 02301945-v
-    - id: 'signalise%2:32:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'signalise%2:32:01::'
       subcat:
       - via
       - vtaa
       synset: 01041202-v
-    - id: 'signalise%2:32:02::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'signalise%2:32:02::'
       subcat:
       - vtai
       - vtii
@@ -63184,6 +63583,9 @@ signalise:
       - 'signalisation%1:10:00::'
       event:
       - 'signalisation%1:10:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'signalise%2:32:00::'
       subcat:
       - vtai
@@ -63194,6 +63596,8 @@ signalization:
     sense:
     - derivation:
       - 'signalize%2:32:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signalization%1:10:00::'
       synset: 06811194-n
 signalize:
@@ -63203,6 +63607,8 @@ signalize:
     sense:
     - derivation:
       - 'signal%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signalize%2:40:00::'
       subcat:
       - vtai
@@ -63213,6 +63619,8 @@ signalize:
       - 'signal%1:10:00::'
       derivation:
       - 'signal%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signalize%2:32:01::'
       sent:
       - They signalize the information to them
@@ -63224,6 +63632,8 @@ signalize:
       - 'signal%1:10:00::'
       derivation:
       - 'signal%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signalize%2:32:02::'
       subcat:
       - vtai
@@ -63236,6 +63646,8 @@ signalize:
       - 'signal%1:10:00::'
       event:
       - 'signalization%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'signalize%2:32:00::'
       subcat:
       - vtai
@@ -63248,6 +63660,14 @@ signaller:
       - 'signal%2:32:00::'
       id: 'signaller%1:18:00::'
       synset: 10616307-n
+signalling:
+  n:
+    sense:
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'signalling%1:10:01::'
+      synset: 06804229-n
 signally:
   r:
     sense:
@@ -66506,7 +66926,9 @@ singlet:
     pronunciation:
     - value: ˈsɪŋɡlɪt
     sense:
-    - id: 'singlet%1:06:00::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'singlet%1:06:00::'
       synset: 04230374-n
 singletary pea:
   n:
@@ -66646,7 +67068,10 @@ singular proposition:
 singularise:
   v:
     sense:
-    - id: 'singularise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'singularise%2:32:00::'
       subcat:
       - vtaa
       - vtai
@@ -66671,7 +67096,9 @@ singularity:
 singularize:
   v:
     sense:
-    - id: 'singularize%2:32:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'singularize%2:32:00::'
       subcat:
       - vtaa
       - vtai
@@ -68164,9 +68591,13 @@ sizable:
     pronunciation:
     - value: ˈsaɪzəbəl
     sense:
-    - id: sizable%5:00:00:large:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: sizable%5:00:00:large:00
       synset: 01386320-s
-    - id: sizable%5:00:00:considerable:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: sizable%5:00:00:considerable:00
       synset: 00627250-s
 size:
   a:
@@ -68261,10 +68692,14 @@ sizeable:
     sense:
     - derivation:
       - 'sizeableness%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
       id: sizeable%5:00:00:large:00
       synset: 01386320-s
     - derivation:
       - 'sizeableness%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
       id: sizeable%5:00:00:considerable:00
       synset: 00627250-s
 sizeableness:
@@ -68619,6 +69054,8 @@ skeptic:
     - derivation:
       - skeptical%5:00:00:incredulous:00
       - skeptical%5:00:00:distrustful:00
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'skeptic%1:18:00::'
       synset: 10624042-n
 skeptical:
@@ -68630,12 +69067,16 @@ skeptical:
       - 'skeptic%1:18:00::'
       - 'skepticism%1:09:01::'
       - 'skepticism%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: skeptical%5:00:00:incredulous:00
       synset: 00650269-s
     - derivation:
       - 'skeptic%1:18:00::'
       - 'skepticism%1:09:01::'
       - 'skepticism%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: skeptical%5:00:00:distrustful:00
       synset: 02473075-s
 skeptically:
@@ -68652,11 +69093,15 @@ skepticism:
     - derivation:
       - skeptical%5:00:00:incredulous:00
       - skeptical%5:00:00:distrustful:00
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'skepticism%1:09:00::'
       synset: 05706947-n
     - derivation:
       - skeptical%5:00:00:incredulous:00
       - skeptical%5:00:00:distrustful:00
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'skepticism%1:09:01::'
       synset: 05988918-n
 sketch:
@@ -69591,12 +70036,18 @@ skin cell:
 skin color:
   n:
     sense:
-    - id: 'skin_color%1:07:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'skin_color%1:07:00::'
       synset: 04984219-n
 skin colour:
   n:
     sense:
-    - id: 'skin_colour%1:07:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'skin_colour%1:07:00::'
       synset: 04984219-n
 skin disease:
   n:
@@ -72187,6 +72638,8 @@ sled:
       - 'sledder%1:18:00::'
       - 'sledding%1:04:00::'
       - 'sled%1:06:00::'
+      exemplifies:
+      - 'american_english%1:10:00::'
       id: 'sled%2:38:00::'
       subcat:
       - via
@@ -72823,6 +73276,8 @@ sleigh:
     sense:
     - derivation:
       - 'sleigh%1:06:00::'
+      exemplifies:
+      - 'british_english%1:10:01::'
       id: 'sleigh%2:38:00::'
       subcat:
       - via
@@ -72943,14 +73398,19 @@ slender-winged:
 slenderise:
   v:
     sense:
-    - id: 'slenderise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'slenderise%2:30:00::'
       subcat:
       - vtai
       synset: 00326971-v
 slenderize:
   v:
     sense:
-    - id: 'slenderize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'slenderize%2:30:00::'
       subcat:
       - vtai
       synset: 00326971-v
@@ -76423,14 +76883,19 @@ small-cap:
 small-capitalisation:
   a:
     sense:
-    - id: 'small-capitalisation%3:01:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'small-capitalisation%3:01:00::'
       pertainym:
       - 'market_capitalisation%1:04:00::'
       synset: 03130628-a
 small-capitalization:
   a:
     sense:
-    - id: 'small-capitalization%3:01:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'small-capitalization%3:01:00::'
       pertainym:
       - 'market_capitalization%1:04:00::'
       synset: 03130628-a
@@ -80125,6 +80590,8 @@ snicker:
     sense:
     - derivation:
       - 'snicker%2:29:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'snicker%1:10:00::'
       synset: 07142768-n
   v:
@@ -80133,6 +80600,8 @@ snicker:
       - 'snicker%1:10:00::'
       event:
       - 'snicker%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'snicker%2:29:00::'
       subcat:
       - via
@@ -80273,6 +80742,9 @@ snigger:
     sense:
     - derivation:
       - 'snigger%2:29:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'snigger%1:10:00::'
       synset: 07142768-n
   v:
@@ -80283,6 +80755,9 @@ snigger:
       - 'snigger%1:10:00::'
       event:
       - 'snigger%1:10:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'snigger%2:29:00::'
       subcat:
       - via
@@ -81668,12 +82143,18 @@ snuff-brown:
 snuff-color:
   n:
     sense:
-    - id: 'snuff-color%1:07:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'snuff-color%1:07:00::'
       synset: 04981948-n
 snuff-colour:
   n:
     sense:
-    - id: 'snuff-colour%1:07:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'snuff-colour%1:07:00::'
       synset: 04981948-n
 snuffbox:
   n:
@@ -82226,7 +82707,9 @@ soapbox:
     sense:
     - id: 'soapbox%1:06:01::'
       synset: 04261041-n
-    - id: 'soapbox%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'soapbox%1:06:00::'
       synset: 03164306-n
 soapfish:
   n:
@@ -82852,12 +83335,17 @@ social occasion:
 social organisation:
   n:
     sense:
-    - id: 'social_organisation%1:14:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'social_organisation%1:14:00::'
       synset: 08395550-n
 social organization:
   n:
     sense:
-    - id: 'social_organization%1:14:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'social_organization%1:14:00::'
       synset: 08395550-n
 social phobia:
   n:
@@ -82973,15 +83461,24 @@ socialisation:
     sense:
     - derivation:
       - 'socialise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialisation%1:04:02::'
       synset: 01269238-n
     - derivation:
       - 'socialise%2:41:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialisation%1:04:01::'
       synset: 01234977-n
     - derivation:
       - 'socialise%2:41:00::'
       - 'socialise%2:30:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialisation%1:04:00::'
       synset: 01131305-n
 socialise:
@@ -82995,6 +83492,9 @@ socialise:
       - 'socialising%1:04:00::'
       event:
       - 'socialisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialise%2:41:01::'
       subcat:
       - via
@@ -83004,6 +83504,9 @@ socialise:
       - 'socialisation%1:04:00::'
       event:
       - 'socialisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialise%2:41:00::'
       subcat:
       - vtaa
@@ -83012,6 +83515,9 @@ socialise:
       - 'socialisation%1:04:00::'
       event:
       - 'socialisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialise%2:30:01::'
       subcat:
       - vtaa
@@ -83021,6 +83527,9 @@ socialise:
       - 'socialisation%1:04:02::'
       event:
       - 'socialisation%1:04:02::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialise%2:30:00::'
       subcat:
       - vtai
@@ -83042,6 +83551,9 @@ socialising:
     sense:
     - derivation:
       - 'socialise%2:41:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'socialising%1:04:00::'
       synset: 01234977-n
 socialism:
@@ -83127,15 +83639,21 @@ socialization:
     sense:
     - derivation:
       - 'socialize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialization%1:04:02::'
       synset: 01269238-n
     - derivation:
       - 'socialize%2:41:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialization%1:04:01::'
       synset: 01234977-n
     - derivation:
       - 'socialize%2:41:00::'
       - 'socialize%2:30:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialization%1:04:00::'
       synset: 01131305-n
 socialize:
@@ -83149,6 +83667,8 @@ socialize:
       - 'socializing%1:04:00::'
       event:
       - 'socialization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialize%2:41:01::'
       subcat:
       - via
@@ -83158,6 +83678,8 @@ socialize:
       - 'socialization%1:04:00::'
       event:
       - 'socialization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialize%2:41:00::'
       subcat:
       - vtaa
@@ -83166,6 +83688,8 @@ socialize:
       - 'socialization%1:04:00::'
       event:
       - 'socialization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialize%2:30:01::'
       subcat:
       - vtaa
@@ -83175,6 +83699,8 @@ socialize:
       - 'socialization%1:04:02::'
       event:
       - 'socialization%1:04:02::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socialize%2:30:00::'
       subcat:
       - vtai
@@ -83196,6 +83722,8 @@ socializing:
     sense:
     - derivation:
       - 'socialize%2:41:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'socializing%1:04:00::'
       synset: 01234977-n
 socially:
@@ -83835,12 +84363,18 @@ sodomise:
     pronunciation:
     - value: ˈsɒdəmaɪz
     sense:
-    - id: 'sodomise%2:41:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sodomise%2:41:01::'
       subcat:
       - vtai
       synset: 02574487-v
     - derivation:
       - 'sodomy%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sodomise%2:41:00::'
       subcat:
       - vtaa
@@ -83860,12 +84394,16 @@ sodomite:
 sodomize:
   v:
     sense:
-    - id: 'sodomize%2:41:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sodomize%2:41:01::'
       subcat:
       - vtai
       synset: 02574487-v
     - derivation:
       - 'sodomy%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sodomize%2:41:00::'
       subcat:
       - vtaa
@@ -84579,12 +85117,17 @@ software error:
 software optimisation:
   n:
     sense:
-    - id: 'software_optimisation%1:04:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'software_optimisation%1:04:01::'
       synset: 92443352-n
 software optimization:
   n:
     sense:
-    - id: 'software_optimization%1:04:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'software_optimization%1:04:01::'
       synset: 92443352-n
 software package:
   n:
@@ -85131,20 +85674,32 @@ solarisation:
     sense:
     - derivation:
       - 'solarise%2:39:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'solarisation%1:07:00::'
       synset: 05051538-n
 solarise:
   v:
     sense:
-    - id: 'solarise%2:39:03::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'solarise%2:39:03::'
       subcat:
       - vtii
       synset: 02118916-v
-    - id: 'solarise%2:39:02::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'solarise%2:39:02::'
       subcat:
       - vii
       synset: 02118539-v
-    - id: 'solarise%2:39:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'solarise%2:39:01::'
       subcat:
       - vtai
       synset: 02118333-v
@@ -85152,6 +85707,9 @@ solarise:
       - 'solarisation%1:07:00::'
       event:
       - 'solarisation%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'solarise%2:39:00::'
       subcat:
       - vtai
@@ -85175,20 +85733,28 @@ solarization:
     sense:
     - derivation:
       - 'solarize%2:39:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solarization%1:07:00::'
       synset: 05051538-n
 solarize:
   v:
     sense:
-    - id: 'solarize%2:39:03::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'solarize%2:39:03::'
       subcat:
       - vtii
       synset: 02118916-v
-    - id: 'solarize%2:39:02::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'solarize%2:39:02::'
       subcat:
       - vii
       synset: 02118539-v
-    - id: 'solarize%2:39:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'solarize%2:39:01::'
       subcat:
       - vtai
       synset: 02118333-v
@@ -85196,6 +85762,8 @@ solarize:
       - 'solarization%1:07:00::'
       event:
       - 'solarization%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solarize%2:39:00::'
       subcat:
       - vtai
@@ -85475,6 +86043,9 @@ solemnisation:
     - derivation:
       - 'solemnise%2:41:01::'
       - 'solemnise%2:41:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'solemnisation%1:04:00::'
       synset: 00517142-n
 solemnise:
@@ -85484,6 +86055,9 @@ solemnise:
       - 'solemnisation%1:04:00::'
       event:
       - 'solemnisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'solemnise%2:41:00::'
       subcat:
       - vtai
@@ -85492,11 +86066,17 @@ solemnise:
       - 'solemnisation%1:04:00::'
       event:
       - 'solemnisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'solemnise%2:41:01::'
       subcat:
       - vtai
       synset: 02495397-v
-    - id: 'solemnise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'solemnise%2:30:00::'
       subcat:
       - vtia
       - vtii
@@ -85522,6 +86102,8 @@ solemnization:
     - derivation:
       - 'solemnize%2:41:01::'
       - 'solemnize%2:41:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solemnization%1:04:00::'
       synset: 00517142-n
 solemnize:
@@ -85531,6 +86113,8 @@ solemnize:
       - 'solemnization%1:04:00::'
       event:
       - 'solemnization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solemnize%2:41:00::'
       subcat:
       - vtai
@@ -85539,11 +86123,15 @@ solemnize:
       - 'solemnization%1:04:00::'
       event:
       - 'solemnization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solemnize%2:41:01::'
       subcat:
       - vtai
       synset: 02495397-v
-    - id: 'solemnize%2:30:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'solemnize%2:30:00::'
       subcat:
       - vtia
       - vtii
@@ -86053,7 +86641,10 @@ solidus:
 soliloquise:
   v:
     sense:
-    - id: 'soliloquise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'soliloquise%2:32:00::'
       subcat:
       - via
       synset: 00966510-v
@@ -86063,6 +86654,8 @@ soliloquize:
     - derivation:
       - 'soliloquy%1:10:01::'
       - 'soliloquy%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'soliloquize%2:32:00::'
       subcat:
       - via
@@ -86100,7 +86693,9 @@ solitaire:
       synset: 01814183-n
     - id: 'solitaire%1:05:01::'
       synset: 01563822-n
-    - id: 'solitaire%1:04:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'solitaire%1:04:00::'
       synset: 00496535-n
 solitarily:
   r:
@@ -86210,7 +86805,10 @@ solleret:
 solmisation:
   n:
     sense:
-    - id: 'solmisation%1:10:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'solmisation%1:10:00::'
       synset: 06880725-n
 solmizate:
   v:
@@ -86243,6 +86841,8 @@ solmization:
     - derivation:
       - 'solmizate%2:36:01::'
       - 'solmizate%2:36:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'solmization%1:10:00::'
       synset: 06880725-n
     - derivation:
@@ -86737,11 +87337,15 @@ somber:
     sense:
     - derivation:
       - 'somberness%1:26:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: somber%5:00:00:colorless:02
       synset: 00406256-s
     - derivation:
       - 'somberness%1:12:00::'
       - 'somberness%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: somber%5:00:00:depressing:00
       synset: 00366341-s
 somberly:
@@ -86776,11 +87380,19 @@ sombre:
     sense:
     - derivation:
       - 'sombreness%1:26:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: sombre%5:00:00:colorless:02
       synset: 00406256-s
     - derivation:
       - 'sombreness%1:12:00::'
       - 'sombreness%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: sombre%5:00:00:depressing:00
       synset: 00366341-s
 sombrely:
@@ -88014,6 +88626,9 @@ sorcerise:
     sense:
     - derivation:
       - 'sorcery%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sorcerise%2:30:00::'
       subcat:
       - vtaa
@@ -88024,6 +88639,8 @@ sorcerize:
     sense:
     - derivation:
       - 'sorcery%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sorcerize%2:30:00::'
       subcat:
       - vtaa
@@ -90389,12 +91006,16 @@ southward:
     - value: ˈsaʊθwəd
       variety: GB
     sense:
-    - id: 'southward%4:02:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'southward%4:02:00::'
       synset: 00465252-r
 southwards:
   r:
     sense:
-    - id: 'southwards%4:02:00::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'southwards%4:02:00::'
       synset: 00465252-r
 southwest:
   a:
@@ -90564,11 +91185,17 @@ soviet:
 sovietise:
   v:
     sense:
-    - id: 'sovietise%2:41:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sovietise%2:41:00::'
       subcat:
       - vtai
       synset: 02438966-v
-    - id: 'sovietise%2:36:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sovietise%2:36:00::'
       subcat:
       - vtai
       synset: 01748147-v
@@ -90580,11 +91207,15 @@ sovietism:
 sovietize:
   v:
     sense:
-    - id: 'sovietize%2:41:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sovietize%2:41:00::'
       subcat:
       - vtai
       synset: 02438966-v
-    - id: 'sovietize%2:36:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sovietize%2:36:00::'
       subcat:
       - vtai
       synset: 01748147-v
@@ -92975,14 +93606,23 @@ specialisation:
     sense:
     - derivation:
       - 'specialise%2:30:07::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialisation%1:22:00::'
       synset: 13580985-n
     - derivation:
       - 'specialise%2:30:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialisation%1:04:01::'
       synset: 00584784-n
     - derivation:
       - 'specialise%2:41:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialisation%1:04:00::'
       synset: 00584498-n
 specialise:
@@ -92997,11 +93637,17 @@ specialise:
       - 'specialiser%1:18:00::'
       event:
       - 'specialisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialise%2:41:00::'
       subcat:
       - via-pp
       synset: 02451029-v
-    - id: 'specialise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'specialise%2:32:00::'
       subcat:
       - via-that
       - vtai
@@ -93011,12 +93657,18 @@ specialise:
       - 'specialisation%1:04:01::'
       event:
       - 'specialisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialise%2:30:01::'
       subcat:
       - vtai
       synset: 00438687-v
     - antonym:
       - 'diversify%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialise%2:30:00::'
       subcat:
       - via
@@ -93028,6 +93680,9 @@ specialise:
       - 'specialisation%1:22:00::'
       event:
       - 'specialisation%1:22:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'specialise%2:30:07::'
       subcat:
       - via
@@ -93107,11 +93762,20 @@ speciality:
     - derivation:
       - special%5:00:00:specific:00
       - special%5:00:00:primary:00
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'speciality%1:07:02::'
       synset: 05166608-n
-    - id: 'speciality%1:07:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'speciality%1:07:01::'
       synset: 04771180-n
-    - id: 'speciality%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'speciality%1:04:00::'
       synset: 00584498-n
 specialization:
   n:
@@ -93120,14 +93784,20 @@ specialization:
     sense:
     - derivation:
       - 'specialize%2:30:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialization%1:04:01::'
       synset: 00584784-n
     - derivation:
       - 'specialize%2:41:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialization%1:04:00::'
       synset: 00584498-n
     - derivation:
       - 'specialize%2:30:07::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialization%1:22:00::'
       synset: 13580985-n
 specialize:
@@ -93137,6 +93807,8 @@ specialize:
     sense:
     - antonym:
       - 'diversify%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialize%2:30:00::'
       subcat:
       - via
@@ -93144,7 +93816,9 @@ specialize:
       - vii
       - vii-pp
       synset: 00438402-v
-    - id: 'specialize%2:32:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specialize%2:32:00::'
       subcat:
       - via-that
       - vtai
@@ -93154,6 +93828,8 @@ specialize:
       - 'specialization%1:04:01::'
       event:
       - 'specialization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialize%2:30:01::'
       subcat:
       - vtai
@@ -93167,6 +93843,8 @@ specialize:
       - 'specializer%1:18:00::'
       event:
       - 'specialization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialize%2:41:00::'
       subcat:
       - via-pp
@@ -93175,6 +93853,8 @@ specialize:
       - 'specialization%1:22:00::'
       event:
       - 'specialization%1:22:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'specialize%2:30:07::'
       subcat:
       - via
@@ -93227,11 +93907,17 @@ specialty:
     - value: ˈspɛʃəlti
       variety: US
     sense:
-    - id: 'specialty%1:07:02::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specialty%1:07:02::'
       synset: 05166608-n
-    - id: 'specialty%1:07:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specialty%1:07:01::'
       synset: 04771180-n
-    - id: 'specialty%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specialty%1:04:00::'
       synset: 00584498-n
 specialty store:
   n:
@@ -93698,9 +94384,13 @@ specter:
     - value: ˈspɛktə
       variety: GB
     sense:
-    - id: 'specter%1:09:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specter%1:09:00::'
       synset: 05906778-n
-    - id: 'specter%1:18:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'specter%1:18:00::'
       synset: 09570240-n
 spectinomycin:
   n:
@@ -93724,12 +94414,18 @@ spectral:
 spectral color:
   n:
     sense:
-    - id: 'spectral_color%1:07:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'spectral_color%1:07:00::'
       synset: 04966849-n
 spectral colour:
   n:
     sense:
-    - id: 'spectral_colour%1:07:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'spectral_colour%1:07:00::'
       synset: 04966849-n
 spectrality:
   n:
@@ -93739,9 +94435,17 @@ spectrality:
 spectre:
   n:
     sense:
-    - id: 'spectre%1:18:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'spectre%1:18:00::'
       synset: 09570240-n
-    - id: 'spectre%1:09:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'spectre%1:09:00::'
       synset: 05906778-n
 spectrogram:
   n:
@@ -97071,7 +97775,17 @@ spiral-shelled:
 spiraling:
   a:
     sense:
-    - id: spiraling%5:00:00:coiled:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: spiraling%5:00:00:coiled:00
+      synset: 02325276-s
+spiralling:
+  s:
+    sense:
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: spiralling%5:00:01:coiled:00
       synset: 02325276-s
 spirally:
   r:
@@ -97306,7 +98020,10 @@ spiritedness:
 spiritise:
   v:
     sense:
-    - id: 'spiritise%2:35:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'spiritise%2:35:00::'
       subcat:
       - vtia
       - vtii
@@ -97324,6 +98041,8 @@ spiritize:
       - 'spirit%1:18:01::'
       - 'spirit%1:07:02::'
       - 'spirit%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'spiritize%2:35:00::'
       subcat:
       - vtia
@@ -97444,6 +98163,9 @@ spiritualisation:
     - derivation:
       - 'spiritualise%2:31:00::'
       - 'spiritualise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'spiritualisation%1:04:00::'
       synset: 00584970-n
 spiritualise:
@@ -97453,6 +98175,9 @@ spiritualise:
       - 'spiritualisation%1:04:00::'
       event:
       - 'spiritualisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'spiritualise%2:31:00::'
       subcat:
       - vtai
@@ -97461,6 +98186,9 @@ spiritualise:
       - 'spiritualisation%1:04:00::'
       event:
       - 'spiritualisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'spiritualise%2:30:00::'
       subcat:
       - vtai
@@ -97524,6 +98252,8 @@ spiritualization:
     - derivation:
       - 'spiritualize%2:31:00::'
       - 'spiritualize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'spiritualization%1:04:00::'
       synset: 00584970-n
 spiritualize:
@@ -97535,6 +98265,8 @@ spiritualize:
       - 'spiritualization%1:04:00::'
       event:
       - 'spiritualization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'spiritualize%2:31:00::'
       subcat:
       - vtai
@@ -97547,6 +98279,8 @@ spiritualize:
       - 'spiritualization%1:04:00::'
       event:
       - 'spiritualization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'spiritualize%2:30:00::'
       subcat:
       - vtai
@@ -98294,16 +99028,28 @@ splendor:
     - value: ˈsplɛndɚ
       variety: US
     sense:
-    - id: 'splendor%1:07:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'splendor%1:07:00::'
       synset: 04962097-n
-    - id: 'splendor%1:07:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'splendor%1:07:01::'
       synset: 04821469-n
 splendour:
   n:
     sense:
-    - id: 'splendour%1:07:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'splendour%1:07:00::'
       synset: 04962097-n
-    - id: 'splendour%1:07:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'splendour%1:07:01::'
       synset: 04821469-n
 splenectomy:
   n:
@@ -99090,9 +99836,13 @@ spoiled:
     pronunciation:
     - value: spɔɪld
     sense:
-    - id: spoiled%5:00:00:ill-natured:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: spoiled%5:00:00:ill-natured:00
       synset: 01142402-s
-    - id: spoiled%5:00:00:stale:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: spoiled%5:00:00:stale:00
       synset: 01073039-s
 spoiler:
   n:
@@ -99147,9 +99897,15 @@ spoilt:
     pronunciation:
     - value: spɔɪlt
     sense:
-    - id: spoilt%5:00:00:ill-natured:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: spoilt%5:00:00:ill-natured:00
       synset: 01142402-s
-    - id: spoilt%5:00:00:stale:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: spoilt%5:00:00:stale:00
       synset: 01073039-s
     - id: spoilt%5:00:00:destroyed:00
       synset: 00738450-s
@@ -99233,14 +99989,19 @@ spondaic:
 spondaise:
   v:
     sense:
-    - id: 'spondaise%2:36:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'spondaise%2:36:00::'
       subcat:
       - vtai
       synset: 01707054-v
 spondaize:
   v:
     sense:
-    - id: 'spondaize%2:36:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'spondaize%2:36:00::'
       subcat:
       - vtai
       synset: 01707054-v
@@ -103326,12 +104087,18 @@ square capitals:
 square centimeter:
   n:
     sense:
-    - id: 'square_centimeter%1:23:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'square_centimeter%1:23:01::'
       synset: 92412942-n
 square centimetre:
   n:
     sense:
-    - id: 'square_centimetre%1:23:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'square_centimetre%1:23:01::'
       synset: 92412942-n
 square dance:
   n:
@@ -103390,12 +104157,18 @@ square inch:
 square kilometer:
   n:
     sense:
-    - id: 'square_kilometer%1:23:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'square_kilometer%1:23:01::'
       synset: 92406068-n
 square kilometre:
   n:
     sense:
-    - id: 'square_kilometre%1:23:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'square_kilometre%1:23:01::'
       synset: 92406068-n
 square knot:
   n:
@@ -103420,7 +104193,9 @@ square measure:
 square meter:
   n:
     sense:
-    - id: 'square_meter%1:23:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'square_meter%1:23:00::'
       synset: 13634537-n
 square metre:
   n:
@@ -103428,6 +104203,10 @@ square metre:
     - domain_region:
       - 'canada%1:15:00::'
       - 'britain%1:15:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'square_metre%1:23:00::'
       synset: 13634537-n
 square mile:
@@ -103438,12 +104217,18 @@ square mile:
 square millimeter:
   n:
     sense:
-    - id: 'square_millimeter%1:23:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'square_millimeter%1:23:01::'
       synset: 92467769-n
 square millimetre:
   n:
     sense:
-    - id: 'square_millimetre%1:23:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'square_millimetre%1:23:01::'
       synset: 92467769-n
 square nut:
   n:
@@ -104932,19 +105717,28 @@ stabile:
 stabilisation:
   n:
     sense:
-    - id: 'stabilisation%1:04:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'stabilisation%1:04:01::'
       synset: 01269438-n
     - antonym:
       - 'destabilisation%1:04:00::'
       derivation:
       - 'stabilise%2:30:01::'
       - 'stabilise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stabilisation%1:04:00::'
       synset: 01161512-n
 stabilise:
   v:
     sense:
-    - id: 'stabilise%2:35:02::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'stabilise%2:35:02::'
       subcat:
       - vtaa
       - vtai
@@ -104954,6 +105748,9 @@ stabilise:
       - 'stabilisation%1:04:00::'
       event:
       - 'stabilisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stabilise%2:30:00::'
       subcat:
       - via
@@ -104966,6 +105763,9 @@ stabilise:
       - 'stabiliser%1:06:00::'
       event:
       - 'stabilisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'stabiliser%1:06:00::'
       id: 'stabilise%2:30:01::'
@@ -104988,7 +105788,10 @@ stabiliser:
 stabilising:
   a:
     sense:
-    - id: stabilising%5:00:00:helpful:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: stabilising%5:00:00:helpful:00
       synset: 01201280-s
 stabilitron:
   n:
@@ -105022,10 +105825,14 @@ stabilization:
       - 'destabilization%1:04:00::'
       derivation:
       - 'stabilize%2:30:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stabilization%1:04:00::'
       synset: 01161512-n
     - derivation:
       - 'stabilize%2:35:02::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stabilization%1:04:01::'
       synset: 01269438-n
 stabilization pond:
@@ -105047,6 +105854,8 @@ stabilize:
       - 'stabilizer%1:06:00::'
       event:
       - 'stabilization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'stabilizer%1:06:00::'
       id: 'stabilize%2:30:01::'
@@ -105060,6 +105869,8 @@ stabilize:
       - 'stabilization%1:04:01::'
       event:
       - 'stabilization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stabilize%2:35:02::'
       subcat:
       - vtaa
@@ -105069,6 +105880,8 @@ stabilize:
     - antonym:
       - 'destabilize%2:30:01::'
       - 'destabilise%2:30:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stabilize%2:30:00::'
       subcat:
       - via
@@ -105102,7 +105915,9 @@ stabilizer bar:
 stabilizing:
   a:
     sense:
-    - id: stabilizing%5:00:00:helpful:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: stabilizing%5:00:00:helpful:00
       synset: 01201280-s
 stable:
   a:
@@ -106441,6 +107256,9 @@ stalinise:
       - 'stalinisation%1:22:00::'
       event:
       - 'stalinisation%1:22:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stalinise%2:30:00::'
       subcat:
       - vtai
@@ -106454,6 +107272,8 @@ stalinize:
       - 'stalinization%1:22:00::'
       event:
       - 'stalinization%1:22:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stalinize%2:30:00::'
       subcat:
       - vtai
@@ -107692,14 +108512,23 @@ standard-bearer:
 standardisation:
   n:
     sense:
-    - id: 'standardisation%1:26:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'standardisation%1:26:00::'
       synset: 13961473-n
     - derivation:
       - 'standardise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'standardisation%1:04:01::'
       synset: 01161177-n
     - derivation:
       - 'standardise%2:31:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'standardisation%1:04:00::'
       synset: 01001187-n
 standardise:
@@ -107709,6 +108538,9 @@ standardise:
       - 'standardisation%1:04:00::'
       event:
       - 'standardisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'standardise%2:31:00::'
       subcat:
       - vtai
@@ -107724,6 +108556,9 @@ standardise:
       - 'standard%1:09:00::'
       event:
       - 'standardisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'standardise%2:30:00::'
       subcat:
       - vtai
@@ -107745,14 +108580,20 @@ standardiser:
 standardization:
   n:
     sense:
-    - id: 'standardization%1:26:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'standardization%1:26:00::'
       synset: 13961473-n
     - derivation:
       - 'standardize%2:31:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'standardization%1:04:01::'
       synset: 01161177-n
     - derivation:
       - 'standardize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'standardization%1:04:00::'
       synset: 01001187-n
 standardize:
@@ -107771,6 +108612,8 @@ standardize:
       - 'standard%1:09:00::'
       event:
       - 'standardization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'standardize%2:30:00::'
       subcat:
       - vtai
@@ -107779,6 +108622,8 @@ standardize:
       - 'standardization%1:04:01::'
       event:
       - 'standardization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'standardize%2:31:00::'
       subcat:
       - vtai
@@ -108150,12 +108995,18 @@ staple:
 staple fiber:
   n:
     sense:
-    - id: 'staple_fiber%1:27:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'staple_fiber%1:27:00::'
       synset: 15043255-n
 staple fibre:
   n:
     sense:
-    - id: 'staple_fibre%1:27:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'staple_fibre%1:27:00::'
       synset: 15043255-n
 staple gun:
   n:
@@ -110271,12 +111122,18 @@ statutory law:
 statutory offence:
   n:
     sense:
-    - id: 'statutory_offence%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'statutory_offence%1:04:00::'
       synset: 00776293-n
 statutory offense:
   n:
     sense:
-    - id: 'statutory_offense%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'statutory_offense%1:04:00::'
       synset: 00776293-n
 statutory rape:
   n:
@@ -112947,10 +113804,16 @@ sterilisation:
     sense:
     - derivation:
       - 'sterilise%2:29:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sterilisation%1:04:00::'
       synset: 00693383-n
     - derivation:
       - 'sterilise%2:29:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sterilisation%1:04:01::'
       synset: 00254786-n
 sterilise:
@@ -112961,6 +113824,9 @@ sterilise:
       - 'steriliser%1:06:00::'
       event:
       - 'sterilisation%1:04:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'steriliser%1:06:00::'
       id: 'sterilise%2:29:01::'
@@ -112971,6 +113837,9 @@ sterilise:
       - 'sterilisation%1:04:00::'
       event:
       - 'sterilisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sterilise%2:29:00::'
       subcat:
       - vtaa
@@ -113003,10 +113872,14 @@ sterilization:
     sense:
     - derivation:
       - 'sterilize%2:29:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sterilization%1:04:00::'
       synset: 00693383-n
     - derivation:
       - 'sterilize%2:29:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sterilization%1:04:01::'
       synset: 00254786-n
 sterilize:
@@ -113017,6 +113890,8 @@ sterilize:
       - 'sterilizer%1:06:00::'
       event:
       - 'sterilization%1:04:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'sterilizer%1:06:00::'
       id: 'sterilize%2:29:01::'
@@ -113027,6 +113902,8 @@ sterilize:
       - 'sterilization%1:04:00::'
       event:
       - 'sterilization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sterilize%2:29:00::'
       subcat:
       - vtaa
@@ -114244,6 +115121,9 @@ stigmatisation:
     - derivation:
       - 'stigmatise%2:41:00::'
       - 'stigmatise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stigmatisation%1:04:00::'
       synset: 01225977-n
 stigmatise:
@@ -114253,6 +115133,9 @@ stigmatise:
       - 'stigmatisation%1:04:00::'
       event:
       - 'stigmatisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stigmatise%2:41:00::'
       subcat:
       - vtaa
@@ -114262,6 +115145,9 @@ stigmatise:
       - 'stigmatisation%1:04:00::'
       event:
       - 'stigmatisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stigmatise%2:30:00::'
       subcat:
       - vtaa
@@ -114300,6 +115186,8 @@ stigmatization:
     - derivation:
       - 'stigmatize%2:41:00::'
       - 'stigmatize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stigmatization%1:04:00::'
       synset: 01225977-n
 stigmatize:
@@ -114312,6 +115200,8 @@ stigmatize:
       - 'stigma%1:10:00::'
       event:
       - 'stigmatization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stigmatize%2:41:00::'
       subcat:
       - vtaa
@@ -114321,6 +115211,8 @@ stigmatize:
       - 'stigmatization%1:04:00::'
       event:
       - 'stigmatization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stigmatize%2:30:00::'
       subcat:
       - vtaa
@@ -114750,12 +115642,17 @@ stimulus:
 stimulus generalisation:
   n:
     sense:
-    - id: 'stimulus_generalisation%1:09:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'stimulus_generalisation%1:09:00::'
       synset: 05764411-n
 stimulus generalization:
   n:
     sense:
-    - id: 'stimulus_generalization%1:09:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'stimulus_generalization%1:09:00::'
       synset: 05764411-n
 sting:
   n:
@@ -118022,7 +118919,10 @@ storey:
     - value: ˈstɔːɹɪ
       variety: GB
     sense:
-    - id: 'storey%1:06:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'storey%1:06:00::'
       synset: 03370837-n
 storeyed:
   a:
@@ -118129,9 +119029,13 @@ storm cellar:
 storm center:
   n:
     sense:
-    - id: 'storm_center%1:26:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'storm_center%1:26:00::'
       synset: 14002048-n
-    - id: 'storm_center%1:15:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'storm_center%1:15:00::'
       synset: 08542097-n
 storm centre:
   n:
@@ -118139,11 +119043,19 @@ storm centre:
     - domain_region:
       - 'canada%1:15:00::'
       - 'britain%1:15:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'storm_centre%1:26:00::'
       synset: 14002048-n
     - domain_region:
       - 'canada%1:15:00::'
       - 'britain%1:15:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'storm_centre%1:15:00::'
       synset: 08542097-n
 storm cloud:
@@ -118282,7 +119194,9 @@ story:
       synset: 07235754-n
     - id: 'story%1:10:00::'
       synset: 06381452-n
-    - id: 'story%1:06:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'story%1:06:00::'
       synset: 03370837-n
     - id: 'story%1:10:04::'
       synset: 06526084-n
@@ -120673,7 +121587,9 @@ street-walk:
 streetcar:
   n:
     sense:
-    - id: 'streetcar%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'streetcar%1:06:00::'
       synset: 04342573-n
 streetcar track:
   n:
@@ -123056,7 +123972,9 @@ stroller:
       - 'stroll%2:38:00::'
       id: 'stroller%1:18:00::'
       synset: 10572663-n
-    - id: 'stroller%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'stroller%1:06:00::'
       synset: 02769539-n
 stroma:
   n:
@@ -125148,6 +126066,9 @@ stylisation:
     sense:
     - derivation:
       - 'stylise%2:36:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stylisation%1:04:00::'
       synset: 01162263-n
 stylise:
@@ -125157,6 +126078,9 @@ stylise:
       - 'stylisation%1:04:00::'
       event:
       - 'stylisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'stylise%2:36:00::'
       subcat:
       - vtai
@@ -125246,6 +126170,8 @@ stylization:
     sense:
     - derivation:
       - 'stylize%2:36:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stylization%1:04:00::'
       synset: 01162263-n
 stylize:
@@ -125262,6 +126188,8 @@ stylize:
       - 'style%1:07:00::'
       event:
       - 'stylization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'stylize%2:36:00::'
       subcat:
       - vtai
@@ -128838,11 +129766,17 @@ subsidisation:
     - derivation:
       - 'subsidise%2:40:01::'
       - 'subsidise%2:40:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'subsidisation%1:21:00::'
       synset: 13406756-n
     - derivation:
       - 'subsidise%2:40:01::'
       - 'subsidise%2:40:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'subsidisation%1:04:00::'
       synset: 00088243-n
 subsidise:
@@ -128855,6 +129789,9 @@ subsidise:
       - 'subsidisation%1:04:00::'
       event:
       - 'subsidisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'subsidise%2:40:01::'
       subcat:
       - vtaa
@@ -128873,6 +129810,9 @@ subsidise:
       - 'subsidy%1:21:00::'
       event:
       - 'subsidisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'subsidise%2:40:00::'
       subcat:
       - vtaa
@@ -128896,11 +129836,15 @@ subsidization:
     - derivation:
       - 'subsidize%2:40:01::'
       - 'subsidize%2:40:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'subsidization%1:21:00::'
       synset: 13406756-n
     - derivation:
       - 'subsidize%2:40:01::'
       - 'subsidize%2:40:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'subsidization%1:04:00::'
       synset: 00088243-n
 subsidize:
@@ -128919,6 +129863,8 @@ subsidize:
       - 'subsidy%1:21:00::'
       event:
       - 'subsidization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'subsidize%2:40:00::'
       subcat:
       - vtaa
@@ -128931,6 +129877,8 @@ subsidize:
       - 'subsidization%1:04:00::'
       event:
       - 'subsidization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'subsidize%2:40:01::'
       subcat:
       - vtaa
@@ -129526,7 +130474,10 @@ subtilin:
 subtilise:
   v:
     sense:
-    - id: 'subtilise%2:30:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'subtilise%2:30:01::'
       subcat:
       - vtai
       synset: 00393460-v
@@ -129541,7 +130492,9 @@ subtilize:
       subcat:
       - vtai
       synset: 00553215-v
-    - id: 'subtilize%2:30:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'subtilize%2:30:01::'
       subcat:
       - vtai
       synset: 00393460-v
@@ -129756,11 +130709,17 @@ suburban area:
 suburbanise:
   v:
     sense:
-    - id: 'suburbanise%2:30:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'suburbanise%2:30:01::'
       subcat:
       - vii
       synset: 00122826-v
-    - id: 'suburbanise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'suburbanise%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -129780,12 +130739,16 @@ suburbanize:
     sense:
     - derivation:
       - 'suburban%3:01:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'suburbanize%2:30:01::'
       subcat:
       - vii
       synset: 00122826-v
     - derivation:
       - 'suburban%3:01:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'suburbanize%2:30:00::'
       subcat:
       - vtai
@@ -129942,7 +130905,10 @@ subverter:
 subvocalise:
   v:
     sense:
-    - id: 'subvocalise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'subvocalise%2:32:00::'
       subcat:
       - via
       - vtai
@@ -129959,6 +130925,8 @@ subvocalize:
       - 'subvocalizer%1:18:00::'
       derivation:
       - 'subvocalizer%1:18:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'subvocalize%2:32:00::'
       subcat:
       - via
@@ -130246,6 +131214,8 @@ succor:
     sense:
     - derivation:
       - 'succor%2:41:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'succor%1:04:00::'
       synset: 01211710-n
   v:
@@ -130258,6 +131228,8 @@ succor:
       - 'succor%1:04:00::'
       event:
       - 'succor%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'succor%2:41:00::'
       subcat:
       - vtaa
@@ -130290,6 +131262,10 @@ succour:
     sense:
     - derivation:
       - 'succour%2:41:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'succour%1:04:00::'
       synset: 01211710-n
   v:
@@ -130306,6 +131282,10 @@ succour:
       - 'succour%1:04:00::'
       event:
       - 'succour%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'succour%2:41:00::'
       subcat:
       - vtaa
@@ -131939,12 +132919,18 @@ suit:
 suit of armor:
   n:
     sense:
-    - id: 'suit_of_armor%1:06:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'suit_of_armor%1:06:00::'
       synset: 02865388-n
 suit of armour:
   n:
     sense:
-    - id: 'suit_of_armour%1:06:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'suit_of_armour%1:06:00::'
       synset: 02865388-n
 suit of clothes:
   n:
@@ -132187,6 +133173,8 @@ sulfur:
       - 'sulfuric%3:01:00::'
       - 'sulfurous%3:01:00::'
       - 'sulfur%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sulfur%1:27:00::'
       synset: 14680398-n
   v:
@@ -132198,6 +133186,8 @@ sulfur:
     sense:
     - derivation:
       - 'sulfur%1:27:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sulfur%2:30:00::'
       subcat:
       - vtai
@@ -132304,13 +133294,19 @@ sulfurous:
     sense:
     - derivation:
       - 'sulfur%1:27:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sulfurous%3:01:00::'
       pertainym:
       - 'sulfur%1:27:00::'
       synset: 02815971-a
-    - id: sulfurous%5:00:00:unpleasant:00
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: sulfurous%5:00:00:unpleasant:00
       synset: 01807340-s
-    - id: sulfurous%5:00:00:hot:01
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: sulfurous%5:00:00:hot:01
       synset: 01253205-s
 sulindac:
   n:
@@ -132472,12 +133468,18 @@ sulphur:
       - 'sulphuric%3:01:00::'
       - 'sulphurous%3:01:00::'
       - 'sulphur%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sulphur%1:27:00::'
       synset: 14680398-n
   v:
     sense:
     - derivation:
       - 'sulphur%1:27:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sulphur%2:30:00::'
       subcat:
       - vtai
@@ -132557,13 +133559,22 @@ sulphurous:
     sense:
     - derivation:
       - 'sulphur%1:27:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sulphurous%3:01:00::'
       pertainym:
       - 'sulphur%1:27:00::'
       synset: 02815971-a
-    - id: sulphurous%5:00:00:unpleasant:00
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: sulphurous%5:00:00:unpleasant:00
       synset: 01807340-s
-    - id: sulphurous%5:00:00:hot:01
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: sulphurous%5:00:00:hot:01
       synset: 01253205-s
 sultan:
   n:
@@ -132767,6 +133778,9 @@ summarisation:
     - derivation:
       - 'summarise%2:42:00::'
       - 'summarise%2:32:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'summarisation%1:10:01::'
       synset: 06479116-n
 summarise:
@@ -132776,6 +133790,9 @@ summarise:
       - 'summarisation%1:10:01::'
       event:
       - 'summarisation%1:10:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'summarise%2:42:00::'
       subcat:
       - vtii
@@ -132785,6 +133802,9 @@ summarise:
       - 'summary%1:10:00::'
       event:
       - 'summarisation%1:10:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'summarise%2:32:00::'
       subcat:
       - via
@@ -132797,6 +133817,8 @@ summarization:
     - derivation:
       - 'summarize%2:42:00::'
       - 'summarize%2:32:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'summarization%1:10:01::'
       synset: 06479116-n
 summarize:
@@ -132809,6 +133831,8 @@ summarize:
       - 'summary%1:10:00::'
       event:
       - 'summarization%1:10:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'summarize%2:32:00::'
       subcat:
       - via
@@ -132819,6 +133843,8 @@ summarize:
       - 'summarization%1:10:01::'
       event:
       - 'summarization%1:10:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'summarize%2:42:00::'
       subcat:
       - vtii
@@ -133082,7 +134108,10 @@ summerhouse:
 summerise:
   v:
     sense:
-    - id: 'summerise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'summerise%2:30:00::'
       subcat:
       - vtai
       synset: 00409373-v
@@ -133095,6 +134124,8 @@ summerize:
       - 'summer%1:28:00::'
       event:
       - 'summer%1:28:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'summerize%2:30:00::'
       subcat:
       - vtai
@@ -133430,12 +134461,18 @@ sun marigold:
 sun parlor:
   n:
     sense:
-    - id: 'sun_parlor%1:06:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'sun_parlor%1:06:00::'
       synset: 04364012-n
 sun parlour:
   n:
     sense:
-    - id: 'sun_parlour%1:06:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'sun_parlour%1:06:00::'
       synset: 04364012-n
 sun pitcher:
   n:
@@ -138120,7 +139157,9 @@ surname:
     - value: ˈsɜːneɪm
       variety: GB
     sense:
-    - id: 'surname%1:10:00::'
+    - exemplifies:
+      - 'british_english%1:10:01::'
+      id: 'surname%1:10:00::'
       synset: 06348274-n
 surpass:
   v:
@@ -138375,12 +139414,18 @@ surreal:
 surreal humor:
   n:
     sense:
-    - id: 'surreal_humor%1:10:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'surreal_humor%1:10:01::'
       synset: 92462373-n
 surreal humour:
   n:
     sense:
-    - id: 'surreal_humour%1:10:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'canadian_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'surreal_humour%1:10:01::'
       synset: 92462373-n
 surrealism:
   n:
@@ -140924,7 +141969,9 @@ sweater:
     - value: ˈswetə
       variety: AU
     sense:
-    - id: 'sweater%1:06:00::'
+    - exemplifies:
+      - 'american_english%1:10:00::'
+      id: 'sweater%1:06:00::'
       synset: 04377135-n
     - derivation:
       - 'sweat%2:29:00::'
@@ -143760,11 +144807,17 @@ syllabify:
 syllabise:
   v:
     sense:
-    - id: 'syllabise%2:35:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'syllabise%2:35:00::'
       subcat:
       - vtai
       synset: 01566117-v
-    - id: 'syllabise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'syllabise%2:32:00::'
       subcat:
       - vtai
       synset: 00982020-v
@@ -143773,12 +144826,16 @@ syllabize:
     sense:
     - derivation:
       - 'syllable%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'syllabize%2:35:00::'
       subcat:
       - vtai
       synset: 01566117-v
     - derivation:
       - 'syllable%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'syllabize%2:32:00::'
       subcat:
       - vtai
@@ -143846,6 +144903,9 @@ syllogise:
       derivation:
       - 'syllogiser%1:18:00::'
       - 'syllogism%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'syllogise%2:31:00::'
       subcat:
       - via
@@ -143901,6 +144961,8 @@ syllogize:
       derivation:
       - 'syllogizer%1:18:00::'
       - 'syllogism%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'syllogize%2:31:00::'
       subcat:
       - via
@@ -144087,13 +145149,22 @@ symbolisation:
     sense:
     - derivation:
       - 'symbolise%2:32:01::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'symbolisation%1:10:00::'
       synset: 06614677-n
     - derivation:
       - 'symbolise%2:32:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'symbolisation%1:09:00::'
       synset: 05773412-n
-    - id: 'symbolisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'symbolisation%1:04:00::'
       synset: 00413284-n
 symbolise:
   v:
@@ -144102,6 +145173,9 @@ symbolise:
       - 'symbolisation%1:10:00::'
       event:
       - 'symbolisation%1:10:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'symbolise%2:32:01::'
       subcat:
       - via
@@ -144114,6 +145188,9 @@ symbolise:
       - 'symboliser%1:18:00::'
       - 'symbol%1:10:00::'
       - 'symbol%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'symbolise%2:32:00::'
       result:
       - 'symbolisation%1:09:00::'
@@ -144130,7 +145207,10 @@ symboliser:
 symbolising:
   n:
     sense:
-    - id: 'symbolising%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'symbolising%1:04:00::'
       synset: 00901768-n
 symbolism:
   n:
@@ -144168,13 +145248,19 @@ symbolization:
     sense:
     - derivation:
       - 'symbolize%2:32:01::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symbolization%1:10:00::'
       synset: 06614677-n
     - derivation:
       - 'symbolize%2:32:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symbolization%1:09:00::'
       synset: 05773412-n
-    - id: 'symbolization%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'symbolization%1:04:00::'
       synset: 00413284-n
 symbolize:
   v:
@@ -144189,6 +145275,8 @@ symbolize:
       - 'symbolizing%1:04:00::'
       - 'symbol%1:10:00::'
       - 'symbol%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symbolize%2:32:00::'
       result:
       - 'symbolization%1:09:00::'
@@ -144199,6 +145287,8 @@ symbolize:
       - 'symbolization%1:10:00::'
       event:
       - 'symbolization%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symbolize%2:32:01::'
       subcat:
       - via
@@ -144216,6 +145306,8 @@ symbolizing:
     sense:
     - derivation:
       - 'symbolize%2:32:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symbolizing%1:04:00::'
       synset: 00901768-n
 symbology:
@@ -144278,6 +145370,9 @@ symmetrise:
     - derivation:
       - 'symmetry%1:25:00::'
       - 'symmetry%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'symmetrise%2:30:00::'
       subcat:
       - vtai
@@ -144289,6 +145384,8 @@ symmetrize:
     - derivation:
       - 'symmetry%1:25:00::'
       - 'symmetry%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symmetrize%2:30:00::'
       subcat:
       - vtai
@@ -144388,6 +145485,9 @@ sympathise:
       derivation:
       - 'sympathiser%1:18:00::'
       - 'sympathy%1:24:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sympathise%2:37:01::'
       subcat:
       - via
@@ -144398,6 +145498,9 @@ sympathise:
       derivation:
       - 'sympathiser%1:18:01::'
       - 'sympathy%1:12:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sympathise%2:37:00::'
       subcat:
       - via
@@ -144405,6 +145508,9 @@ sympathise:
       synset: 01826198-v
     - derivation:
       - 'sympathy%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'sympathise%2:31:00::'
       subcat:
       - vtaa
@@ -144429,6 +145535,8 @@ sympathize:
       derivation:
       - 'sympathizer%1:18:00::'
       - 'sympathy%1:24:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sympathize%2:37:01::'
       subcat:
       - via
@@ -144436,6 +145544,8 @@ sympathize:
       synset: 01826674-v
     - derivation:
       - 'sympathy%1:09:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sympathize%2:31:00::'
       subcat:
       - vtaa
@@ -144446,6 +145556,8 @@ sympathize:
       derivation:
       - 'sympathizer%1:18:01::'
       - 'sympathy%1:12:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'sympathize%2:37:00::'
       sent:
       - Sam and Sue sympathize
@@ -144573,7 +145685,10 @@ symphonious:
 symphonise:
   v:
     sense:
-    - id: 'symphonise%2:36:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'symphonise%2:36:00::'
       subcat:
       - via
       - vii
@@ -144589,6 +145704,8 @@ symphonize:
     - derivation:
       - 'symphony%1:14:00::'
       - 'symphony%1:10:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'symphonize%2:36:00::'
       subcat:
       - via
@@ -144904,14 +146021,23 @@ synchronisation:
     sense:
     - derivation:
       - 'synchronise%2:42:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronisation%1:24:00::'
       synset: 13867436-n
     - derivation:
       - 'synchronise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronisation%1:04:01::'
       synset: 01003039-n
     - derivation:
       - 'synchronise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronisation%1:04:00::'
       synset: 00809161-n
 synchronise:
@@ -144920,27 +146046,42 @@ synchronise:
     - derivation:
       - 'synchronisation%1:24:00::'
       - 'synchrony%1:24:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronise%2:42:00::'
       result:
       - 'synchronisation%1:24:00::'
       subcat:
       - vii
       synset: 02745129-v
-    - id: 'synchronise%2:32:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'synchronise%2:32:00::'
       subcat:
       - vtai
       synset: 00962766-v
     - derivation:
       - 'synchrony%1:24:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronise%2:31:00::'
       subcat:
       - vtai
       synset: 00737871-v
-    - id: 'synchronise%2:30:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'synchronise%2:30:01::'
       subcat:
       - vii
       synset: 00465909-v
-    - id: 'synchronise%2:30:03::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'synchronise%2:30:03::'
       subcat:
       - vtai
       synset: 00465741-v
@@ -144955,6 +146096,9 @@ synchronise:
       event:
       - 'synchronisation%1:04:01::'
       - 'synchronisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'synchroniser%1:06:00::'
       id: 'synchronise%2:30:00::'
@@ -144979,6 +146123,9 @@ synchronising:
     sense:
     - derivation:
       - 'synchronise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'synchronising%1:04:01::'
       synset: 01003039-n
 synchronism:
@@ -144995,14 +146142,20 @@ synchronization:
       - 'desynchronization%1:24:00::'
       derivation:
       - 'synchronize%2:42:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronization%1:24:00::'
       synset: 13867436-n
     - derivation:
       - 'synchronize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronization%1:04:01::'
       synset: 01003039-n
     - derivation:
       - 'synchronize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronization%1:04:00::'
       synset: 00809161-n
 synchronize:
@@ -145025,6 +146178,8 @@ synchronize:
       event:
       - 'synchronization%1:04:01::'
       - 'synchronization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'synchronizer%1:06:00::'
       id: 'synchronize%2:30:00::'
@@ -145036,6 +146191,8 @@ synchronize:
       - 'synchronization%1:24:00::'
       - 'synchrony%1:24:00::'
       - 'synchronizing%1:24:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronize%2:42:00::'
       result:
       - 'synchronization%1:24:00::'
@@ -145044,21 +146201,29 @@ synchronize:
       synset: 02745129-v
     - derivation:
       - 'synchrony%1:24:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronize%2:32:00::'
       subcat:
       - vtai
       synset: 00962766-v
     - derivation:
       - 'synchrony%1:24:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronize%2:31:00::'
       subcat:
       - vtai
       synset: 00737871-v
-    - id: 'synchronize%2:30:01::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'synchronize%2:30:01::'
       subcat:
       - vii
       synset: 00465909-v
-    - id: 'synchronize%2:30:03::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'synchronize%2:30:03::'
       subcat:
       - vtai
       synset: 00465741-v
@@ -145085,6 +146250,8 @@ synchronizing:
       synset: 13867436-n
     - derivation:
       - 'synchronize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'synchronizing%1:04:01::'
       synset: 01003039-n
     - derivation:
@@ -145269,11 +146436,17 @@ syncretical:
 syncretise:
   v:
     sense:
-    - id: 'syncretise%2:30:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'syncretise%2:30:00::'
       subcat:
       - vii
       synset: 00554693-v
-    - id: 'syncretise%2:30:01::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'syncretise%2:30:01::'
       subcat:
       - vtai
       synset: 00369175-v
@@ -145338,12 +146511,16 @@ syncretize:
     sense:
     - derivation:
       - 'syncretism%1:22:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'syncretize%2:30:00::'
       subcat:
       - vii
       synset: 00554693-v
     - derivation:
       - 'syncretism%1:26:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'syncretize%2:30:01::'
       subcat:
       - vtai
@@ -145959,6 +147136,9 @@ synthesise:
       - 'synthesis%1:22:00::'
       - 'synthesis%1:09:01::'
       - 'synthesis%1:09:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       instrument:
       - 'synthesiser%1:06:00::'
       id: 'synthesise%2:31:00::'
@@ -145999,6 +147179,8 @@ synthesize:
       derivation:
       - 'synthesizer%1:18:00::'
       - 'synthesizer%1:06:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       instrument:
       - 'synthesizer%1:06:00::'
       id: 'synthesize%2:31:00::'
@@ -146396,12 +147578,17 @@ systematic:
 systematic desensitisation:
   n:
     sense:
-    - id: 'systematic_desensitisation%1:04:00::'
+    - exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
+      id: 'systematic_desensitisation%1:04:00::'
       synset: 00703008-n
 systematic desensitization:
   n:
     sense:
-    - id: 'systematic_desensitization%1:04:00::'
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: 'systematic_desensitization%1:04:00::'
       synset: 00703008-n
 systematically:
   r:
@@ -146424,6 +147611,9 @@ systematisation:
     sense:
     - derivation:
       - 'systematise%2:30:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'systematisation%1:04:00::'
       synset: 01011132-n
 systematise:
@@ -146436,6 +147626,9 @@ systematise:
       - 'systematiser%1:18:00::'
       event:
       - 'systematisation%1:04:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'systematise%2:30:00::'
       subcat:
       - vtai
@@ -146473,6 +147666,8 @@ systematization:
     sense:
     - derivation:
       - 'systematize%2:30:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'systematization%1:04:00::'
       synset: 01011132-n
 systematize:
@@ -146487,6 +147682,8 @@ systematize:
       - 'systematizer%1:18:00::'
       event:
       - 'systematization%1:04:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'systematize%2:30:00::'
       subcat:
       - vtai
@@ -146523,6 +147720,9 @@ systemise:
       - 'systemiser%1:18:00::'
       - 'system%1:09:02::'
       - 'system%1:07:00::'
+      exemplifies:
+      - 'british_spelling%1:10:01::'
+      - 'australian_spelling%1:10:01::'
       id: 'systemise%2:30:00::'
       subcat:
       - vtai
@@ -146544,6 +147744,8 @@ systemize:
       - 'systemizer%1:18:00::'
       - 'system%1:09:02::'
       - 'system%1:07:00::'
+      exemplifies:
+      - 'american_spelling%1:10:01::'
       id: 'systemize%2:30:00::'
       subcat:
       - vtai
