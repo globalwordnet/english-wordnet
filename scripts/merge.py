@@ -77,7 +77,7 @@ def wn_merge():
     
         ET.register_namespace("dc", "https://globalwordnet.github.io/schemas/dc/")
 
-        for wn_part in glob("src/xml/wn-*.xml"):
+        for wn_part in sorted(glob("src/xml/wn-*.xml")):
             tree = ET.parse(wn_part).getroot()
             for element in tree[0]:
                 if(element.tag == "LexicalEntry"):
