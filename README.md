@@ -14,6 +14,9 @@ through the [Collaborative Interlingual Index (CILI)](https://github.com/globalw
 
 Open English WordNet is released through the [Open English WordNet website](https://en-word.net/). The versions released are
 
+* **2023 Edition** (Released 31st October 2023). [(LMF)](https://en-word.net/static/english-wordnet-2023.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2023.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2023.zip)
 * **2022 Edition** (Released 31st December 2022). [(LMF)](https://en-word.net/static/english-wordnet-2022.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2022.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2022.zip)
@@ -26,6 +29,17 @@ Open English WordNet is released through the [Open English WordNet website](http
 * **2019 Edition** (Released 17th April 2019). [(LMF)](https://en-word.net/static/english-wordnet-2019.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2019.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2019.zip)
+
+The size of each resource is as follows
+
+| Edition | Words   | Synsets | Relations |
+|---------|---------|---------|-----------|
+| 2023    | 161,338 | 120,135 | 415,905   |
+| 2022    | 161,221 | 120,068 | 386,437   |
+| 2021    | 163,161 | 120,039 | 384,505   |
+| 2020    | 163,079 | 120,052 | 385,211   |
+| 2019    | 160,051 | 117,791 | 378,201   |
+| Princeton 3.1 | 159,015 | 117,791 | 378,203 | 
 
 ## Usage
 
