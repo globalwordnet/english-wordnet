@@ -6,7 +6,7 @@
  *  like "motion" "person", and 5 Part-of-Speech categories:
  *  ["n", "v", "r", "a", "s"]: noun, verb, adverb, adj, satellite adj*
  *  
- *  vtempest (2014) https://github.com/vtempest/wiki-phrase-tokenizer | MIT License
+ *  vtempest (2024) https://github.com/vtempest/wiki-phrase-tokenizer | MIT License
  */
 const fs = require("fs");
 const zlib = require("zlib");
@@ -25,7 +25,7 @@ const jsonOutputPath = "./data/english-wordnet-2023.json";
 const outputPathDict = "./data/dictionary-152k.json";
 const outputPathIndex = "./data/dictionary-index-152k.json";
 const pos_categories = ["n", "v", "r", "a", "s"]; //a and s is for adjectives
-const stringExampleIntro = " Example: ";
+const stringExampleIntro = ",  Example: ";
 const categories = [
   "adj.all",
   "adj.pert",
