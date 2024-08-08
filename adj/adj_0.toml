@@ -1,0 +1,5345 @@
+# - `hypernym`: For these it must be the case that "if something is X, then it is also Y". For example, if something is moribund then it is also dying. 
+# - `antonym`: These words have opposite meanings, they are often prefixed with 'un-' or 'dis-'. For example, if something is moral then it is not immoral.
+# - `pertainym`: The word means 'of or pertaining to X' and is often morphologically related. For example, if something is 'oceanic' then it is of or pertaining to the ocean.
+# - `scalar`: The adjective refers to a value on a scale. For example, 'hot' relates to 'temperature', 'wide' relates to 'width'.
+# - `quality`: This refers to an abstract noun derived from the adjective, often by a suffix such as '-ness' of '-ity'. For example, 'hot' relates to 'hotness', 'wide' relates to 'wideness'.
+# - `present_participle`: This means that the adjective is derived from a verb meaning performing the action currently or repeatedly. The adjective is often the '-ing' form of the verb. For example, 'running' relates to 'run'.
+# - `past_participle`: This means as a result of the verb and is mostly the '-ed' form of the verb. For example, 'run' relates to 'ran'.
+# - `potential`: This means that it is possible for this verb to be done to something and is often the '-able' form of the verb. For example, 'readable' relates to 'read'.
+# - `lack`: The adjective means the lack of something, and often corresponds to the '-less' form of the adjective. For example, 'careless' relates to 'care'.
+# - `fullness`: The adjective means being full of something, and often corresponds to the '-ful' form of the adjective. For example, 'careful' relates to 'care'.
+# - `resembles`: The adjective means it resembles something, and often corresponds to the '-like' form of the adjective. For example, 'childlike' relates to 'child'.
+[00001740-a]
+definition = "(usually followed by `to') having the necessary means or skill or know-how or authority to do something"
+members = "able"
+quality = "ability"
+
+[00002098-a]
+definition = "(usually followed by `to') not having the necessary means or skill or know-how"
+members = "unable"
+antonym = "able"
+
+[00002312-a]
+definition = "facing away from the axis of an organ or organism"
+members = "abaxial, dorsal"
+antonym = "adaxial"
+hypernym = "oriented"
+
+[00002527-a]
+definition = "nearest to or facing toward the axis of an organ or organism"
+members = "adaxial, ventral"
+antonym = "abaxial"
+hypernym = "oriented"
+
+[00002730-a]
+definition = "facing or on the side toward the apex"
+members = "acroscopic"
+antonym = "basiscopic"
+hypernym = "oriented"
+
+[00002843-a]
+definition = "facing or on the side toward the base"
+members = "basiscopic"
+antonym = "acroscopic"
+hypernym = "oriented"
+
+[00002956-a]
+definition = "especially of muscles; drawing away from the midline of the body or from an adjacent part"
+members = "abducent, abducting"
+antonym = "adducent"
+pertains = "abduction"
+
+[00003131-a]
+definition = "especially of muscles; bringing together or drawing toward the midline of the body or toward an adjacent part"
+members = "adducent, adductive, adducting"
+antonym = "abducent"
+pertains = "adduction"
+
+[00003356-a]
+definition = "being born or beginning"
+members = "nascent"
+pertains = "birth"
+
+[00003552-s]
+definition = "coming into existence"
+members = "emergent, emerging"
+hypernym = "nascent"
+hypernym_definition = "being born or beginning"
+
+[00003699-s]
+definition = "bursting open with force, as do some ripe seed vessels"
+members = "dissilient"
+hypernym = "nascent"
+hypernym_definition = "being born or beginning"
+
+[00003828-s]
+definition = "giving birth"
+members = "parturient"
+hypernym = "nascent"
+hypernym_definition = "being born or beginning"
+
+[00003938-a]
+definition = "in or associated with the process of passing from life or ceasing to be"
+members = "dying"
+
+[00004170-s]
+definition = "being on the point of death; breathing your last"
+members = "moribund"
+hypernym = "dying"
+hypernym_definition = "in or associated with the process of passing from life or ceasing to be"
+
+[00004295-s]
+definition = "occurring at the time of death"
+members = "last"
+hypernym = "dying"
+hypernym_definition = "in or associated with the process of passing from life or ceasing to be"
+
+[00004412-a]
+definition = "(used of texts) shortened by condensing or rewriting"
+members = "abridged"
+
+[00004614-s]
+definition = "with parts removed"
+members = "cut, shortened"
+hypernym = "abridged"
+hypernym_definition = "(used of texts) shortened by condensing or rewriting"
+
+[00004722-s]
+definition = "abridged to half its original length"
+members = "half-length"
+hypernym = "abridged"
+hypernym_definition = "(used of texts) shortened by condensing or rewriting"
+
+[00004816-s]
+definition = "(British informal) summarized or abridged"
+members = "potted"
+hypernym = "abridged"
+hypernym_definition = "(used of texts) shortened by condensing or rewriting"
+
+[00004979-a]
+definition = "(used of texts) not shortened"
+members = "unabridged"
+
+[00005106-s]
+definition = "complete"
+members = "full-length, uncut"
+hypernym = "unabridged"
+hypernym_definition = "(used of texts) not shortened"
+
+[00005204-a]
+definition = "perfect or complete or pure"
+members = "absolute"
+
+[00005472-s]
+definition = "lacking compromising or mitigating elements"
+members = "direct, exact"
+hypernym = "absolute"
+hypernym_definition = "perfect or complete or pure"
+
+[00005598-s]
+definition = "being without doubt or reserve"
+members = "implicit, unquestioning"
+hypernym = "absolute"
+hypernym_definition = "perfect or complete or pure"
+
+[00005717-s]
+definition = "total and all-embracing"
+members = "infinite"
+hypernym = "absolute"
+hypernym_definition = "perfect or complete or pure"
+
+[00005838-s]
+definition = "(informal) absolute"
+members = "living"
+hypernym = "absolute"
+hypernym_definition = "perfect or complete or pure"
+
+[00006050-a]
+definition = "estimated by comparison; not absolute or complete"
+members = "relative, comparative"
+
+[00006263-s]
+definition = "having a relation or being related"
+members = "relational"
+hypernym = "relative, comparative"
+hypernym_definition = "estimated by comparison; not absolute or complete"
+
+[00006354-a]
+definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+members = "absorbent, absorptive"
+
+[00006795-s]
+definition = "inducing or promoting absorption"
+members = "absorbefacient, sorbefacient"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00006903-s]
+definition = "capable of taking (gas, light, or liquids) into a solution"
+members = "assimilating, assimilative, assimilatory"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007115-s]
+definition = "absorbing moisture (as from the air)"
+members = "hygroscopic"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007227-s]
+definition = "able to absorb liquid (not repellent)"
+members = "receptive"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007350-s]
+definition = "having the capacity to absorb the energy of an impact"
+members = "shock-absorbent"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007535-s]
+definition = "like a sponge in being able to absorb liquids and yield it back when compressed"
+members = "spongy, spongelike"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007716-s]
+definition = "able to take in large quantities of moisture"
+members = "thirsty"
+hypernym = "absorbent, absorptive"
+hypernym_definition = "having power or capacity or tendency to absorb or soak up something (liquids or energy etc.)"
+
+[00007832-a]
+definition = "not capable of absorbing or soaking up (liquids)"
+members = "nonabsorbent, nonabsorptive"
+
+[00008009-s]
+definition = "incapable of absorbing or mixing with"
+members = "repellent, resistant"
+hypernym = "nonabsorbent, nonabsorptive"
+hypernym_definition = "not capable of absorbing or soaking up (liquids)"
+
+[00008225-a]
+definition = "having capacity or tendency to adsorb or cause to accumulate on a surface"
+members = "adsorbent, adsorptive, surface-assimilative"
+
+[00008462-s]
+definition = "having the capacity to adsorb by chemical as contrasted with physical forces"
+members = "chemisorptive, chemosorptive"
+hypernym = "adsorbent, adsorptive, surface-assimilative"
+hypernym_definition = "having capacity or tendency to adsorb or cause to accumulate on a surface"
+
+[00008614-a]
+definition = "lacking a capacity to adsorb or cause to accumulate on a surface"
+members = "nonadsorbent, nonadsorptive"
+
+[00008753-a]
+definition = "capable of being absorbed or taken in through the pores of a surface"
+members = "absorbable"
+
+[00008896-a]
+definition = "capable of being adsorbed or accumulated on a surface of a solid"
+members = "adsorbable, adsorbate"
+
+[00009065-a]
+definition = "sparing in consumption of especially food and drink"
+members = "abstemious"
+
+[00009365-s]
+definition = "self-restraining; not indulging an appetite especially for food or drink"
+members = "abstinent, abstentious"
+hypernym = "abstemious"
+hypernym_definition = "sparing in consumption of especially food and drink"
+
+[00009637-s]
+definition = "practicing great self-denial"
+members = "ascetic, ascetical, austere, spartan"
+hypernym = "abstemious"
+hypernym_definition = "sparing in consumption of especially food and drink"
+
+[00009997-a]
+definition = "given to excess in consumption of especially food or drink"
+members = "gluttonous"
+
+[00010404-s]
+definition = "given to gross intemperance in eating or drinking"
+members = "crapulous"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00010556-s]
+definition = "suffering from excessive eating or drinking"
+members = "crapulent, crapulous"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00010745-s]
+definition = "devouring or craving food in great quantities"
+members = "edacious, esurient, rapacious, ravening, ravenous, voracious, wolfish"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00011179-s]
+definition = "wanting to eat or drink more than one can reasonably consume"
+members = "greedy"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00011346-s]
+definition = "resembling swine; coarsely gluttonous or greedy"
+members = "hoggish, piggish, piggy, porcine, swinish"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00011684-s]
+definition = "excessively gluttonous"
+members = "overgreedy, too-greedy"
+hypernym = "gluttonous"
+hypernym_definition = "given to excess in consumption of especially food or drink"
+
+[00011776-a]
+definition = "existing only in the mind; separated from embodiment"
+members = "abstract"
+
+[00012090-s]
+definition = "being of the nature of a notion or concept"
+members = "conceptional, ideational, notional"
+hypernym = "abstract"
+hypernym_definition = "existing only in the mind; separated from embodiment"
+
+[00012381-s]
+definition = "being or characterized by concepts or their formation"
+members = "conceptual"
+hypernym = "abstract"
+hypernym_definition = "existing only in the mind; separated from embodiment"
+
+[00012708-s]
+definition = "constituting or existing only in the form of an idea or mental image or conception"
+members = "ideal"
+hypernym = "abstract"
+hypernym_definition = "existing only in the mind; separated from embodiment"
+
+[00012951-s]
+definition = "concerned with or suggestive of ideas"
+members = "ideological, ideologic"
+hypernym = "abstract"
+hypernym_definition = "existing only in the mind; separated from embodiment"
+
+[00013179-a]
+definition = "capable of being perceived by the senses; not abstract or imaginary"
+members = "concrete"
+
+[00013461-s]
+definition = "belonging to immediate experience of actual things or events"
+members = "objective"
+hypernym = "concrete"
+hypernym_definition = "capable of being perceived by the senses; not abstract or imaginary"
+
+[00013681-s]
+definition = "capable of being treated as fact"
+members = "real, tangible"
+hypernym = "concrete"
+hypernym_definition = "capable of being perceived by the senses; not abstract or imaginary"
+
+[00013906-a]
+definition = "present in great quantity"
+members = "abundant"
+
+[00014377-s]
+definition = "existing in abundance"
+members = "abounding, galore"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00014509-s]
+definition = "affording an abundant supply"
+members = "ample, copious, plenteous, plentiful, rich"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00014877-s]
+definition = "large in number or quantity (especially of discourse)"
+members = "copious, voluminous"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015134-s]
+definition = "obtained with little effort or sacrifice, often obtained illegally"
+members = "easy"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015284-s]
+definition = "produced or growing in extreme abundance"
+members = "exuberant, lush, luxuriant, profuse, riotous"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015517-s]
+definition = "abounding; having a lot of"
+members = "thick"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015626-s]
+definition = "having or being more than normal or necessary"
+members = "long"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015758-s]
+definition = "excessively abundant"
+members = "overabundant, plethoric, rife"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00015892-s]
+definition = "existing in great number or quantity"
+members = "plentiful"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016043-s]
+definition = "(of a plant) having a lush and unchecked growth"
+members = "rampant"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016173-s]
+definition = "growing profusely"
+members = "rank"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016285-s]
+definition = "most excessively abundant"
+members = "superabundant"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016388-s]
+definition = "abundantly filled with especially living things"
+members = "teeming"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016570-s]
+definition = "pouring in abundance"
+members = "torrential"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016685-s]
+definition = "characterized by abundance of verdure"
+members = "verdant"
+hypernym = "abundant"
+hypernym_definition = "present in great quantity"
+
+[00016794-a]
+definition = "deficient in quantity or number compared with the demand"
+members = "scarce"
+
+[00017062-s]
+definition = "not widely distributed"
+members = "rare"
+hypernym = "scarce"
+hypernym_definition = "deficient in quantity or number compared with the demand"
+
+[00017224-s]
+definition = "affected by scarcity and expensive to borrow"
+members = "tight"
+hypernym = "scarce"
+hypernym_definition = "deficient in quantity or number compared with the demand"
+
+[00017390-a]
+definition = "subjected to cruel treatment"
+members = "abused, ill-treated, maltreated, mistreated"
+
+[00017547-s]
+definition = "exhibiting symptoms resulting from repeated physical and emotional injury"
+members = "battered"
+hypernym = "abused, ill-treated, maltreated, mistreated"
+hypernym_definition = "subjected to cruel treatment"
+
+[00017726-a]
+definition = "not physically abused; treated properly"
+members = "unabused"
+
+[00017820-a]
+definition = "worthy of acceptance or satisfactory"
+members = "acceptable"
+
+[00018107-s]
+definition = "acceptable to or at a bank"
+members = "bankable"
+hypernym = "acceptable"
+hypernym_definition = "worthy of acceptance or satisfactory"
+
+[00018260-s]
+definition = "completely acceptable; not open to exception or reproach"
+members = "unexceptionable, unimpeachable"
+hypernym = "acceptable"
+hypernym_definition = "worthy of acceptance or satisfactory"
+
+[00018473-s]
+definition = "not objectionable"
+members = "unobjectionable"
+hypernym = "acceptable"
+hypernym_definition = "worthy of acceptance or satisfactory"
+
+[00018622-a]
+definition = "not acceptable; not welcome"
+members = "unacceptable"
+
+[00018888-s]
+definition = "liable to objection or debate; used of something one might take exception to"
+members = "exceptionable, objectionable"
+hypernym = "unacceptable"
+hypernym_definition = "not acceptable; not welcome"
+
+[00019169-a]
+definition = "capable of being reached"
+members = "accessible"
+
+[00019387-s]
+definition = "easily approached"
+members = "approachable, reachable"
+hypernym = "accessible"
+hypernym_definition = "capable of being reached"
+
+[00019543-s]
+definition = "capable of being reached or attained"
+members = "come-at-able, get-at-able, getatable"
+hypernym = "accessible"
+hypernym_definition = "capable of being reached"
+
+[00019769-s]
+definition = "easy to reach"
+members = "handy, ready to hand"
+hypernym = "accessible"
+hypernym_definition = "capable of being reached"
+
+[00019912-a]
+definition = "capable of being reached only with great difficulty or not at all"
+members = "inaccessible, unaccessible"
+
+[00020141-s]
+definition = "inaccessible and sparsely populated"
+members = "outback, remote"
+hypernym = "inaccessible, unaccessible"
+hypernym_definition = "capable of being reached only with great difficulty or not at all"
+
+[00020278-s]
+definition = "lacking pathways"
+members = "pathless, roadless, trackless, untracked, untrod, untrodden"
+hypernym = "inaccessible, unaccessible"
+hypernym_definition = "capable of being reached only with great difficulty or not at all"
+
+[00020447-s]
+definition = "inaccessibly located or situated"
+members = "unapproachable, unreachable, unreached, out of reach"
+hypernym = "inaccessible, unaccessible"
+hypernym_definition = "capable of being reached only with great difficulty or not at all"
+
+[00020684-s]
+definition = "difficult to reach or attain"
+members = "un-come-at-able, un-get-at-able, ungetatable"
+hypernym = "inaccessible, unaccessible"
+hypernym_definition = "capable of being reached only with great difficulty or not at all"
+
+[00020824-a]
+definition = "helpful in bringing about a harmonious adaptation"
+members = "accommodating, accommodative"
+
+[00021147-s]
+definition = "showing a cheerful willingness to do favors for others"
+members = "complaisant, obliging"
+hypernym = "accommodating, accommodative"
+hypernym_definition = "helpful in bringing about a harmonious adaptation"
+
+[00021440-a]
+definition = "not accommodating"
+members = "unaccommodating, unobliging"
+
+[00021629-s]
+definition = "intentionally unaccommodating"
+members = "disobliging, uncooperative"
+hypernym = "unaccommodating, unobliging"
+hypernym_definition = "not accommodating"
+
+[00021803-a]
+definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+members = "accurate"
+
+[00022256-s]
+definition = "marked by fidelity to an original"
+members = "close, faithful"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00022474-s]
+definition = "accurate and to the point"
+members = "dead-on"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00022717-s]
+definition = "characterized by minimal distortion in sound reproduction"
+members = "high-fidelity, hi-fi"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00022889-s]
+definition = "performed with great precision"
+members = "surgical"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00022999-s]
+definition = "in keeping with the facts"
+members = "straight"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00023157-s]
+definition = "accurately placed or thrown"
+members = "true, dead on target"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00023315-s]
+definition = "precisely accurate"
+members = "veracious, right"
+hypernym = "accurate"
+hypernym_definition = "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+
+[00023420-a]
+definition = "erroneous"
+members = "inaccurate"
+
+[00023695-s]
+definition = "(of a baseball pitch) on the far side of home plate from the batter"
+members = "away, outside"
+hypernym = "inaccurate"
+hypernym_definition = "erroneous"
+
+[00023894-s]
+definition = "characterized by errors; not agreeing with a model or not following established rules"
+members = "faulty, incorrect, wrong"
+hypernym = "inaccurate"
+hypernym_definition = "erroneous"
+
+[00024180-s]
+definition = "not trustworthy"
+members = "unfaithful"
+hypernym = "inaccurate"
+hypernym_definition = "erroneous"
+
+[00024282-s]
+definition = "not on target"
+members = "wide, wide of the mark"
+hypernym = "inaccurate"
+hypernym_definition = "erroneous"
+
+[00024458-a]
+definition = "in the habit of or adapted to"
+members = "accustomed to, used to"
+
+[00024701-s]
+definition = "in the habit of doing something"
+members = "used to, wont to"
+hypernym = "accustomed to, used to"
+hypernym_definition = "in the habit of or adapted to"
+
+[00024914-a]
+definition = "not habituated to; unfamiliar with"
+members = "unaccustomed to"
+
+[00025079-s]
+definition = "(often followed by `to') unfamiliar"
+members = "new"
+hypernym = "unaccustomed to"
+hypernym_definition = "not habituated to; unfamiliar with"
+
+[00025245-s]
+definition = "infrequently exposed to"
+members = "unused to"
+hypernym = "unaccustomed to"
+hypernym_definition = "not habituated to; unfamiliar with"
+
+[00025351-a]
+definition = "being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)"
+members = "acidic"
+
+[00025583-s]
+definition = "having the characteristics of an acid"
+members = "acid"
+hypernym = "acidic"
+hypernym_definition = "being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)"
+
+[00025746-s]
+definition = "yielding an acid in aqueous solution"
+members = "acid-forming"
+hypernym = "acidic"
+hypernym_definition = "being or containing an acid; of a solution having an excess of hydrogen atoms (having a pH of less than 7)"
+
+[00025841-a]
+definition = "relating to or containing an alkali; having a pH greater than 7"
+members = "alkaline, alkalic"
+
+[00026164-s]
+definition = "tending to become alkaline; slightly alkaline"
+members = "alkalescent, alcalescent"
+hypernym = "alkaline, alkalic"
+hypernym_definition = "relating to or containing an alkali; having a pH greater than 7"
+
+[00026281-s]
+definition = "of or denoting or of the nature of or containing a base"
+members = "basic"
+hypernym = "alkaline, alkalic"
+hypernym_definition = "relating to or containing an alkali; having a pH greater than 7"
+
+[00026407-s]
+definition = "yielding a base in aqueous solution"
+members = "base-forming"
+hypernym = "alkaline, alkalic"
+hypernym_definition = "relating to or containing an alkali; having a pH greater than 7"
+
+[00026501-s]
+definition = "resembling a compound formed by replacing hydrogen in an acid by a metal"
+members = "saltlike"
+hypernym = "alkaline, alkalic"
+hypernym_definition = "relating to or containing an alkali; having a pH greater than 7"
+
+[00026628-a]
+definition = "having characteristics of both an acid and a base and capable of reacting as either"
+members = "amphoteric, amphiprotic"
+
+[00026819-a]
+definition = "thriving in a relatively acidic environment (especially of plants requiring a pH well below 7)"
+members = "acid-loving"
+
+[00027008-s]
+definition = "especially of some bacteria; growing well in an acid medium"
+members = "acidophilic, acidophilous, aciduric"
+hypernym = "acid-loving"
+hypernym_definition = "thriving in a relatively acidic environment (especially of plants requiring a pH well below 7)"
+
+[00027187-a]
+definition = "thriving in a relatively alkaline environment; (especially of plants requiring a pH above 7)"
+members = "alkaline-loving"
+
+[00027360-a]
+definition = "recognized or made known or admitted"
+members = "acknowledged"
+
+[00027712-s]
+definition = "generally approved or compelling recognition"
+members = "accepted, recognized, recognised"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00027946-s]
+definition = "owned up to"
+members = "self-confessed"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00028121-s]
+definition = "accepted as real or true without proof"
+members = "assumptive"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00028294-s]
+definition = "that must be declared"
+members = "declarable"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00028393-s]
+definition = "acknowledged as a supposition"
+members = "given, granted"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00028584-s]
+definition = "purported; commonly put forth or accepted as true on inconclusive grounds"
+members = "putative"
+hypernym = "acknowledged"
+hypernym_definition = "recognized or made known or admitted"
+
+[00028785-a]
+definition = "not recognized or admitted"
+members = "unacknowledged"
+
+[00028980-s]
+definition = "having value that is not acknowledged"
+members = "unappreciated, unsung, unvalued"
+hypernym = "unacknowledged"
+hypernym_definition = "not recognized or admitted"
+
+[00029097-s]
+definition = "not openly made known"
+members = "unavowed, secret"
+hypernym = "unacknowledged"
+hypernym_definition = "not recognized or admitted"
+
+[00029221-s]
+definition = "not admitted"
+members = "unconfessed"
+hypernym = "unacknowledged"
+hypernym_definition = "not recognized or admitted"
+
+[00029329-s]
+definition = "not recognized"
+members = "unrecognized, unrecognised"
+hypernym = "unacknowledged"
+hypernym_definition = "not recognized or admitted"
+
+[00029456-a]
+definition = "eager to acquire and possess things especially material possessions or ideas"
+members = "acquisitive"
+
+[00029882-s]
+definition = "marked by acquiring or amassing"
+members = "accumulative"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00030046-s]
+definition = "immoderately desirous of acquiring e.g. wealth"
+members = "avaricious, covetous, grabby, grasping, greedy, prehensile"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00030621-s]
+definition = "desirous of owning"
+members = "possessive"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00030814-s]
+definition = "given to taking by force what is desired"
+members = "plundering"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00030911-s]
+definition = "living by or given to victimizing others for personal gain"
+members = "predaceous, predacious, predatory"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00031251-s]
+definition = "excessively greedy and grasping"
+members = "rapacious, ravening, voracious"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00031497-s]
+definition = "meanly avaricious and mercenary"
+members = "sordid"
+hypernym = "acquisitive"
+hypernym_definition = "eager to acquire and possess things especially material possessions or ideas"
+
+[00031646-a]
+definition = "not acquisitive; not interested in acquiring or owning anything"
+members = "unacquisitive"
+
+[00031787-a]
+definition = "of leaves or flowers; developing or opening in succession from base to apex"
+members = "acropetal"
+
+[00031937-a]
+definition = "of leaves or flowers; developing or opening in succession from apex to base"
+members = "basipetal"
+
+[00032087-a]
+definition = "characterized by energetic activity"
+members = "active"
+
+[00032471-s]
+definition = "on the move"
+members = "about, astir"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00032610-s]
+definition = "vigorously active"
+members = "acrobatic, athletic, gymnastic"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00032846-s]
+definition = "moving quickly and lightly"
+members = "agile, nimble, quick, spry"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00033190-s]
+definition = "marked by excited activity"
+members = "hot"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00033319-s]
+definition = "more active than normal"
+members = "hyperactive, overactive"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00033472-s]
+definition = "(of a person) very busy and active"
+members = "on the go"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00033588-s]
+definition = "appropriate for sport or engagement in a sport"
+members = "sporty"
+hypernym = "active"
+hypernym_definition = "characterized by energetic activity"
+
+[00033687-a]
+definition = "not active physically or mentally"
+members = "inactive"
+
+[00033999-s]
+definition = "restricted to working in an office rather than in an active physical capacity"
+members = "desk-bound, deskbound"
+hypernym = "inactive"
+hypernym_definition = "not active physically or mentally"
+
+[00034145-s]
+definition = "inactive but capable of becoming active"
+members = "abeyant, dormant"
+hypernym = "inactive"
+hypernym_definition = "not active physically or mentally"
+
+[00034345-s]
+definition = "abnormally inactive"
+members = "hypoactive, underactive"
+hypernym = "inactive"
+hypernym_definition = "not active physically or mentally"
+
+[00034435-s]
+definition = "slow and apathetic"
+members = "inert, sluggish, soggy, torpid"
+hypernym = "inactive"
+hypernym_definition = "not active physically or mentally"
+
+[00034685-s]
+definition = "requiring sitting or little activity"
+members = "sedentary"
+hypernym = "inactive"
+hypernym_definition = "not active physically or mentally"
+
+[00034823-a]
+definition = "engaged in full-time work"
+members = "active"
+
+[00035037-s]
+definition = "(military) set up and placed on active assignment"
+members = "activated"
+hypernym = "active"
+hypernym_definition = "engaged in full-time work"
+
+[00035187-a]
+definition = "not engaged in full-time work"
+members = "inactive"
+
+[00035367-s]
+definition = "not performing or scheduled for duties"
+members = "off"
+hypernym = "inactive"
+hypernym_definition = "not engaged in full-time work"
+
+[00035481-s]
+definition = "no longer active in your work or profession"
+members = "retired"
+hypernym = "inactive"
+hypernym_definition = "not engaged in full-time work"
+
+[00035578-a]
+definition = "full of activity or engaged in continuous activity"
+members = "active"
+
+[00035892-s]
+definition = "very active"
+members = "brisk"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00035981-s]
+definition = "full of energetic and noisy activity"
+members = "bustling"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00036091-s]
+definition = "crowded with or characterized by much activity"
+members = "busy"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00036276-s]
+definition = "in full operation"
+members = "going"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00036367-s]
+definition = "ready for business"
+members = "open"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00036459-s]
+definition = "(of movements) light and confidently active"
+members = "springy"
+hypernym = "active"
+hypernym_definition = "full of activity or engaged in continuous activity"
+
+[00036594-a]
+definition = "lacking activity; lying idle or unused"
+members = "inactive"
+
+[00036876-s]
+definition = "not giving performances; closed"
+members = "dark"
+hypernym = "inactive"
+hypernym_definition = "lacking activity; lying idle or unused"
+
+[00036992-s]
+definition = "devoid of activity"
+members = "dead"
+hypernym = "inactive"
+hypernym_definition = "lacking activity; lying idle or unused"
+
+[00037111-s]
+definition = "(of business) not active or brisk"
+members = "dull, slow, sluggish"
+hypernym = "inactive"
+hypernym_definition = "lacking activity; lying idle or unused"
+
+[00037301-s]
+definition = "not in active use"
+members = "idle, unused"
+hypernym = "inactive"
+hypernym_definition = "lacking activity; lying idle or unused"
+
+[00037454-s]
+definition = "closed or immobilized by a strike"
+members = "strikebound"
+hypernym = "inactive"
+hypernym_definition = "lacking activity; lying idle or unused"
+
+[00037570-a]
+definition = "tending to become more severe or wider in scope"
+members = "active"
+
+[00037766-s]
+definition = "advancing in severity"
+members = "progressive"
+hypernym = "active"
+hypernym_definition = "tending to become more severe or wider in scope"
+
+[00037870-a]
+definition = "(pathology) not progressing or increasing; or progressing slowly"
+members = "inactive"
+
+[00038098-s]
+definition = "lacking opportunities for development or advancement"
+members = "dead-end"
+hypernym = "inactive"
+hypernym_definition = "(pathology) not progressing or increasing; or progressing slowly"
+
+[00038232-s]
+definition = "commercially inactive"
+members = "flat"
+hypernym = "inactive"
+hypernym_definition = "(pathology) not progressing or increasing; or progressing slowly"
+
+[00038373-s]
+definition = "(of tumors, e.g.) slow to heal or develop and usually painless"
+members = "indolent"
+hypernym = "inactive"
+hypernym_definition = "(pathology) not progressing or increasing; or progressing slowly"
+
+[00038575-s]
+definition = "(pathology) not presently active"
+members = "latent"
+hypernym = "inactive"
+hypernym_definition = "(pathology) not progressing or increasing; or progressing slowly"
+
+[00038736-s]
+definition = "(pathology) causing no symptoms"
+members = "quiescent"
+hypernym = "inactive"
+hypernym_definition = "(pathology) not progressing or increasing; or progressing slowly"
+
+[00038863-a]
+definition = "disposed to take action or effectuate change"
+members = "active"
+
+[00039235-s]
+definition = "advocating or engaged in activism"
+members = "activist, activistic"
+hypernym = "active"
+hypernym_definition = "disposed to take action or effectuate change"
+
+[00039372-s]
+definition = "involving active participation"
+members = "hands-on"
+hypernym = "active"
+hypernym_definition = "disposed to take action or effectuate change"
+
+[00039507-s]
+definition = "(of a policy or person or action) controlling a situation by causing something to happen rather than waiting to respond to it after it happens"
+members = "proactive"
+hypernym = "active"
+hypernym_definition = "disposed to take action or effectuate change"
+
+[00039705-a]
+definition = "lacking in energy or will"
+members = "passive, inactive"
+
+[00040060-s]
+definition = "not involving participation or intervention"
+members = "hands-off"
+hypernym = "passive, inactive"
+hypernym_definition = "lacking in energy or will"
+
+[00040189-s]
+definition = "offering no resistance, passively accepting of a situation"
+members = "resistless, unresisting"
+hypernym = "passive, inactive"
+hypernym_definition = "lacking in energy or will"
+
+[00040305-s]
+definition = "passive as a result of indolence or indifference"
+members = "supine"
+hypernym = "passive, inactive"
+hypernym_definition = "lacking in energy or will"
+
+[00040548-a]
+definition = "(of e.g. volcanoes) erupting or liable to erupt"
+members = "active"
+
+[00040757-s]
+definition = "actively spewing out lava"
+members = "eruptive"
+hypernym = "active"
+hypernym_definition = "(of e.g. volcanoes) erupting or liable to erupt"
+
+[00040908-a]
+definition = "(of e.g. volcanoes) not erupting and not extinct"
+members = "dormant, inactive"
+
+[00041131-s]
+definition = "being quiet or still or inactive"
+members = "quiescent"
+hypernym = "dormant, inactive"
+hypernym_definition = "(of e.g. volcanoes) not erupting and not extinct"
+
+[00041273-a]
+definition = "(of e.g. volcanoes) permanently inactive"
+members = "extinct"
+
+[00041424-s]
+definition = "physically inactive"
+members = "dead"
+hypernym = "extinct"
+hypernym_definition = "(of e.g. volcanoes) permanently inactive"
+
+[00041583-a]
+definition = "(of e.g. volcanoes) capable of erupting"
+members = "active"
+
+[00041710-s]
+definition = "capable of erupting"
+members = "alive, live"
+hypernym = "active"
+hypernym_definition = "(of e.g. volcanoes) capable of erupting"
+
+[00041840-a]
+definition = "(used of verbs (e.g. `to run') and participial adjectives (e.g. `running' in `running water')) expressing action rather than a state of being"
+members = "active, dynamic"
+
+[00042063-a]
+definition = "(used of verbs (e.g. `be' or `own') and most participial adjectives) expressing existence or a state rather than an action"
+members = "stative"
+
+[00042258-a]
+definition = "expressing that the subject of the sentence has the semantic function of actor:"
+members = "active"
+
+[00042449-a]
+definition = "expressing that the subject of the sentence is the patient of the action denoted by the verb"
+members = "passive"
+
+[00042677-a]
+definition = "exerting influence or producing a change or effect"
+members = "active"
+
+[00042912-s]
+definition = "rendered active; e.g. rendered radioactive or luminescent or photosensitive or conductive"
+members = "activated"
+hypernym = "active"
+hypernym_definition = "exerting influence or producing a change or effect"
+
+[00043057-s]
+definition = "opposing or neutralizing or mitigating an effect by contrary action"
+members = "counteractive"
+hypernym = "active"
+hypernym_definition = "exerting influence or producing a change or effect"
+
+[00043202-s]
+definition = "capable of lowering the surface tension of a liquid; used especially of detergents"
+members = "surface-active"
+hypernym = "active"
+hypernym_definition = "exerting influence or producing a change or effect"
+
+[00043345-a]
+definition = "not exerting influence or change"
+members = "inactive"
+
+[00043450-s]
+definition = "not active or activated"
+members = "quiescent"
+hypernym = "inactive"
+hypernym_definition = "not exerting influence or change"
+
+[00043630-a]
+definition = "(of the sun) characterized by an increased occurrence of sunspots and flares and radio emissions"
+members = "active"
+
+[00043834-a]
+definition = "(of the sun) characterized by a low level of surface phenomena, such as sunspots"
+members = "quiet"
+
+[00043985-a]
+definition = "presently existing in fact and not merely potential or possible"
+members = "actual, existent"
+
+[00044352-s]
+definition = "existing in fact; not theoretical; real"
+members = "effective"
+hypernym = "actual, existent"
+hypernym_definition = "presently existing in fact and not merely potential or possible"
+
+[00044573-a]
+definition = "existing in possibility"
+members = "potential, possible"
+
+[00044828-s]
+definition = "potentially existing but not presently evident or realized"
+members = "latent"
+hypernym = "potential, possible"
+hypernym_definition = "existing in possibility"
+
+[00044980-a]
+definition = "having or experiencing a rapid onset and short but severe course"
+members = "acute"
+
+[00045207-s]
+definition = "less than acute; relating to a disease present in a person with no symptoms of it"
+members = "subacute"
+hypernym = "acute"
+hypernym_definition = "having or experiencing a rapid onset and short but severe course"
+
+[00045343-a]
+definition = "being long-lasting and recurrent or characterized by long suffering"
+members = "chronic"
+
+[00045576-s]
+definition = "(of illness) marked by gradual deterioration of organs and cells along with loss of function"
+members = "degenerative"
+hypernym = "chronic"
+hypernym_definition = "being long-lasting and recurrent or characterized by long suffering"
+
+[00045781-a]
+definition = "infectious; having the ability to cause disease"
+members = "virulent"
+
+[00045955-s]
+definition = "(of a microorganism) extremely infective"
+members = "highly infective"
+hypernym = "virulent"
+hypernym_definition = "infectious; having the ability to cause disease"
+
+[00046108-s]
+definition = "(of a disease) having a rapid course and violent effect"
+members = "deadly"
+hypernym = "virulent"
+hypernym_definition = "infectious; having the ability to cause disease"
+
+[00046234-a]
+definition = "not virulent; unable to produce disease"
+members = "avirulent"
+
+[00046329-a]
+definition = "having a capacity for adaptation"
+members = "adaptive, adaptative"
+
+[00046559-s]
+definition = "tending to reconcile or accommodate; bringing into harmony"
+members = "accommodative, reconciling"
+hypernym = "adaptive, adaptative"
+hypernym_definition = "having a capacity for adaptation"
+
+[00046691-s]
+definition = "of or relating to adaptation"
+members = "adaptational"
+hypernym = "adaptive, adaptative"
+hypernym_definition = "having a capacity for adaptation"
+
+[00046778-s]
+definition = "conducive to adjustment"
+members = "adjustive"
+hypernym = "adaptive, adaptative"
+hypernym_definition = "having a capacity for adaptation"
+
+[00046893-a]
+definition = "showing faulty adaptation"
+members = "maladaptive"
+
+[00047012-s]
+definition = "(of a trait or condition) failing to serve an adjustive purpose"
+members = "dysfunctional, nonadaptive"
+hypernym = "maladaptive"
+hypernym_definition = "showing faulty adaptation"
+
+[00047175-s]
+definition = "poorly adjusted"
+members = "maladjustive"
+hypernym = "maladaptive"
+hypernym_definition = "showing faulty adaptation"
+
+[00047249-a]
+definition = "compulsively or physiologically dependent on something habit-forming"
+members = "addicted"
+
+[00047463-s]
+definition = "addicted to alcohol"
+members = "alcoholic, alcohol-dependent"
+hypernym = "addicted"
+hypernym_definition = "compulsively or physiologically dependent on something habit-forming"
+
+[00047626-s]
+definition = "addicted to a drug"
+members = "dependent, dependant, drug-addicted, hooked, strung-out"
+hypernym = "addicted"
+hypernym_definition = "compulsively or physiologically dependent on something habit-forming"
+
+[00047786-a]
+definition = "not addicted"
+members = "unaddicted"
+
+[00047873-s]
+definition = "free of drugs"
+members = "clean"
+hypernym = "unaddicted"
+hypernym_definition = "not addicted"
+
+[00048006-a]
+definition = "causing or characterized by addiction"
+members = "addictive, habit-forming"
+
+[00048174-a]
+definition = "not causing or characterized by addiction"
+members = "nonaddictive"
+
+[00048349-a]
+definition = "characterized or produced by addition"
+members = "additive"
+
+[00048680-s]
+definition = "increasing by successive addition"
+members = "accumulative, cumulative"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00048926-s]
+definition = "capable of being added or added to"
+members = "addable, addible"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00049078-s]
+definition = "further or added"
+members = "extra, additional"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00049236-s]
+definition = "acting as or providing a complement (something that completes the whole)"
+members = "complemental, complementary, completing"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00049486-s]
+definition = "increasing gradually by regular degrees or additions"
+members = "incremental"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00049689-s]
+definition = "having a day or month inserted to make the calendar year correspond to the solar year:"
+members = "intercalary"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00049903-s]
+definition = "of or relating to a summation or produced by summation"
+members = "summational, summative"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00050099-s]
+definition = "added to complete or make up a deficiency"
+members = "supplementary, supplemental"
+hypernym = "additive"
+hypernym_definition = "characterized or produced by addition"
+
+[00050303-a]
+definition = "constituting or involving subtraction"
+members = "subtractive"
+
+[00050480-s]
+definition = "tending to ablate; i.e. to be removed or vaporized at very high temperature"
+members = "ablative"
+hypernym = "subtractive"
+hypernym_definition = "constituting or involving subtraction"
+
+[00050666-s]
+definition = "characterized by or causing diminution or curtailment"
+members = "reductive"
+hypernym = "subtractive"
+hypernym_definition = "constituting or involving subtraction"
+
+[00050861-a]
+definition = "(of mail) marked with a destination"
+members = "addressed"
+
+[00051019-s]
+definition = "addressed to yourself"
+members = "self-addressed"
+hypernym = "addressed"
+hypernym_definition = "(of mail) marked with a destination"
+
+[00051167-a]
+definition = "not addressed"
+members = "unaddressed"
+
+[00051265-a]
+definition = "having the requisite qualities or resources to meet a task"
+members = "adequate, equal"
+
+[00051593-s]
+definition = "having the requisite qualities for"
+members = "adequate to, capable, equal to, up to"
+hypernym = "adequate, equal"
+hypernym_definition = "having the requisite qualities or resources to meet a task"
+
+[00051791-s]
+definition = "adequate, but not outstanding or exceptional"
+members = "competent"
+hypernym = "adequate, equal"
+hypernym_definition = "having the requisite qualities or resources to meet a task"
+
+[00051936-a]
+definition = "lacking the requisite qualities or resources to meet a task"
+members = "inadequate, unequal"
+
+[00052252-s]
+definition = "inadequate in amount or degree"
+members = "deficient, lacking, wanting"
+hypernym = "inadequate, unequal"
+hypernym_definition = "lacking the requisite qualities or resources to meet a task"
+
+[00052486-s]
+definition = "not meeting requirements"
+members = "incapable, incompetent, unequal to"
+hypernym = "inadequate, unequal"
+hypernym_definition = "lacking the requisite qualities or resources to meet a task"
+
+[00052671-s]
+definition = "inadequate in number of workers or assistants etc."
+members = "short-handed, short-staffed, undermanned, understaffed"
+hypernym = "inadequate, unequal"
+hypernym_definition = "lacking the requisite qualities or resources to meet a task"
+
+[00052912-a]
+definition = "tending to adhere"
+members = "adhesive"
+
+[00053272-s]
+definition = "sticking fast"
+members = "adherent"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00053394-s]
+definition = "united as if by glue"
+members = "agglutinate, agglutinative"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00053488-s]
+definition = "capable of holding together or cohering; as particles in a mass"
+members = "bondable"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00053624-s]
+definition = "sticking together"
+members = "coherent, tenacious"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00053804-s]
+definition = "causing cohesion"
+members = "cohesive"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00053931-s]
+definition = "having the sticky properties of an adhesive"
+members = "gluey, glutinous, gummy, mucilaginous, pasty, sticky, viscid, viscous"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054349-s]
+definition = "soft and sticky"
+members = "gooey, icky"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054441-s]
+definition = "resembling chewing gum"
+members = "gum-like"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054518-s]
+definition = "covered with adhesive gum"
+members = "gummed, gummy"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054604-s]
+definition = "having the characteristics of pitch or tar"
+members = "pitchy, resinous, resiny, tarry"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054781-s]
+definition = "seals without the application of moisture"
+members = "self-sealing"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00054907-s]
+definition = "of something (a paper label or postage stamp) gummed in advance"
+members = "stick-on"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00055044-s]
+definition = "covered with an adhesive material"
+members = "sticky"
+hypernym = "adhesive"
+hypernym_definition = "tending to adhere"
+
+[00055148-a]
+definition = "not tending to adhere"
+members = "nonadhesive"
+
+[00055281-s]
+definition = "not resembling glue in texture"
+members = "nonglutinous, nonviscid"
+hypernym = "nonadhesive"
+hypernym_definition = "not tending to adhere"
+
+[00055382-s]
+definition = "not having resin"
+members = "nonresinous, non-resinous, nonresiny, non-resiny"
+hypernym = "nonadhesive"
+hypernym_definition = "not tending to adhere"
+
+[00055496-s]
+definition = "not treated with adhesive gum"
+members = "ungummed"
+hypernym = "nonadhesive"
+hypernym_definition = "not tending to adhere"
+
+[00055580-a]
+definition = "relating to court practice and procedure as opposed to the principles of law"
+members = "adjective, procedural"
+
+[00055779-a]
+definition = "defining rights and duties as opposed to giving the rules by which rights and duties are established"
+members = "substantive, essential"
+
+[00056005-a]
+definition = "suitable or eligible for adoption"
+members = "adoptable"
+
+[00056146-a]
+definition = "difficult to place in an adoptive home"
+members = "unadoptable"
+
+[00056242-a]
+definition = "provided with something intended to increase its beauty or distinction"
+members = "adorned, decorated"
+
+[00056900-s]
+definition = "covered with beads or jewels or sequins"
+members = "beady, gemmed, jeweled, jewelled, sequined, spangled, spangly"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057089-s]
+definition = "ornamented in a vulgar or showy fashion"
+members = "bedaubed"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057183-s]
+definition = "wearing, or having the face adorned with, eyeglasses or an eyeglass"
+members = "bespectacled, monocled, spectacled"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057389-s]
+definition = "embellished with a raised pattern created by pressure or embroidery"
+members = "brocaded, embossed, raised"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057630-s]
+definition = "ornamented with many buttons"
+members = "buttony"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057730-s]
+definition = "set with carbuncles"
+members = "carbuncled"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057806-s]
+definition = "(for metals) having areas separated by metal and filled with colored enamel and fired"
+members = "champleve, cloisonne"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00057977-s]
+definition = "glittering with gold or silver"
+members = "clinquant, tinseled, tinselly"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058121-s]
+definition = "(of a knight's helmet) having a decorative plume"
+members = "crested, plumed"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058232-s]
+definition = "(of a bird or animal) having a usually ornamental tuft or process on the head; often used in combination"
+members = "crested, topknotted, tufted"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058520-s]
+definition = "bearing an heraldic device"
+members = "crested"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058619-s]
+definition = "(of a gable or spire) furnished with a crocket (an ornament in the form of curved or bent foliage)"
+members = "crocketed"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058794-s]
+definition = "adorned with feathers or plumes"
+members = "feathery, feathered, plumy"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00058955-s]
+definition = "having decorative ruffles or frills"
+members = "frilled, frilly, ruffled"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059081-s]
+definition = "having a decorative edging of hanging cords or strips"
+members = "fringed"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059188-s]
+definition = "having gilded edges as the pages of a book"
+members = "gilt-edged"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059287-s]
+definition = "adorned with tongues of flame"
+members = "inflamed"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059390-s]
+definition = "adorned by inlays"
+members = "inlaid"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059460-s]
+definition = "having a decorative pattern worked or woven in"
+members = "inwrought"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059585-s]
+definition = "decorated with small pieces of colored glass or stone fitted together in a mosaic"
+members = "tessellated"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059750-s]
+definition = "decorated with applied ornamentation; often used in combination"
+members = "mounted"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00059928-s]
+definition = "fitted or decorated with panels or wainscoting"
+members = "paneled, wainscoted"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060041-s]
+definition = "dotted or adorned with or as with studs or nailheads; usually used in combination"
+members = "studded"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060224-s]
+definition = "hung or decorated with tapestry"
+members = "tapestried"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060312-s]
+definition = "fringed or adorned with tassels"
+members = "tasseled, tasselled"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060410-s]
+definition = "decorated in a particular way"
+members = "tricked-out"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060553-s]
+definition = "having or adorned with tufts"
+members = "tufted"
+hypernym = "adorned, decorated"
+hypernym_definition = "provided with something intended to increase its beauty or distinction"
+
+[00060656-a]
+definition = "not decorated with something to increase its beauty or distinction"
+members = "unadorned, undecorated"
+
+[00060864-s]
+definition = "lacking embellishment or ornamentation"
+members = "plain, bare, spare, unembellished, unornamented"
+hypernym = "unadorned, undecorated"
+hypernym_definition = "not decorated with something to increase its beauty or distinction"
+
+[00061134-s]
+definition = "not adorned with tufts"
+members = "untufted"
+hypernym = "unadorned, undecorated"
+hypernym_definition = "not decorated with something to increase its beauty or distinction"
+
+[00061228-a]
+definition = "releasing or activated by acetylcholine or a related compound"
+members = "cholinergic"
+
+[00061347-a]
+definition = "inhibiting or blocking the action of acetylcholine at a receptor site"
+members = "anticholinergic"
+
+[00061521-a]
+definition = "quick or skillful or adept in action or thought"
+members = "adroit"
+
+[00061923-s]
+definition = "free from clumsiness; precisely or deftly executed"
+members = "clean, neat"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00062144-s]
+definition = "showing inventiveness and skill"
+members = "clever, cunning, ingenious"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00062411-s]
+definition = "being dexterous in the use of more than one set of muscle movements"
+members = "coordinated, co-ordinated"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00062626-s]
+definition = "skillful in physical movements; especially of the hands"
+members = "deft, dexterous, dextrous"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00062885-s]
+definition = "skillful with the hands"
+members = "handy"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00062999-s]
+definition = "having nimble fingers literally or figuratively; especially for stealing or picking pockets"
+members = "light-fingered, nimble-fingered"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00063346-s]
+definition = "mentally nimble and resourceful"
+members = "quick-witted"
+hypernym = "adroit"
+hypernym_definition = "quick or skillful or adept in action or thought"
+
+[00063536-a]
+definition = "not adroit"
+members = "maladroit"
+
+[00063822-s]
+definition = "lacking physical movement skills, especially with the hands"
+members = "bumbling, bungling, butterfingered, ham-fisted, ham-handed, handless, heavy-handed, left-handed"
+hypernym = "maladroit"
+hypernym_definition = "not adroit"
+
+[00064212-s]
+definition = "revealing lack of perceptiveness or judgment or finesse"
+members = "inept, tactless"
+hypernym = "maladroit"
+hypernym_definition = "not adroit"
+
+[00064435-s]
+definition = "lacking the skillful and effective interaction of muscle movements"
+members = "uncoordinated"
+hypernym = "maladroit"
+hypernym_definition = "not adroit"
+
+[00064624-s]
+definition = "(of a person) lacking mechanical skills"
+members = "unmechanical, nonmechanical"
+hypernym = "maladroit"
+hypernym_definition = "not adroit"
+
+[00064738-a]
+definition = "giving an advantage"
+members = "advantageous, favorable, favourable"
+
+[00065107-s]
+definition = "promoting or enhancing well-being"
+members = "beneficial, good"
+hypernym = "advantageous, favorable, favourable"
+hypernym_definition = "giving an advantage"
+
+[00065384-s]
+definition = "involving advantage or good"
+members = "plus, positive"
+hypernym = "advantageous, favorable, favourable"
+hypernym_definition = "giving an advantage"
+
+[00065504-s]
+definition = "manifesting partiality"
+members = "discriminatory, preferential"
+hypernym = "advantageous, favorable, favourable"
+hypernym_definition = "giving an advantage"
+
+[00065808-a]
+definition = "involving or creating circumstances detrimental to success or effectiveness"
+members = "disadvantageous, unfavorable, unfavourable"
+
+[00066276-s]
+definition = "involving disadvantage or harm"
+members = "minus, negative"
+hypernym = "disadvantageous, unfavorable, unfavourable"
+hypernym_definition = "involving or creating circumstances detrimental to success or effectiveness"
+
+[00066400-a]
+definition = "willing to undertake or seeking out new and daring enterprises"
+members = "adventurous, adventuresome"
+
+[00066755-s]
+definition = "disposed to venture or take risks"
+members = "audacious, daring, venturesome, venturous"
+hypernym = "adventurous, adventuresome"
+hypernym_definition = "willing to undertake or seeking out new and daring enterprises"
+
+[00067174-s]
+definition = "involving risk or willingness to take a risk"
+members = "sporting"
+hypernym = "adventurous, adventuresome"
+hypernym_definition = "willing to undertake or seeking out new and daring enterprises"
+
+[00067312-s]
+definition = "flamboyantly adventurous"
+members = "swaggering, swashbuckling"
+hypernym = "adventurous, adventuresome"
+hypernym_definition = "willing to undertake or seeking out new and daring enterprises"
+
+[00067409-a]
+definition = "lacking in boldness"
+members = "unadventurous"
+
+[00067542-s]
+definition = "(of an undertaking) secure from risk"
+members = "safe"
+hypernym = "unadventurous"
+hypernym_definition = "lacking in boldness"
+
+[00067647-a]
+definition = "worthy of being recommended or suggested; prudent or wise"
+members = "advisable"
+
+[00067988-s]
+definition = "(comparative and superlative of `well') wiser or more advantageous and hence advisable"
+members = "better, best"
+hypernym = "advisable"
+hypernym_definition = "worthy of being recommended or suggested; prudent or wise"
+
+[00068247-s]
+definition = "wise or advantageous and hence advisable"
+members = "well"
+hypernym = "advisable"
+hypernym_definition = "worthy of being recommended or suggested; prudent or wise"
+
+[00068376-a]
+definition = "not prudent or wise; not recommended"
+members = "inadvisable, unadvisable"
+
+[00068575-a]
+definition = "having the benefit of careful prior consideration or counsel"
+members = "well-advised, advised"
+
+[00068789-s]
+definition = "carefully weighed"
+members = "considered"
+hypernym = "well-advised, advised"
+hypernym_definition = "having the benefit of careful prior consideration or counsel"
+
+[00068887-a]
+definition = "without careful prior deliberation or counsel"
+members = "ill-advised, unadvised"
+
+[00069175-a]
+definition = "depending on free oxygen or air"
+members = "aerobic, aerophilic, aerophilous"
+
+[00069347-s]
+definition = "living or active only in the presence of oxygen"
+members = "aerobiotic"
+hypernym = "aerobic, aerophilic, aerophilous"
+hypernym_definition = "depending on free oxygen or air"
+
+[00069492-s]
+definition = "taking place in the presence of oxygen"
+members = "oxidative"
+hypernym = "aerobic, aerophilic, aerophilous"
+hypernym_definition = "depending on free oxygen or air"
+
+[00069669-a]
+definition = "living or active in the absence of free oxygen"
+members = "anaerobic, anaerobiotic"
+
+[00069826-a]
+definition = "based on or using the principles of aerobics; enhancing respiratory and circulatory efficiency"
+members = "aerobic"
+
+[00070036-a]
+definition = "not aerobic"
+members = "anaerobic"
+
+[00070140-a]
+definition = "concerning or characterized by an appreciation of beauty or good taste"
+members = "aesthetic, esthetic, aesthetical, esthetical"
+
+[00070557-s]
+definition = "satisfying aesthetic standards and sensibilities"
+members = "artistic"
+hypernym = "aesthetic, esthetic, aesthetical, esthetical"
+hypernym_definition = "concerning or characterized by an appreciation of beauty or good taste"
+
+[00070720-s]
+definition = "serving an aesthetic purpose in beautifying the body"
+members = "cosmetic, enhancive"
+hypernym = "aesthetic, esthetic, aesthetical, esthetical"
+hypernym_definition = "concerning or characterized by an appreciation of beauty or good taste"
+
+[00070897-s]
+definition = "having qualities unique to the art of painting"
+members = "painterly"
+hypernym = "aesthetic, esthetic, aesthetical, esthetical"
+hypernym_definition = "concerning or characterized by an appreciation of beauty or good taste"
+
+[00071036-s]
+definition = "taking delight in beauty"
+members = "sensuous"
+hypernym = "aesthetic, esthetic, aesthetical, esthetical"
+hypernym_definition = "concerning or characterized by an appreciation of beauty or good taste"
+
+[00071192-a]
+definition = "violating aesthetic canons or requirements; deficient in tastefulness or beauty"
+members = "inaesthetic, unaesthetic"
+
+[00071448-s]
+definition = "lacking aesthetic sensibility"
+members = "inartistic, unartistic"
+hypernym = "inaesthetic, unaesthetic"
+hypernym_definition = "violating aesthetic canons or requirements; deficient in tastefulness or beauty"
+
+[00071547-a]
+definition = "acted upon; influenced"
+members = "affected"
+
+[00071750-s]
+definition = "deeply or markedly affected or influenced"
+members = "impressed"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00071850-s]
+definition = "(used in combination) affected by something overwhelming"
+members = "smitten, stricken, struck"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00072035-s]
+definition = "infatuated with or enthralled by the theater especially the desire to act"
+members = "stage-struck"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00072167-s]
+definition = "likely to be affected by something"
+members = "subject"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00072347-s]
+definition = "be affected with an indisposition"
+members = "taken"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00072505-s]
+definition = "affected by or overcome with wonder"
+members = "wonder-struck"
+hypernym = "affected"
+hypernym_definition = "acted upon; influenced"
+
+[00072600-a]
+definition = "undergoing no change when acted upon"
+members = "unaffected"
+
+[00072889-s]
+definition = "(usually followed by `to') not affected by a given influence"
+members = "immune"
+hypernym = "unaffected"
+hypernym_definition = "undergoing no change when acted upon"
+
+[00073044-s]
+definition = "(often followed by `to') above being affected or influenced by"
+members = "superior"
+hypernym = "unaffected"
+hypernym_definition = "undergoing no change when acted upon"
+
+[00073281-s]
+definition = "not moved to serious regard"
+members = "unimpressed"
+hypernym = "unaffected"
+hypernym_definition = "undergoing no change when acted upon"
+
+[00073398-s]
+definition = "not influenced or affected"
+members = "uninfluenced, unswayed, untouched"
+hypernym = "unaffected"
+hypernym_definition = "undergoing no change when acted upon"
+
+[00073656-a]
+definition = "speaking or behaving in an artificial way to make an impression"
+members = "affected, unnatural"
+
+[00073966-s]
+definition = "struggling for effect"
+members = "agonistic, strained"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074073-s]
+definition = "artificially formal"
+members = "artificial, contrived, hokey, stilted"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074369-s]
+definition = "lacking spontaneity; not natural"
+members = "constrained, forced, strained"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074543-s]
+definition = "(used of style of speaking) overly embellished"
+members = "elocutionary"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074702-s]
+definition = "having unnatural mannerisms"
+members = "mannered"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074824-s]
+definition = "(of a voice) affectedly mellow and rich"
+members = "plummy"
+hypernym = "affected, unnatural"
+hypernym_definition = "speaking or behaving in an artificial way to make an impression"
+
+[00074954-a]
+definition = "free of artificiality; sincere and genuine"
+members = "unaffected"
+
+[00075202-s]
+definition = "free from artificiality"
+members = "lifelike, natural"
+hypernym = "unaffected"
+hypernym_definition = "free of artificiality; sincere and genuine"
+
+[00075349-s]
+definition = "without artificiality; natural"
+members = "unmannered"
+hypernym = "unaffected"
+hypernym_definition = "free of artificiality; sincere and genuine"
+
+[00075475-s]
+definition = "not self-conscious"
+members = "unselfconscious"
+hypernym = "unaffected"
+hypernym_definition = "free of artificiality; sincere and genuine"
+
+[00075627-s]
+definition = "flowing naturally and continuously"
+members = "unstilted"
+hypernym = "unaffected"
+hypernym_definition = "free of artificiality; sincere and genuine"
+
+[00075743-a]
+definition = "affirming or giving assent"
+members = "affirmative, affirmatory"
+
+[00075997-s]
+definition = "expressing agreement or consent"
+members = "assentient, assenting"
+hypernym = "affirmative, affirmatory"
+hypernym_definition = "affirming or giving assent"
+
+[00076123-a]
+definition = "expressing or consisting of a negation or refusal or denial"
+members = "negative"
+
+[00076345-s]
+definition = "disagreeing, especially with a majority"
+members = "dissentient, dissenting, dissident"
+hypernym = "negative"
+hypernym_definition = "expressing or consisting of a negation or refusal or denial"
+
+[00076560-a]
+definition = "inclined to accept rather than reject"
+members = "acceptive"
+
+[00076735-s]
+definition = "tolerating without protest"
+members = "accepting"
+hypernym = "acceptive"
+hypernym_definition = "inclined to accept rather than reject"
+
+[00076949-a]
+definition = "rejecting or tending to reject"
+members = "rejective"
+
+[00077188-s]
+definition = "stopping to associate with"
+members = "dismissive"
+hypernym = "rejective"
+hypernym_definition = "rejecting or tending to reject"
+
+[00077347-s]
+definition = "rejecting emphatically; e.g. refusing to pay or disowning"
+members = "repudiative"
+hypernym = "rejective"
+hypernym_definition = "rejecting or tending to reject"
+
+[00077529-a]
+definition = "borne on the water; floating"
+members = "afloat"
+
+[00077667-s]
+definition = "afloat on the surface of a body of water"
+members = "adrift"
+hypernym = "afloat"
+hypernym_definition = "borne on the water; floating"
+
+[00077804-s]
+definition = "borne up by or suspended in a liquid"
+members = "floating"
+hypernym = "afloat"
+hypernym_definition = "borne on the water; floating"
+
+[00077962-s]
+definition = "supported by water"
+members = "waterborne"
+hypernym = "afloat"
+hypernym_definition = "borne on the water; floating"
+
+[00078057-a]
+definition = "stuck in a place where a ship can no longer float"
+members = "aground"
+
+[00078253-a]
+definition = "filled with fear or apprehension"
+members = "afraid"
+
+[00078919-s]
+definition = "suffering from acrophobia; abnormally afraid of high places"
+members = "acrophobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079053-s]
+definition = "a pronunciation of afraid"
+members = "afeard, afeared"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079166-s]
+definition = "struck with fear, dread, or consternation"
+members = "aghast, appalled, dismayed, shocked"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079295-s]
+definition = "suffering from agoraphobia; abnormally afraid of open or public places"
+members = "agoraphobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079441-s]
+definition = "experiencing a sudden sense of danger"
+members = "alarmed"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079532-s]
+definition = "suffering from algophobia; abnormally afraid of pain"
+members = "algophobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079659-s]
+definition = "in fear or dread of possible evil or harm"
+members = "apprehensive"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079852-s]
+definition = "frightened into submission or compliance"
+members = "hangdog"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00079946-s]
+definition = "suffering from claustrophobia; abnormally afraid of closed-in places"
+members = "claustrophobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080075-s]
+definition = "experiencing or showing fear"
+members = "fearful"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080219-s]
+definition = "made afraid"
+members = "frightened, scared"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080376-s]
+definition = "stricken with horror"
+members = "horrified, horror-stricken, horror-struck"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080486-s]
+definition = "reflecting the fear or terror of one who is hunted"
+members = "hunted"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080688-s]
+definition = "abnormally afraid of water"
+members = "hydrophobic, aquaphobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080803-s]
+definition = "suffering from mysophobia; abnormally afraid of dirt or contamination"
+members = "mysophobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00080947-s]
+definition = "thrown into a state of intense fear or desperation"
+members = "panicky, panicked, panic-stricken, panic-struck, terrified, frightened"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081288-s]
+definition = "so frightened as to be unable to move; stunned or paralyzed with terror; petrified"
+members = "numb"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081451-s]
+definition = "struck or filled with terror"
+members = "terror-stricken, terror-struck"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081557-s]
+definition = "suffering from triskaidekaphobia (abnormal fear of the number 13)"
+members = "triskaidekaphobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081704-s]
+definition = "deprived of courage and strength"
+members = "unnerved"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081887-s]
+definition = "having white lips from fear or terror"
+members = "white-lipped"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00081983-s]
+definition = "suffering from xenophobia; having abnormal fear or hatred of the strange or foreign"
+members = "xenophobic"
+hypernym = "afraid"
+hypernym_definition = "filled with fear or apprehension"
+
+[00082141-a]
+definition = "oblivious of dangers or perils or calmly resolute in facing them"
+members = "unafraid, fearless"
+
+[00082400-s]
+definition = "not recognizing or slow to recognize danger"
+members = "unapprehensive"
+hypernym = "unafraid, fearless"
+hypernym_definition = "oblivious of dangers or perils or calmly resolute in facing them"
+
+[00082504-s]
+definition = "not shrinking from danger"
+members = "unblinking, unflinching, unintimidated, unshrinking"
+hypernym = "unafraid, fearless"
+hypernym_definition = "oblivious of dangers or perils or calmly resolute in facing them"
+
+[00082630-s]
+definition = "not affected by fright"
+members = "unfrightened"
+hypernym = "unafraid, fearless"
+hypernym_definition = "oblivious of dangers or perils or calmly resolute in facing them"
+
+[00082711-a]
+definition = "having or showing determination and energetic pursuit of your ends"
+members = "aggressive"
+
+[00083236-s]
+definition = "having or showing a ready disposition to fight"
+members = "battleful, bellicose, combative"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00083473-s]
+definition = "showing a fighting disposition"
+members = "competitive, militant"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00083766-s]
+definition = "aggressively and persistently persuasive"
+members = "hard-hitting, high-pressure"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00083948-s]
+definition = "unsolicited and resisted by the management of the target company (used of attempts to buy or take control of a business)"
+members = "hostile"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00084218-s]
+definition = "blatantly aggressive"
+members = "in-your-face"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00084345-s]
+definition = "boisterously and noisily aggressive"
+members = "obstreperous"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00084491-s]
+definition = "living by preying on other animals especially by catching living prey"
+members = "predatory, rapacious, raptorial, ravening, vulturine, vulturous"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00084822-s]
+definition = "ready and able to resort to force or violence"
+members = "pugnacious, rough"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00085130-s]
+definition = "full of fighting spirit"
+members = "scrappy"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00085264-s]
+definition = "defiantly aggressive"
+members = "truculent"
+hypernym = "aggressive"
+hypernym_definition = "having or showing determination and energetic pursuit of your ends"
+
+[00085425-a]
+definition = "not aggressive; not given to fighting or assertiveness"
+members = "unaggressive, nonaggressive"
+
+[00085608-s]
+definition = "not forceful"
+members = "low-pressure"
+hypernym = "unaggressive, nonaggressive"
+hypernym_definition = "not aggressive; not given to fighting or assertiveness"
+
+[00085733-a]
+definition = "troubled emotionally and usually deeply"
+members = "agitated"
+
+[00086117-s]
+definition = "wildly frenzied and out of control"
+members = "amuck, amok, berserk"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00086315-s]
+definition = "(of persons) excessively affected by emotion"
+members = "aroused, emotional, excited, worked up"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00086555-s]
+definition = "deeply agitated especially from emotion"
+members = "distraught, overwrought"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00086690-s]
+definition = "disturbed psychologically as if by a physical jolt or shock"
+members = "jolted, shaken"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00086895-s]
+definition = "marked by intense agitation or emotion"
+members = "feverish, hectic"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00087026-s]
+definition = "excessively agitated; distraught with fear or other violent emotion"
+members = "frantic, frenetic, phrenetic, frenzied"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00087291-s]
+definition = "marked by excessive or uncontrollable emotion"
+members = "hysterical"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00087486-s]
+definition = "(of a mental state) characterized by intense and distorted perceptions and hallucinations and feelings of euphoria or sometimes despair"
+members = "psychedelic"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00087707-s]
+definition = "appearing extremely agitated"
+members = "wild-eyed"
+hypernym = "agitated"
+hypernym_definition = "troubled emotionally and usually deeply"
+
+[00087837-a]
+definition = "not agitated or disturbed emotionally"
+members = "unagitated"
+
+[00088039-a]
+definition = "physically disturbed or set in motion"
+members = "agitated"
+
+[00088282-s]
+definition = "(of a liquid) agitated vigorously; in a state of turbulence"
+members = "churning, roiling, roiled, roily, turbulent"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00088522-s]
+definition = "moving with or producing or produced by vigorous agitation"
+members = "churning, churned-up"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00088740-s]
+definition = "bumped or shaken jerkily"
+members = "jolted"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00088842-s]
+definition = "shaken into waves or undulations as by wind"
+members = "rippled, ruffled"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00089013-s]
+definition = "in constant agitation"
+members = "seething"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00089230-s]
+definition = "set into a usually circular motion in order to mix or blend"
+members = "stirred"
+hypernym = "agitated"
+hypernym_definition = "physically disturbed or set in motion"
+
+[00089343-a]
+definition = "not physically disturbed or set in motion"
+members = "unagitated"
+
+[00089477-s]
+definition = "(of a liquid) not turbulent"
+members = "nonturbulent"
+hypernym = "unagitated"
+hypernym_definition = "not physically disturbed or set in motion"
+
+[00089584-s]
+definition = "not agitated by stirring"
+members = "unstirred"
+hypernym = "unagitated"
+hypernym_definition = "not physically disturbed or set in motion"
+
+[00089736-a]
+definition = "conforming to your own liking or feelings or nature"
+members = "agreeable"
+
+[00090040-a]
+definition = "not to your liking"
+members = "disagreeable"
+
+[00090253-s]
+definition = "causing irritation or annoyance"
+members = "annoying, bothersome, galling, irritating, nettlesome, pesky, pestering, pestiferous, plaguy, plaguey, teasing, vexatious, vexing"
+hypernym = "disagreeable"
+hypernym_definition = "not to your liking"
+
+[00090922-s]
+definition = "extremely disagreeable and unpleasant"
+members = "dreadful"
+hypernym = "disagreeable"
+hypernym_definition = "not to your liking"
+
+[00091073-s]
+definition = "sharply disagreeable; rigorous"
+members = "harsh, abrasive"
+hypernym = "disagreeable"
+hypernym_definition = "not to your liking"
+
+[00091262-s]
+definition = "extremely irritating to the nerves"
+members = "nerve-racking, nerve-wracking, stressful, trying"
+hypernym = "disagreeable"
+hypernym_definition = "not to your liking"
+
+[00091482-s]
+definition = "distasteful"
+members = "unsweet"
+hypernym = "disagreeable"
+hypernym_definition = "not to your liking"
+
+[00091572-a]
+definition = "operating from or designed to be fired from aircraft at targets on the ground"
+members = "air-to-surface, air-to-ground"
+
+[00091771-a]
+definition = "operating between or launched from or involving rockets or aircraft in flight"
+members = "air-to-air"
+
+[00091975-a]
+definition = "operating from or designed to be launched from the ground against an airborne target"
+members = "surface-to-air"
+
+[00092165-a]
+definition = "engaged in or accustomed to close observation"
+members = "alert, watchful"
+
+[00092618-s]
+definition = "carefully observant or attentive; on the lookout for possible danger"
+members = "argus-eyed, open-eyed, vigilant, wakeful, watchful"
+hypernym = "alert, watchful"
+hypernym_definition = "engaged in or accustomed to close observation"
+
+[00092990-s]
+definition = "(British informal) not to be deceived or hoodwinked"
+members = "fly"
+hypernym = "alert, watchful"
+hypernym_definition = "engaged in or accustomed to close observation"
+
+[00093129-s]
+definition = "fully alert and watchful"
+members = "heads-up, wide-awake"
+hypernym = "alert, watchful"
+hypernym_definition = "engaged in or accustomed to close observation"
+
+[00093245-s]
+definition = "always watchful"
+members = "lidless, sleepless"
+hypernym = "alert, watchful"
+hypernym_definition = "engaged in or accustomed to close observation"
+
+[00093404-a]
+definition = "not alert to what is potentially dangerous"
+members = "unalert, unwatchful, unvigilant"
+
+[00093544-a]
+definition = "of or relating to or having the characteristics of an algorithm"
+members = "algorithmic"
+
+[00093701-s]
+definition = "of or relating to a recursion"
+members = "recursive"
+hypernym = "algorithmic"
+hypernym_definition = "of or relating to or having the characteristics of an algorithm"
+
+[00093786-a]
+definition = "of or relating to or using a general formulation that serves to guide investigation"
+members = "heuristic"
+
+[00093961-s]
+definition = "relating to solving problems by experience rather than theory"
+members = "trial-and-error"
+hypernym = "heuristic"
+hypernym_definition = "of or relating to or using a general formulation that serves to guide investigation"
+
+[00094128-a]
+definition = "transferable to another owner"
+members = "alienable"
+
+[00094286-s]
+definition = "that can be appropriated"
+members = "appropriable"
+hypernym = "alienable"
+hypernym_definition = "transferable to another owner"
+
+[00094409-s]
+definition = "legally transferable to the ownership of another"
+members = "assignable, conveyable, negotiable, transferable, transferrable"
+hypernym = "alienable"
+hypernym_definition = "transferable to another owner"
+
+[00094663-a]
+definition = "incapable of being repudiated or transferred to another"
+members = "inalienable, unalienable"
+
+[00094922-s]
+definition = "not capable of being violated or infringed"
+members = "absolute, infrangible, inviolable"
+hypernym = "inalienable, unalienable"
+hypernym_definition = "incapable of being repudiated or transferred to another"
+
+[00095092-s]
+definition = "cannot be bought or sold"
+members = "non-negotiable"
+hypernym = "inalienable, unalienable"
+hypernym_definition = "incapable of being repudiated or transferred to another"
+
+[00095177-s]
+definition = "incapable of being transferred"
+members = "nontransferable, unassignable, untransferable"
+hypernym = "inalienable, unalienable"
+hypernym_definition = "incapable of being repudiated or transferred to another"
+
+[00095301-a]
+definition = "possessing life"
+members = "alive, live"
+
+[00095652-s]
+definition = "(of newborn infant) showing signs of life after birth; not stillborn"
+members = "liveborn"
+hypernym = "alive, live"
+hypernym_definition = "possessing life"
+
+[00095794-s]
+definition = "capable of life or normal growth and development"
+members = "viable"
+hypernym = "alive, live"
+hypernym_definition = "possessing life"
+
+[00095947-s]
+definition = "manifesting or characteristic of life"
+members = "vital"
+hypernym = "alive, live"
+hypernym_definition = "possessing life"
+
+[00096133-a]
+definition = "no longer having or seeming to have or expecting to have life"
+members = "dead"
+
+[00096726-s]
+definition = "dead"
+members = "asleep, at peace, at rest, deceased, departed, gone"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00096925-s]
+definition = "murdered by surprise attack for political reasons"
+members = "assassinated"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097092-s]
+definition = "destitute of blood or apparently so"
+members = "bloodless, exsanguine, exsanguinous"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097267-s]
+definition = "having irreversible loss of brain function as indicated by a persistent flat electroencephalogram"
+members = "brain dead"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097448-s]
+definition = "appearing dead; not breathing or having no perceptible pulse"
+members = "breathless, inanimate, pulseless"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097668-s]
+definition = "lacking the warmth of life"
+members = "cold"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097766-s]
+definition = "abbreviation for `dead on arrival' at the emergency room"
+members = "d.o.a."
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00097875-s]
+definition = "having the physical appearance of death"
+members = "deathlike, deathly"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098000-s]
+definition = "having ceased to exist or live"
+members = "defunct"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098158-s]
+definition = "marked for certain death"
+members = "doomed"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098305-s]
+definition = "put to death as punishment"
+members = "executed"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098430-s]
+definition = "killed in battle"
+members = "fallen"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098527-s]
+definition = "having died recently"
+members = "late"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098621-s]
+definition = "deprived of life; no longer living"
+members = "lifeless, exanimate"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098759-s]
+definition = "killed unlawfully"
+members = "murdered"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00098896-s]
+definition = "not capable of living or developing successfully"
+members = "nonviable"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00099000-s]
+definition = "killed; `slain' is formal or literary as in \"slain warriors\""
+members = "slain"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00099160-s]
+definition = "(of newborn infant) showing no signs of life at birth; not liveborn"
+members = "stillborn"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00099303-s]
+definition = "as lifeless as a stone"
+members = "stone-dead"
+hypernym = "dead"
+hypernym_definition = "no longer having or seeming to have or expecting to have life"
+
+[00099382-a]
+definition = "(of exocrine glands) producing a secretion in which part of the secreting cell is released with the secretion"
+members = "apocrine"
+
+[00099589-a]
+definition = "(of exocrine glands) producing a clear aqueous secretion without releasing part of the secreting cell; important in regulating body temperature"
+members = "eccrine"
+
+[00099786-a]
+definition = "(of water) rising to the surface under internal hydrostatic pressure"
+members = "artesian"
+
+[00099950-a]
+definition = "(of water) rising naturally in a well to a height appreciably above that of the surrounding water table but not flowing out of the well"
+members = "subartesian"
+
+[00100143-a]
+definition = "exerting force or containing energy"
+members = "live"
+
+[00100425-s]
+definition = "(used of minerals or stone) in its natural state and place; not mined or quarried"
+members = "living"
+hypernym = "live"
+hypernym_definition = "exerting force or containing energy"
+
+[00100594-a]
+definition = "not showing characteristics of life especially the capacity to sustain life; no longer exerting force or having energy or heat"
+members = "dead"
+
+[00100933-s]
+definition = "being out or having grown cold"
+members = "extinct, out"
+hypernym = "dead"
+hypernym_definition = "not showing characteristics of life especially the capacity to sustain life; no longer exerting force or having energy or heat"
+
+[00101092-s]
+definition = "not having the capacity to support life"
+members = "lifeless"
+hypernym = "dead"
+hypernym_definition = "not showing characteristics of life especially the capacity to sustain life; no longer exerting force or having energy or heat"
+
+[00101225-s]
+definition = "(of a ball) not available to be played during a game"
+members = "out of play"
+hypernym = "dead"
+hypernym_definition = "not showing characteristics of life especially the capacity to sustain life; no longer exerting force or having energy or heat"
+
+[00101395-a]
+definition = "arranged in order according to the alphabet"
+members = "alphabetic, alphabetical"
+
+[00101642-s]
+definition = "alphabetically arranged (as for beginning readers)"
+members = "abecedarian"
+hypernym = "alphabetic, alphabetical"
+hypernym_definition = "arranged in order according to the alphabet"
+
+[00101750-s]
+definition = "having been put in alphabetical order"
+members = "alphabetized, alphabetised"
+hypernym = "alphabetic, alphabetical"
+hypernym_definition = "arranged in order according to the alphabet"
+
+[00101913-a]
+definition = "not alphabetic"
+members = "analphabetic"
+
+[00102092-a]
+definition = "(of hatchlings) naked and blind and dependent on parents for food"
+members = "altricial"
+
+[00102213-a]
+definition = "(of hatchlings) covered with down and having eyes open; capable of leaving the nest within a few days"
+members = "precocial"
+
+[00102370-a]
+definition = "showing unselfish concern for the welfare of others"
+members = "altruistic, selfless"
+
+[00102561-a]
+definition = "limited to or caring only about yourself and your own needs"
+members = "egoistic, egoistical, egocentric, self-centered, self-centred"
+
+[00102878-s]
+definition = "absorbed in your own interests or thoughts etc"
+members = "self-absorbed, self-involved"
+hypernym = "egoistic, egoistical, egocentric, self-centered, self-centred"
+hypernym_definition = "limited to or caring only about yourself and your own needs"
+
+[00103000-a]
+definition = "having more than one possible meaning"
+members = "ambiguous"
+
+[00103377-s]
+definition = "having two purposes; twofold"
+members = "double-barreled, double-barrelled"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00103585-s]
+definition = "capable of being interpreted in two usually contradictory ways"
+members = "double-edged"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00103729-s]
+definition = "resembling an oracle in obscurity of thought"
+members = "enigmatic, oracular"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00103995-s]
+definition = "ironically ambiguous"
+members = "left-handed"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00104101-s]
+definition = "having many values, meanings, or appeals"
+members = "multivalent, multi-valued"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00104246-s]
+definition = "of words; having many meanings"
+members = "polysemous, polysemantic"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00104366-s]
+definition = "ambiguous (especially in the negative)"
+members = "uncertain"
+hypernym = "ambiguous"
+hypernym_definition = "having more than one possible meaning"
+
+[00104495-a]
+definition = "having or exhibiting a single clearly defined meaning"
+members = "unambiguous"
+
+[00104752-s]
+definition = "having only one meaning"
+members = "monosemous"
+hypernym = "unambiguous"
+hypernym_definition = "having or exhibiting a single clearly defined meaning"
+
+[00104850-a]
+definition = "having a strong desire for success or achievement"
+members = "ambitious"
+
+[00105117-s]
+definition = "marked by aggressive ambition and energy and initiative"
+members = "pushful, pushy"
+hypernym = "ambitious"
+hypernym_definition = "having a strong desire for success or achievement"
+
+[00105332-s]
+definition = "desiring or striving for recognition or advancement"
+members = "aspirant, aspiring, wishful"
+hypernym = "ambitious"
+hypernym_definition = "having a strong desire for success or achievement"
+
+[00105498-s]
+definition = "strongly motivated to succeed"
+members = "compulsive, determined, driven"
+hypernym = "ambitious"
+hypernym_definition = "having a strong desire for success or achievement"
+
+[00105624-s]
+definition = "unfulfilled or frustrated in realizing an ambition"
+members = "manque, would-be"
+hypernym = "ambitious"
+hypernym_definition = "having a strong desire for success or achievement"
+
+[00105741-s]
+definition = "excessively ambitious"
+members = "overambitious"
+hypernym = "ambitious"
+hypernym_definition = "having a strong desire for success or achievement"
+
+[00105822-a]
+definition = "having little desire for success or achievement"
+members = "unambitious, ambitionless"
+
+[00105996-s]
+definition = "lacking or characterized by lack of ambition or initiative"
+members = "shiftless"
+hypernym = "unambitious, ambitionless"
+hypernym_definition = "having little desire for success or achievement"
+
+[00106187-a]
+definition = "of or relating to an abnormal condition of the eye in which visual images are not in focus on the retina"
+members = "ametropic"
+
+[00106365-a]
+definition = "of or relating to the normal condition of the eye in which visual images are in clear focus on the retina"
+members = "emmetropic"
+
+[00106545-a]
+definition = "more than enough in size or scope or capacity"
+members = "ample"
+
+[00106819-s]
+definition = "having the normally expected amount"
+members = "full, good"
+hypernym = "ample"
+hypernym_definition = "more than enough in size or scope or capacity"
+
+[00106981-s]
+definition = "more than is usual or necessary"
+members = "generous"
+hypernym = "ample"
+hypernym_definition = "more than enough in size or scope or capacity"
+
+[00107089-s]
+definition = "having ample fabric"
+members = "wide, wide-cut, full"
+hypernym = "ample"
+hypernym_definition = "more than enough in size or scope or capacity"
+
+[00107268-a]
+definition = "deficient in amount or quality or extent"
+members = "meager, meagre, meagerly, stingy, scrimpy"
+
+[00107633-s]
+definition = "lacking in magnitude or quantity"
+members = "bare, scanty, spare"
+hypernym = "meager, meagre, meagerly, stingy, scrimpy"
+hypernym_definition = "deficient in amount or quality or extent"
+
+[00107829-s]
+definition = "extremely scanty"
+members = "exiguous"
+hypernym = "meager, meagre, meagerly, stingy, scrimpy"
+hypernym_definition = "deficient in amount or quality or extent"
+
+[00107940-s]
+definition = "providing only bare essentials"
+members = "hand-to-mouth"
+hypernym = "meager, meagre, meagerly, stingy, scrimpy"
+hypernym_definition = "deficient in amount or quality or extent"
+
+[00108062-s]
+definition = "barely satisfying a lower standard"
+members = "hardscrabble"
+hypernym = "meager, meagre, meagerly, stingy, scrimpy"
+hypernym_definition = "deficient in amount or quality or extent"
+
+[00108195-s]
+definition = "contemptibly small in amount"
+members = "measly, miserable, paltry"
+hypernym = "meager, meagre, meagerly, stingy, scrimpy"
+hypernym_definition = "deficient in amount or quality or extent"
+
+[00108459-a]
+definition = "characterized by or promoting constructive metabolism"
+members = "anabolic"
+
+[00108679-s]
+definition = "of or relating to anabolism"
+members = "constructive-metabolic, energy-storing"
+hypernym = "anabolic"
+hypernym_definition = "characterized by or promoting constructive metabolism"
+
+[00108795-a]
+definition = "characterized by destructive metabolism"
+members = "catabolic, katabolic"
+
+[00108956-s]
+definition = "of or relating to catabolism"
+members = "destructive-metabolic, energy-releasing"
+hypernym = "catabolic, katabolic"
+hypernym_definition = "characterized by destructive metabolism"
+
+[00109074-a]
+definition = "of valleys and rivers; progressing in a direction opposite to the dip in surrounding rock strata"
+members = "anaclinal"
+
+[00109245-a]
+definition = "of valleys and rivers; running in the direction of the dip in surrounding rock strata"
+members = "cataclinal"
+
+[00109406-a]
+definition = "not astigmatic"
+members = "anastigmatic, stigmatic"
+
+[00109509-a]
+definition = "of or relating to a defect in the eye or in a lens caused by a deviation from spherical curvature which prevents light rays from meeting at a common focus and so results in distorted images"
+members = "astigmatic"
+
+[00109827-a]
+definition = "sloping downward away from a common crest"
+members = "anticlinal"
+
+[00109944-a]
+definition = "sloping downward toward each other to create a trough"
+members = "synclinal"
+
+[00110072-a]
+definition = "migrating from the sea to fresh water to spawn"
+members = "anadromous"
+
+[00110193-a]
+definition = "migrating from fresh water to the sea to spawn"
+members = "catadromous"
+
+[00110315-a]
+definition = "(used of fish) migratory between fresh and salt waters"
+members = "diadromous"
+
+[00110444-a]
+definition = "of an air current or wind; rising especially up a slope"
+members = "anabatic"
+
+[00110593-a]
+definition = "of an air current or wind; moving downward or down a slope because of cooling especially at night"
+members = "katabatic, catabatic"
+
+[00110777-a]
+definition = "a stage in psychosexual development when the child's interest is concentrated on the anal region; fixation at this stage is said to result in orderliness, meanness, stubbornness, compulsiveness, etc."
+members = "anal, anal retentive"
+
+[00111063-a]
+definition = "a stage in psychosexual development when the child's interest is concentrated in the mouth; fixation at this stage is said to result in dependence, selfishness, and aggression"
+members = "oral"
+
+[00111308-a]
+definition = "of a circuit or device having an output that is proportional to the input"
+members = "analogue, analog, linear"
+
+[00111512-a]
+definition = "of a circuit or device that represents magnitudes in digits"
+members = "digital"
+
+[00111664-a]
+definition = "of a proposition that is necessarily true independent of fact or experience"
+members = "analytic, analytical"
+
+[00111940-a]
+definition = "of a proposition whose truth value is determined by observation or facts"
+members = "synthetic, synthetical"
+
+[00112226-a]
+definition = "expressing a grammatical category by using two or more words rather than inflection"
+members = "analytic, uninflected"
+
+[00112415-s]
+definition = "relating to or being a language in which each word typically expresses a distinct idea and part of speech and syntactical relations are determined almost exclusively by word order and particles"
+members = "isolating"
+hypernym = "analytic, uninflected"
+hypernym_definition = "expressing a grammatical category by using two or more words rather than inflection"
+
+[00112667-a]
+definition = "systematic combining of root and modifying elements into single words"
+members = "synthetic"
+
+[00112829-s]
+definition = "forming derivative or compound words by putting together constituents each of which expresses a single definite meaning"
+members = "agglutinative, polysynthetic"
+hypernym = "synthetic"
+hypernym_definition = "systematic combining of root and modifying elements into single words"
+
+[00113042-a]
+definition = "using or skilled in using analysis (i.e., separating a whole--intellectual or substantial--into its elemental parts or basic principles)"
+members = "analytic, analytical"
+
+[00113439-a]
+definition = "involving or of the nature of synthesis (combining separate elements to form a coherent whole) as opposed to analysis"
+members = "synthetic, synthetical"
+
+[00113826-a]
+definition = "characterized by inflections indicating grammatical distinctions"
+members = "inflectional"
+
+[00114056-a]
+definition = "characterized by inflections indicating a semantic relation between a word and its base"
+members = "derivational"
+
+[00114287-a]
+definition = "(of ovaries of flowering plants) consisting of carpels that are free from one another as in buttercups or roses"
+members = "apocarpous"
+
+[00114474-a]
+definition = "(of ovaries of flowering plants) consisting of united carpels"
+members = "syncarpous"
+
+[00114629-a]
+definition = "feeling or showing anger"
+members = "angry"
+
+[00115077-s]
+definition = "incited, especially deliberately, to anger"
+members = "aggravated, provoked"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00115265-s]
+definition = "marked by extreme anger"
+members = "angered, enraged, furious, infuriated, maddened"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00115608-s]
+definition = "marked by anger or resentment or hostility"
+members = "black"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00115732-s]
+definition = "characterized by anger"
+members = "choleric, irascible"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00115905-s]
+definition = "very angry"
+members = "hot under the collar"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00116004-s]
+definition = "roused to anger"
+members = "huffy, mad, sore"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00116305-s]
+definition = "angered at something unjust or wrong"
+members = "indignant, incensed, outraged, umbrageous"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00116588-s]
+definition = "feeling or showing extreme anger"
+members = "irate, ireful"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00116717-s]
+definition = "furiously angry"
+members = "livid"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00116869-s]
+definition = "showing scarcely suppressed anger"
+members = "smoldering, smouldering"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00117056-s]
+definition = "vehemently incensed and condemnatory"
+members = "wrathful, wroth, wrothful"
+hypernym = "angry"
+hypernym_definition = "feeling or showing anger"
+
+[00117274-a]
+definition = "not angry"
+members = "unangry"
+
+[00117340-a]
+definition = "full of or marked by resentment or indignant ill will"
+members = "resentful"
+
+[00117555-s]
+definition = "marked by strong resentment or cynicism"
+members = "acrimonious, bitter"
+hypernym = "resentful"
+hypernym_definition = "full of or marked by resentment or indignant ill will"
+
+[00117751-s]
+definition = "showing deep-seated resentment"
+members = "rancorous"
+hypernym = "resentful"
+hypernym_definition = "full of or marked by resentment or indignant ill will"
+
+[00117917-a]
+definition = "not resentful"
+members = "unresentful"
+
+[00118046-s]
+definition = "having or showing no resentment or desire for revenge"
+members = "unbitter"
+hypernym = "unresentful"
+hypernym_definition = "not resentful"
+
+[00118196-a]
+definition = "endowed with feeling and unstructured consciousness"
+members = "sentient, animate"
+
+[00118465-s]
+definition = "having physical sensation"
+members = "sensate"
+hypernym = "sentient, animate"
+hypernym_definition = "endowed with feeling and unstructured consciousness"
+
+[00118565-a]
+definition = "devoid of feeling and consciousness and animation"
+members = "insentient, insensate"
+
+[00118772-s]
+definition = "devoid of feeling or sensation"
+members = "unfeeling"
+hypernym = "insentient, insensate"
+hypernym_definition = "devoid of feeling and consciousness and animation"
+
+[00118877-a]
+definition = "endowed with animal life as distinguished from plant life"
+members = "animate"
+
+[00119049-a]
+definition = "not endowed with life"
+members = "inanimate, nonliving, non-living"
+
+[00119262-s]
+definition = "relating to the lack of consciousness of inanimate things"
+members = "nonconscious"
+hypernym = "inanimate, nonliving, non-living"
+hypernym_definition = "not endowed with life"
+
+[00119378-a]
+definition = "having life or vigor or spirit"
+members = "animated, alive"
+
+[00119655-s]
+definition = "made lively or spirited"
+members = "enlivened, spirited"
+hypernym = "animated, alive"
+hypernym_definition = "having life or vigor or spirit"
+
+[00119817-s]
+definition = "full of spirit; full of life"
+members = "lively, vital"
+hypernym = "animated, alive"
+hypernym_definition = "having life or vigor or spirit"
+
+[00120089-s]
+definition = "given fresh life or vigor or spirit"
+members = "reanimated, revived"
+hypernym = "animated, alive"
+hypernym_definition = "having life or vigor or spirit"
+
+[00120219-a]
+definition = "not animated or enlivened; dull"
+members = "unanimated"
+
+[00120343-s]
+definition = "lacking animation or excitement or activity"
+members = "lifeless"
+hypernym = "unanimated"
+hypernym_definition = "not animated or enlivened; dull"
+
+[00120560-s]
+definition = "lacking vitality as from weariness or illness or unhappiness"
+members = "wan"
+hypernym = "unanimated"
+hypernym_definition = "not animated or enlivened; dull"
+
+[00120685-a]
+definition = "made sprightly or cheerful"
+members = "enlivened"
+
+[00120803-s]
+definition = "made or become more cheerful or lively"
+members = "perked up"
+hypernym = "enlivened"
+hypernym_definition = "made sprightly or cheerful"
+
+[00120942-a]
+definition = "not made lively or brightened"
+members = "unenlivened"
+
+[00121062-a]
+definition = "belonging to the class of nouns that denote living beings"
+members = "animate"
+
+[00121221-a]
+definition = "belonging to the class of nouns denoting nonliving things"
+members = "inanimate"
+
+[00121384-a]
+definition = "having no known name or identity or known source"
+members = "anonymous, anon."
+
+[00121594-s]
+definition = "being or having an unknown or unnamed source"
+members = "nameless, unidentified, unknown, unnamed"
+hypernym = "anonymous, anon."
+hypernym_definition = "having no known name or identity or known source"
+
+[00121844-a]
+definition = "bearing a name"
+members = "onymous"
+
+[00121993-s]
+definition = "having or characterized by two names, especially those of genus and species in taxonomies"
+members = "binomial, binominal"
+hypernym = "onymous"
+hypernym_definition = "bearing a name"
+
+[00122186-s]
+definition = "bearing or identified by an assumed (often pen) name"
+members = "pseudonymous"
+hypernym = "onymous"
+hypernym_definition = "bearing a name"
+
+[00122362-a]
+definition = "preceding death"
+members = "antemortem"
+
+[00122459-a]
+definition = "occurring or done after death"
+members = "postmortem, postmortal"
+
+[00122675-a]
+definition = "preceding in time or order"
+members = "antecedent"
+
+[00122938-s]
+definition = "earlier in time"
+members = "anterior, prior"
+hypernym = "antecedent"
+hypernym_definition = "preceding in time or order"
+
+[00123055-s]
+definition = "in anticipation"
+members = "anticipatory, prevenient"
+hypernym = "antecedent"
+hypernym_definition = "preceding in time or order"
+
+[00123196-s]
+definition = "existing previously or before something"
+members = "preexistent, pre-existent, preexisting, pre-existing"
+hypernym = "antecedent"
+hypernym_definition = "preceding in time or order"
+
+[00123436-a]
+definition = "following in time or order"
+members = "subsequent"
+
+[00123654-s]
+definition = "occurring with or following as a consequence"
+members = "attendant, consequent, accompanying, concomitant, incidental, ensuant, resultant, sequent, collateral"
+hypernym = "subsequent"
+hypernym_definition = "following in time or order"
+
+[00124357-s]
+definition = "coming at a subsequent time or stage"
+members = "later, ulterior, posterior"
+hypernym = "subsequent"
+hypernym_definition = "following in time or order"
+
+[00124525-a]
+definition = "bent or curved forward or upward"
+members = "antrorse"
+
+[00124676-a]
+definition = "bent or curved backward or downward"
+members = "retrorse"
+
+[00124833-s]
+definition = "bent down or curved downward"
+members = "decurved"
+hypernym = "retrorse"
+hypernym_definition = "bent or curved backward or downward"
+
+[00124949-a]
+definition = "operating or living or growing in water"
+members = "aquatic"
+
+[00125225-s]
+definition = "native to or inhabiting the sea"
+members = "marine"
+hypernym = "aquatic"
+hypernym_definition = "operating or living or growing in water"
+
+[00125365-s]
+definition = "partially aquatic; living or growing partly on land and partly in water"
+members = "semiaquatic, subaquatic"
+hypernym = "aquatic"
+hypernym_definition = "operating or living or growing in water"
+
+[00125557-s]
+definition = "growing or remaining under water"
+members = "subaqueous, subaquatic, submerged, submersed, underwater"
+hypernym = "aquatic"
+hypernym_definition = "operating or living or growing in water"
+
+[00125790-a]
+definition = "operating or living or growing on land"
+members = "terrestrial"
+
+[00125940-s]
+definition = "on the edge of the land"
+members = "onshore"
+hypernym = "terrestrial"
+hypernym_definition = "operating or living or growing on land"
+
+[00126042-s]
+definition = "traveling or passing over land"
+members = "overland"
+hypernym = "terrestrial"
+hypernym_definition = "operating or living or growing on land"
+
+[00126191-a]
+definition = "operating or living on land and in water"
+members = "amphibious"
+
+[00126425-s]
+definition = "having an aquatic early or larval form and a terrestrial adult form"
+members = "amphibiotic, semiaquatic"
+hypernym = "amphibious"
+hypernym_definition = "operating or living on land and in water"
+
+[00126583-a]
+definition = "existing or coming before"
+members = "preceding"
+
+[00126865-s]
+definition = "appearing earlier in the same text"
+members = "above"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00126988-s]
+definition = "mentioned or named earlier in the same text"
+members = "above-mentioned, above-named"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00127107-s]
+definition = "especially of writing or speech; going before"
+members = "foregoing"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00127211-s]
+definition = "serving as an introduction or preface"
+members = "introductory, prefatorial, prefatory"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00127369-s]
+definition = "preceding in time, order, or significance"
+members = "precedent"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00127574-s]
+definition = "preceding and preparing for the study of medicine"
+members = "premedical"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00127702-s]
+definition = "preceding and preparing for something"
+members = "preparatory, preparative, propaedeutic"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00128009-s]
+definition = "just preceding something else in time or order"
+members = "previous, old"
+hypernym = "preceding"
+hypernym_definition = "existing or coming before"
+
+[00128168-a]
+definition = "coming after or following"
+members = "succeeding"
+
+[00128433-s]
+definition = "one after the other"
+members = "back-to-back, consecutive"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00128551-s]
+definition = "following immediately and as a result of what went before"
+members = "ensuing"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00128705-s]
+definition = "about to be mentioned or specified"
+members = "following, undermentioned"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00128838-s]
+definition = "immediately following in time or order"
+members = "following, next"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00129027-s]
+definition = "(of a day of the week) nearest (or nearest but one) after the present moment"
+members = "next"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00129209-s]
+definition = "being next in a line of succession"
+members = "in line"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00129334-s]
+definition = "after death or after an event"
+members = "postmortem"
+hypernym = "succeeding"
+hypernym_definition = "coming after or following"
+
+[00129539-a]
+definition = "having or supported or justified by a precedent"
+members = "precedented"
+
+[00129644-a]
+definition = "having no precedent; novel; never seen before"
+members = "unprecedented"
+
+[00129805-s]
+definition = "having no previous example or precedent or parallel"
+members = "new, unexampled"
+hypernym = "unprecedented"
+hypernym_definition = "having no precedent; novel; never seen before"
+
+[00129954-a]
+definition = "adapted for grasping especially by wrapping around an object"
+members = "prehensile"
+
+[00130101-a]
+definition = "not prehensile"
+members = "nonprehensile"
+
+[00130175-a]
+definition = "occurring or existing before birth"
+members = "prenatal, antenatal, antepartum"
+
+[00130348-a]
+definition = "occurring during the period around birth (5 months before and 1 month after)"
+members = "perinatal"
+
+[00130539-a]
+definition = "occurring immediately after birth"
+members = "postnatal, postpartum"
+
+[00130684-a]
+definition = "preceding a meal (especially dinner)"
+members = "preprandial"
+
+[00130801-a]
+definition = "following a meal (especially dinner)"
+members = "postprandial"
+
+[00130950-a]
+definition = "existing or belonging to a time before a war"
+members = "prewar"
+
+[00131089-a]
+definition = "belonging to the period after a war"
+members = "postwar"
+
+[00131223-a]
+definition = "of amnesia; affecting time immediately preceding trauma"
+members = "retrograde"
+
+[00131353-a]
+definition = "of amnesia; affecting time immediately following trauma"
+members = "anterograde"
+
+[00131484-a]
+definition = "before noon"
+members = "antemeridian"
+
+[00131590-s]
+definition = "before twelve noon"
+members = "ante meridiem, a.m."
+hypernym = "antemeridian"
+hypernym_definition = "before noon"
+
+[00131668-a]
+definition = "after midday"
+members = "postmeridian"
+
+[00131773-s]
+definition = "after noon"
+members = "post meridiem, p.m."
+hypernym = "postmeridian"
+hypernym_definition = "after midday"
+
+[00131850-a]
+definition = "of or near the head end or toward the front plane of a body"
+members = "anterior"
+
+[00132090-s]
+definition = "belonging to the front part"
+members = "frontal"
+hypernym = "anterior"
+hypernym_definition = "of or near the head end or toward the front plane of a body"
+
+[00132248-s]
+definition = "of or adjacent to the forehead or frontal bone"
+members = "frontal"
+hypernym = "anterior"
+hypernym_definition = "of or near the head end or toward the front plane of a body"
+
+[00132369-s]
+definition = "anterior to a frontal structure"
+members = "prefrontal"
+hypernym = "anterior"
+hypernym_definition = "of or near the head end or toward the front plane of a body"
+
+[00132498-a]
+definition = "located at or near or behind a part or near the end of a structure"
+members = "posterior"
+
+[00132764-s]
+definition = "located at or near the back of an animal"
+members = "back, hind, hinder"
+hypernym = "posterior"
+hypernym_definition = "located at or near or behind a part or near the end of a structure"
+
+[00132935-s]
+definition = "situated in or directed toward the part of the body from which the tail arises"
+members = "caudal"
+hypernym = "posterior"
+hypernym_definition = "located at or near or behind a part or near the end of a structure"
+
+[00133111-s]
+definition = "at or near or toward the posterior"
+members = "retral"
+hypernym = "posterior"
+hypernym_definition = "located at or near or behind a part or near the end of a structure"
+
+[00133198-a]
+definition = "belonging to or on or near the back or upper surface of an animal or organ or part"
+members = "dorsal"
+
+[00133456-a]
+definition = "toward or on or near the belly (front of a primate or lower surface of a lower animal)"
+members = "ventral"
+
+[00133825-s]
+definition = "extending from the back to the belly"
+members = "dorsoventral"
+hypernym = "ventral"
+hypernym_definition = "toward or on or near the belly (front of a primate or lower surface of a lower animal)"
+
+[00133920-a]
+definition = "capable of being appealed especially to a higher tribunal"
+members = "appealable"
+
+[00134136-a]
+definition = "not subject to appeal"
+members = "unappealable"
+
+[00134330-a]
+definition = "having an appendage"
+members = "appendaged"
+
+[00134406-a]
+definition = "not having an appendage"
+members = "unappendaged"
+
+[00134488-a]
+definition = "appealing to or stimulating the appetite especially in appearance or aroma"
+members = "appetizing, appetising"
+
+[00134740-s]
+definition = "having a pleasant taste"
+members = "mouth-watering, savory, savoury"
+hypernym = "appetizing, appetising"
+hypernym_definition = "appealing to or stimulating the appetite especially in appearance or aroma"
+
+[00134922-a]
+definition = "not appetizing in appearance, aroma, or taste"
+members = "unappetizing, unappetising"
+
+[00135131-a]
+definition = "easy to meet or converse or do business with"
+members = "approachable"
+
+[00135322-s]
+definition = "easy to get along with or talk to; friendly"
+members = "accessible"
+hypernym = "approachable"
+hypernym_definition = "easy to meet or converse or do business with"
+
+[00135472-a]
+definition = "discouraging intimacies; reserved"
+members = "unapproachable"
+
+[00135633-s]
+definition = "lacking cordiality; unfriendly"
+members = "offish, standoffish"
+hypernym = "unapproachable"
+hypernym_definition = "discouraging intimacies; reserved"
+
+[00135772-a]
+definition = "suitable for a particular person or place or condition etc"
+members = "appropriate"
+
+[00136163-s]
+definition = "appropriate to"
+members = "befitting"
+hypernym = "appropriate"
+hypernym_definition = "suitable for a particular person or place or condition etc"
+
+[00136264-s]
+definition = "the quality of ability and work that is appropriate for students in a specified grade"
+members = "grade-appropriate"
+hypernym = "appropriate"
+hypernym_definition = "suitable for a particular person or place or condition etc"
+
+[00136413-s]
+definition = "exactly suited to the occasion"
+members = "pat"
+hypernym = "appropriate"
+hypernym_definition = "suitable for a particular person or place or condition etc"
+
+[00136526-s]
+definition = "appropriate for a condition or purpose or occasion or a person's character, needs"
+members = "proper, right"
+hypernym = "appropriate"
+hypernym_definition = "suitable for a particular person or place or condition etc"
+
+[00136789-a]
+definition = "not suitable for a particular occasion etc"
+members = "inappropriate"
+
+[00137152-s]
+definition = "not befitting"
+members = "unbefitting"
+hypernym = "inappropriate"
+hypernym_definition = "not suitable for a particular occasion etc"
+
+[00137256-s]
+definition = "not appropriate for a purpose or occasion"
+members = "improper, wrong"
+hypernym = "inappropriate"
+hypernym_definition = "not suitable for a particular occasion etc"
+
+[00137425-a]
+definition = "owed and payable immediately or on demand"
+members = "due"
+
+[00137678-s]
+definition = "subject to a demand for payment before due date"
+members = "callable"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00137816-s]
+definition = "payable by the recipient on delivery"
+members = "collect, cod"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00137973-s]
+definition = "subject to or requiring payment especially as specified"
+members = "collectible, collectable, payable"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138209-s]
+definition = "past due; not paid at the scheduled time"
+members = "delinquent, overdue"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138366-s]
+definition = "awaiting payment"
+members = "receivable"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138462-s]
+definition = "payable in installments within a designated period of time"
+members = "on time"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138641-s]
+definition = "calling for the spending of cash"
+members = "out-of-pocket"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138769-s]
+definition = "subject to repayment"
+members = "repayable"
+hypernym = "due"
+hypernym_definition = "owed and payable immediately or on demand"
+
+[00138909-a]
+definition = "not yet payable"
+members = "undue"
+
+[00138993-a]
+definition = "suitable to or expected in the circumstances"
+members = "due"
+
+[00139211-a]
+definition = "not appropriate or proper (or even legal) in the circumstances"
+members = "undue"
+
+[00139437-a]
+definition = "of an appropriate or pertinent nature"
+members = "apropos"
+
+[00139582-s]
+definition = "being of striking appropriateness and pertinence"
+members = "apposite, apt, pertinent"
+hypernym = "apropos"
+hypernym_definition = "of an appropriate or pertinent nature"
+
+[00139890-a]
+definition = "of an inappropriate or incorrectly applied nature"
+members = "malapropos"
+
+[00140050-s]
+definition = "of an inappropriate or misapplied nature"
+members = "inapposite, out of place"
+hypernym = "malapropos"
+hypernym_definition = "of an inappropriate or incorrectly applied nature"
+
+[00140180-a]
+definition = "involving deductive reasoning from a general principle to a necessary effect; not supported by fact"
+members = "a priori"
+
+[00140394-a]
+definition = "involving reasoning from facts or particulars to general principles or from effects to causes"
+members = "a posteriori"
+
+[00140612-a]
+definition = "having columns at one or both ends but not along the sides"
+members = "apteral"
+
+[00140760-s]
+definition = "marked by columniation having free columns in porticoes either at both ends or at both sides of a structure"
+members = "amphiprostylar, amphiprostyle, amphistylar, porticoed"
+hypernym = "apteral"
+hypernym_definition = "having columns at one or both ends but not along the sides"
+
+[00140970-s]
+definition = "marked by columniation having free columns in a portico only across the opening to the structure"
+members = "prostyle, pseudoprostyle"
+hypernym = "apteral"
+hypernym_definition = "having columns at one or both ends but not along the sides"
+
+[00141138-a]
+definition = "having columns on all sides"
+members = "peripteral"
+
+[00141258-s]
+definition = "having circular columniation"
+members = "monopteral"
+hypernym = "peripteral"
+hypernym_definition = "having columns on all sides"
+
+[00141343-s]
+definition = "having columniation completely circling an area of the structure"
+members = "peristylar, pseudoperipteral"
+hypernym = "peripteral"
+hypernym_definition = "having columns on all sides"
+
+[00141501-a]
+definition = "appropriate for or subject to settlement by arbitration"
+members = "arbitrable"
+
+[00141705-a]
+definition = "not appropriate for or subject to arbitration"
+members = "nonarbitrable"
+
+[00141810-a]
+definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+members = "columned"
+
+[00142148-s]
+definition = "having columns either at both ends or at both sides"
+members = "amphistylar"
+hypernym = "columned"
+hypernym_definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+
+[00142257-s]
+definition = "characterized by columns"
+members = "columnar"
+hypernym = "columned"
+hypernym_definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+
+[00142379-s]
+definition = "having the form of a column"
+members = "columniform, columnar, columnlike"
+hypernym = "columned"
+hypernym_definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+
+[00142584-s]
+definition = "having a series of columns arranged at regular intervals"
+members = "colonnaded"
+hypernym = "columned"
+hypernym_definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+
+[00142697-s]
+definition = "having pillars"
+members = "pillared"
+hypernym = "columned"
+hypernym_definition = "having or resembling columns; having columns of a specified kind (often used as a combining form)"
+
+[00142790-a]
+definition = "not having columns"
+members = "noncolumned, uncolumned"
+
+[00142915-s]
+definition = "lacking columns or pillars"
+members = "astylar"
+hypernym = "noncolumned, uncolumned"
+hypernym_definition = "not having columns"
+
+[00143014-s]
+definition = "lacking pillars"
+members = "unpillared"
+hypernym = "noncolumned, uncolumned"
+hypernym_definition = "not having columns"
+
+[00143086-a]
+definition = "inhabiting or frequenting trees"
+members = "arboreal, arboreous, tree-living"
+
+[00143215-a]
+definition = "not inhabiting or frequenting trees"
+members = "nonarboreal"
+
+[00143308-a]
+definition = "resembling or containing or abounding in sand; or growing in sandy areas"
+members = "arenaceous, sandy, sandlike"
+
+[00143538-a]
+definition = "resembling or containing clay"
+members = "argillaceous, clayey"
+
+[00143675-a]
+definition = "(used of persons or the military) characterized by having or bearing arms"
+members = "armed"
+
+[00143890-s]
+definition = "carrying weapons"
+members = "equipped, weaponed"
+hypernym = "armed"
+hypernym_definition = "(used of persons or the military) characterized by having or bearing arms"
+
+[00143972-s]
+definition = "armed with light equipment and weapons"
+members = "light-armed"
+hypernym = "armed"
+hypernym_definition = "(used of persons or the military) characterized by having or bearing arms"
+
+[00144093-s]
+definition = "issued military arms"
+members = "militarized, militarised"
+hypernym = "armed"
+hypernym_definition = "(used of persons or the military) characterized by having or bearing arms"
+
+[00144185-a]
+definition = "(used of persons or the military) not having or using arms"
+members = "unarmed"
+
+[00144469-s]
+definition = "with bare hands"
+members = "barehanded"
+hypernym = "unarmed"
+hypernym_definition = "(used of persons or the military) not having or using arms"
+
+[00144562-s]
+definition = "not carrying concealed weapons"
+members = "clean"
+hypernym = "unarmed"
+hypernym_definition = "(used of persons or the military) not having or using arms"
+
+[00144644-s]
+definition = "lacking weapons for self-defense"
+members = "defenseless, defenceless"
+hypernym = "unarmed"
+hypernym_definition = "(used of persons or the military) not having or using arms"
+
+[00144784-s]
+definition = "without a weapon"
+members = "weaponless"
+hypernym = "unarmed"
+hypernym_definition = "(used of persons or the military) not having or using arms"
+
+[00144857-a]
+definition = "protected by armor (used of persons or things military)"
+members = "armored, armoured"
+
+[00145122-s]
+definition = "covered with heavy steel"
+members = "armor-clad, armour-clad, armor-plated, armour-plated, steel-plated"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145288-s]
+definition = "covered with bony plates"
+members = "bony-plated"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145370-s]
+definition = "not penetrable by bullets"
+members = "bulletproof"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145512-s]
+definition = "equipped with armor heavy enough to provide protection against fire from light arms"
+members = "lightly armored, lightly armoured"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145676-s]
+definition = "having bony plates on the sides of the head"
+members = "mail-cheeked"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145778-s]
+definition = "wearing protective mail"
+members = "mail-clad, mailed"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145866-s]
+definition = "(used of armor) having overlapping metal plates attached to a leather backing"
+members = "scaled"
+hypernym = "armored, armoured"
+hypernym_definition = "protected by armor (used of persons or things military)"
+
+[00145996-a]
+definition = "(used of persons or things military) without protective armor"
+members = "unarmored, unarmoured"
+
+[00146145-a]
+definition = "(used of plants and animals) furnished with bristles and thorns"
+members = "armed"
+
+[00146351-s]
+definition = "having or covered with protective barbs or quills or spines or thorns or setae etc."
+members = "barbed, barbellate, briary, briery, bristled, bristly, burred, burry, prickly, setose, setaceous, spiny, thorny"
+hypernym = "armed"
+hypernym_definition = "(used of plants and animals) furnished with bristles and thorns"
+
+[00146896-s]
+definition = "resembling a bristle"
+members = "bristlelike"
+hypernym = "armed"
+hypernym_definition = "(used of plants and animals) furnished with bristles and thorns"
+
+[00146974-s]
+definition = "resembling a brush"
+members = "brushlike"
+hypernym = "armed"
+hypernym_definition = "(used of plants and animals) furnished with bristles and thorns"
+
+[00147073-s]
+definition = "resembling a thistle"
+members = "thistlelike"
+hypernym = "armed"
+hypernym_definition = "(used of plants and animals) furnished with bristles and thorns"
+
+[00147151-s]
+definition = "(of predatory animals) armed with claws or talons"
+members = "clawed, taloned"
+hypernym = "armed"
+hypernym_definition = "(used of plants and animals) furnished with bristles and thorns"
+
+[00147263-a]
+definition = "(used of plants or animals) lacking barbs or stings or thorns"
+members = "unarmed"
+
+[00147396-s]
+definition = "lacking thorns"
+members = "thornless, spineless"
+hypernym = "unarmed"
+hypernym_definition = "(used of plants or animals) lacking barbs or stings or thorns"
+
+[00147478-a]
+definition = "having arms or arms as specified; used especially in combination"
+members = "armed"
+
+[00147698-s]
+definition = "resembling an arm"
+members = "armlike"
+hypernym = "armed"
+hypernym_definition = "having arms or arms as specified; used especially in combination"
+
+[00147769-s]
+definition = "having arms or armlike appendages"
+members = "brachiate"
+hypernym = "armed"
+hypernym_definition = "having arms or arms as specified; used especially in combination"
+
+[00147877-s]
+definition = "having relatively long arms"
+members = "long-armed"
+hypernym = "armed"
+hypernym_definition = "having arms or arms as specified; used especially in combination"
+
+[00147961-s]
+definition = "having one arm"
+members = "one-armed"
+hypernym = "armed"
+hypernym_definition = "having arms or arms as specified; used especially in combination"
+
+[00148054-a]
+definition = "having no arms"
+members = "armless"
+
+[00148151-a]
+definition = "used of animals; provided with protective covering"
+members = "armored, armoured"
+
+[00148320-s]
+definition = "(of animals) armored with bone"
+members = "bone-covered"
+hypernym = "armored, armoured"
+hypernym_definition = "used of animals; provided with protective covering"
+
+[00148428-s]
+definition = "having the body covered or partially covered with thin horny plates, as some fish and reptiles"
+members = "scaly, scaley, scaled"
+hypernym = "armored, armoured"
+hypernym_definition = "used of animals; provided with protective covering"
+
+[00148665-s]
+definition = "having the body covered or partially covered with silver-colored scales"
+members = "silver-scaled"
+hypernym = "armored, armoured"
+hypernym_definition = "used of animals; provided with protective covering"
+
+[00148796-a]
+definition = "used of animals; without protective covering"
+members = "unarmored, unarmoured"
+
+[00148927-s]
+definition = "destitute of scales"
+members = "scaleless"
+hypernym = "unarmored, unarmoured"
+hypernym_definition = "used of animals; without protective covering"
+
+[00149002-a]
+definition = "marked by skill in achieving a desired end especially with cunning or craft"
+members = "artful"
+
+[00149346-s]
+definition = "marked by skill in deception"
+members = "crafty, cunning, dodgy, foxy, guileful, knavish, slick, sly, tricksy, tricky, wily"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00149910-s]
+definition = "obviously contrived to charm"
+members = "cute, precious"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00150120-s]
+definition = "concealing crafty designs for advancing your own interest"
+members = "designing, scheming"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00150388-s]
+definition = "exhibiting great cunning usually with secrecy"
+members = "deep"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00150530-s]
+definition = "skillful at eluding capture"
+members = "elusive"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00150729-s]
+definition = "skillful in influencing or controlling others to your own advantage"
+members = "manipulative"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00150954-s]
+definition = "cunning and sly"
+members = "pawky"
+hypernym = "artful"
+hypernym_definition = "marked by skill in achieving a desired end especially with cunning or craft"
+
+[00151129-a]
+definition = "simple and natural; without cunning or deceit"
+members = "artless"
+
+[00151323-s]
+definition = "effortless and unstudied"
+members = "careless"
+hypernym = "artless"
+hypernym_definition = "simple and natural; without cunning or deceit"
+
+[00151470-a]
+definition = "expressing yourself easily or characterized by clear expressive language"
+members = "articulate"
+
+[00151773-s]
+definition = "expressing yourself readily, clearly, effectively"
+members = "eloquent, facile, fluent, silver, silver-tongued, smooth-spoken"
+hypernym = "articulate"
+hypernym_definition = "expressing yourself easily or characterized by clear expressive language"
+
+[00152103-s]
+definition = "capable of speech"
+members = "speech-endowed, speaking"
+hypernym = "articulate"
+hypernym_definition = "expressing yourself easily or characterized by clear expressive language"
+
+[00152204-s]
+definition = "speaking or spoken fittingly or pleasingly"
+members = "well-spoken"
+hypernym = "articulate"
+hypernym_definition = "expressing yourself easily or characterized by clear expressive language"
+
+[00152373-a]
+definition = "without or deprived of the use of speech or words"
+members = "inarticulate, unarticulate"
+
+[00152798-s]
+definition = "unable to speak because of a brain lesion"
+members = "aphasic"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00152929-s]
+definition = "being without sound through injury or illness and thus incapable of all but whispered speech"
+members = "aphonic, voiceless"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00153123-s]
+definition = "unable to speak because of hereditary deafness"
+members = "dumb, mute, silent"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00153272-s]
+definition = "lacking the power of human speech"
+members = "dumb"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00153372-s]
+definition = "unable to express yourself clearly or fluently"
+members = "incoherent, tongue-tied"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00153553-s]
+definition = "expressed without speech"
+members = "mute, tongueless, unspoken, wordless, silent"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00153897-s]
+definition = "temporarily incapable of speaking"
+members = "speechless, dumb"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00154052-s]
+definition = "uttered without the use of normal words or syllables"
+members = "unarticulated"
+hypernym = "inarticulate, unarticulate"
+hypernym_definition = "without or deprived of the use of speech or words"
+
+[00154164-a]
+definition = "capable of or involving speech or speaking"
+members = "speaking"
+
+[00154351-s]
+definition = "having a manner of speaking as specified; often used in combination"
+members = "tongued"
+hypernym = "speaking"
+hypernym_definition = "capable of or involving speech or speaking"
+
+[00154507-a]
+definition = "not capable of or especially not involving speech or spoken lines"
+members = "nonspeaking, walk-on"
+
+[00154678-a]
+definition = "consisting of segments held together by joints"
+members = "articulated, articulate"
+
+[00154813-s]
+definition = "having joints or jointed segments"
+members = "jointed"
+hypernym = "articulated, articulate"
+hypernym_definition = "consisting of segments held together by joints"
+
+[00154919-a]
+definition = "not consisting of segments that are held together by joints"
+members = "unarticulated"
+
+[00155056-s]
+definition = "without joints or jointed segments"
+members = "unjointed"
+hypernym = "unarticulated"
+hypernym_definition = "not consisting of segments that are held together by joints"
+
+[00155165-a]
+definition = "feeling shame or guilt or embarrassment or remorse"
+members = "ashamed"
+
+[00155430-s]
+definition = "suffering shame"
+members = "discredited, disgraced, dishonored, shamed"
+hypernym = "ashamed"
+hypernym_definition = "feeling shame or guilt or embarrassment or remorse"
+
+[00155537-s]
+definition = "made to feel uncomfortable because of shame or wounded pride"
+members = "embarrassed, humiliated, mortified"
+hypernym = "ashamed"
+hypernym_definition = "feeling shame or guilt or embarrassment or remorse"
+
+[00155850-s]
+definition = "showing a sense of guilt"
+members = "guilty, hangdog, shamefaced, shamed"
+hypernym = "ashamed"
+hypernym_definition = "feeling shame or guilt or embarrassment or remorse"
+
+[00156104-s]
+definition = "showing a sense of shame"
+members = "shamefaced, sheepish"
+hypernym = "ashamed"
+hypernym_definition = "feeling shame or guilt or embarrassment or remorse"
+
+[00156232-a]
+definition = "used of persons or their behavior; feeling no shame"
+members = "unashamed"
+
+[00156411-s]
+definition = "unrestrained by convention or propriety"
+members = "audacious, barefaced, bodacious, bald-faced, brassy, brazen, brazen-faced, insolent"
+hypernym = "unashamed"
+hypernym_definition = "used of persons or their behavior; feeling no shame"
+
+[00156987-s]
+definition = "feeling no shame"
+members = "shameless, unblushing"
+hypernym = "unashamed"
+hypernym_definition = "used of persons or their behavior; feeling no shame"
+
+[00157153-s]
+definition = "not embarrassed"
+members = "unabashed, unembarrassed"
+hypernym = "unashamed"
+hypernym_definition = "used of persons or their behavior; feeling no shame"
+
+[00157368-a]
+definition = "aggressively self-assured"
+members = "assertive, self-asserting, self-assertive"
+
+[00157706-s]
+definition = "overly self-confident or self-assertive"
+members = "cocky"
+hypernym = "assertive, self-asserting, self-assertive"
+hypernym_definition = "aggressively self-assured"
+
+[00157841-s]
+definition = "forceful and definite in expression or action"
+members = "emphatic, forceful"
+hypernym = "assertive, self-asserting, self-assertive"
+hypernym_definition = "aggressively self-assured"
+
+[00158105-a]
+definition = "inclined to timidity or lack of self-confidence"
+members = "unassertive"
+
+[00158346-s]
+definition = "not aggressively self-assured, though not necessarily lacking in confidence"
+members = "nonassertive"
+hypernym = "unassertive"
+hypernym_definition = "inclined to timidity or lack of self-confidence"
+
+[00158534-s]
+definition = "reluctant to draw attention to yourself"
+members = "reticent, self-effacing, retiring"
+hypernym = "unassertive"
+hypernym_definition = "inclined to timidity or lack of self-confidence"
+
+[00158655-a]
+definition = "characterized by or causing or resulting from the process of bringing ideas or events together in memory or imagination"
+members = "associative, associatory"
+
+[00158924-s]
+definition = "capable of being associated"
+members = "associable"
+hypernym = "associative, associatory"
+hypernym_definition = "characterized by or causing or resulting from the process of bringing ideas or events together in memory or imagination"
+
+[00159114-a]
+definition = "not associative"
+members = "nonassociative"
+
+[00159190-a]
+definition = "associated in an exclusive sexual relationship"
+members = "attached, committed"
+
+[00159375-s]
+definition = "pledged to be married"
+members = "bespoken, betrothed, engaged"
+hypernym = "attached, committed"
+hypernym_definition = "associated in an exclusive sexual relationship"
+
+[00159503-s]
+definition = "future; betrothed"
+members = "intended"
+hypernym = "attached, committed"
+hypernym_definition = "associated in an exclusive sexual relationship"
+
+[00159597-s]
+definition = "emotionally involved"
+members = "involved"
+hypernym = "attached, committed"
+hypernym_definition = "associated in an exclusive sexual relationship"
+
+[00159672-a]
+definition = "not associated in an exclusive sexual relationship"
+members = "unattached, uncommitted"
+
+[00159811-s]
+definition = "not promised in marriage"
+members = "unengaged, unpledged, unpromised"
+hypernym = "unattached, uncommitted"
+hypernym_definition = "not associated in an exclusive sexual relationship"
+
+[00159966-a]
+definition = "firmly attached"
+members = "affixed"
+
+[00160129-s]
+definition = "affixed as an appendage"
+members = "appendant"
+hypernym = "affixed"
+hypernym_definition = "firmly attached"
+
+[00160226-s]
+definition = "attached by its base (as certain anthers to their filaments or stalks)"
+members = "basifixed"
+hypernym = "affixed"
+hypernym_definition = "firmly attached"
+
+[00160371-s]
+definition = "affixed or as if affixed with glue or paste"
+members = "glued, pasted"
+hypernym = "affixed"
+hypernym_definition = "firmly attached"
+
+[00160532-s]
+definition = "assembled for use; especially by being attached to a support"
+members = "mounted"
+hypernym = "affixed"
+hypernym_definition = "firmly attached"
+
+[00160646-a]
+definition = "not affixed"
+members = "unaffixed, loose"
+
+[00160763-a]
+definition = "attached directly by the base; not having an intervening stalk"
+members = "sessile, stalkless"
+
+[00161000-a]
+definition = "having or growing on or from a peduncle or stalk"
+members = "pedunculate, stalked"
+
+[00161240-a]
+definition = "permanently attached to a substrate; not free to move about"
+members = "sessile"
+
+[00161409-a]
+definition = "having freedom to move about"
+members = "vagile"
+
+[00161553-s]
+definition = "(of animals) able to swim about; not attached"
+members = "free-swimming, unattached"
+hypernym = "vagile"
+hypernym_definition = "having freedom to move about"
+
+[00161690-a]
+definition = "used of buildings joined by common sidewalls"
+members = "attached"
+
+[00161838-a]
+definition = "used of buildings; standing apart from others"
+members = "detached"
+
+[00162033-s]
+definition = "standing apart; not attached to or supported by anything"
+members = "freestanding, separate"
+hypernym = "detached"
+hypernym_definition = "used of buildings; standing apart from others"
+
+[00162222-s]
+definition = "attached on one side only"
+members = "semidetached"
+hypernym = "detached"
+hypernym_definition = "used of buildings; standing apart from others"
+
+[00162330-a]
+definition = "caught or fixed"
+members = "stuck"
+
+[00162435-s]
+definition = "stranded on or as if on a crag"
+members = "cragfast"
+hypernym = "stuck"
+hypernym_definition = "caught or fixed"
+
+[00162541-a]
+definition = "free"
+members = "unstuck"
+
+[00162696-a]
+definition = "capable of being fastened or added to something else"
+members = "attachable"
+
+[00162949-s]
+definition = "capable of being fastened or secured with a rope or bond"
+members = "bindable, bondable"
+hypernym = "attachable"
+hypernym_definition = "capable of being fastened or added to something else"
+
+[00163143-s]
+definition = "attachable by a clip"
+members = "clip-on"
+hypernym = "attachable"
+hypernym_definition = "capable of being fastened or added to something else"
+
+[00163258-s]
+definition = "fastened by tying on"
+members = "tie-on"
+hypernym = "attachable"
+hypernym_definition = "capable of being fastened or added to something else"
+
+[00163348-a]
+definition = "designed to be unfastened or disconnected without damage"
+members = "detachable"
+
+[00163513-s]
+definition = "capable of being taken apart"
+members = "clastic"
+hypernym = "detachable"
+hypernym_definition = "designed to be unfastened or disconnected without damage"
+
+[00163651-a]
+definition = "marked by keen caution and watchful prudence"
+members = "wary"
+
+[00163926-s]
+definition = "vigilant"
+members = "on guard, on one's guard, upon one's guard, on your guard"
+hypernym = "wary"
+hypernym_definition = "marked by keen caution and watchful prudence"
+
+[00164128-s]
+definition = "wary and distrustful; disposed to avoid persons or things"
+members = "shy"
+hypernym = "wary"
+hypernym_definition = "marked by keen caution and watchful prudence"
+
+[00164255-a]
+definition = "not alert to danger or deception"
+members = "unwary"
+
+[00164580-s]
+definition = "easily tricked because of being too trusting"
+members = "gullible"
+hypernym = "unwary"
+hypernym_definition = "not alert to danger or deception"
+
+[00164745-s]
+definition = "displaying or feeling no wariness"
+members = "unguarded"
+hypernym = "unwary"
+hypernym_definition = "not alert to danger or deception"
+
+[00164857-a]
+definition = "(often followed by `to') giving care or attention"
+members = "attentive"
+
+[00165213-s]
+definition = "giving or marked by complete attention to"
+members = "captive, absorbed, engrossed, enwrapped, intent, wrapped, rapt"
+hypernym = "attentive"
+hypernym_definition = "(often followed by `to') giving care or attention"
+
+[00165570-s]
+definition = "giving attention"
+members = "advertent, heedful"
+hypernym = "attentive"
+hypernym_definition = "(often followed by `to') giving care or attention"
+
+[00165724-s]
+definition = "paying close attention especially to details"
+members = "observant"
+hypernym = "attentive"
+hypernym_definition = "(often followed by `to') giving care or attention"
+
+[00165860-s]
+definition = "excessively solicitous"
+members = "oversolicitous"
+hypernym = "attentive"
+hypernym_definition = "(often followed by `to') giving care or attention"
+
+[00165943-s]
+definition = "showing hovering attentiveness"
+members = "solicitous"
+hypernym = "attentive"
+hypernym_definition = "(often followed by `to') giving care or attention"
+
+[00166125-a]
+definition = "showing a lack of attention or care"
+members = "inattentive"
+
+[00166433-s]
+definition = "lost in thought; showing preoccupation"
+members = "absent, absentminded, abstracted, scatty"
+hypernym = "inattentive"
+hypernym_definition = "showing a lack of attention or care"
+
+[00166720-s]
+definition = "having the attention diverted especially because of anxiety"
+members = "distracted, distrait"
+hypernym = "inattentive"
+hypernym_definition = "showing a lack of attention or care"
+
+[00166847-s]
+definition = "dreamy in mood or nature"
+members = "dreamy, moony, woolgathering"
+hypernym = "inattentive"
+hypernym_definition = "showing a lack of attention or care"
+
+[00167028-s]
+definition = "showing lack of attention or boredom"
+members = "drowsy, oscitant, yawning"
+hypernym = "inattentive"
+hypernym_definition = "showing a lack of attention or care"
+
+[00167205-s]
+definition = "failing to keep in mind"
+members = "forgetful, oblivious"
+hypernym = "inattentive"
+hypernym_definition = "showing a lack of attention or care"
+
+[00167408-a]
+definition = "pleasing to the eye or mind especially through beauty or charm"
+members = "attractive"
+
+[00168015-s]
+definition = "capturing interest as if by a spell"
+members = "bewitching, captivating, enchanting, enthralling, entrancing, fascinating"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00168339-s]
+definition = "possessing an extraordinary ability to attract"
+members = "charismatic, magnetic"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00168540-s]
+definition = "attractive especially by means of smallness or prettiness or quaintness"
+members = "cunning, cute"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00168782-s]
+definition = "(British informal) pretty and neat"
+members = "dinky"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00168933-s]
+definition = "attracting or delighting"
+members = "engaging, piquant"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00169091-s]
+definition = "very attractive; capturing interest"
+members = "fetching, taking, winning"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00169301-s]
+definition = "superficially attractive and stylish; suggesting wealth or expense"
+members = "glossy, showy"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00169450-s]
+definition = "attracting and holding interest as if by a spell"
+members = "hypnotic, mesmeric, mesmerizing, spellbinding"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00169813-s]
+definition = "overpoweringly attractive"
+members = "irresistible"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00169956-s]
+definition = "(of persons) pleasant in appearance and personality"
+members = "personable"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00170082-s]
+definition = "looking attractive in photographs"
+members = "photogenic"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00170172-s]
+definition = "creating a favorable impression"
+members = "prepossessing"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00170318-s]
+definition = "charming in a childlike or naive way"
+members = "winsome"
+hypernym = "attractive"
+hypernym_definition = "pleasing to the eye or mind especially through beauty or charm"
+
+[00170426-a]
+definition = "lacking beauty or charm"
+members = "unattractive"
+
+[00170694-s]
+definition = "lacking in physical beauty or proportion"
+members = "homely, plain"
+hypernym = "unattractive"
+hypernym_definition = "lacking beauty or charm"
+
+[00170954-s]
+definition = "devoid of brightness or appeal"
+members = "subfusc"
+hypernym = "unattractive"
+hypernym_definition = "lacking beauty or charm"
+
+[00171088-s]
+definition = "creating an unfavorable or neutral first impression"
+members = "unprepossessing, unpresentable"
+hypernym = "unattractive"
+hypernym_definition = "lacking beauty or charm"
+
+[00171217-a]
+definition = "having the properties of a magnet; the ability to draw or pull"
+members = "attractive"
+
+[00171417-a]
+definition = "possessing the ability to repel"
+members = "repulsive"
+
+[00171619-a]
+definition = "able to attract interest or draw favorable attention"
+members = "appealing"
+
+[00171978-s]
+definition = "likely to attract attention"
+members = "attention-getting, catchy"
+hypernym = "appealing"
+hypernym_definition = "able to attract interest or draw favorable attention"
+
+[00172108-s]
+definition = "having power to arouse interest"
+members = "attractive"
+hypernym = "appealing"
+hypernym_definition = "able to attract interest or draw favorable attention"
+
+[00172305-a]
+definition = "not able to attract favorable attention"
+members = "unappealing"
+
+[00172553-s]
+definition = "tending to repel"
+members = "off-putting"
+hypernym = "unappealing"
+hypernym_definition = "not able to attract favorable attention"
+
+[00172708-s]
+definition = "lacking power to arouse interest"
+members = "unattractive"
+hypernym = "unappealing"
+hypernym_definition = "not able to attract favorable attention"
+
+[00172851-a]
+definition = "capable of being attributed"
+members = "attributable"
+
+[00173133-s]
+definition = "capable of being assigned or credited to"
+members = "ascribable, due, imputable, referable"
+hypernym = "attributable"
+hypernym_definition = "capable of being attributed"
+
+[00173433-s]
+definition = "(usually followed by `to') given credit for"
+members = "credited"
+hypernym = "attributable"
+hypernym_definition = "capable of being attributed"
+
+[00173569-s]
+definition = "(usually followed by `to') able to be traced to"
+members = "traceable"
+hypernym = "attributable"
+hypernym_definition = "capable of being attributed"
+
+[00173713-a]
+definition = "not attributable"
+members = "unattributable, unascribable"
+
+[00173823-a]
+definition = "of adjectives; placed before the nouns they modify"
+members = "attributive, prenominal"
+
+[00174035-s]
+definition = "a word in the genitive case used as an attributive adjective"
+members = "attributive genitive"
+hypernym = "attributive, prenominal"
+hypernym_definition = "of adjectives; placed before the nouns they modify"
+
+[00174254-a]
+definition = "of adjectives; relating to or occurring within the predicate of a sentence"
+members = "predicative"
+
+[00174481-a]
+definition = "carrying developing offspring within the body or being about to produce new life"
+members = "pregnant"
+
+[00174652-s]
+definition = "in an advanced stage of pregnancy"
+members = "big, enceinte, expectant, gravid, great, large, heavy, with child"
+hypernym = "pregnant"
+hypernym_definition = "carrying developing offspring within the body or being about to produce new life"
+
+[00174955-a]
+definition = "not pregnant"
+members = "nonpregnant"
+
+[00175025-a]
+definition = "heard or perceptible by the ear"
+members = "audible, hearable"
+
+[00175317-s]
+definition = "making a clunking sound"
+members = "clunky"
+hypernym = "audible, hearable"
+hypernym_definition = "heard or perceptible by the ear"
+
+[00175411-s]
+definition = "relating to audible sound"
+members = "sonic"
+hypernym = "audible, hearable"
+hypernym_definition = "heard or perceptible by the ear"
+
+[00175504-s]
+definition = "making or having a sound as specified; used as a combining form"
+members = "sounding"
+hypernym = "audible, hearable"
+hypernym_definition = "heard or perceptible by the ear"
+
+[00175640-a]
+definition = "impossible to hear; imperceptible by the ear"
+members = "inaudible, unhearable"
+
+[00175980-s]
+definition = "uttered without voice"
+members = "breathed, voiceless"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176140-s]
+definition = "having frequencies below those of audible sound"
+members = "infrasonic"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176244-s]
+definition = "having a frequency below or above the range of human audibility"
+members = "silent"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176384-s]
+definition = "not made to sound"
+members = "silent, unsounded"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176561-s]
+definition = "having frequencies above those of audible sound"
+members = "supersonic, ultrasonic"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176696-s]
+definition = "not necessarily inaudible but not heard"
+members = "unheard"
+hypernym = "inaudible, unhearable"
+hypernym_definition = "impossible to hear; imperceptible by the ear"
+
+[00176789-a]
+definition = "(of speed) having or caused by speed approximately equal to that of sound in air at sea level"
+members = "sonic, transonic"
+
+[00176980-a]
+definition = "(of speed) less than that of sound in a designated medium"
+members = "subsonic"
+
+[00177148-a]
+definition = "(of speed) greater than the speed of sound in a given medium (especially air)"
+members = "supersonic"
+
+[00177411-a]
+definition = "auguring favorable circumstances and good luck"
+members = "auspicious"
+
+[00177648-s]
+definition = "likely to turn out well in the future"
+members = "bright, hopeful, promising"
+hypernym = "auspicious"
+hypernym_definition = "auguring favorable circumstances and good luck"
+
+[00177959-s]
+definition = "presaging good fortune"
+members = "fortunate, rosy"
+hypernym = "auspicious"
+hypernym_definition = "auguring favorable circumstances and good luck"
+
+[00178121-a]
+definition = "not auspicious; boding ill"
+members = "inauspicious, unfortunate"
+
+[00178274-s]
+definition = "unlikely to bring about favorable results or enjoyment"
+members = "unpromising"
+hypernym = "inauspicious, unfortunate"
+hypernym_definition = "not auspicious; boding ill"
+
+[00178468-a]
+definition = "presenting favorable circumstances; likely to result in or show signs of success"
+members = "propitious"
+
+[00178829-s]
+definition = "presaging or likely to bring good luck or a good outcome"
+members = "golden, favorable, favourable, lucky, prosperous"
+hypernym = "propitious"
+hypernym_definition = "presenting favorable circumstances; likely to result in or show signs of success"
+
+[00179134-s]
+definition = "disposed to bestow favors"
+members = "gracious"
+hypernym = "propitious"
+hypernym_definition = "presenting favorable circumstances; likely to result in or show signs of success"
+
+[00179263-a]
+definition = "not propitious"
+members = "unpropitious"
+
+[00179426-s]
+definition = "presaging ill fortune"
+members = "ill, inauspicious, ominous"
+hypernym = "unpropitious"
+hypernym_definition = "not propitious"
+
+[00179764-s]
+definition = "extremely ominous"
+members = "thunderous"
+hypernym = "unpropitious"
+hypernym_definition = "not propitious"
+
+[00179875-a]
+definition = "endowed with authority"
+members = "authorized, authorised, authoritative"
+
+[00180111-s]
+definition = "given official approval to act"
+members = "accredited, commissioned, licensed, licenced"
+hypernym = "official"
+hypernym_definition = "having official authority or sanction"
+
+[00180335-s]
+definition = "established by authority; given authoritative approval"
+members = "approved, sanctioned"
+hypernym = "authorized, authorised, authoritative"
+hypernym_definition = "endowed with authority"
+
+[00180490-s]
+definition = "accorded sacrosanct or authoritative standing"
+members = "canonized, canonised, glorified"
+hypernym = "authorized, authorised, authoritative"
+hypernym_definition = "endowed with authority"
+
+[00180615-s]
+definition = "invested with legal power or official authority especially as symbolized by having a scepter"
+members = "empowered, sceptered, sceptred"
+hypernym = "authorized, authorised, authoritative"
+hypernym_definition = "endowed with authority"
+
+[00180786-a]
+definition = "not endowed with authority"
+members = "unauthorized, unauthorised"
+
+[00180976-s]
+definition = "designated or chosen by yourself"
+members = "self-appointed"
+hypernym = "unauthorized, unauthorised"
+hypernym_definition = "not endowed with authority"
+
+[00181115-s]
+definition = "lacking official approval"
+members = "unaccredited, unlicensed, unlicenced"
+hypernym = "unauthorized, unauthorised"
+hypernym_definition = "not endowed with authority"
+
+[00181225-a]
+definition = "sanctioned by or consistent with or operating under the law determining the fundamental political principles of a government"
+members = "constitutional"
+
+[00181511-a]
+definition = "not consistent with or according to a constitution; contrary to the U.S. Constitution"
+members = "unconstitutional"
+
+[00181659-a]
+definition = "of rocks, deposits, etc.; found where they and their constituents were formed"
+members = "autochthonous"
+
+[00181796-a]
+definition = "of rocks, deposits, etc.; found in a place other than where they and their constituents were formed"
+members = "allochthonous"
+
+[00181955-a]
+definition = "of parasites especially rust fungi; completing the entire life cycle on a single host"
+members = "autoecious, homoecious"
+
+[00182135-a]
+definition = "of parasites; passing through different stages of the life cycle on different host species"
+members = "heteroecious"
+
+[00182330-a]
+definition = "originating within the body"
+members = "autogenous, autogenic"
+
+[00182462-s]
+definition = "originating from the self"
+members = "self-generated, self-produced"
+hypernym = "autogenous, autogenic"
+hypernym_definition = "originating within the body"
+
+[00182564-s]
+definition = "brought about by yourself"
+members = "self-induced"
+hypernym = "autogenous, autogenic"
+hypernym_definition = "originating within the body"
+
+[00182673-a]
+definition = "originating outside the body"
+members = "heterogenous, heterogeneous"
+
+[00182776-a]
+definition = "operating with minimal human intervention; independent of external control"
+members = "automatic"
+
+[00183204-s]
+definition = "(of firearms) capable of automatic loading and firing continuously"
+members = "autoloading, self-loading, semiautomatic"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00183386-s]
+definition = "operated by automation"
+members = "automated, machine-controlled, machine-driven"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00183525-s]
+definition = "designed to activate or move or regulate itself"
+members = "self-acting, self-activating, self-moving, self-regulating"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00183718-s]
+definition = "locking automatically when closed"
+members = "self-locking"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00183810-s]
+definition = "designed so that manual winding is unnecessary"
+members = "self-winding"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00183939-s]
+definition = "partially automatic"
+members = "semiautomatic"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00184018-s]
+definition = "capable of independent and apparently intelligent action"
+members = "smart"
+hypernym = "automatic"
+hypernym_definition = "operating with minimal human intervention; independent of external control"
+
+[00184143-a]
+definition = "requiring human effort"
+members = "manual"
+
+[00184261-s]
+definition = "operated by hand"
+members = "hand-operated, non-automatic"
+hypernym = "manual"
+hypernym_definition = "requiring human effort"
+
+[00184353-a]
+definition = "obtainable or accessible and ready for use or service"
+members = "available"
+
+[00184975-s]
+definition = "easily obtained"
+members = "accessible"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185132-s]
+definition = "capable of being acquired"
+members = "acquirable"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185232-s]
+definition = "capable of being addressed"
+members = "addressable"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185375-s]
+definition = "less in demand and therefore readily obtainable"
+members = "easy"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185529-s]
+definition = "available when required or as promised"
+members = "forthcoming"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185663-s]
+definition = "capable of being obtained"
+members = "gettable, getable, obtainable, procurable"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185843-s]
+definition = "available for use or sale"
+members = "in stock"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
+
+[00185976-s]
+definition = "available for lending"
+members = "lendable"
+hypernym = "available"
+hypernym_definition = "obtainable or accessible and ready for use or service"
