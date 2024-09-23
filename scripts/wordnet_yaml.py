@@ -413,7 +413,7 @@ def save(wn, change_list=None):
         if synset.lex_name not in synset_yaml:
             synset_yaml[synset.lex_name] = {}
         synset_yaml[synset.lex_name][synset.id[KEY_PREFIX_LEN:]] = s
-        s["members"] = entries_ordered(wn, synset.id)
+        s["members"] = [wn.id2entry[m].lemma.written_form for m in synset.members]
 
     for key, synsets in synset_yaml.items():
         if not change_list or key in change_list.lexfiles:
