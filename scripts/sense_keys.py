@@ -2,7 +2,6 @@ from wordnet import *
 from glob import glob
 import re
 from sys import exit
-from wordnet_yaml import unmap_sense_key
 
 lex_filenums = {
     "src/xml/wn-adj.all.xml": 0,
@@ -140,3 +139,22 @@ def get_sense_key(wn, e, s, wn_file):
         head_id = ""
     return "%s%%%d:%02d:%02d:%s:%s" % (lemma, ss_type, lex_filenum,
                                        lex_id, head_word, head_id)
+
+def unmap_sense_key(sk, KEY_PREFIX_LEN=5):
+    """
+    Maps an OEWN sense key to a WN sense key
+    """
+    if "__" in sk:
+        e = sk.split("__")
+        oewn_key = e[0][KEY_PREFIX_LEN:]
+        r = "__".join(e[1:])
+        return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
+                .replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
+            "%" + r.replace(".", ":").replace("-sp-","_"))
+    else: 
+        return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
+                .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
+                .replace("-cl-",":").replace("-pl-","+"))
+
+
+
