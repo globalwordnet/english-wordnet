@@ -6871,10 +6871,10 @@ ignite:
       event:
       - 'ignition%1:22:00::'
       - 'ignition%1:04:00::'
+      id: 'ignite%2:43:00::'
       instrument:
       - 'igniter%1:06:00::'
       - 'ignitor%1:06:00::'
-      id: 'ignite%2:43:00::'
       material:
       - 'igniter%1:27:00::'
       - 'ignitor%1:27:00::'
@@ -11029,9 +11029,9 @@ impel:
       - 'impeller%1:06:00::'
       event:
       - 'impulsion%1:04:00::'
+      id: 'impel%2:35:00::'
       instrument:
       - 'impeller%1:06:00::'
-      id: 'impel%2:35:00::'
       subcat:
       - vtai
       - vtii
@@ -16751,9 +16751,9 @@ incinerate:
       - 'incinerator%1:06:00::'
       event:
       - 'incineration%1:04:00::'
+      id: 'incinerate%2:30:00::'
       instrument:
       - 'incinerator%1:06:00::'
-      id: 'incinerate%2:30:00::'
       subcat:
       - vii
       - vtai
@@ -18883,9 +18883,9 @@ incubate:
       - 'incubator%1:06:00::'
       event:
       - 'incubation%1:22:00::'
+      id: 'incubate%2:29:00::'
       instrument:
       - 'incubator%1:06:00::'
-      id: 'incubate%2:29:00::'
       subcat:
       - via
       synset: 00059956-v
@@ -21081,8 +21081,6 @@ individual:
       - 'individuality%1:07:00::'
       id: 'individual%3:00:00::'
       synset: 00495505-a
-    - id: individual%5:00:00:independent:00
-      synset: 00732690-s
     - id: individual%5:00:00:unshared:00
       synset: 02160589-s
     - adjposition: a
@@ -24592,10 +24590,10 @@ inflate:
       - 'inflator%1:06:00::'
       event:
       - 'inflation%1:04:00::'
+      id: 'inflate%2:30:00::'
       instrument:
       - 'inflater%1:06:00::'
       - 'inflator%1:06:00::'
-      id: 'inflate%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -26236,9 +26234,9 @@ inhale:
       - 'inhalator%1:06:01::'
       event:
       - 'inhalation%1:04:00::'
+      id: 'inhale%2:29:00::'
       instrument:
       - 'inhalator%1:06:01::'
-      id: 'inhale%2:29:00::'
       subcat:
       - via
       - vtai
@@ -27005,9 +27003,9 @@ inject:
       - 'injector%1:06:00::'
       event:
       - 'injection%1:04:00::'
+      id: 'inject%2:35:00::'
       instrument:
       - 'injector%1:06:00::'
-      id: 'inject%2:35:00::'
       sent:
       - They inject the fruit with a chemical
       - They inject a chemical into the fruit
@@ -30529,9 +30527,9 @@ instill:
       event:
       - 'instillation%1:04:00::'
       - 'instillment%1:04:00::'
+      id: 'instill%2:35:01::'
       instrument:
       - 'instillator%1:06:00::'
-      id: 'instill%2:35:01::'
       subcat:
       - vtai
       - vtai-pp
@@ -31929,9 +31927,9 @@ integrate:
       - 'integral%1:09:00::'
       - 'integration%1:04:03::'
       - 'integrator%1:06:00::'
+      id: 'integrate%2:31:00::'
       instrument:
       - 'integrator%1:06:00::'
-      id: 'integrate%2:31:00::'
       result:
       - 'integral%1:09:00::'
       subcat:
@@ -35194,9 +35192,9 @@ interpret:
       derivation:
       - 'interpreter%1:18:01::'
       - 'interpreter%1:10:00::'
+      id: 'interpret%2:32:01::'
       instrument:
       - 'interpreter%1:10:00::'
-      id: 'interpret%2:32:01::'
       subcat:
       - via
       - vtaa
@@ -35560,9 +35558,9 @@ interrupt:
       - 'interrupter%1:06:00::'
       event:
       - 'interruption%1:04:00::'
+      id: 'interrupt%2:32:00::'
       instrument:
       - 'interrupter%1:06:00::'
-      id: 'interrupt%2:32:00::'
       subcat:
       - via
       - vtaa
@@ -38608,9 +38606,9 @@ invert:
       event:
       - 'inversion%1:04:01::'
       - 'inversion%1:04:00::'
+      id: 'invert%2:30:00::'
       instrument:
       - 'inverter%1:06:00::'
-      id: 'invert%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -40488,9 +40486,9 @@ iron:
       - 'iron%1:06:00::'
       - 'ironing%1:06:00::'
       - 'ironing%1:04:00::'
+      id: 'iron%2:35:00::'
       instrument:
       - 'iron%1:06:00::'
-      id: 'iron%2:35:00::'
       sent:
       - They iron the cape
       subcat:
@@ -43255,8 +43253,8 @@ item:
 item-by-item:
   a:
     sense:
-    - id: item-by-item%5:00:00:independent:00
-      synset: 00732690-s
+    - id: 'item-by-item%3:00:01::'
+      synset: 00495505-a
 itemisation:
   n:
     sense:

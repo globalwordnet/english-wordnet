@@ -128,6 +128,10 @@ A.E.:
     - id: 'a.e.%1:18:00::'
       synset: 11295025-n
 A.M.:
+  n:
+    sense:
+    - id: 'a.m.%1:28:01::'
+      synset: 84502472-n
   r:
     sense:
     - id: 'a.m.%4:02:00::'
@@ -480,6 +484,12 @@ AM:
       synset: 06713764-n
     - id: 'am%1:10:00::'
       synset: 06292247-n
+    - id: 'am%1:28:02::'
+      synset: 84502472-n
+  r:
+    sense:
+    - id: 'am%4:02:05::'
+      synset: 00252773-r
 AMD:
   n:
     sense:
@@ -18863,10 +18873,14 @@ a.k.a.:
     - id: 'a.k.a.%4:02:00::'
       synset: 00271877-r
 a.m.:
-  a:
+  n:
     sense:
-    - id: a.m.%5:00:00:antemeridian:00
-      synset: 00131590-s
+    - id: 'a.m.%1:28:02::'
+      synset: 84502472-n
+  r:
+    sense:
+    - id: 'a.m.%4:02:03::'
+      synset: 00252773-r
 aa:
   n:
     pronunciation:
@@ -24341,10 +24355,10 @@ accelerate:
       event:
       - 'acceleration%1:07:00::'
       - 'acceleration%1:04:00::'
+      id: 'accelerate%2:30:01::'
       instrument:
       - 'accelerator%1:06:02::'
       - 'accelerator%1:06:00::'
-      id: 'accelerate%2:30:01::'
       subcat:
       - vtaa
       - vtai
@@ -27427,25 +27441,14 @@ ache:
     sense:
     - derivation:
       - achy%5:00:00:painful:00
-      - 'ache%2:39:01::'
       - 'ache%2:39:00::'
+      - 'ache%2:29:07::'
       id: 'ache%1:26:00::'
       synset: 14347092-n
   v:
     pronunciation:
     - value: eɪk
     sense:
-    - derivation:
-      - 'ache%1:26:00::'
-      - 'aching%1:26:00::'
-      event:
-      - 'ache%1:26:00::'
-      id: 'ache%2:39:01::'
-      sent:
-      - Sam and Sue ache
-      subcat:
-      - via
-      synset: 02125976-v
     - id: 'ache%2:37:06::'
       subcat:
       - via-pp
@@ -27462,6 +27465,15 @@ ache:
       - vibody
       - vii
       synset: 02126629-v
+    - derivation:
+      - 'ache%1:26:00::'
+      - 'aching%1:26:00::'
+      event:
+      - 'ache%1:26:00::'
+      id: 'ache%2:29:07::'
+      subcat:
+      - via
+      synset: 00064841-v
 achene:
   n:
     pronunciation:
@@ -27559,8 +27571,8 @@ aching:
     - value: ˈeɪ.kɪŋ
     sense:
     - derivation:
-      - 'ache%2:39:01::'
       - 'ache%2:39:00::'
+      - 'ache%2:29:07::'
       id: 'aching%1:26:00::'
       synset: 14347092-n
 achira:
@@ -37598,10 +37610,6 @@ afford:
       subcat:
       - vtai
       synset: 02750326-v
-    - id: 'afford%2:40:01::'
-      subcat:
-      - vii-pp
-      synset: 02363033-v
 affordable:
   a:
     pronunciation:
@@ -38708,9 +38716,9 @@ agglomerate:
       - 'agglomerate%1:27:00::'
       - 'agglomerate%1:14:00::'
       - 'agglomerator%1:06:00::'
+      id: 'agglomerate%2:35:00::'
       instrument:
       - 'agglomerator%1:06:00::'
-      id: 'agglomerate%2:35:00::'
       subcat:
       - vii
       - vtai
@@ -41233,9 +41241,9 @@ air-condition:
     - derivation:
       - 'air_conditioner%1:06:00::'
       - 'air_conditioning%1:06:00::'
+      id: 'air-condition%2:40:01::'
       instrument:
       - 'air_conditioner%1:06:00::'
-      id: 'air-condition%2:40:01::'
       subcat:
       - vtai
       - vtii
@@ -41243,9 +41251,9 @@ air-condition:
     - derivation:
       - 'air_conditioner%1:06:00::'
       - 'air_conditioning%1:06:00::'
+      id: 'air-condition%2:40:00::'
       instrument:
       - 'air_conditioner%1:06:00::'
-      id: 'air-condition%2:40:00::'
       subcat:
       - vtai
       - vtii
@@ -41407,9 +41415,9 @@ airbrush:
     sense:
     - derivation:
       - 'airbrush%1:06:00::'
+      id: 'airbrush%2:35:00::'
       instrument:
       - 'airbrush%1:06:00::'
-      id: 'airbrush%2:35:00::'
       subcat:
       - vtai
       synset: 01366023-v
@@ -45348,9 +45356,9 @@ alleviate:
       - 'alleviant%1:06:00::'
       event:
       - 'alleviation%1:04:00::'
+      id: 'alleviate%2:29:00::'
       instrument:
       - 'alleviator%1:06:00::'
-      id: 'alleviate%2:29:00::'
       result:
       - 'alleviation%1:12:00::'
       subcat:
@@ -48377,6 +48385,15 @@ alyssum:
     sense:
     - id: 'alyssum%1:20:01::'
       synset: 11891216-n
+am:
+  n:
+    sense:
+    - id: 'am%1:28:03::'
+      synset: 84502472-n
+  r:
+    sense:
+    - id: 'am%4:02:04::'
+      synset: 00252773-r
 amabilis fir:
   n:
     sense:
@@ -48752,6 +48769,8 @@ ambagious:
     sense:
     - derivation:
       - 'ambage%1:10:00::'
+      exemplifies:
+      - 'archaism%1:10:00::'
       id: ambagious%5:00:00:indirect:02
       synset: 00771186-s
 ambassador:
@@ -51453,9 +51472,9 @@ amplify:
     sense:
     - derivation:
       - 'amplifier%1:06:00::'
+      id: 'amplify%2:30:00::'
       instrument:
       - 'amplifier%1:06:00::'
-      id: 'amplify%2:30:00::'
       subcat:
       - vii
       - vtai
@@ -51474,9 +51493,9 @@ amplify:
       - 'amplifier%1:06:00::'
       derivation:
       - 'amplifier%1:06:00::'
+      id: 'amplify%2:30:01::'
       instrument:
       - 'amplifier%1:06:00::'
-      id: 'amplify%2:30:01::'
       subcat:
       - vtai
       - vtii
@@ -52767,9 +52786,9 @@ analyse:
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
+      id: 'analyse%2:31:00::'
       instrument:
       - 'analyser%1:06:00::'
-      id: 'analyse%2:31:00::'
       sent:
       - Sam and Sue analyse the movie
       subcat:
@@ -52787,9 +52806,9 @@ analyse:
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
+      id: 'analyse%2:31:01::'
       instrument:
       - 'analyser%1:06:00::'
-      id: 'analyse%2:31:01::'
       subcat:
       - vtai
       synset: 00645135-v
@@ -52983,9 +53002,9 @@ analyze:
       - 'analyzer%1:06:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
+      id: 'analyze%2:31:01::'
       instrument:
       - 'analyzer%1:06:00::'
-      id: 'analyze%2:31:01::'
       subcat:
       - vtai
       synset: 00645135-v
@@ -53805,9 +53824,9 @@ anchor:
       - 'anchor%1:06:00::'
       - 'anchorage%1:15:00::'
       - 'anchorage%1:04:00::'
+      id: 'anchor%2:35:00::'
       instrument:
       - 'anchor%1:06:00::'
-      id: 'anchor%2:35:00::'
       subcat:
       - via
       - via-pp
@@ -57370,9 +57389,9 @@ annunciate:
     sense:
     - derivation:
       - 'annunciator%1:06:00::'
+      id: 'annunciate%2:32:00::'
       instrument:
       - 'annunciator%1:06:00::'
-      id: 'annunciate%2:32:00::'
       subcat:
       - vtai
       - vtii
@@ -58421,10 +58440,6 @@ ante:
       undergoer:
       - 'ante%1:21:00::'
 ante meridiem:
-  a:
-    sense:
-    - id: ante_meridiem%5:00:00:antemeridian:00
-      synset: 00131590-s
   r:
     sense:
     - id: 'ante_meridiem%4:02:00::'
@@ -64844,9 +64859,9 @@ apply:
       - 'applier%1:06:00::'
       event:
       - 'application%1:04:03::'
+      id: 'apply%2:35:00::'
       instrument:
       - 'applier%1:06:00::'
-      id: 'apply%2:35:00::'
       material:
       - 'application%1:06:00::'
       subcat:
@@ -66431,9 +66446,9 @@ aquaplane:
       synset: 01960371-v
     - derivation:
       - 'aquaplane%1:06:00::'
+      id: 'aquaplane%2:38:00::'
       instrument:
       - 'aquaplane%1:06:00::'
-      id: 'aquaplane%2:38:00::'
       subcat:
       - vii
       synset: 01946713-v
@@ -69364,18 +69379,18 @@ arm:
       - 'arm%1:06:01::'
       event:
       - 'armament%1:04:00::'
+      id: 'arm%2:33:00::'
       instrument:
       - 'arm%1:06:01::'
-      id: 'arm%2:33:00::'
       subcat:
       - via
       synset: 01089608-v
     - derivation:
       - 'armament%1:06:00::'
       - 'arm%1:06:01::'
+      id: 'arm%2:40:00::'
       instrument:
       - 'arm%1:06:01::'
-      id: 'arm%2:40:00::'
       subcat:
       - vtaa
       - vtai
@@ -70601,9 +70616,9 @@ arrest:
       synset: 01508590-v
     - derivation:
       - 'arrester%1:06:00::'
+      id: 'arrest%2:38:00::'
       instrument:
       - 'arrester%1:06:00::'
-      id: 'arrest%2:38:00::'
       subcat:
       - vtaa
       - vtai
@@ -73100,10 +73115,6 @@ ascend:
       subcat:
       - via-pp
       synset: 02386713-v
-    - id: 'ascend%2:38:10::'
-      subcat:
-      - vii
-      synset: 02109935-v
     - id: 'ascend%2:38:04::'
       subcat:
       - vtai
@@ -73137,6 +73148,10 @@ ascend:
       - vii
       - vii-pp
       synset: 01973786-v
+    - id: 'ascend%2:38:06::'
+      subcat:
+      - vii
+      synset: 01925957-v
 ascendable:
   a:
     sense:
@@ -74533,9 +74548,9 @@ aspirate:
       - 'aspirator%1:06:00::'
       event:
       - 'aspiration%1:04:00::'
+      id: 'aspirate%2:29:00::'
       instrument:
       - 'aspirator%1:06:00::'
-      id: 'aspirate%2:29:00::'
       subcat:
       - vtai
       synset: 00003316-v
@@ -77466,10 +77481,10 @@ asynchronous motor:
     sense:
     - id: 'asynchronous_motor%1:06:01::'
       synset: 92459652-n
-asynchronous nazalisation:
+asynchronous nasalization:
   n:
     sense:
-    - id: 'asynchronous_nazalisation%1:10:01::'
+    - id: 'asynchronous_nasalization%1:10:01::'
       synset: 92462764-n
 asynchronous operation:
   n:
@@ -79228,9 +79243,9 @@ atomise:
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
+      id: 'atomise%2:35:00::'
       instrument:
       - 'atomiser%1:06:00::'
-      id: 'atomise%2:35:00::'
       subcat:
       - vtai
       synset: 01375803-v
@@ -79256,9 +79271,9 @@ atomise:
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
+      id: 'atomise%2:30:00::'
       instrument:
       - 'atomiser%1:06:00::'
-      id: 'atomise%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -79336,9 +79351,9 @@ atomize:
       - 'atomizer%1:06:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
+      id: 'atomize%2:35:00::'
       instrument:
       - 'atomizer%1:06:00::'
-      id: 'atomize%2:35:00::'
       subcat:
       - vtai
       synset: 01375803-v
@@ -79361,9 +79376,9 @@ atomize:
       - 'atomization%1:04:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
+      id: 'atomize%2:30:00::'
       instrument:
       - 'atomizer%1:06:00::'
-      id: 'atomize%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -80578,9 +80593,9 @@ attenuate:
       - 'attenuator%1:06:00::'
       event:
       - 'attenuation%1:11:00::'
+      id: 'attenuate%2:30:00::'
       instrument:
       - 'attenuator%1:06:00::'
-      id: 'attenuate%2:30:00::'
       subcat:
       - vii
       synset: 00221127-v
@@ -83354,9 +83369,9 @@ autoclave:
     sense:
     - derivation:
       - 'autoclave%1:06:00::'
+      id: 'autoclave%2:29:00::'
       instrument:
       - 'autoclave%1:06:00::'
-      id: 'autoclave%2:29:00::'
       subcat:
       - vtai
       synset: 00062744-v
@@ -86217,9 +86232,9 @@ ax:
       - 'ax%1:06:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
+      id: 'ax%2:35:00::'
       instrument:
       - 'ax%1:06:00::'
-      id: 'ax%2:35:00::'
       sent:
       - They ax the trees
       subcat:
@@ -86262,9 +86277,9 @@ axe:
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
+      id: 'axe%2:35:00::'
       instrument:
       - 'axe%1:06:00::'
-      id: 'axe%2:35:00::'
       sent:
       - They axe the trees
       subcat:
