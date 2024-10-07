@@ -763,11 +763,24 @@ def extract_comments(wordnet_file, lexicon):
                             c = None
 
 
+# Regular expressions for valid NameStartChar and NameChar
+# based on the XML 1.0 specification.
+name_start_char_re = re.compile(
+    r'^[A-Z_a-z\xC0-\xD6\xD8-\xF6\xF8-\u02FF\u0370-\u037D\u037F-\u1FFF'
+    r'\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF'
+    r'\uF900-\uFDCF\uFDF0-\uFFFD]$')
+
+name_char_re = re.compile(
+    r'^[A-Z_a-z0-9\x2D\x2E\xB7\xC0-\xD6\xD8-\xF6\xF8-\u02FF'
+    r'\u0300-\u036F\u203F-\u2040\u0370-\u037D\u037F-\u1FFF'
+    r'\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF'
+    r'\uF900-\uFDCF\uFDF0-\uFFFD]$')
+
+
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
     def elc(c):
-        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (
-                c >= '0' and c <= '9') or c == '.':
+        if ('A' <= c <= 'Z') or ('a' <= c <= 'z') or ('0' <= c <= '9') or c == '.':
             return c
         elif c == ' ':
             return '_'
@@ -779,16 +792,17 @@ def escape_lemma(lemma):
             return '-ap-'
         elif c == '/':
             return '-sl-'
-        elif c == '-':
-            return '-'
+        elif c == ':':
+            return '-cn-'
         elif c == ',':
             return '-cm-'
         elif c == '!':
             return '-ex-'
         elif c == '+':
             return '-pl-'
-        else:
-            return '-%04x-' % ord(c)
+        elif name_char_re.match(c) or name_char_re.match(c):
+            return c
+        raise ValueError(f'Illegal character {c}')
 
     return "".join(elc(c) for c in lemma)
 
