@@ -178,7 +178,7 @@ def check_lex_files(wn, fix):
     return errors
 
 
-valid_id = re.compile("^oewn-[A-Za-z0-9_\\-.]*$")
+valid_id = re.compile(fr"^oewn-{xml_id_char}*$")
 
 valid_sense_id = re.compile(
     "^oewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
