@@ -770,19 +770,32 @@ def extract_comments(wordnet_file, lexicon):
                             c = None
 
 
-# Regular expressions for valid NameStartChar and NameChar
+# Regular expressions for valid NameChar
 # based on the XML 1.0 specification.
-name_start_char_re = re.compile(
-    r'^[A-Z_a-z\xC0-\xD6\xD8-\xF6\xF8-\u02FF\u0370-\u037D\u037F-\u1FFF'
-    r'\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF'
-    r'\uF900-\uFDCF\uFDF0-\uFFFD]$')
-
-name_char_re = re.compile(
-    r'^[A-Z_a-z0-9\x2D\x2E\xB7\xC0-\xD6\xD8-\xF6\xF8-\u02FF'
-    r'\u0300-\u036F\u203F-\u2040\u0370-\u037D\u037F-\u1FFF'
-    r'\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF'
-    r'\uF900-\uFDCF\uFDF0-\uFFFD]$')
-
+# We don't chek for 1st character extra restrictions
+# because it's always prefixed with 'oewn-'
+xml_id_az = r'A-Za-z'
+xml_id_num = r'0-9'
+xml_id_extend = (
+    r'\xC0-\xD6' # ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ
+    r'\xD8-\xF6' # ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö
+    r'\xF8-\u02FF'
+    r'\u0370-\u037D'
+    r'\u037F-\u1FFF'
+    r'\u200C-\u200D'
+    r'\u2070-\u218F'
+    r'\u2C00-\u2FEF'
+    r'\u3001-\uD7FF'
+    r'\uF900-\uFDCF'
+    r'\uFDF0-\uFFFD'
+)
+xml_id_not_first = (
+    r'\u0300-\u036F'
+    r'\u203F-\u2040'
+)
+# name_start_char = fr'[_{xml_id_az}{xml_id_extend}]' # not used if oewn- prefix
+xml_id_char = fr'[_\-\.·{xml_id_az}{xml_id_num}{xml_id_extend}{xml_id_not_first}]'
+xml_id_char_re = re.compile(xml_id_char)
 
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
@@ -807,7 +820,7 @@ def escape_lemma(lemma):
             return '-ex-'
         elif c == '+':
             return '-pl-'
-        elif name_char_re.match(c) or name_char_re.match(c):
+        elif xml_id_char_re.match(c):
             return c
         raise ValueError(f'Illegal character {c}')
 
