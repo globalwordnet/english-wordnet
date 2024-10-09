@@ -1,36 +1,57 @@
-"""WordNet YAML interface"""
+"""Converts the internal YAML data into a GWA standard XML file and
+  writes it to `wn.xml`"""
+import sys
 import yaml
 from glob import glob
-from wordnet import *
 from yaml import CLoader
 import codecs
-import os
-from collections import defaultdict
+from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense, 
+                     SenseRelation, Definition, Example, Pronunciation, 
+                     Synset, SynsetRelation, SynsetRelType, Form,
+                     SenseRelType, OtherSenseRelType, SyntacticBehaviour,
+                     escape_lemma, inverse_sense_rels,
+                     inverse_synset_rels)
 
 entry_orders = {}
 
 KEY_PREFIX_LEN = 5 # = len("oewn-")
 
 def map_sense_key(sk):
+    """
+    Maps a sense key into an OEWN from
+    """
     if "%" in sk:
         e = sk.split("%")
-        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-").replace("+","-pl-") +
+        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-")
+                .replace("!","-ex-").replace(",","-cm-")
+                .replace(":","-cl-").replace("+","-pl-") +
             "__" + e[1].replace("_","-sp-").replace(":","."))
     else:
-        return "oewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cl-").replace("+","-pl-")
+        return ("oewn-" + sk.replace("%", "__").replace("'","-ap-")
+                .replace("/","-sl-").replace("!","-ex-").replace(",","-cm-")
+                .replace(":","-cl-").replace("+","-pl-"))
 
 def unmap_sense_key(sk):
+    """
+    Maps an OEWN sense key to a WN sense key
+    """
     if "__" in sk:
         e = sk.split("__")
-        l = e[0][KEY_PREFIX_LEN:]
+        oewn_key = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
-        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
+        return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
+                .replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
             "%" + r.replace(".", ":").replace("-sp-","_"))
     else: 
-        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cl-",":").replace("-pl-","+")
+        return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
+                .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
+                .replace("-cl-",":").replace("-pl-","+"))
 
 
 def make_pos(y, pos):
+    """
+    Convert a part of speech value to a single character
+    """
     if "adjposition" in y:
         return y["adjposition"] + "-" + pos
     elif len(pos) > 1:
@@ -40,11 +61,17 @@ def make_pos(y, pos):
 
 
 def make_sense_id(y, lemma, pos):
+    """
+    Create a sense ID from a YAML entry
+    """
     return "oewn-%s-%s-%s" % (
         escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2])
 
 
 def sense_from_yaml(y, lemma, pos, n):
+    """
+    Create a Sense object from the YAML data
+    """
     s = Sense(map_sense_key(y["id"]),
               "oewn-" + y["synset"], None, n,
               y.get("adjposition"))
@@ -66,15 +93,19 @@ def sense_from_yaml(y, lemma, pos, n):
     return s
 
 def pronunciation_from_yaml(props):
-    return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
-
-
-def pronunciation_from_yaml(props):
-    return [Pronunciation(p["value"], p.get("variety")) for p in props.get("pronunciation",[])]
+    """
+    Create a Pronunciation object from the YAML data
+    """
+    return [Pronunciation(p["value"], p.get("variety")) 
+            for p in props.get("pronunciation",[])]
 
 def synset_from_yaml(wn, props, id, lex_name):
+    """
+    Create a Synset from the YAML data
+    """
     if "partOfSpeech" not in props:
-        print(props)
+        print("No part of speech for %s" % id)
+        raise ValueError
     ss = Synset("oewn-" + id,
                 props.get("ili", "in"),
                 PartOfSpeech(props["partOfSpeech"]),
@@ -99,6 +130,9 @@ def synset_from_yaml(wn, props, id, lex_name):
     return ss
 
 def entry_for_synset(wn, ss, lemma):
+    """
+    Find the entry for a synset member
+    """
     for e in wn.entry_by_lemma(lemma):
         for s in wn.entry_by_id(e).senses:
             if s.synset == ss.id:
@@ -108,6 +142,9 @@ def entry_for_synset(wn, ss, lemma):
 
 
 def fix_sense_rels(wn, sense):
+    """
+    Add inverse sense relations as needed
+    """
     for rel in sense.sense_relations:
         target_id = rel.target
         if (rel.rel_type in inverse_sense_rels
@@ -122,6 +159,9 @@ def fix_sense_rels(wn, sense):
 
 
 def fix_synset_rels(wn, synset):
+    """
+    Add inverse synset relations as needed
+    """
     for rel in synset.synset_relations:
         if (rel.rel_type in inverse_synset_rels
                 and inverse_synset_rels[rel.rel_type] != rel.rel_type):
@@ -136,11 +176,14 @@ def fix_synset_rels(wn, synset):
                                    inverse_synset_rels[rel.rel_type]))
 
 
-def load():
-    wn = Lexicon("oewn", "Engish WordNet", "en",
+def load(year="2022"):
+    """
+    Load wordnet from YAML files
+    """
+    wn = Lexicon("oewn", "Open Engish WordNet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
-                 "2022",
+                 year,
                  "https://github.com/globalwordnet/english-wordnet")
     with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
@@ -172,16 +215,6 @@ def load():
                     wn.add_synset(synset_from_yaml(wn, props, id, lex_name))
                     entry_orders[id] = props["members"]
 
-    # This is a big hack because of some inconsistencies in the XML that should
-    # be gone soon
-    synset_ids_starting_from_zero = set()
-    for f in glob("src/xml/*.xml"):
-        wn_lex = parse_wordnet(f)
-        for entry in wn_lex.entries:
-            for sense in entry.senses:
-                if sense.id.endswith("00"):
-                    synset_ids_starting_from_zero.add(sense.synset)
-
     for entry in wn.entries:
         for sense in entry.senses:
             fix_sense_rels(wn, sense)
@@ -197,18 +230,6 @@ def load():
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 "2019", "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
-
-    for lex_name, wn2 in by_lex_name.items():
-        if os.path.exists("src/xml/wn-%s.xml" % lex_name):
-            wn_lex = parse_wordnet("src/xml/wn-%s.xml" % lex_name)
-            senseids = {
-                sense.id[:-2]: sense.id for entry in wn_lex.entries for sense in entry.senses}
-            for entry in wn2.entries:
-                if wn_lex.entry_by_id(entry.id):
-                    # Fix the last ID, because it is not actually so
-                    # predicatable in the XML
-                    for sense in entry.senses:
-                        sense.id = senseids.get(sense.id[:-2], sense.id)
 
     return wn
 
@@ -331,8 +352,9 @@ ignored_symmetric_synset_rels = set([
     SynsetRelType.CO_INSTRUMENT_RESULT])
 
 
-def lemma2senseorder(wn, l, synset_id):
-    for e2 in wn.entry_by_lemma(l):
+def lemma2senseorder(wn, lemma, synset_id):
+    """Find sense order of lemmas"""
+    for e2 in wn.entry_by_lemma(lemma):
         for sense in wn.entry_by_id(e2).senses:
             if sense.synset == synset_id:
                 return sense.id[-2:]
@@ -342,85 +364,20 @@ def lemma2senseorder(wn, l, synset_id):
 def entries_ordered(wn, synset_id):
     """Get the lemmas for entries ordered correctly"""
     e = wn.members_by_id(synset_id)
-    e.sort(key=lambda l: lemma2senseorder(wn, l, synset_id))
+    e.sort(key=lambda lemma: lemma2senseorder(wn, lemma, synset_id))
     return e
 
 
-def save(wn, change_list=None):
-    entry_yaml = {c: {} for c in char_range('a', 'z')}
-    entry_yaml['0'] = {}
-    for entry in wn.entries:
-        e = {}
-        if entry.forms:
-            e['form'] = [f.written_form for f in entry.forms]
+def main():
+    if len(sys.argv) > 1:
+        year = sys.argv[1]
+    else:
+        year = "2024"
+    wn = load(year)
+    with codecs.open("wn.xml", "w", "utf-8") as outp:
+        wn.to_xml(outp, True)
 
-        sb_map = defaultdict(lambda: [])
-#        for sb in entry.syntactic_behaviours:
-#            sb_name = frames_inv[sb.subcategorization_frame]
-#            for sense in sb.senses:
-#                sb_map[sense].append(sb_name)
-#
-        e['sense'] = [sense_to_yaml(wn, s, sb_map) for s in entry.senses]
-        if entry.pronunciation:
-            e['pronunciation'] = []
-            for p in entry.pronunciation:
-                if p.variety:
-                    e['pronunciation'].append({'value':p.value, 'variety': p.variety})
-                else:
-                    e['pronunciation'].append({'value':p.value})
 
-        first = entry.lemma.written_form[0].lower()
-        if first not in char_range('a', 'z'):
-            first = '0'
-        if entry.lemma.written_form not in entry_yaml[first]:
-            entry_yaml[first][entry.lemma.written_form] = {}
-        if entry.lemma.part_of_speech.value in entry_yaml[first][entry.lemma.written_form]:
-            print(
-                "Duplicate: %s - %s" %
-                (entry.lemma.written_form,
-                 entry.lemma.part_of_speech.value))
-        entry_yaml[first][entry.lemma.written_form][entry.lemma.part_of_speech.value] = e
+if __name__ == "__main__":
+    main()
 
-    for c in char_range('a', 'z'):
-        if not change_list or c in change_list.entry_files:
-            with codecs.open("src/yaml/entries-%s.yaml" % c, "w", "utf-8") as outp:
-                outp.write(yaml.dump(entry_yaml[c], default_flow_style=False,
-                    allow_unicode=True))
-    if not change_list or '0' in change_list.entry_files:
-        with codecs.open("src/yaml/entries-0.yaml", "w", "utf-8") as outp:
-            outp.write(yaml.dump(entry_yaml['0'], default_flow_style=False,
-                allow_unicode=True))
-
-    synset_yaml = {}
-    for synset in wn.synsets:
-        s = {}
-        if synset.ili and synset.ili != "in":
-            s["ili"] = synset.ili
-        s["partOfSpeech"] = synset.part_of_speech.value
-        s["definition"] = [
-            definition_to_yaml(
-                wn, d) for d in synset.definitions]
-        if synset.examples:
-            s["example"] = [example_to_yaml(wn, x) for x in synset.examples]
-        if synset.source:
-            s["source"] = synset.source
-        for r in synset.synset_relations:
-            if r.rel_type not in ignored_symmetric_synset_rels:
-                if r.rel_type.value not in s:
-                    s[r.rel_type.value] = [r.target[KEY_PREFIX_LEN:]]
-                else:
-                    s[r.rel_type.value].append(r.target[KEY_PREFIX_LEN:])
-        if synset.lex_name not in synset_yaml:
-            synset_yaml[synset.lex_name] = {}
-        synset_yaml[synset.lex_name][synset.id[KEY_PREFIX_LEN:]] = s
-        s["members"] = [wn.id2entry[m].lemma.written_form for m in synset.members]
-
-    for key, synsets in synset_yaml.items():
-        if not change_list or key in change_list.lexfiles:
-            with codecs.open("src/yaml/%s.yaml" % key, "w", "utf-8") as outp:
-                outp.write(yaml.dump(synsets, default_flow_style=False,
-                    allow_unicode=True))
-
-    with open("src/yaml/frames.yaml", "w") as outp:
-        outp.write(yaml.dump(frames, default_flow_style=False,
-            allow_unicode=True))

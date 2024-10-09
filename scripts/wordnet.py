@@ -16,6 +16,7 @@ class Lexicon:
         self.license = license
         self.version = version
         self.url = url
+        self.citation = None
         self.entries = []
         self.synsets = []
         self.frames = []
@@ -105,10 +106,15 @@ class Lexicon:
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.3.dtd">\n""")
         else:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.3.dtd">\n""")
+        if self.citation:
+            citation_text = f"""
+           citation="{self.citation}" """
+        else:
+            citation_text = ""
         xml_file.write(
             """<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
   <Lexicon id="%s"
@@ -116,7 +122,7 @@ class Lexicon:
            language="%s"
            email="%s"
            license="%s"
-           version="%s"
+           version="%s"%s
            url="%s">
 """ %
             (self.id,
@@ -125,11 +131,12 @@ class Lexicon:
              self.email,
              self.license,
              self.version,
+             citation_text,
              self.url))
 
-        for entry in self.entries:
+        for entry in sorted(self.entries, key=lambda x: x.id):
             entry.to_xml(xml_file, self.comments)
-        for synset in self.synsets:
+        for synset in sorted(self.synsets, key=lambda x: x.id):
             synset.to_xml(xml_file, self.comments)
         for synbeh in self.frames:
             synbeh.to_xml(xml_file)
