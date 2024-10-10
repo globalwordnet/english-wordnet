@@ -770,11 +770,37 @@ def extract_comments(wordnet_file, lexicon):
                             c = None
 
 
+# Regular expressions for valid NameChar
+# based on the XML 1.0 specification.
+# We don't check for 1st character extra restrictions
+# because it's always prefixed with 'oewn-'
+xml_id_az = r'A-Za-z'
+xml_id_num = r'0-9'
+xml_id_extend = (
+    r'\xC0-\xD6' # ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ
+    r'\xD8-\xF6' # ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö
+    r'\xF8-\u02FF'
+    r'\u0370-\u037D'
+    r'\u037F-\u1FFF'
+    r'\u200C-\u200D'
+    r'\u2070-\u218F'
+    r'\u2C00-\u2FEF'
+    r'\u3001-\uD7FF'
+    r'\uF900-\uFDCF'
+    r'\uFDF0-\uFFFD'
+)
+xml_id_not_first = (
+    r'\u0300-\u036F'
+    r'\u203F-\u2040'
+)
+# name_start_char = fr'[_{xml_id_az}{xml_id_extend}]' # not used if oewn- prefix
+xml_id_char = fr'[_\-\.·{xml_id_az}{xml_id_num}{xml_id_extend}{xml_id_not_first}]'
+xml_id_char_re = re.compile(xml_id_char)
+
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
     def elc(c):
-        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (
-                c >= '0' and c <= '9') or c == '.':
+        if ('A' <= c <= 'Z') or ('a' <= c <= 'z') or ('0' <= c <= '9') or c == '.':
             return c
         elif c == ' ':
             return '_'
@@ -786,16 +812,17 @@ def escape_lemma(lemma):
             return '-ap-'
         elif c == '/':
             return '-sl-'
-        elif c == '-':
-            return '-'
+        elif c == ':':
+            return '-cn-'
         elif c == ',':
             return '-cm-'
         elif c == '!':
             return '-ex-'
         elif c == '+':
             return '-pl-'
-        else:
-            return '-%04x-' % ord(c)
+        elif xml_id_char_re.match(c):
+            return c
+        raise ValueError(f'Illegal character {c}')
 
     return "".join(elc(c) for c in lemma)
 

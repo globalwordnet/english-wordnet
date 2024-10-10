@@ -5,6 +5,7 @@ import sys
 import glob
 import sense_keys
 from sense_keys import unmap_sense_key
+from wordnet import xml_id_char
 from collections import Counter
 
 def check_symmetry(wn, fix):
@@ -168,7 +169,7 @@ def check_lex_files(wn, fix):
     return errors
 
 
-valid_id = re.compile("^oewn-[A-Za-z0-9_\\-.]*$")
+valid_id = re.compile(fr"^oewn-{xml_id_char}*$")
 
 valid_sense_id = re.compile(
     "^oewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
