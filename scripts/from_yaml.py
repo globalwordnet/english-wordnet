@@ -22,15 +22,10 @@ def map_sense_key(sk):
     """
     if "%" in sk:
         e = sk.split("%")
-        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-")
-                .replace("!","-ex-").replace(",","-cm-")
-                .replace(":","-cn-").replace("+","-pl-") +
+        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cn-").replace("+","-pl-") +
             "__" + e[1].replace("_","-sp-").replace(":","."))
     else:
-        return ("oewn-" + sk.replace("%", "__").replace("'","-ap-")
-                .replace("/","-sl-").replace("!","-ex-").replace(",","-cm-")
-                .replace(":","-cn-").replace("+","-pl-"))
-
+        return "oewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cn-").replace("+","-pl-")
 
 def unmap_sense_key(sk):
     """
@@ -40,14 +35,10 @@ def unmap_sense_key(sk):
         e = sk.split("__")
         oewn_key = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
-<<<<<<< HEAD:scripts/from_yaml.py
-        return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
-                .replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
+        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
             "%" + r.replace(".", ":").replace("-sp-","_"))
     else: 
-        return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
-                .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
-                .replace("-cn-",":").replace("-pl-","+"))
+        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+")
 
 
 def make_pos(y, pos):
