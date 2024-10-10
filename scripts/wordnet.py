@@ -772,7 +772,7 @@ def extract_comments(wordnet_file, lexicon):
 
 # Regular expressions for valid NameChar
 # based on the XML 1.0 specification.
-# We don't chek for 1st character extra restrictions
+# We don't check for 1st character extra restrictions
 # because it's always prefixed with 'oewn-'
 xml_id_az = r'A-Za-z'
 xml_id_num = r'0-9'
