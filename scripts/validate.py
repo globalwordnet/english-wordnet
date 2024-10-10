@@ -141,40 +141,29 @@ def check_lex_files(wn, fix):
         "adv": PartOfSpeech.ADVERB
     }
     errors = 0
-    for f in glob.glob("src/xml/wn-*.xml"):
-        lexfile = f[11:-4]
-        lex_pos = pos_map[lexfile[:3]]
-        swn = parse_wordnet(f)
-        for synset in swn.synsets:
-            if synset.lex_name != lexfile:
-                print("%s declared in %s but listed as %s" %
-                      (synset.id, lexfile, synset.lex_name))
+    for entry in wn.entries:
+        for sense in entry.senses:
+            if not sense.id:
+                print("%s does not have a sense key" % (sense.id))
                 errors += 1
-            if not equal_pos(lex_pos, synset.part_of_speech):
-                print("%s declared in %s but has wrong POS %s" %
-                      (synset.id, lexfile, synset.part_of_speech))
+            if not wn.synset_by_id(sense.synset):
+                print("%s refers to nonexistent synset %s" %
+                      (sense.id, sense.synset))
                 errors += 1
-        for entry in swn.entries:
-            if len(entry.senses) == 0:
-                print("%s is empty in %s" % (entry.id, lexfile))
+                continue
+            calc_sense_key = sense_keys.get_sense_key(
+                wn, entry, sense)
+            sense_key = unmap_sense_key(sense.id)
+            if sense_key != calc_sense_key:
+                if fix:
+                    print(
+                        "sed -i 's/%s/%s/' src/xml/*" %
+                        (sense_key, calc_sense_key))
+                else:
+                    print(
+                        "%s has declared key %s but should be %s" %
+                        (sense.id, sense_key, calc_sense_key))
                 errors += 1
-            for sense in entry.senses:
-                if not sense.id:
-                    print("%s does not have a sense key" % (sense.id))
-                    errors += 1
-                calc_sense_key = sense_keys.get_sense_key(
-                    wn, entry, sense, f)
-                sense_key = unmap_sense_key(sense.id)
-                if sense_key != calc_sense_key:
-                    if fix:
-                        print(
-                            "sed -i 's/%s/%s/' src/xml/*" %
-                            (sense_key, calc_sense_key))
-                    else:
-                        print(
-                            "%s has declared key %s but should be %s" %
-                            (sense.id, sense_key, calc_sense_key))
-                    errors += 1
 
     return errors
 
@@ -286,6 +275,8 @@ def main():
                         sense.id, sense2.id, sense.synset))
                     errors += 1
 
+    instances = set()
+
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
             print(
@@ -356,6 +347,15 @@ def main():
             print("ERROR: noun synset %s has no hypernym" % synset.id)
             errors += 1
 
+        if any(sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM 
+               for sr in synset.synset_relations):
+            if any(sr.rel_type == SynsetRelType.HYPERNYM
+                   for sr in synset.synset_relations):
+                print("Error: synset %s has both hypernym and instance hypernym"
+                      % synset.id)
+                errors += 1
+            instances.add(synset.id)
+
         if len(synset.definitions) == 0:
             print("ERROR: synset without definition %s" % (synset.id))
             errors += 1
@@ -372,6 +372,15 @@ def main():
                     "ERROR: Duplicate relation %s =%s=> %s" %
                     (synset.id, item[1], item[0]))
                 errors += 1
+
+    for synset in wn.synsets:
+        for sr in synset.synset_relations:
+            if sr.rel_type == SynsetRelType.HYPERNYM:
+                if sr.target in instances:
+                    print(
+                        "ERROR: Hypernym targets instance %s => %s" %
+                        (synset.id, sr.target))
+                    errors += 1
 
     for error in check_symmetry(wn, fix):
         if fix:
