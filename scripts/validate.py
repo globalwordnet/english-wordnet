@@ -1,10 +1,11 @@
-from wordnet import *
+from wordnet import (parse_wordnet, SynsetRelType, PartOfSpeech, SenseRelType,
+                     Synset, inverse_synset_rels, inverse_sense_rels, equal_pos)
 import re
 import sys
 import glob
 import sense_keys
-from collections import Counter
 from sense_keys import unmap_sense_key
+from collections import Counter
 
 def check_symmetry(wn, fix):
     errors = []
