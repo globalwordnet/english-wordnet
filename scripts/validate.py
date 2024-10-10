@@ -5,6 +5,7 @@ import sys
 import glob
 import sense_keys
 from sense_keys import unmap_sense_key
+from wordnet import xml_id_char
 from collections import Counter
 
 def check_symmetry(wn, fix):
