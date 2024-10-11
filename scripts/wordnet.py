@@ -16,6 +16,7 @@ class Lexicon:
         self.license = license
         self.version = version
         self.url = url
+        self.citation = None
         self.entries = []
         self.synsets = []
         self.frames = []
@@ -86,7 +87,7 @@ class Lexicon:
         return self.id2sense.get(id)
 
     def entry_by_lemma(self, lemma):
-        return self.member2entry.get(lemma)
+        return self.member2entry.get(lemma, [])
 
     def members_by_id(self, synset_id):
         return self.members.get(synset_id, [])
@@ -105,10 +106,15 @@ class Lexicon:
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.1.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.3.dtd">\n""")
         else:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.1.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.3.dtd">\n""")
+        if self.citation:
+            citation_text = f"""
+           citation="{self.citation}" """
+        else:
+            citation_text = ""
         xml_file.write(
             """<LexicalResource xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
   <Lexicon id="%s"
@@ -116,7 +122,7 @@ class Lexicon:
            language="%s"
            email="%s"
            license="%s"
-           version="%s"
+           version="%s"%s
            url="%s">
 """ %
             (self.id,
@@ -125,11 +131,12 @@ class Lexicon:
              self.email,
              self.license,
              self.version,
+             citation_text,
              self.url))
 
-        for entry in self.entries:
+        for entry in sorted(self.entries, key=lambda x: x.id):
             entry.to_xml(xml_file, self.comments)
-        for synset in self.synsets:
+        for synset in sorted(self.synsets, key=lambda x: x.id):
             synset.to_xml(xml_file, self.comments)
         for synbeh in self.frames:
             synbeh.to_xml(xml_file)
@@ -763,11 +770,37 @@ def extract_comments(wordnet_file, lexicon):
                             c = None
 
 
+# Regular expressions for valid NameChar
+# based on the XML 1.0 specification.
+# We don't check for 1st character extra restrictions
+# because it's always prefixed with 'oewn-'
+xml_id_az = r'A-Za-z'
+xml_id_num = r'0-9'
+xml_id_extend = (
+    r'\xC0-\xD6' # ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ
+    r'\xD8-\xF6' # ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö
+    r'\xF8-\u02FF'
+    r'\u0370-\u037D'
+    r'\u037F-\u1FFF'
+    r'\u200C-\u200D'
+    r'\u2070-\u218F'
+    r'\u2C00-\u2FEF'
+    r'\u3001-\uD7FF'
+    r'\uF900-\uFDCF'
+    r'\uFDF0-\uFFFD'
+)
+xml_id_not_first = (
+    r'\u0300-\u036F'
+    r'\u203F-\u2040'
+)
+# name_start_char = fr'[_{xml_id_az}{xml_id_extend}]' # not used if oewn- prefix
+xml_id_char = fr'[_\-\.·{xml_id_az}{xml_id_num}{xml_id_extend}{xml_id_not_first}]'
+xml_id_char_re = re.compile(xml_id_char)
+
 def escape_lemma(lemma):
     """Format the lemma so it is valid XML id"""
     def elc(c):
-        if (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') or (
-                c >= '0' and c <= '9') or c == '.':
+        if ('A' <= c <= 'Z') or ('a' <= c <= 'z') or ('0' <= c <= '9') or c == '.':
             return c
         elif c == ' ':
             return '_'
@@ -779,16 +812,17 @@ def escape_lemma(lemma):
             return '-ap-'
         elif c == '/':
             return '-sl-'
-        elif c == '-':
-            return '-'
+        elif c == ':':
+            return '-cn-'
         elif c == ',':
             return '-cm-'
         elif c == '!':
             return '-ex-'
         elif c == '+':
             return '-pl-'
-        else:
-            return '-%04x-' % ord(c)
+        elif xml_id_char_re.match(c):
+            return c
+        raise ValueError(f'Illegal character {c}')
 
     return "".join(elc(c) for c in lemma)
 

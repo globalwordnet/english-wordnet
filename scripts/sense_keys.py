@@ -2,56 +2,55 @@ from wordnet import *
 from glob import glob
 import re
 from sys import exit
-from wordnet_yaml import unmap_sense_key
 
 lex_filenums = {
-    "src/xml/wn-adj.all.xml": 0,
-    "src/xml/wn-adj.pert.xml": 1,
-    "src/xml/wn-adv.all.xml": 2,
-    "src/xml/wn-noun.Tops.xml": 3,
-    "src/xml/wn-noun.act.xml": 4,
-    "src/xml/wn-noun.animal.xml": 5,
-    "src/xml/wn-noun.artifact.xml": 6,
-    "src/xml/wn-noun.attribute.xml": 7,
-    "src/xml/wn-noun.body.xml": 8,
-    "src/xml/wn-noun.cognition.xml": 9,
-    "src/xml/wn-noun.communication.xml": 10,
-    "src/xml/wn-noun.event.xml": 11,
-    "src/xml/wn-noun.feeling.xml": 12,
-    "src/xml/wn-noun.food.xml": 13,
-    "src/xml/wn-noun.group.xml": 14,
-    "src/xml/wn-noun.location.xml": 15,
-    "src/xml/wn-noun.motive.xml": 16,
-    "src/xml/wn-noun.object.xml": 17,
-    "src/xml/wn-noun.person.xml": 18,
-    "src/xml/wn-noun.phenomenon.xml": 19,
-    "src/xml/wn-noun.plant.xml": 20,
-    "src/xml/wn-noun.possession.xml": 21,
-    "src/xml/wn-noun.process.xml": 22,
-    "src/xml/wn-noun.quantity.xml": 23,
-    "src/xml/wn-noun.relation.xml": 24,
-    "src/xml/wn-noun.shape.xml": 25,
-    "src/xml/wn-noun.state.xml": 26,
-    "src/xml/wn-noun.substance.xml": 27,
-    "src/xml/wn-noun.time.xml": 28,
-    "src/xml/wn-verb.body.xml": 29,
-    "src/xml/wn-verb.change.xml": 30,
-    "src/xml/wn-verb.cognition.xml": 31,
-    "src/xml/wn-verb.communication.xml": 32,
-    "src/xml/wn-verb.competition.xml": 33,
-    "src/xml/wn-verb.consumption.xml": 34,
-    "src/xml/wn-verb.contact.xml": 35,
-    "src/xml/wn-verb.creation.xml": 36,
-    "src/xml/wn-verb.emotion.xml": 37,
-    "src/xml/wn-verb.motion.xml": 38,
-    "src/xml/wn-verb.perception.xml": 39,
-    "src/xml/wn-verb.possession.xml": 40,
-    "src/xml/wn-verb.social.xml": 41,
-    "src/xml/wn-verb.stative.xml": 42,
-    "src/xml/wn-verb.weather.xml": 43,
-    "src/xml/wn-adj.ppl.xml": 44,
-    "src/xml/wn-contrib.colloq.xml": 50,
-    "src/xml/wn-contrib.plwn.xml": 51}
+    "adj.all": 0,
+    "adj.pert": 1,
+    "adv.all": 2,
+    "noun.Tops": 3,
+    "noun.act": 4,
+    "noun.animal": 5,
+    "noun.artifact": 6,
+    "noun.attribute": 7,
+    "noun.body": 8,
+    "noun.cognition": 9,
+    "noun.communication": 10,
+    "noun.event": 11,
+    "noun.feeling": 12,
+    "noun.food": 13,
+    "noun.group": 14,
+    "noun.location": 15,
+    "noun.motive": 16,
+    "noun.object": 17,
+    "noun.person": 18,
+    "noun.phenomenon": 19,
+    "noun.plant": 20,
+    "noun.possession": 21,
+    "noun.process": 22,
+    "noun.quantity": 23,
+    "noun.relation": 24,
+    "noun.shape": 25,
+    "noun.state": 26,
+    "noun.substance": 27,
+    "noun.time": 28,
+    "verb.body": 29,
+    "verb.change": 30,
+    "verb.cognition": 31,
+    "verb.communication": 32,
+    "verb.competition": 33,
+    "verb.consumption": 34,
+    "verb.contact": 35,
+    "verb.creation": 36,
+    "verb.emotion": 37,
+    "verb.motion": 38,
+    "verb.perception": 39,
+    "verb.possession": 40,
+    "verb.social": 41,
+    "verb.stative": 42,
+    "verb.weather": 43,
+    "adj.ppl": 44,
+    "contrib.colloq": 50,
+    "contrib.plwn": 51}
 
 ss_types = {
     PartOfSpeech.NOUN: 1,
@@ -119,16 +118,14 @@ def get_head_word(wn, s):
     exit(-1)
 
 
-def get_sense_key(wn, e, s, wn_file):
+def get_sense_key(wn, e, s):
     """Calculate the sense key for a sense of an entry"""
     ss = wn.synset_by_id(s.synset)
     lemma = e.lemma.written_form.replace(
         " ", "_").replace(
         "&apos", "'").lower()
     ss_type = ss_types[ss.part_of_speech]
-    if not wn_file.startswith("src/xml/wn-"):
-        wn_file = f"src/xml/wn-{wn_file}.xml"
-    lex_filenum = lex_filenums[wn_file]
+    lex_filenum = lex_filenums[ss.lex_name]
     if s.id:
         lex_id = extract_lex_id(unmap_sense_key(s.id))
     else:
@@ -140,3 +137,22 @@ def get_sense_key(wn, e, s, wn_file):
         head_id = ""
     return "%s%%%d:%02d:%02d:%s:%s" % (lemma, ss_type, lex_filenum,
                                        lex_id, head_word, head_id)
+
+def unmap_sense_key(sk, KEY_PREFIX_LEN=5):
+    """
+    Maps an OEWN sense key to a WN sense key
+    """
+    if "__" in sk:
+        e = sk.split("__")
+        oewn_key = e[0][KEY_PREFIX_LEN:]
+        r = "__".join(e[1:])
+        return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
+                .replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
+            "%" + r.replace(".", ":").replace("-sp-","_"))
+    else: 
+        return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
+                .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
+                .replace("-cl-",":").replace("-pl-","+"))
+
+
+

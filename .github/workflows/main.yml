@@ -19,11 +19,8 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Generate XML
-      run: python scripts/from-yaml.py
+      run: python scripts/from_yaml.py
 
-    - name: Merge the source files
-      run: python scripts/merge.py
-      
     - name: Install xmllint
       run: sudo apt-get update && sudo apt-get install libxml2-utils
       
