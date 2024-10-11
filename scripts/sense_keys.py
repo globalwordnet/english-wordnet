@@ -121,9 +121,11 @@ def get_head_word(wn, s):
 def get_sense_key(wn, e, s):
     """Calculate the sense key for a sense of an entry"""
     ss = wn.synset_by_id(s.synset)
-    lemma = e.lemma.written_form.replace(
-        " ", "_").replace(
-        "&apos", "'").lower()
+    lemma = (e.lemma.written_form
+        .replace(" ", "_")
+        .replace("&apos", "'")
+        .replace(":", "-cn-")
+        .lower())
     ss_type = ss_types[ss.part_of_speech]
     lex_filenum = lex_filenums[ss.lex_name]
     if s.id:
