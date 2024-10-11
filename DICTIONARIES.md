@@ -1,7 +1,7 @@
 # Reference Dictionaries
 
 This is a list of reference dictionaries that should be used when considering 
-changes to Open English WordNet
+changes to Open English Wordnet
 
 * [American Heritage Dictionary](https://www.ahdictionary.com/)
 * [Cambridge Dictionary](https://dictionary.cambridge.org/)

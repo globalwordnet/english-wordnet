@@ -90,7 +90,7 @@ Finally, don't forget that it is human to make mistakes! We all do. Let’s work
 
 ### Neutrality
 
-Open English WordNet aims to be a politically neutral resource, however we accept that the description of the language necessarily involves making political statements. In the case where politics are relevant to the particular word, we follow Wikipedia in the definition of political entities, states and so forth. We ask all contributors to avoid political statements when not relevant to the discussion.
+Open English Wordnet aims to be a politically neutral resource, however we accept that the description of the language necessarily involves making political statements. In the case where politics are relevant to the particular word, we follow Wikipedia in the definition of political entities, states and so forth. We ask all contributors to avoid political statements when not relevant to the discussion.
 
 ### Thanks
 Derived from [thoughbot's code of conduct](https://thoughtbot.com/open-source-code-of-conduct)
