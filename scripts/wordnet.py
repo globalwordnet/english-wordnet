@@ -87,7 +87,7 @@ class Lexicon:
         return self.id2sense.get(id)
 
     def entry_by_lemma(self, lemma):
-        return self.member2entry.get(lemma)
+        return self.member2entry.get(lemma, [])
 
     def members_by_id(self, synset_id):
         return self.members.get(synset_id, [])

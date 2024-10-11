@@ -331,7 +331,7 @@ def main():
         for i in range(len(sr2)-1):
             if sr2[i].target == sr2[i+1].target and sr2[i].rel_type == sr2[i+1].rel_type:
                 print("ERROR: Duplicate synset relation %s =%s=> %s" %
-                        (synset.id, sr2[i].rel_type.value, sr2.target))
+                        (synset.id, sr2[i].rel_type.value, sr2[i].target))
                 errors += 1
 
         if synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and similars == 0:
