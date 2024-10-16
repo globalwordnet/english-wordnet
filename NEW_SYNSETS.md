@@ -72,6 +72,11 @@ substituted, e.g., "a happy life"/"a felicitous outcome". This does not mean
 that they can be substituted in every sense, e.g., "happy to help" but not
 *"felicitous to help".
 
+For verbs, two verbs are distinct if they differ in the subject, but not if the 
+direct object or any other argument can be substituted with a quantifier such as
+"something" or "someone". For example, "to eat" and "to eat something" are not 
+distinct senses. However, "to change" and "to change something" are distinct senses
+as the subject has a different semantic role.
 
 ## Well-defined
 
