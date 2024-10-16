@@ -1,6 +1,6 @@
 ---
 name: Delete synset
-about: Propose that a synset be removed from WordNet (do not use for merging synsets)
+about: Propose that a synset be removed from Wordnet (do not use for merging synsets)
 title: ''
 labels: delete synset
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: New synset
-about: Suggest a novel word that does not correspond to an existing concept in WordNet
+about: Suggest a novel word that does not correspond to an existing concept in Wordnet
 title: ''
 labels: new synset
 assignees: ''
