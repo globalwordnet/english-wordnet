@@ -277,6 +277,7 @@ def main():
                     errors += 1
 
     instances = set()
+    ilis = set()
 
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
@@ -373,6 +374,12 @@ def main():
                     "ERROR: Duplicate relation %s =%s=> %s" %
                     (synset.id, item[1], item[0]))
                 errors += 1
+
+        if synset.ili != "in" and synset.ili in ilis:
+            print(f"ERROR: ILI {synset.ili} is duplicated")
+            errors += 1
+        else:
+            ilis.add(synset.ili)
 
     for synset in wn.synsets:
         for sr in synset.synset_relations:

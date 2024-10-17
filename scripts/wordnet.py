@@ -102,7 +102,7 @@ class Lexicon:
         self.sense2synset[new_id] = sense.synset
         self.id2sense[new_id] = sense
 
-    def to_xml(self, xml_file, part=True):
+    def to_xml(self, xml_file, part=False):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
