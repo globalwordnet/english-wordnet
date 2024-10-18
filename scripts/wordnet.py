@@ -241,8 +241,6 @@ class Sense:
             n_str = " adjposition=\"%s\"" % self.adjposition
         else:
             n_str = ""
-        if self.n >= 0:
-            n_str = "%s n=\"%d\"" % (n_str, self.n)
         if self.sense_key:
             sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
         else:
