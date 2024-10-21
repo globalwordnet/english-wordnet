@@ -818,6 +818,8 @@ def escape_lemma(lemma):
             return '-ex-'
         elif c == '+':
             return '-pl-'
+        elif c == '%':
+            return '-pc-'
         elif xml_id_char_re.match(c):
             return c
         raise ValueError(f'Illegal character {c}')
