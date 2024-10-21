@@ -34,7 +34,7 @@ wordnet novel_lemma_in_this_edition -over
 
 ## RDF Release and en-word.net site
 
-This is based on [WordNet Angular](https://github.com/jmccrae/wordnet-angular)
+This is based on [Wordnet Angular](https://github.com/jmccrae/wordnet-angular)
 
 Firstly, load the database from the XML file
 

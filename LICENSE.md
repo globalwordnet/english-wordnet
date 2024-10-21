@@ -1,7 +1,7 @@
 This resource is derived from Princeton WordNet under the WordNet License
 and further developed under the Creative Commons Attribution 4.0 International License.
 You may share and adapt this resource providing attribution is given to both
-Princeton WordNet and the Open English WordNet team.
+Princeton WordNet and the Open English Wordnet team.
 
 Creative Commons Attribution 4.0 International
 

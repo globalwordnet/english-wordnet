@@ -1,6 +1,6 @@
-# Editing Open English WordNet
+# Editing Open English Wordnet
 
-This document contains guidelines for making changes to Open English WordNet and fixing issues using GitHub and the English WordNet Editor (EWE)
+This document contains guidelines for making changes to Open English Wordnet and fixing issues using GitHub and the English Wordnet Editor (EWE)
 
 You should take the following steps to implement a change in the resource
 
