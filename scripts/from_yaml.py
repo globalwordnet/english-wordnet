@@ -22,10 +22,20 @@ def map_sense_key(sk):
     """
     if "%" in sk:
         e = sk.split("%")
-        return ("oewn-" + e[0].replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cn-").replace("+","-pl-") +
-            "__" + e[1].replace("_","-sp-").replace(":","."))
+        if len(e) > 2:
+            lemma = "%".join(e[:-1])
+            info = e[-1]
+        else:
+            lemma = e[0]
+            info = e[1]
+        return ("oewn-" + lemma.replace("'","-ap-").replace("/","-sl-").
+                replace("!","-ex-").replace(",","-cm-")
+                .replace(":","-cn-").replace("+","-pl-") +
+            "__" + info.replace("_","-sp-").replace(":","."))
     else:
-        return "oewn-" + sk.replace("%", "__").replace("'","-ap-").replace("/","-sl-").replace("!","-ex-").replace(",","-cm-").replace(":","-cn-").replace("+","-pl-")
+        return ("oewn-" + sk.replace("%", "__").replace("'","-ap-").
+            replace("/","-sl-").replace("!","-ex-").
+            replace(",","-cm-").replace(":","-cn-").replace("+","-pl-"))
 
 def unmap_sense_key(sk):
     """
@@ -51,15 +61,6 @@ def make_pos(y, pos):
         return pos[:1]
     else:
         return pos
-
-
-def make_sense_id(y, lemma, pos):
-    """
-    Create a sense ID from a YAML entry
-    """
-    return "oewn-%s-%s-%s" % (
-        escape_lemma(lemma), make_pos(y, pos), y["synset"][:-2])
-
 
 def sense_from_yaml(y, lemma, pos, n):
     """
