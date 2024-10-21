@@ -102,7 +102,7 @@ class Lexicon:
         self.sense2synset[new_id] = sense.synset
         self.id2sense[new_id] = sense
 
-    def to_xml(self, xml_file, part=True):
+    def to_xml(self, xml_file, part=False):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
@@ -241,8 +241,6 @@ class Sense:
             n_str = " adjposition=\"%s\"" % self.adjposition
         else:
             n_str = ""
-        if self.n >= 0:
-            n_str = "%s n=\"%d\"" % (n_str, self.n)
         if self.sense_key:
             sk_str = " dc:identifier=\"%s\"" % escape_xml_lit(self.sense_key)
         else:
@@ -820,6 +818,8 @@ def escape_lemma(lemma):
             return '-ex-'
         elif c == '+':
             return '-pl-'
+        elif c == '%':
+            return '-pc-'
         elif xml_id_char_re.match(c):
             return c
         raise ValueError(f'Illegal character {c}')
