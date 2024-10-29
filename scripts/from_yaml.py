@@ -369,7 +369,7 @@ def main():
         year = "2024"
     wn = load(year)
     with codecs.open("wn.xml", "w", "utf-8") as outp:
-        wn.to_xml(outp, True)
+        wn.to_xml(outp)
 
 
 if __name__ == "__main__":
