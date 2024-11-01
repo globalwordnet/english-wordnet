@@ -124,7 +124,6 @@ def get_sense_key(wn, e, s):
     lemma = (e.lemma.written_form
         .replace(" ", "_")
         .replace("&apos", "'")
-        .replace(":", "-cn-")
         .lower())
     ss_type = ss_types[ss.part_of_speech]
     lex_filenum = lex_filenums[ss.lex_name]
@@ -149,12 +148,12 @@ def unmap_sense_key(sk, KEY_PREFIX_LEN=5):
         oewn_key = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
         return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
-                .replace("-cm-",",").replace("-cl-",":").replace("-pl-","+") +
+                .replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
             "%" + r.replace(".", ":").replace("-sp-","_"))
     else: 
         return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
                 .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
-                .replace("-cl-",":").replace("-pl-","+"))
+                .replace("-cn-",":").replace("-pl-","+"))
 
 
 
