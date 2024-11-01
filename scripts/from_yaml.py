@@ -174,7 +174,7 @@ def load(year="2022"):
     """
     Load wordnet from YAML files
     """
-    wn = Lexicon("oewn", "Open Engish WordNet", "en",
+    wn = Lexicon("oewn", "Open Engish Wordnet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
                  year,
@@ -220,9 +220,9 @@ def load(year="2022"):
     for synset in wn.synsets:
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                "oewn", "Open English WordNet", "en",
+                "oewn", "Open English Wordnet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
-                "2019", "https://github.com/globalwordnet/english-wordnet")
+                year, "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
 
     return wn
@@ -369,7 +369,7 @@ def main():
         year = "2024"
     wn = load(year)
     with codecs.open("wn.xml", "w", "utf-8") as outp:
-        wn.to_xml(outp, True)
+        wn.to_xml(outp)
 
 
 if __name__ == "__main__":

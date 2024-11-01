@@ -1,6 +1,6 @@
 # Guidelines for the addition of new synsets
 
-New synsets should be added with some caution to Open English WordNet. This document
+New synsets should be added with some caution to Open English Wordnet. This document
 describes the criteria that should be applied before introducing a new synset 
 to the resource.
 
@@ -20,7 +20,7 @@ a reason to add more synsets of poor quality*
 
 ## Significance
 
-A concept in Open English WordNet should be significant, this means that it should
+A concept in Open English Wordnet should be significant, this means that it should
 be possible to easily find **at least 100 examples** of the usage of the word 
 with this meaning. This can be done by using a search interface such as 
 [Sketch Engine](http://sketchengine.eu) or other corpus search interface.
@@ -31,21 +31,21 @@ In the case that a new sense of an existing word is being proposed, then it
 should be possible to propose collocates that occur with this sense of the word
 and these can be used to find and distinguish examples.
 
-Open English WordNet is a dictionary not an encyclopedia. For this reason, it should
+Open English Wordnet is a dictionary not an encyclopedia. For this reason, it should
 not contain long lists of people, places, organizations, etc. Proper nouns are
 generally not expected to be included in the resource and many kinds of common 
 nouns for narrow domains or geographical usage should not be included, examples 
 of this would include elements of different cuisines around the world. As a rule 
 of thumb, if there is a Wikipedia page for this concept it should not be in
-Open English WordNet
+Open English Wordnet
 
 NB: *Deeper integration of Wikipedia/Wikidata is planned to allow these concepts
-to be referred to from Open English WordNet*
+to be referred to from Open English Wordnet*
 
 ## Non-compositionality
 
-One of the goals of Open English WordNet is to support annotation. If a word or term
-is already covered by Open English WordNet it should not be added. 
+One of the goals of Open English Wordnet is to support annotation. If a word or term
+is already covered by Open English Wordnet it should not be added. 
 
 For multiword terms, this means that the meaning of the term should not be 
 derivable from its components, e.g., "French Army" could be tagged with the 
@@ -63,7 +63,7 @@ include:
 
 ## Distinction
 
-The concept should be distinct from other concepts in the WordNet. You should
+The concept should be distinct from other concepts in the wordnet. You should
 think about and check relevant synonyms. This should probably be considered in
 terms of a substitution check, e.g.,
 
@@ -81,7 +81,7 @@ as the subject has a different semantic role.
 ## Well-defined
 
 It should be possible to easily write a definition for this concept that is 
-distinct from other concepts in Open English WordNet. A good definition consists of
+distinct from other concepts in Open English Wordnet. A good definition consists of
 a *genus* and a *differentia*
 
 * **Genus**: The type of the thing, often the hypernym
