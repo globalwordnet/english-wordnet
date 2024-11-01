@@ -14,6 +14,9 @@ through the [Collaborative Interlingual Index (CILI)](https://github.com/globalw
 
 Open English Wordnet is released through the [Open English Wordnet website](https://en-word.net/). The versions released are
 
+* **2024 Edition** (Released 1st November 2024). [(LMF)](https://en-word.net/static/english-wordnet-2024.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2024.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2024.zip)
 * **2023 Edition** (Released 31st October 2023). [(LMF)](https://en-word.net/static/english-wordnet-2023.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2023.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2023.zip)
@@ -34,6 +37,7 @@ The size of each resource is as follows
 
 | Edition | Words   | Synsets | Relations |
 |---------|---------|---------|-----------|
+| 2024    | 161,705 | 120,630 | 418,168   |
 | 2023    | 161,338 | 120,135 | 415,905   |
 | 2022    | 161,221 | 120,068 | 386,437   |
 | 2021    | 163,161 | 120,039 | 384,505   |
