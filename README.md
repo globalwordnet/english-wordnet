@@ -1,19 +1,22 @@
-# Open English WordNet
+# Open English Wordnet
 
-Open English WordNet is a lexical network of the English language grouping words into synsets and linking them according
+Open English Wordnet is a lexical network of the English language grouping words into synsets and linking them according
 to relationships such as hypernymy, antonymy and meronymy. It is intended to be used in natural language processing 
 applications and provides deep lexical information about the English language as a graph.
 
-Open English WordNet is a fork of the [Princeton Wordnet](https://wordnet.princeton.edu/) developed under
+Open English Wordnet is a fork of the [Princeton WordNet](https://wordnet.princeton.edu/) developed under
 an open source methodology. The quality and veracity of the resource may differ from the Princeton 
-WordNet and we welcome contributions. Contributions to this wordnet may eventually be incorporated into
+Wordnet and we welcome contributions. Contributions to this wordnet may eventually be incorporated into
 future releases of Princeton WordNet. Correspondance to previous versions and wordnets in other language is provided
-through the [Collaborative Interlingual Index (CILI)](https://github.com/globalwordnet/cili). The Open English WordNet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
+through the [Collaborative Interlingual Index (CILI)](https://github.com/globalwordnet/cili). The Open English Wordnet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
 
 ## Releases
 
-Open English WordNet is released through the [Open English WordNet website](https://en-word.net/). The versions released are
+Open English Wordnet is released through the [Open English Wordnet website](https://en-word.net/). The versions released are
 
+* **2024 Edition** (Released 1st November 2024). [(LMF)](https://en-word.net/static/english-wordnet-2024.xml.gz)
+[(RDF)](https://en-word.net/static/english-wordnet-2024.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2024.zip)
 * **2023 Edition** (Released 31st October 2023). [(LMF)](https://en-word.net/static/english-wordnet-2023.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2023.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2023.zip)
@@ -34,6 +37,7 @@ The size of each resource is as follows
 
 | Edition | Words   | Synsets | Relations |
 |---------|---------|---------|-----------|
+| 2024    | 161,705 | 120,630 | 418,168   |
 | 2023    | 161,338 | 120,135 | 415,905   |
 | 2022    | 161,221 | 120,068 | 386,437   |
 | 2021    | 163,161 | 120,039 | 384,505   |
@@ -57,14 +61,14 @@ Further conversions are available through the converter [here](http://server1.nl
 We welcome changes, to make a change please read our [contributing guidelines](CONTRIBUTING.md) 
 and make a pull request.
 
-Open English WordNet is a high-quality resource that acts as a gold-standard for natural language processing,
+Open English Wordnet is a high-quality resource that acts as a gold-standard for natural language processing,
 as such we cannot accept any automatically generated results that have not been manually validated.
 
 Please be aware that we use the [Global WordNet Association LMF](https://globalwordnet.github.io/schemas/) and please read the guidelines for using the [format](FORMAT.md)
 
 ## License
 
-WordNet is released under [CC-BY 4.0](LICENSE.md)
+Open English Wordnet is released under [CC-BY 4.0](LICENSE.md)
 
 ## References
 

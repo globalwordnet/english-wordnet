@@ -1,5 +1,5 @@
 ---
-name: Other change to WordNet
+name: Other change to Wordnet
 about: Some other change to the content of the resource
 title: ''
 labels: ''
