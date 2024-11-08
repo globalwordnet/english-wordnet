@@ -30889,6 +30889,16 @@ destroy:
       - vtai
       - vtii
       synset: 01622948-v
+    - id: 'destroy%2:33:00::'
+      sent:
+      - The fighter managed to destroy his opponent
+      subcat:
+      - vtaa
+      synset: 01085766-v
+    - id: 'destroy%2:35:01::'
+      subcat:
+      - vtai
+      synset: 01329210-v
     - agent:
       - 'destroyer%1:18:00::'
       derivation:
@@ -30900,23 +30910,13 @@ destroy:
       event:
       - 'destruction%1:11:00::'
       - 'destruction%1:04:00::'
-      id: 'destroy%2:35:00::'
+      id: 'destroy%2:36:02::'
       instrument:
       - 'destroyer%1:06:00::'
       subcat:
       - vtai
       - vtii
-      synset: 01566925-v
-    - id: 'destroy%2:33:00::'
-      sent:
-      - The fighter managed to destroy his opponent
-      subcat:
-      - vtaa
-      synset: 01085766-v
-    - id: 'destroy%2:35:01::'
-      subcat:
-      - vtai
-      synset: 01329210-v
+      synset: 01660001-v
 destroyable:
   a:
     sense:
@@ -30938,12 +30938,12 @@ destroyer:
     sense:
     - derivation:
       - 'destroy%2:36:00::'
-      - 'destroy%2:35:00::'
+      - 'destroy%2:36:02::'
       id: 'destroyer%1:06:00::'
       synset: 03185170-n
     - derivation:
       - 'destroy%2:36:00::'
-      - 'destroy%2:35:00::'
+      - 'destroy%2:36:02::'
       id: 'destroyer%1:18:00::'
       synset: 10028370-n
 destroyer escort:
@@ -30988,8 +30988,8 @@ destructible:
       - 'indestructible%3:00:00::'
       derivation:
       - 'destroy%2:36:00::'
-      - 'destroy%2:35:00::'
       - 'destructibility%1:07:00::'
+      - 'destroy%2:36:02::'
       id: 'destructible%3:00:00::'
       synset: 00741517-a
 destruction:
@@ -30999,11 +30999,11 @@ destruction:
     sense:
     - derivation:
       - 'destroy%2:36:00::'
-      - 'destroy%2:35:00::'
+      - 'destroy%2:36:02::'
       id: 'destruction%1:04:00::'
       synset: 00217881-n
     - derivation:
-      - 'destroy%2:35:00::'
+      - 'destroy%2:36:02::'
       id: 'destruction%1:11:00::'
       synset: 07349090-n
     - id: 'destruction%1:26:00::'
