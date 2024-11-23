@@ -7,6 +7,7 @@ import sense_keys
 from sense_keys import unmap_sense_key
 from wordnet import xml_id_char
 from collections import Counter
+from from_yaml import load
 
 def check_symmetry(wn, fix):
     errors = []
@@ -199,7 +200,8 @@ def is_valid_sense_id(xml_id, synset):
 
 
 def main():
-    wn = parse_wordnet("wn.xml")
+    #wn = parse_wordnet("wn.xml")
+    wn = load()
 
     if len(sys.argv) > 1 and sys.argv[1] == "--fix":
         fix = True
@@ -278,6 +280,7 @@ def main():
 
     instances = set()
     ilis = set()
+    wikidatas = set()
 
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
@@ -380,6 +383,12 @@ def main():
             errors += 1
         else:
             ilis.add(synset.ili)
+
+        if synset.wikidata and synset.wikidata in wikidatas:
+            print(f"ERROR: QID {synset.wikidata} is duplicated")
+            errors += 1
+        else:
+            wikidatas.add(synset.wikidata)
 
     for synset in wn.synsets:
         for sr in synset.synset_relations:
