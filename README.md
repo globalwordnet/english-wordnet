@@ -49,10 +49,9 @@ The size of each resource is as follows
 
 To compile these into a single file please use the following script(s)
 
-    python scripts/from-yaml.py
-    python scripts/merge.py
+    python scripts/from_yaml.py
 
-This will create a file at `wn31.xml` that contains the complete wordnet.
+This will create a file at `wn.xml` that contains the complete wordnet.
 
 Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
 
