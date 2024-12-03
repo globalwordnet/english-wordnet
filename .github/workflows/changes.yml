@@ -1,0 +1,28 @@
+name: auto-format
+on: pull_request
+jobs:
+  format:
+    # Check if the PR is not from a fork
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Apply EWE Changes
+        if: ${{ hashFiles('changes.yaml') != '' }}
+        run: |
+          wget https://github.com/jmccrae/ewe/releases/download/Ubuntu-latest/ewe
+          chmod +x ewe
+          ./ewe changes.yaml`
+      - name: Check for modified files
+        id: git-check
+        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+      - name: Push changes
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name 'John McCrae'
+          git config --global user.email 'john@mccr.ae'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Automated changes"
+          git push
