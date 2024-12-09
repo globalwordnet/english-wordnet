@@ -4388,9 +4388,17 @@ oak:
     - value: əʊk
       variety: GB
     sense:
-    - id: 'oak%1:20:02::'
+    - collocation:
+      - 'age%2:30:00::'
+      - 'beam%1:06:00::'
+      - 'lend%2:40:01::'
+      - 'panelling%1:06:00::'
+      id: 'oak%1:20:02::'
       synset: 12289435-n
-    - id: 'oak%1:20:00::'
+    - collocation:
+      - 'fell%2:35:00::'
+      - 'leaf%1:20:00::'
+      id: 'oak%1:20:00::'
       synset: 12288763-n
 oak apple:
   n:
@@ -4455,7 +4463,13 @@ oar:
       variety: US
     - value: o(ː)ɹ
     sense:
-    - id: 'oar%1:06:00::'
+    - collocation:
+      - 'propel%2:35:00::'
+      - 'pull%2:38:02::'
+      - 'rowing%1:04:00::'
+      - 'steer%2:38:00::'
+      - 'take%2:35:00::'
+      id: 'oar%1:06:00::'
       synset: 03842942-n
 oarfish:
   n:
@@ -4523,9 +4537,14 @@ oat:
     - value: oʊt
       variety: US
     sense:
-    - id: 'oat%1:20:00::'
+    - collocation:
+      - 'grow%2:30:02::'
+      - 'grow%2:36:00::'
+      id: 'oat%1:20:00::'
       synset: 12130344-n
-    - id: 'oat%1:13:00::'
+    - collocation:
+      - 'harvest%2:35:00::'
+      id: 'oat%1:13:00::'
       synset: 07820128-n
 oat cell carcinoma:
   n:
@@ -4554,9 +4573,18 @@ oath:
     sense:
     - id: 'oath%1:10:01::'
       synset: 07139804-n
-    - id: 'oath%1:10:00::'
+    - collocation:
+      - 'administer%2:41:01::'
+      id: 'oath%1:10:00::'
       synset: 06697317-n
-    - id: 'oath%1:10:02::'
+    - collocation:
+      - 'allegiance%1:04:00::'
+      - 'allegiance%1:07:00::'
+      - 'offend%2:41:00::'
+      - 'refuse%2:32:00::'
+      - 'swear%2:32:02::'
+      - 'take%2:41:04::'
+      id: 'oath%1:10:02::'
       synset: 07241501-n
 oatmeal:
   n:
@@ -4639,6 +4667,11 @@ obedience:
     sense:
     - antonym:
       - 'disobedience%1:04:00::'
+      collocation:
+      - 'demand%2:32:02::'
+      - 'owe%2:42:00::'
+      - 'pledge%2:32:00::'
+      - 'swear%2:32:02::'
       derivation:
       - 'obedient%3:00:00::'
       - 'obey%2:41:00::'
@@ -4646,12 +4679,17 @@ obedience:
       synset: 01169636-n
     - antonym:
       - 'disobedience%1:07:00::'
+      collocation:
+      - 'ask%2:32:05::'
+      - 'demand%2:32:00::'
       derivation:
       - 'obedient%3:00:00::'
       - 'obey%2:41:00::'
       id: 'obedience%1:07:00::'
       synset: 04913450-n
-    - derivation:
+    - collocation:
+      - 'child%1:18:00::'
+      derivation:
       - 'obedient%3:00:00::'
       id: 'obedience%1:04:02::'
       synset: 01135185-n
@@ -4715,7 +4753,9 @@ obelisk:
     - value: ˈɔbəlɪsk
       variety: US
     sense:
-    - id: 'obelisk%1:06:00::'
+    - collocation:
+      - 'raise%2:36:02::'
+      id: 'obelisk%1:06:00::'
       synset: 03843389-n
     - id: 'obelisk%1:10:00::'
       synset: 06841579-n
@@ -4753,6 +4793,19 @@ obey:
     sense:
     - antonym:
       - 'disobey%2:41:00::'
+      collocation:
+      - 'command%1:10:00::'
+      - 'direction%1:10:02::'
+      - 'impulse%1:12:01::'
+      - 'injunction%1:10:00::'
+      - 'instinct%1:09:00::'
+      - 'law%1:10:00::'
+      - 'letter%1:10:03::'
+      - 'man%1:18:08::'
+      - 'order%1:10:03::'
+      - 'rule%1:10:00::'
+      - 'summons%1:10:00::'
+      - 'wish%1:09:00::'
       derivation:
       - 'obedient%3:00:00::'
       - 'obeisance%1:04:00::'
@@ -4849,7 +4902,13 @@ obituary:
     - value: əˈbɪtʃuˌɜɹi
       variety: US
     sense:
-    - id: 'obituary%1:10:00::'
+    - collocation:
+      - 'column%1:10:01::'
+      - 'page%1:10:00::'
+      - 'print%2:36:02::'
+      - 'read%2:31:00::'
+      - 'write%2:32:00::'
+      id: 'obituary%1:10:00::'
       synset: 06760847-n
 object:
   n:
@@ -4860,17 +4919,67 @@ object:
       variety: US
     - value: əbˈd͡ʒɛkt
     sense:
-    - derivation:
+    - collocation:
+      - 'allow%2:31:00::'
+      - 'allow%2:31:01::'
+      - 'appearance%1:07:00::'
+      - 'art%1:04:00::'
+      - 'bunch%1:14:00::'
+      - 'capture%2:36:00::'
+      - 'capture%2:40:01::'
+      - 'choice%1:09:00::'
+      - 'choose%2:31:00::'
+      - 'claim%1:07:02::'
+      - 'collection%1:14:00::'
+      - 'contain%2:42:13::'
+      - 'draw%2:36:00::'
+      - 'draw%2:36:02::'
+      - 'examine%2:39:00::'
+      - 'feel%2:39:00::'
+      - 'grasp%2:35:00::'
+      - 'identify%2:31:01::'
+      - 'interact%2:41:00::'
+      - 'metal%1:27:00::'
+      - 'move%2:38:00::'
+      - 'name%1:10:00::'
+      - 'position%1:15:00::'
+      - 'see%2:31:00::'
+      - 'see%2:39:00::'
+      - 'string%1:14:00::'
+      - 'test%2:41:00::'
+      - 'thing%1:06:00::'
+      - 'throw%2:35:00::'
+      - 'use%2:34:01::'
+      - 'use%2:41:04::'
+      derivation:
       - 'objectify%2:30:01::'
       id: 'object%1:03:00::'
       synset: 00002684-n
-    - id: 'object%1:09:00::'
+    - collocation:
+      - 'bombard%2:30:00::'
+      - 'decrease%1:04:00::'
+      - 'identify%2:31:00::'
+      id: 'object%1:09:00::'
       synset: 05990115-n
-    - id: 'object%1:10:00::'
+    - collocation:
+      - 'agreement%1:24:03::'
+      - 'article%1:10:01::'
+      id: 'object%1:10:00::'
       synset: 06321227-n
-    - id: 'object%1:09:01::'
+    - collocation:
+      - 'cult%1:14:00::'
+      - 'desire%1:12:00::'
+      - 'figure%1:09:00::'
+      - 'study%1:04:00::'
+      id: 'object%1:09:01::'
       synset: 05818974-n
-    - id: 'object%1:09:02::'
+    - collocation:
+      - 'choose%2:31:00::'
+      - 'identify%2:31:01::'
+      - 'database%1:10:00::'
+      - 'permit%2:32:00::'
+      - 'use%2:41:04::'
+      id: 'object%1:09:02::'
       synset: 06142175-n
   v:
     pronunciation:
@@ -5033,18 +5142,38 @@ objection:
     pronunciation:
     - value: əbˈdʒɛkʃən
     sense:
-    - derivation:
+    - collocation:
+      - 'answer%2:31:00::'
+      - 'answer%2:31:02::'
+      - 'answer%2:32:00::'
+      - 'draw%2:37:01::'
+      - 'have%2:42:12::'
+      - 'make%2:36:12::'
+      - 'neglect%2:31:01::'
+      - 'overwhelm%2:37:00::'
+      - 'raise%2:32:01::'
+      derivation:
       - 'object%2:32:00::'
       id: 'objection%1:10:01::'
       synset: 07261402-n
-    - id: 'objection%1:10:00::'
+    - collocation:
+      - 'answer%2:31:00::'
+      - 'argument%1:10:00::'
+      - 'controversy%1:10:00::'
+      - 'state%2:32:00::'
+      - 'withdraw%2:32:01::'
+      id: 'objection%1:10:00::'
       synset: 07222998-n
-    - derivation:
+    - collocation:
+      - 'neglect%2:31:01::'
+      derivation:
       - 'object%2:42:00::'
       - 'object%2:32:00::'
       id: 'objection%1:04:01::'
       synset: 01179523-n
-    - id: 'objection%1:04:00::'
+    - collocation:
+      - 'lodge%2:32:00::'
+      id: 'objection%1:04:00::'
       synset: 01027620-n
 objectionable:
   a:
@@ -5105,7 +5234,12 @@ objective:
     - value: əbˈd͡ʒɛk.tɪv
       variety: US
     sense:
-    - id: 'objective%1:09:00::'
+    - collocation:
+      - 'policy%1:09:00::'
+      - 'pursue%2:41:01::'
+      - 'set%2:31:04::'
+      - 'set%2:32:00::'
+      id: 'objective%1:09:00::'
       synset: 05990115-n
     - id: 'objective%1:06:00::'
       synset: 03843818-n
@@ -5169,7 +5303,9 @@ objet d'art:
     pronunciation:
     - value: ˌɒbʒeɪ ˈdɑː(ɹ)
     sense:
-    - id: 'objet_d''art%1:06:00::'
+    - collocation:
+      - 'antique%1:06:00::'
+      id: 'objet_d''art%1:06:00::'
       synset: 03844055-n
 objurgate:
   v:
@@ -5235,7 +5371,9 @@ oblation:
     - value: oʊˈbleɪʃən
       variety: US
     sense:
-    - id: 'oblation%1:04:01::'
+    - collocation:
+      - 'church%1:14:00::'
+      id: 'oblation%1:04:01::'
       synset: 01043530-n
 obligate:
   a:
@@ -5309,18 +5447,43 @@ obligation:
       - 'oblige%2:41:00::'
       id: 'obligation%1:04:00::'
       synset: 01132241-n
-    - derivation:
+    - collocation:
+      - 'arise%2:30:00::'
+      - 'assume%2:41:00::'
+      - 'bear%2:40:02::'
+      - 'default%2:40:00::'
+      - 'experience%2:39:00::'
+      - 'feel%2:37:00::'
+      - 'free%2:41:02::'
+      - 'incur%2:42:00::'
+      - 'exemption%1:26:00::'
+      - 'owe%2:40:00::'
+      - 'respect%2:41:00::'
+      derivation:
       - 'obligate%2:40:00::'
       - 'obligate%2:32:00::'
       id: 'obligation%1:26:00::'
       synset: 14513694-n
-    - derivation:
+    - collocation:
+      - 'fulfill%2:36:00::'
+      - 'transgress%2:41:00::'
+      derivation:
       - 'oblige%2:32:01::'
       id: 'obligation%1:24:00::'
       synset: 13804245-n
-    - id: 'obligation%1:21:00::'
+    - collocation:
+      - 'fulfill%2:42:00::'
+      id: 'obligation%1:21:00::'
       synset: 13419414-n
-    - derivation:
+    - collocation:
+      - 'comply%2:41:00::'
+      - 'default%2:40:00::'
+      - 'fulfill%2:36:00::'
+      - 'impose%2:32:00::'
+      - 'treaty%1:10:00::'
+      - 'payment%1:04:00::'
+      - 'transgress%2:41:00::'
+      derivation:
       - 'obligate%2:32:00::'
       - 'oblige%2:32:00::'
       id: 'obligation%1:10:00::'
@@ -5385,6 +5548,13 @@ oblige:
       synset: 02512195-v
     - by_means_of:
       - 'obligation%1:10:00::'
+      collocation:
+      - 'agreement%1:10:01::'
+      - 'article%1:10:02::'
+      - 'contract%1:10:00::'
+      - 'rule%1:10:00::'
+      - 'servant%1:26:00::'
+      - 'treaty%1:10:00::'
       derivation:
       - 'obligation%1:10:00::'
       id: 'oblige%2:32:00::'
@@ -5595,6 +5765,8 @@ obliterate:
       synset: 00312120-v
     - agent:
       - 'obliterator%1:17:00::'
+      collocation:
+      - 'trace%1:10:00::'
       derivation:
       - obliterable%5:00:00:eradicable:00
       - 'obliteration%1:11:00::'
@@ -5639,9 +5811,17 @@ oblivion:
     pronunciation:
     - value: əˈblɪvɪən
     sense:
-    - id: 'oblivion%1:26:00::'
+    - collocation:
+      - 'fade%2:30:00::'
+      - 'rescue%2:41:00::'
+      - 'save%2:41:01::'
+      - 'sink%2:38:07::'
+      - 'slide%2:38:00::'
+      id: 'oblivion%1:26:00::'
       synset: 14460235-n
-    - derivation:
+    - collocation:
+      - 'sink%2:38:07::'
+      derivation:
       - oblivious%5:00:00:inattentive:00
       id: 'oblivion%1:09:00::'
       synset: 05681978-n
@@ -5838,7 +6018,9 @@ obscenity:
       - obscene%5:00:00:dirty:02
       id: 'obscenity%1:07:00::'
       synset: 04910545-n
-    - derivation:
+    - collocation:
+      - 'yell%2:32:00::'
+      derivation:
       - obscene%5:00:00:offensive:01
       id: 'obscenity%1:10:00::'
       synset: 07139048-n
@@ -5898,7 +6080,14 @@ obscure:
     - value: əbˈskjʊɹ
       variety: US
     sense:
-    - id: 'obscure%2:39:00::'
+    - collocation:
+      - 'cloud%1:17:00::'
+      - 'fog%1:19:00::'
+      - 'mist%1:19:00::'
+      - 'peak%1:06:00::'
+      - 'sight%1:09:00::'
+      - 'tear%1:08:01::'
+      id: 'obscure%2:39:00::'
       subcat:
       - vtii
       synset: 02162161-v
@@ -5916,7 +6105,12 @@ obscure:
       subcat:
       - vtai
       synset: 00588561-v
-    - id: 'obscure%2:30:02::'
+    - collocation:
+      - 'extent%1:26:00::'
+      - 'inside%1:15:00::'
+      - 'memory%1:09:02::'
+      - 'sun%1:17:00::'
+      id: 'obscure%2:30:02::'
       subcat:
       - vtai
       - vtii
@@ -5959,6 +6153,13 @@ obscurity:
       synset: 04830647-n
     - antonym:
       - 'prominence%1:26:00::'
+      collocation:
+      - 'drift%2:42:03::'
+      - 'emerge%2:30:01::'
+      - 'fade%2:30:00::'
+      - 'fall_into%2:42:00::'
+      - 'relegate%2:41:00::'
+      - 'sink%2:38:07::'
       derivation:
       - obscure%5:00:00:inglorious:00
       id: 'obscurity%1:26:00::'
@@ -6083,19 +6284,25 @@ observation:
     - value: ˌɑbzɚˈveɪʃən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'agreement%1:07:00::'
+      derivation:
       - 'observe%2:39:02::'
       - 'observe%2:31:00::'
       id: 'observation%1:04:01::'
       synset: 01004898-n
-    - derivation:
+    - collocation:
+      - 'bird%1:05:00::'
+      derivation:
       - 'observe%2:41:00::'
       - 'observe%2:39:01::'
       - 'observe%2:39:00::'
       - 'observe%2:31:00::'
       id: 'observation%1:04:00::'
       synset: 00881437-n
-    - derivation:
+    - collocation:
+      - 'make%2:36:12::'
+      derivation:
       - 'observe%2:41:00::'
       - 'observe%2:39:02::'
       - 'observe%2:39:01::'
@@ -6103,7 +6310,12 @@ observation:
       - 'observe%2:31:00::'
       id: 'observation%1:10:00::'
       synset: 06779826-n
-    - derivation:
+    - collocation:
+      - 'base%2:31:00::'
+      - 'confirm%2:32:00::'
+      - 'participant%1:18:00::'
+      - 'suggest%2:32:02::'
+      derivation:
       - 'observe%2:41:00::'
       - 'observe%2:39:02::'
       - 'observe%2:39:01::'
@@ -6171,6 +6383,16 @@ observe:
     sense:
     - agent:
       - 'observer%1:18:00::'
+      collocation:
+      - 'advancement%1:04:02::'
+      - 'amusement%1:12:00::'
+      - 'effect%1:19:00::'
+      - 'fate%1:11:00::'
+      - 'footing%1:06:00::'
+      - 'loophole%1:10:00::'
+      - 'precedent%1:09:00::'
+      - 'pretext%1:10:00::'
+      - 'wreckage%1:06:00::'
       derivation:
       - observable%5:00:00:noticeable:00
       - observant%5:00:00:perceptive:00
@@ -6224,7 +6446,9 @@ observe:
       - vtaa
       - vtai
       synset: 02123398-v
-    - derivation:
+    - collocation:
+      - 'background%1:11:00::'
+      derivation:
       - observable%5:00:00:noticeable:00
       - 'observation%1:10:00::'
       - 'observation%1:09:02::'
@@ -6249,7 +6473,14 @@ observe:
       - vtaa
       - vtai
       synset: 02462665-v
-    - derivation:
+    - collocation:
+      - 'celebration%1:04:00::'
+      - 'liturgy%1:04:00::'
+      - 'custom%1:09:00::'
+      - 'day%1:28:01::'
+      - 'feast_day%1:28:00::'
+      - 'priest%1:18:00::'
+      derivation:
       - observant%5:00:00:lawful:00
       - 'observance%1:11:01::'
       event:
@@ -6280,7 +6511,21 @@ observe:
       - vtai
       - vtii
       synset: 02460829-v
-    - derivation:
+    - collocation:
+      - 'custom%1:04:00::'
+      - 'consumption%1:04:01::'
+      - 'convention%1:09:00::'
+      - 'formality%1:07:00::'
+      - 'guise%1:07:00::'
+      - 'lane%1:06:01::'
+      - 'pathway%1:06:00::'
+      - 'plan%1:09:00::'
+      - 'secrecy%1:07:02::'
+      - 'silence%1:26:00::'
+      - 'speed_limit%1:10:00::'
+      - 'thread%1:09:00::'
+      - 'timetable%1:10:01::'
+      derivation:
       - 'observation%1:10:00::'
       - 'observation%1:09:02::'
       - 'observation%1:09:00::'
@@ -6297,7 +6542,25 @@ observe:
       subcat:
       - vtai
       synset: 00734575-v
-    - derivation:
+    - collocation:
+      - 'custom%1:04:00::'
+      - 'fast%1:04:00::'
+      - 'agreement%1:09:00::'
+      - 'armistice%1:26:00::'
+      - 'budget%1:21:03::'
+      - 'caution%1:09:00::'
+      - 'condition%1:10:02::'
+      - 'convention%1:09:00::'
+      - 'fashion%1:09:00::'
+      - 'law%1:10:00::'
+      - 'position%1:09:00::'
+      - 'regulation%1:10:00::'
+      - 'rule%1:10:00::'
+      - 'schedule%1:09:00::'
+      - 'taboo%1:07:00::'
+      - 'vow%1:10:00::'
+      - 'resolution%1:04:00::'
+      derivation:
       - 'observance%1:04:02::'
       event:
       - 'observance%1:04:02::'
@@ -6323,13 +6586,35 @@ observer:
     - value: əbˈzɜːvə
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'note%2:39:00::'
+      - 'speed%1:28:00::'
+      derivation:
       - 'observe%2:41:00::'
       - 'observe%2:39:02::'
       - 'observe%2:39:01::'
       id: 'observer%1:18:00::'
       synset: 09649777-n
-    - derivation:
+    - collocation:
+      - 'affect%2:37:00::'
+      - 'agree%2:32:00::'
+      - 'attend%2:42:00::'
+      - 'believe%2:31:04::'
+      - 'comment%2:32:00::'
+      - 'cricket%1:04:00::'
+      - 'disagree%2:32:00::'
+      - 'feel%2:42:00::'
+      - 'find%2:31:10::'
+      - 'football%1:04:00::'
+      - 'monitor%2:39:00::'
+      - 'note%2:39:00::'
+      - 'status%1:26:00::'
+      - 'send%2:38:01::'
+      - 'speculate%2:32:00::'
+      - 'sport%1:04:00::'
+      - 'surprise%2:31:00::'
+      - 'tennis%1:04:00::'
+      derivation:
       - 'observe%2:32:00::'
       id: 'observer%1:18:01::'
       synset: 10389227-n
@@ -6396,7 +6681,11 @@ obsession:
       - obsessional%5:00:00:neurotic:00
       id: 'obsession%1:16:00::'
       synset: 09206152-n
-    - derivation:
+    - collocation:
+      - 'admit%2:32:00::'
+      - 'become%2:42:01::'
+      - 'border_on%2:42:00::'
+      derivation:
       - obsessional%5:00:00:neurotic:00
       - 'obsess%2:37:03::'
       - 'obsess%2:37:00::'
@@ -6558,9 +6847,22 @@ obstacle:
     - value: ˈɑbstəkl̩
       variety: US
     sense:
-    - id: 'obstacle%1:09:00::'
+    - collocation:
+      - 'improvement%1:11:00::'
+      - 'overcome%2:33:01::'
+      - 'present%2:42:00::'
+      - 'prove%2:42:00::'
+      - 'remain%2:42:05::'
+      - 'remove%2:30:00::'
+      - 'run_into%2:42:01::'
+      - 'strike%2:40:00::'
+      id: 'obstacle%1:09:00::'
       synset: 05698074-n
-    - id: 'obstacle%1:06:00::'
+    - collocation:
+      - 'progress%1:11:00::'
+      - 'race%1:11:00::'
+      - 'progress%1:04:00::'
+      id: 'obstacle%1:06:00::'
       synset: 03845315-n
 obstacle race:
   n:
@@ -6603,7 +6905,9 @@ obstetrician:
     - value: ˌɑbstəˈtɹɪʃən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'consultant%1:18:00::'
+      derivation:
       - 'obstetrics%1:09:00::'
       id: 'obstetrician%1:18:00::'
       synset: 10389398-n
@@ -6613,7 +6917,9 @@ obstetrics:
     - value: əbˈstɛ.trɪks
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'child%1:18:00::'
+      derivation:
       - 'obstetric%3:01:00::'
       - 'obstetrical%3:01:00::'
       - 'obstetrician%1:18:00::'
@@ -6738,6 +7044,11 @@ obstruct:
     - agent:
       - 'obstructer%1:18:00::'
       - 'obstructor%1:18:00::'
+      collocation:
+      - 'approach%1:04:02::'
+      - 'expansion%1:04:00::'
+      - 'activity%1:22:00::'
+      - 'retreat%1:04:00::'
       derivation:
       - 'obstruction%1:04:01::'
       - 'obstructer%1:18:00::'
@@ -6754,6 +7065,15 @@ obstruct:
       by_means_of:
       - 'obstructer%1:06:00::'
       - 'obstructor%1:06:00::'
+      collocation:
+      - 'airway%1:08:00::'
+      - 'beam%1:19:00::'
+      - 'block%1:06:00::'
+      - 'blood_vessel%1:08:00::'
+      - 'highway%1:06:00::'
+      - 'light%1:19:00::'
+      - 'sunlight%1:19:00::'
+      - 'throat%1:08:00::'
       derivation:
       - obstructive%5:00:00:preventive:00
       - 'obstruction%1:04:01::'
@@ -6766,7 +7086,10 @@ obstruct:
       - vtai
       - vtii
       synset: 01479113-v
-    - id: 'obstruct%2:39:04::'
+    - collocation:
+      - 'disk%1:25:00::'
+      - 'wing%1:06:02::'
+      id: 'obstruct%2:39:04::'
       subcat:
       - vtii
       synset: 02149973-v
@@ -6794,9 +7117,18 @@ obstruction:
     - value: əbˈstɹʌk.ʃən
       variety: GB
     sense:
-    - id: 'obstruction%1:06:00::'
+    - collocation:
+      - 'clear%2:30:02::'
+      - 'create%2:36:00::'
+      - 'remove%2:30:00::'
+      id: 'obstruction%1:06:00::'
       synset: 03845513-n
-    - id: 'obstruction%1:26:00::'
+    - collocation:
+      - 'airway%1:06:01::'
+      - 'bowel%1:08:00::'
+      - 'cause%2:36:00::'
+      - 'relieve%2:30:05::'
+      id: 'obstruction%1:26:00::'
       synset: 14531553-n
     - id: 'obstruction%1:09:00::'
       synset: 05698074-n
@@ -6865,14 +7197,90 @@ obstructor:
 obstruent:
   n:
     sense:
-    - id: 'obstruent%1:10:00::'
+    - collocation:
+      - 'devoice%2:32:00::'
+      id: 'obstruent%1:10:00::'
       synset: 07130392-n
 obtain:
   v:
     pronunciation:
     - value: əbˈteɪn
     sense:
-    - derivation:
+    - collocation:
+      - 'appointment%1:04:01::'
+      - 'deception%1:04:00::'
+      - 'means%1:04:00::'
+      - 'measurement%1:04:00::'
+      - 'access%1:07:01::'
+      - 'assurance%1:10:01::'
+      - 'authority%1:07:02::'
+      - 'bar%1:06:05::'
+      - 'benefit%1:07:00::'
+      - 'certificate%1:10:00::'
+      - 'coating%1:07:00::'
+      - 'compensation%1:21:00::'
+      - 'concession%1:10:01::'
+      - 'confirmation%1:10:00::'
+      - 'copy%1:10:00::'
+      - 'damages%1:21:00::'
+      - 'degree%1:10:00::'
+      - 'diploma%1:10:00::'
+      - 'doctorate%1:10:00::'
+      - 'document%1:10:00::'
+      - 'evidence%1:10:01::'
+      - 'fingerprint%1:10:01::'
+      - 'fund%1:21:00::'
+      - 'grant%1:10:00::'
+      - 'grant%1:21:00::'
+      - 'information%1:09:00::'
+      - 'information%1:14:00::'
+      - 'lease%1:10:00::'
+      - 'legal_document%1:10:00::'
+      - 'leverage%1:19:00::'
+      - 'license%1:10:00::'
+      - 'loan%1:21:00::'
+      - 'mandate%1:10:00::'
+      - 'material%1:10:00::'
+      - 'mental_picture%1:09:00::'
+      - 'money%1:21:00::'
+      - 'name%1:10:00::'
+      - 'nationality%1:26:00::'
+      - 'nutriment%1:13:00::'
+      - 'oil%1:13:00::'
+      - 'passport%1:10:00::'
+      - 'patent%1:10:01::'
+      - 'petroleum%1:27:00::'
+      - 'phone_line%1:06:00::'
+      - 'policy%1:10:02::'
+      - 'prescription%1:10:01::'
+      - 'price%1:21:00::'
+      - 'product%1:09:00::'
+      - 'proof%1:09:00::'
+      - 'property%1:21:00::'
+      - 'qualification%1:07:00::'
+      - 'quotation%1:10:02::'
+      - 'reading%1:09:02::'
+      - 'receipt%1:10:00::'
+      - 'registration%1:10:00::'
+      - 'representation%1:07:00::'
+      - 'right%1:07:00::'
+      - 'sample%1:09:00::'
+      - 'score%1:09:00::'
+      - 'signature%1:10:00::'
+      - 'specimen%1:08:00::'
+      - 'supply%1:23:00::'
+      - 'support%1:21:01::'
+      - 'ticket%1:10:01::'
+      - 'visa%1:10:00::'
+      - 'wages%1:11:00::'
+      - 'warrant%1:10:00::'
+      - 'writ%1:10:00::'
+      - 'passing%1:04:02::'
+      - 'position%1:04:01::'
+      - 'possession%1:04:00::'
+      - 'procedure%1:04:00::'
+      - 'relief%1:04:00::'
+      derivation:
       - obtainable%5:00:00:available:00
       - 'obtention%1:04:00::'
       - 'obtainment%1:04:00::'
@@ -6884,11 +7292,17 @@ obtain:
       - vtai
       - vtai-from
       synset: 02242867-v
-    - id: 'obtain%2:30:00::'
+    - collocation:
+      - 'consent%1:10:00::'
+      - 'injunction%1:10:01::'
+      - 'release%1:04:02::'
+      id: 'obtain%2:30:00::'
       subcat:
       - vii
       synset: 00523831-v
-    - id: 'obtain%2:42:00::'
+    - collocation:
+      - 'evidence%1:09:00::'
+      id: 'obtain%2:42:00::'
       subcat:
       - vii
       synset: 02654604-v
@@ -7091,6 +7505,13 @@ obviate:
     sense:
     - antonym:
       - 'necessitate%2:42:00::'
+      collocation:
+      - 'doubt%1:09:00::'
+      - 'necessity%1:26:00::'
+      - 'need%1:26:00::'
+      - 'reliance%1:26:00::'
+      - 'requirement%1:09:00::'
+      - 'shortcoming%1:07:00::'
       derivation:
       - 'obviation%1:04:00::'
       event:
@@ -7099,7 +7520,22 @@ obviate:
       subcat:
       - vtii
       synset: 02635337-v
-    - derivation:
+    - collocation:
+      - 'intervention%1:04:00::'
+      - 'means%1:04:00::'
+      - 'complication%1:26:00::'
+      - 'complication%1:26:01::'
+      - 'criticism%1:10:00::'
+      - 'delay%1:28:00::'
+      - 'failure%1:26:00::'
+      - 'failure%1:26:02::'
+      - 'identification%1:09:00::'
+      - 'incident%1:26:00::'
+      - 'inconvenience%1:26:00::'
+      - 'necessity%1:26:00::'
+      - 'need%1:26:00::'
+      - 'return%1:11:01::'
+      derivation:
       - 'obviation%1:04:00::'
       event:
       - 'obviation%1:04:00::'
@@ -7182,19 +7618,33 @@ occasion:
     pronunciation:
     - value: əˈkeɪʒən
     sense:
-    - id: 'occasion%1:11:00::'
+    - collocation:
+      - 'celebrate%2:41:00::'
+      - 'mark%2:31:01::'
+      - 'recur%2:32:00::'
+      - 'use%2:34:01::'
+      id: 'occasion%1:11:00::'
       synset: 07431314-n
-    - id: 'occasion%1:11:01::'
+    - collocation:
+      - 'attire%1:06:00::'
+      id: 'occasion%1:11:01::'
       synset: 07461861-n
     - derivation:
       - 'occasion%2:36:00::'
       id: 'occasion%1:16:00::'
       synset: 09201896-n
-    - derivation:
+    - collocation:
+      - 'commemorate%2:31:00::'
+      - 'remember%2:31:00::'
+      derivation:
       - 'occasion%2:36:00::'
       id: 'occasion%1:28:00::'
       synset: 15270640-n
-    - derivation:
+    - collocation:
+      - 'arise%2:30:00::'
+      - 'number%1:07:00::'
+      - 'rise%2:30:09::'
+      derivation:
       - 'occasion%2:36:00::'
       id: 'occasion%1:26:00::'
       synset: 14508648-n
@@ -7389,7 +7839,9 @@ occlusion:
     sense:
     - id: 'occlusion%1:26:00::'
       synset: 14124251-n
-    - id: 'occlusion%1:19:00::'
+    - collocation:
+      - 'air%1:15:01::'
+      id: 'occlusion%1:19:00::'
       synset: 11481479-n
     - id: 'occlusion%1:07:00::'
       synset: 05075097-n
@@ -7445,7 +7897,9 @@ occult:
       - occult%5:00:00:esoteric:00
       id: 'occult%1:18:00::'
       synset: 09527009-n
-    - derivation:
+    - collocation:
+      - 'dabble%2:41:01::'
+      derivation:
       - occult%5:00:00:esoteric:00
       id: 'occult%1:04:00::'
       synset: 00413585-n
@@ -7505,7 +7959,17 @@ occultist:
 occupancy:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'end%2:30:01::'
+      - 'agreement%1:10:01::'
+      - 'assume%2:41:00::'
+      - 'create%2:36:02::'
+      - 'end%2:42:00::'
+      - 'grant%2:40:05::'
+      - 'have%2:40:00::'
+      - 'hotel%1:06:00::'
+      - 'renew%2:36:00::'
+      derivation:
       - 'occupant%1:18:00::'
       - 'occupy%2:42:00::'
       id: 'occupancy%1:04:00::'
@@ -7527,7 +7991,9 @@ occupant:
     - value: ˈɑk.jə.pənt
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'belt%2:35:01::'
+      derivation:
       - 'occupancy%1:04:01::'
       - 'occupancy%1:04:00::'
       - 'occupy%2:42:00::'
@@ -7541,11 +8007,55 @@ occupation:
     - value: ɒkjʊˈpeɪʃən
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'act%2:36:03::'
+      - 'ad%1:10:00::'
+      - 'appoint%2:41:00::'
+      - 'choose%2:31:02::'
+      - 'cost%2:42:01::'
+      - 'description%1:10:01::'
+      - 'face%1:07:01::'
+      - 'factory%1:06:00::'
+      - 'fill%2:41:01::'
+      - 'go_about%2:41:00::'
+      - 'go_for%2:33:00::'
+      - 'hunter%1:18:01::'
+      - 'interview%1:10:01::'
+      - 'interview%2:32:01::'
+      - 'know%2:31:03::'
+      - 'lead%1:10:02::'
+      - 'life%1:26:02::'
+      - 'plumbing%1:04:01::'
+      - 'position%1:04:01::'
+      - 'practice%2:41:00::'
+      - 'prospect%1:26:00::'
+      - 'protect%2:33:00::'
+      - 'resume%2:41:00::'
+      - 'specification%1:04:01::'
+      - 'tension%1:26:03::'
+      - 'test%2:41:00::'
+      - 'trouble%1:09:00::'
+      - 'try%2:34:00::'
+      - 'vacancy%1:26:00::'
+      - 'vacate%2:41:00::'
+      - 'wage%1:21:00::'
+      - 'repair%1:04:00::'
+      derivation:
       - 'occupy%2:31:00::'
       id: 'occupation%1:04:00::'
       synset: 00583425-n
-    - derivation:
+    - collocation:
+      - 'begin%2:30:01::'
+      - 'begin%2:42:00::'
+      - 'end%2:42:00::'
+      - 'force%1:14:00::'
+      - 'power%1:07:00::'
+      - 'protest%2:41:00::'
+      - 'zone%1:15:01::'
+      - 'resume%2:30:00::'
+      - 'stay%2:30:00::'
+      - 'take_up%2:30:00::'
+      derivation:
       - 'occupy%2:33:00::'
       id: 'occupation%1:04:02::'
       synset: 01135427-n
@@ -7555,7 +8065,14 @@ occupation:
       - 'occupy%2:31:00::'
       id: 'occupation%1:04:04::'
       synset: 00583905-n
-    - derivation:
+    - collocation:
+      - 'enjoy%2:34:01::'
+      - 'resume%2:30:00::'
+      - 'share%2:42:00::'
+      - 'stay%2:30:00::'
+      - 'surrender%2:40:00::'
+      - 'take_up%2:30:00::'
+      derivation:
       - 'occupy%2:42:00::'
       id: 'occupation%1:04:01::'
       synset: 00087629-n
@@ -7653,7 +8170,9 @@ occupy:
     - value: ˈɑkjəpaɪ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'position%1:04:01::'
+      derivation:
       - 'occupation%1:04:04::'
       event:
       - 'occupation%1:04:04::'
@@ -7664,6 +8183,11 @@ occupy:
       synset: 02420961-v
     - agent:
       - 'occupier%1:18:00::'
+      collocation:
+      - 'apartment%1:06:00::'
+      - 'house%1:06:00::'
+      - 'renter%1:18:00::'
+      - 'room%1:06:00::'
       derivation:
       - 'occupation%1:04:01::'
       - 'occupier%1:18:00::'
@@ -7676,7 +8200,29 @@ occupy:
       - vtai
       - vtii
       synset: 02654741-v
-    - derivation:
+    - collocation:
+      - 'auditorium%1:06:00::'
+      - 'election%1:26:00::'
+      - 'explosive%1:06:00::'
+      - 'floor%1:06:01::'
+      - 'foreground%1:09:00::'
+      - 'hall%1:06:02::'
+      - 'house%1:06:00::'
+      - 'hydrogen%1:27:00::'
+      - 'liquid%1:27:04::'
+      - 'rampart%1:06:00::'
+      - 'rock%1:17:01::'
+      - 'room%1:06:00::'
+      - 'shadow%1:26:01::'
+      - 'site%1:15:00::'
+      - 'space%1:15:00::'
+      - 'stone%1:06:00::'
+      - 'stone%1:27:01::'
+      - 'wall%1:06:00::'
+      - 'window%1:06:00::'
+      - 'window%1:06:02::'
+      - 'office%1:04:01::'
+      derivation:
       - 'occupation%1:28:00::'
       event:
       - 'occupation%1:28:00::'
@@ -7697,6 +8243,10 @@ occupy:
       synset: 02684248-v
     - agent:
       - 'occupier%1:18:01::'
+      collocation:
+      - 'area%1:15:01::'
+      - 'building%1:06:00::'
+      - 'land%1:21:01::'
       derivation:
       - 'occupier%1:18:01::'
       - 'occupation%1:04:02::'
@@ -7744,17 +8294,78 @@ occur:
     - value: əˈkɝ
       variety: US
     sense:
-    - id: 'occur%2:30:00::'
+    - collocation:
+      - 'backsliding%1:04:00::'
+      - 'causal_agent%1:03:00::'
+      - 'error%1:04:02::'
+      - 'move%1:04:00::'
+      - 'move%1:04:01::'
+      - 'battle%1:04:00::'
+      - 'case%1:11:00::'
+      - 'clash%1:04:00::'
+      - 'conflict%1:04:00::'
+      - 'conflict%1:10:00::'
+      - 'crash%1:11:00::'
+      - 'damage%1:11:00::'
+      - 'development%1:11:01::'
+      - 'development%1:22:02::'
+      - 'development%1:26:00::'
+      - 'disaster%1:11:00::'
+      - 'earthquake%1:11:00::'
+      - 'eruption%1:11:00::'
+      - 'explosion%1:11:00::'
+      - 'explosion%1:11:01::'
+      - 'failure%1:26:01::'
+      - 'injury%1:11:00::'
+      - 'mutation%1:11:00::'
+      - 'outbreak%1:11:00::'
+      - 'process%1:04:00::'
+      - 'reaction%1:22:00::'
+      - 'riot%1:26:00::'
+      - 'shift%1:11:01::'
+      - 'shift%1:28:00::'
+      - 'situation%1:26:00::'
+      - 'symptom%1:26:00::'
+      - 'transition%1:11:00::'
+      - 'variation%1:11:01::'
+      - 'phenomenon%1:03:00::'
+      - 'process%1:03:00::'
+      - 'transition%1:04:00::'
+      id: 'occur%2:30:00::'
       subcat:
       - nonreferential-sent
       - vii
       - vii-pp
       synset: 00340744-v
-    - id: 'occur%2:31:00::'
+    - collocation:
+      - 'dilemma%1:09:00::'
+      - 'explanation%1:09:00::'
+      - 'invention%1:09:00::'
+      id: 'occur%2:31:00::'
       subcat:
       - vii-pp
       synset: 00725311-v
-    - id: 'occur%2:42:03::'
+    - collocation:
+      - 'abnormality%1:04:00::'
+      - 'activity%1:04:00::'
+      - 'discrimination%1:04:00::'
+      - 'area%1:15:01::'
+      - 'compound%1:27:00::'
+      - 'dearth%1:26:00::'
+      - 'death%1:11:00::'
+      - 'defect%1:26:00::'
+      - 'escape%1:11:00::'
+      - 'hazard%1:26:00::'
+      - 'imbalance%1:26:00::'
+      - 'infection%1:26:00::'
+      - 'instability%1:26:00::'
+      - 'loss%1:22:00::'
+      - 'problem%1:26:00::'
+      - 'redundancy%1:07:00::'
+      - 'species%1:14:00::'
+      - 'swelling%1:26:00::'
+      - 'water%1:27:00::'
+      id: 'occur%2:42:03::'
       subcat:
       - vii-pp
       synset: 02618403-v
@@ -7768,11 +8379,16 @@ occurrence:
     - value: əˈkɐɹən(t)s
       variety: NZ
     sense:
-    - derivation:
+    - collocation:
+      - 'damage%1:11:00::'
+      - 'rate%1:28:00::'
+      derivation:
       - occurrent%5:00:00:current:00
       id: 'occurrence%1:11:00::'
       synset: 07298313-n
-    - id: 'occurrence%1:26:00::'
+    - collocation:
+      - 'frequency%1:24:00::'
+      id: 'occurrence%1:26:00::'
       synset: 13982355-n
 occurrent:
   a:
@@ -7799,12 +8415,47 @@ ocean:
     - value: ˈoʊ.ʃən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'absorb%2:35:00::'
+      - 'absorb%2:35:01::'
+      - 'arm%1:06:03::'
+      - 'basin%1:17:00::'
+      - 'bed%1:17:00::'
+      - 'boat%1:06:00::'
+      - 'churn%2:38:00::'
+      - 'continent%1:17:00::'
+      - 'current%1:11:00::'
+      - 'depth%1:07:00::'
+      - 'drink%1:17:00::'
+      - 'equator%1:15:00::'
+      - 'explore%2:31:01::'
+      - 'fish%1:05:00::'
+      - 'flat%1:17:00::'
+      - 'floor%1:17:00::'
+      - 'floor%1:17:02::'
+      - 'flow%1:11:00::'
+      - 'island%1:17:00::'
+      - 'lake%1:17:00::'
+      - 'level%1:07:01::'
+      - 'life%1:03:00::'
+      - 'liner%1:06:00::'
+      - 'river%1:17:00::'
+      - 'surface%1:17:00::'
+      - 'sail%2:38:03::'
+      - 'traverse%2:38:00::'
+      - 'voyage%1:04:01::'
+      - 'water%1:17:00::'
+      - 'wave%1:11:01::'
+      derivation:
       - 'oceanic%3:01:00::'
       - oceanic%5:00:00:marine:00
       id: 'ocean%1:17:00::'
       synset: 09399110-n
-    - derivation:
+    - collocation:
+      - 'measure%1:03:00::'
+      - 'mud%1:27:00::'
+      - 'volume%1:23:00::'
+      derivation:
       - oceanic%5:00:00:unlimited:00
       id: 'ocean%1:23:00::'
       synset: 13799183-n
@@ -7821,7 +8472,9 @@ ocean current:
 ocean floor:
   n:
     sense:
-    - id: 'ocean_floor%1:17:00::'
+    - collocation:
+      - 'scrape%2:35:02::'
+      id: 'ocean_floor%1:17:00::'
       synset: 09399438-n
 ocean liner:
   n:
@@ -8228,7 +8881,9 @@ octogenarian:
       synset: 01650720-s
   n:
     sense:
-    - id: 'octogenarian%1:18:00::'
+    - collocation:
+      - 'age%1:07:00::'
+      id: 'octogenarian%1:18:00::'
       synset: 10389985-n
 octonary:
   n:
@@ -8504,7 +9159,10 @@ oddity:
     sense:
     - id: 'oddity%1:07:02::'
       synset: 04806260-n
-    - id: 'oddity%1:07:01::'
+    - collocation:
+      - 'capture%2:37:00::'
+      - 'have%2:40:00::'
+      id: 'oddity%1:07:01::'
       synset: 04805073-n
     - derivation:
       - odd%5:00:00:strange:00
@@ -8557,9 +9215,21 @@ odds:
     - value: ɒdz
       variety: GB
     sense:
-    - id: 'odds%1:07:00::'
+    - collocation:
+      - 'beat%2:33:14::'
+      - 'defy%2:42:01::'
+      - 'lengthen%2:30:00::'
+      - 'ratio%1:24:01::'
+      - 'overcome%2:33:03::'
+      - 'reduce%2:30:01::'
+      - 'shorten%2:30:00::'
+      - 'shorten%2:30:09::'
+      id: 'odds%1:07:00::'
       synset: 04763759-n
-    - id: 'odds%1:24:00::'
+    - collocation:
+      - 'extend%2:40:05::'
+      - 'quote%2:32:13::'
+      id: 'odds%1:24:00::'
       synset: 13845695-n
 odds and ends:
   n:
@@ -8750,7 +9420,9 @@ odour:
     - value: ˈoʊdəɹ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'exhale%2:29:01::'
+      derivation:
       - 'odourise%2:39:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -8758,7 +9430,9 @@ odour:
       - 'australian_spelling%1:10:01::'
       id: 'odour%1:09:00::'
       synset: 05721684-n
-    - derivation:
+    - collocation:
+      - 'exhale%2:29:01::'
+      derivation:
       - 'odourise%2:39:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -8855,7 +9529,9 @@ oenology:
     pronunciation:
     - value: iˈnɑlədʒi
     sense:
-    - derivation:
+    - collocation:
+      - 'wine%1:13:00::'
+      derivation:
       - 'oenologist%1:18:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -8966,7 +9642,13 @@ oeuvre:
     - value: ˈəːvɹə
       variety: US
     sense:
-    - id: 'oeuvre%1:06:00::'
+    - collocation:
+      - 'characterize%2:42:01::'
+      - 'prose%1:10:00::'
+      - 'qualify%2:32:01::'
+      - 'survive%2:42:02::'
+      - 'widen%2:30:01::'
+      id: 'oeuvre%1:06:00::'
       synset: 03846937-n
 of a sudden:
   r:
@@ -9357,7 +10039,10 @@ offbeat:
 offence:
   n:
     sense:
-    - exemplifies:
+    - collocation:
+      - 'cancel%2:41:03::'
+      - 'commit%2:41:00::'
+      exemplifies:
       - 'british_spelling%1:10:01::'
       - 'canadian_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
@@ -9365,13 +10050,17 @@ offence:
       synset: 00982124-n
     - antonym:
       - 'defence%1:14:01::'
+      collocation:
+      - 'commit%2:41:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
       - 'canadian_spelling%1:10:01::'
       - 'australian_spelling%1:10:01::'
       id: 'offence%1:14:00::'
       synset: 08098121-n
-    - derivation:
+    - collocation:
+      - 'cause%2:36:00::'
+      derivation:
       - 'offend%2:37:01::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -9379,7 +10068,9 @@ offence:
       - 'australian_spelling%1:10:01::'
       id: 'offence%1:12:00::'
       synset: 07532789-n
-    - derivation:
+    - collocation:
+      - 'commit%2:41:00::'
+      derivation:
       - 'offend%2:37:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -9387,7 +10078,9 @@ offence:
       - 'australian_spelling%1:10:01::'
       id: 'offence%1:04:02::'
       synset: 01226520-n
-    - derivation:
+    - collocation:
+      - 'cause%2:36:00::'
+      derivation:
       - 'offend%2:41:00::'
       exemplifies:
       - 'british_spelling%1:10:01::'
@@ -9405,7 +10098,9 @@ offend:
     pronunciation:
     - value: əˈfɛnd
     sense:
-    - derivation:
+    - collocation:
+      - 'administration%1:14:00::'
+      derivation:
       - 'offensive%3:00:02::'
       - 'offence%1:12:00::'
       id: 'offend%2:37:01::'
@@ -9417,6 +10112,15 @@ offend:
       synset: 01793089-v
     - agent:
       - 'offender%1:18:00::'
+      collocation:
+      - 'faith%1:04:00::'
+      - 'neutrality%1:04:00::'
+      - 'agreement%1:09:00::'
+      - 'agreement%1:10:01::'
+      - 'conscience%1:07:00::'
+      - 'neutrality%1:09:00::'
+      - 'oath%1:10:02::'
+      - 'regulation%1:10:00::'
       derivation:
       - offensive%5:00:00:offending:00
       - 'offensive%3:00:04::'
@@ -9441,6 +10145,8 @@ offend:
       synset: 01814414-v
     - by_means_of:
       - 'offence%1:04:02::'
+      collocation:
+      - 'epithet%1:10:01::'
       derivation:
       - 'offensive%3:00:02::'
       - 'offence%1:04:02::'
@@ -9460,7 +10166,12 @@ offended:
 offender:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'freedom%1:26:01::'
+      - 'process%1:10:00::'
+      - 'sentence%2:32:00::'
+      - 'sex%1:04:00::'
+      derivation:
       - 'offend%2:41:00::'
       id: 'offender%1:18:00::'
       synset: 09657157-n
@@ -9478,17 +10189,25 @@ offense:
     pronunciation:
     - value: əˈfɛns
     sense:
-    - derivation:
+    - collocation:
+      - 'boy%1:18:01::'
+      - 'epithet%1:10:01::'
+      - 'fight%1:10:00::'
+      derivation:
       - 'offend%2:37:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'offense%1:04:02::'
       synset: 01226520-n
-    - exemplifies:
+    - collocation:
+      - 'take%2:31:07::'
+      exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'offense%1:12:00::'
       synset: 07532789-n
-    - derivation:
+    - collocation:
+      - 'dope%2:34:00::'
+      derivation:
       - 'offend%2:41:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
@@ -9496,11 +10215,23 @@ offense:
       synset: 00767587-n
     - antonym:
       - 'defense%1:14:01::'
+      collocation:
+      - 'punish%2:41:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'offense%1:14:00::'
       synset: 08098121-n
-    - exemplifies:
+    - collocation:
+      - 'action%1:04:03::'
+      - 'conduct%2:36:00::'
+      - 'conduct%2:41:00::'
+      - 'mount%2:36:01::'
+      - 'plan%2:36:00::'
+      - 'stop%2:41:00::'
+      - 'stop%2:42:00::'
+      - 'take%2:41:04::'
+      - 'resume%2:30:00::'
+      exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'offense%1:04:00::'
       synset: 00982124-n
@@ -9553,7 +10284,10 @@ offensive:
     pronunciation:
     - value: əˈfɛnsɪv
     sense:
-    - id: 'offensive%1:04:00::'
+    - collocation:
+      - 'guerrilla%1:18:00::'
+      - 'launch%2:35:04::'
+      id: 'offensive%1:04:00::'
       synset: 00982124-n
 offensive activity:
   n:
@@ -9593,7 +10327,18 @@ offensiveness:
 offer:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'accept%2:32:00::'
+      - 'catch%2:39:12::'
+      - 'help%1:04:00::'
+      - 'listen%2:39:01::'
+      - 'make%2:36:12::'
+      - 'receive%2:30:01::'
+      - 'refuse%2:40:00::'
+      - 'repeat%2:32:00::'
+      - 'withdraw%2:32:00::'
+      - 'withdraw%2:32:01::'
+      derivation:
       - 'offer%2:40:10::'
       - 'offer%2:42:00::'
       - 'offer%2:40:09::'
@@ -9602,7 +10347,28 @@ offer:
       - 'offer%2:40:02::'
       id: 'offer%1:10:01::'
       synset: 07199736-n
-    - derivation:
+    - collocation:
+      - 'accept%2:40:00::'
+      - 'adjust%2:30:01::'
+      - 'duplicate%2:36:00::'
+      - 'increase%2:30:02::'
+      - 'job%1:04:00::'
+      - 'bid%1:10:00::'
+      - 'cash%1:21:00::'
+      - 'funds%1:21:00::'
+      - 'investor%1:18:00::'
+      - 'money%1:21:00::'
+      - 'price%1:21:00::'
+      - 'rival%1:18:00::'
+      - 'share%1:21:01::'
+      - 'wage%1:21:00::'
+      - 'raise%2:30:01::'
+      - 'refuse%2:32:00::'
+      - 'refuse%2:40:00::'
+      - 'repeat%2:32:00::'
+      - 'takeover%1:04:01::'
+      - 'withdraw%2:32:00::'
+      derivation:
       - 'offer%2:40:01::'
       id: 'offer%1:10:00::'
       synset: 07179197-n
@@ -9610,7 +10376,36 @@ offer:
       synset: 00788715-n
   v:
     sense:
-    - derivation:
+    - collocation:
+      - 'adoption%1:04:02::'
+      - 'adventure%1:04:00::'
+      - 'bill%1:04:00::'
+      - 'facility%1:04:00::'
+      - 'facility%1:04:01::'
+      - 'lesson%1:04:01::'
+      - 'access%1:07:00::'
+      - 'accommodation%1:06:00::'
+      - 'amenity%1:07:00::'
+      - 'array%1:10:00::'
+      - 'company%1:14:01::'
+      - 'cuisine%1:13:00::'
+      - 'excuse%1:10:00::'
+      - 'haven%1:06:00::'
+      - 'hotel%1:06:00::'
+      - 'nothing%1:23:00::'
+      - 'program%1:10:05::'
+      - 'proof%1:09:00::'
+      - 'refuge%1:06:00::'
+      - 'restaurant%1:06:00::'
+      - 'school%1:14:00::'
+      - 'shade%1:26:00::'
+      - 'shelter%1:06:00::'
+      - 'study%1:09:02::'
+      - 'supply%1:22:00::'
+      - 'service%1:04:08::'
+      - 'session%1:04:00::'
+      - 'supervision%1:04:00::'
+      derivation:
       - 'offer%1:10:01::'
       id: 'offer%2:40:02::'
       sent:
@@ -9625,6 +10420,35 @@ offer:
     - agent:
       - 'offerer%1:18:00::'
       - 'offeror%1:18:00::'
+      collocation:
+      - 'consolation%1:04:00::'
+      - 'food%1:03:00::'
+      - 'lift%1:04:03::'
+      - 'advantage%1:07:01::'
+      - 'apology%1:10:00::'
+      - 'armistice%1:26:00::'
+      - 'bursary%1:21:00::'
+      - 'cheek%1:08:00::'
+      - 'compromise%1:10:00::'
+      - 'concession%1:10:01::'
+      - 'contract%1:10:00::'
+      - 'cup%1:23:01::'
+      - 'deal%1:10:00::'
+      - 'drink%1:13:04::'
+      - 'gift%1:21:00::'
+      - 'guidance%1:10:00::'
+      - 'knighthood%1:14:00::'
+      - 'money%1:21:00::'
+      - 'prize%1:21:00::'
+      - 'resignation%1:10:00::'
+      - 'resignation%1:10:01::'
+      - 'scheme%1:09:00::'
+      - 'settlement%1:10:00::'
+      - 'suggestion%1:10:00::'
+      - 'term%1:10:02::'
+      - 'position%1:04:01::'
+      - 'preservation%1:04:00::'
+      - 'support%1:04:00::'
       derivation:
       - 'offer%1:10:01::'
       - 'offerer%1:18:00::'
@@ -9637,7 +10461,10 @@ offer:
       - vtai
       - vtai-to
       synset: 02302103-v
-    - derivation:
+    - collocation:
+      - 'assistance%1:04:00::'
+      - 'redress%1:04:00::'
+      derivation:
       - 'offer%1:10:01::'
       event:
       - 'offer%1:10:01::'
@@ -9648,13 +10475,47 @@ offer:
       subcat:
       - via-to-inf
       synset: 02429959-v
-    - derivation:
+    - collocation:
+      - 'decrease%1:04:00::'
+      - 'advice%1:10:00::'
+      - 'answer%1:10:01::'
+      - 'argument%1:10:02::'
+      - 'carrot%1:04:00::'
+      - 'criticism%1:10:00::'
+      - 'excuse%1:10:00::'
+      - 'experience%1:09:01::'
+      - 'explanation%1:10:00::'
+      - 'information%1:10:00::'
+      - 'number%1:07:00::'
+      - 'opinion%1:09:00::'
+      - 'opportunity%1:26:00::'
+      - 'overview%1:10:00::'
+      - 'possibility%1:09:01::'
+      - 'recommendation%1:10:00::'
+      - 'solution%1:10:00::'
+      derivation:
       - 'offering%1:10:00::'
       id: 'offer%2:31:00::'
       subcat:
       - vtai
       synset: 00708386-v
-    - derivation:
+    - collocation:
+      - 'forgiveness%1:04:00::'
+      - 'abuse%1:10:00::'
+      - 'condolence%1:10:00::'
+      - 'congratulation%1:10:01::'
+      - 'definition%1:10:00::'
+      - 'encouragement%1:10:01::'
+      - 'greeting%1:10:00::'
+      - 'guarantee%1:10:01::'
+      - 'hope%1:12:01::'
+      - 'hospitality%1:10:00::'
+      - 'prayer%1:10:02::'
+      - 'solace%1:26:00::'
+      - 'sympathy%1:12:00::'
+      - 'reassurance%1:04:00::'
+      - 'relief%1:04:02::'
+      derivation:
       - 'offer%1:10:01::'
       - 'offering%1:10:01::'
       event:
@@ -9665,11 +10526,33 @@ offer:
       - vtai
       - vtai-to
       synset: 02302703-v
-    - id: 'offer%2:40:03::'
+    - collocation:
+      - 'customer%1:18:00::'
+      - 'fare%1:13:00::'
+      - 'fare%1:21:00::'
+      - 'menu%1:10:00::'
+      - 'menu%1:13:00::'
+      - 'model%1:09:03::'
+      - 'policy%1:10:02::'
+      - 'product%1:06:01::'
+      - 'range%1:14:00::'
+      - 'selection%1:14:00::'
+      - 'shop%1:06:00::'
+      - 'version%1:09:01::'
+      id: 'offer%2:40:03::'
       subcat:
       - vtai
       synset: 02302370-v
-    - derivation:
+    - collocation:
+      - 'auction%1:04:00::'
+      - 'advertiser%1:18:00::'
+      - 'bribe%1:21:00::'
+      - 'compensation%1:21:00::'
+      - 'contribution%1:21:00::'
+      - 'payment%1:21:00::'
+      - 'return%1:21:00::'
+      - 'sum%1:21:00::'
+      derivation:
       - 'offer%1:10:00::'
       id: 'offer%2:40:01::'
       subcat:
@@ -9683,7 +10566,9 @@ offer:
       subcat:
       - vtai
       synset: 02161791-v
-    - derivation:
+    - collocation:
+      - 'sacrifice%1:04:00::'
+      derivation:
       - 'offer%1:10:01::'
       - 'offering%1:04:00::'
       event:
@@ -9692,11 +10577,47 @@ offer:
       subcat:
       - vtai
       synset: 02619522-v
-    - id: 'offer%2:41:03::'
+    - collocation:
+      - 'opinion%1:09:02::'
+      - 'resistance%1:04:02::'
+      id: 'offer%2:41:03::'
       subcat:
       - vtai
       synset: 02381380-v
-    - derivation:
+    - collocation:
+      - 'assistance%1:04:00::'
+      - 'care%1:04:01::'
+      - 'choice%1:04:00::'
+      - 'course%1:04:01::'
+      - 'discount%1:04:00::'
+      - 'education%1:04:00::'
+      - 'job%1:04:00::'
+      - 'antidote%1:06:00::'
+      - 'benefit%1:07:00::'
+      - 'chance%1:26:01::'
+      - 'college%1:14:01::'
+      - 'degree%1:10:00::'
+      - 'department%1:14:00::'
+      - 'evidence%1:10:01::'
+      - 'glimpse%1:10:00::'
+      - 'government%1:14:00::'
+      - 'grant%1:21:00::'
+      - 'guidance%1:10:00::'
+      - 'incentive%1:16:00::'
+      - 'incentive%1:21:00::'
+      - 'insight%1:09:02::'
+      - 'opportunity%1:26:00::'
+      - 'option%1:09:00::'
+      - 'package%1:14:00::'
+      - 'people%1:14:03::'
+      - 'program%1:10:05::'
+      - 'reward%1:10:00::'
+      - 'student%1:18:00::'
+      - 'university%1:14:01::'
+      - 'way%1:07:01::'
+      - 'training%1:04:00::'
+      - 'tutelage%1:04:00::'
+      derivation:
       - 'offer%1:10:01::'
       event:
       - 'offer%1:10:01::'
@@ -9838,31 +10759,254 @@ office:
     - value: ˈɔfɪs
       variety: US
     sense:
-    - id: 'office%1:06:00::'
+    - collocation:
+      - 'administer%2:41:00::'
+      - 'appliance%1:06:00::'
+      - 'archive%1:06:00::'
+      - 'attire%1:06:00::'
+      - 'booking%1:04:00::'
+      - 'building%1:06:00::'
+      - 'close%2:41:00::'
+      - 'complex%1:06:00::'
+      - 'computerize%2:40:01::'
+      - 'desk%1:06:00::'
+      - 'development%1:04:01::'
+      - 'do%2:41:04::'
+      - 'door%1:06:00::'
+      - 'door%1:06:03::'
+      - 'door%1:06:04::'
+      - 'drive%2:38:02::'
+      - 'eject%2:35:01::'
+      - 'enter%2:38:00::'
+      - 'equip%2:40:00::'
+      - 'equipment%1:06:00::'
+      - 'establish%2:41:00::'
+      - 'facility%1:06:00::'
+      - 'file%1:06:01::'
+      - 'floor%1:06:01::'
+      - 'furniture%1:06:00::'
+      - 'house%2:42:02::'
+      - 'leave%2:38:00::'
+      - 'local_area_network%1:06:00::'
+      - 'maintain%2:40:10::'
+      - 'management%1:04:00::'
+      - 'move_in%2:38:00::'
+      - 'move_out%2:38:00::'
+      - 'administrator%1:18:00::'
+      - 'area%1:15:01::'
+      - 'benefit%1:21:00::'
+      - 'block%1:15:00::'
+      - 'boy%1:18:00::'
+      - 'branch%1:14:00::'
+      - 'business%1:14:00::'
+      - 'cleaner%1:18:00::'
+      - 'clerk%1:18:00::'
+      - 'company%1:14:01::'
+      - 'county%1:15:00::'
+      - 'director%1:18:00::'
+      - 'director%1:18:03::'
+      - 'doctor%1:18:00::'
+      - 'employee%1:18:00::'
+      - 'employment_agency%1:14:00::'
+      - 'enterprise%1:14:00::'
+      - 'environment%1:26:00::'
+      - 'expense%1:21:00::'
+      - 'foreman%1:18:00::'
+      - 'home%1:15:04::'
+      - 'hour%1:28:00::'
+      - 'information%1:10:00::'
+      - 'insurance_company%1:14:00::'
+      - 'lawyer%1:18:00::'
+      - 'letter%1:10:00::'
+      - 'life%1:26:01::'
+      - 'newspaper%1:14:00::'
+      - 'office%1:14:00::'
+      - 'overhead%1:21:00::'
+      - 'owner%1:18:00::'
+      - 'paper%1:10:00::'
+      - 'patent%1:10:01::'
+      - 'placement_office%1:14:00::'
+      - 'police_station%1:06:00::'
+      - 'post_office%1:14:01::'
+      - 'premises%1:15:00::'
+      - 'question%1:10:00::'
+      - 'record%1:10:03::'
+      - 'registry%1:10:00::'
+      - 'restaurant%1:06:00::'
+      - 'room%1:06:00::'
+      - 'safe%1:06:00::'
+      - 'secretary%1:18:00::'
+      - 'shingle%1:06:01::'
+      - 'shredder%1:06:00::'
+      - 'skill%1:09:01::'
+      - 'skyscraper%1:06:00::'
+      - 'software%1:10:00::'
+      - 'space%1:15:00::'
+      - 'staff%1:14:00::'
+      - 'staff%1:14:01::'
+      - 'stationery%1:10:00::'
+      - 'suite%1:14:01::'
+      - 'system%1:06:00::'
+      - 'ticket%1:10:01::'
+      - 'tourist%1:18:00::'
+      - 'worker%1:18:00::'
+      - 'workspace%1:15:00::'
+      - 'open%2:41:00::'
+      - 'operation%1:04:05::'
+      - 'perform%2:36:00::'
+      - 'post%1:04:01::'
+      - 'reach%2:38:01::'
+      - 'relocate%2:30:01::'
+      - 'rent%2:41:01::'
+      - 'routine%1:04:00::'
+      - 'run%2:41:02::'
+      - 'sale%1:04:02::'
+      - 'services%1:04:00::'
+      - 'suspend%2:41:00::'
+      - 'tear%2:38:00::'
+      - 'technology%1:04:00::'
+      - 'use%2:34:01::'
+      - 'vacate%2:38:00::'
+      - 'work%1:04:00::'
+      - 'work%2:41:00::'
+      id: 'office%1:06:00::'
       synset: 03847186-n
-    - derivation:
+    - collocation:
+      - 'council%1:14:01::'
+      - 'branch%1:14:00::'
+      - 'district%1:15:00::'
+      - 'prosecutor%1:18:00::'
+      - 'staff%1:14:01::'
+      - 'tax%1:21:00::'
+      - 'personnel_department%1:14:00::'
+      derivation:
       - 'official%3:01:00::'
       id: 'office%1:14:01::'
       synset: 08354251-n
-    - derivation:
+    - collocation:
+      - 'appoint%2:41:00::'
+      - 'appoint%2:41:01::'
+      - 'assume%2:41:00::'
+      - 'clergyman%1:18:00::'
+      - 'continue%2:42:10::'
+      - 'create%2:41:00::'
+      - 'include%2:41:03::'
+      - 'leave%2:41:00::'
+      - 'leave%2:42:00::'
+      - 'move%2:41:00::'
+      - 'occupy%2:42:01::'
+      - 'take%2:40:05::'
+      - 'take%2:41:00::'
+      - 'take%2:42:00::'
+      - 'work%2:41:00::'
+      derivation:
       - 'officiate%2:41:01::'
       - 'officiate%2:33:00::'
       id: 'office%1:04:01::'
       synset: 00721817-n
-    - derivation:
+    - collocation:
+      - 'assume%2:41:00::'
+      - 'assumption%1:04:00::'
+      - 'candidate%1:18:01::'
+      - 'centralize%2:30:00::'
+      - 'committee%1:14:00::'
+      - 'decide%2:31:00::'
+      - 'decline%2:30:00::'
+      - 'define%2:42:01::'
+      - 'elect%2:41:00::'
+      - 'election%1:04:01::'
+      - 'enjoy%2:34:01::'
+      - 'enjoy%2:39:00::'
+      - 'fall%2:41:00::'
+      - 'government%1:14:00::'
+      - 'hold%2:31:01::'
+      - 'hold%2:40:04::'
+      - 'install%2:41:00::'
+      - 'kill%2:41:01::'
+      - 'mayor%1:18:00::'
+      - 'minister%1:18:02::'
+      - 'nominate%2:41:02::'
+      - 'term%1:28:00::'
+      - 'year%1:28:01::'
+      - 'official%1:18:01::'
+      - 'oust%2:41:00::'
+      - 'party%1:14:01::'
+      - 'power%1:07:00::'
+      - 'president%1:18:00::'
+      - 'put%2:35:00::'
+      - 'swear%2:32:00::'
+      - 'take%2:41:00::'
+      - 'take_office%2:41:00::'
+      - 'usurpation%1:04:00::'
+      derivation:
       - 'official%3:00:00::'
       - 'officiate%2:33:00::'
       id: 'office%1:26:00::'
       synset: 13968154-n
-    - id: 'office%1:14:00::'
+    - collocation:
+      - 'administration%1:04:00::'
+      - 'buzz%2:42:00::'
+      - 'call%2:32:01::'
+      - 'company%1:14:01::'
+      - 'gossip%1:10:01::'
+      - 'head%2:41:00::'
+      - 'manage%2:41:00::'
+      - 'monitor%2:39:00::'
+      - 'newspaper%1:14:00::'
+      - 'office%1:06:00::'
+      - 'assistant%1:18:00::'
+      - 'clerk%1:18:00::'
+      - 'colleague%1:18:00::'
+      - 'director%1:18:00::'
+      - 'director%1:18:03::'
+      - 'employee%1:18:00::'
+      - 'foreman%1:18:00::'
+      - 'girl%1:18:00::'
+      - 'head%1:18:00::'
+      - 'junior%1:18:02::'
+      - 'politics%1:24:00::'
+      - 'party%1:11:00::'
+      - 'press%1:10:00::'
+      - 'serve%2:33:00::'
+      - 'take%2:40:07::'
+      - 'work%2:41:00::'
+      id: 'office%1:14:00::'
       synset: 08369230-n
-    - derivation:
+    - collocation:
+      - 'ceremony%1:04:00::'
+      - 'liturgy%1:04:00::'
+      - 'abbot%1:18:00::'
+      - 'archdeacon%1:18:00::'
+      - 'authority%1:18:01::'
+      - 'benefice%1:21:00::'
+      - 'bishop%1:18:00::'
+      - 'clergyman%1:18:00::'
+      - 'elect%2:41:00::'
+      - 'ordination%1:26:00::'
+      - 'priest%1:18:00::'
+      - 'order%2:32:02::'
+      - 'worship%1:04:00::'
+      derivation:
       - official%5:00:00:regular:00
       - 'officiate%2:41:01::'
       - 'officiate%2:33:00::'
       id: 'office%1:04:00::'
       synset: 01035490-n
-    - derivation:
+    - collocation:
+      - 'appoint%2:41:00::'
+      - 'appoint%2:41:01::'
+      - 'candidate%1:18:00::'
+      - 'company%1:14:01::'
+      - 'elect%2:41:00::'
+      - 'enter%2:41:00::'
+      - 'holder%1:18:00::'
+      - 'newspaper%1:14:00::'
+      - 'remove%2:38:00::'
+      - 'remove%2:41:00::'
+      - 'return%2:38:00::'
+      - 'return%2:41:00::'
+      - 'serve%2:33:00::'
+      derivation:
       - 'officiate%2:33:00::'
       id: 'office%1:04:02::'
       synset: 00587299-n
@@ -9874,7 +11018,10 @@ office block:
 office boy:
   n:
     sense:
-    - id: 'office_boy%1:18:00::'
+    - collocation:
+      - 'boy%1:18:00::'
+      - 'position%1:04:01::'
+      id: 'office_boy%1:18:00::'
       synset: 10391029-n
 office building:
   n:
@@ -9894,12 +11041,21 @@ office staff:
 office-bearer:
   n:
     sense:
-    - id: 'office-bearer%1:18:00::'
+    - collocation:
+      - 'position%1:04:01::'
+      id: 'office-bearer%1:18:00::'
       synset: 10390920-n
 officeholder:
   n:
     sense:
-    - id: 'officeholder%1:18:02::'
+    - collocation:
+      - 'court%1:14:00::'
+      - 'function%1:04:00::'
+      - 'notice%1:10:01::'
+      - 'president%1:18:01::'
+      - 'position%1:04:01::'
+      - 'promotion%1:10:00::'
+      id: 'officeholder%1:18:02::'
       synset: 10391149-n
     - id: 'officeholder%1:18:00::'
       synset: 10222243-n
@@ -9911,17 +11067,79 @@ officer:
     - value: ˈɔfɪsɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'address%1:10:03::'
+      - 'army%1:14:00::'
+      - 'cadet%1:18:00::'
+      - 'career%1:04:00::'
+      - 'charge%1:04:00::'
+      - 'command%2:32:01::'
+      - 'corps%1:14:00::'
+      - 'group%1:03:00::'
+      - 'insurgent%1:18:00::'
+      - 'liaison%1:10:00::'
+      - 'mess%1:06:00::'
+      - 'military_service%1:14:00::'
+      - 'personnel%1:14:00::'
+      - 'salute%2:32:01::'
+      - 'squad%1:14:01::'
+      - 'swear%2:32:02::'
+      - 'train%2:31:01::'
+      - 'victory%1:11:00::'
+      derivation:
       - 'officer%2:32:00::'
       id: 'officer%1:18:03::'
       synset: 10336665-n
-    - id: 'officer%1:18:02::'
+    - collocation:
+      - 'appoint%2:41:00::'
+      - 'be%2:41:00::'
+      - 'become%2:42:01::'
+      - 'carry%2:42:01::'
+      - 'club%1:14:00::'
+      - 'council%1:14:01::'
+      - 'development%1:04:01::'
+      - 'district%1:15:00::'
+      - 'education%1:04:00::'
+      - 'faith%1:09:01::'
+      - 'finance%1:04:01::'
+      - 'have%2:41:00::'
+      - 'information%1:10:00::'
+      - 'health%1:26:00::'
+      - 'probation%1:28:00::'
+      - 'truant%1:18:00::'
+      - 'press%1:10:00::'
+      - 'registration%1:04:00::'
+      - 'staff%1:14:01::'
+      - 'train%2:31:01::'
+      - 'welfare%1:04:00::'
+      - 'work%2:41:00::'
+      id: 'officer%1:18:02::'
       synset: 10391149-n
-    - derivation:
+    - collocation:
+      - 'chief%1:18:00::'
+      - 'duty%1:04:02::'
+      - 'enforcement%1:04:00::'
+      - 'immigration%1:04:00::'
+      - 'custom%1:21:00::'
+      - 'excise%1:21:00::'
+      - 'safety%1:26:00::'
+      - 'security%1:26:00::'
+      - 'police%1:14:00::'
+      - 'prison%1:06:00::'
+      - 'say%2:32:01::'
+      - 'serve%2:33:00::'
+      - 'train%2:31:01::'
+      - 'training%1:04:00::'
+      derivation:
       - 'officer%2:32:00::'
       id: 'officer%1:18:01::'
       synset: 10468557-n
-    - derivation:
+    - collocation:
+      - 'address%1:10:03::'
+      - 'carry%2:42:01::'
+      - 'position%1:04:01::'
+      - 'ship%1:06:00::'
+      derivation:
       - 'officer%2:32:00::'
       id: 'officer%1:18:04::'
       synset: 10391440-n
@@ -9979,16 +11197,67 @@ official:
     pronunciation:
     - value: əˈfɪʃəl
     sense:
-    - derivation:
+    - collocation:
+      - 'administration%1:04:00::'
+      - 'announce%2:32:02::'
+      - 'appoint%2:41:00::'
+      - 'appoint%2:41:01::'
+      - 'ask%2:32:01::'
+      - 'ask%2:32:04::'
+      - 'ask%2:32:05::'
+      - 'attend%2:42:00::'
+      - 'blessing%1:04:01::'
+      - 'board%1:14:00::'
+      - 'bribe%2:40:00::'
+      - 'city%1:15:00::'
+      - 'claim%2:32:00::'
+      - 'club%1:14:00::'
+      - 'confirm%2:32:00::'
+      - 'consult%2:32:02::'
+      - 'court%1:14:00::'
+      - 'deny%2:32:00::'
+      - 'department%1:15:00::'
+      - 'education%1:04:00::'
+      - 'embassy%1:06:00::'
+      - 'environment%1:15:00::'
+      - 'government%1:14:00::'
+      - 'immigration%1:04:00::'
+      - 'meet%2:38:06::'
+      - 'ministry%1:14:00::'
+      - 'narcotic%1:06:00::'
+      - 'custom%1:21:00::'
+      - 'health%1:26:00::'
+      - 'office%1:26:00::'
+      - 'president%1:18:00::'
+      - 'safety%1:26:00::'
+      - 'palace%1:06:00::'
+      - 'party%1:14:01::'
+      - 'police%1:14:00::'
+      - 'port%1:15:00::'
+      - 'position%1:04:01::'
+      - 'report%2:32:04::'
+      - 'say%2:32:01::'
+      - 'security%1:14:00::'
+      - 'state%1:14:01::'
+      - 'union%1:14:01::'
+      derivation:
       - 'officialdom%1:14:00::'
       id: 'official%1:18:01::'
       synset: 10392072-n
-    - id: 'official%1:18:00::'
+    - collocation:
+      - 'athletic_contest%1:11:00::'
+      - 'football%1:04:00::'
+      - 'race%1:11:00::'
+      - 'rugby%1:04:00::'
+      - 'soccer%1:04:00::'
+      id: 'official%1:18:00::'
       synset: 10391775-n
 official document:
   n:
     sense:
-    - id: 'official_document%1:10:00::'
+    - collocation:
+      - 'identity%1:07:00::'
+      id: 'official_document%1:10:00::'
       synset: 06491336-n
 official emissary:
   n:
@@ -10061,7 +11330,10 @@ officiate:
     pronunciation:
     - value: əˈfiʃ.i.eɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'priest%1:18:00::'
+      - 'service%1:04:01::'
+      derivation:
       - 'officiation%1:04:01::'
       - 'office%1:04:01::'
       - 'office%1:04:00::'
@@ -10073,7 +11345,10 @@ officiate:
       - via
       - via-pp
       synset: 02387229-v
-    - derivation:
+    - collocation:
+      - 'club%1:14:00::'
+      - 'society%1:14:00::'
+      derivation:
       - 'officiation%1:04:01::'
       - 'officiation%1:04:00::'
       - 'office%1:26:00::'
@@ -10212,6 +11487,11 @@ offset:
     sense:
     - by_means_of:
       - 'offset%1:21:00::'
+      collocation:
+      - 'consequence%1:19:00::'
+      - 'cost%1:21:00::'
+      - 'loss%1:21:00::'
+      - 'tax%1:21:00::'
       derivation:
       - 'offset%1:21:00::'
       id: 'offset%2:42:01::'
@@ -10312,7 +11592,10 @@ offside:
     pronunciation:
     - value: ɒfˈsaɪd
     sense:
-    - id: 'offside%1:04:00::'
+    - collocation:
+      - 'disallow%2:32:00::'
+      - 'penalize%2:41:00::'
+      id: 'offside%1:04:00::'
       synset: 00075144-n
   r:
     pronunciation:
@@ -10333,11 +11616,17 @@ offspring:
     - value: ˈɔfspɹɪŋ
       variety: US
     sense:
-    - id: 'offspring%1:18:00::'
+    - collocation:
+      - 'beget%2:29:00::'
+      - 'inherit%2:40:01::'
+      - 'produce%2:36:02::'
+      id: 'offspring%1:18:00::'
       synset: 10393697-n
     - id: 'offspring%1:11:00::'
       synset: 07309665-n
-    - id: 'offspring%1:05:00::'
+    - collocation:
+      - 'beget%2:29:00::'
+      id: 'offspring%1:05:00::'
       synset: 01324070-n
 offstage:
   a:
@@ -10533,7 +11822,27 @@ ohmmeter:
 oil:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'anoint%2:29:00::'
+      - 'barrel%1:23:01::'
+      - 'care%1:04:00::'
+      - 'chimney%1:06:01::'
+      - 'coating%1:06:00::'
+      - 'diesel%1:06:00::'
+      - 'engine%1:06:00::'
+      - 'fish%1:13:00::'
+      - 'hold%2:42:13::'
+      - 'incorporate%2:42:00::'
+      - 'massage%2:35:00::'
+      - 'pipeline%1:06:00::'
+      - 'process%2:30:00::'
+      - 'produce%2:36:00::'
+      - 'rub%2:35:00::'
+      - 'substance%1:03:01::'
+      - 'sunlight%1:19:00::'
+      - 'tan%1:26:00::'
+      - 'whale%1:05:00::'
+      derivation:
       - oily%5:00:00:coated:00
       - 'oiler%1:18:00::'
       - 'oiler%1:06:01::'
@@ -10542,11 +11851,62 @@ oil:
       - 'oil%2:35:00::'
       id: 'oil%1:27:00::'
       synset: 14991055-n
-    - id: 'oil%1:06:01::'
+    - collocation:
+      - 'canvas%1:06:04::'
+      - 'coating%1:06:00::'
+      - 'painting%1:06:00::'
+      - 'use%2:34:01::'
+      id: 'oil%1:06:01::'
       synset: 03848612-n
-    - id: 'oil%1:27:01::'
+    - collocation:
+      - 'boom%1:26:00::'
+      - 'company%1:14:01::'
+      - 'consumption%1:22:00::'
+      - 'crisis%1:26:00::'
+      - 'discover%2:39:03::'
+      - 'discover%2:40:00::'
+      - 'discovery%1:04:00::'
+      - 'drench%2:30:00::'
+      - 'drill%2:35:00::'
+      - 'drilling%1:04:00::'
+      - 'embargo%1:10:00::'
+      - 'exploration%1:04:00::'
+      - 'export%1:06:00::'
+      - 'field%1:15:05::'
+      - 'fuel%1:27:00::'
+      - 'gas%1:27:02::'
+      - 'import%1:06:00::'
+      - 'spill%1:27:00::'
+      - 'price%1:21:00::'
+      - 'produce%2:36:02::'
+      - 'producer%1:18:01::'
+      - 'production%1:04:02::'
+      - 'reserve%1:21:00::'
+      - 'revenue%1:21:01::'
+      - 'spill%1:04:00::'
+      - 'stumble%2:40:10::'
+      - 'supply%1:23:00::'
+      - 'tank%1:06:00::'
+      - 'tanker%1:06:00::'
+      - 'terminal%1:06:00::'
+      - 'tonne%1:23:00::'
+      - 'worker%1:18:00::'
+      id: 'oil%1:27:01::'
       synset: 15005138-n
-    - derivation:
+    - collocation:
+      - 'boil%2:30:00::'
+      - 'decant%2:38:00::'
+      - 'fry%2:30:00::'
+      - 'incorporate%2:42:00::'
+      - 'obtain%2:40:00::'
+      - 'almond%1:13:00::'
+      - 'coconut%1:13:02::'
+      - 'palm%1:20:00::'
+      - 'seed%1:20:00::'
+      - 'pour%2:38:03::'
+      - 'preserve%2:30:00::'
+      - 'produce%2:36:05::'
+      derivation:
       - oily%5:00:00:fatty:00
       id: 'oil%1:13:00::'
       synset: 07689142-n
@@ -10622,7 +11982,10 @@ oil colour:
 oil company:
   n:
     sense:
-    - id: 'oil_company%1:14:00::'
+    - collocation:
+      - 'drill_in%2:31:00::'
+      - 'nationalize%2:30:00::'
+      id: 'oil_company%1:14:00::'
       synset: 08086077-n
 oil conservation:
   n:
@@ -10667,7 +12030,9 @@ oil heater:
 oil industry:
   n:
     sense:
-    - id: 'oil_industry%1:14:00::'
+    - collocation:
+      - 'nationalize%2:30:00::'
+      id: 'oil_industry%1:14:00::'
       synset: 08085886-n
 oil lamp:
   n:
@@ -10717,7 +12082,9 @@ oil operator:
 oil paint:
   n:
     sense:
-    - id: 'oil_paint%1:06:00::'
+    - collocation:
+      - 'painting%1:04:00::'
+      id: 'oil_paint%1:06:00::'
       synset: 03849753-n
 oil painter:
   n:
@@ -10734,7 +12101,9 @@ oil painting:
 oil palm:
   n:
     sense:
-    - id: 'oil_palm%1:20:00::'
+    - collocation:
+      - 'make_way%2:38:00::'
+      id: 'oil_palm%1:20:00::'
       synset: 12610993-n
 oil pipeline:
   n:
@@ -10759,12 +12128,16 @@ oil pump:
 oil refinery:
   n:
     sense:
-    - id: 'oil_refinery%1:06:00::'
+    - collocation:
+      - 'nationalize%2:30:00::'
+      id: 'oil_refinery%1:06:00::'
       synset: 03850193-n
 oil rig:
   n:
     sense:
-    - id: 'oil_rig%1:06:00::'
+    - collocation:
+      - 'capsize%2:38:00::'
+      id: 'oil_rig%1:06:00::'
       synset: 03245796-n
 oil rigger:
   n:
@@ -10789,7 +12162,19 @@ oil stain:
 oil tanker:
   n:
     sense:
-    - id: 'oil_tanker%1:06:00::'
+    - collocation:
+      - 'drive%2:38:01::'
+      - 'disaster%1:11:00::'
+      - 'driver%1:18:00::'
+      - 'fleet%1:14:01::'
+      - 'gas%1:27:02::'
+      - 'operator%1:18:00::'
+      - 'owner%1:18:02::'
+      - 'spill%1:27:00::'
+      - 'spill%2:35:04::'
+      - 'transport%2:35:00::'
+      - 'transport%2:38:01::'
+      id: 'oil_tanker%1:06:00::'
       synset: 03850710-n
 oil tycoon:
   n:
@@ -10799,7 +12184,10 @@ oil tycoon:
 oil well:
   n:
     sense:
-    - id: 'oil_well%1:06:00::'
+    - collocation:
+      - 'drill%2:35:00::'
+      - 'drill_in%2:31:00::'
+      id: 'oil_well%1:06:00::'
       synset: 03850880-n
 oil woman:
   n:
@@ -10932,7 +12320,9 @@ oilrig:
 oilseed:
   n:
     sense:
-    - id: 'oilseed%1:20:00::'
+    - collocation:
+      - 'rape%1:20:00::'
+      id: 'oilseed%1:20:00::'
       synset: 11709952-n
 oilskin:
   n:
@@ -11007,7 +12397,10 @@ ointment:
     - value: ˈɔɪn(t)m(ə)nt
       variety: US
     sense:
-    - id: 'ointment%1:06:00::'
+    - collocation:
+      - 'apply%2:35:00::'
+      - 'base%1:06:07::'
+      id: 'ointment%1:06:00::'
       synset: 03851070-n
     - id: 'ointment%1:06:01::'
       synset: 03133170-n
@@ -11169,7 +12562,15 @@ old:
 old age:
   n:
     sense:
-    - id: 'old_age%1:28:00::'
+    - collocation:
+      - 'approach%2:38:00::'
+      - 'be%2:42:01::'
+      - 'fear%2:37:00::'
+      - 'look_forward%2:31:00::'
+      - 'pensioner%1:18:00::'
+      - 'show%2:39:00::'
+      - 'survive%2:42:01::'
+      id: 'old_age%1:28:00::'
       synset: 15178747-n
 old bag:
   n:
@@ -11203,7 +12604,11 @@ old country:
 old fashioned:
   n:
     sense:
-    - id: 'old_fashioned%1:13:00::'
+    - collocation:
+      - 'appearance%1:07:00::'
+      - 'dress%1:06:01::'
+      - 'idea%1:09:00::'
+      id: 'old_fashioned%1:13:00::'
       synset: 07932677-n
 old geezer:
   n:
@@ -11256,7 +12661,9 @@ old maid flower:
 old man:
   n:
     sense:
-    - id: 'old_man%1:18:02::'
+    - collocation:
+      - 'home%1:06:01::'
+      id: 'old_man%1:18:02::'
       synset: 10395205-n
     - id: 'old_man%1:18:03::'
       synset: 10394913-n
@@ -11293,7 +12700,9 @@ old money:
 old person:
   n:
     sense:
-    - id: 'old_person%1:18:00::'
+    - collocation:
+      - 'home%1:06:01::'
+      id: 'old_person%1:18:00::'
       synset: 10396222-n
 old rose:
   n:
@@ -11365,7 +12774,9 @@ old wives' tale:
 old woman:
   n:
     sense:
-    - id: 'old_woman%1:18:00::'
+    - collocation:
+      - 'home%1:06:01::'
+      id: 'old_woman%1:18:00::'
       synset: 10396720-n
     - id: 'old_woman%1:20:00::'
       synset: 11951781-n
@@ -11917,13 +13328,19 @@ olive:
     - value: ˈɑlɪv
       variety: US
     sense:
-    - id: 'olive%1:20:01::'
+    - collocation:
+      - 'grow%2:36:00::'
+      - 'harvest%2:35:00::'
+      - 'stone%1:20:00::'
+      id: 'olive%1:20:01::'
       synset: 12321962-n
     - id: 'olive%1:20:00::'
       synset: 12321697-n
     - id: 'olive%1:20:02::'
       synset: 12321555-n
-    - id: 'olive%1:13:00::'
+    - collocation:
+      - 'vegetable_oil%1:13:00::'
+      id: 'olive%1:13:00::'
       synset: 07783320-n
     - id: 'olive%1:07:00::'
       synset: 04981607-n
@@ -11964,7 +13381,11 @@ olive green:
 olive oil:
   n:
     sense:
-    - id: 'olive_oil%1:13:00::'
+    - collocation:
+      - 'dress%2:35:00::'
+      - 'drizzle%2:35:00::'
+      - 'fry%2:30:00::'
+      id: 'olive_oil%1:13:00::'
       synset: 07690253-n
 olive ridley:
   n:
@@ -12115,7 +13536,9 @@ ombudsman:
     - value: ˈɑmbədzmən
       variety: US
     sense:
-    - id: 'ombudsman%1:18:00::'
+    - collocation:
+      - 'appoint%2:41:01::'
+      id: 'ombudsman%1:18:00::'
       synset: 83285282-n
 ombudsperson:
   n:
@@ -12162,7 +13585,10 @@ omega-6 fatty acid:
 omelet:
   n:
     sense:
-    - id: 'omelet%1:13:00::'
+    - collocation:
+      - 'cook%2:36:00::'
+      - 'cheese%1:13:00::'
+      id: 'omelet%1:13:00::'
       synset: 07858729-n
 omelet pan:
   n:
@@ -12194,7 +13620,9 @@ omen:
     - value: ˈoʊmən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'take%2:31:07::'
+      derivation:
       - ominous%5:00:00:unpropitious:00
       - ominous%5:00:00:alarming:00
       - 'omen%2:32:00::'
@@ -12294,12 +13722,18 @@ omission:
     - value: oʊˈmɪʃən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'correct%2:30:00::'
+      - 'rectify%2:30:00::'
+      derivation:
       - 'omit%2:31:01::'
       - 'omit%2:31:00::'
       id: 'omission%1:04:01::'
       synset: 00075444-n
-    - id: 'omission%1:26:00::'
+    - collocation:
+      - 'deletion%1:10:00::'
+      - 'error%1:04:02::'
+      id: 'omission%1:26:00::'
       synset: 14447018-n
     - id: 'omission%1:22:00::'
       synset: 13545602-n
@@ -12324,7 +13758,9 @@ omit:
     pronunciation:
     - value: oʊˈmɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'mention%1:10:02::'
+      derivation:
       - omissible%5:00:00:incidental:00
       - 'omission%1:04:01::'
       id: 'omit%2:31:01::'
@@ -12334,7 +13770,9 @@ omit:
       - vtai
       - vtia
       synset: 00617464-v
-    - derivation:
+    - collocation:
+      - 'typo%1:10:00::'
+      derivation:
       - omissible%5:00:00:incidental:00
       - 'omissive%3:01:00::'
       - 'omission%1:09:00::'
@@ -12381,7 +13819,9 @@ omnibus:
     - value: ˈɑmnɪbəs
       variety: US
     sense:
-    - id: 'omnibus%1:10:00::'
+    - collocation:
+      - 'art%1:06:00::'
+      id: 'omnibus%1:10:00::'
       synset: 06605048-n
     - derivation:
       - omnibus%5:00:00:comprehensive:00
@@ -13166,9 +14606,87 @@ one:
       variety: US
     - value: oʊn
     sense:
-    - id: 'one%1:23:00::'
+    - collocation:
+      - 'allow%2:40:00::'
+      - 'allow%2:41:00::'
+      - 'allow%2:41:01::'
+      - 'attend%2:42:00::'
+      - 'become%2:42:01::'
+      - 'enhance%2:30:00::'
+      - 'go%2:30:01::'
+      - 'grow%2:36:00::'
+      - 'leave%2:31:05::'
+      - 'lift%2:38:01::'
+      - 'raise%2:32:01::'
+      - 'rear%2:41:00::'
+      - 'think%2:31:01::'
+      - 'think%2:31:03::'
+      id: 'one%1:23:00::'
       synset: 13764713-n
-    - id: 'one%1:09:00::'
+    - collocation:
+      - 'act%2:29:00::'
+      - 'act%2:41:00::'
+      - 'allow%2:41:00::'
+      - 'appropriate%2:40:00::'
+      - 'argue%2:32:02::'
+      - 'assume%2:31:00::'
+      - 'attend%2:39:00::'
+      - 'become%2:30:00::'
+      - 'believe%2:31:00::'
+      - 'buy%2:40:00::'
+      - 'call%2:32:00::'
+      - 'call%2:32:02::'
+      - 'capture%2:35:00::'
+      - 'choose%2:31:00::'
+      - 'control%2:41:00::'
+      - 'control%2:41:01::'
+      - 'end%2:30:01::'
+      - 'end%2:42:00::'
+      - 'expect%2:31:00::'
+      - 'expect%2:31:05::'
+      - 'feel%2:29:00::'
+      - 'feel%2:31:01::'
+      - 'feel%2:37:00::'
+      - 'feel%2:40:00::'
+      - 'find%2:31:10::'
+      - 'find%2:39:02::'
+      - 'get%2:35:09::'
+      - 'give%2:31:02::'
+      - 'give%2:32:01::'
+      - 'go%2:34:00::'
+      - 'go%2:38:01::'
+      - 'go%2:42:10::'
+      - 'hear%2:39:01::'
+      - 'include%2:31:00::'
+      - 'keep%2:40:00::'
+      - 'know%2:31:01::'
+      - 'look%2:39:00::'
+      - 'love%2:37:01::'
+      - 'make%2:36:12::'
+      - 'master%2:31:00::'
+      - 'mean%2:32:01::'
+      - 'name%2:32:02::'
+      - 'pay%2:40:02::'
+      - 'replace%2:40:00::'
+      - 'report%2:32:00::'
+      - 'say%2:32:00::'
+      - 'say%2:32:01::'
+      - 'say%2:32:02::'
+      - 'see%2:31:00::'
+      - 'see%2:39:03::'
+      - 'see%2:39:13::'
+      - 'show%2:32:00::'
+      - 'stay%2:42:02::'
+      - 'suggest%2:32:02::'
+      - 'take%2:38:00::'
+      - 'use%2:34:01::'
+      - 'want%2:34:00::'
+      - 'want%2:37:00::'
+      - 'wonder%2:31:00::'
+      - 'write%2:32:08::'
+      - 'write%2:36:00::'
+      - 'write%2:36:04::'
+      id: 'one%1:09:00::'
       synset: 05878677-n
 one C:
   n:
@@ -13458,12 +14976,21 @@ one-flowered wintergreen:
 one-fourth:
   n:
     sense:
-    - id: 'one-fourth%1:23:00::'
+    - collocation:
+      - 'account_for%2:42:00::'
+      - 'cut%2:35:00::'
+      - 'divide%2:41:00::'
+      - 'fold%2:35:00::'
+      id: 'one-fourth%1:23:00::'
       synset: 13759620-n
 one-half:
   n:
     sense:
-    - id: 'one-half%1:23:00::'
+    - collocation:
+      - 'cut%2:35:00::'
+      - 'cut%2:35:10::'
+      - 'divide%2:41:00::'
+      id: 'one-half%1:23:00::'
       synset: 13758939-n
 one-handed:
   a:
@@ -13672,7 +15199,10 @@ one-tenth:
 one-third:
   n:
     sense:
-    - id: 'one-third%1:23:00::'
+    - collocation:
+      - 'account_for%2:42:00::'
+      - 'divide%2:41:00::'
+      id: 'one-third%1:23:00::'
       synset: 13759330-n
 one-thirty-second:
   n:
@@ -13728,7 +15258,9 @@ one-way light time:
 one-way street:
   n:
     sense:
-    - id: 'one-way_street%1:09:00::'
+    - collocation:
+      - 'street%1:26:01::'
+      id: 'one-way_street%1:09:00::'
       synset: 05972840-n
     - id: 'one-way_street%1:06:00::'
       synset: 03852854-n
@@ -13795,7 +15327,9 @@ oneiromancy:
 oneness:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'affirm%2:32:00::'
+      derivation:
       - one%5:00:00:united:00
       id: 'oneness%1:07:00::'
       synset: 04750610-n
@@ -13846,11 +15380,34 @@ onion:
     pronunciation:
     - value: ˈʌnjən
     sense:
-    - id: 'onion%1:20:02::'
+    - collocation:
+      - 'caramelize%2:30:00::'
+      - 'chicken%1:13:00::'
+      - 'cook%2:36:00::'
+      - 'fry%2:30:00::'
+      - 'peel%1:13:00::'
+      - 'saute%2:30:00::'
+      - 'skin%2:35:00::'
+      - 'slice%2:35:00::'
+      - 'soften%2:30:01::'
+      - 'soup%1:13:00::'
+      id: 'onion%1:20:02::'
       synset: 12453586-n
-    - id: 'onion%1:20:00::'
+    - collocation:
+      - 'grow%2:36:00::'
+      id: 'onion%1:20:00::'
       synset: 12453313-n
-    - id: 'onion%1:13:00::'
+    - collocation:
+      - 'brown%2:30:00::'
+      - 'chop%2:35:01::'
+      - 'dish%1:13:00::'
+      - 'garnish%2:36:00::'
+      - 'grate%2:35:02::'
+      - 'bulb%1:20:00::'
+      - 'ring%1:25:00::'
+      - 'soften%2:30:01::'
+      - 'soup%1:13:00::'
+      id: 'onion%1:13:00::'
       synset: 07737962-n
 onion bagel:
   n:
@@ -14108,9 +15665,16 @@ onset:
     - value: ˈɔnˌsɛt
       variety: US
     sense:
-    - id: 'onset%1:11:00::'
+    - collocation:
+      - 'delay%2:30:00::'
+      - 'mark%2:32:02::'
+      - 'symptom%1:26:00::'
+      id: 'onset%1:11:00::'
       synset: 07340590-n
-    - id: 'onset%1:04:01::'
+    - collocation:
+      - 'delay%2:30:00::'
+      - 'delay%2:42:00::'
+      id: 'onset%1:04:01::'
       synset: 00974725-n
 onshore:
   a:
@@ -14296,7 +15860,9 @@ oocyte:
     - value: ˈoʊ.oʊ.saɪt
       variety: US
     sense:
-    - id: 'oocyte%1:08:00::'
+    - collocation:
+      - 'fertilize%2:29:00::'
+      id: 'oocyte%1:08:00::'
       synset: 05466152-n
 oodles:
   n:
@@ -14390,7 +15956,10 @@ ooze:
       synset: 07446719-n
   v:
     sense:
-    - derivation:
+    - collocation:
+      - 'incision%1:04:00::'
+      - 'blob%1:25:00::'
+      derivation:
       - 'ooze%1:11:00::'
       - 'oozing%1:11:00::'
       event:
@@ -14399,7 +15968,12 @@ ooze:
       subcat:
       - vii-pp
       synset: 02075902-v
-    - derivation:
+    - collocation:
+      - 'blister%1:08:00::'
+      - 'exudate%1:27:00::'
+      - 'redness%1:26:00::'
+      - 'sore%1:26:00::'
+      derivation:
       - 'ooze%1:11:00::'
       - 'oozing%1:11:00::'
       event:
@@ -14471,7 +16045,9 @@ opacification:
 opacify:
   v:
     sense:
-    - id: 'opacify%2:30:01::'
+    - collocation:
+      - 'glass%1:27:00::'
+      id: 'opacify%2:30:01::'
       subcat:
       - vtai
       - vtii
@@ -14754,7 +16330,11 @@ open:
       - open%5:00:00:unrestricted:00
       id: 'open%1:11:00::'
       synset: 07480116-n
-    - derivation:
+    - collocation:
+      - 'fact%1:09:01::'
+      - 'information%1:09:00::'
+      - 'report%1:10:03::'
+      derivation:
       - open%5:00:00:public:00
       id: 'open%1:09:00::'
       synset: 05620592-n
@@ -14764,6 +16344,53 @@ open:
       - 'opener%1:18:00::'
       antonym:
       - 'close%2:35:00::'
+      collocation:
+      - 'bag%1:06:00::'
+      - 'bag%1:06:01::'
+      - 'beak%1:05:00::'
+      - 'blind%1:06:00::'
+      - 'book%1:06:00::'
+      - 'bottle%1:06:00::'
+      - 'box%1:06:00::'
+      - 'briefcase%1:06:00::'
+      - 'burglar%1:18:00::'
+      - 'can%1:06:00::'
+      - 'carton%1:06:00::'
+      - 'coconut%1:13:00::'
+      - 'cupboard%1:06:00::'
+      - 'door%1:06:00::'
+      - 'door%1:06:01::'
+      - 'drawer%1:06:00::'
+      - 'envelope%1:06:01::'
+      - 'eye%1:08:00::'
+      - 'flap%1:06:00::'
+      - 'floodgate%1:09:00::'
+      - 'force%1:07:00::'
+      - 'gate%1:06:00::'
+      - 'hatch%1:06:00::'
+      - 'house%1:06:00::'
+      - 'key%1:06:00::'
+      - 'lock%1:06:00::'
+      - 'mail%1:14:00::'
+      - 'margin%1:25:00::'
+      - 'master_key%1:06:00::'
+      - 'mouth%1:08:01::'
+      - 'package%1:06:00::'
+      - 'packet%1:06:00::'
+      - 'parachute%1:06:00::'
+      - 'plan%1:09:00::'
+      - 'present%1:21:00::'
+      - 'room%1:06:00::'
+      - 'safe%1:06:00::'
+      - 'seal%1:10:01::'
+      - 'shutter%1:06:00::'
+      - 'umbrella%1:06:00::'
+      - 'valve%1:06:00::'
+      - 'vent%1:06:00::'
+      - 'wardrobe%1:06:00::'
+      - 'window%1:06:00::'
+      - 'world%1:09:00::'
+      - 'zip%1:06:00::'
       derivation:
       - 'opener%1:18:00::'
       - 'opener%1:06:00::'
@@ -14780,6 +16407,49 @@ open:
       synset: 01348685-v
     - antonym:
       - 'close%2:41:00::'
+      collocation:
+      - 'case%1:04:00::'
+      - 'festival%1:04:00::'
+      - 'inquiry%1:04:00::'
+      - 'market%1:04:00::'
+      - 'account%1:26:00::'
+      - 'boutique%1:06:00::'
+      - 'branch%1:14:00::'
+      - 'building%1:06:00::'
+      - 'business%1:14:00::'
+      - 'cabaret%1:06:00::'
+      - 'center%1:06:00::'
+      - 'chapter%1:14:00::'
+      - 'club%1:14:00::'
+      - 'company%1:14:01::'
+      - 'day%1:28:01::'
+      - 'decade%1:28:00::'
+      - 'earth%1:17:00::'
+      - 'embassy%1:06:00::'
+      - 'exhibition%1:14:00::'
+      - 'factory%1:06:00::'
+      - 'gallery%1:06:04::'
+      - 'hall%1:06:01::'
+      - 'hall%1:06:07::'
+      - 'headquarters%1:06:01::'
+      - 'institute%1:14:00::'
+      - 'museum%1:06:00::'
+      - 'office%1:06:00::'
+      - 'plan%1:09:00::'
+      - 'plant%1:06:01::'
+      - 'program%1:09:01::'
+      - 'railway%1:06:00::'
+      - 'railway_station%1:06:00::'
+      - 'restaurant%1:06:00::'
+      - 'room%1:06:00::'
+      - 'school%1:14:00::'
+      - 'shop%1:06:00::'
+      - 'station%1:06:00::'
+      - 'stock_exchange%1:06:00::'
+      - 'student%1:18:00::'
+      - 'studio%1:06:00::'
+      - 'time%1:28:03::'
+      - 'year%1:28:01::'
       derivation:
       - 'opening%1:11:01::'
       - 'opening%1:04:03::'
@@ -14792,6 +16462,21 @@ open:
       synset: 02431018-v
     - antonym:
       - 'close%2:35:06::'
+      collocation:
+      - 'bud%1:20:02::'
+      - 'chasm%1:17:00::'
+      - 'curtain%1:06:00::'
+      - 'door%1:06:00::'
+      - 'door%1:06:01::'
+      - 'eye%1:08:00::'
+      - 'gap%1:06:00::'
+      - 'gate%1:06:00::'
+      - 'gulf%1:07:00::'
+      - 'intestine%1:08:00::'
+      - 'mouth%1:08:01::'
+      - 'path%1:17:00::'
+      - 'pore%1:08:00::'
+      - 'window%1:06:00::'
       derivation:
       - 'opening%1:04:02::'
       id: 'open%2:35:06::'
@@ -14804,6 +16489,28 @@ open:
       - 'open_up%2:36:00::'
       antonym:
       - 'close%2:41:01::'
+      collocation:
+      - 'game%1:04:00::'
+      - 'game%1:04:03::'
+      - 'inquest%1:04:00::'
+      - 'book%1:10:00::'
+      - 'chapter%1:14:01::'
+      - 'chapter%1:28:00::'
+      - 'conference%1:14:00::'
+      - 'congress%1:14:00::'
+      - 'conversation%1:10:00::'
+      - 'debate%1:10:00::'
+      - 'dialogue%1:10:01::'
+      - 'discussion%1:10:00::'
+      - 'film%1:10:01::'
+      - 'game%1:06:00::'
+      - 'hearing%1:10:00::'
+      - 'meeting%1:14:00::'
+      - 'negotiation%1:10:00::'
+      - 'plot%1:09:00::'
+      - 'president%1:18:03::'
+      - 'session%1:10:00::'
+      - 'trial%1:04:02::'
       derivation:
       - 'opener%1:11:00::'
       - 'opening%1:11:01::'
@@ -14822,20 +16529,57 @@ open:
       - vtai
       - vtai-pp
       synset: 01582662-v
-    - derivation:
+    - collocation:
+      - 'archive%1:06:00::'
+      - 'avenue%1:04:00::'
+      - 'cabaret%1:06:00::'
+      - 'colonization%1:04:00::'
+      - 'colony%1:14:00::'
+      - 'discipline%1:09:00::'
+      - 'discussion%1:10:00::'
+      - 'horizon%1:07:00::'
+      - 'line%1:10:05::'
+      - 'opportunity%1:26:00::'
+      - 'path%1:17:00::'
+      - 'plan%1:09:00::'
+      - 'possibility%1:09:03::'
+      - 'public%1:14:00::'
+      - 'region%1:09:00::'
+      - 'season%1:28:02::'
+      - 'student%1:18:00::'
+      - 'traffic%1:14:00::'
+      - 'world%1:05:00::'
+      - 'world%1:14:01::'
+      - 'world%1:17:02::'
+      - 'way%1:04:00::'
+      derivation:
       - 'opening%1:26:00::'
       id: 'open%2:30:00::'
       subcat:
       - vtai
       - vtii
       synset: 00541016-v
-    - derivation:
+    - collocation:
+      - 'book%1:10:00::'
+      - 'box_office%1:21:00::'
+      - 'colonization%1:04:00::'
+      - 'film%1:10:01::'
+      - 'hall%1:06:08::'
+      - 'no.%1:23:00::'
+      - 'opening%1:17:00::'
+      - 'opportunity%1:26:00::'
+      - 'possibility%1:09:01::'
+      - 'possibility%1:09:03::'
+      - 'schism%1:04:00::'
+      derivation:
       - 'opening%1:26:00::'
       id: 'open%2:30:01::'
       subcat:
       - vii
       synset: 00541181-v
-    - derivation:
+    - collocation:
+      - 'room%1:06:00::'
+      derivation:
       - 'opening%1:17:00::'
       - 'opening%1:08:00::'
       - 'opening%1:06:01::'
@@ -14843,7 +16587,11 @@ open:
       subcat:
       - vii-pp
       synset: 02750526-v
-    - derivation:
+    - collocation:
+      - 'bowling%1:04:02::'
+      - 'move%1:04:02::'
+      - 'plan%1:09:00::'
+      derivation:
       - 'opening%1:04:03::'
       id: 'open%2:33:00::'
       subcat:
@@ -14851,6 +16599,11 @@ open:
       synset: 01080280-v
     - antonym:
       - 'close%2:39:10::'
+      collocation:
+      - 'content%1:14:00::'
+      - 'file%1:10:00::'
+      - 'plan%1:09:00::'
+      - 'text_file%1:10:00::'
       id: 'open%2:39:10::'
       subcat:
       - vtai
@@ -14884,14 +16637,22 @@ open circuit:
 open door:
   n:
     sense:
-    - id: 'open_door%1:10:00::'
+    - collocation:
+      - 'door%1:07:00::'
+      id: 'open_door%1:10:00::'
       synset: 06675913-n
     - id: 'open_door%1:07:00::'
       synset: 05188605-n
 open fire:
   v:
     sense:
-    - id: 'open_fire%2:33:00::'
+    - collocation:
+      - 'ammunition%1:06:00::'
+      - 'demonstrator%1:18:00::'
+      - 'military_personnel%1:14:00::'
+      - 'shotgun%1:06:00::'
+      - 'troop%1:14:00::'
+      id: 'open_fire%2:33:00::'
       subcat:
       - via
       - via-pp
@@ -15034,7 +16795,9 @@ open vowel:
 open weave:
   n:
     sense:
-    - id: 'open_weave%1:06:00::'
+    - collocation:
+      - 'net%1:06:00::'
+      id: 'open_weave%1:06:00::'
       synset: 03855058-n
 open-air:
   a:
@@ -15196,7 +16959,9 @@ opener:
     pronunciation:
     - value: ˈəʊpənə
     sense:
-    - derivation:
+    - collocation:
+      - 'cancel_out%2:30:00::'
+      derivation:
       - 'open%2:41:01::'
       id: 'opener%1:11:00::'
       synset: 07340969-n
@@ -15204,7 +16969,9 @@ opener:
       - 'open%2:35:00::'
       id: 'opener%1:18:00::'
       synset: 10757088-n
-    - derivation:
+    - collocation:
+      - 'find%2:40:01::'
+      derivation:
       - 'open%2:35:00::'
       id: 'opener%1:06:00::'
       synset: 03853868-n
@@ -15251,37 +17018,80 @@ opening:
     - value: ˈəʊ.pə.nɪŋ
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'alternate%2:30:01::'
+      - 'appear%2:30:00::'
+      - 'block%2:35:00::'
+      - 'jump%2:38:01::'
+      - 'lid%1:06:00::'
+      - 'open%2:30:01::'
+      - 'seal%2:35:03::'
+      - 'ventilation%1:04:00::'
+      derivation:
       - 'open%2:42:00::'
       id: 'opening%1:17:00::'
       synset: 09402023-n
-    - derivation:
+    - collocation:
+      - 'address%1:10:00::'
+      - 'attend%2:42:00::'
+      - 'celebrate%2:41:00::'
+      - 'ceremony%1:11:00::'
+      - 'game%1:04:03::'
+      - 'day%1:28:01::'
+      - 'match%1:11:00::'
+      - 'weekend%1:28:00::'
+      - 'session%1:10:00::'
+      derivation:
       - 'open%2:41:01::'
       - 'open%2:41:00::'
       id: 'opening%1:11:01::'
       synset: 07467309-n
-    - derivation:
+    - collocation:
+      - 'arm%1:08:00::'
+      - 'hour%1:28:01::'
+      - 'mark%2:31:01::'
+      derivation:
       - 'open%2:35:08::'
       - 'open%2:35:06::'
       - 'open%2:35:00::'
       id: 'opening%1:04:02::'
       synset: 00384198-n
-    - derivation:
+    - collocation:
+      - 'gross%2:40:00::'
+      derivation:
       - 'opening%3:00:00::'
       id: 'opening%1:11:00::'
       synset: 07343963-n
     - antonym:
       - 'closing%1:04:01::'
+      collocation:
+      - 'door%1:06:00::'
+      - 'window%1:06:00::'
       derivation:
       - 'open%2:35:00::'
       id: 'opening%1:04:01::'
       synset: 00339467-n
-    - derivation:
+    - collocation:
+      - 'give%2:32:07::'
+      - 'make%2:36:00::'
+      - 'miss%2:32:00::'
+      derivation:
       - 'open%2:30:01::'
       - 'open%2:30:00::'
       id: 'opening%1:26:00::'
       synset: 14508833-n
-    - id: 'opening%1:10:00::'
+    - collocation:
+      - 'begin%2:42:03::'
+      - 'chapter%1:10:00::'
+      - 'paragraph%1:10:00::'
+      - 'scene%1:10:01::'
+      - 'song%1:10:00::'
+      - 'statement%1:10:00::'
+      - 'theme%1:10:02::'
+      - 'sentence%1:10:00::'
+      - 'sequence%1:06:00::'
+      - 'track%1:06:03::'
+      id: 'opening%1:10:00::'
       synset: 06409119-n
     - id: 'opening%1:09:00::'
       synset: 05800018-n
@@ -15289,7 +17099,11 @@ opening:
       - 'open%2:42:00::'
       id: 'opening%1:08:00::'
       synset: 05257118-n
-    - id: 'opening%1:06:00::'
+    - collocation:
+      - 'casing%1:06:00::'
+      - 'cut%2:36:01::'
+      - 'door%1:06:00::'
+      id: 'opening%1:06:00::'
       synset: 03854249-n
     - derivation:
       - 'open%2:42:00::'
@@ -15348,7 +17162,9 @@ openness:
       - 'open%3:00:07::'
       id: 'openness%1:07:01::'
       synset: 04661423-n
-    - derivation:
+    - collocation:
+      - 'demonstrate%2:32:00::'
+      derivation:
       - open%5:00:00:unconstricted:00
       - 'open%3:00:00::'
       id: 'openness%1:07:02::'
@@ -15373,11 +17189,30 @@ opepe:
 opera:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'build%2:30:10::'
+      - 'compose%2:36:03::'
+      - 'conduct%2:36:04::'
+      - 'grow%2:36:00::'
+      - 'company%1:14:02::'
+      - 'composer%1:18:00::'
+      - 'evening%1:28:02::'
+      - 'fan%1:18:00::'
+      - 'musical_composition%1:10:00::'
+      - 'season%1:28:02::'
+      - 'singer%1:18:00::'
+      - 'star%1:18:00::'
+      - 'sing%2:36:01::'
+      - 'stage%2:36:00::'
+      derivation:
       - 'operatic%3:01:00::'
       id: 'opera%1:10:00::'
       synset: 07039821-n
-    - derivation:
+    - collocation:
+      - 'grow%2:36:00::'
+      - 'evening%1:28:02::'
+      - 'theater%1:06:00::'
+      derivation:
       - 'operatic%3:01:00::'
       id: 'opera%1:06:00::'
       synset: 03855334-n
@@ -15456,7 +17291,9 @@ operand:
     - value: ˈɑpəˌɹænd
       variety: US
     sense:
-    - id: 'operand%1:09:00::'
+    - collocation:
+      - 'subtract%2:31:00::'
+      id: 'operand%1:09:00::'
       synset: 05865930-n
 operant:
   a:
@@ -15480,6 +17317,62 @@ operate:
     sense:
     - agent:
       - 'operator%1:18:01::'
+      collocation:
+      - 'affairs%1:04:00::'
+      - 'cooperative%1:04:00::'
+      - 'finance%1:04:00::'
+      - 'finance%1:04:01::'
+      - 'flight%1:04:02::'
+      - 'group%1:03:00::'
+      - 'mission%1:04:02::'
+      - 'ad%1:10:00::'
+      - 'airline%1:06:00::'
+      - 'boutique%1:06:00::'
+      - 'budget%1:21:03::'
+      - 'business%1:14:00::'
+      - 'cafe%1:06:00::'
+      - 'company%1:14:01::'
+      - 'consortium%1:14:00::'
+      - 'department%1:14:00::'
+      - 'economy%1:14:00::'
+      - 'enterprise%1:14:00::'
+      - 'estate%1:21:01::'
+      - 'firm%1:14:00::'
+      - 'fleet%1:14:01::'
+      - 'garage%1:06:01::'
+      - 'government%1:14:00::'
+      - 'hotel%1:06:00::'
+      - 'lab%1:06:00::'
+      - 'line%1:06:05::'
+      - 'matter%1:09:01::'
+      - 'menagerie%1:06:00::'
+      - 'mill%1:06:01::'
+      - 'mine%1:06:01::'
+      - 'ministry%1:14:00::'
+      - 'network%1:14:00::'
+      - 'nuclear_reactor%1:06:00::'
+      - 'plant%1:06:01::'
+      - 'playschool%1:14:00::'
+      - 'policy%1:09:00::'
+      - 'program%1:09:00::'
+      - 'railway%1:06:00::'
+      - 'scheme%1:09:00::'
+      - 'school%1:14:00::'
+      - 'service%1:14:05::'
+      - 'session%1:10:00::'
+      - 'stall%1:06:01::'
+      - 'state%1:14:00::'
+      - 'station%1:06:00::'
+      - 'store%1:06:00::'
+      - 'trust%1:21:03::'
+      - 'web_site%1:10:00::'
+      - 'whorehouse%1:06:00::'
+      - 'worker%1:18:00::'
+      - 'racket%1:04:00::'
+      - 'riot%1:04:00::'
+      - 'seminar%1:04:00::'
+      - 'simulation%1:04:01::'
+      - 'vendetta%1:04:00::'
       derivation:
       - 'operation%1:04:07::'
       - 'operation%1:04:06::'
@@ -15491,7 +17384,11 @@ operate:
       subcat:
       - vtai
       synset: 02448714-v
-    - derivation:
+    - collocation:
+      - 'mill%1:06:00::'
+      - 'plant%1:06:01::'
+      - 'program%1:10:02::'
+      derivation:
       - operative%5:00:00:functioning:00
       - operant%5:00:00:operative:00
       - 'operation%1:22:01::'
@@ -15507,6 +17404,45 @@ operate:
       synset: 01528454-v
     - agent:
       - 'operator%1:18:00::'
+      collocation:
+      - 'flight%1:04:00::'
+      - 'aircraft%1:06:00::'
+      - 'airplane%1:06:00::'
+      - 'bus%1:06:00::'
+      - 'clock%1:06:00::'
+      - 'device%1:06:00::'
+      - 'elevator%1:06:00::'
+      - 'flight%1:19:00::'
+      - 'government%1:14:00::'
+      - 'hardware%1:06:01::'
+      - 'input%1:10:00::'
+      - 'instruction%1:10:02::'
+      - 'knob%1:06:00::'
+      - 'lever%1:06:00::'
+      - 'lever%1:06:02::'
+      - 'machine%1:06:00::'
+      - 'machinery%1:06:00::'
+      - 'mill%1:06:00::'
+      - 'mind%1:09:06::'
+      - 'motor%1:06:00::'
+      - 'mouse%1:06:00::'
+      - 'muscle%1:08:00::'
+      - 'pedal%1:06:00::'
+      - 'place%1:10:02::'
+      - 'position%1:07:01::'
+      - 'position%1:15:00::'
+      - 'printer%1:06:01::'
+      - 'projector%1:06:00::'
+      - 'push_button%1:06:00::'
+      - 'stimulation%1:09:00::'
+      - 'submarine%1:06:00::'
+      - 'switch%1:06:01::'
+      - 'switchboard%1:06:00::'
+      - 'train%1:06:00::'
+      - 'valve%1:06:00::'
+      - 'vehicle%1:06:00::'
+      - 'vessel%1:06:00::'
+      - 'person%1:03:00::'
       derivation:
       - operative%5:00:00:functioning:00
       - 'operation%1:04:07::'
@@ -15518,7 +17454,9 @@ operate:
       - vtai
       - vtii
       synset: 01227308-v
-    - derivation:
+    - collocation:
+      - 'police%1:14:00::'
+      derivation:
       - 'operation%1:04:02::'
       event:
       - 'operation%1:04:02::'
@@ -15527,7 +17465,10 @@ operate:
       - via-pp
       - vtai-pp
       synset: 01112274-v
-    - derivation:
+    - collocation:
+      - 'stereo%1:06:00::'
+      - 'unit%1:14:00::'
+      derivation:
       - 'operation%1:26:00::'
       - 'operation%1:04:07::'
       event:
@@ -15556,7 +17497,13 @@ operate:
 operate on:
   v:
     sense:
-    - id: 'operate_on%2:29:00::'
+    - collocation:
+      - 'anesthesia%1:26:00::'
+      - 'doctor%1:18:00::'
+      - 'organ%1:08:00::'
+      - 'patient%1:18:00::'
+      - 'surgeon%1:18:00::'
+      id: 'operate_on%2:29:00::'
       sent:
       - Did he operate on his foot?
       subcat:
@@ -15659,7 +17606,15 @@ operating system:
     - value: ˈɑpəˌɹeɪtɪŋ ˌsɪstəm
       variety: US
     sense:
-    - id: 'operating_system%1:10:00::'
+    - collocation:
+      - 'boot%2:29:00::'
+      - 'computer%1:06:00::'
+      - 'establish%2:31:03::'
+      - 'install%2:35:00::'
+      - 'load%2:40:12::'
+      - 'run%2:41:00::'
+      - 'underlie%2:42:00::'
+      id: 'operating_system%1:10:00::'
       synset: 06580310-n
 operating table:
   n:
@@ -15690,40 +17645,196 @@ operation:
     - value: ˌɑpəˈɹeɪʃən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'bring%2:35:04::'
+      - 'cease%2:42:00::'
+      - 'close_up%2:41:00::'
+      - 'convention%1:09:00::'
+      - 'end%2:42:00::'
+      - 'interrupt%2:30:04::'
+      - 'put%2:35:05::'
+      - 'remain%2:30:00::'
+      - 'resume%2:30:00::'
+      - 'rule%1:10:00::'
+      derivation:
       - 'operate%2:35:02::'
       id: 'operation%1:26:00::'
       synset: 14032291-n
-    - derivation:
+    - collocation:
+      - 'close%2:32:05::'
+      - 'consolidate%2:30:01::'
+      - 'farming%1:04:00::'
+      - 'manufacturing%1:04:00::'
+      - 'business%1:14:00::'
+      - 'cease%2:42:00::'
+      - 'company%1:14:01::'
+      - 'director%1:18:00::'
+      - 'franchise%1:14:00::'
+      - 'head%1:18:00::'
+      - 'internet%1:06:00::'
+      - 'tax%1:21:00::'
+      derivation:
       - 'operate%2:41:00::'
       id: 'operation%1:04:06::'
       synset: 01097871-n
-    - id: 'operation%1:04:03::'
+    - collocation:
+      - 'begin%2:30:01::'
+      - 'area%1:26:00::'
+      - 'carry_through%2:36:00::'
+      - 'conduct%2:41:00::'
+      - 'continue%2:42:01::'
+      - 'direct%2:31:00::'
+      - 'expand%2:30:09::'
+      - 'intelligence%1:04:00::'
+      - 'launch%2:35:04::'
+      - 'management%1:04:00::'
+      - 'mount%2:36:01::'
+      - 'oversee%2:41:00::'
+      - 'perform%2:36:00::'
+      - 'police%1:14:00::'
+      - 'relief%1:04:02::'
+      - 'search%1:04:00::'
+      - 'security%1:26:00::'
+      - 'smuggling%1:04:00::'
+      - 'stop%2:41:00::'
+      - 'support%1:04:04::'
+      - 'support%2:41:01::'
+      - 'surveillance%1:04:01::'
+      - 'suspend%2:30:02::'
+      - 'undertake%2:36:00::'
+      - 'year%1:28:01::'
+      - 'rescue%1:04:00::'
+      - 'resume%2:30:00::'
+      - 'salvage%1:04:01::'
+      id: 'operation%1:04:03::'
       synset: 00410304-n
-    - id: 'operation%1:22:00::'
+    - collocation:
+      - 'computer%1:06:00::'
+      - 'data%1:14:00::'
+      - 'million%1:23:00::'
+      - 'process%2:31:00::'
+      - 'result%2:42:00::'
+      - 'run%2:41:00::'
+      id: 'operation%1:22:00::'
       synset: 13546128-n
-    - derivation:
+    - collocation:
+      - 'air%1:04:00::'
+      - 'guarantee%2:32:03::'
+      - 'interrupt%2:30:04::'
+      - 'model%1:04:00::'
+      - 'air_force%1:14:00::'
+      - 'barricade%2:35:00::'
+      - 'cease%2:42:00::'
+      - 'check%2:33:06::'
+      - 'conduct%2:36:00::'
+      - 'conduct%2:41:00::'
+      - 'launch%2:41:01::'
+      - 'navy%1:14:00::'
+      - 'plan%2:36:00::'
+      - 'resume%2:30:00::'
+      derivation:
       - 'operate%2:33:00::'
       id: 'operation%1:04:02::'
       synset: 00957171-n
-    - derivation:
+    - collocation:
+      - 'affect%2:29:00::'
+      - 'cut%1:04:02::'
+      - 'have%2:30:01::'
+      - 'attend%2:42:00::'
+      - 'body%1:08:00::'
+      - 'bone%1:08:00::'
+      - 'brain%1:08:00::'
+      - 'cancer%1:26:00::'
+      - 'carry_through%2:36:00::'
+      - 'cataract%1:26:00::'
+      - 'emergency%1:11:00::'
+      - 'experience%2:39:00::'
+      - 'eye%1:08:00::'
+      - 'face%1:08:00::'
+      - 'facelift%1:04:00::'
+      - 'field%1:09:01::'
+      - 'hernia%1:26:00::'
+      - 'hip%1:08:01::'
+      - 'hold%2:36:00::'
+      - 'indicate%2:32:04::'
+      - 'instrument%1:06:00::'
+      - 'intestine%1:08:00::'
+      - 'knife%1:06:00::'
+      - 'laser%1:06:00::'
+      - 'patient%1:18:00::'
+      - 'perform%2:36:00::'
+      - 'relieve%2:37:00::'
+      - 'require%2:42:00::'
+      - 'schedule%2:31:00::'
+      - 'sex%1:07:00::'
+      - 'squint%1:26:00::'
+      - 'survive%2:42:02::'
+      - 'tendon%1:08:00::'
+      - 'undergo%2:39:04::'
+      - 'relieve%2:29:00::'
+      - 'relieve%2:30:05::'
+      - 'repair%2:30:00::'
+      - 'take%2:30:00::'
+      - 'treat%2:29:00::'
+      derivation:
       - 'operate%2:29:00::'
       - 'operative%3:00:04::'
       id: 'operation%1:04:00::'
       synset: 00672594-n
-    - derivation:
+    - collocation:
+      - 'building%1:06:00::'
+      - 'carry_through%2:36:00::'
+      - 'confirmation%1:09:00::'
+      - 'director%1:18:00::'
+      - 'explanation%1:10:00::'
+      - 'involve%2:42:00::'
+      - 'lab%1:06:00::'
+      - 'machine_tool%1:06:00::'
+      - 'mining%1:04:00::'
+      - 'office%1:06:00::'
+      - 'test%1:04:00::'
+      - 'practice%1:04:00::'
+      derivation:
       - 'operate%2:35:03::'
       id: 'operation%1:04:05::'
       synset: 00578105-n
-    - derivation:
+    - collocation:
+      - 'aim%1:09:01::'
+      - 'airplane%1:06:00::'
+      - 'engine%1:06:00::'
+      - 'get%2:40:14::'
+      - 'graphic%1:06:00::'
+      - 'guarantee%2:32:03::'
+      - 'jet%1:06:00::'
+      - 'know%2:31:00::'
+      - 'mode%1:07:00::'
+      - 'acme%1:26:00::'
+      - 'oven%1:06:00::'
+      - 'predict%2:32:00::'
+      - 'sale%1:04:02::'
+      - 'system%1:06:00::'
+      - 'trade%1:04:05::'
+      derivation:
       - 'operate%2:35:03::'
       id: 'operation%1:22:01::'
       synset: 13546752-n
     - id: 'operation%1:09:00::'
       synset: 05709328-n
-    - id: 'operation%1:04:01::'
+    - collocation:
+      - 'learn%2:31:00::'
+      - 'calculator%1:06:00::'
+      - 'close%2:35:11::'
+      - 'derivative%1:09:00::'
+      - 'integral%1:09:00::'
+      - 'make%2:36:12::'
+      id: 'operation%1:04:01::'
       synset: 00871261-n
-    - derivation:
+    - collocation:
+      - 'aircraft%1:06:00::'
+      - 'business%1:14:00::'
+      - 'cease%2:42:00::'
+      - 'vehicle%1:06:00::'
+      derivation:
       - 'operate%2:41:00::'
       - 'operate%2:35:02::'
       - 'operate%2:35:00::'
@@ -15857,13 +17968,37 @@ operator:
     - value: ˈɑpəˌɹeɪɾɚ
       variety: US
     sense:
-    - id: 'operator%1:24:00::'
+    - collocation:
+      - 'multiplication%1:04:00::'
+      - 'restrict%2:30:00::'
+      - 'summation%1:04:01::'
+      id: 'operator%1:24:00::'
       synset: 13808625-n
-    - derivation:
+    - collocation:
+      - 'bus%1:06:00::'
+      - 'checkout%1:06:00::'
+      - 'connect%2:32:00::'
+      - 'connect%2:32:12::'
+      - 'keyboard%1:06:01::'
+      - 'machine%1:06:00::'
+      - 'oil_tanker%1:06:00::'
+      - 'radar%1:06:00::'
+      - 'radio_set%1:06:00::'
+      - 'switchboard%1:06:00::'
+      - 'telephone%1:06:00::'
+      derivation:
       - 'operate%2:35:00::'
       id: 'operator%1:18:00::'
       synset: 10398111-n
-    - derivation:
+    - collocation:
+      - 'airline%1:06:00::'
+      - 'cable%1:10:01::'
+      - 'cruise%1:04:00::'
+      - 'ferry%1:06:00::'
+      - 'telecommunication%1:10:00::'
+      - 'tour%1:04:00::'
+      - 'transport%1:04:00::'
+      derivation:
       - 'operate%2:41:00::'
       id: 'operator%1:18:01::'
       synset: 10398479-n
@@ -16039,7 +18174,9 @@ opiate:
     pronunciation:
     - value: ˈəʊpi.ət
     sense:
-    - id: 'opiate%1:06:00::'
+    - collocation:
+      - 'addict%2:34:00::'
+      id: 'opiate%1:06:00::'
       synset: 03856266-n
 opine:
   v:
@@ -16049,7 +18186,9 @@ opine:
     - value: oʊˈpaɪn
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'favor%1:07:00::'
+      derivation:
       - opinionative%5:00:00:narrow-minded:00
       - 'opinion%1:10:01::'
       event:
@@ -16072,21 +18211,108 @@ opinion:
     pronunciation:
     - value: əˈpɪnjən
     sense:
-    - derivation:
+    - collocation:
+      - 'admiration%1:04:00::'
+      - 'agree%2:32:04::'
+      - 'appear%2:39:01::'
+      - 'argue%2:32:01::'
+      - 'argue%2:32:02::'
+      - 'ask%2:32:04::'
+      - 'base%2:31:00::'
+      - 'change%2:30:00::'
+      - 'change%2:30:05::'
+      - 'communicate%2:32:01::'
+      - 'describe%2:32:00::'
+      - 'differ%2:32:00::'
+      - 'differ%2:42:00::'
+      - 'evaluate%2:31:01::'
+      - 'express%2:32:01::'
+      - 'form%2:41:02::'
+      - 'get%2:30:03::'
+      - 'give%2:32:14::'
+      - 'guess%2:32:00::'
+      - 'hold%2:31:01::'
+      - 'hold%2:32:15::'
+      - 'hold%2:37:00::'
+      - 'hold%2:40:00::'
+      - 'matter%1:09:01::'
+      - 'offer%2:31:00::'
+      - 'accord%1:10:00::'
+      - 'agreement%1:26:01::'
+      - 'approval%1:10:00::'
+      - 'consensus%1:26:00::'
+      - 'expert%1:18:00::'
+      - 'expression%1:10:04::'
+      - 'freedom%1:26:00::'
+      - 'guess%1:10:00::'
+      - 'nuance%1:10:00::'
+      - 'opinion%1:10:00::'
+      - 'politician%1:18:00::'
+      - 'politician%1:18:01::'
+      - 'profession%1:10:00::'
+      - 'slant%1:09:00::'
+      - 'predominate%2:42:00::'
+      - 'publicize%2:32:00::'
+      - 'respect%2:31:00::'
+      - 'seek%2:32:00::'
+      - 'share%2:42:00::'
+      - 'state%2:32:00::'
+      - 'vary%2:42:01::'
+      - 'voice%2:32:00::'
+      - 'vote%1:04:01::'
+      - 'weight%1:07:01::'
+      derivation:
       - 'opine%2:31:02::'
       id: 'opinion%1:09:00::'
       synset: 05954491-n
-    - derivation:
+    - collocation:
+      - 'agree%2:32:04::'
+      - 'echo%2:42:00::'
+      - 'argument%1:10:00::'
+      - 'weight%1:07:01::'
+      - 'write%2:32:08::'
+      - 'write%2:36:00::'
+      derivation:
       - 'opine%2:32:00::'
       id: 'opinion%1:10:01::'
       synset: 06794876-n
-    - id: 'opinion%1:09:01::'
+    - collocation:
+      - 'divide%2:35:00::'
+      - 'influence%2:31:00::'
+      - 'minority%1:14:00::'
+      - 'slant%1:09:00::'
+      - 'predominate%2:42:00::'
+      - 'repeat%2:32:01::'
+      - 'share%2:42:00::'
+      - 'survey%1:04:02::'
+      id: 'opinion%1:09:01::'
       synset: 05958593-n
-    - id: 'opinion%1:10:00::'
+    - collocation:
+      - 'accept%2:31:00::'
+      - 'admiration%1:04:00::'
+      - 'document%1:10:00::'
+      - 'opinion%1:09:00::'
+      - 'judge%1:18:00::'
+      - 'state%2:32:00::'
+      - 'write%2:32:00::'
+      - 'write%2:32:08::'
+      id: 'opinion%1:10:00::'
       synset: 06563775-n
-    - id: 'opinion%1:04:01::'
+    - collocation:
+      - 'accept%2:31:03::'
+      - 'give%2:32:11::'
+      - 'judgment%1:09:00::'
+      - 'landmark%1:11:00::'
+      - 'reason%1:16:00::'
+      - 'turn%2:30:00::'
+      - 'uphold%2:32:02::'
+      - 'write%2:32:08::'
+      id: 'opinion%1:04:01::'
       synset: 01193648-n
-    - id: 'opinion%1:09:02::'
+    - collocation:
+      - 'form%2:30:01::'
+      - 'offer%2:41:03::'
+      id: 'opinion%1:09:02::'
       synset: 05925333-n
 opinion poll:
   n:
@@ -16135,7 +18361,13 @@ opium:
     - value: ˈəʊpi.əm
       variety: GB
     sense:
-    - id: 'opium%1:06:00::'
+    - collocation:
+      - 'addict%2:34:00::'
+      - 'drug%2:29:00::'
+      - 'den%1:15:01::'
+      - 'poppy%1:20:00::'
+      - 'smoke%2:34:00::'
+      id: 'opium%1:06:00::'
       synset: 03856486-n
 opium addict:
   n:
@@ -16219,11 +18451,22 @@ opponent:
     pronunciation:
     - value: əˈpəʊnənt
     sense:
-    - derivation:
+    - collocation:
+      - 'attack%2:33:02::'
+      - 'beat%2:33:00::'
+      - 'beat%2:33:14::'
+      - 'boxer%1:18:00::'
+      - 'defeat%2:33:00::'
+      derivation:
       - 'oppose%2:33:00::'
       id: 'opponent%1:18:02::'
       synset: 10399319-n
-    - derivation:
+    - collocation:
+      - 'argue%2:32:02::'
+      - 'get%2:35:09::'
+      - 'judge%2:41:09::'
+      - 'military_unit%1:14:00::'
+      derivation:
       - opponent%5:00:00:hostile:01
       - 'oppose%2:32:01::'
       id: 'opponent%1:18:00::'
@@ -16264,7 +18507,10 @@ opportuneness:
 opportunism:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'engage%2:41:06::'
+      - 'motivate%2:36:00::'
+      derivation:
       - opportunistic%5:00:00:expedient:00
       - 'opportunist%1:18:00::'
       id: 'opportunism%1:07:00::'
@@ -16306,7 +18552,99 @@ opportunity:
     - value: ˌɑpɚˈtunəti
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'advantage%1:07:01::'
+      - 'allow%2:42:00::'
+      - 'analyze%2:31:00::'
+      - 'arise%2:42:01::'
+      - 'bring%2:35:04::'
+      - 'bring%2:36:00::'
+      - 'business%1:04:00::'
+      - 'capitalize%2:40:00::'
+      - 'career%1:04:01::'
+      - 'cause%2:36:00::'
+      - 'challenge%2:32:00::'
+      - 'challenge%2:32:01::'
+      - 'come%2:30:01::'
+      - 'create%2:36:00::'
+      - 'delight%2:34:00::'
+      - 'deny%2:40:00::'
+      - 'deny%2:40:01::'
+      - 'deprive%2:40:00::'
+      - 'develop%2:30:05::'
+      - 'development%1:22:02::'
+      - 'discard%2:40:00::'
+      - 'duty%1:04:00::'
+      - 'employment%1:26:00::'
+      - 'engage%2:32:00::'
+      - 'enjoy%2:34:01::'
+      - 'enjoy%2:39:00::'
+      - 'equality%1:07:00::'
+      - 'escape%2:30:04::'
+      - 'escape%2:38:00::'
+      - 'exist%2:42:00::'
+      - 'expand%2:30:09::'
+      - 'expect%2:31:01::'
+      - 'exploit%2:34:00::'
+      - 'explore%2:31:02::'
+      - 'find%2:40:02::'
+      - 'get%2:40:00::'
+      - 'get%2:40:14::'
+      - 'give%2:32:07::'
+      - 'give%2:40:05::'
+      - 'grab%2:35:05::'
+      - 'grasp%2:35:00::'
+      - 'happen%2:30:00::'
+      - 'have%2:40:00::'
+      - 'have%2:42:12::'
+      - 'hurt%2:30:04::'
+      - 'identify%2:31:00::'
+      - 'improve%2:30:01::'
+      - 'increase%2:30:02::'
+      - 'investment%1:04:00::'
+      - 'jump%2:33:03::'
+      - 'lack%1:26:00::'
+      - 'learn%2:31:01::'
+      - 'learning%1:09:00::'
+      - 'lend%2:40:01::'
+      - 'limit%2:30:00::'
+      - 'lose%2:40:00::'
+      - 'measure%2:31:01::'
+      - 'miss%2:32:00::'
+      - 'offer%2:31:00::'
+      - 'offer%2:40:10::'
+      - 'open%2:30:00::'
+      - 'open%2:30:01::'
+      - 'window%1:28:00::'
+      - 'pass_up%2:39:00::'
+      - 'photograph%1:06:00::'
+      - 'plenty%1:23:00::'
+      - 'present%2:32:00::'
+      - 'promotion%1:04:00::'
+      - 'prove%2:42:00::'
+      - 'provide%2:41:00::'
+      - 'pursue%2:41:00::'
+      - 'refuse%2:40:00::'
+      - 'run%2:38:04::'
+      - 'see%2:39:13::'
+      - 'seek%2:40:00::'
+      - 'seek%2:41:00::'
+      - 'seize%2:35:00::'
+      - 'spot%2:39:00::'
+      - 'student%1:18:00::'
+      - 'take%2:40:15::'
+      - 'take_up%2:30:00::'
+      - 'tend%2:42:01::'
+      - 'test%2:41:00::'
+      - 'testify%2:32:02::'
+      - 'training%1:04:00::'
+      - 'use%2:41:14::'
+      - 'waste%1:07:00::'
+      - 'waste%2:34:05::'
+      - 'waste%2:40:00::'
+      - 'welcome%2:40:00::'
+      - 'woman%1:14:00::'
+      derivation:
       - 'opportune%3:00:00::'
       id: 'opportunity%1:26:00::'
       synset: 14507501-n
@@ -16332,6 +18670,33 @@ oppose:
     sense:
     - agent:
       - 'opposer%1:18:00::'
+      collocation:
+      - 'abortion%1:04:00::'
+      - 'change%1:04:00::'
+      - 'move%1:04:00::'
+      - 'amendment%1:10:00::'
+      - 'bail%1:09:00::'
+      - 'ban%1:10:00::'
+      - 'bill%1:10:04::'
+      - 'directive%1:10:00::'
+      - 'doctrine%1:09:00::'
+      - 'faction%1:14:00::'
+      - 'government%1:14:00::'
+      - 'idea%1:09:03::'
+      - 'imposition%1:04:02::'
+      - 'motion%1:10:01::'
+      - 'party%1:14:01::'
+      - 'plan%1:09:00::'
+      - 'policy%1:09:00::'
+      - 'policy%1:10:00::'
+      - 'proposal%1:10:00::'
+      - 'recommendation%1:10:02::'
+      - 'request%1:10:01::'
+      - 'treaty%1:10:00::'
+      - 'view%1:09:04::'
+      - 'war%1:26:00::'
+      - 'referendum%1:04:00::'
+      - 'slavery%1:04:01::'
       derivation:
       - opponent%5:00:00:hostile:01
       - 'opposition%1:04:01::'
@@ -16360,7 +18725,9 @@ oppose:
       - vtaa
       - vtai
       synset: 01093838-v
-    - id: 'oppose%2:42:00::'
+    - collocation:
+      - 'lift%1:19:00::'
+      id: 'oppose%2:42:00::'
       subcat:
       - vtaa
       - vtii
@@ -16375,6 +18742,10 @@ oppose:
       synset: 01083545-v
     - agent:
       - 'opposer%1:18:00::'
+      collocation:
+      - 'force%1:19:00::'
+      - 'government%1:14:00::'
+      - 'slavery%1:04:01::'
       derivation:
       - opponent%5:00:00:hostile:01
       - 'opposer%1:18:00::'
@@ -16385,6 +18756,8 @@ oppose:
       synset: 02383714-v
     - agent:
       - 'opposer%1:18:00::'
+      collocation:
+      - 'board%1:14:00::'
       derivation:
       - opponent%5:00:00:hostile:01
       - 'opposer%1:18:00::'
@@ -16502,23 +18875,70 @@ opposition:
     - value: ɑpəˈzɪʃn̩
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'express%2:32:01::'
+      - 'voice%2:32:00::'
+      derivation:
       - 'oppose%2:32:01::'
       id: 'opposition%1:04:01::'
       synset: 00203133-n
-    - id: 'opposition%1:24:02::'
+    - collocation:
+      - 'emerge%2:42:00::'
+      id: 'opposition%1:24:02::'
       synset: 13876846-n
-    - derivation:
+    - collocation:
+      - 'government%1:14:00::'
+      - 'quote%2:32:02::'
+      derivation:
       - 'oppose%2:33:01::'
       id: 'opposition%1:04:00::'
       synset: 01172234-n
-    - id: 'opposition%1:18:01::'
+    - collocation:
+      - 'advantage%1:07:00::'
+      - 'anticipate%2:41:00::'
+      - 'blow%1:04:01::'
+      - 'board%1:06:05::'
+      - 'body%1:08:00::'
+      - 'candidate%1:18:01::'
+      - 'challenge%2:32:00::'
+      - 'combatant%1:18:00::'
+      - 'compete%2:33:00::'
+      - 'contest%1:11:00::'
+      - 'defeat%1:11:00::'
+      - 'deliver%2:40:07::'
+      - 'eliminate%2:33:00::'
+      - 'face%2:33:00::'
+      - 'fight%1:04:02::'
+      - 'fight%1:04:03::'
+      - 'foul%2:33:00::'
+      - 'hit%2:35:01::'
+      - 'indicate%2:32:03::'
+      - 'land%2:38:01::'
+      - 'necessitate%2:42:00::'
+      - 'winner%1:18:00::'
+      - 'outmaneuver%2:33:00::'
+      - 'prevent%2:41:00::'
+      - 'put_out%2:35:01::'
+      - 'sport%1:04:00::'
+      - 'strike%2:35:00::'
+      - 'tackle%2:33:01::'
+      - 'try%2:41:00::'
+      id: 'opposition%1:18:01::'
       synset: 10399319-n
-    - id: 'opposition%1:14:00::'
+    - collocation:
+      - 'boycott%2:41:00::'
+      - 'eliminate%2:42:01::'
+      - 'force%1:14:02::'
+      - 'group%1:03:00::'
+      - 'mention%2:32:02::'
+      - 'rule_out%2:31:00::'
+      id: 'opposition%1:14:00::'
       synset: 08420744-n
     - id: 'opposition%1:24:00::'
       synset: 13851118-n
-    - id: 'opposition%1:18:00::'
+    - collocation:
+      - 'barricade%2:35:00::'
+      id: 'opposition%1:18:00::'
       synset: 10075655-n
 oppositionality:
   n:
@@ -16537,6 +18957,11 @@ oppress:
     sense:
     - agent:
       - 'oppressor%1:18:00::'
+      collocation:
+      - 'government%1:14:00::'
+      - 'resistance%1:04:00::'
+      - 'resistance%1:04:02::'
+      - 'revolution%1:04:00::'
       derivation:
       - oppressive%5:00:00:domineering:00
       - 'oppression%1:04:00::'
@@ -16570,11 +18995,16 @@ oppression:
     pronunciation:
     - value: əˈpɹɛʃən
     sense:
-    - derivation:
+    - collocation:
+      - 'suffer%2:39:01::'
+      derivation:
       - 'oppress%2:41:00::'
       id: 'oppression%1:04:00::'
       synset: 00422042-n
-    - id: 'oppression%1:26:00::'
+    - collocation:
+      - 'confront%2:32:00::'
+      - 'freedom%1:26:00::'
+      id: 'oppression%1:26:00::'
       synset: 14020204-n
     - id: 'oppression%1:12:00::'
       synset: 07554062-n
@@ -16891,7 +19321,9 @@ optical disk:
 optical fiber:
   n:
     sense:
-    - exemplifies:
+    - collocation:
+      - 'cable%1:06:02::'
+      exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'optical_fiber%1:06:00::'
       synset: 03857551-n
@@ -17082,6 +19514,8 @@ optimism:
       synset: 07556946-n
     - antonym:
       - 'pessimism%1:07:00::'
+      collocation:
+      - 'engender%2:36:00::'
       derivation:
       - optimistic%5:00:00:positive:01
       - 'optimistic%3:00:00::'
@@ -17214,11 +19648,42 @@ option:
     - value: ˈɑpʃən
       variety: US
     sense:
-    - id: 'option%1:21:00::'
+    - collocation:
+      - 'buy%2:40:00::'
+      - 'exercise%2:34:00::'
+      - 'have%2:40:00::'
+      - 'share%1:21:01::'
+      - 'prolong%2:30:00::'
+      - 'refuse%2:40:00::'
+      id: 'option%1:21:00::'
       synset: 13262498-n
-    - id: 'option%1:09:00::'
+    - collocation:
+      - 'choose%2:31:00::'
+      - 'choose%2:31:02::'
+      - 'consider%2:39:08::'
+      - 'detect%2:39:00::'
+      - 'disable%2:30:00::'
+      - 'give%2:32:07::'
+      - 'have%2:40:00::'
+      - 'have%2:42:12::'
+      - 'include%2:42:00::'
+      - 'leave%2:42:01::'
+      - 'limit%2:30:00::'
+      - 'number%1:07:00::'
+      - 'offer%2:40:10::'
+      - 'contract%1:10:00::'
+      - 'menu%1:10:01::'
+      - 'range%1:14:00::'
+      - 'refuse%2:32:00::'
+      - 'search%2:35:00::'
+      - 'switch%2:30:02::'
+      - 'treatment%1:04:00::'
+      - 'use%2:34:01::'
+      id: 'option%1:09:00::'
       synset: 05798949-n
-    - derivation:
+    - collocation:
+      - 'exercise%2:34:00::'
+      derivation:
       - 'opt%2:31:00::'
       id: 'option%1:04:00::'
       synset: 00162063-n
@@ -17258,7 +19723,9 @@ optometrist:
 optometry:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'accredit%2:41:00::'
+      derivation:
       - 'optometrist%1:18:00::'
       id: 'optometry%1:04:00::'
       synset: 00633959-n
@@ -17484,7 +19951,10 @@ oral presentation:
 oral sex:
   n:
     sense:
-    - id: 'oral_sex%1:04:00::'
+    - collocation:
+      - 'foreplay%1:04:00::'
+      - 'sexual_activity%1:04:00::'
+      id: 'oral_sex%1:04:00::'
       synset: 00856505-n
 oral smear:
   n:
@@ -17540,7 +20010,18 @@ orange:
     - value: ˈɑɹɪ̈nd͡ʒ
       variety: US
     sense:
-    - id: 'orange%1:13:00::'
+    - collocation:
+      - 'consume%2:34:00::'
+      - 'crush%2:35:00::'
+      - 'eat%2:34:00::'
+      - 'juice%1:13:00::'
+      - 'pip%1:20:00::'
+      - 'segment%1:17:00::'
+      - 'peel%1:13:00::'
+      - 'peel%2:35:00::'
+      - 'rind%1:13:00::'
+      - 'tang%1:07:00::'
+      id: 'orange%1:13:00::'
       synset: 07763583-n
     - derivation:
       - orange%5:00:00:chromatic:00
@@ -17806,7 +20287,10 @@ oration:
     - value: ɔɹˈeɪʃən
       variety: US
     sense:
-    - id: 'oration%1:10:00::'
+    - collocation:
+      - 'deliver%2:32:00::'
+      - 'funeral%1:11:00::'
+      id: 'oration%1:10:00::'
       synset: 07256211-n
 orator:
   n:
@@ -17905,7 +20389,23 @@ orbit:
     - value: ˈɔɹ.bɪt
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'alter%2:36:00::'
+      - 'calculate%2:31:00::'
+      - 'change%2:30:01::'
+      - 'complete%2:30:02::'
+      - 'enter%2:38:00::'
+      - 'make%2:38:10::'
+      - 'body%1:17:00::'
+      - 'earth%1:17:00::'
+      - 'period%1:28:02::'
+      - 'planet%1:17:00::'
+      - 'satellite%1:17:00::'
+      - 'star%1:17:00::'
+      - 'perturb%2:38:00::'
+      - 'put%2:35:00::'
+      - 'send%2:38:01::'
+      derivation:
       - 'orbital%3:01:00::'
       - 'orbit%2:38:00::'
       id: 'orbit%1:15:00::'
@@ -17914,12 +20414,16 @@ orbit:
       synset: 14537641-n
     - id: 'orbit%1:07:00::'
       synset: 05132642-n
-    - derivation:
+    - collocation:
+      - 'perturb%2:38:01::'
+      derivation:
       - 'orbital%3:01:00::'
       - 'orbit%2:38:00::'
       id: 'orbit%1:15:01::'
       synset: 08629897-n
-    - derivation:
+    - collocation:
+      - 'floor%1:17:02::'
+      derivation:
       - 'orbital%3:01:02::'
       id: 'orbit%1:08:00::'
       synset: 05292774-n
@@ -17930,7 +20434,14 @@ orbit:
     - value: ˈɔɹ.bɪt
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'earth%1:17:00::'
+      - 'moon%1:17:01::'
+      - 'planet%1:17:00::'
+      - 'satellite%1:06:00::'
+      - 'spacecraft%1:06:00::'
+      - 'star%1:17:00::'
+      derivation:
       - 'orbit%1:15:01::'
       - 'orbit%1:15:00::'
       - 'orbiter%1:06:00::'
@@ -18030,7 +20541,9 @@ orchard:
     - value: ˈɔɹ.tʃɚd
       variety: US
     sense:
-    - id: 'orchard%1:06:00::'
+    - collocation:
+      - 'apple%1:20:00::'
+      id: 'orchard%1:06:00::'
       synset: 03468764-n
 orchard apple tree:
   n:
@@ -18055,17 +20568,44 @@ orchestra:
     - value: ˈɔːkəstɹə
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'arrange%2:32:04::'
+      - 'arrange%2:36:00::'
+      - 'bridge%1:06:04::'
+      - 'compose%2:36:03::'
+      - 'concert%1:10:00::'
+      - 'conduct%2:36:00::'
+      - 'conduct%2:36:04::'
+      - 'disband%2:38:00::'
+      - 'measure%1:10:00::'
+      - 'musical_arrangement%1:10:00::'
+      - 'musical_instrument%1:06:00::'
+      - 'band%1:14:00::'
+      - 'conductor%1:18:00::'
+      - 'soloist%1:18:00::'
+      - 'youth%1:18:00::'
+      - 'orchestra_pit%1:06:00::'
+      - 'perform%2:36:01::'
+      - 'play%2:36:01::'
+      - 'play_along%2:36:00::'
+      - 'strike_up%2:36:01::'
+      - 'symphony%1:10:00::'
+      - 'tune%2:30:00::'
+      derivation:
       - 'orchestral%3:01:00::'
       - 'orchestrate%2:36:00::'
       id: 'orchestra%1:14:00::'
       synset: 08265078-n
-    - id: 'orchestra%1:06:00::'
+    - collocation:
+      - 'assume%2:38:00::'
+      id: 'orchestra%1:06:00::'
       synset: 03858698-n
 orchestra pit:
   n:
     sense:
-    - id: 'orchestra_pit%1:06:00::'
+    - collocation:
+      - 'orchestra%1:14:00::'
+      id: 'orchestra_pit%1:06:00::'
       synset: 03858811-n
 orchestral:
   a:
@@ -18154,7 +20694,10 @@ orchid:
     - value: ˈɔɹ.kɪd
       variety: US
     sense:
-    - id: 'orchid%1:20:00::'
+    - collocation:
+      - 'pollinate%2:29:00::'
+      - 'species%1:14:00::'
+      id: 'orchid%1:20:00::'
       synset: 12061915-n
 orchid cactus:
   n:
@@ -18233,13 +20776,29 @@ ordain:
     - value: ɔːˈdeɪn
       variety: GB
     sense:
-    - id: 'ordain%2:41:01::'
+    - collocation:
+      - 'measure%1:04:01::'
+      - 'amendment%1:10:00::'
+      - 'constitution%1:10:00::'
+      - 'general_assembly%1:14:00::'
+      - 'measure%1:10:02::'
+      - 'ordinance%1:10:00::'
+      - 'ordinance%1:10:01::'
+      - 'policy%1:10:00::'
+      - 'prohibition%1:10:00::'
+      - 'reform%1:04:01::'
+      id: 'ordain%2:41:01::'
       subcat:
       - via-that
       - vtai
       synset: 02432763-v
     - agent:
       - 'ordainer%1:18:00::'
+      collocation:
+      - 'archbishop%1:18:00::'
+      - 'bishop%1:18:00::'
+      - 'curate%1:18:00::'
+      - 'priest%1:18:00::'
       derivation:
       - 'ordainer%1:18:00::'
       - 'ordinance%1:04:00::'
@@ -18252,6 +20811,8 @@ ordain:
       synset: 02391154-v
     - agent:
       - 'ordainer%1:18:00::'
+      collocation:
+      - 'curate%1:18:00::'
       derivation:
       - 'ordainer%1:18:00::'
       - 'ordinance%1:04:00::'
@@ -18298,9 +20859,21 @@ ordeal:
     - value: ɔɹˈdil
       variety: US
     sense:
-    - id: 'ordeal%1:11:00::'
+    - collocation:
+      - 'confront%2:32:00::'
+      - 'endure%2:31:00::'
+      - 'experience%2:39:01::'
+      - 'recuperate%2:29:00::'
+      - 'spare%2:41:01::'
+      - 'subject%2:39:03::'
+      - 'suffer%2:39:01::'
+      - 'survive%2:42:02::'
+      - 'undergo%2:39:04::'
+      id: 'ordeal%1:11:00::'
       synset: 07302435-n
-    - id: 'ordeal%1:04:00::'
+    - collocation:
+      - 'clear%2:32:00::'
+      id: 'ordeal%1:04:00::'
       synset: 01198967-n
 ordeal bean:
   n:
@@ -18320,7 +20893,36 @@ order:
     - value: ˈɔɹdɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'act%2:29:00::'
+      - 'act%2:41:00::'
+      - 'attack%2:33:00::'
+      - 'bark%2:32:01::'
+      - 'battle%1:04:00::'
+      - 'cancel%2:41:00::'
+      - 'carry_through%2:36:00::'
+      - 'defy%2:42:01::'
+      - 'disobey%2:41:00::'
+      - 'evacuation%1:04:01::'
+      - 'follow%2:30:00::'
+      - 'give%2:40:05::'
+      - 'ignore%2:32:00::'
+      - 'issue%2:32:02::'
+      - 'make%2:36:12::'
+      - 'obey%2:41:00::'
+      - 'force%1:14:00::'
+      - 'man%1:18:08::'
+      - 'probation%1:04:00::'
+      - 'prohibition%1:10:00::'
+      - 'receive%2:30:01::'
+      - 'refuse%2:32:00::'
+      - 'reverse%2:32:00::'
+      - 'separation%1:04:02::'
+      - 'shout_out%2:32:03::'
+      - 'supervision%1:04:00::'
+      - 'take%2:31:09::'
+      - 'transgress%2:41:00::'
+      derivation:
       - 'order%2:32:02::'
       - 'order%2:32:01::'
       id: 'order%1:10:03::'
@@ -18331,12 +20933,34 @@ order:
       synset: 05098520-n
     - antonym:
       - 'disorder%1:26:00::'
+      collocation:
+      - 'bring%2:35:04::'
+      - 'class%1:14:01::'
+      - 'continue%2:42:00::'
+      - 'enforce%2:41:01::'
+      - 'keep%2:42:00::'
+      - 'law%1:14:00::'
+      - 'preservation%1:04:00::'
+      - 'restore%2:41:00::'
+      - 'seek%2:40:00::'
+      - 'world%1:14:02::'
       derivation:
       - 'order%2:41:01::'
       - orderly%5:00:00:tidy:00
       id: 'order%1:26:00::'
       synset: 13991994-n
-    - derivation:
+    - collocation:
+      - 'change%2:30:01::'
+      - 'determine%2:32:03::'
+      - 'jumble%2:36:00::'
+      - 'leave%2:42:02::'
+      - 'birth%1:28:00::'
+      - 'second%1:24:00::'
+      - 'randomness%1:07:00::'
+      - 'reverse%2:30:03::'
+      - 'shuffle%2:35:00::'
+      - 'tidy_up%2:30:00::'
+      derivation:
       - 'order%2:31:01::'
       - 'order%2:30:01::'
       - 'order%2:30:00::'
@@ -18344,34 +20968,80 @@ order:
       synset: 08474004-n
     - antonym:
       - 'disorder%1:26:02::'
+      collocation:
+      - 'repair%1:04:00::'
+      - 'require%2:32:01::'
       id: 'order%1:26:02::'
       synset: 14520294-n
-    - derivation:
+    - collocation:
+      - 'care%1:04:01::'
+      - 'eviction%1:04:00::'
+      - 'follow%2:40:00::'
+      - 'court%1:14:00::'
+      - 'reverse%2:32:00::'
+      derivation:
       - 'order%2:32:02::'
       - 'order%2:32:01::'
       id: 'order%1:10:00::'
       synset: 06551761-n
-    - derivation:
+    - collocation:
+      - 'acquire%2:40:06::'
+      - 'bulk%1:07:00::'
+      - 'export%1:06:00::'
+      - 'form%1:10:01::'
+      - 'mail%1:10:00::'
+      - 'customer%1:18:00::'
+      - 'payment%1:21:00::'
+      - 'purchase%1:04:00::'
+      - 'receive%2:40:00::'
+      derivation:
       - 'order%2:32:00::'
       id: 'order%1:10:01::'
       synset: 06541210-n
-    - derivation:
+    - collocation:
+      - 'bring%2:40:00::'
+      derivation:
       - 'order%2:41:02::'
       id: 'order%1:14:02::'
       synset: 08244135-n
-    - id: 'order%1:10:02::'
+    - collocation:
+      - 'determine%2:32:03::'
+      id: 'order%1:10:02::'
       synset: 06665623-n
-    - id: 'order%1:14:03::'
+    - collocation:
+      - 'belong_to%2:42:00::'
+      - 'confer%2:40:00::'
+      - 'enroll%2:41:00::'
+      id: 'order%1:14:03::'
       synset: 08164801-n
-    - id: 'order%1:14:01::'
+    - collocation:
+      - 'belong_to%2:42:00::'
+      - 'specify%2:42:00::'
+      id: 'order%1:14:01::'
       synset: 08123900-n
-    - derivation:
+    - collocation:
+      - 'cancel%2:41:03::'
+      - 'give%2:40:05::'
+      - 'have%2:42:12::'
+      - 'meet%2:34:00::'
+      - 'beverage%1:13:00::'
+      - 'customer%1:18:00::'
+      - 'place%2:32:01::'
+      - 'restaurant%1:06:00::'
+      - 'satisfy%2:42:00::'
+      - 'take%2:40:05::'
+      derivation:
       - 'order%2:32:00::'
       id: 'order%1:10:04::'
       synset: 07294392-n
     - id: 'order%1:07:00::'
       synset: 04706004-n
-    - derivation:
+    - collocation:
+      - 'arrangement%1:14:00::'
+      - 'ascend%2:42:02::'
+      - 'descend%2:38:00::'
+      - 'tidy_up%2:30:00::'
+      derivation:
       - 'order%2:30:01::'
       - 'order%2:30:00::'
       - 'order%2:32:00::'
@@ -18384,7 +21054,27 @@ order:
     - value: ˈɔɹdɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'ejection%1:04:00::'
+      - 'inquest%1:04:00::'
+      - 'inquiry%1:04:00::'
+      - 'ambassador%1:18:00::'
+      - 'coroner%1:18:00::'
+      - 'court%1:14:00::'
+      - 'curfew%1:10:01::'
+      - 'document%1:10:00::'
+      - 'dwelling%1:06:00::'
+      - 'house%1:06:00::'
+      - 'injunction%1:10:01::'
+      - 'investigation%1:09:00::'
+      - 'judge%1:18:00::'
+      - 'king%1:18:00::'
+      - 'student%1:18:00::'
+      - 'trial%1:04:02::'
+      - 'undertaking%1:04:00::'
+      - 'release%1:04:01::'
+      - 'removal%1:04:00::'
+      derivation:
       - 'order%1:10:00::'
       - 'order%1:10:03::'
       event:
@@ -18403,6 +21093,14 @@ order:
       - 'orderer%1:18:01::'
       by_means_of:
       - 'order%1:10:01::'
+      collocation:
+      - 'food%1:03:00::'
+      - 'appetizer%1:13:00::'
+      - 'beer%1:13:00::'
+      - 'cab%1:06:00::'
+      - 'drink%1:13:04::'
+      - 'menu%1:10:00::'
+      - 'round%1:13:01::'
       derivation:
       - 'order%1:10:01::'
       - 'order%1:04:00::'
@@ -18416,7 +21114,40 @@ order:
       - vtai
       - vtai-from
       synset: 00747485-v
-    - derivation:
+    - collocation:
+      - 'arrest%1:04:00::'
+      - 'extradition%1:04:00::'
+      - 'killing%1:04:00::'
+      - 'acquittal%1:04:00::'
+      - 'armistice%1:26:00::'
+      - 'circumstance%1:26:01::'
+      - 'condition%1:10:02::'
+      - 'conscience%1:16:00::'
+      - 'convention%1:09:00::'
+      - 'crackdown%1:04:00::'
+      - 'custom%1:09:00::'
+      - 'direction%1:10:02::'
+      - 'execution%1:04:00::'
+      - 'exercise%1:04:02::'
+      - 'law%1:10:00::'
+      - 'office%1:04:00::'
+      - 'pace%1:28:00::'
+      - 'pattern%1:15:00::'
+      - 'peace%1:10:00::'
+      - 'pill%1:06:00::'
+      - 'policy%1:09:00::'
+      - 'policy%1:10:00::'
+      - 'regulation%1:10:00::'
+      - 'remedy%1:06:00::'
+      - 'rule%1:09:04::'
+      - 'rule%1:10:00::'
+      - 'sense%1:09:04::'
+      - 'troops%1:14:00::'
+      - 'progress%1:04:00::'
+      - 'retreat%1:04:00::'
+      - 'suspension%1:04:01::'
+      - 'treatment%1:04:00::'
+      derivation:
       - 'order%1:10:00::'
       - 'order%1:10:03::'
       event:
@@ -18428,7 +21159,9 @@ order:
       undergoer:
       - 'order%1:10:00::'
       - 'order%1:10:03::'
-    - derivation:
+    - collocation:
+      - 'government%1:14:00::'
+      derivation:
       - 'order%1:26:00::'
       event:
       - 'order%1:26:00::'
@@ -18444,6 +21177,8 @@ order:
       - 'orderer%1:18:00::'
       antonym:
       - 'disorder%2:30:00::'
+      collocation:
+      - 'list%1:10:00::'
       derivation:
       - 'order%1:14:00::'
       - 'order%1:04:00::'
@@ -18460,6 +21195,8 @@ order:
       synset: 00278429-v
     - agent:
       - 'orderer%1:18:00::'
+      collocation:
+      - 'list%1:10:00::'
       derivation:
       - 'order%1:14:00::'
       - 'order%1:04:00::'
@@ -20374,9 +23111,14 @@ ordinance:
     - value: ˈɔɹd(ɪ)nəns
       variety: US
     sense:
-    - id: 'ordinance%1:10:00::'
+    - collocation:
+      - 'ordain%2:41:01::'
+      id: 'ordinance%1:10:00::'
       synset: 06676796-n
-    - derivation:
+    - collocation:
+      - 'ordain%2:41:01::'
+      - 'government%1:14:00::'
+      derivation:
       - 'ordain%2:32:00::'
       id: 'ordinance%1:10:01::'
       synset: 06577779-n
@@ -20491,11 +23233,17 @@ ordinate:
 ordination:
   n:
     sense:
-    - id: 'ordination%1:26:00::'
+    - collocation:
+      - 'excommunicate%2:32:00::'
+      - 'office%1:04:00::'
+      id: 'ordination%1:26:00::'
       synset: 14455593-n
     - id: 'ordination%1:14:00::'
       synset: 08474004-n
-    - id: 'ordination%1:04:00::'
+    - collocation:
+      - 'confer%2:40:00::'
+      - 'woman%1:18:00::'
+      id: 'ordination%1:04:00::'
       synset: 00166119-n
 ordnance:
   n:
@@ -20533,7 +23281,19 @@ ore:
       variety: GB
     - value: o(ː)ɹ
     sense:
-    - id: 'ore%1:27:00::'
+    - collocation:
+      - 'copper%1:27:00::'
+      - 'deposit%1:17:00::'
+      - 'extract%2:35:07::'
+      - 'iron%1:27:00::'
+      - 'mine%2:34:00::'
+      - 'mineral%1:27:00::'
+      - 'refine%2:30:00::'
+      - 'silver%1:27:00::'
+      - 'smelt%2:36:00::'
+      - 'ton%1:23:02::'
+      - 'uranium%1:27:00::'
+      id: 'ore%1:27:00::'
       synset: 14712661-n
     - id: 'ore%1:23:00::'
       synset: 13704555-n
@@ -20589,19 +23349,61 @@ organ:
     - value: ˈɔː.ɡən
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'apparatus%1:08:00::'
+      - 'area%1:08:00::'
+      - 'body%1:08:00::'
+      - 'conserve%2:40:02::'
+      - 'cut%1:04:02::'
+      - 'diagnosis%1:04:00::'
+      - 'donate%2:40:00::'
+      - 'function%2:33:00::'
+      - 'operate_on%2:29:00::'
+      - 'cut%1:26:00::'
+      - 'donation%1:21:00::'
+      - 'donor%1:18:01::'
+      - 'flower%1:20:02::'
+      - 'lung%1:08:00::'
+      - 'sense%1:09:02::'
+      - 'testis%1:08:00::'
+      - 'unit%1:24:00::'
+      - 'wound%1:26:00::'
+      - 'passage%1:08:00::'
+      - 'piece%1:06:05::'
+      - 'serve%2:42:03::'
+      - 'sex%1:07:00::'
+      - 'skin%1:08:00::'
+      - 'transplant%2:35:00::'
+      - 'transplantation%1:04:02::'
+      derivation:
       - 'organic%3:00:00::'
       id: 'organ%1:08:00::'
       synset: 05305022-n
-    - id: 'organ%1:14:00::'
+    - collocation:
+      - 'function%1:07:00::'
+      - 'government%1:14:00::'
+      - 'instrument%1:04:00::'
+      id: 'organ%1:14:00::'
       synset: 08366277-n
-    - derivation:
+    - collocation:
+      - 'simulation%1:09:00::'
+      derivation:
       - 'organist%1:18:00::'
       id: 'organ%1:06:01::'
       synset: 03278462-n
-    - id: 'organ%1:10:00::'
+    - collocation:
+      - 'interest%1:14:00::'
+      - 'party%1:14:01::'
+      - 'print%2:36:02::'
+      id: 'organ%1:10:00::'
       synset: 06607260-n
-    - derivation:
+    - collocation:
+      - 'music%1:09:01::'
+      - 'organ_pipe%1:06:00::'
+      - 'pedal%1:06:00::'
+      - 'stop%1:06:03::'
+      - 'play%2:36:01::'
+      derivation:
       - 'organist%1:18:00::'
       id: 'organ%1:06:00::'
       synset: 03859585-n
@@ -20637,7 +23439,9 @@ organ of speech:
 organ pipe:
   n:
     sense:
-    - id: 'organ_pipe%1:06:00::'
+    - collocation:
+      - 'organ%1:06:00::'
+      id: 'organ_pipe%1:06:00::'
       synset: 03860335-n
 organ stop:
   n:
@@ -20731,7 +23535,10 @@ organic chemistry:
 organic compound:
   n:
     sense:
-    - id: 'organic_compound%1:27:00::'
+    - collocation:
+      - 'alcohol%1:27:00::'
+      - 'chlorinate%2:30:00::'
+      id: 'organic_compound%1:27:00::'
       synset: 14751849-n
 organic disorder:
   n:
@@ -20758,7 +23565,10 @@ organic fertilizer:
 organic law:
   n:
     sense:
-    - id: 'organic_law%1:10:00::'
+    - collocation:
+      - 'sign%2:41:00::'
+      - 'stipulate%2:32:00::'
+      id: 'organic_law%1:10:00::'
       synset: 06545639-n
 organic light-emitting diode:
   n:
@@ -20835,7 +23645,9 @@ organisation:
       - 'australian_spelling%1:10:01::'
       id: 'organisation%1:14:01::'
       synset: 08181484-n
-    - derivation:
+    - collocation:
+      - 'welfare%1:07:00::'
+      derivation:
       - 'organise%2:41:02::'
       - 'organise%2:41:01::'
       - 'organise%2:36:00::'
@@ -20953,6 +23765,9 @@ organise:
       synset: 02439085-v
     - antonym:
       - 'disorganise%2:41:00::'
+      collocation:
+      - 'festival%1:04:00::'
+      - 'seminar%1:14:00::'
       derivation:
       - 'organisation%1:14:01::'
       - 'organisation%1:07:00::'
@@ -20973,7 +23788,11 @@ organise:
       - vtai
       - vtii
       synset: 02437377-v
-    - derivation:
+    - collocation:
+      - 'competition%1:04:00::'
+      - 'launching%1:04:00::'
+      - 'committee%1:14:01::'
+      derivation:
       - 'organisation%1:14:00::'
       - 'organisation%1:04:02::'
       event:
@@ -21025,7 +23844,14 @@ organism:
     - value: ˈɔɹ.ɡən.ɪ.zəm
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'be%2:42:01::'
+      - 'cause%2:36:00::'
+      - 'food%1:03:00::'
+      - 'harm%2:29:00::'
+      - 'piece%1:06:05::'
+      - 'produce%2:36:03::'
+      derivation:
       - 'organismic%3:01:00::'
       - 'organic%3:00:02::'
       - 'organic%3:00:00::'
@@ -21056,7 +23882,9 @@ organismic:
 organist:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'stop%1:06:03::'
+      derivation:
       - 'organ%1:06:02::'
       - 'organ%1:06:01::'
       - 'organ%1:06:00::'
@@ -21072,7 +23900,60 @@ organization:
     - value: ˌɔɹɡənaɪˈzeɪʃən
       variety: CA
     sense:
-    - derivation:
+    - collocation:
+      - 'action%1:04:04::'
+      - 'aspire%2:31:00::'
+      - 'blood%1:14:01::'
+      - 'concern%2:42:01::'
+      - 'conservation%1:04:00::'
+      - 'disband%2:38:01::'
+      - 'engage%2:41:12::'
+      - 'establish%2:36:00::'
+      - 'exist%2:42:00::'
+      - 'fabrication%1:04:00::'
+      - 'give%2:32:03::'
+      - 'join%2:41:00::'
+      - 'letter%1:10:00::'
+      - 'line%1:06:05::'
+      - 'monitoring%1:04:00::'
+      - 'number%1:07:00::'
+      - 'address%1:15:00::'
+      - 'army%1:14:00::'
+      - 'business%1:14:00::'
+      - 'charity%1:14:00::'
+      - 'committee%1:14:01::'
+      - 'community%1:14:00::'
+      - 'consumer%1:18:00::'
+      - 'department%1:14:00::'
+      - 'disability%1:26:00::'
+      - 'government%1:14:00::'
+      - 'guerrilla%1:18:00::'
+      - 'health%1:26:00::'
+      - 'member%1:14:00::'
+      - 'member%1:18:00::'
+      - 'navy%1:14:00::'
+      - 'partner%1:18:02::'
+      - 'politician%1:18:02::'
+      - 'president%1:18:03::'
+      - 'refugee%1:18:00::'
+      - 'secretary%1:18:00::'
+      - 'student%1:18:00::'
+      - 'terrorist%1:18:00::'
+      - 'tourist%1:18:00::'
+      - 'union%1:14:01::'
+      - 'watchdog%1:18:00::'
+      - 'woman%1:14:00::'
+      - 'position%1:04:01::'
+      - 'prosecute%2:41:02::'
+      - 'relief%1:04:02::'
+      - 'represent%2:41:00::'
+      - 'research%1:04:00::'
+      - 'sector%1:14:00::'
+      - 'trade%1:04:05::'
+      - 'transportation%1:04:01::'
+      - 'work%2:41:00::'
+      - 'youth%1:14:00::'
+      derivation:
       - 'organize%2:41:02::'
       - 'organize%2:41:01::'
       - 'organize%2:36:00::'
@@ -21080,13 +23961,23 @@ organization:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:14:00::'
       synset: 08024893-n
-    - derivation:
+    - collocation:
+      - 'exist%2:42:00::'
+      - 'form%1:10:02::'
+      derivation:
       - 'organize%2:30:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:09:00::'
       synset: 05734541-n
-    - derivation:
+    - collocation:
+      - 'establish%2:36:00::'
+      - 'exist%2:42:00::'
+      - 'form%2:41:00::'
+      - 'member%1:18:00::'
+      - 'sector%1:14:00::'
+      - 'umbrella%1:04:01::'
+      derivation:
       - 'organize%2:41:01::'
       - 'organize%2:41:00::'
       - 'organize%2:31:00::'
@@ -21095,7 +23986,9 @@ organization:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:14:01::'
       synset: 08181484-n
-    - derivation:
+    - collocation:
+      - 'society%1:14:00::'
+      derivation:
       - 'organize%2:41:01::'
       - 'organize%2:41:00::'
       - 'organize%2:36:00::'
@@ -21105,13 +23998,17 @@ organization:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:04:00::'
       synset: 01138840-n
-    - derivation:
+    - collocation:
+      - 'miss%2:42:00::'
+      derivation:
       - 'organize%2:30:00::'
       exemplifies:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:07:00::'
       synset: 04775896-n
-    - derivation:
+    - collocation:
+      - 'arrangement%1:14:00::'
+      derivation:
       - 'organize%2:41:00::'
       - 'organize%2:31:00::'
       - 'organize%2:30:00::'
@@ -21119,7 +24016,10 @@ organization:
       - 'american_spelling%1:10:01::'
       id: 'organization%1:04:01::'
       synset: 01010320-n
-    - derivation:
+    - collocation:
+      - 'party%1:14:01::'
+      - 'support%2:41:01::'
+      derivation:
       - 'organize%2:41:02::'
       - 'organize%2:41:01::'
       - 'organize%2:41:00::'
@@ -21166,7 +24066,9 @@ organize:
     - value: ˈɔːɡənaɪz
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'conference%1:14:01::'
+      derivation:
       - 'organization%1:14:01::'
       - 'organization%1:14:00::'
       - 'organization%1:04:02::'
@@ -21188,6 +24090,34 @@ organize:
       synset: 02453050-v
     - antonym:
       - 'disorganize%2:41:00::'
+      collocation:
+      - 'campaign%1:04:02::'
+      - 'collection%1:04:00::'
+      - 'distribution%1:04:00::'
+      - 'excursion%1:04:00::'
+      - 'expedition%1:04:00::'
+      - 'industry%1:04:00::'
+      - 'concert%1:10:00::'
+      - 'conference%1:14:00::'
+      - 'congress%1:14:00::'
+      - 'convention%1:14:00::'
+      - 'database%1:10:00::'
+      - 'fair%1:14:01::'
+      - 'idea%1:09:03::'
+      - 'information%1:14:00::'
+      - 'meeting%1:14:00::'
+      - 'party%1:11:00::'
+      - 'plan%1:09:00::'
+      - 'press_conference%1:10:00::'
+      - 'quiz%1:10:00::'
+      - 'race%1:11:00::'
+      - 'scheme%1:09:00::'
+      - 'tournament%1:11:00::'
+      - 'visit%1:14:00::'
+      - 'raffle%1:04:00::'
+      - 'referendum%1:04:00::'
+      - 'vote%1:04:00::'
+      - 'workshop%1:04:00::'
       derivation:
       - 'organization%1:14:01::'
       - 'organization%1:04:02::'
@@ -21227,6 +24157,8 @@ organize:
     - agent:
       - 'organizer%1:18:00::'
       - 'organization%1:14:01::'
+      collocation:
+      - 'collection%1:14:00::'
       derivation:
       - 'organizer%1:18:00::'
       - 'organizer%1:06:00::'
@@ -21254,6 +24186,38 @@ organize:
       synset: 00405549-v
     - agent:
       - 'organization%1:14:00::'
+      collocation:
+      - 'ambush%1:04:00::'
+      - 'assembly%1:04:00::'
+      - 'defense%1:04:01::'
+      - 'demonstration%1:04:00::'
+      - 'demonstration%1:04:01::'
+      - 'event%1:03:00::'
+      - 'agenda%1:09:00::'
+      - 'alphabet%1:10:00::'
+      - 'appeal%1:10:02::'
+      - 'classification_system%1:09:00::'
+      - 'concert%1:10:00::'
+      - 'conference%1:14:00::'
+      - 'constellation%1:17:00::'
+      - 'course_of_study%1:10:00::'
+      - 'enterprise%1:07:00::'
+      - 'event%1:26:00::'
+      - 'exhibition%1:14:00::'
+      - 'march%1:14:00::'
+      - 'orthography%1:10:00::'
+      - 'plot%1:09:00::'
+      - 'rally%1:11:01::'
+      - 'rally%1:14:00::'
+      - 'reception%1:14:00::'
+      - 'request%1:10:01::'
+      - 'tactic%1:09:00::'
+      - 'tournament%1:11:00::'
+      - 'treaty%1:10:00::'
+      - 'protest%1:04:00::'
+      - 'reunion%1:04:00::'
+      - 'strike%1:04:00::'
+      - 'trip%1:04:00::'
       derivation:
       - 'organization%1:14:00::'
       - 'organization%1:04:02::'
@@ -21304,7 +24268,10 @@ organized:
 organized crime:
   n:
     sense:
-    - id: 'organized_crime%1:14:00::'
+    - collocation:
+      - 'murder%1:04:00::'
+      - 'criminal%1:18:00::'
+      id: 'organized_crime%1:14:00::'
       synset: 08262093-n
 organized labor:
   n:
@@ -21322,7 +24289,15 @@ organizer:
     - value: ˈɔɹɡənaɪzɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'attendance%1:04:00::'
+      - 'conference%1:14:00::'
+      - 'festival%1:04:00::'
+      - 'invite%2:32:01::'
+      - 'meeting%1:14:00::'
+      - 'race%1:11:00::'
+      - 'tournament%1:11:00::'
+      derivation:
       - 'organize%2:30:00::'
       id: 'organizer%1:18:00::'
       synset: 10402936-n
@@ -21378,7 +24353,11 @@ orgasm:
     - value: ˈɔɹ.ɡæz.əm
       variety: US
     sense:
-    - id: 'orgasm%1:04:00::'
+    - collocation:
+      - 'experience%2:39:00::'
+      - 'manipulate%2:41:01::'
+      - 'simulate%2:36:00::'
+      id: 'orgasm%1:04:00::'
       synset: 00062953-n
 orgiastic:
   a:
@@ -21408,7 +24387,10 @@ orgy:
       - orgiastic%5:00:00:intoxicated:00
       id: 'orgy%1:04:00::'
       synset: 01032312-n
-    - derivation:
+    - collocation:
+      - 'hold%2:36:00::'
+      - 'sex%1:04:00::'
+      derivation:
       - orgiastic%5:00:00:sexy:00
       - orgiastic%5:00:00:intoxicated:00
       id: 'orgy%1:04:02::'
@@ -21442,7 +24424,9 @@ orient:
     - value: ˈɔ.ɹi.ənt
       variety: US
     sense:
-    - id: 'orient%2:42:00::'
+    - collocation:
+      - 'nose%1:08:00::'
+      id: 'orient%2:42:00::'
       subcat:
       - vii-pp
       synset: 02719059-v
@@ -21603,9 +24587,15 @@ orientation:
     sense:
     - id: 'orientation%1:04:00::'
       synset: 01054296-n
-    - id: 'orientation%1:09:00::'
+    - collocation:
+      - 'breadth%1:09:00::'
+      - 'nation%1:14:01::'
+      - 'state%1:15:01::'
+      id: 'orientation%1:09:00::'
       synset: 06217756-n
-    - id: 'orientation%1:24:00::'
+    - collocation:
+      - 'turn%2:30:00::'
+      id: 'orientation%1:24:00::'
       synset: 13850288-n
     - id: 'orientation%1:09:02::'
       synset: 06210079-n
@@ -21676,23 +24666,45 @@ origin:
     - value: ˈɔɹ.ɪ.dʒɪn
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'trace%2:39:00::'
+      derivation:
       - 'originate%2:42:02::'
       id: 'origin%1:15:00::'
       synset: 08524579-n
-    - id: 'origin%1:07:00::'
+    - collocation:
+      - 'reflect%2:32:00::'
+      id: 'origin%1:07:00::'
       synset: 04930920-n
-    - derivation:
+    - collocation:
+      - 'life%1:19:00::'
+      derivation:
       - 'originate%2:42:02::'
       - 'originate%2:42:00::'
       - 'originate%2:36:00::'
       id: 'origin%1:11:00::'
       synset: 07338522-n
-    - id: 'origin%1:09:00::'
+    - collocation:
+      - 'zero%1:23:01::'
+      id: 'origin%1:09:00::'
       synset: 06018435-n
-    - id: 'origin%1:22:00::'
+    - collocation:
+      - 'betray%2:32:01::'
+      - 'explain%2:32:00::'
+      - 'go_back%2:42:00::'
+      - 'have%2:40:00::'
+      - 'investigate%2:32:00::'
+      - 'lie%2:42:01::'
+      - 'owe%2:42:00::'
+      - 'share%2:42:00::'
+      - 'species%1:14:00::'
+      - 'suggest%2:32:02::'
+      - 'trace%2:39:00::'
+      id: 'origin%1:22:00::'
       synset: 13580380-n
-    - id: 'origin%1:14:00::'
+    - collocation:
+      - 'family%1:14:01::'
+      id: 'origin%1:14:00::'
       synset: 08118903-n
 original:
   a:
@@ -21724,7 +24736,9 @@ original:
       - 'original%3:00:00::'
       id: 'original%1:06:00::'
       synset: 03732765-n
-    - derivation:
+    - collocation:
+      - 'model%2:36:02::'
+      derivation:
       - original%5:00:00:underived:00
       id: 'original%1:09:00::'
       synset: 05947118-n
@@ -21749,6 +24763,13 @@ originality:
       synset: 05642458-n
     - antonym:
       - 'unoriginality%1:07:00::'
+      collocation:
+      - 'exhibit%2:39:01::'
+      - 'have%2:40:00::'
+      - 'lie%2:42:01::'
+      - 'miss%2:42:00::'
+      - 'genius%1:18:00::'
+      - 'prove%2:32:00::'
       derivation:
       - 'original%3:00:00::'
       id: 'originality%1:07:00::'
@@ -21771,7 +24792,28 @@ originate:
     pronunciation:
     - value: əˈɹɪdʒɪneɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'competition%1:04:00::'
+      - 'custom%1:09:00::'
+      - 'discussion%1:10:00::'
+      - 'equation%1:10:00::'
+      - 'head%1:15:01::'
+      - 'life%1:19:00::'
+      - 'love%1:12:00::'
+      - 'mutation%1:11:00::'
+      - 'religion%1:14:00::'
+      - 'resonance%1:24:00::'
+      - 'rock%1:10:01::'
+      - 'row%1:10:00::'
+      - 'sentiment%1:12:00::'
+      - 'suspicion%1:09:00::'
+      - 'tendency%1:15:00::'
+      - 'terror%1:12:00::'
+      - 'tumor%1:26:00::'
+      - 'vehicle%1:06:00::'
+      - 'weed%1:20:00::'
+      - 'phenomenon%1:03:00::'
+      derivation:
       - originative%5:00:00:original:00
       - 'origin%1:11:00::'
       - 'origination%1:11:00::'
@@ -21787,6 +24829,19 @@ originate:
       - 'originator%1:18:00::'
       also:
       - 'originate_in%2:42:00::'
+      collocation:
+      - 'base%1:06:04::'
+      - 'council%1:14:00::'
+      - 'custom%1:09:00::'
+      - 'fashion%1:09:00::'
+      - 'foundation%1:06:00::'
+      - 'fund%1:21:00::'
+      - 'inquiry%1:09:01::'
+      - 'league%1:14:01::'
+      - 'riot%1:26:00::'
+      - 'rumor%1:10:00::'
+      - 'scheme%1:09:00::'
+      - 'trend%1:09:02::'
       derivation:
       - 'originative%3:00:00::'
       - 'origin%1:11:00::'
@@ -22131,7 +25186,9 @@ orogeny:
     - value: ɒˈɹɒdʒɪni
       variety: GB
     sense:
-    - id: 'orogeny%1:22:00::'
+    - collocation:
+      - 'deform%2:30:00::'
+      id: 'orogeny%1:22:00::'
       synset: 13549020-n
 orograph:
   n:
@@ -22191,7 +25248,15 @@ orphan:
     - value: ˈɔɹfən
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'adopt%2:30:00::'
+      - 'befriend%2:41:00::'
+      - 'daughter%1:18:00::'
+      - 'family%1:14:02::'
+      - 'leave%2:31:05::'
+      - 'male_child%1:18:00::'
+      - 'take%2:40:00::'
+      derivation:
       - 'orphan%2:40:00::'
       id: 'orphan%1:18:00::'
       synset: 10404091-n
@@ -22229,7 +25294,9 @@ orphanage:
     pronunciation:
     - value: ˈɔː(ɹ)fənɪd͡ʒ
     sense:
-    - derivation:
+    - collocation:
+      - 'child%1:18:01::'
+      derivation:
       - 'orphan%2:40:00::'
       id: 'orphanage%1:26:00::'
       synset: 14594762-n
@@ -22421,6 +25488,8 @@ orthodoxy:
       synset: 04808562-n
     - antonym:
       - 'unorthodoxy%1:09:00::'
+      collocation:
+      - 'dominate%2:42:00::'
       id: 'orthodoxy%1:09:00::'
       synset: 06221546-n
 orthoepist:
@@ -22469,9 +25538,13 @@ orthogonal opposition:
 orthogonality:
   n:
     sense:
-    - id: 'orthogonality%1:24:00::'
+    - collocation:
+      - 'angle%1:25:00::'
+      id: 'orthogonality%1:24:00::'
       synset: 13851260-n
-    - derivation:
+    - collocation:
+      - 'angle%1:25:00::'
+      derivation:
       - orthogonal%5:00:00:perpendicular:00
       id: 'orthogonality%1:07:00::'
       synset: 05079247-n
@@ -22497,7 +25570,10 @@ orthography:
     - value: ɔɹˈθɑɡ.ɹə.fi
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'organize%2:36:00::'
+      - 'alphabet%1:10:00::'
+      derivation:
       - 'orthographic%3:01:00::'
       id: 'orthography%1:10:00::'
       synset: 06362609-n
@@ -22883,7 +25959,9 @@ oscillating:
 oscillation:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'dampen%2:30:00::'
+      derivation:
       - 'oscillate%2:42:00::'
       id: 'oscillation%1:22:00::'
       synset: 13549168-n
@@ -22898,7 +25976,9 @@ oscillation:
 oscillator:
   n:
     sense:
-    - id: 'oscillator%1:06:00::'
+    - collocation:
+      - 'damp%2:30:00::'
+      id: 'oscillator%1:06:00::'
       synset: 03862950-n
 oscillatory:
   a:
@@ -23991,7 +27071,9 @@ ouguiya:
 ounce:
   n:
     sense:
-    - id: 'ounce%1:23:02::'
+    - collocation:
+      - 'gold%1:27:00::'
+      id: 'ounce%1:23:02::'
       synset: 13744627-n
     - id: 'ounce%1:23:01::'
       synset: 13742027-n
@@ -24012,6 +27094,12 @@ oust:
     sense:
     - agent:
       - 'ouster%1:18:00::'
+      collocation:
+      - 'government%1:14:00::'
+      - 'office%1:26:00::'
+      - 'party%1:14:01::'
+      - 'president%1:18:03::'
+      - 'position%1:04:01::'
       derivation:
       - 'ouster%1:18:00::'
       - 'ousting%1:04:00::'
@@ -24531,7 +27619,17 @@ outbreak:
     pronunciation:
     - value: ˈaʊtbɹeɪk
     sense:
-    - id: 'outbreak%1:11:00::'
+    - collocation:
+      - 'hostility%1:04:00::'
+      - 'interrupt%2:30:00::'
+      - 'interrupt%2:30:04::'
+      - 'interrupt%2:32:00::'
+      - 'lead%2:42:12::'
+      - 'occur%2:30:00::'
+      - 'cholera%1:26:00::'
+      - 'violence%1:26:00::'
+      - 'war%1:04:00::'
+      id: 'outbreak%1:11:00::'
       synset: 07449873-n
 outbred:
   a:
@@ -24578,7 +27676,10 @@ outcast:
       synset: 02538635-s
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'make%2:30:00::'
+      - 'treat%2:31:00::'
+      derivation:
       - outcast%5:00:00:unwanted:00
       id: 'outcast%1:18:00::'
       synset: 10406011-n
@@ -24618,16 +27719,31 @@ outcome:
     pronunciation:
     - value: ˈaʊtkʌm
     sense:
-    - id: 'outcome%1:11:00::'
+    - collocation:
+      - 'await%2:31:00::'
+      - 'determine%2:32:01::'
+      - 'predict%2:32:00::'
+      id: 'outcome%1:11:00::'
       synset: 07307418-n
-    - id: 'outcome%1:19:00::'
+    - collocation:
+      - 'affect%2:30:00::'
+      - 'improve%2:30:00::'
+      - 'improve%2:30:01::'
+      - 'influence%2:41:00::'
+      - 'learning%1:09:00::'
+      - 'predict%2:32:00::'
+      id: 'outcome%1:19:00::'
       synset: 11430739-n
 outcrop:
   n:
     pronunciation:
     - value: ˈaʊt.kɹɑp
     sense:
-    - derivation:
+    - collocation:
+      - 'granite%1:27:00::'
+      - 'limestone%1:27:00::'
+      - 'rock%1:17:01::'
+      derivation:
       - 'outcrop%2:30:00::'
       id: 'outcrop%1:17:00::'
       synset: 09404154-n
@@ -24660,7 +27776,10 @@ outcry:
     pronunciation:
     - value: ˈaʊtkɹaɪ
     sense:
-    - derivation:
+    - collocation:
+      - 'arouse%2:37:00::'
+      - 'trigger%2:36:00::'
+      derivation:
       - 'outcry%2:33:00::'
       id: 'outcry%1:10:00::'
       synset: 07135232-n
@@ -24769,7 +27888,9 @@ outdoors:
     pronunciation:
     - value: aʊtˈdɔː(ɹ)z
     sense:
-    - derivation:
+    - collocation:
+      - 'eat%2:34:01::'
+      derivation:
       - outdoorsy%5:00:00:outdoor:00
       id: 'outdoors%1:15:00::'
       synset: 08631308-n
@@ -24873,7 +27994,16 @@ outer space:
     - value: ˌaʊtɚ ˈspeɪs
       variety: US
     sense:
-    - id: 'outer_space%1:15:00::'
+    - collocation:
+      - 'enter%2:38:00::'
+      - 'environment%1:26:00::'
+      - 'life%1:19:00::'
+      - 'probe%1:04:00::'
+      - 'rocket%1:06:01::'
+      - 'station%1:06:00::'
+      - 'travel%1:04:00::'
+      - 'vehicle%1:06:00::'
+      id: 'outer_space%1:15:00::'
       synset: 08517454-n
 outercourse:
   n:
@@ -24893,7 +28023,9 @@ outermost:
 outerwear:
   n:
     sense:
-    - id: 'outerwear%1:06:00::'
+    - collocation:
+      - 'apparel%1:06:00::'
+      id: 'outerwear%1:06:00::'
       synset: 03865015-n
 outface:
   v:
@@ -24915,6 +28047,8 @@ outfield:
     sense:
     - antonym:
       - 'infield%1:06:00::'
+      collocation:
+      - 'fly%1:04:00::'
       derivation:
       - 'outfielder%1:18:00::'
       id: 'outfield%1:06:00::'
@@ -24949,7 +28083,10 @@ outfit:
     sense:
     - id: 'outfit%1:14:00::'
       synset: 08291747-n
-    - derivation:
+    - collocation:
+      - 'wear%2:29:01::'
+      - 'wedding%1:04:00::'
+      derivation:
       - 'outfit%2:40:00::'
       id: 'outfit%1:06:01::'
       synset: 03865478-n
@@ -25024,6 +28161,9 @@ outflow:
       synset: 07451261-n
     - antonym:
       - 'inflow%1:22:00::'
+      collocation:
+      - 'capital%1:21:01::'
+      - 'cash%1:21:00::'
       id: 'outflow%1:22:00::'
       synset: 13550498-n
     - id: 'outflow%1:17:00::'
@@ -25131,7 +28271,9 @@ outgrowth:
     pronunciation:
     - value: ˈaʊtˌɡroʊθ
     sense:
-    - id: 'outgrowth%1:19:00::'
+    - collocation:
+      - 'development%1:22:01::'
+      id: 'outgrowth%1:19:00::'
       synset: 11435835-n
     - id: 'outgrowth%1:11:00::'
       synset: 07339273-n
@@ -25157,7 +28299,9 @@ outing:
     sense:
     - id: 'outing%1:04:00::'
       synset: 00312635-n
-    - id: 'outing%1:28:00::'
+    - collocation:
+      - 'go_for%2:37:00::'
+      id: 'outing%1:28:00::'
       synset: 15163651-n
 outlander:
   n:
@@ -25232,6 +28376,10 @@ outlaw:
     - antonym:
       - 'legalize%2:41:00::'
       - 'legalise%2:41:00::'
+      collocation:
+      - 'campaign%1:04:02::'
+      - 'discrimination%1:04:00::'
+      - 'practice%1:04:00::'
       derivation:
       - 'outlawry%1:07:00::'
       - 'outlaw%1:18:00::'
@@ -25268,7 +28416,9 @@ outlet:
     pronunciation:
     - value: ˈaʊtlɛt
     sense:
-    - id: 'outlet%1:06:01::'
+    - collocation:
+      - 'food%1:03:00::'
+      id: 'outlet%1:06:01::'
       synset: 03753653-n
     - id: 'outlet%1:06:02::'
       synset: 04556057-n
@@ -25295,15 +28445,39 @@ outline:
     pronunciation:
     - value: ˈaʊtlaɪn
     sense:
-    - derivation:
+    - collocation:
+      - 'drawing%1:06:00::'
+      - 'make%2:36:12::'
+      - 'map%1:06:00::'
+      - 'coast%1:17:00::'
+      - 'figure%1:25:00::'
+      - 'see%2:39:00::'
+      - 'soften%2:39:00::'
+      - 'spot%2:39:02::'
+      - 'trace%2:35:00::'
+      derivation:
       - 'outline%2:36:01::'
       id: 'outline%1:15:00::'
       synset: 08630343-n
-    - derivation:
+    - collocation:
+      - 'article%1:10:00::'
+      - 'give%2:40:00::'
+      - 'argument%1:10:02::'
+      - 'form%1:10:02::'
+      - 'supply%2:40:00::'
+      - 'write%2:32:00::'
+      derivation:
       - 'outline%2:32:00::'
       id: 'outline%1:10:00::'
       synset: 06480622-n
-    - derivation:
+    - collocation:
+      - 'approve%2:32:00::'
+      - 'color%1:07:00::'
+      - 'construction%1:04:00::'
+      - 'embrace%2:42:00::'
+      - 'road%1:06:00::'
+      - 'trace%2:35:00::'
+      derivation:
       - 'outline%2:36:03::'
       id: 'outline%1:09:00::'
       synset: 05900179-n
@@ -25311,7 +28485,11 @@ outline:
     pronunciation:
     - value: ˈaʊtlaɪn
     sense:
-    - derivation:
+    - collocation:
+      - 'extent%1:26:00::'
+      - 'plan%1:09:00::'
+      - 'timetable%1:10:01::'
+      derivation:
       - 'outline%1:10:00::'
       id: 'outline%2:32:00::'
       result:
@@ -25360,7 +28538,10 @@ outlook:
     pronunciation:
     - value: ˈaʊtˌlʊk
     sense:
-    - id: 'outlook%1:09:01::'
+    - collocation:
+      - 'breadth%1:09:00::'
+      - 'widen%2:30:01::'
+      id: 'outlook%1:09:01::'
       synset: 06205574-n
     - id: 'outlook%1:09:00::'
       synset: 05953807-n
@@ -25375,7 +28556,9 @@ outlying:
 outmaneuver:
   v:
     sense:
-    - id: 'outmaneuver%2:33:00::'
+    - collocation:
+      - 'opposition%1:18:01::'
+      id: 'outmaneuver%2:33:00::'
       sent:
       - The fighter managed to outmaneuver his opponent
       subcat:
@@ -25457,12 +28640,19 @@ outpatient:
     sense:
     - antonym:
       - 'inpatient%1:18:00::'
+      collocation:
+      - 'clinic%1:06:00::'
+      - 'hospital%1:06:00::'
       id: 'outpatient%1:18:00::'
       synset: 10407635-n
 outperform:
   v:
     sense:
-    - id: 'outperform%2:33:00::'
+    - collocation:
+      - 'descriptor%1:09:00::'
+      - 'hedge_fund%1:14:00::'
+      - 'index_fund%1:14:00::'
+      id: 'outperform%2:33:00::'
       subcat:
       - vtaa
       - vtai
@@ -25505,11 +28695,15 @@ outpost:
     - value: ˈaʊtˌpoʊst
       variety: US
     sense:
-    - id: 'outpost%1:15:00::'
+    - collocation:
+      - 'assault%2:33:00::'
+      id: 'outpost%1:15:00::'
       synset: 08631560-n
     - id: 'outpost%1:14:00::'
       synset: 08391580-n
-    - id: 'outpost%1:06:00::'
+    - collocation:
+      - 'attack%2:33:00::'
+      id: 'outpost%1:06:00::'
       synset: 03866261-n
 outpouring:
   n:
@@ -25529,19 +28723,48 @@ output:
     pronunciation:
     - value: ˈaʊtpʊt
     sense:
-    - derivation:
+    - collocation:
+      - 'drive%2:34:07::'
+      - 'drive%2:38:09::'
+      - 'drive%2:41:02::'
+      - 'hope%2:37:01::'
+      derivation:
       - 'output%2:36:00::'
       id: 'output%1:06:00::'
       synset: 03292089-n
-    - derivation:
+    - collocation:
+      - 'boost%2:30:00::'
+      - 'increase%1:07:00::'
+      - 'level%1:07:00::'
+      - 'produce%2:36:02::'
+      - 'urine%1:27:00::'
+      - 'voltage%1:19:01::'
+      derivation:
       - 'output%2:36:00::'
       id: 'output%1:04:00::'
       synset: 00916463-n
-    - id: 'output%1:10:02::'
+    - collocation:
+      - 'input%1:10:00::'
+      id: 'output%1:10:02::'
       synset: 07279593-n
-    - id: 'output%1:23:00::'
+    - collocation:
+      - 'double%2:30:00::'
+      - 'drop%1:07:00::'
+      - 'energy%1:19:00::'
+      - 'grain%1:20:00::'
+      - 'increase%1:07:00::'
+      - 'increase%2:30:00::'
+      - 'increase%2:30:02::'
+      - 'level%1:07:00::'
+      - 'power%1:19:00::'
+      - 'reduce%2:30:01::'
+      - 'rise%2:30:00::'
+      id: 'output%1:23:00::'
       synset: 13780885-n
-    - derivation:
+    - collocation:
+      - 'yield%1:06:00::'
+      - 'produce%2:36:00::'
+      derivation:
       - 'output%2:36:00::'
       id: 'output%1:06:01::'
       synset: 03866402-n
@@ -25552,7 +28775,9 @@ output:
     pronunciation:
     - value: ˈaʊtpʊt
     sense:
-    - derivation:
+    - collocation:
+      - 'computer%1:06:00::'
+      derivation:
       - 'output%1:06:01::'
       - 'output%1:04:00::'
       - 'output%1:06:00::'
@@ -25606,15 +28831,25 @@ outrage:
     pronunciation:
     - value: ˈaʊt.ɹeɪd͡ʒ
     sense:
-    - derivation:
+    - collocation:
+      - 'cause%2:36:00::'
+      - 'express%2:32:01::'
+      - 'provoke%2:37:00::'
+      - 'target%2:33:00::'
+      - 'voice%2:32:00::'
+      derivation:
       - 'outrage%2:37:01::'
       id: 'outrage%1:12:00::'
       synset: 07532976-n
-    - derivation:
+    - collocation:
+      - 'perpetrate%2:41:00::'
+      derivation:
       - 'outrage%2:41:00::'
       id: 'outrage%1:04:01::'
       synset: 00426093-n
-    - derivation:
+    - collocation:
+      - 'provoke%2:37:01::'
+      derivation:
       - outrageous%5:00:00:offensive:01
       - 'outrage%2:37:01::'
       id: 'outrage%1:11:00::'
@@ -25866,7 +29101,9 @@ outshine:
     pronunciation:
     - value: aʊtˈʃaɪn
     sense:
-    - id: 'outshine%2:43:00::'
+    - collocation:
+      - 'star%1:17:00::'
+      id: 'outshine%2:43:00::'
       subcat:
       - vtii
       synset: 02769124-v
@@ -25921,10 +29158,24 @@ outside:
     sense:
     - antonym:
       - 'inside%1:15:01::'
+      collocation:
+      - 'film%2:32:00::'
+      - 'lie%2:42:00::'
+      - 'move%2:38:01::'
+      - 'move%2:38:02::'
+      - 'populate%2:42:00::'
+      - 'wait%2:42:00::'
       id: 'outside%1:15:01::'
       synset: 08631168-n
     - antonym:
       - 'inside%1:15:00::'
+      collocation:
+      - 'building%1:06:00::'
+      - 'contradict%2:42:00::'
+      - 'go%2:38:01::'
+      - 'hide%2:39:00::'
+      - 'side%1:15:00::'
+      - 'wait%2:42:00::'
       id: 'outside%1:15:00::'
       synset: 08631047-n
   r:
@@ -25967,7 +29218,9 @@ outside marriage:
 outside mirror:
   n:
     sense:
-    - id: 'outside_mirror%1:06:00::'
+    - collocation:
+      - 'window%1:06:01::'
+      id: 'outside_mirror%1:06:00::'
       synset: 03867362-n
 outsider:
   n:
@@ -26014,7 +29267,10 @@ outskirt:
 outskirts:
   n:
     sense:
-    - id: 'outskirts%1:15:00::'
+    - collocation:
+      - 'market%1:06:00::'
+      - 'reach%2:38:01::'
+      id: 'outskirts%1:15:00::'
       synset: 08556839-n
 outsmart:
   v:
@@ -26155,7 +29411,9 @@ outstrip:
       - vtia
       - vtii
       synset: 01108050-v
-    - id: 'outstrip%2:38:00::'
+    - collocation:
+      - 'rise%1:17:00::'
+      id: 'outstrip%2:38:00::'
       subcat:
       - vtaa
       - vtai
@@ -26168,7 +29426,9 @@ outstroke:
 outtake:
   n:
     sense:
-    - id: 'outtake%1:10:00::'
+    - collocation:
+      - 'edit%2:30:02::'
+      id: 'outtake%1:10:00::'
       synset: 06627254-n
 outthrust:
   n:
@@ -26191,7 +29451,9 @@ outvie:
 outvote:
   v:
     sense:
-    - id: 'outvote%2:41:00::'
+    - collocation:
+      - 'vote%1:04:01::'
+      id: 'outvote%2:41:00::'
       subcat:
       - vtaa
       - vtii
@@ -26317,7 +29579,13 @@ outweigh:
       subcat:
       - vtai
       synset: 01109955-v
-    - id: 'outweigh%2:42:00::'
+    - collocation:
+      - 'advantage%1:07:01::'
+      - 'benefit%1:07:00::'
+      - 'disadvantage%1:07:00::'
+      - 'price%1:07:02::'
+      - 'risk%1:26:00::'
+      id: 'outweigh%2:42:00::'
       subcat:
       - vii
       synset: 02651681-v
@@ -26341,7 +29609,9 @@ outwork:
     pronunciation:
     - value: aʊtˈwɔːk
     sense:
-    - id: 'outwork%1:06:00::'
+    - collocation:
+      - 'castle%1:06:00::'
+      id: 'outwork%1:06:00::'
       synset: 03867899-n
 ouzel:
   n:
@@ -26376,7 +29646,9 @@ oval:
     - value: ˈoʊvəl
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'bank%2:38:00::'
+      derivation:
       - oval%5:00:00:rounded:00
       id: 'oval%1:25:00::'
       synset: 13900945-n
@@ -26460,9 +29732,15 @@ ovary:
     - value: ˈoʊvəɹi
       variety: US
     sense:
-    - id: 'ovary%1:20:00::'
+    - collocation:
+      - 'fertilize%2:30:01::'
+      - 'inseminate%2:29:00::'
+      id: 'ovary%1:20:00::'
       synset: 11699086-n
-    - derivation:
+    - collocation:
+      - 'fix%2:29:00::'
+      - 'inseminate%2:29:00::'
+      derivation:
       - 'ovarian%3:01:00::'
       id: 'ovary%1:08:00::'
       synset: 05522938-n
@@ -26481,14 +29759,46 @@ ovate leaf:
 ovation:
   n:
     sense:
-    - id: 'ovation%1:10:00::'
+    - collocation:
+      - 'acquire%2:40:06::'
+      - 'applaud%2:32:01::'
+      - 'bring%2:36:00::'
+      - 'earn%2:40:03::'
+      - 'give%2:31:02::'
+      - 'receive%2:30:01::'
+      id: 'ovation%1:10:00::'
       synset: 06701496-n
 oven:
   n:
     pronunciation:
     - value: ˈʌ.vn̩
     sense:
-    - id: 'oven%1:06:00::'
+    - collocation:
+      - 'bake%2:30:00::'
+      - 'brown%2:30:00::'
+      - 'clean%2:35:00::'
+      - 'cleaner%1:06:00::'
+      - 'cook%2:30:00::'
+      - 'cool%2:30:00::'
+      - 'dish%1:06:00::'
+      - 'dry%2:30:01::'
+      - 'glove%1:06:00::'
+      - 'heat%2:30:00::'
+      - 'heat%2:30:01::'
+      - 'insert%2:30:00::'
+      - 'kitchen%1:06:00::'
+      - 'light%2:30:00::'
+      - 'microwave%1:06:00::'
+      - 'fries%1:13:00::'
+      - 'natural_gas%1:27:00::'
+      - 'operation%1:22:01::'
+      - 'temperature%1:07:00::'
+      - 'timer%1:06:00::'
+      - 'preheat%2:30:00::'
+      - 'remove%2:30:00::'
+      - 'switch_on%2:35:00::'
+      - 'take_out%2:35:00::'
+      id: 'oven%1:06:00::'
       synset: 03868196-n
 oven broil:
   v:
@@ -26784,7 +30094,9 @@ overall:
     sense:
     - id: 'overall%1:06:00::'
       synset: 03868628-n
-    - id: 'overall%1:06:02::'
+    - collocation:
+      - 'child%1:18:00::'
+      id: 'overall%1:06:02::'
       synset: 03868782-n
 overambitious:
   a:
@@ -27132,7 +30444,9 @@ overcast:
       - 'overcast%2:43:00::'
       id: 'overcast%1:26:00::'
       synset: 14547800-n
-    - derivation:
+    - collocation:
+      - 'cloud%1:17:00::'
+      derivation:
       - overcast%5:00:00:cloudy:00
       - 'overcast%2:43:00::'
       id: 'overcast%1:26:01::'
@@ -27205,6 +30519,8 @@ overcharge:
     sense:
     - antonym:
       - 'undercharge%2:40:00::'
+      collocation:
+      - 'money%1:21:00::'
       derivation:
       - 'overcharge%1:21:00::'
       event:
@@ -27278,6 +30594,36 @@ overcome:
     sense:
     - agent:
       - 'overcomer%1:18:00::'
+      collocation:
+      - 'attack%1:04:00::'
+      - 'attack%1:04:02::'
+      - 'campaign%1:04:00::'
+      - 'fire%1:04:00::'
+      - 'group%1:03:00::'
+      - 'addiction%1:26:00::'
+      - 'challenge%1:10:00::'
+      - 'fleet%1:14:00::'
+      - 'governor%1:18:00::'
+      - 'kindred%1:14:00::'
+      - 'machine%1:06:02::'
+      - 'monster%1:18:01::'
+      - 'monster%1:18:02::'
+      - 'navy%1:14:00::'
+      - 'no.%1:23:00::'
+      - 'odds%1:07:00::'
+      - 'party%1:14:01::'
+      - 'problem%1:09:00::'
+      - 'problem%1:26:00::'
+      - 'quarterfinal%1:11:00::'
+      - 'reluctance%1:07:00::'
+      - 'seed%1:18:00::'
+      - 'semifinal%1:11:00::'
+      - 'shyness%1:12:00::'
+      - 'tribe%1:14:00::'
+      - 'war%1:26:00::'
+      - 'resistance%1:04:02::'
+      - 'sport%1:04:00::'
+      - 'war%1:04:00::'
       derivation:
       - 'overcomer%1:18:00::'
       id: 'overcome%2:33:03::'
@@ -27286,15 +30632,73 @@ overcome:
       subcat:
       - vtai
       synset: 01110559-v
-    - id: 'overcome%2:33:01::'
+    - collocation:
+      - 'attempt%1:04:00::'
+      - 'difficulty%1:04:00::'
+      - 'adversity%1:26:00::'
+      - 'alcoholism%1:26:00::'
+      - 'antipathy%1:12:00::'
+      - 'apprehension%1:12:00::'
+      - 'barrier%1:09:00::'
+      - 'challenge%1:26:00::'
+      - 'crisis%1:26:00::'
+      - 'deadlock%1:26:00::'
+      - 'dearth%1:26:00::'
+      - 'defect%1:07:01::'
+      - 'deficit%1:21:00::'
+      - 'depression%1:26:03::'
+      - 'disability%1:26:00::'
+      - 'disadvantage%1:07:00::'
+      - 'drag%1:19:00::'
+      - 'drawback%1:07:00::'
+      - 'experience%1:11:00::'
+      - 'failing%1:26:00::'
+      - 'fatigue%1:26:00::'
+      - 'fear%1:12:00::'
+      - 'feeling%1:09:01::'
+      - 'friction%1:19:00::'
+      - 'gravity%1:19:00::'
+      - 'horror%1:12:01::'
+      - 'hurdle%1:09:00::'
+      - 'inability%1:09:00::'
+      - 'inactivity%1:07:00::'
+      - 'inadequacy%1:07:00::'
+      - 'inefficiency%1:09:00::'
+      - 'inhibition%1:07:00::'
+      - 'injury%1:26:00::'
+      - 'lack%1:26:00::'
+      - 'lethargy%1:07:00::'
+      - 'limitation%1:07:00::'
+      - 'mistrust%1:07:00::'
+      - 'nervousness%1:12:00::'
+      - 'obstacle%1:09:00::'
+      - 'pain%1:12:00::'
+      - 'pessimism%1:12:00::'
+      - 'pitfall%1:09:00::'
+      - 'point_of_view%1:09:00::'
+      - 'poverty%1:26:00::'
+      - 'repulsion%1:19:00::'
+      - 'scruple%1:12:00::'
+      - 'shock%1:12:01::'
+      - 'shyness%1:12:00::'
+      - 'trauma%1:26:01::'
+      - 'urge%1:12:00::'
+      - 'resistance%1:04:02::'
+      - 'struggle%1:04:00::'
+      id: 'overcome%2:33:01::'
       subcat:
       - vtai
       synset: 01111038-v
-    - id: 'overcome%2:37:00::'
+    - collocation:
+      - 'lethargy%1:07:00::'
+      id: 'overcome%2:37:00::'
       subcat:
       - vtia
       synset: 01813288-v
-    - id: 'overcome%2:33:02::'
+    - collocation:
+      - 'exhaust_fumes%1:27:00::'
+      - 'fatigue%1:26:00::'
+      id: 'overcome%2:33:02::'
       sent:
       - The fighter managed to overcome his opponent
       subcat:
@@ -27354,7 +30758,9 @@ overcook:
     - value: oʊ.vɚ.kʊk
       variety: US
     sense:
-    - id: 'overcook%2:30:00::'
+    - collocation:
+      - 'vegetable%1:13:00::'
+      id: 'overcook%2:30:00::'
       sent:
       - The chefs overcook the vegetables
       subcat:
@@ -27456,7 +30862,10 @@ overdone:
 overdose:
   v:
     sense:
-    - id: 'overdose%2:29:00::'
+    - collocation:
+      - 'star%1:18:00::'
+      - 'star%1:18:02::'
+      id: 'overdose%2:29:00::'
       subcat:
       - via
       synset: 00085106-v
@@ -27468,7 +30877,20 @@ overdraft:
     - value: ˈoʊvɚdɹæft
       variety: US
     sense:
-    - id: 'overdraft%1:21:00::'
+    - collocation:
+      - 'arrange%2:32:04::'
+      - 'exceed%2:42:01::'
+      - 'extend%2:40:05::'
+      - 'facility%1:04:00::'
+      - 'get%2:40:00::'
+      - 'grant%2:40:05::'
+      - 'have%2:42:12::'
+      - 'increase%2:30:02::'
+      - 'limit%1:23:00::'
+      - 'pay_off%2:40:00::'
+      - 'reduce%2:30:00::'
+      - 'take_out%2:40:02::'
+      id: 'overdraft%1:21:00::'
       synset: 13398827-n
 overdraft credit:
   n:
@@ -27502,7 +30924,9 @@ overdraw:
     - overdrawn
     - overdrew
     sense:
-    - id: 'overdraw%2:40:00::'
+    - collocation:
+      - 'account%1:26:00::'
+      id: 'overdraw%2:40:00::'
       subcat:
       - vtai
       synset: 02317166-v
@@ -27652,6 +31076,9 @@ overestimate:
       - 'estimate%2:31:00::'
       antonym:
       - 'underestimate%2:31:01::'
+      collocation:
+      - 'importance%1:07:00::'
+      - 'size%1:07:00::'
       derivation:
       - 'overestimate%1:10:00::'
       - 'overestimation%1:10:00::'
@@ -27669,6 +31096,8 @@ overestimate:
       - 'underestimate%2:31:02::'
       by_means_of:
       - 'overestimate%1:09:00::'
+      collocation:
+      - 'extent%1:26:00::'
       derivation:
       - 'overestimate%1:10:00::'
       - 'overestimate%1:09:00::'
@@ -27838,7 +31267,9 @@ overflow:
     pronunciation:
     - value: ˈəʊvəˌfləʊ
     sense:
-    - derivation:
+    - collocation:
+      - 'buffer%2:35:00::'
+      derivation:
       - 'overflow%2:38:00::'
       id: 'overflow%1:04:00::'
       synset: 00330645-n
@@ -27852,7 +31283,13 @@ overflow:
     pronunciation:
     - value: ˈəʊvəˌfləʊ
     sense:
-    - derivation:
+    - collocation:
+      - 'bank%1:17:01::'
+      - 'bowl%1:06:01::'
+      - 'bucket%1:06:00::'
+      - 'river%1:17:00::'
+      - 'tear%1:08:01::'
+      derivation:
       - 'overflow%1:11:00::'
       - 'overflow%1:04:00::'
       event:
@@ -27862,7 +31299,9 @@ overflow:
       subcat:
       - vii
       synset: 02076087-v
-    - id: 'overflow%2:37:00::'
+    - collocation:
+      - 'enthusiasm%1:12:00::'
+      id: 'overflow%2:37:00::'
       subcat:
       - via
       synset: 01766953-v
@@ -27952,7 +31391,9 @@ overgrow:
       subcat:
       - vii
       synset: 02675498-v
-    - id: 'overgrow%2:30:02::'
+    - collocation:
+      - 'scrub%1:14:00::'
+      id: 'overgrow%2:30:02::'
       subcat:
       - vii
       synset: 00233215-v
@@ -28027,6 +31468,8 @@ overhang:
     sense:
     - by_means_of:
       - 'overhang%1:06:00::'
+      collocation:
+      - 'corner%1:17:00::'
       derivation:
       - 'overhang%1:06:00::'
       id: 'overhang%2:42:01::'
@@ -28069,7 +31512,10 @@ overhaul:
       - vtia
       - vtii
       synset: 02053645-v
-    - derivation:
+    - collocation:
+      - 'car%1:06:00::'
+      - 'system%1:09:01::'
+      derivation:
       - 'overhaul%1:04:00::'
       event:
       - 'overhaul%1:04:00::'
@@ -28087,7 +31533,9 @@ overhead:
       synset: 02482038-a
   n:
     sense:
-    - id: 'overhead%1:21:00::'
+    - collocation:
+      - 'office%1:06:00::'
+      id: 'overhead%1:21:00::'
       synset: 13298202-n
     - id: 'overhead%1:28:00::'
       synset: 15323254-n
@@ -28128,7 +31576,9 @@ overhear:
     - value: oʊ.vɚˈhɪɚ
       variety: US
     sense:
-    - id: 'overhear%2:39:00::'
+    - collocation:
+      - 'conversation%1:10:00::'
+      id: 'overhear%2:39:00::'
       sent:
       - They overhear that there was a traffic accident
       subcat:
@@ -28143,7 +31593,9 @@ overheat:
     - value: ˌəʊvəˈhiːt
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'engine%1:06:00::'
+      derivation:
       - 'overheating%1:22:00::'
       id: 'overheat%2:30:00::'
       subcat:
@@ -28329,7 +31781,9 @@ overlay:
     - value: ˌoʊvɚˈleɪ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'ice%1:13:01::'
+      derivation:
       - 'overlay%1:06:00::'
       - 'overlayer%1:06:00::'
       id: 'overlay%2:35:00::'
@@ -28462,12 +31916,21 @@ overlook:
     - value: ˈoʊvɚ.lʊk
       variety: US
     sense:
-    - id: 'overlook%2:39:01::'
+    - collocation:
+      - 'fact%1:09:01::'
+      - 'importance%1:07:00::'
+      - 'need%1:26:00::'
+      id: 'overlook%2:39:01::'
       subcat:
       - vtaa
       - vtai
       synset: 02170805-v
-    - derivation:
+    - collocation:
+      - 'bay%1:17:00::'
+      - 'garden%1:06:00::'
+      - 'lake%1:17:00::'
+      - 'sea%1:17:00::'
+      derivation:
       - 'overlook%1:15:00::'
       id: 'overlook%2:42:01::'
       location:
@@ -28481,13 +31944,19 @@ overlook:
       - vtaa
       - vtai
       synset: 00616690-v
-    - derivation:
+    - collocation:
+      - 'harbour%1:15:00::'
+      - 'river%1:17:00::'
+      - 'valley%1:17:00::'
+      derivation:
       - 'overlook%1:15:00::'
       id: 'overlook%2:42:00::'
       subcat:
       - vtii
       synset: 02701971-v
-    - id: 'overlook%2:39:00::'
+    - collocation:
+      - 'fault%1:07:00::'
+      id: 'overlook%2:39:00::'
       subcat:
       - vtaa
       - vtai
@@ -28505,14 +31974,21 @@ overlooking:
 overlord:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'domination%1:26:00::'
+      - 'rule%2:31:00::'
+      - 'sea%1:17:00::'
+      - 'universe%1:17:00::'
+      derivation:
       - 'overlordship%1:04:00::'
       id: 'overlord%1:18:00::'
       synset: 10408139-n
 overlordship:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'acknowledge%2:31:09::'
+      derivation:
       - 'overlord%1:18:00::'
       id: 'overlordship%1:04:00::'
       synset: 00596799-n
@@ -28608,7 +32084,9 @@ overnighter:
 overpass:
   n:
     sense:
-    - id: 'overpass%1:06:00::'
+    - collocation:
+      - 'path%1:06:00::'
+      id: 'overpass%1:06:00::'
       synset: 03871095-n
 overpay:
   v:
@@ -28620,6 +32098,8 @@ overpay:
     sense:
     - antonym:
       - 'underpay%2:40:00::'
+      collocation:
+      - 'tax%1:21:00::'
       derivation:
       - 'overpayment%1:21:00::'
       - 'overpayment%1:04:00::'
@@ -28661,7 +32141,9 @@ overplus:
 overpopulate:
   v:
     sense:
-    - derivation:
+    - collocation:
+      - 'town%1:15:00::'
+      derivation:
       - 'overpopulation%1:14:00::'
       event:
       - 'overpopulation%1:14:00::'
@@ -28783,7 +32265,9 @@ overproduce:
 overproduction:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'price%1:07:02::'
+      derivation:
       - 'overproduce%2:36:01::'
       - 'overproduce%2:36:00::'
       id: 'overproduction%1:04:00::'
@@ -28954,7 +32438,9 @@ override:
     - value: oʊ.vəɹˈɹaɪd
       variety: US
     sense:
-    - id: 'override%2:31:00::'
+    - collocation:
+      - 'veto%1:04:00::'
+      id: 'override%2:31:00::'
       subcat:
       - vtai
       - vtii
@@ -28994,7 +32480,11 @@ overrule:
     pronunciation:
     - value: ˌəʊvə(ɹ)ˈɹuːl
     sense:
-    - id: 'overrule%2:31:00::'
+    - collocation:
+      - 'majority%1:23:00::'
+      - 'system%1:09:00::'
+      - 'wish%1:09:00::'
+      id: 'overrule%2:31:00::'
       subcat:
       - vtai
       - vtii
@@ -29021,7 +32511,9 @@ overrun:
     - value: oʊvəˈɹʌn
       variety: US
     sense:
-    - id: 'overrun%2:38:01::'
+    - collocation:
+      - 'troop%1:14:00::'
+      id: 'overrun%2:38:01::'
       subcat:
       - vtia
       - vtii
@@ -29104,6 +32596,23 @@ oversee:
     sense:
     - agent:
       - 'overseer%1:18:00::'
+      collocation:
+      - 'construction%1:04:00::'
+      - 'implementation%1:04:00::'
+      - 'implementation%1:04:01::'
+      - 'operation%1:04:03::'
+      - 'access%1:07:01::'
+      - 'board%1:14:00::'
+      - 'city%1:15:00::'
+      - 'city%1:15:01::'
+      - 'committee%1:14:00::'
+      - 'foreman%1:18:00::'
+      - 'power%1:14:00::'
+      - 'power%1:19:00::'
+      - 'ship%1:06:00::'
+      - 'site%1:15:00::'
+      - 'staff%1:14:00::'
+      - 'work%1:04:00::'
       derivation:
       - 'overseer%1:18:00::'
       id: 'oversee%2:41:00::'
@@ -29116,7 +32625,10 @@ overseer:
     pronunciation:
     - value: ˈəʊvəˌsiːə(ɹ)
     sense:
-    - derivation:
+    - collocation:
+      - 'flog%2:35:00::'
+      - 'head%1:18:00::'
+      derivation:
       - 'oversee%2:41:00::'
       id: 'overseer%1:18:00::'
       synset: 10408431-n
@@ -29166,7 +32678,10 @@ overshadow:
     - value: ˌoʊ.vɚˈʃæd.oʊ
       variety: US
     sense:
-    - id: 'overshadow%2:42:00::'
+    - collocation:
+      - 'fame%1:26:02::'
+      - 'popularity%1:07:00::'
+      id: 'overshadow%2:42:00::'
       subcat:
       - vtii
       synset: 02750155-v
@@ -29174,7 +32689,9 @@ overshadow:
       subcat:
       - vtii
       synset: 02702148-v
-    - id: 'overshadow%2:39:00::'
+    - collocation:
+      - 'tree%1:20:00::'
+      id: 'overshadow%2:39:00::'
       subcat:
       - vtii
       synset: 02162626-v
@@ -29210,11 +32727,15 @@ overshoot:
     sense:
     - antonym:
       - 'undershoot%2:33:00::'
+      collocation:
+      - 'target%1:10:00::'
       id: 'overshoot%2:33:00::'
       subcat:
       - vtai
       synset: 01137645-v
-    - derivation:
+    - collocation:
+      - 'aim%1:04:00::'
+      derivation:
       - 'overshoot%1:04:00::'
       event:
       - 'overshoot%1:04:00::'
@@ -29244,9 +32765,14 @@ oversight:
     sense:
     - id: 'oversight%1:09:00::'
       synset: 05714762-n
-    - id: 'oversight%1:04:01::'
+    - collocation:
+      - 'miss%2:32:00::'
+      id: 'oversight%1:04:01::'
       synset: 01137850-n
-    - id: 'oversight%1:04:00::'
+    - collocation:
+      - 'have%2:42:12::'
+      - 'suffer%2:42:04::'
+      id: 'oversight%1:04:00::'
       synset: 00075344-n
 oversimplification:
   n:
@@ -29344,6 +32870,8 @@ overspend:
     sense:
     - antonym:
       - 'underspend%2:40:01::'
+      collocation:
+      - 'budget%1:21:02::'
       id: 'overspend%2:40:01::'
       subcat:
       - vtai
@@ -29381,6 +32909,14 @@ overstate:
     sense:
     - antonym:
       - 'understate%2:32:00::'
+      collocation:
+      - 'case%1:09:00::'
+      - 'danger%1:26:00::'
+      - 'difference%1:07:00::'
+      - 'extent%1:26:00::'
+      - 'importance%1:07:00::'
+      - 'seriousness%1:07:01::'
+      - 'significance%1:07:00::'
       derivation:
       - 'overstatement%1:10:00::'
       event:
@@ -29406,7 +32942,9 @@ overstatement:
 overstay:
   v:
     sense:
-    - id: 'overstay%2:42:00::'
+    - collocation:
+      - 'visa%1:10:00::'
+      id: 'overstay%2:42:00::'
       subcat:
       - vtai
       synset: 02643550-v
@@ -29426,7 +32964,9 @@ overstep:
     - value: ˌoʊvɚˈstɛp
       variety: US
     sense:
-    - id: 'overstep%2:38:00::'
+    - collocation:
+      - 'bound%1:15:00::'
+      id: 'overstep%2:38:00::'
       subcat:
       - vtai
       synset: 02023426-v
@@ -29570,7 +33110,11 @@ overtake:
     - value: oʊvɚˈteɪk
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'car%1:06:00::'
+      - 'leader%1:18:00::'
+      - 'race%1:11:00::'
+      derivation:
       - 'overtaking%1:04:00::'
       id: 'overtake%2:33:00::'
       subcat:
@@ -29619,7 +33163,9 @@ overthink:
 overthrow:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'government%1:14:00::'
+      derivation:
       - 'overthrow%2:41:00::'
       id: 'overthrow%1:04:01::'
       synset: 00216550-n
@@ -29630,7 +33176,19 @@ overthrow:
     - overthrew
     - overthrown
     sense:
-    - derivation:
+    - collocation:
+      - 'capitalism%1:14:00::'
+      - 'communism%1:14:00::'
+      - 'democracy%1:14:00::'
+      - 'dictatorship%1:14:00::'
+      - 'dynasty%1:14:00::'
+      - 'government%1:14:00::'
+      - 'military_junta%1:14:00::'
+      - 'monarchy%1:14:00::'
+      - 'tyrant%1:18:00::'
+      - 'rebellion%1:04:00::'
+      - 'revolution%1:04:00::'
+      derivation:
       - 'overthrow%1:04:01::'
       event:
       - 'overthrow%1:04:01::'
@@ -29639,7 +33197,9 @@ overthrow:
       - vtaa
       - vtai
       synset: 02407551-v
-    - id: 'overthrow%2:31:00::'
+    - collocation:
+      - 'government%1:14:00::'
+      id: 'overthrow%2:31:00::'
       subcat:
       - vtai
       - vtii
@@ -29655,10 +33215,20 @@ overtime:
     - value: ˈoʊvɚˌtaɪm
       variety: US
     sense:
-    - id: 'overtime%1:28:01::'
+    - collocation:
+      - 'do%2:41:01::'
+      - 'payment%1:21:00::'
+      - 'prohibition%1:10:00::'
+      - 'rate%1:21:00::'
+      - 'wage%1:21:00::'
+      - 'work%2:41:02::'
+      id: 'overtime%1:28:01::'
       synset: 15162146-n
     - antonym:
       - 'regulation_time%1:28:00::'
+      collocation:
+      - 'enter%2:38:00::'
+      - 'tie%2:33:00::'
       id: 'overtime%1:28:00::'
       synset: 15258786-n
   r:
@@ -29703,9 +33273,15 @@ overtone:
     - value: ˈəʊ.və.təʊn
       variety: GB
     sense:
-    - id: 'overtone%1:10:00::'
+    - collocation:
+      - 'assume%2:30:00::'
+      - 'carry%2:42:13::'
+      - 'have%2:40:00::'
+      id: 'overtone%1:10:00::'
       synset: 06618817-n
-    - id: 'overtone%1:09:00::'
+    - collocation:
+      - 'mute%2:39:00::'
+      id: 'overtone%1:09:00::'
       synset: 05728040-n
 overtop:
   v:
@@ -29736,7 +33312,13 @@ overture:
       synset: 07054566-n
     - id: 'overture%1:11:00::'
       synset: 07341613-n
-    - id: 'overture%1:10:00::'
+    - collocation:
+      - 'have%2:30:01::'
+      - 'love%1:12:00::'
+      - 'react%2:31:00::'
+      - 'receive%2:30:01::'
+      - 'woo%2:41:00::'
+      id: 'overture%1:10:00::'
       synset: 07179000-n
 overturn:
   n:
@@ -29750,7 +33332,10 @@ overturn:
       synset: 00068990-n
   v:
     sense:
-    - derivation:
+    - collocation:
+      - 'boat%1:06:00::'
+      - 'raft%1:06:00::'
+      derivation:
       - 'overturn%1:04:00::'
       event:
       - 'overturn%1:04:00::'
@@ -29760,7 +33345,9 @@ overturn:
       subcat:
       - vii
       synset: 01913390-v
-    - derivation:
+    - collocation:
+      - 'boat%1:06:00::'
+      derivation:
       - 'overturn%1:04:00::'
       event:
       - 'overturn%1:04:00::'
@@ -29769,7 +33356,11 @@ overturn:
       - vtai
       - vtii
       synset: 01913971-v
-    - id: 'overturn%2:31:00::'
+    - collocation:
+      - 'appeal%1:04:00::'
+      - 'decision%1:09:00::'
+      - 'ruling%1:04:00::'
+      id: 'overturn%2:31:00::'
       subcat:
       - vtai
       - vtii
@@ -29779,7 +33370,9 @@ overturn:
       - vtaa
       - vtai
       synset: 02407551-v
-    - id: 'overturn%2:32:00::'
+    - collocation:
+      - 'conviction%1:04:00::'
+      id: 'overturn%2:32:00::'
       subcat:
       - vtai
       - vtii
@@ -29802,7 +33395,9 @@ overuse:
     - value: ˌoʊvɚˈjuːz
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'decry%2:32:00::'
+      derivation:
       - 'overuse%2:34:00::'
       id: 'overuse%1:04:00::'
       synset: 00953544-n
@@ -29872,7 +33467,13 @@ overview:
     pronunciation:
     - value: ˈəʊvə(ɹ)ˌvjuː
     sense:
-    - id: 'overview%1:10:00::'
+    - collocation:
+      - 'give%2:40:07::'
+      - 'have%2:40:00::'
+      - 'offer%2:31:00::'
+      - 'present%2:32:00::'
+      - 'provide%2:40:00::'
+      id: 'overview%1:10:00::'
       synset: 06480894-n
 overwatch:
   n:
@@ -29927,7 +33528,18 @@ overwhelm:
     - value: ˌoʊvɚˈʍɛlm
       variety: US
     sense:
-    - id: 'overwhelm%2:37:00::'
+    - collocation:
+      - 'defense%1:22:00::'
+      - 'emotion%1:12:00::'
+      - 'fatigue%1:26:00::'
+      - 'feeling%1:09:01::'
+      - 'grief%1:12:00::'
+      - 'guilt%1:12:00::'
+      - 'objection%1:10:01::'
+      - 'panic%1:12:00::'
+      - 'remorse%1:12:00::'
+      - 'sleep%1:26:02::'
+      id: 'overwhelm%2:37:00::'
       subcat:
       - vtia
       synset: 01813288-v
@@ -29941,7 +33553,9 @@ overwhelm:
       - vtai
       - vtii
       synset: 01341976-v
-    - id: 'overwhelm%2:33:00::'
+    - collocation:
+      - 'defeat%1:11:00::'
+      id: 'overwhelm%2:33:00::'
       sent:
       - The fighter managed to overwhelm his opponent
       subcat:
@@ -29983,7 +33597,9 @@ overwork:
     - value: ˈoʊvɚˌwɝk
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'bring_on%2:36:00::'
+      derivation:
       - 'overwork%2:41:00::'
       id: 'overwork%1:04:00::'
       synset: 00624610-n
@@ -30203,11 +33819,17 @@ ovulation method of family planning:
 ovule:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'arrangement%1:14:00::'
+      - 'fertilize%2:29:00::'
+      - 'fertilize%2:30:01::'
+      derivation:
       - 'ovular%3:01:02::'
       id: 'ovule%1:20:00::'
       synset: 11699219-n
-    - derivation:
+    - collocation:
+      - 'fertilize%2:29:00::'
+      derivation:
       - 'ovular%3:01:01::'
       - 'ovulate%2:29:00::'
       id: 'ovule%1:08:01::'
@@ -30222,7 +33844,9 @@ ovum:
     - value: ˈoʊ.vəm
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'fertilize%2:29:00::'
+      derivation:
       - 'ovulate%2:29:00::'
       id: 'ovum%1:08:00::'
       synset: 05465549-n
@@ -30234,18 +33858,40 @@ owe:
     - value: oʊ
       variety: US
     sense:
-    - id: 'owe%2:40:01::'
+    - collocation:
+      - 'favor%1:04:00::'
+      - 'arrears%1:21:00::'
+      - 'debt%1:21:00::'
+      - 'explanation%1:10:01::'
+      - 'money%1:21:00::'
+      - 'rent%1:21:00::'
+      id: 'owe%2:40:01::'
       subcat:
       - ditransitive
       - vtai
       - vtai-to
       synset: 02258963-v
-    - id: 'owe%2:42:00::'
+    - collocation:
+      - 'allegiance%1:04:00::'
+      - 'duty%1:04:00::'
+      - 'obedience%1:04:00::'
+      - 'apology%1:10:00::'
+      - 'existence%1:26:00::'
+      - 'inspiration%1:09:02::'
+      - 'origin%1:22:00::'
+      - 'public%1:14:00::'
+      - 'theory%1:09:00::'
+      id: 'owe%2:42:00::'
       subcat:
       - vtai-pp
       - vtai-to
       synset: 02737689-v
-    - id: 'owe%2:40:00::'
+    - collocation:
+      - 'debt%1:21:00::'
+      - 'dollar%1:23:00::'
+      - 'euro%1:23:00::'
+      - 'obligation%1:26:00::'
+      id: 'owe%2:40:00::'
       sent:
       - They owe the money to them
       - They owe them the money
@@ -30271,7 +33917,17 @@ owl:
     pronunciation:
     - value: aʊl
     sense:
-    - derivation:
+    - collocation:
+      - 'get%2:35:09::'
+      - 'hoot%2:32:01::'
+      - 'burrow%2:38:00::'
+      - 'fly%2:38:00::'
+      - 'spot%2:39:00::'
+      - 'perch%2:35:00::'
+      - 'prey%2:34:10::'
+      - 'screech%2:32:01::'
+      - 'spot%2:35:00::'
+      derivation:
       - 'owlet%1:05:00::'
       id: 'owl%1:05:00::'
       synset: 01623768-n
@@ -30317,6 +33973,63 @@ own:
     - agent:
       - 'owner%1:18:00::'
       - 'owner%1:18:02::'
+      collocation:
+      - 'dog%1:05:00::'
+      - 'group%1:03:00::'
+      - 'acre%1:23:00::'
+      - 'airport%1:06:00::'
+      - 'apartment%1:06:00::'
+      - 'business%1:14:00::'
+      - 'capital%1:21:01::'
+      - 'car%1:06:00::'
+      - 'club%1:14:00::'
+      - 'collection%1:14:00::'
+      - 'company%1:14:01::'
+      - 'copyright%1:10:00::'
+      - 'corporation%1:14:00::'
+      - 'cottage%1:06:00::'
+      - 'data%1:14:00::'
+      - 'dream%1:12:00::'
+      - 'estate%1:21:01::'
+      - 'estate%1:21:02::'
+      - 'factory%1:06:00::'
+      - 'family%1:14:02::'
+      - 'farm%1:06:00::'
+      - 'firm%1:14:00::'
+      - 'fish%1:05:00::'
+      - 'fleet%1:14:01::'
+      - 'franchise%1:10:00::'
+      - 'fund%1:21:00::'
+      - 'garage%1:06:01::'
+      - 'gun%1:06:00::'
+      - 'half%1:23:00::'
+      - 'home%1:15:05::'
+      - 'hotel%1:06:00::'
+      - 'house%1:06:00::'
+      - 'interest%1:21:03::'
+      - 'land%1:21:01::'
+      - 'library%1:14:00::'
+      - 'means%1:21:00::'
+      - 'ministry%1:14:00::'
+      - 'money%1:21:00::'
+      - 'newspaper%1:14:00::'
+      - 'reserve%1:21:00::'
+      - 'restaurant%1:06:00::'
+      - 'share%1:21:00::'
+      - 'share%1:21:01::'
+      - 'shop%1:06:00::'
+      - 'site%1:10:00::'
+      - 'slave%1:18:00::'
+      - 'station%1:07:00::'
+      - 'stock%1:21:00::'
+      - 'stock%1:21:02::'
+      - 'subsidiary%1:14:00::'
+      - 'thing%1:06:00::'
+      - 'vehicle%1:06:00::'
+      - 'villa%1:06:01::'
+      - 'wealth%1:21:02::'
+      - 'year%1:28:00::'
+      - 'record%1:04:00::'
       derivation:
       - 'owner%1:18:00::'
       - 'owner%1:18:02::'
@@ -30327,7 +34040,10 @@ own:
 own goal:
   n:
     sense:
-    - id: 'own_goal%1:04:00::'
+    - collocation:
+      - 'concede%2:40:00::'
+      - 'equalize%2:33:00::'
+      id: 'own_goal%1:04:00::'
       synset: 00188348-n
 own up:
   v:
@@ -30351,14 +34067,54 @@ owner:
     - value: ˈəʊnə
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'agree%2:32:01::'
+      - 'agree%2:32:04::'
+      - 'business%1:14:00::'
+      - 'chain%1:14:02::'
+      - 'close_up%2:41:00::'
+      - 'club%1:06:04::'
+      - 'factory%1:06:00::'
+      - 'farm%1:06:00::'
+      - 'gallery%1:06:04::'
+      - 'garage%1:06:01::'
+      - 'hotel%1:06:00::'
+      - 'house%1:06:00::'
+      - 'office%1:06:00::'
+      - 'estate%1:21:01::'
+      - 'plantation%1:21:00::'
+      - 'property%1:21:00::'
+      - 'restaurant%1:06:00::'
+      - 'shop%1:06:00::'
+      derivation:
       - 'ownership%1:26:00::'
       - 'ownership%1:21:00::'
       - 'ownership%1:04:00::'
       - 'own%2:40:00::'
       id: 'owner%1:18:00::'
       synset: 10408623-n
-    - derivation:
+    - collocation:
+      - 'agree%2:32:01::'
+      - 'agree%2:32:04::'
+      - 'boat%1:06:00::'
+      - 'car%1:06:00::'
+      - 'cat%1:05:00::'
+      - 'copyright%1:10:00::'
+      - 'dog%1:05:00::'
+      - 'have%2:40:00::'
+      - 'home%1:15:04::'
+      - 'horse%1:05:00::'
+      - 'house%1:06:00::'
+      - 'mine%1:06:01::'
+      - 'oil_tanker%1:06:00::'
+      - 'land%1:21:01::'
+      - 'slave%1:18:00::'
+      - 'pet%1:05:00::'
+      - 'sell%2:40:00::'
+      - 'ship%1:06:00::'
+      - 'thing%1:06:00::'
+      - 'trace%2:39:00::'
+      derivation:
       - 'ownership%1:26:00::'
       - 'ownership%1:21:00::'
       - 'ownership%1:04:00::'
@@ -30398,17 +34154,38 @@ ownership:
     - value: ˈəʊnəʃɪp
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'acquire%2:40:06::'
+      - 'assume%2:40:00::'
+      - 'assume%2:41:00::'
+      - 'car%1:06:00::'
+      - 'change%1:04:00::'
+      - 'change%2:30:05::'
+      - 'home%1:15:04::'
+      - 'land%1:21:01::'
+      - 'property%1:21:00::'
+      - 'pass%2:40:02::'
+      - 'pass%2:40:13::'
+      - 'retain%2:41:01::'
+      - 'take_over%2:40:03::'
+      - 'transfer%1:04:02::'
+      - 'transfer%2:40:00::'
+      derivation:
       - 'owner%1:18:02::'
       - 'owner%1:18:00::'
       id: 'ownership%1:21:00::'
       synset: 13261412-n
-    - derivation:
+    - collocation:
+      - 'acquire%2:40:00::'
+      derivation:
       - 'owner%1:18:02::'
       - 'owner%1:18:00::'
       id: 'ownership%1:04:00::'
       synset: 00811126-n
-    - derivation:
+    - collocation:
+      - 'share%1:21:01::'
+      - 'state%1:14:00::'
+      derivation:
       - 'owner%1:18:02::'
       - 'owner%1:18:00::'
       id: 'ownership%1:26:00::'
@@ -30645,7 +34422,12 @@ oxidate:
 oxidation:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'catalyze%2:30:00::'
+      - 'acid%1:27:00::'
+      - 'air%1:27:00::'
+      - 'alcohol%1:27:00::'
+      derivation:
       - 'oxidate%2:30:01::'
       - 'oxidate%2:30:00::'
       id: 'oxidation%1:22:00::'
@@ -30696,7 +34478,15 @@ oxide:
     pronunciation:
     - value: ˈɒksaɪd
     sense:
-    - derivation:
+    - collocation:
+      - 'base%1:27:00::'
+      - 'ethylene%1:27:00::'
+      - 'heat%2:30:01::'
+      - 'iron%1:27:00::'
+      - 'manganese%1:27:00::'
+      - 'metal%1:27:00::'
+      - 'nitrogen%1:27:00::'
+      derivation:
       - 'oxidize%2:30:00::'
       - 'oxidise%2:30:00::'
       id: 'oxide%1:27:00::'
@@ -30734,7 +34524,14 @@ oxidise:
       - vtai
       - vtii
       synset: 00239753-v
-    - derivation:
+    - collocation:
+      - 'aldehyde%1:27:00::'
+      - 'carbon_dioxide%1:27:00::'
+      - 'carboxylic_acid%1:27:00::'
+      - 'iodide%1:27:00::'
+      - 'nitric_acid%1:27:00::'
+      - 'sulfur%1:27:00::'
+      derivation:
       - 'oxidisation%1:22:00::'
       event:
       - 'oxidisation%1:22:00::'
@@ -30779,7 +34576,12 @@ oxidize:
     pronunciation:
     - value: ˈɒksɪdaɪz
     sense:
-    - derivation:
+    - collocation:
+      - 'ammonia%1:27:00::'
+      - 'hydrogen_sulfide%1:27:00::'
+      - 'nitrite%1:27:00::'
+      - 'reducing_agent%1:27:00::'
+      derivation:
       - 'oxidization%1:22:00::'
       event:
       - 'oxidization%1:22:00::'
@@ -30791,6 +34593,14 @@ oxidize:
       synset: 00240207-v
     - antonym:
       - 'deoxidize%2:30:00::'
+      collocation:
+      - 'aldehyde%1:27:00::'
+      - 'ammonia%1:27:00::'
+      - 'carbon_dioxide%1:27:00::'
+      - 'iodide%1:27:00::'
+      - 'nitric_acid%1:27:00::'
+      - 'reducing_agent%1:27:00::'
+      - 'sulfur%1:27:00::'
       derivation:
       - 'oxidization%1:22:00::'
       - 'oxidizer%1:27:00::'
@@ -30921,7 +34731,42 @@ oxygen:
     pronunciation:
     - value: ˈɒksɪdʒən
     sense:
-    - derivation:
+    - collocation:
+      - 'absence%1:26:00::'
+      - 'absorb%2:35:01::'
+      - 'absorb%2:43:00::'
+      - 'administer%2:29:00::'
+      - 'atom%1:27:00::'
+      - 'bind%2:30:09::'
+      - 'blend%2:30:00::'
+      - 'blood%1:08:00::'
+      - 'bond%2:35:00::'
+      - 'breathe%2:29:00::'
+      - 'consume%2:34:01::'
+      - 'consumption%1:04:00::'
+      - 'deprive%2:40:00::'
+      - 'displace%2:38:02::'
+      - 'exercise%1:04:00::'
+      - 'form%2:30:05::'
+      - 'get%2:40:14::'
+      - 'give%2:40:13::'
+      - 'hold%2:42:13::'
+      - 'impart%2:38:00::'
+      - 'lack%1:26:00::'
+      - 'level%1:07:00::'
+      - 'mask%1:06:01::'
+      - 'permeate%2:35:01::'
+      - 'process%2:30:00::'
+      - 'produce%2:36:03::'
+      - 'receive%2:40:00::'
+      - 'release%2:36:03::'
+      - 'render%2:36:00::'
+      - 'saturation%1:22:00::'
+      - 'shape%2:36:00::'
+      - 'species%1:09:00::'
+      - 'starve%2:34:04::'
+      - 'supply%1:23:00::'
+      derivation:
       - 'oxygenate%2:30:00::'
       - 'oxygenize%2:30:01::'
       - 'oxygenize%2:30:00::'
@@ -31133,7 +34978,9 @@ oyster:
       - 'oyster%2:35:00::'
       id: 'oyster%1:05:00::'
       synset: 01963100-n
-    - derivation:
+    - collocation:
+      - 'harvest%2:35:00::'
+      derivation:
       - 'oyster%2:35:00::'
       id: 'oyster%1:13:00::'
       synset: 07802140-n
@@ -31295,7 +35142,22 @@ ozone:
     pronunciation:
     - value: ˈoʊzoʊn
     sense:
-    - id: 'ozone%1:27:00::'
+    - collocation:
+      - 'absorb%2:35:00::'
+      - 'absorb%2:35:01::'
+      - 'addition%1:04:02::'
+      - 'crack%2:30:00::'
+      - 'crack%2:30:08::'
+      - 'crack%2:30:09::'
+      - 'degree%1:07:00::'
+      - 'deplete%2:34:00::'
+      - 'depletion%1:26:00::'
+      - 'destroy%2:35:00::'
+      - 'destruction%1:04:00::'
+      - 'hole%1:17:01::'
+      - 'loss%1:22:00::'
+      - 'pollution%1:26:00::'
+      id: 'ozone%1:27:00::'
       synset: 14997366-n
 ozone hole:
   n:
@@ -31305,7 +35167,14 @@ ozone hole:
 ozone layer:
   n:
     sense:
-    - id: 'ozone_layer%1:17:00::'
+    - collocation:
+      - 'damage%2:30:00::'
+      - 'damage%2:30:01::'
+      - 'deplete%2:34:00::'
+      - 'destroy%2:35:00::'
+      - 'protect%2:33:00::'
+      - 'thin%2:30:00::'
+      id: 'ozone_layer%1:17:00::'
       synset: 09405619-n
 ozone sickness:
   n:
