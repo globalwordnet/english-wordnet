@@ -2642,7 +2642,9 @@ udder:
     - value: ˈʌdə
       variety: GB
     sense:
-    - id: 'udder%1:05:00::'
+    - collocation:
+      - 'sheep%1:05:00::'
+      id: 'udder%1:05:00::'
       synset: 02373012-n
 udometer:
   n:
@@ -2774,7 +2776,15 @@ ulcer:
     - value: ʌlsɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'bleed%2:29:00::'
+      - 'cure%2:29:00::'
+      - 'heal%2:29:00::'
+      - 'healing%1:22:00::'
+      - 'leg%1:08:01::'
+      - 'mouth%1:08:01::'
+      - 'stomach%1:08:00::'
+      derivation:
       - ulcerous%5:00:00:unhealthy:00
       - 'ulcerate%2:30:00::'
       - 'ulcerate%2:29:00::'
@@ -2878,7 +2888,9 @@ ulna:
     pronunciation:
     - value: ˈʌlnə
     sense:
-    - derivation:
+    - collocation:
+      - 'arm%1:08:00::'
+      derivation:
       - 'ulnar%3:01:00::'
       id: 'ulna%1:08:00::'
       synset: 05601231-n
@@ -2951,7 +2963,9 @@ ulteriorly:
 ultima:
   n:
     sense:
-    - id: 'ultima%1:10:00::'
+    - collocation:
+      - 'accent%2:32:00::'
+      id: 'ultima%1:10:00::'
       synset: 06316019-n
 ultima Thule:
   n:
@@ -3019,7 +3033,20 @@ ultimatum:
     pronunciation:
     - value: ˌʌl.tɪˈmeɪ.təm
     sense:
-    - id: 'ultimatum%1:10:00::'
+    - collocation:
+      - 'comply%2:41:00::'
+      - 'deliver%2:32:01::'
+      - 'demand%2:32:00::'
+      - 'dismiss%2:32:00::'
+      - 'expire%2:42:00::'
+      - 'give%2:40:05::'
+      - 'issue%2:32:01::'
+      - 'meet%2:42:00::'
+      - 'present%2:32:00::'
+      - 'receive%2:30:01::'
+      - 'send%2:35:00::'
+      - 'withdraw%2:32:00::'
+      id: 'ultimatum%1:10:00::'
       synset: 07206356-n
 ultimo:
   a:
@@ -3216,7 +3243,9 @@ ultrasound:
       - ultrasonic%5:00:00:inaudible:00
       id: 'ultrasound%1:19:00::'
       synset: 11501609-n
-    - id: 'ultrasound%1:04:00::'
+    - collocation:
+      - 'scan%1:06:00::'
+      id: 'ultrasound%1:04:00::'
       synset: 00903487-n
 ultrasound scanner:
   n:
@@ -3249,12 +3278,16 @@ ultraviolet lamp:
 ultraviolet light:
   n:
     sense:
-    - id: 'ultraviolet_light%1:19:00::'
+    - collocation:
+      - 'erase%2:32:00::'
+      id: 'ultraviolet_light%1:19:00::'
       synset: 11542373-n
 ultraviolet radiation:
   n:
     sense:
-    - id: 'ultraviolet_radiation%1:19:00::'
+    - collocation:
+      - 'fluoresce%2:39:00::'
+      id: 'ultraviolet_radiation%1:19:00::'
       synset: 11542373-n
 ultraviolet source:
   n:
@@ -3400,7 +3433,11 @@ umbilical:
 umbilical cord:
   n:
     sense:
-    - id: 'umbilical_cord%1:08:00::'
+    - collocation:
+      - 'clamp%2:35:00::'
+      - 'connect%2:35:00::'
+      - 'cut%2:35:00::'
+      id: 'umbilical_cord%1:08:00::'
       synset: 05528130-n
 umbilical hernia:
   n:
@@ -3459,7 +3496,9 @@ umbrage:
     pronunciation:
     - value: ˈʌm.bɹɪdʒ
     sense:
-    - derivation:
+    - collocation:
+      - 'give%2:40:03::'
+      derivation:
       - umbrageous%5:00:00:angry:00
       id: 'umbrage%1:12:00::'
       synset: 07532789-n
@@ -3484,11 +3523,31 @@ umbrella:
     pronunciation:
     - value: ʌmˈbɹɛlə
     sense:
-    - id: 'umbrella%1:06:00::'
+    - collocation:
+      - 'carry%2:42:01::'
+      - 'fold%2:35:00::'
+      - 'forget%2:31:02::'
+      - 'golf%1:04:00::'
+      - 'lose%2:40:01::'
+      - 'lower%2:38:00::'
+      - 'open%2:35:00::'
+      - 'shade%1:06:00::'
+      - 'sun%1:19:00::'
+      - 'unfurl%2:30:00::'
+      id: 'umbrella%1:06:00::'
       synset: 04514450-n
     - id: 'umbrella%1:04:00::'
       synset: 00831579-n
-    - id: 'umbrella%1:04:01::'
+    - collocation:
+      - 'group%1:03:00::'
+      - 'body%1:14:00::'
+      - 'fall_into%2:42:00::'
+      - 'header%1:10:00::'
+      - 'name%1:10:00::'
+      - 'organization%1:14:01::'
+      - 'term%1:10:00::'
+      - 'word%1:10:00::'
+      id: 'umbrella%1:04:01::'
       synset: 00383879-n
 umbrella arum:
   n:
@@ -3590,7 +3649,12 @@ umpire:
     - value: ˈʌm.paɪ.ə(ɹ)
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'abuse%2:32:00::'
+      - 'call%1:04:00::'
+      - 'card%1:10:03::'
+      - 'forfeit%2:40:00::'
+      derivation:
       - 'umpire%2:33:00::'
       id: 'umpire%1:18:00::'
       synset: 10755641-n
@@ -5409,7 +5473,10 @@ unblock:
     pronunciation:
     - value: ʌnˈblɒk
     sense:
-    - id: 'unblock%2:35:02::'
+    - collocation:
+      - 'drain%1:06:00::'
+      - 'toilet%1:06:01::'
+      id: 'unblock%2:35:02::'
       subcat:
       - vtai
       - vtii
@@ -5420,6 +5487,8 @@ unblock:
       synset: 01078005-v
     - antonym:
       - 'block%2:30:02::'
+      collocation:
+      - 'account%1:26:00::'
       id: 'unblock%2:30:00::'
       subcat:
       - vtai
@@ -5455,6 +5524,8 @@ unbolt:
     sense:
     - antonym:
       - 'bolt%2:35:00::'
+      collocation:
+      - 'door%1:06:00::'
       id: 'unbolt%2:35:00::'
       sent:
       - They want to unbolt the doors
@@ -5680,6 +5751,9 @@ unbuckle:
     sense:
     - antonym:
       - 'buckle%2:35:00::'
+      collocation:
+      - 'belt%1:06:00::'
+      - 'strap%1:06:01::'
       id: 'unbuckle%2:35:00::'
       subcat:
       - vtai
@@ -5729,6 +5803,12 @@ unbutton:
     sense:
     - antonym:
       - 'button%2:35:00::'
+      collocation:
+      - 'blouse%1:06:00::'
+      - 'coat%1:06:00::'
+      - 'collar%1:06:00::'
+      - 'jacket%1:06:00::'
+      - 'shirt%1:06:00::'
       id: 'unbutton%2:35:00::'
       subcat:
       - vtai
@@ -5980,6 +6060,9 @@ uncertainty:
     sense:
     - antonym:
       - 'certainty%1:07:00::'
+      collocation:
+      - 'conclude%2:32:01::'
+      - 'express%2:32:01::'
       id: 'uncertainty%1:07:00::'
       synset: 04764142-n
     - antonym:
@@ -6323,11 +6406,18 @@ uncle:
     sense:
     - antonym:
       - 'aunt%1:18:00::'
+      collocation:
+      - 'depose%2:41:00::'
       derivation:
       - 'avuncular%3:01:00::'
       id: 'uncle%1:18:00::'
       synset: 10755748-n
-    - id: 'uncle%1:18:01::'
+    - collocation:
+      - 'act%2:36:00::'
+      - 'aid%1:04:00::'
+      - 'encouragement%1:04:00::'
+      - 'source%1:18:00::'
+      id: 'uncle%1:18:01::'
       synset: 10755916-n
 unclean:
   a:
@@ -6568,6 +6658,8 @@ uncoil:
     sense:
     - antonym:
       - 'coil%2:35:00::'
+      collocation:
+      - 'snake%1:05:00::'
       id: 'uncoil%2:35:00::'
       subcat:
       - vtai
@@ -7163,6 +7255,9 @@ unconsciousness:
     sense:
     - antonym:
       - 'consciousness%1:09:00::'
+      collocation:
+      - 'chloroform%2:29:00::'
+      - 'sink%2:38:07::'
       derivation:
       - unconscious%5:00:01:unaware:00
       - 'unconscious%3:00:00::'
@@ -7438,6 +7533,8 @@ uncork:
       synset: 01478367-v
     - antonym:
       - 'cork%2:35:00::'
+      collocation:
+      - 'bottle%1:06:00::'
       id: 'uncork%2:35:00::'
       subcat:
       - vtai
@@ -8310,7 +8407,9 @@ underbred:
 underbrush:
   n:
     sense:
-    - id: 'underbrush%1:14:00::'
+    - collocation:
+      - 'clear%2:30:09::'
+      id: 'underbrush%1:14:00::'
       synset: 08456468-n
 undercarriage:
   n:
@@ -8384,7 +8483,10 @@ undercoat:
       - 'undercoat%2:35:00::'
       id: 'undercoat%1:06:01::'
       synset: 03365691-n
-    - id: 'undercoat%1:05:00::'
+    - collocation:
+      - 'coat%1:05:00::'
+      - 'dog%1:05:00::'
+      id: 'undercoat%1:05:00::'
       synset: 01901879-n
   v:
     sense:
@@ -8465,7 +8567,9 @@ undercut:
     form:
     - undercutting
     sense:
-    - id: 'undercut%2:40:00::'
+    - collocation:
+      - 'price%1:21:00::'
+      id: 'undercut%2:40:00::'
       subcat:
       - vtaa
       synset: 02356463-v
@@ -8499,7 +8603,9 @@ undercut:
       subcat:
       - vtai
       synset: 01405771-v
-    - derivation:
+    - collocation:
+      - 'tree%1:20:00::'
+      derivation:
       - 'undercut%1:06:00::'
       event:
       - 'undercut%1:06:00::'
@@ -8528,7 +8634,9 @@ underdeveloped:
 underdevelopment:
   n:
     sense:
-    - id: 'underdevelopment%1:26:00::'
+    - collocation:
+      - 'industry%1:04:00::'
+      id: 'underdevelopment%1:26:00::'
       synset: 14446672-n
     - derivation:
       - 'underdevelop%2:39:00::'
@@ -8591,6 +8699,8 @@ underestimate:
     sense:
     - antonym:
       - 'overestimate%2:31:02::'
+      collocation:
+      - 'seriousness%1:07:00::'
       derivation:
       - 'underestimate%1:09:00::'
       - 'underestimation%1:09:00::'
@@ -8616,6 +8726,12 @@ underestimate:
       synset: 00675685-v
     - antonym:
       - 'overestimate%2:31:00::'
+      collocation:
+      - 'consequence%1:19:00::'
+      - 'extent%1:26:00::'
+      - 'importance%1:07:00::'
+      - 'significance%1:07:00::'
+      - 'size%1:07:00::'
       derivation:
       - 'underestimation%1:09:00::'
       event:
@@ -8734,7 +8850,46 @@ undergo:
     - value: ˌʌndəˈɡəʊ
       variety: GB
     sense:
-    - id: 'undergo%2:39:04::'
+    - collocation:
+      - 'checkup%1:04:00::'
+      - 'chemotherapy%1:04:00::'
+      - 'examination%1:04:00::'
+      - 'expansion%1:04:00::'
+      - 'operation%1:04:00::'
+      - 'physical_therapy%1:04:00::'
+      - 'procedure%1:04:00::'
+      - 'process%1:03:00::'
+      - 'reconstruction%1:04:00::'
+      - 'renovation%1:04:00::'
+      - 'reorganization%1:04:00::'
+      - 'reorganization%1:04:01::'
+      - 'repair%1:04:00::'
+      - 'restoration%1:04:00::'
+      - 'revision%1:04:00::'
+      - 'revival%1:04:01::'
+      - 'test%1:04:03::'
+      - 'testing%1:04:00::'
+      - 'testing%1:04:03::'
+      - 'therapy%1:04:00::'
+      - 'training%1:04:00::'
+      - 'transition%1:04:00::'
+      - 'transplant%1:04:02::'
+      - 'treatment%1:04:00::'
+      - 'change%1:11:00::'
+      - 'chemical_reaction%1:22:00::'
+      - 'conversion%1:11:01::'
+      - 'destiny%1:11:00::'
+      - 'experience%1:09:00::'
+      - 'hypnosis%1:26:00::'
+      - 'knee%1:08:00::'
+      - 'metamorphosis%1:22:00::'
+      - 'ordeal%1:11:00::'
+      - 'patient%1:18:00::'
+      - 'renovation%1:26:00::'
+      - 'revolution%1:11:01::'
+      - 'transformation%1:11:00::'
+      - 'turbulence%1:26:00::'
+      id: 'undergo%2:39:04::'
       subcat:
       - vtai
       - vtii
@@ -8747,7 +8902,20 @@ undergrad:
 undergraduate:
   n:
     sense:
-    - id: 'undergraduate%1:18:00::'
+    - collocation:
+      - 'academic_degree%1:10:00::'
+      - 'admit%2:41:01::'
+      - 'association%1:14:00::'
+      - 'course%1:04:01::'
+      - 'course_of_study%1:10:00::'
+      - 'education%1:04:00::'
+      - 'enroll%2:41:00::'
+      - 'grant%1:04:00::'
+      - 'student%1:18:00::'
+      - 'study%1:09:03::'
+      - 'grade%1:26:00::'
+      - 'university%1:14:01::'
+      id: 'undergraduate%1:18:00::'
       synset: 10756259-n
 underground:
   a:
@@ -8770,7 +8938,9 @@ underground:
     - value: ˌʌndɚˈɡɹaʊnd
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'government%1:14:00::'
+      derivation:
       - underground%5:00:00:covert:00
       id: 'underground%1:14:00::'
       synset: 08377599-n
@@ -8899,11 +9069,31 @@ underlie:
     pronunciation:
     - value: ˌʌn.də(ɹ)ˈlaɪ
     sense:
-    - id: 'underlie%2:42:00::'
+    - collocation:
+      - 'mechanism%1:04:00::'
+      - 'asset%1:07:00::'
+      - 'assumption%1:09:00::'
+      - 'disease%1:26:00::'
+      - 'doctrine%1:09:00::'
+      - 'hardware%1:06:01::'
+      - 'mechanism%1:17:00::'
+      - 'operating_system%1:10:00::'
+      - 'pathology%1:26:00::'
+      - 'social_structure%1:14:00::'
+      - 'structure%1:07:00::'
+      - 'structure%1:08:00::'
+      id: 'underlie%2:42:00::'
       subcat:
       - vtii
       synset: 02670653-v
-    - id: 'underlie%2:42:01::'
+    - collocation:
+      - 'layer%1:05:00::'
+      - 'bedrock%1:17:00::'
+      - 'geology%1:09:00::'
+      - 'hardware%1:06:01::'
+      - 'issue%1:09:01::'
+      - 'layer%1:15:00::'
+      id: 'underlie%2:42:01::'
       subcat:
       - vtii
       synset: 02698930-v
@@ -8926,7 +9116,10 @@ underline:
     - value: ˈʌndəˌlaɪn
       variety: GB
     sense:
-    - id: 'underline%2:32:00::'
+    - collocation:
+      - 'training%1:04:00::'
+      - 'importance%1:07:00::'
+      id: 'underline%2:32:00::'
       subcat:
       - via-that
       - vtai
@@ -8980,7 +9173,12 @@ undermine:
     - value: ʌndəˈmaɪn
       variety: GB
     sense:
-    - id: 'undermine%2:41:00::'
+    - collocation:
+      - 'authority%1:07:00::'
+      - 'belief%1:09:00::'
+      - 'stability%1:26:00::'
+      - 'viability%1:07:01::'
+      id: 'undermine%2:41:00::'
       subcat:
       - vtai
       synset: 02549304-v
@@ -9032,12 +9230,16 @@ underpants:
 underpart:
   n:
     sense:
-    - id: 'underpart%1:05:00::'
+    - collocation:
+      - 'mottle%2:36:00::'
+      id: 'underpart%1:05:00::'
       synset: 01902008-n
 underpass:
   n:
     sense:
-    - id: 'underpass%1:06:00::'
+    - collocation:
+      - 'path%1:06:00::'
+      id: 'underpass%1:06:00::'
       synset: 04516099-n
 underpay:
   v:
@@ -9224,7 +9426,25 @@ underscore:
     - value: ˈʌn.də(ɹ)ˌskɔː(ɹ)
       variety: GB
     sense:
-    - id: 'underscore%2:32:00::'
+    - collocation:
+      - 'argument%1:10:02::'
+      - 'component%1:09:00::'
+      - 'concept%1:09:00::'
+      - 'difference%1:07:00::'
+      - 'diversity%1:07:01::'
+      - 'diversity%1:07:02::'
+      - 'emotion%1:12:00::'
+      - 'fact%1:10:01::'
+      - 'line%1:09:00::'
+      - 'movement%1:11:00::'
+      - 'position%1:09:00::'
+      - 'relationship%1:24:01::'
+      - 'significance%1:07:00::'
+      - 'style%1:10:00::'
+      - 'teaching%1:09:00::'
+      - 'value%1:07:00::'
+      - 'value%1:09:01::'
+      id: 'underscore%2:32:00::'
       subcat:
       - via-that
       - vtai
@@ -9256,7 +9476,9 @@ undersealed:
 undersecretary:
   n:
     sense:
-    - id: 'undersecretary%1:18:00::'
+    - collocation:
+      - 'government%1:14:00::'
+      id: 'undersecretary%1:18:00::'
       synset: 10756445-n
 undersell:
   v:
@@ -9324,7 +9546,9 @@ underside:
     - value: ˈʌndɚsaɪd
       variety: US
     sense:
-    - id: 'underside%1:15:00::'
+    - collocation:
+      - 'affix%2:35:00::'
+      id: 'underside%1:15:00::'
       synset: 08528313-n
 undersign:
   v:
@@ -9394,7 +9618,50 @@ understand:
     - value: ˌɞndəɹˈstand
       variety: IE
     sense:
-    - derivation:
+    - collocation:
+      - 'mechanism%1:04:00::'
+      - 'need%1:03:00::'
+      - 'phenomenon%1:03:00::'
+      - 'process%1:03:00::'
+      - 'attempt%1:04:00::'
+      - 'background%1:09:01::'
+      - 'basics%1:09:00::'
+      - 'behavior%1:04:01::'
+      - 'behavior%1:26:00::'
+      - 'complexity%1:07:00::'
+      - 'concept%1:09:00::'
+      - 'context%1:26:00::'
+      - 'demeanor%1:07:00::'
+      - 'direction%1:10:02::'
+      - 'elaboration%1:07:00::'
+      - 'feeling%1:09:00::'
+      - 'intuition%1:09:00::'
+      - 'issue%1:09:01::'
+      - 'kernel%1:09:00::'
+      - 'level%1:09:00::'
+      - 'logic%1:09:01::'
+      - 'meaning%1:10:00::'
+      - 'mystery%1:09:00::'
+      - 'nature%1:07:02::'
+      - 'need%1:26:00::'
+      - 'nuance%1:10:00::'
+      - 'people%1:14:03::'
+      - 'point_of_view%1:09:00::'
+      - 'question%1:10:00::'
+      - 'reason%1:16:00::'
+      - 'reasoning%1:09:00::'
+      - 'relationship%1:24:00::'
+      - 'role%1:04:00::'
+      - 'rule%1:09:00::'
+      - 'situation%1:26:01::'
+      - 'symbol%1:10:00::'
+      - 'symbolism%1:10:00::'
+      - 'technicality%1:09:00::'
+      - 'term%1:10:00::'
+      - 'way%1:07:01::'
+      - 'word%1:10:00::'
+      - 'works%1:06:00::'
+      derivation:
       - understandable%5:00:00:comprehensible:00
       - 'understanding%1:09:01::'
       id: 'understand%2:31:00::'
@@ -9407,7 +9674,49 @@ understand:
       - vtaa
       - vtai
       synset: 00590283-v
-    - derivation:
+    - collocation:
+      - 'phenomenon%1:03:00::'
+      - 'ability%1:07:00::'
+      - 'aim%1:09:01::'
+      - 'analogue%1:07:00::'
+      - 'angle%1:09:00::'
+      - 'attraction%1:07:00::'
+      - 'breadth%1:09:00::'
+      - 'death%1:11:00::'
+      - 'death%1:26:00::'
+      - 'difference%1:24:00::'
+      - 'differentiation%1:09:00::'
+      - 'extent%1:26:00::'
+      - 'folly%1:09:00::'
+      - 'futility%1:07:00::'
+      - 'graveness%1:07:00::'
+      - 'humor%1:07:00::'
+      - 'implication%1:09:01::'
+      - 'importance%1:07:00::'
+      - 'inadequacy%1:07:00::'
+      - 'justification%1:09:00::'
+      - 'necessity%1:26:00::'
+      - 'need%1:26:00::'
+      - 'niche%1:26:00::'
+      - 'people%1:14:03::'
+      - 'point%1:09:02::'
+      - 'point%1:10:01::'
+      - 'point_of_view%1:09:00::'
+      - 'position%1:09:00::'
+      - 'predicament%1:26:00::'
+      - 'problem%1:26:00::'
+      - 'reader%1:18:00::'
+      - 'reason%1:16:00::'
+      - 'relevance%1:24:00::'
+      - 'reluctance%1:07:00::'
+      - 'significance%1:07:00::'
+      - 'significance%1:09:01::'
+      - 'situation%1:26:00::'
+      - 'state_of_mind%1:09:01::'
+      - 'thing%1:09:02::'
+      - 'way%1:07:01::'
+      - 'wrong%1:07:01::'
+      derivation:
       - understandable%5:00:00:comprehensible:00
       - 'understanding%1:09:01::'
       id: 'understand%2:31:01::'
@@ -9416,7 +9725,14 @@ understand:
       - via-that
       - vtai
       synset: 00592510-v
-    - derivation:
+    - collocation:
+      - 'ability%1:07:00::'
+      - 'attempt%1:04:00::'
+      - 'language%1:09:01::'
+      - 'language%1:10:00::'
+      - 'natural_language%1:10:00::'
+      - 'term%1:10:00::'
+      derivation:
       - understandable%5:00:00:comprehensible:00
       id: 'understand%2:31:03::'
       subcat:
@@ -9430,7 +9746,12 @@ understand:
       subcat:
       - via-that
       synset: 00594917-v
-    - derivation:
+    - collocation:
+      - 'concern%1:12:01::'
+      - 'people%1:14:01::'
+      - 'problem%1:26:00::'
+      - 'reader%1:18:00::'
+      derivation:
       - understandable%5:00:00:comprehensible:00
       - 'understanding%1:09:03::'
       id: 'understand%2:31:04::'
@@ -9480,14 +9801,46 @@ understanding:
     - value: ˌʌndɚˈstændɪŋ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'advance%2:30:09::'
+      - 'breadth%1:09:00::'
+      - 'deepen%2:30:01::'
+      - 'develop%2:30:06::'
+      - 'enhance%2:30:00::'
+      - 'enrich%2:30:00::'
+      - 'gain%2:40:01::'
+      - 'give%2:40:03::'
+      - 'have%2:40:00::'
+      - 'improve%2:30:01::'
+      - 'increase%2:30:02::'
+      - 'knowledge%1:03:00::'
+      - 'miss%2:42:00::'
+      - 'possess%2:42:00::'
+      - 'reflect%2:39:01::'
+      - 'require%2:42:00::'
+      - 'stretch%1:04:02::'
+      - 'study%1:09:03::'
+      - 'language%1:10:00::'
+      - 'meaning%1:10:00::'
+      - 'nuance%1:10:00::'
+      - 'reader%1:18:00::'
+      - 'widen%2:30:01::'
+      derivation:
       - 'understand%2:31:01::'
       - 'understand%2:31:00::'
       id: 'understanding%1:09:01::'
       synset: 05813483-n
-    - id: 'understanding%1:10:00::'
+    - collocation:
+      - 'memorandum%1:10:00::'
+      id: 'understanding%1:10:00::'
       synset: 06783066-n
-    - derivation:
+    - collocation:
+      - 'absorb%2:31:03::'
+      - 'gain%2:40:01::'
+      - 'promote%2:41:01::'
+      - 'show%2:32:00::'
+      - 'lack%1:26:00::'
+      derivation:
       - 'understand%2:31:04::'
       id: 'understanding%1:09:03::'
       synset: 06208877-n
@@ -9505,6 +9858,13 @@ understate:
     sense:
     - antonym:
       - 'overstate%2:32:00::'
+      collocation:
+      - 'case%1:09:00::'
+      - 'disruption%1:26:00::'
+      - 'extent%1:26:00::'
+      - 'importance%1:07:00::'
+      - 'result%1:11:00::'
+      - 'significance%1:07:00::'
       derivation:
       - 'understatement%1:10:00::'
       event:
@@ -9601,18 +9961,78 @@ undertake:
     - value: ʌndəˈteɪk
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'activity%1:04:00::'
+      - 'assassination%1:04:00::'
+      - 'coup_d''etat%1:04:00::'
+      - 'duty%1:04:00::'
+      - 'enterprise%1:04:00::'
+      - 'escape%1:04:00::'
+      - 'expedition%1:04:00::'
+      - 'first_step%1:04:00::'
+      - 'operation%1:04:03::'
+      - 'project%1:04:00::'
+      - 'rape%1:04:00::'
+      - 'reconstruction%1:04:00::'
+      - 'renovation%1:04:00::'
+      - 'research%1:04:00::'
+      - 'revision%1:04:00::'
+      - 'tour%1:04:00::'
+      - 'dig%1:15:00::'
+      - 'invasion%1:11:00::'
+      - 'plan%1:09:00::'
+      - 'project%1:09:00::'
+      - 'review%1:09:00::'
+      - 'study%1:09:03::'
+      - 'venture%1:04:00::'
+      - 'voyage%1:04:00::'
+      - 'work%1:04:00::'
+      derivation:
       - 'undertaking%1:04:00::'
       id: 'undertake%2:36:00::'
       subcat:
       - via-ger
       - vtai
       synset: 01654835-v
-    - id: 'undertake%2:41:01::'
+    - collocation:
+      - 'conversion%1:04:00::'
+      - 'judgment%1:04:02::'
+      - 'project%1:04:00::'
+      - 'task%1:04:00::'
+      - 'burden%1:09:01::'
+      - 'challenge%1:26:00::'
+      - 'crisis%1:26:00::'
+      - 'debt%1:21:00::'
+      - 'deficit%1:21:00::'
+      - 'face%1:08:01::'
+      - 'firefighter%1:18:00::'
+      - 'matter%1:09:02::'
+      - 'pollution%1:26:00::'
+      - 'unemployment%1:26:00::'
+      id: 'undertake%2:41:01::'
       subcat:
       - vtai
       synset: 02575545-v
-    - id: 'undertake%2:32:00::'
+    - collocation:
+      - 'activity%1:04:00::'
+      - 'duty%1:04:02::'
+      - 'entrance%1:04:00::'
+      - 'exemption%1:04:00::'
+      - 'feat%1:04:00::'
+      - 'inquiry%1:04:00::'
+      - 'investigation%1:04:00::'
+      - 'journey%1:04:00::'
+      - 'project%1:04:00::'
+      - 'reform%1:04:00::'
+      - 'survey%1:04:02::'
+      - 'trip%1:04:00::'
+      - 'duty%1:04:00::'
+      - 'migration%1:11:00::'
+      - 'restoration%1:06:00::'
+      - 'review%1:09:00::'
+      - 'training%1:04:00::'
+      - 'visit%1:04:02::'
+      id: 'undertake%2:32:00::'
       subcat:
       - via-to-inf
       - vtai
@@ -9623,7 +10043,9 @@ undertake:
       subcat:
       - via-to-inf
       synset: 00890307-v
-    - id: 'undertake%2:41:00::'
+    - collocation:
+      - 'mission%1:04:00::'
+      id: 'undertake%2:41:00::'
       subcat:
       - vtai
       synset: 02545352-v
@@ -9639,7 +10061,22 @@ undertaking:
     pronunciation:
     - value: ˈʌndə(ɹ)ˌteɪkɪŋ
     sense:
-    - derivation:
+    - collocation:
+      - 'agree%2:32:01::'
+      - 'order%2:32:01::'
+      - 'test%1:04:00::'
+      - 'collaborate%2:41:00::'
+      - 'collect%2:40:01::'
+      - 'head%1:18:00::'
+      - 'plan%1:09:00::'
+      - 'respect%2:41:00::'
+      - 'sign%2:41:00::'
+      - 'speed%1:07:00::'
+      - 'spend%2:42:00::'
+      - 'succeed%2:41:00::'
+      - 'training%1:04:00::'
+      - 'write%2:36:00::'
+      derivation:
       - 'undertake%2:36:00::'
       id: 'undertaking%1:04:00::'
       synset: 00797381-n
@@ -9655,9 +10092,13 @@ undertone:
     sense:
     - id: 'undertone%1:10:00::'
       synset: 07097328-n
-    - id: 'undertone%1:09:00::'
+    - collocation:
+      - 'have%2:40:00::'
+      id: 'undertone%1:09:00::'
       synset: 05931441-n
-    - id: 'undertone%1:07:00::'
+    - collocation:
+      - 'have%2:40:00::'
+      id: 'undertone%1:07:00::'
       synset: 04966744-n
 undertow:
   n:
@@ -9689,7 +10130,9 @@ undervalue:
       synset: 00697527-v
       undergoer:
       - 'undervaluation%1:09:00::'
-    - derivation:
+    - collocation:
+      - 'importance%1:07:00::'
+      derivation:
       - 'undervaluation%1:09:00::'
       id: 'undervalue%2:31:01::'
       result:
@@ -9737,7 +10180,9 @@ underwear:
     - value: ˈʌndəwɛə
       variety: GB
     sense:
-    - id: 'underwear%1:06:00::'
+    - collocation:
+      - 'apparel%1:06:00::'
+      id: 'underwear%1:06:00::'
       synset: 04516244-n
 underweight:
   a:
@@ -9759,7 +10204,10 @@ underwood:
 underworld:
   n:
     sense:
-    - id: 'underworld%1:14:00::'
+    - collocation:
+      - 'crime%1:04:00::'
+      - 'criminal%1:18:00::'
+      id: 'underworld%1:14:00::'
       synset: 08261980-n
     - id: 'underworld%1:09:00::'
       synset: 05637164-n
@@ -10217,7 +10665,10 @@ undo:
     - undid
     - undone
     sense:
-    - derivation:
+    - collocation:
+      - 'wrong%1:07:01::'
+      - 'work%1:04:00::'
+      derivation:
       - 'undoing%1:04:00::'
       id: 'undo%2:35:00::'
       subcat:
@@ -10241,6 +10692,18 @@ undo:
       synset: 02565025-v
     - agent:
       - 'undoer%1:18:01::'
+      collocation:
+      - 'bolt%1:06:00::'
+      - 'bra%1:06:00::'
+      - 'button%1:06:00::'
+      - 'catch%1:06:00::'
+      - 'clip%1:06:01::'
+      - 'flap%1:06:00::'
+      - 'fly%1:06:00::'
+      - 'harness%1:06:01::'
+      - 'jacket%1:06:00::'
+      - 'tie%1:06:01::'
+      - 'zip%1:06:00::'
       derivation:
       - 'undoer%1:18:01::'
       - 'undoing%1:04:01::'
@@ -10660,7 +11123,10 @@ unearned run:
 unearth:
   v:
     sense:
-    - id: 'unearth%2:40:01::'
+    - collocation:
+      - 'discovery%1:04:00::'
+      - 'talent%1:18:00::'
+      id: 'unearth%2:40:01::'
       subcat:
       - vtaa
       - vtai
@@ -10684,7 +11150,9 @@ unearthly:
 unease:
   n:
     sense:
-    - id: 'unease%1:26:00::'
+    - collocation:
+      - 'cause%2:36:00::'
+      id: 'unease%1:26:00::'
       synset: 14470485-n
     - id: 'unease%1:07:00::'
       synset: 04912028-n
@@ -10906,12 +11374,51 @@ unemployment:
     sense:
     - antonym:
       - 'employment%1:26:00::'
+      collocation:
+      - 'average%2:41:00::'
+      - 'benefit%1:21:00::'
+      - 'cause%2:36:00::'
+      - 'combat%2:33:00::'
+      - 'compensation%1:21:00::'
+      - 'confront%2:32:00::'
+      - 'crisis%1:26:00::'
+      - 'data%1:14:00::'
+      - 'decline%2:30:00::'
+      - 'decrease%2:30:00::'
+      - 'double%2:30:00::'
+      - 'graduate%1:18:00::'
+      - 'increase%2:30:00::'
+      - 'insurance%1:21:02::'
+      - 'keep_down%2:30:00::'
+      - 'level%1:07:00::'
+      - 'make%2:36:00::'
+      - 'money%1:21:00::'
+      - 'number%1:07:00::'
+      - 'payment%1:21:00::'
+      - 'percentage%1:24:00::'
+      - 'rate%1:24:00::'
+      - 'reach%2:38:00::'
+      - 'reduce%2:30:00::'
+      - 'relief%1:04:00::'
+      - 'rise%1:11:00::'
+      - 'rise%2:30:00::'
+      - 'soar%2:38:01::'
+      - 'stand%2:42:04::'
+      - 'statistic%1:09:00::'
+      - 'total%1:06:00::'
+      - 'trap%1:09:00::'
+      - 'undertake%2:41:01::'
+      - 'problem%1:26:00::'
+      - 'wage%1:21:00::'
+      - 'youth%1:14:00::'
       id: 'unemployment%1:26:00::'
       synset: 13991755-n
 unemployment compensation:
   n:
     sense:
-    - id: 'unemployment_compensation%1:04:00::'
+    - collocation:
+      - 'payment%1:21:00::'
+      id: 'unemployment_compensation%1:04:00::'
       synset: 01090361-n
 unemployment line:
   n:
@@ -11726,6 +12233,9 @@ unfasten:
       - 'unfastener%1:18:00::'
       antonym:
       - 'fasten%2:35:01::'
+      collocation:
+      - 'belt%1:06:00::'
+      - 'button%1:06:00::'
       derivation:
       - 'unfastener%1:18:00::'
       - 'unfastening%1:04:00::'
@@ -12202,14 +12712,22 @@ unfold:
     - value: ʌnˈfoʊld
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'event%1:03:00::'
+      - 'drama%1:11:00::'
+      - 'plot%1:10:00::'
+      - 'scenario%1:10:01::'
+      - 'story%1:10:03::'
+      derivation:
       - 'unfolding%1:22:00::'
       id: 'unfold%2:30:00::'
       subcat:
       - via
       - vii
       synset: 00294522-v
-    - id: 'unfold%2:39:00::'
+    - collocation:
+      - 'view%1:09:01::'
+      id: 'unfold%2:39:00::'
       subcat:
       - vtii
       synset: 02148564-v
@@ -12220,6 +12738,15 @@ unfold:
       synset: 02058913-v
     - antonym:
       - 'fold%2:35:00::'
+      collocation:
+      - 'arm%1:08:00::'
+      - 'finger%1:08:00::'
+      - 'hand%1:08:00::'
+      - 'leg%1:08:01::'
+      - 'letter%1:10:00::'
+      - 'map%1:06:00::'
+      - 'napkin%1:06:00::'
+      - 'net%1:06:02::'
       id: 'unfold%2:35:00::'
       subcat:
       - vtai
@@ -12576,6 +13103,11 @@ unfurl:
     sense:
     - antonym:
       - 'roll_up%2:30:00::'
+      collocation:
+      - 'banner%1:06:01::'
+      - 'flag%1:06:00::'
+      - 'safe%1:06:01::'
+      - 'umbrella%1:06:00::'
       id: 'unfurl%2:30:00::'
       subcat:
       - vii
@@ -13052,6 +13584,10 @@ unhappiness:
       synset: 07547828-n
     - antonym:
       - 'happiness%1:26:00::'
+      collocation:
+      - 'cause%2:36:00::'
+      - 'feel%2:37:00::'
+      - 'lead%2:42:12::'
       derivation:
       - 'unhappy%3:00:00::'
       id: 'unhappiness%1:26:00::'
@@ -13286,7 +13822,9 @@ unhinge:
       - vtaa
       - vtia
       synset: 01768023-v
-    - id: 'unhinge%2:30:00::'
+    - collocation:
+      - 'door%1:06:00::'
+      id: 'unhinge%2:30:00::'
       subcat:
       - vtai
       synset: 00179997-v
@@ -13351,6 +13889,8 @@ unhook:
     sense:
     - antonym:
       - 'hook%2:35:00::'
+      collocation:
+      - 'bra%1:06:00::'
       id: 'unhook%2:35:00::'
       subcat:
       - vtai
@@ -13630,7 +14170,28 @@ uniform:
     - value: ˈjuːnɪfɔːm
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'attire%1:06:00::'
+      - 'combat%1:04:00::'
+      - 'design%1:06:00::'
+      - 'disguise%2:39:00::'
+      - 'dress%2:29:00::'
+      - 'introduce%2:36:01::'
+      - 'issue%2:41:00::'
+      - 'regulation%1:04:01::'
+      - 'army%1:14:00::'
+      - 'fireman%1:18:01::'
+      - 'guard%1:18:03::'
+      - 'identification%1:10:01::'
+      - 'member%1:18:00::'
+      - 'police%1:14:00::'
+      - 'ranger%1:18:00::'
+      - 'school%1:14:00::'
+      - 'sheriff%1:18:00::'
+      - 'warden%1:18:00::'
+      - 'wear%2:29:01::'
+      - 'wear%2:29:04::'
+      derivation:
       - 'uniform%2:40:00::'
       id: 'uniform%1:06:00::'
       synset: 04516887-n
@@ -13684,7 +14245,12 @@ uniformity:
     - value: ˌjuːnɪˈfɔːmɪti
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'achieve%2:41:00::'
+      - 'break%2:42:05::'
+      - 'enforce%2:41:01::'
+      - 'guarantee%2:32:03::'
+      derivation:
       - uniform%5:00:00:homogeneous:00
       - 'uniform%3:00:04::'
       - 'uniform%3:00:00::'
@@ -13751,6 +14317,8 @@ unify:
     sense:
     - antonym:
       - 'disunify%2:30:00::'
+      collocation:
+      - 'firm%1:14:00::'
       derivation:
       - 'unification%1:11:00::'
       - 'unification%1:04:00::'
@@ -14473,7 +15041,53 @@ union:
     pronunciation:
     - value: ˈjuːn.jən
     sense:
-    - derivation:
+    - collocation:
+      - 'accept%2:31:01::'
+      - 'action%1:04:02::'
+      - 'activism%1:09:00::'
+      - 'agree%2:32:00::'
+      - 'approve%2:32:00::'
+      - 'assemble%2:36:00::'
+      - 'back%2:41:00::'
+      - 'ban%2:32:00::'
+      - 'belong_to%2:42:00::'
+      - 'claim%2:32:00::'
+      - 'create%2:36:02::'
+      - 'dissolve%2:30:08::'
+      - 'express%2:32:01::'
+      - 'factory%1:06:00::'
+      - 'form%2:41:00::'
+      - 'government%1:14:00::'
+      - 'join%2:41:00::'
+      - 'labour%1:14:00::'
+      - 'law%1:10:00::'
+      - 'militance%1:07:00::'
+      - 'muscle%1:07:01::'
+      - 'negotiate%2:32:00::'
+      - 'organization%1:14:00::'
+      - 'power%1:07:00::'
+      - 'rail%1:06:03::'
+      - 'refuse%2:32:00::'
+      - 'reject%2:31:00::'
+      - 'represent%2:41:00::'
+      - 'threaten%2:32:00::'
+      - 'transport%1:06:00::'
+      - 'treat%2:32:03::'
+      - 'affiliation%1:26:00::'
+      - 'credit%1:21:00::'
+      - 'farmer%1:18:00::'
+      - 'federation%1:14:01::'
+      - 'leader%1:18:00::'
+      - 'member%1:18:00::'
+      - 'membership%1:26:00::'
+      - 'militant%1:18:00::'
+      - 'movement%1:14:00::'
+      - 'official%1:18:01::'
+      - 'representative%1:18:00::'
+      - 'right%1:21:00::'
+      - 'teacher%1:18:00::'
+      - 'worker%1:18:00::'
+      derivation:
       - 'unionize%2:41:01::'
       - 'unionize%2:41:00::'
       id: 'union%1:14:01::'
@@ -14482,13 +15096,21 @@ union:
       synset: 00848970-n
     - antonym:
       - 'separation%1:26:00::'
+      collocation:
+      - 'compound%1:09:00::'
+      - 'endure%2:42:06::'
+      - 'compound%1:27:00::'
       id: 'union%1:26:00::'
       synset: 14441799-n
-    - id: 'union%1:26:02::'
+    - collocation:
+      - 'bag%1:04:00::'
+      id: 'union%1:26:02::'
       synset: 13987306-n
     - id: 'union%1:22:00::'
       synset: 13592568-n
-    - id: 'union%1:14:02::'
+    - collocation:
+      - 'separate%2:41:02::'
+      id: 'union%1:14:02::'
       synset: 08321825-n
     - id: 'union%1:14:03::'
       synset: 08015154-n
@@ -14498,6 +15120,11 @@ union:
       synset: 04517110-n
     - antonym:
       - 'disunion%1:04:00::'
+      collocation:
+      - 'achieve%2:41:00::'
+      - 'currency%1:21:00::'
+      - 'endure%2:42:06::'
+      - 'produce%2:36:03::'
       derivation:
       - 'unite%2:30:00::'
       id: 'union%1:04:00::'
@@ -14741,32 +15368,124 @@ unit:
     pronunciation:
     - value: ˈjuː.nɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'currency%1:21:00::'
+      - 'field%1:14:03::'
+      - 'length%1:07:00::'
+      - 'measurement%1:04:00::'
+      - 'penny%1:21:00::'
+      - 'barrel%1:23:01::'
+      - 'cup%1:23:02::'
+      - 'hand%1:23:00::'
+      - 'nail%1:23:00::'
+      - 'volume%1:23:00::'
+      derivation:
       - 'unitize%2:41:00::'
       - 'unitize%2:30:00::'
       id: 'unit%1:23:00::'
       synset: 13604927-n
-    - derivation:
+    - collocation:
+      - 'assign%2:31:00::'
+      - 'baby%1:18:00::'
+      - 'build%2:36:00::'
+      - 'cell%1:03:00::'
+      - 'consist%2:42:01::'
+      - 'contain%2:42:00::'
+      - 'control%1:06:00::'
+      - 'cupboard%1:06:00::'
+      - 'delegate%2:41:00::'
+      - 'display%1:06:01::'
+      - 'disposal%1:04:00::'
+      - 'equip%2:40:00::'
+      - 'establish%2:31:03::'
+      - 'fabrication%1:04:00::'
+      - 'flash%1:06:00::'
+      - 'foot%1:10:00::'
+      - 'hospital%1:06:00::'
+      - 'housing%1:06:00::'
+      - 'include%2:42:00::'
+      - 'install%2:35:00::'
+      - 'kitchen%1:06:00::'
+      - 'number%1:07:00::'
+      - 'organ%1:08:00::'
+      - 'pair%1:14:01::'
+      - 'production%1:23:00::'
+      - 'rhythm%1:10:01::'
+      - 'sell%2:40:00::'
+      - 'sink%1:06:00::'
+      - 'storage%1:04:01::'
+      - 'substitute%1:09:00::'
+      - 'use%2:34:01::'
+      - 'wall%1:06:00::'
+      - 'word%1:10:00::'
+      derivation:
       - 'unitize%2:41:00::'
       - 'unitize%2:30:00::'
       id: 'unit%1:24:00::'
       synset: 13832535-n
-    - derivation:
+    - collocation:
+      - 'business%1:14:00::'
+      - 'care%1:04:01::'
+      - 'combat%1:04:00::'
+      - 'consist%2:42:01::'
+      - 'contend%2:33:01::'
+      - 'disband%2:38:00::'
+      - 'disband%2:38:01::'
+      - 'engage%2:41:12::'
+      - 'group%1:03:00::'
+      - 'hire%2:41:00::'
+      - 'intelligence%1:10:02::'
+      - 'liaison%1:10:00::'
+      - 'monitoring%1:04:00::'
+      - 'movie%1:10:00::'
+      - 'operate%2:35:02::'
+      - 'pair%1:14:00::'
+      - 'prosecute%2:41:02::'
+      - 'provide%2:40:00::'
+      - 'rescue%1:04:00::'
+      - 'research%1:04:00::'
+      - 'service%1:04:08::'
+      - 'support%1:04:03::'
+      - 'train%2:31:01::'
+      - 'training%1:04:00::'
+      - 'army%1:14:00::'
+      - 'artillery%1:14:00::'
+      - 'casualty%1:18:00::'
+      - 'cell%1:14:00::'
+      - 'enemy%1:14:00::'
+      - 'guerrilla%1:18:00::'
+      - 'militia%1:14:00::'
+      - 'police%1:14:00::'
+      - 'specialist%1:18:00::'
+      - 'terrorist%1:18:00::'
+      - 'volunteer%1:18:01::'
+      - 'wing%1:14:00::'
+      derivation:
       - 'unitize%2:30:00::'
       id: 'unit%1:14:00::'
       synset: 08206589-n
-    - derivation:
+    - collocation:
+      - 'cost%1:07:00::'
+      - 'divide%2:41:00::'
+      derivation:
       - 'unify%2:30:00::'
       - 'unitize%2:30:00::'
       id: 'unit%1:09:00::'
       synset: 05878479-n
-    - derivation:
+    - collocation:
+      - 'average%2:42:00::'
+      - 'decompose%2:30:00::'
+      - 'live_in%2:34:00::'
+      derivation:
       - 'unitize%2:41:00::'
       - 'unitize%2:35:00::'
       - 'unitize%2:30:00::'
       id: 'unit%1:17:00::'
       synset: 09488589-n
-    - derivation:
+    - collocation:
+      - 'arrangement%1:14:00::'
+      - 'form%2:42:00::'
+      derivation:
       - 'unify%2:35:00::'
       - 'unify%2:30:00::'
       - 'unitize%2:35:00::'
@@ -14806,12 +15525,24 @@ unit of ammunition:
 unit of measurement:
   n:
     sense:
-    - id: 'unit_of_measurement%1:23:00::'
+    - collocation:
+      - 'chain%1:23:00::'
+      - 'cm%1:23:00::'
+      - 'degree%1:23:03::'
+      - 'digit%1:23:01::'
+      - 'mile%1:23:04::'
+      - 'minute%1:23:00::'
+      - 'period%1:28:03::'
+      - 'weight%1:23:00::'
+      - 'weight%1:23:01::'
+      id: 'unit_of_measurement%1:23:00::'
       synset: 13604927-n
 unit of time:
   n:
     sense:
-    - id: 'unit_of_time%1:28:00::'
+    - collocation:
+      - 'speed%1:28:00::'
+      id: 'unit_of_time%1:28:00::'
       synset: 15179734-n
 unit of viscosity:
   n:
@@ -14880,7 +15611,12 @@ unite:
       - via
       - vii
       synset: 00368338-v
-    - id: 'unite%2:42:01::'
+    - collocation:
+      - 'exercise%1:04:02::'
+      - 'drug%1:06:00::'
+      - 'names%1:10:00::'
+      - 'type%1:09:00::'
+      id: 'unite%2:42:01::'
       subcat:
       - vtai-with
       synset: 02637244-v
@@ -14889,12 +15625,17 @@ unite:
       - via
       - vii
       synset: 02628315-v
-    - id: 'unite%2:41:04::'
+    - collocation:
+      - 'nation%1:14:01::'
+      id: 'unite%2:41:04::'
       subcat:
       - vtaa
       - vtia
       synset: 02609063-v
-    - derivation:
+    - collocation:
+      - 'background%1:11:01::'
+      - 'firm%1:14:00::'
+      derivation:
       - 'uniting%1:04:01::'
       id: 'unite%2:30:02::'
       subcat:
@@ -15057,7 +15798,9 @@ unity:
       synset: 14484149-n
     - id: 'unity%1:23:00::'
       synset: 13764713-n
-    - id: 'unity%1:07:00::'
+    - collocation:
+      - 'party%1:14:01::'
+      id: 'unity%1:07:00::'
       synset: 04750610-n
 univalent:
   a:
@@ -15275,7 +16018,23 @@ universe:
     - value: ˈjuːnəˌvɝs
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'assume%2:31:00::'
+      - 'create%2:36:02::'
+      - 'develop%2:36:01::'
+      - 'earth%1:17:00::'
+      - 'end%2:42:00::'
+      - 'exclude%2:41:00::'
+      - 'expand%2:38:00::'
+      - 'planet%1:17:00::'
+      - 'star%1:17:00::'
+      - 'star%1:17:01::'
+      - 'sun%1:17:00::'
+      - 'development%1:22:02::'
+      - 'long_time%1:28:00::'
+      - 'overlord%1:18:00::'
+      - 'ruler%1:18:00::'
+      derivation:
       - universal%5:00:00:comprehensive:00
       id: 'universe%1:17:00::'
       synset: 09489410-n
@@ -15296,11 +16055,98 @@ university:
     - value: junɪˈvɝsəti
       variety: US
     sense:
-    - id: 'university%1:14:00::'
+    - collocation:
+      - 'accept%2:31:01::'
+      - 'accept%2:40:03::'
+      - 'accept%2:40:07::'
+      - 'become%2:30:00::'
+      - 'decide%2:31:00::'
+      - 'establish%2:36:00::'
+      - 'govern%2:42:00::'
+      - 'child%1:18:01::'
+      - 'university%1:14:01::'
+      id: 'university%1:14:00::'
       synset: 08303084-n
-    - id: 'university%1:06:00::'
+    - collocation:
+      - 'accept%2:31:01::'
+      - 'accept%2:40:03::'
+      - 'accredit%2:41:00::'
+      - 'attend%2:42:00::'
+      - 'become%2:30:00::'
+      - 'building%1:06:00::'
+      - 'continue%2:30:10::'
+      - 'continue%2:42:01::'
+      - 'course%1:04:01::'
+      - 'decide%2:31:00::'
+      - 'facility%1:06:00::'
+      - 'library%1:06:00::'
+      - 'position%1:04:01::'
+      - 'teach%2:32:00::'
+      - 'teaching%1:04:00::'
+      - 'administration%1:14:00::'
+      - 'authority%1:18:01::'
+      - 'campus%1:15:00::'
+      - 'department%1:14:00::'
+      - 'learning%1:09:00::'
+      - 'town%1:15:00::'
+      id: 'university%1:06:00::'
       synset: 04518297-n
-    - id: 'university%1:14:01::'
+    - collocation:
+      - 'accept%2:40:03::'
+      - 'admit%2:41:01::'
+      - 'affiliate%2:41:00::'
+      - 'announce%2:32:02::'
+      - 'apply%2:32:00::'
+      - 'association%1:04:00::'
+      - 'attendance%1:04:00::'
+      - 'become%2:30:00::'
+      - 'building%1:06:00::'
+      - 'class%1:14:04::'
+      - 'college%1:14:01::'
+      - 'complete%2:30:02::'
+      - 'continue%2:42:01::'
+      - 'continue%2:42:12::'
+      - 'decide%2:31:00::'
+      - 'degree%1:07:00::'
+      - 'degree%1:10:00::'
+      - 'department%1:14:00::'
+      - 'dormitory%1:06:00::'
+      - 'education%1:09:00::'
+      - 'enter%2:41:06::'
+      - 'govern%2:42:00::'
+      - 'government%1:14:00::'
+      - 'graduate%2:40:00::'
+      - 'hall%1:06:08::'
+      - 'hospital%1:14:00::'
+      - 'learning%1:09:00::'
+      - 'leave%2:41:00::'
+      - 'literature%1:09:00::'
+      - 'offer%2:40:10::'
+      - 'press%1:10:00::'
+      - 'professorship%1:04:00::'
+      - 'regulate%2:41:01::'
+      - 'research%1:04:00::'
+      - 'school%1:14:00::'
+      - 'state%1:14:00::'
+      - 'stay%2:42:02::'
+      - 'study%1:09:03::'
+      - 'study%2:31:03::'
+      - 'university%1:14:00::'
+      - 'day%1:28:03::'
+      - 'graduate%1:18:00::'
+      - 'lecturer%1:18:01::'
+      - 'level%1:26:01::'
+      - 'life%1:26:01::'
+      - 'president%1:18:02::'
+      - 'professor%1:18:00::'
+      - 'status%1:26:00::'
+      - 'student%1:18:00::'
+      - 'teacher%1:18:00::'
+      - 'term%1:28:00::'
+      - 'undergraduate%1:18:00::'
+      - 'vacation%1:28:00::'
+      - 'year%1:28:02::'
+      id: 'university%1:14:01::'
       synset: 08303490-n
 university extension:
   n:
@@ -15769,16 +16615,32 @@ unleash:
     pronunciation:
     - value: ʌnˈliʃ
     sense:
-    - id: 'unleash%2:35:00::'
+    - collocation:
+      - 'anger%1:12:00::'
+      - 'chaos%1:26:00::'
+      - 'fiend%1:18:02::'
+      - 'fire%1:10:00::'
+      - 'fury%1:07:00::'
+      - 'tirade%1:10:00::'
+      id: 'unleash%2:35:00::'
       subcat:
       - vtai
       synset: 01478045-v
-    - id: 'unleash%2:35:01::'
+    - collocation:
+      - 'dog%1:05:00::'
+      - 'evil_spirit%1:18:00::'
+      - 'fiend%1:18:02::'
+      id: 'unleash%2:35:01::'
       subcat:
       - vtaa
       - vtai
       synset: 01478458-v
-    - id: 'unleash%2:35:02::'
+    - collocation:
+      - 'barrage%1:04:00::'
+      - 'fusillade%1:04:00::'
+      - 'flood%1:23:00::'
+      - 'stream%1:26:00::'
+      id: 'unleash%2:35:02::'
       subcat:
       - vtaa
       - vtai
@@ -16016,14 +16878,23 @@ unload:
     - value: ʌnˈloʊd
       variety: US
     sense:
-    - id: 'unload%2:35:02::'
+    - collocation:
+      - 'cargo%1:06:00::'
+      id: 'unload%2:35:02::'
       subcat:
       - vtaa
       - vtaa-pp
       - vtai
       - vtai-pp
       synset: 01492094-v
-    - derivation:
+    - collocation:
+      - 'barge%1:06:00::'
+      - 'boat%1:06:00::'
+      - 'cart%1:06:00::'
+      - 'crate%1:06:00::'
+      - 'ship%1:06:00::'
+      - 'van%1:06:00::'
+      derivation:
       - 'unloading%1:04:00::'
       id: 'unload%2:35:00::'
       subcat:
@@ -16063,6 +16934,13 @@ unlock:
     sense:
     - antonym:
       - 'lock%2:35:00::'
+      collocation:
+      - 'briefcase%1:06:00::'
+      - 'catch%1:06:00::'
+      - 'door%1:06:00::'
+      - 'handcuff%1:06:00::'
+      - 'key%1:06:00::'
+      - 'passkey%1:06:00::'
       id: 'unlock%2:35:00::'
       sent:
       - They want to unlock the doors
@@ -16071,7 +16949,9 @@ unlock:
       - vtai-pp
       - vtii
       synset: 01351387-v
-    - id: 'unlock%2:35:01::'
+    - collocation:
+      - 'capital%1:21:01::'
+      id: 'unlock%2:35:01::'
       subcat:
       - vtai
       - vtii
@@ -16079,6 +16959,8 @@ unlock:
     - antonym:
       - 'lock%2:35:00::'
       - 'lock%2:30:00::'
+      collocation:
+      - 'door%1:06:00::'
       id: 'unlock%2:30:00::'
       subcat:
       - vii
@@ -17299,6 +18181,8 @@ unoriginality:
       synset: 05657473-n
     - antonym:
       - 'originality%1:07:00::'
+      collocation:
+      - 'camp%1:09:00::'
       derivation:
       - 'unoriginal%3:00:00::'
       id: 'unoriginality%1:07:00::'
@@ -17370,6 +18254,14 @@ unpack:
     sense:
     - antonym:
       - 'pack%2:35:00::'
+      collocation:
+      - 'bag%1:06:00::'
+      - 'bag%1:06:01::'
+      - 'box%1:06:00::'
+      - 'crate%1:06:00::'
+      - 'knapsack%1:06:00::'
+      - 'packet%1:06:00::'
+      - 'shopping%1:06:00::'
       id: 'unpack%2:35:00::'
       subcat:
       - vtai
@@ -17888,6 +18780,12 @@ unplug:
     sense:
     - antonym:
       - 'plug_in%2:35:00::'
+      collocation:
+      - 'electricity%1:19:01::'
+      - 'life_support%1:06:00::'
+      - 'machine%1:06:00::'
+      - 'switch%1:06:01::'
+      - 'telephone%1:06:00::'
       id: 'unplug%2:35:00::'
       subcat:
       - vtai
@@ -17952,6 +18850,8 @@ unpopularity:
     sense:
     - antonym:
       - 'popularity%1:07:00::'
+      collocation:
+      - 'increase%2:30:02::'
       derivation:
       - 'unpopular%3:00:00::'
       id: 'unpopularity%1:07:00::'
@@ -18613,6 +19513,11 @@ unravel:
       - 'unraveler%1:18:00::'
       antonym:
       - 'ravel%2:35:00::'
+      collocation:
+      - 'run%1:11:01::'
+      - 'strand%1:06:02::'
+      - 'tangle%1:17:00::'
+      - 'thread%1:06:00::'
       derivation:
       - 'unraveler%1:18:00::'
       id: 'unravel%2:35:00::'
@@ -18625,6 +19530,8 @@ unravel:
       - 'unraveler%1:18:00::'
       antonym:
       - 'ravel%2:35:00::'
+      collocation:
+      - 'mystery%1:09:00::'
       derivation:
       - 'unraveller%1:18:00::'
       - 'unraveler%1:18:00::'
@@ -19388,7 +20295,10 @@ unrest:
     pronunciation:
     - value: ʌnˈɹɛst
     sense:
-    - id: 'unrest%1:26:00::'
+    - collocation:
+      - 'incite%2:32:00::'
+      - 'quell%2:30:00::'
+      id: 'unrest%1:26:00::'
       synset: 14002988-n
     - id: 'unrest%1:12:00::'
       synset: 07528950-n
@@ -19976,6 +20886,8 @@ unscramble:
     sense:
     - antonym:
       - 'scramble%2:30:00::'
+      collocation:
+      - 'signal%1:19:00::'
       id: 'unscramble%2:30:00::'
       subcat:
       - vtai
@@ -19988,13 +20900,19 @@ unscramble:
 unscrew:
   v:
     sense:
-    - id: 'unscrew%2:35:00::'
+    - collocation:
+      - 'bolt%1:06:00::'
+      - 'nut%1:06:00::'
+      id: 'unscrew%2:35:00::'
       subcat:
       - vtai
       - vtai-pp
       synset: 01355231-v
     - antonym:
       - 'screw%2:35:01::'
+      collocation:
+      - 'cap%1:06:02::'
+      - 'top%1:06:01::'
       id: 'unscrew%2:35:01::'
       subcat:
       - vtai
@@ -20116,7 +21034,9 @@ unseat:
     pronunciation:
     - value: ʌnˈsiːt
     sense:
-    - id: 'unseat%2:41:00::'
+    - collocation:
+      - 'power%1:26:00::'
+      id: 'unseat%2:41:00::'
       subcat:
       - vtaa
       synset: 02396792-v
@@ -20495,6 +21415,8 @@ unsheathe:
     sense:
     - antonym:
       - 'sheathe%2:35:00::'
+      collocation:
+      - 'sword%1:06:00::'
       id: 'unsheathe%2:35:00::'
       subcat:
       - vtai
@@ -22148,6 +23070,10 @@ untie:
       - 'untier%1:18:00::'
       antonym:
       - 'tie%2:35:00::'
+      collocation:
+      - 'boot%1:06:00::'
+      - 'cord%1:06:00::'
+      - 'shoe%1:06:00::'
       derivation:
       - 'untier%1:18:00::'
       id: 'untie%2:35:00::'
@@ -22161,6 +23087,16 @@ untie:
       synset: 01287064-v
     - agent:
       - 'untier%1:18:00::'
+      collocation:
+      - 'belt%1:06:00::'
+      - 'boat%1:06:00::'
+      - 'cord%1:06:00::'
+      - 'knot%1:06:00::'
+      - 'ribbon%1:06:00::'
+      - 'rope%1:06:00::'
+      - 'shoelace%1:06:00::'
+      - 'strap%1:06:01::'
+      - 'string%1:06:00::'
       derivation:
       - 'untier%1:18:00::'
       - 'untying%1:04:00::'
@@ -22869,12 +23805,20 @@ unveil:
       - vtai
       - vtii
       synset: 01486108-v
-    - id: 'unveil%2:39:00::'
+    - collocation:
+      - 'flashback%1:10:00::'
+      - 'memorial%1:06:00::'
+      - 'plan%1:09:00::'
+      - 'statue%1:06:00::'
+      id: 'unveil%2:39:00::'
       subcat:
       - vtai
       - vtii
       synset: 02147756-v
-    - derivation:
+    - collocation:
+      - 'memorial%1:06:00::'
+      - 'plaque%1:06:00::'
+      derivation:
       - 'unveiling%1:10:00::'
       id: 'unveil%2:35:01::'
       subcat:
@@ -23266,6 +24210,8 @@ unwillingness:
     sense:
     - antonym:
       - 'willingness%1:07:00::'
+      collocation:
+      - 'spoil%2:41:00::'
       derivation:
       - unwilling%5:00:00:involuntary:01
       - 'unwilling%3:00:00::'
@@ -23280,6 +24226,9 @@ unwind:
     sense:
     - antonym:
       - 'wind%2:35:06::'
+      collocation:
+      - 'coil%1:06:00::'
+      - 'string%1:06:00::'
       id: 'unwind%2:35:06::'
       subcat:
       - vtai
@@ -23483,6 +24432,9 @@ unwrap:
     sense:
     - antonym:
       - 'wrap%2:35:00::'
+      collocation:
+      - 'package%1:06:00::'
+      - 'present%1:21:00::'
       id: 'unwrap%2:35:00::'
       subcat:
       - vtai
@@ -23557,6 +24509,11 @@ unzip:
     sense:
     - antonym:
       - 'zip_up%2:35:00::'
+      collocation:
+      - 'bag%1:06:00::'
+      - 'dress%1:06:00::'
+      - 'fly%1:06:00::'
+      - 'jacket%1:06:00::'
       id: 'unzip%2:35:00::'
       subcat:
       - vtai
@@ -23827,7 +24784,9 @@ upbringing:
 upcast:
   n:
     sense:
-    - id: 'upcast%1:06:00::'
+    - collocation:
+      - 'air%1:27:00::'
+      id: 'upcast%1:06:00::'
       synset: 04520851-n
 upchuck:
   v:
@@ -23869,7 +24828,17 @@ update:
     pronunciation:
     - value: ˈʌp.deɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'disable%2:30:00::'
+      - 'download%2:40:00::'
+      - 'get%2:40:00::'
+      - 'give%2:40:07::'
+      - 'install%2:35:00::'
+      - 'receive%2:40:00::'
+      - 'supply%2:40:00::'
+      - 'news%1:10:01::'
+      - 'traffic%1:14:00::'
+      derivation:
       - 'update%2:32:00::'
       - 'update%2:30:00::'
       - 'update%2:30:01::'
@@ -23885,7 +24854,10 @@ update:
     pronunciation:
     - value: ˈʌp.deɪt
     sense:
-    - derivation:
+    - collocation:
+      - 'machinery%1:06:00::'
+      - 'skill%1:09:01::'
+      derivation:
       - 'updating%1:04:00::'
       - 'update%1:04:00::'
       - 'update%1:10:00::'
@@ -23894,7 +24866,13 @@ update:
       - vtai
       - vtii
       synset: 00170503-v
-    - derivation:
+    - collocation:
+      - 'database%1:10:00::'
+      - 'forecast%1:10:00::'
+      - 'information%1:14:00::'
+      - 'record%1:10:03::'
+      - 'web_site%1:10:00::'
+      derivation:
       - 'update%1:10:00::'
       - 'updating%1:04:00::'
       - 'update%1:04:00::'
@@ -23905,7 +24883,9 @@ update:
       - vtaa
       - vtia
       synset: 00835207-v
-    - derivation:
+    - collocation:
+      - 'browser%1:10:00::'
+      derivation:
       - 'updating%1:04:00::'
       - 'update%1:04:00::'
       - 'update%1:10:00::'
@@ -23997,7 +24977,11 @@ upgrade:
       subcat:
       - vtai
       synset: 00662522-v
-    - derivation:
+    - collocation:
+      - 'browser%1:10:00::'
+      - 'facility%1:04:01::'
+      - 'skill%1:09:01::'
+      derivation:
       - 'upgrade%1:06:00::'
       - 'upgrade%1:10:00::'
       id: 'upgrade%2:30:00::'
@@ -24090,12 +25074,32 @@ uphold:
       - vtai
       - vtii
       synset: 02685709-v
-    - id: 'uphold%2:32:00::'
+    - collocation:
+      - 'doctrine%1:09:00::'
+      - 'honor%1:07:00::'
+      - 'law%1:14:00::'
+      - 'religion%1:14:00::'
+      id: 'uphold%2:32:00::'
       subcat:
       - vtai
       synset: 00897613-v
     - agent:
       - 'upholder%1:18:00::'
+      collocation:
+      - 'acquittal%1:04:00::'
+      - 'appeal%1:04:00::'
+      - 'claim%1:04:00::'
+      - 'conviction%1:04:00::'
+      - 'court%1:14:00::'
+      - 'decision%1:09:00::'
+      - 'finding%1:04:01::'
+      - 'injunction%1:10:01::'
+      - 'judge%1:18:00::'
+      - 'legality%1:07:00::'
+      - 'opinion%1:04:01::'
+      - 'submission%1:10:03::'
+      - 'validity%1:07:00::'
+      - 'verdict%1:04:00::'
       derivation:
       - 'upholder%1:18:00::'
       id: 'uphold%2:32:02::'
@@ -24118,6 +25122,8 @@ upholster:
     sense:
     - agent:
       - 'upholsterer%1:18:00::'
+      collocation:
+      - 'chair%1:06:00::'
       derivation:
       - 'upholsterer%1:18:00::'
       - 'upholstery%1:06:00::'
@@ -24141,7 +25147,9 @@ upholstery:
     - value: əˈpɐl.stɹi
       variety: GB
     sense:
-    - derivation:
+    - collocation:
+      - 'leather%1:27:00::'
+      derivation:
       - 'upholster%2:40:00::'
       id: 'upholstery%1:06:00::'
       synset: 04521122-n
@@ -24185,7 +25193,10 @@ upland:
     - value: ˈʌplənd
       variety: US
     sense:
-    - id: 'upland%1:17:00::'
+    - collocation:
+      - 'area%1:15:01::'
+      - 'bear%1:05:00::'
+      id: 'upland%1:17:00::'
       synset: 09325522-n
 upland cotton:
   n:
@@ -24281,6 +25292,9 @@ upload:
     sense:
     - antonym:
       - 'download%2:40:00::'
+      collocation:
+      - 'packet%1:10:00::'
+      - 'web_site%1:10:00::'
       id: 'upload%2:40:00::'
       subcat:
       - vtai
@@ -24333,7 +25347,10 @@ upper:
       synset: 04521943-n
     - id: 'upper%1:06:00::'
       synset: 04521654-n
-    - id: 'upper%1:06:01::'
+    - collocation:
+      - 'process%2:30:00::'
+      - 'energy%1:26:00::'
+      id: 'upper%1:06:01::'
       synset: 02707012-n
 upper balcony:
   n:
@@ -24363,7 +25380,9 @@ upper class:
     - value: ˌʌpɚˈklæs
       variety: US
     sense:
-    - id: 'upper_class%1:14:00::'
+    - collocation:
+      - 'house%1:14:00::'
+      id: 'upper_class%1:14:00::'
       synset: 08403096-n
 upper crust:
   n:
@@ -24378,7 +25397,9 @@ upper deck:
 upper hand:
   n:
     sense:
-    - id: 'upper_hand%1:07:00::'
+    - collocation:
+      - 'get%2:40:00::'
+      id: 'upper_hand%1:07:00::'
       synset: 05166506-n
 upper jaw:
   n:
@@ -24563,7 +25584,9 @@ upright:
     pronunciation:
     - value: ˈʌpɹaɪt
     sense:
-    - id: 'upright%1:06:01::'
+    - collocation:
+      - 'walk%2:38:00::'
+      id: 'upright%1:06:01::'
       synset: 04522424-n
     - id: 'upright%1:06:00::'
       synset: 04522298-n
@@ -24660,7 +25683,10 @@ uproar:
     - value: ˈʌpɹɔːɹ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'cause%2:36:00::'
+      - 'provoke%2:36:00::'
+      derivation:
       - uproarious%5:00:00:noisy:00
       id: 'uproar%1:26:00::'
       synset: 14002194-n
@@ -24699,6 +25725,11 @@ uproot:
       synset: 02544219-v
     - agent:
       - 'uprooter%1:18:00::'
+      collocation:
+      - 'attempt%1:04:00::'
+      - 'bias%1:09:00::'
+      - 'corruption%1:07:00::'
+      - 'disease%1:26:00::'
       derivation:
       - 'uprooter%1:18:00::'
       id: 'uproot%2:36:00::'
@@ -24706,7 +25737,9 @@ uproot:
       - vtaa
       - vtai
       synset: 01666012-v
-    - id: 'uproot%2:35:00::'
+    - collocation:
+      - 'tree%1:20:00::'
+      id: 'uproot%2:35:00::'
       subcat:
       - vtai
       - vtii
@@ -24743,7 +25776,9 @@ upset:
     pronunciation:
     - value: ˈʌpsɛt
     sense:
-    - derivation:
+    - collocation:
+      - 'anger%1:26:00::'
+      derivation:
       - 'upset%2:37:01::'
       - 'upset%2:37:00::'
       id: 'upset%1:26:00::'
@@ -24762,7 +25797,9 @@ upset:
       - 'upset%2:38:00::'
       id: 'upset%1:04:02::'
       synset: 00349138-n
-    - derivation:
+    - collocation:
+      - 'experience%2:39:00::'
+      derivation:
       - 'upset%2:33:00::'
       id: 'upset%1:04:00::'
       synset: 00068990-n
@@ -24772,7 +25809,12 @@ upset:
     pronunciation:
     - value: ˈʌpsɛt
     sense:
-    - id: 'upset%2:30:00::'
+    - collocation:
+      - 'agreement%1:09:00::'
+      - 'balance%1:25:00::'
+      - 'balance_of_power%1:26:00::'
+      - 'status_quo%1:26:00::'
+      id: 'upset%2:30:00::'
       subcat:
       - vtai
       - vtii
@@ -24819,6 +25861,13 @@ upset:
       synset: 01258938-v
     - agent:
       - 'upsetter%1:18:00::'
+      collocation:
+      - 'champion%1:18:01::'
+      - 'no.%1:23:00::'
+      - 'quarterfinal%1:11:00::'
+      - 'seed%1:18:00::'
+      - 'semifinal%1:11:00::'
+      - 'turn%1:28:00::'
       derivation:
       - 'upset%1:04:00::'
       - 'upsetter%1:18:00::'
@@ -24929,6 +25978,8 @@ upstage:
       synset: 02521393-v
     - agent:
       - 'upstager%1:18:00::'
+      collocation:
+      - 'actor%1:18:00::'
       derivation:
       - 'upstager%1:18:00::'
       id: 'upstage%2:38:00::'
@@ -24981,7 +26032,10 @@ upstairs:
     - value: ˌʌpˈstɛəz
       variety: GB
     sense:
-    - id: 'upstairs%1:06:00::'
+    - collocation:
+      - 'love%2:35:00::'
+      - 'room%1:06:00::'
+      id: 'upstairs%1:06:00::'
       synset: 04523024-n
   r:
     pronunciation:
@@ -25105,7 +26159,10 @@ uptown:
 upturn:
   n:
     sense:
-    - id: 'upturn%1:04:00::'
+    - collocation:
+      - 'come%2:30:01::'
+      - 'take%2:30:01::'
+      id: 'upturn%1:04:00::'
       synset: 00266993-n
 upturned:
   a:
@@ -25208,7 +26265,9 @@ upwind:
 uracil:
   n:
     sense:
-    - id: 'uracil%1:27:00::'
+    - collocation:
+      - 'deaminate%2:30:00::'
+      id: 'uracil%1:27:00::'
       synset: 15108924-n
 uraemia:
   n:
@@ -25240,7 +26299,19 @@ uranium:
     - value: jʊˈɹeɪniəm
       variety: US
     sense:
-    - id: 'uranium%1:27:00::'
+    - collocation:
+      - 'bombard%2:32:00::'
+      - 'consume%2:34:01::'
+      - 'enrich%2:30:00::'
+      - 'mine%1:06:01::'
+      - 'mine%2:34:00::'
+      - 'miner%1:18:00::'
+      - 'mining%1:04:00::'
+      - 'reserve%1:21:00::'
+      - 'fuel%1:27:00::'
+      - 'ore%1:27:00::'
+      - 'weapon%1:06:00::'
+      id: 'uranium%1:27:00::'
       synset: 14684622-n
 uranium 235:
   n:
@@ -25348,6 +26419,11 @@ urban area:
     sense:
     - antonym:
       - 'rural_area%1:15:00::'
+      collocation:
+      - 'area%1:15:01::'
+      - 'cover%2:42:01::'
+      - 'extend%2:42:02::'
+      - 'widen%2:30:01::'
       id: 'urban_area%1:15:00::'
       synset: 08693705-n
 urban center:
@@ -25358,7 +26434,9 @@ urban center:
 urban guerrilla:
   n:
     sense:
-    - id: 'urban_guerrilla%1:18:00::'
+    - collocation:
+      - 'fighting%1:04:00::'
+      id: 'urban_guerrilla%1:18:00::'
       synset: 10760915-n
 urban legend:
   n:
@@ -25375,12 +26453,16 @@ urban planning:
 urban renewal:
   n:
     sense:
-    - id: 'urban_renewal%1:04:00::'
+    - collocation:
+      - 'construction%1:04:00::'
+      id: 'urban_renewal%1:04:00::'
       synset: 00402002-n
 urban sprawl:
   n:
     sense:
-    - id: 'urban_sprawl%1:15:00::'
+    - collocation:
+      - 'engulf%2:35:00::'
+      id: 'urban_sprawl%1:15:00::'
       synset: 08557280-n
 urban typhus:
   n:
@@ -25494,7 +26576,10 @@ urbanization:
 urbanize:
   v:
     sense:
-    - derivation:
+    - collocation:
+      - 'area%1:15:01::'
+      - 'city%1:15:00::'
+      derivation:
       - 'urban%3:00:00::'
       - 'urbanization%1:22:00::'
       event:
@@ -25554,7 +26639,9 @@ urea:
     pronunciation:
     - value: jʊˈɹiːə
     sense:
-    - id: 'urea%1:27:00::'
+    - collocation:
+      - 'excrete%2:29:00::'
+      id: 'urea%1:27:00::'
       synset: 15110039-n
 urea-formaldehyde resin:
   n:
@@ -25671,9 +26758,25 @@ urge:
     - value: ɝd͡ʒ
       variety: US
     sense:
-    - id: 'urge%1:16:00::'
+    - collocation:
+      - 'contribute%2:41:12::'
+      - 'have%2:40:00::'
+      - 'prompt%2:32:00::'
+      id: 'urge%1:16:00::'
       synset: 09203328-n
-    - id: 'urge%1:12:00::'
+    - collocation:
+      - 'control%2:41:01::'
+      - 'defecate%2:29:00::'
+      - 'drive%2:35:11::'
+      - 'experience%2:39:00::'
+      - 'feel%2:37:00::'
+      - 'fight%2:33:01::'
+      - 'meet%2:34:00::'
+      - 'overcome%2:33:01::'
+      - 'resist%2:41:00::'
+      - 'sex%1:04:00::'
+      - 'suppress%2:41:00::'
+      id: 'urge%1:12:00::'
       synset: 07505591-n
   v:
     pronunciation:
@@ -25682,7 +26785,16 @@ urge:
     - value: ɝd͡ʒ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'resolution%1:04:01::'
+      - 'brethren%1:14:00::'
+      - 'cabinet%1:14:00::'
+      - 'direction%1:09:00::'
+      - 'goal%1:09:00::'
+      - 'people%1:14:03::'
+      - 'review%1:09:00::'
+      - 'voter%1:18:00::'
+      derivation:
       - urgent%5:00:00:imperative:00
       - 'urging%1:10:00::'
       id: 'urge%2:32:00::'
@@ -25692,7 +26804,13 @@ urge:
       subcat:
       - vtaa-to-inf
       synset: 00767694-v
-    - derivation:
+    - collocation:
+      - 'secession%1:04:00::'
+      - 'caution%1:07:00::'
+      - 'caution%1:09:00::'
+      - 'free_trade%1:04:00::'
+      - 'government%1:14:00::'
+      derivation:
       - 'urgency%1:10:00::'
       id: 'urge%2:32:03::'
       subcat:
@@ -25732,9 +26850,18 @@ urgency:
     - value: ˈɝ.dʒən.si
       variety: US
     sense:
-    - id: 'urgency%1:26:00::'
+    - collocation:
+      - 'increase%2:30:02::'
+      - 'issue%1:09:01::'
+      - 'matter%1:09:00::'
+      - 'sense%1:09:05::'
+      - 'stress%2:32:00::'
+      id: 'urgency%1:26:00::'
       synset: 14474486-n
-    - derivation:
+    - collocation:
+      - 'give%2:40:03::'
+      - 'lend%2:40:01::'
+      derivation:
       - urgent%5:00:00:imperative:00
       id: 'urgency%1:07:00::'
       synset: 05179327-n
@@ -25795,7 +26922,9 @@ uric:
 uric acid:
   n:
     sense:
-    - id: 'uric_acid%1:27:00::'
+    - collocation:
+      - 'excrete%2:29:00::'
+      id: 'uric_acid%1:27:00::'
       synset: 15110249-n
 uricaciduria:
   n:
@@ -25947,7 +27076,25 @@ urine:
     - value: ˈjʉːəɹɪn
       variety: AU
     sense:
-    - derivation:
+    - collocation:
+      - 'analysis%1:04:00::'
+      - 'blood%1:08:00::'
+      - 'break%2:37:00::'
+      - 'discharge%1:22:00::'
+      - 'excrete%2:29:00::'
+      - 'infection%1:26:00::'
+      - 'leak%2:30:04::'
+      - 'output%1:04:00::'
+      - 'penis%1:08:00::'
+      - 'production%1:04:00::'
+      - 'retention%1:07:00::'
+      - 'sample%1:09:00::'
+      - 'smell%1:09:02::'
+      - 'specimen%1:08:00::'
+      - 'test%1:04:00::'
+      - 'testing%1:04:03::'
+      - 'toilet%1:06:00::'
+      derivation:
       - 'urinary%3:01:00::'
       - 'urinate%2:29:00::'
       id: 'urine%1:27:00::'
@@ -25965,9 +27112,13 @@ urn:
     - value: ɝn
       variety: US
     sense:
-    - id: 'urn%1:06:00::'
+    - collocation:
+      - 'ash%1:27:01::'
+      id: 'urn%1:06:00::'
       synset: 04523411-n
-    - id: 'urn%1:06:01::'
+    - collocation:
+      - 'tea%1:13:00::'
+      id: 'urn%1:06:01::'
       synset: 04523509-n
 urn fungus:
   n:
@@ -26202,11 +27353,18 @@ usage:
     pronunciation:
     - value: ˈjuːsɪd͡ʒ
     sense:
-    - derivation:
+    - collocation:
+      - 'election%1:04:00::'
+      - 'butter%1:13:00::'
+      - 'walk%2:38:03::'
+      - 'web%1:06:02::'
+      derivation:
       - 'use%2:34:01::'
       id: 'usage%1:04:00::'
       synset: 00948944-n
-    - derivation:
+    - collocation:
+      - 'melt%2:30:10::'
+      derivation:
       - 'use%2:41:03::'
       id: 'usage%1:04:01::'
       synset: 00414252-n
@@ -26228,28 +27386,128 @@ use:
     pronunciation:
     - value: juːs
     sense:
-    - derivation:
+    - collocation:
+      - 'act%1:03:00::'
+      - 'adapt%2:30:01::'
+      - 'affect%2:30:00::'
+      - 'approve%2:32:00::'
+      - 'ban%2:32:00::'
+      - 'discourage%2:32:01::'
+      - 'forbid%2:32:00::'
+      - 'include%2:31:00::'
+      - 'increase%2:30:02::'
+      - 'justify%2:32:00::'
+      - 'permit%2:32:00::'
+      - 'profession%1:04:00::'
+      - 'recommend%2:32:01::'
+      - 'reduce%2:30:01::'
+      - 'restrict%2:30:00::'
+      - 'alcohol%1:13:00::'
+      - 'avoid%2:41:03::'
+      - 'bring%2:35:04::'
+      - 'carry_out%2:36:00::'
+      - 'colour%1:27:00::'
+      - 'computer%1:06:00::'
+      - 'continue%2:41:00::'
+      - 'cover%2:42:02::'
+      - 'device%1:06:00::'
+      - 'dictionary%1:10:00::'
+      - 'drug%1:06:00::'
+      - 'ease%1:07:00::'
+      - 'find%2:39:01::'
+      - 'go_out%2:42:00::'
+      - 'habit%1:04:01::'
+      - 'heroin%1:06:00::'
+      - 'home%1:15:04::'
+      - 'information%1:14:00::'
+      - 'instrument%1:06:00::'
+      - 'invent%2:36:00::'
+      - 'involve%2:42:00::'
+      - 'language%1:10:00::'
+      - 'make%2:36:08::'
+      - 'make%2:36:12::'
+      - 'make%2:41:00::'
+      - 'marketing%1:04:02::'
+      - 'material%1:27:00::'
+      - 'medicine%1:06:00::'
+      - 'method%1:09:00::'
+      - 'narcotic%1:06:00::'
+      - 'net%1:06:01::'
+      - 'perform%2:36:00::'
+      - 'pesticide%1:27:00::'
+      - 'power%1:07:00::'
+      - 'preserve%2:42:07::'
+      - 'prevent%2:41:01::'
+      - 'procedure%1:04:00::'
+      - 'product%1:06:00::'
+      - 'promote%2:41:01::'
+      - 'propaganda%1:10:00::'
+      - 'report%1:10:03::'
+      - 'require%2:42:00::'
+      - 'resource%1:07:00::'
+      - 'software%1:10:00::'
+      - 'space%1:15:00::'
+      - 'start%2:36:01::'
+      - 'store%1:21:00::'
+      - 'supply%1:23:00::'
+      - 'support%2:41:01::'
+      - 'technique%1:09:00::'
+      - 'technology%1:04:00::'
+      - 'tool%1:06:00::'
+      - 'violence%1:04:01::'
+      - 'water%1:13:00::'
+      - 'weapon%1:06:00::'
+      - 'wear%2:30:00::'
+      derivation:
       - 'use%2:34:01::'
       - 'use%2:34:02::'
       id: 'use%1:04:00::'
       synset: 00948944-n
-    - id: 'use%1:07:00::'
+    - collocation:
+      - 'animal%1:03:00::'
+      - 'change%1:04:00::'
+      - 'design%2:31:00::'
+      - 'develop%2:36:01::'
+      - 'find%2:32:00::'
+      - 'image%1:06:00::'
+      - 'law%1:09:00::'
+      - 'term%1:10:00::'
+      - 'word%1:10:00::'
+      id: 'use%1:07:00::'
       synset: 05156572-n
-    - derivation:
+    - collocation:
+      - 'intend%2:31:01::'
+      - 'put%2:34:00::'
+      - 'source%1:06:00::'
+      derivation:
       - 'use%2:41:04::'
       id: 'use%1:07:02::'
       synset: 05157225-n
-    - derivation:
+    - collocation:
+      - 'article%1:03:00::'
+      - 'promote%2:41:01::'
+      - 'provoke%2:32:00::'
+      - 'system%1:14:00::'
+      derivation:
       - 'use%2:34:15::'
       id: 'use%1:22:00::'
       synset: 13472977-n
     - id: 'use%1:04:01::'
       synset: 00415192-n
-    - derivation:
+    - collocation:
+      - 'allow%2:42:00::'
+      derivation:
       - 'use%2:41:14::'
       id: 'use%1:04:02::'
       synset: 00159005-n
-    - id: 'use%1:07:03::'
+    - collocation:
+      - 'deny%2:40:00::'
+      - 'extend%2:40:05::'
+      - 'find%2:40:15::'
+      - 'give%2:32:07::'
+      - 'lose%2:40:02::'
+      - 'land%1:21:01::'
+      id: 'use%1:07:03::'
       synset: 05197374-n
   v:
     pronunciation:
@@ -26257,6 +27515,346 @@ use:
     sense:
     - agent:
       - 'user%1:18:00::'
+      collocation:
+      - 'acupuncture%1:04:00::'
+      - 'analogy%1:04:00::'
+      - 'animal%1:03:00::'
+      - 'application%1:04:03::'
+      - 'approach%1:04:02::'
+      - 'attempt%1:04:00::'
+      - 'chemotherapy%1:04:00::'
+      - 'communication%1:03:00::'
+      - 'construction%1:04:00::'
+      - 'event%1:03:00::'
+      - 'facility%1:04:00::'
+      - 'facility%1:04:01::'
+      - 'game%1:04:01::'
+      - 'group%1:03:00::'
+      - 'industry%1:04:00::'
+      - 'knowledge%1:03:00::'
+      - 'object%1:03:00::'
+      - 'person%1:03:00::'
+      - 'plant%1:03:00::'
+      - 'service%1:04:08::'
+      - 'storage%1:04:01::'
+      - 'technology%1:04:00::'
+      - 'training%1:04:00::'
+      - 'treatment%1:04:00::'
+      - 'account%1:26:00::'
+      - 'address%1:10:02::'
+      - 'adviser%1:18:00::'
+      - 'agent%1:18:02::'
+      - 'aircraft%1:06:00::'
+      - 'airport%1:06:00::'
+      - 'algorithm%1:09:00::'
+      - 'alias%1:10:00::'
+      - 'ammunition%1:06:00::'
+      - 'amount%1:07:00::'
+      - 'anaesthetic%1:06:00::'
+      - 'appeal%1:07:00::'
+      - 'appliance%1:06:00::'
+      - 'application%1:10:01::'
+      - 'area%1:06:00::'
+      - 'article%1:10:01::'
+      - 'authority%1:07:00::'
+      - 'axe%1:06:00::'
+      - 'bait%1:06:00::'
+      - 'balance%1:21:01::'
+      - 'basis%1:09:00::'
+      - 'bathroom%1:06:00::'
+      - 'battery%1:06:00::'
+      - 'bill%1:06:01::'
+      - 'body%1:08:00::'
+      - 'book%1:06:00::'
+      - 'broom%1:06:00::'
+      - 'brush%1:06:00::'
+      - 'buffer%1:15:00::'
+      - 'building%1:06:00::'
+      - 'bus%1:06:00::'
+      - 'camera%1:06:00::'
+      - 'car%1:06:00::'
+      - 'card%1:10:01::'
+      - 'centre%1:06:00::'
+      - 'channel%1:10:01::'
+      - 'character%1:10:00::'
+      - 'checklist%1:10:00::'
+      - 'child%1:18:00::'
+      - 'chip%1:06:00::'
+      - 'class%1:14:00::'
+      - 'coal%1:27:00::'
+      - 'code%1:10:00::'
+      - 'coke%1:27:00::'
+      - 'color%1:27:00::'
+      - 'comb%1:06:00::'
+      - 'combination%1:14:02::'
+      - 'communication%1:10:01::'
+      - 'communication%1:24:00::'
+      - 'company%1:14:01::'
+      - 'compass%1:06:00::'
+      - 'component%1:06:00::'
+      - 'component%1:09:00::'
+      - 'computer%1:06:00::'
+      - 'concept%1:09:00::'
+      - 'condom%1:06:00::'
+      - 'context%1:26:00::'
+      - 'contraceptive%1:06:00::'
+      - 'contractor%1:18:00::'
+      - 'copy%1:06:00::'
+      - 'cosmetic%1:06:00::'
+      - 'country%1:15:00::'
+      - 'coupon%1:10:00::'
+      - 'crayon%1:06:00::'
+      - 'credit%1:21:00::'
+      - 'crutch%1:06:00::'
+      - 'database%1:10:00::'
+      - 'definition%1:10:00::'
+      - 'design%1:06:01::'
+      - 'device%1:06:00::'
+      - 'dictionary%1:10:00::'
+      - 'diesel%1:06:00::'
+      - 'electricity%1:19:01::'
+      - 'encyclopedia%1:10:00::'
+      - 'energy%1:19:01::'
+      - 'engine%1:06:00::'
+      - 'enterprise%1:07:00::'
+      - 'entrance%1:06:00::'
+      - 'equation%1:10:00::'
+      - 'equipment%1:06:00::'
+      - 'essence%1:27:00::'
+      - 'event%1:26:00::'
+      - 'evidence%1:10:01::'
+      - 'example%1:09:00::'
+      - 'experience%1:09:01::'
+      - 'experiment%1:09:00::'
+      - 'expertise%1:09:00::'
+      - 'expression%1:10:00::'
+      - 'feature%1:09:00::'
+      - 'ferry%1:06:00::'
+      - 'fertilizer%1:27:00::'
+      - 'field%1:09:00::'
+      - 'field%1:15:02::'
+      - 'figure%1:10:00::'
+      - 'file%1:10:00::'
+      - 'film%1:10:01::'
+      - 'fitting%1:06:00::'
+      - 'flash%1:06:00::'
+      - 'flour%1:13:00::'
+      - 'force%1:07:00::'
+      - 'force%1:14:01::'
+      - 'force%1:19:00::'
+      - 'fork%1:06:00::'
+      - 'form%1:09:01::'
+      - 'format%1:10:00::'
+      - 'formula%1:10:02::'
+      - 'forum%1:06:00::'
+      - 'free_will%1:07:00::'
+      - 'fuel%1:27:00::'
+      - 'function%1:07:00::'
+      - 'fund%1:21:00::'
+      - 'gas%1:27:02::'
+      - 'gift%1:09:00::'
+      - 'government%1:14:00::'
+      - 'gun%1:06:00::'
+      - 'gun%1:18:00::'
+      - 'hammer%1:06:00::'
+      - 'hand%1:08:00::'
+      - 'handkerchief%1:06:00::'
+      - 'head%1:09:00::'
+      - 'heating%1:06:00::'
+      - 'house%1:06:00::'
+      - 'image%1:09:00::'
+      - 'imagination%1:09:02::'
+      - 'index%1:10:01::'
+      - 'industry%1:14:00::'
+      - 'information%1:14:00::'
+      - 'ingenuity%1:09:01::'
+      - 'ingredient%1:06:00::'
+      - 'initial%1:10:00::'
+      - 'ink%1:27:01::'
+      - 'input%1:10:00::'
+      - 'insight%1:09:02::'
+      - 'instrument%1:06:00::'
+      - 'instrument%1:18:00::'
+      - 'internet%1:06:00::'
+      - 'jargon%1:10:01::'
+      - 'key%1:06:00::'
+      - 'knife%1:06:00::'
+      - 'label%1:10:01::'
+      - 'land%1:17:01::'
+      - 'language%1:10:00::'
+      - 'laser%1:06:00::'
+      - 'law%1:10:00::'
+      - 'law%1:14:00::'
+      - 'letter%1:18:00::'
+      - 'level%1:26:00::'
+      - 'leverage%1:19:00::'
+      - 'library%1:06:02::'
+      - 'light%1:06:00::'
+      - 'link%1:10:01::'
+      - 'list%1:10:00::'
+      - 'logic%1:09:01::'
+      - 'loo%1:06:00::'
+      - 'machine%1:06:00::'
+      - 'machine%1:06:02::'
+      - 'magnetic_field%1:19:00::'
+      - 'make-up%1:06:00::'
+      - 'man%1:18:00::'
+      - 'manner%1:07:02::'
+      - 'map%1:06:00::'
+      - 'material%1:06:00::'
+      - 'material%1:06:01::'
+      - 'material%1:10:00::'
+      - 'material%1:27:00::'
+      - 'medicine%1:06:00::'
+      - 'metaphor%1:10:00::'
+      - 'method%1:09:00::'
+      - 'metro%1:06:00::'
+      - 'microphone%1:06:00::'
+      - 'model%1:09:02::'
+      - 'mouse%1:06:00::'
+      - 'muscle%1:08:00::'
+      - 'music%1:10:00::'
+      - 'name%1:10:00::'
+      - 'needle%1:06:00::'
+      - 'network%1:14:00::'
+      - 'nickname%1:10:00::'
+      - 'occasion%1:11:00::'
+      - 'office%1:06:00::'
+      - 'oil%1:06:01::'
+      - 'one%1:09:00::'
+      - 'option%1:09:00::'
+      - 'page%1:18:03::'
+      - 'paper%1:27:00::'
+      - 'part%1:06:00::'
+      - 'pass%1:10:03::'
+      - 'pathway%1:06:00::'
+      - 'pedal%1:06:00::'
+      - 'pen%1:06:00::'
+      - 'pencil%1:06:00::'
+      - 'perfume%1:06:00::'
+      - 'phone%1:06:00::'
+      - 'photograph%1:06:00::'
+      - 'phrase%1:10:00::'
+      - 'piece%1:06:05::'
+      - 'pill%1:06:02::'
+      - 'place%1:15:00::'
+      - 'place%1:15:04::'
+      - 'player%1:18:01::'
+      - 'policy%1:09:00::'
+      - 'power%1:07:00::'
+      - 'precedent%1:09:00::'
+      - 'prerogative%1:07:00::'
+      - 'principle%1:09:03::'
+      - 'product%1:06:00::'
+      - 'program%1:10:02::'
+      - 'project%1:09:00::'
+      - 'prostitute%1:18:00::'
+      - 'pseudonym%1:10:00::'
+      - 'razor%1:06:00::'
+      - 'reason%1:09:00::'
+      - 'reasoning%1:09:00::'
+      - 'reference%1:10:06::'
+      - 'regimen%1:09:00::'
+      - 'remedy%1:06:00::'
+      - 'research%1:09:00::'
+      - 'reserve%1:21:00::'
+      - 'resource%1:21:00::'
+      - 'restraint%1:09:00::'
+      - 'result%1:11:00::'
+      - 'retreat%1:15:00::'
+      - 'return%1:21:00::'
+      - 'revenue%1:21:01::'
+      - 'rhetoric%1:10:00::'
+      - 'road%1:06:00::'
+      - 'room%1:06:00::'
+      - 'rope%1:06:00::'
+      - 'route%1:15:00::'
+      - 'rule%1:09:04::'
+      - 'sample%1:09:00::'
+      - 'scale%1:06:02::'
+      - 'scheme%1:09:00::'
+      - 'school%1:14:00::'
+      - 'scissors%1:06:00::'
+      - 'seasoning%1:13:00::'
+      - 'section%1:10:00::'
+      - 'series%1:14:00::'
+      - 'set%1:14:00::'
+      - 'shampoo%1:06:00::'
+      - 'sheet%1:10:00::'
+      - 'shield%1:06:01::'
+      - 'ship%1:06:00::'
+      - 'shorthand%1:10:00::'
+      - 'situation%1:26:00::'
+      - 'skill%1:09:01::'
+      - 'slang%1:10:01::'
+      - 'slogan%1:10:00::'
+      - 'soap%1:06:00::'
+      - 'software%1:10:00::'
+      - 'song%1:10:00::'
+      - 'source%1:10:00::'
+      - 'space%1:15:00::'
+      - 'spade%1:06:00::'
+      - 'speaker%1:18:00::'
+      - 'spoon%1:06:00::'
+      - 'staircase%1:06:00::'
+      - 'standard%1:10:00::'
+      - 'starting_point%1:28:00::'
+      - 'station%1:06:00::'
+      - 'stone%1:27:00::'
+      - 'strength%1:07:00::'
+      - 'structure%1:09:00::'
+      - 'student%1:18:00::'
+      - 'substitute%1:09:00::'
+      - 'supplement%1:07:00::'
+      - 'symbol%1:10:00::'
+      - 'system%1:06:00::'
+      - 'system%1:09:01::'
+      - 'table%1:14:00::'
+      - 'tactic%1:09:00::'
+      - 'target%1:10:00::'
+      - 'team%1:14:00::'
+      - 'technique%1:09:00::'
+      - 'telescope%1:06:00::'
+      - 'template%1:09:00::'
+      - 'tense%1:10:00::'
+      - 'term%1:10:00::'
+      - 'terminology%1:10:00::'
+      - 'test%1:09:02::'
+      - 'text%1:10:00::'
+      - 'text_editor%1:10:00::'
+      - 'theorem%1:09:00::'
+      - 'theory%1:09:00::'
+      - 'thing%1:06:00::'
+      - 'thread%1:06:00::'
+      - 'tissue%1:27:02::'
+      - 'toilet%1:06:00::'
+      - 'toilet%1:06:01::'
+      - 'tool%1:06:00::'
+      - 'track%1:17:00::'
+      - 'train%1:06:00::'
+      - 'truncheon%1:06:00::'
+      - 'tunnel%1:06:00::'
+      - 'type%1:09:00::'
+      - 'unit%1:24:00::'
+      - 'user%1:18:00::'
+      - 'variety%1:07:00::'
+      - 'vehicle%1:06:00::'
+      - 'verb%1:10:01::'
+      - 'version%1:09:01::'
+      - 'veto%1:07:00::'
+      - 'video%1:06:00::'
+      - 'vocabulary%1:10:00::'
+      - 'voice%1:07:00::'
+      - 'water%1:13:00::'
+      - 'weapon%1:06:00::'
+      - 'wheelchair%1:06:00::'
+      - 'woman%1:18:00::'
+      - 'wood%1:27:00::'
+      - 'word%1:10:00::'
+      - 'writer%1:18:00::'
+      - 'yardstick%1:10:00::'
+      - 'year%1:28:02::'
+      - 'waste%1:04:00::'
       derivation:
       - useable%5:00:00:useful:00
       - useable%5:00:00:serviceable:00
@@ -26282,6 +27880,10 @@ use:
       synset: 01161188-v
     - agent:
       - 'user%1:18:02::'
+      collocation:
+      - 'animal%1:03:00::'
+      - 'conjunction%1:07:00::'
+      - 'drug%1:06:00::'
       derivation:
       - 'use%1:04:00::'
       - 'user%1:18:02::'
@@ -26293,6 +27895,17 @@ use:
       synset: 01167359-v
     - agent:
       - 'user%1:18:01::'
+      collocation:
+      - 'advantage%1:07:01::'
+      - 'argument%1:10:02::'
+      - 'connection%1:18:01::'
+      - 'effect%1:19:00::'
+      - 'influence%1:07:00::'
+      - 'information%1:14:00::'
+      - 'opportunity%1:26:00::'
+      - 'position%1:26:00::'
+      - 'title%1:10:02::'
+      - 'work%1:04:00::'
       derivation:
       - 'use%1:04:02::'
       - 'user%1:18:01::'
@@ -26306,7 +27919,36 @@ use:
       - vtaa
       - vtai
       synset: 02606487-v
-    - derivation:
+    - collocation:
+      - 'analysis%1:04:00::'
+      - 'animal%1:03:00::'
+      - 'communication%1:03:00::'
+      - 'field%1:04:00::'
+      - 'industry%1:04:00::'
+      - 'object%1:03:00::'
+      - 'practice%1:04:00::'
+      - 'ability%1:07:00::'
+      - 'analysis%1:09:02::'
+      - 'communication%1:10:01::'
+      - 'control%1:06:00::'
+      - 'feature%1:09:01::'
+      - 'feature%1:10:00::'
+      - 'field%1:09:00::'
+      - 'government%1:14:00::'
+      - 'gun%1:06:00::'
+      - 'idea%1:09:00::'
+      - 'language%1:10:01::'
+      - 'object%1:09:02::'
+      - 'range%1:14:00::'
+      - 'range%1:15:02::'
+      - 'sense%1:09:04::'
+      - 'site%1:15:00::'
+      - 'value%1:09:00::'
+      - 'value%1:21:00::'
+      - 'value%1:28:00::'
+      - 'website%1:10:00::'
+      - 'violence%1:04:01::'
+      derivation:
       - 'use%1:07:02::'
       - 'usance%1:04:00::'
       event:
@@ -26491,15 +28133,101 @@ user:
     - value: ˈjuzɚ
       variety: US
     sense:
-    - derivation:
+    - collocation:
+      - 'access%1:07:01::'
+      - 'add%2:30:00::'
+      - 'agreement%1:10:01::'
+      - 'alarm%2:32:00::'
+      - 'allow%2:32:00::'
+      - 'allow%2:41:00::'
+      - 'ask%2:32:05::'
+      - 'authenticate%2:31:00::'
+      - 'browse%2:35:00::'
+      - 'calculate%2:31:02::'
+      - 'carry_through%2:36:00::'
+      - 'category%1:14:00::'
+      - 'cause%2:36:00::'
+      - 'choose%2:31:00::'
+      - 'choose%2:31:02::'
+      - 'comment%1:10:00::'
+      - 'compare%2:31:00::'
+      - 'complain%2:32:00::'
+      - 'computer%1:06:00::'
+      - 'create%2:36:02::'
+      - 'create%2:36:13::'
+      - 'database%1:10:00::'
+      - 'delete%2:32:00::'
+      - 'disable%2:30:00::'
+      - 'download%2:40:00::'
+      - 'edit%2:30:00::'
+      - 'edit%2:30:01::'
+      - 'enable%2:30:00::'
+      - 'enter%2:35:03::'
+      - 'find%2:39:05::'
+      - 'game%1:04:00::'
+      - 'give%2:40:03::'
+      - 'group%1:03:00::'
+      - 'guide%1:10:00::'
+      - 'help%2:41:00::'
+      - 'home%1:15:04::'
+      - 'identify%2:31:00::'
+      - 'inform%2:32:00::'
+      - 'information%1:14:00::'
+      - 'install%2:35:00::'
+      - 'interact%2:41:00::'
+      - 'interaction%1:04:00::'
+      - 'interface%1:10:00::'
+      - 'internet%1:06:00::'
+      - 'library%1:06:02::'
+      - 'library%1:14:01::'
+      - 'list%1:10:00::'
+      - 'log_in%2:40:00::'
+      - 'name%1:10:00::'
+      - 'need%1:17:00::'
+      - 'notify%2:32:00::'
+      - 'novice%1:18:00::'
+      - 'number%1:07:00::'
+      - 'provide%2:40:00::'
+      - 'rail%1:06:03::'
+      - 'report%2:32:04::'
+      - 'request%2:32:01::'
+      - 'road%1:06:00::'
+      - 'run%2:41:00::'
+      - 'service%1:04:00::'
+      - 'space%1:15:00::'
+      - 'specify%2:31:00::'
+      - 'specify%2:31:02::'
+      - 'specify%2:32:03::'
+      - 'support%1:09:00::'
+      - 'system%1:06:00::'
+      - 'track%2:39:00::'
+      - 'transport%1:06:00::'
+      - 'use%2:34:01::'
+      - 'account%1:26:00::'
+      - 'base%1:24:00::'
+      - 'view%2:39:02::'
+      - 'want%2:34:00::'
+      - 'wheelchair%1:06:00::'
+      - 'wish%2:32:00::'
+      - 'wish%2:37:02::'
+      - 'write%2:32:00::'
+      derivation:
       - 'use%2:34:01::'
       id: 'user%1:18:00::'
       synset: 10761247-n
-    - derivation:
+    - collocation:
+      - 'access%2:38:00::'
+      - 'calculate%2:31:02::'
+      - 'search%2:35:01::'
+      - 'try%2:41:00::'
+      derivation:
       - 'use%2:41:14::'
       id: 'user%1:18:01::'
       synset: 10092334-n
-    - derivation:
+    - collocation:
+      - 'calculate%2:31:02::'
+      - 'show%2:38:00::'
+      derivation:
       - 'use%2:34:02::'
       id: 'user%1:18:02::'
       synset: 10055991-n
@@ -26518,11 +28246,20 @@ usher:
     pronunciation:
     - value: ˈʌʃəɹ
     sense:
-    - derivation:
+    - collocation:
+      - 'court%1:14:00::'
+      derivation:
       - 'usherette%1:18:00::'
       id: 'usher%1:18:02::'
       synset: 10761768-n
-    - derivation:
+    - collocation:
+      - 'act_as%2:42:00::'
+      - 'be%2:41:00::'
+      - 'cinema%1:06:00::'
+      - 'follow%2:38:00::'
+      - 'gesture%2:32:00::'
+      - 'theater%1:06:00::'
+      derivation:
       - 'usherette%1:18:00::'
       - 'usher%2:38:00::'
       id: 'usher%1:18:00::'
@@ -26533,6 +28270,8 @@ usher:
     sense:
     - agent:
       - 'usher%1:18:00::'
+      collocation:
+      - 'cinema%1:06:00::'
       derivation:
       - 'usher%1:18:00::'
       id: 'usher%2:38:00::'
@@ -26705,7 +28444,9 @@ usurpation:
     sense:
     - id: 'usurpation%1:04:01::'
       synset: 00734781-n
-    - derivation:
+    - collocation:
+      - 'office%1:26:00::'
+      derivation:
       - 'usurp%2:40:00::'
       id: 'usurpation%1:04:00::'
       synset: 00086252-n
@@ -26714,7 +28455,9 @@ usurper:
     pronunciation:
     - value: juˈsɜɹpə(ɹ)
     sense:
-    - derivation:
+    - collocation:
+      - 'depose%2:41:00::'
+      derivation:
       - 'usurp%2:40:00::'
       id: 'usurper%1:18:00::'
       synset: 10762203-n
@@ -26746,7 +28489,9 @@ utensil:
     pronunciation:
     - value: juˈtɛn.səl
     sense:
-    - id: 'utensil%1:06:00::'
+    - collocation:
+      - 'kitchen%1:06:00::'
+      id: 'utensil%1:06:00::'
       synset: 04523967-n
 uterine:
   a:
@@ -26794,7 +28539,13 @@ uterus:
     pronunciation:
     - value: ˈjuː.təɹ.əs
     sense:
-    - id: 'uterus%1:08:00::'
+    - collocation:
+      - 'bear%2:29:00::'
+      - 'lining%1:06:00::'
+      - 'passage%1:08:00::'
+      - 'relax%2:30:02::'
+      - 'baby%1:18:00::'
+      id: 'uterus%1:08:00::'
       synset: 05526736-n
 utile:
   a:
@@ -26892,10 +28643,23 @@ utility:
     pronunciation:
     - value: juːˈtɪl.ɪ.ti
     sense:
-    - id: 'utility%1:14:00::'
+    - collocation:
+      - 'government%1:14:00::'
+      id: 'utility%1:14:00::'
       synset: 08202676-n
     - antonym:
       - 'inutility%1:07:00::'
+      collocation:
+      - 'decrease%2:30:00::'
+      - 'exhaust%2:40:00::'
+      - 'have%2:40:00::'
+      - 'increase%2:30:02::'
+      - 'measure%2:31:01::'
+      - 'prove%2:31:00::'
+      - 'question%2:32:01::'
+      - 'reduce%2:40:00::'
+      - 'restrict%2:30:00::'
+      - 'function%1:07:00::'
       derivation:
       - utilitarian%5:00:00:useful:00
       - utilitarian%5:00:00:functional:00
@@ -26906,11 +28670,15 @@ utility:
       synset: 05155946-n
     - id: 'utility%1:04:00::'
       synset: 00580371-n
-    - id: 'utility%1:23:00::'
+    - collocation:
+      - 'maximize%2:30:01::'
+      id: 'utility%1:23:00::'
       synset: 13601261-n
     - id: 'utility%1:10:00::'
       synset: 06593586-n
-    - id: 'utility%1:06:00::'
+    - collocation:
+      - 'service%2:41:00::'
+      id: 'utility%1:06:00::'
       synset: 04524169-n
 utility bond:
   n:
@@ -26986,6 +28754,10 @@ utilize:
     sense:
     - agent:
       - 'utilizer%1:18:00::'
+      collocation:
+      - 'electric_field%1:19:00::'
+      - 'shortcut%1:06:00::'
+      - 'two%1:23:00::'
       derivation:
       - utilizable%5:00:00:useful:00
       - 'utilization%1:04:00::'
@@ -27129,6 +28901,26 @@ utter:
       - 'utterer%1:18:02::'
       by_means_of:
       - 'utterance%1:10:00::'
+      collocation:
+      - 'gasp%1:04:00::'
+      - 'cackle%1:10:00::'
+      - 'condemnation%1:10:01::'
+      - 'cry%1:10:00::'
+      - 'cry%1:10:04::'
+      - 'curse%1:10:00::'
+      - 'exclamation%1:10:00::'
+      - 'growl%1:11:00::'
+      - 'grunt%1:11:00::'
+      - 'lament%1:10:02::'
+      - 'laugh%1:10:00::'
+      - 'murmur%1:11:00::'
+      - 'peal%1:11:00::'
+      - 'prayer%1:10:02::'
+      - 'roar%1:10:00::'
+      - 'scream%1:10:00::'
+      - 'sigh%1:10:00::'
+      - 'sound%1:07:00::'
+      - 'threat%1:10:01::'
       derivation:
       - utterable%5:00:00:expressible:00
       - 'utterer%1:18:02::'
@@ -27171,7 +28963,9 @@ utterable:
 utterance:
   n:
     sense:
-    - derivation:
+    - collocation:
+      - 'deliver%2:32:02::'
+      derivation:
       - 'utter%2:32:02::'
       - 'utter%2:32:01::'
       - 'utter%2:32:00::'

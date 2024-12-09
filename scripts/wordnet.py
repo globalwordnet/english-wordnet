@@ -587,6 +587,7 @@ class SenseRelType(Enum):
     EXEMPLIFIES = 'exemplifies'
     IS_EXEMPLIFIED_BY = 'is_exemplified_by'
     SIMILAR = 'similar'
+    COLLOCATION = 'collocation'
     OTHER = 'other'
 
 class OtherSenseRelType(Enum):
@@ -614,6 +615,7 @@ inverse_sense_rels = {
     SenseRelType.IS_EXEMPLIFIED_BY: SenseRelType.EXEMPLIFIES,
     SenseRelType.ANTONYM: SenseRelType.ANTONYM,
     SenseRelType.SIMILAR: SenseRelType.SIMILAR,
+    SenseRelType.COLLOCATION: SenseRelType.COLLOCATION,
     SenseRelType.ALSO: SenseRelType.ALSO,
     SenseRelType.DERIVATION: SenseRelType.DERIVATION,
 }
