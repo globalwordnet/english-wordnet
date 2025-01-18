@@ -123,3 +123,23 @@ The synset should be possible to link into the graph
 * **Adverbs**: No clear guidelines but at least one links should be proposed.
 
 The more links that can be provided the better a synset is.
+
+## Irregular forms
+
+If a word has an irregular inflection that is not covered by the [rules in morphy](https://wordnet.princeton.edu/documentation/morphy7wn) then it shoule be added as a variant form:
+
+For example:
+```
+child:
+  n:
+    form:
+    - children
+```
+
+```
+outwear:
+  v:
+    form:
+    - outwore
+    - outworn
+```
