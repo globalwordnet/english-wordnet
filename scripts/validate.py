@@ -281,6 +281,7 @@ def main():
     instances = set()
     ilis = set()
     wikidatas = set()
+    definitions = set()
 
     for synset in wn.synsets:
         if synset.id[-1:] != synset.part_of_speech.value:
@@ -368,6 +369,11 @@ def main():
             if len(defn.text) == 0:
                 print("ERROR: empty definition for %s" % (synset.id))
                 errors += 1
+            if defn.text in definitions:
+                print("ERROR: duplicate definition for %s (%s)" % (synset.id, defn.text))
+                errors += 1
+            else:
+                definitions.add(defn.text)
 
         sr_counter = Counter((sr.target, sr.rel_type)
                              for sr in synset.synset_relations)
