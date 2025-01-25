@@ -35,13 +35,13 @@ Fork, then clone the repo:
 
     git clone git@github.com:your-username/english-wordnet.git
 
-Please compile all your changes into a single `wn31.xml` file
+Please compile all your changes into a single `wn.xml` file
 
-    python merge.py
+    python scripts/from_yaml.py
 
 Please ensure that your contributions are valid XML
 
-    xmllint --noout --valid wn31.xml
+    xmllint --noout --valid wn.xml
 
 Please make sure that the structure is valid
 
