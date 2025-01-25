@@ -617,20 +617,17 @@ Ukrainian:
     sense:
     - id: 'ukrainian%1:10:00::'
       synset: 06957385-n
+    - id: 'ukrainian%1:18:00::'
+      synset: 09756435-n
 Ukrainian language:
   n:
     sense:
     - id: 'ukrainian_language%1:10:01::'
       synset: 06957385-n
-Ukranian:
+Ukrainian monetary unit:
   n:
     sense:
-    - id: 'ukranian%1:18:00::'
-      synset: 09756435-n
-Ukranian monetary unit:
-  n:
-    sense:
-    - id: 'ukranian_monetary_unit%1:23:00::'
+    - id: 'ukrainian_monetary_unit%1:23:00::'
       synset: 13725127-n
 Ukrayina:
   n:
@@ -849,7 +846,7 @@ Ulysses:
   n:
     sense:
     - id: 'ulysses%1:18:00::'
-      synset: 09616218-n
+      synset: 09616022-n
 Ulysses Grant:
   n:
     sense:
@@ -965,12 +962,12 @@ Unbrako key:
   n:
     sense:
     - id: 'unbrako_key%1:06:01::'
-      synset: 92299200-n
+      synset: 02700534-n
 Unbrako wrench:
   n:
     sense:
     - id: 'unbrako_wrench%1:06:01::'
-      synset: 92299200-n
+      synset: 02700534-n
 Uncle Joe:
   n:
     sense:
@@ -991,8 +988,6 @@ Uncle Tom:
     sense:
     - id: 'uncle_tom%1:18:01::'
       synset: 09627401-n
-    - id: 'uncle_tom%1:18:00::'
-      synset: 80147706-n
     - id: 'uncle_tom%1:18:02::'
       synset: 82474586-n
 Uncompahgre Peak:
@@ -2106,7 +2101,9 @@ Ursus middendorffi:
 Ursus thibetanus:
   n:
     sense:
-    - id: 'ursus_thibetanus%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'ursus_thibetanus%1:05:00::'
       synset: 02136356-n
 Ursus ursinus:
   n:
@@ -2152,6 +2149,16 @@ Urubupunga Falls:
   n:
     sense:
     - id: 'urubupunga_falls%1:17:00::'
+      synset: 09490895-n
+Urubupungá:
+  n:
+    sense:
+    - id: 'urubupungá%1:17:00::'
+      synset: 09490895-n
+Urubupungá Falls:
+  n:
+    sense:
+    - id: 'urubupungá_falls%1:17:00::'
       synset: 09490895-n
 Uruguay:
   n:
@@ -2866,7 +2873,7 @@ ulitis:
   n:
     sense:
     - id: 'ulitis%1:26:00::'
-      synset: 14381098-n
+      synset: 14104698-n
 ullage:
   n:
     pronunciation:
@@ -7871,11 +7878,20 @@ undeceived:
     sense:
     - id: undeceived%5:00:00:disenchanted:00
       synset: 00869490-s
+undecidable:
+  s:
+    sense:
+    - exemplifies:
+      - 'american_spelling%1:10:01::'
+      id: undecidable%5:00:00:impossible:00
+      synset: 82841156-s
 undecideable:
   a:
     sense:
     - antonym:
       - decideable%5:00:01:possible:00
+      exemplifies:
+      - 'british_spelling%1:10:01::'
       id: undecideable%5:00:01:impossible:00
       synset: 82841156-s
 undecided:
@@ -22401,8 +22417,8 @@ untraversable:
 untraversed:
   a:
     sense:
-    - id: untraversed%5:00:00:untraveled:00
-      synset: 02463673-s
+    - id: 'untraversed%3:00:00::'
+      synset: 02463536-a
 untreated:
   a:
     sense:

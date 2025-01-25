@@ -724,6 +724,11 @@ Baedeker:
     sense:
     - id: 'baedeker%1:18:00::'
       synset: 10850599-n
+Baeolophus bicolor:
+  n:
+    sense:
+    - id: 'baeolophus_bicolor%1:05:00::'
+      synset: 01595028-n
 Baffin Bay:
   n:
     sense:
@@ -2800,8 +2805,6 @@ Battle of Kwajalein:
 Battle of Lake Trasimene:
   n:
     sense:
-    - id: 'battle_of_lake_trasimene%1:04:01::'
-      synset: 01300469-n
     - id: 'battle_of_lake_trasimene%1:04:02::'
       synset: 01285678-n
 Battle of Lake Trasimenus:
@@ -2989,8 +2992,6 @@ Battle of the Somme:
     sense:
     - id: 'battle_of_the_somme%1:04:02::'
       synset: 01298019-n
-    - id: 'battle_of_the_somme%1:04:01::'
-      synset: 01297864-n
 Battle of the Spanish Armada:
   n:
     sense:
@@ -10378,7 +10379,9 @@ Bufferin:
 Bufo americanus:
   n:
     sense:
-    - id: 'bufo_americanus%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'bufo_americanus%1:05:00::'
       synset: 01649443-n
 Bufo boreas:
   n:
@@ -10398,12 +10401,16 @@ Bufo calamita:
 Bufo canorus:
   n:
     sense:
-    - id: 'bufo_canorus%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'bufo_canorus%1:05:00::'
       synset: 01649821-n
 Bufo debilis:
   n:
     sense:
-    - id: 'bufo_debilis%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'bufo_debilis%1:05:00::'
       synset: 01649674-n
 Bufo marinus:
   n:
@@ -10418,18 +10425,27 @@ Bufo microscaphus:
 Bufo speciosus:
   n:
     sense:
-    - id: 'bufo_speciosus%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'bufo_speciosus%1:05:00::'
       synset: 01649944-n
 Bufo viridis:
   n:
     sense:
-    - id: 'bufo_viridis%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'bufo_viridis%1:05:00::'
       synset: 01649543-n
 Bufonidae:
   n:
     sense:
     - id: 'bufonidae%1:05:00::'
       synset: 01648275-n
+Bufotes viridis:
+  n:
+    sense:
+    - id: 'bufotes_viridis%1:05:00::'
+      synset: 01649543-n
 Buganda:
   n:
     sense:
@@ -19515,8 +19531,6 @@ barleycorn:
     - value: ˈbɑː(ɹ)liˌkɔː(ɹ)n
       variety: GB
     sense:
-    - id: 'barleycorn%1:20:00::'
-      synset: 12144165-n
     - id: 'barleycorn%1:13:00::'
       synset: 07819069-n
 barm:
@@ -21349,6 +21363,11 @@ basinful:
     sense:
     - id: 'basinful%1:23:00::'
       synset: 13787226-n
+basionym:
+  n:
+    sense:
+    - id: 'basionym%1:10:00::'
+      synset: 82526070-n
 basipetal:
   a:
     sense:
@@ -21603,6 +21622,11 @@ basking shark:
     sense:
     - id: 'basking_shark%1:05:00::'
       synset: 01488120-n
+basonym:
+  n:
+    sense:
+    - id: 'basonym%1:10:00::'
+      synset: 82526070-n
 basophil:
   n:
     pronunciation:
@@ -22172,6 +22196,11 @@ basuco:
     sense:
     - id: 'basuco%1:06:00::'
       synset: 02809459-n
+basyonym:
+  n:
+    sense:
+    - id: 'basyonym%1:10:00::'
+      synset: 82526070-n
 bat:
   n:
     pronunciation:
@@ -23339,7 +23368,7 @@ battle of Trasimeno:
   n:
     sense:
     - id: 'battle_of_trasimeno%1:04:00::'
-      synset: 01300469-n
+      synset: 01285678-n
 battle of Valmy:
   n:
     sense:
@@ -33320,7 +33349,7 @@ biannually:
     - id: 'biannually%4:02:00::'
       pertainym:
       - biannual%5:00:00:periodic:00
-      synset: 00280604-r
+      synset: 00256795-r
 bias:
   a:
     pronunciation:
@@ -34276,8 +34305,8 @@ biff:
 bifid:
   a:
     sense:
-    - id: bifid%5:00:00:divided:00
-      synset: 02488985-s
+    - id: bifid%5:00:00:compound:00
+      synset: 02179281-s
 bifilar:
   a:
     sense:
@@ -52372,11 +52401,6 @@ boost:
       - vtia
       - vtii
       synset: 02560630-v
-    - id: 'boost%2:30:00::'
-      subcat:
-      - vtai
-      - vtii
-      synset: 00498142-v
     - by_means_of:
       - 'booster%1:06:01::'
       derivation:
@@ -52388,6 +52412,11 @@ boost:
       subcat:
       - vtai-pp
       synset: 01518703-v
+    - id: 'boost%2:30:00::'
+      subcat:
+      - vtai
+      - vtii
+      synset: 00158495-v
 boost up:
   v:
     sense:
@@ -61716,14 +61745,14 @@ briefly:
     pronunciation:
     - value: ˈbɹiːfli
     sense:
-    - id: 'briefly%4:02:00::'
-      pertainym:
-      - brief%5:00:00:short:02
-      synset: 00093232-r
     - id: 'briefly%4:02:03::'
       pertainym:
       - brief%5:00:00:concise:00
       synset: 00291174-r
+    - id: 'briefly%4:02:00::'
+      pertainym:
+      - brief%5:00:00:short:02
+      synset: 00034576-r
 briefness:
   n:
     sense:

@@ -1456,7 +1456,9 @@ Felis:
 Felis bengalensis:
   n:
     sense:
-    - id: 'felis_bengalensis%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'felis_bengalensis%1:05:00::'
       synset: 02128969-n
 Felis catus:
   n:
@@ -1481,7 +1483,9 @@ Felis domesticus:
 Felis manul:
   n:
     sense:
-    - id: 'felis_manul%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'felis_manul%1:05:00::'
       synset: 02129439-n
 Felis ocreata:
   n:
@@ -1491,12 +1495,16 @@ Felis ocreata:
 Felis onca:
   n:
     sense:
-    - id: 'felis_onca%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'felis_onca%1:05:00::'
       synset: 02131577-n
 Felis pardalis:
   n:
     sense:
-    - id: 'felis_pardalis%1:05:00::'
+    - exemplifies:
+      - 'protonym%1:10:00::'
+      id: 'felis_pardalis%1:05:00::'
       synset: 02128146-n
 Felis serval:
   n:
@@ -8526,12 +8534,6 @@ fall:
       - 'fall%2:41:02::'
       id: 'fall%1:11:01::'
       synset: 07442328-n
-    - antonym:
-      - 'rise%1:11:02::'
-      derivation:
-      - 'fall%2:38:00::'
-      id: 'fall%1:11:04::'
-      synset: 07384870-n
     - derivation:
       - 'fall%2:41:00::'
       - 'fall%2:40:05::'
@@ -8551,6 +8553,12 @@ fall:
       - 'fall%2:30:06::'
       id: 'fall%1:07:00::'
       synset: 05119135-n
+    - antonym:
+      - 'rise%1:11:02::'
+      derivation:
+      - 'fall%2:38:00::'
+      id: 'fall%1:11:04::'
+      synset: 07377946-n
   v:
     form:
     - fallen
@@ -15783,10 +15791,10 @@ family Trionychidae:
     sense:
     - id: 'family_trionychidae%1:05:00::'
       synset: 01674515-n
-family Triopidae:
+family Triopsidae:
   n:
     sense:
-    - id: 'family_triopidae%1:05:00::'
+    - id: 'family_triopsidae%1:05:00::'
       synset: 01998629-n
 family Trochilidae:
   n:
@@ -23308,7 +23316,7 @@ ferrite:
     - id: 'ferrite%1:27:00::'
       synset: 14883352-n
     - id: 'ferrite%1:27:01::'
-      synset: 92363685-n
+      synset: 14744853-n
 ferritin:
   n:
     sense:
@@ -32171,7 +32179,9 @@ fishnet:
 fishnet stockings:
   n:
     sense:
-    - id: 'fishnet_stockings%1:06:01::'
+    - exemplifies:
+      - 'plural%1:10:00::'
+      id: 'fishnet_stockings%1:06:01::'
       synset: 92464059-n
 fishpaste:
   n:
@@ -53621,10 +53631,10 @@ friend of the court:
     sense:
     - id: 'friend_of_the_court%1:18:00::'
       synset: 09807678-n
-friend with benefit:
+friend with benefits:
   n:
     sense:
-    - id: 'friend_with_benefit%1:18:01::'
+    - id: 'friend_with_benefits%1:18:01::'
       synset: 91001301-n
 friendless:
   a:
