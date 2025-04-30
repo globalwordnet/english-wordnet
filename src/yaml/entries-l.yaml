@@ -409,13 +409,6 @@ Labor Department:
     sense:
     - id: 'labor_department%1:14:00::'
       synset: 08154495-n
-Labor Secretary:
-  n:
-    sense:
-    - id: 'labor_secretary%1:18:00::'
-      synset: 10591913-n
-    - id: 'labor_secretary%1:04:00::'
-      synset: 00602937-n
 Labour:
   n:
     pronunciation:
@@ -693,15 +686,6 @@ Ladrone Islands:
     sense:
     - id: 'ladrone_islands%1:15:00::'
       synset: 08856544-n
-Lady:
-  n:
-    pronunciation:
-    - value: ˈleɪdi
-    sense:
-    - antonym:
-      - 'lord%1:18:00::'
-      id: 'lady%1:18:00::'
-      synset: 10262488-n
 Lady Day:
   n:
     sense:
@@ -7038,7 +7022,7 @@ Lophius:
     sense:
     - id: 'lophius%1:05:00::'
       synset: 02550759-n
-Lophius Americanus:
+Lophius americanus:
   n:
     sense:
     - id: 'lophius_americanus%1:05:00::'
@@ -7135,14 +7119,6 @@ Lord:
     sense:
     - id: 'lord%1:18:02::'
       synset: 09559474-n
-    - antonym:
-      - 'lady%1:18:00::'
-      derivation:
-      - lordly%5:00:00:noble:02
-      - 'lordship%1:10:00::'
-      - 'lord%2:41:00::'
-      id: 'lord%1:18:00::'
-      synset: 10291374-n
 Lord Britten of Aldeburgh:
   n:
     sense:
@@ -7153,21 +7129,11 @@ Lord Byron:
     sense:
     - id: 'lord_byron%1:18:01::'
       synset: 10897005-n
-Lord Chancellor:
-  n:
-    sense:
-    - id: 'lord_chancellor%1:18:00::'
-      synset: 10291868-n
 Lord George Gordon Byron:
   n:
     sense:
     - id: 'lord_george_gordon_byron%1:18:00::'
       synset: 10897005-n
-Lord High Chancellor:
-  n:
-    sense:
-    - id: 'lord_high_chancellor%1:18:00::'
-      synset: 10291868-n
 Lord Macaulay:
   n:
     sense:
@@ -7243,9 +7209,7 @@ Lordship:
     - value: ˈlɔɹd.ʃɪp
       variety: US
     sense:
-    - derivation:
-      - 'lord%1:18:00::'
-      id: 'lordship%1:10:00::'
+    - id: 'lordship%1:10:00::'
       synset: 06354151-n
 Lorelei:
   n:
@@ -10050,6 +10014,13 @@ labor resources:
     sense:
     - id: 'labor_resources%1:21:00::'
       synset: 13353212-n
+labor secretary:
+  n:
+    sense:
+    - id: 'labor_secretary%1:18:01::'
+      synset: 10591913-n
+    - id: 'labor_secretary%1:04:02::'
+      synset: 00602937-n
 labor union:
   n:
     sense:
@@ -11386,6 +11357,8 @@ lady:
       synset: 10262834-n
     - id: 'lady%1:18:01::'
       synset: 10008828-n
+    - id: 'lady%1:18:03::'
+      synset: 10262488-n
 lady beetle:
   n:
     sense:
@@ -39859,6 +39832,8 @@ lord:
       - 'lordship%1:07:00::'
       id: 'lord%1:18:01::'
       synset: 10408139-n
+    - id: 'lord%1:18:03::'
+      synset: 10291374-n
   v:
     pronunciation:
     - value: lɔːd
@@ -39866,12 +39841,20 @@ lord:
     - value: lɔɹd
       variety: US
     sense:
-    - derivation:
-      - 'lord%1:18:00::'
-      id: 'lord%2:41:00::'
+    - id: 'lord%2:41:00::'
       subcat:
       - vtaa
       synset: 02403996-v
+lord chancellor:
+  n:
+    sense:
+    - id: 'lord_chancellor%1:18:00::'
+      synset: 10291868-n
+lord high chancellor:
+  n:
+    sense:
+    - id: 'lord_high_chancellor%1:18:00::'
+      synset: 10291868-n
 lord it over:
   v:
     sense:
@@ -39906,7 +39889,6 @@ lordly:
     - value: ˈlɔː(ɹ)dli
     sense:
     - derivation:
-      - 'lord%1:18:00::'
       - 'lordliness%1:07:01::'
       id: lordly%5:00:00:noble:02
       synset: 01595457-s
