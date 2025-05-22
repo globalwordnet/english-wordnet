@@ -390,11 +390,14 @@ def main():
         else:
             ilis.add(synset.ili)
 
-        if synset.wikidata and synset.wikidata in wikidatas:
-            print(f"ERROR: QID {synset.wikidata} is duplicated")
-            errors += 1
-        else:
-            wikidatas.add(synset.wikidata)
+        if synset.wikidata:
+            ss_wikidatas = synset.wikidata if isinstance(synset.wikidata, list) else [synset.wikidata]
+            for wikidata in ss_wikidatas:
+                if wikidata in wikidatas:
+                    print(f"ERROR: QID {wikidata} is duplicated")
+                    errors += 1
+                else:
+                    wikidatas.add(wikidata)
 
     for synset in wn.synsets:
         for sr in synset.synset_relations:
