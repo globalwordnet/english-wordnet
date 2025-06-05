@@ -60,7 +60,7 @@ if __name__ == "__main__":
         with open(args.ewe_file, "w") as ewe_file:
             for key in joint_keys:
                 if len(wikidata[key]) > 0 and all(wd not in ili2wd for wd in wikidata[key]):
-                    wd = wikidata[key].pop()
+                    wd = next(iter(wikidata[key]))
                     if wd not in ili2id:
                         print(f"Warning: Wikidata ID {wd} not found in ILI mapping.")
                         continue
