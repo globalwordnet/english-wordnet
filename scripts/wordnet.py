@@ -833,9 +833,3 @@ def parse_wordnet(wordnet_file):
         parse(source, handler)
     extract_comments(wordnet_file, handler.lexicon)
     return handler.lexicon
-
-
-if __name__ == "__main__":
-    wordnet = parse_wordnet(sys.argv[1])
-    xml_file = open("wn31-test.xml", "w")
-    wordnet.to_xml(xml_file, True)
