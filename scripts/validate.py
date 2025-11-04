@@ -9,6 +9,13 @@ from wordnet import xml_id_char
 from collections import Counter
 from from_yaml import load
 
+# This is temporary list of exceptions for linking where a taxon name is 
+# used as a generic name. In this case, Wikidata has only a single entry
+# while OEWN distinguishes between the taxon and the generic name 
+# (e.g., hydrangea vs genus Hydrangea).
+WIKIDATA_DUPLICATION_EXCEPTIONS = [
+"Q134842", "Q138789", "Q161142", "Q644312", "Q1423091", "Q5309794", "Q1024025", "Q133876", "Q1783190", "Q1974044", "Q2704518", "Q2708653", "Q1362995", "Q858999", "Q26949", "Q2511051", "Q5230439", "Q4006525", "Q150242", "Q94815", "Q2719974", "Q908118", "Q2589976", "Q355080", "Q138842", "Q5222959", "Q157905", "Q2975317", "Q2496817", "Q2574724", "Q2707277", "Q161075", "Q2720105", "Q157748", "Q156851", "Q156699", "Q159077", "Q133285", "Q1754165", "Q205265", "Q133827", "Q1425929", "Q158975", "Q1969330", "Q310801", "Q648056", "Q1514169", "Q2452570", "Q1354632", "Q3338824", "Q2213704", "Q135537", "Q7840756", "Q134827", "Q199695", "Q1061596", "Q139000", "Q199456", "Q180597", "Q133017", "Q795375", "Q130948", "Q1708883", "Q2304642", "Q4795779", "Q74083", "Q990101", "Q41317", "Q1137414", "Q2136293", "Q905053", "Q300923", "Q2500468", "Q734870", "Q1518954", "Q40621", "Q132672", "Q309466", "Q1060870", "Q130902", "Q14400", "Q130988", "Q319520", "Q131688", "Q179204", "Q595983", "Q19119", "Q1329239", "Q213536", "Q752529", "Q734720", "Q788536", "Q621861", "Q46316", "Q25336", "Q3388845", "Q344662", "Q2706095", "Q185231", "Q190701", "Q756089", "Q899799", "Q369761", "Q811633", "Q185167", "Q310869", "Q132950", "Q1307559", "Q133259", "Q2166073", "Q329334", "Q1136219" ]
+
 def check_symmetry(wn, fix):
     errors = []
     for synset in wn.synsets:
@@ -393,7 +400,7 @@ def main():
         if synset.wikidata:
             ss_wikidatas = synset.wikidata if isinstance(synset.wikidata, list) else [synset.wikidata]
             for wikidata in ss_wikidatas:
-                if wikidata in wikidatas:
+                if wikidata in wikidatas and wikidata not in WIKIDATA_DUPLICATION_EXCEPTIONS:
                     print(f"ERROR: QID {wikidata} is duplicated")
                     errors += 1
                 else:
