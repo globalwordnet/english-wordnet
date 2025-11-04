@@ -55,6 +55,16 @@ This will create a file at `wn.xml` that contains the complete wordnet.
 
 Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
 
+[WN](https://wn.readthedocs.io/en/latest/) is a Python library that can be used to work with Open English Wordnet.
+
+```python
+import wn
+
+wn.download("oewn:2024")
+
+oewn = wn.Wordnet("oewn:2024")
+```
+
 ## Changes
 
 We welcome changes, to make a change please read our [contributing guidelines](CONTRIBUTING.md) 
