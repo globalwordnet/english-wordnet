@@ -16,6 +16,44 @@ entry_orders = {}
 
 KEY_PREFIX_LEN = 5 # = len("oewn-")
 
+def escape_sense_key(s : str) -> str:
+    """
+    Escape a sense key for OEWN
+    """
+    return (s.replace("-", "--")
+            .replace("'", "-ap-").replace(" ", "_")
+            .replace("!", "-excl-").replace("#", "-num-")
+            .replace("$", "-dollar-").replace("%", "-percnt-")
+            .replace("&", "-amp-").replace("(", "-lpar-")
+            .replace(")", "-rpar-").replace("*", "-ast-")
+            .replace("+", "-plus-").replace(",", "-comma-")
+            .replace("/", "-sol-").replace("{", "-lbrace-")
+            .replace("|", "-vert-").replace("}", "-rbrace-")
+            .replace("~", "-tilde-").replace("¢", "-cent-")
+            .replace("£", "-pound-").replace("§", "-sect-")
+            .replace("©", "-copy-").replace("®", "-reg-")
+            .replace("°", "-deg-").replace("´", "-acute-")
+            .replace("¶", "-para-").replace("º", "-ordm-"))
+
+def unescape_sense_key(s : str) -> str:
+    """
+    Unescape a sense key from OEWN
+    """
+    return (s.replace("-ap-", "'").replace("_", " ")
+            .replace("-excl-", "!").replace("-num-", "#")
+            .replace("-dollar-", "$").replace("-percnt-", "%")
+            .replace("-amp-", "&").replace("-lpar-", "(")
+            .replace("-rpar-", ")").replace("-ast-", "*")
+            .replace("-plus-", "+").replace("-comma-", ",")
+            .replace("-sol-", "/").replace("-lbrace-", "{")
+            .replace("-vert-", "|").replace("-rbrace-", "}")
+            .replace("-tilde-", "~").replace("-cent-", "¢")
+            .replace("-pound-", "£").replace("-sect-", "§")
+            .replace("-copy-", "©").replace("-reg-", "®")
+            .replace("-deg-", "°").replace("-acute-", "´")
+            .replace("-para-", "¶").replace("-ordm-", "º")
+            .replace("--", "-"))
+
 def map_sense_key(sk):
     """
     Maps a sense key into an OEWN from
@@ -28,14 +66,12 @@ def map_sense_key(sk):
         else:
             lemma = e[0]
             info = e[1]
-        return ("oewn-" + lemma.replace("'","-ap-").replace("/","-sl-").
-                replace("!","-ex-").replace(",","-cm-")
-                .replace(":","-cn-").replace("+","-pl-") +
+        lemma = escape_sense_key(lemma)
+        return ("oewn-" + lemma +
             "__" + info.replace("_","-sp-").replace(":","."))
     else:
-        return ("oewn-" + sk.replace("%", "__").replace("'","-ap-").
-            replace("/","-sl-").replace("!","-ex-").
-            replace(",","-cm-").replace(":","-cn-").replace("+","-pl-"))
+        sk = escape_sense_key(sk)
+        return "oewn-" + sk
 
 def unmap_sense_key(sk):
     """
@@ -45,10 +81,10 @@ def unmap_sense_key(sk):
         e = sk.split("__")
         oewn_key = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
-        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
-            "%" + r.replace(".", ":").replace("-sp-","_"))
+        return (unescape_sense_key(oewn_key) + "%" +
+                r.replace("-sp-", "_").replace(".", ":"))
     else: 
-        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+")
+        return unescape_sense_key(sk[KEY_PREFIX_LEN:])
 
 
 def make_pos(y, pos):
