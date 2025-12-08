@@ -21,7 +21,7 @@ def escape_sense_key(s : str) -> str:
     Escape a sense key for OEWN
     """
     return (s.replace("-", "--")
-            .replace("'", "-ap-").replace(" ", "_")
+            .replace("'", "-apos-").replace(" ", "_")
             .replace("!", "-excl-").replace("#", "-num-")
             .replace("$", "-dollar-").replace("%", "-percnt-")
             .replace("&", "-amp-").replace("(", "-lpar-")
@@ -39,7 +39,7 @@ def unescape_sense_key(s : str) -> str:
     """
     Unescape a sense key from OEWN
     """
-    return (s.replace("-ap-", "'").replace("_", " ")
+    return (s.replace("-apos-", "'").replace("_", " ")
             .replace("-excl-", "!").replace("-num-", "#")
             .replace("-dollar-", "$").replace("-percnt-", "%")
             .replace("-amp-", "&").replace("-lpar-", "(")
