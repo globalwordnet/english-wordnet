@@ -210,19 +210,19 @@ def is_valid_sense_id(xml_id, synset):
 def main():
     parser = argparse.ArgumentParser(
         description="Validate the OEWN data files")
-    parse.add_argument(
+    parser.add_argument(
         "--year",
         type=str,
         help="Year of the Wordnet version (default 2024)",
         default="2024"
     )
-    parse.add_argument(
+    parser.add_argument(
         "--plus",
         action="store_true",
         help="Use the Wordnet+ source files",
         default=False
     )
-    parse.add_argument(
+    parser.add_argument(
         "--fix",
         action="store_true",
         help="Output commands to fix issues where possible",
