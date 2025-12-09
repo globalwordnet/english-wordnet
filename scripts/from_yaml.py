@@ -12,6 +12,7 @@ from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense,
                      escape_lemma, inverse_sense_rels,
                      inverse_synset_rels)
 from sense_keys import map_sense_key, unmap_sense_key, KEY_PREFIX_LEN
+import argparse
 
 entry_orders = {}
 
@@ -134,19 +135,20 @@ def fix_synset_rels(wn, synset):
                                    inverse_synset_rels[rel.rel_type]))
 
 
-def load(year="2022"):
+def load(year="2022", plus=False):
     """
     Load wordnet from YAML files
     """
     wn = Lexicon("oewn", "Open Engish Wordnet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
-                 year,
+                 f"{year}+" if plus else year,
                  "https://github.com/globalwordnet/english-wordnet")
-    with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
+    path = "src/plus/" if plus else "src/yaml/"
+    with open(f"{path}/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
         wn.frames = [SyntacticBehaviour(k,v) for k,v in frames.items()]
-    for f in glob("src/yaml/entries-*.yaml"):
+    for f in glob(f"{path}/entries-*.yaml"):
         with open(f, encoding="utf-8") as inp:
             y = yaml.load(inp, Loader=CLoader)
 
@@ -163,7 +165,7 @@ def load(year="2022"):
                     entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
 
-    for f in glob("src/yaml/*.yaml"):
+    for f in glob(f"{path}/*.yaml"):
         lex_name = f[9:-5]
         if "entries" not in f and "frames" not in f:
             with open(f, encoding="utf-8") as inp:
@@ -327,12 +329,31 @@ def entries_ordered(wn, synset_id):
 
 
 def main():
-    if len(sys.argv) > 1:
-        year = sys.argv[1]
-    else:
-        year = "2024"
-    wn = load(year)
-    with codecs.open("wn.xml", "w", "utf-8") as outp:
+    parse = argparse.ArgumentParser(
+        description="Convert Open English Wordnet YAML data to GWA standard XML"
+    )
+    parse.add_argument(
+        "--year",
+        type=str,
+        help="Year of the Wordnet version (default 2024)",
+        default="2024"
+    )
+    parse.add_argument(
+        "--plus",
+        action="store_true",
+        help="Use the Wordnet+ source files",
+        default=False
+    )
+    parse.add_argument(
+        "--output",
+        type=str,
+        help="Output XML file (default wn.xml)",
+        default="wn.xml"
+        )
+    args = parse.parse_args()
+    
+    wn = load(year=args.year, plus=args.plus)
+    with codecs.open(args.output, "w", "utf-8") as outp:
         wn.to_xml(outp)
 
 

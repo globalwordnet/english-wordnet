@@ -8,6 +8,7 @@ from sense_keys import unmap_sense_key
 from wordnet import xml_id_char
 from collections import Counter
 from from_yaml import load
+import argparse
 
 # This is temporary list of exceptions for linking where a taxon name is 
 # used as a generic name. In this case, Wikidata has only a single entry
@@ -207,13 +208,32 @@ def is_valid_sense_id(xml_id, synset):
 
 
 def main():
-    #wn = parse_wordnet("wn.xml")
-    wn = load()
+    parser = argparse.ArgumentParser(
+        description="Validate the OEWN data files")
+    parse.add_argument(
+        "--year",
+        type=str,
+        help="Year of the Wordnet version (default 2024)",
+        default="2024"
+    )
+    parse.add_argument(
+        "--plus",
+        action="store_true",
+        help="Use the Wordnet+ source files",
+        default=False
+    )
+    parse.add_argument(
+        "--fix",
+        action="store_true",
+        help="Output commands to fix issues where possible",
+        default=False
+    )
+    args = parser.parse_args()
 
-    if len(sys.argv) > 1 and sys.argv[1] == "--fix":
-        fix = True
-    else:
-        fix = False
+    #wn = parse_wordnet("wn.xml")
+    wn = load(year=args.year, plus=args.plus)
+
+    fix = args.fix
 
     errors = 0
 
