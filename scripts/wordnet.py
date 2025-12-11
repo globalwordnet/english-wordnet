@@ -4,11 +4,10 @@ import re
 import sys
 import codecs
 
-
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
 
-    def __init__(self, id, label, language, email, license, version, url):
+    def __init__(self, id, label, language, email, license, version, url, db=None):
         self.id = id
         self.label = label
         self.language = language
@@ -17,16 +16,28 @@ class Lexicon:
         self.version = version
         self.url = url
         self.citation = None
-        self.entries = []
-        self.synsets = []
-        self.frames = []
-        self.comments = {}
-        self.id2synset = {}
-        self.id2entry = {}
-        self.id2sense = {}
-        self.member2entry = {}
-        self.members = {}
-        self.sense2synset = {}
+        if db:
+            self.entries = db.list("entries")
+            self.synsets = db.list("synsets")
+            self.frames = db.list("frames")
+            self.comments = db.dict("comments")
+            self.id2synset = db.dict("id2synset")
+            self.id2entry = db.dict("id2entry")
+            self.id2sense = db.dict("id2sense")
+            self.member2entry = db.dict("member2entry")
+            self.members = db.dict("members")
+            self.sense2synset = db.dict("sense2synset")
+        else:
+            self.entries = []
+            self.synsets = []
+            self.frames = []
+            self.comments = {}
+            self.id2synset = {}
+            self.id2entry = {}
+            self.id2sense = {}
+            self.member2entry = {}
+            self.members = {}
+            self.sense2synset = {}
 
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (

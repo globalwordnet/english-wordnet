@@ -13,6 +13,7 @@ from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense,
                      inverse_synset_rels)
 from sense_keys import map_sense_key, unmap_sense_key, KEY_PREFIX_LEN
 import argparse
+import tempfile
 
 entry_orders = {}
 
@@ -135,7 +136,7 @@ def fix_synset_rels(wn, synset):
                                    inverse_synset_rels[rel.rel_type]))
 
 
-def load(year="2022", plus=False):
+def load(year="2022", plus=False,  db=None, verbose=False):
     """
     Load wordnet from YAML files
     """
@@ -143,12 +144,15 @@ def load(year="2022", plus=False):
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
                  f"{year}+" if plus else year,
-                 "https://github.com/globalwordnet/english-wordnet")
+                 "https://github.com/globalwordnet/english-wordnet",
+                 db=db)
     path = "src/plus/" if plus else "src/yaml/"
     with open(f"{path}/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
         wn.frames = [SyntacticBehaviour(k,v) for k,v in frames.items()]
     for f in glob(f"{path}/entries-*.yaml"):
+        if verbose:
+            print(f"Loading entries from {f}", file=sys.stderr)
         with open(f, encoding="utf-8") as inp:
             y = yaml.load(inp, Loader=CLoader)
 
@@ -166,6 +170,8 @@ def load(year="2022", plus=False):
                     wn.add_entry(entry)
 
     for f in glob(f"{path}/*.yaml"):
+        if verbose:
+            print(f"Loading synsets from {f}", file=sys.stderr)
         lex_name = f[9:-5]
         if "entries" not in f and "frames" not in f:
             with open(f, encoding="utf-8") as inp:
@@ -350,11 +356,36 @@ def main():
         help="Output XML file (default wn.xml)",
         default="wn.xml"
         )
+    parse.add_argument(
+        "--shelve",
+        action="store_true",
+        help="Use shelve for storage (for large Wordnets)",
+        default=False
+        )
+    parse.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Verbose output",
+        default=False
+        )
+    parse.add_argument(
+        "--cache-size",
+        type=int,
+        help="Cache size for shelve (default 1000000)",
+        default=1000000
+        )
     args = parse.parse_args()
     
-    wn = load(year=args.year, plus=args.plus)
-    with codecs.open(args.output, "w", "utf-8") as outp:
-        wn.to_xml(outp)
+    if args.shelve:
+        with tempfile.NamedTemporaryFile(delete=True) as tmp:
+            with connect(tmp.name, cache_size=args.cache_size) as db:
+                wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose)
+                with codecs.open(args.output, "w", "utf-8") as outp:
+                    wn.to_xml(outp)
+    else:
+        wn = load(year=args.year, plus=args.plus, verbose=args.verbose)
+        with codecs.open(args.output, "w", "utf-8") as outp:
+            wn.to_xml(outp)
 
 
 if __name__ == "__main__":
