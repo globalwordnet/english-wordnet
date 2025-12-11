@@ -11,9 +11,11 @@ from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense,
                      SenseRelType, OtherSenseRelType, SyntacticBehaviour,
                      escape_lemma, inverse_sense_rels,
                      inverse_synset_rels)
+from wordnet_sql import SQLLexicon
 from sense_keys import map_sense_key, unmap_sense_key, KEY_PREFIX_LEN
 import argparse
 import tempfile
+import sqlite3
 
 entry_orders = {}
 
@@ -86,19 +88,8 @@ def synset_from_yaml(wn, props, id, lex_name):
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
                     "oewn-" + target, SynsetRelType(rel)))
-    ss.members = [entry_for_synset(wn, ss, lemma) for lemma in props["members"]]
+    ss.members = [wn.entry_id_by_lemma_synset_id(lemma, ss.id) for lemma in props["members"]]
     return ss
-
-def entry_for_synset(wn, ss, lemma):
-    """
-    Find the entry for a synset member
-    """
-    for e in wn.entry_by_lemma(lemma):
-        for s in wn.entry_by_id(e).senses:
-            if s.synset == ss.id:
-                return e
-    print("Could not find %s referring to %s" % (lemma, ss.id))
-    return ""
 
 
 def fix_sense_rels(wn, sense):
@@ -136,16 +127,23 @@ def fix_synset_rels(wn, synset):
                                    inverse_synset_rels[rel.rel_type]))
 
 
-def load(year="2022", plus=False,  db=None, verbose=False):
+def load(year="2022", plus=False,  db=None, cache_size=1000000, verbose=False):
     """
     Load wordnet from YAML files
     """
-    wn = Lexicon("oewn", "Open Engish Wordnet", "en",
+    if db:
+        wn = SQLLexicon("oewn", "Open Engish Wordnet", "en",
+                    "english-wordnet@googlegroups.com",
+                     "https://creativecommons.org/licenses/by/4.0",
+                     f"{year}+" if plus else year,
+                     "https://github.com/globalwordnet/english-wordnet",
+                     db=db, cache_size=cache_size)
+    else:
+        wn = Lexicon("oewn", "Open Engish Wordnet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
                  f"{year}+" if plus else year,
-                 "https://github.com/globalwordnet/english-wordnet",
-                 db=db)
+                 "https://github.com/globalwordnet/english-wordnet")
     path = "src/plus/" if plus else "src/yaml/"
     with open(f"{path}/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
@@ -181,15 +179,15 @@ def load(year="2022", plus=False,  db=None, verbose=False):
                     wn.add_synset(synset_from_yaml(wn, props, id, lex_name))
                     entry_orders[id] = props["members"]
 
-    for entry in wn.entries:
+    for entry in wn.entries():
         for sense in entry.senses:
             fix_sense_rels(wn, sense)
 
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         fix_synset_rels(wn, synset)
 
     by_lex_name = {}
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
                 "oewn", "Open English Wordnet", "en",
@@ -357,9 +355,9 @@ def main():
         default="wn.xml"
         )
     parse.add_argument(
-        "--shelve",
+        "--sql",
         action="store_true",
-        help="Use shelve for storage (for large Wordnets)",
+        help="Use MySQL for storage (for large Wordnets)",
         default=False
         )
     parse.add_argument(
@@ -371,15 +369,16 @@ def main():
     parse.add_argument(
         "--cache-size",
         type=int,
-        help="Cache size for shelve (default 1000000)",
+        help="Cache size for MySQL (default 1000000)",
         default=1000000
         )
     args = parse.parse_args()
     
-    if args.shelve:
+    if args.sql:
         with tempfile.NamedTemporaryFile(delete=True) as tmp:
-            with connect(tmp.name, cache_size=args.cache_size) as db:
-                wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose)
+            with sqlite3.connect(tmp.name) as db:
+                wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose,
+                          cache_size=args.cache_size)
                 with codecs.open(args.output, "w", "utf-8") as outp:
                     wn.to_xml(outp)
     else:
