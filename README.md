@@ -10,10 +10,26 @@ Wordnet and we welcome contributions. Contributions to this wordnet may eventual
 future releases of Princeton WordNet. Correspondance to previous versions and wordnets in other language is provided
 through the [Collaborative Interlingual Index (CILI)](https://github.com/globalwordnet/cili). The Open English Wordnet is available as individual files in [GWN-LMF](http://globalwordnet.github.io/schemas/) format.
 
+Since the 2025 release, Open English Wordnet is also released along with [Open English Namenet](https://github.com/globalwordnet/english-namenet),
+which contains a very large number of entries derived from [Wikidata](https://wikidata.org). As such there are three versions of the wordnet available
+
+* **Open English Wordnet**: A wordnet of the common nouns, verbs, adjectives and adverbs.
+* **Open English Wordnet Plus**: Also contains a selection of proper nouns from Open English Namenet that have been manually validated. 
+    This is based on those in Princeton WordNet 3.1 as well as additional entries added by the Open English Wordnet team.
+* **Open English Namenet**: The full set of proper nouns from Open English Namenet.
+
 ## Releases
 
 Open English Wordnet is released through the [Open English Wordnet website](https://en-word.net/). The versions released are
 
+* **2025 Edition** (Released ... December 2025). [(LMF)](https://en-word.net/static/english-wordnet-2025.xml.gz)
+[(JSON)](https://en-word.net/static/english-wordnet-2025-json.zip)
+[(RDF)](https://en-word.net/static/english-wordnet-2025.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2025.zip)
+* **2025 Plus** (Released ... December 2025). [(LMF)](https://en-word.net/static/english-wordnet-2025-plus.xml.gz)
+[(JSON)](https://en-word.net/static/english-wordnet-2025-plus-json.zip)
+[(RDF)](https://en-word.net/static/english-wordnet-2025-plus.ttl.gz)
+[(WNDB)](https://en-word.net/static/english-wordnet-2025-plus.zip)
 * **2024 Edition** (Released 1st November 2024). [(LMF)](https://en-word.net/static/english-wordnet-2024.xml.gz)
 [(RDF)](https://en-word.net/static/english-wordnet-2024.ttl.gz)
 [(WNDB)](https://en-word.net/static/english-wordnet-2024.zip)
@@ -37,6 +53,7 @@ The size of each resource is as follows
 
 | Edition | Words   | Synsets | Relations |
 |---------|---------|---------|-----------|
+| 2025+   |  .....  |   ...   |   ...     |
 | 2024    | 161,705 | 120,630 | 419,168   |
 | 2023    | 161,338 | 120,135 | 415,905   |
 | 2022    | 161,221 | 120,068 | 386,437   |
@@ -44,6 +61,18 @@ The size of each resource is as follows
 | 2020    | 163,079 | 120,052 | 385,211   |
 | 2019    | 160,051 | 117,791 | 378,201   |
 | Princeton 3.1 | 159,015 | 117,791 | 378,203 | 
+
+The size of the core resources are as follows
+
+| Edition | Words   | Synsets | Relations |
+|---------|---------|---------|-----------|
+| 2025    |   ...   |   ...   |   ...     |
+
+The size of the namenet resources are as follows
+
+| Edition | Words   | Synsets | Relations |
+|---------|---------|---------|-----------|
+| 2025    |   ...   |   ...   |   ...     |
 
 ## Usage
 
@@ -60,9 +89,9 @@ Further conversions are available through the converter [here](http://server1.nl
 ```python
 import wn
 
-wn.download("oewn:2024")
+wn.download("oewn:2025-plus")
 
-oewn = wn.Wordnet("oewn:2024")
+oewn = wn.Wordnet("oewn:2025")
 ```
 
 ## Changes
