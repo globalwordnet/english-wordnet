@@ -3,6 +3,7 @@ from xml.sax import ContentHandler, parse
 import re
 import sys
 import codecs
+from collections import defaultdict
 
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
@@ -18,6 +19,7 @@ class Lexicon:
         self.citation = None
         self._entries = []
         self._synsets = []
+        self._pseudo_entries = defaultdict(list)
         self.frames = []
         self.comments = {}
         self.id2synset = {}
@@ -112,9 +114,18 @@ class Lexicon:
             for s in self.entry_by_id(e).senses:
                 if s.synset == synset_id:
                     return e
-        print("Could not find %s referring to %s" % (lemma, ss.id))
+        self._pseudo_entries[(lemma, synset_id[-1])].append(synset_id)
         return None
 
+    def pseudo_entries(self):
+        for (lemma, pos), synsets in self._pseudo_entries:
+            entry = LexicalEntry(f"oewn-{escape_lemma(lemma)}-{pos}")
+            entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
+            for idx, synset in enumerate(synsets):
+                sense = Sense(map_sense_key(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}"),
+                               f"oewn-{synset}", None, -1)
+                entry.add_sense(sense)
+            yield entry
 
     def to_xml(self, xml_file, part=False):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
@@ -149,6 +160,8 @@ class Lexicon:
              self.url))
 
         for entry in sorted(self._entries, key=lambda x: x.id):
+            entry.to_xml(xml_file, self.comments)
+        for entry in self.pseudo_entries():
             entry.to_xml(xml_file, self.comments)
         for synset in sorted(self._synsets, key=lambda x: x.id):
             synset.to_xml(xml_file, self.comments)

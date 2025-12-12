@@ -24,6 +24,7 @@ class SQLLexicon:
         self.comments = {}
         self._dirty_entries = []
         self._dirty_synsets = []
+        self._dirty_pseudo_entries = []
         self.cache_size = cache_size
         self.conn = db
         self.conn.execute("""
@@ -42,7 +43,8 @@ class SQLLexicon:
             CREATE TABLE IF NOT EXISTS members (
                 member TEXT,
                 entry_id TEXT,
-                synset_id TEXT
+                synset_id TEXT,
+                pos TEXT
                 )""")
         self.conn.execute("""
             CREATE INDEX IF NOT EXISTS idx_members_member
@@ -91,6 +93,29 @@ class SQLLexicon:
         cursor.close()
         return count
 
+    def pseudo_entries(self):
+        self._flush_synsets()
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            SELECT member, pos, GROUP_CONCAT(synset_id)
+            FROM members WHERE entry_id IS NULL 
+            GROUP BY member, pos
+            """)
+        # Get all synset_id with the same members and convert them to
+        # LexicalEntry objects
+        for row in cursor.fetchall():
+            lemma = row[0]
+            pos = row[1]
+            synset_ids = row[2].split(",")
+            entry = LexicalEntry(f"oewn-{escape_lemma(lemma)}-{pos}")
+            entry.set_lemma(lemma, pos)
+            for idx, synset_id in enumerate(synset_ids):
+                sense = Sense(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}",
+                              f"oewn-{synset}", None, -1)
+                entry.add_sense(sense)
+            yield entry
+        cursor.close()
+
     def synsets(self):
         self._flush_synsets()
         cursor = self.conn.cursor()
@@ -105,7 +130,7 @@ class SQLLexicon:
         cursor.execute("SELECT COUNT(*) FROM synsets")
         count = cursor.fetchone()[0]
         cursor.close()
-        return count
+        returncount
 
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (
@@ -126,14 +151,14 @@ class SQLLexicon:
         for entry in self._dirty_entries:
             for (index, sense) in enumerate(entry.senses):
                 senses.append((sense.id, sense.synset, entry.id, index))
-                members.append((entry.lemma.written_form, entry.id, sense.synset))
+                members.append((entry.lemma.written_form, entry.id, sense.synset, entry.lemma.part_of_speech.value))
         cursor.executemany("""
             INSERT INTO senses (id, synset_id, entry_id, idx)
             VALUES (?, ?, ?, ?)
         """, senses)
         cursor.executemany("""
-            INSERT INTO members (member, entry_id, synset_id)
-            VALUES (?, ?, ?)
+            INSERT INTO members (member, entry_id, synset_id, pos)
+            VALUES (?, ?, ?, ?)
         """, members)
         self.conn.commit()
         self._dirty_entries = []
@@ -149,6 +174,12 @@ class SQLLexicon:
         """, [(synset.id, pickle.dumps(synset)) for synset in self._dirty_synsets])
         self.conn.commit()
         self._dirty_synsets = []
+        cursor.executemany("""
+            INSERT OR IGNORE INTO members (member, synset_id, pos)
+            VALUES (?, ?, ?)
+        """, self._dirty_pseudo_entries)
+        self.conn.commit()
+        self._dirty_pseudo_entries = []
         cursor.close()
 
     def add_entry(self, entry):
@@ -226,6 +257,8 @@ class SQLLexicon:
         cursor.close()
         if row:
             return row[0]
+        else:
+            self._dirty_pseudo_entries.append((lemma, synset_id, synset_id[-1]))
     
 
     def synset_by_id(self, id):
@@ -320,6 +353,8 @@ class SQLLexicon:
              self.url))
 
         for entry in self.entries():
+            entry.to_xml(xml_file, self.comments)
+        for entry in self.pseudo_entries():
             entry.to_xml(xml_file, self.comments)
         for synset in self.synsets():
             synset.to_xml(xml_file, self.comments)
