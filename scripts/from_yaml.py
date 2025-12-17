@@ -440,9 +440,6 @@ def main():
         with tempfile.NamedTemporaryFile(delete=True) as tmp:
             with sqlite3.connect(tmp.name) as db:
                 wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose,
-                          cache_size=args.cache_size)
-                with codecs.open(args.output, "w", "utf-8") as outp:
-                    wn.to_xml(outp)
                           cache_size=args.cache_size, prefix=args.prefix,
                           path=args.folder)
     else:
