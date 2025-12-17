@@ -93,7 +93,7 @@ class SQLLexicon:
         cursor.close()
         return count
 
-    def pseudo_entries(self):
+    def pseudo_entries(self, prefix):
         self._flush_synsets()
         cursor = self.conn.cursor()
         cursor.execute("""
@@ -107,11 +107,11 @@ class SQLLexicon:
             lemma = row[0]
             pos = row[1]
             synset_ids = row[2].split(",")
-            entry = LexicalEntry(f"oewn-{escape_lemma(lemma)}-{pos}")
+            entry = LexicalEntry(f"{prefix}-{escape_lemma(lemma)}-{pos}")
             entry.set_lemma(lemma, pos)
             for idx, synset_id in enumerate(synset_ids):
                 sense = Sense(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}",
-                              f"oewn-{synset}", None, -1)
+                              f"{prefix}-{synset}", None, -1)
                 entry.add_sense(sense)
             yield entry
         cursor.close()
@@ -168,8 +168,9 @@ class SQLLexicon:
         if len(self._dirty_synsets) == 0:
             return
         cursor = self.conn.cursor()
+        # TODO: Actually raise an error for duplicate synsets instead of ignoring
         cursor.executemany("""
-            INSERT INTO synsets (id, value)
+            INSERT OR IGNORE INTO synsets (id, value)
             VALUES (?, ?)
         """, [(synset.id, pickle.dumps(synset)) for synset in self._dirty_synsets])
         self.conn.commit()
@@ -354,7 +355,7 @@ class SQLLexicon:
 
         for entry in self.entries():
             entry.to_xml(xml_file, self.comments)
-        for entry in self.pseudo_entries():
+        for entry in self.pseudo_entries(self.id):
             entry.to_xml(xml_file, self.comments)
         for synset in self.synsets():
             synset.to_xml(xml_file, self.comments)

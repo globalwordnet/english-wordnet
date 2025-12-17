@@ -62,13 +62,13 @@ ss_types = {
 
 sense_id_lex_id = re.compile(".*%\\d:\\d\\d:(\\d\\d):.*")
 
-def gen_lex_id(e, s):
+def gen_lex_id(e, s, prefix):
     max_id = 0
     unseen = 1
     seen = False
     for s2 in e.senses:
         if s2.id:
-            m = re.match(sense_id_lex_id, unmap_sense_key(s2.id))
+            m = re.match(sense_id_lex_id, unmap_sense_key(s2.id, prefix))
             max_id = max(max_id, int(m.group(1)))
         else:
             if not seen:
@@ -90,11 +90,11 @@ def sense_for_entry_synset_id(wn, ss_id, lemma):
         if s.synset == ss_id][0]
 
 
-def get_head_word(wn, s):
+def get_head_word(wn, s, prefix):
     ss = wn.synset_by_id(s.synset)
     # The hack here is we don't care about satellites in non-Princeton sets
     srs = [r for r in ss.synset_relations if r.rel_type ==
-           SynsetRelType.SIMILAR and not r.target.startswith("oewn-9") and not r.target.startswith("oewn-8")]
+           SynsetRelType.SIMILAR and not r.target.startswith(f"{prefix}-9") and not r.target.startswith(f"{prefix}-8")]
     if len(srs) != 1:
         print([r.target for r in srs])
         print(s.id)
@@ -105,10 +105,10 @@ def get_head_word(wn, s):
         s2 = [sense for sense in entry.senses
                 if sense.synset == srs[0].target][0]
 
-        entry_id = unmap_sense_key(s2.id)
+        entry_id = unmap_sense_key(s2.id, prefix)
         entry_id = entry_id[:entry_id.index("%")]
         if s2.id:
-            return entry_id, re.match(sense_id_lex_id, unmap_sense_key(s2.id)).group(1)
+            return entry_id, re.match(sense_id_lex_id, unmap_sense_key(s2.id, prefix)).group(1)
         else:
             print(
                 "No sense key for target of satellite! Marking as 99... please fix for " +
@@ -118,7 +118,7 @@ def get_head_word(wn, s):
     exit(-1)
 
 
-def get_sense_key(wn, e, s):
+def get_sense_key(wn, e, s, prefix):
     """Calculate the sense key for a sense of an entry"""
     ss = wn.synset_by_id(s.synset)
     lemma = (e.lemma.written_form
@@ -128,18 +128,16 @@ def get_sense_key(wn, e, s):
     ss_type = ss_types[ss.part_of_speech]
     lex_filenum = lex_filenums[ss.lex_name]
     if s.id:
-        lex_id = extract_lex_id(unmap_sense_key(s.id))
+        lex_id = extract_lex_id(unmap_sense_key(s.id, prefix))
     else:
-        lex_id = gen_lex_id(e, s)
+        lex_id = gen_lex_id(e, s, prefix)
     if ss.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
-        head_word, head_id = get_head_word(wn, s)
+        head_word, head_id = get_head_word(wn, s, prefix)
     else:
         head_word = ""
         head_id = ""
     return "%s%%%d:%02d:%02d:%s:%s" % (lemma, ss_type, lex_filenum,
                                        lex_id, head_word, head_id)
-
-KEY_PREFIX_LEN = 5 # = len("oewn-")
 
 def escape_sense_key(s : str) -> str:
     """
@@ -182,7 +180,7 @@ def unescape_sense_key(s : str) -> str:
             .replace("-para-", "¶").replace("-ordm-", "º")
             .replace("--", "-"))
 
-def map_sense_key(sk):
+def map_sense_key(sk, prefix):
     """
     Maps a sense key into an XML-compatible sense key
     """
@@ -195,16 +193,17 @@ def map_sense_key(sk):
             lemma = e[0]
             info = e[1]
         lemma = escape_sense_key(lemma)
-        return ("oewn-" + lemma +
+        return (prefix  + "-" + lemma +
             "__" + info.replace("_","-sp-").replace(":","."))
     else:
         sk = escape_sense_key(sk)
-        return "oewn-" + sk
+        return prefix + "-" + sk
 
-def unmap_sense_key(sk):
+def unmap_sense_key(sk, prefix):
     """
     Maps an XML-compatible sense key back to a normal sense key
     """
+    KEY_PREFIX_LEN = len(prefix) + 1  # +1 for the hyphen
     if "__" in sk:
         e = sk.split("__")
         oewn_key = e[0][KEY_PREFIX_LEN:]

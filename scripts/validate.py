@@ -143,7 +143,7 @@ def check_ili(ss, fix):
     return errors
 
 
-def check_lex_files(wn, fix):
+def check_lex_files(wn, fix, prefix):
     pos_map = {
         "nou": PartOfSpeech.NOUN,
         "ver": PartOfSpeech.VERB,
@@ -162,7 +162,7 @@ def check_lex_files(wn, fix):
                 errors += 1
                 continue
             calc_sense_key = sense_keys.get_sense_key(
-                wn, entry, sense)
+                wn, entry, sense, prefix)
             sense_key = unmap_sense_key(sense.id)
             if sense_key != calc_sense_key:
                 if fix:
@@ -228,6 +228,12 @@ def main():
         help="Output commands to fix issues where possible",
         default=False
     )
+    parser.add_argument(
+        "--prefix",
+        type=str,
+        help="Prefix for the Wordnet version (default oewn)",
+        default="oewn"
+    )
     args = parser.parse_args()
 
     #wn = parse_wordnet("wn.xml")
@@ -237,7 +243,7 @@ def main():
 
     errors = 0
 
-    errors += check_lex_files(wn, fix)
+    errors += check_lex_files(wn, fix, args.prefix)
 
     sense_keys = {}
 

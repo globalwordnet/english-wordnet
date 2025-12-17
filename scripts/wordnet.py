@@ -117,13 +117,13 @@ class Lexicon:
         self._pseudo_entries[(lemma, synset_id[-1])].append(synset_id)
         return None
 
-    def pseudo_entries(self):
+    def pseudo_entries(self, prefix):
         for (lemma, pos), synsets in self._pseudo_entries:
-            entry = LexicalEntry(f"oewn-{escape_lemma(lemma)}-{pos}")
+            entry = LexicalEntry(f"{prefix}-{escape_lemma(lemma)}-{pos}")
             entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
             for idx, synset in enumerate(synsets):
                 sense = Sense(map_sense_key(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}"),
-                               f"oewn-{synset}", None, -1)
+                               f"{prefix}-{synset}", None, -1)
                 entry.add_sense(sense)
             yield entry
 
@@ -161,7 +161,7 @@ class Lexicon:
 
         for entry in sorted(self._entries, key=lambda x: x.id):
             entry.to_xml(xml_file, self.comments)
-        for entry in self.pseudo_entries():
+        for entry in self.pseudo_entries(self.id):
             entry.to_xml(xml_file, self.comments)
         for synset in sorted(self._synsets, key=lambda x: x.id):
             synset.to_xml(xml_file, self.comments)
