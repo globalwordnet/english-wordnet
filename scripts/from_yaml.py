@@ -132,14 +132,14 @@ def load(year="2022", plus=False,  db=None, cache_size=1000000, verbose=False):
     Load wordnet from YAML files
     """
     if db:
-        wn = SQLLexicon("oewn", "Open Engish Wordnet", "en",
+        wn = SQLLexicon(prefix, "Open English Wordnet", "en",
                     "english-wordnet@googlegroups.com",
                      "https://creativecommons.org/licenses/by/4.0",
                      f"{year}+" if plus else year,
                      "https://github.com/globalwordnet/english-wordnet",
                      db=db, cache_size=cache_size)
     else:
-        wn = Lexicon("oewn", "Open Engish Wordnet", "en",
+        wn = Lexicon(prefix, "Open English Wordnet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
                  f"{year}+" if plus else year,
