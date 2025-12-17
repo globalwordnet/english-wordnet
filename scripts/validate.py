@@ -163,7 +163,7 @@ def check_lex_files(wn, fix, prefix):
                 continue
             calc_sense_key = sense_keys.get_sense_key(
                 wn, entry, sense, prefix)
-            sense_key = unmap_sense_key(sense.id)
+            sense_key = unmap_sense_key(sense.id, prefix)
             if sense_key != calc_sense_key:
                 if fix:
                     print(
@@ -293,7 +293,7 @@ def main():
                 # if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1
-            if unmap_sense_key(sense.id) in sense_keys:
+            if unmap_sense_key(sense.id, args.prefix) in sense_keys:
                 print("ERROR: Duplicate sense key %s" % sense.id)
                 errors += 1
             else:
