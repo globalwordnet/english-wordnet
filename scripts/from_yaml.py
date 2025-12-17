@@ -327,8 +327,73 @@ def entries_ordered(wn, synset_id):
 
 
 def main():
-    if len(sys.argv) > 1:
-        year = sys.argv[1]
+    parse = argparse.ArgumentParser(
+        description="Convert Open English Wordnet YAML data to GWA standard XML"
+    )
+    parse.add_argument(
+        "--year",
+        type=str,
+        help="Year of the Wordnet version (default 2024)",
+        default="2024"
+    )
+    parse.add_argument(
+        "--plus",
+        action="store_true",
+        help="Use the Wordnet+ source files",
+        default=False
+    )
+    parse.add_argument(
+        "--output",
+        type=str,
+        help="Output XML file (default wn.xml)",
+        default="wn.xml"
+        )
+    parse.add_argument(
+        "--sql",
+        action="store_true",
+        help="Use MySQL for storage (for large Wordnets)",
+        default=False
+        )
+    parse.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Verbose output",
+        default=False
+        )
+    parse.add_argument(
+        "--cache-size",
+        type=int,
+        help="Cache size for MySQL (default 1000000)",
+        default=1000000
+        )
+    parse.add_argument(
+        "--folder",
+        type=str,
+        help="Folder containing YAML files (default src/yaml or src/plus)",
+        default=None
+        )
+    parse.add_argument(
+        "--prefix",
+        type=str,
+        help="Resource name for XML metadata (default oewn)",
+        default="oewn"
+        )
+    parse.add_argument(
+        "--gzip",
+        action="store_true",
+        help="Compress output XML with gzip",
+        default=False
+        )
+    args = parse.parse_args()
+    
+    if args.sql:
+        #with tempfile.NamedTemporaryFile(delete=True) as tmp:
+        with tempfile.NamedTemporaryFile() as tmp:
+            with sqlite3.connect(tmp.name) as db:
+                wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose,
+                          cache_size=args.cache_size, prefix=args.prefix,
+                          path=args.folder)
+                print(tmp.name)
     else:
         year = "2024"
     wn = load(year)

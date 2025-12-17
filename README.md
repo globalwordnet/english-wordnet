@@ -68,12 +68,6 @@ The size of the core resources are as follows
 |---------|---------|---------|-----------|
 | 2025    |   ...   |   ...   |   ...     |
 
-The size of the namenet resources are as follows
-
-| Edition | Words   | Synsets | Relations |
-|---------|---------|---------|-----------|
-| 2025    |   ...   |   ...   |   ...     |
-
 ## Usage
 
 To compile these into a single file please use the following script(s)
