@@ -11,45 +11,9 @@ from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense,
                      SenseRelType, OtherSenseRelType, SyntacticBehaviour,
                      escape_lemma, inverse_sense_rels,
                      inverse_synset_rels)
+from sense_keys import map_sense_key, unmap_sense_key, KEY_PREFIX_LEN
 
 entry_orders = {}
-
-KEY_PREFIX_LEN = 5 # = len("oewn-")
-
-def map_sense_key(sk):
-    """
-    Maps a sense key into an OEWN from
-    """
-    if "%" in sk:
-        e = sk.split("%")
-        if len(e) > 2:
-            lemma = "%".join(e[:-1])
-            info = e[-1]
-        else:
-            lemma = e[0]
-            info = e[1]
-        return ("oewn-" + lemma.replace("'","-ap-").replace("/","-sl-").
-                replace("!","-ex-").replace(",","-cm-")
-                .replace(":","-cn-").replace("+","-pl-") +
-            "__" + info.replace("_","-sp-").replace(":","."))
-    else:
-        return ("oewn-" + sk.replace("%", "__").replace("'","-ap-").
-            replace("/","-sl-").replace("!","-ex-").
-            replace(",","-cm-").replace(":","-cn-").replace("+","-pl-"))
-
-def unmap_sense_key(sk):
-    """
-    Maps an OEWN sense key to a WN sense key
-    """
-    if "__" in sk:
-        e = sk.split("__")
-        oewn_key = e[0][KEY_PREFIX_LEN:]
-        r = "__".join(e[1:])
-        return (l.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
-            "%" + r.replace(".", ":").replace("-sp-","_"))
-    else: 
-        return sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",").replace("-cn-",":").replace("-pl-","+")
-
 
 def make_pos(y, pos):
     """

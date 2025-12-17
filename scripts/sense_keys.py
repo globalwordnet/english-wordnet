@@ -139,21 +139,78 @@ def get_sense_key(wn, e, s):
     return "%s%%%d:%02d:%02d:%s:%s" % (lemma, ss_type, lex_filenum,
                                        lex_id, head_word, head_id)
 
-def unmap_sense_key(sk, KEY_PREFIX_LEN=5):
+KEY_PREFIX_LEN = 5 # = len("oewn-")
+
+def escape_sense_key(s : str) -> str:
     """
-    Maps an OEWN sense key to a WN sense key
+    Escape a sense key for OEWN
+    """
+    return (s.replace("-", "--")
+            .replace("'", "-apos-")
+            .replace("!", "-excl-").replace("#", "-num-")
+            .replace("$", "-dollar-").replace("%", "-percnt-")
+            .replace("&", "-amp-").replace("(", "-lpar-")
+            .replace(")", "-rpar-").replace("*", "-ast-")
+            .replace("+", "-plus-").replace(",", "-comma-")
+            .replace("/", "-sol-").replace("{", "-lbrace-")
+            .replace("|", "-vert-").replace("}", "-rbrace-")
+            .replace("~", "-tilde-").replace("¢", "-cent-")
+            .replace("£", "-pound-").replace("§", "-sect-")
+            .replace("©", "-copy-").replace("®", "-reg-")
+            .replace("°", "-deg-").replace("´", "-acute-")
+            .replace("¶", "-para-").replace("º", "-ordm-")
+            .replace(":", "-colon-"))
+
+
+def unescape_sense_key(s : str) -> str:
+    """
+    Unescape a sense key from OEWN
+    """
+    return (s.replace("-apos-", "'")
+            .replace("-colon-", ":")
+            .replace("-excl-", "!").replace("-num-", "#")
+            .replace("-dollar-", "$").replace("-percnt-", "%")
+            .replace("-amp-", "&").replace("-lpar-", "(")
+            .replace("-rpar-", ")").replace("-ast-", "*")
+            .replace("-plus-", "+").replace("-comma-", ",")
+            .replace("-sol-", "/").replace("-lbrace-", "{")
+            .replace("-vert-", "|").replace("-rbrace-", "}")
+            .replace("-tilde-", "~").replace("-cent-", "¢")
+            .replace("-pound-", "£").replace("-sect-", "§")
+            .replace("-copy-", "©").replace("-reg-", "®")
+            .replace("-deg-", "°").replace("-acute-", "´")
+            .replace("-para-", "¶").replace("-ordm-", "º")
+            .replace("--", "-"))
+
+def map_sense_key(sk):
+    """
+    Maps a sense key into an XML-compatible sense key
+    """
+    if "%" in sk:
+        e = sk.split("%")
+        if len(e) > 2:
+            lemma = "%".join(e[:-1])
+            info = e[-1]
+        else:
+            lemma = e[0]
+            info = e[1]
+        lemma = escape_sense_key(lemma)
+        return ("oewn-" + lemma +
+            "__" + info.replace("_","-sp-").replace(":","."))
+    else:
+        sk = escape_sense_key(sk)
+        return "oewn-" + sk
+
+def unmap_sense_key(sk):
+    """
+    Maps an XML-compatible sense key back to a normal sense key
     """
     if "__" in sk:
         e = sk.split("__")
         oewn_key = e[0][KEY_PREFIX_LEN:]
         r = "__".join(e[1:])
-        return (oewn_key.replace("-ap-", "'").replace("-sl-", "/").replace("-ex-", "!")
-                .replace("-cm-",",").replace("-cn-",":").replace("-pl-","+") +
-            "%" + r.replace(".", ":").replace("-sp-","_"))
+        return (unescape_sense_key(oewn_key) + "%" +
+                r.replace("-sp-", "_").replace(".", ":"))
     else: 
-        return (sk[KEY_PREFIX_LEN:].replace("__", "%").replace("-ap-", "'")
-                .replace("-sl-", "/").replace("-ex-", "!").replace("-cm-",",")
-                .replace("-cn-",":").replace("-pl-","+"))
-
-
+        return unescape_sense_key(sk[KEY_PREFIX_LEN:])
 
