@@ -11,9 +11,12 @@ from wordnet import (Lexicon, Lemma, PartOfSpeech, LexicalEntry, Sense,
                      SenseRelType, OtherSenseRelType, SyntacticBehaviour,
                      escape_lemma, inverse_sense_rels,
                      inverse_synset_rels)
-from sense_keys import map_sense_key, unmap_sense_key, KEY_PREFIX_LEN
-
-entry_orders = {}
+from wordnet_sql import SQLLexicon
+from sense_keys import map_sense_key, unmap_sense_key
+import argparse
+import tempfile
+import sqlite3
+import gzip
 
 def make_pos(y, pos):
     """
@@ -26,12 +29,12 @@ def make_pos(y, pos):
     else:
         return pos
 
-def sense_from_yaml(y, lemma, pos, n):
+def sense_from_yaml(y, lemma, pos, n, prefix):
     """
     Create a Sense object from the YAML data
     """
-    s = Sense(map_sense_key(y["id"]),
-              "oewn-" + y["synset"], None, n,
+    s = Sense(map_sense_key(y["id"], prefix),
+              f"{prefix}-" + y["synset"], None, n,
               y.get("adjposition"))
     s.sent = y.get("sent")
     for rel, targets in y.items():
@@ -39,11 +42,11 @@ def sense_from_yaml(y, lemma, pos, n):
             for target in targets:
                 # Remap senses
                 s.add_sense_relation(SenseRelation(
-                    map_sense_key(target), SenseRelType(rel)))
+                    map_sense_key(target, prefix), SenseRelType(rel)))
         if rel in OtherSenseRelType._value2member_map_:
             for target in targets:
                 s.add_sense_relation(SenseRelation(
-                    map_sense_key(target), SenseRelType.OTHER, rel))
+                    map_sense_key(target, prefix), SenseRelType.OTHER, rel))
     if "sent" in y:
         s.sent = y["sent"]
     if "subcat" in y:
@@ -57,14 +60,14 @@ def pronunciation_from_yaml(props):
     return [Pronunciation(p["value"], p.get("variety")) 
             for p in props.get("pronunciation",[])]
 
-def synset_from_yaml(wn, props, id, lex_name):
+def synset_from_yaml(wn, props, id, lex_name, prefix):
     """
     Create a Synset from the YAML data
     """
     if "partOfSpeech" not in props:
         print("No part of speech for %s" % id)
         raise ValueError
-    ss = Synset("oewn-" + id,
+    ss = Synset(f"{prefix}-" + id,
                 props.get("ili", "in"),
                 PartOfSpeech(props["partOfSpeech"]),
                 lex_name,
@@ -83,20 +86,9 @@ def synset_from_yaml(wn, props, id, lex_name):
         if rel in SynsetRelType._value2member_map_:
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
-                    "oewn-" + target, SynsetRelType(rel)))
-    ss.members = [entry_for_synset(wn, ss, lemma) for lemma in props["members"]]
+                    f"{prefix}-" + target, SynsetRelType(rel)))
+    ss.members = [wn.entry_id_by_lemma_synset_id(lemma, ss.id) for lemma in props["members"]]
     return ss
-
-def entry_for_synset(wn, ss, lemma):
-    """
-    Find the entry for a synset member
-    """
-    for e in wn.entry_by_lemma(lemma):
-        for s in wn.entry_by_id(e).senses:
-            if s.synset == ss.id:
-                return e
-    print("Could not find %s referring to %s" % (lemma, ss.id))
-    return ""
 
 
 def fix_sense_rels(wn, sense):
@@ -127,6 +119,7 @@ def fix_synset_rels(wn, synset):
             if not target_synset:
                 print(synset.id)
                 print(rel.target)
+                continue
             if not [sr for sr in target_synset.synset_relations if sr.target ==
                     synset.id and sr.rel_type == inverse_synset_rels[rel.rel_type]]:
                 target_synset.add_synset_relation(
@@ -134,57 +127,114 @@ def fix_synset_rels(wn, synset):
                                    inverse_synset_rels[rel.rel_type]))
 
 
-def load(year="2022"):
+def read_yaml_file(file : str, bufsize: int = 0x100000):
+    """
+    Read a YAML and return an iterator over its items. This generator handles
+    large files by reading them in chunks.
+    """
+    with open(file, encoding="utf-8") as inp:
+        # Read the first line
+        line = inp.readline()
+        # Initialize buffer
+        buf = ""
+        # While there are lines to read
+        while line:
+            # Read until we hit the buffer size
+            while line:
+                buf += line
+                line = inp.readline()
+                if len(buf) >= bufsize:
+                    break
+            # Continue reading lines until we hit a non-indented line
+            while line:
+                if not line.startswith(" "):
+                    # Process the buffer
+                    data = yaml.load(buf, Loader=CLoader)
+                    if data is not None:
+                        for k, v in data.items():
+                            yield k, v
+                    buf = ""
+                    break
+                else:
+                    # Continue adding to the buffer
+                    buf += line
+                    line = inp.readline()
+        # Process any remaining buffer
+        if buf:
+            data = yaml.load(buf, Loader=CLoader)
+            if data is not None:
+                for k, v in data.items():
+                    yield k, v
+
+
+def load(year="2022", plus=False,  db=None, cache_size=1000000, verbose=False, prefix="oewn", path=None):
     """
     Load wordnet from YAML files
     """
-    wn = Lexicon("oewn", "Open Engish Wordnet", "en",
+    if db:
+        wn = SQLLexicon(prefix, "Open English Wordnet", "en",
+                    "english-wordnet@googlegroups.com",
+                     "https://creativecommons.org/licenses/by/4.0",
+                     f"{year}+" if plus else year,
+                     "https://github.com/globalwordnet/english-wordnet",
+                     db=db, cache_size=cache_size)
+    else:
+        wn = Lexicon(prefix, "Open English Wordnet", "en",
                  "english-wordnet@googlegroups.com",
                  "https://creativecommons.org/licenses/by/4.0",
-                 year,
+                 f"{year}+" if plus else year,
                  "https://github.com/globalwordnet/english-wordnet")
-    with open("src/yaml/frames.yaml", encoding="utf-8") as inp:
+    if path is None:
+        path = "src/plus/" if plus else "src/yaml/"
+    with open(f"{path}/frames.yaml", encoding="utf-8") as inp:
         frames = yaml.load(inp, Loader=CLoader)
         wn.frames = [SyntacticBehaviour(k,v) for k,v in frames.items()]
-    for f in glob("src/yaml/entries-*.yaml"):
+    for f in glob(f"{path}/**/entries-*.yaml", recursive=True):
+        if verbose:
+            print(f"Loading entries from {f}", file=sys.stderr)
         with open(f, encoding="utf-8") as inp:
             y = yaml.load(inp, Loader=CLoader)
 
             for lemma, pos_map in y.items():
                 for pos, props in pos_map.items():
                     entry = LexicalEntry(
-                        "oewn-%s-%s" % (escape_lemma(lemma), pos))
+                        "%s-%s-%s" % (prefix, escape_lemma(lemma), pos))
                     entry.set_lemma(Lemma(lemma, PartOfSpeech(pos[:1])))
                     if "form" in props:
                         for form in props["form"]:
                             entry.add_form(Form(form))
                     for n, sense in enumerate(props["sense"]):
-                        entry.add_sense(sense_from_yaml(sense, lemma, pos, n))
+                        entry.add_sense(sense_from_yaml(sense, lemma, pos, n, prefix))
                     entry.pronunciation = pronunciation_from_yaml(props)
                     wn.add_entry(entry)
 
-    for f in glob("src/yaml/*.yaml"):
+    for f in glob(f"{path}/**/*.yaml", recursive=True):
+        if verbose:
+            print(f"Loading synsets from {f}", file=sys.stderr)
         lex_name = f[9:-5]
         if "entries" not in f and "frames" not in f:
-            with open(f, encoding="utf-8") as inp:
-                y = yaml.load(inp, Loader=CLoader)
+            for id, props in read_yaml_file(f):
+                wn.add_synset(synset_from_yaml(wn, props, id, lex_name, prefix))
+#            with open(f, encoding="utf-8") as inp:
+#                y = yaml.load(inp, Loader=CLoader)
+#
+#                if y is None:
+#                    continue
+#                for id, props in y.items():
+#                    wn.add_synset(synset_from_yaml(wn, props, id, lex_name, prefix))
 
-                for id, props in y.items():
-                    wn.add_synset(synset_from_yaml(wn, props, id, lex_name))
-                    entry_orders[id] = props["members"]
-
-    for entry in wn.entries:
+    for entry in wn.entries():
         for sense in entry.senses:
             fix_sense_rels(wn, sense)
 
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         fix_synset_rels(wn, synset)
 
     by_lex_name = {}
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         if synset.lex_name not in by_lex_name:
             by_lex_name[synset.lex_name] = Lexicon(
-                "oewn", "Open English Wordnet", "en",
+                prefix, "Open English Wordnet", "en",
                 "john@mccr.ae", "https://wordnet.princeton.edu/license-and-commercial-use",
                 year, "https://github.com/globalwordnet/english-wordnet")
         by_lex_name[synset.lex_name].add_synset(synset)
@@ -203,34 +253,34 @@ ignored_symmetric_sense_rels = set([
     SenseRelType.IS_EXEMPLIFIED_BY])
 
 
-def sense_to_yaml(wn, s, sb_map):
-    """Converts a single sense to the YAML form"""
-    y = {}
-    y["synset"] = s.synset[KEY_PREFIX_LEN:]
-    y["id"] = unmap_sense_key(s.sense_key)
-    if s.adjposition:
-        y["adjposition"] = s.adjposition
-    for sr in s.sense_relations:
-        if sr.rel_type not in ignored_symmetric_sense_rels:
-            if sr.rel_type.value not in y:
-                if not wn.sense_by_id(sr.target):
-                    print(sr.target)
-                if wn.sense_by_id(sr.target):
-                    y[sr.rel_type.value] = [map_sense_key(
-                        wn.sense_by_id(sr.target).sense_key)]
-                else:
-                    print(f"Dead link from {s.sense_key} to {sr.target}")
-            else:
-                if wn.sense_by_id(sr.target):
-                    y[sr.rel_type.value].append(map_sense_key(
-                        wn.sense_by_id(sr.target).sense_key))
-                else:
-                    print(f"Dead link from {s.sense_key} to {sr.target}")
-    if sb_map[s.id]:
-        y["subcat"] = sorted(sb_map[s.id])
-    if s.sent:
-        y["sent"] = s.sent
-    return y
+#def sense_to_yaml(wn, s, sb_map, prefix):
+#    """Converts a single sense to the YAML form"""
+#    y = {}
+#    y["synset"] = s.synset[len(prefix)+1:]
+#    y["id"] = unmap_sense_key(s.sense_key)
+#    if s.adjposition:
+#        y["adjposition"] = s.adjposition
+#    for sr in s.sense_relations:
+#        if sr.rel_type not in ignored_symmetric_sense_rels:
+#            if sr.rel_type.value not in y:
+#                if not wn.sense_by_id(sr.target):
+#                    print(sr.target)
+#                if wn.sense_by_id(sr.target):
+#                    y[sr.rel_type.value] = [map_sense_key(
+#                        wn.sense_by_id(sr.target).sense_key)]
+#                else:
+#                    print(f"Dead link from {s.sense_key} to {sr.target}")
+#            else:
+#                if wn.sense_by_id(sr.target):
+#                    y[sr.rel_type.value].append(map_sense_key(
+#                        wn.sense_by_id(sr.target).sense_key))
+#                else:
+#                    print(f"Dead link from {s.sense_key} to {sr.target}")
+#    if sb_map[s.id]:
+#        y["subcat"] = sorted(sb_map[s.id])
+#    if s.sent:
+#        y["sent"] = s.sent
+#    return y
 
 
 def definition_to_yaml(wn, d):
@@ -387,18 +437,20 @@ def main():
     args = parse.parse_args()
     
     if args.sql:
-        #with tempfile.NamedTemporaryFile(delete=True) as tmp:
-        with tempfile.NamedTemporaryFile() as tmp:
+        with tempfile.NamedTemporaryFile(delete=True) as tmp:
             with sqlite3.connect(tmp.name) as db:
                 wn = load(year=args.year, plus=args.plus, db=db, verbose=args.verbose,
                           cache_size=args.cache_size, prefix=args.prefix,
                           path=args.folder)
-                print(tmp.name)
     else:
-        year = "2024"
-    wn = load(year)
-    with codecs.open("wn.xml", "w", "utf-8") as outp:
-        wn.to_xml(outp)
+        wn = load(year=args.year, plus=args.plus, verbose=args.verbose, 
+                  prefix=args.prefix, path=args.folder)
+    if args.gzip:
+        with gzip.open(args.output, "wt", encoding="utf-8") as outp:
+            wn.to_xml(outp)
+    else:
+        with codecs.open(args.output, "w", "utf-8") as outp:
+            wn.to_xml(outp)
 
 
 if __name__ == "__main__":

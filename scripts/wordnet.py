@@ -3,7 +3,7 @@ from xml.sax import ContentHandler, parse
 import re
 import sys
 import codecs
-
+from collections import defaultdict
 
 class Lexicon:
     """The Lexicon contains all the synsets and entries"""
@@ -17,8 +17,9 @@ class Lexicon:
         self.version = version
         self.url = url
         self.citation = None
-        self.entries = []
-        self.synsets = []
+        self._entries = []
+        self._synsets = []
+        self._pseudo_entries = defaultdict(list)
         self.frames = []
         self.comments = {}
         self.id2synset = {}
@@ -28,9 +29,15 @@ class Lexicon:
         self.members = {}
         self.sense2synset = {}
 
+    def entries(self):
+        return self._entries
+
+    def synsets(self):
+        return self._synsets
+
     def __str__(self):
         return "Lexicon with ID %s and %d entries and %d synsets" % (
-            self.id, len(self.entries), len(self.synsets))
+            self.id, len(self._entries), len(self._synsets))
 
     def add_entry(self, entry):
         if entry.id in self.id2entry:
@@ -45,7 +52,7 @@ class Lexicon:
         if entry.lemma.written_form not in self.member2entry:
             self.member2entry[entry.lemma.written_form] = []
         self.member2entry[entry.lemma.written_form].append(entry.id)
-        self.entries.append(entry)
+        self._entries.append(entry)
 
     def del_entry(self, entry):
         """Delete an entry and clear all senses"""
@@ -59,7 +66,7 @@ class Lexicon:
                     if m != entry.id]
         if self.member2entry[entry.lemma.written_form] == []:
             del self.member2entry[entry.lemma.written_form]
-        self.entries = [e for e in self.entries if e.id != entry.id]
+        self._entries = [e for e in self._entries if e.id != entry.id]
 
     def del_sense(self, entry, sense):
         """Remove a single sense from an entry"""
@@ -75,7 +82,7 @@ class Lexicon:
 
     def add_synset(self, synset):
         self.id2synset[synset.id] = synset
-        self.synsets.append(synset)
+        self._synsets.append(synset)
 
     def entry_by_id(self, id):
         return self.id2entry.get(id)
@@ -101,6 +108,24 @@ class Lexicon:
         sense.id = new_id
         self.sense2synset[new_id] = sense.synset
         self.id2sense[new_id] = sense
+
+    def entry_id_by_lemma_synset_id(self, lemma, synset_id):
+        for e in self.entry_by_lemma(lemma):
+            for s in self.entry_by_id(e).senses:
+                if s.synset == synset_id:
+                    return e
+        self._pseudo_entries[(lemma, synset_id[-1])].append(synset_id)
+        return None
+
+    def pseudo_entries(self, prefix):
+        for (lemma, pos), synsets in self._pseudo_entries:
+            entry = LexicalEntry(f"{prefix}-{escape_lemma(lemma)}-{pos}")
+            entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
+            for idx, synset in enumerate(synsets):
+                sense = Sense(map_sense_key(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}"),
+                               f"{prefix}-{synset}", None, -1)
+                entry.add_sense(sense)
+            yield entry
 
     def to_xml(self, xml_file, part=False):
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
@@ -134,9 +159,11 @@ class Lexicon:
              citation_text,
              self.url))
 
-        for entry in sorted(self.entries, key=lambda x: x.id):
+        for entry in sorted(self._entries, key=lambda x: x.id):
             entry.to_xml(xml_file, self.comments)
-        for synset in sorted(self.synsets, key=lambda x: x.id):
+        for entry in self.pseudo_entries(self.id):
+            entry.to_xml(xml_file, self.comments)
+        for synset in sorted(self._synsets, key=lambda x: x.id):
             synset.to_xml(xml_file, self.comments)
         for synbeh in self.frames:
             synbeh.to_xml(xml_file)
