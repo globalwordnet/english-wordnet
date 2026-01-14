@@ -109,7 +109,7 @@ class Lexicon:
         self.sense2synset[new_id] = sense.synset
         self.id2sense[new_id] = sense
 
-    def entry_id_by_lemma_synset_id(self, lemma, synset_id):
+    def entry_id_by_lemma_synset_id(self, lemma, synset_id, prefix):
         for e in self.entry_by_lemma(lemma):
             for s in self.entry_by_id(e).senses:
                 if s.synset == synset_id:
@@ -849,7 +849,8 @@ def escape_lemma(lemma):
             return '-pc-'
         elif xml_id_char_re.match(c):
             return c
-        raise ValueError(f'Illegal character {c}')
+        else:
+            return '-u%04X-' % ord(c)
 
     return "".join(elc(c) for c in lemma)
 
