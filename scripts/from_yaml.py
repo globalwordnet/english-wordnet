@@ -87,7 +87,7 @@ def synset_from_yaml(wn, props, id, lex_name, prefix):
             for target in targets:
                 ss.add_synset_relation(SynsetRelation(
                     f"{prefix}-" + target, SynsetRelType(rel)))
-    ss.members = [wn.entry_id_by_lemma_synset_id(lemma, ss.id) for lemma in props["members"]]
+    ss.members = [wn.entry_id_by_lemma_synset_id(lemma, ss.id, prefix) for lemma in props["members"]]
     return ss
 
 

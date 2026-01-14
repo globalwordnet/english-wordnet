@@ -5,7 +5,7 @@ import sys
 import codecs
 import sqlite3
 import pickle
-from wordnet import LexicalEntry, Synset, Sense
+from wordnet import LexicalEntry, Synset, Sense, escape_lemma, Lemma, PartOfSpeech
 
 
 class SQLLexicon:
@@ -108,10 +108,10 @@ class SQLLexicon:
             pos = row[1]
             synset_ids = row[2].split(",")
             entry = LexicalEntry(f"{prefix}-{escape_lemma(lemma)}-{pos}")
-            entry.set_lemma(lemma, pos)
+            entry.set_lemma(Lemma(lemma, PartOfSpeech(pos)))
             for idx, synset_id in enumerate(synset_ids):
                 sense = Sense(f"{escape_lemma(lemma)}%pseudo:{pos}:{idx+1}",
-                              f"{prefix}-{synset}", None, -1)
+                              f"{prefix}-{synset_id}", None, -1)
                 entry.add_sense(sense)
             yield entry
         cursor.close()
@@ -246,7 +246,7 @@ class SQLLexicon:
         if row:
             return pickle.loads(row[0])
 
-    def entry_id_by_lemma_synset_id(self, lemma, synset_id):
+    def entry_id_by_lemma_synset_id(self, lemma, synset_id, prefix):
         """Get an entry ID by its lemma and synset ID"""
         self._flush_entries()
         cursor = self.conn.cursor()
@@ -259,7 +259,9 @@ class SQLLexicon:
         if row:
             return row[0]
         else:
+            pos = synset_id[-1]
             self._dirty_pseudo_entries.append((lemma, synset_id, synset_id[-1]))
+            return f"{prefix}-{escape_lemma(lemma)}-{pos}"
     
 
     def synset_by_id(self, id):
