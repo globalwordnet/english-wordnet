@@ -83,9 +83,9 @@ Further conversions are available through the converter [here](http://server1.nl
 ```python
 import wn
 
-wn.download("oewn:2025-plus")
+wn.download("oewn:2025+")
 
-oewn = wn.Wordnet("oewn:2025")
+oewn = wn.Wordnet("oewn:2025+")
 ```
 
 ## Changes
