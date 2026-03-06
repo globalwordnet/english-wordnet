@@ -8,6 +8,7 @@ from sense_keys import unmap_sense_key
 from wordnet import xml_id_char
 from collections import Counter
 from from_yaml import load
+import argparse
 
 # This is temporary list of exceptions for linking where a taxon name is 
 # used as a generic name. In this case, Wikidata has only a single entry
@@ -18,7 +19,7 @@ WIKIDATA_DUPLICATION_EXCEPTIONS = [
 
 def check_symmetry(wn, fix):
     errors = []
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         for rel in synset.synset_relations:
             if rel.rel_type in inverse_synset_rels:
                 synset2 = wn.synset_by_id(rel.target)
@@ -38,7 +39,7 @@ def check_symmetry(wn, fix):
                             errors.append(
                                 "No symmetric relation for %s =%s=> %s" %
                                 (synset.id, rel.rel_type, synset2.id))
-    for entry in wn.entries:
+    for entry in wn.entries():
         for sense in entry.senses:
             for rel in sense.sense_relations:
                 if rel.rel_type in inverse_sense_rels:
@@ -62,7 +63,7 @@ def check_symmetry(wn, fix):
 
 def check_transitive(wn, fix):
     errors = []
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         for rel in synset.synset_relations:
             if rel.rel_type == SynsetRelType.HYPERNYM:
                 synset2 = wn.synset_by_id(rel.target)
@@ -82,7 +83,7 @@ def check_transitive(wn, fix):
 
 def check_no_loops(wn):
     hypernyms = {}
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         hypernyms[synset.id] = set()
         for rel in synset.synset_relations:
             if rel.rel_type == SynsetRelType.HYPERNYM:
@@ -90,7 +91,7 @@ def check_no_loops(wn):
     changed = True
     while changed:
         changed = False
-        for synset in wn.synsets:
+        for synset in wn.synsets():
             n_size = len(hypernyms[synset.id])
             for c in hypernyms[synset.id]:
                 hypernyms[synset.id] = hypernyms[synset.id].union(
@@ -103,7 +104,7 @@ def check_no_loops(wn):
 
 def check_no_domain_loops(wn):
     domains = {}
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         domains[synset.id] = set()
         for rel in synset.synset_relations:
             if (rel.rel_type == SynsetRelType.DOMAIN_TOPIC or
@@ -113,7 +114,7 @@ def check_no_domain_loops(wn):
     changed = True
     while changed:
         changed = False
-        for synset in wn.synsets:
+        for synset in wn.synsets():
             n_size = len(domains[synset.id])
             for c in domains[synset.id]:
                 domains[synset.id] = domains[synset.id].union(
@@ -142,7 +143,7 @@ def check_ili(ss, fix):
     return errors
 
 
-def check_lex_files(wn, fix):
+def check_lex_files(wn, fix, prefix):
     pos_map = {
         "nou": PartOfSpeech.NOUN,
         "ver": PartOfSpeech.VERB,
@@ -150,7 +151,7 @@ def check_lex_files(wn, fix):
         "adv": PartOfSpeech.ADVERB
     }
     errors = 0
-    for entry in wn.entries:
+    for entry in wn.entries():
         for sense in entry.senses:
             if not sense.id:
                 print("%s does not have a sense key" % (sense.id))
@@ -161,8 +162,8 @@ def check_lex_files(wn, fix):
                 errors += 1
                 continue
             calc_sense_key = sense_keys.get_sense_key(
-                wn, entry, sense)
-            sense_key = unmap_sense_key(sense.id)
+                wn, entry, sense, prefix)
+            sense_key = unmap_sense_key(sense.id, prefix)
             if sense_key != calc_sense_key:
                 if fix:
                     print(
@@ -207,21 +208,46 @@ def is_valid_sense_id(xml_id, synset):
 
 
 def main():
-    #wn = parse_wordnet("wn.xml")
-    wn = load()
+    parser = argparse.ArgumentParser(
+        description="Validate the OEWN data files")
+    parser.add_argument(
+        "--year",
+        type=str,
+        help="Year of the Wordnet version (default 2024)",
+        default="2024"
+    )
+    parser.add_argument(
+        "--plus",
+        action="store_true",
+        help="Use the Wordnet+ source files",
+        default=False
+    )
+    parser.add_argument(
+        "--fix",
+        action="store_true",
+        help="Output commands to fix issues where possible",
+        default=False
+    )
+    parser.add_argument(
+        "--prefix",
+        type=str,
+        help="Prefix for the Wordnet version (default oewn)",
+        default="oewn"
+    )
+    args = parser.parse_args()
 
-    if len(sys.argv) > 1 and sys.argv[1] == "--fix":
-        fix = True
-    else:
-        fix = False
+    #wn = parse_wordnet("wn.xml")
+    wn = load(year=args.year, plus=args.plus)
+
+    fix = args.fix
 
     errors = 0
 
-    errors += check_lex_files(wn, fix)
+    errors += check_lex_files(wn, fix, args.prefix)
 
     sense_keys = {}
 
-    for entry in wn.entries:
+    for entry in wn.entries():
         if (entry.id[-1:] != entry.lemma.part_of_speech.value and not entry.id[-1].isnumeric()
             or entry.id[-1].isnumeric() and entry.id[-3:-2] != entry.lemma.part_of_speech.value):
             print("ERROR: Entry ID not same as part of speech %s as %s" %
@@ -267,7 +293,7 @@ def main():
                 # if sr.target == sense.id:
                 #    print("ERROR: Reflexive sense relation %s" % (sense.id))
                 #    errors += 1
-            if unmap_sense_key(sense.id) in sense_keys:
+            if unmap_sense_key(sense.id, args.prefix) in sense_keys:
                 print("ERROR: Duplicate sense key %s" % sense.id)
                 errors += 1
             else:
@@ -290,7 +316,7 @@ def main():
     wikidatas = set()
     definitions = set()
 
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         if synset.id[-1:] != synset.part_of_speech.value:
             print(
                 "ERROR: Synset ID not same as part of speech %s as %s" %
@@ -406,7 +432,7 @@ def main():
                 else:
                     wikidatas.add(wikidata)
 
-    for synset in wn.synsets:
+    for synset in wn.synsets():
         for sr in synset.synset_relations:
             if sr.rel_type == SynsetRelType.HYPERNYM:
                 if sr.target in instances:
