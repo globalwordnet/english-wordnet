@@ -186,7 +186,8 @@ You may change a definition
     definition: new definition
 ```
 
-Examples may be added or removed. Sources for examples are optional
+Examples may be added or removed. Sources for examples are optional.
+Examples should use Unicode quotes such as U+2018 (‘) or U+2019 (’)
 
 ```yaml
 - add_example:
