@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     Start([START: Target sentence containing 'be']) --> Q1{Is it the phrase<br>'let X be'?}
     
@@ -41,3 +42,4 @@ graph TD
     Q13 -- NO --> Q14{Comp = Definite NP?<br>Symmetric: Sub == Comp}
     
     Q14 -- YES --> S14[02622439-v<br>The president is John Smith.]
+```
