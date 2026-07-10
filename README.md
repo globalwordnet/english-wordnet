@@ -70,15 +70,19 @@ The size of the core resources are as follows
 
 ## Usage
 
-To compile these into a single file please use the following script(s)
+### Web interface
 
-    python scripts/from_yaml.py
+The easiest way to explore Open English Wordnet is through the web interface at **<https://en-word.net/>**. You can search for words, browse synsets, and navigate the relation graph without installing anything.
 
-This will create a file at `wn.xml` that contains the complete wordnet.
+### Python (`wn` library)
 
-Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
+[`wn`](https://wn.readthedocs.io/en/latest/) is a Python library for working with wordnets programmatically. Install it with pip:
 
-[WN](https://wn.readthedocs.io/en/latest/) is a Python library that can be used to work with Open English Wordnet.
+```bash
+pip install wn
+```
+
+Then download and query Open English Wordnet:
 
 ```python
 import wn
@@ -86,7 +90,29 @@ import wn
 wn.download("oewn:2025+")
 
 oewn = wn.Wordnet("oewn:2025+")
+
+# look up a word
+for synset in oewn.synsets("bank"):
+    print(synset.definition())
+
+# find hypernyms
+word = oewn.words("dog")[0]
+for synset in word.synsets():
+    for hypernym in synset.hypernyms():
+        print(hypernym.lemmas())
 ```
+
+Full documentation is at <https://wn.readthedocs.io/en/latest/>.
+
+### Building from source
+
+To compile the YAML source files into a single LMF XML file:
+
+    python scripts/from_yaml.py
+
+This will create a file at `wn.xml` that contains the complete wordnet.
+
+Further conversions are available through the converter [here](http://server1.nlp.insight-centre.org/gwn-converter/).
 
 ## Changes
 
