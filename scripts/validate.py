@@ -259,6 +259,11 @@ def main():
                 sys.exit(-1)
             print("ERROR: Invalid ID " + entry.id)
             errors += 1
+        if entry.lemma.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
+            print(
+                "ERROR: Adjective entry should have part of speech 'a', not 's' %s" %
+                entry.id)
+            errors += 1
         for sense in entry.senses:
             synset = wn.synset_by_id(sense.synset)
             if not synset:
@@ -349,6 +354,20 @@ def main():
                         "ERROR: similar not between verb/adjective %s => %s" %
                         (synset.id, sr.target))
                     errors += 1
+                else:
+                    target = wn.synset_by_id(sr.target)
+                    if (synset.part_of_speech == PartOfSpeech.ADJECTIVE and target and
+                            target.part_of_speech != PartOfSpeech.ADJECTIVE_SATELLITE):
+                        print(
+                            "ERROR: adjective synset should only be similar to a satellite synset %s => %s" %
+                            (synset.id, sr.target))
+                        errors += 1
+                    if (synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE and target and
+                            target.part_of_speech != PartOfSpeech.ADJECTIVE):
+                        print(
+                            "ERROR: satellite synset should be similar to a single adjective synset %s => %s" %
+                            (synset.id, sr.target))
+                        errors += 1
                 similars += 1
                 if similars > 1 and synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE:
                     print(
