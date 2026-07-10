@@ -31,6 +31,17 @@ sudo cp oewn20XX/* /usr/share/wordnet
 wordnet novel_lemma_in_this_edition -over
 ```
 
+## StarDict Release
+
+This is generated from `wn.xml` by `scripts/stardict.py`, which uses [pyglossary](https://github.com/ilius/pyglossary).
+
+```
+pip install pyglossary
+python scripts/stardict.py --input wn.xml --output english-wordnet-20XX-stardict
+```
+
+This produces `english-wordnet-20XX-stardict.ifo/.idx/.dict/.syn`, which can be zipped up for release.
+
 ## RDF Release and en-word.net site
 
 This is based on [Wordnet Angular](https://github.com/jmccrae/wordnet-angular)

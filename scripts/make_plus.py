@@ -92,6 +92,10 @@ if __name__ == "__main__":
         type=str,
         help="Directory containing Open English Wordnet files",
     )
+    parser.add_argument(
+        "--addendum",
+        action="store_true",
+        help="Whether to merge the addendum files")
     args = parser.parse_args()
 
     oenn_path = args.oenn
@@ -109,7 +113,7 @@ if __name__ == "__main__":
         print(f"Processing {filename}...")
         with open(f, "r") as file:
             data = yaml.safe_load(file)
-        if os.path.exists(oenn_path + "data/addendum/" + filename):
+        if os.path.exists(oenn_path + "data/addendum/" + filename) and args.addendum:
             print(f"  Merging addendum for {filename}...")
             with open(oenn_path + "data/addendum/" + filename, "r") as add_file:
                 add_data = yaml.safe_load(add_file)
