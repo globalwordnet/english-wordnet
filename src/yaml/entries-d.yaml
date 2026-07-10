@@ -24553,7 +24553,7 @@ derpily:
     - id: 'derpily%4:02:00::'
       synset: 90003183-r
 derpy:
-  s:
+  a:
     sense:
     - id: derpy%5:00:00:stupid:00
       synset: 90003181-s
@@ -25663,18 +25663,17 @@ design:
     - value: dɪˈzaɪn
     sense:
     - derivation:
-      - 'design%2:31:00::'
+      - 'design%2:36:01::'
       id: 'design%1:04:00::'
       synset: 00929892-n
     - derivation:
-      - 'design%2:31:00::'
       - 'design%2:36:02::'
+      - 'design%2:36:01::'
       id: 'design%1:09:01::'
       synset: 05736623-n
     - id: 'design%1:09:02::'
       synset: 05910921-n
     - derivation:
-      - 'design%2:36:07::'
       - 'design%2:36:01::'
       id: 'design%1:06:00::'
       synset: 03183448-n
@@ -25685,7 +25684,7 @@ design:
       id: 'design%1:09:03::'
       synset: 05991037-n
     - derivation:
-      - 'design%2:31:00::'
+      - 'design%2:36:01::'
       id: 'design%1:06:01::'
       synset: 03183984-n
     - derivation:
@@ -25712,28 +25711,21 @@ design:
       - via-to-inf
       - vtai
       synset: 01641910-v
-    - derivation:
-      - 'design%1:06:01::'
-      - 'design%1:09:01::'
-      - 'design%1:04:00::'
-      event:
-      - 'design%1:04:00::'
-      id: 'design%2:31:00::'
-      subcat:
-      - vtai
-      - vtai-pp
-      synset: 00711454-v
-      undergoer:
-      - 'design%1:06:01::'
-      - 'design%1:09:01::'
     - agent:
       - 'designer%1:18:01::'
       - 'designer%1:18:00::'
+      - 'designer%1:18:02::'
       derivation:
       - 'design%1:06:00::'
       - 'designer%1:18:01::'
       - 'designer%1:18:00::'
       - 'designing%1:04:00::'
+      - 'designer%1:18:02::'
+      - 'design%1:06:01::'
+      - 'design%1:09:01::'
+      - 'design%1:04:00::'
+      event:
+      - 'design%1:04:00::'
       id: 'design%2:36:01::'
       result:
       - 'design%1:06:00::'
@@ -25742,21 +25734,9 @@ design:
       subcat:
       - vtai
       synset: 01644092-v
-    - agent:
-      - 'designer%1:18:02::'
-      - 'designer%1:18:01::'
-      derivation:
-      - 'design%1:06:00::'
-      - 'designer%1:18:02::'
-      - 'designer%1:18:01::'
-      id: 'design%2:36:07::'
-      result:
-      - 'design%1:06:00::'
-      sent:
-      - Did he design his major works over a short period of time?
-      subcat:
-      - via
-      synset: 01757404-v
+      undergoer:
+      - 'design%1:06:01::'
+      - 'design%1:09:01::'
     - derivation:
       - 'design%1:09:03::'
       event:
@@ -25892,7 +25872,7 @@ designer:
     - value: dɪˈzaɪnɚ
     sense:
     - derivation:
-      - 'design%2:36:07::'
+      - 'design%2:36:01::'
       id: 'designer%1:18:02::'
       synset: 10230249-n
     - derivation:
@@ -25904,7 +25884,6 @@ designer:
     - id: 'designer%1:18:03::'
       synset: 10027463-n
     - derivation:
-      - 'design%2:36:07::'
       - 'design%2:36:01::'
       id: 'designer%1:18:01::'
       synset: 09991687-n
