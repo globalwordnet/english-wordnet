@@ -74,6 +74,10 @@ The size of the core resources are as follows
 
 The easiest way to explore Open English Wordnet is through the web interface at **<https://en-word.net/>**. You can search for words, browse synsets, and navigate the relation graph without installing anything.
 
+### JSON API
+
+Open English Wordnet also provides a JSON API for programmatic access, documented at **<https://en-word.net/api/docs>**.
+
 ### Python (`wn` library)
 
 [`wn`](https://wn.readthedocs.io/en/latest/) is a Python library for working with wordnets programmatically. Install it with pip:
