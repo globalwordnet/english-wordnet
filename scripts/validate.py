@@ -185,6 +185,8 @@ valid_sense_id = re.compile(
 
 valid_synset_id = re.compile("^oewn-[0-9]{8}-[nvars]$")
 
+valid_wikidata = re.compile("^Q[1-9][0-9]*$")
+
 
 def is_valid_id(xml_id):
     return bool(valid_id.match(xml_id))
@@ -445,7 +447,10 @@ def main():
         if synset.wikidata:
             ss_wikidatas = synset.wikidata if isinstance(synset.wikidata, list) else [synset.wikidata]
             for wikidata in ss_wikidatas:
-                if wikidata in wikidatas and wikidata not in WIKIDATA_DUPLICATION_EXCEPTIONS:
+                if not valid_wikidata.match(wikidata):
+                    print(f"ERROR: Invalid Wikidata ID {wikidata} for {synset.id}")
+                    errors += 1
+                elif wikidata in wikidatas and wikidata not in WIKIDATA_DUPLICATION_EXCEPTIONS:
                     print(f"ERROR: QID {wikidata} is duplicated")
                     errors += 1
                 else:
