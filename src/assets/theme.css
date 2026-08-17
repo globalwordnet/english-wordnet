@@ -1,0 +1,74 @@
+/* Theme: colours and fonts. Everything else in assets/styling/ reads its
+ * colours and fonts from the custom properties below - restyle the site by
+ * editing this file (or pointing `theme` in settings.toml at a different
+ * one) without touching layout CSS. */
+
+:root {
+    /* Palette */
+    --color-navy: #002868;
+    --color-red: #bf0a30;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray-900: #333;
+    --color-gray-800: #444;
+    --color-gray-700: #555;
+    --color-gray-600: #767676;
+    --color-gray-500: #888;
+    --color-gray-400: #aaa;
+    --color-gray-300: #ccc;
+    --color-gray-200: #ddd;
+    --color-gray-100: #eee;
+    --color-gray-50: #f0f0f0;
+    --color-navbar-hover: #91a4d2;
+
+    /* Roles */
+    --color-primary: var(--color-navy);
+    --color-accent: var(--color-red);
+    --color-text: var(--color-gray-900);
+    --color-text-secondary: var(--color-gray-800);
+    --color-text-muted: var(--color-gray-700);
+    --color-text-dim: var(--color-gray-600);
+    --color-text-faint: var(--color-gray-500);
+    --color-text-mute: var(--color-gray-400);
+    --color-text-strong: var(--color-black);
+    --color-text-on-dark: var(--color-gray-100);
+    --color-border: var(--color-gray-300);
+    --color-border-light: var(--color-gray-200);
+    --color-surface-light: var(--color-gray-100);
+    --color-surface-hover: var(--color-gray-50);
+    --color-surface-dark: var(--color-gray-800);
+
+    /* Fonts */
+    --font-body: "Dosis", sans-serif;
+    --font-heading: "Arvo", serif;
+    --font-mono: "Scope One", monospace;
+}
+
+@font-face {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/arvo/v20/tDbD2oWUg0MKqScQ6A.ttf)
+        format("truetype");
+}
+@font-face {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/arvo/v20/tDbM2oWUg0MKoZw1-LPK9g.ttf)
+        format("truetype");
+}
+@font-face {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/dosis/v27/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMB.ttf)
+        format("truetype");
+}
+@font-face {
+    font-family: "Scope One";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/scopeone/v14/WBLnrEXKYFlGHrOKmGDFXEXI.ttf)
+        format("truetype");
+}

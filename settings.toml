@@ -1,0 +1,45 @@
+database = "wordnet.db"
+wordnet_source = "src/yaml"
+corpus_database = "semcor.db"
+corpus_source = "../semcor/semcor.yaml"
+# If true, never rebuild the databases just because a source file is newer;
+# they're still built if missing. Useful to skip a slow source scan on startup
+# with very large sources such as NameNet.
+#disable_auto_reload = false
+logo = "src/assets/english.svg"
+theme = "src/assets/theme.css"
+project_name = "Open English Wordnet"
+tagline = "The free, open lexical database of English"
+id_prefix = "oewn"
+contact_email = "english-wordnet@googlegroups.com"
+source_url = "https://github.com/globalwordnet/english-wordnet"
+intro = """
+<p>
+    The Open English Wordnet is a free, open-source lexical database of English,
+    linking words into sets of synonyms called synsets, each with a short
+    definition. Search for a word above to explore its meanings, synonyms,
+    and how it relates to other words.
+</p>
+"""
+footer = """
+<p class="footer1">
+    Open English Wordnet is derived from <a href="http://wordnet.princeton.edu/">Princeton WordNet</a>
+    by the Open English Wordnet Community and released under the
+    <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC-BY) 4.0 License</a>.
+    <a href="https://globalwordnet.github.io/gwadoc/">Further information about Wordnet</a>.
+    We welcome any corrections, improvements or other contributions at
+    <a href="http://github.com/globalwordnet/english-wordnet">GitHub</a>.
+    A full list of contributors is available on
+    <a href="https://github.com/globalwordnet/english-wordnet/blob/master/README.md">GitHub</a>.
+</p>
+<p class="footer2">
+    This interface was created by <a href="http://john.mccr.ae/">John P. McCrae</a> at the
+    <a href="https://dsi.nuigalway.ie/">Data Science Institute</a>,
+    <a href="http://www.universityofgalway.ie">University of Galway</a>
+    (<a href="http://github.com/jmccrae/ewe">GitHub</a>). Development of this interface is supported by
+    <a href="https://www.sfi.ie/">Science Foundation Ireland</a> as part of the
+    <a href="https://www.insight-centre.org/">Insight Centre for Data Analytics</a>
+    and the European Union's Horizon 2020 research and innovation programme under grant agreement No 731015
+    (<a href="http://elex.is/">ELEXIS</a>).
+</p>
+"""
