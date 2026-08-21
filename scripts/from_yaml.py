@@ -125,18 +125,14 @@ def fix_sense_rels(wn, sense):
                             SenseRelation(sense.id,
                                 inverse_sense_rels[rel.rel_type]))
             else:
-                # A sense-to-synset relation: the inverse is recorded as a
-                # synset-to-sense relation on the target synset instead.
-                target_synset = wn.synset_by_id(target_id)
-                if not target_synset:
+                # A sense-to-synset relation (e.g. exemplifies): no inverse
+                # is generated on the target synset. A <SynsetRelation>
+                # target must be a synset id, so recording the inverse there
+                # would produce a synset-to-sense backlink, which is not
+                # allowed by the WN-LMF schema.
+                if not wn.synset_by_id(target_id):
                     print("Dangling sense relation target: %s => %s" %
                           (sense.id, target_id))
-                    continue
-                inv_type = SynsetRelType(inverse_sense_rels[rel.rel_type].value)
-                if not any(sr for sr in target_synset.synset_relations
-                        if sr.rel_type == inv_type and sr.target == sense.id):
-                    target_synset.add_synset_relation(
-                            SynsetRelation(sense.id, inv_type))
 
 
 def fix_synset_rels(wn, synset):
