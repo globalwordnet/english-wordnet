@@ -17,6 +17,17 @@ import argparse
 import tempfile
 import sqlite3
 import gzip
+import re
+
+synset_id_re = re.compile(r"^\d{8}-[a-z]$")
+
+def is_synset_id(s):
+    """
+    Whether a sense-relation target string is a bare synset id (e.g.
+    '00001740-n') rather than a sense key. Sense keys always contain '%',
+    which synset ids never do, so this is unambiguous.
+    """
+    return bool(synset_id_re.match(s))
 
 def make_pos(y, pos):
     """
@@ -40,9 +51,15 @@ def sense_from_yaml(y, lemma, pos, n, prefix):
     for rel, targets in y.items():
         if rel in SenseRelType._value2member_map_:
             for target in targets:
-                # Remap senses
-                s.add_sense_relation(SenseRelation(
-                    map_sense_key(target, prefix), SenseRelType(rel)))
+                if is_synset_id(target):
+                    # A sense-to-synset relation (e.g. exemplifies): the
+                    # target is already a synset id, not a sense key.
+                    s.add_sense_relation(SenseRelation(
+                        f"{prefix}-" + target, SenseRelType(rel)))
+                else:
+                    # Remap senses
+                    s.add_sense_relation(SenseRelation(
+                        map_sense_key(target, prefix), SenseRelType(rel)))
         if rel in OtherSenseRelType._value2member_map_:
             for target in targets:
                 s.add_sense_relation(SenseRelation(
@@ -100,12 +117,22 @@ def fix_sense_rels(wn, sense):
         if (rel.rel_type in inverse_sense_rels
                 and inverse_sense_rels[rel.rel_type] != rel.rel_type):
             sense2 = wn.sense_by_id(target_id)
-            if not any(sr for sr in sense2.sense_relations
-                    if sr.rel_type == inverse_sense_rels[rel.rel_type] and
-                        sr.target == sense.id):
-                sense2.add_sense_relation(
-                        SenseRelation(sense.id,
-                            inverse_sense_rels[rel.rel_type]))
+            if sense2:
+                if not any(sr for sr in sense2.sense_relations
+                        if sr.rel_type == inverse_sense_rels[rel.rel_type] and
+                            sr.target == sense.id):
+                    sense2.add_sense_relation(
+                            SenseRelation(sense.id,
+                                inverse_sense_rels[rel.rel_type]))
+            else:
+                # A sense-to-synset relation (e.g. exemplifies): no inverse
+                # is generated on the target synset. A <SynsetRelation>
+                # target must be a synset id, so recording the inverse there
+                # would produce a synset-to-sense backlink, which is not
+                # allowed by the WN-LMF schema.
+                if not wn.synset_by_id(target_id):
+                    print("Dangling sense relation target: %s => %s" %
+                          (sense.id, target_id))
 
 
 def fix_synset_rels(wn, synset):
@@ -117,6 +144,12 @@ def fix_synset_rels(wn, synset):
                 and inverse_synset_rels[rel.rel_type] != rel.rel_type):
             target_synset = wn.synset_by_id(rel.target)
             if not target_synset:
+                if wn.sense_by_id(rel.target):
+                    # A synset-to-sense relation (the inverse side of a
+                    # sense-to-synset relation such as exemplifies), already
+                    # symmetric with the sense's own forward relation -
+                    # nothing further to add.
+                    continue
                 print(synset.id)
                 print(rel.target)
                 continue
