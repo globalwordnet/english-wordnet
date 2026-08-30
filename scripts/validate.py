@@ -143,6 +143,41 @@ def check_ili(ss, fix):
     return errors
 
 
+def check_sense_orders(wn, prefix):
+    errors = []
+    with open("src/sense-orders.csv") as sense_orders_file:
+        for lineno, line in enumerate(sense_orders_file, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                lemma, pos, idlist = line.split(",")
+            except ValueError:
+                errors.append(
+                    "sense-orders.csv line %d is malformed: %s" % (lineno, line))
+                continue
+            norm_lemma = lemma.replace("_", " ").lower()
+            for synset_id in idlist.split():
+                if not synset_id.endswith("-" + pos):
+                    errors.append(
+                        "sense-orders.csv line %d: ID %s does not match POS %s" %
+                        (lineno, synset_id, pos))
+                    continue
+                full_id = "%s-%s" % (prefix, synset_id)
+                synset = wn.synset_by_id(full_id)
+                if not synset:
+                    errors.append(
+                        "sense-orders.csv line %d: ID %s does not exist" %
+                        (lineno, full_id))
+                    continue
+                members = [m.lower() for m in wn.members_by_id(full_id)]
+                if norm_lemma not in members:
+                    errors.append(
+                        "sense-orders.csv line %d: lemma %s is not a member of %s" %
+                        (lineno, lemma, full_id))
+    return errors
+
+
 def check_lex_files(wn, fix, prefix):
     pos_map = {
         "nou": PartOfSpeech.NOUN,
@@ -495,7 +530,11 @@ def main():
             print("ERROR: " + error)
             errors += 1
 
- 
+    for error in check_sense_orders(wn, args.prefix):
+        print("ERROR: " + error)
+        errors += 1
+
+
     if fix:
         pass
     elif errors > 0:
