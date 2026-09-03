@@ -22765,13 +22765,16 @@ carnival:
       synset: 00553716-n
     - id: 'carnival%1:04:01::'
       synset: 00520389-n
+carnivoran:
+  n:
+    sense:
+    - id: 'carnivoran%1:05:00::'
+      synset: 02077948-n
 carnivore:
   n:
     pronunciation:
     - value: ˈkɑːnɪvɔː
     sense:
-    - id: 'carnivore%1:05:00::'
-      synset: 02077948-n
     - id: 'carnivore%1:05:02::'
       synset: 01327072-n
 carnivorous:
@@ -22781,8 +22784,6 @@ carnivorous:
       variety: US
     sense:
     - id: 'carnivorous%3:01:00::'
-      pertainym:
-      - 'carnivore%1:05:00::'
       synset: 02691317-a
     - antonym:
       - 'herbivorous%3:00:00::'
@@ -22795,6 +22796,11 @@ carnivorous bat:
     sense:
     - id: 'carnivorous_bat%1:05:00::'
       synset: 02143958-n
+carnivorous mammal:
+  n:
+    sense:
+    - id: 'carnivorous_mammal%1:05:00::'
+      synset: 02077948-n
 carnivorous plant:
   n:
     sense:
@@ -73083,6 +73089,10 @@ comparative:
       - 'compare%2:31:00::'
       id: 'comparative%3:00:00::'
       synset: 00006050-a
+    - id: 'comparative%3:01:01::'
+      pertainym:
+      - 'comparative%1:10:00::'
+      synset: 88608554-a
   n:
     pronunciation:
     - value: kəmˈpæɹ.ə.tɪv
@@ -98792,7 +98802,7 @@ countryside:
     - value: ˈkʌn.tɹiˌsaɪd
     sense:
     - id: 'countryside%1:15:00::'
-      synset: 08662608-n
+      synset: 08662297-n
 countrywide:
   a:
     pronunciation:
