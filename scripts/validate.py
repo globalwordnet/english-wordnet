@@ -23,13 +23,7 @@ def check_symmetry(wn, fix):
         for rel in synset.synset_relations:
             if rel.rel_type in inverse_synset_rels:
                 synset2 = wn.synset_by_id(rel.target)
-                if not synset2:
-                    # This error only happens if the XML validation is not
-                    # being carried out!
-                    print(
-                        "Referencing bad synset ID %s from %s" %
-                        (rel.target, synset.id))
-                else:
+                if synset2:
                     if not any(r for r in synset2.synset_relations if r.target ==
                                synset.id and r.rel_type == inverse_synset_rels[rel.rel_type]):
                         if fix:
@@ -39,24 +33,52 @@ def check_symmetry(wn, fix):
                             errors.append(
                                 "No symmetric relation for %s =%s=> %s" %
                                 (synset.id, rel.rel_type, synset2.id))
+                    continue
+                # Not a synset: may be a synset-to-sense relation, the
+                # inverse of a sense-to-synset relation such as exemplifies.
+                sense2 = wn.sense_by_id(rel.target)
+                if sense2:
+                    inv_type = SenseRelType(inverse_synset_rels[rel.rel_type].value)
+                    if not any(sr for sr in sense2.sense_relations if sr.target ==
+                               synset.id and sr.rel_type == inv_type):
+                        errors.append(
+                            "No symmetric relation for %s =%s=> %s" %
+                            (synset.id, rel.rel_type, sense2.id))
+                    continue
+                # This error only happens if the XML validation is not
+                # being carried out!
+                print(
+                    "Referencing bad synset ID %s from %s" %
+                    (rel.target, synset.id))
     for entry in wn.entries():
         for sense in entry.senses:
             for rel in sense.sense_relations:
                 if rel.rel_type in inverse_sense_rels:
                     sense2 = wn.sense_by_id(rel.target)
-                    if not sense2:
-                        errors.append(
-                                "Reference to no existant sense %s)" % (rel.target))
+                    if sense2:
+                        if not any(r for r in sense2.sense_relations if r.target ==
+                                   sense.id and r.rel_type == inverse_sense_rels[rel.rel_type]):
+                            if fix:
+                                errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (
+                                    inverse_sense_rels[rel.rel_type].value, sense2.id, sense.id))
+                            else:
+                                errors.append(
+                                    "No symmetric relation for %s =%s=> %s" %
+                                    (sense.id, rel.rel_type, sense2.id))
                         continue
-                    if not any(r for r in sense2.sense_relations if r.target ==
-                               sense.id and r.rel_type == inverse_sense_rels[rel.rel_type]):
-                        if fix:
-                            errors.append("python3 scripts/change-relation.py --add --new-relation %s %s %s" % (
-                                inverse_sense_rels[rel.rel_type].value, sense2.id, sense.id))
-                        else:
-                            errors.append(
-                                "No symmetric relation for %s =%s=> %s" %
-                                (sense.id, rel.rel_type, sense2.id))
+                    # Not a sense: may be a sense-to-synset relation, whose
+                    # inverse lives on the target synset instead.
+                    synset2 = wn.synset_by_id(rel.target)
+                    if not synset2:
+                        errors.append(
+                                "Reference to no existant sense or synset %s)" % (rel.target))
+                        continue
+                    inv_type = SynsetRelType(inverse_sense_rels[rel.rel_type].value)
+                    if not any(r for r in synset2.synset_relations if r.target ==
+                               sense.id and r.rel_type == inv_type):
+                        errors.append(
+                            "No symmetric relation for %s =%s=> %s" %
+                            (sense.id, rel.rel_type, synset2.id))
 
     return errors
 
