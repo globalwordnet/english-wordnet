@@ -58,6 +58,15 @@ and is differentiated by the quality 'female'.
 Each synset should have at least one link. For nouns and verbs the synset must
 have at least one hypernym. 
 
+# Names (proper nouns)
+
+Names are kept in separate lexicographer files called `name.*` (such as 
+`name.location`), their synsets have `partOfSpeech: e` and identifiers ending in 
+`-e` (e.g., `08337853-e`), and their entries are stored in `entries-X-name.yaml`
+files with the part of speech `e`. See `FORMAT.md` for details. Common nouns
+should never be added to these files and names should not be added to the 
+`noun.*` files.
+
 # Adding a new synset
 
 If requested to add a new synset the following procedure should be followed
@@ -259,6 +268,20 @@ adj.all
 adj.pert
 adj.ppl
 adv.all
+name.act
+name.animal
+name.artifact
+name.cognition
+name.communication
+name.event
+name.group
+name.location
+name.object
+name.person
+name.plant
+name.possession
+name.state
+name.time
 
 ## Synset Relations
 

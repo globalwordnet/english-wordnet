@@ -147,7 +147,11 @@ Wagner:
 Wagnerian:
   a:
     sense:
-    - id: 'wagnerian%3:01:00::'
+    - derivation:
+      - 'wagner%1:18:00::'
+      id: 'wagnerian%3:01:00::'
+      pertainym:
+      - 'wagner%1:18:00::'
       synset: 03048488-a
   n:
     sense:
@@ -330,17 +334,31 @@ Washington's Birthday:
 Washingtonian:
   a:
     sense:
-    - id: 'washingtonian%3:01:03::'
+    - derivation:
+      - 'washington%1:18:00::'
+      id: 'washingtonian%3:01:03::'
+      pertainym:
+      - 'washington%1:18:00::'
       synset: 03049093-a
-    - id: 'washingtonian%3:01:02::'
+    - derivation:
+      - 'washington%1:14:00::'
+      id: 'washingtonian%3:01:02::'
+      pertainym:
+      - 'washington%1:14:00::'
       synset: 03048921-a
     - derivation:
       - 'washingtonian%1:18:01::'
+      - 'washington%1:15:01::'
       id: 'washingtonian%3:01:01::'
+      pertainym:
+      - 'washington%1:15:01::'
       synset: 03048750-a
     - derivation:
       - 'washingtonian%1:18:00::'
+      - 'washington%1:15:00::'
       id: 'washingtonian%3:01:00::'
+      pertainym:
+      - 'washington%1:15:00::'
       synset: 03048607-a
   n:
     sense:
@@ -530,6 +548,8 @@ Welsh:
       - 'welsh%1:18:00::'
       - 'welsh%1:10:00::'
       id: 'welsh%3:01:00::'
+      pertainym:
+      - 'wales%1:15:00::'
       synset: 03141741-a
   n:
     pronunciation:
@@ -661,6 +681,7 @@ Wesleyan:
     sense:
     - derivation:
       - 'wesleyan%1:18:00::'
+      - 'wesley%1:18:00::'
       id: 'wesleyan%3:01:00::'
       synset: 02967108-a
   n:
@@ -699,6 +720,8 @@ West African:
     - derivation:
       - 'west_african%1:10:00::'
       id: 'west_african%3:01:00::'
+      pertainym:
+      - 'west_africa%1:15:00::'
       synset: 03053763-a
   n:
     sense:
@@ -1218,7 +1241,11 @@ Wilsonia pusilla:
 Wilsonian:
   a:
     sense:
-    - id: 'wilsonian%3:01:00::'
+    - derivation:
+      - 'wilson%1:18:00::'
+      id: 'wilsonian%3:01:00::'
+      pertainym:
+      - 'wilson%1:18:00::'
       synset: 02707252-a
 Wilton:
   n:
@@ -1387,6 +1414,8 @@ Wittgensteinian:
   a:
     sense:
     - id: 'wittgensteinian%3:01:00::'
+      pertainym:
+      - 'wittgenstein%1:18:00::'
       synset: 03050310-a
 Wobbly:
   n:
@@ -1512,7 +1541,11 @@ Word of God:
 Wordsworthian:
   a:
     sense:
-    - id: 'wordsworthian%3:01:00::'
+    - derivation:
+      - 'wordsworth%1:18:00::'
+      id: 'wordsworthian%3:01:00::'
+      pertainym:
+      - 'wordsworth%1:18:00::'
       synset: 03050197-a
 World Bank:
   n:
@@ -1770,6 +1803,7 @@ wade:
       derivation:
       - 'wader%1:05:01::'
       - 'wading%1:04:00::'
+      - 'wade%1:18:00::'
       id: 'wade%2:38:00::'
       sent:
       - These men wade across the river
