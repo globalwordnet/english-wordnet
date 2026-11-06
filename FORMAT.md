@@ -16,7 +16,7 @@ Where
     (`_`). Other non-XML characters should be replaced with `-xx-` where xx is 
     a two letter code (e.g., `-lp-` for `(` and `-rp-` for `)`)
 * `p` is the part of speech. One of `n` (noun), `v` (verb), `a` (adjective),
-    `s` (adjective satellite) or `r` (adverb)
+    `s` (adjective satellite), `r` (adverb) or `e` (name, i.e., proper noun)
 
 ## Senses
 
@@ -53,6 +53,15 @@ give the value `ili="in"`.
 
 Synsets should have a `partOfSpeech` and a `dc:subject` which corresponds to the
 name of the file being defined
+
+Names (proper nouns) are kept separate from the common vocabulary. Name synsets
+are defined in the `name.*` files (e.g., `name.location.yaml`), have 
+`partOfSpeech: e` and their IDs end in `-e` (e.g., `08337853-e`). Their entries 
+have the part of speech `e` and are stored in the `entries-X-name.yaml` files
+(e.g., `entries-A-name.yaml`). Names may also be added as members of a common 
+noun synset, in which case their entry has part of speech `e` but refers to a 
+synset ending in `-n`. Sense keys of names use the same lexicographer file 
+number as the corresponding `noun.*` file.
 
 All members of a synset should be listed in a comment before the synset
 

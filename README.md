@@ -16,6 +16,7 @@ which contains a very large number of entries derived from [Wikidata](https://wi
 * **Open English Wordnet**: A wordnet of the common nouns, verbs, adjectives and adverbs.
 * **Open English Wordnet Plus**: Also contains a selection of proper nouns from Open English Namenet that have been manually validated. 
     This is based on those in Princeton WordNet 3.1 as well as additional entries added by the Open English Wordnet team.
+    These names are maintained in this repository in the `name.*` files and are marked with the part of speech `e`.
 * **Open English Namenet**: The full set of proper nouns from Open English Namenet.
 
 ## Releases

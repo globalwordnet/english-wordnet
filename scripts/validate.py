@@ -185,9 +185,9 @@ def check_lex_files(wn, fix, prefix):
 valid_id = re.compile(fr"^oewn-{xml_id_char}*$")
 
 valid_sense_id = re.compile(
-    "^oewn-[A-Za-z0-9_\\-.]+-([nvars])-([0-9]{8})-[0-9]{2}$")
+    "^oewn-[A-Za-z0-9_\\-.]+-([nvarse])-([0-9]{8})-[0-9]{2}$")
 
-valid_synset_id = re.compile("^oewn-[0-9]{8}-[nvars]$")
+valid_synset_id = re.compile("^oewn-[0-9]{8}-[nvarse]$")
 
 valid_wikidata = re.compile("^Q[1-9][0-9]*$")
 
@@ -279,7 +279,10 @@ def main():
                 errors += 1
             if (synset and entry.lemma.part_of_speech != synset.part_of_speech
                     and not (entry.lemma.part_of_speech == PartOfSpeech.ADJECTIVE and
-                        synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE)):
+                        synset.part_of_speech == PartOfSpeech.ADJECTIVE_SATELLITE)
+                    # A name (proper noun) entry may be a member of a noun synset
+                    and not (entry.lemma.part_of_speech == PartOfSpeech.PROPER_NOUN and
+                        synset.part_of_speech == PartOfSpeech.NOUN)):
                 print(
                     "ERROR: Part of speech of entry not the same as synset %s in %s" %
                     (entry.id, synset.id))
@@ -324,7 +327,7 @@ def main():
 
     instances = set()
     ilis = set()
-    wikidatas = set()
+    wikidatas = {}
     definitions = set()
 
     for synset in wn.synsets():
@@ -403,7 +406,7 @@ def main():
                 (synset.id))
             errors += 1
 
-        if (synset.part_of_speech == PartOfSpeech.NOUN and not
+        if (synset.part_of_speech in (PartOfSpeech.NOUN, PartOfSpeech.PROPER_NOUN) and not
             [sr for sr in synset.synset_relations 
                 if sr.rel_type == SynsetRelType.HYPERNYM or
                    sr.rel_type == SynsetRelType.INSTANCE_HYPERNYM] and
@@ -454,11 +457,16 @@ def main():
                 if not valid_wikidata.match(wikidata):
                     print(f"ERROR: Invalid Wikidata ID {wikidata} for {synset.id}")
                     errors += 1
-                elif wikidata in wikidatas and wikidata not in WIKIDATA_DUPLICATION_EXCEPTIONS:
+                elif (wikidata in wikidatas and wikidata not in WIKIDATA_DUPLICATION_EXCEPTIONS
+                      and (synset.part_of_speech == PartOfSpeech.PROPER_NOUN)
+                          in wikidatas[wikidata]):
+                    # A name (part of speech 'e') may share a QID with a
+                    # common noun synset, as Wikidata has a single entry
                     print(f"ERROR: QID {wikidata} is duplicated")
                     errors += 1
                 else:
-                    wikidatas.add(wikidata)
+                    wikidatas.setdefault(wikidata, set()).add(
+                        synset.part_of_speech == PartOfSpeech.PROPER_NOUN)
 
     for synset in wn.synsets():
         for sr in synset.synset_relations:
