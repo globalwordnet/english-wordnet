@@ -28,7 +28,9 @@ jobs:
       run: sudo apt-get update && sudo apt-get install libxml2-utils
       
     - name: Verify XML
-      run: xmllint --noout --valid wn.xml
+      # TODO: Remove --dtdvalid once WN-LMF-1.5.dtd (globalwordnet/schemas#106)
+      # is published; the DOCTYPE in wn.xml will then resolve to it directly.
+      run: xmllint --noout --valid --dtdvalid https://raw.githubusercontent.com/globalwordnet/schemas/issue-106/WN-LMF-1.5.dtd wn.xml
       
     - name: Verify Structure
       run: python3 scripts/validate.py
