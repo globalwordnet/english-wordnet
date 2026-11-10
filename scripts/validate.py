@@ -147,6 +147,11 @@ def check_ili(ss, fix):
     return errors
 
 
+# Sense orders interleave common nouns (-n) with names (-e), and adjectives
+# (-a) with adjective satellites (-s), so a row's POS permits several suffixes.
+SENSE_ORDER_SUFFIXES = {"n": ("n", "e"), "a": ("a", "s")}
+
+
 def check_sense_orders(wn, prefix):
     errors = []
     with open("src/sense-orders.csv") as sense_orders_file:
@@ -162,7 +167,8 @@ def check_sense_orders(wn, prefix):
                 continue
             norm_lemma = lemma.replace("_", " ").lower()
             for synset_id in idlist.split():
-                if not synset_id.endswith("-" + pos):
+                if synset_id[-1:] not in SENSE_ORDER_SUFFIXES.get(pos, (pos,)) \
+                        or synset_id[-2:-1] != "-":
                     errors.append(
                         "sense-orders.csv line %d: ID %s does not match POS %s" %
                         (lineno, synset_id, pos))
