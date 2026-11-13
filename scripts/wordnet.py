@@ -705,10 +705,16 @@ class WordNetContentHandler(ContentHandler):
                 SynsetRelation(attrs["target"],
                                SynsetRelType(attrs["relType"])))
         elif name == "SenseRelation":
+            rel_type, other_type = attrs["relType"], attrs.get("dc:type")
+            # WN-LMF 1.4 (as written by EWE) has the relations of
+            # OtherSenseRelType as relation types of their own, where earlier
+            # versions used `other` with a `dc:type`
+            if rel_type in {t.value for t in OtherSenseRelType}:
+                rel_type, other_type = "other", rel_type
             self.sense.add_sense_relation(
                 SenseRelation(attrs["target"],
-                              SenseRelType(attrs["relType"]),
-                              attrs.get("dc:type")))
+                              SenseRelType(rel_type),
+                              other_type))
         elif name == "SyntacticBehaviour":
             pass
             #self.entry.add_syntactic_behaviour(
