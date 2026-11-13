@@ -18,7 +18,10 @@ as before (see the 2025 `downloads.toml`):
 | Core | `english-wordnet-20XX.*` | `--names exclude` | No names, and nothing that refers to a name. |
 | Plus | `english-wordnet-20XX-plus.*` | `--names merged` | Names as ordinary nouns (`-n` ids, `noun.*` lexfiles), as in the plus releases before names had their own part of speech. |
 
-Every export below is run once per edition. The remaining `--names` values
+Relations between the common vocabulary and the names are stored only in the
+name files (`names_layout = "separate"` in `settings.toml`), so the core edition
+contains nothing that refers to a name. Every export below is run once per
+edition. The remaining `--names` values
 are `include` (the default: everything as stored, with names as `-e` synsets
 with part of speech `e`, which needs WN-LMF 1.5) and `only` (just the names).
 Do not use `include` for WNDB, which has no part of speech for names and
@@ -138,7 +141,31 @@ python scripts/stardict.py --input release/english-wordnet-$YEAR-plus.xml \
 This produces `.ifo/.idx/.dict/.syn` files for each edition, which can be
 zipped up for release.
 
-## 6. en-word.net website
+## 6. YAML and JSON sources
+
+The YAML source release is exactly the contents of this repository, zipped.
+The JSON release is the same tree with each YAML file converted to JSON:
+
+```
+git archive --format=zip --prefix=english-wordnet-$YEAR-yaml/ \
+    -o release/english-wordnet-$YEAR-yaml.zip HEAD
+python - <<END
+import glob, json, os, yaml
+os.makedirs("release/json/src/yaml", exist_ok=True)
+for f in glob.glob("src/yaml/*.yaml"):
+    with open(f) as inp:
+        data = yaml.load(inp, Loader=yaml.CSafeLoader)
+    out = "release/json/" + f[:-len(".yaml")] + ".json"
+    with open(out, "w") as outp:
+        json.dump(data, outp, ensure_ascii=False)
+END
+(cd release/json && zip -r ../english-wordnet-$YEAR-json.zip .)
+```
+
+The fixed sense index offered with the 2025 release was a one-off
+post-release correction (#1305) and is not part of the regular process.
+
+## 7. en-word.net website
 
 The site is the `ewe_dioxus` component of the
 [EWE repository](https://github.com/jmccrae/ewe/tree/main/ewe_dioxus), so it
@@ -153,27 +180,17 @@ edition:
 3. Rebuild the site (`dx build --platform web --release --features oewn`)
    and restart the server.
 
-## 7. Creating the release
+## 8. Creating the release
 
 Create a new release on GitHub and provide a summary of the main issues
 handled. Attach the XML (`.xml.gz`), WNDB (`.zip`), RDF (`.ttl.gz`) and
-StarDict (`.zip`) files of both editions to the release.
+StarDict (`.zip`) files of both editions, and the YAML and JSON source
+archives, to the release.
 
 ## Open points for the 2026 release
 
-These need to be resolved before the 2026 release is cut:
-
-- **Names.** The core and plus editions are produced with `--names exclude`
-  and `--names merged` (jmccrae/ewe#82). Decide whether a third file set with
-  the names as `-e` synsets (`--names include --lmf-version 1.5`) should also
-  be offered. It needs the WN-LMF 1.5 DTD, which is not yet published
-  (globalwordnet/schemas#106), so `xmllint --valid` has to be run against the
-  draft DTD (see `.github/workflows/main.yml`) until it is.
-- **Self-contained base data.** The base `noun.*` and other files still
-  contain relations to name synsets and name senses (1,374 and 1,233 in
-  #1456), which are not stored on the name side. The exports above are
-  self-contained, but the YAML source of the core edition is not
-  (jmccrae/ewe#100).
-- **Other downloads.** The 2025 downloads page also offered YAML source,
-  JSON and fixed sense index files, which this guide does not yet describe how
-  to generate.
+- **Names.** Decide whether a third file set with the names as `-e` synsets
+  (`--names include --lmf-version 1.5`) should also be offered. It needs the
+  WN-LMF 1.5 DTD, which is not yet published (globalwordnet/schemas#106), so
+  `xmllint --valid` has to be run against the draft DTD (see
+  `.github/workflows/main.yml`) until it is.
