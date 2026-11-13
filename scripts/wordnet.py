@@ -131,10 +131,10 @@ class Lexicon:
         xml_file.write("""<?xml version="1.0" encoding="UTF-8"?>\n""")
         if part:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.3.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-relaxed-1.5.dtd">\n""")
         else:
             xml_file.write(
-                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.3.dtd">\n""")
+                """<!DOCTYPE LexicalResource SYSTEM "http://globalwordnet.github.io/schemas/WN-LMF-1.5.dtd">\n""")
         if self.citation:
             citation_text = f"""
            citation="{self.citation}" """
@@ -436,6 +436,7 @@ class SyntacticBehaviour:
 
 class PartOfSpeech(Enum):
     NOUN = 'n'
+    PROPER_NOUN = 'e'
     VERB = 'v'
     ADJECTIVE = 'a'
     ADVERB = 'r'
@@ -449,6 +450,8 @@ class PartOfSpeech(Enum):
 
 def equal_pos(pos1, pos2):
     return (pos1 == pos2
+            or pos1 == PartOfSpeech.PROPER_NOUN and pos2 == PartOfSpeech.NOUN
+            or pos2 == PartOfSpeech.PROPER_NOUN and pos1 == PartOfSpeech.NOUN
             or pos1 == PartOfSpeech.ADJECTIVE and pos2 == PartOfSpeech.ADJECTIVE_SATELLITE
             or pos2 == PartOfSpeech.ADJECTIVE and pos1 == PartOfSpeech.ADJECTIVE_SATELLITE)
 

@@ -68,6 +68,14 @@ def sense_from_yaml(y, lemma, pos, n, prefix):
         s.sent = y["sent"]
     if "subcat" in y:
         s.subcat = y["subcat"]
+    # Relations that other senses have to this one, written on this sense by
+    # EWE when `names_layout = "separate"` is set in its settings.toml, as
+    # `is_<relation>_of` (e.g. `is_pertainym_of`): the relation mapped to the
+    # keys of the senses that have it. (`has_domain_topic`, `has_domain_region`
+    # and `is_exemplified_by` are WN-LMF relations and were read above.) They
+    # are added to those senses once every entry is loaded (see `load`).
+    s.inverse = {rel[3:-3]: targets for rel, targets in y.items()
+                 if rel.startswith("is_") and rel.endswith("_of")}
     return s
 
 def pronunciation_from_yaml(props):
@@ -108,14 +116,38 @@ def synset_from_yaml(wn, props, id, lex_name, prefix):
     return ss
 
 
+def add_inverse_sense_rels(wn, sense, prefix):
+    """
+    Give the senses named in `sense.inverse` the relation they have to `sense`
+    """
+    for rel, sources in sense.inverse.items():
+        for source_key in sources:
+            if isinstance(source_key, dict):
+                source_key = source_key["target"]
+            source = wn.sense_by_id(map_sense_key(source_key, prefix))
+            if not source:
+                print("Dangling inverse sense relation: %s <= %s" %
+                      (sense.id, source_key))
+                continue
+            if rel in SenseRelType._value2member_map_:
+                rel_type, other_type = SenseRelType(rel), None
+            else:
+                rel_type, other_type = SenseRelType.OTHER, rel
+            if not any(sr.target == sense.id and sr.rel_type == rel_type
+                       and sr.other_type == other_type
+                       for sr in source.sense_relations):
+                source.add_sense_relation(
+                    SenseRelation(sense.id, rel_type, other_type))
+    sense.inverse = {}
+
+
 def fix_sense_rels(wn, sense):
     """
     Add inverse sense relations as needed
     """
     for rel in sense.sense_relations:
         target_id = rel.target
-        if (rel.rel_type in inverse_sense_rels
-                and inverse_sense_rels[rel.rel_type] != rel.rel_type):
+        if rel.rel_type in inverse_sense_rels:
             sense2 = wn.sense_by_id(target_id)
             if sense2:
                 if not any(sr for sr in sense2.sense_relations
@@ -140,8 +172,7 @@ def fix_synset_rels(wn, synset):
     Add inverse synset relations as needed
     """
     for rel in synset.synset_relations:
-        if (rel.rel_type in inverse_synset_rels
-                and inverse_synset_rels[rel.rel_type] != rel.rel_type):
+        if rel.rel_type in inverse_synset_rels:
             target_synset = wn.synset_by_id(rel.target)
             if not target_synset:
                 if wn.sense_by_id(rel.target):
@@ -255,6 +286,10 @@ def load(year="2022", plus=False,  db=None, cache_size=1000000, verbose=False, p
 #                    continue
 #                for id, props in y.items():
 #                    wn.add_synset(synset_from_yaml(wn, props, id, lex_name, prefix))
+
+    for entry in wn.entries():
+        for sense in entry.senses:
+            add_inverse_sense_rels(wn, sense, prefix)
 
     for entry in wn.entries():
         for sense in entry.senses:

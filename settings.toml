@@ -1,5 +1,8 @@
 database = "wordnet.db"
 wordnet_source = "src/yaml"
+# Relations between names (-e synsets) and the common vocabulary are stored only in the name
+# files (see FORMAT.md), so that the other files do not refer to names.
+names_layout = "separate"
 corpus_database = "semcor.db"
 corpus_source = "../semcor/semcor.yaml"
 # If true, never rebuild the databases just because a source file is newer;
