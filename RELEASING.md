@@ -20,7 +20,8 @@ as before (see the 2025 `downloads.toml`):
 
 Relations between the common vocabulary and the names are stored only in the
 name files (`names_layout = "separate"` in `settings.toml`), so the core edition
-contains nothing that refers to a name. Every export below is run once per
+contains nothing that refers to a name. Only these two editions are released, as for 2025 (there is no separate
+release with the names as `-e` synsets). Every export below is run once per
 edition. The remaining `--names` values
 are `include` (the default: everything as stored, with names as `-e` synsets
 with part of speech `e`, which needs WN-LMF 1.5) and `only` (just the names).
@@ -162,8 +163,8 @@ END
 (cd release/json && zip -r ../english-wordnet-$YEAR-json.zip .)
 ```
 
-The fixed sense index offered with the 2025 release was a one-off
-post-release correction (#1305) and is not part of the regular process.
+No sense index release is made: the fixed sense index offered with the 2025
+release was a one-off post-release correction (#1305).
 
 ## 7. en-word.net website
 
@@ -186,11 +187,3 @@ Create a new release on GitHub and provide a summary of the main issues
 handled. Attach the XML (`.xml.gz`), WNDB (`.zip`), RDF (`.ttl.gz`) and
 StarDict (`.zip`) files of both editions, and the YAML and JSON source
 archives, to the release.
-
-## Open points for the 2026 release
-
-- **Names.** Decide whether a third file set with the names as `-e` synsets
-  (`--names include --lmf-version 1.5`) should also be offered. It needs the
-  WN-LMF 1.5 DTD, which is not yet published (globalwordnet/schemas#106), so
-  `xmllint --valid` has to be run against the draft DTD (see
-  `.github/workflows/main.yml`) until it is.
