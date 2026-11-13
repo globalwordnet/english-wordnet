@@ -66,7 +66,9 @@ older than the sources, so no separate build step is needed.
 ```
 
 Neither edition contains part of speech `e`, so both are valid against the
-default `WN-LMF-1.4.dtd`. Check that each file is valid against the WN-LMF DTD
+default `WN-LMF-1.4.dtd`. To release against WN-LMF 1.5 instead (which adds
+`Lemma/@reconstructed`), add `--lmf-version 1.5` to both commands above; EWE
+does not yet default to 1.5. The `DOCTYPE` then names `WN-LMF-1.5.dtd`. Check that each file is valid against the WN-LMF DTD
 named in its `DOCTYPE`:
 
 ```
