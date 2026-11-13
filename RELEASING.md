@@ -6,6 +6,24 @@ All release artefacts (XML, WNDB and RDF) are generated with the
 should be available in the root of the repository (see `AGENTS.md`). In the
 commands below `20XX` is the year of the release.
 
+## Editions
+
+Since #1456 the names (proper nouns, part of speech `e`, `-e` synset ids,
+`name.*` lexicographer files and `entries-*-name.yaml`) are kept in this
+repository next to the common vocabulary. Two editions are released from it,
+as before (see the 2025 `downloads.toml`):
+
+| Edition | Files | `ewe export` option | Contents |
+| --- | --- | --- | --- |
+| Core | `english-wordnet-20XX.*` | `--names exclude` | No names, and nothing that refers to a name. |
+| Plus | `english-wordnet-20XX-plus.*` | `--names merged` | Names as ordinary nouns (`-n` ids, `noun.*` lexfiles), as in the plus releases before names had their own part of speech. |
+
+Every export below is run once per edition. The remaining `--names` values
+are `include` (the default: everything as stored, with names as `-e` synsets
+with part of speech `e`, which needs WN-LMF 1.5) and `only` (just the names).
+Do not use `include` for WNDB, which has no part of speech for names and
+leaves them out.
+
 ## 1. Prepare
 
 1. Make sure all pull requests intended for the release are merged and
@@ -27,6 +45,8 @@ commands below `20XX` is the year of the release.
    YEAR=20XX
    mkdir -p release
    META="--version $YEAR --email english-wordnet@googlegroups.com"
+   CORE="--names exclude"
+   PLUS="--names merged"
    ```
 
 `ewe` builds `wordnet.db` from `src/yaml` automatically if it is missing or
@@ -35,37 +55,48 @@ older than the sources, so no separate build step is needed.
 ## 2. XML release
 
 ```
-./ewe export xml release/english-wordnet-$YEAR.xml $META \
+./ewe export xml release/english-wordnet-$YEAR.xml $META $CORE \
+    --url https://github.com/globalwordnet/english-wordnet
+./ewe export xml release/english-wordnet-$YEAR-plus.xml $META $PLUS \
     --url https://github.com/globalwordnet/english-wordnet
 ```
 
-Check that the file is valid against the WN-LMF DTD named in its `DOCTYPE`:
+Neither edition contains part of speech `e`, so both are valid against the
+default `WN-LMF-1.4.dtd`. Check that each file is valid against the WN-LMF DTD
+named in its `DOCTYPE`:
 
 ```
 xmllint --noout --valid release/english-wordnet-$YEAR.xml
+xmllint --noout --valid release/english-wordnet-$YEAR-plus.xml
 ```
 
-Then compress it:
+Then compress them:
 
 ```
-gzip -k release/english-wordnet-$YEAR.xml
+gzip -k release/english-wordnet-$YEAR.xml release/english-wordnet-$YEAR-plus.xml
 ```
 
 ## 3. WNDB release
 
 ```
-./ewe export wndb release/oewn$YEAR/
-(cd release && zip -r english-wordnet-$YEAR.zip oewn$YEAR/)
+./ewe export wndb release/oewn$YEAR/ $CORE
+./ewe export wndb release/oewn$YEAR-plus/ $PLUS
+(cd release && zip -r english-wordnet-$YEAR.zip oewn$YEAR/ \
+    && zip -r english-wordnet-$YEAR-plus.zip oewn$YEAR-plus/)
 ```
 
 The license header is taken from `WNDB_License.txt` in the repository root;
 use `--license-file` to override it. WNDB has no part of speech for names, so
-check how `-e` synsets are written once they are in the data (see the open
-points below).
+the core edition simply has none and the plus edition writes them into
+`data.noun` and `index.noun` as nouns (`--names include` would leave them out
+and `--names only` is an error).
 
-If `ewe` prints warnings of the form `<lemma> has different set of keys to
-ordering`, then `src/sense-orders.csv` is out of sync with the synset
-identifiers. Fix `src/sense-orders.csv` (it is checked by
+`src/sense-orders.csv` is used automatically. Rows that list synsets which are
+not part of the edition being exported (the names, in the core edition) are
+still applied to the others. If `ewe` prints warnings of the form `<lemma>
+has different set of keys to ordering`, then `src/sense-orders.csv` is out of
+sync with the synset identifiers of that edition (for example, a synset was
+added or deprecated). Fix `src/sense-orders.csv` (it is checked by
 `python scripts/validate.py` once #1404 is merged) before releasing, as the
 sense order of the affected lemmas may otherwise not be applied.
 
@@ -79,9 +110,11 @@ wordnet novel_lemma_in_this_edition -over
 ## 4. RDF release
 
 ```
-./ewe export rdf release/english-wordnet-$YEAR.ttl $META \
+./ewe export rdf release/english-wordnet-$YEAR.ttl $META $CORE \
     --url https://en-word.net/
-gzip -k release/english-wordnet-$YEAR.ttl
+./ewe export rdf release/english-wordnet-$YEAR-plus.ttl $META $PLUS \
+    --url https://en-word.net/
+gzip -k release/english-wordnet-$YEAR.ttl release/english-wordnet-$YEAR-plus.ttl
 ```
 
 `ewe` declares every lexical entry exactly once, so the previous `rapper`
@@ -98,10 +131,12 @@ uses [pyglossary](https://github.com/ilius/pyglossary).
 pip install pyglossary
 python scripts/stardict.py --input release/english-wordnet-$YEAR.xml \
     --output release/english-wordnet-$YEAR-stardict
+python scripts/stardict.py --input release/english-wordnet-$YEAR-plus.xml \
+    --output release/english-wordnet-$YEAR-plus-stardict
 ```
 
-This produces `.ifo/.idx/.dict/.syn` files, which can be zipped up for
-release.
+This produces `.ifo/.idx/.dict/.syn` files for each edition, which can be
+zipped up for release.
 
 ## 6. en-word.net website
 
@@ -111,9 +146,10 @@ reads the YAML source in this repository directly and rebuilds its database
 automatically when the sources are newer (see its README). To publish the new
 edition:
 
-1. Copy the release files into the site's `downloads_dir`.
-2. Add a `[[release]]` entry for the new version, listing those files, to the
-   site's `downloads.toml` (see `downloads.toml.example` in `ewe_dioxus`).
+1. Copy the release files of both editions into the site's `downloads_dir`.
+2. Add a `[[release]]` entry for the new version, listing those files (the
+   core files and the `-plus` files, as for 2025), to the site's
+   `downloads.toml` (see `downloads.toml.example` in `ewe_dioxus`).
 3. Rebuild the site (`dx build --platform web --release --features oewn`)
    and restart the server.
 
@@ -121,26 +157,23 @@ edition:
 
 Create a new release on GitHub and provide a summary of the main issues
 handled. Attach the XML (`.xml.gz`), WNDB (`.zip`), RDF (`.ttl.gz`) and
-StarDict (`.zip`) files to the release.
+StarDict (`.zip`) files of both editions to the release.
 
 ## Open points for the 2026 release
 
 These need to be resolved before the 2026 release is cut:
 
-- **Names.** Following #1456 the names are stored in `name.*.yaml` files with
-  part of speech `e`. The `ewe export` commands described above export
-  *everything*. Whether the release should be split into a core release and
-  a release including names (the former `plus` release, cf. `make_plus.py`,
-  which has been retired) is not yet decided, and `ewe export` does not
-  currently offer a filter for this (jmccrae/ewe#82).
-- **Part of speech `e` in EWE.** `ewe` cannot yet load the `-e` data
-  (jmccrae/ewe#81, to be completed before the release). `ewe export xml`
-  currently writes the `WN-LMF-1.4.dtd` DOCTYPE, which does not allow
-  `partOfSpeech="e"` (cf. globalwordnet/schemas#106); the exporter must
-  reference a DTD that includes `e` before the XML is released.
-- **WNDB and RDF with names.** It is not yet checked how the WNDB and RDF
-  exporters handle `-e` synsets; this should be tested once #1456 is merged
-  and jmccrae/ewe#81 is done.
+- **Names.** The core and plus editions are produced with `--names exclude`
+  and `--names merged` (jmccrae/ewe#82). Decide whether a third file set with
+  the names as `-e` synsets (`--names include --lmf-version 1.5`) should also
+  be offered. It needs the WN-LMF 1.5 DTD, which is not yet published
+  (globalwordnet/schemas#106), so `xmllint --valid` has to be run against the
+  draft DTD (see `.github/workflows/main.yml`) until it is.
+- **Self-contained base data.** The base `noun.*` and other files still
+  contain relations to name synsets and name senses (1,374 and 1,233 in
+  #1456), which are not stored on the name side. The exports above are
+  self-contained, but the YAML source of the core edition is not
+  (jmccrae/ewe#100).
 - **Other downloads.** The 2025 downloads page also offered YAML source,
   JSON and fixed sense index files, which this guide does not yet describe how
   to generate.
