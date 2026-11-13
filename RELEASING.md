@@ -51,6 +51,7 @@ leaves them out.
    META="--version $YEAR --email english-wordnet@googlegroups.com"
    CORE="--names exclude"
    PLUS="--names merged"
+   LMF="--lmf-version 1.5"
    ```
 
 `ewe` builds `wordnet.db` from `src/yaml` automatically if it is missing or
@@ -59,17 +60,20 @@ older than the sources, so no separate build step is needed.
 ## 2. XML release
 
 ```
-./ewe export xml release/english-wordnet-$YEAR.xml $META $CORE \
+./ewe export xml release/english-wordnet-$YEAR.xml $META $CORE $LMF \
     --url https://github.com/globalwordnet/english-wordnet
-./ewe export xml release/english-wordnet-$YEAR-plus.xml $META $PLUS \
+./ewe export xml release/english-wordnet-$YEAR-plus.xml $META $PLUS $LMF \
     --url https://github.com/globalwordnet/english-wordnet
 ```
 
-Neither edition contains part of speech `e`, so both are valid against the
-default `WN-LMF-1.4.dtd`. To release against WN-LMF 1.5 instead (which adds
-`Lemma/@reconstructed`), add `--lmf-version 1.5` to both commands above; EWE
-does not yet default to 1.5. The `DOCTYPE` then names `WN-LMF-1.5.dtd`. Check that each file is valid against the WN-LMF DTD
-named in its `DOCTYPE`:
+OEWN 2026 is released in WN-LMF 1.5. OEWN always tries to release in the
+latest version of WN-LMF, as changes to the schema are mostly driven by the
+work on this resource. Until EWE defaults to the latest version, it must be
+selected explicitly with `--lmf-version 1.5` (the `$LMF` variable above); the
+`DOCTYPE` then names `WN-LMF-1.5.dtd`. (Neither edition contains part of speech
+`e`, so both would also be valid against `WN-LMF-1.4.dtd`.)
+
+Check that each file is valid against the WN-LMF DTD named in its `DOCTYPE`:
 
 ```
 xmllint --noout --valid release/english-wordnet-$YEAR.xml
