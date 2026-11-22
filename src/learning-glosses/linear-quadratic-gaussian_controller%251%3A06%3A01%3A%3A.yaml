@@ -1,8 +1,8 @@
 schema: oewn-learning-gloss-v2
 senseId: 'linear-quadratic-gaussian_controller%1:06:01::'
 synsetId: 92462841-n
-simpleMeaning: A device that joins a Kalman filter, a tool that guesses a system's state from noisy measures,
-  with a regulator that keeps a system on course.
+simpleMeaning: A controller combining a Kalman filter, which estimates a system's state from noisy measurements,
+  with a linear-quadratic regulator, which uses that estimate to control the system.
 scope: A device that joins a filter and a regulator, not a single filter; also called LQG controller.
 examples:
 - The linear-quadratic-Gaussian controller keeps the drone steady in wind.

@@ -1,14 +1,13 @@
 schema: oewn-learning-gloss-v2
 senseId: 'residual_standard_deviation%1:09:01::'
 synsetId: 92443349-n
-simpleMeaning: This number judges how close values worked out from a straight line are to the true ones,
-  and how far the points spread from that line.
-scope: It belongs with other measures of spread, but it is the one that deals with points round a straight
-  line and with values worked out from that line.
+simpleMeaning: A measure of how far observed values typically lie from the values predicted by a fitted
+  line.
+scope: It measures the spread of observations around the line, in the same units as the quantity being
+  predicted.
 examples:
-- A residual standard deviation of 0.35 meant most of the guesses made from the line were close to the
-  true values.
-- When the residual standard deviation grew, the line's guesses moved further from the true values.
+- The residual standard deviation was two centimeters when the team predicted plant height.
+- With the same data and units, the better-fitting line had a smaller residual standard deviation.
 editorialStatus: reviewed-model-not-student-validated
 sourceBatch: 1031
 reviewVerdict: first-pass
